@@ -28,4 +28,4 @@ There are a few pieces of infrastructure that are also needed.
 
 # Contributing
 
-There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help.
+There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. I would especially like help finding a statistics gathering server and thinking up a punny name for the pre-compiled crates.
