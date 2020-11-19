@@ -16,7 +16,26 @@ cfg_if! {
     }
 }
 
+// For some reason, rustfmt removes the `async` keyword here.
+#[rustfmt::skip]
 #[wasm_bindgen]
-pub fn greet() -> String {
-    "Hello, wasm-worker!".to_string()
+extern "C" {
+    type KV;
+
+    #[wasm_bindgen(static_method_of = KV)]
+    async fn get(key: &str) -> JsValue;
+
+    #[wasm_bindgen(static_method_of = KV)]
+    async fn put(key: &str, val: &str) -> JsValue;
+
+    #[wasm_bindgen(static_method_of = KV)]
+    async fn delete(key: &str) -> JsValue;
+}
+
+#[wasm_bindgen]
+pub async fn greet() -> String {
+    format!(
+        "Hello, wasm-worker! from KV: {}",
+        KV::get("key-0").await.as_string().unwrap_or("".to_string())
+    )
 }
