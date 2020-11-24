@@ -6,7 +6,6 @@ source .env
 # Uses https://sematext.com/docs/logs/search-through-the-elasticsearch-api/
 # TODO:
 # * Add a time range to the query.
-# * Add aggregation to the query.
 
 QUERY=$(echo '
 {
@@ -15,6 +14,7 @@ QUERY=$(echo '
       "query": "*"
     }
   },
+  "size": 0,
   "aggs": {
     "my_agg": {
       "terms": {
