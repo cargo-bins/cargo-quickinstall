@@ -14,6 +14,14 @@ QUERY=$(echo '
     "query_string": {
       "query": "*"
     }
+  },
+  "aggs": {
+    "my_agg": {
+      "terms": {
+        "field": "proxy.path.raw",
+        "size": 10
+      }
+    }
   }
 }
 ' | jq)
