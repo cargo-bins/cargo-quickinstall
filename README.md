@@ -23,7 +23,7 @@ There are a few pieces of infrastructure that are also needed.
   - I'm assuming that `bintray.com` will be a good place for this.
 - [ ] A server for report gathering
   - It feels like this should already exist. How do botnets do it?
-- [ ] A periodic task for building the most-requested packages for each OS/archetecture
+- [ ] A periodic task for building the most-requested packages for each OS/architecture
   - I think that this can be done with github actions periodic tasks?
 
 ## Contributing
