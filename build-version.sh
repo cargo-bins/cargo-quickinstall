@@ -63,7 +63,7 @@ if ! $CURL --output /dev/null "https://api.bintray.com/packages/cargo-quickinsta
 
     curl --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
 
-    LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed 's:/:", ":g')
+    LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed -e 's:/:", ":g' -e 's/ OR /", "/g')
     REPOSITORY=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .crate.repository)
 
     curl_better \
