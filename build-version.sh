@@ -20,11 +20,17 @@ BINARIES=$(
     '
 )
 
+TARGET_ARCH=$(
+    cat ~/.cargo/.crates2.json | jq -r '
+        .installs | to_entries[] | select(.key|startswith("'${CRATE}' ")) | .value.target
+    '
+)
+
 # FIXME: fetch the latest $VERSION from crates.io, and do this check early, before we've even thought about
 # running `cargo install`
 # FIXME: this filename wants to include the target triple or something.
-if curl --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}.tar.gz"; then
-    echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}.tar.gz already uploaded. Skipping."
+if curl --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+    echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
     exit 0
 fi
 
@@ -38,9 +44,9 @@ echo "$BINARIES"
 # TODO: maybe we want to make a ~/.cargo-quickinstall/bin to untar into,
 # and add symlinks into ~/.cargo/bin, to aid debugging?
 cd ~/.cargo/bin
-tar -czf "${TEMPDIR}/${CRATE}-${VERSION}.tar.gz" $BINARIES
+tar -czf "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" $BINARIES
 
-echo "${TEMPDIR}/${CRATE}-${VERSION}.tar.gz"
+echo "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
 
 CURL='curl --fail --location -w \n'
 
@@ -76,9 +82,9 @@ fi
 
 echo "uploading file"
 $CURL \
-    --upload-file "${TEMPDIR}/${CRATE}-${VERSION}.tar.gz" \
+    --upload-file "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" \
     --user "${BINTRAY_USERNAME}:${BINTRAY_API_KEY}" \
-    "https://api.bintray.com/content/cargo-quickinstall/cargo-quickinstall/${CRATE}/${VERSION}/${CRATE}-${VERSION}.tar.gz"
+    "https://api.bintray.com/content/cargo-quickinstall/cargo-quickinstall/${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
 
 echo "publishing version"
 $CURL \
