@@ -57,7 +57,7 @@ if ! $CURL --output /dev/null "https://api.bintray.com/packages/cargo-quickinsta
 
     curl --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
 
-    LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license)
+    LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed 's:/:", ":g')
     REPOSITORY=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .crate.repository)
 
     curl_better \
@@ -65,11 +65,11 @@ if ! $CURL --output /dev/null "https://api.bintray.com/packages/cargo-quickinsta
         --header "Content-Type: application/json" \
         --data '
             {
-                "name": "'${CRATE}'",
+                "name": "'"${CRATE}"'",
                 "public_download_numbers": true,
                 "public_stats": true,
-                "vcs_url": "'${REPOSITORY}'",
-                "licenses": ["'${LICENSE}'"]
+                "vcs_url": "'"${REPOSITORY}"'",
+                "licenses": ["'"${LICENSE}"'"]
             }' \
         "https://api.bintray.com/packages/cargo-quickinstall/cargo-quickinstall"
 fi
