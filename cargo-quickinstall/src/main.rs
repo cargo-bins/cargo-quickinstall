@@ -44,16 +44,35 @@ fn get_target_triple() -> std::io::Result<String> {
     bash_stdout("rustc --print sysroot | grep --only-matching '[^-]*-[^-]*-[^-]*$'")
 }
 
-fn install_crate(crate_name: &str, version: &str, target: &str) -> std::io::Result<()> {
-    let download_url = format!(
-        "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{}-{}-{}.tar.gz",
-        crate_name, version, target
+fn report_stats_in_background(
+    crate_name: &str,
+    version: &str,
+    target: &str,
+) -> std::thread::JoinHandle<()> {
+    let tarball_name = format!("{}-{}-{}.tar.gz", crate_name, version, target);
+
+    // warehouse-clerk is known to return 404. This is fine. We only use it for stats gathering.
+    let stats_url = format!(
+        "https://warehouse-clerk-tmp.vercel.app/api/crate/{}",
+        tarball_name
     );
-    let command_string = format!(
+    std::thread::spawn(move || {
+        bash_stdout(&format!("curl --head '{}'", stats_url)).unwrap();
+    })
+}
+
+fn install_crate(crate_name: &str, version: &str, target: &str) -> std::io::Result<()> {
+    let tarball_name = format!("{}-{}-{}.tar.gz", crate_name, version, target);
+
+    let download_url = format!(
+        "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{}",
+        tarball_name
+    );
+    let install_command = format!(
         "curl --location --fail '{}' | tar -xzvvf - -C ~/.cargo/bin 2>&1",
         download_url
     );
-    let tar_output = bash_stdout(&command_string)?;
+    let tar_output = bash_stdout(&install_command)?;
 
     println!(
         "Installed {} {} to ~/.cargo/bin:\n{}",
@@ -75,7 +94,9 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let version = get_latest_version(crate_name)?;
     let target = get_target_triple()?;
 
+    let stats_handle = report_stats_in_background(crate_name, &version, &target);
     install_crate(crate_name, &version, &target)?;
+    stats_handle.join().unwrap();
 
     Ok(())
 }

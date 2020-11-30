@@ -7,8 +7,8 @@
 `cargo quickinstall $package` should:
 
 - [x] Attempt to fetch precompiled binaries for \$package if they exist.
+  - [x] Report the download attempt to our stats server so we know what to build next.
   - [x] Download from `bintray.com`.
-  - [ ] Check signatures
   - [x] Unpack to `~/.cargo/bin`.
   - [ ] Somehow update `~/.cargo/.crates2.toml` and `~/.cargo/.crates2.json`?
 - [ ] Fall back to running `cargo install $package`.
@@ -29,7 +29,7 @@ There are a few pieces of infrastructure that are also needed.
 
 - [x] A server for distributing the pre-built binaries
   - I'm assuming that `bintray.com` is a good place for this.
-- [ ] A server for report gathering
+- [x] A server for report gathering
   - This will be done using a stateless vercel server and a sematext log dump. I have most of this written already.
 - [ ] A periodic task for building the most-requested packages for each OS/architecture
   - I think that this can be done with github actions periodic tasks?
