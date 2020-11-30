@@ -18,6 +18,6 @@ jobs:
           touch .env
           ./build-version.sh cargo-quickinstall
       - name: Install Thyself
-        run: cargo install cargo-quickinstall
+        run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself
         run: cargo quickinstall cargo-quickinstall
