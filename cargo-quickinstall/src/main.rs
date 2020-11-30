@@ -7,32 +7,49 @@
 // I suspect that there will be ways to clean this up without increasing
 // the bootstrapping time too much. Patches to do this would be very welcome.
 
-fn get_latest_version(crate_name: &str) -> std::io::Result<String> {
-    let command_string = format!(
-        "set -euxo pipefail && curl --location --fail 'https://crates.io/api/v1/crates/{}' | jq -r .versions[0].num",
-        crate_name
-    );
+fn bash_stdout(command_string: &str) -> std::io::Result<String> {
+    let command_string = format!("set -euo pipefail && {}", command_string);
     let output = std::process::Command::new("bash")
         .arg("-c")
-        .arg(command_string)
+        .arg(&command_string)
         .output()?;
 
-    let mut version = String::from_utf8(output.stdout).unwrap();
-    version.retain(|c| !c.is_ascii_whitespace());
-    Ok(version)
+    if !output.status.success() {
+        println!("{:?} => {:#?}", command_string, output);
+        return Err(std::io::Error::new(
+            std::io::ErrorKind::Other,
+            "Command failed",
+        ));
+    }
+
+    let mut stdout = String::from_utf8(output.stdout).unwrap();
+    let len = stdout.trim_end_matches('\n').len();
+    stdout.truncate(len);
+    Ok(stdout)
+}
+
+fn get_latest_version(crate_name: &str) -> std::io::Result<String> {
+    let command_string = format!(
+        "curl --location --fail 'https://crates.io/api/v1/crates/{}' | jq -r .versions[0].num",
+        crate_name
+    );
+    bash_stdout(&command_string)
 }
 
 fn get_target_triple() -> std::io::Result<String> {
-    let command_string =
-        "set -euxo pipefail && rustc --print sysroot | grep --only-matching '[^-]*-[^-]*-[^-]*$'";
-    let output = std::process::Command::new("bash")
-        .arg("-c")
-        .arg(command_string)
-        .output()?;
+    bash_stdout("rustc --print sysroot | grep --only-matching '[^-]*-[^-]*-[^-]*$'")
+}
 
-    let mut triple = String::from_utf8(output.stdout).unwrap();
-    triple.retain(|c| !c.is_ascii_whitespace());
-    Ok(triple)
+fn install_crate(crate_name: &str, version: &str, target: &str) -> std::io::Result<String> {
+    let download_url = format!(
+        "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{}-{}-{}.tar.gz",
+        crate_name, version, target
+    );
+    let command_string = format!(
+        "curl --location --fail '{}' | tar -xzvvf - -C ~/.cargo/bin 2>&1",
+        download_url
+    );
+    bash_stdout(&command_string)
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
@@ -51,19 +68,9 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let version = get_latest_version(crate_name)?;
     let target = get_target_triple()?;
 
-    let download_url = format!(
-        "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{}-{}-{}.tar.gz",
-        crate_name, version, target
-    );
-    let command_string = format!(
-        "set -euxo pipefail && cd ~/.cargo/bin && curl --location --fail '{}' | tar -xzvf -",
-        download_url
-    );
-    std::process::Command::new("bash")
-        .arg("-c")
-        .arg(command_string)
-        .status()
-        .map_err(|e| format!("{:?}", e))?;
+    let tar_output = install_crate(crate_name, &version, &target)?;
+
+    println!("Installed {} {}:\n{}", crate_name, version, tar_output);
 
     Ok(())
 }
