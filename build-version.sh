@@ -34,6 +34,7 @@ if curl --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/
     exit 0
 fi
 
+# FIXME: make a signal handler that cleans this up if we exit early.
 TEMPDIR=$(mktemp -d)
 
 echo "$VERSION"
