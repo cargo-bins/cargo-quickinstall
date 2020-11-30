@@ -20,7 +20,7 @@ jobs:
         run: |
           set -euo pipefail
           touch .env
-          env | sed 's/^[A-Z_]*=/$1\n/g'
+          env | sed 's/^\([A-Z_]*\)=.*/\1/g'
           crate=$(./next-unbuilt-package.sh)
 
           # export `crate` to the top level
