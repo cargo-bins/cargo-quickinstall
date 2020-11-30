@@ -33,6 +33,7 @@ There are a few pieces of infrastructure that are also needed.
   - This will be done using a stateless vercel server and a sematext log dump. I have most of this written already.
 - [ ] A periodic task for building the most-requested packages for each OS/architecture
   - I have half an idea of how to do this, but I'm not sure how to sandbox the builds properly.
+  - Until then, I will vet requested crates manually and make sure they are uploaded to https://bintray.com/cargo-quickinstall/cargo-quickinstall
 
 ## Contributing
 
