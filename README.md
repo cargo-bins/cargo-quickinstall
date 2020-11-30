@@ -32,7 +32,7 @@ There are a few pieces of infrastructure that are also needed.
 - [x] A server for report gathering
   - This will be done using a stateless vercel server and a sematext log dump. I have most of this written already.
 - [ ] A periodic task for building the most-requested packages for each OS/architecture
-  - I think that this can be done with github actions periodic tasks?
+  - I have half an idea of how to do this, but I'm not sure how to sandbox the builds properly.
 
 ## Contributing
 
