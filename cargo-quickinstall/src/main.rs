@@ -44,7 +44,7 @@ fn get_target_triple() -> std::io::Result<String> {
     bash_stdout("rustc --print sysroot | grep --only-matching '[^-]*-[^-]*-[^-]*$'")
 }
 
-fn install_crate(crate_name: &str, version: &str, target: &str) -> std::io::Result<String> {
+fn install_crate(crate_name: &str, version: &str, target: &str) -> std::io::Result<()> {
     let download_url = format!(
         "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{}-{}-{}.tar.gz",
         crate_name, version, target
@@ -53,7 +53,14 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> std::io::Resu
         "curl --location --fail '{}' | tar -xzvvf - -C ~/.cargo/bin 2>&1",
         download_url
     );
-    bash_stdout(&command_string)
+    let tar_output = bash_stdout(&command_string)?;
+
+    println!(
+        "Installed {} {} to ~/.cargo/bin:\n{}",
+        crate_name, version, tar_output
+    );
+
+    Ok(())
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
@@ -72,9 +79,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let version = get_latest_version(crate_name)?;
     let target = get_target_triple()?;
 
-    let tar_output = install_crate(crate_name, &version, &target)?;
-
-    println!("Installed {} {}:\n{}", crate_name, version, tar_output);
+    install_crate(crate_name, &version, &target)?;
 
     Ok(())
 }
