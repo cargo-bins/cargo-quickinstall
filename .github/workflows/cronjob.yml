@@ -1,0 +1,40 @@
+# Run every hour on the hour.
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  self-build:
+    name: Self-Build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Thyself
+        env:
+          SEMATEXT_API_KEY: ${{ secrets.SEMATEXT_API_KEY }}
+          SEMATEXT_APP_TOKEN: ${{ secrets.SEMATEXT_APP_TOKEN }}
+          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
+          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
+        run: |
+          set -euo pipefail
+          touch .env
+          for crate in $(
+            # FIXME: find a better naming scheme for this so that it can be parsed more easily
+            ./get-stats.sh |
+                jq -r '.aggregations.my_agg.buckets | map(.key)| .[]' |
+                sed -n 's:^/api/crate/::p' |
+                sed 's/-[0-9].*$//'
+          )
+          do
+            # TODO: sandbox or whitelist better
+            if [[ "$crate" == "cargo-edit" ]]; then
+              ./build-version.sh "$crate"
+            fi
+          done
+      - name: Install Thyself
+        run: cargo install --path cargo-quickinstall
+      - name: Install Thyself with Thyself
+        run: cargo quickinstall cargo-quickinstall
