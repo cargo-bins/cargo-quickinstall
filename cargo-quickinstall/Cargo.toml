@@ -3,6 +3,9 @@ name = "cargo-quickinstall"
 version = "0.1.0"
 authors = ["David Laban <david.laban@red-badger.com>"]
 edition = "2018"
+description = "Precompiled binary installs for `cargo install`"
+license = "MIT OR Apache-2.0"
+readme = "../README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
