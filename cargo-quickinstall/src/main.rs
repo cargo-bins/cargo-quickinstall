@@ -37,6 +37,10 @@ fn get_latest_version(crate_name: &str) -> std::io::Result<String> {
 }
 
 fn get_target_triple() -> std::io::Result<String> {
+    // In theory I should ve using `rustup show active-toolchain` but that is
+    // slightly more difficult to parse than `rustc --print sysroot` and I'm
+    // not sure if it's available on all systems.
+    // Send me a patch if this breaks for you.
     bash_stdout("rustc --print sysroot | grep --only-matching '[^-]*-[^-]*-[^-]*$'")
 }
 
