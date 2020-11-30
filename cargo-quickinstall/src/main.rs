@@ -72,12 +72,29 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> std::io::Resu
         "curl --location --fail '{}' | tar -xzvvf - -C ~/.cargo/bin 2>&1",
         download_url
     );
-    let tar_output = bash_stdout(&install_command)?;
+    match bash_stdout(&install_command) {
+        Ok(tar_output) => println!(
+            "Installed {} {} to ~/.cargo/bin:\n{}",
+            crate_name, version, tar_output
+        ),
+        Err(err) => {
+            println!(
+                "Got {:?} when trying to install. Falling back to `cargo install`.",
+                err
+            );
+            println!("We have reported your installation request, so it should be built soon.");
 
-    println!(
-        "Installed {} {} to ~/.cargo/bin:\n{}",
-        crate_name, version, tar_output
-    );
+            if !std::process::Command::new("cargo")
+                .arg("install")
+                .arg(crate_name)
+                .status()?
+                .success()
+            {
+                println!("hrm. `cargo install` didn't work either. Looks like you're on your own.");
+                std::process::exit(1)
+            }
+        }
+    }
 
     Ok(())
 }
