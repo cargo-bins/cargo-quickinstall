@@ -4,7 +4,10 @@ on: push
 jobs:
   self-build:
     name: Self-Build
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
       - name: Build Thyself
