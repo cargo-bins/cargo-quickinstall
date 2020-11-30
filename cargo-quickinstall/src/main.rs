@@ -65,14 +65,10 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> std::io::Resu
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let args = std::env::args().collect::<Vec<_>>();
-    let crate_name = if args[0] == "cargo" {
-        assert_eq!(args[1], "quickinstall");
+    let crate_name = if let Some(true) = args.get(1).map(|a| a == "quickinstall") {
         args.get(2)
-    } else if args[0].ends_with("cargo-quickinstall") {
-        args.get(1)
     } else {
-        dbg!(args);
-        unreachable!("cargo should run our binary with quickinstall as the first argument")
+        args.get(1)
     };
 
     let crate_name = crate_name.ok_or("USAGE: cargo quickinsall CRATE_NAME")?;
