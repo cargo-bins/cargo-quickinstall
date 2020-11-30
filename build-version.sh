@@ -20,11 +20,7 @@ BINARIES=$(
     '
 )
 
-TARGET_ARCH=$(
-    cat ~/.cargo/.crates2.json | jq -r '
-        .installs | to_entries[] | select(.key|startswith("'${CRATE}' ")) | .value.target
-    '
-)
+TARGET_ARCH=$(rustc --version --verbose | sed -n 's/host: //p')
 
 # FIXME: fetch the latest $VERSION from crates.io, and do this check early, before we've even thought about
 # running `cargo install`
