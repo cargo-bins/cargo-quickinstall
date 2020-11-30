@@ -1,0 +1,12 @@
+# Run this workflow every time a new commit pushed to your repository
+on: push
+
+jobs:
+  self-build:
+    name: Self-Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Thyself
+        run: cargo install cargo-quickinstall
+      - name: Install Thyself with Thyself
+        run: cargo quickinstall cargo-quickinstall
