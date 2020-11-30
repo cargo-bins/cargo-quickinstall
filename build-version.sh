@@ -45,6 +45,8 @@ tar -czf "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" $BINARIES
 
 echo "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
 
+# FIXME: split from here downwards into upload-version.sh or something.
+
 CURL='curl --fail --location -w \n'
 
 function curl_better() {

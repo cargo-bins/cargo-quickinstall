@@ -1,40 +1,54 @@
-# Run every hour on the hour.
+# Run every hour on the hour and on every push because why not?
 on:
   schedule:
     - cron: "0 * * * *"
+  push:
 
 jobs:
-  self-build:
-    name: Self-Build
+  build-popular-package:
+    name: build-popular-package
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
-      - name: Build Thyself
+      - name: find package to build
         env:
           SEMATEXT_API_KEY: ${{ secrets.SEMATEXT_API_KEY }}
           SEMATEXT_APP_TOKEN: ${{ secrets.SEMATEXT_APP_TOKEN }}
-          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
-          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
         run: |
           set -euo pipefail
           touch .env
-          for crate in $(
-            # FIXME: find a better naming scheme for this so that it can be parsed more easily
-            ./get-stats.sh |
-                jq -r '.aggregations.my_agg.buckets | map(.key)| .[]' |
-                sed -n 's:^/api/crate/::p' |
-                sed 's/-[0-9].*$//'
-          )
-          do
-            # TODO: sandbox or whitelist better
-            if [[ "$crate" == "cargo-edit" ]]; then
-              ./build-version.sh "$crate"
-            fi
-          done
-      - name: Install Thyself
-        run: cargo install --path cargo-quickinstall
-      - name: Install Thyself with Thyself
-        run: cargo quickinstall cargo-quickinstall
+          env
+          crate=$(./next-unbuilt-package.sh)
+
+          # export `crate` to the top level
+      - name: build package
+        env:
+          # FIXME: don't make ./build-version.sh do the upload
+          # and somehow drop privs so that only artifact uploads
+          # can happen or something.
+          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
+          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
+        run: |
+          if [[ "$crate" == "cargo-edit" ]]; then
+            ./build-version.sh "$crate"
+          fi
+          # export $TMPDIR to the top level?
+      # - name: upload an artifact
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: built
+      #     path: thing.tar.gz
+  upload-popular-package:
+    needs: build-popular-package
+    runs-on: ubuntu-latest
+    steps:
+      - name: fetch artifact
+        run: echo "dunno how to do this"
+      - name: upload artifact
+        env:
+          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
+          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
+        run: echo "TODO - pull out second half of ./build-version.sh"
