@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Thyself
-        run: cargo install cargo-quickinstall
+        run: cargo install --debug cargo-quickinstall
       - name: Install Thyself with Thyself
         run: cargo quickinstall cargo-quickinstall
