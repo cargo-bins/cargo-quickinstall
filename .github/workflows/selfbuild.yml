@@ -6,6 +6,7 @@ jobs:
     name: Self-Build
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Build Thyself
         env:
           SEMATEXT_API_KEY: ${{ secrets.SEMATEXT_API_KEY }}
