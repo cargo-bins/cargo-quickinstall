@@ -37,7 +37,7 @@ There are a few pieces of infrastructure that are also needed.
 
 ## Contributing
 
-There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. Poke @alsuren on Twitter or the Rust Discord if you want to pair on anything.
+There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. Poke [@alsuren](https://twitter.com/alsuren) on Twitter or Discord if you want to pair on anything.
 
 ## Roadmap
 
