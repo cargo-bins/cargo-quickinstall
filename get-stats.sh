@@ -25,6 +25,6 @@ QUERY=$(echo '
   }
 }
 ' | jq)
-echo "$QUERY"
+# echo "$QUERY"
 
 curl -u "apiKey:${SEMATEXT_API_KEY}" -XGET "logsene-receiver.sematext.com/${SEMATEXT_APP_TOKEN}/_search?pretty" -d "$QUERY"
