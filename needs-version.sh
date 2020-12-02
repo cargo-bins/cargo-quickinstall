@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CRATE=${1?"USAGE: $0 CRATE"}
-VERSION=$(curl --location --fail 'https://crates.io/api/v1/crates/{}' | jq -r .versions[0].num)
+VERSION=$(curl --location --fail "https://crates.io/api/v1/crates/${CRATE}" | jq -r .versions[0].num)
 TARGET_ARCH=$(rustc --version --verbose | sed -n 's/host: //p')
 
 # FIXME: fetch the latest $VERSION from crates.io, and do this check early, before we've even thought about
