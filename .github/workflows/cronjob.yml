@@ -1,8 +1,11 @@
-# Run every hour on the hour and on every push because why not?
+# Run every hour on the hour.
+# `actions` is the name of my prototyping branch, so also run this job when I push there.
 on:
   schedule:
     - cron: "0 * * * *"
   push:
+    branches:
+      - actions
 
 jobs:
   build-popular-package:
@@ -13,7 +16,8 @@ jobs:
         os: [macos-latest, ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
-      - name: find package to build
+      - name: find crate to build
+        id: find_crate
         env:
           SEMATEXT_API_KEY: ${{ secrets.SEMATEXT_API_KEY }}
           SEMATEXT_APP_TOKEN: ${{ secrets.SEMATEXT_APP_TOKEN }}
@@ -24,6 +28,7 @@ jobs:
           crate=$(./next-unbuilt-package.sh)
 
           # export `crate` to the top level
+          echo "::set-output name=crate_to_build::$crate"
       - name: build package
         env:
           # FIXME: don't make ./build-version.sh do the upload
@@ -32,23 +37,27 @@ jobs:
           BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
           BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
         run: |
-          if [[ "$crate" == "cargo-edit" ]]; then
+          set -euo pipefail
+          crate="${{steps.find_crate.outputs.crate_to_build}}"
+          if [[ "$crate" == "cargo-quickinstall" ]]; then
             ./build-version.sh "$crate"
           fi
-          # export $TMPDIR to the top level?
+          # export $TMPDIR to the top level, or pass TMPDIR in as a known location?
+      ## NOTE: We might not need to do this job separation with artifacts dance
+      ## if we can appropriately sandbox build using docker-witin-docker or something.
       # - name: upload an artifact
       #   uses: actions/upload-artifact@v2
       #   with:
       #     name: built
       #     path: thing.tar.gz
-  upload-popular-package:
-    needs: build-popular-package
-    runs-on: ubuntu-latest
-    steps:
-      - name: fetch artifact
-        run: echo "dunno how to do this"
-      - name: upload artifact
-        env:
-          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
-          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
-        run: echo "TODO - pull out second half of ./build-version.sh"
+  # upload-popular-package:
+  #   needs: build-popular-package
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: fetch artifact
+  #       run: echo "dunno how to do this"
+  #     - name: upload artifact
+  #       env:
+  #         BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
+  #         BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
+  #       run: echo "TODO - pull out second half of ./build-version.sh"
