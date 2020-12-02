@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euxo pipefail
+
 for crate in $(
   # FIXME: find a better naming scheme for this so that it can be parsed more easily
   ./get-stats.sh |
