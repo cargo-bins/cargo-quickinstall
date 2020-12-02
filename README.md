@@ -39,6 +39,8 @@ There are a few pieces of infrastructure that are also needed.
 
 There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. Poke [@alsuren](https://twitter.com/alsuren) on Twitter or Discord if you want to pair on anything.
 
+Work is currently tracked on [the kanban board](https://github.com/alsuren/cargo-quickinstall/projects/1?fullscreen=true). It's a bit messy. Anything with more than one checkbox can be thought of as an epic. Smaller cards are often split out which duplicate parts of the epic, in order to focus my attention on a single small ticket when I look at the board. If you want help breaking down a card, give me a shout.
+
 ## Roadmap
 
 This is mostly a proof of concept at the moment. If it is useful to people then I will propose including it in upstream cargo (at which point, the build time is less important). There is probably an intermediate step which involves using feature-flags to replace bash calls with rust libraries.
