@@ -2,9 +2,6 @@
 
 set -euxo pipefail
 
-needs_version() {
-}
-
 for CRATE in $(
   # FIXME: find a better naming scheme for this so that it can be parsed more easily
   ./get-stats.sh |
