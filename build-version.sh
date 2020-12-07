@@ -7,7 +7,9 @@ CRATE=${1?"USAGE: $0 CRATE"}
 date
 
 # FIXME: make a signal handler that cleans this up if we exit early.
-TEMPDIR="$(mktemp -d)"
+if [ ! -d "$TEMPDIR" ]; then
+    TEMPDIR="$(mktemp -d)"
+fi
 
 curl --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
 

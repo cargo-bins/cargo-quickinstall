@@ -26,7 +26,8 @@ jobs:
         run: |
           set -euo pipefail
           touch .env
-          crate=$(./next-unbuilt-package.sh)
+          # This script will do the `::set-output` dance for us
+          ./next-unbuilt-package.sh
 
           # export `crate` to the top level
           echo "::set-output name=crate_to_build::$crate"
@@ -37,28 +38,11 @@ jobs:
           # can happen or something.
           BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
           BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
+          TEMPDIR: /tmp/built.d/
         run: |
           set -euo pipefail
+          mkdir -p "$TEMPDIR"
           crate="${{steps.find_crate.outputs.crate_to_build}}"
           if [[ "$crate" == "cargo-quickinstall" ]]; then
             ./build-version.sh "$crate"
           fi
-          # export $TMPDIR to the top level, or pass TMPDIR in as a known location?
-      ## NOTE: We might not need to do this job separation with artifacts dance
-      ## if we can appropriately sandbox build using docker-within-docker or something.
-      # - name: upload an artifact
-      #   uses: actions/upload-artifact@v2
-      #   with:
-      #     name: built
-      #     path: thing.tar.gz
-  # upload-popular-package:
-  #   needs: build-popular-package
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: fetch artifact
-  #       run: echo "dunno how to do this"
-  #     - name: upload artifact
-  #       env:
-  #         BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
-  #         BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
-  #       run: echo "TODO - pull out second half of ./build-version.sh"
