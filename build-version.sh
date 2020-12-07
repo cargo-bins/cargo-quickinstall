@@ -6,35 +6,29 @@ source .env
 CRATE=${1?"USAGE: $0 CRATE"}
 date
 
-cargo install "$CRATE"
+# FIXME: make a signal handler that cleans this up if we exit early.
+TEMPDIR="$(mktemp -d)"
+
+curl --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
 
 VERSION=$(
-    cat ~/.cargo/.crates2.json | jq -r '
-        .installs | to_entries[] | select(.key|startswith("'${CRATE}' ")) | .key
-    ' | sed -e 's/^[^ ]* //' -e 's/ .*$//'
+    cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].num
 )
+
+TARGET_ARCH=$(rustc --version --verbose | sed -n 's/host: //p')
+
+if curl --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+    echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
+    exit 0
+fi
+
+cargo install "$CRATE" --version "$VERSION"
 
 BINARIES=$(
     cat ~/.cargo/.crates2.json | jq -r '
         .installs | to_entries[] | select(.key|startswith("'${CRATE}' ")) | .value.bins | .[]
     '
 )
-
-TARGET_ARCH=$(rustc --version --verbose | sed -n 's/host: //p')
-
-# FIXME: fetch the latest $VERSION from crates.io, and do this check early, before we've even thought about
-# running `cargo install`
-# FIXME: this filename wants to include the target triple or something.
-if curl --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
-    echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
-    exit 0
-fi
-
-# FIXME: make a signal handler that cleans this up if we exit early.
-TEMPDIR=$(mktemp -d)
-
-echo "$VERSION"
-echo "$BINARIES"
 
 # Package up the binaries so that they can be untarred in ~/.cargo/bin
 #
@@ -59,8 +53,6 @@ function curl_better() {
 
 if ! $CURL --output /dev/null "https://api.bintray.com/packages/cargo-quickinstall/cargo-quickinstall/${CRATE}"; then
     echo "package '${CRATE}' not found"
-
-    curl --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
 
     LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed -e 's:/:", ":g' -e 's/ OR /", "/g')
     REPOSITORY=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .crate.repository)
