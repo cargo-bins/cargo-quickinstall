@@ -28,9 +28,6 @@ jobs:
           touch .env
           # This script will do the `::set-output` dance for us
           ./next-unbuilt-package.sh
-
-          # export `crate` to the top level
-          echo "::set-output name=crate_to_build::$crate"
       - name: build package
         env:
           # FIXME: don't make ./build-version.sh do the upload
