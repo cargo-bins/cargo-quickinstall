@@ -30,11 +30,6 @@ jobs:
           ./next-unbuilt-package.sh
       - name: build package
         env:
-          # FIXME: don't make ./build-version.sh do the upload
-          # and somehow drop privs so that only artifact uploads
-          # can happen or something.
-          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
-          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
           TEMPDIR: /tmp/built.d/
         run: |
           set -euo pipefail
@@ -42,4 +37,18 @@ jobs:
           crate="${{steps.find_crate.outputs.crate_to_build}}"
           if [[ "$crate" == "cargo-quickinstall" ]]; then
             ./build-version.sh "$crate"
+          fi
+      - name: upload package
+        env:
+          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
+          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
+          TEMPDIR: /tmp/built.d/
+        run: |
+          set -euo pipefail
+          mkdir -p "$TEMPDIR"
+          crate="${{steps.find_crate.outputs.crate_to_build}}"
+          version="${{steps.find_crate.outputs.version_to_build}}"
+          arch="${{steps.find_crate.outputs.arch_to_build}}"
+          if [[ "$crate" == "cargo-quickinstall" ]]; then
+            ./upload-version.sh "$crate" "$version" "$arch"
           fi
