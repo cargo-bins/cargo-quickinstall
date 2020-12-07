@@ -43,7 +43,7 @@ jobs:
           fi
           # export $TMPDIR to the top level, or pass TMPDIR in as a known location?
       ## NOTE: We might not need to do this job separation with artifacts dance
-      ## if we can appropriately sandbox build using docker-witin-docker or something.
+      ## if we can appropriately sandbox build using docker-within-docker or something.
       # - name: upload an artifact
       #   uses: actions/upload-artifact@v2
       #   with:
