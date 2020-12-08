@@ -12,9 +12,11 @@ if [ ! -d "$TEMPDIR" ]; then
 fi
 
 # see crawler policy: https://crates.io/policies
-CURL='sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)"'
+curl_slowly() {
+    sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
+}
 
-$CURL --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
+curl_slowly --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
 
 VERSION=$(
     cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].num
@@ -22,7 +24,7 @@ VERSION=$(
 
 TARGET_ARCH=$(rustc --version --verbose | sed -n 's/host: //p')
 
-if $CURL --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+if curl_slowly --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
     echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
     exit 0
 fi
