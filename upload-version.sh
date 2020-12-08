@@ -38,7 +38,7 @@ if ! $CURL --output /dev/null "https://api.bintray.com/packages/cargo-quickinsta
                 "vcs_url": "'"${REPOSITORY}"'",
                 "licenses": ["'"${LICENSE}"'"]
             }' \
-        "https://api.bintray.com/packages/cargo-quickinstall/cargo-quickinstall"
+        "https://api.bintray.com/packages/cargo-quickinstall/cargo-quickinstall" || echo "someone created $CRATE before us"
 fi
 
 echo "uploading file"
