@@ -30,7 +30,12 @@ fn bash_stdout(command_string: &str) -> std::io::Result<String> {
 
 fn get_latest_version(crate_name: &str) -> std::io::Result<String> {
     let command_string = format!(
-        "curl --location --fail 'https://crates.io/api/v1/crates/{}' | jq -r .versions[0].num",
+        "curl \
+            --user-agent 'cargo-quickinstall build pipeline (alsuren@gmail.com)' \
+            --location \
+            --fail \
+            'https://crates.io/api/v1/crates/{}' \
+            | jq -r .versions[0].num",
         crate_name
     );
     bash_stdout(&command_string)
