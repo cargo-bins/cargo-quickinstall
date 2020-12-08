@@ -44,7 +44,7 @@ jobs:
           mkdir -p "$TEMPDIR"
           # FIXME: also pass in version and arch here.
           crate="${{steps.find_crate.outputs.crate_to_build}}"
-          true || ./build-version.sh "$crate"
+          touch /tmp/built.d/bogus.txt || ./build-version.sh "$crate"
       # At this point, I don't think that you can really trust anything on the system anymore.
       # I'm not sure whether the js actions runtime is also affected by this.
       # TODO: try breaking things so that uploads don't work.
