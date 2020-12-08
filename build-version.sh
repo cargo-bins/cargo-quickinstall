@@ -7,7 +7,7 @@ CRATE=${1?"USAGE: $0 CRATE"}
 date
 
 # FIXME: make a signal handler that cleans this up if we exit early.
-if [ ! -d "$TEMPDIR" ]; then
+if [ ! -d "${TEMPDIR:-}" ]; then
     TEMPDIR="$(mktemp -d)"
 fi
 
