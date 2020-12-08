@@ -15,11 +15,7 @@ set -euxo pipefail
 #         sed s/^.*://
 # and then audit any new entries.
 POPULAR_CRATES="
-y2z/monolith
-ogham/dog
-tanakh/cargo-atcoder
 bat
-benschza/pier
 cargo-bump
 watchexec
 ripgrep
@@ -28,7 +24,6 @@ tokei
 exa
 starship
 fd-find
-kbknapp/docli
 cargo-binutils
 skim
 gptman
@@ -115,6 +110,12 @@ gitoxide
 otpcli
 i2p_client
 sniffglue
+rmesg
+investments
+hunter
+rpick
+cicada
+
 "
 
 for CRATE in $POPULAR_CRATES; do
