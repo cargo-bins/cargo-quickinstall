@@ -35,9 +35,7 @@ jobs:
           set -euo pipefail
           mkdir -p "$TEMPDIR"
           crate="${{steps.find_crate.outputs.crate_to_build}}"
-          if [[ "$crate" == "cargo-quickinstall" ]]; then
-            ./build-version.sh "$crate"
-          fi
+          ./build-version.sh "$crate"
       - name: upload package
         env:
           BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
@@ -49,6 +47,4 @@ jobs:
           crate="${{steps.find_crate.outputs.crate_to_build}}"
           version="${{steps.find_crate.outputs.version_to_build}}"
           arch="${{steps.find_crate.outputs.arch_to_build}}"
-          if [[ "$crate" == "cargo-quickinstall" ]]; then
-            ./upload-version.sh "$crate" "$version" "$arch"
-          fi
+          ./upload-version.sh "$crate" "$version" "$arch"
