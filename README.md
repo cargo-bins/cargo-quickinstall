@@ -1,5 +1,7 @@
 # cargo-quickinstall
 
+[![Join the chat at https://gitter.im/cargo-quickinstall/community](https://badges.gitter.im/cargo-quickinstall/community.svg)](https://gitter.im/cargo-quickinstall/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 `cargo-quickinstall` is a bit like homebrew's concept of [Bottles (binary packages)](https://docs.brew.sh/Bottles), but for `cargo install`.
 
 ## Problem Statement
