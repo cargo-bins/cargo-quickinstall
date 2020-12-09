@@ -42,7 +42,6 @@ elf2tab
 lsd
 bandwhich
 sd
-gitui
 project_init
 hyperfine
 scryer-prolog
