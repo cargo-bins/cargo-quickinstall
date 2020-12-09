@@ -1,6 +1,5 @@
 # cargo-quickinstall
 
-[![Build Status](https://github.com/killercup/cargo-edit/workflows/build/badge.svg)](https://github.com/killercup/cargo-edit/actions)
 [![Crates.io](https://img.shields.io/crates/v/cargo-quickinstall.svg)](https://crates.io/crates/cargo-quickinstall)
 [![Join the chat at https://gitter.im/cargo-quickinstall/community](https://badges.gitter.im/cargo-quickinstall/community.svg)](https://gitter.im/cargo-quickinstall/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
