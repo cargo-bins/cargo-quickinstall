@@ -39,7 +39,6 @@ petname
 bottom
 dijo
 elf2tab
-intel-mkl-tool
 lsd
 bandwhich
 sd
@@ -118,7 +117,6 @@ investments
 hunter
 rpick
 cicada
-
 "
 
 # see crawler policy: https://crates.io/policies
