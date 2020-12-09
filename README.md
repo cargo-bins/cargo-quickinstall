@@ -1,14 +1,16 @@
 # cargo-quickinstall
 
+[![Build Status](https://github.com/killercup/cargo-edit/workflows/build/badge.svg)](https://github.com/killercup/cargo-edit/actions)
+[![Crates.io](https://img.shields.io/crates/v/cargo-quickinstall.svg)](https://crates.io/crates/cargo-quickinstall)
 [![Join the chat at https://gitter.im/cargo-quickinstall/community](https://badges.gitter.im/cargo-quickinstall/community.svg)](https://gitter.im/cargo-quickinstall/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-`cargo-quickinstall` is a bit like homebrew's concept of [Bottles (binary packages)](https://docs.brew.sh/Bottles), but for `cargo install`.
+`cargo-quickinstall` is a bit like Homebrew's concept of [Bottles (binary packages)](https://docs.brew.sh/Bottles), but for `cargo install`.
 
 ## Problem Statement
 
 `cargo quickinstall $package` should:
 
-- [x] Attempt to fetch precompiled binaries for \$package if they exist.
+- [x] Attempt to fetch pre-compiled binaries for \$package if they exist.
   - [x] Report the download attempt to our stats server so we know what to build next.
   - [x] Download from `bintray.com`.
   - [x] Unpack to `~/.cargo/bin`.
@@ -32,14 +34,13 @@ There are a few pieces of infrastructure that are also needed.
 - [x] A server for distributing the pre-built binaries
   - I'm assuming that `bintray.com` is a good place for this.
 - [x] A server for report gathering
-  - This will be done using a stateless vercel server and a sematext log dump. I have most of this written already.
-- [ ] A periodic task for building the most-requested packages for each OS/architecture
-  - I have half an idea of how to do this, but I'm not sure how to sandbox the builds properly.
-  - Until then, I will vet requested crates manually and make sure they are uploaded to https://bintray.com/cargo-quickinstall/cargo-quickinstall
+  - This is done using a stateless vercel server and a sematext log dump.
+- [x] A periodic task for building the most-requested packages for each OS/architecture
+  - [ ] Get someone to audit my GitHub Actions sandboxing scheme.
 
 ## Contributing
 
-There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. Poke [@alsuren](https://twitter.com/alsuren) on Twitter or Discord if you want to pair on anything.
+There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. I created a [Gitter](https://gitter.im/cargo-quickinstall/community) room for collaborating in. You can also poke [@alsuren](https://twitter.com/alsuren) on Twitter or Discord. I'm also up for pairing over zoom to get new contributors onboarded.
 
 Work is currently tracked on [the kanban board](https://github.com/alsuren/cargo-quickinstall/projects/1?fullscreen=true). It's a bit messy. Anything with more than one checkbox can be thought of as an epic. Smaller cards are often split out which duplicate parts of the epic, in order to focus my attention on a single small ticket when I look at the board. If you want help breaking down a card, give me a shout.
 
