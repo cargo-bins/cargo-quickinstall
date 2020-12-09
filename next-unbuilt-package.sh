@@ -42,7 +42,6 @@ elf2tab
 lsd
 bandwhich
 sd
-project_init
 hyperfine
 scryer-prolog
 rsign2
