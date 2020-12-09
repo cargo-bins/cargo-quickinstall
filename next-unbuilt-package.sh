@@ -14,6 +14,9 @@ set -euxo pipefail
 #         head -n 100 |
 #         sed s/^.*://
 # and then audit any new entries.
+#
+# TODO: re-add crates from the quickinstall stats server at the top of the list,
+# once someone has audited my github-actions sandboxing.
 POPULAR_CRATES="
 bat
 cargo-bump
