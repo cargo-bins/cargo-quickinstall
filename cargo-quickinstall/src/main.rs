@@ -40,19 +40,12 @@ fn get_latest_version(crate_name: &str) -> std::io::Result<String> {
             'https://crates.io/api/v1/crates/{}'",
         crate_name
     );
-    match bash_stdout(&command_string) {
-        Ok(stdout) => match stdout.parse() {
-            Ok(parsed) => {
-                let parsed: JsonValue = parsed;
-                let mut version: String = parsed["versions"][0]["num"].stringify().unwrap();
-                version.remove(0);
-                version.remove(version.len()-1);
-                Ok(version)
-            },
-            Err(_) => Err(Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))
-        }
-        Err(e) => Err(e)
-    }
+    let stdout =  bash_stdout(&command_string)?;
+    let parsed = stdout.parse()?;
+    let mut version: String = parsed["versions"][0]["num"].stringify().unwrap();
+    version.remove(0);
+    version.remove(version.len()-1);
+    Ok(version)
 }
 
 fn get_target_triple() -> std::io::Result<String> {
