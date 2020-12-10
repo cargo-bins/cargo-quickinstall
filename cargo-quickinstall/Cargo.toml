@@ -11,3 +11,4 @@ repository = "https://github.com/alsuren/cargo-quickinstall"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tinyjson = "2"
