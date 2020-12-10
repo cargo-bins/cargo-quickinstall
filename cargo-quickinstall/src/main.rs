@@ -41,8 +41,11 @@ fn get_latest_version(crate_name: &str) -> std::io::Result<String> {
         crate_name
     );
     let stdout =  bash_stdout(&command_string)?;
-    let parsed = stdout.parse()?;
-    let mut version: String = parsed["versions"][0]["num"].stringify().unwrap();
+    let parsed: Result<JsonValue, Error> = match stdout.parse() {
+        Ok(parsed) => Ok(parsed),
+        Err(_) => Err(Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))
+    };
+    let mut version: String = parsed?["versions"][0]["num"].stringify().unwrap();
     version.remove(0);
     version.remove(version.len()-1);
     Ok(version)
