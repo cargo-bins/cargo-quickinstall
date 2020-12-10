@@ -136,7 +136,7 @@ for CRATE in $POPULAR_CRATES; do
   TARGET_ARCH=$(rustc --version --verbose | sed -n 's/host: //p')
   LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed -e 's:/:", ":g' -e 's/ OR /", "/g')
 
-  if [[ "$LICENSE" = "BSD-3-Clause" ]]; then
+  if [[ "$LICENSE" = "BSD-3-Clause" || "$LICENSE" = "non-standard" ]]; then
     # FIXME: I should really do some kind of license translation so that bintray will accept my packages.
     echo "Skipping ${CRATE} to avoid \"License 'BSD-3-Clause' does not exist\" error when uploading."
   elif curl_slowly --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
