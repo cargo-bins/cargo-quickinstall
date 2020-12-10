@@ -7,6 +7,9 @@
 // I suspect that there will be ways to clean this up without increasing
 // the bootstrapping time too much. Patches to do this would be very welcome.
 
+use tinyjson::JsonValue;
+use std::io::{Error, ErrorKind};
+
 fn bash_stdout(command_string: &str) -> std::io::Result<String> {
     let command_string = format!("set -euo pipefail && {}", command_string);
     let output = std::process::Command::new("bash")
@@ -34,11 +37,18 @@ fn get_latest_version(crate_name: &str) -> std::io::Result<String> {
             --user-agent 'cargo-quickinstall build pipeline (alsuren@gmail.com)' \
             --location \
             --fail \
-            'https://crates.io/api/v1/crates/{}' \
-            | jq -r .versions[0].num",
+            'https://crates.io/api/v1/crates/{}'",
         crate_name
     );
-    bash_stdout(&command_string)
+    let stdout =  bash_stdout(&command_string)?;
+    let parsed: Result<JsonValue, Error> = match stdout.parse() {
+        Ok(parsed) => Ok(parsed),
+        Err(_) => Err(Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))
+    };
+    let mut version: String = parsed?["versions"][0]["num"].stringify().unwrap();
+    version.remove(0);
+    version.remove(version.len()-1);
+    Ok(version)
 }
 
 fn get_target_triple() -> std::io::Result<String> {
