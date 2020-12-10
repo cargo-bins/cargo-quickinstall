@@ -18,6 +18,7 @@ set -euxo pipefail
 # TODO: re-add crates from the quickinstall stats server at the top of the list,
 # once someone has audited my github-actions sandboxing.
 POPULAR_CRATES="
+cargo-quickinstall
 bat
 cargo-bump
 watchexec
@@ -117,6 +118,11 @@ rpick
 cicada
 "
 
+# FIXME: make a signal handler that cleans this up if we exit early.
+if [ ! -d "${TEMPDIR:-}" ]; then
+  TEMPDIR="$(mktemp -d)"
+fi
+
 # see crawler policy: https://crates.io/policies
 curl_slowly() {
   sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
@@ -124,10 +130,16 @@ curl_slowly() {
 
 for CRATE in $POPULAR_CRATES; do
 
-  VERSION=$(curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" | jq -r .versions[0].num)
+  rm -rf "$TEMPDIR/crates.io-response.json"
+  curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
+  VERSION=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].num)
   TARGET_ARCH=$(rustc --version --verbose | sed -n 's/host: //p')
+  LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed -e 's:/:", ":g' -e 's/ OR /", "/g')
 
-  if curl_slowly --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+  if [[ "$LICENSE" = "BSD-3-Clause" ]]; then
+    # FIXME: I should really do some kind of license translation so that bintray will accept my packages.
+    echo "Skipping ${CRATE} to avoid \"License 'BSD-3-Clause' does not exist\" error when uploading."
+  elif curl_slowly --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
     echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going."
   else
     echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building"
