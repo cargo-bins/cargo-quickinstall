@@ -22,6 +22,7 @@ jobs:
           set -euo pipefail
           touch .env
           ./build-version.sh cargo-quickinstall
+          # FIXME: re-enable uploading code here.
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself
