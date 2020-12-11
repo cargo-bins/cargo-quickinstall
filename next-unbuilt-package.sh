@@ -58,7 +58,6 @@ rust-latest
 jql
 hexyl
 git-delta
-sgxs-tools
 spotify-tui
 fw
 routinator
