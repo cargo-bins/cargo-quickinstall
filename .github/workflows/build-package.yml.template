@@ -1,6 +1,6 @@
 name: Build for $TARGET
 
-# triggered by push from cronjob.
+# Triggered by push from cronjob. $TARGET and $BUILD_OS are replaced using sed.
 on:
   push:
     branches:

@@ -64,7 +64,7 @@ main() {
 
         git add package-info.txt .github/workflows/build-package.yml
         git --no-pager diff HEAD
-        git commit -am "Trigger build of $CRATE"
+        git commit -am "build $CRATE"
 
         if ! git push origin "trigger/$TARGET"; then
             echo "
