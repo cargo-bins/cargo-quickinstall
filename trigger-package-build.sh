@@ -54,6 +54,11 @@ main() {
                 -e s/'[$]BUILD_OS '/"$BUILD_OS "/ \
                 >.github/workflows/build-package.yml
 
+        if ! git config user.name; then
+            git config user.email "alsuren+quickinstall@gmail.com"
+            git config user.name "trigger-package-build.sh"
+        fi
+
         git add package-info.txt .github/workflows/build-package.yml
         git --no-pager diff HEAD
         git commit -am "Trigger build of $CRATE"
