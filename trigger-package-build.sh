@@ -58,6 +58,8 @@ main() {
         git --no-pager diff HEAD
         git commit -am "Trigger build of $CRATE"
 
+        git push origin "trigger/$TARGET"
+
         exit 0
     done
 }
