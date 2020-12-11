@@ -15,6 +15,14 @@ get_build_os() {
 }
 
 main() {
+    REPO_ROOT="$PWD"
+    BRANCH=$(git branch --show-current)
+
+    if ! git config user.name; then
+        git config user.email "alsuren+quickinstall@gmail.com"
+        git config user.name "trigger-package-build.sh"
+    fi
+
     for TARGET in x86_64-apple-darwin x86_64-unknown-linux-gnu; do
         BUILD_OS=$(get_build_os "$TARGET")
 
@@ -54,11 +62,6 @@ main() {
                 -e s/'[$]BUILD_OS '/"$BUILD_OS "/ \
                 >.github/workflows/build-package.yml
 
-        if ! git config user.name; then
-            git config user.email "alsuren+quickinstall@gmail.com"
-            git config user.name "trigger-package-build.sh"
-        fi
-
         git add package-info.txt .github/workflows/build-package.yml
         git --no-pager diff HEAD
         git commit -am "Trigger build of $CRATE"
@@ -68,8 +71,5 @@ main() {
         exit 0
     done
 }
-
-REPO_ROOT="$PWD"
-BRANCH=$(git branch --show-current)
 
 main
