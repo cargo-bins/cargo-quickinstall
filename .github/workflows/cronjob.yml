@@ -32,7 +32,7 @@ jobs:
           # This script will do the `::set-output` dance for us
           ./next-unbuilt-package.sh | tee package-info.txt
 
-      - name: Create package-info artifact
+      - name: Create package-info artifact (${{steps.find_crate.outputs.crate_to_build}})
         uses: actions/upload-artifact@v2
         with:
           name: package-info-${{matrix.os}}
