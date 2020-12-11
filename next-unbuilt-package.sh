@@ -58,7 +58,6 @@ rust-latest
 jql
 hexyl
 git-delta
-spotify-tui
 fw
 routinator
 my-iot
