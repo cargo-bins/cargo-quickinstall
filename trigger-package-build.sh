@@ -19,7 +19,7 @@ main() {
         BUILD_OS=$(get_build_os "$TARGET")
 
         rm -rf "/tmp/cargo-quickinstall-$TARGET"
-        git worktree remove -f "/tmp/cargo-quickinstall-$TARGET"
+        git worktree remove -f "/tmp/cargo-quickinstall-$TARGET" || true
         git branch -D "trigger/$TARGET"
 
         git worktree add --force --force "/tmp/cargo-quickinstall-$TARGET"
