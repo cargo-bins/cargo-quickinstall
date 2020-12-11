@@ -66,7 +66,14 @@ main() {
         git --no-pager diff HEAD
         git commit -am "Trigger build of $CRATE"
 
-        git push origin "trigger/$TARGET"
+        if ! git push origin "trigger/$TARGET"; then
+            echo "
+                If you have updated .github/workflows/build-package.yml.template
+                then you will need to run trigger-package-build.sh on your local machine
+                first.
+            "
+            exit 1
+        fi
 
         exit 0
     done
