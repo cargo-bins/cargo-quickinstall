@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+cd "$(dirname "$0")"
+
 CRATE=${1?"USAGE: $0 CRATE VERSION TARGET_ARCH"}
 VERSION=${2?"USAGE: $0 CRATE VERSION TARGET_ARCH"}
 TARGET_ARCH=${3?"USAGE: $0 CRATE VERSION TARGET_ARCH"}

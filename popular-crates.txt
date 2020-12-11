@@ -1,0 +1,112 @@
+# To re-generate this list, run:
+#     curl https://lib.rs/command-line-utilities > cli.html
+#     cat cli.html |
+#         pup ':parent-of(:parent-of(:parent-of(.bin))) json{}' |
+#         jq -r '.[] |
+#             (.children[1].children|map(select(.class == "downloads").title)[0]// "0 ")
+#             + ":" +
+#             (.children[0].children[0].text)' |
+#         sort -gr |
+#         head -n 100 |
+#         sed s/^.*://
+# and then audit any new entries.
+#
+# TODO: re-add crates from the quickinstall stats server at the top of the list,
+# once someone has audited my github-actions sandboxing.
+# first empty line is important
+
+cargo-quickinstall
+bat
+cargo-bump
+watchexec
+ripgrep
+just
+tokei
+exa
+starship
+fd-find
+cargo-binutils
+skim
+gptman
+streampager
+rustdoc-stripper
+du-dust
+procs
+broot
+petname
+bottom
+dijo
+elf2tab
+lsd
+bandwhich
+sd
+hyperfine
+scryer-prolog
+rsign2
+wrangler
+tealdeer
+tin-summer
+nj-cli
+zoxide
+cargo-rpm
+mdcat
+rustscan
+rust-latest
+jql
+hexyl
+git-delta
+fw
+routinator
+critcmp
+yaksay
+rusty-tags
+b3sum
+dutree
+tp-note
+ffsend
+git_lab_cli
+viu
+dotenv-linter
+feroxbuster
+sane-fmt
+podcast
+ff-find
+cargo-trim
+kmon
+file-sniffer
+grex
+so
+what-bump
+xcompress
+tab
+dtn7
+code-minimap
+nitrocli
+fblog
+rexcli
+zdump
+navi
+verco
+svlint
+emplace
+spl-token-cli
+bacon
+yatt
+stack-sizes
+mdblog
+complate
+phetch
+kurobako
+flowy
+rust-covfix
+cobalt-bin
+kickstart
+gitoxide
+otpcli
+i2p_client
+sniffglue
+rmesg
+investments
+hunter
+rpick
+cicada

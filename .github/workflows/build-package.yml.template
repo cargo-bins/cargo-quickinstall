@@ -1,0 +1,92 @@
+name: Build for $TARGET
+
+# triggered by push from cronjob.
+on:
+  push:
+    branches:
+      - trigger/$TARGET
+
+jobs:
+  build-popular-package:
+    name: Build
+    runs-on: $BUILD_OS
+    steps:
+      - name: Checkout trigger commit
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          path: trigger
+      - name: Checkout main repo
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # TODO: maybe this should be main or configurable or something?
+          ref: actions
+          path: cargo-quickinstall
+
+      - name: find crate to build
+        id: find_crate
+        run: |
+          # This will do what we want
+          cat package-info.txt
+
+      - name: Create package-info artifact (${{steps.find_crate.outputs.crate_to_build}})
+        uses: actions/upload-artifact@v2
+        with:
+          name: package-info-${{matrix.os}}
+          path: package-info.txt
+
+      - name: build package
+        env:
+          TEMPDIR: /tmp/built.d/
+        run: |
+          set -euo pipefail
+          mkdir -p "$TEMPDIR"
+          # FIXME: also pass in version and arch here.
+          crate="${{steps.find_crate.outputs.crate_to_build}}"
+          ./build-version.sh "$crate"
+      # At this point, I don't think that you can really trust anything on the system anymore.
+      # I'm not sure whether the js actions runtime is also affected by this.
+      # TODO: try breaking things so that uploads don't work.
+
+      - name: Create binary artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: built-${{matrix.os}}
+          path: /tmp/built.d/
+
+
+  upload-popular-package:
+    name: Upload
+    needs: build-popular-package
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Rehydrate find_crate info
+        id: find_crate
+        run: |
+          # This script will do the `::set-output` dance for us
+          cat package-info.txt
+
+      - name: Download binary artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: built-${{matrix.os}}
+          # TODO: check that we it can't write anywhere other than built.d
+          path: /tmp/built.d/
+
+      - name: upload package
+        env:
+          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
+          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
+          TEMPDIR: /tmp/built.d/
+        run: |
+          set -euo pipefail
+          mkdir -p "$TEMPDIR"
+          crate="${{steps.find_crate.outputs.crate_to_build}}"
+          version="${{steps.find_crate.outputs.version_to_build}}"
+          arch="${{steps.find_crate.outputs.arch_to_build}}"
+          ./upload-version.sh "$crate" "$version" "$arch"
