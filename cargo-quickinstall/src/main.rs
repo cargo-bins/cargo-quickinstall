@@ -7,8 +7,9 @@
 // I suspect that there will be ways to clean this up without increasing
 // the bootstrapping time too much. Patches to do this would be very welcome.
 
-use tinyjson::JsonValue;
+use std::convert::TryInto;
 use std::io::{Error, ErrorKind};
+use tinyjson::JsonValue;
 
 fn bash_stdout(command_string: &str) -> std::io::Result<String> {
     let command_string = format!("set -euo pipefail && {}", command_string);
@@ -40,15 +41,10 @@ fn get_latest_version(crate_name: &str) -> std::io::Result<String> {
             'https://crates.io/api/v1/crates/{}'",
         crate_name
     );
-    let stdout =  bash_stdout(&command_string)?;
-    let parsed: Result<JsonValue, Error> = match stdout.parse() {
-        Ok(parsed) => Ok(parsed),
-        Err(_) => Err(Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))
-    };
-    let mut version: String = parsed?["versions"][0]["num"].stringify().unwrap();
-    version.remove(0);
-    version.remove(version.len()-1);
-    Ok(version)
+    let parsed: JsonValue = bash_stdout(&command_string)?
+        .parse()
+        .map_err(|_| Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))?;
+    Ok(parsed["versions"][0]["num"].clone().try_into().unwrap())
 }
 
 fn get_target_triple() -> std::io::Result<String> {
