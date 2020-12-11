@@ -55,15 +55,24 @@ jobs:
     needs: build-popular-package
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout trigger commit
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
+          path: trigger
+      - name: Checkout main repo
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # TODO: maybe this should be main or configurable or something?
+          ref: actions
+          path: cargo-quickinstall
 
       - name: Rehydrate find_crate info
         id: find_crate
         run: |
           # This script will do the `::set-output` dance for us
-          cat package-info.txt
+          cat trigger/package-info.txt
 
       - name: Download binary artifact
         uses: actions/download-artifact@v2
@@ -83,4 +92,4 @@ jobs:
           crate="${{steps.find_crate.outputs.crate_to_build}}"
           version="${{steps.find_crate.outputs.version_to_build}}"
           arch="${{steps.find_crate.outputs.arch_to_build}}"
-          ./upload-version.sh "$crate" "$version" "$arch"
+          cargo-quickinstall/upload-version.sh "$crate" "$version" "$arch"
