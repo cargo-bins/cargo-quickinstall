@@ -20,7 +20,7 @@ main() {
 
         rm -rf "/tmp/cargo-quickinstall-$TARGET"
         git worktree remove -f "/tmp/cargo-quickinstall-$TARGET" || true
-        git branch -D "trigger/$TARGET"
+        git branch -D "trigger/$TARGET" || true
 
         git worktree add --force --force "/tmp/cargo-quickinstall-$TARGET"
         cd "/tmp/cargo-quickinstall-$TARGET"
