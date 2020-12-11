@@ -60,7 +60,6 @@ hexyl
 git-delta
 fw
 routinator
-my-iot
 critcmp
 yaksay
 rusty-tags
