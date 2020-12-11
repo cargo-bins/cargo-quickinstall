@@ -3,8 +3,6 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-source .env
-
 CRATE=${1?"USAGE: $0 CRATE"}
 date
 
