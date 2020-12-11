@@ -18,21 +18,8 @@ jobs:
         os: [macos-latest, ubuntu-20.04]
     steps:
       - uses: actions/checkout@v2
-
-      - name: Cleanup secrets that actions/checkout@v2 leaves lying around.
-        run: |
-          # Cleanup adapted from actions/checkout@v2's `Post Run` action output.
-          # Ideally, I would prefer to be force the post action to run straight away,
-          # but I can't see a way to do this.
-          set -euxo pipefail
-
-          git config --local --name-only --get-regexp core\.sshCommand && git config --local --unset-all 'core.sshCommand' || :
-          git submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
-
-          if git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader; then
-              git config --local --unset-all http.https://github.com/.extraheader
-          fi
-          git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+        with:
+          persist-credentials: false
 
       - name: find crate to build
         id: find_crate
@@ -80,6 +67,8 @@ jobs:
         os: [macos-latest, ubuntu-20.04]
     steps:
       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
 
       - name: Download package-info artifact
         uses: actions/download-artifact@v2
