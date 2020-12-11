@@ -27,14 +27,8 @@ jobs:
       - name: find crate to build
         id: find_crate
         run: |
-          # This will do what we want
-          cat package-info.txt
-
-      - name: Create package-info artifact (${{steps.find_crate.outputs.crate_to_build}})
-        uses: actions/upload-artifact@v2
-        with:
-          name: package-info-${{matrix.os}}
-          path: package-info.txt
+          # This file contains the ::set-output entries that we need.
+          cat trigger/package-info.txt
 
       - name: build package
         env:
@@ -44,7 +38,7 @@ jobs:
           mkdir -p "$TEMPDIR"
           # FIXME: also pass in version and arch here.
           crate="${{steps.find_crate.outputs.crate_to_build}}"
-          ./build-version.sh "$crate"
+          cargo-quickinstall/build-version.sh "$crate"
       # At this point, I don't think that you can really trust anything on the system anymore.
       # I'm not sure whether the js actions runtime is also affected by this.
       # TODO: try breaking things so that uploads don't work.
