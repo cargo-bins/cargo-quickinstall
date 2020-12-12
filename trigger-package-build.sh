@@ -52,12 +52,14 @@ main() {
         fi
         export START_AFTER_CRATE
 
-        TARGET=$TARGET $REPO_ROOT/next-unbuilt-package.sh >package-info.txt
+        TARGET=$TARGET "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
 
         CRATE=$(grep -F '::set-output name=crate_to_build::' package-info.txt | sed 's/^.*:://')
 
         mkdir -p .github/workflows/
-        cat $REPO_ROOT/.github/workflows/build-package.yml.template |
+        # I like cat. Sht up.
+        # shellcheck disable=SC2002
+        cat "$REPO_ROOT/.github/workflows/build-package.yml.template" |
             sed -e s/'[$]TARGET'/"$TARGET"/ \
                 -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
                 >.github/workflows/build-package.yml
