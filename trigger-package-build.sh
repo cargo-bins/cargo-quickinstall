@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 get_build_os() {
     if [[ "$1" == "x86_64-apple-darwin" ]]; then
         echo macos-latest
-    elif [[ "$1" == "x86_64-apple-darwin" ]]; then
+    elif [[ "$1" == "x86_64-unknown-linux-gnu" ]]; then
         echo ubuntu-20.04
     else
         echo "Unrecognised build OS: $1"
