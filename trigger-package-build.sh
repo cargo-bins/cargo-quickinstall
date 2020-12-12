@@ -62,6 +62,7 @@ main() {
         cat "$REPO_ROOT/.github/workflows/build-package.yml.template" |
             sed -e s/'[$]TARGET'/"$TARGET"/ \
                 -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
+                -e s/'[$]BRANCH'/"$BRANCH"/ \
                 >.github/workflows/build-package.yml
 
         git add package-info.txt .github/workflows/build-package.yml
