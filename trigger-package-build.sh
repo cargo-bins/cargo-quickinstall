@@ -76,8 +76,6 @@ main() {
             "
             exit 1
         fi
-
-        exit 0
     done
 }
 
