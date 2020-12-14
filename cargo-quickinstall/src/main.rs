@@ -101,6 +101,8 @@ fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
         "curl \
             --user-agent 'cargo-quickinstall build pipeline (alsuren@gmail.com)' \
             --location \
+            --silent \
+            --show-error \
             --fail \
             'https://crates.io/api/v1/crates/{}'",
         crate_name
