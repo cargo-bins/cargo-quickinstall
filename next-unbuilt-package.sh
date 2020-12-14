@@ -46,4 +46,7 @@ for CRATE in $POPULAR_CRATES; do
   fi
 done
 # If there's nothing to build, just build ourselves.
-echo "cargo-quickinstall"
+VERSION=$(curl_slowly --location --fail "https://crates.io/api/v1/crates/cargo-quickinstall" | jq -r .versions[0].num)
+echo "::set-output name=crate_to_build::cargo-quickinstall"
+echo "::set-output name=version_to_build::$VERSION"
+echo "::set-output name=arch_to_build::$TARGET"

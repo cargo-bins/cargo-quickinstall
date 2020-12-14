@@ -57,7 +57,7 @@ main() {
         CRATE=$(grep -F '::set-output name=crate_to_build::' package-info.txt | sed 's/^.*:://')
 
         mkdir -p .github/workflows/
-        # I like cat. Sht up.
+        # I like cat. Shut up.
         # shellcheck disable=SC2002
         cat "$REPO_ROOT/.github/workflows/build-package.yml.template" |
             sed -e s/'[$]TARGET'/"$TARGET"/ \
