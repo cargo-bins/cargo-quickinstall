@@ -9,13 +9,15 @@
 #         sort -gr |
 #         head -n 100 |
 #         sed s/^.*://
-# and then audit any new entries.
+# and then audit any new entries. Crates from contributors go to the top of the list :D.
 #
 # TODO: re-add crates from the quickinstall stats server at the top of the list,
 # once someone has audited my github-actions sandboxing.
-# first empty line is important
+#
+# The first empty line is important.
 
 cargo-quickinstall
+sensei
 bat
 cargo-bump
 watchexec
