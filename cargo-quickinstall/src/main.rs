@@ -12,30 +12,36 @@ use std::io::ErrorKind;
 use tinyjson::JsonValue;
 
 #[derive(Debug)]
-enum InstallError {
-    CommandFailed {
-        command: String,
-        stdout: String,
-        stderr: String,
-    },
-    IoError(std::io::Error),
+struct CommandFailed {
+    command: String,
+    stdout: String,
+    stderr: String,
 }
 
-impl From<std::io::Error> for InstallError {
-    fn from(err: std::io::Error) -> InstallError {
-        InstallError::IoError(err)
+enum InstallError {
+    CommandFailed(CommandFailed),
+    IoError(std::io::Error),
+    CargoInstallFailed,
+}
+
+impl std::error::Error for InstallError {}
+
+// We implement `Debug` in terms of `Display`, because "Error: {:?}"
+// is what is shown to the user if you return an error from `main()`.
+impl std::fmt::Debug for InstallError {
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+        write! {f, "{}", self}
     }
 }
-impl std::error::Error for InstallError {}
 
 impl std::fmt::Display for InstallError {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         match self {
-            InstallError::CommandFailed {
+            InstallError::CommandFailed(CommandFailed {
                 command,
                 stdout,
                 stderr,
-            } => {
+            }) => {
                 write!(f, "Command failed:\n    {}\n", command)?;
                 if !stdout.is_empty() {
                     write!(f, "Stdout:\n{}\n", stdout)?;
@@ -47,7 +53,22 @@ impl std::fmt::Display for InstallError {
                 Ok(())
             }
             InstallError::IoError(e) => write!(f, "{}", e),
+            InstallError::CargoInstallFailed => write!(
+                f,
+                "`cargo install` didn't work either. Looks like you're on your own."
+            ),
         }
+    }
+}
+
+impl From<std::io::Error> for InstallError {
+    fn from(err: std::io::Error) -> InstallError {
+        InstallError::IoError(err)
+    }
+}
+impl From<CommandFailed> for InstallError {
+    fn from(err: CommandFailed) -> InstallError {
+        InstallError::CommandFailed(err)
     }
 }
 
@@ -64,11 +85,12 @@ fn bash_stdout(command: &str) -> Result<String, InstallError> {
 
     if !output.status.success() {
         let stderr = String::from_utf8(output.stderr).unwrap();
-        return Err(InstallError::CommandFailed {
+        return Err(CommandFailed {
             command: command.to_string(),
             stdout,
             stderr,
-        });
+        }
+        .into());
     }
 
     Ok(stdout)
@@ -123,28 +145,38 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
         download_url
     );
     match bash_stdout(&install_command) {
-        Ok(tar_output) => println!(
-            "Installed {} {} to ~/.cargo/bin:\n{}",
-            crate_name, version, tar_output
-        ),
-        Err(err) => {
-            println!("{}", err);
-            println!("Falling back to `cargo install`.");
+        Ok(tar_output) => {
+            println!(
+                "Installed {} {} to ~/.cargo/bin:\n{}",
+                crate_name, version, tar_output
+            );
+            Ok(())
+        }
+        Err(InstallError::CommandFailed(err))
+            if err
+                .stderr
+                .contains("curl: (22) The requested URL returned error: 404 Not Found") =>
+        {
+            println!(
+                "Could not find a pre-built package for {} {} on {}.",
+                crate_name, version, target
+            );
             println!("We have reported your installation request, so it should be built soon.");
+            println!("Falling back to `cargo install`.");
 
-            if !std::process::Command::new("cargo")
+            let status = std::process::Command::new("cargo")
                 .arg("install")
                 .arg(crate_name)
-                .status()?
-                .success()
-            {
-                println!("hrm. `cargo install` didn't work either. Looks like you're on your own.");
-                std::process::exit(1)
+                .status()?;
+
+            if status.success() {
+                Ok(())
+            } else {
+                Err(InstallError::CargoInstallFailed)
             }
         }
+        Err(err) => Err(err),
     }
-
-    Ok(())
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
@@ -155,7 +187,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
         args.get(1)
     };
 
-    let crate_name = crate_name.ok_or("USAGE: cargo quickinsall CRATE_NAME")?;
+    let crate_name = crate_name.ok_or("USAGE: cargo quickinstall CRATE_NAME")?;
     let version = get_latest_version(crate_name)?;
     let target = get_target_triple()?;
 
