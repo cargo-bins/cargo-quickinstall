@@ -45,14 +45,13 @@ main() {
             git commit -am "Initial Commit" --allow-empty
         fi
 
-        if [[ -f package-info.txt ]]; then
+        if [[ -f package-info.txt && "$RECHECK" != "1" ]]; then
             START_AFTER_CRATE=$(grep -F '::set-output name=crate_to_build::' package-info.txt | sed 's/^.*:://')
         else
-            START_AFTER_CRATE=critcmp
+            START_AFTER_CRATE=''
         fi
-        export START_AFTER_CRATE
 
-        TARGET=$TARGET "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
+        START_AFTER_CRATE="$START_AFTER_CRATE" TARGET="$TARGET" "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
 
         CRATE=$(grep -F '::set-output name=crate_to_build::' package-info.txt | sed 's/^.*:://')
 

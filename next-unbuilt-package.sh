@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 POPULAR_CRATES=$(
   cat ./popular-crates.txt |
     grep -v '^#' |
-    grep -A100 --line-regexp "${START_AFTER_CRATE-.*}" |
+    grep -A100 --line-regexp "${START_AFTER_CRATE:-.*}" |
     tail -n +2 # drop the first line (the one that matched)
 )
 
