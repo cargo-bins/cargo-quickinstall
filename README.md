@@ -24,7 +24,6 @@ Currently it assumes that you are on a unix-like machine and have access to:
 - bash
 - tar
 - curl
-- jq
 
 If you can think of a way to remove any of these dependencies without incurring too much build-time cost, I would like to talk to you.
 
