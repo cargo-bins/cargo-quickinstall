@@ -17,11 +17,18 @@ struct CommandFailed {
     stdout: String,
     stderr: String,
 }
+impl CommandFailed {
+    fn is_curl_404(&self) -> bool {
+        self.stderr
+            .contains("curl: (22) The requested URL returned error: 404")
+    }
+}
 
 enum InstallError {
     CommandFailed(CommandFailed),
     IoError(std::io::Error),
     CargoInstallFailed,
+    CrateDoesNotExist { crate_name: String },
 }
 
 impl std::error::Error for InstallError {}
@@ -57,6 +64,9 @@ impl std::fmt::Display for InstallError {
                 f,
                 "`cargo install` didn't work either. Looks like you're on your own."
             ),
+            InstallError::CrateDoesNotExist { crate_name } => {
+                write!(f, "`{}` does not exist on crates.io.", crate_name)
+            }
         }
     }
 }
@@ -99,7 +109,7 @@ fn bash_stdout(command: &str) -> Result<String, InstallError> {
 fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
     let command_string = format!(
         "curl \
-            --user-agent 'cargo-quickinstall build pipeline (alsuren@gmail.com)' \
+            --user-agent 'cargo-quickinstall client (alsuren@gmail.com)' \
             --location \
             --silent \
             --show-error \
@@ -107,7 +117,14 @@ fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
             'https://crates.io/api/v1/crates/{}'",
         crate_name
     );
-    let parsed: JsonValue = bash_stdout(&command_string)?
+
+    let stdout = bash_stdout(&command_string).map_err(|e| match e {
+        InstallError::CommandFailed(err) if err.is_curl_404() => InstallError::CrateDoesNotExist {
+            crate_name: crate_name.to_string(),
+        },
+        _ => e,
+    })?;
+    let parsed: JsonValue = stdout
         .parse()
         .map_err(|_| std::io::Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))?;
     Ok(parsed["versions"][0]["num"].clone().try_into().unwrap())
@@ -154,11 +171,7 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
             );
             Ok(())
         }
-        Err(InstallError::CommandFailed(err))
-            if err
-                .stderr
-                .contains("curl: (22) The requested URL returned error: 404 Not Found") =>
-        {
+        Err(InstallError::CommandFailed(err)) if err.is_curl_404() => {
             println!(
                 "Could not find a pre-built package for {} {} on {}.",
                 crate_name, version, target
