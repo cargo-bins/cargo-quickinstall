@@ -35,11 +35,17 @@ impl std::fmt::Display for InstallError {
                 command,
                 stdout,
                 stderr,
-            } => write!(
-                f,
-                "Command failed:\n    {}\nStdout:\n{}\nStderr:\n{}",
-                command, stdout, stderr
-            ),
+            } => {
+                write!(f, "Command failed:\n    {}\n", command)?;
+                if !stdout.is_empty() {
+                    write!(f, "Stdout:\n{}\n", stdout)?;
+                }
+                if !stderr.is_empty() {
+                    write!(f, "Stderr:\n{}", stderr)?;
+                }
+
+                Ok(())
+            }
             InstallError::IoError(e) => write!(f, "{}", e),
         }
     }
