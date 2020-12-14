@@ -45,7 +45,7 @@ main() {
             git commit -am "Initial Commit" --allow-empty
         fi
 
-        if [[ -f package-info.txt && "$RECHECK" != "1" ]]; then
+        if [[ -f package-info.txt && "${RECHECK:-}" != "1" ]]; then
             START_AFTER_CRATE=$(grep -F '::set-output name=crate_to_build::' package-info.txt | sed 's/^.*:://')
         else
             START_AFTER_CRATE=''
