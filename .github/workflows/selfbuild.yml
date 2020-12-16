@@ -10,6 +10,9 @@ jobs:
   self-build:
     name: Self-Build
     runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
     strategy:
       matrix:
         os: [macos-latest, ubuntu-20.04, windows-latest]

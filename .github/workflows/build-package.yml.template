@@ -13,6 +13,9 @@ jobs:
   build-popular-package:
     name: Build
     runs-on: $BUILD_OS
+    defaults:
+      run:
+        shell: bash
     steps:
       - name: Checkout trigger commit
         uses: actions/checkout@v2
