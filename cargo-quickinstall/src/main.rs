@@ -97,7 +97,7 @@ fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
         .arg("-C")
         .arg(bin_dir)
         .stdin(std::process::Stdio::piped());
-    let mut process = dbg!(tar_command).spawn()?;
+    let mut process = tar_command.spawn()?;
 
     process.stdin.take().unwrap().write_all(&tarball).unwrap();
 
@@ -129,8 +129,7 @@ fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
         .arg("--show-error")
         .arg("--fail")
         .arg(url)
-        .output()
-        .map_err(|e| dbg!(e))?;
+        .output()?;
     if !output.status.success() {
         let stdout = String::from_utf8(output.stdout).unwrap();
         let stderr = String::from_utf8(output.stderr).unwrap();
@@ -153,8 +152,7 @@ fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
         .arg("--show-error")
         .arg("--fail")
         .arg(url)
-        .output()
-        .map_err(|e| dbg!(e))?;
+        .output()?;
     if !output.status.success() {
         let stdout = String::from_utf8(output.stdout).unwrap();
         let stderr = String::from_utf8(output.stderr).unwrap();
