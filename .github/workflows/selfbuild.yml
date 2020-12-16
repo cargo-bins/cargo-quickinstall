@@ -10,9 +10,12 @@ jobs:
   self-build:
     name: Self-Build
     runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-20.04]
+        os: [macos-latest, ubuntu-20.04, windows-latest]
     steps:
       - uses: actions/checkout@v2
         with:
@@ -30,5 +33,5 @@ jobs:
           # FIXME: re-enable uploading code here.
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
-      - name: Install Thyself with Thyself
-        run: cargo quickinstall cargo-quickinstall
+      - name: Install Thyself with Thyself (or fallback to sensei on windows)
+        run: cargo quickinstall cargo-quickinstall || cargo quickinstall sensei
