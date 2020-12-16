@@ -82,12 +82,26 @@ impl From<CommandFailed> for InstallError {
     }
 }
 
-fn bash_stdout(command: &str) -> Result<String, InstallError> {
-    let command_string = format!("set -euo pipefail && {}", command);
-    let output = std::process::Command::new("bash")
-        .arg("-c")
-        .arg(&command_string)
-        .output()?;
+fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
+    use std::io::Write;
+
+    if tarball.is_empty() {
+        panic!("We fetched a tarball, but it was empty. Please report this as a bug.");
+    }
+    let cargo_home = home::cargo_home().unwrap();
+    let bin_dir = cargo_home.join("bin");
+    let mut tar_command = std::process::Command::new("tar");
+    tar_command
+        .arg("-xzvvf")
+        .arg("-")
+        .arg("-C")
+        .arg(bin_dir)
+        .stdin(std::process::Stdio::piped());
+    let mut process = dbg!(tar_command).spawn()?;
+
+    process.stdin.take().unwrap().write_all(&tarball).unwrap();
+
+    let output = process.wait_with_output()?;
 
     let mut stdout = String::from_utf8(output.stdout).unwrap();
     let len = stdout.trim_end_matches('\n').len();
@@ -96,7 +110,7 @@ fn bash_stdout(command: &str) -> Result<String, InstallError> {
     if !output.status.success() {
         let stderr = String::from_utf8(output.stderr).unwrap();
         return Err(CommandFailed {
-            command: command.to_string(),
+            command: "tar -xzvvf - -C ~/.cargo/bin".to_string(),
             stdout,
             stderr,
         }
@@ -223,12 +237,10 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
         "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{}",
         tarball_name
     );
-    let install_command = format!(
-        "curl --silent --show-error --location --fail '{}' | tar -xzvvf - -C ~/.cargo/bin 2>&1",
-        download_url
-    );
-    match bash_stdout(&install_command) {
-        Ok(tar_output) => {
+
+    match curl_bytes(&download_url) {
+        Ok(tarball) => {
+            let tar_output = untar(tarball)?;
             println!(
                 "Installed {} {} to ~/.cargo/bin:\n{}",
                 crate_name, version, tar_output
