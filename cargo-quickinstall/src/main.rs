@@ -147,7 +147,7 @@ fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
 fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
     let url = format!("https://crates.io/api/v1/crates/{}", crate_name);
 
-    let parsed = dbg!(curl_json(&url)).map_err(|e| match e {
+    let parsed = curl_json(&url).map_err(|e| match e {
         InstallError::CommandFailed(err) if err.is_curl_404() => InstallError::CrateDoesNotExist {
             crate_name: crate_name.to_string(),
         },
@@ -158,7 +158,21 @@ fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
 
 fn get_target_triple() -> Result<String, InstallError> {
     // Credit to https://stackoverflow.com/a/63866386
-    bash_stdout("rustc --version --verbose | sed -n 's/host: //p'")
+    let output = std::process::Command::new("rustc")
+        .arg("--version")
+        .arg("--verbose")
+        .output()?;
+    for line in String::from_utf8(output.stdout).unwrap().lines() {
+        if let Some(target) = line.strip_prefix("host: ") {
+            return Ok(target.to_string());
+        }
+    }
+    Err(CommandFailed {
+        command: "rustc --version --verbose".to_string(),
+        stdout: "".to_string(),
+        stderr: String::from_utf8(output.stderr).unwrap(),
+    }
+    .into())
 }
 
 fn report_stats_in_background(
