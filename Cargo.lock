@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 [[package]]
 name = "cargo-quickinstall"
-version = "0.1.7"
+version = "0.1.8"
 dependencies = [
  "home",
  "tinyjson",
