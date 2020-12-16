@@ -36,6 +36,7 @@ main() {
 
         git worktree add --force --force "/tmp/cargo-quickinstall-$TARGET"
         cd "/tmp/cargo-quickinstall-$TARGET"
+        EXCLUDE_FILE="/tmp/cargo-quickinstall-$TARGET/exclude.txt"
 
         if git fetch origin "trigger/$TARGET"; then
             git checkout "origin/trigger/$TARGET" -B "trigger/$TARGET"
@@ -49,15 +50,27 @@ main() {
             git commit -am "Initial Commit" --allow-empty
         fi
 
+        if [[ "${RECHECK:-}" == "1" || ! -f "$EXCLUDE_FILE" ]]; then
+            TARGET="$TARGET" "$REPO_ROOT/print-build-excludes.sh" >"$EXCLUDE_FILE"
+            git add "$EXCLUDE_FILE"
+            git commit -m "Generate exclude.txt for $TARGET"
+        fi
+
         if [[ -f package-info.txt && "${RECHECK:-}" != "1" ]]; then
             START_AFTER_CRATE=$(grep -F '::set-output name=crate_to_build::' package-info.txt | sed 's/^.*:://')
         else
             START_AFTER_CRATE=''
         fi
 
-        START_AFTER_CRATE="$START_AFTER_CRATE" TARGET="$TARGET" "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
+        env START_AFTER_CRATE="$START_AFTER_CRATE" \
+            TARGET="$TARGET" \
+            EXCLUDE_FILE="$EXCLUDE_FILE" \
+            "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
 
-        CRATE=$(grep -F '::set-output name=crate_to_build::' package-info.txt | sed 's/^.*:://')
+        CRATE=$(
+            grep -F '::set-output name=crate_to_build::' package-info.txt |
+                sed 's/^.*:://'
+        )
 
         mkdir -p .github/workflows/
         # I like cat. Shut up.

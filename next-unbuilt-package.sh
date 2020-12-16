@@ -20,12 +20,20 @@ if [[ "${TARGET-}" == "" ]]; then
   TARGET=$(rustc --version --verbose | sed -n 's/host: //p')
 fi
 
+if [[ ! -f "${EXCLUDE_FILE?}" ]]; then
+  exit 1
+fi
+
 # see crawler policy: https://crates.io/policies
 curl_slowly() {
-  sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
+  sleep 1 && curl --silent --show-error --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
 for CRATE in $POPULAR_CRATES; do
+  if grep --line-regexp "$CRATE" "${EXCLUDE_FILE?}" >/dev/null; then
+    echo "skipping $CRATE because it has failed too many times" 1>&2
+    continue
+  fi
 
   rm -rf "$TEMPDIR/crates.io-response.json"
   curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
