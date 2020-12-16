@@ -106,27 +106,53 @@ fn bash_stdout(command: &str) -> Result<String, InstallError> {
     Ok(stdout)
 }
 
-fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
-    let command_string = format!(
-        "curl \
-            --user-agent 'cargo-quickinstall client (alsuren@gmail.com)' \
-            --location \
-            --silent \
-            --show-error \
-            --fail \
-            'https://crates.io/api/v1/crates/{}'",
-        crate_name
-    );
+fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
+    let output = std::process::Command::new("curl")
+        .arg("--user-agent")
+        .arg("cargo-quickinstall client (alsuren@gmail.com)")
+        .arg("--location")
+        .arg("--silent")
+        .arg("--show-error")
+        .arg("--fail")
+        .arg(url)
+        .output()
+        .map_err(|e| dbg!(e))?;
+    if !output.status.success() {
+        let stdout = String::from_utf8(output.stdout).unwrap();
+        let stderr = String::from_utf8(output.stderr).unwrap();
+        return Err(CommandFailed {
+            command: format!("curl --location --fail '{}'", url),
+            stdout,
+            stderr,
+        }
+        .into());
+    }
+    Ok(output.stdout)
+}
 
-    let stdout = bash_stdout(&command_string).map_err(|e| match e {
+fn curl_string(url: &str) -> Result<String, InstallError> {
+    let stdout = curl_bytes(url)?;
+    let parsed = String::from_utf8(stdout).unwrap();
+    Ok(parsed)
+}
+
+fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
+    let stdout = curl_string(url)?;
+    let parsed = stdout
+        .parse()
+        .map_err(|_| std::io::Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))?;
+    Ok(parsed)
+}
+
+fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
+    let url = format!("https://crates.io/api/v1/crates/{}", crate_name);
+
+    let parsed = dbg!(curl_json(&url)).map_err(|e| match e {
         InstallError::CommandFailed(err) if err.is_curl_404() => InstallError::CrateDoesNotExist {
             crate_name: crate_name.to_string(),
         },
         _ => e,
     })?;
-    let parsed: JsonValue = stdout
-        .parse()
-        .map_err(|_| std::io::Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))?;
     Ok(parsed["versions"][0]["num"].clone().try_into().unwrap())
 }
 
