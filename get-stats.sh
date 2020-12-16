@@ -29,5 +29,9 @@ QUERY=$(echo '
 ' | jq)
 # echo "$QUERY"
 
-CURL='curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)"'
-$CURL -u "apiKey:${SEMATEXT_API_KEY}" -XGET "logsene-receiver.sematext.com/${SEMATEXT_APP_TOKEN}/_search?pretty" -d "$QUERY"
+curl \
+  --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
+  -u "apiKey:${SEMATEXT_API_KEY}" \
+  -XGET \
+  "https://logsene-receiver.sematext.com/${SEMATEXT_APP_TOKEN}/_search?pretty" \
+  -d "$QUERY"
