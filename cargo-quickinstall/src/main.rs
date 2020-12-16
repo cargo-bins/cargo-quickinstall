@@ -106,6 +106,30 @@ fn bash_stdout(command: &str) -> Result<String, InstallError> {
     Ok(stdout)
 }
 
+fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
+    let output = std::process::Command::new("curl")
+        .arg("--user-agent")
+        .arg("cargo-quickinstall client (alsuren@gmail.com)")
+        .arg("--head")
+        .arg("--silent")
+        .arg("--show-error")
+        .arg("--fail")
+        .arg(url)
+        .output()
+        .map_err(|e| dbg!(e))?;
+    if !output.status.success() {
+        let stdout = String::from_utf8(output.stdout).unwrap();
+        let stderr = String::from_utf8(output.stderr).unwrap();
+        return Err(CommandFailed {
+            command: format!("curl --head --fail '{}'", url),
+            stdout,
+            stderr,
+        }
+        .into());
+    }
+    Ok(output.stdout)
+}
+
 fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
     let output = std::process::Command::new("curl")
         .arg("--user-agent")
@@ -182,13 +206,13 @@ fn report_stats_in_background(
 ) -> std::thread::JoinHandle<()> {
     let tarball_name = format!("{}-{}-{}.tar.gz", crate_name, version, target);
 
-    // warehouse-clerk is known to return 404. This is fine. We only use it for stats gathering.
     let stats_url = format!(
         "https://warehouse-clerk-tmp.vercel.app/api/crate/{}",
         tarball_name
     );
     std::thread::spawn(move || {
-        bash_stdout(&format!("curl --head '{}'", stats_url)).unwrap();
+        // warehouse-clerk is known to return 404. This is fine. We only use it for stats gathering.
+        curl_head(&stats_url).unwrap_or_default();
     })
 }
 
