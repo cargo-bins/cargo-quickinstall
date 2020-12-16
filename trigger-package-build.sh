@@ -5,9 +5,11 @@ cd "$(dirname "$0")"
 
 get_build_os() {
     if [[ "$1" == "x86_64-apple-darwin" ]]; then
-        echo macos-latest
+        echo "macos-latest"
     elif [[ "$1" == "x86_64-unknown-linux-gnu" ]]; then
-        echo ubuntu-20.04
+        echo "ubuntu-20.04"
+    elif [[ "$1" == "x86_64-pc-windows-msvc" ]]; then
+        echo "windows-latest"
     else
         echo "Unrecognised build OS: $1"
         exit 1
@@ -23,7 +25,9 @@ main() {
         git config user.name "trigger-package-build.sh"
     fi
 
-    for TARGET in x86_64-apple-darwin x86_64-unknown-linux-gnu; do
+    TARGETS="${TARGETS:-x86_64-apple-darwin x86_64-unknown-linux-gnu x86_64-pc-windows-msvc}"
+
+    for TARGET in $TARGETS; do
         BUILD_OS=$(get_build_os "$TARGET")
 
         rm -rf "/tmp/cargo-quickinstall-$TARGET"
