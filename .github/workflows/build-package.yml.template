@@ -38,13 +38,19 @@ jobs:
 
       - name: build package
         env:
-          TEMPDIR: /tmp/built.d/
+          TEMPDIR: ${{github.workspace}}/built.d
         run: |
-          set -euo pipefail
+          set -euxo pipefail
+          # `tar` does not understand mixed forward and backslashes, but mkdir does.
+          # Try coercing it into a single style?
           mkdir -p "$TEMPDIR"
+          pushd "$TEMPDIR"
+          TEMPDIR="$PWD"
+          popd
           # FIXME: also pass in version and arch here.
           crate="${{steps.find_crate.outputs.crate_to_build}}"
           cargo-quickinstall/build-version.sh "$crate"
+          ls $TEMPDIR
       # At this point, I don't think that you can really trust anything on the system anymore.
       # I'm not sure whether the js actions runtime is also affected by this.
       # TODO: try breaking things so that uploads don't work.
@@ -52,8 +58,9 @@ jobs:
       - name: Create binary artifact
         uses: actions/upload-artifact@v2
         with:
-          name: built-${{matrix.os}}
-          path: /tmp/built.d/
+          name: built-$BUILD_OS
+          path: ${{github.workspace}}/built.d
+          if-no-files-found: error
 
 
   upload-popular-package:
@@ -83,15 +90,15 @@ jobs:
       - name: Download binary artifact
         uses: actions/download-artifact@v2
         with:
-          name: built-${{matrix.os}}
+          name: built-$BUILD_OS
           # TODO: check that we it can't write anywhere other than built.d
-          path: /tmp/built.d/
+          path: ${{github.workspace}}/built.d
 
       - name: upload package
         env:
           BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
           BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
-          TEMPDIR: /tmp/built.d/
+          TEMPDIR: ${{github.workspace}}/built.d
         run: |
           set -euo pipefail
           mkdir -p "$TEMPDIR"
