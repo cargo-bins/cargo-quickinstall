@@ -5,7 +5,27 @@
 
 `cargo-quickinstall` is a bit like Homebrew's concept of [Bottles (binary packages)](https://docs.brew.sh/Bottles), but for `cargo install`.
 
-## Problem Statement
+## Installation
+
+    cargo install cargo-quickinstall
+
+Recent versions of Windows, MacOS and Linux are supported.
+
+## Usage
+
+Whenever you would usually write something like:
+
+    cargo install ripgrep
+
+you can now write:
+
+    cargo quickinstall ripgrep
+
+This will install pre-compiled versions of any binaries in the crate. If we don't have a pre-compiled version, it will fallback to `cargo install` automatically.
+
+Non-default features are not supported.
+
+## Original Problem Statement
 
 `cargo quickinstall $package` should:
 
@@ -14,20 +34,19 @@
   - [x] Download from `bintray.com`.
   - [x] Unpack to `~/.cargo/bin`.
   - [ ] Somehow update `~/.cargo/.crates2.toml` and `~/.cargo/.crates2.json`?
-- [ ] Fall back to running `cargo install $package`.
+- [x] Fall back to running `cargo install $package`.
   - [ ] Report statistics of how long it took to install, and how big the resulting binaries are.
 
 The `cargo-quickinstall` crate should be as small and quick to install as possible, because the bootstrap time affects how useful it can be in CI jobs. 0-dependencies and a sub-1s build time would be ideal. Basically, `cargo-quickinstall` is just a glorified bash script at this point.
 
-Currently it assumes that you are on a unix-like machine and have access to:
+Currently it assumes that you have access to:
 
-- bash
 - tar
 - curl
 
-If you can think of a way to remove any of these dependencies without incurring too much build-time cost, I would like to talk to you.
+Both of these should exist on all recent Windows and MacOS installs. `curl` is available on most Linux systems, and is assumed to exist by the `rustup` installation instructions. I only plan to remove these dependencies if it can be done without increasing how long `cargo install cargo-quickinstall` takes (might be possible to do this using feature flags?).
 
-There are a few pieces of infrastructure that are also needed.
+There are a few pieces of infrastructure that are also part of this project:
 
 - [x] A server for distributing the pre-built binaries
   - I'm assuming that `bintray.com` is a good place for this.
