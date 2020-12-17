@@ -25,7 +25,7 @@ main() {
         git config user.name "trigger-package-build.sh"
     fi
 
-    TARGETS="${TARGETS:-x86_64-apple-darwin x86_64-unknown-linux-gnu x86_64-pc-windows-msvc}"
+    TARGETS="${TARGETS:-x86_64-pc-windows-msvc x86_64-apple-darwin x86_64-unknown-linux-gnu}"
 
     for TARGET in $TARGETS; do
         BUILD_OS=$(get_build_os "$TARGET")
