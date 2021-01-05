@@ -13,10 +13,10 @@
 #         sort
 # and then audit any new entries. Crates from contributors go to the top of the list :D.
 #
-# TODO: re-add crates from the quickinstall stats server at the top of the list,
-# once someone has audited my github-actions sandboxing.
-#
 # The first empty line is important.
+
+cargo-quickinstall
+sensei
 
 b3sum
 bacon
@@ -26,7 +26,6 @@ bottom
 broot
 cargo-binutils
 cargo-bump
-cargo-quickinstall
 cargo-rpm
 cargo-trim
 cicada
@@ -35,12 +34,13 @@ code-minimap
 complate
 critcmp
 dijo
+diskus
+dmenv
 dotenv-linter
 dtn7
 du-dust
 dutree
 elf2tab
-emplace
 exa
 fblog
 fd-find
@@ -50,25 +50,24 @@ ffsend
 file-sniffer
 flowy
 fw
-git_lab_cli
 git-delta
-gitoxide
+git_lab_cli
+gitui
 gptman
 grex
 hexyl
 hunter
 hyperfine
 i2p_client
+intel-mkl-tool
 investments
 jql
 just
 kickstart
-kmon
-kurobako
 lsd
 mdblog
 mdcat
-navi
+my-iot
 nitrocli
 nj-cli
 otpcli
@@ -76,25 +75,29 @@ petname
 phetch
 podcast
 procs
+project_init
+pueue
 rexcli
 ripgrep
-rmesg
 routinator
 rpick
 rsign2
 rust-covfix
 rust-latest
+rust-script
 rustdoc-stripper
 rustscan
 rusty-tags
 sane-fmt
 scryer-prolog
 sd
-sensei
+sgxs-tools
 skim
+slick
 sniffglue
 so
 spl-token-cli
+spotify-tui
 stack-sizes
 starship
 streampager
@@ -104,13 +107,14 @@ tealdeer
 tin-summer
 tokei
 tp-note
-verco
 viu
 watchexec
 what-bump
 wrangler
 xcompress
+xidlehook
 yaksay
 yatt
+ysv
 zdump
 zoxide
