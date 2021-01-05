@@ -4,13 +4,6 @@ set -euxo pipefail
 
 cd "$(dirname "$0")"
 
-POPULAR_CRATES=$(
-  cat ./popular-crates.txt |
-    grep -v '^#' |
-    grep -A100 --line-regexp "${START_AFTER_CRATE:-.*}" |
-    tail -n +2 # drop the first line (the one that matched)
-)
-
 # FIXME: make a signal handler that cleans this up if we exit early.
 if [ ! -d "${TEMPDIR:-}" ]; then
   TEMPDIR="$(mktemp -d)"
@@ -18,11 +11,19 @@ fi
 
 if [[ "${TARGET-}" == "" ]]; then
   TARGET=$(rustc --version --verbose | sed -n 's/host: //p')
+  export TARGET
 fi
 
 if [[ ! -f "${EXCLUDE_FILE?}" ]]; then
   exit 1
 fi
+
+POPULAR_CRATES=$(
+  (./get-stats.sh && cat ./popular-crates.txt) |
+    grep -v '^#' |
+    grep -A100 --line-regexp "${START_AFTER_CRATE:-.*}" |
+    tail -n +2 # drop the first line (the one that matched)
+)
 
 # see crawler policy: https://crates.io/policies
 curl_slowly() {

@@ -25,7 +25,7 @@ main() {
         git config user.name "trigger-package-build.sh"
     fi
 
-    TARGETS="${TARGETS:-x86_64-pc-windows-msvc x86_64-apple-darwin x86_64-unknown-linux-gnu}"
+    TARGETS="${TARGETS:-${TARGET:-x86_64-pc-windows-msvc x86_64-apple-darwin x86_64-unknown-linux-gnu}}"
 
     for TARGET in $TARGETS; do
         BUILD_OS=$(get_build_os "$TARGET")
@@ -53,7 +53,8 @@ main() {
         if [[ "${RECHECK:-}" == "1" || ! -f "$EXCLUDE_FILE" ]]; then
             TARGET="$TARGET" "$REPO_ROOT/print-build-excludes.sh" >"$EXCLUDE_FILE"
             git add "$EXCLUDE_FILE"
-            git commit -m "Generate exclude.txt for $TARGET"
+            git --no-pager diff HEAD
+            git commit -m "Generate exclude.txt for $TARGET" || echo "exclude.txt already up to date. Skipping."
         fi
 
         if [[ -f package-info.txt && "${RECHECK:-}" != "1" ]]; then
@@ -84,7 +85,7 @@ main() {
         git add package-info.txt .github/workflows/build-package.yml
         git --no-pager diff HEAD
         if ! git commit -am "build $CRATE on $TARGET"; then
-            echo "looks like there's nothingn to push"
+            echo "looks like there's nothing to push"
             continue
         fi
 

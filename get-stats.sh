@@ -32,6 +32,20 @@ QUERY=$(echo '
 curl \
   --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
   -u "apiKey:${SEMATEXT_API_KEY}" \
+  --silent \
+  --show-error \
   -XGET \
   "https://logsene-receiver.sematext.com/${SEMATEXT_APP_TOKEN}/_search?pretty" \
-  -d "$QUERY"
+  -d "$QUERY" |
+  jq '.aggregations.my_agg.buckets' | (
+  # Slight hack: if TARGET is specified then just print crate names one per line.
+  # Otherwise print all counts as json.
+  if [[ "${TARGET:-}" != "" ]]; then
+    jq -r 'map(.key) | .[]' |
+      grep -F "${TARGET:-}" |
+      sed 's:^/api/crate/::' |
+      sed 's:-[0-9].*::'
+  else
+    cat
+  fi
+)
