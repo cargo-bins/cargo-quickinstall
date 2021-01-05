@@ -96,19 +96,19 @@ fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
         .arg("-")
         .arg("-C")
         .arg(bin_dir)
-        .stdin(std::process::Stdio::piped());
+        .stdin(std::process::Stdio::piped())
+        .stdout(std::process::Stdio::piped())
+        .stderr(std::process::Stdio::piped());
     let mut process = tar_command.spawn()?;
 
     process.stdin.take().unwrap().write_all(&tarball).unwrap();
 
     let output = process.wait_with_output()?;
 
-    let mut stdout = String::from_utf8(output.stdout).unwrap();
-    let len = stdout.trim_end_matches('\n').len();
-    stdout.truncate(len);
+    let stdout = String::from_utf8(output.stdout).unwrap();
+    let stderr = String::from_utf8(output.stderr).unwrap();
 
     if !output.status.success() {
-        let stderr = String::from_utf8(output.stderr).unwrap();
         return Err(CommandFailed {
             command: "tar -xzvvf - -C ~/.cargo/bin".to_string(),
             stdout,
@@ -117,7 +117,7 @@ fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
         .into());
     }
 
-    Ok(stdout)
+    Ok(stdout + &stderr)
 }
 
 fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
@@ -239,7 +239,8 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
     match curl_bytes(&download_url) {
         Ok(tarball) => {
             let tar_output = untar(tarball)?;
-            println!(
+            // tar output contains its own newline.
+            print!(
                 "Installed {} {} to ~/.cargo/bin:\n{}",
                 crate_name, version, tar_output
             );
