@@ -21,7 +21,7 @@ QUERY=$(echo '
     "my_agg": {
       "terms": {
         "field": "proxy.path.raw",
-        "size": 10
+        "size": 1000
       }
     }
   }
