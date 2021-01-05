@@ -4,6 +4,7 @@ publish: release ## alias for `make release`
 .PHONY: release
 release: ## Publish a new release
 	(cd cargo-quickinstall/ && cargo release patch)
+	RECHECK=1 ./trigger-package-build.sh
 
 .PHONY: help
 help: ## Display this help screen
