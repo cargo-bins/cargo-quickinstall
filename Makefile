@@ -1,9 +1,9 @@
 .PHONY: publish
-publish: ## Publish a new release
-	cargo bump
-	cargo build
-	git commit -am "build new version"
-	(cd cargo-quickinstall/ && cargo publish)
+publish: release ## alias for `make release`
+
+.PHONY: release
+release: ## Publish a new release
+	(cd cargo-quickinstall/ && cargo release patch)
 
 .PHONY: help
 help: ## Display this help screen
