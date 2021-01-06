@@ -50,11 +50,14 @@ main() {
             git commit -am "Initial Commit" --allow-empty
         fi
 
-        if [[ "${RECHECK:-}" == "1" || ! -f "$EXCLUDE_FILE" ]]; then
+        if [[ "${RECHECK:-}" == "1" || "${REEXCLUDE:-}" == "1" || ! -f "$EXCLUDE_FILE" ]]; then
             TARGET="$TARGET" "$REPO_ROOT/print-build-excludes.sh" >"$EXCLUDE_FILE"
             git add "$EXCLUDE_FILE"
             git --no-pager diff HEAD
             git commit -m "Generate exclude.txt for $TARGET" || echo "exclude.txt already up to date. Skipping."
+            if [[ "${REEXCLUDE:-}" == "1" ]]; then
+                continue
+            fi
         fi
 
         if [[ -f package-info.txt && "${RECHECK:-}" != "1" ]]; then
