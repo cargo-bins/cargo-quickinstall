@@ -19,10 +19,16 @@ if [[ ! -f "${EXCLUDE_FILE?}" ]]; then
 fi
 
 POPULAR_CRATES=$(
-  (./get-stats.sh && cat ./popular-crates.txt) |
+  (./get-stats.sh && cat ./popular-crates.txt) | (
     grep -v '^#' |
-    grep -A100 --line-regexp "${START_AFTER_CRATE:-.*}" |
-    tail -n +2 # drop the first line (the one that matched)
+      grep -v '/' |
+      grep -A100 --line-regexp "${START_AFTER_CRATE:-.*}" |
+      # drop the first line (the one that matched)
+      tail -n +2 ||
+      # If we don't find anything (package stopped being popular?)
+      # then fall back to doing a self-build.
+      echo 'cargo-quickinstall'
+  )
 )
 
 # see crawler policy: https://crates.io/policies
