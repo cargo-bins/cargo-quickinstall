@@ -42,7 +42,7 @@ curl \
   # Otherwise print all counts as json.
   if [[ "${TARGET:-}" != "" ]]; then
     jq -r 'map(.key) | .[]' |
-      grep -F "${TARGET:-}" |
+      (grep -F "${TARGET:-}" || true) |
       sed 's:^/api/crate/::' |
       sed 's:-[0-9].*::'
   else
