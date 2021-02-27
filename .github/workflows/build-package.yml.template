@@ -106,3 +106,11 @@ jobs:
           version="${{steps.find_crate.outputs.version_to_build}}"
           arch="${{steps.find_crate.outputs.arch_to_build}}"
           cargo-quickinstall/upload-version.sh "$crate" "$version" "$arch"
+
+      - name: Releasing assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
