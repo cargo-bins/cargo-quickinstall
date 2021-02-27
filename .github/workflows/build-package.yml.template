@@ -111,13 +111,6 @@ jobs:
           sleep 1m
           exit 1
 
-      - name: Check that tarball exists
-        run: |
-          set -euxo pipefail
-          find ${{github.workspace}}/built.d
-          ls -l ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz \
-            || (sleep 1m; exit 1)
-
       - name: Tag release
         run: |
           (
