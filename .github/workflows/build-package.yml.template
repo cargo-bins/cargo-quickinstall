@@ -89,6 +89,7 @@ jobs:
 
       - name: Check that tarball exists
         run: |
+          find ${{github.workspace}}/built.d
           ls -l ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
 
       - name: Tag release
