@@ -106,6 +106,7 @@ jobs:
       - name: Releasing assets
         uses: softprops/action-gh-release@v1
         with:
+          tag_name: crate-${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
           files: |
             ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
         env:
