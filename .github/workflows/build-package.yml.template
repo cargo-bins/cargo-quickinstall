@@ -87,6 +87,13 @@ jobs:
           # This script will do the `::set-output` dance for us
           cat trigger/package-info.txt
 
+      - name: Download binary artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: built-$BUILD_OS
+          # TODO: check that we it can't write anywhere other than built.d
+          path: ${{github.workspace}}/built.d
+
       - name: Check that tarball exists
         run: |
           find ${{github.workspace}}/built.d
@@ -100,13 +107,6 @@ jobs:
             git tag crate-${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
             git push origin crate-${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
           )
-
-      - name: Download binary artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: built-$BUILD_OS
-          # TODO: check that we it can't write anywhere other than built.d
-          path: ${{github.workspace}}/built.d
 
       - name: Releasing assets
         uses: softprops/action-gh-release@v1
