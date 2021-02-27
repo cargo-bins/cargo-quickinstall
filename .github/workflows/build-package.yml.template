@@ -94,19 +94,6 @@ jobs:
           # TODO: check that we it can't write anywhere other than built.d
           path: ${{github.workspace}}/built.d
 
-      - name: upload package
-        env:
-          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
-          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
-          TEMPDIR: ${{github.workspace}}/built.d
-        run: |
-          set -euo pipefail
-          mkdir -p "$TEMPDIR"
-          crate="${{steps.find_crate.outputs.crate_to_build}}"
-          version="${{steps.find_crate.outputs.version_to_build}}"
-          arch="${{steps.find_crate.outputs.arch_to_build}}"
-          cargo-quickinstall/upload-version.sh "$crate" "$version" "$arch"
-
       - name: Releasing assets
         uses: softprops/action-gh-release@v1
         with:
