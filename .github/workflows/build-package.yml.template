@@ -106,7 +106,7 @@ jobs:
           files: ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
 
       - name: cancelling if no tarball
-        if: steps.check_files.outputs.files_exists == 'true'
+        if: steps.check_files.outputs.files_exists == 'false'
         uses: andymckay/cancel-action@0.2
 
       - name: Check that tarball exists
