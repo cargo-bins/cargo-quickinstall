@@ -71,7 +71,7 @@ jobs:
       - name: Checkout trigger commit
         uses: actions/checkout@v2
         with:
-          persist-credentials: false
+          persist-credentials: true
           path: trigger
       - name: Checkout main repo
         uses: actions/checkout@v2
@@ -86,6 +86,15 @@ jobs:
         run: |
           # This script will do the `::set-output` dance for us
           cat trigger/package-info.txt
+
+      - name: Tag release
+        run: |
+          # This script will do the `::set-output` dance for us
+          (
+            cd trigger
+            git tag crate-${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
+            git push origin crate-${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
+          )
 
       - name: Download binary artifact
         uses: actions/download-artifact@v2
