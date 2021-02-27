@@ -96,13 +96,13 @@ jobs:
 
       - name: Debug whether tarball exists
         env:
-          HASHFILES: hashfiles("${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz")
+          HASHFILES: ${{hashfiles("${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz")}}
         run: |
           find ${{github.workspace}}/built.d
 
       - name: cancelling if no tarball
         uses: andymckay/cancel-action@0.2
-        if: hashfiles("${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz") == ""
+        if: ${{hashfiles("${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz") == ""}}
 
       - name: Check that tarball exists
         run: |
