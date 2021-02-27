@@ -94,13 +94,22 @@ jobs:
           # TODO: check that we it can't write anywhere other than built.d
           path: ${{github.workspace}}/built.d
 
-      - name: Check that tarball exists
+      - name: Debug whether tarball exists
+        env:
+          HASHFILES: hashfiles("${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz")
         run: |
           find ${{github.workspace}}/built.d
 
       - name: cancelling if no tarball
         uses: andymckay/cancel-action@0.2
         if: hashfiles("${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz") == ""
+
+      - name: Check that tarball exists
+        run: |
+          set -euxo pipefail
+          find ${{github.workspace}}/built.d
+          ls -l ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz \
+            || (sleep 1m; exit 1)
 
       - name: Tag release
         run: |
