@@ -87,6 +87,10 @@ jobs:
           # This script will do the `::set-output` dance for us
           cat trigger/package-info.txt
 
+      - name: Check that tarball exists
+        run: |
+          ls -l ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
+
       - name: Tag release
         run: |
           # This script will do the `::set-output` dance for us
