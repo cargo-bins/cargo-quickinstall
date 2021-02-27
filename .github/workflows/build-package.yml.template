@@ -94,20 +94,22 @@ jobs:
           # TODO: check that we it can't write anywhere other than built.d
           path: ${{github.workspace}}/built.d
 
-      - name: Debug whether tarball exists
-        run: |
-          find ${{github.workspace}}/built.d
-
-      - name: Check file existence
+      - name: Check if tarball exists
         id: check_files
         uses: andstor/file-existence-action@v1
         with:
           allow_failure: true
           files: ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
 
-      - name: cancelling if no tarball
+      - name: Cancel if no tarball
         if: steps.check_files.outputs.files_exists == 'false'
         uses: andymckay/cancel-action@0.2
+
+      - name: Wait for cancellation signal if no tarball
+        if: steps.check_files.outputs.files_exists == 'false'
+        run: |
+          sleep 1m
+          exit 1
 
       - name: Check that tarball exists
         run: |
@@ -118,7 +120,6 @@ jobs:
 
       - name: Tag release
         run: |
-          # This script will do the `::set-output` dance for us
           (
             cd trigger
             git tag crate-${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
