@@ -50,7 +50,7 @@ for CRATE in $POPULAR_CRATES; do
   if [[ "$LICENSE" = "BSD-3-Clause" || "$LICENSE" = "non-standard" ]]; then
     # FIXME: I should really do some kind of license translation so that bintray will accept my packages.
     echo "Skipping ${CRATE} to avoid \"License 'BSD-3-Clause' does not exist\" error when uploading." 1>&2
-  elif false && curl_slowly --fail -I --output /dev/null "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/${CRATE}-${VERSION}-${TARGET}.tar.gz"; then
+  elif curl_slowly --fail -I --output /dev/null "https://github.com/alsuren/cargo-quickinstall/releases/download/${CRATE}-${VERSION}-${TARGET}/${CRATE}-${VERSION}-${TARGET}.tar.gz"; then
     echo "${CRATE}-${VERSION}-${TARGET}.tar.gz already uploaded. Keep going." 1>&2
   else
     echo "${CRATE}-${VERSION}-${TARGET}.tar.gz needs building" 1>&2
