@@ -17,18 +17,25 @@ struct CommandFailed {
     stdout: String,
     stderr: String,
 }
-impl CommandFailed {
-    fn is_curl_404(&self) -> bool {
-        self.stderr
-            .contains("curl: (22) The requested URL returned error: 404")
-    }
-}
 
 enum InstallError {
     CommandFailed(CommandFailed),
     IoError(std::io::Error),
     CargoInstallFailed,
     CrateDoesNotExist { crate_name: String },
+}
+
+impl InstallError {
+    fn is_curl_404(&self) -> bool {
+        match self {
+            Self::CommandFailed(CommandFailed { stderr, .. })
+                if stderr.contains("curl: (22) The requested URL returned error: 404") =>
+            {
+                true
+            }
+            _ => false,
+        }
+    }
 }
 
 impl std::error::Error for InstallError {}
@@ -183,11 +190,14 @@ fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
 fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
     let url = format!("https://crates.io/api/v1/crates/{}", crate_name);
 
-    let parsed = curl_json(&url).map_err(|e| match e {
-        InstallError::CommandFailed(err) if err.is_curl_404() => InstallError::CrateDoesNotExist {
-            crate_name: crate_name.to_string(),
-        },
-        _ => e,
+    let parsed = curl_json(&url).map_err(|e| {
+        if e.is_curl_404() {
+            InstallError::CrateDoesNotExist {
+                crate_name: crate_name.to_string(),
+            }
+        } else {
+            e
+        }
     })?;
     Ok(parsed["versions"][0]["num"].clone().try_into().unwrap())
 }
@@ -233,14 +243,22 @@ fn download_tarball(
     version: &str,
     target: &str,
 ) -> Result<Vec<u8>, InstallError> {
-    let tarball_name = format!("{}-{}-{}.tar.gz", crate_name, version, target);
-
-    let download_url = format!(
-        "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{}",
-        tarball_name
+    let github_url = format!(
+        "https://github.com/alsuren/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
+        crate_name=crate_name, version=version, target=target,
     );
-
-    curl_bytes(&download_url)
+    match curl_bytes(&github_url) {
+        Ok(tarball) => Ok(tarball),
+        Err(err) if err.is_curl_404() => {
+            // fallback to bintray
+            let bintray_url = format!(
+                "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{crate_name}-{version}-{target}.tar.gz",
+                crate_name=crate_name, version=version, target=target,
+            );
+            curl_bytes(&bintray_url)
+        }
+        Err(err) => Err(err),
+    }
 }
 
 fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), InstallError> {
@@ -254,7 +272,7 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
             );
             Ok(())
         }
-        Err(InstallError::CommandFailed(err)) if err.is_curl_404() => {
+        Err(err) if err.is_curl_404() => {
             println!(
                 "Could not find a pre-built package for {} {} on {}.",
                 crate_name, version, target
