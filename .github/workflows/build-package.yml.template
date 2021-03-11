@@ -98,7 +98,6 @@ jobs:
         id: check_files
         uses: andstor/file-existence-action@v1
         with:
-          allow_failure: true
           files: ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
 
       - name: Cancel if no tarball
