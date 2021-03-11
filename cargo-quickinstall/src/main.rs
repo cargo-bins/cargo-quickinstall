@@ -228,7 +228,11 @@ fn report_stats_in_background(
     })
 }
 
-fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), InstallError> {
+fn download_tarball(
+    crate_name: &str,
+    version: &str,
+    target: &str,
+) -> Result<Vec<u8>, InstallError> {
     let tarball_name = format!("{}-{}-{}.tar.gz", crate_name, version, target);
 
     let download_url = format!(
@@ -236,7 +240,11 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
         tarball_name
     );
 
-    match curl_bytes(&download_url) {
+    curl_bytes(&download_url)
+}
+
+fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), InstallError> {
+    match download_tarball(crate_name, version, target) {
         Ok(tarball) => {
             let tar_output = untar(tarball)?;
             // tar output contains its own newline.
