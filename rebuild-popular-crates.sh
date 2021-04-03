@@ -1,11 +1,15 @@
 #!/bin/bash
 
 # pup can be installed via: go get github.com/ericchiang/pup
+# uq can be installed using cargo-quickinstall
 
-set -euo
+set -euo pipefail
+
+which pup || (echo "pup can be installed via: go get github.com/ericchiang/pup"; exit 1)
+which uq || (echo "uq can be installed using cargo-quickinstall"; exit 1)
 
 function get_top() {
-    curl https://lib.rs/$1 |
+    curl --fail "https://lib.rs/$1" |
         pup ':parent-of(:parent-of(:parent-of(.bin))) json{}' |
         jq -r '.[] |
             (.children[1].children|map(select(.class == "downloads").title)[0]// "0 ")
@@ -13,15 +17,29 @@ function get_top() {
             (.children[0].children[0].text)' |
         sort -gr |
         grep -v / |
+        grep -v ^0 |
         head -n 100 |
-        sed s/^.*:// |
-        sort
+        tee /dev/fd/2 | # debugging goes to stderr
+        sed s/^.*://
+
+    echo "done with $1" 1>&2
 }
 
-top_crates=""
-top_crates="${top_crates} $(get_top command-line-utilities)"
-top_crates="${top_crates} $(get_top development-tools/cargo-plugins)"
-top_crates=`echo ${top_crates} | uniq | tr " " "\n" | sort`
+function get_top_both() {
+    (
+        get_top command-line-utilities
+        get_top development-tools/cargo-plugins
+    ) | sort
+}
 
-echo ------------------------------------
-echo "${top_crates}"
+function get_new_file_contents() {
+    (
+        cat popular-crates.txt | grep -B10000 '####################################'
+        get_top_both
+    ) | uq
+}
+
+get_new_file_contents > popular-crates.txt.new
+mv popular-crates.txt.new popular-crates.txt
+
+echo "popular-crates.txt has been rebuilt. Please check the changes into git"
