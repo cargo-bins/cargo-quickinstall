@@ -1,20 +1,19 @@
 # To re-generate this list, run ./rebuild-popular-crates.sh and then audit any new entries.
 # Crates from contributors go to the top of the list :D.
 #
-# The first empty line is important.
+# The first empty line is important. I can't remember why.
 
 cargo-quickinstall
 sensei
 ripgrep
 cargo-make
-
+####################################
 b3sum
 bandwhich
 bat
 bingrep
 bottom
 broot
-capter
 cargo-about
 cargo-all-features
 cargo-apk
@@ -83,26 +82,17 @@ cargo-tarpaulin
 cargo-task
 cargo-travis
 cargo-tree
-cargo-trend
 cargo-trim
 cargo-unleash
 cargo-update
-cargo-updater
-cargo-upgrades
-cargo-ux
 cargo-valgrind
 cargo-vcpkg
 cargo-vendor
-cargo-version-sync
-cargo-vs
 cargo-wasi
 cargo-watch
 cargo-web
-cargo-wgsl
 cargo-whatfeatures
 cargo-when
-cargo-why
-cargo-with
 cargo-wix
 cargo-xbuild
 cicada
@@ -111,16 +101,13 @@ critcmp
 cross
 diener
 dinero-rs
-dors
 dotter
 dtn7
-duct
 du-dust
+duct
 dutree
 elf2tab
-emils-cargo-release
 emplace
-error_show
 exa
 fd-find
 feroxbuster
@@ -128,8 +115,8 @@ ffsend
 flamegraph
 fw
 git-delta
-git_lab_cli
 git-state
+git_lab_cli
 gitui
 gptman
 grex
@@ -141,7 +128,6 @@ intel-mkl-tool
 investments
 itm
 jql
-json2struct
 json_diff
 just
 kickstart
@@ -151,7 +137,6 @@ kurobako
 landon
 leetcode-cli
 lsd
-lts
 macchina
 mdcat
 my-iot
@@ -174,16 +159,15 @@ routinator
 rsgen-avro
 rsign2
 rust-covfix
-rustdoc-stripper
 rust-latest
-rustscan
 rust-script
+rustdoc-stripper
+rustscan
 rusty-tags
 sane-fmt
 scryer-prolog
 sd
 semverver
-semververfork
 sgxs-tools
 skim
 spl-token-cli
@@ -199,11 +183,9 @@ tin-summer
 tokei
 tp-note
 tuftool
-unleash
 viu
 watchexec
 webdriver-install
 wrangler
-x96check
 yadf
 zoxide
