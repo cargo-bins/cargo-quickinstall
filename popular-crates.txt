@@ -5,6 +5,8 @@
 
 cargo-quickinstall
 sensei
+ripgrep
+cargo-make
 
 b3sum
 bandwhich
@@ -56,7 +58,6 @@ cargo-lichking
 cargo-lipo
 cargo-llvm-lines
 cargo-local-registry
-cargo-make
 cargo-modules
 cargo-ndk
 cargo-outdated

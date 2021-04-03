@@ -1,8 +1,11 @@
 #!/bin/bash
 
+# pup can be installed via: go get github.com/ericchiang/pup
+
+set -euo
+
 function get_top() {
-    curl https://lib.rs/$1 > ./temp.html
-    cat temp.html |
+    curl https://lib.rs/$1 |
         pup ':parent-of(:parent-of(:parent-of(.bin))) json{}' |
         jq -r '.[] |
             (.children[1].children|map(select(.class == "downloads").title)[0]// "0 ")
@@ -13,7 +16,6 @@ function get_top() {
         head -n 100 |
         sed s/^.*:// |
         sort
-    rm ./temp.html
 }
 
 top_crates=""
