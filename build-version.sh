@@ -34,7 +34,7 @@ cargo install "$CRATE" --version "$VERSION"
 BINARIES=$(
     cat ~/.cargo/.crates2.json | jq -r '
         .installs | to_entries[] | select(.key|startswith("'${CRATE}' ")) | .value.bins | .[]
-    '
+    ' | tr '\r' ' '
 )
 
 
