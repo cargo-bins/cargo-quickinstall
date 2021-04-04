@@ -19,6 +19,11 @@ get_build_os() {
 main() {
     REPO_ROOT="$PWD"
     BRANCH=$(git branch --show-current)
+    if [[ ${FORCE:-} == 1 ]]; then
+     ALLOW_EMPTY=--allow-empty
+    else
+     ALLOW_EMPTY=
+    fi
 
     if ! git config user.name; then
         git config user.email "alsuren+quickinstall@gmail.com"
@@ -87,7 +92,7 @@ main() {
 
         git add package-info.txt .github/workflows/build-package.yml
         git --no-pager diff HEAD
-        if ! git commit -am "build $CRATE on $TARGET"; then
+        if ! git commit $ALLOW_EMPTY -am "build $CRATE on $TARGET"; then
             echo "looks like there's nothing to push"
             continue
         fi
