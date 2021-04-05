@@ -22,7 +22,7 @@ POPULAR_CRATES=$(
   (./get-stats.sh && cat ./popular-crates.txt) | (
     grep -v '^#' |
       grep -v '/' |
-      grep -A100 --line-regexp "${START_AFTER_CRATE:-.*}" |
+      grep -A1000 --line-regexp "${START_AFTER_CRATE:-.*}" |
       # drop the first line (the one that matched)
       tail -n +2 ||
       # If we don't find anything (package stopped being popular?)
