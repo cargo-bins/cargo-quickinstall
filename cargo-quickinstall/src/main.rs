@@ -247,18 +247,7 @@ fn download_tarball(
         "https://github.com/alsuren/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
         crate_name=crate_name, version=version, target=target,
     );
-    match curl_bytes(&github_url) {
-        Ok(tarball) => Ok(tarball),
-        Err(err) if err.is_curl_404() => {
-            // fallback to bintray
-            let bintray_url = format!(
-                "https://dl.bintray.com/cargo-quickinstall/cargo-quickinstall/{crate_name}-{version}-{target}.tar.gz",
-                crate_name=crate_name, version=version, target=target,
-            );
-            curl_bytes(&bintray_url)
-        }
-        Err(err) => Err(err),
-    }
+    curl_bytes(&github_url)
 }
 
 fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), InstallError> {
