@@ -1,0 +1,29 @@
+name: Weekly Recheck
+
+# Run every sunday, to recalculate excludes
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  push:
+    branches:
+      - actions
+
+jobs:
+  recheck:
+    name: Recheck
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
+          persist-credentials: true
+
+      - name: recheck excludes for all archetectures
+        id: find_crate
+        env:
+          SEMATEXT_API_KEY: ${{ secrets.SEMATEXT_API_KEY }}
+          SEMATEXT_APP_TOKEN: ${{ secrets.SEMATEXT_APP_TOKEN }}
+        run: |
+          set -euo pipefail
+          touch .env
+          make recheck

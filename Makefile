@@ -4,7 +4,7 @@ publish: release ## alias for `make release`
 .PHONY: release
 release: ## Publish a new release
 	(cd cargo-quickinstall/ && cargo release patch)
-	RECHECK=1 ./trigger-package-build.sh
+	make recheck
 
 .PHONY: windows
 windows: ## trigger a windows build
@@ -17,6 +17,14 @@ mac: ## trigger a mac build
 .PHONY: linux
 linux: ## trigger a linux build
 	RECHECK=1 TARGET=x86_64-unknown-linux-gnu ./trigger-package-build.sh
+
+.PHONY: exclude
+exclude: ## recompute excludes, but don't push anywhere (see /tmp/cargo-quickinstall-* for repos)
+	REEXCLUDE=1 ./trigger-package-build.sh
+
+.PHONY: recheck
+recheck: ## recompute excludes and start from the top
+	RECHECK=1 ./trigger-package-build.sh
 
 .PHONY: help
 help: ## Display this help screen
