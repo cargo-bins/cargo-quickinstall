@@ -31,7 +31,7 @@ Non-default features are not supported.
 
 - [x] Attempt to fetch pre-compiled binaries for \$package if they exist.
   - [x] Report the download attempt to our stats server so we know what to build next.
-  - [x] Download from `bintray.com`.
+  - [x] Download from github releases
   - [x] Unpack to `~/.cargo/bin`.
   - [ ] Somehow update `~/.cargo/.crates2.toml` and `~/.cargo/.crates2.json`?
 - [x] Fall back to running `cargo install $package`.
@@ -49,9 +49,9 @@ Both of these should exist on all recent Windows and MacOS installs. `curl` is a
 There are a few pieces of infrastructure that are also part of this project:
 
 - [x] A server for distributing the pre-built binaries
-  - I'm assuming that `bintray.com` is a good place for this.
+  - We are using github releases for this.
 - [x] A server for report gathering
-  - This is done using a stateless vercel server and a sematext log dump.
+  - This is done using a vercel server that saves counts to redis.
 - [x] A periodic task for building the most-requested packages for each OS/architecture
   - [ ] Get someone to audit my GitHub Actions sandboxing scheme.
 

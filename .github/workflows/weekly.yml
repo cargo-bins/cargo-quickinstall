@@ -20,9 +20,6 @@ jobs:
 
       - name: recheck excludes for all archetectures
         id: find_crate
-        env:
-          SEMATEXT_API_KEY: ${{ secrets.SEMATEXT_API_KEY }}
-          SEMATEXT_APP_TOKEN: ${{ secrets.SEMATEXT_APP_TOKEN }}
         run: |
           set -euo pipefail
           touch .env

@@ -21,11 +21,6 @@ jobs:
         with:
           persist-credentials: false
       - name: Build Thyself
-        env:
-          SEMATEXT_API_KEY: ${{ secrets.SEMATEXT_API_KEY }}
-          SEMATEXT_APP_TOKEN: ${{ secrets.SEMATEXT_APP_TOKEN }}
-          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
-          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
         run: |
           set -euo pipefail
           touch .env
