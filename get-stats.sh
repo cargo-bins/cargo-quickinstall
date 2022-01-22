@@ -3,8 +3,6 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-source .env
-
 # Uses https://sematext.com/docs/logs/search-through-the-elasticsearch-api/
 # TODO:
 # * Add a time range to the query.
