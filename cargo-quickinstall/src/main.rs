@@ -20,11 +20,18 @@ struct CommandFailed {
     stderr: String,
 }
 
+struct CrateDetails {
+    crate_name: String,
+    version: String,
+    target: String,
+}
+
 enum InstallError {
     CommandFailed(CommandFailed),
     IoError(std::io::Error),
     CargoInstallFailed,
     CrateDoesNotExist { crate_name: String },
+    NoFallback(CrateDetails),
 }
 
 impl InstallError {
@@ -75,6 +82,13 @@ impl std::fmt::Display for InstallError {
             ),
             InstallError::CrateDoesNotExist { crate_name } => {
                 write!(f, "`{}` does not exist on crates.io.", crate_name)
+            }
+            InstallError::NoFallback(crate_details) => {
+                write!(
+                    f,
+                    "Could not find a pre-built package for {} {} on {}.",
+                    crate_details.crate_name, crate_details.version, crate_details.target
+                )
             }
         }
     }
@@ -252,7 +266,12 @@ fn download_tarball(
     curl_bytes(&github_url)
 }
 
-fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), InstallError> {
+fn install_crate(
+    crate_name: &str,
+    version: &str,
+    target: &str,
+    fallback: bool,
+) -> Result<(), InstallError> {
     match download_tarball(crate_name, version, target) {
         Ok(tarball) => {
             let tar_output = untar(tarball)?;
@@ -264,6 +283,14 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
             Ok(())
         }
         Err(err) if err.is_curl_404() => {
+            if !fallback {
+                return Err(InstallError::NoFallback(CrateDetails {
+                    crate_name: crate_name.to_string(),
+                    version: version.to_string(),
+                    target: target.to_string(),
+                }));
+            }
+
             println!(
                 "Could not find a pre-built package for {} {} on {}.",
                 crate_name, version, target
@@ -304,7 +331,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     };
 
     let stats_handle = report_stats_in_background(&crate_name, &version, &target);
-    install_crate(&crate_name, &version, &target)?;
+    install_crate(&crate_name, &version, &target, options.fallback)?;
     stats_handle.join().unwrap();
 
     Ok(())
