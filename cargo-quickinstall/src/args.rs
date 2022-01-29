@@ -4,6 +4,7 @@ pub struct CliOptions {
     pub version: Option<String>,
     pub target: Option<String>,
     pub crate_name: Option<String>,
+    pub fallback: bool,
 }
 
 pub fn options_from_args(
@@ -12,6 +13,7 @@ pub fn options_from_args(
     Ok(CliOptions {
         version: args.opt_value_from_str("--version")?,
         target: args.opt_value_from_str("--target")?,
+        fallback: !args.contains("--no-fallback"),
         // WARNING: We MUST parse all --options before parsing positional arguments,
         // because .subcommand() errors out if handed an arg with - at the start.
         crate_name: crate_name_from_positional_args(args)?,
