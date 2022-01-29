@@ -309,6 +309,14 @@ fn install_crate(details: &CrateDetails, fallback: bool) -> Result<(), InstallEr
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let options = args::options_from_env()?;
 
+    if options.print_version {
+        println!(
+            "`cargo quickinstall` version: {}",
+            env!("CARGO_PKG_VERSION")
+        );
+        return Ok(());
+    }
+
     let crate_name = options.crate_name.ok_or(args::USAGE)?;
     let version = match options.version {
         Some(version) => version,
