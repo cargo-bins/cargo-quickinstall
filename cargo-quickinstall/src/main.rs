@@ -7,6 +7,7 @@
 // I suspect that there will be ways to clean this up without increasing
 // the bootstrapping time too much. Patches to do this would be very welcome.
 
+use pico_args::Arguments;
 use std::convert::TryInto;
 use std::io::ErrorKind;
 use tinyjson::JsonValue;
@@ -285,14 +286,21 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
-    let args = std::env::args().collect::<Vec<_>>();
-    let crate_name = if let Some(true) = args.get(1).map(|a| a == "quickinstall") {
-        args.get(2)
-    } else {
-        args.get(1)
-    };
 
-    let crate_name = crate_name.ok_or("USAGE: cargo quickinstall CRATE_NAME")?;
+    let mut args = Arguments::from_env();
+    if args.contains("--version") {
+        let version_self = env!("CARGO_PKG_VERSION");
+        println!("{}", version_self);
+        std::process::exit(0);
+    }
+
+    let remaining_args = args.finish();
+    if remaining_args.is_empty() {
+        eprintln!("{}", "USAGE: cargo quickinstall CRATE_NAME");
+        std::process::exit(1);
+    }
+
+    let crate_name :&str = &remaining_args[0].to_string_lossy().into_owned();
     let version = get_latest_version(crate_name)?;
     let target = get_target_triple()?;
 
