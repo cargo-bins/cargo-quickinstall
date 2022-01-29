@@ -74,3 +74,5 @@ make release
 ```
 
 If you need to make a major version bump then copy-paste the commands out of the Makefile.
+
+Once a release has been made, post about it on [the rust forums](https://users.rust-lang.org/c/announcements/6), [reddit](https://www.reddit.com/r/rust/) and twitter.
