@@ -7,9 +7,9 @@ pub struct CliOptions {
     pub fallback: bool,
 }
 
-pub fn options_from_args(
-    mut args: pico_args::Arguments,
-) -> Result<CliOptions, Box<dyn std::error::Error + Send + Sync + 'static>> {
+pub fn options_from_env() -> Result<CliOptions, Box<dyn std::error::Error + Send + Sync + 'static>>
+{
+    let mut args = pico_args::Arguments::from_env();
     Ok(CliOptions {
         version: args.opt_value_from_str("--version")?,
         target: args.opt_value_from_str("--target")?,

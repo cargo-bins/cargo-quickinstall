@@ -316,9 +316,7 @@ fn install_crate(
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
-    let args = pico_args::Arguments::from_env();
-
-    let options = args::options_from_args(args)?;
+    let options = args::options_from_env()?;
 
     let crate_name = options.crate_name.ok_or(args::USAGE)?;
     let version = match options.version {
