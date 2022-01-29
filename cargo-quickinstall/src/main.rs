@@ -8,6 +8,7 @@
 // the bootstrapping time too much. Patches to do this would be very welcome.
 
 use std::convert::TryInto;
+use std::fmt::{Debug, Display};
 use std::io::ErrorKind;
 use tinyjson::JsonValue;
 
@@ -28,6 +29,7 @@ struct CrateDetails {
 }
 
 enum InstallError {
+    MissingCrateNameArgument,
     CommandFailed(CommandFailed),
     IoError(std::io::Error),
     CargoInstallFailed,
@@ -52,15 +54,18 @@ impl std::error::Error for InstallError {}
 
 // We implement `Debug` in terms of `Display`, because "Error: {:?}"
 // is what is shown to the user if you return an error from `main()`.
-impl std::fmt::Debug for InstallError {
+impl Debug for InstallError {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         write! {f, "{}", self}
     }
 }
 
-impl std::fmt::Display for InstallError {
+impl Display for InstallError {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         match self {
+            &InstallError::MissingCrateNameArgument => {
+                write!(f, "No crate name specified.\n\n{}", args::USAGE)
+            }
             InstallError::CommandFailed(CommandFailed {
                 command,
                 stdout,
@@ -317,7 +322,14 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
         return Ok(());
     }
 
-    let crate_name = options.crate_name.ok_or(args::USAGE)?;
+    if options.help {
+        println!("{}", args::HELP);
+        return Ok(());
+    }
+
+    let crate_name = options
+        .crate_name
+        .ok_or(InstallError::MissingCrateNameArgument)?;
     let version = match options.version {
         Some(version) => version,
         None => get_latest_version(&crate_name)?,

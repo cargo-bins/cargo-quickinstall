@@ -1,4 +1,18 @@
-pub const USAGE: &str = "USAGE: cargo quickinstall [OPTIONS] -- CRATE_NAME";
+pub const USAGE: &str = "USAGE:
+    cargo quickinstall [OPTIONS] -- CRATE_NAME
+
+For more information try --help
+";
+pub const HELP: &str = "USAGE:
+    cargo quickinstall [OPTIONS] -- CRATE_NAME
+
+OPTIONS:
+        --version <VERSION>         Specify a version to install
+        --target <TRIPLE>           Install package for the target triple
+        --no-fallback               Don't fall back to `cargo install`
+    -V, --print-version             Print version info and exit
+    -h, --help                      Prints help information
+";
 
 pub struct CliOptions {
     pub version: Option<String>,
@@ -6,6 +20,7 @@ pub struct CliOptions {
     pub crate_name: Option<String>,
     pub fallback: bool,
     pub print_version: bool,
+    pub help: bool,
 }
 
 pub fn options_from_env() -> Result<CliOptions, Box<dyn std::error::Error + Send + Sync + 'static>>
@@ -16,6 +31,7 @@ pub fn options_from_env() -> Result<CliOptions, Box<dyn std::error::Error + Send
         target: args.opt_value_from_str("--target")?,
         fallback: !args.contains("--no-fallback"),
         print_version: args.contains(["-V", "--print-version"]),
+        help: args.contains(["-h", "--help"]),
         // WARNING: We MUST parse all --options before parsing positional arguments,
         // because .subcommand() errors out if handed an arg with - at the start.
         crate_name: crate_name_from_positional_args(args)?,
