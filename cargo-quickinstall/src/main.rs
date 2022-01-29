@@ -20,6 +20,7 @@ struct CommandFailed {
     stderr: String,
 }
 
+#[derive(Clone)]
 struct CrateDetails {
     crate_name: String,
     version: String,
@@ -237,12 +238,11 @@ fn get_target_triple() -> Result<String, InstallError> {
     .into())
 }
 
-fn report_stats_in_background(
-    crate_name: &str,
-    version: &str,
-    target: &str,
-) -> std::thread::JoinHandle<()> {
-    let tarball_name = format!("{}-{}-{}.tar.gz", crate_name, version, target);
+fn report_stats_in_background(details: &CrateDetails) -> std::thread::JoinHandle<()> {
+    let tarball_name = format!(
+        "{}-{}-{}.tar.gz",
+        details.crate_name, details.version, details.target
+    );
 
     let stats_url = format!(
         "https://warehouse-clerk-tmp.vercel.app/api/crate/{}",
@@ -266,43 +266,34 @@ fn download_tarball(
     curl_bytes(&github_url)
 }
 
-fn install_crate(
-    crate_name: &str,
-    version: &str,
-    target: &str,
-    fallback: bool,
-) -> Result<(), InstallError> {
-    match download_tarball(crate_name, version, target) {
+fn install_crate(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
+    match download_tarball(&details.crate_name, &details.version, &details.target) {
         Ok(tarball) => {
             let tar_output = untar(tarball)?;
             // tar output contains its own newline.
             print!(
                 "Installed {} {} to ~/.cargo/bin:\n{}",
-                crate_name, version, tar_output
+                details.crate_name, details.version, tar_output
             );
             Ok(())
         }
         Err(err) if err.is_curl_404() => {
             if !fallback {
-                return Err(InstallError::NoFallback(CrateDetails {
-                    crate_name: crate_name.to_string(),
-                    version: version.to_string(),
-                    target: target.to_string(),
-                }));
+                return Err(InstallError::NoFallback(details.clone()));
             }
 
             println!(
                 "Could not find a pre-built package for {} {} on {}.",
-                crate_name, version, target
+                details.crate_name, details.version, details.target
             );
             println!("We have reported your installation request, so it should be built soon.");
             println!("Falling back to `cargo install`.");
 
             let status = std::process::Command::new("cargo")
                 .arg("install")
-                .arg(crate_name)
+                .arg(&details.crate_name)
                 .arg("--version")
-                .arg(version)
+                .arg(&details.version)
                 .status()?;
 
             if status.success() {
@@ -328,8 +319,14 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
         None => get_target_triple()?,
     };
 
-    let stats_handle = report_stats_in_background(&crate_name, &version, &target);
-    install_crate(&crate_name, &version, &target, options.fallback)?;
+    let details = CrateDetails {
+        crate_name,
+        version,
+        target,
+    };
+
+    let stats_handle = report_stats_in_background(&details);
+    install_crate(&details, options.fallback)?;
     stats_handle.join().unwrap();
 
     Ok(())
