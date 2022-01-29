@@ -11,6 +11,8 @@ use std::convert::TryInto;
 use std::io::ErrorKind;
 use tinyjson::JsonValue;
 
+mod args;
+
 #[derive(Debug)]
 struct CommandFailed {
     command: String,
@@ -272,6 +274,8 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
             let status = std::process::Command::new("cargo")
                 .arg("install")
                 .arg(crate_name)
+                .arg("--version")
+                .arg(version)
                 .status()?;
 
             if status.success() {
@@ -285,19 +289,22 @@ fn install_crate(crate_name: &str, version: &str, target: &str) -> Result<(), In
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
-    let args = std::env::args().collect::<Vec<_>>();
-    let crate_name = if let Some(true) = args.get(1).map(|a| a == "quickinstall") {
-        args.get(2)
-    } else {
-        args.get(1)
+    let mut args = pico_args::Arguments::from_env();
+
+    let options = args::options_from_args(&mut args)?;
+
+    let crate_name = options.crate_name.ok_or(args::USAGE)?;
+    let version = match options.version {
+        Some(version) => version,
+        None => get_latest_version(&crate_name)?,
+    };
+    let target = match options.target {
+        Some(target) => target,
+        None => get_target_triple()?,
     };
 
-    let crate_name = crate_name.ok_or("USAGE: cargo quickinstall CRATE_NAME")?;
-    let version = get_latest_version(crate_name)?;
-    let target = get_target_triple()?;
-
-    let stats_handle = report_stats_in_background(crate_name, &version, &target);
-    install_crate(crate_name, &version, &target)?;
+    let stats_handle = report_stats_in_background(&crate_name, &version, &target);
+    install_crate(&crate_name, &version, &target)?;
     stats_handle.join().unwrap();
 
     Ok(())
