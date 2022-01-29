@@ -325,7 +325,6 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
         target,
     };
 
-    //let stats_handle = report_stats_in_background(&crate_name, &version, &target);
     let stats_handle = report_stats_in_background(&details);
     install_crate(&details, options.fallback)?;
     stats_handle.join().unwrap();
