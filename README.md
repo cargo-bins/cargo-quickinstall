@@ -64,3 +64,13 @@ Work is currently tracked on [the kanban board](https://github.com/alsuren/cargo
 ## Roadmap
 
 This is mostly a proof of concept at the moment. If it is useful to people then I will propose including it in upstream cargo (at which point, the build time is less important). There is probably an intermediate step which involves using feature-flags to replace bash calls with rust libraries.
+
+## Releasing
+
+Releasing of patch versions is handled by the makefile, so can be done by:
+
+```bash
+make release
+```
+
+If you need to make a major version bump then copy-paste the commands out of the Makefile.
