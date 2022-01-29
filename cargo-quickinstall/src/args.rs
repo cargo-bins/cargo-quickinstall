@@ -7,7 +7,7 @@ pub struct CliOptions {
 }
 
 pub fn options_from_args(
-    args: &mut pico_args::Arguments,
+    mut args: pico_args::Arguments,
 ) -> Result<CliOptions, Box<dyn std::error::Error + Send + Sync + 'static>> {
     Ok(CliOptions {
         version: args.opt_value_from_str("--version")?,
@@ -19,7 +19,7 @@ pub fn options_from_args(
 }
 
 pub fn crate_name_from_positional_args(
-    args: &mut pico_args::Arguments,
+    mut args: pico_args::Arguments,
 ) -> Result<Option<String>, Box<dyn std::error::Error + Send + Sync + 'static>> {
     // handle this pattern: `cargo quickinstall -- crate`
     let crate_name = if let Some(crate_name) = args.opt_value_from_str("--")? {
@@ -31,8 +31,17 @@ pub fn crate_name_from_positional_args(
             arg => arg,
         }
     };
-    if let Some(unexpected) = args.subcommand()? {
-        Err(format!("unexpected positional arg {}", unexpected))?
+    let unexpected = args.finish();
+
+    if !unexpected.is_empty() {
+        Err(format!(
+            "unexpected positional arguments: {}",
+            unexpected
+                .into_iter()
+                .map(|s| s.to_string_lossy().to_string())
+                .collect::<Vec<_>>()
+                .join(" ")
+        ))?
     }
     Ok(crate_name)
 }
