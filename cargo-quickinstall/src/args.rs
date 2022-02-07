@@ -10,6 +10,7 @@ OPTIONS:
         --version <VERSION>         Specify a version to install
         --target <TRIPLE>           Install package for the target triple
         --no-fallback               Don't fall back to `cargo install`
+        --dry-run                   Print the \"curl | tar\" command that would be run to fetch the binary
     -V, --print-version             Print version info and exit
     -h, --help                      Prints help information
 ";
@@ -21,6 +22,7 @@ pub struct CliOptions {
     pub fallback: bool,
     pub print_version: bool,
     pub help: bool,
+    pub dry_run: bool,
 }
 
 pub fn options_from_env() -> Result<CliOptions, Box<dyn std::error::Error + Send + Sync + 'static>>
@@ -32,6 +34,7 @@ pub fn options_from_env() -> Result<CliOptions, Box<dyn std::error::Error + Send
         fallback: !args.contains("--no-fallback"),
         print_version: args.contains(["-V", "--print-version"]),
         help: args.contains(["-h", "--help"]),
+        dry_run: args.contains("--dry-run"),
         // WARNING: We MUST parse all --options before parsing positional arguments,
         // because .subcommand() errors out if handed an arg with - at the start.
         crate_name: crate_name_from_positional_args(args)?,
