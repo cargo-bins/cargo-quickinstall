@@ -340,7 +340,18 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     };
 
     if options.dry_run {
-        println!("[Dry run] curl --user-agent \"cargo-quickinstall client (alsuren@gmail.com)\" --location --silent --show-error --fail https://github.com/alsuren/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz | tar -xzvvf - -C ~/.cargo/bin", crate_name=crate_name, version=version, target=target);
+        let cargo_bin_dir = home::cargo_home().unwrap().join("bin");
+        println!(
+            "curl --user-agent \"cargo-quickinstall client (alsuren@gmail.com)\" \
+                 --location --silent --show-error --fail \
+                 https://github.com/alsuren/cargo-quickinstall/releases/download/\
+                 {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz | \
+                 tar -xzvvf - -C {cargo_bin_dir}",
+            crate_name = crate_name,
+            version = version,
+            target = target,
+            cargo_bin_dir = cargo_bin_dir.to_str().unwrap()
+        );
         return Ok(());
     }
 

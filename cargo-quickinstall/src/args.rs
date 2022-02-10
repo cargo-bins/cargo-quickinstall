@@ -10,7 +10,7 @@ OPTIONS:
         --version <VERSION>         Specify a version to install
         --target <TRIPLE>           Install package for the target triple
         --no-fallback               Don't fall back to `cargo install`
-        --dry-run                   Print the \"curl | tar\" command that would be run to fetch the binary
+        --dry-run                   Print the `curl | tar` command that would be run to fetch the binary
     -V, --print-version             Print version info and exit
     -h, --help                      Prints help information
 ";
