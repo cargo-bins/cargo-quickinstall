@@ -173,15 +173,7 @@ fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
 }
 
 fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
-    let output = std::process::Command::new("curl")
-        .arg("--user-agent")
-        .arg("cargo-quickinstall client (alsuren@gmail.com)")
-        .arg("--location")
-        .arg("--silent")
-        .arg("--show-error")
-        .arg("--fail")
-        .arg(url)
-        .output()?;
+    let output = prepare_curl_bytes_cmd(url).output()?;
     if !output.status.success() {
         let stdout = String::from_utf8(output.stdout).unwrap();
         let stderr = String::from_utf8(output.stderr).unwrap();
@@ -294,12 +286,7 @@ fn install_crate(details: &CrateDetails, fallback: bool) -> Result<(), InstallEr
             println!("We have reported your installation request, so it should be built soon.");
             println!("Falling back to `cargo install`.");
 
-            let status = std::process::Command::new("cargo")
-                .arg("install")
-                .arg(&details.crate_name)
-                .arg("--version")
-                .arg(&details.version)
-                .status()?;
+            let status = prepare_cargo_install_cmd(details).status()?;
 
             if status.success() {
                 Ok(())
@@ -308,6 +295,55 @@ fn install_crate(details: &CrateDetails, fallback: bool) -> Result<(), InstallEr
             }
         }
         Err(err) => Err(err),
+    }
+}
+
+fn prepare_curl_bytes_cmd(url: &str) -> std::process::Command {
+    let mut cmd = std::process::Command::new("curl");
+    cmd.arg("--user-agent")
+        .arg("cargo-quickinstall client (alsuren@gmail.com)")
+        .arg("--location")
+        .arg("--silent")
+        .arg("--show-error")
+        .arg("--fail")
+        .arg(url);
+    cmd
+}
+
+fn prepare_untar_cmd(cargo_bin_dir: &str) -> std::process::Command {
+    let mut cmd = std::process::Command::new("tar");
+    cmd.arg("-xzvvf").arg("-").arg("-C").arg(cargo_bin_dir);
+    cmd
+}
+
+fn prepare_cargo_install_cmd(details: &CrateDetails) -> std::process::Command {
+    let mut cmd = std::process::Command::new("cargo");
+    cmd.arg("install")
+        .arg(&details.crate_name)
+        .arg("--version")
+        .arg(&details.version);
+    cmd
+}
+
+fn do_dry_run(crate_details: &CrateDetails) {
+    let crate_download_url = format!(
+        "https://github.com/alsuren/cargo-quickinstall/releases/download/\
+                 {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
+        crate_name = crate_details.crate_name,
+        version = crate_details.version,
+        target = crate_details.target
+    );
+    if curl_head(&crate_download_url).is_ok() {
+        let cargo_bin_dir = home::cargo_home().unwrap().join("bin");
+        let cargo_bin_dir_str = cargo_bin_dir.to_str().unwrap();
+        println!(
+            "{curl_cmd:?} | {untar_cmd:?}",
+            curl_cmd = prepare_curl_bytes_cmd(&crate_download_url),
+            untar_cmd = prepare_untar_cmd(cargo_bin_dir_str)
+        );
+    } else {
+        let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
+        println!("{:?}", cargo_install_cmd);
     }
 }
 
@@ -339,30 +375,19 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
         None => get_target_triple()?,
     };
 
+    let crate_details = CrateDetails {
+        crate_name: crate_name.clone(),
+        version: version.clone(),
+        target: target.clone(),
+    };
+
     if options.dry_run {
-        let cargo_bin_dir = home::cargo_home().unwrap().join("bin");
-        println!(
-            "curl --user-agent \"cargo-quickinstall client (alsuren@gmail.com)\" \
-                 --location --silent --show-error --fail \
-                 https://github.com/alsuren/cargo-quickinstall/releases/download/\
-                 {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz | \
-                 tar -xzvvf - -C {cargo_bin_dir}",
-            crate_name = crate_name,
-            version = version,
-            target = target,
-            cargo_bin_dir = cargo_bin_dir.to_str().unwrap()
-        );
+        do_dry_run(&crate_details);
         return Ok(());
     }
 
-    let details = CrateDetails {
-        crate_name,
-        version,
-        target,
-    };
-
-    let stats_handle = report_stats_in_background(&details);
-    install_crate(&details, options.fallback)?;
+    let stats_handle = report_stats_in_background(&crate_details);
+    install_crate(&crate_details, options.fallback)?;
     stats_handle.join().unwrap();
 
     Ok(())
