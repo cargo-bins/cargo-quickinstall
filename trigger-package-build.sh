@@ -19,6 +19,8 @@ get_build_os() {
 main() {
     REPO_ROOT="$PWD"
     BRANCH=$(git branch --show-current)
+    RECHECK="${RECHECK:-}"
+
     if [[ ${FORCE:-} == 1 ]]; then
      ALLOW_EMPTY=--allow-empty
     else
@@ -55,7 +57,7 @@ main() {
             git commit -am "Initial Commit" --allow-empty
         fi
 
-        if [[ "${RECHECK:-}" == "1" || "${REEXCLUDE:-}" == "1" || ! -f "$EXCLUDE_FILE" ]]; then
+        if [[ "$RECHECK" == "1" || "${REEXCLUDE:-}" == "1" || ! -f "$EXCLUDE_FILE" ]]; then
             TARGET="$TARGET" "$REPO_ROOT/print-build-excludes.sh" >"$EXCLUDE_FILE"
             git add "$EXCLUDE_FILE"
             git --no-pager diff HEAD
@@ -65,7 +67,7 @@ main() {
             fi
         fi
 
-        if [[ -f package-info.txt && "${RECHECK:-}" != "1" ]]; then
+        if [[ -f package-info.txt && "$RECHECK" != "1" ]]; then
             START_AFTER_CRATE=$(grep -F '::set-output name=crate_to_build::' package-info.txt | sed 's/^.*:://')
         else
             START_AFTER_CRATE=''
@@ -74,6 +76,7 @@ main() {
         env START_AFTER_CRATE="$START_AFTER_CRATE" \
             TARGET="$TARGET" \
             EXCLUDE_FILE="$EXCLUDE_FILE" \
+            RECHECK="$RECHECK" \
             "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
 
         mkdir -p .github/workflows/

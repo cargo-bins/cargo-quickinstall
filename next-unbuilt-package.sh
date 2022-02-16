@@ -18,7 +18,13 @@ if [[ ! -f "${EXCLUDE_FILE?}" ]]; then
   exit 1
 fi
 
+RECHECK="${RECHECK:-}"
+
 POPULAR_CRATES=$(
+  if [ $RECHECK  == 1 ]; then
+    # always check quickinstall first for `make release`
+    echo "cargo-quickinstall"
+  fi
   (./get-stats.sh && cat ./popular-crates.txt) | (
     grep -v '^#' |
       grep -v '/' |
