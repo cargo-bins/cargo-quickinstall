@@ -348,7 +348,7 @@ fn do_dry_run(crate_details: &CrateDetails) {
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
-    let options = args::options_from_env()?;
+    let options = args::options_from_env(pico_args::Arguments::from_env())?;
 
     if options.print_version {
         println!(

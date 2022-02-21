@@ -25,9 +25,9 @@ pub struct CliOptions {
     pub dry_run: bool,
 }
 
-pub fn options_from_env() -> Result<CliOptions, Box<dyn std::error::Error + Send + Sync + 'static>>
-{
-    let mut args = pico_args::Arguments::from_env();
+pub fn options_from_env(
+    mut args: pico_args::Arguments,
+) -> Result<CliOptions, Box<dyn std::error::Error + Send + Sync + 'static>> {
     Ok(CliOptions {
         version: args.opt_value_from_str("--version")?,
         target: args.opt_value_from_str("--target")?,
@@ -67,4 +67,63 @@ pub fn crate_name_from_positional_args(
         ))?
     }
     Ok(crate_name)
+}
+
+#[cfg(test)]
+mod test {
+    use super::*;
+    use std::ffi::OsString;
+
+    const MOCK_CRATE_NAME: &str = "foo";
+    const MOCK_CRATE_VERSION: &str = "3.14.15";
+    const REDUNDANT_ARG: &str = "bar";
+    const INVALID_FLAG: &str = "--an-invalid-flag";
+
+    #[test]
+    fn test_options_from_env() {
+        let mock_cli_args: Vec<OsString> = vec![
+            OsString::from(MOCK_CRATE_NAME),
+            OsString::from("--version"),
+            OsString::from(MOCK_CRATE_VERSION),
+            OsString::from("--dry-run"),
+        ];
+        let mock_pico_args = pico_args::Arguments::from_vec(mock_cli_args);
+
+        let options = options_from_env(mock_pico_args);
+        let cli_options: CliOptions = options.unwrap();
+
+        assert_eq!(Some(MOCK_CRATE_NAME.to_string()), cli_options.crate_name);
+        assert_eq!(Some(MOCK_CRATE_VERSION.to_string()), cli_options.version);
+        assert!(cli_options.dry_run);
+    }
+
+    #[test]
+    fn test_options_from_env_err() {
+        let mock_cli_args: Vec<OsString> = vec![OsString::from(INVALID_FLAG)];
+        let mock_pico_args = pico_args::Arguments::from_vec(mock_cli_args);
+
+        let result = options_from_env(mock_pico_args);
+        assert!(result.is_err());
+    }
+
+    #[test]
+    fn test_crate_name_from_positional_args() {
+        let mock_cli_args: Vec<OsString> = vec![OsString::from(MOCK_CRATE_NAME)];
+        let mock_pico_args = pico_args::Arguments::from_vec(mock_cli_args);
+
+        let crate_name = crate_name_from_positional_args(mock_pico_args);
+        assert_eq!(Some(MOCK_CRATE_NAME.to_string()), crate_name.unwrap());
+    }
+
+    #[test]
+    fn test_crate_name_from_positional_args_err() {
+        let mock_cli_args: Vec<OsString> = vec![
+            OsString::from(MOCK_CRATE_NAME),
+            OsString::from(REDUNDANT_ARG),
+        ];
+        let mock_pico_args = pico_args::Arguments::from_vec(mock_cli_args);
+
+        let result = crate_name_from_positional_args(mock_pico_args);
+        assert!(result.is_err());
+    }
 }
