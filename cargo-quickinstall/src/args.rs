@@ -25,7 +25,7 @@ pub struct CliOptions {
     pub dry_run: bool,
 }
 
-pub fn options_from_env(
+pub fn options_from_cli_args(
     mut args: pico_args::Arguments,
 ) -> Result<CliOptions, Box<dyn std::error::Error + Send + Sync + 'static>> {
     Ok(CliOptions {
@@ -82,18 +82,21 @@ mod test {
     #[test]
     fn test_options_from_env() {
         let mock_cli_args: Vec<OsString> = vec![
-            OsString::from(MOCK_CRATE_NAME),
-            OsString::from("--version"),
-            OsString::from(MOCK_CRATE_VERSION),
-            OsString::from("--dry-run"),
-        ];
+            MOCK_CRATE_NAME,
+            "--version",
+            MOCK_CRATE_VERSION,
+            "--dry-run",
+        ]
+        .iter()
+        .map(OsString::from)
+        .collect();
         let mock_pico_args = pico_args::Arguments::from_vec(mock_cli_args);
 
-        let options = options_from_env(mock_pico_args);
+        let options = options_from_cli_args(mock_pico_args);
         let cli_options: CliOptions = options.unwrap();
 
-        assert_eq!(Some(MOCK_CRATE_NAME.to_string()), cli_options.crate_name);
-        assert_eq!(Some(MOCK_CRATE_VERSION.to_string()), cli_options.version);
+        assert_eq!(MOCK_CRATE_NAME, cli_options.crate_name.unwrap());
+        assert_eq!(MOCK_CRATE_VERSION, cli_options.version.unwrap());
         assert!(cli_options.dry_run);
     }
 
@@ -102,7 +105,7 @@ mod test {
         let mock_cli_args: Vec<OsString> = vec![OsString::from(INVALID_FLAG)];
         let mock_pico_args = pico_args::Arguments::from_vec(mock_cli_args);
 
-        let result = options_from_env(mock_pico_args);
+        let result = options_from_cli_args(mock_pico_args);
         assert!(result.is_err());
     }
 
@@ -111,8 +114,8 @@ mod test {
         let mock_cli_args: Vec<OsString> = vec![OsString::from(MOCK_CRATE_NAME)];
         let mock_pico_args = pico_args::Arguments::from_vec(mock_cli_args);
 
-        let crate_name = crate_name_from_positional_args(mock_pico_args);
-        assert_eq!(Some(MOCK_CRATE_NAME.to_string()), crate_name.unwrap());
+        let crate_name = crate_name_from_positional_args(mock_pico_args).unwrap();
+        assert_eq!(MOCK_CRATE_NAME, crate_name.unwrap());
     }
 
     #[test]
