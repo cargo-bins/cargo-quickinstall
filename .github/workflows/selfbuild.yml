@@ -24,7 +24,13 @@ jobs:
         run: |
           set -euo pipefail
           touch .env
-          ./build-version.sh cargo-quickinstall
+          VERSION=$(
+            curl \
+              --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
+              --fail "https://crates.io/api/v1/crates/cargo-quickinstall" \
+              | jq -r .versions[0].num
+          )
+          env VERSION=$VERSION TARGET_ARCH=x86_64-unknown-linux-gnu ./build-version.sh cargo-quickinstall
           # FIXME: re-enable uploading code here.
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
