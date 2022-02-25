@@ -3,7 +3,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-git log --format="%h %d" --since="3 months ago" "trigger/${TARGET?}" |
+git log --format="%h %d" --since="3 months ago" "trigger/${TARGET_ARCH?}" |
     grep -v '(tag:' | # ignore things that successfully built
     sed 's/ .*$//' |
     xargs git show | # get the diffs
