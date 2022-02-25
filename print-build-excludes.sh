@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -euxo pipefail
 
 cd "$(dirname "$0")"
 
@@ -18,4 +18,4 @@ git log --format="%h %d" --since="3 months ago" "trigger/${TARGET_ARCH?}" |
     grep -v '^cargo-quickinstall$' |
     sort |
     uniq |
-    cat
+    cat || true # ugh. Something goes screwey when starting a new arch.

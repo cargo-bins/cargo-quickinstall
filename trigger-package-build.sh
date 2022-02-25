@@ -81,6 +81,14 @@ main() {
             RECHECK="$RECHECK" \
             "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
 
+        CRATE=$(
+            grep -F '::set-output name=crate_to_build::' package-info.txt |
+                sed 's/^.*:://'
+        )
+        VERSION=$(
+            grep -F '::set-output name=version_to_build::' package-info.txt |
+                sed 's/^.*:://'
+        )
         mkdir -p .github/workflows/
         # I like cat. Shut up.
         # shellcheck disable=SC2002
@@ -94,14 +102,6 @@ main() {
         git add package-info.txt .github/workflows/build-package.yml
         git --no-pager diff HEAD
 
-        CRATE=$(
-            grep -F '::set-output name=crate_to_build::' package-info.txt |
-                sed 's/^.*:://'
-        )
-        VERSION=$(
-            grep -F '::set-output name=version_to_build::' package-info.txt |
-                sed 's/^.*:://'
-        )
         if ! git commit $ALLOW_EMPTY -am "build $CRATE $VERSION on $TARGET_ARCH"; then
             echo "looks like there's nothing to push"
             continue
