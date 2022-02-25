@@ -1,0 +1,23 @@
+name: M1 Mac catchup
+
+# Run every 10 minutes until we're caught up with m1 mac packages
+on:
+  schedule:
+    - cron: "0/10 * * * *"
+
+jobs:
+  build-popular-package:
+    name: Build
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
+          persist-credentials: true
+
+      - name: Trigger Package Build
+        id: find_crate
+        run: |
+          set -euo pipefail
+          touch .env
+          TARGET_ARCH=aarch64-apple-darwin ./trigger-package-build.sh
