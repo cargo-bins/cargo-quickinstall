@@ -10,6 +10,8 @@ get_build_os() {
         echo "macos-latest"
     elif [[ "$1" == "x86_64-unknown-linux-gnu" ]]; then
         echo "ubuntu-20.04"
+    elif [[ "$1" == "aarch64-unknown-linux-gnu" ]]; then
+        echo "ubuntu-20.04"
     elif [[ "$1" == "x86_64-pc-windows-msvc" ]]; then
         echo "windows-latest"
     else

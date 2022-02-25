@@ -22,6 +22,10 @@ m1: ## trigger a mac m1 build
 linux: ## trigger a linux build
 	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-gnu ./trigger-package-build.sh
 
+.PHONY: rpi64
+rpi64: ## trigger a rpi64 build
+	RECHECK=1 TARGET_ARCH=aarch64-unknown-linux-gnu ./trigger-package-build.sh
+
 .PHONY: exclude
 exclude: ## recompute excludes, but don't push anywhere (see /tmp/cargo-quickinstall-* for repos)
 	REEXCLUDE=1 ./trigger-package-build.sh
