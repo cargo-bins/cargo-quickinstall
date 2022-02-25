@@ -6,6 +6,8 @@ cd "$(dirname "$0")"
 get_build_os() {
     if [[ "$1" == "x86_64-apple-darwin" ]]; then
         echo "macos-latest"
+    elif [[ "$1" == "aarch64-apple-darwin" ]]; then
+        echo "macos-latest"
     elif [[ "$1" == "x86_64-unknown-linux-gnu" ]]; then
         echo "ubuntu-20.04"
     elif [[ "$1" == "x86_64-pc-windows-msvc" ]]; then
@@ -32,7 +34,7 @@ main() {
         git config user.name "trigger-package-build.sh"
     fi
 
-    TARGET_ARCHES="${TARGET_ARCHES:-${TARGET_ARCH:-x86_64-pc-windows-msvc x86_64-apple-darwin x86_64-unknown-linux-gnu}}"
+    TARGET_ARCHES="${TARGET_ARCHES:-${TARGET_ARCH:-x86_64-pc-windows-msvc x86_64-apple-darwin aarch64-apple-darwin x86_64-unknown-linux-gnu}}"
 
     for TARGET_ARCH in $TARGET_ARCHES; do
         BUILD_OS=$(get_build_os "$TARGET_ARCH")
@@ -86,6 +88,7 @@ main() {
             sed -e s/'[$]TARGET_ARCH'/"$TARGET_ARCH"/ \
                 -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
                 -e s/'[$]BRANCH'/"$BRANCH"/ \
+                -e s/'[$]VERSION'/"$VERSION"/ \
                 >.github/workflows/build-package.yml
 
         git add package-info.txt .github/workflows/build-package.yml
