@@ -22,6 +22,15 @@ if curl_slowly --fail -I --output /dev/null "https://github.com/alsuren/cargo-qu
 fi
 
 rustup target add "$TARGET_ARCH"
+if [[ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]]; then
+    sudo apt update
+    sudo apt install gcc-aarch64-linux-gnu
+    mkdir -p .cargo
+    echo "
+        [target.aarch64-unknown-linux-gnu]
+        linker = \"aarch64-linux-gnu-gcc\"
+    " >> .cargo/config.toml
+fi
 cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
 
 BINARIES=$(
