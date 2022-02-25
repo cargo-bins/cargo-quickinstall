@@ -21,6 +21,7 @@ if curl_slowly --fail -I --output /dev/null "https://github.com/alsuren/cargo-qu
     exit 0
 fi
 
+rustup target add "$TARGET_ARCH"
 cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
 
 BINARIES=$(
