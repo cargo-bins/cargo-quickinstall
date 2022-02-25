@@ -9,9 +9,9 @@ if [ ! -d "${TEMPDIR:-}" ]; then
   TEMPDIR="$(mktemp -d)"
 fi
 
-if [[ "${TARGET-}" == "" ]]; then
-  TARGET=$(rustc --version --verbose | sed -n 's/host: //p')
-  export TARGET
+if [[ "${TARGET_ARCH-}" == "" ]]; then
+  TARGET_ARCH=$(rustc --version --verbose | sed -n 's/host: //p')
+  export TARGET_ARCH
 fi
 
 if [[ ! -f "${EXCLUDE_FILE?}" ]]; then
@@ -53,13 +53,13 @@ for CRATE in $POPULAR_CRATES; do
   VERSION=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].num)
   LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed -e 's:/:", ":g' -e 's/ OR /", "/g')
 
-  if curl_slowly --fail -I --output /dev/null "https://github.com/alsuren/cargo-quickinstall/releases/download/${CRATE}-${VERSION}-${TARGET}/${CRATE}-${VERSION}-${TARGET}.tar.gz"; then
-    echo "${CRATE}-${VERSION}-${TARGET}.tar.gz already uploaded. Keep going." 1>&2
+  if curl_slowly --fail -I --output /dev/null "https://github.com/alsuren/cargo-quickinstall/releases/download/${CRATE}-${VERSION}-${TARGET_ARCH}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+    echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." 1>&2
   else
-    echo "${CRATE}-${VERSION}-${TARGET}.tar.gz needs building" 1>&2
+    echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" 1>&2
     echo "::set-output name=crate_to_build::$CRATE"
     echo "::set-output name=version_to_build::$VERSION"
-    echo "::set-output name=arch_to_build::$TARGET"
+    echo "::set-output name=arch_to_build::$TARGET_ARCH"
     exit 0
   fi
 done
@@ -67,4 +67,4 @@ done
 VERSION=$(curl_slowly --location --fail "https://crates.io/api/v1/crates/cargo-quickinstall" | jq -r .versions[0].num)
 echo "::set-output name=crate_to_build::cargo-quickinstall"
 echo "::set-output name=version_to_build::$VERSION"
-echo "::set-output name=arch_to_build::$TARGET"
+echo "::set-output name=arch_to_build::$TARGET_ARCH"
