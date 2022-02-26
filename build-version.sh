@@ -23,15 +23,20 @@ fi
 
 rustup target add "$TARGET_ARCH"
 if [[ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]]; then
-    sudo apt update
-    sudo apt install gcc-aarch64-linux-gnu
-    mkdir -p .cargo
-    echo "
-        [target.aarch64-unknown-linux-gnu]
-        linker = \"aarch64-linux-gnu-gcc\"
-    " >> .cargo/config.toml
+    echo $PATH
+    cargo install cargo-quickinstall
+    cargo-quickinstall --dry-run cross
+    cargo-quickinstall cross
+
+    # I'm expecting this to fail if you try to build `cross` or `cargo-quickinstall`
+    cross install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+
+    cargo uninstall cargo-quickinstall
+    exit 1
+else
+    cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
 fi
-cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+>>>>>>> 381a499f (have a stab at building for aarch64-linux)
 
 BINARIES=$(
     cat ~/.cargo/.crates2.json | jq -r '
