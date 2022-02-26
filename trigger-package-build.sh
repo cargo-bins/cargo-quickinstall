@@ -90,16 +90,23 @@ main() {
                 sed 's/^.*:://'
         )
         mkdir -p .github/workflows/
+
+        # kill off the old location of this file
+        git rm .github/workflows/build-package.yml || true
+
         # I like cat. Shut up.
         # shellcheck disable=SC2002
         cat "$REPO_ROOT/.github/workflows/build-package.yml.template" |
-            sed -e s/'[$]TARGET_ARCH'/"$TARGET_ARCH"/ \
+            sed \
+                -e s/'[$]CRATE'/"$CRATE"/ \
+                -e s/'[$]VERSION'/"$VERSION"/ \
+                -e s/'[$]TARGET_ARCH'/"$TARGET_ARCH"/ \
                 -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
                 -e s/'[$]BRANCH'/"$BRANCH"/ \
-                -e s/'[$]VERSION'/"$VERSION"/ \
-                >.github/workflows/build-package.yml
+                > ".github/workflows/build-package-$TARGET_ARCH.yml"
 
-        git add package-info.txt .github/workflows/build-package.yml
+        # FIXME: I don't think we need package-info.txt anymore.
+        git add package-info.txt ".github/workflows/build-package-$TARGET_ARCH.yml"
         git --no-pager diff HEAD
 
         if ! git commit $ALLOW_EMPTY -am "build $CRATE $VERSION on $TARGET_ARCH"; then

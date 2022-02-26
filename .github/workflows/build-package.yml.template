@@ -1,7 +1,7 @@
 name: Build for $TARGET_ARCH
 
 # Triggered by push from cronjob.
-# $TARGET_ARCH, $BRANCH and $BUILD_OS are replaced using sed.
+# $CRATE, $VERSION, $TARGET_ARCH, $BRANCH and $BUILD_OS are replaced using sed.
 # Title of job in https://github.com/alsuren/cargo-quickinstall/actions
 # is set by the commit message, which is created by trigger-package-build.sh
 on:
@@ -29,12 +29,6 @@ jobs:
           ref: $BRANCH
           path: cargo-quickinstall
 
-      - name: find crate to build
-        id: find_crate
-        run: |
-          # This file contains the ::set-output entries that we need.
-          cat trigger/package-info.txt
-
       - name: build package
         env:
           TEMPDIR: ${{github.workspace}}/built.d
@@ -47,11 +41,11 @@ jobs:
           TEMPDIR="$PWD"
           popd
 
+          export CRATE=$CRATE
           export TARGET_ARCH=$TARGET_ARCH
           export VERSION=$VERSION
 
-          crate="${{steps.find_crate.outputs.crate_to_build}}"
-          cargo-quickinstall/build-version.sh "$crate"
+          cargo-quickinstall/build-version.sh "${CRATE}"
           ls $TEMPDIR
       # At this point, I don't think that you can really trust anything on the system anymore.
       # I'm not sure whether the js actions runtime is also affected by this.
@@ -83,12 +77,6 @@ jobs:
           ref: $BRANCH
           path: cargo-quickinstall
 
-      - name: Rehydrate find_crate info
-        id: find_crate
-        run: |
-          # This script will do the `::set-output` dance for us
-          cat trigger/package-info.txt
-
       - name: Download binary artifact
         uses: actions/download-artifact@v2
         with:
@@ -100,7 +88,7 @@ jobs:
         id: check_files
         uses: andstor/file-existence-action@v1
         with:
-          files: ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
+          files: ${{github.workspace}}/built.d/$CRATE-$VERSION-$TARGET_ARCH.tar.gz
 
       - name: Cancel if no tarball
         if: steps.check_files.outputs.files_exists == 'false'
@@ -116,15 +104,15 @@ jobs:
         run: |
           (
             cd trigger
-            git tag ${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
-            git push origin ${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
+            git tag $CRATE-$VERSION-$TARGET_ARCH
+            git push origin $CRATE-$VERSION-$TARGET_ARCH
           )
 
       - name: Releasing assets
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}
+          tag_name: $CRATE-$VERSION-$TARGET_ARCH
           files: |
-            ${{github.workspace}}/built.d/${{steps.find_crate.outputs.crate_to_build}}-${{steps.find_crate.outputs.version_to_build}}-${{steps.find_crate.outputs.arch_to_build}}.tar.gz
+            ${{github.workspace}}/built.d/$CRATE-$VERSION-$TARGET_ARCH.tar.gz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
