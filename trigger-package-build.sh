@@ -89,10 +89,11 @@ main() {
             grep -F '::set-output name=version_to_build::' package-info.txt |
                 sed 's/^.*:://'
         )
-        mkdir -p .github/workflows/
 
         # kill off the old location of this file
         git rm .github/workflows/build-package.yml || true
+        
+        mkdir -p .github/workflows/
 
         # I like cat. Shut up.
         # shellcheck disable=SC2002
