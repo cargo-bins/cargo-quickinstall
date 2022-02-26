@@ -3,7 +3,7 @@ name: M1 Mac catchup
 # Run every 10 minutes until we're caught up with m1 mac packages
 on:
   schedule:
-    - cron: "0/10 * * * *"
+    - cron: "0/5 * * * *"
 
 jobs:
   build-popular-package:
