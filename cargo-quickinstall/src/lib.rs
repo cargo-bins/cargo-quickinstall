@@ -111,8 +111,6 @@ pub fn report_stats_in_background(details: &CrateDetails) -> std::thread::JoinHa
 }
 
 pub fn do_dry_run(crate_details: &CrateDetails) -> String {
-    let result: String;
-
     let crate_download_url = format!(
         "https://github.com/alsuren/cargo-quickinstall/releases/download/\
                  {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
@@ -123,17 +121,15 @@ pub fn do_dry_run(crate_details: &CrateDetails) -> String {
     if curl_head(&crate_download_url).is_ok() {
         let cargo_bin_dir = home::cargo_home().unwrap().join("bin");
         let cargo_bin_dir_str = cargo_bin_dir.to_str().unwrap();
-        result = format!(
+        format!(
             "{curl_cmd:?} | {untar_cmd:?}",
             curl_cmd = prepare_curl_bytes_cmd(&crate_download_url),
             untar_cmd = prepare_untar_cmd(cargo_bin_dir_str)
-        );
+        )
     } else {
         let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
-        result = format!("{:?}", cargo_install_cmd);
+        format!("{:?}", cargo_install_cmd)
     }
-
-    result
 }
 
 fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
