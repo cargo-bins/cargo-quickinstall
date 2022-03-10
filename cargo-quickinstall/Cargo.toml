@@ -14,3 +14,6 @@ repository = "https://github.com/alsuren/cargo-quickinstall"
 tinyjson = "2"
 home = "0.5.3"
 pico-args = "0.4.2"
+
+[dev-dependencies]
+mktemp = "0.4.1"

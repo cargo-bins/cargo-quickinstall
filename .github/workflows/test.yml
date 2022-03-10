@@ -21,6 +21,9 @@ jobs:
       - name: Lint
         run: cargo fmt --check
 
+      - name: Clippy
+        run: cargo clippy
+
   test:
     name: Test runner
     runs-on: ubuntu-latest

@@ -57,14 +57,15 @@ pub fn crate_name_from_positional_args(
     let unexpected = args.finish();
 
     if !unexpected.is_empty() {
-        Err(format!(
+        return Err(format!(
             "unexpected positional arguments: {}",
             unexpected
                 .into_iter()
                 .map(|s| s.to_string_lossy().to_string())
                 .collect::<Vec<_>>()
                 .join(" ")
-        ))?
+        )
+        .into());
     }
     Ok(crate_name)
 }
