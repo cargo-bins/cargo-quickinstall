@@ -23,7 +23,7 @@ linux: ## trigger a linux build
 	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-gnu ./trigger-package-build.sh
 
 .PHONY: linux-musl
-linux: ## trigger a musl libc-based linux build
+linux-musl: ## trigger a musl libc-based linux build
 	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-musl ./trigger-package-build.sh
 
 .PHONY: exclude
