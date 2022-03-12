@@ -82,3 +82,11 @@ make release
 If you need to make a major version bump then copy-paste the commands out of the Makefile.
 
 Once a release has been made, post about it on [the rust forums](https://users.rust-lang.org/c/announcements/6), [reddit](https://www.reddit.com/r/rust/) and twitter.
+
+## License
+
+Copyright (c) 2020-2022 cargo-quickinstall developers
+
+`cargo-quickinstall` is made available under the terms of either the MIT License or the Apache License 2.0, at your option.
+
+See the [LICENSE-APACHE](LICENSE-APACHE) and [LICENSE-MIT](LICENSE-MIT) files for license details.
