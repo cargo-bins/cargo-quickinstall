@@ -22,6 +22,10 @@ m1: ## trigger a mac m1 build
 linux: ## trigger a linux build
 	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-gnu ./trigger-package-build.sh
 
+.PHONY: linux-musl
+linux-musl: ## trigger a musl libc-based linux build
+	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-musl ./trigger-package-build.sh
+
 .PHONY: exclude
 exclude: ## recompute excludes, but don't push anywhere (see /tmp/cargo-quickinstall-* for repos)
 	REEXCLUDE=1 ./trigger-package-build.sh

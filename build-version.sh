@@ -21,17 +21,31 @@ if curl_slowly --fail -I --output /dev/null "https://github.com/alsuren/cargo-qu
     exit 0
 fi
 
-rustup target add "$TARGET_ARCH"
-cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]
+then
+    # Compiling against musl libc is failing despite installing the musl-tools
+    # deb.  Falling back to Rust's Alpine container whose default target
+    # is x86_64-unknown-linux-musl.
+    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "apk add build-base; cargo install $CRATE --version $VERSION"
+    podman cp official-alpine-rust:/usr/local/cargo "${TEMPDIR}/"
+
+    CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
+    CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
+else
+    rustup target add "$TARGET_ARCH"
+    cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+
+    CARGO_BIN_DIR=~/.cargo/bin
+    CRATES2_JSON_PATH=~/.cargo/.crates2.json
+fi
 
 BINARIES=$(
-    cat ~/.cargo/.crates2.json | jq -r '
+    cat $CRATES2_JSON_PATH | jq -r '
         .installs | to_entries[] | select(.key|startswith("'${CRATE}' ")) | .value.bins | .[]
     ' | tr '\r' ' '
 )
 
-
-cd ~/.cargo/bin
+cd $CARGO_BIN_DIR
 for file in $BINARIES; do
     if file $file | grep ': data$'; then
         echo "something wrong with $file. Should be recognised as executable."
