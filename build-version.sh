@@ -21,14 +21,7 @@ if curl_slowly --fail -I --output /dev/null "https://github.com/alsuren/cargo-qu
     exit 0
 fi
 
-if [ "$TARGET_ARCH" != "x86_64-unknown-linux-musl" ]
-then
-    rustup target add "$TARGET_ARCH"
-    cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
-
-    CARGO_BIN_DIR=~/.cargo/bin
-    CRATES2_JSON_PATH=~/.cargo/.crates2.json
-elif [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]
+if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]
 then
     # Compiling against musl libc is failing despite installing the musl-tools
     # deb.  Falling back to Rust's Alpine container whose default target
@@ -38,6 +31,12 @@ then
 
     CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
+else
+    rustup target add "$TARGET_ARCH"
+    cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+
+    CARGO_BIN_DIR=~/.cargo/bin
+    CRATES2_JSON_PATH=~/.cargo/.crates2.json
 fi
 
 BINARIES=$(
