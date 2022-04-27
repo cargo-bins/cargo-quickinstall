@@ -21,7 +21,7 @@ fi
 RECHECK="${RECHECK:-}"
 
 POPULAR_CRATES=$(
-  if [ $RECHECK  == 1 ]; then
+  if [ "$RECHECK"  == 1 ]; then
     # always check quickinstall first for `make release`
     echo "cargo-quickinstall"
   fi
