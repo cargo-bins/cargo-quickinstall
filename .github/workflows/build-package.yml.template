@@ -67,6 +67,7 @@ jobs:
       - name: Checkout trigger commit
         uses: actions/checkout@v2
         with:
+          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
           path: trigger
       - name: Checkout main repo
