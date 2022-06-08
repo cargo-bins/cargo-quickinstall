@@ -26,14 +26,14 @@ then
     # Compiling against musl libc is failing despite installing the musl-tools
     # deb.  Falling back to Rust's Alpine container whose default target
     # is x86_64-unknown-linux-musl.
-    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "apk add build-base; cargo install $CRATE --version $VERSION"
+    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "apk add build-base; RUSTFLAGS=\"$RUSTFLAGS -C codegen-units=1\" cargo install $CRATE --version $VERSION"
     podman cp official-alpine-rust:/usr/local/cargo "${TEMPDIR}/"
 
     CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
 else
     rustup target add "$TARGET_ARCH"
-    cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+    RUSTFLAGS="$RUSTFLAGS -C codegen-units=1" cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
 
     CARGO_BIN_DIR=~/.cargo/bin
     CRATES2_JSON_PATH=~/.cargo/.crates2.json
