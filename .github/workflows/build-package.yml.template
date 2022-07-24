@@ -13,6 +13,7 @@ jobs:
   build-popular-package:
     name: Build
     runs-on: $BUILD_OS
+    permissions: {}
     defaults:
       run:
         shell: bash
