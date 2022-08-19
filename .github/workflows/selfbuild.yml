@@ -15,13 +15,24 @@ jobs:
         shell: bash
     strategy:
       matrix:
-        # FIXME: add cross-compilation targets to this matrix somehow
-        os: [macos-latest, ubuntu-20.04, windows-latest]
+        include:
+          - target_arch: x86_64-pc-windows-msvc
+            os: windows-latest
+          - target_arch: x86_64-apple-darwin
+            os: macos-latest
+          - target_arch: aarch64-apple-darwin
+            os: macos-latest
+          - target_arch: x86_64-unknown-linux-gnu
+            os: ubuntu-20.04
+          - target_arch: x86_64-unknown-linux-musl
+            os: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
       - name: Build Thyself
+        env:
+          TARGET_ARCH: ${{ matrix.target_arch }}
         run: |
           set -euxo pipefail
           touch .env
@@ -31,7 +42,7 @@ jobs:
               --fail "https://crates.io/api/v1/crates/cargo-quickinstall" \
               | jq -r .versions[0].num
           )
-          env ALWAYS_BUILD=1 VERSION=$VERSION TARGET_ARCH="$(rustc --version --verbose | sed -n 's/host: //p')" ./build-version.sh cargo-quickinstall
+          env ALWAYS_BUILD=1 VERSION=$VERSION TARGET_ARCH=$TARGET_ARCH ./build-version.sh cargo-quickinstall
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)
