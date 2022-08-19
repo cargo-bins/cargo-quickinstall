@@ -57,6 +57,6 @@ done
 #
 # TODO: maybe we want to make a ~/.cargo-quickinstall/bin to untar into,
 # and add symlinks into ~/.cargo/bin, to aid debugging?
-tar -czf "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" $BINARIES
+tar --posix -czf "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" $BINARIES
 
 echo "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
