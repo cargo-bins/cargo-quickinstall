@@ -5,6 +5,9 @@ on:
   push:
     branches-ignore:
       - actions
+  pull_request:
+    branches:
+      - main
 
 jobs:
   self-build:
