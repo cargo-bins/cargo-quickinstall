@@ -9,6 +9,12 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "cargo"
+    # This will update the Cargo.lock
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    # This will update the cargo-quickinstall/Cargo.toml
     directory: "/cargo-quickinstall"
     schedule:
       interval: "daily"
