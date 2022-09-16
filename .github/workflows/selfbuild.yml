@@ -1,10 +1,6 @@
 name: Self-Build
 
-# Run this workflow every time a new commit pushed to your repository
 on:
-  push:
-    branches-ignore:
-      - actions
   pull_request:
     branches:
       - main
