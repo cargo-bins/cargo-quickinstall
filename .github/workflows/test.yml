@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Fetch source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Lint
         run: cargo fmt --check
@@ -31,7 +31,7 @@ jobs:
     steps:
       # TODO: actions/cache@v2?
       - name: Fetch source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Run test
         run: cargo test

@@ -14,7 +14,7 @@ jobs:
     name: Build
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
