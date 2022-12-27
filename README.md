@@ -38,7 +38,7 @@ $ cargo-quickinstall --dry-run ripgrep
 will print:
 
 ```bash
-"curl" "--user-agent" "cargo-quickinstall client (alsuren@gmail.com)" "--location" "--silent" "--show-error" "--fail" "https://github.com/alsuren/cargo-quickinstall/releases/download/ripgrep-13.0.0-x86_64-apple-darwin/ripgrep-13.0.0-x86_64-apple-darwin.tar.gz" | "tar" "-xzvvf" "-" "-C" "/Users/alsuren/.cargo/bin"
+"curl" "--user-agent" "cargo-quickinstall client (alsuren@gmail.com)" "--location" "--silent" "--show-error" "--fail" "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ripgrep-13.0.0-x86_64-apple-darwin/ripgrep-13.0.0-x86_64-apple-darwin.tar.gz" | "tar" "-xzvvf" "-" "-C" "/Users/alsuren/.cargo/bin"
 ```
 
 Edit the command however you need, and paste it into your CI pipeline.
@@ -69,7 +69,7 @@ There are a few pieces of infrastructure that are also part of this project:
 
 There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. I created a [Gitter](https://gitter.im/cargo-quickinstall/community) room for collaborating in. You can also poke [@alsuren](https://twitter.com/alsuren) on Twitter or Discord. I'm also up for pairing over zoom to get new contributors onboarded.
 
-Work is currently tracked on [the kanban board](https://github.com/alsuren/cargo-quickinstall/projects/1?fullscreen=true). If you want help breaking down a ticket, give me a shout in one of the above places.
+Work is currently tracked on [the kanban board](https://github.com/orgs/cargo-bins/projects/1). If you want help breaking down a ticket, give me a shout in one of the above places.
 
 ## Releasing
 

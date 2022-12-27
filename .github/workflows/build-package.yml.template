@@ -2,7 +2,7 @@ name: Build for $TARGET_ARCH
 
 # Triggered by push from cronjob.
 # $CRATE, $VERSION, $TARGET_ARCH, $BRANCH and $BUILD_OS are replaced using sed.
-# Title of job in https://github.com/alsuren/cargo-quickinstall/actions
+# Title of job in https://github.com/cargo-bins/cargo-quickinstall/actions
 # is set by the commit message, which is created by trigger-package-build.sh
 on:
   push:
