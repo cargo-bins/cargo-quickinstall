@@ -1,13 +1,9 @@
 name: Cronjob
 
 # Run every hour on the hour.
-# `actions` is the name of my prototyping branch, so also run this job when I push there.
 on:
   schedule:
     - cron: "0 * * * *"
-  push:
-    branches:
-      - actions
 
 jobs:
   build-popular-package:
