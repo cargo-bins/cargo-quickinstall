@@ -30,6 +30,7 @@ main() {
     # a build of cargo-quickinstall.
     if [[ "${BRANCH:-}" == "actions" && "${CI:-}" == "true" ]]; then
         CRATE_CHECK_LIMIT=10
+        FORCE=1
     else
         CRATE_CHECK_LIMIT=1000
     fi
