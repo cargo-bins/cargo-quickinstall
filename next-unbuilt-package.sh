@@ -48,10 +48,14 @@ for CRATE in $POPULAR_CRATES; do
     continue
   fi
 
-  rm -rf "$TEMPDIR/crates.io-response.json"
-  curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
-  VERSION=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].num)
-  LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed -e 's:/:", ":g' -e 's/ OR /", "/g')
+  RESPONSE_DIR="$TEMPDIR/crates.io-responses/"
+  RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
+  if [[ ! -f "$RESPONSE_FILENAME" ]]; then
+    mkdir -p "$RESPONSE_DIR"
+    curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$RESPONSE_FILENAME"
+  fi
+  VERSION=$(cat "$RESPONSE_FILENAME" | jq -r .versions[0].num)
+  LICENSE=$(cat "$RESPONSE_FILENAME" | jq -r .versions[0].license | sed -e 's:/:", ":g' -e 's/ OR /", "/g')
 
   if curl_slowly --fail -I --output /dev/null "https://github.com/alsuren/cargo-quickinstall/releases/download/${CRATE}-${VERSION}-${TARGET_ARCH}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
     echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." 1>&2

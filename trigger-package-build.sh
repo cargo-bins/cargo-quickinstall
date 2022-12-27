@@ -38,6 +38,10 @@ main() {
 
     TARGET_ARCHES="${TARGET_ARCHES:-${TARGET_ARCH:-x86_64-pc-windows-msvc x86_64-apple-darwin aarch64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl}}"
 
+    if [ ! -d "${TEMPDIR:-}" ]; then
+        TEMPDIR="$(mktemp -d)"
+    fi
+
     for TARGET_ARCH in $TARGET_ARCHES; do
         BUILD_OS=$(get_build_os "$TARGET_ARCH")
 
@@ -77,10 +81,15 @@ main() {
             START_AFTER_CRATE=''
         fi
 
+        if [[ "$RECHECK" != "1" ]]; then
+            rm -rf "$TEMPDIR/crates.io-responses"
+        fi
+
         env START_AFTER_CRATE="$START_AFTER_CRATE" \
             TARGET_ARCH="$TARGET_ARCH" \
             EXCLUDE_FILE="$EXCLUDE_FILE" \
             RECHECK="$RECHECK" \
+            TEMPDIR="$TEMPDIR" \
             "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
 
         CRATE=$(
