@@ -19,12 +19,12 @@ jobs:
         shell: bash
     steps:
       - name: Checkout trigger commit
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
           path: trigger
       - name: Checkout main repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
           ref: $BRANCH
@@ -53,7 +53,7 @@ jobs:
       # TODO: try breaking things so that uploads don't work.
 
       - name: Create binary artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: built-$BUILD_OS
           path: ${{github.workspace}}/built.d
@@ -66,13 +66,13 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout trigger commit
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
           path: trigger
       - name: Checkout main repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
           # TODO: maybe this should be main or configurable or something?
@@ -80,24 +80,24 @@ jobs:
           path: cargo-quickinstall
 
       - name: Download binary artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: built-$BUILD_OS
           # TODO: check that we it can't write anywhere other than built.d
           path: ${{github.workspace}}/built.d
 
       - name: Check if tarball exists
-        id: check_files
-        uses: andstor/file-existence-action@v1
+        id: check_files_2
+        uses: andstor/file-existence-action@v2
         with:
           files: ${{github.workspace}}/built.d/$CRATE-$VERSION-$TARGET_ARCH.tar.gz
 
       - name: Cancel if no tarball
-        if: steps.check_files.outputs.files_exists == 'false'
+        if: steps.check_files_2.outputs.files_exists == 'false'
         uses: andymckay/cancel-action@0.2
 
       - name: Wait for cancellation signal if no tarball
-        if: steps.check_files.outputs.files_exists == 'false'
+        if: steps.check_files_2.outputs.files_exists == 'false'
         run: |
           sleep 1m
           exit 1
