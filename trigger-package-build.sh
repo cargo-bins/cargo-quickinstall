@@ -25,6 +25,15 @@ main() {
     BRANCH=$(git branch --show-current)
     RECHECK="${RECHECK:-}"
 
+    # If we are on the `actions` branch, it's because we're trying to develop a feature.
+    # Mostly we want just want it to check a few packages and then fall back to triggering
+    # a build of cargo-quickinstall.
+    if [[ "${BRANCH:-}" == "actions" && "${CI:-}" == "true" ]]; then
+        CRATE_CHECK_LIMIT=10
+    else
+        CRATE_CHECK_LIMIT=1000
+    fi
+
     if [[ ${FORCE:-} == 1 ]]; then
      ALLOW_EMPTY=--allow-empty
     else
@@ -90,6 +99,7 @@ main() {
             EXCLUDE_FILE="$EXCLUDE_FILE" \
             RECHECK="$RECHECK" \
             TEMPDIR="$TEMPDIR" \
+            CRATE_CHECK_LIMIT="$CRATE_CHECK_LIMIT" \
             "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
 
         CRATE=$(

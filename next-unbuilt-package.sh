@@ -30,7 +30,8 @@ POPULAR_CRATES=$(
       grep -v '/' |
       grep -A1000 --line-regexp "${START_AFTER_CRATE:-.*}" |
       # drop the first line (the one that matched)
-      tail -n +2 ||
+      tail -n +2 |
+      tail -n "${CRATE_CHECK_LIMIT:=-1000}" ||
       # If we don't find anything (package stopped being popular?)
       # then fall back to doing a self-build.
       echo 'cargo-quickinstall'
