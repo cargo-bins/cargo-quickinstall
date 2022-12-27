@@ -178,6 +178,7 @@ fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
         .arg("--silent")
         .arg("--show-error")
         .arg("--fail")
+        .arg("--location")
         .arg(url)
         .output()?;
     if !output.status.success() {
