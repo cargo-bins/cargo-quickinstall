@@ -3,7 +3,7 @@ publish: release ## alias for `make release`
 
 .PHONY: release
 release: ## Publish a new release
-	(cd cargo-quickinstall/ && cargo release patch --dev-version --execute)
+	(cd cargo-quickinstall/ && cargo release patch --execute)
 	make recheck
 
 .PHONY: windows
