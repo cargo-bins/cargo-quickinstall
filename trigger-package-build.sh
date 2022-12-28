@@ -118,15 +118,14 @@ main() {
         mkdir -p .github/workflows/
 
         # I like cat. Shut up.
-        # shellcheck disable=SC2002
-        cat "$REPO_ROOT/.github/workflows/build-package.yml.template" |
-            sed \
-                -e s/'[$]CRATE'/"$CRATE"/ \
-                -e s/'[$]VERSION'/"$VERSION"/ \
-                -e s/'[$]TARGET_ARCH'/"$TARGET_ARCH"/ \
-                -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
-                -e s/'[$]BRANCH'/"$BRANCH"/ \
-                > ".github/workflows/build-package-$TARGET_ARCH.yml"
+        sed \
+            -e s/'[$]CRATE'/"$CRATE"/ \
+            -e s/'[$]VERSION'/"$VERSION"/ \
+            -e s/'[$]TARGET_ARCH'/"$TARGET_ARCH"/ \
+            -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
+            -e s/'[$]BRANCH'/"$BRANCH"/ \
+            "$REPO_ROOT/.github/workflows/build-package.yml.template" \
+            > ".github/workflows/build-package-$TARGET_ARCH.yml"
 
         # FIXME: I don't think we need package-info.txt anymore.
         git add package-info.txt ".github/workflows/build-package-$TARGET_ARCH.yml"
