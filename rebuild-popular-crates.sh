@@ -5,8 +5,14 @@
 
 set -euo pipefail
 
-which pup || (echo "pup can be installed via: go get github.com/ericchiang/pup"; exit 1)
-which uq || (echo "uq can be installed using cargo-quickinstall"; exit 1)
+which pup || (
+    echo "pup can be installed via: go get github.com/ericchiang/pup"
+    exit 1
+)
+which uq || (
+    echo "uq can be installed using cargo-quickinstall"
+    exit 1
+)
 
 function get_top() {
     curl --fail "https://lib.rs/$1" |
@@ -39,7 +45,7 @@ function get_new_file_contents() {
     ) | uq
 }
 
-get_new_file_contents > popular-crates.txt.new
+get_new_file_contents >popular-crates.txt.new
 mv popular-crates.txt.new popular-crates.txt
 
 echo "popular-crates.txt has been rebuilt. Please check the changes into git"
