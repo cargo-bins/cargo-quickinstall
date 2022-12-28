@@ -40,14 +40,14 @@ else
 fi
 
 BINARIES=$(
-    cat $CRATES2_JSON_PATH | jq -r '
-        .installs | to_entries[] | select(.key|startswith("'${CRATE}' ")) | .value.bins | .[]
-    ' | tr '\r' ' '
+    jq -r '
+        .installs | to_entries[] | select(.key|startswith("'"${CRATE}"' ")) | .value.bins | .[]
+    ' "$CRATES2_JSON_PATH" | tr '\r' ' '
 )
 
-cd $CARGO_BIN_DIR
+cd "$CARGO_BIN_DIR"
 for file in $BINARIES; do
-    if file $file | grep ': data$'; then
+    if file "$file" | grep ': data$'; then
         echo "something wrong with $file. Should be recognised as executable."
         exit 1
     fi
@@ -57,6 +57,9 @@ done
 #
 # TODO: maybe we want to make a ~/.cargo-quickinstall/bin to untar into,
 # and add symlinks into ~/.cargo/bin, to aid debugging?
-tar --format=v7 -czf "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" $BINARIES
+#
+# BINARIES is a space-separated list of files, so it can't be quoted
+# shellcheck disable=SC2086
+tar --format=v7 -c $BINARIES | gzip -9 -c >"${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
 
 echo "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"

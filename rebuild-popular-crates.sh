@@ -34,7 +34,7 @@ function get_top_both() {
 
 function get_new_file_contents() {
     (
-        cat popular-crates.txt | grep -B10000 '####################################'
+        grep -B10000 '####################################' popular-crates.txt
         get_top_both
     ) | uq
 }

@@ -25,6 +25,16 @@ main() {
     BRANCH=$(git branch --show-current)
     RECHECK="${RECHECK:-}"
 
+    # If we are on the `actions` branch, it's because we're trying to develop a feature.
+    # Mostly we want just want it to check a few packages and then fall back to triggering
+    # a build of cargo-quickinstall.
+    if [[ "${BRANCH:-}" == "actions" && "${CI:-}" == "true" ]]; then
+        CRATE_CHECK_LIMIT=10
+        FORCE=1
+    else
+        CRATE_CHECK_LIMIT=1000
+    fi
+
     if [[ ${FORCE:-} == 1 ]]; then
      ALLOW_EMPTY=--allow-empty
     else
@@ -37,6 +47,10 @@ main() {
     fi
 
     TARGET_ARCHES="${TARGET_ARCHES:-${TARGET_ARCH:-x86_64-pc-windows-msvc x86_64-apple-darwin aarch64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl}}"
+
+    if [ ! -d "${TEMPDIR:-}" ]; then
+        TEMPDIR="$(mktemp -d)"
+    fi
 
     for TARGET_ARCH in $TARGET_ARCHES; do
         BUILD_OS=$(get_build_os "$TARGET_ARCH")
@@ -77,10 +91,16 @@ main() {
             START_AFTER_CRATE=''
         fi
 
+        if [[ "$RECHECK" != "1" ]]; then
+            rm -rf "$TEMPDIR/crates.io-responses"
+        fi
+
         env START_AFTER_CRATE="$START_AFTER_CRATE" \
             TARGET_ARCH="$TARGET_ARCH" \
             EXCLUDE_FILE="$EXCLUDE_FILE" \
             RECHECK="$RECHECK" \
+            TEMPDIR="$TEMPDIR" \
+            CRATE_CHECK_LIMIT="$CRATE_CHECK_LIMIT" \
             "$REPO_ROOT/next-unbuilt-package.sh" >package-info.txt
 
         CRATE=$(
@@ -98,20 +118,23 @@ main() {
         mkdir -p .github/workflows/
 
         # I like cat. Shut up.
-        # shellcheck disable=SC2002
-        cat "$REPO_ROOT/.github/workflows/build-package.yml.template" |
-            sed \
-                -e s/'[$]CRATE'/"$CRATE"/ \
-                -e s/'[$]VERSION'/"$VERSION"/ \
-                -e s/'[$]TARGET_ARCH'/"$TARGET_ARCH"/ \
-                -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
-                -e s/'[$]BRANCH'/"$BRANCH"/ \
-                > ".github/workflows/build-package-$TARGET_ARCH.yml"
+        sed \
+            -e s/'[$]CRATE'/"$CRATE"/ \
+            -e s/'[$]VERSION'/"$VERSION"/ \
+            -e s/'[$]TARGET_ARCH'/"$TARGET_ARCH"/ \
+            -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
+            -e s/'[$]BRANCH'/"$BRANCH"/ \
+            "$REPO_ROOT/.github/workflows/build-package.yml.template" \
+            > ".github/workflows/build-package-$TARGET_ARCH.yml"
 
         # FIXME: I don't think we need package-info.txt anymore.
         git add package-info.txt ".github/workflows/build-package-$TARGET_ARCH.yml"
         git --no-pager diff HEAD
 
+        # $ALLOW_EMPTY is either --allow-empty or the empty string.
+        # Adding quotes around this would add an empty positional argument to git,
+        # which it would reject.
+        # shellcheck disable=SC2086
         if ! git commit $ALLOW_EMPTY -am "build $CRATE $VERSION on $TARGET_ARCH"; then
             echo "looks like there's nothing to push"
             continue

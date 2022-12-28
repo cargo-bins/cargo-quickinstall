@@ -30,7 +30,8 @@ POPULAR_CRATES=$(
       grep -v '/' |
       grep -A1000 --line-regexp "${START_AFTER_CRATE:-.*}" |
       # drop the first line (the one that matched)
-      tail -n +2 ||
+      tail -n +2 |
+      tail -n "${CRATE_CHECK_LIMIT:=-1000}" ||
       # If we don't find anything (package stopped being popular?)
       # then fall back to doing a self-build.
       echo 'cargo-quickinstall'
@@ -48,10 +49,13 @@ for CRATE in $POPULAR_CRATES; do
     continue
   fi
 
-  rm -rf "$TEMPDIR/crates.io-response.json"
-  curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$TEMPDIR/crates.io-response.json"
-  VERSION=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].num)
-  LICENSE=$(cat "$TEMPDIR/crates.io-response.json" | jq -r .versions[0].license | sed -e 's:/:", ":g' -e 's/ OR /", "/g')
+  RESPONSE_DIR="$TEMPDIR/crates.io-responses/"
+  RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
+  if [[ ! -f "$RESPONSE_FILENAME" ]]; then
+    mkdir -p "$RESPONSE_DIR"
+    curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$RESPONSE_FILENAME"
+  fi
+  VERSION=$(jq -r '.versions[0].num' "$RESPONSE_FILENAME")
 
   if curl_slowly --fail -I --output /dev/null "https://github.com/cargo-bins/cargo-quickinstall/releases/download/${CRATE}-${VERSION}-${TARGET_ARCH}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
     echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." 1>&2

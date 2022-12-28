@@ -35,14 +35,14 @@ jobs:
         run: |
           set -euxo pipefail
           touch .env
-          VERSION=$(
+          VERSION="$(
             curl \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
               --fail "https://crates.io/api/v1/crates/cargo-quickinstall" \
-              | jq -r .versions[0].num
-          )
-          env VERSION=$VERSION TARGET_ARCH=$TARGET_ARCH ./build-version.sh cargo-quickinstall
-          env ALWAYS_BUILD=1 VERSION=$VERSION TARGET_ARCH=$TARGET_ARCH ./build-version.sh cargo-quickinstall
+              | jq -r '.versions[0].num'
+          )"
+          VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-quickinstall
+          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-quickinstall
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)

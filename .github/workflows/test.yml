@@ -18,6 +18,9 @@ jobs:
       - name: Fetch source
         uses: actions/checkout@v3
 
+      - name: Shellcheck
+        run: shellcheck *.sh
+
       - name: Lint
         run: cargo fmt --check
 
