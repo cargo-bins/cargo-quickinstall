@@ -131,6 +131,10 @@ main() {
         git add package-info.txt ".github/workflows/build-package-$TARGET_ARCH.yml"
         git --no-pager diff HEAD
 
+        # $ALLOW_EMPTY is either --allow-empty or the empty string.
+        # Adding quotes around this would add an empty positional argument to git,
+        # which it would reject.
+        # shellcheck disable=SC2086
         if ! git commit $ALLOW_EMPTY -am "build $CRATE $VERSION on $TARGET_ARCH"; then
             echo "looks like there's nothing to push"
             continue
