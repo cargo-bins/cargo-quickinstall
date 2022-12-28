@@ -60,6 +60,6 @@ done
 #
 # BINARIES is a space-separated list of files, so it can't be quoted
 # shellcheck disable=SC2086
-tar --format=v7 -czf "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" $BINARIES
+tar --format=v7 -c $BINARIES | gzip -9 -c >"${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
 
 echo "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
