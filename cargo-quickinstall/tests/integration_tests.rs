@@ -38,7 +38,7 @@ fn do_dry_run_for_ripgrep() {
 
     let result = do_dry_run(&crate_details);
 
-    let expected_prefix = r#""curl" "--user-agent" "cargo-quickinstall client (alsuren@gmail.com)" "--location" "--silent" "--show-error" "--fail" "https://github.com/alsuren/cargo-quickinstall/releases/download/ripgrep-13.0.0-x86_64-unknown-linux-gnu/ripgrep-13.0.0-x86_64-unknown-linux-gnu.tar.gz" | "tar" "-xzvvf" "-" "-C""#;
+    let expected_prefix = r#""curl" "--user-agent" "cargo-quickinstall client (alsuren@gmail.com)" "--location" "--silent" "--show-error" "--fail" "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ripgrep-13.0.0-x86_64-unknown-linux-gnu/ripgrep-13.0.0-x86_64-unknown-linux-gnu.tar.gz" | "tar" "-xzvvf" "-" "-C""#;
     assert!(result.starts_with(expected_prefix));
 }
 

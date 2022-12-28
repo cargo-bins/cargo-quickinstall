@@ -3,7 +3,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-GITHUB="https://github.com/alsuren/cargo-quickinstall/releases/download"
+GITHUB="https://github.com/cargo-bins/cargo-quickinstall/releases/download"
 TEMPDIR=/tmp/check-packages
 mkdir -p "$TEMPDIR"
 

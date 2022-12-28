@@ -112,7 +112,7 @@ pub fn report_stats_in_background(details: &CrateDetails) -> std::thread::JoinHa
 
 pub fn do_dry_run(crate_details: &CrateDetails) -> String {
     let crate_download_url = format!(
-        "https://github.com/alsuren/cargo-quickinstall/releases/download/\
+        "https://github.com/cargo-bins/cargo-quickinstall/releases/download/\
                  {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
         crate_name = crate_details.crate_name,
         version = crate_details.version,
@@ -228,7 +228,7 @@ fn download_tarball(
     target: &str,
 ) -> Result<Vec<u8>, InstallError> {
     let github_url = format!(
-        "https://github.com/alsuren/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
+        "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
         crate_name=crate_name, version=version, target=target,
     );
     curl_bytes(&github_url)
