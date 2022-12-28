@@ -36,9 +36,9 @@ main() {
     fi
 
     if [[ ${FORCE:-} == 1 ]]; then
-     ALLOW_EMPTY=--allow-empty
+        ALLOW_EMPTY=--allow-empty
     else
-     ALLOW_EMPTY=
+        ALLOW_EMPTY=
     fi
 
     if ! git config user.name; then
@@ -114,7 +114,7 @@ main() {
 
         # kill off the old location of this file
         git rm .github/workflows/build-package.yml || true
-        
+
         mkdir -p .github/workflows/
 
         # I like cat. Shut up.
@@ -125,7 +125,7 @@ main() {
             -e s/'[$]BUILD_OS'/"$BUILD_OS"/ \
             -e s/'[$]BRANCH'/"$BRANCH"/ \
             "$REPO_ROOT/.github/workflows/build-package.yml.template" \
-            > ".github/workflows/build-package-$TARGET_ARCH.yml"
+            >".github/workflows/build-package-$TARGET_ARCH.yml"
 
         # FIXME: I don't think we need package-info.txt anymore.
         git add package-info.txt ".github/workflows/build-package-$TARGET_ARCH.yml"

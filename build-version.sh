@@ -21,8 +21,7 @@ if [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -I --output /dev/null "htt
     exit 0
 fi
 
-if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]
-then
+if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     # Compiling against musl libc is failing despite installing the musl-tools
     # deb.  Falling back to Rust's Alpine container whose default target
     # is x86_64-unknown-linux-musl.

@@ -2,8 +2,6 @@ name: Self-Build
 
 on:
   pull_request:
-    branches:
-      - main
 
 jobs:
   self-build:

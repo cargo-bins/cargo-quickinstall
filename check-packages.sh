@@ -11,7 +11,7 @@ function check_packages() {
     for tag in $(git tag | grep x86_64-apple-darwin); do
         # echo "$tag"
         if [[ ! -d "$TEMPDIR/$tag" ]]; then
-            curl --silent --location --fail "${GITHUB}/${tag}/${tag}.tar.gz" > "$TEMPDIR/$tag.tar.gz"
+            curl --silent --location --fail "${GITHUB}/${tag}/${tag}.tar.gz" >"$TEMPDIR/$tag.tar.gz"
             mkdir "$TEMPDIR/$tag"
             tar -xzf "$TEMPDIR/$tag.tar.gz" -C "$TEMPDIR/$tag"
             rm "$TEMPDIR/$tag.tar.gz"
