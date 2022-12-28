@@ -24,6 +24,9 @@ jobs:
       - name: Clippy
         run: cargo clippy
 
+      - name: Shellcheck
+        run: shellcheck *.sh
+
   test:
     name: Test runner
     runs-on: ubuntu-latest
