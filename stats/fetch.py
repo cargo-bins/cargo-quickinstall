@@ -3,7 +3,7 @@
 import datetime
 import json
 import os
-from urllib.request import urlopen
+import subprocess
 import typing
 
 
@@ -21,10 +21,14 @@ def fetch_one_day_of_stats(day: datetime.date) -> typing.Dict[str, int]:
 
     if not os.path.exists(filename):
         print(f"fetching {filename}")
-        resp = urlopen(f"https://warehouse-clerk-tmp.vercel.app/api/stats?year={day.year}&month={day.month}&day={day.day}")
-        bytes = resp.read()
-        with open(filename, 'wb') as f:
-            f.write(bytes)
+        subprocess.check_call([
+            "curl",
+            "--location",
+            "--fail",
+            f"https://warehouse-clerk-tmp.vercel.app/api/stats?year={day.year}&month={day.month}&day={day.day}",
+            "--output",
+            filename,
+        ])
 
     with open(filename) as f:
         return json.load(f)
