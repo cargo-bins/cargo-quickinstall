@@ -34,7 +34,7 @@ pub fn options_from_cli_args(
         version: args.opt_value_from_str("--version")?,
         target: args.opt_value_from_str("--target")?,
         fallback: !args.contains("--no-fallback"),
-        no_binstall: !args.contains("--no-binstall"),
+        no_binstall: args.contains("--no-binstall"),
         print_version: args.contains(["-V", "--print-version"]),
         help: args.contains(["-h", "--help"]),
         dry_run: args.contains("--dry-run"),
