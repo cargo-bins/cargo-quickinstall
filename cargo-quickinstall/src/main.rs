@@ -132,7 +132,7 @@ fn do_main_binstall(
         do_main_curl("cargo-binstall".to_string(), None, None, dry_run, fallback)?;
 
         if !dry_run {
-            println!("Bootstrap cargo-binstall itself to update $CARGO_HOME/.crates.toml");
+            println!("Bootstrapping cargo-binstall with itself to make `cargo uninstall ` work properly");
             do_install_binstall(
                 vec![Crate {
                     name: "cargo-binstall".to_string(),
