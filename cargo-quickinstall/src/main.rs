@@ -187,9 +187,9 @@ fn do_install_binstall(
     if !status.success() {
         Err(format!(
             "`{} {}` failed with {status}",
-            cmd.get_program().to_string_lossy().into_owned(),
+            cmd.get_program().to_string_lossy(),
             cmd.get_args()
-                .map(|arg| arg.to_string_lossy().into_owned())
+                .map(|arg| arg.to_string_lossy())
                 .collect::<Vec<_>>()
                 .join(" "),
         )
