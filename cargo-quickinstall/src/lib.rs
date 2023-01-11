@@ -25,7 +25,7 @@ pub struct CrateDetails {
     pub target: String,
 }
 
-pub fn install_crate(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
+pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
     match download_tarball(&details.crate_name, &details.version, &details.target) {
         Ok(tarball) => {
             let tar_output = untar(tarball)?;
@@ -110,7 +110,7 @@ pub fn report_stats_in_background(details: &CrateDetails) -> std::thread::JoinHa
     })
 }
 
-pub fn do_dry_run(crate_details: &CrateDetails) -> String {
+pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
     let crate_download_url = format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/\
                  {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",

@@ -35,26 +35,33 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
         Some(version) => version,
         None => get_latest_version(&crate_name)?,
     };
-    let target = match options.target {
-        Some(target) => target,
-        None => get_target_triple()?,
-    };
 
-    let crate_details = CrateDetails {
-        crate_name,
-        version,
-        target,
-    };
+    let target = options.target;
 
-    if options.dry_run {
-        let shell_cmd = do_dry_run(&crate_details);
-        println!("{}", shell_cmd);
-        return Ok(());
+    if options.no_binstall {
+        let target = match target {
+            Some(target) => target,
+            None => get_target_triple()?,
+        };
+
+        let crate_details = CrateDetails {
+            crate_name,
+            version,
+            target,
+        };
+
+        if options.dry_run {
+            let shell_cmd = do_dry_run_curl(&crate_details);
+            println!("{}", shell_cmd);
+            return Ok(());
+        }
+
+        let stats_handle = report_stats_in_background(&crate_details);
+        install_crate_curl(&crate_details, options.fallback)?;
+        stats_handle.join().unwrap();
+    } else {
+        todo!()
     }
-
-    let stats_handle = report_stats_in_background(&crate_details);
-    install_crate(&crate_details, options.fallback)?;
-    stats_handle.join().unwrap();
 
     Ok(())
 }
