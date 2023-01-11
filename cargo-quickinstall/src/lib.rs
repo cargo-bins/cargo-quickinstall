@@ -25,6 +25,18 @@ pub struct CrateDetails {
     pub target: String,
 }
 
+pub fn get_cargo_binstall_version() -> Option<String> {
+    let output = std::process::Command::new("cargo")
+        .args(["binstall", "-V"])
+        .output()
+        .ok()?;
+    if !output.status.success() {
+        return None;
+    }
+
+    String::from_utf8(output.stdout).ok()
+}
+
 pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
     match download_tarball(&details.crate_name, &details.version, &details.target) {
         Ok(tarball) => {
