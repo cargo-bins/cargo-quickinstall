@@ -20,7 +20,15 @@ impl InstallError {
     }
 }
 
-impl std::error::Error for InstallError {}
+impl std::error::Error for InstallError {
+    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+        if let Self::IoError(io_err) = self {
+            Some(io_err)
+        } else {
+            None
+        }
+    }
+}
 
 // We implement `Debug` in terms of `Display`, because "Error: {:?}"
 // is what is shown to the user if you return an error from `main()`.
