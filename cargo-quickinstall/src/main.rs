@@ -39,29 +39,45 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let target = options.target;
 
     if options.no_binstall {
-        let target = match target {
-            Some(target) => target,
-            None => get_target_triple()?,
-        };
-
-        let crate_details = CrateDetails {
+        do_main_curl(
             crate_name,
             version,
             target,
-        };
-
-        if options.dry_run {
-            let shell_cmd = do_dry_run_curl(&crate_details);
-            println!("{}", shell_cmd);
-            return Ok(());
-        }
-
-        let stats_handle = report_stats_in_background(&crate_details);
-        install_crate_curl(&crate_details, options.fallback)?;
-        stats_handle.join().unwrap();
+            options.dry_run,
+            options.fallback,
+        )
     } else {
-        todo!()
+        Ok(())
     }
+}
+
+fn do_main_curl(
+    crate_name: String,
+    version: String,
+    target: Option<String>,
+    dry_run: bool,
+    fallback: bool,
+) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
+    let target = match target {
+        Some(target) => target,
+        None => get_target_triple()?,
+    };
+
+    let crate_details = CrateDetails {
+        crate_name,
+        version,
+        target,
+    };
+
+    if dry_run {
+        let shell_cmd = do_dry_run_curl(&crate_details);
+        println!("{}", shell_cmd);
+        return Ok(());
+    }
+
+    let stats_handle = report_stats_in_background(&crate_details);
+    install_crate_curl(&crate_details, fallback)?;
+    stats_handle.join().unwrap();
 
     Ok(())
 }
