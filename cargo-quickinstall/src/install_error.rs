@@ -12,14 +12,11 @@ pub enum InstallError {
 
 impl InstallError {
     pub fn is_curl_404(&self) -> bool {
-        match self {
+        matches!(
+            self,
             Self::CommandFailed(CommandFailed { stderr, .. })
-                if stderr.contains("curl: (22) The requested URL returned error: 404") =>
-            {
-                true
-            }
-            _ => false,
-        }
+            if stderr.contains("curl: (22) The requested URL returned error: 404")
+        )
     }
 }
 
