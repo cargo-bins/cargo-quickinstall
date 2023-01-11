@@ -10,6 +10,7 @@ OPTIONS:
         --version <VERSION>         Specify a version to install
         --target <TRIPLE>           Install package for the target triple
         --no-fallback               Don't fall back to `cargo install`
+        --no-binstall               Don't use `cargo binstall` to install packages.
         --dry-run                   Print the `curl | tar` command that would be run to fetch the binary
     -V, --print-version             Print version info and exit
     -h, --help                      Prints help information
@@ -20,6 +21,7 @@ pub struct CliOptions {
     pub target: Option<String>,
     pub crate_name: Option<String>,
     pub fallback: bool,
+    pub no_binstall: bool,
     pub print_version: bool,
     pub help: bool,
     pub dry_run: bool,
@@ -32,6 +34,7 @@ pub fn options_from_cli_args(
         version: args.opt_value_from_str("--version")?,
         target: args.opt_value_from_str("--target")?,
         fallback: !args.contains("--no-fallback"),
+        no_binstall: !args.contains("--no-binstall"),
         print_version: args.contains(["-V", "--print-version"]),
         help: args.contains(["-h", "--help"]),
         dry_run: args.contains("--dry-run"),
