@@ -110,14 +110,9 @@ pub fn get_target_triple() -> Result<String, InstallError> {
 }
 
 pub fn report_stats_in_background(details: &CrateDetails) {
-    let tarball_name = format!(
-        "{}-{}-{}.tar.gz",
-        details.crate_name, details.version, details.target
-    );
-
     let stats_url = format!(
-        "https://warehouse-clerk-tmp.vercel.app/api/crate/{}",
-        tarball_name
+        "https://warehouse-clerk-tmp.vercel.app/api/crate/{}-{}-{}.tar.gz",
+        details.crate_name, details.version, details.target
     );
 
     // Simply spawn the curl command to report stat.
