@@ -109,7 +109,7 @@ fn do_main_binstall(
     version: Option<String>,
     target: Option<String>,
     dry_run: bool,
-    fallback: bool,
+    _fallback: bool,
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let is_binstall_compatible = get_cargo_binstall_version()
         .map(
@@ -129,10 +129,12 @@ fn do_main_binstall(
         .unwrap_or(false);
 
     if !is_binstall_compatible {
-        do_main_curl("cargo-binstall".to_string(), None, None, dry_run, fallback)?;
+        do_main_curl("cargo-binstall".to_string(), None, None, dry_run, false)?;
 
         if !dry_run {
-            println!("Bootstrapping cargo-binstall with itself to make `cargo uninstall ` work properly");
+            println!(
+                "Bootstrapping cargo-binstall with itself to make `cargo uninstall ` work properly"
+            );
             do_install_binstall(
                 vec![Crate {
                     name: "cargo-binstall".to_string(),
