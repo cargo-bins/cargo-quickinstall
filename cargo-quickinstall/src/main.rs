@@ -79,9 +79,8 @@ fn do_main_curl(
         return Ok(());
     }
 
-    let stats_handle = report_stats_in_background(&crate_details);
+    report_stats_in_background(&crate_details);
     install_crate_curl(&crate_details, fallback)?;
-    stats_handle.join().unwrap();
 
     Ok(())
 }
