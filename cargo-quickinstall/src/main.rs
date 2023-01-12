@@ -141,8 +141,7 @@ fn do_main_binstall(
                     version: None,
                 }],
                 None,
-                false,
-                true,
+                BinstallMode::Bootstrapping,
             )?;
         } else {
             return Ok(());
@@ -155,16 +154,19 @@ fn do_main_binstall(
             version,
         }],
         target,
-        dry_run,
-        false,
+        BinstallMode::Regular { dry_run },
     )
+}
+
+enum BinstallMode {
+    Bootstrapping,
+    Regular { dry_run: bool },
 }
 
 fn do_install_binstall(
     crates: Vec<Crate>,
     target: Option<String>,
-    dry_run: bool,
-    force: bool,
+    mode: BinstallMode,
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let mut cmd = std::process::Command::new("cargo");
 
@@ -174,15 +176,20 @@ fn do_install_binstall(
         cmd.arg("--targets").arg(target);
     }
 
-    if force {
+    if matches!(mode, BinstallMode::Bootstrapping) {
         cmd.arg("--force");
     }
 
-    if dry_run {
+    if let BinstallMode::Regular { dry_run: true } = mode {
         cmd.arg("--dry-run");
     }
 
     cmd.args(crates.into_iter().map(Crate::into_arg));
+
+    #[cfg(unix)]
+    if !matches!(mode, BinstallMode::Bootstrapping) {
+        return Err(std::os::unix::process::CommandExt::exec(&mut cmd).into());
+    }
 
     let status = cmd.status()?;
 
