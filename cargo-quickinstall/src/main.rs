@@ -184,6 +184,9 @@ fn do_install_binstall(
 
     cmd.args(crates.into_iter().map(Crate::into_arg));
 
+    #[cfg(unix)]
+    Err(std::os::unix::process::CommandExt::exec(&mut cmd))?;
+
     let status = cmd.status()?;
 
     if !status.success() {
