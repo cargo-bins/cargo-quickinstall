@@ -109,7 +109,7 @@ pub fn get_target_triple() -> Result<String, InstallError> {
     .into())
 }
 
-pub fn report_stats_in_background(details: &CrateDetails) -> std::thread::JoinHandle<()> {
+pub fn report_stats_in_background(details: &CrateDetails) {
     let tarball_name = format!(
         "{}-{}-{}.tar.gz",
         details.crate_name, details.version, details.target
@@ -119,10 +119,12 @@ pub fn report_stats_in_background(details: &CrateDetails) -> std::thread::JoinHa
         "https://warehouse-clerk-tmp.vercel.app/api/crate/{}",
         tarball_name
     );
-    std::thread::spawn(move || {
-        // warehouse-clerk is known to return 404. This is fine. We only use it for stats gathering.
-        curl_head(&stats_url).unwrap_or_default();
-    })
+
+    // Simply spawn the curl command to report stat.
+    //
+    // It's ok for it to fail and we would let the init process reap
+    // the `curl` process.
+    prepare_curl_head_cmd(&stats_url).spawn().ok();
 }
 
 pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
