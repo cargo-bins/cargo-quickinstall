@@ -19,7 +19,7 @@ fn quickinstall_for_ripgrep() {
     };
     let do_not_fallback_on_cargo_install = false;
 
-    let result = install_crate(&crate_details, do_not_fallback_on_cargo_install);
+    let result = install_crate_curl(&crate_details, do_not_fallback_on_cargo_install);
 
     assert!(result.is_ok());
 }
@@ -36,7 +36,7 @@ fn do_dry_run_for_ripgrep() {
         target: "x86_64-unknown-linux-gnu".to_string(),
     };
 
-    let result = do_dry_run(&crate_details);
+    let result = do_dry_run_curl(&crate_details);
 
     let expected_prefix = r#""curl" "--user-agent" "cargo-quickinstall client (alsuren@gmail.com)" "--location" "--silent" "--show-error" "--fail" "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ripgrep-13.0.0-x86_64-unknown-linux-gnu/ripgrep-13.0.0-x86_64-unknown-linux-gnu.tar.gz" | "tar" "-xzvvf" "-" "-C""#;
     assert!(result.starts_with(expected_prefix));
@@ -51,7 +51,7 @@ fn do_dry_run_for_nonexistent_package() {
         target: "unknown".to_string(),
     };
 
-    let result = do_dry_run(&crate_details);
+    let result = do_dry_run_curl(&crate_details);
 
     let expected = r#""cargo" "install" "nonexisting_crate_12345" "--version" "99""#;
     assert_eq!(expected, &result);

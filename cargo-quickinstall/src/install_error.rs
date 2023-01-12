@@ -12,18 +12,23 @@ pub enum InstallError {
 
 impl InstallError {
     pub fn is_curl_404(&self) -> bool {
-        match self {
+        matches!(
+            self,
             Self::CommandFailed(CommandFailed { stderr, .. })
-                if stderr.contains("curl: (22) The requested URL returned error: 404") =>
-            {
-                true
-            }
-            _ => false,
-        }
+            if stderr.contains("curl: (22) The requested URL returned error: 404")
+        )
     }
 }
 
-impl std::error::Error for InstallError {}
+impl std::error::Error for InstallError {
+    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+        if let Self::IoError(io_err) = self {
+            Some(io_err)
+        } else {
+            None
+        }
+    }
+}
 
 // We implement `Debug` in terms of `Display`, because "Error: {:?}"
 // is what is shown to the user if you return an error from `main()`.
