@@ -49,15 +49,18 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
             Ok(())
         }
         Err(err) if err.is_curl_404() => {
-            if !fallback {
-                return Err(InstallError::NoFallback(details.clone()));
-            }
-
             println!(
                 "Could not find a pre-built package for {} {} on {}.",
                 details.crate_name, details.version, details.target
             );
             println!("We have reported your installation request, so it should be built soon.");
+
+            report_stats_in_background(details);
+
+            if !fallback {
+                return Err(InstallError::NoFallback(details.clone()));
+            }
+
             println!("Falling back to `cargo install`.");
 
             let status = prepare_cargo_install_cmd(details).status()?;
