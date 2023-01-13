@@ -144,7 +144,9 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallEr
         target = crate_details.target
     );
     if curl_head(&crate_download_url).is_ok() {
-        let cargo_bin_dir = home::cargo_home()?.join("bin");
+        let mut cargo_bin_dir = home::cargo_home()?;
+        cargo_bin_dir.push("bin");
+
         Ok(format!(
             "{curl_cmd} | {untar_cmd}",
             curl_cmd = prepare_curl_bytes_cmd(&crate_download_url).formattable(),
