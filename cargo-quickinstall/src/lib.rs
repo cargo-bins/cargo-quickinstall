@@ -58,6 +58,7 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
                 details.crate_name, details.version, details.target
             );
             println!("We have reported your installation request, so it should be built soon.");
+
             println!("Falling back to `cargo install`.");
 
             let status = prepare_cargo_install_cmd(details).status()?;
@@ -106,20 +107,17 @@ pub fn get_target_triple() -> Result<String, InstallError> {
     .into())
 }
 
-pub fn report_stats_in_background(details: &CrateDetails) -> std::thread::JoinHandle<()> {
-    let tarball_name = format!(
-        "{}-{}-{}.tar.gz",
+pub fn report_stats_in_background(details: &CrateDetails) {
+    let stats_url = format!(
+        "https://warehouse-clerk-tmp.vercel.app/api/crate/{}-{}-{}.tar.gz",
         details.crate_name, details.version, details.target
     );
 
-    let stats_url = format!(
-        "https://warehouse-clerk-tmp.vercel.app/api/crate/{}",
-        tarball_name
-    );
-    std::thread::spawn(move || {
-        // warehouse-clerk is known to return 404. This is fine. We only use it for stats gathering.
-        curl_head(&stats_url).unwrap_or_default();
-    })
+    // Simply spawn the curl command to report stat.
+    //
+    // It's ok for it to fail and we would let the init process reap
+    // the `curl` process.
+    prepare_curl_head_cmd(&stats_url).spawn().ok();
 }
 
 pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
@@ -182,17 +180,23 @@ fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
     Ok(stdout + &stderr)
 }
 
-fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
-    let output = std::process::Command::new("curl")
-        .arg("--user-agent")
+fn prepare_curl_head_cmd(url: &str) -> std::process::Command {
+    let mut cmd = std::process::Command::new("curl");
+
+    cmd.arg("--user-agent")
         .arg("cargo-quickinstall client (alsuren@gmail.com)")
         .arg("--head")
         .arg("--silent")
         .arg("--show-error")
         .arg("--fail")
         .arg("--location")
-        .arg(url)
-        .output()?;
+        .arg(url);
+
+    cmd
+}
+
+fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
+    let output = prepare_curl_head_cmd(url).output()?;
     if !output.status.success() {
         let stdout = String::from_utf8(output.stdout).unwrap();
         let stderr = String::from_utf8(output.stderr).unwrap();
