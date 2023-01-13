@@ -5,6 +5,7 @@
 
 use std::convert::TryInto;
 use std::io::ErrorKind;
+use std::process;
 use tinyjson::JsonValue;
 
 pub mod install_error;
@@ -12,7 +13,7 @@ pub mod install_error;
 use install_error::*;
 
 mod command_ext;
-pub use command_ext::{CommandExt, CommandFormattable};
+pub use command_ext::{ChildWithCmd, CommandExt, CommandFormattable};
 
 mod utils;
 pub use utils::utf8_to_string_lossy;
@@ -206,6 +207,14 @@ fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
     prepare_curl_head_cmd(url)
         .output_checked_status()
         .map(|output| output.stdout)
+}
+
+fn curl(url: &str) -> Result<ChildWithCmd, InstallError> {
+    let mut cmd = prepare_curl_bytes_cmd(url);
+    cmd.stdin(process::Stdio::null())
+        .stdout(process::Stdio::piped())
+        .stderr(process::Stdio::piped());
+    cmd.spawn_with_cmd()
 }
 
 fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {

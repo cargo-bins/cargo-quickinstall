@@ -1,7 +1,7 @@
 use std::{
     ffi::OsStr,
     fmt,
-    process::{Child, Command, Output},
+    process::{self, Child, Command, Output},
 };
 
 use crate::{utf8_to_string_lossy, CommandFailed, InstallError};
@@ -11,7 +11,7 @@ pub trait CommandExt {
 
     fn output_checked_status(&mut self) -> Result<Output, InstallError>;
 
-    fn spawn_with_cmd(self) -> Result<ChildWithRefToCmd, InstallError>;
+    fn spawn_with_cmd(self) -> Result<ChildWithCmd, InstallError>;
 }
 
 impl CommandExt for Command {
@@ -25,10 +25,10 @@ impl CommandExt for Command {
             .and_then(|output| check_status(self, output))
     }
 
-    fn spawn_with_cmd(mut self) -> Result<ChildWithRefToCmd, InstallError> {
+    fn spawn_with_cmd(mut self) -> Result<ChildWithCmd, InstallError> {
         self.spawn()
             .map_err(InstallError::from)
-            .map(move |child| ChildWithRefToCmd { child, cmd: self })
+            .map(move |child| ChildWithCmd { child, cmd: self })
     }
 }
 
@@ -53,7 +53,7 @@ impl fmt::Display for CommandFormattable<'_> {
     }
 }
 
-pub struct ChildWithRefToCmd {
+pub struct ChildWithCmd {
     cmd: Command,
     child: Child,
 }
@@ -71,7 +71,7 @@ fn check_status(cmd: &Command, output: Output) -> Result<Output, InstallError> {
     }
 }
 
-impl ChildWithRefToCmd {
+impl ChildWithCmd {
     pub fn wait_with_output_checked_status(self) -> Result<Output, InstallError> {
         let cmd = self.cmd;
 
@@ -79,5 +79,17 @@ impl ChildWithRefToCmd {
             .wait_with_output()
             .map_err(InstallError::from)
             .and_then(|output| check_status(&cmd, output))
+    }
+
+    pub fn stdin(&mut self) -> &mut Option<process::ChildStdin> {
+        &mut self.child.stdin
+    }
+
+    pub fn stdout(&mut self) -> &mut Option<process::ChildStdout> {
+        &mut self.child.stdout
+    }
+
+    pub fn stderr(&mut self) -> &mut Option<process::ChildStderr> {
+        &mut self.child.stderr
     }
 }
