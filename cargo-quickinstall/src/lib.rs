@@ -160,11 +160,7 @@ fn untar(input: process::ChildStdout) -> Result<String, InstallError> {
     let mut bin_dir = home::cargo_home()?;
     bin_dir.push("bin");
 
-    let output = std::process::Command::new("tar")
-        .arg("-xzvvf")
-        .arg("-")
-        .arg("-C")
-        .arg(bin_dir)
+    let output = prepare_untar_cmd(&bin_dir)
         .stdin(input)
         .output_checked_status()?;
 
