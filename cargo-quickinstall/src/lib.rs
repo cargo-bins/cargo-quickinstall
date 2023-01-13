@@ -158,7 +158,7 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
 }
 
 fn untar(input: process::ChildStdout) -> Result<String, InstallError> {
-    let mut bin_dir = home::cargo_home().unwrap();
+    let mut bin_dir = home::cargo_home()?;
     bin_dir.push("bin");
 
     let output = std::process::Command::new("tar")
