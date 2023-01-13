@@ -146,13 +146,13 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallEr
     if curl_head(&crate_download_url).is_ok() {
         let cargo_bin_dir = home::cargo_home()?.join("bin");
         Ok(format!(
-            "{curl_cmd:?} | {untar_cmd:?}",
-            curl_cmd = prepare_curl_bytes_cmd(&crate_download_url),
-            untar_cmd = prepare_untar_cmd(&cargo_bin_dir)
+            "{curl_cmd} | {untar_cmd}",
+            curl_cmd = prepare_curl_bytes_cmd(&crate_download_url).formattable(),
+            untar_cmd = prepare_untar_cmd(&cargo_bin_dir).formattable(),
         ))
     } else {
         let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
-        Ok(format!("{:?}", cargo_install_cmd))
+        Ok(format!("{}", cargo_install_cmd.formattable()))
     }
 }
 
