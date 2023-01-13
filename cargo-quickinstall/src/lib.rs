@@ -17,7 +17,7 @@ mod json_value_ext;
 pub use json_value_ext::{JsonExtError, JsonKey, JsonValueExt};
 
 mod utils;
-pub use utils::utf8_to_string_lossy;
+pub use utils::{get_cargo_bin_dir, utf8_to_string_lossy};
 
 #[derive(Debug)]
 pub struct CommandFailed {
@@ -144,8 +144,7 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallEr
         target = crate_details.target
     );
     if curl_head(&crate_download_url).is_ok() {
-        let mut cargo_bin_dir = home::cargo_home()?;
-        cargo_bin_dir.push("bin");
+        let cargo_bin_dir = get_cargo_bin_dir()?;
 
         Ok(format!(
             "{curl_cmd} | {untar_cmd}",
@@ -159,8 +158,7 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallEr
 }
 
 fn untar(input: process::ChildStdout) -> Result<String, InstallError> {
-    let mut bin_dir = home::cargo_home()?;
-    bin_dir.push("bin");
+    let bin_dir = get_cargo_bin_dir()?;
 
     let output = prepare_untar_cmd(&bin_dir)
         .stdin(input)
