@@ -65,10 +65,10 @@ impl Display for InstallError {
                 Ok(())
             }
             InstallError::IoError(e) => write!(f, "{}", e),
-            InstallError::CargoInstallFailed => write!(
-                f,
-                "`cargo install` didn't work either. Looks like you're on your own."
-            ),
+            InstallError::CargoInstallFailed => {
+                f.write_str("`cargo install` didn't work either. Looks like you're on your own.")
+            }
+
             InstallError::CrateDoesNotExist { crate_name } => {
                 write!(f, "`{}` does not exist on crates.io.", crate_name)
             }
