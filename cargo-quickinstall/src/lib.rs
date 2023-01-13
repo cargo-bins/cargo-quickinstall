@@ -47,9 +47,8 @@ pub fn get_cargo_binstall_version() -> Option<String> {
 
 pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
     match download_tarball(&details.crate_name, &details.version, &details.target) {
-        Ok(mut curl) => {
-            let tar_output = untar(curl.stdout().take().unwrap())?;
-            curl.wait_with_output_checked_status()?;
+        Ok(curl) => {
+            let tar_output = untar(curl)?;
             // tar output contains its own newline.
             print!(
                 "Installed {} {} to ~/.cargo/bin:\n{}",
@@ -157,12 +156,18 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallEr
     }
 }
 
-fn untar(input: process::ChildStdout) -> Result<String, InstallError> {
+fn untar(mut curl: ChildWithCmd) -> Result<String, InstallError> {
     let bin_dir = get_cargo_bin_dir()?;
 
-    let output = prepare_untar_cmd(&bin_dir)
-        .stdin(input)
-        .output_checked_status()?;
+    let res = prepare_untar_cmd(&bin_dir)
+        .stdin(curl.stdout().take().unwrap())
+        .output_checked_status();
+
+    // Propagate this error before Propagating error tar since
+    // if tar fails, it's likely due to curl failed.
+    curl.wait_with_output_checked_status()?;
+
+    let output = res?;
 
     let stdout = utf8_to_string_lossy(output.stdout);
     let stderr = String::from_utf8_lossy(&output.stderr);
