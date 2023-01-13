@@ -1,6 +1,8 @@
 use crate::{CommandFailed, CrateDetails};
 use std::fmt::{Debug, Display};
 
+use tinyjson::JsonParseError;
+
 pub enum InstallError {
     MissingCrateNameArgument(&'static str),
     CommandFailed(CommandFailed),
@@ -8,6 +10,7 @@ pub enum InstallError {
     CargoInstallFailed,
     CrateDoesNotExist { crate_name: String },
     NoFallback(CrateDetails),
+    InvalidJson { url: String, err: JsonParseError },
 }
 
 impl InstallError {
@@ -22,10 +25,10 @@ impl InstallError {
 
 impl std::error::Error for InstallError {
     fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
-        if let Self::IoError(io_err) = self {
-            Some(io_err)
-        } else {
-            None
+        match self {
+            Self::IoError(io_err) => Some(io_err),
+            Self::InvalidJson { err, .. } => Some(err),
+            _ => None,
         }
     }
 }
@@ -73,6 +76,9 @@ impl Display for InstallError {
                     "Could not find a pre-built package for {} {} on {}.",
                     crate_details.crate_name, crate_details.version, crate_details.target
                 )
+            }
+            InstallError::InvalidJson { url, err } => {
+                write!(f, "Failed to parse json downloaded from '{url}': {err}",)
             }
         }
     }
