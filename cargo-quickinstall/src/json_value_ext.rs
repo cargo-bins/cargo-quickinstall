@@ -47,15 +47,13 @@ impl JsonValueExt for JsonValue {
     }
 
     fn get_value_type(&self) -> &'static str {
-        use JsonValue::*;
-
         match self {
-            Number(..) => "Number",
-            Boolean(..) => "Boolean",
-            String(..) => "String",
-            Null => "Null",
-            Array(..) => "Array",
-            Object(..) => "Object",
+            JsonValue::Number(..) => "Number",
+            JsonValue::Boolean(..) => "Boolean",
+            JsonValue::String(..) => "String",
+            JsonValue::Null => "Null",
+            JsonValue::Array(..) => "Array",
+            JsonValue::Object(..) => "Object",
         }
     }
 }
