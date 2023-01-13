@@ -3,7 +3,7 @@
 //! Tries to install pre-built binary crates whenever possibles.  Falls back to
 //! `cargo install` otherwise.
 
-use std::process;
+use std::{path::Path, process};
 use tinyjson::JsonValue;
 
 pub mod install_error;
@@ -145,11 +145,10 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallEr
     );
     if curl_head(&crate_download_url).is_ok() {
         let cargo_bin_dir = home::cargo_home()?.join("bin");
-        let cargo_bin_dir_str = cargo_bin_dir.to_str().unwrap();
         Ok(format!(
             "{curl_cmd:?} | {untar_cmd:?}",
             curl_cmd = prepare_curl_bytes_cmd(&crate_download_url),
-            untar_cmd = prepare_untar_cmd(cargo_bin_dir_str)
+            untar_cmd = prepare_untar_cmd(&cargo_bin_dir)
         ))
     } else {
         let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
@@ -250,7 +249,7 @@ fn prepare_curl_bytes_cmd(url: &str) -> std::process::Command {
     cmd
 }
 
-fn prepare_untar_cmd(cargo_bin_dir: &str) -> std::process::Command {
+fn prepare_untar_cmd(cargo_bin_dir: &Path) -> std::process::Command {
     let mut cmd = std::process::Command::new("tar");
     cmd.arg("-xzvvf").arg("-").arg("-C").arg(cargo_bin_dir);
     cmd
