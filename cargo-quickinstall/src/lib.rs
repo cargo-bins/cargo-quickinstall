@@ -46,8 +46,9 @@ pub fn get_cargo_binstall_version() -> Option<String> {
 
 pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
     match download_tarball(&details.crate_name, &details.version, &details.target) {
-        Ok(tarball) => {
-            let tar_output = untar(tarball)?;
+        Ok(mut child) => {
+            let tar_output = untar(child.stdout().take().unwrap())?;
+            child.wait_with_output_checked_status()?;
             // tar output contains its own newline.
             print!(
                 "Installed {} {} to ~/.cargo/bin:\n{}",
@@ -150,42 +151,25 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
     }
 }
 
-fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
-    use std::io::Write;
-
-    if tarball.is_empty() {
-        panic!("We fetched a tarball, but it was empty. Please report this as a bug.");
-    }
+fn untar(input: process::ChildStdout) -> Result<String, InstallError> {
     let cargo_home = home::cargo_home().unwrap();
     let bin_dir = cargo_home.join("bin");
-    let mut tar_command = std::process::Command::new("tar");
-    tar_command
+
+    let output = std::process::Command::new("tar")
         .arg("-xzvvf")
         .arg("-")
         .arg("-C")
         .arg(bin_dir)
-        .stdin(std::process::Stdio::piped())
-        .stdout(std::process::Stdio::piped())
-        .stderr(std::process::Stdio::piped());
-    let mut process = tar_command.spawn()?;
+        .stdin(input)
+        .output_checked_status()?;
 
-    process.stdin.take().unwrap().write_all(&tarball).unwrap();
+    let stdout = utf8_to_string_lossy(output.stdout);
+    let stderr = String::from_utf8_lossy(&output.stderr);
 
-    let output = process.wait_with_output()?;
+    let mut s = stdout;
+    s += &stderr;
 
-    let stdout = String::from_utf8(output.stdout).unwrap();
-    let stderr = String::from_utf8(output.stderr).unwrap();
-
-    if !output.status.success() {
-        return Err(CommandFailed {
-            command: tar_command.formattable().to_string(),
-            stdout,
-            stderr,
-        }
-        .into());
-    }
-
-    Ok(stdout + &stderr)
+    Ok(s)
 }
 
 fn prepare_curl_head_cmd(url: &str) -> std::process::Command {
@@ -239,12 +223,12 @@ fn download_tarball(
     crate_name: &str,
     version: &str,
     target: &str,
-) -> Result<Vec<u8>, InstallError> {
+) -> Result<ChildWithCmd, InstallError> {
     let github_url = format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
         crate_name=crate_name, version=version, target=target,
     );
-    curl_bytes(&github_url)
+    curl(&github_url)
 }
 
 fn prepare_curl_bytes_cmd(url: &str) -> std::process::Command {
