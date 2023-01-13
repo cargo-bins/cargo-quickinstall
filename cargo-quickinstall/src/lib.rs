@@ -174,7 +174,7 @@ fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
 
     if !output.status.success() {
         return Err(CommandFailed {
-            command: "tar -xzvvf - -C ~/.cargo/bin".to_string(),
+            command: tar_command.formattable().to_string(),
             stdout,
             stderr,
         }
