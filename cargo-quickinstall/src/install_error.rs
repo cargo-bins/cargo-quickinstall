@@ -11,6 +11,7 @@ pub enum InstallError {
     CrateDoesNotExist { crate_name: String },
     NoFallback(CrateDetails),
     InvalidJson { url: String, err: JsonParseError },
+    //JsonKeyNotFound { json: JsonValue, key: String },
 }
 
 impl InstallError {

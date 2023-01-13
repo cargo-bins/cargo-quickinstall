@@ -14,6 +14,9 @@ use install_error::*;
 mod command_ext;
 pub use command_ext::{ChildWithCmd, CommandExt, CommandFormattable};
 
+mod json_value_ext;
+pub use json_value_ext::{JsonExtError, JsonKey, JsonValueExt};
+
 mod utils;
 pub use utils::utf8_to_string_lossy;
 
