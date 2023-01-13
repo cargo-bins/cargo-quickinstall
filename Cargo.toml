@@ -2,3 +2,8 @@
 members = [
     "cargo-quickinstall",
 ]
+
+[profile.release]
+opt-level = "z"
+panic = "abort"
+strip = "symbols"
