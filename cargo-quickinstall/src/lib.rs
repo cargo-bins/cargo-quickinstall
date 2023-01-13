@@ -152,8 +152,8 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
 }
 
 fn untar(input: process::ChildStdout) -> Result<String, InstallError> {
-    let cargo_home = home::cargo_home().unwrap();
-    let bin_dir = cargo_home.join("bin");
+    let mut bin_dir = home::cargo_home().unwrap();
+    bin_dir.push("bin");
 
     let output = std::process::Command::new("tar")
         .arg("-xzvvf")
