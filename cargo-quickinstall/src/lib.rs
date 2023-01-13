@@ -97,15 +97,16 @@ pub fn get_target_triple() -> Result<String, InstallError> {
         .arg("--version")
         .arg("--verbose")
         .output()?;
-    for line in String::from_utf8(output.stdout).unwrap().lines() {
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    for line in stdout.lines() {
         if let Some(target) = line.strip_prefix("host: ") {
             return Ok(target.to_string());
         }
     }
     Err(CommandFailed {
         command: "rustc --version --verbose".to_string(),
-        stdout: "".to_string(),
-        stderr: String::from_utf8(output.stderr).unwrap(),
+        stdout: stdout.into_owned(),
+        stderr: String::from_utf8_lossy(&output.stderr).into_owned(),
     }
     .into())
 }
