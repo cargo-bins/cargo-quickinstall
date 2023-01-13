@@ -31,7 +31,7 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
-    wget `curl https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//'` -O zig
+    wget $(curl https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//') -O zig
     mkdir zigfolder
     tar -xf ./zig -C zigfolder --strip-components 1
     rm zig
