@@ -67,3 +67,11 @@ fn do_dry_run_for_nonexistent_package() {
     let expected = r#""cargo" "install" "nonexisting_crate_12345" "--version" "99""#;
     assert_eq!(expected, &result);
 }
+
+#[test]
+fn test_get_latest_version() {
+    assert_eq!(
+        get_latest_version("cargo-quickinstall").unwrap(),
+        env!("CARGO_PKG_VERSION")
+    );
+}
