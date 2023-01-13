@@ -41,7 +41,7 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     sudo mv zigfolder/zig /usr/local/bin
     rustup target add "$TARGET_ARCH"
     echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
-    echo '["linker = "/home/runner/work/cargo-quickinstall/cargo-quickinstall/zig-aarch64.sh"]' >>~/.cargo/config
+    echo 'linker = "/home/runner/work/cargo-quickinstall/cargo-quickinstall/zig-aarch64.sh' >>~/.cargo/config
 
     cat ~/.cargo/config
     cat /home/runner/work/cargo-quickinstall/cargo-quickinstall/zig-aarch64.sh
