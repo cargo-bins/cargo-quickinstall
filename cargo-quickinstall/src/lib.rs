@@ -14,6 +14,9 @@ use install_error::*;
 mod command_ext;
 pub use command_ext::{CommandExt, CommandFormattable};
 
+mod utils;
+pub use utils::utf8_to_string_lossy;
+
 #[derive(Debug)]
 pub struct CommandFailed {
     pub command: String,
@@ -97,7 +100,7 @@ pub fn get_target_triple() -> Result<String, InstallError> {
         .arg("--version")
         .arg("--verbose")
         .output()?;
-    let stdout = String::from_utf8_lossy(&output.stdout);
+    let stdout = utf8_to_string_lossy(output.stdout);
     for line in stdout.lines() {
         if let Some(target) = line.strip_prefix("host: ") {
             return Ok(target.to_string());
@@ -105,8 +108,8 @@ pub fn get_target_triple() -> Result<String, InstallError> {
     }
     Err(CommandFailed {
         command: "rustc --version --verbose".to_string(),
-        stdout: stdout.into_owned(),
-        stderr: String::from_utf8_lossy(&output.stderr).into_owned(),
+        stdout,
+        stderr: utf8_to_string_lossy(output.stderr),
     }
     .into())
 }
