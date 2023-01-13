@@ -193,15 +193,7 @@ fn do_install_binstall(
     let status = cmd.status()?;
 
     if !status.success() {
-        Err(format!(
-            "`{} {}` failed with {status}",
-            cmd.get_program().to_string_lossy(),
-            cmd.get_args()
-                .map(|arg| arg.to_string_lossy())
-                .collect::<Vec<_>>()
-                .join(" "),
-        )
-        .into())
+        Err(format!("`{}` failed with {status}", cmd.formattable(),).into())
     } else {
         Ok(())
     }

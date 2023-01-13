@@ -11,6 +11,9 @@ pub mod install_error;
 
 use install_error::*;
 
+mod command_ext;
+pub use command_ext::{CommandExt, CommandFormattable};
+
 #[derive(Debug)]
 pub struct CommandFailed {
     pub command: String,
