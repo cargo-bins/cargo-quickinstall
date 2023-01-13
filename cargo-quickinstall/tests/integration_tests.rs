@@ -64,7 +64,7 @@ fn do_dry_run_for_nonexistent_package() {
 
     let result = do_dry_run_curl(&crate_details).unwrap();
 
-    let expected = r#""cargo" "install" "nonexisting_crate_12345" "--version" "99""#;
+    let expected = "cargo install nonexisting_crate_12345 --version 99";
     assert_eq!(expected, &result);
 }
 
