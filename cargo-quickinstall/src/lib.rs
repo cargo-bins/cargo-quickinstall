@@ -47,9 +47,9 @@ pub fn get_cargo_binstall_version() -> Option<String> {
 
 pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
     match download_tarball(&details.crate_name, &details.version, &details.target) {
-        Ok(mut child) => {
-            let tar_output = untar(child.stdout().take().unwrap())?;
-            child.wait_with_output_checked_status()?;
+        Ok(mut curl) => {
+            let tar_output = untar(curl.stdout().take().unwrap())?;
+            curl.wait_with_output_checked_status()?;
             // tar output contains its own newline.
             print!(
                 "Installed {} {} to ~/.cargo/bin:\n{}",
