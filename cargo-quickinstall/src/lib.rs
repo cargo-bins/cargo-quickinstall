@@ -215,9 +215,7 @@ fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
 }
 
 fn curl_string(url: &str) -> Result<String, InstallError> {
-    let stdout = curl_bytes(url)?;
-    let parsed = String::from_utf8(stdout).unwrap();
-    Ok(parsed)
+    curl_bytes(url).map(utf8_to_string_lossy)
 }
 
 pub fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
