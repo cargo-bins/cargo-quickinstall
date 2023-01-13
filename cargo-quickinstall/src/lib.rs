@@ -174,17 +174,8 @@ fn untar(input: process::ChildStdout) -> Result<String, InstallError> {
 }
 
 fn prepare_curl_head_cmd(url: &str) -> std::process::Command {
-    let mut cmd = std::process::Command::new("curl");
-
-    cmd.arg("--user-agent")
-        .arg("cargo-quickinstall client (alsuren@gmail.com)")
-        .arg("--head")
-        .arg("--silent")
-        .arg("--show-error")
-        .arg("--fail")
-        .arg("--location")
-        .arg(url);
-
+    let mut cmd = prepare_curl_cmd();
+    cmd.arg("--head").arg(url);
     cmd
 }
 
@@ -233,15 +224,22 @@ fn download_tarball(
     curl(&github_url)
 }
 
-fn prepare_curl_bytes_cmd(url: &str) -> std::process::Command {
+fn prepare_curl_cmd() -> std::process::Command {
     let mut cmd = std::process::Command::new("curl");
-    cmd.arg("--user-agent")
-        .arg("cargo-quickinstall client (alsuren@gmail.com)")
-        .arg("--location")
-        .arg("--silent")
-        .arg("--show-error")
-        .arg("--fail")
-        .arg(url);
+    cmd.args([
+        "--user-agent",
+        "cargo-quickinstall client (alsuren@gmail.com)",
+        "--location",
+        "--silent",
+        "--show-error",
+        "--fail",
+    ]);
+    cmd
+}
+
+fn prepare_curl_bytes_cmd(url: &str) -> std::process::Command {
+    let mut cmd = prepare_curl_cmd();
+    cmd.arg(url);
     cmd
 }
 
