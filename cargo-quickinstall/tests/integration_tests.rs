@@ -7,21 +7,32 @@ use cargo_quickinstall::*;
 #[test]
 fn quickinstall_for_ripgrep() {
     let tmp_cargo_home_dir = mktemp::Temp::new_dir().unwrap();
-    let mut tmp_cargo_bin_dir = tmp_cargo_home_dir.to_path_buf();
-    tmp_cargo_bin_dir.push("bin");
-    std::fs::create_dir(tmp_cargo_bin_dir).unwrap();
-    std::env::set_var("CARGO_HOME", tmp_cargo_home_dir.to_str().unwrap());
+
+    let tmp_cargo_bin_dir = tmp_cargo_home_dir.as_path().join("bin");
+    std::fs::create_dir(&tmp_cargo_bin_dir).unwrap();
+
+    std::env::set_var("CARGO_HOME", tmp_cargo_home_dir.as_path());
 
     let crate_details = CrateDetails {
         crate_name: "ripgrep".to_string(),
         version: "13.0.0".to_string(),
-        target: "x86_64-unknown-linux-gnu".to_string(),
+        target: get_target_triple().unwrap(),
     };
     let do_not_fallback_on_cargo_install = false;
 
     let result = install_crate_curl(&crate_details, do_not_fallback_on_cargo_install);
 
-    assert!(result.is_ok());
+    assert!(result.is_ok(), "{}", result.err().unwrap());
+
+    let mut ripgrep_path = tmp_cargo_bin_dir;
+    ripgrep_path.push("rg");
+
+    assert!(ripgrep_path.is_file());
+
+    std::process::Command::new(ripgrep_path)
+        .arg("-V")
+        .output_checked_status()
+        .unwrap();
 }
 
 /// Tests dry run for Ripgrep.
