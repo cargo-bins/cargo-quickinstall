@@ -1,4 +1,4 @@
-use crate::{CommandFailed, CrateDetails};
+use crate::{CommandFailed, CrateDetails, JsonExtError};
 use std::fmt::{Debug, Display};
 
 use tinyjson::JsonParseError;
@@ -11,7 +11,7 @@ pub enum InstallError {
     CrateDoesNotExist { crate_name: String },
     NoFallback(CrateDetails),
     InvalidJson { url: String, err: JsonParseError },
-    //JsonKeyNotFound { json: JsonValue, key: String },
+    JsonErr(JsonExtError),
 }
 
 impl InstallError {
@@ -29,6 +29,7 @@ impl std::error::Error for InstallError {
         match self {
             Self::IoError(io_err) => Some(io_err),
             Self::InvalidJson { err, .. } => Some(err),
+            Self::JsonErr(err) => Some(err),
             _ => None,
         }
     }
@@ -81,6 +82,7 @@ impl Display for InstallError {
             InstallError::InvalidJson { url, err } => {
                 write!(f, "Failed to parse json downloaded from '{url}': {err}",)
             }
+            InstallError::JsonErr(err) => write!(f, "{err}"),
         }
     }
 }
