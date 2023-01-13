@@ -3,7 +3,6 @@
 //! Tries to install pre-built binary crates whenever possibles.  Falls back to
 //! `cargo install` otherwise.
 
-use std::convert::TryInto;
 use std::process;
 use tinyjson::JsonValue;
 
@@ -86,16 +85,21 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
 pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
     let url = format!("https://crates.io/api/v1/crates/{}", crate_name);
 
-    let parsed = curl_json(&url).map_err(|e| {
-        if e.is_curl_404() {
-            InstallError::CrateDoesNotExist {
-                crate_name: crate_name.to_string(),
+    curl_json(&url)
+        .map_err(|e| {
+            if e.is_curl_404() {
+                InstallError::CrateDoesNotExist {
+                    crate_name: crate_name.to_string(),
+                }
+            } else {
+                e
             }
-        } else {
-            e
-        }
-    })?;
-    Ok(parsed["versions"][0]["num"].clone().try_into().unwrap())
+        })?
+        .get_owned(&"versions")
+        .and_then(|value| value.get_owned(&0))
+        .and_then(|value| value.get_owned(&"num"))
+        .and_then(JsonValueExt::try_into_string)
+        .map_err(InstallError::from)
 }
 
 pub fn get_target_triple() -> Result<String, InstallError> {
