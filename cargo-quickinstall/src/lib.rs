@@ -203,33 +203,15 @@ fn prepare_curl_head_cmd(url: &str) -> std::process::Command {
 }
 
 fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
-    let output = prepare_curl_head_cmd(url).output()?;
-    if !output.status.success() {
-        let stdout = String::from_utf8(output.stdout).unwrap();
-        let stderr = String::from_utf8(output.stderr).unwrap();
-        return Err(CommandFailed {
-            command: format!("curl --head --fail '{}'", url),
-            stdout,
-            stderr,
-        }
-        .into());
-    }
-    Ok(output.stdout)
+    prepare_curl_head_cmd(url)
+        .output_checked_status()
+        .map(|output| output.stdout)
 }
 
 fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
-    let output = prepare_curl_bytes_cmd(url).output()?;
-    if !output.status.success() {
-        let stdout = String::from_utf8(output.stdout).unwrap();
-        let stderr = String::from_utf8(output.stderr).unwrap();
-        return Err(CommandFailed {
-            command: format!("curl --location --fail '{}'", url),
-            stdout,
-            stderr,
-        }
-        .into());
-    }
-    Ok(output.stdout)
+    prepare_curl_bytes_cmd(url)
+        .output_checked_status()
+        .map(|output| output.stdout)
 }
 
 fn curl_string(url: &str) -> Result<String, InstallError> {

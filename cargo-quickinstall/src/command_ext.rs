@@ -1,18 +1,45 @@
-use std::{ffi::OsStr, fmt, process::Command};
+use std::{
+    ffi::OsStr,
+    fmt,
+    process::{Command, Output},
+};
+
+use crate::{utf8_to_string_lossy, CommandFailed, InstallError};
 
 pub trait CommandExt {
     fn formattable(&self) -> CommandFormattable<'_>;
+
+    fn output_checked_status(&mut self) -> Result<Output, InstallError>;
 }
 
 impl CommandExt for Command {
     fn formattable(&self) -> CommandFormattable<'_> {
         CommandFormattable(self)
     }
+
+    fn output_checked_status(&mut self) -> Result<Output, InstallError> {
+        let output = self.output()?;
+
+        if output.status.success() {
+            Ok(output)
+        } else {
+            Err(CommandFailed {
+                command: self.formattable().to_string(),
+                stdout: utf8_to_string_lossy(output.stdout),
+                stderr: utf8_to_string_lossy(output.stderr),
+            }
+            .into())
+        }
+    }
 }
 
 impl<T: CommandExt> CommandExt for &mut T {
     fn formattable(&self) -> CommandFormattable<'_> {
         T::formattable(*self)
+    }
+
+    fn output_checked_status(&mut self) -> Result<Output, InstallError> {
+        T::output_checked_status(*self)
     }
 }
 
