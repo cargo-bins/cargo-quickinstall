@@ -1,7 +1,7 @@
 use std::{
     ffi::OsStr,
     fmt,
-    process::{Command, Output},
+    process::{Child, Command, Output},
 };
 
 use crate::{utf8_to_string_lossy, CommandFailed, InstallError};
@@ -10,6 +10,8 @@ pub trait CommandExt {
     fn formattable(&self) -> CommandFormattable<'_>;
 
     fn output_checked_status(&mut self) -> Result<Output, InstallError>;
+
+    fn spawn_with_cmd(self) -> Result<ChildWithRefToCmd, InstallError>;
 }
 
 impl CommandExt for Command {
@@ -18,28 +20,15 @@ impl CommandExt for Command {
     }
 
     fn output_checked_status(&mut self) -> Result<Output, InstallError> {
-        let output = self.output()?;
-
-        if output.status.success() {
-            Ok(output)
-        } else {
-            Err(CommandFailed {
-                command: self.formattable().to_string(),
-                stdout: utf8_to_string_lossy(output.stdout),
-                stderr: utf8_to_string_lossy(output.stderr),
-            }
-            .into())
-        }
-    }
-}
-
-impl<T: CommandExt> CommandExt for &mut T {
-    fn formattable(&self) -> CommandFormattable<'_> {
-        T::formattable(*self)
+        self.output()
+            .map_err(InstallError::from)
+            .and_then(|output| check_status(self, output))
     }
 
-    fn output_checked_status(&mut self) -> Result<Output, InstallError> {
-        T::output_checked_status(*self)
+    fn spawn_with_cmd(mut self) -> Result<ChildWithRefToCmd, InstallError> {
+        self.spawn()
+            .map_err(InstallError::from)
+            .map(move |child| ChildWithRefToCmd { child, cmd: self })
     }
 }
 
@@ -61,5 +50,34 @@ impl fmt::Display for CommandFormattable<'_> {
         }
 
         Ok(())
+    }
+}
+
+pub struct ChildWithRefToCmd {
+    cmd: Command,
+    child: Child,
+}
+
+fn check_status(cmd: &Command, output: Output) -> Result<Output, InstallError> {
+    if output.status.success() {
+        Ok(output)
+    } else {
+        Err(CommandFailed {
+            command: cmd.formattable().to_string(),
+            stdout: utf8_to_string_lossy(output.stdout),
+            stderr: utf8_to_string_lossy(output.stderr),
+        }
+        .into())
+    }
+}
+
+impl ChildWithRefToCmd {
+    pub fn wait_with_output_checked_status(self) -> Result<Output, InstallError> {
+        let cmd = self.cmd;
+
+        self.child
+            .wait_with_output()
+            .map_err(InstallError::from)
+            .and_then(|output| check_status(&cmd, output))
     }
 }
