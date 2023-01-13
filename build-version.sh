@@ -37,8 +37,8 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     rm zig
     sudo mv zigfolder/zig /usr/local/bin
     rustup target add "$TARGET_ARCH"
-    echo "[target.aarch64-unknown-linux-gnu]" >> ~/.cargo/config
-    echo '["linker = "./zig-aarch64.sh"]' >> ~/.cargo.config
+    echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
+    echo '["linker = "./zig-aarch64.sh"]' >>~/.cargo.config
 
     CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo install "$CRATE" CC=./zig-aarch64.sh --version "$VERSION" --target "$TARGET_ARCH"
     CARGO_BIN_DIR=~/.cargo/bin
