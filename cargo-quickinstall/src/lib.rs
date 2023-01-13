@@ -135,7 +135,7 @@ pub fn report_stats_in_background(details: &CrateDetails) {
     prepare_curl_head_cmd(&stats_url).spawn().ok();
 }
 
-pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
+pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallError> {
     let crate_download_url = format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/\
                  {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
@@ -144,16 +144,16 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
         target = crate_details.target
     );
     if curl_head(&crate_download_url).is_ok() {
-        let cargo_bin_dir = home::cargo_home().unwrap().join("bin");
+        let cargo_bin_dir = home::cargo_home()?.join("bin");
         let cargo_bin_dir_str = cargo_bin_dir.to_str().unwrap();
-        format!(
+        Ok(format!(
             "{curl_cmd:?} | {untar_cmd:?}",
             curl_cmd = prepare_curl_bytes_cmd(&crate_download_url),
             untar_cmd = prepare_untar_cmd(cargo_bin_dir_str)
-        )
+        ))
     } else {
         let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
-        format!("{:?}", cargo_install_cmd)
+        Ok(format!("{:?}", cargo_install_cmd))
     }
 }
 

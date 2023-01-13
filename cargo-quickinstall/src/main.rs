@@ -74,7 +74,7 @@ fn do_main_curl(
     };
 
     if dry_run {
-        let shell_cmd = do_dry_run_curl(&crate_details);
+        let shell_cmd = do_dry_run_curl(&crate_details)?;
         println!("{}", shell_cmd);
         return Ok(());
     }
