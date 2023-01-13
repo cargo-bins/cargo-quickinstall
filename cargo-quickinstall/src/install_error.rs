@@ -97,3 +97,9 @@ impl From<CommandFailed> for InstallError {
         InstallError::CommandFailed(err)
     }
 }
+
+impl From<JsonExtError> for InstallError {
+    fn from(err: JsonExtError) -> InstallError {
+        InstallError::JsonErr(err)
+    }
+}
