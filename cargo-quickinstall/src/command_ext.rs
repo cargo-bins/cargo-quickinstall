@@ -93,3 +93,19 @@ impl ChildWithCmd {
         &mut self.child.stderr
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_cmd_format() {
+        assert_eq!(
+            Command::new("cargo")
+                .args(["binstall", "-V"])
+                .formattable()
+                .to_string(),
+            "cargo binstall -V"
+        );
+    }
+}
