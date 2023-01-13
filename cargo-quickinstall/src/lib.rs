@@ -4,7 +4,6 @@
 //! `cargo install` otherwise.
 
 use std::convert::TryInto;
-use std::io::ErrorKind;
 use std::process;
 use tinyjson::JsonValue;
 
@@ -212,11 +211,12 @@ fn curl_string(url: &str) -> Result<String, InstallError> {
 }
 
 pub fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
-    let stdout = curl_string(url)?;
-    let parsed = stdout
+    curl_string(url)?
         .parse()
-        .map_err(|_| std::io::Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))?;
-    Ok(parsed)
+        .map_err(|err| InstallError::InvalidJson {
+            url: url.to_string(),
+            err,
+        })
 }
 
 fn download_tarball(
