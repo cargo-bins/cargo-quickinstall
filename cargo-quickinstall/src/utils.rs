@@ -7,8 +7,7 @@ pub fn utf8_to_string_lossy(bytes: Vec<u8>) -> String {
 }
 
 pub fn get_cargo_bin_dir() -> io::Result<PathBuf> {
-    cargo_home().map(|mut cargo_bin_dir| {
-        cargo_bin_dir.push("bin");
-        cargo_bin_dir
-    })
+    let mut cargo_bin_dir = cargo_home()?;
+    cargo_bin_dir.push("bin");
+    Ok(cargo_bin_dir)
 }
