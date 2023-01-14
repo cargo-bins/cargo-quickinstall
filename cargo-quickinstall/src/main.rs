@@ -74,7 +74,7 @@ fn do_main_curl(
     };
 
     if dry_run {
-        let shell_cmd = do_dry_run_curl(&crate_details);
+        let shell_cmd = do_dry_run_curl(&crate_details)?;
         println!("{}", shell_cmd);
         return Ok(());
     }
@@ -193,15 +193,7 @@ fn do_install_binstall(
     let status = cmd.status()?;
 
     if !status.success() {
-        Err(format!(
-            "`{} {}` failed with {status}",
-            cmd.get_program().to_string_lossy(),
-            cmd.get_args()
-                .map(|arg| arg.to_string_lossy())
-                .collect::<Vec<_>>()
-                .join(" "),
-        )
-        .into())
+        Err(format!("`{}` failed with {status}", cmd.formattable(),).into())
     } else {
         Ok(())
     }

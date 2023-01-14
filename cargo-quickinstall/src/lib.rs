@@ -3,13 +3,21 @@
 //! Tries to install pre-built binary crates whenever possibles.  Falls back to
 //! `cargo install` otherwise.
 
-use std::convert::TryInto;
-use std::io::ErrorKind;
+use std::{path::Path, process};
 use tinyjson::JsonValue;
 
 pub mod install_error;
 
 use install_error::*;
+
+mod command_ext;
+pub use command_ext::{ChildWithCommand, CommandExt, CommandFormattable};
+
+mod json_value_ext;
+pub use json_value_ext::{JsonExtError, JsonKey, JsonValueExt};
+
+mod utils;
+pub use utils::{get_cargo_bin_dir, utf8_to_string_lossy};
 
 #[derive(Debug)]
 pub struct CommandFailed {
@@ -38,9 +46,16 @@ pub fn get_cargo_binstall_version() -> Option<String> {
 }
 
 pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
-    match download_tarball(&details.crate_name, &details.version, &details.target) {
-        Ok(tarball) => {
-            let tar_output = untar(tarball)?;
+    // download_tarball will not include any 404 error from curl, but only
+    // error when spawning curl.
+    //
+    // untar will wait on curl, so it will include the 404 error.
+    match untar(download_tarball(
+        &details.crate_name,
+        &details.version,
+        &details.target,
+    )?) {
+        Ok(tar_output) => {
             // tar output contains its own newline.
             print!(
                 "Installed {} {} to ~/.cargo/bin:\n{}",
@@ -76,16 +91,21 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
 pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
     let url = format!("https://crates.io/api/v1/crates/{}", crate_name);
 
-    let parsed = curl_json(&url).map_err(|e| {
-        if e.is_curl_404() {
-            InstallError::CrateDoesNotExist {
-                crate_name: crate_name.to_string(),
+    curl_json(&url)
+        .map_err(|e| {
+            if e.is_curl_404() {
+                InstallError::CrateDoesNotExist {
+                    crate_name: crate_name.to_string(),
+                }
+            } else {
+                e
             }
-        } else {
-            e
-        }
-    })?;
-    Ok(parsed["versions"][0]["num"].clone().try_into().unwrap())
+        })?
+        .get_owned(&"versions")?
+        .get_owned(&0)?
+        .get_owned(&"num")?
+        .try_into_string()
+        .map_err(From::from)
 }
 
 pub fn get_target_triple() -> Result<String, InstallError> {
@@ -94,15 +114,16 @@ pub fn get_target_triple() -> Result<String, InstallError> {
         .arg("--version")
         .arg("--verbose")
         .output()?;
-    for line in String::from_utf8(output.stdout).unwrap().lines() {
+    let stdout = utf8_to_string_lossy(output.stdout);
+    for line in stdout.lines() {
         if let Some(target) = line.strip_prefix("host: ") {
             return Ok(target.to_string());
         }
     }
     Err(CommandFailed {
         command: "rustc --version --verbose".to_string(),
-        stdout: "".to_string(),
-        stderr: String::from_utf8(output.stderr).unwrap(),
+        stdout,
+        stderr: utf8_to_string_lossy(output.stderr),
     }
     .into())
 }
@@ -120,7 +141,7 @@ pub fn report_stats_in_background(details: &CrateDetails) {
     prepare_curl_head_cmd(&stats_url).spawn().ok();
 }
 
-pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
+pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallError> {
     let crate_download_url = format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/\
                  {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
@@ -129,141 +150,115 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> String {
         target = crate_details.target
     );
     if curl_head(&crate_download_url).is_ok() {
-        let cargo_bin_dir = home::cargo_home().unwrap().join("bin");
-        let cargo_bin_dir_str = cargo_bin_dir.to_str().unwrap();
-        format!(
-            "{curl_cmd:?} | {untar_cmd:?}",
-            curl_cmd = prepare_curl_bytes_cmd(&crate_download_url),
-            untar_cmd = prepare_untar_cmd(cargo_bin_dir_str)
-        )
+        let cargo_bin_dir = get_cargo_bin_dir()?;
+
+        Ok(format!(
+            "{curl_cmd} | {untar_cmd}",
+            curl_cmd = prepare_curl_bytes_cmd(&crate_download_url).formattable(),
+            untar_cmd = prepare_untar_cmd(&cargo_bin_dir).formattable(),
+        ))
     } else {
         let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
-        format!("{:?}", cargo_install_cmd)
+        Ok(format!("{}", cargo_install_cmd.formattable()))
     }
 }
 
-fn untar(tarball: Vec<u8>) -> Result<String, InstallError> {
-    use std::io::Write;
+fn untar(mut curl: ChildWithCommand) -> Result<String, InstallError> {
+    let bin_dir = get_cargo_bin_dir()?;
 
-    if tarball.is_empty() {
-        panic!("We fetched a tarball, but it was empty. Please report this as a bug.");
-    }
-    let cargo_home = home::cargo_home().unwrap();
-    let bin_dir = cargo_home.join("bin");
-    let mut tar_command = std::process::Command::new("tar");
-    tar_command
-        .arg("-xzvvf")
-        .arg("-")
-        .arg("-C")
-        .arg(bin_dir)
-        .stdin(std::process::Stdio::piped())
-        .stdout(std::process::Stdio::piped())
-        .stderr(std::process::Stdio::piped());
-    let mut process = tar_command.spawn()?;
+    let res = prepare_untar_cmd(&bin_dir)
+        .stdin(curl.stdout().take().unwrap())
+        .output_checked_status();
 
-    process.stdin.take().unwrap().write_all(&tarball).unwrap();
+    // Propagate this error before Propagating error tar since
+    // if tar fails, it's likely due to curl failed.
+    //
+    // For example, this would enable the 404 error to be propagated
+    // correctly.
+    curl.wait_with_output_checked_status()?;
 
-    let output = process.wait_with_output()?;
+    let output = res?;
 
-    let stdout = String::from_utf8(output.stdout).unwrap();
-    let stderr = String::from_utf8(output.stderr).unwrap();
+    let stdout = utf8_to_string_lossy(output.stdout);
+    let stderr = String::from_utf8_lossy(&output.stderr);
 
-    if !output.status.success() {
-        return Err(CommandFailed {
-            command: "tar -xzvvf - -C ~/.cargo/bin".to_string(),
-            stdout,
-            stderr,
-        }
-        .into());
-    }
+    let mut s = stdout;
+    s += &stderr;
 
-    Ok(stdout + &stderr)
+    Ok(s)
 }
 
 fn prepare_curl_head_cmd(url: &str) -> std::process::Command {
-    let mut cmd = std::process::Command::new("curl");
-
-    cmd.arg("--user-agent")
-        .arg("cargo-quickinstall client (alsuren@gmail.com)")
-        .arg("--head")
-        .arg("--silent")
-        .arg("--show-error")
-        .arg("--fail")
-        .arg("--location")
-        .arg(url);
-
+    let mut cmd = prepare_curl_cmd();
+    cmd.arg("--head").arg(url);
     cmd
 }
 
 fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
-    let output = prepare_curl_head_cmd(url).output()?;
-    if !output.status.success() {
-        let stdout = String::from_utf8(output.stdout).unwrap();
-        let stderr = String::from_utf8(output.stderr).unwrap();
-        return Err(CommandFailed {
-            command: format!("curl --head --fail '{}'", url),
-            stdout,
-            stderr,
-        }
-        .into());
-    }
-    Ok(output.stdout)
+    prepare_curl_head_cmd(url)
+        .output_checked_status()
+        .map(|output| output.stdout)
+}
+
+fn curl(url: &str) -> Result<ChildWithCommand, InstallError> {
+    let mut cmd = prepare_curl_bytes_cmd(url);
+    cmd.stdin(process::Stdio::null())
+        .stdout(process::Stdio::piped())
+        .stderr(process::Stdio::piped());
+    cmd.spawn_with_cmd()
 }
 
 fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
-    let output = prepare_curl_bytes_cmd(url).output()?;
-    if !output.status.success() {
-        let stdout = String::from_utf8(output.stdout).unwrap();
-        let stderr = String::from_utf8(output.stderr).unwrap();
-        return Err(CommandFailed {
-            command: format!("curl --location --fail '{}'", url),
-            stdout,
-            stderr,
-        }
-        .into());
-    }
-    Ok(output.stdout)
+    prepare_curl_bytes_cmd(url)
+        .output_checked_status()
+        .map(|output| output.stdout)
 }
 
 fn curl_string(url: &str) -> Result<String, InstallError> {
-    let stdout = curl_bytes(url)?;
-    let parsed = String::from_utf8(stdout).unwrap();
-    Ok(parsed)
+    curl_bytes(url).map(utf8_to_string_lossy)
 }
 
 pub fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
-    let stdout = curl_string(url)?;
-    let parsed = stdout
+    curl_string(url)?
         .parse()
-        .map_err(|_| std::io::Error::new(ErrorKind::InvalidData, "Unable to parse JSON."))?;
-    Ok(parsed)
+        .map_err(|err| InstallError::InvalidJson {
+            url: url.to_string(),
+            err,
+        })
 }
 
 fn download_tarball(
     crate_name: &str,
     version: &str,
     target: &str,
-) -> Result<Vec<u8>, InstallError> {
+) -> Result<ChildWithCommand, InstallError> {
     let github_url = format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
         crate_name=crate_name, version=version, target=target,
     );
-    curl_bytes(&github_url)
+    curl(&github_url)
 }
 
-fn prepare_curl_bytes_cmd(url: &str) -> std::process::Command {
+fn prepare_curl_cmd() -> std::process::Command {
     let mut cmd = std::process::Command::new("curl");
-    cmd.arg("--user-agent")
-        .arg("cargo-quickinstall client (alsuren@gmail.com)")
-        .arg("--location")
-        .arg("--silent")
-        .arg("--show-error")
-        .arg("--fail")
-        .arg(url);
+    cmd.args([
+        "--user-agent",
+        "cargo-quickinstall client (alsuren@gmail.com)",
+        "--location",
+        "--silent",
+        "--show-error",
+        "--fail",
+    ]);
     cmd
 }
 
-fn prepare_untar_cmd(cargo_bin_dir: &str) -> std::process::Command {
+fn prepare_curl_bytes_cmd(url: &str) -> std::process::Command {
+    let mut cmd = prepare_curl_cmd();
+    cmd.arg(url);
+    cmd
+}
+
+fn prepare_untar_cmd(cargo_bin_dir: &Path) -> std::process::Command {
     let mut cmd = std::process::Command::new("tar");
     cmd.arg("-xzvvf").arg("-").arg("-C").arg(cargo_bin_dir);
     cmd
