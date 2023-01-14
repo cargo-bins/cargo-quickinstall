@@ -46,9 +46,16 @@ pub fn get_cargo_binstall_version() -> Option<String> {
 }
 
 pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
-    match download_tarball(&details.crate_name, &details.version, &details.target) {
-        Ok(curl) => {
-            let tar_output = untar(curl)?;
+    // download_tarball will not include any 404 error from curl, but only
+    // error when spawning curl.
+    //
+    // untar will wait on curl, so it will include the 404 error.
+    match untar(download_tarball(
+        &details.crate_name,
+        &details.version,
+        &details.target,
+    )?) {
+        Ok(tar_output) => {
             // tar output contains its own newline.
             print!(
                 "Installed {} {} to ~/.cargo/bin:\n{}",
@@ -165,6 +172,9 @@ fn untar(mut curl: ChildWithCommand) -> Result<String, InstallError> {
 
     // Propagate this error before Propagating error tar since
     // if tar fails, it's likely due to curl failed.
+    //
+    // For example, this would enable the 404 error to be propagated
+    // correctly.
     curl.wait_with_output_checked_status()?;
 
     let output = res?;
