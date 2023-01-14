@@ -66,5 +66,5 @@ jobs:
 
       - name: Test using binstall with it already installed
         run: |
-          cargo r -- --force cargo-quickinstall
+          cargo r -- cargo-quickinstall
           cargo quickinstall -V
