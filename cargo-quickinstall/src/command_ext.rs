@@ -34,19 +34,16 @@ impl CommandExt for Command {
 
 pub struct CommandFormattable<'a>(&'a Command);
 
-fn no_ascii_whitespace(s: &str) -> bool {
-    let mut it = s.split_ascii_whitespace();
-    it.next() == Some(s) && it.next().is_none()
+fn needs_escape(s: &str) -> bool {
+    s.contains(|ch| !matches!(ch, 'a'..='z' | 'A'..='Z' | '0'..='9' | '-' | '_' | '=' | '/' | ',' | '.' | '+'))
 }
 
 fn write_os_str(f: &mut fmt::Formatter<'_>, os_str: &OsStr) -> fmt::Result {
     let s = os_str.to_string_lossy();
 
-    if no_ascii_whitespace(&s) {
-        f.write_str(&s)
-    } else {
+    if needs_escape(&s) {
         // There is some ascii whitespace (' ', '\n', '\t'),
-        // need to quote them using `"`.
+        // or non-ascii characters need to quote them using `"`.
         //
         // But then, it is possible for the `s` to contains `"`,
         // so they needs to be escaped.
@@ -62,6 +59,8 @@ fn write_os_str(f: &mut fmt::Formatter<'_>, os_str: &OsStr) -> fmt::Result {
         }
 
         f.write_str("\"")
+    } else {
+        f.write_str(&s)
     }
 }
 
