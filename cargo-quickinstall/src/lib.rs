@@ -105,7 +105,7 @@ pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
         .get_owned(&0)?
         .get_owned(&"num")?
         .try_into_string()
-        .map_err(InstallError::from)
+        .map_err(From::from)
 }
 
 pub fn get_target_triple() -> Result<String, InstallError> {
