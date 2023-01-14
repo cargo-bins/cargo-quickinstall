@@ -94,10 +94,10 @@ pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
                 e
             }
         })?
-        .get_owned(&"versions")
-        .and_then(|value| value.get_owned(&0))
-        .and_then(|value| value.get_owned(&"num"))
-        .and_then(JsonValueExt::try_into_string)
+        .get_owned(&"versions")?
+        .get_owned(&0)?
+        .get_owned(&"num")?
+        .try_into_string()
         .map_err(InstallError::from)
 }
 
