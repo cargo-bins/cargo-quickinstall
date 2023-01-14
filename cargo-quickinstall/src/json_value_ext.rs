@@ -62,6 +62,12 @@ pub trait JsonKey {
     fn extract_from_value(&self, value: JsonValue) -> Result<JsonValue, JsonExtError>;
 }
 
+impl<T: JsonKey> JsonKey for &T {
+    fn extract_from_value(&self, value: JsonValue) -> Result<JsonValue, JsonExtError> {
+        T::extract_from_value(*self, value)
+    }
+}
+
 impl JsonKey for usize {
     fn extract_from_value(&self, value: JsonValue) -> Result<JsonValue, JsonExtError> {
         let index = *self;
