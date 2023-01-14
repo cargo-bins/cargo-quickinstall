@@ -214,12 +214,10 @@ fn format_curl_and_untar_cmd(url: &str, bin_dir: &Path) -> String {
 }
 
 pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallError> {
-    let crate_download_url = format!(
-        "https://github.com/cargo-bins/cargo-quickinstall/releases/download/\
-                 {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
-        crate_name = crate_details.crate_name,
-        version = crate_details.version,
-        target = crate_details.target
+    let crate_download_url = get_quickinstall_download_url(
+        &crate_details.crate_name,
+        &crate_details.version,
+        &crate_details.target,
     );
     if curl_head(&crate_download_url).is_ok() {
         let cargo_bin_dir = get_cargo_bin_dir()?;
@@ -308,16 +306,18 @@ pub fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
         })
 }
 
+fn get_quickinstall_download_url(crate_name: &str, version: &str, target: &str) -> String {
+    format!(
+        "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
+    )
+}
+
 fn download_tarball(
     crate_name: &str,
     version: &str,
     target: &str,
 ) -> Result<ChildWithCommand, InstallError> {
-    let github_url = format!(
-        "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
-        crate_name=crate_name, version=version, target=target,
-    );
-    curl(&github_url)
+    curl(&get_quickinstall_download_url(crate_name, version, target))
 }
 
 fn prepare_curl_cmd() -> std::process::Command {
