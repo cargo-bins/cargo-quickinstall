@@ -41,7 +41,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Fetch tags required for testing
-        run: git fetches --tags
+        run: git fetch --tags
 
       - name: Run test
         run: cargo test
