@@ -130,7 +130,12 @@ fn do_main_binstall(
     if !is_binstall_compatible {
         download_and_install_binstall(dry_run)?;
 
-        if !dry_run {
+        if dry_run {
+            return Ok(());
+        }
+
+        #[cfg(not(target_os = "windows"))]
+        {
             println!(
                 "Bootstrapping cargo-binstall with itself to make `cargo uninstall ` work properly"
             );
@@ -142,8 +147,6 @@ fn do_main_binstall(
                 None,
                 BinstallMode::Bootstrapping,
             )?;
-        } else {
-            return Ok(());
         }
     }
 
