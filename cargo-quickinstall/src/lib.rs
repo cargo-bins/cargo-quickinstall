@@ -4,6 +4,7 @@
 //! `cargo install` otherwise.
 
 use std::{fs::File, path::Path, process};
+use tempfile::NamedTempFile;
 use tinyjson::JsonValue;
 
 pub mod install_error;
@@ -31,6 +32,73 @@ pub struct CrateDetails {
     pub crate_name: String,
     pub version: String,
     pub target: String,
+}
+
+/// Return (archive_format, url)
+fn get_binstall_upstream_url(target: &str) -> (&'static str, String) {
+    let archive_format = if target.contains("linux") {
+        ".tgz"
+    } else {
+        ".zip"
+    };
+    let url = format!("https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-{target}.{archive_format}");
+
+    (archive_format, url)
+}
+
+/// Attempt to download and install cargo-binstall from upstream.
+pub fn download_and_install_binstall_from_upstream(target: &str) -> Result<(), InstallError> {
+    let (archive_format, url) = get_binstall_upstream_url(target);
+
+    if archive_format == ".tgz" {
+        untar(curl(&url)?)?;
+
+        Ok(())
+    } else {
+        assert_eq!(archive_format, ".zip");
+
+        let (zip_file, zip_file_temp_path) = NamedTempFile::new()?.into_parts();
+
+        curl_file(&url, zip_file)?;
+
+        unzip(&zip_file_temp_path)?;
+
+        Ok(())
+    }
+}
+
+pub fn do_dry_run_download_and_install_binstall_from_upstream(
+    target: &str,
+) -> Result<String, InstallError> {
+    let (archive_format, url) = get_binstall_upstream_url(target);
+
+    let cargo_bin_dir = get_cargo_bin_dir()?;
+
+    if archive_format == ".tgz" {
+        Ok(format!(
+            "{curl_cmd} | {untar_cmd}",
+            curl_cmd = prepare_curl_bytes_cmd(&url).formattable(),
+            untar_cmd = prepare_untar_cmd(&cargo_bin_dir).formattable(),
+        ))
+    } else {
+        Ok(format!(
+            "temp=\"$(mktemp)\"\n{curl_cmd} >\"$temp\"\nunzip \"$temp\" -d {extdir}",
+            curl_cmd = prepare_curl_bytes_cmd(&url).formattable(),
+            extdir = cargo_bin_dir.display(),
+        ))
+    }
+}
+
+pub fn unzip(zip_file: &Path) -> Result<(), InstallError> {
+    let bin_dir = get_cargo_bin_dir()?;
+
+    process::Command::new("unzip")
+        .arg(zip_file)
+        .arg("-d")
+        .arg(bin_dir)
+        .output_checked_status()?;
+
+    Ok(())
 }
 
 pub fn get_cargo_binstall_version() -> Option<String> {
