@@ -75,11 +75,7 @@ pub fn do_dry_run_download_and_install_binstall_from_upstream(
     let cargo_bin_dir = get_cargo_bin_dir()?;
 
     if archive_format == ".tgz" {
-        Ok(format!(
-            "{curl_cmd} | {untar_cmd}",
-            curl_cmd = prepare_curl_bytes_cmd(&url).formattable(),
-            untar_cmd = prepare_untar_cmd(&cargo_bin_dir).formattable(),
-        ))
+        Ok(format_curl_and_untar_cmd(&url, &cargo_bin_dir))
     } else {
         Ok(format!(
             "temp=\"$(mktemp)\"\n{curl_cmd} >\"$temp\"\nunzip \"$temp\" -d {extdir}",
@@ -209,6 +205,14 @@ pub fn report_stats_in_background(details: &CrateDetails) {
     prepare_curl_head_cmd(&stats_url).spawn().ok();
 }
 
+fn format_curl_and_untar_cmd(url: &str, bin_dir: &Path) -> String {
+    format!(
+        "{curl_cmd} | {untar_cmd}",
+        curl_cmd = prepare_curl_bytes_cmd(url).formattable(),
+        untar_cmd = prepare_untar_cmd(bin_dir).formattable(),
+    )
+}
+
 pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallError> {
     let crate_download_url = format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/\
@@ -220,10 +224,9 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallEr
     if curl_head(&crate_download_url).is_ok() {
         let cargo_bin_dir = get_cargo_bin_dir()?;
 
-        Ok(format!(
-            "{curl_cmd} | {untar_cmd}",
-            curl_cmd = prepare_curl_bytes_cmd(&crate_download_url).formattable(),
-            untar_cmd = prepare_untar_cmd(&cargo_bin_dir).formattable(),
+        Ok(format_curl_and_untar_cmd(
+            &crate_download_url,
+            &cargo_bin_dir,
         ))
     } else {
         let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
