@@ -27,7 +27,7 @@ impl JsonExtError {
 }
 
 pub trait JsonValueExt {
-    fn get_owned(self, key: &dyn JsonKey) -> Result<JsonValue, JsonExtError>;
+    fn extract_from_value(self, key: &dyn JsonKey) -> Result<JsonValue, JsonExtError>;
 
     fn try_into_string(self) -> Result<String, JsonExtError>;
 
@@ -35,8 +35,8 @@ pub trait JsonValueExt {
 }
 
 impl JsonValueExt for JsonValue {
-    fn get_owned(self, key: &dyn JsonKey) -> Result<JsonValue, JsonExtError> {
-        key.get_owned(self)
+    fn extract_from_value(self, key: &dyn JsonKey) -> Result<JsonValue, JsonExtError> {
+        key.extract_from_value(self)
     }
 
     fn try_into_string(self) -> Result<String, JsonExtError> {
@@ -59,11 +59,11 @@ impl JsonValueExt for JsonValue {
 }
 
 pub trait JsonKey {
-    fn get_owned(&self, value: JsonValue) -> Result<JsonValue, JsonExtError>;
+    fn extract_from_value(&self, value: JsonValue) -> Result<JsonValue, JsonExtError>;
 }
 
 impl JsonKey for usize {
-    fn get_owned(&self, value: JsonValue) -> Result<JsonValue, JsonExtError> {
+    fn extract_from_value(&self, value: JsonValue) -> Result<JsonValue, JsonExtError> {
         let index = *self;
 
         match value {
@@ -85,7 +85,7 @@ impl JsonKey for usize {
 }
 
 impl JsonKey for &str {
-    fn get_owned(&self, value: JsonValue) -> Result<JsonValue, JsonExtError> {
+    fn extract_from_value(&self, value: JsonValue) -> Result<JsonValue, JsonExtError> {
         let key = *self;
 
         match value {

@@ -94,9 +94,9 @@ pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
                 e
             }
         })?
-        .get_owned(&"versions")?
-        .get_owned(&0)?
-        .get_owned(&"num")?
+        .extract_from_value(&"versions")?
+        .extract_from_value(&0)?
+        .extract_from_value(&"num")?
         .try_into_string()
         .map_err(InstallError::from)
 }
