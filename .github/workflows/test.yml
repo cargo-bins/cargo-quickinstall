@@ -47,3 +47,24 @@ jobs:
 
       - name: Run test
         run: cargo test
+
+  e2etest:
+    runs-on: ubuntu-latest
+
+    steps:
+      # TODO: actions/cache@v2?
+      - name: Fetch source
+        uses: actions/checkout@v3
+
+      - name: Test dry-run
+        run: cargo r -- --dry-run cargo-quickinstall
+
+      - name: Test installing and using binstall
+        run: |
+          cargo r -- cargo-quickinstall
+          cargo quickinstall -V
+
+      - name: Test using binstall with it already installed
+        run: |
+          cargo r -- cargo-quickinstall
+          cargo quickinstall -V
