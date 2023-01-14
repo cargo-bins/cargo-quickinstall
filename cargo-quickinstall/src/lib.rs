@@ -138,7 +138,12 @@ pub fn report_stats_in_background(details: &CrateDetails) {
     //
     // It's ok for it to fail and we would let the init process reap
     // the `curl` process.
-    prepare_curl_head_cmd(&stats_url).spawn().ok();
+    prepare_curl_head_cmd(&stats_url)
+        .stdin(process::Stdio::null())
+        .stdout(process::Stdio::null())
+        .stderr(process::Stdio::null())
+        .spawn()
+        .ok();
 }
 
 pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallError> {
