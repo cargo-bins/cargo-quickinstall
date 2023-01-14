@@ -3,7 +3,7 @@
 //! Tries to install pre-built binary crates whenever possibles.  Falls back to
 //! `cargo install` otherwise.
 
-use std::{path::Path, process};
+use std::{fs::File, path::Path, process};
 use tinyjson::JsonValue;
 
 pub mod install_error;
@@ -206,6 +206,16 @@ fn curl(url: &str) -> Result<ChildWithCommand, InstallError> {
         .stdout(process::Stdio::piped())
         .stderr(process::Stdio::piped());
     cmd.spawn_with_cmd()
+}
+
+fn curl_file(url: &str, file: File) -> Result<(), InstallError> {
+    prepare_curl_bytes_cmd(url)
+        .stdin(process::Stdio::null())
+        .stdout(file)
+        .stderr(process::Stdio::piped())
+        .output_checked_status()?;
+
+    Ok(())
 }
 
 fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
