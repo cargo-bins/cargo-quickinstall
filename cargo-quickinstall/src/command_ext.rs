@@ -11,7 +11,7 @@ pub trait CommandExt {
 
     fn output_checked_status(&mut self) -> Result<Output, InstallError>;
 
-    fn spawn_with_cmd(self) -> Result<ChildWithCmd, InstallError>;
+    fn spawn_with_cmd(self) -> Result<ChildWithCommand, InstallError>;
 }
 
 impl CommandExt for Command {
@@ -25,10 +25,10 @@ impl CommandExt for Command {
             .and_then(|output| check_status(self, output))
     }
 
-    fn spawn_with_cmd(mut self) -> Result<ChildWithCmd, InstallError> {
+    fn spawn_with_cmd(mut self) -> Result<ChildWithCommand, InstallError> {
         self.spawn()
             .map_err(InstallError::from)
-            .map(move |child| ChildWithCmd { child, cmd: self })
+            .map(move |child| ChildWithCommand { child, cmd: self })
     }
 }
 
@@ -53,7 +53,7 @@ impl fmt::Display for CommandFormattable<'_> {
     }
 }
 
-pub struct ChildWithCmd {
+pub struct ChildWithCommand {
     cmd: Command,
     child: Child,
 }
@@ -71,7 +71,7 @@ fn check_status(cmd: &Command, output: Output) -> Result<Output, InstallError> {
     }
 }
 
-impl ChildWithCmd {
+impl ChildWithCommand {
     pub fn wait_with_output_checked_status(self) -> Result<Output, InstallError> {
         let cmd = self.cmd;
 

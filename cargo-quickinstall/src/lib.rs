@@ -11,7 +11,7 @@ pub mod install_error;
 use install_error::*;
 
 mod command_ext;
-pub use command_ext::{ChildWithCmd, CommandExt, CommandFormattable};
+pub use command_ext::{ChildWithCommand, CommandExt, CommandFormattable};
 
 mod json_value_ext;
 pub use json_value_ext::{JsonExtError, JsonKey, JsonValueExt};
@@ -156,7 +156,7 @@ pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallEr
     }
 }
 
-fn untar(mut curl: ChildWithCmd) -> Result<String, InstallError> {
+fn untar(mut curl: ChildWithCommand) -> Result<String, InstallError> {
     let bin_dir = get_cargo_bin_dir()?;
 
     let res = prepare_untar_cmd(&bin_dir)
@@ -190,7 +190,7 @@ fn curl_head(url: &str) -> Result<Vec<u8>, InstallError> {
         .map(|output| output.stdout)
 }
 
-fn curl(url: &str) -> Result<ChildWithCmd, InstallError> {
+fn curl(url: &str) -> Result<ChildWithCommand, InstallError> {
     let mut cmd = prepare_curl_bytes_cmd(url);
     cmd.stdin(process::Stdio::null())
         .stdout(process::Stdio::piped())
@@ -221,7 +221,7 @@ fn download_tarball(
     crate_name: &str,
     version: &str,
     target: &str,
-) -> Result<ChildWithCmd, InstallError> {
+) -> Result<ChildWithCommand, InstallError> {
     let github_url = format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
         crate_name=crate_name, version=version, target=target,
