@@ -1,6 +1,6 @@
 use std::{
     ffi::OsStr,
-    fmt,
+    fmt::{self, Write},
     process::{self, Child, Command, Output},
 };
 
@@ -34,8 +34,35 @@ impl CommandExt for Command {
 
 pub struct CommandFormattable<'a>(&'a Command);
 
+fn no_ascii_whitespace(s: &str) -> bool {
+    let mut it = s.split_ascii_whitespace();
+    it.next() == Some(s) && it.next().is_none()
+}
+
 fn write_os_str(f: &mut fmt::Formatter<'_>, os_str: &OsStr) -> fmt::Result {
-    f.write_str(&os_str.to_string_lossy())
+    let s = os_str.to_string_lossy();
+
+    if no_ascii_whitespace(&s) {
+        f.write_str(&s)
+    } else {
+        // There is some ascii whitespace (' ', '\n', '\t'),
+        // need to quote them using `"`.
+        //
+        // But then, it is possible for the `s` to contains `"`,
+        // so they needs to be escaped.
+        f.write_str("\"")?;
+
+        for ch in s.chars() {
+            if ch == '"' {
+                // Escape it with `\`.
+                f.write_char('\\')?;
+            }
+
+            f.write_char(ch)?;
+        }
+
+        f.write_str("\"")
+    }
 }
 
 impl fmt::Display for CommandFormattable<'_> {
