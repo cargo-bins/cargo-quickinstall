@@ -40,8 +40,10 @@ jobs:
       - name: Fetch source
         uses: actions/checkout@v3
 
-      - name: Fetch tags required for testing
-        run: git fetch --tags --unshallow
+      - name: Fetch tags and origin/main required for testing
+        run: |
+          git fetch --tags
+          git fetch origin main
 
       - name: Run test
         run: cargo test
