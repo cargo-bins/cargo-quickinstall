@@ -38,7 +38,7 @@ fn needs_escape(s: &str) -> bool {
     s.contains(|ch| !matches!(ch, 'a'..='z' | 'A'..='Z' | '0'..='9' | '-' | '_' | '=' | '/' | ',' | '.' | '+'))
 }
 
-fn write_os_str(f: &mut fmt::Formatter<'_>, os_str: &OsStr) -> fmt::Result {
+fn write_shell_arg_escaped(f: &mut fmt::Formatter<'_>, os_str: &OsStr) -> fmt::Result {
     let s = os_str.to_string_lossy();
 
     if needs_escape(&s) {
@@ -68,11 +68,11 @@ impl fmt::Display for CommandFormattable<'_> {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         let cmd = self.0;
 
-        write_os_str(f, cmd.get_program())?;
+        write_shell_arg_escaped(f, cmd.get_program())?;
 
         for arg in cmd.get_args() {
             f.write_str(" ")?;
-            write_os_str(f, arg)?;
+            write_shell_arg_escaped(f, arg)?;
         }
 
         Ok(())
