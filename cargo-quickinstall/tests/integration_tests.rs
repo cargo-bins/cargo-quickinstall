@@ -72,10 +72,10 @@ fn do_dry_run_for_nonexistent_package() {
 fn test_get_latest_version() {
     let stdout = std::process::Command::new("git")
         .args([
-            "describe",
-            "--match",
+            "tag",
+            "--list",
+            "--sort=-version:refname",
             "cargo-quickinstall-v*",
-            "origin/main",
         ])
         .output_checked_status()
         .unwrap()
@@ -84,11 +84,12 @@ fn test_get_latest_version() {
 
     let version = stdout
         .trim()
+        .lines()
+        .next()
+        .unwrap()
+        .trim()
         .strip_prefix("cargo-quickinstall-v")
-        .unwrap()
-        .split_once('-')
-        .unwrap()
-        .0;
+        .unwrap();
 
     assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), version);
 }
