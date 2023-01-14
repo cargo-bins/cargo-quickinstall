@@ -70,8 +70,20 @@ fn do_dry_run_for_nonexistent_package() {
 
 #[test]
 fn test_get_latest_version() {
-    assert_eq!(
-        get_latest_version("cargo-quickinstall").unwrap(),
-        env!("CARGO_PKG_VERSION")
-    );
+    let stdout = std::process::Command::new("git")
+        .args(["describe", "--match", "cargo-quickinstall-v*"])
+        .output_checked_status()
+        .unwrap()
+        .stdout;
+    let stdout = String::from_utf8_lossy(&stdout);
+
+    let version = stdout
+        .trim()
+        .strip_prefix("cargo-quickinstall-v")
+        .unwrap()
+        .split_once('-')
+        .unwrap()
+        .0;
+
+    assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), version);
 }
