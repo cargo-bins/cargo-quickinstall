@@ -27,7 +27,7 @@ impl JsonExtError {
 }
 
 pub trait JsonValueExt {
-    fn extract_from_value(self, key: &dyn JsonKey) -> Result<JsonValue, JsonExtError>;
+    fn extract_from_value(self, key: impl JsonKey) -> Result<JsonValue, JsonExtError>;
 
     fn try_into_string(self) -> Result<String, JsonExtError>;
 
@@ -35,7 +35,7 @@ pub trait JsonValueExt {
 }
 
 impl JsonValueExt for JsonValue {
-    fn extract_from_value(self, key: &dyn JsonKey) -> Result<JsonValue, JsonExtError> {
+    fn extract_from_value(self, key: impl JsonKey) -> Result<JsonValue, JsonExtError> {
         key.extract_from_value(self)
     }
 
