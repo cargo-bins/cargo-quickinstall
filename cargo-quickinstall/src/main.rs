@@ -128,9 +128,14 @@ fn do_main_binstall(
         .unwrap_or(false);
 
     if !is_binstall_compatible {
-        do_main_curl("cargo-binstall".to_string(), None, None, dry_run, false)?;
+        download_and_install_binstall(dry_run)?;
 
-        if !dry_run {
+        if dry_run {
+            return Ok(());
+        }
+
+        #[cfg(not(target_os = "windows"))]
+        {
             println!(
                 "Bootstrapping cargo-binstall with itself to make `cargo uninstall ` work properly"
             );
@@ -142,8 +147,6 @@ fn do_main_binstall(
                 None,
                 BinstallMode::Bootstrapping,
             )?;
-        } else {
-            return Ok(());
         }
     }
 
@@ -155,6 +158,35 @@ fn do_main_binstall(
         target,
         BinstallMode::Regular { dry_run },
     )
+}
+
+fn download_and_install_binstall(
+    dry_run: bool,
+) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
+    let target = get_target_triple()?;
+
+    if dry_run {
+        let shell_cmd = do_dry_run_download_and_install_binstall_from_upstream(&target)?;
+        println!("{shell_cmd}");
+        return Ok(());
+    }
+
+    match download_and_install_binstall_from_upstream(&target) {
+        Err(err) if err.is_curl_404() => {
+            println!(
+                "Failed to install cargo-binstall from upstream, fallback to quickinstall: {err}"
+            );
+
+            do_main_curl(
+                "cargo-binstall".to_string(),
+                None,
+                Some(target),
+                false,
+                false,
+            )
+        }
+        res => res.map_err(From::from),
+    }
 }
 
 enum BinstallMode {

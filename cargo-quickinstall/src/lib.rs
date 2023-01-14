@@ -3,7 +3,8 @@
 //! Tries to install pre-built binary crates whenever possibles.  Falls back to
 //! `cargo install` otherwise.
 
-use std::{path::Path, process};
+use std::{fs::File, path::Path, process};
+use tempfile::NamedTempFile;
 use tinyjson::JsonValue;
 
 pub mod install_error;
@@ -33,6 +34,69 @@ pub struct CrateDetails {
     pub target: String,
 }
 
+/// Return (archive_format, url)
+fn get_binstall_upstream_url(target: &str) -> (&'static str, String) {
+    let archive_format = if target.contains("linux") {
+        "tgz"
+    } else {
+        "zip"
+    };
+    let url = format!("https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-{target}.{archive_format}");
+
+    (archive_format, url)
+}
+
+/// Attempt to download and install cargo-binstall from upstream.
+pub fn download_and_install_binstall_from_upstream(target: &str) -> Result<(), InstallError> {
+    let (archive_format, url) = get_binstall_upstream_url(target);
+
+    if archive_format == "tgz" {
+        untar(curl(&url)?)?;
+
+        Ok(())
+    } else {
+        assert_eq!(archive_format, "zip");
+
+        let (zip_file, zip_file_temp_path) = NamedTempFile::new()?.into_parts();
+
+        curl_file(&url, zip_file)?;
+
+        unzip(&zip_file_temp_path)?;
+
+        Ok(())
+    }
+}
+
+pub fn do_dry_run_download_and_install_binstall_from_upstream(
+    target: &str,
+) -> Result<String, InstallError> {
+    let (archive_format, url) = get_binstall_upstream_url(target);
+
+    let cargo_bin_dir = get_cargo_bin_dir()?;
+
+    if archive_format == ".tgz" {
+        Ok(format_curl_and_untar_cmd(&url, &cargo_bin_dir))
+    } else {
+        Ok(format!(
+            "temp=\"$(mktemp)\"\n{curl_cmd} >\"$temp\"\nunzip \"$temp\" -d {extdir}",
+            curl_cmd = prepare_curl_bytes_cmd(&url).formattable(),
+            extdir = cargo_bin_dir.display(),
+        ))
+    }
+}
+
+pub fn unzip(zip_file: &Path) -> Result<(), InstallError> {
+    let bin_dir = get_cargo_bin_dir()?;
+
+    process::Command::new("unzip")
+        .arg(zip_file)
+        .arg("-d")
+        .arg(bin_dir)
+        .output_checked_status()?;
+
+    Ok(())
+}
+
 pub fn get_cargo_binstall_version() -> Option<String> {
     let output = std::process::Command::new("cargo")
         .args(["binstall", "-V"])
@@ -50,11 +114,7 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
     // error when spawning curl.
     //
     // untar will wait on curl, so it will include the 404 error.
-    match untar(download_tarball(
-        &details.crate_name,
-        &details.version,
-        &details.target,
-    )?) {
+    match untar(download_tarball(details)?) {
         Ok(tar_output) => {
             // tar output contains its own newline.
             print!(
@@ -146,21 +206,22 @@ pub fn report_stats_in_background(details: &CrateDetails) {
         .ok();
 }
 
+fn format_curl_and_untar_cmd(url: &str, bin_dir: &Path) -> String {
+    format!(
+        "{curl_cmd} | {untar_cmd}",
+        curl_cmd = prepare_curl_bytes_cmd(url).formattable(),
+        untar_cmd = prepare_untar_cmd(bin_dir).formattable(),
+    )
+}
+
 pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallError> {
-    let crate_download_url = format!(
-        "https://github.com/cargo-bins/cargo-quickinstall/releases/download/\
-                 {crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
-        crate_name = crate_details.crate_name,
-        version = crate_details.version,
-        target = crate_details.target
-    );
+    let crate_download_url = get_quickinstall_download_url(crate_details);
     if curl_head(&crate_download_url).is_ok() {
         let cargo_bin_dir = get_cargo_bin_dir()?;
 
-        Ok(format!(
-            "{curl_cmd} | {untar_cmd}",
-            curl_cmd = prepare_curl_bytes_cmd(&crate_download_url).formattable(),
-            untar_cmd = prepare_untar_cmd(&cargo_bin_dir).formattable(),
+        Ok(format_curl_and_untar_cmd(
+            &crate_download_url,
+            &cargo_bin_dir,
         ))
     } else {
         let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
@@ -213,6 +274,16 @@ fn curl(url: &str) -> Result<ChildWithCommand, InstallError> {
     cmd.spawn_with_cmd()
 }
 
+fn curl_file(url: &str, file: File) -> Result<(), InstallError> {
+    prepare_curl_bytes_cmd(url)
+        .stdin(process::Stdio::null())
+        .stdout(file)
+        .stderr(process::Stdio::piped())
+        .output_checked_status()?;
+
+    Ok(())
+}
+
 fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
     prepare_curl_bytes_cmd(url)
         .output_checked_status()
@@ -232,16 +303,20 @@ pub fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
         })
 }
 
-fn download_tarball(
-    crate_name: &str,
-    version: &str,
-    target: &str,
-) -> Result<ChildWithCommand, InstallError> {
-    let github_url = format!(
+fn get_quickinstall_download_url(
+    CrateDetails {
+        crate_name,
+        version,
+        target,
+    }: &CrateDetails,
+) -> String {
+    format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
-        crate_name=crate_name, version=version, target=target,
-    );
-    curl(&github_url)
+    )
+}
+
+fn download_tarball(crate_details: &CrateDetails) -> Result<ChildWithCommand, InstallError> {
+    curl(&get_quickinstall_download_url(crate_details))
 }
 
 fn prepare_curl_cmd() -> std::process::Command {
