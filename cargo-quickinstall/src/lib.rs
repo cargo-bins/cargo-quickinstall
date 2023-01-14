@@ -37,9 +37,9 @@ pub struct CrateDetails {
 /// Return (archive_format, url)
 fn get_binstall_upstream_url(target: &str) -> (&'static str, String) {
     let archive_format = if target.contains("linux") {
-        ".tgz"
+        "tgz"
     } else {
-        ".zip"
+        "zip"
     };
     let url = format!("https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-{target}.{archive_format}");
 
@@ -50,12 +50,12 @@ fn get_binstall_upstream_url(target: &str) -> (&'static str, String) {
 pub fn download_and_install_binstall_from_upstream(target: &str) -> Result<(), InstallError> {
     let (archive_format, url) = get_binstall_upstream_url(target);
 
-    if archive_format == ".tgz" {
+    if archive_format == "tgz" {
         untar(curl(&url)?)?;
 
         Ok(())
     } else {
-        assert_eq!(archive_format, ".zip");
+        assert_eq!(archive_format, "zip");
 
         let (zip_file, zip_file_temp_path) = NamedTempFile::new()?.into_parts();
 
