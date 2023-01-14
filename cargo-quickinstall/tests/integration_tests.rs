@@ -71,7 +71,7 @@ fn do_dry_run_for_nonexistent_package() {
 #[test]
 fn test_get_latest_version() {
     let stdout = std::process::Command::new("git")
-        .args(["describe", "--match", "cargo-quickinstall-v*"])
+        .args(["describe", "--match", "cargo-quickinstall-v*", "main"])
         .output_checked_status()
         .unwrap()
         .stdout;
