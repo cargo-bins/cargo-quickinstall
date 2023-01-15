@@ -171,21 +171,17 @@ pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
 pub fn get_target_triple() -> Result<String, InstallError> {
     // Credit to https://stackoverflow.com/a/63866386
     let output = std::process::Command::new("rustc")
-        .arg("--version")
-        .arg("--verbose")
-        .output()?;
+        .arg("-vV")
+        .output_checked_status()?;
     let stdout = utf8_to_string_lossy(output.stdout);
     for line in stdout.lines() {
         if let Some(target) = line.strip_prefix("host: ") {
             return Ok(target.to_string());
         }
     }
-    Err(CommandFailed {
-        command: "rustc --version --verbose".to_string(),
-        stdout,
-        stderr: utf8_to_string_lossy(output.stderr),
-    }
-    .into())
+    Err(InstallError::FailToParseRustcOutput {
+        reason: "Fail to find any line starts with 'host: '.",
+    })
 }
 
 pub fn report_stats_in_background(details: &CrateDetails) {
