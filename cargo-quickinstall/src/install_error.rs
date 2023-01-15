@@ -12,6 +12,7 @@ pub enum InstallError {
     NoFallback(CrateDetails),
     InvalidJson { url: String, err: JsonParseError },
     JsonErr(JsonExtError),
+    FailToParseRustcOutput { reason: &'static str },
 }
 
 impl InstallError {
@@ -83,6 +84,9 @@ impl Display for InstallError {
                 write!(f, "Failed to parse json downloaded from '{url}': {err}",)
             }
             InstallError::JsonErr(err) => write!(f, "{err}"),
+            InstallError::FailToParseRustcOutput { reason } => {
+                write!(f, "Failed to parse `rustc -vV` output: {reason}")
+            }
         }
     }
 }
