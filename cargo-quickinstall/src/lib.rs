@@ -173,15 +173,35 @@ pub fn get_target_triple() -> Result<String, InstallError> {
     let output = std::process::Command::new("rustc")
         .arg("-vV")
         .output_checked_status()?;
-    let stdout = utf8_to_string_lossy(output.stdout);
-    for line in stdout.lines() {
-        if let Some(target) = line.strip_prefix("host: ") {
-            return Ok(target.to_string());
-        }
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let target = stdout
+        .lines()
+        .find_map(|line| line.strip_prefix("host: "))
+        .ok_or(InstallError::FailToParseRustcOutput {
+            reason: "Fail to find any line starts with 'host: '.",
+        })?;
+
+    // The target triplets have the form of 'arch-vendor-system'.
+    //
+    // When building for Linux (e.g. the 'system' part is
+    // 'linux-something'), replace the vendor with 'unknown'
+    // so that mapping to rust standard targets happens correctly.
+    //
+    // For example, alpine set `rustc` host triple to
+    // `x86_64-alpine-linux-musl`.
+    //
+    // Here we use splitn with n=4 since we just need to check
+    // the third part to see if it equals to "linux" and verify
+    // that we have at least three parts.
+    let mut parts: Vec<&str> = target.splitn(4, '-').collect();
+    let os = *parts.get(2).ok_or(InstallError::FailToParseRustcOutput {
+        reason: "rustc returned an invalid triple, contains less than three parts",
+    })?;
+    if os == "linux" {
+        parts[1] = "unknown";
     }
-    Err(InstallError::FailToParseRustcOutput {
-        reason: "Fail to find any line starts with 'host: '.",
-    })
+    Ok(parts.join("-"))
 }
 
 pub fn report_stats_in_background(details: &CrateDetails) {
