@@ -11,6 +11,7 @@ use cargo_quickinstall::install_error::*;
 use cargo_quickinstall::*;
 
 mod args;
+use args::Crate;
 
 fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let options = args::options_from_cli_args(pico_args::Arguments::from_env())?;
@@ -28,11 +29,12 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
         return Ok(());
     }
 
-    let crate_name = options
-        .crate_name
-        .ok_or(InstallError::MissingCrateNameArgument(args::USAGE))?;
+    let crate_names = options.crate_names;
 
-    let version = options.version;
+    if crate_names.is_empty() {
+        Err(InstallError::MissingCrateNameArgument(args::USAGE))?
+    }
+
     let target = options.target;
 
     let f = if options.no_binstall {
@@ -41,18 +43,11 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
         do_main_binstall
     };
 
-    f(
-        crate_name,
-        version,
-        target,
-        options.dry_run,
-        options.fallback,
-    )
+    f(crate_names, target, options.dry_run, options.fallback)
 }
 
 fn do_main_curl(
-    crate_name: String,
-    version: Option<String>,
+    crates: Vec<Crate>,
     target: Option<String>,
     dry_run: bool,
     fallback: bool,
@@ -62,50 +57,36 @@ fn do_main_curl(
         None => get_target_triple()?,
     };
 
-    let version = match version {
-        Some(version) => version,
-        None => get_latest_version(&crate_name)?,
-    };
-
-    let crate_details = CrateDetails {
-        crate_name,
+    for Crate {
+        name: crate_name,
         version,
-        target,
-    };
+    } in crates
+    {
+        let version = match version {
+            Some(version) => version,
+            None => get_latest_version(&crate_name)?,
+        };
 
-    if dry_run {
-        let shell_cmd = do_dry_run_curl(&crate_details)?;
-        println!("{}", shell_cmd);
-        return Ok(());
+        let crate_details = CrateDetails {
+            crate_name,
+            version,
+            target: target.clone(),
+        };
+
+        if dry_run {
+            let shell_cmd = do_dry_run_curl(&crate_details)?;
+            println!("{}", shell_cmd);
+        } else {
+            report_stats_in_background(&crate_details);
+            install_crate_curl(&crate_details, fallback)?;
+        }
     }
-
-    report_stats_in_background(&crate_details);
-    install_crate_curl(&crate_details, fallback)?;
 
     Ok(())
 }
 
-struct Crate {
-    name: String,
-    version: Option<String>,
-}
-
-impl Crate {
-    fn into_arg(self) -> String {
-        let mut arg = self.name;
-
-        if let Some(version) = self.version {
-            arg.push('@');
-            arg += version.as_str();
-        }
-
-        arg
-    }
-}
-
 fn do_main_binstall(
-    crate_name: String,
-    version: Option<String>,
+    mut crates: Vec<Crate>,
     target: Option<String>,
     dry_run: bool,
     _fallback: bool,
@@ -126,11 +107,6 @@ fn do_main_binstall(
             },
         )
         .unwrap_or(false);
-
-    let mut crates = vec![Crate {
-        name: crate_name,
-        version,
-    }];
 
     if !is_binstall_compatible {
         crates.retain(|crate_to_install| crate_to_install.name != "cargo-binstall");
@@ -184,8 +160,10 @@ fn download_and_install_binstall(
             );
 
             do_main_curl(
-                "cargo-binstall".to_string(),
-                None,
+                vec![Crate {
+                    name: "cargo-binstall".to_string(),
+                    version: None,
+                }],
                 Some(target),
                 false,
                 false,
