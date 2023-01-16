@@ -127,7 +127,14 @@ fn do_main_binstall(
         )
         .unwrap_or(false);
 
+    let mut crates = vec![Crate {
+        name: crate_name,
+        version,
+    }];
+
     if !is_binstall_compatible {
+        crates.retain(|crate_to_install| crate_to_install.name != "cargo-binstall");
+
         download_and_install_binstall(dry_run)?;
 
         if dry_run {
@@ -150,14 +157,13 @@ fn do_main_binstall(
         }
     }
 
-    do_install_binstall(
-        vec![Crate {
-            name: crate_name,
-            version,
-        }],
-        target,
-        BinstallMode::Regular { dry_run },
-    )
+    if crates.is_empty() {
+        println!("No crate to install");
+
+        Ok(())
+    } else {
+        do_install_binstall(crates, target, BinstallMode::Regular { dry_run })
+    }
 }
 
 fn download_and_install_binstall(
