@@ -171,7 +171,8 @@ pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
 pub fn get_target_triple() -> Result<String, InstallError> {
     // Credit to https://stackoverflow.com/a/63866386
     let output = std::process::Command::new("rustc")
-        .arg("-vV")
+        .arg("--version")
+        .arg("--verbose")
         .output_checked_status()?;
 
     let stdout = String::from_utf8_lossy(&output.stdout);
