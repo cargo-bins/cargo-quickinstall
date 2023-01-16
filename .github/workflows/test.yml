@@ -72,3 +72,16 @@ jobs:
         run: |
           cargo r -- cargo-quickinstall
           cargo quickinstall -V
+
+      - name: Test batch installation with binstall
+        run: |
+          cargo r -- cargo-quickinstall cargo-nextest
+          cargo quickinstall -V
+          cargo nextest -V
+
+      - name: Test batch installation with curl
+        run: |
+          cargo r -- --no-binstall cargo-quickinstall cargo-nextest
+          cargo quickinstall -V
+          cargo nextest -V
+
