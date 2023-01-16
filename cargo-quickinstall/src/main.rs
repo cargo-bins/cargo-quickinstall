@@ -137,14 +137,12 @@ fn do_main_binstall(
 
         download_and_install_binstall(dry_run)?;
 
-        if dry_run {
-            return Ok(());
-        }
-
         #[cfg(not(target_os = "windows"))]
-        {
+        if dry_run {
+            println!("cargo binstall --no-confirm --force cargo-binstall");
+        } else {
             println!(
-                "Bootstrapping cargo-binstall with itself to make `cargo uninstall ` work properly"
+                "Bootstrapping cargo-binstall with itself to make `cargo uninstall` work properly"
             );
             do_install_binstall(
                 vec![Crate {
@@ -154,6 +152,12 @@ fn do_main_binstall(
                 None,
                 BinstallMode::Bootstrapping,
             )?;
+        }
+
+        // cargo-binstall is not installeed, so we print out the cargo-binstall
+        // cmd and exit.
+        if dry_run {
+            return do_install_binstall(crates, target, BinstallMode::PrintCmd);
         }
     }
 
@@ -198,6 +202,7 @@ fn download_and_install_binstall(
 enum BinstallMode {
     Bootstrapping,
     Regular { dry_run: bool },
+    PrintCmd,
 }
 
 fn do_install_binstall(
@@ -217,11 +222,19 @@ fn do_install_binstall(
         cmd.arg("--force");
     }
 
-    if let BinstallMode::Regular { dry_run: true } = mode {
+    if matches!(
+        mode,
+        BinstallMode::Regular { dry_run: true } | BinstallMode::PrintCmd
+    ) {
         cmd.arg("--dry-run");
     }
 
     cmd.args(crates.into_iter().map(Crate::into_arg));
+
+    if matches!(mode, BinstallMode::PrintCmd) {
+        println!("{}", cmd.formattable());
+        return Ok(());
+    }
 
     #[cfg(unix)]
     if !matches!(mode, BinstallMode::Bootstrapping) {
