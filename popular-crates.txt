@@ -20,6 +20,7 @@
 # The first empty line is important. I can't remember why.
 
 cargo-quickinstall
+cargo-auditable
 sensei
 ripgrep
 cargo-make
