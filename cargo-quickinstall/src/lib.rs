@@ -119,10 +119,14 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
     // untar will wait on curl, so it will include the 404 error.
     match untar(download_tarball(details)?) {
         Ok(tar_output) => {
+            let bin_dir = get_cargo_bin_dir()?;
+
             // tar output contains its own newline.
             print!(
-                "Installed {} {} to ~/.cargo/bin:\n{}",
-                details.crate_name, details.version, tar_output
+                "Installed {crate_name}@{version} to {bin_dir}:\n{tar_output}",
+                crate_name = details.crate_name,
+                version = details.version,
+                bin_dir = bin_dir.display(),
             );
             Ok(())
         }
