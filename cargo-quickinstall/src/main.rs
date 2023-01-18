@@ -212,6 +212,10 @@ fn do_install_binstall(
         cmd.arg("--dry-run");
     }
 
+    if !args.fallback {
+        cmd.args(["--disable-strategies", "compile"]);
+    }
+
     cmd.args(crates.into_iter().map(Crate::into_arg));
 
     if matches!(mode, BinstallMode::PrintCmd) {
