@@ -25,14 +25,14 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     # Compiling against musl libc is failing despite installing the musl-tools
     # deb.  Falling back to Rust's Alpine container whose default target
     # is x86_64-unknown-linux-musl.
-    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "apk add build-base; curl --location --silent --show-error --fail https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-$TARGET_ARCH.tgz | tar -xzvvf - -C $CARGO_HOME/bin; cargo binstall cargo-auditable; CARGO_PROFILE_RELEASE_CODEGEN_UNITS=\"1\" CARGO_PROFILE_RELEASE_LTO=\"fat\" OPENSSL_STATIC=1 cargo auditable install $CRATE --version $VERSION --path ."
+    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "apk add build-base; curl --location --silent --show-error --fail https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-$TARGET_ARCH.tgz | tar -xzvvf - -C $CARGO_HOME/bin; cargo binstall cargo-auditable; CARGO_PROFILE_RELEASE_CODEGEN_UNITS=\"1\" CARGO_PROFILE_RELEASE_LTO=\"fat\" OPENSSL_STATIC=1 cargo auditable install $CRATE --version $VERSION"
     podman cp official-alpine-rust:/usr/local/cargo "${TEMPDIR}/"
 
     CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
 else
     rustup target add "$TARGET_ARCH"
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --path .
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
 
     CARGO_BIN_DIR=~/.cargo/bin
     CRATES2_JSON_PATH=~/.cargo/.crates2.json
