@@ -249,18 +249,26 @@ fn format_curl_and_untar_cmd(url: &str, bin_dir: &Path) -> String {
     )
 }
 
-pub fn do_dry_run_curl(crate_details: &CrateDetails) -> Result<String, InstallError> {
+pub fn do_dry_run_curl(
+    crate_details: &CrateDetails,
+    fallback: bool,
+) -> Result<String, InstallError> {
     let crate_download_url = get_quickinstall_download_url(crate_details);
-    if curl_head(&crate_download_url).is_ok() {
-        let cargo_bin_dir = get_cargo_bin_dir()?;
 
-        Ok(format_curl_and_untar_cmd(
-            &crate_download_url,
-            &cargo_bin_dir,
-        ))
-    } else {
-        let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
-        Ok(format!("{}", cargo_install_cmd.formattable()))
+    match curl_head(&crate_download_url) {
+        Ok(_) => {
+            let cargo_bin_dir = get_cargo_bin_dir()?;
+
+            Ok(format_curl_and_untar_cmd(
+                &crate_download_url,
+                &cargo_bin_dir,
+            ))
+        }
+        Err(err) if err.is_curl_404() && fallback => {
+            let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
+            Ok(format!("{}", cargo_install_cmd.formattable()))
+        }
+        Err(err) => Err(err.into()),
     }
 }
 
