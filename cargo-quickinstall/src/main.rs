@@ -86,7 +86,7 @@ fn do_main_curl(
         };
 
         if args.dry_run {
-            let shell_cmd = do_dry_run_curl(&crate_details)?;
+            let shell_cmd = do_dry_run_curl(&crate_details, args.fallback)?;
             println!("{}", shell_cmd);
         } else {
             report_stats_in_background(&crate_details);
@@ -160,9 +160,24 @@ fn download_and_install_binstall(
     let target = get_target_triple()?;
 
     if dry_run {
-        let shell_cmd = do_dry_run_download_and_install_binstall_from_upstream(&target)?;
-        println!("{shell_cmd}");
-        return Ok(());
+        return match do_dry_run_download_and_install_binstall_from_upstream(&target) {
+            Ok(shell_cmd) => {
+                println!("{shell_cmd}");
+                Ok(())
+            }
+            Err(err) if err.is_curl_404() => do_main_curl(
+                vec![Crate {
+                    name: "cargo-binstall".to_string(),
+                    version: None,
+                }],
+                Some(target),
+                Args {
+                    dry_run: true,
+                    ..Default::default()
+                },
+            ),
+            Err(err) => Err(err.into()),
+        };
     }
 
     match download_and_install_binstall_from_upstream(&target) {
