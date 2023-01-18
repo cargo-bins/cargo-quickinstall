@@ -77,7 +77,7 @@ pub fn do_dry_run_download_and_install_binstall_from_upstream(
 
     let cargo_bin_dir = get_cargo_bin_dir()?;
 
-    if archive_format == ".tgz" {
+    if archive_format == "tgz" {
         Ok(format_curl_and_untar_cmd(&url, &cargo_bin_dir))
     } else {
         Ok(format!(
