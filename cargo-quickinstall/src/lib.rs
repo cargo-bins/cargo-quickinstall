@@ -3,6 +3,7 @@
 //! Tries to install pre-built binary crates whenever possibles.  Falls back to
 //! `cargo install` otherwise.
 
+use guess_host_triple::guess_host_triple;
 use std::{fs::File, path::Path, process};
 use tempfile::NamedTempFile;
 use tinyjson::JsonValue;
@@ -169,6 +170,21 @@ pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
 }
 
 pub fn get_target_triple() -> Result<String, InstallError> {
+    match get_target_triple_from_rustc() {
+        Ok(target) => Ok(target),
+        Err(err) => {
+            if let Some(target) = guess_host_triple() {
+                println!("get_target_triple_from_rustc() failed due to {err}, fallback to guess_host_triple");
+                Ok(target.to_string())
+            } else {
+                println!("get_target_triple_from_rustc() failed due to {err}, fallback to guess_host_triple also failed");
+                Err(err)
+            }
+        }
+    }
+}
+
+fn get_target_triple_from_rustc() -> Result<String, InstallError> {
     // Credit to https://stackoverflow.com/a/63866386
     let output = std::process::Command::new("rustc")
         .arg("--version")
