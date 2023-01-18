@@ -37,20 +37,32 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
 
     let target = options.target;
 
+    let args = Args {
+        dry_run: options.dry_run,
+        fallback: options.fallback,
+        force: options.force,
+    };
+
     let f = if options.no_binstall {
         do_main_curl
     } else {
         do_main_binstall
     };
 
-    f(crate_names, target, options.dry_run, options.fallback)
+    f(crate_names, target, args)
+}
+
+#[derive(Default)]
+struct Args {
+    dry_run: bool,
+    fallback: bool,
+    force: bool,
 }
 
 fn do_main_curl(
     crates: Vec<Crate>,
     target: Option<String>,
-    dry_run: bool,
-    fallback: bool,
+    args: Args,
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let target = match target {
         Some(target) => target,
@@ -73,12 +85,12 @@ fn do_main_curl(
             target: target.clone(),
         };
 
-        if dry_run {
+        if args.dry_run {
             let shell_cmd = do_dry_run_curl(&crate_details)?;
             println!("{}", shell_cmd);
         } else {
             report_stats_in_background(&crate_details);
-            install_crate_curl(&crate_details, fallback)?;
+            install_crate_curl(&crate_details, args.fallback)?;
         }
     }
 
@@ -88,8 +100,7 @@ fn do_main_curl(
 fn do_main_binstall(
     mut crates: Vec<Crate>,
     target: Option<String>,
-    dry_run: bool,
-    _fallback: bool,
+    args: Args,
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let is_binstall_compatible = get_cargo_binstall_version()
         .map(
@@ -111,13 +122,13 @@ fn do_main_binstall(
     if !is_binstall_compatible {
         crates.retain(|crate_to_install| crate_to_install.name != "cargo-binstall");
 
-        download_and_install_binstall(dry_run)?;
+        download_and_install_binstall(args.dry_run)?;
 
-        if dry_run {
+        if args.dry_run {
             // cargo-binstall is not installeed, so we print out the cargo-binstall
             // cmd and exit.
             println!("cargo binstall --no-confirm --force cargo-binstall");
-            return do_install_binstall(crates, target, BinstallMode::PrintCmd);
+            return do_install_binstall(crates, target, BinstallMode::PrintCmd, args);
         } else {
             println!(
                 "Bootstrapping cargo-binstall with itself to make `cargo uninstall` work properly"
@@ -129,6 +140,7 @@ fn do_main_binstall(
                 }],
                 None,
                 BinstallMode::Bootstrapping,
+                Args::default(),
             )?;
         }
     }
@@ -138,7 +150,7 @@ fn do_main_binstall(
 
         Ok(())
     } else {
-        do_install_binstall(crates, target, BinstallMode::Regular { dry_run })
+        do_install_binstall(crates, target, BinstallMode::Regular, args)
     }
 }
 
@@ -165,8 +177,7 @@ fn download_and_install_binstall(
                     version: None,
                 }],
                 Some(target),
-                false,
-                false,
+                Args::default(),
             )
         }
         res => res.map_err(From::from),
@@ -175,7 +186,7 @@ fn download_and_install_binstall(
 
 enum BinstallMode {
     Bootstrapping,
-    Regular { dry_run: bool },
+    Regular,
     PrintCmd,
 }
 
@@ -183,6 +194,7 @@ fn do_install_binstall(
     crates: Vec<Crate>,
     target: Option<String>,
     mode: BinstallMode,
+    args: Args,
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let mut cmd = std::process::Command::new("cargo");
 
@@ -192,14 +204,11 @@ fn do_install_binstall(
         cmd.arg("--targets").arg(target);
     }
 
-    if matches!(mode, BinstallMode::Bootstrapping) {
+    if args.force || matches!(mode, BinstallMode::Bootstrapping) {
         cmd.arg("--force");
     }
 
-    if matches!(
-        mode,
-        BinstallMode::Regular { dry_run: true } | BinstallMode::PrintCmd
-    ) {
+    if args.dry_run || matches!(mode, BinstallMode::PrintCmd) {
         cmd.arg("--dry-run");
     }
 

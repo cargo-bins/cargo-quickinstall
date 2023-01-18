@@ -20,6 +20,8 @@ OPTIONS:
                                     specified in the <CRATES>.
 
         --target <TRIPLE>           Install package for the target triple
+        --force                     Install the <CRATES> even if they are already installed.
+                                    Only effective when using `cargo-binstall`.
         --no-fallback               Don't fall back to `cargo install`
         --no-binstall               Don't use `cargo binstall` to install packages.
         --dry-run                   Print the `curl | tar` command that would be run to fetch the binary
@@ -32,6 +34,7 @@ pub struct CliOptions {
     pub target: Option<String>,
     pub crate_names: Vec<Crate>,
     pub fallback: bool,
+    pub force: bool,
     pub no_binstall: bool,
     pub print_version: bool,
     pub help: bool,
@@ -81,6 +84,7 @@ pub fn options_from_cli_args(
     let mut opts = CliOptions {
         target: args.opt_value_from_str("--target")?,
         fallback: !args.contains("--no-fallback"),
+        force: args.contains("--force"),
         no_binstall: args.contains("--no-binstall"),
         print_version: args.contains(["-V", "--print-version"]),
         help: args.contains(["-h", "--help"]),
