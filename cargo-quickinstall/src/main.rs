@@ -113,9 +113,11 @@ fn do_main_binstall(
 
         download_and_install_binstall(dry_run)?;
 
-        #[cfg(not(target_os = "windows"))]
         if dry_run {
+            // cargo-binstall is not installeed, so we print out the cargo-binstall
+            // cmd and exit.
             println!("cargo binstall --no-confirm --force cargo-binstall");
+            return do_install_binstall(crates, target, BinstallMode::PrintCmd);
         } else {
             println!(
                 "Bootstrapping cargo-binstall with itself to make `cargo uninstall` work properly"
@@ -128,12 +130,6 @@ fn do_main_binstall(
                 None,
                 BinstallMode::Bootstrapping,
             )?;
-        }
-
-        // cargo-binstall is not installeed, so we print out the cargo-binstall
-        // cmd and exit.
-        if dry_run {
-            return do_install_binstall(crates, target, BinstallMode::PrintCmd);
         }
     }
 
