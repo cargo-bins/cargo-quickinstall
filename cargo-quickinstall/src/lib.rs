@@ -73,6 +73,8 @@ pub fn do_dry_run_download_and_install_binstall_from_upstream(
 ) -> Result<String, InstallError> {
     let (archive_format, url) = get_binstall_upstream_url(target);
 
+    curl_head(&url)?;
+
     let cargo_bin_dir = get_cargo_bin_dir()?;
 
     if archive_format == ".tgz" {
