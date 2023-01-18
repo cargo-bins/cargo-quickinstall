@@ -83,7 +83,7 @@ jobs:
         run: |
           echo Rm all binaries installed but do not update manifests,
           echo so that binstall will think they are installed.
-          rm -f "$HOME/.cargo/*"
+          rm $(which cargo-quickinstall) $(which cargo-nextest)
           cargo r -- --force cargo-quickinstall cargo-nextest
           cargo quickinstall -V
           cargo nextest -V
