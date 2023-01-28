@@ -44,6 +44,8 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     sudo mv ./ld $PREVIOUS_PWD/ld_bin/ld
     ls $PREVIOUS_PWD/ld_bin
     PATH=$PREVIOUS_PWD/ld_bin:$PATH
+    echo $PATH
+    ld
     echo $(which ld)
     cd $PREVIOUS_PWD
     sudo rm -rf android-ndk-r25b
