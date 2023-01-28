@@ -32,7 +32,7 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     mkdir -p zigfolder
-    curl "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')"  | tar -xJ -C zigfolder --strip-components 1
+    curl "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" | tar -xJ -C zigfolder --strip-components 1
 
     export PATH="$PWD/zigfolder:$PATH"
     rustup target add "$TARGET_ARCH"
