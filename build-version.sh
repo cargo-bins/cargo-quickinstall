@@ -33,7 +33,7 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     wget "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" -O zig
     wget https://dl.google.com/android/repository/android-ndk-r25b-linux.zip -O ndk
-    sudo unzip ndk -q
+    sudo unzip -q ndk
     PREVIOUS_PWD=$PWD
     cd android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin
     sudo chmod +x ./ld
