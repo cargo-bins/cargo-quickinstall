@@ -22,13 +22,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           persist-credentials: false
-          path: /home/runner/work/cargo-quickinstall/trigger
+          path: trigger
       - name: Checkout main repo
         uses: actions/checkout@v3
         with:
           persist-credentials: false
           ref: $BRANCH
-          path: /home/runner/work/cargo-quickinstall/cargo-quickinstall
+          path: cargo-quickinstall
 
       - uses: taiki-e/install-action@v2
         with:
@@ -50,7 +50,7 @@ jobs:
           export TARGET_ARCH=$TARGET_ARCH
           export VERSION=$VERSION
 
-          /home/runner/work/cargo-quickinstall/cargo-quickinstall/build-version.sh "${CRATE}"
+          cargo-quickinstall/build-version.sh "${CRATE}"
           touch $TEMPDIR/dummy-file
           ls $TEMPDIR
       # At this point, I don't think that you can really trust anything on the system anymore.
@@ -74,14 +74,14 @@ jobs:
         with:
           ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
-          path: /home/runner/work/cargo-quickinstall/trigger
+          path: trigger
       - name: Checkout main repo
         uses: actions/checkout@v3
         with:
           persist-credentials: false
           # TODO: maybe this should be main or configurable or something?
           ref: $BRANCH
-          path: /home/runner/work/cargo-quickinstall/cargo-quickinstall
+          path: cargo-quickinstall
 
       - name: Download binary artifact
         uses: actions/download-artifact@v3
@@ -109,7 +109,7 @@ jobs:
       - name: Tag release
         run: |
           (
-            cd /home/runner/work/cargo-quickinstall/trigger
+            cd trigger
             git tag $CRATE-$VERSION-$TARGET_ARCH
             git push origin $CRATE-$VERSION-$TARGET_ARCH
           )
