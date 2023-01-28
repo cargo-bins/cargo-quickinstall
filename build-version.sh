@@ -36,9 +36,8 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     mkdir zigfolder
     tar -xf ./zig -C zigfolder --strip-components 1
     rm zig
-    sudo mkdir /usr/local/bin/zig
-    sudo mv zigfolder/zig /usr/local/bin/zig/zig
-    sudo mv zigfolder/lib /usr/local/bin/zig/lib
+    sudo mv zigfolder/zig /usr/local/bin/zig
+    sudo mv zigfolder/lib /usr/local/bin/lib
     rustup target add "$TARGET_ARCH"
     echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
     echo 'linker = "/home/runner/work/cargo-quickinstall/cargo-quickinstall/zig-aarch64.sh"' >>~/.cargo/config
