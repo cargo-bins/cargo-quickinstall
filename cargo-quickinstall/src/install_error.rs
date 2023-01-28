@@ -1,5 +1,7 @@
-use crate::{CommandFailed, CrateDetails};
+use crate::{CommandFailed, CrateDetails, JsonExtError};
 use std::fmt::{Debug, Display};
+
+use tinyjson::JsonParseError;
 
 pub enum InstallError {
     MissingCrateNameArgument(&'static str),
@@ -8,6 +10,9 @@ pub enum InstallError {
     CargoInstallFailed,
     CrateDoesNotExist { crate_name: String },
     NoFallback(CrateDetails),
+    InvalidJson { url: String, err: JsonParseError },
+    JsonErr(JsonExtError),
+    FailToParseRustcOutput { reason: &'static str },
 }
 
 impl InstallError {
@@ -22,10 +27,11 @@ impl InstallError {
 
 impl std::error::Error for InstallError {
     fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
-        if let Self::IoError(io_err) = self {
-            Some(io_err)
-        } else {
-            None
+        match self {
+            Self::IoError(io_err) => Some(io_err),
+            Self::InvalidJson { err, .. } => Some(err),
+            Self::JsonErr(err) => Some(err),
+            _ => None,
         }
     }
 }
@@ -60,10 +66,10 @@ impl Display for InstallError {
                 Ok(())
             }
             InstallError::IoError(e) => write!(f, "{}", e),
-            InstallError::CargoInstallFailed => write!(
-                f,
-                "`cargo install` didn't work either. Looks like you're on your own."
-            ),
+            InstallError::CargoInstallFailed => {
+                f.write_str("`cargo install` didn't work either. Looks like you're on your own.")
+            }
+
             InstallError::CrateDoesNotExist { crate_name } => {
                 write!(f, "`{}` does not exist on crates.io.", crate_name)
             }
@@ -73,6 +79,13 @@ impl Display for InstallError {
                     "Could not find a pre-built package for {} {} on {}.",
                     crate_details.crate_name, crate_details.version, crate_details.target
                 )
+            }
+            InstallError::InvalidJson { url, err } => {
+                write!(f, "Failed to parse json downloaded from '{url}': {err}",)
+            }
+            InstallError::JsonErr(err) => write!(f, "{err}"),
+            InstallError::FailToParseRustcOutput { reason } => {
+                write!(f, "Failed to parse `rustc -vV` output: {reason}")
             }
         }
     }
@@ -86,5 +99,11 @@ impl From<std::io::Error> for InstallError {
 impl From<CommandFailed> for InstallError {
     fn from(err: CommandFailed) -> InstallError {
         InstallError::CommandFailed(err)
+    }
+}
+
+impl From<JsonExtError> for InstallError {
+    fn from(err: JsonExtError) -> InstallError {
+        InstallError::JsonErr(err)
     }
 }
