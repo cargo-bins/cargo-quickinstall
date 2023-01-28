@@ -40,7 +40,7 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     echo $(which ld)
     sudo rm /usr/bin/ld
     sudo mv ./ld /usr/bin/ld
-    $PATH = $PATH:/usr/bin/ld
+    PATH = $PATH:/usr/bin/ld
     echo $(which ld)
     cd $PREVIOUS_PWD
     sudo rm -rf android-ndk-r25b
