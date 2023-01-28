@@ -33,20 +33,21 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     wget "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" -O zig -q
     sudo apt install gcc-arm-linux-gnueabihf binutils-arm-linux-gnueabihf binutils -y
-    mkdir zigfolder
+    mkdir -p zigfolder
     tar -xf ./zig -C zigfolder --strip-components 1
     rm zig
-    sudo mkdir /usr/local/bin/zig
-    sudo mv zigfolder/zig /usr/local/bin/zig/zig
-    sudo mv zigfolder/lib /usr/local/bin/zig/lib
+    sudo mv zigfolder/zig /usr/local/bin/zig
+    sudo mv zigfolder/lib /usr/local/bin/lib
     rustup target add "$TARGET_ARCH"
-    echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
-    echo 'linker = "/home/runner/work/cargo-quickinstall/cargo-quickinstall/zig-aarch64.sh"' >>~/.cargo/config
+    if ! [ -f "~/.cargo/config" ]; then
+        echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
+        echo 'linker = "/home/runner/work/cargo-quickinstall/cargo-quickinstall/zig-aarch64.sh"' >>~/.cargo/config
+    fi
 
     CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC=./zig-aarch64.sh cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
     CARGO_BIN_DIR=~/.cargo/bin
     CRATES2_JSON_PATH=~/.cargo/.crates2.json
-
+    echo "IT WAS BUILT!!!"
 else
     rustup target add "$TARGET_ARCH"
     CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
