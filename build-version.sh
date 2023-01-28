@@ -33,7 +33,7 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     wget "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" -O zig -q
     sudo apt install gcc-arm-linux-gnueabihf binutils-arm-linux-gnueabihf binutils -y
-    mkdir zigfolder
+    mkdir -p zigfolder
     tar -xf ./zig -C zigfolder --strip-components 1
     rm zig
     sudo mv zigfolder/zig /usr/local/bin/zig
