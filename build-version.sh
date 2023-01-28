@@ -41,6 +41,7 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     sudo chmod +x ./ld
     echo $(which ld)
     sudo mv ./ld /usr/bin/ld
+    sudo apt reinstall binutils -y
     sudo chmod +x /usr/bin/ld
     echo $(which ld)
     cd $PREVIOUS_PWD
