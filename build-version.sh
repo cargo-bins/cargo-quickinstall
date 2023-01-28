@@ -37,6 +37,7 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     PREVIOUS_PWD=$PWD
     cd android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin
     sudo chmod +x ./ld
+    echo $(which ld)
     sudo mv ./ld /usr/bin
     cd $PREVIOUS_PWD
     sudo rm -rf android-ndk-r25b
