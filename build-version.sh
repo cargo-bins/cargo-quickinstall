@@ -32,7 +32,7 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
 else
     rustup target add "$TARGET_ARCH"
-    rm ~/.cargo/.crates2.json
+    rm -f ~/.cargo/.crates2.json
     CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
 
     CARGO_BIN_DIR=~/.cargo/bin
