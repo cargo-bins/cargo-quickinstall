@@ -33,19 +33,6 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     wget "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" -O zig -q
     sudo apt install gcc-arm-linux-gnueabihf binutils-arm-linux-gnueabihf binutils -y
-    wget https://dl.google.com/android/repository/android-ndk-r25b-linux.zip -O ndk -q
-    sudo unzip -q ndk
-    PREVIOUS_PWD=$PWD
-    sudo chmod 777 -R android-ndk-r25b
-    cd android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin
-    sudo chmod +x ./ld
-    echo $(which ld)
-    sudo mv ./ld /usr/bin/ld
-    sudo apt reinstall binutils -y
-    sudo chmod +x /usr/bin/ld
-    echo $(which ld)
-    cd $PREVIOUS_PWD
-    sudo rm -rf android-ndk-r25b
     mkdir zigfolder
     tar -xf ./zig -C zigfolder --strip-components 1
     rm zig
