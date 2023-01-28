@@ -31,6 +31,9 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
+    echo $PWD
+    ls $PWD
+    tree /home/runner/work/cargo-quickinstall
     ls -l /home/runner/work/cargo-quickinstall/cargo-quickinstall/zig-aarch64.sh
 
     mkdir -p zigfolder
