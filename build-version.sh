@@ -31,14 +31,16 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
-    wget "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" -O zig
+    wget "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" -O zig -q
     wget https://dl.google.com/android/repository/android-ndk-r25b-linux.zip -O ndk -q
     sudo unzip -q ndk
     PREVIOUS_PWD=$PWD
     cd android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin
     sudo chmod +x ./ld
     echo $(which ld)
+    sudo rm /usr/bin/ld
     sudo mv ./ld /usr/bin
+    echo $(which ld)
     cd $PREVIOUS_PWD
     sudo rm -rf android-ndk-r25b
     mkdir zigfolder
