@@ -30,6 +30,10 @@ jobs:
           ref: $BRANCH
           path: cargo-quickinstall
 
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-auditable
+
       - name: build package
         env:
           TEMPDIR: ${{github.workspace}}/built.d
