@@ -31,10 +31,12 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
+    wget "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" -O zig -q
     mkdir -p zigfolder
-    curl "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')"  | tar -x -C zigfolder --strip-components 1
-
-    export PATH="$PWD/zigfolder:$PATH"
+    tar -xf ./zig -C zigfolder --strip-components 1
+    rm zig
+    sudo mv zigfolder/zig /usr/local/bin/zig
+    sudo mv zigfolder/lib /usr/local/bin/lib
     rustup target add "$TARGET_ARCH"
     if ! [ -f "$HOME/.cargo/config" ]; then
         echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
