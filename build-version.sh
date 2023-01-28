@@ -41,10 +41,8 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     sudo chmod +x ./ld
     echo $(which ld)
     sudo rm /usr/bin/ld
-    sudo cp ./ld $HOME/.local/bin/ld
-    sudo mv ./ld $PREVIOUS_PWD/ld_bin/ld
+    sudo mv ./ld /usr/bin
     ls $PREVIOUS_PWD/ld_bin
-    PATH=$PREVIOUS_PWD/ld_bin:$PATH
     echo $PATH
     ld
     echo $(which ld)
