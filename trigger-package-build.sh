@@ -48,7 +48,7 @@ main() {
         git config user.name "trigger-package-build.sh"
     fi
 
-    TARGET_ARCHES="${TARGET_ARCHES:-${TARGET_ARCH:-x86_64-pc-windows-msvc x86_64-apple-darwin aarch64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl aarch64-unknown-linux-gnu}}"
+    TARGET_ARCHES="${TARGET_ARCHES:-${TARGET_ARCH:-aarch64-unknown-linux-gnu x86_64-pc-windows-msvc x86_64-apple-darwin aarch64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl}}"
 
     if [ ! -d "${TEMPDIR:-}" ]; then
         TEMPDIR="$(mktemp -d)"
