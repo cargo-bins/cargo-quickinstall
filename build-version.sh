@@ -39,8 +39,7 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     cd android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin
     sudo chmod +x ./ld
     echo $(which ld)
-    sudo rm /usr/bin/ld
-    sudo mv ./ld /usr/local/bin
+    sudo mv ./ld /usr/bin/ld
     echo $PATH
     ld
     echo $(which ld)
