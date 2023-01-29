@@ -1,4 +1,4 @@
-// cargo-quickinstall is optimised so that bootstrapping with
+// cargo-quickinstall is optimized so that bootstrapping with
 //
 //     cargo install cargo-quickinstall
 //
@@ -125,13 +125,13 @@ fn do_main_binstall(
         download_and_install_binstall(args.dry_run)?;
 
         if args.dry_run {
-            // cargo-binstall is not installeed, so we print out the cargo-binstall
+            // cargo-binstall is not installed, so we print out the cargo-binstall
             // cmd and exit.
             println!("cargo binstall --no-confirm --force cargo-binstall");
             return do_install_binstall(crates, target, BinstallMode::PrintCmd, args);
         } else {
             println!(
-                "Bootstrapping cargo-binstall with itself to make `cargo uninstall` work properly"
+                "Bootstrapping cargo-binstall with itself to make `cargo uninstall cargo-binstall` work properly"
             );
             do_install_binstall(
                 vec![Crate {
