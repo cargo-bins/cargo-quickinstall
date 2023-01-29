@@ -1,4 +1,4 @@
-// cargo-quickinstall is optimised so that bootstrapping with
+// cargo-quickinstall is optimized so that bootstrapping with
 //
 //     cargo install cargo-quickinstall
 //
@@ -39,6 +39,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
 
     let args = Args {
         dry_run: options.dry_run,
+        try_upstream: options.try_upstream,
         fallback: options.fallback,
         force: options.force,
     };
@@ -55,6 +56,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
 #[derive(Default)]
 struct Args {
     dry_run: bool,
+    try_upstream: bool,
     fallback: bool,
     force: bool,
 }
@@ -125,13 +127,13 @@ fn do_main_binstall(
         download_and_install_binstall(args.dry_run)?;
 
         if args.dry_run {
-            // cargo-binstall is not installeed, so we print out the cargo-binstall
+            // cargo-binstall is not installed, so we print out the cargo-binstall
             // cmd and exit.
             println!("cargo binstall --no-confirm --force cargo-binstall");
             return do_install_binstall(crates, target, BinstallMode::PrintCmd, args);
         } else {
             println!(
-                "Bootstrapping cargo-binstall with itself to make `cargo uninstall` work properly"
+                "Bootstrapping cargo-binstall with itself to make `cargo uninstall cargo-binstall` work properly"
             );
             do_install_binstall(
                 vec![Crate {
@@ -213,7 +215,7 @@ fn do_install_binstall(
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let mut cmd = std::process::Command::new("cargo");
 
-    cmd.arg("binstall").arg("--no-confirm");
+    cmd.arg("binstall").arg("--no-confirm").arg("--no-symlinks");
 
     if let Some(target) = target {
         cmd.arg("--targets").arg(target);
@@ -227,6 +229,10 @@ fn do_install_binstall(
         cmd.arg("--dry-run");
     }
 
+    if !args.try_upstream {
+        cmd.args(["--disable-strategies", "crate-meta-data"]);
+    }
+
     if !args.fallback {
         cmd.args(["--disable-strategies", "compile"]);
     }
@@ -237,6 +243,8 @@ fn do_install_binstall(
         println!("{}", cmd.formattable());
         return Ok(());
     }
+
+    println!("Calling `cargo-binstall` to do the install");
 
     #[cfg(unix)]
     if !matches!(mode, BinstallMode::Bootstrapping) {
