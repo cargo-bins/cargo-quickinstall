@@ -39,6 +39,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
 
     let args = Args {
         dry_run: options.dry_run,
+        try_upstream: options.try_upstream,
         fallback: options.fallback,
         force: options.force,
     };
@@ -55,6 +56,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
 #[derive(Default)]
 struct Args {
     dry_run: bool,
+    try_upstream: bool,
     fallback: bool,
     force: bool,
 }
@@ -225,6 +227,10 @@ fn do_install_binstall(
 
     if args.dry_run || matches!(mode, BinstallMode::PrintCmd) {
         cmd.arg("--dry-run");
+    }
+
+    if !args.try_upstream {
+        cmd.args(["--disable-strategies", "crate-meta-data"]);
     }
 
     if !args.fallback {
