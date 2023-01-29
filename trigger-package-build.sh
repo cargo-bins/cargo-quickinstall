@@ -16,8 +16,6 @@ get_build_os() {
         echo "windows-latest"
     elif [[ "$1" == "aarch64-unknown-linux-gnu" ]]; then
         echo "ubuntu-20.04"
-    elif [[ "$1" == "aarch64-unknown-linux-musl" ]]; then
-        echo "ubuntu-20.04"
     else
         echo "Unrecognised build OS: $1"
         exit 1
@@ -50,7 +48,7 @@ main() {
         git config user.name "trigger-package-build.sh"
     fi
 
-    TARGET_ARCHES="${TARGET_ARCHES:-${TARGET_ARCH:-x86_64-pc-windows-msvc x86_64-apple-darwin aarch64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl aarch64-unknown-linux-gnu aarch64-unknown-linux-musl}}"
+    TARGET_ARCHES="${TARGET_ARCHES:-${TARGET_ARCH:-x86_64-pc-windows-msvc x86_64-apple-darwin aarch64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl aarch64-unknown-linux-gnu}}"
 
     if [ ! -d "${TEMPDIR:-}" ]; then
         TEMPDIR="$(mktemp -d)"
