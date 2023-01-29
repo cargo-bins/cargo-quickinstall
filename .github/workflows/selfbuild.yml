@@ -62,17 +62,15 @@ jobs:
     strategy:
       matrix:
         include:
-          # FIXME: cargo-deny doesn't actually build on some arches
-          # - target_arch: x86_64-pc-windows-msvc
-          #   os: windows-latest
-          # - target_arch: x86_64-apple-darwin
-          #   os: macos-latest
-          # - target_arch: aarch64-apple-darwin
-          #   os: macos-latest
-          # - target_arch: x86_64-unknown-linux-gnu
-          #   os: ubuntu-20.04
-          # - target_arch: x86_64-unknown-linux-musl
-          #   os: ubuntu-20.04
+          # tin-summer doesn't actually build on windows.
+          - target_arch: x86_64-apple-darwin
+            os: macos-latest
+          - target_arch: aarch64-apple-darwin
+            os: macos-latest
+          - target_arch: x86_64-unknown-linux-gnu
+            os: ubuntu-20.04
+          - target_arch: x86_64-unknown-linux-musl
+            os: ubuntu-20.04
           - target_arch: aarch64-unknown-linux-gnu
             os: ubuntu-20.04
     steps:
@@ -85,7 +83,7 @@ jobs:
           tool: cargo-auditable
 
       # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
-      - name: Build cargo-deny
+      - name: Build tin-summer
         env:
           TARGET_ARCH: ${{ matrix.target_arch }}
         run: |
@@ -94,7 +92,7 @@ jobs:
           VERSION="$(
             curl \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
-              --fail "https://crates.io/api/v1/crates/cargo-deny" \
+              --fail "https://crates.io/api/v1/crates/tin-summer" \
               | jq -r '.versions[0].num'
           )"
-          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-deny
+          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh tin-summer
