@@ -238,6 +238,8 @@ fn do_install_binstall(
         return Ok(());
     }
 
+    println!("Calling `cargo-binstall` to do the install");
+
     #[cfg(unix)]
     if !matches!(mode, BinstallMode::Bootstrapping) {
         return Err(std::os::unix::process::CommandExt::exec(&mut cmd).into());
