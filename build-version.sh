@@ -57,6 +57,7 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-musl" ]; then
     fi
     rm -f ~/.cargo/.crates.toml ~/.cargo/.crates2.json
     CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC=$PWD/zig-aarch64-musl.sh cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig-aarch64.sh" cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
     CARGO_BIN_DIR=~/.cargo/bin
     CRATES2_JSON_PATH=~/.cargo/.crates2.json
 else

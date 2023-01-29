@@ -54,3 +54,47 @@ jobs:
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)
         run: cargo quickinstall cargo-quickinstall || cargo quickinstall sensei
+
+  build-needing-cc:
+    name: Build package that needs CC
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
+    strategy:
+      matrix:
+        include:
+          # cargo-deny doesn't build on musl
+          - target_arch: x86_64-pc-windows-msvc
+            os: windows-latest
+          - target_arch: x86_64-apple-darwin
+            os: macos-latest
+          - target_arch: aarch64-apple-darwin
+            os: macos-latest
+          - target_arch: x86_64-unknown-linux-gnu
+            os: ubuntu-20.04
+          - target_arch: aarch64-unknown-linux-gnu
+            os: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-auditable
+
+      # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
+      - name: Build cargo-deny
+        env:
+          TARGET_ARCH: ${{ matrix.target_arch }}
+        run: |
+          set -euxo pipefail
+          touch .env
+          VERSION="$(
+            curl \
+              --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
+              --fail "https://crates.io/api/v1/crates/cargo-deny" \
+              | jq -r '.versions[0].num'
+          )"
+          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-deny
