@@ -213,7 +213,7 @@ fn do_install_binstall(
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let mut cmd = std::process::Command::new("cargo");
 
-    cmd.arg("binstall").arg("--no-confirm");
+    cmd.arg("binstall").arg("--no-confirm").arg("--no-symlinks");
 
     if let Some(target) = target {
         cmd.arg("--targets").arg(target);
