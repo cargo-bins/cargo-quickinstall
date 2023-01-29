@@ -20,12 +20,12 @@ jobs:
           - target_arch: aarch64-apple-darwin
             os: macos-latest
           - target_arch: x86_64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: x86_64-unknown-linux-musl
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: aarch64-unknown-linux-gnu
-            os: ubuntu-20.04
-            
+            os: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
         with:
@@ -71,9 +71,9 @@ jobs:
           - target_arch: aarch64-apple-darwin
             os: macos-latest
           - target_arch: x86_64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: aarch64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:

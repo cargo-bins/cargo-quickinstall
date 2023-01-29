@@ -67,7 +67,7 @@ jobs:
   upload-popular-package:
     name: Upload
     needs: build-popular-package
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout trigger commit
         uses: actions/checkout@v3
