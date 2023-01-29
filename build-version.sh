@@ -30,6 +30,20 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
 
     CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
     CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
+elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
+    mkdir -p zigfolder
+    curl "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" | tar -xJ -C zigfolder --strip-components 1
+
+    export PATH="$PWD/zigfolder:$PATH"
+    rustup target add "$TARGET_ARCH"
+    if ! [ -f "$HOME/.cargo/config" ]; then
+        echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
+        echo "linker = \"$PWD/zig-aarch64.sh\"" >>~/.cargo/config
+    fi
+
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC=./zig-aarch64.sh cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+    CARGO_BIN_DIR=~/.cargo/bin
+    CRATES2_JSON_PATH=~/.cargo/.crates2.json
 else
     rustup target add "$TARGET_ARCH"
     rm -f ~/.cargo/.crates2.json
