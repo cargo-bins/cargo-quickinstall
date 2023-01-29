@@ -75,7 +75,7 @@ jobs:
 
       - name: Test batch installation with binstall
         run: |
-          cargo run -- cargo-quickinstall cargo-nextest
+          cargo run -- cargo-quickinstall cargo-nextest@0.9.28
           cargo quickinstall -V
           cargo nextest -V
 
@@ -84,13 +84,13 @@ jobs:
         run: |
           echo Rm all binaries installed but do not update manifests,
           echo so that binstall will think they are installed.
-          rm $(which cargo-quickinstall) $(which cargo-nextest)
-          cargo run -- --force cargo-quickinstall cargo-nextest
+          rm $(which cargo-quickinstall) $(which cargo-nextest@0.9.28)
+          cargo run -- --force cargo-quickinstall cargo-nextest@0.9.28
           cargo quickinstall -V
           cargo nextest -V
 
       - name: Test batch installation with curl
         run: |
-          cargo run -- --no-binstall cargo-quickinstall cargo-nextest
+          cargo run -- --no-binstall cargo-quickinstall cargo-nextest@0.9.28
           cargo quickinstall -V
           cargo nextest -V
