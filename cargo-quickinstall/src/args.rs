@@ -25,7 +25,10 @@ OPTIONS:
         --try-upstream              Try looking for official builds from the upstream maintainers.
                                     This takes a few extra seconds.
         --no-fallback               Don't fall back to `cargo install`
-        --no-binstall               Don't use `cargo binstall` to install packages.
+        --no-binstall               Don't use `cargo binstall` to install packages. `cargo-binstall`
+                                    sets metadata required for `cargo uninstall`, so only use
+                                    `--no-binstall` if you know you don't need to uninstall packages
+                                    (for example on CI builds).
         --dry-run                   Print the `curl | tar` command that would be run to fetch the binary
     -V, --print-version             Print version info and exit
     -h, --help                      Prints help information
