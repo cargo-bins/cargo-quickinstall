@@ -75,7 +75,7 @@ jobs:
 
       - name: Test batch installation with binstall
         run: |
-          cargo run -- cargo-quickinstall cargo-nextest
+          cargo run -- --try-upstream cargo-quickinstall cargo-nextest
           cargo quickinstall -V
           cargo nextest -V
 
