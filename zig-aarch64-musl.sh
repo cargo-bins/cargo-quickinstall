@@ -1,3 +1,3 @@
 #!/bin/sh
 # shellcheck disable=SC2068
-exec zig cc -target aarch64-linux-musl $@
+exec zig clang -target aarch64-linux-musl $@
