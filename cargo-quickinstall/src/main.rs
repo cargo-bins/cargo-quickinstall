@@ -124,6 +124,13 @@ fn do_main_binstall(
     if !is_binstall_compatible {
         crates.retain(|crate_to_install| crate_to_install.name != "cargo-binstall");
 
+        let args = Args {
+            dry_run: args.dry_run,
+            try_upstream: true,
+            fallback: false,
+            force: true,
+        };
+
         download_and_install_binstall(args.dry_run)?;
 
         if args.dry_run {
@@ -142,7 +149,7 @@ fn do_main_binstall(
                 }],
                 None,
                 BinstallMode::Bootstrapping,
-                Args::default(),
+                args,
             )?;
         }
     }
