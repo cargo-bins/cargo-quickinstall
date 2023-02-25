@@ -74,7 +74,7 @@ pub fn do_dry_run_download_and_install_binstall_from_upstream(
     let cargo_bin_dir = get_cargo_bin_dir()?;
 
     if archive_format == "tgz" {
-        Ok(format_curl_and_untar_cmd(&url, &cargo_bin_dir))
+        Ok(format_curl_and_untar_cmd(&url, cargo_bin_dir))
     } else {
         Ok(format!(
             "temp=\"$(mktemp)\"\n{curl_cmd} >\"$temp\"\nunzip \"$temp\" -d {extdir}",
@@ -270,21 +270,21 @@ pub fn do_dry_run_curl(
 
             Ok(format_curl_and_untar_cmd(
                 &crate_download_url,
-                &cargo_bin_dir,
+                cargo_bin_dir,
             ))
         }
         Err(err) if err.is_curl_404() && fallback => {
             let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
             Ok(format!("{}", cargo_install_cmd.formattable()))
         }
-        Err(err) => Err(err.into()),
+        Err(err) => Err(err),
     }
 }
 
 fn untar(mut curl: ChildWithCommand) -> Result<String, InstallError> {
     let bin_dir = get_cargo_bin_dir()?;
 
-    let res = prepare_untar_cmd(&bin_dir)
+    let res = prepare_untar_cmd(bin_dir)
         .stdin(curl.stdout().take().unwrap())
         .output_checked_status();
 
