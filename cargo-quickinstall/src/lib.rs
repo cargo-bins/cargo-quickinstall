@@ -4,9 +4,8 @@
 //! `cargo install` otherwise.
 
 use guess_host_triple::guess_host_triple;
-use std::{fs::File, path::Path, process};
+use std::{fs::File, io::BufReader, path::Path, process};
 use tempfile::NamedTempFile;
-use tinyjson::JsonValue;
 
 pub mod install_error;
 
@@ -14,9 +13,6 @@ use install_error::*;
 
 mod command_ext;
 pub use command_ext::{ChildWithCommand, CommandExt, CommandFormattable};
-
-mod json_value_ext;
-pub use json_value_ext::{JsonExtError, JsonKey, JsonValueExt};
 
 mod utils;
 pub use utils::{get_cargo_bin_dir, utf8_to_string_lossy};
@@ -156,22 +152,32 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
 }
 
 pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
+    use wa_serde_derive::Deserialize;
+
+    #[derive(Deserialize)]
+    struct Response {
+        #[serde(rename = "crate")]
+        inner: Crate,
+    }
+
+    #[derive(Deserialize)]
+    struct Crate {
+        max_stable_version: String,
+    }
+
     let url = format!("https://crates.io/api/v1/crates/{}", crate_name);
 
-    curl_json(&url)
-        .map_err(|e| {
-            if e.is_curl_404() {
-                InstallError::CrateDoesNotExist {
-                    crate_name: crate_name.to_string(),
-                }
-            } else {
-                e
+    let response: Response = curl_json(&url).map_err(|e| {
+        if e.is_curl_404() {
+            InstallError::CrateDoesNotExist {
+                crate_name: crate_name.to_string(),
             }
-        })?
-        .get_owned(&"crate")?
-        .get_owned(&"max_stable_version")?
-        .try_into_string()
-        .map_err(From::from)
+        } else {
+            e
+        }
+    })?;
+
+    Ok(response.inner.max_stable_version)
 }
 
 pub fn get_target_triple() -> Result<String, InstallError> {
@@ -330,23 +336,23 @@ fn curl_file(url: &str, file: File) -> Result<(), InstallError> {
     Ok(())
 }
 
-fn curl_bytes(url: &str) -> Result<Vec<u8>, InstallError> {
-    prepare_curl_bytes_cmd(url)
-        .output_checked_status()
-        .map(|output| output.stdout)
-}
+pub fn curl_json<T>(url: &str) -> Result<T, InstallError>
+where
+    T: serde::de::DeserializeOwned,
+{
+    let mut child = curl(url)?;
 
-fn curl_string(url: &str) -> Result<String, InstallError> {
-    curl_bytes(url).map(utf8_to_string_lossy)
-}
+    let val =
+        serde_json::from_reader(BufReader::new(child.stdout().take().unwrap())).map_err(|err| {
+            InstallError::InvalidJson {
+                url: url.to_string(),
+                err,
+            }
+        })?;
 
-pub fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
-    curl_string(url)?
-        .parse()
-        .map_err(|err| InstallError::InvalidJson {
-            url: url.to_string(),
-            err,
-        })
+    child.wait_with_output_checked_status()?;
+
+    Ok(val)
 }
 
 fn get_quickinstall_download_url(
