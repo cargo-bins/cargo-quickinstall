@@ -168,9 +168,8 @@ pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
                 e
             }
         })?
-        .get_owned(&"versions")?
-        .get_owned(&0)?
-        .get_owned(&"num")?
+        .get_owned(&"crate")?
+        .get_owned(&"max_stable_version")?
         .try_into_string()
         .map_err(From::from)
 }
