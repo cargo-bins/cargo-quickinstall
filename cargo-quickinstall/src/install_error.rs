@@ -1,7 +1,7 @@
-use crate::{CommandFailed, CrateDetails, JsonExtError};
+use crate::{CommandFailed, CrateDetails};
 use std::fmt::{Debug, Display};
 
-use tinyjson::JsonParseError;
+use serde_json::Error as JsonParseError;
 
 pub enum InstallError {
     MissingCrateNameArgument(&'static str),
@@ -11,7 +11,6 @@ pub enum InstallError {
     CrateDoesNotExist { crate_name: String },
     NoFallback(CrateDetails),
     InvalidJson { url: String, err: JsonParseError },
-    JsonErr(JsonExtError),
     FailToParseRustcOutput { reason: &'static str },
 }
 
@@ -30,7 +29,6 @@ impl std::error::Error for InstallError {
         match self {
             Self::IoError(io_err) => Some(io_err),
             Self::InvalidJson { err, .. } => Some(err),
-            Self::JsonErr(err) => Some(err),
             _ => None,
         }
     }
@@ -83,7 +81,6 @@ impl Display for InstallError {
             InstallError::InvalidJson { url, err } => {
                 write!(f, "Failed to parse json downloaded from '{url}': {err}",)
             }
-            InstallError::JsonErr(err) => write!(f, "{err}"),
             InstallError::FailToParseRustcOutput { reason } => {
                 write!(f, "Failed to parse `rustc -vV` output: {reason}")
             }
@@ -99,11 +96,5 @@ impl From<std::io::Error> for InstallError {
 impl From<CommandFailed> for InstallError {
     fn from(err: CommandFailed) -> InstallError {
         InstallError::CommandFailed(err)
-    }
-}
-
-impl From<JsonExtError> for InstallError {
-    fn from(err: JsonExtError) -> InstallError {
-        InstallError::JsonErr(err)
     }
 }
