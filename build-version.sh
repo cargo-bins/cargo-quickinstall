@@ -16,20 +16,28 @@ curl_slowly() {
     sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
-if [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -I --output /dev/null "https://github.com/cargo-bins/cargo-quickinstall/releases/download/${CRATE}-${VERSION}-${TARGET_ARCH}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+if [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -I --output /dev/null "https://github.com/cargo-bins/cargo-quickinstall/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
     echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
+    exit 0
+elif [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -L --output "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" "https://github.com/cargo-bins/cargo-quickinstall/releases/download/${CRATE}-${VERSION}-${TARGET_ARCH}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+    echo "copy-pasting from the old location rather than building from scratch" >&2
+    echo "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
     exit 0
 fi
 
 if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
+    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
+
     # Compiling against musl libc is failing despite installing the musl-tools
     # deb.  Falling back to Rust's Alpine container whose default target
     # is x86_64-unknown-linux-musl.
-    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "set -euxo pipefail; apk update && apk add build-base curl; curl --location --silent --show-error --fail https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-$TARGET_ARCH.tgz | tar -xzvvf -; ./cargo-binstall binstall -y cargo-auditable; rm -f \$CARGO_HOME/.crates.toml \$CARGO_HOME/.crates2.json; CARGO_PROFILE_RELEASE_CODEGEN_UNITS=\"1\" CARGO_PROFILE_RELEASE_LTO=\"fat\" OPENSSL_STATIC=1 cargo auditable install $CRATE --version $VERSION"
-    podman cp official-alpine-rust:/usr/local/cargo "${TEMPDIR}/"
+    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "set -euxo pipefail; apk update && apk add build-base curl; curl --location --silent --show-error --fail https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-$TARGET_ARCH.tgz | gunzip -c | tar -xvvf -; ./cargo-binstall binstall -y cargo-auditable; rm -f \$CARGO_HOME/.crates.toml \$CARGO_HOME/.crates2.json; CARGO_PROFILE_RELEASE_CODEGEN_UNITS=\"1\" CARGO_PROFILE_RELEASE_LTO=\"fat\" OPENSSL_STATIC=1 cargo auditable install $CRATE --version $VERSION"
+    podman cp official-alpine-rust:/usr/local/cargo/.crates2.json "${CARGO_ROOT}/"
+    podman cp official-alpine-rust:/usr/local/cargo/bin "${CARGO_ROOT}/"
+    podman rm -fv official-alpine-rust
 
-    CARGO_BIN_DIR="${TEMPDIR}/cargo/bin"
-    CRATES2_JSON_PATH="${TEMPDIR}/cargo/.crates2.json"
+    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
+    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
 elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     mkdir -p zigfolder
     curl "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" | tar -xJ -C zigfolder --strip-components 1
@@ -41,16 +49,19 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
         echo "linker = \"$PWD/zig-aarch64.sh\"" >>~/.cargo/config
     fi
 
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig-aarch64.sh" cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
-    CARGO_BIN_DIR=~/.cargo/bin
-    CRATES2_JSON_PATH=~/.cargo/.crates2.json
+    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
+
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig-aarch64.sh" cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT"
+
+    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
+    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
 else
     rustup target add "$TARGET_ARCH"
-    rm -f ~/.cargo/.crates2.json ~/.cargo/.crates.toml
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH"
+    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT"
 
-    CARGO_BIN_DIR=~/.cargo/bin
-    CRATES2_JSON_PATH=~/.cargo/.crates2.json
+    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
+    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
 fi
 
 BINARIES=$(

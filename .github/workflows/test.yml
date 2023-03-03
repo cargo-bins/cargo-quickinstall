@@ -11,6 +11,9 @@ jobs:
   lint:
     name: Linter
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
 
     steps:
       - name: Fetch source
@@ -34,6 +37,9 @@ jobs:
   test:
     name: Test runner
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
 
     steps:
       # TODO: actions/cache@v2?
@@ -54,6 +60,9 @@ jobs:
           - os: windows-latest
           - os: macos-latest
           - os: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
 
     steps:
       # TODO: actions/cache@v2?
@@ -65,16 +74,19 @@ jobs:
 
       - name: Test installing and using binstall
         run: |
+          set -euxo pipefail
           cargo run -- cargo-quickinstall
           cargo quickinstall -V
 
       - name: Test using binstall with it already installed
         run: |
+          set -euxo pipefail
           cargo run -- cargo-quickinstall
           cargo quickinstall -V
 
       - name: Test batch installation with binstall
         run: |
+          set -euxo pipefail
           cargo run -- cargo-quickinstall cargo-nextest@0.9.28
           cargo quickinstall -V
           cargo nextest -V
@@ -82,6 +94,7 @@ jobs:
       - name: Test batch installation with binstall with force
         if: matrix.os != 'windows-latest'
         run: |
+          set -euxo pipefail
           echo Rm all binaries installed but do not update manifests,
           echo so that binstall will think they are installed.
           rm $(which cargo-quickinstall) $(which cargo-nextest@0.9.28)
@@ -91,6 +104,7 @@ jobs:
 
       - name: Test batch installation with curl
         run: |
+          set -euxo pipefail
           cargo run -- --no-binstall cargo-quickinstall cargo-nextest@0.9.28
           cargo quickinstall -V
           cargo nextest -V
