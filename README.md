@@ -43,6 +43,11 @@ will print:
 
 Edit the command however you need, and paste it into your CI pipeline.
 
+## Supported targets
+
+Check [supported-targets](/supported-targets) for lists of targets quickinstall
+can build for.
+
 ## Limitations
 
 Non-default features are not supported.
