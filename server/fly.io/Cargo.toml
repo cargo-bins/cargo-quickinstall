@@ -1,5 +1,5 @@
 [package]
-name = "cargo-quickinstall stats server"
+name = "cargo-quickinstall-stats-server"
 version = "0.0.0"
 authors = ["David Laban <alsuren@gmail.com>"]
 # based on https://github.com/fly-apps/hello-rust by Jerome Gravel-Niquet <jeromegn@gmail.com>
