@@ -26,5 +26,6 @@ async fn root() -> &'static str {
 }
 
 async fn record_install(Query(params): Query<HashMap<String, String>>) -> String {
+    println!("Hi there {params:?}");
     format!("Hi there {params:?}")
 }
