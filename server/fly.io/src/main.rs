@@ -3,7 +3,7 @@ use axum::{
     routing::{get, post},
     Router,
 };
-use std::collections::HashMap;
+use std::collections::BTreeMap;
 use std::net::SocketAddr;
 
 #[tokio::main]
@@ -25,7 +25,7 @@ async fn root() -> &'static str {
     "Hello, World!"
 }
 
-async fn record_install(Query(params): Query<HashMap<String, String>>) -> String {
+async fn record_install(Query(params): Query<BTreeMap<String, String>>) -> String {
     println!("Hi there {params:?}");
     format!("Hi there {params:?}")
 }
