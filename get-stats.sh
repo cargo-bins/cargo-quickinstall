@@ -15,7 +15,7 @@ curl \
     if [[ "${TARGET_ARCH:-}" != "" ]]; then
         jq -r 'keys | .[]' |
             (grep -F "${TARGET_ARCH:-}" || true) |
-            sed 's:/.*::'
+            sed 's:/.*::' || (echo "Invalid json from stats server. Probably rate limit error. Skipping for now." >&2)
     else
         jq '.'
     fi
