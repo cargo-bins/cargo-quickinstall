@@ -68,6 +68,9 @@ jobs:
     name: Upload
     needs: build-popular-package
     runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash
     steps:
       - name: Checkout trigger commit
         uses: actions/checkout@v3
@@ -109,16 +112,34 @@ jobs:
       - name: Tag release
         run: |
           (
+            set -euxo pipefail
             cd trigger
-            git tag $CRATE-$VERSION-$TARGET_ARCH
-            git push origin $CRATE-$VERSION-$TARGET_ARCH
+            if ! ../cargo-quickinstall/create_and_upload_tag.sh $CRATE-$VERSION; then
+                echo "$CRATE-$VERSION tag already exists"
+            fi
+            if ! ../cargo-quickinstall/create_and_upload_tag.sh $CRATE-$VERSION-$TARGET_ARCH; then
+                echo "$CRATE-$VERSION-$TARGET_ARCH tag already exists"
+                echo 'SKIP_OLD_FORMAT=1' >>$GITHUB_ENV
+            fi
           )
 
-      - name: Releasing assets
-        uses: softprops/action-gh-release@v1
+      - name: Releasing assets in old release format
+        uses: svenstaro/upload-release-action@v2
+        if: "! env.SKIP_OLD_FORMAT"
         with:
-          tag_name: $CRATE-$VERSION-$TARGET_ARCH
-          files: |
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: $CRATE-$VERSION-$TARGET_ARCH
+          release_name: $CRATE-$VERSION-$TARGET_ARCH
+          body: build $CRATE@$VERSION on $TARGET_ARCH
+          file: |
             ${{github.workspace}}/built.d/$CRATE-$VERSION-$TARGET_ARCH.tar.gz
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Releasing assets in new release format
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: $CRATE-$VERSION
+          release_name: $CRATE-$VERSION
+          body: build $CRATE@$VERSION
+          file: |
+            ${{github.workspace}}/built.d/$CRATE-$VERSION-$TARGET_ARCH.tar.gz
