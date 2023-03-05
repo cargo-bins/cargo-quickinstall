@@ -36,9 +36,9 @@ async fn record_install(Query(params): Query<BTreeMap<String, String>>) -> Strin
 
     // FIXME: make this in main and pass it down or something?
     let url = get_env("INFLUX_URL");
-    let bucket = get_env("INFLUX_BUCKET");
-    let org = get_env("INFLUX_ORG");
     let token = get_env("INFLUX_TOKEN");
+    let org = get_env("INFLUX_ORG");
+    let bucket = get_env("INFLUX_BUCKET");
     let client = InfluxClient::builder(url, token, org).build().unwrap();
 
     let mut point = Measurement::builder("counts").field("count", 1);
