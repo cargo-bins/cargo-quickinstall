@@ -27,6 +27,9 @@ RUN useradd -ms /bin/bash app
 USER app
 WORKDIR /app
 
+# Debian slim doesn't have ca certs and I can't be bothered asking apt for them.
+copy --from=rust:latest /etc/ssl/certs /etc/ssl/certs
+
 # Get compiled binaries from builder's cargo install directory
 COPY --from=builder /usr/local/cargo/bin/cargo-quickinstall-stats-server /app/cargo-quickinstall-stats-server
 
