@@ -6,8 +6,7 @@ use axum::{
     routing::{get, post},
     Router,
 };
-use chrono::Utc;
-use influxdb::{Client, InfluxDbWriteable, Query as _, ReadQuery, Timestamp, WriteQuery};
+use influx_db_client::{reqwest::Url, Client, Point};
 
 #[tokio::main]
 async fn main() {
@@ -36,19 +35,17 @@ async fn record_install(Query(params): Query<BTreeMap<String, String>>) -> Strin
     println!("Hi there {params:?}");
 
     // FIXME: make this in main and pass it down or something?
-    let url = get_env("INFLUX_URL");
+    let url = Url::parse(get_env("INFLUX_URL").as_str()).unwrap();
     let bucket = get_env("INFLUX_BUCKET");
     let org = get_env("INFLUX_ORG");
     let token = get_env("INFLUX_TOKEN");
-    let client = Client::new(url, bucket).with_token(token);
+    let client = Client::new(url, bucket).set_jwt_token(token);
 
-    let mut point = Timestamp::from(Utc::now())
-        .into_query("counts")
-        .add_field("count", 1);
+    let mut point = Point::new("counts").add_field("count", 1);
     for (tag, value) in &params {
         point = point.add_tag(tag, &**value)
     }
-    client.query(point).await.unwrap();
+    client.write_point(point, None, None).await.unwrap();
     format!("Hi there {params:?}")
 }
 
