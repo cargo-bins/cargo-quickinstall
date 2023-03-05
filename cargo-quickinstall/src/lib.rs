@@ -369,7 +369,11 @@ fn prepare_curl_cmd() -> std::process::Command {
     let mut cmd = std::process::Command::new("curl");
     cmd.args([
         "--user-agent",
-        "cargo-quickinstall client (alsuren@gmail.com)",
+        concat!(
+            "cargo-quickinstall/",
+            env!("CARGO_PKG_VERSION"),
+            " client (alsuren@gmail.com)",
+        ),
         "--location",
         "--silent",
         "--show-error",
