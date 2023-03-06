@@ -21,3 +21,5 @@ jobs:
           set -euo pipefail
           touch .env
           ./trigger-package-build.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
