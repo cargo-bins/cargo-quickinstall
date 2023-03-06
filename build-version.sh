@@ -31,7 +31,7 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     # Compiling against musl libc is failing despite installing the musl-tools
     # deb.  Falling back to Rust's Alpine container whose default target
     # is x86_64-unknown-linux-musl.
-    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "set -euxo pipefail; apk update && apk add build-base curl; curl --location --silent --show-error --fail https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-$TARGET_ARCH.tgz | gunzip -c | tar -xvvf -; ./cargo-binstall binstall -y cargo-auditable; rm -f \$CARGO_HOME/.crates.toml \$CARGO_HOME/.crates2.json; CARGO_PROFILE_RELEASE_CODEGEN_UNITS=\"1\" CARGO_PROFILE_RELEASE_LTO=\"fat\" OPENSSL_STATIC=1 cargo auditable install $CRATE --version $VERSION"
+    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "set -euxo pipefail; apk update && apk add build-base curl; curl --location --silent --show-error --fail https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-$TARGET_ARCH.tgz | gunzip -c | tar -xvvf -; ./cargo-binstall binstall -y cargo-auditable; rm -f \$CARGO_HOME/.crates.toml \$CARGO_HOME/.crates2.json; CARGO_PROFILE_RELEASE_CODEGEN_UNITS=\"1\" CARGO_PROFILE_RELEASE_LTO=\"fat\" OPENSSL_STATIC=1 cargo auditable install $CRATE --version $VERSION --locked"
     podman cp official-alpine-rust:/usr/local/cargo/.crates2.json "${CARGO_ROOT}/"
     podman cp official-alpine-rust:/usr/local/cargo/bin "${CARGO_ROOT}/"
     podman rm -fv official-alpine-rust
@@ -51,14 +51,14 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
 
     CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
 
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig-aarch64.sh" cargo install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT"
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig-aarch64.sh" cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
 
     CARGO_BIN_DIR="${CARGO_ROOT}/bin"
     CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
 else
     rustup target add "$TARGET_ARCH"
     CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT"
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
 
     CARGO_BIN_DIR="${CARGO_ROOT}/bin"
     CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
