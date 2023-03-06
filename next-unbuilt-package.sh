@@ -62,14 +62,11 @@ for CRATE in $POPULAR_CRATES; do
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." 1>&2
     else
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" 1>&2
-        echo "::set-output name=crate_to_build::$CRATE"
-        echo "::set-output name=version_to_build::$VERSION"
-        echo "::set-output name=arch_to_build::$TARGET_ARCH"
+        echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\"}"
         exit 0
     fi
 done
 # If there's nothing to build, just build ourselves.
 VERSION=$(curl_slowly --location --fail "https://crates.io/api/v1/crates/cargo-quickinstall" | jq -r .versions[0].num)
-echo "::set-output name=crate_to_build::cargo-quickinstall"
-echo "::set-output name=version_to_build::$VERSION"
-echo "::set-output name=arch_to_build::$TARGET_ARCH"
+CRATE=cargo-quickinstall
+echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\"}"
