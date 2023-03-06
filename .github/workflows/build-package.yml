@@ -1,4 +1,4 @@
-name: Build for $TARGET_ARCH
+name: Build package
 
 on:
   workflow_dispatch:
