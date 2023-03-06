@@ -148,6 +148,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}
+          release_name: ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}
           body: build ${{ inputs.crate }}@${{ inputs.version }} on ${{ inputs.target_arch }}
           file: ${{ env.BUILD_ARCHIVE }}
 
@@ -156,5 +157,6 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ inputs.crate }}-${{ inputs.version }}
+          release_name: ${{ inputs.crate }}-${{ inputs.version }}
           body: build ${{ inputs.crate }}@${{ inputs.version }}
           file: ${{ env.BUILD_ARCHIVE }}
