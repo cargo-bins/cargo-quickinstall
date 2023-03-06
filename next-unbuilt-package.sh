@@ -57,7 +57,7 @@ for CRATE in $POPULAR_CRATES; do
     fi
     VERSION=$(jq -r '[ .versions[] | select(.yanked == false) ][0].num' "$RESPONSE_FILENAME")
 
-    if curl_slowly --location --fail -I --output /dev/null "https://github.com/cargo-bins/cargo-quickinstall/releases/download/${CRATE}-${VERSION}-${TARGET_ARCH}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+    if curl_slowly --location --fail -I --output /dev/null "https://github.com/cargo-bins/cargo-quickinstall/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." 1>&2
     else
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" 1>&2
