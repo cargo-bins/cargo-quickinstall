@@ -24,6 +24,10 @@ on:
         required: true
         type: string
 
+concurrency:
+  group: ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}
+  cancel-in-progress: true
+
 env:
   CRATE: ${{ inputs.crate }}
   TARGET_ARCH: ${{ inputs.target_arch }}
