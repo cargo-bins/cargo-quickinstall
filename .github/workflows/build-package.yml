@@ -89,7 +89,7 @@ jobs:
       run:
         shell: bash
     env:
-      BUILD_ARCHIVE: ${{ env.BUILD_DIR }}/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
+      BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
     steps:
       - name: Checkout trigger commit
         uses: actions/checkout@v3
