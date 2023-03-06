@@ -1,0 +1,160 @@
+name: Build for $TARGET_ARCH
+
+on:
+  workflow_dispatch:
+    inputs:
+      crate:
+        description: Crate to release
+        required: true
+        type: string
+      version:
+        description: Version to release
+        required: true
+        type: string
+      target_arch:
+        description: Target to build against
+        required: true
+        type: string
+      build_os:
+        description: The OS to use for building
+        required: true
+        type: string
+      branch:
+        description: The branch which is checked out
+        required: true
+        type: string
+
+env:
+  CRATE: ${{ inputs.crate }}
+  TARGET_ARCH: ${{ inputs.target_arch }}
+  VERSION: ${{ inputs.version }}
+  BUILD_DIR: ${{ github.workspace }}/built.d
+
+jobs:
+  build-popular-package:
+    name: Build
+    runs-on: ${{ inputs.build_os }}
+    permissions: {}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout trigger commit
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          path: trigger
+      - name: Checkout main repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          ref: ${{ inputs.branch }}
+          path: cargo-quickinstall
+
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-auditable
+
+      - name: build package
+        env:
+          TEMPDIR: ${{ env.BUILD_DIR }}
+        run: |
+          set -euxo pipefail
+          # `tar` does not understand mixed forward and backslashes, but mkdir does.
+          # Try coercing it into a single style?
+          mkdir -p "$TEMPDIR"
+          pushd "$TEMPDIR"
+          TEMPDIR="$PWD"
+          popd
+
+          cargo-quickinstall/build-version.sh "$CRATE"
+          touch "$TEMPDIR/dummy-file"
+          ls "$TEMPDIR"
+      # At this point, I don't think that you can really trust anything on the system anymore.
+      # I'm not sure whether the js actions runtime is also affected by this.
+      # TODO: try breaking things so that uploads don't work.
+
+      - name: Upload run-local binary artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: built-${{ inputs.build_os }}
+          path: ${{ env.BUILD_DIR }}
+          if-no-files-found: error
+
+  upload-popular-package:
+    name: Upload
+    needs: build-popular-package
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash
+    env:
+      BUILD_ARCHIVE: ${{ env.BUILD_DIR }}/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
+    steps:
+      - name: Checkout trigger commit
+        uses: actions/checkout@v3
+        with:
+          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
+          persist-credentials: true
+          path: trigger
+      - name: Checkout main repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          # TODO: maybe this should be main or configurable or something?
+          ref: ${{ inputs.branch }}
+          path: cargo-quickinstall
+
+      - name: Download binary artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: built-${{ inputs.build_os }}
+          # TODO: check that we it can't write anywhere other than built.d
+          path: ${{ env.BUILD_DIR }}
+
+      - name: Check if tarball exists
+        id: check_files
+        uses: andstor/file-existence-action@v2
+        with:
+          files: ${{ env.BUILD_ARCHIVE }}
+
+      - name: Cancel if no tarball
+        if: steps.check_files.outputs.files_exists == 'false'
+        uses: andymckay/cancel-action@0.3
+
+      - name: Wait for cancellation signal if no tarball
+        if: steps.check_files.outputs.files_exists == 'false'
+        run: |
+          sleep 1m
+          exit 1
+
+      - name: Tag release
+        run: |
+          (
+            set -euxo pipefail
+            cd trigger
+            if ! ../cargo-quickinstall/create_and_upload_tag.sh $CRATE-$VERSION; then
+                echo "$CRATE-$VERSION tag already exists"
+            fi
+            if ! ../cargo-quickinstall/create_and_upload_tag.sh $CRATE-$VERSION-$TARGET_ARCH; then
+                echo "$CRATE-$VERSION-$TARGET_ARCH tag already exists"
+                echo 'SKIP_OLD_FORMAT=1' >>$GITHUB_ENV
+            fi
+          )
+
+      - name: Releasing assets in old release format
+        uses: svenstaro/upload-release-action@v2
+        if: "! env.SKIP_OLD_FORMAT"
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}
+          body: build ${{ inputs.crate }}@${{ inputs.version }} on ${{ inputs.target_arch }}
+          file: ${{ env.BUILD_ARCHIVE }}
+
+      - name: Releasing assets in new release format
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ inputs.crate }}-${{ inputs.version }}
+          body: build ${{ inputs.crate }}@${{ inputs.version }}
+          file: ${{ env.BUILD_ARCHIVE }}
