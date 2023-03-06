@@ -113,11 +113,18 @@ pub fn get_cargo_binstall_version() -> Option<String> {
 }
 
 pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
-    // download_tarball will not include any 404 error from curl, but only
-    // error when spawning curl.
-    //
-    // untar will wait on curl, so it will include the 404 error.
-    match untar(download_tarball(details)?) {
+    let urls = get_quickinstall_download_urls(details);
+
+    let res = match curl_and_untar(&urls[0]) {
+        Err(err) if err.is_curl_404() => {
+            println!("Fallback to old release schema");
+
+            curl_and_untar(&urls[1])
+        }
+        res => res,
+    };
+
+    match res {
         Ok(tar_output) => {
             let bin_dir = get_cargo_bin_dir()?;
 
@@ -153,6 +160,10 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
         }
         Err(err) => Err(err),
     }
+}
+
+fn curl_and_untar(url: &str) -> Result<String, InstallError> {
+    untar(curl(url)?)
 }
 
 pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
@@ -256,29 +267,31 @@ pub fn do_dry_run_curl(
     crate_details: &CrateDetails,
     fallback: bool,
 ) -> Result<String, InstallError> {
-    let crate_download_url = get_quickinstall_download_url(crate_details);
+    let urls = get_quickinstall_download_urls(crate_details);
 
-    match curl_head(&crate_download_url) {
+    let (url, res) = match curl_head(&urls[0]) {
+        Err(err) if err.is_curl_404() => (&urls[1], curl_head(&urls[1])),
+        res => (&urls[0], res),
+    };
+
+    match res {
         Ok(_) => {
             let cargo_bin_dir = get_cargo_bin_dir()?;
 
-            Ok(format_curl_and_untar_cmd(
-                &crate_download_url,
-                &cargo_bin_dir,
-            ))
+            Ok(format_curl_and_untar_cmd(url, cargo_bin_dir))
         }
         Err(err) if err.is_curl_404() && fallback => {
             let cargo_install_cmd = prepare_cargo_install_cmd(crate_details);
             Ok(format!("{}", cargo_install_cmd.formattable()))
         }
-        Err(err) => Err(err.into()),
+        Err(err) => Err(err),
     }
 }
 
 fn untar(mut curl: ChildWithCommand) -> Result<String, InstallError> {
     let bin_dir = get_cargo_bin_dir()?;
 
-    let res = prepare_untar_cmd(&bin_dir)
+    let res = prepare_untar_cmd(bin_dir)
         .stdin(curl.stdout().take().unwrap())
         .output_checked_status();
 
@@ -349,20 +362,19 @@ pub fn curl_json(url: &str) -> Result<JsonValue, InstallError> {
         })
 }
 
-fn get_quickinstall_download_url(
+fn get_quickinstall_download_urls(
     CrateDetails {
         crate_name,
         version,
         target,
     }: &CrateDetails,
-) -> String {
+) -> [String; 2] {
+    [format!(
+        "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}/{crate_name}-{version}-{target}.tar.gz",
+    ),
     format!(
         "https://github.com/cargo-bins/cargo-quickinstall/releases/download/{crate_name}-{version}-{target}/{crate_name}-{version}-{target}.tar.gz",
-    )
-}
-
-fn download_tarball(crate_details: &CrateDetails) -> Result<ChildWithCommand, InstallError> {
-    curl(&get_quickinstall_download_url(crate_details))
+    )]
 }
 
 fn prepare_curl_cmd() -> std::process::Command {
