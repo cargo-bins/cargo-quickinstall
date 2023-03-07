@@ -13,24 +13,37 @@ def stderr(s):
 
 if len(sys.argv) == 3:
     with open(sys.argv[1]) as f:
-        s = set(strip_whitespace(f))
+        exclude = set(strip_whitespace(f))
     max_lines = int(sys.argv[2])
 else:
     program = sys.argv[0]
     stderr(f"Usage: {program}: /path/to/excludes max-num-of-lines-to-output")
     sys.exit(1)
 
-dup = set()
-cnt = 0
+def main(excluded_file_path, max_lines):
+    with open(excluded_file_path) as f:
+        exclude = set(strip_whitespace(f))
+    max_lines = int(max_lines)
 
-for line in sys.stdin:
-    line = line.strip()
+    dup = set()
+    cnt = 0
+    
+    for line in sys.stdin:
+        line = line.strip()
+    
+        if line in exclude:
+            stderr(f"skipping {line} because it has failed too many times")
+        elif len(line) != 0 and line not in dup:
+            print(line)
+            dup.add(line)
+            cnt += 1
+            if cnt == max_lines:
+                break
 
-    if line in s:
-        stderr(f"skipping {line} because it has failed too many times")
-    elif len(line) != 0 and line not in dup:
-        print(line)
-        dup.add(line)
-        cnt += 1
-        if cnt == max_lines:
-            break
+if __name__ == "__main__":
+    if len(sys.argv) == 3:
+        main(sys.argv[1], sys.argv[2])
+    else:
+        program = sys.argv[0]
+        stderr(f"Usage: {program}: /path/to/excludes max-num-of-lines-to-output")
+        sys.exit(1)
