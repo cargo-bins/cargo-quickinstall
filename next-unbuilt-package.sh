@@ -20,6 +20,12 @@ fi
 
 RECHECK="${RECHECK:-}"
 
+CRATE_CHECK_LIMIT="${CRATE_CHECK_LIMIT:-20}"
+re='^[0-9]+$'
+if ! [[ $CRATE_CHECK_LIMIT =~ $re ]] ; then
+    CRATE_CHECK_LIMIT=20
+fi
+
 POPULAR_CRATES=$(
     if [ "$RECHECK" == 1 ]; then
         # always check quickinstall first for `make release`
@@ -36,9 +42,9 @@ POPULAR_CRATES=$(
         grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt
     ) |
         # Remove duplicate lines, remove exclulded crates
-        # Limit max crate to check to CRATE_CHECK_LIMIT, which is set to 20
-        # if it is not present.
-        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "${CRATE_CHECK_LIMIT:-20}" ||
+        # Limit max crate to check to 2 * CRATE_CHECK_LIMIT.
+        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "$(( 2 * CRATE_CHECK_LIMIT ))" |
+        shuf -n "${CRATE_CHECK_LIMIT}" ||
         # If we don't find anything (package stopped being popular?)
         # then fall back to doing a self-build.
         echo 'cargo-quickinstall'
