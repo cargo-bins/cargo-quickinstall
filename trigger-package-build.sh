@@ -27,14 +27,9 @@ main() {
     BRANCH=$(git branch --show-current)
     RECHECK="${RECHECK:-}"
 
-    # If we are on the `actions` branch, it's because we're trying to develop a feature.
-    # Mostly we want just want it to check a few packages and then fall back to triggering
-    # a build of cargo-quickinstall.
-    if [[ "${BRANCH:-}" == "actions" && "${CI:-}" == "true" ]]; then
-        CRATE_CHECK_LIMIT=10
-    else
-        CRATE_CHECK_LIMIT=20
-    fi
+    # Assumes that each target has 5 pending crates to build,
+    # that will be 30 runs in total.
+    CRATE_CHECK_LIMIT=5
 
     if ! git config user.name; then
         git config user.email "alsuren+quickinstall@gmail.com"
