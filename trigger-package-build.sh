@@ -68,6 +68,8 @@ main() {
         EXCLUDE_FILE="$(mktemp 2>/dev/null || mktemp -t 'excludes').txt"
         TARGET_ARCH="$TARGET_ARCH" "$REPO_ROOT/print-build-excludes.sh" >"$EXCLUDE_FILE"
 
+        cat "$EXCLUDE_FILE"
+
         if [[ "$RECHECK" != "1" ]]; then
             rm -rf "$TEMPDIR/crates.io-responses"
         fi
