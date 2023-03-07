@@ -36,9 +36,9 @@ POPULAR_CRATES=$(
         grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt
     ) |
         # Remove duplicate lines, remove exclulded crates
-        # Limit max crate to check to CRATE_CHECK_LIMIT, which is set to 1000
+        # Limit max crate to check to CRATE_CHECK_LIMIT, which is set to 20
         # if it is not present.
-        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "${CRATE_CHECK_LIMIT:-1000}" ||
+        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "${CRATE_CHECK_LIMIT:-20}" ||
         # If we don't find anything (package stopped being popular?)
         # then fall back to doing a self-build.
         echo 'cargo-quickinstall'
