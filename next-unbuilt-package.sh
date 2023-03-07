@@ -25,17 +25,23 @@ POPULAR_CRATES=$(
         # always check quickinstall first for `make release`
         echo "cargo-quickinstall"
     fi
-    (./get-stats.sh && cat ./popular-crates.txt) | (
-        grep -v '^#' |
-            grep -v '/' |
-            grep -A1000 --line-regexp "${START_AFTER_CRATE:-.*}" |
-            # drop the first line (the one that matched)
-            tail -n +2 |
-            tail -n "${CRATE_CHECK_LIMIT:=-1000}" ||
-            # If we don't find anything (package stopped being popular?)
-            # then fall back to doing a self-build.
-            echo 'cargo-quickinstall'
-    )
+    (
+        ./get-stats.sh |
+            jq 'keys[]' |
+            grep -F "${TARGET_ARCH}" |
+            cut -d '/' -f 1 |
+            cut -c2-
+
+        # Remove comment and empty lines
+        grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt
+    ) |
+        # Remove duplicate lines, remove exclulded crates
+        # Limit max crate to check to CRATE_CHECK_LIMIT, which is set to 1000
+        # if it is not present.
+        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "${CRATE_CHECK_LIMIT:-1000}" ||
+        # If we don't find anything (package stopped being popular?)
+        # then fall back to doing a self-build.
+        echo 'cargo-quickinstall'
 )
 
 # see crawler policy: https://crates.io/policies
@@ -44,11 +50,6 @@ curl_slowly() {
 }
 
 for CRATE in $POPULAR_CRATES; do
-    if grep --line-regexp "$CRATE" "${EXCLUDE_FILE?}" >/dev/null; then
-        echo "skipping $CRATE because it has failed too many times" 1>&2
-        continue
-    fi
-
     RESPONSE_DIR="$TEMPDIR/crates.io-responses/"
     RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
     if [[ ! -f "$RESPONSE_FILENAME" ]]; then
