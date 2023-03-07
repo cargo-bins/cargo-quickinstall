@@ -35,11 +35,10 @@ POPULAR_CRATES=$(
         # Remove comment and empty lines
         grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt
     ) |
-        # Remove duplicate lines
-        awk '!seen[$0]++' |
+        # Remove duplicate lines, remove exclulded crates
         # Limit max crate to check to CRATE_CHECK_LIMIT, which is set to 1000
         # if it is not present.
-        tail -n "${CRATE_CHECK_LIMIT:=-1000}" ||
+        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "${CRATE_CHECK_LIMIT:-1000}" ||
         # If we don't find anything (package stopped being popular?)
         # then fall back to doing a self-build.
         echo 'cargo-quickinstall'
@@ -51,11 +50,6 @@ curl_slowly() {
 }
 
 for CRATE in $POPULAR_CRATES; do
-    if grep --line-regexp "$CRATE" "${EXCLUDE_FILE?}" >/dev/null; then
-        echo "skipping $CRATE because it has failed too many times" 1>&2
-        continue
-    fi
-
     RESPONSE_DIR="$TEMPDIR/crates.io-responses/"
     RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
     if [[ ! -f "$RESPONSE_FILENAME" ]]; then
