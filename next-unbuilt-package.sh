@@ -65,7 +65,6 @@ for CRATE in $POPULAR_CRATES; do
     else
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" 1>&2
         echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\"}"
-        exit 0
     fi
 done
 # If there's nothing to build, just build ourselves.
