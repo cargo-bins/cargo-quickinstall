@@ -92,7 +92,7 @@ main() {
             CRATE_CHECK_LIMIT="$CRATE_CHECK_LIMIT" \
             "$REPO_ROOT/next-unbuilt-package.sh" |
             # Use `-c` compact mode to output one json output per line
-            jq -c ". + {build_os: \"$BUILD_OS\" , branch: \"$BRANCH\"}" |
+            jq --unbuffered -c ". + {build_os: \"$BUILD_OS\" , branch: \"$BRANCH\"}" |
             # trigger a workflow for each json object
             #  - `-t` to print the cmd to run
             #  - `-0` to avoid removing of the quotation
