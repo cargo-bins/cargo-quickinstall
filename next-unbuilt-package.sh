@@ -22,7 +22,7 @@ RECHECK="${RECHECK:-}"
 
 CRATE_CHECK_LIMIT="${CRATE_CHECK_LIMIT:-20}"
 re='^[0-9]+$'
-if ! [[ $CRATE_CHECK_LIMIT =~ $re ]] ; then
+if ! [[ $CRATE_CHECK_LIMIT =~ $re ]]; then
     CRATE_CHECK_LIMIT=20
 fi
 
