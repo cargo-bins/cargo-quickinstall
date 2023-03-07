@@ -2,7 +2,8 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-GITHUB="https://github.com/cargo-bins/cargo-quickinstall/releases/download"
+REPO="$(git config --get remote.origin.url)"
+GITHUB="${REPO}/releases/download"
 TEMPDIR=/tmp/check-packages
 mkdir -p "$TEMPDIR"
 

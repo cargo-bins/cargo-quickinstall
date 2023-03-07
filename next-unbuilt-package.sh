@@ -49,6 +49,8 @@ curl_slowly() {
     sleep 1 && curl --silent --show-error --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
+REPO="$(git config --get remote.origin.url)"
+
 for CRATE in $POPULAR_CRATES; do
     RESPONSE_DIR="$TEMPDIR/crates.io-responses/"
     RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
@@ -58,7 +60,7 @@ for CRATE in $POPULAR_CRATES; do
     fi
     VERSION=$(jq -r '[ .versions[] | select(.yanked == false) ][0].num' "$RESPONSE_FILENAME")
 
-    if curl_slowly --location --fail -I --output /dev/null "https://github.com/cargo-bins/cargo-quickinstall/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+    if curl_slowly --location --fail -I --output /dev/null "${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." 1>&2
     else
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" 1>&2
