@@ -24,6 +24,9 @@ on:
         required: true
         type: string
 
+concurrency:
+  group: build-package-${{ toJson(github.event.inputs.target_arch) }}
+
 env:
   CRATE: ${{ inputs.crate }}
   TARGET_ARCH: ${{ inputs.target_arch }}
