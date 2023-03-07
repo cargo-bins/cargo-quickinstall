@@ -25,7 +25,7 @@ on:
         type: string
 
 concurrency:
-  group: build-package-${{ github.event.inputs.target_arch }}
+  group: build-package-${{ github.event.inputs.crate }}-${{ github.event.inputs.version }}-${{ github.event.inputs.target_arch }}
 
 env:
   CRATE: ${{ inputs.crate }}
