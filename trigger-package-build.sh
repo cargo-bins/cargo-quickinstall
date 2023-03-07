@@ -56,7 +56,6 @@ main() {
 
         git worktree add --force --force "/tmp/cargo-quickinstall-$TARGET_ARCH"
         cd "/tmp/cargo-quickinstall-$TARGET_ARCH"
-        EXCLUDE_FILE="/tmp/cargo-quickinstall-$TARGET_ARCH/exclude.txt"
 
         if git fetch origin "trigger/$TARGET_ARCH"; then
             git checkout "origin/trigger/$TARGET_ARCH" -B "trigger/$TARGET_ARCH"
@@ -68,18 +67,11 @@ main() {
             git checkout --orphan "trigger/$TARGET_ARCH"
             git rm -r --force .
             git commit -am "Initial Commit" --allow-empty
+            git push origin "trigger/$TARGET_ARCH"
         fi
 
-        if [[ "$RECHECK" == "1" || "${REEXCLUDE:-}" == "1" || ! -f "$EXCLUDE_FILE" ]]; then
-            TARGET_ARCH="$TARGET_ARCH" "$REPO_ROOT/print-build-excludes.sh" >"$EXCLUDE_FILE"
-            git add "$EXCLUDE_FILE"
-            git --no-pager diff HEAD
-            git commit -m "Generate exclude.txt for $TARGET_ARCH" || echo "exclude.txt already up to date. Skipping."
-            git push origin "trigger/$TARGET_ARCH"
-            if [[ "${REEXCLUDE:-}" == "1" ]]; then
-                continue
-            fi
-        fi
+        EXCLUDE_FILE="$(mktemp 2>/dev/null || mktemp -t 'excludes').txt"
+        TARGET_ARCH="$TARGET_ARCH" "$REPO_ROOT/print-build-excludes.sh" >"$EXCLUDE_FILE"
 
         if [[ "$RECHECK" != "1" ]]; then
             rm -rf "$TEMPDIR/crates.io-responses"
