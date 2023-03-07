@@ -33,7 +33,7 @@ main() {
     if [[ "${BRANCH:-}" == "actions" && "${CI:-}" == "true" ]]; then
         CRATE_CHECK_LIMIT=10
     else
-        CRATE_CHECK_LIMIT=1000
+        CRATE_CHECK_LIMIT=20
     fi
 
     if ! git config user.name; then
