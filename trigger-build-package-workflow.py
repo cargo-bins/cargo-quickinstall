@@ -17,6 +17,7 @@ def main():
         if len(line) == 0:
             continue
 
+        print("Trigger workflow with json", line, file=sys.stderr)
         subprocess.run(cmd, input=line.encode(), check=True)
 
 if __name__ == "__main__":
