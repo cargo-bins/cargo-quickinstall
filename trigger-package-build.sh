@@ -94,9 +94,7 @@ main() {
             # Use `-c` compact mode to output one json output per line
             jq --unbuffered -c ". + {build_os: \"$BUILD_OS\" , branch: \"$BRANCH\"}" |
             # trigger a workflow for each json object
-            #  - `-t` to print the cmd to run
-            #  - `-0` to avoid removing of the quotation
-            xargs -L 1 -t -0 "$REPO_ROOT/trigger-build-package-workflow.sh"
+            python3 "$REPO_ROOT/trigger-build-package-workflow.py"
     done
 }
 
