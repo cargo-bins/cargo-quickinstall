@@ -7,11 +7,10 @@ if [ $# != 1 ]; then
 fi
 
 cd "$1"
-mkdir -p "$TARGET_ARCH"
 
-exclude="${TARGET_ARCH}/$(date +'%y-%m-%d')"
+exclude="$(date +'%y-%m-%d')"
 echo "${CRATE}" >>"$exclude"
 git add "$exclude"
 git --no-pager diff HEAD
-git commit -m "Generates \"$exclude\""
+git commit -m "Generates/Updates \"$exclude\""
 exec git push origin "trigger/$TARGET_ARCH"
