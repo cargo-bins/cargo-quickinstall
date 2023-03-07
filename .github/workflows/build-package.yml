@@ -160,3 +160,27 @@ jobs:
           release_name: ${{ inputs.crate }}-${{ inputs.version }}
           body: build ${{ inputs.crate }}@${{ inputs.version }}
           file: ${{ env.BUILD_ARCHIVE }}
+
+  build-popular-package-failure:
+    needs:
+      - build-popular-package
+    if: needs.build-popular-package.result == 'failure'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout trigger branch
+        uses: actions/checkout@v3
+        with:
+          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
+          persist-credentials: true
+          ref: trigger/${{ inputs.target_arch }}
+          path: trigger
+      - name: Checkout trigger commit
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          path: cargo-quickinstall
+      - name: Record failure
+        run: ${{ github.workspace }}/cargo-quickinstall/add-exclude.sh ${{ github.workspace }}/trigger
