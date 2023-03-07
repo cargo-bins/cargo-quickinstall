@@ -43,7 +43,7 @@ POPULAR_CRATES=$(
     ) |
         # Remove duplicate lines, remove exclulded crates
         # Limit max crate to check to 2 * CRATE_CHECK_LIMIT.
-        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "$(( 2 * CRATE_CHECK_LIMIT ))" |
+        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "$((2 * CRATE_CHECK_LIMIT))" |
         shuf -n "${CRATE_CHECK_LIMIT}" ||
         # If we don't find anything (package stopped being popular?)
         # then fall back to doing a self-build.
