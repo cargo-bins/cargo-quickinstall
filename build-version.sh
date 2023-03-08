@@ -35,7 +35,7 @@ install_zig_cc_and_config_to_use_it() {
         fi
 
         mkdir -p zigfolder
-        url="$(curl -q https://ziglang.org/download/index.json | jq "to_entries | map([.key, .value])[1][1][\"${arch}\"] | .tarball" | sed -e 's/^"//' -e 's/"$//')"
+        url="$(curl -q https://ziglang.org/download/index.json | jq -r "to_entries | map([.key, .value])[1][1][\"${arch}\"] | .tarball")"
         curl "$url" | tar -xJ -C zigfolder --strip-components 1
     fi
 
