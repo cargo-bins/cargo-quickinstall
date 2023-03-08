@@ -83,6 +83,11 @@ for file in $BINARIES; do
     fi
 done
 
+if [ -z "$BINARIES" ]; then
+    echo "\`cargo-install\` does not install any binaries!"
+    exit 1
+fi
+
 # Package up the binaries so that they can be untarred in ~/.cargo/bin
 #
 # TODO: maybe we want to make a ~/.cargo-quickinstall/bin to untar into,
