@@ -29,6 +29,9 @@ install_zig_cc_and_config_to_use_it() {
 
     export CC="$PWD/zig.sh"
     export RUSTFLAGS="-C linker=$PWD/zig.sh"
+    # Use our own pkg-config that fails for any input, since we cannot use
+    # locally installed lib in cross-compilation.
+    export PKG_CONFIG="$PWD/pkg-config-cross.sh"
 }
 
 REPO="$(./get-repo.sh)"
@@ -50,7 +53,14 @@ fi
 
 rustup target add "$TARGET_ARCH"
 CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
+CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" \
+    CARGO_PROFILE_RELEASE_LTO="fat" \
+    OPENSSL_STATIC=1 \
+    cargo auditable install "$CRATE" \
+    --version "$VERSION" \
+    --target "$TARGET_ARCH" \
+    --root "$CARGO_ROOT" \
+    --locked
 
 CARGO_BIN_DIR="${CARGO_ROOT}/bin"
 CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
