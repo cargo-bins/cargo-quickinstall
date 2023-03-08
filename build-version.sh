@@ -50,13 +50,13 @@ elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     export PATH="$PWD/zigfolder:$PATH"
     rustup target add "$TARGET_ARCH"
     if ! [ -f "$HOME/.cargo/config" ]; then
-        echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
-        echo "linker = \"$PWD/zig-aarch64.sh\"" >>~/.cargo/config
+        echo "[target.${TARGET_ARCH}]" >>~/.cargo/config
+        echo "linker = \"$PWD/zig.sh\"" >>~/.cargo/config
     fi
 
     CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
 
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig-aarch64.sh" cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig.sh" cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
 
     CARGO_BIN_DIR="${CARGO_ROOT}/bin"
     CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
