@@ -61,8 +61,6 @@ jobs:
       - name: build package
         env:
           TEMPDIR: ${{ env.BUILD_DIR }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euxo pipefail
           # `tar` does not understand mixed forward and backslashes, but mkdir does.

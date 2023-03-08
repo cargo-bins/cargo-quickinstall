@@ -37,7 +37,6 @@ jobs:
       - name: Build Thyself
         env:
           TARGET_ARCH: ${{ matrix.target_arch }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euxo pipefail
           touch .env
@@ -87,7 +86,6 @@ jobs:
       - name: Build cargo-deny
         env:
           TARGET_ARCH: ${{ matrix.target_arch }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euxo pipefail
           touch .env

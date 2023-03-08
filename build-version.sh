@@ -16,10 +16,7 @@ curl_slowly() {
     sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
-REPO="$(gh repo view --json url --jq '.url')"
-# Unset the GH_TOKEN so that the build process cannot grabs the key
-# and do anything with it.
-unset GH_TOKEN
+REPO="$(./get-repo.sh)"
 
 if [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -I --output /dev/null "${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
     echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
