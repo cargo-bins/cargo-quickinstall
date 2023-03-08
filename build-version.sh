@@ -17,6 +17,9 @@ curl_slowly() {
 }
 
 REPO="$(gh repo view --json url --jq '.url')"
+# Unset the GH_TOKEN so that the build process cannot grabs the key
+# and do anything with it.
+unset GH_TOKEN
 
 if [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -I --output /dev/null "${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
     echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
