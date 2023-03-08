@@ -19,12 +19,8 @@ curl_slowly() {
 install_zig_cc_and_config_to_use_it() {
     # Install cargo-zigbuild
     #
-    # We use cargo-zigbuild instead of zig-cc for cargo-zigbuild has a few
-    # workarounds built-in specifically for cargo-build, so that the build
-    # would succeess.
-    #
-    # On x86_64-unknown-linux-musl, @NobodyXu 've encountered and commited
-    # the PR to make the switch.
+    # We use cargo-zigbuild instead of zig-cc for cargo-zigbuild has
+    # built-in for certain quirks when used with cargo-build.
     pip3 install cargo-zigbuild
 
     export CC="$PWD/zig.sh"
