@@ -4,8 +4,8 @@ on:
   pull_request:
 
 jobs:
-  self-build:
-    name: Self-Build
+  self-build-with-build-version:
+    name: Self-Build-With-build-version
     runs-on: ${{ matrix.os }}
     defaults:
       run:
@@ -46,8 +46,34 @@ jobs:
               --fail "https://crates.io/api/v1/crates/cargo-quickinstall" \
               | jq -r '.versions[0].num'
           )"
-          VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-quickinstall
-          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-quickinstall
+          VERSION="$VERSION" ./build-version.sh cargo-quickinstall
+          ALWAYS_BUILD=1 VERSION="$VERSION" ./build-version.sh cargo-quickinstall
+
+  self-build:
+    name: Self-Build
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
+    strategy:
+      matrix:
+        include:
+          - target_arch: x86_64-pc-windows-msvc
+            os: windows-latest
+          - target_arch: x86_64-apple-darwin
+            os: macos-latest
+          - target_arch: aarch64-apple-darwin
+            os: macos-latest
+          - target_arch: x86_64-unknown-linux-gnu
+            os: ubuntu-20.04
+          - target_arch: x86_64-unknown-linux-musl
+            os: ubuntu-20.04
+          - target_arch: aarch64-unknown-linux-gnu
+            os: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)
