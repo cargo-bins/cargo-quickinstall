@@ -16,6 +16,33 @@ curl_slowly() {
     sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
+install_zig_cc_and_config_to_use_it() {
+    # Install zig-cc if it is not installed
+    if ! [ -d zigfolder ]; then
+        build_target="$(rustc -vV | grep host: | cut -d ' ' -f 2)"
+
+        if [ "$build_target" = "aarch64-apple-darwin" ]; then
+            arch="aarch64-macos"
+        elif [ "$build_target" = "x86_64-apple-darwin" ]; then
+            arch="x86_64-macos"
+        elif [ "$build_target" = "x86_64-unknown-linux-gnu" ]; then
+            arch="x86_64-linux"
+        elif [ "$build_target" = "x86_64-unknown-linux-musl" ]; then
+            arch="x86_64-linux"
+        else
+            echo Unsupported zig-cc arch!
+            exit 1
+        fi
+
+        mkdir -p zigfolder
+        url="$(curl -q https://ziglang.org/download/index.json | jq "to_entries | map([.key, .value])[1][1][\"${arch}\"] | .tarball" | sed -e 's/^"//' -e 's/"$//')"
+        curl "$url" | tar -xJ -C zigfolder --strip-components 1
+    fi
+
+    export CC="$PWD/zig.sh"
+    export RUSTFLAGS="-C linker=$PWD/zig.sh"
+}
+
 REPO="$(./get-repo.sh)"
 
 if [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -I --output /dev/null "${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
@@ -43,24 +70,11 @@ if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
 
     CARGO_BIN_DIR="${CARGO_ROOT}/bin"
     CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
-elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
-    mkdir -p zigfolder
-    curl "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" | tar -xJ -C zigfolder --strip-components 1
-
-    export PATH="$PWD/zigfolder:$PATH"
-    rustup target add "$TARGET_ARCH"
-    if ! [ -f "$HOME/.cargo/config" ]; then
-        echo "[target.${TARGET_ARCH}]" >>~/.cargo/config
-        echo "linker = \"$PWD/zig.sh\"" >>~/.cargo/config
+else
+    if [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
+        install_zig_cc_and_config_to_use_it
     fi
 
-    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig.sh" cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
-
-    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
-    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
-else
     rustup target add "$TARGET_ARCH"
     CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
     CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
