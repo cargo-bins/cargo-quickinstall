@@ -44,6 +44,12 @@ if [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     install_zig_cc_and_config_to_use_it
 elif [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
     install_zig_cc_and_config_to_use_it
+elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-musl" ]; then
+    install_zig_cc_and_config_to_use_it
+elif [ "$TARGET_ARCH" == "armv7-unknown-linux-musleabihf" ]; then
+    install_zig_cc_and_config_to_use_it
+elif [ "$TARGET_ARCH" == "armv7-unknown-linux-gnueabihf" ]; then
+    install_zig_cc_and_config_to_use_it
 fi
 
 rustup target add "$TARGET_ARCH"
