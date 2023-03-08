@@ -16,6 +16,19 @@ curl_slowly() {
     sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
+install_zig_cc_and_config_to_use_it() {
+    # Install cargo-zigbuild
+    #
+    # We use cargo-zigbuild instead of zig-cc for cargo-zigbuild has
+    # built-in for certain quirks when used with cargo-build.
+    pip3 install cargo-zigbuild
+
+    export CARGO=cargo-zigbuild
+    # Use our own pkg-config that fails for any input, since we cannot use
+    # locally installed lib in cross-compilation.
+    export PKG_CONFIG="$PWD/pkg-config-cross.sh"
+}
+
 REPO="$(./get-repo.sh)"
 
 if [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -I --output /dev/null "${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
@@ -27,47 +40,25 @@ elif [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -L --output "${TEMPDIR}/
     exit 0
 fi
 
-if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
-    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-
-    # Compiling against musl libc is failing despite installing the musl-tools
-    # deb.  Falling back to Rust's Alpine container whose default target
-    # is x86_64-unknown-linux-musl.
-    #
-    # Use --force to fix the build for cargo-auditable, where cargo-auditable is already
-    # present in the dest.
-    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "set -euxo pipefail; apk update && apk add build-base curl; curl --location --silent --show-error --fail https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-$TARGET_ARCH.tgz | gunzip -c | tar -xvvf -; ./cargo-binstall binstall -y cargo-auditable; rm -f \$CARGO_HOME/.crates.toml \$CARGO_HOME/.crates2.json; CARGO_PROFILE_RELEASE_CODEGEN_UNITS=\"1\" CARGO_PROFILE_RELEASE_LTO=\"fat\" OPENSSL_STATIC=1 cargo auditable install $CRATE --version $VERSION --locked --force"
-    podman cp official-alpine-rust:/usr/local/cargo/.crates2.json "${CARGO_ROOT}/"
-    podman cp official-alpine-rust:/usr/local/cargo/bin "${CARGO_ROOT}/"
-    podman rm -fv official-alpine-rust
-
-    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
-    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
-elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
-    mkdir -p zigfolder
-    curl "$(curl -q https://ziglang.org/download/index.json | jq 'to_entries | map([.key, .value])[1][1]["x86_64-linux"] | .tarball' | sed -e 's/^"//' -e 's/"$//')" | tar -xJ -C zigfolder --strip-components 1
-
-    export PATH="$PWD/zigfolder:$PATH"
-    rustup target add "$TARGET_ARCH"
-    if ! [ -f "$HOME/.cargo/config" ]; then
-        echo "[target.aarch64-unknown-linux-gnu]" >>~/.cargo/config
-        echo "linker = \"$PWD/zig-aarch64.sh\"" >>~/.cargo/config
-    fi
-
-    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 CC="$PWD/zig-aarch64.sh" cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
-
-    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
-    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
-else
-    rustup target add "$TARGET_ARCH"
-    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
-
-    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
-    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
+if [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
+    install_zig_cc_and_config_to_use_it
+elif [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
+    install_zig_cc_and_config_to_use_it
 fi
+
+rustup target add "$TARGET_ARCH"
+CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
+CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" \
+    CARGO_PROFILE_RELEASE_LTO="fat" \
+    OPENSSL_STATIC=1 \
+    cargo-auditable auditable install "$CRATE" \
+    --version "$VERSION" \
+    --target "$TARGET_ARCH" \
+    --root "$CARGO_ROOT" \
+    --locked
+
+CARGO_BIN_DIR="${CARGO_ROOT}/bin"
+CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
 
 BINARIES=$(
     jq -r '
