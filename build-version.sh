@@ -23,8 +23,7 @@ install_zig_cc_and_config_to_use_it() {
     # built-in for certain quirks when used with cargo-build.
     pip3 install cargo-zigbuild
 
-    export CC="$PWD/zig.sh"
-    export RUSTFLAGS="-C linker=$PWD/zig.sh"
+    export CARGO=cargo-zigbuild
     # Use our own pkg-config that fails for any input, since we cannot use
     # locally installed lib in cross-compilation.
     export PKG_CONFIG="$PWD/pkg-config-cross.sh"
@@ -52,7 +51,7 @@ CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
 CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" \
     CARGO_PROFILE_RELEASE_LTO="fat" \
     OPENSSL_STATIC=1 \
-    cargo auditable install "$CRATE" \
+    cargo-auditable auditable install "$CRATE" \
     --version "$VERSION" \
     --target "$TARGET_ARCH" \
     --root "$CARGO_ROOT" \
