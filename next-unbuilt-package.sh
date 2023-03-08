@@ -58,7 +58,7 @@ curl_slowly() {
     sleep 1 && curl --silent --show-error --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
-REPO="$(git config --get remote.origin.url)"
+REPO="$(./get-repo.sh)"
 
 for CRATE in $POPULAR_CRATES; do
     RESPONSE_DIR="$TEMPDIR/crates.io-responses/"

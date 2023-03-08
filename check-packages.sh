@@ -2,7 +2,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-REPO="$(git config --get remote.origin.url)"
+REPO="$(./get-repo.sh)"
 GITHUB="${REPO}/releases/download"
 TEMPDIR=/tmp/check-packages
 mkdir -p "$TEMPDIR"
