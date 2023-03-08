@@ -34,6 +34,9 @@ jobs:
         with:
           tool: cargo-auditable
 
+      - name: Install latest rust
+        run: rustup toolchain install stable --no-self-update --profile minimal
+
       - name: Build Thyself
         env:
           TARGET_ARCH: ${{ matrix.target_arch }}
@@ -74,6 +77,8 @@ jobs:
       - uses: actions/checkout@v3
         with:
           persist-credentials: false
+      - name: Install latest rust
+        run: rustup toolchain install stable --no-self-update --profile minimal
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)
@@ -107,6 +112,9 @@ jobs:
       - uses: taiki-e/install-action@v2
         with:
           tool: cargo-auditable
+
+      - name: Install latest rust
+        run: rustup toolchain install stable --no-self-update --profile minimal
 
       # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
       - name: Build cargo-deny
