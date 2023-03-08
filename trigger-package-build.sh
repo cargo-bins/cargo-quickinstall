@@ -31,7 +31,7 @@ main() {
     # Mostly we want just want it to check a few packages and then fall back to triggering
     # a build of cargo-quickinstall.
     if [[ "${BRANCH:-}" == "actions" && "${CI:-}" == "true" ]]; then
-        CRATE_CHECK_LIMIT=1
+        CRATE_CHECK_LIMIT=3
     else
         # Assumes that each target has 5 pending crates to build,
         # that will be 30 runs in total.
