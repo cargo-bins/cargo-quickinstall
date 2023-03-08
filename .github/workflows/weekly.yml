@@ -1,5 +1,8 @@
 name: Weekly Recheck
 
+concurrency:
+  group: trigger-package-build
+
 # Run every sunday, to recalculate excludes
 on:
   schedule:

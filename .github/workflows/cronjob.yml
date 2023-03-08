@@ -1,5 +1,8 @@
 name: Cronjob
 
+concurrency:
+  group: trigger-package-build
+
 # Run every hour on the hour.
 on:
   schedule:
