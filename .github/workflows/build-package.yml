@@ -167,7 +167,7 @@ jobs:
   build-popular-package-failure:
     needs:
       - build-popular-package
-    if: "contains(needs.*.result, 'failure')"
+    if: ${{ failure() }}
     runs-on: ubuntu-latest
     defaults:
       run:
