@@ -58,6 +58,9 @@ jobs:
         with:
           tool: cargo-auditable
 
+      - name: Install latest rust
+        run: rustup toolchain install stable --no-self-update --profile minimal
+
       - name: build package
         env:
           TEMPDIR: ${{ env.BUILD_DIR }}

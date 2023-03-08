@@ -28,6 +28,9 @@ jobs:
       - name: Run shfmt
         run: ~/go/bin/shfmt --diff *.sh
 
+      - name: Install latest rust
+        run: rustup toolchain install stable --no-self-update --profile minimal --component clippy,rustfmt
+
       - name: Lint
         run: cargo fmt --check
 
@@ -68,6 +71,9 @@ jobs:
       # TODO: actions/cache@v2?
       - name: Fetch source
         uses: actions/checkout@v3
+
+      - name: Install latest rust
+        run: rustup toolchain install stable --no-self-update --profile minimal
 
       - name: Test dry-run
         run: cargo run -- --dry-run cargo-quickinstall
