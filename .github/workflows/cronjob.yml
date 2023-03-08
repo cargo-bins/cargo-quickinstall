@@ -1,5 +1,8 @@
 name: Cronjob
 
+concurrency:
+  group: trigger-package-build
+
 # Run every hour on the hour.
 on:
   schedule:
@@ -21,3 +24,5 @@ jobs:
           set -euo pipefail
           touch .env
           ./trigger-package-build.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

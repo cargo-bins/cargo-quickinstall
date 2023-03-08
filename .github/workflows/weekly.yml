@@ -1,5 +1,8 @@
 name: Weekly Recheck
 
+concurrency:
+  group: trigger-package-build
+
 # Run every sunday, to recalculate excludes
 on:
   schedule:
@@ -24,3 +27,5 @@ jobs:
           set -euo pipefail
           touch .env
           make recheck
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

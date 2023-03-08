@@ -20,6 +20,12 @@ fi
 
 RECHECK="${RECHECK:-}"
 
+CRATE_CHECK_LIMIT="${CRATE_CHECK_LIMIT:-20}"
+re='^[0-9]+$'
+if ! [[ $CRATE_CHECK_LIMIT =~ $re ]]; then
+    CRATE_CHECK_LIMIT=20
+fi
+
 POPULAR_CRATES=$(
     if [ "$RECHECK" == 1 ]; then
         # always check quickinstall first for `make release`
@@ -36,9 +42,12 @@ POPULAR_CRATES=$(
         grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt
     ) |
         # Remove duplicate lines, remove exclulded crates
-        # Limit max crate to check to CRATE_CHECK_LIMIT, which is set to 1000
-        # if it is not present.
-        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "${CRATE_CHECK_LIMIT:-1000}" ||
+        # Limit max crate to check to 2 * CRATE_CHECK_LIMIT so that we can
+        # randomly pick CRATE_CHECK_LIMIT from them, thus having different
+        # POPULAR_CRATES in each run.
+        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "$((2 * CRATE_CHECK_LIMIT))" |
+        # -n specifies number of lines to output
+        shuf -n "${CRATE_CHECK_LIMIT}" ||
         # If we don't find anything (package stopped being popular?)
         # then fall back to doing a self-build.
         echo 'cargo-quickinstall'
@@ -49,6 +58,8 @@ curl_slowly() {
     sleep 1 && curl --silent --show-error --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
+REPO="$(git config --get remote.origin.url)"
+
 for CRATE in $POPULAR_CRATES; do
     RESPONSE_DIR="$TEMPDIR/crates.io-responses/"
     RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
@@ -58,18 +69,10 @@ for CRATE in $POPULAR_CRATES; do
     fi
     VERSION=$(jq -r '[ .versions[] | select(.yanked == false) ][0].num' "$RESPONSE_FILENAME")
 
-    if curl_slowly --location --fail -I --output /dev/null "https://github.com/cargo-bins/cargo-quickinstall/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+    if curl_slowly --location --fail -I --output /dev/null "${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." 1>&2
     else
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" 1>&2
-        echo "::set-output name=crate_to_build::$CRATE"
-        echo "::set-output name=version_to_build::$VERSION"
-        echo "::set-output name=arch_to_build::$TARGET_ARCH"
-        exit 0
+        echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\"}"
     fi
 done
-# If there's nothing to build, just build ourselves.
-VERSION=$(curl_slowly --location --fail "https://crates.io/api/v1/crates/cargo-quickinstall" | jq -r .versions[0].num)
-echo "::set-output name=crate_to_build::cargo-quickinstall"
-echo "::set-output name=version_to_build::$VERSION"
-echo "::set-output name=arch_to_build::$TARGET_ARCH"
