@@ -76,7 +76,3 @@ for CRATE in $POPULAR_CRATES; do
         echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\"}"
     fi
 done
-# If there's nothing to build, just build ourselves.
-VERSION=$(curl_slowly --location --fail "https://crates.io/api/v1/crates/cargo-quickinstall" | jq -r .versions[0].num)
-CRATE=cargo-quickinstall
-echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\"}"
