@@ -67,7 +67,6 @@ main() {
         else
             # New branch with no history. Credit: https://stackoverflow.com/a/13969482
             git checkout --orphan "trigger/$TARGET_ARCH"
-            git rm -r --force .
             git commit -am "Initial Commit" --allow-empty
             git push origin "trigger/$TARGET_ARCH"
         fi
