@@ -17,27 +17,15 @@ curl_slowly() {
 }
 
 install_zig_cc_and_config_to_use_it() {
-    # Install zig-cc if it is not installed
-    if ! [ -d zigfolder ]; then
-        build_target="$(rustc -vV | grep host: | cut -d ' ' -f 2)"
-
-        if [ "$build_target" = "aarch64-apple-darwin" ]; then
-            arch="aarch64-macos"
-        elif [ "$build_target" = "x86_64-apple-darwin" ]; then
-            arch="x86_64-macos"
-        elif [ "$build_target" = "x86_64-unknown-linux-gnu" ]; then
-            arch="x86_64-linux"
-        elif [ "$build_target" = "x86_64-unknown-linux-musl" ]; then
-            arch="x86_64-linux"
-        else
-            echo Unsupported zig-cc arch!
-            exit 1
-        fi
-
-        mkdir -p zigfolder
-        url="$(curl -q https://ziglang.org/download/index.json | jq -r "to_entries | map([.key, .value])[1][1][\"${arch}\"] | .tarball")"
-        curl "$url" | tar -xJ -C zigfolder --strip-components 1
-    fi
+    # Install cargo-zigbuild
+    #
+    # We use cargo-zigbuild instead of zig-cc for cargo-zigbuild has a few
+    # workarounds built-in specifically for cargo-build, so that the build
+    # would succeess.
+    #
+    # On x86_64-unknown-linux-musl, @NobodyXu 've encountered and commited
+    # the PR to make the switch.
+    pip3 install cargo-zigbuild
 
     export CC="$PWD/zig.sh"
     export RUSTFLAGS="-C linker=$PWD/zig.sh"
@@ -54,34 +42,18 @@ elif [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -L --output "${TEMPDIR}/
     exit 0
 fi
 
-if [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
-    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-
-    # Compiling against musl libc is failing despite installing the musl-tools
-    # deb.  Falling back to Rust's Alpine container whose default target
-    # is x86_64-unknown-linux-musl.
-    #
-    # Use --force to fix the build for cargo-auditable, where cargo-auditable is already
-    # present in the dest.
-    podman run --name=official-alpine-rust docker.io/library/rust:alpine sh -c "set -euxo pipefail; apk update && apk add build-base curl; curl --location --silent --show-error --fail https://github.com/cargo-bins/cargo-binstall/releases/latest/download/cargo-binstall-$TARGET_ARCH.tgz | gunzip -c | tar -xvvf -; ./cargo-binstall binstall -y cargo-auditable; rm -f \$CARGO_HOME/.crates.toml \$CARGO_HOME/.crates2.json; CARGO_PROFILE_RELEASE_CODEGEN_UNITS=\"1\" CARGO_PROFILE_RELEASE_LTO=\"fat\" OPENSSL_STATIC=1 cargo auditable install $CRATE --version $VERSION --locked --force"
-    podman cp official-alpine-rust:/usr/local/cargo/.crates2.json "${CARGO_ROOT}/"
-    podman cp official-alpine-rust:/usr/local/cargo/bin "${CARGO_ROOT}/"
-    podman rm -fv official-alpine-rust
-
-    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
-    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
-else
-    if [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
-        install_zig_cc_and_config_to_use_it
-    fi
-
-    rustup target add "$TARGET_ARCH"
-    CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-    CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
-
-    CARGO_BIN_DIR="${CARGO_ROOT}/bin"
-    CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
+if [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
+    install_zig_cc_and_config_to_use_it
+elif [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
+    install_zig_cc_and_config_to_use_it
 fi
+
+rustup target add "$TARGET_ARCH"
+CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
+CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" CARGO_PROFILE_RELEASE_LTO="fat" OPENSSL_STATIC=1 cargo auditable install "$CRATE" --version "$VERSION" --target "$TARGET_ARCH" --root "$CARGO_ROOT" --locked
+
+CARGO_BIN_DIR="${CARGO_ROOT}/bin"
+CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
 
 BINARIES=$(
     jq -r '
