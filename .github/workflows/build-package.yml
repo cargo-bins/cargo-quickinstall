@@ -40,6 +40,7 @@ env:
 
 jobs:
   build-popular-package:
+    name: build-popular-package-${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
     runs-on: ${{ inputs.build_os }}
     permissions: {}
     defaults:
@@ -60,10 +61,10 @@ jobs:
 
       - name: Print inputs
         run: |
-          echo $crate
-          echo $version
-          echo $target_arch
-          echo $features
+          echo $CRATE
+          echo $VERSION
+          echo $TARGET_ARCH
+          echo $FEATURES
 
       - uses: taiki-e/install-action@v2
         with:
