@@ -6,6 +6,13 @@ cd "$(dirname "$0")"
 CRATE=${1?"USAGE: $0 CRATE"}
 date
 
+features="${FEATURES:-}"
+if [ -z "$features" ]; then
+    feature_flag=""
+else
+    feature_flag="--features"
+fi
+
 # FIXME: make a signal handler that cleans this up if we exit early.
 if [ ! -d "${TEMPDIR:-}" ]; then
     TEMPDIR="$(mktemp -d)"
@@ -54,6 +61,7 @@ fi
 
 rustup target add "$TARGET_ARCH"
 CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
+# shellcheck disable=SC2086
 CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" \
     CARGO_PROFILE_RELEASE_LTO="fat" \
     OPENSSL_STATIC=1 \
@@ -61,7 +69,8 @@ CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" \
     --version "$VERSION" \
     --target "$TARGET_ARCH" \
     --root "$CARGO_ROOT" \
-    --locked
+    --locked \
+    $feature_flag $features
 
 CARGO_BIN_DIR="${CARGO_ROOT}/bin"
 CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"

@@ -68,11 +68,16 @@ for CRATE in $POPULAR_CRATES; do
         curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$RESPONSE_FILENAME"
     fi
     VERSION=$(jq -r '.crate|.max_stable_version' "$RESPONSE_FILENAME")
+    FEATURES=$(
+        jq -r ".versions[] | select(.num == \"$VERSION\") | .features | keys[]" "$RESPONSE_FILENAME" |
+            (grep "^vendored-libgit2\|vendored-openssl$" || true) |
+            paste -s -d ',' -
+    )
 
     if curl_slowly --location --fail -I --output /dev/null "${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." 1>&2
     else
         echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" 1>&2
-        echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\"}"
+        echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\", \"features\": \"$FEATURES\"}"
     fi
 done
