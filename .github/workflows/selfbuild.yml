@@ -55,7 +55,7 @@ jobs:
             curl \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
               --fail "https://crates.io/api/v1/crates/cargo-quickinstall" \
-              | jq -r '.versions[0].num'
+              | jq -r '.crate|.max_stable_version'
           )"
           VERSION="$VERSION" ./build-version.sh cargo-quickinstall
           ALWAYS_BUILD=1 VERSION="$VERSION" ./build-version.sh cargo-quickinstall
@@ -139,6 +139,6 @@ jobs:
             curl \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
               --fail "https://crates.io/api/v1/crates/cargo-deny" \
-              | jq -r '.versions[0].num'
+              | jq -r '.crate|.max_stable_version'
           )"
           ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-deny
