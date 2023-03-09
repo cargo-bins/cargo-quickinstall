@@ -47,6 +47,36 @@ elif [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -L --output "${TEMPDIR}/
     exit 0
 fi
 
+# Install llvm
+if [ "${RUNNER_OS?}" == "Windows" ]; then
+    choco install llvm
+elif [ "${RUNNER_OS?}" == "Linux" ]; then
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    brew install llvm
+
+    LLVM_PREFIX="$(brew --prefix llvm)"
+
+    PATH="${LLVM_PREFIX}/bin:${PATH:-}"
+    export PATH
+
+    LD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
+    export LD_LIBRARY_PATH
+elif [ "${RUNNER_OS?}" == "macOS" ]; then
+    brew install llvm
+
+    LLVM_PREFIX="$(brew --prefix llvm)"
+
+    PATH="${LLVM_PREFIX}/bin:${PATH:-}"
+    export PATH
+
+    DYLD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
+    export DYLD_LIBRARY_PATH
+else
+    echo "Unsupported ${RUNNER_OS?}"
+    exit 1
+fi
+
+# Install cargo-zigbuild if necessary
 if [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
     install_zig_cc_and_config_to_use_it
 elif [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
@@ -59,7 +89,10 @@ elif [ "$TARGET_ARCH" == "armv7-unknown-linux-gnueabihf" ]; then
     install_zig_cc_and_config_to_use_it
 fi
 
+# Install rustup target
 rustup target add "$TARGET_ARCH"
+
+# Start building!
 CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
 # shellcheck disable=SC2086
 CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" \
@@ -72,6 +105,7 @@ CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" \
     --locked \
     $feature_flag $features
 
+# Collect binaries
 CARGO_BIN_DIR="${CARGO_ROOT}/bin"
 CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
 
