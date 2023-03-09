@@ -25,7 +25,6 @@ on:
         type: string
       features:
         description: Features to enable
-        required: true
         default: ""
         type: string
 
