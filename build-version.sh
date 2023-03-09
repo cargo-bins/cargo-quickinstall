@@ -53,8 +53,20 @@ if [ "${RUNNER_OS?}" == "Windows" ]; then
 elif [ "${RUNNER_OS?}" == "Linux" ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
     brew install llvm
+
+    PATH="$(brew --prefix llvm)/bin:${PATH}"
+    export PATH
+
+    LD_LIBRARY_PATH="$(brew --prefix llvm)/lib:$LD_LIBRARY_PATH"
+    export LD_LIBRARY_PATH
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
     brew install llvm
+
+    PATH="$(brew --prefix llvm)/bin:${PATH}"
+    export PATH
+
+    DYLD_LIBRARY_PATH="$(brew --prefix llvm)/lib:$LD_LIBRARY_PATH"
+    export DYLD_LIBRARY_PATH
 else
     echo "Unsupported ${RUNNER_OS?}"
     exit 1
