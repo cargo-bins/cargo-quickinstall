@@ -51,6 +51,7 @@ fi
 if [ "${RUNNER_OS?}" == "Windows" ]; then
     choco install llvm
 elif [ "${RUNNER_OS?}" == "Linux" ]; then
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
     brew install llvm
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
     brew install llvm
