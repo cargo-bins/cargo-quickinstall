@@ -54,18 +54,22 @@ elif [ "${RUNNER_OS?}" == "Linux" ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
     brew install llvm
 
-    PATH="$(brew --prefix llvm)/bin:${PATH}"
+    LLVM_PREFIX="$(brew --prefix llvm)"
+
+    PATH="${LLVM_PREFIX}/bin:${PATH:-}"
     export PATH
 
-    LD_LIBRARY_PATH="$(brew --prefix llvm)/lib:$LD_LIBRARY_PATH"
+    LD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
     export LD_LIBRARY_PATH
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
     brew install llvm
 
-    PATH="$(brew --prefix llvm)/bin:${PATH}"
+    LLVM_PREFIX="$(brew --prefix llvm)"
+
+    PATH="${LLVM_PREFIX}/bin:${PATH:-}"
     export PATH
 
-    DYLD_LIBRARY_PATH="$(brew --prefix llvm)/lib:$LD_LIBRARY_PATH"
+    DYLD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
     export DYLD_LIBRARY_PATH
 else
     echo "Unsupported ${RUNNER_OS?}"
