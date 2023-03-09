@@ -35,11 +35,11 @@ env:
   CRATE: ${{ inputs.crate }}
   TARGET_ARCH: ${{ inputs.target_arch }}
   VERSION: ${{ inputs.version }}
+  FEATURES: ${{ inputs.features }}
   BUILD_DIR: ${{ github.workspace }}/built.d
 
 jobs:
   build-popular-package:
-    name: Build
     runs-on: ${{ inputs.build_os }}
     permissions: {}
     defaults:
@@ -57,6 +57,13 @@ jobs:
           persist-credentials: false
           ref: ${{ inputs.branch }}
           path: cargo-quickinstall
+
+      - name: Print inputs
+        run: |
+          echo $crate
+          echo $version
+          echo $target_arch
+          echo $features
 
       - uses: taiki-e/install-action@v2
         with:
