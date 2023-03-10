@@ -42,10 +42,10 @@ POPULAR_CRATES=$(
         grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt
     ) |
         # Remove duplicate lines, remove exclulded crates
-        # Limit max crate to check to 2 * CRATE_CHECK_LIMIT so that we can
+        # Limit max crate to check to 10 * CRATE_CHECK_LIMIT so that we can
         # randomly pick CRATE_CHECK_LIMIT from them, thus having different
         # POPULAR_CRATES in each run.
-        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "$((2 * CRATE_CHECK_LIMIT))" |
+        python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "$((10 * CRATE_CHECK_LIMIT))" |
         # -n specifies number of lines to output
         shuf -n "${CRATE_CHECK_LIMIT}" ||
         # If we don't find anything (package stopped being popular?)
