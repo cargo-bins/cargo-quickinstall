@@ -57,7 +57,7 @@ filter_already_built_crates() {
             echo "crates.io does not have ${CRATE}, continue" >&2
             continue
         fi
-    
+
         url="${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
         if curl_slowly --location --fail -I --output /dev/null "$url"; then
             echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Keep going." >&2
