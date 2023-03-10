@@ -36,15 +36,27 @@ curl_slowly() {
 RESPONSE_DIR="$TEMPDIR/crates.io-responses/"
 mkdir -p "$RESPONSE_DIR"
 
-filter_already_installed_crates() {
+filter_already_built_crates() {
     # shellcheck disable=SC2141
     while IFS='$\n' read -r CRATE; do
         # Fetch crates.io info
         RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
         if [[ ! -f "$RESPONSE_FILENAME" ]]; then
-            curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$RESPONSE_FILENAME"
+            if ! curl_slowly --location --fail "https://crates.io/api/v1/crates/${CRATE}" >"$RESPONSE_FILENAME"; then
+                echo "crates.io does not have ${CRATE}, continue" >&2
+                continue
+            fi
         fi
-        VERSION=$(jq -r '.crate|.max_stable_version' "$RESPONSE_FILENAME")
+        is_valid_json="$(jq 'has("crate") and has("versions")' "$RESPONSE_FILENAME")"
+        if [ "$is_valid_json" != "true" ]; then
+            echo "crates.io does not have ${CRATE}, continue" >&2
+            continue
+        fi
+        VERSION="$(jq -r '.crate|.max_stable_version' "$RESPONSE_FILENAME")"
+        if [ -z "$VERSION" ] || [ "$VERSION" == "null" ]; then
+            echo "crates.io does not have ${CRATE}, continue" >&2
+            continue
+        fi
     
         url="${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
         if curl_slowly --location --fail -I --output /dev/null "$url"; then
@@ -75,8 +87,7 @@ POPULAR_CRATES=$(
         # randomly pick CRATE_CHECK_LIMIT from them, thus having different
         # POPULAR_CRATES in each run.
         python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "$((10 * CRATE_CHECK_LIMIT))" |
-        # Remove crates that are already built
-        filter_already_installed_crates |
+        filter_already_built_crates |
         # -n specifies number of lines to output
         shuf -n "${CRATE_CHECK_LIMIT}" ||
         # If we don't find anything (package stopped being popular?)
