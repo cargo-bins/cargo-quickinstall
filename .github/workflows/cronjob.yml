@@ -26,3 +26,4 @@ jobs:
           ./trigger-package-build.sh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CRATE_CHECK_LIMIT: 10
