@@ -74,7 +74,7 @@ POPULAR_CRATES=$(
                 jq -r 'keys[]' |
                 grep -F "${TARGET_ARCH}" |
                 cut -d '/' -f 1
-        ) || 
+        ) ||
             # If we don't find anything (package stopped being popular?)
             # then fall back to doing a self-build.
             echo 'cargo-quickinstall'
