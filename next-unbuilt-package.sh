@@ -83,7 +83,7 @@ POPULAR_CRATES=$(
         #
         # grep might fail due to broken pipe, where ./dedup-and-exclude.py
         # exits early due to collecting enough output.
-        grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt || echo true
+        grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt || true
 
         if [ "$RECHECK" == 1 ]; then
             # always check quickinstall first for `make release`
