@@ -96,6 +96,11 @@ jobs:
           cargo run -- cargo-quickinstall cargo-nextest@0.9.28
           cargo quickinstall -V
           cargo nextest -V
+        env:
+          # cargo-binstall uses GitHub Restful API to speedup resolution.
+          # The API limits usage for unauthorized users, with a GH_TOKEN,
+          # we can make sure binstall does not get rate limited by GitHub
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Test batch installation with binstall with force
         if: matrix.os != 'windows-latest'
@@ -107,6 +112,11 @@ jobs:
           cargo run -- --force cargo-quickinstall cargo-nextest@0.9.28
           cargo quickinstall -V
           cargo nextest -V
+        env:
+          # cargo-binstall uses GitHub Restful API to speedup resolution.
+          # The API limits usage for unauthorized users, with a GH_TOKEN,
+          # we can make sure binstall does not get rate limited by GitHub
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Test batch installation with curl
         run: |
