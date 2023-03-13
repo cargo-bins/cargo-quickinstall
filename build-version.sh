@@ -92,16 +92,25 @@ rustup target add "$TARGET_ARCH"
 
 # Start building!
 CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
-# shellcheck disable=SC2086
-CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1" \
-    CARGO_PROFILE_RELEASE_LTO="fat" \
-    OPENSSL_STATIC=1 \
+export CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1"
+export CARGO_PROFILE_RELEASE_LTO="fat"
+export OPENSSL_STATIC=1
+
+build_and_install() {
+    # shellcheck disable=SC2086
     cargo-auditable auditable install "$CRATE" \
-    --version "$VERSION" \
-    --target "$TARGET_ARCH" \
-    --root "$CARGO_ROOT" \
-    --locked \
-    $feature_flag $features
+        --version "$VERSION" \
+        --target "$TARGET_ARCH" \
+        --root "$CARGO_ROOT" \
+        ${1:-} \
+        $feature_flag $features
+
+    echo
+}
+
+# Some crates are published without a lockfile, so fallback to no `--locked`
+# just in case of spurious failure.
+build_and_install '--locked' || build_and_install
 
 # Collect binaries
 CARGO_BIN_DIR="${CARGO_ROOT}/bin"
