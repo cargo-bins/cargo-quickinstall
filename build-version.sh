@@ -51,15 +51,13 @@ fi
 if [ "${RUNNER_OS?}" == "Windows" ]; then
     choco install llvm
 elif [ "${RUNNER_OS?}" == "Linux" ]; then
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-    brew install llvm
+    wget -O - https://apt.llvm.org/llvm.sh | sudo bash
+    llvm_prefix="$(find /usr/lib/llvm-* -maxdepth 0 | sort --reverse | head -n 1)"
 
-    LLVM_PREFIX="$(brew --prefix llvm)"
-
-    PATH="${LLVM_PREFIX}/bin:${PATH:-}"
+    PATH="${llvm_prefix}/bin:${PATH}"
     export PATH
 
-    LD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
+    LD_LIBRARY_PATH="$(llvm-config --libdir):${LD_LIBRARY_PATH:-}"
     export LD_LIBRARY_PATH
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
     brew install llvm
