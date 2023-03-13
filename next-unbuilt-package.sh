@@ -71,10 +71,9 @@ POPULAR_CRATES=$(
     (
         (
             ./get-stats.sh |
-                jq 'keys[]' |
+                jq -r 'keys[]' |
                 grep -F "${TARGET_ARCH}" |
-                cut -d '/' -f 1 |
-                cut -c2-
+                cut -d '/' -f 1
         ) || 
             # If we don't find anything (package stopped being popular?)
             # then fall back to doing a self-build.
