@@ -68,19 +68,25 @@ filter_already_built_crates() {
 }
 
 POPULAR_CRATES=$(
-    if [ "$RECHECK" == 1 ]; then
-        # always check quickinstall first for `make release`
-        echo "cargo-quickinstall"
-    fi
     (
-        ./get-stats.sh |
-            jq 'keys[]' |
-            grep -F "${TARGET_ARCH}" |
-            cut -d '/' -f 1 |
-            cut -c2-
+        (
+            ./get-stats.sh |
+                jq 'keys[]' |
+                grep -F "${TARGET_ARCH}" |
+                cut -d '/' -f 1 |
+                cut -c2-
+        ) || 
+            # If we don't find anything (package stopped being popular?)
+            # then fall back to doing a self-build.
+            echo 'cargo-quickinstall'
 
         # Remove comment and empty lines
         grep -v -e '^#' -e '^[[:space:]]*$' ./popular-crates.txt
+
+        if [ "$RECHECK" == 1 ]; then
+            # always check quickinstall first for `make release`
+            echo "cargo-quickinstall"
+        fi
     ) |
         # Remove duplicate lines, remove exclulded crates
         # Limit max crate to check to 4 * CRATE_CHECK_LIMIT so that we can
@@ -89,14 +95,12 @@ POPULAR_CRATES=$(
         python3 ./dedup-and-exclude.py "${EXCLUDE_FILE?}" "$((4 * CRATE_CHECK_LIMIT))" |
         filter_already_built_crates |
         # -n specifies number of lines to output
-        shuf -n "${CRATE_CHECK_LIMIT}" ||
-        # If we don't find anything (package stopped being popular?)
-        # then fall back to doing a self-build.
-        echo 'cargo-quickinstall'
+        shuf -n "${CRATE_CHECK_LIMIT}"
 )
 
 for CRATE in $POPULAR_CRATES; do
     RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
+
     VERSION=$(jq -r '.crate|.max_stable_version' "$RESPONSE_FILENAME")
     FEATURES=$(
         jq -r ".versions[] | select(.num == \"$VERSION\") | .features | keys[]" "$RESPONSE_FILENAME" |
