@@ -87,7 +87,7 @@ POPULAR_CRATES=$(
 
         if [ "$RECHECK" == 1 ]; then
             # always check quickinstall first for `make release`
-            echo "cargo-quickinstall"
+            echo "cargo-quickinstall" || true
         fi
     ) |
         # Remove duplicate lines, remove exclulded crates
