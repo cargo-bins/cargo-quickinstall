@@ -98,7 +98,7 @@ jobs:
       - name: Test batch installation with binstall
         run: |
           set -euxo pipefail
-          cargo run -- cargo-quickinstall cargo-nextest@0.9.28
+          cargo run -- cargo-quickinstall cargo-nextest@0.9.50
           cargo quickinstall -V
           cargo nextest -V
 
@@ -107,14 +107,14 @@ jobs:
           set -euxo pipefail
           echo Rm all binaries installed but do not update manifests,
           echo so that binstall will think they are installed.
-          rm $(which cargo-quickinstall) $(which cargo-nextest@0.9.28)
-          cargo run -- --force cargo-quickinstall cargo-nextest@0.9.28
+          rm $(which cargo-quickinstall) $(which cargo-nextest@0.9.50)
+          cargo run -- --force cargo-quickinstall cargo-nextest@0.9.50
           cargo quickinstall -V
           cargo nextest -V
 
       - name: Test batch installation with curl
         run: |
           set -euxo pipefail
-          cargo run -- --no-binstall cargo-quickinstall cargo-nextest@0.9.28
+          cargo run -- --no-binstall cargo-quickinstall cargo-nextest@0.9.50
           cargo quickinstall -V
           cargo nextest -V
