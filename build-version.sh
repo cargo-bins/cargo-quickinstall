@@ -104,8 +104,6 @@ build_and_install() {
         --root "$CARGO_ROOT" \
         ${1:-} \
         $feature_flag $features
-
-    echo
 }
 
 # Some crates are published without a lockfile, so fallback to no `--locked`
