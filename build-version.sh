@@ -78,7 +78,7 @@ elif [ "${RUNNER_OS?}" == "macOS" ]; then
     PATH="${LLVM_PREFIX}/bin:${PATH:-}"
     export PATH
 
-    LLVM_CONFIG_PATH="${llvm_prefix}/bin/llvm-config"
+    LLVM_CONFIG_PATH="${LLVM_PREFIX}/bin/llvm-config"
     export LLVM_CONFIG_PATH
 
     DYLD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
