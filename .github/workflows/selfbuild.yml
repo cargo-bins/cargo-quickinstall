@@ -3,6 +3,11 @@ name: Self-Build
 on:
   pull_request:
 
+env:
+  SCCACHE_GHA_ENABLED: true
+  RUSTC_WRAPPER: sccache
+  CARGO_INCREMENTAL: 0
+
 jobs:
   self-build-with-build-version:
     name: Self-Build-With-build-version
@@ -44,6 +49,11 @@ jobs:
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
+
+      - name: Configure sccache
+        uses: mozilla-actions/sccache-action@v0.0.2
+        with:
+          version: "v0.4.0-pre.10"
 
       - name: Build Thyself
         env:
@@ -87,6 +97,10 @@ jobs:
           persist-credentials: false
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
+      - name: Configure sccache
+        uses: mozilla-actions/sccache-action@v0.0.2
+        with:
+          version: "v0.4.0-pre.10"
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)
@@ -143,9 +157,6 @@ jobs:
         env:
           TARGET_ARCH: ${{ matrix.target_arch }}
           FEATURES: vendored-openssl,vendored-libgit2
-          SCCACHE_GHA_ENABLED: true
-          RUSTC_WRAPPER: sccache
-          CARGO_INCREMENTAL: 0
         run: |
           set -euxo pipefail
           touch .env
