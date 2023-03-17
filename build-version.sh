@@ -62,8 +62,14 @@ elif [ "${RUNNER_OS?}" == "Linux" ]; then
     PATH="${llvm_prefix}/bin:${PATH}"
     export PATH
 
+    LLVM_CONFIG_PATH="${llvm_prefix}/bin/llvm-config"
+    export LLVM_CONFIG_PATH
+
     LD_LIBRARY_PATH="$(llvm-config --libdir):${LD_LIBRARY_PATH:-}"
     export LD_LIBRARY_PATH
+
+    LLVM_DIR="$(llvm-config --cmakedir)"
+    export LLVM_DIR
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
     brew install llvm
 
@@ -72,8 +78,14 @@ elif [ "${RUNNER_OS?}" == "macOS" ]; then
     PATH="${LLVM_PREFIX}/bin:${PATH:-}"
     export PATH
 
+    LLVM_CONFIG_PATH="${llvm_prefix}/bin/llvm-config"
+    export LLVM_CONFIG_PATH
+
     DYLD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
     export DYLD_LIBRARY_PATH
+
+    LLVM_DIR="$(llvm-config --cmakedir)"
+    export LLVM_DIR
 else
     echo "Unsupported ${RUNNER_OS?}"
     exit 1
