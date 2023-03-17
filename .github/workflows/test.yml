@@ -7,6 +7,11 @@ on:
       - main
   pull_request:
 
+env:
+  SCCACHE_GHA_ENABLED: "true"
+  RUSTC_WRAPPER: "sccache"
+  CARGO_INCREMENTAL: "0"
+
 jobs:
   lint:
     name: Linter
@@ -34,6 +39,11 @@ jobs:
       - name: Lint
         run: cargo fmt --check
 
+      - name: Configure sccache
+        uses: mozilla-actions/sccache-action@v0.0.2
+        with:
+          version: "v0.4.0-pre.10"
+
       - name: Clippy
         run: cargo clippy
 
@@ -51,6 +61,11 @@ jobs:
 
       - name: Fetch tags required for testing
         run: git fetch --tags
+
+      - name: Configure sccache
+        uses: mozilla-actions/sccache-action@v0.0.2
+        with:
+          version: "v0.4.0-pre.10"
 
       - name: Run test
         run: cargo test
@@ -79,6 +94,11 @@ jobs:
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
+
+      - name: Configure sccache
+        uses: mozilla-actions/sccache-action@v0.0.2
+        with:
+          version: "v0.4.0-pre.10"
 
       - name: Test dry-run
         run: cargo run -- --dry-run cargo-quickinstall
