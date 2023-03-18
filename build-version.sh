@@ -116,6 +116,8 @@ export CARGO_PROFILE_RELEASE_LTO="fat"
 export OPENSSL_STATIC=1
 export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 
+export RUST_BACKTRACE=full
+
 echo "PATH=${PATH}"
 rustc -vV
 cargo -vV
