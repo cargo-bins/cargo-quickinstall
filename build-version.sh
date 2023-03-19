@@ -131,7 +131,7 @@ cargo install \
 
 if [ "${RUNNER_OS?}" == "Linux" ]; then
     # shellcheck disable=SC2086
-    strace --follow-forks --trace=%process --columns=200 \
+    strace -f --trace=%process --columns=200 \
         cargo-auditable auditable install "$CRATE" \
         --version "$VERSION" \
         --target "$TARGET_ARCH" \
