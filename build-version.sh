@@ -130,7 +130,13 @@ cargo install \
     cargo-auditable
 
 if [ "${RUNNER_OS?}" == "Linux" ]; then
-    strace build_and_install
+    # shellcheck disable=SC2086
+    strace cargo-auditable auditable install "$CRATE" \
+        --version "$VERSION" \
+        --target "$TARGET_ARCH" \
+        --root "$CARGO_ROOT" \
+        ${1:-} \
+        $feature_flag $features
 fi
 
 # Remove above
