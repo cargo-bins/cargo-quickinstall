@@ -129,6 +129,10 @@ cargo install \
     --branch fix-sccache-again \
     cargo-auditable
 
+if [ "${RUNNER_OS?}" == "Linux" ]; then
+    strace build_and_install
+fi
+
 # Remove above
 
 build_and_install() {
