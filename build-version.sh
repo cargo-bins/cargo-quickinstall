@@ -116,32 +116,6 @@ export CARGO_PROFILE_RELEASE_LTO="fat"
 export OPENSSL_STATIC=1
 export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 
-# Remove below
-
-export RUST_BACKTRACE=full
-
-echo "PATH=${PATH}"
-rustc -vV
-cargo -vV
-
-cargo install \
-    --git https://github.com/rust-secure-code/cargo-auditable \
-    --branch fix-sccache-again \
-    cargo-auditable
-
-if [ "${RUNNER_OS?}" == "Linux" ]; then
-    # shellcheck disable=SC2086
-    strace -f --trace=%process --columns=200 \
-        cargo-auditable auditable install "$CRATE" \
-        --version "$VERSION" \
-        --target "$TARGET_ARCH" \
-        --root "$CARGO_ROOT" \
-        ${1:-} \
-        $feature_flag $features
-fi
-
-# Remove above
-
 build_and_install() {
     # shellcheck disable=SC2086
     cargo-auditable auditable install "$CRATE" \
