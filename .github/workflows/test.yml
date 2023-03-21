@@ -42,7 +42,7 @@ jobs:
       - name: Configure sccache
         uses: mozilla-actions/sccache-action@v0.0.2
         with:
-          version: "v0.4.0-pre.11"
+          version: "v0.4.0"
 
       - name: Clippy
         run: cargo clippy
@@ -65,7 +65,7 @@ jobs:
       - name: Configure sccache
         uses: mozilla-actions/sccache-action@v0.0.2
         with:
-          version: "v0.4.0-pre.11"
+          version: "v0.4.0"
 
       - name: Run test
         run: cargo test
@@ -98,7 +98,7 @@ jobs:
       - name: Configure sccache
         uses: mozilla-actions/sccache-action@v0.0.2
         with:
-          version: "v0.4.0-pre.11"
+          version: "v0.4.0"
 
       - name: Test dry-run
         run: cargo run -- --dry-run cargo-quickinstall
