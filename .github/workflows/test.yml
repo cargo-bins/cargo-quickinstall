@@ -40,9 +40,7 @@ jobs:
         run: cargo fmt --check
 
       - name: Configure sccache
-        uses: mozilla-actions/sccache-action@v0.0.2
-        with:
-          version: "v0.4.0"
+        uses: mozilla-actions/sccache-action@v0.0.3
 
       - name: Clippy
         run: cargo clippy
@@ -63,9 +61,7 @@ jobs:
         run: git fetch --tags
 
       - name: Configure sccache
-        uses: mozilla-actions/sccache-action@v0.0.2
-        with:
-          version: "v0.4.0"
+        uses: mozilla-actions/sccache-action@v0.0.3
 
       - name: Run test
         run: cargo test
@@ -96,9 +92,7 @@ jobs:
         run: rustup toolchain install stable --no-self-update --profile minimal
 
       - name: Configure sccache
-        uses: mozilla-actions/sccache-action@v0.0.2
-        with:
-          version: "v0.4.0"
+        uses: mozilla-actions/sccache-action@v0.0.3
 
       - name: Test dry-run
         run: cargo run -- --dry-run cargo-quickinstall

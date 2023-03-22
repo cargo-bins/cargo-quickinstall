@@ -51,9 +51,7 @@ jobs:
         run: rustup toolchain install stable --no-self-update --profile minimal
 
       - name: Configure sccache
-        uses: mozilla-actions/sccache-action@v0.0.2
-        with:
-          version: "v0.4.0"
+        uses: mozilla-actions/sccache-action@v0.0.3
 
       - name: Build Thyself
         env:
@@ -98,9 +96,7 @@ jobs:
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
       - name: Configure sccache
-        uses: mozilla-actions/sccache-action@v0.0.2
-        with:
-          version: "v0.4.0"
+        uses: mozilla-actions/sccache-action@v0.0.3
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)
@@ -148,9 +144,7 @@ jobs:
         run: rustup toolchain install stable --no-self-update --profile minimal
 
       - name: Configure sccache
-        uses: mozilla-actions/sccache-action@v0.0.2
-        with:
-          version: "v0.4.0"
+        uses: mozilla-actions/sccache-action@v0.0.3
 
       # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
       - name: Build cargo-deny
