@@ -13,6 +13,11 @@ else
     feature_flag="--features"
 fi
 
+no_default_features=""
+if [ "${NO_DEFAULT_FEATURES:-}" = "true" ]; then
+    no_default_features='--no-default-features'
+fi
+
 # FIXME: make a signal handler that cleans this up if we exit early.
 if [ ! -d "${TEMPDIR:-}" ]; then
     TEMPDIR="$(mktemp -d)"
@@ -103,6 +108,7 @@ build_and_install() {
         --target "$TARGET_ARCH" \
         --root "$CARGO_ROOT" \
         ${1:-} \
+        $no_default_features \
         $feature_flag $features
 }
 
