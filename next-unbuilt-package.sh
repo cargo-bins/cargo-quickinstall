@@ -109,7 +109,13 @@ for CRATE in $POPULAR_CRATES; do
             (grep "^vendored-libgit2\|vendored-openssl$" || true) |
             paste -s -d ',' -
     )
+    NO_DEFAULT_FEATURES=""
+
+    if [ "$CRATE" = "gitoxide" ]; then
+        FEATURES='max-pure'
+        NO_DEFAULT_FEATURES='true'
+    fi
 
     echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" >&2
-    echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\", \"features\": \"$FEATURES\"}"
+    echo "{\"crate\": \"$CRATE\", \"version\": \"$VERSION\", \"target_arch\": \"$TARGET_ARCH\", \"features\": \"$FEATURES\", \"no_default_features\": \"$NO_DEFAULT_FEATURES\"}"
 done
