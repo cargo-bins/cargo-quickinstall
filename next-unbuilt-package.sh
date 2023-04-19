@@ -106,7 +106,7 @@ for CRATE in $POPULAR_CRATES; do
     VERSION=$(jq -r '.crate|.max_stable_version' "$RESPONSE_FILENAME")
     FEATURES=$(
         jq -r ".versions[] | select(.num == \"$VERSION\") | .features | keys[]" "$RESPONSE_FILENAME" |
-            (grep "^vendored-libgit2\|vendored-openssl$" || true) |
+            (grep "vendored" || true) |
             paste -s -d ',' -
     )
     NO_DEFAULT_FEATURES=""
