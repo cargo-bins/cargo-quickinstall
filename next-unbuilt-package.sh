@@ -114,6 +114,12 @@ for CRATE in $POPULAR_CRATES; do
     if [ "$CRATE" = "gitoxide" ]; then
         FEATURES='max-pure'
         NO_DEFAULT_FEATURES='true'
+    elif [ "$CRATE" = "sccache" ] && [[ "$TARGET_ARCH" =~ x86_64-unknown-linux-* ]]; then
+        if [ -n "$FEATURES" ]; then
+            FEATURES='dist-server'
+        else
+            FEATURES="${FEATURES},dist-server"
+        fi
     fi
 
     echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" >&2
