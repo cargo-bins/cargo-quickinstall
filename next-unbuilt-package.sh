@@ -117,7 +117,7 @@ for CRATE in $POPULAR_CRATES; do
     elif [ "$CRATE" = "sccache" ] && [[ "$TARGET_ARCH" =~ x86_64-unknown-linux-* ]]; then
         if [ -n "$FEATURES" ]; then
             FEATURES='dist-server'
-        else 
+        else
             FEATURES="${FEATURES},dist-server"
         fi
     fi
