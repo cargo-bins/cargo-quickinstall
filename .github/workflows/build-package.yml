@@ -159,21 +159,7 @@ jobs:
             if ! ../cargo-quickinstall/create_and_upload_tag.sh $CRATE-$VERSION; then
                 echo "$CRATE-$VERSION tag already exists"
             fi
-            if ! ../cargo-quickinstall/create_and_upload_tag.sh $CRATE-$VERSION-$TARGET_ARCH; then
-                echo "$CRATE-$VERSION-$TARGET_ARCH tag already exists"
-                echo 'SKIP_OLD_FORMAT=1' >>$GITHUB_ENV
-            fi
           )
-
-      - name: Releasing assets in old release format
-        uses: svenstaro/upload-release-action@v2
-        if: "! env.SKIP_OLD_FORMAT"
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}
-          release_name: ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}
-          body: build ${{ inputs.crate }}@${{ inputs.version }} on ${{ inputs.target_arch }}
-          file: ${{ env.BUILD_ARCHIVE }}
 
       - name: Releasing assets in new release format
         uses: svenstaro/upload-release-action@v2
