@@ -61,7 +61,10 @@ elif [ "${RUNNER_OS?}" == "Linux" ]; then
     LLVM_CONFIG_PATH="${llvm_prefix}/bin/llvm-config"
     export LLVM_CONFIG_PATH
 
-    LD_LIBRARY_PATH="$(llvm-config --libdir):${LD_LIBRARY_PATH:-}"
+    LIBCLANG_PATH="$(llvm-config --libdir)"
+    export LIBCLANG_PATH
+
+    LD_LIBRARY_PATH="${LIBCLANG_PATH}:${LD_LIBRARY_PATH:-}"
     export LD_LIBRARY_PATH
 
     LLVM_DIR="$(llvm-config --cmakedir)"
@@ -79,6 +82,9 @@ elif [ "${RUNNER_OS?}" == "macOS" ]; then
 
     DYLD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
     export DYLD_LIBRARY_PATH
+
+    LIBCLANG_PATH="$(llvm-config --libdir)"
+    export LIBCLANG_PATH
 
     LLVM_DIR="$(llvm-config --cmakedir)"
     export LLVM_DIR
