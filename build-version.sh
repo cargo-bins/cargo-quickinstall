@@ -121,6 +121,7 @@ build_and_install() {
         --version "$VERSION" \
         --target "$TARGET_ARCH" \
         --root "$CARGO_ROOT" \
+        --locked \
         ${1:-} \
         $no_default_features \
         $feature_flag $features
