@@ -21,6 +21,7 @@
 
 cargo-quickinstall
 cargo-auditable
+cargo-lock
 sensei
 ripgrep
 cargo-make
