@@ -33,7 +33,7 @@ install_zig_cc_and_config_to_use_it() {
     #
     # We use cargo-zigbuild instead of zig-cc for cargo-zigbuild has
     # built-in for certain quirks when used with cargo-build.
-    pip3 install cargo-zigbuild
+    pip3 install -r zigbuild-requirements.txt
 
     export CARGO=cargo-zigbuild
     # Use our own pkg-config that fails for any input, since we cannot use
@@ -122,7 +122,6 @@ build_and_install() {
         --version "$VERSION" \
         --target "$TARGET_ARCH" \
         --root "$CARGO_ROOT" \
-        --locked \
         ${1:-} \
         $no_default_features \
         $feature_flag $features
