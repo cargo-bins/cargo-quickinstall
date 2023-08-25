@@ -46,6 +46,8 @@ semantic-release-cargo
 zellij
 topgrade
 cargo-generate
+cargo-nextest
+cargo-llvm-cov
 ####################################
 b3sum
 bandwhich
