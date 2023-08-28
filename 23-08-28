@@ -27,3 +27,4 @@ cargo-spellcheck
 sccache
 grcov
 cocogitto
+taplo-cli
