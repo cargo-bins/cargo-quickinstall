@@ -42,3 +42,4 @@ dprint
 broot
 cargo-udeps
 cargo-lock
+cargo-bitbake
