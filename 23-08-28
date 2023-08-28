@@ -27,3 +27,4 @@ cargo-generate
 cargo-binstall
 zellij
 cargo-about
+taplo-cli
