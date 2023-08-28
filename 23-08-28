@@ -58,3 +58,4 @@ grcov
 cocogitto
 broot
 cargo-generate
+cargo-udeps
