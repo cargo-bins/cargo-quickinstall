@@ -31,3 +31,4 @@ taplo-cli
 cargo-generate
 broot
 zellij
+cargo-lock
