@@ -51,3 +51,4 @@ taplo-cli
 broot
 cargo-generate
 cargo-bitbake
+cargo-bpf
