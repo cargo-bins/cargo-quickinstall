@@ -60,3 +60,4 @@ cargo-bundle
 sccache
 cargo-bpf
 cargo-nextest
+bandwhich
