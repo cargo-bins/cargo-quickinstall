@@ -64,3 +64,4 @@ broot
 cargo-c
 cargo-bom
 cargo-bitbake
+cargo-bpf
