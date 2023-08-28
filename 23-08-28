@@ -4,3 +4,4 @@ deno
 cargo-lock
 cargo-leptos
 sccache
+cargo-spellcheck
