@@ -12,3 +12,4 @@ taplo-cli
 dprint
 cargo-udeps
 zellij
+cargo-spellcheck
