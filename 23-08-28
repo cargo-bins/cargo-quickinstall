@@ -28,3 +28,4 @@ cargo-binstall
 zellij
 cargo-about
 taplo-cli
+cargo-nextest
