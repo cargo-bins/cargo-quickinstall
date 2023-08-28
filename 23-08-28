@@ -40,3 +40,4 @@ cocogitto
 taplo-cli
 dprint
 broot
+cargo-udeps
