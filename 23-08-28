@@ -37,3 +37,4 @@ wasm-bindgen-cli
 cargo-deny
 cargo-binstall
 taplo-cli
+cargo-binstall
