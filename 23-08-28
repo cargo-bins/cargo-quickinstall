@@ -6,3 +6,4 @@ cargo-leptos
 sccache
 cargo-spellcheck
 cargo-whatfeatures
+deno
