@@ -36,3 +36,4 @@ cargo-spellcheck
 taplo-cli
 cocogitto
 grcov
+dprint
