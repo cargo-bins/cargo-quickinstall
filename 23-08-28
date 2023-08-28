@@ -41,3 +41,4 @@ cargo-binstall
 cargo-generate
 cargo-about
 cargo-deny
+cargo-lock
