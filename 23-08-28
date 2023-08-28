@@ -18,3 +18,4 @@ sccache
 cargo-spellcheck
 cocogitto
 grcov
+taplo-cli
