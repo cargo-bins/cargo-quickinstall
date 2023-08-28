@@ -14,3 +14,4 @@ cargo-deny
 cargo-binstall
 dprint
 sccache
+wasm-bindgen-cli
