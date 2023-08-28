@@ -12,3 +12,4 @@ cargo-spellcheck
 sccache
 cargo-lock
 cargo-spellcheck
+cargo-lock
