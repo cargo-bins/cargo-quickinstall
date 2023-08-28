@@ -7,3 +7,4 @@ cargo-lock
 cargo-spellcheck
 sccache
 cargo-leptos
+deno
