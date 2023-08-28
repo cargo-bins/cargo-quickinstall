@@ -39,3 +39,4 @@ cargo-binstall
 taplo-cli
 cargo-binstall
 cargo-generate
+cargo-about
