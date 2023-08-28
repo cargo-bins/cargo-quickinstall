@@ -18,3 +18,4 @@ sccache
 bottom
 cocogitto
 taplo-cli
+cargo-generate
