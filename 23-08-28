@@ -1,3 +1,4 @@
 cargo-leptos
 sccache
 cargo-lock
+wasm-opt
