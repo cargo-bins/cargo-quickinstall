@@ -4,3 +4,4 @@ taplo-cli
 cargo-deny
 cargo-make
 dprint
+wasm-bindgen-cli
