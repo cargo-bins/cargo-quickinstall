@@ -47,3 +47,4 @@ cargo-spellcheck
 grcov
 cocogitto
 bottom
+cargo-generate
