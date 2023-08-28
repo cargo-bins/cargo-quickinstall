@@ -57,3 +57,4 @@ cargo-bitbake
 grcov
 cocogitto
 broot
+cargo-generate
