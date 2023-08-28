@@ -35,3 +35,4 @@ sccache
 cargo-spellcheck
 taplo-cli
 cocogitto
+grcov
