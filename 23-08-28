@@ -8,3 +8,4 @@ cargo-spellcheck
 sccache
 bottom
 grcov
+taplo-cli
