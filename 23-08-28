@@ -11,3 +11,4 @@ grcov
 taplo-cli
 dprint
 cargo-udeps
+zellij
