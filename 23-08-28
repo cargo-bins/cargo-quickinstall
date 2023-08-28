@@ -35,3 +35,4 @@ cargo-generate
 dprint
 wasm-bindgen-cli
 cargo-deny
+cargo-binstall
