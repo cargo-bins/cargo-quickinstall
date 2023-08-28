@@ -59,3 +59,4 @@ cocogitto
 broot
 cargo-generate
 cargo-udeps
+cargo-bitbake
