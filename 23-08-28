@@ -44,3 +44,4 @@ zellij
 sccache
 cargo-lock
 cargo-spellcheck
+cargo-bitbake
