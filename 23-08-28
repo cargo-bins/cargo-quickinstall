@@ -29,3 +29,4 @@ taplo-cli
 cocogitto
 grcov
 cargo-generate
+cargo-udeps
