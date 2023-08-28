@@ -7,3 +7,4 @@ dprint
 wasm-bindgen-cli
 sccache
 cargo-binstall
+bandwhich
