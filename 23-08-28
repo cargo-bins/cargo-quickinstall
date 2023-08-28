@@ -16,3 +16,4 @@ sccache
 cargo-spellcheck
 bottom
 cargo-lock
+sccache
