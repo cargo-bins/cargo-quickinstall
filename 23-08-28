@@ -7,3 +7,4 @@ diesel_cli
 tbr
 dotenvy
 dtool
+cargo-unused-features
