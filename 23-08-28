@@ -51,3 +51,4 @@ taplo-cli
 cargo-nextest
 sccache
 dprint
+cargo-deny
