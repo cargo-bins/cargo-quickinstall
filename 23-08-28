@@ -50,3 +50,4 @@ cargo-about
 taplo-cli
 cargo-nextest
 sccache
+dprint
