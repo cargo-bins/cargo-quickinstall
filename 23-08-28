@@ -58,3 +58,4 @@ cargo-about
 zellij
 cargo-bundle
 sccache
+cargo-bpf
