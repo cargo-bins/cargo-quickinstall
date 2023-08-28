@@ -77,3 +77,4 @@ cargo-clone
 cargo-c
 cargo-clone-crate
 cargo-bom
+cargo-bpf
