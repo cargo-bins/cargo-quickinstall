@@ -10,3 +10,4 @@ cargo-binstall
 bandwhich
 cargo-make
 cargo-lock
+cargo-deny
