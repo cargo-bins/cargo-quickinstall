@@ -61,3 +61,4 @@ sccache
 cargo-bpf
 cargo-nextest
 bandwhich
+cargo-about
