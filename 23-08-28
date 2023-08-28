@@ -25,3 +25,4 @@ cargo-udeps
 cargo-lock
 sccache
 cargo-spellcheck
+taplo-cli
