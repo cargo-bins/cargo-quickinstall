@@ -7,3 +7,4 @@ dutree
 cargo-lock
 fw
 sqlx-cli
+taskwarrior-tui
