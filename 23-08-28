@@ -33,3 +33,4 @@ cargo-make
 cargo-lock
 cargo-generate
 dprint
+wasm-bindgen-cli
