@@ -33,3 +33,4 @@ cargo-udeps
 zellij
 sccache
 cargo-spellcheck
+taplo-cli
