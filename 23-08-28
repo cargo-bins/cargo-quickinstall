@@ -3,3 +3,4 @@ sccache
 cargo-lock
 wasm-opt
 cargo-whatfeatures
+cargo-lock
