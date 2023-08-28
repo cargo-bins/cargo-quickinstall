@@ -48,3 +48,4 @@ cargo-bitbake
 grcov
 dprint
 taplo-cli
+broot
