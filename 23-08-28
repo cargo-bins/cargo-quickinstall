@@ -25,3 +25,4 @@ cargo-make
 wasm-bindgen-cli
 cargo-generate
 cargo-binstall
+zellij
