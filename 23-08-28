@@ -45,3 +45,4 @@ cargo-lock
 cargo-bitbake
 cargo-spellcheck
 grcov
+cocogitto
