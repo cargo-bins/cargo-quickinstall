@@ -60,3 +60,4 @@ broot
 cargo-generate
 cargo-udeps
 cargo-bitbake
+cargo-bom
