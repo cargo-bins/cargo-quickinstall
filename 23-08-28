@@ -66,3 +66,4 @@ dprint
 broot
 cargo-c
 cargo-bitbake
+cargo-bpf
