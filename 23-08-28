@@ -16,3 +16,4 @@ dprint
 sccache
 wasm-bindgen-cli
 cargo-generate
+taplo-cli
