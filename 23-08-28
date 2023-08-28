@@ -9,3 +9,4 @@ cargo-whatfeatures
 deno
 cargo-lock
 cargo-spellcheck
+sccache
