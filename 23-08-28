@@ -3,3 +3,4 @@ cargo-generate
 taplo-cli
 cargo-deny
 cargo-make
+dprint
