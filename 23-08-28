@@ -22,3 +22,4 @@ sccache
 cargo-nextest
 cargo-lock
 cargo-make
+wasm-bindgen-cli
