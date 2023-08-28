@@ -19,3 +19,4 @@ cargo-generate
 taplo-cli
 dprint
 sccache
+cargo-nextest
