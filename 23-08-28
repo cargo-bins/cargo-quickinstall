@@ -8,3 +8,4 @@ wasm-bindgen-cli
 sccache
 cargo-binstall
 bandwhich
+cargo-make
