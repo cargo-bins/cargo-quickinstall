@@ -20,3 +20,4 @@ taplo-cli
 dprint
 sccache
 cargo-nextest
+cargo-lock
