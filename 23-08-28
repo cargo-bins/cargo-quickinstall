@@ -21,3 +21,4 @@ dprint
 sccache
 cargo-nextest
 cargo-lock
+cargo-make
