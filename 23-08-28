@@ -54,3 +54,4 @@ cargo-udeps
 cargo-bpf
 cargo-bom
 cargo-bitbake
+grcov
