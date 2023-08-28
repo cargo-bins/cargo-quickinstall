@@ -6,3 +6,4 @@ cargo-whatfeatures
 cargo-lock
 cargo-spellcheck
 sccache
+cargo-leptos
