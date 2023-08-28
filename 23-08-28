@@ -18,3 +18,4 @@ cargo-spellcheck
 cargo-lock
 sccache
 cargo-bitbake
+cargo-bitbake
