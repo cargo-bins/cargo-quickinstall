@@ -31,3 +31,4 @@ taplo-cli
 cargo-nextest
 cargo-make
 cargo-lock
+cargo-generate
