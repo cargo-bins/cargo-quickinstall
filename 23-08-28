@@ -15,3 +15,4 @@ cargo-binstall
 dprint
 sccache
 wasm-bindgen-cli
+cargo-generate
