@@ -34,3 +34,4 @@ bottom
 cargo-lock
 sccache
 cargo-spellcheck
+cargo-bitbake
