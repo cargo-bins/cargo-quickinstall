@@ -49,3 +49,4 @@ grcov
 dprint
 taplo-cli
 broot
+cargo-generate
