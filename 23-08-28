@@ -26,3 +26,4 @@ cargo-lock
 sccache
 cargo-spellcheck
 taplo-cli
+cocogitto
