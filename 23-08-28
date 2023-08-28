@@ -6,3 +6,4 @@ fw
 dutree
 cargo-lock
 fw
+sqlx-cli
