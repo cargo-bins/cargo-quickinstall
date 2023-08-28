@@ -3,3 +3,4 @@ cargo-lock
 cocogitto
 cargo-generate
 broot
+taplo-cli
