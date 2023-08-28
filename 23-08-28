@@ -34,3 +34,4 @@ cargo-lock
 cargo-generate
 dprint
 wasm-bindgen-cli
+cargo-deny
