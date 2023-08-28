@@ -26,3 +26,4 @@ wasm-bindgen-cli
 cargo-generate
 cargo-binstall
 zellij
+cargo-about
