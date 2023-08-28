@@ -52,3 +52,4 @@ broot
 cargo-generate
 cargo-bitbake
 cargo-bpf
+cargo-bom
