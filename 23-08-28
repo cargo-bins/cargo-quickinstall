@@ -34,3 +34,4 @@ zellij
 cargo-lock
 cargo-spellcheck
 bottom
+sccache
