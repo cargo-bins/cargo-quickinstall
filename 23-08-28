@@ -44,3 +44,4 @@ cargo-deny
 cargo-lock
 bandwhich
 cargo-nextest
+zellij
