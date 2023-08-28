@@ -4,3 +4,4 @@ bottom
 taplo-cli
 cargo-generate
 zellij
+cargo-spellcheck
