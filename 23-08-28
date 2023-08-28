@@ -32,3 +32,4 @@ cargo-generate
 broot
 zellij
 cargo-lock
+cargo-spellcheck
