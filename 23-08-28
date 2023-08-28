@@ -13,3 +13,4 @@ cargo-unused-features
 tbr
 diesel_cli
 dtool
+cargo-lock
