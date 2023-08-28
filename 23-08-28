@@ -12,3 +12,4 @@ cargo-make
 cargo-lock
 cargo-deny
 cargo-binstall
+dprint
