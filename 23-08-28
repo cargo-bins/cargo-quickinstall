@@ -42,3 +42,4 @@ broot
 cargo-udeps
 zellij
 sccache
+cargo-lock
