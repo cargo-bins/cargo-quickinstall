@@ -2,3 +2,4 @@ sccache
 cargo-lock
 bottom
 taplo-cli
+cargo-generate
