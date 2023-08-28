@@ -7,3 +7,4 @@ zellij
 cargo-spellcheck
 sccache
 bottom
+grcov
