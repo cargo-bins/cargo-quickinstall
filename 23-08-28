@@ -6,3 +6,4 @@ broot
 taplo-cli
 zellij
 cargo-udeps
+cargo-lock
