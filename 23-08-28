@@ -39,3 +39,4 @@ sccache
 cargo-bitbake
 sccache
 cargo-bitbake
+cargo-bom
