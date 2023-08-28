@@ -56,3 +56,4 @@ cargo-bom
 cargo-generate
 dprint
 broot
+cargo-c
