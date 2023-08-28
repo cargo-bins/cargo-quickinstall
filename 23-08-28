@@ -13,3 +13,4 @@ grcov
 dprint
 zellij
 cargo-udeps
+cargo-lock
