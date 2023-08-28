@@ -13,3 +13,4 @@ cargo-lock
 cargo-deny
 cargo-binstall
 dprint
+sccache
