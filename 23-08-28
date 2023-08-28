@@ -10,3 +10,4 @@ bottom
 grcov
 taplo-cli
 dprint
+cargo-udeps
