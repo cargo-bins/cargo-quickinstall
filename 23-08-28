@@ -47,3 +47,4 @@ cargo-spellcheck
 cargo-bitbake
 grcov
 dprint
+taplo-cli
