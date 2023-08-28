@@ -2,3 +2,4 @@ sccache
 cargo-lock
 cocogitto
 cargo-generate
+broot
