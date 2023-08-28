@@ -11,3 +11,4 @@ taskwarrior-tui
 dutree
 cargo-lock
 sqlx-cli
+fw
