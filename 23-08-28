@@ -5,3 +5,4 @@ diesel_cli
 tbr
 dotenvy
 diesel_cli
+cargo-lock
