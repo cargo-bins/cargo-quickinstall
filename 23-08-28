@@ -45,3 +45,4 @@ cargo-lock
 bandwhich
 cargo-nextest
 zellij
+wasm-bindgen-cli
