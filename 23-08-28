@@ -41,3 +41,4 @@ taplo-cli
 dprint
 broot
 cargo-udeps
+cargo-lock
