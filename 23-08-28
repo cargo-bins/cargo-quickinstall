@@ -49,3 +49,4 @@ wasm-bindgen-cli
 cargo-about
 taplo-cli
 cargo-nextest
+sccache
