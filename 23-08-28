@@ -41,3 +41,4 @@ cargo-generate
 broot
 cargo-udeps
 zellij
+sccache
