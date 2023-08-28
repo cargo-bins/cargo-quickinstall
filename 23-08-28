@@ -43,3 +43,4 @@ cargo-udeps
 zellij
 sccache
 cargo-lock
+cargo-spellcheck
