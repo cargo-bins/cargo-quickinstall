@@ -2,3 +2,4 @@ dotenvy
 tbr
 cargo-unused-features
 dtool
+diesel_cli
