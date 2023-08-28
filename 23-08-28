@@ -37,3 +37,4 @@ taplo-cli
 cocogitto
 grcov
 dprint
+cargo-generate
