@@ -28,3 +28,4 @@ cargo-spellcheck
 taplo-cli
 cocogitto
 grcov
+cargo-generate
