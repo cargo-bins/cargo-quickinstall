@@ -13,3 +13,4 @@ dprint
 cargo-udeps
 zellij
 cargo-spellcheck
+cargo-lock
