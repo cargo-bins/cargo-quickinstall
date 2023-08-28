@@ -17,3 +17,4 @@ cargo-lock
 sccache
 bottom
 cocogitto
+taplo-cli
