@@ -6,3 +6,4 @@ cargo-make
 dprint
 wasm-bindgen-cli
 sccache
+cargo-binstall
