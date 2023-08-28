@@ -12,3 +12,4 @@ cocogitto
 grcov
 dprint
 zellij
+cargo-udeps
