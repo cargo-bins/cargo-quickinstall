@@ -33,3 +33,4 @@ cargo-spellcheck
 bottom
 cargo-lock
 sccache
+cargo-spellcheck
