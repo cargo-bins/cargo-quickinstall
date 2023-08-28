@@ -103,8 +103,6 @@ jobs:
         include:
           - target_arch: x86_64-pc-windows-msvc
             os: windows-latest
-          - target_arch: aarch64-pc-windows-msvc
-            os: windows-latest
           - target_arch: armv7-unknown-linux-gnueabihf
             os: ubuntu-20.04
           - target_arch: armv7-unknown-linux-musleabihf
@@ -137,7 +135,6 @@ jobs:
       - name: Build cargo-deny
         env:
           TARGET_ARCH: ${{ matrix.target_arch }}
-          FEATURES: vendored-openssl,vendored-libgit2
         run: |
           set -euxo pipefail
           touch .env
