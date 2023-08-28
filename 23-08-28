@@ -52,3 +52,4 @@ cargo-nextest
 sccache
 dprint
 cargo-deny
+bandwhich
