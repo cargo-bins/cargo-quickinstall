@@ -53,3 +53,4 @@ sccache
 dprint
 cargo-deny
 bandwhich
+cargo-make
