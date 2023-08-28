@@ -30,3 +30,4 @@ cargo-about
 taplo-cli
 cargo-nextest
 cargo-make
+cargo-lock
