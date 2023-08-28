@@ -19,3 +19,4 @@ cargo-spellcheck
 cocogitto
 grcov
 taplo-cli
+dprint
