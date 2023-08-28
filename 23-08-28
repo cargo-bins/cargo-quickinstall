@@ -54,3 +54,4 @@ dprint
 cargo-deny
 bandwhich
 cargo-make
+cargo-about
