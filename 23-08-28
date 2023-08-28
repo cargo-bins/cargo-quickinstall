@@ -21,3 +21,4 @@ taplo-cli
 cargo-generate
 dprint
 zellij
+cargo-udeps
