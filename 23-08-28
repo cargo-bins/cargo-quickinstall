@@ -39,3 +39,4 @@ grcov
 dprint
 cargo-generate
 broot
+cargo-udeps
