@@ -20,3 +20,4 @@ kdash
 binggpt-cli
 nu
 rtx-cli
+cargo-msrv
