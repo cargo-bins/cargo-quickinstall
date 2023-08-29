@@ -41,3 +41,4 @@ youtube-tui
 rtx-cli
 deno
 nu
+cargo-msrv
