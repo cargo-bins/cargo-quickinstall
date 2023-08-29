@@ -38,3 +38,4 @@ cargo-msrv
 deno
 kdash
 youtube-tui
+rtx-cli
