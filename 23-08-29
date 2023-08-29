@@ -34,3 +34,4 @@ kdash
 youtube-tui
 nu
 rtx-cli
+cargo-msrv
