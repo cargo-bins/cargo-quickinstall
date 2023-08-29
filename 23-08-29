@@ -51,3 +51,4 @@ sudo-rs
 sudo-rs
 cargo-raze
 cargo-bitbake
+cargo-bom
