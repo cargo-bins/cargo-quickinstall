@@ -16,3 +16,4 @@ cargo-msrv
 binggpt-cli
 deno
 diesel_cli
+kdash
