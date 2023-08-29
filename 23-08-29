@@ -31,3 +31,4 @@ deno
 diesel_cli
 cargo-msrv
 kdash
+youtube-tui
