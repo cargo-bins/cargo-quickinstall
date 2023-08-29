@@ -44,3 +44,4 @@ nu
 cargo-msrv
 youtube-tui
 rtx-cli
+sudo-rs
