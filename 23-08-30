@@ -32,3 +32,4 @@ cargo-dylint
 partialzip
 cargo-docset
 partialzip
+kondo-ui
