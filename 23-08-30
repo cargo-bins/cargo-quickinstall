@@ -19,3 +19,4 @@ i3status-rs
 mprocs
 cargo-dylint
 i3status-rs
+cargo-docset
