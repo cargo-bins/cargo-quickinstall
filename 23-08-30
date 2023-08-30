@@ -37,3 +37,4 @@ sudo-rs
 cargo-dylint
 kondo-ui
 sudo-rs
+partialzip
