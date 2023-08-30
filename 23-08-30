@@ -17,3 +17,4 @@ meli
 cargo-docset
 i3status-rs
 mprocs
+cargo-dylint
