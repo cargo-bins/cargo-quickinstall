@@ -34,3 +34,4 @@ cargo-docset
 partialzip
 kondo-ui
 sudo-rs
+cargo-dylint
