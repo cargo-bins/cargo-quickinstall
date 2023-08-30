@@ -46,3 +46,4 @@ kondo-ui
 partialzip
 c2rust
 wasmtime-cli
+c2rust
