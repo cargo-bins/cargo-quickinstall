@@ -28,3 +28,4 @@ cargo-bitbake
 sccache
 cargo-spellcheck
 orphic
+nu-completion-script
