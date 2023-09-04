@@ -41,3 +41,4 @@ sccache
 cargo-spellcheck
 sccache
 cargo-spellcheck
+cargo-bom
