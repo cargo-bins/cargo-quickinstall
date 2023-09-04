@@ -30,3 +30,4 @@ cargo-spellcheck
 orphic
 nu-completion-script
 orphic
+cargo-bitbake
