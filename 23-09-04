@@ -37,3 +37,4 @@ cargo-bitbake
 sccache
 cargo-spellcheck
 cargo-bitbake
+sccache
