@@ -12,3 +12,4 @@ ic-wasm
 bottom
 ic-wasm
 cargo-lock
+mprocs
