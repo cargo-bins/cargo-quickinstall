@@ -3,3 +3,4 @@ sonic-server
 cargo-lock
 wasm-bindgen-cli
 cargo-generate
+zellij
