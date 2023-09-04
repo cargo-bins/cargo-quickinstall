@@ -32,3 +32,4 @@ nu-completion-script
 orphic
 cargo-bitbake
 cargo-spellcheck
+sccache
