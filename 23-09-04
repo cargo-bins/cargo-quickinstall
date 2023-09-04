@@ -25,3 +25,4 @@ cargo-lock
 inlyne
 inlyne
 cargo-bitbake
+sccache
