@@ -50,3 +50,4 @@ rtx-cli
 oculante
 kdash
 cargo-bitbake
+cargo-bom
