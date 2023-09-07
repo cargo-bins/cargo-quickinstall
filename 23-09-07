@@ -18,3 +18,4 @@ cargo-spellcheck
 bottom
 bindgen-cli
 cargo-lock
+cargo-spellcheck
