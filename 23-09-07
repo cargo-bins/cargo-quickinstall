@@ -7,3 +7,4 @@ cargo-lock
 sccache
 bindgen-cli
 bottom
+cargo-lock
