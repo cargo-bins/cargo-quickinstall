@@ -1,3 +1,4 @@
 bindgen-cli
 cargo-lock
 sccache
+bindgen-cli
