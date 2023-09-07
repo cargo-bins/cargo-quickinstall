@@ -4,3 +4,4 @@ sccache
 bindgen-cli
 bottom
 cargo-lock
+sccache
