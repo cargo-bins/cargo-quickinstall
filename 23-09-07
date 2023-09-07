@@ -12,3 +12,4 @@ cargo-spellcheck
 sccache
 bindgen-cli
 bottom
+cargo-lock
