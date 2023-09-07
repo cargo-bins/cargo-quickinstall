@@ -8,3 +8,4 @@ sccache
 bindgen-cli
 bottom
 cargo-lock
+cargo-spellcheck
