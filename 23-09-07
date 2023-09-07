@@ -20,3 +20,4 @@ bindgen-cli
 cargo-lock
 cargo-spellcheck
 sccache
+bottom
