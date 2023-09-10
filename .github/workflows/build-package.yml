@@ -210,11 +210,10 @@ jobs:
 
       - name: Sign the tarball
         run: |
-          set -euxo pipefail
-          cat > /tmp/minisign-key <<EOF \
-          ${{ secrets.MINISIGN_PRIVATE_KEY }}
-          EOF
+          echo "$MINISIGN_PRIVATE_KEY" > /tmp/minisign-key
           minisign -S -s /tmp/minisign-key -x $SIG_FILENAME -m $BUILD_ARCHIVE
+        env:
+          MINISIGN_PRIVATE_KEY: ${{ secrets.MINISIGN_PRIVATE_KEY }}
 
       - name: Tag release
         if: "! inputs.skip_upload"
