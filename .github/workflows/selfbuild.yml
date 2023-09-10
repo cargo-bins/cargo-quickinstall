@@ -145,3 +145,13 @@ jobs:
               | jq -r '.crate|.max_stable_version'
           )"
           ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-deny
+
+  build-package-test:
+    name: Build package test
+    uses: ./.github/workflows/build-package.yml
+    with:
+      crate: cargo-quickinstall
+      version: 0.2.9
+      target_arch: x86_64-unknown-linux-gnu
+      build_os: ubuntu-latest
+      branch: ${{ env.GITHUB_HEAD_REF }}
