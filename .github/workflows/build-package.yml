@@ -201,9 +201,10 @@ jobs:
 
       - name: Install minisign
         run: |
+          set -euxo pipefail
           cd /tmp
           curl -L "$URL" | tar -xz
-          mv minisign-linux/x86_64/minisign ~/.local/bin
+          sudo mv minisign-linux/x86_64/minisign /usr/local/bin
         env:
           URL: https://github.com/jedisct1/minisign/releases/download/0.11/minisign-0.11-linux.tar.gz
 
