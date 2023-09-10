@@ -154,4 +154,4 @@ jobs:
       version: 0.2.9
       target_arch: x86_64-unknown-linux-gnu
       build_os: ubuntu-latest
-      branch: ${{ env.GITHUB_HEAD_REF }}
+      branch: ${{ github.head_ref }}
