@@ -209,6 +209,7 @@ jobs:
           minisign -S -s /tmp/minisign-key -x $SIG_FILENAME -m $BUILD_ARCHIVE
 
       - name: Tag release
+        if: "! inputs.skip_upload"
         run: |
           (
             set -euxo pipefail
@@ -219,7 +220,7 @@ jobs:
           )
 
       - name: Releasing assets in new release format
-        if: ! inputs.skip_upload
+        if: "! inputs.skip_upload"
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
