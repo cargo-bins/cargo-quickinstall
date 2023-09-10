@@ -32,7 +32,7 @@ on:
         default: ""
         type: string
       always_build:
-        description: Always build even if it's already present
+        description: Always build even if it's already present, set to 1 to enable this
         default: ""
         type: string
       skip_upload:
@@ -70,7 +70,11 @@ on:
         default: ""
         type: string
       always_build:
-        description: Always build even if it's already present
+        description: Always build even if it's already present, set to 1 to enable this
+        default: ""
+        type: string
+      skip_upload:
+        description: Skip upload
         default: ""
         type: string
 

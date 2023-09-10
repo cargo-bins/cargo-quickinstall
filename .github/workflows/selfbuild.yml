@@ -155,5 +155,5 @@ jobs:
       target_arch: x86_64-unknown-linux-gnu
       build_os: ubuntu-latest
       branch: ${{ github.head_ref }}
-      always_build: true
+      always_build: 1
       skip_upload: true
