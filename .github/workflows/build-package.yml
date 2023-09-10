@@ -31,6 +31,14 @@ on:
         description: Disable default features
         default: ""
         type: string
+      always_build:
+        description: Always build even if it's already present
+        default: ""
+        type: string
+      skip_upload:
+        description: Skip upload
+        default: ""
+        type: string
   workflow_dispatch:
     inputs:
       crate:
@@ -59,6 +67,10 @@ on:
         type: string
       no_default_features:
         description: Disable default features
+        default: ""
+        type: string
+      always_build:
+        description: Always build even if it's already present
         default: ""
         type: string
 
@@ -110,6 +122,7 @@ jobs:
 
       - name: build package
         env:
+          ALWAYS_BUILD: ${{ inputs.always_build }}
           TEMPDIR: ${{ env.BUILD_DIR }}
         run: |
           set -euxo pipefail
@@ -206,6 +219,7 @@ jobs:
           )
 
       - name: Releasing assets in new release format
+        if: ! inputs.skip_upload
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
