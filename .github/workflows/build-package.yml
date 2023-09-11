@@ -1,6 +1,44 @@
 name: Build package
 
 on:
+  workflow_call:
+    inputs:
+      crate:
+        description: Crate to release
+        required: true
+        type: string
+      version:
+        description: Version to release
+        required: true
+        type: string
+      target_arch:
+        description: Target to build against
+        required: true
+        type: string
+      build_os:
+        description: The OS to use for building
+        required: true
+        type: string
+      branch:
+        description: The branch which is checked out
+        required: true
+        type: string
+      features:
+        description: Features to enable
+        default: ""
+        type: string
+      no_default_features:
+        description: Disable default features
+        default: ""
+        type: string
+      always_build:
+        description: Always build even if it's already present, set to 1 to enable this
+        default: ""
+        type: string
+      skip_upload:
+        description: Skip upload
+        default: ""
+        type: string
   workflow_dispatch:
     inputs:
       crate:
@@ -29,6 +67,14 @@ on:
         type: string
       no_default_features:
         description: Disable default features
+        default: ""
+        type: string
+      always_build:
+        description: Always build even if it's already present, set to 1 to enable this
+        default: ""
+        type: string
+      skip_upload:
+        description: Skip upload
         default: ""
         type: string
 
@@ -80,6 +126,7 @@ jobs:
 
       - name: build package
         env:
+          ALWAYS_BUILD: ${{ inputs.always_build }}
           TEMPDIR: ${{ env.BUILD_DIR }}
         run: |
           set -euxo pipefail
@@ -107,12 +154,13 @@ jobs:
   upload-popular-package:
     name: Upload
     needs: build-popular-package
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     defaults:
       run:
         shell: bash
     env:
       BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
+      SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
       - name: Checkout trigger commit
         uses: actions/checkout@v4
@@ -151,7 +199,24 @@ jobs:
           sleep 1m
           exit 1
 
+      - name: Install minisign
+        run: |
+          set -euxo pipefail
+          cd /tmp
+          curl -L "$URL" | tar -xz
+          sudo mv minisign-linux/x86_64/minisign /usr/local/bin
+        env:
+          URL: https://github.com/jedisct1/minisign/releases/download/0.11/minisign-0.11-linux.tar.gz
+
+      - name: Sign the tarball
+        run: |
+          echo "$MINISIGN_PRIVATE_KEY" > /tmp/minisign-key
+          minisign -S -s /tmp/minisign-key -x $SIG_FILENAME -m $BUILD_ARCHIVE
+        env:
+          MINISIGN_PRIVATE_KEY: ${{ secrets.MINISIGN_PRIVATE_KEY }}
+
       - name: Tag release
+        if: "! inputs.skip_upload"
         run: |
           (
             set -euxo pipefail
@@ -162,6 +227,7 @@ jobs:
           )
 
       - name: Releasing assets in new release format
+        if: "! inputs.skip_upload"
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -169,6 +235,23 @@ jobs:
           release_name: ${{ inputs.crate }}-${{ inputs.version }}
           body: build ${{ inputs.crate }}@${{ inputs.version }}
           file: ${{ env.BUILD_ARCHIVE }}
+
+      - name: Releasing assets signature in new release format
+        if: "! inputs.skip_upload"
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ inputs.crate }}-${{ inputs.version }}
+          release_name: ${{ inputs.crate }}-${{ inputs.version }}
+          body: build ${{ inputs.crate }}@${{ inputs.version }}
+          file: ${{ env.SIG_FILENAME }}
+
+      - name: Upload signature
+        uses: actions/upload-artifact@v3
+        with:
+          name: signature
+          path: ${{ env.SIG_FILENAME }}
+          if-no-files-found: error
 
   build-popular-package-failure:
     needs:
