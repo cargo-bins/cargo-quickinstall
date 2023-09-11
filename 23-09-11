@@ -8,3 +8,4 @@ https
 cargo-spellcheck
 ic-wasm
 cargo-lock
+rustgenhash
