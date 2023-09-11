@@ -12,3 +12,4 @@ cargo-whatfeatures
 sccache
 cargo-spellcheck
 cargo-lock
+cargo-whatfeatures
