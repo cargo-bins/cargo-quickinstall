@@ -31,3 +31,4 @@ cargo-lock
 i3status-rs
 cargo-spellcheck
 cargo-spellcheck
+sccache
