@@ -9,3 +9,4 @@ cargo-spellcheck
 ic-wasm
 cargo-lock
 rustgenhash
+meli
