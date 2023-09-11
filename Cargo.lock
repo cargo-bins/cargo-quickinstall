@@ -128,9 +128,9 @@ checksum = "b06a4cde4c0f271a446782e3eff8de789548ce57dbc8eca9292c27f4a42004b4"
 
 [[package]]
 name = "mktemp"
-version = "0.5.0"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4bdc1f74dd7bb717d39f784f844e490d935b3aa7e383008006dbbf29c1f7820a"
+checksum = "69fed8fbcd01affec44ac226784c6476a6006d98d13e33bc0ca7977aaf046bd8"
 dependencies = [
  "uuid",
 ]
@@ -184,9 +184,9 @@ checksum = "9ab95735ea2c8fd51154d01e39cf13912a78071c2d89abc49a7ef102a7dd725a"
 
 [[package]]
 name = "uuid"
-version = "1.2.2"
+version = "1.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "422ee0de9031b5b948b97a8fc04e3aa35230001a722ddd27943e0be31564ce4c"
+checksum = "79daa5ed5740825c40b389c5e50312b9c86df53fccd33f281df655642b43869d"
 dependencies = [
  "getrandom",
 ]
