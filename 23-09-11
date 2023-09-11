@@ -16,3 +16,4 @@ ic-wasm
 meli
 https
 rustgenhash
+cargo-spellcheck
