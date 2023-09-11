@@ -34,3 +34,4 @@ cargo-spellcheck
 sccache
 bottom
 sccache
+cargo-bitbake
