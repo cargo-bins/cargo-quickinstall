@@ -10,3 +10,4 @@ ic-wasm
 cargo-lock
 rustgenhash
 meli
+i3status-rs
