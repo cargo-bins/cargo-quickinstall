@@ -160,7 +160,7 @@ jobs:
         shell: bash
     env:
       BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
-      SIG_FILENAME: ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
+      SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
       - name: Checkout trigger commit
         uses: actions/checkout@v4
@@ -234,7 +234,17 @@ jobs:
           tag: ${{ inputs.crate }}-${{ inputs.version }}
           release_name: ${{ inputs.crate }}-${{ inputs.version }}
           body: build ${{ inputs.crate }}@${{ inputs.version }}
-          file: ${{ env.BUILD_ARCHIVE }} ${{ env.SIG_FILENAME }}
+          file: ${{ env.BUILD_ARCHIVE }}
+
+      - name: Releasing assets signature in new release format
+        if: "! inputs.skip_upload"
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ inputs.crate }}-${{ inputs.version }}
+          release_name: ${{ inputs.crate }}-${{ inputs.version }}
+          body: build ${{ inputs.crate }}@${{ inputs.version }}
+          file: ${{ env.SIG_FILENAME }}
 
       - name: Upload signature
         uses: actions/upload-artifact@v3
