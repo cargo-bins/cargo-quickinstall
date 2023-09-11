@@ -6,3 +6,4 @@ cargo-spellcheck
 sccache
 cargo-whatfeatures
 cargo-lock
+cargo-spellcheck
