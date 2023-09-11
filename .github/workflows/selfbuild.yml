@@ -149,6 +149,7 @@ jobs:
   build-package-test:
     name: Build package test
     uses: ./.github/workflows/build-package.yml
+    secrets: inherit
     with:
       crate: cargo-quickinstall
       version: 0.2.9
