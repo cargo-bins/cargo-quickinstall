@@ -17,3 +17,4 @@ meli
 https
 rustgenhash
 cargo-spellcheck
+cargo-lock
