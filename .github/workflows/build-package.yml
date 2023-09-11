@@ -236,6 +236,13 @@ jobs:
           body: build ${{ inputs.crate }}@${{ inputs.version }}
           file: ${{ env.BUILD_ARCHIVE }} ${{ env.SIG_FILENAME }}
 
+      - name: Upload signature
+        uses: actions/upload-artifact@v3
+        with:
+          name: signature
+          path: ${{ env.SIG_FILENAME }}
+          if-no-files-found: error
+
   build-popular-package-failure:
     needs:
       - build-popular-package
