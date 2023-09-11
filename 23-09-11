@@ -25,3 +25,4 @@ cargo-lock
 rustgenhash
 https
 i3status-rs
+cargo-spellcheck
