@@ -13,3 +13,4 @@ cargo-lock
 wasm-bindgen-cli
 cargo-generate
 zellij
+cargo-lock
