@@ -1,3 +1,4 @@
 fw
 cargo-lock
 dictate
+wasm-bindgen-cli
