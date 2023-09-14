@@ -9,3 +9,4 @@ fw
 wasm-bindgen-cli
 dictate
 zellij
+cargo-lock
