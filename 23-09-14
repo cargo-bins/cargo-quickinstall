@@ -6,3 +6,4 @@ fw
 zellij
 cargo-lock
 fw
+wasm-bindgen-cli
