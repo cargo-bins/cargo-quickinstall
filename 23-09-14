@@ -3,3 +3,4 @@ cargo-lock
 dictate
 wasm-bindgen-cli
 fw
+zellij
