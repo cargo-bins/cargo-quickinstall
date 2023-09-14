@@ -11,3 +11,4 @@ kondo-ui
 kondo-ui
 rtx-cli
 cargo-msrv
+cargo-whatfeatures
