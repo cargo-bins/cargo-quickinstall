@@ -7,3 +7,4 @@ zellij
 cargo-lock
 fw
 wasm-bindgen-cli
+dictate
