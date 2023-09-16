@@ -10,3 +10,4 @@ cargo-leptos
 sccache
 rustic-rs
 bottom
+cargo-lock
