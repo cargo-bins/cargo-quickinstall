@@ -16,3 +16,4 @@ cargo-spellcheck
 bottom
 rustic-rs
 sccache
+cargo-lock
