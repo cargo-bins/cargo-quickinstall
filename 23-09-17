@@ -2,3 +2,4 @@ cargo-bitbake
 cargo-bom
 cargo-public-api
 cargo-leptos
+monolith
