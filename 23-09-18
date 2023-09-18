@@ -6,3 +6,4 @@ cargo-workspaces
 cargo-leptos
 songrec
 bindgen-cli
+mprocs
