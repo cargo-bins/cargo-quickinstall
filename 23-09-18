@@ -28,3 +28,4 @@ bindgen-cli
 cargo-workspaces
 irust
 irust
+cargo-dylint
