@@ -12,3 +12,4 @@ songrec
 speedtest-rs
 irust
 cargo-leptos
+bindgen-cli
