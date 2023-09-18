@@ -19,3 +19,4 @@ cargo-leptos
 songrec
 mprocs
 irust
+bindgen-cli
