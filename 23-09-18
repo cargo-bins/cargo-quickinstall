@@ -11,3 +11,4 @@ cargo-workspaces
 songrec
 speedtest-rs
 irust
+cargo-leptos
