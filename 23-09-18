@@ -24,3 +24,4 @@ mprocs
 irust
 speedtest-rs
 cargo-leptos
+bindgen-cli
