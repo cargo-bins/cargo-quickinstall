@@ -13,3 +13,4 @@ speedtest-rs
 irust
 cargo-leptos
 bindgen-cli
+cargo-workspaces
