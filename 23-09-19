@@ -10,3 +10,4 @@ ic-wasm
 cargo-spellcheck
 cargo-msrv
 sccache
+cargo-lock
