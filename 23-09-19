@@ -14,3 +14,4 @@ cargo-lock
 meli
 cargo-msrv
 cargo-spellcheck
+ic-wasm
