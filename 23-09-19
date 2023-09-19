@@ -12,3 +12,4 @@ cargo-msrv
 sccache
 cargo-lock
 meli
+cargo-msrv
