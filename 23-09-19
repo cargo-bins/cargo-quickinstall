@@ -6,3 +6,4 @@ ic-wasm
 cargo-lock
 sccache
 meli
+ic-wasm
