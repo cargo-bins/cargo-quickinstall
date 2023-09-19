@@ -8,3 +8,4 @@ sccache
 meli
 ic-wasm
 cargo-spellcheck
+cargo-msrv
