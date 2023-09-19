@@ -11,3 +11,4 @@ cargo-spellcheck
 cargo-msrv
 sccache
 cargo-lock
+meli
