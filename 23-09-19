@@ -5,3 +5,4 @@ cargo-msrv
 ic-wasm
 cargo-lock
 sccache
+meli
