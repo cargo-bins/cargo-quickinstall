@@ -4,3 +4,4 @@ sccache
 cargo-msrv
 ic-wasm
 cargo-lock
+sccache
