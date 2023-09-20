@@ -9,3 +9,4 @@ runst
 graphql_client_cli
 seaography-cli
 twitch-tui
+sea-orm-cli
