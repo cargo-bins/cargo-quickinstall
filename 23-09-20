@@ -21,3 +21,4 @@ jql
 graphql_client_cli
 runst
 seaography-cli
+bpf-linker
