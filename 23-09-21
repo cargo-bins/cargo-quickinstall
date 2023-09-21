@@ -25,3 +25,4 @@ cargo-whatfeatures
 orogene
 rtx-cli
 arti
+wasmtime-cli
