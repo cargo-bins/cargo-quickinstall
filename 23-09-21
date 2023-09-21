@@ -36,3 +36,4 @@ rtx-cli
 swc_cli
 cargo-info
 cargo-info
+ic-wasm
