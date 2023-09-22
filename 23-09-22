@@ -6,3 +6,4 @@ wasm-bindgen-cli
 ncspot
 cargo-lock
 exa
+wasm-bindgen-cli
