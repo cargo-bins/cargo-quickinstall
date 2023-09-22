@@ -11,3 +11,4 @@ ncspot
 cargo-lock
 wasm-bindgen-cli
 cargo-generate
+zellij
