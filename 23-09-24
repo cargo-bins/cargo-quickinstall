@@ -16,3 +16,4 @@ wayback-archiver
 cargo-msrv
 hayagriva
 cargo-pgrx
+cargo-dylint
