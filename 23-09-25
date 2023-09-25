@@ -5,3 +5,4 @@ nu
 gpg-tui
 i3status-rs
 nu
+bindgen-cli
