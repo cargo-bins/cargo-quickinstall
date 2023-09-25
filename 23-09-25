@@ -23,3 +23,4 @@ nu
 bindgen-cli
 cargo-leptos
 cargo-workspaces
+mdcat
