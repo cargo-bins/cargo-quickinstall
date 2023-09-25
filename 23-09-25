@@ -16,3 +16,4 @@ gpg-tui
 nu
 bindgen-cli
 mdcat
+cargo-leptos
