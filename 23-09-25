@@ -24,3 +24,4 @@ bindgen-cli
 cargo-leptos
 cargo-workspaces
 mdcat
+cargo-workspaces
