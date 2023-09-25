@@ -18,3 +18,4 @@ bindgen-cli
 mdcat
 cargo-leptos
 i3status-rs
+gpg-tui
