@@ -21,3 +21,4 @@ i3status-rs
 gpg-tui
 nu
 bindgen-cli
+cargo-leptos
