@@ -2,3 +2,4 @@ swc_cli
 swc_cli
 cargo-lock
 sccache
+cargo-spellcheck
