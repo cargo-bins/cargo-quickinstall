@@ -38,3 +38,4 @@ diesel_cli
 cargo-bitbake
 sccache
 bottom
+cargo-bitbake
