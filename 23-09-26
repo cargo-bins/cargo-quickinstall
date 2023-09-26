@@ -18,3 +18,4 @@ pijul
 rustfmt-nightly
 racer
 czkawka_gui
+cargo-binstall
