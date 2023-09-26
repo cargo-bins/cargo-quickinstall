@@ -14,3 +14,4 @@ meli
 cargo-spellcheck
 swc_cli
 meli
+cargo-lock
