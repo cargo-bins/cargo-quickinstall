@@ -11,3 +11,4 @@ swc_cli
 cargo-lock
 sccache
 meli
+cargo-spellcheck
