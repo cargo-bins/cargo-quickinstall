@@ -8,3 +8,4 @@ sccache
 meli
 cargo-spellcheck
 swc_cli
+cargo-lock
