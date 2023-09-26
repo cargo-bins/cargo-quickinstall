@@ -10,3 +10,4 @@ cargo-spellcheck
 swc_cli
 cargo-lock
 sccache
+meli
