@@ -4,3 +4,4 @@ sccache
 wasm-opt
 cargo-lock
 sccache
+cargo-spellcheck
