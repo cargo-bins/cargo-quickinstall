@@ -13,3 +13,4 @@ sea-orm-cli
 deno
 cargo-bitbake
 cargo-bom
+sea-orm-cli
