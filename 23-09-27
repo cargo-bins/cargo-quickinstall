@@ -16,3 +16,4 @@ cargo-bom
 sea-orm-cli
 ncspot
 pleaser
+deno
