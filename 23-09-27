@@ -2,3 +2,4 @@ wasm-opt
 cargo-lock
 sccache
 wasm-opt
+cargo-lock
