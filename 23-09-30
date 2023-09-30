@@ -26,3 +26,4 @@ evcxr_jupyter
 cargo-embed
 cargo-flash
 ast-grep
+evcxr_jupyter
