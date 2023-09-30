@@ -19,3 +19,4 @@ cargo-embed
 oha
 ast-grep
 evcxr_jupyter
+cargo-embed
