@@ -18,3 +18,4 @@ cargo-flash
 cargo-embed
 oha
 ast-grep
+evcxr_jupyter
