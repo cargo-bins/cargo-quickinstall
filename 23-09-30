@@ -25,3 +25,4 @@ ast-grep
 evcxr_jupyter
 cargo-embed
 cargo-flash
+ast-grep
