@@ -17,3 +17,4 @@ cargo-outdated
 skim
 fnm
 cargo-outdated
+cargo-edit
