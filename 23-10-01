@@ -20,3 +20,4 @@ prql-query
 cargo-pgrx
 cargo-pgrx
 cargo-docs
+cargo-public-api
