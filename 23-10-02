@@ -21,3 +21,4 @@ jql
 cargo-msrv
 hurl
 jql
+cargo-dylint
