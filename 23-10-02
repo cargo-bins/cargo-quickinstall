@@ -11,3 +11,4 @@ cargo-docs
 dotenvy
 cargo-lock
 paperclip
+cargo-docs
