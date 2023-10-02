@@ -3,3 +3,4 @@ fw
 fw
 fw
 cargo-lock
+wasm-bindgen-cli
