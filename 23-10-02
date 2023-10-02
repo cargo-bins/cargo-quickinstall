@@ -4,3 +4,4 @@ fw
 fw
 cargo-lock
 wasm-bindgen-cli
+cargo-generate
