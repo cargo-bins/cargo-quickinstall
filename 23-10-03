@@ -19,3 +19,4 @@ cargo-lock
 sccache
 alacritty
 cargo-lock
+cargo-spellcheck
