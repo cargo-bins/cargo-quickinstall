@@ -16,3 +16,4 @@ cargo-spellcheck
 cargo-lock
 sccache
 cargo-lock
+cargo-spellcheck
