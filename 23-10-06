@@ -20,3 +20,4 @@ cargo-spellcheck
 wasm-opt
 cargo-bitbake
 bottom
+sccache
