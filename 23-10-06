@@ -21,3 +21,4 @@ wasm-opt
 cargo-bitbake
 bottom
 sccache
+cargo-bitbake
