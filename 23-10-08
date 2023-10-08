@@ -10,3 +10,4 @@ bindgen-cli
 jetp
 cargo-leptos
 swc_cli
+cargo-leptos
