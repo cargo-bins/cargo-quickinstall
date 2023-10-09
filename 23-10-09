@@ -18,3 +18,4 @@ nu_plugin_gstat
 difftastic
 nu_plugin_gstat
 cargo-codspeed
+cargo-workspaces
