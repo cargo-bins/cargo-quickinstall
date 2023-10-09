@@ -14,3 +14,4 @@ difftastic
 rua
 cargo-workspaces
 cargo-codspeed
+nu_plugin_gstat
