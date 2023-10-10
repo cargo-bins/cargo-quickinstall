@@ -11,3 +11,4 @@ vtracer
 cargo-lock
 cargo-spellcheck
 cargo-pgrx
+sccache
