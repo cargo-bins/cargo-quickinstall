@@ -20,3 +20,4 @@ clippy
 pijul
 pijul
 racer
+rustfmt-nightly
