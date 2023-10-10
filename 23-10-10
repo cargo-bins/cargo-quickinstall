@@ -3,3 +3,4 @@ cargo-pgrx
 cargo-lock
 sccache
 cargo-spellcheck
+cargo-pgrx
