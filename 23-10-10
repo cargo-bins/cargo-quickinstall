@@ -15,3 +15,4 @@ sccache
 vtracer
 cargo-lock
 vtracer
+cargo-pgrx
