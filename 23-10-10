@@ -7,3 +7,4 @@ cargo-pgrx
 sccache
 cargo-lock
 cargo-spellcheck
+vtracer
