@@ -8,3 +8,4 @@ sccache
 cargo-lock
 cargo-spellcheck
 vtracer
+cargo-lock
