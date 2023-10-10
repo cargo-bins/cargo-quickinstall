@@ -6,3 +6,4 @@ clippy
 pijul
 rustfmt-nightly
 clippy
+racer
