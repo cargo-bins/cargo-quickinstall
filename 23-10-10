@@ -31,3 +31,4 @@ volo-cli
 alacritty
 cargo-c
 cargo-spellcheck
+cargo-msrv
