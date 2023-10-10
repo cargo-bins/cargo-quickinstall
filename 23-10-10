@@ -43,3 +43,4 @@ cargo-lock
 sccache
 bottom
 cargo-bitbake
+sccache
