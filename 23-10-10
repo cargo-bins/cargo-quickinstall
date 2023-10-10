@@ -10,3 +10,4 @@ cargo-spellcheck
 vtracer
 cargo-lock
 cargo-spellcheck
+cargo-pgrx
