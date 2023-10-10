@@ -42,3 +42,4 @@ cargo-c
 cargo-lock
 sccache
 bottom
+cargo-bitbake
