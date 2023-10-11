@@ -40,3 +40,4 @@ cargo
 helvum
 cynic-cli
 rustfmt-nightly
+cargo
