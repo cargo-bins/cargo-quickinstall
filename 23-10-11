@@ -41,3 +41,4 @@ helvum
 cynic-cli
 rustfmt-nightly
 cargo
+cargo-bitbake
