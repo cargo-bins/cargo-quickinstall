@@ -16,3 +16,4 @@ wasm-bindgen-cli
 zellij
 cargo-lock
 dua-cli
+cargo-generate
