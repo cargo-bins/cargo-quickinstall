@@ -24,3 +24,4 @@ cargo-generate
 wasm-bindgen-cli
 zellij
 sonic-server
+sqlx-cli
