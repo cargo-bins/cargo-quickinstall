@@ -43,3 +43,4 @@ rustfmt-nightly
 cargo
 cargo-bitbake
 cargo-bom
+cargo-bom
