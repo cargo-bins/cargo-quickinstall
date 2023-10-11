@@ -8,3 +8,4 @@ cargo-lock
 dua-cli
 wasm-bindgen-cli
 cargo-generate
+zellij
