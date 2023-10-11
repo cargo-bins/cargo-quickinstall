@@ -29,3 +29,4 @@ amdgpu_top
 helvum
 cynic-cli
 rustfmt-nightly
+c2rust
