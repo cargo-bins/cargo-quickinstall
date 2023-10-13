@@ -7,3 +7,4 @@ deno
 bindgen-cli
 bindgen-cli
 bindgen-cli
+rerun-cli
