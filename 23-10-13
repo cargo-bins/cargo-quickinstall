@@ -10,3 +10,4 @@ bindgen-cli
 rerun-cli
 rerun-cli
 rerun-cli
+cargo-smart-release
