@@ -18,3 +18,4 @@ lurk-cli
 clippy
 cargo-msrv
 bindgen-cli
+clippy
