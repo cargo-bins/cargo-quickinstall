@@ -21,3 +21,4 @@ bindgen-cli
 clippy
 podcast
 cargo-msrv
+cavif
