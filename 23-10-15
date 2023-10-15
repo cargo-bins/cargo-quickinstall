@@ -47,3 +47,4 @@ release-plz
 scryer-prolog
 rua
 cargo-leptos
+ast-grep
