@@ -8,3 +8,4 @@ mdbook-kroki-preprocessor
 sccache
 cargo-spellcheck
 cargo-lock
+sccache
