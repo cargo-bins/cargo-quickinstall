@@ -16,3 +16,4 @@ cargo-spellcheck
 sccache
 cargo-spellcheck
 cargo-bitbake
+cargo-lock
