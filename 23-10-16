@@ -5,3 +5,4 @@ cargo-lock
 cargo-spellcheck
 cargo-lock
 mdbook-kroki-preprocessor
+sccache
