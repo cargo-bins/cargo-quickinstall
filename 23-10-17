@@ -5,3 +5,4 @@ bootloader_linker
 bootloader_linker
 cargo-generate-rpm
 cargo-generate-rpm
+cargo-generate-rpm
