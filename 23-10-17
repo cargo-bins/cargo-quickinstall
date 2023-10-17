@@ -7,3 +7,4 @@ bindgen-cli
 bottom
 sccache
 cargo-smart-release
+cargo-lock
