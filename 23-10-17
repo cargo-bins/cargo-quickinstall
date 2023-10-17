@@ -20,3 +20,4 @@ bottom
 sccache
 cargo-spellcheck
 cargo-lock
+cargo-smart-release
