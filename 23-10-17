@@ -24,3 +24,4 @@ cargo-lock
 sccache
 cargo-spellcheck
 cargo-spellcheck
+probe-rs
