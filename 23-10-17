@@ -13,3 +13,4 @@ ic-wasm
 cargo-lock
 sccache
 mdcat
+cargo-spellcheck
