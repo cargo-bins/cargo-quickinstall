@@ -15,3 +15,4 @@ cargo-lock
 sccache
 cargo-smart-release
 cargo-spellcheck
+bindgen-cli
