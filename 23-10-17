@@ -27,3 +27,4 @@ cargo-smart-release
 sccache
 cargo-spellcheck
 bottom
+cargo-lock
