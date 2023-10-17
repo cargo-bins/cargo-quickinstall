@@ -9,3 +9,4 @@ ic-wasm
 cargo-lock
 sccache
 mdcat
+ic-wasm
