@@ -10,3 +10,4 @@ recursum
 cargo-lock
 mediatoascii
 recursum
+dotenvy
