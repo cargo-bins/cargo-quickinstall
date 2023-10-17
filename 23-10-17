@@ -32,3 +32,4 @@ probe-rs
 probe-rs
 alacritty
 cargo-udeps
+rg
