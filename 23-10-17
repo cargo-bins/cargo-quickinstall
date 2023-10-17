@@ -17,3 +17,4 @@ cargo-spellcheck
 ic-wasm
 mdcat
 sccache
+cargo-lock
