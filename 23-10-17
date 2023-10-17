@@ -6,3 +6,4 @@ cargo-spellcheck
 sccache
 bottom
 ic-wasm
+cargo-lock
