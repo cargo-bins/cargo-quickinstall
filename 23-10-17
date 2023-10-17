@@ -5,3 +5,4 @@ mdcat
 cargo-spellcheck
 sccache
 bottom
+ic-wasm
