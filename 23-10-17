@@ -16,3 +16,4 @@ mdcat
 cargo-spellcheck
 ic-wasm
 mdcat
+sccache
