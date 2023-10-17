@@ -2,3 +2,4 @@ bindgen-cli
 cargo-lock
 sccache
 cargo-spellcheck
+cargo-smart-release
