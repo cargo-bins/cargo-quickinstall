@@ -3,3 +3,4 @@ bootloader_linker
 bootloader_linker
 bootloader_linker
 bootloader_linker
+cargo-generate-rpm
