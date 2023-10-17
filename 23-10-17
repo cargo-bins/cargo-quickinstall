@@ -23,3 +23,4 @@ ic-wasm
 cargo-lock
 sccache
 cargo-spellcheck
+cargo-spellcheck
