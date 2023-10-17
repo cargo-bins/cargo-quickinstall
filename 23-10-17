@@ -6,3 +6,4 @@ cargo-smart-release
 bindgen-cli
 bottom
 sccache
+cargo-smart-release
