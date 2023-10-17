@@ -30,3 +30,4 @@ bottom
 cargo-lock
 cargo-udeps
 wasm-opt
+cargo-udeps
