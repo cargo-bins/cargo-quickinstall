@@ -33,3 +33,4 @@ wasm-opt
 cargo-udeps
 cargo-udeps
 cargo-bitbake
+cargo-udeps
