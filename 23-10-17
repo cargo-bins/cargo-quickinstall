@@ -36,3 +36,4 @@ rg
 probe-rs
 alacritty
 cargo-udeps
+cargo-bitbake
