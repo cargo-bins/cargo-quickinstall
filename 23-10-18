@@ -14,3 +14,4 @@ pax-cli
 cargo-flash
 probe-rs-cli
 pax-cli
+vtracer
