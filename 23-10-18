@@ -12,3 +12,4 @@ probe-rs-cli
 cargo-flash
 pax-cli
 cargo-flash
+probe-rs-cli
