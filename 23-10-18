@@ -15,3 +15,4 @@ cargo-flash
 probe-rs-cli
 pax-cli
 vtracer
+irust
