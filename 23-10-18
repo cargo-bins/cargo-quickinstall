@@ -32,3 +32,4 @@ evcxr_jupyter
 speedtest-rs
 vtracer
 nu
+mprocs
