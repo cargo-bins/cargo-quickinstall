@@ -5,3 +5,4 @@ probe-rs-cli
 pax-cli
 probe-rs-cli
 vtracer
+cargo-flash
