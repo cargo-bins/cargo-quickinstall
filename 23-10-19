@@ -11,3 +11,4 @@ cargo-bom
 nu
 cargo-bpf
 cargo-bpf
+wasm-opt
