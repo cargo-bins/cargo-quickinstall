@@ -10,3 +10,4 @@ wasmtime-cli
 rtx-cli
 jetp
 jetp
+pfetch
