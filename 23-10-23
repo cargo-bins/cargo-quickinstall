@@ -15,3 +15,4 @@ wasm-bindgen-cli
 cargo-generate
 zellij
 cargo-generate
+wasm-bindgen-cli
