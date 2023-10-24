@@ -12,3 +12,4 @@ cargo-spellcheck
 sccache
 sonic-server
 cargo-udeps
+clippy
