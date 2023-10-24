@@ -40,3 +40,4 @@ hurl
 hurl
 bindgen-cli
 rioterm
+cargo-bitbake
