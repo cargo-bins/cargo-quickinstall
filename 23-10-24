@@ -9,3 +9,4 @@ cargo-udeps
 cargo-lock
 clippy
 cargo-spellcheck
+sccache
