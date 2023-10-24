@@ -42,3 +42,4 @@ bindgen-cli
 rioterm
 cargo-bitbake
 cargo-bom
+bottom
