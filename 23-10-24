@@ -6,3 +6,4 @@ sccache
 cargo-spellcheck
 sonic-server
 cargo-udeps
+cargo-lock
