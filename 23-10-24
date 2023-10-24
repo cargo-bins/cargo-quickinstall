@@ -14,3 +14,4 @@ sonic-server
 cargo-udeps
 clippy
 sccache
+cargo-lock
