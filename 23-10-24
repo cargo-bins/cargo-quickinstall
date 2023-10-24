@@ -17,3 +17,4 @@ sccache
 cargo-lock
 sonic-server
 cargo-spellcheck
+cargo-udeps
