@@ -10,3 +10,4 @@ cargo-lock
 clippy
 cargo-spellcheck
 sccache
+sonic-server
