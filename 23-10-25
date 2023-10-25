@@ -11,3 +11,4 @@ polars-cli
 ruff
 nu_plugin_gstat
 cargo-leptos
+polars-cli
