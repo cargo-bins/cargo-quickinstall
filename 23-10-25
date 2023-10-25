@@ -9,3 +9,4 @@ nu_plugin_gstat
 ruff
 polars-cli
 ruff
+nu_plugin_gstat
