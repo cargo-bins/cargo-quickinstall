@@ -19,3 +19,4 @@ nu_plugin_gstat
 nu_plugin_gstat
 mdbook-kroki-preprocessor
 cargo-bpf
+cargo-bom
