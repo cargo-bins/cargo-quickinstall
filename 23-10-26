@@ -6,3 +6,4 @@ yazi-fm
 bottom
 cargo-udeps
 cargo-spellcheck
+sccache
