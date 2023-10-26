@@ -16,3 +16,4 @@ cargo-spellcheck
 sccache
 yazi-fm
 bottom
+cargo-udeps
