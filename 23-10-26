@@ -20,3 +20,4 @@ cargo-udeps
 sccache
 cargo-lock
 cargo-spellcheck
+yazi-fm
