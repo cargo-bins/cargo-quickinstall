@@ -28,3 +28,4 @@ cargo-spellcheck
 sccache
 bottom
 cargo-udeps
+cargo-bitbake
