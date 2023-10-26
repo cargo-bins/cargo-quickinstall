@@ -27,3 +27,4 @@ cargo-lock
 cargo-spellcheck
 sccache
 bottom
+cargo-udeps
