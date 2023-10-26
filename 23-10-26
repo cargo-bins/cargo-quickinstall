@@ -8,3 +8,4 @@ cargo-udeps
 cargo-spellcheck
 sccache
 cargo-lock
+bottom
