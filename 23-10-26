@@ -24,3 +24,4 @@ yazi-fm
 bottom
 cargo-udeps
 cargo-lock
+cargo-spellcheck
