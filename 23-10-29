@@ -12,3 +12,4 @@ cargo-workspaces
 cargo-lock
 cargo-workspaces
 cargo-lock
+dioxus-cli
