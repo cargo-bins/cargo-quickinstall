@@ -5,3 +5,4 @@ cargo-workspaces
 cargo-workspaces
 cargo-lock
 cargo-generate-rpm
+cargo-lock
