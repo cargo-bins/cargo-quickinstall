@@ -9,3 +9,4 @@ cargo-lock
 cargo-workspaces
 cargo-generate-rpm
 cargo-workspaces
+cargo-lock
