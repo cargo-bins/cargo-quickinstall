@@ -4,3 +4,4 @@ bindgen-cli
 bindgen-cli
 cargo-bom
 cargo-bpf
+cargo-bpf
