@@ -30,3 +30,4 @@ sccache
 cargo-lock
 cargo-spellcheck
 tectonic
+cargo-udeps
