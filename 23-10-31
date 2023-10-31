@@ -28,3 +28,4 @@ sonic-server
 cargo-udeps
 sccache
 cargo-lock
+cargo-spellcheck
