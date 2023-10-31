@@ -10,3 +10,4 @@ cargo-lock
 sccache
 sonic-server
 zee
+cargo-spellcheck
