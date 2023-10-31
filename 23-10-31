@@ -5,3 +5,4 @@ sonic-server
 sccache
 cargo-spellcheck
 bottom
+cargo-udeps
