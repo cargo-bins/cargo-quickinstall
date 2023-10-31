@@ -16,3 +16,4 @@ cargo-udeps
 zee
 sonic-server
 cargo-lock
+sccache
