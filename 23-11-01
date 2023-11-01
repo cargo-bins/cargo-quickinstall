@@ -2,3 +2,4 @@ irust
 termusic
 wasmtime-cli
 cargo-bitbake
+cargo-bom
