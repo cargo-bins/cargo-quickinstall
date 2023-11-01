@@ -10,3 +10,4 @@ bindgen-cli
 wasmtime-cli
 termusic
 irust
+bindgen-cli
