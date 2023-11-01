@@ -16,3 +16,4 @@ racer
 rustfmt-nightly
 pijul
 racer
+cargo-lock
