@@ -20,3 +20,4 @@ wasmtime-cli
 termusic
 irust
 xplr
+bindgen-cli
