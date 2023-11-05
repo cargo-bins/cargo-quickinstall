@@ -13,3 +13,4 @@ serve-dav
 cargo-lock
 dua
 rserve
+dua-cli
