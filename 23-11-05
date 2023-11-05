@@ -4,3 +4,4 @@ cargo-lock
 alacritty
 cargo-spellcheck
 bottom
+cargo-udeps
