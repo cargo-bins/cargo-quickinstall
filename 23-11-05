@@ -16,3 +16,4 @@ rserve
 dua-cli
 serve-dav
 dua
+cargo-lock
