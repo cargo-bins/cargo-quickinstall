@@ -32,3 +32,4 @@ irust
 evcxr
 cargo-spellcheck
 bottom
+cargo-udeps
