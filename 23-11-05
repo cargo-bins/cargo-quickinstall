@@ -12,3 +12,4 @@ cargo-lock
 rtx-cli
 alacritty
 rtx-cli
+cargo-lock
