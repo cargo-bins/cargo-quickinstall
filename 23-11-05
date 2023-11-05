@@ -2,3 +2,4 @@ alacritty
 rtx-cli
 cargo-lock
 alacritty
+cargo-spellcheck
