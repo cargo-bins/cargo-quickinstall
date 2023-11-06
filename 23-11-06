@@ -4,3 +4,4 @@ cargo-udeps
 cargo-spellcheck
 bottom
 cargo-udeps
+cargo-bitbake
