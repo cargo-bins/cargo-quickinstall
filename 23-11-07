@@ -6,3 +6,4 @@ cargo-binstall
 cargo-about
 dprint
 cargo-deny
+dua-cli
