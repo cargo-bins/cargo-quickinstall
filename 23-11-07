@@ -30,3 +30,4 @@ dua-cli
 cargo-about
 dprint
 cargo-generate
+cargo-deny
