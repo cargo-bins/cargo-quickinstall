@@ -1,3 +1,4 @@
 rioterm
 cargo-lock
 sonic-server
+swc_cli
