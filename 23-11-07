@@ -32,3 +32,4 @@ dprint
 cargo-generate
 cargo-deny
 bandwhich
+cargo-binstall
