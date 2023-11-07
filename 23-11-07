@@ -23,3 +23,4 @@ cargo-lock
 sccache
 bottom
 cargo-udeps
+sccache
