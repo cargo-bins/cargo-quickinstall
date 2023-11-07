@@ -4,3 +4,4 @@ sonic-server
 swc_cli
 rioterm
 sccache
+cargo-spellcheck
