@@ -11,3 +11,4 @@ cargo-about
 cargo-generate
 cargo-lock
 zellij
+dprint
