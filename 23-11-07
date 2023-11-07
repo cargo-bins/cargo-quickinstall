@@ -48,3 +48,4 @@ zellij
 cargo-binstall
 bandwhich
 dprint
+cargo-deny
