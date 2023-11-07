@@ -7,3 +7,4 @@ sccache
 cargo-spellcheck
 cargo-lock
 bottom
+cargo-udeps
