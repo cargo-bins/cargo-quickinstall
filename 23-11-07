@@ -46,3 +46,4 @@ cargo-lock
 sccache
 zellij
 cargo-binstall
+bandwhich
