@@ -5,3 +5,4 @@ rmesg
 cargo-binstall
 cargo-about
 dprint
+cargo-deny
