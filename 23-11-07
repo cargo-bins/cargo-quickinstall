@@ -19,3 +19,4 @@ cargo-generate
 dua-cli
 sccache
 rmesg
+cargo-lock
