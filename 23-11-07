@@ -16,3 +16,4 @@ cargo-binstall
 cargo-deny
 cargo-about
 cargo-generate
+dua-cli
