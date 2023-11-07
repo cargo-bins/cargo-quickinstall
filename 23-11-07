@@ -22,3 +22,4 @@ rmesg
 cargo-lock
 dprint
 bandwhich
+zellij
