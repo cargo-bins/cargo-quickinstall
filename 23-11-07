@@ -38,3 +38,4 @@ cargo-about
 rmesg
 cargo-binstall
 bandwhich
+cargo-generate
