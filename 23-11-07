@@ -13,3 +13,4 @@ cargo-lock
 zellij
 dprint
 cargo-binstall
+cargo-deny
