@@ -42,3 +42,4 @@ cargo-generate
 sccache
 cargo-deny
 zellij
+cargo-lock
