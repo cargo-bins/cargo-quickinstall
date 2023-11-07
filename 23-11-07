@@ -49,3 +49,4 @@ cargo-binstall
 bandwhich
 dprint
 cargo-deny
+cargo-lock
