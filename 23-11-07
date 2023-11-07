@@ -2,3 +2,4 @@ dua-cli
 rmesg
 cargo-generate
 rmesg
+cargo-binstall
