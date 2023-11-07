@@ -5,3 +5,4 @@ swc_cli
 rioterm
 sccache
 cargo-spellcheck
+cargo-lock
