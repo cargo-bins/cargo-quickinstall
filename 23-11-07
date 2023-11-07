@@ -41,3 +41,4 @@ bandwhich
 cargo-generate
 sccache
 cargo-deny
+zellij
