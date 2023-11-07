@@ -14,3 +14,4 @@ zellij
 dprint
 cargo-binstall
 cargo-deny
+cargo-about
