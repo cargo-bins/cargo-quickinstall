@@ -21,3 +21,4 @@ sccache
 rmesg
 cargo-lock
 dprint
+bandwhich
