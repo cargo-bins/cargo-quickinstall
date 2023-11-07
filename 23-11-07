@@ -27,3 +27,4 @@ sccache
 cargo-spellcheck
 bottom
 cargo-udeps
+cargo-bitbake
