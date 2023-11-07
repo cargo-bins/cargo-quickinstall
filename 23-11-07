@@ -28,3 +28,4 @@ rmesg
 sccache
 dua-cli
 cargo-about
+dprint
