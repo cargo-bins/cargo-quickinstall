@@ -40,3 +40,4 @@ cargo-binstall
 bandwhich
 cargo-generate
 sccache
+cargo-deny
