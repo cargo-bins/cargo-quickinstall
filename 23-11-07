@@ -50,3 +50,4 @@ bandwhich
 dprint
 cargo-deny
 cargo-lock
+sccache
