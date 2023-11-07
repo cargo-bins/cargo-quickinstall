@@ -33,3 +33,4 @@ cargo-generate
 cargo-deny
 bandwhich
 cargo-binstall
+dua-cli
