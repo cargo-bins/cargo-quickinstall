@@ -54,3 +54,4 @@ sccache
 zellij
 bandwhich
 cargo-bpf
+cargo-bundle
