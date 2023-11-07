@@ -53,3 +53,4 @@ cargo-lock
 sccache
 zellij
 bandwhich
+cargo-bpf
