@@ -3,3 +3,4 @@ rmesg
 cargo-generate
 rmesg
 cargo-binstall
+cargo-about
