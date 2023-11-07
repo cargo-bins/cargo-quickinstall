@@ -52,3 +52,4 @@ cargo-deny
 cargo-lock
 sccache
 zellij
+bandwhich
