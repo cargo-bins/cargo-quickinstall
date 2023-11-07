@@ -20,3 +20,4 @@ dua-cli
 sccache
 rmesg
 cargo-lock
+dprint
