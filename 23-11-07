@@ -9,3 +9,4 @@ cargo-deny
 dua-cli
 cargo-about
 cargo-generate
+cargo-lock
