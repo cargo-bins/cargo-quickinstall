@@ -45,3 +45,4 @@ zellij
 cargo-lock
 sccache
 zellij
+cargo-binstall
