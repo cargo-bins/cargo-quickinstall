@@ -7,3 +7,4 @@ elf2uf2-rs
 amdgpu_top
 amdgpu_top
 amdgpu_top
+cargo-lock
