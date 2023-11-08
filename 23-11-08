@@ -13,3 +13,4 @@ sqlx-cli
 cargo-geiger
 sshx
 sshx
+sqlx-cli
