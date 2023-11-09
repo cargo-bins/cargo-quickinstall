@@ -20,3 +20,4 @@ c2rust
 rg
 crusty
 wasmtime-cli
+cargo-c
