@@ -9,3 +9,4 @@ cargo-unused-features
 ruff
 cargo-unused-features
 cargo-checkmate
+cargo-leptos
