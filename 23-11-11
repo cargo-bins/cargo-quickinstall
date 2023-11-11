@@ -10,3 +10,4 @@ cargo-bisect-rustc
 ruff
 cargo-bisect-rustc
 xplr
+cargo-leptos
