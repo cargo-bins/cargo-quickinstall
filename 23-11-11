@@ -8,3 +8,4 @@ ruff
 ruff
 cargo-bisect-rustc
 ruff
+cargo-bisect-rustc
