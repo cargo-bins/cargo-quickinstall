@@ -104,22 +104,19 @@ for CRATE in $POPULAR_CRATES; do
     RESPONSE_FILENAME="$RESPONSE_DIR/$CRATE.json"
 
     VERSION=$(jq -r '.crate|.max_stable_version' "$RESPONSE_FILENAME")
-    FEATURES=$(
-        jq -r ".versions[] | select(.num == \"$VERSION\") | .features | keys[]" "$RESPONSE_FILENAME" |
-            (grep "vendored" || true) |
-            paste -s -d ',' -
-    )
     NO_DEFAULT_FEATURES=""
 
     if [ "$CRATE" = "gitoxide" ]; then
         FEATURES='max-pure'
         NO_DEFAULT_FEATURES='true'
-    elif [ "$CRATE" = "sccache" ] && [[ "$TARGET_ARCH" =~ x86_64-unknown-linux-* ]]; then
-        if [ -n "$FEATURES" ]; then
-            FEATURES='dist-server'
-        else
-            FEATURES="${FEATURES},dist-server"
-        fi
+    elif [ "$CRATE" = "sccache" ]; then
+        FEATURES="vendored-openssl"
+    else
+        FEATURES=$(
+            jq -r ".versions[] | select(.num == \"$VERSION\") | .features | keys[]" "$RESPONSE_FILENAME" |
+                (grep "vendored" || true) |
+                paste -s -d ',' -
+        )
     fi
 
     echo "${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz needs building" >&2
