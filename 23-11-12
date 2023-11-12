@@ -16,3 +16,4 @@ pijul
 cargo-lock
 racer
 pijul
+rustfmt-nightly
