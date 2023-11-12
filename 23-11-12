@@ -3,3 +3,4 @@ cargo-graph
 cargo-lock
 cargo-generate
 zellij
+cargo-graph
