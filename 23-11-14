@@ -16,3 +16,4 @@ cargo-udeps
 sad
 pijul
 cargo-spellcheck
+cargo-lock
