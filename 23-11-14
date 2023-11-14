@@ -25,3 +25,4 @@ cargo-spellcheck
 cargo-udeps
 sad
 pijul
+py-spy
