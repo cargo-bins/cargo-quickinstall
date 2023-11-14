@@ -8,3 +8,4 @@ cargo-lock
 cargo-spellcheck
 pijul
 cargo-udeps
+cargo-lock
