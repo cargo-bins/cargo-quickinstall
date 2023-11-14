@@ -4,3 +4,4 @@ cargo-spellcheck
 sonic-server
 cargo-udeps
 sad
+cargo-lock
