@@ -22,3 +22,4 @@ sad
 pijul
 cargo-lock
 cargo-spellcheck
+cargo-udeps
