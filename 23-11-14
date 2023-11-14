@@ -7,3 +7,4 @@ sad
 cargo-lock
 cargo-spellcheck
 pijul
+cargo-udeps
