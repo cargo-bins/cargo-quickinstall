@@ -50,3 +50,4 @@ mdbook-kroki-preprocessor
 evcxr
 cargo-bom
 cargo-bpf
+cargo-bom
