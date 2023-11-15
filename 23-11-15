@@ -48,3 +48,4 @@ evcxr
 skelly
 mdbook-kroki-preprocessor
 evcxr
+cargo-bom
