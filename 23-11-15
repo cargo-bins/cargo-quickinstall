@@ -19,3 +19,4 @@ sonic-server
 nu
 cargo-crev
 sonic-server
+rtx-cli
