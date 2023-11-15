@@ -32,3 +32,4 @@ cargo-crev
 cargo-bitbake
 cargo-bom
 ripdrag
+mdbook-kroki-preprocessor
