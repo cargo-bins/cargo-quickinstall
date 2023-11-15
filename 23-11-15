@@ -49,3 +49,4 @@ skelly
 mdbook-kroki-preprocessor
 evcxr
 cargo-bom
+cargo-bpf
