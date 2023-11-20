@@ -18,3 +18,4 @@ cargo-leptos
 clippy
 shrug
 lino
+surrealdb-migrations
