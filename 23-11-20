@@ -24,3 +24,4 @@ cargo-leptos
 shrug
 clippy
 surrealdb-migrations
+lino
