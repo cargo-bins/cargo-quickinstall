@@ -13,3 +13,4 @@ cargo-udeps
 cargo-lock
 bottom
 cargo-udeps
+cargo-lock
