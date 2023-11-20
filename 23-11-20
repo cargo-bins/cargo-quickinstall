@@ -9,3 +9,4 @@ cargo-spellcheck
 cargo-lock
 cargo-spellcheck
 bottom
+cargo-udeps
