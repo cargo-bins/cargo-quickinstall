@@ -3,3 +3,4 @@ wasm-opt
 cargo-whatfeatures
 cargo-spellcheck
 cargo-lock
+cargo-lock
