@@ -26,3 +26,4 @@ wl-screenrec
 nu_plugin_gstat
 wasmtime-cli
 cargo-c
+cargo-bitbake
