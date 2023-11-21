@@ -1,2 +1,3 @@
 wasmtime-cli
 cargo-instruments
+ast-grep
