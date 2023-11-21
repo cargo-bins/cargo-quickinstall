@@ -1,3 +1,4 @@
 semantic-release-cargo
 cargo-lock
 ast-grep
+cargo-lock
