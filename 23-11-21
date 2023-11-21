@@ -25,3 +25,4 @@ nu_plugin_gstat
 wl-screenrec
 nu_plugin_gstat
 wasmtime-cli
+cargo-c
