@@ -28,3 +28,4 @@ wasmtime-cli
 cargo-c
 cargo-bitbake
 bottom
+cargo-bitbake
