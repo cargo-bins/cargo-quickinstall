@@ -16,3 +16,4 @@ cargo-lock
 sea-orm-cli
 cargo-spellcheck
 cargo-udeps
+cargo-lock
