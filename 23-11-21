@@ -7,3 +7,4 @@ cargo-udeps
 cargo-spellcheck
 sea-orm-cli
 bottom
+cargo-udeps
