@@ -9,3 +9,4 @@ sea-orm-cli
 bottom
 cargo-udeps
 sea-orm-cli
+cargo-lock
