@@ -20,3 +20,4 @@ cargo-lock
 cargo-spellcheck
 cargo-udeps
 cargo-lock
+nu_plugin_gstat
