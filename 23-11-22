@@ -20,3 +20,4 @@ nu-completion-script
 cargo-mono
 c2rust
 evcxr
+cargo-crev
