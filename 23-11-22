@@ -25,3 +25,4 @@ nu-completion-script
 ripunzip
 cargo-mono
 leftwm
+cargo-bitbake
