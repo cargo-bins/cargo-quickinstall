@@ -24,3 +24,4 @@ wasmtime-cli
 cargo-playdate
 qsv
 leftwm
+difftastic
