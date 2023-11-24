@@ -35,3 +35,4 @@ wl-screenrec
 cargo-playdate
 difftastic
 wl-screenrec
+bindgen-cli
