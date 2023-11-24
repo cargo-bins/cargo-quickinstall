@@ -17,3 +17,4 @@ cargo-risczero
 wasmtime-cli
 qsv
 deno
+cargo-playdate
