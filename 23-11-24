@@ -11,3 +11,4 @@ wasmtime-cli
 porsmo
 qsv
 cargo-playdate
+difftastic
