@@ -10,3 +10,4 @@ cargo-risczero
 wasmtime-cli
 porsmo
 qsv
+cargo-playdate
