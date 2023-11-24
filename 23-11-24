@@ -9,3 +9,4 @@ cargo-lock
 sqlx-cli
 cargo-lock
 git-cz
+cargo-generate
