@@ -3,3 +3,4 @@ deno
 porsmo
 deno
 cargo-risczero
+wasmtime-cli
