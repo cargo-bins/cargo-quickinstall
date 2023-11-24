@@ -14,3 +14,4 @@ cargo-playdate
 difftastic
 deno
 cargo-risczero
+wasmtime-cli
