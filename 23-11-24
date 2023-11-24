@@ -7,3 +7,4 @@ wasmtime-cli
 porsmo
 deno
 cargo-risczero
+wasmtime-cli
