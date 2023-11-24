@@ -9,3 +9,4 @@ deno
 cargo-risczero
 wasmtime-cli
 porsmo
+qsv
