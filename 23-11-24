@@ -10,3 +10,4 @@ sqlx-cli
 cargo-lock
 git-cz
 cargo-generate
+zellij
