@@ -8,3 +8,4 @@ diesel_cli
 cargo-generate
 zellij
 diesel_cli
+cargo-generate
