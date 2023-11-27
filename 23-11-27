@@ -29,3 +29,4 @@ cargo-pgrx
 i3status-rs
 git-gpt
 surrealdb-migrations
+c2rust
