@@ -14,3 +14,4 @@ trunk-ng
 git-gpt
 surrealdb-migrations
 i3status-rs
+cargo-pgrx
