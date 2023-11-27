@@ -12,3 +12,4 @@ cargo-pgrx
 ironbar
 trunk-ng
 git-gpt
+surrealdb-migrations
