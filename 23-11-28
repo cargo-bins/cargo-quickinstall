@@ -21,3 +21,4 @@ sonic-server
 cargo-spellcheck
 spotifyd
 cargo-udeps
+mprocs
