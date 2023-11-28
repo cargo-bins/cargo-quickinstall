@@ -1,3 +1,4 @@
 cargo-leptos
 cargo-pgrx
 ruff
+cargo-lock
