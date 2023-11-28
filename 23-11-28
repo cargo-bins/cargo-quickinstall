@@ -24,3 +24,4 @@ cargo-lock
 ncspot
 jless
 jless
+wasm-opt
