@@ -11,3 +11,4 @@ cargo-lock
 spotifyd
 mprocs
 cargo-leptos
+cargo-spellcheck
