@@ -7,3 +7,4 @@ bottom
 cargo-spellcheck
 spotifyd
 cargo-udeps
+cargo-lock
