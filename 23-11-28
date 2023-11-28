@@ -8,3 +8,4 @@ cargo-udeps
 ncspot
 spotify-tui
 cargo-spellcheck
+cargo-lock
