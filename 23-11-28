@@ -4,3 +4,4 @@ cargo-leptos
 cargo-lock
 mprocs
 bottom
+cargo-spellcheck
