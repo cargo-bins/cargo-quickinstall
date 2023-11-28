@@ -13,3 +13,4 @@ mprocs
 cargo-leptos
 cargo-spellcheck
 bottom
+cargo-udeps
