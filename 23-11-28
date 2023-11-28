@@ -37,3 +37,4 @@ songrec
 cargo-lock
 tectonic
 cargo-udeps
+cargo-bitbake
