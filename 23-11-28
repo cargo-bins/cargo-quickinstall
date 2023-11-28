@@ -9,3 +9,4 @@ spotifyd
 cargo-udeps
 cargo-lock
 spotifyd
+mprocs
