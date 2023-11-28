@@ -24,3 +24,4 @@ cargo-udeps
 mprocs
 spotifyd
 songrec
+cargo-lock
