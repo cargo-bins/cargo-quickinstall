@@ -25,3 +25,4 @@ mprocs
 spotifyd
 songrec
 cargo-lock
+cargo-leptos
