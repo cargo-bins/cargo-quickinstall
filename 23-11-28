@@ -16,3 +16,4 @@ cargo-lock
 ncspot
 spotify-tui
 bottom
+cargo-udeps
