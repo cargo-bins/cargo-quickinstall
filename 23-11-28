@@ -6,3 +6,4 @@ mprocs
 bottom
 cargo-spellcheck
 spotifyd
+cargo-udeps
