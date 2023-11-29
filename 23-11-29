@@ -2,3 +2,4 @@ cargo-modules
 cargo-lock
 cargo-lock
 kani-verifier
+cargo-instruments
