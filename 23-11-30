@@ -16,3 +16,4 @@ eza
 sequoia-sop
 git-disjoint
 clock-cli
+cargo-dylint
