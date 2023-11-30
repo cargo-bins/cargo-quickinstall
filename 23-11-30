@@ -13,3 +13,4 @@ sonic-server
 cargo
 cargo-public-api
 radio-sx128x
+rtx-cli
