@@ -8,3 +8,4 @@ cargo-risczero
 cargo
 rtx-cli
 radio-sx128x
+cargo-public-api
