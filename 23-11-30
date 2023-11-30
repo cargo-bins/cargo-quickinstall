@@ -1,3 +1,4 @@
 elf2uf2-rs
 espflash
 cargo-spellcheck
+cargo-lock
