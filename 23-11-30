@@ -21,3 +21,4 @@ rtx-cli
 radio-sx128x
 cargo
 rtx-cli
+clippy
