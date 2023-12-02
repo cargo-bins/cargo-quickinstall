@@ -3,3 +3,4 @@ rtx-cli
 slint-lsp
 slint-lsp
 self
+cargo-run-bin
