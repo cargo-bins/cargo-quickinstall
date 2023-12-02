@@ -6,3 +6,4 @@ self
 cargo-run-bin
 self
 slint-viewer
+pueue
