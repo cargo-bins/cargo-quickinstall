@@ -4,3 +4,4 @@ slint-lsp
 slint-lsp
 self
 cargo-run-bin
+self
