@@ -5,3 +5,4 @@ slint-lsp
 self
 cargo-run-bin
 self
+slint-viewer
