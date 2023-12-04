@@ -11,3 +11,4 @@ cargo-workspaces
 cargo-lock
 fastmod
 fastmod
+qsv
