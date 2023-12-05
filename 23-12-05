@@ -18,3 +18,4 @@ cargo-udeps
 vnc-client
 cargo-lock
 yazi-fm
+cargo-lock
