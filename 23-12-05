@@ -7,3 +7,4 @@ yazi-fm
 cargo-udeps
 vnc-client
 cargo-lock
+cargo-spellcheck
