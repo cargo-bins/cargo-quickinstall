@@ -13,3 +13,4 @@ cargo-udeps
 cargo-lock
 vnc-client
 cargo-spellcheck
+sonic-server
