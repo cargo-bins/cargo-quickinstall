@@ -34,3 +34,4 @@ difftastic
 cargo-c
 cargo-spellcheck
 bottom
+cargo-udeps
