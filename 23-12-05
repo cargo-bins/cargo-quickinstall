@@ -10,3 +10,4 @@ cargo-lock
 cargo-spellcheck
 yazi-fm
 cargo-udeps
+cargo-lock
