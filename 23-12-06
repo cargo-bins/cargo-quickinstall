@@ -17,3 +17,4 @@ pest-language-server
 arti
 cargo-bom
 cargo-bitbake
+cargo-bpf
