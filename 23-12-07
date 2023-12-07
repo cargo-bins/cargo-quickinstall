@@ -16,3 +16,4 @@ cargo-unmaintained
 ripunzip
 core-utils
 mprocs
+rtx-cli
