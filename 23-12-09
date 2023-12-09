@@ -22,3 +22,4 @@ cargo-graph
 gptrust_cli
 openai-chat
 ask-gpt
+pbutil
