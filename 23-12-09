@@ -37,3 +37,4 @@ pbutil
 holochain_cli
 openai-chat
 ask-gpt
+gptrust_cli
