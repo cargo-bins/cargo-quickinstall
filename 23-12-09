@@ -32,3 +32,4 @@ holochain_cli
 rgpt
 gptrust_cli
 ask-gpt
+openai-chat
