@@ -17,3 +17,4 @@ cargo-c
 cargo-workspaces
 loco-cli
 cargo-msrv
+cargo-c
