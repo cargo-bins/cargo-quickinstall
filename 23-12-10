@@ -9,3 +9,4 @@ cargo-lock
 dua-cli
 cargo-lock
 dua-cli
+cargo-local-registry
