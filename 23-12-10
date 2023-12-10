@@ -14,3 +14,4 @@ porsmo
 cargo-msrv
 loco-cli
 cargo-c
+cargo-workspaces
