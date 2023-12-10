@@ -9,3 +9,4 @@ cargo-msrv
 porsmo
 cargo-msrv
 cargo-c
+cargo-workspaces
