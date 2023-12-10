@@ -19,3 +19,4 @@ loco-cli
 cargo-msrv
 cargo-c
 cargo-workspaces
+cargo-msrv
