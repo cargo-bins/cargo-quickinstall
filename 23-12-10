@@ -12,3 +12,4 @@ cargo-c
 cargo-workspaces
 porsmo
 cargo-msrv
+loco-cli
