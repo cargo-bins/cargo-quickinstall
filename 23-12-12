@@ -31,3 +31,4 @@ yazi-fm
 cargo-spellcheck
 rust-cli-pomodoro
 cargo-udeps
+cargo-lock
