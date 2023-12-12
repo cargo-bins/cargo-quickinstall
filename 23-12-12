@@ -7,3 +7,4 @@ youtube-tui
 cargo-spellcheck
 yazi-fm
 rust-cli-pomodoro
+cargo-udeps
