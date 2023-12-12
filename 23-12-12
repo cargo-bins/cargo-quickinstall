@@ -14,3 +14,4 @@ cargo-spellcheck
 rust-cli-pomodoro
 yazi-fm
 pomodoro
+cargo-udeps
