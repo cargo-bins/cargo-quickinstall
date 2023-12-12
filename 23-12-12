@@ -33,3 +33,4 @@ rust-cli-pomodoro
 cargo-udeps
 cargo-lock
 cargo-spellcheck
+avm
