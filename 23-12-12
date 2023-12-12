@@ -22,3 +22,4 @@ rust-cli-pomodoro
 yazi-fm
 pomodoro
 cargo-lock
+cargo-udeps
