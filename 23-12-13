@@ -16,3 +16,4 @@ nu_plugin_formats
 wonnx-cli
 sonic-server
 cargo-bitbake
+cargo-bom
