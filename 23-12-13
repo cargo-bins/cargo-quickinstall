@@ -7,3 +7,4 @@ wonnx-cli
 wonnx-cli
 nu_plugin_formats
 wonnx-cli
+nu_plugin_gstat
