@@ -3,3 +3,4 @@ cargo-spellcheck
 bindgen-cli
 bottom
 cargo-udeps
+cargo-spellcheck
