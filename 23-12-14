@@ -5,3 +5,4 @@ cargo-lock
 dioxus-cli
 cargo-workspaces
 cargo-lock
+dioxus-cli
