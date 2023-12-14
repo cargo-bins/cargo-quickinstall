@@ -7,3 +7,4 @@ cargo-spellcheck
 bottom
 bindgen-cli
 cargo-udeps
+bindgen-cli
