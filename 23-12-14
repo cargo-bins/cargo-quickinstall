@@ -10,3 +10,4 @@ cargo-udeps
 bindgen-cli
 bindgen-cli
 trunk
+cargo-bitbake
