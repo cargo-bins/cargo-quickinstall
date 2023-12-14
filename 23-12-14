@@ -11,3 +11,4 @@ bindgen-cli
 bindgen-cli
 trunk
 cargo-bitbake
+cargo-bitbake
