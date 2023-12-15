@@ -14,3 +14,4 @@ surrealdb-migrations
 octopat
 github-bin-downloader
 github-bin-downloader
+sea-orm-cli
