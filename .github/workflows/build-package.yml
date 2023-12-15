@@ -145,7 +145,7 @@ jobs:
       # TODO: try breaking things so that uploads don't work.
 
       - name: Upload run-local binary artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: built-${{ inputs.build_os }}
           path: ${{ env.BUILD_DIR }}
@@ -247,7 +247,7 @@ jobs:
           file: ${{ env.SIG_FILENAME }}
 
       - name: Upload signature
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: signature
           path: ${{ env.SIG_FILENAME }}
