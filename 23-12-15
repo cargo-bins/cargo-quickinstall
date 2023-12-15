@@ -27,3 +27,4 @@ nu_plugin_formats
 fm-tui
 git-github
 github-bin-downloader
+nu
