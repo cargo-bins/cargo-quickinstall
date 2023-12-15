@@ -12,3 +12,4 @@ clone-github-subdir
 git-github
 surrealdb-migrations
 octopat
+github-bin-downloader
