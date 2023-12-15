@@ -22,3 +22,4 @@ nu_plugin_formats
 fm-tui
 nu_plugin_gstat
 surrealdb-migrations
+nu_plugin_gstat
