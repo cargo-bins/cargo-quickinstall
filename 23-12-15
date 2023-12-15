@@ -11,3 +11,4 @@ stree_cmd
 clone-github-subdir
 git-github
 surrealdb-migrations
+octopat
