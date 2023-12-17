@@ -31,3 +31,4 @@ bindgen-cli
 evcxr
 qsv
 ncspot
+bindgen-cli
