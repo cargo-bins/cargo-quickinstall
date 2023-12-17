@@ -24,3 +24,4 @@ qsv
 loco-cli
 bindgen-cli
 ncspot
+evcxr
