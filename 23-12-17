@@ -27,3 +27,4 @@ ncspot
 evcxr
 qsv
 ncspot
+bindgen-cli
