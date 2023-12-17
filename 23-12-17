@@ -20,3 +20,4 @@ cargo-contract
 loco-cli
 ncspot
 bindgen-cli
+qsv
