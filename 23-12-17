@@ -19,3 +19,4 @@ bindgen-cli
 cargo-contract
 loco-cli
 ncspot
+bindgen-cli
