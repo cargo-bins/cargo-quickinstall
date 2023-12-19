@@ -9,3 +9,4 @@ cargo-udeps
 git-gpt
 r-matrix
 clippy
+cargo-spellcheck
