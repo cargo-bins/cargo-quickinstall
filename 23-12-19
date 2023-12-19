@@ -4,3 +4,4 @@ elf2uf2-rs
 clippy
 cargo-lock
 cargo-spellcheck
+cargo-lock
