@@ -8,3 +8,4 @@ racer
 rustfmt-nightly
 rustfmt-nightly
 pijul
+clippy
