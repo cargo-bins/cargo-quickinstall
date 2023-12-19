@@ -4,3 +4,4 @@ git-gpt
 cargo-spellcheck
 cargo-lock
 r-matrix
+clippy
