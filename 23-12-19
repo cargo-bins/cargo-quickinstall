@@ -6,3 +6,4 @@ cargo-lock
 r-matrix
 clippy
 cargo-udeps
+git-gpt
