@@ -10,3 +10,4 @@ git-gpt
 r-matrix
 clippy
 cargo-spellcheck
+cargo-lock
