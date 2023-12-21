@@ -21,3 +21,4 @@ ruff
 xcp
 wasmtime-cli
 ruff
+cargo-risczero
