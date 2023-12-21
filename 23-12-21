@@ -16,3 +16,4 @@ jql
 ruff
 xcp
 difftastic
+wasmtime-cli
