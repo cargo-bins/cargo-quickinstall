@@ -29,3 +29,4 @@ mprocs
 sniffnet
 shadowsocks-rust
 porsmo
+gpg-tui
