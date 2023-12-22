@@ -16,3 +16,4 @@ shadowsocks-rust
 porsmo
 mprocs
 gitea-migrate
+gpg-tui
