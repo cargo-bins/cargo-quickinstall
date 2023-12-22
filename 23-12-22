@@ -7,3 +7,4 @@ cargo-whatfeatures
 cargo-spellcheck
 cargo-lock
 cargo-udeps
+cargo-whatfeatures
