@@ -3,3 +3,4 @@ evcxr_jupyter
 cargo-spellcheck
 bottom
 evcxr_repl
+evcxr_jupyter
