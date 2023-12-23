@@ -12,3 +12,4 @@ evcxr_repl
 cargo-udeps
 evcxr_repl
 evcxr_jupyter
+wasm-opt
