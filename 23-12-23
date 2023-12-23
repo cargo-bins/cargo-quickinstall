@@ -9,3 +9,4 @@ cargo-spellcheck
 bottom
 evcxr_jupyter
 evcxr_repl
+cargo-udeps
