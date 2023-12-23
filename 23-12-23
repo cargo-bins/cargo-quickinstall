@@ -18,3 +18,4 @@ evcxr_repl
 wasm-opt
 wasm-opt
 wasm-opt
+cargo-bitbake
