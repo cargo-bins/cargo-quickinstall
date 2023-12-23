@@ -14,3 +14,4 @@ evcxr_repl
 evcxr_jupyter
 wasm-opt
 evcxr_jupyter
+evcxr_repl
