@@ -6,3 +6,4 @@ exa
 cargo-generate
 zellij
 exa
+cargo-lock
