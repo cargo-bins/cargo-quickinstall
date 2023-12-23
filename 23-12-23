@@ -8,3 +8,4 @@ cargo-udeps
 cargo-spellcheck
 bottom
 evcxr_jupyter
+evcxr_repl
