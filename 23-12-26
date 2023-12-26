@@ -44,3 +44,4 @@ wasm-opt
 lino
 swc_cli
 ludusavi
+wasm-opt
