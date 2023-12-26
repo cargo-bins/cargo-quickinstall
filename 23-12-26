@@ -51,3 +51,4 @@ wasm-opt
 cargo-bitbake
 cargo-spellcheck
 cargo-udeps
+cargo-bitbake
