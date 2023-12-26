@@ -49,3 +49,4 @@ swc_cli
 ludusavi
 wasm-opt
 cargo-bitbake
+cargo-spellcheck
