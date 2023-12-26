@@ -16,3 +16,4 @@ bottom
 cargo-udeps
 jless
 cargo-lock
+cargo-spellcheck
