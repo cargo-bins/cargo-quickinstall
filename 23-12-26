@@ -5,3 +5,4 @@ bottom
 jless
 cargo-udeps
 cargo-lock
+cargo-spellcheck
