@@ -13,3 +13,4 @@ cargo-lock
 jless
 cargo-spellcheck
 bottom
+cargo-udeps
