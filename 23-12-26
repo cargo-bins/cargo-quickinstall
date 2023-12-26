@@ -52,3 +52,4 @@ cargo-bitbake
 cargo-spellcheck
 cargo-udeps
 cargo-bitbake
+cargo-bom
