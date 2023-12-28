@@ -7,3 +7,4 @@ deno
 rtx-cli
 rtx-cli
 wasm-opt
+cargo-leptos
