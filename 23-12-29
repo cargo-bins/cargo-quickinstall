@@ -8,3 +8,4 @@ cargo-lock
 hurl
 cargo-lock
 cargo-whatfeatures
+cargo-spellcheck
