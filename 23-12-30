@@ -1,3 +1,4 @@
 bpf-linker
 bpf-linker
 cargo-spellcheck
+wasm-opt
