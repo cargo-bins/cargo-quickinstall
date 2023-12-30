@@ -2,3 +2,4 @@ bpf-linker
 bpf-linker
 cargo-spellcheck
 wasm-opt
+cargo-udeps
