@@ -10,3 +10,4 @@ cargo-udeps
 bpf-linker
 wasm-opt
 alacritty
+bpf-linker
