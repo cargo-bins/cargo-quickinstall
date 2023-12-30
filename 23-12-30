@@ -5,3 +5,4 @@ wasm-opt
 cargo-udeps
 bpf-linker
 cargo-spellcheck
+wasm-opt
