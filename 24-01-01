@@ -6,3 +6,4 @@ bindgen-cli
 cargo-bom
 cargo-bitbake
 cargo-bitbake
+cargo-bom
