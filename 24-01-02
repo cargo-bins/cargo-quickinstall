@@ -5,3 +5,4 @@ tmux-sessionizer
 rg
 cargo-lock
 rbw
+nu_plugin_gstat
