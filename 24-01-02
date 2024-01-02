@@ -3,3 +3,4 @@ rg
 rbw
 tmux-sessionizer
 rg
+cargo-lock
