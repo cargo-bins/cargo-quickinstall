@@ -11,3 +11,4 @@ nu_plugin_gstat
 rg
 leo-lang
 rbw
+cargo-udeps
