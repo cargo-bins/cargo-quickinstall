@@ -6,3 +6,4 @@ rg
 cargo-lock
 rbw
 nu_plugin_gstat
+cargo-udeps
