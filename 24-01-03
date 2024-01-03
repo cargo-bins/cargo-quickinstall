@@ -38,3 +38,4 @@ patch-crate
 neophyte
 cargo-docs
 cargo-bom
+cargo-bitbake
