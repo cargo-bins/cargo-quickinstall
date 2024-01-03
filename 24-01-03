@@ -30,3 +30,4 @@ patch-crate
 bcat
 qsv
 neophyte
+cargo-docs
