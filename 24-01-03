@@ -37,3 +37,4 @@ qsv
 patch-crate
 neophyte
 cargo-docs
+cargo-bom
