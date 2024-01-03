@@ -36,3 +36,4 @@ cs-fetcher
 qsv
 patch-crate
 neophyte
+cargo-docs
