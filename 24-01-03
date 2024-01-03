@@ -34,3 +34,4 @@ cargo-docs
 bcat
 cs-fetcher
 qsv
+patch-crate
