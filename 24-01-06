@@ -5,3 +5,4 @@ cargo-udeps
 cargo-spellcheck
 cargo-udeps
 wasm-opt
+wasm-opt
