@@ -49,3 +49,4 @@ ast-grep
 rustdesk
 pwninit
 porsmo
+cargo-smart-release
