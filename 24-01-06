@@ -2,3 +2,4 @@ wasm-opt
 cargo-spellcheck
 wasm-opt
 cargo-udeps
+cargo-spellcheck
