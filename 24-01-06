@@ -52,3 +52,4 @@ porsmo
 cargo-smart-release
 ast-grep
 porsmo
+pwninit
