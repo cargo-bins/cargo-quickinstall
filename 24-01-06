@@ -40,3 +40,4 @@ rustdesk
 cargo-smart-release
 pixi
 porsmo
+ast-grep
