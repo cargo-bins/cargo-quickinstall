@@ -37,3 +37,4 @@ rustdesk
 ast-grep
 pwninit
 rustdesk
+cargo-smart-release
