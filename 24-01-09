@@ -28,3 +28,4 @@ swc_cli
 alacritty
 cns
 cargo-spellcheck
+cargo-udeps
