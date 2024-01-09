@@ -3,3 +3,4 @@ git-trim
 git-trim
 git-workspace
 cargo-lock
+cargo-spellcheck
