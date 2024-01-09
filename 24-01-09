@@ -29,3 +29,4 @@ alacritty
 cns
 cargo-spellcheck
 cargo-udeps
+cargo-lock
