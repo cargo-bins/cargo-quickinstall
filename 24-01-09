@@ -22,3 +22,4 @@ git-trim
 cargo-lock
 swc_cli
 cargo-spellcheck
+alacritty
