@@ -13,3 +13,4 @@ cargo-spellcheck
 bottom
 cargo-udeps
 git-trim
+swc_cli
