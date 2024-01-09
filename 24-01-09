@@ -19,3 +19,4 @@ git-workspace
 cargo-udeps
 git-workspace
 git-trim
+cargo-lock
