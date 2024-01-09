@@ -6,3 +6,4 @@ bindgen-cli
 bpf-linker
 bpf-linker
 bpf-linker
+cargo-bom
