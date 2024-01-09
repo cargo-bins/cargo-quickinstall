@@ -20,3 +20,4 @@ cargo-udeps
 git-workspace
 git-trim
 cargo-lock
+swc_cli
