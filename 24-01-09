@@ -17,3 +17,4 @@ swc_cli
 cargo-lock
 git-workspace
 cargo-udeps
+git-workspace
