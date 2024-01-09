@@ -9,3 +9,4 @@ cargo-udeps
 git-workspace
 git-trim
 cargo-lock
+cargo-spellcheck
