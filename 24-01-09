@@ -20,3 +20,4 @@ rusty-battery
 gitui
 bingrep
 cargo-llvm-cov
+cargo-chef
