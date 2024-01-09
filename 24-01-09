@@ -33,3 +33,4 @@ cargo-lock
 cns
 cargo-spellcheck
 swc_cli
+alacritty
