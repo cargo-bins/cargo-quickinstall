@@ -7,3 +7,4 @@ cargo-spellcheck
 bottom
 cargo-udeps
 git-workspace
+git-trim
