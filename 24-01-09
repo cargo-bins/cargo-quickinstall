@@ -11,3 +11,4 @@ git-trim
 cargo-lock
 cargo-spellcheck
 bottom
+cargo-udeps
