@@ -14,3 +14,4 @@ bottom
 cargo-udeps
 git-trim
 swc_cli
+cargo-lock
