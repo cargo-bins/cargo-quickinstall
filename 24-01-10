@@ -31,3 +31,4 @@ c2rust
 shadowsocks-rust
 nu_plugin_gstat
 nu_plugin_formats
+slint-lsp
