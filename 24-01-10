@@ -34,3 +34,4 @@ nu_plugin_formats
 slint-lsp
 arti
 c2rust
+shadowsocks-rust
