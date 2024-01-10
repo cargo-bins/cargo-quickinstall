@@ -41,3 +41,4 @@ nu_plugin_formats
 slint-lsp
 c2rust
 cargo-bitbake
+cargo-bom
