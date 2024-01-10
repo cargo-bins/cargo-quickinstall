@@ -37,3 +37,4 @@ c2rust
 shadowsocks-rust
 nu_plugin_gstat
 arti
+nu_plugin_formats
