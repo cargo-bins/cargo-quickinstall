@@ -33,3 +33,4 @@ nu_plugin_gstat
 nu_plugin_formats
 slint-lsp
 arti
+c2rust
