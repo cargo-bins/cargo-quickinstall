@@ -24,3 +24,4 @@ arti
 ruff
 c2rust
 shadowsocks-rust
+nu_plugin_gstat
