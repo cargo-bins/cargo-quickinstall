@@ -24,3 +24,4 @@ dprint
 cargo-deny
 gitui
 zellij
+cargo-generate
