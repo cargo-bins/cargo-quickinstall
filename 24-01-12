@@ -5,3 +5,4 @@ agg
 agg
 binstall
 cargo-lock
+cargo-spellcheck
