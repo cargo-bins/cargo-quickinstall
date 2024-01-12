@@ -16,3 +16,4 @@ gitui
 cargo-generate
 cargo-binstall
 bandwhich
+cargo-lock
