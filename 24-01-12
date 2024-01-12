@@ -29,3 +29,4 @@ dprint
 cargo-binstall
 sccache
 cargo-lock
+gitui
