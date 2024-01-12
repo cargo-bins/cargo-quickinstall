@@ -11,3 +11,4 @@ cargo-lock
 dprint
 sccache
 cargo-deny
+zellij
