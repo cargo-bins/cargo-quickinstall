@@ -33,3 +33,4 @@ gitui
 zellij
 cargo-deny
 cargo-generate
+dprint
