@@ -14,3 +14,4 @@ cargo-deny
 zellij
 gitui
 cargo-generate
+cargo-binstall
