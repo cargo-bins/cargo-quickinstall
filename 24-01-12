@@ -2,3 +2,4 @@ gitui
 cargo-lock
 cargo-binstall
 gitui
+sccache
