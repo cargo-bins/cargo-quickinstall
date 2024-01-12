@@ -6,3 +6,4 @@ sccache
 bandwhich
 cargo-generate
 dprint
+cargo-deny
