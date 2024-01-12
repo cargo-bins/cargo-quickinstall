@@ -45,3 +45,4 @@ bandwhich
 cargo-generate
 zellij
 cargo-bpf
+cargo-bundle
