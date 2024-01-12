@@ -39,3 +39,4 @@ cargo-deny
 sccache
 cargo-binstall
 zellij
+bandwhich
