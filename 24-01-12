@@ -27,3 +27,4 @@ zellij
 cargo-generate
 dprint
 cargo-binstall
+sccache
