@@ -36,3 +36,4 @@ cargo-generate
 dprint
 cargo-lock
 cargo-deny
+sccache
