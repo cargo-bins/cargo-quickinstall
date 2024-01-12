@@ -13,3 +13,4 @@ sccache
 cargo-deny
 zellij
 gitui
+cargo-generate
