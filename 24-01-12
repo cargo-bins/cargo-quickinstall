@@ -7,3 +7,4 @@ cargo-lock
 cargo-generate
 rerun-cli
 cargo-lock
+rerun-cli
