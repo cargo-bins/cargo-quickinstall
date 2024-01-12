@@ -32,3 +32,4 @@ cargo-lock
 gitui
 zellij
 cargo-deny
+cargo-generate
