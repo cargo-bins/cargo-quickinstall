@@ -17,3 +17,4 @@ cargo-generate
 cargo-binstall
 bandwhich
 cargo-lock
+cargo-binstall
