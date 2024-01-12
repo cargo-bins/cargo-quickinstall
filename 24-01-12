@@ -26,3 +26,4 @@ gitui
 zellij
 cargo-generate
 dprint
+cargo-binstall
