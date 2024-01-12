@@ -7,3 +7,4 @@ bandwhich
 cargo-generate
 dprint
 cargo-deny
+cargo-lock
