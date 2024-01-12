@@ -21,3 +21,4 @@ cargo-binstall
 sccache
 bandwhich
 dprint
+cargo-deny
