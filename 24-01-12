@@ -12,3 +12,4 @@ dprint
 sccache
 cargo-deny
 zellij
+gitui
