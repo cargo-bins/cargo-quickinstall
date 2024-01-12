@@ -35,3 +35,4 @@ cargo-deny
 cargo-generate
 dprint
 cargo-lock
+cargo-deny
