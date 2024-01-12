@@ -3,3 +3,4 @@ cargo-lock
 dua-cli
 zellij
 rerun-cli
+cargo-lock
