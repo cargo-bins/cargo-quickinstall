@@ -10,3 +10,4 @@ cargo-deny
 cargo-lock
 dprint
 sccache
+cargo-deny
