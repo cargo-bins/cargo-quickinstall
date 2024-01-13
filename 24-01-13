@@ -19,3 +19,4 @@ ast-grep
 rustdesk
 sgxs-tools
 xcp
+fortanix-sgx-tools
