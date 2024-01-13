@@ -11,3 +11,4 @@ binstall
 fortanix-sgx-tools
 rustdesk
 ast-grep
+sgxs-tools
