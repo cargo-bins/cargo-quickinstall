@@ -7,3 +7,4 @@ binstall
 fortanix-sgx-tools
 fortanix-sgx-tools
 cargo-lock
+cargo-spellcheck
