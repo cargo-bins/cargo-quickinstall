@@ -20,3 +20,4 @@ rustdesk
 sgxs-tools
 xcp
 fortanix-sgx-tools
+ast-grep
