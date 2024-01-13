@@ -6,3 +6,4 @@ sgxs-tools
 binstall
 fortanix-sgx-tools
 ast-grep
+sgxs-tools
