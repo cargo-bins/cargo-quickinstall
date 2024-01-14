@@ -11,3 +11,4 @@ monolith
 cargo-spellcheck
 cargo-lock
 bottom
+cargo-udeps
