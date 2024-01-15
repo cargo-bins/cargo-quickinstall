@@ -7,3 +7,4 @@ cargo-spellcheck
 cargo-pio
 cargo-udeps
 wasm-opt
+cargo-bitbake
