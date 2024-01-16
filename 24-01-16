@@ -6,3 +6,4 @@ ripdrag
 cargo-spellcheck
 simple-http-server
 mdcat
+cargo-udeps
