@@ -4,3 +4,4 @@ mdcat
 cargo-lock
 ripdrag
 cargo-spellcheck
+simple-http-server
