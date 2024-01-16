@@ -26,3 +26,4 @@ cargo-udeps
 buzz
 cargo-lock
 cargo-spellcheck
+cargo-udeps
