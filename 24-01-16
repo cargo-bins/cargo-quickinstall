@@ -18,3 +18,4 @@ cargo-spellcheck
 cargo-lock
 mdcat
 cargo-udeps
+cargo-lock
