@@ -14,3 +14,4 @@ ripdrag
 simple-http-server
 cargo-udeps
 ripdrag
+cargo-spellcheck
