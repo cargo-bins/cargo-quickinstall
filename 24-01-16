@@ -16,3 +16,4 @@ cargo-udeps
 ripdrag
 cargo-spellcheck
 cargo-lock
+mdcat
