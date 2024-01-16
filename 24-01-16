@@ -22,3 +22,4 @@ cargo-lock
 ripdrag
 mdcat
 cargo-spellcheck
+cargo-udeps
