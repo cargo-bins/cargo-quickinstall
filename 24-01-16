@@ -9,3 +9,4 @@ mdcat
 cargo-udeps
 cargo-lock
 mdcat
+cargo-spellcheck
