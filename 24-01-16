@@ -8,3 +8,4 @@ simple-http-server
 mdcat
 cargo-udeps
 cargo-lock
+mdcat
