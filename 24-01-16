@@ -12,3 +12,4 @@ mdcat
 cargo-spellcheck
 ripdrag
 simple-http-server
+cargo-udeps
