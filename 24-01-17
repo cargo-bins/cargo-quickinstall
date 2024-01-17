@@ -1,2 +1,3 @@
 binstall
 wasm-opt
+cargo-bitbake
