@@ -10,3 +10,4 @@ wasm-opt
 deno
 cargo-bom
 cargo-bpf
+cargo-bpf
