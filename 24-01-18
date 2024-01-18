@@ -8,3 +8,4 @@ wasm-opt
 deno
 wasm-opt
 deno
+cargo-bom
