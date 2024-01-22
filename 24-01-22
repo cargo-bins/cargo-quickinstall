@@ -13,3 +13,4 @@ simple-http-server
 tectonic
 hurl
 sea-orm-cli
+mprocs
