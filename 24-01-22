@@ -3,3 +3,4 @@ cargo-dylint
 ironbar
 mprocs
 simple-http-server
+sea-orm-cli
