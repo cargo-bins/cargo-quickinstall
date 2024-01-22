@@ -16,3 +16,4 @@ sea-orm-cli
 mprocs
 cargo-dylint
 ironbar
+pomodoro-cli
