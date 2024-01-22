@@ -10,3 +10,4 @@ sea-orm-cli
 cargo-dylint
 mprocs
 simple-http-server
+tectonic
