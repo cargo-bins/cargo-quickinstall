@@ -11,3 +11,4 @@ cargo-dylint
 mprocs
 simple-http-server
 tectonic
+hurl
