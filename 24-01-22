@@ -32,3 +32,4 @@ hurl
 sea-orm-cli
 pomodoro-cli
 mprocs
+cargo-dylint
