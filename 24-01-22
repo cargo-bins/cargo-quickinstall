@@ -14,3 +14,4 @@ tectonic
 hurl
 sea-orm-cli
 mprocs
+cargo-dylint
