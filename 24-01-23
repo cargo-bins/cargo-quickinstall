@@ -8,3 +8,4 @@ cargo-udeps
 mdcat
 bpf-linker
 cargo-spellcheck
+cargo-lock
