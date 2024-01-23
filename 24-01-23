@@ -20,3 +20,4 @@ cargo-udeps
 cargo-lock
 bpf-linker
 mdcat
+cargo-risczero
