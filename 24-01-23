@@ -16,3 +16,4 @@ cargo-spellcheck
 bpf-linker
 cargo-lock
 difftastic
+cargo-udeps
