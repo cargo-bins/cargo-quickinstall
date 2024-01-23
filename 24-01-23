@@ -5,3 +5,4 @@ cargo-lock
 bpf-linker
 difftastic
 cargo-udeps
+mdcat
