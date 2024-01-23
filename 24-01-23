@@ -21,3 +21,4 @@ cargo-lock
 bpf-linker
 mdcat
 cargo-risczero
+difftastic
