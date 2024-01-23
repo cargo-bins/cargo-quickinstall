@@ -13,3 +13,4 @@ difftastic
 cargo-udeps
 mdcat
 cargo-spellcheck
+bpf-linker
