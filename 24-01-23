@@ -12,3 +12,4 @@ cargo-lock
 difftastic
 cargo-udeps
 mdcat
+cargo-spellcheck
