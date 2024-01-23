@@ -12,3 +12,4 @@ cargo-generate
 mise
 cargo-lock
 zellij
+cargo-lock
