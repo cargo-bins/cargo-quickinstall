@@ -2,3 +2,4 @@ bpf-linker
 mdcat
 cargo-spellcheck
 cargo-lock
+bpf-linker
