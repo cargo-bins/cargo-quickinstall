@@ -6,3 +6,4 @@ bpf-linker
 difftastic
 cargo-udeps
 mdcat
+bpf-linker
