@@ -9,3 +9,4 @@ mdcat
 bpf-linker
 cargo-spellcheck
 cargo-lock
+difftastic
