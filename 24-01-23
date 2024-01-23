@@ -32,3 +32,4 @@ c2rust
 diesel_cli
 kdash
 racer
+bpf-linker
