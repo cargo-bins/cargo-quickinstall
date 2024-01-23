@@ -10,3 +10,4 @@ bpf-linker
 cargo-spellcheck
 cargo-lock
 difftastic
+cargo-udeps
