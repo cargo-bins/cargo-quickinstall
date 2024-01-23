@@ -10,3 +10,4 @@ cargo-lock
 gitui
 cargo-generate
 mise
+cargo-lock
