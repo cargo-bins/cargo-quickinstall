@@ -18,3 +18,4 @@ cargo-lock
 difftastic
 cargo-udeps
 cargo-lock
+bpf-linker
