@@ -2,3 +2,4 @@ cargo-contract
 cargo-lock
 cargo-spellcheck
 cargo-contract
+cargo-udeps
