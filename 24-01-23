@@ -20,3 +20,4 @@ cargo-spellcheck
 cargo-udeps
 bpf-linker
 kdash
+bpf-linker
