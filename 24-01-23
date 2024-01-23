@@ -11,3 +11,4 @@ cargo-spellcheck
 cargo-lock
 cargo-contract
 cargo-udeps
+cargo-spellcheck
