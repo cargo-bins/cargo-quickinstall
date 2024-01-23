@@ -8,3 +8,4 @@ gitui
 mise
 cargo-lock
 gitui
+cargo-generate
