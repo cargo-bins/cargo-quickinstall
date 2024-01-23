@@ -7,3 +7,4 @@ difftastic
 cargo-udeps
 mdcat
 bpf-linker
+cargo-spellcheck
