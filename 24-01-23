@@ -29,3 +29,4 @@ kdash
 bpf-linker
 xcp
 c2rust
+diesel_cli
