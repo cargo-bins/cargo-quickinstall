@@ -5,3 +5,4 @@ sqlx-cli
 sqlx-cli
 cargo-generate
 zellij
+cargo-generate
