@@ -33,3 +33,4 @@ cargo-near
 wgpu-info
 cargo-near
 cargo-list
+clippy
