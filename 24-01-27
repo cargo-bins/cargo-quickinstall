@@ -11,3 +11,4 @@ clippy
 cargo-lock
 binstall
 clippy
+racer
