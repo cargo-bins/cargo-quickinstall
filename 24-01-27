@@ -9,3 +9,4 @@ binstall
 racer
 clippy
 cargo-lock
+binstall
