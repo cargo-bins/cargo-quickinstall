@@ -8,3 +8,4 @@ czkawka_gui
 binstall
 racer
 clippy
+cargo-lock
