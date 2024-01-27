@@ -45,3 +45,4 @@ clippy
 shadowsocks-rust
 wasmtime-cli
 clippy
+cargo-list
