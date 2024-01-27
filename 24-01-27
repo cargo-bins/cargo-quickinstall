@@ -43,3 +43,4 @@ shadowsocks-rust
 cargo-list
 clippy
 shadowsocks-rust
+wasmtime-cli
