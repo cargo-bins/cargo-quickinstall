@@ -11,3 +11,4 @@ c2rust
 cargo-msrv
 cargo-lock
 bottom
+cargo-udeps
