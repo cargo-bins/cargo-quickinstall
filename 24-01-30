@@ -8,3 +8,4 @@ probe-rs
 deno
 probe-rs
 cargo-bpf
+cargo-bom
