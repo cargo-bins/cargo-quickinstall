@@ -2,3 +2,4 @@ cargo-msrv
 cargo-lock
 ncspot
 cargo-msrv
+cargo-spellcheck
