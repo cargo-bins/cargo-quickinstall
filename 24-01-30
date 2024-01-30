@@ -4,3 +4,4 @@ ncspot
 cargo-msrv
 cargo-spellcheck
 c2rust
+cargo-lock
