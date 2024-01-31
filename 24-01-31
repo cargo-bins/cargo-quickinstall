@@ -10,3 +10,4 @@ cargo-bisect-rustc
 volsa2-cli
 ast-grep
 cargo-bom
+cargo-bitbake
