@@ -6,3 +6,4 @@ xidlehook
 ast-grep
 xidlehook
 py-spy
+cargo-bisect-rustc
