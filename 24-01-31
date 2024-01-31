@@ -7,3 +7,4 @@ ast-grep
 xidlehook
 py-spy
 cargo-bisect-rustc
+volsa2-cli
