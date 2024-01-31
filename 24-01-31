@@ -11,3 +11,4 @@ volsa2-cli
 ast-grep
 cargo-bom
 cargo-bitbake
+cargo-bpf
