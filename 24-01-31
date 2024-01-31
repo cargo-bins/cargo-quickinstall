@@ -2,3 +2,4 @@ diesel_cli
 diesel_cli
 cargo-lock
 cargo-lock
+cargo-generate
