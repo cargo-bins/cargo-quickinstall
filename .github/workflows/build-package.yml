@@ -191,7 +191,7 @@ jobs:
 
       - name: Cancel if no tarball
         if: steps.check_files.outputs.files_exists == 'false'
-        uses: andymckay/cancel-action@0.3
+        uses: andymckay/cancel-action@0.4
 
       - name: Wait for cancellation signal if no tarball
         if: steps.check_files.outputs.files_exists == 'false'
