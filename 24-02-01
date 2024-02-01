@@ -28,3 +28,4 @@ taplo-cli
 deno
 trunk-ng
 c2rust
+wasmtime-cli
