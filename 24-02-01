@@ -11,3 +11,4 @@ mprocs
 slint-viewer
 cargo-geiger
 assembler
+ast-grep
