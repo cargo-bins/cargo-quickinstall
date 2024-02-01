@@ -18,3 +18,4 @@ assembler
 ast-grep
 slint-viewer
 cargo-geiger
+deno
