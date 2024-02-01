@@ -13,3 +13,4 @@ cargo-geiger
 assembler
 ast-grep
 slint-viewer
+cargo-geiger
