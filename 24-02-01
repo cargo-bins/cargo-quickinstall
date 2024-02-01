@@ -10,3 +10,4 @@ cargo-spellcheck
 cargo-lock
 taplo-cli
 cargo-spellcheck
+cargo-lock
