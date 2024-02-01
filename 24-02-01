@@ -12,3 +12,4 @@ taplo-cli
 cargo-spellcheck
 cargo-lock
 cargo-spellcheck
+cargo-bitbake
