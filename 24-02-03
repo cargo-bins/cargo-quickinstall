@@ -7,3 +7,4 @@ cargo-lock
 binstall
 binstall
 nvd
+arch-audit
