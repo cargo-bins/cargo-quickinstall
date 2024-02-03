@@ -12,3 +12,4 @@ binstall
 userland-execve
 arch-audit
 nvd
+userland-execve
