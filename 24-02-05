@@ -6,3 +6,4 @@ bottom
 cargo-udeps
 deno
 cargo-lock
+cargo-spellcheck
