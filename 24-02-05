@@ -14,3 +14,4 @@ bindgen-cli
 tectonic
 i3status-rs
 qsv
+sea-orm-cli
