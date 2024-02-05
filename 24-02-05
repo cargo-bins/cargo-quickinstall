@@ -14,3 +14,4 @@ cargo-spellcheck
 bottom
 deno
 cargo-udeps
+cargo-lock
