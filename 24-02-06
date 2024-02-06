@@ -3,3 +3,4 @@ tmux-sessionizer
 typst-cli
 tmux-sessionizer
 cargo-spellcheck
+cargo-lock
