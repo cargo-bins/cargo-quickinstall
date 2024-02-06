@@ -20,3 +20,4 @@ typst-cli
 cargo-spellcheck
 tmux-sessionizer
 cargo-udeps
+cargo-spellcheck
