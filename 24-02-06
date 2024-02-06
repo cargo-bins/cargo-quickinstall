@@ -9,3 +9,4 @@ cargo-lock
 cargo-spellcheck
 typst-cli
 tmux-sessionizer
+cargo-udeps
