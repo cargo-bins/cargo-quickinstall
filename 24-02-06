@@ -11,3 +11,4 @@ typst-cli
 tmux-sessionizer
 cargo-udeps
 typst-cli
+cargo-lock
