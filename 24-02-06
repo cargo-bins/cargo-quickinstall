@@ -15,3 +15,4 @@ cargo-lock
 tmux-sessionizer
 cargo-spellcheck
 cargo-udeps
+cargo-lock
