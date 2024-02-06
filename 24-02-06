@@ -16,3 +16,4 @@ tmux-sessionizer
 cargo-spellcheck
 cargo-udeps
 cargo-lock
+typst-cli
