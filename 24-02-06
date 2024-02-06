@@ -24,3 +24,4 @@ cargo-spellcheck
 cargo-lock
 typst-cli
 lune
+cargo-udeps
