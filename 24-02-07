@@ -12,3 +12,4 @@ sea-orm-cli
 llmvm-outsource
 llmvm-outsource
 cargo-info
+wasm-opt
