@@ -16,3 +16,4 @@ nu_plugin_formats
 nu_plugin_formats
 nu_plugin_gstat
 cargo-risczero
+cargo-bom
