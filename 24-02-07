@@ -14,3 +14,4 @@ llmvm-outsource
 cargo-info
 wasm-opt
 cargo-risczero
+cargo-bitbake
