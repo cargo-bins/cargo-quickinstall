@@ -13,3 +13,4 @@ llmvm-outsource
 llmvm-outsource
 cargo-info
 wasm-opt
+cargo-risczero
