@@ -12,3 +12,4 @@ paru
 cargo-msrv
 paru
 nu_plugin_gstat
+nu_plugin_formats
