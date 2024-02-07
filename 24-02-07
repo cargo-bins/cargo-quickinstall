@@ -18,3 +18,4 @@ nu_plugin_gstat
 cargo-risczero
 cargo-bom
 cargo-bitbake
+cargo-bpf
