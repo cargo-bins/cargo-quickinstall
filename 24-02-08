@@ -5,3 +5,4 @@ wasm-opt
 probe-rs
 probe-rs
 bindgen-cli
+cargo-bitbake
