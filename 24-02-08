@@ -19,3 +19,4 @@ wasmtime-cli
 mise
 wasmtime-cli
 pfetch
+prqlc
