@@ -21,3 +21,4 @@ wasmtime-cli
 pfetch
 prqlc
 netop
+cargo-contract
