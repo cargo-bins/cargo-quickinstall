@@ -4,3 +4,4 @@ wasm-opt
 wasm-opt
 probe-rs
 probe-rs
+bindgen-cli
