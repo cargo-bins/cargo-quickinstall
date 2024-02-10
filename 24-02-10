@@ -13,3 +13,4 @@ cargo-geiger
 monolith
 cargo-geiger
 cargo-bpf
+cargo-bom
