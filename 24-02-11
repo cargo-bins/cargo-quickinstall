@@ -12,3 +12,4 @@ rtx-cli
 cargo-public-api
 evcxr_repl
 release-plz
+mdcat
