@@ -5,3 +5,4 @@ cargo-public-api
 mdcat
 cargo-public-api
 rtx-cli
+evcxr_repl
