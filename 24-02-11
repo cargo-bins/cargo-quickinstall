@@ -10,3 +10,4 @@ release-plz
 mdcat
 rtx-cli
 cargo-public-api
+evcxr_repl
