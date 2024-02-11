@@ -16,3 +16,4 @@ probe-rs
 redoxer
 ironbar
 probe-rs
+prqlc
