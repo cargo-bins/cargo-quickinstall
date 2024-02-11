@@ -25,3 +25,4 @@ release-plz
 rtx-cli
 cargo-bom
 cargo-bpf
+cargo-bpf
