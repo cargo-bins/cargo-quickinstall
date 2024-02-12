@@ -13,3 +13,4 @@ taplo-cli
 nu
 ast-grep
 taplo-cli
+cargo-c
