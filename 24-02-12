@@ -12,3 +12,4 @@ speedtest-rs
 cargo-msrv
 pfetch
 cargo-msrv
+c2rust
