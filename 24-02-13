@@ -12,3 +12,4 @@ cargo-lock
 binstall
 difftastic
 tectonic
+cargo-lock
