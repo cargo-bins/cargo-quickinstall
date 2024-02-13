@@ -25,3 +25,4 @@ cargo-unmaintained
 mdbook-kroki-preprocessor
 rav1e
 cargo-spellcheck
+cargo-bitbake
