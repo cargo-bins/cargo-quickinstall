@@ -10,3 +10,4 @@ taplo-cli
 webreg
 deno
 mkbook
+ast-grep
