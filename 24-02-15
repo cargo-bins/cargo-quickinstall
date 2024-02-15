@@ -15,3 +15,4 @@ webreg
 deno
 mkbook
 ast-grep
+taplo-cli
