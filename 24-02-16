@@ -6,3 +6,4 @@ rustfmt-nightly
 rustfmt-nightly
 cargo-lock
 racer
+clippy
