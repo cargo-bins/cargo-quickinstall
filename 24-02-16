@@ -11,3 +11,4 @@ czkawka_gui
 rustfmt-nightly
 pijul
 clippy
+cargo-lock
