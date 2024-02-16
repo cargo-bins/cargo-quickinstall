@@ -12,3 +12,4 @@ rustfmt-nightly
 pijul
 clippy
 cargo-lock
+racer
