@@ -32,3 +32,4 @@ urdf-viz
 mprocs
 i3status-rs
 nu-completion-script
+c2rust
