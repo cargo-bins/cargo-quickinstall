@@ -16,3 +16,4 @@ cargo-contract
 bpf-linker
 i3status-rs
 mprocs
+cargo-list
