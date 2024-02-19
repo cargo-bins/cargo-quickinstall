@@ -7,3 +7,4 @@ cargo-list
 yai
 cargo-contract
 cargo-list
+bpf-linker
