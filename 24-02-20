@@ -9,3 +9,4 @@ czkawka_gui
 cargo-spellcheck
 cargo-udeps
 inlyne
+cargo-lock
