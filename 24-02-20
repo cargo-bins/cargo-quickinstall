@@ -12,3 +12,4 @@ wasm-opt
 deno
 wasm-opt
 cargo-bpf
+cargo-bpf
