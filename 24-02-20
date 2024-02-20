@@ -2,3 +2,4 @@ inlyne
 cargo-lock
 cargo-spellcheck
 inlyne
+cargo-udeps
