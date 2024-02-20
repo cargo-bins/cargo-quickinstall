@@ -4,3 +4,4 @@ cargo-bom
 cargo-bpf
 sea-orm-cli
 wasm-opt
+sea-orm-cli
