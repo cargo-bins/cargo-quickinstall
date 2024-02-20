@@ -6,3 +6,4 @@ cargo-udeps
 cargo-lock
 inlyne
 czkawka_gui
+cargo-spellcheck
