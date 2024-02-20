@@ -32,3 +32,4 @@ kondo-ui
 c2rust
 binstall
 diffsitter
+swc_cli
