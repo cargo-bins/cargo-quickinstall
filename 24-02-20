@@ -43,3 +43,4 @@ pfetch
 diffsitter
 shadowsocks-rust
 slint-viewer
+cargo-bitbake
