@@ -44,3 +44,4 @@ diffsitter
 shadowsocks-rust
 slint-viewer
 cargo-bitbake
+cargo-spellcheck
