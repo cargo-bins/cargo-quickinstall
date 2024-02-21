@@ -25,3 +25,4 @@ probe-rs-debugger
 pomodoro
 binstall
 cargo-flash
+ruget
