@@ -2,3 +2,4 @@ cargo-component
 bindgen-cli
 cargo-component
 taplo-cli
+bindgen-cli
