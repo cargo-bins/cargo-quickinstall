@@ -10,3 +10,4 @@ binstall
 cargo-flash
 cargo-flash
 cargo-lock
+cargo-spellcheck
