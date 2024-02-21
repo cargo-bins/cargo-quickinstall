@@ -23,3 +23,4 @@ contracts-node
 cargo-risczero
 probe-rs-debugger
 pomodoro
+binstall
