@@ -7,3 +7,4 @@ ghee
 postgrpc
 ghee
 easy-rest-api
+serde_json_diff
