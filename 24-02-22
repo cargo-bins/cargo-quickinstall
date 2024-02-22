@@ -12,3 +12,4 @@ ghee
 easy-rest-api
 postgrpc
 tcpdrop
+serde_json_diff
