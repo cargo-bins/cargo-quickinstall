@@ -3,3 +3,4 @@ bunyan_view
 cargo-lock
 cargo-generate
 gitui
+zellij
