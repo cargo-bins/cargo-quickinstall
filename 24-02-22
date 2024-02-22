@@ -6,3 +6,4 @@ taplo-cli
 deno
 tree-sitter-cli
 taplo-cli
+cargo-prefetch
