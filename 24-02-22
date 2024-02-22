@@ -10,3 +10,4 @@ ghee
 serde_json_diff
 ghee
 easy-rest-api
+postgrpc
