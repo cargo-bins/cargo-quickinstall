@@ -20,3 +20,4 @@ ghee
 postgrpc
 serde_json_diff
 postgrpc
+serde_json_diff
