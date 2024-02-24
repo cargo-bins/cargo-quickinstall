@@ -2,3 +2,4 @@ probe-rs
 cargo-generate
 probe-rs
 zellij
+cargo-generate
