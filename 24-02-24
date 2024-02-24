@@ -11,3 +11,4 @@ cargo-generate
 probe-rs
 zellij
 probe-rs
+rtx-cli
