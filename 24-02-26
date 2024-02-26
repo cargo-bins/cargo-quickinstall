@@ -20,3 +20,4 @@ bindgen-cli
 leftwm-theme
 pomodoro-cli
 clippy
+dump_syms
