@@ -9,3 +9,4 @@ probe-rs
 jless
 mist
 jless
+dump_syms
