@@ -20,3 +20,4 @@ cargo-lock
 qsv
 dump_syms
 cargo-outdated
+cargo-udeps
