@@ -16,3 +16,4 @@ dump_syms
 cargo-outdated
 cargo-udeps
 cargo-spellcheck
+cargo-lock
