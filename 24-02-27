@@ -29,3 +29,4 @@ dump_syms
 cargo-udeps
 qsv
 nuhxboard
+dump_syms
