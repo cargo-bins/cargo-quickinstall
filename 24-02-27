@@ -26,3 +26,4 @@ cargo-lock
 cargo-spellcheck
 nuhxboard
 dump_syms
+cargo-udeps
