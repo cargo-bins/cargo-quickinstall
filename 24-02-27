@@ -12,3 +12,4 @@ cargo-udeps
 qsv
 cargo-spellcheck
 cargo-lock
+dump_syms
