@@ -11,3 +11,4 @@ cargo-outdated
 cargo-udeps
 qsv
 cargo-spellcheck
+cargo-lock
