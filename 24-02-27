@@ -8,3 +8,4 @@ qsv
 cargo-spellcheck
 cargo-lock
 cargo-outdated
+cargo-udeps
