@@ -25,3 +25,4 @@ qsv
 cargo-lock
 cargo-spellcheck
 nuhxboard
+dump_syms
