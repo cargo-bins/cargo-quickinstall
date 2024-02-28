@@ -25,3 +25,4 @@ wasmtime-cli
 rustdesk
 wasmtime-cli
 cargo-bitbake
+cargo-bpf
