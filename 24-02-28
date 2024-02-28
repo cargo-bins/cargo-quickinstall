@@ -19,3 +19,4 @@ rustdesk
 binstall
 binstall
 rustdesk
+wasmtime-cli
