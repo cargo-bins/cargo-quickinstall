@@ -5,3 +5,4 @@ cargo-msrv
 cargo-msrv
 cargo-pgrx
 wasmtime-cli
+cargo-msrv
