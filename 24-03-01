@@ -8,3 +8,4 @@ wasmtime-cli
 cargo-msrv
 cargo-pgrx
 wasmtime-cli
+nu_plugin_gstat
