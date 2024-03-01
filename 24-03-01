@@ -5,3 +5,4 @@ binstall
 elf2uf2-rs
 binstall
 cargo-spellcheck
+cargo-lock
