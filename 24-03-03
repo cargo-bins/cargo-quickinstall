@@ -33,3 +33,4 @@ mdcat
 rg
 pwninit
 shuttle-runtime
+cargo-component
