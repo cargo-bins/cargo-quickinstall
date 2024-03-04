@@ -12,3 +12,4 @@ wasm-opt
 spotify_player
 czkawka_gui
 cargo-contract
+cargo-component
