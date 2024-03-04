@@ -1,3 +1,4 @@
 cargo-geiger
 cargo-lock
 cargo-spellcheck
+cargo-udeps
