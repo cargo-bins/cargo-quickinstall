@@ -13,3 +13,4 @@ cargo-lock
 ncspot
 c2rust
 gpg-tui
+evcxr_jupyter
