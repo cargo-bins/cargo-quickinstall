@@ -10,3 +10,4 @@ evcxr_jupyter
 cargo-udeps
 cargo-outdated
 cargo-lock
+ncspot
