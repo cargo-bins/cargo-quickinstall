@@ -11,3 +11,4 @@ cargo-udeps
 cargo-outdated
 cargo-lock
 ncspot
+c2rust
