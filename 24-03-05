@@ -6,3 +6,4 @@ cargo-udeps
 cargo-lock
 c2rust
 cargo-spellcheck
+evcxr_jupyter
