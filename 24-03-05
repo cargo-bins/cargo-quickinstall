@@ -16,3 +16,4 @@ gpg-tui
 evcxr_jupyter
 cargo-outdated
 cargo-lock
+gpg-tui
