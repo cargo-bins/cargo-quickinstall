@@ -12,3 +12,4 @@ cargo-outdated
 cargo-lock
 ncspot
 c2rust
+gpg-tui
