@@ -21,3 +21,4 @@ ncspot
 c2rust
 evcxr_jupyter
 cargo-outdated
+cargo-lock
