@@ -3,3 +3,4 @@ cargo-lock
 c2rust
 cargo-spellcheck
 cargo-udeps
+cargo-lock
