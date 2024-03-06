@@ -30,3 +30,4 @@ nu_plugin_formats
 difftastic
 cargo-bitbake
 cargo-bpf
+cargo-bom
