@@ -11,3 +11,4 @@ cargo-outdated
 wasmtime-cli
 termscp
 cargo-outdated
+cargo-template
