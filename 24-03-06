@@ -27,3 +27,4 @@ cargo-template
 arti
 nu_plugin_gstat
 nu_plugin_formats
+difftastic
