@@ -8,3 +8,4 @@ wasmtime-cli
 ncspot
 termscp
 cargo-outdated
+wasmtime-cli
