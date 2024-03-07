@@ -3,3 +3,4 @@ cargo-lock
 gitui
 zellij
 cargo-crev
+cargo-lock
