@@ -1,2 +1,3 @@
 amdgpu_top
 cargo-spellcheck
+cargo-lock
