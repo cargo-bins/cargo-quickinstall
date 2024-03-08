@@ -1,3 +1,4 @@
 wasm-opt
 dump_syms
 ast-grep
+wasm-opt
