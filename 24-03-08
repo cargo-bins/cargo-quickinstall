@@ -13,3 +13,4 @@ wasm-opt
 cargo-geiger
 dump_syms
 ast-grep
+wasm-opt
