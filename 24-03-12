@@ -39,3 +39,4 @@ pfetch
 cargo-msrv
 ncspot
 cargo
+cargo-crev
