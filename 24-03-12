@@ -13,3 +13,4 @@ cargo-component
 cargo-udeps
 cargo-lock
 cargo-component
+cargo-lock
