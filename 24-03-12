@@ -20,3 +20,4 @@ cargo-risczero
 cargo-lock
 rust-kanban
 mdcat
+cargo-spellcheck
