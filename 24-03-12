@@ -24,3 +24,4 @@ cargo-spellcheck
 cargo-udeps
 cargo
 cargo-risczero
+cargo-lock
