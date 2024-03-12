@@ -40,3 +40,4 @@ cargo-msrv
 ncspot
 cargo
 cargo-crev
+cargo-bom
