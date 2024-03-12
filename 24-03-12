@@ -9,3 +9,4 @@ rust-kanban
 mdcat
 cargo-lock
 cargo-spellcheck
+cargo-udeps
