@@ -35,3 +35,4 @@ cargo-crev
 cargo-bitbake
 cargo-spellcheck
 bottom
+pfetch
