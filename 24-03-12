@@ -3,3 +3,4 @@ cargo-risczero
 cargo-lock
 cargo-spellcheck
 mdcat
+cargo-udeps
