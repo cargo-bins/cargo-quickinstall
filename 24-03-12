@@ -30,3 +30,4 @@ cargo-udeps
 cargo
 rust-kanban
 cargo-msrv
+cargo
