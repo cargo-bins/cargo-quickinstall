@@ -13,3 +13,4 @@ cargo-udeps
 cargo-risczero
 cargo-spellcheck
 mdcat
+cargo-lock
