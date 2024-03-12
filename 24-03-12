@@ -33,3 +33,4 @@ cargo-msrv
 cargo
 cargo-crev
 cargo-bitbake
+cargo-spellcheck
