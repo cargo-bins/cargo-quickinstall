@@ -31,3 +31,4 @@ cargo
 rust-kanban
 cargo-msrv
 cargo
+cargo-crev
