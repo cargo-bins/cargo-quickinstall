@@ -25,3 +25,4 @@ cargo-udeps
 cargo
 cargo-risczero
 cargo-lock
+rust-kanban
