@@ -9,3 +9,4 @@ cargo-component
 cargo-udeps
 cargo-spellcheck
 cargo-lock
+cargo-component
