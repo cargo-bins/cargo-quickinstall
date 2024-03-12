@@ -32,3 +32,4 @@ rust-kanban
 cargo-msrv
 cargo
 cargo-crev
+cargo-bitbake
