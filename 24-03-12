@@ -27,3 +27,4 @@ cargo-risczero
 cargo-lock
 rust-kanban
 cargo-udeps
+cargo
