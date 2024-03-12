@@ -36,3 +36,4 @@ cargo-bitbake
 cargo-spellcheck
 bottom
 pfetch
+cargo-msrv
