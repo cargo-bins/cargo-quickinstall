@@ -28,3 +28,4 @@ xplr
 spotify_player
 wasmtime-cli
 cargo-bitbake
+cargo-bpf
