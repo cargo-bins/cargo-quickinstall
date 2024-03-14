@@ -9,3 +9,4 @@ taplo-cli
 nix-installer
 cargo-contract
 taplo-cli
+mdbook-kroki-preprocessor
