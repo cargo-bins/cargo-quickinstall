@@ -7,3 +7,4 @@ cargo-contract
 mdbook-kroki-preprocessor
 taplo-cli
 nix-installer
+cargo-contract
