@@ -16,3 +16,4 @@ mdbook-kroki-preprocessor
 nix-installer
 taplo-cli
 cargo-contract
+taplo-cli
