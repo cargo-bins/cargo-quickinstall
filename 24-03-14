@@ -6,3 +6,4 @@ nix-installer
 cargo-contract
 mdbook-kroki-preprocessor
 taplo-cli
+nix-installer
