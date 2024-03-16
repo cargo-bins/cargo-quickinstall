@@ -12,3 +12,4 @@ wasm-opt
 cargo-outdated
 cargo-bom
 cargo-bpf
+cargo-bpf
