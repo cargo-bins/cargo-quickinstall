@@ -10,3 +10,4 @@ gitql
 bindgen-cli
 wasm-opt
 cargo-outdated
+cargo-bom
