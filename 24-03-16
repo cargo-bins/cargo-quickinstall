@@ -3,3 +3,4 @@ gitql
 cargo-outdated
 deno
 gitql
+bindgen-cli
