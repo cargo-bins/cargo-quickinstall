@@ -11,3 +11,4 @@ bindgen-cli
 wasm-opt
 cargo-outdated
 cargo-bom
+cargo-bpf
