@@ -7,3 +7,4 @@ bindgen-cli
 cargo-outdated
 deno
 gitql
+bindgen-cli
