@@ -11,3 +11,4 @@ bluetui
 ironbar
 cargo-show
 cargo-whatfeatures
+wasmtime-cli
