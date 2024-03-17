@@ -19,3 +19,4 @@ wasmtime-cli
 cargo-whatfeatures
 lurk-cli
 qsv
+bluetui
