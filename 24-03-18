@@ -37,3 +37,4 @@ papyrus
 prs-gtk3
 gpg-tui
 prs-cli
+cargo-clone
