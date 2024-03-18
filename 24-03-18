@@ -32,3 +32,4 @@ nu_plugin_gstat
 prs-cli
 leftwm
 cargo-clone
+nu_plugin_gstat
