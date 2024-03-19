@@ -4,3 +4,4 @@ cargo-lock
 cargo-spellcheck
 alacritty
 pwninit
+cargo-udeps
