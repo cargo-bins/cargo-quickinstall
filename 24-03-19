@@ -16,3 +16,4 @@ cargo-lock
 alacritty
 cargo-list
 cargo-udeps
+cargo-list
