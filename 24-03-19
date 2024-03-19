@@ -22,3 +22,4 @@ cargo-lock
 pwninit
 alacritty
 cargo-udeps
+cargo-lock
