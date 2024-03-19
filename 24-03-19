@@ -3,3 +3,4 @@ cargo-list
 cargo-lock
 cargo-spellcheck
 alacritty
+pwninit
