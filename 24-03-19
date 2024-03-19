@@ -24,3 +24,4 @@ alacritty
 cargo-udeps
 cargo-lock
 cargo-list
+cargo-spellcheck
