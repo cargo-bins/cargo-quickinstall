@@ -8,3 +8,4 @@ cargo-udeps
 cargo-lock
 cargo-list
 pwninit
+alacritty
