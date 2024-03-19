@@ -21,3 +21,4 @@ cargo-spellcheck
 cargo-lock
 pwninit
 alacritty
+cargo-udeps
