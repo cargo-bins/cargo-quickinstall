@@ -19,3 +19,4 @@ cargo-udeps
 cargo-list
 cargo-spellcheck
 cargo-lock
+pwninit
