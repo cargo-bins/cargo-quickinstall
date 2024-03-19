@@ -10,3 +10,4 @@ cargo-list
 pwninit
 alacritty
 cargo-spellcheck
+cargo-udeps
