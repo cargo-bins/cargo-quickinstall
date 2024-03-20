@@ -12,3 +12,4 @@ wasmtime-cli
 onedrive-fuse
 xplr
 cargo-bpf
+cargo-bom
