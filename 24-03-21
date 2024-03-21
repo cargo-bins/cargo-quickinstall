@@ -6,3 +6,4 @@ sea-orm-cli
 cargo-component
 cargo-spellcheck
 cargo-udeps
+sea-orm-cli
