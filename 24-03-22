@@ -9,3 +9,4 @@ cargo
 cargo-msrv
 bpf-linker
 cargo
+bpf-linker
