@@ -4,3 +4,4 @@ cargo-lock
 dua-cli
 cargo-local-registry
 cargo-lock
+cargo-local-registry
