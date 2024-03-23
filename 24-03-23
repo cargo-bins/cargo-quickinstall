@@ -13,3 +13,4 @@ cargo-outdated
 bindgen-cli
 bindgen-cli
 cargo-bom
+cargo-bitbake
