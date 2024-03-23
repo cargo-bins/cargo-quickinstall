@@ -12,3 +12,4 @@ bindgen-cli
 cargo-outdated
 bindgen-cli
 bindgen-cli
+cargo-bom
