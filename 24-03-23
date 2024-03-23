@@ -12,3 +12,4 @@ cargo-local-registry
 gitui
 gitui
 jnv
+cargo-lock
