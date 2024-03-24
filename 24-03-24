@@ -11,3 +11,4 @@ ast-grep
 sudo-rs
 irust
 sea-orm-cli
+qsv
