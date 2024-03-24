@@ -5,3 +5,4 @@ pijul
 rustfmt-nightly
 cargo-lock
 clippy
+rustfmt-nightly
