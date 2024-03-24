@@ -30,3 +30,4 @@ sea-orm-cli
 qsv
 sudo-rs
 rioterm
+ast-grep
