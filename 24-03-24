@@ -21,3 +21,4 @@ swc_cli
 sudo-rs
 krokiet
 rioterm
+ast-grep
