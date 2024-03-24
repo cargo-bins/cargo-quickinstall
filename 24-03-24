@@ -10,3 +10,4 @@ spotify_player
 ast-grep
 sudo-rs
 irust
+sea-orm-cli
