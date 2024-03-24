@@ -13,3 +13,4 @@ racer
 cargo-lock
 clippy
 czkawka_gui
+rustfmt-nightly
