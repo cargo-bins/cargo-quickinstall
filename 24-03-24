@@ -39,3 +39,4 @@ rioterm
 ast-grep
 krokiet
 sudo-rs
+swc_cli
