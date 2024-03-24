@@ -1,3 +1,4 @@
 mise
 wasm-opt
 cargo-bpf
+cargo-bom
