@@ -50,3 +50,4 @@ bindgen-cli
 hawkeye
 alacritty
 ouch
+cargo-bom
