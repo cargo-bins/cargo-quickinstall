@@ -20,3 +20,4 @@ cargo-hf2
 szyszka
 cargo-lock
 redoxer
+cargo-udeps
