@@ -22,3 +22,4 @@ cargo-lock
 redoxer
 cargo-udeps
 szyszka
+py-spy
