@@ -3,3 +3,4 @@ cargo-lock
 szyszka
 cargo-hf2
 cargo-spellcheck
+py-spy
