@@ -29,3 +29,4 @@ porsmo
 cargo-lock
 cargo-spellcheck
 redoxer
+cargo-udeps
