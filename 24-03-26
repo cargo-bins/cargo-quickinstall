@@ -30,3 +30,4 @@ cargo-lock
 cargo-spellcheck
 redoxer
 cargo-udeps
+czkawka_gui
