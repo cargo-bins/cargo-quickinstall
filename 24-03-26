@@ -5,3 +5,4 @@ cargo-hf2
 cargo-spellcheck
 py-spy
 czkawka_gui
+cargo-udeps
