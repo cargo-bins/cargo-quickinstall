@@ -10,3 +10,4 @@ tectonic
 oculante
 tree-sitter-cli
 wasmtime-cli
+cargo-bitbake
