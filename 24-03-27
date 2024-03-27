@@ -11,3 +11,4 @@ oculante
 tree-sitter-cli
 wasmtime-cli
 cargo-bitbake
+cargo-bom
