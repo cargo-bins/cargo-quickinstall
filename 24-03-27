@@ -7,3 +7,4 @@ evcxr_jupyter
 cargo-udeps
 cargo-spellcheck
 cargo-lock
+ncspot
