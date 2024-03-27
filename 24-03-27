@@ -10,3 +10,4 @@ cargo-lock
 ncspot
 mise
 irust
+evcxr_jupyter
