@@ -4,3 +4,4 @@ mise
 irust
 cargo-spellcheck
 evcxr_jupyter
+cargo-udeps
