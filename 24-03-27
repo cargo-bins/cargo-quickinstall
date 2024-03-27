@@ -3,3 +3,4 @@ cargo-lock
 mise
 irust
 cargo-spellcheck
+evcxr_jupyter
