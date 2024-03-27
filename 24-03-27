@@ -13,3 +13,4 @@ irust
 evcxr_jupyter
 cargo-udeps
 cargo-lock
+cargo-spellcheck
