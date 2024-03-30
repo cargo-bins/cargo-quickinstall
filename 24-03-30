@@ -57,3 +57,4 @@ dprint
 sccache
 cargo-udeps
 cargo-bom
+cargo-bitbake
