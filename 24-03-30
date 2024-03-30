@@ -53,3 +53,4 @@ cargo-bitbake
 grcov
 cocogitto
 cargo-generate
+dprint
