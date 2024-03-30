@@ -11,3 +11,4 @@ sccache
 taplo-cli
 cargo-lock
 grcov
+bottom
