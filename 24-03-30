@@ -50,3 +50,4 @@ taplo-cli
 cargo-bom
 cargo-spellcheck
 cargo-bitbake
+grcov
