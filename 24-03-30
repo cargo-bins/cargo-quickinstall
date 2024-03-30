@@ -45,3 +45,4 @@ cocogitto
 cargo-generate
 dprint
 sccache
+cargo-udeps
