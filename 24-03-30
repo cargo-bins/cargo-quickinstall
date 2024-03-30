@@ -61,3 +61,4 @@ cargo-bitbake
 taplo-cli
 cargo-bpf
 cargo-spellcheck
+broot
