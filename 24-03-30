@@ -64,3 +64,4 @@ cargo-spellcheck
 broot
 cargo-generate
 cargo-c
+cargo-bom
