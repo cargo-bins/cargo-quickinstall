@@ -36,3 +36,4 @@ cargo-generate
 broot
 dprint
 cargo-udeps
+cargo-lock
