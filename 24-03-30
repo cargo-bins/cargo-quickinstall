@@ -47,3 +47,4 @@ dprint
 sccache
 cargo-udeps
 taplo-cli
+cargo-bom
