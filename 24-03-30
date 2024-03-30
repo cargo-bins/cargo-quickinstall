@@ -60,3 +60,4 @@ cargo-bom
 cargo-bitbake
 taplo-cli
 cargo-bpf
+cargo-spellcheck
