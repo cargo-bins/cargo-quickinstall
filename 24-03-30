@@ -46,3 +46,4 @@ cargo-generate
 dprint
 sccache
 cargo-udeps
+taplo-cli
