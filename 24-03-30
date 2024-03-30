@@ -6,3 +6,4 @@ grcov
 cocogitto
 zellij
 broot
+cargo-udeps
