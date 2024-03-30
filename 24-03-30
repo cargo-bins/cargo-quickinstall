@@ -70,3 +70,4 @@ cargo-bpf
 cargo-generate
 cargo-clone
 cargo-c
+cargo-bpf
