@@ -9,3 +9,4 @@ broot
 cargo-udeps
 sccache
 taplo-cli
+cargo-lock
