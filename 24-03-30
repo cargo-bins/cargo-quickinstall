@@ -63,3 +63,4 @@ cargo-bpf
 cargo-spellcheck
 broot
 cargo-generate
+cargo-c
