@@ -51,3 +51,4 @@ cargo-bom
 cargo-spellcheck
 cargo-bitbake
 grcov
+cocogitto
