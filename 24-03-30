@@ -32,3 +32,4 @@ bottom
 grcov
 cocogitto
 zellij
+cargo-generate
