@@ -54,3 +54,4 @@ grcov
 cocogitto
 cargo-generate
 dprint
+sccache
