@@ -18,3 +18,4 @@ broot
 sccache
 cargo-udeps
 cargo-lock
+taplo-cli
