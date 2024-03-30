@@ -8,3 +8,4 @@ zellij
 broot
 cargo-udeps
 sccache
+taplo-cli
