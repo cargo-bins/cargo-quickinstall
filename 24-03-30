@@ -20,3 +20,4 @@ cargo-udeps
 cargo-lock
 taplo-cli
 grcov
+cargo-spellcheck
