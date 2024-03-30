@@ -28,3 +28,4 @@ dprint
 sccache
 cargo-spellcheck
 cargo-lock
+bottom
