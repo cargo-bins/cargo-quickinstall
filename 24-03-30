@@ -66,3 +66,4 @@ cargo-generate
 cargo-c
 cargo-bom
 cargo-bitbake
+cargo-bpf
