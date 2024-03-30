@@ -76,3 +76,4 @@ cargo-bitbake
 cargo-clone-crate
 cargo-clone
 cargo-c
+cargo-bom
