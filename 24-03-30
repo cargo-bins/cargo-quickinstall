@@ -17,3 +17,4 @@ dprint
 broot
 sccache
 cargo-udeps
+cargo-lock
