@@ -10,3 +10,4 @@ wasm-opt
 mise
 mise
 cargo-bitbake
+cargo-bpf
