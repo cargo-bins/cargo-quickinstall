@@ -65,3 +65,4 @@ broot
 cargo-generate
 cargo-c
 cargo-bom
+cargo-bitbake
