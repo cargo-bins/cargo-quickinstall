@@ -79,3 +79,4 @@ cargo-c
 cargo-bom
 cargo-bitbake
 cargo-clone-crate
+cargo-bpf
