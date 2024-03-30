@@ -16,3 +16,4 @@ zellij
 dprint
 broot
 sccache
+cargo-udeps
