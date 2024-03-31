@@ -9,3 +9,4 @@ cargo-outdated
 monolith
 wasm-opt
 cargo-bpf
+cargo-bom
