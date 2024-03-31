@@ -7,3 +7,4 @@ cargo-outdated
 monolith
 cargo-outdated
 monolith
+wasm-opt
