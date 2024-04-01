@@ -7,3 +7,4 @@ bugstalker
 deno
 redoxer
 lune
+wasm-opt
