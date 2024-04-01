@@ -17,3 +17,4 @@ deno
 spotify_player
 bugstalker
 lune
+wasm-opt
