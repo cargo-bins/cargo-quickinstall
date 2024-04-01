@@ -9,3 +9,4 @@ gitui
 cargo-lock
 cargo-generate
 zellij
+cargo-lock
