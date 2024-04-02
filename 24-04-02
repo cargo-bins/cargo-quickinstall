@@ -34,3 +34,4 @@ redoxer
 cargo-udeps
 cargo-lock
 jql
+cargo-msrv
