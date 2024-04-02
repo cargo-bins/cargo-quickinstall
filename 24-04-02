@@ -13,3 +13,4 @@ cargo-udeps
 jql
 cargo-msrv
 gpg-tui
+cargo-lock
