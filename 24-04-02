@@ -36,3 +36,4 @@ cargo-lock
 jql
 cargo-msrv
 redoxer
+typst-cli
