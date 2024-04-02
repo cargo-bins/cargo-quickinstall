@@ -32,3 +32,4 @@ bogrep
 jql
 redoxer
 cargo-udeps
+cargo-lock
