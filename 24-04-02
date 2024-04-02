@@ -11,3 +11,4 @@ gpg-tui
 wasm-opt
 cargo-udeps
 jql
+cargo-msrv
