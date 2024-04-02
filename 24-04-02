@@ -5,3 +5,4 @@ wasm-opt
 bogrep
 cargo-spellcheck
 cargo-lock
+cargo-msrv
