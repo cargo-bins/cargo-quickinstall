@@ -6,3 +6,4 @@ bogrep
 cargo-spellcheck
 cargo-lock
 cargo-msrv
+jql
