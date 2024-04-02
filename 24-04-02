@@ -15,3 +15,4 @@ cargo-msrv
 gpg-tui
 cargo-lock
 bogrep
+cargo-spellcheck
