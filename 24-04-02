@@ -21,3 +21,4 @@ cargo-lock
 bogrep
 jql
 gpg-tui
+cargo-msrv
