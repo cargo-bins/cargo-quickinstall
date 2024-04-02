@@ -25,3 +25,4 @@ cargo-msrv
 cargo-spellcheck
 cargo-udeps
 cargo-lock
+gpg-tui
