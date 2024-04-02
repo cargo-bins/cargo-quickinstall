@@ -18,3 +18,4 @@ bogrep
 cargo-spellcheck
 cargo-udeps
 cargo-lock
+bogrep
