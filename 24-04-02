@@ -38,3 +38,4 @@ cargo-msrv
 redoxer
 typst-cli
 termusic
+termusic-server
