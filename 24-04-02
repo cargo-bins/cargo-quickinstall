@@ -31,3 +31,4 @@ cargo-spellcheck
 bogrep
 jql
 redoxer
+cargo-udeps
