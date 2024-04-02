@@ -28,3 +28,4 @@ cargo-lock
 gpg-tui
 cargo-msrv
 cargo-spellcheck
+bogrep
