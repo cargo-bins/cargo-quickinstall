@@ -26,3 +26,4 @@ cargo-spellcheck
 cargo-udeps
 cargo-lock
 gpg-tui
+cargo-msrv
