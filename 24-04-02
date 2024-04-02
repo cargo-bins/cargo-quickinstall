@@ -8,3 +8,4 @@ cargo-lock
 cargo-msrv
 jql
 gpg-tui
+wasm-opt
