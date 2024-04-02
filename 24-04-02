@@ -30,3 +30,4 @@ cargo-msrv
 cargo-spellcheck
 bogrep
 jql
+redoxer
