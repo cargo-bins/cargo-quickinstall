@@ -4,3 +4,4 @@ gpg-tui
 wasm-opt
 bogrep
 cargo-spellcheck
+cargo-lock
