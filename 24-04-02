@@ -40,3 +40,4 @@ typst-cli
 termusic
 termusic-server
 cargo-bitbake
+cargo-spellcheck
