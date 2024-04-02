@@ -16,3 +16,4 @@ gpg-tui
 cargo-lock
 bogrep
 cargo-spellcheck
+cargo-udeps
