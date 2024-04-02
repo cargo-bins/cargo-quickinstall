@@ -17,3 +17,4 @@ cargo-lock
 bogrep
 cargo-spellcheck
 cargo-udeps
+cargo-lock
