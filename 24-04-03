@@ -6,3 +6,4 @@ evcxr_repl
 cargo-public-api
 evcxr_repl
 pomodoro-cli
+nu_plugin_formats
