@@ -17,3 +17,4 @@ cargo-lock
 cargo-whatfeatures
 cargo-outdated
 cargo-geiger
+cargo-lock
