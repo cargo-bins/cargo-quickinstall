@@ -18,3 +18,4 @@ porsmo
 pomodoro-cli
 debcargo
 wasmtime-cli
+cargo-bpf
