@@ -19,3 +19,4 @@ pomodoro-cli
 debcargo
 wasmtime-cli
 cargo-bpf
+cargo-bom
