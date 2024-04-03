@@ -17,3 +17,4 @@ nu_plugin_formats
 porsmo
 pomodoro-cli
 debcargo
+wasmtime-cli
