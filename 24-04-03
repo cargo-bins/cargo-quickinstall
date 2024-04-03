@@ -10,3 +10,4 @@ cargo-spellcheck
 cargo-udeps
 cargo-geiger
 cargo-whatfeatures
+cargo-lock
