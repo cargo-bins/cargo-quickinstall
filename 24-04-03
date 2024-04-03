@@ -13,3 +13,4 @@ cargo-whatfeatures
 cargo-lock
 cargo-spellcheck
 cargo-geiger
+cargo-lock
