@@ -19,3 +19,4 @@ cargo-outdated
 cargo-geiger
 cargo-lock
 rustic-rs
+cargo-whatfeatures
