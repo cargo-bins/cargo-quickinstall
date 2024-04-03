@@ -8,3 +8,4 @@ evcxr_repl
 pomodoro-cli
 nu_plugin_formats
 nu_plugin_gstat
+cargo-public-api
