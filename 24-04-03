@@ -20,3 +20,4 @@ debcargo
 wasmtime-cli
 cargo-bpf
 cargo-bom
+cargo-bpf
