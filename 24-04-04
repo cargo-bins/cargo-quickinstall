@@ -6,3 +6,4 @@ cargo-spellcheck
 sea-orm-cli
 cargo-udeps
 sea-orm-cli
+cargo-bitbake
