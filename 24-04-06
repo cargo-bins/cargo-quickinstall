@@ -21,3 +21,4 @@ rustfmt-nightly
 pijul
 binstall
 czkawka_gui
+clippy
