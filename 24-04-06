@@ -13,3 +13,4 @@ clippy
 pijul
 binstall
 rustfmt-nightly
+clippy
