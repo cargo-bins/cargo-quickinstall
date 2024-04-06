@@ -26,3 +26,4 @@ clippy
 czkawka_gui
 pijul
 racer
+rustfmt-nightly
