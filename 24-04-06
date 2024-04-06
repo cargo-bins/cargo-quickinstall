@@ -17,3 +17,4 @@ clippy
 czkawka_gui
 racer
 racer
+rustfmt-nightly
