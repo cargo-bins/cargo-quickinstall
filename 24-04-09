@@ -17,3 +17,4 @@ cargo-spellcheck
 cargo-lock
 cargo-msrv
 sniffnet
+redoxer
