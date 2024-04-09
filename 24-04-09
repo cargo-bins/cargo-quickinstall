@@ -22,3 +22,4 @@ ic-wasm
 cargo-udeps
 termusic
 cargo-lock
+cargo-msrv
