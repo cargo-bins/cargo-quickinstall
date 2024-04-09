@@ -21,3 +21,4 @@ redoxer
 ic-wasm
 cargo-udeps
 termusic
+cargo-lock
