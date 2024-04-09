@@ -26,3 +26,4 @@ cargo-msrv
 cargo-spellcheck
 sniffnet
 ic-wasm
+cargo-udeps
