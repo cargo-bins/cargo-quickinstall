@@ -2,3 +2,4 @@ sequoia-sop
 cargo-lock
 cargo-template
 sequoia-sop
+diesel_cli
