@@ -30,3 +30,4 @@ cargo-udeps
 cargo-msrv
 cargo-lock
 termusic
+cargo-spellcheck
