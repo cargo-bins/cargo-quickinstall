@@ -19,3 +19,4 @@ cargo-msrv
 sniffnet
 redoxer
 ic-wasm
+cargo-udeps
