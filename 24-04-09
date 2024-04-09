@@ -28,3 +28,4 @@ sniffnet
 ic-wasm
 cargo-udeps
 cargo-msrv
+cargo-lock
