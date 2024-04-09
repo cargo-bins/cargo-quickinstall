@@ -12,3 +12,4 @@ cargo-spellcheck
 redoxer
 sniffnet
 ic-wasm
+cargo-udeps
