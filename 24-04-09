@@ -3,3 +3,4 @@ ic-wasm
 cargo-lock
 cargo-spellcheck
 cargo-msrv
+sniffnet
