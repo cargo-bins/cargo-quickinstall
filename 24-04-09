@@ -15,3 +15,4 @@ pwninit
 authoscope
 sniffnet
 cargo-bpf
+cargo-bitbake
