@@ -5,3 +5,4 @@ cargo-spellcheck
 cargo-msrv
 sniffnet
 ic-wasm
+cargo-udeps
