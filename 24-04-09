@@ -16,3 +16,4 @@ authoscope
 sniffnet
 cargo-bpf
 cargo-bitbake
+cargo-bom
