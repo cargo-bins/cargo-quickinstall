@@ -14,3 +14,4 @@ binsec
 pwninit
 authoscope
 sniffnet
+cargo-bpf
