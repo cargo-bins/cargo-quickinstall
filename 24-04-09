@@ -6,3 +6,4 @@ cargo-msrv
 sniffnet
 ic-wasm
 cargo-udeps
+cargo-msrv
