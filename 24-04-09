@@ -10,3 +10,4 @@ cargo-msrv
 cargo-lock
 cargo-spellcheck
 redoxer
+sniffnet
