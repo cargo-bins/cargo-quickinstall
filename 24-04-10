@@ -33,3 +33,4 @@ carapace
 alacritty
 shadowsocks-rust
 wasmtime-cli
+cargo-bitbake
