@@ -14,3 +14,4 @@ nu_plugin_formats
 graphql_client_cli
 nu_plugin_gstat
 nu_plugin_formats
+nu_plugin_gstat
