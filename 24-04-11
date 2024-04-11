@@ -17,3 +17,4 @@ nu_plugin_formats
 nu_plugin_gstat
 graphql_client_cli
 cargo-c
+cargo-c
