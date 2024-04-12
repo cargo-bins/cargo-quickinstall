@@ -6,3 +6,4 @@ cargo-list
 deno
 ripgrep
 cargo-list
+sqlx-cli
