@@ -16,3 +16,4 @@ cargo-udeps
 mdcat
 cargo-lock
 cargo-spellcheck
+turbocommit
