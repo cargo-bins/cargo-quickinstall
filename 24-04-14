@@ -8,3 +8,4 @@ cargo-udeps
 qsv
 wasm-opt
 qsv
+sea-orm-cli
