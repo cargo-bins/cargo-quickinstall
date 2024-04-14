@@ -6,3 +6,4 @@ cargo-spellcheck
 qsv
 cargo-udeps
 qsv
+wasm-opt
