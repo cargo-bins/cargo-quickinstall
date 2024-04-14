@@ -11,3 +11,4 @@ cargo-spellcheck
 taplo-cli
 cargo-lock
 cargo-spellcheck
+cargo-lock
