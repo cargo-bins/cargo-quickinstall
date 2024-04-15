@@ -22,3 +22,4 @@ i3status-rs
 binstall
 kalc
 cargo-near
+wasm-opt
