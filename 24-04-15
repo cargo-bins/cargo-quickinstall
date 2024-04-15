@@ -4,3 +4,4 @@ sqlx-cli
 sqlx-cli
 sqlx-cli
 cargo-bitbake
+cargo-bom
