@@ -9,3 +9,4 @@ cargo-udeps
 sea-orm-cli
 cargo-lock
 cargo-feature-analyst
+deno
