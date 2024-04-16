@@ -18,3 +18,4 @@ cargo-lock
 sshx
 cargo-spellcheck
 cargo-udeps
+cargo-feature-analyst
