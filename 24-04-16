@@ -5,3 +5,4 @@ cargo-spellcheck
 sea-orm-cli
 sshx
 deno
+cargo-udeps
