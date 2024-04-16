@@ -3,3 +3,4 @@ sea-orm-cli
 cargo-lock
 cargo-spellcheck
 sea-orm-cli
+sshx
