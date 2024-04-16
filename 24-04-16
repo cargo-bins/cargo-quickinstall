@@ -31,3 +31,4 @@ redoxer
 cargo-udeps
 cargo-feature-analyst
 cargo-bitbake
+cargo-bom
