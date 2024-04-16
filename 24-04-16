@@ -13,3 +13,4 @@ deno
 cargo-spellcheck
 sshx
 cargo-udeps
+cargo-feature-analyst
