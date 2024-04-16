@@ -10,3 +10,4 @@ sea-orm-cli
 cargo-lock
 cargo-feature-analyst
 deno
+cargo-spellcheck
