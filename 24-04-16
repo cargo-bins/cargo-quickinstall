@@ -27,3 +27,4 @@ cargo-udeps
 cargo-lock
 cargo-feature-analyst
 cargo-spellcheck
+redoxer
