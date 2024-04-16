@@ -17,3 +17,4 @@ cargo-geiger
 cargo-whatfeatures
 mise
 cargo-bpf
+cargo-bitbake
