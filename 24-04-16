@@ -7,3 +7,4 @@ sshx
 deno
 cargo-udeps
 sea-orm-cli
+cargo-lock
