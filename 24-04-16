@@ -1,3 +1,4 @@
 probe-rs
 cargo-bitbake
 cargo-bom
+cargo-bpf
