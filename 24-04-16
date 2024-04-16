@@ -12,3 +12,4 @@ cargo-feature-analyst
 deno
 cargo-spellcheck
 sshx
+cargo-udeps
