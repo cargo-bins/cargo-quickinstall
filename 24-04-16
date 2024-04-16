@@ -3,3 +3,4 @@ cargo-bitbake
 cargo-bom
 cargo-bpf
 probe-rs
+cargo-geiger
