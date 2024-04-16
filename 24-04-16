@@ -30,3 +30,4 @@ cargo-spellcheck
 redoxer
 cargo-udeps
 cargo-feature-analyst
+cargo-bitbake
