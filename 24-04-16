@@ -25,3 +25,4 @@ sshx
 redoxer
 cargo-udeps
 cargo-lock
+cargo-feature-analyst
