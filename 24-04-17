@@ -30,3 +30,4 @@ ncspot
 wasmtime-cli
 rvimage
 cargo-bpf
+cargo-bitbake
