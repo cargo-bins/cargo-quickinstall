@@ -4,3 +4,4 @@ elf2uf2-rs
 i3status-rs
 cargo-lock
 cargo-spellcheck
+cargo-lock
