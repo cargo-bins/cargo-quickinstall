@@ -2,3 +2,4 @@ mprocs
 elf2uf2-rs
 elf2uf2-rs
 i3status-rs
+cargo-lock
