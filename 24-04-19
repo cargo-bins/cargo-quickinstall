@@ -16,3 +16,4 @@ cargo-lock
 wrangler
 sqlx-cli
 wrangler
+sqlx-cli
