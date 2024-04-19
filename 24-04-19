@@ -14,3 +14,4 @@ oha
 wrangler
 cargo-lock
 wrangler
+sqlx-cli
