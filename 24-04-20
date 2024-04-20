@@ -1,3 +1,4 @@
 nu
 cargo-lock
 nu
+wasm-opt
