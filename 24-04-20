@@ -9,3 +9,4 @@ cargo-lock
 nu
 wasm-opt
 cargo-lock
+cargo-spellcheck
