@@ -11,3 +11,4 @@ cotp
 rg
 dlint
 swc_cli
+tree-sitter-cli
