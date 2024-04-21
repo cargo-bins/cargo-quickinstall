@@ -10,3 +10,4 @@ kalker
 wasm-opt
 cargo-risczero
 kalker
+cargo-spellcheck
