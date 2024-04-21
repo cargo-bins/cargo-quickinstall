@@ -11,3 +11,4 @@ wasm-opt
 cargo-risczero
 kalker
 cargo-spellcheck
+cargo-udeps
