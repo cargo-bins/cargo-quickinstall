@@ -30,3 +30,4 @@ rust-kanban
 tectonic
 stgit
 cargo-bitbake
+cargo-bom
