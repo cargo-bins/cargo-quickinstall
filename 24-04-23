@@ -19,3 +19,4 @@ rust-kanban
 cargo-lock
 tectonic
 cargo-udeps
+cargo-lock
