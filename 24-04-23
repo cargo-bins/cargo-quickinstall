@@ -13,3 +13,4 @@ cargo-spellcheck
 rust-kanban
 ncspot
 tectonic
+cargo-udeps
