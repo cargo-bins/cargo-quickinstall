@@ -17,3 +17,4 @@ cargo-udeps
 cargo-spellcheck
 rust-kanban
 cargo-lock
+tectonic
