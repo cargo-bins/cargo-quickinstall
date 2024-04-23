@@ -11,3 +11,4 @@ cargo-udeps
 cargo-lock
 cargo-spellcheck
 rust-kanban
+ncspot
