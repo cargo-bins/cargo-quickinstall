@@ -24,3 +24,4 @@ cargo-component
 mprocs
 golem-cli
 sniffnet
+wasmtime-cli
