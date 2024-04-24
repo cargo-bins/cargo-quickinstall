@@ -8,3 +8,4 @@ golem-cli
 sea-orm-cli
 cargo-component
 golem-cli
+mprocs
