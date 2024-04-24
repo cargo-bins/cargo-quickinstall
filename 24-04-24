@@ -7,3 +7,4 @@ cargo-outdated
 mise
 cargo-bitbake
 cargo-bom
+cargo-bpf
