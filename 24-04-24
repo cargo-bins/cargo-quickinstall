@@ -10,3 +10,4 @@ cargo-component
 golem-cli
 mprocs
 cargo-component
+sea-orm-cli
