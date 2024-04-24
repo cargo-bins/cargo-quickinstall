@@ -12,3 +12,4 @@ mprocs
 cargo-component
 sea-orm-cli
 golem-cli
+ripdrag
