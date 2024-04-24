@@ -6,3 +6,4 @@ cargo-outdated
 cargo-outdated
 mise
 cargo-bitbake
+cargo-bom
