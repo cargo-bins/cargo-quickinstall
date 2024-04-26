@@ -5,3 +5,4 @@ deno
 surrealdb-migrations
 lan-mouse
 material
+diesel_cli
