@@ -14,3 +14,4 @@ sqlx-cli
 cargo-lock
 kaspa-miner
 diesel_cli
+rcache
