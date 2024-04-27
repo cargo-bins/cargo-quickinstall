@@ -10,3 +10,4 @@ cargo-lock
 sqlx-cli
 cargo-lock
 kaspa-miner
+sqlx-cli
