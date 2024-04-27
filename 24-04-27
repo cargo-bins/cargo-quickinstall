@@ -5,3 +5,4 @@ kaspa-miner
 zellij
 cargo-lock
 kaspa-miner
+sqlx-cli
