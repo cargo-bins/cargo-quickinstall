@@ -4,3 +4,4 @@ cargo-spellcheck
 dump_syms
 wasm-opt
 cargo-udeps
+cargo-lock
