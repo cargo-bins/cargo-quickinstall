@@ -7,3 +7,4 @@ cargo-udeps
 cargo-lock
 dump_syms
 wasm-opt
+cargo-udeps
