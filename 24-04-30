@@ -10,3 +10,4 @@ cargo-spellcheck
 cargo-lock
 termusic
 termusic-server
+cargo-udeps
