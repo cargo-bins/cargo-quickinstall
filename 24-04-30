@@ -14,3 +14,4 @@ cargo-udeps
 termusic
 cargo-lock
 termusic-server
+cargo-spellcheck
