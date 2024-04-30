@@ -5,3 +5,4 @@ diesel_cli
 cargo-lock
 binstall
 diesel_cli
+binstall
