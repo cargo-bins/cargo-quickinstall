@@ -13,3 +13,4 @@ termusic-server
 cargo-udeps
 termusic
 cargo-lock
+termusic-server
