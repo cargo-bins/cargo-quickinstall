@@ -5,3 +5,4 @@ termusic-server
 cargo-lock
 termusic
 bottom
+cargo-udeps
