@@ -21,3 +21,4 @@ cargo-spellcheck
 termusic
 zee
 cargo-lock
+cargo-udeps
