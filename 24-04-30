@@ -6,3 +6,4 @@ cargo-lock
 termusic
 bottom
 cargo-udeps
+cargo-spellcheck
