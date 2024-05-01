@@ -21,3 +21,4 @@ pfetch
 golem-cli
 cargo-pgrx
 wasmtime-cli
+pfetch
