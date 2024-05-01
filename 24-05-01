@@ -32,3 +32,4 @@ stl-thumb
 cargo-dylint
 arti
 nu_plugin_gstat
+nu_plugin_formats
