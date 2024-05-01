@@ -27,3 +27,4 @@ wasmtime-cli
 cargo-dylint
 arti
 nu_plugin_formats
+cargo-pgrx
