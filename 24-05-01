@@ -31,3 +31,4 @@ cargo-pgrx
 stl-thumb
 cargo-dylint
 arti
+nu_plugin_gstat
