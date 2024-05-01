@@ -36,3 +36,4 @@ nu_plugin_formats
 stl-thumb
 wasmtime-cli
 cargo-bitbake
+cargo-bom
