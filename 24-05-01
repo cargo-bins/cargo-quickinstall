@@ -13,3 +13,4 @@ nu
 nu
 tree-sitter-cli
 wasm-opt
+cargo-bitbake
