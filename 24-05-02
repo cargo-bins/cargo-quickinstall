@@ -32,3 +32,4 @@ porsmo
 ncspot
 ast-grep
 wasmtime-cli
+cargo-c
