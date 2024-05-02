@@ -1,3 +1,4 @@
 binstall
 golem-cli
 cargo-lock
+cargo-spellcheck
