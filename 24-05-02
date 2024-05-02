@@ -21,3 +21,4 @@ hvm
 printimg
 rioterm
 ddt
+cynic-cli
