@@ -4,3 +4,4 @@ rioterm
 deno
 shadowsocks-rust
 deno
+ast-grep
