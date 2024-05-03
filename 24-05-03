@@ -1,3 +1,4 @@
 wasm-opt
 cargo-risczero
 cargo-bom
+cargo-bitbake
