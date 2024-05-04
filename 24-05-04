@@ -27,3 +27,4 @@ tree-sitter-cli
 bugstalker
 cargo-duplicates
 bpf-linker
+wasmtime-cli
