@@ -28,3 +28,4 @@ bugstalker
 cargo-duplicates
 bpf-linker
 wasmtime-cli
+cargo-duplicates
