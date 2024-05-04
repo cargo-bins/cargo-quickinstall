@@ -25,3 +25,4 @@ bugstalker
 bpf-linker
 tree-sitter-cli
 bugstalker
+cargo-duplicates
