@@ -20,3 +20,4 @@ tree-sitter-cli
 fend
 bpf-linker
 fend
+cargo-duplicates
