@@ -22,3 +22,4 @@ bpf-linker
 fend
 cargo-duplicates
 bugstalker
+bpf-linker
