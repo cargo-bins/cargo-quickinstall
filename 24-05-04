@@ -26,3 +26,4 @@ bpf-linker
 tree-sitter-cli
 bugstalker
 cargo-duplicates
+bpf-linker
