@@ -13,3 +13,4 @@ cargo-lock
 codelist
 ttfb
 git-disjoint
+gltf-viewer
