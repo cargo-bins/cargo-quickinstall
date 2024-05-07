@@ -10,3 +10,4 @@ cargo-udeps
 fend
 cargo-lock
 cargo-spellcheck
+cargo-udeps
