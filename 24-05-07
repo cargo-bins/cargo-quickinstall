@@ -1,3 +1,4 @@
 coreos-installer
 coreos-installer
 cargo-lock
+cargo-spellcheck
