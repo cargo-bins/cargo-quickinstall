@@ -9,3 +9,4 @@ fend
 cargo-udeps
 fend
 cargo-lock
+cargo-spellcheck
