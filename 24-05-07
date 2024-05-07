@@ -4,3 +4,4 @@ cargo-lock
 cargo-spellcheck
 cargo-udeps
 coreos-installer
+cargo-lock
