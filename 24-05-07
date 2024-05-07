@@ -2,3 +2,4 @@ fend
 cargo-lock
 fend
 cargo-spellcheck
+cargo-udeps
