@@ -7,3 +7,4 @@ coreos-installer
 cargo-lock
 ncspot
 cargo-spellcheck
+cargo-udeps
