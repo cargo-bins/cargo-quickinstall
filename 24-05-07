@@ -26,3 +26,4 @@ ripdrag
 cargo-bitbake
 cargo-spellcheck
 bottom
+cargo-udeps
