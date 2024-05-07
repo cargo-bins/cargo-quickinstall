@@ -11,3 +11,4 @@ fend
 cargo-lock
 cargo-spellcheck
 cargo-udeps
+cargo-lock
