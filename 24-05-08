@@ -14,3 +14,4 @@ mprocs
 qsv
 cargo-bom
 cargo-bitbake
+cargo-bpf
