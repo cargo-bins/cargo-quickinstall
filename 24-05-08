@@ -11,3 +11,4 @@ wasmtime-cli
 swc_cli
 mprocs
 mprocs
+qsv
