@@ -12,3 +12,4 @@ redoxer
 ast-grep
 porsmo
 taplo-cli
+nu_plugin_polars
