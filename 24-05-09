@@ -12,3 +12,4 @@ cargo-extras
 cargo-lock
 cargo-dylint
 ncspot
+cargo-extras
