@@ -10,3 +10,4 @@ cargo-extras
 cargo-count
 cargo-extras
 cargo-lock
+cargo-dylint
