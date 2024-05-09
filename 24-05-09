@@ -5,3 +5,4 @@ deno
 cargo-dylint
 cargo-count
 ncspot
+cargo-lock
