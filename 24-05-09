@@ -6,3 +6,4 @@ cargo-dylint
 cargo-count
 ncspot
 cargo-lock
+cargo-extras
