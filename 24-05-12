@@ -13,3 +13,4 @@ tree-sitter-cli
 shadowsocks-rust
 wasmtime-cli
 tree-sitter-cli
+ast-grep
