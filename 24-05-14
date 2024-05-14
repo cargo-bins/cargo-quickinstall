@@ -13,3 +13,4 @@ cargo-udeps
 hybrid-bar
 cargo-spellcheck
 cargo-lock
+golem-cli
