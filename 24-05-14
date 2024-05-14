@@ -18,3 +18,4 @@ cargo-udeps
 xplr
 hybrid-bar
 cargo-lock
+cargo-spellcheck
