@@ -17,3 +17,4 @@ golem-cli
 cargo-udeps
 xplr
 hybrid-bar
+cargo-lock
