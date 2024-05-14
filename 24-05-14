@@ -30,3 +30,4 @@ cargo-udeps
 hvm
 qsv
 tectonic
+slint-viewer
