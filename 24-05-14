@@ -5,3 +5,4 @@ golem-cli
 cargo-spellcheck
 hybrid-bar
 cargo-udeps
+cargo-lock
