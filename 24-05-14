@@ -26,3 +26,4 @@ cargo-lock
 cargo-spellcheck
 qsv
 tectonic
+cargo-udeps
