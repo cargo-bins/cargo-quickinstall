@@ -31,3 +31,4 @@ hvm
 qsv
 tectonic
 slint-viewer
+cargo-bitbake
