@@ -4,3 +4,4 @@ binstall
 asm-lsp
 ripdrag
 mprocs
+wasmtime-cli
