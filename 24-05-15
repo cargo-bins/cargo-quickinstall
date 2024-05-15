@@ -12,3 +12,4 @@ cargo-lock
 cargo-spellcheck
 alacritty
 cargo-udeps
+cargo-lock
