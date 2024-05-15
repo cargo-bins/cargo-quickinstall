@@ -7,3 +7,4 @@ clippy
 cargo-spellcheck
 alacritty
 cargo-udeps
+clippy
