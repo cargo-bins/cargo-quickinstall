@@ -16,3 +16,4 @@ wpaperd
 wasmtime-cli
 binstall
 nu_plugin_formats
+asm-lsp
