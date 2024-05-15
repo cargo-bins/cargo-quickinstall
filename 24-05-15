@@ -8,3 +8,4 @@ wasmtime-cli
 asm-lsp
 ripdrag
 run-or-raise
+mprocs
