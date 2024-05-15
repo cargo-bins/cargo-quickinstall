@@ -10,3 +10,4 @@ cargo-udeps
 clippy
 cargo-lock
 cargo-spellcheck
+alacritty
