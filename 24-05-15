@@ -6,3 +6,4 @@ cargo-udeps
 clippy
 cargo-spellcheck
 alacritty
+cargo-udeps
