@@ -13,3 +13,4 @@ cargo-spellcheck
 alacritty
 cargo-udeps
 cargo-lock
+clippy
