@@ -11,3 +11,4 @@ clippy
 cargo-lock
 cargo-spellcheck
 alacritty
+cargo-udeps
