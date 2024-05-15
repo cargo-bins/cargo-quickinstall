@@ -3,3 +3,4 @@ clippy
 cargo-lock
 cargo-spellcheck
 cargo-udeps
+clippy
