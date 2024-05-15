@@ -13,3 +13,4 @@ kondo-ui
 binstall
 nu_plugin_formats
 wpaperd
+wasmtime-cli
