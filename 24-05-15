@@ -23,3 +23,4 @@ mprocs
 kondo-ui
 ripdrag
 run-or-raise
+wasmtime-cli
