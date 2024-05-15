@@ -25,3 +25,4 @@ ripdrag
 run-or-raise
 wasmtime-cli
 cargo-bitbake
+cargo-bpf
