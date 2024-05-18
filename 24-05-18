@@ -12,3 +12,4 @@ wasm-opt
 wasm-opt
 cargo-bitbake
 cargo-bom
+cargo-bpf
