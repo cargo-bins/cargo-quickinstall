@@ -11,3 +11,4 @@ sea-orm-cli
 wasm-opt
 wasm-opt
 cargo-bitbake
+cargo-bom
