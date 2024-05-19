@@ -5,3 +5,4 @@ wasm-opt
 rg
 rg
 rg
+cargo-bpf
