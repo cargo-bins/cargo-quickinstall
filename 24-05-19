@@ -27,3 +27,4 @@ rg
 pijul
 clippy
 racer
+rustfmt-nightly
