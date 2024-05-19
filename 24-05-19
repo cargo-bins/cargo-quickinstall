@@ -16,3 +16,4 @@ rustfmt-nightly
 pijul
 racer
 hayagriva
+clippy
