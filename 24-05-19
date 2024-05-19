@@ -4,3 +4,4 @@ racer
 pijul
 czkawka_gui
 rustfmt-nightly
+clippy
