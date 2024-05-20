@@ -10,3 +10,4 @@ clippy
 gitui
 zellij
 clippy
+cargo-generate
