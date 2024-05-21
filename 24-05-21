@@ -10,3 +10,4 @@ wasmtime-cli
 cargo-udeps
 puffin_viewer
 spotifyd
+mise
