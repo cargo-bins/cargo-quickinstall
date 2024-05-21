@@ -40,3 +40,4 @@ bend-lang
 rserve
 ast-grep
 rbw
+cargo-bitbake
