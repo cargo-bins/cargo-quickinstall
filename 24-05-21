@@ -11,3 +11,4 @@ cargo-udeps
 puffin_viewer
 spotifyd
 mise
+cargo-spellcheck
