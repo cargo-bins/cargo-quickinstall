@@ -31,3 +31,4 @@ cargo-lock
 puffin_viewer
 rserve
 mise
+cargo-udeps
