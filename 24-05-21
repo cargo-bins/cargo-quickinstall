@@ -2,3 +2,4 @@ puffin_viewer
 wasmtime-cli
 spotify_player
 cargo-spellcheck
+cargo-lock
