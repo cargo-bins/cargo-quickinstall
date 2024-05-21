@@ -28,3 +28,4 @@ cargo-udeps
 spotifyd
 cargo-spellcheck
 cargo-lock
+puffin_viewer
