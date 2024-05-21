@@ -13,3 +13,4 @@ spotifyd
 mise
 cargo-spellcheck
 cargo-lock
+cargo-udeps
