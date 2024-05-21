@@ -27,3 +27,4 @@ cargo-spellcheck
 cargo-udeps
 spotifyd
 cargo-spellcheck
+cargo-lock
