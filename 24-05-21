@@ -15,3 +15,4 @@ cargo-spellcheck
 cargo-lock
 cargo-udeps
 cargo-lock
+cargo-spellcheck
