@@ -38,3 +38,4 @@ makepad-example-ironfish
 cargo-count
 qsv
 makepad-studio
+cargo-doc-coverage
