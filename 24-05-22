@@ -6,3 +6,4 @@ bend-lang
 cargo-count
 cargo-doc-coverage
 bend-lang
+cargo-graph
