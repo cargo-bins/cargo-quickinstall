@@ -28,3 +28,4 @@ kindelia
 cargo-doc-coverage
 bend-lang
 cargo-count
+cargo-graph
