@@ -42,3 +42,4 @@ cargo-doc-coverage
 kindelia
 cargo-bitbake
 cargo-bom
+cargo-bpf
