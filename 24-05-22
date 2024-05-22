@@ -41,3 +41,4 @@ makepad-studio
 cargo-doc-coverage
 kindelia
 cargo-bitbake
+cargo-bom
