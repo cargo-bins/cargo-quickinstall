@@ -40,3 +40,4 @@ qsv
 makepad-studio
 cargo-doc-coverage
 kindelia
+cargo-bitbake
