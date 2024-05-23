@@ -21,3 +21,4 @@ binstall
 spotify_player
 taplo-cli
 mprocs
+cargo-embed
