@@ -13,3 +13,4 @@ taplo-cli
 cargo-embed
 cargo-flash
 spotify_player
+probe-rs-debugger
