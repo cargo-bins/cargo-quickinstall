@@ -3,3 +3,4 @@ qsv
 bend-lang
 probe-rs-cli
 binstall
+probe-rs-debugger
