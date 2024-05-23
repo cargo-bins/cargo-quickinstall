@@ -8,3 +8,4 @@ cargo-flash
 taplo-cli
 qsv
 cargo-embed
+binstall
