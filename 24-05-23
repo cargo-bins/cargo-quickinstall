@@ -17,3 +17,4 @@ probe-rs-debugger
 probe-rs-cli
 parui
 probe-rs-cli
+binstall
