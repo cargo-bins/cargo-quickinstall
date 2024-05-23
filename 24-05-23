@@ -3,3 +3,4 @@ deno
 binstall
 cargo-embed
 cargo-flash
+bend-lang
