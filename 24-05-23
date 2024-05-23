@@ -4,3 +4,4 @@ bend-lang
 probe-rs-cli
 binstall
 probe-rs-debugger
+cargo-flash
