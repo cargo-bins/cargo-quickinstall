@@ -33,3 +33,4 @@ taplo-cli
 binstall
 cargo-flash
 mprocs
+parui
