@@ -2,3 +2,4 @@ cargo-embed
 qsv
 bend-lang
 probe-rs-cli
+binstall
