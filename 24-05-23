@@ -30,3 +30,4 @@ probe-rs-cli
 cargo-embed
 spotify_player
 taplo-cli
+binstall
