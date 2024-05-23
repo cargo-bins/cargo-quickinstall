@@ -26,3 +26,4 @@ probe-rs-debugger
 cargo-flash
 parui
 probe-rs-debugger
+probe-rs-cli
