@@ -38,3 +38,4 @@ binstall
 probe-rs-debugger
 cargo-flash
 taplo-cli
+parui
