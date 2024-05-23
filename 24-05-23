@@ -35,3 +35,4 @@ cargo-flash
 mprocs
 parui
 binstall
+probe-rs-debugger
