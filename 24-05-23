@@ -31,3 +31,4 @@ cargo-embed
 spotify_player
 taplo-cli
 binstall
+cargo-flash
