@@ -20,3 +20,4 @@ probe-rs-cli
 binstall
 spotify_player
 taplo-cli
+mprocs
