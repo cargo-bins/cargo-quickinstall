@@ -11,3 +11,4 @@ cargo-embed
 binstall
 taplo-cli
 cargo-embed
+cargo-flash
