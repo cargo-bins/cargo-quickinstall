@@ -23,3 +23,4 @@ taplo-cli
 mprocs
 cargo-embed
 probe-rs-debugger
+cargo-flash
