@@ -39,3 +39,4 @@ probe-rs-debugger
 cargo-flash
 taplo-cli
 parui
+probe-rs-cli
