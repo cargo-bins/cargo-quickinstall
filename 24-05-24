@@ -23,3 +23,4 @@ ostdl
 cargo-clone-crate
 dotenvy
 cargo-extras
+cargo-graph
