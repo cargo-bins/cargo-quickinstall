@@ -31,3 +31,4 @@ cargo-extras
 cargo-clone-crate
 rioterm
 ripdrag
+ast-grep
