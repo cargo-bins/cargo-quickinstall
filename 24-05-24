@@ -39,3 +39,4 @@ cargo-extras
 cargo-clone-crate
 rioterm
 redoxer
+ast-grep
