@@ -4,3 +4,4 @@ deno
 elf2uf2-rs
 deno
 cargo-graph
+cargo-extras
