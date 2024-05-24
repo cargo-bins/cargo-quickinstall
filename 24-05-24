@@ -18,3 +18,4 @@ cargo-graph
 cargo-clone-crate
 rioterm
 deno
+dotenvy
