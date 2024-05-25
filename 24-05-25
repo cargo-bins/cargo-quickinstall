@@ -5,3 +5,4 @@ fselect
 cargo-udeps
 cargo-spellcheck
 cargo-lock
+probe-rs-tools
