@@ -4,3 +4,4 @@ cargo-lock
 fselect
 cargo-udeps
 cargo-spellcheck
+cargo-lock
