@@ -2,3 +2,4 @@ fselect
 cargo-spellcheck
 cargo-lock
 fselect
+cargo-udeps
