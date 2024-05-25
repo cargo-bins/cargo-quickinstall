@@ -7,3 +7,4 @@ cargo-spellcheck
 cargo-lock
 probe-rs-tools
 cargo-udeps
+cargo-lock
