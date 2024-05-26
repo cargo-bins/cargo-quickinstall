@@ -2,3 +2,4 @@ diesel_cli
 cargo-spellcheck
 diesel_cli
 cargo-udeps
+cargo-spellcheck
