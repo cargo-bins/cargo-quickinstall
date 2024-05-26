@@ -5,3 +5,4 @@ shadowsocks-rust
 racer
 shadowsocks-rust
 racer
+sqlx-cli
