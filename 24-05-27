@@ -4,3 +4,4 @@ cargo-public-api
 c2rust
 probe-rs-tools
 cargo
+cargo-public-api
