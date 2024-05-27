@@ -10,3 +10,4 @@ c2rust
 probe-rs-tools
 cargo
 kalc
+cargo-public-api
