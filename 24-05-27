@@ -11,3 +11,4 @@ probe-rs-tools
 cargo
 kalc
 cargo-public-api
+probe-rs-tools
