@@ -7,3 +7,4 @@ cargo
 cargo-public-api
 kalc
 c2rust
+probe-rs-tools
