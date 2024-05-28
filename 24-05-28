@@ -17,3 +17,4 @@ libbpf-cargo
 pastol
 subkey
 cargo-lock
+cargo-spellcheck
