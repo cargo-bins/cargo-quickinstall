@@ -26,3 +26,4 @@ cargo-spellcheck
 typst-cli
 libbpf-cargo
 subkey
+cargo-udeps
