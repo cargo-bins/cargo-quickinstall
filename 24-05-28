@@ -13,3 +13,4 @@ cargo-udeps
 pastol
 cargo-spellcheck
 cargo-udeps
+libbpf-cargo
