@@ -16,3 +16,4 @@ cargo-udeps
 libbpf-cargo
 pastol
 subkey
+cargo-lock
