@@ -25,3 +25,4 @@ cargo-lock
 cargo-spellcheck
 typst-cli
 libbpf-cargo
+subkey
