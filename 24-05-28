@@ -11,3 +11,4 @@ cargo-lock
 bottom
 cargo-udeps
 pastol
+cargo-spellcheck
