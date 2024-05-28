@@ -27,3 +27,4 @@ typst-cli
 libbpf-cargo
 subkey
 cargo-udeps
+cargo-lock
