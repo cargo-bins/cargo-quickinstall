@@ -31,3 +31,4 @@ cargo-lock
 cargo-bitbake
 bottom
 cargo-bitbake
+cargo-bom
