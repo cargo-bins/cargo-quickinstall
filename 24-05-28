@@ -22,3 +22,4 @@ typst-cli
 ast-grep
 cargo-udeps
 cargo-lock
+cargo-spellcheck
