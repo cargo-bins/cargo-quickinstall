@@ -27,3 +27,4 @@ nu_plugin_formats
 wasmtime-cli
 mdbook-bib
 qsv
+warg-cli
