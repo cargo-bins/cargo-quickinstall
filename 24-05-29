@@ -22,3 +22,4 @@ mdbook-bib
 typst-cli
 warg-cli
 qsv
+nu_plugin_gstat
