@@ -35,3 +35,4 @@ typst-cli
 wasmtime-cli
 cargo-bom
 cargo-bitbake
+cargo-bpf
