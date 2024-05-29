@@ -30,3 +30,4 @@ qsv
 warg-cli
 nu_plugin_formats
 nu_plugin_gstat
+nu_plugin_polars
