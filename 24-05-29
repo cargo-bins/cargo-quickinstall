@@ -24,3 +24,4 @@ warg-cli
 qsv
 nu_plugin_gstat
 nu_plugin_formats
+wasmtime-cli
