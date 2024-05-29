@@ -8,3 +8,4 @@ nu
 nu
 probe-rs-tools
 cargo-bitbake
+cargo-bom
