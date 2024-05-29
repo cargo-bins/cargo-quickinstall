@@ -28,3 +28,4 @@ wasmtime-cli
 mdbook-bib
 qsv
 warg-cli
+nu_plugin_formats
