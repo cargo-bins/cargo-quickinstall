@@ -34,3 +34,4 @@ nu_plugin_polars
 typst-cli
 wasmtime-cli
 cargo-bom
+cargo-bitbake
