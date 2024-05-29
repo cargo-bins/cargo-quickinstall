@@ -9,3 +9,4 @@ nu
 probe-rs-tools
 cargo-bitbake
 cargo-bom
+cargo-bpf
