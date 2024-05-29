@@ -33,3 +33,4 @@ nu_plugin_gstat
 nu_plugin_polars
 typst-cli
 wasmtime-cli
+cargo-bom
