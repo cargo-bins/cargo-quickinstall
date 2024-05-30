@@ -6,3 +6,4 @@ usage-cli
 oha
 oha
 cargo-lock
+cargo-generate
