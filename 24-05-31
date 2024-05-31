@@ -24,3 +24,4 @@ nu_plugin_formats
 rbw
 deno
 nu_plugin_polars
+nu
