@@ -17,3 +17,4 @@ nu_plugin_formats
 deno
 amdgpu_top
 redoxer
+nu_plugin_gstat
