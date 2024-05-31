@@ -12,3 +12,4 @@ redoxer
 amdgpu_top
 hyprswitch
 nu_plugin_gstat
+nu_plugin_polars
