@@ -30,3 +30,4 @@ nu_plugin_polars
 hyprswitch
 deno
 nu
+nu_plugin_gstat
