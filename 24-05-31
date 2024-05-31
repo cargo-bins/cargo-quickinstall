@@ -16,3 +16,4 @@ nu_plugin_polars
 nu_plugin_formats
 deno
 amdgpu_top
+redoxer
