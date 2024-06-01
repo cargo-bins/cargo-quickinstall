@@ -11,3 +11,4 @@ cargo-equip
 wasm-bindgen-cli
 cargo-geiger
 cargo-geiger
+cargo-info
