@@ -10,3 +10,4 @@ tree-sitter-cli
 wasm-opt
 wasm-opt
 cargo-bpf
+cargo-bom
