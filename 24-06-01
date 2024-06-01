@@ -9,3 +9,4 @@ cargo-espflash
 tree-sitter-cli
 wasm-opt
 wasm-opt
+cargo-bpf
