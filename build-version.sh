@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euxo pipefail
 
+GLIBC_VERSION="${GLIBC_VERSION:-2.17}"
+
 cd "$(dirname "$0")"
 
 CRATE=${1?"USAGE: $0 CRATE"}
@@ -93,17 +95,12 @@ else
     exit 1
 fi
 
-# Install cargo-zigbuild if necessary
-if [ "$TARGET_ARCH" == "aarch64-unknown-linux-gnu" ]; then
+if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     install_zig_cc_and_config_to_use_it
-elif [ "$TARGET_ARCH" == "x86_64-unknown-linux-musl" ]; then
-    install_zig_cc_and_config_to_use_it
-elif [ "$TARGET_ARCH" == "aarch64-unknown-linux-musl" ]; then
-    install_zig_cc_and_config_to_use_it
-elif [ "$TARGET_ARCH" == "armv7-unknown-linux-musleabihf" ]; then
-    install_zig_cc_and_config_to_use_it
-elif [ "$TARGET_ARCH" == "armv7-unknown-linux-gnueabihf" ]; then
-    install_zig_cc_and_config_to_use_it
+fi
+
+if [[ "$TARGET_ARCH" == *"-linux-gnu"* ]]; then
+    CARGO_TARGET_ARCH="${TARGET_ARCH}.${GLIBC_VERSION}"
 fi
 
 # Install rustup target
@@ -120,8 +117,7 @@ build_and_install() {
     # shellcheck disable=SC2086
     cargo-auditable auditable install "$CRATE" \
         --version "$VERSION" \
-        --target "$TARGET_ARCH" \
-        --root "$CARGO_ROOT" \
+        --target "${CARGO_TARGET_ARCH:-$TARGET_ARCH}" \
         ${1:-} \
         $no_default_features \
         $feature_flag $features
