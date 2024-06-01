@@ -118,6 +118,7 @@ build_and_install() {
     cargo-auditable auditable install "$CRATE" \
         --version "$VERSION" \
         --target "${CARGO_TARGET_ARCH:-$TARGET_ARCH}" \
+        --root "$CARGO_ROOT" \
         ${1:-} \
         $no_default_features \
         $feature_flag $features
