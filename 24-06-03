@@ -18,3 +18,4 @@ gleam
 diesel_cli
 https
 zeronsd
+tree-sitter-cli
