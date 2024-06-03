@@ -11,3 +11,4 @@ cargo-contract
 uiua
 https
 gleam
+tree-sitter-cli
