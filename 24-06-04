@@ -3,3 +3,4 @@ rustfmt-nightly
 czkawka_gui
 racer
 binstall
+clippy
