@@ -16,3 +16,4 @@ cargo-component
 cargo-spellcheck
 bottom
 c2rust
+cargo-udeps
