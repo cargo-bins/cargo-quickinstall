@@ -52,3 +52,4 @@ i3status-rs
 binstall
 nu
 tectonic
+wasmtime-cli
