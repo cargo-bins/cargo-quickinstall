@@ -13,3 +13,4 @@ c2rust
 cargo-udeps
 cargo-lock
 cargo-component
+cargo-spellcheck
