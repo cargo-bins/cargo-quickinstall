@@ -10,3 +10,4 @@ cargo-spellcheck
 cargo-lock
 cargo-component
 c2rust
+cargo-udeps
