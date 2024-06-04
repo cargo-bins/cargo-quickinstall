@@ -45,3 +45,4 @@ binstall
 spotify_player
 i3status-rs
 tectonic
+wasmtime-cli
