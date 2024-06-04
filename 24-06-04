@@ -5,3 +5,4 @@ cargo-lock
 cargo-spellcheck
 c2rust
 bottom
+cargo-udeps
