@@ -7,3 +7,4 @@ c2rust
 bottom
 cargo-udeps
 cargo-spellcheck
+cargo-lock
