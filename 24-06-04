@@ -23,3 +23,4 @@ cargo-lock
 cargo-component
 c2rust
 ast-grep
+cargo-udeps
