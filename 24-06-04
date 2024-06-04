@@ -19,3 +19,4 @@ c2rust
 cargo-udeps
 typst-cli
 cargo-spellcheck
+cargo-lock
