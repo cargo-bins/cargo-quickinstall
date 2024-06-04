@@ -2,3 +2,4 @@ cargo-component
 c2rust
 cargo-component
 cargo-lock
+cargo-spellcheck
