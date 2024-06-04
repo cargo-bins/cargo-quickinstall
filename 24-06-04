@@ -31,3 +31,4 @@ cargo-udeps
 bu
 nu
 typst-cli
+ast-grep
