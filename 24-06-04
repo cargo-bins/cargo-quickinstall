@@ -4,3 +4,4 @@ cargo-lock
 bottom
 cargo-udeps
 sea-orm-cli
+cargo-spellcheck
