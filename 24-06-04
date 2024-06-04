@@ -53,3 +53,4 @@ binstall
 nu
 tectonic
 wasmtime-cli
+cargo-bitbake
