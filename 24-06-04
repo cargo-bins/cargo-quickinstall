@@ -17,3 +17,4 @@ cargo-spellcheck
 bottom
 c2rust
 cargo-udeps
+typst-cli
