@@ -22,3 +22,4 @@ wasmtime-cli
 rvimage
 cargo-unused-features
 spider_cli
+xplr
