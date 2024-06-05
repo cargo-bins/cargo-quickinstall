@@ -40,3 +40,4 @@ py-spy
 cargo-unused-features
 spider_cli
 rvimage
+cargo-bom
