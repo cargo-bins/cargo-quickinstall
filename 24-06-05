@@ -24,3 +24,4 @@ cargo-unused-features
 spider_cli
 xplr
 porsmo
+py-spy
