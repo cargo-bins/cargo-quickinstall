@@ -32,3 +32,4 @@ wasmtime-cli
 py-spy
 xplr
 porsmo
+cargo-unused-features
