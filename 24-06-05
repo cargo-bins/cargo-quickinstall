@@ -37,3 +37,4 @@ spider_cli
 staging-chain-spec-builder
 rvimage
 py-spy
+cargo-unused-features
