@@ -42,3 +42,4 @@ spider_cli
 rvimage
 cargo-bom
 cargo-bitbake
+cargo-bpf
