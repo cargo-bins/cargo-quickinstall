@@ -15,3 +15,4 @@ mprocs
 porsmo
 py-spy
 cargo-unused-features
+staging-chain-spec-builder
