@@ -18,3 +18,4 @@ cargo-unused-features
 staging-chain-spec-builder
 xplr
 paru
+wasmtime-cli
