@@ -28,3 +28,4 @@ py-spy
 paru
 staging-chain-spec-builder
 rvimage
+wasmtime-cli
