@@ -41,3 +41,4 @@ cargo-unused-features
 spider_cli
 rvimage
 cargo-bom
+cargo-bitbake
