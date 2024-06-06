@@ -27,3 +27,4 @@ hurlfmt
 taplo-cli
 psvm
 bindgen-cli
+cargo-c
