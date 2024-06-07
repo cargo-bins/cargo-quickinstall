@@ -31,3 +31,4 @@ probe-rs-tools
 cargo-list
 probe-rs-tools
 deno
+cargo-risczero
