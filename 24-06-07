@@ -35,3 +35,4 @@ cargo-risczero
 cargo-list
 deno
 probe-rs-tools
+redoxer
