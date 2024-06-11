@@ -26,3 +26,4 @@ wasmtime-cli
 rioterm
 binstall
 cargo-lock
+tree-sitter-cli
