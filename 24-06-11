@@ -44,3 +44,4 @@ cargo-udeps
 cargo-spellcheck
 cargo-bitbake
 bottom
+cargo-udeps
