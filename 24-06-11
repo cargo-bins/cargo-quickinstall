@@ -18,3 +18,4 @@ cargo-spellcheck
 chain-spec-builder
 cargo-udeps
 binstall
+rioterm
