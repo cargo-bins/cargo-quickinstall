@@ -9,3 +9,4 @@ psvm
 cargo-spellcheck
 cargo-lock
 typst-cli
+chain-spec-builder
