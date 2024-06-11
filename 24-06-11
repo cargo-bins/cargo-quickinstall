@@ -11,3 +11,4 @@ cargo-lock
 typst-cli
 chain-spec-builder
 cargo-udeps
+typst-cli
