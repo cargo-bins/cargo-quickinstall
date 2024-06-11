@@ -38,3 +38,4 @@ nextsv
 tectonic
 ast-grep
 cargo-bitbake
+cargo-spellcheck
