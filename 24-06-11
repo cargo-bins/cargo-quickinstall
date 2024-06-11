@@ -28,3 +28,4 @@ binstall
 cargo-lock
 tree-sitter-cli
 ast-grep
+wasmtime-cli
