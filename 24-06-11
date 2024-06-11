@@ -13,3 +13,4 @@ chain-spec-builder
 cargo-udeps
 typst-cli
 cargo-lock
+nextsv
