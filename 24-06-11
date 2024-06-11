@@ -6,3 +6,4 @@ cargo-spellcheck
 chain-spec-builder
 cargo-udeps
 psvm
+cargo-spellcheck
