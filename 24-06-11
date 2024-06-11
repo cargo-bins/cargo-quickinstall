@@ -4,3 +4,4 @@ typst-cli
 psvm
 cargo-spellcheck
 chain-spec-builder
+cargo-udeps
