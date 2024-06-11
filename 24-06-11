@@ -37,3 +37,4 @@ wasmtime-cli
 nextsv
 tectonic
 ast-grep
+cargo-bitbake
