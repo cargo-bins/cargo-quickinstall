@@ -21,3 +21,4 @@ binstall
 rioterm
 chain-spec-builder
 cargo-lock
+nextsv
