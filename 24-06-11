@@ -2,3 +2,4 @@ chain-spec-builder
 cargo-lock
 typst-cli
 psvm
+cargo-spellcheck
