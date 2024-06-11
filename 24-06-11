@@ -25,3 +25,4 @@ nextsv
 wasmtime-cli
 rioterm
 binstall
+cargo-lock
