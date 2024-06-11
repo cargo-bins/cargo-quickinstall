@@ -16,3 +16,4 @@ cargo-lock
 nextsv
 cargo-spellcheck
 chain-spec-builder
+cargo-udeps
