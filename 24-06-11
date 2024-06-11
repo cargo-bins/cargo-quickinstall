@@ -27,3 +27,4 @@ rioterm
 binstall
 cargo-lock
 tree-sitter-cli
+ast-grep
