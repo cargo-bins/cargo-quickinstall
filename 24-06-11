@@ -14,3 +14,4 @@ cargo-udeps
 typst-cli
 cargo-lock
 nextsv
+cargo-spellcheck
