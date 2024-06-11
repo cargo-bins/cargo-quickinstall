@@ -7,3 +7,4 @@ chain-spec-builder
 cargo-udeps
 psvm
 cargo-spellcheck
+cargo-lock
