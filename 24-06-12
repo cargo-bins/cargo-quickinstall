@@ -6,3 +6,4 @@ mprocs
 mprocs
 wasmtime-cli
 wasmtime-cli
+cargo-bpf
