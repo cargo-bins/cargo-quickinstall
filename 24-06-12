@@ -4,3 +4,4 @@ mprocs
 ast-grep
 mprocs
 mprocs
+wasmtime-cli
