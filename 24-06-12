@@ -8,3 +8,4 @@ wasmtime-cli
 wasmtime-cli
 cargo-bpf
 cargo-bitbake
+cargo-bom
