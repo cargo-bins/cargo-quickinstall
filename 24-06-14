@@ -2,3 +2,4 @@ mprocs
 deno
 cargo-lock
 cargo-spellcheck
+cargo-lock
