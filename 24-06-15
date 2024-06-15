@@ -27,3 +27,4 @@ qsv
 shadowsocks-rust
 https
 qsv
+cargo-generate
