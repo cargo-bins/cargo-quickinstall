@@ -20,3 +20,4 @@ mise
 typst-cli
 dedoc
 wgpu-info
+cargo-codspeed
