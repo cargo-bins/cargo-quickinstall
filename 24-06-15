@@ -28,3 +28,4 @@ shadowsocks-rust
 https
 qsv
 cargo-generate
+zellij
