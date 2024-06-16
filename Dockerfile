@@ -12,4 +12,4 @@ RUN apt-get update && \
 
 ADD pkg-config-cross.sh build-linux-version.sh .
 
-ENV PATH="${PATH}:$HOME/zig-linux-x86_64-$ZIG_VERSION" CARGO=cargo-zigbuild PKG_CONFIG="$PWD/pkg-config-cross.sh"
+ENV PATH="${PATH}:/root/zig-linux-x86_64-$ZIG_VERSION" CARGO=cargo-zigbuild PKG_CONFIG="/root/pkg-config-cross.sh"
