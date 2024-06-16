@@ -5,3 +5,4 @@ cargo-outdated
 slint-lsp
 deno
 bugstalker
+slint-viewer
