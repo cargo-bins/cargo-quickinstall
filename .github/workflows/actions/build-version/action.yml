@@ -24,7 +24,7 @@ inputs:
 outputs:
   artifact:
     description: "artifact"
-    value: ${{ steps.collect-binaries.outputs.artifact }}
+    value: ${{ steps.build-packages.outputs.artifact }}
 
 env:
   CRATE: ${{ inputs.crate }}
@@ -76,6 +76,19 @@ runs:
          no_default_features='--no-default-features'
        fi
        echo "CARGO_ARGS=$no_default_features $feature_flag $features" >> "$GITHUB_ENV"
+       echo "TEMPDIR=$(mktemp -d)" >> "$GITHUB_ENV"
 
    - name: Build packages
-     run: ./build-version.sh
+     id: build-packages
+     if: runner.os != 'Linux'
+     run: |
+       ./build-version.sh
+       echo "artifact=${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" >> "$GITHUB_OUTPUT"
+
+   - name: Build packages
+     id: build-packages
+     if: runner.os == 'Linux'
+     run: |
+       set -exuo pipefail
+       ./build-version.sh
+       echo "artifact=${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" >> "$GITHUB_OUTPUT"
