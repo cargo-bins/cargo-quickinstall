@@ -5,7 +5,8 @@ set -euxo pipefail
 cd "$(dirname "$0")"
 
 GLIBC_VERSION="${GLIBC_VERSION:-2.17}"
-CRATE=${1?"USAGE: $0 CRATE"}
+CRATE="${1?"USAGE: $0 CRATE"}"
+TEMPDIR="$(mktemp -d)"
 
 if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     llvm_prefix="$(find /usr/lib/llvm-* -maxdepth 0 | sort --reverse | head -n 1)"
@@ -45,8 +46,7 @@ build_and_install() {
         --target "${CARGO_TARGET_ARCH:-$TARGET_ARCH}" \
         --root "$CARGO_ROOT" \
         ${1:-} \
-        $no_default_features \
-        $feature_flag $features
+        $CARGO_ARGS
 }
 
 # Some crates are published without a lockfile, so fallback to no `--locked`
