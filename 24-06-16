@@ -12,3 +12,4 @@ probe-rs-cli
 binstall
 probe-rs-cli
 probe-rs-cli
+rtx-cli
