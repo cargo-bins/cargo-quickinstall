@@ -22,3 +22,4 @@ slint-viewer
 cargo-outdated
 rioterm
 rioterm
+tree-sitter-cli
