@@ -10,3 +10,4 @@ cargo-generate
 zellij
 probe-rs-cli
 binstall
+probe-rs-cli
