@@ -11,3 +11,5 @@ RUN apt-get update && \
     cargo binstall -y cargo-auditable cargo-zigbuild
 
 ENV PATH="${PATH}:$HOME/zig-linux-x86_64-$ZIG_VERSION"
+
+ADD pkg-config-cross.sh build-linux-version.sh .
