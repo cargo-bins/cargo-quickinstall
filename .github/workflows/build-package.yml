@@ -117,6 +117,8 @@ jobs:
           echo $TARGET_ARCH
           echo $FEATURES
 
+      - uses: ./.github/actions/docker-setup
+
       - uses: taiki-e/install-action@v2
         with:
           tool: cargo-auditable
