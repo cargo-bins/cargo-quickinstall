@@ -6,7 +6,6 @@ cd "$(dirname "$0")"
 
 GLIBC_VERSION="${GLIBC_VERSION:-2.17}"
 CRATE="${CRATE?"USAGE: $0 CRATE"}"
-TEMPDIR="$(mktemp -d)"
 
 if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     llvm_prefix="$(find /usr/lib/llvm-* -maxdepth 0 | sort --reverse | head -n 1)"
@@ -83,6 +82,4 @@ fi
 #
 # BINARIES is a space-separated list of files, so it can't be quoted
 # shellcheck disable=SC2086
-tar --format=v7 -c $BINARIES | gzip -9 -c >"${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
-
-echo "artifact=${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" >> "$GITHUB_OUTPUT"
+tar --format=v7 -c $BINARIES | gzip -9 -c >"${TEMPDIR?}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
