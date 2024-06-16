@@ -1,60 +1,13 @@
 #!/bin/bash
-set -euxo pipefail
 
-GLIBC_VERSION="${GLIBC_VERSION:-2.17}"
+set -euxo pipefail
 
 cd "$(dirname "$0")"
 
+GLIBC_VERSION="${GLIBC_VERSION:-2.17}"
 CRATE=${1?"USAGE: $0 CRATE"}
-date
 
-features="${FEATURES:-}"
-if [ -z "$features" ]; then
-    feature_flag=""
-else
-    feature_flag="--features"
-fi
-
-no_default_features=""
-if [ "${NO_DEFAULT_FEATURES:-}" = "true" ]; then
-    no_default_features='--no-default-features'
-fi
-
-# FIXME: make a signal handler that cleans this up if we exit early.
-if [ ! -d "${TEMPDIR:-}" ]; then
-    TEMPDIR="$(mktemp -d)"
-fi
-
-# see crawler policy: https://crates.io/policies
-curl_slowly() {
-    sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
-}
-
-install_zig_cc_and_config_to_use_it() {
-    # Install cargo-zigbuild
-    #
-    # We use cargo-zigbuild instead of zig-cc for cargo-zigbuild has
-    # built-in for certain quirks when used with cargo-build.
-    pip3 install -r zigbuild-requirements.txt
-
-    export CARGO=cargo-zigbuild
-    # Use our own pkg-config that fails for any input, since we cannot use
-    # locally installed lib in cross-compilation.
-    export PKG_CONFIG="$PWD/pkg-config-cross.sh"
-}
-
-REPO="$(./get-repo.sh)"
-
-if [ "${ALWAYS_BUILD:-}" != 1 ] && curl_slowly --fail -I --output /dev/null "${REPO}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
-    echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
-    exit 0
-fi
-
-# Install llvm
-if [ "${RUNNER_OS?}" == "Windows" ]; then
-    choco install llvm
-elif [ "${RUNNER_OS?}" == "Linux" ]; then
-    wget -O - https://apt.llvm.org/llvm.sh | sudo bash
+if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     llvm_prefix="$(find /usr/lib/llvm-* -maxdepth 0 | sort --reverse | head -n 1)"
 
     PATH="${llvm_prefix}/bin:${PATH}"
@@ -71,35 +24,7 @@ elif [ "${RUNNER_OS?}" == "Linux" ]; then
 
     LLVM_DIR="$(llvm-config --cmakedir)"
     export LLVM_DIR
-elif [ "${RUNNER_OS?}" == "macOS" ]; then
-    brew install llvm
 
-    LLVM_PREFIX="$(brew --prefix llvm)"
-
-    PATH="${LLVM_PREFIX}/bin:${PATH:-}"
-    export PATH
-
-    LLVM_CONFIG_PATH="${LLVM_PREFIX}/bin/llvm-config"
-    export LLVM_CONFIG_PATH
-
-    DYLD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
-    export DYLD_LIBRARY_PATH
-
-    LIBCLANG_PATH="$(llvm-config --libdir)"
-    export LIBCLANG_PATH
-
-    LLVM_DIR="$(llvm-config --cmakedir)"
-    export LLVM_DIR
-else
-    echo "Unsupported ${RUNNER_OS?}"
-    exit 1
-fi
-
-if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
-    install_zig_cc_and_config_to_use_it
-fi
-
-if [[ "$TARGET_ARCH" == *"-linux-gnu"* ]]; then
     CARGO_TARGET_ARCH="${TARGET_ARCH}.${GLIBC_VERSION}"
 fi
 
@@ -160,4 +85,4 @@ fi
 # shellcheck disable=SC2086
 tar --format=v7 -c $BINARIES | gzip -9 -c >"${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
 
-echo "${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
+echo "artifact=${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" >> "$GITHUB_OUTPUT"
