@@ -90,7 +90,24 @@ env:
   BUILD_DIR: ${{ github.workspace }}/built.d
 
 jobs:
+  check-if-already-built:
+    name: Check if the package is already built
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if the package is built
+        env:
+          USER_AGENT: cargo-quickinstall build pipeline (alsuren@gmail.com)
+        run: |
+          if curl --user-agent "$USER_AGENT" --fail -I --output /dev/null "${GITHUB_REPOSITORY}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
+            echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
+            echo "NEEDS_BUILD=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "NEEDS_BUILD=true" >> "$GITHUB_OUTPUT"
+          fi
+          
   build-popular-package:
+    needs: check-if-already-built
+    if: steps.check-if-already-built.outputs.NEEDS_BUILD == 'true'
     name: build-popular-package-${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
     runs-on: ${{ inputs.build_os }}
     permissions: {}
