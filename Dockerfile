@@ -10,6 +10,6 @@ RUN apt-get update && \
     curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash && \
     cargo binstall -y cargo-auditable cargo-zigbuild
 
-ADD pkg-config-cross.sh build-linux-version.sh .
+ADD pkg-config-cross.sh build-version.sh .
 
 ENV PATH="${PATH}:/root/zig-linux-x86_64-$ZIG_VERSION" CARGO=cargo-zigbuild PKG_CONFIG="/root/pkg-config-cross.sh"
