@@ -27,3 +27,4 @@ iai-callgrind-runner
 rye
 iai-callgrind-runner
 iai-callgrind-runner
+cargo-generate
