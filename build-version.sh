@@ -5,7 +5,7 @@ set -euxo pipefail
 cd "$(dirname "$0")"
 
 GLIBC_VERSION="${GLIBC_VERSION:-2.17}"
-CRATE="${1?"USAGE: $0 CRATE"}"
+CRATE="${CRATE?"USAGE: $0 CRATE"}"
 TEMPDIR="$(mktemp -d)"
 
 if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
