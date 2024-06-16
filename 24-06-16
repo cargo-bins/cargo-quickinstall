@@ -3,3 +3,4 @@ binstall
 cargo-generate
 zellij
 binstall
+cargo-generate
