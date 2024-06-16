@@ -33,7 +33,7 @@ fi
 rustup target add "$TARGET_ARCH"
 
 # Start building!
-CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
+CARGO_ROOT="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')"
 export CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1"
 export CARGO_PROFILE_RELEASE_LTO="fat"
 export OPENSSL_STATIC=1
