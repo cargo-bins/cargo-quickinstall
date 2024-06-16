@@ -3,15 +3,24 @@ inputs:
   crate:
     description: crates to build
     required: true
+    type: string
   features:
     description: features to enable
     required: true
+    type: string
   no_default_features:
     description: disable default features
     required: true
+    type: string
   target_arch:
     description: Target to build against
     required: true
+    type: string
+  version:
+    description: Version to release
+    required: true
+    type: string
+
 outputs:
   artifact:
     description: "artifact"
@@ -67,8 +76,6 @@ runs:
          no_default_features='--no-default-features'
        fi
        echo "CARGO_ARGS=$no_default_features $feature_flag $features" >> "$GITHUB_ENV"
-       echo "TEMPDIR=$(mktemp -d)" >> "$GITHUB_ENV"
-       echo "CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')" >> "$GITHUB_ENV"
 
    - name: Build packages
      run: ./build-version.sh
