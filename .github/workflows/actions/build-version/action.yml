@@ -24,7 +24,7 @@ inputs:
 outputs:
   artifact:
     description: "artifact"
-    value: ${{ steps.build-packages.outputs.artifact }}
+    value: ${{ steps.output.outputs.artifact }}
 
 env:
   CRATE: ${{ inputs.crate }}
@@ -81,14 +81,21 @@ runs:
    - name: Build packages
      id: build-packages
      if: runner.os != 'Linux'
-     run: |
-       ./build-version.sh
-       echo "artifact=${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" >> "$GITHUB_OUTPUT"
+     run: ./build-version.sh
 
    - name: Build packages
      id: build-packages
      if: runner.os == 'Linux'
      run: |
        set -exuo pipefail
-       ./build-version.sh
-       echo "artifact=${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" >> "$GITHUB_OUTPUT"
+       docker run --rm -it \
+         --runtime=runsc \
+         --env \
+         --read-only \
+         --tmpfs /tmp:rw,noexec,nosuid \
+         --tmpfs /run:rw,noexec,nosuid \
+         --mount
+
+   - name: Output
+     id: output
+     run: echo "artifact=${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" >> "$GITHUB_OUTPUT"
