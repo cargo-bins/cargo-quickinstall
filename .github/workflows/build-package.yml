@@ -107,7 +107,7 @@ jobs:
           
   build-popular-package:
     needs: check-if-already-built
-    if: inputs.always_build != '' && needs.check-if-already-built.outputs.NEEDS_BUILD == 'true'
+    if: inputs.always_build != '' || needs.check-if-already-built.outputs.NEEDS_BUILD == 'true'
     name: Build package ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
     runs-on: ${{ inputs.build_os }}
     permissions: {}
