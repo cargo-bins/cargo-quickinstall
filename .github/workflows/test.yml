@@ -55,7 +55,6 @@ jobs:
         shell: bash
 
     steps:
-      # TODO: actions/cache@v2?
       - name: Fetch source
         uses: actions/checkout@v4
 
@@ -73,7 +72,7 @@ jobs:
       matrix:
         include:
           - os: windows-latest
-          - os: macos-latest
+          - os: macos-14
           - os: ubuntu-latest
     defaults:
       run:
