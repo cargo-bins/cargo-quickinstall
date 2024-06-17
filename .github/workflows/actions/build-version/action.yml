@@ -34,19 +34,11 @@ env:
 runs:
   using: composite
   steps:
-   - name: Install stable rust
-     if: runner.os != 'Linux'
-     run: rustup target add "$TARGET_ARCH"
-     shell: bash
-
    - uses: taiki-e/install-action@v2
      if: runner.os != 'Linux'
      with:
        tool: cargo-auditable
 
-   - uses: ./.github/actions/docker-setup 
-     if: runner.os == 'Linux'
-       
    - name: Install LLVM
      if: runner.os == 'Windows'
      run: choco install llvm
@@ -100,24 +92,28 @@ runs:
        tags: package-builder:latest
        cache-from: type=gha
        cache-to: type=gha,mode=max
-       
+
+   - uses: ./.github/actions/docker-setup 
+     if: runner.os == 'Linux'
+           
    - name: Build packages
      if: runner.os == 'Linux'
      run: |
-       docker run --rm \
+       docker run \
+         --rm \
          -it \
          --init \
          --runtime=runsc \
          --security-opt="no-new-privileges=true" \
+         --read-only \
          --env CRATE="$CRATE" \
          --env VERSION="$VERSION" \
          --env TARGET_ARCH="$TARGET_ARCH" \
          --env CARGO_ARGS="$CARGO_ARGS" \
          --env TEMPDIR=/root/output \
-         --read-only \
          --tmpfs /tmp:rw,noexec,nosuid \
          --tmpfs /run:rw,noexec,nosuid \
-         --mount type=bind,src=$TEMPDIR,dst=/root/output \
+         --mount type=bind,src="$TEMPDIR",dst=/root/output \
          package-builder:latest
      shell: bash
 
