@@ -4,7 +4,26 @@ on:
   pull_request:
 
 jobs:
+  get-version:
+    runs-on: ubuntu-latest
+    outputs:
+      cargo-quickinstall-version: ${{ steps.get-version.outputs.cargo-quickinstall-version }}
+      cargo-deny-version: ${{ steps.get-version.outputs.cargo-deny-version }}
+    steps:
+      - name: Get latest version
+        id: get-version
+        run: |
+          for crate in cargo-quickinstall cargo-deny; do 
+              echo "$crate-version="$(
+                curl \
+                  --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
+                  --fail "https://crates.io/api/v1/crates/$crate" \
+                  | jq -r '.crate|.max_stable_version'
+              )" >> "$GITHUB_OUTPUT"
+          done
+
   self-build-with-build-version:
+    needs: get-version
     name: Self-Build-With-build-version
     runs-on: ${{ matrix.os }}
     defaults:
@@ -38,23 +57,13 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Get latest cargo-quickinstall version
-        id: get-cargo-quickinstall-version
-        run: |
-          echo version="$(
-            curl \
-              --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
-              --fail "https://crates.io/api/v1/crates/cargo-quickinstall" \
-              | jq -r '.crate|.max_stable_version'
-          )" >> "$GITHUB_OUTPUT"
-
       - uses: ./.github/actions/build-version
         with:
           crate: cargo-quickinstall
           features: ""
           no_default_features: ""
           target_arch: ${{ matrix.target_arch }}
-          version: ${{ steps.get-cargo-quickinstall-version.outputs.version }}
+          version: ${{ needs.get-version.outputs.cargo-quickinstall-version }}
 
   self-build:
     name: Self-Build
@@ -89,6 +98,7 @@ jobs:
         run: cargo quickinstall cargo-quickinstall || cargo quickinstall sensei
 
   build-needing-cc:
+    needs: get-version
     name: Build package that needs CC
     runs-on: ${{ matrix.os }}
     defaults:
@@ -121,23 +131,13 @@ jobs:
           persist-credentials: false
 
       # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
-      - name: Get latest cargo-deny version
-        id: get-cargo-deny-version
-        run: |
-          echo version="$(
-            curl \
-              --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
-              --fail "https://crates.io/api/v1/crates/cargo-deny" \
-              | jq -r '.crate|.max_stable_version'
-          )" >> "$GITHUB_OUTPUT"
-
       - uses: ./.github/actions/build-version
         with:
           crate: cargo-deny
           features: ""
           no_default_features: ""
           target_arch: ${{ matrix.target_arch }}
-          version: ${{ steps.get-cargo-deny-version.outputs.version }}
+          version: ${{ needs.get-version.outputs.cargo-deny-version }}
 
   build-package-test:
     name: Build package test
