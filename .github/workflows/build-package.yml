@@ -91,7 +91,8 @@ env:
 
 jobs:
   check-if-already-built:
-    name: Check if the package is already built
+    if: inputs.always_build == ''
+    name: Check if the package ${{ github.event.inputs.crate }}-${{ github.event.inputs.version }}-${{ github.event.inputs.target_arch }} is already built
     runs-on: ubuntu-latest
     steps:
       - name: Check if the package is built
@@ -107,8 +108,8 @@ jobs:
           
   build-popular-package:
     needs: check-if-already-built
-    if: steps.check-if-already-built.outputs.NEEDS_BUILD == 'true'
-    name: build-popular-package-${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
+    if: inputs.always_build != '' && needs.check-if-already-built.outputs.NEEDS_BUILD == 'true'
+    name: Build package ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
     runs-on: ${{ inputs.build_os }}
     permissions: {}
     defaults:
@@ -119,14 +120,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-          path: trigger
-      - name: Checkout main repo
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          ref: ${{ inputs.branch }}
-          path: cargo-quickinstall
-
+    
       - name: Print inputs
         run: |
           echo $CRATE
@@ -134,40 +128,24 @@ jobs:
           echo $TARGET_ARCH
           echo $FEATURES
 
-      - uses: ./.github/actions/docker-setup
-
-      - uses: taiki-e/install-action@v2
-        with:
-          tool: cargo-auditable
-
-      - name: Install latest rust
-        run: rustup toolchain install stable --no-self-update --profile minimal
-
       - name: build package
-        env:
-          ALWAYS_BUILD: ${{ inputs.always_build }}
-          TEMPDIR: ${{ env.BUILD_DIR }}
-        run: |
-          set -euxo pipefail
-          # `tar` does not understand mixed forward and backslashes, but mkdir does.
-          # Try coercing it into a single style?
-          mkdir -p "$TEMPDIR"
-          pushd "$TEMPDIR"
-          TEMPDIR="$PWD"
-          popd
+        id: build-package
+        uses: ./.github/actions/build-version
+        with:
+          crate: ${{ inputs.crate }}
+          features: ${{ inputs.features }}
+          no_default_features: ${{ inputs.NO_DEFAULT_FEATURES }}
+          target_arch: ${{ inputs.target_arch }}
+          version: ${{ inputs.version }}
 
-          cargo-quickinstall/build-version.sh "$CRATE"
-          touch "$TEMPDIR/dummy-file"
-          ls "$TEMPDIR"
       # At this point, I don't think that you can really trust anything on the system anymore.
       # I'm not sure whether the js actions runtime is also affected by this.
       # TODO: try breaking things so that uploads don't work.
-
       - name: Upload run-local binary artifact
         uses: actions/upload-artifact@v4
         with:
           name: built-${{ inputs.build_os }}
-          path: ${{ env.BUILD_DIR }}
+          path: ${{ steps.build-package.outputs.artifact  }}
           if-no-files-found: error
 
   upload-popular-package:
