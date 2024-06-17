@@ -29,7 +29,7 @@ if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
 fi
 
 # Install rustup target
-rustup target add "$TARGET_ARCH"
+rustup toolchain install stable-"$TARGET_ARCH" --no-self-update --profile minimal
 
 # Start building!
 CARGO_ROOT="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')"
@@ -41,7 +41,7 @@ export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 build_and_install() {
     # shellcheck disable=SC2086
     cargo-auditable auditable install "$CRATE" \
-        --version "$VERSION" \
+        --version "${VERSION?}" \
         --target "${CARGO_TARGET_ARCH:-$TARGET_ARCH}" \
         --root "$CARGO_ROOT" \
         ${1:-} \
