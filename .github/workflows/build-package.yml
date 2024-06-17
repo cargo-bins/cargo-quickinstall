@@ -87,7 +87,6 @@ env:
   VERSION: ${{ inputs.version }}
   FEATURES: ${{ inputs.features }}
   NO_DEFAULT_FEATURES: ${{ inputs.NO_DEFAULT_FEATURES }}
-  BUILD_DIR: ${{ github.workspace }}/built.d
 
 jobs:
   check-if-already-built:
@@ -145,14 +144,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: built-${{ inputs.build_os }}
-          path: ${{ steps.build-package.outputs.artifact  }}
+          path: ${{ steps.build-package.outputs.artifact }}
           if-no-files-found: error
 
   upload-popular-package:
     name: Upload
     needs: build-popular-package
     if: "contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash
