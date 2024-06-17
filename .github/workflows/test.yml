@@ -22,7 +22,15 @@ jobs:
       - name: Run shellcheck
         run: shellcheck *.sh
 
+      - name: Cache Primes
+        id: cache-shfmt
+        uses: actions/cache@v4
+        with:
+          path: ~/go/bin/shfmt
+          key: ${{ runner.os }}-shfmt
+
       - name: Install shfmt
+        if: steps.cache-shfmt.outputs.cache-hit != 'true'
         run: go install mvdan.cc/sh/v3/cmd/shfmt@latest
 
       - name: Run shfmt
