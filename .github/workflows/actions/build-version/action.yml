@@ -104,8 +104,11 @@ runs:
    - name: Build packages
      if: runner.os == 'Linux'
      run: |
-       docker run --rm -it \
+       docker run --rm \
+         -it \
+         --init \
          --runtime=runsc \
+         --security-opt="no-new-privileges=true" \
          --env CRATE="$CRATE" \
          --env VERSION="$VERSION" \
          --env TARGET_ARCH="$TARGET_ARCH" \
