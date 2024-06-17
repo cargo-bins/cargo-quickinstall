@@ -13,6 +13,7 @@ jobs:
       - name: Get latest version
         id: get-version
         run: |
+          set -euxo pipefail
           for crate in cargo-quickinstall cargo-deny; do 
               echo "${crate}-version"=$(
                 curl \
