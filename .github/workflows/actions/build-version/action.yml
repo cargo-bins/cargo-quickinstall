@@ -79,22 +79,34 @@ runs:
        echo "TEMPDIR=$(mktemp -d)" >> "$GITHUB_ENV"
 
    - name: Build packages
-     id: build-packages
      if: runner.os != 'Linux'
      run: ./build-version.sh
-
+      
+   - name: Set up Docker Buildx
+     if: runner.os == 'Linux'
+     uses: docker/setup-buildx-action@v3
+      
+   - name: Build docker image for package building
+     if: runner.os == 'Linux'
+     uses: docker/build-push-action@v5
+     with:
+       context: .
+       load: true
+       tags: package-builder:latest
+       cache-from: type=gha
+       cache-to: type=gha,mode=max
+       
    - name: Build packages
-     id: build-packages
      if: runner.os == 'Linux'
      run: |
-       set -exuo pipefail
        docker run --rm -it \
          --runtime=runsc \
          --env \
          --read-only \
          --tmpfs /tmp:rw,noexec,nosuid \
          --tmpfs /run:rw,noexec,nosuid \
-         --mount
+         --mount \
+         package-builder:latest
 
    - name: Output
      id: output
