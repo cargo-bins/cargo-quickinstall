@@ -38,29 +38,23 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: ./.github/actions/docker-setup
-
-      - uses: taiki-e/install-action@v2
-        with:
-          tool: cargo-auditable
-
-      - name: Install latest rust
-        run: rustup toolchain install stable --no-self-update --profile minimal
-
-      - name: Build Thyself
-        env:
-          TARGET_ARCH: ${{ matrix.target_arch }}
+      - name: Get latest cargo-quickinstall version
+        id: get-cargo-quickinstall-version
         run: |
-          set -euxo pipefail
-          touch .env
-          VERSION="$(
+          echo version="$(
             curl \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
               --fail "https://crates.io/api/v1/crates/cargo-quickinstall" \
               | jq -r '.crate|.max_stable_version'
-          )"
-          VERSION="$VERSION" ./build-version.sh cargo-quickinstall
-          ALWAYS_BUILD=1 VERSION="$VERSION" ./build-version.sh cargo-quickinstall
+          )" >> "$GITHUB_OUTPUT"
+
+      - uses: ./.github/actions/build-version
+        with:
+          crate: cargo-quickinstall
+          features: ""
+          no_default_features: ""
+          target_arch: ${{ matrix.target_arch }}
+          version: ${{ steps.get-cargo-quickinstall-version.outputs.version }}
 
   self-build:
     name: Self-Build
