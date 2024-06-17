@@ -37,6 +37,7 @@ runs:
    - name: Install stable rust
      if: runner.os != 'Linux'
      run: rustup target add "$TARGET_ARCH"
+     shell: bash
 
    - uses: taiki-e/install-action@v2
      if: runner.os != 'Linux'
@@ -49,7 +50,8 @@ runs:
    - name: Install LLVM
      if: runner.os == 'Windows'
      run: choco install llvm
-
+     shell: bash
+     
    - name: Install LLVM
      if: runner.os == 'macOS'
      run: |
@@ -61,6 +63,7 @@ runs:
        echo "DYLD_LIBRARY_PATH=${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}" >> "$GITHUB_ENV"
        echo "LIBCLANG_PATH=$(llvm-config --libdir)" >> "$GITHUB_ENV"
        echo "LLVM_DIR=$(llvm-config --cmakedir)" >> "$GITHUB_ENV"
+     shell: bash
 
    - name: Decide cargo args, tempdir and cargo root
      run: |
@@ -77,11 +80,13 @@ runs:
        fi
        echo "CARGO_ARGS=$no_default_features $feature_flag $features" >> "$GITHUB_ENV"
        echo "TEMPDIR=$(mktemp -d)" >> "$GITHUB_ENV"
+     shell: bash
 
    - name: Build packages
      if: runner.os != 'Linux'
      run: ./build-version.sh
-      
+     shell: bash
+     
    - name: Set up Docker Buildx
      if: runner.os == 'Linux'
      uses: docker/setup-buildx-action@v3
@@ -111,7 +116,9 @@ runs:
          --tmpfs /run:rw,noexec,nosuid \
          --mount \
          package-builder:latest
+     shell: bash
 
    - name: Output
      id: output
      run: echo "artifact=${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz" >> "$GITHUB_OUTPUT"
+     shell: bash
