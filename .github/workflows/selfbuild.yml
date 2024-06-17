@@ -14,12 +14,12 @@ jobs:
         id: get-version
         run: |
           for crate in cargo-quickinstall cargo-deny; do 
-              echo "$crate-version="$(
+              echo "${crate}-version"=$(
                 curl \
                   --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
                   --fail "https://crates.io/api/v1/crates/$crate" \
                   | jq -r '.crate|.max_stable_version'
-              )" >> "$GITHUB_OUTPUT"
+              ) >> "$GITHUB_OUTPUT"
           done
 
   self-build-with-build-version:
