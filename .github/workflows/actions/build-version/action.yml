@@ -101,7 +101,11 @@ runs:
      run: |
        docker run --rm -it \
          --runtime=runsc \
-         --env \
+         --env CRATE="$CRATE" \
+         --env VERSION="$VERSION" \
+         --env TARGET_ARCH="$TARGET_ARCH" \
+         --env CARGO_ARGS="$CARGO_ARGS" \
+         --env TEMPDIR="$TEMPDIR" \
          --read-only \
          --tmpfs /tmp:rw,noexec,nosuid \
          --tmpfs /run:rw,noexec,nosuid \
