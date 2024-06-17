@@ -115,10 +115,11 @@ jobs:
       run:
         shell: bash
     steps:
-      - name: Checkout trigger commit
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           persist-credentials: false
+          ref: ${{ inputs.branch }}
     
       - name: Print inputs
         run: |
@@ -159,19 +160,11 @@ jobs:
       BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
       SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
-      - name: Checkout trigger commit
-        uses: actions/checkout@v4
-        with:
-          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
-          persist-credentials: true
-          path: trigger
-      - name: Checkout main repo
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-          # TODO: maybe this should be main or configurable or something?
           ref: ${{ inputs.branch }}
-          path: cargo-quickinstall
 
       - name: Download binary artifact
         uses: actions/download-artifact@v4
@@ -217,8 +210,7 @@ jobs:
         run: |
           (
             set -euxo pipefail
-            cd trigger
-            if ! ../cargo-quickinstall/create_and_upload_tag.sh $CRATE-$VERSION; then
+            if ! ./create_and_upload_tag.sh $CRATE-$VERSION; then
                 echo "$CRATE-$VERSION tag already exists"
             fi
           )
