@@ -39,6 +39,8 @@ jobs:
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal --component clippy,rustfmt
 
+      - uses: Swatinem/rust-cache@v2
+
       - name: Lint
         run: cargo fmt --check
 
@@ -59,6 +61,8 @@ jobs:
 
       - name: Fetch tags required for testing
         run: git fetch --tags
+
+      - uses: Swatinem/rust-cache@v2
 
       - name: Run test
         run: cargo test
@@ -87,6 +91,8 @@ jobs:
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
+
+      - uses: Swatinem/rust-cache@v2
 
       - name: Test dry-run
         run: cargo run -- --dry-run cargo-quickinstall
