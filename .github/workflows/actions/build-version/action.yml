@@ -110,11 +110,11 @@ runs:
          --env VERSION="$VERSION" \
          --env TARGET_ARCH="$TARGET_ARCH" \
          --env CARGO_ARGS="$CARGO_ARGS" \
-         --env TEMPDIR="$TEMPDIR" \
+         --env TEMPDIR=/root/output \
          --read-only \
          --tmpfs /tmp:rw,noexec,nosuid \
          --tmpfs /run:rw,noexec,nosuid \
-         --mount \
+         --mount type=bind,src=$TEMPDIR,dst=/root/output \
          package-builder:latest
      shell: bash
 
