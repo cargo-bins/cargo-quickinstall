@@ -151,6 +151,7 @@ jobs:
   upload-popular-package:
     name: Upload
     needs: build-popular-package
+    if: "contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')"
     runs-on: ubuntu-22.04
     defaults:
       run:
@@ -251,8 +252,7 @@ jobs:
           if-no-files-found: error
 
   build-popular-package-failure:
-    needs:
-      - build-popular-package
+    needs: build-popular-package
     if: ${{ failure() }}
     runs-on: ubuntu-latest
     defaults:
