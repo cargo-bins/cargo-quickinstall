@@ -130,7 +130,7 @@ jobs:
 
       - name: build package
         id: build-package
-        uses: ./.github/actions/build-version
+        uses: ./.github/workflows/actions/build-version
         with:
           crate: ${{ inputs.crate }}
           features: ${{ inputs.features }}
