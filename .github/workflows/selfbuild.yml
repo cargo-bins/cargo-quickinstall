@@ -58,7 +58,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: ./.github/actions/build-version
+      - uses: ./.github/workflows/actions/build-version
         with:
           crate: cargo-quickinstall
           features: ""
@@ -132,7 +132,7 @@ jobs:
           persist-credentials: false
 
       # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
-      - uses: ./.github/actions/build-version
+      - uses: ./.github/workflows/actions/build-version
         with:
           crate: cargo-deny
           features: ""
