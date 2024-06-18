@@ -9,3 +9,4 @@ cargo-udeps
 wthrr
 bindgen-cli
 cargo-lock
+cargo-spellcheck
