@@ -35,3 +35,4 @@ cargo-spellcheck
 sniffnet
 cargo-bitbake
 bottom
+cargo-udeps
