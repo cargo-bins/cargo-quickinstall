@@ -79,6 +79,7 @@ runs:
       shell: bash
       env:
         CRATE: ${{ inputs.crate }}
+        VERSION: ${{ input.version }}
         TARGET_ARCH: ${{ inputs.target_arch }}
 
     - name: Set up Docker Buildx
@@ -104,6 +105,10 @@ runs:
 
     - name: Build packages
       if: runner.os == 'Linux'
+      env:
+        CRATE: ${{ inputs.crate }}
+        VERSION: ${{ input.version }}
+        TARGET_ARCH: ${{ inputs.target_arch }}
       run: |
         docker run \
           --rm \
