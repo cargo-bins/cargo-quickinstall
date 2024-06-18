@@ -13,9 +13,9 @@ RUN apt-get update && \
     cargo binstall -y cargo-auditable cargo-zigbuild && \
     mkdir -p $CARGO_HOME
 
-ADD pkg-config-cross.sh build-version.sh .
+ADD pkg-config-cross.sh build-version.sh /root/
 
-ENTRYPOINT build-version.sh
+ENTRYPOINT /root/build-version.sh
 
 FROM base AS fetching
 
