@@ -114,7 +114,7 @@ runs:
           --env CARGO_ARGS="$CARGO_ARGS" \
           --env TEMPDIR=/root/output \
           --env CARGO_INSTALL_ROOT=/root/.cargo \
-          --tmpfs /tmp:rw,noexec,nosuid \
+          --tmpfs /tmp:rw,nosuid \
           --tmpfs /run:rw,noexec,nosuid \
           --mount type=bind,src="$TEMPDIR",dst=/root/output \
           package-builder:latest
