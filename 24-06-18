@@ -30,3 +30,4 @@ sniffnet
 pcu
 bindgen-cli
 nextsv
+cargo-lock
