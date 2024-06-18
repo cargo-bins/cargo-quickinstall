@@ -7,3 +7,4 @@ typst-cli
 wthrr
 cargo-udeps
 wthrr
+bindgen-cli
