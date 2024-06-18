@@ -69,6 +69,7 @@ jobs:
   e2etest:
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         include:
           - os: windows-latest

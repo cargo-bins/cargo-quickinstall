@@ -14,7 +14,7 @@ jobs:
         id: get-version
         run: |
           set -euxo pipefail
-          for crate in cargo-quickinstall cargo-deny; do 
+          for crate in cargo-quickinstall cargo-deny; do
               echo "${crate}-version"=$(
                 curl \
                   --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
@@ -31,6 +31,7 @@ jobs:
       run:
         shell: bash
     strategy:
+      fail-fast: false
       matrix:
         include:
           - target_arch: x86_64-pc-windows-msvc
@@ -73,6 +74,7 @@ jobs:
       run:
         shell: bash
     strategy:
+      fail-fast: false
       matrix:
         include:
           - target_arch: x86_64-pc-windows-msvc
@@ -106,6 +108,7 @@ jobs:
       run:
         shell: bash
     strategy:
+      fail-fast: false
       matrix:
         include:
           - target_arch: x86_64-pc-windows-msvc
