@@ -18,3 +18,4 @@ wthrr
 kak-tree-sitter
 typst-cli
 bindgen-cli
+cargo-spellcheck
