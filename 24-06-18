@@ -3,3 +3,4 @@ kak-tree-sitter
 cargo-lock
 kak-tree-sitter
 cargo-spellcheck
+typst-cli
