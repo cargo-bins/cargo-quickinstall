@@ -79,7 +79,7 @@ runs:
       shell: bash
       env:
         CRATE: ${{ inputs.crate }}
-        VERSION: ${{ input.version }}
+        VERSION: ${{ inputs.version }}
         TARGET_ARCH: ${{ inputs.target_arch }}
 
     - name: Set up Docker Buildx
@@ -97,8 +97,8 @@ runs:
         cache-to: type=gha,mode=max
         build-args: |
           crate=${{ inputs.crate }}
-          version=${{ input.version }}
-          target_arch=${{ input.target_arch }}
+          version=${{ inputs.version }}
+          target_arch=${{ inputs.target_arch }}
 
     - uses: ./.github/workflows/actions/docker-setup
       if: runner.os == 'Linux'
@@ -107,7 +107,7 @@ runs:
       if: runner.os == 'Linux'
       env:
         CRATE: ${{ inputs.crate }}
-        VERSION: ${{ input.version }}
+        VERSION: ${{ inputs.version }}
         TARGET_ARCH: ${{ inputs.target_arch }}
       run: |
         docker run \
