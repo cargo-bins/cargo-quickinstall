@@ -120,7 +120,7 @@ runs:
           --env CRATE="$CRATE" \
           --env VERSION="$VERSION" \
           --env TARGET_ARCH="$TARGET_ARCH" \
-          --env CARGO_ARGS="$CARGO_ARGS" \
+          --env CARGO_ARGS="$CARGO_ARGS --offline" \
           --env TEMPDIR=/root/output \
           --tmpfs /tmp:rw,nosuid \
           --tmpfs /run:rw,noexec,nosuid \
