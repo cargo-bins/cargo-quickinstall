@@ -117,6 +117,7 @@ runs:
           --runtime=runsc \
           --security-opt="no-new-privileges=true" \
           --read-only \
+          --network none \
           --env CRATE="$CRATE" \
           --env VERSION="$VERSION" \
           --env TARGET_ARCH="$TARGET_ARCH" \
