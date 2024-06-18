@@ -15,3 +15,4 @@ typst-cli
 cargo-udeps
 cargo-lock
 wthrr
+kak-tree-sitter
