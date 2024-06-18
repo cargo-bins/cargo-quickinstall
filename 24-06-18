@@ -25,3 +25,4 @@ pcu
 bindgen-cli
 cargo-lock
 wthrr
+kak-tree-sitter
