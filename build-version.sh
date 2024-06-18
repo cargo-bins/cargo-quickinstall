@@ -51,8 +51,8 @@ build_and_install() {
 build_and_install '--locked' || build_and_install
 
 # Collect binaries
-CARGO_BIN_DIR="${CARGO_ROOT}/bin"
-CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
+CARGO_BIN_DIR="${CARGO_HOME?}/bin"
+CRATES2_JSON_PATH="${CARGO_HOME?}/.crates2.json"
 
 BINARIES=$(
     jq -r '
