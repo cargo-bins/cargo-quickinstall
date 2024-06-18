@@ -32,7 +32,6 @@ fi
 rustup toolchain install stable-"$TARGET_ARCH" --no-self-update --profile minimal
 
 # Start building!
-CARGO_ROOT="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')"
 export CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1"
 export CARGO_PROFILE_RELEASE_LTO="fat"
 export OPENSSL_STATIC=1
@@ -43,7 +42,6 @@ build_and_install() {
     cargo-auditable auditable install "$CRATE" \
         --version "${VERSION?}" \
         --target "${CARGO_TARGET_ARCH:-$TARGET_ARCH}" \
-        --root "$CARGO_ROOT" \
         ${1:-} \
         $CARGO_ARGS
 }

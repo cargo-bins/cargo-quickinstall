@@ -70,6 +70,7 @@ runs:
         fi
         echo "CARGO_ARGS=$no_default_features $feature_flag $features" >> "$GITHUB_ENV"
         echo "TEMPDIR=$(mktemp -d)" >> "$GITHUB_ENV"
+        echo CARGO_INSTALL_ROOT="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')" >> "$GITHUB_ENV"
       shell: bash
 
     - name: Build packages
@@ -112,6 +113,7 @@ runs:
           --env TARGET_ARCH="$TARGET_ARCH" \
           --env CARGO_ARGS="$CARGO_ARGS" \
           --env TEMPDIR=/root/output \
+          --env CARGO_INSTALL_ROOT=/root/.cargo \
           --tmpfs /tmp:rw,noexec,nosuid \
           --tmpfs /run:rw,noexec,nosuid \
           --mount type=bind,src="$TEMPDIR",dst=/root/output \
