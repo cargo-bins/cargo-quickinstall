@@ -11,3 +11,4 @@ bindgen-cli
 cargo-lock
 cargo-spellcheck
 kak-tree-sitter
+typst-cli
