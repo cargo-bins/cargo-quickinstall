@@ -8,3 +8,4 @@ wthrr
 cargo-udeps
 wthrr
 bindgen-cli
+cargo-lock
