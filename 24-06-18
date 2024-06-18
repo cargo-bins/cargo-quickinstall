@@ -32,3 +32,4 @@ bindgen-cli
 nextsv
 cargo-lock
 cargo-spellcheck
+sniffnet
