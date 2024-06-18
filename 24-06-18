@@ -5,3 +5,4 @@ kak-tree-sitter
 cargo-spellcheck
 typst-cli
 wthrr
+cargo-udeps
