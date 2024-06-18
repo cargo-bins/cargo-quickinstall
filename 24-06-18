@@ -23,3 +23,4 @@ cargo-udeps
 cargo-spellcheck
 pcu
 bindgen-cli
+cargo-lock
