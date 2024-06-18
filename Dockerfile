@@ -23,7 +23,14 @@ ARG crate
 ARG version
 ARG target_arch
 
-RUN curl -L https://crates.io/api/v1/crates/$crate/$version/download | tar xf && \
+RUN cd /tmp/ && \
+    curl -L https://crates.io/api/v1/crates/$crate/$version/download | tar xf && \
     cd $crate-$version && \
+    ( \
     cargo fetch --target $target_arch --locked || \
+    cargo fetch --target $target_arch \
+    ) && \
+    cargo new --lib dummy \
+    cd $dummy && \
+    echo "$crate = \"$version\"" >> Cargo.toml && \
     cargo fetch --target $target_arch
