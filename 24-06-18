@@ -10,3 +10,4 @@ wthrr
 bindgen-cli
 cargo-lock
 cargo-spellcheck
+kak-tree-sitter
