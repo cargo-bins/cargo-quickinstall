@@ -164,7 +164,7 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           set -euxo pipefail
-          docker load --input /tmp/package-builder.tar
+          docker load --input /tmp/${{ env.DOCKER_IMAGE }}.tar
           docker run \
             --rm \
             -it \
