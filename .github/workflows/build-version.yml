@@ -74,6 +74,7 @@ jobs:
           path: /tmp/${{ env.DOCKER_IMAGE }}.tar
 
   build-version:
+    needs: build-docker
     runs-on: ${{ inputs.build_os }}
     permissions: {}
     defaults:
