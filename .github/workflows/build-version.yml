@@ -127,7 +127,8 @@ jobs:
             no_default_features='--no-default-features'
           fi
           echo "CARGO_ARGS=$no_default_features $feature_flag $features" >> "$GITHUB_ENV"
-          echo "TEMPDIR=$(mktemp -d)" >> "$GITHUB_ENV"
+          TEMPDIR="$(mktemp -d)"
+          echo "TEMPDIR=$TEMPDIR)" >> "$GITHUB_ENV"
           echo CARGO_HOME="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')" >> "$GITHUB_ENV"
           ARTIFACT_PATH="${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
           if [ "$RUNNER_OS" = Windows ]; then
