@@ -75,7 +75,11 @@ runs:
 
     - name: Build packages
       if: runner.os != 'Linux'
-      run: ./build-version.sh
+      run: |
+        set -euxo pipefail
+        rustup toolchain install stable --no-self-update --profile minimal
+        rustup target add "$TARGET_ARCH"
+        ./build-version.sh
       shell: bash
       env:
         CRATE: ${{ inputs.crate }}
