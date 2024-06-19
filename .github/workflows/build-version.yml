@@ -110,6 +110,7 @@ jobs:
           echo "LLVM_DIR=$(llvm-config --cmakedir)" >> "$GITHUB_ENV"
 
       - name: Decide cargo args, tempdir and cargo root
+        id: prepare
         env:
           FEATURES: ${{ inputs.features }}
           NO_DEFAULT_FEATURES: ${{ inputs.no_default_features }}
@@ -128,6 +129,11 @@ jobs:
           echo "CARGO_ARGS=$no_default_features $feature_flag $features" >> "$GITHUB_ENV"
           echo "TEMPDIR=$(mktemp -d)" >> "$GITHUB_ENV"
           echo CARGO_HOME="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')" >> "$GITHUB_ENV"
+          ARTIFACT_PATH="${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
+          if [ "$RUNNER_OS" = Windows ]; then
+            ARTIFACT_PATH="$(cygpath -w "$ARTIFACT_PATH")"
+          fi
+          echo "ARTIFACT_PATH=$ARTIFACT_PATH" >> "$GITHUB_OUTPUT"
 
       - name: Build packages
         if: runner.os != 'Linux'
@@ -183,5 +189,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: built-${{ inputs.build_os }}
-          path: ${{ env.TEMPDIR }}/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
+          path: ${{ steps.prepare.outputs.ARTIFACT_PATH }}
           if-no-files-found: error
