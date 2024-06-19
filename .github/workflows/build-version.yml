@@ -1,0 +1,150 @@
+name: Build package
+
+on:
+  workflow_call:
+    inputs:
+      crate:
+        description: crates to build
+        required: true
+        type: string
+      features:
+        description: features to enable
+        required: true
+        type: string
+      no_default_features:
+        description: disable default features
+        required: true
+        type: string
+      target_arch:
+        description: Target to build against
+        required: true
+        type: string
+      version:
+        description: Version to release
+        required: true
+        type: string
+      build_os:
+        description: The OS to use for building
+        required: true
+        type: string
+
+env:
+  CRATE: ${{ inputs.crate }}
+  VERSION: ${{ inputs.version }}
+  TARGET_ARCH: ${{ inputs.target_arch }}
+
+jobs:
+  build-version:
+    runs-on: ${{ inputs.build_os }}
+    permissions: {}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            ./build-version.sh
+          sparse-checkout-cone-mode: false
+
+      - uses: taiki-e/install-action@v2
+        if: runner.os != 'Linux'
+        with:
+          tool: cargo-auditable
+
+      - name: Install LLVM
+        if: runner.os == 'Windows'
+        run: choco install llvm
+
+      - name: Install LLVM
+        if: runner.os == 'macOS'
+        run: |
+          set -euxo pipefail
+          brew install llvm
+          LLVM_PREFIX="$(brew --prefix llvm)"
+          echo "${LLVM_PREFIX}/bin" >> "$GITHUB_PATH"
+          echo "LLVM_CONFIG_PATH=${LLVM_PREFIX}/bin/llvm-config" >> "$GITHUB_ENV"
+          echo "DYLD_LIBRARY_PATH=${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}" >> "$GITHUB_ENV"
+          echo "LIBCLANG_PATH=$(llvm-config --libdir)" >> "$GITHUB_ENV"
+          echo "LLVM_DIR=$(llvm-config --cmakedir)" >> "$GITHUB_ENV"
+
+      - name: Decide cargo args, tempdir and cargo root
+        env:
+          FEATURES: ${{ inputs.features }}
+          NO_DEFAULT_FEATURES: ${{ inputs.no_default_features }}
+        run: |
+          set -exuo pipefail
+          features="${FEATURES:-}"
+          if [ -z "$features" ]; then
+            feature_flag=""
+          else
+            feature_flag="--features"
+          fi
+          no_default_features=""
+          if [ "${NO_DEFAULT_FEATURES:-}" = "true" ]; then
+            no_default_features='--no-default-features'
+          fi
+          echo "CARGO_ARGS=$no_default_features $feature_flag $features" >> "$GITHUB_ENV"
+          echo "TEMPDIR=$(mktemp -d)" >> "$GITHUB_ENV"
+          echo CARGO_HOME="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')" >> "$GITHUB_ENV"
+
+      - name: Build packages
+        if: runner.os != 'Linux'
+        run: |
+          set -euxo pipefail
+          rustup toolchain install stable --no-self-update --profile minimal
+          rustup target add "$TARGET_ARCH"
+          ./build-version.sh
+
+      - name: Set up Docker Buildx
+        if: runner.os == 'Linux'
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build docker image for package building
+        if: runner.os == 'Linux'
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          load: true
+          tags: package-builder:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          build-args: |
+            crate=${{ inputs.crate }}
+            version=${{ inputs.version }}
+            target_arch=${{ inputs.target_arch }}
+
+      - uses: ./.github/workflows/actions/docker-setup
+        if: runner.os == 'Linux'
+
+      - name: Build packages
+        if: runner.os == 'Linux'
+        run: |
+          docker run \
+            --rm \
+            -it \
+            --init \
+            --runtime=runsc \
+            --security-opt="no-new-privileges=true" \
+            --read-only \
+            --network none \
+            --env CRATE="$CRATE" \
+            --env VERSION="$VERSION" \
+            --env TARGET_ARCH="$TARGET_ARCH" \
+            --env CARGO_ARGS="$CARGO_ARGS --offline" \
+            --env TEMPDIR=/root/output \
+            --tmpfs /tmp:rw,nosuid \
+            --tmpfs /run:rw,noexec,nosuid \
+            --mount type=bind,src="$TEMPDIR",dst=/root/output \
+            package-builder:latest
+
+      # At this point, I don't think that you can really trust anything on the system anymore.
+      # I'm not sure whether the js actions runtime is also affected by this.
+      # TODO: try breaking things so that uploads don't work.
+      - name: Upload run-local binary artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-${{ inputs.build_os }}
+          path: ${{ env.TEMPDIR }}/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
+          if-no-files-found: error

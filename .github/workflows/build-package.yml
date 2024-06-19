@@ -86,7 +86,7 @@ env:
   TARGET_ARCH: ${{ inputs.target_arch }}
   VERSION: ${{ inputs.version }}
   FEATURES: ${{ inputs.features }}
-  NO_DEFAULT_FEATURES: ${{ inputs.NO_DEFAULT_FEATURES }}
+  NO_DEFAULT_FEATURES: ${{ inputs.no_default_features }}
 
 jobs:
   check-if-already-built:
@@ -104,49 +104,19 @@ jobs:
           else
             echo "NEEDS_BUILD=true" >> "$GITHUB_OUTPUT"
           fi
-          
+
   build-popular-package:
     needs: check-if-already-built
     if: inputs.always_build != '' || needs.check-if-already-built.outputs.NEEDS_BUILD == 'true'
     name: Build package ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
-    runs-on: ${{ inputs.build_os }}
-    permissions: {}
-    defaults:
-      run:
-        shell: bash
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          ref: ${{ inputs.branch }}
-    
-      - name: Print inputs
-        run: |
-          echo $CRATE
-          echo $VERSION
-          echo $TARGET_ARCH
-          echo $FEATURES
-
-      - name: build package
-        id: build-package
-        uses: ./.github/workflows/actions/build-version
-        with:
-          crate: ${{ inputs.crate }}
-          features: ${{ inputs.features }}
-          no_default_features: ${{ inputs.NO_DEFAULT_FEATURES }}
-          target_arch: ${{ inputs.target_arch }}
-          version: ${{ inputs.version }}
-
-      # At this point, I don't think that you can really trust anything on the system anymore.
-      # I'm not sure whether the js actions runtime is also affected by this.
-      # TODO: try breaking things so that uploads don't work.
-      - name: Upload run-local binary artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: built-${{ inputs.build_os }}
-          path: ${{ steps.build-package.outputs.artifact }}
-          if-no-files-found: error
+    uses: ./.github/workflows/build-version.yml
+    with:
+      crate: ${{ inputs.crate }}
+      features: ${{ inputs.features }}
+      no_default_features: ${{ inputs.no_default_features }}
+      target_arch: ${{ inputs.target_arch }}
+      version: ${{ inputs.version }}
+      build_os: ${{ inputs.build_os }}
 
   upload-popular-package:
     name: Upload

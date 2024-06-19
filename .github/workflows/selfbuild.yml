@@ -26,10 +26,6 @@ jobs:
   self-build-with-build-version:
     needs: get-version
     name: Self-Build-With-build-version
-    runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        shell: bash
     strategy:
       fail-fast: false
       matrix:
@@ -54,18 +50,14 @@ jobs:
             os: ubuntu-latest
           - target_arch: armv7-unknown-linux-musleabihf
             os: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
-      - uses: ./.github/workflows/actions/build-version
-        with:
-          crate: cargo-quickinstall
-          features: ""
-          no_default_features: ""
-          target_arch: ${{ matrix.target_arch }}
-          version: ${{ needs.get-version.outputs.cargo-quickinstall-version }}
+    uses: ./.github/workflows/build-version.yml
+    with:
+      crate: cargo-quickinstall
+      features: ""
+      no_default_features: ""
+      target_arch: ${{ matrix.target_arch }}
+      version: ${{ needs.get-version.outputs.cargo-quickinstall-version }}
+      build_os: ${{ matrix.os }}
 
   self-build:
     name: Self-Build
@@ -103,10 +95,6 @@ jobs:
   build-needing-cc:
     needs: get-version
     name: Build package that needs CC
-    runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        shell: bash
     strategy:
       fail-fast: false
       matrix:
@@ -129,19 +117,15 @@ jobs:
             os: ubuntu-latest
           - target_arch: aarch64-unknown-linux-musl
             os: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
-      # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
-      - uses: ./.github/workflows/actions/build-version
-        with:
-          crate: cargo-deny
-          features: ""
-          no_default_features: ""
-          target_arch: ${{ matrix.target_arch }}
-          version: ${{ needs.get-version.outputs.cargo-deny-version }}
+    # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
+    uses: ./.github/workflows/build-version.yml
+    with:
+      crate: cargo-deny
+      features: ""
+      no_default_features: ""
+      target_arch: ${{ matrix.target_arch }}
+      version: ${{ needs.get-version.outputs.cargo-deny-version }}
+      build_os: ${{ matrix.os }}
 
   build-package-test:
     name: Build package test
