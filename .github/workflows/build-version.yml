@@ -34,6 +34,45 @@ env:
   TARGET_ARCH: ${{ inputs.target_arch }}
 
 jobs:
+  build-docker:
+    if: contains(inputs.build_os, 'ubuntu')
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            Dockerfile
+            build-version.sh
+            pkg-config-cross.sh
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build docker image for package building
+        if: runner.os == 'Linux'
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          outputs: type=docker,dest=/tmp/package-builder.tar
+          tags: package-builder:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          build-args: |
+            crate=${{ inputs.crate }}
+            version=${{ inputs.version }}
+            target_arch=${{ inputs.target_arch }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-builder
+          path: /tmp/package-builder.tar
+
   build-version:
     runs-on: ${{ inputs.build_os }}
     permissions: {}
@@ -45,7 +84,7 @@ jobs:
         with:
           persist-credentials: false
           sparse-checkout: |
-            ./build-version.sh
+            build-version.sh
           sparse-checkout-cone-mode: false
 
       - uses: taiki-e/install-action@v2
@@ -97,30 +136,21 @@ jobs:
           rustup target add "$TARGET_ARCH"
           ./build-version.sh
 
-      - name: Set up Docker Buildx
-        if: runner.os == 'Linux'
-        uses: docker/setup-buildx-action@v3
-
-      - name: Build docker image for package building
-        if: runner.os == 'Linux'
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          load: true
-          tags: package-builder:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-          build-args: |
-            crate=${{ inputs.crate }}
-            version=${{ inputs.version }}
-            target_arch=${{ inputs.target_arch }}
-
       - uses: ./.github/workflows/actions/docker-setup
         if: runner.os == 'Linux'
+
+      - name: Download artifact
+        if: runner.os == 'Linux'
+        uses: actions/download-artifact@v4
+        with:
+          name: package-builder
+          path: /tmp
 
       - name: Build packages
         if: runner.os == 'Linux'
         run: |
+          set -euxo pipefail
+          docker load --input /tmp/package-builder.tar
           docker run \
             --rm \
             -it \
