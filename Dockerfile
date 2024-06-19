@@ -23,7 +23,8 @@ ARG crate
 ARG version
 ARG target_arch
 
-RUN cd /tmp/ && \
+RUN rustup target add "$TARGET_ARCH" && \
+    cd /tmp/ && \
     curl -L https://crates.io/api/v1/crates/$crate/$version/download | tar xf - && \
     cd $crate-$version && \
     ( \
@@ -32,5 +33,5 @@ RUN cd /tmp/ && \
     ) && \
     cargo new --lib dummy \
     cd $dummy && \
-    echo "$crate = \"$version\"" >> Cargo.toml && \
+    echo "$crate = \"=$version\"" >> Cargo.toml && \
     cargo fetch --target $target_arch
