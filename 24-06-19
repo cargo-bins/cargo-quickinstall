@@ -16,3 +16,4 @@ diesel_cli
 cargo-bitbake
 cargo-bom
 cargo-bpf
+cargo-bom
