@@ -28,9 +28,6 @@ if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     CARGO_TARGET_ARCH="${TARGET_ARCH}.${GLIBC_VERSION}"
 fi
 
-# Install rustup target
-rustup toolchain install stable-"$TARGET_ARCH" --no-self-update --profile minimal
-
 # Start building!
 export CARGO_INSTALL_ROOT="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')"
 export CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1"
