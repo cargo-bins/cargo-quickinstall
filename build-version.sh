@@ -79,7 +79,7 @@ fi
 # and add symlinks into ~/.cargo/bin, to aid debugging?
 #
 # BINARIES is a space-separated list of files, so it can't be quoted
-# shellcheck disable=SC2086
 artifact_path="${TEMPDIR?}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
+# shellcheck disable=SC2086
 tar --format=v7 -c $BINARIES | gzip -9 -c >"$artifact_path"
 ls "$artifact_path"
