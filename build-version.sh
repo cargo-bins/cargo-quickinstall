@@ -32,6 +32,7 @@ fi
 rustup toolchain install stable-"$TARGET_ARCH" --no-self-update --profile minimal
 
 # Start building!
+export CARGO_INSTALL_ROOT="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')"
 export CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1"
 export CARGO_PROFILE_RELEASE_LTO="fat"
 export OPENSSL_STATIC=1
@@ -51,8 +52,8 @@ build_and_install() {
 build_and_install '--locked' || build_and_install
 
 # Collect binaries
-CARGO_BIN_DIR="${CARGO_HOME?}/bin"
-CRATES2_JSON_PATH="${CARGO_HOME?}/.crates2.json"
+CARGO_BIN_DIR="${CARGO_INSTALL_ROOT}/bin"
+CRATES2_JSON_PATH="${CARGO_INSTALL_ROOT}/.crates2.json"
 
 BINARIES=$(
     jq -r '
