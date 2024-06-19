@@ -136,8 +136,14 @@ jobs:
           rustup target add "$TARGET_ARCH"
           ./build-version.sh
 
-      - uses: ./.github/workflows/actions/docker-setup
+      - name: Setup gVisor
         if: runner.os == 'Linux'
+        run: |
+          set -euxo pipefail
+          curl -fsSL https://gvisor.dev/archive.key | sudo gpg --dearmor -o /usr/share/keyrings/gvisor-archive-keyring.gpg
+          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/gvisor-archive-keyring.gpg] https://storage.googleapis.com/gvisor/releases release main" | sudo tee /etc/apt/sources.list.d/gvisor.list
+          sudo apt-get update
+          sudo apt-get install -y runsc
 
       - name: Download artifact
         if: runner.os == 'Linux'
