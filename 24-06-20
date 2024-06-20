@@ -4,3 +4,4 @@ binstall
 cargo-embed
 mprocs
 taplo-cli
+probe-rs-tools
