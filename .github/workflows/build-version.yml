@@ -181,6 +181,7 @@ jobs:
             --env TEMPDIR=/root/output \
             --tmpfs /tmp:rw,nosuid \
             --tmpfs /run:rw,noexec,nosuid \
+            --tmpfs /root/.cache:rw,nosuid \
             --mount type=bind,src="$TEMPDIR",dst=/root/output \
             ${{ env.DOCKER_IMAGE }}:latest
 
