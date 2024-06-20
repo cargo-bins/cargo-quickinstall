@@ -179,9 +179,9 @@ jobs:
             --env TARGET_ARCH="$TARGET_ARCH" \
             --env CARGO_ARGS="$CARGO_ARGS --offline" \
             --env TEMPDIR=/root/output \
-            --tmpfs /tmp:rw,nosuid \
+            --tmpfs /tmp:rw,exec,nosuid \
             --tmpfs /run:rw,noexec,nosuid \
-            --tmpfs /root/.cache:rw,nosuid \
+            --tmpfs /root/.cache:rw,exec,nosuid \
             --mount type=bind,src="$TEMPDIR",dst=/root/output \
             ${{ env.DOCKER_IMAGE }}:latest
 
