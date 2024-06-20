@@ -2,7 +2,7 @@ FROM rust:slim AS base
 
 ARG ZIG_VERSION=0.13.0
 
-ENV PATH="${PATH}:/root/zig-linux-x86_64-$ZIG_VERSION" CARGO=cargo-zigbuild PKG_CONFIG="/root/pkg-config-cross.sh" CARGO_HOME="/root/.cargo"
+ENV PATH="${PATH}:/root/zig-linux-x86_64-$ZIG_VERSION" CARGO=cargo-zigbuild PKG_CONFIG="/root/pkg-config-cross.sh"
 
 RUN apt-get update && \
     apt-get install -y curl wget libssl-dev jq tar gzip build-essential lsb-release wget software-properties-common gnupg && \
