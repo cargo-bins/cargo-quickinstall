@@ -100,9 +100,10 @@ jobs:
         id: check
         env:
           USER_AGENT: cargo-quickinstall build pipeline (alsuren@gmail.com)
+          ARTIFACT: ${{ env.CRATE }}-${{ env.VERSION }}/${{ env.CRATE }}-${{ env.VERSION }}-${{ env.TARGET_ARCH }}.tar.gz
         run: |
-          if curl --user-agent "$USER_AGENT" --fail -I --output /dev/null "${GITHUB_REPOSITORY}/releases/download/${CRATE}-${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"; then
-            echo "${CRATE}/${VERSION}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz already uploaded. Skipping."
+          if curl --user-agent "$USER_AGENT" --fail -I --output /dev/null "${GITHUB_REPOSITORY}/releases/download/${ARTIFACT}"; then
+            echo "${ARTIFACT} already uploaded. Skipping."
             echo "NEEDS_BUILD=false" >> "$GITHUB_OUTPUT"
           else
             echo "NEEDS_BUILD=true" >> "$GITHUB_OUTPUT"
