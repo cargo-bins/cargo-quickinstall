@@ -131,6 +131,7 @@ jobs:
       run:
         shell: bash
     env:
+      BUILD_DIR: ${{ github.workspace }}/built.d
       BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
       SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
@@ -143,7 +144,7 @@ jobs:
       - name: Download binary artifact
         uses: actions/download-artifact@v4
         with:
-          name: built-${{ inputs.build_os }}
+          name: ${{ env.CRATE }}-${{ env.VERSION }}-${{ env.TARGET_ARCH }}
           # TODO: check that we it can't write anywhere other than built.d
           path: ${{ env.BUILD_DIR }}
 

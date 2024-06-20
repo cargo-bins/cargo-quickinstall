@@ -190,6 +190,6 @@ jobs:
       - name: Upload run-local binary artifact
         uses: actions/upload-artifact@v4
         with:
-          name: built-${{ inputs.build_os }}
+          name: ${{ env.CRATE }}-${{ env.VERSION }}-${{ env.TARGET_ARCH }}
           path: ${{ steps.prepare.outputs.ARTIFACT_PATH }}
           if-no-files-found: error
