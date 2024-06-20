@@ -20,3 +20,4 @@ sonic-server
 cargo-embed
 binstall
 sonic-server
+wasm-opt
