@@ -14,3 +14,4 @@ binstall
 cargo-embed
 probe-rs-tools
 cargo-embed
+binstall
