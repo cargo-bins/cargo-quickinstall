@@ -129,8 +129,9 @@ jobs:
           fi
           echo "CARGO_ARGS=$no_default_features $feature_flag $features" >> "$GITHUB_ENV"
           TEMPDIR="$(mktemp -d)"
-          echo "TEMPDIR=$TEMPDIR)" >> "$GITHUB_ENV"
-          echo CARGO_HOME="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')" >> "$GITHUB_ENV"
+          CARGO_HOME="$(mktemp -dq || mktemp -d -t 'cargo-root')"
+          echo "TEMPDIR=$TEMPDIR" >> "$GITHUB_ENV"
+          echo CARGO_HOME="$CARGO_HOME" >> "$GITHUB_ENV"
           ARTIFACT_PATH="${TEMPDIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
           if [ "$RUNNER_OS" = Windows ]; then
             ARTIFACT_PATH="$(cygpath -w "$ARTIFACT_PATH")"
