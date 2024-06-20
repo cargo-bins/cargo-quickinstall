@@ -93,8 +93,11 @@ jobs:
     if: inputs.always_build == ''
     name: Check if the package ${{ github.event.inputs.crate }}-${{ github.event.inputs.version }}-${{ github.event.inputs.target_arch }} is already built
     runs-on: ubuntu-latest
+    outputs:
+      NEEDS_BUILD: ${{ steps.check.outputs.NEEDS_BUILD }}
     steps:
       - name: Check if the package is built
+        id: check
         env:
           USER_AGENT: cargo-quickinstall build pipeline (alsuren@gmail.com)
         run: |
@@ -107,7 +110,7 @@ jobs:
 
   build-popular-package:
     needs: check-if-already-built
-    if: inputs.always_build != '' || needs.check-if-already-built.outputs.NEEDS_BUILD == 'true'
+    if: always() && (inputs.always_build != '' || needs.check-if-already-built.outputs.NEEDS_BUILD == 'true')
     name: Build package ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
     uses: ./.github/workflows/build-version.yml
     with:
