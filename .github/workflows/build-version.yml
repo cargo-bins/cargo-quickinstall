@@ -75,6 +75,7 @@ jobs:
 
   build-version:
     needs: build-docker
+    if: always()
     runs-on: ${{ inputs.build_os }}
     permissions: {}
     defaults:
