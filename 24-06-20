@@ -8,3 +8,4 @@ probe-rs-tools
 binstall
 taplo-cli
 mprocs
+cargo-embed
