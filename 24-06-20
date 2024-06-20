@@ -22,3 +22,4 @@ binstall
 sonic-server
 wasm-opt
 sonic-server
+taplo-cli
