@@ -167,7 +167,6 @@ jobs:
           docker load --input /tmp/${{ env.DOCKER_IMAGE }}.tar
           docker run \
             --rm \
-            -it \
             --init \
             --runtime=runsc \
             --security-opt="no-new-privileges=true" \
