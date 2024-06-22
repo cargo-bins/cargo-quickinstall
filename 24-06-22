@@ -14,3 +14,4 @@ cargo-spellcheck
 bindgen-cli
 cargo-udeps
 cargo-lock
+bindgen-cli
