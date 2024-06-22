@@ -10,3 +10,4 @@ cargo-spellcheck
 cargo-outdated
 cargo-udeps
 cargo-lock
+cargo-spellcheck
