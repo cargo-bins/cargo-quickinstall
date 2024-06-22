@@ -15,3 +15,4 @@ bindgen-cli
 cargo-udeps
 cargo-lock
 bindgen-cli
+cargo-lock
