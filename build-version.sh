@@ -25,7 +25,9 @@ if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     LLVM_DIR="$(llvm-config --cmakedir)"
     export LLVM_DIR
 
-    CARGO_TARGET_ARCH="${TARGET_ARCH}.${GLIBC_VERSION}"
+    if [[ "$TARGET_ARCH" == *"-gnu"* ]]; then
+        CARGO_TARGET_ARCH="${TARGET_ARCH}.${GLIBC_VERSION}"
+    fi
 fi
 
 # Start building!
