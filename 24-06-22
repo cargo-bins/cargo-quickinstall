@@ -2,3 +2,4 @@ bindgen-cli
 cargo-lock
 cargo-spellcheck
 bindgen-cli
+cargo-udeps
