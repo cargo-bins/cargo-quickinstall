@@ -9,3 +9,4 @@ bindgen-cli
 cargo-spellcheck
 cargo-outdated
 cargo-udeps
+cargo-lock
