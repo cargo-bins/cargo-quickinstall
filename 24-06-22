@@ -5,3 +5,4 @@ bindgen-cli
 cargo-udeps
 cargo-outdated
 cargo-lock
+bindgen-cli
