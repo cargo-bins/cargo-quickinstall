@@ -13,3 +13,4 @@ sqlx-cli
 zellij
 deno
 cargo-generate
+sqlx-cli
