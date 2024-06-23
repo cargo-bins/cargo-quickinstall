@@ -12,3 +12,4 @@ gitui
 sqlx-cli
 zellij
 deno
+cargo-generate
