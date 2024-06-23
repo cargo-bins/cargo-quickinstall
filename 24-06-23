@@ -8,3 +8,4 @@ sqlx-cli
 cargo-generate
 zellij
 cargo-generate
+gitui
