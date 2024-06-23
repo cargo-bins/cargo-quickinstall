@@ -14,3 +14,4 @@ zellij
 deno
 cargo-generate
 sqlx-cli
+gitui
