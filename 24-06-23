@@ -9,3 +9,4 @@ deno
 ast-grep
 cargo-outdated
 redoxer
+ast-grep
