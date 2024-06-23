@@ -16,3 +16,4 @@ cargo-generate
 sqlx-cli
 gitui
 zellij
+deno
