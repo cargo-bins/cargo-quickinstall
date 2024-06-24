@@ -17,3 +17,4 @@ cargo
 cargo-public-api
 xcp
 nu_plugin_polars
+staging-chain-spec-builder
