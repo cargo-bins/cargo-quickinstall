@@ -22,3 +22,4 @@ rbw
 evcxr_repl
 cargo
 xcp
+cargo-public-api
