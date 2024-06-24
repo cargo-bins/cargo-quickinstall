@@ -7,3 +7,4 @@ nu_plugin_polars
 cargo-public-api
 rbw
 evcxr_repl
+cargo
