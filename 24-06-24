@@ -10,3 +10,4 @@ evcxr_repl
 cargo
 nu_plugin_polars
 cargo-public-api
+staging-chain-spec-builder
