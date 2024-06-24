@@ -23,3 +23,4 @@ evcxr_repl
 cargo
 xcp
 cargo-public-api
+staging-chain-spec-builder
