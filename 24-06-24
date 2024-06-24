@@ -8,3 +8,4 @@ cargo-public-api
 rbw
 evcxr_repl
 cargo
+nu_plugin_polars
