@@ -19,3 +19,4 @@ xcp
 nu_plugin_polars
 staging-chain-spec-builder
 rbw
+evcxr_repl
