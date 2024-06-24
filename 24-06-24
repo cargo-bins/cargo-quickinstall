@@ -8,3 +8,4 @@ wasm-opt
 cargo-info
 wasm-opt
 wasm-opt
+cargo-bitbake
