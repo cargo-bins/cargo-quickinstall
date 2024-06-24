@@ -2,3 +2,4 @@ nu_plugin_polars
 cargo-public-api
 nu_plugin_polars
 evcxr_repl
+cargo
