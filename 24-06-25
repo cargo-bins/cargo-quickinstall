@@ -35,3 +35,4 @@ taplo-cli
 rtx-cli
 zellij
 broot
+sccache
