@@ -69,3 +69,4 @@ cargo-bpf
 cargo-bom
 grcov
 cargo-clone
+cargo-c
