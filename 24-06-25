@@ -20,3 +20,4 @@ dprint
 sccache
 cargo-udeps
 cargo-lock
+rtx-cli
