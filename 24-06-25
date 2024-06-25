@@ -28,3 +28,4 @@ grcov
 cargo-generate
 zellij
 sccache
+cargo-udeps
