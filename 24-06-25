@@ -56,3 +56,4 @@ broot
 zellij
 dprint
 cargo-generate
+cargo-bpf
