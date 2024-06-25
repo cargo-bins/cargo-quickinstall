@@ -17,3 +17,4 @@ grcov
 cargo-generate
 zellij
 dprint
+sccache
