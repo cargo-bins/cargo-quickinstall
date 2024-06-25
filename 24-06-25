@@ -74,3 +74,4 @@ cargo-clone-crate
 cargo-bpf
 cargo-compete
 cargo-bom
+cargo-bitbake
