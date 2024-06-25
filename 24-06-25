@@ -49,3 +49,4 @@ cargo-udeps
 taplo-cli
 cargo-lock
 cargo-bitbake
+cargo-spellcheck
