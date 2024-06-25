@@ -23,3 +23,4 @@ pigg
 cargo-lock
 cargo-spellcheck
 cargo-bisect-rustc
+pricedb
