@@ -46,3 +46,4 @@ cargo-generate
 broot
 sccache
 cargo-udeps
+taplo-cli
