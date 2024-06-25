@@ -63,3 +63,4 @@ cargo-bitbake
 grcov
 broot
 dprint
+cargo-c
