@@ -21,3 +21,4 @@ sccache
 cargo-udeps
 cargo-lock
 rtx-cli
+taplo-cli
