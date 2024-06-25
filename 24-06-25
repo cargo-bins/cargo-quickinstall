@@ -38,3 +38,4 @@ broot
 sccache
 dprint
 cargo-udeps
+rtx-cli
