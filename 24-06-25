@@ -1,3 +1,4 @@
 mprocs
 cargo-bisect-rustc
 buck2
+cargo-bisect-rustc
