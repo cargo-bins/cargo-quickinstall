@@ -10,3 +10,4 @@ cargo-generate
 cargo-udeps
 sccache
 cargo-spellcheck
+cargo-lock
