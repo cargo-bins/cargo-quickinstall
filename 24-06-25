@@ -26,3 +26,4 @@ cargo-bisect-rustc
 pricedb
 rustdesk
 pigg
+cargo-bitbake
