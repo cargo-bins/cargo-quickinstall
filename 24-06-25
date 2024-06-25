@@ -61,3 +61,4 @@ cargo-lock
 cargo-bom
 cargo-bitbake
 grcov
+broot
