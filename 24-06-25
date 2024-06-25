@@ -58,3 +58,4 @@ dprint
 cargo-generate
 cargo-bpf
 cargo-lock
+cargo-bom
