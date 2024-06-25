@@ -40,3 +40,4 @@ dprint
 cargo-udeps
 rtx-cli
 cargo-spellcheck
+grcov
