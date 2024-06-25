@@ -23,3 +23,4 @@ cargo-lock
 rtx-cli
 taplo-cli
 cocogitto
+cargo-spellcheck
