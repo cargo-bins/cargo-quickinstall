@@ -43,3 +43,4 @@ cargo-spellcheck
 grcov
 cocogitto
 cargo-generate
+broot
