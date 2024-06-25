@@ -27,3 +27,4 @@ cargo-spellcheck
 grcov
 cargo-generate
 zellij
+sccache
