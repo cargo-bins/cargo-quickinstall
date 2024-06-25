@@ -25,3 +25,4 @@ taplo-cli
 cocogitto
 cargo-spellcheck
 grcov
+cargo-generate
