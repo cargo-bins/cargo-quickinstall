@@ -70,3 +70,4 @@ cargo-bom
 grcov
 cargo-clone
 cargo-c
+cargo-clone-crate
