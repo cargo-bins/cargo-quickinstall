@@ -13,3 +13,4 @@ cargo-lock
 rustdesk
 cargo-bisect-rustc
 pricedb
+cargo-udeps
