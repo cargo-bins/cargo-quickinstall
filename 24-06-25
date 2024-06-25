@@ -21,3 +21,4 @@ cargo-bisect-rustc
 rustdesk
 pigg
 cargo-lock
+cargo-spellcheck
