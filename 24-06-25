@@ -52,3 +52,4 @@ cargo-bitbake
 cargo-spellcheck
 cargo-bpf
 cargo-bom
+broot
