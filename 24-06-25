@@ -9,3 +9,4 @@ dprint
 cargo-generate
 cargo-udeps
 sccache
+cargo-spellcheck
