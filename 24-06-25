@@ -51,3 +51,4 @@ cargo-lock
 cargo-bitbake
 cargo-spellcheck
 cargo-bpf
+cargo-bom
