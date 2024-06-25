@@ -45,3 +45,4 @@ cocogitto
 cargo-generate
 broot
 sccache
+cargo-udeps
