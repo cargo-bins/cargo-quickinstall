@@ -12,3 +12,4 @@ cargo-spellcheck
 cargo-lock
 rustdesk
 cargo-bisect-rustc
+pricedb
