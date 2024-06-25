@@ -3,3 +3,4 @@ rustdesk
 cargo-lock
 cargo-spellcheck
 pricedb
+cargo-udeps
