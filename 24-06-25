@@ -41,3 +41,4 @@ cargo-udeps
 rtx-cli
 cargo-spellcheck
 grcov
+cocogitto
