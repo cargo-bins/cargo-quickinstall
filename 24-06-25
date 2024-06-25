@@ -60,3 +60,4 @@ cargo-bpf
 cargo-lock
 cargo-bom
 cargo-bitbake
+grcov
