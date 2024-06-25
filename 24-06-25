@@ -8,3 +8,4 @@ zellij
 dprint
 cargo-generate
 cargo-udeps
+sccache
