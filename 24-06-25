@@ -19,3 +19,4 @@ zellij
 dprint
 sccache
 cargo-udeps
+cargo-lock
