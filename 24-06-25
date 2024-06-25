@@ -44,3 +44,4 @@ grcov
 cocogitto
 cargo-generate
 broot
+sccache
