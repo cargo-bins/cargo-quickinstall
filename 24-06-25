@@ -18,3 +18,4 @@ cargo-lock
 cargo-spellcheck
 pricedb
 cargo-bisect-rustc
+rustdesk
