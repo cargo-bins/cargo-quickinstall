@@ -47,3 +47,4 @@ broot
 sccache
 cargo-udeps
 taplo-cli
+cargo-lock
