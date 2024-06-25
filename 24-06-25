@@ -42,3 +42,4 @@ rtx-cli
 cargo-spellcheck
 grcov
 cocogitto
+cargo-generate
