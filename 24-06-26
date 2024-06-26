@@ -21,3 +21,4 @@ nu_plugin_formats
 ripdrag
 nextsv
 nu_plugin_gstat
+cargo-doc-coverage
