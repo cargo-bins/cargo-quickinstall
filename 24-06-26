@@ -13,3 +13,4 @@ nu-completion-script
 nu
 nu-completion-script
 nu_plugin_gstat
+nu_plugin_formats
