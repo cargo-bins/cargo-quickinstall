@@ -8,3 +8,4 @@ nu
 mprocs
 nu-completion-script
 nu
+nu_plugin_formats
