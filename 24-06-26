@@ -16,3 +16,4 @@ nu_plugin_gstat
 nu_plugin_formats
 nu-completion-script
 nu_plugin_gstat
+cargo-doc-coverage
