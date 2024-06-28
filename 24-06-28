@@ -16,3 +16,4 @@ wasm-opt
 rioterm
 rye
 ck3-tiger
+dump_syms
