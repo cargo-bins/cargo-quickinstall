@@ -10,3 +10,4 @@ llmvm-outsource
 cargo-risczero
 cargo-bpf
 cargo-bom
+cargo-bpf
