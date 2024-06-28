@@ -27,3 +27,4 @@ wasm-opt
 ck3-tiger
 rye
 arti
+dump_syms
