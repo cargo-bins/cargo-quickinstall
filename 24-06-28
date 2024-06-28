@@ -12,3 +12,4 @@ rye
 rioterm
 nextsv
 dump_syms
+wasm-opt
