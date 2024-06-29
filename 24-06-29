@@ -24,3 +24,4 @@ sonic-server
 probe-rs-cli
 xplr
 kickoff
+diesel_cli
