@@ -25,3 +25,4 @@ probe-rs-cli
 xplr
 kickoff
 diesel_cli
+sonic-server
