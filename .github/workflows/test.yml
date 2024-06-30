@@ -22,7 +22,15 @@ jobs:
       - name: Run shellcheck
         run: shellcheck *.sh
 
+      - name: Cache Primes
+        id: cache-shfmt
+        uses: actions/cache@v4
+        with:
+          path: ~/go/bin/shfmt
+          key: ${{ runner.os }}-shfmt
+
       - name: Install shfmt
+        if: steps.cache-shfmt.outputs.cache-hit != 'true'
         run: go install mvdan.cc/sh/v3/cmd/shfmt@latest
 
       - name: Run shfmt
@@ -31,11 +39,13 @@ jobs:
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal --component clippy,rustfmt
 
+      - uses: Swatinem/rust-cache@v2
+
       - name: Lint
         run: cargo fmt --check
 
       - name: Clippy
-        run: cargo clippy
+        run: cargo clippy --no-deps
 
   test:
     name: Test runner
@@ -45,12 +55,13 @@ jobs:
         shell: bash
 
     steps:
-      # TODO: actions/cache@v2?
       - name: Fetch source
         uses: actions/checkout@v4
 
       - name: Fetch tags required for testing
         run: git fetch --tags
+
+      - uses: Swatinem/rust-cache@v2
 
       - name: Run test
         run: cargo test
@@ -58,10 +69,11 @@ jobs:
   e2etest:
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         include:
           - os: windows-latest
-          - os: macos-latest
+          - os: macos-14
           - os: ubuntu-latest
     defaults:
       run:

@@ -86,100 +86,65 @@ env:
   TARGET_ARCH: ${{ inputs.target_arch }}
   VERSION: ${{ inputs.version }}
   FEATURES: ${{ inputs.features }}
-  NO_DEFAULT_FEATURES: ${{ inputs.NO_DEFAULT_FEATURES }}
-  BUILD_DIR: ${{ github.workspace }}/built.d
+  NO_DEFAULT_FEATURES: ${{ inputs.no_default_features }}
 
 jobs:
-  build-popular-package:
-    name: build-popular-package-${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
-    runs-on: ${{ inputs.build_os }}
-    permissions: {}
-    defaults:
-      run:
-        shell: bash
+  check-if-already-built:
+    if: inputs.always_build == ''
+    name: Check if the package ${{ github.event.inputs.crate }}-${{ github.event.inputs.version }}-${{ github.event.inputs.target_arch }} is already built
+    runs-on: ubuntu-latest
+    outputs:
+      NEEDS_BUILD: ${{ steps.check.outputs.NEEDS_BUILD }}
     steps:
-      - name: Checkout trigger commit
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          path: trigger
-      - name: Checkout main repo
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          ref: ${{ inputs.branch }}
-          path: cargo-quickinstall
-
-      - name: Print inputs
-        run: |
-          echo $CRATE
-          echo $VERSION
-          echo $TARGET_ARCH
-          echo $FEATURES
-
-      - uses: taiki-e/install-action@v2
-        with:
-          tool: cargo-auditable
-
-      - name: Install latest rust
-        run: rustup toolchain install stable --no-self-update --profile minimal
-
-      - name: build package
+      - name: Check if the package is built
+        id: check
         env:
-          ALWAYS_BUILD: ${{ inputs.always_build }}
-          TEMPDIR: ${{ env.BUILD_DIR }}
+          USER_AGENT: cargo-quickinstall build pipeline (alsuren@gmail.com)
+          ARTIFACT: ${{ env.CRATE }}-${{ env.VERSION }}/${{ env.CRATE }}-${{ env.VERSION }}-${{ env.TARGET_ARCH }}.tar.gz
         run: |
-          set -euxo pipefail
-          # `tar` does not understand mixed forward and backslashes, but mkdir does.
-          # Try coercing it into a single style?
-          mkdir -p "$TEMPDIR"
-          pushd "$TEMPDIR"
-          TEMPDIR="$PWD"
-          popd
+          if curl --user-agent "$USER_AGENT" --fail -I --output /dev/null "${GITHUB_REPOSITORY}/releases/download/${ARTIFACT}"; then
+            echo "${ARTIFACT} already uploaded. Skipping."
+            echo "NEEDS_BUILD=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "NEEDS_BUILD=true" >> "$GITHUB_OUTPUT"
+          fi
 
-          cargo-quickinstall/build-version.sh "$CRATE"
-          touch "$TEMPDIR/dummy-file"
-          ls "$TEMPDIR"
-      # At this point, I don't think that you can really trust anything on the system anymore.
-      # I'm not sure whether the js actions runtime is also affected by this.
-      # TODO: try breaking things so that uploads don't work.
-
-      - name: Upload run-local binary artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: built-${{ inputs.build_os }}
-          path: ${{ env.BUILD_DIR }}
-          if-no-files-found: error
+  build-popular-package:
+    needs: check-if-already-built
+    if: always() && (inputs.always_build != '' || needs.check-if-already-built.outputs.NEEDS_BUILD == 'true')
+    name: Build package ${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
+    uses: ./.github/workflows/build-version.yml
+    with:
+      crate: ${{ inputs.crate }}
+      features: ${{ inputs.features }}
+      no_default_features: ${{ inputs.no_default_features }}
+      target_arch: ${{ inputs.target_arch }}
+      version: ${{ inputs.version }}
+      build_os: ${{ inputs.build_os }}
 
   upload-popular-package:
     name: Upload
     needs: build-popular-package
-    runs-on: ubuntu-22.04
+    if: "contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')"
+    runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash
     env:
+      BUILD_DIR: ${{ github.workspace }}/built.d
       BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
       SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
-      - name: Checkout trigger commit
-        uses: actions/checkout@v4
-        with:
-          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
-          persist-credentials: true
-          path: trigger
-      - name: Checkout main repo
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-          # TODO: maybe this should be main or configurable or something?
           ref: ${{ inputs.branch }}
-          path: cargo-quickinstall
 
       - name: Download binary artifact
         uses: actions/download-artifact@v4
         with:
-          name: built-${{ inputs.build_os }}
+          name: ${{ env.CRATE }}-${{ env.VERSION }}-${{ env.TARGET_ARCH }}
           # TODO: check that we it can't write anywhere other than built.d
           path: ${{ env.BUILD_DIR }}
 
@@ -220,8 +185,7 @@ jobs:
         run: |
           (
             set -euxo pipefail
-            cd trigger
-            if ! ../cargo-quickinstall/create_and_upload_tag.sh $CRATE-$VERSION; then
+            if ! ./create_and_upload_tag.sh $CRATE-$VERSION; then
                 echo "$CRATE-$VERSION tag already exists"
             fi
           )
@@ -254,8 +218,7 @@ jobs:
           if-no-files-found: error
 
   build-popular-package-failure:
-    needs:
-      - build-popular-package
+    needs: build-popular-package
     if: ${{ failure() }}
     runs-on: ubuntu-latest
     defaults:
