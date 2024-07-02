@@ -17,3 +17,4 @@ puffin_viewer
 cargo-udeps
 cargo-lock
 cargo-spellcheck
+shadowsocks-rust
