@@ -10,3 +10,4 @@ cargo-udeps
 cargo-lock
 cargo-spellcheck
 puffin_viewer
+cargo-udeps
