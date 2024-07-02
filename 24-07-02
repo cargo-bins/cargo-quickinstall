@@ -2,3 +2,4 @@ puffin_viewer
 cargo-lock
 cargo-spellcheck
 puffin_viewer
+cargo-udeps
