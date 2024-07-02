@@ -20,3 +20,4 @@ cargo-spellcheck
 shadowsocks-rust
 cargo-udeps
 shadowsocks-rust
+typst-cli
