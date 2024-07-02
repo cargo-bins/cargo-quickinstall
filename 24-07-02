@@ -19,3 +19,4 @@ cargo-lock
 cargo-spellcheck
 shadowsocks-rust
 cargo-udeps
+shadowsocks-rust
