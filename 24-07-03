@@ -19,3 +19,4 @@ rbw
 wasmtime-cli
 cargo-bitbake
 cargo-bom
+cargo-bpf
