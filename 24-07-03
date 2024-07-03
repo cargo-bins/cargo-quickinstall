@@ -18,3 +18,4 @@ pfetch
 rbw
 wasmtime-cli
 cargo-bitbake
+cargo-bom
