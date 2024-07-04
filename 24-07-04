@@ -41,3 +41,4 @@ nu
 c2rust
 shadowsocks-rust
 cargo-public-api
+cargo-embed
