@@ -25,3 +25,4 @@ cargo-embed
 kak-tree-sitter
 taplo-cli
 slint-lsp
+cargo-public-api
