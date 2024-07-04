@@ -45,3 +45,4 @@ cargo-embed
 c2rust
 nu
 tree-sitter-cli
+sea-orm-cli
