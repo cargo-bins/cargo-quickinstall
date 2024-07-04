@@ -37,3 +37,4 @@ shadowsocks-rust
 cargo-public-api
 cargo-embed
 tree-sitter-cli
+nu
