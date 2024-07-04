@@ -44,3 +44,4 @@ cargo-public-api
 cargo-embed
 c2rust
 nu
+tree-sitter-cli
