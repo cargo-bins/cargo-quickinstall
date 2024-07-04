@@ -39,3 +39,4 @@ cargo-embed
 tree-sitter-cli
 nu
 c2rust
+shadowsocks-rust
