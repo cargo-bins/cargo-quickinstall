@@ -40,3 +40,4 @@ tree-sitter-cli
 nu
 c2rust
 shadowsocks-rust
+cargo-public-api
