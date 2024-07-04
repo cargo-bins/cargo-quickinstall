@@ -33,3 +33,4 @@ cargo-public-api
 cargo-embed
 c2rust
 tree-sitter-cli
+shadowsocks-rust
