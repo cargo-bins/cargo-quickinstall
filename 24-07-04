@@ -49,3 +49,4 @@ sea-orm-cli
 c2rust
 cargo-public-api
 nu
+cargo-c
