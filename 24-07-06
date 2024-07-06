@@ -52,3 +52,4 @@ ripunzip
 binstall
 nu_plugin_formats
 nu_plugin_polars
+nu_plugin_gstat
