@@ -46,3 +46,4 @@ nu_plugin_formats
 binstall
 nu_plugin_polars
 nu_plugin_gstat
+paru
