@@ -1,2 +1,3 @@
 cargo-flash
 probe-rs-debugger
+cargo-embed
