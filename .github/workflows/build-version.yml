@@ -179,6 +179,7 @@ jobs:
             --env TARGET_ARCH="$TARGET_ARCH" \
             --env CARGO_ARGS="$CARGO_ARGS --offline" \
             --env TEMPDIR=/root/output \
+            --env XDG_CACHE_HOME=/tmp \
             --tmpfs /tmp:rw,exec,nosuid \
             --tmpfs /run:rw,noexec,nosuid \
             --tmpfs /root/.cache:rw,exec,nosuid \
