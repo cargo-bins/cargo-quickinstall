@@ -1,3 +1,4 @@
 probe-rs-debugger
 cargo-flash
 deno
+cargo-lock
