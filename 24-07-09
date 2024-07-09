@@ -9,3 +9,4 @@ cargo-lock
 cargo-msrv
 bottom
 cargo-udeps
+cargo-msrv
