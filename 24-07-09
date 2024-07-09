@@ -13,3 +13,4 @@ cargo-msrv
 cargo-lock
 cargo-spellcheck
 cargo-udeps
+cargo-msrv
