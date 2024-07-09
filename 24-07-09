@@ -22,3 +22,4 @@ cargo-spellcheck
 cargo-udeps
 saturn-cli
 typst-cli
+nextsv
