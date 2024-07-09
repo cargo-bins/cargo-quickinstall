@@ -20,3 +20,4 @@ cargo-udeps
 cargo-lock
 cargo-spellcheck
 cargo-udeps
+saturn-cli
