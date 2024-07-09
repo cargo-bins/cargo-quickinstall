@@ -28,3 +28,4 @@ nextsv
 saturn-cli
 cargo-docset
 cargo-bom
+cargo-bitbake
