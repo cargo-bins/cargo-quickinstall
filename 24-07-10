@@ -16,3 +16,4 @@ wasmtime-cli
 cotp
 wasmtime-cli
 cargo-bom
+cargo-bpf
