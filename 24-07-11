@@ -2,3 +2,4 @@ smartcat
 shadowsocks-rust
 cargo-spellcheck
 cargo-spellcheck
+cargo-lock
