@@ -10,3 +10,4 @@ xplr
 cargo-lock
 xplr
 srt_whep
+diesel_cli
