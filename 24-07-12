@@ -25,3 +25,4 @@ sudo-rs
 cargo-risczero
 xbuild
 xplr
+probe-rs-tools
