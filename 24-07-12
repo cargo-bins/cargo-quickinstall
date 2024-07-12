@@ -3,3 +3,4 @@ sudo-rs
 cargo-spellcheck
 cargo-near
 cargo-near
+cargo-lock
