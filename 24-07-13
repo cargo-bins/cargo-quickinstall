@@ -12,3 +12,4 @@ cargo-smart-release
 nu
 cargo-lock
 cargo-show
+cargo-smart-release
