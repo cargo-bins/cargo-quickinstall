@@ -29,3 +29,4 @@ get-all-crates
 hermetica
 fast-scp
 hms
+hex-patch
