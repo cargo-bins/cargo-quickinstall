@@ -6,3 +6,4 @@ cargo-show
 cargo-lock
 nu
 cargo-smart-release
+cargo-lock
