@@ -35,3 +35,4 @@ bcat
 qsv
 printimg
 csv-groupby
+csv-query-cli
