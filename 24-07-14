@@ -21,3 +21,4 @@ garden-tools
 probe-rs-cli
 diesel_cli
 deno
+ast-grep
