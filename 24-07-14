@@ -30,3 +30,4 @@ diesel_cli
 ast-grep
 probe-rs-cli
 garden-tools
+bugstalker
