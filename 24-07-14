@@ -27,3 +27,4 @@ probe-rs-cli
 deno
 metadata
 diesel_cli
+ast-grep
