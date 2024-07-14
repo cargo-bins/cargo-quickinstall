@@ -2,3 +2,4 @@ czkawka_gui
 binstall
 pijul
 clippy
+rustfmt-nightly
