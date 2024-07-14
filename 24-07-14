@@ -35,3 +35,4 @@ diesel_cli
 deno
 ast-grep
 sonic-server
+bugstalker
