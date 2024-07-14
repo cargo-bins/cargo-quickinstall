@@ -25,3 +25,4 @@ binstall
 pijul
 clippy
 racer
+rustfmt-nightly
