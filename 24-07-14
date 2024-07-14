@@ -9,3 +9,4 @@ binstall
 rustfmt-nightly
 clippy
 racer
+clippy
