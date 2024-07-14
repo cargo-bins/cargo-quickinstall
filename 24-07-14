@@ -37,3 +37,4 @@ ast-grep
 sonic-server
 bugstalker
 probe-rs-cli
+diesel_cli
