@@ -17,3 +17,4 @@ racer
 binstall
 binstall
 clippy
+rustfmt-nightly
