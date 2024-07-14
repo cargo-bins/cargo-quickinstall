@@ -19,3 +19,4 @@ ast-grep
 redoxer
 garden-tools
 probe-rs-cli
+diesel_cli
