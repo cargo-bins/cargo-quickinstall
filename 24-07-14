@@ -41,3 +41,4 @@ diesel_cli
 ast-grep
 sonic-server
 probe-rs-cli
+spotify_player
