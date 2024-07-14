@@ -33,3 +33,4 @@ garden-tools
 bugstalker
 diesel_cli
 deno
+ast-grep
