@@ -18,3 +18,4 @@ binstall
 binstall
 clippy
 rustfmt-nightly
+pijul
