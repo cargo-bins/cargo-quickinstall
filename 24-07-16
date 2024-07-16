@@ -8,3 +8,4 @@ czkawka_gui
 crates-mirror
 cargo-lock
 cargo-spellcheck
+gpu-usage-waybar
