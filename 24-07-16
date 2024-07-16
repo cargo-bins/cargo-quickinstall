@@ -27,3 +27,4 @@ cargo-lock
 bottom
 cargo-udeps
 czkawka_gui
+gpu-usage-waybar
