@@ -10,3 +10,4 @@ cargo-lock
 cargo-spellcheck
 gpu-usage-waybar
 cargo-udeps
+cargo-lock
