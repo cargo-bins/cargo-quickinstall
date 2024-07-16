@@ -13,3 +13,4 @@ cargo-udeps
 cargo-lock
 czkawka_gui
 crates-mirror
+gpu-usage-waybar
