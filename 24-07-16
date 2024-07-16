@@ -1,3 +1,4 @@
 cargo-outdated
 cargo-bpf
 cargo-bitbake
+cargo-bom
