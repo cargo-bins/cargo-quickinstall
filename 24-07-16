@@ -9,3 +9,4 @@ crates-mirror
 cargo-lock
 cargo-spellcheck
 gpu-usage-waybar
+cargo-udeps
