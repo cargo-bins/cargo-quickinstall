@@ -21,3 +21,4 @@ cargo-spellcheck
 czkawka_gui
 cargo-lock
 gpu-usage-waybar
+cargo-udeps
