@@ -19,3 +19,4 @@ cargo-udeps
 crates-mirror
 cargo-spellcheck
 czkawka_gui
+cargo-lock
