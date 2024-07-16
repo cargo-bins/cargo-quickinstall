@@ -7,3 +7,4 @@ cargo-udeps
 czkawka_gui
 crates-mirror
 cargo-lock
+cargo-spellcheck
