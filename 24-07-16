@@ -23,3 +23,4 @@ cargo-lock
 gpu-usage-waybar
 cargo-udeps
 cargo-spellcheck
+cargo-lock
