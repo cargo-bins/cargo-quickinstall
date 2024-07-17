@@ -35,3 +35,4 @@ eureka
 hex-patch
 cargo-bitbake
 cargo-bom
+cargo-bpf
