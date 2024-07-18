@@ -29,3 +29,4 @@ cargo-check
 cargo-check
 cargo-llvm-cov
 cargo-clean-recursive
+cargo-clean-recursive
