@@ -39,3 +39,4 @@ cargo-generate
 cargo-udeps
 semantic-release-cargo
 dprint
+taplo-cli
