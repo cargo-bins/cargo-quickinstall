@@ -51,3 +51,4 @@ cargo-spellcheck
 grcov
 cargo-bitbake
 cargo-bom
+cargo-spellcheck
