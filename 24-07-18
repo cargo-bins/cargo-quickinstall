@@ -33,3 +33,4 @@ grcov
 zellij
 broot
 cargo-bitbake
+taplo-cli
