@@ -49,3 +49,4 @@ sccache
 dprint
 cargo-spellcheck
 grcov
+cargo-bitbake
