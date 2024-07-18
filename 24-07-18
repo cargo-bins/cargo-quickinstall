@@ -1,3 +1,4 @@
 cargo-modules
 ripgrep_all
 mdbook-external-links
+git-ignore-generator
