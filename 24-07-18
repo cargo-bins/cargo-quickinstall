@@ -18,3 +18,4 @@ semantic-release-cargo
 cargo-spellcheck
 taplo-cli
 cargo-lock
+cargo-c
