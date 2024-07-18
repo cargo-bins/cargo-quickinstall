@@ -60,3 +60,4 @@ broot
 cargo-generate
 cargo-bpf
 cargo-spellcheck
+cargo-bitbake
