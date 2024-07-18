@@ -37,3 +37,4 @@ taplo-cli
 cocogitto
 cargo-generate
 cargo-udeps
+semantic-release-cargo
