@@ -7,3 +7,4 @@ broot
 grcov
 cocogitto
 cargo-lock
+cargo-generate
