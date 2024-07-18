@@ -10,3 +10,4 @@ cargo-spellcheck
 taplo-cli
 semantic-release-cargo
 cargo-spellcheck
+cargo-lock
