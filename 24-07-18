@@ -64,3 +64,4 @@ cargo-bitbake
 sccache
 cargo-c
 bottom
+cargo-bpf
