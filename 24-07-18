@@ -24,3 +24,4 @@ zellij
 cargo-generate
 dprint
 semantic-release-cargo
+grcov
