@@ -90,3 +90,4 @@ cargo-bpf
 cargo-c
 cargo-clone-crate
 cargo-llvm-cov
+cargo-instruments
