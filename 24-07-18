@@ -13,3 +13,4 @@ cocogitto
 taplo-cli
 cargo-udeps
 grcov
+cargo-lock
