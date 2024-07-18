@@ -79,3 +79,4 @@ zellij
 cargo-clone-crate
 cargo-bitbake
 cargo-compete
+cargo-bpf
