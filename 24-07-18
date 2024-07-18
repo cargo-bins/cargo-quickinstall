@@ -27,3 +27,4 @@ semantic-release-cargo
 grcov
 cargo-lock
 bottom
+cocogitto
