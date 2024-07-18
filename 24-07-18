@@ -16,3 +16,4 @@ grcov
 cargo-lock
 dprint
 semantic-release-cargo
+broot
