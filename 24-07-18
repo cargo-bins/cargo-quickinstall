@@ -52,3 +52,4 @@ grcov
 cargo-bitbake
 cargo-bom
 cargo-spellcheck
+cargo-udeps
