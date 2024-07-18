@@ -22,3 +22,4 @@ cargo-bpf
 semantic-release-cargo
 cargo-bom
 cargo-bpf
+cargo-check
