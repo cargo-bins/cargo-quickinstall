@@ -36,3 +36,4 @@ cargo-bitbake
 taplo-cli
 cocogitto
 cargo-generate
+cargo-udeps
