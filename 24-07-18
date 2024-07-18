@@ -65,3 +65,4 @@ sccache
 cargo-c
 bottom
 cargo-bpf
+taplo-cli
