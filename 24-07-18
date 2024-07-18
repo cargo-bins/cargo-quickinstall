@@ -35,3 +35,4 @@ amdgpu_top
 shadowsocks-rust
 dssim
 xplr
+sea-orm-cli
