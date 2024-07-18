@@ -28,3 +28,4 @@ grcov
 cargo-lock
 bottom
 cocogitto
+cargo-spellcheck
