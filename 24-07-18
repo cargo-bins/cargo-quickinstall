@@ -4,3 +4,4 @@ mdbook-external-links
 git-ignore-generator
 git-ignore-generator
 cargo-modules
+cargo-spellcheck
