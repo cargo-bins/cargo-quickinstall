@@ -4,3 +4,4 @@ taplo-cli
 cargo-udeps
 semantic-release-cargo
 broot
+grcov
