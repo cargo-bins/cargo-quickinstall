@@ -62,3 +62,4 @@ cargo-bpf
 cargo-spellcheck
 cargo-bitbake
 sccache
+cargo-c
