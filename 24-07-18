@@ -37,3 +37,4 @@ cargo-clean-recursive
 cargo-llvm-cov
 cargo-clean-recursive
 cargo-llvm-cov
+cargo-clone
