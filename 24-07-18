@@ -72,3 +72,4 @@ cargo-c
 cargo-bpf
 bottom
 cargo-spellcheck
+cargo-bitbake
