@@ -44,3 +44,4 @@ cargo-udeps
 cocogitto
 bottom
 broot
+cargo-lock
