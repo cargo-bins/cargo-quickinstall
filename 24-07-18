@@ -92,3 +92,4 @@ cargo-clone-crate
 cargo-llvm-cov
 cargo-instruments
 cargo-llvm-cov
+cargo-instruments
