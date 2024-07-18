@@ -42,3 +42,4 @@ tree-sitter-cli
 leftwm
 butane_cli
 mandown
+cargo-public-api
