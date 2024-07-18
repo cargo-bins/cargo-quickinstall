@@ -22,3 +22,4 @@ cargo-generate
 sccache
 zellij
 cargo-generate
+dprint
