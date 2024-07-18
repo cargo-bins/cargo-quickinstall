@@ -74,3 +74,4 @@ bottom
 cargo-spellcheck
 cargo-bitbake
 cargo-clone
+cargo-bom
