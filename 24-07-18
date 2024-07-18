@@ -3,3 +3,4 @@ git-ignore-generator
 git-ignore-generator
 leftwm
 cargo-modules
+taplo-cli
