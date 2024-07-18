@@ -73,3 +73,4 @@ cargo-bpf
 bottom
 cargo-spellcheck
 cargo-bitbake
+cargo-clone
