@@ -58,3 +58,4 @@ bottom
 cargo-lock
 broot
 cargo-generate
+cargo-bpf
