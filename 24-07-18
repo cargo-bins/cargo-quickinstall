@@ -18,3 +18,4 @@ dprint
 semantic-release-cargo
 broot
 sccache
+cargo-generate
