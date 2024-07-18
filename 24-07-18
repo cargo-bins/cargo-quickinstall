@@ -31,3 +31,4 @@ cargo-llvm-cov
 cargo-clean-recursive
 cargo-clean-recursive
 cargo-llvm-cov
+cargo-clean-recursive
