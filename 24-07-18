@@ -57,3 +57,4 @@ zellij
 bottom
 cargo-lock
 broot
+cargo-generate
