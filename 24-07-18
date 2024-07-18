@@ -6,3 +6,4 @@ cargo-modules
 taplo-cli
 taplo-cli
 git-ignore-generator
+mlc
