@@ -16,3 +16,4 @@ git-ignore-generator
 taplo-cli
 cargo-modules
 amdgpu_top
+leftwm
