@@ -1,3 +1,4 @@
 semantic-release-cargo
 cargo-crev
 cargo-clone-crate
+cargo-clone
