@@ -32,3 +32,4 @@ cargo-spellcheck
 grcov
 zellij
 broot
+cargo-bitbake
