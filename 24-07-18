@@ -48,3 +48,4 @@ cargo-lock
 sccache
 dprint
 cargo-spellcheck
+grcov
