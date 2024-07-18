@@ -56,3 +56,4 @@ cargo-udeps
 zellij
 bottom
 cargo-lock
+broot
