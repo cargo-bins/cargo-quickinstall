@@ -86,3 +86,4 @@ cargo-clone
 cargo-bom
 cargo-llvm-cov
 cargo-clone
+cargo-bpf
