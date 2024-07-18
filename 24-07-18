@@ -73,3 +73,4 @@ semantic-release-cargo
 semantic-release-cargo
 cargo-c
 cargo-llvm-cov
+cargo-llvm-cov
