@@ -59,3 +59,4 @@ cargo-lock
 broot
 cargo-generate
 cargo-bpf
+cargo-spellcheck
