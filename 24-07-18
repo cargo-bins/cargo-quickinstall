@@ -41,3 +41,4 @@ semantic-release-cargo
 dprint
 taplo-cli
 cargo-udeps
+cocogitto
