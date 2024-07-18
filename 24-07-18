@@ -13,3 +13,4 @@ cargo-compete
 cargo-clone-crate
 semantic-release-cargo
 cargo-clone
+cargo-crev
