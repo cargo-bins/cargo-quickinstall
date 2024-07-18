@@ -76,3 +76,4 @@ cargo-bitbake
 cargo-clone
 cargo-bom
 zellij
+cargo-clone-crate
