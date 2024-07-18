@@ -68,3 +68,4 @@ cargo-bpf
 taplo-cli
 cargo-bom
 zellij
+cargo-c
