@@ -62,3 +62,4 @@ dssim
 cargo-public-api
 mandown
 tree-sitter-cli
+semantic-release-cargo
