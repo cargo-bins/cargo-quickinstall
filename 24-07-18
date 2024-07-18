@@ -6,3 +6,4 @@ semantic-release-cargo
 broot
 grcov
 cocogitto
+cargo-lock
