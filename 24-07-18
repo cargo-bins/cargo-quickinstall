@@ -5,3 +5,4 @@ cargo-udeps
 semantic-release-cargo
 broot
 grcov
+cocogitto
