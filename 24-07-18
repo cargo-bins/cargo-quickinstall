@@ -84,3 +84,4 @@ cargo-c
 cargo-bom
 cargo-clone
 cargo-bom
+cargo-llvm-cov
