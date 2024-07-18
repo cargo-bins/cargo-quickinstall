@@ -11,3 +11,4 @@ cargo-generate
 sccache
 cocogitto
 taplo-cli
+cargo-udeps
