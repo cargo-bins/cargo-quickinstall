@@ -47,3 +47,4 @@ broot
 cargo-lock
 sccache
 dprint
+cargo-spellcheck
