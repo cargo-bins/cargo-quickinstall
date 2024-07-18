@@ -27,3 +27,4 @@ cargo-check
 cargo-check
 cargo-check
 cargo-check
+cargo-llvm-cov
