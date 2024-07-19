@@ -14,3 +14,4 @@ cargo-download
 cargo-clone-crate
 cargo-compete
 cargo-dephell
+cargo-crev
