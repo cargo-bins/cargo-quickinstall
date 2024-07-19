@@ -25,3 +25,4 @@ cargo-ebuild
 cargo-dephell
 cargo-crev
 cargo-ebuild
+cargo-download
