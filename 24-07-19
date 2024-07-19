@@ -1,3 +1,4 @@
 create-tauri-app
 git-grab
 mitsuba
+cargo-spellcheck
