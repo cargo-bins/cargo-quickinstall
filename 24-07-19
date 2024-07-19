@@ -3,3 +3,4 @@ git-grab
 mitsuba
 cargo-spellcheck
 cargo-lock
+cargo-bom
