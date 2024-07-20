@@ -20,3 +20,4 @@ https
 subkey
 cargo-flash
 https
+pwasm-utils
