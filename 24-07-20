@@ -9,3 +9,4 @@ pwasm-utils
 cargo-dylint
 subkey
 cargo-dylint
+cargo-flash
