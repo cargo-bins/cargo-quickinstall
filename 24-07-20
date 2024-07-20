@@ -5,3 +5,4 @@ subkey
 cargo-dylint
 cargo-flash
 https
+pwasm-utils
