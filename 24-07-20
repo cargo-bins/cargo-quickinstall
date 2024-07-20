@@ -12,3 +12,4 @@ cargo-dylint
 cargo-flash
 https
 subkey
+pwasm-utils
