@@ -23,3 +23,4 @@ https
 pwasm-utils
 subkey
 cargo-dylint
+cargo-lock
