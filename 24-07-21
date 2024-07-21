@@ -16,3 +16,4 @@ ast-grep
 ddt
 ddt
 cargo-flash
+typst-cli
