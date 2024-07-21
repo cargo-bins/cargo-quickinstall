@@ -5,3 +5,4 @@ cargo-udeps
 cargo-lock
 cargo-spellcheck
 cargo-udeps
+cargo-lock
