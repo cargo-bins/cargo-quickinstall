@@ -33,3 +33,4 @@ typst-cli
 cargo-flash
 cargo-public-api
 redoxer
+sonic-server
