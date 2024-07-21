@@ -31,3 +31,4 @@ redoxer
 ddt
 typst-cli
 cargo-flash
+cargo-public-api
