@@ -26,3 +26,4 @@ redoxer
 cargo-flash
 cargo-public-api
 ddt
+typst-cli
