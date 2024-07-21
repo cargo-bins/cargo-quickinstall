@@ -57,3 +57,4 @@ virtiofsd
 cargo-embed
 rioterm
 rust-kanban
+i3status-rs
