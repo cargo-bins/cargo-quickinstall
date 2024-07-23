@@ -11,3 +11,4 @@ cargo-udeps
 binstall
 rg
 xbuild
+cargo-lock
