@@ -27,3 +27,4 @@ cargo-udeps
 cargo-lock
 cargo-bitbake
 cargo-spellcheck
+bottom
