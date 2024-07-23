@@ -12,3 +12,4 @@ binstall
 rg
 xbuild
 cargo-lock
+deno
