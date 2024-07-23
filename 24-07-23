@@ -3,3 +3,4 @@ cargo-dist
 cargo-dist
 cargo-mobile2
 surrealdb-migrations
+dbmigrate
