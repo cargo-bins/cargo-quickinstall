@@ -8,3 +8,4 @@ cargo-show
 cargo-component
 cargo-dist
 surrealdb-migrations
+cargo-show
