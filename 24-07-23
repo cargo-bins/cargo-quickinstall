@@ -30,3 +30,4 @@ cargo-spellcheck
 bottom
 cargo-udeps
 rg
+ruff
