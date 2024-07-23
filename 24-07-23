@@ -12,3 +12,4 @@ cargo-show
 cargo-mobile2
 dbmigrate
 cargo-component
+cargo-dist
