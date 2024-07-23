@@ -9,3 +9,4 @@ cargo-spellcheck
 xbuild
 cargo-udeps
 binstall
+rg
