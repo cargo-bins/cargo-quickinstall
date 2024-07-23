@@ -20,3 +20,4 @@ rg
 ruff
 deno
 binstall
+cargo-spellcheck
