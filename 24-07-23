@@ -7,3 +7,4 @@ dbmigrate
 cargo-show
 cargo-component
 cargo-dist
+surrealdb-migrations
