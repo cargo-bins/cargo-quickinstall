@@ -25,3 +25,4 @@ xbuild
 cargo-near
 cargo-udeps
 cargo-lock
+cargo-bitbake
