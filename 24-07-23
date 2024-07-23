@@ -13,3 +13,4 @@ rg
 xbuild
 cargo-lock
 deno
+cargo-spellcheck
