@@ -21,3 +21,4 @@ ruff
 deno
 binstall
 cargo-spellcheck
+xbuild
