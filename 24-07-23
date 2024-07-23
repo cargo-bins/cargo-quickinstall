@@ -16,3 +16,4 @@ deno
 cargo-spellcheck
 cargo-udeps
 cargo-lock
+rg
