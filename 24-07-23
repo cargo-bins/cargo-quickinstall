@@ -24,3 +24,4 @@ cargo-spellcheck
 xbuild
 cargo-near
 cargo-udeps
+cargo-lock
