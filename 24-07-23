@@ -11,3 +11,4 @@ surrealdb-migrations
 cargo-show
 cargo-mobile2
 dbmigrate
+cargo-component
