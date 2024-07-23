@@ -6,3 +6,4 @@ surrealdb-migrations
 dbmigrate
 cargo-show
 cargo-component
+cargo-dist
