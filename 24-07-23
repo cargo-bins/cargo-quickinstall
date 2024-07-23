@@ -9,3 +9,4 @@ cargo-component
 cargo-dist
 surrealdb-migrations
 cargo-show
+cargo-mobile2
