@@ -37,3 +37,4 @@ ruff
 deno
 rg
 sniffnet
+cargo-near
