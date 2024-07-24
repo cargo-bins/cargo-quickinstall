@@ -22,3 +22,4 @@ nu_plugin_query
 kalc
 mise
 cargo-component
+sea-orm-cli
