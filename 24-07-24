@@ -51,3 +51,4 @@ uasset
 nu_plugin_polars
 nu_plugin_dbus
 cargo-bom
+cargo-bitbake
