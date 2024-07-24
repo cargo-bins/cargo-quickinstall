@@ -53,3 +53,4 @@ nu_plugin_dbus
 cargo-bom
 cargo-bitbake
 cargo-bpf
+cargo-bpf
