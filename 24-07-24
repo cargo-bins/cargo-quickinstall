@@ -8,3 +8,4 @@ nu_plugin_formats
 cargo-mono
 nu_plugin_gstat
 sniffnet
+nu_plugin_query
