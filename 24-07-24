@@ -12,3 +12,4 @@ nu_plugin_query
 cargo-component
 cargo-mono
 nu_plugin_gstat
+kalc
