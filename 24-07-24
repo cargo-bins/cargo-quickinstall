@@ -14,3 +14,4 @@ cargo-mono
 nu_plugin_gstat
 kalc
 nu_plugin_formats
+nu_plugin_formats
