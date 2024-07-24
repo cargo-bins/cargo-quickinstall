@@ -37,3 +37,4 @@ nu_plugin_polars
 nu_plugin_formats
 sea-orm-cli
 nu_plugin_query
+kalc
