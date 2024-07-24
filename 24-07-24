@@ -21,3 +21,4 @@ nu_plugin_polars
 nu_plugin_query
 kalc
 mise
+cargo-component
