@@ -7,3 +7,4 @@ sea-orm-cli
 nu
 cargo-bom
 cargo-bitbake
+cargo-bpf
