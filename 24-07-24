@@ -39,3 +39,4 @@ sea-orm-cli
 nu_plugin_query
 kalc
 uasset
+nu_plugin_dbus
