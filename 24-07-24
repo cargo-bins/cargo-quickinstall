@@ -49,3 +49,4 @@ sudo-rs
 ncspot
 uasset
 nu_plugin_polars
+nu_plugin_dbus
