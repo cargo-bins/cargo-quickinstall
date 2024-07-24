@@ -10,3 +10,4 @@ nu_plugin_gstat
 sniffnet
 nu_plugin_query
 cargo-component
+cargo-mono
