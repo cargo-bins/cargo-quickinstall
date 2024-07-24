@@ -25,3 +25,4 @@ cargo-component
 sea-orm-cli
 nu_plugin_formats
 ncspot
+nu_plugin_query
