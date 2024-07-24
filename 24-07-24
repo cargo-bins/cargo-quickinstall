@@ -44,3 +44,4 @@ ncspot
 sea-orm-cli
 kalc
 nu_plugin_query
+nu_plugin_polars
