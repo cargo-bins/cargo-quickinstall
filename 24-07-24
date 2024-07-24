@@ -43,3 +43,4 @@ nu_plugin_dbus
 ncspot
 sea-orm-cli
 kalc
+nu_plugin_query
