@@ -8,3 +8,4 @@ tree-sitter-cli
 rye
 cargo-graph
 pcu
+nextsv
