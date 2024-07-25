@@ -9,3 +9,4 @@ rye
 cargo-graph
 pcu
 nextsv
+cargo-public-api
