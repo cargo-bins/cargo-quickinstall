@@ -3,3 +3,4 @@ cargo-lock
 neovim-ctrl
 fm-tui
 neorg-language-server
+cargo-lock
