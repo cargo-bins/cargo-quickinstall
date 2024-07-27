@@ -2,3 +2,4 @@ skeld
 cargo-lock
 neovim-ctrl
 fm-tui
+neorg-language-server
