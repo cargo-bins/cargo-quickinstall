@@ -7,3 +7,4 @@ cargo-show
 cargo-msrv
 cargo-outdated
 cargo-risczero
+cargo-codspeed
