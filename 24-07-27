@@ -1,3 +1,4 @@
 cargo-show
 dump_syms
 cargo-risczero
+cargo-outdated
