@@ -3,3 +3,4 @@ dump_syms
 cargo-risczero
 cargo-outdated
 cargo-codspeed
+cargo-show
