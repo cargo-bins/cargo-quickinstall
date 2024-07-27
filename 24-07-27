@@ -5,3 +5,4 @@ cargo-outdated
 cargo-codspeed
 cargo-show
 cargo-msrv
+cargo-outdated
