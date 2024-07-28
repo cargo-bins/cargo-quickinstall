@@ -1,3 +1,4 @@
 trunk
 cargo-outdated
 trunk
+wasm-opt
