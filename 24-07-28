@@ -2,3 +2,4 @@ cargo-codspeed
 cargo-geiger
 cargo-show
 cargo-msrv
+cargo-risczero
