@@ -11,3 +11,4 @@ cargo-msrv
 cargo-outdated
 cargo-geiger
 cargo-risczero
+cargo-codspeed
