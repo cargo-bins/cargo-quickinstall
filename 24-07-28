@@ -14,3 +14,4 @@ cargo-risczero
 cargo-codspeed
 bgpkit-broker
 bgpkit-parser
+cargo-show
