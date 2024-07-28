@@ -19,3 +19,4 @@ cargo-msrv
 cargo-outdated
 cargo-risczero
 cargo-geiger
+bgpkit-parser
