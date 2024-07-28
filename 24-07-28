@@ -10,3 +10,4 @@ cargo-show
 cargo-msrv
 cargo-outdated
 cargo-geiger
+cargo-risczero
