@@ -22,3 +22,4 @@ cargo-geiger
 bgpkit-parser
 cargo-msrv
 bgpkit-broker
+bpf-linker
