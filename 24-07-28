@@ -16,3 +16,4 @@ bgpkit-broker
 bgpkit-parser
 cargo-show
 cargo-msrv
+cargo-outdated
