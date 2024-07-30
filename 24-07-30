@@ -11,3 +11,4 @@ bgpkit-broker
 bgpkit-parser
 cargo-docset
 bottom
+cargo-spellcheck
