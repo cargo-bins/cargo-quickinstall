@@ -5,3 +5,4 @@ CuTE-tui
 cargo-spellcheck
 cargo-docset
 bottom
+cargo-udeps
