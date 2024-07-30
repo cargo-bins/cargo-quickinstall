@@ -30,3 +30,4 @@ cargo-udeps
 cargo-lock
 cargo-bitbake
 cargo-bom
+cargo-bitbake
