@@ -1,2 +1,3 @@
 wasm-opt
 cargo-lock
+cargo-spellcheck
