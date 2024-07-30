@@ -9,3 +9,4 @@ cargo-udeps
 CuTE-tui
 bgpkit-broker
 bgpkit-parser
+cargo-docset
