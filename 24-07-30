@@ -25,3 +25,4 @@ bottom
 cargo-udeps
 cargo-bitbake
 cargo-lock
+cargo-spellcheck
