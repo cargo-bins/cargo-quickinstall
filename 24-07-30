@@ -8,3 +8,4 @@ bottom
 cargo-udeps
 CuTE-tui
 bgpkit-broker
+bgpkit-parser
