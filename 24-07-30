@@ -4,3 +4,4 @@ cargo-spellcheck
 wasm-opt
 cargo-udeps
 cargo-lock
+cargo-spellcheck
