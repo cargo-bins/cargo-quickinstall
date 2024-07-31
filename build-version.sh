@@ -30,6 +30,8 @@ curl_slowly() {
     sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
+export CARGO=cargo
+
 install_zig_cc_and_config_to_use_it() {
     # Install cargo-zigbuild
     #
