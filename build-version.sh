@@ -30,6 +30,8 @@ curl_slowly() {
     sleep 1 && curl --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" "$@"
 }
 
+export CARGO=cargo
+
 install_zig_cc_and_config_to_use_it() {
     # Install cargo-zigbuild
     #
@@ -66,10 +68,6 @@ elif [ "${RUNNER_OS?}" == "Linux" ]; then
 
     LIBCLANG_PATH="$(llvm-config --libdir)"
     export LIBCLANG_PATH
-
-    LD_LIBRARY_PATH="${LIBCLANG_PATH}:${LD_LIBRARY_PATH:-}"
-    export LD_LIBRARY_PATH
-
     LLVM_DIR="$(llvm-config --cmakedir)"
     export LLVM_DIR
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
@@ -116,7 +114,7 @@ export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 
 build_and_install() {
     # shellcheck disable=SC2086
-    cargo-auditable auditable install "$CRATE" \
+    $CARGO install "$CRATE" \
         --version "$VERSION" \
         --target "${CARGO_TARGET_ARCH:-$TARGET_ARCH}" \
         --root "$CARGO_ROOT" \
