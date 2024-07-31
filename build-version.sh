@@ -54,7 +54,8 @@ fi
 if [ "${RUNNER_OS?}" == "Windows" ]; then
     choco install llvm
 elif [ "${RUNNER_OS?}" == "Linux" ]; then
-    wget -O - https://apt.llvm.org/llvm.sh | sudo bash
+    apt update
+    apt install -y clang llvm lld
     llvm_prefix="$(find /usr/lib/llvm-* -maxdepth 0 | sort --reverse | head -n 1)"
 
     PATH="${llvm_prefix}/bin:${PATH}"
