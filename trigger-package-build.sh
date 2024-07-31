@@ -5,9 +5,9 @@ cd "$(dirname "$0")"
 
 get_build_os() {
     if [[ "$1" == "x86_64-apple-darwin" ]]; then
-        echo "macos-14"
+        echo "macos-latest"
     elif [[ "$1" == "aarch64-apple-darwin" ]]; then
-        echo "macos-14"
+        echo "macos-latest"
     elif [[ "$1" == "x86_64-unknown-linux-gnu" ]]; then
         echo "ubuntu-20.04"
     elif [[ "$1" == "x86_64-unknown-linux-musl" ]]; then
