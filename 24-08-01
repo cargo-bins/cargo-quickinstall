@@ -4,3 +4,4 @@ pijul
 czkawka_gui
 rustfmt-nightly
 racer
+cargo-lock
