@@ -6,3 +6,4 @@ cargo-risczero
 wasm-opt
 cargo-udeps
 cargo-spellcheck
+cargo-udeps
