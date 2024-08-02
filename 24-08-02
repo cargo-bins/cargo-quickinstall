@@ -6,3 +6,4 @@ cargo-mono
 cargo-component
 bgpkit-broker
 bgpkit-parser
+ast-grep
