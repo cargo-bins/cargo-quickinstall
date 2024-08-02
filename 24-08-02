@@ -4,3 +4,4 @@ cargo-spellcheck
 bottom
 cargo-risczero
 wasm-opt
+cargo-udeps
