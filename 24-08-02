@@ -3,3 +3,4 @@ starship
 cargo-spellcheck
 bottom
 cargo-risczero
+wasm-opt
