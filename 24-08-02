@@ -3,3 +3,4 @@ cargo-component
 difftastic
 ast-grep
 cargo-mono
+cargo-component
