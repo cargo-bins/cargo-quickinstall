@@ -5,3 +5,4 @@ ast-grep
 cargo-mono
 cargo-component
 bgpkit-broker
+bgpkit-parser
