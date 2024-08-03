@@ -2,3 +2,4 @@ core-utils
 cargo-maelstrom
 cargo
 bgpkit-broker
+bgpkit-parser
