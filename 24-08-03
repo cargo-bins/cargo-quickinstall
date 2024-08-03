@@ -3,3 +3,4 @@ cargo-maelstrom
 cargo
 bgpkit-broker
 bgpkit-parser
+cargo-msrv
