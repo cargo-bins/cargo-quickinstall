@@ -5,3 +5,4 @@ bgpkit-broker
 bgpkit-parser
 cargo-msrv
 cargo-maelstrom
+cargo-risczero
