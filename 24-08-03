@@ -6,3 +6,4 @@ bgpkit-parser
 cargo-msrv
 cargo-maelstrom
 cargo-risczero
+cargo-outdated
