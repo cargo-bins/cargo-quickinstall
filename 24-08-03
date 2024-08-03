@@ -7,3 +7,4 @@ cargo-msrv
 cargo-maelstrom
 cargo-risczero
 cargo-outdated
+cargo-codspeed
