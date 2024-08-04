@@ -5,3 +5,4 @@ cargo-outdated
 cargo-risczero
 cargo-bpf
 cargo-bom
+cargo-bitbake
