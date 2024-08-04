@@ -12,3 +12,4 @@ bend-lang
 bgpkit-broker
 bgpkit-parser
 addr2line
+butane_cli
