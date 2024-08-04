@@ -13,3 +13,4 @@ bgpkit-broker
 cargo-show
 addr2line
 cargo-risczero
+cargo-outdated
