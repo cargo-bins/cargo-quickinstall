@@ -4,3 +4,4 @@ cargo-msrv
 cargo-show
 difftastic
 cargo-codspeed
+cargo-risczero
