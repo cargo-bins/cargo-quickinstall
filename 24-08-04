@@ -26,3 +26,4 @@ cargo-codspeed
 cargo-info
 addr2line
 cargo-msrv
+bend-lang
