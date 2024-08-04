@@ -30,3 +30,4 @@ bend-lang
 bpf-linker
 cargo-outdated
 cargo-mono
+addr2line
