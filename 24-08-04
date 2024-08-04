@@ -5,3 +5,4 @@ cargo-lock
 wagyu
 cargo-espflash
 cargo-lock
+cargo-generate
