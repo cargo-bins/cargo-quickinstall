@@ -13,3 +13,4 @@ rustfmt-nightly
 binstall
 racer
 clippy
+binstall
