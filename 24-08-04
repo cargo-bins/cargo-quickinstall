@@ -9,3 +9,4 @@ gnostr-cli
 racer
 pijul
 clippy
+rustfmt-nightly
