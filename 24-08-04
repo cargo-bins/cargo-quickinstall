@@ -21,3 +21,4 @@ bend-lang
 cargo-info
 bgpkit-parser
 cargo-msrv
+cargo-outdated
