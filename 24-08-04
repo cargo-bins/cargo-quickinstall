@@ -11,3 +11,4 @@ pijul
 clippy
 rustfmt-nightly
 binstall
+racer
