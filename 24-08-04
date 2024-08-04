@@ -19,3 +19,4 @@ bgpkit-broker
 addr2line
 bend-lang
 cargo-info
+bgpkit-parser
