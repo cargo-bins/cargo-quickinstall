@@ -28,3 +28,4 @@ addr2line
 cargo-msrv
 bend-lang
 bpf-linker
+cargo-outdated
