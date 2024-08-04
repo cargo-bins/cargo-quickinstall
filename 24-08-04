@@ -3,3 +3,4 @@ rustfmt-nightly
 binstall
 czkawka_gui
 clippy
+pijul
