@@ -8,3 +8,4 @@ cargo-risczero
 cargo-outdated
 cargo-msrv
 bgpkit-parser
+bend-lang
