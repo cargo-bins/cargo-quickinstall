@@ -10,3 +10,4 @@ cargo-msrv
 bgpkit-parser
 bend-lang
 bgpkit-broker
+cargo-show
