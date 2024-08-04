@@ -17,3 +17,4 @@ cargo-outdated
 cargo-codspeed
 bgpkit-broker
 addr2line
+bend-lang
