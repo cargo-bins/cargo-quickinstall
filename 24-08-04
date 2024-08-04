@@ -13,3 +13,4 @@ bgpkit-broker
 bgpkit-parser
 addr2line
 butane_cli
+cargo-espflash
