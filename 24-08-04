@@ -5,3 +5,4 @@ cargo-show
 difftastic
 cargo-codspeed
 cargo-risczero
+cargo-outdated
