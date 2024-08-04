@@ -18,3 +18,4 @@ cargo-codspeed
 bgpkit-broker
 addr2line
 bend-lang
+cargo-info
