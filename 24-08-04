@@ -25,3 +25,4 @@ cargo-outdated
 cargo-codspeed
 cargo-info
 addr2line
+cargo-msrv
