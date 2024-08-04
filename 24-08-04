@@ -16,3 +16,4 @@ butane_cli
 cargo-espflash
 cargo-lock
 cargo-spellcheck
+cargo-lock
