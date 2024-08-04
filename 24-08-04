@@ -11,3 +11,4 @@ bgpkit-parser
 bend-lang
 bgpkit-broker
 cargo-show
+addr2line
