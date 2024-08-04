@@ -6,3 +6,4 @@ difftastic
 cargo-codspeed
 cargo-risczero
 cargo-outdated
+cargo-msrv
