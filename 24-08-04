@@ -35,3 +35,4 @@ bend-lang
 cargo-info
 bpf-linker
 cargo-espflash
+butane_cli
