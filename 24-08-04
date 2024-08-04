@@ -32,3 +32,4 @@ cargo-outdated
 cargo-mono
 addr2line
 bend-lang
+cargo-info
