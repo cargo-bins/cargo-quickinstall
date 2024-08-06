@@ -3,3 +3,4 @@ cargo-mono
 cargo-show
 ast-grep
 cargo-spellcheck
+cargo-lock
