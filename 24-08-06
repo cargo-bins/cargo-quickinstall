@@ -4,3 +4,4 @@ cargo-show
 ast-grep
 cargo-spellcheck
 cargo-lock
+bottom
