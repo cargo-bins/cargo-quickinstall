@@ -22,3 +22,4 @@ cargo-lock
 cargo-spellcheck
 bottom
 cargo-udeps
+cargo-bitbake
