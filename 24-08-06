@@ -5,3 +5,4 @@ ast-grep
 cargo-spellcheck
 cargo-lock
 bottom
+cargo-udeps
