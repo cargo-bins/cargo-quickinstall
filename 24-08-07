@@ -3,3 +3,4 @@ cargo-component
 bluetui
 cargo-show
 ast-grep
+cargo-bitbake
