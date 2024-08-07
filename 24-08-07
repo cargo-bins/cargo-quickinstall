@@ -5,3 +5,4 @@ cargo-show
 ast-grep
 cargo-bitbake
 cargo-bom
+cargo-bpf
