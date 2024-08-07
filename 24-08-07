@@ -2,3 +2,4 @@ cargo-docset
 cargo-component
 bluetui
 cargo-show
+ast-grep
