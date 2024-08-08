@@ -1,0 +1,1 @@
+ - Add `apt-get install protobuf-compiler` to `build-version.sh`
