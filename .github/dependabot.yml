@@ -13,8 +13,15 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-  - package-ecosystem: "cargo"
+    groups:
+      deps:
+        patterns:
+          - "*"  - package-ecosystem: "cargo"
     # This will update the cargo-quickinstall/Cargo.toml
     directory: "/cargo-quickinstall"
     schedule:
       interval: "daily"
+    groups:
+      deps:
+        patterns:
+          - "*"
