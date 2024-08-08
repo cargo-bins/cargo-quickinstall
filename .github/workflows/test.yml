@@ -66,11 +66,6 @@ jobs:
     defaults:
       run:
         shell: bash
-    env:
-      # cargo-binstall uses GitHub Restful API to speedup resolution.
-      # The API limits usage for unauthorized users, with a GH_TOKEN,
-      # we can make sure binstall does not get rate limited by GitHub
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Fetch source
