@@ -164,7 +164,7 @@ mod test {
 
     #[test]
     fn test_options_from_env() {
-        let mock_cli_args: Vec<OsString> = vec![
+        let mock_cli_args: Vec<OsString> = [
             MOCK_CRATE_NAME,
             "--version",
             MOCK_CRATE_VERSION,

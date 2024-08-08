@@ -16,7 +16,8 @@ updates:
     groups:
       deps:
         patterns:
-          - "*"  - package-ecosystem: "cargo"
+          - "*"
+  - package-ecosystem: "cargo"
     # This will update the cargo-quickinstall/Cargo.toml
     directory: "/cargo-quickinstall"
     schedule:
