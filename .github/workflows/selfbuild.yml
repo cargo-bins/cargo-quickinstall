@@ -87,6 +87,8 @@ jobs:
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)
         run: cargo quickinstall cargo-quickinstall || cargo quickinstall sensei
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build-needing-cc:
     name: Build package that needs CC
