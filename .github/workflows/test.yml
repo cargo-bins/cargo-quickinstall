@@ -35,7 +35,7 @@ jobs:
         run: cargo fmt --check
 
       - name: Clippy
-        run: cargo clippy
+        run: cargo clippy --no-deps
 
   test:
     name: Test runner
@@ -73,7 +73,6 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
-      # TODO: actions/cache@v2?
       - name: Fetch source
         uses: actions/checkout@v4
 
@@ -88,6 +87,8 @@ jobs:
           set -euxo pipefail
           cargo run -- cargo-quickinstall
           cargo quickinstall -V
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Test using binstall with it already installed
         run: |
@@ -99,6 +100,11 @@ jobs:
         run: |
           set -euxo pipefail
           cargo run -- cargo-quickinstall cargo-nextest@0.9.50
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Try running the binary
+        run: |
           cargo quickinstall -V
           cargo nextest -V
 
@@ -109,9 +115,13 @@ jobs:
           echo so that binstall will think they are installed.
           rm $(which cargo-quickinstall) $(which cargo-nextest@0.9.50)
           cargo run -- --force cargo-quickinstall cargo-nextest@0.9.50
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Try running the binary
+        run: |
           cargo quickinstall -V
           cargo nextest -V
-
       - name: Test batch installation with curl
         run: |
           set -euxo pipefail
