@@ -3,3 +3,4 @@ diesel_cli
 cargo
 cargo
 bgpkit-broker
+bgpkit-parser
