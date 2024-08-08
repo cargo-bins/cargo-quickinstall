@@ -2,3 +2,4 @@ addr2line
 diesel_cli
 cargo
 cargo
+bgpkit-broker
