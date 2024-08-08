@@ -24,7 +24,7 @@ function get_top() {
     echo "done with $1" 1>&2
 }
 
-    (
-        get_top command-line-utilities
-        get_top development-tools/cargo-plugins
-    ) | sort
+(
+    get_top command-line-utilities
+    get_top development-tools/cargo-plugins
+) | sort
