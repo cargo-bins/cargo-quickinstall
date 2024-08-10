@@ -8,3 +8,4 @@ cargo-espflash
 ast-grep
 cargo-outdated
 cargo-codspeed
+cargo-risczero
