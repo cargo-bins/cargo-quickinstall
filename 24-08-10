@@ -9,3 +9,4 @@ cargo-component
 bgpkit-parser
 cargo-espflash
 cargo-lock
+cargo-spellcheck
