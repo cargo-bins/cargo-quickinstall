@@ -7,3 +7,4 @@ bgpkit-broker
 cargo-public-api
 cargo-component
 bgpkit-parser
+cargo-espflash
