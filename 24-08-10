@@ -8,3 +8,4 @@ cargo-public-api
 cargo-component
 bgpkit-parser
 cargo-espflash
+cargo-lock
