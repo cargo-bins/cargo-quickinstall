@@ -5,3 +5,4 @@ cargo-msrv
 cargo-public-api
 cargo-docset
 cargo-espflash
+ast-grep
