@@ -4,3 +4,4 @@ diesel_cli
 addr2line
 bp
 cargo-msrv
+bgpkit-parser
