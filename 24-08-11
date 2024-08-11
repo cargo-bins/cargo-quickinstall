@@ -6,3 +6,4 @@ bp
 cargo-msrv
 bgpkit-parser
 bgpkit-broker
+cargo-show
