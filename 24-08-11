@@ -3,3 +3,4 @@ diesel_cli
 addr2line
 cargo-spellcheck
 addr2line
+bgpkit-broker
