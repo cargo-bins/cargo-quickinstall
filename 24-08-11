@@ -7,3 +7,4 @@ bgpkit-broker
 bgpkit-parser
 cargo-lock
 cargo-spellcheck
+cargo-lock
