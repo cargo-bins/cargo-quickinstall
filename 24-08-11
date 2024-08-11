@@ -1,3 +1,4 @@
 graphql_client_cli
 diesel_cli
 addr2line
+cargo-spellcheck
