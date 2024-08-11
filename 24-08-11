@@ -6,3 +6,4 @@ addr2line
 bgpkit-broker
 bgpkit-parser
 cargo-lock
+cargo-spellcheck
