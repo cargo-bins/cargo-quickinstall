@@ -8,3 +8,4 @@ bgpkit-parser
 bgpkit-broker
 cargo-show
 cargo-outdated
+cargo-codspeed
