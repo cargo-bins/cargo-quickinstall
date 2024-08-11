@@ -4,3 +4,4 @@ addr2line
 cargo-spellcheck
 addr2line
 bgpkit-broker
+bgpkit-parser
