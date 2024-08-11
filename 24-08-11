@@ -5,3 +5,4 @@ addr2line
 bp
 cargo-msrv
 bgpkit-parser
+bgpkit-broker
