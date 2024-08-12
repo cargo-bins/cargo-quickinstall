@@ -7,3 +7,4 @@ cargo-outdated
 cargo-codspeed
 cargo-public-api
 cargo-component
+cargo-msrv
