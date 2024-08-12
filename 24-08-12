@@ -10,3 +10,4 @@ cargo-component
 cargo-msrv
 cargo-espflash
 cargo-risczero
+cargo-outdated
