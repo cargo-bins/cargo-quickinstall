@@ -5,3 +5,4 @@ cargo-component
 cargo-risczero
 cargo-outdated
 cargo-codspeed
+cargo-public-api
