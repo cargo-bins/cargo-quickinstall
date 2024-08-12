@@ -9,3 +9,4 @@ cargo-public-api
 cargo-component
 cargo-msrv
 cargo-espflash
+cargo-risczero
