@@ -4,3 +4,4 @@ cargo-msrv
 cargo-component
 cargo-risczero
 cargo-outdated
+cargo-codspeed
