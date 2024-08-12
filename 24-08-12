@@ -11,3 +11,4 @@ cargo-msrv
 cargo-espflash
 cargo-risczero
 cargo-outdated
+cargo-codspeed
