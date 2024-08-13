@@ -11,3 +11,4 @@ ast-grep
 cargo-risczero
 cargo-udeps
 cargo-lock
+cargo-spellcheck
