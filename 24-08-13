@@ -13,3 +13,4 @@ cargo-udeps
 cargo-lock
 cargo-spellcheck
 bottom
+cargo-udeps
