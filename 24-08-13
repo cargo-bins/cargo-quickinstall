@@ -9,3 +9,4 @@ cargo-spellcheck
 bottom
 ast-grep
 cargo-risczero
+cargo-udeps
