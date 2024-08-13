@@ -4,3 +4,4 @@ cargo-codspeed
 cargo-risczero
 cargo-outdated
 cargo-component
+cargo-show
