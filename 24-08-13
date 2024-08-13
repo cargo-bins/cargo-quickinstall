@@ -8,3 +8,4 @@ cargo-show
 cargo-spellcheck
 bottom
 ast-grep
+cargo-risczero
