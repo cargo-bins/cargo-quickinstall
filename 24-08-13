@@ -7,3 +7,4 @@ cargo-component
 cargo-show
 cargo-spellcheck
 bottom
+ast-grep
