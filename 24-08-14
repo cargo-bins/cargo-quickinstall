@@ -1,3 +1,4 @@
 cargo-leptos
 wasm-opt
 cargo-lock
+cargo-spellcheck
