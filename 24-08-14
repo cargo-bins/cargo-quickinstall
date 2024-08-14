@@ -1,2 +1,3 @@
 cargo-leptos
 wasm-opt
+cargo-lock
