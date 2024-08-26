@@ -91,5 +91,5 @@ fn test_get_latest_version() {
         .max()
         .unwrap();
 
-    assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), version);
+    assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), version.to_string());
 }
