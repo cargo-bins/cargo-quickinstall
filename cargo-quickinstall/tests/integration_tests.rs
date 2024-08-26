@@ -75,7 +75,7 @@ fn test_get_latest_version() {
             "tag",
             "--list",
             "--sort=-version:refname",
-            "cargo-quickinstall-v*",
+            "cargo-quickinstall-*",
         ])
         .output_checked_status()
         .unwrap()
@@ -88,7 +88,7 @@ fn test_get_latest_version() {
         .next()
         .unwrap()
         .trim()
-        .strip_prefix("cargo-quickinstall-v")
+        .strip_prefix("cargo-quickinstall-")
         .unwrap();
 
     assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), version);
