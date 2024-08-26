@@ -70,5 +70,8 @@ fn do_dry_run_for_nonexistent_package() {
 
 #[test]
 fn test_get_latest_version() {
-    assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), env!("CARGO_PKG_VERSION"));
+    assert_eq!(
+        get_latest_version("cargo-quickinstall").unwrap(),
+        env!("CARGO_PKG_VERSION")
+    );
 }
