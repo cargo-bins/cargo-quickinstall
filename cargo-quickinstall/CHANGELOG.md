@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.12](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.2.11...v0.2.12) - 2024-08-26
+
+### Other
+- Bump guess_host_triple from 0.1.3 to 0.1.4 in the deps group ([#269](https://github.com/cargo-bins/cargo-quickinstall/pull/269))
+
 ## [0.2.11](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.2.10...v0.2.11) - 2024-08-08
 
 ### Other
