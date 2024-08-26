@@ -88,7 +88,8 @@ fn test_get_latest_version() {
         .map(|line| line.strip_prefix("cargo-quickinstall-").unwrap())
         .map(|tag| tag.strip_prefix('v').unwrap_or(tag))
         .map(|version| semver::Version::parse(version).unwrap())
-        .max();
+        .max()
+        .unwrap();
 
-    assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), versions);
+    assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), version);
 }
