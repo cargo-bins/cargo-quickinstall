@@ -4,4 +4,6 @@ version = "0.0.0"
 description = "Scripts for use in cargo-quickinstall github actions"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "influxdb3-python>=0.8.0",
+]
