@@ -8,8 +8,8 @@ kill_timeout = 5
   PORT = "8080"
   # Run `fly deploy --env KEY=VALUE` to override any of these.
   # INFLUX_TOKEN is provided as a secret.
-  INFLUX_URL='https://eu-central-1-1.aws.cloud2.influxdata.com'
-  INFLUX_ORG = "69235d4f38c3e042"
+  INFLUX_URL='https://us-east-1-1.aws.cloud2.influxdata.com'
+  INFLUX_ORG = "cargo-bins"
   INFLUX_BUCKET = "cargo-quickinstall"
 
 [experimental]
