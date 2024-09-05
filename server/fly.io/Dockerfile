@@ -1,4 +1,4 @@
-FROM rust:1-bookworm as builder
+FROM rust:1-buster as builder
 
 WORKDIR /usr/src/app
 COPY . .
@@ -8,7 +8,10 @@ RUN --mount=type=cache,target=/usr/local/cargo,from=rust:latest,source=/usr/loca
     cargo build --release && mv ./target/release/cargo-quickinstall-stats-server ./cargo-quickinstall-stats-server
 
 # Runtime image
-FROM debian:bookworm-slim
+FROM debian:buster-slim
+
+# Install libssl1.1  and ca-certificates
+RUN apt-get update && apt-get install -y libssl1.1 ca-certificates && rm -rf /var/lib/apt/lists/*
 
 # Run as "app" user
 RUN useradd -ms /bin/bash app
