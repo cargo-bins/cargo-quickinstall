@@ -11,6 +11,7 @@ DATABASE = "cargo-quickinstall"
 def get_stats():
     client = InfluxDBClient3(host=HOST, token=TOKEN, org=ORG, database=DATABASE)
 
+    # in theory we could also filter by arch here.
     query = """
         SELECT crate
         FROM "counts"
