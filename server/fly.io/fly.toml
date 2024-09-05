@@ -12,8 +12,6 @@ kill_timeout = 5
   INFLUX_ORG = "cargo-bins"
   INFLUX_BUCKET = "cargo-quickinstall"
 
-[experimental]
-  cmd = "./cargo-quickinstall-stats-server"
 
 [[services]]
   internal_port = 8080
