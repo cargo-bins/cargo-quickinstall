@@ -171,9 +171,9 @@ def get_excludes(tracking_worktree_path: str, days: int, max_failures: int):
 
 
 def get_repo_url() -> str:
-    repo_var = os.environ.get("GITHUB_REPOSITORY")
-    if repo_var:
-        return f"https://github.com/{GITHUB_REPOSITORY}"
+    repo_env_var = os.environ.get("GITHUB_REPOSITORY")
+    if repo_env_var:
+        return f"https://github.com/{repo_env_var}"
     return subprocess.run(
         ["gh", "repo", "view", "--json", "url", "--jq", ".url"],
         capture_output=True,
