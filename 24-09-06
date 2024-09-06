@@ -13,3 +13,4 @@ intel-mkl-tool
 nitrocli
 cargo-outdated
 turbocommit
+cargo-clone-crate
