@@ -8,3 +8,4 @@ cargo-bpf
 cargo-bpf
 sgxs-tools
 cargo-compete
+git_lab_cli
