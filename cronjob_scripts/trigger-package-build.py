@@ -45,7 +45,7 @@ def main():
 
 
 def trigger_for_arch(target_arch: str):
-    print(f"Triggering builds for {target_arch}", file=sys.stderr)
+    print(f"Triggering builds for {target_arch}")
 
     build_os = get_build_os(target_arch)
 
@@ -75,7 +75,7 @@ def trigger_for_arch(target_arch: str):
     branch = get_branch()
     builds_scheduled = 0
     for crate in crates_to_check:
-        print(f"Checking {crate} for {target_arch}", file=sys.stderr)
+        print(f"Checking {crate} for {target_arch}")
         version = get_current_version_if_unbuilt(
             repo_url=repo_url, crate=crate, target_arch=target_arch
         )
@@ -110,7 +110,7 @@ def trigger_for_arch(target_arch: str):
         )
         builds_scheduled += 1
         if builds_scheduled >= check_limit:
-            print("Scheduled enough builds, exiting", file=sys.stderr)
+            print("Scheduled enough builds, exiting")
             break
         time.sleep(30)
 
@@ -200,13 +200,13 @@ def get_current_version_if_unbuilt(
     try:
         version = get_latest_version(crate)
     except:
-        print(f"Failed to get latest version for {crate}", file=sys.stderr)
+        print(f"Failed to get latest version for {crate}")
         return None
 
     url = f"{repo_url}/releases/download/{crate}-{version['vers']}/{crate}-{version['vers']}-{target_arch}.tar.gz"
     response = requests.head(url, allow_redirects=True)
     if response.ok:
-        print(f"{url} already uploaded", file=sys.stderr)
+        print(f"{url} already uploaded")
         return None
     # FIXME: handle rate limit errors?
 
