@@ -9,3 +9,4 @@ cargo-download
 cargo-ebuild
 wasm-bindgen-cli
 cargo-ebuild
+cargo-download
