@@ -7,3 +7,4 @@ investments
 cargo-local-registry
 cargo-download
 cargo-ebuild
+wasm-bindgen-cli
