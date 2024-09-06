@@ -10,3 +10,4 @@ cargo-lock
 rsgen-avro
 cargo-vendor
 cargo-kcov
+natls
