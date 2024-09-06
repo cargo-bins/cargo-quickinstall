@@ -4,3 +4,4 @@ intel-mkl-tool
 regress
 cargo-pgx
 atuin
+cicada
