@@ -12,3 +12,4 @@ cargo-vendor
 cargo-kcov
 natls
 clippy
+rsgen-avro
