@@ -20,9 +20,9 @@ import time
 
 import requests
 
-from scripts.get_latest_version import CrateVersionDict, get_latest_version
-from scripts.checkout_worktree import checkout_worktree_for_arch
-from scripts.stats import get_requested_crates
+from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_version
+from cronjob_scripts.checkout_worktree import checkout_worktree_for_arch
+from cronjob_scripts.stats import get_requested_crates
 
 TARGET_ARCH_TO_BUILD_OS = {
     "x86_64-apple-darwin": "macos-latest",
