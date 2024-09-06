@@ -2,37 +2,50 @@
 publish: release ## alias for `make release`
 
 .PHONY: release
-release: ## Publish a new release
+release: scripts/.python-deps-updated.timestamp ## Publish a new release
 	(cd cargo-quickinstall/ && cargo release patch --execute --no-push)
 	git push origin HEAD:release --tags
 	make recheck
 
+scripts/requirements.txt: scripts/pyproject.toml
+	(
+		cd scripts && \
+		uv pip compile pyproject.toml -o requirements.txt 
+	)
+
+# install python dependencies and then record that we've done so so we don't do it again
+# WARNING: this will mess with whatever python venv you happen to be in.
+# this is run on the github actions runner so we can't use uv
+scripts/.python-deps-updated.timestamp: scripts/requirements.txt
+	pip install -r scripts/requirements.txt
+	touch scripts/.python-deps-updated.timestamp
+
 .PHONY: windows
-windows: ## trigger a windows build
+windows: scripts/.python-deps-updated.timestamp ## trigger a windows build
 	RECHECK=1 TARGET_ARCH=x86_64-pc-windows-msvc python scripts/trigger-package-build.py
 
 .PHONY: mac
-mac: ## trigger a mac build
+mac: scripts/.python-deps-updated.timestamp ## trigger a mac build
 	RECHECK=1 TARGET_ARCH=x86_64-apple-darwin python scripts/trigger-package-build.py
 
 .PHONY: m1
-m1: ## trigger a mac m1 build
+m1: scripts/.python-deps-updated.timestamp ## trigger a mac m1 build
 	RECHECK=1 TARGET_ARCH=aarch64-apple-darwin python scripts/trigger-package-build.py
 
 .PHONY: linux
-linux: ## trigger a linux build
+linux: scripts/.python-deps-updated.timestamp ## trigger a linux build
 	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-gnu python scripts/trigger-package-build.py
 
 .PHONY: linux-musl
-linux-musl: ## trigger a musl libc-based linux build
+linux-musl: scripts/.python-deps-updated.timestamp ## trigger a musl libc-based linux build
 	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-musl python scripts/trigger-package-build.py
 
 .PHONY: exclude
-exclude: ## recompute excludes, but don't push anywhere (see /tmp/cargo-quickinstall-* for repos)
+exclude: scripts/.python-deps-updated.timestamp ## recompute excludes, but don't push anywhere (see /tmp/cargo-quickinstall-* for repos)
 	REEXCLUDE=1 python scripts/trigger-package-build.py
 
 .PHONY: recheck
-recheck: ## recompute excludes and start from the top
+recheck: scripts/.python-deps-updated.timestamp ## recompute excludes and start from the top
 	RECHECK=1 python scripts/trigger-package-build.py
 
 .PHONY: help
