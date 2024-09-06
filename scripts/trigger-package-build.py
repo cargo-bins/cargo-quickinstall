@@ -61,6 +61,8 @@ def main():
     # but I think that shuffling first is an important bugfixt. Once we are using crates.io sparse
     # index api without rate-limits, we can think about checking more crates.
     crates_to_check = random.sample(list(possible_crates), 4 * check_limit)
+    if os.environ.get("RECHECK"):
+        crates_to_check = ["cargo-quickinstall"] + crates_to_check
 
     repo_url = get_repo_url()
     branch = get_branch()
