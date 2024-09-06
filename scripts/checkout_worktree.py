@@ -14,6 +14,8 @@ def checkout_worktree_for_arch(target_arch: str):
     """
     worktree_path = f"/tmp/cargo-quickinstall-{target_arch}"
     bash_script = f"""
+        set -euxo pipefail
+
         rm -rf {worktree_path}
         git worktree remove -f {worktree_path} || true
         git branch -D "trigger/{target_arch}" || true
