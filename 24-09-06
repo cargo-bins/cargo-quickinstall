@@ -6,3 +6,4 @@ macchina
 semverver
 tauri-bundler
 cargo-bpf
+cargo-udeps
