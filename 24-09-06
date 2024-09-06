@@ -3,3 +3,4 @@ sqlx-cli
 cargo-lock
 cargo-generate
 zellij
+cargo-lock
