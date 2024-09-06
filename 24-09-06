@@ -14,3 +14,4 @@ natls
 clippy
 rsgen-avro
 kmon
+cargo-pgx
