@@ -23,7 +23,7 @@ jobs:
 
       - name: recheck cargo-quickinstall and some random crates on all architectures
         id: find_crate
-        run: make recheck
+        run: make recheck 2>&1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
