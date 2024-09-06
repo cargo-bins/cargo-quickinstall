@@ -38,13 +38,13 @@ linux: scripts/.python-deps-updated.timestamp ## trigger a linux build
 linux-musl: scripts/.python-deps-updated.timestamp ## trigger a musl libc-based linux build
 	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-musl python scripts/trigger-package-build.py
 
-.PHONY: exclude
-exclude: scripts/.python-deps-updated.timestamp ## recompute excludes, but don't push anywhere (see /tmp/cargo-quickinstall-* for repos)
-	REEXCLUDE=1 python scripts/trigger-package-build.py
-
 .PHONY: recheck
-recheck: scripts/.python-deps-updated.timestamp ## recompute excludes and start from the top
-	RECHECK=1 python scripts/trigger-package-build.py
+recheck: scripts/.python-deps-updated.timestamp ## build ourself and some random packages on all arches
+	RECHECK=1 TARGET_ARCH=all python scripts/trigger-package-build.py
+
+.PHONY: trigger-all
+trigger-all: scripts/.python-deps-updated.timestamp ## build some random packages on all arches
+	TARGET_ARCH=all python scripts/trigger-package-build.py
 
 .PHONY: help
 help: ## Display this help screen

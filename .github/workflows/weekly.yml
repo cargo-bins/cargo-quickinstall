@@ -23,9 +23,7 @@ jobs:
 
       - name: recheck excludes for all archetectures
         id: find_crate
-        run: |
-          set -euo pipefail
-          touch .env
-          make recheck
+        run: make recheck
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
