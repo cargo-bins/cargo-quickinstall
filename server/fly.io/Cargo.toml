@@ -13,3 +13,6 @@ tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 axum = "0.6.10"
 influx_db_client = "^0.5.0"
 influxrs = "2.0.1"
+
+[profile.release]
+lto = "thin"
