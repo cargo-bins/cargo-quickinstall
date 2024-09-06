@@ -44,7 +44,12 @@ def get_latest_version(crate: str) -> CrateVersionDict:
     # FIXME: handle 404s
     response = requests.get(url)
     versions = [json.loads(line) for line in response.text.splitlines()]
-    unyanked_versions = [version for version in versions if not version["yanked"]]
+    unyanked_versions = [
+        version
+        for version in versions
+        if not version["yanked"]
+        and not semver.VersionInfo.parse(version["vers"]).prerelease
+    ]
 
     # FIXME: check that rust actually agrees with semver when it comes to pre-release versions etc.
     unyanked_versions.sort(key=lambda v: semver.VersionInfo.parse(v["vers"]))
