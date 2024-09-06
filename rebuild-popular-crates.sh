@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# This script rebuilds the popular-crates.txt file from lib.rs
+# In theory we could use the crates.io db dump.
+# See https://github.com/cargo-bins/cargo-quickinstall/issues/268#issuecomment-2329308074
+#
+# get-popular-crates.sh also seems to re-implement the functionality of this script.
+#
 # pup can be installed via: go get github.com/ericchiang/pup
 # uq can be installed using cargo-quickinstall
 
@@ -16,18 +22,18 @@ which uq || (
 
 function get_top() {
     curl --fail "https://lib.rs/$1" |
-        pup ':parent-of(:parent-of(:parent-of(.bin))) json{}' |
-        jq -r '.[] |
+    pup ':parent-of(:parent-of(:parent-of(.bin))) json{}' |
+    jq -r '.[] |
             (.children[1].children|map(select(.class == "downloads").title)[0]// "0 ")
             + ":" +
-            (.children[0].children[0].text)' |
-        sort -gr |
-        grep -v / |
-        grep -v ^0 |
-        head -n 100 |
-        tee /dev/fd/2 | # debugging goes to stderr
-        sed s/^.*://
-
+    (.children[0].children[0].text)' |
+    sort -gr |
+    grep -v / |
+    grep -v ^0 |
+    head -n 100 |
+    tee /dev/fd/2 | # debugging goes to stderr
+    sed s/^.*://
+    
     echo "done with $1" 1>&2
 }
 
