@@ -11,3 +11,4 @@ cargo-compete
 git_lab_cli
 intel-mkl-tool
 nitrocli
+cargo-outdated
