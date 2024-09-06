@@ -14,3 +14,4 @@ nitrocli
 cargo-outdated
 turbocommit
 cargo-clone-crate
+spl-token-cli
