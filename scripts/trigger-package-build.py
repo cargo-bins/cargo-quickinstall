@@ -45,6 +45,8 @@ def main():
 
 
 def trigger_for_arch(target_arch: str):
+    print(f"Triggering builds for {target_arch}", file=sys.stderr)
+
     build_os = get_build_os(target_arch)
 
     tracking_worktree_path = checkout_worktree_for_arch(target_arch)
@@ -73,7 +75,8 @@ def trigger_for_arch(target_arch: str):
     branch = get_branch()
     builds_scheduled = 0
     for crate in crates_to_check:
-        version = get_next_unbuilt_version(
+        print(f"Checking {crate} for {target_arch}", file=sys.stderr)
+        version = get_current_version_if_unbuilt(
             repo_url=repo_url, crate=crate, target_arch=target_arch
         )
         if not version:
@@ -101,7 +104,7 @@ def trigger_for_arch(target_arch: str):
         }
         print(f"Attempting to build {crate} {version['vers']} for {target_arch}")
         subprocess.run(
-            ["gh", "workflow", "run", "build-package.yml", "--json"],
+            ["gh", "workflow", "run", "build-package.yml", "--json", f"--ref={branch}"],
             input=json.dumps(workflow_run_input).encode(),
             check=True,
         )
@@ -189,7 +192,7 @@ def get_branch() -> str:
     ).stdout.strip()
 
 
-def get_next_unbuilt_version(
+def get_current_version_if_unbuilt(
     repo_url: str,
     crate: str,
     target_arch: str,
