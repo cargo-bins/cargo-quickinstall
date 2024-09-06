@@ -7,7 +7,7 @@ release: scripts/.python-deps-updated.timestamp ## Publish a new release
 	git push origin HEAD:release --tags
 	make recheck
 
-scripts/requirements.txt: scripts/pyproject.toml
+scripts/requirements.txt: scripts/pyproject.toml ## Compile the python dependencies from pyproject.toml into requirements.txt
 	(cd scripts && uv pip compile pyproject.toml --python-version=3.8 --output-file requirements.txt)
 
 # install python dependencies and then record that we've done so so we don't do it again
