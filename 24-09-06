@@ -1,2 +1,3 @@
 bindgen-cli
 trunk
+cargo-bitbake
