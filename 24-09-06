@@ -5,3 +5,4 @@ cargo-quickinstall
 my-iot
 cargo-quickinstall
 cargo-lock
+cargo-spellcheck
