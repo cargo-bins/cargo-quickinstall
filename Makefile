@@ -8,10 +8,7 @@ release: scripts/.python-deps-updated.timestamp ## Publish a new release
 	make recheck
 
 scripts/requirements.txt: scripts/pyproject.toml
-	(
-		cd scripts && \
-		uv pip compile pyproject.toml -o requirements.txt 
-	)
+	(cd scripts && uv pip compile pyproject.toml --python-version=3.8 --output-file requirements.txt)
 
 # install python dependencies and then record that we've done so so we don't do it again
 # WARNING: this will mess with whatever python venv you happen to be in.
