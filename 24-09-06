@@ -6,3 +6,4 @@ cargo-bitbake
 cargo-bom
 cargo-bpf
 cargo-bpf
+sgxs-tools
