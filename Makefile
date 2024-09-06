@@ -17,6 +17,7 @@ scripts/requirements.txt: scripts/pyproject.toml
 # WARNING: this will mess with whatever python venv you happen to be in.
 # this is run on the github actions runner so we can't use uv
 scripts/.python-deps-updated.timestamp: scripts/requirements.txt
+	python --version
 	pip install -r scripts/requirements.txt
 	touch scripts/.python-deps-updated.timestamp
 
