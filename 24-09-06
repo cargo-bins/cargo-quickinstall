@@ -2,3 +2,4 @@ fw
 cargo-download
 intel-mkl-tool
 regress
+cargo-pgx
