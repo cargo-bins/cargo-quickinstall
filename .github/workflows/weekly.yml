@@ -21,7 +21,7 @@ jobs:
           ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
 
-      - name: recheck excludes for all architectures
+      - name: recheck cargo-quickinstall and some random crates on all architectures
         id: find_crate
         run: make recheck
         env:
