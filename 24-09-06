@@ -6,3 +6,4 @@ bgpkit-parser
 cargo-leptos
 bgpkit-broker
 ast-grep
+cargo-geiger
