@@ -27,7 +27,7 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: "pip"
-    # This will update scripts/requirements.txt
-    directory: "/scripts"
+    # This will update cronjob_scripts/requirements.txt
+    directory: "/cronjob_scripts"
     schedule:
       interval: "daily"

@@ -45,7 +45,7 @@ Edit the command however you need, and paste it into your CI pipeline.
 
 ## Supported targets
 
-Check [supported-targets](/scripts/trigger-package-build.py) for lists of targets quickinstall
+Check [supported-targets](/cronjob_scripts/trigger-package-build.py) for lists of targets quickinstall
 can build for.
 
 ## Limitations

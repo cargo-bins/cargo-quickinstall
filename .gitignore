@@ -5,5 +5,5 @@
 \.DS_Store
 __pycache__
 # For now, we rely on scripts/requirements.txt to act as our lockfile, because dependabot doesn't support uv yet.
-scripts/uv.lock
-scripts/.python-deps-updated.timestamp
+cronjob_scripts/uv.lock
+cronjob_scripts/.python-deps-updated.timestamp
