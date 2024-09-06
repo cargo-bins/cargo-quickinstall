@@ -9,3 +9,4 @@ cargo-lock
 cargo-lock
 rsgen-avro
 cargo-vendor
+cargo-kcov
