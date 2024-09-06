@@ -1,3 +1,4 @@
 monolith
 sqlx-cli
 cargo-lock
+cargo-generate
