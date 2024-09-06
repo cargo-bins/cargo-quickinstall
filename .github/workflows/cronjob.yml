@@ -22,8 +22,10 @@ jobs:
         id: find_crate
         run: |
           set -euo pipefail
-          touch .env
-          ./trigger-package-build.sh
+
+          python -m pip install -r scripts/requirements.txt
+
+          python ./scripts/trigger-package-build.py
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CRATE_CHECK_LIMIT: 10
