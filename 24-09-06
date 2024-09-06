@@ -5,3 +5,4 @@ regress
 starship
 investments
 cargo-local-registry
+cargo-download
