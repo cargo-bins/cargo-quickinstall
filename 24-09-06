@@ -6,3 +6,4 @@ starship
 investments
 cargo-local-registry
 cargo-download
+cargo-ebuild
