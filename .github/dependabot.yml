@@ -26,3 +26,8 @@ updates:
       deps:
         patterns:
           - "*"
+  - package-ecosystem: "pip"
+    # This will update scripts/requirements.txt
+    directory: "/scripts"
+    schedule:
+      interval: "daily"
