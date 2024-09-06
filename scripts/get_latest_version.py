@@ -1,5 +1,7 @@
+from __future__ import annotations
+
 import json
-from typing import Literal, TypedDict
+from typing import TypedDict
 import requests
 
 import semver

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import os
 
 from influxdb_client_3 import InfluxDBClient3
