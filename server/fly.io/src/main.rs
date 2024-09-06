@@ -8,19 +8,22 @@ use axum::{
 };
 use influxrs::{InfluxClient, Measurement};
 
-#[tokio::main]
-async fn main() {
-    let app = Router::new()
-        .route("/", get(root))
-        .route("/record-install", get(record_install))
-        .route("/record-install", post(record_install));
+fn main() {
+    let rt = tokio::runtime::Runtime::new().unwrap();
+    let task = rt.spawn(async move {
+        let app = Router::new()
+            .route("/", get(root))
+            .route("/record-install", get(record_install))
+            .route("/record-install", post(record_install));
 
-    // ipv6 + ipv6 any addr
-    let addr = SocketAddr::from(([0, 0, 0, 0, 0, 0, 0, 0], 8080));
-    axum::Server::bind(&addr)
-        .serve(app.into_make_service())
-        .await
-        .unwrap();
+        // ipv6 + ipv6 any addr
+        let addr = SocketAddr::from(([0, 0, 0, 0, 0, 0, 0, 0], 8080));
+        axum::Server::bind(&addr)
+            .serve(app.into_make_service())
+            .await
+            .unwrap();
+    });
+    rt.block_on(task).unwrap();
 }
 
 async fn root() -> &'static str {
