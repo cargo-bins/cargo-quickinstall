@@ -10,11 +10,11 @@ def checkout_worktree_for_arch(target_arch: str):
     This is required for reading the exclude files.
 
     This is lifted directly from the old trigger-package-build.sh script, and is only expected to
-    work on linux/macos with bash.
+    work on linux/macos with dash/bash.
     """
     worktree_path = f"/tmp/cargo-quickinstall-{target_arch}"
     bash_script = f"""
-        set -euxo pipefail
+        set -eux
 
         rm -rf {worktree_path}
         git worktree remove -f {worktree_path} || true
