@@ -13,3 +13,4 @@ cargo-kcov
 natls
 clippy
 rsgen-avro
+kmon
