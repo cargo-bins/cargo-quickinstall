@@ -16,3 +16,4 @@ cargo-msrv
 rerun-cli
 cargo-msrv
 cargo-msrv
+cargo-bom
