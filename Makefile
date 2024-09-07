@@ -5,7 +5,7 @@ publish: release ## alias for `make release`
 release: cronjob_scripts/.python-deps-updated.timestamp ## Publish a new release
 	(cd cargo-quickinstall/ && cargo release patch --execute --no-push)
 	git push origin HEAD:release --tags
-	make recheck
+	$(MAKE) recheck
 
 cronjob_scripts/requirements.txt: cronjob_scripts/pyproject.toml ## Compile the python dependencies from pyproject.toml into requirements.txt
 	(cd cronjob_scripts && uv pip compile pyproject.toml --python-version=3.8 --output-file requirements.txt)
