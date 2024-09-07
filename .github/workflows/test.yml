@@ -123,3 +123,6 @@ jobs:
           cargo run -- --no-binstall cargo-quickinstall cargo-nextest@0.9.50
           cargo quickinstall -V
           cargo nextest -V
+
+      - name: Test python cronjob_scripts
+        run: make test-cronjob-scripts

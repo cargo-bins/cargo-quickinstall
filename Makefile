@@ -46,6 +46,10 @@ recheck: cronjob_scripts/.python-deps-updated.timestamp ## build ourself and som
 trigger-all: cronjob_scripts/.python-deps-updated.timestamp ## build some random packages on all arches
 	TARGET_ARCH=all python cronjob_scripts/trigger-package-build.py
 
+.PHONY: test-cronjob-scripts
+test-cronjob-scripts: cronjob_scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob_scripts
+	python -m unittest discover -s cronjob_scripts
+
 .PHONY: help
 help: ## Display this help screen
 	@grep -E '^[a-z.A-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'

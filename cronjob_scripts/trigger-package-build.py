@@ -2,13 +2,14 @@
 
 from __future__ import annotations
 
+
 if __name__ == "__main__" and __package__ is None:
     import sys
     from pathlib import Path
 
     # Add repo root to PYTHONPATH and make relative imports work
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-    __package__ = "scripts"
+    __package__ = "cronjob_scripts"
 
 
 from collections import Counter
@@ -20,22 +21,10 @@ import time
 
 import requests
 
-from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_version
+from cronjob_scripts.architectures import get_build_os, get_target_architectures
 from cronjob_scripts.checkout_worktree import checkout_worktree_for_arch
+from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_version
 from cronjob_scripts.stats import get_requested_crates
-
-TARGET_ARCH_TO_BUILD_OS = {
-    "x86_64-apple-darwin": "macos-latest",
-    "aarch64-apple-darwin": "macos-latest",
-    "x86_64-unknown-linux-gnu": "ubuntu-20.04",
-    "x86_64-unknown-linux-musl": "ubuntu-20.04",
-    "x86_64-pc-windows-msvc": "windows-latest",
-    "aarch64-pc-windows-msvc": "windows-latest",
-    "aarch64-unknown-linux-gnu": "ubuntu-20.04",
-    "aarch64-unknown-linux-musl": "ubuntu-20.04",
-    "armv7-unknown-linux-musleabihf": "ubuntu-20.04",
-    "armv7-unknown-linux-gnueabihf": "ubuntu-20.04",
-}
 
 
 def main():
@@ -113,35 +102,6 @@ def trigger_for_arch(target_arch: str):
             print("Scheduled enough builds, exiting")
             break
         time.sleep(30)
-
-
-def get_build_os(target_arch: str) -> str:
-    try:
-        return TARGET_ARCH_TO_BUILD_OS[target_arch]
-    except KeyError:
-        raise ValueError(f"Unrecognised target arch: {target_arch}")
-
-
-def get_target_architectures() -> list[str]:
-    target_arch = os.environ.get("TARGET_ARCH", None)
-    if target_arch in TARGET_ARCH_TO_BUILD_OS:
-        return [target_arch]
-
-    if target_arch == "all":
-        return list(TARGET_ARCH_TO_BUILD_OS.keys())
-
-    try:
-        rustc_version_output = subprocess.run(
-            ["rustc", "--version", "--verbose"], capture_output=True, text=True
-        )
-        current_arch = [
-            line.split("host: ")[1]
-            for line in rustc_version_output.stdout.splitlines()
-            if line.startswith("host: ")
-        ][0]
-        return [current_arch]
-    except:
-        raise ValueError(f"rustc did not tell us its host: {rustc_version_output}")
 
 
 def get_popular_crates():
