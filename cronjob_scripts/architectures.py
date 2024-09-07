@@ -37,7 +37,7 @@ def get_target_architectures() -> list[str]:
     try:
         assert rustc_version_output.returncode == 0
         current_arch = [
-            line.split("host: ")[1]
+            line.removeprefix("host: ")
             for line in rustc_version_output.stdout.splitlines()
             if line.startswith("host: ")
         ][0]
