@@ -105,6 +105,13 @@ def trigger_for_arch(target_arch: str):
 
 
 def get_popular_crates():
+    """
+    List of crates that are popular and should be checked in addition to the requested crates.
+
+    In the future, this list might be generated from the crates.io db dump (see
+    https://github.com/cargo-bins/cargo-quickinstall/issues/268#issuecomment-2329308074),
+    but probably not every time we run this script. We will need to think about this.
+    """
     with open(
         Path(__file__).resolve().parent.parent.joinpath("popular-crates.txt"), "r"
     ) as file:
