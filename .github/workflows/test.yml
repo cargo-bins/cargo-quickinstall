@@ -38,7 +38,7 @@ jobs:
         run: cargo clippy --no-deps
 
   test:
-    name: Test runner
+    name: Rust and python unit tests
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -52,8 +52,11 @@ jobs:
       - name: Fetch tags required for testing
         run: git fetch --tags
 
-      - name: Run test
+      - name: Run cargo test
         run: cargo test
+
+      - name: Test python cronjob_scripts
+        run: make test-cronjob-scripts
 
   e2etest:
     runs-on: ${{ matrix.os }}
@@ -123,7 +126,3 @@ jobs:
           cargo run -- --no-binstall cargo-quickinstall cargo-nextest@0.9.50
           cargo quickinstall -V
           cargo nextest -V
-
-      - name: Test python cronjob_scripts (linux only)
-        if: matrix.os == 'ubuntu-latest'
-        run: make test-cronjob-scripts
