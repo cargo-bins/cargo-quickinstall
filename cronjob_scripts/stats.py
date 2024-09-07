@@ -14,13 +14,11 @@ def get_stats(period: str, arch: str | None):
     client = InfluxDBClient3(host=HOST, token=TOKEN, org=ORG, database=DATABASE)
 
     query = """
-        SELECT crate
+        SELECT DISTINCT crate
         FROM "counts"
         WHERE
             time >= now() - $period::interval and time <= now()
             and $arch is null or arch = $arch
-        GROUP BY crate
-        ORDER BY crate
     """
 
     # FIXME: pyarrow.Table doesn't have types: https://github.com/apache/arrow/issues/32609
