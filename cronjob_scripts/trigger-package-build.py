@@ -164,11 +164,7 @@ def get_current_version_if_unbuilt(
     crate: str,
     target_arch: str,
 ) -> CrateVersionDict | None:
-    try:
-        version = get_latest_version(crate)
-    except:
-        print(f"Failed to get latest version for {crate}")
-        return None
+    version = get_latest_version(crate)
     if not version:
         return None
 
