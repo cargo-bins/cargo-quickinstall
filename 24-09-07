@@ -7,3 +7,4 @@ cargo-msrv
 gnostr-bins
 cargo-codspeed
 eureka
+bpf-linker
