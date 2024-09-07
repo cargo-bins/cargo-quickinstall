@@ -6,3 +6,4 @@ wasm-opt
 rerun-cli
 cargo-msrv
 cargo-leptos
+trunk
