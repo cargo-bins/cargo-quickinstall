@@ -1,4 +1,5 @@
 import os
+import subprocess
 
 
 TARGET_ARCH_TO_BUILD_OS = {
@@ -30,10 +31,11 @@ def get_target_architectures() -> list[str]:
     if target_arch == "all":
         return list(TARGET_ARCH_TO_BUILD_OS.keys())
 
+    rustc_version_output = subprocess.run(
+        ["rustc", "--version", "--verbose"], capture_output=True, text=True
+    )
     try:
-        rustc_version_output = subprocess.run(
-            ["rustc", "--version", "--verbose"], capture_output=True, text=True
-        )
+        assert rustc_version_output.returncode == 0
         current_arch = [
             line.split("host: ")[1]
             for line in rustc_version_output.stdout.splitlines()
