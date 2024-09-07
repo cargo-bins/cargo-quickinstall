@@ -7,3 +7,4 @@ rerun-cli
 cargo-msrv
 cargo-leptos
 trunk
+wasm-opt
