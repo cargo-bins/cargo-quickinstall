@@ -6,3 +6,4 @@ diesel_cli
 cargo-leptos
 cargo-lock
 cargo-spellcheck
+cargo-lock
