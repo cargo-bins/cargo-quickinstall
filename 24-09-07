@@ -8,3 +8,4 @@ gnostr-bins
 cargo-codspeed
 eureka
 bpf-linker
+cargo-leptos
