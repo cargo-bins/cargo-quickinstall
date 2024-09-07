@@ -25,10 +25,7 @@ def checkout_worktree_for_arch(target_arch: str):
 
         if git fetch origin "trigger/{target_arch}"; then
             git checkout "origin/trigger/{target_arch}" -B "trigger/{target_arch}"
-        elif git checkout "trigger/{target_arch}"; then
-            # pass
-            true
-        else
+        elif ! git checkout "trigger/{target_arch}"; then
             # New branch with no history. Credit: https://stackoverflow.com/a/13969482
             git checkout --orphan "trigger/{target_arch}"
             git rm --cached -r . || true
