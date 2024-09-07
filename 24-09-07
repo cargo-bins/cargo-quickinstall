@@ -2,3 +2,4 @@ trunk
 rerun-cli
 cargo-leptos
 trunk
+wasm-opt
