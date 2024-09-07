@@ -15,6 +15,8 @@ def get_index_url(crate: str):
     All other packages are stored in directories named {first-two}/{second-two} where the top directory is the first two characters of the package name, and the next subdirectory is the third and fourth characters of the package name. For example, cargo would be stored in a file named ca/rg/cargo.
     -- https://doc.rust-lang.org/cargo/reference/registry-index.html#index-files
     """
+    if len(crate) == 0:
+        raise ValueError("Empty crate name")
     if len(crate) == 1:
         return f"https://index.crates.io/1/{crate}"
     elif len(crate) == 2:
