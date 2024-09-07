@@ -124,5 +124,6 @@ jobs:
           cargo quickinstall -V
           cargo nextest -V
 
-      - name: Test python cronjob_scripts
+      - name: Test python cronjob_scripts (linux only)
+        if: matrix.os == 'ubuntu-latest'
         run: make test-cronjob-scripts
