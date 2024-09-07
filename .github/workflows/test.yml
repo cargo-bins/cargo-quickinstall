@@ -38,7 +38,7 @@ jobs:
         run: cargo clippy --no-deps
 
   test:
-    name: Rust and python unit tests
+    name: Test runner
     runs-on: ubuntu-latest
     defaults:
       run:
