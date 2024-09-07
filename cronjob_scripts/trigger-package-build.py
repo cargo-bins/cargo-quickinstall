@@ -116,9 +116,9 @@ def get_popular_crates():
         Path(__file__).resolve().parent.parent.joinpath("popular-crates.txt"), "r"
     ) as file:
         return [
-            line.strip()
+            stripped
             for line in file
-            if line.strip() != "" and not line.startswith("#")
+            if (stripped := line.strip()) and not stripped.startswith("#")
         ]
 
 
