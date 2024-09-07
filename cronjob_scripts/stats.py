@@ -26,7 +26,7 @@ def get_stats(period: str, arch: str | None):
         query=query,
         language="sql",
         query_parameters={
-            "period": f"{period}",
+            "period": period,
             "arch": arch,
         },
     )

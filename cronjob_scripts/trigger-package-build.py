@@ -90,7 +90,7 @@ def trigger_for_arch(target_arch: str):
             features = "vendored-openssl"
         else:
             features = ",".join(
-                [feat for feat in version["features"].keys() if "vendored" in feat]
+                feat for feat in version["features"].keys() if "vendored" in feat
             )
 
         workflow_run_input = {
@@ -167,7 +167,7 @@ def get_excludes(tracking_worktree_path: str, days: int, max_failures: int):
     for failure_filename in failure_filenames[:days]:
         with open(failure_filename, "r") as file:
             failures.update(
-                Counter(line.strip() for line in file if line.strip() != "")
+                Counter(stripped for line in file if (stripped := line.strip()))
             )
 
     return [crate for crate, count in failures.items() if count >= max_failures]
