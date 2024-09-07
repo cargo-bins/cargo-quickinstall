@@ -169,6 +169,8 @@ def get_current_version_if_unbuilt(
     except:
         print(f"Failed to get latest version for {crate}")
         return None
+    if not version:
+        return None
 
     url = f"{repo_url}/releases/download/{crate}-{version['vers']}/{crate}-{version['vers']}-{target_arch}.tar.gz"
     response = requests.head(url, allow_redirects=True)

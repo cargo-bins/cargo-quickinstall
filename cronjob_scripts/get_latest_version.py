@@ -7,6 +7,20 @@ import requests
 import semver
 
 
+class CrateVersionDict(TypedDict):
+    """
+    A returned row from the crates.io index API.
+
+    Note that the returned row also includes all of the fields from the jsonschema at
+    https://doc.rust-lang.org/cargo/reference/registry-index.html#json-schema
+    but I can't be bothered typing them right now.
+    """
+
+    name: str
+    vers: str
+    features: dict[str, list[str]]
+
+
 def get_index_url(crate: str):
     """
     Packages with 1 character names are placed in a directory named 1.
@@ -27,38 +41,33 @@ def get_index_url(crate: str):
         return f"https://index.crates.io/{crate[:2]}/{crate[2:4]}/{crate}"
 
 
-class CrateVersionDict(TypedDict):
-    name: str
-    vers: str
-    features: dict[str, list[str]]
-
-
-def get_latest_version(crate: str) -> CrateVersionDict:
+def get_latest_version(crate: str) -> CrateVersionDict | None:
     """
     Calls the crates.io index API to get the latest version of the given crate.
 
     There is no rate limit on this api, so we can call it as much as we like.
-
-    Note that the return type also includes all of the fields from the jsonschema at
-    https://doc.rust-lang.org/cargo/reference/registry-index.html#json-schema
-    but I can't be bothered typing them right now.
     """
     url = get_index_url(crate)
 
-    # FIXME: handle 404s
     response = requests.get(url)
-    versions = [json.loads(line) for line in response.text.splitlines()]
-    unyanked_versions = [
-        version
-        for version in versions
-        if not version["yanked"]
-        and not semver.VersionInfo.parse(version["vers"]).prerelease
-    ]
+    if response.status_code == 404:
+        print(f"No crate named {crate}")
+        return None
+    response.raise_for_status()
 
-    # FIXME: check that rust actually agrees with semver when it comes to pre-release versions etc.
-    unyanked_versions.sort(key=lambda v: semver.VersionInfo.parse(v["vers"]))
+    max_version: CrateVersionDict | None = None
+    max_parsed_version: semver.VersionInfo | None = None
+    for line in response.text.splitlines():
+        version = json.loads(line)
+        parsed_version = semver.VersionInfo.parse(version["vers"])
+        if version["yanked"] or parsed_version.prerelease:
+            continue
 
-    return unyanked_versions[-1]
+        if max_parsed_version is None or parsed_version > max_parsed_version:
+            max_version = version
+            max_parsed_version = parsed_version
+
+    return max_version
 
 
 if __name__ == "__main__":
@@ -68,4 +77,6 @@ if __name__ == "__main__":
         print(f"Usage: {sys.argv[0]} <crate>")
         sys.exit(1)
 
-    print(get_latest_version(sys.argv[1])["vers"])
+    version = get_latest_version(sys.argv[1])
+    if version is not None:
+        print(version["vers"])
