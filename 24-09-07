@@ -3,3 +3,4 @@ eureka
 gnostr-bins
 hurl
 eureka
+cargo-msrv
