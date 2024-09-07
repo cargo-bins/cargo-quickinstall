@@ -9,9 +9,15 @@ ORG = "cargo-bins"
 HOST = "https://us-east-1-1.aws.cloud2.influxdata.com"
 DATABASE = "cargo-quickinstall"
 
+_influxdb_client = None
+
 
 def get_stats(period: str, arch: str | None):
-    client = InfluxDBClient3(host=HOST, token=TOKEN, org=ORG, database=DATABASE)
+    global _influxdb_client
+    if _influxdb_client is None:
+        _influxdb_client = InfluxDBClient3(
+            host=HOST, token=TOKEN, org=ORG, database=DATABASE
+        )
 
     query = """
         SELECT DISTINCT crate
@@ -22,7 +28,7 @@ def get_stats(period: str, arch: str | None):
     """
 
     # FIXME: pyarrow.Table doesn't have types: https://github.com/apache/arrow/issues/32609
-    table = client.query(
+    table = _influxdb_client.query(
         query=query,
         language="sql",
         query_parameters={
