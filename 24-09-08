@@ -12,3 +12,4 @@ graphql_client_cli
 hurl
 diesel_cli
 cargo-info
+diesel_cli
