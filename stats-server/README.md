@@ -11,5 +11,5 @@ fly launch --now
 Then:
 
 ```bash
-fly deploy server/fly.io
+fly deploy stats-server
 ```
