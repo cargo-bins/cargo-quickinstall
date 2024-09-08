@@ -5,7 +5,6 @@
 ```bash
 brew install flyctl
 flyctl auth login
-fly launch --now
 ```
 
 Then:
