@@ -1,4 +1,3 @@
-use std::borrow::BorrowMut;
 use std::net::SocketAddr;
 use std::{collections::BTreeMap, sync::LazyLock};
 
@@ -8,6 +7,7 @@ use axum::{
     Router,
 };
 use influxrs::{InfluxClient, Measurement};
+use tokio::net::TcpListener;
 
 static INFLUX_CLIENT: LazyLock<InfluxClient> = LazyLock::new(|| {
     let url = get_env("INFLUX_URL");
@@ -27,10 +27,9 @@ fn main() {
 
         // ipv6 + ipv6 any addr
         let addr = SocketAddr::from(([0, 0, 0, 0, 0, 0, 0, 0], 8080));
-        axum::Server::bind(&addr)
-            .serve(app.into_make_service())
-            .await
-            .unwrap();
+        let listener = TcpListener::bind(addr).await.unwrap();
+
+        axum::serve(listener, app).await.unwrap();
     });
     rt.block_on(task).unwrap();
 }
