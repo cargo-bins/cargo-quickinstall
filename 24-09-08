@@ -1,3 +1,4 @@
 graphql_client_cli
 ruff
 graphql_client_cli
+ast-grep
