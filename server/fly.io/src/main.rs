@@ -1,5 +1,6 @@
-use std::collections::BTreeMap;
+use std::borrow::BorrowMut;
 use std::net::SocketAddr;
+use std::{collections::BTreeMap, sync::LazyLock};
 
 use axum::{
     extract::Query,
@@ -8,12 +9,20 @@ use axum::{
 };
 use influxrs::{InfluxClient, Measurement};
 
+static INFLUX_CLIENT: LazyLock<InfluxClient> = LazyLock::new(|| {
+    let url = get_env("INFLUX_URL");
+    let token = get_env("INFLUX_TOKEN");
+    let org = get_env("INFLUX_ORG");
+    InfluxClient::builder(url, token, org).build().unwrap()
+});
+
+static INFLUX_BUCKET: LazyLock<String> = LazyLock::new(|| get_env("INFLUX_BUCKET"));
+
 fn main() {
     let rt = tokio::runtime::Runtime::new().unwrap();
     let task = rt.spawn(async move {
         let app = Router::new()
             .route("/", get(root))
-            .route("/record-install", get(record_install))
             .route("/record-install", post(record_install));
 
         // ipv6 + ipv6 any addr
@@ -37,19 +46,12 @@ fn get_env(key: &str) -> String {
 async fn record_install(Query(params): Query<BTreeMap<String, String>>) -> String {
     println!("Hi there {params:?}");
 
-    // FIXME: make this in main and pass it down or something?
-    let url = get_env("INFLUX_URL");
-    let token = get_env("INFLUX_TOKEN");
-    let org = get_env("INFLUX_ORG");
-    let bucket = get_env("INFLUX_BUCKET");
-    let client = InfluxClient::builder(url, token, org).build().unwrap();
-
     let mut point = Measurement::builder("counts").field("count", 1);
     for (tag, value) in &params {
         point = point.tag(tag, &**value)
     }
-    client
-        .write(&bucket, &[point.build().unwrap()])
+    INFLUX_CLIENT
+        .write(&INFLUX_BUCKET, &[point.build().unwrap()])
         .await
         .unwrap();
     format!("Hi there {params:?}")
