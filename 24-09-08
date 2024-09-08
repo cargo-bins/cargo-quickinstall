@@ -21,3 +21,4 @@ cargo-outdated
 cargo-clone
 cargo-codspeed
 cargo-c
+cargo-info
