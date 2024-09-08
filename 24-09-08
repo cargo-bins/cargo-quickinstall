@@ -4,3 +4,4 @@ graphql_client_cli
 ast-grep
 graphql_client_cli
 spider_cli
+cargo-info
