@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import functools
 from typing import TypedDict
 import requests
 
@@ -41,6 +42,7 @@ def get_index_url(crate: str):
         return f"https://index.crates.io/{crate[:2]}/{crate[2:4]}/{crate}"
 
 
+@functools.lru_cache
 def get_latest_version(crate: str) -> CrateVersionDict | None:
     """
     Calls the crates.io index API to get the latest version of the given crate.
