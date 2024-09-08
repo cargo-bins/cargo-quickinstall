@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# This script rebuilds the popular-crates.txt file from lib.rs
+# In theory we could use the crates.io db dump.
+# See https://github.com/cargo-bins/cargo-quickinstall/issues/268#issuecomment-2329308074
+#
+# get-popular-crates.sh also seems to re-implement the functionality of this script.
+#
 # pup can be installed via: go get github.com/ericchiang/pup
 # uq can be installed using cargo-quickinstall
 

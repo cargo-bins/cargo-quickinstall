@@ -46,7 +46,7 @@ jobs:
           TARGET_ARCH: ${{ matrix.target_arch }}
         run: |
           set -euxo pipefail
-          touch .env
+
           VERSION="$(
             curl \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \

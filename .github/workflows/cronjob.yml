@@ -20,10 +20,8 @@ jobs:
 
       - name: Trigger Package Build
         id: find_crate
-        run: |
-          set -euo pipefail
-          touch .env
-          ./trigger-package-build.sh
+        run: make trigger-all
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
           CRATE_CHECK_LIMIT: 10

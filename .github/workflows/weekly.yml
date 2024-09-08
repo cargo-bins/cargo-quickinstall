@@ -2,6 +2,7 @@ name: Weekly Recheck
 
 concurrency:
   group: trigger-package-build
+  cancel-in-progress: true
 
 # Run every sunday, to recalculate excludes
 on:
@@ -21,11 +22,9 @@ jobs:
           ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
 
-      - name: recheck excludes for all archetectures
+      - name: recheck cargo-quickinstall and some random crates on all architectures
         id: find_crate
-        run: |
-          set -euo pipefail
-          touch .env
-          make recheck
+        run: make recheck
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
