@@ -12,3 +12,4 @@ graphql_client_cli
 cargo-info
 gnostr-bins
 hurl
+cargo-outdated
