@@ -8,3 +8,4 @@ cargo-info
 ruff
 cargo-clone
 wasm-opt
+graphql_client_cli
