@@ -10,7 +10,7 @@ RUN --mount=type=cache,target=/usr/local/cargo,from=rust:latest,source=/usr/loca
 # Runtime image
 FROM debian:buster-slim
 
-# Install libssl1.1  and ca-certificates
+# Install libssl1.1 and ca-certificates
 RUN apt-get update && apt-get install -y libssl1.1 ca-certificates && rm -rf /var/lib/apt/lists/*
 
 # Run as "app" user

@@ -27,7 +27,7 @@ fn main() {
 }
 
 async fn root() -> &'static str {
-    "Hello, World!"
+    "This is the stats server for cargo-quickinstall. Go to https://github.com/cargo-bins/cargo-quickinstall for more information."
 }
 
 fn get_env(key: &str) -> String {
