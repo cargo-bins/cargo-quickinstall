@@ -14,3 +14,4 @@ gnostr-bins
 hurl
 cargo-outdated
 cargo-clone
+cargo-info
