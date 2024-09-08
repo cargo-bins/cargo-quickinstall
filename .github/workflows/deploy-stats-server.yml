@@ -1,0 +1,19 @@
+name: Fly Deploy
+on:
+  push:
+    branches:
+      - main
+      # FIXME: remove this once tested, and remove rust-stats-server from the branch rule at
+      # https://github.com/cargo-bins/cargo-quickinstall/settings/environments/3923160374/edit
+      - rust-stats-server
+jobs:
+  deploy:
+    name: Deploy app
+    runs-on: ubuntu-latest
+    concurrency: deploy-group
+    steps:
+      - uses: actions/checkout@v4
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: flyctl deploy stats-server
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
