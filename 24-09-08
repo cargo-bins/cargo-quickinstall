@@ -9,3 +9,4 @@ diesel_cli
 cargo-info
 gnostr-bins
 graphql_client_cli
+hurl
