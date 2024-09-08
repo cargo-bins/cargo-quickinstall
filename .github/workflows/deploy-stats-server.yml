@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - main
-      # FIXME: remove this once tested, and remove rust-stats-server from the branch rule at
-      # https://github.com/cargo-bins/cargo-quickinstall/settings/environments/3923160374/edit
-      - rust-stats-server
 jobs:
   deploy:
     name: Deploy app
