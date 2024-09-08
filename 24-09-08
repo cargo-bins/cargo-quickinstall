@@ -7,3 +7,4 @@ ruff
 graphql_client_cli
 diesel_cli
 cargo-info
+gnostr-bins
