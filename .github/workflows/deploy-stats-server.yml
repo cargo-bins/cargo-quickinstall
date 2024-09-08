@@ -9,6 +9,7 @@ on:
 jobs:
   deploy:
     name: Deploy app
+    environment: stats server production
     runs-on: ubuntu-latest
     concurrency: deploy-group
     steps:
