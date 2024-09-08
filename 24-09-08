@@ -5,3 +5,4 @@ ast-grep
 graphql_client_cli
 spider_cli
 cargo-info
+ruff
