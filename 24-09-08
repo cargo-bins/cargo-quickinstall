@@ -2,3 +2,4 @@ graphql_client_cli
 graphql_client_cli
 ruff
 cargo-info
+spider_cli
