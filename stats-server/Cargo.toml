@@ -4,6 +4,7 @@ version = "0.0.0"
 authors = ["David Laban <alsuren@gmail.com>"]
 # based on https://github.com/fly-apps/hello-rust by Jerome Gravel-Niquet <jeromegn@gmail.com>
 edition = "2021"
+publish = false
 
 # Make a new workspace so that we get our own Cargo.lock and target dir for the docker build. 
 [workspace]
