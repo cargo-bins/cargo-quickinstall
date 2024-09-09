@@ -47,7 +47,11 @@ async fn record_install(Query(params): Query<BTreeMap<String, String>>) -> Strin
 
     let mut point = Measurement::builder("counts").field("count", 1);
     for (tag, value) in &params {
-        point = point.tag(tag, &**value)
+        if !["crate", "version", "target", "status"].contains(&tag.as_str()) {
+            println!("Skipping unknown query param: {tag}={value}");
+            continue;
+        }
+        point = point.tag(tag, value.as_str())
     }
     INFLUX_CLIENT
         .write(&INFLUX_BUCKET, &[point.build().unwrap()])
