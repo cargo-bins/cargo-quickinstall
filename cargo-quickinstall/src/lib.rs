@@ -244,13 +244,13 @@ pub fn report_stats_in_background(
     details: &CrateDetails,
     result: &Result<InstallSuccess, InstallError>,
 ) {
-    let status = install_result_to_status_str(result);
     let stats_url = format!(
-        "https://cargo-quickinstall-stats-server.fly.dev/record-install?crate={}&version={}&target={}&status={}",
-        url_encode(&details.crate_name),
-        url_encode(&details.version),
-        url_encode(&details.target),
-        status,
+        "https://cargo-quickinstall-stats-server.fly.dev/record-install?crate={crate}&version={version}&target={target}&agent={agent}&status={status}",
+        crate = url_encode(&details.crate_name),
+        version = url_encode(&details.version),
+        target = url_encode(&details.target),
+        agent = url_encode(concat!("cargo-quickinstall/", env!("CARGO_PKG_VERSION"))),
+        status = install_result_to_status_str(result),
     );
 
     // Simply spawn the curl command to report stat.
