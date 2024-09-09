@@ -112,7 +112,10 @@ pub fn get_cargo_binstall_version() -> Option<String> {
     String::from_utf8(output.stdout).ok()
 }
 
-pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), InstallError> {
+pub fn install_crate_curl(
+    details: &CrateDetails,
+    fallback: bool,
+) -> Result<InstallSuccess, InstallError> {
     let urls = get_quickinstall_download_urls(details);
 
     let res = match curl_and_untar(&urls[0]) {
@@ -135,7 +138,7 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
                 version = details.version,
                 bin_dir = bin_dir.display(),
             );
-            Ok(())
+            Ok(InstallSuccess::InstalledFromTarball)
         }
         Err(err) if err.is_curl_404() => {
             if !fallback {
@@ -153,7 +156,7 @@ pub fn install_crate_curl(details: &CrateDetails, fallback: bool) -> Result<(), 
             let status = prepare_cargo_install_cmd(details).status()?;
 
             if status.success() {
-                Ok(())
+                Ok(InstallSuccess::BuiltFromSource)
             } else {
                 Err(InstallError::CargoInstallFailed)
             }
@@ -237,22 +240,42 @@ fn get_target_triple_from_rustc() -> Result<String, InstallError> {
     Ok(parts.join("-"))
 }
 
-pub fn report_stats_in_background(details: &CrateDetails) {
+pub fn report_stats_in_background(
+    details: &CrateDetails,
+    result: &Result<InstallSuccess, InstallError>,
+) {
     let stats_url = format!(
-        "https://warehouse-clerk-tmp.vercel.app/api/crate/{}-{}-{}.tar.gz",
-        details.crate_name, details.version, details.target
+        "https://cargo-quickinstall-stats-server.fly.dev/record-install?crate={crate}&version={version}&target={target}&agent={agent}&status={status}",
+        crate = url_encode(&details.crate_name),
+        version = url_encode(&details.version),
+        target = url_encode(&details.target),
+        agent = url_encode(concat!("cargo-quickinstall/", env!("CARGO_PKG_VERSION"))),
+        status = install_result_to_status_str(result),
     );
 
     // Simply spawn the curl command to report stat.
     //
     // It's ok for it to fail and we would let the init process reap
     // the `curl` process.
-    prepare_curl_head_cmd(&stats_url)
+    prepare_curl_post_cmd(&stats_url)
         .stdin(process::Stdio::null())
         .stdout(process::Stdio::null())
         .stderr(process::Stdio::null())
         .spawn()
         .ok();
+}
+
+fn url_encode(input: &str) -> String {
+    let mut encoded = String::with_capacity(input.len());
+
+    for c in input.chars() {
+        match c {
+            'A'..='Z' | 'a'..='z' | '0'..='9' | '-' | '_' | '.' | '~' => encoded.push(c),
+            _ => encoded.push_str(&format!("%{:02X}", c as u8)),
+        }
+    }
+
+    encoded
 }
 
 fn format_curl_and_untar_cmd(url: &str, bin_dir: &Path) -> String {
@@ -316,6 +339,12 @@ fn untar(mut curl: ChildWithCommand) -> Result<String, InstallError> {
 fn prepare_curl_head_cmd(url: &str) -> std::process::Command {
     let mut cmd = prepare_curl_cmd();
     cmd.arg("--head").arg(url);
+    cmd
+}
+
+fn prepare_curl_post_cmd(url: &str) -> std::process::Command {
+    let mut cmd = prepare_curl_cmd();
+    cmd.args(["-X", "POST"]).arg(url);
     cmd
 }
 
