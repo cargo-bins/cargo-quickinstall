@@ -107,3 +107,37 @@ impl From<JsonExtError> for InstallError {
         InstallError::JsonErr(err)
     }
 }
+
+#[derive(Debug)]
+pub enum InstallSuccess {
+    InstalledFromTarball,
+    BuiltFromSource,
+}
+
+/**
+ * Returns a status string for reporting to our stats server.
+ *
+ * The return type is a static string to encourage us to keep the cardinality vaguely small-ish,
+ * and avoid us accidentally dumping personally identifiable information into influxdb.
+ *
+ * If we find ourselves getting a lot of a particular genre of error, we can always make a new
+ * release to split things out a bit more.
+ *
+ * There is no requirement for cargo-quickinstall and cargo-binstall to agree on the status strings,
+ * but it is probably a good idea to keep at least the first two in sync.
+ */
+pub fn install_result_to_status_str(result: &Result<InstallSuccess, InstallError>) -> &'static str {
+    match result {
+        Ok(InstallSuccess::InstalledFromTarball) => "installed-from-tarball",
+        Ok(InstallSuccess::BuiltFromSource) => "built-from-source",
+        Err(InstallError::MissingCrateNameArgument(_)) => "missing-crate-name-argument",
+        Err(InstallError::CommandFailed(_)) => "command-failed",
+        Err(InstallError::IoError(_)) => "io-error",
+        Err(InstallError::CargoInstallFailed) => "cargo-install-failed",
+        Err(InstallError::CrateDoesNotExist { .. }) => "crate-does-not-exist",
+        Err(InstallError::NoFallback(_)) => "no-fallback",
+        Err(InstallError::InvalidJson { .. }) => "invalid-json",
+        Err(InstallError::JsonErr(_)) => "json-err",
+        Err(InstallError::FailToParseRustcOutput { .. }) => "fail-to-parse-rustc-output",
+    }
+}

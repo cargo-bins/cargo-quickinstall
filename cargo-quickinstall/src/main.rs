@@ -91,8 +91,9 @@ fn do_main_curl(
             let shell_cmd = do_dry_run_curl(&crate_details, args.fallback)?;
             println!("{}", shell_cmd);
         } else {
-            report_stats_in_background(&crate_details);
-            install_crate_curl(&crate_details, args.fallback)?;
+            let result = install_crate_curl(&crate_details, args.fallback);
+            report_stats_in_background(&crate_details, &result);
+            result?;
         }
     }
 
