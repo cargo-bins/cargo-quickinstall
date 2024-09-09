@@ -130,14 +130,14 @@ pub fn install_result_to_status_str(result: &Result<InstallSuccess, InstallError
     match result {
         Ok(InstallSuccess::InstalledFromTarball) => "installed-from-tarball",
         Ok(InstallSuccess::BuiltFromSource) => "built-from-source",
-        Err(InstallError::MissingCrateNameArgument(_)) => "missing-crate-name-argument",
-        Err(InstallError::CommandFailed(_)) => "command-failed",
-        Err(InstallError::IoError(_)) => "io-error",
         Err(InstallError::CargoInstallFailed) => "cargo-install-failed",
-        Err(InstallError::CrateDoesNotExist { .. }) => "crate-does-not-exist",
         Err(InstallError::NoFallback(_)) => "no-fallback",
-        Err(InstallError::InvalidJson { .. }) => "invalid-json",
-        Err(InstallError::JsonErr(_)) => "json-err",
-        Err(InstallError::FailToParseRustcOutput { .. }) => "fail-to-parse-rustc-output",
+        Err(InstallError::MissingCrateNameArgument(_))
+        | Err(InstallError::CommandFailed(_))
+        | Err(InstallError::IoError(_))
+        | Err(InstallError::CrateDoesNotExist { .. })
+        | Err(InstallError::InvalidJson { .. })
+        | Err(InstallError::JsonErr(_))
+        | Err(InstallError::FailToParseRustcOutput { .. }) => "other-error",
     }
 }
