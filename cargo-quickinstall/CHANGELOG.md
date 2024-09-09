@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.2.12...v0.3.0) - 2024-09-09
+
+### Other
+
+- report stats to new server, with status ([#281](https://github.com/cargo-bins/cargo-quickinstall/pull/281))
+- rewrite Cronjob build triggering logic in python; read from influxdb ([#275](https://github.com/cargo-bins/cargo-quickinstall/pull/275))
+- Fix test_get_latest_version ([#272](https://github.com/cargo-bins/cargo-quickinstall/pull/272))
+
 ## [0.2.12](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.2.11...v0.2.12) - 2024-08-26
 
 ### Other
