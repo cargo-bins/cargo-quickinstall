@@ -10,3 +10,4 @@ project_init
 tauri-bundler
 cargo-ebuild
 rerast
+ouch
