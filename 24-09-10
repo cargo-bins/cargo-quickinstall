@@ -51,3 +51,4 @@ rexcli
 ffsend
 tauri-bundler
 webdriver-install
+cargo-clone-crate
