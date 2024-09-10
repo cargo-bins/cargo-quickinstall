@@ -48,3 +48,4 @@ cargo-show
 cargo-profiler
 cargo-vendor
 regress
+cargo-equip
