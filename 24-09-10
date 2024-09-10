@@ -53,3 +53,4 @@ tauri-bundler
 webdriver-install
 cargo-clone-crate
 cargo-equip
+cargo-ebuild
