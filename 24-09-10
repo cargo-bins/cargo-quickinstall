@@ -7,3 +7,4 @@ intel-mkl-tool
 cargo-raze
 skim
 rmesg
+kmon
