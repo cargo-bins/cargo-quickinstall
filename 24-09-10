@@ -2,3 +2,4 @@ intel-mkl-tool
 cargo-vendor
 watchexec
 intel-mkl-tool
+cargo-profiler
