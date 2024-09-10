@@ -19,3 +19,4 @@ cargo-ebuild
 rust-latest
 my-iot
 rsgen-avro
+spotify-tui
