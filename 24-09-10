@@ -27,3 +27,4 @@ cargo-show
 cargo-equip
 git_lab_cli
 cargo-profiler
+cargo-about
