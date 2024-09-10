@@ -55,3 +55,4 @@ webdriver-install
 fw
 regress
 cargo-script
+odbcsv
