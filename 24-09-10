@@ -22,3 +22,4 @@ regress
 cargo-equip
 tauri-bundler
 fw
+cargo-outdated
