@@ -13,3 +13,4 @@ cargo-count
 cargo-bpf
 project_init
 ytop
+sgxs-tools
