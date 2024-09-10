@@ -54,3 +54,4 @@ rust-latest
 webdriver-install
 fw
 regress
+cargo-script
