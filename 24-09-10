@@ -9,3 +9,4 @@ skim
 rmesg
 kmon
 spl-token-cli
+tauri-bundler
