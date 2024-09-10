@@ -8,3 +8,4 @@ cargo-local-registry
 tauri-bundler
 cargo-criterion
 webdriver-install
+cargo-whatfeatures
