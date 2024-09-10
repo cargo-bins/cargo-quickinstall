@@ -55,3 +55,4 @@ cargo-clone-crate
 cargo-equip
 cargo-ebuild
 tp-note
+cargo-travis
