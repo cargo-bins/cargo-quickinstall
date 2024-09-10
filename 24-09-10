@@ -22,3 +22,4 @@ cargo-local-registry
 kubie
 sqlx-cli
 leetcode-cli
+diesel_cli
