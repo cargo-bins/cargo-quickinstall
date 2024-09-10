@@ -8,3 +8,4 @@ regress
 chain-spec-builder
 semverver
 cargo-raze
+git-disjoint
