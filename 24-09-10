@@ -54,3 +54,4 @@ investments
 cargo-travis
 cargo-web
 semverver
+cargo-profiler
