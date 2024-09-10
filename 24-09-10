@@ -20,3 +20,4 @@ fw
 wasm-bindgen-cli
 regress
 cargo-equip
+tauri-bundler
