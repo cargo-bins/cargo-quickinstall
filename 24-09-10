@@ -11,3 +11,4 @@ gptman
 project_init
 mdcat
 cargo-whatfeatures
+tauri-bundler
