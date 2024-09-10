@@ -31,3 +31,4 @@ rust-latest
 rsgen-avro
 macchina
 sgxs-tools
+spl-token-cli
