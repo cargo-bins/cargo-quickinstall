@@ -14,3 +14,4 @@ cargo-geiger
 svlint
 mise
 scryer-prolog
+sane-fmt
