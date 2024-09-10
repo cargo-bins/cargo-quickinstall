@@ -35,3 +35,4 @@ cargo-outdated
 cargo-vendor
 cargo-geiger
 mdcat
+rexcli
