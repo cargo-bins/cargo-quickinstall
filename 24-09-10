@@ -34,3 +34,4 @@ cargo-outdated
 cicada
 cargo-pgx
 cargo-travis
+cargo-whatfeatures
