@@ -50,3 +50,4 @@ eidolon
 typst-cli
 cargo-local-registry
 komac
+cargo-raze
