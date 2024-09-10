@@ -37,3 +37,4 @@ cargo-ebuild
 watchexec
 semverver
 bindgen-cli
+spotify-tui
