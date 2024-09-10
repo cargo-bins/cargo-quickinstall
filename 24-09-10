@@ -2,3 +2,4 @@ cargo-ebuild
 turbocommit
 rsgen-avro
 project_init
+gnostr-bins
