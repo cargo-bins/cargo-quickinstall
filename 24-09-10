@@ -12,3 +12,4 @@ project_init
 mdcat
 cargo-whatfeatures
 tauri-bundler
+spl-token-cli
