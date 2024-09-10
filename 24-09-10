@@ -28,3 +28,4 @@ pyoxidizer
 feroxbuster
 watchexec
 sgxs-tools
+cargo-script
