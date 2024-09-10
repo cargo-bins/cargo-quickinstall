@@ -20,3 +20,4 @@ rioterm
 maturin
 yofi
 asm-lsp
+cargo-espflash
