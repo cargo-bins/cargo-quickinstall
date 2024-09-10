@@ -27,3 +27,4 @@ rsgen-avro
 mise
 kickstart
 jql
+cargo-criterion
