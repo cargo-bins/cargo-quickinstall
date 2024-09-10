@@ -7,3 +7,4 @@ rsgen-avro
 spl-token-cli
 cargo-crev
 project_init
+tauri-bundler
