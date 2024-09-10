@@ -35,3 +35,4 @@ spl-token-cli
 leetcode-cli
 rerast
 cargo-clone-crate
+cargo-whatfeatures
