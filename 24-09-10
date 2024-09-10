@@ -49,3 +49,4 @@ cargo-ebuild
 jql
 rexcli
 ffsend
+tauri-bundler
