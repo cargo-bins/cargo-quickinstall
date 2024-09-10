@@ -63,3 +63,4 @@ tp-note
 cargo-travis
 mdcat
 cargo-profiler
+intel-mkl-tool
