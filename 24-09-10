@@ -18,3 +18,4 @@ sane-fmt
 mdcat
 fw
 wasm-bindgen-cli
+regress
