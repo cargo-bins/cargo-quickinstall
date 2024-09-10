@@ -6,3 +6,4 @@ cargo-pgx
 kubie
 cargo-bpf
 tin-summer
+cargo-local-registry
