@@ -25,3 +25,4 @@ cargo-profiler
 watchexec
 cargo-show
 cargo-equip
+git_lab_cli
