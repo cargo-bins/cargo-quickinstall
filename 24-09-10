@@ -36,3 +36,4 @@ cargo-raze
 fw
 atuin
 cargo-script
+rsgen-avro
