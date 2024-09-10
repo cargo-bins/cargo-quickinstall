@@ -21,3 +21,4 @@ flowistry_ide
 git-disjoint
 tauri-bundler
 odbcsv
+chain-spec-builder
