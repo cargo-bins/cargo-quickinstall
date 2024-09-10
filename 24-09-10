@@ -34,3 +34,4 @@ svlint
 cargo-c
 kmon
 cargo-ebuild
+watchexec
