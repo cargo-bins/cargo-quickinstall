@@ -3,3 +3,4 @@ sgxs-tools
 watchexec
 cargo-compete
 cargo-clone-crate
+rsgen-avro
