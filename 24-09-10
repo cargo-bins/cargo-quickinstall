@@ -4,3 +4,4 @@ watchexec
 intel-mkl-tool
 cargo-profiler
 dtn7
+cargo-local-registry
