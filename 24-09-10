@@ -28,3 +28,4 @@ sonic-server
 sea-orm-cli
 porsmo
 hurlfmt
+cargo-pgx
