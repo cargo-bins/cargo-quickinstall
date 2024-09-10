@@ -41,3 +41,4 @@ bugstalker
 cargo-instruments
 cargo-unused-features
 cargo-public-api
+nextsv
