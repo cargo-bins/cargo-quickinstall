@@ -10,3 +10,4 @@ cargo-criterion
 webdriver-install
 cargo-whatfeatures
 mdcat
+cargo-travis
