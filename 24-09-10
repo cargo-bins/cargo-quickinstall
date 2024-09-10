@@ -26,3 +26,4 @@ cargo-flash
 spl-token-cli
 radio-sx128x
 cloak
+cargo-flash
