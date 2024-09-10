@@ -39,3 +39,4 @@ cargo-travis
 nitrocli
 gptman
 patch-crate
+qsv
