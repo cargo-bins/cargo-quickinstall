@@ -6,3 +6,4 @@ gnostr-bins
 pnafs
 cargo-lock
 rsgen-avro
+cargo-compete
