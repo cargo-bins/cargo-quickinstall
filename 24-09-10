@@ -8,3 +8,4 @@ cargo-raze
 skim
 rmesg
 kmon
+spl-token-cli
