@@ -24,3 +24,4 @@ tauri-bundler
 fw
 cargo-outdated
 rsgen-avro
+mise
