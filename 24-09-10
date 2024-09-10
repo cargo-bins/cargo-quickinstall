@@ -20,3 +20,4 @@ atuin
 gptman
 watchexec
 cargo-flash
+cargo-bpf
