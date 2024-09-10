@@ -60,3 +60,4 @@ cargo-raze
 cargo-geiger
 cargo-vendor
 tp-note
+cargo-travis
