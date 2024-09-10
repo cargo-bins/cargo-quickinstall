@@ -21,3 +21,4 @@ cargo-whatfeatures
 nitrocli
 intel-mkl-tool
 rsgen-avro
+hurl
