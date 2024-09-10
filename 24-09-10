@@ -24,3 +24,4 @@ cargo-bpf
 cargo-compete
 rsgen-avro
 turbocommit
+nitrocli
