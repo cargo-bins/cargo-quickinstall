@@ -48,3 +48,4 @@ turbocommit
 nitrocli
 cargo-crev
 tauri-bundler
+cargo-clone-crate
