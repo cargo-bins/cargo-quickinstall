@@ -32,3 +32,4 @@ rerast
 jql
 cargo-about
 cargo-outdated
+cargo-vendor
