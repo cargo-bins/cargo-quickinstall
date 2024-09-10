@@ -33,3 +33,4 @@ jql
 cargo-about
 cargo-outdated
 cargo-vendor
+cargo-geiger
