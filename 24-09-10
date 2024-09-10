@@ -4,3 +4,4 @@ blissify
 rsgen-avro
 hex-patch
 watchexec
+cargo-travis
