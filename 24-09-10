@@ -12,3 +12,4 @@ cargo-whatfeatures
 mdcat
 cargo-travis
 cargo-profiler
+cargo-equip
