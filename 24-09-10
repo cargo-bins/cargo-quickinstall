@@ -33,3 +33,4 @@ wasm-bindgen-cli
 cargo-outdated
 cicada
 cargo-pgx
+cargo-travis
