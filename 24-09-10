@@ -31,3 +31,4 @@ hurlfmt
 cargo-pgx
 cargo-msrv
 sonic-server
+cargo-list
