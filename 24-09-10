@@ -27,3 +27,4 @@ bindgen-cli
 sonic-server
 sea-orm-cli
 porsmo
+hurlfmt
