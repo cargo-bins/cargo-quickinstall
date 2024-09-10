@@ -37,3 +37,4 @@ fw
 atuin
 cargo-script
 rsgen-avro
+cargo-kcov
