@@ -50,3 +50,4 @@ cargo-vendor
 regress
 cargo-equip
 scryer-prolog
+rust-latest
