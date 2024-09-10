@@ -5,3 +5,4 @@ rsgen-avro
 hex-patch
 watchexec
 cargo-travis
+regress
