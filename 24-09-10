@@ -33,3 +33,4 @@ diesel_cli
 svlint
 cargo-c
 kmon
+cargo-ebuild
