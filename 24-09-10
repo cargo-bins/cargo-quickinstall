@@ -4,3 +4,4 @@ rsgen-avro
 project_init
 gnostr-bins
 pnafs
+cargo-lock
