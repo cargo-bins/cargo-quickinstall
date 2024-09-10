@@ -6,3 +6,4 @@ hex-patch
 watchexec
 cargo-travis
 regress
+cargo-show
