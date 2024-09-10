@@ -21,3 +21,4 @@ cargo-equip
 kickstart
 cargo-criterion
 jql
+cargo-profiler
