@@ -9,3 +9,4 @@ tauri-bundler
 cargo-criterion
 webdriver-install
 cargo-whatfeatures
+mdcat
