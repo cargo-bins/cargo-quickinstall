@@ -11,3 +11,4 @@ webdriver-install
 cargo-whatfeatures
 mdcat
 cargo-travis
+cargo-profiler
