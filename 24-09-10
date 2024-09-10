@@ -8,3 +8,4 @@ spl-token-cli
 cargo-crev
 project_init
 tauri-bundler
+cargo-ebuild
