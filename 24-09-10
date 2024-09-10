@@ -40,3 +40,4 @@ rsgen-avro
 cargo-kcov
 cargo-show
 cargo-crev
+dutree
