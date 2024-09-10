@@ -13,3 +13,4 @@ mdcat
 cargo-whatfeatures
 tauri-bundler
 spl-token-cli
+watchexec
