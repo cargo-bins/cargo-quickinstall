@@ -16,3 +16,4 @@ spl-token-cli
 watchexec
 ffsend
 cargo-ebuild
+rust-latest
