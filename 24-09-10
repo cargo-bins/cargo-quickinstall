@@ -31,3 +31,4 @@ project_init
 ouch
 diesel_cli
 svlint
+cargo-c
