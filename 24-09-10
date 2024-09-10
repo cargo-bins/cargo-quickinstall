@@ -25,3 +25,4 @@ cargo-compete
 rsgen-avro
 turbocommit
 nitrocli
+clippy
