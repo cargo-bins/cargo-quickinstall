@@ -38,3 +38,4 @@ sea-orm-cli
 duma
 sonic-server
 ffs
+watchexec
