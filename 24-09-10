@@ -9,3 +9,4 @@ regress
 cargo-show
 binstall
 xbuild
+rencfs
