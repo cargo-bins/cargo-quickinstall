@@ -29,3 +29,4 @@ clippy
 cargo-lock
 git_lab_cli
 rsgen-avro
+cargo-index
