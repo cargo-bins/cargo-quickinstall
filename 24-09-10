@@ -49,3 +49,4 @@ nitrocli
 cargo-crev
 tauri-bundler
 cargo-clone-crate
+leetcode-cli
