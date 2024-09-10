@@ -3,6 +3,7 @@ use std::{collections::BTreeMap, sync::LazyLock};
 
 use axum::{
     extract::Query,
+    response::Redirect,
     routing::{get, post},
     Router,
 };
@@ -23,6 +24,7 @@ fn main() {
     let task = rt.spawn(async move {
         let app = Router::new()
             .route("/", get(root))
+            .route("/record-install", get(redirect_to_root))
             .route("/record-install", post(record_install));
 
         // ipv6 + ipv6 any addr
@@ -40,6 +42,10 @@ async fn root() -> &'static str {
 
 fn get_env(key: &str) -> String {
     std::env::var(key).expect(&format!("{key} must be set"))
+}
+
+async fn redirect_to_root() -> Redirect {
+    Redirect::to("/")
 }
 
 async fn record_install(Query(params): Query<BTreeMap<String, String>>) -> String {
