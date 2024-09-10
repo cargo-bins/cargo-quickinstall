@@ -57,3 +57,4 @@ cargo-ebuild
 tp-note
 cargo-travis
 sgxs-tools
+cargo-dephell
