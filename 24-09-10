@@ -22,3 +22,4 @@ git-disjoint
 tauri-bundler
 odbcsv
 chain-spec-builder
+cargo-flash
