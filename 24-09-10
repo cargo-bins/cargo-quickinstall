@@ -39,3 +39,4 @@ cargo-script
 rsgen-avro
 cargo-kcov
 cargo-show
+cargo-crev
