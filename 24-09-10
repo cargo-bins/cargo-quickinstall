@@ -55,3 +55,4 @@ odbcsv
 cargo-profiler
 gptman
 kmon
+cargo-travis
