@@ -25,3 +25,4 @@ chain-spec-builder
 cargo-flash
 spl-token-cli
 radio-sx128x
+cloak
