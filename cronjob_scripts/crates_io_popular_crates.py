@@ -46,6 +46,7 @@ def get_crates_io_popular_crates(minimum_downloads=4000):
                 if entry.name.endswith(f"data/{name}"):
                     entry.extract_to(f"{temp_dir}/{name}")
                     files_extracted += 1
+                    break
             if files_extracted == len(files_to_extract):
                 break
 
