@@ -24,3 +24,4 @@ sqlx-cli
 leetcode-cli
 diesel_cli
 wrangler
+spl-token-cli
