@@ -21,3 +21,4 @@ maturin
 yofi
 asm-lsp
 cargo-espflash
+spider_cli
