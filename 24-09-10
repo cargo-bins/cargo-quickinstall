@@ -36,3 +36,4 @@ kmon
 cargo-ebuild
 watchexec
 semverver
+bindgen-cli
