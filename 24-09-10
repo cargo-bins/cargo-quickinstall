@@ -19,3 +19,4 @@ rust-latest
 project_init
 cargo-whatfeatures
 nitrocli
+intel-mkl-tool
