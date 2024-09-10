@@ -39,3 +39,4 @@ tectonic
 mdbook-plantuml
 bugstalker
 cargo-instruments
+cargo-unused-features
