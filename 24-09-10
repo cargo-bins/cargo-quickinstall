@@ -21,3 +21,4 @@ pomodoro
 cargo-local-registry
 kubie
 sqlx-cli
+leetcode-cli
