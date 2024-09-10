@@ -25,6 +25,7 @@ from cronjob_scripts.architectures import get_build_os, get_target_architectures
 from cronjob_scripts.checkout_worktree import checkout_worktree_for_arch
 from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_version
 from cronjob_scripts.stats import get_requested_crates
+from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crates
 
 
 def main():
@@ -41,10 +42,10 @@ def trigger_for_arch(target_arch: str):
     tracking_worktree_path = checkout_worktree_for_arch(target_arch)
     excludes = get_excludes(tracking_worktree_path, days=7, max_failures=5)
 
-    popular_crates = get_popular_crates()
-    requested_crates = get_requested_crates(period="1 day", arch=target_arch)
+    possible_crates = set(get_crates_io_popular_crates())
+    possible_crates.update(get_requested_crates(period="1 day", arch=target_arch))
 
-    possible_crates = set(popular_crates + requested_crates) - set(excludes)
+    possible_crates = possible_crates - set(excludes)
 
     # check random crates up to a limit.
     check_limit = int(os.environ.get("CRATE_CHECK_LIMIT", 5))
@@ -102,24 +103,6 @@ def trigger_for_arch(target_arch: str):
             print("Scheduled enough builds, exiting")
             break
         time.sleep(30)
-
-
-def get_popular_crates():
-    """
-    List of crates that are popular and should be checked in addition to the requested crates.
-
-    In the future, this list might be generated from the crates.io db dump (see
-    https://github.com/cargo-bins/cargo-quickinstall/issues/268#issuecomment-2329308074),
-    but probably not every time we run this script. We will need to think about this.
-    """
-    with open(
-        Path(__file__).resolve().parent.parent.joinpath("popular-crates.txt"), "r"
-    ) as file:
-        return [
-            stripped
-            for line in file
-            if (stripped := line.strip()) and not stripped.startswith("#")
-        ]
 
 
 def get_excludes(tracking_worktree_path: str, days: int, max_failures: int):
