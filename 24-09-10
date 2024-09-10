@@ -8,3 +8,4 @@ cargo-bpf
 tin-summer
 cargo-local-registry
 fleet-rs
+sgxs-tools
