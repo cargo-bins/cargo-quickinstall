@@ -31,3 +31,4 @@ cargo-criterion
 procs
 wasm-bindgen-cli
 cargo-outdated
+cicada
