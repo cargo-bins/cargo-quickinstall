@@ -29,3 +29,4 @@ kickstart
 jql
 cargo-criterion
 procs
+wasm-bindgen-cli
