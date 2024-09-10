@@ -49,6 +49,7 @@ trigger-all: cronjob_scripts/.python-deps-updated.timestamp ## build some random
 .PHONY: test-cronjob-scripts
 test-cronjob-scripts: cronjob_scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob_scripts
 	python -m unittest discover -s cronjob_scripts
+	python cronjob_scripts/trigger-package-build.py --help
 
 .PHONY: help
 help: ## Display this help screen
