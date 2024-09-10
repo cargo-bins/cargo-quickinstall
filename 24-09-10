@@ -64,3 +64,4 @@ cargo-travis
 mdcat
 cargo-profiler
 intel-mkl-tool
+tauri-bundler
