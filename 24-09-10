@@ -54,3 +54,4 @@ spl-token-cli
 cargo-equip
 git_lab_cli
 watchexec
+bindgen-cli
