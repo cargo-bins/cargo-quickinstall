@@ -47,3 +47,4 @@ dtn7
 cargo-show
 cargo-profiler
 cargo-vendor
+regress
