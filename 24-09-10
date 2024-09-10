@@ -51,3 +51,4 @@ tauri-bundler
 cargo-clone-crate
 leetcode-cli
 spl-token-cli
+cargo-equip
