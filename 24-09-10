@@ -24,3 +24,4 @@ inlyne
 sgxs-tools
 rust-latest
 bindgen-cli
+sonic-server
