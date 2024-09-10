@@ -56,3 +56,4 @@ cargo-profiler
 gptman
 kmon
 cargo-travis
+cargo-raze
