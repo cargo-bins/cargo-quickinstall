@@ -30,3 +30,4 @@ watchexec
 sgxs-tools
 cargo-script
 natls
+kmon
