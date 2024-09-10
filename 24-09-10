@@ -37,3 +37,4 @@ cargo-geiger
 mdcat
 rexcli
 dotter
+cargo-travis
