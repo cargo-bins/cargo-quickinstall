@@ -30,3 +30,4 @@ investments
 cargo-local-registry
 atuin
 fleet-rs
+sgxs-tools
