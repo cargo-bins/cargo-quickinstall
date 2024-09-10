@@ -30,3 +30,4 @@ cargo-flash
 rerast
 cargo-raze
 odbcsv
+chain-spec-builder
