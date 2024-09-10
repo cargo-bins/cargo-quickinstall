@@ -10,3 +10,4 @@ cargo-local-registry
 fleet-rs
 sgxs-tools
 cargo-count
+cargo-bpf
