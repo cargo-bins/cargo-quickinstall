@@ -58,3 +58,4 @@ tp-note
 cargo-travis
 sgxs-tools
 cargo-dephell
+cargo-clone-crate
