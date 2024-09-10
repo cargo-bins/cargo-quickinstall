@@ -5,3 +5,4 @@ cargo-compete
 cargo-clone-crate
 rsgen-avro
 spl-token-cli
+cargo-crev
