@@ -25,3 +25,4 @@ sgxs-tools
 rust-latest
 bindgen-cli
 sonic-server
+sea-orm-cli
