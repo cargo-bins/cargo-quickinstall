@@ -26,3 +26,4 @@ rsgen-avro
 turbocommit
 nitrocli
 clippy
+cargo-lock
