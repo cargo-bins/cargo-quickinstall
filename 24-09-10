@@ -11,3 +11,4 @@ fleet-rs
 sgxs-tools
 cargo-count
 cargo-bpf
+project_init
