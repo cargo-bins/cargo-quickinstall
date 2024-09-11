@@ -4,3 +4,4 @@ cargo-local-registry
 cargo-crev
 cargo-web
 rmesg
+tauri-bundler
