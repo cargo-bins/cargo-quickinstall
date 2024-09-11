@@ -77,3 +77,4 @@ cargo-bpf
 spotify-tui
 feroxbuster
 sgxs-tools
+cargo-script
