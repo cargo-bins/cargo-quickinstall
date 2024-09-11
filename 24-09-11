@@ -152,3 +152,4 @@ sane-fmt
 dotter
 cargo-modules
 cargo-instruments
+cargo-pgx
