@@ -16,3 +16,4 @@ investments
 cargo-pgx
 project_init
 sgxs-tools
+cargo-script
