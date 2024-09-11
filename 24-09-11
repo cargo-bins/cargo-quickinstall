@@ -154,3 +154,4 @@ ffsend
 rsgen-avro
 fw
 cargo-outdated
+cargo-local-registry
