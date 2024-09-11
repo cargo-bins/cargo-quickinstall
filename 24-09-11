@@ -160,3 +160,4 @@ rsgen-avro
 cargo-profiler
 cargo-whatfeatures
 mise
+watchexec
