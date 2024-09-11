@@ -83,3 +83,4 @@ procs
 kickstart
 svlint
 cargo-vendor
+cargo-raze
