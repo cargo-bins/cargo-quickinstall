@@ -26,3 +26,4 @@ watchexec
 my-iot
 rsgen-avro
 semverver
+tauri-bundler
