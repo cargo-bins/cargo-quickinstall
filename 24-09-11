@@ -46,3 +46,4 @@ cargo-raze
 tauri-bundler
 regress
 watchexec
+nitrocli
