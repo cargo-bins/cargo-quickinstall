@@ -33,3 +33,4 @@ rmesg
 cargo-kcov
 cargo-raze
 cargo-script
+sgxs-tools
