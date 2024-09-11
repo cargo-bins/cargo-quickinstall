@@ -38,3 +38,4 @@ cargo-travis
 regress
 intel-mkl-tool
 cargo-pgx
+cargo-kcov
