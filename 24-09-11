@@ -44,3 +44,4 @@ rust-latest
 cargo-travis
 cargo-raze
 tauri-bundler
+regress
