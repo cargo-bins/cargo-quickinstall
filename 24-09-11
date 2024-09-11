@@ -61,3 +61,4 @@ regress
 gptman
 leetcode-cli
 spl-token-cli
+cargo-graph
