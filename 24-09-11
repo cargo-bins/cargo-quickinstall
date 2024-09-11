@@ -139,3 +139,4 @@ rmesg
 git_lab_cli
 cargo-lock
 rsgen-avro
+nitrocli
