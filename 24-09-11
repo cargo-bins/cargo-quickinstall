@@ -129,3 +129,4 @@ cargo-crev
 starship
 intel-mkl-tool
 leetcode-cli
+cargo-index
