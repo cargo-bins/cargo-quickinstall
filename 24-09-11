@@ -2,3 +2,4 @@ rerun-cli
 tauri-bundler
 xcp
 nextsv
+svlint
