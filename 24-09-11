@@ -10,3 +10,4 @@ cargo-spellcheck
 cargo-compete
 atuin
 cargo-lock
+cargo-public-api
