@@ -112,3 +112,4 @@ cargo-show
 tp-note
 cargo-index
 cargo-risczero
+sane-fmt
