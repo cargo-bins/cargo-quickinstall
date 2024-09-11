@@ -143,3 +143,4 @@ sgxs-tools
 cargo-script
 kickstart
 leetcode-cli
+rust-latest
