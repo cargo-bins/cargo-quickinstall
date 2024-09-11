@@ -17,3 +17,4 @@ pfetch
 kmon
 evcxr_repl
 cargo-geiger
+wasm-opt
