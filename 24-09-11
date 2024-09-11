@@ -31,3 +31,4 @@ gptman
 feroxbuster
 fw
 cargo-local-registry
+rsgen-avro
