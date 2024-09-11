@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import subprocess
 import tarfile
 from tempfile import TemporaryDirectory
@@ -11,12 +13,13 @@ class TarEntry:
         self.tarball = tarball
         self.member = member
 
-    def is_file(self):
-        return self.member.isfile()
-
-    @property
-    def name(self):
-        return self.member.name
+    def is_one_of_csvs_interested(self, csvs_to_extract: tuple[str, ...]) -> str | None:
+        if not self.member.isfile():
+            return None
+        for name in csvs_to_extract:
+            if self.member.name.endswith(f"data/{name}"):
+                return name
+        return None
 
     def extract_to(self, path: str):
         with open(path, mode="xb") as f:
@@ -40,15 +43,12 @@ def get_crates_io_popular_crates(minimum_downloads=4000):
         files_to_extract = ("crate_downloads.csv", "crates.csv", "default_versions.csv", "versions.csv")
         files_extracted = 0
         for entry in download_tar_gz('https://static.crates.io/db-dump.tar.gz'):
-            if not entry.is_file():
-                continue
-            for name in files_to_extract:
-                if entry.name.endswith(f"data/{name}"):
-                    entry.extract_to(f"{temp_dir}/{name}")
-                    files_extracted += 1
+            name = entry.is_one_of_csvs_interested(files_to_extract)
+            if name:
+                entry.extract_to(f"{temp_dir}/{name}")
+                files_extracted += 1
+                if files_extracted == len(files_to_extract):
                     break
-            if files_extracted == len(files_to_extract):
-                break
 
         return (
             row[0]
