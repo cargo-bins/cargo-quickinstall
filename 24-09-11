@@ -81,3 +81,4 @@ diesel_cli
 watchexec
 cargo-raze
 rmesg
+project_init
