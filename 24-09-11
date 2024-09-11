@@ -156,3 +156,4 @@ cargo-pgx
 rsgen-avro
 project_init
 sgxs-tools
+webdriver-install
