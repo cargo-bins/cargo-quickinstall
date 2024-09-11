@@ -11,3 +11,4 @@ cargo-info
 cargo-lock
 rust-latest
 cargo-compete
+cargo-clone
