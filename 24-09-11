@@ -30,3 +30,4 @@ nitrocli
 chain-spec-builder
 sequoia-sq
 cargo-ebuild
+cargo-embed
