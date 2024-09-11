@@ -138,3 +138,4 @@ diesel_cli
 cargo-spellcheck
 atuin
 cargo-instruments
+cargo-local-registry
