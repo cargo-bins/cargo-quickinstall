@@ -85,3 +85,4 @@ leetcode-cli
 cargo-whatfeatures
 cargo-download
 cargo-info
+intel-mkl-tool
