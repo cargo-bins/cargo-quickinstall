@@ -111,3 +111,4 @@ cicada
 leetcode-cli
 scryer-prolog
 cargo-modules
+cargo-local-registry
