@@ -147,3 +147,4 @@ rust-latest
 cargo-instruments
 cargo-geiger
 cargo-pgx
+watchexec
