@@ -102,3 +102,4 @@ cargo-vendor
 feroxbuster
 cargo-pgx
 rexcli
+cargo-info
