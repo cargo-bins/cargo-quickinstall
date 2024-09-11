@@ -26,3 +26,4 @@ cargo-local-registry
 tauri-bundler
 rsgen-avro
 cargo-profiler
+dutree
