@@ -53,3 +53,4 @@ semverver
 cargo-crev
 rerast
 watchexec
+cargo-kcov
