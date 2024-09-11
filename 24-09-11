@@ -104,3 +104,4 @@ turbocommit
 cargo-ebuild
 svlint
 cargo-c
+cargo-lock
