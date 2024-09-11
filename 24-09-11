@@ -90,3 +90,4 @@ rsgen-avro
 rust-latest
 cargo-criterion
 odbcsv
+watchexec
