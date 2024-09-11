@@ -41,3 +41,4 @@ project_init
 parquet
 chain-spec-builder
 spl-token-cli
+qsv
