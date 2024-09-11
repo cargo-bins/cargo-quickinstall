@@ -88,3 +88,4 @@ cargo-compete
 nu
 rust-latest
 prqlc
+llvm-cov-pretty
