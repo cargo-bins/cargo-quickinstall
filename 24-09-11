@@ -134,3 +134,4 @@ rexcli
 cargo-info
 regress
 odbcsv
+diesel_cli
