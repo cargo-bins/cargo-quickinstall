@@ -181,3 +181,4 @@ cargo-modules
 cargo-outdated
 webdriver-install
 watchexec
+cargo-script
