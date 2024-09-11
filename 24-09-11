@@ -106,3 +106,4 @@ svlint
 cargo-c
 cargo-lock
 turbocommit
+cargo-info
