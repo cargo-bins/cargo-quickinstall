@@ -114,3 +114,4 @@ skim
 regress
 cargo-generate
 cargo-bpf
+spl-token-cli
