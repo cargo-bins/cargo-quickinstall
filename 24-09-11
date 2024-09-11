@@ -12,3 +12,4 @@ spl-token-cli
 nextsv
 silicon
 cargo-espflash
+cargo-instruments
