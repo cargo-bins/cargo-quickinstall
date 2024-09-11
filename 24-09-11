@@ -13,3 +13,4 @@ investments
 cargo-local-registry
 tauri-bundler
 cargo-whatfeatures
+cargo-show
