@@ -137,3 +137,4 @@ odbcsv
 diesel_cli
 cargo-spellcheck
 atuin
+cargo-instruments
