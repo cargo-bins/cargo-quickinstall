@@ -52,3 +52,4 @@ gpg-tui
 rsgen-avro
 eureka
 rust-latest
+cargo-smart-release
