@@ -92,3 +92,4 @@ kdash
 cargo-crev
 cargo-ebuild
 cargo-raze
+cargo-lock
