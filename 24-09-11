@@ -56,3 +56,4 @@ cargo-pgrx
 bindgen-cli
 project_init
 rbw
+difftastic
