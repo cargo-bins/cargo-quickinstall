@@ -157,3 +157,4 @@ cargo-outdated
 cargo-local-registry
 webdriver-install
 rsgen-avro
+cargo-profiler
