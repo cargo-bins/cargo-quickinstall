@@ -162,3 +162,4 @@ ffsend
 sgxs-tools
 cargo-bpf
 tin-summer
+cargo-vendor
