@@ -33,3 +33,4 @@ sgxs-tools
 cargo-graph
 ubi
 clippy
+git-disjoint
