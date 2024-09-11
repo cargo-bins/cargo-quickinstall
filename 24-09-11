@@ -77,3 +77,4 @@ cargo-tarpaulin
 cargo-local-registry
 tp-note
 nitrocli
+spotify-tui
