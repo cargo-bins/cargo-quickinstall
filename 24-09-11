@@ -118,3 +118,4 @@ spl-token-cli
 atuin
 sgxs-tools
 elf2tab
+intel-mkl-tool
