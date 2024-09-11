@@ -130,3 +130,4 @@ starship
 intel-mkl-tool
 leetcode-cli
 cargo-index
+cargo-download
