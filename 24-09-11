@@ -28,3 +28,4 @@ rsgen-avro
 cargo-profiler
 dutree
 gptman
+feroxbuster
