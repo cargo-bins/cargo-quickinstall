@@ -40,3 +40,4 @@ my-iot
 regress
 tauri-bundler
 cargo-travis
+radio-sx128x
