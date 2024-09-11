@@ -52,3 +52,4 @@ cargo-instruments
 semverver
 cargo-equip
 cargo-pgx
+cargo-clone-crate
