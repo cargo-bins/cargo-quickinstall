@@ -32,3 +32,4 @@ cargo-c
 cargo-clone-crate
 bottom
 leetcode-cli
+rsgen-avro
