@@ -67,3 +67,4 @@ cicada
 sgxs-tools
 cargo-travis
 cargo-instruments
+clippy
