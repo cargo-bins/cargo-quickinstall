@@ -112,3 +112,4 @@ elf2tab
 gptman
 skim
 regress
+cargo-generate
