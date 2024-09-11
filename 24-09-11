@@ -104,3 +104,4 @@ natls
 gitui
 cargo-crev
 watchexec
+cargo-embed
