@@ -20,3 +20,4 @@ cargo-geiger
 wasm-opt
 regress
 eidolon
+probe-rs-tools
