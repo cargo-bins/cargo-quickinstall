@@ -4,3 +4,4 @@ tauri-bundler
 cargo-spellcheck
 git_lab_cli
 wasm-opt
+cargo-clone
