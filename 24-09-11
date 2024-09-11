@@ -165,3 +165,4 @@ rust-latest
 cargo-criterion
 project_init
 cargo-pgx
+sane-fmt
