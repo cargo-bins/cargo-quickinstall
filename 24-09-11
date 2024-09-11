@@ -41,3 +41,4 @@ macchina
 wasm-bindgen-cli
 cargo-tarpaulin
 rust-latest
+cargo-travis
