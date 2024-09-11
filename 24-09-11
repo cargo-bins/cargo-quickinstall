@@ -108,3 +108,4 @@ cargo-lock
 turbocommit
 cargo-info
 scryer-prolog
+cargo-show
