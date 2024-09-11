@@ -151,3 +151,4 @@ watchexec
 sane-fmt
 dotter
 cargo-modules
+cargo-instruments
