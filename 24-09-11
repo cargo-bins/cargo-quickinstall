@@ -90,3 +90,4 @@ rust-latest
 prqlc
 llvm-cov-pretty
 spl-token-cli
+kanidm_tools
