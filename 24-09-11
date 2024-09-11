@@ -52,3 +52,4 @@ procs
 cargo-criterion
 ffsend
 spotify-tui
+spl-token-cli
