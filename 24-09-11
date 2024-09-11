@@ -17,3 +17,4 @@ git_lab_cli
 spl-token-cli
 cargo-crev
 cargo-raze
+tauri-bundler
