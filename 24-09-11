@@ -37,3 +37,4 @@ sgxs-tools
 cargo-travis
 regress
 intel-mkl-tool
+cargo-pgx
