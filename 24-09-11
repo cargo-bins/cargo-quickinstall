@@ -82,3 +82,4 @@ rsgen-avro
 cargo-instruments
 cargo-risczero
 leetcode-cli
+cargo-whatfeatures
