@@ -117,3 +117,4 @@ cargo-bpf
 spl-token-cli
 atuin
 sgxs-tools
+elf2tab
