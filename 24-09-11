@@ -22,3 +22,4 @@ cargo-vendor
 cargo-tarpaulin
 investments
 cargo-local-registry
+jql
