@@ -98,3 +98,4 @@ cargo-travis
 sgxs-tools
 hurl
 cargo-crev
+tauri-bundler
