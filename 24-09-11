@@ -160,3 +160,4 @@ skim
 cargo-bundle
 ffsend
 sgxs-tools
+cargo-bpf
