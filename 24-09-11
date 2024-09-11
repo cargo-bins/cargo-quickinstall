@@ -49,3 +49,4 @@ jql
 rerast
 cargo-about
 spl-token-cli
+cargo-modules
