@@ -33,3 +33,4 @@ fw
 cargo-local-registry
 rsgen-avro
 rmesg
+natls
