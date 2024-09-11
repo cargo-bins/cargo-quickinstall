@@ -111,3 +111,4 @@ diesel_cli
 cargo-show
 gitui
 semverver
+regress
