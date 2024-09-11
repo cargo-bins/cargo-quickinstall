@@ -39,3 +39,4 @@ cargo-travis
 turbocommit
 project_init
 parquet
+chain-spec-builder
