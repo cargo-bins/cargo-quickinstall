@@ -40,3 +40,4 @@ sgxs-tools
 cargo-travis
 regress
 my-iot
+git_lab_cli
