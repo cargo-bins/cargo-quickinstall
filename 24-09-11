@@ -76,3 +76,4 @@ cargo-graph
 cargo-flash
 sgxs-tools
 termusic
+spl-token-cli
