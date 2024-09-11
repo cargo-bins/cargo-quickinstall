@@ -13,3 +13,4 @@ cargo-outdated
 gitui
 cargo-vendor
 investments
+cargo-pgx
