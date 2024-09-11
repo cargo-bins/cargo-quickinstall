@@ -61,3 +61,4 @@ feroxbuster
 cargo-tarpaulin
 starship
 cargo-travis
+cargo-pgx
