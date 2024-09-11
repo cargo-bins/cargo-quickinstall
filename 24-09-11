@@ -144,3 +144,4 @@ cargo-local-registry
 leetcode-cli
 rexcli
 rerast
+tauri-bundler
