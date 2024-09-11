@@ -89,3 +89,4 @@ turbocommit
 cargo-spellcheck
 eureka
 tree-sitter-cli
+cargo-udeps
