@@ -19,3 +19,4 @@ sgxs-tools
 cargo-script
 sane-fmt
 cargo-vendor
+cargo-tarpaulin
