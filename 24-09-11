@@ -113,3 +113,4 @@ scryer-prolog
 cargo-modules
 cargo-local-registry
 cargo-whatfeatures
+spotify-tui
