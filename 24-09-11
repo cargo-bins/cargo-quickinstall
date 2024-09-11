@@ -58,3 +58,4 @@ project_init
 webdriver-install
 ouch
 nitrocli
+cargo-crev
