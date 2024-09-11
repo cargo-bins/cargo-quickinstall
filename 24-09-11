@@ -44,3 +44,4 @@ cargo-tarpaulin
 fw
 rsgen-avro
 sane-fmt
+git_lab_cli
