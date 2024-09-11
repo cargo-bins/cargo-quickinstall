@@ -63,3 +63,4 @@ project_init
 cargo-lock
 cargo-index
 cargo-whatfeatures
+cargo-compete
