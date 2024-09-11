@@ -107,3 +107,4 @@ regress
 mdcat
 cargo-index
 rust-latest
+starship
