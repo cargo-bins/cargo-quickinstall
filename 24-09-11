@@ -10,3 +10,4 @@ sgxs-tools
 cargo-info
 cargo-lock
 rust-latest
+cargo-compete
