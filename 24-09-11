@@ -95,3 +95,4 @@ rerast
 cargo-download
 webdriver-install
 rsgen-avro
+sane-fmt
