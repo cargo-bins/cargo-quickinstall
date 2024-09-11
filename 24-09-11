@@ -26,3 +26,4 @@ git_lab_cli
 cargo-whatfeatures
 kmon
 cargo-travis
+spotify-tui
