@@ -30,3 +30,4 @@ dutree
 spotify-tui
 cargo-bpf
 rmesg
+cargo-kcov
