@@ -19,3 +19,4 @@ cargo-instruments
 cargo-kcov
 rerast
 skim
+cargo-count
