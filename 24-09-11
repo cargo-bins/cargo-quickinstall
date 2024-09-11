@@ -27,3 +27,4 @@ cargo-local-registry
 spotify-tui
 gptman
 cargo-whatfeatures
+cargo-ebuild
