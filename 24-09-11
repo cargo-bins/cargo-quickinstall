@@ -143,3 +143,4 @@ intel-mkl-tool
 rexcli
 cargo-equip
 cargo-info
+sane-fmt
