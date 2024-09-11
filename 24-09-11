@@ -60,3 +60,4 @@ cargo-web
 dprint
 nitrocli
 skim
+cargo-vendor
