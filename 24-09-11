@@ -60,3 +60,4 @@ ouch
 nitrocli
 cargo-crev
 project_init
+cargo-lock
