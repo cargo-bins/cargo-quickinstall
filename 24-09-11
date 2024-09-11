@@ -103,3 +103,4 @@ sqlx-cli
 natls
 gitui
 cargo-crev
+watchexec
