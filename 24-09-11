@@ -58,3 +58,4 @@ intel-mkl-tool
 cargo-kcov
 rerast
 natls
+rerast
