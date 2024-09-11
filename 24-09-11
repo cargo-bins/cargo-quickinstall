@@ -56,3 +56,4 @@ spl-token-cli
 svlint
 cargo-geiger
 cargo-raze
+nitrocli
