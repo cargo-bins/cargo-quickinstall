@@ -23,3 +23,4 @@ dotter
 cargo-tarpaulin
 gptman
 git_lab_cli
+cargo-whatfeatures
