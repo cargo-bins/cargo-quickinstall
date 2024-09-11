@@ -86,3 +86,4 @@ regress
 rsgen-avro
 kmon
 turbocommit
+cargo-spellcheck
