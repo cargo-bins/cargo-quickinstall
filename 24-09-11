@@ -79,3 +79,4 @@ cargo-show
 pomodoro
 diesel_cli
 watchexec
+cargo-raze
