@@ -107,3 +107,4 @@ watchexec
 cargo-embed
 cargo-crev
 cargo-raze
+diesel_cli
