@@ -90,3 +90,4 @@ rerast
 cargo-travis
 kdash
 cargo-crev
+cargo-ebuild
