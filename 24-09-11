@@ -82,3 +82,4 @@ cicada
 procs
 kickstart
 svlint
+cargo-vendor
