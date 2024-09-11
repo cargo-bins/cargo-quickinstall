@@ -43,3 +43,4 @@ rmesg
 nitrocli
 cargo-count
 cargo-pgx
+rtx-cli
