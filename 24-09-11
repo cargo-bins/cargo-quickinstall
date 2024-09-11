@@ -65,3 +65,4 @@ fw
 cargo-profiler
 cicada
 sgxs-tools
+cargo-travis
