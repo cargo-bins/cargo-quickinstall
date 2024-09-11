@@ -52,3 +52,4 @@ semverver
 cargo-embed
 cargo-travis
 patch-crate
+intel-mkl-tool
