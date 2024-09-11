@@ -58,3 +58,4 @@ cargo-travis
 leetcode-cli
 cicada
 feroxbuster
+cargo-tarpaulin
