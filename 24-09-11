@@ -97,3 +97,4 @@ webdriver-install
 rsgen-avro
 sane-fmt
 rust-latest
+cargo-index
