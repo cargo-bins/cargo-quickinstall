@@ -142,3 +142,4 @@ cargo-local-registry
 sane-fmt
 cargo-info
 cargo-raze
+rerast
