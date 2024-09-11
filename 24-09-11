@@ -106,3 +106,4 @@ cargo-crev
 regress
 mdcat
 cargo-index
+rust-latest
