@@ -29,3 +29,4 @@ cargo-udeps
 ffsend
 rencfs
 xbuild
+mdbook-plantuml
