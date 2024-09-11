@@ -58,3 +58,4 @@ cargo-geiger
 cargo-raze
 nitrocli
 odbcsv
+rsgen-avro
