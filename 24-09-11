@@ -114,3 +114,4 @@ cargo-clone-crate
 nu
 vayu
 cargo-show
+cargo-bom
