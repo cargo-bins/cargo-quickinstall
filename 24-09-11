@@ -74,3 +74,4 @@ dinero-rs
 starship
 svlint
 cargo-tarpaulin
+cargo-local-registry
