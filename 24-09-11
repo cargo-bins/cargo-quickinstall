@@ -51,3 +51,4 @@ kmon
 procs
 cargo-criterion
 ffsend
+spotify-tui
