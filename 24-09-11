@@ -154,3 +154,4 @@ cargo-profiler
 cargo-download
 cargo-generate
 cargo-show
+rsgen-avro
