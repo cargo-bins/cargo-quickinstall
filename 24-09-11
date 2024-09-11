@@ -108,3 +108,4 @@ tp-note
 feroxbuster
 gitui
 cargo-vendor
+cargo-local-registry
