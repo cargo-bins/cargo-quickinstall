@@ -111,3 +111,4 @@ cargo-vendor
 cargo-local-registry
 intel-mkl-tool
 cargo-whatfeatures
+leetcode-cli
