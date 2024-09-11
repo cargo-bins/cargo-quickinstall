@@ -89,3 +89,4 @@ project_init
 intel-mkl-tool
 gnostr-bins
 deno
+git_lab_cli
