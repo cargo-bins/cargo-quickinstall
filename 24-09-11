@@ -51,3 +51,4 @@ git_lab_cli
 sane-fmt
 spl-token-cli
 diesel_cli
+nitrocli
