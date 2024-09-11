@@ -100,3 +100,4 @@ project_init
 starship
 cargo-vendor
 feroxbuster
+cargo-pgx
