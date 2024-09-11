@@ -66,3 +66,4 @@ gitui
 fw
 cargo-geiger
 regress
+cargo-criterion
