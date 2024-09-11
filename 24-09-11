@@ -13,3 +13,4 @@ cargo-travis
 nitrocli
 chain-spec-builder
 clippy
+rerast
