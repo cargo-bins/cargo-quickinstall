@@ -47,3 +47,4 @@ tauri-bundler
 regress
 watchexec
 nitrocli
+kmon
