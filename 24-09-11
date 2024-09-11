@@ -30,3 +30,4 @@ cargo-whatfeatures
 cargo-ebuild
 nitrocli
 cargo-travis
+spl-token-cli
