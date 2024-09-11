@@ -61,3 +61,4 @@ watchexec
 project_init
 sane-fmt
 rsgen-avro
+intel-mkl-tool
