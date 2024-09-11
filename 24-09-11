@@ -136,3 +136,4 @@ procs
 spl-token-cli
 gitui
 cargo-instruments
+regress
