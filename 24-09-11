@@ -148,3 +148,4 @@ odbcsv
 svlint
 sane-fmt
 cargo-download
+rust-latest
