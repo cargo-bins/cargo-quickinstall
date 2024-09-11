@@ -3,3 +3,4 @@ mdcat
 tp-note
 procs
 cargo-criterion
+cargo-outdated
