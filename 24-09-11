@@ -155,3 +155,4 @@ rsgen-avro
 fw
 cargo-outdated
 cargo-local-registry
+webdriver-install
