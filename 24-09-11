@@ -135,3 +135,4 @@ cargo-info
 regress
 odbcsv
 diesel_cli
+cargo-spellcheck
