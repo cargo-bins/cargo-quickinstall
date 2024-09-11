@@ -158,3 +158,4 @@ cargo-local-registry
 webdriver-install
 rsgen-avro
 cargo-profiler
+cargo-whatfeatures
