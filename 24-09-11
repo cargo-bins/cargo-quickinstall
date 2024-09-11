@@ -58,3 +58,4 @@ cargo-info
 nitrocli
 cargo-crev
 watchexec
+project_init
