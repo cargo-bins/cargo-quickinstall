@@ -148,3 +148,4 @@ cargo-instruments
 cargo-geiger
 cargo-pgx
 watchexec
+sane-fmt
