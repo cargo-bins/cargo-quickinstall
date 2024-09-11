@@ -153,3 +153,4 @@ exa
 cargo-profiler
 cargo-download
 cargo-generate
+cargo-show
