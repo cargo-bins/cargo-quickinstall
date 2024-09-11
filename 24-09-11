@@ -66,3 +66,4 @@ project_init
 rerast
 cargo-bpf
 chain-spec-builder
+watchexec
