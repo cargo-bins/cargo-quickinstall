@@ -24,3 +24,4 @@ serie
 exa
 cargo-local-registry
 tauri-bundler
+rsgen-avro
