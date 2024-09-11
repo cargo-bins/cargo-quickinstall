@@ -54,3 +54,4 @@ cargo-crev
 rerast
 watchexec
 cargo-kcov
+kmon
