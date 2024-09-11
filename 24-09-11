@@ -60,3 +60,4 @@ difftastic
 gptman
 lurk-cli
 cargo-show
+cargo-udeps
