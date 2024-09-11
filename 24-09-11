@@ -54,3 +54,4 @@ cargo-travis
 patch-crate
 intel-mkl-tool
 leetcode-cli
+sgxs-tools
