@@ -42,3 +42,4 @@ regress
 my-iot
 git_lab_cli
 watchexec
+cargo-travis
