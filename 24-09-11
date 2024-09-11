@@ -26,3 +26,4 @@ regress
 patch-crate
 intel-mkl-tool
 mise
+nitrocli
