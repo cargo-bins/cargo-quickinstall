@@ -112,3 +112,4 @@ cargo-show
 gitui
 semverver
 regress
+clippy
