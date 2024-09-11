@@ -50,3 +50,4 @@ cargo-bom
 watchexec
 gpg-tui
 rsgen-avro
+eureka
