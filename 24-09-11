@@ -68,3 +68,4 @@ hoard-rs
 probe-rs-debugger
 asm-lsp
 ripunzip
+ruff
