@@ -72,3 +72,4 @@ cargo-bitbake
 intel-mkl-tool
 irust
 nu
+hex-patch
