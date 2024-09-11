@@ -120,3 +120,4 @@ svlint
 cargo-instruments
 wasm-opt
 cargo-index
+cargo-show
