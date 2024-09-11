@@ -89,3 +89,4 @@ rsgen-avro
 webdriver-install
 sane-fmt
 procs
+cargo-tarpaulin
