@@ -87,3 +87,4 @@ dutree
 leetcode-cli
 cargo-crev
 dutree
+cargo-kcov
