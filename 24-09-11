@@ -62,3 +62,4 @@ cargo-crev
 project_init
 cargo-lock
 cargo-index
+cargo-whatfeatures
