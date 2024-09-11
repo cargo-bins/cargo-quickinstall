@@ -80,3 +80,4 @@ cargo-clone-crate
 webdriver-install
 rsgen-avro
 cargo-instruments
+cargo-risczero
