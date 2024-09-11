@@ -41,3 +41,4 @@ cargo-pgx
 cargo-kcov
 tauri-bundler
 my-iot
+leetcode-cli
