@@ -132,3 +132,4 @@ git_lab_cli
 cargo-criterion
 rexcli
 dinero-rs
+starship
