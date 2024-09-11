@@ -99,3 +99,4 @@ sane-fmt
 rust-latest
 cargo-index
 cargo-raze
+rsgen-avro
