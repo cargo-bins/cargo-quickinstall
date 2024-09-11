@@ -57,3 +57,4 @@ ffsend
 cargo-info
 nitrocli
 cargo-crev
+watchexec
