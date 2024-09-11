@@ -98,3 +98,4 @@ watchexec
 cargo-profiler
 regress
 intel-mkl-tool
+rmesg
