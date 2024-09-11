@@ -70,3 +70,4 @@ cargo-risczero
 cargo-local-registry
 cargo-c
 jql
+watchexec
