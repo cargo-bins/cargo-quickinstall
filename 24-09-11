@@ -1,3 +1,4 @@
 tauri-bundler
 gptman
 cargo-local-registry
+cargo-crev
