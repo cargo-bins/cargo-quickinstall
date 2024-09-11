@@ -47,3 +47,4 @@ cargo-raze
 sgxs-tools
 parquet
 intel-mkl-tool
+gptman
