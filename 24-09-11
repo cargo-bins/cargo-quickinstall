@@ -84,3 +84,4 @@ cargo-dephell
 spl-token-cli
 git_lab_cli
 flowistry_ide
+patch-crate
