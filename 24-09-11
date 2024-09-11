@@ -104,3 +104,4 @@ rmesg
 feroxbuster
 leetcode-cli
 cargo-bundle
+cargo-download
