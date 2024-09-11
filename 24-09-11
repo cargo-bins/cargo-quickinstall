@@ -9,3 +9,4 @@ rust-latest
 leetcode-cli
 intel-mkl-tool
 my-iot
+cargo-outdated
