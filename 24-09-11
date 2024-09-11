@@ -136,3 +136,4 @@ regress
 odbcsv
 diesel_cli
 cargo-spellcheck
+atuin
