@@ -41,3 +41,4 @@ cargo-lock
 rerast
 cargo-spellcheck
 watchexec
+spotify-tui
