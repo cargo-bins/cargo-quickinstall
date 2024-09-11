@@ -144,3 +144,4 @@ spider_cli
 llvm-cov-pretty
 mise
 maturin
+bgpkit-parser
