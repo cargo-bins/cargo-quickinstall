@@ -68,3 +68,4 @@ sgxs-tools
 cargo-travis
 cargo-instruments
 clippy
+cargo-raze
