@@ -48,3 +48,4 @@ cargo-geiger
 cargo-raze
 tp-note
 git_lab_cli
+sane-fmt
