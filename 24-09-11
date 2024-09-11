@@ -129,3 +129,4 @@ cargo-info
 macchina
 project_init
 git_lab_cli
+cargo-criterion
