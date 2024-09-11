@@ -112,3 +112,4 @@ leetcode-cli
 scryer-prolog
 cargo-modules
 cargo-local-registry
+cargo-whatfeatures
