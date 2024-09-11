@@ -22,3 +22,4 @@ cargo-compete
 cargo-travis
 rust-latest
 ouch
+cargo-pgx
