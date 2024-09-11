@@ -162,3 +162,4 @@ cargo-whatfeatures
 mise
 watchexec
 rust-latest
+cargo-criterion
