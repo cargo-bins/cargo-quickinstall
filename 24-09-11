@@ -103,3 +103,4 @@ cargo-bom
 odbcsv
 gnostr-bins
 nitrocli
+cargo-travis
