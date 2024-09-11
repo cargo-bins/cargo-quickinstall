@@ -71,3 +71,4 @@ cargo-local-registry
 cargo-c
 jql
 watchexec
+cargo-ebuild
