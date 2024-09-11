@@ -127,3 +127,4 @@ cargo-dephell
 spotify_player
 difftastic
 meli
+sea-orm-cli
