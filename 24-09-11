@@ -109,3 +109,4 @@ feroxbuster
 gitui
 cargo-vendor
 cargo-local-registry
+intel-mkl-tool
