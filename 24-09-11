@@ -142,3 +142,4 @@ git_lab_cli
 intel-mkl-tool
 rexcli
 cargo-equip
+cargo-info
