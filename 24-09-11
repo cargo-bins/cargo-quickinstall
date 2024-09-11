@@ -36,3 +36,4 @@ cargo-script
 sgxs-tools
 cargo-travis
 regress
+intel-mkl-tool
