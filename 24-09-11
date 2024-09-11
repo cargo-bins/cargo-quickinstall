@@ -54,3 +54,4 @@ leetcode-cli
 cargo-profiler
 dysk
 cargo-count
+intel-mkl-tool
