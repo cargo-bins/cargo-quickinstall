@@ -140,3 +140,4 @@ regress
 ffsend
 semverver
 sgxs-tools
+cargo-script
