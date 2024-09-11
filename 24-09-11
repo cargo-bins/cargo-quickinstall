@@ -20,3 +20,4 @@ cargo-index
 jql
 rexcli
 dotter
+cargo-tarpaulin
