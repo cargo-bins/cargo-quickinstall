@@ -139,3 +139,4 @@ cargo-spellcheck
 atuin
 cargo-instruments
 cargo-local-registry
+sane-fmt
