@@ -166,3 +166,4 @@ cargo-criterion
 project_init
 cargo-pgx
 sane-fmt
+jql
