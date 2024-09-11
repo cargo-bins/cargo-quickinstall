@@ -19,3 +19,4 @@ odbcsv
 spotify-tui
 bindgen-cli
 cargo-compete
+cargo-travis
