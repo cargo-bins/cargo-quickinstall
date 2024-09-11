@@ -16,3 +16,4 @@ git_lab_cli
 nitrocli
 cicada
 rust-latest
+cargo-index
