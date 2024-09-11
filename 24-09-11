@@ -41,3 +41,4 @@ my-iot
 spl-token-cli
 blissify
 cargo-public-api
+llvm-cov-pretty
