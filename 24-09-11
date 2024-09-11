@@ -76,3 +76,4 @@ ffsend
 cargo-raze
 tauri-bundler
 odbcsv
+cargo-criterion
