@@ -64,3 +64,4 @@ cargo-instruments
 typst-cli
 my-iot
 cargo-bpf
+hoard-rs
