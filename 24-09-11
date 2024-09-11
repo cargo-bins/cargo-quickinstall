@@ -45,3 +45,4 @@ cargo-travis
 cargo-raze
 tauri-bundler
 regress
+watchexec
