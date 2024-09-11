@@ -67,3 +67,4 @@ cargo-compete
 kdash
 cargo-instruments
 cargo-risczero
+cargo-local-registry
