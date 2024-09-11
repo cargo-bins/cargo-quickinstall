@@ -11,3 +11,4 @@ my-iot
 cargo-pgx
 atuin
 cargo-embed
+tauri-bundler
