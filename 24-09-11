@@ -53,3 +53,4 @@ cargo-criterion
 ffsend
 spotify-tui
 spl-token-cli
+svlint
