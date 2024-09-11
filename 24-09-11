@@ -38,3 +38,4 @@ tauri-bundler
 cargo-show
 sgxs-tools
 cargo-travis
+regress
