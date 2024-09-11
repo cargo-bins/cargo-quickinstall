@@ -62,3 +62,4 @@ cargo-tarpaulin
 starship
 cargo-travis
 cargo-pgx
+my-iot
