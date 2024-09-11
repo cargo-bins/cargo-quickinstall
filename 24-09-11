@@ -39,3 +39,4 @@ cargo-udeps
 scryer-prolog
 cargo-lock
 rerast
+cargo-spellcheck
