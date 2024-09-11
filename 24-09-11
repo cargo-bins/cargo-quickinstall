@@ -47,3 +47,4 @@ sgxs-tools
 bgpkit-parser
 eureka
 cargo-bom
+watchexec
