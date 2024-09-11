@@ -8,3 +8,4 @@ cargo-clone
 ffsend
 sgxs-tools
 cargo-info
+cargo-lock
