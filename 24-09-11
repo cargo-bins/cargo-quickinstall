@@ -27,3 +27,4 @@ patch-crate
 intel-mkl-tool
 mise
 nitrocli
+chain-spec-builder
