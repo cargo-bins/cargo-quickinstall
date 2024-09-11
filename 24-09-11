@@ -119,3 +119,4 @@ hurl
 svlint
 cargo-instruments
 wasm-opt
+cargo-index
