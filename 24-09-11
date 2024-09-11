@@ -3,3 +3,4 @@ regress
 tp-note
 intel-mkl-tool
 cargo-travis
+clippy
