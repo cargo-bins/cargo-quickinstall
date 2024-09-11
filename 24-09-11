@@ -69,3 +69,4 @@ regress
 vayu
 cargo-udeps
 cargo-bitbake
+intel-mkl-tool
