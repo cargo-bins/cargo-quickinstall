@@ -2,3 +2,4 @@ mdcat
 intel-mkl-tool
 cargo-about
 kmon
+cargo-profiler
