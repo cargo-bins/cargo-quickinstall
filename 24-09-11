@@ -3,3 +3,4 @@ cargo-graph
 leetcode-cli
 clippy
 tauri-bundler
+qsv
