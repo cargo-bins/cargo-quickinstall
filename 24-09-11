@@ -164,3 +164,4 @@ cargo-bpf
 tin-summer
 cargo-vendor
 zellij
+cargo-instruments
