@@ -140,3 +140,4 @@ git_lab_cli
 kurobako
 my-iot
 wasm-bindgen-cli
+cargo-local-registry
