@@ -40,3 +40,4 @@ intel-mkl-tool
 cargo-pgx
 cargo-kcov
 tauri-bundler
+my-iot
