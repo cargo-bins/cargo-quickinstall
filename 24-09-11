@@ -136,3 +136,4 @@ cargo-instruments
 rsgen-avro
 cargo-web
 rmesg
+git_lab_cli
