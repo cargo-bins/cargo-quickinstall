@@ -9,5 +9,5 @@ dependencies = [
     "influxdb3-python>=0.8.0",
     "requests>=2.32.3",
     "semver>=3.0.2",
-    "polars>=1.6.0",
+    "polars>=1.7.0",
 ]
