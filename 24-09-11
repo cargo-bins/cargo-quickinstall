@@ -117,3 +117,4 @@ semverver
 cargo-dephell
 hurl
 svlint
+cargo-instruments
