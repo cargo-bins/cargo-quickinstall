@@ -68,3 +68,4 @@ ripdrag
 regress
 vayu
 cargo-udeps
+cargo-bitbake
