@@ -63,3 +63,4 @@ swc_cli
 cargo-instruments
 typst-cli
 my-iot
+cargo-bpf
