@@ -35,3 +35,4 @@ cargo-download
 odbcsv
 git_lab_cli
 tauri-bundler
+cargo-show
