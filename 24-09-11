@@ -153,3 +153,4 @@ dotter
 cargo-modules
 cargo-instruments
 cargo-pgx
+rsgen-avro
