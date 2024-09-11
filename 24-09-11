@@ -89,3 +89,4 @@ nu
 rust-latest
 prqlc
 llvm-cov-pretty
+spl-token-cli
