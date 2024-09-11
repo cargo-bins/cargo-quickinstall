@@ -69,3 +69,4 @@ regress
 cargo-criterion
 cargo-script
 macchina
+sgxs-tools
