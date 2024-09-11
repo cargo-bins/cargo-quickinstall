@@ -16,3 +16,4 @@ cargo-whatfeatures
 cargo-show
 sgxs-tools
 ffsend
+regress
