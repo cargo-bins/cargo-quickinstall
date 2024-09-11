@@ -16,3 +16,4 @@ cargo-instruments
 clippy
 silicon
 duma
+pico-uf2
