@@ -56,3 +56,4 @@ cargo-clone-crate
 ffsend
 cargo-info
 nitrocli
+cargo-crev
