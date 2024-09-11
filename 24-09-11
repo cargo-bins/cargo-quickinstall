@@ -73,3 +73,4 @@ intel-mkl-tool
 irust
 nu
 hex-patch
+wasm-opt
