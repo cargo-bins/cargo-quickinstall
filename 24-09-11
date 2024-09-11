@@ -2,3 +2,4 @@ semverver
 cargo-graph
 leetcode-cli
 clippy
+tauri-bundler
