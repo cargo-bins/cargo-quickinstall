@@ -32,3 +32,4 @@ sequoia-sq
 cargo-ebuild
 cargo-embed
 leetcode-cli
+spl-token-cli
