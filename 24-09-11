@@ -150,3 +150,4 @@ sane-fmt
 cargo-download
 rust-latest
 starship
+svlint
