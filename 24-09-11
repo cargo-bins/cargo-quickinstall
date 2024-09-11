@@ -33,3 +33,4 @@ cargo-travis
 spl-token-cli
 cargo-download
 odbcsv
+git_lab_cli
