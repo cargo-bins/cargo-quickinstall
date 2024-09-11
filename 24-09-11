@@ -66,3 +66,4 @@ cargo-profiler
 cicada
 sgxs-tools
 cargo-travis
+cargo-instruments
