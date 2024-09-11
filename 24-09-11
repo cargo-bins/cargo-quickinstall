@@ -39,3 +39,4 @@ cicada
 git_lab_cli
 macchina
 wasm-bindgen-cli
+cargo-tarpaulin
