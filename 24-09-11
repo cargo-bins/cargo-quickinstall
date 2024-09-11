@@ -60,3 +60,4 @@ semverver
 git-next
 cargo-whatfeatures
 swc_cli
+cargo-instruments
