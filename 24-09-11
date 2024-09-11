@@ -145,3 +145,4 @@ kickstart
 leetcode-cli
 rust-latest
 cargo-instruments
+cargo-geiger
