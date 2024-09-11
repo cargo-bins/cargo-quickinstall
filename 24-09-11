@@ -94,3 +94,4 @@ kanidm_tools
 cargo-public-api
 eureka
 watchexec
+prqlc
