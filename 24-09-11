@@ -110,3 +110,4 @@ rust-latest
 starship
 regress
 jql
+cargo-info
