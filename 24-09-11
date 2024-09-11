@@ -29,3 +29,4 @@ gptman
 cargo-whatfeatures
 cargo-ebuild
 nitrocli
+cargo-travis
