@@ -12,3 +12,4 @@ my-iot
 cargo-script
 project_init
 spl-token-cli
+git_lab_cli
