@@ -105,3 +105,4 @@ cargo-script
 spl-token-cli
 feroxbuster
 ffsend
+cargo-whatfeatures
