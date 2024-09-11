@@ -116,3 +116,4 @@ cargo-generate
 cargo-bpf
 spl-token-cli
 atuin
+sgxs-tools
