@@ -152,3 +152,4 @@ my-iot
 exa
 cargo-profiler
 cargo-download
+cargo-generate
