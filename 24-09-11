@@ -131,3 +131,4 @@ regress
 exa
 cargo-web
 pyoxidizer
+cargo-travis
