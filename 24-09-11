@@ -42,3 +42,4 @@ parquet
 chain-spec-builder
 spl-token-cli
 qsv
+sequoia-chameleon-gnupg
