@@ -149,3 +149,4 @@ dinero-rs
 scryer-prolog
 intel-mkl-tool
 sgxs-tools
+wasm-bindgen-cli
