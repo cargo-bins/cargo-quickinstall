@@ -45,3 +45,4 @@ llvm-cov-pretty
 rust-latest
 sgxs-tools
 bgpkit-parser
+eureka
