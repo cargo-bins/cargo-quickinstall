@@ -76,3 +76,4 @@ hex-patch
 wasm-opt
 cargo-index
 cargo-download
+jql
