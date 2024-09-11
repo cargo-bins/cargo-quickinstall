@@ -12,3 +12,4 @@ atuin
 cargo-lock
 cargo-public-api
 regress
+drone
