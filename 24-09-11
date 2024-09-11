@@ -40,3 +40,4 @@ mdcat
 cargo-travis
 dtn7
 cargo-about
+cargo-tarpaulin
