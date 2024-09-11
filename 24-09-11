@@ -120,3 +120,4 @@ cargo-tarpaulin
 cargo-modules
 mise
 cargo-pgx
+kmon
