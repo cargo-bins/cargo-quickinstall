@@ -74,3 +74,4 @@ pomodoro
 cargo-kcov
 investments
 atuin
+cargo-profiler
