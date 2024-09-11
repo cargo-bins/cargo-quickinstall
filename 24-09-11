@@ -144,3 +144,4 @@ cargo-script
 kickstart
 leetcode-cli
 rust-latest
+cargo-instruments
