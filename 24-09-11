@@ -113,3 +113,4 @@ gptman
 skim
 regress
 cargo-generate
+cargo-bpf
