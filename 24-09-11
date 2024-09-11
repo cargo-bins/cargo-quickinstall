@@ -7,3 +7,4 @@ cargo-outdated
 cargo-show
 rust-latest
 leetcode-cli
+intel-mkl-tool
