@@ -64,3 +64,4 @@ rtx-cli
 fw
 cargo-profiler
 cicada
+sgxs-tools
