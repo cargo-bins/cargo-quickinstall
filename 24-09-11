@@ -93,3 +93,4 @@ elf2tab
 cicada
 rerast
 cargo-kcov
+cargo-download
