@@ -86,3 +86,4 @@ cargo-vendor
 cargo-raze
 intel-mkl-tool
 rsgen-avro
+webdriver-install
