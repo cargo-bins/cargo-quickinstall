@@ -34,3 +34,4 @@ cargo-local-registry
 rsgen-avro
 rmesg
 natls
+wrangler
