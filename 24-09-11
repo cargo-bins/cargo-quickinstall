@@ -163,3 +163,4 @@ mise
 watchexec
 rust-latest
 cargo-criterion
+project_init
