@@ -37,3 +37,4 @@ cargo-geiger
 cargo-risczero
 cargo-udeps
 scryer-prolog
+cargo-lock
