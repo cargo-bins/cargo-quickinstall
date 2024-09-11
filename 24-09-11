@@ -25,3 +25,4 @@ tree-sitter-cli
 legba
 dump_syms
 tectonic
+cargo-udeps
