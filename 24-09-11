@@ -172,3 +172,4 @@ cargo-modules
 investments
 webdriver-install
 cargo-script
+cargo-profiler
