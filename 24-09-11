@@ -84,3 +84,4 @@ kickstart
 svlint
 cargo-vendor
 cargo-raze
+intel-mkl-tool
