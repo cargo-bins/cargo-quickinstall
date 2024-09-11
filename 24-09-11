@@ -118,3 +118,4 @@ cargo-dephell
 hurl
 svlint
 cargo-instruments
+wasm-opt
