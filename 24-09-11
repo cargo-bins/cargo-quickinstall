@@ -75,3 +75,4 @@ cargo-kcov
 investments
 atuin
 cargo-profiler
+cargo-show
