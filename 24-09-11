@@ -57,3 +57,4 @@ cargo-kcov
 kmon
 cargo-bundle
 cargo-web
+dprint
