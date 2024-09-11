@@ -35,3 +35,4 @@ cargo-raze
 cargo-instruments
 rioterm
 sqruff
+diesel_cli
