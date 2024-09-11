@@ -62,3 +62,4 @@ lurk-cli
 cargo-show
 cargo-udeps
 wasm-opt
+komac
