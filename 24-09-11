@@ -65,3 +65,4 @@ typst-cli
 my-iot
 cargo-bpf
 hoard-rs
+probe-rs-debugger
