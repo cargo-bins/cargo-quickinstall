@@ -48,3 +48,4 @@ regress
 watchexec
 nitrocli
 kmon
+procs
