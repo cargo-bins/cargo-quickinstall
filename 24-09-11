@@ -6,3 +6,4 @@ cargo-travis
 clippy
 atuin
 git-disjoint
+parquet
