@@ -33,3 +33,4 @@ spl-token-cli
 cargo-local-registry
 rexcli
 watchexec
+semverver
