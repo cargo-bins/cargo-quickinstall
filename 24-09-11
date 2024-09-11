@@ -85,3 +85,4 @@ cargo-ebuild
 cargo-clone-crate
 scryer-prolog
 dtn7
+cargo-download
