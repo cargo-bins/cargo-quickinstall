@@ -178,3 +178,4 @@ gitui
 feroxbuster
 fw
 cargo-modules
+cargo-outdated
