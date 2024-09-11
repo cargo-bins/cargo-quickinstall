@@ -145,3 +145,4 @@ llvm-cov-pretty
 mise
 maturin
 bgpkit-parser
+cargo-public-api
