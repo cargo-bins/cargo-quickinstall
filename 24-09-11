@@ -5,3 +5,4 @@ intel-mkl-tool
 cargo-travis
 clippy
 atuin
+git-disjoint
