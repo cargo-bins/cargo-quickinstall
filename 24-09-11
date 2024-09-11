@@ -106,3 +106,4 @@ nitrocli
 cargo-travis
 my-iot
 redoxer
+rsgen-avro
