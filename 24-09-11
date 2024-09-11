@@ -56,3 +56,4 @@ cargo-smart-release
 cargo-whatfeatures
 ripunzip
 sane-fmt
+semverver
