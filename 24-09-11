@@ -36,3 +36,4 @@ odbcsv
 git_lab_cli
 tauri-bundler
 cargo-show
+sgxs-tools
