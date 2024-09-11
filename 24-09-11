@@ -174,3 +174,4 @@ project_init
 spl-token-cli
 gitui
 cargo-instruments
+rexcli
