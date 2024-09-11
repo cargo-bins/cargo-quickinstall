@@ -7,3 +7,4 @@ wasm-opt
 cargo-clone
 ffsend
 sgxs-tools
+cargo-info
