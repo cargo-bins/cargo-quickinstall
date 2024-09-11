@@ -36,3 +36,4 @@ cargo-instruments
 rioterm
 sqruff
 diesel_cli
+release-plz
