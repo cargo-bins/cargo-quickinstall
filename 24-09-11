@@ -16,3 +16,4 @@ sqlx-cli
 tin-summer
 fw
 cargo-instruments
+cargo-kcov
