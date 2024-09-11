@@ -96,3 +96,4 @@ cargo-kcov
 cargo-download
 kubie
 atuin
+cargo-travis
