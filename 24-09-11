@@ -21,3 +21,4 @@ wasm-opt
 regress
 eidolon
 probe-rs-tools
+tree-sitter-cli
