@@ -39,3 +39,4 @@ google-drive3-cli
 my-iot
 regress
 tauri-bundler
+cargo-travis
