@@ -127,3 +127,4 @@ git_lab_cli
 dinero-rs
 sane-fmt
 git_lab_cli
+cargo-script
