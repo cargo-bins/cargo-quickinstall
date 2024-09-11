@@ -51,3 +51,4 @@ sqlx-cli
 fleet-rs
 cargo-raze
 leetcode-cli
+cargo-profiler
