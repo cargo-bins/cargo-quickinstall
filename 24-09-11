@@ -55,3 +55,4 @@ rerast
 watchexec
 cargo-kcov
 kmon
+cargo-bundle
