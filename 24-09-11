@@ -100,3 +100,4 @@ regress
 intel-mkl-tool
 rmesg
 sqlx-cli
+natls
