@@ -74,3 +74,4 @@ project_init
 investments
 cargo-crev
 cargo-bpf
+spotify-tui
