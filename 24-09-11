@@ -182,3 +182,4 @@ cargo-outdated
 webdriver-install
 watchexec
 cargo-script
+cargo-info
