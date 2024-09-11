@@ -80,3 +80,4 @@ jql
 cargo-bom
 watchexec
 redoxer
+ic-wasm
