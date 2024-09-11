@@ -153,3 +153,4 @@ wasm-bindgen-cli
 ffsend
 rsgen-avro
 fw
+cargo-outdated
