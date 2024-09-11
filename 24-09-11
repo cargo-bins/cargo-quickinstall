@@ -5,3 +5,4 @@ procs
 cargo-criterion
 cargo-outdated
 cargo-show
+rust-latest
