@@ -49,3 +49,4 @@ my-iot
 clippy
 sqlx-cli
 fleet-rs
+cargo-raze
