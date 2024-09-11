@@ -16,3 +16,4 @@ drone
 pfetch
 kmon
 evcxr_repl
+cargo-geiger
