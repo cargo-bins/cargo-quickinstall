@@ -152,3 +152,4 @@ rust-latest
 starship
 svlint
 cargo-geiger
+cargo-index
