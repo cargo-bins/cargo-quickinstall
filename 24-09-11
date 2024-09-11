@@ -62,3 +62,4 @@ rerast
 nitrocli
 rtx-cli
 fw
+cargo-profiler
