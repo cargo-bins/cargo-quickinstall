@@ -53,3 +53,4 @@ cargo-raze
 leetcode-cli
 cargo-profiler
 dysk
+cargo-count
