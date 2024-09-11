@@ -155,3 +155,4 @@ cargo-download
 cargo-generate
 cargo-show
 rsgen-avro
+elf2tab
