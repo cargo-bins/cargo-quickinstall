@@ -32,3 +32,4 @@ nitrocli
 sgxs-tools
 cargo-graph
 ubi
+clippy
