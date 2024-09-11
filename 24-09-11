@@ -4,3 +4,4 @@ tp-note
 procs
 cargo-criterion
 cargo-outdated
+cargo-show
