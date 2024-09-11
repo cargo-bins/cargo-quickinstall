@@ -150,3 +150,4 @@ cargo-pgx
 watchexec
 sane-fmt
 dotter
+cargo-modules
