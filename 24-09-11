@@ -108,3 +108,4 @@ cargo-embed
 cargo-crev
 cargo-raze
 diesel_cli
+cargo-show
