@@ -59,3 +59,4 @@ nitrocli
 cargo-crev
 watchexec
 project_init
+sane-fmt
