@@ -128,3 +128,4 @@ git_lab_cli
 cargo-crev
 starship
 intel-mkl-tool
+leetcode-cli
