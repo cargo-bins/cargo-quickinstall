@@ -53,3 +53,4 @@ rsgen-avro
 eureka
 rust-latest
 cargo-smart-release
+cargo-whatfeatures
