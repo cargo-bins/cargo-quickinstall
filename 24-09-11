@@ -18,3 +18,4 @@ project_init
 sgxs-tools
 cargo-script
 sane-fmt
+cargo-vendor
