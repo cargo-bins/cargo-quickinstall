@@ -63,3 +63,4 @@ cargo-show
 cargo-udeps
 wasm-opt
 komac
+bliss
