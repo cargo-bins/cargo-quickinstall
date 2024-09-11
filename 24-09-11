@@ -95,3 +95,4 @@ cargo-raze
 cargo-lock
 regress
 cargo-travis
+sgxs-tools
