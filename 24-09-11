@@ -167,3 +167,4 @@ project_init
 cargo-pgx
 sane-fmt
 jql
+leetcode-cli
