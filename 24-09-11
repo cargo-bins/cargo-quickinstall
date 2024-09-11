@@ -146,3 +146,4 @@ leetcode-cli
 rust-latest
 cargo-instruments
 cargo-geiger
+cargo-pgx
