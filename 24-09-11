@@ -151,3 +151,4 @@ intel-mkl-tool
 sgxs-tools
 wasm-bindgen-cli
 ffsend
+rsgen-avro
