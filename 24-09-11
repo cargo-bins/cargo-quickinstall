@@ -76,3 +76,4 @@ webdriver-install
 cargo-show
 tp-note
 hurl
+cargo-clone-crate
