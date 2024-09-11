@@ -74,3 +74,4 @@ irust
 nu
 hex-patch
 wasm-opt
+cargo-index
