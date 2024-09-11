@@ -71,3 +71,4 @@ clippy
 cargo-raze
 cargo-show
 pomodoro
+cargo-kcov
