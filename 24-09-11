@@ -48,3 +48,4 @@ bgpkit-parser
 eureka
 cargo-bom
 watchexec
+gpg-tui
