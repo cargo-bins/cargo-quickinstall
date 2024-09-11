@@ -25,3 +25,4 @@ cargo-local-registry
 jql
 mdcat
 intel-mkl-tool
+cargo-instruments
