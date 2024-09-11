@@ -77,3 +77,4 @@ wasm-opt
 cargo-index
 cargo-download
 jql
+cargo-bom
