@@ -180,3 +180,4 @@ fw
 cargo-modules
 cargo-outdated
 webdriver-install
+watchexec
