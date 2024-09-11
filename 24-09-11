@@ -43,3 +43,4 @@ cargo-about
 cargo-tarpaulin
 fw
 rsgen-avro
+sane-fmt
