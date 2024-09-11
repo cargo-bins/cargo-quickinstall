@@ -92,3 +92,4 @@ cargo-raze
 elf2tab
 cicada
 rerast
+cargo-kcov
