@@ -60,3 +60,4 @@ cicada
 feroxbuster
 cargo-tarpaulin
 starship
+cargo-travis
