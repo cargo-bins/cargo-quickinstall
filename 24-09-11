@@ -99,3 +99,4 @@ sgxs-tools
 hurl
 cargo-crev
 tauri-bundler
+odbcsv
