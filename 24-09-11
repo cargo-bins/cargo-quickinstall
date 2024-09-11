@@ -29,3 +29,4 @@ cargo-instruments
 leetcode-cli
 project_init
 kickstart
+intel-mkl-tool
