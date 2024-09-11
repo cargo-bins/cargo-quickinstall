@@ -60,3 +60,4 @@ cargo-travis
 regress
 gptman
 leetcode-cli
+spl-token-cli
