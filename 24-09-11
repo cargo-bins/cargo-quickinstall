@@ -92,3 +92,4 @@ llvm-cov-pretty
 spl-token-cli
 kanidm_tools
 cargo-public-api
+eureka
