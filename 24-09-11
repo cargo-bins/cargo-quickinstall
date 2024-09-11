@@ -31,3 +31,4 @@ project_init
 kickstart
 intel-mkl-tool
 my-iot
+starship
