@@ -101,3 +101,4 @@ git_lab_cli
 watchexec
 dotter
 cargo-show
+cargo-script
