@@ -71,3 +71,4 @@ cargo-udeps
 cargo-bitbake
 intel-mkl-tool
 irust
+nu
