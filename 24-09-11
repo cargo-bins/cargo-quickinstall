@@ -42,3 +42,4 @@ tauri-bundler
 cargo-travis
 radio-sx128x
 intel-mkl-tool
+parquet
