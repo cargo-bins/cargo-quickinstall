@@ -40,3 +40,4 @@ scryer-prolog
 cargo-lock
 rerast
 cargo-spellcheck
+watchexec
