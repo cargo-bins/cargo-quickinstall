@@ -49,3 +49,4 @@ eureka
 cargo-bom
 watchexec
 gpg-tui
+rsgen-avro
