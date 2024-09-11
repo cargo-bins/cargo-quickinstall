@@ -42,3 +42,4 @@ spl-token-cli
 blissify
 cargo-public-api
 llvm-cov-pretty
+rust-latest
