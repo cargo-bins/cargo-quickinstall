@@ -137,3 +137,4 @@ spl-token-cli
 gitui
 cargo-instruments
 regress
+ffsend
