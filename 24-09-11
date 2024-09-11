@@ -52,3 +52,4 @@ sane-fmt
 spl-token-cli
 diesel_cli
 nitrocli
+cargo-travis
