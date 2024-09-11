@@ -14,3 +14,4 @@ cargo-embed
 tauri-bundler
 sqlx-cli
 tin-summer
+fw
