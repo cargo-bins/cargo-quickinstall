@@ -145,3 +145,4 @@ cargo-raze
 rerast
 jql
 odbcsv
+svlint
