@@ -157,3 +157,4 @@ cargo-show
 rsgen-avro
 elf2tab
 skim
+cargo-bundle
