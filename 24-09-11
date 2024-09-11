@@ -55,3 +55,4 @@ cargo-pgx
 cargo-clone-crate
 ffsend
 cargo-info
+nitrocli
