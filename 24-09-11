@@ -5,3 +5,4 @@ cargo-crev
 cargo-web
 rmesg
 tauri-bundler
+wrangler
