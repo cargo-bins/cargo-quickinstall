@@ -7,3 +7,4 @@ rmesg
 tauri-bundler
 wrangler
 cargo-skyline
+rsgen-avro
