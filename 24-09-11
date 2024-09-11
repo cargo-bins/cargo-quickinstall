@@ -182,3 +182,4 @@ gptman
 dinero-rs
 gitui
 cargo-geiger
+cargo-tarpaulin
