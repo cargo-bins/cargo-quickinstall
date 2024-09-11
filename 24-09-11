@@ -114,3 +114,4 @@ cargo-info
 nitrocli
 spl-token-cli
 investments
+cargo-local-registry
