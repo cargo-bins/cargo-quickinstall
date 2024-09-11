@@ -122,3 +122,4 @@ wasm-opt
 cargo-index
 cargo-show
 leetcode-cli
+kdash
