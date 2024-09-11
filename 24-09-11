@@ -96,3 +96,4 @@ rsgen-avro
 serie
 watchexec
 cargo-profiler
+regress
