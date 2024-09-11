@@ -134,3 +134,4 @@ pyoxidizer
 cargo-travis
 cargo-instruments
 rsgen-avro
+cargo-web
