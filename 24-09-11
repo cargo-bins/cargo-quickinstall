@@ -91,3 +91,4 @@ cargo-travis
 kdash
 cargo-crev
 cargo-ebuild
+cargo-raze
