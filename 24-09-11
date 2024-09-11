@@ -42,3 +42,4 @@ exa
 rmesg
 nitrocli
 cargo-count
+cargo-pgx
