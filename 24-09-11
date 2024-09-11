@@ -141,3 +141,4 @@ cargo-lock
 rsgen-avro
 nitrocli
 kubie
+pyoxidizer
