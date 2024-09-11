@@ -44,3 +44,4 @@ cargo-public-api
 llvm-cov-pretty
 rust-latest
 sgxs-tools
+bgpkit-parser
