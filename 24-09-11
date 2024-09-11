@@ -47,3 +47,4 @@ rtx-cli
 spl-token-cli
 my-iot
 clippy
+sqlx-cli
