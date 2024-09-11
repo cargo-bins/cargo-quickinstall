@@ -10,3 +10,4 @@ cargo-show
 my-iot
 cargo-pgx
 atuin
+cargo-embed
