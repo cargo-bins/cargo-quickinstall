@@ -65,3 +65,4 @@ wasm-opt
 komac
 bliss
 ripdrag
+regress
