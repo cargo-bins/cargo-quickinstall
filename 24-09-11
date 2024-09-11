@@ -125,3 +125,4 @@ tauri-bundler
 cicada
 git_lab_cli
 dinero-rs
+sane-fmt
