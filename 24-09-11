@@ -91,3 +91,4 @@ sane-fmt
 procs
 cargo-tarpaulin
 investments
+cargo-geiger
