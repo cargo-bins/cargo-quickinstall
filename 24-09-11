@@ -151,3 +151,4 @@ cargo-download
 rust-latest
 starship
 svlint
+cargo-geiger
