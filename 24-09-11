@@ -11,3 +11,4 @@ parquet
 cargo-travis
 atuin
 av1an
+clippy
