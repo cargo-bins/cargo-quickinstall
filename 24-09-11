@@ -102,3 +102,4 @@ rmesg
 sqlx-cli
 natls
 gitui
+cargo-crev
