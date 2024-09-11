@@ -102,3 +102,4 @@ tauri-bundler
 odbcsv
 turbocommit
 cargo-ebuild
+svlint
