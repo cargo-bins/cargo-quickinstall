@@ -3,3 +3,4 @@ tauri-bundler
 xcp
 nextsv
 svlint
+cargo-crev
