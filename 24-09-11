@@ -121,3 +121,4 @@ cargo-instruments
 wasm-opt
 cargo-index
 cargo-show
+leetcode-cli
