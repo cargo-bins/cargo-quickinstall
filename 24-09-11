@@ -54,3 +54,4 @@ diesel_cli
 nitrocli
 cargo-travis
 my-iot
+project_init
