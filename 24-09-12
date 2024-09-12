@@ -71,3 +71,4 @@ hoard-rs
 cargo-bitbake
 dump_syms
 evcxr_jupyter
+clippy
