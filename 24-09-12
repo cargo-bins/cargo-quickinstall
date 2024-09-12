@@ -129,3 +129,4 @@ hoard-rs
 cargo-lock
 hurlfmt
 codeberg-cli
+clippy
