@@ -50,3 +50,4 @@ bottom
 broot
 grcov
 taplo-cli
+cargo-instruments
