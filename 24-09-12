@@ -40,3 +40,4 @@ regress
 gptman
 intel-mkl-tool
 dysk
+cargo-instruments
