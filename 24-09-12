@@ -81,3 +81,4 @@ cargo-bom
 taplo-cli
 zellij
 dprint
+cargo-bitbake
