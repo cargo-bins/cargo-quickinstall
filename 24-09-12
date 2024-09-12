@@ -85,3 +85,4 @@ typst-cli
 tauri-bundler
 nextsv
 scryer-prolog
+sea-orm-cli
