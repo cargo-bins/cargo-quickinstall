@@ -162,3 +162,4 @@ kanidm_tools
 sane-fmt
 cargo-ebuild
 xcp
+lurk-cli
