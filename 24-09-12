@@ -27,3 +27,4 @@ swc_cli
 bliss
 watchexec
 drone
+cargo-pgx
