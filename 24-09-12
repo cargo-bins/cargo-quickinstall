@@ -68,3 +68,4 @@ broot
 cargo-generate
 cargo-udeps
 sccache
+cargo-bitbake
