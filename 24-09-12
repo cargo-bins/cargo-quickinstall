@@ -86,3 +86,4 @@ cargo-bpf
 cargo-generate
 zellij
 cargo-bpf
+cargo-bom
