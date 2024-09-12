@@ -18,3 +18,4 @@ bottom
 wasm-opt
 cargo-dephell
 kmon
+diesel_cli
