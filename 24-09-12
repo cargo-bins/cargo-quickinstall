@@ -91,3 +91,4 @@ cargo-generate
 taplo-cli
 zellij
 cargo-bom
+dprint
