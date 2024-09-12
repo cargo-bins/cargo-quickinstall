@@ -66,3 +66,4 @@ cargo-raze
 cargo-download
 prqlc
 rexcli
+mdbook-plantuml
