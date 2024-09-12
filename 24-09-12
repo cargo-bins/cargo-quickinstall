@@ -8,3 +8,4 @@ atuin
 cargo-clone
 cargo-local-registry
 starship
+intel-mkl-tool
