@@ -60,3 +60,4 @@ cargo-bom
 taplo-cli
 cargo-equip
 cargo-spellcheck
+cargo-lock
