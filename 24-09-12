@@ -22,3 +22,4 @@ cargo-show
 tab
 regress
 cargo-lock
+cargo-generate
