@@ -28,3 +28,4 @@ cargo-info
 cocogitto
 grcov
 cargo-instruments
+sccache
