@@ -49,3 +49,4 @@ cargo-udeps
 cargo-bom
 tp-note
 scryer-prolog
+sane-fmt
