@@ -24,3 +24,4 @@ cargo-instruments
 rust-latest
 cargo-pgx
 cargo-bom
+cargo-info
