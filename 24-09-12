@@ -92,3 +92,4 @@ taplo-cli
 zellij
 cargo-bom
 dprint
+cargo-bpf
