@@ -9,3 +9,4 @@ gitui
 cargo-local-registry
 skim
 gptman
+cargo-profiler
