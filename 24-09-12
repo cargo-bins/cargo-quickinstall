@@ -26,3 +26,4 @@ rtx-cli
 cargo-crev
 cargo-bpf
 regress
+kmon
