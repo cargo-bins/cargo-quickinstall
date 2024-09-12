@@ -3,3 +3,4 @@ cargo-tarpaulin
 feroxbuster
 nitrocli
 cargo-compete
+cargo-bitbake
