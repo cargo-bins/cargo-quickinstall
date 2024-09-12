@@ -65,3 +65,4 @@ cargo-clone
 cargo-c
 cargo-lock
 broot
+cargo-generate
