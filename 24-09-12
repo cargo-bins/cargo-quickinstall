@@ -18,3 +18,4 @@ gnostr-bins
 cargo-mobile2
 leetcode-cli
 probe-rs-debugger
+xbuild
