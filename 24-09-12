@@ -2,3 +2,4 @@ tab
 cargo-download
 cargo-dephell
 bandwhich
+cargo-local-registry
