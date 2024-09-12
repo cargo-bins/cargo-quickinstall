@@ -149,3 +149,4 @@ cargo-raze
 typst-cli
 sniffnet
 diesel_cli
+intel-mkl-tool
