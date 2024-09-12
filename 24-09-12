@@ -3,3 +3,4 @@ intel-mkl-tool
 cargo-index
 tree-sitter-cli
 cargo-udeps
+cargo-show
