@@ -40,3 +40,4 @@ git-disjoint
 sequoia-sq
 parquet
 pnafs
+cargo-dephell
