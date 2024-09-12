@@ -94,3 +94,4 @@ cargo-docset
 clippy
 archwiki-rs
 cargo-download
+spl-token-cli
