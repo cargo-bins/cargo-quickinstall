@@ -27,3 +27,4 @@ cargo-bom
 cargo-info
 cocogitto
 grcov
+cargo-instruments
