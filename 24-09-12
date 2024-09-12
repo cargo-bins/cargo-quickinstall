@@ -62,3 +62,4 @@ cargo-generate
 dprint
 sccache
 cargo-clone
+cargo-c
