@@ -29,3 +29,4 @@ cocogitto
 grcov
 cargo-instruments
 sccache
+cargo-c
