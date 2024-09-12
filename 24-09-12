@@ -70,3 +70,4 @@ cargo-spellcheck
 sgxs-tools
 cargo-bom
 kurobako
+cargo-generate
