@@ -164,3 +164,4 @@ cargo-ebuild
 xcp
 lurk-cli
 cargo-pgx
+swc_cli
