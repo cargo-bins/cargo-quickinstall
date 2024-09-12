@@ -106,3 +106,4 @@ cargo-spellcheck
 cargo-generate
 rerast
 taplo-cli
+dprint
