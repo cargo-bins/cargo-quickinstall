@@ -34,3 +34,4 @@ mdcat
 cargo-bom
 cargo-bpf
 cocogitto
+cargo-generate
