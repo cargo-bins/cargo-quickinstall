@@ -67,3 +67,4 @@ cargo-lock
 broot
 cargo-generate
 cargo-udeps
+sccache
