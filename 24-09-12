@@ -34,3 +34,4 @@ bgpkit-broker
 xbuild
 irust
 ffsend
+cargo-outdated
