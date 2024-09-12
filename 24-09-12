@@ -47,3 +47,4 @@ intel-mkl-tool
 pnafs
 git-disjoint
 rerast
+cargo-lock
