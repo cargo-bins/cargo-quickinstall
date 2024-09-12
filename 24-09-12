@@ -15,3 +15,4 @@ rsgen-avro
 tp-note
 cargo-bom
 zellij
+cargo-bitbake
