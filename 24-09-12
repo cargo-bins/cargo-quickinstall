@@ -74,3 +74,4 @@ cargo-generate
 cargo-lock
 cargo-clone-crate
 bottom
+grcov
