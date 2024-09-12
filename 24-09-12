@@ -93,3 +93,4 @@ maturin
 cargo-docset
 clippy
 archwiki-rs
+cargo-download
