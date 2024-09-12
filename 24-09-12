@@ -4,3 +4,4 @@ cargo-index
 tree-sitter-cli
 cargo-udeps
 cargo-show
+intel-mkl-tool
