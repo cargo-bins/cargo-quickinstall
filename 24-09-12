@@ -142,3 +142,4 @@ kanidm_tools
 prqlc
 rust-latest
 sqruff
+cargo-crev
