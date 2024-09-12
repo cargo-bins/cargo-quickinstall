@@ -17,3 +17,4 @@ cargo-spellcheck
 bottom
 wasm-opt
 cargo-dephell
+kmon
