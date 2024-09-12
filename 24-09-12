@@ -16,3 +16,4 @@ cargo-bpf
 bottom
 rerast
 semverver
+cargo-lock
