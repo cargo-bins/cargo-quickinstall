@@ -68,3 +68,4 @@ prqlc
 rexcli
 mdbook-plantuml
 hoard-rs
+cargo-bitbake
