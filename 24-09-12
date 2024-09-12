@@ -27,3 +27,4 @@ cargo-geiger
 cargo-local-registry
 gptman
 cargo-local-registry
+cargo-index
