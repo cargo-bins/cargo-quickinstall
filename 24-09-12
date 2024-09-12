@@ -21,3 +21,4 @@ probe-rs-debugger
 xbuild
 eureka
 ripunzip
+sea-orm-cli
