@@ -12,3 +12,4 @@ cargo-modules
 sccache
 cargo-udeps
 rust-latest
+cargo-bpf
