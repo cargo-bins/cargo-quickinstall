@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import subprocess
+import sys
 from typing import TypedDict
 
 import polars as pl
@@ -21,7 +22,7 @@ def cache_on_disk_json(func):
         except FileNotFoundError:
             pass
         except json.JSONDecodeError:
-            print(f"WARNING: Failed to decode {cache_file}. Deleting.")
+            print(f"WARNING: Failed to decode {cache_file}. Deleting.", file=sys.stderr)
             os.remove(cache_file)
 
         result = func(*args, **kwargs)
@@ -128,6 +129,7 @@ def get_logs(databaseId: WorkflowRun["databaseId"]) -> pl.DataFrame:
 def tidy_logs(logs: pl.DataFrame) -> pl.DataFrame:
     # split timestamp_and_message into timestamp and message
     logs = logs.with_columns(
+        logs["job"].str.replace("^build-popular-package-(.*)-$", "${1}").alias("job"),
         # in theory we could parse the timestamp, but I don't think we actually need it right now.
         # logs["timestamp_and_message"].str.replace(" .*", "").alias("timestamp"),
         logs["timestamp_and_message"]
@@ -202,8 +204,7 @@ def df_to_markdown(df: pl.DataFrame) -> str:
 def main():
     pl.Config.set_fmt_str_lengths(1000).set_tbl_rows(1000)
     failing_runs = get_failing_runs(limit=100)
-    print(failing_runs)
-    print("failing run count:", len(failing_runs))
+    print("failing run count:", len(failing_runs), file=sys.stderr)
 
     all_errors = None
     for run in failing_runs:
@@ -216,6 +217,7 @@ def main():
             print(
                 "WARNING: No errors found in logs, even though the run failed:",
                 run["url"],
+                file=sys.stderr,
             )
         all_errors = errors if all_errors is None else all_errors.extend(errors)
 
@@ -224,13 +226,17 @@ def main():
         .agg(
             [
                 pl.len().alias("count"),
-                pl.col("url").sample().alias("example_url"),
+                pl.col("job").first().alias("example_job"),
+                # Annoyingly, this gives you a link to the top level of the run, and you have to
+                # click through to the job. I think that we could work at the job level by using
+                # the github api, but I started using the gh cli, so I'll leave this as an exercise
+                # for the reader.
+                pl.col("url").first().alias("example_url"),
             ]
         )
         .sort("count", descending=True)
     )
     print(df_to_markdown(result))
-    # print(all_errors)
 
 
 if __name__ == "__main__":
