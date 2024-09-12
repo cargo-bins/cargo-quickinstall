@@ -72,3 +72,4 @@ cargo-bom
 kurobako
 cargo-generate
 cargo-lock
+cargo-clone-crate
