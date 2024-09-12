@@ -12,3 +12,4 @@ gptman
 cargo-profiler
 gitui
 cargo-generate
+cargo-vendor
