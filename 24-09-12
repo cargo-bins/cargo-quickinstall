@@ -128,3 +128,4 @@ git_lab_cli
 hoard-rs
 cargo-lock
 hurlfmt
+codeberg-cli
