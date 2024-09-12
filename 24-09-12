@@ -139,3 +139,4 @@ hurlfmt
 pico-uf2
 spl-token-cli
 cargo-dephell
+probe-rs-debugger
