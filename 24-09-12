@@ -104,3 +104,4 @@ ic-wasm
 cce
 sgxs-tools
 probe-rs-tools
+stac-cli
