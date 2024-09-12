@@ -19,3 +19,4 @@ wasm-opt
 cargo-dephell
 kmon
 diesel_cli
+cargo-udeps
