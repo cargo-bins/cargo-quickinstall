@@ -6,3 +6,4 @@ intel-mkl-tool
 scryer-prolog
 atuin
 cargo-clone
+cargo-local-registry
