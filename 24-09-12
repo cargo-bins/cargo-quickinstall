@@ -170,3 +170,4 @@ bindgen-cli
 mise
 tp-note
 deno
+release-plz
