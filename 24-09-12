@@ -71,3 +71,4 @@ sccache
 cargo-bitbake
 cargo-spellcheck
 taplo-cli
+cocogitto
