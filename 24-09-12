@@ -14,3 +14,4 @@ cargo-udeps
 rust-latest
 cargo-bpf
 bottom
+rerast
