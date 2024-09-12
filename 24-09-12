@@ -57,3 +57,4 @@ broot
 cargo-instruments
 cargo-spellcheck
 cargo-bom
+taplo-cli
