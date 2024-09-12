@@ -80,3 +80,4 @@ cargo-bpf
 cargo-bom
 taplo-cli
 zellij
+dprint
