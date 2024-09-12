@@ -11,3 +11,4 @@ skim
 gptman
 cargo-profiler
 gitui
+cargo-generate
