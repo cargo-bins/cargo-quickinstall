@@ -19,3 +19,4 @@ cargo-bitbake
 webdriver-install
 gptman
 kurobako
+cargo-lock
