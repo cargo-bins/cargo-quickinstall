@@ -151,3 +151,4 @@ prqlc
 tauri-bundler
 cargo-compete
 leetcode-cli
+cargo-pgrx
