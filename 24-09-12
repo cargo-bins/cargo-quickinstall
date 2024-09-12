@@ -44,3 +44,4 @@ cargo-clone-crate
 gptman
 broot
 zellij
+sccache
