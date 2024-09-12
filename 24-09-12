@@ -35,3 +35,4 @@ ruff
 nextsv
 project_init
 cargo-instruments
+codeberg-cli
