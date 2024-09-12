@@ -149,3 +149,4 @@ bgpkit-parser
 cargo-bpf
 prqlc
 tauri-bundler
+cargo-compete
