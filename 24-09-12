@@ -60,3 +60,4 @@ sccache
 grcov
 cargo-generate
 dprint
+sccache
