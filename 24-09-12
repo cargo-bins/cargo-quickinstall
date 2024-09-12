@@ -141,3 +141,4 @@ spl-token-cli
 cargo-dephell
 probe-rs-debugger
 bugstalker
+git-next
