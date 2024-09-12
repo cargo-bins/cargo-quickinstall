@@ -46,3 +46,4 @@ broot
 zellij
 sccache
 cargo-udeps
+cargo-bom
