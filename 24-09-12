@@ -98,3 +98,4 @@ gpg-tui
 typst-cli
 cargo-espflash
 git_lab_cli
+rsgen-avro
