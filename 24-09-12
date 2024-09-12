@@ -22,3 +22,4 @@ atuin
 chain-spec-builder
 cargo-travis
 termusic
+spl-token-cli
