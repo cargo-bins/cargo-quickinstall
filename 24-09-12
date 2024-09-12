@@ -28,3 +28,4 @@ cargo-c
 nitrocli
 cargo-lock
 grcov
+broot
