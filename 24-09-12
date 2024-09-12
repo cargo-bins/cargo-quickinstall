@@ -35,3 +35,4 @@ cargo-udeps
 cargo-pgx
 cargo-download
 cargo-spellcheck
+cargo-whatfeatures
