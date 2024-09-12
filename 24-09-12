@@ -78,3 +78,4 @@ grcov
 cargo-bpf
 cargo-bitbake
 dprint
+cargo-clone
