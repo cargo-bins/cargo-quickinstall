@@ -38,3 +38,4 @@ cargo-outdated
 cargo
 cargo-msrv
 cargo-lock
+gptman
