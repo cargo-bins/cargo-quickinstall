@@ -65,3 +65,4 @@ sane-fmt
 cargo-generate
 cargo-udeps
 cargo-c
+cargo-lock
