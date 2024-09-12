@@ -42,3 +42,4 @@ cargo-lock
 cargo-bitbake
 cargo-clone-crate
 gptman
+broot
