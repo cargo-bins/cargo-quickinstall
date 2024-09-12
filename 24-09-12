@@ -8,3 +8,4 @@ sane-fmt
 cargo-info
 cargo-pgx
 cicada
+cargo-local-registry
