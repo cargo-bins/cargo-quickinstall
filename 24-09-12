@@ -22,3 +22,4 @@ diesel_cli
 cargo-udeps
 gptman
 macchina
+cargo-download
