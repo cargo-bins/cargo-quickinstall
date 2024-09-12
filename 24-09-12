@@ -45,3 +45,4 @@ gptman
 broot
 zellij
 sccache
+cargo-udeps
