@@ -36,3 +36,4 @@ cargo-bpf
 cocogitto
 cargo-generate
 zellij
+cargo-clone
