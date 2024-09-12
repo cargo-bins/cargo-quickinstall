@@ -75,3 +75,4 @@ cargo-lock
 cargo-clone-crate
 bottom
 grcov
+cargo-bpf
