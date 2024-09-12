@@ -54,3 +54,4 @@ inlyne
 cargo-public-api
 deno
 cargo-geiger
+cargo-instruments
