@@ -20,3 +20,4 @@ cargo-dephell
 kmon
 diesel_cli
 cargo-udeps
+gptman
