@@ -11,3 +11,4 @@ starship
 intel-mkl-tool
 jql
 cargo-geiger
+cargo-instruments
