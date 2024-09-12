@@ -58,3 +58,4 @@ cargo-bpf
 rerast
 cicada
 tp-note
+cargo-vendor
