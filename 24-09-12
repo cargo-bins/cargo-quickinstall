@@ -18,3 +18,4 @@ cargo
 xcp
 mdbook-plantuml
 cargo-ebuild
+pfetch
