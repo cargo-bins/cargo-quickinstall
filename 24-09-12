@@ -137,3 +137,4 @@ svlint
 rsgen-avro
 bgpkit-parser
 yofi
+swc_cli
