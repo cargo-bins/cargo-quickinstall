@@ -1,3 +1,4 @@
 git_lab_cli
 cargo-local-registry
 rexcli
+sane-fmt
