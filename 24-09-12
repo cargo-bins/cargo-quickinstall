@@ -34,3 +34,4 @@ xbuild
 ruff
 nextsv
 project_init
+cargo-instruments
