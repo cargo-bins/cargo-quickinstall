@@ -52,3 +52,4 @@ grcov
 taplo-cli
 cargo-instruments
 cargo-c
+kickstart
