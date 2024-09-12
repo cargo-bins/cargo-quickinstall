@@ -6,3 +6,4 @@ cargo-local-registry
 cargo-instruments
 dprint
 gitui
+cargo-local-registry
