@@ -77,3 +77,4 @@ bottom
 grcov
 cargo-bpf
 cargo-bitbake
+dprint
