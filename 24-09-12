@@ -15,3 +15,4 @@ cargo-instruments
 cargo-equip
 cargo-spellcheck
 bottom
+wasm-opt
