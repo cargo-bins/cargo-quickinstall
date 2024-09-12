@@ -39,3 +39,4 @@ grcov
 kurobako
 cargo-c
 cargo-lock
+cargo-bitbake
