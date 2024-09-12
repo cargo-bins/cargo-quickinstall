@@ -4,3 +4,4 @@ cargo-dephell
 bandwhich
 cargo-local-registry
 cargo-instruments
+dprint
