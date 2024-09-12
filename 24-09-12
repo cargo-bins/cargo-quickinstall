@@ -11,3 +11,4 @@ taplo-cli
 cargo-modules
 sccache
 cargo-udeps
+rust-latest
