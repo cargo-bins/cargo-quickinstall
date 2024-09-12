@@ -114,3 +114,4 @@ atuin
 project_init
 cargo-bom
 rioterm
+sea-orm-cli
