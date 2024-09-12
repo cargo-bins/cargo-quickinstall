@@ -39,3 +39,4 @@ tauri-bundler
 git-disjoint
 sequoia-sq
 parquet
+pnafs
