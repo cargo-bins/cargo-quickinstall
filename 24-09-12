@@ -99,3 +99,4 @@ grcov
 cocogitto
 dprint
 cargo-generate
+cargo-clone
