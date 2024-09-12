@@ -130,3 +130,4 @@ cargo-lock
 hurlfmt
 codeberg-cli
 clippy
+rg
