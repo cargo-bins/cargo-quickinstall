@@ -34,3 +34,4 @@ parquet
 cargo-lock
 rerast
 cargo-ebuild
+cargo-ebuild
