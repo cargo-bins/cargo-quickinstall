@@ -17,4 +17,4 @@ runs:
       uses: actions/cache@v4
       with:
         path: cached_crates_io_popular_crates.parquet
-        key: ${{ env.NOW }}-primes
+        key: ${{ env.NOW }}-cached_crates_io_popular_crates.parquet
