@@ -41,3 +41,4 @@ cargo-bitbake
 watchexec
 cargo-lock
 cargo-instruments
+cargo-udeps
