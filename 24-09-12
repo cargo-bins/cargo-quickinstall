@@ -5,3 +5,4 @@ cargo-travis
 natls
 leetcode-cli
 kubie
+cargo-pgx
