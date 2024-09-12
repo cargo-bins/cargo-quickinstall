@@ -61,3 +61,4 @@ cargo-download
 cargo-pgx
 regress
 cargo-udeps
+starship
