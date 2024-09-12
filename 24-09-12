@@ -116,3 +116,4 @@ cargo-bom
 rioterm
 sea-orm-cli
 sane-fmt
+speedtest-rs
