@@ -88,3 +88,4 @@ zellij
 cargo-bpf
 cargo-bom
 cargo-generate
+taplo-cli
