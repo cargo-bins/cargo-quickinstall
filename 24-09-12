@@ -28,3 +28,4 @@ bliss
 watchexec
 drone
 cargo-pgx
+dump_syms
