@@ -10,3 +10,4 @@ cargo-local-registry
 starship
 intel-mkl-tool
 jql
+cargo-geiger
