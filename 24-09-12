@@ -31,3 +31,4 @@ cargo-index
 kmon
 diesel_cli
 cargo-clone
+cargo-udeps
