@@ -2,3 +2,4 @@ tp-note
 intel-mkl-tool
 cargo-index
 tree-sitter-cli
+cargo-udeps
