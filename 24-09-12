@@ -56,3 +56,4 @@ cargo-udeps
 cargo-spellcheck
 cargo-bpf
 cargo-lock
+sccache
