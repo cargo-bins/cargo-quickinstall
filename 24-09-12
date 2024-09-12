@@ -35,3 +35,4 @@ tauri-bundler
 cargo-embed
 feroxbuster
 ncspot
+diesel_cli
