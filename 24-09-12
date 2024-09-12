@@ -95,3 +95,4 @@ kurobako
 broot
 cargo-udeps
 sane-fmt
+grcov
