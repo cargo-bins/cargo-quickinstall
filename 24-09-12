@@ -103,3 +103,4 @@ odbcsv
 ic-wasm
 cce
 sgxs-tools
+probe-rs-tools
