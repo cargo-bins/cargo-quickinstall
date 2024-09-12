@@ -40,3 +40,4 @@ cargo-clone
 cargo-bitbake
 watchexec
 cargo-lock
+cargo-instruments
