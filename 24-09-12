@@ -104,3 +104,4 @@ sgxs-tools
 cocogitto
 cargo-spellcheck
 cargo-generate
+rerast
