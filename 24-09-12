@@ -25,3 +25,4 @@ pnafs
 git-disjoint
 cargo-bpf
 hurl
+tauri-bundler
