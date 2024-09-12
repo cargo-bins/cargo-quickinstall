@@ -151,3 +151,4 @@ sniffnet
 diesel_cli
 intel-mkl-tool
 vrc-log
+sane-fmt
