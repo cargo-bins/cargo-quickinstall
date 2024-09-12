@@ -38,3 +38,4 @@ cargo-ebuild
 tauri-bundler
 git-disjoint
 sequoia-sq
+parquet
