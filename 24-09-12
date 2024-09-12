@@ -2,3 +2,4 @@ flowistry_ide
 patch-crate
 cargo-lock
 mise
+watchexec
