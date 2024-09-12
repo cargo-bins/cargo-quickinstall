@@ -90,3 +90,4 @@ taplo-cli
 broot
 zellij
 cargo-udeps
+cargo-clone-crate
