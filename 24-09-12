@@ -30,3 +30,4 @@ cargo-local-registry
 cargo-index
 kmon
 diesel_cli
+cargo-clone
