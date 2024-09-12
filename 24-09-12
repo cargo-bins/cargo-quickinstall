@@ -56,3 +56,4 @@ kickstart
 broot
 cargo-instruments
 cargo-spellcheck
+cargo-bom
