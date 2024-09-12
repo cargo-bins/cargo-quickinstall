@@ -39,3 +39,4 @@ zellij
 cargo-clone
 cargo-bitbake
 watchexec
+cargo-lock
