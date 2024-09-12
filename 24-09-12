@@ -31,3 +31,4 @@ cargo-pgx
 dump_syms
 swc_cli
 bgpkit-broker
+xbuild
