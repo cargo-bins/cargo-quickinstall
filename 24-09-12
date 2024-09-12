@@ -94,3 +94,4 @@ cargo-clone-crate
 kurobako
 broot
 cargo-udeps
+sane-fmt
