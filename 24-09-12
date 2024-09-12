@@ -90,3 +90,4 @@ cargo-unused-features
 probe-rs-tools
 redoxer
 maturin
+cargo-docset
