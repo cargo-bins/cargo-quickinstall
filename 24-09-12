@@ -24,3 +24,4 @@ kmon
 dutree
 rtx-cli
 cargo-crev
+cargo-bpf
