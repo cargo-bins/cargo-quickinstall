@@ -126,3 +126,4 @@ deno
 scryer-prolog
 git_lab_cli
 hoard-rs
+cargo-lock
