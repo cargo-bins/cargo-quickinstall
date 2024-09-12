@@ -7,3 +7,4 @@ cargo-show
 intel-mkl-tool
 macchina
 redoxer
+cargo-codspeed
