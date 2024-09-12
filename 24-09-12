@@ -36,3 +36,4 @@ irust
 ffsend
 cargo-outdated
 cargo
+cargo-msrv
