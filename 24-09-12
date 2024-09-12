@@ -55,3 +55,4 @@ cargo-public-api
 deno
 cargo-geiger
 cargo-instruments
+release-plz
