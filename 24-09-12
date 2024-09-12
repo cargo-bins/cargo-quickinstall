@@ -108,3 +108,4 @@ ic-wasm
 rerun-cli
 maturin
 vrc-log
+qsv
