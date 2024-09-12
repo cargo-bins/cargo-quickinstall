@@ -17,3 +17,4 @@ deno
 cargo-ebuild
 project_init
 google-drive3-cli
+cargo-bpf
