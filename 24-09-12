@@ -58,3 +58,4 @@ cargo-bpf
 cargo-lock
 sccache
 grcov
+cargo-generate
