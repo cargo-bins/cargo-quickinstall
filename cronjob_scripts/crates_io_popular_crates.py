@@ -1,12 +1,12 @@
 from __future__ import annotations
 
-import subprocess
 import tarfile
-from tempfile import TemporaryDirectory
-from shutil import copyfileobj
+import warnings
 
 import requests
 import polars as pl
+
+warnings.filterwarnings("ignore", message="Polars found a filename")
 
 class TarEntry:
     def __init__(self, tarball: tarfile.TarFile, member: tarfile.TarInfo):
@@ -27,6 +27,11 @@ class TarEntry:
             assert stream
             copyfileobj(stream, f)
 
+    def get_file_stream(self):
+        stream = self.tarball.extractfile(self.member)
+        assert stream
+        return stream
+
 def download_tar_gz(url):
     response = requests.get(url, stream=True)
     response.raise_for_status()
@@ -39,34 +44,35 @@ def download_tar_gz(url):
             yield TarEntry(tarball, member)
 
 def get_crates_io_popular_crates(minimum_downloads=4000):
-    with TemporaryDirectory() as temp_dir:
-        files_to_extract = ("crate_downloads.csv", "crates.csv", "default_versions.csv", "versions.csv")
-        files_extracted = 0
-        for entry in download_tar_gz('https://static.crates.io/db-dump.tar.gz'):
-            name = entry.is_one_of_csvs_interested(files_to_extract)
-            if name:
-                entry.extract_to(f"{temp_dir}/{name}")
-                files_extracted += 1
-                if files_extracted == len(files_to_extract):
-                    break
+    files_to_extract = ("crate_downloads.csv", "crates.csv", "default_versions.csv", "versions.csv")
+    files_extracted = 0
+    dfs = {}
+    for entry in download_tar_gz('https://static.crates.io/db-dump.tar.gz'):
+        name = entry.is_one_of_csvs_interested(files_to_extract)
+        if name:
+            #entry.extract_to(f"{temp_dir}/{name}")
+            dfs[name] = pl.scan_csv(entry.get_file_stream())
+            files_extracted += 1
+            if files_extracted == len(files_to_extract):
+                return (
+                    row[0]
+                    for row in dfs["crate_downloads.csv"]
+                    .join(dfs["crates.csv"].select("id", "name"), left_on="crate_id", right_on="id")
+                    .join(dfs["default_versions.csv"], on="crate_id")
+                    .join(
+                        dfs["versions.csv"].select("id", "crate_id", "yanked", "bin_names"),
+                        left_on=("crate_id", "version_id"),
+                        right_on=("crate_id", "id"),
+                    )
+                    .filter(pl.col("bin_names") != "{}", pl.col("yanked") == "f")
+                    .filter(pl.col("downloads") > 40000)
+                    .select("name")
+                    # TODO: https://github.com/pola-rs/polars/issues/10683
+                    .collect()
+                    .iter_rows()
+                )
 
-        return (
-            row[0]
-            for row in pl.scan_csv(f"{temp_dir}/crate_downloads.csv")
-            .join(pl.scan_csv(f"{temp_dir}/crates.csv").select("id", "name"), left_on="crate_id", right_on="id")
-            .join(pl.scan_csv(f"{temp_dir}/default_versions.csv"), on="crate_id")
-            .join(
-                pl.scan_csv(f"{temp_dir}/versions.csv").select("id", "crate_id", "yanked", "bin_names"),
-                left_on=("crate_id", "version_id"),
-                right_on=("crate_id", "id"),
-            )
-            .filter(pl.col("bin_names") != "{}", pl.col("yanked") == "f")
-            .filter(pl.col("downloads") > 40000)
-            .select("name")
-            # TODO: https://github.com/pola-rs/polars/issues/10683
-            .collect(streaming=True)
-            .iter_rows()
-        )
+    raise RuntimeError(f"Failed to find all csvs {files_to_extract}")
 
 
 if __name__ == "__main__":
