@@ -12,3 +12,4 @@ intel-mkl-tool
 jql
 cargo-geiger
 cargo-instruments
+cargo-equip
