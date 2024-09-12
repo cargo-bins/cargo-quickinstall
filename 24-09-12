@@ -62,3 +62,4 @@ cargo-pgx
 regress
 cargo-udeps
 starship
+my-iot
