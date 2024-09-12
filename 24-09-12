@@ -37,3 +37,4 @@ cocogitto
 cargo-generate
 zellij
 cargo-clone
+cargo-bitbake
