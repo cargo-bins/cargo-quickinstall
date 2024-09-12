@@ -148,3 +148,4 @@ dtn7
 bgpkit-parser
 cargo-bpf
 prqlc
+tauri-bundler
