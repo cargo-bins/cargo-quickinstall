@@ -4,3 +4,4 @@ feroxbuster
 nitrocli
 cargo-compete
 cargo-bitbake
+grcov
