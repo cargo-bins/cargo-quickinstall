@@ -62,3 +62,4 @@ cargo-equip
 cargo-spellcheck
 cargo-lock
 sane-fmt
+cargo-generate
