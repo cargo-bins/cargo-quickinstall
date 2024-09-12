@@ -102,3 +102,4 @@ cargo-generate
 cargo-clone
 sgxs-tools
 cocogitto
+cargo-spellcheck
