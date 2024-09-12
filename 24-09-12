@@ -21,3 +21,4 @@ cargo-local-registry
 cargo-show
 tab
 regress
+cargo-lock
