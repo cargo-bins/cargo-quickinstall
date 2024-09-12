@@ -21,3 +21,4 @@ kickstart
 ffsend
 zellij
 cargo-instruments
+rust-latest
