@@ -48,3 +48,4 @@ cargo-instruments
 tp-note
 dprint
 gitui
+cargo-lock
