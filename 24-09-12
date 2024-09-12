@@ -31,3 +31,4 @@ cargo-instruments
 sccache
 cargo-c
 mdcat
+cargo-bom
