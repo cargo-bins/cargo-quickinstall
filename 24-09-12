@@ -23,3 +23,4 @@ zellij
 cargo-instruments
 rust-latest
 cargo-pgx
+cargo-bom
