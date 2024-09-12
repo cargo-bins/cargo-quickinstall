@@ -37,3 +37,4 @@ project_init
 cargo-instruments
 codeberg-cli
 ffs
+cargo-equip
