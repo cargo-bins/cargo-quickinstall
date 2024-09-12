@@ -56,3 +56,4 @@ deno
 cargo-geiger
 cargo-instruments
 release-plz
+cce
