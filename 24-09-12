@@ -34,3 +34,4 @@ cargo-clone
 cargo-udeps
 cargo-pgx
 cargo-download
+cargo-spellcheck
