@@ -64,3 +64,4 @@ sccache
 cargo-clone
 cargo-c
 cargo-lock
+broot
