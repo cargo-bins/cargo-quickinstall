@@ -91,7 +91,7 @@ def get_runs(limit) -> list[WorkflowRun]:
 
 def get_failing_runs(limit: int) -> list[WorkflowRun]:
     runs = get_runs(limit=limit)
-    print(run for run in runs if ("status" not in run))
+
     return [
         run
         for run in runs
@@ -156,10 +156,47 @@ def tidy_logs(logs: pl.DataFrame) -> pl.DataFrame:
 
 
 def get_unique_errors(logs: pl.DataFrame) -> pl.DataFrame:
-    return logs.filter(
-        logs["message"].str.starts_with("error: ")
-        # | logs["message"].str.starts_with("warning: ")
+    errors = logs.filter(logs["message"].str.starts_with("error: ")).unique()
+
+    if errors.shape[0] > 0:
+        return errors
+
+    warnings = logs.filter(
+        (
+            logs["message"].str.starts_with("warning: ")
+            & ~logs["message"].str.starts_with(
+                "warning: no Cargo.lock file published in "
+            )
+            | logs["message"].str.contains(
+                "failed to select a version for the requirement"
+            )
+        )
     ).unique()
+
+    if warnings.shape[0] > 0:
+        return warnings
+
+    errors = logs.filter(logs["message"].str.contains("^error(\[E[0-9]*\])?: ")).head()
+    return errors
+
+
+def df_to_markdown(df: pl.DataFrame) -> str:
+    # Get column names
+    headers = df.columns
+
+    # Create the header row in markdown format
+    header_row = "| " + " | ".join(headers) + " |"
+
+    # Create the separator row
+    separator_row = "| " + " | ".join(["---"] * len(headers)) + " |"
+
+    # Create the data rows
+    data_rows = ["| " + " | ".join(map(str, row)) + " |" for row in df.to_numpy()]
+
+    # Combine all rows
+    markdown_table = "\n".join([header_row, separator_row] + data_rows)
+
+    return markdown_table
 
 
 def main():
@@ -171,6 +208,7 @@ def main():
     all_errors = None
     for run in failing_runs:
         logs = get_logs(run["databaseId"])
+        logs = logs.with_columns(pl.lit(run["url"]).alias("url"))
         logs = tidy_logs(logs)
 
         errors = get_unique_errors(logs)
@@ -181,7 +219,17 @@ def main():
             )
         all_errors = errors if all_errors is None else all_errors.extend(errors)
 
-    print(all_errors["message"].value_counts(sort=True))
+    result = (
+        all_errors.group_by("message")
+        .agg(
+            [
+                pl.len().alias("count"),
+                pl.col("url").sample().alias("example_url"),
+            ]
+        )
+        .sort("count", descending=True)
+    )
+    print(df_to_markdown(result))
     # print(all_errors)
 
 
