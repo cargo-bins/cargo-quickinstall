@@ -163,3 +163,4 @@ sane-fmt
 cargo-ebuild
 xcp
 lurk-cli
+cargo-pgx
