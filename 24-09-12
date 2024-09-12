@@ -14,3 +14,4 @@ chain-spec-builder
 git-disjoint
 atuin
 deno
+cargo-ebuild
