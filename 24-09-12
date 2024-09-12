@@ -26,3 +26,4 @@ cargo-generate
 cargo-vendor
 dprint
 ffsend
+gitui
