@@ -12,3 +12,4 @@ cargo-local-registry
 mdcat
 cicada
 sqlx-cli
+project_init
