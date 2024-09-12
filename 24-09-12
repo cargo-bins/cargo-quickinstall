@@ -87,3 +87,4 @@ drone
 webdriver-install
 semverver
 cargo-unused-features
+probe-rs-tools
