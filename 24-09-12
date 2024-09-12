@@ -63,3 +63,4 @@ cargo-spellcheck
 cargo-lock
 sane-fmt
 cargo-generate
+cargo-udeps
