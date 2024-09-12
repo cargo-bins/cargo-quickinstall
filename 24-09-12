@@ -57,3 +57,4 @@ cargo-spellcheck
 cargo-bpf
 cargo-lock
 sccache
+grcov
