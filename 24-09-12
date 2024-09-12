@@ -32,3 +32,4 @@ sccache
 cargo-c
 mdcat
 cargo-bom
+cargo-bpf
