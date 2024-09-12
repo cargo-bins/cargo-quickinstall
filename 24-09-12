@@ -9,3 +9,4 @@ cargo-pgx
 spl-token-cli
 ncspot
 dutree
+clippy
