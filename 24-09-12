@@ -52,3 +52,4 @@ scryer-prolog
 sane-fmt
 cocogitto
 cargo-spellcheck
+cargo-udeps
