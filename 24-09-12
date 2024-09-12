@@ -133,3 +133,4 @@ clippy
 rg
 pcu
 nitrocli
+svlint
