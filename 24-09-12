@@ -26,3 +26,4 @@ cargo-local-registry
 cargo-udeps
 cargo-c
 nitrocli
+cargo-lock
