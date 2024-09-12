@@ -22,3 +22,4 @@ kurobako
 cargo-lock
 taplo-cli
 broot
+cargo-local-registry
