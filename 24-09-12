@@ -142,3 +142,4 @@ cargo-dephell
 probe-rs-debugger
 bugstalker
 git-next
+gpg-tui
