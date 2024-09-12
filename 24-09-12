@@ -36,3 +36,4 @@ cargo-embed
 feroxbuster
 ncspot
 diesel_cli
+regress
