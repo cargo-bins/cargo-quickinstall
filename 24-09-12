@@ -21,3 +21,4 @@ cargo-ebuild
 pfetch
 rsgen-avro
 dump_syms
+ic-wasm
