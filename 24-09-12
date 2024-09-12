@@ -2,3 +2,4 @@ cargo-modules
 cargo-tarpaulin
 feroxbuster
 nitrocli
+cargo-compete
