@@ -33,3 +33,4 @@ diesel_cli
 cargo-clone
 cargo-udeps
 cargo-pgx
+cargo-download
