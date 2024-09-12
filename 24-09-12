@@ -71,3 +71,4 @@ sgxs-tools
 cargo-bom
 kurobako
 cargo-generate
+cargo-lock
