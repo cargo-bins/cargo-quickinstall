@@ -53,3 +53,4 @@ zellij
 tp-note
 tp-note
 cargo-local-registry
+cargo-profiler
