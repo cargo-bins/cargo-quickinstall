@@ -42,3 +42,4 @@ watchexec
 cargo-lock
 cargo-instruments
 cargo-udeps
+cargo-c
