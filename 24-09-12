@@ -39,3 +39,4 @@ cargo
 cargo-msrv
 cargo-lock
 gptman
+cargo-codspeed
