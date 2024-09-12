@@ -47,3 +47,4 @@ ffs
 probe-rs-tools
 meli
 cargo-instruments
+cargo-codspeed
