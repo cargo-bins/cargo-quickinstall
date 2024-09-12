@@ -60,3 +60,4 @@ gnostr-bins
 intel-mkl-tool
 regress
 cargo-public-api
+deno
