@@ -62,3 +62,4 @@ cargo-vendor
 tp-note
 tauri-bundler
 gptman
+project_init
