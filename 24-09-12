@@ -155,3 +155,4 @@ sane-fmt
 drone
 cargo-list
 cargo-index
+diesel_cli
