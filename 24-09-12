@@ -16,3 +16,4 @@ cargo-equip
 cargo-spellcheck
 bottom
 wasm-opt
+cargo-dephell
