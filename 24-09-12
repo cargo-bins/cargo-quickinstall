@@ -33,3 +33,4 @@ cocogitto
 cargo-modules
 dprint
 cargo-udeps
+cargo-c
