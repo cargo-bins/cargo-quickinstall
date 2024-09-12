@@ -7,3 +7,4 @@ cargo-instruments
 dprint
 gitui
 cargo-local-registry
+skim
