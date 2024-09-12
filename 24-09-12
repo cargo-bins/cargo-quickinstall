@@ -20,3 +20,4 @@ mdbook-plantuml
 cargo-ebuild
 pfetch
 rsgen-avro
+dump_syms
