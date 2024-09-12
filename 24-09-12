@@ -51,3 +51,4 @@ cargo-codspeed
 rg
 silicon
 inlyne
+cargo-public-api
