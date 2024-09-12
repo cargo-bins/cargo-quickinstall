@@ -105,3 +105,4 @@ legba
 kmon
 evcxr_repl
 ic-wasm
+rerun-cli
