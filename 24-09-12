@@ -91,3 +91,4 @@ probe-rs-tools
 redoxer
 maturin
 cargo-docset
+clippy
