@@ -66,3 +66,4 @@ cargo-c
 cargo-lock
 broot
 cargo-generate
+cargo-udeps
