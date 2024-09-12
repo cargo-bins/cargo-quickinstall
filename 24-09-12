@@ -86,3 +86,4 @@ vrc-log
 drone
 webdriver-install
 semverver
+cargo-unused-features
