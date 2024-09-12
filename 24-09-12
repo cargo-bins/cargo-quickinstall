@@ -19,3 +19,4 @@ xcp
 mdbook-plantuml
 cargo-ebuild
 pfetch
+rsgen-avro
