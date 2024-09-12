@@ -107,3 +107,4 @@ evcxr_repl
 ic-wasm
 rerun-cli
 maturin
+vrc-log
