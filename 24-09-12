@@ -45,3 +45,4 @@ cargo-udeps
 cargo-c
 cargo-bpf
 cargo-bitbake
+cargo-equip
