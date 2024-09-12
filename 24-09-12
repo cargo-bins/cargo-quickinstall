@@ -59,3 +59,4 @@ cargo-lock
 sccache
 grcov
 cargo-generate
+dprint
