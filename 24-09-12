@@ -40,3 +40,4 @@ kurobako
 cargo-c
 cargo-lock
 cargo-bitbake
+cargo-clone-crate
