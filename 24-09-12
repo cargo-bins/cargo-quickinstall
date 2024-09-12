@@ -25,3 +25,4 @@ ic-wasm
 duma
 swc_cli
 bliss
+watchexec
