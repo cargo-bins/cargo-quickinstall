@@ -11,6 +11,7 @@ runs:
 
     - name: Set current date as env variable
       run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      shell: bash
 
     - name: Cache crates-io popular crates
       uses: actions/cache@v4
