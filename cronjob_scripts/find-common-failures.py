@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from __future__ import annotations
 
 import json
@@ -9,6 +10,7 @@ from typing import TypedDict
 import polars as pl
 
 
+# FIXME: add a max_age parameter to this decorator or something (by reading the mtime of the file)?
 def cache_on_disk_json(func):
     def wrapper(*args, **kwargs):
         cache_file = f"/tmp/{func.__name__}/{args}-{kwargs}.json"
@@ -183,6 +185,7 @@ def get_unique_errors(logs: pl.DataFrame) -> pl.DataFrame:
 
 
 def df_to_markdown(df: pl.DataFrame) -> str:
+    """Quick and dirty ChatGPT implementation, because polars doesn't have a to_markdown method."""
     # Get column names
     headers = df.columns
 
@@ -240,4 +243,15 @@ def main():
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        # yeah, I should probably have done this as a jupyter notebook, but nevermind.
+        print(
+            f"""
+            USAGE: {sys.argv[0]} > /tmp/fail.md && code /tmp/fail.
+
+            Then use vscode's preview mode to view the result.
+            """,
+            file=sys.stderr,
+        )
+        exit(1)
     main()
