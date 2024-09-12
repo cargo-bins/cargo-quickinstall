@@ -8,3 +8,4 @@ grcov
 taplo-cli
 cocogitto
 broot
+cargo-c
