@@ -22,11 +22,7 @@ jobs:
           ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version-file: "cronjob_scripts/.python-version"
-          cache: "pip"
-          cache-dependency-path: "**/requirements.txt"
+      - uses: ./.github/actions/cronjob-setup
 
       - name: recheck cargo-quickinstall and some random crates on all architectures
         id: find_crate

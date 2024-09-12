@@ -55,11 +55,7 @@ jobs:
       - name: Run cargo test
         run: cargo test
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version-file: "cronjob_scripts/.python-version"
-          cache: "pip"
-          cache-dependency-path: "**/requirements.txt"
+      - uses: ./.github/actions/cronjob-setup
 
       - name: Test python cronjob_scripts
         run: make test-cronjob-scripts
