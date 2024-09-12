@@ -32,3 +32,4 @@ gnostr-bins
 deno
 parquet
 cargo-lock
+rerast
