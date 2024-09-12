@@ -98,3 +98,4 @@ sane-fmt
 grcov
 cocogitto
 dprint
+cargo-generate
