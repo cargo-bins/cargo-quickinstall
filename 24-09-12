@@ -61,3 +61,4 @@ taplo-cli
 cargo-equip
 cargo-spellcheck
 cargo-lock
+sane-fmt
