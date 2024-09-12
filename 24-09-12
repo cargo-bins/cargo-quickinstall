@@ -64,3 +64,4 @@ tauri-bundler
 gptman
 project_init
 rtx-cli
+cargo-vendor
