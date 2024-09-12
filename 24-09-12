@@ -83,3 +83,4 @@ zellij
 dprint
 cargo-bitbake
 cargo-bpf
+cargo-generate
