@@ -59,3 +59,4 @@ release-plz
 cce
 hurlfmt
 rust-latest
+cargo-leptos
