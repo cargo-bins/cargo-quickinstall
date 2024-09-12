@@ -82,3 +82,4 @@ taplo-cli
 zellij
 dprint
 cargo-bitbake
+cargo-bpf
