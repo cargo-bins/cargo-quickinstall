@@ -38,3 +38,4 @@ cargo-spellcheck
 grcov
 kurobako
 cargo-c
+cargo-lock
