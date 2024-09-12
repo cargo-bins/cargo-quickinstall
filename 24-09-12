@@ -11,3 +11,4 @@ cicada
 cargo-local-registry
 mdcat
 cicada
+sqlx-cli
