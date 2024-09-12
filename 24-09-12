@@ -52,3 +52,4 @@ regress
 gptman
 macchina
 cargo-dephell
+cargo-udeps
