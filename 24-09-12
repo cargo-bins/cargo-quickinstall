@@ -7,3 +7,4 @@ cargo-bitbake
 grcov
 taplo-cli
 cocogitto
+broot
