@@ -38,3 +38,4 @@ cargo-generate
 zellij
 cargo-clone
 cargo-bitbake
+watchexec
