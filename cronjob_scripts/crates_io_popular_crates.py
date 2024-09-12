@@ -43,7 +43,7 @@ def download_tar_gz(url):
                 return
             yield TarEntry(tarball, member)
 
-def get_crates_io_popular_crates(minimum_downloads=4000):
+def get_crates_io_popular_crates(minimum_downloads=40000):
     files_to_extract = ("crate_downloads.csv", "crates.csv", "default_versions.csv", "versions.csv")
     files_extracted = 0
     dfs = {}
@@ -65,7 +65,7 @@ def get_crates_io_popular_crates(minimum_downloads=4000):
                         right_on=("crate_id", "id"),
                     )
                     .filter(pl.col("bin_names") != "{}", pl.col("yanked") == "f")
-                    .filter(pl.col("downloads") > 40000)
+                    .filter(pl.col("downloads") > minimum_downloads)
                     .select("name")
                     # TODO: https://github.com/pola-rs/polars/issues/10683
                     .collect()
@@ -85,5 +85,5 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         minimum_downloads = int(sys.argv[1])
     else:
-        minimum_downloads = 4000
+        minimum_downloads = 40000
     print(list(get_crates_io_popular_crates(minimum_downloads)))
