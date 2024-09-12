@@ -30,3 +30,4 @@ grcov
 cargo-instruments
 sccache
 cargo-c
+mdcat
