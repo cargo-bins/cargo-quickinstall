@@ -80,3 +80,4 @@ rerast
 macchina
 dump_syms
 tree-sitter-cli
+evcxr_jupyter
