@@ -67,3 +67,4 @@ cargo-udeps
 cargo-c
 cargo-lock
 cargo-spellcheck
+sgxs-tools
