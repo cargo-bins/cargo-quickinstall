@@ -27,3 +27,4 @@ cargo-udeps
 cargo-c
 nitrocli
 cargo-lock
+grcov
