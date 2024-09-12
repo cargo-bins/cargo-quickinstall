@@ -61,3 +61,4 @@ intel-mkl-tool
 regress
 cargo-public-api
 deno
+tp-note
