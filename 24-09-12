@@ -44,3 +44,4 @@ cargo-instruments
 cargo-udeps
 cargo-c
 cargo-bpf
+cargo-bitbake
