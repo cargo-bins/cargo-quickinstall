@@ -21,3 +21,4 @@ cargo-bpf
 tp-note
 sgxs-tools
 odbcsv
+pnafs
