@@ -52,3 +52,4 @@ cargo-lock
 zellij
 tp-note
 tp-note
+cargo-local-registry
