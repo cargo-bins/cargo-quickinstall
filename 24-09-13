@@ -98,3 +98,4 @@ xbuild
 tendermint-rpc
 tendermint-abci
 ruff
+java-locator
