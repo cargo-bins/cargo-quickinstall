@@ -38,3 +38,4 @@ dotenvy
 racer
 re_query
 borsh
+socketcan
