@@ -23,3 +23,4 @@ sequoia-chameleon-gnupg
 sha1collisiondetection
 rls-rustc
 cached-path
+arrow-flight
