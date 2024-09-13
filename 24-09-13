@@ -89,3 +89,4 @@ vrc-log
 ef
 dotenv
 oso
+remove_dir_all
