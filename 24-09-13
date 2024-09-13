@@ -82,3 +82,4 @@ opencv-binding-generator
 rioterm
 cargo-show
 cpp_demangle
+cargo-whatfeatures
