@@ -52,3 +52,4 @@ nexmark
 rustrict
 remove_dir_all
 rustfmt-nightly
+unic-langid-impl
