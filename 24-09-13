@@ -16,3 +16,4 @@ dotenv
 remove_dir_all
 tree-sitter-graph
 schemafy
+minicbor
