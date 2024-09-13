@@ -118,3 +118,4 @@ snarkvm
 typst-cli
 rls-rustc
 probe-rs-tools
+lurk-cli
