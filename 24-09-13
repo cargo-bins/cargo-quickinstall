@@ -26,3 +26,4 @@ deploy
 foundationdb-gen
 unic-langid-impl
 sqlx-cli
+phf_generator
