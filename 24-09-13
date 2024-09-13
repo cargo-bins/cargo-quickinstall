@@ -91,3 +91,4 @@ xcp
 sea-orm-cli
 deploy
 cargo-pgrx
+thoth
