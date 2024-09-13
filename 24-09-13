@@ -20,3 +20,4 @@ dotenv
 wmi
 opencv-binding-generator
 sequoia-chameleon-gnupg
+sha1collisiondetection
