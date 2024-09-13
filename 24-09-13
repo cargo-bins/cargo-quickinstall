@@ -25,3 +25,4 @@ wol-rs
 wmi
 addr2line
 cpp_demangle
+winpty-rs
