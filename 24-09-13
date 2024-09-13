@@ -2,3 +2,4 @@ dprint
 cargo-clone
 cargo-index
 cargo-generate
+cargo-crev
