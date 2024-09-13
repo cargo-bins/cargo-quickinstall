@@ -14,3 +14,4 @@ cargo-bitbake
 duma
 spl-token-cli
 wasm-opt
+hex-patch
