@@ -10,3 +10,4 @@ cargo-download
 sccache
 cargo-crev
 cargo-download
+cargo-ebuild
