@@ -6,3 +6,4 @@ wol-rs
 oso
 wol-rs
 remove_dir_all
+phf_generator
