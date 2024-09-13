@@ -117,3 +117,4 @@ asm-lsp
 snarkvm
 typst-cli
 rls-rustc
+probe-rs-tools
