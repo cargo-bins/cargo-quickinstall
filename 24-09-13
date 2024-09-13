@@ -68,3 +68,4 @@ cargo-espflash
 addr2line
 cargo-unused-features
 rg
+qrtool
