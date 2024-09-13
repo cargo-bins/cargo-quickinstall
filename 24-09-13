@@ -42,3 +42,4 @@ wol-rs
 winpty-rs
 human_name
 foundationdb-gen
+rustfmt-nightly
