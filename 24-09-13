@@ -25,3 +25,4 @@ syd
 tendermint-abci
 tendermint-rpc
 solana-keygen
+minicbor
