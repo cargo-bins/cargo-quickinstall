@@ -20,3 +20,4 @@ minicbor
 phf_generator
 httpmock
 nkeys
+rls-rustc
