@@ -91,3 +91,4 @@ dotenv
 oso
 remove_dir_all
 paperclip
+schemafy
