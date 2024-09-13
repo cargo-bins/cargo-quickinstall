@@ -38,3 +38,4 @@ cached-path
 solana-gossip
 java-locator
 zuse
+httpmock
