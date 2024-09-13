@@ -25,3 +25,4 @@ remove_dir_all
 sn_node
 ducc-sys
 tendermint-abci
+tokio-process
