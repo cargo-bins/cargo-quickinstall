@@ -28,3 +28,4 @@ java-locator
 foundationdb-gen
 protox
 remove_dir_all
+rustbus
