@@ -33,3 +33,4 @@ asm-lsp
 ncspot
 stac-cli
 cargo-espflash
+deno
