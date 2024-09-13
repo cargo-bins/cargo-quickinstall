@@ -28,3 +28,4 @@ cpp_demangle
 winpty-rs
 solana-keygen
 cargo-lock
+rustfmt-nightly
