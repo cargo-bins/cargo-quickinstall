@@ -21,3 +21,4 @@ phf_generator
 httpmock
 nkeys
 rls-rustc
+phf_generator
