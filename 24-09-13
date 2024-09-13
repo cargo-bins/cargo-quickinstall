@@ -41,3 +41,4 @@ cargo-instruments
 sonic-server
 snarkvm
 zuse
+phf_generator
