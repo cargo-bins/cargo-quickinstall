@@ -41,3 +41,4 @@ addr2line
 httpbis
 parquet
 winpty-rs
+opencv-binding-generator
