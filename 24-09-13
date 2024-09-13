@@ -47,3 +47,4 @@ re_query
 foundationdb-gen
 foundationdb-gen
 protox
+raw-cpuid
