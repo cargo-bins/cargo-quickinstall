@@ -35,3 +35,4 @@ cpp_demangle
 racer
 raw-cpuid
 cpp_demangle
+remove_dir_all
