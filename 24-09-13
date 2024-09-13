@@ -42,3 +42,4 @@ httpmock
 racer
 human_bytes
 z3tracer
+rustfmt-nightly
