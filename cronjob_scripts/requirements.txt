@@ -8,7 +8,7 @@ charset-normalizer==3.3.2
     # via requests
 idna==3.8
     # via requests
-influxdb3-python==0.8.0
+influxdb3-python==0.9.0
     # via cronjob-scripts (pyproject.toml)
 numpy==1.24.4
     # via pyarrow
