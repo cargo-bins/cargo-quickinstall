@@ -32,10 +32,7 @@ def download_tar_gz(url):
     response.raise_for_status()
 
     with tarfile.open(fileobj=response.raw, mode='r:gz') as tarball:
-        while True:
-            member = tarball.next()
-            if member is None:
-                return
+        for member in tarball:
             yield TarEntry(tarball, member)
 
 def get_crates_io_popular_crates_inner(minimum_downloads=200000):
