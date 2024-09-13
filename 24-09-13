@@ -24,3 +24,4 @@ maturin
 gnostr-bins
 cargo-compete
 ravedude
+intel-mkl-tool
