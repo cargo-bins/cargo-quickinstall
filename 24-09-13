@@ -11,3 +11,4 @@ typst-cli
 intel-mkl-tool
 turbocommit
 maturin
+watchexec
