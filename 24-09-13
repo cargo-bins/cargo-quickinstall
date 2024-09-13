@@ -5,3 +5,4 @@ cargo-bitbake
 zuse
 solana-keygen
 raw-cpuid
+minicbor
