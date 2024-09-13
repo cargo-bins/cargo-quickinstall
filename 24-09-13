@@ -4,3 +4,4 @@ tauri-bundler
 pnafs
 cargo-dephell
 ducc-sys
+gnostr-bins
