@@ -25,3 +25,4 @@ rls-rustc
 cached-path
 arrow-flight
 winpty-rs
+dotenv
