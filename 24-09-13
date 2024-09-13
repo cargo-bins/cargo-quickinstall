@@ -6,3 +6,4 @@ cargo-lock
 cargo-bpf
 spl-token-cli
 cargo-lock
+solana-gossip
