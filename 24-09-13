@@ -46,3 +46,4 @@ rustfmt-nightly
 re_query
 foundationdb-gen
 foundationdb-gen
+protox
