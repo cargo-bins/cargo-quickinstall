@@ -47,3 +47,4 @@ re_query
 human_bytes
 tendermint-abci
 deploy
+dotenv
