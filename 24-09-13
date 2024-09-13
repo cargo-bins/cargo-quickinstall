@@ -48,3 +48,4 @@ deploy
 rustrict
 raw-cpuid
 nextest-filtering
+nexmark
