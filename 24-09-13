@@ -29,3 +29,4 @@ dotenv
 raw-cpuid
 rav1e
 nkeys
+cached-path
