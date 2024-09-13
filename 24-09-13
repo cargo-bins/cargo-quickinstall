@@ -47,3 +47,4 @@ cargo-graph
 minicbor
 raw-cpuid
 parquet
+addr2line
