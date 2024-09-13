@@ -31,3 +31,4 @@ solana-keygen
 re_query
 sha1collisiondetection
 tendermint-rpc
+solana-remote-wallet
