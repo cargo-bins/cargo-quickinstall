@@ -83,3 +83,4 @@ rioterm
 cargo-show
 cpp_demangle
 cargo-whatfeatures
+cargo-msrv
