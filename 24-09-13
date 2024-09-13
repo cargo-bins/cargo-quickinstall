@@ -33,3 +33,4 @@ sha1collisiondetection
 tendermint-rpc
 solana-remote-wallet
 rustfmt-nightly
+unic-langid-impl
