@@ -32,3 +32,4 @@ bgpkit-parser
 asm-lsp
 ncspot
 stac-cli
+cargo-espflash
