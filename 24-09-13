@@ -38,3 +38,4 @@ nextest-filtering
 schemafy
 nexmark
 cpp_demangle
+wol-rs
