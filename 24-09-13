@@ -16,3 +16,4 @@ unic-langid-impl
 re_query
 solana-gossip
 phf_generator
+benfred-read-process-memory
