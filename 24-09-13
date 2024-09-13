@@ -24,3 +24,4 @@ solana-gossip
 wol-rs
 wmi
 addr2line
+cpp_demangle
