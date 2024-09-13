@@ -3,3 +3,4 @@ cargo-graph
 tauri-bundler
 pnafs
 cargo-dephell
+ducc-sys
