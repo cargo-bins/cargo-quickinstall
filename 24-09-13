@@ -13,3 +13,4 @@ cargo-index
 cargo-bitbake
 duma
 spl-token-cli
+wasm-opt
