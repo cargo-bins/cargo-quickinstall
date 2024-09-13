@@ -16,3 +16,4 @@ rkv
 oxipng
 rustfmt-nightly
 borsh
+nextest-filtering
