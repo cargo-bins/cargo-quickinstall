@@ -13,3 +13,4 @@ coldsnap
 nextest-filtering
 ducc-sys
 dotenv
+remove_dir_all
