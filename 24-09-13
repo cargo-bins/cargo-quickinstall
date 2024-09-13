@@ -24,3 +24,4 @@ tree-sitter-graph
 remove_dir_all
 sn_node
 ducc-sys
+tendermint-abci
