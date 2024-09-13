@@ -26,3 +26,4 @@ cached-path
 arrow-flight
 winpty-rs
 dotenv
+raw-cpuid
