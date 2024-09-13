@@ -13,3 +13,4 @@ wol-rs
 sea-orm-cli
 opencv-binding-generator
 rkv
+oxipng
