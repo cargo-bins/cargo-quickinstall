@@ -36,3 +36,4 @@ addr2line
 papyrus_storage
 tree-sitter-cli
 textplots
+ducc-sys
