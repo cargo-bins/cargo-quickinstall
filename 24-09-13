@@ -32,3 +32,4 @@ re_query
 sha1collisiondetection
 tendermint-rpc
 solana-remote-wallet
+rustfmt-nightly
