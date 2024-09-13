@@ -7,3 +7,4 @@ cargo-clone-crate
 cargo-dephell
 cargo-compete
 cargo-download
+sccache
