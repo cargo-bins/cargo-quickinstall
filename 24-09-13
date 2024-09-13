@@ -16,3 +16,4 @@ cargo-clone
 zellij
 sccache
 cargo-dephell
+cargo-compete
