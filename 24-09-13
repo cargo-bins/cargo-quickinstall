@@ -20,3 +20,4 @@ benfred-read-process-memory
 rls-rustc
 rustrict
 borsh
+tree-sitter-graph
