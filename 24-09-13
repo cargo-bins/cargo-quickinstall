@@ -36,3 +36,4 @@ racer
 raw-cpuid
 cpp_demangle
 remove_dir_all
+opencv-binding-generator
