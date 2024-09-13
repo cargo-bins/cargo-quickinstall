@@ -46,3 +46,4 @@ dotenv
 cargo-graph
 minicbor
 raw-cpuid
+parquet
