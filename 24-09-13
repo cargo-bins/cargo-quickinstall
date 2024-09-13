@@ -21,3 +21,4 @@ rls-rustc
 rustrict
 borsh
 tree-sitter-graph
+remove_dir_all
