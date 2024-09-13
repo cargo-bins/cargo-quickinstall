@@ -98,3 +98,4 @@ solana-keygen
 cargo-mobile2
 nkeys
 rustfmt-nightly
+cached-path
