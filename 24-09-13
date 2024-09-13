@@ -40,3 +40,4 @@ clippy
 addr2line
 httpbis
 parquet
+winpty-rs
