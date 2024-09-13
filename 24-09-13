@@ -101,3 +101,4 @@ rustfmt-nightly
 cached-path
 papyrus_storage
 speedtest-rs
+qsv
