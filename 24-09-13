@@ -58,3 +58,4 @@ pwasm-utils
 nkeys
 addr2line
 diesel_cli
+wol-rs
