@@ -22,3 +22,4 @@ httpmock
 nkeys
 rls-rustc
 phf_generator
+borsh
