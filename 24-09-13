@@ -6,3 +6,4 @@ cargo-crev
 cargo-compete
 nkeys
 schemafy
+diesel_cli
