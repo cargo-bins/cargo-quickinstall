@@ -12,3 +12,4 @@ rustbus
 z3tracer
 parquet
 rustfmt
+unic-langid-impl
