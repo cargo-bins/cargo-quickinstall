@@ -6,6 +6,8 @@ import os
 import subprocess
 import sys
 from typing import TypedDict
+import hashlib
+
 
 import polars as pl
 
@@ -13,7 +15,15 @@ import polars as pl
 # FIXME: add a max_age parameter to this decorator or something (by reading the mtime of the file)?
 def cache_on_disk_json(func):
     def wrapper(*args, **kwargs):
-        cache_file = f"/tmp/{func.__name__}/{args}-{kwargs}.json"
+        # If the function's source code is updated, we should invalidate the cache.
+        # In theory we could also hash all dependencies of the function by looking up each word of
+        # source code in globals(), but that probably wouldn't be bullet-proof, and this is easy to
+        # reason about.
+        hasher = hashlib.sha256()
+        hasher.update(func.__code__.co_code)
+        impl_hash = hasher.hexdigest()
+
+        cache_file = f"/tmp/{func.__name__}/{args}-{kwargs}-{impl_hash}.json"
         try:
             with open(cache_file) as f:
                 result = json.load(f)
