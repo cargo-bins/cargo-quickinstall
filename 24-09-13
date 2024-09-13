@@ -90,3 +90,4 @@ cargo-mobile2
 xcp
 sea-orm-cli
 deploy
+cargo-pgrx
