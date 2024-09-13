@@ -9,3 +9,4 @@ minicbor
 nexmark
 parquet
 java-locator
+opencv-binding-generator
