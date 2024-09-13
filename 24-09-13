@@ -1,2 +1,3 @@
 sccache
 cargo-bitbake
+cargo-crev
