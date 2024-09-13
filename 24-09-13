@@ -51,3 +51,4 @@ cpp_demangle
 nexmark
 rustrict
 remove_dir_all
+rustfmt-nightly
