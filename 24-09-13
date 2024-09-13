@@ -19,3 +19,4 @@ remove_dir_all
 re_query
 cpp_demangle
 z3tracer
+racer
