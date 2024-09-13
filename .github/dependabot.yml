@@ -40,3 +40,7 @@ updates:
     directory: "/cronjob_scripts"
     schedule:
       interval: "daily"
+    groups:
+      deps:
+        patterns:
+          - "*"
