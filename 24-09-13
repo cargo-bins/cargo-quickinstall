@@ -18,3 +18,4 @@ tree-sitter-graph
 schemafy
 minicbor
 phf_generator
+httpmock
