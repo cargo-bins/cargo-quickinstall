@@ -83,3 +83,4 @@ rencfs
 laminar
 cargo-mobile2
 pwasm-utils
+cpp_demangle
