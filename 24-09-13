@@ -39,3 +39,4 @@ schemafy
 nexmark
 cpp_demangle
 wol-rs
+winpty-rs
