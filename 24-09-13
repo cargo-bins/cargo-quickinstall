@@ -14,3 +14,4 @@ parquet
 rustfmt
 unic-langid-impl
 re_query
+solana-gossip
