@@ -7,3 +7,4 @@ __pycache__
 # For now, we rely on scripts/requirements.txt to act as our lockfile, because dependabot doesn't support uv yet.
 cronjob_scripts/uv.lock
 cronjob_scripts/.python-deps-updated.timestamp
+cached_crates_io_popular_crates.parquet
