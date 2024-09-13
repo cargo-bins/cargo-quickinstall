@@ -55,3 +55,4 @@ rustfmt-nightly
 unic-langid-impl
 arrow-flight
 pwasm-utils
+nkeys
