@@ -8,3 +8,4 @@ cargo-dephell
 cargo-compete
 cargo-download
 sccache
+cargo-crev
