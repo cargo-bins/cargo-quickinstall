@@ -24,3 +24,4 @@ rustrict
 cargo-lock
 z3tracer
 borsh
+cpp_demangle
