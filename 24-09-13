@@ -62,3 +62,4 @@ wol-rs
 clippy
 deploy
 borsh
+unic-langid-impl
