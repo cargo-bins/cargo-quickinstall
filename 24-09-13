@@ -32,3 +32,4 @@ rustbus
 deploy
 dotenvy
 ducc-sys
+nextest-filtering
