@@ -51,3 +51,4 @@ tendermint-abci
 dotenvy
 codeberg-cli
 nkeys
+hurlfmt
