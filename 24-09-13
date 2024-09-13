@@ -25,3 +25,4 @@ pwasm-utils
 foundationdb-gen
 arrow-flight
 socketcan
+racer
