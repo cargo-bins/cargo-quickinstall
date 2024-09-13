@@ -44,3 +44,4 @@ zuse
 phf_generator
 qsv
 addr2line
+foundationdb-gen
