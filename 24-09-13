@@ -37,3 +37,4 @@ remove_dir_all
 dotenvy
 racer
 re_query
+borsh
