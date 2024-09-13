@@ -37,3 +37,4 @@ pwasm-utils
 racer
 paperclip
 clippy
+addr2line
