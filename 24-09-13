@@ -31,3 +31,4 @@ cargo-lock
 rustfmt-nightly
 racer
 syd
+cpp_demangle
