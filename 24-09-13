@@ -4,3 +4,4 @@ cargo-bpf
 watchexec
 cargo-lock
 cargo-bpf
+spl-token-cli
