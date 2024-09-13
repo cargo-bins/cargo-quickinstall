@@ -19,3 +19,4 @@ laminar
 dotenv
 java-locator
 borsh
+pwasm-utils
