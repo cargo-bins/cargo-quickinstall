@@ -70,3 +70,4 @@ cargo-unused-features
 rg
 qrtool
 lurk-cli
+binstall
