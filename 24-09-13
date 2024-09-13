@@ -128,3 +128,4 @@ cargo-smart-release
 solana-validator
 rioterm
 rustrict
+remove_dir_all
