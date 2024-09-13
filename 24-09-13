@@ -43,3 +43,4 @@ wmi
 addr2line
 racer
 dotenv
+cargo-graph
