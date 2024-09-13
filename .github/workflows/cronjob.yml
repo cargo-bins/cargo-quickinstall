@@ -18,6 +18,8 @@ jobs:
           ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
 
+      - uses: ./.github/actions/cronjob-setup
+
       - name: Trigger Package Build
         id: find_crate
         run: make trigger-all

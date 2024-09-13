@@ -1,0 +1,20 @@
+name: Setup env for cronjob and cache
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version-file: "cronjob_scripts/.python-version"
+        cache: "pip"
+        cache-dependency-path: "**/requirements.txt"
+
+    - name: Set current date as env variable
+      run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      shell: bash
+
+    - name: Cache crates-io popular crates
+      uses: actions/cache@v4
+      with:
+        path: cached_crates_io_popular_crates.parquet
+        key: ${{ env.NOW }}-cached_crates_io_popular_crates.parquet

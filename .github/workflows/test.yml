@@ -55,6 +55,8 @@ jobs:
       - name: Run cargo test
         run: cargo test
 
+      - uses: ./.github/actions/cronjob-setup
+
       - name: Test python cronjob_scripts
         run: make test-cronjob-scripts
 
