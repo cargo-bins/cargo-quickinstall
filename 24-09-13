@@ -42,3 +42,4 @@ ripunzip
 turbocommit
 webdriver-install
 cargo-bitbake
+cargo-outdated
