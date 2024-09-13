@@ -29,3 +29,4 @@ racer
 pwasm-utils
 solana-keygen
 re_query
+sha1collisiondetection
