@@ -30,3 +30,4 @@ solana-keygen
 cargo-lock
 rustfmt-nightly
 racer
+syd
