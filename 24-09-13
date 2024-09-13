@@ -1,3 +1,4 @@
 sccache
 cargo-bitbake
 cargo-crev
+cargo-clone
