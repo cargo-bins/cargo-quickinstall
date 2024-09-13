@@ -26,3 +26,4 @@ tendermint-abci
 tendermint-rpc
 solana-keygen
 minicbor
+nextest-filtering
