@@ -8,3 +8,4 @@ spl-token-cli
 cargo-lock
 solana-gossip
 tree-sitter-graph
+java-locator
