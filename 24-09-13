@@ -18,3 +18,4 @@ solana-gossip
 phf_generator
 benfred-read-process-memory
 rls-rustc
+rustrict
