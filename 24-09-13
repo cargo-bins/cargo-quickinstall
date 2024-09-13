@@ -46,3 +46,4 @@ rustfmt-nightly
 re_query
 human_bytes
 tendermint-abci
+deploy
