@@ -31,3 +31,4 @@ foundationdb-gen
 raw-cpuid
 java-locator
 sqlx-cli
+re_query
