@@ -27,3 +27,4 @@ addr2line
 cpp_demangle
 winpty-rs
 solana-keygen
+cargo-lock
