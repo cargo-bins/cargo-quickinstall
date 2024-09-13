@@ -21,3 +21,4 @@ java-locator
 borsh
 pwasm-utils
 rustrict
+cargo-lock
