@@ -26,3 +26,4 @@ borsh
 pwasm-utils
 java-locator
 foundationdb-gen
+protox
