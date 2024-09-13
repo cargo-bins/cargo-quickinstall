@@ -57,3 +57,4 @@ sqruff
 rls-rustc
 rls-rustc
 remove_dir_all
+rustfmt-nightly
