@@ -21,3 +21,4 @@ dprint
 cargo-clone-crate
 cargo-compete
 dprint
+pwasm-utils
