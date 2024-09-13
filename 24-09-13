@@ -5,3 +5,4 @@ project_init
 cargo-vendor
 cargo-travis
 cicada
+rtx-cli
