@@ -7,3 +7,4 @@ cargo-travis
 cicada
 rtx-cli
 rustrict
+honggfuzz
