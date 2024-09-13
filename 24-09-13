@@ -18,3 +18,4 @@ rustfmt-nightly
 borsh
 nextest-filtering
 racer
+librespot
