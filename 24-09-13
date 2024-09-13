@@ -30,3 +30,4 @@ protox
 remove_dir_all
 rustbus
 deploy
+dotenvy
