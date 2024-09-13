@@ -34,3 +34,4 @@ sqlx-cli
 re_query
 oso
 pwasm-utils
+racer
