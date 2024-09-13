@@ -21,3 +21,4 @@ rg
 semverver
 cargo-travis
 maturin
+gnostr-bins
