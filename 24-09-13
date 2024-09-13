@@ -25,3 +25,4 @@ phf_generator
 borsh
 pwasm-utils
 java-locator
+foundationdb-gen
