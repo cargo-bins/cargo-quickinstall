@@ -9,3 +9,4 @@ remove_dir_all
 phf_generator
 rav1e
 rustbus
+z3tracer
