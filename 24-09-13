@@ -42,3 +42,4 @@ httpbis
 parquet
 winpty-rs
 opencv-binding-generator
+unic-langid-impl
