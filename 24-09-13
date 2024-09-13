@@ -32,3 +32,4 @@ nkeys
 cached-path
 rustrict
 solana-validator
+tendermint-rpc
