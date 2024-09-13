@@ -10,3 +10,4 @@ clippy
 dotenv
 deploy
 wol-rs
+sea-orm-cli
