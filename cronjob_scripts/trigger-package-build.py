@@ -80,7 +80,7 @@ def trigger_for_arch(target_arch: str):
             features = "vendored-openssl"
         else:
             features = ",".join(
-                feat for feat in version["features"].keys() if "vendored" in feat
+                feat for feat in version["features"].keys() if "vendored" in feat or "bundled" in feat
             )
 
         workflow_run_input = {
