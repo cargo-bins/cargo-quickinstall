@@ -15,3 +15,4 @@ opencv-binding-generator
 rkv
 oxipng
 rustfmt-nightly
+borsh
