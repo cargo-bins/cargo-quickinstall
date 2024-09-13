@@ -14,3 +14,4 @@ cargo-ebuild
 zellij
 cargo-clone
 zellij
+sccache
