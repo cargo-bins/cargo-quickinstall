@@ -36,3 +36,4 @@ tendermint-rpc
 addr2line
 racer
 rav1e
+cached-path
