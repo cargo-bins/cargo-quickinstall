@@ -2,3 +2,4 @@ xbuild
 cargo-pgrx
 intel-mkl-tool
 nu
+cargo-leptos
