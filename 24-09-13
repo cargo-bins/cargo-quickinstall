@@ -56,3 +56,4 @@ unic-langid-impl
 arrow-flight
 pwasm-utils
 nkeys
+addr2line
