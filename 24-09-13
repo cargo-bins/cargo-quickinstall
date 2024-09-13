@@ -50,3 +50,4 @@ raw-cpuid
 nextest-filtering
 nexmark
 nkeys
+winpty-rs
