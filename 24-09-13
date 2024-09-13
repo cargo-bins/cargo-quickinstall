@@ -28,3 +28,4 @@ tendermint-abci
 tokio-process
 text-diff
 foundationdb-gen
+raw-cpuid
