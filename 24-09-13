@@ -42,3 +42,4 @@ socketcan
 wmi
 addr2line
 racer
+dotenv
