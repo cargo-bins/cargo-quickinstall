@@ -49,3 +49,4 @@ foundationdb-gen
 protox
 raw-cpuid
 rkv
+cached-path
