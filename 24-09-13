@@ -10,3 +10,4 @@ rustrict
 honggfuzz
 tendermint-rpc
 coldsnap
+nextest-filtering
