@@ -43,3 +43,4 @@ winpty-rs
 human_name
 foundationdb-gen
 rustfmt-nightly
+re_query
