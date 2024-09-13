@@ -31,3 +31,4 @@ cargo-equip
 bgpkit-parser
 asm-lsp
 ncspot
+stac-cli
