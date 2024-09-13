@@ -45,3 +45,4 @@ foundationdb-gen
 rustfmt-nightly
 re_query
 human_bytes
+tendermint-abci
