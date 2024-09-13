@@ -43,3 +43,4 @@ z3tracer
 human_name
 pwasm-utils
 py-spy
+rls-rustc
