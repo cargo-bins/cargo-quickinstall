@@ -15,3 +15,4 @@ rustfmt
 unic-langid-impl
 re_query
 solana-gossip
+phf_generator
