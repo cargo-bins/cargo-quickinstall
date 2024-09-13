@@ -5,3 +5,4 @@ clippy
 tendermint-rpc
 oxipng
 deno
+minicbor
