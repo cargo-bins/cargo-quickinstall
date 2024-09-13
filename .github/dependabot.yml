@@ -26,6 +26,15 @@ updates:
       deps:
         patterns:
           - "*"
+  - package-ecosystem: "cargo"
+    # This will update the stats-server/Cargo.toml
+    directory: "/stats-server"
+    schedule:
+      interval: "daily"
+    groups:
+      deps:
+        patterns:
+          - "*"
   - package-ecosystem: "pip"
     # This will update cronjob_scripts/requirements.txt
     directory: "/cronjob_scripts"
