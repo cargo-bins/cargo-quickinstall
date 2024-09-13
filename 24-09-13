@@ -37,3 +37,4 @@ sha1collisiondetection
 nextest-filtering
 schemafy
 nexmark
+cpp_demangle
