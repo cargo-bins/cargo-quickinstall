@@ -12,3 +12,4 @@ tendermint-rpc
 coldsnap
 nextest-filtering
 ducc-sys
+dotenv
