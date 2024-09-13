@@ -12,3 +12,4 @@ cargo-crev
 cargo-download
 cargo-ebuild
 zellij
+cargo-clone
