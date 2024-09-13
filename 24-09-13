@@ -41,3 +41,4 @@ cpp_demangle
 wol-rs
 winpty-rs
 human_name
+foundationdb-gen
