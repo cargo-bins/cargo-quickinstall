@@ -5,3 +5,4 @@ diesel_cli
 rust-latest
 bgpkit-broker
 cargo-risczero
+cargo-leptos
