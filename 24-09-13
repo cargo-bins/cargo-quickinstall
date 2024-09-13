@@ -43,3 +43,4 @@ parquet
 winpty-rs
 opencv-binding-generator
 unic-langid-impl
+solana-gossip
