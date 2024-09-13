@@ -26,3 +26,4 @@ sn_node
 ducc-sys
 tendermint-abci
 tokio-process
+text-diff
