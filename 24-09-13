@@ -12,3 +12,4 @@ git-next
 cargo-index
 cargo-bitbake
 duma
+spl-token-cli
