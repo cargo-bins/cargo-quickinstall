@@ -40,3 +40,4 @@ re_query
 borsh
 socketcan
 wmi
+addr2line
