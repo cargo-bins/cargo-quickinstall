@@ -8,3 +8,4 @@ gnostr-bins
 cpp_demangle
 rav1e
 borsh
+minicbor
