@@ -61,3 +61,4 @@ diesel_cli
 wol-rs
 clippy
 deploy
+borsh
