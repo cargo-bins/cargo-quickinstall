@@ -35,3 +35,4 @@ solana-remote-wallet
 rustfmt-nightly
 unic-langid-impl
 remove_dir_all
+laminar
