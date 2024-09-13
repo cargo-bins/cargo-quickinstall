@@ -25,3 +25,4 @@ oso
 deploy
 foundationdb-gen
 unic-langid-impl
+sqlx-cli
