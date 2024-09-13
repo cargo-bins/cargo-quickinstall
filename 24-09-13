@@ -39,3 +39,4 @@ remove_dir_all
 opencv-binding-generator
 diesel_cli
 solana-keygen
+spider_cli
