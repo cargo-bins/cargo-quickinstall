@@ -100,3 +100,4 @@ tendermint-abci
 ruff
 java-locator
 httpmock
+thoth
