@@ -116,3 +116,4 @@ rav1e
 asm-lsp
 snarkvm
 typst-cli
+rls-rustc
