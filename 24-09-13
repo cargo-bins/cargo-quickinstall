@@ -97,3 +97,4 @@ binstall
 xbuild
 tendermint-rpc
 tendermint-abci
+ruff
