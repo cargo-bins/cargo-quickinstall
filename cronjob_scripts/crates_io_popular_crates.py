@@ -68,7 +68,7 @@ def get_crates_io_popular_crates(minimum_downloads=200000):
         # TODO: Once `iter_rows()` can be used on LazyFrame, use it for better perf
         #  and less ram usage.
         # https://github.com/pola-rs/polars/issues/10683
-        df = pl.scan_parquet(cached_path).collect(streaming=True)
+        df = pl.read_parquet(cached_path)
     else:
         df = (
             get_crates_io_popular_crates_inner(minimum_downloads)
