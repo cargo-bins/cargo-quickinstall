@@ -96,3 +96,4 @@ ffs
 binstall
 xbuild
 tendermint-rpc
+tendermint-abci
