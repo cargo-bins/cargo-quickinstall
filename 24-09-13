@@ -124,3 +124,4 @@ wmi
 nextsv
 cached-path
 rrule
+cargo-smart-release
