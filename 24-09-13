@@ -3,3 +3,4 @@ intel-mkl-tool
 cargo-bpf
 watchexec
 cargo-lock
+cargo-bpf
