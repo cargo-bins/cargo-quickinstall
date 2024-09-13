@@ -27,3 +27,4 @@ ducc-sys
 tendermint-abci
 tokio-process
 text-diff
+foundationdb-gen
