@@ -44,3 +44,4 @@ human_name
 pwasm-utils
 py-spy
 rls-rustc
+solana-validator
