@@ -93,3 +93,4 @@ deploy
 cargo-pgrx
 thoth
 ffs
+binstall
