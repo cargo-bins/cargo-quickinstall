@@ -19,3 +19,4 @@ human_name
 dotenv
 wmi
 opencv-binding-generator
+sequoia-chameleon-gnupg
