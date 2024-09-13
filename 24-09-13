@@ -85,3 +85,4 @@ cpp_demangle
 cargo-whatfeatures
 cargo-msrv
 cargo-pgrx
+turbocommit
