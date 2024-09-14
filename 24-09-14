@@ -30,3 +30,4 @@ monolith
 cargo-lock
 sha1collisiondetection
 socketcan
+foundationdb-gen
