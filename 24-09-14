@@ -61,3 +61,4 @@ honggfuzz
 oso
 tendermint-rpc
 dotenvy
+text-diff
