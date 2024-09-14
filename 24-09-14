@@ -108,3 +108,4 @@ wol-rs
 re_query
 deploy
 text-diff
+jsonschema
