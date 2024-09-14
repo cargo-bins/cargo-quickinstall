@@ -113,3 +113,4 @@ rls-rustc
 parquet
 pwasm-utils
 nextest-filtering
+py-spy
