@@ -72,3 +72,4 @@ clippy
 papyrus_storage
 solana-gossip
 rrule
+remove_dir_all
