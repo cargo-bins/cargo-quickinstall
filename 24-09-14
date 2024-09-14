@@ -11,3 +11,4 @@ rav1e
 phf_generator
 honggfuzz
 opencv-binding-generator
+coldsnap
