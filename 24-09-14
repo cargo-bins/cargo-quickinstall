@@ -6,3 +6,4 @@ rustrict
 httpmock
 wol-rs
 arrow-flight
+tendermint-abci
