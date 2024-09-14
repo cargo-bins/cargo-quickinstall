@@ -99,3 +99,4 @@ remove_dir_all
 py-spy
 rkv
 parquet
+human_bytes
