@@ -37,3 +37,4 @@ sha1collisiondetection
 wmi
 z3tracer
 remove_dir_all
+cpp_demangle
