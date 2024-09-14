@@ -102,3 +102,4 @@ nu
 re_query
 cached-path
 cpp_demangle
+dotenv
