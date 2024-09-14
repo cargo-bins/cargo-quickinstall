@@ -16,3 +16,4 @@ rg
 addr2line
 elf2uf2-rs
 xplr
+cargo-lock
