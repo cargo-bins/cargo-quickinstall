@@ -60,3 +60,4 @@ racer
 cpp_demangle
 nkeys
 addr2line
+cached-path
