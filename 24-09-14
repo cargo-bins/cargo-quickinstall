@@ -84,3 +84,4 @@ schemafy
 nextest-filtering
 diesel_cli
 laminar
+sn_cli
