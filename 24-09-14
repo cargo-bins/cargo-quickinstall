@@ -28,3 +28,4 @@ phf_generator
 sha1collisiondetection
 rkv
 rrule
+tree-sitter-graph
