@@ -6,3 +6,4 @@ addr2line
 cpp_demangle
 raw-cpuid
 cpp_demangle
+borsh
