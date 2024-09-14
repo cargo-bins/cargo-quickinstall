@@ -33,3 +33,4 @@ socketcan
 foundationdb-gen
 papyrus_storage
 phf_generator
+socketcan
