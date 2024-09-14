@@ -77,3 +77,4 @@ typst-cli
 cargo-pgrx
 addr2line
 cached-path
+rkv
