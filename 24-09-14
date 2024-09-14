@@ -117,3 +117,4 @@ rustfmt
 httpmock
 syd
 textplots
+ec2_instance_metadata
