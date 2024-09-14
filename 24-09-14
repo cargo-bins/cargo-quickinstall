@@ -54,3 +54,4 @@ nextest-filtering
 wmi
 syd
 minicbor
+dotenv
