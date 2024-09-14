@@ -13,3 +13,4 @@ cargo-mobile2
 rioterm
 rls-rustc
 rg
+addr2line
