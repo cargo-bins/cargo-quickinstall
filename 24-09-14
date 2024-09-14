@@ -30,3 +30,4 @@ dotenvy
 deploy
 textplots
 java-locator
+sqlx-cli
