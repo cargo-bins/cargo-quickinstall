@@ -104,3 +104,4 @@ diesel_cli
 spider_cli
 winpty-rs
 tendermint-rpc
+arrow-flight
