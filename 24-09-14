@@ -21,3 +21,4 @@ opencv-binding-generator
 rav1e
 java-locator
 pwasm-utils
+dotenv
