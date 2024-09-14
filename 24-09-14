@@ -85,3 +85,4 @@ speedtest-rs
 remove_dir_all
 bgpkit-parser
 parquet
+h3o
