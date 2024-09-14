@@ -57,3 +57,4 @@ paperclip
 socketcan
 sha1collisiondetection
 nkeys
+rustfmt-nightly
