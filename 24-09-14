@@ -19,3 +19,4 @@ benfred-read-process-memory
 solana-gossip
 parquet
 textplots
+tendermint-rpc
