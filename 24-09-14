@@ -57,3 +57,4 @@ racer
 nkeys
 rls-rustc
 socketcan
+dotenv
