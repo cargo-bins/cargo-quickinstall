@@ -9,3 +9,4 @@ raw-cpuid
 ducc-sys
 minicbor
 sqlx-cli
+cpp_demangle
