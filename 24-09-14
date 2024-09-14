@@ -80,3 +80,4 @@ oso
 rls-rustc
 tree-sitter-graph
 nextest-filtering
+socketcan
