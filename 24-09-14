@@ -55,3 +55,4 @@ ec2_instance_metadata
 sn_node
 deno
 solana-gossip
+coldsnap
