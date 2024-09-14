@@ -72,3 +72,4 @@ oxipng
 minicbor
 tree-sitter-graph
 tendermint-rpc
+sea-orm-cli
