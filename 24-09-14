@@ -10,3 +10,4 @@ tendermint-abci
 cargo-lock
 racer
 parquet
+oxipng
