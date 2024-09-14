@@ -4,3 +4,4 @@ protox
 rkv
 dotenvy
 pwasm-utils
+rustfmt-nightly
