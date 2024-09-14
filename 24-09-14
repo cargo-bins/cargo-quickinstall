@@ -75,3 +75,4 @@ unic-langid-impl
 wmi
 typst-cli
 cargo-pgrx
+addr2line
