@@ -59,3 +59,4 @@ syd
 dotenvy
 rustrict
 tendermint-abci
+winpty-rs
