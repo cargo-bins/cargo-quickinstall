@@ -18,3 +18,4 @@ dotenvy
 opencv-binding-generator
 racer
 parquet
+pwasm-utils
