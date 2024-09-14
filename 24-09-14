@@ -103,3 +103,4 @@ human_bytes
 httpmock
 codeberg-cli
 speedtest-rs
+tendermint-abci
