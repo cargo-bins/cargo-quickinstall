@@ -99,3 +99,4 @@ py-spy
 rkv
 paperclip
 jsonschema
+ec2_instance_metadata
