@@ -106,3 +106,4 @@ speedtest-rs
 tendermint-abci
 rustfmt-nightly
 rioterm
+parquet
