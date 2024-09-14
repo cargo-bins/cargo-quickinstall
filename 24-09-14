@@ -26,3 +26,4 @@ trunk
 wol-rs
 snarkvm
 cached-path
+winpty-rs
