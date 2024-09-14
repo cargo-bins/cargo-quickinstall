@@ -109,3 +109,4 @@ foundationdb-gen
 syd
 tendermint-abci
 tree-sitter-cli
+unic-langid-impl
