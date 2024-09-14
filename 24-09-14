@@ -105,3 +105,4 @@ addr2line
 cached-path
 deno
 wol-rs
+re_query
