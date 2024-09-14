@@ -12,3 +12,4 @@ foundationdb-gen
 nextest-filtering
 borsh
 arrow-flight
+human_name
