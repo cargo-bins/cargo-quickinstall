@@ -54,3 +54,4 @@ wol-rs
 rrule
 human_name
 human_bytes
+dotenv
