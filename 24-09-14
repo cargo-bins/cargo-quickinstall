@@ -5,3 +5,4 @@ rkv
 coldsnap
 winpty-rs
 nextest-filtering
+minicbor
