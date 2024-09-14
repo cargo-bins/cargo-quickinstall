@@ -49,3 +49,4 @@ re_query
 rkv
 tendermint-rpc
 re_query
+opencv-binding-generator
