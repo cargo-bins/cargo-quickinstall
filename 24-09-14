@@ -75,3 +75,4 @@ tendermint-rpc
 sea-orm-cli
 snarkvm
 clippy
+tendermint-abci
