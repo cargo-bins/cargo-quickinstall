@@ -120,3 +120,4 @@ syd
 spider_worker
 opencv-binding-generator
 nextest-filtering
+human_bytes
