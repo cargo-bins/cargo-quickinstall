@@ -22,3 +22,4 @@ pwasm-utils
 borsh
 tree-sitter-graph
 syd
+nexmark
