@@ -33,3 +33,4 @@ java-locator
 sqlx-cli
 foundationdb-gen
 remove_dir_all
+socketcan
