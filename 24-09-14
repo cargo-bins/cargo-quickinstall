@@ -97,3 +97,4 @@ rkv
 qsv
 probe-rs-tools
 rustfmt-nightly
+wmi
