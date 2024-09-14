@@ -103,3 +103,4 @@ winpty-rs
 diesel_cli
 spider_cli
 winpty-rs
+tendermint-rpc
