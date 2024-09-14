@@ -23,3 +23,4 @@ httpmock
 rustfmt-nightly
 dotenvy
 rkv
+rrule
