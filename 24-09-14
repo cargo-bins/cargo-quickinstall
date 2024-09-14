@@ -38,3 +38,4 @@ opencv-binding-generator
 tree-sitter-graph
 phf_generator
 cargo-lock
+nu
