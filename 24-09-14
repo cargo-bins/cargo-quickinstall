@@ -132,3 +132,4 @@ papyrus_storage
 deno
 schemafy
 httpmock
+tendermint-abci
