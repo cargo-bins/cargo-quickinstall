@@ -44,3 +44,4 @@ elf2uf2-rs
 nkeys
 cargo-spellcheck
 hurlfmt
+cpp_demangle
