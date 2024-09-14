@@ -73,3 +73,4 @@ parquet
 rkv
 rustrict
 minicbor
+diesel_cli
