@@ -69,3 +69,4 @@ tokio-process
 nexmark
 rustfmt-nightly
 clippy
+papyrus_storage
