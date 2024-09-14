@@ -59,3 +59,4 @@ phf_generator
 httpmock
 raw-cpuid
 laminar
+socketcan
