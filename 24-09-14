@@ -4,3 +4,4 @@ unic-langid-impl
 tree-sitter-graph
 raw-cpuid
 archwiki-rs
+cargo-lock
