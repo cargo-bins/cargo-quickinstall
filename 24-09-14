@@ -17,3 +17,4 @@ opencv-binding-generator
 py-spy
 benfred-read-process-memory
 solana-gossip
+parquet
