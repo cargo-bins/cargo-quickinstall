@@ -46,3 +46,4 @@ nexmark
 z3tracer
 rustbus
 rls-rustc
+addr2line
