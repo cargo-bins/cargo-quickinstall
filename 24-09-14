@@ -62,3 +62,4 @@ tendermint-abci
 winpty-rs
 addr2line
 human_name
+tendermint-abci
