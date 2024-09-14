@@ -69,3 +69,4 @@ dotenv
 zuse
 foundationdb-gen
 oxipng
+minicbor
