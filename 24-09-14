@@ -44,3 +44,4 @@ solana-validator
 borsh
 re_query
 rkv
+winpty-rs
