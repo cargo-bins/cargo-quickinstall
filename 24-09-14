@@ -85,3 +85,4 @@ re_query
 solana-remote-wallet
 cpp_demangle
 minicbor
+tauri-cli
