@@ -19,3 +19,4 @@ xplr
 cargo-lock
 cached-path
 rls-rustc
+cargo-whatfeatures
