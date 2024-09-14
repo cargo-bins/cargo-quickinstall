@@ -45,3 +45,4 @@ nkeys
 cargo-spellcheck
 hurlfmt
 cpp_demangle
+borsh
