@@ -58,3 +58,4 @@ solana-gossip
 coldsnap
 rls-rustc
 honggfuzz
+oso
