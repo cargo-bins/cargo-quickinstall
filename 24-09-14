@@ -36,3 +36,4 @@ tree-sitter-cli
 remove_dir_all
 human_bytes
 zuse
+solana-remote-wallet
