@@ -77,3 +77,4 @@ human_name
 rustfmt-nightly
 solana-gossip
 solana-validator
+remove_dir_all
