@@ -38,3 +38,4 @@ tree-sitter-graph
 schemafy
 sqlx-cli
 protox
+cargo-vet
