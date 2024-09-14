@@ -93,3 +93,4 @@ dotenv
 tendermint-rpc
 socketcan
 protox
+minicbor
