@@ -105,3 +105,4 @@ spider_cli
 winpty-rs
 tendermint-rpc
 arrow-flight
+foundationdb-gen
