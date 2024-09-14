@@ -83,3 +83,4 @@ ducc-sys
 human_name
 speedtest-rs
 remove_dir_all
+bgpkit-parser
