@@ -133,3 +133,4 @@ deno
 schemafy
 httpmock
 tendermint-abci
+httpbis
