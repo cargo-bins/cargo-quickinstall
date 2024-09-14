@@ -60,3 +60,4 @@ schemafy
 rustrict
 deno
 solana-validator
+tendermint-abci
