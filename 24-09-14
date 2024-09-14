@@ -128,3 +128,4 @@ sea-orm-cli
 socketcan
 clippy
 parquet
+tauri-cli
