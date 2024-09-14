@@ -99,3 +99,4 @@ human_bytes
 dotenv
 winpty-rs
 solana-gossip
+spider_worker
