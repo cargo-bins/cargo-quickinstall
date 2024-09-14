@@ -62,3 +62,4 @@ solana-remote-wallet
 rustfmt-nightly
 nkeys
 solana-keygen
+rkv
