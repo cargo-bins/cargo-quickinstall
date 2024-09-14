@@ -111,3 +111,4 @@ papyrus_storage
 rrule
 tendermint-abci
 nkeys
+tendermint-rpc
