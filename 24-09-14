@@ -77,3 +77,4 @@ ducc-sys
 unic-langid-impl
 racer
 oso
+rls-rustc
