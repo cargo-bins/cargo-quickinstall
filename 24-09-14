@@ -6,3 +6,4 @@ coldsnap
 winpty-rs
 nextest-filtering
 minicbor
+httpmock
