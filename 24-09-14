@@ -14,3 +14,4 @@ remove_dir_all
 java-locator
 tendermint-rpc
 tree-sitter-cli
+sea-orm-cli
