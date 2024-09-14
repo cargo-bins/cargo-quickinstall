@@ -105,3 +105,4 @@ cpp_demangle
 dotenv
 phf_generator
 solana-validator
+deploy
