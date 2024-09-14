@@ -42,3 +42,4 @@ schemafy
 rrule
 pwasm-utils
 laminar
+opencv-binding-generator
