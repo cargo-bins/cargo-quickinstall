@@ -21,3 +21,4 @@ parquet
 textplots
 tendermint-rpc
 sn_cli
+dotenv
