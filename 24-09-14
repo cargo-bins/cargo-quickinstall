@@ -83,3 +83,4 @@ wol-rs
 ducc-sys
 deploy
 h3o
+opencv-binding-generator
