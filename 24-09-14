@@ -134,3 +134,4 @@ schemafy
 httpmock
 tendermint-abci
 httpbis
+winpty-rs
