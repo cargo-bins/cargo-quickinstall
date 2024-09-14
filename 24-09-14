@@ -83,3 +83,4 @@ ducc-sys
 z3tracer
 human_bytes
 arrow-flight
+phf_generator
