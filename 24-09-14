@@ -46,3 +46,4 @@ spider_worker
 raw-cpuid
 rkv
 tree-sitter-graph
+cargo-lock
