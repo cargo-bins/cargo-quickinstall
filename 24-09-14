@@ -42,3 +42,4 @@ cargo-vet
 rustbus
 syd
 h3o
+winpty-rs
