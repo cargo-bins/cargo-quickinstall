@@ -9,3 +9,4 @@ remove_dir_all
 dotenv
 cpp_demangle
 httpmock
+snarkvm
