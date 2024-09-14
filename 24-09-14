@@ -111,3 +111,4 @@ oxipng
 human_bytes
 h3o
 cargo-lock
+diesel_cli
