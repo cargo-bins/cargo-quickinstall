@@ -57,3 +57,4 @@ pwasm-utils
 racer
 rustfmt-nightly
 oxipng
+cargo-spellcheck
