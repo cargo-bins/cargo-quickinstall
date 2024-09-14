@@ -131,3 +131,4 @@ parquet
 tauri-cli
 oso
 raw-cpuid
+foundationdb-gen
