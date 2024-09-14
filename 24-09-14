@@ -56,3 +56,4 @@ sn_node
 deno
 solana-gossip
 coldsnap
+rls-rustc
