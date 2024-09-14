@@ -60,3 +60,4 @@ rls-rustc
 honggfuzz
 oso
 tendermint-rpc
+dotenvy
