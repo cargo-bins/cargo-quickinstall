@@ -13,3 +13,4 @@ parquet
 oxipng
 winpty-rs
 deno
+tendermint-rpc
