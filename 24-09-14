@@ -7,3 +7,4 @@ winpty-rs
 nextest-filtering
 minicbor
 httpmock
+laminar
