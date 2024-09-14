@@ -18,3 +18,4 @@ sea-orm-cli
 laminar
 paperclip
 oso
+socketcan
