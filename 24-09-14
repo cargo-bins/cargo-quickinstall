@@ -8,3 +8,4 @@ nextest-filtering
 minicbor
 httpmock
 laminar
+cached-path
