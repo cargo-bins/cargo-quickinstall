@@ -97,3 +97,4 @@ laminar
 httpmock
 human_bytes
 dotenv
+winpty-rs
