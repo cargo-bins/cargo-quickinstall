@@ -111,3 +111,4 @@ solana-remote-wallet
 textplots
 rls-rustc
 parquet
+pwasm-utils
