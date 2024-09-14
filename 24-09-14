@@ -129,3 +129,4 @@ socketcan
 clippy
 parquet
 tauri-cli
+oso
