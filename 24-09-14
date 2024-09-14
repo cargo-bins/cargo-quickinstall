@@ -107,3 +107,4 @@ phf_generator
 solana-validator
 deploy
 snarkvm
+solana-remote-wallet
