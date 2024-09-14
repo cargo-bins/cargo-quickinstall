@@ -109,3 +109,4 @@ re_query
 deploy
 text-diff
 jsonschema
+deno
