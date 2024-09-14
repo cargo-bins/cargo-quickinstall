@@ -96,3 +96,4 @@ spider_cli
 unic-langid-impl
 jsonschema
 phf_generator
+rkv
