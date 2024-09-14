@@ -112,3 +112,4 @@ jsonschema
 deno
 java-locator
 benfred-read-process-memory
+socketcan
