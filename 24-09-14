@@ -56,3 +56,4 @@ foundationdb-gen
 clippy
 cargo-lock
 human_name
+wol-rs
