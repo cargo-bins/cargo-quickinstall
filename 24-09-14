@@ -75,3 +75,4 @@ nextest-filtering
 laminar
 rls-rustc
 tendermint-abci
+solana-keygen
