@@ -71,3 +71,4 @@ parquet
 cached-path
 rkv
 ducc-sys
+sha1collisiondetection
