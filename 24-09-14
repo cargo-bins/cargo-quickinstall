@@ -58,3 +58,4 @@ dotenv
 cpp_demangle
 nkeys
 rkv
+solana-remote-wallet
