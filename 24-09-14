@@ -73,3 +73,4 @@ minicbor
 tree-sitter-graph
 tendermint-rpc
 sea-orm-cli
+snarkvm
