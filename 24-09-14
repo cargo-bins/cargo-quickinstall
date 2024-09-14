@@ -24,3 +24,4 @@ remove_dir_all
 rustbus
 dotenvy
 borsh
+pwasm-utils
