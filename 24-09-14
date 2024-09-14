@@ -55,3 +55,4 @@ human_bytes
 rls-rustc
 spider_cli
 wol-rs
+tendermint-rpc
