@@ -34,3 +34,4 @@ wol-rs
 paperclip
 pwasm-utils
 schemafy
+winpty-rs
