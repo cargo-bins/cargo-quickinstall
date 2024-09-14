@@ -49,3 +49,4 @@ cargo-lock
 schemafy
 rkv
 cpp_demangle
+nexmark
