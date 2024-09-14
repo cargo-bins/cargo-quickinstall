@@ -109,3 +109,4 @@ solana-gossip
 cached-path
 tendermint-rpc
 arrow-flight
+spider_cli
