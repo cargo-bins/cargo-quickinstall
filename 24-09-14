@@ -80,3 +80,4 @@ opencv-binding-generator
 deploy
 re_query
 ducc-sys
+z3tracer
