@@ -76,3 +76,4 @@ sea-orm-cli
 snarkvm
 clippy
 tendermint-abci
+opencv-binding-generator
