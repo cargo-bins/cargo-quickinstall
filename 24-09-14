@@ -65,3 +65,4 @@ tendermint-abci
 rustfmt-nightly
 addr2line
 nkeys
+human_bytes
