@@ -83,3 +83,4 @@ nextest-filtering
 socketcan
 addr2line
 borsh
+phf_generator
