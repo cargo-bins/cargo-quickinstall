@@ -121,3 +121,4 @@ solana-gossip
 coldsnap
 rrule
 re_query
+dotenvy
