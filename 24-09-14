@@ -112,3 +112,4 @@ textplots
 rls-rustc
 parquet
 pwasm-utils
+nextest-filtering
