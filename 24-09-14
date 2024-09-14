@@ -116,3 +116,4 @@ re_query
 paperclip
 human_name
 borsh
+cached-path
