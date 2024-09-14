@@ -44,3 +44,4 @@ pwasm-utils
 laminar
 opencv-binding-generator
 java-locator
+ducc-sys
