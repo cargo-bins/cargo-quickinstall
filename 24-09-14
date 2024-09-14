@@ -50,3 +50,4 @@ addr2line
 rustrict
 addr2line
 tree-sitter-graph
+cached-path
