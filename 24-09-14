@@ -11,3 +11,4 @@ cargo-lock
 racer
 parquet
 oxipng
+winpty-rs
