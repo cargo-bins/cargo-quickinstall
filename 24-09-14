@@ -117,3 +117,4 @@ paperclip
 vrc-log
 spider_worker
 hoard-rs
+dotenv
