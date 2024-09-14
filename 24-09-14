@@ -79,3 +79,4 @@ rrule
 unic-langid-impl
 rustfmt-nightly
 laminar
+racer
