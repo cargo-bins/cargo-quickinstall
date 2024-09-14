@@ -61,3 +61,4 @@ raw-cpuid
 laminar
 socketcan
 nkeys
+human_bytes
