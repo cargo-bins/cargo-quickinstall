@@ -103,3 +103,4 @@ ec2_instance_metadata
 syd
 addr2line
 cached-path
+deno
