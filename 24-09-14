@@ -21,3 +21,4 @@ cached-path
 rls-rustc
 cargo-whatfeatures
 binstall
+z3tracer
