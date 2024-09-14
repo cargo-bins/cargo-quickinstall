@@ -95,3 +95,4 @@ dotenv
 spider_cli
 laminar
 httpmock
+human_bytes
