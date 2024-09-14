@@ -36,3 +36,4 @@ oso
 deno
 opencv-binding-generator
 tree-sitter-graph
+phf_generator
