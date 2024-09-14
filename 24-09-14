@@ -2,3 +2,4 @@ parquet
 nu
 spider_cli
 sha1collisiondetection
+addr2line
