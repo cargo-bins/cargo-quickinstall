@@ -104,3 +104,4 @@ httpmock
 codeberg-cli
 speedtest-rs
 tendermint-abci
+rustfmt-nightly
