@@ -114,3 +114,4 @@ cargo-lock
 diesel_cli
 solana-gossip
 rkv
+h3o
