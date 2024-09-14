@@ -136,3 +136,4 @@ tendermint-abci
 httpbis
 winpty-rs
 borsh
+re_query
