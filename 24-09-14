@@ -55,3 +55,4 @@ wmi
 syd
 minicbor
 dotenv
+cpp_demangle
