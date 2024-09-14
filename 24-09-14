@@ -87,3 +87,4 @@ phf_generator
 wol-rs
 snarkvm
 rustfmt-nightly
+arrow-flight
