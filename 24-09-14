@@ -112,3 +112,4 @@ arrow-flight
 spider_cli
 dotenv
 pwasm-utils
+tendermint-abci
