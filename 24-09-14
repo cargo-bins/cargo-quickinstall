@@ -36,3 +36,4 @@ cargo-whatfeatures
 sha1collisiondetection
 qsv
 cargo-mobile2
+minicbor
