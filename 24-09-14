@@ -58,3 +58,4 @@ nkeys
 rls-rustc
 socketcan
 dotenv
+phf_generator
