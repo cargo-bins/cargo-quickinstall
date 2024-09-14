@@ -49,3 +49,4 @@ tree-sitter-graph
 cargo-lock
 rustrict
 remove_dir_all
+spider_worker
