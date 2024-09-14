@@ -27,3 +27,4 @@ laminar
 binstall
 rkv
 cargo-smart-release
+ducc-sys
