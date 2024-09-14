@@ -74,3 +74,4 @@ parquet
 protox
 httpmock
 schemafy
+dotenvy
