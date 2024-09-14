@@ -69,3 +69,4 @@ oso
 unic-langid-impl
 parquet
 cached-path
+rkv
