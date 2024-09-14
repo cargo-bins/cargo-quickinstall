@@ -60,3 +60,4 @@ dotenvy
 rustrict
 tendermint-abci
 winpty-rs
+addr2line
