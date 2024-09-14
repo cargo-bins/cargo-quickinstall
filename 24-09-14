@@ -60,3 +60,4 @@ nkeys
 rustfmt-nightly
 wol-rs
 foundationdb-gen
+socketcan
