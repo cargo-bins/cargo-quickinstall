@@ -51,3 +51,4 @@ tendermint-rpc
 re_query
 opencv-binding-generator
 foundationdb-gen
+diesel_cli
