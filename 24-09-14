@@ -21,3 +21,4 @@ z3tracer
 ducc-sys
 httpmock
 rustfmt-nightly
+dotenvy
