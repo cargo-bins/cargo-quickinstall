@@ -52,3 +52,4 @@ addr2line
 tree-sitter-graph
 cached-path
 laminar
+human_name
