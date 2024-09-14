@@ -114,3 +114,4 @@ dotenv
 pwasm-utils
 tendermint-abci
 wol-rs
+tree-sitter-graph
