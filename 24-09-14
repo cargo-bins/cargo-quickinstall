@@ -62,3 +62,4 @@ rls-rustc
 bugstalker
 sqruff
 sea-orm-cli
+nextest-filtering
