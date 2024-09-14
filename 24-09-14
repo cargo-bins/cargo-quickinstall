@@ -44,3 +44,4 @@ re_query
 oso
 nextest-filtering
 human_name
+opencv-binding-generator
