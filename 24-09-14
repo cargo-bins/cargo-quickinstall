@@ -40,3 +40,4 @@ phf_generator
 cargo-lock
 nu
 tree-sitter-cli
+unic-langid-impl
