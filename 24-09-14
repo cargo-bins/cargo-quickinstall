@@ -108,3 +108,4 @@ rustfmt-nightly
 rioterm
 parquet
 stac-cli
+gpg-tui
