@@ -64,3 +64,4 @@ tendermint-abci
 minicbor
 rustfmt-nightly
 textplots
+protox
