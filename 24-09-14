@@ -102,3 +102,4 @@ phf_generator
 socketcan
 cargo-lock
 human_bytes
+unic-langid-impl
