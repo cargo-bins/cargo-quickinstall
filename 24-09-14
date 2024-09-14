@@ -46,3 +46,4 @@ winpty-rs
 z3tracer
 nkeys
 winpty-rs
+remove_dir_all
