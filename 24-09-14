@@ -92,3 +92,4 @@ snarkvm
 schemafy
 foundationdb-gen
 dotenv
+spider_cli
