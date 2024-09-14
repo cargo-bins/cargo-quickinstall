@@ -112,3 +112,4 @@ rrule
 tendermint-abci
 nkeys
 tendermint-rpc
+solana-gossip
