@@ -8,3 +8,4 @@ sea-orm-cli
 raw-cpuid
 ducc-sys
 minicbor
+sqlx-cli
