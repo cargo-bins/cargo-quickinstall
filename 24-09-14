@@ -31,3 +31,4 @@ cargo-lock
 sha1collisiondetection
 socketcan
 foundationdb-gen
+papyrus_storage
