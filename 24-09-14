@@ -70,3 +70,4 @@ nexmark
 rustfmt-nightly
 clippy
 papyrus_storage
+solana-gossip
