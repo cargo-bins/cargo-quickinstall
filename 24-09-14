@@ -96,3 +96,4 @@ turbocommit
 rkv
 qsv
 probe-rs-tools
+rustfmt-nightly
