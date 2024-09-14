@@ -14,3 +14,4 @@ rioterm
 rls-rustc
 rg
 addr2line
+elf2uf2-rs
