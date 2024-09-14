@@ -55,3 +55,4 @@ typst-cli
 foundationdb-gen
 clippy
 cargo-lock
+human_name
