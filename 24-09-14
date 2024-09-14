@@ -14,3 +14,4 @@ oxipng
 winpty-rs
 deno
 tendermint-rpc
+dotenvy
