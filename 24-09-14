@@ -71,3 +71,4 @@ cached-path
 deploy
 foundationdb-gen
 parquet
+protox
