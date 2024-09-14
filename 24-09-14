@@ -106,3 +106,4 @@ dotenv
 phf_generator
 solana-validator
 deploy
+snarkvm
