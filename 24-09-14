@@ -43,3 +43,4 @@ foundationdb-gen
 diesel_cli
 human_bytes
 schemafy
+remove_dir_all
