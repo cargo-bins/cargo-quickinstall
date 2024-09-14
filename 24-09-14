@@ -39,3 +39,4 @@ schemafy
 sqlx-cli
 protox
 cargo-vet
+rustbus
