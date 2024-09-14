@@ -82,3 +82,4 @@ rls-rustc
 sha1collisiondetection
 winpty-rs
 wol-rs
+minicbor
