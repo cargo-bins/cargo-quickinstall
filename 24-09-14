@@ -100,3 +100,4 @@ remove_dir_all
 wol-rs
 phf_generator
 socketcan
+cargo-lock
