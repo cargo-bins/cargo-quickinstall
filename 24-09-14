@@ -97,3 +97,4 @@ llvm-cov-pretty
 inlyne
 remove_dir_all
 py-spy
+rkv
