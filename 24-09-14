@@ -2,3 +2,4 @@ wol-rs
 rls-rustc
 unic-langid-impl
 tree-sitter-graph
+raw-cpuid
