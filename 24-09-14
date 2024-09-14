@@ -33,3 +33,4 @@ dotenv
 minicbor
 snarkvm
 rustfmt-nightly
+dotenvy
