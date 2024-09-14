@@ -22,3 +22,4 @@ ef
 foundationdb-gen
 cached-path
 cargo-spellcheck
+cargo-whatfeatures
