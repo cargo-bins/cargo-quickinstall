@@ -35,3 +35,4 @@ wmi
 raw-cpuid
 sha1collisiondetection
 wmi
+z3tracer
