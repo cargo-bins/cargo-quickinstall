@@ -95,3 +95,4 @@ porsmo
 solana-remote-wallet
 llvm-cov-pretty
 inlyne
+remove_dir_all
