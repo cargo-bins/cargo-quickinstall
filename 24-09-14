@@ -70,3 +70,4 @@ unic-langid-impl
 parquet
 cached-path
 rkv
+ducc-sys
