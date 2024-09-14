@@ -9,3 +9,4 @@ cpp_demangle
 borsh
 nextest-filtering
 cached-path
+remove_dir_all
