@@ -47,3 +47,4 @@ human_name
 opencv-binding-generator
 re_query
 rkv
+tendermint-rpc
