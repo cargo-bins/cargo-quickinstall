@@ -72,3 +72,4 @@ remove_dir_all
 parquet
 rkv
 rustrict
+minicbor
