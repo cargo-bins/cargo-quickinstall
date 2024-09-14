@@ -4,3 +4,4 @@ spider_cli
 sha1collisiondetection
 addr2line
 cpp_demangle
+raw-cpuid
