@@ -44,3 +44,4 @@ cargo-generate
 solana-gossip
 nexmark
 z3tracer
+rustbus
