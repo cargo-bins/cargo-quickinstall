@@ -107,3 +107,4 @@ paperclip
 unic-langid-impl
 solana-gossip
 cached-path
+tendermint-rpc
