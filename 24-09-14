@@ -56,3 +56,4 @@ human_name
 human_bytes
 dotenv
 phf_generator
+httpmock
