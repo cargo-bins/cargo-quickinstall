@@ -41,3 +41,4 @@ cpp_demangle
 deploy
 tendermint-abci
 re_query
+oso
