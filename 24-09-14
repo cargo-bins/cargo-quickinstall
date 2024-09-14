@@ -135,3 +135,4 @@ httpmock
 tendermint-abci
 httpbis
 winpty-rs
+borsh
