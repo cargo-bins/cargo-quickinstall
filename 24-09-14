@@ -82,3 +82,4 @@ tree-sitter-graph
 nextest-filtering
 socketcan
 addr2line
+borsh
