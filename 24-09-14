@@ -55,3 +55,4 @@ diesel_cli
 pwasm-utils
 cached-path
 deploy
+unic-langid-impl
