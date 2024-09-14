@@ -29,3 +29,4 @@ tendermint-rpc
 java-locator
 remove_dir_all
 librespot
+spider_worker
