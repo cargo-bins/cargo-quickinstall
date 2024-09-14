@@ -46,3 +46,4 @@ addr2line
 nextest-filtering
 py-spy
 java-locator
+parquet
