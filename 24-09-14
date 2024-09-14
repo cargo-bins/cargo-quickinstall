@@ -15,3 +15,4 @@ coldsnap
 schemafy
 opencv-binding-generator
 py-spy
+benfred-read-process-memory
