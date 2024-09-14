@@ -12,3 +12,4 @@ httpmock
 snarkvm
 java-locator
 sqlx-cli
+spider_worker
