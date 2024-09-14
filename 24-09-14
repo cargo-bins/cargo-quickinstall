@@ -36,3 +36,4 @@ raw-cpuid
 sha1collisiondetection
 wmi
 z3tracer
+remove_dir_all
