@@ -87,3 +87,4 @@ laminar
 sn_cli
 jsonschema
 syd
+tendermint-rpc
