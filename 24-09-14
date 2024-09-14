@@ -63,3 +63,4 @@ socketcan
 nkeys
 human_bytes
 httpmock
+raw-cpuid
