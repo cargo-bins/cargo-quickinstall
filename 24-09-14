@@ -91,3 +91,4 @@ tendermint-rpc
 tokio-process
 wol-rs
 rustbus
+paperclip
