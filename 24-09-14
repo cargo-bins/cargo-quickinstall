@@ -49,3 +49,4 @@ winpty-rs
 remove_dir_all
 pwasm-utils
 diesel_cli
+httpmock
