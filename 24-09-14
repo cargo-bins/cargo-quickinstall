@@ -79,3 +79,4 @@ text-diff
 paperclip
 coldsnap
 foundationdb-gen
+phf_generator
