@@ -119,3 +119,4 @@ spider_worker
 hoard-rs
 dotenv
 oso
+z3tracer
