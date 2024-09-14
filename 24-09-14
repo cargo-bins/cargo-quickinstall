@@ -9,3 +9,4 @@ dotenvy
 foundationdb-gen
 rav1e
 phf_generator
+honggfuzz
