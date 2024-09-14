@@ -39,3 +39,4 @@ tree-sitter-graph
 phf_generator
 cargo-lock
 nu
+tree-sitter-cli
