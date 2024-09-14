@@ -20,3 +20,4 @@ tendermint-abci
 arrow-flight
 java-locator
 foundationdb-gen
+remove_dir_all
