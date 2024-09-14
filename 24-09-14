@@ -58,3 +58,4 @@ dotenv
 phf_generator
 httpmock
 raw-cpuid
+laminar
