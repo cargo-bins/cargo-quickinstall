@@ -107,3 +107,4 @@ foundationdb-gen
 tree-sitter-graph
 remove_dir_all
 cached-path
+papyrus_storage
