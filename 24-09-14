@@ -70,3 +70,4 @@ arrow-flight
 spider_worker
 phf_generator
 raw-cpuid
+rls-rustc
