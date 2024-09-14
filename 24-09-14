@@ -114,3 +114,4 @@ java-locator
 benfred-read-process-memory
 socketcan
 rustfmt
+httpmock
