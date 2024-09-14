@@ -3,3 +3,4 @@ dotenv
 addr2line
 papyrus_storage
 solana-validator
+human_bytes
