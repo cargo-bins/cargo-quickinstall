@@ -91,3 +91,4 @@ dotenvy
 pwasm-utils
 dotenv
 tendermint-rpc
+socketcan
