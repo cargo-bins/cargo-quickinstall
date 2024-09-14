@@ -54,3 +54,4 @@ foundationdb-gen
 diesel_cli
 pwasm-utils
 cached-path
+deploy
