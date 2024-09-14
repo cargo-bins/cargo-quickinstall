@@ -63,3 +63,4 @@ rustfmt-nightly
 nkeys
 solana-keygen
 rkv
+unic-langid-impl
