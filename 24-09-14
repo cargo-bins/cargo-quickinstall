@@ -17,3 +17,4 @@ addr2line
 httpmock
 cpp_demangle
 hurl
+opencv-binding-generator
