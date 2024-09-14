@@ -89,3 +89,4 @@ socketcan
 nkeys
 rkv
 deploy
+cached-path
