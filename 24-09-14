@@ -89,3 +89,4 @@ jsonschema
 syd
 tendermint-rpc
 tokio-process
+wol-rs
