@@ -28,3 +28,4 @@ snarkvm
 cached-path
 winpty-rs
 java-locator
+sha1collisiondetection
