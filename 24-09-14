@@ -11,3 +11,4 @@ nextest-filtering
 cached-path
 remove_dir_all
 opencv-binding-generator
+sea-orm-cli
