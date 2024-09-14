@@ -87,3 +87,4 @@ cpp_demangle
 minicbor
 tauri-cli
 dotenv
+arrow-flight
