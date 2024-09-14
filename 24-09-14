@@ -76,3 +76,4 @@ racer
 human_name
 rustfmt-nightly
 solana-gossip
+solana-validator
