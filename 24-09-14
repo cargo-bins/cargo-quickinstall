@@ -34,3 +34,4 @@ sqlx-cli
 foundationdb-gen
 remove_dir_all
 socketcan
+tree-sitter-graph
