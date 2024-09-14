@@ -121,3 +121,4 @@ raw-cpuid
 rustrict
 cached-path
 rkv
+tree-sitter-cli
