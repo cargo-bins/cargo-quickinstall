@@ -7,3 +7,4 @@ archwiki-rs
 cargo-lock
 nextsv
 porsmo
+dotenv
