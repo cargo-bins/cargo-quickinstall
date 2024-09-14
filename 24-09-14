@@ -16,3 +16,4 @@ phf_generator
 parquet
 winpty-rs
 spider_worker
+human_bytes
