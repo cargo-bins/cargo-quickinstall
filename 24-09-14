@@ -100,3 +100,4 @@ cpp_demangle
 rkv
 paperclip
 winpty-rs
+diesel_cli
