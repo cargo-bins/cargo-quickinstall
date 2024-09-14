@@ -13,3 +13,4 @@ cpp_demangle
 remove_dir_all
 java-locator
 tendermint-rpc
+tree-sitter-cli
