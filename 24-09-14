@@ -33,3 +33,4 @@ laminar
 human_bytes
 nu
 tree-sitter-cli
+remove_dir_all
