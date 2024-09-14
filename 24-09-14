@@ -22,3 +22,4 @@ textplots
 tendermint-rpc
 sn_cli
 dotenv
+foundationdb-gen
