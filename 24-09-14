@@ -63,3 +63,4 @@ addr2line
 cached-path
 tendermint-abci
 rustfmt-nightly
+addr2line
