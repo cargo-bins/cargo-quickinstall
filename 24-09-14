@@ -107,3 +107,4 @@ tendermint-abci
 rustfmt-nightly
 rioterm
 parquet
+stac-cli
