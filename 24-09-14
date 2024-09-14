@@ -90,3 +90,4 @@ racer
 dotenvy
 pwasm-utils
 dotenv
+tendermint-rpc
