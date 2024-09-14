@@ -103,3 +103,4 @@ re_query
 cached-path
 cpp_demangle
 dotenv
+phf_generator
