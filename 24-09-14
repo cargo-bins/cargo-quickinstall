@@ -10,3 +10,4 @@ ducc-sys
 minicbor
 sqlx-cli
 cpp_demangle
+remove_dir_all
