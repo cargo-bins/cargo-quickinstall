@@ -27,3 +27,4 @@ phf_generator
 nu
 tendermint-rpc
 java-locator
+remove_dir_all
