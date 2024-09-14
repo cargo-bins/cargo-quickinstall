@@ -100,3 +100,4 @@ dotenv
 winpty-rs
 solana-gossip
 spider_worker
+snarkvm
