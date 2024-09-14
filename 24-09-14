@@ -72,3 +72,4 @@ rav1e
 solana-validator
 foundationdb-gen
 wmi
+phf_generator
