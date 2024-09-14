@@ -76,3 +76,4 @@ laminar
 rls-rustc
 tendermint-abci
 solana-keygen
+tree-sitter-graph
