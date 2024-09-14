@@ -58,3 +58,4 @@ racer
 rustfmt-nightly
 oxipng
 cargo-spellcheck
+addr2line
