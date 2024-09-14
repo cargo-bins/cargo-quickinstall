@@ -40,3 +40,4 @@ rrule
 laminar
 tendermint-abci
 remove_dir_all
+solana-validator
