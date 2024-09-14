@@ -46,3 +46,4 @@ schemafy
 remove_dir_all
 textplots
 cargo-lock
+schemafy
