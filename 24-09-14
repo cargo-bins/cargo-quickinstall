@@ -8,3 +8,4 @@ cached-path
 remove_dir_all
 dotenv
 cpp_demangle
+httpmock
