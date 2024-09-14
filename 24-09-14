@@ -10,3 +10,4 @@ deploy
 httpmock
 ruff
 mise
+spider_cli
