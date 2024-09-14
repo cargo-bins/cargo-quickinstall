@@ -120,3 +120,4 @@ hoard-rs
 dotenv
 oso
 z3tracer
+cargo-public-api
