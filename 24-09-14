@@ -116,3 +116,4 @@ socketcan
 rustfmt
 httpmock
 syd
+textplots
