@@ -104,3 +104,4 @@ cached-path
 cpp_demangle
 dotenv
 phf_generator
+solana-validator
