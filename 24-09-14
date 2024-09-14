@@ -74,3 +74,4 @@ java-locator
 nextest-filtering
 laminar
 rls-rustc
+tendermint-abci
