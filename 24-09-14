@@ -40,3 +40,4 @@ remove_dir_all
 cpp_demangle
 deploy
 tendermint-abci
+re_query
