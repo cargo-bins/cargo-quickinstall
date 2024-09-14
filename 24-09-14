@@ -54,3 +54,4 @@ mise
 typst-cli
 foundationdb-gen
 clippy
+cargo-lock
