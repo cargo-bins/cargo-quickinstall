@@ -74,3 +74,4 @@ solana-gossip
 rrule
 remove_dir_all
 nextest-filtering
+rustrict
