@@ -86,3 +86,4 @@ solana-remote-wallet
 cpp_demangle
 minicbor
 tauri-cli
+dotenv
