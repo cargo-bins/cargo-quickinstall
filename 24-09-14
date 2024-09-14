@@ -13,3 +13,4 @@ nextest-filtering
 borsh
 arrow-flight
 human_name
+cached-path
