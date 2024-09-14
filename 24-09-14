@@ -21,3 +21,4 @@ tree-sitter-cli
 ef
 foundationdb-gen
 cached-path
+cargo-spellcheck
