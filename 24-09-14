@@ -46,3 +46,4 @@ re_query
 rkv
 winpty-rs
 solana-remote-wallet
+spider_cli
