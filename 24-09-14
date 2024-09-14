@@ -53,3 +53,4 @@ sha1collisiondetection
 wol-rs
 human_bytes
 rls-rustc
+spider_cli
