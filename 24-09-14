@@ -11,3 +11,4 @@ oso
 foundationdb-gen
 nextest-filtering
 borsh
+arrow-flight
