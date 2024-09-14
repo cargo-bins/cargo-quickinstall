@@ -57,3 +57,4 @@ clippy
 cargo-lock
 human_name
 wol-rs
+parquet
