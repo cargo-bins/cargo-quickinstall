@@ -36,3 +36,4 @@ remove_dir_all
 socketcan
 tree-sitter-graph
 schemafy
+sqlx-cli
