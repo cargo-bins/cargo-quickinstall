@@ -38,3 +38,4 @@ tree-sitter-graph
 oso
 rls-rustc
 httpmock
+rkv
