@@ -29,3 +29,4 @@ h3o
 monolith
 cargo-lock
 sha1collisiondetection
+socketcan
