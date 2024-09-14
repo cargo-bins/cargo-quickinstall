@@ -10,3 +10,4 @@ dotenv
 cpp_demangle
 httpmock
 snarkvm
+java-locator
