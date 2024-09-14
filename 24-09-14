@@ -125,3 +125,4 @@ tendermint-rpc
 diesel_cli
 deploy
 sea-orm-cli
+socketcan
