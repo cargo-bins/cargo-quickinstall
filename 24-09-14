@@ -40,3 +40,4 @@ rkv
 nkeys
 paperclip
 foundationdb-gen
+diesel_cli
