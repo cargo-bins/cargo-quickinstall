@@ -65,3 +65,4 @@ text-diff
 human_name
 deno
 winpty-rs
+tokio-process
