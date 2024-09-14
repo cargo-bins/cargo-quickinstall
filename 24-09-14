@@ -83,3 +83,4 @@ sha1collisiondetection
 winpty-rs
 wol-rs
 minicbor
+cpp_demangle
