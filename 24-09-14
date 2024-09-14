@@ -82,3 +82,4 @@ snarkvm
 ducc-sys
 human_name
 speedtest-rs
+remove_dir_all
