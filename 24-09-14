@@ -76,3 +76,4 @@ remove_dir_all
 nextest-filtering
 rustrict
 text-diff
+paperclip
