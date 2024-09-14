@@ -21,3 +21,4 @@ oso
 socketcan
 solana-validator
 nextest-filtering
+opencv-binding-generator
