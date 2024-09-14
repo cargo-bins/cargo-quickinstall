@@ -42,3 +42,4 @@ tendermint-abci
 remove_dir_all
 solana-validator
 borsh
+re_query
