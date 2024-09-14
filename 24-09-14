@@ -97,3 +97,4 @@ nextest-filtering
 java-locator
 tendermint-abci
 cpp_demangle
+rkv
