@@ -126,3 +126,4 @@ deno
 dotenvy
 raw-cpuid
 laminar
+borsh
