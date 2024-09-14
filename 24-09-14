@@ -97,3 +97,4 @@ unic-langid-impl
 jsonschema
 phf_generator
 rkv
+cached-path
