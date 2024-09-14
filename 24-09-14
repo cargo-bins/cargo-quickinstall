@@ -42,3 +42,4 @@ deploy
 tendermint-abci
 re_query
 oso
+nextest-filtering
