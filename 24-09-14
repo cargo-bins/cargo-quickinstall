@@ -92,3 +92,4 @@ tokio-process
 wol-rs
 rustbus
 paperclip
+schemafy
