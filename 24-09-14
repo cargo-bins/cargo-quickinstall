@@ -65,3 +65,4 @@ human_name
 tendermint-abci
 dotenv
 tree-sitter-graph
+ducc-sys
