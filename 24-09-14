@@ -127,3 +127,4 @@ deploy
 sea-orm-cli
 socketcan
 clippy
+parquet
