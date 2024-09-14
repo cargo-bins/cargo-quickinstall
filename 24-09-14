@@ -19,3 +19,4 @@ schemafy
 tendermint-abci
 arrow-flight
 java-locator
+foundationdb-gen
