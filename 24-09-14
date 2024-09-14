@@ -64,3 +64,4 @@ cached-path
 tendermint-abci
 rustfmt-nightly
 addr2line
+nkeys
