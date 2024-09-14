@@ -130,3 +130,4 @@ clippy
 parquet
 tauri-cli
 oso
+raw-cpuid
