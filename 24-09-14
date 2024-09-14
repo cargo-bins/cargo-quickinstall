@@ -83,3 +83,4 @@ phf_generator
 schemafy
 nextest-filtering
 diesel_cli
+laminar
