@@ -28,3 +28,4 @@ binstall
 rkv
 cargo-smart-release
 ducc-sys
+elf2uf2-rs
