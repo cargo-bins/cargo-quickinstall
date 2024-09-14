@@ -63,3 +63,4 @@ solana-validator
 tendermint-abci
 minicbor
 rustfmt-nightly
+textplots
