@@ -32,3 +32,4 @@ wol-rs
 socketcan
 cargo-msrv
 h3o
+cargo-whatfeatures
