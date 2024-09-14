@@ -37,3 +37,4 @@ remove_dir_all
 human_bytes
 zuse
 solana-remote-wallet
+addr2line
