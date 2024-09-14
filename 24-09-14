@@ -7,3 +7,4 @@ human_bytes
 sea-orm-cli
 raw-cpuid
 ducc-sys
+minicbor
