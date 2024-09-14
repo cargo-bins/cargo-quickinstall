@@ -130,3 +130,4 @@ borsh
 laminar
 nkeys
 racer
+rustfmt-nightly
