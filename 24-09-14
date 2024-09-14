@@ -26,3 +26,4 @@ nexmark
 winpty-rs
 diesel_cli
 httpmock
+paperclip
