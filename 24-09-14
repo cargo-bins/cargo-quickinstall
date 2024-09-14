@@ -77,3 +77,4 @@ diesel_cli
 schemafy
 tree-sitter-cli
 nkeys
+foundationdb-gen
