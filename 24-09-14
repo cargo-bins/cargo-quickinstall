@@ -16,3 +16,4 @@ deno
 tendermint-rpc
 dotenvy
 opencv-binding-generator
+racer
