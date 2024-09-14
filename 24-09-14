@@ -16,3 +16,4 @@ human_name
 cached-path
 raw-cpuid
 rrule
+phf_generator
