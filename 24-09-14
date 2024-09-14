@@ -32,3 +32,4 @@ sha1collisiondetection
 socketcan
 foundationdb-gen
 papyrus_storage
+phf_generator
