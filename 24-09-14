@@ -48,3 +48,4 @@ textplots
 cargo-lock
 schemafy
 rkv
+cpp_demangle
