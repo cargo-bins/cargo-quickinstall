@@ -127,3 +127,4 @@ winpty-rs
 re_query
 java-locator
 wol-rs
+nextest-filtering
