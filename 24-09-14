@@ -67,3 +67,4 @@ deno
 winpty-rs
 tokio-process
 nexmark
+rustfmt-nightly
