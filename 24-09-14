@@ -68,3 +68,4 @@ remove_dir_all
 cpp_demangle
 arrow-flight
 spider_worker
+phf_generator
