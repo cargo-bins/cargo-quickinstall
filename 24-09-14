@@ -131,3 +131,4 @@ tree-sitter-graph
 papyrus_storage
 deno
 schemafy
+httpmock
