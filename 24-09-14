@@ -34,3 +34,4 @@ minicbor
 snarkvm
 rustfmt-nightly
 dotenvy
+solana-gossip
