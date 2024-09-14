@@ -65,3 +65,4 @@ sea-orm-cli
 nextest-filtering
 solana-remote-wallet
 remove_dir_all
+cpp_demangle
