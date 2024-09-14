@@ -27,3 +27,4 @@ borsh
 pwasm-utils
 h3o
 monolith
+cargo-lock
