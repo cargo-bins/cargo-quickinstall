@@ -66,3 +66,4 @@ papyrus_storage
 sniffnet
 raw-cpuid
 qsv
+hoard-rs
