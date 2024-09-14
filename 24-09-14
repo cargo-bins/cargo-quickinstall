@@ -77,3 +77,4 @@ schemafy
 dotenvy
 cached-path
 clippy
+rustfmt-nightly
