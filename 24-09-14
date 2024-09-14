@@ -79,3 +79,4 @@ tendermint-abci
 opencv-binding-generator
 deploy
 re_query
+ducc-sys
