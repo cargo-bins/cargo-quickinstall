@@ -81,3 +81,4 @@ rustfmt-nightly
 syd
 nu
 solana-validator
+opencv-binding-generator
