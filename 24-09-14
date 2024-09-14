@@ -12,3 +12,4 @@ phf_generator
 honggfuzz
 opencv-binding-generator
 coldsnap
+schemafy
