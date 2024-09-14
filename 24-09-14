@@ -7,3 +7,4 @@ httpmock
 wol-rs
 arrow-flight
 tendermint-abci
+unic-langid-impl
