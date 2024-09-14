@@ -20,3 +20,4 @@ racer
 parquet
 pwasm-utils
 borsh
+tree-sitter-graph
