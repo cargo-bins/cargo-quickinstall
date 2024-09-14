@@ -78,3 +78,4 @@ unic-langid-impl
 racer
 oso
 rls-rustc
+tree-sitter-graph
