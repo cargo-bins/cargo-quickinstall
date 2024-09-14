@@ -121,3 +121,4 @@ spider_worker
 opencv-binding-generator
 nextest-filtering
 human_bytes
+addr2line
