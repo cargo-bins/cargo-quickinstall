@@ -123,3 +123,4 @@ nextest-filtering
 human_bytes
 addr2line
 deno
+dotenvy
