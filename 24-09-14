@@ -8,3 +8,4 @@ re_query
 human_bytes
 deploy
 httpmock
+ruff
