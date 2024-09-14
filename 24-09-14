@@ -8,3 +8,4 @@ raw-cpuid
 cpp_demangle
 borsh
 nextest-filtering
+cached-path
