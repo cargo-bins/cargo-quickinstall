@@ -79,3 +79,4 @@ racer
 oso
 rls-rustc
 tree-sitter-graph
+nextest-filtering
