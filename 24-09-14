@@ -93,3 +93,4 @@ cached-path
 wol-rs
 rustrict
 tree-sitter-cli
+nextest-filtering
