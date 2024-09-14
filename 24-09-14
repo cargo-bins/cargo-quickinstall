@@ -46,3 +46,4 @@ cargo-spellcheck
 hurlfmt
 cpp_demangle
 borsh
+bugstalker
