@@ -104,3 +104,4 @@ snarkvm
 human_name
 sea-orm-cli
 socketcan
+spider_worker
