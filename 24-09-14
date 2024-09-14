@@ -95,3 +95,4 @@ rustrict
 tree-sitter-cli
 nextest-filtering
 java-locator
+tendermint-abci
