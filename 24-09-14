@@ -128,3 +128,4 @@ laminar
 sha1collisiondetection
 tokio-process
 tree-sitter-graph
+papyrus_storage
