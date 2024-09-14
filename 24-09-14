@@ -59,3 +59,4 @@ unic-langid-impl
 racer
 cpp_demangle
 nkeys
+addr2line
