@@ -51,3 +51,4 @@ rustrict
 remove_dir_all
 spider_worker
 protox
+dotenvy
