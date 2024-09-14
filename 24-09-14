@@ -100,3 +100,4 @@ py-spy
 rkv
 parquet
 human_bytes
+httpmock
