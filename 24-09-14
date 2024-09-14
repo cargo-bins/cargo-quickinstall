@@ -110,3 +110,4 @@ cached-path
 tendermint-rpc
 arrow-flight
 spider_cli
+dotenv
