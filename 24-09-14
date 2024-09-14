@@ -103,3 +103,4 @@ socketcan
 cargo-lock
 human_bytes
 unic-langid-impl
+foundationdb-gen
