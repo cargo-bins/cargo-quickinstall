@@ -99,3 +99,4 @@ tendermint-abci
 cpp_demangle
 rkv
 paperclip
+winpty-rs
