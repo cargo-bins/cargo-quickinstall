@@ -134,3 +134,4 @@ rustfmt-nightly
 rkv
 solana-remote-wallet
 rls-rustc
+wol-rs
