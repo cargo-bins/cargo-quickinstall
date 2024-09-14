@@ -89,3 +89,4 @@ snarkvm
 rustfmt-nightly
 arrow-flight
 snarkvm
+schemafy
