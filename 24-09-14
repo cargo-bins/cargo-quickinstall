@@ -102,3 +102,4 @@ parquet
 human_bytes
 httpmock
 codeberg-cli
+speedtest-rs
