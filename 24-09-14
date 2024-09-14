@@ -124,3 +124,4 @@ human_bytes
 addr2line
 deno
 dotenvy
+raw-cpuid
