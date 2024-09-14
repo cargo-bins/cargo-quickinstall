@@ -32,3 +32,4 @@ dotenv
 racer
 wol-rs
 paperclip
+pwasm-utils
