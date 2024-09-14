@@ -40,3 +40,4 @@ solana-remote-wallet
 addr2line
 schemafy
 rrule
+pwasm-utils
