@@ -74,3 +74,4 @@ solana-validator
 sha1collisiondetection
 racer
 human_name
+rustfmt-nightly
