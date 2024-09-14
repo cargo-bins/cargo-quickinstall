@@ -106,3 +106,4 @@ nextsv
 papyrus_storage
 rustrict
 rustfmt-nightly
+spider_worker
