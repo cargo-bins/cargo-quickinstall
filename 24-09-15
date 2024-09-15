@@ -109,3 +109,4 @@ clippy
 raw-cpuid
 remove_dir_all
 rustfmt-nightly
+nexmark
