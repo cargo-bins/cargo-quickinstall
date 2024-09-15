@@ -99,3 +99,4 @@ tree-sitter-graph
 paperclip
 solana-validator
 tree-sitter-graph
+cargo-msrv
