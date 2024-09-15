@@ -122,3 +122,4 @@ diesel_cli
 cached-path
 cpp_demangle
 papyrus_storage
+wmi
