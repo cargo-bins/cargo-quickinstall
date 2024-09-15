@@ -122,3 +122,4 @@ re_query
 py-spy
 solana-gossip
 borsh
+spider_worker
