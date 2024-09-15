@@ -76,3 +76,4 @@ dotenv
 wmi
 paperclip
 tree-sitter-graph
+addr2line
