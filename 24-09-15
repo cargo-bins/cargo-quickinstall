@@ -22,3 +22,4 @@ py-spy
 clippy
 rkv
 httpmock
+phf_generator
