@@ -55,3 +55,4 @@ tendermint-abci
 sha1collisiondetection
 solana-gossip
 phf_generator
+jsonschema
