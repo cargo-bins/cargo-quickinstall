@@ -30,3 +30,4 @@ tree-sitter-graph
 laminar
 socketcan
 jsonschema
+opencv-binding-generator
