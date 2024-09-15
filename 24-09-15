@@ -9,3 +9,4 @@ human_name
 librespot
 winpty-rs
 protox
+dotenv
