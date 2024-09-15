@@ -21,3 +21,4 @@ httpmock
 textplots
 rls-rustc
 sea-orm-cli
+rustfmt-nightly
