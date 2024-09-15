@@ -46,3 +46,4 @@ rls-rustc
 pwasm-utils
 arrow-flight
 oso
+rkv
