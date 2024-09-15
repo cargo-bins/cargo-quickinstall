@@ -60,3 +60,4 @@ raw-cpuid
 h3o
 human_bytes
 monolith
+cargo-lock
