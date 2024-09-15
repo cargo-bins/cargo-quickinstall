@@ -31,3 +31,4 @@ laminar
 socketcan
 jsonschema
 opencv-binding-generator
+remove_dir_all
