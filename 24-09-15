@@ -34,3 +34,4 @@ opencv-binding-generator
 remove_dir_all
 rls-rustc
 cargo-msrv
+tree-sitter-cli
