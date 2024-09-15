@@ -92,3 +92,4 @@ addr2line
 wol-rs
 minicbor
 tendermint-rpc
+dotenvy
