@@ -109,3 +109,4 @@ dotenv
 winpty-rs
 addr2line
 dotenv
+sha1collisiondetection
