@@ -43,3 +43,4 @@ librespot
 parquet
 diesel_cli
 sqlx-cli
+racer
