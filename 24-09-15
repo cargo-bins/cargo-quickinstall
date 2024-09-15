@@ -77,3 +77,4 @@ tendermint-rpc
 wmi
 spider_cli
 clippy
+textplots
