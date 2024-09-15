@@ -79,3 +79,4 @@ rustfmt-nightly
 nextest-filtering
 foundationdb-gen
 textplots
+diesel_cli
