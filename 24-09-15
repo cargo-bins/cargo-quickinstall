@@ -106,3 +106,4 @@ oso
 sea-orm-cli
 cargo-show
 nexmark
+jsonschema
