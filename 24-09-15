@@ -48,3 +48,4 @@ winpty-rs
 arrow-flight
 syd
 sea-orm-cli
+raw-cpuid
