@@ -56,3 +56,4 @@ diesel_cli
 jsonschema
 z3tracer
 rls-rustc
+solana-validator
