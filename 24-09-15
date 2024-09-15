@@ -60,3 +60,4 @@ paperclip
 sqlx-cli
 h3o
 arrow-flight
+foundationdb-gen
