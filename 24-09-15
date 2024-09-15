@@ -100,3 +100,4 @@ paperclip
 solana-validator
 tree-sitter-graph
 cargo-msrv
+borsh
