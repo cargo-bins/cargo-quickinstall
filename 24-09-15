@@ -31,3 +31,4 @@ rustfmt
 cpp_demangle
 parquet
 py-spy
+addr2line
