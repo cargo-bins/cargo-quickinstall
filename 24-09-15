@@ -51,3 +51,4 @@ schemafy
 h3o
 rkv
 remove_dir_all
+tendermint-abci
