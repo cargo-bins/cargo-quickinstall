@@ -17,3 +17,4 @@ foundationdb-gen
 sea-orm-cli
 nexmark
 wmi
+tendermint-rpc
