@@ -104,3 +104,4 @@ borsh
 addr2line
 rrule
 schemafy
+cpp_demangle
