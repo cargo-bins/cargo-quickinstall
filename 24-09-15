@@ -47,3 +47,4 @@ opencv-binding-generator
 rustfmt
 z3tracer
 addr2line
+httpbis
