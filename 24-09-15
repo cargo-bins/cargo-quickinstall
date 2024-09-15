@@ -72,3 +72,4 @@ unic-langid-impl
 httpmock
 minicbor
 deploy
+arrow-flight
