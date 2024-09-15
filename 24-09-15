@@ -114,3 +114,4 @@ cargo-show
 tree-sitter-cli
 deno
 sqlx-cli
+tauri-cli
