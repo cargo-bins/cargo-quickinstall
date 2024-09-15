@@ -107,3 +107,4 @@ wasm-bindgen-cli
 wmi
 clippy
 raw-cpuid
+remove_dir_all
