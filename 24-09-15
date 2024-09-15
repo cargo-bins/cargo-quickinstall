@@ -43,3 +43,4 @@ cargo-graph
 wol-rs
 rustfmt-nightly
 rls-rustc
+pwasm-utils
