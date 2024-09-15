@@ -61,3 +61,4 @@ solana-gossip
 jsonschema
 dotenv
 schemafy
+socketcan
