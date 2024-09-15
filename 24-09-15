@@ -86,3 +86,4 @@ opencv-binding-generator
 solana-validator
 tendermint-abci
 tendermint-rpc
+nextest-filtering
