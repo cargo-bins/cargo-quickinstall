@@ -86,3 +86,4 @@ raw-cpuid
 solana-remote-wallet
 parquet
 protox
+wasm-bindgen-cli
