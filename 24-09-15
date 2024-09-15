@@ -76,3 +76,4 @@ human_bytes
 dotenvy
 wol-rs
 tendermint-abci
+snarkvm
