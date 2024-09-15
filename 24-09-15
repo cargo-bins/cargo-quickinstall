@@ -18,3 +18,4 @@ socketcan
 laminar
 wol-rs
 httpbis
+py-spy
