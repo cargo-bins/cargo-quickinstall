@@ -52,3 +52,4 @@ unic-langid-impl
 solana-validator
 ducc-sys
 dotenv
+nextest-filtering
