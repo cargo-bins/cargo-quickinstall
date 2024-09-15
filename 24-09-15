@@ -105,3 +105,4 @@ pwasm-utils
 arrow-flight
 wasm-bindgen-cli
 wmi
+clippy
