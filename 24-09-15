@@ -105,3 +105,4 @@ phf_generator
 unic-langid-impl
 protox
 borsh
+dotenv
