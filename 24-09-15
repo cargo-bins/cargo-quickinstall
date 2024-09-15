@@ -7,3 +7,4 @@ rrule
 rustfmt-nightly
 rustbus
 ec2_instance_metadata
+h3o
