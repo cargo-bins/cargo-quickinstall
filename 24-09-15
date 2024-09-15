@@ -63,3 +63,4 @@ sha1collisiondetection
 nkeys
 rls-rustc
 pwasm-utils
+turbocommit
