@@ -28,3 +28,4 @@ rustfmt-nightly
 stac-cli
 rioterm
 yofi
+nextest-filtering
