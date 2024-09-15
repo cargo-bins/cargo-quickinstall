@@ -31,3 +31,4 @@ spider_worker
 cargo-mobile2
 opencv-binding-generator
 foundationdb-gen
+cached-path
