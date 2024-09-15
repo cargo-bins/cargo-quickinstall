@@ -22,3 +22,4 @@ textplots
 rls-rustc
 sea-orm-cli
 rustfmt-nightly
+remove_dir_all
