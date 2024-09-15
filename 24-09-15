@@ -64,3 +64,4 @@ nkeys
 rustfmt-nightly
 addr2line
 racer
+schemafy
