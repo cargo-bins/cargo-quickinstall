@@ -93,3 +93,4 @@ opencv-binding-generator
 sea-orm-cli
 nu
 schemafy
+tendermint-abci
