@@ -111,3 +111,4 @@ minicbor
 ducc-sys
 rav1e
 socketcan
+sqlx-cli
