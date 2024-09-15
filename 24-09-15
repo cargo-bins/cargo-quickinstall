@@ -36,3 +36,4 @@ human_name
 addr2line
 jsonschema
 textplots
+parquet
