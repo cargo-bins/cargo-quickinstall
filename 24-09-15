@@ -21,3 +21,4 @@ tree-sitter-graph
 deploy
 sha1collisiondetection
 unic-langid-impl
+foundationdb-gen
