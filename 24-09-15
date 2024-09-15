@@ -82,3 +82,4 @@ py-spy
 wasm-bindgen-cli
 solana-validator
 opencv-binding-generator
+raw-cpuid
