@@ -65,3 +65,4 @@ rustfmt-nightly
 addr2line
 racer
 schemafy
+addr2line
