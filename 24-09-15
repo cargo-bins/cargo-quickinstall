@@ -18,3 +18,4 @@ rustbus
 minicbor
 parquet
 rls-rustc
+arrow-flight
