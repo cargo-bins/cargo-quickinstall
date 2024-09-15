@@ -33,3 +33,4 @@ parquet
 py-spy
 addr2line
 cpp_demangle
+rls-rustc
