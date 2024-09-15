@@ -99,3 +99,4 @@ jsonschema
 parquet
 sea-orm-cli
 protox
+borsh
