@@ -44,3 +44,4 @@ snarkvm
 wmi
 diesel_cli
 py-spy
+winpty-rs
