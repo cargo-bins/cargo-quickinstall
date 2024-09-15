@@ -25,3 +25,4 @@ rustrict
 rustfmt-nightly
 dotenv
 nu
+tree-sitter-graph
