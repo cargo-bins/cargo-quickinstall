@@ -101,3 +101,4 @@ oso
 opencv-binding-generator
 schemafy
 nextest-filtering
+cargo-show
