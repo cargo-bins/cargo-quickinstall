@@ -110,3 +110,4 @@ human_bytes
 minicbor
 ducc-sys
 rav1e
+socketcan
