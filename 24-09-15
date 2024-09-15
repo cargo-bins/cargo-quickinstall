@@ -3,3 +3,4 @@ nkeys
 nexmark
 dotenvy
 dotenv
+rustfmt-nightly
