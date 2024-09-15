@@ -8,3 +8,4 @@ rrule
 opencv-binding-generator
 espflash
 tendermint-abci
+minicbor
