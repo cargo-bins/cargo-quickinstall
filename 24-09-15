@@ -48,3 +48,4 @@ rustfmt
 z3tracer
 addr2line
 httpbis
+nexmark
