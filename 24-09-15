@@ -35,3 +35,4 @@ addr2line
 cpp_demangle
 rls-rustc
 nexmark
+racer
