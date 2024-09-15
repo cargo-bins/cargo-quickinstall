@@ -51,3 +51,4 @@ phf_generator
 unic-langid-impl
 solana-validator
 ducc-sys
+dotenv
