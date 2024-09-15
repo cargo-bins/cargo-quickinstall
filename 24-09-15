@@ -46,3 +46,4 @@ sqlx-cli
 racer
 clippy
 tauri-cli
+opencv-binding-generator
