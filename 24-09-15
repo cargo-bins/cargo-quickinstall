@@ -64,3 +64,4 @@ cargo-local-registry
 tauri-cli
 raw-cpuid
 h3o
+librespot
