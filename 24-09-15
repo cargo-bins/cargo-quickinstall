@@ -107,3 +107,4 @@ sea-orm-cli
 cargo-show
 nexmark
 jsonschema
+phf_generator
