@@ -37,3 +37,4 @@ re_query
 rustfmt-nightly
 human_name
 jsonschema
+socketcan
