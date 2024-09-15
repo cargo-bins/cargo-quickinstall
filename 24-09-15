@@ -50,3 +50,4 @@ syd
 sea-orm-cli
 raw-cpuid
 rrule
+human_bytes
