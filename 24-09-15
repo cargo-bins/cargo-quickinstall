@@ -107,3 +107,4 @@ nextest-filtering
 omicron-zone-package
 z3tracer
 human_bytes
+minicbor
