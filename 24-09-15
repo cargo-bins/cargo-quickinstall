@@ -88,3 +88,4 @@ deno
 textplots
 schemafy
 cargo-msrv
+unic-langid-impl
