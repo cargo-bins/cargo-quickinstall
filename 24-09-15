@@ -74,3 +74,4 @@ nkeys
 textplots
 sha1collisiondetection
 schemafy
+cpp_demangle
