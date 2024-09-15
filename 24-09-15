@@ -12,3 +12,4 @@ cpp_demangle
 tendermint-rpc
 winpty-rs
 cached-path
+java-locator
