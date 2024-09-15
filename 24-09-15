@@ -31,3 +31,4 @@ yofi
 nextest-filtering
 asm-lsp
 remove_dir_all
+rustfmt-nightly
