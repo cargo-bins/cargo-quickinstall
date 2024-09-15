@@ -93,3 +93,4 @@ wol-rs
 minicbor
 tendermint-rpc
 dotenvy
+rls-rustc
