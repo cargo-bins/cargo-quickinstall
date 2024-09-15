@@ -90,3 +90,4 @@ schemafy
 cargo-msrv
 unic-langid-impl
 arrow-flight
+addr2line
