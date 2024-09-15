@@ -77,3 +77,4 @@ gnostr-bins
 stac-cli
 hurl
 thoth
+jsonschema
