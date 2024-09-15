@@ -56,3 +56,4 @@ re_query
 tendermint-rpc
 rls-rustc
 opencv-binding-generator
+tree-sitter-graph
