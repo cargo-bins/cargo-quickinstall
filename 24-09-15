@@ -45,3 +45,4 @@ rls-rustc
 arrow-flight
 oxipng
 borsh
+human_bytes
