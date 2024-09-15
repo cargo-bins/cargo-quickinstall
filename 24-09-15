@@ -47,3 +47,4 @@ py-spy
 winpty-rs
 arrow-flight
 syd
+sea-orm-cli
