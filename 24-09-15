@@ -13,3 +13,4 @@ dotenv
 rustfmt-nightly
 nexmark
 minicbor
+spider_cli
