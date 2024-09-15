@@ -56,3 +56,4 @@ socketcan
 human_bytes
 re_query
 oso
+sha1collisiondetection
