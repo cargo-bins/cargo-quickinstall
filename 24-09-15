@@ -43,3 +43,4 @@ diesel_cli
 raw-cpuid
 protox
 cached-path
+opencv-binding-generator
