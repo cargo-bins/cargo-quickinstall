@@ -61,3 +61,4 @@ cargo-lock
 minicbor
 re_query
 qsv
+tendermint-rpc
