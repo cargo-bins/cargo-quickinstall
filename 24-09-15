@@ -61,3 +61,4 @@ h3o
 sha1collisiondetection
 sqlx-cli
 cargo-local-registry
+tauri-cli
