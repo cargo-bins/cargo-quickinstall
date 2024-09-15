@@ -79,3 +79,4 @@ tree-sitter-graph
 addr2line
 sqlx-cli
 ducc-sys
+socketcan
