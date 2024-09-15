@@ -14,3 +14,4 @@ deploy
 solana-validator
 wol-rs
 socketcan
+rustbus
