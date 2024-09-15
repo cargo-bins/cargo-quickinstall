@@ -87,3 +87,4 @@ socketcan
 deno
 textplots
 schemafy
+cargo-msrv
