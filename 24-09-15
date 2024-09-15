@@ -45,3 +45,4 @@ protox
 cached-path
 opencv-binding-generator
 rustfmt
+z3tracer
