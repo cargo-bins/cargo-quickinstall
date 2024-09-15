@@ -101,3 +101,4 @@ phf_generator
 pwasm-utils
 borsh
 spider_cli
+phf_generator
