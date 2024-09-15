@@ -114,3 +114,4 @@ socketcan
 sqlx-cli
 sha1collisiondetection
 h3o
+pwasm-utils
