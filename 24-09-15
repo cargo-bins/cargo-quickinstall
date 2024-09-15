@@ -16,3 +16,4 @@ wol-rs
 socketcan
 rustbus
 minicbor
+parquet
