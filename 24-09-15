@@ -40,3 +40,4 @@ rls-rustc
 rkv
 syd
 textplots
+nextest-filtering
