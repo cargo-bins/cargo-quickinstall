@@ -46,3 +46,4 @@ diesel_cli
 py-spy
 winpty-rs
 arrow-flight
+syd
