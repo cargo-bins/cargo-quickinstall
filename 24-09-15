@@ -120,3 +120,4 @@ ducc-sys
 rls-rustc
 diesel_cli
 cached-path
+cpp_demangle
