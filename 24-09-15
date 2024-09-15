@@ -12,3 +12,4 @@ solana-keygen
 borsh
 pwasm-utils
 solana-keygen
+opencv-binding-generator
