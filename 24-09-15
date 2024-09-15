@@ -100,3 +100,4 @@ tendermint-abci
 oso
 opencv-binding-generator
 schemafy
+nextest-filtering
