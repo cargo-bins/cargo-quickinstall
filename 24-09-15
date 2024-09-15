@@ -41,3 +41,4 @@ cargo-vet
 deploy
 diesel_cli
 raw-cpuid
+protox
