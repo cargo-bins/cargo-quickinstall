@@ -28,3 +28,4 @@ deploy
 tendermint-rpc
 tokio-process
 rustfmt
+cpp_demangle
