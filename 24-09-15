@@ -9,3 +9,4 @@ tree-sitter-graph
 dotenvy
 solana-gossip
 dotenvy
+phf_generator
