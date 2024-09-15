@@ -90,3 +90,4 @@ diesel_cli
 borsh
 addr2line
 wol-rs
+minicbor
