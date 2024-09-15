@@ -19,3 +19,4 @@ socketcan
 laminar
 httpmock
 textplots
+rls-rustc
