@@ -10,3 +10,4 @@ librespot
 winpty-rs
 protox
 dotenv
+rustfmt-nightly
