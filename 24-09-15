@@ -42,3 +42,4 @@ syd
 textplots
 nextest-filtering
 syd
+remove_dir_all
