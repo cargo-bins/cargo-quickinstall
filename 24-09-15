@@ -51,3 +51,4 @@ httpmock
 tree-sitter-graph
 nextest-filtering
 nextest-filtering
+tendermint-rpc
