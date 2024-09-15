@@ -5,3 +5,4 @@ java-locator
 parquet
 rustfmt-nightly
 protox
+coldsnap
