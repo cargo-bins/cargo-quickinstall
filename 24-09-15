@@ -16,3 +16,4 @@ sn_cli
 parquet
 socketcan
 laminar
+wol-rs
