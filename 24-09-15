@@ -65,3 +65,4 @@ rls-rustc
 pwasm-utils
 turbocommit
 foundationdb-gen
+arrow-flight
