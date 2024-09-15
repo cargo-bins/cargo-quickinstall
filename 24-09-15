@@ -31,3 +31,4 @@ tauri-cli
 solana-validator
 httpmock
 z3tracer
+nextest-filtering
