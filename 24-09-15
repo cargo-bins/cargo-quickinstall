@@ -47,3 +47,4 @@ pwasm-utils
 arrow-flight
 oso
 rkv
+httpmock
