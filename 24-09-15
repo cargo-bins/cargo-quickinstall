@@ -56,3 +56,4 @@ nextest-filtering
 librespot
 tendermint-abci
 nkeys
+sha1collisiondetection
