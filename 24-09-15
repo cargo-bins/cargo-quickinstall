@@ -100,3 +100,4 @@ parquet
 sea-orm-cli
 protox
 borsh
+spider_worker
