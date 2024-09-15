@@ -79,3 +79,4 @@ spider_cli
 clippy
 textplots
 py-spy
+wasm-bindgen-cli
