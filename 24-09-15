@@ -6,3 +6,4 @@ py-spy
 rrule
 rustfmt-nightly
 rustbus
+ec2_instance_metadata
