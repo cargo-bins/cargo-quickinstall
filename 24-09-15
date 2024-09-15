@@ -30,3 +30,4 @@ tokio-process
 rustfmt
 cpp_demangle
 parquet
+py-spy
