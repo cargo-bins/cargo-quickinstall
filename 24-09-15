@@ -5,3 +5,4 @@ jsonschema
 sea-orm-cli
 syd
 unic-langid-impl
+human_name
