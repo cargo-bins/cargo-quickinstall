@@ -97,3 +97,4 @@ rls-rustc
 rkv
 java-locator
 solana-remote-wallet
+phf_generator
