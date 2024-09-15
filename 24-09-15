@@ -39,3 +39,4 @@ racer
 rustfmt
 cargo-vet
 deploy
+diesel_cli
