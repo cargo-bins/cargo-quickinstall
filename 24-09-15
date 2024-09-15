@@ -80,3 +80,4 @@ addr2line
 sqlx-cli
 ducc-sys
 socketcan
+zuse
