@@ -8,3 +8,4 @@ parquet
 z3tracer
 cached-path
 protox
+rustfmt-nightly
