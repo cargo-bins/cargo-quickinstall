@@ -38,3 +38,4 @@ cargo-lock
 jsonschema
 rustrict
 h3o
+minicbor
