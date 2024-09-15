@@ -37,3 +37,4 @@ cargo-msrv
 tree-sitter-cli
 nexmark
 sea-orm-cli
+rustrict
