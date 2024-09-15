@@ -21,3 +21,4 @@ tendermint-rpc
 java-locator
 solana-remote-wallet
 sha1collisiondetection
+z3tracer
