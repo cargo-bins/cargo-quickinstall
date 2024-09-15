@@ -64,3 +64,4 @@ schemafy
 socketcan
 tree-sitter-graph
 tendermint-rpc
+minicbor
