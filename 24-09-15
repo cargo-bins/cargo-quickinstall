@@ -5,3 +5,4 @@ llvm-cov-pretty
 rustrict
 httpmock
 rrule
+opencv-binding-generator
