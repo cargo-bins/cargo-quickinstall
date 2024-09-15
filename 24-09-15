@@ -83,3 +83,4 @@ wasm-bindgen-cli
 solana-validator
 opencv-binding-generator
 raw-cpuid
+solana-remote-wallet
