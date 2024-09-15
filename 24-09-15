@@ -42,3 +42,4 @@ human_name
 socketcan
 snarkvm
 wmi
+diesel_cli
