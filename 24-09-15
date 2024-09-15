@@ -27,3 +27,4 @@ deno
 racer
 sha1collisiondetection
 librespot
+tauri-cli
