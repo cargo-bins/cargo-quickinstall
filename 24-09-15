@@ -38,3 +38,4 @@ rustfmt-nightly
 human_name
 jsonschema
 socketcan
+cargo-whatfeatures
