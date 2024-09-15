@@ -43,3 +43,4 @@ socketcan
 snarkvm
 wmi
 diesel_cli
+py-spy
