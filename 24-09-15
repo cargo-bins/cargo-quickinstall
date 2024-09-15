@@ -42,3 +42,4 @@ jsonschema
 raw-cpuid
 nu
 rls-rustc
+arrow-flight
