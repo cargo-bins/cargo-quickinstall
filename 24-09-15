@@ -116,3 +116,4 @@ spider_worker
 httpmock
 protox
 rkv
+solana-gossip
