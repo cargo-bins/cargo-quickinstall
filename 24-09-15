@@ -32,3 +32,4 @@ cpp_demangle
 parquet
 py-spy
 addr2line
+cpp_demangle
