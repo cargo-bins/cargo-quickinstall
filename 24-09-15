@@ -3,3 +3,4 @@ ducc-sys
 borsh
 java-locator
 parquet
+rustfmt-nightly
