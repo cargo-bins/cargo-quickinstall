@@ -5,3 +5,4 @@ dotenvy
 dotenv
 rustfmt-nightly
 unic-langid-impl
+ducc-sys
