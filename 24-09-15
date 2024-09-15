@@ -62,3 +62,4 @@ sha1collisiondetection
 sqlx-cli
 cargo-local-registry
 tauri-cli
+raw-cpuid
