@@ -35,3 +35,4 @@ diesel_cli
 protox
 foundationdb-gen
 cargo-lock
+jsonschema
