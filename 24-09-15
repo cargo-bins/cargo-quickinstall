@@ -95,3 +95,4 @@ tendermint-rpc
 dotenvy
 rls-rustc
 rkv
+java-locator
