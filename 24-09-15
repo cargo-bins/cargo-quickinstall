@@ -69,3 +69,4 @@ socketcan
 phf_generator
 wmi
 textplots
+dotenv
