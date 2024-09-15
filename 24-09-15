@@ -53,3 +53,4 @@ nextest-filtering
 nextest-filtering
 tendermint-rpc
 socketcan
+human_bytes
