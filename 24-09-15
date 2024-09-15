@@ -44,3 +44,4 @@ raw-cpuid
 protox
 cached-path
 opencv-binding-generator
+rustfmt
