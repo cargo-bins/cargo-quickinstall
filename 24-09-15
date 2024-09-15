@@ -16,3 +16,4 @@ z3tracer
 deploy
 nextest-filtering
 socketcan
+laminar
