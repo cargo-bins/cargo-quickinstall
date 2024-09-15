@@ -42,3 +42,4 @@ minicbor
 cargo-graph
 wol-rs
 rustfmt-nightly
+rls-rustc
