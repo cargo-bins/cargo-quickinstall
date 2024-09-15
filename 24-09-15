@@ -63,3 +63,4 @@ monolith
 cargo-lock
 nkeys
 papyrus_storage
+sha1collisiondetection
