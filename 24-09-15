@@ -98,3 +98,4 @@ cached-path
 tendermint-abci
 sn_node
 omicron-zone-package
+clippy
