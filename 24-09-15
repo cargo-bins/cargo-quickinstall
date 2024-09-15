@@ -64,3 +64,4 @@ clippy
 schemafy
 solana-validator
 nkeys
+foundationdb-gen
