@@ -87,3 +87,4 @@ solana-remote-wallet
 parquet
 protox
 wasm-bindgen-cli
+borsh
