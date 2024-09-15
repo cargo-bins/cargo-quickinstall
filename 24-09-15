@@ -12,3 +12,4 @@ protox
 dotenv
 rustfmt-nightly
 nexmark
+minicbor
