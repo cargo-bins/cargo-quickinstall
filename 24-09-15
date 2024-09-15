@@ -56,3 +56,4 @@ sha1collisiondetection
 solana-gossip
 phf_generator
 jsonschema
+httpmock
