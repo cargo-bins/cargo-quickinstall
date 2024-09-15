@@ -17,3 +17,4 @@ parquet
 socketcan
 laminar
 wol-rs
+httpbis
