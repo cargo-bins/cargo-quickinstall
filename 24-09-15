@@ -59,3 +59,4 @@ rls-rustc
 solana-validator
 coldsnap
 rrule
+ducc-sys
