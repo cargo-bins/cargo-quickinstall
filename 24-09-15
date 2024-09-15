@@ -20,3 +20,4 @@ laminar
 httpmock
 textplots
 rls-rustc
+sea-orm-cli
