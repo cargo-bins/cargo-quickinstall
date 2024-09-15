@@ -38,3 +38,4 @@ nexmark
 racer
 rustfmt
 cargo-vet
+deploy
