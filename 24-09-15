@@ -108,3 +108,4 @@ cargo-show
 nexmark
 jsonschema
 phf_generator
+z3tracer
