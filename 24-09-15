@@ -4,3 +4,4 @@ foundationdb-gen
 jsonschema
 sea-orm-cli
 syd
+unic-langid-impl
