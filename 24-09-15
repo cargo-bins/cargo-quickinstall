@@ -97,3 +97,4 @@ clippy
 phf_generator
 tree-sitter-graph
 paperclip
+solana-validator
