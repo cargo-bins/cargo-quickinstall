@@ -44,3 +44,4 @@ foundationdb-gen
 vrc-log
 tendermint-rpc
 rencfs
+httpmock
