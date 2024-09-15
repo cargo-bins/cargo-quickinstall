@@ -6,3 +6,4 @@ parquet
 rustfmt-nightly
 protox
 coldsnap
+httpmock
