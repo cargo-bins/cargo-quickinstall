@@ -45,3 +45,4 @@ rustfmt-nightly
 rls-rustc
 pwasm-utils
 arrow-flight
+oso
