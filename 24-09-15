@@ -52,3 +52,4 @@ nexmark
 sn_cli
 raw-cpuid
 re_query
+diesel_cli
