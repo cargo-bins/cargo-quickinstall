@@ -70,3 +70,4 @@ opencv-binding-generator
 parquet
 oso
 librespot
+tendermint-rpc
