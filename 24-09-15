@@ -38,3 +38,4 @@ tree-sitter-cli
 nexmark
 sea-orm-cli
 rustrict
+spider_worker
