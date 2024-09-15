@@ -54,3 +54,4 @@ spider_cli
 winpty-rs
 protox
 racer
+nextest-filtering
