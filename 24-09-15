@@ -89,3 +89,4 @@ tendermint-rpc
 nextest-filtering
 human_name
 sha1collisiondetection
+arrow-flight
