@@ -18,3 +18,4 @@ nextest-filtering
 socketcan
 laminar
 httpmock
+textplots
