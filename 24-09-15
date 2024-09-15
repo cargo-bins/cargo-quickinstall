@@ -17,3 +17,4 @@ spider_cli
 oso
 dotenvy
 parquet
+phf_generator
