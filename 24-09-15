@@ -21,3 +21,4 @@ httpbis
 py-spy
 clippy
 rkv
+httpmock
