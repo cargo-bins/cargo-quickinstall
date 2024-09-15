@@ -88,3 +88,4 @@ tree-sitter-cli
 sea-orm-cli
 diesel_cli
 borsh
+addr2line
