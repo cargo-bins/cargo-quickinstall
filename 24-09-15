@@ -20,3 +20,4 @@ re_query
 tree-sitter-graph
 deploy
 sha1collisiondetection
+unic-langid-impl
