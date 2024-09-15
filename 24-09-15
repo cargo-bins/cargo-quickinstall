@@ -4,3 +4,4 @@ borsh
 java-locator
 parquet
 rustfmt-nightly
+protox
