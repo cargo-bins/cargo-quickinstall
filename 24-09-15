@@ -45,3 +45,4 @@ vrc-log
 tendermint-rpc
 rencfs
 httpmock
+speedtest-rs
