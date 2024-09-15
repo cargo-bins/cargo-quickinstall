@@ -33,3 +33,4 @@ dotenvy
 rrule
 sha1collisiondetection
 httpmock
+cargo-generate
