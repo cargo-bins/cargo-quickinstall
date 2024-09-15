@@ -72,3 +72,4 @@ textplots
 dotenv
 librespot
 z3tracer
+tauri-cli
