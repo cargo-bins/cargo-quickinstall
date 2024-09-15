@@ -22,3 +22,4 @@ ducc-sys
 legba
 rustfmt-nightly
 httpmock
+cpp_demangle
