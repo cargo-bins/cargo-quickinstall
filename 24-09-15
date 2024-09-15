@@ -3,3 +3,4 @@ winpty-rs
 raw-cpuid
 oxipng
 rls-rustc
+ducc-sys
