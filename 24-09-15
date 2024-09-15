@@ -86,3 +86,4 @@ nexmark
 addr2line
 tree-sitter-cli
 sea-orm-cli
+diesel_cli
