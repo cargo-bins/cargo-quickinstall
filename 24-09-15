@@ -2,3 +2,4 @@ h3o
 ec2_instance_metadata
 arrow-flight
 minicbor
+py-spy
