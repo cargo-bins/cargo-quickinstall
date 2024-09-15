@@ -64,3 +64,4 @@ nkeys
 rls-rustc
 pwasm-utils
 turbocommit
+foundationdb-gen
