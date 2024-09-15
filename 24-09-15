@@ -61,3 +61,4 @@ h3o
 dotenvy
 addr2line
 nkeys
+rustfmt-nightly
