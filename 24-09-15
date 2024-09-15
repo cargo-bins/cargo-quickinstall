@@ -33,3 +33,4 @@ asm-lsp
 remove_dir_all
 rustfmt-nightly
 nextest-filtering
+re_query
