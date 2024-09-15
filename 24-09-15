@@ -25,3 +25,4 @@ httpmock
 phf_generator
 java-locator
 deploy
+tendermint-rpc
