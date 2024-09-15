@@ -76,3 +76,4 @@ protox
 pwasm-utils
 rkv
 rustfmt-nightly
+nextest-filtering
