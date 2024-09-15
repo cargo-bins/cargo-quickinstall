@@ -54,3 +54,4 @@ nexmark
 rrule
 re_query
 tendermint-rpc
+rls-rustc
