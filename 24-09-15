@@ -106,3 +106,4 @@ unic-langid-impl
 protox
 borsh
 dotenv
+winpty-rs
