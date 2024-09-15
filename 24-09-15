@@ -47,3 +47,4 @@ racer
 clippy
 tauri-cli
 opencv-binding-generator
+rustfmt-nightly
