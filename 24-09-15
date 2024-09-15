@@ -97,3 +97,4 @@ nextest-filtering
 zuse
 jsonschema
 parquet
+sea-orm-cli
