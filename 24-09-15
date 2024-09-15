@@ -62,3 +62,4 @@ jsonschema
 dotenv
 schemafy
 socketcan
+tree-sitter-graph
