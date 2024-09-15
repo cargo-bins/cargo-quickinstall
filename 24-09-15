@@ -25,3 +25,4 @@ rustfmt-nightly
 remove_dir_all
 solana-remote-wallet
 spider_worker
+minicbor
