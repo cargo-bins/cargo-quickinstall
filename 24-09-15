@@ -15,3 +15,4 @@ tendermint-abci
 spider_worker
 foundationdb-gen
 sea-orm-cli
+nexmark
