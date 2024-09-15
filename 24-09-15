@@ -63,3 +63,4 @@ addr2line
 nkeys
 rustfmt-nightly
 addr2line
+racer
