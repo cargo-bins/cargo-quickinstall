@@ -75,3 +75,4 @@ z3tracer
 tauri-cli
 tendermint-rpc
 wmi
+spider_cli
