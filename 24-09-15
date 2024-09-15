@@ -58,3 +58,4 @@ rls-rustc
 opencv-binding-generator
 tree-sitter-graph
 h3o
+sha1collisiondetection
