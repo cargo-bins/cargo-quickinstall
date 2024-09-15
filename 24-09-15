@@ -55,3 +55,4 @@ re_query
 diesel_cli
 jsonschema
 z3tracer
+rls-rustc
