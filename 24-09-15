@@ -27,3 +27,4 @@ java-locator
 deploy
 tendermint-rpc
 tokio-process
+rustfmt
