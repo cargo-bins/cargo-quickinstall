@@ -89,3 +89,4 @@ deploy
 solana-keygen
 cached-path
 borsh
+opencv-binding-generator
