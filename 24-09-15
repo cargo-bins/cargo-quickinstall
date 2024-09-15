@@ -47,3 +47,4 @@ oxipng
 borsh
 human_bytes
 tendermint-abci
+phf_generator
