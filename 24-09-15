@@ -55,3 +55,4 @@ dotenv
 nextest-filtering
 librespot
 tendermint-abci
+nkeys
