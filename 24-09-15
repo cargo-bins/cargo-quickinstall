@@ -39,3 +39,4 @@ human_name
 jsonschema
 socketcan
 cargo-whatfeatures
+gnostr-bins
