@@ -39,3 +39,4 @@ textplots
 parquet
 dotenvy
 human_name
+socketcan
