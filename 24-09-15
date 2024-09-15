@@ -7,3 +7,4 @@ rustfmt-nightly
 unic-langid-impl
 ducc-sys
 phf_generator
+cached-path
