@@ -9,3 +9,4 @@ ducc-sys
 phf_generator
 cached-path
 cpp_demangle
+tendermint-rpc
