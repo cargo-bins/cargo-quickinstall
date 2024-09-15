@@ -17,3 +17,4 @@ socketcan
 rustbus
 minicbor
 parquet
+rls-rustc
