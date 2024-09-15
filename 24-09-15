@@ -39,3 +39,4 @@ human_name
 tree-sitter-cli
 sha1collisiondetection
 jsonschema
+raw-cpuid
