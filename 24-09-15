@@ -36,3 +36,4 @@ nextest-filtering
 nexmark
 zuse
 human_name
+tree-sitter-cli
