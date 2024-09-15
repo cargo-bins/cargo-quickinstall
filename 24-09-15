@@ -33,3 +33,4 @@ httpmock
 z3tracer
 nextest-filtering
 human_name
+addr2line
