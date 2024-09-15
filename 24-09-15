@@ -42,3 +42,4 @@ deploy
 diesel_cli
 raw-cpuid
 protox
+cached-path
