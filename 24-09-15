@@ -9,3 +9,4 @@ opencv-binding-generator
 espflash
 tendermint-abci
 minicbor
+human_bytes
