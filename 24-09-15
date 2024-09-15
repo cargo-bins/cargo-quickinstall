@@ -77,3 +77,4 @@ pwasm-utils
 rkv
 rustfmt-nightly
 nextest-filtering
+foundationdb-gen
