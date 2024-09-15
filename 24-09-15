@@ -81,3 +81,4 @@ sqlx-cli
 ducc-sys
 socketcan
 zuse
+sha1collisiondetection
