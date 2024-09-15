@@ -36,3 +36,4 @@ laminar
 rrule
 winpty-rs
 nexmark
+rls-rustc
