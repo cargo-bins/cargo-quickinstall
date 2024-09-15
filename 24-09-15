@@ -66,3 +66,4 @@ pwasm-utils
 turbocommit
 foundationdb-gen
 arrow-flight
+opencv-binding-generator
