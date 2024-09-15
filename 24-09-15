@@ -94,3 +94,4 @@ addr2line
 oso
 human_name
 clippy
+phf_generator
