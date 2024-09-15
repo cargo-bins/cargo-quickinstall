@@ -102,3 +102,4 @@ tree-sitter-graph
 cargo-msrv
 borsh
 addr2line
+rrule
