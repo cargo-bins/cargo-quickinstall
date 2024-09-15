@@ -19,3 +19,4 @@ minicbor
 parquet
 rls-rustc
 arrow-flight
+cargo-generate
