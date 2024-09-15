@@ -103,3 +103,4 @@ borsh
 spider_worker
 pwasm-utils
 arrow-flight
+wasm-bindgen-cli
