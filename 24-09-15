@@ -11,3 +11,4 @@ winpty-rs
 protox
 dotenv
 rustfmt-nightly
+nexmark
