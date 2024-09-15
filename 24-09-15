@@ -89,3 +89,4 @@ textplots
 schemafy
 cargo-msrv
 unic-langid-impl
+arrow-flight
