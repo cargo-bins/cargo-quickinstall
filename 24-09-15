@@ -10,3 +10,4 @@ ec2_instance_metadata
 h3o
 minicbor
 httpmock
+laminar
