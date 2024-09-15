@@ -32,3 +32,4 @@ cargo-mobile2
 opencv-binding-generator
 foundationdb-gen
 cached-path
+addr2line
