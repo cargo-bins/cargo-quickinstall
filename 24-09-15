@@ -60,3 +60,4 @@ httpmock
 solana-gossip
 jsonschema
 dotenv
+schemafy
