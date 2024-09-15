@@ -41,3 +41,4 @@ sha1collisiondetection
 jsonschema
 raw-cpuid
 nu
+rls-rustc
