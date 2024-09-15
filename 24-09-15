@@ -92,3 +92,4 @@ borsh
 opencv-binding-generator
 sea-orm-cli
 nu
+schemafy
