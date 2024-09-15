@@ -11,3 +11,4 @@ protox
 rustfmt-nightly
 dotenvy
 winpty-rs
+human_bytes
