@@ -111,3 +111,4 @@ remove_dir_all
 rustfmt-nightly
 nexmark
 spider_worker
+zuse
