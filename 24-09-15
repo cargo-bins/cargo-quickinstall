@@ -3,3 +3,4 @@ solana-gossip
 foundationdb-gen
 jsonschema
 sea-orm-cli
+syd
