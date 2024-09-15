@@ -75,3 +75,4 @@ raw-cpuid
 dotenv
 wmi
 paperclip
+tree-sitter-graph
