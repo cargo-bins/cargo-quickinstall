@@ -35,3 +35,4 @@ rustfmt-nightly
 nextest-filtering
 re_query
 rustfmt-nightly
+human_name
