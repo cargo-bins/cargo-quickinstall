@@ -45,3 +45,4 @@ diesel_cli
 sqlx-cli
 racer
 clippy
+tauri-cli
