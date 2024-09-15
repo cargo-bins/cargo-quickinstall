@@ -33,3 +33,4 @@ winpty-rs
 flowistry_ide
 diesel_cli
 protox
+foundationdb-gen
