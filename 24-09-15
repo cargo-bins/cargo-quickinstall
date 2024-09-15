@@ -74,3 +74,4 @@ clippy
 raw-cpuid
 dotenv
 wmi
+paperclip
