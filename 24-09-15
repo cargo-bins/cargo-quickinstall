@@ -10,3 +10,4 @@ cached-path
 protox
 rustfmt-nightly
 dotenvy
+winpty-rs
