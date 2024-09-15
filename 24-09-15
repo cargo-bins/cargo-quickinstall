@@ -13,3 +13,4 @@ borsh
 pwasm-utils
 solana-keygen
 opencv-binding-generator
+nexmark
