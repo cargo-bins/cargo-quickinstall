@@ -103,3 +103,4 @@ schemafy
 nextest-filtering
 cargo-show
 oso
+sea-orm-cli
