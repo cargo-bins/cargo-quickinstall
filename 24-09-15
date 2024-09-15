@@ -13,3 +13,4 @@ tendermint-rpc
 winpty-rs
 cached-path
 java-locator
+tree-sitter-graph
