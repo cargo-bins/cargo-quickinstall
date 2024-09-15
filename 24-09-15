@@ -42,3 +42,4 @@ tendermint-rpc
 rls-rustc
 addr2line
 winpty-rs
+tendermint-abci
