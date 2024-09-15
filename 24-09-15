@@ -75,3 +75,4 @@ textplots
 sha1collisiondetection
 schemafy
 cpp_demangle
+cargo-spellcheck
