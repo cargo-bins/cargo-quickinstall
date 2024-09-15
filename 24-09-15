@@ -25,3 +25,4 @@ httpmock
 cpp_demangle
 tree-sitter-graph
 rustfmt-nightly
+stac-cli
