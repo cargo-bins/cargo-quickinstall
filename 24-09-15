@@ -50,3 +50,4 @@ httpmock
 schemafy
 h3o
 rkv
+remove_dir_all
