@@ -24,3 +24,4 @@ ducc-sys
 rustrict
 rustfmt-nightly
 dotenv
+nu
