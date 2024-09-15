@@ -84,3 +84,4 @@ clippy
 wol-rs
 nexmark
 addr2line
+tree-sitter-cli
