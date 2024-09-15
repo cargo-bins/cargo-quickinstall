@@ -74,3 +74,4 @@ spider_worker
 rrule
 opencv-binding-generator
 gnostr-bins
+stac-cli
