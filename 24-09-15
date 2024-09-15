@@ -16,3 +16,4 @@ java-locator
 tree-sitter-graph
 cached-path
 cpp_demangle
+re_query
