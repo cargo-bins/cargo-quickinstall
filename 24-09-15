@@ -32,3 +32,4 @@ socketcan
 jsonschema
 opencv-binding-generator
 remove_dir_all
+rls-rustc
