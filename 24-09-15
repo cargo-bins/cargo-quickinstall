@@ -68,3 +68,4 @@ addr2line
 arrow-flight
 diesel_cli
 zellij
+raw-cpuid
