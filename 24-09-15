@@ -116,3 +116,4 @@ sha1collisiondetection
 h3o
 pwasm-utils
 dotenv
+nexmark
