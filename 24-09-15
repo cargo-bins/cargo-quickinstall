@@ -94,3 +94,4 @@ sea-orm-cli
 nu
 schemafy
 tendermint-abci
+z3tracer
