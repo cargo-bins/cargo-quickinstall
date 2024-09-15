@@ -56,3 +56,4 @@ tendermint-abci
 cpp_demangle
 ytop
 tendermint-rpc
+raw-cpuid
