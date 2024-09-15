@@ -54,3 +54,4 @@ ducc-sys
 dotenv
 nextest-filtering
 librespot
+tendermint-abci
