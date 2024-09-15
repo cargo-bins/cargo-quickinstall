@@ -7,3 +7,4 @@ httpmock
 rrule
 opencv-binding-generator
 espflash
+tendermint-abci
