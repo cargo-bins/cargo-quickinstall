@@ -49,3 +49,4 @@ tauri-cli
 opencv-binding-generator
 rustfmt-nightly
 arrow-flight
+rls-rustc
