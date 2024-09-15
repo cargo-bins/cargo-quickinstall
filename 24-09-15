@@ -80,3 +80,4 @@ clippy
 textplots
 py-spy
 wasm-bindgen-cli
+solana-validator
