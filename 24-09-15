@@ -37,3 +37,4 @@ rls-rustc
 nexmark
 racer
 rustfmt
+cargo-vet
