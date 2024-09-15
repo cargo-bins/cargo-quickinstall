@@ -37,3 +37,4 @@ foundationdb-gen
 cargo-lock
 jsonschema
 rustrict
+h3o
