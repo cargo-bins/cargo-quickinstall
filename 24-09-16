@@ -5,3 +5,4 @@ rustfmt-nightly
 oso
 unic-langid-impl
 protox
+foundationdb-gen
