@@ -12,3 +12,4 @@ cargo-show
 ducc-sys
 socketcan
 tendermint-abci
+opencv-binding-generator
