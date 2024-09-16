@@ -39,3 +39,4 @@ dotenv
 borsh
 nkeys
 omicron-zone-package
+human_bytes
