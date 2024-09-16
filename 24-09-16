@@ -21,3 +21,4 @@ socketcan
 solana-remote-wallet
 httpmock
 alacritty
+cargo-msrv
