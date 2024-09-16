@@ -14,3 +14,4 @@ human_bytes
 re_query
 rls-rustc
 cargo-flash
+phf_generator
