@@ -7,3 +7,4 @@ unic-langid-impl
 protox
 foundationdb-gen
 cargo-flash
+ducc-sys
