@@ -38,3 +38,4 @@ cargo-vet
 dotenv
 borsh
 nkeys
+omicron-zone-package
