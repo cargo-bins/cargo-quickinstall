@@ -3,3 +3,4 @@ borsh
 cargo-vet
 honggfuzz
 human_name
+protox
