@@ -18,3 +18,4 @@ clippy
 borsh
 addr2line
 socketcan
+solana-remote-wallet
