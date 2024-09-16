@@ -34,3 +34,4 @@ ytop
 raw-cpuid
 cargo-lock
 deploy
+solana-validator
