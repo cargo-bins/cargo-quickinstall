@@ -25,3 +25,4 @@ minicbor
 cpp_demangle
 atuin
 human_name
+honggfuzz
