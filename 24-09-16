@@ -1,3 +1,4 @@
 rls-rustc
 borsh
 cargo-vet
+honggfuzz
