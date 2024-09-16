@@ -11,3 +11,4 @@ py-spy
 solana-gossip
 sha1collisiondetection
 solana-keygen
+wasm-bindgen-cli
