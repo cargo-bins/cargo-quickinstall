@@ -30,3 +30,4 @@ cargo-embed
 radio-sx128x
 rustfmt-nightly
 sequoia-chameleon-gnupg
+textplots
