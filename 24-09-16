@@ -40,3 +40,4 @@ unic-langid-impl
 human_bytes
 sha1collisiondetection
 cargo-public-api
+ruff
