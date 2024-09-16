@@ -84,3 +84,4 @@ unic-langid-impl
 socketcan
 librespot
 dotenv
+winpty-rs
