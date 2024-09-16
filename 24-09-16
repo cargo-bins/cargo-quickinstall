@@ -36,3 +36,4 @@ pwasm-utils
 socketcan
 minicbor
 rls-rustc
+cargo-flash
