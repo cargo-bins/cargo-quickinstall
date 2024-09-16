@@ -9,3 +9,4 @@ foundationdb-gen
 cargo-flash
 ducc-sys
 rrule
+diesel_cli
