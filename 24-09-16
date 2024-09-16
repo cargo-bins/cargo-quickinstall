@@ -66,3 +66,4 @@ cpp_demangle
 solana-remote-wallet
 cargo-msrv
 oso
+winpty-rs
