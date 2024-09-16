@@ -13,3 +13,4 @@ re_query
 wmi
 sea-orm-cli
 tree-sitter-cli
+solana-validator
