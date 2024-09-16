@@ -18,3 +18,4 @@ py-spy
 laminar
 cached-path
 remove_dir_all
+dotenv
