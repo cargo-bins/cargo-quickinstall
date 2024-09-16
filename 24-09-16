@@ -101,3 +101,4 @@ unic-langid-impl
 phf_generator
 py-spy
 foundationdb-gen
+cargo-smart-release
