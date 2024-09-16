@@ -7,3 +7,4 @@ codeberg-cli
 pwasm-utils
 spider_worker
 asm-lsp
+bgpkit-parser
