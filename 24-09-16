@@ -21,3 +21,4 @@ borsh
 pwasm-utils
 nkeys
 tendermint-abci
+minicbor
