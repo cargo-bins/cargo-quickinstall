@@ -10,3 +10,4 @@ asm-lsp
 bgpkit-parser
 z3tracer
 phf_generator
+ducc-sys
