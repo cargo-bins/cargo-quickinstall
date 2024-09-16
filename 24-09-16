@@ -32,3 +32,4 @@ rls-rustc
 wmi
 httpmock
 nu
+tree-sitter-cli
