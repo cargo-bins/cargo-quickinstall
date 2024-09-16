@@ -35,3 +35,4 @@ raw-cpuid
 cargo-lock
 deploy
 solana-validator
+raw-cpuid
