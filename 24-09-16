@@ -5,3 +5,4 @@ solana-gossip
 nkeys
 wol-rs
 rkv
+cpp_demangle
