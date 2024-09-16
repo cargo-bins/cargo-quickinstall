@@ -44,3 +44,4 @@ rav1e
 socketcan
 rustrict
 gnostr-bins
+opencv-binding-generator
