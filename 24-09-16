@@ -19,3 +19,4 @@ laminar
 cached-path
 remove_dir_all
 dotenv
+pwasm-utils
