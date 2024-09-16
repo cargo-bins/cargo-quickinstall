@@ -2,3 +2,4 @@ borsh
 snarkvm
 dotenvy
 oso
+sqlx-cli
