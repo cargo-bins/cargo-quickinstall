@@ -76,3 +76,4 @@ paperclip
 ruff
 librespot
 pwasm-utils
+dotenvy
