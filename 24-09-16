@@ -12,3 +12,4 @@ dotenv
 sn_cli
 cpp_demangle
 sha1collisiondetection
+dotenv
