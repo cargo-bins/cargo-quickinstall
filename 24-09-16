@@ -43,3 +43,4 @@ cargo-public-api
 ruff
 cargo-smart-release
 unic-langid-impl
+addr2line
