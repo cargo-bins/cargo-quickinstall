@@ -20,3 +20,4 @@ tree-sitter-graph
 borsh
 pwasm-utils
 nkeys
+tendermint-abci
