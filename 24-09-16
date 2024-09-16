@@ -22,3 +22,4 @@ socketcan
 borsh
 sequoia-chameleon-gnupg
 rls-rustc
+remove_dir_all
