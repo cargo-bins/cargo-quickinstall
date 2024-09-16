@@ -18,3 +18,4 @@ rustfmt-nightly
 rustrict
 tree-sitter-graph
 borsh
+pwasm-utils
