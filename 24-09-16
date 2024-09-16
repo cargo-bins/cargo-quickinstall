@@ -48,3 +48,4 @@ solana-gossip
 borsh
 schemafy
 phf_generator
+codeberg-cli
