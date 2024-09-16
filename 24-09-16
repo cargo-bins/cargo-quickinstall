@@ -14,3 +14,4 @@ pwasm-utils
 solana-remote-wallet
 cargo-msrv
 deno
+clippy
