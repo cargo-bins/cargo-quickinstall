@@ -27,3 +27,4 @@ deploy
 ducc-sys
 nextest-filtering
 solana-keygen
+solana-gossip
