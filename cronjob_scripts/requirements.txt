@@ -6,7 +6,7 @@ certifi==2024.8.30
     #   requests
 charset-normalizer==3.3.2
     # via requests
-idna==3.8
+idna==3.10
     # via requests
 influxdb3-python==0.9.0
     # via cronjob-scripts (pyproject.toml)
@@ -24,7 +24,7 @@ requests==2.32.3
     # via cronjob-scripts (pyproject.toml)
 semver==3.0.2
     # via cronjob-scripts (pyproject.toml)
-setuptools==74.1.2
+setuptools==75.0.0
     # via influxdb3-python
 six==1.16.0
     # via python-dateutil
