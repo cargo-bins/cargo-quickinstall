@@ -9,3 +9,4 @@ cpp_demangle
 deploy
 wol-rs
 nextest-filtering
+pwasm-utils
