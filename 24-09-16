@@ -20,3 +20,4 @@ cargo-lock
 human_bytes
 protox
 cargo-generate
+papyrus_storage
