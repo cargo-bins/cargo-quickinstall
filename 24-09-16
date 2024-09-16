@@ -32,3 +32,4 @@ deno
 httpmock
 remove_dir_all
 httpmock
+cached-path
