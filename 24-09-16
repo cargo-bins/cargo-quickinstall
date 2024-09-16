@@ -21,3 +21,4 @@ remove_dir_all
 dotenv
 pwasm-utils
 cargo-pgrx
+protox
