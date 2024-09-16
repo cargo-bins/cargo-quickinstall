@@ -45,3 +45,4 @@ cargo-smart-release
 unic-langid-impl
 addr2line
 solana-gossip
+borsh
