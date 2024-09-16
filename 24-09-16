@@ -22,3 +22,4 @@ solana-remote-wallet
 httpmock
 alacritty
 cargo-msrv
+re_query
