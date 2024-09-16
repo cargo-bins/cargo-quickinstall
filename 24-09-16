@@ -31,3 +31,4 @@ solana-gossip
 pwasm-utils
 rrule
 nextest-filtering
+solana-keygen
