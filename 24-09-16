@@ -31,3 +31,4 @@ radio-sx128x
 rustfmt-nightly
 sequoia-chameleon-gnupg
 textplots
+wol-rs
