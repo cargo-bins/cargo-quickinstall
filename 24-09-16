@@ -11,3 +11,4 @@ wol-rs
 nextest-filtering
 pwasm-utils
 human_bytes
+re_query
