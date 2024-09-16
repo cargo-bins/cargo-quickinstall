@@ -9,3 +9,4 @@ deploy
 protox
 skim
 winpty-rs
+honggfuzz
