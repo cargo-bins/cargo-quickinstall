@@ -13,3 +13,4 @@ diesel_cli
 rls-rustc
 paperclip
 borsh
+z3tracer
