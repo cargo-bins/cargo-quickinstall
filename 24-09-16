@@ -36,3 +36,4 @@ raw-cpuid
 opencv-binding-generator
 sea-orm-cli
 rrule
+ducc-sys
