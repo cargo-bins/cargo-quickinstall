@@ -11,3 +11,4 @@ cargo-about
 cargo-show
 ducc-sys
 socketcan
+tendermint-abci
