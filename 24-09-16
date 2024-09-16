@@ -30,3 +30,4 @@ winpty-rs
 borsh
 raw-cpuid
 wmi
+clippy
