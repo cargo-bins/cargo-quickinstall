@@ -10,3 +10,4 @@ protox
 skim
 winpty-rs
 honggfuzz
+ducc-sys
