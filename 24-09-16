@@ -34,3 +34,4 @@ clippy
 cargo-about
 raw-cpuid
 opencv-binding-generator
+sea-orm-cli
