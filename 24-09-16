@@ -65,3 +65,4 @@ socketcan
 cpp_demangle
 solana-remote-wallet
 cargo-msrv
+oso
