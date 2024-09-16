@@ -3,3 +3,4 @@ tendermint-rpc
 socketcan
 solana-gossip
 nkeys
+wol-rs
