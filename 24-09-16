@@ -21,3 +21,4 @@ deploy
 tendermint-rpc
 schemafy
 rrule
+sea-orm-cli
