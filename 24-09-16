@@ -21,3 +21,4 @@ wasm-bindgen-cli
 spider_worker
 z3tracer
 httpmock
+snarkvm
