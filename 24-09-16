@@ -9,3 +9,4 @@ ruff
 borsh
 probe-rs-debugger
 racer
+hurl
