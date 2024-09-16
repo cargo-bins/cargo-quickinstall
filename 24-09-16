@@ -10,3 +10,4 @@ borsh
 probe-rs-debugger
 racer
 hurl
+py-spy
