@@ -36,3 +36,4 @@ espflash
 cargo-info
 solana-keygen
 httpmock
+human_bytes
