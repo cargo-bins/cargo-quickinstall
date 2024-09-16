@@ -6,3 +6,4 @@ sqlx-cli
 zuse
 tree-sitter-cli
 solana-gossip
+cargo-show
