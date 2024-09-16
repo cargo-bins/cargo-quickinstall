@@ -18,3 +18,4 @@ dotenv
 unic-langid-impl
 cargo-lock
 human_bytes
+protox
