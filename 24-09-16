@@ -83,3 +83,4 @@ ef
 unic-langid-impl
 socketcan
 librespot
+dotenv
