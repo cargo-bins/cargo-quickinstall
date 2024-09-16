@@ -25,3 +25,4 @@ tendermint-rpc
 schemafy
 sha1collisiondetection
 syd
+solana-gossip
