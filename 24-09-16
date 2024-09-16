@@ -26,3 +26,4 @@ pwasm-utils
 re_query
 deno
 wmi
+z3tracer
