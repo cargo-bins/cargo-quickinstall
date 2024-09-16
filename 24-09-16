@@ -15,3 +15,4 @@ solana-remote-wallet
 cargo-msrv
 deno
 clippy
+borsh
