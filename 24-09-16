@@ -16,3 +16,4 @@ cargo-msrv
 deno
 clippy
 borsh
+addr2line
