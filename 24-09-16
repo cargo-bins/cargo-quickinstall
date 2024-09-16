@@ -37,3 +37,4 @@ papyrus_storage
 cargo-vet
 dotenv
 borsh
+nkeys
