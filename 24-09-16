@@ -3,3 +3,4 @@ clippy
 unic-langid-impl
 rustrict
 oso
+rls-rustc
