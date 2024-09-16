@@ -95,3 +95,4 @@ tree-sitter-graph
 spider_cli
 schemafy
 raw-cpuid
+borsh
