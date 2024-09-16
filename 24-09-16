@@ -47,3 +47,4 @@ addr2line
 solana-gossip
 borsh
 schemafy
+phf_generator
