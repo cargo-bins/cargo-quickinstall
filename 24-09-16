@@ -8,3 +8,4 @@ sha1collisiondetection
 ruff
 borsh
 probe-rs-debugger
+racer
