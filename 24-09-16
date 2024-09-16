@@ -19,3 +19,4 @@ winpty-rs
 sequoia-sq
 human_bytes
 socketcan
+borsh
