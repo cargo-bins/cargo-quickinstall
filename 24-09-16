@@ -14,3 +14,4 @@ socketcan
 tendermint-abci
 opencv-binding-generator
 clippy
+tree-sitter-cli
