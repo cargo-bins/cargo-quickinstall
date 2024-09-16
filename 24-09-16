@@ -25,3 +25,4 @@ sea-orm-cli
 arrow-flight
 deploy
 ducc-sys
+nextest-filtering
