@@ -42,3 +42,4 @@ cargo-flash
 diesel_cli
 paperclip
 phf_generator
+tendermint-abci
