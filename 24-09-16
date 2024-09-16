@@ -12,3 +12,4 @@ winpty-rs
 honggfuzz
 ducc-sys
 rav1e
+unic-langid-impl
