@@ -19,3 +19,4 @@ deploy
 winpty-rs
 protox
 tendermint-rpc
+tree-sitter-graph
