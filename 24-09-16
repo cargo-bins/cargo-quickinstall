@@ -10,3 +10,4 @@ cargo-flash
 ducc-sys
 rrule
 diesel_cli
+rls-rustc
