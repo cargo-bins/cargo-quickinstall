@@ -13,3 +13,4 @@ pwasm-utils
 human_bytes
 re_query
 rls-rustc
+cargo-flash
