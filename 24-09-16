@@ -13,3 +13,4 @@ sha1collisiondetection
 solana-keygen
 wasm-bindgen-cli
 solana-gossip
+dotenvy
