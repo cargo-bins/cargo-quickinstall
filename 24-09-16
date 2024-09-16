@@ -53,3 +53,4 @@ rav1e
 addr2line
 hurl
 racer
+pwasm-utils
