@@ -37,3 +37,4 @@ alacritty
 tree-sitter-cli
 pwasm-utils
 nu
+cpp_demangle
