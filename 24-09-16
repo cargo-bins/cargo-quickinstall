@@ -28,3 +28,4 @@ borsh
 textplots
 honggfuzz
 rav1e
+pwasm-utils
