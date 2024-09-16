@@ -25,3 +25,4 @@ rls-rustc
 remove_dir_all
 h3o
 rustfmt-nightly
+cargo-flash
