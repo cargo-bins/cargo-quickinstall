@@ -12,3 +12,4 @@ rrule
 diesel_cli
 rls-rustc
 paperclip
+borsh
