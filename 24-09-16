@@ -21,3 +21,4 @@ snarkvm
 pwasm-utils
 xplr
 tendermint-rpc
+unic-langid-impl
