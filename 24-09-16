@@ -27,3 +27,4 @@ pwasm-utils
 unic-langid-impl
 re_query
 spider_worker
+httpmock
