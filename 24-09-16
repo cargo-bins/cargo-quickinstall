@@ -8,3 +8,4 @@ rkv
 cpp_demangle
 deploy
 wol-rs
+nextest-filtering
