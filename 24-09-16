@@ -41,3 +41,4 @@ human_bytes
 sha1collisiondetection
 cargo-public-api
 ruff
+cargo-smart-release
