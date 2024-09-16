@@ -35,3 +35,4 @@ syd
 pwasm-utils
 socketcan
 minicbor
+rls-rustc
