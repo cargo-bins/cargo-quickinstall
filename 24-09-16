@@ -25,3 +25,4 @@ cargo-msrv
 re_query
 unic-langid-impl
 paperclip
+rustrict
