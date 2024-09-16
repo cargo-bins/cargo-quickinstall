@@ -20,3 +20,4 @@ sequoia-sq
 human_bytes
 socketcan
 borsh
+sequoia-chameleon-gnupg
