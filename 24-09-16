@@ -10,3 +10,4 @@ deploy
 wol-rs
 nextest-filtering
 pwasm-utils
+human_bytes
