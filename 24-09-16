@@ -91,3 +91,4 @@ asm-lsp
 cpp_demangle
 foundationdb-gen
 sniffnet
+tree-sitter-graph
