@@ -26,3 +26,4 @@ re_query
 unic-langid-impl
 paperclip
 rustrict
+httpmock
