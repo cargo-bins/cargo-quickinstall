@@ -23,3 +23,4 @@ httpmock
 alacritty
 cargo-msrv
 re_query
+unic-langid-impl
