@@ -1,3 +1,4 @@
 raw-cpuid
 pwasm-utils
 re_query
+sqlx-cli
