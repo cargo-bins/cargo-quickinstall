@@ -31,3 +31,4 @@ borsh
 raw-cpuid
 wmi
 clippy
+cargo-about
