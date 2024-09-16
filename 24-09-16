@@ -33,3 +33,4 @@ papyrus_storage
 rustfmt-nightly
 cpp_demangle
 human_name
+papyrus_storage
