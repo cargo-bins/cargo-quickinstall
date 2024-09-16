@@ -37,3 +37,4 @@ socketcan
 minicbor
 rls-rustc
 cargo-flash
+protox
