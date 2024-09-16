@@ -13,3 +13,4 @@ sn_cli
 cpp_demangle
 sha1collisiondetection
 dotenv
+tree-sitter-graph
