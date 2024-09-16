@@ -30,3 +30,4 @@ cached-path
 nkeys
 cargo-vet
 papyrus_storage
+rustfmt-nightly
