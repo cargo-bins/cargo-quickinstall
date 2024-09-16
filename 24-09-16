@@ -2,3 +2,4 @@ rls-rustc
 borsh
 cargo-vet
 honggfuzz
+human_name
