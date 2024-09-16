@@ -36,3 +36,4 @@ human_name
 papyrus_storage
 cargo-vet
 dotenv
+borsh
