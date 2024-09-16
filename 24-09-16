@@ -11,3 +11,4 @@ pwasm-utils
 human_name
 re_query
 wmi
+sea-orm-cli
