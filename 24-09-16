@@ -31,3 +31,4 @@ nkeys
 cargo-vet
 papyrus_storage
 rustfmt-nightly
+cpp_demangle
