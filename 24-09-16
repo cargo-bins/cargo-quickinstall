@@ -88,3 +88,4 @@ winpty-rs
 z3tracer
 dotenvy
 asm-lsp
+cpp_demangle
