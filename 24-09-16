@@ -32,3 +32,4 @@ pwasm-utils
 skim
 ytop
 raw-cpuid
+cargo-lock
