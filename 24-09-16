@@ -13,3 +13,4 @@ ducc-sys
 socketcan
 tendermint-abci
 opencv-binding-generator
+clippy
