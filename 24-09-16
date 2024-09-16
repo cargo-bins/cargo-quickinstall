@@ -32,3 +32,4 @@ raw-cpuid
 wmi
 clippy
 cargo-about
+raw-cpuid
