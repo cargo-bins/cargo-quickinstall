@@ -5,3 +5,4 @@ phf_generator
 graphql_client_cli
 codeberg-cli
 pwasm-utils
+spider_worker
