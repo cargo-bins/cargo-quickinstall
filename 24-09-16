@@ -61,3 +61,4 @@ turbocommit
 cargo-info
 bgpkit-parser
 speedtest-rs
+socketcan
