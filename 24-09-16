@@ -4,3 +4,4 @@ cargo-vet
 honggfuzz
 human_name
 protox
+benfred-read-process-memory
