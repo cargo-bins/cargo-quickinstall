@@ -39,3 +39,4 @@ rls-rustc
 cargo-flash
 protox
 cargo-flash
+diesel_cli
