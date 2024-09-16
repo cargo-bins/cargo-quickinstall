@@ -5,3 +5,4 @@ cargo-info
 cargo-spellcheck
 tree-sitter-graph
 sha1collisiondetection
+ruff
