@@ -30,3 +30,4 @@ z3tracer
 re_query
 deno
 httpmock
+remove_dir_all
