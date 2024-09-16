@@ -10,3 +10,4 @@ cargo-show
 cargo-about
 cargo-show
 ducc-sys
+socketcan
