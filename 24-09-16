@@ -33,3 +33,4 @@ wmi
 clippy
 cargo-about
 raw-cpuid
+opencv-binding-generator
