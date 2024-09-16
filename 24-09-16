@@ -85,3 +85,4 @@ socketcan
 librespot
 dotenv
 winpty-rs
+z3tracer
