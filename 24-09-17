@@ -11,3 +11,4 @@ eidolon
 parquet
 arrow-flight
 cargo-msrv
+graphql_client_cli
