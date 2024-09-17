@@ -22,3 +22,4 @@ asm-lsp
 cargo-whatfeatures
 atuin
 opencv-binding-generator
+wol-rs
