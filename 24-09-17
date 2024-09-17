@@ -7,3 +7,4 @@ cargo-outdated
 tauri-cli
 tendermint-abci
 starship
+cargo-outdated
