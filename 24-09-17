@@ -58,3 +58,4 @@ textplots
 binstall
 wmi
 probe-rs-debugger
+raw-cpuid
