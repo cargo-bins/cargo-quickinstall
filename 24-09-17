@@ -61,3 +61,4 @@ cargo-espflash
 cargo-lock
 solana-gossip
 solana-gossip
+wol-rs
