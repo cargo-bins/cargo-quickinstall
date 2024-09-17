@@ -14,3 +14,4 @@ cargo-msrv
 graphql_client_cli
 rencfs
 xplr
+cargo-list
