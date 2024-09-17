@@ -45,3 +45,4 @@ gpg-tui
 unic-langid-impl
 human_name
 winpty-rs
+wol-rs
