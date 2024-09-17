@@ -27,3 +27,4 @@ sniffnet
 binstall
 qsv
 raw-cpuid
+graphql_client_cli
