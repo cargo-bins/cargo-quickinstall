@@ -6,3 +6,4 @@ diesel_cli
 clippy
 tendermint-abci
 solana-gossip
+radio-sx128x
