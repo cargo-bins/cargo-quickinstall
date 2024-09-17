@@ -13,3 +13,4 @@ tendermint-abci
 remove_dir_all
 radio-sx128x
 tendermint-abci
+atuin
