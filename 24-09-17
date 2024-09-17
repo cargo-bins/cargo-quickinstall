@@ -32,3 +32,4 @@ cargo-info
 cargo-smart-release
 nextest-filtering
 oso
+stac-cli
