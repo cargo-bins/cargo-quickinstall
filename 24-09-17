@@ -64,3 +64,4 @@ cargo-info
 ducc-sys
 syd
 eureka
+tree-sitter-graph
