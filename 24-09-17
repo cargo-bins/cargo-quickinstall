@@ -36,3 +36,4 @@ stac-cli
 spider_cli
 espflash
 oxipng
+winpty-rs
