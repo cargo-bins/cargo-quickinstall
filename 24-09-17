@@ -18,3 +18,4 @@ cargo-list
 qrtool
 mise
 cargo-public-api
+borsh
