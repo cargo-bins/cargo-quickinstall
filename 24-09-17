@@ -33,3 +33,4 @@ cargo-smart-release
 nextest-filtering
 oso
 stac-cli
+spider_cli
