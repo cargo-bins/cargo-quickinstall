@@ -1,3 +1,4 @@
 rls-rustc
 tendermint-abci
 git-disjoint
+remove_dir_all
