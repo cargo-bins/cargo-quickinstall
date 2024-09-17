@@ -19,3 +19,4 @@ parquet
 socketcan
 winpty-rs
 asm-lsp
+cargo-whatfeatures
