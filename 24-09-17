@@ -42,3 +42,4 @@ sniffnet
 deploy
 winpty-rs
 gpg-tui
+unic-langid-impl
