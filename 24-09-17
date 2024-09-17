@@ -58,3 +58,4 @@ clippy
 deploy
 solana-remote-wallet
 cargo-espflash
+cargo-lock
