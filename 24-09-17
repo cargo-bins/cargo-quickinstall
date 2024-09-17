@@ -4,3 +4,4 @@ git-disjoint
 remove_dir_all
 diesel_cli
 clippy
+tendermint-abci
