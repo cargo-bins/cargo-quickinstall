@@ -3,3 +3,4 @@ human_name
 probe-rs-debugger
 nkeys
 schemafy
+remove_dir_all
