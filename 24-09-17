@@ -7,3 +7,4 @@ clippy
 tendermint-abci
 solana-gossip
 radio-sx128x
+cargo-flash
