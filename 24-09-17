@@ -4,3 +4,4 @@ sqlx-cli
 skim
 atuin
 honggfuzz
+z3tracer
