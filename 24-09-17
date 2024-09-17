@@ -17,3 +17,4 @@ ffs
 librespot
 parquet
 socketcan
+winpty-rs
