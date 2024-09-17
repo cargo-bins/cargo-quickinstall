@@ -16,3 +16,4 @@ cargo-flash
 gnostr-bins
 atuin
 qsv
+patch-crate
