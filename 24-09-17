@@ -21,3 +21,4 @@ winpty-rs
 asm-lsp
 cargo-whatfeatures
 atuin
+opencv-binding-generator
