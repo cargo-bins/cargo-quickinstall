@@ -59,3 +59,4 @@ deploy
 solana-remote-wallet
 cargo-espflash
 cargo-lock
+solana-gossip
