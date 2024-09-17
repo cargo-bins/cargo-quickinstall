@@ -48,3 +48,4 @@ winpty-rs
 wol-rs
 solana-keygen
 nextest-filtering
+socketcan
