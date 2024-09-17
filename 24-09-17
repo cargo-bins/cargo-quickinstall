@@ -5,3 +5,4 @@ rrule
 cargo-about
 cargo-about
 cargo-outdated
+cargo-local-registry
