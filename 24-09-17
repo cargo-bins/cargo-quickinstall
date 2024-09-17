@@ -50,3 +50,4 @@ solana-keygen
 nextest-filtering
 socketcan
 protox
+sha1collisiondetection
