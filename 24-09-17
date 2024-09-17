@@ -5,3 +5,4 @@ winpty-rs
 deno
 cargo-outdated
 tauri-cli
+tendermint-abci
