@@ -42,3 +42,4 @@ minicbor
 typst-cli
 hurl
 mdcat
+cargo-show
