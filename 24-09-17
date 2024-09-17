@@ -57,3 +57,4 @@ cargo-list
 textplots
 binstall
 wmi
+probe-rs-debugger
