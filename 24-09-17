@@ -4,3 +4,4 @@ wasm-bindgen-cli
 winpty-rs
 deno
 cargo-outdated
+tauri-cli
