@@ -56,3 +56,4 @@ cargo-espflash
 spider_cli
 clippy
 deploy
+solana-remote-wallet
