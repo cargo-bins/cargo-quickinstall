@@ -60,3 +60,4 @@ wmi
 probe-rs-debugger
 raw-cpuid
 tendermint-abci
+cargo-info
