@@ -3,3 +3,4 @@ ansi2
 sqlx-cli
 skim
 atuin
+honggfuzz
