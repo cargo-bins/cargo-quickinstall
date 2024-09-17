@@ -12,3 +12,4 @@ pnafs
 turbocommit
 clippy
 diesel_cli
+cargo-flash
