@@ -19,3 +19,4 @@ qsv
 patch-crate
 paperclip
 cargo-embed
+wol-rs
