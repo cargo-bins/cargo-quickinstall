@@ -35,3 +35,4 @@ clippy
 tendermint-rpc
 nextest-filtering
 gnostr-bins
+ruff
