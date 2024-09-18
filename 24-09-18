@@ -32,3 +32,4 @@ probe-rs-debugger
 gpg-tui
 sqruff
 clippy
+tendermint-rpc
