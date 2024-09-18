@@ -6,3 +6,4 @@ diesel_cli
 sqruff
 socketcan
 gpg-tui
+hurlfmt
