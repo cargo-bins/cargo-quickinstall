@@ -8,3 +8,4 @@ cargo-smart-release
 clippy
 git-next
 eureka
+wol-rs
