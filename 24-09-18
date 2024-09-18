@@ -39,3 +39,4 @@ ruff
 mise
 bugstalker
 syd
+cargo-lock
