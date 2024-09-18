@@ -9,3 +9,4 @@ starship
 cargo-local-registry
 mise
 cargo-about
+wasm-bindgen-cli
