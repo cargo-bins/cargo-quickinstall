@@ -64,3 +64,4 @@ git-next
 probe-rs-debugger
 graphql_client_cli
 z3tracer
+cargo-public-api
