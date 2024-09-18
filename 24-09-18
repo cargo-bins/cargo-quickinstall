@@ -32,3 +32,4 @@ cargo-embed
 qsv
 clippy
 chain-spec-builder
+cargo-graph
