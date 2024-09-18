@@ -19,3 +19,4 @@ cargo-local-registry
 cargo-embed
 rmesg
 sqlx-cli
+pomodoro
