@@ -13,3 +13,4 @@ wasm-bindgen-cli
 cargo-tarpaulin
 cargo-outdated
 cargo-tarpaulin
+cargo-tarpaulin
