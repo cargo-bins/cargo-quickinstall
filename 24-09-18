@@ -8,3 +8,4 @@ cargo-local-registry
 cargo-about
 starship
 cargo-about
+cargo-tarpaulin
