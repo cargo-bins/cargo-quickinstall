@@ -2,3 +2,4 @@ rls-rustc
 ubi
 cargo-flash
 chain-spec-builder
+flowistry_ide
