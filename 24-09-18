@@ -18,3 +18,4 @@ parquet
 gnostr-bins
 sequoia-sq
 chain-spec-builder
+patch-crate
