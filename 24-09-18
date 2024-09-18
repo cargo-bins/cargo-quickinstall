@@ -39,3 +39,4 @@ cargo-info
 pcu
 cargo-spellcheck
 hoard-rs
+diesel_cli
