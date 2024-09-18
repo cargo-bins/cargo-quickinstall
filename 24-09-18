@@ -18,3 +18,4 @@ blissify
 tendermint-rpc
 cargo-whatfeatures
 hurl
+ruff
