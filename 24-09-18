@@ -33,3 +33,4 @@ gpg-tui
 sqruff
 clippy
 tendermint-rpc
+nextest-filtering
