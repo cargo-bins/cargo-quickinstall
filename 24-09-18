@@ -43,3 +43,4 @@ diesel_cli
 arrow-flight
 qsv
 wmi
+spider_cli
