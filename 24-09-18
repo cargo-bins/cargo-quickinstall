@@ -22,3 +22,4 @@ patch-crate
 cargo-embed
 chain-spec-builder
 av1an
+sequoia-sq
