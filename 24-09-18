@@ -6,3 +6,4 @@ wasm-bindgen-cli
 cargo-outdated
 mise
 starship
+cargo-local-registry
