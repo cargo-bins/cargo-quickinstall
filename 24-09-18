@@ -29,3 +29,4 @@ probe-rs-tools
 mdcat
 minicbor
 archwiki-rs
+tendermint-abci
