@@ -20,3 +20,4 @@ cargo-whatfeatures
 hurl
 ruff
 cargo-public-api
+codeberg-cli
