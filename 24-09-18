@@ -20,3 +20,4 @@ sequoia-sq
 chain-spec-builder
 patch-crate
 cargo-embed
+chain-spec-builder
