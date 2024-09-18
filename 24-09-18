@@ -42,3 +42,4 @@ hoard-rs
 diesel_cli
 arrow-flight
 qsv
+wmi
