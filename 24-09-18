@@ -40,3 +40,4 @@ pcu
 cargo-spellcheck
 hoard-rs
 diesel_cli
+arrow-flight
