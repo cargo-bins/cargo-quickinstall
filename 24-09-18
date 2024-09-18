@@ -18,3 +18,4 @@ serie
 cargo-local-registry
 cargo-embed
 rmesg
+sqlx-cli
