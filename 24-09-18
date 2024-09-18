@@ -4,3 +4,4 @@ cargo-flash
 chain-spec-builder
 flowistry_ide
 google-drive3-cli
+cargo-embed
