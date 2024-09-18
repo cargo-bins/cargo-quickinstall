@@ -19,3 +19,4 @@ gnostr-bins
 sequoia-sq
 chain-spec-builder
 patch-crate
+cargo-embed
