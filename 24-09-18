@@ -27,3 +27,4 @@ fleet-rs
 cargo-show
 gitui
 sqlx-cli
+cargo-local-registry
