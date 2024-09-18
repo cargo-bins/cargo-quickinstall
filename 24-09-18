@@ -46,3 +46,4 @@ wmi
 spider_cli
 tree-sitter-cli
 gpg-tui
+cargo-list
