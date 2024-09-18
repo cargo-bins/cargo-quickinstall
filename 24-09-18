@@ -31,3 +31,4 @@ deno
 cargo-embed
 qsv
 clippy
+chain-spec-builder
