@@ -30,3 +30,4 @@ patch-crate
 deno
 cargo-embed
 qsv
+clippy
