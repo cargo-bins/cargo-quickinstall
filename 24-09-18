@@ -10,3 +10,4 @@ cargo-local-registry
 mise
 cargo-about
 wasm-bindgen-cli
+cargo-tarpaulin
