@@ -1,2 +1,3 @@
 starship
 cargo-outdated
+cargo-local-registry
