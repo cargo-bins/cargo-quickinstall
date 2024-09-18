@@ -4,3 +4,4 @@ cargo-local-registry
 starship
 cargo-outdated
 cargo-outdated
+cargo-local-registry
