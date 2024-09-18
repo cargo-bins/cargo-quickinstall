@@ -16,3 +16,4 @@ cargo-info
 turbocommit
 diesel_cli
 turbocommit
+cargo-lock
