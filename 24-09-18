@@ -7,3 +7,4 @@ starship
 cargo-lock
 cargo-lock
 hurl
+diesel_cli
