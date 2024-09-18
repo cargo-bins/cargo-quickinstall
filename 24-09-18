@@ -17,3 +17,4 @@ cargo-count
 serie
 cargo-local-registry
 cargo-embed
+rmesg
