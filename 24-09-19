@@ -26,3 +26,4 @@ cce
 binstall
 cargo-msrv
 cargo-list
+solana-genesis
