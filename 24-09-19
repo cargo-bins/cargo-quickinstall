@@ -16,3 +16,4 @@ cargo-generate
 sccache
 cargo-c
 cargo-lock
+cargo-udeps
