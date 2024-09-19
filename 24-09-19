@@ -6,3 +6,4 @@ cargo-tarpaulin
 starship
 solana-genesis
 cargo-udeps
+cargo-local-registry
