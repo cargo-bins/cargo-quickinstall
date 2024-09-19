@@ -19,3 +19,4 @@ chain-spec-builder
 cargo-graph
 git-disjoint
 pnafs
+google-drive3-cli
