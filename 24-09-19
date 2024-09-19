@@ -60,3 +60,4 @@ cargo-lock
 bgpkit-broker
 cargo-unused-features
 diesel_cli
+ripunzip
