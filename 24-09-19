@@ -29,3 +29,4 @@ hoard-rs
 typst-cli
 sea-orm-cli
 bgpkit-parser
+codeberg-cli
