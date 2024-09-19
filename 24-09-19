@@ -16,3 +16,4 @@ solana-genesis
 cargo-embed
 clippy
 atuin
+cargo-show
