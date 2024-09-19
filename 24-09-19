@@ -27,3 +27,4 @@ mise
 git-disjoint
 patch-crate
 cargo-lock
+clippy
