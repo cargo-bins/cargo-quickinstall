@@ -14,3 +14,4 @@ cargo-generate
 solana-genesis
 cargo-generate
 sccache
+cargo-c
