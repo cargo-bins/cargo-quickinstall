@@ -18,3 +18,4 @@ clippy
 chain-spec-builder
 cargo-graph
 git-disjoint
+pnafs
