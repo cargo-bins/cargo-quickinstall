@@ -24,3 +24,4 @@ inlyne
 diesel_cli
 cce
 binstall
+cargo-msrv
