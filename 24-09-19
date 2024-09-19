@@ -28,3 +28,4 @@ git-disjoint
 patch-crate
 cargo-lock
 clippy
+flowistry_ide
