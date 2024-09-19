@@ -5,3 +5,4 @@ sccache
 cargo-udeps
 cargo-lock
 cargo-generate
+cargo-udeps
