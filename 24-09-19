@@ -5,3 +5,4 @@ diesel_cli
 dysk
 rmesg
 fleet-rs
+cargo-show
