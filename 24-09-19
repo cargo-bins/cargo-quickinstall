@@ -9,3 +9,4 @@ cargo-udeps
 starship
 wasm-bindgen-cli
 cargo-c
+starship
