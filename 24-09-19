@@ -5,3 +5,4 @@ cargo-tarpaulin
 cargo-tarpaulin
 starship
 solana-genesis
+cargo-udeps
