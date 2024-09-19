@@ -4,3 +4,4 @@ mise
 sccache
 cargo-udeps
 cargo-lock
+cargo-generate
