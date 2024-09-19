@@ -9,3 +9,4 @@ cargo-udeps
 cargo-local-registry
 cargo-c
 cargo-c
+cargo-lock
