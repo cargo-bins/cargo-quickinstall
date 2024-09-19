@@ -3,3 +3,4 @@ cargo-count
 cargo-local-registry
 diesel_cli
 dysk
+rmesg
