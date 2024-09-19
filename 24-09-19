@@ -12,3 +12,4 @@ cargo-c
 cargo-lock
 cargo-generate
 solana-genesis
+cargo-generate
