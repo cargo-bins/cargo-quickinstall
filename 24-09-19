@@ -21,3 +21,4 @@ starship
 cargo-generate
 solana-genesis
 cargo-udeps
+cargo-local-registry
