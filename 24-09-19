@@ -19,3 +19,4 @@ dotenv
 gpg-tui
 nu
 cargo-lock
+typst-cli
