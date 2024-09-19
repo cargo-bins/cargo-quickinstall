@@ -74,3 +74,4 @@ ffs
 cargo-whatfeatures
 xbuild
 graphql_client_cli
+probe-rs-debugger
