@@ -13,3 +13,4 @@ starship
 cargo-lock
 cargo-local-registry
 cargo-lock
+cargo-udeps
