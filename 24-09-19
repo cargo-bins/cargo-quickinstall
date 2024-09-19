@@ -22,3 +22,4 @@ cargo-lock
 typst-cli
 inlyne
 diesel_cli
+cce
