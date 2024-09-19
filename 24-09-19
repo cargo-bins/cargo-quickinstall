@@ -17,3 +17,4 @@ cargo-udeps
 cargo-lock
 cargo-udeps
 cargo-c
+starship
