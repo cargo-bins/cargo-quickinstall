@@ -12,3 +12,4 @@ cargo-c
 starship
 cargo-lock
 cargo-local-registry
+cargo-lock
