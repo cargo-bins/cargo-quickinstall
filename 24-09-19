@@ -11,3 +11,4 @@ wasm-bindgen-cli
 cargo-c
 starship
 cargo-lock
+cargo-local-registry
