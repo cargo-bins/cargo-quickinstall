@@ -25,3 +25,4 @@ diesel_cli
 cce
 binstall
 cargo-msrv
+cargo-list
