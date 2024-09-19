@@ -10,3 +10,4 @@ cargo-local-registry
 cargo-c
 cargo-c
 cargo-lock
+cargo-generate
