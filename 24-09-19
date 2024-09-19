@@ -3,3 +3,4 @@ cargo-lock
 mise
 sccache
 cargo-udeps
+cargo-lock
