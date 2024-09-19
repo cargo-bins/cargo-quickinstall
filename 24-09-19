@@ -27,3 +27,4 @@ binstall
 cargo-msrv
 cargo-list
 solana-genesis
+spider_cli
