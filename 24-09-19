@@ -29,3 +29,4 @@ patch-crate
 cargo-lock
 clippy
 flowistry_ide
+gnostr-bins
