@@ -16,3 +16,4 @@ mise
 deno
 clippy
 chain-spec-builder
+cargo-graph
