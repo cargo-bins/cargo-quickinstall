@@ -2,3 +2,4 @@ cargo-tarpaulin
 cargo-lock
 mise
 sccache
+cargo-udeps
