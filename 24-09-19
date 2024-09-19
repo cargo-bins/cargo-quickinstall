@@ -40,3 +40,4 @@ cargo-public-api
 bugstalker
 legba
 pcu
+graphql_client_cli
