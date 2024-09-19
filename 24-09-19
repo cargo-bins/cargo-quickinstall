@@ -20,3 +20,4 @@ cargo-show
 dysk
 rtx-cli
 solana-genesis
+clippy
