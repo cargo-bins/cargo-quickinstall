@@ -2,3 +2,4 @@ solana-genesis
 cargo-lock
 cargo-generate
 cargo-tarpaulin
+cargo-tarpaulin
