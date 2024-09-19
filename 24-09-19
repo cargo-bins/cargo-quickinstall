@@ -5,3 +5,4 @@ diesel_cli
 starship
 atuin
 xcp
+cargo-lock
