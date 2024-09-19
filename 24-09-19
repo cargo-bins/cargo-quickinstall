@@ -19,3 +19,4 @@ cargo-udeps
 cargo-c
 starship
 cargo-generate
+solana-genesis
