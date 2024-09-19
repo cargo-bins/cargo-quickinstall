@@ -8,3 +8,4 @@ cargo-generate
 cargo-udeps
 starship
 wasm-bindgen-cli
+cargo-c
