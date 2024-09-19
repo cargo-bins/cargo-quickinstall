@@ -18,3 +18,4 @@ xbuild
 dotenv
 gpg-tui
 nu
+cargo-lock
