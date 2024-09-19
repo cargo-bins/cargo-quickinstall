@@ -58,3 +58,4 @@ git-next
 vayu
 cargo-lock
 bgpkit-broker
+cargo-unused-features
