@@ -4,3 +4,4 @@ cargo-generate
 cargo-tarpaulin
 cargo-tarpaulin
 starship
+solana-genesis
