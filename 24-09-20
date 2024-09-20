@@ -30,3 +30,4 @@ tendermint-abci
 tendermint-rpc
 dotenvy
 nextest-filtering
+protox
