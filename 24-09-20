@@ -57,3 +57,4 @@ pcu
 gpg-tui
 rustfmt-nightly
 schemafy
+asm-lsp
