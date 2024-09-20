@@ -62,3 +62,4 @@ ruff
 bliss
 cargo-smart-release
 hurl
+mdcat
