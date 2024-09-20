@@ -21,3 +21,4 @@ cargo-lock
 nkeys
 cargo-udeps
 human_bytes
+cargo-udeps
