@@ -34,3 +34,4 @@ addr2line
 racer
 solana-keygen
 sqlx-cli
+cargo-lock
