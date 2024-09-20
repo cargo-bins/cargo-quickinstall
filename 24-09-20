@@ -21,3 +21,4 @@ remove_dir_all
 clippy
 foundationdb-gen
 addr2line
+cpp_demangle
