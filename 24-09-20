@@ -84,3 +84,4 @@ stac-cli
 drone
 speedtest-rs
 snarkvm
+rls-rustc
