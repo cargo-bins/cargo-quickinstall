@@ -16,3 +16,4 @@ vrc-log
 cpp_demangle
 sniffnet
 elf2uf2-rs
+dotenvy
