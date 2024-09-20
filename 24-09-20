@@ -7,3 +7,4 @@ tendermint-rpc
 rustbus
 phf_generator
 java-locator
+pwasm-utils
