@@ -23,3 +23,4 @@ deploy
 remove_dir_all
 cargo-local-registry
 dotenv
+human_bytes
