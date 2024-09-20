@@ -11,3 +11,4 @@ java-locator
 google-drive3-cli
 addr2line
 z3tracer
+dotenv
