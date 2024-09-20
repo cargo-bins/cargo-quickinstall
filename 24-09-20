@@ -11,3 +11,4 @@ remove_dir_all
 arrow-flight
 wol-rs
 rustrict
+rls-rustc
