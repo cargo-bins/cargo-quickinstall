@@ -18,3 +18,4 @@ syd
 cargo-generate
 cargo-udeps
 cargo-lock
+nkeys
