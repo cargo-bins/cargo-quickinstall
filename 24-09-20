@@ -41,3 +41,4 @@ cargo-c
 protox
 borsh
 py-spy
+sccache
