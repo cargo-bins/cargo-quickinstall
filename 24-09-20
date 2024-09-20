@@ -7,3 +7,4 @@ diesel_cli
 rencfs
 remove_dir_all
 speedtest-rs
+cargo-pgrx
