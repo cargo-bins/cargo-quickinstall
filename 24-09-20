@@ -27,3 +27,4 @@ diesel_cli
 solana-genesis
 cargo-local-registry
 solana-keygen
+human_bytes
