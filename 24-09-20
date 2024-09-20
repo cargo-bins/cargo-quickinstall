@@ -16,3 +16,4 @@ opencv-binding-generator
 git-disjoint
 winpty-rs
 dotenv
+flowistry_ide
