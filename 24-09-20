@@ -26,3 +26,4 @@ tendermint-rpc
 diesel_cli
 solana-genesis
 cargo-local-registry
+solana-keygen
