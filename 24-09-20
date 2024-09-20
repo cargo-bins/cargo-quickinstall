@@ -3,3 +3,4 @@ ducc-sys
 wmi
 dotenvy
 z3tracer
+remove_dir_all
