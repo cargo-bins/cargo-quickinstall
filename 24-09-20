@@ -21,3 +21,4 @@ clippy
 ducc-sys
 rls-rustc
 parquet
+git-disjoint
