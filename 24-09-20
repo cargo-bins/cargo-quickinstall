@@ -18,3 +18,4 @@ winpty-rs
 dotenv
 flowistry_ide
 clippy
+ducc-sys
