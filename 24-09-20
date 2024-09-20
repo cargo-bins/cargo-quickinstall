@@ -7,3 +7,4 @@ solana-genesis
 nexmark
 laminar
 solana-remote-wallet
+remove_dir_all
