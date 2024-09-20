@@ -43,3 +43,4 @@ raw-cpuid
 solana-validator
 cargo-graph
 wmi
+dotenv
