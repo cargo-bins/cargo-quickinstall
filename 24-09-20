@@ -30,3 +30,4 @@ foundationdb-gen
 sccache
 deploy
 cargo-c
+addr2line
