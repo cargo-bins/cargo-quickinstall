@@ -47,3 +47,4 @@ rustfmt-nightly
 cargo-info
 zuse
 solana-genesis
+clippy
