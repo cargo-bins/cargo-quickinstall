@@ -20,3 +20,4 @@ flowistry_ide
 clippy
 ducc-sys
 rls-rustc
+parquet
