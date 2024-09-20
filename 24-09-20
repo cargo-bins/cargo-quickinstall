@@ -27,3 +27,4 @@ cargo-info
 protox
 textplots
 tendermint-abci
+tendermint-rpc
