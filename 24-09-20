@@ -24,3 +24,4 @@ addr2line
 cpp_demangle
 tendermint-rpc
 diesel_cli
+solana-genesis
