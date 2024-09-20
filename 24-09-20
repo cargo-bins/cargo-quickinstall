@@ -14,3 +14,4 @@ rustrict
 rls-rustc
 cargo-c
 rustfmt-nightly
+human_name
