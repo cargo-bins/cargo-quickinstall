@@ -14,3 +14,4 @@ rtx-cli
 cpp_demangle
 borsh
 minicbor
+re_query
