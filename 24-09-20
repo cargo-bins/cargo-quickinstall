@@ -6,3 +6,4 @@ z3tracer
 remove_dir_all
 raw-cpuid
 h3o
+minicbor
