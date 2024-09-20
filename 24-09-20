@@ -36,3 +36,4 @@ solana-keygen
 sqlx-cli
 cargo-lock
 schemafy
+sccache
