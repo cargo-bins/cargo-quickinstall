@@ -82,3 +82,4 @@ git-next
 deploy
 vrc-log
 snarkvm
+asm-lsp
