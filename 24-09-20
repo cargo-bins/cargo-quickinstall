@@ -11,3 +11,4 @@ cargo-lock
 solana-genesis
 rmesg
 exa
+cargo-generate
