@@ -7,3 +7,4 @@ skim
 solana-genesis
 cargo-generate
 atuin
+cargo-lock
