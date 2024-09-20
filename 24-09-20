@@ -31,3 +31,4 @@ sccache
 deploy
 cargo-c
 addr2line
+racer
