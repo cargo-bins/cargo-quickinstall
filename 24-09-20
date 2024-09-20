@@ -43,3 +43,4 @@ diesel_cli
 racer
 unic-langid-impl
 solana-validator
+sccache
