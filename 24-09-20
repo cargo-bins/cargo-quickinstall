@@ -44,3 +44,4 @@ solana-validator
 cargo-graph
 wmi
 dotenv
+minicbor
