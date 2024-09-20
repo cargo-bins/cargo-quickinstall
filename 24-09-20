@@ -6,3 +6,4 @@ addr2line
 tendermint-rpc
 rustbus
 phf_generator
+java-locator
