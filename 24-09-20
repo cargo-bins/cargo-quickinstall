@@ -8,3 +8,4 @@ rencfs
 remove_dir_all
 speedtest-rs
 cargo-pgrx
+codeberg-cli
