@@ -87,3 +87,4 @@ snarkvm
 rls-rustc
 ravedude
 bgpkit-parser
+cargo-lock
