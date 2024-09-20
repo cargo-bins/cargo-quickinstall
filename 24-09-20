@@ -40,3 +40,4 @@ dotenv
 foundationdb-gen
 wol-rs
 opencv-binding-generator
+textplots
