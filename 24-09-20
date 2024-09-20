@@ -28,3 +28,4 @@ deploy
 solana-validator
 clippy
 borsh
+dotenv
