@@ -42,3 +42,4 @@ wol-rs
 opencv-binding-generator
 textplots
 z3tracer
+cached-path
