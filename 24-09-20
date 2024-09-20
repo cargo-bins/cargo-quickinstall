@@ -12,3 +12,4 @@ cargo-c
 racer
 librespot
 textplots
+socketcan
