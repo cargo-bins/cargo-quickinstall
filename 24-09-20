@@ -37,3 +37,4 @@ sqlx-cli
 cargo-lock
 schemafy
 sccache
+unic-langid-impl
