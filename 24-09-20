@@ -37,3 +37,4 @@ solana-validator
 re_query
 racer
 sccache
+cargo-c
