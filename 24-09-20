@@ -18,3 +18,4 @@ cargo-graph
 laminar
 oso
 pwasm-utils
+solana-genesis
