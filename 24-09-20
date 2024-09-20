@@ -32,3 +32,4 @@ unic-langid-impl
 sccache
 rkv
 sccache
+cargo-c
