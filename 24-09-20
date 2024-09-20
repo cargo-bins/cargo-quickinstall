@@ -32,3 +32,4 @@ sea-orm-cli
 borsh
 qsv
 mdcat
+ripunzip
