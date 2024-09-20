@@ -58,3 +58,4 @@ dotenv
 cpp_demangle
 clippy
 rrule
+ruff
