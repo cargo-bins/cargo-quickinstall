@@ -36,3 +36,4 @@ solana-genesis
 oxipng
 starship
 cached-path
+dotenv
