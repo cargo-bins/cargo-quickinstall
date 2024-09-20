@@ -11,3 +11,4 @@ pwasm-utils
 schemafy
 rustfmt-nightly
 rtx-cli
+cpp_demangle
