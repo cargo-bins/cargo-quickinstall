@@ -12,3 +12,4 @@ deno
 cargo-lock
 nextest-filtering
 re_query
+opencv-binding-generator
