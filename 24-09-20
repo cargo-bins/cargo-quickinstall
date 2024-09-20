@@ -19,3 +19,4 @@ solana-genesis
 sha1collisiondetection
 remove_dir_all
 clippy
+foundationdb-gen
