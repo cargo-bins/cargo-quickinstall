@@ -9,3 +9,4 @@ cargo-generate
 atuin
 cargo-lock
 solana-genesis
+rmesg
