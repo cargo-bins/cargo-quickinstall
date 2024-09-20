@@ -36,3 +36,4 @@ human_name
 honggfuzz
 monolith
 wol-rs
+phf_generator
