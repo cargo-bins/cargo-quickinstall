@@ -25,3 +25,4 @@ cpp_demangle
 tendermint-rpc
 diesel_cli
 solana-genesis
+cargo-local-registry
