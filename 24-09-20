@@ -20,3 +20,4 @@ tree-sitter-graph
 rls-rustc
 rustrict
 deploy
+remove_dir_all
