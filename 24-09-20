@@ -26,3 +26,4 @@ raw-cpuid
 cargo-info
 protox
 textplots
+tendermint-abci
