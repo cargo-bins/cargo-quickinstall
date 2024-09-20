@@ -10,3 +10,4 @@ java-locator
 pwasm-utils
 schemafy
 rustfmt-nightly
+rtx-cli
