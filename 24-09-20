@@ -31,3 +31,4 @@ tendermint-rpc
 dotenvy
 nextest-filtering
 protox
+re_query
