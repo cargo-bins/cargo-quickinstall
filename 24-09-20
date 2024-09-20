@@ -15,3 +15,4 @@ re_query
 opencv-binding-generator
 git-disjoint
 winpty-rs
+dotenv
