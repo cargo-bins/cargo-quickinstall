@@ -56,3 +56,4 @@ hoard-rs
 pcu
 gpg-tui
 rustfmt-nightly
+schemafy
