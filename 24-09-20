@@ -19,3 +19,4 @@ cargo-generate
 cargo-udeps
 cargo-lock
 nkeys
+cargo-udeps
