@@ -25,3 +25,4 @@ cargo-udeps
 racer
 ducc-sys
 minicbor
+solana-remote-wallet
