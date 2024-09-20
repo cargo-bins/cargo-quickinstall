@@ -38,3 +38,4 @@ starship
 cached-path
 dotenv
 foundationdb-gen
+wol-rs
