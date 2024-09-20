@@ -21,3 +21,4 @@ rls-rustc
 rustrict
 deploy
 remove_dir_all
+cargo-local-registry
