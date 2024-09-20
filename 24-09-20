@@ -13,3 +13,4 @@ rustfmt-nightly
 rtx-cli
 cpp_demangle
 borsh
+minicbor
