@@ -18,3 +18,4 @@ human_name
 solana-genesis
 sha1collisiondetection
 remove_dir_all
+clippy
