@@ -29,3 +29,4 @@ solana-remote-wallet
 foundationdb-gen
 sccache
 deploy
+cargo-c
