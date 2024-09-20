@@ -19,3 +19,4 @@ elf2uf2-rs
 dotenvy
 oso
 cargo-pgrx
+dotenv
