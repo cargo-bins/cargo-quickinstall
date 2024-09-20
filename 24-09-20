@@ -16,3 +16,4 @@ socketcan
 oso
 syd
 cargo-generate
+cargo-udeps
