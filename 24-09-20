@@ -15,3 +15,4 @@ rls-rustc
 cargo-c
 rustfmt-nightly
 human_name
+solana-genesis
