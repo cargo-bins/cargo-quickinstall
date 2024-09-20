@@ -17,3 +17,4 @@ git-disjoint
 winpty-rs
 dotenv
 flowistry_ide
+clippy
