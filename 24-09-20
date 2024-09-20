@@ -10,3 +10,4 @@ rav1e
 sequoia-chameleon-gnupg
 deno
 cargo-lock
+nextest-filtering
