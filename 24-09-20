@@ -1,3 +1,4 @@
 cargo-generate
 solana-genesis
 phf_generator
+human_name
