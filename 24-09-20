@@ -32,3 +32,4 @@ deploy
 cargo-c
 addr2line
 racer
+solana-keygen
