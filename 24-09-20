@@ -11,3 +11,4 @@ sequoia-chameleon-gnupg
 deno
 cargo-lock
 nextest-filtering
+re_query
