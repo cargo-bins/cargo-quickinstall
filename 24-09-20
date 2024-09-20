@@ -13,3 +13,4 @@ wol-rs
 rustrict
 rls-rustc
 cargo-c
+rustfmt-nightly
