@@ -46,3 +46,4 @@ cached-path
 rustfmt-nightly
 cargo-info
 zuse
+solana-genesis
