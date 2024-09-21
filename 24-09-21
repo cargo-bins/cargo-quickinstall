@@ -99,3 +99,4 @@ nexmark
 human_bytes
 nkeys
 laminar
+cpp_demangle
