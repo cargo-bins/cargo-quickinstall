@@ -50,3 +50,4 @@ borsh
 zuse
 spider_cli
 wol-rs
+raw-cpuid
