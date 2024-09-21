@@ -61,3 +61,4 @@ laminar
 cpp_demangle
 racer
 rustfmt-nightly
+schemafy
