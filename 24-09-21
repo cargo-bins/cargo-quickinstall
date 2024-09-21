@@ -3,3 +3,4 @@ foundationdb-gen
 cargo-lock
 wol-rs
 cloak
+wmi
