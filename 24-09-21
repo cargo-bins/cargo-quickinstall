@@ -39,3 +39,4 @@ schemafy
 diesel_cli
 nkeys
 sha1collisiondetection
+pwasm-utils
