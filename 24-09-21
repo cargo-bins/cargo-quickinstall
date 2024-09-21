@@ -43,3 +43,4 @@ pwasm-utils
 deno
 rustrict
 solana-remote-wallet
+cargo-generate
