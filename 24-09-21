@@ -104,3 +104,4 @@ human_name
 rustrict
 tendermint-rpc
 clippy
+socketcan
