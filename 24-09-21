@@ -16,3 +16,4 @@ java-locator
 tokio-process
 raw-cpuid
 tendermint-abci
+rustfmt
