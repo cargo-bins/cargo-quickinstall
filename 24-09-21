@@ -70,3 +70,4 @@ foundationdb-gen
 nextest-filtering
 rav1e
 remove_dir_all
+nexmark
