@@ -58,3 +58,4 @@ tree-sitter-graph
 cargo-generate
 foundationdb-gen
 laminar
+cpp_demangle
