@@ -63,3 +63,4 @@ py-spy
 parquet
 laminar
 phf_generator
+tendermint-rpc
