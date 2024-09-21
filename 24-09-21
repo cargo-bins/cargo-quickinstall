@@ -8,3 +8,4 @@ parquet
 foundationdb-gen
 remove_dir_all
 cached-path
+cargo-generate
