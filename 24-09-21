@@ -77,3 +77,4 @@ rustfmt-nightly
 nkeys
 phf_generator
 rkv
+nextest-filtering
