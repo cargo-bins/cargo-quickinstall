@@ -24,3 +24,4 @@ diesel_cli
 z3tracer
 rustfmt-nightly
 socketcan
+protox
