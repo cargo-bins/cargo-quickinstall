@@ -26,3 +26,4 @@ rustfmt-nightly
 socketcan
 protox
 nkeys
+ducc-sys
