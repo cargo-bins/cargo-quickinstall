@@ -42,3 +42,4 @@ cargo-local-registry
 rustbus
 foundationdb-gen
 clippy
+solana-gossip
