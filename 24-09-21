@@ -61,3 +61,4 @@ raw-cpuid
 foundationdb-gen
 solana-validator
 opencv-binding-generator
+re_query
