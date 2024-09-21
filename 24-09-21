@@ -94,3 +94,4 @@ human_bytes
 tendermint-abci
 solana-validator
 rrule
+cpp_demangle
