@@ -25,3 +25,4 @@ sqlx-cli
 paperclip
 winpty-rs
 clippy
+laminar
