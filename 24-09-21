@@ -7,3 +7,4 @@ drone
 minicbor
 cargo-lock
 blissify
+addr2line
