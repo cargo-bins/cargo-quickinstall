@@ -60,3 +60,4 @@ addr2line
 tendermint-abci
 schemafy
 solana-gossip
+honggfuzz
