@@ -63,3 +63,4 @@ tendermint-rpc
 h3o
 nkeys
 sea-orm-cli
+cached-path
