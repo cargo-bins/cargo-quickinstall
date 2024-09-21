@@ -12,3 +12,4 @@ sqruff
 speedtest-rs
 rustrict
 cargo-whatfeatures
+httpmock
