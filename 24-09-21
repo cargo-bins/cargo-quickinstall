@@ -43,3 +43,4 @@ deploy
 protox
 foundationdb-gen
 addr2line
+z3tracer
