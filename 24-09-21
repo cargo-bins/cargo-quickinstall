@@ -4,3 +4,4 @@ cargo-lock
 wol-rs
 cloak
 wmi
+borsh
