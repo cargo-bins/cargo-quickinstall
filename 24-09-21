@@ -50,3 +50,4 @@ wmi
 dotenv
 nexmark
 arrow-flight
+httpmock
