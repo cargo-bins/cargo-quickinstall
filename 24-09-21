@@ -12,3 +12,4 @@ cargo-generate
 papyrus_storage
 solana-validator
 sha1collisiondetection
+unic-langid-impl
