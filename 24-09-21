@@ -45,3 +45,4 @@ foundationdb-gen
 addr2line
 z3tracer
 zuse
+rustfmt-nightly
