@@ -32,3 +32,4 @@ oso
 solana-gossip
 wol-rs
 tree-sitter-graph
+phf_generator
