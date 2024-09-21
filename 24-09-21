@@ -35,3 +35,4 @@ httpmock
 nexmark
 diesel_cli
 winpty-rs
+arrow-flight
