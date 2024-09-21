@@ -44,3 +44,4 @@ parquet
 rls-rustc
 pwasm-utils
 nextest-filtering
+addr2line
