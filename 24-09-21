@@ -88,3 +88,4 @@ ducc-sys
 socketcan
 tendermint-abci
 foundationdb-gen
+borsh
