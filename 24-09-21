@@ -106,3 +106,4 @@ tendermint-rpc
 clippy
 socketcan
 nkeys
+rls-rustc
