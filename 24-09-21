@@ -31,3 +31,4 @@ addr2line
 rustfmt-nightly
 nexmark
 remove_dir_all
+httpmock
