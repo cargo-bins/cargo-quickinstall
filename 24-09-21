@@ -51,3 +51,4 @@ py-spy
 dotenv
 dotenv
 minicbor
+cargo-generate
