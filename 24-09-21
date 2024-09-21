@@ -31,3 +31,4 @@ rustfmt-nightly
 snarkvm
 tree-sitter-cli
 arrow-flight
+sqlx-cli
