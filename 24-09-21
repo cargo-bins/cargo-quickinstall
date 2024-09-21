@@ -7,3 +7,4 @@ tree-sitter-graph
 parquet
 foundationdb-gen
 remove_dir_all
+cached-path
