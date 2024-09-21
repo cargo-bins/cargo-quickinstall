@@ -3,3 +3,4 @@ minicbor
 deploy
 tendermint-abci
 human_bytes
+nextest-filtering
