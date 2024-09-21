@@ -29,3 +29,4 @@ laminar
 socketcan
 syd
 wol-rs
+addr2line
