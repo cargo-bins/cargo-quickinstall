@@ -9,3 +9,4 @@ schemafy
 borsh
 wol-rs
 re_query
+chain-spec-builder
