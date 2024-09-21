@@ -54,3 +54,4 @@ sha1collisiondetection
 human_bytes
 winpty-rs
 rustfmt-nightly
+nextest-filtering
