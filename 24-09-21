@@ -46,3 +46,4 @@ addr2line
 z3tracer
 zuse
 rustfmt-nightly
+deno
