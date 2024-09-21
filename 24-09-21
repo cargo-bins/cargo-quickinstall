@@ -84,3 +84,4 @@ rkv
 sha1collisiondetection
 nextest-filtering
 laminar
+winpty-rs
