@@ -78,3 +78,4 @@ diesel_cli
 nexmark
 dotenvy
 schemafy
+human_bytes
