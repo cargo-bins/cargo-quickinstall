@@ -17,3 +17,4 @@ cpp_demangle
 laminar
 rls-rustc
 spider_cli
+foundationdb-gen
