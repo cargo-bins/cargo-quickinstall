@@ -80,3 +80,4 @@ solana-genesis
 gpg-tui
 xcp
 py-spy
+sea-orm-cli
