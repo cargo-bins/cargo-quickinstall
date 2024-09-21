@@ -56,3 +56,4 @@ dotenvy
 dotenv
 socketcan
 laminar
+addr2line
