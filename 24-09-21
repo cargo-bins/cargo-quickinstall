@@ -68,3 +68,4 @@ cached-path
 tree-sitter-graph
 diesel_cli
 pwasm-utils
+tree-sitter-cli
