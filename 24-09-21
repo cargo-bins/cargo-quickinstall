@@ -13,3 +13,4 @@ parquet
 phf_generator
 re_query
 java-locator
+tokio-process
