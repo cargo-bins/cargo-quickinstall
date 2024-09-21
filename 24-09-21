@@ -21,3 +21,4 @@ foundationdb-gen
 human_name
 oso
 papyrus_storage
+sqlx-cli
