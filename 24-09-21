@@ -56,3 +56,4 @@ winpty-rs
 rustfmt-nightly
 nextest-filtering
 deploy
+spider_worker
