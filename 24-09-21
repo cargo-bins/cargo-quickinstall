@@ -5,3 +5,4 @@ legba
 nextest-filtering
 drone
 minicbor
+cargo-lock
