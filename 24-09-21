@@ -28,3 +28,4 @@ human_name
 rustrict
 nexmark
 addr2line
+rustfmt-nightly
