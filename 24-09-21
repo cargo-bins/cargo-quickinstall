@@ -21,3 +21,4 @@ rkv
 borsh
 exa
 z3tracer
+remove_dir_all
