@@ -67,3 +67,4 @@ tendermint-rpc
 cached-path
 tree-sitter-graph
 diesel_cli
+pwasm-utils
