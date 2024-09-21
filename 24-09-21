@@ -40,3 +40,4 @@ dotenvy
 rls-rustc
 qsv
 tendermint-abci
+z3tracer
