@@ -4,3 +4,4 @@ ducc-sys
 clippy
 rkv
 parquet
+text-diff
