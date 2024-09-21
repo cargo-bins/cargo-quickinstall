@@ -33,3 +33,4 @@ tree-sitter-cli
 arrow-flight
 sqlx-cli
 wmi
+deploy
