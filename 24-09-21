@@ -33,3 +33,4 @@ nexmark
 remove_dir_all
 httpmock
 nexmark
+diesel_cli
