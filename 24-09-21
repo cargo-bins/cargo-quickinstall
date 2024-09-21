@@ -42,3 +42,4 @@ cached-path
 rustrict
 parquet
 rls-rustc
+pwasm-utils
