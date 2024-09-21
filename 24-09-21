@@ -72,3 +72,4 @@ tree-sitter-cli
 solana-validator
 remove_dir_all
 dotenv
+cpp_demangle
