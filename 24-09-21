@@ -74,3 +74,4 @@ remove_dir_all
 dotenv
 cpp_demangle
 solana-remote-wallet
+diesel_cli
