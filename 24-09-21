@@ -31,3 +31,4 @@ rustbus
 dotenv
 winpty-rs
 unic-langid-impl
+ducc-sys
