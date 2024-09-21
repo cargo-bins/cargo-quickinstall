@@ -50,3 +50,4 @@ pcu
 solana-gossip
 solana-validator
 cargo-lock
+httpmock
