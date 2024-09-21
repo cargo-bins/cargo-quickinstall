@@ -29,3 +29,4 @@ cargo-spellcheck
 rioterm
 duma
 bugstalker
+cpp_demangle
