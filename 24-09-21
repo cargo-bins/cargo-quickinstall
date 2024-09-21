@@ -22,3 +22,4 @@ pwasm-utils
 cargo-local-registry
 textplots
 unic-langid-impl
+re_query
