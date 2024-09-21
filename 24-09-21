@@ -30,3 +30,4 @@ arrow-flight
 rustbus
 dotenv
 winpty-rs
+unic-langid-impl
