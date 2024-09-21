@@ -93,3 +93,4 @@ parquet
 nexmark
 rkv
 solana-validator
+cached-path
