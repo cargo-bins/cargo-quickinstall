@@ -2,3 +2,4 @@ coldsnap
 phf_generator
 h3o
 rustfmt-nightly
+wol-rs
