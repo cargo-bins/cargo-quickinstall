@@ -6,3 +6,4 @@ nextest-filtering
 drone
 minicbor
 cargo-lock
+blissify
