@@ -41,3 +41,4 @@ human_name
 cached-path
 rustrict
 parquet
+rls-rustc
