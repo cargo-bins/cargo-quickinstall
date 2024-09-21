@@ -20,3 +20,4 @@ nextest-filtering
 rrule
 nexmark
 solana-gossip
+diesel_cli
