@@ -75,3 +75,4 @@ dotenv
 cpp_demangle
 solana-remote-wallet
 diesel_cli
+nexmark
