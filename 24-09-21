@@ -2,3 +2,4 @@ schemafy
 addr2line
 re_query
 minicbor
+sea-orm-cli
