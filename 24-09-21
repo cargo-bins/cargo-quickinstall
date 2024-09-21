@@ -64,3 +64,4 @@ rustfmt-nightly
 schemafy
 py-spy
 tendermint-rpc
+unic-langid-impl
