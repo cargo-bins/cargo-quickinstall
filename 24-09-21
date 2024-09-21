@@ -36,3 +36,4 @@ cargo-pgrx
 codeberg-cli
 cargo-lock
 oso
+dotenvy
