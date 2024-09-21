@@ -44,3 +44,4 @@ foundationdb-gen
 clippy
 solana-gossip
 oso
+sn_node
