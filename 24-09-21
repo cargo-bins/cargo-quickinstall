@@ -97,3 +97,4 @@ tendermint-abci
 nkeys
 human_bytes
 wol-rs
+cpp_demangle
