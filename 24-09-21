@@ -16,3 +16,4 @@ rls-rustc
 laminar
 oso
 nkeys
+nextest-filtering
