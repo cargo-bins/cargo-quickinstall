@@ -17,3 +17,4 @@ snarkvm
 schemafy
 tendermint-abci
 cached-path
+borsh
