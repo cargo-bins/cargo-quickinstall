@@ -27,3 +27,4 @@ cargo-local-registry
 racer
 httpbis
 rav1e
+opencv-binding-generator
