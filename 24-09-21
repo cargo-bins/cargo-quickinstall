@@ -52,3 +52,4 @@ human_name
 cargo-lock
 arrow-flight
 rkv
+dotenvy
