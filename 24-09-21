@@ -80,3 +80,4 @@ spider_cli
 winpty-rs
 trunk
 oso
+cpp_demangle
