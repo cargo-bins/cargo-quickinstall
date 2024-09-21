@@ -15,3 +15,4 @@ tree-sitter-cli
 arrow-flight
 cpp_demangle
 laminar
+rls-rustc
