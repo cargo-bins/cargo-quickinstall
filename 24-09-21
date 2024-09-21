@@ -34,3 +34,4 @@ arrow-flight
 sqlx-cli
 wmi
 deploy
+rls-rustc
