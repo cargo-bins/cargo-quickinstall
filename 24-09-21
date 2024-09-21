@@ -28,3 +28,4 @@ clippy
 laminar
 socketcan
 syd
+wol-rs
