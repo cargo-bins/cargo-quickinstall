@@ -85,3 +85,4 @@ sha1collisiondetection
 nextest-filtering
 laminar
 winpty-rs
+ducc-sys
