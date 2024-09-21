@@ -2,3 +2,4 @@ cached-path
 minicbor
 deploy
 tendermint-abci
+human_bytes
