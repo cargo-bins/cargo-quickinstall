@@ -99,3 +99,4 @@ opencv-binding-generator
 wol-rs
 rls-rustc
 rkv
+spider_cli
