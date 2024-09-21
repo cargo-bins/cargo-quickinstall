@@ -60,3 +60,4 @@ foundationdb-gen
 laminar
 cpp_demangle
 racer
+rustfmt-nightly
