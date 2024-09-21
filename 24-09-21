@@ -47,3 +47,4 @@ nkeys
 borsh
 pwasm-utils
 wmi
+dotenv
