@@ -60,3 +60,4 @@ spider_worker
 opencv-binding-generator
 tree-sitter-graph
 tendermint-rpc
+h3o
