@@ -49,3 +49,4 @@ rustfmt-nightly
 deno
 solana-gossip
 minicbor
+opencv-binding-generator
