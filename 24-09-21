@@ -6,3 +6,4 @@ rkv
 parquet
 text-diff
 sqlx-cli
+z3tracer
