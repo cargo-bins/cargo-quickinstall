@@ -41,3 +41,4 @@ remove_dir_all
 cargo-local-registry
 rustbus
 foundationdb-gen
+clippy
