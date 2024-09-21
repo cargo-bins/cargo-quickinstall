@@ -75,3 +75,4 @@ paperclip
 dotenvy
 rustfmt-nightly
 nkeys
+phf_generator
