@@ -65,3 +65,4 @@ laminar
 phf_generator
 tendermint-rpc
 cached-path
+tree-sitter-graph
