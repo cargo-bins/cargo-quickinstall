@@ -10,3 +10,4 @@ raw-cpuid
 opencv-binding-generator
 diesel_cli
 addr2line
+ducc-sys
