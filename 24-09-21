@@ -61,3 +61,4 @@ tendermint-abci
 schemafy
 solana-gossip
 honggfuzz
+deploy
