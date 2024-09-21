@@ -63,3 +63,4 @@ borsh
 ducc-sys
 phf_generator
 laminar
+cargo-lock
