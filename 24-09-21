@@ -4,3 +4,4 @@ h3o
 rustfmt-nightly
 wol-rs
 tree-sitter-graph
+parquet
