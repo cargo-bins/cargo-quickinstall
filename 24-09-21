@@ -87,3 +87,4 @@ cached-path
 ducc-sys
 socketcan
 tendermint-abci
+foundationdb-gen
