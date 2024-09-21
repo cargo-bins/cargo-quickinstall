@@ -14,3 +14,4 @@ ducc-sys
 rustfmt-nightly
 arrow-flight
 deno
+clippy
