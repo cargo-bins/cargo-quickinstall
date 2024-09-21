@@ -16,3 +16,4 @@ h3o
 rustfmt-nightly
 diesel_cli
 tauri-cli
+dotenvy
