@@ -5,3 +5,4 @@ clippy
 rkv
 parquet
 text-diff
+sqlx-cli
