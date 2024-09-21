@@ -34,3 +34,4 @@ remove_dir_all
 minicbor
 human_bytes
 snarkvm
+schemafy
