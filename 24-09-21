@@ -14,3 +14,4 @@ rustrict
 cargo-whatfeatures
 httpmock
 laminar
+foundationdb-gen
