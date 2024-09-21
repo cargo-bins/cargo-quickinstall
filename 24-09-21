@@ -44,3 +44,4 @@ deno
 rustrict
 solana-remote-wallet
 cargo-generate
+human_bytes
