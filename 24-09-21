@@ -37,3 +37,4 @@ codeberg-cli
 cargo-lock
 oso
 dotenvy
+rls-rustc
