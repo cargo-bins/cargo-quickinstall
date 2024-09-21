@@ -69,3 +69,4 @@ z3tracer
 foundationdb-gen
 nextest-filtering
 rav1e
+remove_dir_all
