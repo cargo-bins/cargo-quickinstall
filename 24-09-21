@@ -89,3 +89,4 @@ socketcan
 tendermint-abci
 foundationdb-gen
 borsh
+rustfmt-nightly
