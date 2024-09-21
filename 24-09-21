@@ -40,3 +40,4 @@ benfred-read-process-memory
 remove_dir_all
 cargo-local-registry
 rustbus
+foundationdb-gen
