@@ -66,3 +66,4 @@ mdbook-plantuml
 mdbook-plantuml
 hoard-rs
 h3o
+remove_dir_all
