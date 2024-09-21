@@ -45,3 +45,4 @@ solana-gossip
 z3tracer
 nkeys
 borsh
+pwasm-utils
