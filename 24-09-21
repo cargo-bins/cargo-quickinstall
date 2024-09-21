@@ -58,3 +58,4 @@ nextest-filtering
 deploy
 spider_worker
 opencv-binding-generator
+tree-sitter-graph
