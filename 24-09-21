@@ -38,3 +38,4 @@ rls-rustc
 py-spy
 human_name
 addr2line
+tauri-cli
