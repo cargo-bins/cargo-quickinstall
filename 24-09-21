@@ -13,3 +13,4 @@ schemafy
 ducc-sys
 tree-sitter-cli
 arrow-flight
+cpp_demangle
