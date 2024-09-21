@@ -54,3 +54,4 @@ minicbor
 cargo-generate
 human_name
 syd
+tree-sitter-graph
