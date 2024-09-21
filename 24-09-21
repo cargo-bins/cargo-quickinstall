@@ -49,3 +49,4 @@ pwasm-utils
 wmi
 dotenv
 nexmark
+arrow-flight
