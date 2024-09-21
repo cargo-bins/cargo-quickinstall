@@ -28,3 +28,4 @@ rustrict
 cargo-lock
 arrow-flight
 rustbus
+dotenv
