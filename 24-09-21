@@ -58,3 +58,4 @@ socketcan
 laminar
 addr2line
 tendermint-abci
+schemafy
