@@ -30,3 +30,4 @@ wol-rs
 dotenv
 minicbor
 sea-orm-cli
+remove_dir_all
