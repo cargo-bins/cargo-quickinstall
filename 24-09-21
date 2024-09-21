@@ -60,3 +60,4 @@ oso
 rustrict
 rustfmt-nightly
 borsh
+ducc-sys
