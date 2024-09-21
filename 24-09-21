@@ -69,3 +69,4 @@ h3o
 remove_dir_all
 solana-remote-wallet
 sniffnet
+spider_worker
