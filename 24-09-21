@@ -37,3 +37,4 @@ unic-langid-impl
 addr2line
 cargo-lock
 benfred-read-process-memory
+remove_dir_all
