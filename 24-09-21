@@ -11,3 +11,4 @@ cached-path
 cargo-generate
 papyrus_storage
 solana-validator
+sha1collisiondetection
