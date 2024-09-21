@@ -91,3 +91,4 @@ foundationdb-gen
 borsh
 rustfmt-nightly
 human_bytes
+tendermint-abci
