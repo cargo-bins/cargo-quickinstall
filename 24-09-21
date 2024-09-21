@@ -29,3 +29,4 @@ cargo-lock
 arrow-flight
 rustbus
 dotenv
+winpty-rs
