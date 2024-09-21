@@ -38,3 +38,4 @@ rls-rustc
 schemafy
 diesel_cli
 nkeys
+sha1collisiondetection
