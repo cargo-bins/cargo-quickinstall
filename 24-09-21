@@ -42,3 +42,4 @@ re_query
 flowistry_ide
 tendermint-abci
 sha1collisiondetection
+dotenvy
