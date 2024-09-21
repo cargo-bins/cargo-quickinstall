@@ -12,3 +12,4 @@ unic-langid-impl
 dotenvy
 nu
 solana-gossip
+rustfmt-nightly
