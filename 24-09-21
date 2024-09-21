@@ -70,3 +70,4 @@ dotenv
 addr2line
 human_bytes
 dotenv
+rustrict
