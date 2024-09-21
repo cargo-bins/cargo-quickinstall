@@ -34,3 +34,4 @@ spider_worker
 addr2line
 cargo-pgrx
 codeberg-cli
+cargo-lock
