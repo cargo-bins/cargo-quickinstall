@@ -21,3 +21,4 @@ borsh
 pwasm-utils
 z3tracer
 laminar
+winpty-rs
