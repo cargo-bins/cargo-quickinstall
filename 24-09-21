@@ -27,3 +27,4 @@ solana-validator
 raw-cpuid
 human_name
 dotenv
+rustfmt-nightly
