@@ -46,3 +46,4 @@ solana-gossip
 oso
 sn_node
 paperclip
+cargo-local-registry
