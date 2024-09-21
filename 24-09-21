@@ -41,3 +41,4 @@ nkeys
 sha1collisiondetection
 pwasm-utils
 deno
+rustrict
