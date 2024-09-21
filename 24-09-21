@@ -33,3 +33,4 @@ cpp_demangle
 typst-cli
 httpmock
 tree-sitter-cli
+rioterm
