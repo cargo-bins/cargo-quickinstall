@@ -5,3 +5,4 @@ binstall
 gnostr-bins
 vrc-log
 ducc-sys
+addr2line
