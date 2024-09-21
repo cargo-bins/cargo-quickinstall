@@ -74,3 +74,4 @@ bgpkit-broker
 human_name
 inlyne
 bgpkit-broker
+socketcan
