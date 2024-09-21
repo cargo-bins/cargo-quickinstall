@@ -83,3 +83,4 @@ pwasm-utils
 re_query
 minicbor
 rrule
+nextest-filtering
