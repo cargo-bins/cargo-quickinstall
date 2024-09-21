@@ -6,3 +6,4 @@ opencv-binding-generator
 cpp_demangle
 java-locator
 solana-gossip
+raw-cpuid
