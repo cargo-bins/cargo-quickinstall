@@ -29,3 +29,4 @@ human_name
 dotenv
 rustfmt-nightly
 snarkvm
+tree-sitter-cli
