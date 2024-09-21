@@ -37,3 +37,4 @@ deploy
 rls-rustc
 schemafy
 diesel_cli
+nkeys
