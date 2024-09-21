@@ -38,3 +38,4 @@ winpty-rs
 arrow-flight
 laminar
 dotenvy
+httpmock
