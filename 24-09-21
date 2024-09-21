@@ -105,3 +105,4 @@ rustrict
 tendermint-rpc
 clippy
 socketcan
+nkeys
