@@ -18,3 +18,4 @@ raw-cpuid
 tendermint-abci
 rustfmt
 rls-rustc
+pwasm-utils
