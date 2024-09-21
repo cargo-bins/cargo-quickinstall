@@ -95,3 +95,4 @@ rkv
 solana-validator
 cached-path
 spider_worker
+opencv-binding-generator
