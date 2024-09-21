@@ -37,3 +37,4 @@ diesel_cli
 winpty-rs
 arrow-flight
 laminar
+dotenvy
