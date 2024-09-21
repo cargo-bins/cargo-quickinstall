@@ -24,3 +24,4 @@ foundationdb-gen
 addr2line
 nu
 solana-validator
+raw-cpuid
