@@ -98,3 +98,4 @@ spider_worker
 opencv-binding-generator
 wol-rs
 rls-rustc
+rkv
