@@ -30,3 +30,4 @@ socketcan
 syd
 wol-rs
 addr2line
+rkv
