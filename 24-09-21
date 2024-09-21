@@ -59,3 +59,4 @@ cargo-generate
 foundationdb-gen
 laminar
 cpp_demangle
+racer
