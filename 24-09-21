@@ -8,3 +8,4 @@ minicbor
 cargo-lock
 blissify
 addr2line
+sqruff
