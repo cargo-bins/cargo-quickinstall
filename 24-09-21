@@ -64,3 +64,4 @@ parquet
 laminar
 phf_generator
 tendermint-rpc
+cached-path
