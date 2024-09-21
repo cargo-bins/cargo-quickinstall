@@ -5,3 +5,4 @@ rustfmt-nightly
 wol-rs
 tree-sitter-graph
 parquet
+foundationdb-gen
