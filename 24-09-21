@@ -66,3 +66,4 @@ phf_generator
 tendermint-rpc
 cached-path
 tree-sitter-graph
+diesel_cli
