@@ -70,3 +70,4 @@ diesel_cli
 pwasm-utils
 tree-sitter-cli
 solana-validator
+remove_dir_all
