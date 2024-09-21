@@ -35,3 +35,4 @@ tree-sitter-graph
 phf_generator
 unic-langid-impl
 addr2line
+cargo-lock
