@@ -15,3 +15,4 @@ solana-gossip
 rustfmt-nightly
 snarkvm
 schemafy
+tendermint-abci
