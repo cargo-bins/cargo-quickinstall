@@ -48,3 +48,4 @@ borsh
 pwasm-utils
 wmi
 dotenv
+nexmark
