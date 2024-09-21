@@ -22,3 +22,4 @@ nexmark
 solana-gossip
 diesel_cli
 z3tracer
+rustfmt-nightly
