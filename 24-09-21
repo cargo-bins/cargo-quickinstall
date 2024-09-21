@@ -33,3 +33,4 @@ sea-orm-cli
 remove_dir_all
 minicbor
 human_bytes
+snarkvm
