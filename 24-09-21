@@ -81,3 +81,4 @@ schemafy
 human_bytes
 tree-sitter-cli
 tendermint-abci
+foundationdb-gen
