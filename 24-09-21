@@ -107,3 +107,4 @@ nkeys
 wol-rs
 rkv
 solana-remote-wallet
+tendermint-rpc
