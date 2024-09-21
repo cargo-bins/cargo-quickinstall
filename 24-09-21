@@ -105,3 +105,4 @@ sea-orm-cli
 minicbor
 socketcan
 opencv-binding-generator
+java-locator
