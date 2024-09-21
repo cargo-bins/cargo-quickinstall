@@ -85,3 +85,4 @@ foundationdb-gen
 wol-rs
 cached-path
 ducc-sys
+socketcan
