@@ -27,3 +27,4 @@ ducc-sys
 h3o
 borsh
 wol-rs
+dotenv
