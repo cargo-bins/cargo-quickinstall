@@ -64,3 +64,4 @@ binstall
 dotenvy
 mdbook-plantuml
 mdbook-plantuml
+hoard-rs
