@@ -48,3 +48,4 @@ zuse
 rustfmt-nightly
 deno
 solana-gossip
+minicbor
