@@ -10,3 +10,4 @@ z3tracer
 borsh
 wol-rs
 parquet
+phf_generator
