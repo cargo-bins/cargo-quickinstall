@@ -6,3 +6,4 @@ spider_worker
 oso
 human_bytes
 addr2line
+phf_generator
