@@ -81,3 +81,4 @@ nextest-filtering
 solana-gossip
 schemafy
 rkv
+sha1collisiondetection
