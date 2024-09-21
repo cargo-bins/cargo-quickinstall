@@ -36,3 +36,4 @@ wmi
 deploy
 rls-rustc
 schemafy
+diesel_cli
