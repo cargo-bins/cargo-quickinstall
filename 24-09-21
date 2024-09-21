@@ -73,3 +73,4 @@ solana-validator
 remove_dir_all
 dotenv
 cpp_demangle
+solana-remote-wallet
