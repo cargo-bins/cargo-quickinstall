@@ -43,3 +43,4 @@ rustrict
 parquet
 rls-rustc
 pwasm-utils
+nextest-filtering
