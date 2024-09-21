@@ -89,3 +89,4 @@ ducc-sys
 solana-gossip
 wol-rs
 nexmark
+phf_generator
