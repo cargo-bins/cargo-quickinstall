@@ -21,3 +21,4 @@ rls-rustc
 pwasm-utils
 cargo-local-registry
 textplots
+unic-langid-impl
