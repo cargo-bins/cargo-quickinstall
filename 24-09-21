@@ -13,3 +13,4 @@ tendermint-abci
 snarkvm
 phf_generator
 h3o
+rustfmt-nightly
