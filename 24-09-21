@@ -8,3 +8,4 @@ ducc-sys
 addr2line
 oxipng
 pwasm-utils
+cargo-whatfeatures
