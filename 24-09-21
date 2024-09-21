@@ -16,3 +16,4 @@ rustfmt-nightly
 snarkvm
 schemafy
 tendermint-abci
+cached-path
