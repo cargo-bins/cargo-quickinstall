@@ -57,3 +57,4 @@ dotenv
 socketcan
 laminar
 addr2line
+tendermint-abci
