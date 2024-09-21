@@ -12,3 +12,4 @@ phf_generator
 human_name
 addr2line
 borsh
+rls-rustc
