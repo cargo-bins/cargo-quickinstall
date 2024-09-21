@@ -102,3 +102,4 @@ laminar
 cpp_demangle
 tauri-cli
 sea-orm-cli
+minicbor
