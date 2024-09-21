@@ -58,3 +58,4 @@ sha1collisiondetection
 rrule
 oso
 rustrict
+rustfmt-nightly
