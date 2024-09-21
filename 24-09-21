@@ -66,3 +66,4 @@ dotenvy
 opencv-binding-generator
 pwasm-utils
 cpp_demangle
+dotenv
