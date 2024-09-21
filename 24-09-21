@@ -68,3 +68,4 @@ pwasm-utils
 cpp_demangle
 dotenv
 addr2line
+human_bytes
