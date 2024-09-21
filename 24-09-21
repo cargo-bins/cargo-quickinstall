@@ -106,3 +106,4 @@ minicbor
 socketcan
 opencv-binding-generator
 java-locator
+human_bytes
