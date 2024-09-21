@@ -19,3 +19,4 @@ tendermint-abci
 rustfmt
 rls-rustc
 pwasm-utils
+cargo-local-registry
