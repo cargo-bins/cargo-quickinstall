@@ -46,3 +46,4 @@ solana-remote-wallet
 cargo-generate
 human_bytes
 nkeys
+cpp_demangle
