@@ -50,3 +50,4 @@ deno
 solana-gossip
 minicbor
 opencv-binding-generator
+sha1collisiondetection
