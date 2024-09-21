@@ -101,3 +101,4 @@ nkeys
 laminar
 cpp_demangle
 tauri-cli
+sea-orm-cli
