@@ -61,3 +61,4 @@ rustrict
 rustfmt-nightly
 borsh
 ducc-sys
+phf_generator
