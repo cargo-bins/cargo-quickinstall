@@ -108,3 +108,4 @@ opencv-binding-generator
 java-locator
 human_bytes
 nextest-filtering
+winpty-rs
