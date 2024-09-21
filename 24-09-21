@@ -51,3 +51,4 @@ dotenv
 nexmark
 arrow-flight
 httpmock
+ducc-sys
