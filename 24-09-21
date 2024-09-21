@@ -11,3 +11,4 @@ borsh
 wol-rs
 parquet
 phf_generator
+re_query
