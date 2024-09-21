@@ -18,3 +18,4 @@ schemafy
 tendermint-abci
 cached-path
 borsh
+pwasm-utils
