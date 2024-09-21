@@ -44,3 +44,4 @@ tendermint-abci
 sha1collisiondetection
 dotenvy
 remove_dir_all
+socketcan
