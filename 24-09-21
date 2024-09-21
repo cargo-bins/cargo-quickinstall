@@ -77,3 +77,4 @@ bgpkit-broker
 socketcan
 re_query
 solana-genesis
+gpg-tui
