@@ -30,3 +30,4 @@ dotenv
 rustfmt-nightly
 snarkvm
 tree-sitter-cli
+arrow-flight
