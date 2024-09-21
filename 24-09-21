@@ -47,3 +47,4 @@ nextest-filtering
 addr2line
 h3o
 oso
+socketcan
