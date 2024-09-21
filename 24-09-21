@@ -95,3 +95,4 @@ arrow-flight
 wol-rs
 tendermint-abci
 nkeys
+human_bytes
