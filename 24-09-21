@@ -9,3 +9,4 @@ cargo-lock
 blissify
 addr2line
 sqruff
+speedtest-rs
