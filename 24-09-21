@@ -65,3 +65,4 @@ phf_generator
 laminar
 cargo-lock
 paperclip
+z3tracer
