@@ -11,3 +11,4 @@ schemafy
 protox
 tendermint-abci
 snarkvm
+phf_generator
