@@ -52,3 +52,4 @@ dotenv
 dotenv
 minicbor
 cargo-generate
+human_name
