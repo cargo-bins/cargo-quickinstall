@@ -19,3 +19,4 @@ binstall
 cargo-lock
 typst-cli
 ef
+solana-gossip
