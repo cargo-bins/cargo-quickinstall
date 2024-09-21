@@ -84,3 +84,4 @@ re_query
 minicbor
 rrule
 nextest-filtering
+socketcan
