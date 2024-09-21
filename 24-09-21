@@ -38,3 +38,4 @@ cargo-lock
 oso
 dotenvy
 rls-rustc
+qsv
