@@ -25,3 +25,4 @@ unic-langid-impl
 re_query
 cargo-local-registry
 racer
+httpbis
