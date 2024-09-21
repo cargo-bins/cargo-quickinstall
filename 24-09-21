@@ -87,3 +87,4 @@ nextest-filtering
 socketcan
 textplots
 spider_cli
+nexmark
