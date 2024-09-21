@@ -25,3 +25,4 @@ remove_dir_all
 socketcan
 human_name
 rustrict
+cargo-lock
