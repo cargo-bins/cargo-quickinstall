@@ -25,3 +25,4 @@ winpty-rs
 cpp_demangle
 ducc-sys
 h3o
+borsh
