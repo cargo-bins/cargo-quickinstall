@@ -64,3 +64,4 @@ opencv-binding-generator
 re_query
 dotenvy
 opencv-binding-generator
+pwasm-utils
