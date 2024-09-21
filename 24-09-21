@@ -86,3 +86,4 @@ nextest-filtering
 laminar
 winpty-rs
 ducc-sys
+solana-gossip
