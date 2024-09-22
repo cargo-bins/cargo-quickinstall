@@ -82,3 +82,4 @@ textplots
 wasm-bindgen-cli
 solana-gossip
 deploy
+wmi
