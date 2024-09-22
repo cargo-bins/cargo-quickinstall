@@ -42,3 +42,4 @@ nexmark
 cargo-msrv
 tendermint-rpc
 re_query
+solana-gossip
