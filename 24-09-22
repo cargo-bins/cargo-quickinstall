@@ -23,3 +23,4 @@ deploy
 racer
 cargo-generate
 solana-gossip
+java-locator
