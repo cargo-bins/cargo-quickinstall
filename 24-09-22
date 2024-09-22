@@ -80,3 +80,4 @@ clippy
 nu
 textplots
 wasm-bindgen-cli
+solana-gossip
