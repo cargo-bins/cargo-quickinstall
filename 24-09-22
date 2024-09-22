@@ -126,3 +126,4 @@ spider_cli
 nextest-filtering
 paperclip
 solana-gossip
+spider_worker
