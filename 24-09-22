@@ -33,3 +33,4 @@ rustfmt-nightly
 oso
 schemafy
 winpty-rs
+wmi
