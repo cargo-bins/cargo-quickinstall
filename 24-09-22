@@ -95,3 +95,4 @@ solana-validator
 inlyne
 nkeys
 cargo-public-api
+raw-cpuid
