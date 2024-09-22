@@ -77,3 +77,4 @@ rkv
 tokio-process
 deno
 textplots
+benfred-read-process-memory
