@@ -33,3 +33,4 @@ opencv-binding-generator
 minicbor
 tendermint-rpc
 rustfmt-nightly
+dotenv
