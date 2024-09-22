@@ -10,3 +10,4 @@ foundationdb-gen
 text-diff
 httpbis
 phf_generator
+tree-sitter-graph
