@@ -16,3 +16,4 @@ textplots
 foundationdb-gen
 httpmock
 cpp_demangle
+nexmark
