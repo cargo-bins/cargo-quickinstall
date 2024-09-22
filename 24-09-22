@@ -15,3 +15,4 @@ opencv-binding-generator
 solana-gossip
 raw-cpuid
 parquet
+pwasm-utils
