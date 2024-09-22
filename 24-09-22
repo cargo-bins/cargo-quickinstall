@@ -32,3 +32,4 @@ pwasm-utils
 arrow-flight
 sqlx-cli
 solana-gossip
+raw-cpuid
