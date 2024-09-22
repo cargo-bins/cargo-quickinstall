@@ -12,3 +12,4 @@ rg
 binstall
 remove_dir_all
 rioterm
+rencfs
