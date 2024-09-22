@@ -63,3 +63,4 @@ solana-remote-wallet
 cargo-lock
 sha1collisiondetection
 winpty-rs
+rkv
