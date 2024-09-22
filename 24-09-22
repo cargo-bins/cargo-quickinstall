@@ -67,3 +67,4 @@ foundationdb-gen
 paperclip
 re_query
 rustbus
+parquet
