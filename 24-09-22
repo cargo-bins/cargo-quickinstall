@@ -61,3 +61,4 @@ borsh
 raw-cpuid
 kanidm_tools
 sha1collisiondetection
+py-spy
