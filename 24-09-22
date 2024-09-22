@@ -76,3 +76,4 @@ phf_generator
 rkv
 tokio-process
 deno
+textplots
