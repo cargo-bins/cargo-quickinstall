@@ -50,3 +50,4 @@ deploy
 blissify
 solana-keygen
 tendermint-rpc
+solana-gossip
