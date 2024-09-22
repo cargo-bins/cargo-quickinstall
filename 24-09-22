@@ -95,3 +95,4 @@ clippy
 deploy
 spider_worker
 solana-gossip
+winpty-rs
