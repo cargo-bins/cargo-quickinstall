@@ -29,3 +29,4 @@ re_query
 blissify
 ducc-sys
 snarkvm
+rustfmt-nightly
