@@ -50,3 +50,4 @@ deploy
 httpmock
 opencv-binding-generator
 rrule
+phf_generator
