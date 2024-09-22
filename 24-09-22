@@ -17,3 +17,4 @@ racer
 tendermint-abci
 winpty-rs
 human_bytes
+tree-sitter-cli
