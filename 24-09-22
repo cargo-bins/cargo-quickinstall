@@ -45,3 +45,4 @@ nextest-filtering
 zuse
 re_query
 rkv
+dotenv
