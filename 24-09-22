@@ -20,3 +20,4 @@ syd
 diesel_cli
 rkv
 textplots
+cargo-lock
