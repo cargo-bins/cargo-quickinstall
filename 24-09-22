@@ -87,3 +87,4 @@ wol-rs
 human_bytes
 socketcan
 httpmock
+cargo-show
