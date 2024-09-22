@@ -3,3 +3,4 @@ rustrict
 wol-rs
 rls-rustc
 human_bytes
+dotenv
