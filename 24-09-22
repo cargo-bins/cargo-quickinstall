@@ -11,3 +11,4 @@ text-diff
 httpbis
 phf_generator
 tree-sitter-graph
+opencv-binding-generator
