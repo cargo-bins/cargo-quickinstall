@@ -10,3 +10,4 @@ socketcan
 tendermint-rpc
 addr2line
 tree-sitter-graph
+rrule
