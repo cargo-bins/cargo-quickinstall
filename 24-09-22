@@ -56,3 +56,4 @@ rrule
 librespot
 wol-rs
 raw-cpuid
+unic-langid-impl
