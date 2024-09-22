@@ -112,3 +112,4 @@ remove_dir_all
 paperclip
 foundationdb-gen
 dotenv
+solana-gossip
