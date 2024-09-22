@@ -99,3 +99,4 @@ human_name
 phf_generator
 deploy
 cached-path
+addr2line
