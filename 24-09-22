@@ -17,3 +17,4 @@ paperclip
 dotenv
 tendermint-rpc
 syd
+diesel_cli
