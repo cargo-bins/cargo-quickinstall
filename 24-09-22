@@ -70,3 +70,4 @@ asm-lsp
 duma
 codeberg-cli
 rg
+rustfmt-nightly
