@@ -74,3 +74,4 @@ textplots
 re_query
 solana-remote-wallet
 wmi
+httpmock
