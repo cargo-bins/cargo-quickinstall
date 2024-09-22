@@ -60,3 +60,4 @@ sea-orm-cli
 thoth
 rioterm
 remove_dir_all
+human_bytes
