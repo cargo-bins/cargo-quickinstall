@@ -21,3 +21,4 @@ zellij
 foundationdb-gen
 deploy
 racer
+cargo-generate
