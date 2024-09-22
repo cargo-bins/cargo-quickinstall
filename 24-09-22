@@ -104,3 +104,4 @@ sqlx-cli
 textplots
 winpty-rs
 httpmock
+sqlx-cli
