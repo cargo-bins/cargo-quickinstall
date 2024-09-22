@@ -14,3 +14,4 @@ spider_worker
 minicbor
 parquet
 racer
+tendermint-abci
