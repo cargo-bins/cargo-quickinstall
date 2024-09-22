@@ -120,3 +120,4 @@ tauri-cli
 zuse
 rls-rustc
 ducc-sys
+phf_generator
