@@ -31,3 +31,4 @@ rustrict
 pwasm-utils
 arrow-flight
 sqlx-cli
+solana-gossip
