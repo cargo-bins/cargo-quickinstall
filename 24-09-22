@@ -85,3 +85,4 @@ tendermint-rpc
 dotenvy
 syd
 sqlx-cli
+solana-gossip
