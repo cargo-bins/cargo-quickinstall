@@ -87,3 +87,4 @@ textplots
 tendermint-rpc
 diesel_cli
 tree-sitter-graph
+rustfmt-nightly
