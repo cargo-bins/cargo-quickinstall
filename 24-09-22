@@ -2,3 +2,4 @@ wmi
 oso
 remove_dir_all
 human_name
+raw-cpuid
