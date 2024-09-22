@@ -55,3 +55,4 @@ paperclip
 re_query
 foundationdb-gen
 parquet
+rls-rustc
