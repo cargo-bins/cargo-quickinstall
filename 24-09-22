@@ -111,3 +111,4 @@ tendermint-abci
 nexmark
 nextest-filtering
 z3tracer
+cached-path
