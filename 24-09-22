@@ -42,3 +42,4 @@ raw-cpuid
 rrule
 rustfmt-nightly
 httpmock
+syd
