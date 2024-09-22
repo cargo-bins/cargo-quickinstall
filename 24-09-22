@@ -37,3 +37,4 @@ snarkvm
 z3tracer
 rustrict
 foundationdb-gen
+rustfmt-nightly
