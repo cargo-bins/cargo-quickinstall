@@ -6,3 +6,4 @@ sqlx-cli
 omicron-zone-package
 java-locator
 nextest-filtering
+foundationdb-gen
