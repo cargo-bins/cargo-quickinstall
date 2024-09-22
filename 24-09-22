@@ -61,3 +61,4 @@ re_query
 laminar
 solana-remote-wallet
 cargo-lock
+sha1collisiondetection
