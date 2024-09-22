@@ -50,3 +50,4 @@ z3tracer
 remove_dir_all
 spider_worker
 dotenvy
+cached-path
