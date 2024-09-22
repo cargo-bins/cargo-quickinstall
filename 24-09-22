@@ -2,3 +2,4 @@ foundationdb-gen
 oso
 remove_dir_all
 phf_generator
+nkeys
