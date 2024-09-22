@@ -12,3 +12,4 @@ foundationdb-gen
 tendermint-abci
 minicbor
 borsh
+paperclip
