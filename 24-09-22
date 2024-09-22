@@ -91,3 +91,4 @@ rustfmt-nightly
 unic-langid-impl
 deploy
 tendermint-rpc
+h3o
