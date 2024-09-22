@@ -9,3 +9,4 @@ solana-keygen
 nextest-filtering
 solana-remote-wallet
 paperclip
+rustfmt-nightly
