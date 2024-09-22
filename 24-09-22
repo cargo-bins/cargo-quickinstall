@@ -65,3 +65,4 @@ laminar
 re_query
 nu
 cargo-local-registry
+wmi
