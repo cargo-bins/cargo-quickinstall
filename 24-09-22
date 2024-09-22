@@ -46,3 +46,4 @@ tendermint-rpc
 tendermint-abci
 arrow-flight
 human_bytes
+deploy
