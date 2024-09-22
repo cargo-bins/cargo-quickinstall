@@ -78,3 +78,4 @@ cpp_demangle
 paperclip
 eureka
 hurlfmt
+rustfmt-nightly
