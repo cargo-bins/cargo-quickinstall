@@ -69,3 +69,4 @@ papyrus_storage
 coldsnap
 laminar
 socketcan
+remove_dir_all
