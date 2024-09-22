@@ -80,3 +80,4 @@ eureka
 hurlfmt
 rustfmt-nightly
 qrtool
+sqruff
