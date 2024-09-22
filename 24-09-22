@@ -6,3 +6,4 @@ cargo-show
 nkeys
 h3o
 solana-keygen
+nextest-filtering
