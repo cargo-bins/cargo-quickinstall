@@ -92,3 +92,4 @@ py-spy
 solana-validator
 rustbus
 pwasm-utils
+ec2_instance_metadata
