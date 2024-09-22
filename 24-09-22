@@ -46,3 +46,4 @@ syd
 unic-langid-impl
 rustfmt-nightly
 nextest-filtering
+rustrict
