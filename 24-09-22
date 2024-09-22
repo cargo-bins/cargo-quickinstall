@@ -41,3 +41,4 @@ rustfmt-nightly
 papyrus_storage
 wol-rs
 tree-sitter-graph
+nextest-filtering
