@@ -92,3 +92,4 @@ unic-langid-impl
 deploy
 tendermint-rpc
 h3o
+sea-orm-cli
