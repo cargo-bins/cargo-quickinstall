@@ -36,3 +36,4 @@ re_query
 tree-sitter-graph
 parquet
 solana-validator
+winpty-rs
