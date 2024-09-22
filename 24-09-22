@@ -102,3 +102,4 @@ minicbor
 kanidm_tools
 deploy
 elf2uf2-rs
+rls-rustc
