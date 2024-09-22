@@ -42,3 +42,4 @@ httpmock
 oso
 java-locator
 diesel_cli
+tendermint-rpc
