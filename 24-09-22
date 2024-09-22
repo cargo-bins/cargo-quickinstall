@@ -70,3 +70,4 @@ rustbus
 parquet
 h3o
 nextest-filtering
+arrow-flight
