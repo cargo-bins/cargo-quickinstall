@@ -27,3 +27,4 @@ rustfmt-nightly
 re_query
 sha1collisiondetection
 cargo-vet
+schemafy
