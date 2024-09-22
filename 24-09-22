@@ -69,3 +69,4 @@ foundationdb-gen
 tree-sitter-graph
 re_query
 opencv-binding-generator
+rustfmt-nightly
