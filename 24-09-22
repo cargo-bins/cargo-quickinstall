@@ -57,3 +57,4 @@ laminar
 socketcan
 human_name
 raw-cpuid
+foundationdb-gen
