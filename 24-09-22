@@ -89,3 +89,4 @@ diesel_cli
 tree-sitter-graph
 rustfmt-nightly
 unic-langid-impl
+deploy
