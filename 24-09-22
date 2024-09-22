@@ -12,3 +12,4 @@ httpbis
 phf_generator
 tree-sitter-graph
 opencv-binding-generator
+solana-gossip
