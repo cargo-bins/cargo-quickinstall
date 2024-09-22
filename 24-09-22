@@ -39,3 +39,4 @@ trunk
 solana-validator
 rls-rustc
 nexmark
+cargo-msrv
