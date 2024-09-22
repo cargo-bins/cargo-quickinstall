@@ -56,3 +56,4 @@ re_query
 foundationdb-gen
 parquet
 rls-rustc
+tree-sitter-graph
