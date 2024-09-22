@@ -79,3 +79,4 @@ solana-remote-wallet
 schemafy
 rustrict
 remove_dir_all
+sha1collisiondetection
