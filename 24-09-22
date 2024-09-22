@@ -28,3 +28,4 @@ borsh
 solana-keygen
 tree-sitter-graph
 rustrict
+pwasm-utils
