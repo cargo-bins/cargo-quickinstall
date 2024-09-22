@@ -45,3 +45,4 @@ protox
 snarkvm
 dotenv
 parquet
+diesel_cli
