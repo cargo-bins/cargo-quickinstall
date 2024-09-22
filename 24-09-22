@@ -10,3 +10,4 @@ nextest-filtering
 solana-remote-wallet
 paperclip
 rustfmt-nightly
+z3tracer
