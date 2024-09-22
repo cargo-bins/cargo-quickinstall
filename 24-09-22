@@ -16,3 +16,4 @@ solana-gossip
 raw-cpuid
 parquet
 pwasm-utils
+benfred-read-process-memory
