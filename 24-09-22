@@ -72,3 +72,4 @@ socketcan
 remove_dir_all
 text-diff
 opencv-binding-generator
+phf_generator
