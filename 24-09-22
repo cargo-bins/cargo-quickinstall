@@ -25,3 +25,4 @@ diesel_cli
 httpmock
 sqlx-cli
 wmi
+sea-orm-cli
