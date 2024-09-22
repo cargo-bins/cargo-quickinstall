@@ -31,3 +31,4 @@ nkeys
 flowistry_ide
 opencv-binding-generator
 minicbor
+tendermint-rpc
