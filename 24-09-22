@@ -38,3 +38,4 @@ text-diff
 rustfmt-nightly
 rkv
 sn_cli
+coldsnap
