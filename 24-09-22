@@ -6,3 +6,4 @@ zellij
 dotenv
 monolith
 cached-path
+socketcan
