@@ -43,3 +43,4 @@ cargo-msrv
 tendermint-rpc
 re_query
 solana-gossip
+tendermint-rpc
