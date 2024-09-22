@@ -89,3 +89,4 @@ socketcan
 httpmock
 cargo-show
 gnostr-bins
+asm-lsp
