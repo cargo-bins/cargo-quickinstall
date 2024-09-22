@@ -125,3 +125,4 @@ parquet
 spider_cli
 nextest-filtering
 paperclip
+solana-gossip
