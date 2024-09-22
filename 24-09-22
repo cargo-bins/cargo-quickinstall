@@ -87,3 +87,4 @@ re_query
 opencv-binding-generator
 rkv
 phf_generator
+raw-cpuid
