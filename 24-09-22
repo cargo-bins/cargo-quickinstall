@@ -16,3 +16,4 @@ schemafy
 dotenv
 winpty-rs
 nu
+wmi
