@@ -37,3 +37,4 @@ wmi
 tectonic
 bgpkit-broker
 spider_worker
+remove_dir_all
