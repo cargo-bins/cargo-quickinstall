@@ -66,3 +66,4 @@ winpty-rs
 cargo-lock
 oso
 deploy
+rls-rustc
