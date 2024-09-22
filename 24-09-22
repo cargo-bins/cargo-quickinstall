@@ -57,3 +57,4 @@ foundationdb-gen
 parquet
 rls-rustc
 tree-sitter-graph
+oso
