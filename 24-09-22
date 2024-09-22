@@ -99,3 +99,4 @@ winpty-rs
 rls-rustc
 syd
 socketcan
+z3tracer
