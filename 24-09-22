@@ -11,3 +11,4 @@ radio-sx128x
 foundationdb-gen
 tendermint-abci
 minicbor
+borsh
