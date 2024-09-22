@@ -77,3 +77,4 @@ probe-rs-tools
 ruff
 typst-cli
 tree-sitter-graph
+cargo-show
