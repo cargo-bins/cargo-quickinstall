@@ -100,3 +100,4 @@ tendermint-rpc
 sea-orm-cli
 dotenv
 librespot
+borsh
