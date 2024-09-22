@@ -85,3 +85,4 @@ deploy
 wmi
 textplots
 tendermint-rpc
+diesel_cli
