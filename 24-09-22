@@ -13,3 +13,4 @@ tendermint-abci
 minicbor
 borsh
 paperclip
+rls-rustc
