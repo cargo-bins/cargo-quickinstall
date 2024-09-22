@@ -78,3 +78,4 @@ spider_worker
 solana-remote-wallet
 schemafy
 rustrict
+remove_dir_all
