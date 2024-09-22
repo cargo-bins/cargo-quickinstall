@@ -18,3 +18,4 @@ tendermint-abci
 winpty-rs
 human_bytes
 tree-sitter-cli
+solana-keygen
