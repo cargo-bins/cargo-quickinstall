@@ -10,3 +10,4 @@ tendermint-abci
 librespot
 tauri-cli
 solana-validator
+socketcan
