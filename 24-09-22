@@ -100,3 +100,4 @@ phf_generator
 deploy
 cached-path
 addr2line
+human_name
