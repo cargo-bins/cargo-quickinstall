@@ -48,3 +48,4 @@ unic-langid-impl
 rencfs
 addr2line
 cargo-spellcheck
+probe-rs-tools
