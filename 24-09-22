@@ -93,3 +93,4 @@ solana-validator
 httpmock
 oso
 sea-orm-cli
+spider_worker
