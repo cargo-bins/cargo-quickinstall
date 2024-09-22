@@ -52,3 +52,4 @@ laminar
 spider_cli
 rls-rustc
 opencv-binding-generator
+tree-sitter-graph
