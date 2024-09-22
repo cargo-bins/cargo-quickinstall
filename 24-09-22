@@ -5,3 +5,4 @@ phf_generator
 nkeys
 dotenv
 wol-rs
+rkv
