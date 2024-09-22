@@ -25,3 +25,4 @@ solana-validator
 oso
 rustfmt-nightly
 java-locator
+diesel_cli
