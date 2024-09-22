@@ -20,3 +20,4 @@ sha1collisiondetection
 foundationdb-gen
 hurl
 nextest-filtering
+phf_generator
