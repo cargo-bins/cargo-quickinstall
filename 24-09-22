@@ -91,3 +91,4 @@ cargo-show
 gnostr-bins
 asm-lsp
 spider_worker
+solana-remote-wallet
