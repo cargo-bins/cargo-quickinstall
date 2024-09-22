@@ -49,3 +49,4 @@ dotenv
 deploy
 raw-cpuid
 wasm-bindgen-cli
+wmi
