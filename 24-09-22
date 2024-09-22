@@ -62,3 +62,4 @@ wol-rs
 wmi
 syd
 schemafy
+httpmock
