@@ -45,3 +45,4 @@ diesel_cli
 tendermint-rpc
 tendermint-abci
 arrow-flight
+human_bytes
