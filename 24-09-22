@@ -60,3 +60,4 @@ raw-cpuid
 foundationdb-gen
 textplots
 cpp_demangle
+human_name
