@@ -11,3 +11,4 @@ dotenvy
 sea-orm-cli
 socketcan
 spider_worker
+minicbor
