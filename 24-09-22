@@ -52,3 +52,4 @@ opencv-binding-generator
 rrule
 phf_generator
 rkv
+tree-sitter-graph
