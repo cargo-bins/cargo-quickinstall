@@ -35,3 +35,4 @@ httpmock
 rustbus
 papyrus_storage
 text-diff
+rustfmt-nightly
