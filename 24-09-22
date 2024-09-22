@@ -40,3 +40,4 @@ tree-sitter-cli
 minicbor
 clippy
 re_query
+sha1collisiondetection
