@@ -12,3 +12,4 @@ cargo-graph
 pwasm-utils
 solana-validator
 deploy
+arrow-flight
