@@ -21,3 +21,4 @@ tree-sitter-cli
 solana-keygen
 opencv-binding-generator
 tree-sitter-graph
+phf_generator
