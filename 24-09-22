@@ -40,3 +40,4 @@ winpty-rs
 textplots
 raw-cpuid
 rrule
+rustfmt-nightly
