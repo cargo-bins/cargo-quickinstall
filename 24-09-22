@@ -98,3 +98,4 @@ cargo-public-api
 raw-cpuid
 clippy
 rav1e
+minicbor
