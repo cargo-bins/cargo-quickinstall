@@ -92,3 +92,4 @@ addr2line
 solana-validator
 httpmock
 oso
+sea-orm-cli
