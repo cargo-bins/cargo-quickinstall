@@ -68,3 +68,4 @@ cargo-local-registry
 wmi
 winpty-rs
 nu
+java-locator
