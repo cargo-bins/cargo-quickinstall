@@ -18,3 +18,4 @@ dotenvy
 cargo-whatfeatures
 spider_worker
 snarkvm
+cargo-msrv
