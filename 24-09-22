@@ -82,3 +82,4 @@ pwasm-utils
 spider_worker
 z3tracer
 tendermint-rpc
+dotenvy
