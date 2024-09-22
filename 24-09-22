@@ -33,3 +33,4 @@ oso
 tendermint-rpc
 httpmock
 rustbus
+papyrus_storage
