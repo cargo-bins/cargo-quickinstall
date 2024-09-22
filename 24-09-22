@@ -52,3 +52,4 @@ spider_worker
 dotenvy
 cached-path
 dotenv
+foundationdb-gen
