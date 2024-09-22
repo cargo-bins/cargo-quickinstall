@@ -21,3 +21,4 @@ diesel_cli
 rkv
 textplots
 cargo-lock
+solana-validator
