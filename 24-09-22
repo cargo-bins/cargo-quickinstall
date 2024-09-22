@@ -66,3 +66,4 @@ winpty-rs
 rkv
 deno
 foundationdb-gen
+tree-sitter-graph
