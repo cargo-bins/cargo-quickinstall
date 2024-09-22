@@ -102,3 +102,4 @@ tokio-process
 ec2_instance_metadata
 sqlx-cli
 textplots
+winpty-rs
