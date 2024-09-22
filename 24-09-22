@@ -71,3 +71,4 @@ re_query
 opencv-binding-generator
 rustfmt-nightly
 wol-rs
+oso
