@@ -51,3 +51,4 @@ protox
 cargo-lock
 nkeys
 unic-langid-impl
+human_bytes
