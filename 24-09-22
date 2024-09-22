@@ -47,3 +47,4 @@ tendermint-rpc
 pwasm-utils
 sha1collisiondetection
 java-locator
+sea-orm-cli
