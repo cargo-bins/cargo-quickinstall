@@ -95,3 +95,4 @@ h3o
 sea-orm-cli
 nexmark
 minicbor
+remove_dir_all
