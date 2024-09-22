@@ -18,3 +18,4 @@ winpty-rs
 nu
 wmi
 opencv-binding-generator
+minicbor
