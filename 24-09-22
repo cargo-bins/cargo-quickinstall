@@ -84,3 +84,4 @@ cpp_demangle
 oso
 textplots
 rrule
+tree-sitter-cli
