@@ -49,3 +49,4 @@ winpty-rs
 deploy
 blissify
 solana-keygen
+tendermint-rpc
