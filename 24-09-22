@@ -48,3 +48,4 @@ rkv
 dotenv
 deploy
 raw-cpuid
+wasm-bindgen-cli
