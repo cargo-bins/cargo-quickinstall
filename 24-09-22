@@ -19,3 +19,4 @@ cpp_demangle
 nexmark
 tendermint-abci
 sea-orm-cli
+oso
