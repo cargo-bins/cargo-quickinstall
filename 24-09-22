@@ -109,3 +109,4 @@ sqlx-cli
 librespot
 tendermint-abci
 nexmark
+nextest-filtering
