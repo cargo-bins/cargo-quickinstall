@@ -34,3 +34,4 @@ snarkvm
 rustrict
 winpty-rs
 textplots
+raw-cpuid
