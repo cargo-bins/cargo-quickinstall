@@ -90,3 +90,4 @@ phf_generator
 raw-cpuid
 h3o
 oxipng
+remove_dir_all
