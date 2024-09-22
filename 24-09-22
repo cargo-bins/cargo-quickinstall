@@ -46,3 +46,4 @@ solana-gossip
 tendermint-rpc
 pwasm-utils
 sha1collisiondetection
+java-locator
