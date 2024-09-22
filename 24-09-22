@@ -8,3 +8,4 @@ wol-rs
 rkv
 minicbor
 rrule
+cargo-graph
