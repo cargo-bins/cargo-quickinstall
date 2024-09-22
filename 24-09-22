@@ -34,3 +34,4 @@ sqlx-cli
 solana-gossip
 raw-cpuid
 snarkvm
+z3tracer
