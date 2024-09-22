@@ -39,3 +39,4 @@ rustfmt-nightly
 rkv
 sn_cli
 coldsnap
+socketcan
