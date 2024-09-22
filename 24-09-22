@@ -86,3 +86,4 @@ solana-validator
 re_query
 opencv-binding-generator
 rkv
+phf_generator
