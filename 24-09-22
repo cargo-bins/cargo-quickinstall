@@ -50,3 +50,4 @@ addr2line
 cargo-spellcheck
 probe-rs-tools
 rkv
+re_query
