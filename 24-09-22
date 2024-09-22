@@ -43,3 +43,4 @@ socketcan
 addr2line
 paperclip
 rls-rustc
+java-locator
