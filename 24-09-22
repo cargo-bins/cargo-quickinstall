@@ -50,3 +50,4 @@ java-locator
 sea-orm-cli
 racer
 protox
+addr2line
