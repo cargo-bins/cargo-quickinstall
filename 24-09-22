@@ -9,3 +9,4 @@ nextest-filtering
 foundationdb-gen
 text-diff
 httpbis
+phf_generator
