@@ -24,3 +24,4 @@ phf_generator
 solana-validator
 remove_dir_all
 remove_dir_all
+nextest-filtering
