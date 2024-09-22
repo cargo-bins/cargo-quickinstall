@@ -41,3 +41,4 @@ textplots
 raw-cpuid
 rrule
 rustfmt-nightly
+httpmock
