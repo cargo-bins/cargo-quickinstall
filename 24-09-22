@@ -27,3 +27,4 @@ remove_dir_all
 nextest-filtering
 addr2line
 deploy
+nkeys
