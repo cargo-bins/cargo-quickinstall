@@ -10,3 +10,4 @@ rustfmt-nightly
 dotenvy
 sea-orm-cli
 socketcan
+spider_worker
