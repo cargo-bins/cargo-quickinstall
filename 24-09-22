@@ -7,3 +7,4 @@ dotenv
 monolith
 cached-path
 socketcan
+tendermint-rpc
