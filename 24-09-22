@@ -39,3 +39,4 @@ cargo-generate
 tendermint-abci
 z3tracer
 cpp_demangle
+parquet
