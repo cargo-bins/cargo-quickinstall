@@ -8,3 +8,4 @@ tendermint-rpc
 solana-validator
 rustfmt-nightly
 dotenvy
+sea-orm-cli
