@@ -5,3 +5,4 @@ laminar
 diesel_cli
 socketcan
 re_query
+racer
