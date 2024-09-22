@@ -32,3 +32,4 @@ socketcan
 turbocommit
 snarkvm
 rustrict
+winpty-rs
