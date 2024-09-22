@@ -27,3 +27,4 @@ rustfmt-nightly
 java-locator
 diesel_cli
 tree-sitter-graph
+dotenvy
