@@ -68,3 +68,4 @@ oso
 deploy
 rls-rustc
 nextest-filtering
+sha1collisiondetection
