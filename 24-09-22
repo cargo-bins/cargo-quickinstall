@@ -67,3 +67,4 @@ rls-rustc
 sea-orm-cli
 nu
 py-spy
+schemafy
