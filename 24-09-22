@@ -4,3 +4,4 @@ rls-rustc
 winpty-rs
 unic-langid-impl
 dotenvy
+racer
