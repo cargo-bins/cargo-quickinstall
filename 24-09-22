@@ -48,3 +48,4 @@ rustfmt-nightly
 nextest-filtering
 rustrict
 protox
+cargo-lock
