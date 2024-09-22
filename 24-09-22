@@ -8,3 +8,4 @@ phf_generator
 rav1e
 bgpkit-parser
 sha1collisiondetection
+wol-rs
