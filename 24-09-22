@@ -85,3 +85,4 @@ schemafy
 deploy
 foundationdb-gen
 remove_dir_all
+tendermint-abci
