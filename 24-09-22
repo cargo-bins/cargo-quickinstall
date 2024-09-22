@@ -25,3 +25,4 @@ rls-rustc
 clippy
 tree-sitter-graph
 dotenv
+protox
