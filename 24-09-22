@@ -88,3 +88,4 @@ human_bytes
 socketcan
 httpmock
 cargo-show
+gnostr-bins
