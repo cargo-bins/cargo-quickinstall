@@ -68,3 +68,4 @@ oxipng
 remove_dir_all
 trunk
 tree-sitter-graph
+deno
