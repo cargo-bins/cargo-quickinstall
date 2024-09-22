@@ -94,3 +94,4 @@ httpmock
 oso
 sea-orm-cli
 spider_worker
+sha1collisiondetection
