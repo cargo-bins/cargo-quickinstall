@@ -38,3 +38,4 @@ borsh
 ducc-sys
 tree-sitter-cli
 minicbor
+clippy
