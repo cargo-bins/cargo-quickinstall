@@ -45,3 +45,4 @@ yofi
 sha1collisiondetection
 clippy
 inlyne
+winpty-rs
