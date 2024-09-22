@@ -104,3 +104,4 @@ deno
 tree-sitter-graph
 nkeys
 httpmock
+socketcan
