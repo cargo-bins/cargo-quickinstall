@@ -94,3 +94,4 @@ tendermint-rpc
 h3o
 sea-orm-cli
 nexmark
+minicbor
