@@ -43,3 +43,4 @@ oso
 java-locator
 diesel_cli
 tendermint-rpc
+tendermint-abci
