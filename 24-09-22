@@ -53,3 +53,4 @@ tendermint-rpc
 solana-gossip
 eureka
 rkv
+mdbook-plantuml
