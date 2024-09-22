@@ -80,3 +80,4 @@ textplots
 benfred-read-process-memory
 httpmock
 oso
+winpty-rs
