@@ -7,3 +7,4 @@ papyrus_storage
 tendermint-rpc
 solana-validator
 rustfmt-nightly
+dotenvy
