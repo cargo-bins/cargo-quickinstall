@@ -40,3 +40,4 @@ solana-validator
 rls-rustc
 nexmark
 cargo-msrv
+tendermint-rpc
