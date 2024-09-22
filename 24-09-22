@@ -47,3 +47,4 @@ raw-cpuid
 unic-langid-impl
 rencfs
 addr2line
+cargo-spellcheck
