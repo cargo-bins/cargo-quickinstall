@@ -86,3 +86,4 @@ cargo-whatfeatures
 wol-rs
 human_bytes
 socketcan
+httpmock
