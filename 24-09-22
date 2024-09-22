@@ -66,3 +66,4 @@ re_query
 nu
 cargo-local-registry
 wmi
+winpty-rs
