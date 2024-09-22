@@ -36,3 +36,4 @@ rustfmt-nightly
 dotenv
 radio-sx128x
 tree-sitter-graph
+sequoia-chameleon-gnupg
