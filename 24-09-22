@@ -39,3 +39,4 @@ zuse
 textplots
 cached-path
 raw-cpuid
+dotenv
