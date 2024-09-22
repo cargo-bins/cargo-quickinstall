@@ -60,3 +60,4 @@ unic-langid-impl
 sqlx-cli
 zuse
 rustfmt-nightly
+starship
