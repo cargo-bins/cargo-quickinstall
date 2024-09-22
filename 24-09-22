@@ -36,3 +36,4 @@ winpty-rs
 wmi
 tectonic
 bgpkit-broker
+spider_worker
