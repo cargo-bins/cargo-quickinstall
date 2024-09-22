@@ -19,3 +19,4 @@ nexmark
 sha1collisiondetection
 foundationdb-gen
 hurl
+nextest-filtering
