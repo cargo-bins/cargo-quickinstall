@@ -99,3 +99,4 @@ sn_cli
 rrule
 socketcan
 tokio-process
+ec2_instance_metadata
