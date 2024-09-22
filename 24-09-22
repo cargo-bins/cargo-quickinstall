@@ -3,3 +3,4 @@ elf2uf2-rs
 nextest-filtering
 opencv-binding-generator
 laminar
+remove_dir_all
