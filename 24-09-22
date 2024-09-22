@@ -67,3 +67,4 @@ cargo-lock
 oso
 deploy
 rls-rustc
+nextest-filtering
