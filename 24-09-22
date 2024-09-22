@@ -106,3 +106,4 @@ winpty-rs
 httpmock
 sqlx-cli
 textplots
+foundationdb-gen
