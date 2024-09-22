@@ -9,3 +9,4 @@ solana-validator
 rustfmt-nightly
 dotenvy
 sea-orm-cli
+socketcan
