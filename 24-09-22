@@ -66,3 +66,4 @@ hoard-rs
 cpp_demangle
 parquet
 archwiki-rs
+arrow-flight
