@@ -14,3 +14,4 @@ remove_dir_all
 rioterm
 rencfs
 z3tracer
+tendermint-rpc
