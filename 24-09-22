@@ -108,3 +108,4 @@ sqlx-cli
 textplots
 foundationdb-gen
 syd
+remove_dir_all
