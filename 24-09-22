@@ -57,3 +57,4 @@ tree-sitter-graph
 winpty-rs
 textplots
 deno
+human_bytes
