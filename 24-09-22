@@ -98,3 +98,4 @@ clippy
 sn_cli
 rrule
 socketcan
+tokio-process
