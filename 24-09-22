@@ -30,3 +30,4 @@ phf_generator
 httpmock
 pwasm-utils
 deno
+solana-validator
