@@ -47,3 +47,4 @@ re_query
 rkv
 dotenv
 deploy
+raw-cpuid
