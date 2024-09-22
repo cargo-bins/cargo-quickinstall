@@ -31,3 +31,4 @@ ducc-sys
 snarkvm
 rustfmt-nightly
 oso
+schemafy
