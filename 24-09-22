@@ -38,3 +38,4 @@ tectonic
 bgpkit-broker
 spider_worker
 remove_dir_all
+cargo-public-api
