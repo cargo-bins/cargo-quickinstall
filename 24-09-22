@@ -61,3 +61,4 @@ sqlx-cli
 zuse
 rustfmt-nightly
 starship
+laminar
