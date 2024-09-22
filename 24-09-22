@@ -84,3 +84,4 @@ phf_generator
 arrow-flight
 solana-validator
 re_query
+opencv-binding-generator
