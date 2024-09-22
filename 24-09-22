@@ -73,3 +73,4 @@ rg
 rustfmt-nightly
 solana-remote-wallet
 cached-path
+borsh
