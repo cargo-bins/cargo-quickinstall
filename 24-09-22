@@ -118,3 +118,4 @@ syd
 nextest-filtering
 tauri-cli
 zuse
+rls-rustc
