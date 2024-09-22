@@ -36,3 +36,4 @@ wol-rs
 dotenvy
 cached-path
 cargo-generate
+tendermint-abci
