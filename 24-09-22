@@ -37,3 +37,4 @@ textplots
 raw-cpuid
 trunk
 solana-validator
+rls-rustc
