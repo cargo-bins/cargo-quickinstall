@@ -12,3 +12,4 @@ tauri-cli
 solana-validator
 socketcan
 textplots
+opencv-binding-generator
