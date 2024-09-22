@@ -43,3 +43,4 @@ borsh
 spotify_player
 vrc-log
 cargo-espflash
+raw-cpuid
