@@ -98,3 +98,4 @@ solana-gossip
 winpty-rs
 rls-rustc
 syd
+socketcan
