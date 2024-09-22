@@ -94,3 +94,4 @@ remove_dir_all
 clippy
 deploy
 spider_worker
+solana-gossip
