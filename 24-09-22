@@ -29,3 +29,4 @@ addr2line
 deploy
 nkeys
 flowistry_ide
+opencv-binding-generator
