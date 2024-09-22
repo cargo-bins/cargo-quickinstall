@@ -28,3 +28,4 @@ wmi
 sea-orm-cli
 phf_generator
 httpmock
+pwasm-utils
