@@ -44,3 +44,4 @@ tendermint-rpc
 re_query
 solana-gossip
 tendermint-rpc
+pwasm-utils
