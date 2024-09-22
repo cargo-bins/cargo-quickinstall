@@ -60,3 +60,4 @@ nexmark
 re_query
 laminar
 solana-remote-wallet
+cargo-lock
