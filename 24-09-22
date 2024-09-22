@@ -16,3 +16,4 @@ paperclip
 rls-rustc
 arrow-flight
 nexmark
+sha1collisiondetection
