@@ -53,3 +53,4 @@ laminar
 nextest-filtering
 diesel_cli
 re_query
+deploy
