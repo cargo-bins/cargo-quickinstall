@@ -18,3 +18,4 @@ tendermint-rpc
 arrow-flight
 cargo-spellcheck
 schemafy
+mdcat
