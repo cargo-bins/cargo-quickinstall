@@ -32,3 +32,4 @@ honggfuzz
 oso
 tendermint-rpc
 httpmock
+rustbus
