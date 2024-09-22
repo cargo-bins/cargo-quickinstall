@@ -44,3 +44,4 @@ java-locator
 diesel_cli
 tendermint-rpc
 tendermint-abci
+arrow-flight
