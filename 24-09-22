@@ -46,3 +46,4 @@ cargo-espflash
 raw-cpuid
 unic-langid-impl
 rencfs
+addr2line
