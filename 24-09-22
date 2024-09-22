@@ -64,3 +64,4 @@ human_name
 human_bytes
 winpty-rs
 cargo-lock
+oso
