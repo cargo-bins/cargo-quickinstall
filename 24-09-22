@@ -19,3 +19,4 @@ winpty-rs
 human_bytes
 tree-sitter-cli
 solana-keygen
+opencv-binding-generator
