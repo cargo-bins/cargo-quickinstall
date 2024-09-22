@@ -78,3 +78,4 @@ ruff
 typst-cli
 tree-sitter-graph
 cargo-show
+rkv
