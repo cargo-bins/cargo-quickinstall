@@ -35,3 +35,4 @@ protox
 wol-rs
 dotenvy
 cached-path
+cargo-generate
