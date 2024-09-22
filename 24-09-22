@@ -122,3 +122,4 @@ rls-rustc
 ducc-sys
 phf_generator
 parquet
+spider_cli
