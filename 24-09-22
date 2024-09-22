@@ -26,3 +26,4 @@ solana-gossip
 java-locator
 rrule
 addr2line
+human_bytes
