@@ -30,3 +30,4 @@ cargo-vet
 schemafy
 honggfuzz
 oso
+tendermint-rpc
