@@ -69,3 +69,4 @@ remove_dir_all
 trunk
 tree-sitter-graph
 deno
+z3tracer
