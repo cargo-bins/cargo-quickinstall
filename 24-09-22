@@ -97,3 +97,4 @@ spider_worker
 solana-gossip
 winpty-rs
 rls-rustc
+syd
