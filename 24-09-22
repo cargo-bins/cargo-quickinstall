@@ -22,3 +22,4 @@ sea-orm-cli
 oso
 rrule
 rls-rustc
+clippy
