@@ -34,3 +34,4 @@ tendermint-rpc
 httpmock
 rustbus
 papyrus_storage
+text-diff
