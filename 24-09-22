@@ -61,3 +61,4 @@ thoth
 rioterm
 remove_dir_all
 human_bytes
+sha1collisiondetection
