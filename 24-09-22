@@ -55,3 +55,4 @@ dotenv
 foundationdb-gen
 paperclip
 rustrict
+pwasm-utils
