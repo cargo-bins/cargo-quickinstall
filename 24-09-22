@@ -58,3 +58,4 @@ wol-rs
 raw-cpuid
 unic-langid-impl
 sqlx-cli
+zuse
