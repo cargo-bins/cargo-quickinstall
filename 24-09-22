@@ -95,3 +95,4 @@ pwasm-utils
 ec2_instance_metadata
 paperclip
 clippy
+sn_cli
