@@ -41,3 +41,4 @@ remove_dir_all
 cargo-public-api
 borsh
 spotify_player
+vrc-log
