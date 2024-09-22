@@ -74,3 +74,4 @@ text-diff
 opencv-binding-generator
 phf_generator
 rkv
+tokio-process
