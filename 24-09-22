@@ -42,3 +42,4 @@ coldsnap
 socketcan
 addr2line
 paperclip
+rls-rustc
