@@ -79,3 +79,4 @@ cpp_demangle
 tree-sitter-cli
 dotenvy
 pwasm-utils
+spider_worker
