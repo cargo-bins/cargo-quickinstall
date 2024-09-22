@@ -61,3 +61,4 @@ foundationdb-gen
 textplots
 cpp_demangle
 human_name
+human_bytes
