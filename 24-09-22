@@ -9,3 +9,4 @@ rkv
 minicbor
 rrule
 cargo-graph
+pwasm-utils
