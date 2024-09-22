@@ -9,3 +9,4 @@ cached-path
 socketcan
 tendermint-rpc
 addr2line
+tree-sitter-graph
