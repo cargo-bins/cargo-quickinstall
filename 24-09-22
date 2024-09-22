@@ -98,3 +98,4 @@ minicbor
 remove_dir_all
 tendermint-rpc
 sea-orm-cli
+dotenv
