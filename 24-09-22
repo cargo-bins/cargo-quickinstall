@@ -8,3 +8,4 @@ monolith
 cached-path
 socketcan
 tendermint-rpc
+addr2line
