@@ -90,3 +90,4 @@ raw-cpuid
 protox
 addr2line
 solana-validator
+httpmock
