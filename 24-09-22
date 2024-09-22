@@ -115,3 +115,4 @@ z3tracer
 tauri-cli
 opencv-binding-generator
 syd
+nextest-filtering
