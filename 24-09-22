@@ -80,3 +80,4 @@ socketcan
 h3o
 human_bytes
 solana-remote-wallet
+cpp_demangle
