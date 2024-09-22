@@ -41,3 +41,4 @@ sn_cli
 coldsnap
 socketcan
 addr2line
+paperclip
