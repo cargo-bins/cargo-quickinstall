@@ -30,3 +30,4 @@ deploy
 nkeys
 flowistry_ide
 opencv-binding-generator
+minicbor
