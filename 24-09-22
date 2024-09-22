@@ -84,3 +84,4 @@ solana-keygen
 deploy
 cargo-whatfeatures
 wol-rs
+human_bytes
