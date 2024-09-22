@@ -31,3 +31,4 @@ schemafy
 honggfuzz
 oso
 tendermint-rpc
+httpmock
