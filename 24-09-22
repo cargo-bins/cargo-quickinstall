@@ -37,3 +37,4 @@ papyrus_storage
 text-diff
 rustfmt-nightly
 rkv
+sn_cli
