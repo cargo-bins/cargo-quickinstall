@@ -65,3 +65,4 @@ spider_worker
 tree-sitter-graph
 librespot
 oxipng
+remove_dir_all
