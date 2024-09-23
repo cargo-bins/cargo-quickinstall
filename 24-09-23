@@ -5,3 +5,4 @@ raw-cpuid
 spider_cli
 addr2line
 human_name
+wol-rs
