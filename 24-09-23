@@ -47,3 +47,4 @@ borsh
 parquet
 parquet
 nextest-filtering
+tendermint-abci
