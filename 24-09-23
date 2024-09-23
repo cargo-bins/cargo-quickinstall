@@ -2,3 +2,4 @@ borsh
 rustfmt
 dotenv
 winpty-rs
+dotenvy
