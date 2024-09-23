@@ -37,3 +37,4 @@ ec2_instance_metadata
 deploy
 httpmock
 java-locator
+ducc-sys
