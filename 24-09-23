@@ -45,3 +45,4 @@ tree-sitter-cli
 raw-cpuid
 nu
 alacritty
+cargo-msrv
