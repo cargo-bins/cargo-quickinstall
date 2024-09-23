@@ -7,3 +7,4 @@ addr2line
 human_name
 wol-rs
 oxipng
+phf_generator
