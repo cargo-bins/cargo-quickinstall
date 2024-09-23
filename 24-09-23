@@ -49,3 +49,4 @@ oso
 foundationdb-gen
 sequoia-chameleon-gnupg
 protox
+cpp_demangle
