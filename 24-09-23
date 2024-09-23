@@ -24,3 +24,4 @@ nextest-filtering
 human_name
 cpp_demangle
 socketcan
+deploy
