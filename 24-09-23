@@ -54,3 +54,4 @@ tendermint-abci
 rustrict
 racer
 pwasm-utils
+cargo-lock
