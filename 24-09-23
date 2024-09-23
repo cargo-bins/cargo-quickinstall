@@ -27,3 +27,4 @@ sqlx-cli
 solana-gossip
 borsh
 ducc-sys
+nkeys
