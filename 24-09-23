@@ -61,3 +61,4 @@ unic-langid-impl
 cargo-smart-release
 dotenv
 re_query
+mdbook-plantuml
