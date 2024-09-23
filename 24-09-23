@@ -57,3 +57,4 @@ sn_cli
 java-locator
 cached-path
 httpbis
+rls-rustc
