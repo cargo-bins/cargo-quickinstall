@@ -38,3 +38,4 @@ cargo-show
 parquet
 paperclip
 ducc-sys
+textplots
