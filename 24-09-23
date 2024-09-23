@@ -38,3 +38,4 @@ deploy
 httpmock
 java-locator
 ducc-sys
+tokio-process
