@@ -3,3 +3,4 @@ rustfmt
 dotenv
 winpty-rs
 dotenvy
+rustrict
