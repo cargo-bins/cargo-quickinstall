@@ -44,3 +44,4 @@ qrtool
 binstall
 archwiki-rs
 sha1collisiondetection
+human_bytes
