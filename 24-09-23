@@ -80,3 +80,4 @@ cached-path
 human_name
 borsh
 winpty-rs
+minicbor
