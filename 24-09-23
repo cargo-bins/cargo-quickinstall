@@ -40,3 +40,4 @@ cargo-info
 eidolon
 borsh
 rrule
+phf_generator
