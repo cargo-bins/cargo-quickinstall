@@ -56,3 +56,4 @@ java-locator
 z3tracer
 rls-rustc
 httpmock
+pwasm-utils
