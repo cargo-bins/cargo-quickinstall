@@ -90,3 +90,4 @@ mdcat
 solana-keygen
 pwasm-utils
 solana-gossip
+sha1collisiondetection
