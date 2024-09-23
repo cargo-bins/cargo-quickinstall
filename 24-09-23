@@ -12,3 +12,4 @@ httpmock
 cargo-vet
 z3tracer
 omicron-zone-package
+diesel_cli
