@@ -4,3 +4,4 @@ h3o
 socketcan
 racer
 human_bytes
+raw-cpuid
