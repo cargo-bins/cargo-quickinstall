@@ -57,3 +57,4 @@ laminar
 borsh
 phf_generator
 arrow-flight
+pwasm-utils
