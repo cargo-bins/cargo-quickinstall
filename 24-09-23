@@ -52,3 +52,4 @@ spider_worker
 nexmark
 solana-cli
 snarkvm
+z3tracer
