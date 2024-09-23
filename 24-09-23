@@ -57,3 +57,4 @@ rustrict
 dotenv
 cargo-lock
 nextest-filtering
+cpp_demangle
