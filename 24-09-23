@@ -56,3 +56,4 @@ py-spy
 solana-validator
 minicbor
 dotenvy
+tendermint-rpc
