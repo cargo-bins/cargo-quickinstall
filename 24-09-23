@@ -48,3 +48,4 @@ rustfmt-nightly
 ducc-sys
 foundationdb-gen
 cpp_demangle
+nexmark
