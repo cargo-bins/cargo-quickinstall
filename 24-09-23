@@ -78,3 +78,4 @@ cargo-pgrx
 racer
 stac-cli
 solana-cli
+dotenvy
