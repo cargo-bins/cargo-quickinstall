@@ -41,3 +41,4 @@ ducc-sys
 textplots
 tendermint-rpc
 solana-cli
+cargo-show
