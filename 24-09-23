@@ -4,3 +4,4 @@ dotenv
 winpty-rs
 dotenvy
 rustrict
+diesel_cli
