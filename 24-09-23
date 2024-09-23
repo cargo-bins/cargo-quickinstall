@@ -63,3 +63,4 @@ tendermint-rpc
 benfred-read-process-memory
 unic-langid-impl
 nextest-filtering
+tendermint-abci
