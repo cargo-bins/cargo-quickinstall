@@ -21,3 +21,4 @@ py-spy
 solana-cli
 spider_worker
 httpmock
+papyrus_storage
