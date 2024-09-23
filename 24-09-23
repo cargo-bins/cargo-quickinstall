@@ -42,3 +42,4 @@ borsh
 rrule
 phf_generator
 human_bytes
+re_query
