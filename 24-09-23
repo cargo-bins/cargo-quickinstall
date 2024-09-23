@@ -58,3 +58,4 @@ minicbor
 dotenvy
 tendermint-rpc
 foundationdb-gen
+rls-rustc
