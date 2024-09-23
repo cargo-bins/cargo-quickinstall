@@ -60,3 +60,4 @@ solana-gossip
 winpty-rs
 socketcan
 solana-gossip
+borsh
