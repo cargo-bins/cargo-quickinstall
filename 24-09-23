@@ -1,3 +1,4 @@
 rustfmt-nightly
 sha1collisiondetection
 unic-langid-impl
+raw-cpuid
