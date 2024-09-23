@@ -48,3 +48,4 @@ snarkvm
 deno
 solana-gossip
 nextest-filtering
+spider_worker
