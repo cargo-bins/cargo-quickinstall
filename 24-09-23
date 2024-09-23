@@ -46,3 +46,4 @@ tendermint-rpc
 rustbus
 parquet
 h3o
+sn_node
