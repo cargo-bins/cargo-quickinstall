@@ -5,3 +5,4 @@ tendermint-rpc
 py-spy
 syd
 sniffnet
+raw-cpuid
