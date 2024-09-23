@@ -79,3 +79,4 @@ papyrus_storage
 cached-path
 human_name
 borsh
+winpty-rs
