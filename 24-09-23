@@ -50,3 +50,4 @@ honggfuzz
 minicbor
 solana-cli
 raw-cpuid
+tendermint-abci
