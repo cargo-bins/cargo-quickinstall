@@ -98,3 +98,4 @@ deno
 solana-validator
 nextest-filtering
 protox
+opencv-binding-generator
