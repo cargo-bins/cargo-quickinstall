@@ -102,3 +102,4 @@ solana-gossip
 spider_worker
 qsv
 rrule
+cargo-smart-release
