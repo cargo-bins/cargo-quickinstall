@@ -10,3 +10,4 @@ tendermint-abci
 solana-validator
 httpmock
 cargo-vet
+z3tracer
