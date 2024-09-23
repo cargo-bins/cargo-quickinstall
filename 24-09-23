@@ -50,3 +50,4 @@ remove_dir_all
 solana-validator
 spider_cli
 cargo-msrv
+rustrict
