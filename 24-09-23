@@ -21,3 +21,4 @@ rav1e
 ec2_instance_metadata
 sn_node
 sqlx-cli
+minicbor
