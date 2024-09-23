@@ -20,3 +20,4 @@ cargo-lock
 raw-cpuid
 diesel_cli
 syd
+papyrus_storage
