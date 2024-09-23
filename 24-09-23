@@ -13,3 +13,4 @@ phf_generator
 turbocommit
 borsh
 kanidm_tools
+tendermint-rpc
