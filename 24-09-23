@@ -96,3 +96,4 @@ nexmark
 diesel_cli
 solana-validator
 laminar
+spider_worker
