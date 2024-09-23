@@ -37,3 +37,4 @@ deploy
 tree-sitter-graph
 h3o
 deno
+dotenv
