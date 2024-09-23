@@ -3,3 +3,4 @@ rustfmt-nightly
 deno
 solana-gossip
 protox
+phf_generator
