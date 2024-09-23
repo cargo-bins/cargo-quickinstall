@@ -20,3 +20,4 @@ cpp_demangle
 cargo-flash
 winpty-rs
 phf_generator
+nextest-filtering
