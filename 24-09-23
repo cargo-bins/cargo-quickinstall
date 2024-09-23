@@ -49,3 +49,4 @@ minicbor
 re_query
 cached-path
 wol-rs
+wmi
