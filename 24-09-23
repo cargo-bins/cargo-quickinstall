@@ -70,3 +70,4 @@ nextest-filtering
 protox
 clippy
 solana-cli
+z3tracer
