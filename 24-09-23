@@ -41,3 +41,4 @@ ducc-sys
 deploy
 mdcat
 deno
+tree-sitter-cli
