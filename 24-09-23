@@ -100,3 +100,4 @@ nextest-filtering
 protox
 opencv-binding-generator
 wol-rs
+ec2_instance_metadata
