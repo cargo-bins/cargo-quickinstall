@@ -33,3 +33,4 @@ cargo-msrv
 httpmock
 arrow-flight
 nkeys
+oso
