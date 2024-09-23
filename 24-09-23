@@ -70,3 +70,4 @@ foundationdb-gen
 inlyne
 rencfs
 cargo-mobile2
+dotenv
