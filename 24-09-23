@@ -52,3 +52,4 @@ human_bytes
 tree-sitter-cli
 clippy
 ducc-sys
+sea-orm-cli
