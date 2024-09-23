@@ -25,3 +25,4 @@ rustfmt-nightly
 qrtool
 cargo-spellcheck
 sniffnet
+probe-rs-debugger
