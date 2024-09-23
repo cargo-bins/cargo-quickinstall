@@ -65,3 +65,4 @@ unic-langid-impl
 nextest-filtering
 tendermint-abci
 honggfuzz
+pwasm-utils
