@@ -49,3 +49,4 @@ parquet
 nextest-filtering
 tendermint-abci
 human_bytes
+tree-sitter-cli
