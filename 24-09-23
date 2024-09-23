@@ -9,3 +9,4 @@ nextest-filtering
 tendermint-abci
 solana-validator
 httpmock
+cargo-vet
