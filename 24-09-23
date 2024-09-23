@@ -115,3 +115,4 @@ human_bytes
 diesel_cli
 solana-cli
 zuse
+foundationdb-gen
