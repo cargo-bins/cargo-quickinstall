@@ -21,3 +21,4 @@ bgpkit-parser
 cce
 solana-validator
 rls-rustc
+tree-sitter-graph
