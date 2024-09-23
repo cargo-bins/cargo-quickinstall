@@ -47,3 +47,4 @@ sha1collisiondetection
 human_bytes
 minicbor
 re_query
+cached-path
