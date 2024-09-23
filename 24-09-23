@@ -60,3 +60,4 @@ tendermint-rpc
 foundationdb-gen
 rls-rustc
 vayu
+cargo-spellcheck
