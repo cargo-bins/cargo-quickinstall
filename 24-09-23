@@ -57,3 +57,4 @@ cargo-show
 java-locator
 cargo-about
 solana-gossip
+winpty-rs
