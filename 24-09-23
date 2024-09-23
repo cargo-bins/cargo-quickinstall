@@ -84,3 +84,4 @@ nkeys
 rls-rustc
 laminar
 rustfmt
+solana-cli
