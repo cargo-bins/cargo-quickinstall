@@ -33,3 +33,4 @@ minicbor
 ansi2
 cargo-generate
 z3tracer
+borsh
