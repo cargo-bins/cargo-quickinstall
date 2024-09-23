@@ -31,3 +31,4 @@ clippy
 unic-langid-impl
 cargo-msrv
 httpmock
+arrow-flight
