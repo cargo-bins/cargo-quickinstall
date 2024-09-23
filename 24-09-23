@@ -82,3 +82,4 @@ tendermint-rpc
 human_bytes
 nkeys
 rls-rustc
+laminar
