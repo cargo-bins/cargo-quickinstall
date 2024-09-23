@@ -53,3 +53,4 @@ asm-lsp
 cargo-public-api
 winpty-rs
 xplr
+hurl
