@@ -42,3 +42,4 @@ deploy
 mdcat
 deno
 tree-sitter-cli
+raw-cpuid
