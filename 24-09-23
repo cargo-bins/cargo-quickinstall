@@ -32,3 +32,4 @@ racer
 sha1collisiondetection
 textplots
 pwasm-utils
+cpp_demangle
