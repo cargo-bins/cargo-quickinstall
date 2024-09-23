@@ -35,3 +35,4 @@ sea-orm-cli
 opencv-binding-generator
 snarkvm
 cargo-show
+parquet
