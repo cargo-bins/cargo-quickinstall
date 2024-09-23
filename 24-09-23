@@ -101,3 +101,4 @@ rls-rustc
 nkeys
 z3tracer
 borsh
+schemafy
