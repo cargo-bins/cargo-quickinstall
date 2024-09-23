@@ -34,3 +34,4 @@ httpmock
 solana-cli
 wasm-bindgen-cli
 parquet
+solana-keygen
