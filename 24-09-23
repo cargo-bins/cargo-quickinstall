@@ -68,3 +68,4 @@ honggfuzz
 pwasm-utils
 clippy
 nkeys
+schemafy
