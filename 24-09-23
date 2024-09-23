@@ -89,3 +89,4 @@ wmi
 nextest-filtering
 sha1collisiondetection
 addr2line
+tree-sitter-cli
