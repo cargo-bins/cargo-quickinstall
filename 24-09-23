@@ -37,3 +37,4 @@ snarkvm
 cargo-show
 parquet
 paperclip
+ducc-sys
