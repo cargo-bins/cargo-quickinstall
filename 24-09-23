@@ -4,3 +4,4 @@ deno
 solana-gossip
 protox
 phf_generator
+arrow-flight
