@@ -46,3 +46,4 @@ dotenv
 nexmark
 snarkvm
 deno
+solana-gossip
