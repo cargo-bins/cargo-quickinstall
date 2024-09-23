@@ -64,3 +64,4 @@ solana-genesis
 tendermint-rpc
 oso
 cargo-flash
+unic-langid-impl
