@@ -57,3 +57,4 @@ solana-validator
 minicbor
 dotenvy
 tendermint-rpc
+foundationdb-gen
