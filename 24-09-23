@@ -20,3 +20,4 @@ rls-rustc
 foundationdb-gen
 diesel_cli
 remove_dir_all
+human_name
