@@ -17,3 +17,4 @@ tendermint-abci
 racer
 tree-sitter-graph
 rls-rustc
+foundationdb-gen
