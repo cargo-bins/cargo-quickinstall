@@ -21,3 +21,4 @@ winpty-rs
 solana-keygen
 ruff
 librespot
+rustfmt-nightly
