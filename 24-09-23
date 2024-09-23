@@ -44,3 +44,4 @@ tokio-process
 rkv
 tendermint-rpc
 rustbus
+parquet
