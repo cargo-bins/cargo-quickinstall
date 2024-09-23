@@ -35,3 +35,4 @@ schemafy
 solana-gossip
 phf_generator
 solana-validator
+rkv
