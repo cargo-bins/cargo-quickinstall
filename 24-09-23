@@ -17,3 +17,4 @@ ducc-sys
 deploy
 minicbor
 cpp_demangle
+cargo-flash
