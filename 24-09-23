@@ -27,3 +27,4 @@ tendermint-abci
 addr2line
 librespot
 xcp
+clippy
