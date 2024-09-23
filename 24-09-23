@@ -58,3 +58,4 @@ foundationdb-gen
 spider_cli
 cargo-mobile2
 unic-langid-impl
+cargo-smart-release
