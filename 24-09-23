@@ -44,3 +44,4 @@ solana-cli
 cargo-show
 opencv-binding-generator
 borsh
+parquet
