@@ -60,3 +60,4 @@ arrow-flight
 pwasm-utils
 deno
 human_name
+httpmock
