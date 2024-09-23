@@ -13,3 +13,4 @@ cpp_demangle
 protox
 rustfmt-nightly
 minicbor
+winpty-rs
