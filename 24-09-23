@@ -22,3 +22,4 @@ solana-keygen
 ruff
 librespot
 rustfmt-nightly
+qrtool
