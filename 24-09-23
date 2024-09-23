@@ -27,3 +27,4 @@ unic-langid-impl
 sequoia-chameleon-gnupg
 pwasm-utils
 ducc-sys
+borsh
