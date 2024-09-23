@@ -31,3 +31,4 @@ deno
 solana-remote-wallet
 spider_worker
 httpmock
+solana-cli
