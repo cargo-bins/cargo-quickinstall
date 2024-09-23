@@ -18,3 +18,4 @@ racer
 tree-sitter-graph
 rls-rustc
 foundationdb-gen
+diesel_cli
