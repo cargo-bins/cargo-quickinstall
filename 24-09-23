@@ -50,3 +50,4 @@ sn_node
 parquet
 cpp_demangle
 deploy
+socketcan
