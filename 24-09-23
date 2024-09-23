@@ -24,3 +24,4 @@ cpp_demangle
 cached-path
 socketcan
 solana-keygen
+tauri-cli
