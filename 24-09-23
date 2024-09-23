@@ -45,3 +45,4 @@ addr2line
 remove_dir_all
 solana-genesis
 unic-langid-impl
+oso
