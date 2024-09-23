@@ -43,3 +43,4 @@ re_query
 cargo-flash
 flowistry_ide
 human_name
+phf_generator
