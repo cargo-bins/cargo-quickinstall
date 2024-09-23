@@ -49,3 +49,4 @@ skim
 honggfuzz
 minicbor
 solana-cli
+raw-cpuid
