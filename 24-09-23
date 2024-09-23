@@ -30,3 +30,4 @@ ducc-sys
 nkeys
 cargo-lock
 minicbor
+ansi2
