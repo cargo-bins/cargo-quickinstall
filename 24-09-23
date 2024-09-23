@@ -46,3 +46,4 @@ opencv-binding-generator
 borsh
 parquet
 parquet
+nextest-filtering
