@@ -51,3 +51,4 @@ solana-validator
 spider_cli
 cargo-msrv
 rustrict
+ducc-sys
