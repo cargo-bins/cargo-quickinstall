@@ -56,3 +56,4 @@ schemafy
 rustrict
 dotenv
 cargo-lock
+nextest-filtering
