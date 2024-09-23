@@ -104,3 +104,4 @@ ec2_instance_metadata
 h3o
 addr2line
 re_query
+sn_cli
