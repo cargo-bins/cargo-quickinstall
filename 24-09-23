@@ -18,3 +18,4 @@ httpmock
 dotenv
 winpty-rs
 httpmock
+h3o
