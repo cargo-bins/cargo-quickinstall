@@ -106,3 +106,4 @@ addr2line
 re_query
 sn_cli
 deno
+solana-validator
