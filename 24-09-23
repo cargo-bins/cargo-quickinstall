@@ -22,3 +22,4 @@ sqlx-cli
 zuse
 cpp_demangle
 cached-path
+socketcan
