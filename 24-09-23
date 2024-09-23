@@ -6,3 +6,4 @@ dotenvy
 rustrict
 diesel_cli
 nextest-filtering
+tendermint-abci
