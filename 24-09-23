@@ -13,3 +13,4 @@ cargo-vet
 z3tracer
 omicron-zone-package
 diesel_cli
+sha1collisiondetection
