@@ -55,3 +55,4 @@ phf_generator
 schemafy
 rustrict
 dotenv
+cargo-lock
