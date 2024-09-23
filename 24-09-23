@@ -56,3 +56,4 @@ sea-orm-cli
 cargo-show
 java-locator
 cargo-about
+solana-gossip
