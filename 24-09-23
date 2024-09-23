@@ -9,3 +9,4 @@ rustfmt-nightly
 solana-remote-wallet
 probe-rs-tools
 drone
+cargo-mobile2
