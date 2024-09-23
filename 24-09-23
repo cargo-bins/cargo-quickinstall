@@ -48,3 +48,4 @@ parquet
 parquet
 nextest-filtering
 tendermint-abci
+human_bytes
