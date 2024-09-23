@@ -62,3 +62,4 @@ cargo-smart-release
 dotenv
 re_query
 mdbook-plantuml
+asm-lsp
