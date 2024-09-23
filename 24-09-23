@@ -32,3 +32,4 @@ z3tracer
 coldsnap
 dotenvy
 cpp_demangle
+sha1collisiondetection
