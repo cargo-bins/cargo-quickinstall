@@ -27,3 +27,4 @@ cargo-spellcheck
 sniffnet
 probe-rs-debugger
 rls-rustc
+qrtool
