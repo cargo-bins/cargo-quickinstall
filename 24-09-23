@@ -45,3 +45,4 @@ pwasm-utils
 dotenv
 nexmark
 snarkvm
+deno
