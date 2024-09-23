@@ -55,3 +55,4 @@ remove_dir_all
 sn_node
 sn_cli
 java-locator
+cached-path
