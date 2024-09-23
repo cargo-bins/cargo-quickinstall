@@ -86,3 +86,4 @@ laminar
 rustfmt
 solana-cli
 rrule
+clippy
