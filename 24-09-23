@@ -24,3 +24,4 @@ sqlx-cli
 minicbor
 wol-rs
 raw-cpuid
+httpbis
