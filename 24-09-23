@@ -65,3 +65,4 @@ tendermint-rpc
 oso
 cargo-flash
 unic-langid-impl
+human_bytes
