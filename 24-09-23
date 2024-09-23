@@ -16,3 +16,4 @@ opencv-binding-generator
 rav1e
 cargo-info
 rrule
+cpp_demangle
