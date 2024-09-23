@@ -16,3 +16,4 @@ kanidm_tools
 tendermint-rpc
 ef
 ruff
+z3tracer
