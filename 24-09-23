@@ -54,3 +54,4 @@ protox
 phf_generator
 schemafy
 rustrict
+dotenv
