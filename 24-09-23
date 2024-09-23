@@ -31,3 +31,4 @@ nkeys
 cargo-lock
 minicbor
 ansi2
+cargo-generate
