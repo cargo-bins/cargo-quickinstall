@@ -62,3 +62,4 @@ deno
 human_name
 httpmock
 trunk
+rls-rustc
