@@ -47,3 +47,4 @@ nexmark
 snarkvm
 deno
 solana-gossip
+nextest-filtering
