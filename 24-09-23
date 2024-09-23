@@ -82,3 +82,4 @@ borsh
 winpty-rs
 minicbor
 librespot
+httpmock
