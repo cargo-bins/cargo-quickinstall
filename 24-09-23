@@ -25,3 +25,4 @@ oxipng
 dotenv
 nkeys
 rkv
+opencv-binding-generator
