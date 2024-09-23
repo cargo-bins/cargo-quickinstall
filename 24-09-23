@@ -76,3 +76,4 @@ deploy
 sea-orm-cli
 cargo-pgrx
 racer
+stac-cli
