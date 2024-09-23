@@ -28,3 +28,4 @@ httpbis
 sha1collisiondetection
 rustfmt-nightly
 rkv
+z3tracer
