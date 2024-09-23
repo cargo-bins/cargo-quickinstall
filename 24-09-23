@@ -28,3 +28,4 @@ tauri-cli
 raw-cpuid
 cached-path
 nu
+cargo-about
