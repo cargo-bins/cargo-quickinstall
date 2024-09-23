@@ -14,3 +14,4 @@ papyrus_storage
 tendermint-rpc
 wasm-bindgen-cli
 protox
+clippy
