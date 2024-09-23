@@ -51,3 +51,4 @@ parquet
 cpp_demangle
 deploy
 socketcan
+remove_dir_all
