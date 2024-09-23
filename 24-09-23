@@ -28,3 +28,4 @@ nexmark
 socketcan
 qrtool
 cargo-spellcheck
+hoard-rs
