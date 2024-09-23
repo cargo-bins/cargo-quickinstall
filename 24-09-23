@@ -83,3 +83,4 @@ human_bytes
 nkeys
 rls-rustc
 laminar
+rustfmt
