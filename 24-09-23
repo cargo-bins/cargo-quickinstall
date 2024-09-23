@@ -50,3 +50,4 @@ librespot
 wol-rs
 dotenvy
 asm-lsp
+cargo-public-api
