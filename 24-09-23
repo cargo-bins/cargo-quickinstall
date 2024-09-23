@@ -49,3 +49,4 @@ sha1collisiondetection
 re_query
 cached-path
 ducc-sys
+addr2line
