@@ -92,3 +92,4 @@ addr2line
 tree-sitter-cli
 z3tracer
 dotenvy
+nexmark
