@@ -38,3 +38,4 @@ solana-validator
 rkv
 winpty-rs
 radio-sx128x
+pwasm-utils
