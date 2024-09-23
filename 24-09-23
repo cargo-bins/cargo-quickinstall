@@ -17,3 +17,4 @@ pwasm-utils
 sha1collisiondetection
 ducc-sys
 cargo-lock
+raw-cpuid
