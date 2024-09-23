@@ -42,3 +42,4 @@ snarkvm
 rustrict
 zuse
 pwasm-utils
+dotenv
