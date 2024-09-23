@@ -54,3 +54,4 @@ cargo-public-api
 winpty-rs
 xplr
 hurl
+foundationdb-gen
