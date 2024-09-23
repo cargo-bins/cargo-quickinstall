@@ -31,3 +31,4 @@ cargo-spellcheck
 hoard-rs
 arrow-flight
 sha1collisiondetection
+probe-rs-tools
