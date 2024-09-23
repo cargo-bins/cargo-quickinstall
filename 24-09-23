@@ -30,3 +30,4 @@ qrtool
 cargo-spellcheck
 hoard-rs
 arrow-flight
+sha1collisiondetection
