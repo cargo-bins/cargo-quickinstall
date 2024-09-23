@@ -26,3 +26,4 @@ socketcan
 solana-keygen
 tauri-cli
 raw-cpuid
+cached-path
