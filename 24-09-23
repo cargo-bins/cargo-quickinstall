@@ -36,3 +36,4 @@ wasm-bindgen-cli
 parquet
 solana-keygen
 pwasm-utils
+re_query
