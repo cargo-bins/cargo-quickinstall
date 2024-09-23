@@ -42,3 +42,4 @@ tokio-process
 paperclip
 tokio-process
 rkv
+tendermint-rpc
