@@ -25,3 +25,4 @@ cpp_demangle
 solana-cli
 tendermint-abci
 addr2line
+librespot
