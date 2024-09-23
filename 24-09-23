@@ -36,3 +36,4 @@ solana-gossip
 phf_generator
 solana-validator
 rkv
+winpty-rs
