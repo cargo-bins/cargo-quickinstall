@@ -19,3 +19,4 @@ ducc-sys
 cargo-lock
 raw-cpuid
 diesel_cli
+syd
