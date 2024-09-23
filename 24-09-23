@@ -66,3 +66,4 @@ asm-lsp
 phf_generator
 snarkvm
 nextest-filtering
+eidolon
