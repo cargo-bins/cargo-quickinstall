@@ -107,3 +107,4 @@ re_query
 sn_cli
 deno
 solana-validator
+cached-path
