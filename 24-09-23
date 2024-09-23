@@ -33,3 +33,4 @@ spider_worker
 httpmock
 solana-cli
 wasm-bindgen-cli
+parquet
