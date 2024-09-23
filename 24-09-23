@@ -58,3 +58,4 @@ java-locator
 cargo-about
 solana-gossip
 winpty-rs
+socketcan
