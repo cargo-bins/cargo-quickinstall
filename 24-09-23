@@ -16,3 +16,4 @@ solana-remote-wallet
 pwasm-utils
 sha1collisiondetection
 ducc-sys
+cargo-lock
