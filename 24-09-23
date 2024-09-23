@@ -51,3 +51,4 @@ wol-rs
 dotenvy
 asm-lsp
 cargo-public-api
+winpty-rs
