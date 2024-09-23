@@ -87,3 +87,4 @@ solana-cli
 tree-sitter-cli
 wmi
 nextest-filtering
+sha1collisiondetection
