@@ -53,3 +53,4 @@ nexmark
 solana-cli
 snarkvm
 z3tracer
+remove_dir_all
