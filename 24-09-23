@@ -25,3 +25,4 @@ re_query
 skim
 sqlx-cli
 solana-gossip
+borsh
