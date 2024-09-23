@@ -36,3 +36,4 @@ opencv-binding-generator
 snarkvm
 cargo-show
 parquet
+paperclip
