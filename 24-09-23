@@ -95,3 +95,4 @@ oxipng
 unic-langid-impl
 racer
 graphql_client_cli
+tendermint-rpc
