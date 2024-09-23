@@ -24,3 +24,4 @@ rls-rustc
 tree-sitter-graph
 hurl
 textplots
+nexmark
