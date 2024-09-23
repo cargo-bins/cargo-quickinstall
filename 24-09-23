@@ -23,3 +23,4 @@ sn_node
 sqlx-cli
 minicbor
 wol-rs
+raw-cpuid
