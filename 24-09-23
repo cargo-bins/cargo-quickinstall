@@ -106,3 +106,4 @@ cargo-smart-release
 porsmo
 bgpkit-parser
 rls-rustc
+deploy
