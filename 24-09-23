@@ -21,3 +21,4 @@ re_query
 clippy
 trunk
 java-locator
+cpp_demangle
