@@ -100,3 +100,4 @@ spider_worker
 rls-rustc
 nkeys
 z3tracer
+borsh
