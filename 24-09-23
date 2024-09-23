@@ -46,3 +46,4 @@ dotenvy
 zuse
 rustfmt-nightly
 ducc-sys
+foundationdb-gen
