@@ -51,3 +51,4 @@ tendermint-abci
 human_bytes
 tree-sitter-cli
 clippy
+ducc-sys
