@@ -42,3 +42,4 @@ pwasm-utils
 textplots
 wmi
 addr2line
+remove_dir_all
