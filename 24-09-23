@@ -41,3 +41,4 @@ radio-sx128x
 pwasm-utils
 textplots
 wmi
+addr2line
