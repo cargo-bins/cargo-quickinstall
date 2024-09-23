@@ -31,3 +31,4 @@ nu
 cargo-about
 rrule
 deploy
+sea-orm-cli
