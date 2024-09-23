@@ -34,3 +34,4 @@ textplots
 pwasm-utils
 cpp_demangle
 pwasm-utils
+human_bytes
