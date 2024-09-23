@@ -65,3 +65,4 @@ mdbook-plantuml
 asm-lsp
 phf_generator
 snarkvm
+nextest-filtering
