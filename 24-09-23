@@ -75,3 +75,4 @@ z3tracer
 deploy
 sea-orm-cli
 cargo-pgrx
+racer
