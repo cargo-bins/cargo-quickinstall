@@ -98,3 +98,4 @@ graphql_client_cli
 tendermint-rpc
 oso
 java-locator
+solana-gossip
