@@ -53,3 +53,4 @@ cargo-msrv
 rustrict
 ducc-sys
 foundationdb-gen
+laminar
