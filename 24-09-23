@@ -30,3 +30,4 @@ xcp
 clippy
 unic-langid-impl
 cargo-msrv
+httpmock
