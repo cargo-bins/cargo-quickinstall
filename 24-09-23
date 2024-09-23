@@ -12,3 +12,4 @@ drone
 cargo-mobile2
 parquet
 socketcan
+opencv-binding-generator
