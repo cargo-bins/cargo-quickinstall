@@ -3,3 +3,4 @@ sha1collisiondetection
 unic-langid-impl
 raw-cpuid
 honggfuzz
+httpmock
