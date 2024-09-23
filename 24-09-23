@@ -21,3 +21,4 @@ cargo-flash
 winpty-rs
 phf_generator
 nextest-filtering
+human_name
