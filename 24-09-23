@@ -31,3 +31,4 @@ qrtool
 remove_dir_all
 java-locator
 textplots
+tendermint-abci
