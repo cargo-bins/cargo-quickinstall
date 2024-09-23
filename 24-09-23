@@ -28,3 +28,4 @@ solana-gossip
 borsh
 ducc-sys
 nkeys
+cargo-lock
