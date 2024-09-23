@@ -23,3 +23,4 @@ remove_dir_all
 human_name
 dotenvy
 tendermint-rpc
+unic-langid-impl
