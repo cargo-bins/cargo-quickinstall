@@ -27,3 +27,4 @@ raw-cpuid
 httpbis
 sha1collisiondetection
 rustfmt-nightly
+rkv
