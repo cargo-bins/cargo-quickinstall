@@ -46,3 +46,4 @@ raw-cpuid
 nu
 alacritty
 cargo-msrv
+remove_dir_all
