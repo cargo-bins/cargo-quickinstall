@@ -2,3 +2,4 @@ solana-validator
 rustfmt-nightly
 deno
 solana-gossip
+protox
