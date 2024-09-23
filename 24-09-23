@@ -55,3 +55,4 @@ ducc-sys
 foundationdb-gen
 laminar
 borsh
+phf_generator
