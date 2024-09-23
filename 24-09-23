@@ -10,3 +10,4 @@ tree-sitter-graph
 cargo-about
 sha1collisiondetection
 foundationdb-gen
+dotenvy
