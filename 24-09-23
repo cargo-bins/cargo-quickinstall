@@ -29,3 +29,4 @@ opencv-binding-generator
 parquet
 oso
 arrow-flight
+papyrus_storage
