@@ -18,3 +18,4 @@ deploy
 minicbor
 cpp_demangle
 cargo-flash
+winpty-rs
