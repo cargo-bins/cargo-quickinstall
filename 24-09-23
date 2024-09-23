@@ -29,3 +29,4 @@ borsh
 ducc-sys
 nkeys
 cargo-lock
+minicbor
