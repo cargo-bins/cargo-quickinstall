@@ -105,3 +105,4 @@ schemafy
 snarkvm
 java-locator
 solana-cli
+addr2line
