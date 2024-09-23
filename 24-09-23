@@ -8,3 +8,4 @@ raw-cpuid
 socketcan
 schemafy
 nkeys
+sha1collisiondetection
