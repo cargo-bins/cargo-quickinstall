@@ -116,3 +116,4 @@ diesel_cli
 solana-cli
 zuse
 foundationdb-gen
+sea-orm-cli
