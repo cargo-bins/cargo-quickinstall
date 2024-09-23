@@ -63,3 +63,4 @@ solana-gossip
 borsh
 socketcan
 ducc-sys
+clippy
