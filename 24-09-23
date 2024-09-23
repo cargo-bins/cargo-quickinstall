@@ -28,3 +28,4 @@ rkv
 opencv-binding-generator
 parquet
 oso
+arrow-flight
