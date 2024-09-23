@@ -35,3 +35,4 @@ cpp_demangle
 sha1collisiondetection
 ec2_instance_metadata
 deploy
+httpmock
