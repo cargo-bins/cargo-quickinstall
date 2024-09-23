@@ -102,3 +102,4 @@ opencv-binding-generator
 wol-rs
 ec2_instance_metadata
 h3o
+addr2line
