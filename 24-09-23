@@ -3,3 +3,4 @@ borsh
 remove_dir_all
 raw-cpuid
 spider_cli
+addr2line
