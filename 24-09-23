@@ -45,3 +45,4 @@ solana-validator
 dotenvy
 zuse
 rustfmt-nightly
+ducc-sys
