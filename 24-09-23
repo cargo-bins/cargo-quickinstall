@@ -67,3 +67,4 @@ tendermint-abci
 honggfuzz
 pwasm-utils
 clippy
+nkeys
