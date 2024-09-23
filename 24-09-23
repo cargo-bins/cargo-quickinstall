@@ -25,3 +25,4 @@ minicbor
 wol-rs
 raw-cpuid
 httpbis
+sha1collisiondetection
