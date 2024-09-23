@@ -25,3 +25,4 @@ dotenvy
 tendermint-rpc
 unic-langid-impl
 sequoia-chameleon-gnupg
+pwasm-utils
