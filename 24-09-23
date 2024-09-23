@@ -58,3 +58,4 @@ dotenv
 cargo-lock
 nextest-filtering
 cpp_demangle
+solana-cli
