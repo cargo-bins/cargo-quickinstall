@@ -64,3 +64,4 @@ re_query
 mdbook-plantuml
 asm-lsp
 phf_generator
+snarkvm
