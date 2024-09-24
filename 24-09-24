@@ -35,3 +35,4 @@ tendermint-abci
 rls-rustc
 snarkvm
 nexmark
+solana-validator
