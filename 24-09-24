@@ -57,3 +57,4 @@ speedtest-rs
 cargo-list
 blissify
 py-spy
+rustfmt-nightly
