@@ -3,3 +3,4 @@ solana-remote-wallet
 hurl
 xcp
 socketcan
+rls-rustc
