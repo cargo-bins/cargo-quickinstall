@@ -44,3 +44,4 @@ httpmock
 cargo-lock
 re_query
 laminar
+deploy
