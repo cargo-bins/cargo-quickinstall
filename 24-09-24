@@ -58,3 +58,4 @@ dotenv
 ducc-sys
 arrow-flight
 sha1collisiondetection
+borsh
