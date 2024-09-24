@@ -21,3 +21,4 @@ atuin
 foundationdb-gen
 wol-rs
 git-disjoint
+rls-rustc
