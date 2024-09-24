@@ -60,3 +60,4 @@ ffs
 tendermint-abci
 ruff
 java-locator
+rustrict
