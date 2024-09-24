@@ -41,3 +41,4 @@ cached-path
 tree-sitter-graph
 human_name
 rustfmt
+cargo-vet
