@@ -66,3 +66,4 @@ remove_dir_all
 cargo-unused-features
 mise
 ripunzip
+rls-rustc
