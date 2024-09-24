@@ -50,3 +50,4 @@ racer
 rustfmt-nightly
 tree-sitter-graph
 nkeys
+cargo-vet
