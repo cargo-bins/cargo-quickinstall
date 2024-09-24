@@ -54,3 +54,4 @@ nextest-filtering
 laminar
 gnostr-bins
 speedtest-rs
+cargo-list
