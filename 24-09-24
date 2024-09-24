@@ -21,3 +21,4 @@ termusic
 rustfmt-nightly
 phf_generator
 protox
+cargo-embed
