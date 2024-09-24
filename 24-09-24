@@ -8,3 +8,4 @@ solana-remote-wallet
 diesel_cli
 httpmock
 ducc-sys
+dotenvy
