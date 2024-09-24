@@ -6,3 +6,4 @@ cached-path
 socketcan
 termusic
 cargo-flash
+tree-sitter-graph
