@@ -26,3 +26,4 @@ sha1collisiondetection
 clippy
 nextest-filtering
 dotenv
+espflash
