@@ -33,3 +33,4 @@ phf_generator
 paperclip
 tendermint-abci
 rls-rustc
+snarkvm
