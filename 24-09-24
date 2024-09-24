@@ -5,3 +5,4 @@ cargo-pgrx
 solana-keygen
 borsh
 ef
+cargo-spellcheck
