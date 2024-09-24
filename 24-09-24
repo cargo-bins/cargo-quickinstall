@@ -39,3 +39,4 @@ solana-validator
 tendermint-abci
 snarkvm
 unic-langid-impl
+arrow-flight
