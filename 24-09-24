@@ -10,3 +10,4 @@ nextest-filtering
 h3o
 pwasm-utils
 socketcan
+human_name
