@@ -12,3 +12,4 @@ sn_cli
 schemafy
 protox
 raw-cpuid
+cpp_demangle
