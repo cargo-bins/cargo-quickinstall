@@ -60,3 +60,4 @@ py-spy
 rustfmt-nightly
 solana-remote-wallet
 ef
+arrow-flight
