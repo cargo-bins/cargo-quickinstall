@@ -17,3 +17,4 @@ pwasm-utils
 omicron-zone-package
 cpp_demangle
 dotenvy
+honggfuzz
