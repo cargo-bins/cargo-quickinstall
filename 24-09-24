@@ -61,3 +61,4 @@ pwasm-utils
 unic-langid-impl
 nu
 solana-gossip
+sea-orm-cli
