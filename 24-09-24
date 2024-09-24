@@ -20,3 +20,4 @@ nextest-filtering
 solana-remote-wallet
 solana-validator
 wol-rs
+httpmock
