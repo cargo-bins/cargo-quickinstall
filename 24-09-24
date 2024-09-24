@@ -49,3 +49,4 @@ remove_dir_all
 blissify
 speedtest-rs
 pwasm-utils
+solana-remote-wallet
