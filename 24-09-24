@@ -30,3 +30,4 @@ tendermint-rpc
 wmi
 solana-cli
 remove_dir_all
+addr2line
