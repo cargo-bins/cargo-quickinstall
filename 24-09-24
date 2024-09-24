@@ -19,3 +19,4 @@ cpp_demangle
 dotenvy
 honggfuzz
 addr2line
+human_bytes
