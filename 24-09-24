@@ -5,3 +5,4 @@ rls-rustc
 ducc-sys
 protox
 tendermint-rpc
+sea-orm-cli
