@@ -24,3 +24,4 @@ cargo-pgrx
 cargo-whatfeatures
 probe-rs-debugger
 pwasm-utils
+gpg-tui
