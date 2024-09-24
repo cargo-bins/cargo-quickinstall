@@ -29,3 +29,4 @@ cargo-flash
 clippy
 borsh
 termusic
+radio-sx128x
