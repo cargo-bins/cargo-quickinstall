@@ -67,3 +67,4 @@ cargo-unused-features
 mise
 ripunzip
 rls-rustc
+cargo-msrv
