@@ -47,3 +47,4 @@ borsh
 human_name
 protox
 racer
+rustfmt-nightly
