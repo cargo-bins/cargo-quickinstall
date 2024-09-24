@@ -9,3 +9,4 @@ diesel_cli
 httpmock
 ducc-sys
 dotenvy
+wmi
