@@ -21,3 +21,4 @@ cargo-outdated
 tendermint-abci
 solana-cli
 tauri-cli
+java-locator
