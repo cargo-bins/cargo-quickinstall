@@ -22,3 +22,4 @@ foundationdb-gen
 wol-rs
 git-disjoint
 rls-rustc
+addr2line
