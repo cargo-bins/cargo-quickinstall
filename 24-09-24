@@ -51,3 +51,4 @@ rustfmt-nightly
 tree-sitter-graph
 nkeys
 cargo-vet
+solana-cli
