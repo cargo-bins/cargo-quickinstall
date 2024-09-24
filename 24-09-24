@@ -40,3 +40,4 @@ rkv
 borsh
 rustfmt-nightly
 cargo-lock
+wol-rs
