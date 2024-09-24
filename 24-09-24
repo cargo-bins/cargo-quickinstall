@@ -28,3 +28,4 @@ nextest-filtering
 dotenv
 espflash
 atuin
+asm-lsp
