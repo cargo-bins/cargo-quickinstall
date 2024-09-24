@@ -25,3 +25,4 @@ papyrus_storage
 cpp_demangle
 tendermint-abci
 py-spy
+papyrus_storage
