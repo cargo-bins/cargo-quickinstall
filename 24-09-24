@@ -18,3 +18,4 @@ cargo-flash
 clippy
 paperclip
 atuin
+foundationdb-gen
