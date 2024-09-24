@@ -41,3 +41,4 @@ snarkvm
 unic-langid-impl
 arrow-flight
 httpmock
+cargo-lock
