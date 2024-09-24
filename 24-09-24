@@ -34,3 +34,4 @@ solana-cli
 py-spy
 racer
 unic-langid-impl
+remove_dir_all
