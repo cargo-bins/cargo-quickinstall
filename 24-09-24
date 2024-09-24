@@ -39,3 +39,4 @@ dotenv
 nkeys
 cached-path
 tree-sitter-graph
+human_name
