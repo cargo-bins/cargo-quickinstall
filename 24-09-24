@@ -36,3 +36,4 @@ nkeys
 borsh
 rustfmt-nightly
 dotenv
+nkeys
