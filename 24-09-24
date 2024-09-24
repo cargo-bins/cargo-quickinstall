@@ -4,3 +4,4 @@ nkeys
 rls-rustc
 ducc-sys
 protox
+tendermint-rpc
