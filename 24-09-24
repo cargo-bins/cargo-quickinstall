@@ -19,3 +19,4 @@ clippy
 java-locator
 cargo-outdated
 tendermint-abci
+solana-cli
