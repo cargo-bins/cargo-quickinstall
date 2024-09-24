@@ -24,3 +24,4 @@ httpmock
 human_bytes
 rls-rustc
 rkv
+tendermint-abci
