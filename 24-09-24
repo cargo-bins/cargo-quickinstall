@@ -27,3 +27,4 @@ solana-gossip
 ubi
 tendermint-abci
 tendermint-rpc
+wmi
