@@ -62,3 +62,4 @@ unic-langid-impl
 nu
 solana-gossip
 sea-orm-cli
+cargo-lock
