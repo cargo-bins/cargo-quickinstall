@@ -48,3 +48,4 @@ gpg-tui
 remove_dir_all
 blissify
 speedtest-rs
+pwasm-utils
