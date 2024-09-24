@@ -26,3 +26,4 @@ probe-rs-debugger
 pwasm-utils
 gpg-tui
 cached-path
+sha1collisiondetection
