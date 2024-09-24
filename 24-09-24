@@ -13,3 +13,4 @@ schemafy
 protox
 raw-cpuid
 cpp_demangle
+pwasm-utils
