@@ -9,3 +9,4 @@ spider_worker
 cargo-about
 sha1collisiondetection
 cargo-outdated
+z3tracer
