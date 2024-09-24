@@ -14,3 +14,4 @@ winpty-rs
 cargo-about
 wasm-bindgen-cli
 cargo-outdated
+winpty-rs
