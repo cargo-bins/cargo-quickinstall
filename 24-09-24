@@ -9,3 +9,4 @@ cargo-unused-features
 cpp_demangle
 eidolon
 eureka
+tendermint-abci
