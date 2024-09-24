@@ -40,3 +40,4 @@ tendermint-abci
 snarkvm
 unic-langid-impl
 arrow-flight
+httpmock
