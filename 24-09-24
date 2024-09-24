@@ -26,3 +26,4 @@ addr2line
 solana-gossip
 ubi
 tendermint-abci
+tendermint-rpc
