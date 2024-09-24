@@ -58,3 +58,4 @@ rrule
 wol-rs
 tendermint-rpc
 pwasm-utils
+unic-langid-impl
