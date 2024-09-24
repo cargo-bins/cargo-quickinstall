@@ -28,3 +28,4 @@ ubi
 tendermint-abci
 tendermint-rpc
 wmi
+solana-cli
