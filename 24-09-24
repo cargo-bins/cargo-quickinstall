@@ -6,3 +6,4 @@ ducc-sys
 protox
 tendermint-rpc
 sea-orm-cli
+nextest-filtering
