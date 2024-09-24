@@ -39,3 +39,4 @@ textplots
 rkv
 borsh
 rustfmt-nightly
+cargo-lock
