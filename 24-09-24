@@ -37,3 +37,4 @@ borsh
 rustfmt-nightly
 dotenv
 nkeys
+cached-path
