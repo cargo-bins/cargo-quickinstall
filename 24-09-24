@@ -3,3 +3,4 @@ dotenvy
 cargo-outdated
 rkv
 cached-path
+sha1collisiondetection
