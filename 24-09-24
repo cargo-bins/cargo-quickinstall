@@ -41,3 +41,4 @@ borsh
 rustfmt-nightly
 cargo-lock
 wol-rs
+java-locator
