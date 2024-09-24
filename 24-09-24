@@ -67,3 +67,4 @@ graphql_client_cli
 cargo-smart-release
 foundationdb-gen
 opencv-binding-generator
+bgpkit-broker
