@@ -42,3 +42,4 @@ schemafy
 wmi
 solana-remote-wallet
 parquet
+cargo-lock
