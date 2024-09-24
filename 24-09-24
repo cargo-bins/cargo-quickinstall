@@ -19,3 +19,4 @@ patch-crate
 qsv
 termusic
 rustfmt-nightly
+phf_generator
