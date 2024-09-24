@@ -44,3 +44,4 @@ nextest-filtering
 tree-sitter-graph
 cached-path
 nkeys
+binstall
