@@ -69,3 +69,4 @@ ripunzip
 rls-rustc
 cargo-msrv
 cargo-unused-features
+ffs
