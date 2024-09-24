@@ -3,3 +3,4 @@ borsh
 pwasm-utils
 parquet
 spider_worker
+probe-rs-debugger
