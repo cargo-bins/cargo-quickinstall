@@ -52,3 +52,4 @@ pwasm-utils
 solana-remote-wallet
 cargo-espflash
 cpp_demangle
+solana-validator
