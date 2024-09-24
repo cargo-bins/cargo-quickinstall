@@ -43,3 +43,4 @@ human_name
 rustfmt
 cargo-vet
 arrow-flight
+borsh
