@@ -13,3 +13,4 @@ qsv
 cargo-embed
 textplots
 ducc-sys
+winpty-rs
