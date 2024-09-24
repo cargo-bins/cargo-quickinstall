@@ -34,3 +34,4 @@ paperclip
 tendermint-abci
 rls-rustc
 snarkvm
+nexmark
