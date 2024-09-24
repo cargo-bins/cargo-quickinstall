@@ -19,3 +19,4 @@ tendermint-abci
 nextest-filtering
 solana-remote-wallet
 solana-validator
+wol-rs
