@@ -68,3 +68,4 @@ cargo-smart-release
 foundationdb-gen
 opencv-binding-generator
 bgpkit-broker
+probe-rs-tools
