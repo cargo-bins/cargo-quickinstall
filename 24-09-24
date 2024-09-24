@@ -53,3 +53,4 @@ papyrus_storage
 pwasm-utils
 solana-remote-wallet
 sea-orm-cli
+tree-sitter-cli
