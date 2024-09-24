@@ -11,3 +11,4 @@ cargo-vet
 sn_cli
 schemafy
 protox
+raw-cpuid
