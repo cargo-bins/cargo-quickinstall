@@ -83,3 +83,4 @@ foundationdb-gen
 winpty-rs
 clippy
 human_name
+nextest-filtering
