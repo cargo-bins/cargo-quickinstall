@@ -38,3 +38,4 @@ rustfmt-nightly
 dotenv
 nkeys
 cached-path
+tree-sitter-graph
