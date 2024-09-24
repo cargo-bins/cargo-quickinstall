@@ -5,3 +5,4 @@ parquet
 spider_worker
 probe-rs-debugger
 protox
+cargo-unused-features
