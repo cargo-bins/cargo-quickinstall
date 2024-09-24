@@ -17,3 +17,4 @@ httpmock
 rrule
 cargo-local-registry
 httpmock
+sha1collisiondetection
