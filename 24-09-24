@@ -64,3 +64,4 @@ rustrict
 pwasm-utils
 ravedude
 graphql_client_cli
+cargo-smart-release
