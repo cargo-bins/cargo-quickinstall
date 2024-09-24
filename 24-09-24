@@ -16,3 +16,4 @@ rrule
 httpmock
 rrule
 cargo-local-registry
+httpmock
