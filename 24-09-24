@@ -21,3 +21,4 @@ solana-remote-wallet
 solana-validator
 wol-rs
 httpmock
+human_bytes
