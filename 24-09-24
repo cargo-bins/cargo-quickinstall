@@ -25,3 +25,4 @@ rls-rustc
 addr2line
 solana-gossip
 ubi
+tendermint-abci
