@@ -14,3 +14,4 @@ remove_dir_all
 foundationdb-gen
 human_bytes
 diesel_cli
+cargo-flash
