@@ -91,3 +91,4 @@ unic-langid-impl
 cargo-msrv
 paperclip
 unic-langid-impl
+mdbook-plantuml
