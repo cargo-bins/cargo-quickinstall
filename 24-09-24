@@ -21,3 +21,4 @@ honggfuzz
 addr2line
 human_bytes
 rustfmt
+papyrus_storage
