@@ -25,3 +25,4 @@ cargo-whatfeatures
 probe-rs-debugger
 pwasm-utils
 gpg-tui
+cached-path
