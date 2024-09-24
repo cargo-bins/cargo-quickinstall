@@ -45,3 +45,4 @@ parquet
 cargo-lock
 h3o
 gpg-tui
+remove_dir_all
