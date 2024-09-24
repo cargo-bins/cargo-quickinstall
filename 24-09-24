@@ -27,3 +27,4 @@ atuin
 socketcan
 cargo-flash
 clippy
+borsh
