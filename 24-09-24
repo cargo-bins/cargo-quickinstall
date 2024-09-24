@@ -2,3 +2,4 @@ cached-path
 dotenvy
 cargo-outdated
 rkv
+cached-path
