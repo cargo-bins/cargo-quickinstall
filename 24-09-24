@@ -16,3 +16,4 @@ wasm-bindgen-cli
 cargo-outdated
 winpty-rs
 clippy
+java-locator
