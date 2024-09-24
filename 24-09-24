@@ -42,3 +42,4 @@ unic-langid-impl
 arrow-flight
 httpmock
 cargo-lock
+re_query
