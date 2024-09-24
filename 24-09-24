@@ -5,3 +5,4 @@ xcp
 socketcan
 rls-rustc
 solana-remote-wallet
+diesel_cli
