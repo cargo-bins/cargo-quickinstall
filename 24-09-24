@@ -57,3 +57,4 @@ tree-sitter-cli
 rrule
 wol-rs
 tendermint-rpc
+pwasm-utils
