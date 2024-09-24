@@ -37,3 +37,4 @@ unic-langid-impl
 remove_dir_all
 py-spy
 sniffnet
+winpty-rs
