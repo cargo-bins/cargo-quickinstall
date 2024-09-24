@@ -9,3 +9,4 @@ diesel_cli
 sqlx-cli
 gitui
 solana-cli
+ansi2
