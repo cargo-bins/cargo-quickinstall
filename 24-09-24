@@ -56,3 +56,4 @@ sea-orm-cli
 tree-sitter-cli
 rrule
 wol-rs
+tendermint-rpc
