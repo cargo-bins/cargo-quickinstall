@@ -14,3 +14,4 @@ honggfuzz
 rmesg
 exa
 minicbor
+human_bytes
