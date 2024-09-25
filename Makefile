@@ -48,6 +48,8 @@ trigger-all: cronjob_scripts/.python-deps-updated.timestamp ## build some random
 
 .PHONY: test-cronjob-scripts
 test-cronjob-scripts: cronjob_scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob_scripts
+	python -m ruff format --check cronjob_scripts
+	python -m ruff check cronjob_scripts
 	python -m unittest discover -s cronjob_scripts
 	python cronjob_scripts/trigger-package-build.py --help
 	python cronjob_scripts/crates_io_popular_crates.py
