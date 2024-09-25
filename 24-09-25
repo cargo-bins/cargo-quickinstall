@@ -22,3 +22,4 @@ pomodoro
 rtx-cli
 apollo-router
 deploy
+cargo-local-registry
