@@ -9,3 +9,4 @@ cargo-about
 apollo-router
 cargo-local-registry
 mise
+cargo-tarpaulin
