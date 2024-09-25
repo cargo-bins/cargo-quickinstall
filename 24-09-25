@@ -88,3 +88,4 @@ cargo-whatfeatures
 httpmock
 eureka
 legba
+phf_generator
