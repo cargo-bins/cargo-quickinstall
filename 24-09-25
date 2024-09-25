@@ -54,3 +54,4 @@ winpty-rs
 spider_cli
 rkv
 redoxer
+tendermint-abci
