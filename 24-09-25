@@ -24,3 +24,4 @@ rls-rustc
 tendermint-abci
 parquet
 qsv
+rls-rustc
