@@ -8,3 +8,4 @@ mise
 sea-orm-cli
 cargo-unused-features
 rustfmt-nightly
+schemafy
