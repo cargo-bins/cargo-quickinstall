@@ -21,3 +21,4 @@ rrule
 ubi
 cargo-embed
 rls-rustc
+tendermint-abci
