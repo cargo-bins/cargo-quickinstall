@@ -80,7 +80,9 @@ def trigger_for_arch(target_arch: str):
             features = "vendored-openssl"
         else:
             features = ",".join(
-                feat for feat in version["features"].keys() if "vendored" in feat or "bundled" in feat
+                feat
+                for feat in version["features"].keys()
+                if "vendored" in feat or "bundled" in feat
             )
 
         workflow_run_input = {
@@ -163,7 +165,9 @@ def get_current_version_if_unbuilt(
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        print("Usage: INFLUXDB_TOKEN= TARGET_ARCH= CRATE_CHECK_LIMIT= RECHECK= GITHUB_REPOSITORY= trigger-package-build.py")
+        print(
+            "Usage: INFLUXDB_TOKEN= TARGET_ARCH= CRATE_CHECK_LIMIT= RECHECK= GITHUB_REPOSITORY= trigger-package-build.py"
+        )
         if sys.argv[1] == "--help":
             exit(0)
         exit(1)
