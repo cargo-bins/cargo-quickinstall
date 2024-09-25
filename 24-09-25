@@ -12,3 +12,4 @@ gnostr-bins
 sequoia-sq
 java-locator
 cargo-lock
+chain-spec-builder
