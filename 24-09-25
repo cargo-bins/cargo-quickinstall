@@ -58,3 +58,4 @@ tendermint-abci
 stac-cli
 deploy
 wol-rs
+tendermint-rpc
