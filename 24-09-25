@@ -23,3 +23,4 @@ cargo-embed
 rls-rustc
 tendermint-abci
 parquet
+qsv
