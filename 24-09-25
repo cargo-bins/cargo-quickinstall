@@ -10,3 +10,4 @@ cargo-tarpaulin
 cargo-about
 apollo-router
 cargo-local-registry
+apollo-router
