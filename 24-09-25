@@ -84,3 +84,4 @@ ripunzip
 httpmock
 pcu
 cargo-info
+cargo-whatfeatures
