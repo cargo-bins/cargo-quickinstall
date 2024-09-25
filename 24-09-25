@@ -10,3 +10,4 @@ dotenv
 apollo-router
 protox
 atuin
+honggfuzz
