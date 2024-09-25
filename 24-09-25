@@ -16,3 +16,4 @@ schemafy
 solana-gossip
 gpg-tui
 cargo-info
+cargo-smart-release
