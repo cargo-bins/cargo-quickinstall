@@ -5,3 +5,4 @@ zuse
 cached-path
 rustfmt-nightly
 re_query
+wmi
