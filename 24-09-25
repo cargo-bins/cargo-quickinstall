@@ -50,3 +50,4 @@ qrtool
 phf_generator
 rkv
 apollo-router
+winpty-rs
