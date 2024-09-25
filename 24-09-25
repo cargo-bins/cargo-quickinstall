@@ -18,3 +18,4 @@ gpg-tui
 cargo-info
 cargo-smart-release
 deploy
+xbuild
