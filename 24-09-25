@@ -48,3 +48,4 @@ probe-rs-tools
 cargo-public-api
 opencv-binding-generator
 syd
+apollo-router
