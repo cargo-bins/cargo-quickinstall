@@ -12,3 +12,4 @@ schemafy
 hurl
 opencv-binding-generator
 foundationdb-gen
+z3tracer
