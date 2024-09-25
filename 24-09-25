@@ -46,3 +46,4 @@ tree-sitter-cli
 wmi
 probe-rs-tools
 cargo-public-api
+opencv-binding-generator
