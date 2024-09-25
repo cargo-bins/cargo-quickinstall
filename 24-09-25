@@ -19,3 +19,4 @@ cargo-info
 cargo-smart-release
 deploy
 xbuild
+codeberg-cli
