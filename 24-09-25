@@ -11,3 +11,4 @@ cargo-local-registry
 mise
 cargo-tarpaulin
 cargo-local-registry
+wasm-bindgen-cli
