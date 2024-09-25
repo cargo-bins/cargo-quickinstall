@@ -11,3 +11,4 @@ cargo-about
 apollo-router
 cargo-local-registry
 apollo-router
+cargo-outdated
