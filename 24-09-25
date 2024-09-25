@@ -10,3 +10,4 @@ cargo-unused-features
 rustfmt-nightly
 schemafy
 hurl
+opencv-binding-generator
