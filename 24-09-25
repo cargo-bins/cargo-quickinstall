@@ -11,3 +11,4 @@ cargo-embed
 tendermint-rpc
 flowistry_ide
 atuin
+solana-cli
