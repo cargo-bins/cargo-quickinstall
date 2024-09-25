@@ -72,3 +72,4 @@ espflash
 git-next
 nu
 mdcat
+cargo-lock
