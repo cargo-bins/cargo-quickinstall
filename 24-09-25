@@ -34,3 +34,4 @@ syd
 solana-cli
 socketcan
 thoth
+addr2line
