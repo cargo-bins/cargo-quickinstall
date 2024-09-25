@@ -35,3 +35,4 @@ hurl
 cargo-quickbuild
 turbocommit
 qsv
+cargo-flash
