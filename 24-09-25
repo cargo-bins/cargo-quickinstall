@@ -16,3 +16,4 @@ xcp
 cargo-info
 starship
 dotenvy
+diesel_cli
