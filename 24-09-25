@@ -3,3 +3,4 @@ foundationdb-gen
 h3o
 zuse
 cached-path
+rustfmt-nightly
