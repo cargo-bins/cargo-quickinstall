@@ -6,3 +6,4 @@ apollo-router
 rustrict
 cargo-tarpaulin
 cargo-outdated
+cargo-tarpaulin
