@@ -57,3 +57,4 @@ redoxer
 tendermint-abci
 stac-cli
 deploy
+wol-rs
