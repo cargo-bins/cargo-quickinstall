@@ -44,3 +44,4 @@ cargo-show
 nextsv
 tree-sitter-cli
 wmi
+probe-rs-tools
