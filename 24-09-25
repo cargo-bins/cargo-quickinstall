@@ -7,3 +7,4 @@ cargo-info
 gpg-tui
 human_bytes
 cargo-public-api
+bgpkit-broker
