@@ -12,3 +12,4 @@ cargo-show
 textplots
 cargo-local-registry
 cargo-embed
+cargo-show
