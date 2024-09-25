@@ -14,3 +14,4 @@ atuin
 solana-cli
 chain-spec-builder
 cargo-flash
+tendermint-abci
