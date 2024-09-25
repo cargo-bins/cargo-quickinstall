@@ -3,3 +3,4 @@ rrule
 patch-crate
 cargo-graph
 paperclip
+socketcan
