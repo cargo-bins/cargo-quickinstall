@@ -10,3 +10,4 @@ tendermint-abci
 cargo-embed
 tendermint-rpc
 flowistry_ide
+atuin
