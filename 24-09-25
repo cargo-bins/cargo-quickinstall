@@ -50,3 +50,4 @@ opencv-binding-generator
 syd
 apollo-router
 phf_generator
+minicbor
