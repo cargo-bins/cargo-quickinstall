@@ -25,3 +25,4 @@ deploy
 cargo-local-registry
 cargo-count
 ytop
+cargo-local-registry
