@@ -15,3 +15,4 @@ solana-cli
 chain-spec-builder
 cargo-flash
 tendermint-abci
+chain-spec-builder
