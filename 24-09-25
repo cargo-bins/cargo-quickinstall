@@ -44,3 +44,4 @@ laminar
 asm-lsp
 duma
 redoxer
+addr2line
