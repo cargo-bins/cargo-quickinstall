@@ -3,3 +3,4 @@ cargo-tarpaulin
 cargo-outdated
 starship
 apollo-router
+rustrict
