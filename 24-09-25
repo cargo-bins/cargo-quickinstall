@@ -4,3 +4,4 @@ patch-crate
 cargo-graph
 paperclip
 socketcan
+sequoia-chameleon-gnupg
