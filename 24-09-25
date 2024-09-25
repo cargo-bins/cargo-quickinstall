@@ -60,3 +60,4 @@ deploy
 wol-rs
 tendermint-rpc
 snarkvm
+bugstalker
