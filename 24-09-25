@@ -5,3 +5,4 @@ rav1e
 clippy
 cargo-info
 gpg-tui
+human_bytes
