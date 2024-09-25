@@ -13,3 +13,4 @@ hurl
 opencv-binding-generator
 foundationdb-gen
 z3tracer
+ducc-sys
