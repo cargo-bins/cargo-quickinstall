@@ -8,3 +8,4 @@ sqlx-cli
 gitui
 pomodoro
 rmesg
+cargo-show
