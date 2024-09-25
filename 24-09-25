@@ -5,3 +5,4 @@ wasm-bindgen-cli
 cargo-outdated
 cargo-outdated
 tauri-cli
+cargo-about
