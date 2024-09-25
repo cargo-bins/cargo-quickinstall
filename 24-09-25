@@ -12,3 +12,4 @@ mise
 cargo-tarpaulin
 cargo-local-registry
 wasm-bindgen-cli
+cargo-outdated
