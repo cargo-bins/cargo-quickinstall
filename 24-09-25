@@ -6,3 +6,4 @@ cargo-outdated
 cargo-outdated
 tauri-cli
 cargo-about
+apollo-router
