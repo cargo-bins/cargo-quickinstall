@@ -49,3 +49,4 @@ cargo-public-api
 opencv-binding-generator
 syd
 apollo-router
+phf_generator
