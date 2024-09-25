@@ -11,3 +11,4 @@ rustfmt-nightly
 gnostr-bins
 sequoia-sq
 java-locator
+cargo-lock
