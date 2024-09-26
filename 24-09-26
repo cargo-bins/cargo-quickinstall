@@ -43,3 +43,4 @@ drone
 git-next
 vrc-log
 schematools-cli
+cpp_demangle
