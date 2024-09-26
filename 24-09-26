@@ -64,3 +64,4 @@ schematools-cli
 cargo-public-api
 graphql_client_cli
 ripdrag
+speedtest-rs
