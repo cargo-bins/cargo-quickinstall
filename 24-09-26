@@ -14,3 +14,4 @@ cargo-udeps
 cargo-lock
 cargo-generate
 apollo-router
+cargo-local-registry
