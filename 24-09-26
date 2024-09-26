@@ -9,3 +9,4 @@ cargo-generate
 cargo-udeps
 cargo-udeps
 cargo-tarpaulin
+sccache
