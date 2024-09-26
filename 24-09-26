@@ -8,3 +8,4 @@ cargo-lock
 apollo-router
 cargo-about
 sccache
+cargo-generate
