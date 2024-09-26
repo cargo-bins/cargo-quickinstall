@@ -10,3 +10,4 @@ cargo-udeps
 cargo-udeps
 cargo-tarpaulin
 sccache
+cargo-udeps
