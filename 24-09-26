@@ -20,3 +20,4 @@ cargo-show
 diesel_cli
 solana-genesis
 apollo-router
+pomodoro
