@@ -59,3 +59,4 @@ cargo-spellcheck
 typst-cli
 termusic
 dotenv
+foundationdb-gen
