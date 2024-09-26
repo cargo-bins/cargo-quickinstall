@@ -52,3 +52,4 @@ thoth
 pcu
 hoard-rs
 rustfmt-nightly
+schematools-cli
