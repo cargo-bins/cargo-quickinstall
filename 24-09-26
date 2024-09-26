@@ -54,3 +54,4 @@ hoard-rs
 rustfmt-nightly
 schematools-cli
 schemafy
+graphql_client_cli
