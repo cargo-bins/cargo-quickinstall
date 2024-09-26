@@ -6,3 +6,4 @@ cargo-c
 mise
 starship
 cargo-generate
+cargo-udeps
