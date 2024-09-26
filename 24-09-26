@@ -27,3 +27,4 @@ paperclip
 nu_plugin_gstat
 turbocommit
 ducc-sys
+cargo-lock
