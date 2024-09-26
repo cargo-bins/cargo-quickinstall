@@ -62,3 +62,4 @@ dotenv
 foundationdb-gen
 protox
 sshx
+schemafy
