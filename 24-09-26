@@ -11,3 +11,4 @@ cargo-udeps
 cargo-tarpaulin
 sccache
 cargo-udeps
+cargo-lock
