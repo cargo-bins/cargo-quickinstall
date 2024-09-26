@@ -5,3 +5,4 @@ cargo-graph
 clippy
 atuin
 qsv
+apollo-router
