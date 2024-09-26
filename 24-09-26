@@ -29,3 +29,4 @@ hurlfmt
 addr2line
 rioterm
 yofi
+cargo-lock
