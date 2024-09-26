@@ -53,12 +53,14 @@ async fn record_install(Query(params): Query<BTreeMap<String, String>>) -> Strin
 
     let mut point = Measurement::builder("counts").field("count", 1);
     for (tag, value) in &params {
-        if tag == "target" {
-            // quickinstall 0.3.0 calls it target but everything else calls it arch
+        if ["target", "arch"].contains(&tag.as_str()) {
+            // quickinstall 0.3.0 and later call it target but earlier things call it arch.
+            // We'll just tag both for now until we can patch the old stats server to do the translation there.
+            point = point.tag("target", value.as_str());
             point = point.tag("arch", value.as_str());
             continue;
         }
-        if !["crate", "version", "arch", "agent", "status"].contains(&tag.as_str()) {
+        if !["crate", "version", "target", "agent", "status"].contains(&tag.as_str()) {
             println!("Skipping unknown query param: {tag}={value}");
             continue;
         }
