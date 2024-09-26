@@ -17,3 +17,4 @@ cargo-c
 apollo-router
 cargo-generate
 solana-genesis
+cargo-lock
