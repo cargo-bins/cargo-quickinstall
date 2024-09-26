@@ -58,3 +58,4 @@ graphql_client_cli
 cargo-spellcheck
 typst-cli
 termusic
+dotenv
