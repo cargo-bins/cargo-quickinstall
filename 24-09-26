@@ -12,3 +12,4 @@ tendermint-rpc
 bgpkit-parser
 pcu
 tendermint-rpc
+ruff
