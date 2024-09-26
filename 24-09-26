@@ -3,3 +3,4 @@ chain-spec-builder
 solana-cli
 cargo-graph
 clippy
+atuin
