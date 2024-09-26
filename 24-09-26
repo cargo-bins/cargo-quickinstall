@@ -4,3 +4,4 @@ kanidm_tools
 nu
 cargo-msrv
 archwiki-rs
+xbuild
