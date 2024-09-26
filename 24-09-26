@@ -9,3 +9,4 @@ oso
 opencv-binding-generator
 probe-rs-debugger
 tectonic
+cargo-lock
