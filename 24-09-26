@@ -45,3 +45,4 @@ vrc-log
 schematools-cli
 cpp_demangle
 redoxer
+minicbor
