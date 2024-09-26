@@ -62,3 +62,4 @@ atuin
 speedtest-rs
 schematools-cli
 cargo-public-api
+graphql_client_cli
