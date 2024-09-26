@@ -18,3 +18,4 @@ sea-orm-cli
 cargo-info
 kanidm_tools
 cargo-whatfeatures
+rg
