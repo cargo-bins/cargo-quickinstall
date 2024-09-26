@@ -24,31 +24,31 @@ cronjob-scripts/.python-deps-updated.timestamp: cronjob-scripts/requirements.txt
 
 .PHONY: windows
 windows: cronjob-scripts/.python-deps-updated.timestamp ## trigger a windows build
-	RECHECK=1 TARGET=x86_64-pc-windows-msvc python cronjob-scripts/trigger-package-build.py
+	RECHECK=1 TARGET=x86_64-pc-windows-msvc python cronjob-scripts/bin/trigger-package-build.py
 
 .PHONY: mac
 mac: cronjob-scripts/.python-deps-updated.timestamp ## trigger a mac build
-	RECHECK=1 TARGET=x86_64-apple-darwin python cronjob-scripts/trigger-package-build.py
+	RECHECK=1 TARGET=x86_64-apple-darwin python cronjob-scripts/bin/trigger-package-build.py
 
 .PHONY: m1
 m1: cronjob-scripts/.python-deps-updated.timestamp ## trigger a mac m1 build
-	RECHECK=1 TARGET=aarch64-apple-darwin python cronjob-scripts/trigger-package-build.py
+	RECHECK=1 TARGET=aarch64-apple-darwin python cronjob-scripts/bin/trigger-package-build.py
 
 .PHONY: linux
 linux: cronjob-scripts/.python-deps-updated.timestamp ## trigger a linux build
-	RECHECK=1 TARGET=x86_64-unknown-linux-gnu python cronjob-scripts/trigger-package-build.py
+	RECHECK=1 TARGET=x86_64-unknown-linux-gnu python cronjob-scripts/bin/trigger-package-build.py
 
 .PHONY: linux-musl
 linux-musl: cronjob-scripts/.python-deps-updated.timestamp ## trigger a musl libc-based linux build
-	RECHECK=1 TARGET=x86_64-unknown-linux-musl python cronjob-scripts/trigger-package-build.py
+	RECHECK=1 TARGET=x86_64-unknown-linux-musl python cronjob-scripts/bin/trigger-package-build.py
 
 .PHONY: recheck
 recheck: cronjob-scripts/.python-deps-updated.timestamp ## build ourself and some random packages on all arches
-	RECHECK=1 TARGET=all python cronjob-scripts/trigger-package-build.py
+	RECHECK=1 TARGET=all python cronjob-scripts/bin/trigger-package-build.py
 
 .PHONY: trigger-all
 trigger-all: cronjob-scripts/.python-deps-updated.timestamp ## build some random packages on all arches
-	TARGET=all python cronjob-scripts/trigger-package-build.py
+	TARGET=all python cronjob-scripts/bin/trigger-package-build.py
 
 .PHONY: fmt
 fmt: ## run rustfmt and ruff format

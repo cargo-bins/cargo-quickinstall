@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+from functools import lru_cache
 import subprocess
 
-
+@lru_cache
 def checkout_worktree_for_target(target: str):
     """
     Checkout a git worktree for the given target, in /tmp.

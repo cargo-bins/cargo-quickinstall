@@ -55,7 +55,6 @@ def get_stats(period: str) -> DataFrame:
         mode="polars",
     )
 
-    print(table)
     return table
 
 
