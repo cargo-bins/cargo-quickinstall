@@ -2,7 +2,7 @@ from pathlib import Path
 import unittest
 
 
-from cronjob_scripts.architectures import TARGET_ARCH_TO_BUILD_OS
+from cronjob_scripts.targets import TARGET_TO_BUILD_OS
 
 
 class TestMyScript(unittest.TestCase):
@@ -13,6 +13,6 @@ class TestMyScript(unittest.TestCase):
         ) as file:
             supported_targets = [word for word in file.read().split() if word]
 
-        assert set(TARGET_ARCH_TO_BUILD_OS.keys()) == set(
+        assert set(TARGET_TO_BUILD_OS.keys()) == set(
             supported_targets
-        ), "please keep /supported-targets and TARGET_ARCH_TO_BUILD_OS in sync"
+        ), "please keep /supported-targets and TARGET_TO_BUILD_OS in sync"

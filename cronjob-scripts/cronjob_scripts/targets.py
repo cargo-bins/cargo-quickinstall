@@ -4,7 +4,7 @@ import os
 import subprocess
 
 
-TARGET_ARCH_TO_BUILD_OS = {
+TARGET_TO_BUILD_OS = {
     "x86_64-apple-darwin": "macos-latest",
     "aarch64-apple-darwin": "macos-latest",
     "x86_64-unknown-linux-gnu": "ubuntu-20.04",
@@ -18,20 +18,20 @@ TARGET_ARCH_TO_BUILD_OS = {
 }
 
 
-def get_build_os(target_arch: str) -> str:
+def get_build_os(target: str) -> str:
     try:
-        return TARGET_ARCH_TO_BUILD_OS[target_arch]
+        return TARGET_TO_BUILD_OS[target]
     except KeyError:
-        raise ValueError(f"Unrecognised target arch: {target_arch}")
+        raise ValueError(f"Unrecognised target: {target}")
 
 
-def get_target_architectures() -> list[str]:
-    target_arch = os.environ.get("TARGET_ARCH", None)
-    if target_arch in TARGET_ARCH_TO_BUILD_OS:
-        return [target_arch]
+def get_targets() -> list[str]:
+    target = os.environ.get("TARGET", None)
+    if target in TARGET_TO_BUILD_OS:
+        return [target]
 
-    if target_arch == "all":
-        return list(TARGET_ARCH_TO_BUILD_OS.keys())
+    if target == "all":
+        return list(TARGET_TO_BUILD_OS.keys())
 
     rustc_version_output = subprocess.run(
         ["rustc", "--version", "--verbose"], capture_output=True, text=True

@@ -13,25 +13,25 @@ jobs:
     strategy:
       matrix:
         include:
-          - target_arch: x86_64-pc-windows-msvc
+          - target: x86_64-pc-windows-msvc
             os: windows-latest
-          - target_arch: aarch64-pc-windows-msvc
+          - target: aarch64-pc-windows-msvc
             os: windows-latest
-          - target_arch: x86_64-apple-darwin
+          - target: x86_64-apple-darwin
             os: macos-latest
-          - target_arch: aarch64-apple-darwin
+          - target: aarch64-apple-darwin
             os: macos-latest
-          - target_arch: x86_64-unknown-linux-gnu
+          - target: x86_64-unknown-linux-gnu
             os: ubuntu-20.04
-          - target_arch: x86_64-unknown-linux-musl
+          - target: x86_64-unknown-linux-musl
             os: ubuntu-20.04
-          - target_arch: aarch64-unknown-linux-gnu
+          - target: aarch64-unknown-linux-gnu
             os: ubuntu-20.04
-          - target_arch: aarch64-unknown-linux-musl
+          - target: aarch64-unknown-linux-musl
             os: ubuntu-20.04
-          - target_arch: armv7-unknown-linux-gnueabihf
+          - target: armv7-unknown-linux-gnueabihf
             os: ubuntu-20.04
-          - target_arch: armv7-unknown-linux-musleabihf
+          - target: armv7-unknown-linux-musleabihf
             os: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
@@ -43,7 +43,7 @@ jobs:
 
       - name: Build Thyself
         env:
-          TARGET_ARCH: ${{ matrix.target_arch }}
+          TARGET: ${{ matrix.target }}
         run: |
           set -euxo pipefail
 
@@ -65,17 +65,17 @@ jobs:
     strategy:
       matrix:
         include:
-          - target_arch: x86_64-pc-windows-msvc
+          - target: x86_64-pc-windows-msvc
             os: windows-latest
-          - target_arch: x86_64-apple-darwin
+          - target: x86_64-apple-darwin
             os: macos-latest
-          - target_arch: aarch64-apple-darwin
+          - target: aarch64-apple-darwin
             os: macos-latest
-          - target_arch: x86_64-unknown-linux-gnu
+          - target: x86_64-unknown-linux-gnu
             os: ubuntu-20.04
-          - target_arch: x86_64-unknown-linux-musl
+          - target: x86_64-unknown-linux-musl
             os: ubuntu-20.04
-          - target_arch: aarch64-unknown-linux-gnu
+          - target: aarch64-unknown-linux-gnu
             os: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
@@ -99,23 +99,23 @@ jobs:
     strategy:
       matrix:
         include:
-          - target_arch: x86_64-pc-windows-msvc
+          - target: x86_64-pc-windows-msvc
             os: windows-latest
-          - target_arch: armv7-unknown-linux-gnueabihf
+          - target: armv7-unknown-linux-gnueabihf
             os: ubuntu-20.04
-          - target_arch: armv7-unknown-linux-musleabihf
+          - target: armv7-unknown-linux-musleabihf
             os: ubuntu-20.04
-          - target_arch: x86_64-apple-darwin
+          - target: x86_64-apple-darwin
             os: macos-latest
-          - target_arch: aarch64-apple-darwin
+          - target: aarch64-apple-darwin
             os: macos-latest
-          - target_arch: x86_64-unknown-linux-gnu
+          - target: x86_64-unknown-linux-gnu
             os: ubuntu-20.04
-          - target_arch: x86_64-unknown-linux-musl
+          - target: x86_64-unknown-linux-musl
             os: ubuntu-20.04
-          - target_arch: aarch64-unknown-linux-gnu
+          - target: aarch64-unknown-linux-gnu
             os: ubuntu-20.04
-          - target_arch: aarch64-unknown-linux-musl
+          - target: aarch64-unknown-linux-musl
             os: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
@@ -128,7 +128,7 @@ jobs:
       # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
       - name: Build cargo-deny
         env:
-          TARGET_ARCH: ${{ matrix.target_arch }}
+          TARGET: ${{ matrix.target }}
         run: |
           set -euxo pipefail
           touch .env
@@ -138,7 +138,7 @@ jobs:
               --fail "https://crates.io/api/v1/crates/cargo-deny" \
               | jq -r '.crate|.max_stable_version'
           )"
-          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-deny
+          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET="$TARGET" ./build-version.sh cargo-deny
 
   build-package-test:
     name: Build package test
@@ -147,7 +147,7 @@ jobs:
     with:
       crate: cargo-quickinstall
       version: 0.2.9
-      target_arch: x86_64-unknown-linux-gnu
+      target: x86_64-unknown-linux-gnu
       build_os: ubuntu-latest
       branch: ${{ github.head_ref }}
       always_build: 1

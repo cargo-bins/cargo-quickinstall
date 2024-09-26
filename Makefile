@@ -2,57 +2,67 @@
 publish: release ## alias for `make release`
 
 .PHONY: release
-release: cronjob_scripts/.python-deps-updated.timestamp ## Publish a new release
+release: cronjob-scripts/.python-deps-updated.timestamp ## Publish a new release
 	(cd cargo-quickinstall/ && cargo release patch --execute --no-push)
 	git push origin HEAD:release --tags
 	$(MAKE) recheck
 
-cronjob_scripts/requirements.txt: cronjob_scripts/pyproject.toml ## Compile the python dependencies from pyproject.toml into requirements.txt
-	(cd cronjob_scripts && uv pip compile pyproject.toml --python-version=3.8 --output-file requirements.txt)
+cronjob-scripts/requirements.txt: cronjob-scripts/pyproject.toml ## Compile the python dependencies from pyproject.toml into requirements.txt
+	(cd cronjob-scripts && uv pip compile pyproject.toml --python-version=3.8 --output-file requirements.txt)
 
 # install python dependencies and then record that we've done so so we don't do it again
 # WARNING: this will mess with whatever python venv you happen to be in.
 # this is run on the github actions runner so we can't use uv
-cronjob_scripts/.python-deps-updated.timestamp: cronjob_scripts/requirements.txt
+cronjob-scripts/.python-deps-updated.timestamp: cronjob-scripts/requirements.txt
 	python --version
-	pip install -r cronjob_scripts/requirements.txt
-	touch cronjob_scripts/.python-deps-updated.timestamp
+	# FIXME: I don't think we really need both of these, but it's kind-of nice to use requirements.txt as the Makefile dependency for this rule.
+	# Potentially we could just use the pyproject.toml file as the dependency and then run `pip install .` in the cronjob-scripts directory?
+	# It feels like I've still not caught up with  what the best practices are for python packaging of devtool scripts + libs.
+	pip install -r cronjob-scripts/requirements.txt
+	python -m pip install --editable cronjob-scripts/
+	touch cronjob-scripts/.python-deps-updated.timestamp
 
 .PHONY: windows
-windows: cronjob_scripts/.python-deps-updated.timestamp ## trigger a windows build
-	RECHECK=1 TARGET_ARCH=x86_64-pc-windows-msvc python cronjob_scripts/trigger-package-build.py
+windows: cronjob-scripts/.python-deps-updated.timestamp ## trigger a windows build
+	RECHECK=1 TARGET=x86_64-pc-windows-msvc python cronjob-scripts/trigger-package-build.py
 
 .PHONY: mac
-mac: cronjob_scripts/.python-deps-updated.timestamp ## trigger a mac build
-	RECHECK=1 TARGET_ARCH=x86_64-apple-darwin python cronjob_scripts/trigger-package-build.py
+mac: cronjob-scripts/.python-deps-updated.timestamp ## trigger a mac build
+	RECHECK=1 TARGET=x86_64-apple-darwin python cronjob-scripts/trigger-package-build.py
 
 .PHONY: m1
-m1: cronjob_scripts/.python-deps-updated.timestamp ## trigger a mac m1 build
-	RECHECK=1 TARGET_ARCH=aarch64-apple-darwin python cronjob_scripts/trigger-package-build.py
+m1: cronjob-scripts/.python-deps-updated.timestamp ## trigger a mac m1 build
+	RECHECK=1 TARGET=aarch64-apple-darwin python cronjob-scripts/trigger-package-build.py
 
 .PHONY: linux
-linux: cronjob_scripts/.python-deps-updated.timestamp ## trigger a linux build
-	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-gnu python cronjob_scripts/trigger-package-build.py
+linux: cronjob-scripts/.python-deps-updated.timestamp ## trigger a linux build
+	RECHECK=1 TARGET=x86_64-unknown-linux-gnu python cronjob-scripts/trigger-package-build.py
 
 .PHONY: linux-musl
-linux-musl: cronjob_scripts/.python-deps-updated.timestamp ## trigger a musl libc-based linux build
-	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-musl python cronjob_scripts/trigger-package-build.py
+linux-musl: cronjob-scripts/.python-deps-updated.timestamp ## trigger a musl libc-based linux build
+	RECHECK=1 TARGET=x86_64-unknown-linux-musl python cronjob-scripts/trigger-package-build.py
 
 .PHONY: recheck
-recheck: cronjob_scripts/.python-deps-updated.timestamp ## build ourself and some random packages on all arches
-	RECHECK=1 TARGET_ARCH=all python cronjob_scripts/trigger-package-build.py
+recheck: cronjob-scripts/.python-deps-updated.timestamp ## build ourself and some random packages on all arches
+	RECHECK=1 TARGET=all python cronjob-scripts/trigger-package-build.py
 
 .PHONY: trigger-all
-trigger-all: cronjob_scripts/.python-deps-updated.timestamp ## build some random packages on all arches
-	TARGET_ARCH=all python cronjob_scripts/trigger-package-build.py
+trigger-all: cronjob-scripts/.python-deps-updated.timestamp ## build some random packages on all arches
+	TARGET=all python cronjob-scripts/trigger-package-build.py
+
+.PHONY: fmt
+fmt: ## run rustfmt and ruff format
+	cargo fmt
+	ruff format cronjob-scripts
 
 .PHONY: test-cronjob-scripts
-test-cronjob-scripts: cronjob_scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob_scripts
-	python -m ruff format --check cronjob_scripts
-	python -m ruff check cronjob_scripts
-	python -m unittest discover -s cronjob_scripts
-	python cronjob_scripts/trigger-package-build.py --help
-	python cronjob_scripts/crates_io_popular_crates.py
+test-cronjob-scripts: cronjob-scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob-scripts
+	python -m ruff format --check cronjob-scripts
+	python -m ruff check cronjob-scripts
+	python -m unittest discover -s cronjob-scripts
+	python cronjob-scripts/bin/trigger-package-build.py --help
+	python cronjob-scripts/bin/stats.py
+	python cronjob-scripts/bin/crates-io-popular-crates.py
 
 .PHONY: help
 help: ## Display this help screen

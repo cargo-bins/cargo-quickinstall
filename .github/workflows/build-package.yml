@@ -11,7 +11,7 @@ on:
         description: Version to release
         required: true
         type: string
-      target_arch:
+      target:
         description: Target to build against
         required: true
         type: string
@@ -49,7 +49,7 @@ on:
         description: Version to release
         required: true
         type: string
-      target_arch:
+      target:
         description: Target to build against
         required: true
         type: string
@@ -79,11 +79,11 @@ on:
         type: string
 
 concurrency:
-  group: build-package-${{ github.event.inputs.crate }}-${{ github.event.inputs.version }}-${{ github.event.inputs.target_arch }}
+  group: build-package-${{ github.event.inputs.crate }}-${{ github.event.inputs.version }}-${{ github.event.inputs.target }}
 
 env:
   CRATE: ${{ inputs.crate }}
-  TARGET_ARCH: ${{ inputs.target_arch }}
+  TARGET: ${{ inputs.target }}
   VERSION: ${{ inputs.version }}
   FEATURES: ${{ inputs.features }}
   NO_DEFAULT_FEATURES: ${{ inputs.NO_DEFAULT_FEATURES }}
@@ -91,7 +91,7 @@ env:
 
 jobs:
   build-popular-package:
-    name: build-popular-package-${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
+    name: build-popular-package-${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target }}-${{ inputs.features }}
     runs-on: ${{ inputs.build_os }}
     permissions: {}
     defaults:
@@ -114,7 +114,7 @@ jobs:
         run: |
           echo $CRATE
           echo $VERSION
-          echo $TARGET_ARCH
+          echo $TARGET
           echo $FEATURES
 
       - name: Install latest rust
@@ -155,8 +155,8 @@ jobs:
       run:
         shell: bash
     env:
-      BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
-      SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
+      BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target }}.tar.gz
+      SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target }}.tar.gz.sig
     steps:
       - name: Checkout trigger commit
         uses: actions/checkout@v4
@@ -263,7 +263,7 @@ jobs:
         with:
           ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
-          ref: trigger/${{ inputs.target_arch }}
+          ref: trigger/${{ inputs.target }}
           path: trigger
       - name: Checkout trigger commit
         uses: actions/checkout@v4
