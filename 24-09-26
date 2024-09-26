@@ -6,3 +6,4 @@ cargo-graph
 parquet
 mise
 chain-spec-builder
+pnafs
