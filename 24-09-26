@@ -75,3 +75,4 @@ salvo-cli
 rustfmt-nightly
 ripdrag
 git-next
+hurlfmt
