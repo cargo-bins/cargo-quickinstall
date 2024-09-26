@@ -5,3 +5,4 @@ cargo-c
 cargo-local-registry
 cargo-udeps
 cargo-lock
+apollo-router
