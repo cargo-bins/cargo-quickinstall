@@ -16,3 +16,4 @@ ruff
 xplr
 sea-orm-cli
 cargo-info
+kanidm_tools
