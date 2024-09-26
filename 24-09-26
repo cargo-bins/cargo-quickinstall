@@ -3,3 +3,4 @@ raw-cpuid
 spider_cli
 probe-rs-debugger
 archwiki-rs
+qrtool
