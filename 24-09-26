@@ -20,3 +20,4 @@ kanidm_tools
 cargo-whatfeatures
 rg
 cargo-pgrx
+tree-sitter-graph
