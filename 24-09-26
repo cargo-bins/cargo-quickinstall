@@ -40,3 +40,4 @@ cargo-whatfeatures
 bugstalker
 sea-orm-cli
 graphql_client_cli
+nextsv
