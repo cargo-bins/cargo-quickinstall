@@ -3,3 +3,4 @@ cargo-tarpaulin
 cargo-tarpaulin
 cargo-c
 cargo-local-registry
+cargo-udeps
