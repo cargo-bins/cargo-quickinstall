@@ -25,3 +25,4 @@ cargo-spellcheck
 cargo-public-api
 bgpkit-broker
 sniffnet
+hurlfmt
