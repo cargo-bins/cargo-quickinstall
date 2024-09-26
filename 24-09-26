@@ -38,3 +38,4 @@ vrc-log
 sshx
 cargo-whatfeatures
 bugstalker
+sea-orm-cli
