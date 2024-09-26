@@ -14,3 +14,4 @@ pcu
 tendermint-rpc
 ruff
 xplr
+sea-orm-cli
