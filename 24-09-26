@@ -17,3 +17,4 @@ clippy
 atuin
 apollo-router
 cargo-show
+diesel_cli
