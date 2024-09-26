@@ -1,3 +1,4 @@
 apollo-router
 wasm-bindgen-cli
 solana-genesis
+cargo-udeps
