@@ -2,3 +2,4 @@ rkv
 cargo-info
 kanidm_tools
 nu
+cargo-msrv
