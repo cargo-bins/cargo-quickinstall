@@ -17,3 +17,4 @@ apollo-router
 cargo-local-registry
 cargo-udeps
 cargo-lock
+cargo-c
