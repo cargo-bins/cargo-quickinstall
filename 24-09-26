@@ -5,3 +5,4 @@ cargo-embed
 cargo-graph
 parquet
 mise
+chain-spec-builder
