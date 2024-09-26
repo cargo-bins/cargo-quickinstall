@@ -30,3 +30,4 @@ ducc-sys
 cargo-lock
 dotenvy
 hurl
+gnostr-bins
