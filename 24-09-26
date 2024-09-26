@@ -12,3 +12,4 @@ cargo-generate
 cargo-generate
 solana-genesis
 cargo-udeps
+cargo-c
