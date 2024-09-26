@@ -46,3 +46,4 @@ schematools-cli
 cpp_demangle
 redoxer
 minicbor
+cargo-list
