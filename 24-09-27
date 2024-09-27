@@ -30,3 +30,4 @@ cargo-udeps
 deploy
 pgrx-tests
 solana-keygen
+unic-langid-impl
