@@ -10,3 +10,4 @@ solana-validator
 human_bytes
 diesel_cli
 sqlx-cli
+solana-genesis
