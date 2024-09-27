@@ -18,3 +18,4 @@ borsh
 dotenvy
 addr2line
 remove_dir_all
+raw-cpuid
