@@ -3,3 +3,4 @@ cpp_demangle
 rustbus
 deploy
 phf_generator
+rustfmt-nightly
