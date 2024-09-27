@@ -83,3 +83,4 @@ cpp_demangle
 probe-rs-debugger
 porsmo
 arrow-flight
+mdcat
