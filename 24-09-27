@@ -17,3 +17,4 @@ cargo-local-registry
 cargo-lock
 addr2line
 rls-rustc
+rustrict
