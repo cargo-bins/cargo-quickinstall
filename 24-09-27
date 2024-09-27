@@ -19,3 +19,4 @@ addr2line
 rls-rustc
 rustrict
 foundationdb-gen
+arrow-flight
