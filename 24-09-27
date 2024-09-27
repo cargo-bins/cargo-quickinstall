@@ -30,3 +30,4 @@ ruff
 cargo-smart-release
 ripdrag
 ravedude
+asm-lsp
