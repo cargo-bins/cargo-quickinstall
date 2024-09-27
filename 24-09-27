@@ -39,3 +39,4 @@ sccache
 cargo-c
 unic-langid-impl
 tree-sitter-cli
+phf_generator
