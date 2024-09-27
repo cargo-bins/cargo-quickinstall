@@ -10,3 +10,4 @@ racer
 cargo-lock
 ducc-sys
 parquet
+nexmark
