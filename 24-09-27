@@ -21,3 +21,4 @@ rustrict
 foundationdb-gen
 arrow-flight
 sha1collisiondetection
+wol-rs
