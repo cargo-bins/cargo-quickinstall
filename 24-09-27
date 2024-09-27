@@ -22,3 +22,4 @@ graphql_client_cli
 foundationdb-gen
 tendermint-abci
 cached-path
+re_query
