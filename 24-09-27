@@ -36,3 +36,4 @@ cargo-lock
 addr2line
 oso
 sccache
+cargo-c
