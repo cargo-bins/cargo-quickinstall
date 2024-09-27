@@ -3,3 +3,4 @@ cargo-quickbuild
 czkawka_gui
 google-drive3-cli
 gnostr-bins
+rls-rustc
