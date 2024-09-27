@@ -35,3 +35,4 @@ sccache
 solana-validator
 cargo-c
 clippy
+racer
