@@ -32,3 +32,4 @@ pgrx-tests
 rtx-cli
 sniffnet
 minicbor
+sha1collisiondetection
