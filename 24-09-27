@@ -45,3 +45,4 @@ starship
 rkv
 solana-genesis
 rustfmt-nightly
+solana-verify
