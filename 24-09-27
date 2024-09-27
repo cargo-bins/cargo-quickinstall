@@ -89,3 +89,4 @@ release
 commitgpt
 rencfs
 drone
+cargo-smart-release
