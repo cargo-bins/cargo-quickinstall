@@ -28,3 +28,4 @@ borsh
 unic-langid-impl
 deploy
 diesel_cli
+cargo-tarpaulin
