@@ -10,3 +10,4 @@ cargo-public-api
 thoth
 socketcan
 cpp_demangle
+salvo-cli
