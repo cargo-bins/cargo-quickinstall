@@ -14,3 +14,4 @@ solana-genesis
 sccache
 ducc-sys
 socketcan
+pgrx-tests
