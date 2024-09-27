@@ -30,3 +30,4 @@ cargo-quickbuild
 pgrx-tests
 av1an
 deno
+nextest-filtering
