@@ -29,3 +29,4 @@ pgrx-tests
 borsh
 honggfuzz
 pgrx-tests
+rtx-cli
