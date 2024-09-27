@@ -31,3 +31,4 @@ diesel_cli
 cargo-tarpaulin
 solana-genesis
 remove_dir_all
+sccache
