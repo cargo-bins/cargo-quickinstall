@@ -16,3 +16,4 @@ ducc-sys
 socketcan
 pgrx-tests
 starship
+cargo-generate
