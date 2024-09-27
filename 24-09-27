@@ -11,3 +11,4 @@ cargo-c
 unic-langid-impl
 py-spy
 human_bytes
+solana-genesis
