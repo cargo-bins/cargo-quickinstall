@@ -28,3 +28,4 @@ papyrus_storage
 sccache
 cargo-udeps
 deploy
+pgrx-tests
