@@ -2,3 +2,4 @@ starship
 rustfmt-nightly
 tendermint-rpc
 h3o
+rkv
