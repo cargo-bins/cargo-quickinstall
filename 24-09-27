@@ -25,3 +25,4 @@ wol-rs
 remove_dir_all
 cargo-lock
 borsh
+unic-langid-impl
