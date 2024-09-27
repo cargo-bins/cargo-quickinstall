@@ -27,3 +27,4 @@ minicbor
 papyrus_storage
 sccache
 cargo-udeps
+deploy
