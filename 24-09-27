@@ -11,3 +11,4 @@ cargo-lock
 ducc-sys
 parquet
 nexmark
+turbocommit
