@@ -6,3 +6,4 @@ duma
 archwiki-rs
 snarkvm
 pwasm-utils
+cargo-public-api
