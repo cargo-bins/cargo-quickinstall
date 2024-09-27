@@ -5,3 +5,4 @@ cargo-info
 pgrx-tests
 tendermint-rpc
 solana-gossip
+borsh
