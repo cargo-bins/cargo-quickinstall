@@ -3,3 +3,4 @@ rustfmt-nightly
 tendermint-rpc
 h3o
 rkv
+human_name
