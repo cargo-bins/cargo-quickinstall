@@ -18,3 +18,4 @@ java-locator
 solana-genesis
 minicbor
 nextest-filtering
+graphql_client_cli
