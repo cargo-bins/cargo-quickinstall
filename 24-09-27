@@ -18,3 +18,4 @@ nu_plugin_gstat
 patch-crate
 deploy
 winpty-rs
+tree-sitter-graph
