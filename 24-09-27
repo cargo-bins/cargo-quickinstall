@@ -34,3 +34,4 @@ unic-langid-impl
 cargo-generate
 cargo-lock
 addr2line
+oso
