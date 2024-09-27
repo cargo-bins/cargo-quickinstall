@@ -17,3 +17,4 @@ opencv-binding-generator
 java-locator
 solana-genesis
 minicbor
+nextest-filtering
