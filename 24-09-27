@@ -13,3 +13,4 @@ protox
 clippy
 phf_generator
 rls-rustc
+wol-rs
