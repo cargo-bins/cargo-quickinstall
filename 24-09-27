@@ -39,3 +39,4 @@ zuse
 graphql_client_cli
 oxipng
 cargo-lock
+foundationdb-gen
