@@ -44,3 +44,4 @@ dotenvy
 starship
 rkv
 solana-genesis
+rustfmt-nightly
