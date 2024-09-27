@@ -70,3 +70,4 @@ typst-cli
 git-next
 rls-rustc
 ncspot
+hurlfmt
