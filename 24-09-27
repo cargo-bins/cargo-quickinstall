@@ -24,3 +24,4 @@ sha1collisiondetection
 wol-rs
 remove_dir_all
 cargo-lock
+borsh
