@@ -20,3 +20,4 @@ minicbor
 nextest-filtering
 graphql_client_cli
 foundationdb-gen
+tendermint-abci
