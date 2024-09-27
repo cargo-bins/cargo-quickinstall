@@ -4,3 +4,4 @@ nextest-filtering
 cargo-info
 pgrx-tests
 tendermint-rpc
+solana-gossip
