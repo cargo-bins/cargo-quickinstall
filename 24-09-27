@@ -39,3 +39,4 @@ dotenvy
 remove_dir_all
 tree-sitter-graph
 rtx-cli
+rmesg
