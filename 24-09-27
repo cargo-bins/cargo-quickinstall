@@ -24,3 +24,4 @@ tendermint-abci
 cached-path
 re_query
 sea-orm-cli
+httpmock
