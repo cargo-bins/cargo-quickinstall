@@ -46,3 +46,4 @@ dotenv
 fend
 schematools-cli
 ripunzip
+winpty-rs
