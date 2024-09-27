@@ -19,3 +19,4 @@ patch-crate
 deploy
 winpty-rs
 tree-sitter-graph
+apollo-router
