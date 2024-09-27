@@ -27,3 +27,4 @@ cargo-embed
 human_bytes
 pgrx-tests
 borsh
+honggfuzz
