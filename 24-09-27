@@ -35,3 +35,4 @@ minicbor
 sha1collisiondetection
 sqlx-cli
 sniffnet
+dotenvy
