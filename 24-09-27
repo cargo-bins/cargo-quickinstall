@@ -71,3 +71,4 @@ git-next
 rls-rustc
 ncspot
 hurlfmt
+sea-orm-cli
