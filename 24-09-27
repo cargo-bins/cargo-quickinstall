@@ -6,3 +6,4 @@ gnostr-bins
 rls-rustc
 parquet
 flowistry_ide
+racer
