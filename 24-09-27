@@ -33,3 +33,4 @@ solana-genesis
 remove_dir_all
 sccache
 solana-validator
+cargo-c
