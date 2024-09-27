@@ -7,3 +7,4 @@ rls-rustc
 parquet
 flowistry_ide
 racer
+cargo-lock
