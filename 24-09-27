@@ -5,3 +5,4 @@ elf2uf2-rs
 duma
 archwiki-rs
 snarkvm
+pwasm-utils
