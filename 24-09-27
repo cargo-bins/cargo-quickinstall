@@ -33,3 +33,4 @@ deno
 nextest-filtering
 pgrx-tests
 git-disjoint
+parquet
