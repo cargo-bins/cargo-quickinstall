@@ -15,3 +15,4 @@ turbocommit
 solana-cli
 cargo-quickbuild
 nu_plugin_gstat
+patch-crate
