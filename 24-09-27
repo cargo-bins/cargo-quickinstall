@@ -27,3 +27,4 @@ sea-orm-cli
 httpmock
 oxipng
 librespot
+dotenv
