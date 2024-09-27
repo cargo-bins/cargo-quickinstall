@@ -48,3 +48,4 @@ rustfmt-nightly
 solana-verify
 rustfmt-nightly
 cached-path
+raw-cpuid
