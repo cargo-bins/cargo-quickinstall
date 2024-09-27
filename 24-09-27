@@ -21,3 +21,4 @@ syd
 clippy
 starship
 diesel_cli
+cargo-udeps
