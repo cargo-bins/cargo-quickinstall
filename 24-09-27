@@ -20,3 +20,4 @@ rls-rustc
 rustrict
 foundationdb-gen
 arrow-flight
+sha1collisiondetection
