@@ -32,3 +32,4 @@ pgrx-tests
 solana-keygen
 unic-langid-impl
 cargo-generate
+cargo-lock
