@@ -44,3 +44,4 @@ pgrx-tests
 schemafy
 racer
 solana-genesis
+cargo-lock
