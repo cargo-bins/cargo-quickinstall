@@ -21,3 +21,4 @@ nkeys
 addr2line
 schemafy
 rustrict
+cargo-embed
