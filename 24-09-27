@@ -2,3 +2,4 @@ cargo-lock
 xcp
 nextest-filtering
 cargo-info
+pgrx-tests
