@@ -8,3 +8,4 @@ cargo-graph
 solana-genesis
 ducc-sys
 gitnow
+cpp_demangle
