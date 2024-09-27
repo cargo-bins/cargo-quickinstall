@@ -25,3 +25,4 @@ cargo-udeps
 sccache
 minicbor
 papyrus_storage
+sccache
