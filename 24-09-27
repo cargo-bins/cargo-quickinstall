@@ -9,3 +9,4 @@ pwasm-utils
 cargo-public-api
 thoth
 socketcan
+cpp_demangle
