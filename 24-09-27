@@ -3,3 +3,4 @@ cargo-lock
 rmesg
 pgrx-tests
 solana-genesis
+pgrx-tests
