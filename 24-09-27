@@ -27,3 +27,4 @@ apollo-router
 tendermint-abci
 solana-genesis
 ruff
+cargo-smart-release
