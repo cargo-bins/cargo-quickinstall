@@ -6,3 +6,4 @@ pgrx-tests
 tendermint-rpc
 solana-gossip
 borsh
+z3tracer
