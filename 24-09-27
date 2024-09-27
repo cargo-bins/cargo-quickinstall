@@ -13,3 +13,4 @@ sqlx-cli
 solana-genesis
 sccache
 ducc-sys
+socketcan
