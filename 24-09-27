@@ -32,3 +32,4 @@ kanidm_tools
 cargo-public-api
 codeberg-cli
 qsv
+re_query
