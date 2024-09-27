@@ -11,3 +11,4 @@ thoth
 socketcan
 cpp_demangle
 salvo-cli
+py-spy
