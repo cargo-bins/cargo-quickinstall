@@ -21,3 +21,4 @@ remove_dir_all
 raw-cpuid
 atuin
 pwasm-utils
+qsv
