@@ -40,3 +40,4 @@ remove_dir_all
 tree-sitter-graph
 rtx-cli
 rmesg
+remove_dir_all
