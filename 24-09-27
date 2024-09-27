@@ -36,3 +36,4 @@ sha1collisiondetection
 sqlx-cli
 sniffnet
 dotenvy
+remove_dir_all
