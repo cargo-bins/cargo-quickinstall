@@ -9,3 +9,4 @@ cargo-generate
 solana-genesis
 rmesg
 skim
+cargo-generate
