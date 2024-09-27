@@ -13,3 +13,4 @@ py-spy
 human_bytes
 solana-genesis
 sccache
+cargo-local-registry
