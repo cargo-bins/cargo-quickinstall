@@ -37,3 +37,4 @@ addr2line
 oso
 sccache
 cargo-c
+unic-langid-impl
