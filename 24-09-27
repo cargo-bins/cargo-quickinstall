@@ -37,3 +37,4 @@ cargo-c
 clippy
 racer
 re_query
+sccache
