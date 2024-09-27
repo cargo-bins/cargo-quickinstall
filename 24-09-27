@@ -13,3 +13,4 @@ parquet
 nexmark
 turbocommit
 solana-cli
+cargo-quickbuild
