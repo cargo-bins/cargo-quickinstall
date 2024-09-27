@@ -28,3 +28,4 @@ httpmock
 oxipng
 librespot
 dotenv
+cargo-lock
