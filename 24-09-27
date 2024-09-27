@@ -41,3 +41,4 @@ oxipng
 cargo-lock
 foundationdb-gen
 dotenvy
+starship
