@@ -9,3 +9,4 @@ flowistry_ide
 racer
 cargo-lock
 ducc-sys
+parquet
