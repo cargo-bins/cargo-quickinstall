@@ -31,3 +31,4 @@ honggfuzz
 pgrx-tests
 rtx-cli
 sniffnet
+minicbor
