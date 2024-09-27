@@ -3,3 +3,4 @@ xcp
 nextest-filtering
 cargo-info
 pgrx-tests
+tendermint-rpc
