@@ -17,3 +17,4 @@ drone
 sniffnet
 ffs
 stac-cli
+addr2line
