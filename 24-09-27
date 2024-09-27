@@ -20,3 +20,4 @@ cargo-generate
 syd
 clippy
 starship
+diesel_cli
