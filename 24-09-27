@@ -27,3 +27,4 @@ cargo-lock
 borsh
 unic-langid-impl
 deploy
+diesel_cli
