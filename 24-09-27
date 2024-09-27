@@ -72,3 +72,4 @@ rls-rustc
 ncspot
 hurlfmt
 sea-orm-cli
+nextest-filtering
