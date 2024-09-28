@@ -54,3 +54,4 @@ clippy
 laminar
 parquet
 cached-path
+addr2line
