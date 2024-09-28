@@ -4,3 +4,4 @@ spider_cli
 wol-rs
 trunk
 cpp_demangle
+rustfmt-nightly
