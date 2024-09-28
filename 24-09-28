@@ -63,3 +63,4 @@ libbpf-cargo
 pwasm-utils
 parquet
 tendermint-abci
+wmi
