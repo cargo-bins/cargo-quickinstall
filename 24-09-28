@@ -33,3 +33,4 @@ solana-validator
 libbpf-cargo
 rustrict
 pwasm-utils
+deno
