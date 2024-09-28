@@ -20,3 +20,4 @@ cargo-msrv
 fend
 git-next
 drone
+cargo-whatfeatures
