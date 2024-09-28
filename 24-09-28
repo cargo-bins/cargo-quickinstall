@@ -90,3 +90,4 @@ foundationdb-gen
 human_bytes
 minicbor
 syd
+sha1collisiondetection
