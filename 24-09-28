@@ -41,3 +41,4 @@ nextest-filtering
 wol-rs
 nkeys
 zuse
+remove_dir_all
