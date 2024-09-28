@@ -5,3 +5,4 @@ libbpf-cargo
 spider_cli
 raw-cpuid
 textplots
+cached-path
