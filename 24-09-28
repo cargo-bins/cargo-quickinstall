@@ -74,3 +74,4 @@ solana-genesis
 schemafy
 pwasm-utils
 snarkvm
+rustfmt-nightly
