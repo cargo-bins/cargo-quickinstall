@@ -19,3 +19,4 @@ rkv
 winpty-rs
 textplots
 pgrx-tests
+remove_dir_all
