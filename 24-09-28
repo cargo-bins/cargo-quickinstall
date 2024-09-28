@@ -41,3 +41,4 @@ sniffnet
 rustfmt-nightly
 nextsv
 archwiki-rs
+z3tracer
