@@ -24,3 +24,4 @@ libbpf-cargo
 pwasm-utils
 z3tracer
 foundationdb-gen
+rustfmt-nightly
