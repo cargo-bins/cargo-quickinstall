@@ -40,3 +40,4 @@ deno
 h3o
 libbpf-cargo
 sea-orm-cli
+addr2line
