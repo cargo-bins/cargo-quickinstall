@@ -17,3 +17,4 @@ socketcan
 unic-langid-impl
 wol-rs
 phf_generator
+socketcan
