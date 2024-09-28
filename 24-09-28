@@ -89,3 +89,4 @@ cpp_demangle
 foundationdb-gen
 human_bytes
 minicbor
+syd
