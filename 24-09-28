@@ -103,3 +103,4 @@ parquet
 xbuild
 solana-gossip
 codeberg-cli
+cargo-show
