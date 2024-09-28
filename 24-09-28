@@ -92,3 +92,4 @@ tree-sitter-graph
 cpp_demangle
 h3o
 oso
+cargo-generate
