@@ -12,3 +12,4 @@ sn_node
 phf_generator
 rustbus
 re_query
+cargo-lock
