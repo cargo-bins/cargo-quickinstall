@@ -81,3 +81,4 @@ minicbor
 addr2line
 pgrx-tests
 racer
+tauri-cli
