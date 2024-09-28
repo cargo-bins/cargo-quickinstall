@@ -38,3 +38,4 @@ tendermint-rpc
 spider_worker
 spider_cli
 wol-rs
+addr2line
