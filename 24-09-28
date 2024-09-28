@@ -46,3 +46,4 @@ sniffnet
 borsh
 re_query
 remove_dir_all
+rustfmt-nightly
