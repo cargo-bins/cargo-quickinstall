@@ -41,3 +41,4 @@ cavif
 sequoia-chameleon-gnupg
 sha1collisiondetection
 pgrx-tests
+rls-rustc
