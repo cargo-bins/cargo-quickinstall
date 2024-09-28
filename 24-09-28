@@ -28,3 +28,4 @@ cargo-lock
 ducc-sys
 rav1e
 rls-rustc
+phf_generator
