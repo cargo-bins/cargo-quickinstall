@@ -84,3 +84,4 @@ deploy
 minicbor
 cached-path
 rustfmt-nightly
+z3tracer
