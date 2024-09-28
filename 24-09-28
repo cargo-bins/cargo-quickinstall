@@ -39,3 +39,4 @@ sqlx-cli
 cached-path
 nextest-filtering
 wol-rs
+nkeys
