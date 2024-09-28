@@ -34,3 +34,4 @@ foundationdb-gen
 nu_plugin_gstat
 pnafs
 socketcan
+rustrict
