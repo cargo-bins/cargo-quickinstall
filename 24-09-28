@@ -20,3 +20,4 @@ z3tracer
 java-locator
 sqlx-cli
 cargo-local-registry
+opencv-binding-generator
