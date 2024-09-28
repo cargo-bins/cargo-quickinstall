@@ -73,3 +73,4 @@ py-spy
 pwasm-utils
 human_bytes
 librespot
+tree-sitter-graph
