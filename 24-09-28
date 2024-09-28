@@ -50,3 +50,4 @@ solana-genesis
 oso
 arrow-flight
 rustfmt-nightly
+clippy
