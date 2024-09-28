@@ -52,3 +52,4 @@ addr2line
 ducc-sys
 rkv
 remove_dir_all
+rls-rustc
