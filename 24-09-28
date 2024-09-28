@@ -6,3 +6,4 @@ pwasm-utils
 rmesg
 solana-validator
 human_name
+phf_generator
