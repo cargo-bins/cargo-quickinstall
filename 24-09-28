@@ -86,3 +86,4 @@ human_name
 probe-rs-tools
 graphql_client_cli
 racer
+cargo-mobile2
