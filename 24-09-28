@@ -5,3 +5,4 @@ socketcan
 httpmock
 tendermint-rpc
 nexmark
+pgrx-tests
