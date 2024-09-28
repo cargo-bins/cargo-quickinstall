@@ -53,3 +53,4 @@ cargo-lock
 clippy
 laminar
 parquet
+cached-path
