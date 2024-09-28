@@ -42,3 +42,4 @@ tendermint-abci
 rustrict
 tree-sitter-graph
 libbpf-cargo
+borsh
