@@ -30,3 +30,4 @@ dotenv
 solana-remote-wallet
 laminar
 solana-validator
+libbpf-cargo
