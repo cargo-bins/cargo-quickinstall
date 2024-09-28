@@ -60,3 +60,4 @@ phf_generator
 oso
 libbpf-cargo
 tendermint-rpc
+laminar
