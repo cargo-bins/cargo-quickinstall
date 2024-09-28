@@ -44,3 +44,4 @@ zuse
 remove_dir_all
 schemafy
 rls-rustc
+nkeys
