@@ -3,3 +3,4 @@ kanidm_tools
 cce
 rls-rustc
 socketcan
+cargo-lock
