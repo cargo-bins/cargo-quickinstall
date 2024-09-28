@@ -58,3 +58,4 @@ tree-sitter-graph
 schemafy
 phf_generator
 oso
+libbpf-cargo
