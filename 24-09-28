@@ -60,3 +60,4 @@ tendermint-abci
 av1an
 deploy
 cargo-graph
+human_bytes
