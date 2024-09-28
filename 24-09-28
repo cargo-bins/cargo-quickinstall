@@ -46,3 +46,4 @@ rustfmt-nightly
 unic-langid-impl
 wol-rs
 nu
+cached-path
