@@ -89,3 +89,4 @@ rls-rustc
 deploy
 nkeys
 tree-sitter-graph
+cpp_demangle
