@@ -77,3 +77,4 @@ snarkvm
 rustfmt-nightly
 tendermint-rpc
 ducc-sys
+wol-rs
