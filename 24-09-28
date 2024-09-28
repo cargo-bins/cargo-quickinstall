@@ -25,3 +25,4 @@ cached-path
 borsh
 rustfmt-nightly
 arrow-flight
+winpty-rs
