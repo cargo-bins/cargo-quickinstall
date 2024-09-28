@@ -9,3 +9,4 @@ ducc-sys
 re_query
 spider_cli
 socketcan
+addr2line
