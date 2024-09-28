@@ -29,3 +29,4 @@ starship
 deno
 starship
 libbpf-cargo
+addr2line
