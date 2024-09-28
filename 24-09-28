@@ -31,3 +31,4 @@ snarkvm
 winpty-rs
 libbpf-cargo
 cpp_demangle
+minicbor
