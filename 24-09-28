@@ -30,3 +30,4 @@ deno
 starship
 libbpf-cargo
 addr2line
+diesel_cli
