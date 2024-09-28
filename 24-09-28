@@ -1,3 +1,4 @@
 clippy
 libbpf-cargo
 nextest-filtering
+ducc-sys
