@@ -76,3 +76,4 @@ pwasm-utils
 snarkvm
 rustfmt-nightly
 tendermint-rpc
+ducc-sys
