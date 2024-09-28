@@ -21,3 +21,4 @@ java-locator
 sqlx-cli
 cargo-local-registry
 opencv-binding-generator
+oso
