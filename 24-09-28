@@ -50,3 +50,4 @@ diesel_cli
 dotenvy
 phf_generator
 nexmark
+arrow-flight
