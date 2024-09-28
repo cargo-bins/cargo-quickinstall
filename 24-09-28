@@ -21,3 +21,4 @@ textplots
 pgrx-tests
 remove_dir_all
 opencv-binding-generator
+tree-sitter-graph
