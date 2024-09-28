@@ -44,3 +44,4 @@ addr2line
 solana-gossip
 cargo-info
 human_bytes
+wmi
