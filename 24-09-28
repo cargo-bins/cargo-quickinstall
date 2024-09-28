@@ -64,3 +64,4 @@ laminar
 solana-validator
 borsh
 winpty-rs
+clippy
