@@ -65,3 +65,4 @@ solana-validator
 borsh
 winpty-rs
 clippy
+foundationdb-gen
