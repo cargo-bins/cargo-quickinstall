@@ -31,3 +31,4 @@ foundationdb-gen
 human_bytes
 binstall
 nextest-filtering
+solana-gossip
