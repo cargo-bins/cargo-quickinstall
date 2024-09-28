@@ -84,3 +84,4 @@ ef
 dotenv
 spider_worker
 hoard-rs
+clipboard-history
