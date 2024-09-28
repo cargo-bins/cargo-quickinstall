@@ -10,3 +10,4 @@ tendermint-rpc
 clippy
 solana-keygen
 nexmark
+winpty-rs
