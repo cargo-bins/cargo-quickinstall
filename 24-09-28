@@ -56,3 +56,4 @@ parquet
 cached-path
 addr2line
 laminar
+tree-sitter-graph
