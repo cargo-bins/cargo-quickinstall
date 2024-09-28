@@ -21,3 +21,4 @@ dotenv
 laminar
 papyrus_storage
 schemafy
+cached-path
