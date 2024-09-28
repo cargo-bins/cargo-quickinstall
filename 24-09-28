@@ -60,3 +60,4 @@ hoard-rs
 binstall
 solana-keygen
 atuin
+tendermint-abci
