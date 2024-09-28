@@ -61,3 +61,4 @@ oso
 libbpf-cargo
 tendermint-rpc
 laminar
+solana-validator
