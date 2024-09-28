@@ -21,3 +21,4 @@ socketcan
 solana-gossip
 remove_dir_all
 libbpf-cargo
+pwasm-utils
