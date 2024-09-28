@@ -25,3 +25,4 @@ foundationdb-gen
 solana-validator
 rustfmt-nightly
 pgrx-tests
+nextest-filtering
