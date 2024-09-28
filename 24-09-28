@@ -17,3 +17,4 @@ cargo-lock
 ducc-sys
 remove_dir_all
 cloak
+minicbor
