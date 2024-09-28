@@ -48,3 +48,4 @@ re_query
 remove_dir_all
 rustfmt-nightly
 pgrx-tests
+papyrus_storage
