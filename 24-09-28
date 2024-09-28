@@ -83,3 +83,4 @@ pgrx-tests
 racer
 tauri-cli
 java-locator
+wol-rs
