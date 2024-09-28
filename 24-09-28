@@ -37,3 +37,4 @@ cargo-lock
 tendermint-abci
 human_bytes
 dotenvy
+httpmock
