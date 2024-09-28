@@ -19,3 +19,4 @@ libbpf-cargo
 trunk
 solana-gossip
 opencv-binding-generator
+ducc-sys
