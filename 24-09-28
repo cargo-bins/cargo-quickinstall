@@ -39,3 +39,4 @@ wol-rs
 deno
 h3o
 libbpf-cargo
+sea-orm-cli
