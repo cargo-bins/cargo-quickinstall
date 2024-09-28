@@ -16,3 +16,4 @@ cargo-lock
 benfred-read-process-memory
 solana-gossip
 text-diff
+z3tracer
