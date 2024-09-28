@@ -13,3 +13,4 @@ dotenv
 foundationdb-gen
 re_query
 cargo-tarpaulin
+cargo-generate
