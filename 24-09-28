@@ -51,3 +51,4 @@ pgrx-tests
 papyrus_storage
 cargo-lock
 clippy
+laminar
