@@ -5,3 +5,4 @@ rls-rustc
 socketcan
 cargo-lock
 unic-langid-impl
+mdcat
