@@ -38,3 +38,4 @@ cargo-local-registry
 remove_dir_all
 textplots
 clippy
+tendermint-abci
