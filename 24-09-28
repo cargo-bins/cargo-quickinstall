@@ -68,3 +68,4 @@ clippy
 foundationdb-gen
 solana-remote-wallet
 oso
+socketcan
