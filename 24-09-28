@@ -6,3 +6,4 @@ spider_cli
 raw-cpuid
 textplots
 cached-path
+winpty-rs
