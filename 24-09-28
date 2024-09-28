@@ -53,3 +53,4 @@ laminar
 socketcan
 unic-langid-impl
 opencv-binding-generator
+sqlx-cli
