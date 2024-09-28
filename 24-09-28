@@ -25,3 +25,4 @@ ffs
 bluetui
 ducc-sys
 foundationdb-gen
+remove_dir_all
