@@ -74,3 +74,4 @@ java-locator
 httpmock
 pwasm-utils
 rioterm
+elf2uf2-rs
