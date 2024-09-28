@@ -32,3 +32,4 @@ phf_generator
 clippy
 tokio-process
 addr2line
+cargo-local-registry
