@@ -37,3 +37,4 @@ tree-sitter-cli
 diesel_cli
 sqlx-cli
 cached-path
+nextest-filtering
