@@ -8,3 +8,4 @@ textplots
 cached-path
 winpty-rs
 solana-validator
+nextest-filtering
