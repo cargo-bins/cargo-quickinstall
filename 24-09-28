@@ -35,3 +35,4 @@ dotenvy
 cpp_demangle
 tree-sitter-cli
 diesel_cli
+sqlx-cli
