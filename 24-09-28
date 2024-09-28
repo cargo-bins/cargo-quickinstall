@@ -29,3 +29,4 @@ czkawka_gui
 opencv-binding-generator
 tendermint-abci
 pnafs
+dotenv
