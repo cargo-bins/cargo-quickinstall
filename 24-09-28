@@ -8,3 +8,4 @@ re_query
 paperclip
 sha1collisiondetection
 schemafy
+winpty-rs
