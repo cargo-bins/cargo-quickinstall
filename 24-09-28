@@ -52,3 +52,4 @@ phf_generator
 laminar
 socketcan
 unic-langid-impl
+opencv-binding-generator
