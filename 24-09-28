@@ -33,3 +33,4 @@ libbpf-cargo
 cpp_demangle
 minicbor
 protox
+nexmark
