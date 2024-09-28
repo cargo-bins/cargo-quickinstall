@@ -34,3 +34,4 @@ tokio-process
 addr2line
 cargo-local-registry
 unic-langid-impl
+cargo-local-registry
