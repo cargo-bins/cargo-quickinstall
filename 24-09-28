@@ -30,3 +30,4 @@ opencv-binding-generator
 tendermint-abci
 pnafs
 dotenv
+foundationdb-gen
