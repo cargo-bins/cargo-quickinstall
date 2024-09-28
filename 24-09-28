@@ -54,3 +54,4 @@ socketcan
 unic-langid-impl
 opencv-binding-generator
 sqlx-cli
+nextest-filtering
