@@ -16,3 +16,4 @@ release
 sshx
 xcp
 oculante
+cargo-msrv
