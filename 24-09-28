@@ -22,3 +22,4 @@ solana-gossip
 remove_dir_all
 libbpf-cargo
 pwasm-utils
+z3tracer
