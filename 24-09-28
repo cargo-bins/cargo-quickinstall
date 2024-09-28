@@ -72,3 +72,4 @@ socketcan
 spider_cli
 nexmark
 laminar
+sea-orm-cli
