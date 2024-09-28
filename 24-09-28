@@ -1,3 +1,4 @@
 cargo-c
 sha1collisiondetection
 rustfmt-nightly
+socketcan
