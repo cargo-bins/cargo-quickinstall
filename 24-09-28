@@ -87,3 +87,4 @@ rustfmt-nightly
 z3tracer
 cpp_demangle
 foundationdb-gen
+human_bytes
