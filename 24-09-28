@@ -29,3 +29,4 @@ schemafy
 ubi
 pwasm-utils
 laminar
+winpty-rs
