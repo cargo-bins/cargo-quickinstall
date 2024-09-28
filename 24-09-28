@@ -48,3 +48,4 @@ clippy
 pgrx-tests
 diesel_cli
 dotenvy
+phf_generator
