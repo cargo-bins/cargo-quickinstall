@@ -83,3 +83,4 @@ laminar
 deploy
 minicbor
 cached-path
+rustfmt-nightly
