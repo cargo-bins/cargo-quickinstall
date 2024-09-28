@@ -53,3 +53,4 @@ ducc-sys
 rkv
 remove_dir_all
 rls-rustc
+solana-validator
