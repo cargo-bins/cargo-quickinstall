@@ -8,3 +8,4 @@ rustfmt-nightly
 pgrx-tests
 tendermint-rpc
 clippy
+solana-keygen
