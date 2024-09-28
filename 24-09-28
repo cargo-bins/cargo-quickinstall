@@ -56,3 +56,4 @@ opencv-binding-generator
 sqlx-cli
 nextest-filtering
 minicbor
+deno
