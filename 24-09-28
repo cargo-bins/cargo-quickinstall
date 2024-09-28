@@ -56,3 +56,4 @@ deploy
 paperclip
 dotenv
 cargo-info
+ducc-sys
