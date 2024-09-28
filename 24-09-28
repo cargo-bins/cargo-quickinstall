@@ -69,3 +69,4 @@ nextest-filtering
 snarkvm
 human_bytes
 pcu
+tendermint-rpc
