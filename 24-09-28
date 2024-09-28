@@ -44,3 +44,4 @@ pgrx-tests
 rls-rustc
 syd
 google-drive3-cli
+dotenv
