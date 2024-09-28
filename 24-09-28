@@ -27,3 +27,4 @@ foundationdb-gen
 rustfmt-nightly
 coldsnap
 socketcan
+foundationdb-gen
