@@ -33,3 +33,4 @@ addr2line
 diesel_cli
 cpp_demangle
 syd
+libbpf-cargo
