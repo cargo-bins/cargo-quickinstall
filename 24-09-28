@@ -28,3 +28,4 @@ foundationdb-gen
 remove_dir_all
 git-next
 cargo-pgrx
+xbuild
