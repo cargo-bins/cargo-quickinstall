@@ -70,3 +70,4 @@ snarkvm
 human_bytes
 pcu
 tendermint-rpc
+speedtest-rs
