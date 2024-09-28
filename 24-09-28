@@ -6,3 +6,4 @@ httpmock
 tendermint-rpc
 nexmark
 pgrx-tests
+spider_cli
