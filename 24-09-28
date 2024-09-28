@@ -26,3 +26,4 @@ borsh
 rustfmt-nightly
 arrow-flight
 winpty-rs
+human_bytes
