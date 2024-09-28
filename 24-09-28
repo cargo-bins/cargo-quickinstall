@@ -34,3 +34,4 @@ libbpf-cargo
 rustrict
 pwasm-utils
 deno
+tendermint-rpc
