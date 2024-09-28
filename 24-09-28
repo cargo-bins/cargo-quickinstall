@@ -44,3 +44,4 @@ tree-sitter-graph
 libbpf-cargo
 borsh
 cargo-local-registry
+solana-gossip
