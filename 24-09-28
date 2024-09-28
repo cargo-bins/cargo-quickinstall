@@ -14,3 +14,4 @@ rustbus
 re_query
 cargo-lock
 benfred-read-process-memory
+solana-gossip
