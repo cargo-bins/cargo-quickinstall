@@ -29,3 +29,4 @@ nu
 solana-genesis
 snarkvm
 winpty-rs
+libbpf-cargo
