@@ -4,3 +4,4 @@ rustfmt-nightly
 socketcan
 httpmock
 tendermint-rpc
+nexmark
