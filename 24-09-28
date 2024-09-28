@@ -49,3 +49,4 @@ socketcan
 mdbook-plantuml
 human_name
 vrc-log
+typst-cli
