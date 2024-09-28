@@ -24,3 +24,4 @@ opencv-binding-generator
 oso
 rustfmt
 parquet
+cargo-lock
