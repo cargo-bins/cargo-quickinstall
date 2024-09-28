@@ -24,3 +24,4 @@ cargo-whatfeatures
 ffs
 bluetui
 ducc-sys
+foundationdb-gen
