@@ -44,3 +44,4 @@ spider_cli
 textplots
 rustfmt-nightly
 unic-langid-impl
+wol-rs
