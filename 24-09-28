@@ -64,3 +64,4 @@ pwasm-utils
 parquet
 tendermint-abci
 wmi
+phf_generator
