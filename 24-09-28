@@ -35,3 +35,4 @@ solana-gossip
 rustbus
 cargo-lock
 tendermint-abci
+human_bytes
