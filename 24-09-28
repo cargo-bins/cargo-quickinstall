@@ -6,3 +6,4 @@ trunk
 cpp_demangle
 rustfmt-nightly
 pgrx-tests
+tendermint-rpc
