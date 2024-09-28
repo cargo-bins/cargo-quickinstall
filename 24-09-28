@@ -32,3 +32,4 @@ xbuild
 cargo-whatfeatures
 solana-remote-wallet
 mise
+tree-sitter-cli
