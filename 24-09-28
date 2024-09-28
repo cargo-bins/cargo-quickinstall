@@ -62,3 +62,4 @@ deploy
 cargo-graph
 human_bytes
 nkeys
+git-disjoint
