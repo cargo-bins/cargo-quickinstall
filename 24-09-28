@@ -38,3 +38,4 @@ diesel_cli
 sqlx-cli
 cached-path
 nextest-filtering
+wol-rs
