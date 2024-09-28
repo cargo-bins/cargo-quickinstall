@@ -48,3 +48,4 @@ dotenv
 re_query
 solana-genesis
 oso
+arrow-flight
