@@ -17,3 +17,4 @@ winpty-rs
 oso
 opencv-binding-generator
 parquet
+dotenv
