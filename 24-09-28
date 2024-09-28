@@ -14,3 +14,4 @@ diesel_cli
 tree-sitter-cli
 human_bytes
 winpty-rs
+oso
