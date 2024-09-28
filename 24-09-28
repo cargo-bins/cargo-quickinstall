@@ -14,3 +14,4 @@ winpty-rs
 re_query
 raw-cpuid
 opencv-binding-generator
+wmi
