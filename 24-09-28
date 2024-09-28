@@ -55,3 +55,4 @@ paperclip
 deploy
 paperclip
 dotenv
+cargo-info
