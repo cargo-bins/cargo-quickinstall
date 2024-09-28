@@ -28,3 +28,4 @@ pgrx-tests
 nextest-filtering
 dotenv
 solana-remote-wallet
+laminar
