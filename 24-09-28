@@ -27,3 +27,4 @@ parquet
 cargo-lock
 ducc-sys
 rav1e
+rls-rustc
