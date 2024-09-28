@@ -78,3 +78,4 @@ phf_generator
 rustrict
 cpp_demangle
 pgrx-tests
+dotenvy
