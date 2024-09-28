@@ -15,3 +15,4 @@ radio-sx128x
 solana-validator
 cargo-lock
 ducc-sys
+remove_dir_all
