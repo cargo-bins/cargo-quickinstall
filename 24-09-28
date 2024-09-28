@@ -49,3 +49,4 @@ nu
 spider_worker
 solana-gossip
 cpp_demangle
+rustfmt-nightly
