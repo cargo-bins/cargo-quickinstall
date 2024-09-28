@@ -56,3 +56,4 @@ re_query
 raw-cpuid
 solana-cli
 solana-genesis
+tendermint-abci
