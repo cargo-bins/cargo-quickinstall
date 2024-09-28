@@ -15,3 +15,4 @@ tree-sitter-cli
 human_bytes
 winpty-rs
 oso
+opencv-binding-generator
