@@ -23,3 +23,4 @@ nexmark
 rrule
 foundationdb-gen
 solana-validator
+rustfmt-nightly
