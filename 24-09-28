@@ -43,3 +43,4 @@ sea-orm-cli
 addr2line
 solana-gossip
 cargo-info
+human_bytes
