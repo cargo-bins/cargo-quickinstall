@@ -59,3 +59,4 @@ solana-genesis
 tendermint-abci
 av1an
 deploy
+cargo-graph
