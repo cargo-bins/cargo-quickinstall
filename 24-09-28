@@ -62,3 +62,4 @@ solana-gossip
 phf_generator
 monolith
 binstall
+nextest-filtering
