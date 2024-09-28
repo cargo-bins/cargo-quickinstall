@@ -12,3 +12,4 @@ nextest-filtering
 clippy
 laminar
 opencv-binding-generator
+libbpf-cargo
