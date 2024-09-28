@@ -13,3 +13,4 @@ clippy
 laminar
 opencv-binding-generator
 libbpf-cargo
+borsh
