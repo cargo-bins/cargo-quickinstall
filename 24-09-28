@@ -52,3 +52,4 @@ vrc-log
 typst-cli
 diesel_cli
 pcu
+opencv-binding-generator
