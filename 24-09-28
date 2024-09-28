@@ -48,3 +48,4 @@ wol-rs
 nu
 cached-path
 librespot
+phf_generator
