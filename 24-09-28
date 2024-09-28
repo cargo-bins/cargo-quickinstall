@@ -24,3 +24,4 @@ opencv-binding-generator
 tree-sitter-graph
 nexmark
 winpty-rs
+racer
