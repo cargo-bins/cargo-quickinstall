@@ -29,3 +29,4 @@ nextest-filtering
 dotenv
 solana-remote-wallet
 laminar
+solana-validator
