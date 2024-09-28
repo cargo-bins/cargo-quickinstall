@@ -37,3 +37,4 @@ unic-langid-impl
 cargo-local-registry
 remove_dir_all
 textplots
+clippy
