@@ -10,3 +10,4 @@ phf_generator
 laminar
 unic-langid-impl
 cargo-generate
+cached-path
