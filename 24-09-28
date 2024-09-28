@@ -60,3 +60,4 @@ deno
 racer
 nkeys
 libbpf-cargo
+pwasm-utils
