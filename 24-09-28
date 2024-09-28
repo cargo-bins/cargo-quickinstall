@@ -16,3 +16,4 @@ raw-cpuid
 opencv-binding-generator
 wmi
 libbpf-cargo
+trunk
