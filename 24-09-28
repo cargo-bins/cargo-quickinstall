@@ -19,3 +19,4 @@ opencv-binding-generator
 parquet
 dotenv
 laminar
+papyrus_storage
