@@ -16,3 +16,4 @@ libbpf-cargo
 borsh
 oso
 rkv
+winpty-rs
