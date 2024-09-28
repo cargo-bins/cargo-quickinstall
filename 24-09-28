@@ -74,3 +74,4 @@ pwasm-utils
 human_bytes
 librespot
 tree-sitter-graph
+phf_generator
