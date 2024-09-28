@@ -12,3 +12,4 @@ socketcan
 addr2line
 diesel_cli
 tree-sitter-cli
+human_bytes
