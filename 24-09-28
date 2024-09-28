@@ -71,3 +71,4 @@ human_bytes
 pcu
 tendermint-rpc
 speedtest-rs
+human_name
