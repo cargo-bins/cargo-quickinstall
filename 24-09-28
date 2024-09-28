@@ -33,3 +33,4 @@ paperclip
 tendermint-abci
 dotenvy
 cpp_demangle
+tree-sitter-cli
