@@ -13,3 +13,4 @@ cargo-generate
 cached-path
 rav1e
 syd
+socketcan
