@@ -11,3 +11,4 @@ solana-validator
 nextest-filtering
 clippy
 laminar
+opencv-binding-generator
