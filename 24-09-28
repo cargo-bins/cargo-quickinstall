@@ -2,3 +2,4 @@ raw-cpuid
 nextest-filtering
 nkeys
 sha1collisiondetection
+nu_plugin_gstat
