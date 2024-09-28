@@ -89,3 +89,4 @@ cpp_demangle
 schemafy
 rls-rustc
 arrow-flight
+addr2line
