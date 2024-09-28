@@ -45,3 +45,4 @@ sea-orm-cli
 commitgpt
 kanidm_tools
 diesel_cli
+socketcan
