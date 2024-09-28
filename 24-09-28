@@ -49,3 +49,4 @@ re_query
 solana-genesis
 oso
 arrow-flight
+rustfmt-nightly
