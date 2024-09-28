@@ -45,3 +45,4 @@ remove_dir_all
 schemafy
 rls-rustc
 nkeys
+wol-rs
