@@ -5,3 +5,4 @@ wol-rs
 trunk
 cpp_demangle
 rustfmt-nightly
+pgrx-tests
