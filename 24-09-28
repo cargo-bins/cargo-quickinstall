@@ -17,3 +17,4 @@ cargo-generate
 addr2line
 unic-langid-impl
 human_name
+spider_worker
