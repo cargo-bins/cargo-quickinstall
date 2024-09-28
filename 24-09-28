@@ -52,3 +52,4 @@ papyrus_storage
 cargo-lock
 clippy
 laminar
+parquet
