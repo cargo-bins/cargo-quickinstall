@@ -63,3 +63,4 @@ cargo-graph
 human_bytes
 nkeys
 git-disjoint
+z3tracer
