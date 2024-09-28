@@ -31,3 +31,4 @@ rls-rustc
 phf_generator
 clippy
 tokio-process
+addr2line
