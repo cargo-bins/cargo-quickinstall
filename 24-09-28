@@ -34,3 +34,4 @@ nextest-filtering
 solana-gossip
 rustbus
 cargo-lock
+tendermint-abci
