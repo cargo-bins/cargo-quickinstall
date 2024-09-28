@@ -35,3 +35,4 @@ addr2line
 cargo-local-registry
 unic-langid-impl
 cargo-local-registry
+remove_dir_all
