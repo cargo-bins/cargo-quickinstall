@@ -57,3 +57,4 @@ sqlx-cli
 nextest-filtering
 minicbor
 deno
+racer
