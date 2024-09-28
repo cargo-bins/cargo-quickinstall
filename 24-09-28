@@ -29,3 +29,4 @@ coldsnap
 socketcan
 foundationdb-gen
 human_bytes
+binstall
