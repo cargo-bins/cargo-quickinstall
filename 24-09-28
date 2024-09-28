@@ -68,3 +68,4 @@ phf_generator
 deploy
 minicbor
 py-spy
+tree-sitter-cli
