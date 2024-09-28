@@ -86,3 +86,4 @@ cached-path
 rustfmt-nightly
 z3tracer
 cpp_demangle
+foundationdb-gen
