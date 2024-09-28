@@ -53,3 +53,4 @@ rustfmt-nightly
 clippy
 syd
 re_query
+raw-cpuid
