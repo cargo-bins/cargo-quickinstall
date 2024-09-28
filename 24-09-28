@@ -43,3 +43,4 @@ rustrict
 tree-sitter-graph
 libbpf-cargo
 borsh
+cargo-local-registry
