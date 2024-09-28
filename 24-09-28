@@ -2,3 +2,4 @@ libbpf-cargo
 cargo-lock
 foundationdb-gen
 paperclip
+httpbis
