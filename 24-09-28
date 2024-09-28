@@ -75,3 +75,4 @@ schemafy
 pwasm-utils
 snarkvm
 rustfmt-nightly
+tendermint-rpc
