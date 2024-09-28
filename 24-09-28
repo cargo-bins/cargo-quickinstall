@@ -48,3 +48,4 @@ diesel_cli
 socketcan
 mdbook-plantuml
 human_name
+vrc-log
