@@ -30,3 +30,4 @@ rav1e
 rls-rustc
 phf_generator
 clippy
+tokio-process
