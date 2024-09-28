@@ -19,3 +19,4 @@ text-diff
 z3tracer
 java-locator
 sqlx-cli
+cargo-local-registry
