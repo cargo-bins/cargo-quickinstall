@@ -30,3 +30,4 @@ socketcan
 foundationdb-gen
 human_bytes
 binstall
+nextest-filtering
