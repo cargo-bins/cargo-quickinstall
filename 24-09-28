@@ -35,3 +35,4 @@ rustrict
 pwasm-utils
 deno
 tendermint-rpc
+spider_worker
