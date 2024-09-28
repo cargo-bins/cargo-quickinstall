@@ -91,3 +91,4 @@ rls-rustc
 arrow-flight
 addr2line
 foundationdb-gen
+wmi
