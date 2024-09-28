@@ -85,3 +85,4 @@ spider_cli
 raw-cpuid
 human_bytes
 py-spy
+rls-rustc
