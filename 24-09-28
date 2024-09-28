@@ -45,3 +45,4 @@ papyrus_storage
 sniffnet
 borsh
 re_query
+remove_dir_all
