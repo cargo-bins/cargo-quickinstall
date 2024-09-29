@@ -14,3 +14,4 @@ pwasm-utils
 sha1collisiondetection
 human_bytes
 libbpf-cargo
+httpmock
