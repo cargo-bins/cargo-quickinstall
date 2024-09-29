@@ -13,3 +13,4 @@ google-drive3-cli
 pwasm-utils
 sha1collisiondetection
 human_bytes
+libbpf-cargo
