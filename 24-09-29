@@ -31,3 +31,4 @@ spider_worker
 wasm-bindgen-cli
 sqlx-cli
 laminar
+rls-rustc
