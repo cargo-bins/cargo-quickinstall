@@ -52,3 +52,4 @@ tokio-process
 cargo-vet
 protox
 pwasm-utils
+foundationdb-gen
