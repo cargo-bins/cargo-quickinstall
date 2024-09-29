@@ -45,3 +45,4 @@ diesel_cli
 solana-validator
 nexmark
 httpmock
+cpp_demangle
