@@ -95,3 +95,4 @@ h3o
 cargo-espflash
 legba
 vrc-log
+addr2line
