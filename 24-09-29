@@ -60,3 +60,4 @@ rustrict
 httpmock
 tendermint-rpc
 librespot
+sea-orm-cli
