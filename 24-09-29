@@ -17,3 +17,4 @@ java-locator
 phf_generator
 honggfuzz
 sqlx-cli
+diesel_cli
