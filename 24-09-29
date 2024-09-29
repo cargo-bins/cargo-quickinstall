@@ -27,3 +27,4 @@ dotenv
 libbpf-cargo
 phf_generator
 kdotool
+inlyne
