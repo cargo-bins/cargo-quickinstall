@@ -58,3 +58,4 @@ coldsnap
 java-locator
 syd
 libbpf-cargo
+honggfuzz
