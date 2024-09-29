@@ -103,3 +103,4 @@ human_name
 raw-cpuid
 re_query
 wasm-bindgen-cli
+dotenv
