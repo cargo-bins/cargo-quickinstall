@@ -55,3 +55,4 @@ librespot
 deploy
 dotenv
 sqlx-cli
+cargo-show
