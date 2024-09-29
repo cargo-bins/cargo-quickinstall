@@ -85,3 +85,4 @@ pwasm-utils
 wol-rs
 libbpf-cargo
 wasm-bindgen-cli
+tauri-cli
