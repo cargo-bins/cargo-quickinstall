@@ -25,3 +25,4 @@ tree-sitter-graph
 nextest-filtering
 pgrx-tests
 protox
+remove_dir_all
