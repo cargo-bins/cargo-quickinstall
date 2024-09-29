@@ -49,3 +49,4 @@ cpp_demangle
 laminar
 nkeys
 solana-validator
+rustfmt-nightly
