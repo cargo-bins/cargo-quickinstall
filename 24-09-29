@@ -25,3 +25,4 @@ libbpf-cargo
 tendermint-rpc
 remove_dir_all
 httpmock
+radio-sx128x
