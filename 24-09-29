@@ -72,3 +72,4 @@ sea-orm-cli
 solana-keygen
 wmi
 cached-path
+opencv-binding-generator
