@@ -86,3 +86,4 @@ wol-rs
 libbpf-cargo
 wasm-bindgen-cli
 tauri-cli
+solana-gossip
