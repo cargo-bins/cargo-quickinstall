@@ -89,3 +89,4 @@ tauri-cli
 solana-gossip
 minicbor
 remove_dir_all
+deploy
