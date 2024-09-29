@@ -49,3 +49,4 @@ sequoia-sq
 raw-cpuid
 rustrict
 dotenv
+sha1collisiondetection
