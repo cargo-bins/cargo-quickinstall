@@ -89,3 +89,4 @@ remove_dir_all
 wol-rs
 addr2line
 py-spy
+coldsnap
