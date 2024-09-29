@@ -93,3 +93,4 @@ tendermint-rpc
 wol-rs
 tectonic
 solana-validator
+clippy
