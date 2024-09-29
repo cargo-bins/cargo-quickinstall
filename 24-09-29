@@ -35,3 +35,4 @@ borsh
 dotenvy
 tendermint-rpc
 cached-path
+human_name
