@@ -74,3 +74,4 @@ sniffnet
 coldsnap
 tree-sitter-graph
 cached-path
+rls-rustc
