@@ -42,3 +42,4 @@ solana-gossip
 cargo-local-registry
 h3o
 deploy
+text-diff
