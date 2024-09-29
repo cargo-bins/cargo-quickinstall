@@ -59,3 +59,4 @@ remove_dir_all
 rrule
 eureka
 tendermint-abci
+graphql_client_cli
