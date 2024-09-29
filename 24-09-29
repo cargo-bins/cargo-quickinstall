@@ -98,3 +98,4 @@ sn_cli
 deno
 rustfmt-nightly
 remove_dir_all
+re_query
