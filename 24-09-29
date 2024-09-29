@@ -67,3 +67,4 @@ dotenv
 clippy
 phf_generator
 rrule
+snarkvm
