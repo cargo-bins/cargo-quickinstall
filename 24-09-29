@@ -10,3 +10,4 @@ foundationdb-gen
 wmi
 racer
 unic-langid-impl
+libbpf-cargo
