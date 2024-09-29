@@ -106,3 +106,4 @@ arrow-flight
 borsh
 minicbor
 schemafy
+libbpf-cargo
