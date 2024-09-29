@@ -70,3 +70,4 @@ rrule
 paperclip
 pwasm-utils
 httpmock
+dotenvy
