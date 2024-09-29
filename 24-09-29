@@ -44,3 +44,4 @@ release
 deploy
 jless
 solana-gossip
+cargo-whatfeatures
