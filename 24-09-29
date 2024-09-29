@@ -72,3 +72,4 @@ tendermint-abci
 syd
 h3o
 borsh
+cpp_demangle
