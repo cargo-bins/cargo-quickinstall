@@ -86,3 +86,4 @@ papyrus_storage
 coldsnap
 rrule
 remove_dir_all
+wol-rs
