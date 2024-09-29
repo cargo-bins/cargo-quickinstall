@@ -27,3 +27,4 @@ pgrx-tests
 protox
 remove_dir_all
 human_name
+cargo-lock
