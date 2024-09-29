@@ -41,3 +41,4 @@ nextest-filtering
 java-locator
 rkv
 rkv
+remove_dir_all
