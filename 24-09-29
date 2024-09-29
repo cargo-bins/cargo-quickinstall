@@ -27,3 +27,4 @@ snarkvm
 z3tracer
 tendermint-abci
 sha1collisiondetection
+arrow-flight
