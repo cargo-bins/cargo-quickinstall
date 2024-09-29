@@ -56,3 +56,4 @@ cargo-show
 cargo-whatfeatures
 tree-sitter-cli
 remove_dir_all
+rrule
