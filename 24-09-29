@@ -52,3 +52,4 @@ solana-validator
 rustfmt-nightly
 laminar
 wmi
+pgrx-tests
