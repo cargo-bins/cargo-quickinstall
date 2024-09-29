@@ -30,3 +30,4 @@ human_name
 cargo-lock
 minicbor
 winpty-rs
+paperclip
