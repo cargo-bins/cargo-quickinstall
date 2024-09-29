@@ -99,3 +99,4 @@ parquet
 clipboard-history
 vrc-log
 cargo-msrv
+spider_cli
