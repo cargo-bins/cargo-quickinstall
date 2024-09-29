@@ -32,3 +32,4 @@ wmi
 ef
 xbuild
 parquet
+nextest-filtering
