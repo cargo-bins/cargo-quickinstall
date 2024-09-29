@@ -12,3 +12,4 @@ phf_generator
 tendermint-abci
 raw-cpuid
 nextest-filtering
+syd
