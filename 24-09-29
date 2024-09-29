@@ -7,3 +7,4 @@ ducc-sys
 sea-orm-cli
 rustfmt-nightly
 raw-cpuid
+java-locator
