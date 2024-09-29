@@ -38,3 +38,4 @@ cached-path
 human_name
 ducc-sys
 wol-rs
+cargo-generate
