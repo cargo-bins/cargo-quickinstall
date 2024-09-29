@@ -108,3 +108,4 @@ legba
 xplr
 libbpf-cargo
 dotenvy
+rustfmt-nightly
