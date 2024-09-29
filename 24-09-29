@@ -87,3 +87,4 @@ dotenvy
 re_query
 deno
 textplots
+pwasm-utils
