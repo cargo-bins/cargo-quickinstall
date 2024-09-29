@@ -2,3 +2,4 @@ minicbor
 solana-keygen
 socketcan
 rkv
+rustfmt-nightly
