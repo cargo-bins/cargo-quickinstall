@@ -25,3 +25,4 @@ cached-path
 tendermint-rpc
 solana-validator
 laminar
+rkv
