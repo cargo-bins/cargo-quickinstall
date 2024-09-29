@@ -50,3 +50,4 @@ tendermint-rpc
 nextest-filtering
 diesel_cli
 cargo-generate
+sha1collisiondetection
