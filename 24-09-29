@@ -11,3 +11,4 @@ java-locator
 cached-path
 solana-validator
 schemafy
+remove_dir_all
