@@ -58,3 +58,4 @@ tree-sitter-cli
 remove_dir_all
 rrule
 eureka
+tendermint-abci
