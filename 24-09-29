@@ -79,3 +79,4 @@ remove_dir_all
 wol-rs
 re_query
 remove_dir_all
+dotenv
