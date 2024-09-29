@@ -72,3 +72,4 @@ cargo-lock
 py-spy
 laminar
 minicbor
+wol-rs
