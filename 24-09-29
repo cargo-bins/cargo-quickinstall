@@ -59,3 +59,4 @@ java-locator
 syd
 libbpf-cargo
 honggfuzz
+tokio-process
