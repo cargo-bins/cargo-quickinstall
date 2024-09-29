@@ -66,3 +66,4 @@ arrow-flight
 dotenv
 clippy
 phf_generator
+rrule
