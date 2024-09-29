@@ -52,3 +52,4 @@ diesel_cli
 cargo-generate
 sha1collisiondetection
 sha1collisiondetection
+re_query
