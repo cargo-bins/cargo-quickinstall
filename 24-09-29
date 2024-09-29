@@ -43,3 +43,4 @@ parquet
 snarkvm
 human_bytes
 deno
+winpty-rs
