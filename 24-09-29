@@ -39,3 +39,4 @@ rustfmt-nightly
 diesel_cli
 sn_node
 solana-gossip
+cargo-local-registry
