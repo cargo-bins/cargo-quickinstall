@@ -39,3 +39,4 @@ cargo-list
 nextest-filtering
 gnostr-bins
 eidolon
+solana-remote-wallet
