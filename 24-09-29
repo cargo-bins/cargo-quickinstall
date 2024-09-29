@@ -63,3 +63,4 @@ cargo-lock
 tendermint-rpc
 z3tracer
 rrule
+foundationdb-gen
