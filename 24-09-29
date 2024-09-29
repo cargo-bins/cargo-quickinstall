@@ -34,3 +34,4 @@ tendermint-rpc
 diesel_cli
 solana-gossip
 deno
+java-locator
