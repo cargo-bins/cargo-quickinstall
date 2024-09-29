@@ -25,3 +25,4 @@ dotenvy
 solana-gossip
 snarkvm
 z3tracer
+tendermint-abci
