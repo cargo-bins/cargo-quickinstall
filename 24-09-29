@@ -11,3 +11,4 @@ re_query
 socketcan
 foundationdb-gen
 cpp_demangle
+minicbor
