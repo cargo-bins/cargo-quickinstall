@@ -102,3 +102,4 @@ re_query
 sha1collisiondetection
 sqlx-cli
 textplots
+wol-rs
