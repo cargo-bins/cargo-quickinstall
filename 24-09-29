@@ -114,3 +114,4 @@ borsh
 sha1collisiondetection
 oso
 librespot
+tree-sitter-cli
