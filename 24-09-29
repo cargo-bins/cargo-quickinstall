@@ -76,3 +76,4 @@ oxipng
 cpp_demangle
 nextest-filtering
 remove_dir_all
+wol-rs
