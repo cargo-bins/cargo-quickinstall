@@ -27,3 +27,4 @@ remove_dir_all
 httpmock
 radio-sx128x
 rustrict
+tree-sitter-graph
