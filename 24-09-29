@@ -68,3 +68,4 @@ release
 codeberg-cli
 tree-sitter-cli
 solana-keygen
+cargo-lock
