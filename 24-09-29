@@ -109,3 +109,4 @@ xplr
 libbpf-cargo
 dotenvy
 rustfmt-nightly
+sqruff
