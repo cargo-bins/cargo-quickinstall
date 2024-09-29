@@ -64,3 +64,4 @@ spider_cli
 librespot
 nu
 tauri-cli
+sea-orm-cli
