@@ -69,3 +69,4 @@ cached-path
 cpp_demangle
 deploy
 nexmark
+diesel_cli
