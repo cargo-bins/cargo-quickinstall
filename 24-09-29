@@ -9,3 +9,4 @@ laminar
 sha1collisiondetection
 re_query
 socketcan
+foundationdb-gen
