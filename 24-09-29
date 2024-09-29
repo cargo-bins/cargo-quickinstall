@@ -21,3 +21,4 @@ diesel_cli
 deploy
 solana-gossip
 pwasm-utils
+rkv
