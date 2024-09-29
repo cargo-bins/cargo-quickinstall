@@ -22,3 +22,4 @@ human_bytes
 tendermint-abci
 nkeys
 libbpf-cargo
+tendermint-rpc
