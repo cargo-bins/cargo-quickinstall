@@ -67,3 +67,4 @@ foundationdb-gen
 nextest-filtering
 oso
 cargo-lock
+rustrict
