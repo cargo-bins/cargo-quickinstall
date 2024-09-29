@@ -54,3 +54,4 @@ laminar
 wmi
 pgrx-tests
 oso
+libbpf-cargo
