@@ -49,3 +49,4 @@ rustrict
 tendermint-rpc
 nextest-filtering
 diesel_cli
+cargo-generate
