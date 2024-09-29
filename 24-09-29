@@ -61,3 +61,4 @@ libbpf-cargo
 honggfuzz
 tokio-process
 httpbis
+omicron-zone-package
