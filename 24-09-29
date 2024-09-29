@@ -36,3 +36,4 @@ solana-keygen
 hurl
 sniffnet
 cargo-list
+nextest-filtering
