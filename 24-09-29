@@ -69,3 +69,4 @@ rustfmt-nightly
 rrule
 paperclip
 pwasm-utils
+httpmock
