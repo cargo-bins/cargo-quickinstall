@@ -39,3 +39,4 @@ raw-cpuid
 z3tracer
 arrow-flight
 dotenv
+human_bytes
