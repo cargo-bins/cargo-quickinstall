@@ -51,3 +51,4 @@ nu
 rls-rustc
 ducc-sys
 human_bytes
+sea-orm-cli
