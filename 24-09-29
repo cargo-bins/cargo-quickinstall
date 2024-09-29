@@ -68,3 +68,4 @@ solana-validator
 coldsnap
 remove_dir_all
 tendermint-rpc
+libbpf-cargo
