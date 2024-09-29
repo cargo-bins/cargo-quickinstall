@@ -96,3 +96,4 @@ cargo-espflash
 legba
 vrc-log
 addr2line
+rustfmt-nightly
