@@ -77,3 +77,4 @@ tree-sitter-graph
 clippy
 httpmock
 text-diff
+opencv-binding-generator
