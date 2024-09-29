@@ -18,3 +18,4 @@ libbpf-cargo
 foundationdb-gen
 schemafy
 flowistry_ide
+human_bytes
