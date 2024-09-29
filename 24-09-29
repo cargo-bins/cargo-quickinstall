@@ -48,3 +48,4 @@ pwasm-utils
 foundationdb-gen
 parquet
 py-spy
+re_query
