@@ -117,3 +117,4 @@ librespot
 tree-sitter-cli
 opencv-binding-generator
 solana-remote-wallet
+httpmock
