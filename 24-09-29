@@ -20,3 +20,4 @@ cargo-spellcheck
 h3o
 clippy
 oso
+winpty-rs
