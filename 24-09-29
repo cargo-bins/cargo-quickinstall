@@ -95,3 +95,4 @@ spider_cli
 textplots
 spider_worker
 tree-sitter-graph
+remove_dir_all
