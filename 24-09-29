@@ -70,3 +70,4 @@ remove_dir_all
 tendermint-rpc
 libbpf-cargo
 sn_cli
+schemafy
