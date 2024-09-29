@@ -19,3 +19,4 @@ honggfuzz
 sqlx-cli
 diesel_cli
 deploy
+solana-gossip
