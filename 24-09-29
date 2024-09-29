@@ -61,3 +61,4 @@ eureka
 tendermint-abci
 graphql_client_cli
 stac-cli
+rioterm
