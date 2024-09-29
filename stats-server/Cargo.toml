@@ -6,14 +6,13 @@ authors = ["David Laban <alsuren@gmail.com>"]
 edition = "2021"
 publish = false
 
-# Make a new workspace so that we get our own Cargo.lock and target dir for the docker build. 
+# Make a new workspace so that we get our own Cargo.lock and target dir for the docker build.
 [workspace]
 
 [dependencies]
 tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 axum = "0.7"
-# FIXME: revert back to using crates.io once https://github.com/ijagberg/influx/pull/5 is released
-influxrs = { git = "https://github.com/alsuren/influxrs", rev = "bc037531ef31e0a19014556120ecdd151427561b" }
+influxrs = { version = "3", features = ["client"] }
 
 [profile.release]
 lto = "thin"
