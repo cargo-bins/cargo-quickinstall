@@ -16,3 +16,4 @@ rls-rustc
 arrow-flight
 libbpf-cargo
 foundationdb-gen
+schemafy
