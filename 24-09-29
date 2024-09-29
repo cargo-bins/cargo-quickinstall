@@ -61,3 +61,4 @@ unic-langid-impl
 syd
 cargo-lock
 tendermint-rpc
+z3tracer
