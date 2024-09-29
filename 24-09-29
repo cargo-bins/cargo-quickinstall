@@ -33,3 +33,4 @@ winpty-rs
 java-locator
 borsh
 dotenvy
+tendermint-rpc
