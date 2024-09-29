@@ -71,3 +71,4 @@ paperclip
 pwasm-utils
 httpmock
 dotenvy
+winpty-rs
