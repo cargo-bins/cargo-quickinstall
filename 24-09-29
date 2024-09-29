@@ -74,3 +74,4 @@ cargo-msrv
 snarkvm
 oxipng
 cpp_demangle
+nextest-filtering
