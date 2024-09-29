@@ -71,3 +71,4 @@ solana-keygen
 cargo-lock
 py-spy
 laminar
+minicbor
