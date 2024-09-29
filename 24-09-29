@@ -76,3 +76,4 @@ solana-validator
 dotenv
 libbpf-cargo
 java-locator
+cargo-graph
