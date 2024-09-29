@@ -74,3 +74,4 @@ schemafy
 rls-rustc
 textplots
 tree-sitter-graph
+clippy
