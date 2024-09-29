@@ -111,3 +111,4 @@ dotenvy
 rustfmt-nightly
 sqruff
 cached-path
+remove_dir_all
