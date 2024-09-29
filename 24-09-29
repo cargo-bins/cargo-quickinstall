@@ -29,3 +29,4 @@ remove_dir_all
 human_name
 cargo-lock
 minicbor
+winpty-rs
