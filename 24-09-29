@@ -27,3 +27,4 @@ solana-validator
 laminar
 rkv
 libbpf-cargo
+raw-cpuid
