@@ -15,3 +15,4 @@ nextest-filtering
 syd
 java-locator
 phf_generator
+honggfuzz
