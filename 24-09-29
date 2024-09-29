@@ -109,3 +109,4 @@ opencv-binding-generator
 dotenv
 raw-cpuid
 tendermint-rpc
+zuse
