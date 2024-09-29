@@ -24,3 +24,4 @@ dotenv
 dotenvy
 solana-gossip
 snarkvm
+z3tracer
