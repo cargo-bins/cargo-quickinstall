@@ -73,3 +73,4 @@ httpmock
 dotenvy
 winpty-rs
 solana-gossip
+clippy
