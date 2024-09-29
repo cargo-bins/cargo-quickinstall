@@ -30,3 +30,4 @@ rrule
 laminar
 tendermint-abci
 socketcan
+tendermint-rpc
