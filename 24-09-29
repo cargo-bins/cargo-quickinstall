@@ -2,3 +2,4 @@ nexmark
 parquet
 human_bytes
 schemafy
+cargo-lock
