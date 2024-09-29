@@ -22,3 +22,4 @@ tree-sitter-graph
 addr2line
 dotenv
 dotenvy
+solana-gossip
