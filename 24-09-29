@@ -8,3 +8,4 @@ schemafy
 parquet
 rustrict
 cached-path
+phf_generator
