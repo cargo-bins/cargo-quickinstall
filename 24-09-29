@@ -83,3 +83,4 @@ tree-sitter-graph
 h3o
 opencv-binding-generator
 re_query
+phf_generator
