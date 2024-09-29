@@ -44,3 +44,4 @@ solana-validator
 rls-rustc
 wol-rs
 solana-remote-wallet
+pwasm-utils
