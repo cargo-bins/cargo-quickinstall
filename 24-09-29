@@ -5,3 +5,4 @@ human_bytes
 rls-rustc
 ducc-sys
 sea-orm-cli
+rustfmt-nightly
