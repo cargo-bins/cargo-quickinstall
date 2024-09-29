@@ -41,3 +41,4 @@ winpty-rs
 cpp_demangle
 solana-gossip
 solana-validator
+rls-rustc
