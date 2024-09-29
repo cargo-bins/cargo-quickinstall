@@ -22,3 +22,4 @@ cargo-mobile2
 cargo-info
 rioterm
 sea-orm-cli
+wmi
