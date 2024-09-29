@@ -21,3 +21,4 @@ tendermint-abci
 ytop
 nkeys
 addr2line
+cached-path
