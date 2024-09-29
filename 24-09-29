@@ -24,3 +24,4 @@ addr2line
 cached-path
 tendermint-rpc
 solana-validator
+laminar
