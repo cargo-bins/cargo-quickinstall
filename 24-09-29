@@ -38,3 +38,4 @@ rkv
 cargo-show
 re_query
 winpty-rs
+cpp_demangle
