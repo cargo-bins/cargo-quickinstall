@@ -82,3 +82,4 @@ rls-rustc
 addr2line
 tendermint-rpc
 nexmark
+re_query
