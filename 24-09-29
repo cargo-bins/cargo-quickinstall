@@ -30,3 +30,4 @@ sha1collisiondetection
 arrow-flight
 pgrx-tests
 cargo-generate
+tauri-cli
