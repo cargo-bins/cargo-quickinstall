@@ -77,3 +77,4 @@ dotenv
 libbpf-cargo
 java-locator
 cargo-graph
+deploy
