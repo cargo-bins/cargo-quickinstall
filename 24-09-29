@@ -78,3 +78,4 @@ tendermint-rpc
 nextest-filtering
 wmi
 redoxer
+release
