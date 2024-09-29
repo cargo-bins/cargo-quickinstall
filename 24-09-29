@@ -98,3 +98,4 @@ tree-sitter-graph
 remove_dir_all
 solana-remote-wallet
 dotenvy
+remove_dir_all
