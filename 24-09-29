@@ -38,3 +38,4 @@ laminar
 rustfmt-nightly
 diesel_cli
 sn_node
+solana-gossip
