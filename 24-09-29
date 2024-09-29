@@ -21,3 +21,4 @@ flowistry_ide
 human_bytes
 tendermint-abci
 nkeys
+libbpf-cargo
