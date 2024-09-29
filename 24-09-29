@@ -56,3 +56,4 @@ nkeys
 phf_generator
 wol-rs
 solana-gossip
+dotenv
