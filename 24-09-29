@@ -13,3 +13,4 @@ tendermint-abci
 raw-cpuid
 nextest-filtering
 syd
+java-locator
