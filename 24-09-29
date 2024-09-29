@@ -43,3 +43,4 @@ nexmark
 sha1collisiondetection
 libbpf-cargo
 z3tracer
+nextest-filtering
