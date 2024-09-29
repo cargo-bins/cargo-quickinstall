@@ -79,3 +79,4 @@ dotenv
 nu
 nkeys
 deploy
+tree-sitter-graph
