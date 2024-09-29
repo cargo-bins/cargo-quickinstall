@@ -97,3 +97,4 @@ spider_worker
 tree-sitter-graph
 remove_dir_all
 solana-remote-wallet
+dotenvy
