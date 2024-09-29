@@ -54,3 +54,4 @@ spider_worker
 librespot
 deploy
 dotenv
+sqlx-cli
