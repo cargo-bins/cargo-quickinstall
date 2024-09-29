@@ -60,3 +60,4 @@ oso
 deno
 tendermint-rpc
 tendermint-abci
+opencv-binding-generator
