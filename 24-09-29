@@ -99,3 +99,4 @@ httpmock
 diesel_cli
 wmi
 spider_worker
+libbpf-cargo
