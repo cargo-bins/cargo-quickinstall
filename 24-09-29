@@ -104,3 +104,4 @@ raw-cpuid
 re_query
 wasm-bindgen-cli
 dotenv
+pwasm-utils
