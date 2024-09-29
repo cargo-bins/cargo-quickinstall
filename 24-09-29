@@ -37,3 +37,4 @@ benfred-read-process-memory
 laminar
 rustfmt-nightly
 diesel_cli
+sn_node
