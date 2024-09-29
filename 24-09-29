@@ -59,3 +59,4 @@ solana-validator
 textplots
 rkv
 re_query
+sea-orm-cli
