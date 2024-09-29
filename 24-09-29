@@ -6,3 +6,4 @@ clippy
 winpty-rs
 solana-keygen
 phf_generator
+nextest-filtering
