@@ -45,3 +45,4 @@ deploy
 text-diff
 httpmock
 paperclip
+schemafy
