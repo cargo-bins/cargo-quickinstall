@@ -68,3 +68,4 @@ sea-orm-cli
 protox
 py-spy
 cargo-local-registry
+tendermint-abci
