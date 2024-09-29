@@ -48,3 +48,4 @@ paperclip
 schemafy
 text-diff
 ec2_instance_metadata
+tokio-process
