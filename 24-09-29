@@ -31,3 +31,4 @@ laminar
 tendermint-abci
 socketcan
 tendermint-rpc
+diesel_cli
