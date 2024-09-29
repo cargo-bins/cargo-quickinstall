@@ -91,3 +91,4 @@ raw-cpuid
 syd
 rls-rustc
 winpty-rs
+spider_cli
