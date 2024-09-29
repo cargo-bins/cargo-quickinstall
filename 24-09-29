@@ -60,3 +60,4 @@ textplots
 rkv
 re_query
 sea-orm-cli
+cached-path
