@@ -12,3 +12,4 @@ socketcan
 foundationdb-gen
 cpp_demangle
 minicbor
+rls-rustc
