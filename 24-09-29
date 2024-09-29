@@ -13,3 +13,4 @@ foundationdb-gen
 cpp_demangle
 minicbor
 rls-rustc
+arrow-flight
