@@ -50,3 +50,4 @@ text-diff
 ec2_instance_metadata
 tokio-process
 cargo-vet
+protox
