@@ -90,3 +90,4 @@ nexmark
 yofi
 cached-path
 tendermint-rpc
+wol-rs
