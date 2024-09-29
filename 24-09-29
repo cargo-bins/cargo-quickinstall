@@ -65,3 +65,4 @@ rkv
 arrow-flight
 dotenv
 clippy
+phf_generator
