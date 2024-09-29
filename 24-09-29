@@ -27,3 +27,4 @@ cargo-smart-release
 borsh
 paru
 human_bytes
+papyrus_storage
