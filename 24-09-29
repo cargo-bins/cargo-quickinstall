@@ -35,3 +35,4 @@ diesel_cli
 solana-gossip
 deno
 java-locator
+sha1collisiondetection
