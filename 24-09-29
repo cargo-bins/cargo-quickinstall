@@ -81,3 +81,4 @@ nkeys
 rls-rustc
 addr2line
 tendermint-rpc
+nexmark
