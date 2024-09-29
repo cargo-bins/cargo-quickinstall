@@ -37,3 +37,4 @@ libbpf-cargo
 borsh
 textplots
 nu
+nexmark
