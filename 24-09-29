@@ -62,3 +62,4 @@ tendermint-rpc
 tendermint-abci
 opencv-binding-generator
 rrule
+human_name
