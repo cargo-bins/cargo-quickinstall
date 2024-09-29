@@ -91,3 +91,4 @@ pwasm-utils
 spider_cli
 nexmark
 rrule
+phf_generator
