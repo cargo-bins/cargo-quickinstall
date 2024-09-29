@@ -38,3 +38,4 @@ kdotool
 addr2line
 qsv
 borsh
+asm-lsp
