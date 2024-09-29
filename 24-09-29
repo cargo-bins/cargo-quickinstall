@@ -62,3 +62,4 @@ re_query
 sea-orm-cli
 cached-path
 oxipng
+remove_dir_all
