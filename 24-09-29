@@ -14,3 +14,4 @@ borsh
 gpg-tui
 gnostr-bins
 binstall
+tree-sitter-graph
