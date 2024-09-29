@@ -72,3 +72,4 @@ libbpf-cargo
 sn_cli
 schemafy
 rls-rustc
+textplots
