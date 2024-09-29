@@ -39,3 +39,4 @@ addr2line
 qsv
 borsh
 asm-lsp
+pico-uf2
