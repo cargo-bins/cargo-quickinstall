@@ -65,3 +65,4 @@ oxipng
 remove_dir_all
 human_name
 socketcan
+rustfmt-nightly
