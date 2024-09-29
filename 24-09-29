@@ -64,3 +64,4 @@ dotenv
 nextest-filtering
 opencv-binding-generator
 libbpf-cargo
+nexmark
