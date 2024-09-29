@@ -32,3 +32,4 @@ remove_dir_all
 winpty-rs
 java-locator
 borsh
+dotenvy
