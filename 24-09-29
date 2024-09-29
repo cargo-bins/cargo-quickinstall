@@ -60,3 +60,4 @@ nkeys
 unic-langid-impl
 syd
 cargo-lock
+tendermint-rpc
