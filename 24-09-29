@@ -78,3 +78,4 @@ clippy
 httpmock
 text-diff
 opencv-binding-generator
+sqlx-cli
