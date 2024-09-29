@@ -40,3 +40,4 @@ ducc-sys
 wol-rs
 cargo-generate
 nexmark
+sha1collisiondetection
