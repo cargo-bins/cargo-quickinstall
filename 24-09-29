@@ -93,3 +93,4 @@ rls-rustc
 winpty-rs
 spider_cli
 textplots
+spider_worker
