@@ -57,3 +57,4 @@ dotenv
 sqlx-cli
 cargo-show
 rustrict
+httpmock
