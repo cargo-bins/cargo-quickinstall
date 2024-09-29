@@ -105,3 +105,4 @@ re_query
 wasm-bindgen-cli
 dotenv
 pwasm-utils
+opencv-binding-generator
