@@ -53,3 +53,4 @@ cargo-vet
 protox
 pwasm-utils
 foundationdb-gen
+syd
