@@ -90,3 +90,4 @@ wol-rs
 addr2line
 py-spy
 coldsnap
+rustbus
