@@ -33,3 +33,4 @@ unic-langid-impl
 foundationdb-gen
 nextest-filtering
 paperclip
+benfred-read-process-memory
