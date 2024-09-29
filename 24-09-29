@@ -122,3 +122,4 @@ dotenvy
 minicbor
 schemafy
 deno
+addr2line
