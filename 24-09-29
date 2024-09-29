@@ -100,3 +100,4 @@ rustfmt-nightly
 remove_dir_all
 re_query
 sha1collisiondetection
+sqlx-cli
