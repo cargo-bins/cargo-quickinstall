@@ -60,3 +60,4 @@ syd
 libbpf-cargo
 honggfuzz
 tokio-process
+httpbis
