@@ -81,3 +81,4 @@ opencv-binding-generator
 sqlx-cli
 pwasm-utils
 rustbus
+foundationdb-gen
