@@ -20,3 +20,4 @@ rustfmt-nightly
 tendermint-rpc
 solana-genesis
 tree-sitter-graph
+raw-cpuid
