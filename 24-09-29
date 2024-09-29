@@ -26,3 +26,4 @@ wmi
 dotenv
 libbpf-cargo
 phf_generator
+kdotool
