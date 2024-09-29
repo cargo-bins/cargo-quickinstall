@@ -42,3 +42,4 @@ dotenv
 human_bytes
 wol-rs
 diesel_cli
+solana-validator
