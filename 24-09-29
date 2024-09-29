@@ -108,3 +108,4 @@ pwasm-utils
 opencv-binding-generator
 dotenv
 raw-cpuid
+tendermint-rpc
