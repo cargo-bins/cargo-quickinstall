@@ -63,3 +63,4 @@ librespot
 sea-orm-cli
 rkv
 arrow-flight
+dotenv
