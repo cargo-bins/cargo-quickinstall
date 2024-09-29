@@ -37,3 +37,4 @@ hurl
 sniffnet
 cargo-list
 nextest-filtering
+gnostr-bins
