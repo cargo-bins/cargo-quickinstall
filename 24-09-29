@@ -71,3 +71,4 @@ tendermint-rpc
 libbpf-cargo
 sn_cli
 schemafy
+rls-rustc
