@@ -83,3 +83,4 @@ pwasm-utils
 rustbus
 foundationdb-gen
 papyrus_storage
+coldsnap
