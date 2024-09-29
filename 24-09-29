@@ -4,3 +4,4 @@ phf_generator
 rls-rustc
 rustrict
 foundationdb-gen
+wmi
