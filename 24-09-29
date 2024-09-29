@@ -92,3 +92,4 @@ py-spy
 coldsnap
 rustbus
 benfred-read-process-memory
+ec2_instance_metadata
