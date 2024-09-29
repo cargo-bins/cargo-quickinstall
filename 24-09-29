@@ -92,3 +92,4 @@ remove_dir_all
 deploy
 tree-sitter-graph
 parquet
+deploy
