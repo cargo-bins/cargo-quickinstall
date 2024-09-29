@@ -22,3 +22,4 @@ snarkvm
 cached-path
 rustfmt-nightly
 rustrict
+deno
