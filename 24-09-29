@@ -13,3 +13,4 @@ libbpf-cargo
 borsh
 gpg-tui
 gnostr-bins
+binstall
