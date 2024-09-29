@@ -62,3 +62,4 @@ tendermint-rpc
 librespot
 sea-orm-cli
 rkv
+arrow-flight
