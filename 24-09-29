@@ -71,3 +71,4 @@ cargo-local-registry
 tendermint-abci
 syd
 h3o
+borsh
