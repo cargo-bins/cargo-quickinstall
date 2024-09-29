@@ -59,3 +59,4 @@ wol-rs
 nkeys
 unic-langid-impl
 syd
+cargo-lock
