@@ -13,3 +13,4 @@ unic-langid-impl
 libbpf-cargo
 schemafy
 remove_dir_all
+cached-path
