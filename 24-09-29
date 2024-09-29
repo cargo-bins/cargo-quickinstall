@@ -106,3 +106,4 @@ wasm-bindgen-cli
 dotenv
 pwasm-utils
 opencv-binding-generator
+dotenv
