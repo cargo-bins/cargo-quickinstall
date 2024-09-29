@@ -6,3 +6,4 @@ rustfmt-nightly
 rrule
 papyrus_storage
 nkeys
+solana-remote-wallet
