@@ -80,3 +80,4 @@ wol-rs
 re_query
 remove_dir_all
 dotenv
+sha1collisiondetection
