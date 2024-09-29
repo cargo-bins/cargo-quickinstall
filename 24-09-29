@@ -14,3 +14,4 @@ cpp_demangle
 minicbor
 rls-rustc
 arrow-flight
+libbpf-cargo
