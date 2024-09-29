@@ -76,3 +76,4 @@ textplots
 tree-sitter-graph
 clippy
 httpmock
+text-diff
