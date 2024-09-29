@@ -67,3 +67,4 @@ libbpf-cargo
 nexmark
 cached-path
 cpp_demangle
+deploy
