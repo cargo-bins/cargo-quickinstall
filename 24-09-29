@@ -65,3 +65,4 @@ nextest-filtering
 opencv-binding-generator
 libbpf-cargo
 nexmark
+cached-path
