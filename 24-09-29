@@ -62,3 +62,4 @@ racer
 rrule
 dotenv
 nextest-filtering
+opencv-binding-generator
