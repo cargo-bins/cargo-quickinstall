@@ -34,3 +34,4 @@ laminar
 rls-rustc
 tendermint-abci
 libbpf-cargo
+borsh
