@@ -53,3 +53,4 @@ nextest-filtering
 spider_worker
 librespot
 deploy
+dotenv
