@@ -2,3 +2,4 @@ libbpf-cargo
 racer
 nexmark
 zuse
+cpp_demangle
