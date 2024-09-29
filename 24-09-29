@@ -23,3 +23,4 @@ httpmock
 socketcan
 racer
 foundationdb-gen
+rls-rustc
