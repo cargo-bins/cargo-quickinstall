@@ -34,3 +34,4 @@ java-locator
 borsh
 dotenvy
 tendermint-rpc
+cached-path
