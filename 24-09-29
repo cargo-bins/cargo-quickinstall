@@ -21,3 +21,4 @@ cpp_demangle
 spider_cli
 tree-sitter-graph
 z3tracer
+snarkvm
