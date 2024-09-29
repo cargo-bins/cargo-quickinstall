@@ -72,3 +72,4 @@ pwasm-utils
 httpmock
 dotenvy
 winpty-rs
+solana-gossip
