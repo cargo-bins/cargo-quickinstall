@@ -33,3 +33,4 @@ sqlx-cli
 laminar
 rls-rustc
 tendermint-abci
+libbpf-cargo
