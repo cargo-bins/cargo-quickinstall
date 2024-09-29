@@ -20,3 +20,4 @@ winpty-rs
 tendermint-abci
 ytop
 nkeys
+addr2line
