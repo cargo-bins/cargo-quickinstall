@@ -43,3 +43,4 @@ solana-gossip
 solana-validator
 rls-rustc
 wol-rs
+solana-remote-wallet
