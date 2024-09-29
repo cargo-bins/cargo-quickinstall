@@ -19,3 +19,4 @@ textplots
 sqlx-cli
 syd
 tree-sitter-graph
+addr2line
