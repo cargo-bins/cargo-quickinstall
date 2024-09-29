@@ -4,3 +4,4 @@ rkv
 human_bytes
 rls-rustc
 ducc-sys
+sea-orm-cli
