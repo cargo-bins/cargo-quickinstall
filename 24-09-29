@@ -119,3 +119,4 @@ opencv-binding-generator
 solana-remote-wallet
 httpmock
 dotenvy
+minicbor
