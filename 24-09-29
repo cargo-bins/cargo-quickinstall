@@ -97,3 +97,4 @@ py-spy
 sn_cli
 deno
 rustfmt-nightly
+remove_dir_all
