@@ -33,3 +33,4 @@ cargo-generate
 tauri-cli
 tree-sitter-graph
 human_name
+racer
