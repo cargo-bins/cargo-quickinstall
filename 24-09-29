@@ -98,3 +98,4 @@ vrc-log
 addr2line
 rustfmt-nightly
 cpp_demangle
+sea-orm-cli
