@@ -47,3 +47,4 @@ solana-gossip
 cargo-whatfeatures
 paru
 cpp_demangle
+rkv
