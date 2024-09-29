@@ -99,3 +99,4 @@ solana-gossip
 tendermint-abci
 minicbor
 phf_generator
+human_name
