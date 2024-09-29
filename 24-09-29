@@ -75,3 +75,4 @@ winpty-rs
 solana-gossip
 clippy
 laminar
+dotenv
