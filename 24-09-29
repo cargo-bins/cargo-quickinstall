@@ -98,3 +98,4 @@ librespot
 solana-gossip
 tendermint-abci
 minicbor
+phf_generator
