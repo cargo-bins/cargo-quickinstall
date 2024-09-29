@@ -75,3 +75,4 @@ release
 ncspot
 wmi
 tendermint-rpc
+nextest-filtering
