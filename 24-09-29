@@ -20,3 +20,4 @@ java-locator
 oso
 snarkvm
 cached-path
+rustfmt-nightly
