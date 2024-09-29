@@ -93,3 +93,4 @@ ducc-sys
 foundationdb-gen
 human_name
 rmesg
+libbpf-cargo
