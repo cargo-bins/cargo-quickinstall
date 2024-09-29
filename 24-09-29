@@ -35,3 +35,4 @@ nextest-filtering
 paperclip
 benfred-read-process-memory
 laminar
+rustfmt-nightly
