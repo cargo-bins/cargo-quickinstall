@@ -112,3 +112,4 @@ tendermint-rpc
 zuse
 parquet
 raw-cpuid
+tauri-cli
