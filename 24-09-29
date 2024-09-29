@@ -35,3 +35,4 @@ parquet
 nextest-filtering
 mise
 kdotool
+addr2line
