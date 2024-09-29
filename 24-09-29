@@ -42,3 +42,4 @@ cpp_demangle
 solana-gossip
 solana-validator
 rls-rustc
+wol-rs
