@@ -74,3 +74,4 @@ re_query
 human_name
 solana-validator
 dotenv
+libbpf-cargo
