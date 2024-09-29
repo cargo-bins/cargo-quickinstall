@@ -60,3 +60,4 @@ dotenv
 diesel_cli
 racer
 rrule
+dotenv
