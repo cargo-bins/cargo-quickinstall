@@ -46,3 +46,4 @@ borsh
 solana-keygen
 h3o
 opencv-binding-generator
+sea-orm-cli
