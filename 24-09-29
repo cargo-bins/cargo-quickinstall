@@ -57,3 +57,4 @@ phf_generator
 wol-rs
 solana-gossip
 dotenv
+diesel_cli
