@@ -2,3 +2,4 @@ addr2line
 wmi
 phf_generator
 rls-rustc
+rustrict
