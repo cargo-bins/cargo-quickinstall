@@ -71,3 +71,4 @@ snarkvm
 sea-orm-cli
 solana-keygen
 wmi
+cached-path
