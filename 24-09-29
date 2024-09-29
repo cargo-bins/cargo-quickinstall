@@ -16,3 +16,4 @@ nextest-filtering
 wol-rs
 rustrict
 textplots
+sqlx-cli
