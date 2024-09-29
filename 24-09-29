@@ -16,3 +16,4 @@ syd
 java-locator
 phf_generator
 honggfuzz
+sqlx-cli
