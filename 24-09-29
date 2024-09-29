@@ -101,3 +101,4 @@ cpp_demangle
 sea-orm-cli
 eureka
 qrtool
+cargo-public-api
