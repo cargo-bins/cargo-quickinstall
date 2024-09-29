@@ -13,3 +13,4 @@ solana-validator
 schemafy
 remove_dir_all
 nextest-filtering
+wol-rs
