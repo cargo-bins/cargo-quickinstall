@@ -89,3 +89,4 @@ nextest-filtering
 deploy
 rustbus
 oso
+ducc-sys
