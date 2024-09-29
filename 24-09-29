@@ -103,3 +103,4 @@ libbpf-cargo
 paperclip
 human_name
 arrow-flight
+borsh
