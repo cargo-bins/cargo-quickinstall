@@ -30,3 +30,4 @@ cpp_demangle
 spider_worker
 wasm-bindgen-cli
 sqlx-cli
+laminar
