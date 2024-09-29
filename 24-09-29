@@ -34,3 +34,4 @@ foundationdb-gen
 nextest-filtering
 paperclip
 benfred-read-process-memory
+laminar
