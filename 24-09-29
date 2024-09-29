@@ -86,3 +86,4 @@ paru
 ducc-sys
 hurlfmt
 cargo-lock
+cargo-spellcheck
