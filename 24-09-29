@@ -11,3 +11,4 @@ starship
 re_query
 racer
 sea-orm-cli
+tree-sitter-graph
