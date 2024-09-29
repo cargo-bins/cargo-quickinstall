@@ -8,3 +8,4 @@ sea-orm-cli
 rustfmt-nightly
 raw-cpuid
 java-locator
+cached-path
