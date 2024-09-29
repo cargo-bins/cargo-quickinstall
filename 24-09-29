@@ -51,3 +51,4 @@ nkeys
 solana-validator
 rustfmt-nightly
 laminar
+wmi
