@@ -54,3 +54,4 @@ sha1collisiondetection
 sha1collisiondetection
 re_query
 tree-sitter-graph
+honggfuzz
