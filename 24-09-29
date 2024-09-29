@@ -38,3 +38,4 @@ paperclip
 raw-cpuid
 tendermint-abci
 nextest-filtering
+java-locator
