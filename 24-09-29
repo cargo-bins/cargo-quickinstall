@@ -32,3 +32,4 @@ wasm-bindgen-cli
 sqlx-cli
 laminar
 rls-rustc
+tendermint-abci
