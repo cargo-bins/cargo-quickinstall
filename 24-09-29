@@ -78,3 +78,4 @@ cargo-smart-release
 sha1collisiondetection
 sqruff
 mise
+cargo-spellcheck
