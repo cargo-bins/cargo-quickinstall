@@ -31,3 +31,4 @@ arrow-flight
 pgrx-tests
 cargo-generate
 tauri-cli
+tree-sitter-graph
