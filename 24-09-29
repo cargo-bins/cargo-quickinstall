@@ -92,3 +92,4 @@ spider_cli
 nexmark
 rrule
 phf_generator
+httpmock
