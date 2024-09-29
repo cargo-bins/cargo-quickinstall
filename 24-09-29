@@ -82,3 +82,4 @@ sqlx-cli
 pwasm-utils
 rustbus
 foundationdb-gen
+papyrus_storage
