@@ -58,3 +58,4 @@ sqlx-cli
 cargo-show
 rustrict
 httpmock
+tendermint-rpc
