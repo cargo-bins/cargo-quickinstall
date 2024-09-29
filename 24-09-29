@@ -68,3 +68,4 @@ socketcan
 rustfmt-nightly
 rrule
 paperclip
+pwasm-utils
