@@ -41,3 +41,4 @@ arrow-flight
 dotenv
 human_bytes
 wol-rs
+diesel_cli
