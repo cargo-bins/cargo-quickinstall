@@ -17,3 +17,4 @@ solana-gossip
 rustrict
 foundationdb-gen
 winpty-rs
+tendermint-abci
