@@ -101,3 +101,4 @@ wmi
 spider_worker
 libbpf-cargo
 paperclip
+human_name
