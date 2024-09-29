@@ -26,3 +26,4 @@ rg
 cargo-smart-release
 borsh
 paru
+human_bytes
