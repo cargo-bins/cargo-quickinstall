@@ -101,3 +101,4 @@ vrc-log
 cargo-msrv
 spider_cli
 release
+deno
