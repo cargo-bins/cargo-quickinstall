@@ -81,3 +81,4 @@ foundationdb-gen
 java-locator
 rkv
 paperclip
+pwasm-utils
