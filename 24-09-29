@@ -110,3 +110,4 @@ dotenv
 raw-cpuid
 tendermint-rpc
 zuse
+parquet
