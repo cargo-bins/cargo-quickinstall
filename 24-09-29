@@ -42,3 +42,4 @@ java-locator
 rkv
 rkv
 remove_dir_all
+winpty-rs
