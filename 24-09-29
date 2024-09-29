@@ -108,3 +108,4 @@ minicbor
 schemafy
 libbpf-cargo
 nkeys
+tendermint-abci
