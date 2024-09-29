@@ -20,3 +20,4 @@ sqlx-cli
 diesel_cli
 deploy
 solana-gossip
+pwasm-utils
