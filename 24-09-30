@@ -33,3 +33,4 @@ foundationdb-gen
 borsh
 phf_generator
 solana-validator
+dotenv
