@@ -28,3 +28,4 @@ unic-langid-impl
 cargo-embed
 rls-rustc
 oso
+cargo-flash
