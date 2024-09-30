@@ -7,3 +7,4 @@ schemafy
 remove_dir_all
 dotenvy
 arrow-flight
+libbpf-cargo
