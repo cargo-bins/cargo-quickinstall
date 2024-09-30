@@ -61,3 +61,4 @@ cpp_demangle
 socketcan
 cargo-generate
 raw-cpuid
+skim
