@@ -78,3 +78,4 @@ solana-cli
 phf_generator
 protox
 nextest-filtering
+parquet
