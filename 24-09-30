@@ -63,3 +63,4 @@ rustrict
 borsh
 clippy
 laminar
+opencv-binding-generator
