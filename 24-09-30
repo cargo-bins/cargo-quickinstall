@@ -9,3 +9,4 @@ textplots
 cpp_demangle
 dotenvy
 addr2line
+parquet
