@@ -41,3 +41,4 @@ phf_generator
 human_name
 rustrict
 unic-langid-impl
+httpmock
