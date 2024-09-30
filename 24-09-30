@@ -9,3 +9,4 @@ rls-rustc
 dotenvy
 unic-langid-impl
 sequoia-sq
+tendermint-rpc
