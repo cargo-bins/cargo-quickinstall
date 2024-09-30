@@ -107,3 +107,4 @@ schemafy
 nextest-filtering
 tendermint-rpc
 dotenv
+nextest-filtering
