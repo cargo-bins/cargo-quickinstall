@@ -18,3 +18,4 @@ rustfmt-nightly
 socketcan
 skim
 papyrus_storage
+cargo-generate
