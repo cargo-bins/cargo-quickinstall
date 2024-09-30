@@ -68,3 +68,4 @@ borsh
 wmi
 raw-cpuid
 cached-path
+racer
