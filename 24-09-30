@@ -28,3 +28,4 @@ rustfmt-nightly
 tendermint-abci
 cached-path
 textplots
+racer
