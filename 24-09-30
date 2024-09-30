@@ -1,3 +1,4 @@
 cargo-lock
 minicbor
 oso
+winpty-rs
