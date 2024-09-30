@@ -37,3 +37,4 @@ dotenv
 parquet
 tendermint-rpc
 pwasm-utils
+phf_generator
