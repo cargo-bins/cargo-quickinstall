@@ -19,3 +19,4 @@ socketcan
 winpty-rs
 clippy
 z3tracer
+opencv-binding-generator
