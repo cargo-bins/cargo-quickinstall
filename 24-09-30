@@ -75,3 +75,4 @@ socketcan
 rkv
 rustbus
 nextest-filtering
+clippy
