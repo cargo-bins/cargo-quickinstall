@@ -47,3 +47,4 @@ tree-sitter-graph
 cpp_demangle
 papyrus_storage
 java-locator
+spider_cli
