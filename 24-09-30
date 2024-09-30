@@ -51,3 +51,4 @@ unic-langid-impl
 addr2line
 winpty-rs
 arrow-flight
+unic-langid-impl
