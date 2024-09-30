@@ -13,3 +13,4 @@ nexmark
 rls-rustc
 minicbor
 ducc-sys
+dotenv
