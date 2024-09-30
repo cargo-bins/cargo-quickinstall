@@ -29,3 +29,4 @@ borsh
 socketcan
 laminar
 sqlx-cli
+socketcan
