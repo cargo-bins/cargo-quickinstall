@@ -65,3 +65,4 @@ unic-langid-impl
 re_query
 cpp_demangle
 socketcan
+sha1collisiondetection
