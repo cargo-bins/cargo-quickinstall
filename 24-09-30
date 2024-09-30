@@ -29,3 +29,4 @@ rustfmt-nightly
 rkv
 dotenv
 zellij
+solana-gossip
