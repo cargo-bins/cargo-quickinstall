@@ -25,3 +25,4 @@ parquet
 racer
 solana-cli
 rrule
+rustfmt-nightly
