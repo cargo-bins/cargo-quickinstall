@@ -18,3 +18,4 @@ addr2line
 z3tracer
 pwasm-utils
 opencv-binding-generator
+nextest-filtering
