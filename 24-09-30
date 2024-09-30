@@ -38,3 +38,4 @@ sqlx-cli
 tendermint-rpc
 rrule
 nextest-filtering
+pwasm-utils
