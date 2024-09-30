@@ -66,3 +66,4 @@ human_bytes
 cargo-show
 borsh
 wmi
+raw-cpuid
