@@ -40,3 +40,4 @@ pwasm-utils
 phf_generator
 human_name
 rustrict
+unic-langid-impl
