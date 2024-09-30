@@ -34,3 +34,4 @@ borsh
 protox
 rkv
 pwasm-utils
+human_bytes
