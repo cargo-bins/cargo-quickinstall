@@ -58,3 +58,4 @@ deploy
 human_bytes
 ducc-sys
 deploy
+rustfmt-nightly
