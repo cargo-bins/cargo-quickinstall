@@ -4,3 +4,4 @@ rls-rustc
 winpty-rs
 phf_generator
 tokio-process
+sha1collisiondetection
