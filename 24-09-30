@@ -35,3 +35,4 @@ syd
 wmi
 opencv-binding-generator
 solana-validator
+cpp_demangle
