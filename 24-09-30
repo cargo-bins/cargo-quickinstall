@@ -45,3 +45,4 @@ deno
 tendermint-rpc
 pwasm-utils
 java-locator
+papyrus_storage
