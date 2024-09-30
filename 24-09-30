@@ -11,3 +11,4 @@ solana-keygen
 rustrict
 libbpf-cargo
 wasm-bindgen-cli
+tauri-cli
