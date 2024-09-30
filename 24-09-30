@@ -48,3 +48,4 @@ paperclip
 rls-rustc
 dotenv
 arrow-flight
+oso
