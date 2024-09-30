@@ -60,3 +60,4 @@ human_bytes
 rls-rustc
 librespot
 cargo-pgrx
+httpmock
