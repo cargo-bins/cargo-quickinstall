@@ -69,3 +69,4 @@ deploy
 dotenv
 rustfmt-nightly
 syd
+opencv-binding-generator
