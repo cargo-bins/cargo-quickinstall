@@ -55,3 +55,4 @@ addr2line
 human_bytes
 nexmark
 cached-path
+phf_generator
