@@ -70,3 +70,4 @@ solana-cli
 phf_generator
 nkeys
 protox
+socketcan
