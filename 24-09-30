@@ -21,3 +21,4 @@ papyrus_storage
 cargo-generate
 coldsnap
 rls-rustc
+parquet
