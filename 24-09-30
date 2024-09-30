@@ -16,3 +16,4 @@ rls-rustc
 cargo-msrv
 tree-sitter-graph
 socketcan
+spider_cli
