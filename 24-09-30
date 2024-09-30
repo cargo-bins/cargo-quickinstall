@@ -97,3 +97,4 @@ tendermint-rpc
 socketcan
 eidolon
 atuin
+dotenv
