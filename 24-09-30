@@ -80,3 +80,4 @@ protox
 nextest-filtering
 parquet
 remove_dir_all
+dotenvy
