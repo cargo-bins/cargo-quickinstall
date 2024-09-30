@@ -68,3 +68,4 @@ socketcan
 sha1collisiondetection
 httpmock
 diesel_cli
+phf_generator
