@@ -63,3 +63,4 @@ bgpkit-parser
 libbpf-cargo
 qrtool
 addr2line
+cce
