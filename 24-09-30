@@ -18,3 +18,4 @@ solana-gossip
 human_bytes
 ec2_instance_metadata
 human_name
+rls-rustc
