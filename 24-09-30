@@ -32,3 +32,4 @@ winpty-rs
 wmi
 parquet
 unic-langid-impl
+snarkvm
