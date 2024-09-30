@@ -71,3 +71,4 @@ wmi
 deploy
 librespot
 phf_generator
+remove_dir_all
