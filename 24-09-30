@@ -88,3 +88,4 @@ sha1collisiondetection
 unic-langid-impl
 deploy
 tendermint-rpc
+human_name
