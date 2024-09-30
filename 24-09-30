@@ -30,3 +30,4 @@ honggfuzz
 winpty-rs
 rustrict
 rustfmt
+cargo-vet
