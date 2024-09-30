@@ -63,3 +63,4 @@ zuse
 cpp_demangle
 diesel_cli
 human_bytes
+cargo-show
