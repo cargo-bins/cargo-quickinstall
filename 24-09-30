@@ -7,3 +7,4 @@ solana-cli
 solana-gossip
 textplots
 cpp_demangle
+dotenvy
