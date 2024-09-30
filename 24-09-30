@@ -66,3 +66,4 @@ tendermint-abci
 rav1e
 ducc-sys
 deploy
+dotenv
