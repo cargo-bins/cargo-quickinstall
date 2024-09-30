@@ -49,3 +49,4 @@ borsh
 unic-langid-impl
 socketcan
 h3o
+httpmock
