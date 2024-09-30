@@ -63,3 +63,4 @@ cargo-pgrx
 httpmock
 nextest-filtering
 mdbook-plantuml
+porsmo
