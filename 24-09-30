@@ -60,3 +60,4 @@ spider_worker
 diesel_cli
 rkv
 rustrict
+borsh
