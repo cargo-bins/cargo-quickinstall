@@ -59,3 +59,4 @@ sea-orm-cli
 human_bytes
 rls-rustc
 librespot
+cargo-pgrx
