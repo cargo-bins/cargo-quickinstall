@@ -8,3 +8,4 @@ solana-gossip
 textplots
 cpp_demangle
 dotenvy
+addr2line
