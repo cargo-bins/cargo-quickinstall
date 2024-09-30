@@ -42,3 +42,4 @@ pwasm-utils
 solana-validator
 unic-langid-impl
 solana-genesis
+wol-rs
