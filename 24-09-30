@@ -12,3 +12,4 @@ re_query
 nexmark
 rls-rustc
 minicbor
+ducc-sys
