@@ -59,3 +59,4 @@ dotenv
 cargo-lock
 cpp_demangle
 socketcan
+cargo-generate
