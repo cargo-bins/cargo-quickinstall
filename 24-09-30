@@ -28,3 +28,4 @@ spider_cli
 ducc-sys
 deno
 syd
+winpty-rs
