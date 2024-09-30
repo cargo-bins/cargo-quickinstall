@@ -32,3 +32,4 @@ rustrict
 rustfmt
 cargo-vet
 diesel_cli
+socketcan
