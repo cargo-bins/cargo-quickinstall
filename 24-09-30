@@ -23,3 +23,4 @@ winpty-rs
 remove_dir_all
 laminar
 foundationdb-gen
+solana-gossip
