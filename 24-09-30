@@ -24,3 +24,4 @@ remove_dir_all
 laminar
 foundationdb-gen
 solana-gossip
+unic-langid-impl
