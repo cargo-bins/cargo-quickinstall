@@ -24,3 +24,4 @@ httpmock
 re_query
 cargo-info
 bgpkit-broker
+borsh
