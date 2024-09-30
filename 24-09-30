@@ -1,3 +1,4 @@
 wol-rs
 tendermint-rpc
 rls-rustc
+winpty-rs
