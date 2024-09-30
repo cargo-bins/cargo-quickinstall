@@ -36,3 +36,4 @@ wmi
 opencv-binding-generator
 solana-validator
 cpp_demangle
+remove_dir_all
