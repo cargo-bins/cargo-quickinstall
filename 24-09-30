@@ -30,3 +30,4 @@ rkv
 dotenv
 zellij
 solana-gossip
+borsh
