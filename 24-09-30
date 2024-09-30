@@ -58,3 +58,4 @@ sqlx-cli
 winpty-rs
 textplots
 deno
+solana-gossip
