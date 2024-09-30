@@ -17,3 +17,4 @@ paperclip
 raw-cpuid
 httpmock
 librespot
+dotenv
