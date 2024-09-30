@@ -54,3 +54,4 @@ socketcan
 pwasm-utils
 wol-rs
 re_query
+deploy
