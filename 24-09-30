@@ -52,3 +52,4 @@ unic-langid-impl
 cpp_demangle
 human_bytes
 addr2line
+human_bytes
