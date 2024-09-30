@@ -3,3 +3,4 @@ deploy
 dotenvy
 z3tracer
 py-spy
+httpmock
