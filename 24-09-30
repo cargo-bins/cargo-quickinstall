@@ -26,3 +26,4 @@ cargo-info
 bgpkit-broker
 borsh
 bgpkit-parser
+solana-validator
