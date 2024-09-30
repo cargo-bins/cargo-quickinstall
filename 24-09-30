@@ -50,3 +50,4 @@ solana-gossip
 clippy
 nextest-filtering
 wasm-bindgen-cli
+spider_worker
