@@ -10,3 +10,4 @@ cpp_demangle
 dotenvy
 addr2line
 parquet
+dotenv
