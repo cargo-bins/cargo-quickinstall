@@ -49,3 +49,4 @@ papyrus_storage
 solana-gossip
 clippy
 nextest-filtering
+wasm-bindgen-cli
