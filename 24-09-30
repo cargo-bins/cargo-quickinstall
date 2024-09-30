@@ -36,3 +36,4 @@ solana-validator
 dotenv
 parquet
 tendermint-rpc
+pwasm-utils
