@@ -26,3 +26,4 @@ rustfmt
 minicbor
 raw-cpuid
 rkv
+honggfuzz
