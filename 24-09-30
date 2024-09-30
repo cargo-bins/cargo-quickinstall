@@ -49,3 +49,4 @@ deno
 libbpf-cargo
 socketcan
 httpbis
+cpp_demangle
