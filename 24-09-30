@@ -10,3 +10,4 @@ snarkvm
 remove_dir_all
 cargo-spellcheck
 codeberg-cli
+cached-path
