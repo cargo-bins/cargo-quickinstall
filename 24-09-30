@@ -82,3 +82,4 @@ tree-sitter-cli
 nextest-filtering
 papyrus_storage
 snarkvm
+tree-sitter-graph
