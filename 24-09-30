@@ -52,3 +52,4 @@ tree-sitter-cli
 clippy
 oso
 textplots
+diesel_cli
