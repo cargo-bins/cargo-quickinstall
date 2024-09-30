@@ -21,3 +21,4 @@ thoth
 vrc-log
 cargo-smart-release
 httpmock
+re_query
