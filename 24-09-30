@@ -84,3 +84,4 @@ eidolon
 deploy
 sniffnet
 borsh
+sha1collisiondetection
