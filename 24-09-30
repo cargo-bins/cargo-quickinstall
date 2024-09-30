@@ -52,3 +52,4 @@ h3o
 httpmock
 socketcan
 pwasm-utils
+wol-rs
