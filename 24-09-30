@@ -90,3 +90,4 @@ deploy
 tendermint-rpc
 human_name
 rg
+hurl
