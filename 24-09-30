@@ -76,3 +76,4 @@ rkv
 rustbus
 nextest-filtering
 clippy
+sn_node
