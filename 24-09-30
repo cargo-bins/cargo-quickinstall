@@ -16,3 +16,4 @@ ducc-sys
 dotenv
 rustfmt-nightly
 socketcan
+skim
