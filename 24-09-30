@@ -86,3 +86,4 @@ tree-sitter-graph
 cpp_demangle
 human_name
 addr2line
+zuse
