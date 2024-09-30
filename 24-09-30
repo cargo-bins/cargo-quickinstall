@@ -8,3 +8,4 @@ remove_dir_all
 dotenvy
 arrow-flight
 libbpf-cargo
+foundationdb-gen
