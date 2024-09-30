@@ -52,3 +52,4 @@ sha1collisiondetection
 rustfmt-nightly
 unic-langid-impl
 sha1collisiondetection
+z3tracer
