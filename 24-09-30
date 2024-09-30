@@ -31,3 +31,4 @@ deno
 solana-remote-wallet
 foundationdb-gen
 borsh
+phf_generator
