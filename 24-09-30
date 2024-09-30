@@ -5,3 +5,4 @@ paperclip
 tendermint-rpc
 schemafy
 remove_dir_all
+dotenvy
