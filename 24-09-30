@@ -41,3 +41,4 @@ oso
 dotenv
 syd
 sea-orm-cli
+deploy
