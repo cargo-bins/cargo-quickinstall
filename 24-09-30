@@ -89,3 +89,4 @@ clippy
 rustrict
 diesel_cli
 solana-validator
+rkv
