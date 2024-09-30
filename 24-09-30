@@ -4,3 +4,4 @@ cargo-lock
 jless
 deploy
 graphql_client_cli
+human_bytes
