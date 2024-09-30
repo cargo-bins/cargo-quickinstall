@@ -28,3 +28,4 @@ raw-cpuid
 rkv
 honggfuzz
 winpty-rs
+rustrict
