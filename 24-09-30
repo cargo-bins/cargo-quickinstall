@@ -14,3 +14,4 @@ remove_dir_all
 minicbor
 rls-rustc
 dotenv
+cargo-lock
