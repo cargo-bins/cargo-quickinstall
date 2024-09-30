@@ -77,3 +77,4 @@ re_query
 thoth
 py-spy
 tree-sitter-graph
+sea-orm-cli
