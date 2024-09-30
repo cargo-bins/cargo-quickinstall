@@ -67,3 +67,4 @@ cpp_demangle
 socketcan
 sha1collisiondetection
 httpmock
+diesel_cli
