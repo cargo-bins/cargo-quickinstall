@@ -10,3 +10,4 @@ nkeys
 sqlx-cli
 re_query
 nexmark
+rls-rustc
