@@ -18,3 +18,4 @@ cargo-lock
 httpmock
 schemafy
 oxipng
+wol-rs
