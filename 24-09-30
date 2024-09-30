@@ -7,3 +7,4 @@ qsv
 unic-langid-impl
 socketcan
 rkv
+dotenvy
