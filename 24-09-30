@@ -13,3 +13,4 @@ solana-gossip
 raw-cpuid
 addr2line
 rls-rustc
+cargo-msrv
