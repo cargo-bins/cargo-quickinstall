@@ -51,3 +51,4 @@ spider_cli
 sha1collisiondetection
 rustfmt-nightly
 unic-langid-impl
+sha1collisiondetection
