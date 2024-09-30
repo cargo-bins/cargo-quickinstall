@@ -13,3 +13,4 @@ libbpf-cargo
 wasm-bindgen-cli
 tauri-cli
 human_name
+paperclip
