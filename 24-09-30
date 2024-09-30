@@ -57,3 +57,4 @@ re_query
 sqlx-cli
 winpty-rs
 textplots
+deno
