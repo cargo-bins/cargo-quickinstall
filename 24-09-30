@@ -18,3 +18,4 @@ phf_generator
 cargo-lock
 codeberg-cli
 thoth
+vrc-log
