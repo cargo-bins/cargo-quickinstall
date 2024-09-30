@@ -30,3 +30,4 @@ re_query
 snarkvm
 winpty-rs
 wmi
+parquet
