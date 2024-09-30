@@ -23,3 +23,4 @@ cargo-smart-release
 httpmock
 re_query
 cargo-info
+bgpkit-broker
