@@ -72,3 +72,4 @@ rls-rustc
 deploy
 schemafy
 solana-validator
+spider_worker
