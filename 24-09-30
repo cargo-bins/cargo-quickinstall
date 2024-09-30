@@ -53,3 +53,4 @@ ffs
 stac-cli
 atuin
 racer
+winpty-rs
