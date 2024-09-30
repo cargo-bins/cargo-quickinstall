@@ -65,3 +65,4 @@ nextest-filtering
 mdbook-plantuml
 porsmo
 bgpkit-parser
+tendermint-rpc
