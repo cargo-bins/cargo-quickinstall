@@ -87,3 +87,4 @@ deno
 solana-validator
 clippy
 rustrict
+diesel_cli
