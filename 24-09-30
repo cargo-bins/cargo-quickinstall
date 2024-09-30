@@ -61,3 +61,4 @@ rls-rustc
 librespot
 cargo-pgrx
 httpmock
+nextest-filtering
