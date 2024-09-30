@@ -94,3 +94,4 @@ hurl
 gpg-tui
 qrtool
 tendermint-rpc
+socketcan
