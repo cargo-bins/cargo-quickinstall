@@ -36,3 +36,4 @@ deploy
 tree-sitter-graph
 oso
 solana-cli
+opencv-binding-generator
