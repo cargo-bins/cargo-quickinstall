@@ -13,3 +13,4 @@ raw-cpuid
 wmi
 nextest-filtering
 rrule
+remove_dir_all
