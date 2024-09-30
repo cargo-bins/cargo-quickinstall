@@ -66,3 +66,4 @@ mdbook-plantuml
 porsmo
 bgpkit-parser
 tendermint-rpc
+stac-cli
