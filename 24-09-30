@@ -53,3 +53,4 @@ cpp_demangle
 re_query
 omicron-zone-package
 httpmock
+solana-cli
