@@ -77,3 +77,4 @@ cargo-show
 rls-rustc
 solana-cli
 cargo-mobile2
+winpty-rs
