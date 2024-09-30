@@ -24,3 +24,4 @@ unic-langid-impl
 cached-path
 rustfmt
 minicbor
+raw-cpuid
