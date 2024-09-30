@@ -15,3 +15,4 @@ httpbis
 sn_cli
 sha1collisiondetection
 solana-gossip
+human_bytes
