@@ -47,3 +47,4 @@ cpp_demangle
 java-locator
 borsh
 unic-langid-impl
+socketcan
