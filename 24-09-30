@@ -60,3 +60,4 @@ diesel_cli
 ducc-sys
 cached-path
 zuse
+cpp_demangle
