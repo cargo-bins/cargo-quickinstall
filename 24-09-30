@@ -100,3 +100,4 @@ atuin
 dotenv
 jless
 unic-langid-impl
+rkv
