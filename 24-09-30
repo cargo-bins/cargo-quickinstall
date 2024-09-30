@@ -40,3 +40,4 @@ sha1collisiondetection
 typst-cli
 ffs
 human_bytes
+tendermint-abci
