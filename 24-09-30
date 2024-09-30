@@ -57,3 +57,4 @@ winpty-rs
 bgpkit-broker
 sea-orm-cli
 human_bytes
+rls-rustc
