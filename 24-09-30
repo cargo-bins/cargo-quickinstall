@@ -8,3 +8,4 @@ human_bytes
 ef
 snarkvm
 remove_dir_all
+cargo-spellcheck
