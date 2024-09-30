@@ -55,3 +55,4 @@ textplots
 diesel_cli
 cargo-about
 nu
+ducc-sys
