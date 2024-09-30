@@ -103,3 +103,4 @@ java-locator
 parquet
 rustbus
 ec2_instance_metadata
+schemafy
