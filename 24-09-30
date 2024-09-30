@@ -15,3 +15,4 @@ phf_generator
 diesel_cli
 rustfmt-nightly
 addr2line
+z3tracer
