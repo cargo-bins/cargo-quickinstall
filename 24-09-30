@@ -50,3 +50,4 @@ addr2line
 tendermint-abci
 unic-langid-impl
 cpp_demangle
+human_bytes
