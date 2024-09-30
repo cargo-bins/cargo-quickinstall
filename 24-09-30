@@ -33,3 +33,4 @@ rustfmt
 cargo-vet
 diesel_cli
 socketcan
+tokio-process
