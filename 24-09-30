@@ -109,3 +109,4 @@ tendermint-rpc
 dotenv
 nextest-filtering
 cpp_demangle
+sha1collisiondetection
