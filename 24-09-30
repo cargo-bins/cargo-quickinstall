@@ -12,3 +12,4 @@ addr2line
 parquet
 dotenv
 human_bytes
+unic-langid-impl
