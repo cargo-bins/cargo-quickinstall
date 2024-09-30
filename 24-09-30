@@ -95,3 +95,4 @@ cargo-lock
 wmi
 parquet
 ducc-sys
+oso
