@@ -19,3 +19,4 @@ cargo-lock
 codeberg-cli
 thoth
 vrc-log
+cargo-smart-release
