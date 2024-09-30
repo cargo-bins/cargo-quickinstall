@@ -15,3 +15,4 @@ minicbor
 rls-rustc
 dotenv
 cargo-lock
+httpmock
