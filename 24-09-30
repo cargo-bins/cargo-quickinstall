@@ -39,3 +39,4 @@ tendermint-rpc
 pwasm-utils
 phf_generator
 human_name
+rustrict
