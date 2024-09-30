@@ -48,3 +48,4 @@ ducc-sys
 tendermint-abci
 zuse
 parquet
+tree-sitter-cli
