@@ -13,3 +13,4 @@ parquet
 dotenv
 human_bytes
 unic-langid-impl
+raw-cpuid
