@@ -43,3 +43,4 @@ tree-sitter-graph
 flowistry_ide
 winpty-rs
 protox
+cpp_demangle
