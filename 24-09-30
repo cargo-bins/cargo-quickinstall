@@ -24,3 +24,4 @@ parquet
 socketcan
 schemafy
 wol-rs
+rustfmt-nightly
