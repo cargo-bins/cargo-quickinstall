@@ -11,3 +11,4 @@ dotenvy
 addr2line
 parquet
 dotenv
+human_bytes
