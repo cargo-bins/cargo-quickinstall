@@ -16,3 +16,4 @@ rrule
 remove_dir_all
 snarkvm
 socketcan
+winpty-rs
