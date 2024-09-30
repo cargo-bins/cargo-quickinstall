@@ -8,3 +8,4 @@ phf_generator
 rls-rustc
 dotenvy
 unic-langid-impl
+sequoia-sq
