@@ -34,3 +34,4 @@ borsh
 phf_generator
 solana-validator
 dotenv
+parquet
