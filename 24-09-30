@@ -25,3 +25,4 @@ re_query
 cargo-info
 bgpkit-broker
 borsh
+bgpkit-parser
