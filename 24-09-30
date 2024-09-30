@@ -14,3 +14,4 @@ dotenv
 human_bytes
 unic-langid-impl
 raw-cpuid
+rustfmt-nightly
