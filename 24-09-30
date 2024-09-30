@@ -66,3 +66,4 @@ rustfmt-nightly
 java-locator
 unic-langid-impl
 tendermint-rpc
+protox
