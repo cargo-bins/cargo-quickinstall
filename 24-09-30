@@ -11,3 +11,4 @@ libbpf-cargo
 foundationdb-gen
 raw-cpuid
 wmi
+nextest-filtering
