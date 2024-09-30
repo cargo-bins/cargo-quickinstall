@@ -57,3 +57,4 @@ laminar
 borsh
 foundationdb-gen
 spider_worker
+diesel_cli
