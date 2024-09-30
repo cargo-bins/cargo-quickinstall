@@ -13,3 +13,4 @@ textplots
 foundationdb-gen
 httpbis
 sn_cli
+sha1collisiondetection
