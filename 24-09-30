@@ -17,3 +17,4 @@ dotenv
 rustfmt-nightly
 socketcan
 skim
+papyrus_storage
