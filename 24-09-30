@@ -14,3 +14,4 @@ wasm-bindgen-cli
 tauri-cli
 human_name
 paperclip
+raw-cpuid
