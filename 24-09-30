@@ -67,3 +67,4 @@ opencv-binding-generator
 cargo-lock
 arrow-flight
 solana-cli
+phf_generator
