@@ -41,3 +41,4 @@ addr2line
 pwasm-utils
 solana-validator
 unic-langid-impl
+solana-genesis
