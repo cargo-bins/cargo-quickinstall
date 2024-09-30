@@ -39,3 +39,4 @@ tendermint-rpc
 rrule
 nextest-filtering
 pwasm-utils
+unic-langid-impl
