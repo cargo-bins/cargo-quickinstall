@@ -91,3 +91,4 @@ diesel_cli
 solana-validator
 rkv
 cached-path
+tendermint-rpc
