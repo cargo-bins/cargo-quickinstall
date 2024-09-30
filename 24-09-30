@@ -64,3 +64,4 @@ laminar
 deploy
 cached-path
 human_name
+httpmock
