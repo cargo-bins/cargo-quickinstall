@@ -16,3 +16,4 @@ diesel_cli
 rustfmt-nightly
 addr2line
 z3tracer
+pwasm-utils
