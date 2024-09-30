@@ -71,3 +71,4 @@ rustfmt-nightly
 syd
 opencv-binding-generator
 java-locator
+socketcan
