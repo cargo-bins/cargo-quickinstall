@@ -66,3 +66,4 @@ re_query
 cpp_demangle
 socketcan
 sha1collisiondetection
+httpmock
