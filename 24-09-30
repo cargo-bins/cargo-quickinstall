@@ -22,3 +22,4 @@ papyrus_storage
 solana-validator
 spider_cli
 snarkvm
+spider_worker
