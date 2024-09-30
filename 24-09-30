@@ -60,3 +60,4 @@ sqruff
 hoard-rs
 raw-cpuid
 bgpkit-parser
+libbpf-cargo
