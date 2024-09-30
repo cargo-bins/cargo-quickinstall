@@ -3,3 +3,4 @@ hurl
 minicbor
 libbpf-cargo
 foundationdb-gen
+httpmock
