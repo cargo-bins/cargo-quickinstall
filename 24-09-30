@@ -17,3 +17,4 @@ cargo-msrv
 tree-sitter-graph
 socketcan
 spider_cli
+mdcat
