@@ -61,3 +61,4 @@ nu
 tree-sitter-cli
 cpp_demangle
 arrow-flight
+httpmock
