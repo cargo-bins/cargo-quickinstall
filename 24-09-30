@@ -67,3 +67,4 @@ cargo-show
 borsh
 wmi
 raw-cpuid
+cached-path
