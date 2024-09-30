@@ -11,3 +11,4 @@ unic-langid-impl
 sequoia-sq
 tendermint-rpc
 java-locator
+phf_generator
