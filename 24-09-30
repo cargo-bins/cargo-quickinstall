@@ -12,3 +12,4 @@ arrow-flight
 solana-validator
 remove_dir_all
 minicbor
+rls-rustc
