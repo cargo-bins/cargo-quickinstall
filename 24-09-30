@@ -55,3 +55,4 @@ textplots
 wmi
 re_query
 sqlx-cli
+winpty-rs
