@@ -61,3 +61,4 @@ deploy
 rustfmt-nightly
 borsh
 nkeys
+unic-langid-impl
