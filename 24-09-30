@@ -59,3 +59,4 @@ unic-langid-impl
 opencv-binding-generator
 nu
 tree-sitter-cli
+cpp_demangle
