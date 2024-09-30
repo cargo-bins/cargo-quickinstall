@@ -36,3 +36,4 @@ socketcan
 tokio-process
 borsh
 benfred-read-process-memory
+opencv-binding-generator
