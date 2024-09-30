@@ -27,3 +27,4 @@ solana-cli
 rrule
 rustfmt-nightly
 rkv
+dotenv
