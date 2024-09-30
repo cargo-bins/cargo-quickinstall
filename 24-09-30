@@ -93,3 +93,4 @@ rkv
 cached-path
 tendermint-rpc
 addr2line
+re_query
