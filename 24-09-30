@@ -17,3 +17,4 @@ raw-cpuid
 rustfmt-nightly
 re_query
 schemafy
+sshx
