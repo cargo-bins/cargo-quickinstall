@@ -56,3 +56,4 @@ solana-cli
 rrule
 sha1collisiondetection
 dotenv
+cargo-lock
