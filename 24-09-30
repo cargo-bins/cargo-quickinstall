@@ -37,3 +37,4 @@ tree-sitter-cli
 sqlx-cli
 tendermint-rpc
 rrule
+nextest-filtering
