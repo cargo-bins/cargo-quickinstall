@@ -43,3 +43,4 @@ laminar
 oso
 diesel_cli
 h3o
+sqlx-cli
