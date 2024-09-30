@@ -25,3 +25,4 @@ socketcan
 schemafy
 wol-rs
 rustfmt-nightly
+tendermint-abci
