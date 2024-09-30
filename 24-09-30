@@ -3,3 +3,4 @@ stac-cli
 cargo-lock
 jless
 deploy
+graphql_client_cli
