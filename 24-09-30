@@ -36,3 +36,4 @@ rkv
 pwasm-utils
 human_bytes
 dotenv
+ducc-sys
