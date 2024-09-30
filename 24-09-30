@@ -53,3 +53,4 @@ httpmock
 socketcan
 pwasm-utils
 wol-rs
+re_query
