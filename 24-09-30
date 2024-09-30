@@ -29,3 +29,4 @@ rkv
 honggfuzz
 winpty-rs
 rustrict
+rustfmt
