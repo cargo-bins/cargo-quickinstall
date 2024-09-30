@@ -79,3 +79,4 @@ phf_generator
 protox
 nextest-filtering
 parquet
+remove_dir_all
