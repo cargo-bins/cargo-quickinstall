@@ -12,3 +12,4 @@ foundationdb-gen
 raw-cpuid
 wmi
 nextest-filtering
+rrule
