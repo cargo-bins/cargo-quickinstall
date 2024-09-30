@@ -16,3 +16,4 @@ rls-rustc
 dotenv
 cargo-lock
 httpmock
+schemafy
