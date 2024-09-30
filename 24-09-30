@@ -48,3 +48,4 @@ cpp_demangle
 papyrus_storage
 java-locator
 spider_cli
+sha1collisiondetection
