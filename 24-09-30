@@ -44,3 +44,4 @@ sea-orm-cli
 deploy
 h3o
 tree-sitter-graph
+cpp_demangle
