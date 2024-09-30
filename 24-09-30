@@ -64,3 +64,4 @@ httpmock
 nextest-filtering
 mdbook-plantuml
 porsmo
+bgpkit-parser
