@@ -102,3 +102,4 @@ solana-validator
 java-locator
 parquet
 rustbus
+ec2_instance_metadata
