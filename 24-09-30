@@ -13,3 +13,4 @@ codeberg-cli
 cached-path
 legba
 cargo-smart-release
+winpty-rs
