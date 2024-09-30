@@ -35,3 +35,4 @@ foundationdb-gen
 nexmark
 nkeys
 schemafy
+sha1collisiondetection
