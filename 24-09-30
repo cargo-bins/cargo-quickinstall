@@ -74,3 +74,4 @@ java-locator
 socketcan
 rkv
 rustbus
+nextest-filtering
