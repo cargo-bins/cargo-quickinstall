@@ -17,3 +17,4 @@ dotenv
 cargo-lock
 httpmock
 schemafy
+oxipng
