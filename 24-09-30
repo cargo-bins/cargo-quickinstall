@@ -43,3 +43,4 @@ unic-langid-impl
 solana-remote-wallet
 deno
 tendermint-rpc
+pwasm-utils
