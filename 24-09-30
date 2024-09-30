@@ -55,3 +55,4 @@ pwasm-utils
 wol-rs
 re_query
 deploy
+human_bytes
