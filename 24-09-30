@@ -68,3 +68,4 @@ cargo-lock
 arrow-flight
 solana-cli
 phf_generator
+nkeys
