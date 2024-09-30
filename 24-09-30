@@ -17,3 +17,4 @@ laminar
 deploy
 sshx
 raw-cpuid
+pwasm-utils
