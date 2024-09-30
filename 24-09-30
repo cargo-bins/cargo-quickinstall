@@ -22,3 +22,4 @@ rls-rustc
 winpty-rs
 unic-langid-impl
 cached-path
+rustfmt
