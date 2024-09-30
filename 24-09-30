@@ -56,3 +56,4 @@ diesel_cli
 cargo-about
 nu
 ducc-sys
+diesel_cli
