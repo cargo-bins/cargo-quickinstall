@@ -33,3 +33,4 @@ wmi
 parquet
 unic-langid-impl
 snarkvm
+tree-sitter-cli
