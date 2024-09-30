@@ -62,3 +62,4 @@ solana-validator
 solana-cli
 z3tracer
 minicbor
+tendermint-abci
