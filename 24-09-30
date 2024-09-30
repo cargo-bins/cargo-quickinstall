@@ -12,3 +12,4 @@ cargo-spellcheck
 codeberg-cli
 cached-path
 legba
+cargo-smart-release
