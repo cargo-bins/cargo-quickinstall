@@ -5,3 +5,4 @@ libbpf-cargo
 foundationdb-gen
 httpmock
 phf_generator
+rls-rustc
