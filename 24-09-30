@@ -31,3 +31,4 @@ solana-remote-wallet
 cargo-info
 httpmock
 kanidm_tools
+ruff
