@@ -44,3 +44,4 @@ solana-remote-wallet
 deno
 tendermint-rpc
 pwasm-utils
+java-locator
