@@ -28,3 +28,4 @@ snarkvm
 nextest-filtering
 re_query
 snarkvm
+winpty-rs
