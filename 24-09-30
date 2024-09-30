@@ -17,3 +17,4 @@ sha1collisiondetection
 solana-gossip
 human_bytes
 ec2_instance_metadata
+human_name
