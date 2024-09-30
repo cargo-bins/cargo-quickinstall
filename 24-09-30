@@ -20,3 +20,4 @@ raw-cpuid
 pwasm-utils
 probe-rs-debugger
 rioterm
+human_name
