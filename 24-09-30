@@ -57,3 +57,4 @@ rrule
 sha1collisiondetection
 dotenv
 cargo-lock
+cpp_demangle
