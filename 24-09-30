@@ -76,3 +76,4 @@ clippy
 addr2line
 z3tracer
 human_bytes
+wmi
