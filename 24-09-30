@@ -73,3 +73,4 @@ librespot
 phf_generator
 remove_dir_all
 wmi
+clippy
