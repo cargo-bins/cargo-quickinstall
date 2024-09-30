@@ -5,3 +5,4 @@ addr2line
 dotenvy
 phf_generator
 java-locator
+cached-path
