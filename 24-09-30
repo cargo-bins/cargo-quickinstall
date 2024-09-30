@@ -105,3 +105,4 @@ rustbus
 ec2_instance_metadata
 schemafy
 nextest-filtering
+tendermint-rpc
