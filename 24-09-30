@@ -21,3 +21,4 @@ pwasm-utils
 probe-rs-debugger
 rioterm
 human_name
+arrow-flight
