@@ -27,3 +27,4 @@ minicbor
 raw-cpuid
 rkv
 honggfuzz
+winpty-rs
