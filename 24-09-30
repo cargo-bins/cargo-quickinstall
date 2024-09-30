@@ -16,3 +16,4 @@ cargo-smart-release
 winpty-rs
 phf_generator
 cargo-lock
+codeberg-cli
