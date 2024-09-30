@@ -10,3 +10,4 @@ arrow-flight
 libbpf-cargo
 foundationdb-gen
 raw-cpuid
+wmi
