@@ -1,3 +1,4 @@
 protox
 opencv-binding-generator
 pwasm-utils
+addr2line
