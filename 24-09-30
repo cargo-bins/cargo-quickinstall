@@ -33,3 +33,4 @@ solana-gossip
 borsh
 protox
 rkv
+pwasm-utils
