@@ -65,3 +65,4 @@ diesel_cli
 human_bytes
 cargo-show
 borsh
+wmi
