@@ -64,3 +64,4 @@ borsh
 clippy
 laminar
 opencv-binding-generator
+cargo-lock
