@@ -52,3 +52,4 @@ httpbis
 cpp_demangle
 re_query
 omicron-zone-package
+httpmock
