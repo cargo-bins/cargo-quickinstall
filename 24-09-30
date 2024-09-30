@@ -49,3 +49,4 @@ rls-rustc
 dotenv
 arrow-flight
 oso
+tendermint-abci
