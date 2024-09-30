@@ -18,3 +18,4 @@ snarkvm
 socketcan
 winpty-rs
 clippy
+z3tracer
