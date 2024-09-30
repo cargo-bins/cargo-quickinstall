@@ -41,3 +41,4 @@ nextest-filtering
 pwasm-utils
 unic-langid-impl
 solana-remote-wallet
+deno
