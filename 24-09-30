@@ -94,3 +94,4 @@ diesel_cli
 cargo-lock
 wmi
 parquet
+ducc-sys
