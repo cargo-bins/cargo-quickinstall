@@ -39,3 +39,4 @@ cpp_demangle
 remove_dir_all
 addr2line
 pwasm-utils
+solana-validator
