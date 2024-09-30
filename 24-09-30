@@ -53,3 +53,4 @@ clippy
 oso
 textplots
 diesel_cli
+cargo-about
