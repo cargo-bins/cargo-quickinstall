@@ -83,3 +83,4 @@ deploy
 z3tracer
 winpty-rs
 httpbis
+deno
