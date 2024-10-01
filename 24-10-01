@@ -76,3 +76,4 @@ borsh
 probe-rs-tools
 paperclip
 porsmo
+elf2uf2-rs
