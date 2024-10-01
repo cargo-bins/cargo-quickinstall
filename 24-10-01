@@ -47,3 +47,4 @@ solana-cli
 ansi2
 honggfuzz
 cpp_demangle
+solana-validator
