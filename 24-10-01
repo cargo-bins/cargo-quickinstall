@@ -31,3 +31,4 @@ ec2_instance_metadata
 dotenv
 borsh
 addr2line
+rustfmt
