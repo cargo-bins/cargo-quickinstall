@@ -70,3 +70,4 @@ rustfmt-nightly
 arrow-flight
 py-spy
 honggfuzz
+racer
