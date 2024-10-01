@@ -4,3 +4,4 @@ pwasm-utils
 starship
 inlyne
 wmi
+cargo-msrv
