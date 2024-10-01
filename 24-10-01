@@ -54,3 +54,4 @@ dotenv
 parquet
 solana-cli
 wol-rs
+rls-rustc
