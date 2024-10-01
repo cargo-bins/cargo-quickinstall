@@ -50,3 +50,4 @@ sea-orm-cli
 cargo-lock
 phf_generator
 schemafy
+dotenv
