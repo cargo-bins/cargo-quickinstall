@@ -33,3 +33,4 @@ qsv
 cargo-flash
 human_name
 textplots
+tendermint-rpc
