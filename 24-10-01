@@ -25,3 +25,4 @@ solana-cli
 wmi
 nextest-filtering
 radio-sx128x
+tendermint-rpc
