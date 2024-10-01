@@ -9,3 +9,4 @@ sea-orm-cli
 zuse
 racer
 starship
+winpty-rs
