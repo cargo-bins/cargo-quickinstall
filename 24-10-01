@@ -5,3 +5,4 @@ starship
 inlyne
 wmi
 cargo-msrv
+socketcan
