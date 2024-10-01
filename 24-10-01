@@ -20,3 +20,4 @@ cargo-local-registry
 rrule
 httpmock
 rkv
+cargo-outdated
