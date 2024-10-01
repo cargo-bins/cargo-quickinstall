@@ -36,3 +36,4 @@ sqlx-cli
 ansi2
 tendermint-abci
 cargo-count
+pwasm-utils
