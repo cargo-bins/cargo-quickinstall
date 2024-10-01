@@ -37,3 +37,4 @@ binstall
 solana-genesis
 eureka
 libbpf-cargo
+wol-rs
