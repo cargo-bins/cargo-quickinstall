@@ -37,3 +37,4 @@ raw-cpuid
 nu
 tree-sitter-cli
 rrule
+cargo-lock
