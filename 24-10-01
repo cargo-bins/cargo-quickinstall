@@ -8,3 +8,4 @@ cargo-msrv
 socketcan
 spider_cli
 a11ywatch_cli
+clippy
