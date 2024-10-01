@@ -6,3 +6,4 @@ cargo-flash
 clippy
 socketcan
 diesel_cli
+h3o
