@@ -51,3 +51,4 @@ a11ywatch_cli
 solana-remote-wallet
 probe-rs-tools
 termusic
+cargo-lock
