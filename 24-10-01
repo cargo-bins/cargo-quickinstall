@@ -44,3 +44,4 @@ paperclip
 cargo-flash
 dotenvy
 socketcan
+git-disjoint
