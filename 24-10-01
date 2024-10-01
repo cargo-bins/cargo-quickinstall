@@ -3,3 +3,4 @@ human_bytes
 schemafy
 cpp_demangle
 minicbor
+opencv-binding-generator
