@@ -7,3 +7,4 @@ omicron-zone-package
 arrow-flight
 cargo-vet
 papyrus_storage
+rustfmt
