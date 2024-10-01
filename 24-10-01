@@ -18,3 +18,4 @@ re_query
 httpmock
 ducc-sys
 rls-rustc
+diesel_cli
