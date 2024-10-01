@@ -21,3 +21,4 @@ rls-rustc
 diesel_cli
 nu
 tree-sitter-cli
+rrule
