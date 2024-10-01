@@ -27,3 +27,4 @@ cargo-show
 mise
 winpty-rs
 deno
+ducc-sys
