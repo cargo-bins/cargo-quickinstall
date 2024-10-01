@@ -45,3 +45,4 @@ clippy
 a11ywatch_cli
 ducc-sys
 cargo-msrv
+human_name
