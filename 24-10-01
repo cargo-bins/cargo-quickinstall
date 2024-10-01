@@ -7,3 +7,4 @@ opencv-binding-generator
 graphql_client_cli
 pgrx-tests
 gnostr-bins
+speedtest-rs
