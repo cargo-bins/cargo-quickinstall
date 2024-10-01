@@ -46,3 +46,4 @@ laminar
 nkeys
 sha1collisiondetection
 cpp_demangle
+dotenvy
