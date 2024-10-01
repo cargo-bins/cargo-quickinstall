@@ -65,3 +65,4 @@ pwasm-utils
 z3tracer
 termusic
 solana-cli
+winpty-rs
