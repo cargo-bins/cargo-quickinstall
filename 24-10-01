@@ -32,3 +32,4 @@ rrule
 fleet-rs
 textplots
 httpmock
+sqlx-cli
