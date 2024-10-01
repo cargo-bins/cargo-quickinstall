@@ -19,3 +19,4 @@ wol-rs
 protox
 solana-cli
 solana-gossip
+rustfmt-nightly
