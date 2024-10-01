@@ -24,3 +24,4 @@ addr2line
 solana-cli
 wmi
 nextest-filtering
+radio-sx128x
