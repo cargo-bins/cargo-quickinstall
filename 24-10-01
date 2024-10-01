@@ -16,3 +16,4 @@ schemafy
 httpmock
 human_name
 rustfmt-nightly
+wol-rs
