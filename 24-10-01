@@ -21,3 +21,4 @@ solana-cli
 solana-gossip
 rustfmt-nightly
 atuin
+borsh
