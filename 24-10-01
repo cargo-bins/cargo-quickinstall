@@ -4,3 +4,4 @@ tree-sitter-graph
 winpty-rs
 cargo-flash
 clippy
+socketcan
