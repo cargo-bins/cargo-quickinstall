@@ -6,3 +6,4 @@ inlyne
 wmi
 cargo-msrv
 socketcan
+spider_cli
