@@ -29,3 +29,4 @@ tendermint-rpc
 pwasm-utils
 rls-rustc
 tendermint-rpc
+cached-path
