@@ -33,3 +33,4 @@ cached-path
 foundationdb-gen
 protox
 sha1collisiondetection
+diesel_cli
