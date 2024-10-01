@@ -49,3 +49,4 @@ cpp_demangle
 dotenvy
 addr2line
 pwasm-utils
+dotenvy
