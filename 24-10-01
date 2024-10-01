@@ -42,3 +42,4 @@ rls-rustc
 arrow-flight
 solana-cli
 pwasm-utils
+nextest-filtering
