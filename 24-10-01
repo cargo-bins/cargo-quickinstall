@@ -30,3 +30,4 @@ cargo-public-api
 asm-lsp
 ruff
 wmi
+cargo-mobile2
