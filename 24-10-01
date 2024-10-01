@@ -53,3 +53,4 @@ probe-rs-tools
 termusic
 cargo-lock
 winpty-rs
+xbuild
