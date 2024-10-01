@@ -17,3 +17,4 @@ cargo-msrv
 re_query
 httpmock
 ducc-sys
+rls-rustc
