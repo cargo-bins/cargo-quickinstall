@@ -59,3 +59,4 @@ libbpf-cargo
 bugstalker
 porsmo
 nextest-filtering
+cargo-show
