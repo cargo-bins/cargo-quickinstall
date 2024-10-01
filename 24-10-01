@@ -39,3 +39,4 @@ tree-sitter-cli
 rrule
 cargo-lock
 rls-rustc
+arrow-flight
