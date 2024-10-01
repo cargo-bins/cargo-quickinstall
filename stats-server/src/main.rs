@@ -27,6 +27,18 @@ fn main() {
             .route("/record-install", get(redirect_to_root))
             .route("/record-install", post(record_install));
 
+        // Smoke test that we can write to influxdb before listening on the socket.
+        // This is a poor man's startup probe to avoid serving traffic before we can write to influxdb.
+        INFLUX_CLIENT
+            .write(
+                &INFLUX_BUCKET,
+                &[Measurement::builder("startups")
+                    .field("count", 1)
+                    .build()
+                    .unwrap()],
+            )
+            .await
+            .unwrap();
         // ipv6 + ipv6 any addr
         let addr = SocketAddr::from(([0, 0, 0, 0, 0, 0, 0, 0], 8080));
         let listener = TcpListener::bind(addr).await.unwrap();

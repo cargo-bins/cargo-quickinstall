@@ -3,6 +3,7 @@
 app = "cargo-quickinstall-stats-server"
 kill_signal = "SIGINT"
 kill_timeout = 5
+deploy.strategy = "bluegreen"
 
 [env]
   PORT = "8080"
