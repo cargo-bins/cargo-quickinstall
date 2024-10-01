@@ -47,3 +47,4 @@ spider_worker
 textplots
 nkeys
 sea-orm-cli
+cargo-lock
