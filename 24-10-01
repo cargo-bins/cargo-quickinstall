@@ -46,3 +46,4 @@ dotenvy
 socketcan
 git-disjoint
 cargo-flash
+syd
