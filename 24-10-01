@@ -3,3 +3,4 @@ ducc-sys
 raw-cpuid
 nextest-filtering
 phf_generator
+cached-path
