@@ -5,3 +5,4 @@ winpty-rs
 cargo-flash
 clippy
 socketcan
+diesel_cli
