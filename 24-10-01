@@ -16,3 +16,4 @@ java-locator
 cargo-outdated
 sea-orm-cli
 java-locator
+tauri-cli
