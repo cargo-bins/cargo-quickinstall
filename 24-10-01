@@ -77,3 +77,4 @@ human_bytes
 dotenv
 spider_worker
 turbocommit
+speedtest-rs
