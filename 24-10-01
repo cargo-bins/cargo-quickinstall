@@ -16,3 +16,4 @@ a11ywatch_cli
 cached-path
 dotenvy
 sha1collisiondetection
+cargo-local-registry
