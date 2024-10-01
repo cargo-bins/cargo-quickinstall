@@ -25,3 +25,4 @@ solana-validator
 ffs
 mise
 rustfmt-nightly
+tendermint-abci
