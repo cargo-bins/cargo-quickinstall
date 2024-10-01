@@ -18,3 +18,4 @@ human_name
 rustfmt-nightly
 wol-rs
 dotenvy
+tendermint-abci
