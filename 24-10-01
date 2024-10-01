@@ -75,3 +75,4 @@ httpmock
 solana-remote-wallet
 unic-langid-impl
 borsh
+ducc-sys
