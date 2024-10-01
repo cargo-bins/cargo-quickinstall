@@ -51,3 +51,4 @@ cargo-lock
 phf_generator
 schemafy
 dotenv
+parquet
