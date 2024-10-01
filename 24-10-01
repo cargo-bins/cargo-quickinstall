@@ -55,3 +55,4 @@ paperclip
 parquet
 dotenvy
 rls-rustc
+libbpf-cargo
