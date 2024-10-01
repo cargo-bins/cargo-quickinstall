@@ -9,3 +9,4 @@ cargo-vet
 papyrus_storage
 rustfmt
 minicbor
+cargo-vet
