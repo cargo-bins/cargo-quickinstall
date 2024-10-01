@@ -11,3 +11,4 @@ rustfmt
 minicbor
 cargo-vet
 h3o
+rustrict
