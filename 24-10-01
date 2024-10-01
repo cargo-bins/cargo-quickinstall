@@ -35,3 +35,4 @@ protox
 sha1collisiondetection
 diesel_cli
 atuin
+wol-rs
