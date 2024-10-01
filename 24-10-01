@@ -13,3 +13,4 @@ cargo-vet
 h3o
 rustrict
 schemafy
+httpmock
