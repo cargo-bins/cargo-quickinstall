@@ -47,3 +47,4 @@ nkeys
 sha1collisiondetection
 cpp_demangle
 dotenvy
+addr2line
