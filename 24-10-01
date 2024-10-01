@@ -78,3 +78,4 @@ borsh
 ducc-sys
 sea-orm-cli
 rls-rustc
+borsh
