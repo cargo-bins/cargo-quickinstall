@@ -41,3 +41,4 @@ wol-rs
 blissify
 raw-cpuid
 cargo-msrv
+probe-rs-tools
