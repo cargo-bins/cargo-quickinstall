@@ -57,3 +57,4 @@ wol-rs
 rls-rustc
 racer
 diesel_cli
+solana-validator
