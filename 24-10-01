@@ -19,3 +19,4 @@ sha1collisiondetection
 cargo-local-registry
 rrule
 httpmock
+rkv
