@@ -52,3 +52,4 @@ phf_generator
 schemafy
 dotenv
 parquet
+solana-cli
