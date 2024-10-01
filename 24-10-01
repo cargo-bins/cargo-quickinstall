@@ -5,3 +5,4 @@ textplots
 clippy
 tendermint-abci
 solana-keygen
+sea-orm-cli
