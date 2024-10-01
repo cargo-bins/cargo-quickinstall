@@ -15,3 +15,4 @@ cargo-embed
 addr2line
 solana-genesis
 cargo-embed
+wol-rs
