@@ -67,3 +67,4 @@ solana-remote-wallet
 racer
 pwasm-utils
 minicbor
+ducc-sys
