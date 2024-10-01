@@ -21,3 +21,4 @@ dotenvy
 tendermint-abci
 cargo-vet
 papyrus_storage
+dotenv
