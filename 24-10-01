@@ -39,3 +39,4 @@ eureka
 libbpf-cargo
 wol-rs
 blissify
+raw-cpuid
