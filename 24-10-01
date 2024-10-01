@@ -83,3 +83,4 @@ tendermint-abci
 a11ywatch_cli
 httpmock
 a11ywatch_cli
+tendermint-rpc
