@@ -44,3 +44,4 @@ human_bytes
 parquet
 racer
 rustfmt-nightly
+pwasm-utils
