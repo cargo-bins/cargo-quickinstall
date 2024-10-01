@@ -52,3 +52,4 @@ solana-remote-wallet
 probe-rs-tools
 termusic
 cargo-lock
+winpty-rs
