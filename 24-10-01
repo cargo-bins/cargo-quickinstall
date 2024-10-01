@@ -63,3 +63,4 @@ benfred-read-process-memory
 racer
 unic-langid-impl
 socketcan
+minicbor
