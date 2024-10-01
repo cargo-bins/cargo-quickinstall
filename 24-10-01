@@ -28,3 +28,4 @@ wol-rs
 solana-keygen
 cargo-public-api
 asm-lsp
+ruff
