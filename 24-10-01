@@ -14,3 +14,4 @@ nu
 cargo-about
 java-locator
 cargo-outdated
+sea-orm-cli
