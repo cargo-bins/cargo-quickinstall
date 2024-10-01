@@ -14,3 +14,4 @@ rustfmt-nightly
 httpmock
 a11ywatch_cli
 cached-path
+dotenvy
