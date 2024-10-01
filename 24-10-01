@@ -32,3 +32,4 @@ dotenv
 borsh
 addr2line
 rustfmt
+pwasm-utils
