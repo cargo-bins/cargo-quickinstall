@@ -61,3 +61,4 @@ cached-path
 py-spy
 cargo-pgrx
 parquet
+pwasm-utils
