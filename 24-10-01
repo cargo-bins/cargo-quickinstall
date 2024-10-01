@@ -13,3 +13,4 @@ winpty-rs
 nu
 cargo-about
 java-locator
+cargo-outdated
