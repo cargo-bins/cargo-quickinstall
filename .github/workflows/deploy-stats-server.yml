@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: superfly/flyctl-actions/setup-flyctl@master
-      - run: flyctl deploy stats-server
+      - run: flyctl deploy stats-server --wait-timeout 1m
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
