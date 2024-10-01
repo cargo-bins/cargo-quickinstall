@@ -20,3 +20,4 @@ solana-validator
 tendermint-rpc
 addr2line
 nkeys
+snarkvm
