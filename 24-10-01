@@ -31,3 +31,4 @@ rls-rustc
 tendermint-rpc
 cached-path
 foundationdb-gen
+protox
