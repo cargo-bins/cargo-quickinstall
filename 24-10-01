@@ -43,3 +43,4 @@ raw-cpuid
 cargo-msrv
 probe-rs-tools
 solana-gossip
+rrule
