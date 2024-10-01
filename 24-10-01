@@ -70,3 +70,4 @@ cargo-smart-release
 oso
 solana-cli
 xbuild
+sha1collisiondetection
