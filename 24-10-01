@@ -6,3 +6,4 @@ parquet
 tectonic
 solana-validator
 graphql_client_cli
+rls-rustc
