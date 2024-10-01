@@ -26,3 +26,4 @@ rencfs
 nextest-filtering
 wol-rs
 solana-keygen
+cargo-public-api
