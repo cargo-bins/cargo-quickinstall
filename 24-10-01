@@ -8,3 +8,4 @@ cargo-about
 opencv-binding-generator
 rustfmt-nightly
 a11ywatch_cli
+solana-cli
