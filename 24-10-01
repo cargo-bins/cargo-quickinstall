@@ -53,3 +53,4 @@ schemafy
 dotenv
 parquet
 solana-cli
+wol-rs
