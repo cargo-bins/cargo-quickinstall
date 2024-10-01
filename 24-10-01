@@ -5,3 +5,4 @@ nexmark
 cpp_demangle
 omicron-zone-package
 arrow-flight
+cargo-vet
