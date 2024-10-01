@@ -36,3 +36,4 @@ probe-rs-debugger
 binstall
 solana-genesis
 eureka
+libbpf-cargo
