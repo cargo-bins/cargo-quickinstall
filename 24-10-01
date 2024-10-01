@@ -12,3 +12,4 @@ solana-cli
 z3tracer
 rustfmt-nightly
 httpmock
+a11ywatch_cli
