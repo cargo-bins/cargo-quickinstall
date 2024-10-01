@@ -44,3 +44,4 @@ solana-cli
 pwasm-utils
 nextest-filtering
 spider_worker
+textplots
