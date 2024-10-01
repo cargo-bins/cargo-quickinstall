@@ -45,3 +45,4 @@ cargo-flash
 dotenvy
 socketcan
 git-disjoint
+cargo-flash
