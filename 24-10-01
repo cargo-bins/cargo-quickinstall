@@ -28,3 +28,4 @@ sn_cli
 papyrus_storage
 wol-rs
 ec2_instance_metadata
+dotenv
