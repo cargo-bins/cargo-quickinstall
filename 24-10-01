@@ -83,3 +83,4 @@ solana-remote-wallet
 speedtest-rs
 solana-cli
 z3tracer
+opencv-binding-generator
