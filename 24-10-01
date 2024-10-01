@@ -51,3 +51,4 @@ mise
 rustfmt-nightly
 deploy
 schemafy
+tree-sitter-graph
