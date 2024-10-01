@@ -21,3 +21,4 @@ rrule
 httpmock
 rkv
 cargo-outdated
+sha1collisiondetection
