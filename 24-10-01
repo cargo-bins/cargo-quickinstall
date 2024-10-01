@@ -72,3 +72,4 @@ py-spy
 honggfuzz
 racer
 human_name
+tree-sitter-graph
