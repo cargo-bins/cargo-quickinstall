@@ -67,3 +67,4 @@ minicbor
 ducc-sys
 borsh
 rustfmt-nightly
+arrow-flight
