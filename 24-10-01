@@ -19,3 +19,4 @@ human_name
 solana-validator
 tendermint-rpc
 addr2line
+nkeys
