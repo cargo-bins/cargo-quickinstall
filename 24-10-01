@@ -29,3 +29,4 @@ solana-keygen
 cargo-public-api
 asm-lsp
 ruff
+wmi
