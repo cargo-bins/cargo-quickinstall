@@ -21,3 +21,4 @@ tendermint-rpc
 addr2line
 nkeys
 snarkvm
+deploy
