@@ -33,3 +33,4 @@ fleet-rs
 textplots
 httpmock
 sqlx-cli
+ansi2
