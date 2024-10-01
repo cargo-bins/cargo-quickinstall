@@ -74,3 +74,4 @@ parquet
 typst-cli
 vayu
 human_bytes
+dotenv
