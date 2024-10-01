@@ -32,3 +32,4 @@ tendermint-rpc
 cached-path
 foundationdb-gen
 protox
+sha1collisiondetection
