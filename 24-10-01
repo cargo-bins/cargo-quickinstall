@@ -19,3 +19,4 @@ rustfmt-nightly
 wol-rs
 dotenvy
 tendermint-abci
+cargo-vet
