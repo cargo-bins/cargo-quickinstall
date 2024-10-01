@@ -8,3 +8,4 @@ graphql_client_cli
 pgrx-tests
 gnostr-bins
 speedtest-rs
+remove_dir_all
