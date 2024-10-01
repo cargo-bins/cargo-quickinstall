@@ -21,3 +21,4 @@ foundationdb-gen
 cargo-embed
 remove_dir_all
 addr2line
+solana-cli
