@@ -1,3 +1,4 @@
 borsh
 pwasm-utils
 tree-sitter-graph
+winpty-rs
