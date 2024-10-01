@@ -45,3 +45,4 @@ parquet
 racer
 rustfmt-nightly
 pwasm-utils
+pico-uf2
