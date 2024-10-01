@@ -22,3 +22,4 @@ nu
 tree-sitter-cli
 cargo-show
 cargo-about
+wasm-bindgen-cli
