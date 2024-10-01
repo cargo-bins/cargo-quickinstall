@@ -2,3 +2,4 @@ deploy
 ducc-sys
 raw-cpuid
 nextest-filtering
+phf_generator
