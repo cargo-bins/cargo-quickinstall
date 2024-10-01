@@ -65,3 +65,4 @@ unic-langid-impl
 socketcan
 minicbor
 ducc-sys
+borsh
