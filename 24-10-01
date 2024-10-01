@@ -17,3 +17,4 @@ cached-path
 dotenvy
 sha1collisiondetection
 cargo-local-registry
+rrule
