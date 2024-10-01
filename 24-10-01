@@ -6,3 +6,4 @@ spider_worker
 sha1collisiondetection
 cargo-about
 opencv-binding-generator
+rustfmt-nightly
