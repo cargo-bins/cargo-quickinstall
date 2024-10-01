@@ -9,3 +9,4 @@ graphql_client_cli
 rls-rustc
 atuin
 snarkvm
+arrow-flight
