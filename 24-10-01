@@ -5,3 +5,4 @@ cpp_demangle
 minicbor
 opencv-binding-generator
 graphql_client_cli
+pgrx-tests
