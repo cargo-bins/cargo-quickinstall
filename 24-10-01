@@ -24,3 +24,4 @@ papyrus_storage
 dotenv
 h3o
 opencv-binding-generator
+sn_cli
