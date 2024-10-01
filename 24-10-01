@@ -72,3 +72,4 @@ nexmark
 solana-gossip
 deploy
 httpmock
+solana-remote-wallet
