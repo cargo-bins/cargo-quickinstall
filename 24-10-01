@@ -68,3 +68,4 @@ ducc-sys
 borsh
 rustfmt-nightly
 arrow-flight
+py-spy
