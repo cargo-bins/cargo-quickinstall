@@ -11,3 +11,4 @@ patch-crate
 phf_generator
 java-locator
 ducc-sys
+cargo-embed
