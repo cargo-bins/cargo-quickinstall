@@ -9,3 +9,4 @@ opencv-binding-generator
 rustfmt-nightly
 a11ywatch_cli
 solana-cli
+z3tracer
