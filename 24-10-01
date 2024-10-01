@@ -46,3 +46,4 @@ nextest-filtering
 spider_worker
 textplots
 nkeys
+sea-orm-cli
