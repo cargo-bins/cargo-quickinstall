@@ -16,3 +16,4 @@ pgrx-tests
 rustfmt-nightly
 cargo-msrv
 cargo-public-api
+rioterm
