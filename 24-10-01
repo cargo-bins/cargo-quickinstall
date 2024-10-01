@@ -35,3 +35,4 @@ tendermint-rpc
 textplots
 raw-cpuid
 nu
+tree-sitter-cli
