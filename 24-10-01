@@ -76,3 +76,4 @@ solana-remote-wallet
 unic-langid-impl
 borsh
 ducc-sys
+sea-orm-cli
