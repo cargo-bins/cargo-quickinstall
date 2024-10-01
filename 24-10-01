@@ -74,3 +74,4 @@ deploy
 httpmock
 solana-remote-wallet
 unic-langid-impl
+borsh
