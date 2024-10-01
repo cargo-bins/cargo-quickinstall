@@ -26,3 +26,4 @@ wasm-bindgen-cli
 cargo-show
 mise
 winpty-rs
+deno
