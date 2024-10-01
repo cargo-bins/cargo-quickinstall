@@ -43,3 +43,4 @@ arrow-flight
 solana-cli
 pwasm-utils
 nextest-filtering
+spider_worker
