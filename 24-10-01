@@ -55,3 +55,4 @@ cargo-lock
 winpty-rs
 xbuild
 yofi
+foundationdb-gen
