@@ -40,3 +40,4 @@ rrule
 cargo-lock
 rls-rustc
 arrow-flight
+solana-cli
