@@ -18,3 +18,4 @@ cargo-msrv
 cargo-public-api
 rioterm
 tree-sitter-graph
+mdcat
