@@ -48,3 +48,4 @@ textplots
 nkeys
 sea-orm-cli
 cargo-lock
+phf_generator
