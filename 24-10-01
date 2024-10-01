@@ -27,3 +27,4 @@ nextest-filtering
 radio-sx128x
 tendermint-rpc
 pwasm-utils
+rls-rustc
