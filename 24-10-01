@@ -46,3 +46,4 @@ textplots
 solana-cli
 ansi2
 honggfuzz
+cpp_demangle
