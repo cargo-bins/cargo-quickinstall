@@ -4,3 +4,4 @@ tendermint-abci
 phf_generator
 re_query
 nextest-filtering
+a11ywatch_cli
