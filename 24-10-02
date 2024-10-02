@@ -24,3 +24,4 @@ cpp_demangle
 z3tracer
 sqlx-cli
 apollo-router
+cargo-show
