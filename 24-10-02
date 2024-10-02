@@ -35,3 +35,4 @@ dotenvy
 rrule
 hurl
 graphql_client_cli
+foundationdb-gen
