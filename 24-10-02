@@ -44,3 +44,4 @@ rls-rustc
 cargo-spellcheck
 solana-cli
 tree-sitter-cli
+pcu
