@@ -93,3 +93,4 @@ xplr
 sea-orm-cli
 httpmock
 paperclip
+spider_worker
