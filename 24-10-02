@@ -4,3 +4,4 @@ starship
 solana-cli
 solana-gossip
 tauri-cli
+cargo-local-registry
