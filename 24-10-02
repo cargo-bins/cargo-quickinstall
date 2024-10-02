@@ -5,3 +5,4 @@ solana-validator
 patch-crate
 cpp_demangle
 socketcan
+unic-langid-impl
