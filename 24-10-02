@@ -67,3 +67,4 @@ remove_dir_all
 winpty-rs
 phf_generator
 tree-sitter-graph
+gpg-tui
