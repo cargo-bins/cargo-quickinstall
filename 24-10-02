@@ -17,3 +17,4 @@ cargo-tarpaulin
 cargo-about
 cargo-outdated
 cargo-tarpaulin
+solana-cli
