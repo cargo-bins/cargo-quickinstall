@@ -58,3 +58,4 @@ pwasm-utils
 ruff
 py-spy
 tree-sitter-graph
+ripunzip
