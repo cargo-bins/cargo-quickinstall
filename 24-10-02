@@ -27,3 +27,4 @@ cargo-graph
 atuin
 racer
 cargo-embed
+dotenvy
