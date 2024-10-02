@@ -38,3 +38,4 @@ graphql_client_cli
 foundationdb-gen
 py-spy
 socketcan
+schemafy
