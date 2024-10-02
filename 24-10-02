@@ -16,3 +16,4 @@ cargo-embed
 rrule
 cargo-flash
 arrow-flight
+tendermint-abci
