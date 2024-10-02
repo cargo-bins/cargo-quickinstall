@@ -25,3 +25,4 @@ parquet
 ubi
 cargo-graph
 qsv
+tree-sitter-graph
