@@ -16,3 +16,4 @@ termusic
 chain-spec-builder
 mise
 cargo-graph
+cargo-lock
