@@ -16,3 +16,4 @@ diesel_cli
 cargo-info
 atuin
 hurl
+mdcat
