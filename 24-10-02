@@ -19,3 +19,4 @@ diesel_cli
 raw-cpuid
 cargo-embed
 gitui
+minicbor
