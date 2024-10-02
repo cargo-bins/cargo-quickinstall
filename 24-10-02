@@ -8,3 +8,4 @@ a11ywatch_cli
 rustfmt-nightly
 nextest-filtering
 pwasm-utils
+foundationdb-gen
