@@ -12,3 +12,4 @@ porsmo
 java-locator
 cpp_demangle
 cce
+winpty-rs
