@@ -3,3 +3,4 @@ cargo-embed
 cargo-flash
 paperclip
 remove_dir_all
+tendermint-abci
