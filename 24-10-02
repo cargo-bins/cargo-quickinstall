@@ -19,3 +19,4 @@ arrow-flight
 tendermint-abci
 atuin
 solana-cli
+rls-rustc
