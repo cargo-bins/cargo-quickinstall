@@ -32,3 +32,4 @@ rustfmt-nightly
 termusic
 solana-validator
 rkv
+clippy
