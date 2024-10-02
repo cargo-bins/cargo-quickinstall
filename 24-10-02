@@ -10,3 +10,4 @@ cargo-pgrx
 blissify
 apollo-router
 silicon
+tendermint-abci
