@@ -5,3 +5,4 @@ cargo-lock
 inlyne
 cargo-info
 solana-validator
+foundationdb-gen
