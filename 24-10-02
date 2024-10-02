@@ -84,3 +84,4 @@ rav1e
 ffs
 protox
 cpp_demangle
+remove_dir_all
