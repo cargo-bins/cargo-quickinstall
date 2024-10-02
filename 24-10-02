@@ -67,3 +67,4 @@ hoard-rs
 a11ywatch_cli
 qsv
 libbpf-cargo
+cached-path
