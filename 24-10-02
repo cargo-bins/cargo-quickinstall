@@ -92,3 +92,4 @@ rls-rustc
 solana-validator
 h3o
 legba
+httpmock
