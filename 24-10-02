@@ -12,3 +12,4 @@ rustrict
 cargo-outdated
 cargo-local-registry
 rustrict
+apollo-router
