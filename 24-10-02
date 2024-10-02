@@ -9,3 +9,4 @@ rustfmt-nightly
 nextest-filtering
 pwasm-utils
 foundationdb-gen
+zuse
