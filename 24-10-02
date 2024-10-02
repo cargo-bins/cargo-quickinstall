@@ -3,3 +3,4 @@ laminar
 qsv
 solana-validator
 patch-crate
+cpp_demangle
