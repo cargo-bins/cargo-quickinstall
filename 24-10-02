@@ -20,3 +20,4 @@ tendermint-abci
 atuin
 solana-cli
 rls-rustc
+human_name
