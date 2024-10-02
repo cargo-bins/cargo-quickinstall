@@ -20,3 +20,4 @@ raw-cpuid
 cargo-embed
 gitui
 minicbor
+cpp_demangle
