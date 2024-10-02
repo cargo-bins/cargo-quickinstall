@@ -13,3 +13,4 @@ cargo-outdated
 cargo-local-registry
 rustrict
 apollo-router
+cargo-tarpaulin
