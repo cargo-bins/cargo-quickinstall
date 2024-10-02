@@ -63,3 +63,4 @@ typst-cli
 syd
 human_bytes
 foundationdb-gen
+remove_dir_all
