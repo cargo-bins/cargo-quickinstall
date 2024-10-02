@@ -30,3 +30,4 @@ minicbor
 pwasm-utils
 laminar
 solana-remote-wallet
+diesel_cli
