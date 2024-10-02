@@ -18,3 +18,4 @@ cargo-flash
 arrow-flight
 tendermint-abci
 atuin
+solana-cli
