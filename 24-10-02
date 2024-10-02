@@ -65,3 +65,4 @@ human_bytes
 foundationdb-gen
 remove_dir_all
 winpty-rs
+phf_generator
