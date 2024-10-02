@@ -3,3 +3,4 @@ cargo-outdated
 starship
 solana-cli
 solana-gossip
+tauri-cli
