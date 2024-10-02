@@ -16,3 +16,4 @@ skim
 rmesg
 httpmock
 diesel_cli
+raw-cpuid
