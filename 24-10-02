@@ -88,3 +88,4 @@ remove_dir_all
 protox
 ffs
 eureka
+rls-rustc
