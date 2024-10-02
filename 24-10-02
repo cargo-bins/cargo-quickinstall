@@ -2,3 +2,4 @@ a11ywatch_cli
 cargo-outdated
 starship
 solana-cli
+solana-gossip
