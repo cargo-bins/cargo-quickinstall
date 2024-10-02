@@ -26,3 +26,4 @@ ubi
 cargo-graph
 qsv
 tree-sitter-graph
+solana-gossip
