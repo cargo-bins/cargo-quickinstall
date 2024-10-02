@@ -7,3 +7,4 @@ cargo-about
 deno
 starship
 apollo-router
+cargo-outdated
