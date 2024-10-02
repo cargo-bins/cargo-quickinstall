@@ -79,3 +79,4 @@ tree-sitter-graph
 stac-cli
 solana-gossip
 minicbor
+remove_dir_all
