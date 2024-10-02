@@ -11,3 +11,4 @@ exa
 rrule
 text-diff
 human_bytes
+rls-rustc
