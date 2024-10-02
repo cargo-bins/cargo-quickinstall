@@ -69,3 +69,4 @@ qsv
 libbpf-cargo
 cached-path
 solana-cli
+minicbor
