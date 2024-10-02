@@ -4,3 +4,4 @@ probe-rs-debugger
 mdcat
 rencfs
 spider_worker
+raw-cpuid
