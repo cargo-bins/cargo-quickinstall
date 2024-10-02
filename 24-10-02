@@ -6,3 +6,4 @@ patch-crate
 cpp_demangle
 socketcan
 unic-langid-impl
+radio-sx128x
