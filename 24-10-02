@@ -36,3 +36,4 @@ rrule
 hurl
 graphql_client_cli
 foundationdb-gen
+py-spy
