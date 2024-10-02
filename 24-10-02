@@ -59,3 +59,4 @@ ruff
 py-spy
 tree-sitter-graph
 ripunzip
+sha1collisiondetection
