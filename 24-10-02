@@ -30,3 +30,4 @@ cargo-embed
 dotenvy
 rustfmt-nightly
 termusic
+solana-validator
