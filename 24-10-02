@@ -19,3 +19,4 @@ inlyne
 oso
 ruff
 addr2line
+raw-cpuid
