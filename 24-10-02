@@ -14,3 +14,4 @@ flowistry_ide
 tendermint-rpc
 cargo-embed
 rrule
+cargo-flash
