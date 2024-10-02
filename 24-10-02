@@ -97,3 +97,4 @@ spider_worker
 probe-rs-debugger
 cargo-public-api
 qrtool
+tree-sitter-cli
