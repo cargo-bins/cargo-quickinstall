@@ -10,3 +10,4 @@ apollo-router
 cargo-outdated
 rustrict
 cargo-outdated
+cargo-local-registry
