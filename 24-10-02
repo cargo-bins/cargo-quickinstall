@@ -8,3 +8,4 @@ solana-validator
 foundationdb-gen
 cargo-pgrx
 blissify
+apollo-router
