@@ -91,3 +91,4 @@ spider_worker
 textplots
 xplr
 sea-orm-cli
+httpmock
