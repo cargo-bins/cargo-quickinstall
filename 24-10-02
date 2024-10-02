@@ -4,3 +4,4 @@ deploy
 textplots
 tendermint-abci
 minicbor
+monolith
