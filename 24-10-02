@@ -34,3 +34,4 @@ diesel_cli
 dotenvy
 rrule
 hurl
+graphql_client_cli
