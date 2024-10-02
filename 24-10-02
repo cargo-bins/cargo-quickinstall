@@ -78,3 +78,4 @@ elf2uf2-rs
 tree-sitter-graph
 stac-cli
 solana-gossip
+minicbor
