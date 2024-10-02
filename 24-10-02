@@ -14,3 +14,4 @@ java-locator
 apollo-router
 tauri-cli
 a11ywatch_cli
+cargo-tarpaulin
