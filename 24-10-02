@@ -95,3 +95,4 @@ httpmock
 paperclip
 spider_worker
 probe-rs-debugger
+cargo-public-api
