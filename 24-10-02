@@ -13,3 +13,4 @@ socketcan
 phoenix-cli
 dotenvy
 diesel_cli
+cargo-info
