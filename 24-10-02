@@ -6,3 +6,4 @@ re_query
 nextest-filtering
 a11ywatch_cli
 rustfmt-nightly
+nextest-filtering
