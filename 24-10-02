@@ -13,3 +13,4 @@ java-locator
 cpp_demangle
 cce
 winpty-rs
+probe-rs-tools
