@@ -1,3 +1,4 @@
 cargo-local-registry
 pomodoro
 binstall
+rtx-cli
