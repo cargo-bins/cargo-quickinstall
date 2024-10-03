@@ -14,3 +14,4 @@ wasm-bindgen-cli
 cargo-lock
 wasm-bindgen-cli
 cargo-local-registry
+apollo-router
