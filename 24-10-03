@@ -76,3 +76,4 @@ xbuild
 rg
 clippy
 schematools-cli
+protox
