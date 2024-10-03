@@ -27,3 +27,4 @@ rtx-cli
 cargo-count
 gitui
 apollo-router
+diesel_cli
