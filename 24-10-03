@@ -21,3 +21,4 @@ solana-verify
 diesel_cli
 apollo-router
 phoenix-cli
+cargo-lock
