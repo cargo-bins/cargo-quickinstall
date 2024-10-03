@@ -15,3 +15,4 @@ serie
 cargo-embed
 clippy
 pomodoro
+sqlx-cli
