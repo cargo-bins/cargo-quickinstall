@@ -6,3 +6,4 @@ apollo-router
 cargo-local-registry
 cargo-tarpaulin
 cargo-c
+cargo-lock
