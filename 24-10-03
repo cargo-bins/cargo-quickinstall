@@ -43,3 +43,4 @@ graphql_client_cli
 cargo-unused-features
 mise
 foundationdb-gen
+wmi
