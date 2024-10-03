@@ -83,3 +83,4 @@ spotify_player
 xcp
 addr2line
 asm-lsp
+hurlfmt
