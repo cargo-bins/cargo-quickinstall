@@ -33,3 +33,4 @@ sqruff
 schematools-cli
 a11ywatch_cli
 cargo-spellcheck
+unic-langid-impl
