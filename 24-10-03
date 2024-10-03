@@ -22,3 +22,4 @@ cargo-unused-features
 cargo-msrv
 tectonic
 gpg-tui
+opencv-binding-generator
