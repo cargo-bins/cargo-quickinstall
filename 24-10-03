@@ -5,3 +5,4 @@ cargo-graph
 cargo-embed
 apollo-router
 turbocommit
+cargo-quickbuild
