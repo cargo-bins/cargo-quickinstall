@@ -3,3 +3,4 @@ cargo-generate
 solana-genesis
 sccache
 apollo-router
+cargo-local-registry
