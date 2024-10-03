@@ -1,3 +1,4 @@
 cargo-tarpaulin
 cargo-lock
 cargo-udeps
+cargo-generate
