@@ -87,3 +87,4 @@ hurlfmt
 rg
 yofi
 binstall
+cargo-smart-release
