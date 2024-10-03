@@ -2,3 +2,4 @@ cargo-local-registry
 pomodoro
 binstall
 rtx-cli
+apollo-router
