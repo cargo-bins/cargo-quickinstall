@@ -10,3 +10,4 @@ cargo-lock
 starship
 wasm-bindgen-cli
 cargo-c
+wasm-bindgen-cli
