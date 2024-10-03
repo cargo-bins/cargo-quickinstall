@@ -22,3 +22,4 @@ diesel_cli
 apollo-router
 phoenix-cli
 cargo-lock
+atuin
