@@ -14,3 +14,4 @@ gnostr-bins
 clippy
 cargo-flash
 sequoia-chameleon-gnupg
+git-disjoint
