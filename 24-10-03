@@ -82,3 +82,4 @@ arrow-flight
 gpg-tui
 raw-cpuid
 cargo-smart-release
+probe-rs-debugger
