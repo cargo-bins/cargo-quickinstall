@@ -15,3 +15,4 @@ solana-verify
 cargo-lock
 tree-sitter-cli
 xcp
+apollo-router
