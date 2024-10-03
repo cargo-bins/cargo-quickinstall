@@ -12,3 +12,4 @@ schemafy
 laminar
 cargo-pgrx
 librespot
+pgrx-tests
