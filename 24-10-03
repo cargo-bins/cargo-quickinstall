@@ -25,3 +25,4 @@ gpg-tui
 opencv-binding-generator
 phf_generator
 legba
+raw-cpuid
