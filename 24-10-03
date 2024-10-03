@@ -70,3 +70,4 @@ schematools-cli
 cargo-espflash
 ruff
 protox
+human_name
