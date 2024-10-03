@@ -86,3 +86,4 @@ probe-rs-debugger
 ducc-sys
 drone
 gpg-tui
+stac-cli
