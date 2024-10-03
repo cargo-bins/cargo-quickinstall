@@ -35,3 +35,4 @@ a11ywatch_cli
 cargo-spellcheck
 unic-langid-impl
 rkv
+cargo-lock
