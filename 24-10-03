@@ -16,3 +16,4 @@ cargo-embed
 clippy
 pomodoro
 sqlx-cli
+textplots
