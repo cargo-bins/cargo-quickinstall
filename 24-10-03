@@ -18,3 +18,4 @@ xcp
 apollo-router
 graphql_client_cli
 solana-verify
+diesel_cli
