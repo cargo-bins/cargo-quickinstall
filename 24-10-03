@@ -20,3 +20,4 @@ graphql_client_cli
 solana-verify
 diesel_cli
 apollo-router
+phoenix-cli
