@@ -49,3 +49,4 @@ gnostr-bins
 hoard-rs
 deploy
 re_query
+schematools-cli
