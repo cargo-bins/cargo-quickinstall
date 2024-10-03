@@ -19,3 +19,4 @@ bgpkit-parser
 hoard-rs
 salvo-cli
 cargo-unused-features
+cargo-msrv
