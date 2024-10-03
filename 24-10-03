@@ -83,3 +83,4 @@ gpg-tui
 raw-cpuid
 cargo-smart-release
 probe-rs-debugger
+ducc-sys
