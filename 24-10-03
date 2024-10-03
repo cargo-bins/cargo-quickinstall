@@ -50,3 +50,4 @@ hoard-rs
 deploy
 re_query
 schematools-cli
+cached-path
