@@ -34,3 +34,4 @@ solana-genesis
 ytop
 rmesg
 dysk
+cargo-local-registry
