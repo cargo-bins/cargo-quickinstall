@@ -18,3 +18,4 @@ apollo-router
 cargo-generate
 starship
 mise
+cargo-lock
