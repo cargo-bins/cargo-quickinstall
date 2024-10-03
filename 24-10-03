@@ -16,3 +16,4 @@ wasm-bindgen-cli
 cargo-local-registry
 apollo-router
 cargo-generate
+starship
