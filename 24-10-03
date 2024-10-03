@@ -40,3 +40,4 @@ xbuild
 rkv
 bliss
 graphql_client_cli
+cargo-unused-features
