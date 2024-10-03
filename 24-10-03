@@ -36,3 +36,4 @@ cargo-spellcheck
 unic-langid-impl
 rkv
 cargo-lock
+xbuild
