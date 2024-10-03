@@ -44,3 +44,4 @@ cargo-unused-features
 mise
 foundationdb-gen
 wmi
+cargo-info
