@@ -74,3 +74,4 @@ schemafy
 cargo-lock
 racer
 vayu
+probe-rs-debugger
