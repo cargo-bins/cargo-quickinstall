@@ -53,3 +53,4 @@ schematools-cli
 cached-path
 speedtest-rs
 dotenv
+typst-cli
