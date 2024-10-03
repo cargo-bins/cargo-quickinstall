@@ -39,3 +39,4 @@ cargo-lock
 xbuild
 rkv
 bliss
+graphql_client_cli
