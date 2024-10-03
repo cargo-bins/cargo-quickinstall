@@ -16,3 +16,4 @@ cargo-lock
 tree-sitter-cli
 xcp
 apollo-router
+graphql_client_cli
