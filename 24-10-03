@@ -2,3 +2,4 @@ cargo-outdated
 cargo-generate
 solana-genesis
 sccache
+apollo-router
