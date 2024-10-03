@@ -85,3 +85,4 @@ cargo-smart-release
 probe-rs-debugger
 ducc-sys
 drone
+gpg-tui
