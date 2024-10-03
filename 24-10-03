@@ -72,3 +72,4 @@ kanidm_tools
 sea-orm-cli
 schemafy
 cargo-lock
+racer
