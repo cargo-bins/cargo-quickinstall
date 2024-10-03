@@ -34,3 +34,4 @@ cargo-spellcheck
 atuin
 textplots
 vrc-log
+httpmock
