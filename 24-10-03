@@ -20,3 +20,4 @@ hoard-rs
 salvo-cli
 cargo-unused-features
 cargo-msrv
+tectonic
