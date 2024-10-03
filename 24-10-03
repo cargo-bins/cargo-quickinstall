@@ -1,2 +1,3 @@
 cargo-tarpaulin
 cargo-lock
+cargo-udeps
