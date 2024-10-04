@@ -49,3 +49,4 @@ cargo-smart-release
 ravedude
 asm-lsp
 probe-rs-debugger
+ffs
