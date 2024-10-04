@@ -9,3 +9,4 @@ nextest-filtering
 rav1e
 h3o
 tree-sitter-graph
+cargo-lock
