@@ -46,3 +46,4 @@ socketcan
 sccache
 cargo-local-registry
 phf_generator
+solana-remote-wallet
