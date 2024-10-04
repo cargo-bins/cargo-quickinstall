@@ -41,3 +41,4 @@ cargo-lock
 apollo-router
 human_bytes
 unic-langid-impl
+cargo-generate
