@@ -31,3 +31,4 @@ remove_dir_all
 oso
 cargo-graph
 textplots
+java-locator
