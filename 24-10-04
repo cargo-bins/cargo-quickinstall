@@ -25,3 +25,4 @@ borsh
 inlyne
 cargo-unused-features
 qsv
+nkeys
