@@ -28,3 +28,4 @@ schematools-cli
 oculante
 clippy
 pwasm-utils
+tendermint-rpc
