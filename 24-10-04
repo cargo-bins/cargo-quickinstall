@@ -102,3 +102,4 @@ probe-rs-tools
 rencfs
 wmi
 ruff
+solana-cli
