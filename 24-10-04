@@ -17,3 +17,4 @@ cargo-public-api
 kdotool
 fend
 nu_plugin_dbus
+ruff
