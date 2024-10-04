@@ -20,3 +20,4 @@ cargo-embed
 minicbor
 rustbus
 sqlx-cli
+gitui
