@@ -5,3 +5,4 @@ racer
 sha1collisiondetection
 rustfmt-nightly
 cargo-tarpaulin
+solana-genesis
