@@ -26,3 +26,4 @@ laminar
 foundationdb-gen
 sccache
 cargo-c
+py-spy
