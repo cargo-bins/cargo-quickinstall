@@ -5,3 +5,4 @@ re_query
 solana-gossip
 dotenvy
 solana-cli
+minicbor
