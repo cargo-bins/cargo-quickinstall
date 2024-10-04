@@ -49,3 +49,4 @@ phf_generator
 solana-remote-wallet
 cargo-c
 cargo-generate
+cargo-tarpaulin
