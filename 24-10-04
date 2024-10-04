@@ -17,3 +17,4 @@ protox
 dotenv
 nextest-filtering
 apollo-router
+solana-genesis
