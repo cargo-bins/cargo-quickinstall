@@ -19,3 +19,4 @@ phf_generator
 cargo-embed
 minicbor
 rustbus
+sqlx-cli
