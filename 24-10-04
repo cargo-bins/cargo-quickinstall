@@ -37,3 +37,4 @@ deploy
 solana-genesis
 arrow-flight
 starship
+sccache
