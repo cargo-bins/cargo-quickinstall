@@ -5,3 +5,4 @@ minicbor
 deploy
 cargo-lock
 cargo-lock
+foundationdb-gen
