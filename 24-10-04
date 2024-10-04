@@ -58,3 +58,4 @@ graphql_client_cli
 nkeys
 salvo-cli
 papyrus_storage
+cargo-espflash
