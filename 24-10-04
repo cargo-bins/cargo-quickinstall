@@ -44,3 +44,4 @@ rmesg
 solana-genesis
 fleet-rs
 schemafy
+clippy
