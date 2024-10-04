@@ -72,3 +72,4 @@ a11ywatch_cli
 cargo-public-api
 remove_dir_all
 paru
+wol-rs
