@@ -44,3 +44,4 @@ graphql_client_cli
 starship
 httpmock
 nextest-filtering
+foundationdb-gen
