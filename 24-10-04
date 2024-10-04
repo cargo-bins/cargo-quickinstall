@@ -25,3 +25,4 @@ pgrx-tests
 laminar
 foundationdb-gen
 sccache
+cargo-c
