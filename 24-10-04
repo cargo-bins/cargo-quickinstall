@@ -12,3 +12,4 @@ tree-sitter-graph
 cargo-lock
 deploy
 git-disjoint
+czkawka_gui
