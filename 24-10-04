@@ -16,3 +16,4 @@ pgrx-tests
 cargo-generate
 rmesg
 skim
+cargo-generate
