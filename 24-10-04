@@ -24,3 +24,4 @@ eureka
 borsh
 inlyne
 cargo-unused-features
+qsv
