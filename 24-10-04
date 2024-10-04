@@ -32,3 +32,4 @@ ncspot
 addr2line
 human_name
 exa
+remove_dir_all
