@@ -29,3 +29,4 @@ cargo-c
 py-spy
 sccache
 borsh
+clippy
