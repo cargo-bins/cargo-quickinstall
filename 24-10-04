@@ -28,3 +28,4 @@ sccache
 cargo-c
 py-spy
 sccache
+borsh
