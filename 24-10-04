@@ -50,3 +50,4 @@ solana-remote-wallet
 cargo-c
 cargo-generate
 cargo-tarpaulin
+ducc-sys
