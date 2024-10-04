@@ -24,3 +24,4 @@ cargo-tarpaulin
 pgrx-tests
 laminar
 foundationdb-gen
+sccache
