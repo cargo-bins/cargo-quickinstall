@@ -22,3 +22,4 @@ rustbus
 sqlx-cli
 gitui
 java-locator
+phf_generator
