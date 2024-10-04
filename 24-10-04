@@ -3,3 +3,4 @@ clippy
 papyrus_storage
 minicbor
 deploy
+cargo-lock
