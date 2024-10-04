@@ -15,3 +15,4 @@ sniffnet
 rtx-cli
 cargo-embed
 cargo-local-registry
+phf_generator
