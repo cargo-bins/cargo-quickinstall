@@ -18,3 +18,4 @@ dotenv
 nextest-filtering
 apollo-router
 solana-genesis
+mdcat
