@@ -36,3 +36,4 @@ cargo-udeps
 cargo-c
 racer
 unic-langid-impl
+human_name
