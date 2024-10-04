@@ -45,3 +45,4 @@ deploy
 qsv
 arrow-flight
 nextsv
+cargo-smart-release
