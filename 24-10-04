@@ -26,3 +26,4 @@ opencv-binding-generator
 hurl
 ducc-sys
 winpty-rs
+arrow-flight
