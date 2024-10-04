@@ -31,3 +31,4 @@ winpty-rs
 chain-spec-builder
 parquet
 flowistry_ide
+qsv
