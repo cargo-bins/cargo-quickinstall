@@ -29,3 +29,4 @@ winpty-rs
 arrow-flight
 winpty-rs
 chain-spec-builder
+parquet
