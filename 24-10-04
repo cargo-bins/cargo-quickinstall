@@ -38,3 +38,4 @@ cached-path
 tendermint-abci
 solana-keygen
 starship
+graphql_client_cli
