@@ -89,3 +89,4 @@ dotenv
 probe-rs-tools
 salvo-cli
 yofi
+cargo-whatfeatures
