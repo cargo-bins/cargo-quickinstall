@@ -10,3 +10,4 @@ snarkvm
 arrow-flight
 salvo-cli
 pgrx-tests
+cargo-spellcheck
