@@ -9,3 +9,4 @@ snarkvm
 winpty-rs
 typst-cli
 sea-orm-cli
+elf2uf2-rs
