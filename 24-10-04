@@ -18,3 +18,4 @@ unic-langid-impl
 nkeys
 cargo-local-registry
 rkv
+human_bytes
