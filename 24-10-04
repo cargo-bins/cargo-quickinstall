@@ -11,3 +11,4 @@ starship
 pgrx-tests
 sqlx-cli
 solana-genesis
+cargo-udeps
