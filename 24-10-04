@@ -22,3 +22,4 @@ borsh
 chain-spec-builder
 solana-gossip
 wmi
+radio-sx128x
