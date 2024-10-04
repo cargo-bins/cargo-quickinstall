@@ -8,3 +8,4 @@ cargo-lock
 foundationdb-gen
 schemafy
 starship
+pgrx-tests
