@@ -13,3 +13,4 @@ sqlx-cli
 solana-genesis
 cargo-udeps
 nu
+cargo-lock
