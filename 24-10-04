@@ -93,3 +93,4 @@ cargo-whatfeatures
 mdcat
 tectonic
 graphql_client_cli
+xbuild
