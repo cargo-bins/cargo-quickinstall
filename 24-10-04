@@ -45,3 +45,4 @@ probe-rs-tools
 kanidm_tools
 typst-cli
 cargo-list
+mdcat
