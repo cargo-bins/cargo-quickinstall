@@ -46,3 +46,4 @@ httpmock
 nextest-filtering
 foundationdb-gen
 sea-orm-cli
+deploy
