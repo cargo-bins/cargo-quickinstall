@@ -36,3 +36,4 @@ remove_dir_all
 solana-genesis
 ncspot
 schemafy
+rls-rustc
