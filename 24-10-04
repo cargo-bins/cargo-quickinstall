@@ -12,3 +12,4 @@ pgrx-tests
 sqlx-cli
 solana-genesis
 cargo-udeps
+nu
