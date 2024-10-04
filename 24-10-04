@@ -27,3 +27,4 @@ oso
 addr2line
 racer
 diesel_cli
+cargo-local-registry
