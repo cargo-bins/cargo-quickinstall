@@ -41,3 +41,4 @@ sccache
 nexmark
 sccache
 cargo-lock
+tendermint-rpc
