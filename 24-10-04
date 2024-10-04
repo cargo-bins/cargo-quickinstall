@@ -37,3 +37,4 @@ solana-genesis
 ncspot
 schemafy
 rls-rustc
+pwasm-utils
