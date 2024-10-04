@@ -30,3 +30,4 @@ diesel_cli
 cargo-local-registry
 textplots
 syd
+apollo-router
