@@ -44,3 +44,4 @@ cargo-lock
 tendermint-rpc
 human_name
 solana-keygen
+remove_dir_all
