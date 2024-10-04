@@ -59,3 +59,4 @@ pwasm-utils
 fend
 clipboard-history
 sshx
+remove_dir_all
