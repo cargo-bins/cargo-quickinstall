@@ -34,3 +34,4 @@ apollo-router
 pgrx-tests
 cargo-udeps
 cargo-c
+racer
