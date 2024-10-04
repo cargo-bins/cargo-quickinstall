@@ -88,3 +88,4 @@ pico-uf2
 dotenv
 probe-rs-tools
 salvo-cli
+yofi
