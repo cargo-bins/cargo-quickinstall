@@ -33,3 +33,4 @@ cargo-graph
 textplots
 java-locator
 dotenvy
+chain-spec-builder
