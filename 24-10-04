@@ -27,3 +27,4 @@ remove_dir_all
 deploy
 borsh
 rustfmt-nightly
+cpp_demangle
