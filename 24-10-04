@@ -31,3 +31,4 @@ cargo-local-registry
 textplots
 syd
 apollo-router
+pgrx-tests
