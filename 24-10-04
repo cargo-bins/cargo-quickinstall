@@ -13,3 +13,4 @@ pgrx-tests
 opencv-binding-generator
 borsh
 clippy
+protox
