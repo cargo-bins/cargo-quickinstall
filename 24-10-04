@@ -19,3 +19,4 @@ starship
 tree-sitter-cli
 solana-validator
 solana-genesis
+cargo-udeps
