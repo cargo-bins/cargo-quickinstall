@@ -4,3 +4,4 @@ mise
 racer
 sha1collisiondetection
 rustfmt-nightly
+cargo-tarpaulin
