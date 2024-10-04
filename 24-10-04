@@ -21,3 +21,4 @@ rkv
 human_bytes
 cpp_demangle
 cargo-tarpaulin
+pgrx-tests
