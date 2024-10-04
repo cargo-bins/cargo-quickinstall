@@ -47,3 +47,4 @@ schemafy
 clippy
 fleet-rs
 sha1collisiondetection
+cargo-count
