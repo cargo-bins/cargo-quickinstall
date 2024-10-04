@@ -17,3 +17,4 @@ cargo-lock
 cargo-udeps
 starship
 tree-sitter-cli
+solana-validator
