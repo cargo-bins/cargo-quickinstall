@@ -98,3 +98,4 @@ probe-rs-debugger
 ripdrag
 legba
 eidolon
+socketcan
