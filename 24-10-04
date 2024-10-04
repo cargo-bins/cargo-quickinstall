@@ -40,3 +40,4 @@ human_name
 cargo-lock
 apollo-router
 human_bytes
+unic-langid-impl
