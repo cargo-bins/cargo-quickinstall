@@ -9,3 +9,4 @@ foundationdb-gen
 schemafy
 starship
 pgrx-tests
+sqlx-cli
