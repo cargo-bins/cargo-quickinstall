@@ -14,3 +14,4 @@ re_query
 sniffnet
 rtx-cli
 cargo-embed
+cargo-local-registry
