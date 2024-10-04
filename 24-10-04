@@ -28,3 +28,4 @@ deploy
 borsh
 rustfmt-nightly
 cpp_demangle
+ncspot
