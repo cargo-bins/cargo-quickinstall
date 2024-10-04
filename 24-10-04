@@ -14,3 +14,4 @@ opencv-binding-generator
 borsh
 clippy
 protox
+dotenv
