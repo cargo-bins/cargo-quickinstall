@@ -22,3 +22,4 @@ solana-genesis
 cargo-udeps
 racer
 librespot
+diesel_cli
