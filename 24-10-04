@@ -17,3 +17,4 @@ addr2line
 unic-langid-impl
 nkeys
 cargo-local-registry
+rkv
