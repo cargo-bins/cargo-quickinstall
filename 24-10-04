@@ -87,3 +87,4 @@ a11ywatch_cli
 pico-uf2
 dotenv
 probe-rs-tools
+salvo-cli
