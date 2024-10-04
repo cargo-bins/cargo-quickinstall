@@ -13,3 +13,4 @@ cargo-lock
 pgrx-tests
 rmesg
 pgrx-tests
+cargo-generate
