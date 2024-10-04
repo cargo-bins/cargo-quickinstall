@@ -16,3 +16,4 @@ clippy
 protox
 dotenv
 nextest-filtering
+apollo-router
