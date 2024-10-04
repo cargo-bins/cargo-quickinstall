@@ -7,3 +7,4 @@ rustfmt-nightly
 cargo-tarpaulin
 solana-genesis
 unic-langid-impl
+rustrict
