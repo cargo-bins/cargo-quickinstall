@@ -16,3 +16,4 @@ clipboard-history
 rkv
 inlyne
 tree-sitter-cli
+cargo-public-api
