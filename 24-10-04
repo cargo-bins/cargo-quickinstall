@@ -27,3 +27,4 @@ cargo-unused-features
 qsv
 nkeys
 re_query
+cached-path
