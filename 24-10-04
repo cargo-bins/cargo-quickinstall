@@ -8,3 +8,4 @@ cargo-tarpaulin
 solana-genesis
 unic-langid-impl
 rustrict
+z3tracer
