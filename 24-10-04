@@ -41,3 +41,4 @@ cargo-smart-release
 h3o
 deno
 pgrx-tests
+probe-rs-tools
