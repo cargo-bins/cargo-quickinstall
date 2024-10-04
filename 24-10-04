@@ -16,3 +16,4 @@ solana-genesis
 addr2line
 unic-langid-impl
 nkeys
+cargo-local-registry
