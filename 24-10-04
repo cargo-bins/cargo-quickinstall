@@ -43,3 +43,4 @@ human_bytes
 unic-langid-impl
 cargo-generate
 socketcan
+sccache
