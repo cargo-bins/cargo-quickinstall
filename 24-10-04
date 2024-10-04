@@ -44,3 +44,4 @@ pgrx-tests
 probe-rs-tools
 kanidm_tools
 typst-cli
+cargo-list
