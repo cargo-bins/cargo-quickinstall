@@ -47,3 +47,4 @@ solana-keygen
 remove_dir_all
 solana-validator
 remove_dir_all
+solana-remote-wallet
