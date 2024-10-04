@@ -30,3 +30,4 @@ rustfmt-nightly
 cpp_demangle
 ncspot
 addr2line
+human_name
