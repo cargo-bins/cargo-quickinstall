@@ -40,3 +40,4 @@ starship
 sccache
 nexmark
 sccache
+cargo-lock
