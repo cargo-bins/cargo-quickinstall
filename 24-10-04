@@ -1,3 +1,4 @@
 probe-rs-debugger
 rioterm
 cargo-public-api
+apollo-router
