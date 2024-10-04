@@ -44,3 +44,4 @@ unic-langid-impl
 cargo-generate
 socketcan
 sccache
+cargo-local-registry
