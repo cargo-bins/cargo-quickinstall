@@ -37,3 +37,4 @@ cargo-c
 racer
 unic-langid-impl
 human_name
+cargo-lock
