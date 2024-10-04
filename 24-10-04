@@ -46,3 +46,4 @@ kanidm_tools
 typst-cli
 cargo-list
 mdcat
+apollo-router
