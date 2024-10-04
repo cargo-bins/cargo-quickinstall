@@ -42,3 +42,4 @@ nexmark
 sccache
 cargo-lock
 tendermint-rpc
+human_name
