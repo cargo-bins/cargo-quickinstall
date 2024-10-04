@@ -20,3 +20,4 @@ flowistry_ide
 raw-cpuid
 borsh
 chain-spec-builder
+solana-gossip
