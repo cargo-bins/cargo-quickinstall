@@ -18,3 +18,4 @@ cargo-local-registry
 phf_generator
 cargo-embed
 minicbor
+rustbus
