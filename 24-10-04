@@ -2,3 +2,4 @@ cargo-quickbuild
 gitnow
 racer
 google-drive3-cli
+rls-rustc
