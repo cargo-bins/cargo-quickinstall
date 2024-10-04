@@ -10,3 +10,4 @@ java-locator
 xcp
 tendermint-rpc
 pgrx-tests
+opencv-binding-generator
