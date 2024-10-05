@@ -58,3 +58,4 @@ libbpf-cargo
 tree-sitter-graph
 deploy
 racer
+opencv-binding-generator
