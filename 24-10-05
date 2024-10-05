@@ -12,3 +12,4 @@ winpty-rs
 solana-genesis
 re_query
 nexmark
+raw-cpuid
