@@ -70,3 +70,4 @@ nextest-filtering
 human_bytes
 libbpf-cargo
 spider_cli
+sqlx-cli
