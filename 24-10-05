@@ -74,3 +74,4 @@ sqlx-cli
 rustfmt-nightly
 rrule
 wol-rs
+unic-langid-impl
