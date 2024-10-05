@@ -3,3 +3,4 @@ cargo-generate
 borsh
 remove_dir_all
 rustrict
+paperclip
