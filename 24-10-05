@@ -45,3 +45,4 @@ chain-spec-builder
 clippy
 winpty-rs
 schemafy
+solana-validator
