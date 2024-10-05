@@ -53,3 +53,4 @@ nkeys
 tendermint-rpc
 rustfmt-nightly
 socketcan
+dotenv
