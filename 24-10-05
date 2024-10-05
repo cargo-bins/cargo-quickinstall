@@ -85,3 +85,4 @@ foundationdb-gen
 pgrx-tests
 nkeys
 sccache
+parquet
