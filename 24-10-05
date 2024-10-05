@@ -28,3 +28,4 @@ raw-cpuid
 phf_generator
 libbpf-cargo
 skim
+re_query
