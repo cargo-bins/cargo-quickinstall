@@ -30,3 +30,4 @@ httpmock
 cached-path
 solana-validator
 dotenvy
+pwasm-utils
