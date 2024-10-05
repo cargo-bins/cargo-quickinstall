@@ -1,3 +1,4 @@
 cargo-lock
 git-disjoint
 dotenvy
+foundationdb-gen
