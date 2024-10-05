@@ -40,3 +40,4 @@ rustbus
 human_bytes
 rmesg
 remove_dir_all
+cargo-generate
