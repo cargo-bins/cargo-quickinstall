@@ -8,3 +8,4 @@ arrow-flight
 solana-gossip
 borsh
 libbpf-cargo
+phf_generator
