@@ -55,3 +55,4 @@ socketcan
 sniffnet
 tendermint-abci
 foundationdb-gen
+solana-genesis
