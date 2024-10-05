@@ -35,3 +35,4 @@ addr2line
 clippy
 solana-gossip
 java-locator
+tree-sitter-graph
