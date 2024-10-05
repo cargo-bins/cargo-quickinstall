@@ -44,3 +44,4 @@ foundationdb-gen
 cached-path
 dotenvy
 raw-cpuid
+wol-rs
