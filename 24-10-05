@@ -49,3 +49,4 @@ ripdrag
 remove_dir_all
 blissify
 qrtool
+opencv-binding-generator
