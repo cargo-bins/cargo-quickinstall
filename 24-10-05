@@ -25,3 +25,4 @@ rls-rustc
 human_bytes
 laminar
 tree-sitter-graph
+sha1collisiondetection
