@@ -74,3 +74,4 @@ diesel_cli
 cargo-c
 laminar
 schemafy
+clippy
