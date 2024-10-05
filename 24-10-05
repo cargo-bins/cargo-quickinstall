@@ -36,3 +36,4 @@ winpty-rs
 oso
 tendermint-rpc
 cargo-generate
+cargo-tarpaulin
