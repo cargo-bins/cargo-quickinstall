@@ -34,3 +34,4 @@ pwasm-utils
 cargo-lock
 laminar
 pgrx-tests
+papyrus_storage
