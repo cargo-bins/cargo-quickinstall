@@ -65,3 +65,4 @@ wol-rs
 human_name
 cached-path
 nkeys
+foundationdb-gen
