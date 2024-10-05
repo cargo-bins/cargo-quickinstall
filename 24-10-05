@@ -51,3 +51,4 @@ pgrx-tests
 clippy
 unic-langid-impl
 syd
+socketcan
