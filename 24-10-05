@@ -25,3 +25,4 @@ rustfmt
 httpbis
 tendermint-abci
 raw-cpuid
+phf_generator
