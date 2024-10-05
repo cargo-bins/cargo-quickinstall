@@ -7,3 +7,4 @@ rustfmt-nightly
 arrow-flight
 solana-gossip
 borsh
+libbpf-cargo
