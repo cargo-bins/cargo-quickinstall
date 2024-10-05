@@ -15,3 +15,4 @@ sshx
 diesel_cli
 paperclip
 nexmark
+libbpf-cargo
