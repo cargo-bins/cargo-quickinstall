@@ -47,3 +47,4 @@ re_query
 cargo-lock
 tree-sitter-graph
 solana-genesis
+pgrx-tests
