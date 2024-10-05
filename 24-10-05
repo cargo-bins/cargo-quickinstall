@@ -57,3 +57,4 @@ tendermint-rpc
 libbpf-cargo
 tree-sitter-graph
 deploy
+racer
