@@ -24,3 +24,4 @@ cpp_demangle
 rls-rustc
 human_bytes
 laminar
+tree-sitter-graph
