@@ -6,3 +6,4 @@ rustrict
 paperclip
 opencv-binding-generator
 sn_node
+phf_generator
