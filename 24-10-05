@@ -3,3 +3,4 @@ unic-langid-impl
 binstall
 foundationdb-gen
 honggfuzz
+rustfmt-nightly
