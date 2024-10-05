@@ -7,3 +7,4 @@ parquet
 duma
 cargo-info
 codeberg-cli
+human_bytes
