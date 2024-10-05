@@ -20,3 +20,4 @@ snarkvm
 rustfmt-nightly
 textplots
 deno
+solana-gossip
