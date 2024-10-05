@@ -24,3 +24,4 @@ solana-validator
 racer
 foundationdb-gen
 libbpf-cargo
+phf_generator
