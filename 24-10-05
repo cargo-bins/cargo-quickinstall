@@ -80,3 +80,4 @@ deploy
 solana-gossip
 laminar
 solana-stake-accounts
+dotenv
