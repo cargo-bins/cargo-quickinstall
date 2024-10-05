@@ -63,3 +63,4 @@ nexmark
 cargo-lock
 minicbor
 solana-stake-accounts
+wol-rs
