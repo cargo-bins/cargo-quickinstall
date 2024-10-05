@@ -17,3 +17,4 @@ rkv
 cached-path
 solana-genesis
 snarkvm
+rustfmt-nightly
