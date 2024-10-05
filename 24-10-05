@@ -6,3 +6,4 @@ solana-stake-accounts
 tendermint-rpc
 wmi
 librespot
+wol-rs
