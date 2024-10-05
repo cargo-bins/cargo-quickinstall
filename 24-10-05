@@ -41,3 +41,4 @@ minicbor
 ducc-sys
 cargo-graph
 cloak
+chain-spec-builder
