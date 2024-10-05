@@ -35,3 +35,4 @@ cargo-lock
 laminar
 pgrx-tests
 papyrus_storage
+fleet-rs
