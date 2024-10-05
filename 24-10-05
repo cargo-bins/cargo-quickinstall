@@ -41,3 +41,4 @@ nexmark
 sea-orm-cli
 pwasm-utils
 foundationdb-gen
+cached-path
