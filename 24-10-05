@@ -42,3 +42,4 @@ ducc-sys
 cargo-graph
 cloak
 chain-spec-builder
+clippy
