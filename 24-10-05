@@ -32,3 +32,4 @@ qsv
 dotenv
 z3tracer
 google-drive3-cli
+cached-path
