@@ -79,3 +79,4 @@ libbpf-cargo
 deploy
 solana-gossip
 laminar
+solana-stake-accounts
