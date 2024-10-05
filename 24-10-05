@@ -76,3 +76,4 @@ laminar
 schemafy
 clippy
 arrow-flight
+rls-rustc
