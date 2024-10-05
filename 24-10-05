@@ -18,3 +18,4 @@ solana-genesis
 ruff
 hurlfmt
 ripdrag
+sha1collisiondetection
