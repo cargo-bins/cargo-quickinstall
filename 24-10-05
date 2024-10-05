@@ -29,3 +29,4 @@ re_query
 rustrict
 radio-sx128x
 qsv
+dotenv
