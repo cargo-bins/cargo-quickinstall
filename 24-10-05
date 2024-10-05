@@ -37,3 +37,4 @@ oso
 cargo-info
 tree-sitter-cli
 binstall
+cargo-lock
