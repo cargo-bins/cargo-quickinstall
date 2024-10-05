@@ -50,3 +50,4 @@ foundationdb-gen
 cargo-udeps
 rustrict
 nkeys
+tendermint-rpc
