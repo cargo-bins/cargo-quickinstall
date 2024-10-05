@@ -98,3 +98,4 @@ tendermint-abci
 addr2line
 solana-stake-accounts
 schemafy
+rkv
