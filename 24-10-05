@@ -37,3 +37,4 @@ rls-rustc
 parquet
 solana-remote-wallet
 nextest-filtering
+pgrx-tests
