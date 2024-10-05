@@ -33,3 +33,4 @@ dotenvy
 pwasm-utils
 cargo-lock
 laminar
+pgrx-tests
