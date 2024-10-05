@@ -29,3 +29,4 @@ solana-keygen
 diesel_cli
 py-spy
 cargo-c
+sea-orm-cli
