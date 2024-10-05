@@ -17,3 +17,4 @@ paperclip
 nexmark
 libbpf-cargo
 nkeys
+clippy
