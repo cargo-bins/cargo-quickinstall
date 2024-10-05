@@ -55,3 +55,4 @@ rustfmt-nightly
 socketcan
 dotenv
 pgrx-tests
+solana-stake-accounts
