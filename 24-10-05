@@ -50,3 +50,4 @@ tauri-cli
 opencv-binding-generator
 wol-rs
 rrule
+rls-rustc
