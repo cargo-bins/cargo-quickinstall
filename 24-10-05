@@ -112,3 +112,4 @@ rencfs
 pcu
 tendermint-rpc
 bluetui
+salvo-cli
