@@ -32,3 +32,4 @@ solana-gossip
 starship
 opencv-binding-generator
 clippy
+libbpf-cargo
