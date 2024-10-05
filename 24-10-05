@@ -47,3 +47,4 @@ sha1collisiondetection
 zuse
 spider_cli
 tauri-cli
+opencv-binding-generator
