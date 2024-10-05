@@ -49,3 +49,4 @@ tree-sitter-graph
 solana-genesis
 pgrx-tests
 clippy
+unic-langid-impl
