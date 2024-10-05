@@ -83,3 +83,4 @@ stac-cli
 racer
 nextest-filtering
 drone
+httpmock
