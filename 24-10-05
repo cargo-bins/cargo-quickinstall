@@ -71,3 +71,4 @@ tree-sitter-graph
 human_name
 cpp_demangle
 diesel_cli
+cargo-c
