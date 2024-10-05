@@ -60,3 +60,4 @@ deploy
 racer
 opencv-binding-generator
 nexmark
+ducc-sys
