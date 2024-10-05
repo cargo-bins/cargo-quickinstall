@@ -52,3 +52,4 @@ clippy
 unic-langid-impl
 syd
 socketcan
+sniffnet
