@@ -96,3 +96,4 @@ cargo-c
 ducc-sys
 tendermint-abci
 addr2line
+solana-stake-accounts
