@@ -30,3 +30,4 @@ diesel_cli
 py-spy
 cargo-c
 sea-orm-cli
+human_bytes
