@@ -40,3 +40,4 @@ nextest-filtering
 pgrx-tests
 cargo-tarpaulin
 cpp_demangle
+solana-validator
