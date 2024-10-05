@@ -40,3 +40,4 @@ schemafy
 tendermint-abci
 deploy
 minicbor
+ducc-sys
