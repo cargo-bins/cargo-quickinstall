@@ -28,3 +28,4 @@ dotenv
 rustrict
 pwasm-utils
 raw-cpuid
+nu_plugin_gstat
