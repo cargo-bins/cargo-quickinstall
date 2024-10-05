@@ -19,3 +19,4 @@ pgrx-tests
 cargo-local-registry
 rkv
 libbpf-cargo
+foundationdb-gen
