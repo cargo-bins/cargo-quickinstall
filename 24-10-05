@@ -91,3 +91,4 @@ cargo-mobile2
 h3o
 rls-rustc
 cpp_demangle
+pwasm-utils
