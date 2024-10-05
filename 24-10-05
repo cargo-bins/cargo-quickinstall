@@ -9,3 +9,4 @@ sha1collisiondetection
 libbpf-cargo
 pwasm-utils
 unic-langid-impl
+solana-gossip
