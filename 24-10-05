@@ -45,3 +45,4 @@ addr2line
 dotenvy
 minicbor
 wmi
+spider_worker
