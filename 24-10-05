@@ -37,3 +37,4 @@ nextest-filtering
 protox
 pgrx-tests
 libbpf-cargo
+nexmark
