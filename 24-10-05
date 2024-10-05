@@ -63,3 +63,4 @@ nexmark
 ducc-sys
 tendermint-abci
 cached-path
+human_bytes
