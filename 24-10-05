@@ -79,3 +79,4 @@ spider_worker
 typst-cli
 solana-stake-accounts
 termusic
+solana-gossip
