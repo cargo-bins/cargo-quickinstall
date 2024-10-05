@@ -47,3 +47,4 @@ raw-cpuid
 wol-rs
 solana-keygen
 solana-genesis
+cpp_demangle
