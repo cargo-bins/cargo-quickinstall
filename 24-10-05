@@ -6,3 +6,4 @@ honggfuzz
 rustfmt-nightly
 arrow-flight
 solana-gossip
+borsh
