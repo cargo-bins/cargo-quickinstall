@@ -13,3 +13,4 @@ papyrus_storage
 sccache
 syd
 paperclip
+winpty-rs
