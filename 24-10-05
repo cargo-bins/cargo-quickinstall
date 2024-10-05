@@ -75,3 +75,4 @@ solana-stake-accounts
 borsh
 h3o
 human_bytes
+libbpf-cargo
