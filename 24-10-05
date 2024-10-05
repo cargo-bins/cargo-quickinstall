@@ -2,3 +2,4 @@ cargo-udeps
 laminar
 deploy
 httpmock
+raw-cpuid
