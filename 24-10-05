@@ -72,3 +72,4 @@ libbpf-cargo
 spider_cli
 sqlx-cli
 rustfmt-nightly
+rrule
