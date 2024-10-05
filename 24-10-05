@@ -19,3 +19,4 @@ sha1collisiondetection
 diesel_cli
 re_query
 nkeys
+apollo-router
