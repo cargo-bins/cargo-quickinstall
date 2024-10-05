@@ -20,3 +20,4 @@ diesel_cli
 re_query
 nkeys
 apollo-router
+parquet
