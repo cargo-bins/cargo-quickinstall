@@ -39,3 +39,4 @@ pgrx-tests
 libbpf-cargo
 nexmark
 sea-orm-cli
+pwasm-utils
