@@ -93,3 +93,4 @@ sccache
 solana-stake-accounts
 solana-genesis
 cargo-c
+ducc-sys
