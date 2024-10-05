@@ -82,3 +82,4 @@ human_name
 py-spy
 addr2line
 solana-stake-accounts
+cargo-udeps
