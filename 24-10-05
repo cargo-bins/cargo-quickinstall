@@ -60,3 +60,4 @@ pwasm-utils
 foundationdb-gen
 py-spy
 nexmark
+cargo-lock
