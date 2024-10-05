@@ -5,3 +5,4 @@ foundationdb-gen
 honggfuzz
 rustfmt-nightly
 arrow-flight
+solana-gossip
