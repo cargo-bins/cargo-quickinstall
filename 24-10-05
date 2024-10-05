@@ -62,3 +62,4 @@ opencv-binding-generator
 nexmark
 ducc-sys
 tendermint-abci
+cached-path
