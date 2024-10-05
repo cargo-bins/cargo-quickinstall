@@ -27,3 +27,4 @@ cargo-lock
 minicbor
 textplots
 h3o
+cargo-info
