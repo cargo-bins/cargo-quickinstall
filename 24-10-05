@@ -18,3 +18,4 @@ tokio-process
 pgrx-tests
 cargo-local-registry
 rkv
+libbpf-cargo
