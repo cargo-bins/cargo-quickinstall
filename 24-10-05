@@ -38,3 +38,4 @@ tendermint-rpc
 cargo-generate
 cargo-tarpaulin
 sccache
+h3o
