@@ -43,3 +43,4 @@ cached-path
 solana-remote-wallet
 sqlx-cli
 solana-validator
+sha1collisiondetection
