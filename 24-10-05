@@ -21,3 +21,4 @@ rkv
 libbpf-cargo
 foundationdb-gen
 rls-rustc
+rustfmt
