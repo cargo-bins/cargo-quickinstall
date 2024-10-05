@@ -21,3 +21,4 @@ minicbor
 rustfmt-nightly
 arrow-flight
 solana-validator
+racer
