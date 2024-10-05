@@ -24,3 +24,4 @@ solana-gossip
 syd
 winpty-rs
 cargo-lock
+minicbor
