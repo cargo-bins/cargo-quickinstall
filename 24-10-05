@@ -26,3 +26,4 @@ deno
 nu_plugin_gstat
 dotenv
 rustrict
+pwasm-utils
