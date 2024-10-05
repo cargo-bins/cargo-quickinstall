@@ -3,3 +3,4 @@ oxipng
 rustfmt-nightly
 syd
 solana-stake-accounts
+tendermint-rpc
