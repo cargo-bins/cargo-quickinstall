@@ -36,3 +36,4 @@ solana-keygen
 nextest-filtering
 protox
 pgrx-tests
+libbpf-cargo
