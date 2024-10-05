@@ -39,3 +39,4 @@ tree-sitter-cli
 binstall
 cargo-lock
 probe-rs-tools
+java-locator
