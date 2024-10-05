@@ -16,3 +16,4 @@ sea-orm-cli
 cargo-info
 rencfs
 vrc-log
+diesel_cli
