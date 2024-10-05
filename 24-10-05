@@ -58,3 +58,4 @@ nexmark
 rls-rustc
 nkeys
 pwasm-utils
+libbpf-cargo
