@@ -21,3 +21,4 @@ clippy
 ubi
 remove_dir_all
 sshx
+cargo-embed
