@@ -17,3 +17,4 @@ rrule
 rustfmt-nightly
 h3o
 wol-rs
+pwasm-utils
