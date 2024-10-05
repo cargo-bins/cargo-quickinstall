@@ -35,3 +35,4 @@ remove_dir_all
 winpty-rs
 oso
 tendermint-rpc
+cargo-generate
