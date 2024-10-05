@@ -20,3 +20,4 @@ wol-rs
 pwasm-utils
 nextest-filtering
 tendermint-rpc
+pgrx-tests
