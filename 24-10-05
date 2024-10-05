@@ -36,3 +36,4 @@ cached-path
 rkv
 nextest-filtering
 apollo-router
+dotenvy
