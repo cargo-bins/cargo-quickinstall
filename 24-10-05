@@ -54,3 +54,4 @@ starship
 clippy
 minicbor
 tendermint-rpc
+libbpf-cargo
