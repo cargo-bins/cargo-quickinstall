@@ -45,3 +45,4 @@ solana-gossip
 addr2line
 re_query
 cargo-lock
+tree-sitter-graph
