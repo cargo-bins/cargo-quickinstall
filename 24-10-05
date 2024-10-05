@@ -14,3 +14,4 @@ solana-verify
 solana-validator
 z3tracer
 rkv
+cached-path
