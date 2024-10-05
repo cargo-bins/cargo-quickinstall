@@ -56,3 +56,4 @@ socketcan
 dotenv
 pgrx-tests
 solana-stake-accounts
+pwasm-utils
