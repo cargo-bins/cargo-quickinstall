@@ -54,3 +54,4 @@ tendermint-rpc
 rustfmt-nightly
 socketcan
 dotenv
+pgrx-tests
