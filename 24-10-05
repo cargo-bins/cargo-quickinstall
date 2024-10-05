@@ -33,3 +33,4 @@ opencv-binding-generator
 cargo-lock
 spider_worker
 solana-keygen
+nextest-filtering
