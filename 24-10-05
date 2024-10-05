@@ -16,3 +16,4 @@ raw-cpuid
 solana-genesis
 ducc-sys
 cpp_demangle
+opencv-binding-generator
