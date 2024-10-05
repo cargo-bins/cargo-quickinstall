@@ -96,3 +96,4 @@ oso
 socketcan
 ncspot
 bgpkit-broker
+cpp_demangle
