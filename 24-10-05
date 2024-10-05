@@ -43,3 +43,4 @@ pwasm-utils
 foundationdb-gen
 cached-path
 dotenvy
+raw-cpuid
