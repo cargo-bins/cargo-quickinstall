@@ -35,3 +35,4 @@ clippy
 libbpf-cargo
 trunk
 pgrx-tests
+addr2line
