@@ -19,3 +19,4 @@ h3o
 wol-rs
 pwasm-utils
 nextest-filtering
+tendermint-rpc
