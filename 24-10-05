@@ -14,3 +14,4 @@ pgrx-tests
 solana-gossip
 coldsnap
 rrule
+rustfmt-nightly
