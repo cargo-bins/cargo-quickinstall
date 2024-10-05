@@ -25,3 +25,4 @@ spider_cli
 trunk
 diesel_cli
 libbpf-cargo
+deno
