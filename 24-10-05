@@ -19,3 +19,4 @@ libbpf-cargo
 nkeys
 clippy
 ubi
+remove_dir_all
