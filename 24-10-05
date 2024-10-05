@@ -31,3 +31,4 @@ cargo-info
 solana-keygen
 opencv-binding-generator
 cargo-lock
+spider_worker
