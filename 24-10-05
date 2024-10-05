@@ -14,3 +14,4 @@ sccache
 syd
 paperclip
 winpty-rs
+nextest-filtering
