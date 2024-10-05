@@ -68,3 +68,4 @@ protox
 tendermint-rpc
 nextest-filtering
 human_bytes
+libbpf-cargo
