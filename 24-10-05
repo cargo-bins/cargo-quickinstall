@@ -58,3 +58,4 @@ foundationdb-gen
 solana-genesis
 socketcan
 remove_dir_all
+z3tracer
