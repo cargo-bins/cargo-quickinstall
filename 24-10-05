@@ -33,3 +33,4 @@ sea-orm-cli
 human_bytes
 remove_dir_all
 winpty-rs
+oso
