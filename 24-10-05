@@ -49,3 +49,4 @@ spider_cli
 tauri-cli
 opencv-binding-generator
 wol-rs
+rrule
