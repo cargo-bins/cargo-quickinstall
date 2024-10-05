@@ -37,3 +37,4 @@ oso
 tendermint-rpc
 cargo-generate
 cargo-tarpaulin
+sccache
