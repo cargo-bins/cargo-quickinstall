@@ -51,3 +51,4 @@ cargo-udeps
 rustrict
 nkeys
 tendermint-rpc
+rustfmt-nightly
