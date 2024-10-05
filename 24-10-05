@@ -46,3 +46,4 @@ solana-validator
 sha1collisiondetection
 zuse
 spider_cli
+tauri-cli
