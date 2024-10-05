@@ -34,3 +34,4 @@ cargo-lock
 spider_worker
 solana-keygen
 nextest-filtering
+protox
