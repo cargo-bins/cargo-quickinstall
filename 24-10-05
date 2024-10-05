@@ -4,3 +4,4 @@ remove_dir_all
 schemafy
 foundationdb-gen
 snarkvm
+paperclip
