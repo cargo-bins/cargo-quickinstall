@@ -12,3 +12,4 @@ unic-langid-impl
 solana-gossip
 arrow-flight
 sshx
+diesel_cli
