@@ -8,3 +8,4 @@ cargo-generate
 java-locator
 cpp_demangle
 oso
+raw-cpuid
