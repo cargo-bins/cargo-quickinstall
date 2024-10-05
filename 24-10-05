@@ -61,3 +61,4 @@ foundationdb-gen
 py-spy
 nexmark
 cargo-lock
+minicbor
