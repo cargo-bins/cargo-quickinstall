@@ -39,3 +39,4 @@ cargo-generate
 cargo-tarpaulin
 sccache
 h3o
+cached-path
