@@ -32,3 +32,4 @@ nu_plugin_gstat
 nextest-filtering
 cargo-graph
 nu_plugin_gstat
+remove_dir_all
