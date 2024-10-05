@@ -64,3 +64,4 @@ cargo-lock
 minicbor
 solana-stake-accounts
 wol-rs
+protox
