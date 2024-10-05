@@ -28,3 +28,4 @@ libbpf-cargo
 deno
 trunk
 solana-stake-accounts
+solana-gossip
