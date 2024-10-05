@@ -69,3 +69,4 @@ tendermint-rpc
 nextest-filtering
 human_bytes
 libbpf-cargo
+spider_cli
