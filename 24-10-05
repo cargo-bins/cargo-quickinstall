@@ -13,3 +13,4 @@ laminar
 spider_cli
 hurlfmt
 sea-orm-cli
+cargo-info
