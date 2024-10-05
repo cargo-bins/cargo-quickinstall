@@ -21,3 +21,4 @@ pwasm-utils
 nextest-filtering
 tendermint-rpc
 pgrx-tests
+cached-path
