@@ -22,3 +22,4 @@ rustfmt-nightly
 arrow-flight
 solana-validator
 racer
+foundationdb-gen
