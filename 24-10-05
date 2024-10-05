@@ -57,3 +57,4 @@ tree-sitter-graph
 nexmark
 rls-rustc
 nkeys
+pwasm-utils
