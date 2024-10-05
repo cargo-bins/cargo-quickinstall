@@ -31,3 +31,4 @@ cached-path
 solana-validator
 dotenvy
 pwasm-utils
+cargo-lock
