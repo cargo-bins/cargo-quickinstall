@@ -27,3 +27,4 @@ libbpf-cargo
 phf_generator
 solana-keygen
 diesel_cli
+py-spy
