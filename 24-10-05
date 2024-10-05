@@ -39,3 +39,4 @@ solana-remote-wallet
 nextest-filtering
 pgrx-tests
 cargo-tarpaulin
+cpp_demangle
