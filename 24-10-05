@@ -41,3 +41,4 @@ pgrx-tests
 cargo-tarpaulin
 cpp_demangle
 solana-validator
+addr2line
