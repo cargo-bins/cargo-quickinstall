@@ -17,3 +17,4 @@ rustfmt-nightly
 rav1e
 sha1collisiondetection
 diesel_cli
+re_query
