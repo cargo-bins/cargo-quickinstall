@@ -38,3 +38,4 @@ java-locator
 tree-sitter-graph
 clippy
 z3tracer
+ducc-sys
