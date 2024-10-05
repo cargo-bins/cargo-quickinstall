@@ -82,3 +82,4 @@ solana-stake-accounts
 borsh
 ducc-sys
 foundationdb-gen
+pgrx-tests
