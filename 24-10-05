@@ -6,3 +6,4 @@ wmi
 spider_cli
 cargo-generate
 java-locator
+cpp_demangle
