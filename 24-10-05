@@ -9,3 +9,4 @@ tendermint-abci
 dotenv
 opencv-binding-generator
 solana-stake-accounts
+deploy
