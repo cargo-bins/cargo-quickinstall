@@ -10,3 +10,4 @@ tendermint-rpc
 redoxer
 salvo-cli
 laminar
+spider_cli
