@@ -4,3 +4,4 @@ winpty-rs
 human_bytes
 wmi
 spider_cli
+cargo-generate
