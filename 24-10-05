@@ -34,3 +34,4 @@ cargo-graph
 nu_plugin_gstat
 remove_dir_all
 laminar
+sequoia-chameleon-gnupg
