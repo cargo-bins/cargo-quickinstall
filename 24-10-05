@@ -11,3 +11,4 @@ libbpf-cargo
 phf_generator
 rav1e
 pgrx-tests
+solana-gossip
