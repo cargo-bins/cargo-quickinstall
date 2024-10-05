@@ -6,3 +6,4 @@ raw-cpuid
 spider_cli
 protox
 tendermint-abci
+dotenv
