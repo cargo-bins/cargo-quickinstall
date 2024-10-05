@@ -56,3 +56,4 @@ socketcan
 mdcat
 bgpkit-parser
 nu
+cpp_demangle
