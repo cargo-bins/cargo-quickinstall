@@ -41,3 +41,4 @@ sccache
 h3o
 cached-path
 solana-remote-wallet
+sqlx-cli
