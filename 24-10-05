@@ -53,3 +53,4 @@ sequoia-chameleon-gnupg
 rls-rustc
 parquet
 dotenv
+git-disjoint
