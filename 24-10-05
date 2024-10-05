@@ -11,3 +11,4 @@ sha1collisiondetection
 spider_cli
 trunk
 solana-verify
+solana-validator
