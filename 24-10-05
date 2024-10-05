@@ -3,3 +3,4 @@ git-disjoint
 dotenvy
 foundationdb-gen
 sha1collisiondetection
+opencv-binding-generator
