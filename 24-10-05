@@ -42,3 +42,4 @@ rmesg
 remove_dir_all
 cargo-generate
 solana-gossip
+addr2line
