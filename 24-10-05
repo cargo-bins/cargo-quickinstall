@@ -18,3 +18,4 @@ nextest-filtering
 dotenvy
 oso
 minicbor
+rustfmt-nightly
