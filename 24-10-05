@@ -10,3 +10,4 @@ libbpf-cargo
 pwasm-utils
 unic-langid-impl
 solana-gossip
+arrow-flight
