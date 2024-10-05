@@ -63,3 +63,4 @@ remove_dir_all
 laminar
 wol-rs
 human_name
+cached-path
