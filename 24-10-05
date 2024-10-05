@@ -26,3 +26,4 @@ httpbis
 tendermint-abci
 raw-cpuid
 phf_generator
+libbpf-cargo
