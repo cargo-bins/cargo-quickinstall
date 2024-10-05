@@ -50,3 +50,4 @@ cavif
 human_bytes
 re_query
 sequoia-chameleon-gnupg
+rls-rustc
