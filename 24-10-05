@@ -52,3 +52,4 @@ re_query
 sequoia-chameleon-gnupg
 rls-rustc
 parquet
+dotenv
