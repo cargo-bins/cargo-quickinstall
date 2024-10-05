@@ -34,3 +34,4 @@ human_bytes
 remove_dir_all
 winpty-rs
 oso
+tendermint-rpc
