@@ -94,3 +94,4 @@ cpp_demangle
 pwasm-utils
 rustrict
 snarkvm
+tendermint-abci
