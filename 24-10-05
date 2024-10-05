@@ -113,3 +113,4 @@ pcu
 tendermint-rpc
 bluetui
 salvo-cli
+hurl
