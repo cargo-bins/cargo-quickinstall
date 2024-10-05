@@ -20,3 +20,4 @@ opencv-binding-generator
 cpp_demangle
 minicbor
 solana-keygen
+arrow-flight
