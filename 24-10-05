@@ -38,3 +38,4 @@ parquet
 solana-remote-wallet
 nextest-filtering
 pgrx-tests
+cargo-tarpaulin
