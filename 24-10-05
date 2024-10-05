@@ -54,3 +54,4 @@ syd
 socketcan
 sniffnet
 tendermint-abci
+foundationdb-gen
