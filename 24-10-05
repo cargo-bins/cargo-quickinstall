@@ -49,3 +49,4 @@ spider_worker
 foundationdb-gen
 cargo-udeps
 rustrict
+nkeys
