@@ -7,3 +7,4 @@ spider_cli
 protox
 tendermint-abci
 dotenv
+opencv-binding-generator
