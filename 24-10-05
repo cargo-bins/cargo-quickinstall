@@ -24,3 +24,4 @@ sshx
 cargo-embed
 rkv
 qsv
+phf_generator
