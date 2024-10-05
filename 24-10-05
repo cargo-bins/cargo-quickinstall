@@ -95,3 +95,4 @@ solana-genesis
 cargo-c
 ducc-sys
 tendermint-abci
+addr2line
