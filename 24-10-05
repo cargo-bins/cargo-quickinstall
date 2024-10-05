@@ -4,3 +4,4 @@ borsh
 remove_dir_all
 rustrict
 paperclip
+opencv-binding-generator
