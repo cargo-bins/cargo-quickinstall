@@ -18,3 +18,4 @@ ducc-sys
 cpp_demangle
 opencv-binding-generator
 cpp_demangle
+minicbor
