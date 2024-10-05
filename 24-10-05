@@ -60,3 +60,4 @@ nkeys
 pwasm-utils
 libbpf-cargo
 remove_dir_all
+laminar
