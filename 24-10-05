@@ -37,3 +37,4 @@ pgrx-tests
 papyrus_storage
 fleet-rs
 rustbus
+human_bytes
