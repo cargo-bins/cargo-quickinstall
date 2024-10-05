@@ -24,3 +24,4 @@ parquet
 gitnow
 deno
 nu_plugin_gstat
+dotenv
