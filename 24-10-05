@@ -24,3 +24,4 @@ arrow-flight
 spider_cli
 trunk
 diesel_cli
+libbpf-cargo
