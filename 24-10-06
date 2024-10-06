@@ -53,3 +53,4 @@ tendermint-rpc
 ducc-sys
 cached-path
 solana-gossip
+z3tracer
