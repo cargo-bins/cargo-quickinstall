@@ -95,3 +95,4 @@ tokio-process
 pwasm-utils
 protox
 nextest-filtering
+remove_dir_all
