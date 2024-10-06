@@ -9,3 +9,4 @@ dotenv
 httpmock
 spider_worker
 sha1collisiondetection
+parquet
