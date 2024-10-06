@@ -44,3 +44,4 @@ human_bytes
 diesel_cli
 sqlx-cli
 z3tracer
+libbpf-cargo
