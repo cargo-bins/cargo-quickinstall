@@ -13,3 +13,4 @@ clippy
 paperclip
 re_query
 libbpf-cargo
+winpty-rs
