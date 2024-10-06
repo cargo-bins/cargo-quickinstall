@@ -39,3 +39,4 @@ cargo-info
 z3tracer
 rkv
 oxipng
+nextest-filtering
