@@ -25,3 +25,4 @@ remove_dir_all
 rustfmt-nightly
 rrule
 sha1collisiondetection
+dotenv
