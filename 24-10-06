@@ -33,3 +33,4 @@ re_query
 libbpf-cargo
 winpty-rs
 racer
+schemafy
