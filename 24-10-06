@@ -29,3 +29,4 @@ foundationdb-gen
 opencv-binding-generator
 syd
 httpbis
+sn_cli
