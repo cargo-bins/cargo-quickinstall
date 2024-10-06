@@ -12,3 +12,4 @@ racer
 sha1collisiondetection
 human_bytes
 dotenv
+remove_dir_all
