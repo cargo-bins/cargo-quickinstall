@@ -41,3 +41,4 @@ rustrict
 dotenv
 nexmark
 tendermint-rpc
+clippy
