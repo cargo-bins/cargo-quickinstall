@@ -37,3 +37,4 @@ schemafy
 pgrx-tests
 sniffnet
 arrow-flight
+honggfuzz
