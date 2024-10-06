@@ -42,3 +42,4 @@ cpp_demangle
 oxipng
 z3tracer
 cached-path
+rls-rustc
