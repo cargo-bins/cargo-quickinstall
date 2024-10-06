@@ -42,3 +42,4 @@ sea-orm-cli
 zuse
 human_bytes
 diesel_cli
+sqlx-cli
