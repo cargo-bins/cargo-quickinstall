@@ -34,3 +34,4 @@ tendermint-abci
 rustrict
 diesel_cli
 arrow-flight
+human_bytes
