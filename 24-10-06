@@ -77,3 +77,4 @@ raw-cpuid
 librespot
 solana-remote-wallet
 solana-gossip
+opencv-binding-generator
