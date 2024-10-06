@@ -29,3 +29,4 @@ opencv-binding-generator
 rls-rustc
 parquet
 diesel_cli
+cpp_demangle
