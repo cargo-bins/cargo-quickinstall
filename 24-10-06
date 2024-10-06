@@ -20,3 +20,4 @@ tendermint-rpc
 spider_cli
 tree-sitter-graph
 zuse
+z3tracer
