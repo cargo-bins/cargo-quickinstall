@@ -33,3 +33,4 @@ tendermint-rpc
 nkeys
 deploy
 solana-gossip
+deno
