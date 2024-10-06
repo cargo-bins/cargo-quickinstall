@@ -54,3 +54,4 @@ borsh
 libbpf-cargo
 solana-validator
 socketcan
+rustfmt-nightly
