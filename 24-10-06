@@ -45,3 +45,4 @@ qsv
 elf2uf2-rs
 cargo-smart-release
 parquet
+dotenvy
