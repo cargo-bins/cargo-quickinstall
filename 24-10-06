@@ -68,3 +68,4 @@ cargo-local-registry
 deno
 wol-rs
 raw-cpuid
+oso
