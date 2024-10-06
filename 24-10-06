@@ -24,3 +24,4 @@ laminar
 rustrict
 cargo-lock
 coldsnap
+rkv
