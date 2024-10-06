@@ -55,3 +55,4 @@ cached-path
 solana-gossip
 z3tracer
 bluetui
+httpmock
