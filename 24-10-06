@@ -49,3 +49,4 @@ rmesg
 ytop
 addr2line
 cargo-generate
+borsh
