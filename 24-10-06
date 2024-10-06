@@ -44,3 +44,4 @@ z3tracer
 cached-path
 rls-rustc
 foundationdb-gen
+spider_cli
