@@ -85,3 +85,4 @@ libbpf-cargo
 cargo-generate
 pwasm-utils
 spider_worker
+nexmark
