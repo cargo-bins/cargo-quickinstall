@@ -92,3 +92,4 @@ tree-sitter-graph
 borsh
 addr2line
 solana-gossip
+minicbor
