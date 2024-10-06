@@ -17,3 +17,4 @@ schemafy
 nkeys
 solana-gossip
 foundationdb-gen
+winpty-rs
