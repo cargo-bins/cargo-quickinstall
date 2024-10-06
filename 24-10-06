@@ -80,3 +80,4 @@ laminar
 textplots
 oso
 rustfmt-nightly
+socketcan
