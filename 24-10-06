@@ -74,3 +74,4 @@ cpp_demangle
 deploy
 spider_cli
 h3o
+wol-rs
