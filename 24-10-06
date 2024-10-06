@@ -7,3 +7,4 @@ graphql_client_cli
 bgpkit-broker
 spider_worker
 tendermint-abci
+cpp_demangle
