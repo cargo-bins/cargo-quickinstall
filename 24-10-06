@@ -42,3 +42,4 @@ human_name
 tendermint-rpc
 nexmark
 foundationdb-gen
+pwasm-utils
