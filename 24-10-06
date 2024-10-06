@@ -28,3 +28,4 @@ z3tracer
 cargo-lock
 tendermint-rpc
 oso
+rustfmt-nightly
