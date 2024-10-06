@@ -39,3 +39,4 @@ pwasm-utils
 rustrict
 cargo-generate
 sea-orm-cli
+zuse
