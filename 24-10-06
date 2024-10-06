@@ -12,3 +12,4 @@ coldsnap
 textplots
 clippy
 foundationdb-gen
+cargo-lock
