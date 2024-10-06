@@ -83,3 +83,4 @@ rustfmt-nightly
 socketcan
 winpty-rs
 dotenvy
+nexmark
