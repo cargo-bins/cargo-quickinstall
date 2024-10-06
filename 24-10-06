@@ -16,3 +16,4 @@ nexmark
 deno
 cpp_demangle
 sea-orm-cli
+tendermint-rpc
