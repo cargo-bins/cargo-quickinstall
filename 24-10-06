@@ -16,3 +16,4 @@ cargo-lock
 unic-langid-impl
 cargo-local-registry
 cached-path
+tendermint-abci
