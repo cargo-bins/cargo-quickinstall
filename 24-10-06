@@ -25,3 +25,4 @@ tauri-cli
 solana-validator
 raw-cpuid
 schemafy
+opencv-binding-generator
