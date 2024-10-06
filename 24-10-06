@@ -10,3 +10,4 @@ cargo-generate
 solana-validator
 wol-rs
 libbpf-cargo
+nextest-filtering
