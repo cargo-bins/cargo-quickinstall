@@ -51,3 +51,4 @@ rustfmt-nightly
 java-locator
 benfred-read-process-memory
 honggfuzz
+deploy
