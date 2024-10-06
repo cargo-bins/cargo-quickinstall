@@ -38,3 +38,4 @@ ec2_instance_metadata
 foundationdb-gen
 sqlx-cli
 tendermint-rpc
+solana-gossip
