@@ -61,3 +61,4 @@ vrc-log
 parquet
 cpp_demangle
 opencv-binding-generator
+rustfmt-nightly
