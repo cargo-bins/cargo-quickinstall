@@ -4,3 +4,4 @@ nextest-filtering
 rrule
 diesel_cli
 httpmock
+rustbus
