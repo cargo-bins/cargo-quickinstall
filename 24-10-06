@@ -32,3 +32,4 @@ httpbis
 sn_cli
 solana-validator
 nexmark
+addr2line
