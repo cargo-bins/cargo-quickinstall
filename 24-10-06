@@ -9,3 +9,4 @@ spider_worker
 tendermint-abci
 cpp_demangle
 tree-sitter-graph
+binstall
