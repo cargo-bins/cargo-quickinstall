@@ -43,3 +43,4 @@ rls-rustc
 laminar
 phf_generator
 text-diff
+honggfuzz
