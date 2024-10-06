@@ -96,3 +96,4 @@ minicbor
 h3o
 tendermint-abci
 py-spy
+sqlx-cli
