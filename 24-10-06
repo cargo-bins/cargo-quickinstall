@@ -36,3 +36,4 @@ cargo-lock
 deploy
 addr2line
 chain-spec-builder
+ducc-sys
