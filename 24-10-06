@@ -11,3 +11,4 @@ socketcan
 httpmock
 sequoia-sq
 flowistry_ide
+cargo-quickbuild
