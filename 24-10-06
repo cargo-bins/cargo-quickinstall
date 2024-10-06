@@ -113,3 +113,4 @@ dotenvy
 spider_cli
 solana-validator
 rustrict
+httpmock
