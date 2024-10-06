@@ -16,3 +16,4 @@ nkeys
 solana-genesis
 libbpf-cargo
 racer
+socketcan
