@@ -45,3 +45,4 @@ diesel_cli
 sqlx-cli
 z3tracer
 libbpf-cargo
+rrule
