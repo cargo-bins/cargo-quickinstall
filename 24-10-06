@@ -58,3 +58,4 @@ rustfmt-nightly
 unic-langid-impl
 tendermint-rpc
 syd
+winpty-rs
