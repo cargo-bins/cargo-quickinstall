@@ -31,3 +31,4 @@ deploy
 dotenvy
 re_query
 libbpf-cargo
+winpty-rs
