@@ -93,3 +93,4 @@ phf_generator
 rrule
 cargo-info
 rrule
+sea-orm-cli
