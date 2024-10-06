@@ -30,3 +30,4 @@ z3tracer
 deno
 rls-rustc
 sha1collisiondetection
+human_bytes
