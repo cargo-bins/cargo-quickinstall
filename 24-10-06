@@ -32,3 +32,4 @@ remove_dir_all
 sha1collisiondetection
 racer
 clippy
+addr2line
