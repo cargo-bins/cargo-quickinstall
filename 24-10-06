@@ -12,3 +12,4 @@ tree-sitter-graph
 binstall
 legba
 cargo-lock
+hurlfmt
