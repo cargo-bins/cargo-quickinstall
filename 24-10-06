@@ -4,3 +4,4 @@ human_bytes
 re_query
 remove_dir_all
 pgrx-tests
+clippy
