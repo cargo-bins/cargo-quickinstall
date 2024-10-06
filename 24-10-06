@@ -26,3 +26,4 @@ papyrus_storage
 deno
 coldsnap
 foundationdb-gen
+opencv-binding-generator
