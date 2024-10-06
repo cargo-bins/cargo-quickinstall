@@ -49,3 +49,4 @@ sn_node
 cargo-local-registry
 rustfmt-nightly
 java-locator
+benfred-read-process-memory
