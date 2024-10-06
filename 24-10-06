@@ -2,3 +2,4 @@ unic-langid-impl
 cargo-local-registry
 rrule
 remove_dir_all
+rustrict
