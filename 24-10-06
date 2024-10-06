@@ -57,3 +57,4 @@ socketcan
 rustfmt-nightly
 unic-langid-impl
 tendermint-rpc
+syd
