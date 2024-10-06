@@ -28,3 +28,4 @@ schemafy
 opencv-binding-generator
 rls-rustc
 parquet
+diesel_cli
