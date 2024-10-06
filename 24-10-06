@@ -90,3 +90,4 @@ schemafy
 solana-remote-wallet
 sqlx-cli
 tauri-cli
+pwasm-utils
