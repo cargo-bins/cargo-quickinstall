@@ -75,3 +75,4 @@ nu_plugin_dbus
 jless
 solana-stake-accounts
 snarkvm
+cargo-unused-features
