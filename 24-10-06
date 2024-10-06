@@ -18,3 +18,4 @@ nextest-filtering
 solana-gossip
 addr2line
 arrow-flight
+schemafy
