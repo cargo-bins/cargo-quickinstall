@@ -40,3 +40,4 @@ sqlx-cli
 tendermint-rpc
 solana-gossip
 rls-rustc
+laminar
