@@ -68,3 +68,4 @@ parquet
 rustfmt-nightly
 winpty-rs
 librespot
+schemafy
