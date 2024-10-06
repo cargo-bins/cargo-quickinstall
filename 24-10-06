@@ -63,3 +63,4 @@ cpp_demangle
 opencv-binding-generator
 rustfmt-nightly
 release
+oxipng
