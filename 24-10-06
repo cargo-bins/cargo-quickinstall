@@ -54,3 +54,4 @@ tendermint-abci
 dotenvy
 opencv-binding-generator
 paperclip
+spider_cli
