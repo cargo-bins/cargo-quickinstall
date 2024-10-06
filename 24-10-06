@@ -60,3 +60,4 @@ tendermint-rpc
 syd
 winpty-rs
 phf_generator
+pwasm-utils
