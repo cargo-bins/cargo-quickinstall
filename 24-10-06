@@ -27,3 +27,4 @@ coldsnap
 rkv
 remove_dir_all
 tendermint-abci
+deploy
