@@ -96,3 +96,4 @@ pwasm-utils
 protox
 nextest-filtering
 remove_dir_all
+schemafy
