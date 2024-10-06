@@ -46,3 +46,4 @@ solana-genesis
 borsh
 nextest-filtering
 diesel_cli
+z3tracer
