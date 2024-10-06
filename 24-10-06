@@ -47,3 +47,4 @@ protox
 rustbus
 rmesg
 ytop
+addr2line
