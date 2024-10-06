@@ -52,3 +52,4 @@ wol-rs
 tendermint-rpc
 ducc-sys
 cached-path
+solana-gossip
