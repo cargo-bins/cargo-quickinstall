@@ -54,3 +54,4 @@ tendermint-rpc
 nexmark
 rls-rustc
 rustrict
+socketcan
