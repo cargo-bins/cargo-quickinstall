@@ -58,3 +58,4 @@ oso
 rkv
 opencv-binding-generator
 pwasm-utils
+cargo-show
