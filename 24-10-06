@@ -81,3 +81,4 @@ textplots
 oso
 rustfmt-nightly
 socketcan
+winpty-rs
