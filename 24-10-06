@@ -29,3 +29,4 @@ cargo-lock
 tendermint-rpc
 oso
 rustfmt-nightly
+chain-spec-builder
