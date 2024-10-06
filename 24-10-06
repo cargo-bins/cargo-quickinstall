@@ -75,3 +75,4 @@ tokio-process
 racer
 parquet
 coldsnap
+paperclip
