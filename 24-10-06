@@ -74,3 +74,4 @@ schemafy
 tokio-process
 racer
 parquet
+coldsnap
