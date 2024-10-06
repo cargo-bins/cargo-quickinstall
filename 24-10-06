@@ -37,3 +37,4 @@ libbpf-cargo
 pgrx-tests
 cargo-info
 z3tracer
+rkv
