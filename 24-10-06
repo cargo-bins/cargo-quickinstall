@@ -26,3 +26,4 @@ bugstalker
 solana-genesis
 gnostr-bins
 cargo-spellcheck
+cargo-smart-release
