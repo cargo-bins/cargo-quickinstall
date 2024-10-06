@@ -6,3 +6,4 @@ sea-orm-cli
 foundationdb-gen
 z3tracer
 cached-path
+wmi
