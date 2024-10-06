@@ -15,3 +15,4 @@ dotenv
 remove_dir_all
 solana-remote-wallet
 wmi
+re_query
