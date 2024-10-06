@@ -53,3 +53,4 @@ wol-rs
 tree-sitter-cli
 cargo-local-registry
 tauri-cli
+human_name
