@@ -72,3 +72,4 @@ rls-rustc
 opencv-binding-generator
 tree-sitter-graph
 hurl
+arrow-flight
