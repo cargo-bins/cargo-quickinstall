@@ -7,3 +7,4 @@ solana-keygen
 deploy
 dotenv
 httpmock
+spider_worker
