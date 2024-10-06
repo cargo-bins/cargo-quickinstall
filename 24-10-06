@@ -94,3 +94,4 @@ addr2line
 solana-gossip
 minicbor
 h3o
+tendermint-abci
