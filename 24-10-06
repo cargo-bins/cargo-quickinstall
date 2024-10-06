@@ -31,3 +31,4 @@ paperclip
 remove_dir_all
 sha1collisiondetection
 racer
+clippy
