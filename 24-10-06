@@ -46,3 +46,4 @@ pwasm-utils
 diesel_cli
 libbpf-cargo
 textplots
+wol-rs
