@@ -34,3 +34,4 @@ remove_dir_all
 pwasm-utils
 borsh
 java-locator
+nkeys
