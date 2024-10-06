@@ -45,3 +45,4 @@ clippy
 solana-genesis
 borsh
 nextest-filtering
+diesel_cli
