@@ -71,3 +71,4 @@ raw-cpuid
 oso
 syd
 schemafy
+tokio-process
