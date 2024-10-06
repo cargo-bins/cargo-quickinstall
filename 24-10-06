@@ -47,3 +47,4 @@ diesel_cli
 libbpf-cargo
 textplots
 wol-rs
+pgrx-tests
