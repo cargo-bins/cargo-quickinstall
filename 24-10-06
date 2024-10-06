@@ -95,3 +95,4 @@ salvo-cli
 spotify_player
 foundationdb-gen
 cargo-spellcheck
+clippy
