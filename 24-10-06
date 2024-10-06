@@ -4,3 +4,4 @@ cargo-udeps
 tendermint-rpc
 sea-orm-cli
 foundationdb-gen
+z3tracer
