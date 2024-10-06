@@ -80,3 +80,4 @@ human_name
 z3tracer
 nextest-filtering
 py-spy
+ec2_instance_metadata
