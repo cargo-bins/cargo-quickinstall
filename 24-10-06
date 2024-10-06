@@ -29,3 +29,4 @@ dotenv
 z3tracer
 deno
 rls-rustc
+sha1collisiondetection
