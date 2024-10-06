@@ -19,3 +19,4 @@ cargo-msrv
 httpmock
 tendermint-rpc
 solana-validator
+nextest-filtering
