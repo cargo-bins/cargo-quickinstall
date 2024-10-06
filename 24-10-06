@@ -72,3 +72,4 @@ wol-rs
 rrule
 re_query
 cpp_demangle
+dotenv
