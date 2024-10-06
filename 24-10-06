@@ -45,3 +45,4 @@ foundationdb-gen
 pwasm-utils
 diesel_cli
 libbpf-cargo
+textplots
