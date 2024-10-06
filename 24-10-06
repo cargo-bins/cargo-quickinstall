@@ -56,3 +56,4 @@ deno
 sea-orm-cli
 minicbor
 jless
+apollo-router
