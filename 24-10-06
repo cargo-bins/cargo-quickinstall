@@ -47,3 +47,4 @@ borsh
 nextest-filtering
 diesel_cli
 z3tracer
+sha1collisiondetection
