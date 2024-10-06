@@ -10,3 +10,4 @@ wmi
 snarkvm
 libbpf-cargo
 sha1collisiondetection
+rustrict
