@@ -48,3 +48,4 @@ libbpf-cargo
 textplots
 wol-rs
 pgrx-tests
+tree-sitter-graph
