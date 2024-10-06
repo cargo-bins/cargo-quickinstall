@@ -41,3 +41,4 @@ solana-stake-accounts
 codeberg-cli
 rustfmt-nightly
 gnostr-bins
+cargo-info
