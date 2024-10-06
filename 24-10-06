@@ -14,3 +14,4 @@ java-locator
 foundationdb-gen
 turbocommit
 solana-gossip
+sha1collisiondetection
