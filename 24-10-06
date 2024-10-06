@@ -89,3 +89,4 @@ libbpf-cargo
 pgrx-tests
 human_bytes
 tree-sitter-graph
+borsh
