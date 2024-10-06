@@ -48,3 +48,4 @@ parquet
 dotenvy
 ncspot
 sshx
+wol-rs
