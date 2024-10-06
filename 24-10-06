@@ -57,3 +57,4 @@ human_name
 protox
 pwasm-utils
 minicbor
+sea-orm-cli
