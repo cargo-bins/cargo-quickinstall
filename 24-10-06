@@ -100,3 +100,4 @@ schemafy
 libbpf-cargo
 httpmock
 rustfmt-nightly
+phf_generator
