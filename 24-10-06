@@ -81,3 +81,4 @@ opencv-binding-generator
 libbpf-cargo
 sea-orm-cli
 rkv
+java-locator
