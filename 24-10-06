@@ -18,3 +18,4 @@ sha1collisiondetection
 cargo-msrv
 httpmock
 tendermint-rpc
+solana-validator
