@@ -54,3 +54,4 @@ honggfuzz
 deploy
 httpmock
 rrule
+sqlx-cli
