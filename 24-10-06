@@ -48,3 +48,4 @@ rustbus
 rmesg
 ytop
 addr2line
+cargo-generate
