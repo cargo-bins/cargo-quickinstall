@@ -35,3 +35,4 @@ rustfmt-nightly
 cargo-lock
 deploy
 addr2line
+chain-spec-builder
