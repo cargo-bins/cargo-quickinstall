@@ -34,3 +34,4 @@ human_bytes
 cpp_demangle
 addr2line
 libbpf-cargo
+pgrx-tests
