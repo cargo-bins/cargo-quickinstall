@@ -16,3 +16,4 @@ turbocommit
 solana-gossip
 sha1collisiondetection
 cargo-msrv
+httpmock
