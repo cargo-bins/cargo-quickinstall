@@ -21,3 +21,4 @@ phf_generator
 libbpf-cargo
 nextest-filtering
 gitnow
+phf_generator
