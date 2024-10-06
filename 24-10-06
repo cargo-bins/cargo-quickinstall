@@ -15,3 +15,4 @@ papyrus_storage
 nexmark
 deno
 cpp_demangle
+sea-orm-cli
