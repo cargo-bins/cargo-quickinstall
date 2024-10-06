@@ -37,3 +37,4 @@ diesel_cli
 ec2_instance_metadata
 foundationdb-gen
 sqlx-cli
+tendermint-rpc
