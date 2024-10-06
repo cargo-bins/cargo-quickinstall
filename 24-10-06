@@ -11,3 +11,4 @@ cargo-vet
 coldsnap
 textplots
 clippy
+foundationdb-gen
