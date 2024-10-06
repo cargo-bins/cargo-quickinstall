@@ -27,3 +27,4 @@ deno
 coldsnap
 foundationdb-gen
 opencv-binding-generator
+syd
