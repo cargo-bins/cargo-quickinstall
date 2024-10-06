@@ -56,3 +56,4 @@ solana-validator
 socketcan
 rustfmt-nightly
 unic-langid-impl
+tendermint-rpc
