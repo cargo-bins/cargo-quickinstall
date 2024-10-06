@@ -58,3 +58,4 @@ sha1collisiondetection
 rkv
 unic-langid-impl
 human_bytes
+dotenv
