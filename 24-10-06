@@ -16,3 +16,4 @@ winpty-rs
 pgrx-tests
 nextest-filtering
 solana-gossip
+addr2line
