@@ -72,3 +72,4 @@ cargo-info
 raw-cpuid
 oxipng
 nexmark
+minicbor
