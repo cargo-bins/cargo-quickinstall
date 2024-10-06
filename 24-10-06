@@ -55,3 +55,4 @@ libbpf-cargo
 solana-validator
 socketcan
 rustfmt-nightly
+unic-langid-impl
