@@ -46,3 +46,4 @@ rls-rustc
 foundationdb-gen
 spider_cli
 foundationdb-gen
+cached-path
