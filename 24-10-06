@@ -9,3 +9,4 @@ cached-path
 wmi
 snarkvm
 libbpf-cargo
+sha1collisiondetection
