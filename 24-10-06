@@ -66,3 +66,4 @@ racer
 opencv-binding-generator
 parquet
 rustfmt-nightly
+winpty-rs
