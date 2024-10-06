@@ -92,3 +92,4 @@ cargo-lock
 ripunzip
 remove_dir_all
 salvo-cli
+spotify_player
