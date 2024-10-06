@@ -32,3 +32,4 @@ dotenv
 syd
 tendermint-abci
 rustrict
+diesel_cli
