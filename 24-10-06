@@ -13,3 +13,4 @@ libbpf-cargo
 nextest-filtering
 foundationdb-gen
 solana-validator
+schemafy
