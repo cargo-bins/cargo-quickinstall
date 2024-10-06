@@ -18,3 +18,4 @@ cargo-local-registry
 cached-path
 tendermint-abci
 rkv
+textplots
