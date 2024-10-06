@@ -15,3 +15,4 @@ foundationdb-gen
 solana-validator
 schemafy
 nkeys
+solana-gossip
