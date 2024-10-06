@@ -46,3 +46,4 @@ text-diff
 honggfuzz
 textplots
 sn_node
+cargo-local-registry
