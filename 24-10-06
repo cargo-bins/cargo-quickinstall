@@ -89,3 +89,4 @@ phf_generator
 jless
 rencfs
 cargo-lock
+ripunzip
