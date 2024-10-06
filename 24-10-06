@@ -18,3 +18,4 @@ nkeys
 solana-gossip
 foundationdb-gen
 winpty-rs
+addr2line
