@@ -63,3 +63,4 @@ tree-sitter-graph
 papyrus_storage
 binstall
 oso
+phf_generator
