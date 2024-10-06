@@ -18,3 +18,4 @@ libbpf-cargo
 racer
 socketcan
 gnostr-bins
+cached-path
