@@ -33,3 +33,4 @@ cpp_demangle
 remove_dir_all
 pwasm-utils
 borsh
+java-locator
