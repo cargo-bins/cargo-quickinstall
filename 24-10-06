@@ -11,3 +11,4 @@ pwasm-utils
 racer
 sha1collisiondetection
 human_bytes
+dotenv
