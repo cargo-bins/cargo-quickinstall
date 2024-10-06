@@ -6,3 +6,4 @@ remove_dir_all
 pgrx-tests
 clippy
 minicbor
+rustfmt-nightly
