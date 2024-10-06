@@ -64,3 +64,4 @@ opencv-binding-generator
 rustfmt-nightly
 release
 oxipng
+duma
