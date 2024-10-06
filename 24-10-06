@@ -7,3 +7,4 @@ wol-rs
 rustrict
 raw-cpuid
 solana-genesis
+human_bytes
