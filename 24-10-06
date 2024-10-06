@@ -97,3 +97,4 @@ protox
 nextest-filtering
 remove_dir_all
 schemafy
+libbpf-cargo
