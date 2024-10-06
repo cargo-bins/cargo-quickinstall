@@ -84,3 +84,4 @@ socketcan
 winpty-rs
 dotenvy
 nexmark
+rustrict
