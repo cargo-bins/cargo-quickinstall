@@ -22,3 +22,4 @@ solana-validator
 nextest-filtering
 winpty-rs
 remove_dir_all
+rustfmt-nightly
