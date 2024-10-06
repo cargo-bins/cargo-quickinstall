@@ -97,3 +97,4 @@ foundationdb-gen
 cargo-spellcheck
 clippy
 wmi
+tendermint-rpc
