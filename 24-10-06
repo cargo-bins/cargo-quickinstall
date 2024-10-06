@@ -106,3 +106,4 @@ rls-rustc
 addr2line
 tree-sitter-cli
 dotenv
+borsh
