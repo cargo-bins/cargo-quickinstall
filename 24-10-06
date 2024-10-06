@@ -62,3 +62,4 @@ cargo-public-api
 textplots
 espflash
 papyrus_storage
+borsh
