@@ -2,3 +2,4 @@ rustfmt-nightly
 pgrx-tests
 clippy
 borsh
+commitgpt
