@@ -13,3 +13,4 @@ textplots
 clippy
 foundationdb-gen
 cargo-lock
+unic-langid-impl
