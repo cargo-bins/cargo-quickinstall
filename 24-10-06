@@ -5,3 +5,4 @@ libbpf-cargo
 clipboard-history
 graphql_client_cli
 bgpkit-broker
+spider_worker
