@@ -84,3 +84,4 @@ snarkvm
 re_query
 nu
 cpp_demangle
+addr2line
