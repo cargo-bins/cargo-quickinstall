@@ -83,3 +83,4 @@ py-spy
 ec2_instance_metadata
 parquet
 papyrus_storage
+cargo-lock
