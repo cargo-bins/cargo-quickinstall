@@ -52,3 +52,4 @@ winpty-rs
 rrule
 tendermint-abci
 dotenvy
+opencv-binding-generator
