@@ -34,3 +34,4 @@ nkeys
 deploy
 solana-gossip
 deno
+socketcan
