@@ -62,3 +62,4 @@ raw-cpuid
 foundationdb-gen
 arrow-flight
 nexmark
+git-disjoint
