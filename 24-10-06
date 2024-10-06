@@ -51,3 +51,4 @@ sshx
 wol-rs
 tendermint-rpc
 ducc-sys
+cached-path
