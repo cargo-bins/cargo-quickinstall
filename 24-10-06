@@ -16,3 +16,4 @@ libbpf-cargo
 winpty-rs
 httpmock
 rls-rustc
+solana-validator
