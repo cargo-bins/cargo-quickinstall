@@ -42,3 +42,4 @@ codeberg-cli
 rustfmt-nightly
 gnostr-bins
 cargo-info
+foundationdb-gen
