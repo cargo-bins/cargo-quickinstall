@@ -51,3 +51,4 @@ wmi
 solana-remote-wallet
 oso
 borsh
+libbpf-cargo
