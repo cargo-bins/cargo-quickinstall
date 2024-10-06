@@ -5,3 +5,4 @@ borsh
 commitgpt
 rg
 z3tracer
+tendermint-abci
