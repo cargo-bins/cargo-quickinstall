@@ -65,3 +65,4 @@ rustfmt-nightly
 release
 oxipng
 duma
+cached-path
