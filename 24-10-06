@@ -93,3 +93,4 @@ ripunzip
 remove_dir_all
 salvo-cli
 spotify_player
+foundationdb-gen
