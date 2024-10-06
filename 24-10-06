@@ -42,3 +42,4 @@ dotenv
 nexmark
 tendermint-rpc
 clippy
+solana-genesis
