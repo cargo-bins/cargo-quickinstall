@@ -37,3 +37,4 @@ librespot
 rustfmt-nightly
 pwasm-utils
 rustrict
+cargo-generate
