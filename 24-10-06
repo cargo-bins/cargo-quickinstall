@@ -107,3 +107,4 @@ addr2line
 tree-sitter-cli
 dotenv
 borsh
+wasm-bindgen-cli
