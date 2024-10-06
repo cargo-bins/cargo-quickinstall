@@ -99,3 +99,4 @@ textplots
 tree-sitter-cli
 tree-sitter-graph
 nkeys
+addr2line
