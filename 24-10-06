@@ -14,3 +14,4 @@ paperclip
 re_query
 libbpf-cargo
 winpty-rs
+httpmock
