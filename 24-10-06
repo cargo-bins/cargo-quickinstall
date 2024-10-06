@@ -86,3 +86,4 @@ papyrus_storage
 cargo-lock
 parquet
 sqlx-cli
+diesel_cli
