@@ -34,3 +34,4 @@ libbpf-cargo
 winpty-rs
 racer
 schemafy
+pgrx-tests
