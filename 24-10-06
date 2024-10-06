@@ -28,3 +28,4 @@ httpmock
 snarkvm
 sea-orm-cli
 paperclip
+remove_dir_all
