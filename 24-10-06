@@ -23,3 +23,4 @@ sha1collisiondetection
 laminar
 rustrict
 cargo-lock
+coldsnap
