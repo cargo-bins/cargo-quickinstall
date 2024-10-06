@@ -85,3 +85,4 @@ parquet
 papyrus_storage
 cargo-lock
 parquet
+sqlx-cli
