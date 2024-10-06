@@ -106,3 +106,4 @@ cargo-espflash
 mise
 salvo-cli
 ripunzip
+tendermint-abci
