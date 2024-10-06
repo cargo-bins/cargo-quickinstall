@@ -89,3 +89,4 @@ h3o
 unic-langid-impl
 trunk
 sea-orm-cli
+phf_generator
