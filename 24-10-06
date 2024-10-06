@@ -43,3 +43,4 @@ tendermint-rpc
 nexmark
 foundationdb-gen
 pwasm-utils
+diesel_cli
