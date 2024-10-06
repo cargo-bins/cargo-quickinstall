@@ -83,3 +83,4 @@ dotenv
 spider_worker
 libbpf-cargo
 cargo-generate
+pwasm-utils
