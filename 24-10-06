@@ -64,3 +64,4 @@ textplots
 nextest-filtering
 racer
 opencv-binding-generator
+parquet
