@@ -90,3 +90,4 @@ jless
 rencfs
 cargo-lock
 ripunzip
+remove_dir_all
