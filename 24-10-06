@@ -11,3 +11,4 @@ solana-validator
 wol-rs
 libbpf-cargo
 nextest-filtering
+foundationdb-gen
