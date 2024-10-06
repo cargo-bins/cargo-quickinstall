@@ -55,3 +55,4 @@ cargo-local-registry
 tauri-cli
 human_name
 protox
+pwasm-utils
