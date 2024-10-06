@@ -32,3 +32,4 @@ minicbor
 tendermint-rpc
 nkeys
 deploy
+solana-gossip
