@@ -20,3 +20,4 @@ httpmock
 tendermint-rpc
 solana-validator
 nextest-filtering
+winpty-rs
