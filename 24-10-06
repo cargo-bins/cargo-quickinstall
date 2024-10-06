@@ -8,3 +8,4 @@ clippy
 minicbor
 rustfmt-nightly
 solana-stake-accounts
+laminar
