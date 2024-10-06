@@ -92,3 +92,4 @@ sqlx-cli
 tauri-cli
 pwasm-utils
 arrow-flight
+re_query
