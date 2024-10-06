@@ -3,3 +3,4 @@ pgrx-tests
 clippy
 borsh
 commitgpt
+rg
