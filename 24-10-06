@@ -11,3 +11,4 @@ spider_worker
 sha1collisiondetection
 parquet
 rkv
+papyrus_storage
