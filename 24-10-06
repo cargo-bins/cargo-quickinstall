@@ -13,3 +13,4 @@ binstall
 legba
 cargo-lock
 hurlfmt
+nextest-filtering
