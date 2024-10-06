@@ -70,3 +70,4 @@ rls-rustc
 oso
 nextest-filtering
 monolith
+raw-cpuid
