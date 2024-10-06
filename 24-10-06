@@ -84,3 +84,4 @@ spider_worker
 libbpf-cargo
 cargo-generate
 pwasm-utils
+spider_worker
