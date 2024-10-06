@@ -83,3 +83,4 @@ tendermint-abci
 snarkvm
 re_query
 nu
+cpp_demangle
