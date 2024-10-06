@@ -72,3 +72,4 @@ addr2line
 qrtool
 solana-stake-accounts
 duma
+nextest-filtering
