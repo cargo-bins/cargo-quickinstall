@@ -35,3 +35,4 @@ clippy
 addr2line
 librespot
 rustfmt-nightly
+pwasm-utils
