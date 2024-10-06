@@ -103,3 +103,4 @@ nu
 tree-sitter-cli
 solana-gossip
 rls-rustc
+addr2line
