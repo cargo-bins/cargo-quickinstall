@@ -69,3 +69,4 @@ libbpf-cargo
 oso
 tree-sitter-graph
 nu
+clippy
