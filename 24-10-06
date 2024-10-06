@@ -91,3 +91,4 @@ tree-sitter-cli
 rrule
 cached-path
 socketcan
+remove_dir_all
