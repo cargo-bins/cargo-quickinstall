@@ -85,3 +85,4 @@ winpty-rs
 dotenvy
 nexmark
 rustrict
+phf_generator
