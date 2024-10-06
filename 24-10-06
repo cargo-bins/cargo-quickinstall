@@ -39,3 +39,4 @@ foundationdb-gen
 sqlx-cli
 tendermint-rpc
 solana-gossip
+rls-rustc
