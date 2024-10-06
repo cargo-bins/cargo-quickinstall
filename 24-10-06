@@ -43,3 +43,4 @@ nexmark
 tendermint-rpc
 clippy
 solana-genesis
+borsh
