@@ -70,3 +70,4 @@ git-next
 hurlfmt
 deploy
 sshx
+remove_dir_all
