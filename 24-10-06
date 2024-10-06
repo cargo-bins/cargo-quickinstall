@@ -91,3 +91,4 @@ solana-gossip
 sha1collisiondetection
 text-diff
 remove_dir_all
+tokio-process
