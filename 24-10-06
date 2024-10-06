@@ -108,3 +108,4 @@ tree-sitter-cli
 dotenv
 borsh
 wasm-bindgen-cli
+minicbor
