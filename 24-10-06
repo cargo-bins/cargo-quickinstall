@@ -39,3 +39,4 @@ chain-spec-builder
 ducc-sys
 solana-validator
 human_name
+tendermint-rpc
