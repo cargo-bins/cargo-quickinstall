@@ -77,3 +77,4 @@ solana-stake-accounts
 snarkvm
 cargo-unused-features
 gpg-tui
+tree-sitter-graph
