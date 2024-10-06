@@ -30,3 +30,4 @@ rls-rustc
 parquet
 diesel_cli
 cpp_demangle
+remove_dir_all
