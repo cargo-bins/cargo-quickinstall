@@ -33,3 +33,4 @@ chain-spec-builder
 z3tracer
 rustfmt-nightly
 cargo-lock
+deploy
