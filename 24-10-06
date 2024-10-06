@@ -38,3 +38,4 @@ socketcan
 sea-orm-cli
 nu
 solana-stake-accounts
+cpp_demangle
