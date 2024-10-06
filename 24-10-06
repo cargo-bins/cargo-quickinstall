@@ -94,3 +94,4 @@ remove_dir_all
 tokio-process
 pwasm-utils
 protox
+nextest-filtering
