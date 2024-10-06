@@ -3,3 +3,4 @@ z3tracer
 nextest-filtering
 rrule
 diesel_cli
+httpmock
