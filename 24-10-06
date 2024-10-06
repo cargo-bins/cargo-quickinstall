@@ -74,3 +74,4 @@ remove_dir_all
 nu_plugin_dbus
 jless
 solana-stake-accounts
+snarkvm
