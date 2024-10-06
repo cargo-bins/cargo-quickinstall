@@ -87,3 +87,4 @@ schemafy
 paperclip
 libbpf-cargo
 pgrx-tests
+human_bytes
