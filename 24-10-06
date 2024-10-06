@@ -89,3 +89,4 @@ phf_generator
 snarkvm
 tree-sitter-cli
 rrule
+cached-path
