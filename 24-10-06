@@ -37,3 +37,4 @@ deploy
 addr2line
 chain-spec-builder
 ducc-sys
+solana-validator
