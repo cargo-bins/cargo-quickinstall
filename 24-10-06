@@ -88,3 +88,4 @@ spider_worker
 nexmark
 schemafy
 solana-remote-wallet
+sqlx-cli
