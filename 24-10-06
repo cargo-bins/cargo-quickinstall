@@ -12,3 +12,4 @@ pwasm-utils
 oculante
 phf_generator
 cargo-lock
+parquet
