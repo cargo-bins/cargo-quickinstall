@@ -27,3 +27,4 @@ solana-validator
 httpmock
 snarkvm
 sea-orm-cli
+paperclip
