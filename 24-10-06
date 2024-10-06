@@ -14,3 +14,4 @@ phf_generator
 cargo-lock
 parquet
 nexmark
+wmi
