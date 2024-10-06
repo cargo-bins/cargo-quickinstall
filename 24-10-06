@@ -19,3 +19,4 @@ solana-gossip
 foundationdb-gen
 winpty-rs
 addr2line
+sha1collisiondetection
