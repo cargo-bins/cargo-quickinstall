@@ -75,3 +75,4 @@ cpp_demangle
 dotenv
 raw-cpuid
 librespot
+solana-remote-wallet
