@@ -27,3 +27,4 @@ raw-cpuid
 schemafy
 opencv-binding-generator
 rls-rustc
+parquet
