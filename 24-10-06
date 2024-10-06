@@ -16,3 +16,4 @@ parquet
 nexmark
 wmi
 textplots
+dotenv
