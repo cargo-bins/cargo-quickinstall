@@ -46,3 +46,4 @@ sqlx-cli
 z3tracer
 libbpf-cargo
 rrule
+rkv
