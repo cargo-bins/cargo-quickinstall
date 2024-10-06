@@ -98,3 +98,4 @@ cargo-spellcheck
 clippy
 wmi
 tendermint-rpc
+z3tracer
