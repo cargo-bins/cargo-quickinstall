@@ -65,3 +65,4 @@ nextest-filtering
 racer
 opencv-binding-generator
 parquet
+rustfmt-nightly
