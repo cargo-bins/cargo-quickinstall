@@ -41,3 +41,4 @@ tendermint-rpc
 solana-gossip
 rls-rustc
 laminar
+phf_generator
