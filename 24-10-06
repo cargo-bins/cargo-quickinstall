@@ -61,3 +61,4 @@ cargo-quickbuild
 raw-cpuid
 foundationdb-gen
 arrow-flight
+nexmark
