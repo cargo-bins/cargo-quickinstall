@@ -89,3 +89,4 @@ sqlx-cli
 diesel_cli
 solana-gossip
 sha1collisiondetection
+text-diff
