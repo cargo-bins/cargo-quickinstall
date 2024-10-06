@@ -70,3 +70,4 @@ flowistry_ide
 nkeys
 rls-rustc
 opencv-binding-generator
+tree-sitter-graph
