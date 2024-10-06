@@ -10,3 +10,4 @@ omicron-zone-package
 cargo-vet
 coldsnap
 textplots
+clippy
