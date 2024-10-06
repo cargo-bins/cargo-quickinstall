@@ -61,3 +61,4 @@ pwasm-utils
 cargo-show
 java-locator
 textplots
+nextest-filtering
