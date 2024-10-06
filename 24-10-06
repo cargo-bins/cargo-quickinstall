@@ -17,3 +17,4 @@ winpty-rs
 httpmock
 rls-rustc
 solana-validator
+phf_generator
