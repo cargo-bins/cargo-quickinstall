@@ -5,3 +5,4 @@ rrule
 diesel_cli
 httpmock
 rustbus
+z3tracer
