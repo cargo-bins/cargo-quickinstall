@@ -7,3 +7,4 @@ pwasm-utils
 benfred-read-process-memory
 httpmock
 omicron-zone-package
+cargo-vet
