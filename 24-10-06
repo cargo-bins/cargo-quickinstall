@@ -58,3 +58,4 @@ solana-gossip
 java-locator
 pnafs
 cargo-quickbuild
+raw-cpuid
