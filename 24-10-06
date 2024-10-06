@@ -18,3 +18,4 @@ cpp_demangle
 sea-orm-cli
 tendermint-rpc
 spider_cli
+tree-sitter-graph
