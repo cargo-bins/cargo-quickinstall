@@ -74,3 +74,4 @@ solana-stake-accounts
 duma
 nextest-filtering
 human_name
+addr2line
