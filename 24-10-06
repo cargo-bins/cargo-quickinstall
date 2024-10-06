@@ -63,3 +63,4 @@ java-locator
 textplots
 nextest-filtering
 racer
+opencv-binding-generator
