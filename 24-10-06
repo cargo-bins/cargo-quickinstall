@@ -40,3 +40,4 @@ dotenv
 rustrict
 dotenv
 nexmark
+tendermint-rpc
