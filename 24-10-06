@@ -62,3 +62,4 @@ tree-sitter-cli
 papyrus_storage
 syd
 paperclip
+winpty-rs
