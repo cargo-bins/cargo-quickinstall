@@ -93,3 +93,4 @@ text-diff
 remove_dir_all
 tokio-process
 pwasm-utils
+protox
