@@ -7,3 +7,4 @@ pgrx-tests
 clippy
 minicbor
 rustfmt-nightly
+solana-stake-accounts
