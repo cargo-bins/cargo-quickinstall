@@ -35,3 +35,4 @@ cpp_demangle
 addr2line
 libbpf-cargo
 pgrx-tests
+cargo-info
