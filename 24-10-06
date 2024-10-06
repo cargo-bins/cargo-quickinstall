@@ -9,3 +9,4 @@ httpmock
 solana-validator
 pwasm-utils
 racer
+sha1collisiondetection
