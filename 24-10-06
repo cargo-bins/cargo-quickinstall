@@ -8,3 +8,4 @@ winpty-rs
 rav1e
 pgrx-tests
 socketcan
+httpmock
