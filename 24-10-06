@@ -66,3 +66,4 @@ winpty-rs
 spider_worker
 diesel_cli
 libbpf-cargo
+oso
