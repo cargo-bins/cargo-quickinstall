@@ -50,3 +50,4 @@ cached-path
 solana-gossip
 winpty-rs
 rrule
+tendermint-abci
