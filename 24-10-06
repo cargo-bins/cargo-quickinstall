@@ -80,3 +80,4 @@ solana-gossip
 wol-rs
 minicbor
 dotenv
+spider_worker
