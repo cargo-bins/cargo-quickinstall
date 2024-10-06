@@ -52,3 +52,4 @@ cargo-generate
 borsh
 tendermint-rpc
 nexmark
+rls-rustc
