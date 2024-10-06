@@ -15,3 +15,4 @@ foundationdb-gen
 cargo-lock
 unic-langid-impl
 cargo-local-registry
+cached-path
