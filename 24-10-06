@@ -11,3 +11,4 @@ cpp_demangle
 tree-sitter-graph
 binstall
 legba
+cargo-lock
