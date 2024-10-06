@@ -34,3 +34,4 @@ racer
 clippy
 addr2line
 librespot
+rustfmt-nightly
