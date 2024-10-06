@@ -10,3 +10,4 @@ racer
 httpmock
 pwasm-utils
 oculante
+phf_generator
