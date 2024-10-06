@@ -97,3 +97,4 @@ tree-sitter-graph
 tendermint-rpc
 mdbook-plantuml
 wol-rs
+cargo-show
