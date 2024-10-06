@@ -80,3 +80,4 @@ gpg-tui
 tree-sitter-graph
 solana-stake-accounts
 xcp
+graphql_client_cli
