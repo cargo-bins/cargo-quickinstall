@@ -59,3 +59,4 @@ pwasm-utils
 minicbor
 sea-orm-cli
 arrow-flight
+dotenv
