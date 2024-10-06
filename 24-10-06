@@ -44,3 +44,4 @@ tendermint-rpc
 clippy
 solana-genesis
 borsh
+nextest-filtering
