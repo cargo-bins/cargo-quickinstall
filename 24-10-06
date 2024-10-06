@@ -48,3 +48,4 @@ textplots
 sn_node
 cargo-local-registry
 rustfmt-nightly
+java-locator
