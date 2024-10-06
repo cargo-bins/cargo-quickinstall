@@ -2,3 +2,4 @@ syd
 solana-stake-accounts
 cargo-udeps
 tendermint-rpc
+sea-orm-cli
