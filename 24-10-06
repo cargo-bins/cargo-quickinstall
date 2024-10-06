@@ -79,3 +79,4 @@ re_query
 solana-gossip
 wol-rs
 minicbor
+dotenv
