@@ -35,3 +35,4 @@ nexmark
 addr2line
 diesel_cli
 ec2_instance_metadata
+foundationdb-gen
