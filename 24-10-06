@@ -7,3 +7,4 @@ rkv
 unic-langid-impl
 httpmock
 solana-validator
+pwasm-utils
