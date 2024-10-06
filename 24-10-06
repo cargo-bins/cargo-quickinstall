@@ -4,3 +4,4 @@ rrule
 remove_dir_all
 rustrict
 pwasm-utils
+benfred-read-process-memory
