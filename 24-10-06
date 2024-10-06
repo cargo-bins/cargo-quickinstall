@@ -47,3 +47,4 @@ cargo-smart-release
 parquet
 dotenvy
 ncspot
+sshx
