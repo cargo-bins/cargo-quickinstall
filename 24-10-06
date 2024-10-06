@@ -26,3 +26,4 @@ sqlx-cli
 solana-validator
 httpmock
 snarkvm
+sea-orm-cli
