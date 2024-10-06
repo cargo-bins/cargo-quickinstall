@@ -53,3 +53,4 @@ borsh
 tendermint-rpc
 nexmark
 rls-rustc
+rustrict
