@@ -51,3 +51,4 @@ addr2line
 cargo-generate
 borsh
 tendermint-rpc
+nexmark
