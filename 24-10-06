@@ -31,3 +31,4 @@ deno
 rls-rustc
 sha1collisiondetection
 human_bytes
+cpp_demangle
