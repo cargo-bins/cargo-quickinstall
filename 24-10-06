@@ -43,3 +43,4 @@ nextest-filtering
 oso
 racer
 textplots
+opencv-binding-generator
