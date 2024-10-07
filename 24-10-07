@@ -60,3 +60,4 @@ apollo-router
 oso
 z3tracer
 deploy
+cargo-graph
