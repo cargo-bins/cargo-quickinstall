@@ -90,3 +90,4 @@ cached-path
 ducc-sys
 cargo-about
 remove_dir_all
+socketcan
