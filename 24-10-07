@@ -45,3 +45,4 @@ re_query
 nextest-filtering
 tree-sitter-cli
 solana-genesis
+cargo-mobile2
