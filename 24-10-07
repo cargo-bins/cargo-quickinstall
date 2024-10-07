@@ -29,3 +29,4 @@ solana-remote-wallet
 borsh
 rustfmt-nightly
 tree-sitter-graph
+java-locator
