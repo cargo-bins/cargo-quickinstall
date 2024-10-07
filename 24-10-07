@@ -74,3 +74,4 @@ snarkvm
 winpty-rs
 wmi
 textplots
+parquet
