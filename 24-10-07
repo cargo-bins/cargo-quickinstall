@@ -39,3 +39,4 @@ textplots
 rls-rustc
 tendermint-rpc
 socketcan
+laminar
