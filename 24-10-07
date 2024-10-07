@@ -65,3 +65,4 @@ remove_dir_all
 rustrict
 ducc-sys
 rustfmt-nightly
+unic-langid-impl
