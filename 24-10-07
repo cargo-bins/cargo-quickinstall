@@ -27,3 +27,4 @@ human_bytes
 unic-langid-impl
 tendermint-rpc
 cargo-lock
+solana-cli
