@@ -79,3 +79,4 @@ laminar
 wmi
 phf_generator
 libbpf-cargo
+arrow-flight
