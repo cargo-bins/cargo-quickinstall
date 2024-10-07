@@ -16,3 +16,4 @@ tendermint-rpc
 sqlx-cli
 solana-gossip
 tauri-cli
+snarkvm
