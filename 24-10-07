@@ -48,3 +48,4 @@ opencv-binding-generator
 solana-validator
 cargo-flash
 schemafy
+rls-rustc
