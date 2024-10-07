@@ -68,3 +68,4 @@ socketcan
 jless
 rustfmt-nightly
 bluetui
+schematools-cli
