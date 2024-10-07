@@ -10,3 +10,4 @@ sn_node
 sha1collisiondetection
 human_name
 nkeys
+rustfmt
