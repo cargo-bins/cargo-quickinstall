@@ -88,3 +88,4 @@ wasm-bindgen-cli
 sqlx-cli
 java-locator
 deploy
+tendermint-abci
