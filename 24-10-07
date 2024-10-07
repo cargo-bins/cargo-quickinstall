@@ -62,3 +62,4 @@ deno
 laminar
 oso
 nkeys
+httpmock
