@@ -24,3 +24,4 @@ dotenv
 ducc-sys
 papyrus_storage
 human_bytes
+unic-langid-impl
