@@ -56,3 +56,4 @@ tendermint-rpc
 paperclip
 sea-orm-cli
 kdotool
+sniffnet
