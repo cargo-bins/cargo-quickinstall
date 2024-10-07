@@ -31,3 +31,4 @@ deno
 cargo-spellcheck
 cargo-smart-release
 oculante
+opencv-binding-generator
