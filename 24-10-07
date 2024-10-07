@@ -80,3 +80,4 @@ xcp
 phf_generator
 cargo-lock
 hurl
+sha1collisiondetection
