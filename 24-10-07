@@ -16,3 +16,4 @@ socketcan
 winpty-rs
 java-locator
 minicbor
+clippy
