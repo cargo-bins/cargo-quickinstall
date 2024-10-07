@@ -15,3 +15,4 @@ hurl
 protox
 rls-rustc
 re_query
+cargo-embed
