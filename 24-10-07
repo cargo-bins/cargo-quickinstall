@@ -16,3 +16,4 @@ re_query
 solana-cli
 solana-gossip
 coldsnap
+minicbor
