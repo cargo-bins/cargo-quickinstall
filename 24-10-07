@@ -69,3 +69,4 @@ clippy
 httpmock
 commitgpt
 cargo-lock
+sha1collisiondetection
