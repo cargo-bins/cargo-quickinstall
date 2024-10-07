@@ -10,3 +10,4 @@ laminar
 tendermint-abci
 z3tracer
 java-locator
+phf_generator
