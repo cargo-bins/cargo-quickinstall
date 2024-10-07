@@ -28,3 +28,4 @@ winpty-rs
 solana-remote-wallet
 borsh
 rustfmt-nightly
+tree-sitter-graph
