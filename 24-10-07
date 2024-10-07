@@ -13,3 +13,4 @@ nkeys
 rustfmt
 httpmock
 re_query
+solana-cli
