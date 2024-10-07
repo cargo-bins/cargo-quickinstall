@@ -67,3 +67,4 @@ re_query
 cargo-lock
 rkv
 cpp_demangle
+human_bytes
