@@ -75,3 +75,4 @@ winpty-rs
 wmi
 textplots
 parquet
+httpmock
