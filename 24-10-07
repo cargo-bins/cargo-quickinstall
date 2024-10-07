@@ -38,3 +38,4 @@ spider_worker
 rustrict
 cached-path
 solana-validator
+cargo-lock
