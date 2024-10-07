@@ -7,3 +7,4 @@ deno
 wmi
 phf_generator
 syd
+httpmock
