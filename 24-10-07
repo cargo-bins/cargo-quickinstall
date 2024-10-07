@@ -18,3 +18,4 @@ ducc-sys
 rls-rustc
 nextest-filtering
 opencv-binding-generator
+tree-sitter-graph
