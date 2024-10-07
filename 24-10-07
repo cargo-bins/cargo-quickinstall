@@ -14,3 +14,4 @@ clippy
 py-spy
 tendermint-rpc
 sqlx-cli
+solana-gossip
