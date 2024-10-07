@@ -41,3 +41,4 @@ nexmark
 cargo-lock
 phf_generator
 laminar
+rkv
