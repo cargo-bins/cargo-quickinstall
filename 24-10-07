@@ -24,3 +24,4 @@ remove_dir_all
 diesel_cli
 oxipng
 nexmark
+winpty-rs
