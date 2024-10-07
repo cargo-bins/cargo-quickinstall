@@ -35,3 +35,4 @@ clippy
 parquet
 opencv-binding-generator
 spider_worker
+rustrict
