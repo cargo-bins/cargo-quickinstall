@@ -49,3 +49,4 @@ zellij
 addr2line
 rls-rustc
 libbpf-cargo
+ducc-sys
