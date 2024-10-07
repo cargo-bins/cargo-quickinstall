@@ -24,3 +24,4 @@ paperclip
 honggfuzz
 sn_cli
 cpp_demangle
+phf_generator
