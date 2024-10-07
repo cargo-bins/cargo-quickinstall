@@ -69,3 +69,4 @@ rkv
 cpp_demangle
 human_bytes
 solana-validator
+addr2line
