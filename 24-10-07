@@ -80,3 +80,4 @@ phf_generator
 h3o
 phf_generator
 tree-sitter-cli
+cached-path
