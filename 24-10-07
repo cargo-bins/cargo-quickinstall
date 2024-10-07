@@ -10,3 +10,4 @@ clipboard-history
 rls-rustc
 release
 nu
+ducc-sys
