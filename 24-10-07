@@ -27,3 +27,4 @@ tendermint-abci
 winpty-rs
 rls-rustc
 tendermint-rpc
+sea-orm-cli
