@@ -63,3 +63,4 @@ minicbor
 socketcan
 z3tracer
 solana-validator
+addr2line
