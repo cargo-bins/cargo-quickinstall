@@ -47,3 +47,4 @@ wol-rs
 tree-sitter-graph
 wol-rs
 dotenv
+raw-cpuid
