@@ -69,3 +69,4 @@ unic-langid-impl
 socketcan
 nextest-filtering
 sea-orm-cli
+unic-langid-impl
