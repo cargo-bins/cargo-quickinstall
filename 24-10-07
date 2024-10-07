@@ -70,3 +70,4 @@ httpmock
 commitgpt
 cargo-lock
 sha1collisiondetection
+spider_cli
