@@ -30,3 +30,4 @@ tendermint-rpc
 sea-orm-cli
 parquet
 foundationdb-gen
+httpmock
