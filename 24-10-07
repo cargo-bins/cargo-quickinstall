@@ -76,3 +76,4 @@ wmi
 textplots
 parquet
 httpmock
+tendermint-rpc
