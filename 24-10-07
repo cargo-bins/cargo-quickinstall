@@ -43,3 +43,4 @@ java-locator
 protox
 libbpf-cargo
 re_query
+httpmock
