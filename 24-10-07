@@ -17,3 +17,4 @@ rls-rustc
 re_query
 cargo-embed
 deploy
+tendermint-rpc
