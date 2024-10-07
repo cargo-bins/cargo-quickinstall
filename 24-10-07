@@ -25,3 +25,4 @@ nextest-filtering
 socketcan
 spider_cli
 atuin
+xcp
