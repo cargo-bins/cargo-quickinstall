@@ -57,3 +57,4 @@ snarkvm
 rkv
 parquet
 textplots
+addr2line
