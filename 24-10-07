@@ -8,3 +8,4 @@ cargo-msrv
 shadowsocks-rust
 clipboard-history
 rls-rustc
+release
