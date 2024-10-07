@@ -44,3 +44,4 @@ unic-langid-impl
 cpp_demangle
 winpty-rs
 paperclip
+opencv-binding-generator
