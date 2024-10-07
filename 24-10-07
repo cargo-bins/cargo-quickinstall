@@ -9,3 +9,4 @@ cpp_demangle
 clippy
 tree-sitter-graph
 z3tracer
+solana-cli
