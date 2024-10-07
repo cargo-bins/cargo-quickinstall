@@ -19,3 +19,4 @@ cargo-embed
 deploy
 tendermint-rpc
 phf_generator
+cpp_demangle
