@@ -66,3 +66,4 @@ textplots
 cpp_demangle
 opencv-binding-generator
 rustbus
+py-spy
