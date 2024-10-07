@@ -43,3 +43,4 @@ protox
 rrule
 httpmock
 laminar
+rustfmt-nightly
