@@ -60,3 +60,4 @@ clippy
 sn_cli
 deno
 rustbus
+unic-langid-impl
