@@ -37,3 +37,4 @@ sha1collisiondetection
 z3tracer
 text-diff
 java-locator
+tokio-process
