@@ -27,3 +27,4 @@ deploy
 tree-sitter-cli
 foundationdb-gen
 oso
+ducc-sys
