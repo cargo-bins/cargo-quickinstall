@@ -77,3 +77,4 @@ rustfmt-nightly
 libbpf-cargo
 rustrict
 ec2_instance_metadata
+coldsnap
