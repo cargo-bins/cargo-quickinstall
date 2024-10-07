@@ -12,3 +12,4 @@ librespot
 alacritty
 dotenv
 cpp_demangle
+cargo-msrv
