@@ -82,3 +82,4 @@ phf_generator
 tree-sitter-cli
 cached-path
 tree-sitter-cli
+clippy
