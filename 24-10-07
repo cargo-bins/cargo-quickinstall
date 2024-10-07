@@ -55,3 +55,4 @@ cargo-show
 rrule
 nexmark
 diesel_cli
+minicbor
