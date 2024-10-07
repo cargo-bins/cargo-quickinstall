@@ -88,3 +88,4 @@ laminar
 libbpf-cargo
 ducc-sys
 spider_worker
+spider_cli
