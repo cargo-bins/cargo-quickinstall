@@ -56,3 +56,4 @@ re_query
 raw-cpuid
 rustrict
 socketcan
+apollo-router
