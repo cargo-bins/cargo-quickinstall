@@ -64,3 +64,4 @@ parquet
 remove_dir_all
 rustrict
 ducc-sys
+rustfmt-nightly
