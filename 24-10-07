@@ -53,3 +53,4 @@ papyrus_storage
 solana-gossip
 phf_generator
 librespot
+nextest-filtering
