@@ -91,3 +91,4 @@ mdbook-plantuml
 winpty-rs
 minicbor
 dotenvy
+cargo-info
