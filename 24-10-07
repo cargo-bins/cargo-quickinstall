@@ -33,3 +33,4 @@ syd
 wmi
 paperclip
 libbpf-cargo
+winpty-rs
