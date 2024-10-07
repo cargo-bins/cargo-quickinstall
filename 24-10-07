@@ -87,3 +87,4 @@ papyrus_storage
 laminar
 libbpf-cargo
 ducc-sys
+spider_worker
