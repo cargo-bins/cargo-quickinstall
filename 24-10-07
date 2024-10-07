@@ -50,3 +50,4 @@ rustfmt
 rkv
 sha1collisiondetection
 cached-path
+sqlx-cli
