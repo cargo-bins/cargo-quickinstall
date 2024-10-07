@@ -20,3 +20,4 @@ tree-sitter-cli
 mdcat
 spider_cli
 addr2line
+opencv-binding-generator
