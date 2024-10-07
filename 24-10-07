@@ -48,3 +48,4 @@ tendermint-abci
 human_bytes
 racer
 re_query
+diesel_cli
