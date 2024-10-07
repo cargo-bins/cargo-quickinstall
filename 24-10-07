@@ -68,3 +68,4 @@ cargo-lock
 rkv
 cpp_demangle
 human_bytes
+solana-validator
