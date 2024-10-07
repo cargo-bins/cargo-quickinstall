@@ -52,3 +52,4 @@ tendermint-rpc
 papyrus_storage
 solana-gossip
 phf_generator
+librespot
