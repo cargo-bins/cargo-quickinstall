@@ -22,3 +22,4 @@ raw-cpuid
 tokio-process
 paperclip
 honggfuzz
+sn_cli
