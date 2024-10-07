@@ -35,3 +35,4 @@ cargo-lock
 minicbor
 schemafy
 tendermint-abci
+remove_dir_all
