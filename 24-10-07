@@ -44,3 +44,4 @@ diesel_cli
 deploy
 clippy
 cpp_demangle
+paperclip
