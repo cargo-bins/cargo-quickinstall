@@ -17,3 +17,4 @@ sqlx-cli
 solana-gossip
 tauri-cli
 snarkvm
+deploy
