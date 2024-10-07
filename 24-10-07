@@ -56,3 +56,4 @@ tendermint-abci
 addr2line
 opencv-binding-generator
 unic-langid-impl
+httpmock
