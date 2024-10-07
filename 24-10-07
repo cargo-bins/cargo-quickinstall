@@ -14,3 +14,4 @@ dotenv
 cpp_demangle
 cargo-msrv
 java-locator
+syd
