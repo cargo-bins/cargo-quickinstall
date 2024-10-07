@@ -19,3 +19,4 @@ phf_generator
 tree-sitter-cli
 mdcat
 spider_cli
+addr2line
