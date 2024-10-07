@@ -66,3 +66,4 @@ rustrict
 ducc-sys
 rustfmt-nightly
 unic-langid-impl
+socketcan
