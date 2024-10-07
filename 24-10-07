@@ -42,3 +42,4 @@ solana-cli
 solana-gossip
 nu
 librespot
+phf_generator
