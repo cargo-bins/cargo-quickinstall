@@ -20,3 +20,4 @@ nextest-filtering
 opencv-binding-generator
 tree-sitter-graph
 zuse
+remove_dir_all
