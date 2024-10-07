@@ -33,3 +33,4 @@ foundationdb-gen
 httpmock
 rls-rustc
 nkeys
+tree-sitter-cli
