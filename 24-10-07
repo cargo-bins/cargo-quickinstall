@@ -21,3 +21,4 @@ silicon
 cargo-show
 bluetui
 human_name
+nextest-filtering
