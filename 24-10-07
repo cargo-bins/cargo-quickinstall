@@ -72,3 +72,4 @@ cargo-generate
 paperclip
 coldsnap
 paperclip
+rls-rustc
