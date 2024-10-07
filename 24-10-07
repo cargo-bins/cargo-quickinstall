@@ -16,3 +16,4 @@ foundationdb-gen
 tree-sitter-cli
 ducc-sys
 rls-rustc
+nextest-filtering
