@@ -54,3 +54,4 @@ yofi
 archwiki-rs
 tendermint-rpc
 paperclip
+sea-orm-cli
