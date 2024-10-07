@@ -38,3 +38,4 @@ z3tracer
 text-diff
 java-locator
 tokio-process
+cargo-vet
