@@ -46,3 +46,4 @@ rioterm
 pwasm-utils
 addr2line
 drone
+dotenvy
