@@ -7,3 +7,4 @@ paperclip
 snarkvm
 cpp_demangle
 clippy
+tree-sitter-graph
