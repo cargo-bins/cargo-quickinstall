@@ -61,3 +61,4 @@ addr2line
 rustfmt-nightly
 oso
 z3tracer
+socketcan
