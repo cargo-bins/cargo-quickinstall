@@ -25,3 +25,4 @@ honggfuzz
 sn_cli
 cpp_demangle
 phf_generator
+opencv-binding-generator
