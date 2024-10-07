@@ -23,3 +23,4 @@ binstall
 rkv
 rioterm
 re_query
+winpty-rs
