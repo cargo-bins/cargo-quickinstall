@@ -29,3 +29,4 @@ xcp
 human_name
 deno
 cargo-spellcheck
+cargo-smart-release
