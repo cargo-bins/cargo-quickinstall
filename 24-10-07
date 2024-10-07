@@ -95,3 +95,4 @@ cargo-info
 remove_dir_all
 z3tracer
 deploy
+redoxer
