@@ -31,3 +31,4 @@ rustfmt-nightly
 tree-sitter-graph
 java-locator
 addr2line
+clippy
