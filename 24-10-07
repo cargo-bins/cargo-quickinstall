@@ -71,3 +71,4 @@ pwasm-utils
 libbpf-cargo
 rustfmt-nightly
 httpmock
+pgrx-tests
