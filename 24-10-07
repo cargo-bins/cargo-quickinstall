@@ -90,3 +90,4 @@ gpg-tui
 mdbook-plantuml
 winpty-rs
 minicbor
+dotenvy
