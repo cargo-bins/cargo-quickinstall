@@ -11,3 +11,4 @@ rls-rustc
 release
 nu
 ducc-sys
+cargo-msrv
