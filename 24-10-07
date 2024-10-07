@@ -30,3 +30,4 @@ re_query
 oso
 borsh
 httpbis
+ec2_instance_metadata
