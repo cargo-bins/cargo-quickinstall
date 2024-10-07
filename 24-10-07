@@ -43,3 +43,4 @@ phf_generator
 laminar
 rkv
 dotenv
+pwasm-utils
