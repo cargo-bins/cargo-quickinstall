@@ -38,3 +38,4 @@ borsh
 textplots
 rls-rustc
 tendermint-rpc
+socketcan
