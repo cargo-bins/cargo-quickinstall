@@ -43,3 +43,4 @@ binstall
 rg
 re_query
 nextest-filtering
+tree-sitter-cli
