@@ -7,3 +7,4 @@ foundationdb-gen
 rrule
 borsh
 laminar
+tendermint-abci
