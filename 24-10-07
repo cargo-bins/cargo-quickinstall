@@ -70,3 +70,4 @@ socketcan
 nextest-filtering
 sea-orm-cli
 unic-langid-impl
+snarkvm
