@@ -33,3 +33,4 @@ java-locator
 addr2line
 clippy
 parquet
+opencv-binding-generator
