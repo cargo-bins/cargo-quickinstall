@@ -16,3 +16,4 @@ foundationdb-gen
 borsh
 cached-path
 laminar
+pwasm-utils
