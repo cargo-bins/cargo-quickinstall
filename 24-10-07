@@ -79,3 +79,4 @@ human_bytes
 ducc-sys
 tendermint-abci
 skim
+tree-sitter-graph
