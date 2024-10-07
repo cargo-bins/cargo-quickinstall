@@ -60,3 +60,4 @@ borsh
 tendermint-abci
 nexmark
 cached-path
+tree-sitter-cli
