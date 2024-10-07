@@ -34,3 +34,4 @@ httpmock
 rls-rustc
 nkeys
 tree-sitter-cli
+socketcan
