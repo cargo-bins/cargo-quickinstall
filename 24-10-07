@@ -84,3 +84,4 @@ socketcan
 re_query
 rustfmt-nightly
 paperclip
+wasm-bindgen-cli
