@@ -26,3 +26,4 @@ tendermint-abci
 deploy
 tree-sitter-cli
 foundationdb-gen
+oso
