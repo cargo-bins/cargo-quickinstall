@@ -44,3 +44,4 @@ protox
 libbpf-cargo
 re_query
 httpmock
+raw-cpuid
