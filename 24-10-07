@@ -70,3 +70,4 @@ py-spy
 libbpf-cargo
 diesel_cli
 minicbor
+tree-sitter-graph
