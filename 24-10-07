@@ -40,3 +40,4 @@ java-locator
 tokio-process
 cargo-vet
 deno
+laminar
