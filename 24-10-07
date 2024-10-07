@@ -49,3 +49,4 @@ syd
 rustfmt
 rkv
 sha1collisiondetection
+cached-path
