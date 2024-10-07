@@ -80,3 +80,4 @@ tendermint-rpc
 tendermint-abci
 py-spy
 nextest-filtering
+socketcan
