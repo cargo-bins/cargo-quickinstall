@@ -15,3 +15,4 @@ httpmock
 re_query
 solana-cli
 solana-gossip
+coldsnap
