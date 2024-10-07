@@ -30,3 +30,4 @@ cargo-lock
 solana-cli
 h3o
 rustbus
+foundationdb-gen
