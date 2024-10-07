@@ -10,3 +10,4 @@ sshx
 schemafy
 deploy
 raw-cpuid
+remove_dir_all
