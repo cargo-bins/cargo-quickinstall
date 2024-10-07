@@ -9,3 +9,4 @@ dotenvy
 re_query
 racer
 deploy
+sqlx-cli
