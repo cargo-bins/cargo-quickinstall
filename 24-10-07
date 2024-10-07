@@ -10,3 +10,4 @@ winpty-rs
 trunk
 librespot
 alacritty
+dotenv
