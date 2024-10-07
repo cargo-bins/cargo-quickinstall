@@ -31,3 +31,4 @@ sea-orm-cli
 parquet
 foundationdb-gen
 httpmock
+rls-rustc
