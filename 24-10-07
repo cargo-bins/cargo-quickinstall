@@ -12,3 +12,4 @@ tree-sitter-cli
 human_name
 clippy
 py-spy
+tendermint-rpc
