@@ -34,3 +34,4 @@ addr2line
 clippy
 parquet
 opencv-binding-generator
+spider_worker
