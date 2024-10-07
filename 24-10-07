@@ -8,3 +8,4 @@ wmi
 phf_generator
 syd
 httpmock
+pwasm-utils
