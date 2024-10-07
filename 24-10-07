@@ -91,3 +91,4 @@ socketcan
 nextest-filtering
 tendermint-rpc
 solana-validator
+rustbus
