@@ -87,3 +87,4 @@ deno
 z3tracer
 tendermint-rpc
 solana-validator
+socketcan
