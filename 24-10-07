@@ -51,3 +51,4 @@ rls-rustc
 libbpf-cargo
 ducc-sys
 wol-rs
+arrow-flight
