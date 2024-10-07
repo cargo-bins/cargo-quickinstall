@@ -36,3 +36,4 @@ minicbor
 schemafy
 tendermint-abci
 remove_dir_all
+wol-rs
