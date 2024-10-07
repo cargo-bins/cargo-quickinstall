@@ -28,3 +28,4 @@ phf_generator
 opencv-binding-generator
 re_query
 oso
+borsh
