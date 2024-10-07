@@ -2,3 +2,4 @@ tree-sitter-graph
 rls-rustc
 rkv
 dotenv
+spider_worker
