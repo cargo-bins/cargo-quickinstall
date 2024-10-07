@@ -81,3 +81,4 @@ tendermint-abci
 py-spy
 nextest-filtering
 socketcan
+re_query
