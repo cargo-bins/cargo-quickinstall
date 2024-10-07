@@ -25,3 +25,4 @@ trunk
 arrow-flight
 tendermint-abci
 winpty-rs
+rls-rustc
