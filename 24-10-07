@@ -34,3 +34,4 @@ oculante
 opencv-binding-generator
 cargo-smart-release
 rav1e
+winpty-rs
