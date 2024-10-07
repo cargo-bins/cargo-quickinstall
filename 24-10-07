@@ -37,3 +37,4 @@ winpty-rs
 borsh
 textplots
 rls-rustc
+tendermint-rpc
