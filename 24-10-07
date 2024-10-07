@@ -53,3 +53,4 @@ ducc-sys
 wol-rs
 arrow-flight
 solana-gossip
+dotenv
