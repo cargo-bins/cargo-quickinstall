@@ -64,3 +64,4 @@ socketcan
 z3tracer
 solana-validator
 addr2line
+pgrx-tests
