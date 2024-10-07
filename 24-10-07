@@ -88,3 +88,4 @@ mise
 bluetui
 gpg-tui
 mdbook-plantuml
+winpty-rs
