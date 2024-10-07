@@ -25,3 +25,4 @@ rioterm
 re_query
 winpty-rs
 arrow-flight
+httpmock
