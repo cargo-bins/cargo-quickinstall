@@ -68,3 +68,4 @@ pgrx-tests
 nextest-filtering
 nextest-filtering
 pwasm-utils
+libbpf-cargo
