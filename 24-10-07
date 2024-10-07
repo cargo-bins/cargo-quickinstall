@@ -89,3 +89,4 @@ tendermint-rpc
 solana-validator
 socketcan
 nextest-filtering
+tendermint-rpc
