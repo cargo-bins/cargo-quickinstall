@@ -93,3 +93,4 @@ tendermint-rpc
 solana-validator
 rustbus
 schemafy
+httpbis
