@@ -32,3 +32,4 @@ dotenvy
 spider_cli
 tendermint-abci
 solana-cli
+solana-validator
