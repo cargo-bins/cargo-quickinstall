@@ -63,3 +63,4 @@ deploy
 cargo-graph
 dotenvy
 racer
+re_query
