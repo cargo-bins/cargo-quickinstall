@@ -63,3 +63,4 @@ rustbus
 unic-langid-impl
 remove_dir_all
 textplots
+cpp_demangle
