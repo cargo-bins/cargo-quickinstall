@@ -85,3 +85,4 @@ borsh
 solana-keygen
 papyrus_storage
 laminar
+libbpf-cargo
