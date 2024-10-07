@@ -76,3 +76,4 @@ rls-rustc
 nexmark
 zellij
 human_bytes
+ducc-sys
