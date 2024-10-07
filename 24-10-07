@@ -36,3 +36,4 @@ cargo-smart-release
 rav1e
 winpty-rs
 foundationdb-gen
+cached-path
