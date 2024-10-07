@@ -41,3 +41,4 @@ tendermint-rpc
 socketcan
 laminar
 syd
+solana-cli
