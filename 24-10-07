@@ -45,3 +45,4 @@ cpp_demangle
 winpty-rs
 paperclip
 opencv-binding-generator
+solana-validator
