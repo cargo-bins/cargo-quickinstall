@@ -51,3 +51,4 @@ sha1collisiondetection
 human_name
 rrule
 httpmock
+phf_generator
