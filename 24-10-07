@@ -56,3 +56,4 @@ solana-gossip
 dotenv
 rustrict
 arrow-flight
+cargo-generate
