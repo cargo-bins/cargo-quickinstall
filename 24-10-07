@@ -46,3 +46,4 @@ winpty-rs
 paperclip
 opencv-binding-generator
 solana-validator
+cargo-flash
