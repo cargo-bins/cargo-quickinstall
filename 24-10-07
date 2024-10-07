@@ -44,3 +44,4 @@ syd
 solana-cli
 sqlx-cli
 dotenvy
+tendermint-abci
