@@ -47,3 +47,4 @@ tree-sitter-cli
 solana-genesis
 cargo-mobile2
 libbpf-cargo
+dotenv
