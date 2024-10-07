@@ -42,3 +42,4 @@ libbpf-cargo
 binstall
 rg
 re_query
+nextest-filtering
