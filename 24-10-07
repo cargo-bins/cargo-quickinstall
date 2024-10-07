@@ -53,3 +53,4 @@ cached-path
 sqlx-cli
 dotenv
 ducc-sys
+tendermint-abci
