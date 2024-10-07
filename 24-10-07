@@ -54,3 +54,4 @@ sqlx-cli
 dotenv
 ducc-sys
 tendermint-abci
+socketcan
