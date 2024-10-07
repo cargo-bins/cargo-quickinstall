@@ -13,3 +13,4 @@ raw-cpuid
 remove_dir_all
 tendermint-abci
 foundationdb-gen
+borsh
