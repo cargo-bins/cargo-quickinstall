@@ -16,3 +16,4 @@ snarkvm
 httpmock
 diesel_cli
 solana-gossip
+oso
