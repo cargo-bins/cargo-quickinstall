@@ -46,3 +46,4 @@ re_query
 httpmock
 raw-cpuid
 pwasm-utils
+unic-langid-impl
