@@ -45,3 +45,4 @@ httpmock
 laminar
 rustfmt-nightly
 textplots
+unic-langid-impl
