@@ -13,3 +13,4 @@ sqlx-cli
 parquet
 cpp_demangle
 socketcan
+winpty-rs
