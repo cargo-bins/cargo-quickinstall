@@ -54,3 +54,4 @@ remove_dir_all
 cpp_demangle
 tendermint-abci
 addr2line
+opencv-binding-generator
