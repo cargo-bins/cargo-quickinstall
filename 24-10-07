@@ -83,3 +83,4 @@ nextest-filtering
 socketcan
 re_query
 rustfmt-nightly
+paperclip
