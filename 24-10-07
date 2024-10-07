@@ -46,3 +46,4 @@ phf_generator
 wol-rs
 tree-sitter-graph
 wol-rs
+dotenv
