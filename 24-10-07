@@ -14,3 +14,4 @@ paperclip
 human_name
 foundationdb-gen
 tree-sitter-cli
+ducc-sys
