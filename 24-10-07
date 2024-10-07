@@ -77,3 +77,4 @@ spider_worker
 gnostr-bins
 vayu
 jless
+sea-orm-cli
