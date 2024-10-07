@@ -20,3 +20,4 @@ deploy
 tendermint-rpc
 phf_generator
 cpp_demangle
+solana-gossip
