@@ -50,3 +50,4 @@ libbpf-cargo
 dotenv
 rg
 pgrx-tests
+yofi
