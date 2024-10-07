@@ -36,3 +36,4 @@ libbpf-cargo
 winpty-rs
 borsh
 textplots
+rls-rustc
