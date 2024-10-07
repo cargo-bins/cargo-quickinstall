@@ -46,3 +46,4 @@ dotenv
 pwasm-utils
 nkeys
 zellij
+addr2line
