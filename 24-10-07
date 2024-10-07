@@ -56,3 +56,4 @@ ducc-sys
 tendermint-abci
 socketcan
 omicron-zone-package
+clippy
