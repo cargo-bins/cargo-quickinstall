@@ -88,3 +88,4 @@ z3tracer
 tendermint-rpc
 solana-validator
 socketcan
+nextest-filtering
