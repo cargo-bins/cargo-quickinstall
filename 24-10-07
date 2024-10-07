@@ -74,3 +74,4 @@ tree-sitter-graph
 rustbus
 rav1e
 rustfmt-nightly
+libbpf-cargo
