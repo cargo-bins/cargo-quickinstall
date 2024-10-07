@@ -57,3 +57,4 @@ dotenv
 rustrict
 arrow-flight
 cargo-generate
+sha1collisiondetection
