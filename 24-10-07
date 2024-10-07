@@ -19,3 +19,4 @@ coldsnap
 minicbor
 rustrict
 raw-cpuid
+tokio-process
