@@ -72,3 +72,4 @@ libbpf-cargo
 rustfmt-nightly
 httpmock
 pgrx-tests
+airshipper
