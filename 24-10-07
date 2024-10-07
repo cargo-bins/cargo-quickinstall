@@ -50,3 +50,4 @@ racer
 re_query
 diesel_cli
 remove_dir_all
+schemafy
