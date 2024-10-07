@@ -49,3 +49,4 @@ solana-validator
 cargo-flash
 schemafy
 rls-rustc
+cargo-quickbuild
