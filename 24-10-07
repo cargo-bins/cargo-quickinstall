@@ -48,3 +48,4 @@ wol-rs
 syd
 rustfmt
 rkv
+sha1collisiondetection
