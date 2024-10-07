@@ -84,3 +84,4 @@ cached-path
 tree-sitter-cli
 clippy
 zuse
+nextest-filtering
