@@ -8,3 +8,4 @@ dotenv
 dotenvy
 papyrus_storage
 solana-remote-wallet
+tree-sitter-cli
