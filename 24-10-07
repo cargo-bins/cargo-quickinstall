@@ -17,3 +17,4 @@ borsh
 cached-path
 laminar
 pwasm-utils
+schemafy
