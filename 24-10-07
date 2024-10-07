@@ -60,3 +60,4 @@ protox
 deno
 wasm-bindgen-cli
 clippy
+parquet
