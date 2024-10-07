@@ -70,3 +70,4 @@ sha1collisiondetection
 honggfuzz
 cargo-generate
 paperclip
+coldsnap
