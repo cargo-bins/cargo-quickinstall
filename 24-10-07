@@ -5,3 +5,4 @@ dotenv
 spider_worker
 paperclip
 snarkvm
+cpp_demangle
