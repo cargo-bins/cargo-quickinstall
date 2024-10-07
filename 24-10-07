@@ -41,3 +41,4 @@ solana-validator
 cargo-lock
 rustrict
 diesel_cli
+deploy
