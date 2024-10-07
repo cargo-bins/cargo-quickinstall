@@ -3,3 +3,4 @@ sha1collisiondetection
 monolith
 human_bytes
 zellij
+libbpf-cargo
