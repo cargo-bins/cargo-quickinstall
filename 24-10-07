@@ -11,3 +11,4 @@ sha1collisiondetection
 human_name
 nkeys
 rustfmt
+httpmock
