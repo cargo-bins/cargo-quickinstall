@@ -112,3 +112,4 @@ httpmock
 legba
 winpty-rs
 mdbook-plantuml
+rls-rustc
