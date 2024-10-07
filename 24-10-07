@@ -59,3 +59,4 @@ parquet
 textplots
 addr2line
 rustfmt-nightly
+oso
