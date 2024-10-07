@@ -54,3 +54,4 @@ schemafy
 cargo-show
 rrule
 nexmark
+diesel_cli
