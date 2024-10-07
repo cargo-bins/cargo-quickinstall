@@ -47,3 +47,4 @@ pwasm-utils
 nkeys
 zellij
 addr2line
+rls-rustc
