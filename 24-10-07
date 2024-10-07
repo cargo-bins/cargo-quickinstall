@@ -38,3 +38,4 @@ paperclip
 unic-langid-impl
 socketcan
 nexmark
+cargo-lock
