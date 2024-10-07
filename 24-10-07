@@ -65,3 +65,4 @@ socketcan
 unic-langid-impl
 solana-cli
 cargo-lock
+dotenvy
