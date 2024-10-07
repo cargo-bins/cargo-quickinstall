@@ -51,3 +51,4 @@ winpty-rs
 tendermint-rpc
 papyrus_storage
 solana-gossip
+phf_generator
