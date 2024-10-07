@@ -45,3 +45,4 @@ libbpf-cargo
 re_query
 httpmock
 raw-cpuid
+pwasm-utils
