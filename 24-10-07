@@ -51,3 +51,4 @@ schemafy
 rls-rustc
 cargo-quickbuild
 remove_dir_all
+cpp_demangle
