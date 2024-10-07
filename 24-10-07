@@ -46,3 +46,4 @@ sqlx-cli
 dotenvy
 tendermint-abci
 human_bytes
+racer
