@@ -50,3 +50,4 @@ dotenv
 raw-cpuid
 snarkvm
 wmi
+phf_generator
