@@ -27,3 +27,4 @@ nexmark
 winpty-rs
 solana-remote-wallet
 borsh
+rustfmt-nightly
