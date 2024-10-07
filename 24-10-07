@@ -81,3 +81,4 @@ coldsnap
 pwasm-utils
 omicron-zone-package
 oso
+rls-rustc
