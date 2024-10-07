@@ -15,3 +15,4 @@ cargo-msrv
 opencv-binding-generator
 tree-sitter-cli
 ef
+paru
