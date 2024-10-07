@@ -69,3 +69,4 @@ java-locator
 sha1collisiondetection
 honggfuzz
 cargo-generate
+paperclip
