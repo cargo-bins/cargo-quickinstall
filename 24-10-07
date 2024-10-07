@@ -10,3 +10,4 @@ re_query
 racer
 deploy
 sqlx-cli
+parquet
