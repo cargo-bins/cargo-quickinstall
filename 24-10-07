@@ -67,3 +67,4 @@ solana-cli
 cargo-lock
 dotenvy
 dotenv
+papyrus_storage
