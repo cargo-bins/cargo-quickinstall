@@ -53,3 +53,4 @@ remove_dir_all
 schemafy
 cargo-show
 rrule
+nexmark
