@@ -54,3 +54,4 @@ solana-gossip
 phf_generator
 librespot
 nextest-filtering
+spider_worker
