@@ -59,3 +59,4 @@ omicron-zone-package
 clippy
 sn_cli
 deno
+rustbus
