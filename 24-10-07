@@ -35,3 +35,4 @@ paperclip
 libbpf-cargo
 winpty-rs
 borsh
+textplots
