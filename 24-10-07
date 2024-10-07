@@ -84,3 +84,4 @@ oso
 rls-rustc
 diesel_cli
 deno
+z3tracer
