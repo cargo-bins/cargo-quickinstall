@@ -34,3 +34,4 @@ gitnow
 cargo-lock
 minicbor
 schemafy
+tendermint-abci
