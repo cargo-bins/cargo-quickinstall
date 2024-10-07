@@ -89,3 +89,4 @@ sqlx-cli
 java-locator
 deploy
 tendermint-abci
+snarkvm
