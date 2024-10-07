@@ -6,3 +6,4 @@ spider_worker
 paperclip
 snarkvm
 cpp_demangle
+clippy
