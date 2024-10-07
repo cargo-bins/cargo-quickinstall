@@ -11,3 +11,4 @@ racer
 deploy
 sqlx-cli
 parquet
+cpp_demangle
