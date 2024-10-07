@@ -13,3 +13,4 @@ human_name
 clippy
 py-spy
 tendermint-rpc
+sqlx-cli
