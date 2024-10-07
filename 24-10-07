@@ -86,3 +86,4 @@ rustfmt-nightly
 paperclip
 wasm-bindgen-cli
 sqlx-cli
+java-locator
