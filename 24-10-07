@@ -49,3 +49,4 @@ pwasm-utils
 unic-langid-impl
 winpty-rs
 tendermint-rpc
+papyrus_storage
