@@ -40,3 +40,4 @@ rls-rustc
 tendermint-rpc
 socketcan
 laminar
+syd
