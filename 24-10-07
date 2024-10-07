@@ -69,3 +69,4 @@ jless
 rustfmt-nightly
 bluetui
 schematools-cli
+typst-cli
