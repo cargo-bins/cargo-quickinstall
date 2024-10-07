@@ -69,3 +69,4 @@ rustbus
 py-spy
 libbpf-cargo
 diesel_cli
+minicbor
