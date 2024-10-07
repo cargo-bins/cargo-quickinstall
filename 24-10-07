@@ -13,3 +13,4 @@ nu
 ducc-sys
 cargo-msrv
 opencv-binding-generator
+tree-sitter-cli
