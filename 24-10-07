@@ -33,3 +33,4 @@ sha1collisiondetection
 gitnow
 cargo-lock
 minicbor
+schemafy
