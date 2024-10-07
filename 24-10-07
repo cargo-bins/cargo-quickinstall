@@ -53,3 +53,4 @@ wmi
 phf_generator
 addr2line
 borsh
+xcp
