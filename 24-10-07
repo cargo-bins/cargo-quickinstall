@@ -58,3 +58,4 @@ diesel_cli
 minicbor
 borsh
 tendermint-abci
+nexmark
