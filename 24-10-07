@@ -64,3 +64,4 @@ cargo-graph
 dotenvy
 racer
 re_query
+cargo-lock
