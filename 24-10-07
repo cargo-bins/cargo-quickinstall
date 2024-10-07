@@ -72,3 +72,4 @@ sea-orm-cli
 unic-langid-impl
 snarkvm
 winpty-rs
+wmi
