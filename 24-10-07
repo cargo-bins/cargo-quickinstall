@@ -29,3 +29,4 @@ ducc-sys
 foundationdb-gen
 solana-genesis
 remove_dir_all
+sha1collisiondetection
