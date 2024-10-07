@@ -39,3 +39,4 @@ text-diff
 java-locator
 tokio-process
 cargo-vet
+deno
