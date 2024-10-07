@@ -21,3 +21,4 @@ parquet
 py-spy
 raw-cpuid
 nu
+arrow-flight
