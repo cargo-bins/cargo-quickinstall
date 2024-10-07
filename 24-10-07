@@ -65,3 +65,4 @@ remove_dir_all
 textplots
 cpp_demangle
 opencv-binding-generator
+rustbus
