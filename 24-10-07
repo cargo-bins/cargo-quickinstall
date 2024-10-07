@@ -42,3 +42,4 @@ cargo-vet
 deno
 laminar
 nextest-filtering
+protox
