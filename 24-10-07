@@ -3,3 +3,4 @@ rls-rustc
 rkv
 dotenv
 spider_worker
+paperclip
