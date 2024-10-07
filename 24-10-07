@@ -36,3 +36,4 @@ solana-cli
 unic-langid-impl
 cpp_demangle
 cpp_demangle
+sha1collisiondetection
