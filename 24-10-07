@@ -48,3 +48,4 @@ raw-cpuid
 pwasm-utils
 unic-langid-impl
 winpty-rs
+tendermint-rpc
