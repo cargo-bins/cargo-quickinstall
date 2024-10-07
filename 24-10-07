@@ -62,3 +62,4 @@ wasm-bindgen-cli
 clippy
 parquet
 remove_dir_all
+rustrict
