@@ -18,3 +18,4 @@ re_query
 cargo-embed
 deploy
 tendermint-rpc
+phf_generator
