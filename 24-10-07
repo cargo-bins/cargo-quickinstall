@@ -52,3 +52,4 @@ diesel_cli
 remove_dir_all
 schemafy
 cargo-show
+rrule
