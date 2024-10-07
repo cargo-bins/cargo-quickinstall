@@ -68,3 +68,4 @@ winpty-rs
 java-locator
 sha1collisiondetection
 honggfuzz
+cargo-generate
