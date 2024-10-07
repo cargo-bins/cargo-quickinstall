@@ -47,3 +47,4 @@ diesel_cli
 wol-rs
 syd
 rustfmt
+rkv
