@@ -32,3 +32,4 @@ parquet
 foundationdb-gen
 httpmock
 rls-rustc
+nkeys
