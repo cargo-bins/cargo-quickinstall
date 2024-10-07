@@ -39,3 +39,4 @@ unic-langid-impl
 socketcan
 nexmark
 cargo-lock
+phf_generator
