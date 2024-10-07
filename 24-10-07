@@ -66,3 +66,4 @@ clipboard-history
 mise
 socketcan
 jless
+rustfmt-nightly
