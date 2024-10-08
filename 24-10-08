@@ -26,3 +26,4 @@ human_name
 deploy
 winpty-rs
 nexmark
+arrow-flight
