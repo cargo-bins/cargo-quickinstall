@@ -25,3 +25,4 @@ winpty-rs
 ncspot
 raw-cpuid
 parquet
+wol-rs
