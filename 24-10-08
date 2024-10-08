@@ -8,3 +8,4 @@ httpmock
 cpp_demangle
 minicbor
 ducc-sys
+solana-cli
