@@ -46,3 +46,4 @@ cargo-lock
 sniffnet
 libbpf-cargo
 yofi
+foundationdb-gen
