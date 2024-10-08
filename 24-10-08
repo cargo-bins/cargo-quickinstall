@@ -29,3 +29,4 @@ wol-rs
 schemafy
 graphql_client_cli
 gnostr-bins
+unic-langid-impl
