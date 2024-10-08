@@ -26,3 +26,4 @@ pgrx-tests
 qsv
 pwasm-utils
 textplots
+libbpf-cargo
