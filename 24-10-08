@@ -17,3 +17,4 @@ parquet
 git-disjoint
 paperclip
 socketcan
+winpty-rs
