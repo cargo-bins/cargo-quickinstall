@@ -13,3 +13,4 @@ winpty-rs
 wasm-bindgen-cli
 solana-gossip
 sha1collisiondetection
+racer
