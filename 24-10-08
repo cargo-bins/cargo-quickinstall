@@ -48,3 +48,4 @@ textplots
 remove_dir_all
 wol-rs
 cached-path
+human_name
