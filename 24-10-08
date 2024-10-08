@@ -37,3 +37,4 @@ cached-path
 httpmock
 rls-rustc
 clippy
+cargo-lock
