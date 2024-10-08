@@ -61,3 +61,4 @@ tree-sitter-cli
 racer
 schemafy
 raw-cpuid
+diesel_cli
