@@ -11,3 +11,4 @@ gnostr-bins
 ripunzip
 cargo-public-api
 nexmark
+ducc-sys
