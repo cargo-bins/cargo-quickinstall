@@ -18,3 +18,4 @@ cargo-about
 a11ywatch_cli
 clippy
 java-locator
+parquet
