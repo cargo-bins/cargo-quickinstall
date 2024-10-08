@@ -26,3 +26,4 @@ ducc-sys
 nu
 opencv-binding-generator
 solana-cli
+winpty-rs
