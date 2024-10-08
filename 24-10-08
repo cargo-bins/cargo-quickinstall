@@ -7,3 +7,4 @@ human_bytes
 cargo-flash
 nextest-filtering
 arrow-flight
+cargo-embed
