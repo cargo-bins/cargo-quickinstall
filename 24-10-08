@@ -58,3 +58,4 @@ clippy
 winpty-rs
 rav1e
 pwasm-utils
+cached-path
