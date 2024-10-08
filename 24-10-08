@@ -60,3 +60,4 @@ solana-validator
 binstall
 snarkvm
 human_bytes
+human_name
