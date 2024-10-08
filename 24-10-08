@@ -43,3 +43,4 @@ skim
 tendermint-rpc
 solana-validator
 cached-path
+borsh
