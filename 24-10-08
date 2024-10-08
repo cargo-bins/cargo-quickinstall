@@ -74,3 +74,4 @@ oso
 cargo-lock
 nu
 snarkvm
+sha1collisiondetection
