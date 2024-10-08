@@ -84,3 +84,4 @@ solana-remote-wallet
 human_name
 wmi
 kdotool
+rustfmt-nightly
