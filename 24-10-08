@@ -36,3 +36,4 @@ pwasm-utils
 cached-path
 httpmock
 rls-rustc
+clippy
