@@ -64,3 +64,4 @@ release
 clippy
 kdotool
 sha1collisiondetection
+libbpf-cargo
