@@ -34,3 +34,4 @@ phf_generator
 solana-cli
 rls-rustc
 cargo-about
+opencv-binding-generator
