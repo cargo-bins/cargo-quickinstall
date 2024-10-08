@@ -30,3 +30,4 @@ libbpf-cargo
 qsv
 textplots
 solana-gossip
+tree-sitter-graph
