@@ -71,3 +71,4 @@ nextest-filtering
 tree-sitter-graph
 httpmock
 oso
+cargo-lock
