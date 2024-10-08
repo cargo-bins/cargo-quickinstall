@@ -54,3 +54,4 @@ cpp_demangle
 borsh
 dotenv
 pwasm-utils
+rustfmt-nightly
