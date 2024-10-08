@@ -56,3 +56,4 @@ solana-validator
 cargo-lock
 sha1collisiondetection
 re_query
+rrule
