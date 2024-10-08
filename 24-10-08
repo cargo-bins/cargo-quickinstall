@@ -32,3 +32,4 @@ solana-cli
 deploy
 wmi
 solana-gossip
+pwasm-utils
