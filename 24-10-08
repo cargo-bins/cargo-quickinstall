@@ -40,3 +40,4 @@ clippy
 cargo-lock
 solana-gossip
 rkv
+wol-rs
