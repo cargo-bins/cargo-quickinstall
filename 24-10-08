@@ -25,3 +25,4 @@ wol-rs
 cached-path
 nextest-filtering
 sha1collisiondetection
+racer
