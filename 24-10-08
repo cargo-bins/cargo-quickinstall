@@ -36,3 +36,4 @@ unic-langid-impl
 human_name
 protox
 diesel_cli
+rkv
