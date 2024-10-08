@@ -16,3 +16,4 @@ skim
 ncspot
 dotenv
 fleet-rs
+tendermint-abci
