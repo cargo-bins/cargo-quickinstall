@@ -3,3 +3,4 @@ nkeys
 addr2line
 diesel_cli
 dotenvy
+human_bytes
