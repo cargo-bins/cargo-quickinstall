@@ -33,3 +33,4 @@ rustrict
 rustfmt-nightly
 solana-cli
 cargo-local-registry
+cargo-outdated
