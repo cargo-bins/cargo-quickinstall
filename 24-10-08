@@ -13,3 +13,4 @@ protox
 cargo-outdated
 rustrict
 spider_worker
+httpmock
