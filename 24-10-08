@@ -43,3 +43,4 @@ rkv
 wol-rs
 socketcan
 rrule
+tendermint-rpc
