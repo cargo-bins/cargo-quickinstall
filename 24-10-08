@@ -68,3 +68,4 @@ textplots
 dotenv
 rls-rustc
 nextest-filtering
+tree-sitter-graph
