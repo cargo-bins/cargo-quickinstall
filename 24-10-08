@@ -3,3 +3,4 @@ clippy
 deploy
 paperclip
 httpmock
+socketcan
