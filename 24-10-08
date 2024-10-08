@@ -3,3 +3,4 @@ solana-validator
 borsh
 solana-remote-wallet
 hoard-rs
+papyrus_storage
