@@ -5,3 +5,4 @@ diesel_cli
 dotenvy
 human_bytes
 cargo-flash
+nextest-filtering
