@@ -16,3 +16,4 @@ spider_worker
 httpmock
 z3tracer
 opencv-binding-generator
+cached-path
