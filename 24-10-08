@@ -38,3 +38,4 @@ ducc-sys
 schemafy
 ec2_instance_metadata
 nexmark
+socketcan
