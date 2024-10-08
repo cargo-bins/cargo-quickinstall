@@ -9,3 +9,4 @@ cargo-msrv
 solana-cli
 gnostr-bins
 ripunzip
+cargo-public-api
