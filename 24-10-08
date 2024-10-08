@@ -13,3 +13,4 @@ rkv
 java-locator
 solana-cli
 laminar
+rustfmt-nightly
