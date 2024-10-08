@@ -14,3 +14,4 @@ cargo-outdated
 rustrict
 spider_worker
 httpmock
+z3tracer
