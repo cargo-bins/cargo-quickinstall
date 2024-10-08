@@ -35,3 +35,4 @@ tendermint-rpc
 nkeys
 unic-langid-impl
 paperclip
+parquet
