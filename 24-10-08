@@ -50,3 +50,4 @@ protox
 sn_node
 papyrus_storage
 rkv
+cpp_demangle
