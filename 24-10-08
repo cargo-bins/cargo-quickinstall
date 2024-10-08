@@ -32,3 +32,4 @@ arrow-flight
 ducc-sys
 tendermint-abci
 sn_node
+honggfuzz
