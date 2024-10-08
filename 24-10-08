@@ -40,3 +40,4 @@ winpty-rs
 raw-cpuid
 ducc-sys
 skim
+tendermint-rpc
