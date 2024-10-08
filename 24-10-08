@@ -13,3 +13,4 @@ rls-rustc
 wmi
 clippy
 wol-rs
+spider_worker
