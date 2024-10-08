@@ -41,3 +41,4 @@ cargo-lock
 solana-gossip
 rkv
 wol-rs
+socketcan
