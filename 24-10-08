@@ -16,3 +16,4 @@ wol-rs
 spider_worker
 arrow-flight
 diesel_cli
+tree-sitter-cli
