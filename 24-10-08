@@ -22,3 +22,4 @@ parquet
 wasm-bindgen-cli
 tendermint-abci
 sea-orm-cli
+ducc-sys
