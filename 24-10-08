@@ -31,3 +31,4 @@ zuse
 nextest-filtering
 rustrict
 rustfmt-nightly
+solana-cli
