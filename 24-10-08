@@ -34,3 +34,4 @@ tendermint-abci
 sn_node
 honggfuzz
 minicbor
+ducc-sys
