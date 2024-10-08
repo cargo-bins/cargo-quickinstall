@@ -76,3 +76,4 @@ unic-langid-impl
 sn_cli
 dotenvy
 rkv
+rustfmt
