@@ -32,3 +32,4 @@ socketcan
 deploy
 nexmark
 tendermint-rpc
+nkeys
