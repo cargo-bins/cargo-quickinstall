@@ -33,3 +33,4 @@ deploy
 wmi
 solana-gossip
 pwasm-utils
+cached-path
