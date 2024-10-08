@@ -54,3 +54,4 @@ rustfmt-nightly
 protox
 tendermint-rpc
 solana-cli
+clippy
