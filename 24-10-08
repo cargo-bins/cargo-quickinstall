@@ -70,3 +70,4 @@ papyrus_storage
 kdotool
 release
 graphql_client_cli
+rustfmt-nightly
