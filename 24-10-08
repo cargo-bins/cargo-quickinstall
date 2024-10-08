@@ -62,3 +62,4 @@ snarkvm
 human_bytes
 human_name
 racer
+raw-cpuid
