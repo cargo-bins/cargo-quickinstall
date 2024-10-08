@@ -80,3 +80,4 @@ dotenv
 pwasm-utils
 solana-cli
 human_name
+schemafy
