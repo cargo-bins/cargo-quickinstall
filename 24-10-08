@@ -32,3 +32,4 @@ sea-orm-cli
 tree-sitter-cli
 phf_generator
 solana-cli
+rls-rustc
