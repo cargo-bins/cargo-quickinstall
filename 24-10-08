@@ -17,3 +17,4 @@ rustfmt-nightly
 textplots
 ducc-sys
 h3o
+cargo-flash
