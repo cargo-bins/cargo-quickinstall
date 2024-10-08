@@ -7,3 +7,4 @@ raw-cpuid
 httpmock
 cpp_demangle
 minicbor
+ducc-sys
