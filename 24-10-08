@@ -28,3 +28,4 @@ opencv-binding-generator
 solana-cli
 winpty-rs
 phf_generator
+sea-orm-cli
