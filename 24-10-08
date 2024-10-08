@@ -31,3 +31,4 @@ protox
 solana-cli
 deploy
 wmi
+solana-gossip
