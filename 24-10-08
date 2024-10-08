@@ -31,3 +31,4 @@ deploy
 socketcan
 deploy
 nexmark
+tendermint-rpc
