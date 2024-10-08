@@ -24,3 +24,4 @@ spider_worker
 schemafy
 dotenv
 borsh
+solana-remote-wallet
