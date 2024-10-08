@@ -8,3 +8,4 @@ cargo-flash
 nextest-filtering
 arrow-flight
 cargo-embed
+airshipper
