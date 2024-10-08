@@ -18,3 +18,4 @@ git-disjoint
 paperclip
 socketcan
 winpty-rs
+ducc-sys
