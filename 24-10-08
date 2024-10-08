@@ -18,3 +18,4 @@ solana-stake-accounts
 cached-path
 solana-keygen
 release
+cpp_demangle
