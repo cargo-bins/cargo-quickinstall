@@ -5,3 +5,4 @@ nextest-filtering
 rustfmt
 raw-cpuid
 httpmock
+cpp_demangle
