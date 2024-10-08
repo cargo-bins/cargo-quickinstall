@@ -13,3 +13,4 @@ libbpf-cargo
 raw-cpuid
 nextest-filtering
 rustfmt-nightly
+racer
