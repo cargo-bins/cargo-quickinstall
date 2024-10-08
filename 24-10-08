@@ -30,3 +30,4 @@ winpty-rs
 phf_generator
 sea-orm-cli
 tree-sitter-cli
+phf_generator
