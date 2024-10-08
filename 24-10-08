@@ -23,3 +23,4 @@ pwasm-utils
 spider_worker
 schemafy
 dotenv
+borsh
