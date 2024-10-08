@@ -42,3 +42,4 @@ ducc-sys
 skim
 tendermint-rpc
 solana-validator
+cached-path
