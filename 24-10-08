@@ -31,3 +31,4 @@ graphql_client_cli
 gnostr-bins
 unic-langid-impl
 remove_dir_all
+papyrus_storage
