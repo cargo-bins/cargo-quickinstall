@@ -38,3 +38,4 @@ pwasm-utils
 rrule
 winpty-rs
 raw-cpuid
+ducc-sys
