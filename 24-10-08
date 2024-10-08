@@ -74,3 +74,4 @@ benfred-read-process-memory
 sha1collisiondetection
 unic-langid-impl
 sn_cli
+dotenvy
