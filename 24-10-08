@@ -12,3 +12,4 @@ textplots
 tendermint-rpc
 nextest-filtering
 sea-orm-cli
+a11ywatch_cli
