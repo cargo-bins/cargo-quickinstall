@@ -45,3 +45,4 @@ borsh
 syd
 solana-genesis
 textplots
+remove_dir_all
