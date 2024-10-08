@@ -2,3 +2,4 @@ libbpf-cargo
 solana-validator
 borsh
 solana-remote-wallet
+hoard-rs
