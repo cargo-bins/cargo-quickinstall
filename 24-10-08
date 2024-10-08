@@ -20,3 +20,4 @@ solana-keygen
 release
 cpp_demangle
 cargo-pgrx
+unic-langid-impl
