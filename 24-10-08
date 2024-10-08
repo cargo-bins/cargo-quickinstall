@@ -48,3 +48,4 @@ racer
 cargo-lock
 sshx
 human_name
+socketcan
