@@ -79,3 +79,4 @@ solana-remote-wallet
 dotenv
 pwasm-utils
 solana-cli
+human_name
