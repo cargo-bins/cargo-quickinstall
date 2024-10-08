@@ -26,3 +26,4 @@ cached-path
 nextest-filtering
 sha1collisiondetection
 racer
+winpty-rs
