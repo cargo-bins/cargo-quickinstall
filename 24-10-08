@@ -10,3 +10,4 @@ ducc-sys
 zuse
 java-locator
 winpty-rs
+wasm-bindgen-cli
