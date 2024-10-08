@@ -27,3 +27,4 @@ deploy
 winpty-rs
 nexmark
 arrow-flight
+rls-rustc
