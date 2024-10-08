@@ -16,3 +16,4 @@ rustfmt-nightly
 racer
 solana-stake-accounts
 cached-path
+solana-keygen
