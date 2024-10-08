@@ -21,3 +21,4 @@ java-locator
 parquet
 wasm-bindgen-cli
 tendermint-abci
+sea-orm-cli
