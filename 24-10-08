@@ -52,3 +52,4 @@ papyrus_storage
 rkv
 cpp_demangle
 borsh
+dotenv
