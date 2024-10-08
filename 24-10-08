@@ -62,3 +62,4 @@ raw-cpuid
 py-spy
 httpbis
 tendermint-rpc
+rustfmt-nightly
