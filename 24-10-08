@@ -20,3 +20,4 @@ syd
 tendermint-abci
 wol-rs
 pwasm-utils
+spider_worker
