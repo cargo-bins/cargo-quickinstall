@@ -20,3 +20,4 @@ clippy
 java-locator
 parquet
 wasm-bindgen-cli
+tendermint-abci
