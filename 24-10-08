@@ -7,3 +7,4 @@ tendermint-rpc
 ef
 cargo-msrv
 solana-cli
+gnostr-bins
