@@ -22,3 +22,4 @@ ducc-sys
 foundationdb-gen
 dotenvy
 wol-rs
+cached-path
