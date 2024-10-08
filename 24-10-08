@@ -55,3 +55,4 @@ borsh
 dotenv
 pwasm-utils
 rustfmt-nightly
+tendermint-abci
