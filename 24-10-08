@@ -50,3 +50,4 @@ foundationdb-gen
 solana-cli
 atuin
 archwiki-rs
+opencv-binding-generator
