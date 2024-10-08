@@ -8,3 +8,4 @@ cargo-about
 rustfmt-nightly
 wmi
 dotenvy
+spider_worker
