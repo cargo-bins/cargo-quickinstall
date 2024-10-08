@@ -25,3 +25,4 @@ schemafy
 dotenv
 borsh
 solana-remote-wallet
+arrow-flight
