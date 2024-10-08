@@ -15,3 +15,4 @@ clippy
 wol-rs
 spider_worker
 arrow-flight
+diesel_cli
