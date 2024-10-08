@@ -11,3 +11,4 @@ ducc-sys
 solana-cli
 java-locator
 racer
+dotenv
