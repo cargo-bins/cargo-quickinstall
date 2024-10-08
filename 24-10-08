@@ -14,3 +14,4 @@ raw-cpuid
 nextest-filtering
 rustfmt-nightly
 racer
+solana-stake-accounts
