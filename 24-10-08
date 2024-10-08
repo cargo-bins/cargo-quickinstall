@@ -34,3 +34,4 @@ wmi
 solana-gossip
 pwasm-utils
 cached-path
+httpmock
