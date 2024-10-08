@@ -64,3 +64,4 @@ httpbis
 tendermint-rpc
 rustfmt-nightly
 cargo-vet
+tree-sitter-graph
