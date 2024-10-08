@@ -55,3 +55,4 @@ protox
 tendermint-rpc
 solana-cli
 clippy
+winpty-rs
