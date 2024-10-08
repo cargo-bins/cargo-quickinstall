@@ -58,3 +58,4 @@ rustfmt-nightly
 tendermint-abci
 cpp_demangle
 racer
+raw-cpuid
