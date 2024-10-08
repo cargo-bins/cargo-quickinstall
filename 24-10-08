@@ -19,3 +19,4 @@ a11ywatch_cli
 clippy
 java-locator
 parquet
+wasm-bindgen-cli
