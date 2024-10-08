@@ -10,3 +10,4 @@ h3o
 tree-sitter-cli
 textplots
 tendermint-rpc
+nextest-filtering
