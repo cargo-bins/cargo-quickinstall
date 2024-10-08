@@ -67,3 +67,4 @@ deno
 textplots
 dotenv
 rls-rustc
+nextest-filtering
