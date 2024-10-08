@@ -3,3 +3,4 @@ nkeys
 foundationdb-gen
 nextest-filtering
 rustfmt
+raw-cpuid
