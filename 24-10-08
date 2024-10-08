@@ -69,3 +69,4 @@ dotenv
 rls-rustc
 nextest-filtering
 tree-sitter-graph
+httpmock
