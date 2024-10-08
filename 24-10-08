@@ -45,3 +45,4 @@ socketcan
 rrule
 tendermint-rpc
 racer
+cargo-lock
