@@ -40,3 +40,4 @@ ec2_instance_metadata
 nexmark
 socketcan
 arrow-flight
+tree-sitter-graph
