@@ -27,3 +27,4 @@ nu
 opencv-binding-generator
 solana-cli
 winpty-rs
+phf_generator
