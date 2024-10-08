@@ -2,3 +2,4 @@ java-locator
 nkeys
 foundationdb-gen
 nextest-filtering
+rustfmt
