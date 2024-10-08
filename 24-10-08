@@ -21,3 +21,4 @@ release
 cpp_demangle
 cargo-pgrx
 unic-langid-impl
+winpty-rs
