@@ -20,3 +20,4 @@ socketcan
 winpty-rs
 ducc-sys
 foundationdb-gen
+dotenvy
