@@ -6,3 +6,4 @@ pwasm-utils
 wmi
 minicbor
 cached-path
+addr2line
