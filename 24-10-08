@@ -76,3 +76,4 @@ nu
 snarkvm
 sha1collisiondetection
 solana-remote-wallet
+dotenv
