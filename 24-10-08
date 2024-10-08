@@ -77,3 +77,4 @@ sn_cli
 dotenvy
 rkv
 rustfmt
+cargo-vet
