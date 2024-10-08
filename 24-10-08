@@ -56,3 +56,4 @@ dotenv
 pwasm-utils
 rustfmt-nightly
 tendermint-abci
+cpp_demangle
