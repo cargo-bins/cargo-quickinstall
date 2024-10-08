@@ -78,3 +78,4 @@ sha1collisiondetection
 solana-remote-wallet
 dotenv
 pwasm-utils
+solana-cli
