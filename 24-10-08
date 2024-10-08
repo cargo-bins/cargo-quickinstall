@@ -57,3 +57,4 @@ solana-cli
 clippy
 winpty-rs
 rav1e
+pwasm-utils
