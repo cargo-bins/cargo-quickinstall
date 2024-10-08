@@ -24,3 +24,4 @@ omicron-zone-package
 cached-path
 human_name
 deploy
+winpty-rs
