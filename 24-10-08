@@ -24,3 +24,4 @@ deploy
 tree-sitter-graph
 pgrx-tests
 qsv
+pwasm-utils
