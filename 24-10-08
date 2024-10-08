@@ -53,3 +53,4 @@ deploy
 human_name
 rrule
 solana-validator
+cargo-lock
