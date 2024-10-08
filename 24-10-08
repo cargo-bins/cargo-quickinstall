@@ -5,3 +5,4 @@ protox
 unic-langid-impl
 arrow-flight
 z3tracer
+addr2line
