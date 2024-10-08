@@ -22,3 +22,4 @@ patch-crate
 oso
 deploy
 tree-sitter-graph
+pgrx-tests
