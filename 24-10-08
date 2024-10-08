@@ -47,3 +47,4 @@ solana-genesis
 textplots
 remove_dir_all
 wol-rs
+cached-path
