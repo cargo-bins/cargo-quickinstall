@@ -12,3 +12,4 @@ nexmark
 rls-rustc
 wmi
 clippy
+wol-rs
