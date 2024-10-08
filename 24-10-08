@@ -7,3 +7,4 @@ arrow-flight
 cargo-about
 rustfmt-nightly
 wmi
+dotenvy
