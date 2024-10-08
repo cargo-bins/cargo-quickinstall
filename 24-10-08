@@ -21,3 +21,4 @@ winpty-rs
 ducc-sys
 foundationdb-gen
 dotenvy
+wol-rs
