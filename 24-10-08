@@ -67,3 +67,4 @@ cargo-vet
 tree-sitter-graph
 addr2line
 dotenv
+wol-rs
