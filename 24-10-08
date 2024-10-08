@@ -57,3 +57,4 @@ rls-rustc
 pgrx-tests
 solana-gossip
 solana-validator
+binstall
