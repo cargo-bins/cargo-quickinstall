@@ -45,3 +45,4 @@ snarkvm
 tendermint-rpc
 schemafy
 nu
+human_bytes
