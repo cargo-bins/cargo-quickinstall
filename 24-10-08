@@ -39,3 +39,4 @@ rls-rustc
 clippy
 cargo-lock
 solana-gossip
+rkv
