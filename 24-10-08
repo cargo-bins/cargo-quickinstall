@@ -51,3 +51,4 @@ cached-path
 human_name
 libbpf-cargo
 rustfmt-nightly
+protox
