@@ -63,3 +63,4 @@ py-spy
 httpbis
 tendermint-rpc
 rustfmt-nightly
+cargo-vet
