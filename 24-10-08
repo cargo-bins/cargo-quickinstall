@@ -21,3 +21,4 @@ cargo-flash
 patch-crate
 oso
 deploy
+tree-sitter-graph
