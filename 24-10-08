@@ -2,3 +2,4 @@ wmi
 nkeys
 addr2line
 diesel_cli
+dotenvy
