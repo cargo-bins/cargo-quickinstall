@@ -48,3 +48,4 @@ rustfmt-nightly
 kdotool
 tree-sitter-graph
 atuin
+re_query
