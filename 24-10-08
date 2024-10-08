@@ -6,3 +6,4 @@ rav1e
 tendermint-rpc
 ef
 cargo-msrv
+solana-cli
