@@ -6,3 +6,4 @@ rustfmt
 raw-cpuid
 httpmock
 cpp_demangle
+minicbor
