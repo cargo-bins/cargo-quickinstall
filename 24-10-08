@@ -54,3 +54,4 @@ human_name
 rrule
 solana-validator
 cargo-lock
+sha1collisiondetection
