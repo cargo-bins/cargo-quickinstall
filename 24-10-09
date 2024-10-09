@@ -1,3 +1,4 @@
 nkeys
 rustfmt-nightly
 qsv
+phf_generator
