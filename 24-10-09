@@ -42,3 +42,4 @@ pwasm-utils
 rkv
 solana-gossip
 raw-cpuid
+minicbor
