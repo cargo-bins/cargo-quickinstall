@@ -27,3 +27,4 @@ minicbor
 rustfmt-nightly
 httpmock
 tendermint-abci
+textplots
