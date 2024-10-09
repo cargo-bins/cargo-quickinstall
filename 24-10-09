@@ -30,3 +30,4 @@ tendermint-abci
 textplots
 cpp_demangle
 minicbor
+httpmock
