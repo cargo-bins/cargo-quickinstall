@@ -25,3 +25,4 @@ cargo-espflash
 spider_worker
 librespot
 textplots
+raw-cpuid
