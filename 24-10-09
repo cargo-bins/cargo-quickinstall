@@ -13,3 +13,4 @@ human_bytes
 solana-validator
 cargo-lock
 diesel_cli
+laminar
