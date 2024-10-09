@@ -33,3 +33,4 @@ papyrus_storage
 minicbor
 winpty-rs
 opencv-binding-generator
+dotenvy
