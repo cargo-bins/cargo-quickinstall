@@ -12,3 +12,4 @@ nu
 solana-cli
 apollo-router
 phf_generator
+foundationdb-gen
