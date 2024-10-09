@@ -4,3 +4,4 @@ nu
 cargo-local-registry
 solana-keygen
 solana-cli
+cargo-outdated
