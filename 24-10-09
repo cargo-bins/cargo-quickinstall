@@ -10,3 +10,4 @@ cargo-lock
 ducc-sys
 nu
 solana-cli
+apollo-router
