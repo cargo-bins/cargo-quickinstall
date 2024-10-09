@@ -24,3 +24,4 @@ cargo-about
 cargo-codspeed
 cargo-outdated
 cargo-codspeed
+tauri-cli
