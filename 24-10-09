@@ -40,3 +40,4 @@ rls-rustc
 rustfmt-nightly
 pwasm-utils
 rkv
+solana-gossip
