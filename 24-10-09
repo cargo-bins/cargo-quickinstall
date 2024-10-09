@@ -74,3 +74,4 @@ rls-rustc
 wmi
 paru
 nextest-filtering
+racer
