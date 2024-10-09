@@ -20,3 +20,4 @@ tendermint-abci
 nextest-filtering
 solana-validator
 z3tracer
+apollo-router
