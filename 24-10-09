@@ -73,3 +73,4 @@ pcu
 rls-rustc
 wmi
 paru
+nextest-filtering
