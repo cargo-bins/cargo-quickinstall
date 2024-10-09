@@ -4,7 +4,7 @@ certifi==2024.8.30
     # via
     #   influxdb3-python
     #   requests
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
     # via requests
 idna==3.10
     # via requests
