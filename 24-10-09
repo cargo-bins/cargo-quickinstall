@@ -36,3 +36,4 @@ opencv-binding-generator
 dotenvy
 winpty-rs
 py-spy
+borsh
