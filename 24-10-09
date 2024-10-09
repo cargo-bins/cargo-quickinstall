@@ -7,3 +7,4 @@ unic-langid-impl
 apollo-router
 rustfmt-nightly
 wmi
+tendermint-rpc
