@@ -41,3 +41,4 @@ rustfmt-nightly
 pwasm-utils
 rkv
 solana-gossip
+raw-cpuid
