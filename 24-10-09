@@ -6,3 +6,4 @@ a11ywatch_cli
 cached-path
 sea-orm-cli
 wmi
+cargo-lock
