@@ -11,3 +11,4 @@ cargo-about
 rustrict
 apollo-router
 sha1collisiondetection
+cached-path
