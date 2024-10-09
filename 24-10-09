@@ -6,3 +6,4 @@ solana-keygen
 solana-cli
 cargo-outdated
 solana-gossip
+tauri-cli
