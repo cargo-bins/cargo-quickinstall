@@ -6,3 +6,4 @@ solana-cli
 human_name
 paperclip
 rustfmt-nightly
+arrow-flight
