@@ -38,3 +38,4 @@ nextest-filtering
 httpmock
 rls-rustc
 rustfmt-nightly
+pwasm-utils
