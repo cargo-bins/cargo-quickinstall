@@ -14,3 +14,4 @@ rmesg
 borsh
 diesel_cli
 monolith
+honggfuzz
