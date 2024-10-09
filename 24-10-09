@@ -28,3 +28,4 @@ git-disjoint
 remove_dir_all
 parquet
 parquet
+minicbor
