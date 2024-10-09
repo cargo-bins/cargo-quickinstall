@@ -2,3 +2,4 @@ ducc-sys
 diesel_cli
 solana-cli
 starship
+solana-remote-wallet
