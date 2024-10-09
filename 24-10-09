@@ -30,3 +30,4 @@ pcu
 cpp_demangle
 tree-sitter-cli
 laminar
+arrow-flight
