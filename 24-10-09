@@ -2,3 +2,4 @@ cached-path
 papyrus_storage
 rls-rustc
 solana-cli
+dotenv
