@@ -72,3 +72,4 @@ libbpf-cargo
 apollo-router
 schemafy
 java-locator
+spider_worker
