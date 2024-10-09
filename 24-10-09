@@ -2,3 +2,4 @@ nkeys
 rustfmt-nightly
 qsv
 phf_generator
+solana-cli
