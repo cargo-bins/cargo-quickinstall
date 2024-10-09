@@ -16,3 +16,4 @@ remove_dir_all
 raw-cpuid
 tendermint-rpc
 wol-rs
+minicbor
