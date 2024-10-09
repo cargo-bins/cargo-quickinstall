@@ -16,3 +16,4 @@ apollo-router
 cargo-about
 cargo-tarpaulin
 cargo-outdated
+cargo-codspeed
