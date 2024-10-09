@@ -27,3 +27,4 @@ dotenvy
 winpty-rs
 cached-path
 human_bytes
+rustrict
