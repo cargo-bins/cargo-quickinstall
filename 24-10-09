@@ -58,3 +58,4 @@ cargo-pgrx
 nexmark
 socketcan
 nextest-filtering
+solana-keygen
