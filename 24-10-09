@@ -70,3 +70,4 @@ pwasm-utils
 apollo-router
 rkv
 pcu
+rls-rustc
