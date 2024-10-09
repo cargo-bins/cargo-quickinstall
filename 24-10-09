@@ -15,3 +15,4 @@ cached-path
 apollo-router
 cargo-about
 cargo-tarpaulin
+cargo-outdated
