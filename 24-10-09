@@ -37,3 +37,4 @@ solana-keygen
 nextest-filtering
 httpmock
 rls-rustc
+rustfmt-nightly
