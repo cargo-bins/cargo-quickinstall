@@ -12,3 +12,4 @@ textplots
 deploy
 rmesg
 borsh
+diesel_cli
