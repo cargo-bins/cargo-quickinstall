@@ -26,3 +26,4 @@ parquet
 minicbor
 rustfmt-nightly
 httpmock
+tendermint-abci
