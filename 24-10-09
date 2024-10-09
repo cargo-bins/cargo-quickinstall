@@ -37,3 +37,4 @@ dotenvy
 winpty-rs
 py-spy
 borsh
+addr2line
