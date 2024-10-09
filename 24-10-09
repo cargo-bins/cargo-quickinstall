@@ -31,3 +31,4 @@ rustrict
 cargo-vet
 papyrus_storage
 minicbor
+winpty-rs
