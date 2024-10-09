@@ -8,3 +8,4 @@ cargo-outdated
 solana-gossip
 tauri-cli
 apollo-router
+cargo-codspeed
