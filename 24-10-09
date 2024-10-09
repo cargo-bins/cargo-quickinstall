@@ -66,3 +66,4 @@ foundationdb-gen
 commitgpt
 tendermint-rpc
 syd
+pwasm-utils
