@@ -17,3 +17,4 @@ solana-cli
 racer
 nexmark
 human_name
+tendermint-rpc
