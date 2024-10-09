@@ -62,3 +62,4 @@ solana-cli
 pgrx-tests
 vayu
 cargo-lock
+foundationdb-gen
