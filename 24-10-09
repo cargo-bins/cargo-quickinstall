@@ -64,3 +64,4 @@ vayu
 cargo-lock
 foundationdb-gen
 commitgpt
+tendermint-rpc
