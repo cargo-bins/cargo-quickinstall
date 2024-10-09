@@ -11,3 +11,4 @@ ducc-sys
 nu
 solana-cli
 apollo-router
+phf_generator
