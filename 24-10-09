@@ -5,3 +5,4 @@ cargo-local-registry
 rustrict
 deno
 starship
+apollo-router
