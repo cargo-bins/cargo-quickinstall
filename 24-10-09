@@ -17,3 +17,4 @@ a11ywatch_cli
 librespot
 borsh
 tendermint-abci
+nextest-filtering
