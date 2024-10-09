@@ -16,3 +16,4 @@ foundationdb-gen
 a11ywatch_cli
 librespot
 borsh
+tendermint-abci
