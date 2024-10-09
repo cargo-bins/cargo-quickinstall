@@ -11,3 +11,4 @@ text-diff
 rmesg
 solana-cli
 nkeys
+wol-rs
