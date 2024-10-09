@@ -30,3 +30,4 @@ socketcan
 solana-validator
 hurl
 paperclip
+cpp_demangle
