@@ -42,3 +42,4 @@ remove_dir_all
 paperclip
 nexmark
 textplots
+cargo-public-api
