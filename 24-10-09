@@ -2,3 +2,4 @@ sha1collisiondetection
 deno
 cargo-tarpaulin
 cargo-local-registry
+rustrict
