@@ -56,3 +56,4 @@ a11ywatch_cli
 nkeys
 cargo-pgrx
 nexmark
+socketcan
