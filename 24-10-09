@@ -25,3 +25,4 @@ wmi
 patch-crate
 termusic
 nexmark
+phf_generator
