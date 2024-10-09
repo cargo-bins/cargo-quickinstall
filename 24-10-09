@@ -18,3 +18,4 @@ tauri-cli
 apollo-router
 cargo-about
 cargo-tarpaulin
+cargo-codspeed
