@@ -38,3 +38,4 @@ borsh
 phf_generator
 pgrx-tests
 solana-cli
+remove_dir_all
