@@ -7,3 +7,4 @@ cached-path
 sea-orm-cli
 wmi
 cargo-lock
+ducc-sys
