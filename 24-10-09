@@ -5,3 +5,4 @@ phf_generator
 solana-cli
 human_name
 paperclip
+rustfmt-nightly
