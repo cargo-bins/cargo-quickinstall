@@ -28,3 +28,4 @@ winpty-rs
 cached-path
 human_bytes
 rustrict
+cargo-vet
