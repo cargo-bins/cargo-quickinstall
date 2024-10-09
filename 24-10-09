@@ -49,3 +49,4 @@ graphql_client_cli
 minicbor
 nu
 textplots
+tree-sitter-graph
