@@ -6,3 +6,4 @@ dotenv
 laminar
 protox
 rrule
+honggfuzz
