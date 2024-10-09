@@ -26,3 +26,4 @@ cargo-outdated
 cargo-codspeed
 tauri-cli
 cargo-outdated
+a11ywatch_cli
