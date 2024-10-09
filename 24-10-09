@@ -39,3 +39,4 @@ httpmock
 rls-rustc
 rustfmt-nightly
 pwasm-utils
+rkv
