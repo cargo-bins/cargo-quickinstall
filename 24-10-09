@@ -12,3 +12,4 @@ nextest-filtering
 typst-cli
 httpmock
 sea-orm-cli
+cce
