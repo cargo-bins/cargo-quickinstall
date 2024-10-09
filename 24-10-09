@@ -10,3 +10,4 @@ wmi
 tendermint-rpc
 phf_generator
 human_bytes
+solana-validator
