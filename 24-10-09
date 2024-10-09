@@ -5,3 +5,4 @@ qsv
 rkv
 unic-langid-impl
 apollo-router
+rustfmt-nightly
