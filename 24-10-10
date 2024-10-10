@@ -11,3 +11,4 @@ addr2line
 nu_plugin_gstat
 cargo-quickbuild
 clippy
+ducc-sys
