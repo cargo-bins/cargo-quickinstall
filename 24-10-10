@@ -10,3 +10,4 @@ borsh
 tendermint-abci
 gitnow
 apollo-router
+rls-rustc
