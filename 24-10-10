@@ -13,3 +13,4 @@ cargo-lock
 solana-gossip
 racer
 unic-langid-impl
+nextsv
