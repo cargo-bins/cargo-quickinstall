@@ -8,3 +8,4 @@ rmesg
 solana-cli
 diesel_cli
 parquet
+textplots
