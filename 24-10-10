@@ -2,3 +2,4 @@ rustfmt-nightly
 exa
 diesel_cli
 solana-genesis
+cargo-local-registry
