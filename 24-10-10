@@ -28,3 +28,4 @@ wmi
 rls-rustc
 rkv
 phf_generator
+unic-langid-impl
