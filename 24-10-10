@@ -32,3 +32,4 @@ unic-langid-impl
 nkeys
 bluetui
 nextest-filtering
+winpty-rs
