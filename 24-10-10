@@ -23,3 +23,4 @@ minicbor
 raw-cpuid
 opencv-binding-generator
 termusic
+cached-path
