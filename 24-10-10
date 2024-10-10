@@ -6,3 +6,4 @@ cargo-tarpaulin
 cargo-lock
 cargo-udeps
 cargo-outdated
+cargo-codspeed
