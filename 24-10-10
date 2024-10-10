@@ -6,3 +6,4 @@ cargo-local-registry
 solana-cli
 rmesg
 solana-cli
+diesel_cli
