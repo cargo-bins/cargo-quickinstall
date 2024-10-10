@@ -48,3 +48,4 @@ typst-cli
 rav1e
 solana-validator
 tree-sitter-graph
+opencv-binding-generator
