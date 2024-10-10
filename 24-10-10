@@ -10,3 +10,4 @@ wmi
 nextsv
 tendermint-abci
 cargo-lock
+solana-gossip
