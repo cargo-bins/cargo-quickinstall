@@ -14,3 +14,4 @@ cargo-espflash
 dotenv
 rustrict
 espflash
+solana-validator
