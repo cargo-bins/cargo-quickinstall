@@ -55,3 +55,4 @@ mise
 spider_worker
 qrtool
 pcu
+libbpf-cargo
