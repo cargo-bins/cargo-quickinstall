@@ -36,3 +36,4 @@ winpty-rs
 cargo-lock
 raw-cpuid
 addr2line
+oxipng
