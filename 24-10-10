@@ -57,3 +57,4 @@ qrtool
 pcu
 libbpf-cargo
 schematools-cli
+dotenvy
