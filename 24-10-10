@@ -14,3 +14,4 @@ cargo-lock
 phoenix-cli
 apollo-router
 hurl
+apollo-router
