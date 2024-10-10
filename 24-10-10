@@ -3,3 +3,4 @@ cargo-generate
 cargo-outdated
 cargo-codspeed
 cargo-tarpaulin
+cargo-lock
