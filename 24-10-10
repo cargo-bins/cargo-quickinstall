@@ -5,3 +5,4 @@ diesel_cli
 socketcan
 phoenix-cli
 tree-sitter-cli
+solana-verify
