@@ -37,3 +37,4 @@ cargo-lock
 raw-cpuid
 addr2line
 oxipng
+tendermint-abci
