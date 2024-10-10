@@ -9,3 +9,4 @@ clippy
 borsh
 tendermint-abci
 gitnow
+apollo-router
