@@ -45,3 +45,4 @@ apollo-router
 addr2line
 schematools-cli
 minicbor
+qrtool
