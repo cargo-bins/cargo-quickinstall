@@ -26,3 +26,4 @@ foundationdb-gen
 nu_plugin_dbus
 wmi
 rls-rustc
+rkv
