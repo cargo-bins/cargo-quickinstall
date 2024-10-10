@@ -11,3 +11,4 @@ pwasm-utils
 h3o
 schemafy
 cargo-espflash
+dotenv
