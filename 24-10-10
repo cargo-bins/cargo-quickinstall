@@ -28,3 +28,4 @@ re_query
 solana-gossip
 clippy
 nextsv
+remove_dir_all
