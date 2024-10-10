@@ -33,3 +33,4 @@ nkeys
 bluetui
 nextest-filtering
 winpty-rs
+cargo-lock
