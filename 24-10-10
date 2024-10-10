@@ -7,3 +7,4 @@ solana-cli
 rmesg
 solana-cli
 diesel_cli
+parquet
