@@ -56,3 +56,4 @@ spider_worker
 qrtool
 pcu
 libbpf-cargo
+schematools-cli
