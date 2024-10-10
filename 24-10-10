@@ -1,2 +1,3 @@
 rustfmt-nightly
 exa
+diesel_cli
