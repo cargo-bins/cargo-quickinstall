@@ -19,3 +19,4 @@ dotenv
 nu
 diesel_cli
 binstall
+opencv-binding-generator
