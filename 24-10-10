@@ -12,3 +12,4 @@ graphql_client_cli
 diesel_cli
 cargo-lock
 phoenix-cli
+apollo-router
