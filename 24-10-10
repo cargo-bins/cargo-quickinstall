@@ -3,3 +3,4 @@ tree-sitter-graph
 tendermint-abci
 addr2line
 parquet
+qsv
