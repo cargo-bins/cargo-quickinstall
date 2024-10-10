@@ -17,3 +17,4 @@ nextsv
 pwasm-utils
 dotenv
 nu
+diesel_cli
