@@ -17,3 +17,4 @@ clippy
 cpp_demangle
 cargo-local-registry
 apollo-router
+cargo-local-registry
