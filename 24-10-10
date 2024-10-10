@@ -27,3 +27,4 @@ nu_plugin_dbus
 wmi
 rls-rustc
 rkv
+phf_generator
