@@ -9,3 +9,4 @@ solana-verify
 solana-cli
 apollo-router
 graphql_client_cli
+diesel_cli
