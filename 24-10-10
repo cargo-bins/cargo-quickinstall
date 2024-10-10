@@ -13,3 +13,4 @@ diesel_cli
 cargo-lock
 phoenix-cli
 apollo-router
+hurl
