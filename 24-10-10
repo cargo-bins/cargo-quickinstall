@@ -16,3 +16,4 @@ binstall
 clippy
 cpp_demangle
 cargo-local-registry
+apollo-router
