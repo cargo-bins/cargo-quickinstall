@@ -18,3 +18,4 @@ pwasm-utils
 dotenv
 nu
 diesel_cli
+binstall
