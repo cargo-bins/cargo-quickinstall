@@ -10,3 +10,4 @@ diesel_cli
 parquet
 textplots
 apollo-router
+paperclip
