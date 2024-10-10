@@ -3,3 +3,4 @@ graphql_client_cli
 cargo-lock
 diesel_cli
 socketcan
+phoenix-cli
