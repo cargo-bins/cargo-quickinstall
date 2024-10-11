@@ -12,3 +12,4 @@ graphql_client_cli
 deploy
 librespot
 arrow-flight
+tree-sitter-cli
