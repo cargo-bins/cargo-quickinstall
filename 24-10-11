@@ -5,3 +5,4 @@ cargo-tarpaulin
 apollo-router
 sccache
 starship
+cargo-c
