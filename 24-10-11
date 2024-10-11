@@ -18,3 +18,4 @@ re_query
 rls-rustc
 phf_generator
 sqlx-cli
+rustbus
