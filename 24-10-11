@@ -7,3 +7,4 @@ foundationdb-gen
 diesel_cli
 apollo-router
 minicbor
+syd
