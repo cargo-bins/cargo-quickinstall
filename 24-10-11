@@ -22,3 +22,4 @@ rustbus
 borsh
 pwasm-utils
 cargo-local-registry
+solana-genesis
