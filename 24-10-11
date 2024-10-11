@@ -8,3 +8,4 @@ minicbor
 cargo-quickbuild
 arrow-flight
 nu_plugin_gstat
+parquet
