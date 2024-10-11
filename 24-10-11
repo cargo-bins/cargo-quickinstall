@@ -21,3 +21,4 @@ sqlx-cli
 rustbus
 borsh
 pwasm-utils
+cargo-local-registry
