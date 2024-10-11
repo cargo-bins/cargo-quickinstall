@@ -15,3 +15,4 @@ sea-orm-cli
 librespot
 minicbor
 opencv-binding-generator
+re_query
