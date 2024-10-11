@@ -47,3 +47,4 @@ oso
 cargo-udeps
 cargo-udeps
 cargo-lock
+unic-langid-impl
