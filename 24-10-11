@@ -17,3 +17,4 @@ papyrus_storage
 cargo-local-registry
 racer
 ducc-sys
+human_bytes
