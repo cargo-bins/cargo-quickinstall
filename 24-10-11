@@ -34,3 +34,4 @@ tendermint-rpc
 typst-cli
 minicbor
 py-spy
+papyrus_storage
