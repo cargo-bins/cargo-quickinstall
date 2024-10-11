@@ -40,3 +40,4 @@ pgrx-tests
 starship
 cargo-generate
 cargo-lock
+textplots
