@@ -13,3 +13,4 @@ schemafy
 minicbor
 rmesg
 protox
+cpp_demangle
