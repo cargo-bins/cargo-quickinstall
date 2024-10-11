@@ -12,3 +12,4 @@ cargo-local-registry
 apollo-router
 cargo-generate
 cargo-generate
+cargo-lock
