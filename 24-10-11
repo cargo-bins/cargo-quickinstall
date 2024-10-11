@@ -39,3 +39,4 @@ dotenv
 clippy
 protox
 solana-cli
+apollo-router
