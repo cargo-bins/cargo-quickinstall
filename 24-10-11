@@ -4,3 +4,4 @@ deploy
 human_bytes
 clippy
 rustrict
+sha1collisiondetection
