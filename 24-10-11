@@ -13,3 +13,4 @@ racer
 foundationdb-gen
 sea-orm-cli
 librespot
+minicbor
