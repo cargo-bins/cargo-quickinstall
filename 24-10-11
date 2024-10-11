@@ -38,3 +38,4 @@ papyrus_storage
 cargo-public-api
 wol-rs
 sea-orm-cli
+release
