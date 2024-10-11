@@ -39,3 +39,4 @@ clippy
 borsh
 remove_dir_all
 socketcan
+librespot
