@@ -46,3 +46,4 @@ clippy
 oso
 cargo-udeps
 cargo-udeps
+cargo-lock
