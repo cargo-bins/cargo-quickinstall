@@ -40,3 +40,4 @@ wol-rs
 sea-orm-cli
 release
 dotenv
+solana-keygen
