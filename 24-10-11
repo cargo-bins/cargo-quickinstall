@@ -37,3 +37,4 @@ pgrx-tests
 sqlx-cli
 cargo-lock
 pgrx-tests
+starship
