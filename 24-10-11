@@ -8,3 +8,4 @@ wmi
 solana-genesis
 raw-cpuid
 solana-cli
+solana-gossip
