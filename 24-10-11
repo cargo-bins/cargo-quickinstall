@@ -60,3 +60,4 @@ wol-rs
 apollo-router
 cargo-public-api
 rkv
+wmi
