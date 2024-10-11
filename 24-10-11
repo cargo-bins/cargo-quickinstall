@@ -26,3 +26,4 @@ solana-genesis
 sniffnet
 phf_generator
 java-locator
+addr2line
