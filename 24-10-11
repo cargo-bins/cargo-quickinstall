@@ -35,3 +35,4 @@ typst-cli
 minicbor
 py-spy
 papyrus_storage
+cargo-public-api
