@@ -2,3 +2,4 @@ a11ywatch_cli
 cargo-lock
 socketcan
 human_name
+racer
