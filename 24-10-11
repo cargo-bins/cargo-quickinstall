@@ -9,3 +9,4 @@ cargo-c
 starship
 cargo-local-registry
 cargo-local-registry
+apollo-router
