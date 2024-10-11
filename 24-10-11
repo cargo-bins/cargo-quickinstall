@@ -38,3 +38,4 @@ snarkvm
 clippy
 borsh
 remove_dir_all
+socketcan
