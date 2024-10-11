@@ -8,3 +8,4 @@ diesel_cli
 apollo-router
 minicbor
 syd
+phf_generator
