@@ -38,3 +38,4 @@ raw-cpuid
 dotenv
 clippy
 protox
+solana-cli
