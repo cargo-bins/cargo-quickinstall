@@ -10,3 +10,4 @@ rustfmt-nightly
 pgrx-tests
 java-locator
 racer
+foundationdb-gen
