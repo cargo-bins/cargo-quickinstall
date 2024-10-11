@@ -59,3 +59,4 @@ pwasm-utils
 wol-rs
 apollo-router
 cargo-public-api
+rkv
