@@ -16,3 +16,4 @@ nu
 papyrus_storage
 cargo-local-registry
 racer
+ducc-sys
