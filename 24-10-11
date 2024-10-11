@@ -21,3 +21,4 @@ human_bytes
 diesel_cli
 addr2line
 tree-sitter-cli
+cargo-tarpaulin
