@@ -39,3 +39,4 @@ cargo-public-api
 wol-rs
 sea-orm-cli
 release
+dotenv
