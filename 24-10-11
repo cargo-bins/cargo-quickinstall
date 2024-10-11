@@ -54,3 +54,4 @@ pgrx-tests
 clippy
 minicbor
 snarkvm
+socketcan
