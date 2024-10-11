@@ -34,3 +34,4 @@ cargo-about
 solana-genesis
 cargo-local-registry
 pgrx-tests
+sqlx-cli
