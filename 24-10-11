@@ -3,3 +3,4 @@ cargo-lock
 rmesg
 cargo-lock
 exa
+cargo-generate
