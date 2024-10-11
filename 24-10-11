@@ -14,3 +14,4 @@ foundationdb-gen
 sea-orm-cli
 librespot
 minicbor
+opencv-binding-generator
