@@ -24,3 +24,4 @@ tree-sitter-cli
 cargo-tarpaulin
 sccache
 cargo-udeps
+cargo-c
