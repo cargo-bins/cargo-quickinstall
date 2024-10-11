@@ -31,3 +31,4 @@ rustfmt-nightly
 sniffnet
 apollo-router
 clippy
+remove_dir_all
