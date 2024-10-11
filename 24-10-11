@@ -3,3 +3,4 @@ cargo-c
 cargo-outdated
 cargo-tarpaulin
 apollo-router
+sccache
