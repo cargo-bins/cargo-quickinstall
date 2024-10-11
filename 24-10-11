@@ -3,3 +3,4 @@ pwasm-utils
 schematools-cli
 rrule
 apollo-router
+phf_generator
