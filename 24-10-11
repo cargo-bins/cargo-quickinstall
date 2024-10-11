@@ -33,3 +33,4 @@ solana-genesis
 httpmock
 solana-cli
 nextest-filtering
+graphql_client_cli
