@@ -28,3 +28,4 @@ typst-cli
 nkeys
 arrow-flight
 schematools-cli
+phf_generator
