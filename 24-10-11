@@ -30,3 +30,4 @@ addr2line
 rustfmt-nightly
 sniffnet
 apollo-router
+clippy
