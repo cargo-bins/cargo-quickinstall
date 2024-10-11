@@ -19,3 +19,4 @@ re_query
 rkv
 cargo-lock
 zuse
+pgrx-tests
