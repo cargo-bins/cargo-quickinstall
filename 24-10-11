@@ -17,3 +17,4 @@ minicbor
 opencv-binding-generator
 re_query
 rkv
+cargo-lock
