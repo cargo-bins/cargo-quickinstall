@@ -33,3 +33,4 @@ tree-sitter-cli
 tendermint-rpc
 typst-cli
 minicbor
+py-spy
