@@ -39,3 +39,4 @@ cargo-lock
 pgrx-tests
 starship
 cargo-generate
+cargo-lock
