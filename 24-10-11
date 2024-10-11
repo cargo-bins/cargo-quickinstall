@@ -1,3 +1,4 @@
 cargo-codspeed
 cargo-c
 cargo-outdated
+cargo-tarpaulin
