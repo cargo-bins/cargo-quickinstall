@@ -26,3 +26,4 @@ borsh
 oxipng
 deploy
 solana-genesis
+nextest-filtering
