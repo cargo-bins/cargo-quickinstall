@@ -16,3 +16,4 @@ protox
 cpp_demangle
 re_query
 rls-rustc
+phf_generator
