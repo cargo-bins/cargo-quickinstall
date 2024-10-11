@@ -28,3 +28,4 @@ phf_generator
 java-locator
 addr2line
 rustfmt-nightly
+sniffnet
