@@ -3,3 +3,4 @@ cargo-lock
 socketcan
 human_name
 racer
+foundationdb-gen
