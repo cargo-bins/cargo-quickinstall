@@ -32,3 +32,4 @@ cached-path
 solana-genesis
 httpmock
 solana-cli
+nextest-filtering
