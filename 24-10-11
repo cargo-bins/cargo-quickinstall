@@ -35,3 +35,4 @@ solana-cli
 nextest-filtering
 graphql_client_cli
 raw-cpuid
+dotenv
