@@ -41,3 +41,4 @@ remove_dir_all
 socketcan
 librespot
 fend
+clipboard-history
