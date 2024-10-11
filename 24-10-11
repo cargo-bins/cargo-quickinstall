@@ -32,3 +32,4 @@ apollo-router
 racer
 cargo-about
 solana-genesis
+cargo-local-registry
