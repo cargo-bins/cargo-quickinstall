@@ -19,3 +19,4 @@ rls-rustc
 phf_generator
 sqlx-cli
 rustbus
+borsh
