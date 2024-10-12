@@ -8,3 +8,4 @@ wmi
 trunk
 nextest-filtering
 sea-orm-cli
+schemafy
