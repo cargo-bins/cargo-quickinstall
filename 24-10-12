@@ -9,3 +9,4 @@ sniffnet
 rustfmt-nightly
 laminar
 cargo-lock
+socketcan
