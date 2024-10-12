@@ -53,3 +53,4 @@ solana-genesis
 solana-gossip
 java-locator
 rls-rustc
+phf_generator
