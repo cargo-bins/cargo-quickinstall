@@ -49,3 +49,4 @@ jless
 cargo-public-api
 salvo-cli
 typst-cli
+diesel_cli
