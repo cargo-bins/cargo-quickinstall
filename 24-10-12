@@ -11,3 +11,4 @@ laminar
 cargo-lock
 socketcan
 rrule
+arrow-flight
