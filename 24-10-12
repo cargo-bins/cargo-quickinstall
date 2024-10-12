@@ -47,3 +47,4 @@ fend
 dotenv
 jless
 cargo-public-api
+salvo-cli
