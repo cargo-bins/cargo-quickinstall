@@ -51,3 +51,4 @@ solana-remote-wallet
 libbpf-cargo
 pgrx-tests
 solana-validator
+phf_generator
