@@ -68,3 +68,4 @@ tree-sitter-graph
 winpty-rs
 spider_cli
 arrow-flight
+sccache
