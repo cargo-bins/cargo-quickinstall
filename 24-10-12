@@ -1,3 +1,4 @@
 cargo-generate
 racer
 foundationdb-gen
+ducc-sys
