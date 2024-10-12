@@ -6,3 +6,4 @@ unic-langid-impl
 tree-sitter-cli
 cargo-lock
 jless
+salvo-cli
