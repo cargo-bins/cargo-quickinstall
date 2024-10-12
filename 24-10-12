@@ -80,3 +80,4 @@ cargo-c
 foundationdb-gen
 libbpf-cargo
 py-spy
+arrow-flight
