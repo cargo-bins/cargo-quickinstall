@@ -28,3 +28,4 @@ addr2line
 zuse
 wol-rs
 cargo-udeps
+spider_cli
