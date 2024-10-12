@@ -16,3 +16,4 @@ cavif
 sha1collisiondetection
 diesel_cli
 rustfmt-nightly
+nu_plugin_gstat
