@@ -6,3 +6,4 @@ borsh
 sea-orm-cli
 solana-keygen
 cargo-c
+wol-rs
