@@ -25,3 +25,4 @@ cargo-c
 re_query
 racer
 pgrx-tests
+z3tracer
