@@ -39,3 +39,4 @@ wol-rs
 remove_dir_all
 papyrus_storage
 rkv
+unic-langid-impl
