@@ -23,3 +23,4 @@ dotenvy
 parquet
 rls-rustc
 sha1collisiondetection
+rustrict
