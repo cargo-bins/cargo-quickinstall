@@ -12,3 +12,4 @@ cargo-lock
 socketcan
 rrule
 arrow-flight
+rmesg
