@@ -58,3 +58,4 @@ cpp_demangle
 addr2line
 nextest-filtering
 schemafy
+solana-genesis
