@@ -39,3 +39,4 @@ pwasm-utils
 foundationdb-gen
 addr2line
 cargo-lock
+rustfmt-nightly
