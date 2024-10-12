@@ -52,3 +52,4 @@ typst-cli
 diesel_cli
 solana-genesis
 rustrict
+cpp_demangle
