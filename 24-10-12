@@ -10,3 +10,4 @@ rls-rustc
 paperclip
 tree-sitter-graph
 z3tracer
+benfred-read-process-memory
