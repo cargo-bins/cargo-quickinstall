@@ -33,3 +33,4 @@ solana-stake-accounts
 libbpf-cargo
 solana-verify
 solana-genesis
+winpty-rs
