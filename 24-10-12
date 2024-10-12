@@ -64,3 +64,4 @@ spider_cli
 sea-orm-cli
 cargo-public-api
 sshx
+pcu
