@@ -37,3 +37,4 @@ winpty-rs
 pwasm-utils
 cached-path
 cargo-lock
+dotenvy
