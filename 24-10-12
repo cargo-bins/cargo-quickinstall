@@ -22,3 +22,4 @@ solana-stake-accounts
 sccache
 tauri-cli
 ducc-sys
+winpty-rs
