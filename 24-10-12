@@ -75,3 +75,4 @@ py-spy
 cpp_demangle
 sccache
 human_bytes
+diesel_cli
