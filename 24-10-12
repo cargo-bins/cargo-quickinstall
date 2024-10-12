@@ -16,3 +16,4 @@ human_bytes
 human_name
 pgrx-tests
 cargo-c
+parquet
