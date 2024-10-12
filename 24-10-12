@@ -26,3 +26,4 @@ winpty-rs
 paperclip
 addr2line
 zuse
+wol-rs
