@@ -8,3 +8,4 @@ remove_dir_all
 diesel_cli
 solana-genesis
 deploy
+human_name
