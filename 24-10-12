@@ -19,3 +19,4 @@ rustfmt-nightly
 nu_plugin_gstat
 opencv-binding-generator
 deno
+dotenvy
