@@ -58,3 +58,4 @@ deploy
 paperclip
 minicbor
 cargo-lock
+deno
