@@ -9,3 +9,4 @@ nkeys
 dotenv
 laminar
 dotenv
+pwasm-utils
