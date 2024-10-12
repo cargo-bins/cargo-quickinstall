@@ -57,3 +57,4 @@ phf_generator
 cpp_demangle
 addr2line
 nextest-filtering
+schemafy
