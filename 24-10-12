@@ -31,3 +31,4 @@ laminar
 rkv
 cpp_demangle
 libbpf-cargo
+dotenv
