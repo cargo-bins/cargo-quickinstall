@@ -25,3 +25,4 @@ dotenvy
 tendermint-rpc
 honggfuzz
 papyrus_storage
+pwasm-utils
