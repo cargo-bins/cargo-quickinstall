@@ -37,3 +37,4 @@ borsh
 cargo-tarpaulin
 sccache
 unic-langid-impl
+solana-genesis
