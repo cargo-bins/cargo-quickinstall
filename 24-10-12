@@ -54,3 +54,4 @@ solana-gossip
 java-locator
 rls-rustc
 phf_generator
+cpp_demangle
