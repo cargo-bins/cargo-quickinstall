@@ -25,3 +25,4 @@ graphql_client_cli
 solana-gossip
 wol-rs
 rkv
+laminar
