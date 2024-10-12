@@ -35,3 +35,4 @@ solana-verify
 solana-genesis
 winpty-rs
 pwasm-utils
+cached-path
