@@ -48,3 +48,4 @@ sqlx-cli
 cargo-generate
 sccache
 solana-remote-wallet
+libbpf-cargo
