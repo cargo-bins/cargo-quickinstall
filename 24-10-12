@@ -43,3 +43,4 @@ unic-langid-impl
 cargo-tarpaulin
 laminar
 rrule
+winpty-rs
