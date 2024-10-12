@@ -39,3 +39,4 @@ sha1collisiondetection
 pwasm-utils
 solana-gossip
 apollo-router
+z3tracer
