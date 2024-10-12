@@ -69,3 +69,4 @@ winpty-rs
 spider_cli
 arrow-flight
 sccache
+pwasm-utils
