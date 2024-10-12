@@ -77,3 +77,4 @@ sccache
 human_bytes
 diesel_cli
 cargo-c
+foundationdb-gen
