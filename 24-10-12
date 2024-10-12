@@ -32,3 +32,4 @@ solana-genesis
 nextest-filtering
 foundationdb-gen
 clippy
+syd
