@@ -30,3 +30,4 @@ phf_generator
 rustbus
 remove_dir_all
 cargo-generate
+cargo-generate
