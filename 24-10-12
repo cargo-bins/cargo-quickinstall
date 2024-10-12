@@ -46,3 +46,4 @@ rrule
 winpty-rs
 sqlx-cli
 cargo-generate
+sccache
