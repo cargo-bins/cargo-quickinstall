@@ -6,3 +6,4 @@ skim
 rustfmt
 tendermint-abci
 ducc-sys
+rls-rustc
