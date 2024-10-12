@@ -9,3 +9,4 @@ diesel_cli
 solana-genesis
 deploy
 human_name
+nkeys
