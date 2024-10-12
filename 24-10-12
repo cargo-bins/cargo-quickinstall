@@ -34,3 +34,4 @@ clippy
 remove_dir_all
 cargo-c
 borsh
+cargo-tarpaulin
