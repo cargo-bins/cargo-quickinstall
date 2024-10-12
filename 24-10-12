@@ -35,3 +35,4 @@ dotenv
 borsh
 winpty-rs
 apollo-router
+sha1collisiondetection
