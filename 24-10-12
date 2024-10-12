@@ -27,3 +27,4 @@ cargo-local-registry
 pgrx-tests
 re_query
 phf_generator
+rustbus
