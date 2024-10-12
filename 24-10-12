@@ -30,3 +30,4 @@ schemafy
 laminar
 rkv
 cpp_demangle
+libbpf-cargo
