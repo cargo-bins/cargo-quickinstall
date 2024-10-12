@@ -62,3 +62,4 @@ rustrict
 solana-remote-wallet
 spider_cli
 sea-orm-cli
+cargo-public-api
