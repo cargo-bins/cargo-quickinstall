@@ -51,3 +51,4 @@ pgrx-tests
 nexmark
 z3tracer
 racer
+opencv-binding-generator
