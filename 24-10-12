@@ -29,3 +29,4 @@ laminar
 foundationdb-gen
 borsh
 rustfmt-nightly
+solana-stake-accounts
