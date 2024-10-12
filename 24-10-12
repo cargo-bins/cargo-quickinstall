@@ -40,3 +40,4 @@ unic-langid-impl
 solana-genesis
 nexmark
 sha1collisiondetection
+cargo-lock
