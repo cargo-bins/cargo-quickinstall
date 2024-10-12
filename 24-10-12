@@ -8,3 +8,4 @@ cargo-lock
 jless
 salvo-cli
 commitgpt
+snarkvm
