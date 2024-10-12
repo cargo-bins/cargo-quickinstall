@@ -72,3 +72,4 @@ sccache
 pwasm-utils
 tendermint-abci
 py-spy
+cpp_demangle
