@@ -8,3 +8,4 @@ pgrx-tests
 rustrict
 rkv
 unic-langid-impl
+dotenv
