@@ -12,3 +12,4 @@ dotenv
 pwasm-utils
 solana-genesis
 nextest-filtering
+cavif
