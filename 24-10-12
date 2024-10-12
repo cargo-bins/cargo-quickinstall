@@ -4,3 +4,4 @@ tendermint-rpc
 solana-remote-wallet
 protox
 addr2line
+remove_dir_all
