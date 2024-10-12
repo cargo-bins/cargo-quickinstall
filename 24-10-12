@@ -46,3 +46,4 @@ coldsnap
 tendermint-abci
 solana-gossip
 java-locator
+pgrx-tests
