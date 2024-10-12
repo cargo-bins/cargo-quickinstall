@@ -52,3 +52,4 @@ libbpf-cargo
 pgrx-tests
 solana-validator
 phf_generator
+rls-rustc
