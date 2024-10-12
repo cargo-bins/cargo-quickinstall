@@ -36,3 +36,4 @@ cargo-c
 borsh
 cargo-tarpaulin
 sccache
+unic-langid-impl
