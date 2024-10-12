@@ -86,3 +86,4 @@ solana-genesis
 cached-path
 foundationdb-gen
 nkeys
+solana-stake-accounts
