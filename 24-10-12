@@ -37,3 +37,4 @@ winpty-rs
 apollo-router
 sha1collisiondetection
 pwasm-utils
+solana-gossip
