@@ -36,3 +36,4 @@ librespot
 clippy
 sha1collisiondetection
 wol-rs
+remove_dir_all
