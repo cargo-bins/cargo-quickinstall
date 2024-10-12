@@ -21,3 +21,4 @@ human_name
 solana-stake-accounts
 sccache
 tauri-cli
+ducc-sys
