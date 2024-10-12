@@ -64,3 +64,4 @@ libbpf-cargo
 deploy
 minicbor
 solana-verify
+snarkvm
