@@ -24,3 +24,4 @@ z3tracer
 socketcan
 pcu
 tree-sitter-cli
+human_bytes
