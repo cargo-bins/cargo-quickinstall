@@ -37,3 +37,4 @@ unic-langid-impl
 binstall
 pwasm-utils
 foundationdb-gen
+addr2line
