@@ -18,3 +18,4 @@ solana-genesis
 diesel_cli
 dotenvy
 paperclip
+addr2line
