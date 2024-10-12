@@ -4,3 +4,4 @@ phf_generator
 nextest-filtering
 ducc-sys
 minicbor
+pgrx-tests
