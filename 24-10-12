@@ -57,3 +57,4 @@ laminar
 deploy
 paperclip
 minicbor
+cargo-lock
