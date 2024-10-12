@@ -56,3 +56,4 @@ rls-rustc
 dotenvy
 nexmark
 schemafy
+raw-cpuid
