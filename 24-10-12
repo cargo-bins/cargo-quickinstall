@@ -30,3 +30,4 @@ foundationdb-gen
 borsh
 rustfmt-nightly
 solana-stake-accounts
+libbpf-cargo
