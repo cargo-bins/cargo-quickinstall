@@ -6,3 +6,4 @@ protox
 addr2line
 remove_dir_all
 diesel_cli
+solana-genesis
