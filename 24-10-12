@@ -27,3 +27,4 @@ paperclip
 addr2line
 zuse
 wol-rs
+cargo-udeps
