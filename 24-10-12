@@ -36,3 +36,4 @@ solana-genesis
 winpty-rs
 pwasm-utils
 cached-path
+cargo-lock
