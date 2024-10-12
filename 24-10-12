@@ -60,3 +60,4 @@ raw-cpuid
 rls-rustc
 schemafy
 minicbor
+tree-sitter-graph
