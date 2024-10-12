@@ -33,3 +33,4 @@ nextest-filtering
 foundationdb-gen
 clippy
 syd
+unic-langid-impl
