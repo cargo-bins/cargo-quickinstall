@@ -55,3 +55,4 @@ java-locator
 rls-rustc
 phf_generator
 cpp_demangle
+addr2line
