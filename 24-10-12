@@ -30,3 +30,4 @@ wol-rs
 cargo-udeps
 spider_cli
 laminar
+opencv-binding-generator
