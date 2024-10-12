@@ -47,3 +47,4 @@ spider_worker
 spider_cli
 tendermint-abci
 redoxer
+solana-stake-accounts
