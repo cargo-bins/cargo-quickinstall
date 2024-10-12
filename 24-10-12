@@ -27,3 +27,4 @@ wol-rs
 rkv
 laminar
 foundationdb-gen
+borsh
