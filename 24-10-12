@@ -17,3 +17,4 @@ cargo-udeps
 laminar
 rustrict
 wol-rs
+cargo-tarpaulin
