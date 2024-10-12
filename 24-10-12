@@ -35,3 +35,4 @@ clippy
 syd
 unic-langid-impl
 binstall
+pwasm-utils
