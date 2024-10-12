@@ -34,3 +34,4 @@ libbpf-cargo
 dotenv
 borsh
 winpty-rs
+apollo-router
