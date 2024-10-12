@@ -40,3 +40,4 @@ cargo-lock
 dotenvy
 nexmark
 ducc-sys
+human_bytes
