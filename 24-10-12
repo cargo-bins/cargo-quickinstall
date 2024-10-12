@@ -7,3 +7,4 @@ tree-sitter-cli
 cargo-lock
 jless
 salvo-cli
+commitgpt
