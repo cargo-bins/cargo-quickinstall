@@ -35,3 +35,4 @@ wmi
 librespot
 clippy
 sha1collisiondetection
+wol-rs
