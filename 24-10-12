@@ -15,3 +15,4 @@ re_query
 remove_dir_all
 arrow-flight
 solana-genesis
+diesel_cli
