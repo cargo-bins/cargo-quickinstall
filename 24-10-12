@@ -28,3 +28,4 @@ rkv
 laminar
 foundationdb-gen
 borsh
+rustfmt-nightly
