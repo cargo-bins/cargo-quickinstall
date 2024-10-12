@@ -11,3 +11,4 @@ rustfmt-nightly
 nextest-filtering
 h3o
 syd
+tendermint-rpc
