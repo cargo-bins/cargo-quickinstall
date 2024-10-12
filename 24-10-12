@@ -62,3 +62,4 @@ deno
 solana-genesis
 libbpf-cargo
 deploy
+minicbor
