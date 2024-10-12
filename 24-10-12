@@ -25,3 +25,4 @@ clippy
 textplots
 cargo-local-registry
 pgrx-tests
+re_query
