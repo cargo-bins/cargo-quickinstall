@@ -43,3 +43,4 @@ rustfmt-nightly
 remove_dir_all
 re_query
 coldsnap
+tendermint-abci
