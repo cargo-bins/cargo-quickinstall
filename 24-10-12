@@ -8,3 +8,4 @@ tendermint-abci
 ducc-sys
 rls-rustc
 paperclip
+tree-sitter-graph
