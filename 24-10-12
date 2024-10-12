@@ -1,3 +1,4 @@
 cargo-lock
 rustfmt-nightly
 tendermint-rpc
+solana-remote-wallet
