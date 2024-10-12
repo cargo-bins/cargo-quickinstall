@@ -71,3 +71,4 @@ solana-gossip
 sha1collisiondetection
 paperclip
 snarkvm
+remove_dir_all
