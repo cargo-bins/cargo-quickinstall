@@ -20,3 +20,4 @@ raw-cpuid
 dotenv
 tendermint-abci
 spider_cli
+borsh
