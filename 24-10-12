@@ -47,3 +47,4 @@ winpty-rs
 sqlx-cli
 cargo-generate
 sccache
+solana-remote-wallet
