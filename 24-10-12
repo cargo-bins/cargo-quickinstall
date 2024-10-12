@@ -5,3 +5,4 @@ raw-cpuid
 skim
 rustfmt
 tendermint-abci
+ducc-sys
