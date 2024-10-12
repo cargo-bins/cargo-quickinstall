@@ -15,3 +15,4 @@ nextest-filtering
 cavif
 sha1collisiondetection
 diesel_cli
+rustfmt-nightly
