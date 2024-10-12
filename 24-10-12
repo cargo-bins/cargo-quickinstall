@@ -10,3 +10,4 @@ dotenv
 laminar
 dotenv
 pwasm-utils
+solana-genesis
