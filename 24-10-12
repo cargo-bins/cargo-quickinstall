@@ -17,3 +17,4 @@ h3o
 cpp_demangle
 tree-sitter-graph
 raw-cpuid
+dotenv
