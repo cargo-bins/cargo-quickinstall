@@ -1,2 +1,3 @@
 cargo-lock
 rustfmt-nightly
+tendermint-rpc
