@@ -21,3 +21,4 @@ opencv-binding-generator
 deno
 dotenvy
 parquet
+rls-rustc
