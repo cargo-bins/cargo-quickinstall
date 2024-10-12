@@ -65,3 +65,4 @@ laminar
 solana-keygen
 cargo-generate
 tree-sitter-graph
+winpty-rs
