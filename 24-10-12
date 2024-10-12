@@ -13,3 +13,4 @@ dotenv
 paperclip
 nextsv
 oculante
+httpmock
