@@ -28,3 +28,4 @@ pgrx-tests
 re_query
 phf_generator
 rustbus
+remove_dir_all
