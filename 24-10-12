@@ -9,3 +9,4 @@ ducc-sys
 rls-rustc
 paperclip
 tree-sitter-graph
+z3tracer
