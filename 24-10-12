@@ -29,3 +29,4 @@ pwasm-utils
 unic-langid-impl
 dotenvy
 solana-genesis
+nextest-filtering
