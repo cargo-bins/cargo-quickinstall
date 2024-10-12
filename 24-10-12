@@ -21,3 +21,4 @@ dotenv
 tendermint-abci
 spider_cli
 borsh
+graphql_client_cli
