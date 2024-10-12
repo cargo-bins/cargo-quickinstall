@@ -4,3 +4,4 @@ foundationdb-gen
 ducc-sys
 borsh
 sea-orm-cli
+solana-keygen
