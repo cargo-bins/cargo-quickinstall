@@ -38,3 +38,4 @@ sha1collisiondetection
 wol-rs
 remove_dir_all
 papyrus_storage
+rkv
