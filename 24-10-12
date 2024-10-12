@@ -45,3 +45,4 @@ re_query
 coldsnap
 tendermint-abci
 solana-gossip
+java-locator
