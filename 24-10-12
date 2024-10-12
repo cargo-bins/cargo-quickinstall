@@ -23,3 +23,4 @@ nu_plugin_dbus
 deno
 mdbook-plantuml
 remove_dir_all
+a11ywatch_cli
