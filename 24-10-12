@@ -66,3 +66,4 @@ solana-keygen
 cargo-generate
 tree-sitter-graph
 winpty-rs
+spider_cli
