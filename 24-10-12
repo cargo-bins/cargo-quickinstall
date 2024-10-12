@@ -42,3 +42,4 @@ cargo-lock
 rustfmt-nightly
 remove_dir_all
 re_query
+coldsnap
