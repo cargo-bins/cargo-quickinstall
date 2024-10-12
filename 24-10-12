@@ -44,3 +44,4 @@ cargo-tarpaulin
 laminar
 rrule
 winpty-rs
+sqlx-cli
