@@ -22,3 +22,4 @@ laminar
 nu_plugin_dbus
 deno
 mdbook-plantuml
+remove_dir_all
