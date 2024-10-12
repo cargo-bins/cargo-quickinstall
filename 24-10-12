@@ -22,3 +22,4 @@ binstall
 z3tracer
 wol-rs
 dotenvy
+tendermint-rpc
