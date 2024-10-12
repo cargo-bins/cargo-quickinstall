@@ -19,3 +19,4 @@ tree-sitter-graph
 raw-cpuid
 dotenv
 tendermint-abci
+spider_cli
