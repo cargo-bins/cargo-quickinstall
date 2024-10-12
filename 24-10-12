@@ -24,3 +24,4 @@ wol-rs
 dotenvy
 tendermint-rpc
 honggfuzz
+papyrus_storage
