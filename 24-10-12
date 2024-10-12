@@ -3,3 +3,4 @@ rustfmt-nightly
 tendermint-rpc
 solana-remote-wallet
 protox
+addr2line
