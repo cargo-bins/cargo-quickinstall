@@ -50,3 +50,4 @@ sccache
 solana-remote-wallet
 libbpf-cargo
 pgrx-tests
+solana-validator
