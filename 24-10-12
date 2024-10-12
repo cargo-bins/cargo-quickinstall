@@ -34,3 +34,4 @@ foundationdb-gen
 clippy
 syd
 unic-langid-impl
+binstall
