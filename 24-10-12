@@ -48,3 +48,4 @@ dotenv
 jless
 cargo-public-api
 salvo-cli
+typst-cli
