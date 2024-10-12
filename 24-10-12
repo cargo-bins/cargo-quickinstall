@@ -10,3 +10,4 @@ nextest-filtering
 sea-orm-cli
 schemafy
 syd
+z3tracer
