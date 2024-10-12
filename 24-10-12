@@ -20,3 +20,4 @@ wol-rs
 cargo-tarpaulin
 solana-validator
 human_bytes
+unic-langid-impl
