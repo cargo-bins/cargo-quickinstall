@@ -32,3 +32,4 @@ rkv
 cpp_demangle
 libbpf-cargo
 dotenv
+borsh
