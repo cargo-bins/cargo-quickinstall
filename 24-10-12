@@ -4,3 +4,4 @@ tokio-process
 raw-cpuid
 skim
 rustfmt
+tendermint-abci
