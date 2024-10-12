@@ -12,3 +12,4 @@ nextest-filtering
 h3o
 syd
 tendermint-rpc
+human_bytes
