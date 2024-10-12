@@ -10,3 +10,4 @@ solana-genesis
 deploy
 human_name
 nkeys
+foundationdb-gen
