@@ -18,3 +18,4 @@ cpp_demangle
 tree-sitter-graph
 raw-cpuid
 dotenv
+tendermint-abci
