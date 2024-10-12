@@ -34,3 +34,4 @@ libbpf-cargo
 solana-verify
 solana-genesis
 winpty-rs
+pwasm-utils
