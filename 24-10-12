@@ -14,3 +14,4 @@ z3tracer
 wmi
 tendermint-rpc
 h3o
+cpp_demangle
