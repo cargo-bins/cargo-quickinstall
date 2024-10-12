@@ -11,3 +11,4 @@ deploy
 human_name
 nkeys
 foundationdb-gen
+cpp_demangle
