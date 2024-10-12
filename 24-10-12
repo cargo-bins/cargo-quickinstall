@@ -12,3 +12,4 @@ dotenv
 syd
 solana-validator
 re_query
+remove_dir_all
