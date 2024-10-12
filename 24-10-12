@@ -56,3 +56,4 @@ tendermint-rpc
 laminar
 deploy
 paperclip
+minicbor
