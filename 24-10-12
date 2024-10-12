@@ -19,3 +19,4 @@ cargo-c
 parquet
 human_name
 solana-stake-accounts
+sccache
