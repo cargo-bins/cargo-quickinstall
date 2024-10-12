@@ -61,3 +61,4 @@ cargo-lock
 deno
 solana-genesis
 libbpf-cargo
+deploy
