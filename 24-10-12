@@ -43,3 +43,4 @@ nu_plugin_gstat
 rrule
 tendermint-abci
 foundationdb-gen
+qsv
