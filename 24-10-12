@@ -55,3 +55,4 @@ phf_generator
 rls-rustc
 dotenvy
 nexmark
+schemafy
