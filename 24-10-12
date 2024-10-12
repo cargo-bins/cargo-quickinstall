@@ -14,3 +14,4 @@ foundationdb-gen
 cpp_demangle
 arrow-flight
 cargo-udeps
+laminar
