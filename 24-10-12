@@ -44,3 +44,4 @@ clipboard-history
 cargo-espflash
 oxipng
 spider_worker
+spider_cli
