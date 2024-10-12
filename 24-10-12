@@ -71,3 +71,4 @@ arrow-flight
 sccache
 pwasm-utils
 tendermint-abci
+py-spy
