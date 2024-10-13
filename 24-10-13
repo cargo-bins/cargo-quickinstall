@@ -26,3 +26,4 @@ raw-cpuid
 cpp_demangle
 wol-rs
 syd
+nexmark
