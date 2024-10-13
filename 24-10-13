@@ -9,3 +9,4 @@ solana-gossip
 foundationdb-gen
 schemafy
 clipboard-history
+cargo-lock
