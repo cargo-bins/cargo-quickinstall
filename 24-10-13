@@ -36,3 +36,4 @@ clippy
 sshx
 nextest-filtering
 clippy
+libbpf-cargo
