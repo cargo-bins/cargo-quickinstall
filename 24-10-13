@@ -38,3 +38,4 @@ py-spy
 laminar
 nextest-filtering
 wol-rs
+raw-cpuid
