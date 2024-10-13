@@ -62,3 +62,4 @@ evcxr_repl
 human_name
 rls-rustc
 tendermint-rpc
+sqlx-cli
