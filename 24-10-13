@@ -30,3 +30,4 @@ rls-rustc
 cargo-lock
 nexmark
 z3tracer
+paperclip
