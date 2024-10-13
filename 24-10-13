@@ -56,3 +56,4 @@ deploy
 arrow-flight
 exa
 deploy
+tendermint-rpc
