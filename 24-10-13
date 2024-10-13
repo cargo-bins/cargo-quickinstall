@@ -38,3 +38,4 @@ diesel_cli
 dotenvy
 winpty-rs
 solana-genesis
+raw-cpuid
