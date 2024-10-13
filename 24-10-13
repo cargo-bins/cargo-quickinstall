@@ -42,3 +42,4 @@ raw-cpuid
 human_bytes
 clippy
 cargo-quickbuild
+rustrict
