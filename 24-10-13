@@ -36,3 +36,4 @@ sea-orm-cli
 racer
 tendermint-rpc
 foundationdb-gen
+h3o
