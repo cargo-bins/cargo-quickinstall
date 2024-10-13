@@ -33,3 +33,4 @@ deno
 rustfmt-nightly
 nextest-filtering
 papyrus_storage
+coldsnap
