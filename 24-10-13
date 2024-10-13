@@ -43,3 +43,4 @@ sniffnet
 remove_dir_all
 rustrict
 z3tracer
+libbpf-cargo
