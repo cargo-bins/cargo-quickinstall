@@ -6,3 +6,4 @@ human_name
 cpp_demangle
 minicbor
 cargo-tarpaulin
+rustrict
