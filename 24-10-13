@@ -64,3 +64,4 @@ rls-rustc
 tendermint-rpc
 sqlx-cli
 solana-validator
+foundationdb-gen
