@@ -70,3 +70,4 @@ tendermint-rpc
 wol-rs
 socketcan
 solana-stake-accounts
+tendermint-abci
