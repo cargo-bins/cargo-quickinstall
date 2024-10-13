@@ -71,3 +71,4 @@ solana-gossip
 laminar
 libbpf-cargo
 papyrus_storage
+winpty-rs
