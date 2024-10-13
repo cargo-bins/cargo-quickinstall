@@ -2,3 +2,4 @@ foundationdb-gen
 nextest-filtering
 phf_generator
 paperclip
+tree-sitter-graph
