@@ -87,3 +87,4 @@ protox
 sqlx-cli
 benfred-read-process-memory
 sn_cli
+tokio-process
