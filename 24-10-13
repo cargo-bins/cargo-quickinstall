@@ -19,3 +19,4 @@ cargo-lock
 rls-rustc
 cached-path
 textplots
+ducc-sys
