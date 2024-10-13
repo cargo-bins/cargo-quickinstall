@@ -29,3 +29,4 @@ pwasm-utils
 syd
 human_name
 cargo-lock
+diesel_cli
