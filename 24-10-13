@@ -72,3 +72,4 @@ salvo-cli
 deploy
 parquet
 cargo-espflash
+human_name
