@@ -58,3 +58,4 @@ remove_dir_all
 textplots
 opencv-binding-generator
 rrule
+libbpf-cargo
