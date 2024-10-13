@@ -37,3 +37,4 @@ remove_dir_all
 sea-orm-cli
 laminar
 textplots
+re_query
