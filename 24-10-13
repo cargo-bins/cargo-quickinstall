@@ -70,3 +70,4 @@ nkeys
 tendermint-abci
 tendermint-rpc
 solana-keygen
+tendermint-rpc
