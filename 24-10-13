@@ -74,3 +74,4 @@ httpmock
 cargo-lock
 cargo-lock
 libbpf-cargo
+cargo-vet
