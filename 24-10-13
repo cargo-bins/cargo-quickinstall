@@ -9,3 +9,4 @@ cargo-tarpaulin
 rustrict
 cpp_demangle
 socketcan
+pgrx-tests
