@@ -17,3 +17,4 @@ spider_cli
 dotenvy
 sccache
 rrule
+parquet
