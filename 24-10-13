@@ -45,3 +45,4 @@ cargo-quickbuild
 rustrict
 tree-sitter-graph
 borsh
+apollo-router
