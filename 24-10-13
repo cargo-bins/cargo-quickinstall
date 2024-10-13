@@ -62,3 +62,4 @@ libbpf-cargo
 cached-path
 snarkvm
 winpty-rs
+libbpf-cargo
