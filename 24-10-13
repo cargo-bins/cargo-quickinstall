@@ -89,3 +89,4 @@ addr2line
 rls-rustc
 tree-sitter-graph
 schemafy
+cached-path
