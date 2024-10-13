@@ -3,3 +3,4 @@ foundationdb-gen
 py-spy
 httpmock
 human_name
+cpp_demangle
