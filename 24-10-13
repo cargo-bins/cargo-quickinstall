@@ -69,3 +69,4 @@ dotenv
 tendermint-rpc
 wol-rs
 socketcan
+solana-stake-accounts
