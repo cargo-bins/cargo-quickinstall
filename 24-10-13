@@ -4,3 +4,4 @@ sha1collisiondetection
 remove_dir_all
 opencv-binding-generator
 nu
+pwasm-utils
