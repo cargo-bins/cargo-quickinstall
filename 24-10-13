@@ -7,3 +7,4 @@ dotenv
 rustfmt-nightly
 rustrict
 httpmock
+syd
