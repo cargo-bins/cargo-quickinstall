@@ -11,3 +11,4 @@ spider_worker
 borsh
 rkv
 raw-cpuid
+protox
