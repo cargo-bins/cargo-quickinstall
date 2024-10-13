@@ -22,3 +22,4 @@ addr2line
 cpp_demangle
 unic-langid-impl
 sshx
+ducc-sys
