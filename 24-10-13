@@ -41,3 +41,4 @@ wol-rs
 raw-cpuid
 pwasm-utils
 sccache
+tree-sitter-graph
