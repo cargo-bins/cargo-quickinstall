@@ -39,3 +39,4 @@ clippy
 libbpf-cargo
 httpmock
 re_query
+sshx
