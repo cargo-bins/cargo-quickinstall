@@ -27,3 +27,4 @@ rrule
 redoxer
 laminar
 rls-rustc
+cargo-lock
