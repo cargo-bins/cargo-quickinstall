@@ -30,3 +30,4 @@ syd
 human_name
 cargo-lock
 diesel_cli
+foundationdb-gen
