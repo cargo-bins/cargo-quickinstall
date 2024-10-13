@@ -21,3 +21,4 @@ pwasm-utils
 cargo-lock
 clipboard-history
 racer
+tree-sitter-cli
