@@ -26,3 +26,4 @@ human_name
 cargo-lock
 pgrx-tests
 unic-langid-impl
+socketcan
