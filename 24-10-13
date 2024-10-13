@@ -85,3 +85,4 @@ phf_generator
 pwasm-utils
 protox
 sqlx-cli
+benfred-read-process-memory
