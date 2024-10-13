@@ -77,3 +77,4 @@ libbpf-cargo
 cargo-vet
 foundationdb-gen
 pwasm-utils
+phf_generator
