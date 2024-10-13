@@ -54,3 +54,4 @@ wmi
 cpp_demangle
 remove_dir_all
 wol-rs
+remove_dir_all
