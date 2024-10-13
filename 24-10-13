@@ -33,3 +33,4 @@ evcxr_repl
 tauri-cli
 solana-validator
 sea-orm-cli
+racer
