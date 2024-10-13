@@ -56,3 +56,4 @@ papyrus_storage
 pwasm-utils
 tree-sitter-cli
 libbpf-cargo
+textplots
