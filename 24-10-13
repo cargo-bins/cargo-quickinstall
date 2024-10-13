@@ -34,3 +34,4 @@ tauri-cli
 solana-validator
 sea-orm-cli
 racer
+tendermint-rpc
