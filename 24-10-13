@@ -63,3 +63,4 @@ human_name
 rls-rustc
 tendermint-rpc
 sqlx-cli
+solana-validator
