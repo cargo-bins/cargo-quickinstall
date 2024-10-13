@@ -24,3 +24,4 @@ schemafy
 rmesg
 human_name
 cargo-lock
+pgrx-tests
