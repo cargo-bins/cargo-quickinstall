@@ -18,3 +18,4 @@ nextest-filtering
 rustrict
 socketcan
 paperclip
+opencv-binding-generator
