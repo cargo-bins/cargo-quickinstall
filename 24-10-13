@@ -91,3 +91,4 @@ tokio-process
 oso
 diesel_cli
 benfred-read-process-memory
+human_name
