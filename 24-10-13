@@ -51,3 +51,4 @@ parquet
 evcxr_repl
 human_name
 nkeys
+opencv-binding-generator
