@@ -75,3 +75,4 @@ cargo-espflash
 human_name
 espflash
 oculante
+nextest-filtering
