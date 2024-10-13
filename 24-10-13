@@ -77,3 +77,4 @@ human_bytes
 addr2line
 rustfmt-nightly
 h3o
+socketcan
