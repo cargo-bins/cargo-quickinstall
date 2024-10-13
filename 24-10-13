@@ -47,3 +47,4 @@ sea-orm-cli
 syd
 diesel_cli
 rkv
+parquet
