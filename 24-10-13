@@ -28,3 +28,4 @@ pgrx-tests
 unic-langid-impl
 socketcan
 binstall
+libbpf-cargo
