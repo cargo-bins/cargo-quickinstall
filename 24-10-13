@@ -9,3 +9,4 @@ wmi
 rustrict
 dotenv
 nexmark
+httpmock
