@@ -17,3 +17,4 @@ gitnow
 rkv
 cargo-lock
 rls-rustc
+cached-path
