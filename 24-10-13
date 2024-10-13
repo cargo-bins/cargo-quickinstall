@@ -23,3 +23,4 @@ clipboard-history
 racer
 tree-sitter-cli
 sea-orm-cli
+graphql_client_cli
