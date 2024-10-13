@@ -47,3 +47,4 @@ tree-sitter-graph
 borsh
 apollo-router
 sha1collisiondetection
+arrow-flight
