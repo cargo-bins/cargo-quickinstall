@@ -77,3 +77,4 @@ addr2line
 spider_cli
 rkv
 solana-remote-wallet
+human_bytes
