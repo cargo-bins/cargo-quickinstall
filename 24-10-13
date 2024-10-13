@@ -7,3 +7,4 @@ cpp_demangle
 minicbor
 cargo-tarpaulin
 rustrict
+cpp_demangle
