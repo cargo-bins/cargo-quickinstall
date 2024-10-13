@@ -5,3 +5,4 @@ oso
 socketcan
 dotenvy
 re_query
+honggfuzz
