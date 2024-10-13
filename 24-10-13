@@ -62,3 +62,4 @@ re_query
 sqlx-cli
 nextest-filtering
 parquet
+papyrus_storage
