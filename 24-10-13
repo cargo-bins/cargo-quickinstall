@@ -28,3 +28,4 @@ winpty-rs
 clippy
 rustfmt-nightly
 pgrx-tests
+human_name
