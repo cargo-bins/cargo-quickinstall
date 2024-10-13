@@ -31,3 +31,4 @@ laminar
 httpmock
 evcxr_repl
 tauri-cli
+solana-validator
