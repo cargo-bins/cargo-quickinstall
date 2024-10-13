@@ -41,3 +41,4 @@ wol-rs
 tree-sitter-cli
 solana-gossip
 tauri-cli
+human_bytes
