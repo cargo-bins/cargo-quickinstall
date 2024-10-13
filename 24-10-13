@@ -29,3 +29,4 @@ sccache
 rustfmt-nightly
 opencv-binding-generator
 deno
+rls-rustc
