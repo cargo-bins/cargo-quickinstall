@@ -46,3 +46,4 @@ z3tracer
 libbpf-cargo
 tendermint-abci
 addr2line
+protox
