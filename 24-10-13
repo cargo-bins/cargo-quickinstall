@@ -60,3 +60,4 @@ syd
 schemafy
 re_query
 sqlx-cli
+nextest-filtering
