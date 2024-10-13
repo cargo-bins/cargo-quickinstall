@@ -11,3 +11,4 @@ schemafy
 clipboard-history
 cargo-lock
 solana-genesis
+libbpf-cargo
