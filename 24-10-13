@@ -69,3 +69,4 @@ cargo-lock
 honggfuzz
 textplots
 tokio-process
+raw-cpuid
