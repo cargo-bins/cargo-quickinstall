@@ -31,3 +31,4 @@ opencv-binding-generator
 deno
 rls-rustc
 addr2line
+wmi
