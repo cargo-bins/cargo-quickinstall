@@ -42,3 +42,4 @@ tree-sitter-cli
 solana-gossip
 tauri-cli
 human_bytes
+remove_dir_all
