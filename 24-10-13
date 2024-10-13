@@ -73,3 +73,4 @@ solana-stake-accounts
 tendermint-abci
 solana-remote-wallet
 solana-genesis
+addr2line
