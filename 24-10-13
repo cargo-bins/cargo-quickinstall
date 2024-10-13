@@ -83,3 +83,4 @@ cargo-local-registry
 nexmark
 phf_generator
 pwasm-utils
+protox
