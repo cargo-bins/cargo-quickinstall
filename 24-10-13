@@ -36,3 +36,4 @@ tendermint-abci
 solana-gossip
 diesel_cli
 dotenvy
+winpty-rs
