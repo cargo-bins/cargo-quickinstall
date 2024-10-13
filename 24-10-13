@@ -21,3 +21,4 @@ trunk
 tree-sitter-cli
 cpp_demangle
 rustrict
+pgrx-tests
