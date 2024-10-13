@@ -5,3 +5,4 @@ paperclip
 tree-sitter-graph
 dotenv
 rustfmt-nightly
+rustrict
