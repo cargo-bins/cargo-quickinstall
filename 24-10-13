@@ -15,3 +15,4 @@ spider_worker
 py-spy
 spider_cli
 dotenvy
+sccache
