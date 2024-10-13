@@ -84,3 +84,4 @@ nexmark
 phf_generator
 pwasm-utils
 protox
+sqlx-cli
