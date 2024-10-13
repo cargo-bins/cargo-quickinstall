@@ -75,3 +75,4 @@ cargo-lock
 cargo-lock
 libbpf-cargo
 cargo-vet
+foundationdb-gen
