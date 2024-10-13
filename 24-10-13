@@ -35,3 +35,4 @@ rrule
 tendermint-abci
 solana-gossip
 diesel_cli
+dotenvy
