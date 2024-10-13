@@ -43,3 +43,4 @@ sshx
 protox
 solana-validator
 foundationdb-gen
+libbpf-cargo
