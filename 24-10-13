@@ -68,3 +68,4 @@ opencv-binding-generator
 minicbor
 nkeys
 tendermint-abci
+tendermint-rpc
