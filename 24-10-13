@@ -24,3 +24,4 @@ cargo-c
 cargo-lock
 dotenv
 deploy
+re_query
