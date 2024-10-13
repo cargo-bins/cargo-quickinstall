@@ -44,3 +44,4 @@ clippy
 cargo-quickbuild
 rustrict
 tree-sitter-graph
+borsh
