@@ -27,3 +27,4 @@ deploy
 re_query
 sccache
 rustfmt-nightly
+opencv-binding-generator
