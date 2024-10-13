@@ -37,3 +37,4 @@ foundationdb-gen
 human_name
 diesel_cli
 oso
+z3tracer
