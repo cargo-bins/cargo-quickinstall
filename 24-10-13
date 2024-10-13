@@ -2,3 +2,4 @@ foundationdb-gen
 solana-gossip
 unic-langid-impl
 opencv-binding-generator
+text-diff
