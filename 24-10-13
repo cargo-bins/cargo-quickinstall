@@ -8,3 +8,4 @@ minicbor
 cargo-tarpaulin
 rustrict
 cpp_demangle
+socketcan
