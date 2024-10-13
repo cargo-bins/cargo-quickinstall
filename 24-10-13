@@ -67,3 +67,4 @@ solana-validator
 foundationdb-gen
 dotenv
 tendermint-rpc
+wol-rs
