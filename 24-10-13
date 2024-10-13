@@ -43,3 +43,4 @@ human_bytes
 clippy
 cargo-quickbuild
 rustrict
+tree-sitter-graph
