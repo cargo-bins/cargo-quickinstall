@@ -38,3 +38,4 @@ tendermint-rpc
 foundationdb-gen
 h3o
 wol-rs
+tree-sitter-cli
