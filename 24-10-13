@@ -6,3 +6,4 @@ socketcan
 dotenvy
 re_query
 honggfuzz
+phf_generator
