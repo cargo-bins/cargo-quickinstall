@@ -102,3 +102,4 @@ dotenv
 ducc-sys
 py-spy
 solana-stake-accounts
+minicbor
