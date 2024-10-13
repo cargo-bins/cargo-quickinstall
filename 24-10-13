@@ -1,2 +1,3 @@
 cargo-lock
 nu_plugin_gstat
+libbpf-cargo
