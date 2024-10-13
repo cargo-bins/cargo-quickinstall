@@ -104,3 +104,4 @@ py-spy
 solana-stake-accounts
 minicbor
 paperclip
+rls-rustc
