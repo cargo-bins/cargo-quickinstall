@@ -65,3 +65,4 @@ rustbus
 httpmock
 exa
 solana-gossip
+remove_dir_all
