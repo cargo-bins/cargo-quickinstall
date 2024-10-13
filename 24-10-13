@@ -61,3 +61,4 @@ rrule
 libbpf-cargo
 cached-path
 snarkvm
+winpty-rs
