@@ -74,3 +74,4 @@ tendermint-rpc
 solana-keygen
 solana-validator
 human_bytes
+addr2line
