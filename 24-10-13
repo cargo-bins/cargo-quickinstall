@@ -73,3 +73,4 @@ schemafy
 nexmark
 arrow-flight
 socketcan
+addr2line
