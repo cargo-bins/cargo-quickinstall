@@ -41,3 +41,4 @@ solana-stake-accounts
 pcu
 deploy
 nu
+nu_plugin_dbus
