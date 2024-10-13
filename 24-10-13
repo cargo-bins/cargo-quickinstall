@@ -3,3 +3,4 @@ phf_generator
 z3tracer
 remove_dir_all
 qrtool
+httpmock
