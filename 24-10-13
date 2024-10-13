@@ -27,3 +27,4 @@ cargo-lock
 pgrx-tests
 unic-langid-impl
 socketcan
+binstall
