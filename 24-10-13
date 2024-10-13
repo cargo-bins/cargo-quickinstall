@@ -59,3 +59,4 @@ deploy
 tendermint-rpc
 rustrict
 sha1collisiondetection
+cargo-generate
