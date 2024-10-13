@@ -54,3 +54,4 @@ nkeys
 opencv-binding-generator
 papyrus_storage
 pwasm-utils
+tree-sitter-cli
