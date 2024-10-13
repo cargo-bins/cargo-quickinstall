@@ -83,3 +83,4 @@ borsh
 clippy
 nkeys
 pgrx-tests
+minicbor
