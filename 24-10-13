@@ -113,3 +113,4 @@ java-locator
 tree-sitter-graph
 evcxr_repl
 snarkvm
+minicbor
