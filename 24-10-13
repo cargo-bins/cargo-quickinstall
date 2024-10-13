@@ -3,3 +3,4 @@ solana-gossip
 unic-langid-impl
 opencv-binding-generator
 text-diff
+ec2_instance_metadata
