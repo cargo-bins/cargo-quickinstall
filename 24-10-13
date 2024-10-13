@@ -10,3 +10,4 @@ foundationdb-gen
 schemafy
 clipboard-history
 cargo-lock
+solana-genesis
