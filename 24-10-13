@@ -89,3 +89,4 @@ benfred-read-process-memory
 sn_cli
 tokio-process
 oso
+diesel_cli
