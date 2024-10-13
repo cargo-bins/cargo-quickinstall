@@ -40,3 +40,4 @@ schemafy
 httpbis
 cargo-local-registry
 httpmock
+omicron-zone-package
