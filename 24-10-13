@@ -66,3 +66,4 @@ release
 re_query
 wol-rs
 foundationdb-gen
+apollo-router
