@@ -68,3 +68,4 @@ foundationdb-gen
 dotenv
 tendermint-rpc
 wol-rs
+socketcan
