@@ -84,3 +84,4 @@ clippy
 nkeys
 pgrx-tests
 minicbor
+tree-sitter-graph
