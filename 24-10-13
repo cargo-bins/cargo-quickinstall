@@ -4,3 +4,4 @@ nkeys
 unic-langid-impl
 tree-sitter-graph
 schemafy
+phf_generator
