@@ -109,3 +109,4 @@ re_query
 evcxr_repl
 deploy
 raw-cpuid
+java-locator
