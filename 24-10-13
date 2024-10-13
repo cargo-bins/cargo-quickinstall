@@ -48,3 +48,4 @@ borsh
 apollo-router
 sha1collisiondetection
 arrow-flight
+human_bytes
