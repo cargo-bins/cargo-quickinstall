@@ -53,3 +53,4 @@ remove_dir_all
 syd
 nexmark
 ducc-sys
+dotenv
