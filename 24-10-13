@@ -39,3 +39,4 @@ dotenvy
 winpty-rs
 solana-genesis
 raw-cpuid
+human_bytes
