@@ -94,3 +94,4 @@ cpp_demangle
 solana-stake-accounts
 solana-keygen
 libbpf-cargo
+rls-rustc
