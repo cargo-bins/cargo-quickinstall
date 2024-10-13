@@ -58,3 +58,4 @@ exa
 deploy
 tendermint-rpc
 rustrict
+sha1collisiondetection
