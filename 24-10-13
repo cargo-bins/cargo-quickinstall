@@ -39,3 +39,4 @@ spider_worker
 nextest-filtering
 tree-sitter-graph
 apollo-router
+cached-path
