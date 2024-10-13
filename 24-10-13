@@ -33,3 +33,4 @@ rls-rustc
 addr2line
 wmi
 nexmark
+textplots
