@@ -86,3 +86,4 @@ snarkvm
 schemafy
 human_bytes
 solana-stake-accounts
+addr2line
