@@ -64,3 +64,4 @@ snarkvm
 winpty-rs
 libbpf-cargo
 minicbor
+opencv-binding-generator
