@@ -33,3 +33,4 @@ rls-rustc
 re_query
 nu
 solana-validator
+remove_dir_all
