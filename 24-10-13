@@ -29,3 +29,4 @@ clippy
 rustfmt-nightly
 pgrx-tests
 human_name
+rls-rustc
