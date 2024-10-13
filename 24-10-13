@@ -53,3 +53,4 @@ nextest-filtering
 tendermint-rpc
 foundationdb-gen
 deploy
+arrow-flight
