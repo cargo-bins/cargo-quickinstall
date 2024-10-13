@@ -32,3 +32,4 @@ paperclip
 deno
 rustfmt-nightly
 nextest-filtering
+papyrus_storage
