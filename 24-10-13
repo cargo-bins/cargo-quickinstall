@@ -27,3 +27,4 @@ textplots
 winpty-rs
 clippy
 rustfmt-nightly
+pgrx-tests
