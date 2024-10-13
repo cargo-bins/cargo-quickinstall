@@ -52,3 +52,4 @@ cargo-lock
 spider_cli
 sha1collisiondetection
 nkeys
+nu
