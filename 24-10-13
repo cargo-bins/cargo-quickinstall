@@ -98,3 +98,4 @@ rls-rustc
 java-locator
 nu
 zuse
+dotenv
