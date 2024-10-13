@@ -47,3 +47,4 @@ libbpf-cargo
 tendermint-abci
 addr2line
 protox
+racer
