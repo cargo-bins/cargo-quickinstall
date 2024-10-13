@@ -57,3 +57,4 @@ nexmark
 nexmark
 pgrx-tests
 nextest-filtering
+dotenv
