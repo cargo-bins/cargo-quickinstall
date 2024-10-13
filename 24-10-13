@@ -65,3 +65,4 @@ winpty-rs
 libbpf-cargo
 minicbor
 opencv-binding-generator
+minicbor
