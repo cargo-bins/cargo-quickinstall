@@ -51,3 +51,4 @@ racer
 nexmark
 nextest-filtering
 tendermint-rpc
+foundationdb-gen
