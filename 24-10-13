@@ -48,3 +48,4 @@ syd
 diesel_cli
 rkv
 parquet
+evcxr_repl
