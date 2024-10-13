@@ -28,3 +28,4 @@ laminar
 pwasm-utils
 syd
 human_name
+cargo-lock
