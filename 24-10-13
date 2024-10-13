@@ -27,3 +27,4 @@ java-locator
 text-diff
 diesel_cli
 wol-rs
+ec2_instance_metadata
