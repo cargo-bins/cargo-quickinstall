@@ -20,3 +20,4 @@ deno
 schemafy
 laminar
 tendermint-rpc
+sqlx-cli
