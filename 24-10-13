@@ -85,3 +85,4 @@ nkeys
 pgrx-tests
 minicbor
 tree-sitter-graph
+addr2line
