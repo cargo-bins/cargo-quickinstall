@@ -38,3 +38,4 @@ ducc-sys
 spider_worker
 nextest-filtering
 tree-sitter-graph
+apollo-router
