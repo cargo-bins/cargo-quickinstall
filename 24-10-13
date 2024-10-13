@@ -63,3 +63,4 @@ sqlx-cli
 nextest-filtering
 parquet
 papyrus_storage
+cargo-local-registry
