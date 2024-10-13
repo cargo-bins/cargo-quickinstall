@@ -19,3 +19,4 @@ rls-rustc
 schemafy
 nextest-filtering
 cached-path
+solana-validator
