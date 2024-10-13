@@ -58,3 +58,4 @@ nexmark
 pgrx-tests
 nextest-filtering
 dotenv
+libbpf-cargo
