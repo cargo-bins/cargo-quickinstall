@@ -21,3 +21,4 @@ schemafy
 laminar
 tendermint-rpc
 sqlx-cli
+cargo-local-registry
