@@ -31,3 +31,4 @@ human_name
 cargo-lock
 diesel_cli
 foundationdb-gen
+tree-sitter-graph
