@@ -36,3 +36,4 @@ papyrus_storage
 coldsnap
 honggfuzz
 remove_dir_all
+schemafy
