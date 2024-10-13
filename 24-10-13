@@ -34,3 +34,4 @@ addr2line
 wmi
 nexmark
 textplots
+py-spy
