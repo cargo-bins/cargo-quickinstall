@@ -11,3 +11,4 @@ dotenv
 nexmark
 httpmock
 librespot
+rkv
