@@ -90,3 +90,4 @@ rls-rustc
 tree-sitter-graph
 schemafy
 cached-path
+cpp_demangle
