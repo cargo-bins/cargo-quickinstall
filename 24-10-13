@@ -42,3 +42,4 @@ raw-cpuid
 pwasm-utils
 sccache
 tree-sitter-graph
+pgrx-tests
