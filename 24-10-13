@@ -9,3 +9,4 @@ deno
 solana-validator
 spider_worker
 borsh
+rkv
