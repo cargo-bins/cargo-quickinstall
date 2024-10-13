@@ -110,3 +110,4 @@ evcxr_repl
 deploy
 raw-cpuid
 java-locator
+tree-sitter-graph
