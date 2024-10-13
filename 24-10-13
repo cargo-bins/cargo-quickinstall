@@ -9,3 +9,4 @@ honggfuzz
 phf_generator
 nkeys
 coldsnap
+tree-sitter-graph
