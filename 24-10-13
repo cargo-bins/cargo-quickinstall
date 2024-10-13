@@ -40,3 +40,4 @@ nextest-filtering
 wol-rs
 raw-cpuid
 pwasm-utils
+sccache
