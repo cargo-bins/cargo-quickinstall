@@ -2,3 +2,4 @@ solana-stake-accounts
 borsh
 sha1collisiondetection
 remove_dir_all
+opencv-binding-generator
