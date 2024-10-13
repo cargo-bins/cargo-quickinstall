@@ -84,3 +84,4 @@ libbpf-cargo
 solana-stake-accounts
 snarkvm
 schemafy
+human_bytes
