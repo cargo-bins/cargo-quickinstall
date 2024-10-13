@@ -21,3 +21,4 @@ parquet
 deploy
 nkeys
 cargo-c
+cargo-lock
