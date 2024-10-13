@@ -46,3 +46,4 @@ remove_dir_all
 human_name
 kalc
 shadowsocks-rust
+dotenvy
