@@ -76,3 +76,4 @@ cargo-lock
 libbpf-cargo
 cargo-vet
 foundationdb-gen
+pwasm-utils
