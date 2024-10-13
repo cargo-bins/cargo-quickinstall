@@ -26,3 +26,4 @@ clippy
 java-locator
 text-diff
 diesel_cli
+wol-rs
