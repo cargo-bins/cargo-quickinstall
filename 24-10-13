@@ -69,3 +69,4 @@ minicbor
 nkeys
 tendermint-abci
 tendermint-rpc
+solana-keygen
