@@ -21,3 +21,4 @@ h3o
 z3tracer
 sqlx-cli
 cargo-local-registry
+tauri-cli
