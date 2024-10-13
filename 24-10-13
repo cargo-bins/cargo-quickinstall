@@ -79,3 +79,4 @@ foundationdb-gen
 pwasm-utils
 phf_generator
 rrule
+cargo-local-registry
