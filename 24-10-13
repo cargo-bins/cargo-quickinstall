@@ -38,3 +38,4 @@ nextest-filtering
 clippy
 libbpf-cargo
 httpmock
+re_query
