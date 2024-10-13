@@ -44,3 +44,4 @@ sccache
 tree-sitter-graph
 pgrx-tests
 cargo-generate
+cargo-udeps
