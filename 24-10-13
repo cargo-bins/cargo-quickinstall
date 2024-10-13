@@ -57,3 +57,4 @@ wol-rs
 remove_dir_all
 textplots
 opencv-binding-generator
+rrule
