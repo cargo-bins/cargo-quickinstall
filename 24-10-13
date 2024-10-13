@@ -50,3 +50,4 @@ cached-path
 tree-sitter-graph
 cargo-lock
 spider_cli
+sha1collisiondetection
