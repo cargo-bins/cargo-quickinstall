@@ -5,3 +5,4 @@ remove_dir_all
 qrtool
 httpmock
 papyrus_storage
+solana-gossip
