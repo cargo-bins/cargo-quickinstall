@@ -67,3 +67,4 @@ cargo-local-registry
 phf_generator
 cargo-lock
 honggfuzz
+textplots
