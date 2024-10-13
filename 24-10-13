@@ -66,3 +66,4 @@ sqlx-cli
 solana-validator
 foundationdb-gen
 dotenv
+tendermint-rpc
