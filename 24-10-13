@@ -79,3 +79,4 @@ rustfmt-nightly
 h3o
 socketcan
 oso
+pwasm-utils
