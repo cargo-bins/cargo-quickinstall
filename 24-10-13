@@ -114,3 +114,4 @@ tree-sitter-graph
 evcxr_repl
 snarkvm
 minicbor
+addr2line
