@@ -10,3 +10,4 @@ remove_dir_all
 cached-path
 solana-validator
 addr2line
+laminar
