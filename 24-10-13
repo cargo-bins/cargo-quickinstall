@@ -38,3 +38,4 @@ honggfuzz
 remove_dir_all
 schemafy
 httpbis
+cargo-local-registry
