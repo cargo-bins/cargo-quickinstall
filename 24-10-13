@@ -16,3 +16,4 @@ clippy
 gitnow
 rkv
 cargo-lock
+rls-rustc
