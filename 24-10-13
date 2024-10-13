@@ -10,3 +10,4 @@ phf_generator
 nkeys
 coldsnap
 tree-sitter-graph
+re_query
