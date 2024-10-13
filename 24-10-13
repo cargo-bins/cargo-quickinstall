@@ -4,3 +4,4 @@ phf_generator
 paperclip
 tree-sitter-graph
 dotenv
+rustfmt-nightly
