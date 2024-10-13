@@ -63,3 +63,4 @@ pcu
 nkeys
 graphql_client_cli
 tendermint-abci
+borsh
