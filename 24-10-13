@@ -48,3 +48,4 @@ cargo-udeps
 solana-validator
 cached-path
 tree-sitter-graph
+cargo-lock
