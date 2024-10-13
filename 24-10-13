@@ -70,3 +70,4 @@ honggfuzz
 textplots
 tokio-process
 raw-cpuid
+httpmock
