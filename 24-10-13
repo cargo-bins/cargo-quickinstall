@@ -83,3 +83,4 @@ pwasm-utils
 libbpf-cargo
 solana-stake-accounts
 snarkvm
+schemafy
