@@ -7,3 +7,4 @@ nu
 pwasm-utils
 deno
 solana-validator
+spider_worker
