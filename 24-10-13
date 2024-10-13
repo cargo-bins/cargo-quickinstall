@@ -16,3 +16,4 @@ nkeys
 tree-sitter-cli
 tendermint-abci
 protox
+solana-keygen
