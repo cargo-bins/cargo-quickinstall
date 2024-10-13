@@ -71,3 +71,4 @@ textplots
 tokio-process
 raw-cpuid
 httpmock
+cargo-lock
