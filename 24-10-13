@@ -60,3 +60,4 @@ opencv-binding-generator
 rrule
 libbpf-cargo
 cached-path
+snarkvm
