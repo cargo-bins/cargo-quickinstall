@@ -9,3 +9,4 @@ cargo-local-registry
 tauri-cli
 cpp_demangle
 opencv-binding-generator
+pgrx-tests
