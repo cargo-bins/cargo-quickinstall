@@ -98,3 +98,4 @@ trunk
 solana-gossip
 re_query
 httpmock
+spider_cli
