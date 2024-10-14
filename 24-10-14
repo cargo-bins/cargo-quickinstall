@@ -69,3 +69,4 @@ cargo-generate
 rkv
 minicbor
 human_bytes
+dotenv
