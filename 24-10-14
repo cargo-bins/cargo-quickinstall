@@ -18,3 +18,4 @@ rkv
 spider_worker
 java-locator
 rustfmt-nightly
+dotenvy
