@@ -54,3 +54,4 @@ solana-gossip
 pwasm-utils
 winpty-rs
 dotenv
+skim
