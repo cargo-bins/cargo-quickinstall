@@ -69,3 +69,4 @@ rustbus
 nexmark
 addr2line
 papyrus_storage
+tree-sitter-graph
