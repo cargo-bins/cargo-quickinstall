@@ -51,3 +51,4 @@ ducc-sys
 clippy
 sqlx-cli
 solana-gossip
+pwasm-utils
