@@ -5,3 +5,4 @@ deploy
 tendermint-abci
 re_query
 winpty-rs
+wol-rs
