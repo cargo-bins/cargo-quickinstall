@@ -40,3 +40,4 @@ ec2_instance_metadata
 rustfmt
 sn_cli
 tokio-process
+deploy
