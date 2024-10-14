@@ -56,3 +56,4 @@ pgrx-tests
 paperclip
 cargo-lock
 protox
+rls-rustc
