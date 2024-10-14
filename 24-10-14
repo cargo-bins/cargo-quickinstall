@@ -44,3 +44,4 @@ nextest-filtering
 libbpf-cargo
 parquet
 coldsnap
+cpp_demangle
