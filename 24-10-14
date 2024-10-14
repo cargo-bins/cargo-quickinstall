@@ -3,3 +3,4 @@ sqlx-cli
 coldsnap
 clippy
 diesel_cli
+pwasm-utils
