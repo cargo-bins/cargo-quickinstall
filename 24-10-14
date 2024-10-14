@@ -23,3 +23,4 @@ cached-path
 winpty-rs
 rustfmt-nightly
 solana-validator
+cpp_demangle
