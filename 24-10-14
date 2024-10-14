@@ -30,3 +30,4 @@ tendermint-abci
 opencv-binding-generator
 socketcan
 solana-genesis
+libbpf-cargo
