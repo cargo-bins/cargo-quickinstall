@@ -91,3 +91,4 @@ libbpf-cargo
 sha1collisiondetection
 coldsnap
 minicbor
+textplots
