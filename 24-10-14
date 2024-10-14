@@ -75,3 +75,4 @@ rkv
 socketcan
 dotenv
 rkv
+addr2line
