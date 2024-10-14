@@ -37,3 +37,4 @@ solana-gossip
 deploy
 z3tracer
 foundationdb-gen
+diesel_cli
