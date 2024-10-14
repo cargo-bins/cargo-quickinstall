@@ -39,3 +39,4 @@ cached-path
 laminar
 remove_dir_all
 foundationdb-gen
+raw-cpuid
