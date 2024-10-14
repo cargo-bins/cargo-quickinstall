@@ -69,3 +69,4 @@ rustfmt-nightly
 tendermint-abci
 oso
 snarkvm
+trunk
