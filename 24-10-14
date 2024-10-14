@@ -51,3 +51,4 @@ deploy
 oso
 ducc-sys
 nextest-filtering
+cpp_demangle
