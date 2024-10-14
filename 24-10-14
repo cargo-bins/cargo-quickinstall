@@ -20,3 +20,4 @@ syd
 socketcan
 deploy
 cached-path
+winpty-rs
