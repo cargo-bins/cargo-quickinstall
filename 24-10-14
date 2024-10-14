@@ -20,3 +20,4 @@ laminar
 snarkvm
 cargo-public-api
 solana-stake-accounts
+solana-genesis
