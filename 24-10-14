@@ -2,3 +2,4 @@ protox
 parquet
 minicbor
 raw-cpuid
+sha1collisiondetection
