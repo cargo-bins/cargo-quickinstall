@@ -21,3 +21,4 @@ rustfmt-nightly
 dotenvy
 oso
 cargo-udeps
+solana-validator
