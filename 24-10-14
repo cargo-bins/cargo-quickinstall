@@ -69,3 +69,4 @@ rls-rustc
 solana-validator
 unic-langid-impl
 schemafy
+opencv-binding-generator
