@@ -77,3 +77,4 @@ arrow-flight
 foundationdb-gen
 rustfmt-nightly
 nkeys
+libbpf-cargo
