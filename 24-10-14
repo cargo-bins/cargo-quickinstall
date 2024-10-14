@@ -64,3 +64,4 @@ rrule
 libbpf-cargo
 deploy
 rkv
+tendermint-rpc
