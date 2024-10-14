@@ -50,3 +50,4 @@ schemafy
 sqlx-cli
 coldsnap
 dotenv
+minicbor
