@@ -48,3 +48,4 @@ cpp_demangle
 human_bytes
 schemafy
 sqlx-cli
+coldsnap
