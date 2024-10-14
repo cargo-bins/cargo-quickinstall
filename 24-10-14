@@ -55,3 +55,4 @@ opencv-binding-generator
 tree-sitter-graph
 wol-rs
 unic-langid-impl
+addr2line
