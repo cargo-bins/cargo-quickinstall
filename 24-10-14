@@ -88,3 +88,4 @@ dotenvy
 remove_dir_all
 oso
 sqlx-cli
+dotenvy
