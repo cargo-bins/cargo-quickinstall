@@ -57,3 +57,4 @@ wol-rs
 unic-langid-impl
 addr2line
 nkeys
+spider_worker
