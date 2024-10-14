@@ -65,3 +65,4 @@ dotenv
 solana-gossip
 nkeys
 phf_generator
+tree-sitter-graph
