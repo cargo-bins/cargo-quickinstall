@@ -97,3 +97,4 @@ paperclip
 trunk
 solana-gossip
 re_query
+httpmock
