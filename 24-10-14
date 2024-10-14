@@ -4,3 +4,4 @@ coldsnap
 clippy
 diesel_cli
 pwasm-utils
+remove_dir_all
