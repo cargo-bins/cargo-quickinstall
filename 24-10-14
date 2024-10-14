@@ -74,3 +74,4 @@ httpbis
 text-diff
 deploy
 socketcan
+rustbus
