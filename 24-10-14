@@ -37,3 +37,4 @@ apollo-router
 addr2line
 cached-path
 laminar
+remove_dir_all
