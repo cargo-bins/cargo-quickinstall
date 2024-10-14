@@ -33,3 +33,4 @@ rustrict
 cargo-generate
 dotenv
 honggfuzz
+winpty-rs
