@@ -13,3 +13,4 @@ pgrx-tests
 sqlx-cli
 cargo-udeps
 human_bytes
+human_name
