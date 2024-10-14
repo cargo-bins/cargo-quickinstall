@@ -20,3 +20,4 @@ raw-cpuid
 clippy
 rustfmt-nightly
 dotenv
+rustrict
