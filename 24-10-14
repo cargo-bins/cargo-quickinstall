@@ -68,3 +68,4 @@ httpmock
 rustfmt-nightly
 tendermint-abci
 oso
+snarkvm
