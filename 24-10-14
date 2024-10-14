@@ -41,3 +41,4 @@ sqlx-cli
 opencv-binding-generator
 rustrict
 re_query
+cached-path
