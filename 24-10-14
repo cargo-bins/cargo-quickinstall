@@ -23,3 +23,4 @@ remove_dir_all
 winpty-rs
 tendermint-rpc
 z3tracer
+solana-genesis
