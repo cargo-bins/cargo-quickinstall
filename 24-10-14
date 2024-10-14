@@ -33,3 +33,4 @@ opencv-binding-generator
 rustfmt-nightly
 fend
 dotenv
+libbpf-cargo
