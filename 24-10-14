@@ -38,3 +38,4 @@ deploy
 z3tracer
 foundationdb-gen
 diesel_cli
+httpmock
