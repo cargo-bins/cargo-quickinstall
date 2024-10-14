@@ -19,3 +19,4 @@ human_name
 paperclip
 solana-cli
 raw-cpuid
+cargo-lock
