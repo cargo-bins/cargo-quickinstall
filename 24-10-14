@@ -50,3 +50,4 @@ dotenv
 tendermint-rpc
 winpty-rs
 librespot
+nu
