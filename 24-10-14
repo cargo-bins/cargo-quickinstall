@@ -61,3 +61,4 @@ z3tracer
 httpmock
 unic-langid-impl
 re_query
+cpp_demangle
