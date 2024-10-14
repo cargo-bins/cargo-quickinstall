@@ -57,3 +57,4 @@ paperclip
 cargo-lock
 protox
 rls-rustc
+z3tracer
