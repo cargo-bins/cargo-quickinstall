@@ -4,3 +4,4 @@ addr2line
 schemafy
 rustrict
 librespot
+winpty-rs
