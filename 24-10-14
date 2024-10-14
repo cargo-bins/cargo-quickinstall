@@ -35,3 +35,4 @@ rustrict
 httpmock
 rustfmt-nightly
 solana-validator
+tree-sitter-graph
