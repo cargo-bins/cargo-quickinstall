@@ -27,3 +27,4 @@ pwasm-utils
 tendermint-abci
 httpmock
 laminar
+tree-sitter-cli
