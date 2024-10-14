@@ -26,3 +26,4 @@ snarkvm
 textplots
 parquet
 re_query
+nextest-filtering
