@@ -22,3 +22,4 @@ deploy
 cached-path
 winpty-rs
 rustfmt-nightly
+solana-validator
