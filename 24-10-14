@@ -58,3 +58,4 @@ borsh
 libbpf-cargo
 dotenv
 unic-langid-impl
+trunk
