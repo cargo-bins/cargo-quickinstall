@@ -32,3 +32,4 @@ minicbor
 rustrict
 cargo-generate
 dotenv
+honggfuzz
