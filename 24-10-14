@@ -44,3 +44,4 @@ phf_generator
 salvo-cli
 bluetui
 cpp_demangle
+opencv-binding-generator
