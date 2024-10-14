@@ -83,3 +83,4 @@ wol-rs
 oso
 wol-rs
 tokio-process
+diesel_cli
