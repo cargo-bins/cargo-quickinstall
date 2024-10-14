@@ -49,3 +49,4 @@ pgrx-tests
 cargo-lock
 deploy
 oso
+ducc-sys
