@@ -53,3 +53,4 @@ paperclip
 deploy
 opencv-binding-generator
 tree-sitter-graph
+wol-rs
