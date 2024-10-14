@@ -6,3 +6,4 @@ socketcan
 sea-orm-cli
 winpty-rs
 paperclip
+pwasm-utils
