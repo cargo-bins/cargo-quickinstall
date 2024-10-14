@@ -11,3 +11,4 @@ z3tracer
 laminar
 cached-path
 rustbus
+cpp_demangle
