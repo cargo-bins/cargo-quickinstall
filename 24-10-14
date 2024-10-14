@@ -50,3 +50,4 @@ borsh
 ducc-sys
 clippy
 sqlx-cli
+solana-gossip
