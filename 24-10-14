@@ -65,3 +65,4 @@ spider_cli
 dotenv
 papyrus_storage
 httpmock
+rustfmt-nightly
