@@ -24,3 +24,4 @@ winpty-rs
 rustfmt-nightly
 solana-validator
 cpp_demangle
+tree-sitter-graph
