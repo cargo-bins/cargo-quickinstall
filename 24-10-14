@@ -47,3 +47,4 @@ coldsnap
 cpp_demangle
 unic-langid-impl
 borsh
+ducc-sys
