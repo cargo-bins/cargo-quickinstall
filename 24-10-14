@@ -25,3 +25,4 @@ release
 nextest-filtering
 winpty-rs
 re_query
+socketcan
