@@ -64,3 +64,4 @@ borsh
 dotenv
 solana-gossip
 nkeys
+phf_generator
