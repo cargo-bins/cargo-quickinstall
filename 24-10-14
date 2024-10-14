@@ -49,3 +49,4 @@ unic-langid-impl
 borsh
 ducc-sys
 clippy
+sqlx-cli
