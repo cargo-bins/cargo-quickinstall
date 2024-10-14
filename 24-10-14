@@ -76,3 +76,4 @@ pwasm-utils
 arrow-flight
 foundationdb-gen
 rustfmt-nightly
+nkeys
