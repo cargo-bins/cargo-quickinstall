@@ -29,3 +29,4 @@ rustfmt-nightly
 tendermint-abci
 opencv-binding-generator
 socketcan
+solana-genesis
