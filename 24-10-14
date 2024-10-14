@@ -3,3 +3,4 @@ parquet
 minicbor
 raw-cpuid
 sha1collisiondetection
+wmi
