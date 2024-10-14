@@ -55,3 +55,4 @@ cpp_demangle
 pgrx-tests
 paperclip
 cargo-lock
+protox
