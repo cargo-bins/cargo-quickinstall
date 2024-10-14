@@ -6,3 +6,4 @@ diesel_cli
 cargo-lock
 httpmock
 syd
+protox
