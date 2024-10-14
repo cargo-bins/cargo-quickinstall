@@ -66,3 +66,4 @@ phf_generator
 solana-gossip
 raw-cpuid
 rls-rustc
+solana-validator
