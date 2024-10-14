@@ -31,3 +31,4 @@ java-locator
 minicbor
 rustrict
 cargo-generate
+dotenv
