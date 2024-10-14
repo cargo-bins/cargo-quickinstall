@@ -4,3 +4,4 @@ h3o
 deploy
 tendermint-abci
 re_query
+winpty-rs
