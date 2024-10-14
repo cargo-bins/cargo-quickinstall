@@ -42,3 +42,4 @@ protox
 solana-cli
 nextest-filtering
 libbpf-cargo
+parquet
