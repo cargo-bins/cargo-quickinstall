@@ -21,3 +21,4 @@ socketcan
 deploy
 cached-path
 winpty-rs
+rustfmt-nightly
