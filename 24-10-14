@@ -23,3 +23,4 @@ remove_dir_all
 laminar
 release
 nextest-filtering
+winpty-rs
