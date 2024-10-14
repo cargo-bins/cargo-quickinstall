@@ -33,3 +33,4 @@ ducc-sys
 protox
 rustrict
 httpmock
+rustfmt-nightly
