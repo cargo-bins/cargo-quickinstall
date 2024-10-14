@@ -37,3 +37,4 @@ spider_worker
 syd
 rrule
 raw-cpuid
+addr2line
