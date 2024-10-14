@@ -13,3 +13,4 @@ ducc-sys
 mise
 minicbor
 tendermint-abci
+libbpf-cargo
