@@ -58,3 +58,4 @@ skim
 rustbus
 nexmark
 laminar
+cargo-lock
