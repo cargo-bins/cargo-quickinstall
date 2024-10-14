@@ -76,3 +76,4 @@ oculante
 raw-cpuid
 commitgpt
 sha1collisiondetection
+winpty-rs
