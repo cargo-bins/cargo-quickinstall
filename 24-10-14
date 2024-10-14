@@ -31,3 +31,4 @@ wmi
 py-spy
 tendermint-rpc
 nextest-filtering
+phf_generator
