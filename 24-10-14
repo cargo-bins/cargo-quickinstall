@@ -50,3 +50,4 @@ rustfmt-nightly
 foundationdb-gen
 deno
 sea-orm-cli
+paru
