@@ -99,3 +99,4 @@ solana-gossip
 re_query
 httpmock
 spider_cli
+z3tracer
