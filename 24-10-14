@@ -79,3 +79,4 @@ rustfmt-nightly
 nkeys
 libbpf-cargo
 spider_worker
+rustrict
