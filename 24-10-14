@@ -75,3 +75,4 @@ solana-validator
 pwasm-utils
 arrow-flight
 foundationdb-gen
+rustfmt-nightly
