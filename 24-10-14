@@ -72,3 +72,4 @@ human_bytes
 dotenv
 solana-remote-wallet
 solana-validator
+pwasm-utils
