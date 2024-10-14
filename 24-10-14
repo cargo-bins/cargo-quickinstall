@@ -11,3 +11,4 @@ schemafy
 laminar
 syd
 foundationdb-gen
+libbpf-cargo
