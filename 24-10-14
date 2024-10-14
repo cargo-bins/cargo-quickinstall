@@ -18,3 +18,4 @@ parquet
 tauri-cli
 raw-cpuid
 clippy
+rustfmt-nightly
