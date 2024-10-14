@@ -26,3 +26,4 @@ solana-validator
 cpp_demangle
 tree-sitter-graph
 dotenvy
+borsh
