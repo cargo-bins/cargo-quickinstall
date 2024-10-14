@@ -65,3 +65,4 @@ libbpf-cargo
 deploy
 rkv
 tendermint-rpc
+cargo-generate
