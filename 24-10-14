@@ -50,3 +50,4 @@ cargo-lock
 deploy
 oso
 ducc-sys
+nextest-filtering
