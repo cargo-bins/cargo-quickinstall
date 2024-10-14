@@ -16,3 +16,4 @@ librespot
 spider_worker
 parquet
 tauri-cli
+raw-cpuid
