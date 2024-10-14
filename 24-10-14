@@ -34,3 +34,4 @@ cargo-generate
 dotenv
 honggfuzz
 winpty-rs
+wol-rs
