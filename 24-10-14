@@ -37,3 +37,4 @@ libbpf-cargo
 httpmock
 textplots
 librespot
+cpp_demangle
