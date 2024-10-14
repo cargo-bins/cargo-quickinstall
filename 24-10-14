@@ -52,3 +52,4 @@ coldsnap
 dotenv
 minicbor
 re_query
+tendermint-rpc
