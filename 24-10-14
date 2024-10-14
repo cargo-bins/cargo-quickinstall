@@ -18,3 +18,4 @@ human_bytes
 httpmock
 tendermint-rpc
 dotenvy
+sha1collisiondetection
