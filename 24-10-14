@@ -32,3 +32,4 @@ socketcan
 solana-genesis
 libbpf-cargo
 unic-langid-impl
+nexmark
