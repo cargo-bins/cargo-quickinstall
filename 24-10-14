@@ -43,3 +43,4 @@ rustrict
 re_query
 cached-path
 solana-gossip
+remove_dir_all
