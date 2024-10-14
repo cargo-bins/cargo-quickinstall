@@ -85,3 +85,4 @@ solana-gossip
 nexmark
 re_query
 dotenvy
+remove_dir_all
