@@ -7,3 +7,4 @@ pwasm-utils
 remove_dir_all
 phf_generator
 rkv
+z3tracer
