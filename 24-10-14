@@ -2,3 +2,4 @@ tendermint-rpc
 rustrict
 qsv
 re_query
+diesel_cli
