@@ -82,3 +82,4 @@ rustrict
 wol-rs
 oso
 wol-rs
+tokio-process
