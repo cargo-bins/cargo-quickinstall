@@ -21,3 +21,4 @@ clippy
 rustfmt-nightly
 dotenv
 rustrict
+solana-validator
