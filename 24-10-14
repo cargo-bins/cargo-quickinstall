@@ -36,3 +36,4 @@ httpmock
 rustfmt-nightly
 solana-validator
 tree-sitter-graph
+ec2_instance_metadata
