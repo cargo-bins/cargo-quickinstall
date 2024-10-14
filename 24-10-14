@@ -41,3 +41,4 @@ solana-validator
 winpty-rs
 re_query
 cargo-espflash
+httpmock
