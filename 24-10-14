@@ -74,3 +74,4 @@ solana-remote-wallet
 solana-validator
 pwasm-utils
 arrow-flight
+foundationdb-gen
