@@ -41,3 +41,4 @@ remove_dir_all
 foundationdb-gen
 raw-cpuid
 deploy
+qsv
