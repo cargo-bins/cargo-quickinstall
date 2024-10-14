@@ -78,3 +78,4 @@ commitgpt
 sha1collisiondetection
 winpty-rs
 cargo-lock
+pgrx-tests
