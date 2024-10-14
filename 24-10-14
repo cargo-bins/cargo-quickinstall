@@ -15,3 +15,4 @@ cargo-udeps
 human_bytes
 human_name
 rkv
+spider_worker
