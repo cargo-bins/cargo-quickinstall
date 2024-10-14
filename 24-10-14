@@ -26,3 +26,4 @@ rkv
 pwasm-utils
 tendermint-abci
 httpmock
+laminar
