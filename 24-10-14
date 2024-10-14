@@ -60,3 +60,4 @@ rustbus
 sha1collisiondetection
 oso
 rls-rustc
+tendermint-abci
