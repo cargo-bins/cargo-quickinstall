@@ -9,3 +9,4 @@ syd
 protox
 tendermint-rpc
 borsh
+sha1collisiondetection
