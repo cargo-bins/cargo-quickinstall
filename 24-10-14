@@ -49,3 +49,4 @@ human_bytes
 schemafy
 sqlx-cli
 coldsnap
+dotenv
