@@ -10,3 +10,4 @@ protox
 tendermint-rpc
 borsh
 sha1collisiondetection
+sshx
