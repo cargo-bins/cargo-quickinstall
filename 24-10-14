@@ -19,3 +19,4 @@ httpmock
 tendermint-rpc
 dotenvy
 sha1collisiondetection
+remove_dir_all
