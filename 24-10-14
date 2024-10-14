@@ -52,3 +52,4 @@ winpty-rs
 librespot
 nu
 evcxr_repl
+pwasm-utils
