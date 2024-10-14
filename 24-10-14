@@ -25,3 +25,4 @@ tendermint-rpc
 z3tracer
 solana-genesis
 minicbor
+rustfmt-nightly
