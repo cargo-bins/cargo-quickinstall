@@ -13,3 +13,4 @@ re_query
 minicbor
 addr2line
 tendermint-rpc
+cargo-quickbuild
