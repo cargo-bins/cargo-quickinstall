@@ -16,3 +16,4 @@ tendermint-rpc
 cargo-quickbuild
 rls-rustc
 pwasm-utils
+tendermint-abci
