@@ -39,3 +39,4 @@ rrule
 raw-cpuid
 addr2line
 tree-sitter-cli
+solana-validator
