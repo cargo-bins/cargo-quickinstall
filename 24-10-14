@@ -82,3 +82,4 @@ spider_worker
 rustrict
 textplots
 sea-orm-cli
+rustfmt-nightly
