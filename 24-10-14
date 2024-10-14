@@ -4,3 +4,4 @@ schematools-cli
 bluetui
 foundationdb-gen
 sea-orm-cli
+tree-sitter-graph
