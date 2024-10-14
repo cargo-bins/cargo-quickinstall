@@ -75,3 +75,4 @@ text-diff
 deploy
 socketcan
 rustbus
+tendermint-rpc
