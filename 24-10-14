@@ -61,3 +61,4 @@ spider_worker
 rustrict
 wmi
 borsh
+dotenv
