@@ -28,3 +28,4 @@ parquet
 re_query
 nextest-filtering
 wmi
+py-spy
