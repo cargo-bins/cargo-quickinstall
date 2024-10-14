@@ -5,3 +5,4 @@ bluetui
 foundationdb-gen
 sea-orm-cli
 tree-sitter-graph
+wmi
