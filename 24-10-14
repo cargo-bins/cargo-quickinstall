@@ -19,3 +19,4 @@ pwasm-utils
 tendermint-abci
 rrule
 re_query
+remove_dir_all
