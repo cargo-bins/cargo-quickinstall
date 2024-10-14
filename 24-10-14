@@ -56,3 +56,4 @@ winpty-rs
 dotenv
 skim
 rustbus
+nexmark
