@@ -49,3 +49,4 @@ pgrx-tests
 addr2line
 cpp_demangle
 human_name
+schemafy
