@@ -3,3 +3,4 @@ rustrict
 qsv
 re_query
 diesel_cli
+cargo-lock
