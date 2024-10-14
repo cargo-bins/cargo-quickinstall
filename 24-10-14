@@ -27,3 +27,4 @@ rustbus
 unic-langid-impl
 cargo-generate
 dotenv
+java-locator
