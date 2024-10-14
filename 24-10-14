@@ -44,3 +44,4 @@ tendermint-rpc
 snarkvm
 oso
 deno
+remove_dir_all
