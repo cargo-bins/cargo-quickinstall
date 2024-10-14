@@ -48,3 +48,4 @@ nextest-filtering
 pgrx-tests
 cargo-lock
 deploy
+oso
