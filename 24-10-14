@@ -51,3 +51,4 @@ sqlx-cli
 coldsnap
 dotenv
 minicbor
+re_query
