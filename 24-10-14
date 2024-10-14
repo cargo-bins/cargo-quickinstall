@@ -12,3 +12,4 @@ laminar
 cached-path
 rustbus
 cpp_demangle
+ec2_instance_metadata
