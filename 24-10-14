@@ -88,3 +88,4 @@ sn_cli
 deno
 clippy
 libbpf-cargo
+sha1collisiondetection
