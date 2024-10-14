@@ -21,3 +21,4 @@ solana-cli
 raw-cpuid
 cargo-lock
 pgrx-tests
+racer
