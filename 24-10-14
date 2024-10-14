@@ -89,3 +89,4 @@ deno
 clippy
 libbpf-cargo
 sha1collisiondetection
+coldsnap
