@@ -28,3 +28,4 @@ nexmark
 rustfmt
 re_query
 solana-validator
+libbpf-cargo
