@@ -43,3 +43,4 @@ tokio-process
 deploy
 parquet
 deno
+java-locator
