@@ -45,3 +45,4 @@ cached-path
 solana-gossip
 remove_dir_all
 pwasm-utils
+libbpf-cargo
