@@ -15,3 +15,4 @@ minicbor
 tendermint-abci
 libbpf-cargo
 human_bytes
+httpmock
