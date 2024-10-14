@@ -30,3 +30,4 @@ z3tracer
 redoxer
 tree-sitter-graph
 opencv-binding-generator
+rustfmt-nightly
