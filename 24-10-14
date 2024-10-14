@@ -93,3 +93,4 @@ cargo-udeps
 addr2line
 wol-rs
 phf_generator
+paperclip
