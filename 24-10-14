@@ -64,3 +64,4 @@ re_query
 cpp_demangle
 phf_generator
 solana-gossip
+raw-cpuid
