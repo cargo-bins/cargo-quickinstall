@@ -79,3 +79,4 @@ tendermint-rpc
 solana-validator
 rustbus
 rustrict
+wol-rs
