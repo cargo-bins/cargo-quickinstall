@@ -8,3 +8,4 @@ winpty-rs
 tendermint-abci
 tendermint-rpc
 re_query
+syd
