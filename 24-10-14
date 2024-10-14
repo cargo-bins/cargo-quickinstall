@@ -14,3 +14,4 @@ foundationdb-gen
 libbpf-cargo
 rkv
 ducc-sys
+nextest-filtering
