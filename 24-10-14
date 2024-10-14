@@ -2,3 +2,4 @@ py-spy
 sqlx-cli
 coldsnap
 clippy
+diesel_cli
