@@ -99,3 +99,4 @@ nextest-filtering
 oso
 paperclip
 parquet
+honggfuzz
