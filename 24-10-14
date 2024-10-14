@@ -57,3 +57,4 @@ zuse
 borsh
 libbpf-cargo
 dotenv
+unic-langid-impl
