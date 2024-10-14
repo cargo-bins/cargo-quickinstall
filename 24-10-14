@@ -24,3 +24,4 @@ pgrx-tests
 racer
 ducc-sys
 rustbus
+unic-langid-impl
