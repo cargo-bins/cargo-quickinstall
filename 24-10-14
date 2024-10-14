@@ -46,3 +46,4 @@ bluetui
 cpp_demangle
 opencv-binding-generator
 hurl
+rustfmt-nightly
