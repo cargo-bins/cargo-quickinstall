@@ -47,3 +47,4 @@ arrow-flight
 java-locator
 pgrx-tests
 addr2line
+cpp_demangle
