@@ -29,3 +29,4 @@ re_query
 nextest-filtering
 wmi
 py-spy
+tendermint-rpc
