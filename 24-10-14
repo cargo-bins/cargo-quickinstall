@@ -80,3 +80,4 @@ winpty-rs
 cargo-lock
 pgrx-tests
 rls-rustc
+human_name
