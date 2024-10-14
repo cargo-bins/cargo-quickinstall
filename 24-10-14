@@ -8,3 +8,4 @@ winpty-rs
 paperclip
 pwasm-utils
 solana-cli
+nextest-filtering
