@@ -47,3 +47,4 @@ java-locator
 nextest-filtering
 pgrx-tests
 cargo-lock
+deploy
