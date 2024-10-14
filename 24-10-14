@@ -43,3 +43,4 @@ sqlx-cli
 tendermint-rpc
 snarkvm
 oso
+deno
