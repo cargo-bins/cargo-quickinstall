@@ -13,3 +13,4 @@ syd
 foundationdb-gen
 libbpf-cargo
 rkv
+ducc-sys
