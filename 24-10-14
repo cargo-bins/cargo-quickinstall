@@ -11,3 +11,4 @@ tendermint-rpc
 borsh
 sha1collisiondetection
 sshx
+textplots
