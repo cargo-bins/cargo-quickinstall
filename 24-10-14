@@ -17,3 +17,4 @@ ducc-sys
 h3o
 tendermint-abci
 syd
+socketcan
