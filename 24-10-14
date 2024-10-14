@@ -10,3 +10,4 @@ pwasm-utils
 solana-cli
 nextest-filtering
 starship
+ducc-sys
