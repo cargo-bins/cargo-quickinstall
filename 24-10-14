@@ -64,3 +64,4 @@ zuse
 spider_cli
 dotenv
 papyrus_storage
+httpmock
