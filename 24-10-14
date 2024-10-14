@@ -44,3 +44,4 @@ deploy
 parquet
 deno
 java-locator
+cpp_demangle
