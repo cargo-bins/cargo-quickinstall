@@ -3,3 +3,4 @@ borsh
 java-locator
 spider_cli
 socketcan
+sea-orm-cli
