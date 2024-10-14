@@ -6,3 +6,4 @@ spider_cli
 nextest-filtering
 racer
 syd
+rls-rustc
