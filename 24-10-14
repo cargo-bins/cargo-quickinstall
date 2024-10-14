@@ -17,3 +17,4 @@ human_name
 rkv
 spider_worker
 java-locator
+rustfmt-nightly
