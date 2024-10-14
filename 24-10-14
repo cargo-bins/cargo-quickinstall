@@ -56,3 +56,4 @@ pwasm-utils
 tendermint-abci
 arrow-flight
 libbpf-cargo
+snarkvm
