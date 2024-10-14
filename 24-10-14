@@ -39,3 +39,4 @@ deno
 rrule
 unic-langid-impl
 solana-keygen
+sqlx-cli
