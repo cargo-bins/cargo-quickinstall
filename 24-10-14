@@ -31,3 +31,4 @@ redoxer
 tree-sitter-graph
 opencv-binding-generator
 rustfmt-nightly
+fend
