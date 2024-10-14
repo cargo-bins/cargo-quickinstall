@@ -85,3 +85,4 @@ wol-rs
 tokio-process
 diesel_cli
 sn_cli
+deno
