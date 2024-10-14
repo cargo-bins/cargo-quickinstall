@@ -106,3 +106,4 @@ paperclip
 pwasm-utils
 nextest-filtering
 syd
+z3tracer
