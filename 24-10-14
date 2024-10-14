@@ -66,3 +66,4 @@ dotenv
 papyrus_storage
 httpmock
 rustfmt-nightly
+tendermint-abci
