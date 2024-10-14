@@ -62,3 +62,4 @@ httpmock
 unic-langid-impl
 re_query
 cpp_demangle
+phf_generator
