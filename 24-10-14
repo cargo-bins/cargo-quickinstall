@@ -6,3 +6,4 @@ rustrict
 librespot
 winpty-rs
 tendermint-abci
+tendermint-rpc
