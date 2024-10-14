@@ -23,3 +23,4 @@ cargo-lock
 pgrx-tests
 racer
 ducc-sys
+rustbus
