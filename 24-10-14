@@ -104,3 +104,4 @@ clippy
 nkeys
 paperclip
 pwasm-utils
+nextest-filtering
