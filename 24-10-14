@@ -46,3 +46,4 @@ solana-validator
 nexmark
 parquet
 socketcan
+foundationdb-gen
