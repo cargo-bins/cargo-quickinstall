@@ -3,3 +3,4 @@ commitgpt
 schematools-cli
 bluetui
 foundationdb-gen
+sea-orm-cli
