@@ -80,3 +80,4 @@ dotenvy
 tendermint-abci
 foundationdb-gen
 borsh
+arrow-flight
