@@ -36,3 +36,4 @@ honggfuzz
 winpty-rs
 wol-rs
 tendermint-rpc
+java-locator
