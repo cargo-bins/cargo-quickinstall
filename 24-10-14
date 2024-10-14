@@ -65,3 +65,4 @@ cpp_demangle
 phf_generator
 solana-gossip
 raw-cpuid
+rls-rustc
