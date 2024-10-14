@@ -14,3 +14,4 @@ mise
 minicbor
 tendermint-abci
 libbpf-cargo
+human_bytes
