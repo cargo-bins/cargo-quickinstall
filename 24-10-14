@@ -63,3 +63,4 @@ nextest-filtering
 rrule
 libbpf-cargo
 deploy
+rkv
