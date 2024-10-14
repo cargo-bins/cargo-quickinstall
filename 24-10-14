@@ -43,3 +43,4 @@ raw-cpuid
 deploy
 qsv
 rrule
+arrow-flight
