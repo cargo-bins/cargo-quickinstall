@@ -41,3 +41,4 @@ rustfmt
 sn_cli
 tokio-process
 deploy
+parquet
