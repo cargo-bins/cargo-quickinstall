@@ -43,3 +43,4 @@ re_query
 cargo-espflash
 httpmock
 oxipng
+typst-cli
