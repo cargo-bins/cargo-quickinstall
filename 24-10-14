@@ -56,3 +56,4 @@ tendermint-rpc
 rav1e
 remove_dir_all
 nkeys
+rustbus
