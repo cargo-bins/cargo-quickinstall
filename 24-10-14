@@ -47,3 +47,4 @@ deno
 remove_dir_all
 z3tracer
 dotenv
+tendermint-rpc
