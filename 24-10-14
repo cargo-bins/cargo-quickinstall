@@ -16,3 +16,4 @@ deno
 schemafy
 solana-stake-accounts
 snarkvm
+dotenv
