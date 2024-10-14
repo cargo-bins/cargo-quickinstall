@@ -4,3 +4,4 @@ java-locator
 spider_cli
 socketcan
 sea-orm-cli
+winpty-rs
