@@ -26,3 +26,4 @@ z3tracer
 solana-genesis
 minicbor
 rustfmt-nightly
+tendermint-abci
