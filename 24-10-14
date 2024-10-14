@@ -40,3 +40,4 @@ foundationdb-gen
 diesel_cli
 httpmock
 oso
+z3tracer
