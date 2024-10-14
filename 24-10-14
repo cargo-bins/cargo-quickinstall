@@ -22,3 +22,4 @@ foundationdb-gen
 diesel_cli
 socketcan
 unic-langid-impl
+cargo-vet
