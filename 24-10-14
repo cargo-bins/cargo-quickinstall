@@ -34,3 +34,4 @@ rustfmt-nightly
 fend
 dotenv
 libbpf-cargo
+httpmock
