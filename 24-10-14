@@ -12,3 +12,4 @@ opencv-binding-generator
 pgrx-tests
 sqlx-cli
 cargo-udeps
+human_bytes
