@@ -68,3 +68,4 @@ tendermint-rpc
 cargo-generate
 rkv
 minicbor
+human_bytes
