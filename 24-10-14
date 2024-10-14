@@ -7,3 +7,4 @@ wmi
 solana-remote-wallet
 cargo-local-registry
 tauri-cli
+cpp_demangle
