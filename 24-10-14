@@ -21,3 +21,4 @@ syd
 foundationdb-gen
 diesel_cli
 socketcan
+unic-langid-impl
