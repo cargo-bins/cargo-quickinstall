@@ -90,3 +90,4 @@ winpty-rs
 tree-sitter-graph
 httpmock
 cargo-udeps
+addr2line
