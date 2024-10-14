@@ -32,3 +32,4 @@ libbpf-cargo
 ducc-sys
 protox
 rustrict
+httpmock
