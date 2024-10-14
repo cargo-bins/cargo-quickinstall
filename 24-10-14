@@ -77,3 +77,4 @@ solana-validator
 human_name
 solana-validator
 dotenvy
+tendermint-abci
