@@ -49,3 +49,4 @@ z3tracer
 dotenv
 tendermint-rpc
 winpty-rs
+librespot
