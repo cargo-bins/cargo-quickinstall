@@ -67,3 +67,4 @@ rkv
 tendermint-rpc
 cargo-generate
 rkv
+minicbor
