@@ -31,3 +31,4 @@ opencv-binding-generator
 socketcan
 solana-genesis
 libbpf-cargo
+unic-langid-impl
