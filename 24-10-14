@@ -44,3 +44,4 @@ cargo-espflash
 httpmock
 oxipng
 typst-cli
+mdcat
