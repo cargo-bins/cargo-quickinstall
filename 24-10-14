@@ -54,3 +54,4 @@ minicbor
 re_query
 tendermint-rpc
 rav1e
+remove_dir_all
