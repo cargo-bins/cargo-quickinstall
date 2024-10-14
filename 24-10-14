@@ -63,3 +63,4 @@ wmi
 borsh
 dotenv
 solana-gossip
+nkeys
