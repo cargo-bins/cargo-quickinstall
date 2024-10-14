@@ -51,3 +51,4 @@ tendermint-rpc
 winpty-rs
 librespot
 nu
+evcxr_repl
