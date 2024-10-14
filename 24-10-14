@@ -7,3 +7,4 @@ nextest-filtering
 racer
 syd
 rls-rustc
+phf_generator
