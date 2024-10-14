@@ -26,3 +26,4 @@ ducc-sys
 rustbus
 unic-langid-impl
 cargo-generate
+dotenv
