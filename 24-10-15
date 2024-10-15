@@ -43,3 +43,4 @@ racer
 socketcan
 unic-langid-impl
 pwasm-utils
+dotenvy
