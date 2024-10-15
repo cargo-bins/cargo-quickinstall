@@ -29,3 +29,4 @@ sha1collisiondetection
 cached-path
 httpmock
 papyrus_storage
+tree-sitter-graph
