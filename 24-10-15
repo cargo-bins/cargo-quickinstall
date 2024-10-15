@@ -29,3 +29,4 @@ deploy
 syd
 minicbor
 sea-orm-cli
+deno
