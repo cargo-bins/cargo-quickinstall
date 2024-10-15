@@ -45,3 +45,4 @@ minicbor
 rustfmt-nightly
 qsv
 solana-cli
+diesel_cli
