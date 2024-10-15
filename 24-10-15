@@ -19,3 +19,4 @@ textplots
 cargo-about
 cpp_demangle
 cached-path
+dotenvy
