@@ -2,3 +2,4 @@ omicron-zone-package
 libbpf-cargo
 opencv-binding-generator
 ducc-sys
+arrow-flight
