@@ -59,3 +59,4 @@ parquet
 arrow-flight
 nextsv
 cpp_demangle
+unic-langid-impl
