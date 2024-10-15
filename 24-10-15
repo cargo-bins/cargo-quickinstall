@@ -40,3 +40,4 @@ a11ywatch_cli
 rustfmt-nightly
 socketcan
 schemafy
+rustfmt-nightly
