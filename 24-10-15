@@ -7,3 +7,4 @@ rrule
 unic-langid-impl
 phf_generator
 solana-cli
+solana-gossip
