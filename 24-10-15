@@ -26,3 +26,4 @@ rustfmt-nightly
 tendermint-abci
 trunk
 paperclip
+wmi
