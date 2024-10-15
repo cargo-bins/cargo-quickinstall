@@ -32,3 +32,4 @@ addr2line
 solana-gossip
 solana-validator
 human_bytes
+socketcan
