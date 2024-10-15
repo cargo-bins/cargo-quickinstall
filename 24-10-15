@@ -28,3 +28,4 @@ watchexec-cli
 deploy
 syd
 minicbor
+sea-orm-cli
