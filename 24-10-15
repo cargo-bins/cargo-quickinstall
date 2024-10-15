@@ -21,3 +21,4 @@ cpp_demangle
 cached-path
 dotenvy
 nkeys
+httpmock
