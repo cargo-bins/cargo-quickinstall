@@ -104,3 +104,4 @@ spider_worker
 winpty-rs
 tendermint-abci
 laminar
+rls-rustc
