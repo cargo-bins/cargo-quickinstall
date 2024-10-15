@@ -24,3 +24,4 @@ deploy
 protox
 tree-sitter-cli
 spider_cli
+pwasm-utils
