@@ -57,3 +57,4 @@ trunk
 solana-cli
 rustfmt-nightly
 ducc-sys
+racer
