@@ -27,3 +27,4 @@ raw-cpuid
 skim
 sha1collisiondetection
 cached-path
+httpmock
