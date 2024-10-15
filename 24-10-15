@@ -51,3 +51,4 @@ oso
 cargo-about
 dotenvy
 foundationdb-gen
+libbpf-cargo
