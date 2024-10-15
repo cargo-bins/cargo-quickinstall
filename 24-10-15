@@ -21,3 +21,4 @@ tendermint-rpc
 tendermint-abci
 rav1e
 solana-validator
+dotenv
