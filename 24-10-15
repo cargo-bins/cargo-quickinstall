@@ -101,3 +101,4 @@ z3tracer
 nu
 rls-rustc
 spider_worker
+winpty-rs
