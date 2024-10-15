@@ -99,3 +99,4 @@ watchexec-cli
 cached-path
 z3tracer
 nu
+rls-rustc
