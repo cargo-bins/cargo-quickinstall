@@ -31,3 +31,4 @@ qrtool
 espflash
 unic-langid-impl
 winpty-rs
+tendermint-rpc
