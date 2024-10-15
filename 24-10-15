@@ -42,3 +42,4 @@ borsh
 cached-path
 remove_dir_all
 minicbor
+rustfmt-nightly
