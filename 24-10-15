@@ -11,3 +11,4 @@ solana-gossip
 wmi
 rustrict
 clippy
+cargo-local-registry
