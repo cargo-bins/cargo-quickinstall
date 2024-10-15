@@ -50,3 +50,4 @@ dotenvy
 schemafy
 cached-path
 kdotool
+rls-rustc
