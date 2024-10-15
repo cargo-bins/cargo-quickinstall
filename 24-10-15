@@ -33,3 +33,4 @@ unic-langid-impl
 winpty-rs
 tendermint-rpc
 nextest-filtering
+release
