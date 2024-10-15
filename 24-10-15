@@ -13,3 +13,4 @@ human_bytes
 pwasm-utils
 paperclip
 borsh
+winpty-rs
