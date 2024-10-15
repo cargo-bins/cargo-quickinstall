@@ -6,3 +6,4 @@ socketcan
 sqlx-cli
 rkv
 pwasm-utils
+trunk
