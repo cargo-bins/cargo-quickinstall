@@ -6,3 +6,4 @@ rkv
 tendermint-rpc
 textplots
 wmi
+httpmock
