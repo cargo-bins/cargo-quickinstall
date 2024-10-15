@@ -9,3 +9,4 @@ qrtool
 rustfmt-nightly
 racer
 protox
+human_bytes
