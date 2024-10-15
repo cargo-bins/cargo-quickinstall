@@ -79,3 +79,4 @@ trunk
 sqlx-cli
 raw-cpuid
 zuse
+parquet
