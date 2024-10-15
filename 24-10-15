@@ -2,3 +2,4 @@ cargo-generate
 rls-rustc
 diesel_cli
 human_bytes
+socketcan
