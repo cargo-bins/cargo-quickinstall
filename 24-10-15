@@ -39,3 +39,4 @@ schemafy
 wol-rs
 human_name
 borsh
+cached-path
