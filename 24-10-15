@@ -50,3 +50,4 @@ libbpf-cargo
 parquet
 wol-rs
 tendermint-rpc
+py-spy
