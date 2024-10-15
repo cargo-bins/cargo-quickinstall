@@ -39,3 +39,4 @@ opencv-binding-generator
 cargo-outdated
 sha1collisiondetection
 z3tracer
+spider_worker
