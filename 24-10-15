@@ -1,2 +1,3 @@
 cpp_demangle
 dotenv
+addr2line
