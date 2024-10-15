@@ -46,3 +46,4 @@ clippy
 cached-path
 mise
 binstall
+libbpf-cargo
