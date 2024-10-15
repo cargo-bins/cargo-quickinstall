@@ -17,3 +17,4 @@ cargo-vet
 java-locator
 dotenv
 rkv
+tendermint-rpc
