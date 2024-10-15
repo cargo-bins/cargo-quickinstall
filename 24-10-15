@@ -21,3 +21,4 @@ fend
 dotenv
 solana-gossip
 typst-cli
+spider_worker
