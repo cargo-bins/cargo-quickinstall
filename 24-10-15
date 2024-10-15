@@ -58,3 +58,4 @@ solana-cli
 rustfmt-nightly
 ducc-sys
 racer
+human_name
