@@ -53,3 +53,4 @@ solana-gossip
 ducc-sys
 rustfmt
 protox
+tree-sitter-graph
