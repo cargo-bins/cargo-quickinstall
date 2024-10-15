@@ -10,3 +10,4 @@ deploy
 raw-cpuid
 nkeys
 sha1collisiondetection
+cargo-lock
