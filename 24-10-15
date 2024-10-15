@@ -35,3 +35,4 @@ phf_generator
 trunk
 solana-cli
 clippy
+schemafy
