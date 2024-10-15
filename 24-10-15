@@ -31,3 +31,4 @@ java-locator
 rkv
 addr2line
 remove_dir_all
+phf_generator
