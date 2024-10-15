@@ -11,3 +11,4 @@ unic-langid-impl
 honggfuzz
 minicbor
 raw-cpuid
+cpp_demangle
