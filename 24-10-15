@@ -43,3 +43,4 @@ schemafy
 rustfmt-nightly
 solana-cli
 clippy
+cached-path
