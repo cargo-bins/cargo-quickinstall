@@ -54,3 +54,4 @@ ducc-sys
 rustfmt
 protox
 tree-sitter-graph
+cached-path
