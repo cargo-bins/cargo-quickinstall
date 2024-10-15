@@ -30,3 +30,4 @@ wmi
 oso
 rustfmt-nightly
 httpmock
+cargo-outdated
