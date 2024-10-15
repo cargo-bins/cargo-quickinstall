@@ -47,3 +47,4 @@ qsv
 solana-cli
 diesel_cli
 trunk
+pgrx-tests
