@@ -21,3 +21,4 @@ deploy
 laminar
 ducc-sys
 unic-langid-impl
+dotenv
