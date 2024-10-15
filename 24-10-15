@@ -3,3 +3,4 @@ libbpf-cargo
 opencv-binding-generator
 ducc-sys
 arrow-flight
+benfred-read-process-memory
