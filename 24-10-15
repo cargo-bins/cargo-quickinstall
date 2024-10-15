@@ -3,3 +3,4 @@ trunk
 cpp_demangle
 nexmark
 diesel_cli
+remove_dir_all
