@@ -51,3 +51,4 @@ trunk
 arrow-flight
 solana-gossip
 ducc-sys
+rustfmt
