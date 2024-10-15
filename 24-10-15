@@ -13,3 +13,4 @@ minicbor
 raw-cpuid
 cpp_demangle
 protox
+cargo-vet
