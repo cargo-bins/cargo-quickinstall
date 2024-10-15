@@ -108,3 +108,4 @@ rls-rustc
 re_query
 trunk
 librespot
+evcxr_repl
