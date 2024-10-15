@@ -79,3 +79,4 @@ trunk
 omicron-zone-package
 nkeys
 httpmock
+ec2_instance_metadata
