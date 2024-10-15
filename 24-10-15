@@ -15,3 +15,4 @@ cpp_demangle
 protox
 cargo-vet
 java-locator
+dotenv
