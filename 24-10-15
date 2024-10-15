@@ -44,3 +44,4 @@ remove_dir_all
 minicbor
 rustfmt-nightly
 qsv
+solana-cli
