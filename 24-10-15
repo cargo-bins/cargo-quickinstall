@@ -27,3 +27,4 @@ spider_cli
 pwasm-utils
 zuse
 parquet
+clippy
