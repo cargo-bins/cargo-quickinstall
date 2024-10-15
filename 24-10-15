@@ -64,3 +64,4 @@ httpbis
 tendermint-abci
 nexmark
 human_name
+rustfmt-nightly
