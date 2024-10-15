@@ -41,3 +41,4 @@ rustfmt-nightly
 socketcan
 schemafy
 rustfmt-nightly
+solana-cli
