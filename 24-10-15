@@ -61,3 +61,4 @@ omicron-zone-package
 cargo-vet
 sn_node
 httpbis
+tendermint-abci
