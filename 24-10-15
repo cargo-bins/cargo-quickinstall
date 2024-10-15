@@ -7,3 +7,4 @@ benfred-read-process-memory
 cpp_demangle
 human_bytes
 py-spy
+unic-langid-impl
