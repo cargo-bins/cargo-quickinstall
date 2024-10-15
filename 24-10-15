@@ -12,3 +12,4 @@ nkeys
 sha1collisiondetection
 cargo-lock
 sshx
+rls-rustc
