@@ -33,3 +33,4 @@ httpmock
 cargo-outdated
 solana-cli
 opencv-binding-generator
+socketcan
