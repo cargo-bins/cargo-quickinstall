@@ -10,3 +10,4 @@ rustfmt-nightly
 racer
 protox
 human_bytes
+pwasm-utils
