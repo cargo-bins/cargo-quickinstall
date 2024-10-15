@@ -4,3 +4,4 @@ opencv-binding-generator
 ducc-sys
 arrow-flight
 benfred-read-process-memory
+cpp_demangle
