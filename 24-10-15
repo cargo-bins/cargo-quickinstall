@@ -70,3 +70,4 @@ diesel_cli
 racer
 sea-orm-cli
 syd
+tendermint-abci
