@@ -24,3 +24,4 @@ solana-validator
 dotenv
 laminar
 rustfmt-nightly
+nextest-filtering
