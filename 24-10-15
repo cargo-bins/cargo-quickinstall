@@ -24,3 +24,4 @@ nkeys
 httpmock
 rustfmt-nightly
 tendermint-abci
+trunk
