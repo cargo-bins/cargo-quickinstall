@@ -3,3 +3,4 @@ py-spy
 libbpf-cargo
 sha1collisiondetection
 release
+remove_dir_all
