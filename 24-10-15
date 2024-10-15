@@ -16,3 +16,4 @@ rls-rustc
 parquet
 socketcan
 rustfmt-nightly
+rkv
