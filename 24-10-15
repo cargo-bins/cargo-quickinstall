@@ -37,3 +37,4 @@ socketcan
 rustrict
 opencv-binding-generator
 cargo-outdated
+sha1collisiondetection
