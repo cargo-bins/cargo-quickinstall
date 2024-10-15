@@ -14,3 +14,4 @@ raw-cpuid
 cpp_demangle
 protox
 cargo-vet
+java-locator
