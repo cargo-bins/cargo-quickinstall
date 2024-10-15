@@ -20,3 +20,4 @@ rkv
 pgrx-tests
 foundationdb-gen
 clippy
+cached-path
