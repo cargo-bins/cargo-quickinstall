@@ -18,3 +18,4 @@ textplots
 binstall
 winpty-rs
 borsh
+coldsnap
