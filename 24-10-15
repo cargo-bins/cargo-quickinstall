@@ -45,3 +45,4 @@ unic-langid-impl
 pwasm-utils
 dotenvy
 httpmock
+wol-rs
