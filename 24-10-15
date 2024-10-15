@@ -19,3 +19,4 @@ binstall
 winpty-rs
 borsh
 coldsnap
+human_name
