@@ -35,3 +35,4 @@ tendermint-rpc
 nextest-filtering
 release
 racer
+cargo-lock
