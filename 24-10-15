@@ -18,3 +18,4 @@ socketcan
 rustfmt-nightly
 rkv
 pgrx-tests
+foundationdb-gen
