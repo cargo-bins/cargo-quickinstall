@@ -31,3 +31,4 @@ oso
 rustfmt-nightly
 httpmock
 cargo-outdated
+solana-cli
