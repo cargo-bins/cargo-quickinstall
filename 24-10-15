@@ -6,3 +6,4 @@ release
 remove_dir_all
 wol-rs
 qrtool
+rustfmt-nightly
