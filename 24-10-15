@@ -14,3 +14,4 @@ clippy
 cargo-local-registry
 zuse
 rkv
+cpp_demangle
