@@ -58,3 +58,4 @@ cached-path
 httpbis
 raw-cpuid
 omicron-zone-package
+cargo-vet
