@@ -74,3 +74,4 @@ tendermint-abci
 tree-sitter-cli
 racer
 tree-sitter-graph
+clippy
