@@ -48,3 +48,4 @@ sha1collisiondetection
 foundationdb-gen
 minicbor
 trunk
+arrow-flight
