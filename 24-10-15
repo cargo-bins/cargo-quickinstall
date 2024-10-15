@@ -72,3 +72,4 @@ rustfmt
 sha1collisiondetection
 borsh
 tendermint-abci
+dotenvy
