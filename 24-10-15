@@ -8,3 +8,4 @@ textplots
 wmi
 httpmock
 socketcan
+borsh
