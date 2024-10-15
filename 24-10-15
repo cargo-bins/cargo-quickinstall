@@ -8,3 +8,4 @@ a11ywatch_cli
 rls-rustc
 starship
 wmi
+dotenvy
