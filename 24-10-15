@@ -34,3 +34,4 @@ winpty-rs
 tendermint-rpc
 nextest-filtering
 release
+racer
