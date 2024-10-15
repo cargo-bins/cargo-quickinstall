@@ -49,3 +49,4 @@ binstall
 libbpf-cargo
 parquet
 wol-rs
+tendermint-rpc
