@@ -3,3 +3,4 @@ cargo-public-api
 commitgpt
 human_bytes
 cargo-lock
+binstall
