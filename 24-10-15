@@ -76,3 +76,4 @@ racer
 tree-sitter-graph
 clippy
 trunk
+sqlx-cli
