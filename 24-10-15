@@ -92,3 +92,4 @@ solana-stake-accounts
 watchexec-cli
 tree-sitter-graph
 raw-cpuid
+ducc-sys
