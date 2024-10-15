@@ -46,3 +46,4 @@ cpp_demangle
 nexmark
 paperclip
 schemafy
+remove_dir_all
