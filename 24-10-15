@@ -58,3 +58,4 @@ hurl
 parquet
 arrow-flight
 nextsv
+cpp_demangle
