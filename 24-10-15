@@ -42,3 +42,4 @@ socketcan
 schemafy
 rustfmt-nightly
 solana-cli
+clippy
