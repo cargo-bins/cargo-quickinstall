@@ -67,3 +67,4 @@ human_name
 rustfmt-nightly
 socketcan
 deno
+rls-rustc
