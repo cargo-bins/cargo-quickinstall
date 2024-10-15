@@ -48,3 +48,4 @@ httpmock
 wol-rs
 tendermint-rpc
 cpp_demangle
+arrow-flight
