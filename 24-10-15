@@ -81,3 +81,4 @@ nkeys
 httpmock
 ec2_instance_metadata
 cpp_demangle
+addr2line
