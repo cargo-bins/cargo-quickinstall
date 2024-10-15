@@ -16,3 +16,4 @@ borsh
 winpty-rs
 commitgpt
 paru
+sha1collisiondetection
