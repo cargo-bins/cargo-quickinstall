@@ -68,3 +68,4 @@ rustfmt-nightly
 socketcan
 deno
 rls-rustc
+rustfmt
