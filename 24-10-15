@@ -8,3 +8,4 @@ foundationdb-gen
 tree-sitter-graph
 deploy
 raw-cpuid
+nkeys
