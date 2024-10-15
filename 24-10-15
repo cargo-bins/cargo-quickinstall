@@ -26,3 +26,4 @@ laminar
 rustfmt-nightly
 nextest-filtering
 solana-cli
+borsh
