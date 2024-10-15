@@ -51,3 +51,4 @@ parquet
 wol-rs
 tendermint-rpc
 py-spy
+cached-path
