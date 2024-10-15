@@ -105,3 +105,4 @@ winpty-rs
 tendermint-abci
 laminar
 rls-rustc
+re_query
