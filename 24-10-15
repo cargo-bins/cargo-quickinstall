@@ -18,3 +18,4 @@ phf_generator
 diesel_cli
 solana-gossip
 borsh
+py-spy
