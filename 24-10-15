@@ -40,3 +40,4 @@ wol-rs
 human_name
 borsh
 cached-path
+remove_dir_all
