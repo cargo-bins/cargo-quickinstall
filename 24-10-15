@@ -18,3 +18,4 @@ borsh
 oso
 pgrx-tests
 fend
+dotenv
