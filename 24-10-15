@@ -36,3 +36,4 @@ nextest-filtering
 release
 racer
 cargo-lock
+a11ywatch_cli
