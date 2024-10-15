@@ -74,3 +74,4 @@ borsh
 tendermint-abci
 dotenvy
 pwasm-utils
+tree-sitter-graph
