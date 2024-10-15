@@ -48,3 +48,4 @@ mise
 binstall
 libbpf-cargo
 parquet
+wol-rs
