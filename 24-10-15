@@ -24,3 +24,4 @@ unic-langid-impl
 dotenv
 httpmock
 winpty-rs
+protox
