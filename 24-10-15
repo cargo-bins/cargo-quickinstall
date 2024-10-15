@@ -60,3 +60,4 @@ ducc-sys
 racer
 human_name
 parquet
+tree-sitter-graph
