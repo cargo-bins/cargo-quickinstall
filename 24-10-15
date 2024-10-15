@@ -47,3 +47,4 @@ dotenvy
 httpmock
 wol-rs
 tendermint-rpc
+cpp_demangle
