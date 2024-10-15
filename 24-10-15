@@ -46,3 +46,4 @@ pwasm-utils
 dotenvy
 httpmock
 wol-rs
+tendermint-rpc
