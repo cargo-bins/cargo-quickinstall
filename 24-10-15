@@ -5,3 +5,4 @@ human_bytes
 socketcan
 sqlx-cli
 rkv
+pwasm-utils
