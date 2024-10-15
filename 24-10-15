@@ -39,3 +39,4 @@ nexmark
 tendermint-rpc
 borsh
 nu
+human_bytes
