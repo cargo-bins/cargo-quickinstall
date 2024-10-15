@@ -31,3 +31,4 @@ httpmock
 papyrus_storage
 tree-sitter-graph
 h3o
+dotenv
