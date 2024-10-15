@@ -30,3 +30,4 @@ parquet
 clippy
 nu
 zuse
+rls-rustc
