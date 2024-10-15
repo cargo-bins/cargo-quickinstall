@@ -70,3 +70,4 @@ deno
 rls-rustc
 rustfmt
 sha1collisiondetection
+borsh
