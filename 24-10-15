@@ -32,3 +32,4 @@ sea-orm-cli
 deno
 tree-sitter-cli
 textplots
+racer
