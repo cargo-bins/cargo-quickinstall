@@ -10,3 +10,4 @@ py-spy
 unic-langid-impl
 honggfuzz
 minicbor
+raw-cpuid
