@@ -33,3 +33,4 @@ dotenv
 socketcan
 arrow-flight
 trunk
+deploy
