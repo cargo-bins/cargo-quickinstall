@@ -22,3 +22,4 @@ foundationdb-gen
 clippy
 cached-path
 cached-path
+arrow-flight
