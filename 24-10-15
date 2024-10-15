@@ -30,3 +30,4 @@ foundationdb-gen
 qrtool
 espflash
 unic-langid-impl
+winpty-rs
