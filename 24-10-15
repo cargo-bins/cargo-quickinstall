@@ -25,3 +25,4 @@ dotenv
 httpmock
 winpty-rs
 protox
+solana-gossip
