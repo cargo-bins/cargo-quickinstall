@@ -61,3 +61,4 @@ nextsv
 cpp_demangle
 unic-langid-impl
 rkv
+rustfmt-nightly
