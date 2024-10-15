@@ -36,3 +36,4 @@ opencv-binding-generator
 socketcan
 rustrict
 opencv-binding-generator
+cargo-outdated
