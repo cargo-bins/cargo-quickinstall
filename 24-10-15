@@ -50,3 +50,4 @@ tendermint-rpc
 cpp_demangle
 arrow-flight
 protox
+socketcan
