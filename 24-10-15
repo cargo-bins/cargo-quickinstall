@@ -71,3 +71,4 @@ rls-rustc
 rustfmt
 sha1collisiondetection
 borsh
+tendermint-abci
