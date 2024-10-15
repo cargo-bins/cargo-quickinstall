@@ -7,3 +7,4 @@ java-locator
 foundationdb-gen
 tree-sitter-graph
 deploy
+raw-cpuid
