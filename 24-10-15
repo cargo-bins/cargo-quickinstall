@@ -42,3 +42,4 @@ solana-cli
 racer
 socketcan
 unic-langid-impl
+pwasm-utils
