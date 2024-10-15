@@ -9,3 +9,4 @@ tree-sitter-graph
 deploy
 raw-cpuid
 nkeys
+sha1collisiondetection
