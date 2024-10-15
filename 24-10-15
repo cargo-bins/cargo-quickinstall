@@ -1,2 +1,3 @@
 cargo-generate
 rls-rustc
+diesel_cli
