@@ -30,3 +30,4 @@ tendermint-rpc
 rustfmt-nightly
 diesel_cli
 trunk
+hurl
