@@ -42,3 +42,4 @@ textplots
 remove_dir_all
 redoxer
 solana-cli
+foundationdb-gen
