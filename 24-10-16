@@ -32,3 +32,4 @@ addr2line
 dotenvy
 nextest-filtering
 nexmark
+racer
