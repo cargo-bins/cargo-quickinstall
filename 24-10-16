@@ -27,3 +27,4 @@ solana-validator
 pwasm-utils
 trunk
 tendermint-rpc
+rustfmt-nightly
