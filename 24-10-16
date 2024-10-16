@@ -30,3 +30,4 @@ socketcan
 ducc-sys
 zuse
 sea-orm-cli
+tendermint-abci
