@@ -35,3 +35,4 @@ java-locator
 winpty-rs
 tendermint-abci
 cargo-about
+solana-cli
