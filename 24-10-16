@@ -38,3 +38,4 @@ apollo-router
 tree-sitter-graph
 unic-langid-impl
 textplots
+cached-path
