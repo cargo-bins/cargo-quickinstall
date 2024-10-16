@@ -8,3 +8,4 @@ dotenv
 unic-langid-impl
 protox
 racer
+rustfmt-nightly
