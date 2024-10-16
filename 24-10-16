@@ -7,3 +7,4 @@ addr2line
 trunk
 minicbor
 human_name
+rls-rustc
