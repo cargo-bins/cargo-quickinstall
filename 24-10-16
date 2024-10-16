@@ -18,3 +18,4 @@ borsh
 tendermint-abci
 cpp_demangle
 protox
+honggfuzz
