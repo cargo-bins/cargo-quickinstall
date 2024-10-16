@@ -32,3 +32,4 @@ diesel_cli
 minicbor
 httpmock
 oso
+cpp_demangle
