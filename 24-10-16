@@ -33,3 +33,4 @@ tendermint-rpc
 borsh
 solana-stake-accounts
 cargo-espflash
+rustrict
