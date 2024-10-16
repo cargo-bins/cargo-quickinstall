@@ -41,3 +41,4 @@ textplots
 cached-path
 cpp_demangle
 rrule
+socketcan
