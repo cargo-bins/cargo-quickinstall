@@ -9,3 +9,4 @@ unic-langid-impl
 protox
 racer
 rustfmt-nightly
+rls-rustc
