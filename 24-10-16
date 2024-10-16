@@ -72,3 +72,4 @@ typst-cli
 racer
 trunk
 tendermint-abci
+rls-rustc
