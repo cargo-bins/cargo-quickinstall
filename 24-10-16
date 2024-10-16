@@ -10,3 +10,4 @@ spider_worker
 winpty-rs
 oso
 pwasm-utils
+pgrx-tests
