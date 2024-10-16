@@ -34,3 +34,4 @@ nextest-filtering
 nexmark
 racer
 cargo-vet
+papyrus_storage
