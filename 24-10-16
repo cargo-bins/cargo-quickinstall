@@ -3,3 +3,4 @@ libbpf-cargo
 pwasm-utils
 wmi
 cached-path
+java-locator
