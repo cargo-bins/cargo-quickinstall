@@ -29,3 +29,4 @@ minicbor
 raw-cpuid
 pgrx-tests
 nextest-filtering
+tendermint-rpc
