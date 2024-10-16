@@ -16,3 +16,4 @@ skim
 honggfuzz
 borsh
 tendermint-abci
+cpp_demangle
