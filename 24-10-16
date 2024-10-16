@@ -65,3 +65,4 @@ solana-remote-wallet
 deploy
 mdcat
 schemafy
+graphql_client_cli
