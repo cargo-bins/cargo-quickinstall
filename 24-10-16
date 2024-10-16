@@ -11,3 +11,4 @@ winpty-rs
 oso
 pwasm-utils
 pgrx-tests
+cpp_demangle
