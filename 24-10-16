@@ -8,3 +8,4 @@ clippy
 dotenvy
 protox
 cargo-lock
+solana-gossip
