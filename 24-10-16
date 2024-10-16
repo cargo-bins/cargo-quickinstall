@@ -28,3 +28,4 @@ racer
 tendermint-abci
 remove_dir_all
 diesel_cli
+phf_generator
