@@ -19,3 +19,4 @@ tendermint-abci
 cpp_demangle
 protox
 honggfuzz
+rustfmt-nightly
