@@ -41,3 +41,4 @@ textplots
 tendermint-abci
 solana-remote-wallet
 spider_cli
+qrtool
