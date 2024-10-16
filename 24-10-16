@@ -21,3 +21,4 @@ solana-remote-wallet
 sha1collisiondetection
 ducc-sys
 solana-remote-wallet
+rls-rustc
