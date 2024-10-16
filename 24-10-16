@@ -31,3 +31,4 @@ diesel_cli
 phf_generator
 minicbor
 rustfmt-nightly
+h3o
