@@ -56,3 +56,4 @@ cargo-public-api
 httpmock
 kdotool
 pcu
+foundationdb-gen
