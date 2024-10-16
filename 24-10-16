@@ -34,3 +34,4 @@ tendermint-abci
 java-locator
 winpty-rs
 tendermint-abci
+cargo-about
