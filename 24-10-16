@@ -10,3 +10,4 @@ protox
 cargo-lock
 solana-gossip
 cpp_demangle
+wmi
