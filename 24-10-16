@@ -25,3 +25,4 @@ phf_generator
 rls-rustc
 watchexec-cli
 cargo-about
+remove_dir_all
