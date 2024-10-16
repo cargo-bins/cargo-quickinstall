@@ -6,3 +6,4 @@ diesel_cli
 solana-keygen
 solana-gossip
 racer
+phf_generator
