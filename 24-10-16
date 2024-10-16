@@ -2,3 +2,4 @@ trunk
 tendermint-abci
 rmesg
 deploy
+raw-cpuid
