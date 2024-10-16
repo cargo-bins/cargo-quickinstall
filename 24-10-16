@@ -28,3 +28,4 @@ pwasm-utils
 trunk
 tendermint-rpc
 rustfmt-nightly
+diesel_cli
