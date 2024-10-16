@@ -21,3 +21,4 @@ protox
 honggfuzz
 rustfmt-nightly
 parquet
+z3tracer
