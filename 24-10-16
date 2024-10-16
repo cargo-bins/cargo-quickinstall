@@ -29,3 +29,4 @@ remove_dir_all
 socketcan
 ducc-sys
 zuse
+sea-orm-cli
