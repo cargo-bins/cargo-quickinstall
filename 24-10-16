@@ -32,3 +32,4 @@ phf_generator
 minicbor
 rustfmt-nightly
 h3o
+solana-gossip
