@@ -34,3 +34,4 @@ rustfmt-nightly
 h3o
 solana-gossip
 httpmock
+solana-cli
