@@ -3,3 +3,4 @@ tendermint-abci
 rmesg
 deploy
 raw-cpuid
+httpmock
