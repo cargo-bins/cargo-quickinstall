@@ -24,3 +24,4 @@ minicbor
 winpty-rs
 cargo-lock
 arrow-flight
+racer
