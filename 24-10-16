@@ -10,3 +10,4 @@ human_name
 rls-rustc
 arrow-flight
 winpty-rs
+text-diff
