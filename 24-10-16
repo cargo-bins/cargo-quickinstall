@@ -39,3 +39,4 @@ nkeys
 rmesg
 skim
 honggfuzz
+opencv-binding-generator
