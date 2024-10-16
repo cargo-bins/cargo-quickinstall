@@ -18,3 +18,4 @@ parquet
 unic-langid-impl
 httpmock
 wmi
+wol-rs
