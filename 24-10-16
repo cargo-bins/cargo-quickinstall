@@ -17,3 +17,4 @@ sha1collisiondetection
 opencv-binding-generator
 parquet
 tree-sitter-cli
+textplots
