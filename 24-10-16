@@ -36,3 +36,4 @@ winpty-rs
 tendermint-abci
 cargo-about
 solana-cli
+evcxr_repl
