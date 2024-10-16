@@ -69,3 +69,4 @@ graphql_client_cli
 socketcan
 deploy
 java-locator
+diesel_cli
