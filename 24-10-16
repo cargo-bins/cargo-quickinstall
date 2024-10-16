@@ -70,3 +70,4 @@ socketcan
 deploy
 java-locator
 diesel_cli
+spider_worker
