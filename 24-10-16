@@ -21,3 +21,4 @@ wmi
 wol-rs
 nextest-filtering
 minicbor
+winpty-rs
