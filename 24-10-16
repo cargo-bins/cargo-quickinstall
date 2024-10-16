@@ -13,3 +13,4 @@ rls-rustc
 parquet
 diesel_cli
 wol-rs
+tendermint-rpc
