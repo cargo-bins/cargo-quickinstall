@@ -23,3 +23,4 @@ papyrus_storage
 human_bytes
 winpty-rs
 unic-langid-impl
+dotenv
