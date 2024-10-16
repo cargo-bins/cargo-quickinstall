@@ -31,3 +31,4 @@ pgrx-tests
 nextest-filtering
 tendermint-rpc
 borsh
+solana-stake-accounts
