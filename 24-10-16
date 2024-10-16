@@ -31,3 +31,4 @@ solana-cli
 addr2line
 dotenvy
 nextest-filtering
+nexmark
