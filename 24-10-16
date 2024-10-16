@@ -46,3 +46,4 @@ foundationdb-gen
 paru
 commitgpt
 solana-cli
+cargo-lock
