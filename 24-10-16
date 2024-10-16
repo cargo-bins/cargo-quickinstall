@@ -14,3 +14,4 @@ parquet
 diesel_cli
 wol-rs
 tendermint-rpc
+parquet
