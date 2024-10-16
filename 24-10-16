@@ -47,3 +47,4 @@ paru
 commitgpt
 solana-cli
 cargo-lock
+addr2line
