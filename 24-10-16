@@ -7,3 +7,4 @@ diesel_cli
 apollo-router
 hurl
 parquet
+socketcan
