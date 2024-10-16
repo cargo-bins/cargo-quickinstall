@@ -12,3 +12,4 @@ solana-gossip
 cpp_demangle
 wmi
 tree-sitter-graph
+re_query
