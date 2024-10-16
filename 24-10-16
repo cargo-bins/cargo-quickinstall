@@ -5,3 +5,4 @@ wmi
 human_name
 raw-cpuid
 dotenv
+unic-langid-impl
