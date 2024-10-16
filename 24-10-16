@@ -8,3 +8,4 @@ typst-cli
 hurl
 cpp_demangle
 syd
+sea-orm-cli
