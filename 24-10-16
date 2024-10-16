@@ -9,3 +9,4 @@ dotenvy
 protox
 cargo-lock
 solana-gossip
+cpp_demangle
