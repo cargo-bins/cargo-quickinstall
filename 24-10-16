@@ -3,3 +3,4 @@ re_query
 cargo-public-api
 nexmark
 human_bytes
+parquet
