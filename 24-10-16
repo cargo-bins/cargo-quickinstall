@@ -25,3 +25,4 @@ winpty-rs
 unic-langid-impl
 dotenv
 cached-path
+tendermint-rpc
