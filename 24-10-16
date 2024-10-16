@@ -71,3 +71,4 @@ borsh
 typst-cli
 racer
 trunk
+tendermint-abci
