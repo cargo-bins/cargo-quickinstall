@@ -38,3 +38,4 @@ cargo-about
 solana-cli
 evcxr_repl
 winpty-rs
+deno
