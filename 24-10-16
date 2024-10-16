@@ -11,3 +11,4 @@ rls-rustc
 arrow-flight
 winpty-rs
 text-diff
+papyrus_storage
