@@ -13,3 +13,4 @@ sqlx-cli
 coldsnap
 h3o
 skim
+honggfuzz
