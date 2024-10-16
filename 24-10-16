@@ -27,3 +27,4 @@ watchexec-cli
 cargo-about
 remove_dir_all
 socketcan
+ducc-sys
