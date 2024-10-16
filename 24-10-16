@@ -16,3 +16,4 @@ wol-rs
 tendermint-rpc
 parquet
 unic-langid-impl
+httpmock
