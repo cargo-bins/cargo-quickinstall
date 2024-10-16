@@ -25,3 +25,4 @@ winpty-rs
 cargo-lock
 arrow-flight
 racer
+tendermint-abci
