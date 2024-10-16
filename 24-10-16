@@ -52,3 +52,4 @@ phf_generator
 tree-sitter-cli
 apollo-router
 nkeys
+cargo-public-api
