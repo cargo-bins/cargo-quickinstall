@@ -39,3 +39,4 @@ solana-cli
 evcxr_repl
 winpty-rs
 deno
+watchexec-cli
