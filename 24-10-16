@@ -27,3 +27,4 @@ dotenv
 cached-path
 tendermint-rpc
 h3o
+solana-cli
