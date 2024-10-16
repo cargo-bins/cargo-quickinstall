@@ -6,3 +6,4 @@ human_bytes
 parquet
 typst-cli
 hurl
+cpp_demangle
