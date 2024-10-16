@@ -18,3 +18,4 @@ ducc-sys
 a11ywatch_cli
 solana-cli
 solana-remote-wallet
+sha1collisiondetection
