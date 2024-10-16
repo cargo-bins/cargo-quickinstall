@@ -2,3 +2,4 @@ pwasm-utils
 libbpf-cargo
 pwasm-utils
 wmi
+cached-path
