@@ -5,3 +5,4 @@ clippy
 diesel_cli
 solana-keygen
 solana-gossip
+racer
