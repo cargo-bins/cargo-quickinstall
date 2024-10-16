@@ -21,3 +21,4 @@ textplots
 a11ywatch_cli
 raw-cpuid
 solana-cli
+phf_generator
