@@ -57,3 +57,4 @@ borsh
 java-locator
 graphql_client_cli
 laminar
+raw-cpuid
