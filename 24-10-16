@@ -32,3 +32,4 @@ nextest-filtering
 tendermint-rpc
 borsh
 solana-stake-accounts
+cargo-espflash
