@@ -18,3 +18,4 @@ apollo-router
 cargo-codspeed
 rustrict
 apollo-router
+cargo-tarpaulin
