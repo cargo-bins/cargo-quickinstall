@@ -11,3 +11,4 @@ racer
 rustfmt-nightly
 rls-rustc
 parquet
+diesel_cli
