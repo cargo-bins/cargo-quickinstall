@@ -32,3 +32,4 @@ diesel_cli
 trunk
 hurl
 rustfmt-nightly
+phf_generator
