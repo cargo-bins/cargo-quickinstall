@@ -28,3 +28,4 @@ cached-path
 tendermint-rpc
 h3o
 solana-cli
+addr2line
