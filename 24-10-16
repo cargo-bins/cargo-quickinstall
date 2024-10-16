@@ -4,3 +4,4 @@ remove_dir_all
 wmi
 human_name
 raw-cpuid
+dotenv
