@@ -40,3 +40,4 @@ rmesg
 skim
 honggfuzz
 opencv-binding-generator
+py-spy
