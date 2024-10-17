@@ -3,3 +3,4 @@ racer
 nextest-filtering
 pcu
 raw-cpuid
+rls-rustc
