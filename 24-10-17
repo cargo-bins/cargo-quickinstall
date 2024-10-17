@@ -5,3 +5,4 @@ pcu
 raw-cpuid
 rls-rustc
 winpty-rs
+spider_worker
