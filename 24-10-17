@@ -14,3 +14,4 @@ apollo-router
 graphql_client_cli
 socketcan
 diesel_cli
+cargo-lock
