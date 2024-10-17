@@ -7,3 +7,4 @@ nu
 solana-cli
 tauri-cli
 cargo-local-registry
+cargo-tarpaulin
