@@ -11,3 +11,4 @@ wmi
 qrtool
 qrtool
 salvo-cli
+cargo-lock
