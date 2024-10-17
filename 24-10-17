@@ -3,3 +3,4 @@ cargo-udeps
 deno
 cached-path
 cargo-generate
+sha1collisiondetection
