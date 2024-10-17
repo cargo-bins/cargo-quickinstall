@@ -16,3 +16,4 @@ starship
 cargo-outdated
 starship
 solana-cli
+tauri-cli
