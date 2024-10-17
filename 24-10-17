@@ -1,3 +1,4 @@
 cargo-outdated
 cargo-udeps
 deno
+cached-path
