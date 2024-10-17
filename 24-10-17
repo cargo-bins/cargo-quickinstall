@@ -10,3 +10,4 @@ apollo-router
 diesel_cli
 rmesg
 binstall
+sqlx-cli
