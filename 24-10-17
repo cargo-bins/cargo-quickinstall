@@ -39,3 +39,4 @@ py-spy
 addr2line
 solana-gossip
 oxipng
+graphql_client_cli
