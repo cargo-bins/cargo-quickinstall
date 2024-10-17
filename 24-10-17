@@ -33,3 +33,4 @@ opencv-binding-generator
 phf_generator
 binstall
 spider_worker
+re_query
