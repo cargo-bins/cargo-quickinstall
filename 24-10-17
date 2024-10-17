@@ -4,3 +4,4 @@ clippy
 rustfmt-nightly
 solana-cli
 exa
+nkeys
