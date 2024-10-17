@@ -62,3 +62,4 @@ java-locator
 opencv-binding-generator
 dotenv
 remove_dir_all
+human_bytes
