@@ -11,3 +11,4 @@ diesel_cli
 tree-sitter-cli
 phoenix-cli
 apollo-router
+graphql_client_cli
