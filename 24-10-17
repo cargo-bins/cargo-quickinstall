@@ -34,3 +34,4 @@ phf_generator
 binstall
 spider_worker
 re_query
+schematools-cli
