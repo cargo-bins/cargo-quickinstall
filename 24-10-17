@@ -68,3 +68,4 @@ graphql_client_cli
 cargo-lock
 wmi
 a11ywatch_cli
+unic-langid-impl
