@@ -15,3 +15,4 @@ cargo-local-registry
 parquet
 paperclip
 cargo-local-registry
+cpp_demangle
