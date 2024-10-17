@@ -12,3 +12,4 @@ rmesg
 binstall
 sqlx-cli
 cargo-local-registry
+parquet
