@@ -1,3 +1,4 @@
 minicbor
 diesel_cli
 clippy
+rustfmt-nightly
