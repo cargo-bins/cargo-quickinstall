@@ -3,3 +3,4 @@ laminar
 re_query
 wmi
 minicbor
+sea-orm-cli
