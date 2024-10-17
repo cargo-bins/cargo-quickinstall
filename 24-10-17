@@ -13,3 +13,4 @@ binstall
 sqlx-cli
 cargo-local-registry
 parquet
+paperclip
