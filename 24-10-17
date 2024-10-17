@@ -18,3 +18,4 @@ cargo-quickbuild
 rav1e
 clippy
 racer
+human_bytes
