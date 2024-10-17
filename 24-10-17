@@ -6,3 +6,4 @@ cargo-generate
 apollo-router
 solana-genesis
 human_bytes
+dotenvy
