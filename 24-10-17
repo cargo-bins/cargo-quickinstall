@@ -64,3 +64,4 @@ librespot
 tree-sitter-graph
 dotenv
 rustfmt-nightly
+graphql_client_cli
