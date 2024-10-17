@@ -8,3 +8,4 @@ cargo-outdated
 cargo-tarpaulin
 cargo-tarpaulin
 cargo-lock
+cargo-outdated
