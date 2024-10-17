@@ -22,3 +22,4 @@ cargo-outdated
 apollo-router
 cargo-outdated
 tauri-cli
+cargo-codspeed
