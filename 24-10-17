@@ -13,3 +13,4 @@ cached-path
 espflash
 solana-gossip
 wol-rs
+graphql_client_cli
