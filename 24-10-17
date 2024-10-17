@@ -69,3 +69,4 @@ cargo-lock
 wmi
 a11ywatch_cli
 unic-langid-impl
+pwasm-utils
