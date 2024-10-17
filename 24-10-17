@@ -12,3 +12,4 @@ qrtool
 qrtool
 salvo-cli
 cargo-lock
+tendermint-abci
