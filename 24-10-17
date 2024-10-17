@@ -9,3 +9,4 @@ cargo-tarpaulin
 cargo-tarpaulin
 cargo-lock
 cargo-outdated
+cargo-codspeed
