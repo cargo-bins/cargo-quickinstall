@@ -63,3 +63,4 @@ nkeys
 librespot
 tree-sitter-graph
 dotenv
+rustfmt-nightly
