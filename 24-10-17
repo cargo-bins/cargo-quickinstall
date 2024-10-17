@@ -6,3 +6,4 @@ raw-cpuid
 rls-rustc
 winpty-rs
 spider_worker
+nu_plugin_dbus
