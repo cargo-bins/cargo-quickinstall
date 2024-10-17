@@ -5,3 +5,4 @@ cached-path
 cargo-generate
 sha1collisiondetection
 cargo-outdated
+cargo-tarpaulin
