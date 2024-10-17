@@ -30,3 +30,4 @@ wol-rs
 mise
 nextest-filtering
 opencv-binding-generator
+phf_generator
