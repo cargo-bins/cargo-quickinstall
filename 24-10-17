@@ -8,3 +8,4 @@ paperclip
 libbpf-cargo
 laminar
 parquet
+clippy
