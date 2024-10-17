@@ -12,3 +12,4 @@ clippy
 nu_plugin_gstat
 kalc
 human_bytes
+ducc-sys
