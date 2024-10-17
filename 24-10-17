@@ -36,3 +36,4 @@ spider_worker
 re_query
 schematools-cli
 py-spy
+addr2line
