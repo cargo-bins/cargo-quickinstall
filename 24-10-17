@@ -20,3 +20,4 @@ cached-path
 rkv
 trunk
 libbpf-cargo
+wol-rs
