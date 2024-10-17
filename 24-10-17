@@ -19,3 +19,4 @@ schematools-cli
 cached-path
 rkv
 trunk
+libbpf-cargo
