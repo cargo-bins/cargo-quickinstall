@@ -5,3 +5,4 @@ cargo-codspeed
 solana-gossip
 nu
 solana-cli
+tauri-cli
