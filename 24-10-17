@@ -13,3 +13,4 @@ qrtool
 salvo-cli
 cargo-lock
 tendermint-abci
+sea-orm-cli
