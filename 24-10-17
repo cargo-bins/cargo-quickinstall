@@ -45,3 +45,4 @@ diesel_cli
 binstall
 nextsv
 unic-langid-impl
+py-spy
