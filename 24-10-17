@@ -13,3 +13,4 @@ qsv
 borsh
 qsv
 winpty-rs
+rls-rustc
