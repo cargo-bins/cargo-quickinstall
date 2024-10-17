@@ -18,3 +18,4 @@ starship
 solana-cli
 tauri-cli
 apollo-router
+cargo-outdated
