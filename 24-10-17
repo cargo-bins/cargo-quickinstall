@@ -8,3 +8,4 @@ solana-cli
 tauri-cli
 cargo-local-registry
 cargo-tarpaulin
+cargo-codspeed
