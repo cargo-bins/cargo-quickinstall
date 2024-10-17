@@ -13,3 +13,4 @@ apollo-router
 cargo-local-registry
 cargo-codspeed
 starship
+cargo-outdated
