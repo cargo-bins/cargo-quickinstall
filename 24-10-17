@@ -37,3 +37,4 @@ re_query
 schematools-cli
 py-spy
 addr2line
+solana-gossip
