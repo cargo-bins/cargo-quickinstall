@@ -17,3 +17,4 @@ cargo-outdated
 starship
 solana-cli
 tauri-cli
+apollo-router
