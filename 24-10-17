@@ -2,3 +2,4 @@ minicbor
 diesel_cli
 clippy
 rustfmt-nightly
+solana-cli
