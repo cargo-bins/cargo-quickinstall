@@ -16,3 +16,4 @@ tendermint-abci
 sea-orm-cli
 bluetui
 schematools-cli
+cached-path
