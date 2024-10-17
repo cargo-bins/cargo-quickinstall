@@ -17,3 +17,4 @@ sea-orm-cli
 bluetui
 schematools-cli
 cached-path
+rkv
