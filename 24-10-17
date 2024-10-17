@@ -16,3 +16,4 @@ ducc-sys
 addr2line
 cargo-quickbuild
 rav1e
+clippy
