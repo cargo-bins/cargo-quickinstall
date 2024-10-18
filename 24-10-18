@@ -10,3 +10,4 @@ dotenvy
 wmi
 deploy
 solana-genesis
+tendermint-abci
