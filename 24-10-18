@@ -41,3 +41,4 @@ atuin
 sha1collisiondetection
 socketcan
 release
+phf_generator
