@@ -5,3 +5,4 @@ minicbor
 nkeys
 human_bytes
 sniffnet
+cpp_demangle
