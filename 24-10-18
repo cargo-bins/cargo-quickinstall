@@ -2,3 +2,4 @@ libbpf-cargo
 foundationdb-gen
 clippy
 h3o
+sshx
