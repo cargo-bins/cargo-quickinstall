@@ -5,3 +5,4 @@ cached-path
 clippy
 graphql_client_cli
 foundationdb-gen
+phoenix-cli
