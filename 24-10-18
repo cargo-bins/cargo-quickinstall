@@ -24,3 +24,4 @@ sqlx-cli
 cargo-local-registry
 java-locator
 solana-genesis
+remove_dir_all
