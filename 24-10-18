@@ -33,3 +33,4 @@ solana-genesis
 tendermint-abci
 opencv-binding-generator
 httpmock
+dotenv
