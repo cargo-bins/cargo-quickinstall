@@ -18,3 +18,4 @@ borsh
 rustfmt-nightly
 librespot
 raw-cpuid
+dotenvy
