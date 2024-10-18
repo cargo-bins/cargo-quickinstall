@@ -17,3 +17,4 @@ deploy
 borsh
 rustfmt-nightly
 librespot
+raw-cpuid
