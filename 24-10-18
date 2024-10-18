@@ -40,3 +40,4 @@ cargo-tarpaulin
 ducc-sys
 a11ywatch_cli
 racer
+sqlx-cli
