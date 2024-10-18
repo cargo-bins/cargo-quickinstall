@@ -26,3 +26,4 @@ java-locator
 solana-genesis
 remove_dir_all
 phf_generator
+human_name
