@@ -33,3 +33,4 @@ oso
 unic-langid-impl
 cargo-lock
 diesel_cli
+solana-genesis
