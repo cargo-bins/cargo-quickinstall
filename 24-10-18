@@ -32,3 +32,4 @@ pgrx-tests
 solana-genesis
 tendermint-abci
 opencv-binding-generator
+httpmock
