@@ -31,3 +31,4 @@ cargo-local-registry
 cargo-c
 oso
 unic-langid-impl
+cargo-lock
