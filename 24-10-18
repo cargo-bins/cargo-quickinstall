@@ -42,3 +42,4 @@ sha1collisiondetection
 socketcan
 release
 phf_generator
+sea-orm-cli
