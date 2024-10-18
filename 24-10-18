@@ -11,3 +11,4 @@ clippy
 papyrus_storage
 minicbor
 nu
+socketcan
