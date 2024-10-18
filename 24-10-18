@@ -13,3 +13,4 @@ cargo-generate
 cargo-lock
 cargo-tarpaulin
 cargo-codspeed
+cargo-local-registry
