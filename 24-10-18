@@ -45,3 +45,4 @@ cargo-local-registry
 apollo-router
 human_name
 human_bytes
+cargo-lock
