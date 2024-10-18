@@ -11,3 +11,4 @@ rustrict
 rustbus
 addr2line
 rmesg
+clippy
