@@ -20,3 +20,4 @@ cargo-c
 syd
 cargo-udeps
 deploy
+pgrx-tests
