@@ -5,3 +5,4 @@ solana-remote-wallet
 re_query
 tendermint-rpc
 tree-sitter-graph
+wol-rs
