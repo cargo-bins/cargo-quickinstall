@@ -22,3 +22,4 @@ dotenv
 borsh
 winpty-rs
 solana-genesis
+spider_cli
