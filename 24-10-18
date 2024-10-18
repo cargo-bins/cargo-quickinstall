@@ -2,3 +2,4 @@ tauri-cli
 a11ywatch_cli
 cargo-c
 cargo-generate
+sccache
