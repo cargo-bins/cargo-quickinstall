@@ -44,3 +44,4 @@ release
 phf_generator
 sea-orm-cli
 cargo-public-api
+typst-cli
