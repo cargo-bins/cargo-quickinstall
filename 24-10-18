@@ -21,3 +21,4 @@ rustfmt-nightly
 sniffnet
 deploy
 sqlx-cli
+cargo-local-registry
