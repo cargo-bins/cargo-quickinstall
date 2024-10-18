@@ -4,3 +4,4 @@ cargo-c
 cargo-generate
 sccache
 cargo-c
+starship
