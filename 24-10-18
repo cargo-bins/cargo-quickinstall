@@ -12,3 +12,4 @@ rustbus
 addr2line
 rmesg
 clippy
+sha1collisiondetection
