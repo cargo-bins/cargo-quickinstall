@@ -16,3 +16,4 @@ starship
 cargo-udeps
 starship
 cargo-generate
+cargo-c
