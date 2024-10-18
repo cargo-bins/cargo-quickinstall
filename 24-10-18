@@ -36,3 +36,4 @@ solana-gossip
 rkv
 cargo-public-api
 py-spy
+pwasm-utils
