@@ -34,3 +34,4 @@ unic-langid-impl
 cargo-lock
 diesel_cli
 solana-genesis
+a11ywatch_cli
