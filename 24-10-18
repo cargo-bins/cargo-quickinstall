@@ -12,3 +12,4 @@ qsv
 winpty-rs
 nu_plugin_gstat
 re_query
+dotenvy
