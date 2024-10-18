@@ -14,3 +14,4 @@ solana-verify
 solana-cli
 solana-gossip
 deploy
+borsh
