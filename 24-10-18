@@ -58,3 +58,4 @@ syd
 ducc-sys
 cargo-public-api
 sea-orm-cli
+clippy
