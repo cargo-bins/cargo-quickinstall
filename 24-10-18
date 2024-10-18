@@ -35,3 +35,4 @@ opencv-binding-generator
 httpmock
 dotenv
 rkv
+phoenix-cli
