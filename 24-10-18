@@ -55,3 +55,4 @@ oso
 rustrict
 rustfmt-nightly
 cached-path
+addr2line
