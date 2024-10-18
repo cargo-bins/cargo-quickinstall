@@ -50,3 +50,4 @@ twox-hash
 socketcan
 clippy
 clipboard-history
+dotenvy
