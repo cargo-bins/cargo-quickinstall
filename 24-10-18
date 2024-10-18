@@ -19,3 +19,4 @@ rustfmt-nightly
 librespot
 raw-cpuid
 dotenvy
+rkv
