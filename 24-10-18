@@ -11,3 +11,4 @@ cargo-outdated
 cargo-about
 cargo-generate
 cargo-lock
+cargo-tarpaulin
