@@ -27,3 +27,4 @@ cargo-udeps
 addr2line
 tree-sitter-cli
 solana-genesis
+cargo-local-registry
