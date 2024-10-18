@@ -16,3 +16,4 @@ solana-gossip
 deploy
 borsh
 rustfmt-nightly
+librespot
