@@ -38,3 +38,4 @@ cargo-public-api
 py-spy
 pwasm-utils
 atuin
+sha1collisiondetection
