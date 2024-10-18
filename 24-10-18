@@ -24,3 +24,4 @@ winpty-rs
 solana-genesis
 spider_cli
 ducc-sys
+graphql_client_cli
