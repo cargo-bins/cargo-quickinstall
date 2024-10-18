@@ -12,3 +12,4 @@ cargo-about
 cargo-generate
 cargo-lock
 cargo-tarpaulin
+cargo-codspeed
