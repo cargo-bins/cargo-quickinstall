@@ -36,3 +36,4 @@ httpmock
 dotenv
 rkv
 phoenix-cli
+hurl
