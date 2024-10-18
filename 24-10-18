@@ -17,3 +17,4 @@ clippy
 schemafy
 solana-genesis
 schemafy
+rustfmt-nightly
