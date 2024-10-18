@@ -26,3 +26,4 @@ nextest-filtering
 sea-orm-cli
 starship
 solana-verify
+cargo-lock
