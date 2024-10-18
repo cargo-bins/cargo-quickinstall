@@ -27,3 +27,4 @@ sea-orm-cli
 starship
 solana-verify
 cargo-lock
+pgrx-tests
