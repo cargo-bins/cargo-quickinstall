@@ -53,3 +53,4 @@ clipboard-history
 dotenvy
 oso
 rustrict
+rustfmt-nightly
