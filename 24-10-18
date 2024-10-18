@@ -41,3 +41,4 @@ ducc-sys
 a11ywatch_cli
 racer
 sqlx-cli
+cargo-local-registry
