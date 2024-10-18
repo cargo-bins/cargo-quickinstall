@@ -18,3 +18,4 @@ rls-rustc
 remove_dir_all
 nkeys
 redoxer
+wmi
