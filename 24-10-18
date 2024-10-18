@@ -35,3 +35,4 @@ pgrx-tests
 solana-gossip
 rkv
 cargo-public-api
+py-spy
