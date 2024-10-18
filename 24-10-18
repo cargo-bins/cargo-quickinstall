@@ -22,3 +22,4 @@ sniffnet
 deploy
 sqlx-cli
 cargo-local-registry
+java-locator
