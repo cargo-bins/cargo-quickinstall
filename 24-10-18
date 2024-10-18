@@ -7,3 +7,4 @@ tendermint-rpc
 tree-sitter-graph
 wol-rs
 remove_dir_all
+solana-keygen
