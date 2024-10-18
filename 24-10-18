@@ -13,3 +13,4 @@ minicbor
 nu
 socketcan
 starship
+cargo-udeps
