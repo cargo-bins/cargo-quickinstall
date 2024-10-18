@@ -48,3 +48,4 @@ hurl
 pwasm-utils
 twox-hash
 socketcan
+clippy
