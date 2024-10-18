@@ -9,3 +9,4 @@ starship
 cargo-about
 cargo-outdated
 cargo-about
+cargo-generate
