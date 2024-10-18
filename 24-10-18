@@ -14,3 +14,4 @@ nu_plugin_gstat
 re_query
 dotenvy
 parquet
+minicbor
