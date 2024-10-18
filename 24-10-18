@@ -21,3 +21,4 @@ minicbor
 dotenv
 borsh
 winpty-rs
+solana-genesis
