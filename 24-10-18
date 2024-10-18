@@ -19,3 +19,4 @@ cargo-generate
 cargo-c
 syd
 cargo-udeps
+deploy
