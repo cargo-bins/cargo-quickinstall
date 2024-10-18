@@ -54,3 +54,4 @@ dotenvy
 oso
 rustrict
 rustfmt-nightly
+cached-path
