@@ -44,3 +44,4 @@ snarkvm
 pwasm-utils
 socketcan
 arrow-flight
+hurl
