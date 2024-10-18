@@ -34,3 +34,4 @@ typst-cli
 pgrx-tests
 solana-gossip
 rkv
+cargo-public-api
