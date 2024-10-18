@@ -33,3 +33,4 @@ rls-rustc
 apollo-router
 apollo-router
 twox-hash
+phf_generator
