@@ -7,3 +7,4 @@ cargo-c
 starship
 starship
 cargo-about
+cargo-outdated
