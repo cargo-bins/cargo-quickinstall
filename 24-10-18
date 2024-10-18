@@ -36,3 +36,4 @@ diesel_cli
 solana-genesis
 a11ywatch_cli
 diesel_cli
+cargo-tarpaulin
