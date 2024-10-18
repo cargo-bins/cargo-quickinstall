@@ -24,3 +24,4 @@ racer
 solana-genesis
 nextest-filtering
 sea-orm-cli
+starship
