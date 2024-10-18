@@ -49,3 +49,4 @@ pwasm-utils
 twox-hash
 socketcan
 clippy
+clipboard-history
