@@ -20,3 +20,4 @@ deploy
 minicbor
 dotenv
 borsh
+winpty-rs
