@@ -39,3 +39,4 @@ diesel_cli
 cargo-tarpaulin
 ducc-sys
 a11ywatch_cli
+racer
