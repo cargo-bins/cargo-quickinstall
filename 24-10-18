@@ -32,3 +32,4 @@ cargo-c
 oso
 unic-langid-impl
 cargo-lock
+diesel_cli
