@@ -24,3 +24,4 @@ pgrx-tests
 cargo-about
 sccache
 cargo-udeps
+addr2line
