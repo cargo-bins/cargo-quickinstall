@@ -16,3 +16,4 @@ cargo-codspeed
 cargo-local-registry
 apollo-router
 cargo-local-registry
+twox-hash
