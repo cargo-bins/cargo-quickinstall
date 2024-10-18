@@ -39,3 +39,4 @@ py-spy
 pwasm-utils
 atuin
 sha1collisiondetection
+socketcan
