@@ -28,3 +28,4 @@ remove_dir_all
 phf_generator
 human_name
 pwasm-utils
+textplots
