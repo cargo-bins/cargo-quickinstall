@@ -15,3 +15,4 @@ cargo-tarpaulin
 cargo-codspeed
 cargo-local-registry
 apollo-router
+cargo-local-registry
