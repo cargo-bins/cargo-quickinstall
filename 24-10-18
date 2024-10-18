@@ -25,3 +25,4 @@ solana-genesis
 nextest-filtering
 sea-orm-cli
 starship
+solana-verify
