@@ -9,3 +9,4 @@ phf_generator
 pgrx-tests
 clippy
 papyrus_storage
+minicbor
