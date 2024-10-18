@@ -46,3 +46,4 @@ sea-orm-cli
 cargo-public-api
 typst-cli
 solana-gossip
+clipboard-history
