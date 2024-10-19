@@ -33,3 +33,4 @@ pgrx-tests
 remove_dir_all
 pgrx-tests
 cargo-generate
+rustbus
