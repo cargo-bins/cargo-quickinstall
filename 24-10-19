@@ -39,3 +39,4 @@ syd
 tree-sitter-graph
 libbpf-cargo
 minicbor
+ducc-sys
