@@ -10,3 +10,4 @@ parquet
 nextest-filtering
 borsh
 dotenvy
+solana-gossip
