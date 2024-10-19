@@ -27,3 +27,4 @@ solana-validator
 addr2line
 clippy
 sniffnet
+solana-gossip
