@@ -55,3 +55,4 @@ solana-genesis
 foundationdb-gen
 nexmark
 minicbor
+tendermint-rpc
