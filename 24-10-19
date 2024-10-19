@@ -16,3 +16,4 @@ nextsv
 socketcan
 oxipng
 salvo-cli
+cpp_demangle
