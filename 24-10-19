@@ -25,3 +25,4 @@ twox-hash
 schemafy
 dotenv
 hurl
+graphql_client_cli
