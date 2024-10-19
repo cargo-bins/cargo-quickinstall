@@ -34,3 +34,4 @@ cpp_demangle
 paperclip
 deno
 winpty-rs
+solana-gossip
