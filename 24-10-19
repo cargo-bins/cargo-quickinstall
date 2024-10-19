@@ -12,3 +12,4 @@ phf_generator
 tree-sitter-graph
 clippy
 cargo-generate
+solana-gossip
