@@ -42,3 +42,4 @@ twox-hash
 rrule
 arrow-flight
 cargo-generate
+phf_generator
