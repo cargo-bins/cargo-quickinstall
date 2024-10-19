@@ -16,3 +16,4 @@ cpp_demangle
 arrow-flight
 human_name
 cargo-tarpaulin
+tendermint-rpc
