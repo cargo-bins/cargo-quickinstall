@@ -25,3 +25,4 @@ winpty-rs
 solana-cli
 sea-orm-cli
 socketcan
+kdotool
