@@ -57,3 +57,4 @@ nexmark
 minicbor
 tendermint-rpc
 sha1collisiondetection
+borsh
