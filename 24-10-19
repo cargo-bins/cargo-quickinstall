@@ -39,3 +39,4 @@ twox-hash
 tendermint-abci
 ducc-sys
 opencv-binding-generator
+clippy
