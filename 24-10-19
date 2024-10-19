@@ -33,3 +33,4 @@ httpmock
 coldsnap
 java-locator
 foundationdb-gen
+pgrx-tests
