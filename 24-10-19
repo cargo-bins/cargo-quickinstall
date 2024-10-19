@@ -21,3 +21,4 @@ nexmark
 cargo-tarpaulin
 remove_dir_all
 borsh
+protox
