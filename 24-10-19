@@ -25,3 +25,4 @@ schemafy
 sea-orm-cli
 solana-genesis
 starship
+tendermint-abci
