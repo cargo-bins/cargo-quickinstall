@@ -28,3 +28,4 @@ addr2line
 clippy
 sniffnet
 solana-gossip
+remove_dir_all
