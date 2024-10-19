@@ -69,3 +69,4 @@ spider_cli
 foundationdb-gen
 sha1collisiondetection
 cargo-c
+nexmark
