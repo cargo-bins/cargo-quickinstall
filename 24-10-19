@@ -41,3 +41,4 @@ ducc-sys
 opencv-binding-generator
 clippy
 twox-hash
+re_query
