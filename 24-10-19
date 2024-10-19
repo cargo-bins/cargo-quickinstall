@@ -64,3 +64,4 @@ graphql_client_cli
 h3o
 cached-path
 deploy
+rkv
