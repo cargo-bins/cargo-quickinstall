@@ -37,3 +37,4 @@ schemafy
 foundationdb-gen
 rls-rustc
 nkeys
+minicbor
