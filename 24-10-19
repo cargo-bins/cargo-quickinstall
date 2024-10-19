@@ -16,3 +16,4 @@ solana-gossip
 textplots
 paperclip
 rmesg
+addr2line
