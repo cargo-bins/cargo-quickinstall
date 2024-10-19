@@ -33,3 +33,4 @@ opencv-binding-generator
 dotenvy
 sea-orm-cli
 tendermint-rpc
+zuse
