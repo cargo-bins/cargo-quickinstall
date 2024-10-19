@@ -36,3 +36,4 @@ tendermint-rpc
 zuse
 winpty-rs
 human_bytes
+twox-hash
