@@ -83,3 +83,4 @@ cargo-c
 cargo-generate
 ducc-sys
 arrow-flight
+sccache
