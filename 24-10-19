@@ -74,3 +74,4 @@ z3tracer
 remove_dir_all
 dotenv
 laminar
+human_bytes
