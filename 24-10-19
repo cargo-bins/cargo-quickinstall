@@ -20,3 +20,4 @@ addr2line
 cargo-c
 parquet
 rkv
+sqlx-cli
