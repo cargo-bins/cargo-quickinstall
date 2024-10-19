@@ -21,3 +21,4 @@ rls-rustc
 rustfmt
 cargo-lock
 cargo-generate
+cargo-lock
