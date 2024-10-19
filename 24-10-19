@@ -8,3 +8,4 @@ raw-cpuid
 solana-keygen
 opencv-binding-generator
 clippy
+solana-gossip
