@@ -60,3 +60,4 @@ diesel_cli
 cargo-generate
 wol-rs
 foundationdb-gen
+unic-langid-impl
