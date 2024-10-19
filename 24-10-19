@@ -30,3 +30,4 @@ nextest-filtering
 spider_cli
 pwasm-utils
 opencv-binding-generator
+dotenvy
