@@ -18,3 +18,4 @@ opencv-binding-generator
 sha1collisiondetection
 apollo-router
 tendermint-abci
+cargo-lock
