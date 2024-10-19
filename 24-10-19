@@ -24,3 +24,4 @@ cargo-generate
 cargo-lock
 cargo-local-registry
 solana-genesis
+benfred-read-process-memory
