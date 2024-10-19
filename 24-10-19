@@ -12,3 +12,4 @@ rmesg
 pgrx-tests
 cargo-local-registry
 tendermint-rpc
+syd
