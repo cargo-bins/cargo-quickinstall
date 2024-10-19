@@ -67,3 +67,4 @@ deploy
 rkv
 laminar
 nextest-filtering
+twox-hash
