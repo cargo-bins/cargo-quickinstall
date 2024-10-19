@@ -3,3 +3,4 @@ rustfmt-nightly
 wol-rs
 pgrx-tests
 solana-genesis
+solana-validator
