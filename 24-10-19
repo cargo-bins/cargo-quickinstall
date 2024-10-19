@@ -34,3 +34,4 @@ dotenvy
 sea-orm-cli
 tendermint-rpc
 zuse
+winpty-rs
