@@ -10,3 +10,4 @@ cargo-c
 rkv
 deploy
 h3o
+twox-hash
