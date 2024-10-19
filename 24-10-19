@@ -36,3 +36,4 @@ deno
 winpty-rs
 solana-gossip
 syd
+tree-sitter-graph
