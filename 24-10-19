@@ -66,3 +66,4 @@ solana-stake-accounts
 sccache
 wmi
 spider_cli
+foundationdb-gen
