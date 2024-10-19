@@ -25,3 +25,4 @@ rustfmt-nightly
 solana-genesis
 solana-validator
 addr2line
+clippy
