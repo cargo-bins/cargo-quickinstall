@@ -26,3 +26,4 @@ solana-cli
 sea-orm-cli
 socketcan
 kdotool
+spider_worker
