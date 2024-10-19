@@ -35,3 +35,4 @@ twox-hash
 parquet
 schemafy
 foundationdb-gen
+rls-rustc
