@@ -72,3 +72,4 @@ cargo-c
 nexmark
 human_name
 nkeys
+wol-rs
