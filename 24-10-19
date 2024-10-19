@@ -20,3 +20,4 @@ cargo-lock
 trunk
 snarkvm
 solana-stake-accounts
+pwasm-utils
