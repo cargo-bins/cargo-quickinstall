@@ -7,3 +7,4 @@ solana-validator
 human_bytes
 diesel_cli
 cargo-c
+rkv
