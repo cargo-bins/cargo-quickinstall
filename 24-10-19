@@ -24,3 +24,4 @@ pwasm-utils
 schemafy
 sea-orm-cli
 solana-genesis
+starship
