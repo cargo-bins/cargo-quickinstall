@@ -21,3 +21,4 @@ tendermint-abci
 cargo-lock
 solana-genesis
 oso
+pwasm-utils
