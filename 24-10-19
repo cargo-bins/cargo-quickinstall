@@ -39,3 +39,4 @@ human_bytes
 twox-hash
 ducc-sys
 raw-cpuid
+tree-sitter-graph
