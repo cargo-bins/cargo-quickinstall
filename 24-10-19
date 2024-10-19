@@ -19,3 +19,4 @@ libbpf-cargo
 pgrx-tests
 deno
 libbpf-cargo
+winpty-rs
