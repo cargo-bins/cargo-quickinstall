@@ -38,3 +38,4 @@ foundationdb-gen
 rls-rustc
 nkeys
 minicbor
+opencv-binding-generator
