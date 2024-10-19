@@ -6,3 +6,4 @@ clippy
 solana-remote-wallet
 cpp_demangle
 oso
+remove_dir_all
