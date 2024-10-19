@@ -11,3 +11,4 @@ clippy
 solana-gossip
 nexmark
 trunk
+opencv-binding-generator
