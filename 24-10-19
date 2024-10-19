@@ -28,3 +28,4 @@ benfred-read-process-memory
 tokio-process
 rmesg
 sn_node
+twox-hash
