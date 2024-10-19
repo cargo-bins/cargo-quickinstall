@@ -9,3 +9,4 @@ tendermint-abci
 tree-sitter-graph
 borsh
 rmesg
+pgrx-tests
