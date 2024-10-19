@@ -61,3 +61,4 @@ borsh
 libbpf-cargo
 tendermint-rpc
 graphql_client_cli
+h3o
