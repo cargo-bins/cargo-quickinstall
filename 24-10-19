@@ -30,3 +30,4 @@ starship
 cpp_demangle
 rustfmt-nightly
 java-locator
+trunk
