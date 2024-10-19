@@ -41,3 +41,4 @@ ducc-sys
 raw-cpuid
 tree-sitter-graph
 wol-rs
+cargo-generate
