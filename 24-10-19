@@ -11,3 +11,4 @@ tauri-cli
 borsh
 libbpf-cargo
 h3o
+rls-rustc
