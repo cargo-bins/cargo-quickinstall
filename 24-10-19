@@ -6,3 +6,4 @@ tree-sitter-graph
 rrule
 py-spy
 rls-rustc
+diesel_cli
