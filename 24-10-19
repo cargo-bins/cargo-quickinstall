@@ -29,3 +29,4 @@ tokio-process
 rmesg
 sn_node
 twox-hash
+pgrx-tests
