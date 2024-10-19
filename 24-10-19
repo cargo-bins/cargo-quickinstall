@@ -48,3 +48,4 @@ opencv-binding-generator
 borsh
 deploy
 spider_worker
+z3tracer
