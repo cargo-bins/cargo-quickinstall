@@ -37,3 +37,4 @@ zuse
 winpty-rs
 human_bytes
 twox-hash
+ducc-sys
