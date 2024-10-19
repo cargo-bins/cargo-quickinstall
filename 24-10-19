@@ -21,3 +21,4 @@ rav1e
 unic-langid-impl
 pwasm-utils
 foundationdb-gen
+rustfmt-nightly
