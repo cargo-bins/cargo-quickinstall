@@ -34,3 +34,4 @@ coldsnap
 java-locator
 foundationdb-gen
 pgrx-tests
+pwasm-utils
