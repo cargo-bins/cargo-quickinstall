@@ -42,3 +42,4 @@ oxipng
 tendermint-abci
 cargo-lock
 protox
+cpp_demangle
