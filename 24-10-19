@@ -5,3 +5,4 @@ laminar
 tree-sitter-graph
 rrule
 py-spy
+rls-rustc
