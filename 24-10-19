@@ -26,3 +26,4 @@ solana-genesis
 clippy
 winpty-rs
 rustfmt-nightly
+nextest-filtering
