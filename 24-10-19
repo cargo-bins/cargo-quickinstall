@@ -14,3 +14,4 @@ cargo-local-registry
 tendermint-rpc
 syd
 human_bytes
+laminar
