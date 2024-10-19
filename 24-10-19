@@ -56,3 +56,4 @@ foundationdb-gen
 nexmark
 minicbor
 tendermint-rpc
+sha1collisiondetection
