@@ -52,3 +52,4 @@ addr2line
 pgrx-tests
 solana-stake-accounts
 solana-gossip
+nu_plugin_dbus
