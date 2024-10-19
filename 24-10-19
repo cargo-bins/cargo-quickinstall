@@ -23,3 +23,4 @@ solana-validator
 cargo-public-api
 winpty-rs
 solana-cli
+sea-orm-cli
