@@ -19,3 +19,4 @@ cargo-tarpaulin
 tendermint-rpc
 nexmark
 cargo-tarpaulin
+remove_dir_all
