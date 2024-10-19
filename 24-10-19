@@ -37,3 +37,4 @@ rustbus
 skim
 twox-hash
 tendermint-abci
+ducc-sys
