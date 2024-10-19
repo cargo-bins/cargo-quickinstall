@@ -19,3 +19,4 @@ pgrx-tests
 schemafy
 rkv
 solana-genesis
+solana-gossip
