@@ -21,3 +21,4 @@ wmi
 shadowsocks-rust
 solana-validator
 cargo-public-api
+winpty-rs
