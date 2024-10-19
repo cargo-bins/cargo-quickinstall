@@ -16,3 +16,4 @@ spider_cli
 solana-stake-accounts
 minicbor
 libbpf-cargo
+pgrx-tests
