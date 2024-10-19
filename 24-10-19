@@ -77,3 +77,4 @@ dotenv
 parquet
 oso
 clipboard-history
+arrow-flight
