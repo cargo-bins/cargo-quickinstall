@@ -30,3 +30,4 @@ sniffnet
 solana-gossip
 remove_dir_all
 httpmock
+coldsnap
