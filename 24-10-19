@@ -41,3 +41,4 @@ libbpf-cargo
 minicbor
 ducc-sys
 spider_cli
+racer
