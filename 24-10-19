@@ -27,3 +27,4 @@ clippy
 winpty-rs
 rustfmt-nightly
 nextest-filtering
+spider_cli
