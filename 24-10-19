@@ -9,3 +9,4 @@ rustrict
 parquet
 nextest-filtering
 borsh
+dotenvy
