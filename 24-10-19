@@ -13,3 +13,4 @@ tree-sitter-graph
 clippy
 cargo-generate
 solana-gossip
+textplots
