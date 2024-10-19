@@ -14,3 +14,4 @@ solana-gossip
 minicbor
 apollo-router
 remove_dir_all
+sha1collisiondetection
