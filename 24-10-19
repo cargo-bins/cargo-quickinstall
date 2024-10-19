@@ -27,3 +27,4 @@ sea-orm-cli
 socketcan
 kdotool
 spider_worker
+addr2line
