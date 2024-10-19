@@ -19,3 +19,4 @@ sha1collisiondetection
 apollo-router
 tendermint-abci
 cargo-lock
+solana-genesis
