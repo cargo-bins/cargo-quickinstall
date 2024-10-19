@@ -40,3 +40,4 @@ nkeys
 minicbor
 opencv-binding-generator
 dotenv
+deno
