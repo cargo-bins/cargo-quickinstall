@@ -6,3 +6,4 @@ wol-rs
 re_query
 raw-cpuid
 solana-keygen
+opencv-binding-generator
