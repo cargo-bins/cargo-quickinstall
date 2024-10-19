@@ -23,3 +23,4 @@ pwasm-utils
 foundationdb-gen
 rustfmt-nightly
 solana-genesis
+solana-validator
