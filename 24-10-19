@@ -81,3 +81,4 @@ papyrus_storage
 solana-stake-accounts
 cargo-c
 cargo-generate
+ducc-sys
