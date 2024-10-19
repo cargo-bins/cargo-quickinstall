@@ -36,3 +36,4 @@ foundationdb-gen
 pgrx-tests
 pwasm-utils
 remove_dir_all
+dotenvy
