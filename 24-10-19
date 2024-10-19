@@ -26,3 +26,4 @@ winpty-rs
 solana-genesis
 pwasm-utils
 dotenv
+ducc-sys
