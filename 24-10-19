@@ -8,3 +8,4 @@ wol-rs
 tendermint-abci
 tree-sitter-graph
 borsh
+rmesg
