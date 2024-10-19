@@ -21,3 +21,4 @@ rkv
 solana-genesis
 solana-gossip
 apollo-router
+addr2line
