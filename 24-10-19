@@ -71,3 +71,4 @@ twox-hash
 wmi
 cached-path
 z3tracer
+remove_dir_all
