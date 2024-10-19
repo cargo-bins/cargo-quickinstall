@@ -82,3 +82,4 @@ solana-stake-accounts
 cargo-c
 cargo-generate
 ducc-sys
+arrow-flight
