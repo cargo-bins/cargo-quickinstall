@@ -46,3 +46,4 @@ phf_generator
 cargo-lock
 twox-hash
 exa
+solana-genesis
