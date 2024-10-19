@@ -10,3 +10,4 @@ diesel_cli
 tauri-cli
 borsh
 libbpf-cargo
+h3o
