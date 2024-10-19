@@ -75,3 +75,4 @@ nkeys
 wol-rs
 twox-hash
 solana-keygen
+libbpf-cargo
