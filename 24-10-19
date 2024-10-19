@@ -58,3 +58,4 @@ minicbor
 tendermint-rpc
 sha1collisiondetection
 borsh
+libbpf-cargo
