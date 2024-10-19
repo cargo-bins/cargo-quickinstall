@@ -22,3 +22,4 @@ parquet
 rkv
 sqlx-cli
 cargo-tarpaulin
+solana-genesis
