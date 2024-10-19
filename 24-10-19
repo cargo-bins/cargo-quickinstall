@@ -25,3 +25,4 @@ addr2line
 winpty-rs
 solana-genesis
 pwasm-utils
+dotenv
