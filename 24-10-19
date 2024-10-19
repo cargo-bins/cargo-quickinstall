@@ -18,3 +18,4 @@ paperclip
 rmesg
 addr2line
 rls-rustc
+rustfmt
