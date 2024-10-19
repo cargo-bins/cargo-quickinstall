@@ -22,3 +22,4 @@ snarkvm
 solana-stake-accounts
 pwasm-utils
 schemafy
+sea-orm-cli
