@@ -44,3 +44,4 @@ arrow-flight
 cargo-generate
 phf_generator
 cargo-lock
+twox-hash
