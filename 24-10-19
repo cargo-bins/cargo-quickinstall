@@ -63,3 +63,4 @@ foundationdb-gen
 unic-langid-impl
 pgrx-tests
 solana-stake-accounts
+sccache
