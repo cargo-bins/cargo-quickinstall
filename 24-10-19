@@ -75,3 +75,4 @@ remove_dir_all
 dotenv
 laminar
 human_bytes
+textplots
