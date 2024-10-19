@@ -44,3 +44,4 @@ wol-rs
 cargo-generate
 cargo-udeps
 solana-validator
+minicbor
