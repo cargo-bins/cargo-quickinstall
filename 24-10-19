@@ -35,3 +35,4 @@ pgrx-tests
 cargo-generate
 rustbus
 skim
+twox-hash
