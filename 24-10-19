@@ -36,3 +36,4 @@ cargo-generate
 rustbus
 skim
 twox-hash
+tendermint-abci
