@@ -26,3 +26,4 @@ schemafy
 dotenv
 hurl
 graphql_client_cli
+httpmock
