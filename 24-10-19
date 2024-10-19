@@ -17,3 +17,4 @@ remove_dir_all
 sha1collisiondetection
 pgrx-tests
 schemafy
+rkv
