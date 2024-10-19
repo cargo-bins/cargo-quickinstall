@@ -39,3 +39,4 @@ rls-rustc
 nkeys
 minicbor
 opencv-binding-generator
+dotenv
