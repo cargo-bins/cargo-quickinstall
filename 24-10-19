@@ -4,3 +4,4 @@ socketcan
 unic-langid-impl
 papyrus_storage
 binstall
+wol-rs
