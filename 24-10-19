@@ -21,3 +21,4 @@ cargo-c
 parquet
 rkv
 sqlx-cli
+cargo-tarpaulin
