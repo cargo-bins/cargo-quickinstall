@@ -13,3 +13,4 @@ pgrx-tests
 cargo-local-registry
 tendermint-rpc
 syd
+human_bytes
