@@ -54,3 +54,4 @@ clippy
 solana-genesis
 foundationdb-gen
 nexmark
+minicbor
