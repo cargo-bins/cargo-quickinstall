@@ -22,3 +22,4 @@ libbpf-cargo
 winpty-rs
 tendermint-rpc
 solana-genesis
+addr2line
