@@ -22,3 +22,4 @@ rustfmt
 cargo-lock
 cargo-generate
 cargo-lock
+cargo-local-registry
