@@ -58,3 +58,4 @@ diesel_cli
 solana-keygen
 solana-genesis
 twox-hash
+sshx
