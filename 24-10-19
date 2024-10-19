@@ -9,3 +9,4 @@ rls-rustc
 diesel_cli
 tauri-cli
 borsh
+libbpf-cargo
