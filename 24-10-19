@@ -21,3 +21,4 @@ deno
 libbpf-cargo
 winpty-rs
 tendermint-rpc
+solana-genesis
