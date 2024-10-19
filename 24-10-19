@@ -37,3 +37,4 @@ winpty-rs
 solana-gossip
 syd
 tree-sitter-graph
+libbpf-cargo
