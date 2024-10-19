@@ -26,3 +26,4 @@ solana-genesis
 solana-validator
 addr2line
 clippy
+sniffnet
