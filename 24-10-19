@@ -43,3 +43,4 @@ ducc-sys
 spider_cli
 racer
 re_query
+cargo-lock
