@@ -60,3 +60,4 @@ sha1collisiondetection
 borsh
 libbpf-cargo
 tendermint-rpc
+graphql_client_cli
