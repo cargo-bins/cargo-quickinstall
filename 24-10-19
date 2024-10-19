@@ -40,3 +40,4 @@ tendermint-abci
 ducc-sys
 opencv-binding-generator
 clippy
+twox-hash
