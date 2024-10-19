@@ -22,3 +22,4 @@ solana-genesis
 solana-gossip
 apollo-router
 addr2line
+winpty-rs
