@@ -20,3 +20,4 @@ addr2line
 rls-rustc
 rustfmt
 cargo-lock
+cargo-generate
