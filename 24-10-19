@@ -45,3 +45,4 @@ cargo-generate
 phf_generator
 cargo-lock
 twox-hash
+exa
