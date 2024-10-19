@@ -12,3 +12,4 @@ nkeys
 human_name
 raw-cpuid
 rustfmt-nightly
+rrule
