@@ -16,3 +16,4 @@ graphql_client_cli
 twox-hash
 syd
 cached-path
+cargo-lock
