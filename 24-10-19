@@ -45,3 +45,4 @@ cargo-generate
 cargo-udeps
 solana-validator
 minicbor
+foundationdb-gen
