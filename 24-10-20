@@ -74,3 +74,4 @@ cargo-udeps
 tendermint-abci
 foundationdb-gen
 minicbor
+pgrx-tests
