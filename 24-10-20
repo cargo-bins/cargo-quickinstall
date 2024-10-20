@@ -22,3 +22,4 @@ socketcan
 nextest-filtering
 cached-path
 laminar
+libbpf-cargo
