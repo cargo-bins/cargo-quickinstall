@@ -54,3 +54,4 @@ minicbor
 cargo-local-registry
 tauri-cli
 rrule
+spider_cli
