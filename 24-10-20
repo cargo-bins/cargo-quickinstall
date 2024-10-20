@@ -16,3 +16,4 @@ rrule
 socketcan
 rustrict
 re_query
+cargo-lock
