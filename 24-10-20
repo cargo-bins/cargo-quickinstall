@@ -15,3 +15,4 @@ sshx
 cpp_demangle
 tree-sitter-cli
 nextest-filtering
+pgrx-tests
