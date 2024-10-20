@@ -96,3 +96,4 @@ solana-genesis
 parquet
 pgrx-tests
 solana-validator
+sea-orm-cli
