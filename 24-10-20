@@ -30,3 +30,4 @@ deno
 deploy
 starship
 cargo-generate
+solana-keygen
