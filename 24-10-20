@@ -14,3 +14,4 @@ foundationdb-gen
 rkv
 syd
 clippy
+sha1collisiondetection
