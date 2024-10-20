@@ -51,3 +51,4 @@ borsh
 schemafy
 ducc-sys
 minicbor
+cargo-local-registry
