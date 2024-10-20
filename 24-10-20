@@ -61,3 +61,4 @@ wmi
 clippy
 rls-rustc
 pcu
+foundationdb-gen
