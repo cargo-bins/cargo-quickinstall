@@ -37,3 +37,4 @@ libbpf-cargo
 dotenvy
 sniffnet
 binstall
+diesel_cli
