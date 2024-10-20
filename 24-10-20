@@ -57,3 +57,4 @@ rustfmt-nightly
 tendermint-rpc
 nextest-filtering
 dotenvy
+exa
