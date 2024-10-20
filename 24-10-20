@@ -10,3 +10,4 @@ pwasm-utils
 py-spy
 sccache
 racer
+sha1collisiondetection
