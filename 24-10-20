@@ -57,3 +57,4 @@ nu
 rls-rustc
 cargo-c
 httpmock
+evcxr_repl
