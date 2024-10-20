@@ -54,3 +54,4 @@ tree-sitter-cli
 winpty-rs
 socketcan
 libbpf-cargo
+solana-remote-wallet
