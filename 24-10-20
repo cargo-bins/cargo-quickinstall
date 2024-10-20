@@ -37,3 +37,4 @@ re_query
 syd
 rrule
 wol-rs
+raw-cpuid
