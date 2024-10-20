@@ -34,3 +34,4 @@ rmesg
 phf_generator
 papyrus_storage
 libbpf-cargo
+dotenvy
