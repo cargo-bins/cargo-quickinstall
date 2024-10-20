@@ -2,3 +2,4 @@ remove_dir_all
 nkeys
 addr2line
 rls-rustc
+wol-rs
