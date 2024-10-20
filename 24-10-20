@@ -8,3 +8,4 @@ winpty-rs
 deploy
 cached-path
 nexmark
+arrow-flight
