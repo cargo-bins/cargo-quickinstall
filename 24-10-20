@@ -57,3 +57,4 @@ solana-stake-accounts
 tendermint-rpc
 libbpf-cargo
 h3o
+winpty-rs
