@@ -44,3 +44,4 @@ libbpf-cargo
 httpmock
 libbpf-cargo
 ducc-sys
+raw-cpuid
