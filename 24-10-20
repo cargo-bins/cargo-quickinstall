@@ -58,3 +58,4 @@ tendermint-rpc
 libbpf-cargo
 h3o
 winpty-rs
+unic-langid-impl
