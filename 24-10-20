@@ -21,3 +21,4 @@ schemafy
 paperclip
 snarkvm
 libbpf-cargo
+cached-path
