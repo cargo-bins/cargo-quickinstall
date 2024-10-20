@@ -39,3 +39,4 @@ paperclip
 solana-gossip
 deno
 borsh
+sha1collisiondetection
