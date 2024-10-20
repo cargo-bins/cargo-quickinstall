@@ -6,3 +6,4 @@ wol-rs
 sccache
 cargo-lock
 cached-path
+dotenv
