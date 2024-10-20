@@ -36,3 +36,4 @@ papyrus_storage
 libbpf-cargo
 dotenvy
 sniffnet
+binstall
