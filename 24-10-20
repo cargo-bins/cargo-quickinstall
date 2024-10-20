@@ -45,3 +45,4 @@ borsh
 nkeys
 phf_generator
 nu
+addr2line
