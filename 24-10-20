@@ -72,3 +72,4 @@ remove_dir_all
 tendermint-rpc
 cached-path
 tree-sitter-graph
+solana-stake-accounts
