@@ -38,3 +38,4 @@ cargo-lock
 paperclip
 solana-gossip
 deno
+borsh
