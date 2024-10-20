@@ -2,3 +2,4 @@ binstall
 rustbus
 wol-rs
 httpmock
+schemafy
