@@ -54,3 +54,4 @@ solana-stake-accounts
 solana-remote-wallet
 spider_worker
 nu
+rls-rustc
