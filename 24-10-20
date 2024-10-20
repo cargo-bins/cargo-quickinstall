@@ -56,3 +56,4 @@ spider_worker
 nu
 rls-rustc
 cargo-c
+httpmock
