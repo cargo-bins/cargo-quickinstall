@@ -6,3 +6,4 @@ clippy
 rrule
 rustrict
 nexmark
+remove_dir_all
