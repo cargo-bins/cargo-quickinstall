@@ -50,3 +50,4 @@ schemafy
 human_bytes
 parquet
 winpty-rs
+tree-sitter-cli
