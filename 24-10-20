@@ -53,3 +53,4 @@ winpty-rs
 tree-sitter-cli
 winpty-rs
 socketcan
+libbpf-cargo
