@@ -37,3 +37,4 @@ solana-validator
 cargo-lock
 spider_cli
 nextest-filtering
+human_name
