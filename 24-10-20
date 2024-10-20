@@ -35,3 +35,4 @@ parquet
 cargo-c
 solana-validator
 cargo-lock
+spider_cli
