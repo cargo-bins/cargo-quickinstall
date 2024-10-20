@@ -5,3 +5,4 @@ nextest-filtering
 clippy
 rrule
 rustrict
+nexmark
