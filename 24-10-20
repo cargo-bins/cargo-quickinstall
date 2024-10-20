@@ -21,3 +21,4 @@ dotenvy
 cargo-quickbuild
 foundationdb-gen
 human_bytes
+raw-cpuid
