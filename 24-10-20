@@ -31,3 +31,4 @@ deploy
 starship
 cargo-generate
 solana-keygen
+parquet
