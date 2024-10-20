@@ -4,3 +4,4 @@ rrule
 foundationdb-gen
 z3tracer
 opencv-binding-generator
+sqlx-cli
