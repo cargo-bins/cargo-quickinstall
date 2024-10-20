@@ -63,3 +63,4 @@ nexmark
 opencv-binding-generator
 tendermint-rpc
 foundationdb-gen
+pgrx-tests
