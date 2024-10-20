@@ -49,3 +49,4 @@ remove_dir_all
 schemafy
 human_bytes
 parquet
+winpty-rs
