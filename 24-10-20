@@ -1,3 +1,4 @@
 cargo-generate
 cargo-lock
 rrule
+foundationdb-gen
