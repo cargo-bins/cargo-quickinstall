@@ -33,3 +33,4 @@ solana-gossip
 rkv
 remove_dir_all
 spider_worker
+human_name
