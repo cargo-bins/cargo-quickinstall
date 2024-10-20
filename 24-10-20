@@ -28,3 +28,4 @@ cargo-lock
 winpty-rs
 clippy
 diesel_cli
+tree-sitter-graph
