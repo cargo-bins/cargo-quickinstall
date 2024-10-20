@@ -30,3 +30,4 @@ tendermint-rpc
 cargo-generate
 human_name
 raw-cpuid
+rmesg
