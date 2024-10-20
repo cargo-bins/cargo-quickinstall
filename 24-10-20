@@ -6,3 +6,4 @@ zuse
 human_bytes
 foundationdb-gen
 clippy
+pwasm-utils
