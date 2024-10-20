@@ -41,3 +41,4 @@ deno
 borsh
 sha1collisiondetection
 dotenv
+parquet
