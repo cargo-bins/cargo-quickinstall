@@ -76,3 +76,4 @@ foundationdb-gen
 minicbor
 pgrx-tests
 nkeys
+pwasm-utils
