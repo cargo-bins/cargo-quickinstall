@@ -11,3 +11,4 @@ nexmark
 arrow-flight
 remove_dir_all
 addr2line
+libbpf-cargo
