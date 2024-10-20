@@ -32,3 +32,4 @@ starship
 cargo-generate
 solana-keygen
 parquet
+cargo-c
