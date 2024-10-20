@@ -19,3 +19,4 @@ re_query
 cargo-lock
 unic-langid-impl
 socketcan
+nextest-filtering
