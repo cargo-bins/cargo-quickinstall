@@ -8,3 +8,4 @@ cargo-lock
 cached-path
 dotenv
 deploy
+dotenvy
