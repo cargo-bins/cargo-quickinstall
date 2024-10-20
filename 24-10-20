@@ -10,3 +10,4 @@ opencv-binding-generator
 tree-sitter-cli
 solana-gossip
 human_bytes
+rustfmt-nightly
