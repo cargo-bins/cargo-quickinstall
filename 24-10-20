@@ -8,3 +8,4 @@ rustrict
 nexmark
 remove_dir_all
 cached-path
+httpmock
