@@ -36,3 +36,4 @@ nu_plugin_dbus
 tendermint-abci
 parquet
 wol-rs
+kalc
