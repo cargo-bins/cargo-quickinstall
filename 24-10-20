@@ -51,3 +51,4 @@ dotenv
 snarkvm
 nextest-filtering
 solana-stake-accounts
+solana-remote-wallet
