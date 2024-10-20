@@ -70,3 +70,4 @@ tree-sitter-graph
 laminar
 rrule
 solana-genesis
+cargo-udeps
