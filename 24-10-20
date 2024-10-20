@@ -55,3 +55,4 @@ winpty-rs
 socketcan
 libbpf-cargo
 solana-remote-wallet
+solana-stake-accounts
