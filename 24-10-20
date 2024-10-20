@@ -4,3 +4,4 @@ libbpf-cargo
 rls-rustc
 rkv
 oso
+nexmark
