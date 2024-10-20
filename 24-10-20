@@ -76,3 +76,4 @@ pgrx-tests
 foundationdb-gen
 solana-remote-wallet
 rustfmt-nightly
+nextest-filtering
