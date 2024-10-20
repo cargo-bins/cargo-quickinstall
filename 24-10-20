@@ -3,3 +3,4 @@ dotenv
 minicbor
 cpp_demangle
 zuse
+human_bytes
