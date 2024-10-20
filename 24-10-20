@@ -82,3 +82,4 @@ snarkvm
 remove_dir_all
 dotenvy
 java-locator
+spider_cli
