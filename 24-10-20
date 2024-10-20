@@ -5,3 +5,4 @@ rls-rustc
 wol-rs
 sccache
 cargo-lock
+cached-path
