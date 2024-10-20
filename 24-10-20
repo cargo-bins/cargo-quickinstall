@@ -22,3 +22,4 @@ paperclip
 snarkvm
 libbpf-cargo
 cached-path
+unic-langid-impl
