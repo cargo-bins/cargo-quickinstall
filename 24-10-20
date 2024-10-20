@@ -19,3 +19,4 @@ phf_generator
 rustfmt-nightly
 cpp_demangle
 racer
+tendermint-abci
