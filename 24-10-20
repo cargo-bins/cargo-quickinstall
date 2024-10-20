@@ -97,3 +97,4 @@ parquet
 pgrx-tests
 solana-validator
 sea-orm-cli
+rls-rustc
