@@ -25,3 +25,4 @@ phf_generator
 solana-keygen
 solana-validator
 cpp_demangle
+human_name
