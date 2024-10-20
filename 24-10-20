@@ -84,3 +84,4 @@ solana-genesis
 addr2line
 libbpf-cargo
 nkeys
+cpp_demangle
