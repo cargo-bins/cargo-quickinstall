@@ -2,3 +2,4 @@ wmi
 foundationdb-gen
 libbpf-cargo
 rls-rustc
+rkv
