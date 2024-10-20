@@ -33,3 +33,4 @@ solana-gossip
 re_query
 paperclip
 remove_dir_all
+tree-sitter-graph
