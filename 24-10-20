@@ -78,3 +78,4 @@ diesel_cli
 racer
 foundationdb-gen
 dotenvy
+snarkvm
