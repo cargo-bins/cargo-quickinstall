@@ -34,3 +34,4 @@ solana-keygen
 parquet
 cargo-c
 solana-validator
+cargo-lock
