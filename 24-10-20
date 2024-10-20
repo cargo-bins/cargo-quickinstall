@@ -42,3 +42,4 @@ borsh
 sha1collisiondetection
 dotenv
 parquet
+diesel_cli
