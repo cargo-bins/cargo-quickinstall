@@ -14,3 +14,4 @@ rrule
 foundationdb-gen
 racer
 remove_dir_all
+coldsnap
