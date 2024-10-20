@@ -45,3 +45,4 @@ parquet
 diesel_cli
 human_name
 tendermint-abci
+raw-cpuid
