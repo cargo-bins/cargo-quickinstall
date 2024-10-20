@@ -29,3 +29,4 @@ winpty-rs
 clippy
 diesel_cli
 tree-sitter-graph
+ducc-sys
