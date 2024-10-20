@@ -26,3 +26,4 @@ solana-keygen
 solana-validator
 cpp_demangle
 human_name
+opencv-binding-generator
