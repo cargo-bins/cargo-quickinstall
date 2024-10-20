@@ -60,3 +60,4 @@ nkeys
 z3tracer
 tree-sitter-graph
 tendermint-abci
+human_bytes
