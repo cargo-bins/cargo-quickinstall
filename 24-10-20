@@ -13,3 +13,4 @@ remove_dir_all
 phf_generator
 sshx
 cpp_demangle
+tree-sitter-cli
