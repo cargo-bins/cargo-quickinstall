@@ -11,3 +11,4 @@ cached-path
 oso
 httpmock
 spider_cli
+dotenv
