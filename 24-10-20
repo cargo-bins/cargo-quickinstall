@@ -47,3 +47,4 @@ human_name
 tendermint-abci
 raw-cpuid
 kalc
+human_bytes
