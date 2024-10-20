@@ -25,3 +25,4 @@ laminar
 human_bytes
 paperclip
 cargo-lock
+winpty-rs
