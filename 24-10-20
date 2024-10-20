@@ -3,3 +3,4 @@ dotenv
 hurl
 nextest-filtering
 clippy
+rrule
