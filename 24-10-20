@@ -67,3 +67,4 @@ termusic
 pgrx-tests
 py-spy
 cargo-lock
+dotenv
