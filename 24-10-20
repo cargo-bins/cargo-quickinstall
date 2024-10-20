@@ -22,3 +22,4 @@ h3o
 sha1collisiondetection
 wol-rs
 cargo-tarpaulin
+sqlx-cli
