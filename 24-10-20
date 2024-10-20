@@ -17,3 +17,4 @@ dotenv
 laminar
 minicbor
 sha1collisiondetection
+wmi
