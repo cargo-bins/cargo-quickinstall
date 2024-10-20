@@ -20,3 +20,4 @@ foundationdb-gen
 dotenvy
 cargo-quickbuild
 foundationdb-gen
+human_bytes
