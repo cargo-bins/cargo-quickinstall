@@ -43,3 +43,4 @@ nextest-filtering
 libbpf-cargo
 httpmock
 libbpf-cargo
+ducc-sys
