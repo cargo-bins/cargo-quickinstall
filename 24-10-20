@@ -46,3 +46,4 @@ tree-sitter-cli
 foundationdb-gen
 oxipng
 remove_dir_all
+schemafy
