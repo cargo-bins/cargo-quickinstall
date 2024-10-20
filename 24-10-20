@@ -41,3 +41,4 @@ human_name
 socketcan
 addr2line
 py-spy
+wmi
