@@ -13,3 +13,4 @@ httpmock
 spider_cli
 dotenv
 starship
+winpty-rs
