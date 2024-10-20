@@ -4,3 +4,4 @@ sha1collisiondetection
 tendermint-rpc
 wol-rs
 solana-stake-accounts
+solana-validator
