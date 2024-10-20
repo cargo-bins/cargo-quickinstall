@@ -65,3 +65,4 @@ snarkvm
 oso
 h3o
 remove_dir_all
+libbpf-cargo
