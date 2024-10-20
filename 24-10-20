@@ -75,3 +75,4 @@ tendermint-abci
 foundationdb-gen
 minicbor
 pgrx-tests
+nkeys
