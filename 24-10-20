@@ -11,3 +11,4 @@ cached-path
 httpmock
 nextest-filtering
 ducc-sys
+arrow-flight
