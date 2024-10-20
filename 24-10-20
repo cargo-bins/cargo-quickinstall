@@ -79,3 +79,4 @@ nkeys
 pwasm-utils
 cargo-lock
 unic-langid-impl
+tree-sitter-graph
