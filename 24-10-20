@@ -14,3 +14,4 @@ addr2line
 libbpf-cargo
 rrule
 socketcan
+rustrict
