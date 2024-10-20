@@ -2,3 +2,4 @@ trunk
 opencv-binding-generator
 sha1collisiondetection
 tendermint-rpc
+wol-rs
