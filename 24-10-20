@@ -22,3 +22,4 @@ pwasm-utils
 evcxr_repl
 tendermint-abci
 schemafy
+textplots
