@@ -69,3 +69,4 @@ deno
 solana-gossip
 socketcan
 remove_dir_all
+tendermint-rpc
