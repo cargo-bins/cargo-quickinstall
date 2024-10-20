@@ -49,3 +49,4 @@ textplots
 sha1collisiondetection
 re_query
 nu
+sea-orm-cli
