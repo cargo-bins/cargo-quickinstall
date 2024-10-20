@@ -60,3 +60,4 @@ solana-gossip
 trunk
 nu
 human_bytes
+raw-cpuid
