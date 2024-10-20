@@ -55,3 +55,4 @@ winpty-rs
 tree-sitter-graph
 solana-stake-accounts
 tendermint-rpc
+libbpf-cargo
