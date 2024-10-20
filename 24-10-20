@@ -101,3 +101,4 @@ rls-rustc
 tree-sitter-cli
 sea-orm-cli
 rls-rustc
+solana-stake-accounts
