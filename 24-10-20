@@ -61,3 +61,4 @@ evcxr_repl
 socketcan
 nexmark
 opencv-binding-generator
+tendermint-rpc
