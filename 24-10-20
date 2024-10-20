@@ -16,3 +16,4 @@ syd
 clippy
 sha1collisiondetection
 libbpf-cargo
+qsv
