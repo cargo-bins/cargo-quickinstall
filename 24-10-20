@@ -5,3 +5,4 @@ rls-rustc
 rkv
 oso
 nexmark
+sea-orm-cli
