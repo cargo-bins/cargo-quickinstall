@@ -43,3 +43,4 @@ sha1collisiondetection
 dotenv
 parquet
 diesel_cli
+human_name
