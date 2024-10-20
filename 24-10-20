@@ -49,3 +49,4 @@ httpmock
 salvo-cli
 clipboard-history
 solana-stake-accounts
+graphql_client_cli
