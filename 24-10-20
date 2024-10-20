@@ -30,3 +30,4 @@ clippy
 diesel_cli
 tree-sitter-graph
 ducc-sys
+oso
