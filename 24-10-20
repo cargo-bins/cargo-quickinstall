@@ -77,3 +77,4 @@ minicbor
 pgrx-tests
 nkeys
 pwasm-utils
+cargo-lock
