@@ -51,3 +51,4 @@ re_query
 nu
 sea-orm-cli
 h3o
+winpty-rs
