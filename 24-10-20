@@ -35,3 +35,4 @@ deploy
 sha1collisiondetection
 py-spy
 solana-genesis
+ducc-sys
