@@ -25,3 +25,4 @@ cargo-tarpaulin
 sqlx-cli
 rustfmt-nightly
 re_query
+sha1collisiondetection
