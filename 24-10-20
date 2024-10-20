@@ -17,3 +17,4 @@ rustrict
 solana-genesis
 libbpf-cargo
 foundationdb-gen
+dotenvy
