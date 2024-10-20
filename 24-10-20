@@ -68,3 +68,4 @@ remove_dir_all
 libbpf-cargo
 rrule
 remove_dir_all
+solana-verify
