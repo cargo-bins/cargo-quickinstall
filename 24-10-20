@@ -47,3 +47,4 @@ foundationdb-gen
 oxipng
 remove_dir_all
 schemafy
+human_bytes
