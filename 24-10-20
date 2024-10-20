@@ -52,3 +52,4 @@ parquet
 winpty-rs
 tree-sitter-cli
 winpty-rs
+socketcan
