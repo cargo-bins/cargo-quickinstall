@@ -14,3 +14,4 @@ rustfmt-nightly
 schemafy
 phf_generator
 dotenv
+laminar
