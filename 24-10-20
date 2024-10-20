@@ -12,3 +12,4 @@ z3tracer
 cargo-lock
 foundationdb-gen
 rkv
+syd
