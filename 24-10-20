@@ -62,3 +62,4 @@ clippy
 rls-rustc
 pcu
 foundationdb-gen
+addr2line
