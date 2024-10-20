@@ -55,3 +55,4 @@ pgrx-tests
 laminar
 rustfmt-nightly
 tendermint-rpc
+nextest-filtering
