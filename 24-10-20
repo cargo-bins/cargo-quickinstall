@@ -31,3 +31,4 @@ cached-path
 clippy
 solana-gossip
 rkv
+remove_dir_all
