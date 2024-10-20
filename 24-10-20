@@ -19,3 +19,4 @@ sqlx-cli
 parquet
 deploy
 pwasm-utils
+evcxr_repl
