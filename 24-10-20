@@ -17,3 +17,4 @@ solana-validator
 raw-cpuid
 cargo-lock
 nkeys
+spider_worker
