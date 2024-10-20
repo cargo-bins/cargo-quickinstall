@@ -20,3 +20,4 @@ nkeys
 spider_worker
 h3o
 sha1collisiondetection
+wol-rs
