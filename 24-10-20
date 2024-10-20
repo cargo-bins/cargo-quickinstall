@@ -6,3 +6,4 @@ z3tracer
 opencv-binding-generator
 sqlx-cli
 ec2_instance_metadata
+pwasm-utils
