@@ -79,3 +79,4 @@ racer
 foundationdb-gen
 dotenvy
 snarkvm
+remove_dir_all
