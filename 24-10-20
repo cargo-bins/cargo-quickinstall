@@ -33,3 +33,4 @@ spider_worker
 ducc-sys
 deploy
 sha1collisiondetection
+py-spy
