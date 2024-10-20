@@ -16,3 +16,4 @@ starship
 winpty-rs
 diesel_cli
 phf_generator
+rustfmt-nightly
