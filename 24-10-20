@@ -39,3 +39,4 @@ sniffnet
 binstall
 diesel_cli
 schemafy
+rls-rustc
