@@ -78,3 +78,4 @@ solana-remote-wallet
 rustfmt-nightly
 nextest-filtering
 solana-stake-accounts
+tendermint-abci
