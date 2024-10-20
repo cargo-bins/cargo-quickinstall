@@ -27,3 +27,4 @@ paperclip
 cargo-lock
 winpty-rs
 clippy
+diesel_cli
