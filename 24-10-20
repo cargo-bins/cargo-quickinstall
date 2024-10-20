@@ -30,3 +30,4 @@ diesel_cli
 tree-sitter-cli
 evcxr_repl
 solana-gossip
+re_query
