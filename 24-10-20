@@ -18,3 +18,4 @@ sha1collisiondetection
 libbpf-cargo
 qsv
 paperclip
+sshx
