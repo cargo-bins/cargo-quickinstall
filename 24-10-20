@@ -41,3 +41,4 @@ spider_worker
 solana-keygen
 minicbor
 java-locator
+borsh
