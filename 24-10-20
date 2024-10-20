@@ -72,3 +72,4 @@ tree-sitter-cli
 solana-genesis
 apollo-router
 solana-validator
+dotenvy
