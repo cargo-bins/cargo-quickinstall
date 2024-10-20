@@ -50,3 +50,4 @@ human_name
 dotenv
 snarkvm
 nextest-filtering
+solana-stake-accounts
