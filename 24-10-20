@@ -40,3 +40,4 @@ textplots
 foundationdb-gen
 schemafy
 nextest-filtering
+libbpf-cargo
