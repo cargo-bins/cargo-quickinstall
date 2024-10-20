@@ -37,3 +37,4 @@ py-spy
 solana-genesis
 ducc-sys
 nextest-filtering
+spider_worker
