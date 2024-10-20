@@ -68,3 +68,4 @@ opencv-binding-generator
 deno
 solana-gossip
 socketcan
+remove_dir_all
