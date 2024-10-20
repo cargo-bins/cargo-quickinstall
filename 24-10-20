@@ -46,3 +46,4 @@ libbpf-cargo
 ducc-sys
 raw-cpuid
 solana-validator
+nexmark
