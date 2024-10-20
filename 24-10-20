@@ -20,3 +20,4 @@ rustfmt-nightly
 cpp_demangle
 racer
 tendermint-abci
+solana-stake-accounts
