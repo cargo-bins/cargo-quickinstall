@@ -53,3 +53,4 @@ ducc-sys
 minicbor
 cargo-local-registry
 tauri-cli
+rrule
