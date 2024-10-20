@@ -82,3 +82,4 @@ tendermint-abci
 remove_dir_all
 sha1collisiondetection
 httpmock
+rustfmt-nightly
