@@ -86,3 +86,4 @@ libbpf-cargo
 nkeys
 cpp_demangle
 nexmark
+protox
