@@ -54,3 +54,4 @@ oso
 pgrx-tests
 laminar
 rustfmt-nightly
+tendermint-rpc
