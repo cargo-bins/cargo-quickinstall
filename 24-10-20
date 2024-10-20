@@ -32,3 +32,4 @@ evcxr_repl
 solana-gossip
 re_query
 paperclip
+remove_dir_all
