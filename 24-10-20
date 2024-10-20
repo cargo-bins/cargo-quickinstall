@@ -79,3 +79,4 @@ rustfmt-nightly
 nextest-filtering
 solana-stake-accounts
 tendermint-abci
+remove_dir_all
