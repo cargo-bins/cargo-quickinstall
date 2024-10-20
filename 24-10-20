@@ -24,3 +24,4 @@ wol-rs
 cargo-tarpaulin
 sqlx-cli
 rustfmt-nightly
+re_query
