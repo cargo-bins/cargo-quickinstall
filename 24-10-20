@@ -40,3 +40,4 @@ binstall
 diesel_cli
 schemafy
 rls-rustc
+z3tracer
