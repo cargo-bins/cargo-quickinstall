@@ -3,3 +3,4 @@ foundationdb-gen
 libbpf-cargo
 rls-rustc
 rkv
+oso
