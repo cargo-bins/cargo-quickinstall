@@ -56,3 +56,4 @@ socketcan
 libbpf-cargo
 solana-remote-wallet
 solana-stake-accounts
+solana-gossip
