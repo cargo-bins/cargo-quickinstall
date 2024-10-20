@@ -54,3 +54,4 @@ wol-rs
 httpmock
 human_name
 opencv-binding-generator
+rkv
