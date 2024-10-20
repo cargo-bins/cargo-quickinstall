@@ -42,3 +42,4 @@ schemafy
 rls-rustc
 z3tracer
 deploy
+coldsnap
