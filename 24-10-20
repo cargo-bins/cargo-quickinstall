@@ -17,3 +17,4 @@ winpty-rs
 diesel_cli
 phf_generator
 rustfmt-nightly
+cpp_demangle
