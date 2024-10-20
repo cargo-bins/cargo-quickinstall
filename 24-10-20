@@ -74,3 +74,4 @@ apollo-router
 solana-validator
 dotenvy
 diesel_cli
+graphql_client_cli
