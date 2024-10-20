@@ -21,3 +21,4 @@ deploy
 pwasm-utils
 evcxr_repl
 tendermint-abci
+schemafy
