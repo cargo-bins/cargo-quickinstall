@@ -3,3 +3,4 @@ nkeys
 addr2line
 rls-rustc
 wol-rs
+sccache
