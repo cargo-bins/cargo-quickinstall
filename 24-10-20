@@ -33,3 +33,4 @@ cargo-generate
 solana-keygen
 parquet
 cargo-c
+solana-validator
