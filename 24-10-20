@@ -9,3 +9,4 @@ clippy
 pwasm-utils
 py-spy
 sccache
+racer
