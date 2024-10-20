@@ -2,3 +2,4 @@ raw-cpuid
 dotenv
 hurl
 nextest-filtering
+clippy
