@@ -95,3 +95,4 @@ evcxr_repl
 solana-genesis
 parquet
 pgrx-tests
+solana-validator
