@@ -69,3 +69,4 @@ py-spy
 cargo-lock
 dotenv
 tree-sitter-cli
+solana-genesis
