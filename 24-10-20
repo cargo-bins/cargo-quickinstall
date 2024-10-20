@@ -21,3 +21,4 @@ cpp_demangle
 racer
 tendermint-abci
 solana-stake-accounts
+pgrx-tests
