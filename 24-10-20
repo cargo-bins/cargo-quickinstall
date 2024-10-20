@@ -13,3 +13,4 @@ cargo-lock
 foundationdb-gen
 rkv
 syd
+clippy
