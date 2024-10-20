@@ -77,3 +77,4 @@ laminar
 diesel_cli
 racer
 foundationdb-gen
+dotenvy
