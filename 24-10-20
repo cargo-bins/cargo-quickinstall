@@ -34,3 +34,4 @@ opencv-binding-generator
 pgrx-tests
 apollo-router
 arrow-flight
+cargo-lock
