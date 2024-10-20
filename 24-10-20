@@ -27,3 +27,4 @@ human_name
 rustrict
 parquet
 tendermint-rpc
+cargo-generate
