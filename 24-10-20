@@ -9,3 +9,4 @@ ec2_instance_metadata
 pwasm-utils
 h3o
 schemafy
+clippy
