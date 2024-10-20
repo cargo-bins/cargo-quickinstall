@@ -29,3 +29,4 @@ sha1collisiondetection
 deno
 deploy
 starship
+cargo-generate
