@@ -76,3 +76,4 @@ tree-sitter-graph
 laminar
 diesel_cli
 racer
+foundationdb-gen
