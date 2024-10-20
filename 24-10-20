@@ -17,3 +17,4 @@ socketcan
 rustrict
 re_query
 cargo-lock
+unic-langid-impl
