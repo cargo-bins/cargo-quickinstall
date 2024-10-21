@@ -27,3 +27,4 @@ arrow-flight
 laminar
 socketcan
 trunk
+wol-rs
