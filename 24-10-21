@@ -54,3 +54,4 @@ opencv-binding-generator
 mise
 nextest-filtering
 httpmock
+jless
