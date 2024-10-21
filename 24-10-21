@@ -9,3 +9,4 @@ shadowsocks-rust
 commitgpt
 cargo-lock
 clippy
+nu_plugin_dbus
