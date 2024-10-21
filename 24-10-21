@@ -88,3 +88,4 @@ human_name
 nextest-filtering
 borsh
 solana-gossip
+cargo-udeps
