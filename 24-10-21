@@ -85,3 +85,4 @@ unic-langid-impl
 java-locator
 dotenv
 tendermint-rpc
+phf_generator
