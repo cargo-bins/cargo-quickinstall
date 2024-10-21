@@ -32,3 +32,4 @@ protox
 httpmock
 solana-cli
 raw-cpuid
+remove_dir_all
