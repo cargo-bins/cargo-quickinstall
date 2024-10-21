@@ -99,3 +99,4 @@ tendermint-rpc
 pgrx-tests
 opencv-binding-generator
 oso
+deno
