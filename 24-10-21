@@ -5,3 +5,4 @@ protox
 wmi
 pwasm-utils
 wol-rs
+cargo-quickbuild
