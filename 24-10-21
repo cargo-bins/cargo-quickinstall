@@ -37,3 +37,4 @@ httpmock
 z3tracer
 ec2_instance_metadata
 rustfmt-nightly
+tendermint-rpc
