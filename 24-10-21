@@ -53,3 +53,4 @@ diesel_cli
 trunk
 ducc-sys
 sqlx-cli
+cargo-udeps
