@@ -35,3 +35,4 @@ rls-rustc
 tendermint-rpc
 pgrx-tests
 cavif
+nextest-filtering
