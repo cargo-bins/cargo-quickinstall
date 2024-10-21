@@ -32,3 +32,4 @@ java-locator
 rustfmt-nightly
 borsh
 deno
+solana-validator
