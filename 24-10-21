@@ -9,3 +9,4 @@ borsh
 clippy
 deploy
 parquet
+cargo-lock
