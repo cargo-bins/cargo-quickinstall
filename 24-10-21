@@ -18,3 +18,4 @@ raw-cpuid
 foundationdb-gen
 nexmark
 solana-validator
+winpty-rs
