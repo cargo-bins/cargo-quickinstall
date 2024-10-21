@@ -17,3 +17,4 @@ socketcan
 laminar
 winpty-rs
 dotenvy
+py-spy
