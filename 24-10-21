@@ -21,3 +21,4 @@ phf_generator
 cargo-generate
 clippy
 human_bytes
+deno
