@@ -74,3 +74,4 @@ arrow-flight
 oso
 cached-path
 rkv
+sqlx-cli
