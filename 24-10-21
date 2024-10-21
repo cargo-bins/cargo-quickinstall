@@ -87,3 +87,4 @@ dotenv
 tendermint-rpc
 phf_generator
 dotenv
+trunk
