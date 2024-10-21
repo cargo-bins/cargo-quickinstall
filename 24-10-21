@@ -27,3 +27,4 @@ schemafy
 wmi
 wol-rs
 raw-cpuid
+cargo-generate
