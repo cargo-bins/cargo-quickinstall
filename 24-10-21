@@ -64,3 +64,4 @@ cached-path
 diesel_cli
 socketcan
 honggfuzz
+tendermint-abci
