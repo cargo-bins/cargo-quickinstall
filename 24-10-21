@@ -39,3 +39,4 @@ ec2_instance_metadata
 rustfmt-nightly
 tendermint-rpc
 rkv
+parquet
