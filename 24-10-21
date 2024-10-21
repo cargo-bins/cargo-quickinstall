@@ -75,3 +75,4 @@ tree-sitter-graph
 tree-sitter-cli
 kdotool
 tendermint-rpc
+winpty-rs
