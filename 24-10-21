@@ -62,3 +62,4 @@ z3tracer
 tendermint-abci
 snarkvm
 nkeys
+human_bytes
