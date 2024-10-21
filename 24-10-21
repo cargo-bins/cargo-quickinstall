@@ -54,3 +54,4 @@ tendermint-abci
 rkv
 schemafy
 wol-rs
+borsh
