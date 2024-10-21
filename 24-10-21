@@ -16,3 +16,4 @@ raw-cpuid
 cargo-lock
 java-locator
 winpty-rs
+tree-sitter-graph
