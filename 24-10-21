@@ -42,3 +42,4 @@ starship
 deno
 solana-cli
 tauri-cli
+sea-orm-cli
