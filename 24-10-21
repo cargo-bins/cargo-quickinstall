@@ -41,3 +41,4 @@ parquet
 starship
 deno
 solana-cli
+tauri-cli
