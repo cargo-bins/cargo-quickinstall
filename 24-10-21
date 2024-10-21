@@ -78,3 +78,4 @@ rustfmt-nightly
 sqlx-cli
 raw-cpuid
 wol-rs
+solana-validator
