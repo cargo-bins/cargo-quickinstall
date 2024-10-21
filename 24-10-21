@@ -8,3 +8,4 @@ trunk
 exa
 deploy
 rustrict
+cargo-lock
