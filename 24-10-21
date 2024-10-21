@@ -13,3 +13,4 @@ py-spy
 re_query
 evcxr_repl
 solana-gossip
+socketcan
