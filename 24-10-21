@@ -7,3 +7,4 @@ rrule
 clippy
 borsh
 solana-stake-accounts
+dotenv
