@@ -18,3 +18,4 @@ java-locator
 winpty-rs
 tree-sitter-graph
 dotenv
+racer
