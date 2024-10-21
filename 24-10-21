@@ -41,3 +41,4 @@ opencv-binding-generator
 paperclip
 foundationdb-gen
 minicbor
+addr2line
