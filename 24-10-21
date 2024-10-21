@@ -53,3 +53,4 @@ solana-validator
 libbpf-cargo
 nextest-filtering
 phf_generator
+borsh
