@@ -67,3 +67,4 @@ phf_generator
 libbpf-cargo
 ducc-sys
 release
+opencv-binding-generator
