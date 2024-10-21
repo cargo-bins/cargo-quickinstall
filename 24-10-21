@@ -30,3 +30,4 @@ raw-cpuid
 cargo-generate
 rustrict
 arrow-flight
+foundationdb-gen
