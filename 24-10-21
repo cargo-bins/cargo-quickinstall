@@ -47,3 +47,4 @@ unic-langid-impl
 pgrx-tests
 paperclip
 libbpf-cargo
+pwasm-utils
