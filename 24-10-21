@@ -122,3 +122,4 @@ minicbor
 tendermint-rpc
 z3tracer
 solana-gossip
+cpp_demangle
