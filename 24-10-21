@@ -125,3 +125,4 @@ solana-gossip
 cpp_demangle
 rustrict
 sqlx-cli
+cargo-vet
