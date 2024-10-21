@@ -53,3 +53,4 @@ remove_dir_all
 pwasm-utils
 re_query
 remove_dir_all
+diesel_cli
