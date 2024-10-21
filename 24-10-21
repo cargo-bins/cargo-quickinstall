@@ -44,3 +44,4 @@ minicbor
 addr2line
 hurl
 dotenvy
+rls-rustc
