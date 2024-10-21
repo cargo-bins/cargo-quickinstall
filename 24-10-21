@@ -48,3 +48,4 @@ rls-rustc
 httpmock
 oxipng
 rustfmt-nightly
+tree-sitter-graph
