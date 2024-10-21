@@ -90,3 +90,4 @@ borsh
 solana-gossip
 cargo-udeps
 solana-validator
+sccache
