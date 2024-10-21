@@ -58,3 +58,4 @@ parquet
 java-locator
 foundationdb-gen
 human_name
+minicbor
