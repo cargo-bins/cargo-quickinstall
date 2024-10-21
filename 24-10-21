@@ -72,3 +72,4 @@ nexmark
 addr2line
 spider_worker
 human_bytes
+pwasm-utils
