@@ -56,3 +56,4 @@ spider_worker
 rls-rustc
 parquet
 java-locator
+foundationdb-gen
