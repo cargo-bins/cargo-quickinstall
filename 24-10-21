@@ -12,3 +12,4 @@ parquet
 cargo-lock
 text-diff
 papyrus_storage
+diesel_cli
