@@ -89,3 +89,4 @@ phf_generator
 dotenv
 trunk
 nextest-filtering
+rustfmt-nightly
