@@ -83,3 +83,4 @@ winpty-rs
 oso
 unic-langid-impl
 java-locator
+dotenv
