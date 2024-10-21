@@ -40,3 +40,4 @@ rustfmt-nightly
 tendermint-rpc
 rkv
 parquet
+nkeys
