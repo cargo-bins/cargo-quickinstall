@@ -27,3 +27,4 @@ tree-sitter-cli
 paru
 snarkvm
 rustfmt-nightly
+z3tracer
