@@ -16,3 +16,4 @@ h3o
 nextest-filtering
 remove_dir_all
 cpp_demangle
+winpty-rs
