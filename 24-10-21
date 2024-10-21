@@ -24,3 +24,4 @@ tauri-cli
 paperclip
 z3tracer
 pwasm-utils
+dotenvy
