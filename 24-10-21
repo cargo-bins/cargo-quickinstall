@@ -96,3 +96,4 @@ nkeys
 human_name
 human_bytes
 libbpf-cargo
+rkv
