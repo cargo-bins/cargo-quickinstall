@@ -103,3 +103,4 @@ remove_dir_all
 rkv
 sqlx-cli
 solana-stake-accounts
+tauri-cli
