@@ -31,3 +31,4 @@ wol-rs
 addr2line
 tree-sitter-cli
 librespot
+unic-langid-impl
