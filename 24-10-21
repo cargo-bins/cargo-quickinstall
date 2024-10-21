@@ -45,3 +45,4 @@ ducc-sys
 clippy
 protox
 rls-rustc
+httpmock
