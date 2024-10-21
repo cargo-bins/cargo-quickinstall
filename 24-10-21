@@ -74,3 +74,4 @@ wol-rs
 rrule
 phf_generator
 nkeys
+remove_dir_all
