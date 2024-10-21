@@ -94,3 +94,4 @@ sccache
 spider_worker
 nkeys
 human_name
+human_bytes
