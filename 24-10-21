@@ -28,3 +28,4 @@ laminar
 socketcan
 trunk
 wol-rs
+addr2line
