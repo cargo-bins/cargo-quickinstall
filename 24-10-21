@@ -78,3 +78,4 @@ sqlx-cli
 re_query
 textplots
 dotenv
+cpp_demangle
