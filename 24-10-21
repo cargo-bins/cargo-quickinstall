@@ -38,3 +38,4 @@ sha1collisiondetection
 oso
 tree-sitter-graph
 parquet
+pwasm-utils
