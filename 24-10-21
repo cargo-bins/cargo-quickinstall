@@ -127,3 +127,4 @@ rustrict
 sqlx-cli
 cargo-vet
 syd
+py-spy
