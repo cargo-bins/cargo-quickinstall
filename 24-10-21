@@ -11,3 +11,4 @@ dotenv
 protox
 textplots
 solana-remote-wallet
+nextest-filtering
