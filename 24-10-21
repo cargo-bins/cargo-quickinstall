@@ -8,3 +8,4 @@ wol-rs
 cargo-quickbuild
 cargo-lock
 nexmark
+human_name
