@@ -14,3 +14,4 @@ text-diff
 papyrus_storage
 diesel_cli
 addr2line
+pwasm-utils
