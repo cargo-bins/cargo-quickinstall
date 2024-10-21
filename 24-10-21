@@ -51,3 +51,4 @@ cargo-local-registry
 libbpf-cargo
 remove_dir_all
 pwasm-utils
+re_query
