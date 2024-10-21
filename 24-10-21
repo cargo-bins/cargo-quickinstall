@@ -72,3 +72,4 @@ tendermint-rpc
 cargo-generate
 foundationdb-gen
 nexmark
+dotenvy
