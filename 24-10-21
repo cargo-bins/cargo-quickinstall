@@ -58,3 +58,4 @@ schemafy
 httpmock
 tendermint-rpc
 winpty-rs
+unic-langid-impl
