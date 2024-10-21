@@ -2,3 +2,4 @@ raw-cpuid
 rls-rustc
 text-diff
 libbpf-cargo
+sn_node
