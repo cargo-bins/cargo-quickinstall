@@ -17,3 +17,4 @@ addr2line
 pwasm-utils
 h3o
 parquet
+sha1collisiondetection
