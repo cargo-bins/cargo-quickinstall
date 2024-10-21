@@ -57,3 +57,4 @@ sshx
 solana-cli
 cargo-lock
 dotenv
+re_query
