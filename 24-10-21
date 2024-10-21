@@ -10,3 +10,4 @@ cargo-lock
 nexmark
 human_name
 tendermint-abci
+diesel_cli
