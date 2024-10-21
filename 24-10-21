@@ -29,3 +29,4 @@ sea-orm-cli
 clippy
 addr2line
 java-locator
+rustfmt-nightly
