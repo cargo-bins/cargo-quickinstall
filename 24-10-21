@@ -30,3 +30,4 @@ deploy
 phf_generator
 cargo-lock
 solana-gossip
+remove_dir_all
