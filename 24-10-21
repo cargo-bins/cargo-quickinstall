@@ -27,3 +27,4 @@ socketcan
 paperclip
 re_query
 honggfuzz
+addr2line
