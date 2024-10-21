@@ -45,3 +45,4 @@ rrule
 addr2line
 deploy
 solana-validator
+raw-cpuid
