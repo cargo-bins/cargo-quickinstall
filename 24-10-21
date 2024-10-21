@@ -56,3 +56,4 @@ sqlx-cli
 cargo-udeps
 dotenvy
 libbpf-cargo
+paperclip
