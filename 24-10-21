@@ -8,3 +8,4 @@ ducc-sys
 borsh
 clippy
 deploy
+parquet
