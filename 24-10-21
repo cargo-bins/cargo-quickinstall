@@ -80,3 +80,4 @@ benfred-read-process-memory
 tendermint-rpc
 socketcan
 deno
+coldsnap
