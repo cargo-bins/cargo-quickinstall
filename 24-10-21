@@ -59,3 +59,4 @@ release
 tendermint-rpc
 mise
 sshx
+libbpf-cargo
