@@ -53,3 +53,4 @@ qsv
 addr2line
 syd
 libbpf-cargo
+sshx
