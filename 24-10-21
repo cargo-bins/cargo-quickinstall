@@ -79,3 +79,4 @@ re_query
 textplots
 dotenv
 cpp_demangle
+evcxr_repl
