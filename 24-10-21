@@ -24,3 +24,4 @@ solana-gossip
 laminar
 foundationdb-gen
 deploy
+parquet
