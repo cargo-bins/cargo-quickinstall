@@ -11,3 +11,4 @@ deploy
 parquet
 cargo-lock
 text-diff
+papyrus_storage
