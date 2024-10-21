@@ -90,3 +90,4 @@ py-spy
 solana-validator
 coldsnap
 dotenv
+foundationdb-gen
