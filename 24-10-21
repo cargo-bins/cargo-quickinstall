@@ -96,3 +96,4 @@ papyrus_storage
 papyrus_storage
 remove_dir_all
 tendermint-rpc
+pgrx-tests
