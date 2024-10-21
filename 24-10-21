@@ -27,3 +27,4 @@ cavif
 unic-langid-impl
 solana-genesis
 deploy
+phf_generator
