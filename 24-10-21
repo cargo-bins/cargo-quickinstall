@@ -58,3 +58,4 @@ rls-rustc
 z3tracer
 dotenv
 clippy
+papyrus_storage
