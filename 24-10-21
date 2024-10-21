@@ -72,3 +72,4 @@ cargo-lock
 laminar
 wol-rs
 rrule
+phf_generator
