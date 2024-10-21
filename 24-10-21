@@ -50,3 +50,4 @@ libbpf-cargo
 pwasm-utils
 nextest-filtering
 diesel_cli
+trunk
