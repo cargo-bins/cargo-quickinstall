@@ -81,3 +81,4 @@ tendermint-rpc
 socketcan
 deno
 coldsnap
+paperclip
