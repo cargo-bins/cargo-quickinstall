@@ -19,3 +19,4 @@ winpty-rs
 dotenvy
 py-spy
 parquet
+ducc-sys
