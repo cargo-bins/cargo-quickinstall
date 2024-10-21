@@ -45,3 +45,4 @@ addr2line
 hurl
 dotenvy
 rls-rustc
+remove_dir_all
