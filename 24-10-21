@@ -46,3 +46,4 @@ addr2line
 deploy
 solana-validator
 raw-cpuid
+wmi
