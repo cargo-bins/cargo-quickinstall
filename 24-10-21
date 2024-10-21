@@ -56,3 +56,4 @@ libbpf-cargo
 sshx
 solana-cli
 cargo-lock
+dotenv
