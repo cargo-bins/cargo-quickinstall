@@ -28,3 +28,4 @@ paperclip
 re_query
 honggfuzz
 addr2line
+tendermint-abci
