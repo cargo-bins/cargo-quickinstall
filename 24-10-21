@@ -91,3 +91,4 @@ solana-gossip
 cargo-udeps
 solana-validator
 sccache
+spider_worker
