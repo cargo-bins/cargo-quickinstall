@@ -37,3 +37,4 @@ tree-sitter-graph
 dotenv
 syd
 wmi
+winpty-rs
