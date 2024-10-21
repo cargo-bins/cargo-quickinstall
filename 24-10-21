@@ -44,3 +44,4 @@ nkeys
 cargo-lock
 text-diff
 benfred-read-process-memory
+diesel_cli
