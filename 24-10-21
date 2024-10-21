@@ -41,3 +41,4 @@ tendermint-rpc
 rkv
 parquet
 nkeys
+cargo-lock
