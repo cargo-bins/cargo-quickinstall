@@ -95,3 +95,4 @@ wol-rs
 papyrus_storage
 papyrus_storage
 remove_dir_all
+tendermint-rpc
