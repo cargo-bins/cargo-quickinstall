@@ -47,3 +47,4 @@ protox
 rls-rustc
 httpmock
 oxipng
+rustfmt-nightly
