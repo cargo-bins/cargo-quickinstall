@@ -56,3 +56,4 @@ nextest-filtering
 httpmock
 jless
 release
+tendermint-rpc
