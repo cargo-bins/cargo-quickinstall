@@ -51,3 +51,4 @@ libbpf-cargo
 pgrx-tests
 qsv
 addr2line
+syd
