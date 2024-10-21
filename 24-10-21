@@ -14,3 +14,4 @@ diesel_cli
 racer
 ducc-sys
 libbpf-cargo
+raw-cpuid
