@@ -48,3 +48,4 @@ pgrx-tests
 paperclip
 libbpf-cargo
 pwasm-utils
+nextest-filtering
