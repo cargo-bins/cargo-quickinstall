@@ -59,3 +59,4 @@ cached-path
 sqlx-cli
 clippy
 httpmock
+rls-rustc
