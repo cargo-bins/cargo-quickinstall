@@ -5,3 +5,4 @@ foundationdb-gen
 opencv-binding-generator
 rrule
 clippy
+borsh
