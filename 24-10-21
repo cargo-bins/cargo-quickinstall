@@ -13,3 +13,4 @@ human_name
 rkv
 coldsnap
 raw-cpuid
+cargo-lock
