@@ -71,3 +71,4 @@ cargo-local-registry
 zuse
 sha1collisiondetection
 arrow-flight
+oso
