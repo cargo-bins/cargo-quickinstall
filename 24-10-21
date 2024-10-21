@@ -71,3 +71,4 @@ sqlx-cli
 tendermint-rpc
 cargo-generate
 foundationdb-gen
+nexmark
