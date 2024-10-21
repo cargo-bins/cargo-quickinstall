@@ -74,3 +74,4 @@ rls-rustc
 tree-sitter-graph
 tree-sitter-cli
 kdotool
+tendermint-rpc
