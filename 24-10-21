@@ -48,3 +48,4 @@ syd
 solana-cli
 nkeys
 foundationdb-gen
+cargo-generate
