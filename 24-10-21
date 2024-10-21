@@ -48,3 +48,4 @@ pgrx-tests
 h3o
 cpp_demangle
 nextest-filtering
+racer
