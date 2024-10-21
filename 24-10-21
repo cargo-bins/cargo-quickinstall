@@ -70,3 +70,4 @@ solana-cli
 nkeys
 cargo-lock
 laminar
+wol-rs
