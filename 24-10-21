@@ -18,3 +18,4 @@ pwasm-utils
 h3o
 parquet
 sha1collisiondetection
+httpmock
