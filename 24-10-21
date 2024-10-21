@@ -93,3 +93,4 @@ dotenv
 foundationdb-gen
 rav1e
 parquet
+socketcan
