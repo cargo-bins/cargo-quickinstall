@@ -67,3 +67,4 @@ clippy
 re_query
 nu
 httpmock
+tendermint-abci
