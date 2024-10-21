@@ -72,3 +72,4 @@ sha1collisiondetection
 syd
 rls-rustc
 tree-sitter-graph
+tree-sitter-cli
