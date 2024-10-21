@@ -13,3 +13,4 @@ tendermint-abci
 diesel_cli
 racer
 ducc-sys
+libbpf-cargo
