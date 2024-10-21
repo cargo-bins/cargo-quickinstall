@@ -15,3 +15,4 @@ racer
 ducc-sys
 libbpf-cargo
 raw-cpuid
+foundationdb-gen
