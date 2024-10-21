@@ -35,3 +35,4 @@ binstall
 socketcan
 salvo-cli
 ducc-sys
+qrtool
