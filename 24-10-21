@@ -20,3 +20,4 @@ dotenvy
 py-spy
 parquet
 ducc-sys
+tauri-cli
