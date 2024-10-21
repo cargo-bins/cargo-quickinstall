@@ -49,3 +49,4 @@ raw-cpuid
 wmi
 libbpf-cargo
 pgrx-tests
+qsv
