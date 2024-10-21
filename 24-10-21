@@ -11,3 +11,4 @@ rustrict
 spider_worker
 py-spy
 re_query
+evcxr_repl
