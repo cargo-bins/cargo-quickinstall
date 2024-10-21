@@ -69,3 +69,4 @@ httpbis
 sqlx-cli
 coldsnap
 nexmark
+tokio-process
