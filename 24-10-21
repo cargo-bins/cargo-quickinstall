@@ -22,3 +22,4 @@ winpty-rs
 tendermint-abci
 laminar
 tendermint-rpc
+phf_generator
