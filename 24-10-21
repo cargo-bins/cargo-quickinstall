@@ -49,3 +49,4 @@ remove_dir_all
 nextest-filtering
 borsh
 gitnow
+solana-validator
