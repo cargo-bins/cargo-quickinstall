@@ -48,3 +48,4 @@ rls-rustc
 remove_dir_all
 nextest-filtering
 borsh
+gitnow
