@@ -101,3 +101,4 @@ nkeys
 httpmock
 remove_dir_all
 rkv
+sqlx-cli
