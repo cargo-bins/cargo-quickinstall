@@ -17,3 +17,4 @@ libbpf-cargo
 raw-cpuid
 foundationdb-gen
 nexmark
+solana-validator
