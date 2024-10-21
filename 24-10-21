@@ -40,3 +40,4 @@ wmi
 winpty-rs
 z3tracer
 tree-sitter-cli
+raw-cpuid
