@@ -61,3 +61,4 @@ clippy
 httpmock
 rls-rustc
 cached-path
+diesel_cli
