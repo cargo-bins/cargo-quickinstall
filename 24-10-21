@@ -82,3 +82,4 @@ cpp_demangle
 evcxr_repl
 z3tracer
 addr2line
+wmi
