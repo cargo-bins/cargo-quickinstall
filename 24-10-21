@@ -34,3 +34,4 @@ foundationdb-gen
 schemafy
 pwasm-utils
 z3tracer
+sha1collisiondetection
