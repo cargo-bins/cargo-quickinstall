@@ -16,3 +16,4 @@ pwasm-utils
 sea-orm-cli
 cpp_demangle
 rustrict
+paperclip
