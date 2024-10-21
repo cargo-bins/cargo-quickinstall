@@ -104,3 +104,4 @@ rustfmt-nightly
 honggfuzz
 phf_generator
 rustrict
+py-spy
