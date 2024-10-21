@@ -30,3 +30,4 @@ honggfuzz
 addr2line
 tendermint-abci
 minicbor
+honggfuzz
