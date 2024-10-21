@@ -36,3 +36,4 @@ protox
 nextest-filtering
 rustbus
 winpty-rs
+rkv
