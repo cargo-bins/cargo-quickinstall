@@ -19,3 +19,4 @@ cpp_demangle
 winpty-rs
 phf_generator
 tree-sitter-graph
+cpp_demangle
