@@ -71,3 +71,4 @@ opencv-binding-generator
 sha1collisiondetection
 syd
 rls-rustc
+tree-sitter-graph
