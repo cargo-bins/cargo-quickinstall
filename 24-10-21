@@ -35,3 +35,4 @@ tree-sitter-cli
 pwasm-utils
 cargo-lock
 zuse
+java-locator
