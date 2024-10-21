@@ -11,3 +11,4 @@ rustrict
 cargo-lock
 human_name
 rkv
+coldsnap
