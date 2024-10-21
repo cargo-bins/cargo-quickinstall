@@ -84,3 +84,4 @@ wmi
 diesel_cli
 cached-path
 remove_dir_all
+rustrict
