@@ -58,3 +58,4 @@ dotenvy
 libbpf-cargo
 paperclip
 winpty-rs
+re_query
