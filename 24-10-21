@@ -40,3 +40,4 @@ tree-sitter-graph
 parquet
 pwasm-utils
 dotenvy
+addr2line
