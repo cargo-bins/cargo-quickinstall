@@ -80,3 +80,4 @@ textplots
 dotenv
 cpp_demangle
 evcxr_repl
+z3tracer
