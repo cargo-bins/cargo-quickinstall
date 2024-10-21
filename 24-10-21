@@ -67,3 +67,4 @@ dotenv
 solana-cli
 laminar
 winpty-rs
+sqlx-cli
