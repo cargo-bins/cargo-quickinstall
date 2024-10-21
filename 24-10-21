@@ -92,3 +92,4 @@ nextest-filtering
 rustfmt-nightly
 deploy
 wol-rs
+papyrus_storage
