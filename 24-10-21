@@ -37,3 +37,4 @@ cargo-lock
 zuse
 java-locator
 rrule
+parquet
