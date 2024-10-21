@@ -13,3 +13,4 @@ syd
 nexmark
 solana-genesis
 pwasm-utils
+sea-orm-cli
