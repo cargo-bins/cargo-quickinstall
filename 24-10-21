@@ -72,3 +72,4 @@ dotenv
 snarkvm
 solana-stake-accounts
 httpmock
+deploy
