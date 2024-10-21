@@ -74,3 +74,4 @@ solana-stake-accounts
 httpmock
 deploy
 tendermint-abci
+rustfmt-nightly
