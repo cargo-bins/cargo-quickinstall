@@ -36,3 +36,4 @@ pwasm-utils
 z3tracer
 sha1collisiondetection
 oso
+tree-sitter-graph
