@@ -29,3 +29,4 @@ wol-rs
 raw-cpuid
 cargo-generate
 rustrict
+arrow-flight
