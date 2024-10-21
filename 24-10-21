@@ -5,3 +5,4 @@ libbpf-cargo
 sn_node
 rustrict
 ducc-sys
+borsh
