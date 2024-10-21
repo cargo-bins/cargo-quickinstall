@@ -22,3 +22,4 @@ httpmock
 omicron-zone-package
 solana-gossip
 laminar
+foundationdb-gen
