@@ -17,3 +17,4 @@ sea-orm-cli
 cpp_demangle
 rustrict
 paperclip
+phf_generator
