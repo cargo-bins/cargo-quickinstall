@@ -128,3 +128,4 @@ sqlx-cli
 cargo-vet
 syd
 py-spy
+rustbus
