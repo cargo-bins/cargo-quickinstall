@@ -74,3 +74,4 @@ spider_worker
 human_bytes
 pwasm-utils
 tree-sitter-graph
+tendermint-rpc
