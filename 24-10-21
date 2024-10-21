@@ -90,3 +90,4 @@ dotenv
 trunk
 nextest-filtering
 rustfmt-nightly
+deploy
