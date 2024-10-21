@@ -76,3 +76,4 @@ deploy
 tendermint-abci
 rustfmt-nightly
 sqlx-cli
+raw-cpuid
