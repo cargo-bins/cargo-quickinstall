@@ -39,3 +39,4 @@ nextest-filtering
 cavif
 opencv-binding-generator
 paperclip
+foundationdb-gen
