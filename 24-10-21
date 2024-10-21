@@ -27,3 +27,4 @@ opencv-binding-generator
 cargo-lock
 sea-orm-cli
 clippy
+addr2line
