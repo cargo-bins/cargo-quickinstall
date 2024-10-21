@@ -49,3 +49,4 @@ solana-cli
 nkeys
 foundationdb-gen
 cargo-generate
+solana-validator
