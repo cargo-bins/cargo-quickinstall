@@ -34,3 +34,4 @@ solana-cli
 raw-cpuid
 remove_dir_all
 httpmock
+z3tracer
