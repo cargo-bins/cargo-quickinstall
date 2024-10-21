@@ -77,3 +77,4 @@ rkv
 sqlx-cli
 re_query
 textplots
+dotenv
