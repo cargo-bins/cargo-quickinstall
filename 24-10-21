@@ -64,3 +64,4 @@ foundationdb-gen
 minicbor
 winpty-rs
 phf_generator
+libbpf-cargo
