@@ -46,3 +46,4 @@ spider_cli
 unic-langid-impl
 pgrx-tests
 paperclip
+libbpf-cargo
