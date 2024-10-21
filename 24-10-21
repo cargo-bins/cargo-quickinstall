@@ -63,3 +63,4 @@ deploy
 rrule
 httpmock
 solana-stake-accounts
+solana-validator
