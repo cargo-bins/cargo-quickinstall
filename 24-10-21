@@ -13,3 +13,4 @@ re_query
 rustfmt-nightly
 textplots
 h3o
+nextest-filtering
