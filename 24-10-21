@@ -111,3 +111,4 @@ tree-sitter-graph
 cargo-local-registry
 honggfuzz
 rkv
+diesel_cli
