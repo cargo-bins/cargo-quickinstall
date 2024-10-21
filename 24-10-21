@@ -71,3 +71,4 @@ tendermint-abci
 dotenv
 snarkvm
 solana-stake-accounts
+httpmock
