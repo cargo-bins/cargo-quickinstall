@@ -20,3 +20,4 @@ parquet
 sha1collisiondetection
 httpmock
 omicron-zone-package
+solana-gossip
