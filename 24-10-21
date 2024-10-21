@@ -18,3 +18,4 @@ cpp_demangle
 rustrict
 paperclip
 phf_generator
+cargo-generate
