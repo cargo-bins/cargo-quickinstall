@@ -26,3 +26,4 @@ z3tracer
 opencv-binding-generator
 cargo-lock
 sea-orm-cli
+clippy
