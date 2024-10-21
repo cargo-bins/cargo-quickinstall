@@ -32,3 +32,4 @@ re_query
 nexmark
 z3tracer
 tree-sitter-cli
+pwasm-utils
