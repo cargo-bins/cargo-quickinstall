@@ -19,3 +19,4 @@ foundationdb-gen
 nexmark
 solana-validator
 winpty-rs
+tendermint-abci
