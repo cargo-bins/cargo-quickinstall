@@ -68,3 +68,4 @@ solana-cli
 laminar
 winpty-rs
 sqlx-cli
+tendermint-rpc
