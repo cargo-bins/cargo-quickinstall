@@ -72,3 +72,4 @@ nexmark
 tokio-process
 wol-rs
 oso
+benfred-read-process-memory
