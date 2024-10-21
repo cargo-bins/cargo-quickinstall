@@ -8,3 +8,4 @@ librespot
 shadowsocks-rust
 commitgpt
 cargo-lock
+clippy
