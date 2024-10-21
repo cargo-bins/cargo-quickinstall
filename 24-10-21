@@ -21,3 +21,4 @@ phf_generator
 tree-sitter-graph
 cpp_demangle
 tendermint-rpc
+apollo-router
