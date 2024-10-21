@@ -77,3 +77,4 @@ tendermint-abci
 rustfmt-nightly
 sqlx-cli
 raw-cpuid
+wol-rs
