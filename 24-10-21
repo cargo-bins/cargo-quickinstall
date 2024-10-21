@@ -10,3 +10,4 @@ clippy
 deploy
 parquet
 cargo-lock
+text-diff
