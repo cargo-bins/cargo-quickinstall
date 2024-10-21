@@ -10,3 +10,4 @@ deploy
 rustrict
 cargo-lock
 human_name
+rkv
