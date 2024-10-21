@@ -77,3 +77,4 @@ tree-sitter-graph
 tendermint-rpc
 solana-validator
 httpmock
+solana-keygen
