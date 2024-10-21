@@ -67,3 +67,4 @@ phf_generator
 phf_generator
 tree-sitter-graph
 solana-keygen
+addr2line
