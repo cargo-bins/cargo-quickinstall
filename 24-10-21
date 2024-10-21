@@ -44,3 +44,4 @@ deno
 redoxer
 borsh
 sea-orm-cli
+pgrx-tests
