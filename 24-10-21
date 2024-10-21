@@ -42,3 +42,4 @@ pwasm-utils
 dotenvy
 addr2line
 schemafy
+spider_cli
