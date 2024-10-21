@@ -31,3 +31,4 @@ cargo-generate
 rustrict
 arrow-flight
 foundationdb-gen
+schemafy
