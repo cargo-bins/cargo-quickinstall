@@ -65,3 +65,4 @@ nkeys
 human_bytes
 phf_generator
 phf_generator
+tree-sitter-graph
