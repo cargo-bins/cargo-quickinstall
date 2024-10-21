@@ -44,3 +44,4 @@ raw-cpuid
 spider_worker
 solana-gossip
 rustrict
+pgrx-tests
