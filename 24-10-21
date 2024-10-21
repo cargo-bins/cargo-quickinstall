@@ -34,3 +34,4 @@ remove_dir_all
 rls-rustc
 tendermint-rpc
 pgrx-tests
+cavif
