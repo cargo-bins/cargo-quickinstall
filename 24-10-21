@@ -11,3 +11,4 @@ cargo-lock
 clippy
 nu_plugin_dbus
 salvo-cli
+clipboard-history
