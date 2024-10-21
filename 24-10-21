@@ -112,3 +112,4 @@ cargo-local-registry
 honggfuzz
 rkv
 diesel_cli
+textplots
