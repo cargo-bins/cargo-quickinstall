@@ -99,3 +99,4 @@ libbpf-cargo
 rkv
 nkeys
 httpmock
+remove_dir_all
