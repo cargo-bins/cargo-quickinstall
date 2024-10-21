@@ -50,3 +50,4 @@ papyrus_storage
 cargo-local-registry
 libbpf-cargo
 remove_dir_all
+pwasm-utils
