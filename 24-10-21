@@ -59,3 +59,4 @@ cargo-lock
 dotenv
 re_query
 qsv
+sshx
