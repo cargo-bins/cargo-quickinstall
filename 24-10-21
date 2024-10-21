@@ -57,3 +57,4 @@ rls-rustc
 parquet
 java-locator
 foundationdb-gen
+human_name
