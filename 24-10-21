@@ -76,3 +76,4 @@ phf_generator
 nkeys
 remove_dir_all
 sha1collisiondetection
+zuse
