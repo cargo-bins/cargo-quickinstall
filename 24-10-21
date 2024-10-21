@@ -103,3 +103,4 @@ tree-sitter-graph
 rustfmt-nightly
 honggfuzz
 phf_generator
+rustrict
