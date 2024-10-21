@@ -43,3 +43,4 @@ foundationdb-gen
 minicbor
 addr2line
 hurl
+dotenvy
