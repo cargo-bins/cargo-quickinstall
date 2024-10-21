@@ -73,3 +73,4 @@ snarkvm
 solana-stake-accounts
 httpmock
 deploy
+tendermint-abci
