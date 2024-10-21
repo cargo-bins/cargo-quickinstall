@@ -47,3 +47,4 @@ deploy
 solana-validator
 raw-cpuid
 wmi
+libbpf-cargo
