@@ -43,3 +43,4 @@ parquet
 nkeys
 cargo-lock
 text-diff
+benfred-read-process-memory
