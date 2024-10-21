@@ -67,3 +67,4 @@ honggfuzz
 tendermint-abci
 httpbis
 sqlx-cli
+coldsnap
