@@ -28,3 +28,4 @@ rrule
 tendermint-abci
 ducc-sys
 httpmock
+sha1collisiondetection
