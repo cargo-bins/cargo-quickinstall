@@ -56,3 +56,4 @@ remove_dir_all
 diesel_cli
 wol-rs
 cached-path
+sqlx-cli
