@@ -39,3 +39,4 @@ oso
 tree-sitter-graph
 parquet
 pwasm-utils
+dotenvy
