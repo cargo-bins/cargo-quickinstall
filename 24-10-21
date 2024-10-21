@@ -25,3 +25,4 @@ solana-cli
 cpp_demangle
 arrow-flight
 laminar
+socketcan
