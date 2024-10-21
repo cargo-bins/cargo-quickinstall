@@ -28,3 +28,4 @@ cargo-lock
 sea-orm-cli
 clippy
 addr2line
+java-locator
