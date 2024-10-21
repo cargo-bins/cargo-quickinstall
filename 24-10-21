@@ -31,3 +31,4 @@ addr2line
 tendermint-abci
 minicbor
 honggfuzz
+cpp_demangle
