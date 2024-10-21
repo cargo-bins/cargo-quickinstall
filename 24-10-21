@@ -57,3 +57,4 @@ cargo-udeps
 dotenvy
 libbpf-cargo
 paperclip
+winpty-rs
