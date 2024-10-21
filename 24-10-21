@@ -48,3 +48,4 @@ solana-validator
 raw-cpuid
 wmi
 libbpf-cargo
+pgrx-tests
