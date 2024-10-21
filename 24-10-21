@@ -69,3 +69,4 @@ spider_worker
 solana-cli
 nkeys
 cargo-lock
+laminar
