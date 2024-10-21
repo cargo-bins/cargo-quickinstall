@@ -94,3 +94,4 @@ addr2line
 cpp_demangle
 nextest-filtering
 unic-langid-impl
+protox
