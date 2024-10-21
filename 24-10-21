@@ -102,3 +102,4 @@ human_name
 tree-sitter-graph
 rustfmt-nightly
 honggfuzz
+phf_generator
