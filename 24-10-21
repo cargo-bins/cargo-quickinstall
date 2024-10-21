@@ -55,3 +55,4 @@ ducc-sys
 sqlx-cli
 cargo-udeps
 dotenvy
+libbpf-cargo
