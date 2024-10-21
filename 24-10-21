@@ -83,3 +83,4 @@ evcxr_repl
 z3tracer
 addr2line
 wmi
+py-spy
