@@ -34,3 +34,4 @@ honggfuzz
 cpp_demangle
 protox
 nextest-filtering
+rustbus
