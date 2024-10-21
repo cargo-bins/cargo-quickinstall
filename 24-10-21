@@ -110,3 +110,4 @@ unic-langid-impl
 tree-sitter-graph
 cargo-local-registry
 honggfuzz
+rkv
