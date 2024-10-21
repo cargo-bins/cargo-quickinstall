@@ -60,3 +60,4 @@ tendermint-rpc
 mise
 sshx
 libbpf-cargo
+foundationdb-gen
