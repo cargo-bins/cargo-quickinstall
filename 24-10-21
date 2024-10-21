@@ -50,3 +50,4 @@ cpp_demangle
 nextest-filtering
 racer
 xplr
+opencv-binding-generator
