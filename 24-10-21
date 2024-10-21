@@ -3,3 +3,4 @@ schemafy
 tree-sitter-graph
 laminar
 remove_dir_all
+pwasm-utils
