@@ -53,3 +53,4 @@ paperclip
 pwasm-utils
 diesel_cli
 spider_worker
+rls-rustc
