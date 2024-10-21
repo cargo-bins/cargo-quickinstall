@@ -42,3 +42,4 @@ rkv
 parquet
 nkeys
 cargo-lock
+text-diff
