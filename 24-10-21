@@ -92,3 +92,4 @@ phf_generator
 re_query
 addr2line
 cpp_demangle
+nextest-filtering
