@@ -89,3 +89,4 @@ nextest-filtering
 borsh
 solana-gossip
 cargo-udeps
+solana-validator
