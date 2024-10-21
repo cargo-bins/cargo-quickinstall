@@ -30,3 +30,4 @@ clippy
 addr2line
 java-locator
 rustfmt-nightly
+borsh
