@@ -24,3 +24,4 @@ deploy
 socketcan
 z3tracer
 opencv-binding-generator
+cargo-lock
