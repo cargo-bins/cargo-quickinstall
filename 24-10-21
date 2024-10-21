@@ -50,3 +50,4 @@ nkeys
 foundationdb-gen
 cargo-generate
 solana-validator
+libbpf-cargo
