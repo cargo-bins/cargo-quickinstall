@@ -51,3 +51,4 @@ deploy
 protox
 zuse
 spider_cli
+rls-rustc
