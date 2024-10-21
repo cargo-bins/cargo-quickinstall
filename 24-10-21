@@ -54,3 +54,4 @@ spider_cli
 rls-rustc
 nexmark
 human_name
+tree-sitter-cli
