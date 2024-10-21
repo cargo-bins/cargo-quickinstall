@@ -120,3 +120,4 @@ cpp_demangle
 ec2_instance_metadata
 minicbor
 tendermint-rpc
+z3tracer
