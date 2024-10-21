@@ -56,3 +56,4 @@ phf_generator
 borsh
 rls-rustc
 z3tracer
+dotenv
