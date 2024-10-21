@@ -42,3 +42,4 @@ phf_generator
 deploy
 wol-rs
 rrule
+addr2line
