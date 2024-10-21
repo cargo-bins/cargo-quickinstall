@@ -69,3 +69,4 @@ laminar
 winpty-rs
 sqlx-cli
 tendermint-rpc
+cargo-generate
