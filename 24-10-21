@@ -75,3 +75,4 @@ human_bytes
 pwasm-utils
 tree-sitter-graph
 tendermint-rpc
+solana-validator
