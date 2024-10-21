@@ -6,3 +6,4 @@ wmi
 pwasm-utils
 wol-rs
 cargo-quickbuild
+cargo-lock
