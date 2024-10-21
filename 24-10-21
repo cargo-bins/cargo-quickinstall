@@ -25,3 +25,4 @@ paperclip
 z3tracer
 pwasm-utils
 dotenvy
+evcxr_repl
