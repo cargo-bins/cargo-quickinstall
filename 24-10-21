@@ -29,3 +29,4 @@ snarkvm
 rustfmt-nightly
 z3tracer
 rustrict
+re_query
