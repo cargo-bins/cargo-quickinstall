@@ -39,3 +39,4 @@ rustfmt-nightly
 textplots
 racer
 socketcan
+rustrict
