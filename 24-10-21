@@ -116,3 +116,4 @@ textplots
 deno
 laminar
 sn_cli
+cpp_demangle
