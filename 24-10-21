@@ -40,3 +40,4 @@ cavif
 opencv-binding-generator
 paperclip
 foundationdb-gen
+minicbor
