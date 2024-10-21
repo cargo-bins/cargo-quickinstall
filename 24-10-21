@@ -90,3 +90,4 @@ syd
 dotenvy
 phf_generator
 re_query
+addr2line
