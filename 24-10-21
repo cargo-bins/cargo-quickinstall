@@ -36,3 +36,4 @@ remove_dir_all
 httpmock
 z3tracer
 ec2_instance_metadata
+rustfmt-nightly
