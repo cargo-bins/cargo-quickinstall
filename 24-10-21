@@ -66,3 +66,4 @@ pgrx-tests
 dotenv
 solana-cli
 laminar
+winpty-rs
