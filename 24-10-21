@@ -7,3 +7,4 @@ solana-keygen
 cargo-udeps
 tendermint-rpc
 java-locator
+dotenv
