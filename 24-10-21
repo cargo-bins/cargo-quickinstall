@@ -37,3 +37,4 @@ pgrx-tests
 cavif
 nextest-filtering
 cavif
+opencv-binding-generator
