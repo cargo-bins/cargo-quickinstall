@@ -54,3 +54,4 @@ trunk
 ducc-sys
 sqlx-cli
 cargo-udeps
+dotenvy
