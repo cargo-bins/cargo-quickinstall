@@ -50,3 +50,4 @@ oxipng
 rustfmt-nightly
 tree-sitter-graph
 paperclip
+pwasm-utils
