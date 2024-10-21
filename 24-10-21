@@ -118,3 +118,4 @@ laminar
 sn_cli
 cpp_demangle
 ec2_instance_metadata
+minicbor
