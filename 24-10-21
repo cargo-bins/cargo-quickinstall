@@ -65,3 +65,4 @@ minicbor
 winpty-rs
 phf_generator
 libbpf-cargo
+ducc-sys
