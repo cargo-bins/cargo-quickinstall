@@ -78,3 +78,4 @@ coldsnap
 human_bytes
 benfred-read-process-memory
 tendermint-rpc
+socketcan
