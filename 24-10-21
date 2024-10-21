@@ -27,3 +27,4 @@ pwasm-utils
 dotenvy
 evcxr_repl
 tauri-cli
+dotenvy
