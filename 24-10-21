@@ -21,3 +21,4 @@ solana-validator
 winpty-rs
 tendermint-abci
 laminar
+tendermint-rpc
