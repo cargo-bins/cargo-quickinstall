@@ -4,3 +4,4 @@ foundationdb-gen
 diesel_cli
 h3o
 arrow-flight
+socketcan
