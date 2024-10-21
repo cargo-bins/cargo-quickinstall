@@ -28,3 +28,4 @@ unic-langid-impl
 solana-genesis
 deploy
 phf_generator
+cargo-lock
