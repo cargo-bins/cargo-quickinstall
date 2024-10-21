@@ -75,3 +75,4 @@ oso
 cached-path
 rkv
 sqlx-cli
+re_query
