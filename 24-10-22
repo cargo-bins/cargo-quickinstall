@@ -109,3 +109,4 @@ arrow-flight
 rustfmt-nightly
 re_query
 rustbus
+rustfmt
