@@ -37,3 +37,4 @@ cargo-vet
 nkeys
 sha1collisiondetection
 cpp_demangle
+py-spy
