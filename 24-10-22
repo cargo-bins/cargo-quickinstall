@@ -27,3 +27,4 @@ h3o
 phf_generator
 pwasm-utils
 tendermint-rpc
+human_bytes
