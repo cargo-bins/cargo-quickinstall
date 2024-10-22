@@ -39,3 +39,4 @@ human_name
 tendermint-rpc
 snarkvm
 parquet
+dotenv
