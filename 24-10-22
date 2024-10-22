@@ -11,3 +11,4 @@ zuse
 httpmock
 snarkvm
 tendermint-rpc
+z3tracer
