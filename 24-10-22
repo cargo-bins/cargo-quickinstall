@@ -19,3 +19,4 @@ httpmock
 arrow-flight
 syd
 winpty-rs
+wol-rs
