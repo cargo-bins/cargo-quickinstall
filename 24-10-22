@@ -8,3 +8,4 @@ solana-cli
 syd
 unic-langid-impl
 arrow-flight
+rls-rustc
