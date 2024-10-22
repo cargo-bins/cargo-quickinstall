@@ -11,3 +11,4 @@ schemafy
 human_name
 clippy
 foundationdb-gen
+phf_generator
