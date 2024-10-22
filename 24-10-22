@@ -11,3 +11,4 @@ arrow-flight
 rls-rustc
 cargo-lock
 spider_cli
+spider_worker
