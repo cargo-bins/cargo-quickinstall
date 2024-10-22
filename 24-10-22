@@ -25,3 +25,4 @@ trunk
 cargo-vet
 solana-validator
 tendermint-abci
+laminar
