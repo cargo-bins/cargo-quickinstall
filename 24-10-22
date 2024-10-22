@@ -34,3 +34,4 @@ diesel_cli
 wmi
 nkeys
 paperclip
+tendermint-abci
