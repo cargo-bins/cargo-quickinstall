@@ -45,3 +45,4 @@ deploy
 evcxr_repl
 solana-gossip
 rls-rustc
+parquet
