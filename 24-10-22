@@ -52,3 +52,4 @@ spider_worker
 parquet
 oxipng
 sea-orm-cli
+addr2line
