@@ -103,3 +103,4 @@ deno
 textplots
 socketcan
 syd
+rustfmt-nightly
