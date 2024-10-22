@@ -16,3 +16,4 @@ protox
 rrule
 re_query
 cpp_demangle
+tendermint-rpc
