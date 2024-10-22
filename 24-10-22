@@ -4,3 +4,4 @@ tree-sitter-graph
 spider_cli
 rustfmt-nightly
 h3o
+unic-langid-impl
