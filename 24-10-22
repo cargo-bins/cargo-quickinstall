@@ -64,3 +64,4 @@ rkv
 tendermint-abci
 httpbis
 schemafy
+cargo-vet
