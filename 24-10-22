@@ -12,3 +12,4 @@ libbpf-cargo
 nu
 dotenvy
 tendermint-rpc
+wol-rs
