@@ -16,3 +16,4 @@ rls-rustc
 tree-sitter-graph
 tendermint-abci
 addr2line
+sn_cli
