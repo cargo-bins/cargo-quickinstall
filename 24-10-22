@@ -47,3 +47,4 @@ cached-path
 sha1collisiondetection
 solana-cli
 rls-rustc
+solana-genesis
