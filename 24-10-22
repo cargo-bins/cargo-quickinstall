@@ -34,3 +34,4 @@ rrule
 opencv-binding-generator
 socketcan
 cached-path
+wmi
