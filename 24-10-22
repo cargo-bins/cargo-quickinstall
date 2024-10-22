@@ -65,3 +65,4 @@ a11ywatch_cli
 raw-cpuid
 borsh
 cargo-lock
+addr2line
