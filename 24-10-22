@@ -96,3 +96,4 @@ raw-cpuid
 phf_generator
 httpmock
 tree-sitter-cli
+nexmark
