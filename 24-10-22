@@ -57,3 +57,4 @@ rav1e
 sqlx-cli
 solana-gossip
 libbpf-cargo
+unic-langid-impl
