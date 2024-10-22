@@ -17,3 +17,4 @@ socketcan
 cpp_demangle
 oso
 snarkvm
+phf_generator
