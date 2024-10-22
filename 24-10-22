@@ -54,3 +54,4 @@ cpp_demangle
 sha1collisiondetection
 raw-cpuid
 rav1e
+sqlx-cli
