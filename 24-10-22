@@ -41,3 +41,4 @@ snarkvm
 parquet
 dotenv
 wol-rs
+tree-sitter-cli
