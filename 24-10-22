@@ -47,3 +47,4 @@ jless
 clippy
 fend
 rustfmt-nightly
+qrtool
