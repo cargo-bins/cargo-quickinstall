@@ -106,3 +106,4 @@ foundationdb-gen
 syd
 opencv-binding-generator
 sea-orm-cli
+laminar
