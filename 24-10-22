@@ -68,3 +68,4 @@ cargo-lock
 addr2line
 papyrus_storage
 deno
+racer
