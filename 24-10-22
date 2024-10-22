@@ -110,3 +110,4 @@ rustfmt-nightly
 re_query
 rustbus
 rustfmt
+z3tracer
