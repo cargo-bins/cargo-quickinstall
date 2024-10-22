@@ -19,3 +19,4 @@ solana-stake-accounts
 deno
 diesel_cli
 cargo-about
+watchexec-cli
