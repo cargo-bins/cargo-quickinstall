@@ -36,3 +36,4 @@ phf_generator
 cargo-vet
 nkeys
 sha1collisiondetection
+cpp_demangle
