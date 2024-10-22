@@ -100,3 +100,4 @@ nexmark
 cached-path
 opencv-binding-generator
 winpty-rs
+solana-cli
