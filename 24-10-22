@@ -47,3 +47,4 @@ dotenvy
 foundationdb-gen
 dotenvy
 sshx
+rls-rustc
