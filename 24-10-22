@@ -26,3 +26,4 @@ cargo-vet
 solana-validator
 tendermint-abci
 laminar
+libbpf-cargo
