@@ -44,3 +44,4 @@ py-spy
 deploy
 evcxr_repl
 solana-gossip
+rls-rustc
