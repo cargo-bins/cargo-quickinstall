@@ -30,3 +30,4 @@ deno
 watchexec-cli
 sccache
 protox
+cached-path
