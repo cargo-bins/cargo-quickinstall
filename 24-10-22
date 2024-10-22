@@ -42,3 +42,4 @@ deno
 tree-sitter-cli
 trunk
 spider_worker
+rls-rustc
