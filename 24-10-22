@@ -56,3 +56,4 @@ raw-cpuid
 rav1e
 sqlx-cli
 solana-gossip
+libbpf-cargo
