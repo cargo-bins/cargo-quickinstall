@@ -8,3 +8,4 @@ spider_worker
 h3o
 laminar
 zuse
+httpmock
