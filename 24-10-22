@@ -32,3 +32,4 @@ paperclip
 dotenv
 borsh
 solana-gossip
+cargo-lock
