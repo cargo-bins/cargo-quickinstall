@@ -37,3 +37,4 @@ tree-sitter-graph
 cached-path
 rrule
 rkv
+cpp_demangle
