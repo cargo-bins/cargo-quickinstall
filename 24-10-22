@@ -50,3 +50,4 @@ sshx
 rls-rustc
 cached-path
 human_bytes
+pwasm-utils
