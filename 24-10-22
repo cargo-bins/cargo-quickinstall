@@ -107,3 +107,4 @@ syd
 opencv-binding-generator
 sea-orm-cli
 laminar
+tree-sitter-cli
