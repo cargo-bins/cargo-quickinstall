@@ -21,3 +21,4 @@ cpp_demangle
 deploy
 wol-rs
 tendermint-rpc
+raw-cpuid
