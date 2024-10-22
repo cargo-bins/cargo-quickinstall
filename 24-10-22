@@ -51,3 +51,4 @@ phf_generator
 nkeys
 winpty-rs
 socketcan
+z3tracer
