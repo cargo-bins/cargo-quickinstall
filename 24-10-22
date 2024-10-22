@@ -49,3 +49,4 @@ papyrus_storage
 schemafy
 sha1collisiondetection
 nexmark
+addr2line
