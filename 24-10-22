@@ -41,3 +41,4 @@ py-spy
 dotenv
 wol-rs
 nextest-filtering
+human_bytes
