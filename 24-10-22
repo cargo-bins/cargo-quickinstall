@@ -63,3 +63,4 @@ foundationdb-gen
 rkv
 tendermint-abci
 httpbis
+schemafy
