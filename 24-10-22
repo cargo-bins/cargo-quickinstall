@@ -1,3 +1,4 @@
 nextest-filtering
 cargo-local-registry
 schemafy
+pwasm-utils
