@@ -13,3 +13,4 @@ cargo-lock
 spider_cli
 spider_worker
 oso
+schemafy
