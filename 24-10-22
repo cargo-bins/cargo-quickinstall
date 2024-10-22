@@ -11,3 +11,4 @@ tendermint-rpc
 racer
 trunk
 cargo-generate
+coldsnap
