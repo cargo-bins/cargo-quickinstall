@@ -31,3 +31,4 @@ diesel_cli
 deploy
 httpmock
 oso
+deno
