@@ -37,3 +37,4 @@ binstall
 solana-gossip
 nextsv
 nexmark
+cargo-lock
