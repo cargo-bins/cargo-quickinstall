@@ -36,3 +36,4 @@ nkeys
 paperclip
 tendermint-abci
 human_name
+tendermint-rpc
