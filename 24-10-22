@@ -55,3 +55,4 @@ solana-cli
 nkeys
 rrule
 httpmock
+socketcan
