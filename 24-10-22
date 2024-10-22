@@ -47,3 +47,4 @@ solana-cli
 qsv
 laminar
 wol-rs
+phf_generator
