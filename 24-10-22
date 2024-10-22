@@ -79,3 +79,4 @@ syd
 tokio-process
 nextest-filtering
 nexmark
+ducc-sys
