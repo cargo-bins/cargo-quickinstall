@@ -42,3 +42,4 @@ parquet
 solana-gossip
 nexmark
 h3o
+sqlx-cli
