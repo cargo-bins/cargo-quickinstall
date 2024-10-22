@@ -35,3 +35,4 @@ solana-gossip
 cargo-lock
 tree-sitter-graph
 cached-path
+rrule
