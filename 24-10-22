@@ -55,3 +55,4 @@ trunk
 trunk
 nextest-filtering
 wmi
+cargo-outdated
