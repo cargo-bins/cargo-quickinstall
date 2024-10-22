@@ -34,3 +34,4 @@ ducc-sys
 clippy
 kalc
 cpp_demangle
+httpmock
