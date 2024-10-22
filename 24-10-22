@@ -48,3 +48,4 @@ rls-rustc
 parquet
 httpmock
 diesel_cli
+librespot
