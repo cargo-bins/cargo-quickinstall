@@ -42,3 +42,4 @@ dotenv
 wol-rs
 nextest-filtering
 human_bytes
+borsh
