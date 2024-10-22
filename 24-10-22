@@ -10,3 +10,4 @@ oso
 tendermint-rpc
 racer
 trunk
+cargo-generate
