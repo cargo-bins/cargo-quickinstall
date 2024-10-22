@@ -3,3 +3,4 @@ libbpf-cargo
 tree-sitter-graph
 spider_cli
 rustfmt-nightly
+h3o
