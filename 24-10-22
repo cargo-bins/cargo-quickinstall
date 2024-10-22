@@ -49,3 +49,4 @@ parquet
 httpmock
 diesel_cli
 librespot
+watchexec-cli
