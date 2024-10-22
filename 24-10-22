@@ -31,3 +31,4 @@ httpmock
 paperclip
 dotenv
 borsh
+solana-gossip
