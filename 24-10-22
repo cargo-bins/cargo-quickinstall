@@ -65,3 +65,4 @@ tendermint-abci
 httpbis
 schemafy
 cargo-vet
+socketcan
