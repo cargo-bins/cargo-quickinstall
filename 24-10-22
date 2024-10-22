@@ -42,3 +42,4 @@ arrow-flight
 java-locator
 sshx
 sha1collisiondetection
+rustfmt-nightly
