@@ -62,3 +62,4 @@ solana-gossip
 foundationdb-gen
 rkv
 tendermint-abci
+httpbis
