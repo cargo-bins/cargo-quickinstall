@@ -12,3 +12,4 @@ rav1e
 cargo-local-registry
 sha1collisiondetection
 rkv
+rls-rustc
