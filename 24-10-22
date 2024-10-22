@@ -57,3 +57,4 @@ clippy
 cached-path
 z3tracer
 parquet
+tree-sitter-cli
