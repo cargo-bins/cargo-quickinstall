@@ -54,3 +54,4 @@ human_bytes
 solana-cli
 nkeys
 rrule
+httpmock
