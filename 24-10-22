@@ -32,3 +32,4 @@ ec2_instance_metadata
 deploy
 human_name
 paperclip
+phf_generator
