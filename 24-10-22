@@ -14,3 +14,4 @@ tendermint-rpc
 z3tracer
 rustfmt-nightly
 socketcan
+cpp_demangle
