@@ -85,3 +85,4 @@ nexmark
 solana-remote-wallet
 rustfmt-nightly
 z3tracer
+minicbor
