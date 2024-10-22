@@ -46,3 +46,4 @@ rustfmt-nightly
 dotenvy
 foundationdb-gen
 dotenvy
+sshx
