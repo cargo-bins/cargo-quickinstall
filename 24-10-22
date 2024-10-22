@@ -3,3 +3,4 @@ cargo-local-registry
 schemafy
 pwasm-utils
 unic-langid-impl
+tokio-process
