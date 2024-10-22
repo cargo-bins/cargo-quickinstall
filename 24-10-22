@@ -9,3 +9,4 @@ syd
 unic-langid-impl
 arrow-flight
 rls-rustc
+cargo-lock
