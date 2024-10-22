@@ -48,3 +48,4 @@ sn_cli
 solana-validator
 oso
 laminar
+dotenv
