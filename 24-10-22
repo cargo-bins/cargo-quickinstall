@@ -102,3 +102,4 @@ opencv-binding-generator
 winpty-rs
 solana-cli
 trunk
+foundationdb-gen
