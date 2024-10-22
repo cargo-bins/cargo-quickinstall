@@ -100,3 +100,4 @@ tokio-process
 h3o
 httpmock
 deno
+textplots
