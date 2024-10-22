@@ -33,3 +33,4 @@ dotenv
 borsh
 solana-gossip
 cargo-lock
+tree-sitter-graph
