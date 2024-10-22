@@ -42,3 +42,4 @@ parquet
 dotenv
 wol-rs
 tree-sitter-cli
+solana-validator
