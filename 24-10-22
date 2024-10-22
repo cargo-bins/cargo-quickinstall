@@ -7,3 +7,4 @@ tokio-process
 cached-path
 syd
 tree-sitter-graph
+rustfmt
