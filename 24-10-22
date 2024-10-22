@@ -35,3 +35,4 @@ paperclip
 phf_generator
 cargo-vet
 nkeys
+sha1collisiondetection
