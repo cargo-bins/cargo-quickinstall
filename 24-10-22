@@ -25,3 +25,4 @@ tendermint-abci
 solana-gossip
 addr2line
 remove_dir_all
+opencv-binding-generator
