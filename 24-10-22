@@ -76,3 +76,4 @@ omicron-zone-package
 trunk
 human_name
 syd
+tokio-process
