@@ -19,3 +19,4 @@ nu
 tree-sitter-graph
 solana-cli
 solana-gossip
+sea-orm-cli
