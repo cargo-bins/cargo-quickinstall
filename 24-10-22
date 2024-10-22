@@ -52,3 +52,4 @@ cached-path
 human_bytes
 pwasm-utils
 laminar
+tendermint-rpc
