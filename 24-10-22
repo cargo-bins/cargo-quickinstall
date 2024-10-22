@@ -36,3 +36,4 @@ solana-stake-accounts
 parquet
 atuin
 tendermint-rpc
+typst-cli
