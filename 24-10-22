@@ -46,3 +46,4 @@ z3tracer
 jless
 clippy
 fend
+rustfmt-nightly
