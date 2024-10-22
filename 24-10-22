@@ -88,3 +88,4 @@ z3tracer
 minicbor
 zuse
 spider_cli
+rustfmt-nightly
