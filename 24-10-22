@@ -2,3 +2,4 @@ paperclip
 dotenv
 unic-langid-impl
 rustbus
+socketcan
