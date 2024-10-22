@@ -18,3 +18,4 @@ tendermint-abci
 addr2line
 sn_cli
 solana-cli
+deploy
