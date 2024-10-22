@@ -57,3 +57,4 @@ nextest-filtering
 wmi
 cargo-outdated
 rrule
+unic-langid-impl
