@@ -39,3 +39,4 @@ solana-cli
 raw-cpuid
 arrow-flight
 parquet
+solana-gossip
