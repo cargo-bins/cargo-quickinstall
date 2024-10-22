@@ -30,3 +30,4 @@ re_query
 diesel_cli
 deploy
 httpmock
+oso
