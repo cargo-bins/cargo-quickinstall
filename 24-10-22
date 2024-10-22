@@ -2,3 +2,4 @@ sha1collisiondetection
 solana-validator
 java-locator
 solana-genesis
+addr2line
