@@ -24,3 +24,4 @@ syd
 tendermint-abci
 solana-cli
 cargo-local-registry
+cpp_demangle
