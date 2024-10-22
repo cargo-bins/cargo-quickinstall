@@ -68,3 +68,4 @@ cargo-vet
 socketcan
 schemafy
 arrow-flight
+omicron-zone-package
