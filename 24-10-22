@@ -28,3 +28,4 @@ tendermint-abci
 laminar
 libbpf-cargo
 dotenvy
+ec2_instance_metadata
