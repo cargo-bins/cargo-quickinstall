@@ -29,3 +29,4 @@ opencv-binding-generator
 diesel_cli
 java-locator
 z3tracer
+rustfmt-nightly
