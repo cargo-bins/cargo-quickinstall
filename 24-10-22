@@ -22,3 +22,4 @@ solana-gossip
 sea-orm-cli
 dotenv
 textplots
+libbpf-cargo
