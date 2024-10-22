@@ -47,3 +47,4 @@ solana-gossip
 rls-rustc
 parquet
 httpmock
+diesel_cli
