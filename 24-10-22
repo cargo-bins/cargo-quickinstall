@@ -25,3 +25,4 @@ wmi
 spider_worker
 cpp_demangle
 nextest-filtering
+tree-sitter-graph
