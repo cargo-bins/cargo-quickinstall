@@ -8,3 +8,4 @@ unic-langid-impl
 wmi
 java-locator
 socketcan
+libbpf-cargo
