@@ -13,3 +13,4 @@ cargo-local-registry
 sha1collisiondetection
 rkv
 rls-rustc
+tree-sitter-graph
