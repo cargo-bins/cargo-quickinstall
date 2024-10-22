@@ -59,3 +59,4 @@ solana-gossip
 libbpf-cargo
 unic-langid-impl
 solana-gossip
+foundationdb-gen
