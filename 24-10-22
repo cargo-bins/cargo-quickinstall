@@ -59,3 +59,4 @@ sha1collisiondetection
 trunk
 rustfmt-nightly
 commitgpt
+tendermint-rpc
