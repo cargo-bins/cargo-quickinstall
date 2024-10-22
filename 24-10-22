@@ -53,3 +53,4 @@ parquet
 oxipng
 sea-orm-cli
 addr2line
+clippy
