@@ -111,3 +111,4 @@ re_query
 rustbus
 rustfmt
 z3tracer
+ducc-sys
