@@ -84,3 +84,4 @@ opencv-binding-generator
 java-locator
 nextest-filtering
 phf_generator
+sn_node
