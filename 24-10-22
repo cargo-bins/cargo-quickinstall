@@ -61,3 +61,4 @@ unic-langid-impl
 solana-gossip
 foundationdb-gen
 rkv
+tendermint-abci
