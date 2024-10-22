@@ -92,3 +92,4 @@ benfred-read-process-memory
 re_query
 libbpf-cargo
 rustbus
+omicron-zone-package
