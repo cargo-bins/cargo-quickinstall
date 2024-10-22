@@ -10,3 +10,4 @@ java-locator
 socketcan
 libbpf-cargo
 nu
+dotenvy
