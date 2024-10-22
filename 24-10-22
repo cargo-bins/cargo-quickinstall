@@ -40,3 +40,4 @@ tendermint-rpc
 snarkvm
 parquet
 dotenv
+wol-rs
