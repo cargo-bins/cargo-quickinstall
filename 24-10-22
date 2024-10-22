@@ -62,3 +62,4 @@ pgrx-tests
 cpp_demangle
 socketcan
 textplots
+borsh
