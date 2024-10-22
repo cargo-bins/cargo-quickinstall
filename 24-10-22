@@ -15,3 +15,4 @@ z3tracer
 rustfmt-nightly
 socketcan
 cpp_demangle
+oso
