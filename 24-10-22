@@ -20,3 +20,4 @@ sn_cli
 solana-cli
 deploy
 cpp_demangle
+ec2_instance_metadata
