@@ -44,3 +44,4 @@ wol-rs
 tree-sitter-cli
 solana-validator
 human_name
+pwasm-utils
