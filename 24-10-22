@@ -4,3 +4,4 @@ nkeys
 parquet
 pgrx-tests
 rustrict
+human_bytes
