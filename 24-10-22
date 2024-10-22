@@ -23,3 +23,4 @@ wol-rs
 tendermint-rpc
 raw-cpuid
 sha1collisiondetection
+ducc-sys
