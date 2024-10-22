@@ -49,3 +49,4 @@ dotenvy
 sshx
 rls-rustc
 cached-path
+human_bytes
