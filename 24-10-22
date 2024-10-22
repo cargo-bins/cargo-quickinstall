@@ -13,3 +13,4 @@ clippy
 foundationdb-gen
 phf_generator
 racer
+borsh
