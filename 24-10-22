@@ -98,3 +98,4 @@ httpmock
 tree-sitter-cli
 nexmark
 cached-path
+opencv-binding-generator
