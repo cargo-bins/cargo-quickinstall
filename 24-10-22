@@ -44,3 +44,4 @@ sshx
 sha1collisiondetection
 rustfmt-nightly
 dotenvy
+foundationdb-gen
