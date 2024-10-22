@@ -71,3 +71,4 @@ arrow-flight
 omicron-zone-package
 sn_node
 winpty-rs
+raw-cpuid
