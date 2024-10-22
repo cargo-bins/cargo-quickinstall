@@ -15,3 +15,4 @@ deploy
 solana-cli
 socketcan
 rustrict
+pgrx-tests
