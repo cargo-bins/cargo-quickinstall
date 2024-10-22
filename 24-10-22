@@ -66,3 +66,4 @@ raw-cpuid
 borsh
 cargo-lock
 addr2line
+papyrus_storage
