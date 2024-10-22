@@ -24,3 +24,4 @@ addr2line
 parquet
 trunk
 remove_dir_all
+clippy
