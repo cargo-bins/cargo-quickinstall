@@ -18,3 +18,4 @@ borsh
 httpmock
 arrow-flight
 syd
+winpty-rs
