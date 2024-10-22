@@ -48,3 +48,4 @@ clippy
 fend
 rustfmt-nightly
 qrtool
+socketcan
