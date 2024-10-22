@@ -28,3 +28,4 @@ nextest-filtering
 tree-sitter-graph
 deno
 watchexec-cli
+sccache
