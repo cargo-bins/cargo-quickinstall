@@ -3,3 +3,4 @@ solana-validator
 java-locator
 solana-genesis
 addr2line
+remove_dir_all
