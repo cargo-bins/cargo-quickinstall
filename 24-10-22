@@ -41,3 +41,4 @@ cpp_demangle
 arrow-flight
 java-locator
 sshx
+sha1collisiondetection
