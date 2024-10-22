@@ -22,3 +22,4 @@ deploy
 cpp_demangle
 ec2_instance_metadata
 trunk
+cargo-vet
