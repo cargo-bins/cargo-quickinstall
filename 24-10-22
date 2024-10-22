@@ -5,3 +5,4 @@ solana-genesis
 addr2line
 remove_dir_all
 arrow-flight
+solana-gossip
