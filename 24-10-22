@@ -83,3 +83,4 @@ ducc-sys
 opencv-binding-generator
 java-locator
 nextest-filtering
+phf_generator
