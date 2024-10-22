@@ -104,3 +104,4 @@ solana-cli
 trunk
 foundationdb-gen
 syd
+opencv-binding-generator
