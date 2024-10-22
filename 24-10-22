@@ -26,3 +26,4 @@ trunk
 remove_dir_all
 clippy
 arrow-flight
+re_query
