@@ -105,3 +105,4 @@ socketcan
 syd
 rustfmt-nightly
 oso
+arrow-flight
