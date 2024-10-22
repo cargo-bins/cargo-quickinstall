@@ -20,3 +20,4 @@ cached-path
 cpp_demangle
 deploy
 wol-rs
+tendermint-rpc
