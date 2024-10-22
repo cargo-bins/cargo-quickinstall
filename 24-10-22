@@ -29,3 +29,4 @@ wol-rs
 cpp_demangle
 nextsv
 z3tracer
+nextest-filtering
