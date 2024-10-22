@@ -43,3 +43,4 @@ wol-rs
 nextest-filtering
 human_bytes
 borsh
+re_query
