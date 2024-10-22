@@ -61,3 +61,4 @@ oso
 schemafy
 arrow-flight
 solana-cli
+rustfmt-nightly
