@@ -17,3 +17,4 @@ borsh
 protox
 solana-validator
 cached-path
+cpp_demangle
