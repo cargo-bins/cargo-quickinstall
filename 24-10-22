@@ -16,3 +16,4 @@ rustfmt-nightly
 socketcan
 cpp_demangle
 oso
+snarkvm
