@@ -31,3 +31,4 @@ watchexec-cli
 sccache
 protox
 cached-path
+solana-remote-wallet
