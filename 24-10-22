@@ -86,3 +86,4 @@ nextest-filtering
 phf_generator
 sn_node
 protox
+honggfuzz
