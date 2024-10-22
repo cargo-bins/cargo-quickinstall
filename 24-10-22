@@ -80,3 +80,4 @@ schemafy
 borsh
 dotenvy
 solana-remote-wallet
+tendermint-abci
