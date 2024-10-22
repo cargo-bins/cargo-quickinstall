@@ -5,3 +5,4 @@ pwasm-utils
 unic-langid-impl
 tokio-process
 cached-path
+syd
