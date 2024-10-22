@@ -52,3 +52,4 @@ dotenv
 nexmark
 cpp_demangle
 sha1collisiondetection
+raw-cpuid
