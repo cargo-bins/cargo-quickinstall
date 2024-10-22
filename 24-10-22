@@ -8,3 +8,4 @@ spider_worker
 rrule
 py-spy
 hurl
+cpp_demangle
