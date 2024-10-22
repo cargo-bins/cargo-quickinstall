@@ -50,3 +50,4 @@ schemafy
 sha1collisiondetection
 nexmark
 addr2line
+human_bytes
