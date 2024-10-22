@@ -61,3 +61,4 @@ tree-sitter-cli
 h3o
 re_query
 remove_dir_all
+rls-rustc
