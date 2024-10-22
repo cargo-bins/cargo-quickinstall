@@ -10,3 +10,4 @@ tree-sitter-graph
 rustfmt
 rav1e
 cargo-local-registry
+sha1collisiondetection
