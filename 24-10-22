@@ -24,3 +24,4 @@ tendermint-rpc
 raw-cpuid
 sha1collisiondetection
 ducc-sys
+syd
