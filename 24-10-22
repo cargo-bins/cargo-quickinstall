@@ -19,3 +19,4 @@ addr2line
 sn_cli
 solana-cli
 deploy
+cpp_demangle
