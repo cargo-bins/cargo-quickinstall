@@ -33,3 +33,4 @@ rustfmt-nightly
 ducc-sys
 clippy
 kalc
+cpp_demangle
