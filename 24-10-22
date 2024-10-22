@@ -20,3 +20,4 @@ deno
 diesel_cli
 cargo-about
 watchexec-cli
+oso
