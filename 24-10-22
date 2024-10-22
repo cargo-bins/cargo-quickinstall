@@ -21,3 +21,4 @@ phf_generator
 cargo-outdated
 cached-path
 syd
+tendermint-abci
