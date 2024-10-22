@@ -14,3 +14,4 @@ cargo-generate
 coldsnap
 textplots
 rkv
+borsh
