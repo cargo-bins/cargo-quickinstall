@@ -80,3 +80,4 @@ tokio-process
 nextest-filtering
 nexmark
 ducc-sys
+opencv-binding-generator
