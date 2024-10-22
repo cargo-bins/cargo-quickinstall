@@ -14,3 +14,4 @@ dotenvy
 tendermint-rpc
 wol-rs
 socketcan
+rustrict
