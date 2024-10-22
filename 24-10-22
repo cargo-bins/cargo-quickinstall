@@ -21,3 +21,4 @@ solana-cli
 solana-gossip
 sea-orm-cli
 dotenv
+textplots
