@@ -91,3 +91,4 @@ textplots
 benfred-read-process-memory
 re_query
 libbpf-cargo
+rustbus
