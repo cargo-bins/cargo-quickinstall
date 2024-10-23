@@ -12,3 +12,4 @@ nexmark
 foundationdb-gen
 schemafy
 nextest-filtering
+httpmock
