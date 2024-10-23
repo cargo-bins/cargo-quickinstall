@@ -12,3 +12,4 @@ laminar
 graphql_client_cli
 sha1collisiondetection
 java-locator
+raw-cpuid
