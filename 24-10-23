@@ -20,3 +20,4 @@ phf_generator
 pwasm-utils
 libbpf-cargo
 solana-gossip
+pwasm-utils
