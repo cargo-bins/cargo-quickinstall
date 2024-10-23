@@ -4,3 +4,4 @@ a11ywatch_cli
 cargo-local-registry
 deno
 cargo-codspeed
+apollo-router
