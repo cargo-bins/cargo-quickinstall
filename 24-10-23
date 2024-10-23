@@ -19,3 +19,4 @@ winpty-rs
 wmi
 socketcan
 re_query
+diesel_cli
