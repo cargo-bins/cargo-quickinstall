@@ -38,3 +38,4 @@ laminar
 borsh
 raw-cpuid
 httpmock
+solana-validator
