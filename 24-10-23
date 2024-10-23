@@ -13,3 +13,4 @@ cargo-vet
 borsh
 dotenvy
 papyrus_storage
+apollo-router
