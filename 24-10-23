@@ -33,3 +33,4 @@ phf_generator
 nextest-filtering
 minicbor
 rkv
+nextest-filtering
