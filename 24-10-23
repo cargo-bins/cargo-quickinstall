@@ -5,3 +5,4 @@ cargo-local-registry
 deno
 cargo-codspeed
 apollo-router
+protox
