@@ -9,3 +9,4 @@ borsh
 textplots
 syd
 cached-path
+httpmock
