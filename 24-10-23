@@ -18,3 +18,4 @@ wol-rs
 winpty-rs
 wmi
 socketcan
+re_query
