@@ -32,3 +32,4 @@ sea-orm-cli
 phf_generator
 nextest-filtering
 minicbor
+rkv
