@@ -40,3 +40,4 @@ racer
 librespot
 watchexec-cli
 ducc-sys
+rls-rustc
