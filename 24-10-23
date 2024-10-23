@@ -11,3 +11,4 @@ nextest-filtering
 paru
 cargo-lock
 wol-rs
+minicbor
