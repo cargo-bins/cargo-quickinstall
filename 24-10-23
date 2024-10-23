@@ -31,3 +31,4 @@ rrule
 addr2line
 ducc-sys
 typst-cli
+tree-sitter-cli
