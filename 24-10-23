@@ -5,3 +5,4 @@ qrtool
 rustfmt-nightly
 parquet
 tendermint-abci
+textplots
