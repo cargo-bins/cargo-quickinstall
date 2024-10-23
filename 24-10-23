@@ -24,3 +24,4 @@ sea-orm-cli
 java-locator
 diesel_cli
 evcxr_repl
+solana-gossip
