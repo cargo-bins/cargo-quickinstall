@@ -56,3 +56,4 @@ mdbook-plantuml
 binstall
 minicbor
 cpp_demangle
+tendermint-rpc
