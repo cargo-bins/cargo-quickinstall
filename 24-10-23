@@ -25,3 +25,4 @@ pwasm-utils
 sea-orm-cli
 apollo-router
 a11ywatch_cli
+rustfmt-nightly
