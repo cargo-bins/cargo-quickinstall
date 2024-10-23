@@ -7,3 +7,4 @@ cargo-about
 raw-cpuid
 sea-orm-cli
 cargo-about
+tree-sitter-cli
