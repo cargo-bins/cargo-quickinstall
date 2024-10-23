@@ -8,3 +8,4 @@ tendermint-rpc
 parquet
 rls-rustc
 httpmock
+oso
