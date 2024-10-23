@@ -41,3 +41,4 @@ httpmock
 solana-validator
 cargo-lock
 ducc-sys
+rls-rustc
