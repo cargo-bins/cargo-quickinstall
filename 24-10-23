@@ -17,3 +17,4 @@ apollo-router
 rls-rustc
 exa
 rustfmt
+text-diff
