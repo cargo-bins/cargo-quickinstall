@@ -36,3 +36,4 @@ py-spy
 kdotool
 foundationdb-gen
 rrule
+remove_dir_all
