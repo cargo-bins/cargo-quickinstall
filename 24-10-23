@@ -55,3 +55,4 @@ rls-rustc
 cargo-espflash
 raw-cpuid
 httpmock
+trunk
