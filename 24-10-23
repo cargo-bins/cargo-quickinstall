@@ -21,3 +21,4 @@ winpty-rs
 ducc-sys
 clippy
 sea-orm-cli
+java-locator
