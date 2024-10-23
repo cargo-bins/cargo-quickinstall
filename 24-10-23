@@ -20,3 +20,4 @@ diesel_cli
 rls-rustc
 solana-remote-wallet
 human_name
+pwasm-utils
