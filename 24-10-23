@@ -33,3 +33,4 @@ coldsnap
 minicbor
 httpmock
 rls-rustc
+sqlx-cli
