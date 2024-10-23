@@ -42,3 +42,4 @@ trunk
 cargo-lock
 java-locator
 tree-sitter-graph
+re_query
