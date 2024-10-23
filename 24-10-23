@@ -27,3 +27,4 @@ cached-path
 protox
 solana-validator
 minicbor
+honggfuzz
