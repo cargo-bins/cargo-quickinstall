@@ -39,3 +39,4 @@ cached-path
 socketcan
 wmi
 trunk
+cargo-lock
