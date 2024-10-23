@@ -21,3 +21,4 @@ socketcan
 re_query
 diesel_cli
 paperclip
+textplots
