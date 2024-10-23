@@ -17,3 +17,4 @@ nu
 solana-cli
 watchexec-cli
 zuse
+winpty-rs
