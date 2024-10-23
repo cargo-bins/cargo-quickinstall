@@ -42,3 +42,4 @@ dotenv
 cached-path
 honggfuzz
 rmesg
+parquet
