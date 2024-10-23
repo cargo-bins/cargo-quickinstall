@@ -32,3 +32,4 @@ laminar
 winpty-rs
 papyrus_storage
 rustfmt-nightly
+nextest-filtering
