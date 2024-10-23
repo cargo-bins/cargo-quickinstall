@@ -13,3 +13,4 @@ foundationdb-gen
 schemafy
 nextest-filtering
 httpmock
+nu
