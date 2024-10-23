@@ -3,3 +3,4 @@ ducc-sys
 rustbus
 trunk
 nexmark
+tendermint-rpc
