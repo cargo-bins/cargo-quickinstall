@@ -6,3 +6,4 @@ nkeys
 dotenv
 tendermint-rpc
 parquet
+rls-rustc
