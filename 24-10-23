@@ -21,3 +21,4 @@ cpp_demangle
 tendermint-abci
 rrule
 racer
+ducc-sys
