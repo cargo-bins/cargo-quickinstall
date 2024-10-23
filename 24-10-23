@@ -37,3 +37,4 @@ tree-sitter-graph
 pwasm-utils
 cached-path
 socketcan
+wmi
