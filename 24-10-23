@@ -34,3 +34,4 @@ minicbor
 httpmock
 rls-rustc
 sqlx-cli
+rustfmt-nightly
