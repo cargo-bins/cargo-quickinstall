@@ -28,3 +28,4 @@ a11ywatch_cli
 rustfmt-nightly
 sha1collisiondetection
 parquet
+sea-orm-cli
