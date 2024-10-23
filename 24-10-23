@@ -9,3 +9,4 @@ diesel_cli
 laminar
 apollo-router
 cached-path
+solana-validator
