@@ -41,3 +41,4 @@ diesel_cli
 dotenv
 cached-path
 honggfuzz
+rmesg
