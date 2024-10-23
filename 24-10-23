@@ -58,3 +58,4 @@ apollo-router
 phf_generator
 nkeys
 deno
+human_bytes
