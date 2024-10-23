@@ -37,3 +37,4 @@ nextest-filtering
 laminar
 borsh
 raw-cpuid
+httpmock
