@@ -21,3 +21,4 @@ cached-path
 deploy
 sha1collisiondetection
 borsh
+pwasm-utils
