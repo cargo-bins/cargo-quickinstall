@@ -15,3 +15,4 @@ java-locator
 raw-cpuid
 pwasm-utils
 solana-validator
+tree-sitter-graph
