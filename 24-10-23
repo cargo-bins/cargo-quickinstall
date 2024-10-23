@@ -66,3 +66,4 @@ arrow-flight
 trunk
 sea-orm-cli
 solana-remote-wallet
+graphql_client_cli
