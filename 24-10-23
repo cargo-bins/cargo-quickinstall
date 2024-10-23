@@ -20,3 +20,4 @@ dotenv
 cached-path
 deploy
 sha1collisiondetection
+borsh
