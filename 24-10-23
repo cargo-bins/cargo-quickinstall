@@ -4,3 +4,4 @@ wol-rs
 syd
 rrule
 clippy
+cpp_demangle
