@@ -26,3 +26,4 @@ tendermint-abci
 remove_dir_all
 cargo-lock
 httpmock
+racer
