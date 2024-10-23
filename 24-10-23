@@ -31,3 +31,4 @@ cpp_demangle
 tendermint-abci
 coldsnap
 minicbor
+httpmock
