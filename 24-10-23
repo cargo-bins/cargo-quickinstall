@@ -10,3 +10,4 @@ omicron-zone-package
 pwasm-utils
 rav1e
 cargo-vet
+borsh
