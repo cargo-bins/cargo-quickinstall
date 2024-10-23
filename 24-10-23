@@ -40,3 +40,4 @@ raw-cpuid
 httpmock
 solana-validator
 cargo-lock
+ducc-sys
