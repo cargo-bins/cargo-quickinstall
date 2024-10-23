@@ -72,3 +72,4 @@ diesel_cli
 solana-cli
 hurl
 sha1collisiondetection
+qrtool
