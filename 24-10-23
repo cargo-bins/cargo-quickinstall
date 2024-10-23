@@ -7,3 +7,4 @@ dotenv
 tendermint-rpc
 parquet
 rls-rustc
+httpmock
