@@ -5,3 +5,4 @@ deno
 librespot
 cargo-about
 raw-cpuid
+sea-orm-cli
