@@ -40,3 +40,4 @@ remove_dir_all
 sha1collisiondetection
 graphql_client_cli
 phf_generator
+paru
