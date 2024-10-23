@@ -28,3 +28,4 @@ cargo-lock
 httpmock
 racer
 remove_dir_all
+minicbor
