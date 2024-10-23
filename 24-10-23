@@ -35,3 +35,4 @@ tree-sitter-cli
 solana-validator
 socketcan
 release
+cargo-public-api
