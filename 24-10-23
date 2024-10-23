@@ -20,3 +20,4 @@ a11ywatch_cli
 a11ywatch_cli
 cargo-about
 solana-cli
+cargo-tarpaulin
