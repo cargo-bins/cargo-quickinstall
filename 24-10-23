@@ -56,3 +56,4 @@ cargo-espflash
 raw-cpuid
 httpmock
 trunk
+borsh
