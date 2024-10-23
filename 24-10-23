@@ -4,3 +4,4 @@ solana-keygen
 qrtool
 rustfmt-nightly
 parquet
+tendermint-abci
