@@ -54,3 +54,4 @@ tree-sitter-graph
 rls-rustc
 cargo-espflash
 raw-cpuid
+httpmock
