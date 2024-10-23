@@ -55,3 +55,4 @@ textplots
 mdbook-plantuml
 binstall
 minicbor
+cpp_demangle
