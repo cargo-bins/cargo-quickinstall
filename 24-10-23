@@ -24,3 +24,4 @@ cargo-tarpaulin
 sha1collisiondetection
 cargo-codspeed
 rustrict
+cargo-codspeed
