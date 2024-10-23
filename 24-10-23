@@ -14,3 +14,4 @@ solana-cli
 raw-cpuid
 wmi
 racer
+wol-rs
