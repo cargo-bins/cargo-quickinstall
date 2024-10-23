@@ -40,3 +40,4 @@ socketcan
 wmi
 trunk
 cargo-lock
+java-locator
