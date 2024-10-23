@@ -18,3 +18,4 @@ apollo-router
 parquet
 diesel_cli
 rls-rustc
+solana-remote-wallet
