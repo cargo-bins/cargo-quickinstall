@@ -71,3 +71,4 @@ dotenvy
 release
 textplots
 py-spy
+cpp_demangle
