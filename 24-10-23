@@ -48,3 +48,4 @@ minicbor
 syd
 opencv-binding-generator
 sea-orm-cli
+sha1collisiondetection
