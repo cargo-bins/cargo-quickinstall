@@ -46,3 +46,4 @@ socketcan
 zuse
 minicbor
 syd
+opencv-binding-generator
