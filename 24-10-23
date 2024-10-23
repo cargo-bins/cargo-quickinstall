@@ -45,3 +45,4 @@ rls-rustc
 rls-rustc
 deploy
 wmi
+apollo-router
