@@ -39,3 +39,4 @@ cargo-public-api
 spider_cli
 re_query
 spider_worker
+nkeys
