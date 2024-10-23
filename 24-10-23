@@ -37,3 +37,4 @@ socketcan
 release
 cargo-public-api
 spider_cli
+re_query
