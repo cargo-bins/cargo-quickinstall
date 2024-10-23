@@ -34,3 +34,4 @@ papyrus_storage
 rustfmt-nightly
 nextest-filtering
 borsh
+minicbor
