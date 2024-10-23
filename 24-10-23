@@ -19,3 +19,4 @@ watchexec-cli
 zuse
 winpty-rs
 ducc-sys
+clippy
