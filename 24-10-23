@@ -27,3 +27,4 @@ remove_dir_all
 cargo-lock
 httpmock
 racer
+remove_dir_all
