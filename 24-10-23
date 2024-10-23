@@ -57,3 +57,4 @@ binstall
 minicbor
 cpp_demangle
 tendermint-rpc
+schemafy
