@@ -24,3 +24,4 @@ pwasm-utils
 rkv
 textplots
 paperclip
+rustfmt-nightly
