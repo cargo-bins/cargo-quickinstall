@@ -65,3 +65,4 @@ borsh
 arrow-flight
 trunk
 sea-orm-cli
+solana-remote-wallet
