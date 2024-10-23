@@ -39,3 +39,4 @@ sha1collisiondetection
 textplots
 diesel_cli
 dotenv
+cached-path
