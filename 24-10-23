@@ -36,3 +36,4 @@ solana-validator
 socketcan
 release
 cargo-public-api
+spider_cli
