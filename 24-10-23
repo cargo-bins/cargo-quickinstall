@@ -6,3 +6,4 @@ socketcan
 dotenvy
 ducc-sys
 unic-langid-impl
+diesel_cli
