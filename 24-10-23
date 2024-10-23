@@ -9,3 +9,4 @@ textplots
 rustfmt-nightly
 nextest-filtering
 paru
+cargo-lock
