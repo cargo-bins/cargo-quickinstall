@@ -34,3 +34,4 @@ cargo-public-api
 sha1collisiondetection
 py-spy
 kdotool
+foundationdb-gen
