@@ -44,3 +44,4 @@ ducc-sys
 rls-rustc
 rls-rustc
 deploy
+wmi
