@@ -4,3 +4,4 @@ rustbus
 trunk
 nexmark
 tendermint-rpc
+wol-rs
