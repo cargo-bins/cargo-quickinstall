@@ -11,3 +11,4 @@ pwasm-utils
 rav1e
 cargo-vet
 borsh
+dotenvy
