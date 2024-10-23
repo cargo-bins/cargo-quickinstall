@@ -44,3 +44,4 @@ honggfuzz
 rmesg
 parquet
 trunk
+raw-cpuid
