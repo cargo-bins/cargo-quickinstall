@@ -18,3 +18,4 @@ rls-rustc
 exa
 rustfmt
 text-diff
+unic-langid-impl
