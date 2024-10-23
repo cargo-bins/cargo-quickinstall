@@ -16,3 +16,4 @@ raw-cpuid
 pwasm-utils
 solana-validator
 tree-sitter-graph
+typst-cli
