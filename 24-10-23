@@ -41,3 +41,4 @@ wmi
 trunk
 cargo-lock
 java-locator
+tree-sitter-graph
