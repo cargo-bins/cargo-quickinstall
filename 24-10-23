@@ -68,3 +68,4 @@ sea-orm-cli
 solana-remote-wallet
 graphql_client_cli
 nu
+diesel_cli
