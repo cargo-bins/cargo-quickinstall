@@ -30,3 +30,4 @@ oso
 cpp_demangle
 tendermint-abci
 coldsnap
+minicbor
