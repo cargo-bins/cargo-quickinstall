@@ -18,3 +18,4 @@ solana-validator
 re_query
 phf_generator
 pwasm-utils
+libbpf-cargo
