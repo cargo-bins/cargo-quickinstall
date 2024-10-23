@@ -33,3 +33,4 @@ ducc-sys
 typst-cli
 tree-sitter-cli
 solana-validator
+socketcan
