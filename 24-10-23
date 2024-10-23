@@ -18,3 +18,4 @@ solana-cli
 watchexec-cli
 zuse
 winpty-rs
+ducc-sys
