@@ -36,3 +36,4 @@ rkv
 nextest-filtering
 laminar
 borsh
+raw-cpuid
