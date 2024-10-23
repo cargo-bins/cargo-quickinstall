@@ -15,3 +15,4 @@ raw-cpuid
 wmi
 racer
 wol-rs
+winpty-rs
