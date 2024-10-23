@@ -37,3 +37,4 @@ sqlx-cli
 rustfmt-nightly
 sha1collisiondetection
 textplots
+diesel_cli
