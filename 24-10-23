@@ -3,3 +3,4 @@ wol-rs
 h3o
 minicbor
 nkeys
+dotenv
