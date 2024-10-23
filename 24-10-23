@@ -40,3 +40,4 @@ textplots
 diesel_cli
 dotenv
 cached-path
+honggfuzz
