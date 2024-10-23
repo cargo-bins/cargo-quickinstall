@@ -44,3 +44,4 @@ paperclip
 trunk
 java-locator
 winpty-rs
+py-spy
