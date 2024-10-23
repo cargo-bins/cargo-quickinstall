@@ -26,3 +26,4 @@ diesel_cli
 evcxr_repl
 solana-gossip
 winpty-rs
+parquet
