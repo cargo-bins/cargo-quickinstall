@@ -42,3 +42,4 @@ solana-validator
 cargo-lock
 ducc-sys
 rls-rustc
+rls-rustc
