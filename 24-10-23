@@ -5,3 +5,4 @@ minicbor
 nkeys
 dotenv
 tendermint-rpc
+parquet
