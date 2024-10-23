@@ -35,3 +35,4 @@ httpmock
 rls-rustc
 sqlx-cli
 rustfmt-nightly
+sha1collisiondetection
