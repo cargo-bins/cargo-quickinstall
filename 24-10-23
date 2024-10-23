@@ -51,3 +51,4 @@ pcu
 unic-langid-impl
 jless
 tree-sitter-graph
+rls-rustc
