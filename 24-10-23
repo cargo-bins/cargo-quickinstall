@@ -22,3 +22,4 @@ libbpf-cargo
 solana-gossip
 pwasm-utils
 rkv
+textplots
