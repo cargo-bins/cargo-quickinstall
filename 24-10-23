@@ -46,3 +46,4 @@ rls-rustc
 deploy
 wmi
 apollo-router
+solana-cli
