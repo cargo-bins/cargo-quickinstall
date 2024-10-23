@@ -29,3 +29,4 @@ solana-validator
 minicbor
 honggfuzz
 laminar
+winpty-rs
