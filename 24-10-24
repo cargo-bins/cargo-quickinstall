@@ -4,3 +4,4 @@ clippy
 solana-cli
 apollo-router
 binstall
+sqlx-cli
