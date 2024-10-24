@@ -36,3 +36,4 @@ rls-rustc
 racer
 nextest-filtering
 hurl
+cargo-lock
