@@ -12,3 +12,4 @@ spider_cli
 diesel_cli
 tree-sitter-cli
 graphql_client_cli
+phoenix-cli
