@@ -5,3 +5,4 @@ solana-cli
 apollo-router
 binstall
 sqlx-cli
+cpp_demangle
