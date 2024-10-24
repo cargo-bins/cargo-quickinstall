@@ -40,3 +40,4 @@ cargo-lock
 minicbor
 phf_generator
 oxipng
+nextest-filtering
