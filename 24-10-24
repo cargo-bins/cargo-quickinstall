@@ -16,3 +16,4 @@ cargo-local-registry
 parquet
 paperclip
 parquet
+diesel_cli
