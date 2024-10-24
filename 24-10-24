@@ -39,3 +39,4 @@ hurl
 cargo-lock
 minicbor
 phf_generator
+oxipng
