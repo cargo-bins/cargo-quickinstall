@@ -9,3 +9,4 @@ clippy
 tendermint-abci
 winpty-rs
 borsh
+addr2line
