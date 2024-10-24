@@ -16,3 +16,4 @@ minicbor
 unic-langid-impl
 tree-sitter-graph
 parquet
+socketcan
