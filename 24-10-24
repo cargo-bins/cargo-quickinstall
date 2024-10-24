@@ -38,3 +38,4 @@ nextest-filtering
 hurl
 cargo-lock
 minicbor
+phf_generator
