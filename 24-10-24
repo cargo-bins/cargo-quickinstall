@@ -5,3 +5,4 @@ addr2line
 pcu
 rustfmt-nightly
 tendermint-abci
+pwasm-utils
