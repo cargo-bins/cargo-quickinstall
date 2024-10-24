@@ -66,3 +66,4 @@ textplots
 trunk
 libbpf-cargo
 raw-cpuid
+wol-rs
