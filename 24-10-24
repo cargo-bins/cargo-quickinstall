@@ -2,3 +2,4 @@ raw-cpuid
 cargo-outdated
 sha1collisiondetection
 cargo-outdated
+cargo-codspeed
