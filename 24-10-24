@@ -35,3 +35,4 @@ solana-gossip
 borsh
 dotenv
 oso
+solana-cli
