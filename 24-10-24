@@ -4,3 +4,4 @@ bluetui
 addr2line
 pcu
 rustfmt-nightly
+tendermint-abci
