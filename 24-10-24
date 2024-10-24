@@ -25,3 +25,4 @@ httpmock
 racer
 wmi
 deno
+addr2line
