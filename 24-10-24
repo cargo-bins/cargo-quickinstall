@@ -20,3 +20,4 @@ socketcan
 unic-langid-impl
 nexmark
 socketcan
+rls-rustc
