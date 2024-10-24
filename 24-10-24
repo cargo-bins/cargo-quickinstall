@@ -8,3 +8,4 @@ sqlx-cli
 cpp_demangle
 rustfmt-nightly
 z3tracer
+rmesg
