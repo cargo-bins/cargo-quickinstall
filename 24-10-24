@@ -24,3 +24,4 @@ addr2line
 httpmock
 racer
 wmi
+deno
