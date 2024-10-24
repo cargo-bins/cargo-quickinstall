@@ -8,3 +8,4 @@ gitnow
 clippy
 tendermint-abci
 winpty-rs
+borsh
