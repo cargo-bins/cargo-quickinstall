@@ -48,3 +48,4 @@ graphql_client_cli
 libbpf-cargo
 nu
 a11ywatch_cli
+kdotool
