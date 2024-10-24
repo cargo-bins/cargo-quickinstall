@@ -2,3 +2,4 @@ diesel_cli
 nextest-filtering
 rrule
 solana-genesis
+rustfmt-nightly
