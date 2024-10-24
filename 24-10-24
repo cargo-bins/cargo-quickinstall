@@ -5,3 +5,4 @@ hurl
 tendermint-rpc
 nu_plugin_gstat
 clippy
+wmi
