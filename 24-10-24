@@ -2,3 +2,4 @@ phf_generator
 solana-keygen
 cargo-local-registry
 minicbor
+cargo-codspeed
