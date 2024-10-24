@@ -13,3 +13,4 @@ rkv
 libbpf-cargo
 cargo-quickbuild
 parquet
+socketcan
