@@ -28,3 +28,4 @@ unic-langid-impl
 solana-gossip
 py-spy
 rkv
+httpmock
