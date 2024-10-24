@@ -7,3 +7,4 @@ java-locator
 cargo-outdated
 cargo-codspeed
 cargo-local-registry
+tendermint-abci
