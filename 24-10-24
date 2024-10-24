@@ -5,3 +5,4 @@ dotenv
 winpty-rs
 skim
 racer
+solana-genesis
