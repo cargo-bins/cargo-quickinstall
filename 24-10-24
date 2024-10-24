@@ -6,3 +6,4 @@ cargo-codspeed
 cargo-lock
 cargo-udeps
 cargo-generate
+cargo-tarpaulin
