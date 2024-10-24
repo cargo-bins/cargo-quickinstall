@@ -14,3 +14,4 @@ libbpf-cargo
 cargo-quickbuild
 parquet
 socketcan
+racer
