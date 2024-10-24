@@ -19,3 +19,4 @@ apollo-router
 solana-cli
 cargo-codspeed
 a11ywatch_cli
+tauri-cli
