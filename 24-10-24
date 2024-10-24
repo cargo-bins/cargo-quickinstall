@@ -10,3 +10,4 @@ tendermint-abci
 winpty-rs
 borsh
 addr2line
+phf_generator
