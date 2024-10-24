@@ -18,3 +18,4 @@ paperclip
 parquet
 diesel_cli
 cargo-local-registry
+diesel_cli
