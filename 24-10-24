@@ -16,3 +16,4 @@ cargo-tarpaulin
 tauri-cli
 nu
 apollo-router
+solana-cli
