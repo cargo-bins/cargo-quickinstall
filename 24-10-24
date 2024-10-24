@@ -10,3 +10,4 @@ cargo-local-registry
 tendermint-abci
 apollo-router
 solana-gossip
+cargo-codspeed
