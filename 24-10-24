@@ -17,3 +17,4 @@ tauri-cli
 nu
 apollo-router
 solana-cli
+cargo-codspeed
