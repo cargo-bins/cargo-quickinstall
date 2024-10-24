@@ -49,3 +49,4 @@ libbpf-cargo
 nu
 a11ywatch_cli
 kdotool
+pwasm-utils
