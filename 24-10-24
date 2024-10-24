@@ -21,3 +21,4 @@ ducc-sys
 trunk
 java-locator
 addr2line
+httpmock
