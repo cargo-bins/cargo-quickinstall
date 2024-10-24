@@ -12,3 +12,4 @@ rmesg
 honggfuzz
 nkeys
 solana-cli
+cargo-local-registry
