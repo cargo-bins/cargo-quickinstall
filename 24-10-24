@@ -10,3 +10,4 @@ dotenvy
 racer
 cargo-generate
 papyrus_storage
+addr2line
