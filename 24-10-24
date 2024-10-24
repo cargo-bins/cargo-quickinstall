@@ -37,3 +37,4 @@ racer
 nextest-filtering
 hurl
 cargo-lock
+minicbor
