@@ -10,3 +10,4 @@ rustfmt-nightly
 z3tracer
 rmesg
 honggfuzz
+nkeys
