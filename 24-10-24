@@ -22,3 +22,4 @@ tree-sitter-cli
 hurl
 re_query
 arrow-flight
+remove_dir_all
