@@ -5,3 +5,4 @@ solana-verify
 diesel_cli
 a11ywatch_cli
 ducc-sys
+cargo-lock
