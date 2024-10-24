@@ -54,3 +54,4 @@ opencv-binding-generator
 winpty-rs
 termusic
 pgrx-tests
+unic-langid-impl
