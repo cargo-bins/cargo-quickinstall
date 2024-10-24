@@ -9,3 +9,4 @@ cargo-espflash
 minicbor
 nkeys
 tendermint-rpc
+nextsv
