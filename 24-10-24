@@ -1,3 +1,4 @@
 libbpf-cargo
 winpty-rs
 bluetui
+addr2line
