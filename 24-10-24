@@ -3,3 +3,4 @@ cargo-lock
 arrow-flight
 solana-verify
 diesel_cli
+a11ywatch_cli
