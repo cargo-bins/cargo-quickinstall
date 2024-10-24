@@ -21,3 +21,4 @@ nkeys
 mise
 nextest-filtering
 libbpf-cargo
+raw-cpuid
