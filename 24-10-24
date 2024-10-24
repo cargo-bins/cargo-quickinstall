@@ -12,3 +12,4 @@ borsh
 addr2line
 phf_generator
 apollo-router
+minicbor
