@@ -22,3 +22,4 @@ nexmark
 socketcan
 rls-rustc
 gitnow
+minicbor
