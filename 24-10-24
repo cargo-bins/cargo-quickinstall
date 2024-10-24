@@ -8,3 +8,4 @@ cargo-udeps
 cargo-generate
 cargo-tarpaulin
 cargo-tarpaulin
+cargo-outdated
