@@ -3,3 +3,4 @@ nextest-filtering
 rrule
 solana-genesis
 rustfmt-nightly
+human_name
