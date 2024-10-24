@@ -17,3 +17,4 @@ re_query
 graphql_client_cli
 httpmock
 wol-rs
+nkeys
