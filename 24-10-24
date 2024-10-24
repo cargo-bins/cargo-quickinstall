@@ -51,3 +51,4 @@ a11ywatch_cli
 kdotool
 pwasm-utils
 opencv-binding-generator
+winpty-rs
