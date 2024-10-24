@@ -14,3 +14,4 @@ phf_generator
 apollo-router
 minicbor
 unic-langid-impl
+tree-sitter-graph
