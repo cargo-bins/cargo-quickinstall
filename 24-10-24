@@ -14,3 +14,4 @@ addr2line
 rmesg
 arrow-flight
 apollo-router
+human_bytes
