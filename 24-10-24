@@ -15,3 +15,4 @@ cargo-quickbuild
 parquet
 socketcan
 racer
+textplots
