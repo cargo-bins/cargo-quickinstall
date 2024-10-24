@@ -10,3 +10,4 @@ graphql_client_cli
 hurl
 spider_cli
 diesel_cli
+tree-sitter-cli
