@@ -6,3 +6,4 @@ cargo-codspeed
 java-locator
 cargo-outdated
 cargo-codspeed
+cargo-local-registry
