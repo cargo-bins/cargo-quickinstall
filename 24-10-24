@@ -4,3 +4,4 @@ sha1collisiondetection
 cargo-outdated
 cargo-codspeed
 cargo-lock
+cargo-udeps
