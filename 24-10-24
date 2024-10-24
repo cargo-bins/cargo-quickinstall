@@ -43,3 +43,4 @@ java-locator
 wmi
 pwasm-utils
 solana-cli
+cached-path
