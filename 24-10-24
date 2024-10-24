@@ -44,3 +44,4 @@ wmi
 pwasm-utils
 solana-cli
 cached-path
+graphql_client_cli
