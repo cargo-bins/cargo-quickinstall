@@ -35,3 +35,4 @@ spider_cli
 rls-rustc
 racer
 nextest-filtering
+hurl
