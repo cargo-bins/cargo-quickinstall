@@ -33,3 +33,4 @@ nexmark
 a11ywatch_cli
 solana-gossip
 borsh
+dotenv
