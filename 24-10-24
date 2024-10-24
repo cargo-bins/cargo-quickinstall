@@ -20,3 +20,4 @@ wol-rs
 nkeys
 mise
 nextest-filtering
+libbpf-cargo
