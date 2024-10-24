@@ -24,3 +24,4 @@ libbpf-cargo
 raw-cpuid
 graphql_client_cli
 tendermint-abci
+unic-langid-impl
