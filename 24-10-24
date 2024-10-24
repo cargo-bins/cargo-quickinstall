@@ -4,3 +4,4 @@ cargo-local-registry
 minicbor
 cargo-codspeed
 java-locator
+cargo-outdated
