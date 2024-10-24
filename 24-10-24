@@ -8,3 +8,4 @@ ducc-sys
 cargo-lock
 graphql_client_cli
 hurl
+spider_cli
