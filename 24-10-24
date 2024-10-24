@@ -7,3 +7,4 @@ a11ywatch_cli
 ducc-sys
 cargo-lock
 graphql_client_cli
+hurl
