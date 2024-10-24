@@ -3,3 +3,4 @@ winpty-rs
 bluetui
 addr2line
 pcu
+rustfmt-nightly
