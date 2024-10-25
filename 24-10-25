@@ -24,3 +24,4 @@ ducc-sys
 a11ywatch_cli
 diesel_cli
 tree-sitter-cli
+clippy
