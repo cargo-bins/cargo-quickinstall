@@ -6,3 +6,4 @@ opencv-binding-generator
 apollo-router
 cargo-outdated
 tauri-cli
+a11ywatch_cli
