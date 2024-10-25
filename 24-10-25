@@ -4,3 +4,4 @@ zuse
 dotenv
 arrow-flight
 raw-cpuid
+foundationdb-gen
