@@ -23,3 +23,4 @@ remove_dir_all
 hurl
 diesel_cli
 arrow-flight
+deno
