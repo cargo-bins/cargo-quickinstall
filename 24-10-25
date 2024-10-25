@@ -2,3 +2,4 @@ apollo-router
 tendermint-abci
 cargo-lock
 cargo-outdated
+opencv-binding-generator
