@@ -38,3 +38,4 @@ re_query
 socketcan
 sshx
 rustfmt-nightly
+rustrict
