@@ -18,3 +18,4 @@ protox
 dotenvy
 cargo-local-registry
 sqlx-cli
+apollo-router
