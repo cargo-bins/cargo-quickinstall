@@ -56,3 +56,4 @@ raw-cpuid
 solana-remote-wallet
 apollo-router
 socketcan
+phf_generator
