@@ -18,3 +18,4 @@ racer
 cached-path
 foundationdb-gen
 minicbor
+diesel_cli
