@@ -6,3 +6,4 @@ human_bytes
 deploy
 java-locator
 rustbus
+sha1collisiondetection
