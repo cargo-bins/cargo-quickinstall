@@ -20,3 +20,4 @@ protox
 borsh
 human_name
 minicbor
+sea-orm-cli
