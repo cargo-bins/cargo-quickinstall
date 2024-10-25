@@ -3,3 +3,4 @@ deploy
 zuse
 dotenv
 arrow-flight
+raw-cpuid
