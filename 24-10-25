@@ -45,3 +45,4 @@ socketcan
 rkv
 cargo-lock
 arrow-flight
+pwasm-utils
