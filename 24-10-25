@@ -21,3 +21,4 @@ sqlx-cli
 apollo-router
 schemafy
 addr2line
+sniffnet
