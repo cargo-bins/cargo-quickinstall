@@ -11,3 +11,4 @@ cargo-codspeed
 pgrx-tests
 cargo-tarpaulin
 a11ywatch_cli
+human_name
