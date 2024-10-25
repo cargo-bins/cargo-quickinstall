@@ -12,3 +12,4 @@ nextest-filtering
 opencv-binding-generator
 solana-verify
 starship
+dotenvy
