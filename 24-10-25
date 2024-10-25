@@ -60,3 +60,4 @@ phf_generator
 syd
 libbpf-cargo
 ducc-sys
+sea-orm-cli
