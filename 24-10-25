@@ -17,3 +17,4 @@ schemafy
 protox
 dotenvy
 cargo-local-registry
+sqlx-cli
