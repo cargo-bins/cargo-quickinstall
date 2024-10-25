@@ -44,3 +44,4 @@ snarkvm
 socketcan
 rkv
 cargo-lock
+arrow-flight
