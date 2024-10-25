@@ -58,3 +58,4 @@ apollo-router
 socketcan
 phf_generator
 syd
+libbpf-cargo
