@@ -32,3 +32,4 @@ cargo-local-registry
 pgrx-tests
 cargo-udeps
 cargo-lock
+textplots
