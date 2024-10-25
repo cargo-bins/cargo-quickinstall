@@ -45,3 +45,4 @@ syd
 borsh
 py-spy
 cargo-public-api
+raw-cpuid
