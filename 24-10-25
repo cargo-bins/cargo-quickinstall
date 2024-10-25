@@ -34,3 +34,4 @@ cargo-udeps
 cargo-lock
 textplots
 cargo-about
+cargo-local-registry
