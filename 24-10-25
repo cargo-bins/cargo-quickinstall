@@ -9,3 +9,4 @@ paperclip
 cargo-quickbuild
 nu_plugin_gstat
 czkawka_gui
+winpty-rs
