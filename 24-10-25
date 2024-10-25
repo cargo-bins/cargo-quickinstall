@@ -11,3 +11,4 @@ remove_dir_all
 cpp_demangle
 minicbor
 textplots
+borsh
