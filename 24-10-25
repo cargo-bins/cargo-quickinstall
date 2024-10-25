@@ -33,3 +33,4 @@ pgrx-tests
 cargo-udeps
 cargo-lock
 textplots
+cargo-about
