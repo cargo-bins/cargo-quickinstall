@@ -11,3 +11,4 @@ graphql_client_cli
 nextest-filtering
 opencv-binding-generator
 solana-verify
+starship
