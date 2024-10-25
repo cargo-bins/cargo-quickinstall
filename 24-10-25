@@ -29,3 +29,4 @@ apollo-router
 sqlx-cli
 cargo-generate
 cargo-local-registry
+pgrx-tests
