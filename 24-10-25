@@ -1,3 +1,4 @@
 deno
 socketcan
 human_bytes
+phf_generator
