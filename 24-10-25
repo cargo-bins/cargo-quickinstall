@@ -1,3 +1,4 @@
 apollo-router
 tendermint-abci
 cargo-lock
+cargo-outdated
