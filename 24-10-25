@@ -12,3 +12,4 @@ sccache
 cargo-outdated
 cargo-codspeed
 cargo-c
+cargo-about
