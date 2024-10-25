@@ -6,3 +6,4 @@ addr2line
 cached-path
 paperclip
 schematools-cli
+pwasm-utils
