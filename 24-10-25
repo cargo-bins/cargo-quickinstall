@@ -37,3 +37,4 @@ clippy
 re_query
 socketcan
 sshx
+rustfmt-nightly
