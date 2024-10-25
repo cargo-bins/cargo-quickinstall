@@ -13,3 +13,4 @@ tree-sitter-graph
 wol-rs
 dotenv
 pwasm-utils
+httpmock
