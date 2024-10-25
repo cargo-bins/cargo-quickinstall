@@ -7,3 +7,4 @@ deploy
 java-locator
 rustbus
 sha1collisiondetection
+remove_dir_all
