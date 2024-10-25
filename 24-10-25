@@ -48,3 +48,4 @@ cargo-public-api
 raw-cpuid
 tendermint-rpc
 schematools-cli
+libbpf-cargo
