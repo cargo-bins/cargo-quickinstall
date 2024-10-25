@@ -2,3 +2,4 @@ binstall
 laminar
 syd
 salvo-cli
+addr2line
