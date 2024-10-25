@@ -2,3 +2,4 @@ clippy
 wol-rs
 rustfmt-nightly
 czkawka_gui
+dotenvy
