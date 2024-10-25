@@ -27,3 +27,4 @@ clippy
 solana-keygen
 tree-sitter-cli
 pgrx-tests
+sha1collisiondetection
