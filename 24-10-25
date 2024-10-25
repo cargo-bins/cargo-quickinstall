@@ -10,3 +10,4 @@ rustfmt-nightly
 termusic
 apollo-router
 racer
+pwasm-utils
