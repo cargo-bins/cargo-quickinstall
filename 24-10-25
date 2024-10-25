@@ -65,3 +65,4 @@ typst-cli
 deploy
 winpty-rs
 mise
+cargo-public-api
