@@ -32,3 +32,4 @@ spider_cli
 solana-genesis
 human_name
 winpty-rs
+opencv-binding-generator
