@@ -3,3 +3,4 @@ deploy
 solana-genesis
 tendermint-rpc
 wmi
+dotenvy
