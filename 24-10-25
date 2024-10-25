@@ -33,3 +33,4 @@ human_bytes
 hurl
 rls-rustc
 rav1e
+tree-sitter-graph
