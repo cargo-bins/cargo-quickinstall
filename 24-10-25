@@ -24,3 +24,4 @@ addr2line
 sniffnet
 minicbor
 phf_generator
+rustfmt-nightly
