@@ -52,3 +52,4 @@ libbpf-cargo
 schematools-cli
 deploy
 arrow-flight
+raw-cpuid
