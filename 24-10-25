@@ -2,3 +2,4 @@ rls-rustc
 deploy
 solana-genesis
 tendermint-rpc
+wmi
