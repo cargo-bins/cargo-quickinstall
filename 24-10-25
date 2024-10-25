@@ -21,3 +21,4 @@ minicbor
 diesel_cli
 cargo-udeps
 ducc-sys
+a11ywatch_cli
