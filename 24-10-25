@@ -10,3 +10,4 @@ a11ywatch_cli
 cargo-tarpaulin
 sccache
 cargo-outdated
+cargo-codspeed
