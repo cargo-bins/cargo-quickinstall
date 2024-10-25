@@ -36,3 +36,4 @@ rav1e
 tree-sitter-graph
 nextest-filtering
 re_query
+winpty-rs
