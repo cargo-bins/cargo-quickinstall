@@ -14,3 +14,4 @@ solana-verify
 starship
 dotenvy
 cached-path
+httpmock
