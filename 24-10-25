@@ -35,3 +35,4 @@ binstall
 rls-rustc
 clippy
 re_query
+socketcan
