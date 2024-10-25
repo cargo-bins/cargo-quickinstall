@@ -12,3 +12,4 @@ clipboard-history
 tree-sitter-graph
 wol-rs
 dotenv
+pwasm-utils
