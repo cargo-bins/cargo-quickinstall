@@ -61,3 +61,4 @@ syd
 libbpf-cargo
 ducc-sys
 sea-orm-cli
+typst-cli
