@@ -26,3 +26,4 @@ diesel_cli
 tree-sitter-cli
 clippy
 apollo-router
+sqlx-cli
