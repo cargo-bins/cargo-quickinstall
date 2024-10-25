@@ -9,3 +9,4 @@ papyrus_storage
 atuin
 tendermint-abci
 clipboard-history
+tree-sitter-graph
