@@ -36,3 +36,4 @@ textplots
 cargo-about
 cargo-local-registry
 cargo-c
+sccache
