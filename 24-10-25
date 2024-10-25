@@ -2,3 +2,4 @@ raw-cpuid
 pwasm-utils
 phf_generator
 nkeys
+human_bytes
