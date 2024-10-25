@@ -50,3 +50,4 @@ tendermint-rpc
 schematools-cli
 libbpf-cargo
 schematools-cli
+deploy
