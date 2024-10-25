@@ -33,3 +33,4 @@ remove_dir_all
 vayu
 binstall
 rls-rustc
+clippy
