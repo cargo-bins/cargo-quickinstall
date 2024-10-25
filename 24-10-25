@@ -63,3 +63,4 @@ ducc-sys
 sea-orm-cli
 typst-cli
 deploy
+winpty-rs
