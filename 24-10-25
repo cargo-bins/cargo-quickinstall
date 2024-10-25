@@ -20,3 +20,4 @@ cargo-local-registry
 sqlx-cli
 apollo-router
 schemafy
+addr2line
