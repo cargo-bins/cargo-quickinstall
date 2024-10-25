@@ -7,3 +7,4 @@ raw-cpuid
 foundationdb-gen
 hurl
 solana-genesis
+graphql_client_cli
