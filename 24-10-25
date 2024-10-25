@@ -36,3 +36,4 @@ rls-rustc
 clippy
 re_query
 socketcan
+sshx
