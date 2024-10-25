@@ -9,3 +9,4 @@ oso
 solana-genesis
 cargo-codspeed
 pgrx-tests
+cargo-tarpaulin
