@@ -10,3 +10,4 @@ sha1collisiondetection
 remove_dir_all
 cpp_demangle
 minicbor
+textplots
