@@ -11,3 +11,4 @@ cargo-tarpaulin
 sccache
 cargo-outdated
 cargo-codspeed
+cargo-c
