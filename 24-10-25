@@ -59,3 +59,4 @@ socketcan
 phf_generator
 syd
 libbpf-cargo
+ducc-sys
