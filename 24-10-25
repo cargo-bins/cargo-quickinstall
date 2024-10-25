@@ -19,3 +19,4 @@ cached-path
 foundationdb-gen
 minicbor
 diesel_cli
+cargo-udeps
