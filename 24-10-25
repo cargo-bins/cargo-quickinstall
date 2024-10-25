@@ -49,3 +49,4 @@ raw-cpuid
 tendermint-rpc
 schematools-cli
 libbpf-cargo
+schematools-cli
