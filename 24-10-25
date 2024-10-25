@@ -14,3 +14,4 @@ pwasm-utils
 solana-cli
 z3tracer
 raw-cpuid
+tendermint-abci
