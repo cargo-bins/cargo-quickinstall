@@ -12,3 +12,4 @@ solana-cli
 solana-genesis
 solana-validator
 unic-langid-impl
+dotenvy
