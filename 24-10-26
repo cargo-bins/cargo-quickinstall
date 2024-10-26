@@ -40,3 +40,4 @@ solana-genesis
 solana-validator
 human_name
 clippy
+tree-sitter-graph
