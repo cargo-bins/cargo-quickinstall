@@ -15,3 +15,4 @@ rustrict
 skim
 remove_dir_all
 addr2line
+benfred-read-process-memory
