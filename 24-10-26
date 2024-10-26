@@ -3,3 +3,4 @@ rls-rustc
 cpp_demangle
 unic-langid-impl
 cargo-espflash
+dotenvy
