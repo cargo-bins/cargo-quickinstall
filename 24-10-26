@@ -53,3 +53,4 @@ cargo-c
 pwasm-utils
 paperclip
 arrow-flight
+diesel_cli
