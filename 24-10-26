@@ -58,3 +58,4 @@ tendermint-rpc
 solana-keygen
 rkv
 schemafy
+addr2line
