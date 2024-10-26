@@ -52,3 +52,4 @@ schemafy
 textplots
 remove_dir_all
 rustfmt-nightly
+wmi
