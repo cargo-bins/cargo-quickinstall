@@ -49,3 +49,4 @@ coldsnap
 solana-genesis
 tendermint-rpc
 socketcan
+remove_dir_all
