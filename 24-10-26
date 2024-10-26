@@ -21,3 +21,4 @@ solana-validator
 remove_dir_all
 pcu
 oso
+graphql_client_cli
