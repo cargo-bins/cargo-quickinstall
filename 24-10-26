@@ -8,3 +8,4 @@ rrule
 racer
 spider_cli
 rustfmt-nightly
+rls-rustc
