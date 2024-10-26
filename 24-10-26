@@ -13,3 +13,4 @@ cargo-local-registry
 rls-rustc
 rustrict
 skim
+remove_dir_all
