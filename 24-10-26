@@ -18,3 +18,4 @@ rustfmt-nightly
 schemafy
 human_bytes
 parquet
+solana-cli
