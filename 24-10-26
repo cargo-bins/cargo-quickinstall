@@ -8,3 +8,4 @@ clippy
 human_bytes
 opencv-binding-generator
 cargo-lock
+phoenix-cli
