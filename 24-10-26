@@ -12,3 +12,4 @@ nextest-filtering
 dotenvy
 httpmock
 rmesg
+human_bytes
