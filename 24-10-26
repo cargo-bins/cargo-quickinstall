@@ -28,3 +28,4 @@ cargo-generate
 rkv
 git-mit-config
 nexmark
+diesel_cli
