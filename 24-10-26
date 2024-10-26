@@ -7,3 +7,4 @@ solana-genesis
 rrule
 racer
 spider_cli
+rustfmt-nightly
