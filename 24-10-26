@@ -20,3 +20,4 @@ protox
 opencv-binding-generator
 clipboard-history
 solana-cli
+sea-orm-cli
