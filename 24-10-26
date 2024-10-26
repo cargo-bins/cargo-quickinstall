@@ -45,3 +45,4 @@ phf_generator
 cargo-public-api
 salvo-cli
 arrow-flight
+solana-stake-accounts
