@@ -10,3 +10,4 @@ rustfmt-nightly
 solana-genesis
 pgrx-tests
 cargo-c
+cargo-udeps
