@@ -48,3 +48,4 @@ solana-genesis
 coldsnap
 solana-genesis
 tendermint-rpc
+socketcan
