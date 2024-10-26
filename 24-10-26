@@ -20,3 +20,4 @@ cargo-lock
 solana-genesis
 ducc-sys
 skim
+oso
