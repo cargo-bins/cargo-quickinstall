@@ -1,3 +1,4 @@
 cargo-lock
 graphql_client_cli
 tree-sitter-graph
+rkv
