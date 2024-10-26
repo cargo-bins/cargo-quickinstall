@@ -36,3 +36,4 @@ solana-gossip
 tree-sitter-graph
 cargo-generate
 textplots
+pgrx-tests
