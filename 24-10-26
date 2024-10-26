@@ -33,3 +33,4 @@ solana-genesis
 git-mit-config
 binstall
 clippy
+cargo-generate
