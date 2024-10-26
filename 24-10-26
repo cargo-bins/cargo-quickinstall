@@ -26,3 +26,4 @@ libbpf-cargo
 ducc-sys
 addr2line
 spider_cli
+solana-stake-accounts
