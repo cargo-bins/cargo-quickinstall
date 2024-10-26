@@ -10,3 +10,4 @@ arrow-flight
 winpty-rs
 solana-cli
 solana-genesis
+solana-validator
