@@ -64,3 +64,4 @@ cargo-generate
 cargo-udeps
 sea-orm-cli
 syd
+borsh
