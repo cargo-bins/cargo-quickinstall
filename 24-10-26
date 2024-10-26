@@ -30,3 +30,4 @@ git-mit-config
 nexmark
 diesel_cli
 cargo-tarpaulin
+sccache
