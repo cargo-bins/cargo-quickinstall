@@ -68,3 +68,4 @@ borsh
 sqlx-cli
 cargo-lock
 cargo-udeps
+foundationdb-gen
