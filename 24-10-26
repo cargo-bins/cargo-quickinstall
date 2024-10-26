@@ -62,3 +62,4 @@ tree-sitter-graph
 git-mit-config
 cargo-generate
 cargo-udeps
+sea-orm-cli
