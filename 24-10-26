@@ -6,3 +6,4 @@ wol-rs
 clippy
 addr2line
 tendermint-rpc
+rustfmt-nightly
