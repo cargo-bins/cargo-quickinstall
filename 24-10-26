@@ -36,3 +36,4 @@ pgrx-tests
 rustrict
 solana-gossip
 borsh
+remove_dir_all
