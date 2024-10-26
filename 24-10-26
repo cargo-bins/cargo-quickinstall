@@ -25,3 +25,4 @@ minicbor
 dotenv
 winpty-rs
 deno
+raw-cpuid
