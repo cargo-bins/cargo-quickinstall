@@ -32,3 +32,4 @@ nkeys
 solana-gossip
 borsh
 rkv
+pgrx-tests
