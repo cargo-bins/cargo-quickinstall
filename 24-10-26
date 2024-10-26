@@ -71,3 +71,4 @@ cargo-udeps
 foundationdb-gen
 cargo-lock
 cargo-tarpaulin
+git-mit-config
