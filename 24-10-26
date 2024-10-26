@@ -12,3 +12,4 @@ pgrx-tests
 cargo-c
 cargo-udeps
 cpp_demangle
+rustrict
