@@ -40,3 +40,4 @@ nextest-filtering
 re_query
 solana-stake-accounts
 tendermint-abci
+tendermint-rpc
