@@ -63,3 +63,4 @@ git-mit-config
 cargo-generate
 cargo-udeps
 sea-orm-cli
+syd
