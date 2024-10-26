@@ -57,3 +57,4 @@ diesel_cli
 ducc-sys
 winpty-rs
 zuse
+foundationdb-gen
