@@ -4,3 +4,4 @@ apollo-router
 honggfuzz
 tendermint-abci
 pwasm-utils
+wol-rs
