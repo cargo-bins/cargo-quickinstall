@@ -50,3 +50,4 @@ solana-validator
 human_name
 nextest-filtering
 cargo-c
+pwasm-utils
