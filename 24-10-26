@@ -25,3 +25,4 @@ graphql_client_cli
 cpp_demangle
 oxipng
 solana-gossip
+wol-rs
