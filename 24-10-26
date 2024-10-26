@@ -77,3 +77,4 @@ human_name
 tauri-cli
 foundationdb-gen
 dotenvy
+wol-rs
