@@ -61,3 +61,4 @@ schemafy
 addr2line
 protox
 rkv
+tree-sitter-cli
