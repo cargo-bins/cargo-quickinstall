@@ -19,3 +19,4 @@ cached-path
 wol-rs
 pgrx-tests
 cpp_demangle
+phf_generator
