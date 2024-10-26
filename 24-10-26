@@ -44,3 +44,4 @@ tendermint-rpc
 solana-genesis
 laminar
 tendermint-rpc
+spider_cli
