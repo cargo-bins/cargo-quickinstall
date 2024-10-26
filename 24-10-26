@@ -13,3 +13,4 @@ cargo-c
 cargo-udeps
 cpp_demangle
 rustrict
+human_bytes
