@@ -22,3 +22,4 @@ remove_dir_all
 pcu
 oso
 graphql_client_cli
+cpp_demangle
