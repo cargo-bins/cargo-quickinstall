@@ -65,3 +65,4 @@ cargo-udeps
 sea-orm-cli
 syd
 borsh
+sqlx-cli
