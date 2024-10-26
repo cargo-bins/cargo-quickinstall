@@ -31,3 +31,4 @@ pgrx-tests
 rkv
 rmesg
 clippy
+cargo-generate
