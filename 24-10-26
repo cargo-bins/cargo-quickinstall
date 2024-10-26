@@ -21,3 +21,4 @@ h3o
 deploy
 protox
 git-mit-config
+cargo-tarpaulin
