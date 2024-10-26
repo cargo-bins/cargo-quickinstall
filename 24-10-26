@@ -37,3 +37,4 @@ schematools-cli
 libbpf-cargo
 a11ywatch_cli
 oso
+remove_dir_all
