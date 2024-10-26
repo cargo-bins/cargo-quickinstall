@@ -6,3 +6,4 @@ tendermint-abci
 pwasm-utils
 wol-rs
 arrow-flight
+papyrus_storage
