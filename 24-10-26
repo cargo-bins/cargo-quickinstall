@@ -27,3 +27,4 @@ phf_generator
 cargo-lock
 paperclip
 solana-genesis
+pgrx-tests
