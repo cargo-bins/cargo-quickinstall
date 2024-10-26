@@ -37,3 +37,4 @@ apollo-router
 cargo-generate
 sccache
 remove_dir_all
+rkv
