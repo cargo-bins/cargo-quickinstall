@@ -80,3 +80,4 @@ dotenvy
 wol-rs
 parquet
 py-spy
+human_bytes
