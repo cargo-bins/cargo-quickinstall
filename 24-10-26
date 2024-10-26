@@ -85,3 +85,4 @@ libbpf-cargo
 git-mit-config
 winpty-rs
 laminar
+wol-rs
