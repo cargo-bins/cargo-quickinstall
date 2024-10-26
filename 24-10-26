@@ -37,3 +37,4 @@ tree-sitter-graph
 cargo-generate
 textplots
 pgrx-tests
+rmesg
