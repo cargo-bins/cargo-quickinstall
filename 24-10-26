@@ -22,3 +22,4 @@ deploy
 protox
 git-mit-config
 cargo-tarpaulin
+arrow-flight
