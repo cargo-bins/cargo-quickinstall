@@ -46,3 +46,4 @@ sha1collisiondetection
 racer
 solana-stake-accounts
 cargo-generate
+solana-validator
