@@ -22,3 +22,4 @@ ducc-sys
 skim
 oso
 rustfmt
+cargo-generate
