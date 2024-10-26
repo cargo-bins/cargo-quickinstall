@@ -52,3 +52,4 @@ nextest-filtering
 cargo-c
 pwasm-utils
 paperclip
+arrow-flight
