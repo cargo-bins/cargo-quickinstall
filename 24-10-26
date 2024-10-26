@@ -38,3 +38,4 @@ cargo-generate
 sccache
 remove_dir_all
 rkv
+solana-keygen
