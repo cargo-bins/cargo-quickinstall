@@ -50,3 +50,4 @@ nexmark
 nextest-filtering
 schemafy
 textplots
+remove_dir_all
