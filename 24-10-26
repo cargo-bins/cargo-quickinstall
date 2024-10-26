@@ -73,3 +73,4 @@ cargo-lock
 cargo-tarpaulin
 git-mit-config
 cargo-c
+human_name
