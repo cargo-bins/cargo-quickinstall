@@ -32,3 +32,4 @@ cargo-local-registry
 solana-genesis
 git-mit-config
 binstall
+clippy
