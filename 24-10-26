@@ -24,3 +24,4 @@ git-mit-config
 cargo-tarpaulin
 arrow-flight
 borsh
+cargo-generate
