@@ -54,3 +54,4 @@ solana-genesis
 salvo-cli
 qrtool
 mdcat
+cargo-public-api
