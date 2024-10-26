@@ -22,3 +22,4 @@ solana-gossip
 laminar
 clippy
 rustfmt-nightly
+re_query
