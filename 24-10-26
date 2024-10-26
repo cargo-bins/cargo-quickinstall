@@ -2,3 +2,4 @@ tendermint-abci
 z3tracer
 pwasm-utils
 ducc-sys
+diesel_cli
