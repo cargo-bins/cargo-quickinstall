@@ -4,3 +4,4 @@ rustbus
 opencv-binding-generator
 clippy
 re_query
+sn_node
