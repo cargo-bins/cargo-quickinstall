@@ -33,3 +33,4 @@ solana-gossip
 borsh
 rkv
 pgrx-tests
+rustrict
