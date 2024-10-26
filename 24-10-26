@@ -54,3 +54,4 @@ remove_dir_all
 rustfmt-nightly
 wmi
 cargo-lock
+borsh
