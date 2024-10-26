@@ -13,3 +13,4 @@ nexmark
 cargo-lock
 oculante
 spider_worker
+httpmock
