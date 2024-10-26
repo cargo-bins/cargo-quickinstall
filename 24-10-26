@@ -38,3 +38,4 @@ cargo-generate
 textplots
 pgrx-tests
 rmesg
+z3tracer
