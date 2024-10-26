@@ -11,3 +11,4 @@ exa
 rmesg
 cargo-local-registry
 rls-rustc
+rustrict
