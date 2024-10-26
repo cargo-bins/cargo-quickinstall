@@ -19,3 +19,4 @@ benfred-read-process-memory
 cargo-lock
 solana-genesis
 ducc-sys
+skim
