@@ -10,3 +10,4 @@ opencv-binding-generator
 cargo-lock
 phoenix-cli
 librespot
+oxipng
