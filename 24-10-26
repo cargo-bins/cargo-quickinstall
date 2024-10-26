@@ -83,3 +83,4 @@ py-spy
 human_bytes
 libbpf-cargo
 git-mit-config
+winpty-rs
