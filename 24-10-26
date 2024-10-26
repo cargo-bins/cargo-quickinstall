@@ -60,3 +60,4 @@ zuse
 foundationdb-gen
 tree-sitter-graph
 git-mit-config
+cargo-generate
