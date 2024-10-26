@@ -25,3 +25,4 @@ rustfmt
 cargo-generate
 phf_generator
 cargo-lock
+paperclip
