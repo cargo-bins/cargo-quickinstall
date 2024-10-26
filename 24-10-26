@@ -51,3 +51,4 @@ tendermint-rpc
 socketcan
 remove_dir_all
 phf_generator
+rmesg
