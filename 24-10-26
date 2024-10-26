@@ -32,3 +32,4 @@ rkv
 rmesg
 clippy
 cargo-generate
+solana-gossip
