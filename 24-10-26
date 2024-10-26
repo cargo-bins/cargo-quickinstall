@@ -79,3 +79,4 @@ foundationdb-gen
 dotenvy
 wol-rs
 parquet
+py-spy
