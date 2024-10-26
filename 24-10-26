@@ -14,3 +14,4 @@ papyrus_storage
 git-mit-config
 cargo-c
 h3o
+rls-rustc
