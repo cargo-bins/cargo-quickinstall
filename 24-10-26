@@ -40,3 +40,4 @@ oso
 remove_dir_all
 tendermint-rpc
 addr2line
+spider_cli
