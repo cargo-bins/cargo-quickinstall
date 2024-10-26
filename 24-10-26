@@ -40,3 +40,4 @@ remove_dir_all
 rkv
 solana-keygen
 wmi
+human_bytes
