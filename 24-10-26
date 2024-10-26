@@ -76,3 +76,4 @@ cargo-c
 human_name
 tauri-cli
 foundationdb-gen
+dotenvy
