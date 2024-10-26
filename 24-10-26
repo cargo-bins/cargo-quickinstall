@@ -10,3 +10,4 @@ cavif
 opencv-binding-generator
 dotenv
 solana-genesis
+raw-cpuid
