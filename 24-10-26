@@ -55,3 +55,4 @@ rustfmt-nightly
 wmi
 cargo-lock
 borsh
+sha1collisiondetection
