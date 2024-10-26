@@ -23,3 +23,4 @@ phf_generator
 winpty-rs
 tendermint-rpc
 libbpf-cargo
+ducc-sys
