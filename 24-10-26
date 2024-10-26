@@ -58,3 +58,4 @@ borsh
 sha1collisiondetection
 foundationdb-gen
 minicbor
+snarkvm
