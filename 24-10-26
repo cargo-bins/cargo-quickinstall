@@ -8,3 +8,4 @@ jless
 shadowsocks-rust
 mdbook-plantuml
 vayu
+addr2line
