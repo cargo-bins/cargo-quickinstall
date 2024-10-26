@@ -34,3 +34,4 @@ rls-rustc
 gitnow
 diesel_cli
 sha1collisiondetection
+cargo-lock
