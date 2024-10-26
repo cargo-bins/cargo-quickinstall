@@ -20,3 +20,4 @@ wol-rs
 pgrx-tests
 cpp_demangle
 phf_generator
+winpty-rs
