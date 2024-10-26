@@ -35,3 +35,4 @@ nexmark
 nkeys
 apollo-router
 cargo-generate
+sccache
