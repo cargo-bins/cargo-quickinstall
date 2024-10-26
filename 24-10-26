@@ -16,3 +16,4 @@ gitnow
 solana-cli
 rustfmt-nightly
 schemafy
+human_bytes
