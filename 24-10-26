@@ -1,3 +1,4 @@
 sea-orm-cli
 rls-rustc
 cpp_demangle
+unic-langid-impl
