@@ -25,3 +25,4 @@ cargo-tarpaulin
 arrow-flight
 borsh
 cargo-generate
+rkv
