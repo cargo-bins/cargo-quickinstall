@@ -58,3 +58,4 @@ ducc-sys
 winpty-rs
 zuse
 foundationdb-gen
+tree-sitter-graph
