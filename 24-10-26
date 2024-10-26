@@ -14,3 +14,4 @@ rls-rustc
 rustrict
 skim
 remove_dir_all
+addr2line
