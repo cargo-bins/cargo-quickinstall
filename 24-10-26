@@ -21,3 +21,4 @@ solana-genesis
 ducc-sys
 skim
 oso
+rustfmt
