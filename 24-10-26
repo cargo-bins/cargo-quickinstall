@@ -35,3 +35,4 @@ winpty-rs
 cpp_demangle
 schematools-cli
 libbpf-cargo
+a11ywatch_cli
