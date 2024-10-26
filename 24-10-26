@@ -10,3 +10,4 @@ spider_cli
 rustfmt-nightly
 rls-rustc
 nu
+papyrus_storage
