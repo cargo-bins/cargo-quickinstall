@@ -56,3 +56,4 @@ parquet
 java-locator
 tendermint-rpc
 solana-keygen
+rkv
