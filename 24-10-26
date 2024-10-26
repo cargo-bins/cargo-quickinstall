@@ -57,3 +57,4 @@ cargo-lock
 borsh
 sha1collisiondetection
 foundationdb-gen
+minicbor
