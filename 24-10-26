@@ -35,3 +35,4 @@ binstall
 clippy
 cargo-generate
 git-mit-config
+z3tracer
