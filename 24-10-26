@@ -28,3 +28,4 @@ cargo-lock
 paperclip
 solana-genesis
 pgrx-tests
+rkv
