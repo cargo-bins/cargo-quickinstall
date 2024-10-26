@@ -5,3 +5,4 @@ honggfuzz
 tendermint-abci
 pwasm-utils
 wol-rs
+arrow-flight
