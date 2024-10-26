@@ -26,3 +26,4 @@ cargo-generate
 phf_generator
 cargo-lock
 paperclip
+solana-genesis
