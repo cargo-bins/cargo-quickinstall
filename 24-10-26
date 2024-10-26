@@ -28,3 +28,4 @@ rrule
 java-locator
 addr2line
 pgrx-tests
+cargo-local-registry
