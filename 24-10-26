@@ -15,3 +15,4 @@ rmesg
 human_bytes
 git-mit-config
 apollo-router
+cargo-lock
