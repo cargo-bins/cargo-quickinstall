@@ -13,3 +13,4 @@ solana-genesis
 solana-validator
 unic-langid-impl
 dotenvy
+addr2line
