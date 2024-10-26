@@ -31,3 +31,4 @@ diesel_cli
 opencv-binding-generator
 minicbor
 clippy
+nexmark
