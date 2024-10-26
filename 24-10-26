@@ -29,3 +29,4 @@ spider_cli
 solana-stake-accounts
 diesel_cli
 opencv-binding-generator
+minicbor
