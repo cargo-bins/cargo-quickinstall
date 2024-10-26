@@ -39,3 +39,4 @@ spider_worker
 nextest-filtering
 re_query
 solana-stake-accounts
+tendermint-abci
