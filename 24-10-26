@@ -66,3 +66,4 @@ sea-orm-cli
 syd
 borsh
 sqlx-cli
+cargo-lock
