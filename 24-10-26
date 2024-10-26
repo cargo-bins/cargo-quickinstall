@@ -7,3 +7,4 @@ clippy
 addr2line
 tendermint-rpc
 rustfmt-nightly
+solana-genesis
