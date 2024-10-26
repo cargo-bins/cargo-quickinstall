@@ -47,3 +47,4 @@ pgrx-tests
 solana-genesis
 coldsnap
 solana-genesis
+tendermint-rpc
