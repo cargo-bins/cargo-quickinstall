@@ -21,3 +21,4 @@ parquet
 solana-cli
 tendermint-abci
 nkeys
+sha1collisiondetection
