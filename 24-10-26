@@ -24,3 +24,4 @@ dotenv
 re_query
 parquet
 java-locator
+nextest-filtering
