@@ -67,3 +67,4 @@ syd
 borsh
 sqlx-cli
 cargo-lock
+cargo-udeps
