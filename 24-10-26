@@ -4,3 +4,4 @@ racer
 laminar
 wol-rs
 clippy
+addr2line
