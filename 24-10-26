@@ -15,3 +15,4 @@ human_bytes
 z3tracer
 paperclip
 cpp_demangle
+pwasm-utils
