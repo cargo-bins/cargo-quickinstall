@@ -25,3 +25,4 @@ sha1collisiondetection
 opencv-binding-generator
 apollo-router
 foundationdb-gen
+deno
