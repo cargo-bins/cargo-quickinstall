@@ -53,3 +53,4 @@ remove_dir_all
 phf_generator
 rmesg
 exa
+remove_dir_all
