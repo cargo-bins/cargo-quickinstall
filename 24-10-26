@@ -51,3 +51,4 @@ nextest-filtering
 schemafy
 textplots
 remove_dir_all
+rustfmt-nightly
