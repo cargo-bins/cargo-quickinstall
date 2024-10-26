@@ -24,3 +24,4 @@ winpty-rs
 tendermint-rpc
 libbpf-cargo
 ducc-sys
+addr2line
