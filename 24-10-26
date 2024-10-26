@@ -48,3 +48,4 @@ diesel_cli
 solana-gossip
 borsh
 release
+oso
