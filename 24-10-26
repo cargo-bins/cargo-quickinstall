@@ -21,3 +21,4 @@ git-mit-config
 solana-gossip
 laminar
 clippy
+rustfmt-nightly
