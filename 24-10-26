@@ -41,3 +41,4 @@ re_query
 solana-stake-accounts
 tendermint-abci
 tendermint-rpc
+solana-genesis
