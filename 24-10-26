@@ -47,3 +47,4 @@ tendermint-rpc
 spider_cli
 paperclip
 nexmark
+nextest-filtering
