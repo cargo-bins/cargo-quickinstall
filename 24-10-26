@@ -42,3 +42,4 @@ tendermint-rpc
 addr2line
 spider_cli
 oculante
+typst-cli
