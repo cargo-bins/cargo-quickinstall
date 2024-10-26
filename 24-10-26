@@ -54,3 +54,4 @@ pwasm-utils
 paperclip
 arrow-flight
 diesel_cli
+ducc-sys
