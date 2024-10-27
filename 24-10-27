@@ -37,3 +37,4 @@ rkv
 deploy
 minicbor
 tree-sitter-graph
+sea-orm-cli
