@@ -83,3 +83,4 @@ borsh
 librespot
 sccache
 tree-sitter-graph
+pwasm-utils
