@@ -50,3 +50,4 @@ rkv
 sea-orm-cli
 nu
 re_query
+tendermint-abci
