@@ -14,3 +14,4 @@ tendermint-rpc
 spider_cli
 pgrx-tests
 evcxr_repl
+solana-genesis
