@@ -23,3 +23,4 @@ libbpf-cargo
 cargo-lock
 minicbor
 libbpf-cargo
+sha1collisiondetection
