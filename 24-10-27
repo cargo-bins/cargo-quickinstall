@@ -36,3 +36,4 @@ human_bytes
 rkv
 deploy
 minicbor
+tree-sitter-graph
