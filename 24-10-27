@@ -1,3 +1,4 @@
 pgrx-tests
 remove_dir_all
 racer
+cargo-generate
