@@ -41,3 +41,4 @@ unic-langid-impl
 dotenv
 git-mit-config
 evcxr_repl
+cargo-c
