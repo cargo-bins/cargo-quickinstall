@@ -12,3 +12,4 @@ cargo-c
 snarkvm
 tendermint-rpc
 spider_cli
+pgrx-tests
