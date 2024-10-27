@@ -59,3 +59,4 @@ tendermint-abci
 wmi
 nextest-filtering
 nu
+httpmock
