@@ -30,3 +30,4 @@ raw-cpuid
 pwasm-utils
 dotenv
 foundationdb-gen
+re_query
