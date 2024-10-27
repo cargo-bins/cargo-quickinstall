@@ -96,3 +96,4 @@ re_query
 pwasm-utils
 racer
 clippy
+rls-rustc
