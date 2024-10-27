@@ -6,3 +6,4 @@ minicbor
 solana-genesis
 cargo-lock
 laminar
+rustfmt-nightly
