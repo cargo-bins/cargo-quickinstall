@@ -47,3 +47,4 @@ phf_generator
 libbpf-cargo
 syd
 tree-sitter-cli
+tree-sitter-graph
