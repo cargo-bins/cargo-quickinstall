@@ -60,3 +60,4 @@ httpmock
 parquet
 java-locator
 borsh
+schemafy
