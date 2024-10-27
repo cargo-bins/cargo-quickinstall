@@ -49,3 +49,4 @@ syd
 tree-sitter-cli
 tree-sitter-graph
 rrule
+sqlx-cli
