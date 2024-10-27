@@ -14,3 +14,4 @@ clippy
 opencv-binding-generator
 git-mit-config
 ec2_instance_metadata
+foundationdb-gen
