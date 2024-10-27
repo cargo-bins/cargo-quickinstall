@@ -26,3 +26,4 @@ httpmock
 cached-path
 snarkvm
 rls-rustc
+foundationdb-gen
