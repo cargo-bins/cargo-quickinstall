@@ -3,3 +3,4 @@ nkeys
 zuse
 socketcan
 tendermint-abci
+spider_worker
