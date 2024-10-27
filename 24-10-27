@@ -16,3 +16,4 @@ git-mit-config
 ec2_instance_metadata
 foundationdb-gen
 foundationdb-gen
+z3tracer
