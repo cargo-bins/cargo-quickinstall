@@ -30,3 +30,4 @@ cached-path
 cpp_demangle
 remove_dir_all
 addr2line
+nkeys
