@@ -60,3 +60,4 @@ deploy
 rustrict
 deploy
 tendermint-rpc
+cargo-generate
