@@ -27,3 +27,4 @@ socketcan
 nextest-filtering
 pwasm-utils
 arrow-flight
+wol-rs
