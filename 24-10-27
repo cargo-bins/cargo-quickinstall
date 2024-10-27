@@ -28,3 +28,4 @@ foundationdb-gen
 nextest-filtering
 raw-cpuid
 pwasm-utils
+dotenv
