@@ -24,3 +24,4 @@ remove_dir_all
 httpmock
 solana-genesis
 sccache
+foundationdb-gen
