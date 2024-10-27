@@ -72,3 +72,4 @@ rustfmt-nightly
 tree-sitter-graph
 wmi
 libbpf-cargo
+dotenv
