@@ -54,3 +54,4 @@ solana-stake-accounts
 solana-validator
 socketcan
 spider_worker
+addr2line
