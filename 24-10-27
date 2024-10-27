@@ -16,3 +16,4 @@ httpmock
 phf_generator
 nkeys
 clippy
+tree-sitter-graph
