@@ -14,3 +14,4 @@ pgrx-tests
 parquet
 opencv-binding-generator
 pwasm-utils
+solana-keygen
