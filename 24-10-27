@@ -8,3 +8,4 @@ socketcan
 minicbor
 nexmark
 solana-gossip
+tendermint-rpc
