@@ -27,3 +27,4 @@ cached-path
 snarkvm
 rls-rustc
 foundationdb-gen
+phf_generator
