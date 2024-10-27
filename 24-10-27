@@ -59,3 +59,4 @@ tendermint-abci
 deploy
 rustrict
 deploy
+tendermint-rpc
