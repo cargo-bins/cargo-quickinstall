@@ -25,3 +25,4 @@ httpmock
 solana-genesis
 sccache
 foundationdb-gen
+nextest-filtering
