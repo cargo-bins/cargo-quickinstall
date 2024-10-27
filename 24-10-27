@@ -37,3 +37,4 @@ libbpf-cargo
 oso
 parquet
 foundationdb-gen
+dotenvy
