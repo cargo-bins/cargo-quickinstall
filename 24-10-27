@@ -43,3 +43,4 @@ deploy
 syd
 tendermint-abci
 libbpf-cargo
+borsh
