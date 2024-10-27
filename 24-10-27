@@ -67,3 +67,4 @@ libbpf-cargo
 winpty-rs
 laminar
 pgrx-tests
+human_bytes
