@@ -26,3 +26,4 @@ pgrx-tests
 socketcan
 nextest-filtering
 pwasm-utils
+arrow-flight
