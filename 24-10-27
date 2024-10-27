@@ -13,3 +13,4 @@ ducc-sys
 pgrx-tests
 parquet
 opencv-binding-generator
+pwasm-utils
