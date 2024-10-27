@@ -13,3 +13,4 @@ diesel_cli
 cached-path
 sshx
 httpmock
+phf_generator
