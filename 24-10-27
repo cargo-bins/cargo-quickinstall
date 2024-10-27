@@ -13,3 +13,4 @@ remove_dir_all
 nexmark
 human_bytes
 cargo-lock
+cached-path
