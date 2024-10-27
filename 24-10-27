@@ -32,3 +32,4 @@ re_query
 dotenv
 deno
 sshx
+foundationdb-gen
