@@ -31,3 +31,4 @@ apollo-router
 solana-gossip
 nextest-filtering
 dotenvy
+raw-cpuid
