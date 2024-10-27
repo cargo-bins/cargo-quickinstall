@@ -68,3 +68,4 @@ winpty-rs
 laminar
 pgrx-tests
 human_bytes
+rustfmt-nightly
