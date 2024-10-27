@@ -67,3 +67,4 @@ evcxr_repl
 solana-gossip
 schemafy
 py-spy
+cpp_demangle
