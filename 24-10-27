@@ -84,3 +84,4 @@ librespot
 sccache
 tree-sitter-graph
 pwasm-utils
+human_bytes
