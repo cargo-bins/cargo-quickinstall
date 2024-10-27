@@ -6,3 +6,4 @@ nextest-filtering
 foundationdb-gen
 borsh
 rustrict
+human_bytes
