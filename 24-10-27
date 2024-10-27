@@ -43,3 +43,4 @@ libbpf-cargo
 raw-cpuid
 pgrx-tests
 parquet
+apollo-router
