@@ -32,3 +32,4 @@ solana-gossip
 nextest-filtering
 dotenvy
 raw-cpuid
+solana-genesis
