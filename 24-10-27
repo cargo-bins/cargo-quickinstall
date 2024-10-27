@@ -25,3 +25,4 @@ sha1collisiondetection
 human_name
 wol-rs
 deno
+raw-cpuid
