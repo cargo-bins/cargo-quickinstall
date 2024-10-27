@@ -51,3 +51,4 @@ dotenv
 rrule
 z3tracer
 snarkvm
+nextest-filtering
