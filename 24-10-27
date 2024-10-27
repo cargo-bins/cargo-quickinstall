@@ -16,3 +16,4 @@ cargo-lock
 cached-path
 dotenv
 sha1collisiondetection
+paperclip
