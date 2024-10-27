@@ -18,3 +18,4 @@ cargo-lock
 snarkvm
 nu
 pgrx-tests
+rls-rustc
