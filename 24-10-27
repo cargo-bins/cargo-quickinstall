@@ -52,3 +52,4 @@ tree-sitter-cli
 deploy
 nu
 httpmock
+human_bytes
