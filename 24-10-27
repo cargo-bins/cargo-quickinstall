@@ -47,3 +47,4 @@ borsh
 phf_generator
 textplots
 rkv
+sea-orm-cli
