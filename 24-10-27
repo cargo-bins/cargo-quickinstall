@@ -24,3 +24,4 @@ dotenv
 borsh
 espflash
 apollo-router
+sha1collisiondetection
