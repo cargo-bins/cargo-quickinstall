@@ -25,3 +25,4 @@ protox
 pgrx-tests
 socketcan
 nextest-filtering
+pwasm-utils
