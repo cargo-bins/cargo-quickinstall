@@ -95,3 +95,4 @@ parquet
 re_query
 pwasm-utils
 racer
+clippy
