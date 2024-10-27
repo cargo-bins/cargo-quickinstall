@@ -38,3 +38,4 @@ oso
 parquet
 foundationdb-gen
 dotenvy
+winpty-rs
