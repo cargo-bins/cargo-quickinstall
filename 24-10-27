@@ -57,3 +57,4 @@ sea-orm-cli
 wol-rs
 cpp_demangle
 opencv-binding-generator
+pwasm-utils
