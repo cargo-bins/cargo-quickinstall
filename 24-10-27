@@ -10,3 +10,4 @@ nu
 laminar
 cargo-c
 snarkvm
+tendermint-rpc
