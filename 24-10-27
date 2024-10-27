@@ -57,3 +57,4 @@ spider_worker
 addr2line
 tendermint-abci
 deploy
+rustrict
