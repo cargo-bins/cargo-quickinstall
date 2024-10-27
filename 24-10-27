@@ -11,3 +11,4 @@ tokio-process
 h3o
 rrule
 clippy
+opencv-binding-generator
