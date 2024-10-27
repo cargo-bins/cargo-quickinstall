@@ -54,3 +54,4 @@ tendermint-abci
 remove_dir_all
 opencv-binding-generator
 sea-orm-cli
+wol-rs
