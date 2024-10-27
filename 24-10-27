@@ -41,3 +41,4 @@ sea-orm-cli
 borsh
 unic-langid-impl
 solana-remote-wallet
+solana-stake-accounts
