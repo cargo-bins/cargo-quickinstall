@@ -24,3 +24,4 @@ cargo-lock
 minicbor
 libbpf-cargo
 sha1collisiondetection
+re_query
