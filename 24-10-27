@@ -7,3 +7,4 @@ pwasm-utils
 cargo-lock
 coldsnap
 rrule
+tokio-process
