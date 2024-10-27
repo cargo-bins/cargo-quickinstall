@@ -33,3 +33,4 @@ libbpf-cargo
 tree-sitter-graph
 human_name
 pwasm-utils
+nextest-filtering
