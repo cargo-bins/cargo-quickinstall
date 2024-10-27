@@ -98,3 +98,4 @@ racer
 clippy
 rls-rustc
 diesel_cli
+schemafy
