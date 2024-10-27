@@ -29,3 +29,4 @@ syd
 tree-sitter-cli
 z3tracer
 re_query
+dotenv
