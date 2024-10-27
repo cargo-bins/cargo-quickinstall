@@ -27,3 +27,4 @@ spider_cli
 dotenv
 syd
 tree-sitter-cli
+z3tracer
