@@ -14,3 +14,4 @@ nexmark
 human_bytes
 cargo-lock
 cached-path
+dotenv
