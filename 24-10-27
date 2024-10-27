@@ -19,3 +19,4 @@ cargo-local-registry
 rkv
 arrow-flight
 nkeys
+opencv-binding-generator
