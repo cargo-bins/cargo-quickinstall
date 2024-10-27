@@ -88,3 +88,4 @@ human_bytes
 textplots
 arrow-flight
 sccache
+dotenv
