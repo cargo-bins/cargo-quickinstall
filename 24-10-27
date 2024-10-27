@@ -53,3 +53,4 @@ opencv-binding-generator
 solana-stake-accounts
 solana-validator
 socketcan
+spider_worker
