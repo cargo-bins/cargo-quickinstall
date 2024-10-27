@@ -37,3 +37,4 @@ nkeys
 solana-stake-accounts
 solana-remote-wallet
 nextest-filtering
+pgrx-tests
