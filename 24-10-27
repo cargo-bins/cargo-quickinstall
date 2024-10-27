@@ -26,3 +26,4 @@ human_name
 wol-rs
 deno
 raw-cpuid
+httpmock
