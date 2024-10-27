@@ -61,3 +61,4 @@ rustrict
 deploy
 tendermint-rpc
 cargo-generate
+nkeys
