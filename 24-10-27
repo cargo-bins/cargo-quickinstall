@@ -55,3 +55,4 @@ httpmock
 human_bytes
 parquet
 z3tracer
+schemafy
