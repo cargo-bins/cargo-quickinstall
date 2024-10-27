@@ -3,3 +3,4 @@ rrule
 dotenv
 rustrict
 nextest-filtering
+foundationdb-gen
