@@ -57,3 +57,4 @@ human_name
 schemafy
 tendermint-abci
 wmi
+nextest-filtering
