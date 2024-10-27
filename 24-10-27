@@ -35,3 +35,4 @@ re_query
 rustbus
 libbpf-cargo
 oso
+parquet
