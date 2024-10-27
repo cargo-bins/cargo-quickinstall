@@ -51,3 +51,4 @@ sea-orm-cli
 nu
 re_query
 tendermint-abci
+remove_dir_all
