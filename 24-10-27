@@ -31,3 +31,4 @@ wol-rs
 httpmock
 cached-path
 z3tracer
+re_query
