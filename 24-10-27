@@ -9,3 +9,4 @@ laminar
 rustfmt-nightly
 rrule
 deno
+tendermint-rpc
