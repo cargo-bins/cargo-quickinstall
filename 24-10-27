@@ -39,3 +39,4 @@ laminar
 dotenv
 spider_cli
 paperclip
+sshx
