@@ -40,3 +40,4 @@ z3tracer
 cached-path
 oso
 libbpf-cargo
+raw-cpuid
