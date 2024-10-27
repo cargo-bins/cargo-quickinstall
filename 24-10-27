@@ -41,3 +41,4 @@ pgrx-tests
 solana-stake-accounts
 deploy
 syd
+tendermint-abci
