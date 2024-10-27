@@ -17,3 +17,4 @@ cached-path
 dotenv
 sha1collisiondetection
 paperclip
+opencv-binding-generator
