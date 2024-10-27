@@ -26,3 +26,4 @@ libbpf-cargo
 sha1collisiondetection
 re_query
 syd
+rustrict
