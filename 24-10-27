@@ -27,3 +27,4 @@ wol-rs
 deno
 raw-cpuid
 httpmock
+apollo-router
