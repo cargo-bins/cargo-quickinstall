@@ -51,3 +51,4 @@ cargo-udeps
 wol-rs
 opencv-binding-generator
 solana-stake-accounts
+solana-validator
