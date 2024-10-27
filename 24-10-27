@@ -21,3 +21,4 @@ pgrx-tests
 rls-rustc
 human_name
 remove_dir_all
+httpmock
