@@ -24,3 +24,4 @@ sha1collisiondetection
 remove_dir_all
 human_name
 z3tracer
+tendermint-abci
