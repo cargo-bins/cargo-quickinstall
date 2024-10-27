@@ -42,3 +42,4 @@ oso
 libbpf-cargo
 raw-cpuid
 pgrx-tests
+parquet
