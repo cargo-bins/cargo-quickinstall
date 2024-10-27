@@ -4,3 +4,4 @@ racer
 cargo-generate
 schemafy
 pwasm-utils
+cargo-lock
