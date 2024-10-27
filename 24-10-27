@@ -16,3 +16,4 @@ sqlx-cli
 tree-sitter-graph
 cargo-lock
 snarkvm
+nu
