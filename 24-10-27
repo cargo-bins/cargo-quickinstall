@@ -2,3 +2,4 @@ sea-orm-cli
 pwasm-utils
 textplots
 redoxer
+cpp_demangle
