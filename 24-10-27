@@ -58,3 +58,4 @@ wol-rs
 cpp_demangle
 opencv-binding-generator
 pwasm-utils
+wol-rs
