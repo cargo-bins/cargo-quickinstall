@@ -74,3 +74,4 @@ wmi
 libbpf-cargo
 dotenv
 wmi
+schemafy
