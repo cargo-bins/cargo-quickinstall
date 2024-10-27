@@ -63,3 +63,4 @@ paperclip
 re_query
 h3o
 remove_dir_all
+libbpf-cargo
