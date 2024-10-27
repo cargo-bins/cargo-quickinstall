@@ -12,3 +12,4 @@ deno
 tendermint-rpc
 rls-rustc
 nkeys
+sqlx-cli
