@@ -16,3 +16,4 @@ pgrx-tests
 evcxr_repl
 solana-genesis
 cargo-local-registry
+rkv
