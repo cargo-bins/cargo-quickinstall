@@ -8,3 +8,4 @@ papyrus_storage
 solana-validator
 cached-path
 raw-cpuid
+phf_generator
