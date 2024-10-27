@@ -3,3 +3,4 @@ remove_dir_all
 racer
 cargo-generate
 schemafy
+pwasm-utils
