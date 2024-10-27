@@ -61,3 +61,4 @@ hurl
 cargo-lock
 wol-rs
 librespot
+clippy
