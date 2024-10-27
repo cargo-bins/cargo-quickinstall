@@ -54,3 +54,4 @@ solana-genesis
 tauri-cli
 addr2line
 libbpf-cargo
+foundationdb-gen
