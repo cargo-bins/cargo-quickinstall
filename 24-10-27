@@ -21,3 +21,4 @@ opencv-binding-generator
 rav1e
 deno
 tendermint-abci
+sha1collisiondetection
