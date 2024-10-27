@@ -4,3 +4,4 @@ dotenv
 rustrict
 nextest-filtering
 foundationdb-gen
+borsh
