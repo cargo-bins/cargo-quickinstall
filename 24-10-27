@@ -18,3 +18,4 @@ nkeys
 clippy
 tree-sitter-graph
 rls-rustc
+z3tracer
