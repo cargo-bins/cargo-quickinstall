@@ -36,3 +36,4 @@ rustbus
 libbpf-cargo
 oso
 parquet
+foundationdb-gen
