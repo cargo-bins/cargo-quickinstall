@@ -34,3 +34,4 @@ tree-sitter-graph
 human_name
 pwasm-utils
 nextest-filtering
+apollo-router
