@@ -99,3 +99,4 @@ clippy
 rls-rustc
 diesel_cli
 schemafy
+solana-remote-wallet
