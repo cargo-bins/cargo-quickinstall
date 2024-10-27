@@ -6,3 +6,4 @@ sea-orm-cli
 trunk
 socketcan
 minicbor
+nexmark
