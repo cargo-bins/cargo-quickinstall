@@ -11,3 +11,4 @@ raw-cpuid
 phf_generator
 addr2line
 foundationdb-gen
+dotenvy
