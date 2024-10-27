@@ -43,3 +43,4 @@ schemafy
 laminar
 libbpf-cargo
 rrule
+nextest-filtering
