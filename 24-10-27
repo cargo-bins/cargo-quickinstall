@@ -31,3 +31,4 @@ cpp_demangle
 remove_dir_all
 addr2line
 nkeys
+solana-gossip
