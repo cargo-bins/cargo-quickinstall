@@ -8,3 +8,4 @@ nexmark
 cargo-lock
 solana-genesis
 z3tracer
+oso
