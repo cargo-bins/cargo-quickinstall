@@ -6,3 +6,4 @@ deno
 diesel_cli
 remove_dir_all
 solana-remote-wallet
+apollo-router
