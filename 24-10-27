@@ -25,3 +25,4 @@ solana-validator
 httpmock
 cached-path
 snarkvm
+rls-rustc
