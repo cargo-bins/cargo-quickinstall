@@ -51,3 +51,4 @@ textplots
 tree-sitter-cli
 deploy
 nu
+httpmock
