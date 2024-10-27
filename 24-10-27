@@ -39,3 +39,4 @@ minicbor
 tree-sitter-graph
 sea-orm-cli
 borsh
+unic-langid-impl
