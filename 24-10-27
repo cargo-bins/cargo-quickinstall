@@ -64,3 +64,4 @@ cargo-generate
 nkeys
 sha1collisiondetection
 socketcan
+solana-keygen
