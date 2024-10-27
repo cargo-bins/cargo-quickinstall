@@ -51,3 +51,4 @@ tree-sitter-graph
 rrule
 sqlx-cli
 solana-genesis
+tauri-cli
