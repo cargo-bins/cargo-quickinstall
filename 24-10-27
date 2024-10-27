@@ -49,3 +49,4 @@ laminar
 re_query
 cargo-udeps
 wol-rs
+opencv-binding-generator
