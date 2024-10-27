@@ -33,3 +33,4 @@ cached-path
 z3tracer
 re_query
 rustbus
+libbpf-cargo
