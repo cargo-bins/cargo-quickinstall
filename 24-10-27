@@ -43,3 +43,4 @@ git-mit-config
 evcxr_repl
 cargo-c
 z3tracer
+foundationdb-gen
