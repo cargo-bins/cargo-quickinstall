@@ -44,3 +44,4 @@ syd
 tendermint-abci
 libbpf-cargo
 borsh
+phf_generator
