@@ -10,3 +10,4 @@ py-spy
 libbpf-cargo
 clippy
 sshx
+jless
