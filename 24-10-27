@@ -41,3 +41,4 @@ dotenvy
 winpty-rs
 schemafy
 laminar
+libbpf-cargo
