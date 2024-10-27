@@ -29,3 +29,4 @@ raw-cpuid
 httpmock
 apollo-router
 solana-gossip
+nextest-filtering
