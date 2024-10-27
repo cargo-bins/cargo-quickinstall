@@ -15,3 +15,4 @@ parquet
 opencv-binding-generator
 pwasm-utils
 solana-keygen
+graphql_client_cli
