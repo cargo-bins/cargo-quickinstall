@@ -53,3 +53,4 @@ deploy
 nu
 httpmock
 human_bytes
+parquet
