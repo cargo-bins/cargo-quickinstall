@@ -20,3 +20,4 @@ nu
 rls-rustc
 unic-langid-impl
 spider_worker
+dotenv
