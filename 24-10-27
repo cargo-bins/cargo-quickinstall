@@ -46,3 +46,4 @@ libbpf-cargo
 borsh
 phf_generator
 textplots
+rkv
