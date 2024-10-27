@@ -4,3 +4,4 @@ zuse
 socketcan
 tendermint-abci
 spider_worker
+protox
