@@ -11,3 +11,4 @@ ducc-sys
 foundationdb-gen
 remove_dir_all
 nexmark
+human_bytes
