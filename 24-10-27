@@ -5,3 +5,4 @@ redoxer
 cpp_demangle
 snarkvm
 dotenvy
+remove_dir_all
