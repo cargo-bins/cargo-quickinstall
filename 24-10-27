@@ -45,3 +45,4 @@ tree-sitter-graph
 solana-stake-accounts
 solana-genesis
 cached-path
+dotenvy
