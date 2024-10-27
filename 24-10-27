@@ -5,3 +5,4 @@ cached-path
 sea-orm-cli
 trunk
 socketcan
+minicbor
