@@ -18,3 +18,4 @@ solana-keygen
 graphql_client_cli
 shadowsocks-rust
 solana-validator
+tendermint-abci
