@@ -26,3 +26,4 @@ solana-genesis
 sccache
 foundationdb-gen
 nextest-filtering
+raw-cpuid
