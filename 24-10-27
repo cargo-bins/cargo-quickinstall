@@ -17,3 +17,4 @@ evcxr_repl
 solana-genesis
 cargo-local-registry
 rkv
+arrow-flight
