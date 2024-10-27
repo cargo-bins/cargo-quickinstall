@@ -36,3 +36,4 @@ pwasm-utils
 nextest-filtering
 apollo-router
 java-locator
+human_bytes
