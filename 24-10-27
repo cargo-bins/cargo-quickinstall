@@ -35,3 +35,4 @@ solana-gossip
 human_bytes
 rkv
 deploy
+minicbor
