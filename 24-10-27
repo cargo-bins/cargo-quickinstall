@@ -45,3 +45,4 @@ libbpf-cargo
 rrule
 nextest-filtering
 rls-rustc
+racer
