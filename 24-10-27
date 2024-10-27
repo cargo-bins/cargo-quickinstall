@@ -8,3 +8,4 @@ cargo-lock
 laminar
 rustfmt-nightly
 rrule
+deno
