@@ -97,3 +97,4 @@ pwasm-utils
 racer
 clippy
 rls-rustc
+diesel_cli
