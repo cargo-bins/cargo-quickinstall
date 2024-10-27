@@ -4,3 +4,4 @@ wmi
 cached-path
 minicbor
 solana-genesis
+cargo-lock
