@@ -10,3 +10,4 @@ rustfmt-nightly
 rrule
 deno
 tendermint-rpc
+rls-rustc
