@@ -63,3 +63,4 @@ tendermint-rpc
 cargo-generate
 nkeys
 sha1collisiondetection
+socketcan
