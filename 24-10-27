@@ -28,3 +28,4 @@ tendermint-abci
 nu
 cached-path
 cpp_demangle
+remove_dir_all
