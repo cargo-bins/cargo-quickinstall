@@ -33,3 +33,4 @@ addr2line
 nkeys
 solana-gossip
 human_bytes
+rkv
