@@ -40,3 +40,4 @@ dotenv
 spider_cli
 paperclip
 sshx
+opencv-binding-generator
