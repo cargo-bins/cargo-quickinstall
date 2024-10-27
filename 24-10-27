@@ -22,3 +22,4 @@ papyrus_storage
 foundationdb-gen
 laminar
 protox
+pgrx-tests
