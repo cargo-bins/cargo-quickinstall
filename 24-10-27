@@ -52,3 +52,4 @@ nu
 re_query
 tendermint-abci
 remove_dir_all
+opencv-binding-generator
