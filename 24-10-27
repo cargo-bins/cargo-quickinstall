@@ -25,3 +25,4 @@ borsh
 espflash
 apollo-router
 sha1collisiondetection
+phf_generator
