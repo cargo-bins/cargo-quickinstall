@@ -47,3 +47,4 @@ papyrus_storage
 spider_worker
 java-locator
 schemafy
+dotenv
