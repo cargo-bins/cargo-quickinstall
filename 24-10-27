@@ -13,3 +13,4 @@ addr2line
 foundationdb-gen
 dotenvy
 rkv
+re_query
