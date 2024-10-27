@@ -18,3 +18,4 @@ dotenv
 sha1collisiondetection
 paperclip
 opencv-binding-generator
+rav1e
