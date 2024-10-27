@@ -42,3 +42,4 @@ solana-stake-accounts
 deploy
 syd
 tendermint-abci
+libbpf-cargo
