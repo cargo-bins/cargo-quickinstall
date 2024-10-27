@@ -45,3 +45,4 @@ solana-stake-accounts
 rls-rustc
 phf_generator
 libbpf-cargo
+syd
