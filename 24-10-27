@@ -41,3 +41,4 @@ cached-path
 oso
 libbpf-cargo
 raw-cpuid
+pgrx-tests
