@@ -12,3 +12,4 @@ oso
 diesel_cli
 cached-path
 sshx
+httpmock
