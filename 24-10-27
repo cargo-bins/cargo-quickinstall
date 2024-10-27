@@ -42,3 +42,4 @@ borsh
 unic-langid-impl
 solana-remote-wallet
 solana-stake-accounts
+rls-rustc
