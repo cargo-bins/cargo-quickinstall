@@ -4,3 +4,4 @@ sshx
 py-spy
 deno
 diesel_cli
+remove_dir_all
