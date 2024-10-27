@@ -32,3 +32,4 @@ dotenv
 foundationdb-gen
 re_query
 py-spy
+tree-sitter-graph
