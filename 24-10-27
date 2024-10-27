@@ -63,3 +63,4 @@ borsh
 schemafy
 tree-sitter-cli
 py-spy
+evcxr_repl
