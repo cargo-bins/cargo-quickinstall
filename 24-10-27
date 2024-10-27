@@ -33,3 +33,4 @@ nextest-filtering
 dotenvy
 raw-cpuid
 solana-genesis
+clippy
