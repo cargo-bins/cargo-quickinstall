@@ -7,3 +7,4 @@ snarkvm
 dotenvy
 remove_dir_all
 py-spy
+libbpf-cargo
