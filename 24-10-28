@@ -6,3 +6,4 @@ deploy
 solana-remote-wallet
 socketcan
 nexmark
+foundationdb-gen
