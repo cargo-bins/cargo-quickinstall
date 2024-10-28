@@ -86,3 +86,4 @@ text-diff
 papyrus_storage
 sqlx-cli
 java-locator
+libbpf-cargo
