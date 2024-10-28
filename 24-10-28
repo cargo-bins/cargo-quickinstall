@@ -94,3 +94,4 @@ coldsnap
 text-diff
 tree-sitter-graph
 coldsnap
+sha1collisiondetection
