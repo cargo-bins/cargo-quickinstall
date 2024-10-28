@@ -64,3 +64,4 @@ cached-path
 schemafy
 rrule
 cargo-lock
+libbpf-cargo
