@@ -16,3 +16,4 @@ dotenvy
 tendermint-rpc
 httpmock
 wol-rs
+java-locator
