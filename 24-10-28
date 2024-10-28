@@ -38,3 +38,4 @@ foundationdb-gen
 human_name
 z3tracer
 minicbor
+remove_dir_all
