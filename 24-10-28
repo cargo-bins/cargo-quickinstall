@@ -39,3 +39,4 @@ rustfmt
 raw-cpuid
 clippy
 cargo-lock
+httpmock
