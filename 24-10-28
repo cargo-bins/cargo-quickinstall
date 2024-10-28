@@ -80,3 +80,4 @@ tendermint-rpc
 solana-stake-accounts
 httpmock
 rustrict
+sha1collisiondetection
