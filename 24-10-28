@@ -56,3 +56,4 @@ foundationdb-gen
 cached-path
 py-spy
 honggfuzz
+cpp_demangle
