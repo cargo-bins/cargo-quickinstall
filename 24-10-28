@@ -87,3 +87,4 @@ spider_cli
 pgrx-tests
 re_query
 schemafy
+dotenv
