@@ -68,3 +68,4 @@ httpmock
 tree-sitter-graph
 sn_node
 rustbus
+rustfmt-nightly
