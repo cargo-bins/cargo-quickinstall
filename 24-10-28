@@ -23,3 +23,4 @@ tendermint-rpc
 py-spy
 nkeys
 rustfmt-nightly
+socketcan
