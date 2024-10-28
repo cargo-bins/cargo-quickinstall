@@ -3,3 +3,4 @@ sea-orm-cli
 deploy
 minicbor
 java-locator
+cargo-lock
