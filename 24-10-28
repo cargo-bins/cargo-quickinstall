@@ -51,3 +51,4 @@ cargo-local-registry
 laminar
 httpbis
 diesel_cli
+raw-cpuid
