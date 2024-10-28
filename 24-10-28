@@ -45,3 +45,4 @@ pgrx-tests
 winpty-rs
 phf_generator
 nkeys
+solana-genesis
