@@ -32,3 +32,4 @@ phf_generator
 trunk
 wmi
 parquet
+httpmock
