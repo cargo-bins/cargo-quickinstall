@@ -52,3 +52,4 @@ dotenv
 winpty-rs
 nexmark
 borsh
+tree-sitter-cli
