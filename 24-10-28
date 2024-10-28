@@ -25,3 +25,4 @@ rustbus
 papyrus_storage
 cargo-generate
 deploy
+cargo-lock
