@@ -78,3 +78,4 @@ rustrict
 rrule
 tendermint-rpc
 solana-stake-accounts
+httpmock
