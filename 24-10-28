@@ -101,3 +101,4 @@ rustrict
 tendermint-rpc
 clippy
 parquet
+libbpf-cargo
