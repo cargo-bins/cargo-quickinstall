@@ -2,3 +2,4 @@ libbpf-cargo
 remove_dir_all
 foundationdb-gen
 syd
+opencv-binding-generator
