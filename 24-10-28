@@ -88,3 +88,4 @@ pgrx-tests
 re_query
 schemafy
 dotenv
+z3tracer
