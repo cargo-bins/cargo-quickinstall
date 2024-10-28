@@ -17,3 +17,4 @@ tendermint-rpc
 httpmock
 wol-rs
 java-locator
+tendermint-abci
