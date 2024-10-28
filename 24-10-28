@@ -52,3 +52,4 @@ rls-rustc
 diesel_cli
 deploy
 rls-rustc
+wmi
