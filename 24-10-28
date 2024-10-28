@@ -93,3 +93,4 @@ httpmock
 diesel_cli
 git-mit-relates-to
 dotenvy
+pwasm-utils
