@@ -48,3 +48,4 @@ rrule
 cpp_demangle
 libbpf-cargo
 remove_dir_all
+cached-path
