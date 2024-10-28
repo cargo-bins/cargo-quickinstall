@@ -68,3 +68,4 @@ nextest-filtering
 cargo-generate
 nexmark
 dotenv
+tendermint-abci
