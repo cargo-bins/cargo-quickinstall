@@ -69,3 +69,4 @@ py-spy
 dotenv
 py-spy
 spider_worker
+tendermint-rpc
