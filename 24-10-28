@@ -30,3 +30,4 @@ tendermint-abci
 socketcan
 tree-sitter-graph
 minicbor
+winpty-rs
