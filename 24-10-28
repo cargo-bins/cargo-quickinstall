@@ -28,3 +28,4 @@ syd
 diesel_cli
 cpp_demangle
 ducc-sys
+cargo-lock
