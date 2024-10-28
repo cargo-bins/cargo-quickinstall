@@ -46,3 +46,4 @@ rustfmt-nightly
 paperclip
 rrule
 cpp_demangle
+libbpf-cargo
