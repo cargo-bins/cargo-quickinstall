@@ -65,3 +65,4 @@ cargo-vet
 wol-rs
 cpp_demangle
 httpmock
+tree-sitter-graph
