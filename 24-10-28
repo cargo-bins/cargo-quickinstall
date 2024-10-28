@@ -42,3 +42,4 @@ winpty-rs
 racer
 wol-rs
 rustfmt-nightly
+dotenv
