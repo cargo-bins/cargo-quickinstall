@@ -65,3 +65,4 @@ foundationdb-gen
 tendermint-rpc
 winpty-rs
 nextest-filtering
+cargo-generate
