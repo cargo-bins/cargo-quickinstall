@@ -53,3 +53,4 @@ snarkvm
 borsh
 re_query
 solana-gossip
+spider_cli
