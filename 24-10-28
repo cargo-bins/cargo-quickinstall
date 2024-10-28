@@ -52,3 +52,4 @@ cached-path
 wmi
 foundationdb-gen
 solana-cli
+solana-validator
