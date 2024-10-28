@@ -88,3 +88,4 @@ deploy
 nexmark
 laminar
 httpmock
+remove_dir_all
