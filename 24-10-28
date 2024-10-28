@@ -22,3 +22,4 @@ libbpf-cargo
 z3tracer
 nextest-filtering
 rustbus
+papyrus_storage
