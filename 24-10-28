@@ -25,3 +25,4 @@ oso
 unic-langid-impl
 tree-sitter-graph
 deno
+addr2line
