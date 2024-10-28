@@ -83,3 +83,4 @@ git-mit-relates-to
 tendermint-abci
 dotenv
 tree-sitter-cli
+sqlx-cli
