@@ -14,3 +14,4 @@ evcxr_repl
 tauri-cli
 foundationdb-gen
 clippy
+pwasm-utils
