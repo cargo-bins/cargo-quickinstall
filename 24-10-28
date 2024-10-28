@@ -18,3 +18,4 @@ pwasm-utils
 remove_dir_all
 protox
 spider_cli
+human_bytes
