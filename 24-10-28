@@ -24,3 +24,4 @@ winpty-rs
 paperclip
 phf_generator
 tree-sitter-graph
+re_query
