@@ -85,3 +85,4 @@ solana-genesis
 nextest-filtering
 spider_cli
 pgrx-tests
+re_query
