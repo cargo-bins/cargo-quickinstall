@@ -18,3 +18,4 @@ rustfmt-nightly
 rrule
 raw-cpuid
 cached-path
+nextest-filtering
