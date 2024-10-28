@@ -19,3 +19,4 @@ cargo-lock
 nextest-filtering
 socketcan
 zuse
+sea-orm-cli
