@@ -44,3 +44,4 @@ wol-rs
 rustfmt-nightly
 dotenv
 racer
+deploy
