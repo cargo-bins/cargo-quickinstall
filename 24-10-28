@@ -56,3 +56,4 @@ solana-validator
 wol-rs
 nextest-filtering
 libbpf-cargo
+raw-cpuid
