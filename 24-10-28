@@ -16,3 +16,4 @@ foundationdb-gen
 clippy
 pwasm-utils
 remove_dir_all
+protox
