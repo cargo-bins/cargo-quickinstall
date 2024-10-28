@@ -70,3 +70,4 @@ sn_node
 rustbus
 rustfmt-nightly
 protox
+socketcan
