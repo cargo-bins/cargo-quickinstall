@@ -66,3 +66,4 @@ rrule
 cargo-lock
 libbpf-cargo
 py-spy
+dotenv
