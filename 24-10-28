@@ -60,3 +60,4 @@ solana-gossip
 syd
 pgrx-tests
 java-locator
+tauri-cli
