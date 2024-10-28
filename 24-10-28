@@ -18,3 +18,4 @@ sea-orm-cli
 winpty-rs
 rustrict
 nextest-filtering
+foundationdb-gen
