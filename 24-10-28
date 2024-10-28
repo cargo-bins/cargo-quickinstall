@@ -59,3 +59,4 @@ honggfuzz
 cpp_demangle
 minicbor
 remove_dir_all
+rustrict
