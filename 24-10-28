@@ -18,3 +18,4 @@ solana-gossip
 deno
 cargo-local-registry
 syd
+rls-rustc
