@@ -44,3 +44,4 @@ oso
 httpbis
 sha1collisiondetection
 ducc-sys
+ec2_instance_metadata
