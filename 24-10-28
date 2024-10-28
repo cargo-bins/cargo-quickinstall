@@ -54,3 +54,4 @@ diesel_cli
 raw-cpuid
 foundationdb-gen
 cached-path
+py-spy
