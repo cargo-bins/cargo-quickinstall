@@ -12,3 +12,4 @@ pgrx-tests
 coldsnap
 rls-rustc
 exa
+minicbor
