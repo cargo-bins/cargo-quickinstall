@@ -41,3 +41,4 @@ trunk
 winpty-rs
 racer
 wol-rs
+rustfmt-nightly
