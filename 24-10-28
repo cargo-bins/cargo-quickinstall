@@ -25,3 +25,4 @@ nkeys
 rustfmt-nightly
 socketcan
 deno
+benfred-read-process-memory
