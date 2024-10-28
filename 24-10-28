@@ -81,3 +81,4 @@ dotenvy
 deno
 git-mit-relates-to
 tendermint-abci
+dotenv
