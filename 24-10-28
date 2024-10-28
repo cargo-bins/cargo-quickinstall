@@ -15,3 +15,4 @@ opencv-binding-generator
 dotenvy
 tendermint-rpc
 httpmock
+wol-rs
