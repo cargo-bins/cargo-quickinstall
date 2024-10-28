@@ -60,3 +60,4 @@ sqlx-cli
 solana-cli
 foundationdb-gen
 socketcan
+paperclip
