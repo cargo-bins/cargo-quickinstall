@@ -46,3 +46,4 @@ tree-sitter-cli
 sqlx-cli
 rls-rustc
 rustfmt-nightly
+raw-cpuid
