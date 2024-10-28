@@ -50,3 +50,4 @@ raw-cpuid
 winpty-rs
 wol-rs
 snarkvm
+borsh
