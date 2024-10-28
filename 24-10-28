@@ -50,3 +50,4 @@ java-locator
 borsh
 dotenv
 winpty-rs
+nexmark
