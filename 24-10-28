@@ -5,3 +5,4 @@ wol-rs
 raw-cpuid
 honggfuzz
 solana-gossip
+cpp_demangle
