@@ -29,3 +29,4 @@ rustrict
 tendermint-abci
 socketcan
 tree-sitter-graph
+minicbor
