@@ -80,3 +80,4 @@ addr2line
 solana-genesis
 zuse
 rkv
+httpmock
