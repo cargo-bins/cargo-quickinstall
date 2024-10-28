@@ -69,3 +69,4 @@ cargo-generate
 nexmark
 dotenv
 tendermint-abci
+rkv
