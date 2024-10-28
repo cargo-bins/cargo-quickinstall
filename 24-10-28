@@ -19,3 +19,4 @@ evcxr_repl
 dotenv
 trunk
 py-spy
+z3tracer
