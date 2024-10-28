@@ -20,3 +20,4 @@ dotenv
 trunk
 py-spy
 z3tracer
+arrow-flight
