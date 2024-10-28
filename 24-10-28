@@ -11,3 +11,4 @@ raw-cpuid
 libbpf-cargo
 ducc-sys
 remove_dir_all
+opencv-binding-generator
