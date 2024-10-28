@@ -44,3 +44,4 @@ nextest-filtering
 pgrx-tests
 winpty-rs
 phf_generator
+nkeys
