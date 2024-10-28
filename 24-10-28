@@ -46,3 +46,4 @@ remove_dir_all
 tendermint-rpc
 libbpf-cargo
 apollo-router
+racer
