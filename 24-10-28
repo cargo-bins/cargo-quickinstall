@@ -96,3 +96,4 @@ tree-sitter-graph
 coldsnap
 sha1collisiondetection
 z3tracer
+tendermint-rpc
