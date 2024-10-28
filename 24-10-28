@@ -42,3 +42,4 @@ borsh
 laminar
 socketcan
 solana-stake-accounts
+remove_dir_all
