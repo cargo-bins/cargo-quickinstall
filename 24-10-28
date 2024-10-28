@@ -45,3 +45,4 @@ rustfmt-nightly
 dotenv
 racer
 deploy
+schemafy
