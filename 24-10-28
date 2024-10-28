@@ -87,3 +87,4 @@ sqlx-cli
 deploy
 nexmark
 laminar
+httpmock
