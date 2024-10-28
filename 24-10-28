@@ -16,3 +16,4 @@ spider_worker
 zuse
 wmi
 cargo-lock
+nextest-filtering
