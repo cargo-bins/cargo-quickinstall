@@ -100,3 +100,4 @@ sqlx-cli
 sha1collisiondetection
 deploy
 textplots
+libbpf-cargo
