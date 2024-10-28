@@ -71,3 +71,4 @@ rustbus
 rustfmt-nightly
 protox
 socketcan
+httpmock
