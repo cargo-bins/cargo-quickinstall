@@ -55,3 +55,4 @@ human_name
 human_bytes
 parquet
 schemafy
+rkv
