@@ -63,3 +63,4 @@ rustrict
 cargo-lock
 cargo-vet
 wol-rs
+cpp_demangle
