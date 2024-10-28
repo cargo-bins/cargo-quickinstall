@@ -8,3 +8,4 @@ protox
 tendermint-rpc
 nextest-filtering
 java-locator
+wol-rs
