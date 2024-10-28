@@ -26,3 +26,4 @@ papyrus_storage
 cargo-generate
 deploy
 cargo-lock
+dotenvy
