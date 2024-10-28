@@ -100,3 +100,4 @@ tendermint-rpc
 rustrict
 tendermint-rpc
 clippy
+parquet
