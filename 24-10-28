@@ -12,3 +12,4 @@ parquet
 tendermint-abci
 arrow-flight
 protox
+winpty-rs
