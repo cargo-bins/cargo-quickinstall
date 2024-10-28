@@ -5,3 +5,4 @@ minicbor
 java-locator
 cargo-lock
 protox
+tendermint-rpc
