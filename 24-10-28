@@ -9,3 +9,4 @@ phf_generator
 oso
 cpp_demangle
 rustfmt-nightly
+httpmock
