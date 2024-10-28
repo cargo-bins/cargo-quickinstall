@@ -16,3 +16,4 @@ winpty-rs
 h3o
 rustfmt-nightly
 rrule
+raw-cpuid
