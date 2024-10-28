@@ -4,3 +4,4 @@ cargo-tarpaulin
 cargo-c
 spider_worker
 libbpf-cargo
+unic-langid-impl
