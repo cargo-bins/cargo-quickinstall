@@ -75,3 +75,4 @@ z3tracer
 remove_dir_all
 nu
 deno
+dotenv
