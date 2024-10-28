@@ -91,3 +91,4 @@ foundationdb-gen
 z3tracer
 deploy
 coldsnap
+text-diff
