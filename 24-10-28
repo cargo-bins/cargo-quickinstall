@@ -48,3 +48,4 @@ rls-rustc
 rustfmt-nightly
 raw-cpuid
 winpty-rs
+wol-rs
