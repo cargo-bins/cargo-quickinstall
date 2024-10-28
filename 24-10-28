@@ -7,3 +7,4 @@ solana-remote-wallet
 deno
 phf_generator
 oso
+cpp_demangle
