@@ -42,3 +42,4 @@ winpty-rs
 racer
 java-locator
 nkeys
+remove_dir_all
