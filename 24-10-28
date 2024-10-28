@@ -70,3 +70,4 @@ dotenv
 py-spy
 spider_worker
 tendermint-rpc
+human_name
