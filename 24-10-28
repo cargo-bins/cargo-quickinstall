@@ -49,3 +49,4 @@ rustfmt-nightly
 raw-cpuid
 winpty-rs
 wol-rs
+snarkvm
