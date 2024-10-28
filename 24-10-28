@@ -28,3 +28,4 @@ parquet
 spider_worker
 unic-langid-impl
 solana-validator
+phf_generator
