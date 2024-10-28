@@ -17,3 +17,4 @@ tendermint-rpc
 sea-orm-cli
 winpty-rs
 rustrict
+nextest-filtering
