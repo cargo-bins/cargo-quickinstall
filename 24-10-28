@@ -14,3 +14,4 @@ remove_dir_all
 opencv-binding-generator
 dotenvy
 tendermint-rpc
+httpmock
