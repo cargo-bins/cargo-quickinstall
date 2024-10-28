@@ -6,3 +6,4 @@ nextest-filtering
 phf_generator
 rkv
 pwasm-utils
+cargo-lock
