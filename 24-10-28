@@ -22,3 +22,4 @@ human_bytes
 solana-gossip
 winpty-rs
 paperclip
+phf_generator
