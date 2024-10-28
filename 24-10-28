@@ -41,3 +41,4 @@ clippy
 cargo-lock
 httpmock
 oso
+httpbis
