@@ -51,3 +51,4 @@ borsh
 dotenv
 winpty-rs
 nexmark
+borsh
