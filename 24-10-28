@@ -97,3 +97,4 @@ coldsnap
 sha1collisiondetection
 z3tracer
 tendermint-rpc
+rustrict
