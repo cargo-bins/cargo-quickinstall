@@ -47,3 +47,4 @@ sqlx-cli
 rls-rustc
 rustfmt-nightly
 raw-cpuid
+winpty-rs
