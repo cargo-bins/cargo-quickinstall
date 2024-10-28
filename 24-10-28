@@ -83,3 +83,4 @@ rkv
 httpmock
 solana-genesis
 nextest-filtering
+spider_cli
