@@ -45,3 +45,4 @@ solana-stake-accounts
 remove_dir_all
 tendermint-rpc
 libbpf-cargo
+apollo-router
