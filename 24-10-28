@@ -10,3 +10,4 @@ tree-sitter-graph
 rustrict
 dotenv
 deploy
+winpty-rs
