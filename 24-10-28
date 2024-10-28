@@ -92,3 +92,4 @@ z3tracer
 deploy
 coldsnap
 text-diff
+tree-sitter-graph
