@@ -32,3 +32,4 @@ tree-sitter-graph
 minicbor
 winpty-rs
 rustfmt-nightly
+dotenvy
