@@ -27,3 +27,4 @@ cargo-generate
 deploy
 cargo-lock
 dotenvy
+human_name
