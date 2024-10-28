@@ -56,3 +56,4 @@ human_bytes
 parquet
 schemafy
 rkv
+borsh
