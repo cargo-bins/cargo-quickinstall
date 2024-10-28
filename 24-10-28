@@ -47,3 +47,4 @@ tendermint-rpc
 libbpf-cargo
 apollo-router
 racer
+rls-rustc
