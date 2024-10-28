@@ -63,3 +63,4 @@ syd
 cached-path
 schemafy
 rrule
+cargo-lock
