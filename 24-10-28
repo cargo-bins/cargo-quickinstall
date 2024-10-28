@@ -3,3 +3,4 @@ rmesg
 schemafy
 wol-rs
 raw-cpuid
+honggfuzz
