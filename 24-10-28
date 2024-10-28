@@ -11,3 +11,4 @@ cpp_demangle
 rustfmt-nightly
 httpmock
 paperclip
+raw-cpuid
