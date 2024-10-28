@@ -33,3 +33,4 @@ trunk
 wmi
 parquet
 httpmock
+tendermint-rpc
