@@ -42,3 +42,4 @@ cargo-lock
 httpmock
 oso
 httpbis
+sha1collisiondetection
