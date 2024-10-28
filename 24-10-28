@@ -35,3 +35,4 @@ human_bytes
 rkv
 diesel_cli
 phf_generator
+rustfmt
