@@ -38,3 +38,4 @@ phf_generator
 rustfmt
 raw-cpuid
 clippy
+cargo-lock
