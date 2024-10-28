@@ -51,3 +51,4 @@ remove_dir_all
 cached-path
 wmi
 foundationdb-gen
+solana-cli
