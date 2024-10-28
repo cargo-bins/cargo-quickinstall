@@ -58,3 +58,4 @@ solana-validator
 tendermint-abci
 clippy
 spider_worker
+schemafy
