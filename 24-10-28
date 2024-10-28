@@ -16,3 +16,4 @@ addr2line
 libbpf-cargo
 librespot
 evcxr_repl
+dotenv
