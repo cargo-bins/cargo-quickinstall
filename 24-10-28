@@ -102,3 +102,4 @@ deploy
 textplots
 libbpf-cargo
 wol-rs
+cargo-udeps
