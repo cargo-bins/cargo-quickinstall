@@ -50,3 +50,4 @@ racer
 rls-rustc
 winpty-rs
 cargo-lock
+textplots
