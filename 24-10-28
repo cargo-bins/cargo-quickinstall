@@ -26,3 +26,4 @@ tendermint-abci
 winpty-rs
 zuse
 solana-validator
+sea-orm-cli
