@@ -21,3 +21,4 @@ addr2line
 tendermint-rpc
 oso
 httpmock
+clippy
