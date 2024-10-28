@@ -3,3 +3,4 @@ spider_worker
 cargo-tarpaulin
 cargo-c
 spider_worker
+libbpf-cargo
