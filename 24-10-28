@@ -27,3 +27,4 @@ tree-sitter-graph
 re_query
 cpp_demangle
 dotenvy
+arrow-flight
