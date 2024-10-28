@@ -29,3 +29,4 @@ cpp_demangle
 dotenvy
 arrow-flight
 cargo-generate
+cargo-udeps
