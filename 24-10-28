@@ -11,3 +11,4 @@ laminar
 remove_dir_all
 tokio-process
 remove_dir_all
+benfred-read-process-memory
