@@ -86,3 +86,4 @@ schemafy
 nu
 tree-sitter-graph
 phf_generator
+spider_worker
