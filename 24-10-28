@@ -89,3 +89,4 @@ re_query
 schemafy
 dotenv
 z3tracer
+httpmock
