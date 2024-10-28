@@ -55,3 +55,4 @@ raw-cpuid
 foundationdb-gen
 cached-path
 py-spy
+honggfuzz
