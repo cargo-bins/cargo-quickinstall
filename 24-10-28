@@ -28,3 +28,4 @@ borsh
 tree-sitter-graph
 solana-gossip
 deploy
+pgrx-tests
