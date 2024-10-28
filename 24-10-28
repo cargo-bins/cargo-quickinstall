@@ -10,3 +10,4 @@ sha1collisiondetection
 nexmark
 rkv
 cargo-generate
+evcxr_repl
