@@ -7,3 +7,4 @@ libbpf-cargo
 unic-langid-impl
 parquet
 sha1collisiondetection
+nexmark
