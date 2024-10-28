@@ -25,3 +25,4 @@ clippy
 deploy
 socketcan
 syd
+diesel_cli
