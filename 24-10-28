@@ -10,3 +10,4 @@ unic-langid-impl
 laminar
 remove_dir_all
 tokio-process
+remove_dir_all
