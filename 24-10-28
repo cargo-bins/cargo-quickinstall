@@ -64,3 +64,4 @@ paperclip
 foundationdb-gen
 tendermint-rpc
 winpty-rs
+nextest-filtering
