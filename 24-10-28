@@ -11,3 +11,4 @@ rustrict
 dotenv
 deploy
 winpty-rs
+dotenvy
