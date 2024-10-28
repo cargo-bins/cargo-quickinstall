@@ -18,3 +18,4 @@ rustbus
 arrow-flight
 borsh
 java-locator
+libbpf-cargo
