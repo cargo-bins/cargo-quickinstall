@@ -62,3 +62,4 @@ remove_dir_all
 rustrict
 cargo-lock
 cargo-vet
+wol-rs
