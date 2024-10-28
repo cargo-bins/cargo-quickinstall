@@ -35,3 +35,4 @@ rustfmt-nightly
 dotenvy
 re_query
 human_bytes
+ducc-sys
