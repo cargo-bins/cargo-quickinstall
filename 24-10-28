@@ -8,3 +8,4 @@ rkv
 pwasm-utils
 cargo-lock
 raw-cpuid
+libbpf-cargo
