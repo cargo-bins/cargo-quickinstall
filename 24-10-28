@@ -5,3 +5,4 @@ nextest-filtering
 rls-rustc
 solana-remote-wallet
 deno
+phf_generator
