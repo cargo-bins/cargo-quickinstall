@@ -36,3 +36,4 @@ rkv
 diesel_cli
 phf_generator
 rustfmt
+raw-cpuid
