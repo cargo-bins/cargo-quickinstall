@@ -44,3 +44,4 @@ pwasm-utils
 winpty-rs
 tree-sitter-cli
 sqlx-cli
+rls-rustc
