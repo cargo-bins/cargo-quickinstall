@@ -4,3 +4,4 @@ sha1collisiondetection
 nextest-filtering
 rls-rustc
 solana-remote-wallet
+deno
