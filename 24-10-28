@@ -96,3 +96,4 @@ dotenvy
 pwasm-utils
 sha1collisiondetection
 java-locator
+sqlx-cli
