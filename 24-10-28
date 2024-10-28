@@ -6,3 +6,4 @@ spider_worker
 libbpf-cargo
 unic-langid-impl
 parquet
+sha1collisiondetection
