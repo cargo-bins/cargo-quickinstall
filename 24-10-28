@@ -50,3 +50,4 @@ solana-validator
 nkeys
 rls-rustc
 diesel_cli
+deploy
