@@ -61,3 +61,4 @@ minicbor
 remove_dir_all
 rustrict
 cargo-lock
+cargo-vet
