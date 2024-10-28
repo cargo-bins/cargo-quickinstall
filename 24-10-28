@@ -6,3 +6,4 @@ rls-rustc
 solana-remote-wallet
 deno
 phf_generator
+oso
