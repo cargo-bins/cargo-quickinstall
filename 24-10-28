@@ -113,3 +113,4 @@ git-mit-relates-to
 wmi
 sqlx-cli
 sccache
+nextest-filtering
