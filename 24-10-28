@@ -35,3 +35,4 @@ honggfuzz
 solana-validator
 h3o
 libbpf-cargo
+tree-sitter-graph
