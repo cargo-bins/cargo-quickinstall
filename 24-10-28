@@ -20,3 +20,4 @@ borsh
 java-locator
 libbpf-cargo
 z3tracer
+nextest-filtering
