@@ -49,3 +49,4 @@ py-spy
 snarkvm
 oso
 cargo-lock
+nextest-filtering
