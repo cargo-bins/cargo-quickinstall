@@ -4,3 +4,4 @@ foundationdb-gen
 syd
 opencv-binding-generator
 wol-rs
+rkv
