@@ -65,3 +65,4 @@ schemafy
 rrule
 cargo-lock
 libbpf-cargo
+py-spy
