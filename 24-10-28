@@ -66,3 +66,4 @@ tendermint-rpc
 winpty-rs
 nextest-filtering
 cargo-generate
+nexmark
