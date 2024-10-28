@@ -10,3 +10,4 @@ cargo-lock
 raw-cpuid
 libbpf-cargo
 ducc-sys
+remove_dir_all
