@@ -116,3 +116,4 @@ sccache
 nextest-filtering
 git-mit-relates-to
 git-mit-relates-to
+cargo-local-registry
