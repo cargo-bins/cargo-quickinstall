@@ -46,3 +46,4 @@ remove_dir_all
 clippy
 pgrx-tests
 unic-langid-impl
+protox
