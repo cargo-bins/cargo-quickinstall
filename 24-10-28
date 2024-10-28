@@ -49,3 +49,4 @@ apollo-router
 racer
 rls-rustc
 winpty-rs
+cargo-lock
