@@ -42,3 +42,4 @@ remove_dir_all
 diesel_cli
 nextest-filtering
 pgrx-tests
+winpty-rs
