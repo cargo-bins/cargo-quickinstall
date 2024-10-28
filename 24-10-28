@@ -58,3 +58,4 @@ unic-langid-impl
 laminar
 sqlx-cli
 solana-cli
+foundationdb-gen
