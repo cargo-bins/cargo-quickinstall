@@ -84,3 +84,4 @@ tendermint-abci
 dotenv
 tree-sitter-cli
 sqlx-cli
+deploy
