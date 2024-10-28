@@ -20,3 +20,4 @@ nextest-filtering
 socketcan
 zuse
 sea-orm-cli
+racer
