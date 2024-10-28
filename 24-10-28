@@ -16,3 +16,4 @@ rav1e
 tendermint-rpc
 sea-orm-cli
 winpty-rs
+rustrict
