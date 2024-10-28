@@ -40,3 +40,4 @@ raw-cpuid
 clippy
 cargo-lock
 httpmock
+oso
