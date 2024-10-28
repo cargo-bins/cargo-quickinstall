@@ -106,3 +106,4 @@ cargo-udeps
 solana-validator
 oso
 wmi
+solana-remote-wallet
