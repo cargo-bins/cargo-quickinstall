@@ -68,3 +68,4 @@ libbpf-cargo
 py-spy
 dotenv
 py-spy
+spider_worker
