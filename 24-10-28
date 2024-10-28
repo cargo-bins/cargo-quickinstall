@@ -39,3 +39,4 @@ raw-cpuid
 solana-gossip
 cargo-udeps
 arrow-flight
+paperclip
