@@ -44,3 +44,4 @@ sea-orm-cli
 deno
 trunk
 solana-stake-accounts
+minicbor
