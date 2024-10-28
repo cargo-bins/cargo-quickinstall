@@ -7,3 +7,4 @@ phf_generator
 rkv
 pwasm-utils
 cargo-lock
+raw-cpuid
