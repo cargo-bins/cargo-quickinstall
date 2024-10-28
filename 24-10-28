@@ -39,3 +39,4 @@ paperclip
 textplots
 rustfmt-nightly
 human_name
+addr2line
