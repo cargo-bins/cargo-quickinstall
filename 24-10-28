@@ -12,3 +12,4 @@ rkv
 cargo-generate
 evcxr_repl
 tauri-cli
+foundationdb-gen
