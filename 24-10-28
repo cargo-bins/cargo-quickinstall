@@ -47,3 +47,4 @@ paperclip
 rrule
 cpp_demangle
 libbpf-cargo
+remove_dir_all
