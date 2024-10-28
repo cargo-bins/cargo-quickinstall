@@ -9,3 +9,4 @@ rls-rustc
 unic-langid-impl
 laminar
 remove_dir_all
+tokio-process
