@@ -56,3 +56,4 @@ addr2line
 rustrict
 unic-langid-impl
 laminar
+sqlx-cli
