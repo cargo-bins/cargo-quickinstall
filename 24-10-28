@@ -52,3 +52,4 @@ laminar
 httpbis
 diesel_cli
 raw-cpuid
+foundationdb-gen
