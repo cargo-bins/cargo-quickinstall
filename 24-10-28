@@ -35,3 +35,4 @@ parquet
 httpmock
 tendermint-rpc
 zuse
+socketcan
