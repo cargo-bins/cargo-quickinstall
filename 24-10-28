@@ -29,3 +29,4 @@ solana-validator
 sea-orm-cli
 snarkvm
 re_query
+addr2line
