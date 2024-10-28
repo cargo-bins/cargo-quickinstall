@@ -67,3 +67,4 @@ cargo-lock
 libbpf-cargo
 py-spy
 dotenv
+py-spy
