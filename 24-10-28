@@ -57,3 +57,4 @@ wol-rs
 nextest-filtering
 libbpf-cargo
 raw-cpuid
+pgrx-tests
