@@ -62,3 +62,4 @@ foundationdb-gen
 socketcan
 paperclip
 foundationdb-gen
+tendermint-rpc
