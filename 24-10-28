@@ -67,3 +67,4 @@ cpp_demangle
 httpmock
 tree-sitter-graph
 sn_node
+rustbus
