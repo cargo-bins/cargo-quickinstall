@@ -54,3 +54,4 @@ foundationdb-gen
 solana-cli
 solana-validator
 wol-rs
+nextest-filtering
