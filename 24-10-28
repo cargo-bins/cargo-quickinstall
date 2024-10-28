@@ -10,3 +10,4 @@ oso
 cpp_demangle
 rustfmt-nightly
 httpmock
+paperclip
