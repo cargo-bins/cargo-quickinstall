@@ -37,3 +37,4 @@ cpp_demangle
 java-locator
 paperclip
 textplots
+rustfmt-nightly
