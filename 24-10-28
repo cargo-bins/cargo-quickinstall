@@ -53,3 +53,4 @@ wmi
 foundationdb-gen
 solana-cli
 solana-validator
+wol-rs
