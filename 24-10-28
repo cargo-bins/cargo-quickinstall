@@ -27,3 +27,4 @@ opencv-binding-generator
 z3tracer
 rustrict
 tendermint-abci
+socketcan
