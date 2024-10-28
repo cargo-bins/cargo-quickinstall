@@ -102,3 +102,4 @@ tendermint-rpc
 clippy
 parquet
 libbpf-cargo
+sn_cli
