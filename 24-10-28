@@ -36,3 +36,4 @@ httpmock
 tendermint-rpc
 zuse
 socketcan
+nexmark
