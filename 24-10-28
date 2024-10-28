@@ -12,3 +12,4 @@ dotenv
 deploy
 winpty-rs
 dotenvy
+re_query
