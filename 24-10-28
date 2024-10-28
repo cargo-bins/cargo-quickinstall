@@ -76,3 +76,4 @@ remove_dir_all
 nu
 deno
 dotenv
+paperclip
