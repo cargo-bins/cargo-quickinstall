@@ -104,3 +104,4 @@ libbpf-cargo
 wol-rs
 cargo-udeps
 solana-validator
+oso
