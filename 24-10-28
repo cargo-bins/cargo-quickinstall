@@ -90,3 +90,4 @@ schemafy
 dotenv
 z3tracer
 httpmock
+diesel_cli
