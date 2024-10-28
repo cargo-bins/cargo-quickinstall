@@ -67,3 +67,4 @@ winpty-rs
 nextest-filtering
 cargo-generate
 nexmark
+dotenv
