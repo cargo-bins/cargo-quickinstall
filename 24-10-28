@@ -33,3 +33,4 @@ minicbor
 winpty-rs
 rustfmt-nightly
 dotenvy
+re_query
