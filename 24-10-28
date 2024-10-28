@@ -37,3 +37,4 @@ nkeys
 protox
 raw-cpuid
 solana-gossip
+cargo-udeps
