@@ -7,3 +7,4 @@ solana-remote-wallet
 socketcan
 nexmark
 foundationdb-gen
+rls-rustc
