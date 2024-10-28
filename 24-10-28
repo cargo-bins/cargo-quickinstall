@@ -7,3 +7,4 @@ cargo-lock
 protox
 tendermint-rpc
 nextest-filtering
+java-locator
