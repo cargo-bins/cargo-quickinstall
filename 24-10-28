@@ -51,3 +51,4 @@ nkeys
 rls-rustc
 diesel_cli
 deploy
+rls-rustc
