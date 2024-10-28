@@ -55,3 +55,4 @@ re_query
 solana-gossip
 spider_cli
 deploy
+papyrus_storage
