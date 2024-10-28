@@ -28,3 +28,4 @@ deploy
 cargo-lock
 dotenvy
 human_name
+rustrict
