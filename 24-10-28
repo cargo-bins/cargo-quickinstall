@@ -90,3 +90,4 @@ libbpf-cargo
 foundationdb-gen
 z3tracer
 deploy
+coldsnap
