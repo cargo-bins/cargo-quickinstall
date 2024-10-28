@@ -10,3 +10,4 @@ skim
 git-mit-relates-to
 pgrx-tests
 coldsnap
+rls-rustc
