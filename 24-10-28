@@ -72,3 +72,4 @@ rustfmt-nightly
 protox
 socketcan
 httpmock
+nexmark
