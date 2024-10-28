@@ -22,3 +22,4 @@ rls-rustc
 tendermint-rpc
 py-spy
 nkeys
+rustfmt-nightly
