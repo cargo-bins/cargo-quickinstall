@@ -47,3 +47,4 @@ clippy
 pgrx-tests
 unic-langid-impl
 protox
+cargo-lock
