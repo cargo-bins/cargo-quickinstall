@@ -22,3 +22,4 @@ tendermint-rpc
 oso
 httpmock
 clippy
+deploy
