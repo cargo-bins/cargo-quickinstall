@@ -53,3 +53,4 @@ winpty-rs
 nexmark
 borsh
 tree-sitter-cli
+pgrx-tests
