@@ -26,3 +26,4 @@ deploy
 socketcan
 syd
 diesel_cli
+cpp_demangle
