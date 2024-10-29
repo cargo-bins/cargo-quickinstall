@@ -12,3 +12,4 @@ deploy
 unic-langid-impl
 solana-gossip
 addr2line
+wol-rs
