@@ -64,3 +64,4 @@ diesel_cli
 laminar
 rustfmt-nightly
 coldsnap
+h3o
