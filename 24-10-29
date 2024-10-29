@@ -5,3 +5,4 @@ winpty-rs
 cpp_demangle
 opencv-binding-generator
 clippy
+trunk
