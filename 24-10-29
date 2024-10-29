@@ -9,3 +9,4 @@ spider_cli
 solana-cli
 cargo-outdated
 solana-validator
+socketcan
