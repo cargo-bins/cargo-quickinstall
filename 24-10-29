@@ -14,3 +14,4 @@ socketcan
 cargo-lock
 ducc-sys
 parquet
+cached-path
