@@ -38,3 +38,4 @@ cpp_demangle
 cargo-local-registry
 h3o
 dotenv
+httpmock
