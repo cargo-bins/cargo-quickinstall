@@ -40,3 +40,4 @@ h3o
 dotenv
 httpmock
 solana-net-utils
+tauri-cli
