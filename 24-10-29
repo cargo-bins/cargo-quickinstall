@@ -83,3 +83,4 @@ nextest-filtering
 tendermint-abci
 benfred-read-process-memory
 java-locator
+parquet
