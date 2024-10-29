@@ -12,3 +12,4 @@ solana-gossip
 dotenv
 ducc-sys
 arrow-flight
+rkv
