@@ -28,3 +28,4 @@ cached-path
 nextest-filtering
 racer
 trunk
+spider_worker
