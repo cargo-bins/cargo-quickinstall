@@ -20,3 +20,4 @@ cargo-generate
 winpty-rs
 unic-langid-impl
 libbpf-cargo
+human_bytes
