@@ -47,3 +47,4 @@ rls-rustc
 cpp_demangle
 racer
 cached-path
+oso
