@@ -16,3 +16,4 @@ cached-path
 solana-net-utils
 sha1collisiondetection
 protox
+rustfmt-nightly
