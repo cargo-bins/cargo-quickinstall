@@ -9,3 +9,4 @@ diesel_cli
 clippy
 rls-rustc
 syd
+deploy
