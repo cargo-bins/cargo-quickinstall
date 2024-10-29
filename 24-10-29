@@ -20,3 +20,4 @@ rustfmt-nightly
 java-locator
 borsh
 socketcan
+rustfmt-nightly
