@@ -22,3 +22,4 @@ solana-gossip
 coldsnap
 raw-cpuid
 deploy
+opencv-binding-generator
