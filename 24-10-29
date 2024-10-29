@@ -19,3 +19,4 @@ unic-langid-impl
 dotenv
 phf_generator
 borsh
+java-locator
