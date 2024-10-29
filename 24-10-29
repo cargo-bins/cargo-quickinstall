@@ -38,3 +38,4 @@ tree-sitter-graph
 tree-sitter-cli
 cargo-about
 winpty-rs
+schemafy
