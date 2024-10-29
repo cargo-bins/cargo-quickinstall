@@ -93,3 +93,4 @@ rkv
 diesel_cli
 syd
 sqlx-cli
+ec2_instance_metadata
