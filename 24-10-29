@@ -41,3 +41,4 @@ foundationdb-gen
 z3tracer
 solana-cli
 apollo-router
+solana-net-utils
