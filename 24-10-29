@@ -33,3 +33,4 @@ re_query
 wmi
 parquet
 tree-sitter-cli
+cpp_demangle
