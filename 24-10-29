@@ -39,3 +39,4 @@ cargo-local-registry
 h3o
 dotenv
 httpmock
+solana-net-utils
