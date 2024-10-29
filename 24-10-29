@@ -63,3 +63,4 @@ opencv-binding-generator
 laminar
 nextest-filtering
 wmi
+raw-cpuid
