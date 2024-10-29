@@ -17,3 +17,4 @@ tendermint-rpc
 rrule
 rkv
 pgrx-tests
+raw-cpuid
