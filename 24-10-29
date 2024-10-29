@@ -16,3 +16,4 @@ trunk
 rrule
 snarkvm
 rustfmt-nightly
+solana-cli
