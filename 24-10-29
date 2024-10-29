@@ -5,3 +5,4 @@ cached-path
 py-spy
 rls-rustc
 protox
+nextest-filtering
