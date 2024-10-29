@@ -39,3 +39,4 @@ schemafy
 ec2_instance_metadata
 text-diff
 httpmock
+rustfmt-nightly
