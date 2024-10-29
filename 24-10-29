@@ -3,3 +3,4 @@ rustfmt-nightly
 nexmark
 cpp_demangle
 solana-net-utils
+ducc-sys
