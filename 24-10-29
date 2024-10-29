@@ -49,3 +49,4 @@ rav1e
 nexmark
 tendermint-rpc
 unic-langid-impl
+remove_dir_all
