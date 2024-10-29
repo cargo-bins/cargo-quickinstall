@@ -24,3 +24,4 @@ addr2line
 pgrx-tests
 wol-rs
 dotenvy
+cargo-lock
