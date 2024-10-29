@@ -25,3 +25,4 @@ pgrx-tests
 wol-rs
 dotenvy
 cargo-lock
+solana-gossip
