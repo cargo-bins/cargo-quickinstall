@@ -17,3 +17,4 @@ parquet
 cached-path
 sha1collisiondetection
 cargo-generate
+winpty-rs
