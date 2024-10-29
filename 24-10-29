@@ -22,3 +22,4 @@ laminar
 opencv-binding-generator
 dotenv
 rls-rustc
+sha1collisiondetection
