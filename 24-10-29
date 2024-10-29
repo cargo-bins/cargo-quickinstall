@@ -44,3 +44,4 @@ addr2line
 protox
 rls-rustc
 phf_generator
+parquet
