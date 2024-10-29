@@ -27,3 +27,4 @@ dotenvy
 cargo-lock
 solana-gossip
 human_name
+pgrx-tests
