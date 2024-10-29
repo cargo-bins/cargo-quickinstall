@@ -22,3 +22,4 @@ borsh
 socketcan
 rustfmt-nightly
 rav1e
+httpmock
