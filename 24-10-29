@@ -4,3 +4,4 @@ pwasm-utils
 rustfmt-nightly
 ducc-sys
 clippy
+tendermint-rpc
