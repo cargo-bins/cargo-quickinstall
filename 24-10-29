@@ -114,3 +114,4 @@ nextest-filtering
 sqlx-cli
 solana-net-utils
 solana-remote-wallet
+cached-path
