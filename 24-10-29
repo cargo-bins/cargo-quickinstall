@@ -64,3 +64,4 @@ human_bytes
 dotenv
 nexmark
 solana-gossip
+solana-net-utils
