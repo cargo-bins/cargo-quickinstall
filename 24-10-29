@@ -43,3 +43,4 @@ spider_worker
 addr2line
 protox
 rls-rustc
+phf_generator
