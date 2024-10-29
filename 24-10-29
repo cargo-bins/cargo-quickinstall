@@ -10,3 +10,4 @@ cargo-lock
 cached-path
 tendermint-rpc
 schemafy
+racer
