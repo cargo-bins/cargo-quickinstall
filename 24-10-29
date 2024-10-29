@@ -8,3 +8,4 @@ protox
 nextest-filtering
 dotenv
 nkeys
+winpty-rs
