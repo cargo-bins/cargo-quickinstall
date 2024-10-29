@@ -10,3 +10,4 @@ dotenv
 nkeys
 winpty-rs
 cargo-local-registry
+deno
