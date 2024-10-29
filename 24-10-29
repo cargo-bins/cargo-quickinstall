@@ -14,3 +14,4 @@ tree-sitter-graph
 laminar
 dotenv
 sha1collisiondetection
+httpmock
