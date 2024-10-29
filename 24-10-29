@@ -16,3 +16,4 @@ opencv-binding-generator
 starship
 wol-rs
 deno
+raw-cpuid
