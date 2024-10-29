@@ -36,3 +36,4 @@ clippy
 arrow-flight
 nu
 a11ywatch_cli
+tendermint-rpc
