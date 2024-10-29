@@ -10,3 +10,4 @@ rustfmt-nightly
 solana-genesis
 deploy
 rustrict
+dotenv
