@@ -7,3 +7,4 @@ ducc-sys
 opencv-binding-generator
 solana-genesis
 libbpf-cargo
+starship
