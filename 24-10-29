@@ -27,3 +27,4 @@ cpp_demangle
 dotenvy
 parquet
 tendermint-abci
+winpty-rs
