@@ -24,3 +24,4 @@ pwasm-utils
 rrule
 diesel_cli
 rls-rustc
+cached-path
