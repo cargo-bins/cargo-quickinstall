@@ -16,3 +16,4 @@ rkv
 solana-gossip
 solana-genesis
 unic-langid-impl
+dotenv
