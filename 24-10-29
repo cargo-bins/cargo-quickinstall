@@ -9,3 +9,4 @@ trunk
 schemafy
 wol-rs
 solana-gossip
+dotenv
