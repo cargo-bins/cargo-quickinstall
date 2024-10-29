@@ -60,3 +60,4 @@ diesel_cli
 rav1e
 winpty-rs
 unic-langid-impl
+human_bytes
