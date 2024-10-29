@@ -19,3 +19,4 @@ protox
 rustfmt-nightly
 java-locator
 borsh
+socketcan
