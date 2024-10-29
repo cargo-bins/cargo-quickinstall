@@ -49,3 +49,4 @@ diesel_cli
 rav1e
 solana-gossip
 wol-rs
+addr2line
