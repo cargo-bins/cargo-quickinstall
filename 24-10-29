@@ -39,3 +39,4 @@ spider_cli
 solana-keygen
 clippy
 paperclip
+spider_worker
