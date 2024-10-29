@@ -31,3 +31,4 @@ trunk
 spider_worker
 laminar
 sea-orm-cli
+deno
