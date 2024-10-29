@@ -29,3 +29,4 @@ parquet
 tendermint-abci
 winpty-rs
 nexmark
+solana-validator
