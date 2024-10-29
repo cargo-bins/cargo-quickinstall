@@ -2,3 +2,4 @@ winpty-rs
 schemafy
 foundationdb-gen
 winpty-rs
+cpp_demangle
