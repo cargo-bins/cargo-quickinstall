@@ -24,3 +24,4 @@ dotenv
 rls-rustc
 sha1collisiondetection
 sha1collisiondetection
+raw-cpuid
