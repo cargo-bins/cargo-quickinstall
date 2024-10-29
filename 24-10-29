@@ -77,3 +77,4 @@ foundationdb-gen
 protox
 nexmark
 unic-langid-impl
+libbpf-cargo
