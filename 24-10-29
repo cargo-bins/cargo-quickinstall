@@ -16,3 +16,4 @@ dotenv
 sha1collisiondetection
 httpmock
 nkeys
+re_query
