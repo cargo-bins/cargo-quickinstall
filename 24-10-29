@@ -27,3 +27,4 @@ rls-rustc
 cached-path
 nextest-filtering
 racer
+trunk
