@@ -24,7 +24,7 @@ requests==2.32.3
     # via cronjob-scripts (pyproject.toml)
 semver==3.0.2
     # via cronjob-scripts (pyproject.toml)
-setuptools==75.2.0
+setuptools==75.3.0
     # via influxdb3-python
 six==1.16.0
     # via python-dateutil
