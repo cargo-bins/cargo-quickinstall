@@ -11,3 +11,4 @@ solana-genesis
 deploy
 rustrict
 dotenv
+snarkvm
