@@ -112,3 +112,4 @@ cargo-vet
 solana-validator
 nextest-filtering
 sqlx-cli
+solana-net-utils
