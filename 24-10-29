@@ -5,3 +5,4 @@ cpp_demangle
 solana-net-utils
 ducc-sys
 opencv-binding-generator
+solana-genesis
