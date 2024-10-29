@@ -5,3 +5,4 @@ parquet
 solana-cli
 tree-sitter-cli
 human_bytes
+spider_worker
