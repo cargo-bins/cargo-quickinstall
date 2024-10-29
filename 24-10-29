@@ -9,3 +9,4 @@ spider_worker
 rustfmt-nightly
 solana-genesis
 deploy
+rustrict
