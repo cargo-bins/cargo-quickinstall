@@ -72,3 +72,4 @@ sha1collisiondetection
 textplots
 phf_generator
 rustbus
+socketcan
