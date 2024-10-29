@@ -32,3 +32,4 @@ solana-remote-wallet
 paperclip
 phf_generator
 solana-net-utils
+tendermint-rpc
