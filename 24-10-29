@@ -34,3 +34,4 @@ wmi
 parquet
 tree-sitter-cli
 cpp_demangle
+human_bytes
