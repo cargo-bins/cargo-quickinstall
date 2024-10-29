@@ -87,3 +87,4 @@ parquet
 unic-langid-impl
 nextest-filtering
 solana-validator
+phf_generator
