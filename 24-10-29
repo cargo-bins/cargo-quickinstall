@@ -45,3 +45,4 @@ wol-rs
 dotenv
 solana-net-utils
 unic-langid-impl
+borsh
