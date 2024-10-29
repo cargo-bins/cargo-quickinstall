@@ -65,3 +65,4 @@ dotenv
 nexmark
 solana-gossip
 solana-net-utils
+papyrus_storage
