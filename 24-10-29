@@ -12,3 +12,4 @@ oxipng
 winpty-rs
 pgrx-tests
 librespot
+opencv-binding-generator
