@@ -106,3 +106,4 @@ watchexec-cli
 snarkvm
 libbpf-cargo
 syd
+rustfmt-nightly
