@@ -108,3 +108,4 @@ sn_cli
 solana-remote-wallet
 unic-langid-impl
 borsh
+cargo-vet
