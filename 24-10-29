@@ -10,3 +10,4 @@ libbpf-cargo
 starship
 oxipng
 winpty-rs
+pgrx-tests
