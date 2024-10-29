@@ -5,3 +5,4 @@ addr2line
 remove_dir_all
 h3o
 oso
+rustfmt-nightly
