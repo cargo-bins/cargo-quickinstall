@@ -58,3 +58,4 @@ rustfmt-nightly
 solana-keygen
 laminar
 httpmock
+nextest-filtering
