@@ -107,3 +107,4 @@ re_query
 sn_cli
 solana-remote-wallet
 unic-langid-impl
+borsh
