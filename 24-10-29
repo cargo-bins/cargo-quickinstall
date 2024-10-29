@@ -81,3 +81,4 @@ libbpf-cargo
 wmi
 solana-net-utils
 spider_cli
+human_bytes
