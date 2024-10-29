@@ -57,3 +57,4 @@ pgrx-tests
 solana-remote-wallet
 tendermint-rpc
 remove_dir_all
+protox
