@@ -17,3 +17,4 @@ solana-net-utils
 sha1collisiondetection
 protox
 rustfmt-nightly
+java-locator
