@@ -19,3 +19,4 @@ rustfmt-nightly
 solana-cli
 re_query
 cargo-outdated
+re_query
