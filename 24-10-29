@@ -11,3 +11,4 @@ nkeys
 winpty-rs
 cargo-local-registry
 deno
+raw-cpuid
