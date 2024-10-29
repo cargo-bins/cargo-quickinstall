@@ -5,3 +5,4 @@ pgrx-tests
 dotenvy
 cached-path
 rls-rustc
+remove_dir_all
