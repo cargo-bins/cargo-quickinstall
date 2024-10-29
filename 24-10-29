@@ -51,3 +51,4 @@ solana-gossip
 wol-rs
 addr2line
 benfred-read-process-memory
+socketcan
