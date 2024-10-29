@@ -16,3 +16,4 @@ ducc-sys
 parquet
 cached-path
 sha1collisiondetection
+cargo-generate
