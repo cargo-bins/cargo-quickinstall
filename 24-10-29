@@ -46,3 +46,4 @@ java-locator
 clippy
 nu
 evcxr_repl
+dotenv
