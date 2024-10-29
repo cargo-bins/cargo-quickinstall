@@ -2,3 +2,4 @@ solana-net-utils
 rustfmt-nightly
 nexmark
 cpp_demangle
+solana-net-utils
