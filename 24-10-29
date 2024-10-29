@@ -92,3 +92,4 @@ solana-remote-wallet
 rkv
 diesel_cli
 syd
+sqlx-cli
