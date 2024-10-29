@@ -28,3 +28,4 @@ cargo-lock
 solana-gossip
 human_name
 pgrx-tests
+solana-remote-wallet
