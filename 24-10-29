@@ -3,3 +3,4 @@ phf_generator
 human_name
 parquet
 solana-cli
+tree-sitter-cli
