@@ -13,3 +13,4 @@ skim
 socketcan
 cargo-lock
 ducc-sys
+parquet
