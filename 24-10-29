@@ -91,3 +91,4 @@ solana-net-utils
 snarkvm
 addr2line
 tendermint-rpc
+cpp_demangle
