@@ -70,3 +70,4 @@ solana-net-utils
 socketcan
 socketcan
 solana-remote-wallet
+addr2line
