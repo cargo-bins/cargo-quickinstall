@@ -36,3 +36,4 @@ solana-validator
 laminar
 httpmock
 unic-langid-impl
+diesel_cli
