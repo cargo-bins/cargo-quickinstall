@@ -46,3 +46,4 @@ cached-path
 rls-rustc
 cpp_demangle
 racer
+cached-path
