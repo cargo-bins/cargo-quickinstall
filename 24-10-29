@@ -64,3 +64,4 @@ laminar
 nextest-filtering
 wmi
 raw-cpuid
+solana-net-utils
