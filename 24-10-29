@@ -54,3 +54,4 @@ benfred-read-process-memory
 socketcan
 rustfmt
 oso
+sn_node
