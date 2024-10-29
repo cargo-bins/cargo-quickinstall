@@ -48,3 +48,4 @@ solana-stake-accounts
 rkv
 unic-langid-impl
 nextest-filtering
+solana-cli
