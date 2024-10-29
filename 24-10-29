@@ -63,3 +63,4 @@ pwasm-utils
 diesel_cli
 laminar
 rustfmt-nightly
+coldsnap
