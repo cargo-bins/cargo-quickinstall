@@ -21,3 +21,4 @@ raw-cpuid
 laminar
 opencv-binding-generator
 dotenv
+rls-rustc
