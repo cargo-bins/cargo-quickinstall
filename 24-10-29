@@ -38,3 +38,4 @@ nu
 a11ywatch_cli
 tendermint-rpc
 foundationdb-gen
+z3tracer
