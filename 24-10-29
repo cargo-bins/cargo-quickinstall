@@ -8,3 +8,4 @@ rls-rustc
 remove_dir_all
 rrule
 tendermint-abci
+deploy
