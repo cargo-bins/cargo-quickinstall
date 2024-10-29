@@ -32,3 +32,4 @@ trunk
 re_query
 wmi
 parquet
+tree-sitter-cli
