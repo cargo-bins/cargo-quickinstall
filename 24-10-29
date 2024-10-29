@@ -42,3 +42,4 @@ httpmock
 solana-net-utils
 tauri-cli
 dotenvy
+nextest-filtering
