@@ -11,3 +11,4 @@ tendermint-rpc
 deploy
 skim
 socketcan
+cargo-lock
