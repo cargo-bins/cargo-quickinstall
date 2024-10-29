@@ -41,3 +41,4 @@ winpty-rs
 schemafy
 borsh
 z3tracer
+ducc-sys
