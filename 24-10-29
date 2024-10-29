@@ -12,3 +12,4 @@ winpty-rs
 cargo-local-registry
 deno
 raw-cpuid
+z3tracer
