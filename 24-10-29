@@ -89,3 +89,4 @@ nextest-filtering
 solana-validator
 phf_generator
 solana-remote-wallet
+rkv
