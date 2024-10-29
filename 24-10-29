@@ -20,3 +20,4 @@ solana-stake-accounts
 borsh
 zuse
 diesel_cli
+pwasm-utils
