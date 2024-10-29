@@ -31,3 +31,4 @@ winpty-rs
 nexmark
 solana-validator
 laminar
+opencv-binding-generator
