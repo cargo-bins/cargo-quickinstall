@@ -26,3 +26,4 @@ httpmock
 cpp_demangle
 dotenvy
 parquet
+tendermint-abci
