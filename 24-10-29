@@ -15,3 +15,4 @@ raw-cpuid
 z3tracer
 rustfmt
 tokio-process
+laminar
