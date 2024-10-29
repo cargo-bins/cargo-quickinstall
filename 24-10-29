@@ -104,3 +104,4 @@ z3tracer
 solana-cli
 watchexec-cli
 snarkvm
+libbpf-cargo
