@@ -17,3 +17,4 @@ rustfmt
 tokio-process
 laminar
 rkv
+trunk
