@@ -21,3 +21,4 @@ winpty-rs
 unic-langid-impl
 libbpf-cargo
 human_bytes
+ducc-sys
