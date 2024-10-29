@@ -36,3 +36,4 @@ tree-sitter-cli
 cpp_demangle
 human_bytes
 spider_cli
+solana-keygen
