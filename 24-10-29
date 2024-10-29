@@ -93,3 +93,4 @@ addr2line
 tendermint-rpc
 cpp_demangle
 nexmark
+wmi
