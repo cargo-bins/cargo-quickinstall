@@ -26,3 +26,4 @@ re_query
 trunk
 libbpf-cargo
 arrow-flight
+solana-net-utils
