@@ -32,3 +32,4 @@ borsh
 pgrx-tests
 protox
 cargo-lock
+ducc-sys
