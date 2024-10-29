@@ -41,3 +41,4 @@ text-diff
 httpmock
 rustfmt-nightly
 sn_cli
+nexmark
