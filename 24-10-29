@@ -2,3 +2,4 @@ human_bytes
 wol-rs
 racer
 addr2line
+remove_dir_all
