@@ -59,3 +59,4 @@ tendermint-rpc
 remove_dir_all
 protox
 z3tracer
+socketcan
