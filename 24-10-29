@@ -18,3 +18,4 @@ snarkvm
 rustfmt-nightly
 solana-cli
 re_query
+cargo-outdated
