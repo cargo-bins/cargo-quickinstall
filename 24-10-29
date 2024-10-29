@@ -110,3 +110,4 @@ unic-langid-impl
 borsh
 cargo-vet
 solana-validator
+nextest-filtering
