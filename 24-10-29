@@ -33,3 +33,4 @@ paperclip
 phf_generator
 solana-net-utils
 tendermint-rpc
+solana-validator
