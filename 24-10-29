@@ -12,3 +12,4 @@ tendermint-rpc
 schemafy
 racer
 solana-stake-accounts
+cached-path
