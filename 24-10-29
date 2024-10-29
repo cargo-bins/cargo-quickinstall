@@ -18,3 +18,4 @@ tokio-process
 laminar
 rkv
 trunk
+solana-gossip
