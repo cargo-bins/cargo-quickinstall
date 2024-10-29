@@ -84,3 +84,4 @@ spider_cli
 human_bytes
 evcxr_repl
 raw-cpuid
+solana-remote-wallet
