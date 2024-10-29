@@ -49,3 +49,4 @@ borsh
 nkeys
 racer
 solana-validator
+solana-remote-wallet
