@@ -53,3 +53,4 @@ addr2line
 benfred-read-process-memory
 socketcan
 rustfmt
+oso
