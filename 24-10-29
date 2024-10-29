@@ -17,3 +17,4 @@ spider_worker
 parquet
 wol-rs
 human_name
+arrow-flight
