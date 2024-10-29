@@ -35,3 +35,4 @@ solana-net-utils
 tendermint-rpc
 solana-validator
 cached-path
+racer
