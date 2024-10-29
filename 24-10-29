@@ -34,3 +34,4 @@ rustfmt-nightly
 rrule
 solana-validator
 laminar
+httpmock
