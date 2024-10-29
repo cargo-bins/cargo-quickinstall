@@ -16,3 +16,4 @@ httpmock
 spider_worker
 parquet
 wol-rs
+human_name
