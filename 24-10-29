@@ -9,3 +9,4 @@ rustfmt-nightly
 cargo-lock
 cached-path
 tendermint-rpc
+schemafy
