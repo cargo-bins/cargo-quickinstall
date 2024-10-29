@@ -50,3 +50,4 @@ unic-langid-impl
 nextest-filtering
 solana-cli
 z3tracer
+solana-net-utils
