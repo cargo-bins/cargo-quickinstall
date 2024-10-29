@@ -48,3 +48,4 @@ parquet
 sea-orm-cli
 protox
 solana-net-utils
+addr2line
