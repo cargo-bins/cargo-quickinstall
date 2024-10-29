@@ -23,3 +23,4 @@ socketcan
 rustfmt-nightly
 rav1e
 httpmock
+cpp_demangle
