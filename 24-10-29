@@ -35,3 +35,4 @@ deno
 pgrx-tests
 rustrict
 tree-sitter-graph
+tree-sitter-cli
