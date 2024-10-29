@@ -3,3 +3,4 @@ raw-cpuid
 pwasm-utils
 rustfmt-nightly
 ducc-sys
+clippy
