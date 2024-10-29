@@ -10,3 +10,4 @@ solana-cli
 cargo-outdated
 solana-validator
 socketcan
+clippy
