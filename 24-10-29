@@ -31,3 +31,4 @@ remove_dir_all
 tree-sitter-graph
 syd
 human_bytes
+rustbus
