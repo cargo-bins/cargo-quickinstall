@@ -12,3 +12,4 @@ wol-rs
 parquet
 tree-sitter-graph
 laminar
+dotenv
