@@ -10,3 +10,4 @@ wol-rs
 tendermint-rpc
 deploy
 skim
+socketcan
