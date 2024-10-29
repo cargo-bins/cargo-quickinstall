@@ -70,3 +70,4 @@ py-spy
 cargo-vet
 sha1collisiondetection
 textplots
+phf_generator
