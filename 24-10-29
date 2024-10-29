@@ -40,3 +40,4 @@ tendermint-rpc
 foundationdb-gen
 z3tracer
 solana-cli
+apollo-router
