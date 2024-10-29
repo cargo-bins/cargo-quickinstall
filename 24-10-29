@@ -37,3 +37,4 @@ cargo-vet
 re_query
 schemafy
 ec2_instance_metadata
+text-diff
