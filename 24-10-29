@@ -19,3 +19,4 @@ rkv
 pgrx-tests
 raw-cpuid
 laminar
+opencv-binding-generator
