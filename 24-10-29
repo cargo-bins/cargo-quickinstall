@@ -42,3 +42,4 @@ tendermint-abci
 oso
 skim
 wol-rs
+dotenv
