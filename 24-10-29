@@ -47,3 +47,4 @@ phf_generator
 parquet
 sea-orm-cli
 protox
+solana-net-utils
