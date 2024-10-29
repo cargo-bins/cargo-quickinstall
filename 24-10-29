@@ -13,3 +13,4 @@ rustrict
 dotenv
 snarkvm
 oso
+tendermint-rpc
