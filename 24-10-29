@@ -57,3 +57,4 @@ unic-langid-impl
 rustfmt-nightly
 solana-keygen
 laminar
+httpmock
