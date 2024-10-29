@@ -52,3 +52,4 @@ snarkvm
 dotenvy
 rustrict
 rrule
+cpp_demangle
