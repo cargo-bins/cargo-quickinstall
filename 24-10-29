@@ -82,3 +82,4 @@ wmi
 solana-net-utils
 spider_cli
 human_bytes
+evcxr_repl
