@@ -43,3 +43,4 @@ pwasm-utils
 cpp_demangle
 syd
 cached-path
+rls-rustc
