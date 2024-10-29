@@ -4,3 +4,4 @@ tauri-cli
 z3tracer
 socketcan
 oso
+phf_generator
