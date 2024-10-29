@@ -24,3 +24,4 @@ raw-cpuid
 deploy
 opencv-binding-generator
 arrow-flight
+human_bytes
