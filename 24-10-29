@@ -28,3 +28,4 @@ dotenvy
 parquet
 tendermint-abci
 winpty-rs
+nexmark
