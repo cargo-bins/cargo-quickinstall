@@ -14,3 +14,4 @@ dotenv
 snarkvm
 oso
 tendermint-rpc
+rrule
