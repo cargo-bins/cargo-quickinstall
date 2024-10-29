@@ -21,3 +21,4 @@ phf_generator
 borsh
 java-locator
 cargo-lock
+minicbor
