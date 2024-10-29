@@ -8,3 +8,4 @@ tendermint-rpc
 borsh
 rrule
 protox
+wol-rs
