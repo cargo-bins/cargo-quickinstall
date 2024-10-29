@@ -42,3 +42,4 @@ httpmock
 rustfmt-nightly
 sn_cli
 nexmark
+re_query
