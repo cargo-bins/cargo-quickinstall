@@ -102,3 +102,4 @@ cargo-local-registry
 dotenv
 human_name
 sn_node
+syd
