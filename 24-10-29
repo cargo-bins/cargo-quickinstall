@@ -38,3 +38,4 @@ racer
 trunk
 rkv
 tendermint-rpc
+tendermint-abci
