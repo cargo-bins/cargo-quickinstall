@@ -56,3 +56,4 @@ minicbor
 clippy
 socketcan
 sqlx-cli
+cached-path
