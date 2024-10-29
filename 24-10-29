@@ -25,3 +25,4 @@ rrule
 diesel_cli
 rls-rustc
 cached-path
+nextest-filtering
