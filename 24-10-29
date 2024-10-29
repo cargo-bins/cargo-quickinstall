@@ -45,3 +45,4 @@ syd
 cached-path
 rls-rustc
 cpp_demangle
+racer
