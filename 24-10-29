@@ -111,3 +111,4 @@ borsh
 cargo-vet
 solana-validator
 nextest-filtering
+sqlx-cli
