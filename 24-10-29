@@ -7,3 +7,4 @@ tree-sitter-cli
 human_bytes
 spider_worker
 rustfmt-nightly
+solana-genesis
