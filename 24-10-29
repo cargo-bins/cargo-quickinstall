@@ -4,3 +4,4 @@ paperclip
 pgrx-tests
 dotenvy
 cached-path
+rls-rustc
