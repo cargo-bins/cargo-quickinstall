@@ -74,3 +74,4 @@ phf_generator
 rustbus
 socketcan
 httpbis
+ducc-sys
