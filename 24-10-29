@@ -1,3 +1,4 @@
 phf_generator
 raw-cpuid
 pwasm-utils
+rustfmt-nightly
