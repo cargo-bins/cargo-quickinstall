@@ -16,3 +16,4 @@ z3tracer
 rustfmt
 tokio-process
 laminar
+rkv
