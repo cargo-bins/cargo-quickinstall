@@ -13,3 +13,4 @@ dotenv
 ducc-sys
 arrow-flight
 rkv
+solana-gossip
