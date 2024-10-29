@@ -17,3 +17,4 @@ solana-gossip
 solana-genesis
 unic-langid-impl
 dotenv
+phf_generator
