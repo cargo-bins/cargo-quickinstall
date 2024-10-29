@@ -11,3 +11,4 @@ cargo-outdated
 solana-validator
 socketcan
 clippy
+textplots
