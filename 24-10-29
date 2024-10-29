@@ -7,3 +7,4 @@ starship
 nu
 diesel_cli
 clippy
+rls-rustc
