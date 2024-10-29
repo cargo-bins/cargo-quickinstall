@@ -4,3 +4,4 @@ foundationdb-gen
 winpty-rs
 cpp_demangle
 opencv-binding-generator
+clippy
