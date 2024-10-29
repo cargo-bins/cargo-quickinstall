@@ -18,3 +18,4 @@ wol-rs
 deno
 raw-cpuid
 spider_cli
+clippy
