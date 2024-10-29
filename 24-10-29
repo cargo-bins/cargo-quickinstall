@@ -31,3 +31,4 @@ solana-net-utils
 borsh
 pgrx-tests
 protox
+cargo-lock
