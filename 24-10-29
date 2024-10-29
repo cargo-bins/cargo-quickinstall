@@ -28,3 +28,4 @@ libbpf-cargo
 arrow-flight
 solana-net-utils
 minicbor
+addr2line
