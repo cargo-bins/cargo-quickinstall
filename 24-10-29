@@ -90,3 +90,4 @@ textplots
 solana-net-utils
 snarkvm
 addr2line
+tendermint-rpc
