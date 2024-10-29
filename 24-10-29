@@ -39,3 +39,4 @@ tree-sitter-cli
 cargo-about
 winpty-rs
 schemafy
+borsh
