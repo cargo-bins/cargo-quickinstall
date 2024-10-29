@@ -45,3 +45,4 @@ protox
 rls-rustc
 phf_generator
 parquet
+sea-orm-cli
