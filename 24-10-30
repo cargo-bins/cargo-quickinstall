@@ -18,3 +18,4 @@ cached-path
 sha1collisiondetection
 exa
 rmesg
+pwasm-utils
