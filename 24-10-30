@@ -61,3 +61,4 @@ libbpf-cargo
 nextest-filtering
 solana-net-utils
 apollo-router
+libbpf-cargo
