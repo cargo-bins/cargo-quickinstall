@@ -4,3 +4,4 @@ remove_dir_all
 winpty-rs
 solana-net-utils
 nkeys
+httpmock
