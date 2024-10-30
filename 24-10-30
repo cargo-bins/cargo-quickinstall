@@ -10,3 +10,4 @@ rustfmt-nightly
 coldsnap
 textplots
 rrule
+cpp_demangle
