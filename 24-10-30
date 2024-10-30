@@ -50,3 +50,4 @@ pgrx-tests
 java-locator
 rkv
 snarkvm
+tendermint-rpc
