@@ -33,3 +33,4 @@ omicron-zone-package
 sqlx-cli
 winpty-rs
 nexmark
+human_name
