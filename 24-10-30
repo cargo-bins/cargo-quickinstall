@@ -84,3 +84,4 @@ git-mit-install
 solana-remote-wallet
 cpp_demangle
 honggfuzz
+py-spy
