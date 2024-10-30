@@ -7,3 +7,4 @@ cached-path
 solana-net-utils
 tree-sitter-cli
 java-locator
+phf_generator
