@@ -34,3 +34,4 @@ py-spy
 tree-sitter-graph
 parquet
 snarkvm
+ducc-sys
