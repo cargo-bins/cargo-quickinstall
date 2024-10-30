@@ -23,3 +23,4 @@ httpmock
 solana-remote-wallet
 parquet
 sha1collisiondetection
+cpp_demangle
