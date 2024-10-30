@@ -22,3 +22,4 @@ pwasm-utils
 tendermint-abci
 ducc-sys
 git-mit-install
+cpp_demangle
