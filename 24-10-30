@@ -19,3 +19,4 @@ solana-net-utils
 nkeys
 human_name
 dotenvy
+httpmock
