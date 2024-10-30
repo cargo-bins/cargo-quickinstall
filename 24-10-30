@@ -27,3 +27,4 @@ cpp_demangle
 sea-orm-cli
 snarkvm
 h3o
+rkv
