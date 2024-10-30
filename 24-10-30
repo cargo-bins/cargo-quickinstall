@@ -49,3 +49,4 @@ diesel_cli
 sha1collisiondetection
 pwasm-utils
 nu
+solana-cli
