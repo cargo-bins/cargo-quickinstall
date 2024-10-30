@@ -35,3 +35,4 @@ racer
 rustfmt-nightly
 watchexec-cli
 socketcan
+oso
