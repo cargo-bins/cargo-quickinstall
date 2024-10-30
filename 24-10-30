@@ -18,3 +18,4 @@ textplots
 unic-langid-impl
 foundationdb-gen
 spider_cli
+libbpf-cargo
