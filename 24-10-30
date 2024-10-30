@@ -5,3 +5,4 @@ winpty-rs
 solana-net-utils
 nkeys
 httpmock
+human_bytes
