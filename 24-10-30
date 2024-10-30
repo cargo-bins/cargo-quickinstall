@@ -85,3 +85,4 @@ solana-remote-wallet
 cpp_demangle
 honggfuzz
 py-spy
+libbpf-cargo
