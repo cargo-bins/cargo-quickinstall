@@ -64,3 +64,4 @@ syd
 tree-sitter-cli
 laminar
 socketcan
+remove_dir_all
