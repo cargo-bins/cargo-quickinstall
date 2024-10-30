@@ -72,3 +72,4 @@ rrule
 sn_cli
 honggfuzz
 tendermint-abci
+cpp_demangle
