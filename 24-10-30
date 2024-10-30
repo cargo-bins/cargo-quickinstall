@@ -5,3 +5,4 @@ solana-net-utils
 diesel_cli
 re_query
 unic-langid-impl
+sha1collisiondetection
