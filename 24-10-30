@@ -33,3 +33,4 @@ librespot
 solana-remote-wallet
 racer
 rustfmt-nightly
+watchexec-cli
