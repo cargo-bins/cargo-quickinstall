@@ -21,3 +21,4 @@ rustbus
 apollo-router
 unic-langid-impl
 rmesg
+winpty-rs
