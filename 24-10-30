@@ -19,3 +19,4 @@ tokio-process
 paperclip
 rustbus
 apollo-router
+unic-langid-impl
