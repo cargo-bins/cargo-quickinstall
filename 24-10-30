@@ -5,3 +5,4 @@ human_bytes
 phf_generator
 cached-path
 rls-rustc
+httpbis
