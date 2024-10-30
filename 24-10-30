@@ -71,3 +71,4 @@ deploy
 rrule
 sn_cli
 honggfuzz
+tendermint-abci
