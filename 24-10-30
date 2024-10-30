@@ -22,3 +22,4 @@ libbpf-cargo
 httpmock
 solana-remote-wallet
 parquet
+sha1collisiondetection
