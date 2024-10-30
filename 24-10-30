@@ -33,3 +33,4 @@ racer
 nexmark
 human_name
 tendermint-rpc
+dotenv
