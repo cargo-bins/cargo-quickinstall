@@ -89,3 +89,4 @@ libbpf-cargo
 git-mit-install
 trunk
 honggfuzz
+omicron-zone-package
