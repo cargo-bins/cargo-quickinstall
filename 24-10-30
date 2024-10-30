@@ -17,3 +17,4 @@ git-mit-install
 cargo-about
 racer
 racer
+rls-rustc
