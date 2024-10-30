@@ -27,3 +27,4 @@ wmi
 tendermint-rpc
 nextest-filtering
 minicbor
+wmi
