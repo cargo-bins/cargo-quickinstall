@@ -28,3 +28,4 @@ diesel_cli
 trunk
 z3tracer
 cpp_demangle
+raw-cpuid
