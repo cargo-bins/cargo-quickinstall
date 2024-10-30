@@ -12,3 +12,4 @@ cpp_demangle
 unic-langid-impl
 oso
 httpmock
+cargo-lock
