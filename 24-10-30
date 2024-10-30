@@ -21,3 +21,4 @@ laminar
 spider_cli
 rav1e
 rustfmt-nightly
+nextest-filtering
