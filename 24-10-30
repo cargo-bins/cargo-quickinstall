@@ -28,3 +28,4 @@ foundationdb-gen
 human_name
 solana-keygen
 rustfmt-nightly
+tendermint-abci
