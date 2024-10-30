@@ -16,3 +16,4 @@ tree-sitter-graph
 syd
 pgrx-tests
 tendermint-abci
+cached-path
