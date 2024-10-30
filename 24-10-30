@@ -45,3 +45,4 @@ socketcan
 spider_worker
 textplots
 solana-net-utils
+diesel_cli
