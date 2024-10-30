@@ -33,3 +33,4 @@ raw-cpuid
 socketcan
 paperclip
 dotenv
+human_name
