@@ -53,3 +53,4 @@ solana-remote-wallet
 tokio-process
 nexmark
 git-mit-install
+tendermint-rpc
