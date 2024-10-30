@@ -15,3 +15,4 @@ rls-rustc
 rustrict
 cargo-lock
 wol-rs
+arrow-flight
