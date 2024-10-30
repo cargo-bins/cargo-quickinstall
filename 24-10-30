@@ -11,3 +11,4 @@ httpmock
 socketcan
 sha1collisiondetection
 remove_dir_all
+rls-rustc
