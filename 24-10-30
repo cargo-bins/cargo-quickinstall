@@ -19,3 +19,4 @@ sha1collisiondetection
 exa
 rmesg
 pwasm-utils
+tendermint-abci
