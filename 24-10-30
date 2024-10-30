@@ -8,3 +8,4 @@ cached-path
 laminar
 phf_generator
 libbpf-cargo
+cargo-lock
