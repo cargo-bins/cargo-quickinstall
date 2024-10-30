@@ -46,3 +46,4 @@ librespot
 solana-cli
 phf_generator
 httpmock
+opencv-binding-generator
