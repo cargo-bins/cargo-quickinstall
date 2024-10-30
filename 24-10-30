@@ -7,3 +7,4 @@ rustfmt-nightly
 cached-path
 laminar
 phf_generator
+libbpf-cargo
