@@ -16,3 +16,4 @@ rustrict
 cargo-lock
 wol-rs
 arrow-flight
+solana-net-utils
