@@ -27,3 +27,4 @@ human_bytes
 borsh
 oso
 skim
+rustfmt-nightly
