@@ -44,3 +44,4 @@ winpty-rs
 zuse
 librespot
 solana-cli
+phf_generator
