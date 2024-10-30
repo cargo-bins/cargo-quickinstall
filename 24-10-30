@@ -35,3 +35,4 @@ winpty-rs
 nexmark
 human_name
 exa
+addr2line
