@@ -24,3 +24,4 @@ rmesg
 winpty-rs
 dotenvy
 human_bytes
+borsh
