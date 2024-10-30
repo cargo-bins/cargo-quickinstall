@@ -6,3 +6,4 @@ rls-rustc
 trunk
 wmi
 sha1collisiondetection
+minicbor
