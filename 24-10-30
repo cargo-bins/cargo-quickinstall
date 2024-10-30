@@ -88,3 +88,4 @@ py-spy
 libbpf-cargo
 git-mit-install
 trunk
+honggfuzz
