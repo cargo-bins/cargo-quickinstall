@@ -29,3 +29,4 @@ cargo-tarpaulin
 cached-path
 solana-net-utils
 git-mit-install
+cargo-codspeed
