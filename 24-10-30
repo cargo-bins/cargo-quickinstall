@@ -30,3 +30,4 @@ skim
 rustfmt-nightly
 git-mit-install
 omicron-zone-package
+sqlx-cli
