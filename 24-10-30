@@ -20,3 +20,4 @@ solana-net-utils
 wmi
 wol-rs
 tendermint-abci
+minicbor
