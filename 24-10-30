@@ -3,3 +3,4 @@ winpty-rs
 java-locator
 sha1collisiondetection
 tree-sitter-cli
+evcxr_repl
