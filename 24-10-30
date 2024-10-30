@@ -24,3 +24,4 @@ solana-remote-wallet
 parquet
 sha1collisiondetection
 cpp_demangle
+sea-orm-cli
