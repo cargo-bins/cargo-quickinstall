@@ -10,3 +10,4 @@ dotenv
 rustfmt
 deno
 solana-validator
+solana-gossip
