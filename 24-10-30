@@ -47,3 +47,4 @@ textplots
 solana-net-utils
 diesel_cli
 sha1collisiondetection
+pwasm-utils
