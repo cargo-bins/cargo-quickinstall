@@ -20,3 +20,4 @@ apollo-router
 laminar
 spider_cli
 rav1e
+rustfmt-nightly
