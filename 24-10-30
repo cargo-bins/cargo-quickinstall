@@ -7,3 +7,4 @@ cached-path
 rls-rustc
 httpbis
 dotenv
+rustfmt
