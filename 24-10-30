@@ -25,3 +25,4 @@ nextest-filtering
 foundationdb-gen
 minicbor
 foundationdb-gen
+human_name
