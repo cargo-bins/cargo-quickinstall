@@ -25,3 +25,4 @@ foundationdb-gen
 unic-langid-impl
 wmi
 tendermint-rpc
+nextest-filtering
