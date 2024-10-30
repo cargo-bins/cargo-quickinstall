@@ -28,3 +28,4 @@ tendermint-rpc
 nextest-filtering
 minicbor
 wmi
+diesel_cli
