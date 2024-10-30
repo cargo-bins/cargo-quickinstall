@@ -54,3 +54,4 @@ tokio-process
 nexmark
 git-mit-install
 tendermint-rpc
+pwasm-utils
