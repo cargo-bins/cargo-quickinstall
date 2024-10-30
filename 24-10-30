@@ -53,3 +53,4 @@ solana-cli
 human_name
 arrow-flight
 solana-validator
+solana-net-utils
