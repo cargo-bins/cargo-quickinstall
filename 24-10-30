@@ -37,3 +37,4 @@ socketcan
 java-locator
 cpp_demangle
 nexmark
+pwasm-utils
