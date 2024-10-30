@@ -41,3 +41,4 @@ tendermint-rpc
 solana-validator
 raw-cpuid
 ducc-sys
+socketcan
