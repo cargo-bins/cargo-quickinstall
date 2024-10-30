@@ -30,3 +30,4 @@ solana-keygen
 rustfmt-nightly
 tendermint-abci
 solana-stake-accounts
+spider_worker
