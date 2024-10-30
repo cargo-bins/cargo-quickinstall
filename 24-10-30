@@ -15,3 +15,4 @@ rustfmt-nightly
 zuse
 spider_cli
 textplots
+unic-langid-impl
