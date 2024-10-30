@@ -75,3 +75,4 @@ solana-validator
 syd
 remove_dir_all
 minicbor
+tree-sitter-graph
