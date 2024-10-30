@@ -21,3 +21,4 @@ rmesg
 pwasm-utils
 tendermint-abci
 ducc-sys
+git-mit-install
