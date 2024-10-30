@@ -15,3 +15,4 @@ raw-cpuid
 solana-net-utils
 rrule
 cached-path
+sha1collisiondetection
