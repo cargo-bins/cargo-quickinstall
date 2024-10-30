@@ -28,3 +28,4 @@ rls-rustc
 deploy
 diesel_cli
 sqlx-cli
+minicbor
