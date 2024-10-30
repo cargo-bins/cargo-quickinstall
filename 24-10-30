@@ -20,3 +20,4 @@ exa
 rmesg
 pwasm-utils
 tendermint-abci
+ducc-sys
