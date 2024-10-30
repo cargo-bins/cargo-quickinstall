@@ -11,3 +11,4 @@ rustfmt
 deno
 solana-validator
 solana-gossip
+text-diff
