@@ -6,3 +6,4 @@ honggfuzz
 nkeys
 borsh
 h3o
+rustfmt-nightly
