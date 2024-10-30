@@ -58,3 +58,4 @@ pwasm-utils
 trunk
 papyrus_storage
 libbpf-cargo
+nextest-filtering
