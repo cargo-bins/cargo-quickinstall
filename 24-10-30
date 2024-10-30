@@ -8,3 +8,4 @@ unic-langid-impl
 sha1collisiondetection
 rls-rustc
 zuse
+socketcan
