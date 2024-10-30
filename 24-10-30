@@ -8,3 +8,4 @@ rls-rustc
 httpbis
 dotenv
 rustfmt
+deno
