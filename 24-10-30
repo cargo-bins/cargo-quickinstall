@@ -52,3 +52,4 @@ snarkvm
 a11ywatch_cli
 ducc-sys
 deno
+remove_dir_all
