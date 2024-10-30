@@ -4,3 +4,4 @@ wol-rs
 rrule
 paperclip
 rustfmt-nightly
+cached-path
