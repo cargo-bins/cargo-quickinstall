@@ -23,3 +23,4 @@ unic-langid-impl
 rmesg
 winpty-rs
 dotenvy
+human_bytes
