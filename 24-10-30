@@ -10,3 +10,4 @@ foundationdb-gen
 httpmock
 socketcan
 sha1collisiondetection
+remove_dir_all
