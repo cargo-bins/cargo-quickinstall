@@ -67,3 +67,4 @@ socketcan
 remove_dir_all
 diesel_cli
 java-locator
+solana-stake-accounts
