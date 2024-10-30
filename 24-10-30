@@ -11,3 +11,4 @@ libbpf-cargo
 cargo-lock
 tendermint-rpc
 solana-validator
+pwasm-utils
