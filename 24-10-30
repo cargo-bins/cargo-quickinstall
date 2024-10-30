@@ -42,3 +42,4 @@ solana-validator
 raw-cpuid
 ducc-sys
 socketcan
+spider_worker
