@@ -65,3 +65,4 @@ libbpf-cargo
 laminar
 apollo-router
 borsh
+ducc-sys
