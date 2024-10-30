@@ -60,3 +60,4 @@ papyrus_storage
 libbpf-cargo
 nextest-filtering
 solana-net-utils
+apollo-router
