@@ -38,3 +38,4 @@ socketcan
 oso
 phf_generator
 zuse
+opencv-binding-generator
