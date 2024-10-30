@@ -21,3 +21,4 @@ spider_cli
 libbpf-cargo
 httpmock
 solana-remote-wallet
+parquet
