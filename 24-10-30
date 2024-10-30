@@ -43,3 +43,4 @@ dotenv
 tendermint-abci
 oso
 racer
+cached-path
