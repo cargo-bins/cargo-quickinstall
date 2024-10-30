@@ -26,3 +26,4 @@ cpp_demangle
 solana-remote-wallet
 rls-rustc
 deploy
+diesel_cli
