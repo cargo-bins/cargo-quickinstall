@@ -2,3 +2,4 @@ cpp_demangle
 winpty-rs
 java-locator
 sha1collisiondetection
+tree-sitter-cli
