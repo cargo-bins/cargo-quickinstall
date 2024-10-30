@@ -21,3 +21,4 @@ rls-rustc
 cargo-about
 raw-cpuid
 clippy
+httpmock
