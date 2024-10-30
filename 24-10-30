@@ -68,3 +68,4 @@ remove_dir_all
 diesel_cli
 java-locator
 solana-stake-accounts
+opencv-binding-generator
