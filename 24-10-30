@@ -56,3 +56,4 @@ git-mit-install
 tendermint-rpc
 pwasm-utils
 trunk
+papyrus_storage
