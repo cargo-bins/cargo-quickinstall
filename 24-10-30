@@ -5,3 +5,4 @@ rustrict
 spider_worker
 tree-sitter-cli
 pwasm-utils
+human_bytes
