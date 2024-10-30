@@ -33,3 +33,4 @@ solana-remote-wallet
 cpp_demangle
 re_query
 solana-remote-wallet
+socketcan
