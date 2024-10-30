@@ -4,3 +4,4 @@ borsh
 human_bytes
 rls-rustc
 trunk
+wmi
