@@ -16,3 +16,4 @@ java-locator
 cpp_demangle
 dotenvy
 tendermint-abci
+sea-orm-cli
