@@ -36,3 +36,4 @@ parquet
 snarkvm
 ducc-sys
 rrule
+arrow-flight
