@@ -35,3 +35,4 @@ paperclip
 dotenv
 human_name
 textplots
+parquet
