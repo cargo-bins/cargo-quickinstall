@@ -40,3 +40,4 @@ phf_generator
 zuse
 opencv-binding-generator
 ducc-sys
+winpty-rs
