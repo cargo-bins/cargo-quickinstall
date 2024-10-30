@@ -13,3 +13,4 @@ solana-net-utils
 nkeys
 cargo-local-registry
 a11ywatch_cli
+cargo-about
