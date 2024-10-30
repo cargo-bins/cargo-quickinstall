@@ -48,3 +48,4 @@ phf_generator
 httpmock
 opencv-binding-generator
 schemafy
+snarkvm
