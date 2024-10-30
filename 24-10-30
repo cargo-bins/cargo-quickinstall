@@ -8,3 +8,4 @@ wmi
 sha1collisiondetection
 minicbor
 cached-path
+cpp_demangle
