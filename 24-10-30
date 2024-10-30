@@ -17,3 +17,4 @@ syd
 pgrx-tests
 tendermint-abci
 cached-path
+solana-net-utils
