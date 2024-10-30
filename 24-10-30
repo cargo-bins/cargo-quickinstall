@@ -29,3 +29,4 @@ nextest-filtering
 minicbor
 wmi
 diesel_cli
+raw-cpuid
