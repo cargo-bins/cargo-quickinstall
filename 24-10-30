@@ -86,3 +86,4 @@ cpp_demangle
 honggfuzz
 py-spy
 libbpf-cargo
+git-mit-install
