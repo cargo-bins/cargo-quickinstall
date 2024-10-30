@@ -35,3 +35,4 @@ re_query
 solana-remote-wallet
 socketcan
 java-locator
+cpp_demangle
