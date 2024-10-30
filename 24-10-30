@@ -61,3 +61,4 @@ librespot
 git-mit-install
 opencv-binding-generator
 parquet
+sea-orm-cli
