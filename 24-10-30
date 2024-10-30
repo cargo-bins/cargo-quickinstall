@@ -36,3 +36,4 @@ rustfmt-nightly
 watchexec-cli
 socketcan
 oso
+phf_generator
