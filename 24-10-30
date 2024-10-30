@@ -14,3 +14,4 @@ remove_dir_all
 rls-rustc
 rustrict
 cargo-lock
+wol-rs
