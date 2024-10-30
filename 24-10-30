@@ -39,3 +39,4 @@ addr2line
 cpp_demangle
 racer
 protox
+pwasm-utils
