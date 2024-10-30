@@ -16,3 +16,4 @@ cargo-lock
 laminar
 librespot
 wol-rs
+apollo-router
