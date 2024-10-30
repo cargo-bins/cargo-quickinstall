@@ -27,3 +27,4 @@ cargo-codspeed
 sha1collisiondetection
 cargo-tarpaulin
 cached-path
+solana-net-utils
