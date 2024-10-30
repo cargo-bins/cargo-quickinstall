@@ -30,3 +30,4 @@ textplots
 pwasm-utils
 rustrict
 solana-remote-wallet
+cpp_demangle
