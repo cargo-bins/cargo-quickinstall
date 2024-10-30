@@ -55,3 +55,4 @@ deno
 remove_dir_all
 solana-net-utils
 winpty-rs
+git-mit-install
