@@ -35,3 +35,4 @@ human_name
 tendermint-rpc
 dotenv
 cpp_demangle
+oso
