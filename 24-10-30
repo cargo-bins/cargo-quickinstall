@@ -17,3 +17,4 @@ cpp_demangle
 dotenvy
 tendermint-abci
 sea-orm-cli
+z3tracer
