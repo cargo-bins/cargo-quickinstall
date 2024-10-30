@@ -70,3 +70,4 @@ minicbor
 deploy
 rrule
 sn_cli
+honggfuzz
