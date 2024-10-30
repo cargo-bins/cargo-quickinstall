@@ -25,3 +25,4 @@ raw-cpuid
 solana-cli
 cargo-codspeed
 sha1collisiondetection
+cargo-tarpaulin
