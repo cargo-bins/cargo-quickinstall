@@ -15,3 +15,4 @@ cargo-local-registry
 a11ywatch_cli
 cargo-about
 spider_worker
+cached-path
