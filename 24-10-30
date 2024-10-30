@@ -12,3 +12,4 @@ deno
 solana-validator
 solana-gossip
 text-diff
+foundationdb-gen
