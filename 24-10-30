@@ -14,3 +14,4 @@ solana-stake-accounts
 rustfmt-nightly
 zuse
 spider_cli
+textplots
