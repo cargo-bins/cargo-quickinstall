@@ -21,3 +21,4 @@ wmi
 wol-rs
 tendermint-abci
 minicbor
+foundationdb-gen
