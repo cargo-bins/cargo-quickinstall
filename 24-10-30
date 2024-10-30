@@ -31,3 +31,4 @@ wmi
 diesel_cli
 raw-cpuid
 socketcan
+paperclip
