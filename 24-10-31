@@ -36,3 +36,4 @@ ducc-sys
 phf_generator
 papyrus_storage
 minicbor
+opencv-binding-generator
