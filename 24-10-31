@@ -74,3 +74,4 @@ clippy
 laminar
 tree-sitter-cli
 rustfmt-nightly
+remove_dir_all
