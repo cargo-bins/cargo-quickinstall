@@ -7,3 +7,4 @@ socketcan
 dotenv
 rustrict
 pwasm-utils
+tree-sitter-graph
