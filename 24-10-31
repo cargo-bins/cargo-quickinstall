@@ -93,3 +93,4 @@ wmi
 spider_worker
 cpp_demangle
 paperclip
+dotenvy
