@@ -6,3 +6,4 @@ rkv
 borsh
 deno
 unic-langid-impl
+tendermint-rpc
