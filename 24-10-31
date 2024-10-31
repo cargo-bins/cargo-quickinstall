@@ -42,3 +42,4 @@ re_query
 py-spy
 spider_worker
 nextest-filtering
+parquet
