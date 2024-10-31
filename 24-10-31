@@ -53,3 +53,4 @@ unic-langid-impl
 rkv
 libbpf-cargo
 rls-rustc
+wol-rs
