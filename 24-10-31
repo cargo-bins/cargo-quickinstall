@@ -6,3 +6,4 @@ deploy
 socketcan
 dotenv
 rustrict
+pwasm-utils
