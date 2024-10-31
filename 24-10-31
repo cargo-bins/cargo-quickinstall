@@ -7,3 +7,4 @@ diesel_cli
 solana-cli
 pwasm-utils
 apollo-router
+tree-sitter-cli
