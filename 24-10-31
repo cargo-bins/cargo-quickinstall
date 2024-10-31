@@ -9,3 +9,4 @@ rustrict
 pwasm-utils
 tree-sitter-graph
 rls-rustc
+raw-cpuid
