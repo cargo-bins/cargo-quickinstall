@@ -42,3 +42,4 @@ wmi
 pwasm-utils
 trunk
 dotenv
+pgrx-tests
