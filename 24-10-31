@@ -38,3 +38,4 @@ papyrus_storage
 minicbor
 opencv-binding-generator
 oxipng
+cargo-lock
