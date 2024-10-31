@@ -47,3 +47,4 @@ re_query
 minicbor
 nu
 libbpf-cargo
+unic-langid-impl
