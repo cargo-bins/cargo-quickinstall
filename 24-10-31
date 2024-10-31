@@ -25,3 +25,4 @@ papyrus_storage
 java-locator
 tendermint-rpc
 opencv-binding-generator
+arrow-flight
