@@ -14,3 +14,4 @@ paperclip
 honggfuzz
 cpp_demangle
 rustfmt-nightly
+httpmock
