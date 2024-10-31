@@ -12,3 +12,4 @@ rls-rustc
 raw-cpuid
 tree-sitter-graph
 nexmark
+rkv
