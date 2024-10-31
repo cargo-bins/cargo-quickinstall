@@ -44,3 +44,4 @@ trunk
 dotenv
 pgrx-tests
 re_query
+minicbor
