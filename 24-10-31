@@ -15,3 +15,4 @@ solana-keygen
 cargo-outdated
 cargo-codspeed
 solana-gossip
+tauri-cli
