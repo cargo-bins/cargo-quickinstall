@@ -47,3 +47,4 @@ tendermint-abci
 nextest-filtering
 unic-langid-impl
 httpmock
+apollo-router
