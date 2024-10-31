@@ -21,3 +21,4 @@ snarkvm
 nkeys
 winpty-rs
 parquet
+cached-path
