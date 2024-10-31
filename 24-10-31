@@ -13,3 +13,4 @@ a11ywatch_cli
 apollo-router
 solana-keygen
 cargo-outdated
+cargo-codspeed
