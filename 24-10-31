@@ -77,3 +77,4 @@ rustfmt-nightly
 remove_dir_all
 clippy
 solana-cli
+socketcan
