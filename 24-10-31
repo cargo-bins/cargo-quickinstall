@@ -43,3 +43,4 @@ rrule
 java-locator
 libbpf-cargo
 nextest-filtering
+laminar
