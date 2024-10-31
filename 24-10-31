@@ -21,3 +21,4 @@ tree-sitter-graph
 nkeys
 solana-keygen
 cargo-lock
+minicbor
