@@ -25,3 +25,4 @@ tendermint-rpc
 rls-rustc
 tree-sitter-cli
 solana-cli
+nkeys
