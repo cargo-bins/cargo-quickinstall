@@ -91,3 +91,4 @@ java-locator
 unic-langid-impl
 wmi
 spider_worker
+cpp_demangle
