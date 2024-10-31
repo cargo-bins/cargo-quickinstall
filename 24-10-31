@@ -64,3 +64,4 @@ diesel_cli
 deno
 spider_worker
 clippy
+rustrict
