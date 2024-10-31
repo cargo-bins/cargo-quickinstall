@@ -18,3 +18,4 @@ borsh
 clippy
 nkeys
 socketcan
+human_name
