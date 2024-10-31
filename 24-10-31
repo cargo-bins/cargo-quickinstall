@@ -16,3 +16,4 @@ cpp_demangle
 rustfmt-nightly
 httpmock
 nkeys
+cargo-local-registry
