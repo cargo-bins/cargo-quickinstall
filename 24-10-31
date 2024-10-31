@@ -52,3 +52,4 @@ borsh
 foundationdb-gen
 httpmock
 rls-rustc
+sea-orm-cli
