@@ -8,3 +8,4 @@ apollo-router
 dotenv
 human_bytes
 racer
+solana-net-utils
