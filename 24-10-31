@@ -3,3 +3,4 @@ nextest-filtering
 parquet
 socketcan
 nexmark
+rls-rustc
