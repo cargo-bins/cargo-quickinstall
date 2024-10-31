@@ -46,3 +46,4 @@ parquet
 tendermint-abci
 nextest-filtering
 unic-langid-impl
+httpmock
