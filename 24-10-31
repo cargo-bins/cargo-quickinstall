@@ -21,3 +21,4 @@ apollo-router
 z3tracer
 sqlx-cli
 diesel_cli
+cargo-local-registry
