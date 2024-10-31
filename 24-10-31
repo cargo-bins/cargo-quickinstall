@@ -3,3 +3,4 @@ dotenv
 paperclip
 a11ywatch_cli
 sea-orm-cli
+winpty-rs
