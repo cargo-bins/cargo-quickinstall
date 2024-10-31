@@ -6,3 +6,4 @@ papyrus_storage
 laminar
 libbpf-cargo
 arrow-flight
+wol-rs
