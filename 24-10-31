@@ -41,3 +41,4 @@ racer
 wmi
 pwasm-utils
 trunk
+dotenv
