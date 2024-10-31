@@ -21,3 +21,4 @@ socketcan
 human_name
 unic-langid-impl
 minicbor
+rustfmt-nightly
