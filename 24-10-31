@@ -85,3 +85,4 @@ z3tracer
 spider_cli
 dotenvy
 ducc-sys
+winpty-rs
