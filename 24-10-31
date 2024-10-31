@@ -17,3 +17,4 @@ rustfmt-nightly
 httpmock
 nkeys
 cargo-local-registry
+apollo-router
