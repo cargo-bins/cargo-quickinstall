@@ -27,3 +27,4 @@ watchexec-cli
 parquet
 tauri-cli
 sea-orm-cli
+watchexec-cli
