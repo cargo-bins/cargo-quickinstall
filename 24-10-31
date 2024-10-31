@@ -65,3 +65,4 @@ deno
 spider_worker
 clippy
 rustrict
+phf_generator
