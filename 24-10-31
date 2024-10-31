@@ -7,3 +7,4 @@ laminar
 libbpf-cargo
 arrow-flight
 wol-rs
+opencv-binding-generator
