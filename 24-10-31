@@ -22,3 +22,4 @@ nkeys
 solana-keygen
 cargo-lock
 minicbor
+textplots
