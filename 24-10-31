@@ -16,3 +16,4 @@ httpmock
 phf_generator
 libbpf-cargo
 ducc-sys
+trunk
