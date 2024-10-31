@@ -46,3 +46,4 @@ nextest-filtering
 laminar
 rustfmt-nightly
 arrow-flight
+nkeys
