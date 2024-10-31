@@ -51,3 +51,4 @@ trunk
 borsh
 foundationdb-gen
 httpmock
+rls-rustc
