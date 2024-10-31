@@ -48,3 +48,4 @@ rustfmt-nightly
 arrow-flight
 nkeys
 trunk
+borsh
