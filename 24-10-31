@@ -19,3 +19,4 @@ tauri-cli
 tendermint-abci
 cargo-codspeed
 cargo-local-registry
+tauri-cli
