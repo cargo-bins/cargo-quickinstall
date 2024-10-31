@@ -8,3 +8,4 @@ cargo-udeps
 trunk
 cargo-tarpaulin
 cargo-codspeed
+cargo-outdated
