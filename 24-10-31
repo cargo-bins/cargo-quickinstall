@@ -3,3 +3,4 @@ re_query
 diesel_cli
 addr2line
 deploy
+socketcan
