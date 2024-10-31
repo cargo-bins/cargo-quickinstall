@@ -4,3 +4,4 @@ solana-net-utils
 diesel_cli
 clippy
 paperclip
+parquet
