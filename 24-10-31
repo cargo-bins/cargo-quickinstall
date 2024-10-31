@@ -26,3 +26,4 @@ rls-rustc
 tree-sitter-cli
 solana-cli
 nkeys
+human_bytes
