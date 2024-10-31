@@ -1,3 +1,4 @@
 winpty-rs
 re_query
 diesel_cli
+addr2line
