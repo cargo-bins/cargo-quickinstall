@@ -12,3 +12,4 @@ git-mit-install
 a11ywatch_cli
 apollo-router
 solana-keygen
+cargo-outdated
