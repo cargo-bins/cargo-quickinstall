@@ -14,3 +14,4 @@ sha1collisiondetection
 cargo-tarpaulin
 spider_worker
 cargo-generate
+cargo-outdated
