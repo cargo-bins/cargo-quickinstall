@@ -24,3 +24,4 @@ spider_cli
 tendermint-rpc
 rls-rustc
 tree-sitter-cli
+solana-cli
