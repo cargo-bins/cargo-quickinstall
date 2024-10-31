@@ -19,3 +19,4 @@ schemafy
 diesel_cli
 snarkvm
 nkeys
+winpty-rs
