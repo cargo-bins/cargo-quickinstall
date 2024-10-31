@@ -43,3 +43,4 @@ py-spy
 spider_worker
 nextest-filtering
 parquet
+tendermint-abci
