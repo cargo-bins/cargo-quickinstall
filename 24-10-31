@@ -25,3 +25,4 @@ cargo-tarpaulin
 cargo-outdated
 watchexec-cli
 parquet
+tauri-cli
