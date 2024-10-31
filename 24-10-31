@@ -81,3 +81,4 @@ socketcan
 addr2line
 zuse
 human_name
+z3tracer
