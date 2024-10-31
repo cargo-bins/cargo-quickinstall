@@ -57,3 +57,4 @@ wol-rs
 oxipng
 libbpf-cargo
 trunk
+httpmock
