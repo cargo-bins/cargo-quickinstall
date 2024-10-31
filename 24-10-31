@@ -4,3 +4,4 @@ parquet
 socketcan
 nexmark
 rls-rustc
+protox
