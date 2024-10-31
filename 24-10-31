@@ -26,3 +26,4 @@ cargo-outdated
 watchexec-cli
 parquet
 tauri-cli
+sea-orm-cli
