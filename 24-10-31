@@ -44,3 +44,4 @@ spider_worker
 nextest-filtering
 parquet
 tendermint-abci
+nextest-filtering
