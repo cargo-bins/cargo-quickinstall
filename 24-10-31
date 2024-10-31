@@ -19,3 +19,4 @@ solana-gossip
 spider_cli
 tree-sitter-graph
 nkeys
+solana-keygen
