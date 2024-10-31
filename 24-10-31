@@ -21,3 +21,4 @@ cargo-codspeed
 cargo-local-registry
 tauri-cli
 a11ywatch_cli
+cargo-tarpaulin
