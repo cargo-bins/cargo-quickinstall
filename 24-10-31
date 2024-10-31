@@ -19,3 +19,4 @@ nkeys
 cargo-local-registry
 apollo-router
 z3tracer
+sqlx-cli
