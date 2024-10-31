@@ -5,3 +5,4 @@ remove_dir_all
 papyrus_storage
 laminar
 libbpf-cargo
+arrow-flight
