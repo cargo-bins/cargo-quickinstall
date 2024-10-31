@@ -15,3 +15,4 @@ honggfuzz
 cpp_demangle
 rustfmt-nightly
 httpmock
+nkeys
