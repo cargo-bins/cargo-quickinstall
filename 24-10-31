@@ -12,3 +12,4 @@ rmesg
 cargo-local-registry
 paperclip
 honggfuzz
+cpp_demangle
