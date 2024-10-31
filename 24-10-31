@@ -53,3 +53,4 @@ foundationdb-gen
 httpmock
 rls-rustc
 sea-orm-cli
+human_name
