@@ -6,3 +6,4 @@ trunk
 git-mit-install
 cargo-udeps
 trunk
+cargo-tarpaulin
