@@ -13,3 +13,4 @@ cargo-lock
 sha1collisiondetection
 cargo-tarpaulin
 spider_worker
+cargo-generate
