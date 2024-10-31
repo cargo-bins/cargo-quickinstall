@@ -18,3 +18,4 @@ solana-gossip
 tauri-cli
 tendermint-abci
 cargo-codspeed
+cargo-local-registry
