@@ -25,3 +25,4 @@ cached-path
 zuse
 sha1collisiondetection
 rkv
+cargo-lock
