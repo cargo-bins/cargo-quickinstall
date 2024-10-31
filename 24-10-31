@@ -62,3 +62,4 @@ paperclip
 cached-path
 diesel_cli
 deno
+spider_worker
