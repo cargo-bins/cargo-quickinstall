@@ -50,3 +50,4 @@ nkeys
 trunk
 borsh
 foundationdb-gen
+httpmock
