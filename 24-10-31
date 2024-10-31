@@ -67,3 +67,4 @@ clippy
 rustrict
 phf_generator
 socketcan
+paperclip
