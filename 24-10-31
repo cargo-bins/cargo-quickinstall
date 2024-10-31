@@ -35,3 +35,4 @@ foundationdb-gen
 ducc-sys
 phf_generator
 papyrus_storage
+minicbor
