@@ -13,3 +13,4 @@ addr2line
 diesel_cli
 minicbor
 tree-sitter-graph
+winpty-rs
