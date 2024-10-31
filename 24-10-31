@@ -11,3 +11,4 @@ textplots
 rmesg
 cargo-local-registry
 paperclip
+honggfuzz
