@@ -44,3 +44,4 @@ java-locator
 libbpf-cargo
 nextest-filtering
 laminar
+rustfmt-nightly
