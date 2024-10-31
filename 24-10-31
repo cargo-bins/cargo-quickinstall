@@ -23,3 +23,4 @@ winpty-rs
 parquet
 cached-path
 zuse
+sha1collisiondetection
