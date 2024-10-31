@@ -16,3 +16,4 @@ borsh
 remove_dir_all
 nexmark
 winpty-rs
+papyrus_storage
