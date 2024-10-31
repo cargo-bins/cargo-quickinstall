@@ -5,3 +5,4 @@ addr2line
 deploy
 socketcan
 dotenv
+rustrict
