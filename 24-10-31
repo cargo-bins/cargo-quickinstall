@@ -6,3 +6,4 @@ deno
 papyrus_storage
 apollo-router
 dotenv
+human_bytes
