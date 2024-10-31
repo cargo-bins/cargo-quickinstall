@@ -24,3 +24,4 @@ a11ywatch_cli
 cargo-tarpaulin
 cargo-outdated
 watchexec-cli
+parquet
