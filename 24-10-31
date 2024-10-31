@@ -2,3 +2,4 @@ re_query
 dotenvy
 parquet
 wmi
+rkv
