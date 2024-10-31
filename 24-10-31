@@ -68,3 +68,4 @@ rustrict
 phf_generator
 socketcan
 paperclip
+wol-rs
