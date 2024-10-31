@@ -54,3 +54,4 @@ httpmock
 rls-rustc
 sea-orm-cli
 human_name
+re_query
