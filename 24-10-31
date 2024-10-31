@@ -13,3 +13,4 @@ omicron-zone-package
 human_name
 wol-rs
 dotenvy
+winpty-rs
