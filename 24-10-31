@@ -33,3 +33,4 @@ arrow-flight
 human_bytes
 foundationdb-gen
 ducc-sys
+phf_generator
