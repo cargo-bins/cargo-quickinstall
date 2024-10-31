@@ -11,3 +11,4 @@ cargo-codspeed
 cargo-outdated
 cargo-lock
 sha1collisiondetection
+cargo-tarpaulin
