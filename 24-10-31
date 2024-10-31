@@ -24,3 +24,4 @@ cargo-lock
 minicbor
 textplots
 nu
+tendermint-abci
