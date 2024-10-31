@@ -24,3 +24,4 @@ solana-net-utils
 papyrus_storage
 java-locator
 tendermint-rpc
+opencv-binding-generator
