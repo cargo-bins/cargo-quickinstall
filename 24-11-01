@@ -35,3 +35,4 @@ cargo-udeps
 solana-genesis
 perfcnt
 pgrx-tests
+deploy
