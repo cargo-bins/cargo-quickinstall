@@ -14,3 +14,4 @@ cargo-outdated
 sccache
 cargo-lock
 solana-cli
+a11ywatch_cli
