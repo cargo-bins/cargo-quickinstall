@@ -11,3 +11,4 @@ cargo-tarpaulin
 cargo-c
 clippy
 perfcnt
+diesel_cli
