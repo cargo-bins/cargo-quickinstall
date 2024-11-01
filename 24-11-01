@@ -18,3 +18,4 @@ a11ywatch_cli
 perfcnt
 cargo-about
 apollo-router
+cargo-outdated
