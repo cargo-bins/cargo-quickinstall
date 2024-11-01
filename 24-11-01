@@ -55,3 +55,4 @@ borsh
 rls-rustc
 oso
 papyrus_storage
+tendermint-rpc
