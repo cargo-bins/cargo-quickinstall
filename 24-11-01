@@ -1,3 +1,4 @@
 racer
 rustfmt-nightly
 nexmark
+clippy
