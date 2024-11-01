@@ -2,3 +2,4 @@ wmi
 winpty-rs
 cached-path
 textplots
+sea-orm-cli
