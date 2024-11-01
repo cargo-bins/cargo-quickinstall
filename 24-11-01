@@ -5,3 +5,4 @@ httpmock
 nextest-filtering
 oxipng
 cached-path
+dotenv
