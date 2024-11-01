@@ -36,3 +36,4 @@ deploy
 deploy
 socketcan
 rls-rustc
+rkv
