@@ -45,3 +45,4 @@ nu
 schemafy
 nextest-filtering
 tendermint-rpc
+socketcan
