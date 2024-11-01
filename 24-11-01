@@ -7,3 +7,4 @@ nexmark
 deno
 java-locator
 cargo-lock
+phf_generator
