@@ -17,3 +17,4 @@ remove_dir_all
 nkeys
 deploy
 schemafy
+dotenvy
