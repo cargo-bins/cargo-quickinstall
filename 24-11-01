@@ -9,3 +9,4 @@ deploy
 rustfmt-nightly
 perfcnt
 wmi
+tendermint-rpc
