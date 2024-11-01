@@ -63,3 +63,4 @@ tree-sitter-cli
 solana-cli
 cargo-lock
 spider_worker
+z3tracer
