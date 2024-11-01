@@ -36,3 +36,4 @@ borsh
 pgrx-tests
 rkv
 pwasm-utils
+tree-sitter-graph
