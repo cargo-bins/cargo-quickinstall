@@ -4,3 +4,4 @@ winpty-rs
 solana-genesis
 skim
 pgrx-tests
+opencv-binding-generator
