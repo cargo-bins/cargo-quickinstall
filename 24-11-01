@@ -52,3 +52,4 @@ pwasm-utils
 schemafy
 tendermint-rpc
 borsh
+rls-rustc
