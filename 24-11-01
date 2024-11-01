@@ -38,3 +38,4 @@ pgrx-tests
 deploy
 cargo-udeps
 a11ywatch_cli
+cargo-lock
