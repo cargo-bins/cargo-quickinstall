@@ -11,3 +11,4 @@ apollo-router
 rustrict
 textplots
 rustfmt-nightly
+sha1collisiondetection
