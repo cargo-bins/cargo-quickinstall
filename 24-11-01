@@ -18,3 +18,4 @@ nkeys
 deploy
 schemafy
 dotenvy
+borsh
