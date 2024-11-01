@@ -10,3 +10,4 @@ sqlx-cli
 apollo-router
 rustrict
 textplots
+rustfmt-nightly
