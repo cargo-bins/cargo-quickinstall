@@ -18,3 +18,4 @@ addr2line
 sha1collisiondetection
 tree-sitter-cli
 apollo-router
+tendermint-rpc
