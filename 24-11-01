@@ -3,3 +3,4 @@ winpty-rs
 cached-path
 textplots
 sea-orm-cli
+human_bytes
