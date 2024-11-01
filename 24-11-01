@@ -25,3 +25,4 @@ diesel_cli
 h3o
 oso
 dotenv
+parquet
