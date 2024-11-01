@@ -20,3 +20,4 @@ raw-cpuid
 arrow-flight
 rkv
 rustfmt-nightly
+dotenvy
