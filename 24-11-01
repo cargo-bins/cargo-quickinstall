@@ -24,3 +24,4 @@ perfcnt
 rustbus
 minicbor
 addr2line
+pwasm-utils
