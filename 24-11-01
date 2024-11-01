@@ -31,3 +31,4 @@ sea-orm-cli
 solana-keygen
 socketcan
 opencv-binding-generator
+rkv
