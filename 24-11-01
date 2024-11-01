@@ -19,3 +19,4 @@ racer
 solana-genesis
 perfcnt
 sqlx-cli
+cargo-local-registry
