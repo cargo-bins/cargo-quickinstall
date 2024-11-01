@@ -21,3 +21,4 @@ apollo-router
 tendermint-rpc
 pwasm-utils
 syd
+deploy
