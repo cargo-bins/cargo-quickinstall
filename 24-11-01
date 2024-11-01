@@ -19,3 +19,4 @@ clippy
 rkv
 socketcan
 addr2line
+diesel_cli
