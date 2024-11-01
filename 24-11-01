@@ -49,3 +49,4 @@ raw-cpuid
 clippy
 re_query
 tendermint-abci
+wol-rs
