@@ -19,3 +19,4 @@ sha1collisiondetection
 tree-sitter-cli
 apollo-router
 tendermint-rpc
+pwasm-utils
