@@ -21,3 +21,4 @@ arrow-flight
 rkv
 rustfmt-nightly
 dotenvy
+apollo-router
