@@ -27,3 +27,4 @@ oso
 dotenv
 parquet
 remove_dir_all
+dotenv
