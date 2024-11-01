@@ -33,3 +33,4 @@ winpty-rs
 opencv-binding-generator
 java-locator
 borsh
+pgrx-tests
