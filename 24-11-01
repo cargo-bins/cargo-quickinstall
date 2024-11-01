@@ -25,3 +25,4 @@ diesel_cli
 foundationdb-gen
 oso
 cargo-generate
+sccache
