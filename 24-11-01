@@ -30,3 +30,4 @@ arrow-flight
 phf_generator
 rustrict
 winpty-rs
+opencv-binding-generator
