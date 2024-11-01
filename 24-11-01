@@ -25,3 +25,4 @@ rustbus
 minicbor
 addr2line
 pwasm-utils
+phf_generator
