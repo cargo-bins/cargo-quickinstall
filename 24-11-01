@@ -2,3 +2,4 @@ racer
 rustfmt-nightly
 nexmark
 clippy
+ducc-sys
