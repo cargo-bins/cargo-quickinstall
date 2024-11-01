@@ -2,3 +2,4 @@ perfcnt
 minicbor
 tendermint-abci
 cargo-tarpaulin
+cargo-outdated
