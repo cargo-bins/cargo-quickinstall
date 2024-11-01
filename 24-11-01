@@ -14,3 +14,4 @@ tree-sitter-cli
 phf_generator
 minicbor
 syd
+addr2line
