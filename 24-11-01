@@ -9,3 +9,4 @@ java-locator
 cargo-lock
 phf_generator
 snarkvm
+pwasm-utils
