@@ -5,3 +5,4 @@ clippy
 ducc-sys
 deploy
 rls-rustc
+paperclip
