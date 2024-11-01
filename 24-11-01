@@ -13,3 +13,4 @@ textplots
 rustfmt-nightly
 sha1collisiondetection
 minicbor
+remove_dir_all
