@@ -13,3 +13,4 @@ h3o
 winpty-rs
 tree-sitter-graph
 nextest-filtering
+human_bytes
