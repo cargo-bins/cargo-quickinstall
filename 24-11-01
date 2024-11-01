@@ -35,3 +35,4 @@ dotenvy
 deploy
 deploy
 socketcan
+rls-rustc
