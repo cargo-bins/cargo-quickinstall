@@ -50,3 +50,4 @@ rrule
 tree-sitter-cli
 pwasm-utils
 schemafy
+tendermint-rpc
