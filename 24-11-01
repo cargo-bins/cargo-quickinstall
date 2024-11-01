@@ -20,3 +20,4 @@ solana-genesis
 perfcnt
 sqlx-cli
 cargo-local-registry
+deno
