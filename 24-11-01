@@ -64,3 +64,4 @@ solana-cli
 cargo-lock
 spider_worker
 z3tracer
+perfcnt
