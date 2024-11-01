@@ -37,3 +37,4 @@ pgrx-tests
 rkv
 pwasm-utils
 tree-sitter-graph
+winpty-rs
