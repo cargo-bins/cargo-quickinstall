@@ -28,3 +28,4 @@ foundationdb-gen
 pgrx-tests
 solana-cli
 sea-orm-cli
+solana-keygen
