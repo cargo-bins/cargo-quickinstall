@@ -8,3 +8,4 @@ cached-path
 dotenv
 clippy
 minicbor
+solana-gossip
