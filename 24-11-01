@@ -28,3 +28,4 @@ cargo-generate
 sccache
 cargo-local-registry
 phf_generator
+racer
