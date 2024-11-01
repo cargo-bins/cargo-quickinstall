@@ -46,3 +46,4 @@ schemafy
 nextest-filtering
 tendermint-rpc
 socketcan
+rrule
