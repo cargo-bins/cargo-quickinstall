@@ -3,3 +3,4 @@ minicbor
 tendermint-abci
 cargo-tarpaulin
 cargo-outdated
+cargo-codspeed
