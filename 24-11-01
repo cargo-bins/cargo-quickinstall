@@ -6,3 +6,4 @@ perfcnt
 dotenvy
 racer
 deploy
+rustfmt-nightly
