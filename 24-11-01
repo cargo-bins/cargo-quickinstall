@@ -22,3 +22,4 @@ libbpf-cargo
 apollo-router
 h3o
 re_query
+wol-rs
