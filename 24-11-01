@@ -6,3 +6,4 @@ cargo-outdated
 cargo-codspeed
 tauri-cli
 cargo-c
+opencv-binding-generator
