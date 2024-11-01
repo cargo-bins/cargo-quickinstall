@@ -3,3 +3,4 @@ rustfmt-nightly
 nexmark
 clippy
 ducc-sys
+deploy
