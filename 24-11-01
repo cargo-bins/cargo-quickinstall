@@ -6,3 +6,4 @@ foundationdb-gen
 nexmark
 deno
 java-locator
+cargo-lock
