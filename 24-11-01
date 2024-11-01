@@ -8,3 +8,4 @@ racer
 deploy
 rustfmt-nightly
 perfcnt
+wmi
