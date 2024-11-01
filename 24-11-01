@@ -39,3 +39,4 @@ deploy
 cargo-udeps
 a11ywatch_cli
 cargo-lock
+human_name
