@@ -28,3 +28,4 @@ dotenv
 parquet
 remove_dir_all
 dotenv
+remove_dir_all
