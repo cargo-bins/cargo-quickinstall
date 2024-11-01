@@ -10,3 +10,4 @@ cargo-lock
 phf_generator
 snarkvm
 pwasm-utils
+rustfmt-nightly
