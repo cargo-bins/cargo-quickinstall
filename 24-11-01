@@ -8,3 +8,4 @@ human_bytes
 cargo-codspeed
 cached-path
 cargo-tarpaulin
+cargo-c
