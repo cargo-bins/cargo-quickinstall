@@ -69,3 +69,4 @@ rrule
 addr2line
 rrule
 unic-langid-impl
+cargo-lock
