@@ -3,3 +3,4 @@ re_query
 pwasm-utils
 arrow-flight
 foundationdb-gen
+nexmark
