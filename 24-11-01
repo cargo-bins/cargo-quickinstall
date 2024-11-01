@@ -61,3 +61,4 @@ rustrict
 nkeys
 tree-sitter-cli
 solana-cli
+cargo-lock
