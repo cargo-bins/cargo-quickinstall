@@ -16,3 +16,4 @@ minicbor
 syd
 addr2line
 sha1collisiondetection
+tree-sitter-cli
