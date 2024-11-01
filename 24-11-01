@@ -9,3 +9,4 @@ cargo-codspeed
 cached-path
 cargo-tarpaulin
 cargo-c
+clippy
