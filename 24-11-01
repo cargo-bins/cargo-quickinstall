@@ -7,3 +7,4 @@ deploy
 rls-rustc
 paperclip
 arrow-flight
+human_bytes
