@@ -11,3 +11,4 @@ perfcnt
 cargo-about
 solana-cli
 cargo-outdated
+sccache
