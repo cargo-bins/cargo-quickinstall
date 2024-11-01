@@ -31,3 +31,4 @@ phf_generator
 rustrict
 winpty-rs
 opencv-binding-generator
+java-locator
