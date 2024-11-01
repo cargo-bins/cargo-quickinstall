@@ -48,3 +48,4 @@ tendermint-rpc
 socketcan
 rrule
 tree-sitter-cli
+pwasm-utils
