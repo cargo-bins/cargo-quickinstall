@@ -35,3 +35,4 @@ java-locator
 borsh
 pgrx-tests
 rkv
+pwasm-utils
