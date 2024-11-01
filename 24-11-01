@@ -44,3 +44,4 @@ re_query
 nu
 schemafy
 nextest-filtering
+tendermint-rpc
