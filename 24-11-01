@@ -51,3 +51,4 @@ tree-sitter-cli
 pwasm-utils
 schemafy
 tendermint-rpc
+borsh
