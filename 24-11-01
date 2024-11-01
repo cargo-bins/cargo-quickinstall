@@ -8,3 +8,4 @@ tauri-cli
 cargo-c
 opencv-binding-generator
 perfcnt
+cargo-about
