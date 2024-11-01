@@ -4,3 +4,4 @@ rrule
 clippy
 spider_cli
 human_bytes
+libbpf-cargo
