@@ -66,3 +66,4 @@ spider_worker
 z3tracer
 perfcnt
 rrule
+addr2line
