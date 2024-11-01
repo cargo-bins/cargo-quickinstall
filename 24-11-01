@@ -34,3 +34,4 @@ cargo-outdated
 cargo-udeps
 solana-genesis
 perfcnt
+pgrx-tests
