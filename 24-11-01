@@ -22,3 +22,4 @@ sqlx-cli
 cargo-local-registry
 deno
 diesel_cli
+foundationdb-gen
