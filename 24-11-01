@@ -4,3 +4,4 @@ nexmark
 clippy
 ducc-sys
 deploy
+rls-rustc
