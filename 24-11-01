@@ -10,3 +10,4 @@ cached-path
 cargo-tarpaulin
 cargo-c
 clippy
+perfcnt
