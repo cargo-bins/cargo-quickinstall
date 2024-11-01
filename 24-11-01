@@ -21,3 +21,4 @@ socketcan
 addr2line
 diesel_cli
 solana-cli
+pgrx-tests
