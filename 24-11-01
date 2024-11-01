@@ -10,3 +10,4 @@ opencv-binding-generator
 perfcnt
 cargo-about
 solana-cli
+cargo-outdated
