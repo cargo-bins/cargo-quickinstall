@@ -3,3 +3,4 @@ dotenv
 rrule
 clippy
 spider_cli
+human_bytes
