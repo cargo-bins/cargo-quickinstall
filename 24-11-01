@@ -22,3 +22,4 @@ tendermint-rpc
 pwasm-utils
 syd
 deploy
+textplots
