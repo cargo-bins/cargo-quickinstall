@@ -31,3 +31,4 @@ dotenv
 remove_dir_all
 snarkvm
 cached-path
+phf_generator
