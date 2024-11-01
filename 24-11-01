@@ -21,3 +21,4 @@ perfcnt
 sqlx-cli
 cargo-local-registry
 deno
+diesel_cli
