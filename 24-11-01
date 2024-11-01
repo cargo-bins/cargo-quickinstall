@@ -14,3 +14,4 @@ tendermint-abci
 h3o
 laminar
 rls-rustc
+raw-cpuid
