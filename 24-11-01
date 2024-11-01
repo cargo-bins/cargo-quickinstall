@@ -12,3 +12,4 @@ winpty-rs
 h3o
 winpty-rs
 tree-sitter-graph
+nextest-filtering
