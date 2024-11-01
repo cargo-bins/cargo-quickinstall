@@ -48,3 +48,4 @@ pgrx-tests
 raw-cpuid
 clippy
 re_query
+tendermint-abci
