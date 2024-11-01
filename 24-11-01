@@ -7,3 +7,4 @@ dotenvy
 racer
 deploy
 rustfmt-nightly
+perfcnt
