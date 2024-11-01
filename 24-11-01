@@ -17,3 +17,4 @@ arrow-flight
 tree-sitter-graph
 libbpf-cargo
 tendermint-abci
+spider_worker
