@@ -53,3 +53,4 @@ schemafy
 tendermint-rpc
 borsh
 rls-rustc
+oso
