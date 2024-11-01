@@ -51,3 +51,4 @@ re_query
 tendermint-abci
 wol-rs
 rustrict
+httpmock
