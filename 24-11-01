@@ -27,3 +27,4 @@ papyrus_storage
 socketcan
 rustrict
 arrow-flight
+phf_generator
