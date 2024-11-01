@@ -12,3 +12,4 @@ cargo-c
 clippy
 perfcnt
 diesel_cli
+solana-validator
