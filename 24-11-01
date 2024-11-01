@@ -32,3 +32,4 @@ rustrict
 winpty-rs
 opencv-binding-generator
 java-locator
+borsh
