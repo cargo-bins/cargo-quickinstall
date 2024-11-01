@@ -22,3 +22,4 @@ rkv
 rustfmt-nightly
 dotenvy
 apollo-router
+solana-cli
