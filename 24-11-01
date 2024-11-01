@@ -13,3 +13,4 @@ solana-cli
 cargo-outdated
 sccache
 cargo-lock
+solana-cli
