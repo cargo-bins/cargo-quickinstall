@@ -26,3 +26,4 @@ foundationdb-gen
 oso
 cargo-generate
 sccache
+cargo-local-registry
