@@ -18,3 +18,4 @@ arrow-flight
 clippy
 rkv
 socketcan
+addr2line
