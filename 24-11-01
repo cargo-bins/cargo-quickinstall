@@ -16,3 +16,4 @@ a11ywatch_cli
 arrow-flight
 tree-sitter-graph
 libbpf-cargo
+tendermint-abci
