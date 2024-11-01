@@ -9,3 +9,4 @@ dotenv
 clippy
 minicbor
 solana-gossip
+starship
