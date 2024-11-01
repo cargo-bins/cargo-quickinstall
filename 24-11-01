@@ -16,3 +16,4 @@ laminar
 rls-rustc
 raw-cpuid
 apollo-router
+pwasm-utils
