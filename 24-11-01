@@ -29,3 +29,4 @@ sccache
 cargo-local-registry
 phf_generator
 racer
+pgrx-tests
