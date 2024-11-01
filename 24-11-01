@@ -18,3 +18,4 @@ socketcan
 racer
 solana-genesis
 perfcnt
+sqlx-cli
