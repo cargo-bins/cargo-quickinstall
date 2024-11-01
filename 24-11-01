@@ -7,3 +7,4 @@ oxipng
 cached-path
 dotenv
 clippy
+minicbor
