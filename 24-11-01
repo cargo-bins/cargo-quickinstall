@@ -13,3 +13,4 @@ tendermint-rpc
 tendermint-abci
 h3o
 laminar
+rls-rustc
