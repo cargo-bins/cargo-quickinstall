@@ -13,3 +13,4 @@ pwasm-utils
 rustfmt-nightly
 a11ywatch_cli
 oso
+cached-path
