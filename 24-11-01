@@ -22,3 +22,4 @@ borsh
 schemafy
 perfcnt
 rustbus
+minicbor
