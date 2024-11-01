@@ -10,3 +10,4 @@ rustfmt-nightly
 perfcnt
 wmi
 tendermint-rpc
+tendermint-abci
