@@ -8,3 +8,4 @@ deno
 java-locator
 cargo-lock
 phf_generator
+snarkvm
