@@ -6,3 +6,4 @@ ducc-sys
 deploy
 rls-rustc
 paperclip
+arrow-flight
