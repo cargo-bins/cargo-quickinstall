@@ -6,3 +6,4 @@ cargo-local-registry
 raw-cpuid
 human_bytes
 cpp_demangle
+sqlx-cli
