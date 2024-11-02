@@ -19,3 +19,4 @@ dotenvy
 foundationdb-gen
 opencv-binding-generator
 minicbor
+schemafy
