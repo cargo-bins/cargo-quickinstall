@@ -12,3 +12,4 @@ spider_worker
 sea-orm-cli
 schemafy
 wmi
+winpty-rs
