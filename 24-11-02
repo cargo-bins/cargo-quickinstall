@@ -7,3 +7,4 @@ solana-validator
 nextest-filtering
 wmi
 racer
+rls-rustc
