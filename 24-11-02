@@ -8,3 +8,4 @@ opencv-binding-generator
 cpp_demangle
 py-spy
 tree-sitter-cli
+cpp_demangle
