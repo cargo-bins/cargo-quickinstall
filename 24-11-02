@@ -12,3 +12,4 @@ rls-rustc
 pwasm-utils
 wmi
 tendermint-rpc
+diesel_cli
