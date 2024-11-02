@@ -5,3 +5,4 @@ cargo-c
 solana-genesis
 human_bytes
 addr2line
+human_name
