@@ -16,3 +16,4 @@ diesel_cli
 parquet
 opencv-binding-generator
 dotenvy
+foundationdb-gen
