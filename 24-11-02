@@ -26,3 +26,4 @@ remove_dir_all
 arrow-flight
 pgrx-tests
 parquet
+cargo-udeps
