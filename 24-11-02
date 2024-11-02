@@ -19,3 +19,4 @@ nextest-filtering
 borsh
 tree-sitter-graph
 syd
+cargo-lock
