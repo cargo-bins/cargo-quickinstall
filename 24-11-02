@@ -35,3 +35,4 @@ deploy
 perfcnt
 nextest-filtering
 apollo-router
+wmi
