@@ -25,3 +25,4 @@ solana-validator
 addr2line
 phf_generator
 tendermint-rpc
+rls-rustc
