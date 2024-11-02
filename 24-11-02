@@ -7,3 +7,4 @@ pgrx-tests
 papyrus_storage
 coldsnap
 cargo-lock
+addr2line
