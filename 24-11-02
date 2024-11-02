@@ -73,3 +73,4 @@ foundationdb-gen
 phf_generator
 addr2line
 cargo-generate
+libbpf-cargo
