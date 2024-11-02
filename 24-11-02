@@ -12,3 +12,4 @@ cpp_demangle
 nexmark
 rkv
 cargo-lock
+remove_dir_all
