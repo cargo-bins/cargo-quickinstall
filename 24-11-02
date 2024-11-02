@@ -39,3 +39,4 @@ wmi
 cargo-lock
 wol-rs
 py-spy
+z3tracer
