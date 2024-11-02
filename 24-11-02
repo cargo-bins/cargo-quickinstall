@@ -11,3 +11,4 @@ sqlx-cli
 rls-rustc
 pwasm-utils
 wmi
+tendermint-rpc
