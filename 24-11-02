@@ -26,3 +26,4 @@ pgrx-tests
 syd
 textplots
 paperclip
+winpty-rs
