@@ -3,3 +3,4 @@ py-spy
 rkv
 winpty-rs
 raw-cpuid
+ducc-sys
