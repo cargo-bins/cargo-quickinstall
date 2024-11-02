@@ -60,3 +60,4 @@ py-spy
 cargo-tarpaulin
 tauri-cli
 rkv
+cargo-lock
