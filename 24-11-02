@@ -42,3 +42,4 @@ remove_dir_all
 human_bytes
 wol-rs
 rmesg
+httpmock
