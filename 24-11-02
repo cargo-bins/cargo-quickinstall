@@ -31,3 +31,4 @@ cargo-generate
 rkv
 git-mit-config
 cargo-local-registry
+wol-rs
