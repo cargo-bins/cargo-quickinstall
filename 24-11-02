@@ -45,3 +45,4 @@ zuse
 tendermint-abci
 rls-rustc
 z3tracer
+parquet
