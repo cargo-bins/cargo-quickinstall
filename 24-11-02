@@ -27,3 +27,4 @@ addr2line
 syd
 diesel_cli
 solana-tokens
+cpp_demangle
