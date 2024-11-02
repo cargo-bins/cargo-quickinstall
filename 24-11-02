@@ -63,3 +63,4 @@ wmi
 solana-tokens
 nkeys
 py-spy
+sea-orm-cli
