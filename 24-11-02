@@ -36,3 +36,4 @@ sccache
 perfcnt
 sha1collisiondetection
 rrule
+clippy
