@@ -43,3 +43,4 @@ z3tracer
 minicbor
 zuse
 tendermint-abci
+rls-rustc
