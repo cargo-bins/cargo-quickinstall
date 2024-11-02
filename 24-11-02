@@ -29,3 +29,4 @@ parquet
 cargo-udeps
 cargo-c
 solana-genesis
+minicbor
