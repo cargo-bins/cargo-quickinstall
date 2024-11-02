@@ -5,3 +5,4 @@ arrow-flight
 rrule
 parquet
 opencv-binding-generator
+cpp_demangle
