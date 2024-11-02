@@ -33,3 +33,4 @@ git-mit-config
 cargo-local-registry
 wol-rs
 cargo-tarpaulin
+cargo-local-registry
