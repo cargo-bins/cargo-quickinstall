@@ -44,3 +44,4 @@ ducc-sys
 winpty-rs
 raw-cpuid
 human_bytes
+rustfmt-nightly
