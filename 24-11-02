@@ -75,3 +75,4 @@ addr2line
 cargo-generate
 libbpf-cargo
 spider_cli
+winpty-rs
