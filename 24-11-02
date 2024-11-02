@@ -35,3 +35,4 @@ cpp_demangle
 sccache
 perfcnt
 sha1collisiondetection
+rrule
