@@ -13,3 +13,4 @@ pwasm-utils
 wmi
 tendermint-rpc
 diesel_cli
+cargo-udeps
