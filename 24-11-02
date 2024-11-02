@@ -16,3 +16,4 @@ remove_dir_all
 dotenvy
 solana-validator
 minicbor
+wol-rs
