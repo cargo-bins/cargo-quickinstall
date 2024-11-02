@@ -25,3 +25,4 @@ solana-stake-accounts
 wmi
 pwasm-utils
 starship
+solana-gossip
