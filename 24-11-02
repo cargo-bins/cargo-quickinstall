@@ -6,3 +6,4 @@ libbpf-cargo
 tendermint-rpc
 protox
 spider_cli
+solana-cli
