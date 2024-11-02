@@ -21,3 +21,4 @@ opencv-binding-generator
 minicbor
 schemafy
 oso
+rustfmt-nightly
