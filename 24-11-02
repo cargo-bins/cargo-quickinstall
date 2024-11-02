@@ -29,3 +29,4 @@ pgrx-tests
 remove_dir_all
 syd
 apollo-router
+perfcnt
