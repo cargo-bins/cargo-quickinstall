@@ -34,3 +34,4 @@ borsh
 deploy
 perfcnt
 nextest-filtering
+apollo-router
