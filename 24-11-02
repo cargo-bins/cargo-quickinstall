@@ -32,3 +32,4 @@ solana-genesis
 minicbor
 paperclip
 cpp_demangle
+sccache
