@@ -10,3 +10,4 @@ cargo-lock
 addr2line
 nextest-filtering
 honggfuzz
+re_query
