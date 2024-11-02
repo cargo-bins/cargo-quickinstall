@@ -9,3 +9,4 @@ wmi
 racer
 rls-rustc
 cached-path
+httpmock
