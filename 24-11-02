@@ -26,3 +26,4 @@ dotenv
 rkv
 schemafy
 httpmock
+borsh
