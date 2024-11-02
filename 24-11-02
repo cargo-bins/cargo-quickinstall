@@ -17,3 +17,4 @@ protox
 dotenvy
 dotenv
 tendermint-rpc
+cpp_demangle
