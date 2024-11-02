@@ -3,3 +3,4 @@ solana-tokens
 cargo-tarpaulin
 cargo-c
 solana-genesis
+human_bytes
