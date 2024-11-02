@@ -6,3 +6,4 @@ rustrict
 nextest-filtering
 tendermint-abci
 pwasm-utils
+addr2line
