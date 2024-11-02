@@ -44,3 +44,4 @@ wol-rs
 rmesg
 httpmock
 rls-rustc
+apollo-router
