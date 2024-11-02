@@ -24,3 +24,4 @@ cargo-generate
 solana-gossip
 tree-sitter-graph
 tendermint-abci
+solana-genesis
