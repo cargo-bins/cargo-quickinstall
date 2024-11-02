@@ -12,3 +12,4 @@ clippy
 cargo-lock
 minicbor
 h3o
+trunk
