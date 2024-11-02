@@ -6,3 +6,4 @@ rrule
 parquet
 opencv-binding-generator
 cpp_demangle
+py-spy
