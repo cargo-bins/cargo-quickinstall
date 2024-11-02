@@ -8,3 +8,4 @@ nextest-filtering
 wmi
 racer
 rls-rustc
+cached-path
