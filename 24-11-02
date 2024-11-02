@@ -16,3 +16,4 @@ remove_dir_all
 tendermint-rpc
 solana-validator
 cargo-c
+perfcnt
