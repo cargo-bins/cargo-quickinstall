@@ -3,3 +3,4 @@ nextest-filtering
 schemafy
 ducc-sys
 solana-cli
+solana-validator
