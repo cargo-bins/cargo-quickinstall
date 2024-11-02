@@ -5,3 +5,4 @@ winpty-rs
 raw-cpuid
 ducc-sys
 opencv-binding-generator
+tendermint-abci
