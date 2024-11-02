@@ -42,3 +42,4 @@ diesel_cli
 solana-validator
 ducc-sys
 winpty-rs
+raw-cpuid
