@@ -27,3 +27,4 @@ tendermint-abci
 solana-genesis
 pgrx-tests
 remove_dir_all
+syd
