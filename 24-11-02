@@ -32,3 +32,4 @@ py-spy
 raw-cpuid
 borsh
 deploy
+perfcnt
