@@ -19,3 +19,4 @@ tendermint-abci
 phf_generator
 paperclip
 git-mit-config
+cargo-local-registry
