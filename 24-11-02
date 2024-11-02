@@ -27,3 +27,4 @@ deno
 dotenv
 deno
 deploy
+rls-rustc
