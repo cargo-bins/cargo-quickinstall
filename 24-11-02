@@ -15,3 +15,4 @@ rav1e
 cargo-local-registry
 solana-genesis
 arrow-flight
+dotenvy
