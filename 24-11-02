@@ -33,3 +33,4 @@ raw-cpuid
 borsh
 deploy
 perfcnt
+nextest-filtering
