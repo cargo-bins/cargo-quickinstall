@@ -14,3 +14,4 @@ cargo-lock
 laminar
 diesel_cli
 parquet
+opencv-binding-generator
