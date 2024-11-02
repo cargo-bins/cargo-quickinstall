@@ -8,3 +8,4 @@ papyrus_storage
 coldsnap
 cargo-lock
 addr2line
+nextest-filtering
