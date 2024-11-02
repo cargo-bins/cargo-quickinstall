@@ -38,3 +38,4 @@ apollo-router
 wmi
 cargo-lock
 wol-rs
+py-spy
