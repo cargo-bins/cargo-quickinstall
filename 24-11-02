@@ -4,3 +4,4 @@ opencv-binding-generator
 librespot
 libbpf-cargo
 tendermint-rpc
+protox
