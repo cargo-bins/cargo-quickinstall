@@ -59,3 +59,4 @@ papyrus_storage
 py-spy
 cargo-tarpaulin
 tauri-cli
+rkv
