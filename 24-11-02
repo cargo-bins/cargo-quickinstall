@@ -30,3 +30,4 @@ rustfmt
 pgrx-tests
 raw-cpuid
 rls-rustc
+tree-sitter-graph
