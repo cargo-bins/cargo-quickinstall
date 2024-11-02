@@ -20,3 +20,4 @@ borsh
 tree-sitter-graph
 syd
 cargo-lock
+solana-stake-accounts
