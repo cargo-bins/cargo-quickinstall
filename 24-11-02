@@ -38,3 +38,4 @@ rmesg
 solana-genesis
 clippy
 perfcnt
+remove_dir_all
