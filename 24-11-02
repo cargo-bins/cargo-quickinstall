@@ -25,3 +25,4 @@ solana-gossip
 tree-sitter-graph
 tendermint-abci
 solana-genesis
+pgrx-tests
