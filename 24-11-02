@@ -47,3 +47,4 @@ rls-rustc
 z3tracer
 parquet
 foundationdb-gen
+rustfmt-nightly
