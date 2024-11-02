@@ -22,3 +22,4 @@ git-mit-config
 cargo-local-registry
 cargo-lock
 skim
+solana-gossip
