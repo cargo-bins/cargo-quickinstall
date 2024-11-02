@@ -47,3 +47,4 @@ human_bytes
 rustfmt-nightly
 cargo-c
 human_name
+laminar
