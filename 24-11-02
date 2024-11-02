@@ -20,3 +20,4 @@ clippy
 z3tracer
 socketcan
 clippy
+cargo-generate
