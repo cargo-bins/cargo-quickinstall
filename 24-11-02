@@ -13,3 +13,4 @@ sea-orm-cli
 schemafy
 wmi
 winpty-rs
+z3tracer
