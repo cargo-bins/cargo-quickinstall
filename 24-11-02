@@ -28,3 +28,4 @@ solana-genesis
 rmesg
 rustfmt
 pgrx-tests
+raw-cpuid
