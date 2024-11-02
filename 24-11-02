@@ -76,3 +76,4 @@ cargo-generate
 libbpf-cargo
 spider_cli
 winpty-rs
+tree-sitter-cli
