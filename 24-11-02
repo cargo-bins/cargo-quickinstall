@@ -27,3 +27,4 @@ arrow-flight
 pgrx-tests
 parquet
 cargo-udeps
+cargo-c
