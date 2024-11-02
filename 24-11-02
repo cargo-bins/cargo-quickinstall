@@ -49,3 +49,4 @@ parquet
 foundationdb-gen
 rustfmt-nightly
 librespot
+a11ywatch_cli
