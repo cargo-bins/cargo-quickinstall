@@ -70,3 +70,4 @@ spider_cli
 nexmark
 git-mit-config
 foundationdb-gen
+phf_generator
