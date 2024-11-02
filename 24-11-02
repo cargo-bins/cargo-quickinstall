@@ -16,3 +16,4 @@ diesel_cli
 remove_dir_all
 borsh
 re_query
+apollo-router
