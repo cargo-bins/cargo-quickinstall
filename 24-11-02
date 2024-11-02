@@ -2,3 +2,4 @@ perfcnt
 py-spy
 rkv
 winpty-rs
+raw-cpuid
