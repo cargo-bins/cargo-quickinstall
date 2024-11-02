@@ -5,3 +5,4 @@ ducc-sys
 solana-cli
 solana-validator
 nextest-filtering
+wmi
