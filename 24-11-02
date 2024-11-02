@@ -17,3 +17,4 @@ tendermint-rpc
 solana-validator
 cargo-c
 perfcnt
+nexmark
