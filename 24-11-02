@@ -13,3 +13,4 @@ arrow-flight
 pgrx-tests
 perfcnt
 diesel_cli
+remove_dir_all
