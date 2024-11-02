@@ -11,3 +11,4 @@ rls-rustc
 cached-path
 httpmock
 solana-validator
+borsh
