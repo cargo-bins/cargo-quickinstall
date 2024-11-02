@@ -63,3 +63,4 @@ rkv
 cargo-lock
 git-mit-config
 human_bytes
+racer
