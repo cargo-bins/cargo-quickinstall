@@ -12,3 +12,4 @@ apollo-router
 minicbor
 cargo-lock
 laminar
+diesel_cli
