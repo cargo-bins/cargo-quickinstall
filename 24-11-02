@@ -61,3 +61,4 @@ cargo-tarpaulin
 tauri-cli
 rkv
 cargo-lock
+git-mit-config
