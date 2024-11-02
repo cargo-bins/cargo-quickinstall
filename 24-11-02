@@ -26,3 +26,4 @@ solana-gossip
 skim
 solana-genesis
 rmesg
+rustfmt
