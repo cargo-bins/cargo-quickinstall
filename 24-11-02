@@ -6,3 +6,4 @@ tendermint-abci
 pwasm-utils
 sha1collisiondetection
 racer
+raw-cpuid
