@@ -69,3 +69,4 @@ cargo-c
 spider_cli
 nexmark
 git-mit-config
+foundationdb-gen
