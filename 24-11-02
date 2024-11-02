@@ -22,3 +22,4 @@ rav1e
 diesel_cli
 laminar
 clippy
+remove_dir_all
