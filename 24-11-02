@@ -24,3 +24,4 @@ rustfmt-nightly
 protox
 sccache
 cpp_demangle
+solana-tokens
