@@ -43,3 +43,4 @@ human_bytes
 wol-rs
 rmesg
 httpmock
+rls-rustc
