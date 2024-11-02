@@ -71,3 +71,4 @@ nexmark
 git-mit-config
 foundationdb-gen
 phf_generator
+addr2line
