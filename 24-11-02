@@ -37,3 +37,4 @@ nextest-filtering
 apollo-router
 wmi
 cargo-lock
+wol-rs
