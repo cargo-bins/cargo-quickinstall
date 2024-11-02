@@ -9,3 +9,4 @@ pwasm-utils
 addr2line
 z3tracer
 nexmark
+arrow-flight
