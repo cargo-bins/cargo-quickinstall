@@ -48,3 +48,4 @@ apollo-router
 exa
 java-locator
 rustfmt-nightly
+tendermint-rpc
