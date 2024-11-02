@@ -45,3 +45,4 @@ winpty-rs
 raw-cpuid
 human_bytes
 rustfmt-nightly
+cargo-c
