@@ -11,3 +11,4 @@ wol-rs
 spider_worker
 sea-orm-cli
 schemafy
+wmi
