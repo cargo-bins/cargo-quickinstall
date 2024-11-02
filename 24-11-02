@@ -10,3 +10,4 @@ raw-cpuid
 human_name
 apollo-router
 minicbor
+cargo-lock
