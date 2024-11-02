@@ -25,3 +25,4 @@ racer
 dotenv
 rkv
 schemafy
+httpmock
