@@ -33,3 +33,4 @@ foundationdb-gen
 sha1collisiondetection
 solana-gossip
 borsh
+deno
