@@ -5,3 +5,4 @@ librespot
 libbpf-cargo
 tendermint-rpc
 protox
+spider_cli
