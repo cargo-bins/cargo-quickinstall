@@ -74,3 +74,4 @@ phf_generator
 addr2line
 cargo-generate
 libbpf-cargo
+spider_cli
