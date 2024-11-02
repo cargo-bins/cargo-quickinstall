@@ -23,3 +23,4 @@ rustrict
 rustfmt-nightly
 protox
 sccache
+cpp_demangle
