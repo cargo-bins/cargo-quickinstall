@@ -15,3 +15,4 @@ tendermint-rpc
 diesel_cli
 cargo-udeps
 dotenvy
+nextest-filtering
