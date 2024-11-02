@@ -21,3 +21,4 @@ paperclip
 git-mit-config
 cargo-local-registry
 cargo-lock
+skim
