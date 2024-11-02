@@ -22,3 +22,4 @@ snarkvm
 rustfmt-nightly
 racer
 solana-stake-accounts
+wmi
