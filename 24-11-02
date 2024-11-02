@@ -19,3 +19,4 @@ dotenv
 tendermint-rpc
 cpp_demangle
 snarkvm
+rustfmt-nightly
