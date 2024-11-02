@@ -29,3 +29,4 @@ diesel_cli
 solana-tokens
 cpp_demangle
 cached-path
+solana-stake-accounts
