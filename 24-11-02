@@ -29,3 +29,4 @@ solana-gossip
 remove_dir_all
 ducc-sys
 perfcnt
+foundationdb-gen
