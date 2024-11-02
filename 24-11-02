@@ -36,3 +36,4 @@ borsh
 deno
 librespot
 schemafy
+cargo-lock
