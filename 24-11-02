@@ -13,3 +13,4 @@ minicbor
 cargo-lock
 laminar
 diesel_cli
+parquet
