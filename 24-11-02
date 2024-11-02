@@ -3,3 +3,4 @@ remove_dir_all
 opencv-binding-generator
 librespot
 libbpf-cargo
+tendermint-rpc
