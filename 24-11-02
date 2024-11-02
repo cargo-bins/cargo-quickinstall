@@ -10,3 +10,4 @@ benfred-read-process-memory
 borsh
 rkv
 opencv-binding-generator
+re_query
