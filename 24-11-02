@@ -35,3 +35,4 @@ wol-rs
 cargo-tarpaulin
 cargo-local-registry
 borsh
+solana-tokens
