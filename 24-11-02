@@ -49,3 +49,4 @@ cargo-c
 human_name
 laminar
 racer
+sea-orm-cli
