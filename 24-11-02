@@ -25,3 +25,4 @@ clippy
 remove_dir_all
 addr2line
 syd
+diesel_cli
