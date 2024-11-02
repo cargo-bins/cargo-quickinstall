@@ -65,3 +65,4 @@ git-mit-config
 human_bytes
 racer
 cargo-generate
+cargo-c
