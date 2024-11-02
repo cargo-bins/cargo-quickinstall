@@ -32,3 +32,4 @@ raw-cpuid
 rls-rustc
 tree-sitter-graph
 oso
+pgrx-tests
