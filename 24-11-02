@@ -28,3 +28,4 @@ pgrx-tests
 parquet
 cargo-udeps
 cargo-c
+solana-genesis
