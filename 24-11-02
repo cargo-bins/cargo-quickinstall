@@ -13,3 +13,4 @@ laminar
 diesel_cli
 cargo-udeps
 remove_dir_all
+tendermint-rpc
