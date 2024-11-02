@@ -30,3 +30,4 @@ pgrx-tests
 cargo-generate
 rkv
 git-mit-config
+cargo-local-registry
