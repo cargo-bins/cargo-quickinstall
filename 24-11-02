@@ -31,3 +31,4 @@ cargo-c
 solana-genesis
 minicbor
 paperclip
+cpp_demangle
