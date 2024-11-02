@@ -7,3 +7,4 @@ foundationdb-gen
 cached-path
 nu
 solana-tokens
+sqlx-cli
