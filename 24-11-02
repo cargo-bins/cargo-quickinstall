@@ -17,3 +17,4 @@ cargo-udeps
 dotenvy
 nextest-filtering
 borsh
+tree-sitter-graph
