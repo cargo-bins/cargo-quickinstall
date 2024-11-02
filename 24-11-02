@@ -29,3 +29,4 @@ rmesg
 rustfmt
 pgrx-tests
 raw-cpuid
+rls-rustc
