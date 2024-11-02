@@ -10,3 +10,4 @@ clippy
 deploy
 arrow-flight
 laminar
+diesel_cli
