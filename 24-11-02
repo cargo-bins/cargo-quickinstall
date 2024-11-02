@@ -54,3 +54,4 @@ perfcnt
 deno
 sea-orm-cli
 phf_generator
+a11ywatch_cli
