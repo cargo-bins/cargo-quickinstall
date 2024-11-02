@@ -55,3 +55,4 @@ tendermint-rpc
 paperclip
 perfcnt
 solana-tokens
+nextest-filtering
