@@ -16,3 +16,4 @@ perfcnt
 sn_node
 httpbis
 tendermint-abci
+phf_generator
