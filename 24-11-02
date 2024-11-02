@@ -22,3 +22,4 @@ syd
 cargo-lock
 solana-stake-accounts
 apollo-router
+remove_dir_all
