@@ -12,3 +12,4 @@ nextest-filtering
 honggfuzz
 re_query
 rav1e
+cargo-local-registry
