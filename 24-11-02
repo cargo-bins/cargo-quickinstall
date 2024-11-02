@@ -7,3 +7,4 @@ tendermint-rpc
 protox
 spider_cli
 solana-cli
+wol-rs
