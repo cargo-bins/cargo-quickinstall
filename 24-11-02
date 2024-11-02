@@ -38,3 +38,4 @@ sha1collisiondetection
 rrule
 clippy
 human_name
+diesel_cli
