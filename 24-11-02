@@ -8,3 +8,4 @@ cached-path
 nu
 solana-tokens
 sqlx-cli
+rls-rustc
