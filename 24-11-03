@@ -6,3 +6,4 @@ tokio-process
 addr2line
 clippy
 pgrx-tests
+cargo-generate
