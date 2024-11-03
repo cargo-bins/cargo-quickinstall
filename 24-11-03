@@ -30,3 +30,4 @@ paperclip
 deploy
 java-locator
 librespot
+remove_dir_all
