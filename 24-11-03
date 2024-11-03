@@ -30,3 +30,4 @@ evcxr_repl
 solana-genesis
 tendermint-rpc
 dotenv
+rustrict
