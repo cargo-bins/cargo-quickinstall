@@ -64,3 +64,4 @@ addr2line
 mit-pre-commit
 rrule
 solana-genesis
+wol-rs
