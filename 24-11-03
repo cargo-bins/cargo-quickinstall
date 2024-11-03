@@ -25,3 +25,4 @@ solana-validator
 httpmock
 minicbor
 solana-validator
+libbpf-cargo
