@@ -3,3 +3,4 @@ cargo-generate
 ducc-sys
 unic-langid-impl
 solana-tokens
+py-spy
