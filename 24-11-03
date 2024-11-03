@@ -71,3 +71,4 @@ spider_worker
 parquet
 h3o
 nexmark
+arrow-flight
