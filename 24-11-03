@@ -27,3 +27,4 @@ rustfmt-nightly
 solana-tokens
 tree-sitter-cli
 phf_generator
+z3tracer
