@@ -69,3 +69,4 @@ sea-orm-cli
 py-spy
 borsh
 laminar
+libbpf-cargo
