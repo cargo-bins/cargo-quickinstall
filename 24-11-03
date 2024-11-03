@@ -18,3 +18,4 @@ cargo-generate
 solana-validator
 cached-path
 socketcan
+papyrus_storage
