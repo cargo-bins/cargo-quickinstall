@@ -17,3 +17,4 @@ httpmock
 addr2line
 rrule
 tendermint-abci
+sea-orm-cli
