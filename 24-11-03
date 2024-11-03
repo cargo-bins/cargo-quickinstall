@@ -31,3 +31,4 @@ solana-genesis
 tendermint-rpc
 dotenv
 rustrict
+deno
