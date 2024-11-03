@@ -68,3 +68,4 @@ git-mit
 mit-pre-commit
 sccache
 spider_worker
+parquet
