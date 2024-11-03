@@ -8,3 +8,4 @@ py-spy
 tree-sitter-graph
 human_bytes
 solana-stake-accounts
+cargo-generate
