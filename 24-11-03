@@ -59,3 +59,4 @@ solana-stake-accounts
 cpp_demangle
 snarkvm
 deno
+z3tracer
