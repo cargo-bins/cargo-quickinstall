@@ -5,3 +5,4 @@ oso
 rustrict
 clippy
 raw-cpuid
+dotenv
