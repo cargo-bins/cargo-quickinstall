@@ -69,3 +69,4 @@ mit-pre-commit
 sccache
 spider_worker
 parquet
+h3o
