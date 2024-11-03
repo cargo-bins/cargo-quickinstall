@@ -8,3 +8,4 @@ clippy
 pgrx-tests
 cargo-generate
 cargo-lock
+racer
