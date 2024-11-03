@@ -74,3 +74,4 @@ cached-path
 py-spy
 opencv-binding-generator
 rustrict
+remove_dir_all
