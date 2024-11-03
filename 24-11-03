@@ -29,3 +29,4 @@ mit-pre-commit
 phf_generator
 cached-path
 cargo-lock
+foundationdb-gen
