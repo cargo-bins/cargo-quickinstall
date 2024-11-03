@@ -26,3 +26,4 @@ deno
 tree-sitter-cli
 git-mit-config
 cargo-c
+solana-genesis
