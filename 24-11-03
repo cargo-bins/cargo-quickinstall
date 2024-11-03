@@ -31,3 +31,4 @@ cached-path
 cargo-lock
 foundationdb-gen
 libbpf-cargo
+git-mit-config
