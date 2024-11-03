@@ -64,3 +64,4 @@ tree-sitter-cli
 sha1collisiondetection
 paperclip
 httpmock
+nextest-filtering
