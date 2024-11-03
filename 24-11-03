@@ -10,3 +10,4 @@ git-mit-config
 unic-langid-impl
 textplots
 libbpf-cargo
+phf_generator
