@@ -30,3 +30,4 @@ phf_generator
 z3tracer
 dotenv
 opencv-binding-generator
+tendermint-rpc
