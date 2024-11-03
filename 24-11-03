@@ -14,3 +14,4 @@ human_bytes
 laminar
 winpty-rs
 cached-path
+tree-sitter-graph
