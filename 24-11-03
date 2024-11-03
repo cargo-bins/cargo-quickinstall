@@ -9,3 +9,4 @@ dotenv
 clippy
 z3tracer
 diesel_cli
+oso
