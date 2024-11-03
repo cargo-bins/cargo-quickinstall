@@ -20,3 +20,4 @@ cargo-lock
 syd
 rls-rustc
 rkv
+nextest-filtering
