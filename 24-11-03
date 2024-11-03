@@ -8,3 +8,4 @@ dotenv
 syd
 rustrict
 tree-sitter-graph
+httpmock
