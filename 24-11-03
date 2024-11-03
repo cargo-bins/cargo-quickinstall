@@ -21,3 +21,4 @@ wmi
 addr2line
 phf_generator
 libbpf-cargo
+pwasm-utils
