@@ -1,3 +1,4 @@
 cargo-generate
 cargo-generate
 mit-pre-commit
+opencv-binding-generator
