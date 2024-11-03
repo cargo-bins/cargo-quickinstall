@@ -18,3 +18,4 @@ deno
 tendermint-abci
 laminar
 wmi
+addr2line
