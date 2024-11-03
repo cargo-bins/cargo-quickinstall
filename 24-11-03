@@ -9,3 +9,4 @@ pgrx-tests
 cargo-generate
 cargo-lock
 racer
+remove_dir_all
