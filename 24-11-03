@@ -28,3 +28,4 @@ minicbor
 deploy
 evcxr_repl
 solana-genesis
+tendermint-rpc
