@@ -16,3 +16,4 @@ winpty-rs
 cached-path
 tree-sitter-graph
 solana-validator
+cargo-lock
