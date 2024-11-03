@@ -4,3 +4,4 @@ rls-rustc
 remove_dir_all
 socketcan
 solana-keygen
+py-spy
