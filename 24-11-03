@@ -55,3 +55,4 @@ py-spy
 diesel_cli
 solana-genesis
 addr2line
+tendermint-abci
