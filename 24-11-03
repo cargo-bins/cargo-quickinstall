@@ -18,3 +18,4 @@ cargo-lock
 wmi
 cached-path
 raw-cpuid
+unic-langid-impl
