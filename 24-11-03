@@ -26,3 +26,4 @@ solana-validator
 rrule
 winpty-rs
 mit-pre-commit
+phf_generator
