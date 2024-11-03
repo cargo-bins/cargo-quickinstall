@@ -61,3 +61,4 @@ snarkvm
 deno
 z3tracer
 tree-sitter-cli
+sha1collisiondetection
