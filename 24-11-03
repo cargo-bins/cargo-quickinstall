@@ -19,3 +19,4 @@ solana-validator
 cached-path
 socketcan
 papyrus_storage
+rls-rustc
