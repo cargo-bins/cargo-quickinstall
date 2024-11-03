@@ -67,3 +67,4 @@ wmi
 winpty-rs
 sea-orm-cli
 py-spy
+borsh
