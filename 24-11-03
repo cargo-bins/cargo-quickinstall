@@ -40,3 +40,4 @@ tree-sitter-graph
 sccache
 tendermint-abci
 nkeys
+foundationdb-gen
