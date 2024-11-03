@@ -54,3 +54,4 @@ spider_cli
 dotenv
 rls-rustc
 sqlx-cli
+cargo-udeps
