@@ -26,3 +26,4 @@ rustfmt-nightly
 sha1collisiondetection
 minicbor
 deploy
+evcxr_repl
