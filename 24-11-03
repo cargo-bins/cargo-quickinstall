@@ -11,3 +11,4 @@ cargo-lock
 racer
 remove_dir_all
 rmesg
+mit-pre-commit
