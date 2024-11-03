@@ -4,3 +4,4 @@ rls-rustc
 opencv-binding-generator
 human_name
 clippy
+dotenv
