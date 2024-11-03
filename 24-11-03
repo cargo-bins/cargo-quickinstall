@@ -44,3 +44,4 @@ libbpf-cargo
 tree-sitter-graph
 cargo-lock
 schemafy
+z3tracer
