@@ -19,3 +19,4 @@ tendermint-abci
 laminar
 wmi
 addr2line
+phf_generator
