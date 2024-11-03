@@ -42,3 +42,4 @@ tendermint-abci
 nkeys
 foundationdb-gen
 librespot
+cargo-c
