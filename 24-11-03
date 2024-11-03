@@ -18,3 +18,4 @@ diesel_cli
 cached-path
 sea-orm-cli
 deploy
+addr2line
