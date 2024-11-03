@@ -32,3 +32,4 @@ spider_cli
 httpmock
 ducc-sys
 nu
+pgrx-tests
