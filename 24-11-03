@@ -17,3 +17,4 @@ clippy
 ec2_instance_metadata
 sqlx-cli
 foundationdb-gen
+schemafy
