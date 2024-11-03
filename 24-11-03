@@ -81,3 +81,4 @@ tree-sitter-cli
 parquet
 git-mit
 evcxr_repl
+dotenv
