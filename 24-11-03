@@ -19,3 +19,4 @@ sqlx-cli
 foundationdb-gen
 schemafy
 coldsnap
+cargo-generate
