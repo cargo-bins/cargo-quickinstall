@@ -12,3 +12,4 @@ diesel_cli
 oso
 human_bytes
 laminar
+winpty-rs
