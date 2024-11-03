@@ -27,3 +27,4 @@ rrule
 mit-pre-commit
 foundationdb-gen
 mit-pre-commit
+pwasm-utils
