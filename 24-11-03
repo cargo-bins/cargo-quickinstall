@@ -49,3 +49,4 @@ cargo-lock
 deno
 py-spy
 solana-gossip
+z3tracer
