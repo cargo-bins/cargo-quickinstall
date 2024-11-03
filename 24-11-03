@@ -16,3 +16,4 @@ tauri-cli
 httpmock
 addr2line
 rrule
+tendermint-abci
