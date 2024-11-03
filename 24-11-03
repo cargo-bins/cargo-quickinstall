@@ -85,3 +85,4 @@ dotenv
 git-mit
 sha1collisiondetection
 addr2line
+cpp_demangle
