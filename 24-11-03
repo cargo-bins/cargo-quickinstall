@@ -56,3 +56,4 @@ rls-rustc
 sqlx-cli
 cargo-udeps
 tendermint-rpc
+git-mit
