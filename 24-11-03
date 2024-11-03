@@ -10,3 +10,4 @@ tendermint-abci
 foundationdb-gen
 httpmock
 solana-gossip
+sea-orm-cli
