@@ -7,3 +7,4 @@ perfcnt
 tree-sitter-graph
 human_bytes
 tendermint-abci
+foundationdb-gen
