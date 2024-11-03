@@ -33,3 +33,4 @@ opencv-binding-generator
 tendermint-rpc
 solana-validator
 cpp_demangle
+minicbor
