@@ -54,3 +54,4 @@ libbpf-cargo
 schemafy
 diesel_cli
 dotenvy
+z3tracer
