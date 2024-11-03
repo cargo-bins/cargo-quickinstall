@@ -33,3 +33,4 @@ dotenv
 rustrict
 deno
 solana-validator
+opencv-binding-generator
