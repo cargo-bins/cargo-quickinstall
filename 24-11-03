@@ -89,3 +89,4 @@ cpp_demangle
 minicbor
 librespot
 evcxr_repl
+borsh
