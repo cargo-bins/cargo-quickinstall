@@ -10,3 +10,4 @@ clippy
 z3tracer
 diesel_cli
 oso
+human_bytes
