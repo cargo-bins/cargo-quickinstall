@@ -53,3 +53,4 @@ sea-orm-cli
 wmi
 spider_cli
 tendermint-abci
+cached-path
