@@ -64,3 +64,4 @@ libbpf-cargo
 syd
 nexmark
 wmi
+winpty-rs
