@@ -88,3 +88,4 @@ addr2line
 cpp_demangle
 minicbor
 librespot
+evcxr_repl
