@@ -44,3 +44,4 @@ solana-gossip
 remove_dir_all
 schemafy
 borsh
+snarkvm
