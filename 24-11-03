@@ -48,3 +48,4 @@ human_bytes
 cargo-lock
 deno
 py-spy
+solana-gossip
