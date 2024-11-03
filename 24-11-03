@@ -23,3 +23,4 @@ pgrx-tests
 sqlx-cli
 racer
 deno
+tree-sitter-cli
