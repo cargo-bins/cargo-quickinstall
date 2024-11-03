@@ -27,3 +27,4 @@ sha1collisiondetection
 minicbor
 deploy
 evcxr_repl
+solana-genesis
