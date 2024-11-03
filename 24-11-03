@@ -15,3 +15,4 @@ spider_worker
 schemafy
 nu
 deno
+tendermint-abci
