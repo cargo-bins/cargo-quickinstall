@@ -65,3 +65,4 @@ mit-pre-commit
 rrule
 solana-genesis
 wol-rs
+foundationdb-gen
