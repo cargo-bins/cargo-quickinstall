@@ -40,3 +40,4 @@ foundationdb-gen
 syd
 cached-path
 cargo-local-registry
+solana-gossip
