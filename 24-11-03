@@ -25,3 +25,4 @@ git-mit
 rustfmt-nightly
 sha1collisiondetection
 minicbor
+deploy
