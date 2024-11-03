@@ -19,3 +19,4 @@ solana-validator
 cargo-lock
 syd
 rls-rustc
+rkv
