@@ -11,3 +11,4 @@ dotenv
 syd
 solana-tokens
 schemafy
+tree-sitter-graph
