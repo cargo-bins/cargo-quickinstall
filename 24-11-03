@@ -45,3 +45,4 @@ rav1e
 solana-tokens
 remove_dir_all
 human_bytes
+cargo-lock
