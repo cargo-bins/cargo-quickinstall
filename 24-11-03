@@ -14,3 +14,4 @@ schemafy
 tree-sitter-graph
 dotenv
 deno
+diesel_cli
