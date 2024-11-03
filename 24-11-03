@@ -72,3 +72,4 @@ laminar
 libbpf-cargo
 cached-path
 py-spy
+opencv-binding-generator
