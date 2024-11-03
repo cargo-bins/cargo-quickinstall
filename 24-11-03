@@ -56,3 +56,4 @@ diesel_cli
 dotenvy
 z3tracer
 raw-cpuid
+pwasm-utils
