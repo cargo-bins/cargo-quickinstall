@@ -60,3 +60,4 @@ cpp_demangle
 snarkvm
 deno
 z3tracer
+tree-sitter-cli
