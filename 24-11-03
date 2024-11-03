@@ -53,3 +53,4 @@ solana-genesis
 libbpf-cargo
 schemafy
 diesel_cli
+dotenvy
