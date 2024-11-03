@@ -53,3 +53,4 @@ pwasm-utils
 spider_cli
 dotenv
 rls-rustc
+sqlx-cli
