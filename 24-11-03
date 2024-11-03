@@ -76,3 +76,4 @@ opencv-binding-generator
 rustrict
 remove_dir_all
 phf_generator
+re_query
