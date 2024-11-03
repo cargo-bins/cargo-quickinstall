@@ -33,3 +33,4 @@ librespot
 remove_dir_all
 snarkvm
 borsh
+cached-path
