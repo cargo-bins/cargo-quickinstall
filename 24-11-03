@@ -12,3 +12,4 @@ racer
 remove_dir_all
 rmesg
 mit-pre-commit
+z3tracer
