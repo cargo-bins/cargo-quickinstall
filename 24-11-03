@@ -58,3 +58,4 @@ cargo-udeps
 tendermint-rpc
 git-mit
 nkeys
+z3tracer
