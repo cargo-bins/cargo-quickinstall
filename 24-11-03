@@ -20,3 +20,4 @@ tendermint-abci
 sea-orm-cli
 laminar
 pgrx-tests
+sqlx-cli
