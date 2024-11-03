@@ -3,3 +3,4 @@ solana-tokens
 rls-rustc
 remove_dir_all
 socketcan
+solana-keygen
