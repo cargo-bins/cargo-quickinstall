@@ -40,3 +40,4 @@ schemafy
 nexmark
 apollo-router
 human_name
+libbpf-cargo
