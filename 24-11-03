@@ -1,3 +1,4 @@
 cargo-lock
 deploy
 nextest-filtering
+java-locator
