@@ -22,3 +22,4 @@ papyrus_storage
 rls-rustc
 foundationdb-gen
 schemafy
+solana-validator
