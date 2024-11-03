@@ -14,3 +14,4 @@ re_query
 laminar
 deploy
 pgrx-tests
+cargo-lock
