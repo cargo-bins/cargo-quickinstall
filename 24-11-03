@@ -50,3 +50,4 @@ socketcan
 foundationdb-gen
 snarkvm
 sea-orm-cli
+wmi
