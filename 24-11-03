@@ -34,3 +34,4 @@ tendermint-rpc
 solana-validator
 cpp_demangle
 minicbor
+libbpf-cargo
