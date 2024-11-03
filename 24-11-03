@@ -36,3 +36,4 @@ cpp_demangle
 minicbor
 libbpf-cargo
 solana-tokens
+textplots
