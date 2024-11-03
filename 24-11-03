@@ -17,3 +17,4 @@ git-mit-config
 cargo-generate
 solana-validator
 cached-path
+socketcan
