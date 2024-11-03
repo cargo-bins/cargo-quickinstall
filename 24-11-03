@@ -22,3 +22,4 @@ rls-rustc
 rkv
 nextest-filtering
 solana-validator
+httpmock
