@@ -46,3 +46,4 @@ cargo-c
 httpmock
 socketcan
 nu
+laminar
