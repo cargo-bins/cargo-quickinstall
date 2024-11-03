@@ -51,3 +51,4 @@ nkeys
 git-mit
 pwasm-utils
 spider_cli
+dotenv
