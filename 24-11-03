@@ -43,3 +43,4 @@ nkeys
 foundationdb-gen
 librespot
 cargo-c
+httpmock
