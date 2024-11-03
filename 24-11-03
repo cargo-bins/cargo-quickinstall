@@ -70,3 +70,4 @@ py-spy
 borsh
 laminar
 libbpf-cargo
+cached-path
