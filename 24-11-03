@@ -1,3 +1,4 @@
 mit-pre-commit
 cargo-generate
 ducc-sys
+unic-langid-impl
