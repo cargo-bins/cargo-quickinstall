@@ -41,3 +41,4 @@ syd
 cached-path
 cargo-local-registry
 solana-gossip
+remove_dir_all
