@@ -20,3 +20,4 @@ sea-orm-cli
 deploy
 addr2line
 rkv
+clippy
