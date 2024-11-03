@@ -31,3 +31,4 @@ z3tracer
 dotenv
 opencv-binding-generator
 tendermint-rpc
+solana-validator
