@@ -57,3 +57,4 @@ sqlx-cli
 cargo-udeps
 tendermint-rpc
 git-mit
+nkeys
