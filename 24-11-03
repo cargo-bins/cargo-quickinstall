@@ -34,3 +34,4 @@ libbpf-cargo
 git-mit-config
 laminar
 foundationdb-gen
+nexmark
