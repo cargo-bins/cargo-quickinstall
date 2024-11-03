@@ -12,3 +12,4 @@ httpmock
 sea-orm-cli
 syd
 spider_worker
+schemafy
