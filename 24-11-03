@@ -78,3 +78,4 @@ solana-validator
 socketcan
 rkv
 tree-sitter-cli
+parquet
