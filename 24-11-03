@@ -3,3 +3,4 @@ deploy
 nextest-filtering
 java-locator
 solana-keygen
+perfcnt
