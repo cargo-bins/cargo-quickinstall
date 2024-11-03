@@ -25,3 +25,4 @@ re_query
 nkeys
 rustfmt-nightly
 solana-tokens
+tree-sitter-cli
