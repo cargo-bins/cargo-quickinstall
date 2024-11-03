@@ -63,3 +63,4 @@ z3tracer
 tree-sitter-cli
 sha1collisiondetection
 paperclip
+httpmock
