@@ -30,3 +30,4 @@ phf_generator
 cached-path
 cargo-lock
 foundationdb-gen
+libbpf-cargo
