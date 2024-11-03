@@ -75,3 +75,4 @@ py-spy
 opencv-binding-generator
 rustrict
 remove_dir_all
+phf_generator
