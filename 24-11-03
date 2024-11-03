@@ -32,3 +32,4 @@ tendermint-rpc
 dotenv
 rustrict
 deno
+solana-validator
