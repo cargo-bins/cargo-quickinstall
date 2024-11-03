@@ -52,3 +52,4 @@ rrule
 py-spy
 human_bytes
 snarkvm
+dotenv
