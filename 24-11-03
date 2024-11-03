@@ -37,3 +37,4 @@ foundationdb-gen
 nexmark
 addr2line
 racer
+mit-pre-commit
