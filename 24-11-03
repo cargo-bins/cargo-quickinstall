@@ -32,3 +32,4 @@ z3tracer
 remove_dir_all
 zuse
 tendermint-rpc
+protox
