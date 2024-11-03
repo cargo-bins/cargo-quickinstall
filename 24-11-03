@@ -14,3 +14,4 @@ rmesg
 mit-pre-commit
 z3tracer
 clippy
+ec2_instance_metadata
