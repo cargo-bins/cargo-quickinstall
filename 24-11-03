@@ -16,3 +16,4 @@ dotenv
 deno
 diesel_cli
 cached-path
+sea-orm-cli
