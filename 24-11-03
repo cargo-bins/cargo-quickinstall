@@ -41,3 +41,4 @@ nexmark
 apollo-router
 human_name
 libbpf-cargo
+tree-sitter-graph
