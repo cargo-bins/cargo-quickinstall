@@ -49,3 +49,4 @@ syd
 socketcan
 foundationdb-gen
 snarkvm
+sea-orm-cli
