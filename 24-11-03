@@ -65,3 +65,4 @@ syd
 nexmark
 wmi
 winpty-rs
+sea-orm-cli
