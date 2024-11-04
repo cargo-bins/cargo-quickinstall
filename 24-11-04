@@ -47,3 +47,4 @@ laminar
 mit-pre-commit
 mit-prepare-commit-msg
 mit-commit-msg
+cargo-generate
