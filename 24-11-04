@@ -4,3 +4,4 @@ ducc-sys
 protox
 sea-orm-cli
 syd
+libbpf-cargo
