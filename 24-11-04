@@ -26,3 +26,4 @@ opencv-binding-generator
 py-spy
 tree-sitter-cli
 mit-prepare-commit-msg
+evcxr_repl
