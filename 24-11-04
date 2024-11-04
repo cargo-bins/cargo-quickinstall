@@ -25,3 +25,4 @@ remove_dir_all
 opencv-binding-generator
 py-spy
 tree-sitter-cli
+mit-prepare-commit-msg
