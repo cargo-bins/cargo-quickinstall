@@ -16,3 +16,4 @@ sn_node
 papyrus_storage
 deno
 foundationdb-gen
+ducc-sys
