@@ -54,3 +54,4 @@ foundationdb-gen
 wol-rs
 oso
 nextest-filtering
+raw-cpuid
