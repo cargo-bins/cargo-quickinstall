@@ -36,3 +36,4 @@ schemafy
 rkv
 wol-rs
 human_name
+rustfmt-nightly
