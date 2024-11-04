@@ -31,3 +31,4 @@ addr2line
 rkv
 zuse
 mit-commit-msg
+cargo-udeps
