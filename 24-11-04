@@ -77,3 +77,4 @@ borsh
 rustfmt-nightly
 solana-stake-accounts
 sha1collisiondetection
+pwasm-utils
