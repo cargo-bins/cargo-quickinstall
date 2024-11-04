@@ -20,3 +20,4 @@ tree-sitter-graph
 foundationdb-gen
 remove_dir_all
 wmi
+tauri-cli
