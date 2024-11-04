@@ -17,3 +17,4 @@ nkeys
 human_name
 raw-cpuid
 tree-sitter-graph
+foundationdb-gen
