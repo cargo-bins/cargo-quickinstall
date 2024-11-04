@@ -85,3 +85,4 @@ ec2_instance_metadata
 remove_dir_all
 cargo-lock
 mit-prepare-commit-msg
+sn_cli
