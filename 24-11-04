@@ -99,3 +99,4 @@ schemafy
 nextest-filtering
 arrow-flight
 git-mit-relates-to
+libbpf-cargo
