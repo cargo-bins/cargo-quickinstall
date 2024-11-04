@@ -40,3 +40,4 @@ tendermint-rpc
 clippy
 httpmock
 git-mit
+java-locator
