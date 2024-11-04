@@ -6,3 +6,4 @@ diesel_cli
 dotenv
 deploy
 re_query
+parquet
