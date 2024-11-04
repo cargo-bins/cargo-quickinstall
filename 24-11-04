@@ -21,3 +21,4 @@ sha1collisiondetection
 h3o
 rustrict
 cargo-lock
+socketcan
