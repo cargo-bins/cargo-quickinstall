@@ -94,3 +94,4 @@ pwasm-utils
 minicbor
 solana-stake-accounts
 mit-commit-msg
+dotenv
