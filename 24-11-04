@@ -8,3 +8,4 @@ wmi
 ducc-sys
 libbpf-cargo
 addr2line
+nextest-filtering
