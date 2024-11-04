@@ -26,3 +26,4 @@ nkeys
 tree-sitter-graph
 sn_node
 coldsnap
+tendermint-abci
