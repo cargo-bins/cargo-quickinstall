@@ -5,3 +5,4 @@ foundationdb-gen
 libbpf-cargo
 solana-validator
 wmi
+ducc-sys
