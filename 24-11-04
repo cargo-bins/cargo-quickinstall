@@ -3,3 +3,4 @@ sha1collisiondetection
 java-locator
 foundationdb-gen
 libbpf-cargo
+solana-validator
