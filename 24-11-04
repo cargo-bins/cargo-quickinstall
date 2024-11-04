@@ -17,3 +17,4 @@ papyrus_storage
 deno
 foundationdb-gen
 ducc-sys
+cpp_demangle
