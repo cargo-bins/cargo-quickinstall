@@ -8,3 +8,4 @@ libbpf-cargo
 winpty-rs
 apollo-router
 solana-validator
+tree-sitter-graph
