@@ -30,3 +30,4 @@ raw-cpuid
 rmesg
 paperclip
 pgrx-tests
+nextest-filtering
