@@ -88,3 +88,4 @@ httpmock
 sha1collisiondetection
 mit-commit-msg
 cargo-udeps
+rkv
