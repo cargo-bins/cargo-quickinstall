@@ -59,3 +59,4 @@ solana-stake-accounts
 wol-rs
 sea-orm-cli
 deno
+dotenvy
