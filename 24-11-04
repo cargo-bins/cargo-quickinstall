@@ -23,3 +23,4 @@ rustrict
 cargo-lock
 socketcan
 dotenv
+re_query
