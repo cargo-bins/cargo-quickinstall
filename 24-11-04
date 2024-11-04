@@ -35,3 +35,4 @@ tree-sitter-graph
 tendermint-rpc
 solana-validator
 remove_dir_all
+tokio-process
