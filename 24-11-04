@@ -25,3 +25,4 @@ snarkvm
 syd
 arrow-flight
 borsh
+winpty-rs
