@@ -19,3 +19,4 @@ foundationdb-gen
 ducc-sys
 cpp_demangle
 libbpf-cargo
+nexmark
