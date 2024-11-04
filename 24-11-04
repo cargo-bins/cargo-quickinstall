@@ -52,3 +52,4 @@ cargo-local-registry
 cargo-udeps
 cargo-lock
 protox
+wol-rs
