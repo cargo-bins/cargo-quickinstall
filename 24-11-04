@@ -22,3 +22,4 @@ rkv
 pgrx-tests
 mit-prepare-commit-msg
 remove_dir_all
+opencv-binding-generator
