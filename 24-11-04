@@ -58,3 +58,4 @@ z3tracer
 parquet
 deno
 git-mit-relates-to
+cargo-lock
