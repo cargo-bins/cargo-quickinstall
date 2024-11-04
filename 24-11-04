@@ -40,3 +40,4 @@ rkv
 tree-sitter-cli
 remove_dir_all
 nu
+winpty-rs
