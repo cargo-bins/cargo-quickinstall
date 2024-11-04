@@ -69,3 +69,4 @@ mit-prepare-commit-msg
 mit-commit-msg
 borsh
 honggfuzz
+pwasm-utils
