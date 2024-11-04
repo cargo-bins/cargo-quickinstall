@@ -29,3 +29,4 @@ librespot
 pwasm-utils
 opencv-binding-generator
 snarkvm
+winpty-rs
