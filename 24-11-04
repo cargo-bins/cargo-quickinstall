@@ -85,3 +85,4 @@ paperclip
 rrule
 schemafy
 httpmock
+sha1collisiondetection
