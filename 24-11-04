@@ -60,3 +60,4 @@ deno
 git-mit-relates-to
 cargo-lock
 httpbis
+httpmock
