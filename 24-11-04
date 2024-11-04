@@ -44,3 +44,4 @@ git-mit-relates-to
 cargo-generate
 human_bytes
 phf_generator
+parquet
