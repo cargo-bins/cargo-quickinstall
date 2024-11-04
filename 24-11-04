@@ -53,3 +53,4 @@ cargo-lock
 sqlx-cli
 rmesg
 rav1e
+cargo-local-registry
