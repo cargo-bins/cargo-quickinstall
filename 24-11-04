@@ -7,3 +7,4 @@ solana-validator
 wmi
 ducc-sys
 libbpf-cargo
+addr2line
