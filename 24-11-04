@@ -17,3 +17,4 @@ foundationdb-gen
 textplots
 wmi
 sha1collisiondetection
+winpty-rs
