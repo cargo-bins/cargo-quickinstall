@@ -27,3 +27,4 @@ arrow-flight
 borsh
 winpty-rs
 mit-pre-commit
+addr2line
