@@ -18,3 +18,4 @@ nextest-filtering
 pgrx-tests
 re_query
 protox
+cargo-generate
