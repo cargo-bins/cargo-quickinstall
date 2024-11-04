@@ -4,3 +4,4 @@ mit-pre-commit
 mit-commit-msg
 re_query
 libbpf-cargo
+cpp_demangle
