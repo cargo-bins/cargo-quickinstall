@@ -75,3 +75,4 @@ sha1collisiondetection
 textplots
 clippy
 nexmark
+sea-orm-cli
