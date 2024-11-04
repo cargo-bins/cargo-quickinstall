@@ -54,3 +54,4 @@ socketcan
 unic-langid-impl
 tendermint-abci
 rustfmt-nightly
+spider_worker
