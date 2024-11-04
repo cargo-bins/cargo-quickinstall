@@ -42,3 +42,4 @@ cpp_demangle
 remove_dir_all
 rustfmt-nightly
 pgrx-tests
+dotenvy
