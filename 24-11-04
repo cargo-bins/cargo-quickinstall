@@ -30,3 +30,4 @@ pwasm-utils
 opencv-binding-generator
 snarkvm
 winpty-rs
+tree-sitter-cli
