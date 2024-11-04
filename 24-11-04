@@ -44,3 +44,4 @@ winpty-rs
 remove_dir_all
 tree-sitter-graph
 solana-keygen
+parquet
