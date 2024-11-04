@@ -63,3 +63,4 @@ dotenv
 oxipng
 borsh
 cached-path
+libbpf-cargo
