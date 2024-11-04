@@ -79,3 +79,4 @@ clippy
 socketcan
 addr2line
 laminar
+phf_generator
