@@ -42,3 +42,4 @@ unic-langid-impl
 rrule
 git-mit-relates-to
 cargo-generate
+human_bytes
