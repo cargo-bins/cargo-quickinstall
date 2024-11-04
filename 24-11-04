@@ -14,3 +14,4 @@ addr2line
 deploy
 arrow-flight
 unic-langid-impl
+spider_worker
