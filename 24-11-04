@@ -86,3 +86,4 @@ nextest-filtering
 librespot
 sqlx-cli
 tauri-cli
+deploy
