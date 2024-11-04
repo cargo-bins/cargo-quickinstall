@@ -61,3 +61,4 @@ foundationdb-gen
 minicbor
 trunk
 human_name
+tree-sitter-graph
