@@ -52,3 +52,4 @@ httpbis
 cargo-lock
 sqlx-cli
 rmesg
+rav1e
