@@ -89,3 +89,4 @@ sha1collisiondetection
 mit-commit-msg
 cargo-udeps
 rkv
+pwasm-utils
