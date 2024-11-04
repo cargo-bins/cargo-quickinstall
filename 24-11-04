@@ -64,3 +64,4 @@ httpmock
 rustfmt
 laminar
 rls-rustc
+benfred-read-process-memory
