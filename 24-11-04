@@ -2,3 +2,4 @@ rkv
 sha1collisiondetection
 java-locator
 foundationdb-gen
+libbpf-cargo
