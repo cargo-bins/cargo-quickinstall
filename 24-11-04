@@ -30,3 +30,4 @@ solana-stake-accounts
 dotenvy
 human_bytes
 nextest-filtering
+opencv-binding-generator
