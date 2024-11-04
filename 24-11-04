@@ -6,3 +6,4 @@ sea-orm-cli
 syd
 libbpf-cargo
 winpty-rs
+apollo-router
