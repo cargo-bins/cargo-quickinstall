@@ -31,3 +31,4 @@ opencv-binding-generator
 snarkvm
 winpty-rs
 tree-sitter-cli
+nu
