@@ -46,3 +46,4 @@ raw-cpuid
 mit-commit-msg
 cargo-local-registry
 coldsnap
+rkv
