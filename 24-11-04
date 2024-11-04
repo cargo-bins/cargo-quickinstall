@@ -14,3 +14,4 @@ tendermint-abci
 clippy
 httpmock
 foundationdb-gen
+textplots
