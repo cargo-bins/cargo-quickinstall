@@ -18,3 +18,4 @@ httpmock
 spider_cli
 human_bytes
 papyrus_storage
+rkv
