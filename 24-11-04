@@ -37,3 +37,4 @@ git-mit-relates-to
 coldsnap
 pwasm-utils
 libbpf-cargo
+rustfmt-nightly
