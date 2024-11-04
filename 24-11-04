@@ -7,3 +7,4 @@ evcxr_repl
 sea-orm-cli
 rls-rustc
 syd
+rustfmt-nightly
