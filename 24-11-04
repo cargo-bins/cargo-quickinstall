@@ -16,3 +16,4 @@ dotenvy
 re_query
 apollo-router
 nextest-filtering
+cargo-lock
