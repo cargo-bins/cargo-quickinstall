@@ -15,3 +15,4 @@ solana-genesis
 java-locator
 nkeys
 human_name
+raw-cpuid
