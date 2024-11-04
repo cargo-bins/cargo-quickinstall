@@ -11,3 +11,4 @@ solana-validator
 tree-sitter-graph
 rls-rustc
 tendermint-abci
+clippy
