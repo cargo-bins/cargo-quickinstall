@@ -34,3 +34,4 @@ mit-commit-msg
 cargo-udeps
 cargo-c
 solana-genesis
+solana-gossip
