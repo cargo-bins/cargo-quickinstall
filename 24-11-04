@@ -89,3 +89,4 @@ tauri-cli
 deploy
 sea-orm-cli
 winpty-rs
+z3tracer
