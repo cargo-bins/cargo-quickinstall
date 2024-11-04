@@ -46,3 +46,4 @@ borsh
 rustrict
 rls-rustc
 tree-sitter-cli
+remove_dir_all
