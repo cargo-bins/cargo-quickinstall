@@ -85,3 +85,4 @@ sqlx-cli
 nextest-filtering
 librespot
 sqlx-cli
+tauri-cli
