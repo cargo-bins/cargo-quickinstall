@@ -21,3 +21,4 @@ cpp_demangle
 libbpf-cargo
 nexmark
 tendermint-rpc
+wol-rs
