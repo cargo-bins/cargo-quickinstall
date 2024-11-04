@@ -32,3 +32,4 @@ deno
 spider_worker
 socketcan
 re_query
+sea-orm-cli
