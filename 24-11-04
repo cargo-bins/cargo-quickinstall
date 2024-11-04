@@ -63,3 +63,4 @@ cargo-generate
 sha1collisiondetection
 textplots
 mit-prepare-commit-msg
+minicbor
