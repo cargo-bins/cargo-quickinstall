@@ -107,3 +107,4 @@ libbpf-cargo
 solana-gossip
 tree-sitter-graph
 deno
+sccache
