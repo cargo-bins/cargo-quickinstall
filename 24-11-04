@@ -46,3 +46,4 @@ dotenvy
 cpp_demangle
 paperclip
 cached-path
+raw-cpuid
