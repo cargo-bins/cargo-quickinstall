@@ -105,3 +105,4 @@ human_name
 solana-stake-accounts
 solana-validator
 spider_cli
+sqlx-cli
