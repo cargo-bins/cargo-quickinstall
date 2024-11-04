@@ -8,3 +8,4 @@ deploy
 re_query
 parquet
 diesel_cli
+human_bytes
