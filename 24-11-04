@@ -38,3 +38,4 @@ rustfmt-nightly
 cargo-lock
 librespot
 a11ywatch_cli
+spider_cli
