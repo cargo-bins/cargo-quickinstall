@@ -50,3 +50,4 @@ rkv
 raw-cpuid
 httpbis
 cargo-lock
+sqlx-cli
