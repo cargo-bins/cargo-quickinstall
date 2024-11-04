@@ -33,3 +33,4 @@ clippy
 phf_generator
 solana-keygen
 pwasm-utils
+nexmark
