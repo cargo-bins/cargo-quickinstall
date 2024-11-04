@@ -95,3 +95,4 @@ libbpf-cargo
 pwasm-utils
 human_bytes
 mit-pre-commit
+schemafy
