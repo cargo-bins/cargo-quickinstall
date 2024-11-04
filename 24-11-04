@@ -89,3 +89,4 @@ sn_cli
 honggfuzz
 git-mit-relates-to
 httpmock
+text-diff
