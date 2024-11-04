@@ -76,3 +76,4 @@ tree-sitter-graph
 borsh
 rustfmt-nightly
 solana-stake-accounts
+sha1collisiondetection
