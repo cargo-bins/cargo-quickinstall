@@ -39,3 +39,4 @@ pwasm-utils
 libbpf-cargo
 rustfmt-nightly
 h3o
+addr2line
