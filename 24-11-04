@@ -37,3 +37,4 @@ nkeys
 schemafy
 nextest-filtering
 rkv
+tree-sitter-cli
