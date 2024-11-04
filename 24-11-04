@@ -28,3 +28,4 @@ git-mit-relates-to
 cargo-lock
 raw-cpuid
 rmesg
+paperclip
