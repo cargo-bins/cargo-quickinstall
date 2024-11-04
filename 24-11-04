@@ -6,3 +6,4 @@ h3o
 winpty-rs
 addr2line
 deno
+ducc-sys
