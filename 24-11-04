@@ -5,3 +5,4 @@ rls-rustc
 solana-stake-accounts
 evcxr_repl
 sea-orm-cli
+rls-rustc
