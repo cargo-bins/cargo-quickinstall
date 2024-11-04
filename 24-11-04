@@ -35,3 +35,4 @@ socketcan
 tendermint-rpc
 phf_generator
 rustfmt-nightly
+cargo-lock
