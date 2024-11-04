@@ -44,3 +44,4 @@ rustfmt-nightly
 pgrx-tests
 dotenvy
 cpp_demangle
+paperclip
