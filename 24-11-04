@@ -72,3 +72,4 @@ honggfuzz
 pwasm-utils
 z3tracer
 rkv
+tree-sitter-graph
