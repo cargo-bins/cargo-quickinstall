@@ -87,3 +87,4 @@ cargo-lock
 mit-prepare-commit-msg
 sn_cli
 honggfuzz
+git-mit-relates-to
