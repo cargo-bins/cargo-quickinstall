@@ -41,3 +41,4 @@ clippy
 httpmock
 git-mit
 java-locator
+remove_dir_all
