@@ -8,3 +8,4 @@ sea-orm-cli
 rls-rustc
 syd
 rustfmt-nightly
+rkv
