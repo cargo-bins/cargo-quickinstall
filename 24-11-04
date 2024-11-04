@@ -38,3 +38,4 @@ wol-rs
 human_name
 rustfmt-nightly
 tendermint-rpc
+cpp_demangle
