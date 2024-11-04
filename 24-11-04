@@ -74,3 +74,4 @@ textplots
 httpmock
 tree-sitter-graph
 borsh
+rustfmt-nightly
