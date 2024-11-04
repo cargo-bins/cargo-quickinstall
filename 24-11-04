@@ -10,3 +10,4 @@ libbpf-cargo
 addr2line
 nextest-filtering
 httpmock
+nexmark
