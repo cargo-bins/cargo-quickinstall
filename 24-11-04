@@ -26,3 +26,4 @@ nkeys
 remove_dir_all
 git-mit-relates-to
 cargo-lock
+raw-cpuid
