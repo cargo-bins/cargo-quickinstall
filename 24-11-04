@@ -39,3 +39,4 @@ human_name
 rustfmt-nightly
 tendermint-rpc
 cpp_demangle
+remove_dir_all
