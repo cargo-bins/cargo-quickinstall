@@ -60,3 +60,4 @@ wol-rs
 sea-orm-cli
 deno
 dotenvy
+papyrus_storage
