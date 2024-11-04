@@ -77,3 +77,4 @@ clippy
 nexmark
 sea-orm-cli
 httpmock
+solana-keygen
