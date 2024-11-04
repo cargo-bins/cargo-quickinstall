@@ -67,3 +67,4 @@ rls-rustc
 benfred-read-process-memory
 papyrus_storage
 git-mit
+socketcan
