@@ -31,3 +31,4 @@ dotenvy
 human_bytes
 nextest-filtering
 opencv-binding-generator
+socketcan
