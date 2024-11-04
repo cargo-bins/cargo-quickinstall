@@ -5,3 +5,4 @@ ec2_instance_metadata
 diesel_cli
 dotenv
 deploy
+re_query
