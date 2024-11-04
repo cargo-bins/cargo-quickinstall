@@ -109,3 +109,4 @@ sqlx-cli
 sqlx-cli
 mit-pre-commit
 git-mit-relates-to
+py-spy
