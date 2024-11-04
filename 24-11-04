@@ -27,3 +27,4 @@ tree-sitter-graph
 sn_node
 coldsnap
 tendermint-abci
+unic-langid-impl
