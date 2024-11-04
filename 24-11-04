@@ -24,3 +24,4 @@ cpp_demangle
 minicbor
 pwasm-utils
 re_query
+z3tracer
