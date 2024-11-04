@@ -54,3 +54,4 @@ dotenv
 rustrict
 cargo-lock
 arrow-flight
+git-mit-config
