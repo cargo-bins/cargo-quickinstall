@@ -54,3 +54,4 @@ cargo-lock
 protox
 wol-rs
 rkv
+ducc-sys
