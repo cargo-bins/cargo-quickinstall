@@ -70,3 +70,4 @@ socketcan
 nexmark
 rrule
 rls-rustc
+tree-sitter-cli
