@@ -33,3 +33,4 @@ paperclip
 rustfmt-nightly
 tree-sitter-graph
 tendermint-rpc
+solana-validator
