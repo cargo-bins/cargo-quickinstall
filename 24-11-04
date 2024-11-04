@@ -30,3 +30,4 @@ evcxr_repl
 wol-rs
 parquet
 clippy
+phf_generator
