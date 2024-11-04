@@ -28,3 +28,4 @@ tree-sitter-cli
 mit-prepare-commit-msg
 evcxr_repl
 wol-rs
+parquet
