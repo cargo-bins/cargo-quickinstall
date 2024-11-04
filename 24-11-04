@@ -19,3 +19,4 @@ wmi
 sha1collisiondetection
 winpty-rs
 tendermint-rpc
+rustfmt-nightly
