@@ -32,3 +32,4 @@ foundationdb-gen
 paperclip
 rustfmt-nightly
 tree-sitter-graph
+tendermint-rpc
