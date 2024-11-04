@@ -21,3 +21,4 @@ socketcan
 nextest-filtering
 rav1e
 foundationdb-gen
+rls-rustc
