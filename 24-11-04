@@ -56,3 +56,4 @@ tendermint-abci
 rustfmt-nightly
 spider_worker
 schemafy
+java-locator
