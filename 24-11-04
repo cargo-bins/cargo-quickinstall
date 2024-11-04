@@ -50,3 +50,4 @@ mit-commit-msg
 cargo-generate
 phf_generator
 socketcan
+dotenv
