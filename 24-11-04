@@ -47,3 +47,4 @@ phf_generator
 parquet
 trunk
 pgrx-tests
+cargo-tarpaulin
