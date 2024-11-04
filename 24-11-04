@@ -5,3 +5,4 @@ cpp_demangle
 tendermint-rpc
 foundationdb-gen
 wmi
+solana-cli
