@@ -39,3 +39,4 @@ tokio-process
 tendermint-rpc
 clippy
 httpmock
+git-mit
