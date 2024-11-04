@@ -37,3 +37,4 @@ solana-genesis
 solana-gossip
 cargo-lock
 paperclip
+deploy
