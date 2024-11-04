@@ -11,3 +11,4 @@ addr2line
 nextest-filtering
 httpmock
 nexmark
+addr2line
