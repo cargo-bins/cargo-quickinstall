@@ -22,3 +22,4 @@ h3o
 rustrict
 cargo-lock
 socketcan
+dotenv
