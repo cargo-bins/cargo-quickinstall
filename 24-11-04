@@ -25,3 +25,4 @@ wol-rs
 nkeys
 tree-sitter-graph
 sn_node
+coldsnap
