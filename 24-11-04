@@ -3,3 +3,4 @@ snarkvm
 deploy
 tendermint-abci
 h3o
+winpty-rs
