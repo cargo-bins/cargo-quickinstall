@@ -21,3 +21,4 @@ protox
 cargo-generate
 solana-validator
 rustbus
+addr2line
