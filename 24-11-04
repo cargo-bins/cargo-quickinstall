@@ -45,3 +45,4 @@ cargo-generate
 human_bytes
 phf_generator
 parquet
+trunk
