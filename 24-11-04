@@ -4,3 +4,4 @@ cpp_demangle
 ec2_instance_metadata
 diesel_cli
 dotenv
+deploy
