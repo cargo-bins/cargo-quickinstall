@@ -30,3 +30,4 @@ tendermint-abci
 unic-langid-impl
 foundationdb-gen
 paperclip
+rustfmt-nightly
