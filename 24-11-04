@@ -51,3 +51,4 @@ cargo-tarpaulin
 cargo-local-registry
 cargo-udeps
 cargo-lock
+protox
