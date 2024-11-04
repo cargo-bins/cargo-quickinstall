@@ -36,3 +36,4 @@ cargo-c
 solana-genesis
 solana-gossip
 cargo-lock
+paperclip
