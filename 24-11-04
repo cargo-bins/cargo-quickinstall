@@ -22,3 +22,4 @@ tendermint-rpc
 rustfmt-nightly
 cpp_demangle
 minicbor
+pwasm-utils
