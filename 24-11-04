@@ -5,3 +5,4 @@ tendermint-abci
 h3o
 winpty-rs
 addr2line
+deno
