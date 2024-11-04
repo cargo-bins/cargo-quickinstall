@@ -96,3 +96,4 @@ solana-stake-accounts
 mit-commit-msg
 dotenv
 wol-rs
+libbpf-cargo
