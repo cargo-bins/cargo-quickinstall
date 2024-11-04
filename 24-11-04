@@ -45,3 +45,4 @@ remove_dir_all
 raw-cpuid
 mit-commit-msg
 cargo-local-registry
+coldsnap
