@@ -54,3 +54,4 @@ sqlx-cli
 rmesg
 rav1e
 cargo-local-registry
+z3tracer
