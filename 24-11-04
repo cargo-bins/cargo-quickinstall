@@ -105,3 +105,4 @@ laminar
 re_query
 libbpf-cargo
 solana-gossip
+tree-sitter-graph
