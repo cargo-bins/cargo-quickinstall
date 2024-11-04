@@ -22,3 +22,4 @@ libbpf-cargo
 nexmark
 tendermint-rpc
 wol-rs
+nkeys
