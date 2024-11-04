@@ -9,3 +9,4 @@ rls-rustc
 syd
 rustfmt-nightly
 rkv
+unic-langid-impl
