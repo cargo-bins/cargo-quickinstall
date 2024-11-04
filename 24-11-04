@@ -20,3 +20,4 @@ sha1collisiondetection
 winpty-rs
 tendermint-rpc
 rustfmt-nightly
+cpp_demangle
