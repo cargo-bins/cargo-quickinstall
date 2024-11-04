@@ -98,3 +98,4 @@ dotenv
 wol-rs
 libbpf-cargo
 paperclip
+borsh
