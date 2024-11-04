@@ -36,3 +36,4 @@ tendermint-rpc
 solana-validator
 remove_dir_all
 tokio-process
+tendermint-rpc
