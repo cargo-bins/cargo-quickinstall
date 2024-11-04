@@ -113,3 +113,4 @@ py-spy
 sqlx-cli
 evcxr_repl
 textplots
+arrow-flight
