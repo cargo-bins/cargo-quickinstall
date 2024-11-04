@@ -52,3 +52,4 @@ phf_generator
 socketcan
 dotenv
 rustrict
+cargo-lock
