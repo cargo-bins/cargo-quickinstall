@@ -12,3 +12,4 @@ tree-sitter-graph
 rls-rustc
 tendermint-abci
 clippy
+httpmock
