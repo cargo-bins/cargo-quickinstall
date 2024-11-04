@@ -5,3 +5,4 @@ h3o
 cpp_demangle
 tendermint-rpc
 papyrus_storage
+wol-rs
