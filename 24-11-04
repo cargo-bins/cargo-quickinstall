@@ -40,3 +40,4 @@ remove_dir_all
 wmi
 trunk
 dotenvy
+human_bytes
