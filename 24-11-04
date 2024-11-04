@@ -30,3 +30,4 @@ nexmark
 sea-orm-cli
 deno
 spider_worker
+socketcan
