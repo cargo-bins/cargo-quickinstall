@@ -82,3 +82,4 @@ laminar
 phf_generator
 rustfmt-nightly
 ec2_instance_metadata
+remove_dir_all
