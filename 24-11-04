@@ -91,3 +91,4 @@ cargo-udeps
 rkv
 pwasm-utils
 dotenv
+libbpf-cargo
