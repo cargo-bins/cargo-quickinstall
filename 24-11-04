@@ -49,3 +49,4 @@ coldsnap
 rkv
 raw-cpuid
 httpbis
+cargo-lock
