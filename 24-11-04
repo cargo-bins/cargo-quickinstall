@@ -90,3 +90,4 @@ mit-commit-msg
 cargo-udeps
 rkv
 pwasm-utils
+dotenv
