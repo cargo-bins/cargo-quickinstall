@@ -45,3 +45,4 @@ rustrict
 borsh
 rustrict
 rls-rustc
+tree-sitter-cli
