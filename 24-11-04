@@ -7,3 +7,4 @@ tendermint-rpc
 papyrus_storage
 wol-rs
 exa
+rkv
