@@ -69,3 +69,4 @@ snarkvm
 socketcan
 nexmark
 rrule
+rls-rustc
