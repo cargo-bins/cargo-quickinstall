@@ -34,3 +34,4 @@ opencv-binding-generator
 socketcan
 tendermint-rpc
 phf_generator
+rustfmt-nightly
