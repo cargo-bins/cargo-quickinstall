@@ -45,3 +45,4 @@ pgrx-tests
 dotenvy
 cpp_demangle
 paperclip
+cached-path
