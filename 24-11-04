@@ -53,3 +53,4 @@ cargo-udeps
 cargo-lock
 protox
 wol-rs
+rkv
