@@ -46,3 +46,4 @@ human_bytes
 phf_generator
 parquet
 trunk
+pgrx-tests
