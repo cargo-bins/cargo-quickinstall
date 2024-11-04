@@ -2,3 +2,4 @@ opencv-binding-generator
 borsh
 ducc-sys
 protox
+sea-orm-cli
