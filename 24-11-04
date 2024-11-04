@@ -3,3 +3,4 @@ java-locator
 libbpf-cargo
 rls-rustc
 solana-stake-accounts
+evcxr_repl
