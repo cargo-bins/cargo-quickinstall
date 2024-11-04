@@ -62,3 +62,4 @@ rrule
 dotenv
 oxipng
 borsh
+cached-path
