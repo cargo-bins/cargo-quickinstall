@@ -51,3 +51,4 @@ cargo-generate
 phf_generator
 socketcan
 dotenv
+rustrict
