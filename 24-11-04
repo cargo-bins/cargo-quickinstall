@@ -13,3 +13,4 @@ rls-rustc
 tendermint-abci
 clippy
 httpmock
+foundationdb-gen
