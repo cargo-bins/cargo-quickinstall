@@ -41,3 +41,4 @@ tree-sitter-cli
 remove_dir_all
 nu
 winpty-rs
+remove_dir_all
