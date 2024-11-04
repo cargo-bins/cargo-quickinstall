@@ -48,3 +48,4 @@ rls-rustc
 tree-sitter-cli
 remove_dir_all
 borsh
+racer
