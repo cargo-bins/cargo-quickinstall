@@ -77,3 +77,4 @@ git-mit-config
 mit-commit-msg
 clippy
 socketcan
+addr2line
