@@ -60,3 +60,4 @@ opencv-binding-generator
 diesel_cli
 deno
 solana-validator
+sn_node
