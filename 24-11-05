@@ -47,3 +47,4 @@ rustfmt-nightly
 honggfuzz
 cargo-vet
 dotenvy
+human_name
