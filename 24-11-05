@@ -33,3 +33,4 @@ cargo-about
 mit-commit-msg
 re_query
 cpp_demangle
+dotenv
