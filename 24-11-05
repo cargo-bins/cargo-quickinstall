@@ -20,3 +20,4 @@ sha1collisiondetection
 rustrict
 deploy
 raw-cpuid
+addr2line
