@@ -62,3 +62,4 @@ tendermint-rpc
 human_bytes
 nexmark
 dotenv
+socketcan
