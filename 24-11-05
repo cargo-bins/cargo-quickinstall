@@ -10,3 +10,4 @@ httpmock
 human_name
 pgrx-tests
 nu
+diesel_cli
