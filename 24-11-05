@@ -7,3 +7,4 @@ rkv
 libbpf-cargo
 rav1e
 tree-sitter-graph
+cpp_demangle
