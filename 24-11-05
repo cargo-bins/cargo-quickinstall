@@ -10,3 +10,4 @@ tree-sitter-graph
 cpp_demangle
 rustrict
 tree-sitter-cli
+solana-gossip
