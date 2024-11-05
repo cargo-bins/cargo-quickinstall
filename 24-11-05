@@ -59,3 +59,4 @@ oso
 nextest-filtering
 rustrict
 rustfmt-nightly
+wmi
