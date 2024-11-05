@@ -107,3 +107,4 @@ syd
 sn_cli
 sqlx-cli
 cargo-local-registry
+benfred-read-process-memory
