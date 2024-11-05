@@ -37,3 +37,4 @@ mit-prepare-commit-msg
 solana-validator
 diesel_cli
 textplots
+solana-net-utils
