@@ -41,3 +41,4 @@ solana-validator
 rustfmt-nightly
 tendermint-rpc
 h3o
+cargo-lock
