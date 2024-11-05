@@ -28,3 +28,4 @@ cpp_demangle
 solana-net-utils
 pgrx-tests
 foundationdb-gen
+rls-rustc
