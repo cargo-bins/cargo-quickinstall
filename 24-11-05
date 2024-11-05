@@ -30,3 +30,4 @@ human_bytes
 phf_generator
 starship
 tree-sitter-cli
+addr2line
