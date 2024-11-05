@@ -6,3 +6,4 @@ libbpf-cargo
 solana-stake-accounts
 librespot
 deno
+cpp_demangle
