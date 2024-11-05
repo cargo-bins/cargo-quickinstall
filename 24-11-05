@@ -39,3 +39,4 @@ socketcan
 wmi
 rrule
 snarkvm
+raw-cpuid
