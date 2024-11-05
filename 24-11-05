@@ -10,3 +10,4 @@ schemafy
 nu
 diesel_cli
 evcxr_repl
+foundationdb-gen
