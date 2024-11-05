@@ -14,3 +14,4 @@ cpp_demangle
 syd
 py-spy
 pwasm-utils
+unic-langid-impl
