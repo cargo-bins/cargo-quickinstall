@@ -3,3 +3,4 @@ syd
 cargo-vet
 ducc-sys
 dotenv
+unic-langid-impl
