@@ -2,3 +2,4 @@ winpty-rs
 rls-rustc
 parquet
 pgrx-tests
+spider_worker
