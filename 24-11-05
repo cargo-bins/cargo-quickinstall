@@ -41,3 +41,4 @@ dotenv
 winpty-rs
 mit-prepare-commit-msg
 cargo-generate
+human_bytes
