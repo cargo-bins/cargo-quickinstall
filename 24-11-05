@@ -74,3 +74,4 @@ py-spy
 socketcan
 tree-sitter-cli
 cached-path
+tendermint-abci
