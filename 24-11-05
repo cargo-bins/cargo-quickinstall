@@ -9,3 +9,4 @@ deno
 cpp_demangle
 minicbor
 spider_cli
+wol-rs
