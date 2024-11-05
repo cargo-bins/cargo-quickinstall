@@ -39,3 +39,4 @@ addr2line
 rls-rustc
 zuse
 raw-cpuid
+trunk
