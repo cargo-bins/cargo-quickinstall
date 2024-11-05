@@ -33,3 +33,4 @@ raw-cpuid
 cargo-vet
 diesel_cli
 trunk
+mit-prepare-commit-msg
