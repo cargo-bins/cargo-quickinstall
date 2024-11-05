@@ -12,3 +12,4 @@ rustrict
 tree-sitter-cli
 solana-gossip
 borsh
+raw-cpuid
