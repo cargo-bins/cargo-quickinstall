@@ -10,3 +10,4 @@ mit-prepare-commit-msg
 cargo-local-registry
 git-mit-config
 unic-langid-impl
+tendermint-abci
