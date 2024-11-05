@@ -42,3 +42,4 @@ winpty-rs
 mit-prepare-commit-msg
 cargo-generate
 human_bytes
+remove_dir_all
