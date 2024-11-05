@@ -30,3 +30,4 @@ pgrx-tests
 foundationdb-gen
 rls-rustc
 syd
+borsh
