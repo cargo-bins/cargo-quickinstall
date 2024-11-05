@@ -56,3 +56,4 @@ solana-gossip
 text-diff
 pwasm-utils
 rustfmt-nightly
+opencv-binding-generator
