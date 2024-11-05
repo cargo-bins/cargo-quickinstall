@@ -14,3 +14,4 @@ solana-gossip
 borsh
 raw-cpuid
 pgrx-tests
+tendermint-rpc
