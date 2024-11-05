@@ -79,3 +79,4 @@ rustfmt
 cached-path
 rav1e
 solana-validator
+httpmock
