@@ -14,3 +14,4 @@ tendermint-abci
 addr2line
 arrow-flight
 nextest-filtering
+z3tracer
