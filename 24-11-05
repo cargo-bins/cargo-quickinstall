@@ -26,3 +26,4 @@ dotenv
 paperclip
 phf_generator
 solana-net-utils
+tree-sitter-cli
