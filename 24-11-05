@@ -13,3 +13,4 @@ evcxr_repl
 foundationdb-gen
 rrule
 pgrx-tests
+dotenvy
