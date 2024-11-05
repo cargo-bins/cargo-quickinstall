@@ -74,3 +74,4 @@ schemafy
 dotenvy
 tendermint-rpc
 tendermint-abci
+solana-net-utils
