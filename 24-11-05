@@ -44,3 +44,4 @@ httpmock
 dotenvy
 solana-validator
 opencv-binding-generator
+arrow-flight
