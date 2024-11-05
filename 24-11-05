@@ -47,3 +47,4 @@ solana-net-utils
 diesel_cli
 arrow-flight
 rrule
+wol-rs
