@@ -27,3 +27,4 @@ human_bytes
 sha1collisiondetection
 borsh
 java-locator
+solana-net-utils
