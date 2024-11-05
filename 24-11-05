@@ -83,3 +83,4 @@ httpmock
 nexmark
 phf_generator
 oso
+sqlx-cli
