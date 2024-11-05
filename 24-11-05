@@ -20,3 +20,4 @@ cargo-outdated
 cargo-local-registry
 dotenv
 re_query
+trunk
