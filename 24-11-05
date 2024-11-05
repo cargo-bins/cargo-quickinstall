@@ -43,3 +43,4 @@ sha1collisiondetection
 textplots
 arrow-flight
 h3o
+rustfmt-nightly
