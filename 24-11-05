@@ -45,3 +45,4 @@ human_bytes
 cached-path
 cargo-lock
 dotenvy
+re_query
