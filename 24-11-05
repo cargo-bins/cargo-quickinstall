@@ -17,3 +17,4 @@ pwasm-utils
 unic-langid-impl
 mit-prepare-commit-msg
 cargo-outdated
+cargo-local-registry
