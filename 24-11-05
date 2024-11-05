@@ -62,3 +62,4 @@ deno
 solana-validator
 sn_node
 socketcan
+httpmock
