@@ -9,3 +9,4 @@ spider_cli
 schemafy
 nu
 diesel_cli
+evcxr_repl
