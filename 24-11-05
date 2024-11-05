@@ -23,3 +23,4 @@ schemafy
 cpp_demangle
 httpmock
 borsh
+foundationdb-gen
