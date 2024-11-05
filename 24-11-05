@@ -48,3 +48,4 @@ arrow-flight
 dotenv
 laminar
 socketcan
+httpmock
