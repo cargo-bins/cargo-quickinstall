@@ -118,3 +118,4 @@ ec2_instance_metadata
 parquet
 sn_cli
 rustbus
+rustrict
