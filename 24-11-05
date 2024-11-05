@@ -59,3 +59,4 @@ rustfmt-nightly
 opencv-binding-generator
 diesel_cli
 deno
+solana-validator
