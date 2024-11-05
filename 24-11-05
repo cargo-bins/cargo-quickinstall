@@ -17,3 +17,4 @@ pgrx-tests
 tendermint-rpc
 racer
 nexmark
+human_bytes
