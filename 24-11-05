@@ -34,3 +34,4 @@ snarkvm
 rustfmt-nightly
 nkeys
 solana-net-utils
+protox
