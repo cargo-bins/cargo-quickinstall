@@ -82,3 +82,4 @@ parquet
 raw-cpuid
 libbpf-cargo
 dotenv
+rustrict
