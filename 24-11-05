@@ -26,3 +26,4 @@ rustfmt-nightly
 raw-cpuid
 pgrx-tests
 re_query
+winpty-rs
