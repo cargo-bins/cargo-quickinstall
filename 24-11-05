@@ -11,3 +11,4 @@ cargo-local-registry
 git-mit-config
 unic-langid-impl
 tendermint-abci
+addr2line
