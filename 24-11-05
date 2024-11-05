@@ -110,3 +110,4 @@ cargo-local-registry
 benfred-read-process-memory
 rav1e
 rustbus
+ec2_instance_metadata
