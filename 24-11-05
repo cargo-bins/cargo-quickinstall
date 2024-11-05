@@ -94,3 +94,4 @@ spider_worker
 socketcan
 tree-sitter-graph
 pwasm-utils
+nexmark
