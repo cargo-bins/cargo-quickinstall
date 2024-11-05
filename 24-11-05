@@ -28,3 +28,4 @@ tokio-process
 rustfmt
 tree-sitter-graph
 deploy
+human_name
