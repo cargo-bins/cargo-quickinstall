@@ -40,3 +40,4 @@ wmi
 rrule
 snarkvm
 raw-cpuid
+httpmock
