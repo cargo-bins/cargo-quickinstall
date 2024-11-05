@@ -29,3 +29,4 @@ sea-orm-cli
 solana-keygen
 minicbor
 syd
+tendermint-abci
