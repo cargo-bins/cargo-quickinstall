@@ -109,3 +109,4 @@ sqlx-cli
 cargo-local-registry
 benfred-read-process-memory
 rav1e
+rustbus
