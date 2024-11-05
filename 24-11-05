@@ -55,3 +55,4 @@ deploy
 solana-gossip
 text-diff
 pwasm-utils
+rustfmt-nightly
