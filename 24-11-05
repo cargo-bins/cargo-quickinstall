@@ -53,3 +53,4 @@ libbpf-cargo
 rkv
 borsh
 winpty-rs
+foundationdb-gen
