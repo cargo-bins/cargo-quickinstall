@@ -4,3 +4,4 @@ parquet
 pgrx-tests
 spider_worker
 rkv
+libbpf-cargo
