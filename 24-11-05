@@ -12,3 +12,4 @@ pgrx-tests
 nu
 diesel_cli
 ducc-sys
+pwasm-utils
