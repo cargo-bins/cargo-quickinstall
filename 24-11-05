@@ -16,3 +16,4 @@ py-spy
 pwasm-utils
 unic-langid-impl
 mit-prepare-commit-msg
+cargo-outdated
