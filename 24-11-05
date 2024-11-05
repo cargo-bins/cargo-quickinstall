@@ -31,3 +31,4 @@ paperclip
 solana-cli
 schemafy
 snarkvm
+rustfmt-nightly
