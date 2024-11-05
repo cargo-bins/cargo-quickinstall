@@ -38,3 +38,4 @@ cpp_demangle
 addr2line
 rls-rustc
 zuse
+raw-cpuid
