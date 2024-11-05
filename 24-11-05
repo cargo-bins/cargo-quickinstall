@@ -80,3 +80,4 @@ py-spy
 schemafy
 parquet
 raw-cpuid
+libbpf-cargo
