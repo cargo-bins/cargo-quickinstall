@@ -42,3 +42,4 @@ dotenvy
 h3o
 pwasm-utils
 human_bytes
+cached-path
