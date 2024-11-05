@@ -48,3 +48,4 @@ honggfuzz
 cargo-vet
 dotenvy
 human_name
+rustrict
