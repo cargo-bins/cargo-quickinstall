@@ -26,3 +26,4 @@ parquet
 tendermint-rpc
 solana-validator
 socketcan
+unic-langid-impl
