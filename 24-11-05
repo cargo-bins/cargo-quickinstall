@@ -3,3 +3,4 @@ rls-rustc
 parquet
 pgrx-tests
 spider_worker
+rkv
