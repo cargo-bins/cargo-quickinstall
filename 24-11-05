@@ -2,3 +2,4 @@ re_query
 wol-rs
 tendermint-rpc
 zuse
+phf_generator
