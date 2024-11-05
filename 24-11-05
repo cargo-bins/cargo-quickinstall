@@ -14,3 +14,4 @@ clippy
 solana-stake-accounts
 schemafy
 wol-rs
+opencv-binding-generator
