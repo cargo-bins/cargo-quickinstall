@@ -38,3 +38,4 @@ rustbus
 sha1collisiondetection
 libbpf-cargo
 dotenv
+winpty-rs
