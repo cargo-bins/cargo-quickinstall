@@ -6,3 +6,4 @@ dotenv
 unic-langid-impl
 parquet
 raw-cpuid
+mit-prepare-commit-msg
