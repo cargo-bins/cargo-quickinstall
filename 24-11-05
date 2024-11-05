@@ -76,3 +76,4 @@ tree-sitter-cli
 cached-path
 tendermint-abci
 borsh
+py-spy
