@@ -8,3 +8,4 @@ winpty-rs
 h3o
 cargo-outdated
 solana-gossip
+rkv
