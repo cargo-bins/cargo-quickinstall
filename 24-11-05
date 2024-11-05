@@ -24,3 +24,4 @@ cpp_demangle
 httpmock
 borsh
 foundationdb-gen
+cpp_demangle
