@@ -84,3 +84,4 @@ libbpf-cargo
 dotenv
 rustrict
 spider_worker
+cached-path
