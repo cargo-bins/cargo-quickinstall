@@ -12,3 +12,4 @@ diesel_cli
 evcxr_repl
 foundationdb-gen
 rrule
+pgrx-tests
