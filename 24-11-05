@@ -52,3 +52,4 @@ ducc-sys
 libbpf-cargo
 rkv
 borsh
+winpty-rs
