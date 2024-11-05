@@ -18,3 +18,4 @@ honggfuzz
 tendermint-rpc
 git-mit
 sqlx-cli
+solana-validator
