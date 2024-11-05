@@ -18,3 +18,4 @@ tendermint-rpc
 racer
 nexmark
 human_bytes
+sha1collisiondetection
