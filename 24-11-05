@@ -47,3 +47,4 @@ cargo-lock
 dotenvy
 re_query
 rustfmt-nightly
+oso
