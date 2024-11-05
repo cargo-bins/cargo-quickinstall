@@ -24,3 +24,4 @@ spider_worker
 clippy
 unic-langid-impl
 evcxr_repl
+solana-validator
