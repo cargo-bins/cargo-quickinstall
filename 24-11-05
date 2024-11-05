@@ -62,3 +62,4 @@ rustfmt-nightly
 wmi
 solana-keygen
 librespot
+tauri-cli
