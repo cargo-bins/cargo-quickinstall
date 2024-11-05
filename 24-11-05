@@ -51,3 +51,4 @@ raw-cpuid
 phf_generator
 wol-rs
 solana-validator
+wmi
