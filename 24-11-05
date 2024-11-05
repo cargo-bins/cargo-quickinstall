@@ -107,3 +107,4 @@ rustrict
 clippy
 solana-stake-accounts
 tendermint-rpc
+spider_worker
