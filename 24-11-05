@@ -38,3 +38,4 @@ unic-langid-impl
 paperclip
 apollo-router
 solana-validator
+rustfmt-nightly
