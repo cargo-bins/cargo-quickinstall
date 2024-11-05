@@ -21,3 +21,4 @@ parquet
 protox
 schemafy
 cpp_demangle
+httpmock
