@@ -28,3 +28,4 @@ pgrx-tests
 re_query
 winpty-rs
 pgrx-tests
+solana-net-utils
