@@ -21,3 +21,4 @@ cargo-local-registry
 dotenv
 re_query
 trunk
+solana-cli
