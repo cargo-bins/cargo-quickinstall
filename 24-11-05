@@ -9,3 +9,4 @@ mit-pre-commit
 cargo-lock
 raw-cpuid
 oso
+trunk
