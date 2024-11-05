@@ -5,3 +5,4 @@ rkv
 nkeys
 tendermint-rpc
 addr2line
+solana-validator
