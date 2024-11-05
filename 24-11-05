@@ -13,3 +13,4 @@ clippy
 cpp_demangle
 syd
 py-spy
+pwasm-utils
