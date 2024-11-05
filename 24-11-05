@@ -37,3 +37,4 @@ textplots
 rrule
 phf_generator
 tendermint-rpc
+pwasm-utils
