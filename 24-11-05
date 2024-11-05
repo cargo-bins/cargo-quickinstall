@@ -36,3 +36,4 @@ wol-rs
 textplots
 rrule
 phf_generator
+tendermint-rpc
