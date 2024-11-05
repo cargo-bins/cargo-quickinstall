@@ -1,3 +1,4 @@
 winpty-rs
 rls-rustc
 parquet
+pgrx-tests
