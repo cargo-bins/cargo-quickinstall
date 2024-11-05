@@ -85,3 +85,4 @@ phf_generator
 oso
 sqlx-cli
 httpbis
+text-diff
