@@ -5,3 +5,4 @@ ducc-sys
 dotenv
 unic-langid-impl
 parquet
+raw-cpuid
