@@ -30,3 +30,4 @@ java-locator
 solana-net-utils
 socketcan
 foundationdb-gen
+rkv
