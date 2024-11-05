@@ -31,3 +31,4 @@ foundationdb-gen
 rls-rustc
 syd
 borsh
+java-locator
