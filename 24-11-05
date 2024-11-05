@@ -21,3 +21,4 @@ cargo-vet
 rkv
 socketcan
 libbpf-cargo
+textplots
