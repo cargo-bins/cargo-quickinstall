@@ -81,3 +81,4 @@ schemafy
 parquet
 raw-cpuid
 libbpf-cargo
+dotenv
