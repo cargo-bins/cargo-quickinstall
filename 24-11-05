@@ -62,3 +62,4 @@ solana-cli
 solana-stake-accounts
 cpp_demangle
 protox
+dotenvy
