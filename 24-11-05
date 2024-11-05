@@ -72,3 +72,4 @@ tendermint-rpc
 nextest-filtering
 schemafy
 dotenvy
+tendermint-rpc
