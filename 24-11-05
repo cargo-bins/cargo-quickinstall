@@ -32,3 +32,4 @@ socketcan
 foundationdb-gen
 rkv
 cargo-lock
+z3tracer
