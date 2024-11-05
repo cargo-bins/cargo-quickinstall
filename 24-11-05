@@ -46,3 +46,4 @@ h3o
 rustfmt-nightly
 honggfuzz
 cargo-vet
+dotenvy
