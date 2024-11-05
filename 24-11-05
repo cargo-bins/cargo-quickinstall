@@ -35,3 +35,4 @@ cargo-lock
 z3tracer
 cpp_demangle
 unic-langid-impl
+paperclip
