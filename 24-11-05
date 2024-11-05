@@ -40,3 +40,4 @@ rls-rustc
 zuse
 raw-cpuid
 trunk
+clippy
