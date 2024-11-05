@@ -3,3 +3,4 @@ solana-net-utils
 dotenvy
 httpmock
 protox
+remove_dir_all
