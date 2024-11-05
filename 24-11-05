@@ -51,3 +51,4 @@ wol-rs
 ducc-sys
 libbpf-cargo
 rkv
+borsh
