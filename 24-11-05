@@ -13,3 +13,4 @@ nu
 diesel_cli
 ducc-sys
 pwasm-utils
+phf_generator
