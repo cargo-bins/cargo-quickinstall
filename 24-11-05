@@ -14,3 +14,4 @@ cpp_demangle
 deploy
 pgrx-tests
 paperclip
+wol-rs
