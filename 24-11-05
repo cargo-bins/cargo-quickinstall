@@ -2,3 +2,4 @@ cached-path
 libbpf-cargo
 sea-orm-cli
 dotenvy
+a11ywatch_cli
