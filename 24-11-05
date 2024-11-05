@@ -6,3 +6,4 @@ spider_worker
 rkv
 libbpf-cargo
 rav1e
+tree-sitter-graph
