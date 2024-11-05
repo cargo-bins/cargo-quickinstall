@@ -19,3 +19,4 @@ tendermint-rpc
 git-mit
 sqlx-cli
 solana-validator
+tree-sitter-graph
