@@ -8,3 +8,4 @@ addr2line
 solana-validator
 arrow-flight
 paperclip
+dotenv
