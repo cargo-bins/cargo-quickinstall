@@ -65,3 +65,4 @@ librespot
 tauri-cli
 nextest-filtering
 wmi
+borsh
