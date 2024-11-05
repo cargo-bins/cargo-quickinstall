@@ -39,3 +39,4 @@ sha1collisiondetection
 libbpf-cargo
 dotenv
 winpty-rs
+mit-prepare-commit-msg
