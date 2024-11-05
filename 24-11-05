@@ -105,3 +105,4 @@ schemafy
 wol-rs
 syd
 sn_cli
+sqlx-cli
