@@ -7,3 +7,4 @@ unic-langid-impl
 java-locator
 mit-pre-commit
 cargo-lock
+raw-cpuid
