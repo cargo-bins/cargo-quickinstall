@@ -47,3 +47,4 @@ opencv-binding-generator
 arrow-flight
 dotenv
 laminar
+socketcan
