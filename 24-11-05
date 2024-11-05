@@ -54,3 +54,4 @@ protox
 deno
 solana-net-utils
 tree-sitter-cli
+sqlx-cli
