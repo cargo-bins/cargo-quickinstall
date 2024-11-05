@@ -4,3 +4,4 @@ spider_cli
 tendermint-rpc
 h3o
 solana-cli
+winpty-rs
