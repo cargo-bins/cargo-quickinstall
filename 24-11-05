@@ -46,3 +46,4 @@ remove_dir_all
 solana-net-utils
 diesel_cli
 arrow-flight
+rrule
