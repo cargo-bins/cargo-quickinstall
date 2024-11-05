@@ -37,3 +37,4 @@ rav1e
 rustbus
 sha1collisiondetection
 libbpf-cargo
+dotenv
