@@ -39,3 +39,4 @@ paperclip
 apollo-router
 solana-validator
 rustfmt-nightly
+tendermint-rpc
