@@ -114,3 +114,4 @@ ec2_instance_metadata
 solana-gossip
 protox
 dotenv
+ec2_instance_metadata
