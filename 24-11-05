@@ -13,3 +13,4 @@ unic-langid-impl
 tendermint-abci
 addr2line
 arrow-flight
+nextest-filtering
