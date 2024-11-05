@@ -72,3 +72,4 @@ sccache
 h3o
 py-spy
 socketcan
+tree-sitter-cli
