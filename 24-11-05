@@ -49,3 +49,4 @@ re_query
 rustfmt-nightly
 oso
 racer
+ducc-sys
