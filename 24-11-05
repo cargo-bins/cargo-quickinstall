@@ -8,3 +8,4 @@ parquet
 raw-cpuid
 mit-prepare-commit-msg
 cargo-local-registry
+git-mit-config
