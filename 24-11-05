@@ -100,3 +100,4 @@ wol-rs
 parquet
 schemafy
 git-mit-relates-to
+sha1collisiondetection
