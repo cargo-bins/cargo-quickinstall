@@ -33,3 +33,4 @@ foundationdb-gen
 rkv
 cargo-lock
 z3tracer
+cpp_demangle
