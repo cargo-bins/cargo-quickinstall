@@ -26,3 +26,4 @@ winpty-rs
 deploy
 tokio-process
 rustfmt
+tree-sitter-graph
