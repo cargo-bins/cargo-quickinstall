@@ -35,3 +35,4 @@ rustfmt-nightly
 nkeys
 solana-net-utils
 protox
+cargo-lock
