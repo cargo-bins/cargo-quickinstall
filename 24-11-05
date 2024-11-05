@@ -92,3 +92,4 @@ cached-path
 nu
 spider_worker
 socketcan
+tree-sitter-graph
