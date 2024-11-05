@@ -54,3 +54,4 @@ laminar
 deploy
 solana-gossip
 text-diff
+pwasm-utils
