@@ -43,3 +43,4 @@ tendermint-rpc
 h3o
 cargo-lock
 a11ywatch_cli
+rustfmt-nightly
