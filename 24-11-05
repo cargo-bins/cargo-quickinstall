@@ -10,3 +10,4 @@ cargo-outdated
 solana-gossip
 rkv
 clippy
+cpp_demangle
