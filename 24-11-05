@@ -24,3 +24,4 @@ libbpf-cargo
 textplots
 winpty-rs
 deploy
+tokio-process
