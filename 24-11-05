@@ -40,3 +40,4 @@ libbpf-cargo
 dotenv
 winpty-rs
 mit-prepare-commit-msg
+cargo-generate
