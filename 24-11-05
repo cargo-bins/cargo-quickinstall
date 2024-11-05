@@ -9,3 +9,4 @@ h3o
 cargo-outdated
 solana-gossip
 rkv
+clippy
