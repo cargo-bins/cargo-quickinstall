@@ -59,3 +59,4 @@ snarkvm
 remove_dir_all
 pgrx-tests
 solana-cli
+solana-stake-accounts
