@@ -12,3 +12,4 @@ oso
 trunk
 mit-prepare-commit-msg
 deploy
+winpty-rs
