@@ -76,3 +76,4 @@ text-diff
 rkv
 paperclip
 rustfmt
+cached-path
