@@ -20,3 +20,4 @@ cached-path
 cargo-vet
 rkv
 socketcan
+libbpf-cargo
