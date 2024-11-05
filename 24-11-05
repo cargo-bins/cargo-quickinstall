@@ -24,3 +24,4 @@ arrow-flight
 nextest-filtering
 addr2line
 human_bytes
+sha1collisiondetection
