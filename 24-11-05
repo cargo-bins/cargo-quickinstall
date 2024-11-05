@@ -63,3 +63,4 @@ solana-validator
 sn_node
 socketcan
 httpmock
+minicbor
