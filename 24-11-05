@@ -4,3 +4,4 @@ sea-orm-cli
 dotenvy
 a11ywatch_cli
 oxipng
+cpp_demangle
