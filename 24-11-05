@@ -35,3 +35,4 @@ solana-keygen
 solana-validator
 nexmark
 cpp_demangle
+addr2line
