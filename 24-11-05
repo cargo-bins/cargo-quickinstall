@@ -1,3 +1,4 @@
 cached-path
 libbpf-cargo
 sea-orm-cli
+dotenvy
