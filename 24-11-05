@@ -36,3 +36,4 @@ cpp_demangle
 dotenv
 rustrict
 socketcan
+wmi
