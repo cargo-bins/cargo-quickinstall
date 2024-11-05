@@ -26,3 +26,4 @@ unic-langid-impl
 evcxr_repl
 solana-validator
 sea-orm-cli
+solana-keygen
