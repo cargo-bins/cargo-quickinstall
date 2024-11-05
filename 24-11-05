@@ -83,3 +83,4 @@ raw-cpuid
 libbpf-cargo
 dotenv
 rustrict
+spider_worker
