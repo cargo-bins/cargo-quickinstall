@@ -56,3 +56,4 @@ solana-net-utils
 tree-sitter-cli
 sqlx-cli
 snarkvm
+remove_dir_all
