@@ -33,3 +33,4 @@ tendermint-abci
 diesel_cli
 nexmark
 watchexec-cli
+solana-gossip
