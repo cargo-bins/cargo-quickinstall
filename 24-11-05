@@ -19,3 +19,4 @@ minicbor
 cached-path
 cargo-vet
 rkv
+socketcan
