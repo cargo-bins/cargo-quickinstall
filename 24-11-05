@@ -64,3 +64,4 @@ sn_node
 socketcan
 httpmock
 minicbor
+benfred-read-process-memory
