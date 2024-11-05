@@ -7,3 +7,4 @@ solana-cli
 winpty-rs
 h3o
 cargo-outdated
+solana-gossip
