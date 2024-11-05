@@ -55,3 +55,4 @@ wmi
 rls-rustc
 wol-rs
 solana-net-utils
+parquet
