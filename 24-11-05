@@ -19,3 +19,4 @@ cargo-about
 ducc-sys
 laminar
 tree-sitter-graph
+py-spy
