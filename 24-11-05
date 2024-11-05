@@ -106,3 +106,4 @@ wol-rs
 syd
 sn_cli
 sqlx-cli
+cargo-local-registry
