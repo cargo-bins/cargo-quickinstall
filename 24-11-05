@@ -12,3 +12,4 @@ dotenv
 human_bytes
 cpp_demangle
 deploy
+pgrx-tests
