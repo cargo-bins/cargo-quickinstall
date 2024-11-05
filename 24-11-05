@@ -25,3 +25,4 @@ human_name
 parquet
 tendermint-rpc
 solana-validator
+socketcan
