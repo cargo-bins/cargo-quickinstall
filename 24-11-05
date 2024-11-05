@@ -6,3 +6,4 @@ protox
 remove_dir_all
 racer
 solana-stake-accounts
+tendermint-abci
