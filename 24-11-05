@@ -58,3 +58,4 @@ sqlx-cli
 snarkvm
 remove_dir_all
 pgrx-tests
+solana-cli
