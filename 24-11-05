@@ -27,3 +27,4 @@ deploy
 tokio-process
 rustfmt
 tree-sitter-graph
+deploy
