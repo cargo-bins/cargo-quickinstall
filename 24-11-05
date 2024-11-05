@@ -43,3 +43,4 @@ raw-cpuid
 httpmock
 dotenvy
 solana-validator
+opencv-binding-generator
