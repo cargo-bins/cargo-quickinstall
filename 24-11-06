@@ -8,3 +8,4 @@ raw-cpuid
 nkeys
 dotenv
 tendermint-abci
+human_name
