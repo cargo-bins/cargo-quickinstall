@@ -6,3 +6,4 @@ java-locator
 dotenvy
 libbpf-cargo
 re_query
+cargo-vet
