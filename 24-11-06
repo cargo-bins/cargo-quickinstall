@@ -17,3 +17,4 @@ solana-net-utils
 rustfmt-nightly
 pwasm-utils
 rkv
+sea-orm-cli
