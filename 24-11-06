@@ -46,3 +46,4 @@ dbus-codegen
 dotenvy
 textplots
 dbus-codegen
+borsh
