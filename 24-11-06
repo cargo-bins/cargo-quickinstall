@@ -49,3 +49,4 @@ cached-path
 git-mit-install
 mit-prepare-commit-msg
 rustbus
+tendermint-abci
