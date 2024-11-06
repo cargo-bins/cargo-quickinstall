@@ -2,3 +2,4 @@ clippy
 spider_cli
 spider_worker
 unic-langid-impl
+socketcan
