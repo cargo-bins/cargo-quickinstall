@@ -38,3 +38,4 @@ cached-path
 rustfmt-nightly
 cargo-tarpaulin
 solana-net-utils
+snarkvm
