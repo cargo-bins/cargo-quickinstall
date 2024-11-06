@@ -28,3 +28,4 @@ tree-sitter-cli
 winpty-rs
 cpp_demangle
 librespot
+mit-prepare-commit-msg
