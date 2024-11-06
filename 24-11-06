@@ -40,3 +40,4 @@ cargo-tarpaulin
 solana-net-utils
 snarkvm
 git-mit-install
+cargo-local-registry
