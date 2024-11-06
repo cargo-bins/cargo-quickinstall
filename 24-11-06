@@ -31,3 +31,4 @@ cargo-codspeed
 solana-keygen
 cargo-about
 zuse
+tauri-cli
