@@ -43,3 +43,4 @@ sqlx-cli
 apollo-router
 skim
 minicbor
+cached-path
