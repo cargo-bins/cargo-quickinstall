@@ -43,3 +43,4 @@ dbus-codegen
 apollo-router
 solana-validator
 sea-orm-cli
+human_bytes
