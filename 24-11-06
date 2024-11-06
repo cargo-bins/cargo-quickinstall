@@ -25,3 +25,4 @@ foundationdb-gen
 opencv-binding-generator
 paperclip
 dbus-codegen
+parquet
