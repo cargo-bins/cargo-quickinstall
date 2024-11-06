@@ -38,3 +38,4 @@ spider_worker
 oso
 re_query
 apollo-router
+spider_cli
