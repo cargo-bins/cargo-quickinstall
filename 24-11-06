@@ -5,3 +5,4 @@ tendermint-rpc
 cached-path
 tendermint-abci
 raw-cpuid
+wol-rs
