@@ -52,3 +52,4 @@ sha1collisiondetection
 ducc-sys
 schemafy
 arrow-flight
+dbus-codegen
