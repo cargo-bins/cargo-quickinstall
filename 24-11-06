@@ -52,3 +52,4 @@ cpp_demangle
 raw-cpuid
 watchexec-cli
 mit-prepare-commit-msg
+solana-keygen
