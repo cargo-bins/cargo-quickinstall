@@ -10,3 +10,4 @@ solana-stake-accounts
 spider_worker
 foundationdb-gen
 parquet
+spider_cli
