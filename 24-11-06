@@ -49,3 +49,4 @@ parquet
 zuse
 dbus-codegen
 cpp_demangle
+raw-cpuid
