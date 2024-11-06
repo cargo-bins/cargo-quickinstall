@@ -21,3 +21,4 @@ dbus-codegen
 sha1collisiondetection
 starship
 protox
+rls-rustc
