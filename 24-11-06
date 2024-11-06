@@ -45,3 +45,4 @@ human_bytes
 rmesg
 ducc-sys
 tree-sitter-graph
+cached-path
