@@ -47,3 +47,4 @@ socketcan
 librespot
 parquet
 zuse
+dbus-codegen
