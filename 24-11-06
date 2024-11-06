@@ -27,3 +27,4 @@ paperclip
 dbus-codegen
 parquet
 raw-cpuid
+dotenv
