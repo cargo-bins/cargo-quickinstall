@@ -12,3 +12,4 @@ rrule
 parquet
 diesel_cli
 skim
+tree-sitter-graph
