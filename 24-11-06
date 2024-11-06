@@ -22,3 +22,4 @@ zuse
 unic-langid-impl
 dbus-codegen
 cached-path
+rustfmt-nightly
