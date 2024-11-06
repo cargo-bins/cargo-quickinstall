@@ -28,3 +28,4 @@ dbus-codegen
 parquet
 raw-cpuid
 dotenv
+human_bytes
