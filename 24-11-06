@@ -79,3 +79,4 @@ tokio-process
 deploy
 dbus-codegen
 rls-rustc
+borsh
