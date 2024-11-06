@@ -38,3 +38,4 @@ pwasm-utils
 arrow-flight
 paperclip
 protox
+tokio-process
