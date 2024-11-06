@@ -36,3 +36,4 @@ rls-rustc
 parquet
 spider_worker
 oso
+re_query
