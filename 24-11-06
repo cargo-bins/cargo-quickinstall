@@ -18,3 +18,4 @@ rustfmt-nightly
 diesel_cli
 human_bytes
 syd
+raw-cpuid
