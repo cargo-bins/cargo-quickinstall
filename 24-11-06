@@ -34,3 +34,4 @@ wol-rs
 protox
 httpmock
 solana-gossip
+cpp_demangle
