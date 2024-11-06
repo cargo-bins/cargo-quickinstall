@@ -57,3 +57,4 @@ apollo-router
 human_bytes
 rustfmt-nightly
 httpbis
+minicbor
