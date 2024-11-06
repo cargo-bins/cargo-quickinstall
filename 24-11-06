@@ -41,3 +41,4 @@ solana-net-utils
 snarkvm
 git-mit-install
 cargo-local-registry
+a11ywatch_cli
