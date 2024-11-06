@@ -4,3 +4,4 @@ nexmark
 wol-rs
 clippy
 apollo-router
+raw-cpuid
