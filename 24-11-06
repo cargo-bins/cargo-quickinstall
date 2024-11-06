@@ -24,3 +24,4 @@ sha1collisiondetection
 foundationdb-gen
 opencv-binding-generator
 paperclip
+dbus-codegen
