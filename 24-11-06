@@ -26,3 +26,4 @@ rustfmt-nightly
 rls-rustc
 cached-path
 solana-gossip
+coldsnap
