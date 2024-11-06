@@ -12,3 +12,4 @@ libbpf-cargo
 pwasm-utils
 ducc-sys
 schemafy
+sqlx-cli
