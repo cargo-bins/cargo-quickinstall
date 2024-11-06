@@ -5,3 +5,4 @@ dbus-codegen
 pwasm-utils
 sha1collisiondetection
 dotenvy
+deploy
