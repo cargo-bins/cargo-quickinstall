@@ -4,3 +4,4 @@ arrow-flight
 tendermint-rpc
 cached-path
 tendermint-abci
+raw-cpuid
