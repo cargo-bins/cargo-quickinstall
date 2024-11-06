@@ -34,3 +34,4 @@ raw-cpuid
 wol-rs
 rrule
 dotenvy
+dbus-codegen
