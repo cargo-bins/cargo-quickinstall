@@ -7,3 +7,4 @@ deno
 addr2line
 diesel_cli
 librespot
+httpmock
