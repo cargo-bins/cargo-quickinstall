@@ -22,3 +22,4 @@ rmesg
 trunk
 rav1e
 minicbor
+rustfmt-nightly
