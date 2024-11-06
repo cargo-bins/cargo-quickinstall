@@ -75,3 +75,4 @@ honggfuzz
 cpp_demangle
 git-mit-install
 rrule
+tokio-process
