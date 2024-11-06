@@ -53,3 +53,4 @@ ducc-sys
 schemafy
 arrow-flight
 dbus-codegen
+tree-sitter-graph
