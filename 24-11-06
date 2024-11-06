@@ -5,3 +5,4 @@ unic-langid-impl
 socketcan
 deno
 addr2line
+diesel_cli
