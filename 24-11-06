@@ -43,3 +43,4 @@ dbus-codegen
 snarkvm
 parquet
 zuse
+socketcan
