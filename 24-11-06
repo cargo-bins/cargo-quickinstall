@@ -42,3 +42,4 @@ rustfmt-nightly
 dbus-codegen
 snarkvm
 parquet
+zuse
