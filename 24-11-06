@@ -51,3 +51,4 @@ mit-prepare-commit-msg
 rustbus
 tendermint-abci
 java-locator
+unic-langid-impl
