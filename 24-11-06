@@ -6,3 +6,4 @@ clippy
 apollo-router
 raw-cpuid
 nkeys
+dotenv
