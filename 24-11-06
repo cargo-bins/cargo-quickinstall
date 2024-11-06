@@ -30,3 +30,4 @@ human_name
 solana-cli
 solana-validator
 cpp_demangle
+minicbor
