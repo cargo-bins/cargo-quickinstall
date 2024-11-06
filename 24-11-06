@@ -47,3 +47,4 @@ dotenvy
 textplots
 dbus-codegen
 borsh
+cached-path
