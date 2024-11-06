@@ -15,3 +15,4 @@ opencv-binding-generator
 cpp_demangle
 textplots
 nexmark
+raw-cpuid
