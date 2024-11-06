@@ -45,3 +45,4 @@ solana-validator
 sea-orm-cli
 human_bytes
 sha1collisiondetection
+java-locator
