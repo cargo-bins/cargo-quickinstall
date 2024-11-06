@@ -47,3 +47,4 @@ human_bytes
 sha1collisiondetection
 java-locator
 tendermint-rpc
+solana-validator
