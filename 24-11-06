@@ -7,3 +7,4 @@ apollo-router
 raw-cpuid
 nkeys
 dotenv
+tendermint-abci
