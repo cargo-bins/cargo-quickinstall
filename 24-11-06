@@ -59,3 +59,4 @@ rustfmt-nightly
 httpbis
 minicbor
 human_name
+text-diff
