@@ -36,3 +36,4 @@ cached-path
 socketcan
 wmi
 human_bytes
+minicbor
