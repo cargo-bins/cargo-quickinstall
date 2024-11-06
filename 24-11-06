@@ -12,3 +12,4 @@ foundationdb-gen
 parquet
 spider_cli
 rls-rustc
+rustfmt-nightly
