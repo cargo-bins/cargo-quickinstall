@@ -50,3 +50,4 @@ rrule
 ducc-sys
 nkeys
 tendermint-abci
+borsh
