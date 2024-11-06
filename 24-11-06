@@ -36,3 +36,4 @@ httpmock
 solana-gossip
 cpp_demangle
 tendermint-abci
+dbus-codegen
