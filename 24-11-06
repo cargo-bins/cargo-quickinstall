@@ -52,3 +52,4 @@ tendermint-rpc
 sha1collisiondetection
 snarkvm
 h3o
+human_bytes
