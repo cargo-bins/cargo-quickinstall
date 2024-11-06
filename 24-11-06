@@ -21,3 +21,4 @@ nextest-filtering
 cargo-lock
 pgrx-tests
 sha1collisiondetection
+foundationdb-gen
