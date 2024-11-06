@@ -49,3 +49,4 @@ solana-stake-accounts
 parquet
 solana-stake-accounts
 tendermint-rpc
+sha1collisiondetection
