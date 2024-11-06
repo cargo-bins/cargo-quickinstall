@@ -24,3 +24,4 @@ dbus-codegen
 cached-path
 rustfmt-nightly
 phf_generator
+laminar
