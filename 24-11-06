@@ -30,3 +30,4 @@ wmi
 minicbor
 parquet
 httpmock
+dotenv
