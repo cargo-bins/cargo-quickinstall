@@ -2,3 +2,4 @@ dbus-codegen
 human_name
 raw-cpuid
 snarkvm
+pwasm-utils
