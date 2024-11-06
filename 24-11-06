@@ -42,3 +42,4 @@ py-spy
 dbus-codegen
 apollo-router
 solana-validator
+sea-orm-cli
