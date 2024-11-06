@@ -41,3 +41,4 @@ dbus-codegen
 rustfmt-nightly
 dbus-codegen
 snarkvm
+parquet
