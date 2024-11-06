@@ -47,3 +47,4 @@ ducc-sys
 tree-sitter-graph
 cached-path
 git-mit-install
+mit-prepare-commit-msg
