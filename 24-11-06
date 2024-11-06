@@ -9,3 +9,4 @@ sha1collisiondetection
 tendermint-abci
 httpmock
 deno
+html2md
