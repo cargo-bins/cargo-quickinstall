@@ -11,3 +11,4 @@ spider_worker
 foundationdb-gen
 parquet
 spider_cli
+rls-rustc
