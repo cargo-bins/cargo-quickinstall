@@ -19,3 +19,4 @@ pwasm-utils
 rkv
 sea-orm-cli
 tree-sitter-graph
+foundationdb-gen
