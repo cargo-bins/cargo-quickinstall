@@ -17,3 +17,4 @@ apollo-router
 racer
 libbpf-cargo
 raw-cpuid
+nextest-filtering
