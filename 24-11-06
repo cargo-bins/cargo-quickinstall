@@ -16,3 +16,4 @@ raw-cpuid
 racer
 textplots
 nextest-filtering
+winpty-rs
