@@ -57,3 +57,4 @@ tree-sitter-graph
 tendermint-abci
 trunk
 socketcan
+diesel_cli
