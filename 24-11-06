@@ -1,3 +1,4 @@
 dbus-codegen
 nextest-filtering
 nexmark
+wol-rs
