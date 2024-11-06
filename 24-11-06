@@ -6,3 +6,4 @@ solana-cli
 rustrict
 solana-cli
 sha1collisiondetection
+tendermint-abci
