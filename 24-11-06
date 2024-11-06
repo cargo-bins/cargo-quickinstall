@@ -32,3 +32,4 @@ solana-keygen
 cargo-about
 zuse
 tauri-cli
+solana-net-utils
