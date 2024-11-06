@@ -35,3 +35,4 @@ apollo-router
 phf_generator
 rustfmt
 pwasm-utils
+arrow-flight
