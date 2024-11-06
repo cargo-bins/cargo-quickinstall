@@ -36,3 +36,4 @@ rrule
 dotenvy
 dbus-codegen
 laminar
+diesel_cli
