@@ -58,3 +58,4 @@ tendermint-abci
 trunk
 socketcan
 diesel_cli
+tree-sitter-cli
