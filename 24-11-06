@@ -11,3 +11,4 @@ unic-langid-impl
 libbpf-cargo
 pwasm-utils
 ducc-sys
+schemafy
