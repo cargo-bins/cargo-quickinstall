@@ -16,3 +16,4 @@ borsh
 apollo-router
 racer
 libbpf-cargo
+raw-cpuid
