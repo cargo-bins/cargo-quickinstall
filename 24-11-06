@@ -6,3 +6,4 @@ cached-path
 tendermint-abci
 raw-cpuid
 wol-rs
+diesel_cli
