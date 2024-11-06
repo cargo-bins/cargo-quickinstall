@@ -7,3 +7,4 @@ tendermint-abci
 raw-cpuid
 wol-rs
 diesel_cli
+sha1collisiondetection
