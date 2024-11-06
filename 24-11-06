@@ -65,3 +65,4 @@ tendermint-abci
 apollo-router
 rls-rustc
 git-mit-relates-to
+honggfuzz
