@@ -81,3 +81,4 @@ dbus-codegen
 rls-rustc
 borsh
 git-mit-install
+solana-gossip
