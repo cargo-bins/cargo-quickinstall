@@ -18,3 +18,4 @@ rustfmt-nightly
 pwasm-utils
 rkv
 sea-orm-cli
+tree-sitter-graph
