@@ -37,3 +37,4 @@ a11ywatch_cli
 cached-path
 rustfmt-nightly
 cargo-tarpaulin
+solana-net-utils
