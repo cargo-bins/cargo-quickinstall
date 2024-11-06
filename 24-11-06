@@ -24,3 +24,4 @@ rav1e
 minicbor
 rustfmt-nightly
 rls-rustc
+cached-path
