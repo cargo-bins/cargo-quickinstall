@@ -18,3 +18,4 @@ racer
 libbpf-cargo
 raw-cpuid
 nextest-filtering
+cargo-lock
