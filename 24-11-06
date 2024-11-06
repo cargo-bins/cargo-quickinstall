@@ -40,3 +40,4 @@ ducc-sys
 dbus-codegen
 rustfmt-nightly
 dbus-codegen
+snarkvm
