@@ -54,3 +54,4 @@ watchexec-cli
 mit-prepare-commit-msg
 solana-keygen
 rustfmt-nightly
+phf_generator
