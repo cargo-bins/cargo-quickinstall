@@ -37,3 +37,4 @@ librespot
 solana-gossip
 winpty-rs
 ducc-sys
+dbus-codegen
