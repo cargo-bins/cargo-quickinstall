@@ -37,3 +37,4 @@ rustfmt
 pwasm-utils
 arrow-flight
 paperclip
+protox
