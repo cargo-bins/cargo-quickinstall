@@ -9,3 +9,4 @@ re_query
 cargo-vet
 unic-langid-impl
 libbpf-cargo
+pwasm-utils
