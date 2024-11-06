@@ -34,3 +34,4 @@ dotenv
 foundationdb-gen
 cached-path
 socketcan
+wmi
