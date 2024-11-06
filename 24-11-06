@@ -12,3 +12,4 @@ clippy
 deploy
 oso
 librespot
+winpty-rs
