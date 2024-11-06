@@ -66,3 +66,4 @@ apollo-router
 rls-rustc
 git-mit-relates-to
 honggfuzz
+cpp_demangle
