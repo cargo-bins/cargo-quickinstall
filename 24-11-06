@@ -20,3 +20,4 @@ cargo-about
 opencv-binding-generator
 paperclip
 protox
+raw-cpuid
