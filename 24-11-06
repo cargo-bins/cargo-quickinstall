@@ -58,3 +58,4 @@ human_bytes
 rustfmt-nightly
 httpbis
 minicbor
+human_name
