@@ -16,3 +16,4 @@ sqlx-cli
 nkeys
 minicbor
 solana-validator
+coldsnap
