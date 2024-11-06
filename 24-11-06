@@ -14,3 +14,4 @@ ducc-sys
 schemafy
 sqlx-cli
 nkeys
+minicbor
