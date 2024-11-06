@@ -20,3 +20,4 @@ diesel_cli
 dbus-codegen
 sha1collisiondetection
 starship
+protox
