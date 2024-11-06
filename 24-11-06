@@ -59,3 +59,4 @@ rkv
 deploy
 snarkvm
 tree-sitter-cli
+cpp_demangle
