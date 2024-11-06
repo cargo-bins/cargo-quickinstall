@@ -19,3 +19,4 @@ raw-cpuid
 cpp_demangle
 human_name
 rrule
+borsh
