@@ -80,3 +80,4 @@ deploy
 dbus-codegen
 rls-rustc
 borsh
+git-mit-install
