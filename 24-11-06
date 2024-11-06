@@ -35,3 +35,4 @@ deno
 rls-rustc
 parquet
 spider_worker
+oso
