@@ -20,3 +20,4 @@ raw-cpuid
 nextest-filtering
 cargo-lock
 pgrx-tests
+sha1collisiondetection
