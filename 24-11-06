@@ -8,3 +8,4 @@ papyrus_storage
 libbpf-cargo
 pgrx-tests
 deno
+solana-validator
