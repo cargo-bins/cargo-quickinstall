@@ -54,3 +54,4 @@ schemafy
 arrow-flight
 dbus-codegen
 tree-sitter-graph
+tendermint-abci
