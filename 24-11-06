@@ -12,3 +12,4 @@ remove_dir_all
 unic-langid-impl
 httpmock
 nkeys
+raw-cpuid
