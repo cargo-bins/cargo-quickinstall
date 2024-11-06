@@ -35,3 +35,4 @@ foundationdb-gen
 cached-path
 socketcan
 wmi
+human_bytes
