@@ -31,3 +31,4 @@ minicbor
 parquet
 httpmock
 dotenv
+foundationdb-gen
