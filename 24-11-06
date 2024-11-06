@@ -40,3 +40,4 @@ dbus-codegen
 dotenv
 racer
 sqlx-cli
+apollo-router
