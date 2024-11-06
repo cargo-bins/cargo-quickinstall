@@ -13,3 +13,4 @@ parquet
 spider_cli
 rls-rustc
 rustfmt-nightly
+wol-rs
