@@ -25,3 +25,4 @@ wmi
 deno
 nextest-filtering
 tree-sitter-cli
+winpty-rs
