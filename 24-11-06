@@ -29,3 +29,4 @@ winpty-rs
 cpp_demangle
 librespot
 mit-prepare-commit-msg
+ducc-sys
