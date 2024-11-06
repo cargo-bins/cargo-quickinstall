@@ -34,3 +34,4 @@ human_name
 deno
 rls-rustc
 parquet
+spider_worker
