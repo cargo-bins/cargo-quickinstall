@@ -5,3 +5,4 @@ wmi
 sha1collisiondetection
 zuse
 tree-sitter-cli
+evcxr_repl
