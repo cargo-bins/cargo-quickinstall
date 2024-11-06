@@ -20,3 +20,4 @@ human_bytes
 syd
 raw-cpuid
 a11ywatch_cli
+remove_dir_all
