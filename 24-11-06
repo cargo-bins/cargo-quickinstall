@@ -64,3 +64,4 @@ ducc-sys
 java-locator
 dbus-codegen
 httpmock
+solana-net-utils
