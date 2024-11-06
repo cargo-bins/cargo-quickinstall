@@ -56,3 +56,4 @@ omicron-zone-package
 apollo-router
 human_bytes
 rustfmt-nightly
+httpbis
