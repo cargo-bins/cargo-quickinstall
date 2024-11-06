@@ -44,3 +44,4 @@ solana-net-utils
 human_bytes
 rmesg
 ducc-sys
+tree-sitter-graph
