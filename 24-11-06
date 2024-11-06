@@ -3,3 +3,4 @@ nexmark
 rls-rustc
 dbus-codegen
 pwasm-utils
+sha1collisiondetection
