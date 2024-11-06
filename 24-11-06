@@ -34,3 +34,4 @@ rav1e
 apollo-router
 phf_generator
 rustfmt
+pwasm-utils
