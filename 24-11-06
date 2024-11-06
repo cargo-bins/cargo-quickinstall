@@ -16,3 +16,4 @@ human_bytes
 solana-net-utils
 rustfmt-nightly
 pwasm-utils
+rkv
