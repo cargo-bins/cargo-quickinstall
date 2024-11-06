@@ -48,3 +48,4 @@ librespot
 parquet
 zuse
 dbus-codegen
+cpp_demangle
