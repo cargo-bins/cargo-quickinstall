@@ -56,3 +56,4 @@ dbus-codegen
 tree-sitter-graph
 tendermint-abci
 trunk
+socketcan
