@@ -63,3 +63,4 @@ text-diff
 exa
 tendermint-abci
 apollo-router
+rls-rustc
