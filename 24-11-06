@@ -2,3 +2,4 @@ libbpf-cargo
 dotenvy
 borsh
 wmi
+sha1collisiondetection
