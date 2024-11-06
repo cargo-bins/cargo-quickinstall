@@ -2,3 +2,4 @@ laminar
 rls-rustc
 arrow-flight
 tendermint-rpc
+cached-path
