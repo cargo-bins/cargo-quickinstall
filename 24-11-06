@@ -36,3 +36,4 @@ cargo-about
 librespot
 solana-gossip
 winpty-rs
+ducc-sys
