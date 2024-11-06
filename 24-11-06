@@ -77,3 +77,4 @@ git-mit-install
 rrule
 tokio-process
 deploy
+dbus-codegen
