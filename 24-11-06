@@ -25,3 +25,4 @@ cached-path
 rustfmt-nightly
 phf_generator
 laminar
+oxipng
