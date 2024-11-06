@@ -23,3 +23,4 @@ a11ywatch_cli
 remove_dir_all
 wmi
 deno
+nextest-filtering
