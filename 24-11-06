@@ -3,3 +3,4 @@ rls-rustc
 arrow-flight
 tendermint-rpc
 cached-path
+tendermint-abci
