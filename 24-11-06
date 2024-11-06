@@ -24,3 +24,4 @@ remove_dir_all
 wmi
 deno
 nextest-filtering
+tree-sitter-cli
