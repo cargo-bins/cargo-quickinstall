@@ -6,3 +6,4 @@ socketcan
 human_name
 papyrus_storage
 libbpf-cargo
+pgrx-tests
