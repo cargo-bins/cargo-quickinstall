@@ -8,3 +8,4 @@ nextest-filtering
 rkv
 solana-stake-accounts
 spider_worker
+foundationdb-gen
