@@ -3,3 +3,4 @@ nextest-filtering
 nexmark
 wol-rs
 clippy
+apollo-router
