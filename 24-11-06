@@ -48,3 +48,4 @@ textplots
 dbus-codegen
 borsh
 cached-path
+py-spy
