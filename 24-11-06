@@ -56,3 +56,4 @@ solana-keygen
 rustfmt-nightly
 phf_generator
 httpmock
+phf_generator
