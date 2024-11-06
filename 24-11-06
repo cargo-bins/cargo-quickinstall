@@ -15,3 +15,4 @@ librespot
 winpty-rs
 syd
 rustfmt-nightly
+diesel_cli
