@@ -35,3 +35,4 @@ nextest-filtering
 cargo-about
 librespot
 solana-gossip
+winpty-rs
