@@ -8,3 +8,4 @@ raw-cpuid
 wol-rs
 diesel_cli
 sha1collisiondetection
+remove_dir_all
