@@ -37,3 +37,4 @@ socketcan
 wmi
 human_bytes
 minicbor
+cargo-lock
