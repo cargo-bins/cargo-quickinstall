@@ -11,3 +11,4 @@ httpmock
 parquet
 solana-keygen
 unic-langid-impl
+solana-net-utils
