@@ -85,3 +85,4 @@ solana-gossip
 oso
 papyrus_storage
 borsh
+winpty-rs
