@@ -26,3 +26,4 @@ rustfmt-nightly
 phf_generator
 laminar
 oxipng
+human_name
