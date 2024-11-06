@@ -87,3 +87,4 @@ papyrus_storage
 borsh
 winpty-rs
 sn_cli
+addr2line
