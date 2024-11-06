@@ -40,3 +40,4 @@ diesel_cli
 solana-keygen
 clippy
 minicbor
+tendermint-rpc
