@@ -4,3 +4,4 @@ spider_worker
 unic-langid-impl
 socketcan
 deno
+addr2line
