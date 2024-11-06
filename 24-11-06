@@ -17,3 +17,4 @@ syd
 rustfmt-nightly
 diesel_cli
 human_bytes
+syd
