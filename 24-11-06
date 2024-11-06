@@ -8,3 +8,4 @@ tree-sitter-cli
 evcxr_repl
 rls-rustc
 a11ywatch_cli
+clippy
