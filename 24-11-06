@@ -39,3 +39,4 @@ human_bytes
 minicbor
 cargo-lock
 socketcan
+solana-net-utils
