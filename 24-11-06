@@ -9,3 +9,4 @@ nkeys
 dotenv
 tendermint-abci
 human_name
+schemafy
