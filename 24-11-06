@@ -7,3 +7,4 @@ dotenvy
 libbpf-cargo
 re_query
 cargo-vet
+unic-langid-impl
