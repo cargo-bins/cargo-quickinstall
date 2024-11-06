@@ -33,3 +33,4 @@ dotenvy
 human_name
 deno
 rls-rustc
+parquet
