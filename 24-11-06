@@ -41,3 +41,4 @@ dotenv
 racer
 sqlx-cli
 apollo-router
+skim
