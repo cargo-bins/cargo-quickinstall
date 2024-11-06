@@ -27,3 +27,4 @@ nextest-filtering
 tree-sitter-cli
 winpty-rs
 cpp_demangle
+librespot
