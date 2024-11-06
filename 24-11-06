@@ -40,3 +40,4 @@ minicbor
 cargo-lock
 socketcan
 solana-net-utils
+dbus-codegen
