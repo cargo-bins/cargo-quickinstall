@@ -32,3 +32,4 @@ parquet
 httpmock
 dotenv
 foundationdb-gen
+cached-path
