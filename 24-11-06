@@ -8,3 +8,4 @@ solana-cli
 sha1collisiondetection
 tendermint-abci
 httpmock
+deno
