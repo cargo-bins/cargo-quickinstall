@@ -39,3 +39,4 @@ tendermint-abci
 dbus-codegen
 dotenv
 racer
+sqlx-cli
