@@ -2,3 +2,4 @@ dbus-codegen
 nexmark
 rls-rustc
 dbus-codegen
+pwasm-utils
