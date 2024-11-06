@@ -16,3 +16,4 @@ winpty-rs
 syd
 rustfmt-nightly
 diesel_cli
+human_bytes
