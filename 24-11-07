@@ -22,3 +22,4 @@ paperclip
 spider_worker
 nexmark
 solana-gossip
+tendermint-abci
