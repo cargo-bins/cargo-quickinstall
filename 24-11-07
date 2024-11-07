@@ -16,3 +16,4 @@ foundationdb-gen
 tree-sitter-graph
 unic-langid-impl
 diesel_cli
+apollo-router
