@@ -25,3 +25,4 @@ arrow-flight
 wol-rs
 winpty-rs
 raw-cpuid
+dbus-codegen
