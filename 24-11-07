@@ -5,3 +5,4 @@ nexmark
 tendermint-rpc
 solana-genesis
 apollo-router
+borsh
