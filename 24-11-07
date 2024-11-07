@@ -26,3 +26,4 @@ tendermint-abci
 a11ywatch_cli
 trunk
 nkeys
+phf_generator
