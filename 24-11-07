@@ -44,3 +44,4 @@ dbus-codegen
 addr2line
 winpty-rs
 dbus-codegen
+deno
