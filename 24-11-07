@@ -49,3 +49,4 @@ cached-path
 dotenv
 pwasm-utils
 trunk
+racer
