@@ -45,3 +45,4 @@ addr2line
 winpty-rs
 dbus-codegen
 deno
+rrule
