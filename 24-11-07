@@ -34,3 +34,4 @@ laminar
 nextest-filtering
 rkv
 httpmock
+re_query
