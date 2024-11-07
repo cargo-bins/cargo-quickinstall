@@ -61,3 +61,4 @@ parquet
 dbus-codegen
 libbpf-cargo
 winpty-rs
+foundationdb-gen
