@@ -39,3 +39,4 @@ nkeys
 httpmock
 dbus-codegen
 rustfmt-nightly
+cargo-lock
