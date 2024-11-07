@@ -51,3 +51,4 @@ phf_generator
 solana-validator
 borsh
 oso
+rkv
