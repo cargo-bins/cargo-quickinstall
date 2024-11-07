@@ -51,7 +51,9 @@ def trigger_for_arch(target_arch: str):
     excludes = get_excludes(tracking_worktree_path, days=7, max_failures=5)
 
     possible_crates = set(get_crates_io_popular_crates())
-    possible_crates.update(get_requested_crates(period="1 day", arch=target_arch))
+    possible_crates.update(
+        get_requested_crates(period="1 day", target_arch=target_arch)
+    )
 
     possible_crates = possible_crates - set(excludes)
 

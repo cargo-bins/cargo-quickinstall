@@ -12,7 +12,7 @@ DATABASE = "cargo-quickinstall"
 _influxdb_client = None
 
 
-def get_stats(period: str, arch: str | None):
+def get_stats(period: str, target_arch: str | None):
     global _influxdb_client
     if _influxdb_client is None:
         _influxdb_client = InfluxDBClient3(
@@ -24,7 +24,7 @@ def get_stats(period: str, arch: str | None):
         FROM "counts"
         WHERE
             time >= now() - $period::interval and time <= now()
-            and $arch is null or arch = $arch
+            and $target is null or target = $target
     """
 
     # FIXME: pyarrow.Table doesn't have types: https://github.com/apache/arrow/issues/32609
@@ -33,20 +33,20 @@ def get_stats(period: str, arch: str | None):
         language="sql",
         query_parameters={
             "period": period,
-            "arch": arch,
+            "target": target_arch,
         },
     )
 
     return table
 
 
-def get_requested_crates(period: str, arch: str | None) -> list[str]:
-    table = get_stats(period=period, arch=arch)
+def get_requested_crates(period: str, target_arch: str | None) -> list[str]:
+    table = get_stats(period=period, target_arch=target_arch)
     return [str(crate) for crate in table["crate"]]
 
 
 def main():
-    table = get_stats(period="1 day", arch=None)
+    table = get_stats(period="1 day", target_arch=None)
     for crate in table["crate"]:
         print(crate)
 
