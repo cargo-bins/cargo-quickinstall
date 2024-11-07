@@ -24,3 +24,4 @@ apollo-router
 cargo-local-registry
 solana-cli
 git-mit-install
+cargo-tarpaulin
