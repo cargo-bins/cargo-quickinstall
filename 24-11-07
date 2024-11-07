@@ -61,3 +61,4 @@ intentrace
 agave-ledger-tool
 opencv-binding-generator
 ducc-sys
+remove_dir_all
