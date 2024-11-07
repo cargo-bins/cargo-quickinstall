@@ -36,3 +36,4 @@ addr2line
 dotenvy
 zuse
 snarkvm
+winpty-rs
