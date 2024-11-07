@@ -86,3 +86,4 @@ dbus-codegen
 opencv-binding-generator
 arrow-flight
 diesel_cli
+remove_dir_all
