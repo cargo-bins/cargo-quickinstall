@@ -63,3 +63,4 @@ opencv-binding-generator
 ducc-sys
 remove_dir_all
 deploy
+z3tracer
