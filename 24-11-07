@@ -12,3 +12,4 @@ dbus-codegen
 trunk
 parquet
 rustfmt-nightly
+solana-net-utils
