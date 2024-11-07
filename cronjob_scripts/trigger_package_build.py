@@ -13,8 +13,6 @@ import subprocess
 import time
 from typing import List, cast
 
-import requests
-
 from cronjob_scripts.types import CrateAndMaybeVersion, GithubAsset
 from cronjob_scripts.architectures import get_build_os, get_target_architectures
 from cronjob_scripts.checkout_worktree import checkout_worktree_for_target
