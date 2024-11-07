@@ -11,3 +11,4 @@ nextest-filtering
 arrow-flight
 nexmark
 borsh
+solana-net-utils
