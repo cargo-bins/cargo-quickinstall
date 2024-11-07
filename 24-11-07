@@ -2,3 +2,4 @@ dbus-codegen
 tendermint-rpc
 dbus-codegen
 dotenvy
+ducc-sys
