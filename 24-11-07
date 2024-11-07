@@ -9,3 +9,4 @@ solana-cli
 rustfmt-nightly
 addr2line
 spider_cli
+clippy
