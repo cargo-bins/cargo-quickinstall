@@ -12,3 +12,4 @@ cargo-tarpaulin
 apollo-router
 git-mit-install
 sha1collisiondetection
+rustrict
