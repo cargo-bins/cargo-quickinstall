@@ -10,3 +10,4 @@ parquet
 nu
 cargo-outdated
 dbus-codegen
+dotenvy
