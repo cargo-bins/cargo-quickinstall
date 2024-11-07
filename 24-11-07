@@ -30,3 +30,4 @@ ducc-sys
 diesel_cli
 rustup-find
 zellij
+image-resizer
