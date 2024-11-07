@@ -39,3 +39,4 @@ watchexec-cli
 cargo-codspeed
 tauri-cli
 cargo-codspeed
+sea-orm-cli
