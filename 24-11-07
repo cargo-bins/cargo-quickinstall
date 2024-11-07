@@ -10,3 +10,4 @@ tree-sitter-graph
 pwasm-utils
 protox
 oso
+libbpf-cargo
