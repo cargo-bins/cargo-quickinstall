@@ -4,3 +4,4 @@ rls-rustc
 libbpf-cargo
 cached-path
 re_query
+librespot
