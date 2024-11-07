@@ -3,3 +3,4 @@ winpty-rs
 nkeys
 minicbor
 human_name
+dbus-codegen
