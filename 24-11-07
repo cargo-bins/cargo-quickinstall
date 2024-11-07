@@ -29,3 +29,4 @@ rls-rustc
 tree-sitter-cli
 rustfmt-nightly
 human_bytes
+dotenv
