@@ -9,3 +9,4 @@ pgrx-tests
 rrule
 rustrict
 libbpf-cargo
+tendermint-rpc
