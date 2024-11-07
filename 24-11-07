@@ -10,3 +10,4 @@ dotenvy
 opencv-binding-generator
 racer
 wol-rs
+pwasm-utils
