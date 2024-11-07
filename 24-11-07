@@ -32,3 +32,4 @@ human_bytes
 dotenv
 socketcan
 protox
+addr2line
