@@ -33,3 +33,4 @@ agave-ledger-tool
 rustfmt-nightly
 dbus-codegen
 rls-rustc
+socketcan
