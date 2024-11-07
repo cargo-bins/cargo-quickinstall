@@ -17,3 +17,4 @@ cargo-outdated
 solana-keygen
 cargo-about
 cargo-codspeed
+solana-gossip
