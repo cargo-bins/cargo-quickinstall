@@ -31,3 +31,4 @@ libbpf-cargo
 spider_worker
 nu
 laminar
+nextest-filtering
