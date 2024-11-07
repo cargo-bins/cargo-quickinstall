@@ -15,3 +15,4 @@ diesel_cli
 dotenvy
 nextest-filtering
 human_name
+foundationdb-gen
