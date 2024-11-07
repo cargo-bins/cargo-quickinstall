@@ -84,3 +84,4 @@ paperclip
 trunk
 dbus-codegen
 opencv-binding-generator
+arrow-flight
