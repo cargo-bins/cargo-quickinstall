@@ -3,3 +3,4 @@ dbus-codegen
 rls-rustc
 libbpf-cargo
 cached-path
+re_query
