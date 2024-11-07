@@ -33,3 +33,4 @@ dotenv
 socketcan
 protox
 addr2line
+dotenvy
