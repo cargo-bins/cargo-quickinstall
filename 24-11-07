@@ -14,3 +14,4 @@ tree-sitter-graph
 addr2line
 rls-rustc
 diesel_cli
+protox
