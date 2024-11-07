@@ -10,3 +10,4 @@ rrule
 rustrict
 libbpf-cargo
 tendermint-rpc
+tree-sitter-graph
