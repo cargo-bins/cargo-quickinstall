@@ -40,3 +40,4 @@ solana-validator
 deno
 ducc-sys
 wmi
+phf_generator
