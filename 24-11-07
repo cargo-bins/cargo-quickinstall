@@ -29,3 +29,4 @@ dbus-codegen
 rustrict
 minicbor
 sha1collisiondetection
+pwasm-utils
