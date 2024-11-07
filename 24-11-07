@@ -34,3 +34,4 @@ rustfmt-nightly
 dbus-codegen
 rls-rustc
 socketcan
+clippy
