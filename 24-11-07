@@ -49,3 +49,4 @@ rls-rustc
 dbus-codegen
 phf_generator
 solana-validator
+borsh
