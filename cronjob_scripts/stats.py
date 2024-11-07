@@ -1,8 +1,13 @@
 from __future__ import annotations
 
+from polars import DataFrame
+
+from functools import lru_cache
 import os
 
 from influxdb_client_3 import InfluxDBClient3
+
+from cronjob_scripts.types import CrateAndVersion
 
 TOKEN = os.environ.get("INFLUXDB_TOKEN")
 ORG = "cargo-bins"
@@ -12,42 +17,63 @@ DATABASE = "cargo-quickinstall"
 _influxdb_client = None
 
 
-def get_stats(period: str, target_arch: str | None):
+@lru_cache
+def get_stats(period: str) -> DataFrame:
+    """
+    To reduce the number of round-trips to the InfluxDB server, we do a single query and cache the
+    results of this function.
+
+    In theory it would be better if we could use a dataloader-like pattern to batch up requests and
+    ask for exactly the architectures we want, but that would require us to make the whole script
+    async, and we know that cronjob will eventually ask for all architectures anyway.
+    """
     global _influxdb_client
     if _influxdb_client is None:
         _influxdb_client = InfluxDBClient3(
             host=HOST, token=TOKEN, org=ORG, database=DATABASE
         )
 
+    # Old clients (going via the old stats server) don't report status, so we filter them out.
+    # FIXME: seems like there are some entries of the form:
+    # {"agent": "binstalk-fetchers/0.10.0", "status": "start", ... }
+    # Apparently binswap-github is using an old version of binstalk. See:
+    # https://github.com/cargo-bins/cargo-quickinstall/pull/300/files#r1778063083
     query = """
-        SELECT DISTINCT crate
+        SELECT DISTINCT crate, target, version
         FROM "counts"
         WHERE
             time >= now() - $period::interval and time <= now()
-            and $target is null or target = $target
+            and status is not null and status not in ('start', 'installed-from-tarball')
     """
 
-    # FIXME: pyarrow.Table doesn't have types: https://github.com/apache/arrow/issues/32609
-    table = _influxdb_client.query(
+    table: DataFrame = _influxdb_client.query(  # type: ignore
         query=query,
         language="sql",
         query_parameters={
             "period": period,
-            "target": target_arch,
         },
+        mode="polars",
     )
 
     return table
 
 
-def get_requested_crates(period: str, target_arch: str | None) -> list[str]:
-    table = get_stats(period=period, target_arch=target_arch)
-    return [str(crate) for crate in table["crate"]]
+def get_requested_crates(period: str, target: str | None) -> list[CrateAndVersion]:
+    df = get_stats(period=period)
+
+    if target is not None:
+        # for now, if target in influxdb is null then build for all targets
+        # (just until we have a day's worth of data with `target` set)
+        mask = (df["target"] == target) | df["target"].is_null()
+
+        df = df.filter(mask)
+
+    return df[["crate", "version"]].to_dicts()  # type: ignore
 
 
 def main():
-    table = get_stats(period="1 day", target_arch=None)
-    for crate in table["crate"]:
+    table = get_stats(period="1 day")
+    for crate in table["crate"].unique():
         print(crate)
 
 

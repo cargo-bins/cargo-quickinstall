@@ -43,7 +43,9 @@ def get_index_url(crate: str):
 
 
 @functools.lru_cache
-def get_latest_version(crate: str) -> CrateVersionDict | None:
+def get_latest_version(
+    crate: str, requested_version: str | None
+) -> CrateVersionDict | None:
     """
     Calls the crates.io index API to get the latest version of the given crate.
 
@@ -61,6 +63,8 @@ def get_latest_version(crate: str) -> CrateVersionDict | None:
     max_parsed_version: semver.VersionInfo | None = None
     for line in response.text.splitlines():
         version = json.loads(line)
+        if requested_version is not None and version["vers"] != requested_version:
+            continue
         parsed_version = semver.VersionInfo.parse(version["vers"])
         if version["yanked"] or parsed_version.prerelease:
             continue
