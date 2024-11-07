@@ -13,3 +13,4 @@ dbus-codegen
 dotenvy
 solana-net-utils
 git-mit-install
+cargo-outdated
