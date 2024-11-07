@@ -37,3 +37,4 @@ httpmock
 re_query
 nkeys
 httpmock
+dbus-codegen
