@@ -45,3 +45,4 @@ foundationdb-gen
 nexmark
 tendermint-abci
 oso
+rls-rustc
