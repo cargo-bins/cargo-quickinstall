@@ -83,3 +83,4 @@ phf_generator
 paperclip
 trunk
 dbus-codegen
+opencv-binding-generator
