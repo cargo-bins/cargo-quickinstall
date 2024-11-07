@@ -13,3 +13,4 @@ foundationdb-gen
 librespot
 dbus-codegen
 tendermint-abci
+winpty-rs
