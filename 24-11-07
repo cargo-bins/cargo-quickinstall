@@ -11,3 +11,4 @@ pwasm-utils
 protox
 oso
 libbpf-cargo
+minicbor
