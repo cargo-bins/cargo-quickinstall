@@ -15,6 +15,7 @@ if __name__ == "__main__" and __package__ is None:
 from collections import Counter
 import json
 import os
+import sys
 import random
 import subprocess
 import time
@@ -29,6 +30,13 @@ from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crate
 
 
 def main():
+    if len(sys.argv) > 1:
+        print(
+            "Usage: INFLUXDB_TOKEN= TARGET_ARCH= CRATE_CHECK_LIMIT= RECHECK= GITHUB_REPOSITORY= trigger-package-build.py"
+        )
+        if sys.argv[1] == "--help":
+            exit(0)
+        exit(1)
     target_arches = get_target_architectures()
     for target_arch in target_arches:
         trigger_for_arch(target_arch)
@@ -80,7 +88,9 @@ def trigger_for_arch(target_arch: str):
             features = "vendored-openssl"
         else:
             features = ",".join(
-                feat for feat in version["features"].keys() if "vendored" in feat or "bundled" in feat
+                feat
+                for feat in version["features"].keys()
+                if "vendored" in feat or "bundled" in feat
             )
 
         workflow_run_input = {
@@ -162,9 +172,4 @@ def get_current_version_if_unbuilt(
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        print("Usage: INFLUXDB_TOKEN= TARGET_ARCH= CRATE_CHECK_LIMIT= RECHECK= GITHUB_REPOSITORY= trigger-package-build.py")
-        if sys.argv[1] == "--help":
-            exit(0)
-        exit(1)
     main()

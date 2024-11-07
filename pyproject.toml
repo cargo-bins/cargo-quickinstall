@@ -1,0 +1,27 @@
+[project]
+name = "cronjob-scripts"
+version = "0.0.0"
+description = "Scripts for use in cargo-quickinstall github actions"
+readme = "README.md"
+# This is what ubuntu-latest has installed by default
+requires-python = ">=3.8"
+# Note that we don't attempt to do any locking of python deps
+dependencies = [
+    "influxdb3-python>=0.8.0",
+    "requests>=2.32.3",
+    "semver>=3.0.2",
+    "polars>=1.7.0",
+    "ruff>=0.7.2",
+]
+
+[tool.setuptools]
+py-modules = ["cronjob_scripts"]
+
+[project.scripts]
+trigger-package-build = "cronjob_scripts.trigger_package_build:main"
+crates-io-popular-crates = "cronjob_scripts.crates_io_popular_crates:main"
+stats = "cronjob_scripts.stats:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

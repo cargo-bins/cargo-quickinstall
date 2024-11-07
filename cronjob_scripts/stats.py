@@ -45,7 +45,13 @@ def get_requested_crates(period: str, arch: str | None) -> list[str]:
     return [str(crate) for crate in table["crate"]]
 
 
-if __name__ == "__main__":
+def main():
     table = get_stats(period="1 day", arch=None)
     for crate in table["crate"]:
         print(crate)
+
+
+if __name__ == "__main__":
+    # Warning: it's best to use .venv/bin/stats rather than calling this directly, to avoid
+    # sys.modules ending up with this dir at the front, shadowing stdlib modules.
+    main()

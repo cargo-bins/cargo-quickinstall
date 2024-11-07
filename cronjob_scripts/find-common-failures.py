@@ -113,7 +113,7 @@ def get_failing_runs(limit: int) -> list[WorkflowRun]:
 
 
 @cache_on_disk_polars
-def get_logs(databaseId: WorkflowRun["databaseId"]) -> pl.DataFrame:
+def get_logs(databaseId: str) -> pl.DataFrame:
     output = subprocess.run(
         ["gh", "run", "view", str(databaseId), "--log"],
         capture_output=True,

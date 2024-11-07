@@ -34,7 +34,7 @@ def download_tar_gz(url):
     response = requests.get(url, stream=True)
     response.raise_for_status()
 
-    with tarfile.open(fileobj=response.raw, mode='r:gz') as tarball:
+    with tarfile.open(fileobj=response.raw, mode="r:gz") as tarball:
         for member in tarball:
             yield TarEntry(tarball, member)
 
@@ -47,10 +47,15 @@ class Dfs(TypedDict):
 
 
 def get_dfs() -> Dfs:
-    files_to_extract = ["crate_downloads.csv", "crates.csv", "default_versions.csv", "versions.csv"]
+    files_to_extract = [
+        "crate_downloads.csv",
+        "crates.csv",
+        "default_versions.csv",
+        "versions.csv",
+    ]
     files_extracted = 0
     dfs = {}
-    for entry in download_tar_gz('https://static.crates.io/db-dump.tar.gz'):
+    for entry in download_tar_gz("https://static.crates.io/db-dump.tar.gz"):
         name = entry.is_one_of_csvs_interested(files_to_extract)
         if name:
             dfs[name[:-4]] = pl.scan_csv(entry.get_file_stream())
@@ -59,6 +64,7 @@ def get_dfs() -> Dfs:
                 return Dfs(**dfs)
 
     raise RuntimeError(f"Failed to find all csvs {files_to_extract}")
+
 
 def get_crates_io_popular_crates_inner(minimum_downloads=200000):
     dfs = get_dfs()
@@ -95,10 +101,10 @@ def get_crates_io_popular_crates(minimum_downloads=200000):
     return (row[0] for row in df.iter_rows())
 
 
-if __name__ == "__main__":
+def main():
     import sys
 
-    if len(sys.argv) == 2 and sys.argv[1] in ('-h', '--help'):
+    if len(sys.argv) == 2 and sys.argv[1] in ("-h", "--help"):
         print(f"Usage: {sys.argv[0]} (minimum_downloads)")
         sys.exit(1)
 
@@ -107,3 +113,9 @@ if __name__ == "__main__":
     else:
         minimum_downloads = 200000
     print(list(get_crates_io_popular_crates(minimum_downloads)))
+
+
+if __name__ == "__main__":
+    # Warning: it's best to use .venv/bin/crates-io-popular-crates rather than calling this directly, to avoid
+    # sys.modules ending up with this dir at the front, shadowing stdlib modules.
+    main()
