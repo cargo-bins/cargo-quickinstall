@@ -50,3 +50,4 @@ dbus-codegen
 phf_generator
 solana-validator
 borsh
+oso
