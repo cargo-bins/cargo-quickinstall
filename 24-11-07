@@ -16,3 +16,4 @@ remove_dir_all
 librespot
 nu
 opencv-binding-generator
+sha1collisiondetection
