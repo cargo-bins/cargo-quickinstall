@@ -19,3 +19,4 @@ diesel_cli
 apollo-router
 h3o
 dbus-codegen
+wmi
