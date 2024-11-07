@@ -4,3 +4,4 @@ dbus-codegen
 dotenvy
 ducc-sys
 pwasm-utils
+cargo-lock
