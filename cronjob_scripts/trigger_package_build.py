@@ -11,7 +11,7 @@ from pathlib import Path
 import random
 import subprocess
 import time
-from typing import cast
+from typing import List, cast
 
 import requests
 
@@ -67,7 +67,7 @@ def main():
     for target in targets:
         queue = get_requested_crates(period="1 day", target=target)
         random.shuffle(queue)
-        queues.append(("requested", target, cast(list[CrateAndMaybeVersion], queue)))
+        queues.append(("requested", target, cast(List[CrateAndMaybeVersion], queue)))
         queues.append(("popular", target, popular_crates.copy()))
 
         if os.environ.get("RECHECK"):
