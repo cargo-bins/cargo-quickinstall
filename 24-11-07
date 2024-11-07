@@ -3,3 +3,4 @@ html2md
 trunk
 apollo-router
 cargo-outdated
+cargo-udeps
