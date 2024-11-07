@@ -59,6 +59,8 @@ jobs:
 
       - name: Test python cronjob_scripts
         run: make test-cronjob-scripts
+        env:
+          INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
 
   e2etest:
     runs-on: ${{ matrix.os }}
