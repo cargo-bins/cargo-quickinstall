@@ -11,3 +11,4 @@ nu
 cargo-outdated
 dbus-codegen
 dotenvy
+solana-net-utils
