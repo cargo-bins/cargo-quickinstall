@@ -17,3 +17,4 @@ libbpf-cargo
 cargo-generate
 human_bytes
 racer
+exa
