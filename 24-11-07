@@ -19,3 +19,4 @@ foundationdb-gen
 pwasm-utils
 winpty-rs
 librespot
+cargo-lock
