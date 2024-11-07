@@ -34,3 +34,4 @@ image-resizer
 rustup-find
 tectonic
 zellij
+cargo-crev
