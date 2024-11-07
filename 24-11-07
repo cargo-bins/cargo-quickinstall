@@ -26,3 +26,4 @@ cpp_demangle
 tendermint-abci
 ducc-sys
 clippy
+ducc-sys
