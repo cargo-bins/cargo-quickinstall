@@ -27,3 +27,4 @@ git-mit-install
 cargo-tarpaulin
 cargo-local-registry
 z3tracer
+solana-net-utils
