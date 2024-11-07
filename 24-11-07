@@ -35,3 +35,4 @@ nextest-filtering
 rkv
 httpmock
 re_query
+nkeys
