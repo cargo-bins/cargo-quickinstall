@@ -40,3 +40,4 @@ winpty-rs
 wmi
 human_name
 papyrus_storage
+wol-rs
