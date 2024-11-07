@@ -35,3 +35,4 @@ rustup-find
 tectonic
 zellij
 cargo-crev
+cargo-local-registry
