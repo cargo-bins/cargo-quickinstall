@@ -32,3 +32,4 @@ dotenv
 remove_dir_all
 nkeys
 nexmark
+spider_cli
