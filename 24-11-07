@@ -16,3 +16,4 @@ rls-rustc
 diesel_cli
 protox
 paperclip
+cargo-lock
