@@ -12,3 +12,4 @@ wol-rs
 foundationdb-gen
 librespot
 dbus-codegen
+tendermint-abci
