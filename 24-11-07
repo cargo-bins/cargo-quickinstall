@@ -30,3 +30,4 @@ rustrict
 minicbor
 sha1collisiondetection
 pwasm-utils
+cached-path
