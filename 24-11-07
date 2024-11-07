@@ -21,3 +21,4 @@ winpty-rs
 librespot
 cargo-lock
 borsh
+schemafy
