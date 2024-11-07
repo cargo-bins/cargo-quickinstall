@@ -40,3 +40,4 @@ cargo-codspeed
 tauri-cli
 cargo-codspeed
 sea-orm-cli
+cargo-codspeed
