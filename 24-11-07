@@ -47,3 +47,4 @@ textplots
 oxipng
 cached-path
 dotenv
+pwasm-utils
