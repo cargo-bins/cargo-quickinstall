@@ -20,3 +20,4 @@ dbus-codegen
 dbus-codegen
 trunk
 raw-cpuid
+cargo-outdated
