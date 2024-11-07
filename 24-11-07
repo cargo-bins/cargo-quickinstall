@@ -65,3 +65,4 @@ remove_dir_all
 deploy
 z3tracer
 pgrx-tests
+tendermint-abci
