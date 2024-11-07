@@ -40,3 +40,4 @@ httpmock
 dbus-codegen
 rustfmt-nightly
 cargo-lock
+unic-langid-impl
