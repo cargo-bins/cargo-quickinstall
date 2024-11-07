@@ -91,3 +91,4 @@ nu
 clippy
 remove_dir_all
 rustrict
+phf_generator
