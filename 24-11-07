@@ -12,3 +12,4 @@ spider_cli
 clippy
 zuse
 diesel_cli
+dotenvy
