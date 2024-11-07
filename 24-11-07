@@ -33,3 +33,4 @@ nu
 laminar
 nextest-filtering
 rkv
+httpmock
