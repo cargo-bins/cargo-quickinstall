@@ -8,3 +8,4 @@ spider_worker
 html2md
 cargo-tarpaulin
 cargo-lock
+cargo-tarpaulin
