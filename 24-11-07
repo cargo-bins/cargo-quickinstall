@@ -7,3 +7,4 @@ solana-genesis
 apollo-router
 borsh
 dotenvy
+opencv-binding-generator
