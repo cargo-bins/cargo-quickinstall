@@ -79,3 +79,4 @@ tree-sitter-graph
 cargo-lock
 rkv
 clippy
+phf_generator
