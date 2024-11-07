@@ -16,3 +16,4 @@ git-mit-install
 cargo-outdated
 solana-keygen
 cargo-about
+cargo-codspeed
