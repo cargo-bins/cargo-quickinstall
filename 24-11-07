@@ -13,3 +13,4 @@ nexmark
 borsh
 solana-net-utils
 foundationdb-gen
+tree-sitter-graph
