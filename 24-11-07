@@ -25,3 +25,4 @@ schemafy
 minicbor
 cpp_demangle
 solana-stake-accounts
+rls-rustc
