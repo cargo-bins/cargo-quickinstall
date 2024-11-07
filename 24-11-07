@@ -11,3 +11,4 @@ apollo-router
 dbus-codegen
 trunk
 parquet
+rustfmt-nightly
