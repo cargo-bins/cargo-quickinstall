@@ -21,3 +21,4 @@ solana-gossip
 sea-orm-cli
 java-locator
 apollo-router
+cargo-local-registry
