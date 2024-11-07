@@ -43,3 +43,4 @@ wmi
 phf_generator
 foundationdb-gen
 nexmark
+tendermint-abci
