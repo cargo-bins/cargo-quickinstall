@@ -69,3 +69,4 @@ dotenv
 ducc-sys
 trunk
 tree-sitter-graph
+z3tracer
