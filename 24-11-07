@@ -31,3 +31,4 @@ minicbor
 sha1collisiondetection
 pwasm-utils
 cached-path
+foundationdb-gen
