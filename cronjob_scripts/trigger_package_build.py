@@ -15,7 +15,7 @@ from typing import List, cast
 
 import requests
 
-from cronjob_scripts.types import CrateAndMaybeVersion
+from cronjob_scripts.types import CrateAndMaybeVersion, GithubAsset
 from cronjob_scripts.architectures import get_build_os, get_target_architectures
 from cronjob_scripts.checkout_worktree import checkout_worktree_for_target
 from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_version
@@ -89,7 +89,7 @@ def main():
             time.sleep(1)
             if triggered:
                 triggered_count += 1
-                if triggered_count > 5 * len(targets):
+                if triggered_count > 2 * len(targets):
                     print("Triggered enough builds, exiting")
                     return
 
@@ -203,14 +203,28 @@ def get_current_version_if_unbuilt(
     if not version:
         return None
 
-    url = f"{repo_url}/releases/download/{crate}-{version['vers']}/{crate}-{version['vers']}-{target}.tar.gz"
-    response = requests.head(url, allow_redirects=True)
-    if response.ok:
-        print(f"{url} already uploaded")
+    tag = f"{crate}-{version['vers']}"
+    tarball = f"{crate}-{version['vers']}-{target}.tar.gz"
+
+    if any(asset["name"] == tarball for asset in get_assets_for_tag(tag)):
+        print(f"{tarball} already uploaded")
         return None
-    # FIXME: handle rate limit errors?
 
     return version
+
+
+@lru_cache
+def get_assets_for_tag(tag: str) -> list[GithubAsset]:
+    try:
+        out = subprocess.check_output(
+            ["gh", "release", "view", tag, "--json=assets"],
+        )
+    except subprocess.CalledProcessError as e:
+        if b"release not found" in e.output:
+            return []
+        raise
+    parsed = json.loads(out)
+    return parsed["assets"]
 
 
 if __name__ == "__main__":
