@@ -18,3 +18,4 @@ cargo-generate
 cargo-codspeed
 dbus-codegen
 dbus-codegen
+trunk
