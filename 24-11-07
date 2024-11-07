@@ -41,3 +41,4 @@ dbus-codegen
 rustfmt-nightly
 cargo-lock
 unic-langid-impl
+racer
