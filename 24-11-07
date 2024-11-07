@@ -43,3 +43,4 @@ nkeys
 solana-cli
 wol-rs
 minicbor
+nu_plugin_query
