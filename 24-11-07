@@ -13,3 +13,4 @@ wol-rs
 pwasm-utils
 nkeys
 arrow-flight
+libbpf-cargo
