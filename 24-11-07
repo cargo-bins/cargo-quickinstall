@@ -11,3 +11,4 @@ addr2line
 spider_cli
 clippy
 zuse
+diesel_cli
