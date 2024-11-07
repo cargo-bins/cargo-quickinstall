@@ -24,3 +24,4 @@ tendermint-abci
 dbus-codegen
 rrule
 socketcan
+minicbor
