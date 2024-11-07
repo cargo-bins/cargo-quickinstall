@@ -8,3 +8,4 @@ syd
 raw-cpuid
 httpmock
 apollo-router
+dbus-codegen
