@@ -35,3 +35,4 @@ phf_generator
 syd
 solana-net-utils
 solana-cli
+watchexec-cli
