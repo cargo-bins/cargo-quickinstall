@@ -65,3 +65,4 @@ foundationdb-gen
 httpmock
 java-locator
 paperclip
+dotenv
