@@ -25,3 +25,4 @@ cargo-local-registry
 solana-cli
 git-mit-install
 cargo-tarpaulin
+cargo-local-registry
