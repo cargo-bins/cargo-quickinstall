@@ -23,7 +23,7 @@ import time
 import requests
 
 from cronjob_scripts.architectures import get_build_os, get_target_architectures
-from cronjob_scripts.checkout_worktree import checkout_worktree_for_arch
+from cronjob_scripts.checkout_worktree import checkout_worktree_for_target
 from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_version
 from cronjob_scripts.stats import get_requested_crates
 from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crates
@@ -47,7 +47,7 @@ def trigger_for_arch(target_arch: str):
 
     build_os = get_build_os(target_arch)
 
-    tracking_worktree_path = checkout_worktree_for_arch(target_arch)
+    tracking_worktree_path = checkout_worktree_for_target(target_arch)
     excludes = get_excludes(tracking_worktree_path, days=7, max_failures=5)
 
     possible_crates = set(get_crates_io_popular_crates())

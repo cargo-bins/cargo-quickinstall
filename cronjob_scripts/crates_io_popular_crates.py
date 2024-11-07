@@ -8,6 +8,8 @@ from typing import TypedDict
 import requests
 import polars as pl
 
+from cronjob_scripts.types import CrateAndMaybeVersion
+
 warnings.filterwarnings("ignore", message="Polars found a filename")
 
 
@@ -83,7 +85,9 @@ def get_crates_io_popular_crates_inner(minimum_downloads=200000):
     )
 
 
-def get_crates_io_popular_crates(minimum_downloads=200000):
+def get_crates_io_popular_crates(
+    minimum_downloads: int = 200000,
+) -> list[CrateAndMaybeVersion]:
     cached_path = Path("cached_crates_io_popular_crates.parquet")
     if cached_path.is_file():
         # TODO: Once `iter_rows()` can be used on LazyFrame, use it for better perf
@@ -98,7 +102,9 @@ def get_crates_io_popular_crates(minimum_downloads=200000):
             .collect()
         )
         df.write_parquet(cached_path, statistics=False)
-    return (row[0] for row in df.iter_rows())
+
+    df = df.rename({"name": "crate"})
+    return df.to_dicts()
 
 
 def main():
