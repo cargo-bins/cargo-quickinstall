@@ -53,3 +53,4 @@ racer
 httpmock
 libbpf-cargo
 py-spy
+minicbor
