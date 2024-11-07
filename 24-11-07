@@ -16,3 +16,4 @@ dotenvy
 nextest-filtering
 human_name
 foundationdb-gen
+pwasm-utils
