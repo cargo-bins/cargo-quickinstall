@@ -27,3 +27,4 @@ cpp_demangle
 solana-stake-accounts
 rls-rustc
 tree-sitter-cli
+rustfmt-nightly
