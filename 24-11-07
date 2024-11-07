@@ -41,3 +41,4 @@ deno
 ducc-sys
 wmi
 phf_generator
+foundationdb-gen
