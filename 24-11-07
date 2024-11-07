@@ -5,3 +5,4 @@ apollo-router
 cargo-outdated
 cargo-udeps
 spider_worker
+html2md
