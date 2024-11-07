@@ -45,3 +45,4 @@ java-locator
 remove_dir_all
 rls-rustc
 cached-path
+laminar
