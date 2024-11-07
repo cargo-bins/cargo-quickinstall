@@ -2,3 +2,4 @@ solana-cli
 addr2line
 solana-keygen
 java-locator
+minicbor
