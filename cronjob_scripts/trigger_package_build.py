@@ -138,7 +138,7 @@ def trigger_for_target(
     workflow_run_input = {
         "crate": crate,
         "version": version["vers"],
-        "target": target,
+        "target_arch": target,
         "features": features,
         "no_default_features": no_default_features,
         "build_os": build_os,
