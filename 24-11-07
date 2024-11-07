@@ -16,3 +16,4 @@ spider_cli
 remove_dir_all
 nkeys
 cargo-lock
+tree-sitter-cli
