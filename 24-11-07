@@ -60,3 +60,4 @@ syd
 parquet
 dbus-codegen
 libbpf-cargo
+winpty-rs
