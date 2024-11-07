@@ -6,3 +6,4 @@ sea-orm-cli
 nexmark
 dotenvy
 solana-cli
+rustfmt-nightly
