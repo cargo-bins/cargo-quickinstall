@@ -18,3 +18,4 @@ solana-keygen
 cargo-about
 cargo-codspeed
 solana-gossip
+sea-orm-cli
