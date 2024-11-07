@@ -46,3 +46,4 @@ minicbor
 nu_plugin_query
 simple-http-server
 cargo-public-api
+cargo-dylint
