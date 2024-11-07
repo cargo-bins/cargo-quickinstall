@@ -42,3 +42,4 @@ rustfmt-nightly
 cargo-lock
 unic-langid-impl
 racer
+cached-path
