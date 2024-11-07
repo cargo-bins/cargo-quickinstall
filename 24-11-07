@@ -2,3 +2,4 @@ trunk
 dbus-codegen
 rls-rustc
 libbpf-cargo
+cached-path
