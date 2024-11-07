@@ -10,3 +10,4 @@ httpmock
 apollo-router
 dbus-codegen
 trunk
+parquet
