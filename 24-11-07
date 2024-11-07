@@ -68,3 +68,4 @@ paperclip
 dotenv
 ducc-sys
 trunk
+tree-sitter-graph
