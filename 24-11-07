@@ -4,3 +4,4 @@ nkeys
 minicbor
 human_name
 dbus-codegen
+remove_dir_all
