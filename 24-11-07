@@ -4,3 +4,4 @@ sha1collisiondetection
 spider_cli
 sea-orm-cli
 nexmark
+dotenvy
