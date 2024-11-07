@@ -8,3 +8,4 @@ remove_dir_all
 addr2line
 protox
 nextest-filtering
+arrow-flight
