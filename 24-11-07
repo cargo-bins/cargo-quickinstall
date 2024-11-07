@@ -63,3 +63,4 @@ libbpf-cargo
 winpty-rs
 foundationdb-gen
 httpmock
+java-locator
