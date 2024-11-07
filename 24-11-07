@@ -12,3 +12,4 @@ libbpf-cargo
 tendermint-rpc
 tree-sitter-graph
 addr2line
+rls-rustc
