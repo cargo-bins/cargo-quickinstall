@@ -20,3 +20,4 @@ pwasm-utils
 winpty-rs
 librespot
 cargo-lock
+borsh
