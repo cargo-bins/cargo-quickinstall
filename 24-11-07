@@ -13,3 +13,4 @@ clippy
 zuse
 diesel_cli
 dotenvy
+nextest-filtering
