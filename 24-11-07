@@ -5,3 +5,4 @@ dotenvy
 ducc-sys
 pwasm-utils
 cargo-lock
+a11ywatch_cli
