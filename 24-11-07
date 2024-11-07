@@ -14,3 +14,4 @@ librespot
 dbus-codegen
 tendermint-abci
 winpty-rs
+tree-sitter-graph
