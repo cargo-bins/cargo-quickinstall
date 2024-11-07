@@ -33,3 +33,4 @@ tauri-cli
 watchexec-cli
 phf_generator
 syd
+solana-net-utils
