@@ -27,3 +27,4 @@ tendermint-abci
 ducc-sys
 clippy
 ducc-sys
+diesel_cli
