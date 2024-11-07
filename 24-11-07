@@ -3,3 +3,4 @@ nextest-filtering
 cached-path
 nexmark
 tendermint-rpc
+solana-genesis
