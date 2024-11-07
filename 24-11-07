@@ -27,3 +27,4 @@ winpty-rs
 raw-cpuid
 dbus-codegen
 rustrict
+minicbor
