@@ -28,3 +28,4 @@ ducc-sys
 clippy
 ducc-sys
 diesel_cli
+rustup-find
