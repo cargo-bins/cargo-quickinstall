@@ -5,3 +5,4 @@ syd
 remove_dir_all
 laminar
 httpmock
+pgrx-tests
