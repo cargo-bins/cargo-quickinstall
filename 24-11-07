@@ -88,3 +88,4 @@ arrow-flight
 diesel_cli
 remove_dir_all
 nu
+clippy
