@@ -19,3 +19,4 @@ cargo-codspeed
 dbus-codegen
 dbus-codegen
 trunk
+raw-cpuid
