@@ -28,3 +28,4 @@ raw-cpuid
 dbus-codegen
 rustrict
 minicbor
+sha1collisiondetection
