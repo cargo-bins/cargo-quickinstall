@@ -14,3 +14,4 @@ pwasm-utils
 nkeys
 arrow-flight
 libbpf-cargo
+cargo-generate
