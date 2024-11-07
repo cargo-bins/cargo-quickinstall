@@ -14,3 +14,4 @@ solana-cli
 dbus-codegen
 spider_cli
 remove_dir_all
+nkeys
