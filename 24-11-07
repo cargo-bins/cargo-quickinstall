@@ -2,3 +2,4 @@ borsh
 nextest-filtering
 cached-path
 nexmark
+tendermint-rpc
