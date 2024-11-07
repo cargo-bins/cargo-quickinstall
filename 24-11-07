@@ -36,3 +36,4 @@ syd
 solana-net-utils
 solana-cli
 watchexec-cli
+cargo-codspeed
