@@ -4,3 +4,4 @@ trunk
 apollo-router
 cargo-outdated
 cargo-udeps
+spider_worker
