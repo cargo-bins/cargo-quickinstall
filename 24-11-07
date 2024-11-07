@@ -51,3 +51,4 @@ pwasm-utils
 trunk
 racer
 httpmock
+libbpf-cargo
