@@ -9,3 +9,4 @@ borsh
 dotenvy
 opencv-binding-generator
 racer
+wol-rs
