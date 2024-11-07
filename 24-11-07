@@ -35,3 +35,4 @@ nexmark
 spider_cli
 pgrx-tests
 borsh
+winpty-rs
