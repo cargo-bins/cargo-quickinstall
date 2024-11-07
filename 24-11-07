@@ -15,3 +15,4 @@ rustfmt-nightly
 solana-net-utils
 git-mit-install
 diesel_cli
+exa
