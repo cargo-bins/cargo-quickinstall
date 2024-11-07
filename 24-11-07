@@ -23,3 +23,4 @@ spider_worker
 nexmark
 solana-gossip
 tendermint-abci
+a11ywatch_cli
