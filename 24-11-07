@@ -47,3 +47,4 @@ tendermint-abci
 oso
 rls-rustc
 dbus-codegen
+phf_generator
