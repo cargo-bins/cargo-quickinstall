@@ -5,3 +5,4 @@ sqlx-cli
 textplots
 honggfuzz
 syd
+raw-cpuid
