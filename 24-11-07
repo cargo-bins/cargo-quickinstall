@@ -3,3 +3,4 @@ tendermint-rpc
 dbus-codegen
 dotenvy
 ducc-sys
+pwasm-utils
