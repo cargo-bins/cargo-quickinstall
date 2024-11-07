@@ -90,3 +90,4 @@ remove_dir_all
 nu
 clippy
 remove_dir_all
+rustrict
