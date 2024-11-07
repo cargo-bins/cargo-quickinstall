@@ -46,3 +46,4 @@ nexmark
 tendermint-abci
 oso
 rls-rustc
+dbus-codegen
