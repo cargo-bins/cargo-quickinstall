@@ -25,3 +25,4 @@ parquet
 cpp_demangle
 tendermint-abci
 ducc-sys
+clippy
