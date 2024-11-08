@@ -17,3 +17,4 @@ foundationdb-gen
 protox
 nextest-filtering
 perfcnt
+cached-path
