@@ -60,3 +60,4 @@ winpty-rs
 tree-sitter-graph
 socketcan
 unic-langid-impl
+tendermint-rpc
