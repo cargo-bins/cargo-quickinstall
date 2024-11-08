@@ -46,3 +46,4 @@ raw-cpuid
 rust-kanban
 porsmo
 deploy
+libbpf-cargo
