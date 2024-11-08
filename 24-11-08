@@ -29,3 +29,4 @@ cargo-about
 opencv-binding-generator
 perfcnt
 tendermint-abci
+apollo-router
