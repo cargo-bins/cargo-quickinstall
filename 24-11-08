@@ -16,3 +16,4 @@ clippy
 foundationdb-gen
 protox
 nextest-filtering
+perfcnt
