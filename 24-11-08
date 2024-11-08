@@ -5,3 +5,4 @@ sqlx-cli
 phf_generator
 dotenvy
 minicbor
+rustrict
