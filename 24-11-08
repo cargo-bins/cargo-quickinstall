@@ -73,3 +73,4 @@ spider_cli
 phf_generator
 sha1collisiondetection
 remove_dir_all
+rustrict
