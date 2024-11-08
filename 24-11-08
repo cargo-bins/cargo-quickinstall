@@ -33,3 +33,4 @@ solana-cli
 nextest-filtering
 pwasm-utils
 clippy
+cached-path
