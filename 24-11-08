@@ -30,3 +30,4 @@ pgrx-tests
 dotenv
 raw-cpuid
 apollo-router
+speedtest-rs
