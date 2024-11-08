@@ -7,3 +7,4 @@ rustfmt-nightly
 rkv
 solana-gossip
 py-spy
+solana-keygen
