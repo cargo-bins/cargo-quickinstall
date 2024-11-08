@@ -50,3 +50,4 @@ libbpf-cargo
 minicbor
 rkv
 py-spy
+phf_generator
