@@ -53,3 +53,4 @@ diesel_cli
 schemafy
 tendermint-abci
 socketcan
+cpp_demangle
