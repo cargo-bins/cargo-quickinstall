@@ -17,3 +17,4 @@ dbus-codegen
 solana-validator
 human_bytes
 socketcan
+rkv
