@@ -35,3 +35,4 @@ pwasm-utils
 trunk
 clippy
 tendermint-rpc
+sha1collisiondetection
