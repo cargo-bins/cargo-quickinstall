@@ -40,3 +40,4 @@ paperclip
 socketcan
 z3tracer
 arrow-flight
+opencv-binding-generator
