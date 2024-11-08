@@ -75,3 +75,4 @@ sha1collisiondetection
 remove_dir_all
 rustrict
 textplots
+opencv-binding-generator
