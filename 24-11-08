@@ -83,3 +83,4 @@ parquet
 rrule
 tree-sitter-cli
 nu
+tendermint-rpc
