@@ -19,3 +19,4 @@ deno
 nextest-filtering
 librespot
 phf_generator
+clippy
