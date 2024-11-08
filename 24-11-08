@@ -12,3 +12,4 @@ unic-langid-impl
 rustfmt-nightly
 rls-rustc
 perfcnt
+laminar
