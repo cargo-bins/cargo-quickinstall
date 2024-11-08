@@ -38,3 +38,4 @@ socketcan
 diesel_cli
 dbus-codegen
 remove_dir_all
+arrow-flight
