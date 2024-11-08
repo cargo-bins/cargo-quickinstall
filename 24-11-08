@@ -19,3 +19,4 @@ human_bytes
 socketcan
 rkv
 dbus-codegen
+textplots
