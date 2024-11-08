@@ -16,3 +16,4 @@ human_bytes
 oxipng
 addr2line
 opencv-binding-generator
+winpty-rs
