@@ -80,3 +80,4 @@ tree-sitter-graph
 dotenv
 addr2line
 parquet
+rrule
