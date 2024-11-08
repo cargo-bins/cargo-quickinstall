@@ -13,3 +13,4 @@ socketcan
 sea-orm-cli
 dbus-codegen
 clippy
+foundationdb-gen
