@@ -13,3 +13,4 @@ laminar
 sea-orm-cli
 solana-cli
 sccache
+perfcnt
