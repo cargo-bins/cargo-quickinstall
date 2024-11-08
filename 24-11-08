@@ -41,3 +41,4 @@ remove_dir_all
 arrow-flight
 nexmark
 cpp_demangle
+pgrx-tests
