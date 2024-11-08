@@ -32,3 +32,4 @@ unic-langid-impl
 solana-cli
 nextest-filtering
 pwasm-utils
+clippy
