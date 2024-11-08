@@ -5,3 +5,4 @@ foundationdb-gen
 oso
 addr2line
 deploy
+dotenvy
