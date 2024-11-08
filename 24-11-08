@@ -10,3 +10,4 @@ py-spy
 solana-keygen
 diesel_cli
 socketcan
+sea-orm-cli
