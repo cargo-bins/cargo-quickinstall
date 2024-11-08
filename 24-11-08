@@ -32,3 +32,4 @@ arrow-flight
 cargo-lock
 schemafy
 tree-sitter-cli
+solana-cli
