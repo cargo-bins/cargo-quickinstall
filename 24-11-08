@@ -35,3 +35,4 @@ httpmock
 human_name
 solana-net-utils
 socketcan
+diesel_cli
