@@ -37,3 +37,4 @@ clippy
 tendermint-rpc
 sha1collisiondetection
 tendermint-abci
+java-locator
