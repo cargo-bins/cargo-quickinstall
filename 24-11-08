@@ -20,3 +20,4 @@ paperclip
 sha1collisiondetection
 nkeys
 addr2line
+borsh
