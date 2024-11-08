@@ -9,3 +9,4 @@ dotenvy
 rustrict
 pgrx-tests
 nexmark
+cargo-lock
