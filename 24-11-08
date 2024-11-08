@@ -8,3 +8,4 @@ cargo-outdated
 cargo-c
 cargo-lock
 git-mit-install
+tauri-cli
