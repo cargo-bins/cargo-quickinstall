@@ -25,3 +25,4 @@ solana-validator
 nkeys
 human_bytes
 tendermint-rpc
+tree-sitter-graph
