@@ -40,3 +40,4 @@ dbus-codegen
 remove_dir_all
 arrow-flight
 nexmark
+cpp_demangle
