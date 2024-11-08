@@ -6,3 +6,4 @@ solana-net-utils
 human_bytes
 httpmock
 deploy
+minicbor
