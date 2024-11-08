@@ -18,3 +18,4 @@ rls-rustc
 opencv-binding-generator
 cargo-lock
 textplots
+protox
