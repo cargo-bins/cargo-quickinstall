@@ -33,3 +33,4 @@ rustfmt-nightly
 cached-path
 httpmock
 human_name
+solana-net-utils
