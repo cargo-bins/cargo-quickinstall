@@ -28,3 +28,4 @@ rkv
 starship
 pgrx-tests
 dotenv
+raw-cpuid
