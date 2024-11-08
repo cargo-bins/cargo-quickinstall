@@ -35,3 +35,4 @@ pwasm-utils
 clippy
 cached-path
 socketcan
+rkv
