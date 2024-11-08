@@ -37,3 +37,4 @@ solana-net-utils
 socketcan
 diesel_cli
 dbus-codegen
+remove_dir_all
