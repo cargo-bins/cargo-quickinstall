@@ -79,3 +79,4 @@ opencv-binding-generator
 tree-sitter-graph
 dotenv
 addr2line
+parquet
