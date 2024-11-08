@@ -34,3 +34,4 @@ nextest-filtering
 pwasm-utils
 clippy
 cached-path
+socketcan
