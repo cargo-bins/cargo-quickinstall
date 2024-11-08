@@ -28,3 +28,4 @@ tendermint-rpc
 tree-sitter-graph
 libbpf-cargo
 oso
+arrow-flight
