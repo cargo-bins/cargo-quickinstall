@@ -54,3 +54,4 @@ schemafy
 tendermint-abci
 socketcan
 cpp_demangle
+a11ywatch_cli
