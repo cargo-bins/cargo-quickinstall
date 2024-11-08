@@ -66,9 +66,7 @@ def get_requested_crates(period: str, target: str | None) -> list[CrateAndVersio
     df = get_stats(period=period)
 
     if target is not None:
-        # for now, if target in influxdb is null then build for all targets
-        # (just until we have a day's worth of data with `target` set)
-        df = df.filter((df["target"] == target) | df["target"].is_null())
+        df = df.filter(df["target"] == target)
 
     return df[["crate", "version"]].to_dicts()  # type: ignore
 
