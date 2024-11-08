@@ -22,27 +22,31 @@ from cronjob_scripts.stats import get_requested_crates
 from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crates
 
 
-"""
-* construct the following list of crates (n lists for each target):
-  * for each target:
-    * the list of install requests with the "built-from-source" status in the last day (ordered by popularity, including versions - WARNING: this is very likely to result in the same crate being built many times in parallel if someone runs the cronjob manually on ci/locally)
-    * the list of install requests with the "built-from-source" status in the last day (shuffled, including versions)
-    * the list of install requests with any other status in the last day (shuffled, with versions stripped)
-    * popular-crates.txt (shuffled)
-    * a list with just cargo-quickinstall and nothing else
-* shuffle the list of lists and then round-robin between each list:
-  * take the head of the list
-  * if we already checked this package for this target, skip it
-  * if we already tried to build this package 5 times in the last 7 days, skip it (TODO: also record the version in the failure log?)
-  * check its latest version + if we have a package built for it. If we don't have a package built for it, trigger a build
-    * if we already triggered m package builds since the start of the run, exit (probably set this to n times the number of targets?)
-* if we hit a github rate limit when doing this, this is fine and we just bomb out having made some progress?
-* if we get to the end without triggering any builds then that's fine too: there's nothing to do.
-
-"""
-
-
 def main():
+    """
+    Triggers a package build in a vaguely fair way.
+
+    General approach:
+    * construct the following list of crates (n lists for each target):
+        * for each target:
+            * TODO (probably never): the list of install requests with the "built-from-source" or "not-found" status in the last day (ordered by popularity, including versions - WARNING: this is very likely to result in the same crate being built many times in parallel if someone runs the cronjob manually on ci/locally)
+            * the list of install requests with the "built-from-source" or "not-found" status in the last day (shuffled, including versions)
+            * the list of install requests with any other status in the last day (shuffled, with versions stripped)
+            * popular-crates.txt (shuffled)
+            * a list with just cargo-quickinstall and nothing else (if doing the weekly recheck job)
+    * shuffle the list of lists and then round-robin between each list:
+        * take the head of the list
+        * if we already checked this package for this target, skip it
+        * if we already tried to build this package 5 times in the last 7 days, skip it (TODO: also record the version in the failure log?)
+        * check its latest version + if we have a package built for it. If we don't have a package built for it, trigger a build
+            * if we already triggered m package builds since the start of the run, exit (probably set this to n times the number of targets?)
+    * if we hit a github rate limit when doing this, this is fine and we just bomb out having made some progress?
+    * if we get to the end without triggering any builds then that's fine too: there's nothing to do.
+
+    Shuffling the lists means that:
+    * we will at least make some progress fairly on all architectures even if something goes wrong or we hit rate limits
+    * we don't need to track any state to avoid head-of-line blocking (the "trigger/*" branches used to track where we got to for each target for fairness, but shuffled builds are simpler)
+    """
     if len(sys.argv) > 1:
         print(
             "Usage: INFLUXDB_TOKEN= target= CRATE_CHECK_LIMIT= RECHECK= GITHUB_REPOSITORY= trigger-package-build.py"
@@ -62,9 +66,24 @@ def main():
     random.shuffle(popular_crates)
 
     for target in targets:
-        queue = get_requested_crates(period="1 day", target=target)
-        random.shuffle(queue)
-        queues.append(("requested", target, cast(List[CrateAndMaybeVersion], queue)))
+        # This will be a large list of crates, so it might take a while to get around to checking
+        # everything here.
+        all_requested = get_requested_crates(period="1 day", target=target)
+        random.shuffle(all_requested)
+        queues.append(
+            ("requested", target, cast(List[CrateAndMaybeVersion], all_requested))
+        )
+
+        # This should be a small list of crates, so we should get around to checking everything here
+        # pretty often. This doesn't include failures from old clients (via the old stats server)
+        # because they don't report status.
+        failed = get_requested_crates(
+            period="1 day", target=target, statuses=["built-from-source", "not-found"]
+        )
+        random.shuffle(failed)
+        queues.append(("failed", target, cast(List[CrateAndMaybeVersion], failed)))
+
+        # This is also large, and will take a while to check.
         queues.append(("popular", target, popular_crates.copy()))
 
         if os.environ.get("RECHECK"):
@@ -81,8 +100,8 @@ def main():
     triggered_count = 0
     # FIXME: make this limit a constant or env var?
     for index in range(1000):
-        for type, target, queue in queues:
-            triggered = trigger_for_target(type, target, queue, index)
+        for type, target, all_requested in queues:
+            triggered = trigger_for_target(type, target, all_requested, index)
             time.sleep(1)
             if triggered:
                 triggered_count += 1

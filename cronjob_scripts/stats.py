@@ -43,11 +43,10 @@ def get_stats(period: str) -> DataFrame:
     # Apparently binswap-github is using an old version of binstalk. See:
     # https://github.com/cargo-bins/cargo-quickinstall/pull/300/files#r1778063083
     query = """
-        SELECT DISTINCT crate, target, version
+        SELECT DISTINCT crate, target, version, status
         FROM "counts"
         WHERE
             time >= now() - $period::interval and time <= now()
-            and (status is null or status not in ('start', 'installed-from-tarball'))
     """
 
     table: DataFrame = _influxdb_client.query(  # type: ignore
@@ -62,13 +61,18 @@ def get_stats(period: str) -> DataFrame:
     return table
 
 
-def get_requested_crates(period: str, target: str | None) -> list[CrateAndVersion]:
+def get_requested_crates(
+    period: str, target: str | None, statuses: list[str] | None = None
+) -> list[CrateAndVersion]:
     df = get_stats(period=period)
 
     if target is not None:
         df = df.filter(df["target"] == target)
 
-    return df[["crate", "version"]].to_dicts()  # type: ignore
+    if statuses:
+        df = df.filter(df["status"].is_in(statuses))
+
+    return df[["crate", "version"]].unique().to_dicts()  # type: ignore
 
 
 def main():
