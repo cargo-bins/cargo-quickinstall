@@ -7,3 +7,4 @@ winpty-rs
 apollo-router
 phf_generator
 syd
+pgrx-tests
