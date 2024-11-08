@@ -6,3 +6,4 @@ phf_generator
 dotenvy
 minicbor
 rustrict
+rustfmt-nightly
