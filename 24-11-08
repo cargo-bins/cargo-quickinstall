@@ -44,3 +44,4 @@ opencv-binding-generator
 spider_worker
 unic-langid-impl
 cached-path
+nextest-filtering
