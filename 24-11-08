@@ -3,3 +3,4 @@ cached-path
 protox
 racer
 winpty-rs
+addr2line
