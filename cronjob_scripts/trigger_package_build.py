@@ -10,6 +10,7 @@ import os
 from pathlib import Path
 import random
 import subprocess
+import sys
 import time
 from typing import List, cast
 
@@ -216,10 +217,12 @@ def get_assets_for_tag(tag: str) -> list[GithubAsset]:
     try:
         out = subprocess.check_output(
             ["gh", "release", "view", tag, "--json=assets"],
+            stderr=subprocess.PIPE,
         )
     except subprocess.CalledProcessError as e:
-        if b"release not found" in e.output:
+        if b"release not found" in e.stderr:
             return []
+        print(e.stderr, file=sys.stderr)
         raise
     parsed = json.loads(out)
     return parsed["assets"]
