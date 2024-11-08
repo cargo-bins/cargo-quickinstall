@@ -59,3 +59,4 @@ clippy
 winpty-rs
 tree-sitter-graph
 socketcan
+unic-langid-impl
