@@ -17,3 +17,4 @@ schemafy
 iai-callgrind-runner
 cpp_demangle
 paperclip
+sha1collisiondetection
