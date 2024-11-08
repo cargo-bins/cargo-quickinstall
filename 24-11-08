@@ -1,2 +1,3 @@
 opencv-binding-generator
 racer
+cargo-tarpaulin
