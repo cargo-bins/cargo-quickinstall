@@ -45,3 +45,4 @@ pgrx-tests
 phf_generator
 nextest-filtering
 termusic
+addr2line
