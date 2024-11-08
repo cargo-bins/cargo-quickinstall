@@ -46,3 +46,4 @@ phf_generator
 nextest-filtering
 termusic
 addr2line
+deploy
