@@ -9,3 +9,4 @@ cargo-c
 cargo-lock
 git-mit-install
 tauri-cli
+laminar
