@@ -5,3 +5,4 @@ dotenv
 sea-orm-cli
 winpty-rs
 apollo-router
+phf_generator
