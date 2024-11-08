@@ -49,3 +49,4 @@ deploy
 libbpf-cargo
 minicbor
 rkv
+py-spy
