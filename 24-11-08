@@ -16,3 +16,4 @@ rls-rustc
 dbus-codegen
 solana-validator
 human_bytes
+socketcan
