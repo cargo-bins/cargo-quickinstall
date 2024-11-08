@@ -43,8 +43,6 @@ from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crate
 
 
 def main():
-    import sys
-
     if len(sys.argv) > 1:
         print(
             "Usage: INFLUXDB_TOKEN= target= CRATE_CHECK_LIMIT= RECHECK= GITHUB_REPOSITORY= trigger-package-build.py"
