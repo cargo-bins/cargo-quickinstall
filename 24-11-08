@@ -32,3 +32,4 @@ human_bytes
 remove_dir_all
 iai-callgrind-runner
 textplots
+perfcnt
