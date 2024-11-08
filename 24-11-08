@@ -14,3 +14,4 @@ cargo-lock
 oso
 rls-rustc
 dbus-codegen
+solana-validator
