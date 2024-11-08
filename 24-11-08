@@ -30,3 +30,4 @@ ducc-sys
 nkeys
 z3tracer
 rustfmt-nightly
+cached-path
