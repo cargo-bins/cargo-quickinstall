@@ -30,3 +30,4 @@ libbpf-cargo
 oso
 arrow-flight
 cargo-lock
+schemafy
