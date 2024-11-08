@@ -7,3 +7,4 @@ dotenvy
 minicbor
 rustrict
 rustfmt-nightly
+raw-cpuid
