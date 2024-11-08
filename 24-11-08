@@ -16,3 +16,4 @@ arrow-flight
 dotenv
 rls-rustc
 opencv-binding-generator
+cargo-lock
