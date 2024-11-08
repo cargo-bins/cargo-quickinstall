@@ -33,7 +33,11 @@ def get_stats(period: str) -> DataFrame:
             host=HOST, token=TOKEN, org=ORG, database=DATABASE
         )
 
-    # Old clients (going via the old stats server) don't report status, so we filter them out.
+    # Old clients (going via the old stats server) don't report status, so we will end up triggering
+    # re-checks even for things successfully installed from tarball. Hopefully these will gradually
+    # get phased out and then this method will only return crate versions which ended up installing
+    # from source.
+    #
     # FIXME: seems like there are some entries of the form:
     # {"agent": "binstalk-fetchers/0.10.0", "status": "start", ... }
     # Apparently binswap-github is using an old version of binstalk. See:
@@ -43,7 +47,7 @@ def get_stats(period: str) -> DataFrame:
         FROM "counts"
         WHERE
             time >= now() - $period::interval and time <= now()
-            and status is not null and status not in ('start', 'installed-from-tarball')
+            and (status is null or status not in ('start', 'installed-from-tarball'))
     """
 
     table: DataFrame = _influxdb_client.query(  # type: ignore
