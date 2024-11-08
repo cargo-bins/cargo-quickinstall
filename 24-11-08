@@ -50,3 +50,4 @@ spider_worker
 protox
 parquet
 diesel_cli
+schemafy
