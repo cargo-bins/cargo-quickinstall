@@ -11,3 +11,4 @@ solana-keygen
 diesel_cli
 socketcan
 sea-orm-cli
+dbus-codegen
