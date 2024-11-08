@@ -14,3 +14,4 @@ rls-rustc
 perfcnt
 laminar
 perfcnt
+raw-cpuid
