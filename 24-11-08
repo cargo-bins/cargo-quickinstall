@@ -12,3 +12,4 @@ nexmark
 cargo-lock
 rustfmt-nightly
 deploy
+java-locator
