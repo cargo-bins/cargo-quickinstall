@@ -19,3 +19,4 @@ cpp_demangle
 paperclip
 sha1collisiondetection
 nkeys
+addr2line
