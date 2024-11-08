@@ -2,3 +2,4 @@ laminar
 syd
 httpmock
 dotenv
+sea-orm-cli
