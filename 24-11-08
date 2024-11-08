@@ -42,3 +42,4 @@ arrow-flight
 nexmark
 cpp_demangle
 pgrx-tests
+phf_generator
