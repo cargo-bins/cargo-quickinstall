@@ -6,3 +6,4 @@ a11ywatch_cli
 git-mit-install
 cargo-outdated
 cargo-c
+cargo-lock
