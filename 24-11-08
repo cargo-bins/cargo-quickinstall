@@ -43,3 +43,4 @@ nexmark
 cpp_demangle
 pgrx-tests
 phf_generator
+nextest-filtering
