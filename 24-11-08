@@ -3,3 +3,4 @@ re_query
 deploy
 apollo-router
 wmi
+tendermint-rpc
