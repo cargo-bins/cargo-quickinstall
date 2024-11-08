@@ -35,3 +35,4 @@ tree-sitter-cli
 solana-cli
 sea-orm-cli
 borsh
+a11ywatch_cli
