@@ -2,3 +2,4 @@ iai-callgrind-runner
 protox
 paperclip
 sqlx-cli
+phf_generator
