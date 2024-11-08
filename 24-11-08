@@ -19,3 +19,4 @@ opencv-binding-generator
 cargo-lock
 textplots
 protox
+sha1collisiondetection
