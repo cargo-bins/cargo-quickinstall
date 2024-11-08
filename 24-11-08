@@ -13,3 +13,4 @@ rustfmt-nightly
 rls-rustc
 perfcnt
 laminar
+perfcnt
