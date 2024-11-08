@@ -12,3 +12,4 @@ oso
 solana-cli
 cargo-lock
 oso
+rls-rustc
