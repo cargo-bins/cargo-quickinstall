@@ -10,3 +10,4 @@ racer
 arrow-flight
 unic-langid-impl
 rustfmt-nightly
+rls-rustc
