@@ -15,3 +15,4 @@ apollo-router
 perfcnt
 schemafy
 iai-callgrind-runner
+cpp_demangle
