@@ -21,3 +21,4 @@ sha1collisiondetection
 nkeys
 addr2line
 borsh
+cargo-local-registry
