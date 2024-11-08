@@ -10,3 +10,4 @@ cargo-lock
 git-mit-install
 tauri-cli
 laminar
+sea-orm-cli
