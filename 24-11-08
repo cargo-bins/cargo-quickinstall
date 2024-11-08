@@ -2,3 +2,4 @@ opencv-binding-generator
 racer
 cargo-tarpaulin
 cargo-codspeed
+a11ywatch_cli
