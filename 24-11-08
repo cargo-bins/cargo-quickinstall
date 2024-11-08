@@ -9,3 +9,4 @@ solana-gossip
 py-spy
 solana-keygen
 diesel_cli
+socketcan
