@@ -27,3 +27,4 @@ opencv-binding-generator
 rkv
 starship
 pgrx-tests
+dotenv
