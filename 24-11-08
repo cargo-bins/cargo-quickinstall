@@ -2,3 +2,4 @@ remove_dir_all
 nkeys
 dotenv
 syd
+solana-net-utils
