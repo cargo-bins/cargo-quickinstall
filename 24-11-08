@@ -22,3 +22,4 @@ nkeys
 addr2line
 borsh
 cargo-local-registry
+java-locator
