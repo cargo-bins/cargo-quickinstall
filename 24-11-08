@@ -77,3 +77,4 @@ rustrict
 textplots
 opencv-binding-generator
 tree-sitter-graph
+dotenv
