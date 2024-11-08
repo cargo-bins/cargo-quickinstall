@@ -4,3 +4,4 @@ paperclip
 sqlx-cli
 phf_generator
 dotenvy
+minicbor
