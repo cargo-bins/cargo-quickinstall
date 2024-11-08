@@ -58,3 +58,4 @@ a11ywatch_cli
 solana-cli
 rustrict
 pwasm-utils
+opencv-binding-generator
