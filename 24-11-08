@@ -13,3 +13,4 @@ rkv
 trunk
 cpp_demangle
 arrow-flight
+dotenv
