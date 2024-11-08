@@ -18,3 +18,4 @@ raw-cpuid
 dotenvy
 h3o
 tendermint-abci
+pwasm-utils
