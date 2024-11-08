@@ -3,3 +3,4 @@ deploy
 borsh
 minicbor
 zuse
+rustfmt-nightly
