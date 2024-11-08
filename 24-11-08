@@ -46,3 +46,4 @@ unic-langid-impl
 cached-path
 nextest-filtering
 h3o
+spider_worker
