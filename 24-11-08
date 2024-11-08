@@ -24,3 +24,4 @@ borsh
 cargo-local-registry
 java-locator
 schemafy
+paperclip
