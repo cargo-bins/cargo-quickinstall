@@ -37,3 +37,4 @@ sea-orm-cli
 borsh
 a11ywatch_cli
 paperclip
+socketcan
