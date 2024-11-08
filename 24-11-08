@@ -4,3 +4,4 @@ deploy
 apollo-router
 wmi
 tendermint-rpc
+z3tracer
