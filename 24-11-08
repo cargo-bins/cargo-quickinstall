@@ -12,3 +12,4 @@ tauri-cli
 laminar
 sea-orm-cli
 solana-cli
+sccache
