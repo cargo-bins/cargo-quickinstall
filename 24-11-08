@@ -10,3 +10,4 @@ rustrict
 pgrx-tests
 nexmark
 cargo-lock
+rustfmt-nightly
