@@ -6,3 +6,4 @@ zuse
 rustfmt-nightly
 rkv
 solana-gossip
+py-spy
