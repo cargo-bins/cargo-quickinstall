@@ -39,3 +39,4 @@ sha1collisiondetection
 tendermint-abci
 java-locator
 deploy
+spider_cli
