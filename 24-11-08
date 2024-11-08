@@ -51,3 +51,4 @@ protox
 parquet
 diesel_cli
 schemafy
+tendermint-abci
