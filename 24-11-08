@@ -42,3 +42,4 @@ pwasm-utils
 snarkvm
 paperclip
 arrow-flight
+rls-rustc
