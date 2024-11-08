@@ -28,3 +28,4 @@ borsh
 foundationdb-gen
 ducc-sys
 nkeys
+z3tracer
