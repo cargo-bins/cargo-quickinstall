@@ -18,3 +18,4 @@ unic-langid-impl
 deno
 nextest-filtering
 librespot
+phf_generator
