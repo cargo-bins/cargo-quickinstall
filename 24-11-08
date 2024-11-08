@@ -17,3 +17,4 @@ oxipng
 addr2line
 opencv-binding-generator
 winpty-rs
+tree-sitter-cli
