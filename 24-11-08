@@ -29,3 +29,4 @@ socketcan
 human_name
 pwasm-utils
 borsh
+pgrx-tests
