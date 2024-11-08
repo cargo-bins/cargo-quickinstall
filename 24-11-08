@@ -9,3 +9,4 @@ rustrict
 rustfmt-nightly
 raw-cpuid
 git-mit-install
+rustbus
