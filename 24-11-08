@@ -13,3 +13,4 @@ solana-cli
 cargo-lock
 oso
 rls-rustc
+dbus-codegen
