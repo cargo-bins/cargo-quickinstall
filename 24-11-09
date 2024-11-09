@@ -28,3 +28,4 @@ skim
 clippy
 tendermint-abci
 cargo-lock
+git-mit-config
