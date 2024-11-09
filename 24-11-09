@@ -7,3 +7,4 @@ diesel_cli
 librespot
 syd
 opencv-binding-generator
+libbpf-cargo
