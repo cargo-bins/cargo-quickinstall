@@ -17,3 +17,4 @@ wol-rs
 pgrx-tests
 cargo-tarpaulin
 h3o
+cargo-local-registry
