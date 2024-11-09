@@ -33,3 +33,4 @@ cargo-count
 rkv
 libbpf-cargo
 intentrace
+siderophile
