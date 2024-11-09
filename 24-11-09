@@ -21,3 +21,4 @@ nexmark
 wmi
 cargo-lock
 apollo-router
+sha1collisiondetection
