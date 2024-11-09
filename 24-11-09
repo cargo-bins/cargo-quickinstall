@@ -24,3 +24,4 @@ tree-sitter-graph
 perfcnt
 clippy
 gitui
+cargo-embed
