@@ -26,3 +26,4 @@ graphql_client_cli
 kalker
 probe-rs-tools
 raw-cpuid
+nextest-filtering
