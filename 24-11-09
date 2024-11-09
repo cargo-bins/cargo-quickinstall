@@ -15,3 +15,4 @@ py-spy
 sea-orm-cli
 racer
 apollo-router
+rls-rustc
