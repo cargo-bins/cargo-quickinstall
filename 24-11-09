@@ -25,3 +25,4 @@ sha1collisiondetection
 unic-langid-impl
 zuse
 py-spy
+httpmock
