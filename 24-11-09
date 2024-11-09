@@ -5,3 +5,4 @@ tendermint-abci
 deploy
 nkeys
 sea-orm-cli
+nu
