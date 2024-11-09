@@ -27,3 +27,4 @@ zuse
 py-spy
 httpmock
 borsh
+sha1collisiondetection
