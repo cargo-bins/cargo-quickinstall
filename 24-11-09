@@ -32,3 +32,4 @@ opencv-binding-generator
 protox
 sea-orm-cli
 oso
+tree-sitter-cli
