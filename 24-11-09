@@ -6,3 +6,4 @@ clippy
 solana-net-utils
 tendermint-rpc
 syd
+rustfmt-nightly
