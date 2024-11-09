@@ -6,3 +6,4 @@ deploy
 nkeys
 sea-orm-cli
 nu
+solana-validator
