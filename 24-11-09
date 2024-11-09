@@ -35,3 +35,4 @@ wol-rs
 wmi
 librespot
 raw-cpuid
+nextest-filtering
