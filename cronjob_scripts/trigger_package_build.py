@@ -136,7 +136,7 @@ def main():
             if triggered:
                 triggered_count += 1
                 if triggered_count >= max_triggers:
-                    print(f"Triggered enough builds {triggered_count}, exiting")
+                    print(f"Triggered enough builds ({triggered_count}), exiting")
                     return
     print(
         f"Checked {max_index} crates per queue ({len(queues)} queues) and triggered {triggered_count} builds, exiting"
@@ -147,7 +147,9 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
     if len(queue.queue) <= index:
         return False
     crate_and_maybe_version = queue.queue[index]
-    print(f"Triggering {type} build for {queue.target}: {crate_and_maybe_version}")
+    print(
+        f"Triggering {queue.type} build for {queue.target}: {crate_and_maybe_version}"
+    )
     crate = crate_and_maybe_version["crate"]
     requested_version = crate_and_maybe_version.get("version")
 
