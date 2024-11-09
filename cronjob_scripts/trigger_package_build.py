@@ -12,9 +12,9 @@ import random
 import subprocess
 import sys
 import time
-from typing import List, cast
+from typing import cast
 
-from cronjob_scripts.types import CrateAndMaybeVersion, GithubAsset
+from cronjob_scripts.types import CrateAndMaybeVersion, CrateAndVersion, GithubAsset
 from cronjob_scripts.architectures import get_build_os, get_target_architectures
 from cronjob_scripts.checkout_worktree import checkout_worktree_for_target
 from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_version
@@ -77,13 +77,8 @@ def main():
     random.shuffle(popular_crates)
 
     for target in targets:
-        # This will be a large list of crates, so it might take a while to get around to checking
-        # everything here.
-        all_requested = get_requested_crates(period="1 day", target=target)
-        random.shuffle(all_requested)
-        queues.append(
-            ("requested", target, cast(List[CrateAndMaybeVersion], all_requested))
-        )
+        tracking_worktree_path = checkout_worktree_for_target(target)
+        excluded = get_excluded(tracking_worktree_path, days=7, max_failures=5)
 
         # This should be a small list of crates, so we should get around to checking everything here
         # pretty often. This doesn't include failures from old clients (via the old stats server)
@@ -91,11 +86,19 @@ def main():
         failed = get_requested_crates(
             period="1 day", target=target, statuses=["built-from-source", "not-found"]
         )
+        failed = without_excluded(failed, excluded)
         random.shuffle(failed)
-        queues.append(("failed", target, cast(List[CrateAndMaybeVersion], failed)))
+        queues.append(("failed", target, failed))
+
+        # This will be a large list of crates, so it might take a while to get around to checking
+        # everything here.
+        all_requested = get_requested_crates(period="1 day", target=target)
+        all_requested = without_excluded(all_requested, excluded)
+        random.shuffle(all_requested)
+        queues.append(("requested", target, all_requested))
 
         # This is also large, and will take a while to check.
-        queues.append(("popular", target, popular_crates.copy()))
+        queues.append(("popular", target, without_excluded(popular_crates, excluded)))
 
         if os.environ.get("RECHECK"):
             queues.append(
@@ -132,12 +135,6 @@ def trigger_for_target(
     print(f"Triggering {type} build for {target}: {crate_and_maybe_version}")
     crate = crate_and_maybe_version["crate"]
     requested_version = crate_and_maybe_version.get("version")
-
-    tracking_worktree_path = checkout_worktree_for_target(target)
-    excludes = get_excludes(tracking_worktree_path, days=7, max_failures=5)
-    if crate in excludes:
-        print(f"Skipping {crate} as it has failed too many times recently")
-        return False
 
     print(f"Checking {crate} {requested_version} for {target}")
     repo_url = get_repo_url()
@@ -182,8 +179,14 @@ def trigger_for_target(
     return True
 
 
+def without_excluded(
+    queue: list[CrateAndMaybeVersion] | list[CrateAndVersion], excluded: set[str]
+) -> list[CrateAndMaybeVersion]:
+    return [c for c in queue if c["crate"] not in excluded]  # type: ignore - sneaky downcast
+
+
 @lru_cache
-def get_excludes(tracking_worktree_path: str, days: int, max_failures: int) -> set[str]:
+def get_excluded(tracking_worktree_path: str, days: int, max_failures: int) -> set[str]:
     """
     if a crate has reached `max_failures` failures in the last `days` days then we exclude it
     """
