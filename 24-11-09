@@ -6,3 +6,4 @@ pgrx-tests
 diesel_cli
 librespot
 syd
+opencv-binding-generator
