@@ -29,23 +29,32 @@ def main():
     General approach:
     * construct the following list of crates (n lists for each target):
         * for each target:
-            * TODO (probably never): the list of install requests with the "built-from-source" or "not-found" status in the last day (ordered by popularity, including versions - WARNING: this is very likely to result in the same crate being built many times in parallel if someone runs the cronjob manually on ci/locally)
-            * the list of install requests with the "built-from-source" or "not-found" status in the last day (shuffled, including versions)
-            * the list of install requests with any other status in the last day (shuffled, with versions stripped)
+            * TODO (probably never): the list of install requests with the "built-from-source" or
+              "not-found" status in the last day (ordered by popularity, including versions.
+              WARNING: this is very likely to result in the same crate being built many times in
+              parallel if someone runs the cronjob manually on ci/locally)
+            * the list of install requests with the "built-from-source" or
+              "not-found" status in the last day (shuffled, including versions)
+            * the list of install requests with any other status in the last day (shuffled, with
+              versions stripped)
             * popular-crates.txt (shuffled)
             * a list with just cargo-quickinstall and nothing else (if doing the weekly recheck job)
     * shuffle the list of lists and then round-robin between each list:
         * take the head of the list
         * if we already checked this package for this target, skip it
-        * if we already tried to build this package 5 times in the last 7 days, skip it (TODO: also record the version in the failure log?)
-        * check its latest version + if we have a package built for it. If we don't have a package built for it, trigger a build
-            * if we already triggered m package builds since the start of the run, exit (probably set this to n times the number of targets?)
+        * if we already tried to build this package 5 times in the last 7 days, skip it
+          (TODO: also record the version in the failure log?)
+        * check its latest version + if we have a package built for it. If we don't have a package
+          built for it, trigger a build
+            * if we already triggered m package builds since the start of the run, exit (probably
+              set this to n times the number of targets?)
     * if we hit a github rate limit when doing this, this is fine and we just bomb out having made some progress?
     * if we get to the end without triggering any builds then that's fine too: there's nothing to do.
 
     Shuffling the lists means that:
     * we will at least make some progress fairly on all architectures even if something goes wrong or we hit rate limits
-    * we don't need to track any state to avoid head-of-line blocking (the "trigger/*" branches used to track where we got to for each target for fairness, but shuffled builds are simpler)
+    * we don't need to track any state to avoid head-of-line blocking (the "trigger/*" branches used
+      to track where we got to for each target for fairness, but shuffled builds are simpler)
     """
     if len(sys.argv) > 1:
         print(
