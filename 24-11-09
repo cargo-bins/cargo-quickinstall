@@ -31,3 +31,4 @@ snarkvm
 sea-orm-cli
 solana-gossip
 laminar
+cargo-spellcheck
