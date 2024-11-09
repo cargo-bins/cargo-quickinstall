@@ -26,3 +26,4 @@ apollo-router
 sccache
 remove_dir_all
 diesel_cli
+solana-tokens
