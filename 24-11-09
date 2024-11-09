@@ -30,3 +30,4 @@ borsh
 sha1collisiondetection
 phf_generator
 foundationdb-gen
+a11ywatch_cli
