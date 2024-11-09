@@ -20,3 +20,4 @@ rustfmt-nightly
 nexmark
 wmi
 cargo-lock
+apollo-router
