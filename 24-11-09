@@ -10,3 +10,4 @@ rls-rustc
 skim
 paperclip
 tree-sitter-graph
+raw-cpuid
