@@ -27,3 +27,4 @@ z3tracer
 skim
 clippy
 tendermint-abci
+cargo-lock
