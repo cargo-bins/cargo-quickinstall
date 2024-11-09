@@ -19,3 +19,4 @@ rls-rustc
 rustfmt-nightly
 nexmark
 wmi
+cargo-lock
