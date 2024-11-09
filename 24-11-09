@@ -31,3 +31,4 @@ textplots
 cargo-count
 cargo-count
 rkv
+libbpf-cargo
