@@ -15,3 +15,4 @@ cpp_demangle
 rkv
 raw-cpuid
 snarkvm
+remove_dir_all
