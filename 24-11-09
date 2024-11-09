@@ -16,3 +16,4 @@ clippy
 jless
 cargo-embed
 tendermint-abci
+pwasm-utils
