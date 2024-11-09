@@ -20,3 +20,4 @@ iai-callgrind-runner
 rustbus
 opencv-binding-generator
 exa
+pgrx-tests
