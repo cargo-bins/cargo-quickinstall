@@ -28,3 +28,4 @@ probe-rs-tools
 raw-cpuid
 nextest-filtering
 hurl
+probe-rs-tools
