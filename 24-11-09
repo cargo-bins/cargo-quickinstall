@@ -9,3 +9,4 @@ syd
 rustfmt-nightly
 pwasm-utils
 trunk
+wol-rs
