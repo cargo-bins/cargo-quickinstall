@@ -55,3 +55,4 @@ skyspell_kak
 cargo-dylint
 hurl
 libbpf-cargo
+sshx
