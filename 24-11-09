@@ -32,3 +32,4 @@ cargo-count
 cargo-count
 rkv
 libbpf-cargo
+intentrace
