@@ -21,6 +21,8 @@ from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_vers
 from cronjob_scripts.stats import get_requested_crates
 from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crates
 
+MAX_CHECKS_PER_QUEUE = 1000
+
 
 def main():
     """
@@ -107,16 +109,18 @@ def main():
     random.shuffle(queues)
 
     triggered_count = 0
-    # FIXME: make this limit a constant or env var?
-    for index in range(1000):
+    for index in range(MAX_CHECKS_PER_QUEUE):
         for type, target, all_requested in queues:
             triggered = trigger_for_target(type, target, all_requested, index)
             time.sleep(1)
             if triggered:
                 triggered_count += 1
                 if triggered_count > 2 * len(targets):
-                    print("Triggered enough builds, exiting")
+                    print(f"Triggered enough builds {triggered_count}, exiting")
                     return
+    print(
+        f"Checked {MAX_CHECKS_PER_QUEUE} per queue and only triggered {triggered_count} builds, exiting"
+    )
 
 
 def trigger_for_target(
@@ -183,7 +187,7 @@ def get_excludes(tracking_worktree_path: str, days: int, max_failures: int) -> s
     """
     if a crate has reached `max_failures` failures in the last `days` days then we exclude it
     """
-    failures = Counter()
+    failures: Counter[str] = Counter()
 
     failure_filenames = list(Path(tracking_worktree_path).glob("*-*-*"))
     failure_filenames.sort(reverse=True)
