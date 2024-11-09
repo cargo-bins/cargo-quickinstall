@@ -16,3 +16,4 @@ sea-orm-cli
 racer
 apollo-router
 rls-rustc
+rustfmt-nightly
