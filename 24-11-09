@@ -22,3 +22,4 @@ cargo-lock
 java-locator
 tree-sitter-graph
 perfcnt
+clippy
