@@ -14,3 +14,4 @@ clippy
 nkeys
 deploy
 solana-validator
+cpp_demangle
