@@ -14,3 +14,4 @@ pwasm-utils
 tree-sitter-graph
 re_query
 winpty-rs
+rustrict
