@@ -121,6 +121,9 @@ def main():
                 )
             )
 
+    print("Queues:")
+    for queue in queues:
+        print(f"{queue.target} {queue.type}: {len(queue.queue)} items")
     random.shuffle(queues)
 
     max_index = min(max(len(q.queue) for q in queues), MAX_CHECKS_PER_QUEUE)
@@ -148,7 +151,7 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         return False
     crate_and_maybe_version = queue.queue[index]
     print(
-        f"Triggering {queue.type} build for {queue.target}: {crate_and_maybe_version}"
+        f"Triggering '{queue.type}' build for {queue.target}: {crate_and_maybe_version}"
     )
     crate = crate_and_maybe_version["crate"]
     requested_version = crate_and_maybe_version.get("version")
