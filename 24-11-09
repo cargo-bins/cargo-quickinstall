@@ -30,3 +30,4 @@ tendermint-abci
 cargo-lock
 git-mit-config
 human_name
+perfcnt
