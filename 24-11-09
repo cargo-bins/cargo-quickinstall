@@ -18,3 +18,4 @@ cargo-embed
 tendermint-abci
 pwasm-utils
 nextest-filtering
+cargo-lock
