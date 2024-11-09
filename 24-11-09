@@ -20,3 +20,4 @@ pwasm-utils
 nextest-filtering
 cargo-lock
 java-locator
+tree-sitter-graph
