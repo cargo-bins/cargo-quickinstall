@@ -5,3 +5,4 @@ phf_generator
 remove_dir_all
 ducc-sys
 sn_node
+perfcnt
