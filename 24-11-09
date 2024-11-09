@@ -13,3 +13,4 @@ remove_dir_all
 rls-rustc
 py-spy
 sea-orm-cli
+racer
