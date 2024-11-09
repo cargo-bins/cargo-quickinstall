@@ -25,3 +25,4 @@ rrule
 tendermint-abci
 cargo-lock
 tree-sitter-graph
+laminar
