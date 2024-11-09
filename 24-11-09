@@ -4,3 +4,4 @@ nextest-filtering
 clippy
 wmi
 deno
+probe-rs-tools
