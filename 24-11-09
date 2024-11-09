@@ -6,3 +6,4 @@ wmi
 deno
 probe-rs-tools
 probe-rs-tools
+borsh
