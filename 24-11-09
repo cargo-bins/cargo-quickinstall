@@ -15,3 +15,4 @@ re_query
 oso
 pgrx-tests
 solana-genesis
+cargo-local-registry
