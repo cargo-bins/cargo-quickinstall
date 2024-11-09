@@ -18,3 +18,4 @@ pgrx-tests
 cargo-tarpaulin
 h3o
 cargo-local-registry
+solana-validator
