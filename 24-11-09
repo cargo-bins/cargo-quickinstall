@@ -9,3 +9,4 @@ syd
 opencv-binding-generator
 libbpf-cargo
 solana-stake-accounts
+addr2line
