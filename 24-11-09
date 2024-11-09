@@ -9,3 +9,4 @@ probe-rs-tools
 borsh
 paperclip
 dotenv
+pwasm-utils
