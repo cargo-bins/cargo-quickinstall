@@ -4,6 +4,7 @@ from __future__ import annotations
 
 
 from collections import Counter
+from dataclasses import dataclass
 from functools import lru_cache
 import json
 import os
@@ -22,6 +23,13 @@ from cronjob_scripts.stats import get_requested_crates
 from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crates
 
 MAX_CHECKS_PER_QUEUE = 1000
+
+
+@dataclass
+class QueueInfo:
+    type: str
+    target: str
+    queue: list[CrateAndMaybeVersion]
 
 
 def main():
@@ -67,9 +75,7 @@ def main():
         exit(1)
 
     targets = get_target_architectures()
-    # FIXME: make a better type than tuple here.
-    # We mean list of (type, target, list of crates and versions)
-    queues: list[tuple[str, str, list[CrateAndMaybeVersion]]] = []
+    queues: list[QueueInfo] = []
 
     # we shuffle the list of popular crates from crates.io once, and use it for every arch, to slightly
     # reduce the number of requests we need to make to crates.io. It probably isn't worth it though.
@@ -88,60 +94,69 @@ def main():
         )
         failed = without_excluded(failed, excluded)
         random.shuffle(failed)
-        queues.append(("failed", target, failed))
+        queues.append(QueueInfo(type="failed", target=target, queue=failed))
 
         # This will be a large list of crates, so it might take a while to get around to checking
         # everything here.
         all_requested = get_requested_crates(period="1 day", target=target)
         all_requested = without_excluded(all_requested, excluded)
         random.shuffle(all_requested)
-        queues.append(("requested", target, all_requested))
+        queues.append(QueueInfo(type="requested", target=target, queue=all_requested))
 
         # This is also large, and will take a while to check.
-        queues.append(("popular", target, without_excluded(popular_crates, excluded)))
+        queues.append(
+            QueueInfo(
+                type="popular",
+                target=target,
+                queue=without_excluded(popular_crates, excluded),
+            )
+        )
 
         if os.environ.get("RECHECK"):
             queues.append(
-                (
-                    "self",
-                    target,
-                    [cast(CrateAndMaybeVersion, {"crate": "cargo-quickinstall"})],
+                QueueInfo(
+                    type="self",
+                    target=target,
+                    queue=[cast(CrateAndMaybeVersion, {"crate": "cargo-quickinstall"})],
                 )
             )
 
     random.shuffle(queues)
 
+    max_index = min(max(len(q.queue) for q in queues), MAX_CHECKS_PER_QUEUE)
+    max_triggers = 2 * len(targets)
+    print(
+        f"Checking {max_index} crates per queue ({len(queues)} queues), to trigger at most {max_triggers} builds"
+    )
     triggered_count = 0
-    for index in range(MAX_CHECKS_PER_QUEUE):
-        for type, target, all_requested in queues:
-            triggered = trigger_for_target(type, target, all_requested, index)
+    for index in range(max_index + 1):
+        for queue in queues:
+            triggered = trigger_for_target(queue, index)
             time.sleep(1)
             if triggered:
                 triggered_count += 1
-                if triggered_count > 2 * len(targets):
+                if triggered_count >= max_triggers:
                     print(f"Triggered enough builds {triggered_count}, exiting")
                     return
     print(
-        f"Checked {MAX_CHECKS_PER_QUEUE} per queue and only triggered {triggered_count} builds, exiting"
+        f"Checked {max_index} crates per queue ({len(queues)} queues) and triggered {triggered_count} builds, exiting"
     )
 
 
-def trigger_for_target(
-    type: str, target: str, queue: list[CrateAndMaybeVersion], index: int
-) -> bool:
-    if len(queue) <= index:
+def trigger_for_target(queue: QueueInfo, index: int) -> bool:
+    if len(queue.queue) <= index:
         return False
-    crate_and_maybe_version = queue[index]
-    print(f"Triggering {type} build for {target}: {crate_and_maybe_version}")
+    crate_and_maybe_version = queue.queue[index]
+    print(f"Triggering {type} build for {queue.target}: {crate_and_maybe_version}")
     crate = crate_and_maybe_version["crate"]
     requested_version = crate_and_maybe_version.get("version")
 
-    print(f"Checking {crate} {requested_version} for {target}")
+    print(f"Checking {crate} {requested_version} for {queue.target}")
     repo_url = get_repo_url()
     version = get_current_version_if_unbuilt(
         repo_url=repo_url,
         crate=crate,
-        target=target,
+        target=queue.target,
         requested_version=requested_version,
     )
     if not version:
@@ -159,18 +174,18 @@ def trigger_for_target(
             for feat in version["features"].keys()
             if "vendored" in feat or "bundled" in feat
         )
-    build_os = get_build_os(target)
+    build_os = get_build_os(queue.target)
     branch = get_branch()
     workflow_run_input = {
         "crate": crate,
         "version": version["vers"],
-        "target_arch": target,
+        "target_arch": queue.target,
         "features": features,
         "no_default_features": no_default_features,
         "build_os": build_os,
         "branch": branch,
     }
-    print(f"Attempting to build {crate} {version['vers']} for {target}")
+    print(f"Attempting to build {crate} {version['vers']} for {queue.target}")
     subprocess.run(
         ["gh", "workflow", "run", "build-package.yml", "--json", f"--ref={branch}"],
         input=json.dumps(workflow_run_input).encode(),
