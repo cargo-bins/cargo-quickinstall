@@ -9,3 +9,4 @@ nu
 solana-validator
 wol-rs
 re_query
+remove_dir_all
