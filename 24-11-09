@@ -4,3 +4,4 @@ cached-path
 tendermint-abci
 deploy
 nkeys
+sea-orm-cli
