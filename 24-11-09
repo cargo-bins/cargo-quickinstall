@@ -15,3 +15,4 @@ cargo-local-registry
 protox
 wol-rs
 pgrx-tests
+cargo-tarpaulin
