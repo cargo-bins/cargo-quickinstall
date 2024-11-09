@@ -224,6 +224,7 @@ def get_excluded(tracking_worktree_path: str, days: int, max_failures: int) -> s
     return set(crate for crate, count in failures.items() if count >= max_failures)
 
 
+@lru_cache
 def get_repo_url() -> str:
     repo_env_var = os.environ.get("GITHUB_REPOSITORY")
     if repo_env_var:
