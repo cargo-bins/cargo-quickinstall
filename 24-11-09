@@ -65,3 +65,4 @@ cargo-bitbake
 hurl
 tectonic
 nextsv
+simple-http-server
