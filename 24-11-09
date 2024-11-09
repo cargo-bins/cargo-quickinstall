@@ -3,3 +3,4 @@ wol-rs
 tendermint-rpc
 spider_worker
 pgrx-tests
+diesel_cli
