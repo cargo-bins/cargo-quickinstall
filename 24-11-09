@@ -17,3 +17,4 @@ pgrx-tests
 solana-genesis
 cargo-local-registry
 iai-callgrind-runner
+rustbus
