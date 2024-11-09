@@ -18,3 +18,4 @@ apollo-router
 rls-rustc
 rustfmt-nightly
 nexmark
+wmi
