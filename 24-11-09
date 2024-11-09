@@ -22,3 +22,4 @@ wmi
 cargo-lock
 apollo-router
 sha1collisiondetection
+unic-langid-impl
