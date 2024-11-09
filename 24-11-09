@@ -27,3 +27,4 @@ cargo-lock
 tree-sitter-graph
 laminar
 nextest-filtering
+textplots
