@@ -2,3 +2,4 @@ iai-callgrind-runner
 textplots
 rustrict
 phf_generator
+remove_dir_all
