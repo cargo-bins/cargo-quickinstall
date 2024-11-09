@@ -8,3 +8,4 @@ tendermint-rpc
 syd
 rustfmt-nightly
 pwasm-utils
+trunk
