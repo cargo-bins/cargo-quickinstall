@@ -29,3 +29,4 @@ diesel_cli
 solana-tokens
 cargo-c
 git-mit-config
+perfcnt
