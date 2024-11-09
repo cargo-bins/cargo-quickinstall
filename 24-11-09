@@ -53,3 +53,4 @@ cargo-spellcheck
 skyspell
 skyspell_kak
 cargo-dylint
+hurl
