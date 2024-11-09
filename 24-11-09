@@ -27,3 +27,4 @@ kalker
 probe-rs-tools
 raw-cpuid
 nextest-filtering
+hurl
