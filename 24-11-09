@@ -25,3 +25,4 @@ probe-rs-tools
 graphql_client_cli
 kalker
 probe-rs-tools
+raw-cpuid
