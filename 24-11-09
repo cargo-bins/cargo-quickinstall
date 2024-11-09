@@ -2,3 +2,4 @@ perfcnt
 remove_dir_all
 dotenvy
 phf_generator
+human_name
