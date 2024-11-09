@@ -19,3 +19,4 @@ tendermint-abci
 pwasm-utils
 nextest-filtering
 cargo-lock
+java-locator
