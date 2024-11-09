@@ -28,3 +28,4 @@ z3tracer
 solana-cli
 simple-http-server
 snarkvm
+sea-orm-cli
