@@ -11,3 +11,4 @@ wol-rs
 re_query
 remove_dir_all
 rls-rustc
+py-spy
