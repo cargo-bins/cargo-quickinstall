@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+from functools import lru_cache
 import subprocess
 
 
-def checkout_worktree_for_arch(target_arch: str):
+@lru_cache
+def checkout_worktree_for_target(target_arch: str):
     """
     Checkout a git worktree for the given target_arch, in /tmp.
 
@@ -37,12 +39,16 @@ def checkout_worktree_for_arch(target_arch: str):
     return worktree_path
 
 
-if __name__ == "__main__":
+def main():
     import sys
 
     if len(sys.argv) != 2:
         print(f"Usage: {sys.argv[0]} <target_arch>")
         sys.exit(1)
 
-    worktree_path = checkout_worktree_for_arch(sys.argv[1])
+    worktree_path = checkout_worktree_for_target(sys.argv[1])
     print(f"checked out to {worktree_path}")
+
+
+if __name__ == "__main__":
+    main()

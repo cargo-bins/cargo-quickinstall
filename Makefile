@@ -7,50 +7,63 @@ release: cronjob_scripts/.python-deps-updated.timestamp ## Publish a new release
 	git push origin HEAD:release --tags
 	$(MAKE) recheck
 
-cronjob_scripts/requirements.txt: cronjob_scripts/pyproject.toml ## Compile the python dependencies from pyproject.toml into requirements.txt
-	(cd cronjob_scripts && uv pip compile pyproject.toml --python-version=3.8 --output-file requirements.txt)
+# This is a poor man's lockfile.
+# This format is used because it is well supported by dependabot etc.
+# but for now, we do not have access to `uv` in CI and don't automatically update requirements.txt
+# as part of our make rules. I might revisit this decision later.
+requirements.txt: pyproject.toml ## Compile the python dependencies from pyproject.toml into requirements.txt
+	uv pip compile pyproject.toml --python-version=3.8 --output-file requirements.txt
+
+.venv/bin/python:
+	python -m venv .venv
 
 # install python dependencies and then record that we've done so so we don't do it again
-# WARNING: this will mess with whatever python venv you happen to be in.
-# this is run on the github actions runner so we can't use uv
-cronjob_scripts/.python-deps-updated.timestamp: cronjob_scripts/requirements.txt
-	python --version
-	pip install -r cronjob_scripts/requirements.txt
+cronjob_scripts/.python-deps-updated.timestamp: pyproject.toml .venv/bin/python
+	.venv/bin/python --version
+	.venv/bin/python -m pip install --constraint requirements.txt --editable .
 	touch cronjob_scripts/.python-deps-updated.timestamp
 
 .PHONY: windows
 windows: cronjob_scripts/.python-deps-updated.timestamp ## trigger a windows build
-	RECHECK=1 TARGET_ARCH=x86_64-pc-windows-msvc python cronjob_scripts/trigger-package-build.py
+	RECHECK=1 TARGET_ARCH=x86_64-pc-windows-msvc .venv/bin/trigger-package-build
 
 .PHONY: mac
 mac: cronjob_scripts/.python-deps-updated.timestamp ## trigger a mac build
-	RECHECK=1 TARGET_ARCH=x86_64-apple-darwin python cronjob_scripts/trigger-package-build.py
+	RECHECK=1 TARGET_ARCH=x86_64-apple-darwin .venv/bin/trigger-package-build
 
 .PHONY: m1
 m1: cronjob_scripts/.python-deps-updated.timestamp ## trigger a mac m1 build
-	RECHECK=1 TARGET_ARCH=aarch64-apple-darwin python cronjob_scripts/trigger-package-build.py
+	RECHECK=1 TARGET_ARCH=aarch64-apple-darwin .venv/bin/trigger-package-build
 
 .PHONY: linux
 linux: cronjob_scripts/.python-deps-updated.timestamp ## trigger a linux build
-	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-gnu python cronjob_scripts/trigger-package-build.py
+	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-gnu .venv/bin/trigger-package-build
 
 .PHONY: linux-musl
 linux-musl: cronjob_scripts/.python-deps-updated.timestamp ## trigger a musl libc-based linux build
-	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-musl python cronjob_scripts/trigger-package-build.py
+	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-musl .venv/bin/trigger-package-build
 
 .PHONY: recheck
 recheck: cronjob_scripts/.python-deps-updated.timestamp ## build ourself and some random packages on all arches
-	RECHECK=1 TARGET_ARCH=all python cronjob_scripts/trigger-package-build.py
+	RECHECK=1 TARGET_ARCH=all .venv/bin/trigger-package-build
 
 .PHONY: trigger-all
 trigger-all: cronjob_scripts/.python-deps-updated.timestamp ## build some random packages on all arches
-	TARGET_ARCH=all python cronjob_scripts/trigger-package-build.py
+	TARGET_ARCH=all .venv/bin/trigger-package-build
+
+.PHONY: fmt
+fmt: ## run rustfmt and ruff format
+	cargo fmt
+	.venv/bin/ruff format cronjob_scripts
 
 .PHONY: test-cronjob-scripts
 test-cronjob-scripts: cronjob_scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob_scripts
-	python -m unittest discover -s cronjob_scripts
-	python cronjob_scripts/trigger-package-build.py --help
-	python cronjob_scripts/crates_io_popular_crates.py
+	.venv/bin/ruff format --check cronjob_scripts
+	.venv/bin/ruff check cronjob_scripts
+	.venv/bin/python -m unittest discover -s cronjob_scripts
+	.venv/bin/trigger-package-build --help
+	.venv/bin/crates-io-popular-crates
+	.venv/bin/stats
 
 .PHONY: help
 help: ## Display this help screen

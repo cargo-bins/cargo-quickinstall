@@ -8,3 +8,7 @@ __pycache__
 cronjob_scripts/uv.lock
 cronjob_scripts/.python-deps-updated.timestamp
 cached_crates_io_popular_crates.parquet
+cronjob-scripts/*.egg-info
+cronjob-scripts/build
+uv.lock
+cronjob_scripts.egg-info/

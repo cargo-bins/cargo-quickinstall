@@ -15,7 +15,10 @@ on:
 jobs:
   recheck:
     name: Recheck
-    runs-on: ubuntu-20.04
+    # This is because I want to use a vaguely modern python without having to install it.
+    # Other actions will may use an older version of ubuntu in order to link an older glibc,
+    # but this action won't be doing any building so it's fine.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,3 +33,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
+          PYTHONUNBUFFERED: 1
