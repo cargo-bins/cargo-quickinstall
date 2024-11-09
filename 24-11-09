@@ -38,3 +38,4 @@ human_bytes
 gitui
 git-mit-config
 perfcnt
+cargo-local-registry
