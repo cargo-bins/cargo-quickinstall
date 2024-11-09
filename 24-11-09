@@ -28,3 +28,4 @@ py-spy
 httpmock
 borsh
 sha1collisiondetection
+phf_generator
