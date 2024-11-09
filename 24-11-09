@@ -9,3 +9,4 @@ perfcnt
 rls-rustc
 skim
 paperclip
+tree-sitter-graph
