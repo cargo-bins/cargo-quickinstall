@@ -14,3 +14,4 @@ git-mit-config
 cargo-local-registry
 protox
 wol-rs
+pgrx-tests
