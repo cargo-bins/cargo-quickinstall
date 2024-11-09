@@ -29,3 +29,4 @@ solana-cli
 simple-http-server
 snarkvm
 sea-orm-cli
+solana-gossip
