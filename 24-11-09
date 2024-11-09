@@ -2,3 +2,4 @@ siderophile
 nextest-filtering
 textplots
 winpty-rs
+cargo-count
