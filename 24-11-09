@@ -19,3 +19,4 @@ cargo-local-registry
 iai-callgrind-runner
 rustbus
 opencv-binding-generator
+exa
