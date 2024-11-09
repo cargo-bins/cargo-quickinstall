@@ -28,3 +28,4 @@ tree-sitter-graph
 laminar
 nextest-filtering
 textplots
+cargo-count
