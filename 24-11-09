@@ -29,3 +29,4 @@ cargo-lock
 oxipng
 z3tracer
 opencv-binding-generator
+protox
