@@ -14,3 +14,4 @@ rls-rustc
 py-spy
 sea-orm-cli
 racer
+apollo-router
