@@ -10,3 +10,4 @@ borsh
 paperclip
 dotenv
 pwasm-utils
+sha1collisiondetection
