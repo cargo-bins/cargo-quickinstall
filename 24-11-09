@@ -32,3 +32,4 @@ phf_generator
 foundationdb-gen
 a11ywatch_cli
 wol-rs
+wmi
