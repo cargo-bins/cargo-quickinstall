@@ -6,3 +6,4 @@ apollo-router
 unic-langid-impl
 rustfmt-nightly
 human_bytes
+starship
