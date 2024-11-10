@@ -2,3 +2,4 @@ racer
 rustfmt-nightly
 starship
 nextest-filtering
+apollo-router
