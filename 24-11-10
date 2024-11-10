@@ -81,3 +81,4 @@ redoxer
 reverse_proxy
 nkeys
 rioterm
+sea-orm-cli
