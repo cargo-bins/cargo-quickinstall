@@ -16,3 +16,4 @@ dotenvy
 speedtest-rs
 cargo-spellcheck
 hell
+cargo-duplicates
