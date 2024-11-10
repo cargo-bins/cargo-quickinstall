@@ -4,3 +4,4 @@ exa
 dotenvy
 nextest-filtering
 apollo-router
+honggfuzz
