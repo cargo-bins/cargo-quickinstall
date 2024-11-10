@@ -8,3 +8,4 @@ rustfmt-nightly
 human_bytes
 starship
 syd
+git-disjoint
