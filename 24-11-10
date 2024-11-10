@@ -12,3 +12,4 @@ git-disjoint
 socketcan
 rls-rustc
 trunk
+foundationdb-gen
