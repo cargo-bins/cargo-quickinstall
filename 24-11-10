@@ -30,3 +30,4 @@ apollo-router
 tree-sitter-cli
 hell
 cargo-public-api
+graphql_client_cli
