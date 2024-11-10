@@ -68,3 +68,4 @@ cargo-toolchainer
 rls-rustc
 xplr
 ncspot
+diesel_cli
