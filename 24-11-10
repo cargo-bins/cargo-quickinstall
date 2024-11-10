@@ -3,3 +3,4 @@ rustfmt-nightly
 starship
 nextest-filtering
 apollo-router
+unic-langid-impl
