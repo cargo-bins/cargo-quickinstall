@@ -24,3 +24,4 @@ cargo-crev
 bmputil
 bmputil
 arrow-flight
+git-disjoint
