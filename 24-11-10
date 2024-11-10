@@ -10,3 +10,4 @@ socketcan
 rls-rustc
 foundationdb-gen
 snarkvm
+addr2line
