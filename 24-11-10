@@ -4,3 +4,4 @@ cargo-duplicates
 cargo-dylint
 speedtest-rs
 ncgopher
+solana-gossip
