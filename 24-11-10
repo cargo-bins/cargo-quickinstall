@@ -2,3 +2,4 @@ solana-gossip
 coldsnap
 tokio-process
 addr2line
+rustfmt
