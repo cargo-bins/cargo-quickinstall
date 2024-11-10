@@ -72,3 +72,4 @@ diesel_cli
 foundationdb-gen
 ncspot
 reverse_proxy
+redoxer
