@@ -2,3 +2,4 @@ racer
 rustfmt-nightly
 addr2line
 rustfmt-nightly
+socketcan
