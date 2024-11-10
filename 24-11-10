@@ -33,3 +33,4 @@ cargo-public-api
 graphql_client_cli
 addr2line
 pax-cli
+cargo-dylint
