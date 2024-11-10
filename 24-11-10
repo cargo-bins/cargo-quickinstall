@@ -13,3 +13,4 @@ socketcan
 rls-rustc
 trunk
 foundationdb-gen
+snarkvm
