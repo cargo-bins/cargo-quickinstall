@@ -10,3 +10,4 @@ diesel_cli
 socketcan
 git-mit-config
 bmputil
+pwasm-utils
