@@ -29,3 +29,4 @@ cargo-spellcheck
 apollo-router
 mise
 cargo-dylint
+addr2line
