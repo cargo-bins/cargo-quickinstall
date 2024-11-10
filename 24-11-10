@@ -6,3 +6,4 @@ socketcan
 unic-langid-impl
 human_bytes
 pwasm-utils
+socketcan
