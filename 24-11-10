@@ -10,3 +10,4 @@ starship
 syd
 git-disjoint
 socketcan
+rls-rustc
