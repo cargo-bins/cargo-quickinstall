@@ -15,3 +15,4 @@ bmputil
 human_name
 rav1e
 cargo-crev
+rls-rustc
