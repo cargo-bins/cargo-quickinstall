@@ -8,3 +8,4 @@ human_bytes
 pwasm-utils
 socketcan
 rls-rustc
+foundationdb-gen
