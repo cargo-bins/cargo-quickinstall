@@ -7,3 +7,4 @@ apollo-router
 honggfuzz
 addr2line
 diesel_cli
+socketcan
