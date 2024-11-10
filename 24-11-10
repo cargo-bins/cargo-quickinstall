@@ -17,3 +17,4 @@ human_bytes
 video2ascii
 pwasm-utils
 human_name
+rls-rustc
