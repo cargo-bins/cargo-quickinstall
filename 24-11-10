@@ -6,3 +6,4 @@ rustfmt
 git-mit-config
 pwasm-utils
 foundationdb-gen
+opencv-binding-generator
