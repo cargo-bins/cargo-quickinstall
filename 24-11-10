@@ -19,3 +19,4 @@ rls-rustc
 cargo-crev
 foundationdb-gen
 cargo-crev
+bmputil
