@@ -3,3 +3,4 @@ coldsnap
 tokio-process
 addr2line
 rustfmt
+git-mit-config
