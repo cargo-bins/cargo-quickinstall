@@ -20,3 +20,4 @@ cargo-duplicates
 alacritty
 kanidm_tools
 cargo-flash
+nextest-filtering
