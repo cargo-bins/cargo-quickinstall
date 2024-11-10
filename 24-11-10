@@ -84,3 +84,4 @@ rioterm
 sea-orm-cli
 cargo-dylint
 redoxer
+graphql_client_cli
