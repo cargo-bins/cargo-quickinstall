@@ -35,3 +35,4 @@ addr2line
 pax-cli
 cargo-dylint
 mise
+cargo-duplicates
