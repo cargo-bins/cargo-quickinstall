@@ -8,3 +8,4 @@ honggfuzz
 addr2line
 diesel_cli
 socketcan
+git-mit-config
