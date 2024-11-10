@@ -86,3 +86,4 @@ cargo-dylint
 redoxer
 graphql_client_cli
 hurl
+speedtest-rs
