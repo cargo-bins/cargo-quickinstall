@@ -28,3 +28,4 @@ cargo-toolchainer
 cargo-spellcheck
 apollo-router
 mise
+cargo-dylint
