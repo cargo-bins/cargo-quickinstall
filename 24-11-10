@@ -2,3 +2,4 @@ rustfmt-nightly
 coldsnap
 exa
 dotenvy
+nextest-filtering
