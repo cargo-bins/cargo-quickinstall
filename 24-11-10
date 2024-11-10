@@ -9,3 +9,4 @@ pwasm-utils
 socketcan
 rls-rustc
 foundationdb-gen
+snarkvm
