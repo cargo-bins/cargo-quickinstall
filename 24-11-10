@@ -5,3 +5,4 @@ dotenvy
 nextest-filtering
 apollo-router
 honggfuzz
+addr2line
