@@ -5,3 +5,4 @@ addr2line
 rustfmt
 git-mit-config
 pwasm-utils
+foundationdb-gen
