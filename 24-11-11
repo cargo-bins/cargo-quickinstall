@@ -4,3 +4,4 @@ pwasm-utils
 deno
 laminar
 wmi
+cargo-lock
