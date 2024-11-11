@@ -2,3 +2,4 @@ foundationdb-gen
 httpmock
 dotenv
 deno
+laminar
