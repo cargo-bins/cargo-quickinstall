@@ -22,3 +22,4 @@ simple-http-server
 argus-cli
 cargo-info
 mdcat
+wmi
