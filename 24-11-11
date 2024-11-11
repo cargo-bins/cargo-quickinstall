@@ -17,3 +17,4 @@ markdown-test-report
 ducc-sys
 cargo-dylint
 cargo-codspeed
+py-spy
