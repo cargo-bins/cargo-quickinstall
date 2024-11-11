@@ -47,6 +47,10 @@ linux-musl: cronjob_scripts/.python-deps-updated.timestamp ## trigger a musl lib
 recheck: cronjob_scripts/.python-deps-updated.timestamp ## build ourself and some random packages on all arches
 	RECHECK=1 TARGET_ARCH=all .venv/bin/trigger-package-build
 
+.PHONY: recheck-self-only
+recheck: cronjob_scripts/.python-deps-updated.timestamp ## build ourself on all arches
+	RECHECK=self-only TARGET_ARCH=all .venv/bin/trigger-package-build
+
 .PHONY: trigger-all
 trigger-all: cronjob_scripts/.python-deps-updated.timestamp ## build some random packages on all arches
 	TARGET_ARCH=all .venv/bin/trigger-package-build

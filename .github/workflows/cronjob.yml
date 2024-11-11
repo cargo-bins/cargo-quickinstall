@@ -2,11 +2,19 @@ name: Cronjob
 
 concurrency:
   group: trigger-package-build
+  cancel-in-progress: true
 
-# Run every hour on the hour.
 on:
+  # Run every hour on the hour.
   schedule:
     - cron: "0 * * * *"
+  # If you are an upstream maintainer and you want to test your branch before merging, run
+  #
+  #     git push && gh workflow run cronjob.yml --ref `git rev-parse --abbrev-ref HEAD`
+  #
+  # This may also work on forks, but you might need to set up some repo secrets first,
+  # and I've not tested it.
+  workflow_dispatch:
 
 jobs:
   build-popular-package:
