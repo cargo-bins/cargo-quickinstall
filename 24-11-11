@@ -9,3 +9,4 @@ fend
 cargo-embassy
 reverse_proxy
 redoxer
+pwasm-utils
