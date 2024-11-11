@@ -34,3 +34,4 @@ cargo-flash
 mdcat
 alacritty
 markdown-test-report
+cargo-public-api
