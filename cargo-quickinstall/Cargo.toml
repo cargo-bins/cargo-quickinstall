@@ -16,7 +16,7 @@ tempfile = "3.14.0"
 guess_host_triple = "0.1.4"
 
 [build-dependencies]
-embed-resource = "2.5.0"
+embed-resource = "3.0.1"
 
 [dev-dependencies]
 mktemp = "0.5.1"
