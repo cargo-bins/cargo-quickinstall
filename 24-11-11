@@ -8,3 +8,4 @@ wmi
 cargo-lock
 nexmark
 rkv
+arrow-flight
