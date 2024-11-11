@@ -5,3 +5,4 @@ deno
 deploy
 wmi
 solana-cli
+raw-cpuid
