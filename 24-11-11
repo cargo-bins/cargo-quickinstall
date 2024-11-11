@@ -5,3 +5,4 @@ jj-cli
 jj-cli
 pwasm-utils
 deno
+dotenv
