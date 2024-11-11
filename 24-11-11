@@ -8,3 +8,4 @@ cargo-lock
 nexmark
 rkv
 solana-cli
+solana-keygen
