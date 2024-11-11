@@ -13,3 +13,4 @@ pwasm-utils
 binstall
 rioterm
 argus-cli
+sea-orm-cli
