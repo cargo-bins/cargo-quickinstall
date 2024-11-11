@@ -10,3 +10,4 @@ cargo-embassy
 reverse_proxy
 redoxer
 pwasm-utils
+binstall
