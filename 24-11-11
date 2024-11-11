@@ -14,3 +14,4 @@ markdown-test-report
 ducc-sys
 cargo-dylint
 probe-rs-cli
+paperclip
