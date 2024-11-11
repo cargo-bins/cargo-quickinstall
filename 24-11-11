@@ -18,3 +18,4 @@ binstall
 dotenv
 laminar
 binstall
+simple-http-server
