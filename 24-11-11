@@ -16,3 +16,4 @@ a11ywatch_cli
 markdown-test-report
 ducc-sys
 cargo-dylint
+cargo-codspeed
