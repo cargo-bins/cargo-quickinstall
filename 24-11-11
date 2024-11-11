@@ -20,3 +20,4 @@ rioterm
 laminar
 llm-lsp
 cargo-embassy
+reverse_proxy
