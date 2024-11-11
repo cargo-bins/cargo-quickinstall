@@ -8,3 +8,4 @@ cargo-lock
 nexmark
 rkv
 papyrus_storage
+raw-cpuid
