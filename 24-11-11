@@ -19,3 +19,4 @@ dotenv
 laminar
 binstall
 simple-http-server
+argus-cli
