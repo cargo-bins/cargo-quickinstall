@@ -5,3 +5,4 @@ cargo-outdated
 deno
 laminar
 wmi
+cargo-lock
