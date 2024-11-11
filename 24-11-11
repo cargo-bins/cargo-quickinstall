@@ -20,3 +20,4 @@ laminar
 binstall
 simple-http-server
 argus-cli
+cargo-info
