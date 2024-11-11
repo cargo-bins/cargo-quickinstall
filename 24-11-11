@@ -27,3 +27,4 @@ cargo-flash
 hurl
 hurl
 rustdesk
+cargo-embassy
