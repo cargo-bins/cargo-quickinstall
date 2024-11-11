@@ -3,3 +3,4 @@ sqlx-cli
 skim
 pwasm-utils
 nu_plugin_net
+dotenv
