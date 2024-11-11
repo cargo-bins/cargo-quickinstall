@@ -2,7 +2,6 @@ name: Cronjob
 
 concurrency:
   group: trigger-package-build
-  cancel-in-progress: true
 
 on:
   # Run every hour on the hour.
