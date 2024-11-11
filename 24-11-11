@@ -13,3 +13,4 @@ reverse_proxy
 rustdesk
 cargo-embassy
 llm-lsp
+cargo-flash
