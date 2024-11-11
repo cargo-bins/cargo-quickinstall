@@ -76,3 +76,4 @@ cargo-info
 ducc-sys
 argus-cli
 llm-lsp
+cargo-dylint
