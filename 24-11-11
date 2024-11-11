@@ -7,3 +7,4 @@ reverse_proxy
 redoxer
 fend
 cargo-embassy
+reverse_proxy
