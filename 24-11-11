@@ -12,3 +12,4 @@ deno
 reverse_proxy
 rustdesk
 cargo-embassy
+llm-lsp
