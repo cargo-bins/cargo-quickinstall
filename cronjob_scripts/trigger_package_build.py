@@ -13,7 +13,6 @@ import random
 import subprocess
 import sys
 import time
-from typing import cast
 
 from cronjob_scripts.types import CrateAndMaybeVersion, CrateAndVersion, GithubAsset
 from cronjob_scripts.architectures import get_build_os, get_target_architectures
@@ -83,17 +82,16 @@ def main():
     random.shuffle(popular_crates)
 
     for target in targets:
-        recheck = os.environ.get("RECHECK")
-        if recheck:
+        recheck_crate = os.environ.get("RECHECK_ONLY")
+        if recheck_crate:
             queues.append(
                 QueueInfo(
-                    type="self",
+                    type="recheck",
                     target=target,
-                    queue=[cast(CrateAndMaybeVersion, {"crate": "cargo-quickinstall"})],
+                    queue=[CrateAndMaybeVersion(crate=recheck_crate, version=None)],
                 )
             )
-            if recheck == "self-only":
-                continue
+            continue
 
         tracking_worktree_path = checkout_worktree_for_target(target)
         excluded = get_excluded(tracking_worktree_path, days=7, max_failures=5)
