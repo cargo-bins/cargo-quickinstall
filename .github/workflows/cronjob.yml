@@ -10,7 +10,9 @@ on:
     - cron: "0 * * * *"
   # If you are an upstream maintainer and you want to test your branch before merging, run
   #
-  #     git push && gh workflow run cronjob.yml --ref `git rev-parse --abbrev-ref HEAD`
+  #     git push
+  #     gh workflow run cronjob.yml --ref `git rev-parse --abbrev-ref HEAD`
+  #     gh run list --workflow=cronjob.yml -L1 --json url
   #
   # This may also work on forks, but you might need to set up some repo secrets first,
   # and I've not tested it.

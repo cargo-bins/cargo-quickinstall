@@ -193,7 +193,7 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         "build_os": build_os,
         "branch": branch,
     }
-    print(f"Attempting to build {crate} {version['vers']} for {queue.target}")
+    print(f"Triggering build of {crate} {version['vers']} for {queue.target}")
     subprocess.run(
         ["gh", "workflow", "run", "build-package.yml", "--json", f"--ref={branch}"],
         input=json.dumps(workflow_run_input).encode(),
