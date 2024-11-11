@@ -28,4 +28,4 @@ jobs:
 
       - uses: ./.github/actions/cronjob-setup
       - name: Trigger tarball builds of cargo-quickinstall
-        run: make recheck
+        run: make recheck-self-only

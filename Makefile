@@ -48,7 +48,7 @@ recheck: cronjob_scripts/.python-deps-updated.timestamp ## build ourself and som
 	RECHECK=1 TARGET_ARCH=all .venv/bin/trigger-package-build
 
 .PHONY: recheck-self-only
-recheck: cronjob_scripts/.python-deps-updated.timestamp ## build ourself on all arches
+recheck-self-only: cronjob_scripts/.python-deps-updated.timestamp ## build ourself on all arches
 	RECHECK=self-only TARGET_ARCH=all .venv/bin/trigger-package-build
 
 .PHONY: trigger-all
