@@ -68,3 +68,4 @@ cargo-info
 ducc-sys
 cargo-dylint
 binstall
+i3status-rs
