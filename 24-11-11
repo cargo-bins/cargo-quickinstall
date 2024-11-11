@@ -6,3 +6,4 @@ deno
 reverse_proxy
 redoxer
 fend
+cargo-embassy
