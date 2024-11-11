@@ -4,3 +4,4 @@ dotenv
 deno
 laminar
 deno
+cargo-lock
