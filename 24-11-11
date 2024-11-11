@@ -22,3 +22,4 @@ llm-lsp
 cargo-embassy
 reverse_proxy
 cargo-embassy
+wmi
