@@ -7,3 +7,4 @@ laminar
 wmi
 cargo-lock
 nexmark
+rkv
