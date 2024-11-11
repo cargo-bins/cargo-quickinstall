@@ -36,3 +36,4 @@ alacritty
 markdown-test-report
 cargo-public-api
 mdcat
+llm-lsp
