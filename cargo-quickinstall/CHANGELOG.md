@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.4](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.3...v0.3.4) - 2024-11-11
+
+### Other
+
+- Bump embed-resource from 2.5.0 to 3.0.1 in the deps group ([#319](https://github.com/cargo-bins/cargo-quickinstall/pull/319))
+
 ## [0.3.3](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.2...v0.3.3) - 2024-11-08
 
 ### Other
