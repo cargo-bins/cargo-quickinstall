@@ -6,3 +6,4 @@ nu_plugin_net
 dotenv
 laminar
 nu_plugin_net
+rustbus
