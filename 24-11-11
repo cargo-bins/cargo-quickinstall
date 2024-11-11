@@ -12,3 +12,4 @@ deno
 cargo-lock
 nexmark
 rkv
+solana-genesis
