@@ -11,3 +11,4 @@ a11ywatch_cli
 re_query
 markdown-test-report
 ducc-sys
+cargo-dylint
