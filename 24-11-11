@@ -18,3 +18,4 @@ argus-cli
 dotenv
 rioterm
 laminar
+llm-lsp
