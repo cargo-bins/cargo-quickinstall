@@ -13,3 +13,4 @@ cargo-lock
 nexmark
 rkv
 solana-genesis
+raw-cpuid
