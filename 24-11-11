@@ -19,3 +19,4 @@ dotenv
 rioterm
 laminar
 llm-lsp
+cargo-embassy
