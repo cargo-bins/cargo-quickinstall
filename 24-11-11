@@ -75,3 +75,4 @@ markdown-test-report
 cargo-info
 ducc-sys
 argus-cli
+llm-lsp
