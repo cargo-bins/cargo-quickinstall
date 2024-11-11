@@ -11,3 +11,4 @@ deno
 deno
 reverse_proxy
 rustdesk
+cargo-embassy
