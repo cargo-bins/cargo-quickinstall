@@ -11,3 +11,4 @@ deploy
 deno
 cargo-lock
 nexmark
+rkv
