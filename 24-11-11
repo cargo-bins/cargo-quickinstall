@@ -7,3 +7,4 @@ wmi
 cargo-lock
 nexmark
 rkv
+solana-cli
