@@ -46,3 +46,4 @@ tendermint-rpc
 salvo-cli
 human_bytes
 salvo-cli
+winpty-rs
