@@ -17,3 +17,4 @@ mit-prepare-commit-msg
 cargo-tarpaulin
 cargo-c
 nexmark
+spider_cli
