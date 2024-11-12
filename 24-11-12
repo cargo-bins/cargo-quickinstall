@@ -9,3 +9,4 @@ cargo-generate
 dotenvy
 human_name
 dotenv
+spider_cli
