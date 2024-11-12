@@ -6,3 +6,4 @@ cargo-local-registry
 protox
 nkeys
 git-mit
+mit-pre-commit
