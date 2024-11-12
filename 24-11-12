@@ -36,3 +36,4 @@ nexmark
 spider_cli
 ruff
 solana-validator
+rustfmt-nightly
