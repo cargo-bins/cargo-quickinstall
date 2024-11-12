@@ -6,3 +6,4 @@ probe-rs-cli
 binstall
 nextsv
 mise
+cargo-embed
