@@ -20,3 +20,4 @@ rustfmt-nightly
 rkv
 unic-langid-impl
 tendermint-rpc
+solana-gossip
