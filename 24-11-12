@@ -28,3 +28,4 @@ tendermint-rpc
 sccache
 solana-gossip
 human_bytes
+winpty-rs
