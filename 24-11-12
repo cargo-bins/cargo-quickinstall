@@ -30,3 +30,4 @@ i3status-rs
 cargo-ktra-login
 nexmark
 spider_cli
+unic-langid-impl
