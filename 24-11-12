@@ -28,3 +28,4 @@ cargo-embed
 rkv
 tendermint-rpc
 human_bytes
+atuin
