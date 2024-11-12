@@ -17,3 +17,4 @@ spider_cli
 unic-langid-impl
 solana-validator
 rustfmt-nightly
+rkv
