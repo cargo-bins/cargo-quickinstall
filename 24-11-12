@@ -19,3 +19,4 @@ rustfmt-nightly
 mise
 cargo-embed
 binstall
+cargo-embed
