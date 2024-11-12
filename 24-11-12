@@ -11,3 +11,4 @@ human_name
 dotenv
 spider_cli
 cargo-tarpaulin
+cargo-c
