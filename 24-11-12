@@ -9,3 +9,4 @@ rav1e
 typst-cli
 sniffnet
 codeberg-cli
+winpty-rs
