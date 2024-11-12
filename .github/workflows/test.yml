@@ -56,7 +56,8 @@ jobs:
         run: cargo clippy --all-targets --all-features -- -D warnings
 
       - name: Run cargo clippy for stats-server project
-        run: (cd stats-server && cargo clippy --all-targets --all-features -- -D warnings)
+        run: cargo clippy --all-targets --all-features -- -D warnings
+        working-directory: stats-server
 
       - name: Run cargo test
         run: cargo test
