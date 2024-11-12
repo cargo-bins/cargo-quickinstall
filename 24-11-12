@@ -43,3 +43,4 @@ ruff
 clipboard-history
 clipboard-history
 tendermint-rpc
+salvo-cli
