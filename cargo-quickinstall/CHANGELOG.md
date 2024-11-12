@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.5](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.4...v0.3.5) - 2024-11-12
+
+### Other
+
+- Squash warning after embed-resource version bump; enable clippy in ci ([#321](https://github.com/cargo-bins/cargo-quickinstall/pull/321))
+
 ## [0.3.4](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.3...v0.3.4) - 2024-11-11
 
 ### Other
