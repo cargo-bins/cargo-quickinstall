@@ -1,3 +1,4 @@
 mit-pre-commit
 rav1e
 winpty-rs
+cargo-local-registry
