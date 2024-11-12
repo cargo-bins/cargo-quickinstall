@@ -45,3 +45,4 @@ clipboard-history
 tendermint-rpc
 salvo-cli
 human_bytes
+salvo-cli
