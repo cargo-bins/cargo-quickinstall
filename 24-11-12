@@ -16,3 +16,4 @@ probe-rs-cli
 nextsv
 solana-validator
 rustfmt-nightly
+mise
