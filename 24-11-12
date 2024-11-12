@@ -31,3 +31,4 @@ tendermint-rpc
 papyrus
 binstall
 human_bytes
+winpty-rs
