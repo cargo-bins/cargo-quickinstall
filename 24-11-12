@@ -12,3 +12,4 @@ probe-rs-cli
 rustrict
 dotenv
 cargo-embed
+probe-rs-cli
