@@ -13,3 +13,4 @@ rav1e
 winpty-rs
 raw-cpuid
 protox
+cargo-generate
