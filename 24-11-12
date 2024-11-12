@@ -11,3 +11,4 @@ cargo-embed
 rg
 dotenvy
 probe-rs-cli
+rg
