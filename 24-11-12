@@ -18,3 +18,4 @@ codeberg-cli
 dotenv
 clipboard-history
 cargo-ktra-login
+prs-gtk3
