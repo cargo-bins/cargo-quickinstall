@@ -18,3 +18,4 @@ solana-validator
 rustfmt-nightly
 rkv
 unic-langid-impl
+mit-pre-commit
