@@ -3,3 +3,4 @@ cargo-local-registry
 protox
 papyrus_storage
 git-mit
+cargo-udeps
