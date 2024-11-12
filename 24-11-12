@@ -13,3 +13,4 @@ spider_cli
 cargo-tarpaulin
 cargo-c
 nexmark
+spider_cli
