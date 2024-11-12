@@ -52,6 +52,13 @@ jobs:
       - name: Fetch tags required for testing
         run: git fetch --tags
 
+      - name: Run cargo clippy for client project
+        run: cargo clippy --all-targets --all-features -- -D warnings
+
+      - name: Run cargo clippy for stats-server project
+        run: cargo clippy --all-targets --all-features -- -D warnings
+        working-directory: stats-server
+
       - name: Run cargo test
         run: cargo test
 
