@@ -27,3 +27,4 @@ cargo-embed
 nextsv
 binstall
 mise
+tendermint-rpc
