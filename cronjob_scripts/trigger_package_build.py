@@ -13,7 +13,6 @@ import random
 import subprocess
 import sys
 import time
-from typing import cast
 
 from cronjob_scripts.types import CrateAndMaybeVersion, CrateAndVersion, GithubAsset
 from cronjob_scripts.architectures import get_build_os, get_target_architectures
@@ -83,6 +82,17 @@ def main():
     random.shuffle(popular_crates)
 
     for target in targets:
+        recheck_crate = os.environ.get("RECHECK_ONLY")
+        if recheck_crate:
+            queues.append(
+                QueueInfo(
+                    type="recheck",
+                    target=target,
+                    queue=[CrateAndMaybeVersion(crate=recheck_crate, version=None)],
+                )
+            )
+            continue
+
         tracking_worktree_path = checkout_worktree_for_target(target)
         excluded = get_excluded(tracking_worktree_path, days=7, max_failures=5)
 
@@ -111,15 +121,6 @@ def main():
                 queue=without_excluded(popular_crates, excluded),
             )
         )
-
-        if os.environ.get("RECHECK"):
-            queues.append(
-                QueueInfo(
-                    type="self",
-                    target=target,
-                    queue=[cast(CrateAndMaybeVersion, {"crate": "cargo-quickinstall"})],
-                )
-            )
 
     print("Queues:")
     for queue in queues:
@@ -151,7 +152,7 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         return False
     crate_and_maybe_version = queue.queue[index]
     print(
-        f"Triggering '{queue.type}' build for {queue.target}: {crate_and_maybe_version}"
+        f"Checking build for {queue.target} '{queue.type}': {crate_and_maybe_version}"
     )
     crate = crate_and_maybe_version["crate"]
     requested_version = crate_and_maybe_version.get("version")
@@ -190,7 +191,7 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         "build_os": build_os,
         "branch": branch,
     }
-    print(f"Attempting to build {crate} {version['vers']} for {queue.target}")
+    print(f"Triggering build of {crate} {version['vers']} for {queue.target}")
     subprocess.run(
         ["gh", "workflow", "run", "build-package.yml", "--json", f"--ref={branch}"],
         input=json.dumps(workflow_run_input).encode(),

@@ -25,27 +25,27 @@ cronjob_scripts/.python-deps-updated.timestamp: pyproject.toml .venv/bin/python
 
 .PHONY: windows
 windows: cronjob_scripts/.python-deps-updated.timestamp ## trigger a windows build
-	RECHECK=1 TARGET_ARCH=x86_64-pc-windows-msvc .venv/bin/trigger-package-build
+	TARGET_ARCH=x86_64-pc-windows-msvc .venv/bin/trigger-package-build
 
 .PHONY: mac
 mac: cronjob_scripts/.python-deps-updated.timestamp ## trigger a mac build
-	RECHECK=1 TARGET_ARCH=x86_64-apple-darwin .venv/bin/trigger-package-build
+	TARGET_ARCH=x86_64-apple-darwin .venv/bin/trigger-package-build
 
 .PHONY: m1
 m1: cronjob_scripts/.python-deps-updated.timestamp ## trigger a mac m1 build
-	RECHECK=1 TARGET_ARCH=aarch64-apple-darwin .venv/bin/trigger-package-build
+	TARGET_ARCH=aarch64-apple-darwin .venv/bin/trigger-package-build
 
 .PHONY: linux
 linux: cronjob_scripts/.python-deps-updated.timestamp ## trigger a linux build
-	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-gnu .venv/bin/trigger-package-build
+	TARGET_ARCH=x86_64-unknown-linux-gnu .venv/bin/trigger-package-build
 
 .PHONY: linux-musl
 linux-musl: cronjob_scripts/.python-deps-updated.timestamp ## trigger a musl libc-based linux build
-	RECHECK=1 TARGET_ARCH=x86_64-unknown-linux-musl .venv/bin/trigger-package-build
+	TARGET_ARCH=x86_64-unknown-linux-musl .venv/bin/trigger-package-build
 
-.PHONY: recheck
-recheck: cronjob_scripts/.python-deps-updated.timestamp ## build ourself and some random packages on all arches
-	RECHECK=1 TARGET_ARCH=all .venv/bin/trigger-package-build
+.PHONY: recheck-self-only
+recheck-self-only: cronjob_scripts/.python-deps-updated.timestamp ## build ourself on all arches
+	RECHECK_ONLY=cargo-quickinstall TARGET_ARCH=all .venv/bin/trigger-package-build
 
 .PHONY: trigger-all
 trigger-all: cronjob_scripts/.python-deps-updated.timestamp ## build some random packages on all arches
