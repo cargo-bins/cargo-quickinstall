@@ -6,3 +6,4 @@ probe-rs-cli
 rustfmt-nightly
 cargo-embed
 rg
+nkeys
