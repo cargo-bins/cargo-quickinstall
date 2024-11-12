@@ -17,3 +17,4 @@ nextsv
 solana-validator
 rustfmt-nightly
 mise
+cargo-embed
