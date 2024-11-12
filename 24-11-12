@@ -13,3 +13,4 @@ dotenvy
 probe-rs-cli
 rg
 rustrict
+cargo-embed
