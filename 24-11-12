@@ -26,3 +26,4 @@ unic-langid-impl
 mit-pre-commit
 tendermint-rpc
 sccache
+solana-gossip
