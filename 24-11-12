@@ -16,3 +16,4 @@ nexmark
 unic-langid-impl
 solana-validator
 rustfmt-nightly
+rkv
