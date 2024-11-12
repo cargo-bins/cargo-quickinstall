@@ -26,3 +26,4 @@ prs-gtk3
 rustrict
 clipboard-history
 human_name
+dotenv
