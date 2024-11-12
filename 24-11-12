@@ -39,3 +39,4 @@ solana-validator
 rustfmt-nightly
 aura-pm
 lan-mouse
+cargo-info
