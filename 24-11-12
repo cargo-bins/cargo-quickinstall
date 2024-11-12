@@ -53,3 +53,4 @@ qsv
 solana-gossip
 aura-pm
 human_bytes
+winpty-rs
