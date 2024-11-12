@@ -5,3 +5,4 @@ dotenv
 nexmark
 spider_cli
 solana-validator
+rustfmt-nightly
