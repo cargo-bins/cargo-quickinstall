@@ -43,3 +43,4 @@ cargo-info
 ruff
 aura-pm
 solana-cli
+mdbook-plantuml
