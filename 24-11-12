@@ -27,3 +27,4 @@ probe-rs-cli
 cargo-embed
 rkv
 tendermint-rpc
+human_bytes
