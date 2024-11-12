@@ -20,3 +20,4 @@ papyrus_storage
 coinlive
 sqlx-cli
 rustrict
+dotenv
