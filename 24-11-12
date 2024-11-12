@@ -12,3 +12,4 @@ dotenv
 spider_cli
 cargo-tarpaulin
 cargo-c
+nexmark
