@@ -7,3 +7,4 @@ rustfmt-nightly
 cargo-embed
 rg
 nkeys
+cargo-embed
