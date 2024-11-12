@@ -13,3 +13,4 @@ typst-cli
 cargo-ktra-login
 sccache
 codeberg-cli
+i3status-rs
