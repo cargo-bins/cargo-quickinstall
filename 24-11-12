@@ -20,3 +20,4 @@ rkv
 unic-langid-impl
 mit-pre-commit
 tendermint-rpc
+solana-gossip
