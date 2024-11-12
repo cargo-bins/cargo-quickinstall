@@ -19,3 +19,4 @@ solana-validator
 rustfmt-nightly
 rkv
 unic-langid-impl
+tendermint-rpc
