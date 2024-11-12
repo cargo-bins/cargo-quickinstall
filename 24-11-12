@@ -22,3 +22,4 @@ unic-langid-impl
 tendermint-rpc
 solana-gossip
 human_bytes
+winpty-rs
