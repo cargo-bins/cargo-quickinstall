@@ -19,3 +19,4 @@ cargo-c
 nexmark
 spider_cli
 unic-langid-impl
+solana-validator
