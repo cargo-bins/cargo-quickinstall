@@ -11,3 +11,4 @@ cargo-udeps
 librespot
 dotenvy
 rustrict
+dotenv
