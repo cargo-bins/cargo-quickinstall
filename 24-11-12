@@ -22,3 +22,4 @@ unic-langid-impl
 solana-validator
 rg
 cargo-embed
+probe-rs-cli
