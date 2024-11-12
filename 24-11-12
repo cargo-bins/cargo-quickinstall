@@ -13,3 +13,4 @@ rustrict
 dotenv
 cargo-embed
 probe-rs-cli
+nextsv
