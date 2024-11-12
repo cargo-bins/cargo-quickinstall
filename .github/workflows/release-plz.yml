@@ -30,4 +30,4 @@ jobs:
       - name: Trigger tarball builds of cargo-quickinstall
         run: make recheck-self-only
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
