@@ -15,3 +15,4 @@ mit-prepare-commit-msg
 nexmark
 unic-langid-impl
 solana-validator
+rustfmt-nightly
