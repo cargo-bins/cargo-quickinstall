@@ -12,3 +12,4 @@ rav1e
 typst-cli
 cargo-ktra-login
 sccache
+codeberg-cli
