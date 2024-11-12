@@ -3,3 +3,4 @@ termusic
 winpty-rs
 protox
 probe-rs-cli
+rustfmt-nightly
