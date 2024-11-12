@@ -13,3 +13,4 @@ winpty-rs
 nu
 tree-sitter-cli
 protox
+rustfmt-nightly
