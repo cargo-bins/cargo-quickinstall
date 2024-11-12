@@ -14,3 +14,4 @@ dotenv
 cargo-embed
 probe-rs-cli
 nextsv
+solana-validator
