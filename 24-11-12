@@ -27,3 +27,4 @@ mit-pre-commit
 tendermint-rpc
 sccache
 solana-gossip
+human_bytes
