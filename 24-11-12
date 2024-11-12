@@ -22,3 +22,4 @@ sqlx-cli
 rustrict
 dotenv
 mit-prepare-commit-msg
+cargo-generate
