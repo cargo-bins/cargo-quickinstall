@@ -6,3 +6,4 @@ git-mit
 cargo-udeps
 librespot
 cargo-generate
+dotenvy
