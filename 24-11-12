@@ -26,3 +26,4 @@ probe-rs-cli
 probe-rs-cli
 cargo-embed
 rkv
+tendermint-rpc
