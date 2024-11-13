@@ -3,3 +3,4 @@ py-spy
 cargo-lock
 librespot
 pgrx-tests
+tendermint-rpc
