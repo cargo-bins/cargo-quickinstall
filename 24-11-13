@@ -20,3 +20,4 @@ sea-orm-cli
 rustrict
 cargo-tarpaulin
 tree-sitter-graph
+sea-orm-cli
