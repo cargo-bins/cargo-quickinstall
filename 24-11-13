@@ -11,3 +11,4 @@ pgrx-tests
 deno
 tree-sitter-cli
 youtube-tui
+ducc-sys
