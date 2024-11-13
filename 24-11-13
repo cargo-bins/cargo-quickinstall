@@ -19,3 +19,4 @@ solana-gossip
 watchexec-cli
 solana-validator
 pwasm-utils
+unic-langid-impl
