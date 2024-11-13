@@ -21,3 +21,4 @@ ruff
 diesel_cli
 laminar
 salvo-cli
+shlf
