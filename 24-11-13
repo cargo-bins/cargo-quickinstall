@@ -31,3 +31,4 @@ nu_plugin_query
 nu
 opencv-binding-generator
 tod
+nu_plugin_gstat
