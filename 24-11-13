@@ -19,3 +19,4 @@ unic-langid-impl
 sea-orm-cli
 rustrict
 cargo-tarpaulin
+tree-sitter-graph
