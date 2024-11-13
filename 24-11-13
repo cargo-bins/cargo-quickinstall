@@ -4,3 +4,4 @@ phf_generator
 trunk
 youtube-tui
 cargo-lock
+clipboard-history
