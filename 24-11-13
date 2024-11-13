@@ -12,3 +12,4 @@ solana-validator
 pwasm-utils
 unic-langid-impl
 rustrict
+tree-sitter-graph
