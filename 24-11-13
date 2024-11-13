@@ -4,3 +4,4 @@ cargo-lock
 pgrx-tests
 atuin
 protox
+diesel_cli
