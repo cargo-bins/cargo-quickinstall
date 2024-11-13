@@ -14,3 +14,4 @@ git-mit-relates-to
 evcxr_repl
 diesel_cli
 laminar
+opencv-binding-generator
