@@ -17,3 +17,4 @@ laminar
 opencv-binding-generator
 solana-gossip
 watchexec-cli
+solana-validator
