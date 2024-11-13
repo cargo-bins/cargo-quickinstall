@@ -16,3 +16,4 @@ diesel_cli
 laminar
 opencv-binding-generator
 solana-gossip
+watchexec-cli
