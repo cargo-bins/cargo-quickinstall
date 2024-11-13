@@ -18,3 +18,4 @@ opencv-binding-generator
 solana-gossip
 watchexec-cli
 solana-validator
+pwasm-utils
