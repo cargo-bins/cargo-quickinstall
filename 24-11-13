@@ -8,3 +8,4 @@ starship
 apollo-router
 pwasm-utils
 unic-langid-impl
+sea-orm-cli
