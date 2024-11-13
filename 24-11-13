@@ -2,3 +2,4 @@ phf_generator
 cargo-lock
 rustrict
 sn_node
+pgrx-tests
