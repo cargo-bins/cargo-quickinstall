@@ -11,3 +11,4 @@ evcxr_repl
 diesel_cli
 papyrus_storage
 laminar
+opencv-binding-generator
