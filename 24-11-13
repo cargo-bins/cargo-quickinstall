@@ -5,3 +5,4 @@ diesel_cli
 papyrus_storage
 laminar
 starship
+apollo-router
