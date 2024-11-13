@@ -2,3 +2,4 @@ phf_generator
 py-spy
 cargo-lock
 librespot
+pgrx-tests
