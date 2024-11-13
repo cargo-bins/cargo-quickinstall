@@ -15,3 +15,4 @@ opencv-binding-generator
 exa
 apollo-router
 solana-gossip
+pwasm-utils
