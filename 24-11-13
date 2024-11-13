@@ -14,3 +14,4 @@ laminar
 opencv-binding-generator
 apollo-router
 solana-validator
+pwasm-utils
