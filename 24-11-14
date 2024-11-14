@@ -4,3 +4,4 @@ cached-path
 borsh
 opencv-binding-generator
 pwasm-utils
+textplots
