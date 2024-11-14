@@ -17,3 +17,4 @@ rmesg
 coldsnap
 rkv
 tokio-process
+mit-prepare-commit-msg
