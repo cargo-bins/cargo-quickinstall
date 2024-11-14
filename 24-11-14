@@ -8,3 +8,4 @@ clippy
 wmi
 human_bytes
 phf_generator
+rkv
