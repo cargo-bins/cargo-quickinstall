@@ -3,3 +3,4 @@ skim
 cached-path
 dotenv
 opencv-binding-generator
+pwasm-utils
