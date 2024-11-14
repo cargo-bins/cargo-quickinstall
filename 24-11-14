@@ -9,3 +9,4 @@ sqlx-cli
 cargo-crev
 human_bytes
 solana-gossip
+winpty-rs
