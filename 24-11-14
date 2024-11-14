@@ -2,3 +2,4 @@ cargo-udeps
 cached-path
 borsh
 watchexec-cli
+opencv-binding-generator
