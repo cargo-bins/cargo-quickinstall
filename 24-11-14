@@ -63,3 +63,4 @@ cargo-pgrx
 textplots
 phf_generator
 cargo-altvup
+twitch-tui
