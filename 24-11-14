@@ -11,3 +11,4 @@ shlf
 opencv-binding-generator
 dotenv
 alacritty
+pwasm-utils
