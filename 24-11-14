@@ -16,3 +16,4 @@ nu_plugin_gstat
 winpty-rs
 phf_generator
 opencv-binding-generator
+rkv
