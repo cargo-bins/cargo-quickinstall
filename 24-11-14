@@ -10,3 +10,4 @@ nu_plugin_gstat
 borsh
 opencv-binding-generator
 wmi
+human_bytes
