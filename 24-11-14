@@ -46,3 +46,4 @@ phf_generator
 nu_plugin_query
 ego
 cargo-pgrx
+mdbook-plantuml
