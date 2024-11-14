@@ -44,3 +44,4 @@ cargo-embed
 a11ywatch_cli
 phf_generator
 nu_plugin_query
+ego
