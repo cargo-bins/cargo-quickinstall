@@ -11,3 +11,4 @@ human_bytes
 solana-gossip
 winpty-rs
 mit-pre-commit
+rmesg
