@@ -25,3 +25,4 @@ a11ywatch_cli
 tree-sitter-cli
 nexmark
 opencv-binding-generator
+phf_generator
