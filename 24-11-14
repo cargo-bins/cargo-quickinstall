@@ -3,3 +3,4 @@ borsh
 hurl
 opencv-binding-generator
 dotenv
+diesel_cli
