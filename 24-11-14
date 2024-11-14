@@ -18,3 +18,4 @@ coldsnap
 rkv
 tokio-process
 mit-prepare-commit-msg
+phf_generator
