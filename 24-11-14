@@ -16,3 +16,4 @@ shlf
 ncspot
 nu_plugin_plotters
 elf2uf2-rs
+nu_plugin_query
