@@ -12,3 +12,4 @@ borsh
 pwasm-utils
 human_bytes
 solana-gossip
+mit-pre-commit
