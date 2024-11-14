@@ -21,3 +21,4 @@ cargo-outdated
 cargo-outdated
 opencv-binding-generator
 tauri-cli
+rkv
