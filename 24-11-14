@@ -2,3 +2,4 @@ cached-path
 borsh
 hurl
 opencv-binding-generator
+dotenv
