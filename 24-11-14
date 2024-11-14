@@ -11,3 +11,4 @@ sn_node
 borsh
 pwasm-utils
 human_bytes
+solana-gossip
