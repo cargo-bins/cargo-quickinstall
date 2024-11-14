@@ -3,3 +3,4 @@ cargo-pgrx
 graphql_client_cli
 sea-orm-cli
 mdcat
+cached-path
