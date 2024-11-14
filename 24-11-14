@@ -6,3 +6,4 @@ laminar
 borsh
 clippy
 wmi
+human_bytes
