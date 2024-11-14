@@ -10,3 +10,4 @@ trunk
 sn_node
 borsh
 pwasm-utils
+human_bytes
