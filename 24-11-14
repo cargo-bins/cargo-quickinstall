@@ -1,2 +1,3 @@
 rls-rustc
 cargo-udeps
+cached-path
