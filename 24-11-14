@@ -69,3 +69,4 @@ psvm
 psvm
 cargo-embed
 typst-cli
+phf_generator
