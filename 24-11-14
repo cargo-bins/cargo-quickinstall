@@ -10,3 +10,4 @@ nu_plugin_plotters
 simple-http-server
 opencv-binding-generator
 container-registry
+pwasm-utils
