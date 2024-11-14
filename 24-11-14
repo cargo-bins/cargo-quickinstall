@@ -13,3 +13,4 @@ winpty-rs
 mit-pre-commit
 rmesg
 nexmark
+coldsnap
