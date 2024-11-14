@@ -20,3 +20,4 @@ phf_generator
 cargo-outdated
 cargo-outdated
 opencv-binding-generator
+tauri-cli
