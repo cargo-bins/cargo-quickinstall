@@ -4,3 +4,4 @@ mdcat
 tree-sitter-cli
 tree-sitter-cli
 container-registry
+cached-path
