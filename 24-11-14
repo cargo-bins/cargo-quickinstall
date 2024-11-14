@@ -19,3 +19,4 @@ elf2uf2-rs
 nu_plugin_query
 container-registry
 trunk
+nu_plugin_plotters
