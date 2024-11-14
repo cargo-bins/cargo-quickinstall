@@ -14,3 +14,4 @@ human_bytes
 socketcan
 solana-gossip
 nu
+winpty-rs
