@@ -9,3 +9,4 @@ laminar
 trunk
 sn_node
 borsh
+pwasm-utils
