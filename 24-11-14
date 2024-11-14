@@ -24,3 +24,4 @@ elf2uf2-rs
 cargo-pgrx
 pwasm-utils
 wmi
+wl-screenrec
