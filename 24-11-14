@@ -11,3 +11,4 @@ opencv-binding-generator
 wmi
 nu
 human_bytes
+socketcan
