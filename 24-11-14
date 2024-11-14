@@ -5,3 +5,4 @@ sea-orm-cli
 mdcat
 cached-path
 borsh
+nu_plugin_plotters
