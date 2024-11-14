@@ -7,3 +7,4 @@ diesel_cli
 hurl
 pwasm-utils
 textplots
+graphql_client_cli
