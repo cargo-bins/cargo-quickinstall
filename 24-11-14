@@ -5,3 +5,4 @@ pwasm-utils
 textplots
 borsh
 opencv-binding-generator
+wmi
