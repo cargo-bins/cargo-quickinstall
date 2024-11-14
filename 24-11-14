@@ -5,3 +5,4 @@ opencv-binding-generator
 dotenv
 diesel_cli
 hurl
+pwasm-utils
