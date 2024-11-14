@@ -16,3 +16,4 @@ mit-pre-commit
 rmesg
 coldsnap
 rkv
+tokio-process
