@@ -21,3 +21,4 @@ container-registry
 trunk
 nu_plugin_plotters
 elf2uf2-rs
+cargo-pgrx
