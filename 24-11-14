@@ -8,3 +8,4 @@ trunk
 sqlx-cli
 cargo-crev
 human_bytes
+solana-gossip
