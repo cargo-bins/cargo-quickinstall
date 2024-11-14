@@ -16,3 +16,4 @@ pwasm-utils
 opencv-binding-generator
 wmi
 tree-sitter-cli
+human_bytes
