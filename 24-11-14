@@ -3,3 +3,4 @@ cargo-udeps
 cached-path
 borsh
 opencv-binding-generator
+pwasm-utils
