@@ -15,3 +15,4 @@ nu
 mit-pre-commit
 a11ywatch_cli
 cargo-outdated
+opencv-binding-generator
