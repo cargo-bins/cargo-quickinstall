@@ -6,3 +6,4 @@ binstall
 nitidus
 trunk
 sqlx-cli
+cargo-crev
