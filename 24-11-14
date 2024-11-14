@@ -12,3 +12,4 @@ opencv-binding-generator
 container-registry
 pwasm-utils
 textplots
+shlf
