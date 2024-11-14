@@ -1,3 +1,4 @@
 cargo-udeps
 cached-path
 borsh
+watchexec-cli
