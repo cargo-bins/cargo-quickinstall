@@ -63,3 +63,4 @@ ripunzip
 container-registry
 cargo-embed
 dedoc
+cargo-pgrx
