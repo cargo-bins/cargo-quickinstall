@@ -19,3 +19,4 @@ opencv-binding-generator
 tauri-cli
 rkv
 mit-prepare-commit-msg
+phf_generator
