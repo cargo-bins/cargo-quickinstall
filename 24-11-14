@@ -3,3 +3,4 @@ opencv-binding-generator
 dotenv
 pwasm-utils
 textplots
+borsh
