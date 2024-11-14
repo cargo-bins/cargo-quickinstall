@@ -3,3 +3,4 @@ cached-path
 borsh
 watchexec-cli
 opencv-binding-generator
+pwasm-utils
