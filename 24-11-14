@@ -16,3 +16,4 @@ solana-gossip
 nu
 winpty-rs
 mit-pre-commit
+phf_generator
