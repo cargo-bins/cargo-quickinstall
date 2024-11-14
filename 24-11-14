@@ -8,3 +8,4 @@ borsh
 nu_plugin_plotters
 nu_plugin_plotters
 simple-http-server
+opencv-binding-generator
