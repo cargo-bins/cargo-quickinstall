@@ -7,3 +7,4 @@ nitidus
 trunk
 sqlx-cli
 cargo-crev
+human_bytes
