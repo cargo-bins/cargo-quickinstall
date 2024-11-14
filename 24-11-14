@@ -14,3 +14,4 @@ solana-gossip
 nu
 mit-pre-commit
 a11ywatch_cli
+cargo-outdated
