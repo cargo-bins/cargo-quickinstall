@@ -6,3 +6,4 @@ dotenv
 diesel_cli
 hurl
 pwasm-utils
+textplots
