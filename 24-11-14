@@ -2,3 +2,4 @@ cached-path
 borsh
 dotenv
 opencv-binding-generator
+pwasm-utils
