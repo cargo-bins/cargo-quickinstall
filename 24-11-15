@@ -16,3 +16,4 @@ re_query
 solana-tokens
 cargo-udeps
 foundationdb-gen
+sccache
