@@ -38,3 +38,4 @@ clippy
 neomake
 foundationdb-gen
 skim
+usage-cli
