@@ -4,3 +4,4 @@ syd
 mit-prepare-commit-msg
 mit-pre-commit
 cpp_demangle
+honggfuzz
