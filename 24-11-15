@@ -52,3 +52,4 @@ binwalk
 typst-cli
 tectonic
 foundationdb-gen
+lifecycler
