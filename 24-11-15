@@ -8,3 +8,4 @@ honggfuzz
 paperclip
 cargo-vet
 solana-validator
+ducc-sys
