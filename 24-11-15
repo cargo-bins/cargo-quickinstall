@@ -36,3 +36,4 @@ snakepipe
 cargo-show
 clippy
 neomake
+foundationdb-gen
