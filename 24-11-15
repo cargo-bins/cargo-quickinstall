@@ -12,3 +12,4 @@ ducc-sys
 clippy
 solana-tokens
 cargo-udeps
+foundationdb-gen
