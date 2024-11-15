@@ -14,3 +14,4 @@ sn_node
 ec2_instance_metadata
 clippy
 foundationdb-gen
+tokio-process
