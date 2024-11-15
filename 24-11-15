@@ -19,3 +19,4 @@ foundationdb-gen
 sccache
 librespot
 cargo-local-registry
+solana-keygen
