@@ -15,3 +15,4 @@ rls-rustc
 clippy
 re_query
 solana-tokens
+foundationdb-gen
