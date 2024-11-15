@@ -10,3 +10,4 @@ cargo-vet
 solana-validator
 ducc-sys
 trunk
+sn_node
