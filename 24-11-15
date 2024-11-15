@@ -47,3 +47,4 @@ usage-cli
 neomake
 cargo-local-registry
 usage-cli
+cargo-local-registry
