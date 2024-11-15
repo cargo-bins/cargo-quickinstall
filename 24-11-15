@@ -46,3 +46,4 @@ rtx-cli
 usage-cli
 neomake
 cargo-local-registry
+usage-cli
