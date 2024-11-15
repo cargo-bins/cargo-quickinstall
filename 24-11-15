@@ -34,3 +34,4 @@ snekgame
 rls-rustc
 snakepipe
 cargo-show
+clippy
