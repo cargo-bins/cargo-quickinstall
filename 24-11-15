@@ -11,3 +11,4 @@ dbus-codegen
 ducc-sys
 clippy
 solana-tokens
+cargo-udeps
