@@ -35,3 +35,4 @@ rls-rustc
 snakepipe
 cargo-show
 clippy
+neomake
