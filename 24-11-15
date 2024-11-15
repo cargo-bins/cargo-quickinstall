@@ -6,3 +6,4 @@ mit-pre-commit
 cpp_demangle
 solana-keygen
 paperclip
+clippy
