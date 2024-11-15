@@ -2,3 +2,4 @@ laminar
 git-disjoint
 tree-sitter-cli
 syd
+cpp_demangle
