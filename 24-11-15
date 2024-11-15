@@ -45,3 +45,4 @@ usage-cli
 rtx-cli
 usage-cli
 neomake
+cargo-local-registry
