@@ -11,3 +11,4 @@ solana-validator
 ducc-sys
 trunk
 sn_node
+ec2_instance_metadata
