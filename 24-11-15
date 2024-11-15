@@ -39,3 +39,4 @@ neomake
 foundationdb-gen
 skim
 usage-cli
+rtx-cli
