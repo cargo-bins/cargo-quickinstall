@@ -32,3 +32,4 @@ cargo-show
 diesel_cli
 snekgame
 rls-rustc
+snakepipe
