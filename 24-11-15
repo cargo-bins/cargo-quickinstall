@@ -8,3 +8,4 @@ paperclip
 solana-tokens
 solana-validator
 dbus-codegen
+ducc-sys
