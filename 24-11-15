@@ -26,3 +26,4 @@ cargo-embed
 cargo-near
 plastic_tui
 dbus-codegen
+twitch-tui
