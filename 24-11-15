@@ -11,3 +11,4 @@ solana-tokens
 solana-validator
 dbus-codegen
 trunk
+rls-rustc
