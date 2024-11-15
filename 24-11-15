@@ -14,3 +14,4 @@ ducc-sys
 clippy
 re_query
 solana-tokens
+cargo-udeps
