@@ -39,3 +39,4 @@ ruff
 sea-orm-cli
 binwalk
 rls-rustc
+typst-cli
