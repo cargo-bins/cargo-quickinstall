@@ -13,3 +13,4 @@ dbus-codegen
 trunk
 rls-rustc
 clippy
+re_query
