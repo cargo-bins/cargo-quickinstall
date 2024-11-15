@@ -36,3 +36,4 @@ binwalk
 cargo-near
 plastic_tui
 ruff
+sea-orm-cli
