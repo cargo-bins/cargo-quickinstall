@@ -9,3 +9,4 @@ clippy
 rustfmt-nightly
 rsflex
 simple-http-server
+mdbook-plantuml
