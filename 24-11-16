@@ -5,3 +5,4 @@ solana-net-utils
 perfcnt
 cargo-about
 sqlx-cli
+wmi
