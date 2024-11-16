@@ -4,3 +4,4 @@ librespot
 cargo-public-api
 sea-orm-cli
 solana-net-utils
+dwm-status
