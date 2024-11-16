@@ -19,3 +19,4 @@ rustfmt-nightly
 mit-prepare-commit-msg
 cargo-local-registry
 neomake
+git-mit-config
