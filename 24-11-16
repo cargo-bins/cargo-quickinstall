@@ -6,3 +6,4 @@ perfcnt
 rustfmt-nightly
 sqlx-cli
 benfred-read-process-memory
+rustbus
