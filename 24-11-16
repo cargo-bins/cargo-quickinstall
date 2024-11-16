@@ -3,3 +3,4 @@ sha1collisiondetection
 solana-net-utils
 solana-net-utils
 perfcnt
+rustfmt-nightly
