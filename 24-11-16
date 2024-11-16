@@ -39,3 +39,4 @@ simple-http-server
 cargo-dylint
 rustfmt-nightly
 dwm-status
+adof
