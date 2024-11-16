@@ -19,3 +19,4 @@ rustfmt-nightly
 mit-prepare-commit-msg
 git-mit-config
 solana-keygen
+sccache
