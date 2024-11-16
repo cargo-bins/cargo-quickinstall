@@ -6,3 +6,4 @@ sea-orm-cli
 solana-net-utils
 dwm-status
 clippy
+rustfmt-nightly
