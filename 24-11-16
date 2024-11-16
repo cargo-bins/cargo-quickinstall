@@ -8,3 +8,4 @@ cargo-public-api
 solana-net-utils
 rsflex
 clippy
+tree-sitter-cli
