@@ -16,3 +16,4 @@ git-mit-relates-to
 git-mit-install
 cargo-local-registry
 rustfmt-nightly
+mit-prepare-commit-msg
