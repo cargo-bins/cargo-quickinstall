@@ -10,3 +10,4 @@ solana-tokens
 cargo-udeps
 stellar-strkey
 cargo-generate
+racer
