@@ -17,3 +17,4 @@ solana-cli
 ec2_instance_metadata
 git-mit-relates-to
 git-mit-install
+rustfmt-nightly
