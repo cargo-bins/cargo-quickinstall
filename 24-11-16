@@ -4,3 +4,4 @@ solana-net-utils
 perfcnt
 rustfmt-nightly
 wmi
+stellar-strkey
