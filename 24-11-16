@@ -17,3 +17,4 @@ git-mit-install
 cargo-local-registry
 rustfmt-nightly
 mit-prepare-commit-msg
+cargo-local-registry
