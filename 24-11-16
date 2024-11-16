@@ -19,3 +19,4 @@ clippy
 simple-http-server
 stellar-strkey
 hurl
+cargo-near
