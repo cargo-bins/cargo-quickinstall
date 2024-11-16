@@ -10,3 +10,4 @@ rsflex
 clippy
 tree-sitter-cli
 sea-orm-cli
+pcu
