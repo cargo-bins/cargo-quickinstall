@@ -7,3 +7,4 @@ wmi
 stellar-strkey
 racer
 nexmark
+rustfmt-nightly
