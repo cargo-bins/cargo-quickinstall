@@ -2,3 +2,4 @@ socketcan
 solana-net-utils
 cargo-local-registry
 solana-net-utils
+perfcnt
