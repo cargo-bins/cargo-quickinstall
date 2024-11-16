@@ -37,3 +37,4 @@ spotify_player
 librespot
 simple-http-server
 cargo-dylint
+rustfmt-nightly
