@@ -20,3 +20,4 @@ mit-prepare-commit-msg
 cargo-local-registry
 neomake
 git-mit-config
+papyrus_storage
