@@ -18,3 +18,4 @@ solana-cli
 librespot
 rustfmt-nightly
 solana-keygen
+spider_worker
