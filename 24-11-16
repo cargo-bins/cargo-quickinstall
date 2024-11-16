@@ -9,3 +9,4 @@ benfred-read-process-memory
 rustbus
 solana-tokens
 stellar-strkey
+cargo-generate
