@@ -2,3 +2,4 @@ socketcan
 clippy
 librespot
 cargo-public-api
+sea-orm-cli
