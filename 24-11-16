@@ -30,3 +30,4 @@ cargo-spellcheck
 lifecycler
 nexmark
 cargo-dylint
+solana-cli
