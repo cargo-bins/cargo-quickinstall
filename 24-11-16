@@ -9,3 +9,4 @@ solana-net-utils
 rsflex
 clippy
 tree-sitter-cli
+sea-orm-cli
