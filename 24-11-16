@@ -8,3 +8,4 @@ sqlx-cli
 wmi
 solana-tokens
 cargo-udeps
+cargo-generate
