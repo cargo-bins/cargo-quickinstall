@@ -20,3 +20,4 @@ rustfmt-nightly
 solana-keygen
 spider_worker
 wmi
+dotenvy
