@@ -11,3 +11,4 @@ cargo-udeps
 stellar-strkey
 cargo-generate
 racer
+deno
