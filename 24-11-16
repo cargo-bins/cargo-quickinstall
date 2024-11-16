@@ -11,3 +11,4 @@ rustfmt-nightly
 kind2
 wmi
 dotenvy
+nkeys
