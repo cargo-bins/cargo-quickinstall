@@ -44,3 +44,4 @@ librespot
 clippy
 cce
 lifecycler
+rustfmt-nightly
