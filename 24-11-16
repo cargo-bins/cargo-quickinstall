@@ -5,3 +5,4 @@ solana-net-utils
 perfcnt
 rustbus
 solana-tokens
+human_bytes
