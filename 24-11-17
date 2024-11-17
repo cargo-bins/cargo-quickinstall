@@ -19,3 +19,4 @@ cargo-lock
 pgrx-tests
 httpmock
 dua-cli
+rustfmt-nightly
