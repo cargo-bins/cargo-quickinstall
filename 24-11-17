@@ -4,3 +4,4 @@ tendermint-rpc
 deno
 trunk
 diesel_cli
+perfcnt
