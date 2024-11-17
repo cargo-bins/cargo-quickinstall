@@ -16,3 +16,4 @@ httpmock
 trunk
 nkeys
 zuse
+rustfmt-nightly
