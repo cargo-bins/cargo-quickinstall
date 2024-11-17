@@ -16,3 +16,4 @@ rls-rustc
 alacritty
 atuin
 openai-cli
+cargo-spellcheck
