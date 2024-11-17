@@ -3,3 +3,4 @@ winpty-rs
 trunk
 tendermint-rpc
 deno
+rls-rustc
