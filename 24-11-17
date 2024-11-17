@@ -16,3 +16,4 @@ httpmock
 zuse
 rustfmt-nightly
 cargo-codspeed
+solana-faucet
