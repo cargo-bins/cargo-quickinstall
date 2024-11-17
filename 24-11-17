@@ -22,3 +22,4 @@ deno
 cce
 cargo-spellcheck
 openai-cli
+rls-rustc
