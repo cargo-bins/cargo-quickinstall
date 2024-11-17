@@ -18,3 +18,4 @@ diesel_cli
 z3tracer
 human_bytes
 dbus-codegen
+benfred-read-process-memory
