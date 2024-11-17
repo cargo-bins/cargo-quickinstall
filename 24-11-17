@@ -9,3 +9,4 @@ diesel_cli
 kind2
 rls-rustc
 ncspot
+git-disjoint
