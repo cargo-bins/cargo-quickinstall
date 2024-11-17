@@ -5,3 +5,4 @@ tendermint-rpc
 deno
 rls-rustc
 perfcnt
+git-disjoint
