@@ -12,3 +12,4 @@ solana-net-utils
 parquet
 cargo-lock
 pgrx-tests
+httpmock
