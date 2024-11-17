@@ -43,3 +43,4 @@ rioterm
 sshx
 pgrx-tests
 openai-cli
+httpmock
