@@ -6,3 +6,4 @@ deno
 rls-rustc
 perfcnt
 git-disjoint
+trunk
