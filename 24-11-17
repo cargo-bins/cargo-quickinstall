@@ -27,3 +27,4 @@ rustfmt-nightly
 solana-faucet
 diesel_cli
 protox
+z3tracer
