@@ -3,3 +3,4 @@ winpty-rs
 tendermint-rpc
 deno
 trunk
+diesel_cli
