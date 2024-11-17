@@ -16,3 +16,4 @@ cargo-lock
 pgrx-tests
 fend
 httpmock
+fend
