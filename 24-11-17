@@ -7,3 +7,4 @@ cargo-crev
 ruff
 rls-rustc
 diesel_cli
+perfcnt
