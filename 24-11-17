@@ -19,3 +19,4 @@ httpmock
 termusic
 termusic
 rustfmt-nightly
+diesel_cli
