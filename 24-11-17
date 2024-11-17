@@ -8,3 +8,4 @@ ruff
 rls-rustc
 diesel_cli
 perfcnt
+git-disjoint
