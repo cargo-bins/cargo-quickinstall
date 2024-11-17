@@ -21,3 +21,4 @@ termusic
 rustfmt-nightly
 diesel_cli
 z3tracer
+human_bytes
