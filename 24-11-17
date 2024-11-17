@@ -16,3 +16,4 @@ parquet
 honggfuzz
 dua-cli
 cargo-lock
+pgrx-tests
