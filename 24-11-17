@@ -17,3 +17,4 @@ rustfmt-nightly
 solana-faucet
 safe_network
 diesel_cli
+z3tracer
