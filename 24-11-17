@@ -13,3 +13,4 @@ trunk
 cargo-lock
 pgrx-tests
 httpmock
+trunk
