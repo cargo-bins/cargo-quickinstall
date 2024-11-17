@@ -18,3 +18,4 @@ dua-cli
 cargo-lock
 pgrx-tests
 httpmock
+dua-cli
