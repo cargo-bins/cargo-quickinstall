@@ -18,3 +18,4 @@ nkeys
 zuse
 rustfmt-nightly
 solana-faucet
+diesel_cli
