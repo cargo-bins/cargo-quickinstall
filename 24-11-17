@@ -13,3 +13,4 @@ cargo-crev
 solana-net-utils
 cargo-crev
 parquet
+honggfuzz
