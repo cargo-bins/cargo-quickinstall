@@ -12,3 +12,4 @@ parquet
 trunk
 cargo-lock
 pgrx-tests
+httpmock
