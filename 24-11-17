@@ -9,3 +9,4 @@ solana-net-utils
 parquet
 honggfuzz
 pgrx-tests
+ec2_instance_metadata
