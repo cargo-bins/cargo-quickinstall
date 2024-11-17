@@ -19,3 +19,4 @@ openai-cli
 cargo-spellcheck
 git-disjoint
 tree-sitter-cli
+solana-net-utils
