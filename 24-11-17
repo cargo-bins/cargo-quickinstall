@@ -9,3 +9,4 @@ diesel_cli
 perfcnt
 git-disjoint
 solana-net-utils
+parquet
