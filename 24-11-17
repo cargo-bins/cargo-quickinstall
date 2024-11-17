@@ -27,3 +27,4 @@ sea-orm-cli
 diesel_cli
 cce
 deno
+cargo-spellcheck
