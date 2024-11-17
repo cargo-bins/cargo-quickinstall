@@ -18,3 +18,4 @@ pgrx-tests
 httpmock
 termusic
 termusic
+rustfmt-nightly
