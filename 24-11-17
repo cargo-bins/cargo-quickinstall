@@ -7,3 +7,4 @@ deno
 rls-rustc
 diesel_cli
 perfcnt
+git-disjoint
