@@ -19,3 +19,4 @@ safe_network
 diesel_cli
 z3tracer
 nu
+human_bytes
