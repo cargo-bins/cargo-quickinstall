@@ -1,3 +1,4 @@
 rustfmt
 rustrict
 cargo-generate
+deno
