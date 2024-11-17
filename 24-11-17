@@ -25,3 +25,4 @@ openai-cli
 rls-rustc
 sea-orm-cli
 diesel_cli
+cce
