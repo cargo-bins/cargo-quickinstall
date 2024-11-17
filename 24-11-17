@@ -34,3 +34,4 @@ pgrx-tests
 httpmock
 cargo-spellcheck
 hurl
+sshx
