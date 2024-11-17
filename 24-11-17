@@ -19,3 +19,4 @@ runst
 pgrx-tests
 cargo-lock
 kind2
+httpmock
