@@ -8,3 +8,4 @@ deno
 diesel_cli
 kind2
 rls-rustc
+ncspot
