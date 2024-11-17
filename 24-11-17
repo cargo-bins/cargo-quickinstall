@@ -4,3 +4,4 @@ cargo-generate
 deno
 diesel_cli
 perfcnt
+git-disjoint
