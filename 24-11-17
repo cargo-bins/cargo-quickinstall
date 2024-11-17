@@ -26,3 +26,4 @@ rls-rustc
 sea-orm-cli
 diesel_cli
 cce
+deno
