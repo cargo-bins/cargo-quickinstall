@@ -71,3 +71,4 @@ human_bytes
 wmi
 probe-rs-tools
 tuisky
+dbus-codegen
