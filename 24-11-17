@@ -7,3 +7,4 @@ perfcnt
 git-disjoint
 solana-net-utils
 parquet
+honggfuzz
