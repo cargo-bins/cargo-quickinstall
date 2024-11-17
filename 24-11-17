@@ -2,3 +2,4 @@ sccache
 rustrict
 winpty-rs
 tendermint-rpc
+cargo-generate
