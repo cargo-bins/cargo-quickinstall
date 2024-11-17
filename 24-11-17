@@ -3,3 +3,4 @@ rustrict
 cargo-generate
 deno
 diesel_cli
+perfcnt
