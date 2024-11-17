@@ -18,3 +18,4 @@ fend
 httpmock
 fend
 zuse
+rustfmt-nightly
