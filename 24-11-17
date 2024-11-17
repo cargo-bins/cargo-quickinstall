@@ -1,2 +1,3 @@
 rustfmt
 rustrict
+cargo-generate
