@@ -3,3 +3,4 @@ rustrict
 winpty-rs
 tendermint-rpc
 cargo-generate
+deno
