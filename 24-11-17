@@ -5,3 +5,4 @@ cargo-crev
 tendermint-rpc
 cargo-crev
 ruff
+rls-rustc
