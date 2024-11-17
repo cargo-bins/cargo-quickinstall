@@ -13,3 +13,4 @@ parquet
 fend
 fend
 cargo-lock
+pgrx-tests
