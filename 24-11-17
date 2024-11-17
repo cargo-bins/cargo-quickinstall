@@ -13,3 +13,4 @@ ec2_instance_metadata
 httpmock
 rustfmt-nightly
 safe_network
+solana-faucet
