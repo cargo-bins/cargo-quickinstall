@@ -11,3 +11,4 @@ solana-net-utils
 parquet
 trunk
 cargo-lock
+pgrx-tests
