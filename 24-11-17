@@ -14,3 +14,4 @@ httpmock
 rustfmt-nightly
 safe_network
 solana-faucet
+diesel_cli
