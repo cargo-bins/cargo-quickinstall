@@ -16,3 +16,4 @@ zuse
 rustfmt-nightly
 solana-faucet
 safe_network
+diesel_cli
