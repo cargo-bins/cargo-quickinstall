@@ -17,3 +17,4 @@ zuse
 rustfmt-nightly
 cargo-codspeed
 solana-faucet
+diesel_cli
