@@ -10,3 +10,4 @@ parquet
 honggfuzz
 pgrx-tests
 ec2_instance_metadata
+httpmock
