@@ -13,3 +13,4 @@ parquet
 pgrx-tests
 httpmock
 zuse
+rustfmt-nightly
