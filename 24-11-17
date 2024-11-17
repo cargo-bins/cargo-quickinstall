@@ -4,3 +4,4 @@ trunk
 tendermint-rpc
 deno
 rls-rustc
+perfcnt
