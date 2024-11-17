@@ -6,3 +6,4 @@ tendermint-rpc
 cargo-crev
 ruff
 rls-rustc
+diesel_cli
