@@ -44,3 +44,4 @@ probe-rs-tools
 stellar-strkey
 cargo-info
 binstall
+rkv
