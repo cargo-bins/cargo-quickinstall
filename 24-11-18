@@ -18,3 +18,4 @@ tendermint-rpc
 deploy
 cargo-depsize
 java-locator
+cargo-count
