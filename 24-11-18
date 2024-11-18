@@ -15,3 +15,4 @@ rustfmt-nightly
 zellij
 gitui
 apollo-router
+libbpf-cargo
