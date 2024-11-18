@@ -5,3 +5,4 @@ rls-rustc
 clippy
 zuse
 rustrict
+tendermint-rpc
