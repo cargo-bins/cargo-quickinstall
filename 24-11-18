@@ -39,3 +39,4 @@ rioterm
 sha1collisiondetection
 cargo-info
 stellar-strkey
+simple-http-server
