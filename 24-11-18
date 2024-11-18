@@ -11,3 +11,4 @@ sqlx-cli
 zellij
 java-locator
 zellij
+rustfmt-nightly
