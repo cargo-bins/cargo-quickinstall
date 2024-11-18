@@ -43,3 +43,4 @@ simple-http-server
 binstall
 mdcat
 deno
+rkv
