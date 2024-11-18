@@ -25,3 +25,4 @@ bugstalker
 deno
 cargo-duplicates
 rustfmt-nightly
+cargo-duplicates
