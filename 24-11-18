@@ -13,3 +13,4 @@ cargo-depsize
 clippy
 rga
 sequoia-sq
+rustrict
