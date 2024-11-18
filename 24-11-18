@@ -5,3 +5,4 @@ termusic
 rls-rustc
 clippy
 rustrict
+tendermint-rpc
