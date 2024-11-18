@@ -9,3 +9,4 @@ tendermint-rpc
 deploy
 sea-orm-cli
 java-locator
+rustfmt-nightly
