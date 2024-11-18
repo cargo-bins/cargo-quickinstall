@@ -12,3 +12,4 @@ tendermint-rpc
 deploy
 mise
 mise
+sea-orm-cli
