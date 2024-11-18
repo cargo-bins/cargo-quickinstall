@@ -17,3 +17,4 @@ rustrict
 tendermint-rpc
 deploy
 cargo-depsize
+java-locator
