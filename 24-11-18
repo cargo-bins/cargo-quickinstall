@@ -8,3 +8,4 @@ sqlx-cli
 java-locator
 cargo-vet
 rustfmt-nightly
+apollo-router
