@@ -24,3 +24,4 @@ java-locator
 bugstalker
 deno
 cargo-duplicates
+rustfmt-nightly
