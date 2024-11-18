@@ -5,3 +5,4 @@ rls-rustc
 clippy
 rustrict
 tendermint-rpc
+deploy
