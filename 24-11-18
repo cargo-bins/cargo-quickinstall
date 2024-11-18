@@ -9,3 +9,4 @@ tendermint-rpc
 deploy
 sea-orm-cli
 sqlx-cli
+java-locator
