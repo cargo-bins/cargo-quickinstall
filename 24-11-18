@@ -20,3 +20,4 @@ mise
 rustfmt-nightly
 apollo-router
 libbpf-cargo
+racer
