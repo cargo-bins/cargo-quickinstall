@@ -10,3 +10,4 @@ deploy
 sea-orm-cli
 java-locator
 rustfmt-nightly
+apollo-router
