@@ -3,3 +3,4 @@ pwasm-utils
 tendermint-abci
 rls-rustc
 clippy
+zuse
