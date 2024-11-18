@@ -6,3 +6,4 @@ rls-rustc
 clippy
 rustrict
 tendermint-rpc
+rga
