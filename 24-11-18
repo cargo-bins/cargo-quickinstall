@@ -9,3 +9,4 @@ java-locator
 cargo-vet
 rustfmt-nightly
 apollo-router
+libbpf-cargo
