@@ -19,3 +19,4 @@ deploy
 cargo-depsize
 java-locator
 cargo-count
+apollo-router
