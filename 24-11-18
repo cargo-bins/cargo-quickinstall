@@ -7,3 +7,4 @@ cargo-leptos
 rls-rustc
 clippy
 zuse
+rustrict
