@@ -10,3 +10,4 @@ cargo-vet
 rustfmt-nightly
 apollo-router
 libbpf-cargo
+oso
