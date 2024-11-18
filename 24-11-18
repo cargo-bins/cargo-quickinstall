@@ -21,3 +21,4 @@ rustfmt-nightly
 apollo-router
 libbpf-cargo
 racer
+stellar-strkey
