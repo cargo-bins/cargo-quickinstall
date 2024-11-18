@@ -3,3 +3,4 @@ sccache
 rls-rustc
 watchexec-cli
 evcxr_repl
+clippy
