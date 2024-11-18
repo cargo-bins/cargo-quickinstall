@@ -5,3 +5,4 @@ benfred-read-process-memory
 tendermint-rpc
 deploy
 sqlx-cli
+java-locator
