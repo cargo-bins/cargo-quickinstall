@@ -7,3 +7,4 @@ rustrict
 tendermint-rpc
 deploy
 gitui
+sqlx-cli
