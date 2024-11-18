@@ -16,3 +16,4 @@ sequoia-sq
 rustrict
 tendermint-rpc
 deploy
+cargo-depsize
