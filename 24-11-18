@@ -2,3 +2,4 @@ iai-callgrind-runner
 rls-rustc
 clippy
 benfred-read-process-memory
+tendermint-rpc
