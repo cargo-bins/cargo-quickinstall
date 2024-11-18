@@ -4,3 +4,4 @@ skim
 rls-rustc
 clippy
 rustrict
+tendermint-rpc
