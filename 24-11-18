@@ -11,3 +11,4 @@ rustfmt-nightly
 apollo-router
 libbpf-cargo
 oso
+sha1collisiondetection
