@@ -6,3 +6,4 @@ fend
 rls-rustc
 cargo-public-api
 sea-orm-cli
+zuse
