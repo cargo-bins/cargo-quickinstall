@@ -27,3 +27,4 @@ cargo-duplicates
 rustfmt-nightly
 cargo-duplicates
 lan-mouse
+mdcat
