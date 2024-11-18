@@ -1,3 +1,4 @@
 trunk
 sccache
 rls-rustc
+evcxr_repl
