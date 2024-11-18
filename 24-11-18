@@ -17,3 +17,4 @@ rustfmt-nightly
 apollo-router
 libbpf-cargo
 rga
+racer
