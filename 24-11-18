@@ -36,3 +36,4 @@ libbpf-cargo
 mdcat
 deno
 rioterm
+sha1collisiondetection
