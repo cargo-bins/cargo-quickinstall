@@ -16,3 +16,4 @@ sequoia-sq
 rustfmt-nightly
 apollo-router
 libbpf-cargo
+rga
