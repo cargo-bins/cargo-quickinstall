@@ -20,3 +20,4 @@ cargo-depsize
 java-locator
 cargo-count
 apollo-router
+libbpf-cargo
