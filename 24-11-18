@@ -1,3 +1,4 @@
 pwasm-utils
 sccache
 rls-rustc
+watchexec-cli
