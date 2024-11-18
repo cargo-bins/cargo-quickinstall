@@ -3,3 +3,4 @@ rls-rustc
 clippy
 benfred-read-process-memory
 tendermint-rpc
+deploy
