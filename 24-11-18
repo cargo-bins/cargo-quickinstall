@@ -10,3 +10,4 @@ deploy
 sea-orm-cli
 sqlx-cli
 java-locator
+rustfmt-nightly
