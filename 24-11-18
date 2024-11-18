@@ -8,3 +8,4 @@ cargo-depsize
 sequoia-sq
 termusic
 termusic
+rls-rustc
