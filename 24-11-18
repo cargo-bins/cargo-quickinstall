@@ -6,3 +6,4 @@ evcxr_repl
 clippy
 zuse
 rustrict
+tendermint-rpc
