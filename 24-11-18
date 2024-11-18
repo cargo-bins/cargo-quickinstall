@@ -8,3 +8,4 @@ zuse
 rustrict
 tendermint-rpc
 deploy
+sea-orm-cli
