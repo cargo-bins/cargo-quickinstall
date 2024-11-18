@@ -13,3 +13,4 @@ rustfmt-nightly
 apollo-router
 libbpf-cargo
 sha1collisiondetection
+stellar-strkey
