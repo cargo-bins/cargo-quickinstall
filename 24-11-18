@@ -24,3 +24,4 @@ libbpf-cargo
 cargo-count
 rga
 rga
+sha1collisiondetection
