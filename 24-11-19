@@ -2,3 +2,4 @@ wol-rs
 cpp_demangle
 textplots
 foundationdb-gen
+libbpf-cargo
