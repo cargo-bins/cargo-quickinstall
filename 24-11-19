@@ -13,3 +13,4 @@ cargo-dylint
 minicbor
 markdown-test-report
 legacylisten
+cached-path
