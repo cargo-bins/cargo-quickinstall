@@ -65,3 +65,4 @@ cargo-whatfeatures
 protox
 clipboard-history
 gpg-tui
+dbus-codegen
