@@ -5,3 +5,4 @@ arrow-flight
 py-spy
 wol-rs
 rustfmt-nightly
+minicbor
