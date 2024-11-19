@@ -3,3 +3,4 @@ cpp_demangle
 libbpf-cargo
 arrow-flight
 py-spy
+wol-rs
