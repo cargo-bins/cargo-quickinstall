@@ -4,3 +4,4 @@ cpp_demangle
 cargo-count
 cargo-count
 arrow-flight
+wol-rs
