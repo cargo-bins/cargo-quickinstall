@@ -22,3 +22,4 @@ cargo-maelstrom
 cargo-travis
 foundationdb-gen
 protox
+dbus-codegen
