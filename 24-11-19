@@ -6,3 +6,4 @@ sea-orm-cli
 libbpf-cargo
 arrow-flight
 wol-rs
+rustfmt-nightly
