@@ -21,3 +21,4 @@ syd
 dotenv
 cargo-tarpaulin
 foundationdb-gen
+protox
