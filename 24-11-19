@@ -7,3 +7,4 @@ cargo-embed
 exa
 atuin
 libbpf-cargo
+foundationdb-gen
