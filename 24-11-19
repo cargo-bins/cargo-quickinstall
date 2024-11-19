@@ -13,3 +13,4 @@ raw-cpuid
 syd
 solana-stake-accounts
 dotenv
+cargo-tarpaulin
