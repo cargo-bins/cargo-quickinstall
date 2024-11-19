@@ -13,3 +13,4 @@ solana-stake-accounts
 dotenv
 iai-callgrind-runner
 foundationdb-gen
+protox
