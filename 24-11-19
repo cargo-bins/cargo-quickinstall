@@ -3,3 +3,4 @@ cpp_demangle
 textplots
 wmi
 libbpf-cargo
+arrow-flight
