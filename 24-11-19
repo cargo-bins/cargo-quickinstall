@@ -16,3 +16,4 @@ minicbor
 trunk
 foundationdb-gen
 solana-faucet
+remove_dir_all
