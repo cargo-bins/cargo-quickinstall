@@ -8,3 +8,4 @@ arrow-flight
 wol-rs
 rustfmt-nightly
 minicbor
+foundationdb-gen
