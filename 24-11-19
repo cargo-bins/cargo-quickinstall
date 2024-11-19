@@ -24,3 +24,4 @@ foundationdb-gen
 protox
 dbus-codegen
 caligula
+tendermint-abci
