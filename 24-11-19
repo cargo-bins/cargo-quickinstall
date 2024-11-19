@@ -7,3 +7,4 @@ wmi
 cargo-count
 libbpf-cargo
 arrow-flight
+wol-rs
