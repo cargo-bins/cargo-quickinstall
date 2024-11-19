@@ -16,3 +16,4 @@ dotenv
 cargo-tarpaulin
 foundationdb-gen
 cargo-c
+protox
