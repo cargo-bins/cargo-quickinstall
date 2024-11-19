@@ -19,3 +19,4 @@ zellij
 raw-cpuid
 syd
 dotenv
+cargo-tarpaulin
