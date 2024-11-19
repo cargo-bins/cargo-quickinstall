@@ -25,3 +25,4 @@ dotenv
 oso
 cargo-maelstrom
 cargo-maelstrom
+cargo-travis
