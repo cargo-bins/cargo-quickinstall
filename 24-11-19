@@ -26,3 +26,4 @@ duckdb-server
 duckdb-server
 cargo-embed
 syd
+monolith
