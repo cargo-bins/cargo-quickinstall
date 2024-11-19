@@ -4,3 +4,4 @@ cargo-duplicates
 cpp_demangle
 textplots
 wmi
+cargo-public-api
