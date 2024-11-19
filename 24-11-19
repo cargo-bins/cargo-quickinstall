@@ -25,3 +25,4 @@ cargo-duplicates
 gpg-tui
 qmassa
 tree-sitter-cli
+sniffnet
