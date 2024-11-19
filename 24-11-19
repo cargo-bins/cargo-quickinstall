@@ -11,3 +11,4 @@ minicbor
 foundationdb-gen
 solana-faucet
 sea-orm-cli
+raw-cpuid
