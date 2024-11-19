@@ -4,3 +4,4 @@ cpp_demangle
 cargo-public-api
 py-spy
 libbpf-cargo
+bugstalker
