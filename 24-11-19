@@ -41,3 +41,4 @@ clipboard-history
 markdown-test-report
 cargo-public-api
 cargo-info
+gpg-tui
