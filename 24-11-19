@@ -7,3 +7,4 @@ wmi
 cargo-public-api
 redoxer
 libbpf-cargo
+foundationdb-gen
