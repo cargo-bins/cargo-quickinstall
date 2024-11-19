@@ -43,3 +43,4 @@ cargo-public-api
 cargo-info
 gpg-tui
 graphql_client_cli
+dotenv
