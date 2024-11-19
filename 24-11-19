@@ -51,3 +51,4 @@ lan-mouse
 cargo-info
 qmassa
 cargo-unused-features
+dotenv
