@@ -6,3 +6,4 @@ cargo-count
 arrow-flight
 wol-rs
 rustfmt-nightly
+minicbor
