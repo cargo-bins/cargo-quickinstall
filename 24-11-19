@@ -2,3 +2,4 @@ speedtest-rs
 wol-rs
 cpp_demangle
 cargo-public-api
+py-spy
