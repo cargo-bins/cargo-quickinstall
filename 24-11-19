@@ -8,3 +8,4 @@ wol-rs
 rustfmt-nightly
 minicbor
 foundationdb-gen
+solana-faucet
