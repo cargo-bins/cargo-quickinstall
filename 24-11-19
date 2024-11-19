@@ -20,3 +20,4 @@ raw-cpuid
 syd
 dotenv
 cargo-tarpaulin
+foundationdb-gen
