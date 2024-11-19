@@ -21,3 +21,4 @@ syd
 trunk
 cargo-maelstrom
 atuin
+dotenv
