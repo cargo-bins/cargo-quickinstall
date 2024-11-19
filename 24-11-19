@@ -12,3 +12,4 @@ remove_dir_all
 arrow-flight
 syd
 solana-stake-accounts
+dotenv
