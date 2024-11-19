@@ -10,3 +10,4 @@ foundationdb-gen
 remove_dir_all
 syd
 solana-stake-accounts
+dotenv
