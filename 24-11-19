@@ -5,3 +5,4 @@ libbpf-cargo
 arrow-flight
 py-spy
 wol-rs
+rustfmt-nightly
