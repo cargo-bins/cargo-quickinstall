@@ -5,3 +5,4 @@ cargo-count
 cargo-count
 arrow-flight
 wol-rs
+rustfmt-nightly
