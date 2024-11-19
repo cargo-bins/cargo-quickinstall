@@ -5,3 +5,4 @@ foundationdb-gen
 libbpf-cargo
 arrow-flight
 wol-rs
+minicbor
