@@ -2,3 +2,4 @@ wol-rs
 cpp_demangle
 diesel_cli
 diesel_cli
+sea-orm-cli
