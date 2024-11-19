@@ -33,3 +33,4 @@ cargo-travis
 cargo-maelstrom
 protox
 caligula
+dbus-codegen
