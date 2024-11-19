@@ -19,3 +19,4 @@ dotenv
 atuin
 cargo-maelstrom
 cargo-maelstrom
+cargo-travis
