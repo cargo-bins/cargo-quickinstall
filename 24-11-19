@@ -5,3 +5,4 @@ diesel_cli
 sea-orm-cli
 libbpf-cargo
 arrow-flight
+wol-rs
