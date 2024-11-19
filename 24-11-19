@@ -4,3 +4,4 @@ textplots
 wmi
 libbpf-cargo
 arrow-flight
+wol-rs
