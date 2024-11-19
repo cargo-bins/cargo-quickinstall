@@ -54,3 +54,4 @@ cargo-unused-features
 dotenv
 tgt
 qmassa
+cargo-public-api
