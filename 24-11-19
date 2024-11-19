@@ -5,3 +5,4 @@ cargo-public-api
 py-spy
 libbpf-cargo
 bugstalker
+py-spy
