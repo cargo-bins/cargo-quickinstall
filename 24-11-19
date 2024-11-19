@@ -19,3 +19,4 @@ solana-faucet
 remove_dir_all
 arrow-flight
 duckdb-server
+trunk
