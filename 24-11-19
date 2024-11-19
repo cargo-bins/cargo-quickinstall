@@ -3,3 +3,4 @@ cpp_demangle
 textplots
 foundationdb-gen
 libbpf-cargo
+arrow-flight
