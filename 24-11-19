@@ -7,3 +7,4 @@ wol-rs
 rustfmt-nightly
 minicbor
 foundationdb-gen
+remove_dir_all
