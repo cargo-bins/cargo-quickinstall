@@ -10,3 +10,4 @@ minicbor
 foundationdb-gen
 remove_dir_all
 atuin
+raw-cpuid
