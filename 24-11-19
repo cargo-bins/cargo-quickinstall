@@ -24,3 +24,4 @@ duckdb-server
 trunk
 duckdb-server
 duckdb-server
+cargo-embed
