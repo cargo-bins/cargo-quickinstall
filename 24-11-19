@@ -16,3 +16,4 @@ dotenv
 foundationdb-gen
 protox
 dbus-codegen
+tendermint-abci
