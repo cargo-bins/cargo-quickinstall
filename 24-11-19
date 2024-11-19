@@ -25,3 +25,4 @@ protox
 dbus-codegen
 caligula
 tendermint-abci
+cargo-maelstrom
