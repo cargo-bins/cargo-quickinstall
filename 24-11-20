@@ -19,3 +19,4 @@ re_query
 git-workspace
 wol-rs
 cavif
+metrics-observer
