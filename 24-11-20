@@ -18,3 +18,4 @@ cached-path
 phf_generator
 rustfmt-nightly
 winpty-rs
+cargo-tarpaulin
