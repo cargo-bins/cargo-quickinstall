@@ -20,3 +20,4 @@ git-workspace
 wol-rs
 cavif
 metrics-observer
+cached-path
