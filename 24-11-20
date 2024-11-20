@@ -43,3 +43,4 @@ ruff
 opencv-binding-generator
 cargo-near
 wluma
+solana-cli
