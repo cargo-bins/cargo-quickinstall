@@ -17,3 +17,4 @@ cargo-generate
 solana-cli
 cargo-generate
 parquet
+re_query
