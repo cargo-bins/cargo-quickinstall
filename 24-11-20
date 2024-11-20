@@ -25,3 +25,4 @@ phf_generator
 rustfmt-nightly
 winpty-rs
 cavif
+java-locator
