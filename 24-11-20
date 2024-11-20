@@ -16,3 +16,4 @@ git-mit-install
 cargo-generate
 solana-cli
 cargo-generate
+parquet
