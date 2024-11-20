@@ -16,3 +16,4 @@ rustfmt
 solana-cli
 re_query
 wol-rs
+perfcnt
