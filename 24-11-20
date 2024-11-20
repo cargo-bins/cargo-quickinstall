@@ -10,3 +10,4 @@ wizer
 graphql_client_cli
 ducc-sys
 ruff
+cargo-info
