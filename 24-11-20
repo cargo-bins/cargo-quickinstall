@@ -18,3 +18,4 @@ solana-cli
 cargo-generate
 parquet
 re_query
+wol-rs
