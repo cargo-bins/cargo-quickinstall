@@ -19,3 +19,4 @@ phf_generator
 rustfmt-nightly
 winpty-rs
 cargo-tarpaulin
+java-locator
