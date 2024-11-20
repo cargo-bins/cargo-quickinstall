@@ -18,3 +18,4 @@ re_query
 wol-rs
 perfcnt
 cached-path
+phf_generator
