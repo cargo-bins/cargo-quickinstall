@@ -12,3 +12,4 @@ ducc-sys
 ruff
 cargo-info
 gpg-tui
+ore-cli
