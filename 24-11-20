@@ -6,3 +6,4 @@ ducc-sys
 sn_node
 syd
 rustfmt
+solana-gossip
