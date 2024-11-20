@@ -41,3 +41,4 @@ deploy
 cargo-ktra-login
 ruff
 opencv-binding-generator
+cargo-near
