@@ -54,3 +54,4 @@ wol-rs
 ruff
 xplr
 cargo-list
+cached-path
