@@ -8,3 +8,4 @@ below
 libbpf-cargo
 wizer
 graphql_client_cli
+ducc-sys
