@@ -21,3 +21,4 @@ wol-rs
 cavif
 metrics-observer
 cached-path
+phf_generator
