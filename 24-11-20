@@ -13,3 +13,4 @@ ruff
 cargo-info
 gpg-tui
 ore-cli
+rga
