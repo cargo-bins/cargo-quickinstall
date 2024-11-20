@@ -59,3 +59,4 @@ cargo-info
 phf_generator
 oha
 xplr
+httpmock
