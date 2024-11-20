@@ -64,3 +64,4 @@ phf_generator
 patch-crate
 java-locator
 zuse
+cargo-smart-release
