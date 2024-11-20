@@ -5,3 +5,4 @@ ec2_instance_metadata
 ducc-sys
 sn_node
 syd
+rustfmt
