@@ -14,3 +14,4 @@ deploy
 mit-commit-msg
 git-mit-install
 cargo-generate
+solana-cli
