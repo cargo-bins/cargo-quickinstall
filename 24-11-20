@@ -12,3 +12,4 @@ deploy
 deploy
 opencv-binding-generator
 solana-cli
+parquet
