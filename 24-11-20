@@ -19,3 +19,4 @@ wol-rs
 perfcnt
 cached-path
 phf_generator
+winpty-rs
