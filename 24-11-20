@@ -9,3 +9,4 @@ rustfmt
 solana-gossip
 git-mit-install
 deploy
+mit-commit-msg
