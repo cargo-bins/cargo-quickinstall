@@ -60,3 +60,4 @@ cargo-dylint
 openring
 cached-path
 oxipng
+phf_generator
