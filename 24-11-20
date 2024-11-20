@@ -40,3 +40,4 @@ nu_plugin_gstat
 deploy
 cargo-ktra-login
 ruff
+opencv-binding-generator
