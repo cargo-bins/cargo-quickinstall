@@ -12,3 +12,4 @@ deploy
 solana-cli
 re_query
 wol-rs
+cached-path
