@@ -5,3 +5,4 @@ ducc-sys
 binstall
 binstall
 syd
+sqlx-cli
