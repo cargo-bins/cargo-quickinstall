@@ -56,3 +56,4 @@ xplr
 cargo-list
 cached-path
 cargo-info
+phf_generator
