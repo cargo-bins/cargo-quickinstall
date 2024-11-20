@@ -58,3 +58,4 @@ spl-token-cli
 wol-rs
 cargo-dylint
 openring
+cached-path
