@@ -8,3 +8,4 @@ cavif
 winpty-rs
 cargo-generate
 cavif
+parquet
