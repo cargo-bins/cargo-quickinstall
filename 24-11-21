@@ -13,3 +13,4 @@ yazi-prebuild
 parquet
 pgrx-tests
 cargo-smart-release
+graphql_client_cli
