@@ -4,3 +4,4 @@ graphql_client_cli
 diesel_cli
 graphql_client_cli
 graphql_client_cli
+winpty-rs
