@@ -5,3 +5,4 @@ diesel_cli
 graphql_client_cli
 graphql_client_cli
 winpty-rs
+cargo-smart-release
