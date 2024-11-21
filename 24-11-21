@@ -22,3 +22,4 @@ rkv
 patch-crate
 star-history
 nu_plugin_dbus
+cargo-public-api
