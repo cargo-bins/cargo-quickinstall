@@ -2,3 +2,4 @@ sqlx-cli
 mit-commit-msg
 winpty-rs
 parquet
+pgrx-tests
