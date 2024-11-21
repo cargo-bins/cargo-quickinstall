@@ -8,3 +8,4 @@ cargo-dylint
 httpmock
 patch-crate
 wluma
+openring
