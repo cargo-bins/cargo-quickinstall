@@ -7,3 +7,4 @@ metrics-observer
 parquet
 pgrx-tests
 media_organizer
+rkv
