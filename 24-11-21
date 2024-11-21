@@ -32,3 +32,4 @@ git-disjoint
 bugstalker
 solana-cli
 trunk
+tendermint-rpc
