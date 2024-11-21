@@ -1,3 +1,4 @@
 cavif
 cargo-generate
 sqlx-cli
+iai-callgrind-runner
