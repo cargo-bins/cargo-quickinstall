@@ -23,3 +23,4 @@ crates-tui
 cargo-smart-release
 solana-stake-accounts
 yazi-prebuild
+solana-validator
