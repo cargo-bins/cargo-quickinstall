@@ -20,3 +20,4 @@ puffin_viewer
 rkv
 markdown-test-report
 crates-tui
+cargo-smart-release
