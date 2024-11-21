@@ -10,3 +10,4 @@ solana-cli
 tendermint-rpc
 rustfmt-nightly
 java-locator
+py-spy
