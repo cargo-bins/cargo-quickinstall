@@ -2,3 +2,4 @@ addr2line
 sqlx-cli
 iai-callgrind-runner
 mit-commit-msg
+winpty-rs
