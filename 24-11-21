@@ -5,3 +5,4 @@ iai-callgrind-runner
 mit-commit-msg
 cargo-generate
 cavif
+winpty-rs
