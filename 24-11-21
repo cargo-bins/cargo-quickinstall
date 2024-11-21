@@ -9,3 +9,4 @@ solana-cli
 trunk
 cargo-c
 java-locator
+evcxr_repl
