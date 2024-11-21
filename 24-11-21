@@ -6,3 +6,4 @@ winpty-rs
 parquet
 decasify
 metrics-observer
+rkv
