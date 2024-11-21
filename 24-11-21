@@ -12,3 +12,4 @@ markdown-test-report
 yazi-prebuild
 parquet
 pgrx-tests
+cargo-smart-release
