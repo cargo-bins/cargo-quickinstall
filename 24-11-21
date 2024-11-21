@@ -19,3 +19,4 @@ git-workspace
 trunk
 cargo-php
 atuin
+diesel_cli
