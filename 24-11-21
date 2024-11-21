@@ -13,3 +13,4 @@ trunk
 cargo-c
 java-locator
 evcxr_repl
+ducc-sys
