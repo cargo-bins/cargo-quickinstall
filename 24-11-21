@@ -6,3 +6,4 @@ pgrx-tests
 rkv
 watchexec-cli
 solana-stake-accounts
+solana-validator
