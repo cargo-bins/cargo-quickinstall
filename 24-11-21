@@ -2,3 +2,4 @@ addr2line
 winpty-rs
 parquet
 pgrx-tests
+rkv
