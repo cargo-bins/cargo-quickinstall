@@ -3,3 +3,4 @@ cargo-generate
 sqlx-cli
 iai-callgrind-runner
 mit-commit-msg
+cargo-generate
