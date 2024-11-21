@@ -9,3 +9,4 @@ winpty-rs
 cargo-generate
 cavif
 parquet
+pgrx-tests
