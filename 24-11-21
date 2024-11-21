@@ -10,3 +10,4 @@ winpty-rs
 sea-orm-cli
 markdown-test-report
 yazi-prebuild
+parquet
