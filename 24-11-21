@@ -13,3 +13,4 @@ rkv
 solana-stake-accounts
 solana-cli
 trunk
+sea-orm-cli
