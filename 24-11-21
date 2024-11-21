@@ -9,3 +9,4 @@ solana-validator
 solana-cli
 tendermint-rpc
 rustfmt-nightly
+java-locator
