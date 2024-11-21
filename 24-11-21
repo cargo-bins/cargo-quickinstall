@@ -4,3 +4,4 @@ winpty-rs
 parquet
 pgrx-tests
 rkv
+watchexec-cli
