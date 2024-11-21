@@ -7,3 +7,4 @@ parquet
 decasify
 metrics-observer
 rkv
+diesel_cli
