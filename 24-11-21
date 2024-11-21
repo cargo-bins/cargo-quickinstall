@@ -25,3 +25,4 @@ nu_plugin_dbus
 cargo-public-api
 tree-sitter-cli
 solana-stake-accounts
+star-history
