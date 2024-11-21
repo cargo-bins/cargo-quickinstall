@@ -17,3 +17,4 @@ graphql_client_cli
 yazi-prebuild
 cargo-smart-release
 puffin_viewer
+rkv
