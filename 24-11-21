@@ -2,3 +2,4 @@ cargo-smart-release
 addr2line
 graphql_client_cli
 diesel_cli
+graphql_client_cli
