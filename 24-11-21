@@ -34,3 +34,4 @@ solana-cli
 trunk
 tendermint-rpc
 cavif
+nu_plugin_dbus
