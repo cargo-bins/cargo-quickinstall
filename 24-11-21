@@ -7,3 +7,4 @@ snarkvm
 solana-stake-accounts
 solana-validator
 solana-cli
+tendermint-rpc
