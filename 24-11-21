@@ -12,3 +12,4 @@ cargo-smart-release
 rkv
 solana-stake-accounts
 solana-cli
+trunk
