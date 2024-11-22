@@ -4,3 +4,4 @@ diesel_cli
 socketcan
 diesel_cli
 rkv
+dotenvy
