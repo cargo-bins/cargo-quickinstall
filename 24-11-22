@@ -4,3 +4,4 @@ dotenvy
 winpty-rs
 raw-cpuid
 cached-path
+wmi
