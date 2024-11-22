@@ -8,3 +8,4 @@ rkv
 dotenvy
 cargo-php
 winpty-rs
+raw-cpuid
