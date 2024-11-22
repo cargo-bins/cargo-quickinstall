@@ -2,3 +2,4 @@ solana-net-utils
 diesel_cli
 rkv
 hurl
+dotenvy
