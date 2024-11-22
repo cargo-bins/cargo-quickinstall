@@ -53,3 +53,4 @@ cargo-ktra-login
 nextest-filtering
 remove_dir_all
 cargo-show
+simple-http-server
