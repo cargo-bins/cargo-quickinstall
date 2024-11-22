@@ -24,3 +24,4 @@ apollo-router
 apollo-router
 solana-cli
 nextest-filtering
+remove_dir_all
