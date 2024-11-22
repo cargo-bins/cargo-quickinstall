@@ -7,3 +7,4 @@ omicron-zone-package
 winpty-rs
 rustbus
 cached-path
+honggfuzz
