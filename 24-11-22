@@ -14,3 +14,4 @@ html2md
 tauri-cli
 cargo-local-registry
 java-locator
+git-disjoint
