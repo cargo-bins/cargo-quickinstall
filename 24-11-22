@@ -9,3 +9,4 @@ watchexec-cli
 cached-path
 wmi
 mit-commit-msg
+cargo-generate
