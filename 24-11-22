@@ -51,3 +51,4 @@ rmup
 nextest-filtering
 cargo-ktra-login
 remove_dir_all
+argus-cli
