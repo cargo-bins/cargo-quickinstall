@@ -9,3 +9,4 @@ rustbus
 cached-path
 honggfuzz
 mit-commit-msg
+cargo-generate
