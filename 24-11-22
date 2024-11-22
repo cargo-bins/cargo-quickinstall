@@ -4,3 +4,4 @@ cargo-php
 material
 socketcan
 rkv
+dotenvy
