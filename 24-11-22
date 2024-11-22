@@ -11,3 +11,4 @@ wmi
 solana-net-utils
 git-disjoint
 nkeys
+borsh
