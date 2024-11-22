@@ -2,3 +2,4 @@ solana-net-utils
 ncspot
 rkv
 simple-http-server
+sea-orm-cli
