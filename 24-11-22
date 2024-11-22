@@ -5,3 +5,4 @@ winpty-rs
 raw-cpuid
 cached-path
 wmi
+solana-net-utils
