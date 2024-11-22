@@ -7,3 +7,4 @@ rkv
 dotenvy
 winpty-rs
 cached-path
+wmi
