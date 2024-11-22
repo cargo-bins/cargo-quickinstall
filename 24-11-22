@@ -11,3 +11,4 @@ mit-commit-msg
 cargo-generate
 solana-net-utils
 html2md
+tauri-cli
