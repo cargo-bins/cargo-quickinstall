@@ -18,3 +18,4 @@ borsh
 apollo-router
 apollo-router
 nextest-filtering
+remove_dir_all
