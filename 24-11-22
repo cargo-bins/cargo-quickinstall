@@ -3,3 +3,4 @@ rkv
 dotenvy
 cargo-codspeed
 winpty-rs
+raw-cpuid
