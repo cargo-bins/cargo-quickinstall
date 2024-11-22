@@ -13,3 +13,4 @@ cargo-generate
 solana-net-utils
 safe_network
 tauri-cli
+java-locator
