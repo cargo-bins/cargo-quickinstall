@@ -51,3 +51,4 @@ apollo-router
 librespot
 cargo-ktra-login
 nextest-filtering
+remove_dir_all
