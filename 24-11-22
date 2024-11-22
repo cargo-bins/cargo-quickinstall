@@ -17,3 +17,4 @@ git-disjoint
 nkeys
 borsh
 cargo-minify
+apollo-router
