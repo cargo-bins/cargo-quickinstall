@@ -2,3 +2,4 @@ solana-net-utils
 rkv
 dotenvy
 winpty-rs
+raw-cpuid
