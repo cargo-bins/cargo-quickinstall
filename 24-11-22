@@ -3,3 +3,4 @@ rkv
 dotenvy
 winpty-rs
 raw-cpuid
+cached-path
