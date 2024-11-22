@@ -8,3 +8,4 @@ dotenvy
 diesel_cli
 diesel_cli
 winpty-rs
+raw-cpuid
