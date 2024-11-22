@@ -10,3 +10,4 @@ diesel_cli
 winpty-rs
 raw-cpuid
 rustbus
+cached-path
