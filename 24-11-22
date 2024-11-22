@@ -25,3 +25,4 @@ cargo-minify
 cargo-minify
 remove_dir_all
 gnostr-bins
+cargo-minify
