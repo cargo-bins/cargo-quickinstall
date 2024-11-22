@@ -12,3 +12,4 @@ raw-cpuid
 rustbus
 cached-path
 honggfuzz
+mit-commit-msg
