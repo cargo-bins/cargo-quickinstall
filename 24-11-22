@@ -4,3 +4,4 @@ dotenvy
 cargo-codspeed
 winpty-rs
 raw-cpuid
+evcxr_repl
