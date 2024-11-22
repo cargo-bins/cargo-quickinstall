@@ -6,3 +6,4 @@ socketcan
 rkv
 dotenvy
 winpty-rs
+cached-path
