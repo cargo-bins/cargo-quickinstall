@@ -6,3 +6,4 @@ winpty-rs
 raw-cpuid
 evcxr_repl
 cached-path
+wmi
