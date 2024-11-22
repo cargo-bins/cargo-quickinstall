@@ -12,3 +12,4 @@ cargo-generate
 solana-net-utils
 html2md
 tauri-cli
+cargo-local-registry
