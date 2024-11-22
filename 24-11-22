@@ -11,3 +11,4 @@ winpty-rs
 raw-cpuid
 rustbus
 cached-path
+honggfuzz
