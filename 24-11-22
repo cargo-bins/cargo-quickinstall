@@ -5,3 +5,4 @@ cargo-codspeed
 winpty-rs
 raw-cpuid
 evcxr_repl
+cached-path
