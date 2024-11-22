@@ -15,3 +15,4 @@ solana-net-utils
 re_query
 git-disjoint
 nkeys
+borsh
