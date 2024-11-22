@@ -6,3 +6,4 @@ benfred-read-process-memory
 omicron-zone-package
 winpty-rs
 rustbus
+cached-path
