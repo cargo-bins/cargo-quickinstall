@@ -16,3 +16,4 @@ cargo-local-registry
 java-locator
 git-disjoint
 nkeys
+cargo-codspeed
