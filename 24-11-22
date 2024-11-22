@@ -2,3 +2,4 @@ solana-net-utils
 rkv
 dotenvy
 cargo-codspeed
+winpty-rs
