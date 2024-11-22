@@ -18,3 +18,4 @@ git-disjoint
 nkeys
 solana-keygen
 cargo-codspeed
+borsh
