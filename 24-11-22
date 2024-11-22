@@ -13,3 +13,4 @@ borsh
 apollo-router
 apollo-router
 solana-cli
+nextest-filtering
