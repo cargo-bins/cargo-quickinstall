@@ -16,3 +16,4 @@ re_query
 git-disjoint
 nkeys
 borsh
+cargo-minify
