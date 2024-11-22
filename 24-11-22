@@ -21,3 +21,4 @@ borsh
 cargo-c
 apollo-router
 apollo-router
+nextest-filtering
