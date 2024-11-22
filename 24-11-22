@@ -5,3 +5,4 @@ material
 socketcan
 rkv
 dotenvy
+winpty-rs
