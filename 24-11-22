@@ -11,3 +11,4 @@ honggfuzz
 mit-commit-msg
 cargo-generate
 solana-net-utils
+safe_network
