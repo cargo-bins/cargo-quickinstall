@@ -9,3 +9,4 @@ dotenvy
 cargo-php
 winpty-rs
 raw-cpuid
+cached-path
