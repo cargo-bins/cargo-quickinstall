@@ -43,3 +43,4 @@ crates-tui
 lumen
 swtchr
 apollo-router
+simple-http-server
