@@ -17,3 +17,4 @@ solana-net-utils
 safe_network
 git-disjoint
 nkeys
+borsh
