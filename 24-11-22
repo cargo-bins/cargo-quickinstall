@@ -7,3 +7,4 @@ material
 rkv
 dotenvy
 cargo-php
+winpty-rs
