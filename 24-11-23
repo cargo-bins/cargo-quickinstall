@@ -13,3 +13,4 @@ solana-validator
 safe_network
 cargo-udeps
 cargo-c
+rkv
