@@ -1,3 +1,4 @@
 rustfmt-nightly
 git-mit
 dbus-codegen
+evcxr_repl
