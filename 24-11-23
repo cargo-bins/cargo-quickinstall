@@ -9,3 +9,4 @@ solana-validator
 cargo-udeps
 cargo-c
 rkv
+spider_worker
