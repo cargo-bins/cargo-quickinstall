@@ -24,3 +24,4 @@ nu_plugin_gstat
 rmup
 hurl
 cargo-pgrx
+tui-journal
