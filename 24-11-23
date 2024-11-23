@@ -53,3 +53,4 @@ crates-tui
 nu_plugin_query
 tui-journal
 odoo-lsp
+cargo-spellcheck
