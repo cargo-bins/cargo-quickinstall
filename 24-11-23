@@ -38,3 +38,4 @@ rmup
 rkv
 cargo-dylint
 sea-orm-cli
+cargo-spellcheck
