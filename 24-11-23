@@ -33,3 +33,4 @@ rmup
 sway-easyfocus
 clipboard-history-tui
 crates-tui
+graphql_client_cli
