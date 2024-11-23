@@ -8,3 +8,4 @@ nu_plugin_query
 cargo-dylint
 cargo-pgrx
 tendermint-rpc
+nu_plugin_gstat
