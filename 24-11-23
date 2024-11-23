@@ -6,3 +6,4 @@ dbus-codegen
 cargo-show
 cargo-show
 tendermint-rpc
+perfcnt
