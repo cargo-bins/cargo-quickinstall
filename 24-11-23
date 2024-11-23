@@ -69,3 +69,4 @@ nhd
 paperclip
 binstall
 cargo-public-api
+cargo-lock
