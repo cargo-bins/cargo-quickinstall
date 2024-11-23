@@ -39,3 +39,4 @@ rkv
 cargo-dylint
 sea-orm-cli
 cargo-spellcheck
+spider_worker
