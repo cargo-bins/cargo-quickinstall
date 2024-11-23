@@ -5,3 +5,4 @@ git-mit
 dbus-codegen
 cargo-show
 cargo-show
+tendermint-rpc
