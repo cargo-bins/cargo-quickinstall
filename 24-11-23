@@ -9,3 +9,4 @@ spider_worker
 re_query
 tree-sitter-cli
 nkeys
+a11ywatch_cli
