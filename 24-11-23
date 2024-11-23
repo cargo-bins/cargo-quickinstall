@@ -38,3 +38,4 @@ paperclip
 binstall
 cargo-lock
 clippy
+slick
