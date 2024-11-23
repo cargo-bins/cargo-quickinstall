@@ -21,3 +21,4 @@ sn_node
 paperclip
 rustbus
 cargo-lock
+cargo-generate
