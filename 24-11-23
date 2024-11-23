@@ -1,2 +1,3 @@
 rustfmt-nightly
 graphql_client_cli
+dbus-codegen
