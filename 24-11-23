@@ -22,3 +22,4 @@ tree-sitter-cli
 nkeys
 a11ywatch_cli
 paperclip
+cargo-lock
