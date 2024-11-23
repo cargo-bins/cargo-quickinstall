@@ -2,3 +2,4 @@ rustfmt-nightly
 cargo-ktra-login
 argus-cli
 dbus-codegen
+alacritty
