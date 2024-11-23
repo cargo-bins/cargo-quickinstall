@@ -15,3 +15,4 @@ nkeys
 a11ywatch_cli
 paperclip
 cargo-lock
+perfcnt
