@@ -4,3 +4,4 @@ dbus-codegen
 tendermint-rpc
 cargo-show
 cargo-show
+stellar-strkey
