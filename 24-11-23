@@ -8,3 +8,4 @@ kanidm_tools
 clipboard-history-tui
 trunk
 tree-sitter-cli
+tendermint-rpc
