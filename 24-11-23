@@ -42,3 +42,4 @@ cargo-spellcheck
 spider_worker
 cargo-flash
 cargo-pgrx
+nu_plugin_query
