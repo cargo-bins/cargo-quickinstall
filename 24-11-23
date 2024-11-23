@@ -40,3 +40,4 @@ cargo-dylint
 sea-orm-cli
 cargo-spellcheck
 spider_worker
+cargo-flash
