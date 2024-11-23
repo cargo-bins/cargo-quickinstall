@@ -8,3 +8,4 @@ solana-net-utils
 solana-validator
 safe_network
 rkv
+spider_worker
