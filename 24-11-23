@@ -20,3 +20,4 @@ omicron-zone-package
 sn_node
 paperclip
 rustbus
+cargo-lock
