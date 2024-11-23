@@ -3,3 +3,4 @@ graphql_client_cli
 dbus-codegen
 graphql_client_cli
 tendermint-rpc
+perfcnt
