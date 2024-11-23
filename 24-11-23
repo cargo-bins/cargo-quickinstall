@@ -7,3 +7,4 @@ perfcnt
 solana-net-utils
 solana-validator
 cargo-udeps
+cargo-c
