@@ -27,3 +27,4 @@ neomake
 cargo-lock
 skim
 sqlx-cli
+mit-pre-commit
