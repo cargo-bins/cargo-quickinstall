@@ -2,3 +2,4 @@ dbus-codegen
 tendermint-rpc
 perfcnt
 solana-net-utils
+solana-validator
