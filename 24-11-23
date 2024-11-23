@@ -8,3 +8,4 @@ tendermint-rpc
 atuin
 perfcnt
 stellar-strkey
+solana-net-utils
