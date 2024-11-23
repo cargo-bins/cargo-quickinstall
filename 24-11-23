@@ -62,3 +62,4 @@ diesel_cli
 cargo-dylint
 nkeys
 clipboard-history-tui
+mdbook-plantuml
