@@ -61,3 +61,4 @@ rmup
 diesel_cli
 cargo-dylint
 nkeys
+clipboard-history-tui
