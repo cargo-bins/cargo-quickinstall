@@ -3,3 +3,4 @@ rustfmt-nightly
 cargo-show
 git-mit
 dbus-codegen
+cargo-show
