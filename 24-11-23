@@ -54,3 +54,4 @@ termscp
 cargo-cli
 clipboard-history-tui
 nu_plugin_gstat
+diesel_cli
