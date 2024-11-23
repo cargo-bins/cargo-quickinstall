@@ -26,3 +26,4 @@ rustbus
 neomake
 cargo-lock
 skim
+sqlx-cli
