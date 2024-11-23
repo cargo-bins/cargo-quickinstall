@@ -37,3 +37,4 @@ graphql_client_cli
 rmup
 rkv
 cargo-dylint
+sea-orm-cli
