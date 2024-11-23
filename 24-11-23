@@ -9,3 +9,4 @@ solana-validator
 safe_network
 rkv
 spider_worker
+re_query
