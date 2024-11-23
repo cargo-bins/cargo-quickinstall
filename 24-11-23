@@ -5,3 +5,4 @@ rustfmt-nightly
 clippy
 gnostr-bins
 racer
+binstall
