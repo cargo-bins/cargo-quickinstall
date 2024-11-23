@@ -5,3 +5,4 @@ graphql_client_cli
 tendermint-rpc
 perfcnt
 solana-net-utils
+solana-validator
