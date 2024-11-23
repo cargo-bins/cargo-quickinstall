@@ -6,3 +6,4 @@ clippy
 gnostr-bins
 racer
 binstall
+tendermint-rpc
