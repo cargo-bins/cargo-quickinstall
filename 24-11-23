@@ -5,3 +5,4 @@ dbus-codegen
 alacritty
 cargo-pgrx
 nu_plugin_query
+cargo-dylint
