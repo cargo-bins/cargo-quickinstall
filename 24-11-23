@@ -4,3 +4,4 @@ rustfmt-nightly
 drg
 dbus-codegen
 tree-sitter-cli
+kanidm_tools
