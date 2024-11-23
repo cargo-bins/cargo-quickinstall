@@ -57,3 +57,4 @@ cargo-spellcheck
 libbpf-cargo
 argus-cli
 nu_plugin_query
+libbpf-cargo
