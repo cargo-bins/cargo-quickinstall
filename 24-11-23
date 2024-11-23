@@ -36,3 +36,4 @@ pijul
 clippy
 paperclip
 binstall
+cargo-lock
