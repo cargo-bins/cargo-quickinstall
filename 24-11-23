@@ -12,3 +12,4 @@ nu_plugin_gstat
 crates-tui
 crates-tui
 binstall
+solana-net-utils
