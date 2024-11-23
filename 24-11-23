@@ -70,3 +70,4 @@ paperclip
 binstall
 cargo-public-api
 cargo-lock
+cargo-flash
