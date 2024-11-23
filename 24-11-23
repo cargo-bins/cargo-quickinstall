@@ -24,3 +24,4 @@ a11ywatch_cli
 paperclip
 cargo-lock
 solana-validator
+mit-pre-commit
