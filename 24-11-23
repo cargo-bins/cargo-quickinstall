@@ -16,3 +16,4 @@ cargo-c
 rkv
 spider_worker
 tauri-cli
+schemafy
