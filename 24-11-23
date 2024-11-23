@@ -22,3 +22,4 @@ cargo-spellcheck
 mdbook-plantuml
 rmup
 termscp
+safe_network
