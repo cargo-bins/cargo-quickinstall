@@ -19,3 +19,4 @@ a11ywatch_cli
 solana-gossip
 paperclip
 cargo-lock
+solana-validator
