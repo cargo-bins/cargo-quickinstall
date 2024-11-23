@@ -52,3 +52,4 @@ re_query
 cargo-flash
 termscp
 cargo-cli
+clipboard-history-tui
