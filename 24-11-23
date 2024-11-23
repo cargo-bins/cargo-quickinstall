@@ -10,3 +10,4 @@ safe_network
 rkv
 spider_worker
 re_query
+tree-sitter-cli
