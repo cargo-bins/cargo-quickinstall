@@ -59,3 +59,4 @@ tod
 sea-orm-cli
 rmup
 diesel_cli
+cargo-dylint
