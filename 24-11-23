@@ -53,3 +53,4 @@ cargo-flash
 termscp
 cargo-cli
 clipboard-history-tui
+nu_plugin_gstat
