@@ -2,3 +2,4 @@ paru
 mdcat
 rustfmt-nightly
 drg
+dbus-codegen
