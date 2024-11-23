@@ -6,3 +6,4 @@ solana-net-utils
 solana-validator
 rkv
 spider_worker
+re_query
