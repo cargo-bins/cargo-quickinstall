@@ -24,3 +24,4 @@ neomake
 paperclip
 rustbus
 neomake
+cargo-lock
