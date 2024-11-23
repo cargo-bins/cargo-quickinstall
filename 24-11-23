@@ -5,3 +5,4 @@ evcxr_repl
 tendermint-rpc
 perfcnt
 solana-net-utils
+solana-validator
