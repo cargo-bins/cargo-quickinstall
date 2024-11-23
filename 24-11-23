@@ -3,3 +3,4 @@ slick
 dbus-codegen
 rustfmt-nightly
 clippy
+gnostr-bins
