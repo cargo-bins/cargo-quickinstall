@@ -39,3 +39,4 @@ binstall
 cargo-lock
 clippy
 slick
+binstall
