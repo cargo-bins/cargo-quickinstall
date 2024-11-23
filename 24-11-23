@@ -50,3 +50,4 @@ nu_plugin_query
 re_query
 cargo-flash
 crates-tui
+nu_plugin_query
