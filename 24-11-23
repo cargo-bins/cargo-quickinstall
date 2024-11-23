@@ -10,3 +10,4 @@ trunk
 tree-sitter-cli
 tendermint-rpc
 stgit
+py-spy
