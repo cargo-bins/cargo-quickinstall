@@ -21,3 +21,4 @@ paperclip
 cargo-lock
 solana-validator
 mit-pre-commit
+cargo-generate
