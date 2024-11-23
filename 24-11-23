@@ -2,3 +2,4 @@ dbus-codegen
 tendermint-rpc
 perfcnt
 stellar-strkey
+solana-net-utils
