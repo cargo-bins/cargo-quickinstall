@@ -16,3 +16,4 @@ pgrx-tests
 cached-path
 git-mit-install
 parquet
+tendermint-rpc
