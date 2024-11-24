@@ -15,3 +15,4 @@ cached-path
 cargo-cli
 cargo-spellcheck
 tree-sitter-cli
+cargo-spellcheck
