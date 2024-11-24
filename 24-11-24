@@ -18,3 +18,4 @@ git-mit-install
 parquet
 tendermint-rpc
 clippy
+tendermint-abci
