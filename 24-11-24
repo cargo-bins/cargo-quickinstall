@@ -27,3 +27,4 @@ cargo-flash
 cargo-maelstrom
 cargo-maelstrom
 nextest-filtering
+tree-sitter-cli
