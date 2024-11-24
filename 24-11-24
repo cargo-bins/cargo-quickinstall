@@ -19,3 +19,4 @@ conceal
 pgrx-tests
 cached-path
 socketcan
+minicbor
