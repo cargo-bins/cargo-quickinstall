@@ -20,3 +20,4 @@ pgrx-tests
 cached-path
 socketcan
 minicbor
+parquet
