@@ -34,3 +34,4 @@ cargo-cli
 venator-app
 below
 unic-langid-impl
+pwasm-utils
