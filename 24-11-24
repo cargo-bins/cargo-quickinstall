@@ -18,3 +18,4 @@ cached-path
 parquet
 tendermint-rpc
 clippy
+tendermint-abci
