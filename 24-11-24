@@ -6,3 +6,4 @@ ducc-sys
 rrule
 nextest-filtering
 cargo-codspeed
+unic-langid-impl
