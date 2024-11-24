@@ -5,3 +5,4 @@ cached-path
 ducc-sys
 rrule
 nextest-filtering
+cargo-codspeed
