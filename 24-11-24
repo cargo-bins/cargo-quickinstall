@@ -16,3 +16,4 @@ a11ywatch_cli
 winpty-rs
 solana-genesis
 pgrx-tests
+cached-path
