@@ -13,3 +13,4 @@ solana-stake-accounts
 sshx
 cached-path
 cargo-cli
+cargo-spellcheck
