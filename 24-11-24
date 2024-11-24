@@ -46,3 +46,4 @@ clippy
 simple-http-server
 lumen
 cargo-maelstrom
+wmi
