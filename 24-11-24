@@ -64,3 +64,4 @@ clippy
 redoxer
 deno
 tree-sitter-graph
+tendermint-abci
