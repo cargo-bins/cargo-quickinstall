@@ -66,3 +66,4 @@ cargo-maelstrom
 parquet
 scope-tui
 clippy
+simple-http-server
