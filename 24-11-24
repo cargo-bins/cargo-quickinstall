@@ -75,3 +75,4 @@ binwalk
 scope-tui
 mdbook-plantuml
 solana-faucet
+tree-sitter-cli
