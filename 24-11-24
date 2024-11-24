@@ -3,3 +3,4 @@ sha1collisiondetection
 solana-stake-accounts
 cached-path
 ducc-sys
+nextest-filtering
