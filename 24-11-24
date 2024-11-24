@@ -22,3 +22,4 @@ socketcan
 minicbor
 parquet
 clippy
+tendermint-abci
