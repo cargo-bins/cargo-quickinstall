@@ -61,3 +61,4 @@ pgrx-tests
 cached-path
 cargo-maelstrom
 mdbook-plantuml
+simple-http-server
