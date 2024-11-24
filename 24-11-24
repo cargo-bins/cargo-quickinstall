@@ -13,3 +13,4 @@ clippy
 solana-tokens
 solana-genesis
 pgrx-tests
+cached-path
