@@ -5,3 +5,4 @@ cached-path
 ducc-sys
 nextest-filtering
 cargo-codspeed
+unic-langid-impl
