@@ -6,3 +6,4 @@ solana-stake-accounts
 cached-path
 ducc-sys
 rrule
+nextest-filtering
