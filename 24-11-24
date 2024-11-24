@@ -18,3 +18,4 @@ winpty-rs
 conceal
 pgrx-tests
 cached-path
+socketcan
