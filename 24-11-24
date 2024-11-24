@@ -63,3 +63,4 @@ clippy
 clippy
 redoxer
 deno
+tree-sitter-graph
