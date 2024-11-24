@@ -16,3 +16,4 @@ a11ywatch_cli
 pgrx-tests
 cached-path
 parquet
+tendermint-rpc
