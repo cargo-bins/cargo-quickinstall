@@ -19,3 +19,4 @@ parquet
 tendermint-rpc
 clippy
 tendermint-abci
+papyrus_storage
