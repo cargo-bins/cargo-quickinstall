@@ -68,3 +68,4 @@ scope-tui
 clippy
 simple-http-server
 binwalk
+hunter
