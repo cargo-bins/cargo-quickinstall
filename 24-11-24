@@ -25,3 +25,4 @@ minicbor
 parquet
 tendermint-rpc
 clippy
+tendermint-abci
