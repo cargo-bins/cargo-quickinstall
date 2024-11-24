@@ -17,3 +17,4 @@ pwasm-utils
 clippy
 usage-cli
 solana-tokens
+winpty-rs
