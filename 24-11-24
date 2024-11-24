@@ -22,3 +22,4 @@ clippy
 tendermint-abci
 html2md
 papyrus_storage
+mit-pre-commit
