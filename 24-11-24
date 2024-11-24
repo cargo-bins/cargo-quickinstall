@@ -21,3 +21,4 @@ socketcan
 git-mit-install
 parquet
 clippy
+tendermint-abci
