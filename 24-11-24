@@ -24,3 +24,4 @@ pgrx-tests
 usage-cli
 musicgpt
 cached-path
+socketcan
