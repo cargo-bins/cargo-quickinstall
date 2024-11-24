@@ -64,3 +64,4 @@ mdbook-plantuml
 simple-http-server
 cargo-maelstrom
 parquet
+scope-tui
