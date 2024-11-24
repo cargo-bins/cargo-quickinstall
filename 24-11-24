@@ -21,3 +21,4 @@ cached-path
 socketcan
 minicbor
 parquet
+clippy
