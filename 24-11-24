@@ -63,3 +63,4 @@ cargo-maelstrom
 mdbook-plantuml
 simple-http-server
 cargo-maelstrom
+parquet
