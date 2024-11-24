@@ -28,3 +28,4 @@ cargo-maelstrom
 cargo-maelstrom
 nextest-filtering
 tree-sitter-cli
+cargo-spellcheck
