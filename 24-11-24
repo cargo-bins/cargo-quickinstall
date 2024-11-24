@@ -4,3 +4,4 @@ solana-stake-accounts
 cached-path
 rrule
 skim
+nextest-filtering
