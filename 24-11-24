@@ -18,3 +18,4 @@ tree-sitter-cli
 cargo-spellcheck
 typst-cli
 lumen
+atuin
