@@ -56,3 +56,4 @@ cargo-pgrx
 gnostr-cli
 schemafy
 cargo-pgrx
+addr2line
