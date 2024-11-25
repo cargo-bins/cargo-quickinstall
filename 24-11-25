@@ -40,3 +40,4 @@ lan-mouse
 schemafy
 cargo-near
 snarkvm
+tendermint-rpc
