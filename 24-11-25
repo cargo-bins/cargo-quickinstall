@@ -49,3 +49,4 @@ sea-orm-cli
 gnostr-cli
 neophyte
 cargo-info
+addr2line
