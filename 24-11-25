@@ -34,3 +34,4 @@ solana-validator
 mise
 tendermint-rpc
 cargo-public-api
+cargo-pgrx
