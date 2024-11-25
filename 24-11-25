@@ -33,3 +33,4 @@ nanocl
 solana-validator
 mise
 tendermint-rpc
+cargo-public-api
