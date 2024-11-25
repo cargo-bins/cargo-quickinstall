@@ -8,3 +8,4 @@ pgrx-tests
 nexmark
 omicron-zone-package
 solana-validator
+tendermint-rpc
