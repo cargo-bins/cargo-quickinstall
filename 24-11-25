@@ -11,3 +11,4 @@ sccache
 solana-validator
 tendermint-rpc
 dotenvy
+schemafy
