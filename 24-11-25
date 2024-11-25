@@ -14,3 +14,4 @@ solana-validator
 tendermint-rpc
 rerun-cli
 dotenvy
+schemafy
