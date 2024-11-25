@@ -4,3 +4,4 @@ sea-orm-cli
 deno
 deno
 tendermint-abci
+pgrx-tests
