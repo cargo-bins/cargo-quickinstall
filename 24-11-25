@@ -7,3 +7,4 @@ pgrx-tests
 py-spy
 nexmark
 solana-validator
+tendermint-rpc
