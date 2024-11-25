@@ -8,3 +8,4 @@ pgrx-tests
 nexmark
 alacritty
 solana-validator
+tendermint-rpc
