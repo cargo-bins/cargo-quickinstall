@@ -19,3 +19,4 @@ solana-validator
 tendermint-rpc
 cargo-flash
 dotenvy
+schemafy
