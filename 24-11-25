@@ -52,3 +52,4 @@ cargo-info
 addr2line
 nextsv
 rrule
+cargo-pgrx
