@@ -6,3 +6,4 @@ remove_dir_all
 pgrx-tests
 py-spy
 nexmark
+solana-validator
