@@ -11,3 +11,4 @@ cargo-embed
 tendermint-abci
 pgrx-tests
 lla
+cargo-flash
