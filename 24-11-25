@@ -23,3 +23,4 @@ pcu
 rustrict
 cargo-near
 mdcat
+remove_dir_all
