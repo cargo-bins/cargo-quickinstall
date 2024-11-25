@@ -26,3 +26,4 @@ deno
 atuin
 cargo-near
 simple-http-server
+scope-tui
