@@ -3,3 +3,4 @@ usage-cli
 cargo-local-registry
 skim
 git-mit-relates-to
+cargo-embed
