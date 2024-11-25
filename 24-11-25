@@ -29,3 +29,4 @@ pgrx-tests
 trunk
 rioterm
 todoist-tui
+cargo-dylint
