@@ -56,3 +56,4 @@ snarkvm
 gnostr-cli
 atuin
 solana-validator
+tendermint-rpc
