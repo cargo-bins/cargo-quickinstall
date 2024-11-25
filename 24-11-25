@@ -9,3 +9,4 @@ nexmark
 omicron-zone-package
 solana-validator
 tendermint-rpc
+dotenvy
