@@ -36,3 +36,4 @@ tendermint-rpc
 cargo-public-api
 cargo-pgrx
 dotenvy
+lan-mouse
