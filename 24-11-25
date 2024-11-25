@@ -14,3 +14,4 @@ scope-tui
 cargo-dylint
 mise
 mise
+cargo-public-api
