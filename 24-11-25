@@ -16,3 +16,4 @@ rerun-cli
 dotenvy
 schemafy
 solana-keygen
+tendermint-rpc
