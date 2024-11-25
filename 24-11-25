@@ -2,3 +2,4 @@ deno
 deno
 tendermint-abci
 rustrict
+remove_dir_all
