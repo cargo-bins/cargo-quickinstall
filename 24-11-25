@@ -9,3 +9,4 @@ pgrx-tests
 sccache
 tendermint-rpc
 dotenvy
+schemafy
