@@ -16,3 +16,4 @@ cargo-flash
 lla
 lla
 solana-validator
+tendermint-rpc
