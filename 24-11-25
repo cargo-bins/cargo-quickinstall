@@ -3,3 +3,4 @@ addr2line
 shadowsocks-rust
 tendermint-abci
 rustrict
+pgrx-tests
