@@ -12,3 +12,4 @@ tendermint-rpc
 dotenvy
 solana-keygen
 schemafy
+solana-genesis
