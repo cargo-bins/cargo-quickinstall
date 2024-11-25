@@ -9,3 +9,4 @@ pgrx-tests
 nexmark
 sccache
 solana-validator
+tendermint-rpc
