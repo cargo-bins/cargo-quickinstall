@@ -40,3 +40,4 @@ cargo-near
 solana-validator
 binwalk
 nextsv
+tendermint-rpc
