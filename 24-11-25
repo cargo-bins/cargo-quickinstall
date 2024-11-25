@@ -4,3 +4,4 @@ tendermint-abci
 rustrict
 remove_dir_all
 pgrx-tests
+py-spy
