@@ -16,3 +16,4 @@ nu
 solana-genesis
 snarkvm
 solana-validator
+tendermint-rpc
