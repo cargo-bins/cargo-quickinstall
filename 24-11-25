@@ -17,3 +17,4 @@ addr2line
 deno
 deno
 tendermint-abci
+pgrx-tests
