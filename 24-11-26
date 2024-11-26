@@ -10,3 +10,4 @@ trunk
 coldsnap
 rustbus
 trunk
+rls-rustc
