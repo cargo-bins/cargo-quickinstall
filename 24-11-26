@@ -10,3 +10,4 @@ rustbus
 rls-rustc
 nkeys
 nexmark
+dbus-codegen
