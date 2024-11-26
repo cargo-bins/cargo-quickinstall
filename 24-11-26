@@ -7,3 +7,4 @@ solana-gossip
 trunk
 probe-rs-cli
 trunk
+coldsnap
