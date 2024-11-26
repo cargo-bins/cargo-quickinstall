@@ -17,3 +17,4 @@ cargo-about
 pgrx-tests
 arrow-flight
 dotenv
+mit-pre-commit
