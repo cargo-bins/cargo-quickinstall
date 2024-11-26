@@ -51,3 +51,4 @@ binstall
 binstall
 cargo-public-api
 cargo-count
+dotenvy
