@@ -14,3 +14,4 @@ rls-rustc
 probe-rs-cli
 trunk
 nkeys
+nexmark
