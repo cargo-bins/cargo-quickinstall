@@ -59,3 +59,4 @@ dedoc
 wallhaven
 diesel_cli
 forgejo-cli
+dotenv
