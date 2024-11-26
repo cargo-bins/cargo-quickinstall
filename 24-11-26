@@ -27,3 +27,4 @@ graphql_client_cli
 cargo-info
 nkeys
 nexmark
+clipboard-history
