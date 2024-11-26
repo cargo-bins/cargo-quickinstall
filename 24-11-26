@@ -10,3 +10,4 @@ cargo-codspeed
 py-spy
 cargo-c
 dbus-codegen
+sea-orm-cli
