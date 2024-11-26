@@ -18,3 +18,4 @@ dotenv
 mit-pre-commit
 syd
 sea-orm-cli
+clippy
