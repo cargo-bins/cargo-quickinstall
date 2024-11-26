@@ -16,3 +16,4 @@ dbus-codegen
 runst
 gnostr-bins
 solana-stake-accounts
+pgrx-tests
