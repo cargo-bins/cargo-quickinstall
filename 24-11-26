@@ -7,3 +7,4 @@ cargo-outdated
 rls-rustc
 nkeys
 nexmark
+cargo-codspeed
