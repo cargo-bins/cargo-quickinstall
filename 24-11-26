@@ -6,3 +6,4 @@ solana-gossip
 cargo-outdated
 rls-rustc
 nkeys
+nexmark
