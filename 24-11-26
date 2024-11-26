@@ -18,3 +18,4 @@ nexmark
 probe-rs-cli
 probe-rs-cli
 dbus-codegen
+probe-rs-cli
