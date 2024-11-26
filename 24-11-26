@@ -15,3 +15,4 @@ arrow-flight
 dotenv
 sea-orm-cli
 syd
+clippy
