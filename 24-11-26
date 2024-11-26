@@ -16,3 +16,4 @@ sea-orm-cli
 cargo-about
 pgrx-tests
 arrow-flight
+dotenv
