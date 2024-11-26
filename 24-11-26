@@ -53,3 +53,4 @@ cargo-public-api
 cargo-count
 dotenvy
 qsv
+pgrx-tests
