@@ -8,3 +8,4 @@ rls-rustc
 nkeys
 nexmark
 cargo-codspeed
+spider_cli
