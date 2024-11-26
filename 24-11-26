@@ -12,3 +12,4 @@ spider_cli
 py-spy
 cargo-c
 dbus-codegen
+sea-orm-cli
