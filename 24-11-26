@@ -3,3 +3,4 @@ perfcnt
 cargo-outdated
 solana-gossip
 cargo-outdated
+rls-rustc
