@@ -18,3 +18,4 @@ dbus-codegen
 sea-orm-cli
 solana-stake-accounts
 dotenvy
+pgrx-tests
