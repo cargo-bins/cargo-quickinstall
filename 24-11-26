@@ -21,3 +21,4 @@ dbus-codegen
 probe-rs-cli
 dotenv
 syd
+clippy
