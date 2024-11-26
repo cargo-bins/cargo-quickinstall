@@ -9,3 +9,4 @@ nexmark
 cargo-codspeed
 py-spy
 cargo-c
+dbus-codegen
