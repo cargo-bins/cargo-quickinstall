@@ -54,3 +54,4 @@ trusted-signing-cli
 dedoc
 arrow-flight
 trusted-signing-cli
+dotenv
