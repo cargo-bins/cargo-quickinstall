@@ -13,3 +13,4 @@ dotenvy
 pgrx-tests
 arrow-flight
 dotenv
+sea-orm-cli
