@@ -2,3 +2,4 @@ mdcat
 deploy
 hurl
 fend
+cargo-dylint
