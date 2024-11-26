@@ -21,3 +21,4 @@ pgrx-tests
 ec2_instance_metadata
 dotenv
 mit-pre-commit
+syd
