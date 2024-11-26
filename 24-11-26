@@ -19,3 +19,4 @@ holochain
 pgrx-tests
 dotenv
 syd
+clippy
