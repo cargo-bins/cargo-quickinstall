@@ -6,3 +6,4 @@ solana-gossip
 benfred-read-process-memory
 arrow-flight
 coldsnap
+rustbus
