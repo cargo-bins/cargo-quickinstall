@@ -8,3 +8,4 @@ pgrx-tests
 cargo-public-api
 cargo-dylint
 todoist-tui
+clipboard-history
