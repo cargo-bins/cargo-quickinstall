@@ -6,3 +6,4 @@ pwasm-utils
 rls-rustc
 nkeys
 nexmark
+py-spy
