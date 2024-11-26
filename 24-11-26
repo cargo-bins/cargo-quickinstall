@@ -4,3 +4,4 @@ pwasm-utils
 sn_cli
 solana-gossip
 benfred-read-process-memory
+arrow-flight
