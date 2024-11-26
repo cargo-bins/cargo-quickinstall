@@ -32,3 +32,4 @@ addr2line
 qsv
 askii
 py-spy
+dbus-codegen
