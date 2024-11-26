@@ -50,3 +50,4 @@ tree-sitter-cli
 binstall
 binstall
 cargo-public-api
+cargo-count
