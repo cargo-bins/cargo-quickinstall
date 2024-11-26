@@ -28,3 +28,4 @@ cargo-info
 nkeys
 nexmark
 clipboard-history
+addr2line
