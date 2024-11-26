@@ -2,3 +2,4 @@ deploy
 runst
 perfcnt
 diesel_cli
+rerun-cli
