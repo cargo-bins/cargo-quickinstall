@@ -11,3 +11,4 @@ coldsnap
 rustbus
 trunk
 rls-rustc
+probe-rs-cli
