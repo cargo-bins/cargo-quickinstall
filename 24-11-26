@@ -5,3 +5,4 @@ lla
 cargo-embed
 solana-gossip
 trunk
+probe-rs-cli
