@@ -22,3 +22,4 @@ probe-rs-cli
 dotenv
 syd
 clippy
+sqlx-cli
