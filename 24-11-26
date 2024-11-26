@@ -41,3 +41,4 @@ fend
 py-spy
 ncspot
 dbus-codegen
+addr2line
