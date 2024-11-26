@@ -7,3 +7,4 @@ rls-rustc
 nkeys
 nexmark
 cargo-codspeed
+py-spy
