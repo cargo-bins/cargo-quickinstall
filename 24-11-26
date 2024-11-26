@@ -10,3 +10,4 @@ py-spy
 dbus-codegen
 sea-orm-cli
 dotenvy
+pgrx-tests
