@@ -6,3 +6,4 @@ mise
 redoxer
 pgrx-tests
 cargo-public-api
+cargo-dylint
