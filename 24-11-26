@@ -7,3 +7,4 @@ benfred-read-process-memory
 arrow-flight
 coldsnap
 rustbus
+rls-rustc
