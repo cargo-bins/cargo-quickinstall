@@ -9,3 +9,4 @@ probe-rs-cli
 trunk
 coldsnap
 rustbus
+trunk
