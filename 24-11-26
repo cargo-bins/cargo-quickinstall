@@ -12,3 +12,4 @@ cargo-c
 dbus-codegen
 sea-orm-cli
 dotenvy
+cargo-about
