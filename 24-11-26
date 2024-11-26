@@ -11,3 +11,4 @@ dbus-codegen
 sea-orm-cli
 dotenvy
 pgrx-tests
+arrow-flight
