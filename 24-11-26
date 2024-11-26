@@ -1,3 +1,4 @@
 deploy
 pgrx-tests
 perfcnt
+cargo-outdated
