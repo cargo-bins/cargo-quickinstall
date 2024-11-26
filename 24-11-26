@@ -34,3 +34,4 @@ cargo-info
 graphql_client_cli
 nkeys
 tree-sitter-cli
+nexmark
