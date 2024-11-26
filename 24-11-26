@@ -15,3 +15,4 @@ dbus-codegen
 sea-orm-cli
 cargo-about
 pgrx-tests
+arrow-flight
