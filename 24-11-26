@@ -5,3 +5,4 @@ diesel_cli
 pwasm-utils
 rls-rustc
 nkeys
+nexmark
