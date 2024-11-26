@@ -2,3 +2,4 @@ deploy
 perfcnt
 pwasm-utils
 sn_cli
+solana-gossip
