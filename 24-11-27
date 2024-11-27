@@ -37,3 +37,4 @@ cargo-whatfeatures
 graphql_client_cli
 gitignored-cli
 cargo-count
+nkeys
