@@ -53,3 +53,4 @@ cargo-show
 trusted-signing-cli
 probe-rs-tools
 zizmor
+deno
