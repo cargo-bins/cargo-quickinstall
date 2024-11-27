@@ -4,3 +4,4 @@ rustrict
 graphql_client_cli
 qsv
 tree-sitter-cli
+sea-orm-cli
