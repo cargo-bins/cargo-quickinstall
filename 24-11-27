@@ -21,3 +21,4 @@ cargo-info
 tgt
 arrow-flight
 trusted-signing-cli
+parquet
