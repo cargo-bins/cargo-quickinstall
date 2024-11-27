@@ -6,3 +6,4 @@ cargo-local-registry
 re_query
 cargo-udeps
 arrow-flight
+parquet
