@@ -12,3 +12,4 @@ tzupdate
 dotenvy
 tzupdate
 nkeys
+tendermint-rpc
