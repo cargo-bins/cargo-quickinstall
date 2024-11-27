@@ -15,3 +15,4 @@ nkeys
 tendermint-rpc
 dotenv
 cargo-lock
+wol-rs
