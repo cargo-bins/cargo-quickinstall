@@ -6,3 +6,4 @@ parquet
 oxipng
 opencv-binding-generator
 cargo-whatfeatures
+cargo-spellcheck
