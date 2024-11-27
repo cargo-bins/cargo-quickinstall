@@ -14,3 +14,4 @@ nkeys
 cargo-spellcheck
 tendermint-rpc
 dotenv
+cargo-whatfeatures
