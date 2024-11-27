@@ -45,3 +45,4 @@ cargo-info
 dotenv
 cargo-smart-release
 cargo-smart-release
+cargo-whatfeatures
