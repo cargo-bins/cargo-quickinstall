@@ -2,3 +2,4 @@ rustrict
 benfred-read-process-memory
 ec2_instance_metadata
 remove_dir_all
+cargo-local-registry
