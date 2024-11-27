@@ -19,3 +19,4 @@ dotenv
 git-disjoint
 cargo-lock
 diesel_cli
+solana-gossip
