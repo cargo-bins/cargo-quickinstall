@@ -2,3 +2,4 @@ spider_cli
 cargo-udeps
 rustrict
 remove_dir_all
+cargo-local-registry
