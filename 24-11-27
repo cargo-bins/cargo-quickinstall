@@ -26,3 +26,4 @@ git-disjoint
 cargo-lock
 tzupdate
 tzupdate
+binstall
