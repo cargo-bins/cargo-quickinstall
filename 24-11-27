@@ -12,3 +12,4 @@ dotenv
 git-disjoint
 cargo-lock
 diesel_cli
+dotenv
