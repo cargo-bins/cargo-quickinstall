@@ -2,3 +2,4 @@ spider_cli
 rustrict
 remove_dir_all
 re_query
+parquet
