@@ -9,3 +9,4 @@ parquet
 cargo-vet
 sn_node
 coldsnap
+opencv-binding-generator
