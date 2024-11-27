@@ -18,3 +18,4 @@ nkeys
 tendermint-rpc
 dotenv
 git-disjoint
+cargo-lock
