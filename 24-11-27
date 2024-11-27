@@ -8,3 +8,4 @@ cargo-udeps
 arrow-flight
 parquet
 tree-sitter-graph
+opencv-binding-generator
