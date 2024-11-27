@@ -3,3 +3,4 @@ rustrict
 sqlx-cli
 cargo-local-registry
 sqlx-cli
+coldsnap
