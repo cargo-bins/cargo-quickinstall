@@ -20,3 +20,4 @@ cargo-count
 cargo-info
 tgt
 arrow-flight
+trusted-signing-cli
