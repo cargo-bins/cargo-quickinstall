@@ -5,3 +5,4 @@ cargo-local-registry
 sqlx-cli
 coldsnap
 re_query
+arrow-flight
