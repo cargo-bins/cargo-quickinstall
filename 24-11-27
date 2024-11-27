@@ -43,3 +43,4 @@ tendermint-rpc
 cargo-whatfeatures
 cargo-info
 dotenv
+cargo-smart-release
