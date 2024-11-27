@@ -10,3 +10,4 @@ dotenvy
 nkeys
 dotenv
 git-disjoint
+cargo-lock
