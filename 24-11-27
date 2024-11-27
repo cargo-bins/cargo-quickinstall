@@ -12,3 +12,4 @@ tree-sitter-graph
 hurl
 rustfmt-nightly
 tzupdate
+opencv-binding-generator
