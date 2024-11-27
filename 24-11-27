@@ -42,3 +42,4 @@ tendermint-rpc
 gitignored-cli
 tgt
 lifecycler
+dotenv
