@@ -14,3 +14,4 @@ tzupdate
 nkeys
 tendermint-rpc
 dotenv
+git-disjoint
