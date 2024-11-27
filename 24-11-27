@@ -4,3 +4,4 @@ remove_dir_all
 re_query
 parquet
 tree-sitter-graph
+opencv-binding-generator
