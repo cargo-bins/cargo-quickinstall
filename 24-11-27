@@ -20,3 +20,4 @@ dotenv
 git-disjoint
 cargo-lock
 wol-rs
+diesel_cli
