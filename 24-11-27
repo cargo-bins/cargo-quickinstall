@@ -21,3 +21,4 @@ git-disjoint
 cargo-lock
 wol-rs
 diesel_cli
+sn_node
