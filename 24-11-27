@@ -39,3 +39,4 @@ cargo-show
 cargo-info
 nkeys
 cargo-whatfeatures
+tendermint-rpc
