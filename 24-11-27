@@ -20,3 +20,4 @@ tendermint-rpc
 airshipper
 dotenv
 tzupdate
+hurl
