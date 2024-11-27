@@ -18,3 +18,4 @@ nkeys
 airshipper
 tendermint-rpc
 airshipper
+dotenv
