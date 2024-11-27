@@ -42,3 +42,4 @@ cargo-whatfeatures
 tendermint-rpc
 cargo-whatfeatures
 cargo-info
+dotenv
