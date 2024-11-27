@@ -7,3 +7,4 @@ coldsnap
 re_query
 parquet
 cargo-vet
+sn_node
