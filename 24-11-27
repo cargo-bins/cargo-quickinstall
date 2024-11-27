@@ -60,3 +60,4 @@ probe-rs-tools
 tgt
 llama-desktop
 solana-gossip
+dotenv
