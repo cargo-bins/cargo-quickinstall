@@ -8,3 +8,4 @@ opencv-binding-generator
 papyrus_storage
 dotenvy
 nkeys
+dotenv
