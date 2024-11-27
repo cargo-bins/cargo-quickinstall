@@ -38,3 +38,4 @@ dotenvy
 cargo-show
 cargo-info
 nkeys
+cargo-whatfeatures
