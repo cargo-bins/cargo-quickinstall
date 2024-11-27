@@ -43,3 +43,4 @@ gitignored-cli
 tgt
 lifecycler
 dotenv
+speedtest-rs
