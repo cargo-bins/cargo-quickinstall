@@ -22,3 +22,4 @@ git-disjoint
 cargo-lock
 cargo-spellcheck
 clippy
+solana-gossip
