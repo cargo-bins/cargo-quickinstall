@@ -8,3 +8,4 @@ rustfmt-nightly
 parquet
 airshipper
 av1an
+tree-sitter-graph
