@@ -7,3 +7,4 @@ re_query
 cargo-udeps
 arrow-flight
 parquet
+tree-sitter-graph
