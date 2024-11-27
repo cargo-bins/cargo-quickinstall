@@ -6,3 +6,4 @@ sqlx-cli
 coldsnap
 re_query
 arrow-flight
+parquet
