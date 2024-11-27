@@ -8,3 +8,4 @@ cargo-udeps
 arrow-flight
 parquet
 re_query
+opencv-binding-generator
