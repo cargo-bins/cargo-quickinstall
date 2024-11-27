@@ -40,3 +40,4 @@ cargo-count
 nkeys
 tendermint-rpc
 gitignored-cli
+tgt
