@@ -47,3 +47,4 @@ speedtest-rs
 tgt
 trusted-signing-cli
 mise
+cargo-smart-release
