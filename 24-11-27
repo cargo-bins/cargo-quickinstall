@@ -48,3 +48,4 @@ cargo-smart-release
 cargo-whatfeatures
 git-disjoint
 rsql_cli
+cargo-lock
