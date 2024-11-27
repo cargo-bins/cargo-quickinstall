@@ -7,3 +7,4 @@ coldsnap
 re_query
 arrow-flight
 parquet
+tree-sitter-graph
