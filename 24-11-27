@@ -20,3 +20,4 @@ cargo-spellcheck
 cargo-whatfeatures
 git-disjoint
 cargo-lock
+cargo-spellcheck
