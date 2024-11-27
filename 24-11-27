@@ -51,3 +51,4 @@ cargo-smart-release
 mise
 lifecycler
 git-disjoint
+graphql_client_cli
