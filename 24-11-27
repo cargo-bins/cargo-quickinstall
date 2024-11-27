@@ -24,3 +24,4 @@ diesel_cli
 sn_node
 solana-gossip
 dotenv
+honggfuzz
