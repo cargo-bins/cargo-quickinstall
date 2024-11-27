@@ -15,3 +15,4 @@ cargo-spellcheck
 tendermint-rpc
 dotenv
 cargo-whatfeatures
+cargo-spellcheck
