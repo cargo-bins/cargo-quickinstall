@@ -4,3 +4,4 @@ rustrict
 remove_dir_all
 cargo-local-registry
 re_query
+cargo-udeps
