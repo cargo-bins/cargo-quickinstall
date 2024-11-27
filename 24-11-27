@@ -21,3 +21,4 @@ cargo-lock
 diesel_cli
 solana-gossip
 dotenv
+a11ywatch_cli
