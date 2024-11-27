@@ -17,3 +17,4 @@ dotenvy
 nkeys
 tendermint-rpc
 dotenv
+git-disjoint
