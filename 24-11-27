@@ -2,3 +2,4 @@ c2patool
 rustrict
 sqlx-cli
 cargo-local-registry
+sqlx-cli
