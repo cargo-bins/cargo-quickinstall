@@ -50,3 +50,4 @@ git-disjoint
 rsql_cli
 cargo-lock
 cargo-show
+trusted-signing-cli
