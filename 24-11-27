@@ -28,3 +28,4 @@ cargo-count
 tgt
 opencv-binding-generator
 trusted-signing-cli
+cargo-whatfeatures
