@@ -19,3 +19,4 @@ cargo-lock
 tzupdate
 tzupdate
 diesel_cli
+dotenv
