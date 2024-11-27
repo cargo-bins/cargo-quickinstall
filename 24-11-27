@@ -8,3 +8,4 @@ sea-orm-cli
 qsv
 trusted-signing-cli
 forgejo-cli
+dedoc
