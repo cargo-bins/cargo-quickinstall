@@ -13,3 +13,4 @@ hurl
 rustfmt-nightly
 tzupdate
 opencv-binding-generator
+dotenvy
