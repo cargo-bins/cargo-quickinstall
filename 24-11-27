@@ -36,3 +36,4 @@ fend
 cargo-whatfeatures
 dotenvy
 cargo-show
+cargo-info
