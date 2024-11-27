@@ -16,3 +16,4 @@ tendermint-rpc
 dotenv
 cargo-lock
 wol-rs
+diesel_cli
