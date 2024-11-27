@@ -18,3 +18,4 @@ cargo-lock
 wol-rs
 diesel_cli
 solana-gossip
+dotenv
