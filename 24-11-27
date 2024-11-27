@@ -26,3 +26,4 @@ gitignored-cli
 wallhaven
 cargo-count
 tgt
+opencv-binding-generator
