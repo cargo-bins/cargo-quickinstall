@@ -16,3 +16,4 @@ papyrus_storage
 dotenvy
 nkeys
 tendermint-rpc
+dotenv
