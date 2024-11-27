@@ -30,3 +30,4 @@ fend
 tgt
 cargo-whatfeatures
 trusted-signing-cli
+opencv-binding-generator
