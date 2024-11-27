@@ -18,3 +18,4 @@ dotenvy
 dotenv
 nkeys
 tendermint-rpc
+git-disjoint
