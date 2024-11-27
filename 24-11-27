@@ -4,3 +4,4 @@ airshipper
 re_query
 airshipper
 hurl
+rustfmt-nightly
