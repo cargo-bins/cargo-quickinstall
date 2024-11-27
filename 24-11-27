@@ -34,3 +34,4 @@ speedtest-rs
 papyrus_storage
 dotenvy
 cargo-whatfeatures
+graphql_client_cli
