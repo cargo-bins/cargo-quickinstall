@@ -12,3 +12,4 @@ cargo-whatfeatures
 dotenvy
 nkeys
 cargo-spellcheck
+tendermint-rpc
