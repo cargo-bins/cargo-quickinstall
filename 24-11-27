@@ -27,3 +27,4 @@ cargo-lock
 tzupdate
 tzupdate
 binstall
+dotenv
