@@ -21,3 +21,4 @@ tendermint-rpc
 git-disjoint
 cargo-lock
 clippy
+solana-gossip
