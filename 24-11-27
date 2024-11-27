@@ -60,3 +60,4 @@ cargo-whatfeatures
 dotenv
 gitignored-cli
 cavif
+trusted-signing-cli
