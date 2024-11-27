@@ -5,3 +5,4 @@ remove_dir_all
 cargo-local-registry
 coldsnap
 re_query
+parquet
