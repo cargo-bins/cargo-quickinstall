@@ -13,3 +13,4 @@ dotenvy
 tzupdate
 nkeys
 tendermint-rpc
+dotenv
