@@ -22,3 +22,4 @@ git-disjoint
 cargo-lock
 clippy
 solana-gossip
+honggfuzz
