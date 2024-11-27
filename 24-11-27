@@ -6,3 +6,4 @@ parquet
 tree-sitter-graph
 opencv-binding-generator
 papyrus_storage
+dotenvy
