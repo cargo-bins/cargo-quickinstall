@@ -17,3 +17,4 @@ re_query
 clipboard-history
 dedoc
 cargo-count
+cargo-info
