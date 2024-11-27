@@ -14,3 +14,4 @@ dotenvy
 nkeys
 tendermint-rpc
 dotenv
+cargo-lock
