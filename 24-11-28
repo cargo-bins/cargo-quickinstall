@@ -68,3 +68,4 @@ markdown-test-report
 typst-cli
 cargo-embassy
 clipboard-history-tui
+virtiofsd
