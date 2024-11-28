@@ -4,3 +4,4 @@ rrule
 clippy
 schemafy
 git-disjoint
+addr2line
