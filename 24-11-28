@@ -65,3 +65,4 @@ ssl-expiration
 sea-orm-cli
 clipboard-history-tui
 markdown-test-report
+typst-cli
