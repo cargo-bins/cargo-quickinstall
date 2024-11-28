@@ -33,3 +33,4 @@ probe-rs-tools
 papyrus_storage
 virtiofsd
 rioterm
+typst-cli
