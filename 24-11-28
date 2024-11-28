@@ -60,3 +60,4 @@ cavif
 cargo-embassy
 stgit
 argus-cli
+tui-journal
