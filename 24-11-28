@@ -15,3 +15,4 @@ deno
 tauri-cli
 tauri-cli
 addr2line
+cargo-tarpaulin
