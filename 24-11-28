@@ -11,3 +11,4 @@ git-disjoint
 deno
 addr2line
 librespot
+cargo-lock
