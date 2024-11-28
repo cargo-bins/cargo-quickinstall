@@ -69,3 +69,4 @@ typst-cli
 cargo-embassy
 clipboard-history-tui
 virtiofsd
+ruskel
