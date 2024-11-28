@@ -20,3 +20,4 @@ addr2line
 cargo-tarpaulin
 cargo-lock
 git-mit-config
+cargo-outdated
