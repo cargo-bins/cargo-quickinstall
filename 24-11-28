@@ -20,3 +20,4 @@ cargo-lock
 h3o
 git-mit-config
 cargo-outdated
+tauri-cli
