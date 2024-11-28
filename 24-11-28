@@ -4,3 +4,4 @@ probe-rs-tools
 lifecycler
 human_bytes
 rioterm
+alacritty
