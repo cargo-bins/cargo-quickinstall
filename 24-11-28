@@ -61,3 +61,4 @@ cargo-embassy
 stgit
 argus-cli
 tui-journal
+ssl-expiration
