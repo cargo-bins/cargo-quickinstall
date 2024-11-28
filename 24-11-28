@@ -57,3 +57,4 @@ cargo-lock
 ruskel
 alert-after
 cavif
+cargo-embassy
