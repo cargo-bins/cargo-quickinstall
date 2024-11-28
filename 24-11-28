@@ -43,3 +43,4 @@ probe-rs-tools
 amdgpu_top
 virtiofsd
 xplr
+addr2line
