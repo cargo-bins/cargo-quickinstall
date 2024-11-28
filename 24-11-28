@@ -16,3 +16,4 @@ cargo-show
 gitignored-cli
 virtiofsd
 arx
+py-spy
