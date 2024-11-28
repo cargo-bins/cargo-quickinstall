@@ -70,3 +70,4 @@ cargo-embassy
 clipboard-history-tui
 virtiofsd
 ruskel
+tui-journal
