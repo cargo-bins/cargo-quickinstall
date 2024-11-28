@@ -4,3 +4,4 @@ tree-sitter-graph
 rrule
 clippy
 mit-pre-commit
+py-spy
