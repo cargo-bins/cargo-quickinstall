@@ -21,3 +21,4 @@ cargo-tarpaulin
 cargo-lock
 git-mit-config
 cargo-outdated
+tree-sitter-cli
