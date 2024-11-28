@@ -56,3 +56,4 @@ nvd_cve
 speedtest-rs
 clipboard-history-tui
 markdown-test-report
+cargo-embassy
