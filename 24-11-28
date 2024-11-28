@@ -22,3 +22,4 @@ git-mit-config
 cargo-outdated
 tauri-cli
 spider_worker
+tree-sitter-cli
