@@ -7,3 +7,4 @@ schemafy
 diesel_cli
 git-disjoint
 deno
+addr2line
