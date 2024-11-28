@@ -13,3 +13,4 @@ git-disjoint
 text-diff
 deno
 addr2line
+benfred-read-process-memory
