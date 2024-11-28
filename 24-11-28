@@ -45,3 +45,4 @@ virtiofsd
 xplr
 addr2line
 lifecycler
+graphql_client_cli
