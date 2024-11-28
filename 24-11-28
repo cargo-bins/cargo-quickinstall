@@ -9,3 +9,4 @@ spider_worker
 papyrus_storage
 git-disjoint
 deno
+addr2line
