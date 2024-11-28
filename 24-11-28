@@ -72,3 +72,4 @@ virtiofsd
 ruskel
 tui-journal
 spider_worker
+lifecycler
