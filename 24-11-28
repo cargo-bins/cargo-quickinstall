@@ -27,3 +27,4 @@ cargo-dylint
 spider_worker
 llama-desktop
 cargo-smart-release
+nvd_cve
