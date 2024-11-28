@@ -7,3 +7,4 @@ cargo-generate
 rrule
 clippy
 mit-pre-commit
+py-spy
