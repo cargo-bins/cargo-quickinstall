@@ -45,3 +45,4 @@ cargo-smart-release
 virtiofsd
 amdgpu_top
 stgit
+addr2line
