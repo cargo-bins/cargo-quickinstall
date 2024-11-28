@@ -29,3 +29,4 @@ llama-desktop
 cargo-smart-release
 nvd_cve
 llama-desktop
+probe-rs-tools
