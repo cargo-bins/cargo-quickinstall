@@ -13,3 +13,4 @@ addr2line
 librespot
 cargo-lock
 starship
+spider_worker
