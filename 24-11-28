@@ -17,3 +17,4 @@ tauri-cli
 addr2line
 cargo-tarpaulin
 cargo-lock
+h3o
