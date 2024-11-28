@@ -14,3 +14,4 @@ git-mit-install
 deno
 tauri-cli
 tauri-cli
+addr2line
