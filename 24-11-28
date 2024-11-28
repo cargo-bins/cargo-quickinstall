@@ -55,3 +55,4 @@ cargo-smart-release
 nvd_cve
 speedtest-rs
 clipboard-history-tui
+markdown-test-report
