@@ -32,3 +32,4 @@ lifecycler
 ssl-expiration
 xplr
 cargo-smart-release
+nvd_cve
