@@ -35,3 +35,4 @@ cargo-smart-release
 nvd_cve
 cavif
 lifecycler
+git-disjoint
