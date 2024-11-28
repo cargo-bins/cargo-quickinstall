@@ -62,3 +62,4 @@ stgit
 argus-cli
 tui-journal
 ssl-expiration
+sea-orm-cli
