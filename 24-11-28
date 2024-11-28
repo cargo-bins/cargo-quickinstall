@@ -12,3 +12,4 @@ evcxr_repl
 papyrus_storage
 git-mit-install
 deno
+tauri-cli
