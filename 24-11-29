@@ -13,3 +13,4 @@ crates-tui
 probe-rs-tools
 hurl
 z3tracer
+spider_cli
