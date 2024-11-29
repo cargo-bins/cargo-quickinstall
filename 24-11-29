@@ -6,3 +6,4 @@ dotenvy
 cargo-embassy
 amdgpu_top
 stellar-strkey
+argus-cli
