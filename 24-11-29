@@ -17,3 +17,4 @@ spider_cli
 probe-rs-tools
 starship
 crates-tui
+hurl
