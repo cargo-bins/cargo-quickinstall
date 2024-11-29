@@ -21,3 +21,4 @@ unic-langid-impl
 wol-rs
 ducc-sys
 diesel_cli
+gpg-tui
