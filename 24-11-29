@@ -13,3 +13,4 @@ tendermint-rpc
 iai-callgrind-runner
 sqlx-cli
 lla
+raw-cpuid
