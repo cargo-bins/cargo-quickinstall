@@ -22,3 +22,4 @@ tendermint-rpc
 typst-cli
 cargo-show
 bun
+spider_cli
