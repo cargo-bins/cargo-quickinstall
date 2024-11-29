@@ -6,3 +6,4 @@ git-mit
 tendermint-rpc
 spider_cli
 sqlx-cli
+raw-cpuid
