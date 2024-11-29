@@ -38,3 +38,4 @@ deploy
 deploy
 rustfmt-nightly
 rustrict
+apollo-router
