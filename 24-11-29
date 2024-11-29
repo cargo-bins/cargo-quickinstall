@@ -8,3 +8,4 @@ z3tracer
 spider_cli
 solana-cli
 sqlx-cli
+raw-cpuid
