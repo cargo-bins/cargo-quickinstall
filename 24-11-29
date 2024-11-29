@@ -11,3 +11,4 @@ dotenvy
 cargo-duplicates
 cargo-duplicates
 gpg-tui
+raw-cpuid
