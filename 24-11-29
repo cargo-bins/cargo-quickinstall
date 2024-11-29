@@ -23,3 +23,4 @@ typst-cli
 cargo-show
 bun
 spider_cli
+solana-cli
