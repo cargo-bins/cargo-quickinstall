@@ -17,3 +17,4 @@ argus-cli
 deploy
 addr2line
 gpg-tui
+unic-langid-impl
