@@ -18,3 +18,4 @@ cargo-embassy
 stgit
 markdown-test-report
 rg
+tendermint-rpc
