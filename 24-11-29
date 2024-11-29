@@ -22,3 +22,4 @@ wol-rs
 ducc-sys
 diesel_cli
 gpg-tui
+deploy
