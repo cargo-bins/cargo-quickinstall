@@ -51,3 +51,4 @@ deploy
 rustfmt-nightly
 rustrict
 bluetui
+papyrus_storage
