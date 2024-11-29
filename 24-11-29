@@ -6,3 +6,4 @@ probe-rs-tools
 diesel_cli
 dotenvy
 hurl
+stellar-strkey
