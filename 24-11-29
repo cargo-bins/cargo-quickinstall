@@ -16,3 +16,4 @@ z3tracer
 spider_cli
 probe-rs-tools
 starship
+crates-tui
