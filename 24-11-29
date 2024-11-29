@@ -5,3 +5,4 @@ java-locator
 git-mit
 tendermint-rpc
 spider_cli
+sqlx-cli
