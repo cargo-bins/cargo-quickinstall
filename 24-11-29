@@ -18,3 +18,4 @@ deploy
 deploy
 rustfmt-nightly
 rustrict
+papyrus_storage
