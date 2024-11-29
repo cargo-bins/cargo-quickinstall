@@ -7,3 +7,4 @@ skim
 z3tracer
 tokio-process
 iai-callgrind-runner
+sqlx-cli
