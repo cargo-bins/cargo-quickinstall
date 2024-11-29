@@ -48,3 +48,4 @@ scap
 deploy
 sniffnet
 deploy
+rustfmt-nightly
