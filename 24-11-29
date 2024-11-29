@@ -13,3 +13,4 @@ cargo-duplicates
 gpg-tui
 raw-cpuid
 syd
+argus-cli
