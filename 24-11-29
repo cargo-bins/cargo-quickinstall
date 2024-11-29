@@ -19,3 +19,4 @@ addr2line
 gpg-tui
 unic-langid-impl
 wol-rs
+ducc-sys
