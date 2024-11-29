@@ -4,3 +4,4 @@ starship
 wol-rs
 probe-rs-tools
 diesel_cli
+dotenvy
