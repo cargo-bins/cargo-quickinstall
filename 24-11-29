@@ -15,3 +15,4 @@ raw-cpuid
 syd
 argus-cli
 deploy
+addr2line
