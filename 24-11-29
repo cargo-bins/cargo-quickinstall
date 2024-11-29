@@ -20,3 +20,4 @@ markdown-test-report
 rg
 tendermint-rpc
 typst-cli
+cargo-show
