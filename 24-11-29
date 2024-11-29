@@ -19,3 +19,4 @@ deploy
 rustfmt-nightly
 rustrict
 papyrus_storage
+apollo-router
