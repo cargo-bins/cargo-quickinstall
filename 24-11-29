@@ -49,3 +49,4 @@ deploy
 sniffnet
 deploy
 rustfmt-nightly
+rustrict
