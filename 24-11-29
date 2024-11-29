@@ -5,3 +5,4 @@ wol-rs
 dotenvy
 cargo-embassy
 amdgpu_top
+stellar-strkey
