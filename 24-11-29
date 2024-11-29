@@ -24,3 +24,4 @@ diesel_cli
 gpg-tui
 deploy
 deploy
+cargo-duplicates
