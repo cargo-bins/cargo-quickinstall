@@ -18,3 +18,4 @@ bun
 cargo-info
 rg
 sea-orm-cli
+z3tracer
