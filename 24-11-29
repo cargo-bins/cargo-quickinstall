@@ -36,3 +36,4 @@ wol-rs
 ducc-sys
 deploy
 deploy
+rustfmt-nightly
