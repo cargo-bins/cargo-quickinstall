@@ -17,3 +17,4 @@ markdown-test-report
 bun
 cargo-info
 rg
+sea-orm-cli
