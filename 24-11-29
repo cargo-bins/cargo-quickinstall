@@ -11,3 +11,4 @@ git-mit
 gitui
 tendermint-rpc
 iai-callgrind-runner
+sqlx-cli
