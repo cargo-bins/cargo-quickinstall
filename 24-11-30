@@ -11,3 +11,4 @@ foundationdb-gen
 cargo-about
 cargo-codspeed
 pgrx-tests
+z3tracer
