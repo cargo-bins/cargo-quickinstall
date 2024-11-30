@@ -41,3 +41,4 @@ dotenvy
 pwasm-utils
 solana-keygen
 spider_worker
+tree-sitter-cli
