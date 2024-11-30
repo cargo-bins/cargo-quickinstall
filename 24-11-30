@@ -13,3 +13,4 @@ rls-rustc
 dotenvy
 pwasm-utils
 solana-keygen
+a11ywatch_cli
