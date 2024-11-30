@@ -49,3 +49,4 @@ cargo-depsize
 parquet
 hurlfmt
 rustrict
+xbuild
