@@ -10,3 +10,4 @@ pgrx-tests
 z3tracer
 rls-rustc
 borsh
+dotenvy
