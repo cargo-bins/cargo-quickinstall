@@ -6,3 +6,4 @@ rls-rustc
 wmi
 winpty-rs
 apollo-router
+foundationdb-gen
