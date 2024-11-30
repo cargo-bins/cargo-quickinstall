@@ -6,3 +6,4 @@ winpty-rs
 apollo-router
 foundationdb-gen
 solana-faucet
+pgrx-tests
