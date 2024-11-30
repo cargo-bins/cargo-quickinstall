@@ -36,3 +36,4 @@ hurl
 z3tracer
 rls-rustc
 borsh
+hurlfmt
