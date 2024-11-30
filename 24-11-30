@@ -10,3 +10,4 @@ foundationdb-gen
 pgrx-tests
 z3tracer
 rls-rustc
+dotenvy
