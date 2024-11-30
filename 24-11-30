@@ -25,3 +25,4 @@ foundationdb-gen
 hurl
 binstall
 cargo-depsize
+sniffnet
