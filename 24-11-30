@@ -17,3 +17,4 @@ rls-rustc
 borsh
 git-mit-relates-to
 dotenvy
+pwasm-utils
