@@ -6,3 +6,4 @@ solana-genesis
 rls-rustc
 wmi
 winpty-rs
+apollo-router
