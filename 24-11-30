@@ -36,3 +36,4 @@ scap
 addr2line
 rls-rustc
 stellar-strkey
+dotenvy
