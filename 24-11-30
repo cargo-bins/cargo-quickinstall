@@ -23,3 +23,4 @@ pgrx-tests
 solana-faucet
 z3tracer
 addr2line
+rls-rustc
