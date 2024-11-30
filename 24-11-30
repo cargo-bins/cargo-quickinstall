@@ -8,3 +8,4 @@ rls-rustc
 rav1e
 winpty-rs
 apollo-router
+foundationdb-gen
