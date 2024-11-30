@@ -33,3 +33,4 @@ solana-faucet
 pgrx-tests
 z3tracer
 scap
+addr2line
