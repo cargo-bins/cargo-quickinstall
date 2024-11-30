@@ -8,3 +8,4 @@ foundationdb-gen
 solana-faucet
 pgrx-tests
 z3tracer
+rls-rustc
