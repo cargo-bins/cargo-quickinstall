@@ -5,3 +5,4 @@ schemafy
 solana-genesis
 rls-rustc
 wmi
+winpty-rs
