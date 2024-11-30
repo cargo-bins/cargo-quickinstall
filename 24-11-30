@@ -12,3 +12,4 @@ addr2line
 rls-rustc
 pwasm-utils
 atuin
+parquet
