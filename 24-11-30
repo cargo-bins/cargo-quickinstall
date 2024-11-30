@@ -30,3 +30,4 @@ z3tracer
 addr2line
 rls-rustc
 qsv
+spotifyd
