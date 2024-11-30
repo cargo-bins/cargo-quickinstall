@@ -34,3 +34,4 @@ pgrx-tests
 solana-faucet
 hurl
 z3tracer
+rls-rustc
