@@ -26,3 +26,4 @@ addr2line
 rls-rustc
 stellar-strkey
 kalc
+borsh
