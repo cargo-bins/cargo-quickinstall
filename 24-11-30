@@ -13,3 +13,4 @@ httpbis
 ec2_instance_metadata
 sn_cli
 arrow-flight
+pgrx-tests
