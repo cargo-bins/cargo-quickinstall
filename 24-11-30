@@ -11,3 +11,4 @@ apollo-router
 foundationdb-gen
 httpbis
 ec2_instance_metadata
+sn_cli
