@@ -11,3 +11,4 @@ sea-orm-cli
 binstall
 alacritty
 nu
+cargo-spellcheck
