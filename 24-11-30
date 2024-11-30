@@ -2,3 +2,4 @@ nexmark
 schemafy
 rls-rustc
 wmi
+winpty-rs
