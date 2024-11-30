@@ -13,3 +13,4 @@ scap
 cargo-public-api
 cargo-spellcheck
 sniffnet
+rls-rustc
