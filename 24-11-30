@@ -37,3 +37,4 @@ addr2line
 rls-rustc
 stellar-strkey
 dotenvy
+pwasm-utils
