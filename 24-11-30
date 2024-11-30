@@ -12,3 +12,4 @@ binstall
 alacritty
 nu
 cargo-spellcheck
+cargo-dylint
