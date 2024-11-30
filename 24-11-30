@@ -14,3 +14,4 @@ cargo-public-api
 cargo-spellcheck
 sniffnet
 rls-rustc
+cargo-dylint
