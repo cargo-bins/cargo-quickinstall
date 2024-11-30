@@ -27,3 +27,4 @@ rls-rustc
 stellar-strkey
 kalc
 borsh
+pwasm-utils
