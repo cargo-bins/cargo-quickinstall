@@ -14,3 +14,4 @@ ec2_instance_metadata
 sn_cli
 arrow-flight
 pgrx-tests
+z3tracer
