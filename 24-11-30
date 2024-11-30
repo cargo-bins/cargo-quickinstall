@@ -13,3 +13,4 @@ alacritty
 nu
 cargo-spellcheck
 cargo-dylint
+rls-rustc
