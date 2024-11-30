@@ -38,3 +38,4 @@ rls-rustc
 borsh
 hurlfmt
 dotenvy
+pwasm-utils
