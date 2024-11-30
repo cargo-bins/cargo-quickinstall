@@ -3,3 +3,4 @@ argus-cli
 schemafy
 rls-rustc
 wmi
+winpty-rs
