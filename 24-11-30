@@ -47,3 +47,4 @@ a11ywatch_cli
 cargo-spellcheck
 cargo-depsize
 parquet
+hurlfmt
