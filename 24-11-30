@@ -17,3 +17,4 @@ rls-rustc
 stellar-strkey
 borsh
 git-mit-relates-to
+dotenvy
