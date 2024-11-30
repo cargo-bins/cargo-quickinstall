@@ -8,3 +8,4 @@ winpty-rs
 apollo-router
 foundationdb-gen
 pgrx-tests
+z3tracer
