@@ -10,3 +10,4 @@ schemafy
 sea-orm-cli
 alacritty
 scap
+cargo-public-api
