@@ -5,3 +5,4 @@ cargo-spellcheck
 graphql_client_cli
 bluetui
 nu
+mdcat
