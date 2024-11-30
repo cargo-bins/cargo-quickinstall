@@ -11,3 +11,4 @@ sea-orm-cli
 alacritty
 scap
 cargo-public-api
+cargo-spellcheck
