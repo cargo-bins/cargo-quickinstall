@@ -5,3 +5,4 @@ trunk
 schemafy
 argus-cli
 sequoia-sq
+rls-rustc
