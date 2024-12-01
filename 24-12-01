@@ -7,3 +7,4 @@ paperclip
 dotenv
 atuin
 atuin
+rustfmt-nightly
