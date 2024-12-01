@@ -16,3 +16,4 @@ hurlfmt
 dotenv
 cargo-depsize
 alacritty
+cargo-spellcheck
