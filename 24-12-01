@@ -15,3 +15,4 @@ raw-cpuid
 solana-stake-accounts
 git-mit
 mit-prepare-commit-msg
+cargo-local-registry
