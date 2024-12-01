@@ -12,3 +12,4 @@ solana-stake-accounts
 borsh
 raw-cpuid
 cargo-vet
+solana-faucet
