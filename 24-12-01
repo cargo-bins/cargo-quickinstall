@@ -11,3 +11,4 @@ rustfmt-nightly
 borsh
 raw-cpuid
 re_query
+minicbor
