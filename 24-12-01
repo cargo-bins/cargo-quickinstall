@@ -12,3 +12,4 @@ dotenv
 rustfmt-nightly
 racer
 rustfmt-nightly
+binstall
