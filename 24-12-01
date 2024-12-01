@@ -15,3 +15,4 @@ rustfmt-nightly
 binstall
 racer
 atuin
+pijul
