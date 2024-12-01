@@ -19,3 +19,4 @@ cargo-local-registry
 cargo-crev
 rustfmt-nightly
 zellij
+solana-stake-accounts
