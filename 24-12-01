@@ -19,3 +19,4 @@ alacritty
 cargo-spellcheck
 cargo-depsize
 dinghy
+hurlfmt
