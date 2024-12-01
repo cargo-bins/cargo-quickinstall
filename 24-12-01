@@ -8,3 +8,4 @@ dotenv
 atuin
 atuin
 rustfmt-nightly
+borsh
