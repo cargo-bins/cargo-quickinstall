@@ -16,3 +16,4 @@ redoxer
 dotenv
 hurlfmt
 cargo-depsize
+cargo-spellcheck
