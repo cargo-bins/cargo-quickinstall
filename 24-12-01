@@ -15,3 +15,4 @@ paperclip
 redoxer
 dotenv
 hurlfmt
+cargo-depsize
