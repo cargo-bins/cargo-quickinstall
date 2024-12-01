@@ -8,3 +8,4 @@ solana-tokens
 cargo-local-registry
 cargo-c
 rustfmt-nightly
+solana-stake-accounts
