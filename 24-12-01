@@ -10,3 +10,4 @@ cargo-c
 rustfmt-nightly
 solana-stake-accounts
 borsh
+raw-cpuid
