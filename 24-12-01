@@ -8,3 +8,4 @@ scooter
 paperclip
 rustfmt-nightly
 atuin
+dotenv
