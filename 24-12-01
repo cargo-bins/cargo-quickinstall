@@ -44,3 +44,4 @@ pijul
 binstall
 pijul
 git-repo-manager
+cargo-vcs
