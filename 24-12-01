@@ -7,3 +7,4 @@ sccache
 solana-tokens
 cargo-local-registry
 cargo-c
+rustfmt-nightly
