@@ -6,3 +6,4 @@ dotenv
 sccache
 solana-tokens
 cargo-local-registry
+cargo-c
