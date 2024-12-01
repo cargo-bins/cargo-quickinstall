@@ -24,3 +24,4 @@ papyrus_storage
 alacritty
 atuin
 rustfmt-nightly
+sea-orm-cli
