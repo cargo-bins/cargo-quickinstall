@@ -7,3 +7,4 @@ hurlfmt
 cargo-depsize
 trunk
 cargo-depsize
+tree-sitter-cli
