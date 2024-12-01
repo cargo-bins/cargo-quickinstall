@@ -20,3 +20,4 @@ re_query
 minicbor
 protofetch
 sqlx-cli
+racer
