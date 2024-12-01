@@ -19,3 +19,4 @@ cargo-local-registry
 re_query
 minicbor
 protofetch
+sqlx-cli
