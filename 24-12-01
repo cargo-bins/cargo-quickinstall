@@ -5,3 +5,4 @@ paperclip
 dotenv
 sccache
 solana-tokens
+cargo-local-registry
