@@ -9,3 +9,4 @@ atuin
 atuin
 rustfmt-nightly
 borsh
+raw-cpuid
