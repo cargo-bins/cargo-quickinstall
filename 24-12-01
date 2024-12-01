@@ -10,3 +10,4 @@ rustfmt-nightly
 atuin
 dotenv
 rustfmt-nightly
+racer
