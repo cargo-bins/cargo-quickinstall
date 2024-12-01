@@ -10,3 +10,4 @@ trunk
 rustfmt-nightly
 solana-stake-accounts
 trunk
+borsh
