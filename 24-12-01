@@ -5,3 +5,4 @@ paperclip
 dotenv
 solana-tokens
 trunk
+rustfmt-nightly
