@@ -25,3 +25,4 @@ sequoia-sq
 sql-gen
 tree-sitter-cli
 rustfmt-nightly
+sql-gen
