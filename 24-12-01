@@ -8,3 +8,4 @@ sccache
 solana-tokens
 papyrus_storage
 cargo-local-registry
+rustfmt-nightly
