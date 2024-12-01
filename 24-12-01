@@ -34,3 +34,4 @@ cargo-unmaintained
 borsh
 redoxer
 dinghy
+raw-cpuid
