@@ -16,3 +16,4 @@ solana-tokens
 papyrus_storage
 neomake
 cargo-local-registry
+cargo-crev
