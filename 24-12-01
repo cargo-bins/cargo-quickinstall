@@ -18,3 +18,4 @@ neomake
 cargo-local-registry
 cargo-crev
 rustfmt-nightly
+zellij
