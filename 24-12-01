@@ -16,3 +16,4 @@ solana-faucet
 git-mit
 solana-stake-accounts
 mit-prepare-commit-msg
+cargo-local-registry
