@@ -27,3 +27,4 @@ rustfmt-nightly
 sea-orm-cli
 codeberg-cli
 hurl
+hurlfmt
