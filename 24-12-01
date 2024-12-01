@@ -13,3 +13,4 @@ tree-sitter-cli
 cargo-unmaintained
 paperclip
 hurlfmt
+dotenv
