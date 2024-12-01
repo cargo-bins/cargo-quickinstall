@@ -9,3 +9,4 @@ papyrus_storage
 cargo-local-registry
 rustfmt-nightly
 solana-stake-accounts
+borsh
