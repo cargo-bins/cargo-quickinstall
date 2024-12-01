@@ -6,3 +6,4 @@ dotenv
 solana-tokens
 trunk
 rustfmt-nightly
+solana-stake-accounts
