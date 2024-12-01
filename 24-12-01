@@ -18,3 +18,4 @@ mit-prepare-commit-msg
 cargo-local-registry
 re_query
 minicbor
+protofetch
