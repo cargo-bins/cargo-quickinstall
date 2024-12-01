@@ -24,3 +24,4 @@ solana-tokens
 sequoia-sq
 sql-gen
 tree-sitter-cli
+rustfmt-nightly
