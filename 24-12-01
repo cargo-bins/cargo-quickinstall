@@ -34,3 +34,4 @@ re_query
 amp
 minicbor
 amp
+sqlx-cli
