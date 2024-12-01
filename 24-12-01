@@ -12,3 +12,4 @@ borsh
 raw-cpuid
 re_query
 minicbor
+racer
