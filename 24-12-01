@@ -4,3 +4,4 @@ trunk
 dinghy
 cargo-spellcheck
 hurlfmt
+cargo-depsize
