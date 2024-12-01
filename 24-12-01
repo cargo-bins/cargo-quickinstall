@@ -6,3 +6,4 @@ solana-gossip
 dotenv
 sccache
 solana-tokens
+papyrus_storage
