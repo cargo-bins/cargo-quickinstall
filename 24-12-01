@@ -39,3 +39,4 @@ raw-cpuid
 bugstalker
 bugstalker
 sql-gen
+cargo-public-api
