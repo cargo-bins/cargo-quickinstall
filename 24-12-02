@@ -12,3 +12,4 @@ tendermint-rpc
 parquet
 foundationdb-gen
 tokio-process
+mit-pre-commit
