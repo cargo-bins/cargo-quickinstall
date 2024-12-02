@@ -13,3 +13,4 @@ raw-cpuid
 ruff
 cargo-vcs
 termusic
+tendermint-rpc
