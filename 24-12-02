@@ -4,3 +4,4 @@ parquet
 spider_cli
 hurl
 brewfatherlog
+httpmock
