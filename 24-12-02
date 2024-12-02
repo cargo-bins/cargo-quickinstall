@@ -6,3 +6,4 @@ deno
 git-mit-relates-to
 nkeys
 tokio-process
+coldsnap
