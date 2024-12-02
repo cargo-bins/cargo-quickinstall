@@ -38,3 +38,4 @@ probe-rs-cli
 foundationdb-gen
 i3status-rs
 bugstalker
+nu_plugin_gstat
