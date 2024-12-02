@@ -22,3 +22,4 @@ cargo-udeps
 foundationdb-gen
 mit-pre-commit
 cargo-codspeed
+cargo-about
