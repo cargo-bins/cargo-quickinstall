@@ -15,3 +15,4 @@ atuin
 nkeys
 raw-cpuid
 watchexec-cli
+tendermint-rpc
