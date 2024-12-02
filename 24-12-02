@@ -17,3 +17,4 @@ raw-cpuid
 watchexec-cli
 tendermint-rpc
 parquet
+cargo-outdated
