@@ -9,3 +9,4 @@ tokio-process
 coldsnap
 raw-cpuid
 tendermint-rpc
+parquet
