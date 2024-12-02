@@ -17,3 +17,4 @@ tendermint-rpc
 parquet
 cargo-vcs
 cargo-vcs
+foundationdb-gen
