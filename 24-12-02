@@ -11,3 +11,4 @@ git-repo-manager
 ruff
 raw-cpuid
 ruff
+cargo-vcs
