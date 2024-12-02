@@ -7,3 +7,4 @@ nkeys
 coldsnap
 raw-cpuid
 parquet
+cargo-embed
