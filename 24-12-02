@@ -14,3 +14,4 @@ foundationdb-gen
 tokio-process
 mit-pre-commit
 safe_network
+h3o
