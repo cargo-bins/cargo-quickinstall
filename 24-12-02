@@ -10,3 +10,4 @@ coldsnap
 raw-cpuid
 tendermint-rpc
 parquet
+foundationdb-gen
