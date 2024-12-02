@@ -10,3 +10,4 @@ nkeys
 raw-cpuid
 parquet
 cargo-outdated
+cargo-udeps
