@@ -32,3 +32,4 @@ nu_plugin_plotters
 wl-screenrec
 probe-rs-cli
 markdown2pdf
+parquet
