@@ -11,3 +11,4 @@ cargo-embed
 cargo-generate
 foundationdb-gen
 mit-pre-commit
+safe_network
