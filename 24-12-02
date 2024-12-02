@@ -7,3 +7,4 @@ nkeys
 raw-cpuid
 racer
 parquet
+foundationdb-gen
