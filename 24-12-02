@@ -35,3 +35,4 @@ markdown2pdf
 parquet
 sea-orm-cli
 probe-rs-cli
+foundationdb-gen
