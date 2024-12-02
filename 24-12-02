@@ -8,3 +8,4 @@ coldsnap
 raw-cpuid
 parquet
 cargo-embed
+cargo-generate
