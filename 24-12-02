@@ -3,3 +3,4 @@ cargo-vcs
 parquet
 rav1e
 httpmock
+z3tracer
