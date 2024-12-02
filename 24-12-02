@@ -14,3 +14,4 @@ ruff
 cargo-vcs
 termusic
 tendermint-rpc
+parquet
