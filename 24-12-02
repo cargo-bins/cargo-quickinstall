@@ -34,3 +34,4 @@ probe-rs-cli
 markdown2pdf
 parquet
 sea-orm-cli
+probe-rs-cli
