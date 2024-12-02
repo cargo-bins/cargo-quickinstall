@@ -11,3 +11,4 @@ raw-cpuid
 tendermint-rpc
 parquet
 foundationdb-gen
+tokio-process
