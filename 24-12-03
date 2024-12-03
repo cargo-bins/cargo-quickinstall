@@ -22,3 +22,4 @@ raw-cpuid
 foundationdb-gen
 py-spy
 a11ywatch_cli
+wol-rs
