@@ -8,3 +8,4 @@ tendermint-abci
 rustfmt-nightly
 cargo-local-registry
 syd
+racer
