@@ -10,3 +10,4 @@ rustfmt-nightly
 cargo-local-registry
 syd
 sea-orm-cli
+winpty-rs
