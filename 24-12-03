@@ -27,3 +27,4 @@ winpty-rs
 dotenvy
 trunk
 parquet
+safe_network
