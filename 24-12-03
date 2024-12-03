@@ -6,3 +6,4 @@ cached-path
 nexmark
 tendermint-abci
 papyrus_storage
+tokio-process
