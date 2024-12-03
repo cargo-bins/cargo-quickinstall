@@ -33,3 +33,4 @@ rustfmt-nightly
 ripunzip
 sea-orm-cli
 python-project-generator
+syd
