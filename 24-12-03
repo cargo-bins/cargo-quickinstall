@@ -8,3 +8,4 @@ cached-path
 nexmark
 tendermint-abci
 rustfmt-nightly
+syd
