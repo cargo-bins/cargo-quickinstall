@@ -10,3 +10,4 @@ tokio-process
 cargo-local-registry
 syd
 racer
+rustbus
