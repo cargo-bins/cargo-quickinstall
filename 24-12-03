@@ -9,3 +9,4 @@ nexmark
 tendermint-abci
 rustfmt-nightly
 syd
+winpty-rs
