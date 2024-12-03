@@ -10,3 +10,4 @@ cargo-local-registry
 syd
 racer
 sea-orm-cli
+winpty-rs
