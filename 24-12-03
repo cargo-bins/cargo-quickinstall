@@ -12,3 +12,4 @@ racer
 sea-orm-cli
 winpty-rs
 dotenvy
+parquet
