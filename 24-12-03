@@ -31,3 +31,4 @@ settle
 nextsv
 cargo-list
 rustfmt-nightly
+nu_plugin_gstat
