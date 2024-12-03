@@ -11,3 +11,4 @@ cargo-local-registry
 syd
 racer
 rustbus
+winpty-rs
