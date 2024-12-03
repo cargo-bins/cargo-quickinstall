@@ -16,3 +16,4 @@ dotenvy
 parquet
 sqlx-cli
 safe_network
+solana-validator
