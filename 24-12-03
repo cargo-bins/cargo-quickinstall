@@ -67,3 +67,4 @@ pgrx-tests
 py-spy
 argus-cli
 a11ywatch_cli
+wol-rs
