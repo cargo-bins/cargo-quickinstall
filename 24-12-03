@@ -65,3 +65,4 @@ mdcat
 foundationdb-gen
 pgrx-tests
 py-spy
+argus-cli
