@@ -43,3 +43,4 @@ fend
 settle
 argus-cli
 cargo-list
+winpty-rs
