@@ -56,3 +56,4 @@ solana-cli
 cargo-public-api
 fend
 gnostr-cat
+solana-net-utils
