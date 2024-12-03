@@ -7,3 +7,4 @@ tree-sitter-graph
 atuin
 cargo-embed
 cached-path
+sqlx-cli
