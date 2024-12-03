@@ -34,3 +34,4 @@ rustfmt-nightly
 nu_plugin_gstat
 cargo-public-api
 offflix
+syd
