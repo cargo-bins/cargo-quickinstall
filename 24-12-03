@@ -16,3 +16,4 @@ simple-http-server
 wol-rs
 rustfmt-nightly
 syd
+sea-orm-cli
