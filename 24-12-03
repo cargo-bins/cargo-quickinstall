@@ -21,3 +21,4 @@ winpty-rs
 dotenvy
 a11ywatch_cli
 parquet
+safe_network
