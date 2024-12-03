@@ -11,3 +11,4 @@ syd
 winpty-rs
 dotenvy
 parquet
+raw-cpuid
