@@ -53,3 +53,4 @@ settle
 foundationdb-gen
 fend
 solana-cli
+cargo-public-api
