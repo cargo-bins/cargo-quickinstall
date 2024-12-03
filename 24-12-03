@@ -40,3 +40,4 @@ pcu
 argus-cli
 winpty-rs
 mdcat
+dotenvy
