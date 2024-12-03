@@ -20,3 +20,4 @@ sea-orm-cli
 winpty-rs
 dotenvy
 a11ywatch_cli
+parquet
