@@ -54,3 +54,4 @@ graphql_client_cli
 cargo-list
 settle
 parquet
+ripunzip
