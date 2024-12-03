@@ -18,3 +18,4 @@ rustfmt-nightly
 syd
 sea-orm-cli
 winpty-rs
+dotenvy
