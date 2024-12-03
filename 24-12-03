@@ -6,3 +6,4 @@ rqbit
 tree-sitter-graph
 atuin
 cargo-embed
+cached-path
