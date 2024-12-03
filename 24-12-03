@@ -7,3 +7,4 @@ nexmark
 tendermint-abci
 papyrus_storage
 rustfmt-nightly
+cargo-local-registry
