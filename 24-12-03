@@ -31,3 +31,4 @@ bugstalker
 mdcat
 rustfmt-nightly
 ripunzip
+sea-orm-cli
