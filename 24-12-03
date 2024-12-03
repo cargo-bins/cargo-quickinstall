@@ -1,3 +1,4 @@
 cargo-embed
 perfcnt
 re_query
+addr2line
