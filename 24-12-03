@@ -9,3 +9,4 @@ papyrus_storage
 tokio-process
 cargo-local-registry
 syd
+racer
