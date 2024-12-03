@@ -16,3 +16,4 @@ atuin
 graphql_client_cli
 probe-rs-cli
 airshipper
+pcu
