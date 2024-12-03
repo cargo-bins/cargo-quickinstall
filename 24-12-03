@@ -22,3 +22,4 @@ raw-cpuid
 foundationdb-gen
 pgrx-tests
 solana-net-utils
+py-spy
