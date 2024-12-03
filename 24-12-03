@@ -26,3 +26,4 @@ graphql_client_cli
 ripunzip
 cargo-public-api
 wol-rs
+nu_plugin_gstat
