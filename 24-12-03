@@ -11,3 +11,4 @@ sqlx-cli
 rqbit
 trunk
 cargo-embed
+nexmark
