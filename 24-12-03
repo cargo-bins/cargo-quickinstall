@@ -10,3 +10,4 @@ cached-path
 sqlx-cli
 rqbit
 trunk
+cargo-embed
