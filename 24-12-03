@@ -5,3 +5,4 @@ diesel_cli
 tree-sitter-graph
 diesel_cli
 cached-path
+simple-http-server
