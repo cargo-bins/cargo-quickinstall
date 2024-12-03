@@ -11,3 +11,4 @@ rustfmt-nightly
 syd
 winpty-rs
 dotenvy
+parquet
