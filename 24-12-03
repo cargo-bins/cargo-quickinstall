@@ -7,3 +7,4 @@ solana-validator
 cached-path
 nexmark
 tendermint-abci
+rustfmt-nightly
