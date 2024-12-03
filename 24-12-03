@@ -46,3 +46,4 @@ cargo-list
 winpty-rs
 settle
 solana-cli
+dotenvy
