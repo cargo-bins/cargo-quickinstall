@@ -13,3 +13,4 @@ pcu
 python-project-generator
 cargo-public-api
 atuin
+graphql_client_cli
