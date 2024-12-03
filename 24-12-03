@@ -8,3 +8,4 @@ atuin
 cargo-embed
 cached-path
 sqlx-cli
+rqbit
