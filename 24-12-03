@@ -25,3 +25,4 @@ rioterm
 graphql_client_cli
 ripunzip
 cargo-public-api
+wol-rs
