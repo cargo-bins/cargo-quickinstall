@@ -13,3 +13,4 @@ winpty-rs
 dotenvy
 parquet
 h3o
+raw-cpuid
