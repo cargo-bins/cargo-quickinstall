@@ -14,3 +14,4 @@ simple-http-server
 tendermint-abci
 simple-http-server
 wol-rs
+rustfmt-nightly
