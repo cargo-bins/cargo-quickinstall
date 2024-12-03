@@ -11,3 +11,4 @@ diesel_cli
 nexmark
 simple-http-server
 simple-http-server
+tendermint-abci
