@@ -63,3 +63,4 @@ remove_dir_all
 wiki-tui
 wiki-tui
 cargo-list
+spider_worker
