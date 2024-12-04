@@ -21,3 +21,4 @@ remove_dir_all
 cargo-lock
 solana-stake-accounts
 clippy
+omicron-zone-package
