@@ -53,3 +53,4 @@ tendermint-rpc
 cargo-list
 trusted-signing-cli
 cargo-list
+cargo-pgrx
