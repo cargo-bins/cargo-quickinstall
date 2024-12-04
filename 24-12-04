@@ -5,3 +5,4 @@ tokio-process
 raw-cpuid
 textplots
 parquet
+cpp_demangle
