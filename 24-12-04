@@ -62,3 +62,4 @@ crates-tui
 cargo-info
 spider_worker
 solana-stake-accounts
+cargo-lock
