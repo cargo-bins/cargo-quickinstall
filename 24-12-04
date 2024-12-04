@@ -9,3 +9,4 @@ parquet
 cpp_demangle
 schemafy
 starship
+wol-rs
