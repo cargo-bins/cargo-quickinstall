@@ -17,3 +17,4 @@ re_query
 tauri-cli
 git-mit-install
 cargo-codspeed
+sha1collisiondetection
