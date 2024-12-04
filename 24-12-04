@@ -7,3 +7,4 @@ nu
 sea-orm-cli
 textplots
 parquet
+cpp_demangle
