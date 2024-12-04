@@ -24,3 +24,4 @@ hurl
 solana-stake-accounts
 cargo-lock
 flowistry_ide
+clippy
