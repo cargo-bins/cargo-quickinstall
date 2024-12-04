@@ -51,3 +51,4 @@ trusted-signing-cli
 cargo-info
 tendermint-rpc
 cargo-list
+trusted-signing-cli
