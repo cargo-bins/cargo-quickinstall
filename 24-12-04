@@ -65,3 +65,4 @@ solana-stake-accounts
 cargo-lock
 clippy
 hurlfmt
+cargo-pgrx
