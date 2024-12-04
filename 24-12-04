@@ -34,3 +34,4 @@ cpp_demangle
 crates-tui
 schemafy
 wol-rs
+odoo-lsp
