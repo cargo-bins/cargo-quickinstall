@@ -2,3 +2,4 @@ solana-stake-accounts
 mit-pre-commit
 omicron-zone-package
 tokio-process
+raw-cpuid
