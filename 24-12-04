@@ -4,3 +4,4 @@ raw-cpuid
 parquet
 cpp_demangle
 schemafy
+borsh
