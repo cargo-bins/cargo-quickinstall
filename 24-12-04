@@ -19,3 +19,4 @@ re_query
 tauri-cli
 raw-cpuid
 git-mit-install
+cargo-codspeed
