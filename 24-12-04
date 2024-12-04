@@ -29,3 +29,4 @@ graphql_client_cli
 gnostr-cat
 crates-tui
 parquet
+graphql_client_cli
