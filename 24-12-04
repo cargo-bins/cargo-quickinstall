@@ -11,3 +11,4 @@ schemafy
 solana-validator
 borsh
 librespot
+tendermint-rpc
