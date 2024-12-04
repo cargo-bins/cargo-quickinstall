@@ -42,3 +42,4 @@ trusted-signing-cli
 cargo-list
 borsh
 fend
+trusted-signing-cli
