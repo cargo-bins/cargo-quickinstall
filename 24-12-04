@@ -8,3 +8,4 @@ schemafy
 borsh
 solana-validator
 borsh
+tendermint-rpc
