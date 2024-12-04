@@ -19,3 +19,4 @@ raw-cpuid
 remove_dir_all
 aoc-cli
 spider_worker
+aoc-cli
