@@ -14,3 +14,4 @@ kanidm_tools
 tendermint-rpc
 re_query
 git-mit-install
+sha1collisiondetection
