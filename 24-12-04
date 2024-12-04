@@ -6,3 +6,4 @@ raw-cpuid
 textplots
 parquet
 cpp_demangle
+schemafy
