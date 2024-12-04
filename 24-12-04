@@ -3,3 +3,4 @@ solana-validator
 minicbor
 nu
 raw-cpuid
+sea-orm-cli
