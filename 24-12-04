@@ -13,3 +13,4 @@ wol-rs
 solana-validator
 borsh
 librespot
+tendermint-rpc
