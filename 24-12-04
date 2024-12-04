@@ -12,3 +12,4 @@ borsh
 text-diff
 tendermint-rpc
 deno
+re_query
