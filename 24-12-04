@@ -10,3 +10,4 @@ borsh
 tendermint-rpc
 re_query
 dotenvy
+pandora_box
