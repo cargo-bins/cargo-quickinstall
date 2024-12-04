@@ -11,3 +11,4 @@ kanidm_tools
 solana-validator
 borsh
 kanidm_tools
+tendermint-rpc
