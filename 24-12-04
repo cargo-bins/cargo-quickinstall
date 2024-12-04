@@ -19,3 +19,4 @@ pandora_box
 remove_dir_all
 solana-stake-accounts
 cargo-lock
+clippy
