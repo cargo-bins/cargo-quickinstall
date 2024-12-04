@@ -18,3 +18,4 @@ benfred-read-process-memory
 sha1collisiondetection
 pandora_box
 remove_dir_all
+cargo-lock
