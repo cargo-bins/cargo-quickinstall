@@ -47,3 +47,4 @@ trusted-signing-cli
 odoo-lsp
 gnostr-cat
 cargo-info
+crates-tui
