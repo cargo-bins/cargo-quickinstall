@@ -4,3 +4,4 @@ omicron-zone-package
 tokio-process
 raw-cpuid
 textplots
+parquet
