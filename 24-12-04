@@ -27,3 +27,4 @@ elf2uf2-rs
 textplots
 graphql_client_cli
 gnostr-cat
+crates-tui
