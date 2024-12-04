@@ -9,3 +9,4 @@ sea-orm-cli
 parquet
 cpp_demangle
 schemafy
+solana-validator
