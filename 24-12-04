@@ -20,3 +20,4 @@ tauri-cli
 raw-cpuid
 git-mit-install
 cargo-codspeed
+remove_dir_all
