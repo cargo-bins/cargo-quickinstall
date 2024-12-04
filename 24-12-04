@@ -2,3 +2,4 @@ solana-validator
 minicbor
 raw-cpuid
 parquet
+cpp_demangle
