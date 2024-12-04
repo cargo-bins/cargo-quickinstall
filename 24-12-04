@@ -49,3 +49,4 @@ nu
 librespot
 trusted-signing-cli
 cargo-info
+tendermint-rpc
