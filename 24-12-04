@@ -30,3 +30,4 @@ gnostr-cat
 crates-tui
 parquet
 graphql_client_cli
+cpp_demangle
