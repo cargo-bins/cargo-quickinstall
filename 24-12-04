@@ -18,3 +18,4 @@ deno
 re_query
 dotenvy
 sha1collisiondetection
+remove_dir_all
