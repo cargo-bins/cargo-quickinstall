@@ -22,3 +22,4 @@ remove_dir_all
 mise
 hurl
 solana-stake-accounts
+cargo-lock
