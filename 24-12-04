@@ -6,3 +6,4 @@ nu
 raw-cpuid
 sea-orm-cli
 textplots
+cpp_demangle
