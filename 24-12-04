@@ -19,3 +19,4 @@ git-mit-install
 cargo-codspeed
 sha1collisiondetection
 remove_dir_all
+tree-sitter-cli
