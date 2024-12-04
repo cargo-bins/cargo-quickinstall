@@ -11,3 +11,4 @@ solana-validator
 borsh
 text-diff
 tendermint-rpc
+deno
