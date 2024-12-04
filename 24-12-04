@@ -17,3 +17,4 @@ tendermint-rpc
 deno
 re_query
 dotenvy
+sha1collisiondetection
