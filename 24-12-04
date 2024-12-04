@@ -51,3 +51,4 @@ crates-tui
 trusted-signing-cli
 gnostr-cat
 re_query
+trusted-signing-cli
