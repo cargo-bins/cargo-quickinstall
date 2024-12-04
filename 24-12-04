@@ -64,3 +64,4 @@ spider_worker
 solana-stake-accounts
 cargo-lock
 clippy
+hurlfmt
