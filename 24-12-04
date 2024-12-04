@@ -18,3 +18,4 @@ cargo-dylint
 nu
 zizmor
 raw-cpuid
+crates-tui
