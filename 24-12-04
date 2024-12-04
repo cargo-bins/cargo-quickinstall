@@ -10,3 +10,4 @@ solana-validator
 borsh
 tendermint-rpc
 obelisk
+hurl
