@@ -28,3 +28,4 @@ crates-tui
 parquet
 offflix
 hayagriva
+cpp_demangle
