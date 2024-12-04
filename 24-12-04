@@ -50,3 +50,4 @@ cargo-info
 crates-tui
 trusted-signing-cli
 gnostr-cat
+re_query
