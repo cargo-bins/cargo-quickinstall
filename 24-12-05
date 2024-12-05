@@ -12,3 +12,4 @@ racer
 cargo-lock
 syd
 clippy
+rustfmt-nightly
