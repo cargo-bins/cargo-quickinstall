@@ -11,3 +11,4 @@ nkeys
 racer
 cargo-lock
 syd
+clippy
