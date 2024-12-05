@@ -5,3 +5,4 @@ nexmark
 cargo-info
 cargo-minify
 rg
+tree-sitter-cli
