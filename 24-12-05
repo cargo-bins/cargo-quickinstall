@@ -24,3 +24,4 @@ rustfmt-nightly
 cargo-list
 rmesg
 cargo-list
+wol-rs
