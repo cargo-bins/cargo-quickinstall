@@ -13,3 +13,4 @@ racer
 cargo-lock
 syd
 sea-orm-cli
+solana-keygen
