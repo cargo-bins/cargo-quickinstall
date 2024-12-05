@@ -14,3 +14,4 @@ rmesg
 cargo-list
 solana-gossip
 cargo-lock
+cargo-generate
