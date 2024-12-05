@@ -35,3 +35,4 @@ racer
 nu_plugin_gstat
 mise
 cargo-lock
+addr2line
