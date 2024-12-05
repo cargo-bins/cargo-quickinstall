@@ -34,3 +34,4 @@ spider_cli
 sshx
 racer
 rustdesk
+cargo-lock
