@@ -13,3 +13,4 @@ cargo-list
 rmesg
 cargo-list
 solana-gossip
+cargo-lock
