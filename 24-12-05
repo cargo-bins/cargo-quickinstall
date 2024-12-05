@@ -16,3 +16,4 @@ wiki-tui
 deno
 cached-path
 cargo-minify
+cargo-pgrx
