@@ -35,3 +35,4 @@ sshx
 racer
 rustdesk
 cargo-lock
+cargo-minify
