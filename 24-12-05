@@ -17,3 +17,4 @@ deno
 cached-path
 cargo-minify
 cargo-pgrx
+addr2line
