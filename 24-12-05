@@ -3,3 +3,4 @@ nexmark
 tauri-cli
 sea-orm-cli
 cached-path
+cargo-pgrx
