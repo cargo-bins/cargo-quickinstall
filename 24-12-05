@@ -8,3 +8,4 @@ cargo-pgrx
 addr2line
 mit-prepare-commit-msg
 re_query
+sha1collisiondetection
