@@ -23,3 +23,4 @@ below
 rg
 wiki-tui
 typst-cli
+cargo-minify
