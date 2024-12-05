@@ -48,3 +48,4 @@ rustdesk
 cargo-minify
 wol-rs
 snarkvm
+nu_plugin_gstat
