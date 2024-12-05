@@ -26,3 +26,4 @@ typst-cli
 cargo-minify
 sha1collisiondetection
 nkeys
+sshx
