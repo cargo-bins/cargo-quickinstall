@@ -6,3 +6,4 @@ cargo-minify
 ducc-sys
 nexmark
 sea-orm-cli
+wiki-tui
