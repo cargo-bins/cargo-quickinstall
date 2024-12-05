@@ -44,3 +44,4 @@ trunk
 below
 rustfmt-nightly
 sshx
+remove_dir_all
