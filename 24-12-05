@@ -16,3 +16,4 @@ cargo-pgrx
 cargo-info
 addr2line
 elf2uf2-rs
+alacritty
