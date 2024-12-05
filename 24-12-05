@@ -13,3 +13,4 @@ cargo-lock
 syd
 clippy
 rustfmt-nightly
+wol-rs
