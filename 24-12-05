@@ -27,3 +27,4 @@ cargo-minify
 sha1collisiondetection
 nkeys
 sshx
+cargo-component
