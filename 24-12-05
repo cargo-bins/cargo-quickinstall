@@ -38,3 +38,4 @@ cargo-lock
 cargo-minify
 syd
 solana-keygen
+nu_plugin_gstat
