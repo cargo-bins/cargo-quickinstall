@@ -15,3 +15,4 @@ cargo-list
 solana-gossip
 cargo-lock
 cargo-generate
+cargo-list
