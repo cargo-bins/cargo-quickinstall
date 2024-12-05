@@ -28,3 +28,4 @@ nkeys
 spider_cli
 apollo-router
 racer
+cargo-lock
