@@ -46,3 +46,4 @@ sshx
 sshx
 rustdesk
 cargo-minify
+wol-rs
