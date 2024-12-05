@@ -10,3 +10,4 @@ wiki-tui
 trusted-signing-cli
 porsmo
 graphql_client_cli
+cargo-pgrx
