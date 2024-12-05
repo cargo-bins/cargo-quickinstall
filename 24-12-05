@@ -7,3 +7,4 @@ cached-path
 mit-prepare-commit-msg
 sha1collisiondetection
 nkeys
+cargo-generate
