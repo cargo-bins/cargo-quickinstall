@@ -32,3 +32,4 @@ kanidm_tools
 solana-keygen
 hurlfmt
 rustfmt-nightly
+remove_dir_all
