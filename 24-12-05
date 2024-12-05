@@ -3,3 +3,4 @@ cargo-dylint
 ducc-sys
 nexmark
 cargo-info
+cargo-minify
