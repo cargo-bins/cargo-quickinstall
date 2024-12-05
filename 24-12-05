@@ -4,3 +4,4 @@ sea-orm-cli
 cached-path
 cargo-pgrx
 addr2line
+oso
