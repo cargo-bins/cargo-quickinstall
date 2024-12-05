@@ -43,3 +43,4 @@ addr2line
 trunk
 below
 rustfmt-nightly
+sshx
