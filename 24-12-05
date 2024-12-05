@@ -30,3 +30,4 @@ cargo-lock
 syd
 kanidm_tools
 solana-keygen
+hurlfmt
