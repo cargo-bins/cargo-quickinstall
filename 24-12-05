@@ -6,3 +6,4 @@ diesel_cli
 graphql_client_cli
 nexmark
 fend
+sea-orm-cli
