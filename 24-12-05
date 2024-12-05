@@ -11,3 +11,4 @@ mise
 cached-path
 cargo-info
 tree-sitter-cli
+cargo-minify
