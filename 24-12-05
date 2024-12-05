@@ -22,3 +22,4 @@ cargo-public-api
 below
 addr2line
 oso
+sha1collisiondetection
