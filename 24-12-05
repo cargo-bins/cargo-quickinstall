@@ -4,3 +4,4 @@ tauri-cli
 sea-orm-cli
 tauri-cli
 cached-path
+cargo-pgrx
