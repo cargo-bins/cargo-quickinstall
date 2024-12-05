@@ -21,3 +21,4 @@ cargo-generate
 solana-keygen
 rav1e
 rustfmt-nightly
+cargo-list
