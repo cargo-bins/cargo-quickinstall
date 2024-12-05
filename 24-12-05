@@ -5,3 +5,4 @@ sea-orm-cli
 cached-path
 cargo-pgrx
 remove_dir_all
+addr2line
