@@ -31,3 +31,4 @@ syd
 kanidm_tools
 solana-keygen
 hurlfmt
+rustfmt-nightly
