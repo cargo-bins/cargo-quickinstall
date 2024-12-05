@@ -9,3 +9,4 @@ flowistry_ide
 sha1collisiondetection
 nkeys
 racer
+cargo-lock
