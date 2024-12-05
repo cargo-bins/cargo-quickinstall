@@ -18,3 +18,4 @@ cargo-lock
 syd
 solana-keygen
 trunk
+remove_dir_all
