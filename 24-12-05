@@ -5,3 +5,4 @@ sea-orm-cli
 tauri-cli
 cached-path
 cargo-pgrx
+addr2line
