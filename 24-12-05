@@ -10,3 +10,4 @@ cargo-list
 mise
 cached-path
 cargo-info
+tree-sitter-cli
