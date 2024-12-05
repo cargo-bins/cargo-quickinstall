@@ -13,3 +13,4 @@ cargo-info
 tree-sitter-cli
 cargo-minify
 cargo-pgrx
+cargo-info
