@@ -14,3 +14,4 @@ cargo-pgrx
 trusted-signing-cli
 wiki-tui
 deno
+cached-path
