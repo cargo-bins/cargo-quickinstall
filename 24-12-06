@@ -25,3 +25,4 @@ git-disjoint
 tendermint-rpc
 dotenv
 opencv-binding-generator
+zuse
