@@ -5,3 +5,4 @@ rmesg
 human_name
 git-mit
 addr2line
+rustbus
