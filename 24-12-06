@@ -16,3 +16,4 @@ rustrict
 solana-stake-accounts
 git-disjoint
 tendermint-rpc
+dotenv
