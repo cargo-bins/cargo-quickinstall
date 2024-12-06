@@ -21,3 +21,4 @@ markdown-test-report
 cargo-whatfeatures
 rustdesk
 binwalk
+rg
