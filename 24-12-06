@@ -5,3 +5,4 @@ borsh
 cached-path
 apollo-router
 rkv
+rls-rustc
