@@ -49,3 +49,4 @@ py-spy
 solana-validator
 rustrict
 clipboard-history
+rustfmt-nightly
