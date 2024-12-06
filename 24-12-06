@@ -7,3 +7,4 @@ rmesg
 cargo-vet
 human_name
 git-mit
+rustbus
