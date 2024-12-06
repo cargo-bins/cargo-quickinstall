@@ -31,3 +31,4 @@ binwalk
 cargo-embassy
 probe-rs-tools
 spider_cli
+librespot
