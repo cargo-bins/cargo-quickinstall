@@ -22,3 +22,4 @@ rls-rustc
 human_bytes
 sha1collisiondetection
 tree-sitter-cli
+solana-validator
