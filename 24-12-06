@@ -59,3 +59,4 @@ dotenv
 binstall
 cargo-whatfeatures
 clipboard-history
+binwalk
