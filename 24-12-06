@@ -13,3 +13,4 @@ cached-path
 librespot
 sccache
 cargo-local-registry
+apollo-router
