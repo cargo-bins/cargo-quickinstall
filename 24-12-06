@@ -53,3 +53,4 @@ rustfmt-nightly
 solana-stake-accounts
 cargo-whatfeatures
 git-disjoint
+bun
