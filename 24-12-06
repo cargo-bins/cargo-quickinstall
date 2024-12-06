@@ -10,3 +10,4 @@ human_bytes
 sha1collisiondetection
 trunk
 rustrict
+rustfmt-nightly
