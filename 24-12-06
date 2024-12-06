@@ -4,3 +4,4 @@ deno
 hurl
 cargo-duplicates
 rustrict
+diesel_cli
