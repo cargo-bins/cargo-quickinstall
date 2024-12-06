@@ -55,3 +55,4 @@ cargo-whatfeatures
 git-disjoint
 bun
 tendermint-rpc
+dotenv
