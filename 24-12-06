@@ -18,3 +18,4 @@ cargo-codspeed
 tree-sitter-cli
 solana-validator
 rustrict
+rustfmt-nightly
