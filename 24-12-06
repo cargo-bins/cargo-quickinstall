@@ -54,3 +54,4 @@ git-disjoint
 tendermint-rpc
 dotenv
 psvm
+bun
