@@ -52,3 +52,4 @@ binstall
 clipboard-history
 git-disjoint
 tendermint-rpc
+dotenv
