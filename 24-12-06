@@ -40,3 +40,4 @@ markdown-test-report
 rls-rustc
 human_bytes
 clipboard-history
+sha1collisiondetection
