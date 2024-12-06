@@ -40,3 +40,4 @@ binwalk
 human_bytes
 rustdesk
 bgpkit-parser
+sha1collisiondetection
