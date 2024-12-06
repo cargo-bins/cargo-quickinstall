@@ -7,3 +7,4 @@ addr2line
 snarkvm
 librespot
 sccache
+cargo-local-registry
