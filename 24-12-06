@@ -24,3 +24,4 @@ git-mit-config
 git-disjoint
 dotenv
 tendermint-rpc
+benfred-read-process-memory
