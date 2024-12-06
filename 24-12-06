@@ -54,3 +54,4 @@ solana-stake-accounts
 cargo-whatfeatures
 git-disjoint
 bun
+tendermint-rpc
