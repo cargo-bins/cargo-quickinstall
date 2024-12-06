@@ -8,3 +8,4 @@ snarkvm
 librespot
 sccache
 cargo-local-registry
+apollo-router
