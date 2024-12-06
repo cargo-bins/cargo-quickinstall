@@ -56,3 +56,4 @@ dotenv
 psvm
 bun
 opencv-binding-generator
+clipboard-history
