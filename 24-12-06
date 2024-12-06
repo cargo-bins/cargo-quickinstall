@@ -21,3 +21,4 @@ human_bytes
 espflash
 sha1collisiondetection
 cargo-codspeed
+tree-sitter-cli
