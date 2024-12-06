@@ -51,3 +51,4 @@ solana-stake-accounts
 binstall
 clipboard-history
 git-disjoint
+tendermint-rpc
