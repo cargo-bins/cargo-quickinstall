@@ -9,3 +9,4 @@ solana-validator
 rustrict
 rustfmt-nightly
 git-disjoint
+tendermint-rpc
