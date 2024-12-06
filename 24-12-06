@@ -7,3 +7,4 @@ human_bytes
 sha1collisiondetection
 solana-validator
 rustrict
+rustfmt-nightly
