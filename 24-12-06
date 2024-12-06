@@ -13,3 +13,4 @@ borsh
 cargo-local-registry
 git-mit-config
 apollo-router
+rkv
