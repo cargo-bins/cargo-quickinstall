@@ -22,3 +22,4 @@ steel-interpreter
 git-disjoint
 steel-interpreter
 dotenv
+tendermint-rpc
