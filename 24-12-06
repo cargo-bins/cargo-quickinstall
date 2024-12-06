@@ -10,3 +10,4 @@ sccache
 cargo-local-registry
 apollo-router
 git-mit-config
+rkv
