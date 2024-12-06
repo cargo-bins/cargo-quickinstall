@@ -63,3 +63,4 @@ binwalk
 opencv-binding-generator
 binwalk
 cargo-whatfeatures
+py-spy
