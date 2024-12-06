@@ -8,3 +8,4 @@ sha1collisiondetection
 solana-validator
 rustrict
 rustfmt-nightly
+git-disjoint
