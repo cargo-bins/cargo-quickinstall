@@ -18,3 +18,4 @@ borsh
 librespot
 apollo-router
 rkv
+rls-rustc
