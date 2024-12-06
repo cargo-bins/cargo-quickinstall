@@ -8,3 +8,4 @@ addr2line
 rustbus
 cargo-local-registry
 git-mit-config
+apollo-router
