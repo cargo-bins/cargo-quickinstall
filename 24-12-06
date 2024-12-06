@@ -12,3 +12,4 @@ cargo-whatfeatures
 rg
 kanidm_tools
 sea-orm-cli
+spider_cli
