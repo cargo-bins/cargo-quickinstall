@@ -28,3 +28,4 @@ snarkvm
 borsh
 markdown-test-report
 binwalk
+cargo-embassy
