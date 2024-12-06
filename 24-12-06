@@ -10,3 +10,4 @@ rustrict
 rustfmt-nightly
 git-disjoint
 tendermint-rpc
+dotenv
