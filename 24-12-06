@@ -58,3 +58,4 @@ tendermint-rpc
 dotenv
 binstall
 cargo-whatfeatures
+clipboard-history
