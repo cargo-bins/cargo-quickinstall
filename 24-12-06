@@ -19,3 +19,4 @@ rkv
 rls-rustc
 human_bytes
 espflash
+sha1collisiondetection
