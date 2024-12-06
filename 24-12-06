@@ -17,3 +17,4 @@ rkv
 rls-rustc
 exa
 human_bytes
+sha1collisiondetection
