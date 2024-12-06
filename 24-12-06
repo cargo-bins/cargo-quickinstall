@@ -25,3 +25,4 @@ git-disjoint
 dotenv
 tendermint-rpc
 benfred-read-process-memory
+opencv-binding-generator
