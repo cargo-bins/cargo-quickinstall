@@ -2,3 +2,4 @@ addr2line
 cached-path
 apollo-router
 rkv
+rls-rustc
