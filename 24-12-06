@@ -56,3 +56,4 @@ git-disjoint
 bun
 tendermint-rpc
 dotenv
+binstall
