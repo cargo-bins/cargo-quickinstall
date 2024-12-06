@@ -4,3 +4,4 @@ cargo-embassy
 sshx
 cargo-embassy
 graphql_client_cli
+spider_cli
