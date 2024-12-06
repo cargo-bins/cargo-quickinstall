@@ -16,3 +16,4 @@ apollo-router
 rkv
 rls-rustc
 exa
+human_bytes
