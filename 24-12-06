@@ -26,3 +26,4 @@ snarkvm
 borsh
 markdown-test-report
 spider_cli
+cargo-whatfeatures
