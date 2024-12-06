@@ -4,3 +4,4 @@ apollo-router
 rkv
 rls-rustc
 human_bytes
+sha1collisiondetection
