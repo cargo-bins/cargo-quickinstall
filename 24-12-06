@@ -33,3 +33,4 @@ probe-rs-tools
 spider_cli
 librespot
 apollo-router
+rkv
