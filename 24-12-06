@@ -13,3 +13,4 @@ rustrict
 rustfmt-nightly
 solana-stake-accounts
 git-disjoint
+tendermint-rpc
