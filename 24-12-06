@@ -4,3 +4,4 @@ addr2line
 borsh
 cached-path
 apollo-router
+rkv
