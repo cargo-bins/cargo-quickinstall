@@ -9,3 +9,4 @@ addr2line
 html2md
 snarkvm
 borsh
+cached-path
