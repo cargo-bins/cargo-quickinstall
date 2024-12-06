@@ -3,3 +3,4 @@ cached-path
 apollo-router
 rkv
 rls-rustc
+human_bytes
