@@ -19,3 +19,4 @@ tree-sitter-cli
 solana-validator
 rustrict
 rustfmt-nightly
+solana-stake-accounts
