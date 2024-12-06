@@ -25,3 +25,4 @@ markdown-test-report
 cargo-embassy
 typst-cli
 snarkvm
+borsh
