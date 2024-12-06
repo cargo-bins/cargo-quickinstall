@@ -3,3 +3,4 @@ below
 cargo-embassy
 sshx
 cargo-embassy
+graphql_client_cli
