@@ -15,3 +15,4 @@ httpmock
 borsh
 nextest-filtering
 solana-keygen
+tree-sitter-cli
