@@ -10,3 +10,4 @@ solana-gossip
 ducc-sys
 sqlx-cli
 papyrus_storage
+solana-faucet
