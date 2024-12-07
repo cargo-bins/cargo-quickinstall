@@ -26,3 +26,4 @@ httpmock
 borsh
 solana-gossip
 solana-keygen
+cargo-pgrx
