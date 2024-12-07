@@ -18,3 +18,4 @@ rustrict
 httpmock
 borsh
 git-mit-install
+nextest-filtering
