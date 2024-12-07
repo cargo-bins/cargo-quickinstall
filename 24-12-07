@@ -4,3 +4,4 @@ cargo-dylint
 cargo-public-api
 graphql_client_cli
 binwalk
+psvm
