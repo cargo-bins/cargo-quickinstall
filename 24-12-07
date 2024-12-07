@@ -21,3 +21,4 @@ borsh
 sn_node
 nextest-filtering
 git-mit-install
+solana-gossip
