@@ -15,3 +15,4 @@ dotenvy
 dioxus-cli
 ducc-sys
 psvm
+cargo-spellcheck
