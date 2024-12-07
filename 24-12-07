@@ -3,3 +3,4 @@ cargo-outdated
 mit-commit-msg
 git-mit-relates-to
 sqlx-cli
+git-mit
