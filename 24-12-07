@@ -8,3 +8,4 @@ dotenvy
 solana-gossip
 ducc-sys
 sqlx-cli
+solana-faucet
