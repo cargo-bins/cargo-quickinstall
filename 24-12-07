@@ -2,3 +2,4 @@ binstall
 java-locator
 psvm
 bun
+cargo-dylint
