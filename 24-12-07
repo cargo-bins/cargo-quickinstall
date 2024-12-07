@@ -9,3 +9,4 @@ solana-gossip
 ducc-sys
 sqlx-cli
 solana-faucet
+tree-sitter-cli
