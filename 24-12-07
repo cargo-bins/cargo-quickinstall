@@ -8,3 +8,4 @@ solana-gossip
 ducc-sys
 skim
 sqlx-cli
+papyrus_storage
