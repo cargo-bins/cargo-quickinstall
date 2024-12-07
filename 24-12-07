@@ -30,3 +30,4 @@ sequoia-sq
 cargo-dylint
 ffsend
 cargo-spellcheck
+hurlfmt
