@@ -24,3 +24,4 @@ nextest-filtering
 git-mit-install
 solana-gossip
 solana-keygen
+tree-sitter-cli
