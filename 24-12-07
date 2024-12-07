@@ -7,3 +7,4 @@ dotenvy
 solana-gossip
 ducc-sys
 skim
+sqlx-cli
