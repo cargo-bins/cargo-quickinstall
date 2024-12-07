@@ -21,3 +21,4 @@ cargo-spellcheck
 papyrus_storage
 sequoia-sq
 hurl
+typst-cli
