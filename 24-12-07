@@ -4,3 +4,4 @@ psvm
 bun
 cargo-dylint
 binwalk
+tree-sitter-graph
