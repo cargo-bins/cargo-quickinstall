@@ -10,3 +10,4 @@ hurl
 binstall
 cargo-spellcheck
 openring
+sea-orm-cli
