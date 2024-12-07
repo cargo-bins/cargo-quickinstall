@@ -19,3 +19,4 @@ rustrict
 httpmock
 borsh
 sn_node
+nextest-filtering
