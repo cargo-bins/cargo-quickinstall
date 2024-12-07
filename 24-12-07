@@ -2,3 +2,4 @@ java-locator
 bun
 cargo-dylint
 cargo-public-api
+graphql_client_cli
