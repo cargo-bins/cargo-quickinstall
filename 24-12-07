@@ -11,3 +11,4 @@ ducc-sys
 sqlx-cli
 papyrus_storage
 solana-faucet
+tree-sitter-cli
