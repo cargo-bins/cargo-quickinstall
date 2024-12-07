@@ -27,3 +27,4 @@ psvm
 mise
 bgpkit-parser
 sequoia-sq
+cargo-dylint
