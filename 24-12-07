@@ -6,3 +6,4 @@ graphql_client_cli
 binwalk
 psvm
 alacritty
+sea-orm-cli
