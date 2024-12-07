@@ -68,3 +68,4 @@ solana-gossip
 solana-keygen
 cargo-pgrx
 cargo-count
+minicbor
