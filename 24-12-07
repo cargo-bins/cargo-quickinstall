@@ -22,3 +22,4 @@ borsh
 html2md
 nextest-filtering
 git-mit-install
+solana-gossip
