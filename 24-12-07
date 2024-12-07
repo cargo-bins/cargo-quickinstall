@@ -6,3 +6,4 @@ cargo-dylint
 binwalk
 tree-sitter-graph
 cargo-spellcheck
+hurl
