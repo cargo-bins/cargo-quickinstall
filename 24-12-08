@@ -17,3 +17,4 @@ schemafy
 nextest-filtering
 libbpf-cargo
 deploy
+spider_cli
