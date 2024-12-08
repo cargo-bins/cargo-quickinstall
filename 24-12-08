@@ -6,3 +6,4 @@ rattler-build
 bacli
 foundationdb-gen
 hurlfmt
+tree-sitter-cli
