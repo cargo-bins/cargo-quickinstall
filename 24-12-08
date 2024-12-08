@@ -14,3 +14,4 @@ solana-cli
 trunk
 git-disjoint
 schemafy
+nextest-filtering
