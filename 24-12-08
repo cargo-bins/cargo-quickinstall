@@ -11,3 +11,4 @@ rustbus
 schemafy
 nextest-filtering
 deploy
+ec2_instance_metadata
