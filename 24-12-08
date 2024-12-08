@@ -58,3 +58,4 @@ diesel_cli
 cargo-bpf
 clippy
 virtiofsd
+dioxus-cli
