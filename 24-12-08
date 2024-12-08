@@ -19,3 +19,4 @@ golem-cli
 spider_cli
 golem-cli
 rkv
+remove_dir_all
