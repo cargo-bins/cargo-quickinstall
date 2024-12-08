@@ -15,3 +15,4 @@ ec2_instance_metadata
 honggfuzz
 rkv
 remove_dir_all
+cargo-local-registry
