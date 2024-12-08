@@ -57,3 +57,4 @@ bacli
 diesel_cli
 cargo-bpf
 clippy
+virtiofsd
