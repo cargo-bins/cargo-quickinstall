@@ -15,3 +15,4 @@ git-disjoint
 nextest-filtering
 libbpf-cargo
 deploy
+golem-cli
