@@ -16,3 +16,4 @@ nextest-filtering
 deploy
 rkv
 cargo-lock
+remove_dir_all
