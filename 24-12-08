@@ -21,3 +21,4 @@ deploy
 cargo-lock
 rkv
 remove_dir_all
+pandora_box
