@@ -55,3 +55,4 @@ cargo-lock
 remove_dir_all
 bacli
 diesel_cli
+cargo-bpf
