@@ -20,3 +20,4 @@ rkv
 cargo-lock
 remove_dir_all
 cargo-about
+clippy
