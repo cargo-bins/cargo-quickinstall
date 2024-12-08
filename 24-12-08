@@ -9,3 +9,4 @@ solana-faucet
 trunk
 cargo-tarpaulin
 git-disjoint
+mit-commit-msg
