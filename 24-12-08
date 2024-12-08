@@ -17,3 +17,4 @@ nextest-filtering
 deploy
 spider_cli
 rkv
+cargo-lock
