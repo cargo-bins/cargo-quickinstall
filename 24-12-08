@@ -40,3 +40,4 @@ rattler-build
 gluon_language-server
 bacli
 bacli
+nextest-filtering
