@@ -19,3 +19,4 @@ cargo-local-registry
 clippy
 pandora_box
 solana-genesis
+textplots
