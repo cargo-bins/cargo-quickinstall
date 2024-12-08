@@ -52,3 +52,4 @@ diesel_cli
 rkv
 alacritty
 cargo-lock
+remove_dir_all
