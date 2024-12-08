@@ -16,3 +16,4 @@ stellar-xdr
 git-disjoint
 schemafy
 nextest-filtering
+libbpf-cargo
