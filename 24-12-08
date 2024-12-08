@@ -19,3 +19,4 @@ libbpf-cargo
 deploy
 spider_cli
 rkv
+cargo-lock
