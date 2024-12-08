@@ -22,3 +22,4 @@ schemafy
 cargo-spellcheck
 atuin
 mdbook-plantuml
+gluon_language-server
