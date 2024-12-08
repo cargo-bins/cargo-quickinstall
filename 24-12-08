@@ -58,3 +58,4 @@ clippy
 cargo-spellcheck
 rattler-build
 bacli
+virtiofsd
