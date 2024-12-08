@@ -7,3 +7,4 @@ cargo-tarpaulin
 schemafy
 solana-faucet
 solana-cli
+trunk
