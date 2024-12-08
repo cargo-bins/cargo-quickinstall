@@ -16,3 +16,4 @@ nextest-filtering
 libbpf-cargo
 deploy
 golem-cli
+spider_cli
