@@ -51,3 +51,4 @@ youtube-tui
 diesel_cli
 rkv
 alacritty
+cargo-lock
