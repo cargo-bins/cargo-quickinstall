@@ -8,3 +8,4 @@ schemafy
 solana-faucet
 trunk
 cargo-tarpaulin
+git-disjoint
