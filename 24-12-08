@@ -19,3 +19,4 @@ cargo-lock
 remove_dir_all
 clippy
 pandora_box
+textplots
