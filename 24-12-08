@@ -20,3 +20,4 @@ deploy
 spider_cli
 rkv
 cargo-lock
+remove_dir_all
