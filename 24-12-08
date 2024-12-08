@@ -44,3 +44,4 @@ nextest-filtering
 gluon_language-server
 eureka
 deploy
+dioxus-cli
