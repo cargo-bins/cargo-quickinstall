@@ -13,3 +13,4 @@ git-disjoint
 mit-commit-msg
 schemafy
 evcxr_repl
+sccache
