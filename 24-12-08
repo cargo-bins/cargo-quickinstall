@@ -5,3 +5,4 @@ solana-stake-accounts
 rattler-build
 bacli
 foundationdb-gen
+hurlfmt
