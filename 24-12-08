@@ -16,3 +16,4 @@ git-disjoint
 schemafy
 nextest-filtering
 libbpf-cargo
+deploy
