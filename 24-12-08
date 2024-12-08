@@ -55,3 +55,4 @@ remove_dir_all
 arti
 rattler-build
 clippy
+cargo-spellcheck
