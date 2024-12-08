@@ -10,3 +10,4 @@ trunk
 cargo-tarpaulin
 git-disjoint
 mit-commit-msg
+schemafy
