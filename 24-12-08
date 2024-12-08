@@ -17,3 +17,4 @@ rkv
 remove_dir_all
 cargo-local-registry
 clippy
+pandora_box
