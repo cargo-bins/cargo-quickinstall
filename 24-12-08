@@ -5,3 +5,4 @@ zuse
 tree-sitter-cli
 cargo-tarpaulin
 schemafy
+solana-faucet
