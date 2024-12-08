@@ -45,3 +45,4 @@ virtiofsd
 deploy
 mise
 rust-kanban
+rattler-build
