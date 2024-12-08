@@ -54,3 +54,4 @@ cargo-lock
 remove_dir_all
 arti
 rattler-build
+clippy
