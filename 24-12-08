@@ -4,3 +4,4 @@ foundationdb-gen
 zuse
 tree-sitter-cli
 cargo-tarpaulin
+schemafy
