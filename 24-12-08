@@ -13,3 +13,4 @@ mit-commit-msg
 schemafy
 evcxr_repl
 sccache
+nextest-filtering
