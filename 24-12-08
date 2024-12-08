@@ -44,3 +44,4 @@ nextest-filtering
 virtiofsd
 deploy
 mise
+rust-kanban
