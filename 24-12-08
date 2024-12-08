@@ -14,3 +14,4 @@ trunk
 git-disjoint
 nextest-filtering
 libbpf-cargo
+deploy
