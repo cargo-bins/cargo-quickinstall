@@ -15,3 +15,4 @@ trunk
 mit-commit-msg
 schemafy
 rustbus
+nextest-filtering
