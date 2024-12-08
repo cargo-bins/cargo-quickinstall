@@ -19,3 +19,4 @@ nextest-filtering
 libbpf-cargo
 deploy
 cargo-lock
+rkv
