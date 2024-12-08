@@ -2,3 +2,4 @@ parquet
 cargo-count
 codeberg-cli
 solana-stake-accounts
+rattler-build
