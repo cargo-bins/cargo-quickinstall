@@ -12,3 +12,4 @@ solana-cli
 trunk
 trunk
 git-disjoint
+nextest-filtering
