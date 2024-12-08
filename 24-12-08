@@ -8,3 +8,4 @@ schemafy
 solana-faucet
 solana-cli
 trunk
+cargo-tarpaulin
