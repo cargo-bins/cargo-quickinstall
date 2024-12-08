@@ -9,3 +9,4 @@ solana-faucet
 solana-cli
 trunk
 cargo-tarpaulin
+git-disjoint
