@@ -8,3 +8,4 @@ cached-path
 cargo-public-api
 cargo-bpf
 bgpkit-broker
+diesel_cli
