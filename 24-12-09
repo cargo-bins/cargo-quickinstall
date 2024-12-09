@@ -37,3 +37,4 @@ solana-validator
 spider_worker
 cargo-hatch
 atuin
+rkv
