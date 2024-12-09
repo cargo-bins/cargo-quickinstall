@@ -18,3 +18,4 @@ benfred-read-process-memory
 cargo-local-registry
 addr2line
 addr2line
+dbus-codegen
