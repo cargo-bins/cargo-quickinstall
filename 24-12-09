@@ -27,3 +27,4 @@ virtiofsd
 cargo-list
 cargo-dylint
 atuin
+nextsv
