@@ -25,3 +25,4 @@ cargo-embed
 addr2line
 monolith
 dbus-codegen
+solana-stake-accounts
