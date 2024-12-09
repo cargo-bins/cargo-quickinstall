@@ -22,3 +22,4 @@ addr2line
 addr2line
 dbus-codegen
 solana-stake-accounts
+dotenvy
