@@ -42,3 +42,4 @@ spider_worker
 cargo-bpf
 rkv
 bugstalker
+cargo-hatch
