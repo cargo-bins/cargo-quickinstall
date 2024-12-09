@@ -18,3 +18,4 @@ watchexec-cli
 stellar-xdr
 nexmark
 evcxr_repl
+cargo-local-registry
