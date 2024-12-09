@@ -18,3 +18,4 @@ addr2line
 librespot
 addr2line
 dbus-codegen
+dotenvy
