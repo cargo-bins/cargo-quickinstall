@@ -70,3 +70,4 @@ atuin
 probe-rs-tools
 dbus-codegen
 sudo-rs
+redoxer
