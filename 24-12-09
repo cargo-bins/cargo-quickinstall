@@ -7,3 +7,4 @@ winpty-rs
 cargo-public-api
 virtiofsd
 bgpkit-broker
+cached-path
