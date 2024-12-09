@@ -4,3 +4,4 @@ winpty-rs
 cached-path
 java-locator
 socketcan
+perfcnt
