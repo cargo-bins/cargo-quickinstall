@@ -61,3 +61,4 @@ librespot
 cargo-pgrx
 dbus-codegen
 jetsky
+sudo-rs
