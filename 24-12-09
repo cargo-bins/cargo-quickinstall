@@ -15,3 +15,4 @@ stellar-xdr
 httpbis
 nexmark
 benfred-read-process-memory
+cargo-local-registry
