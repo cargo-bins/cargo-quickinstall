@@ -13,3 +13,4 @@ nexmark
 addr2line
 addr2line
 dbus-codegen
+dotenvy
