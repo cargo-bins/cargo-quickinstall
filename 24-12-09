@@ -6,3 +6,4 @@ nextsv
 winpty-rs
 cargo-public-api
 virtiofsd
+bgpkit-broker
