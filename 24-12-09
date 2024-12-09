@@ -22,3 +22,4 @@ cargo-local-registry
 addr2line
 monolith
 cargo-embed
+addr2line
