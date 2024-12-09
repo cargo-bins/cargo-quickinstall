@@ -14,3 +14,4 @@ cargo-codspeed
 rkv
 cargo-about
 zuse
+watchexec-cli
