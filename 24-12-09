@@ -41,3 +41,4 @@ addr2line
 spider_worker
 cargo-bpf
 rkv
+bugstalker
