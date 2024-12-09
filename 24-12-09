@@ -39,3 +39,4 @@ cargo-hatch
 atuin
 rkv
 cavif
+cargo-bpf
