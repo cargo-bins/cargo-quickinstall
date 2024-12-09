@@ -3,3 +3,4 @@ cargo-spellcheck
 cargo-pgrx
 nextsv
 nextsv
+winpty-rs
