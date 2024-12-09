@@ -20,3 +20,4 @@ nexmark
 evcxr_repl
 cargo-local-registry
 addr2line
+librespot
