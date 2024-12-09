@@ -69,3 +69,4 @@ probe-rs-tools
 atuin
 probe-rs-tools
 dbus-codegen
+sudo-rs
