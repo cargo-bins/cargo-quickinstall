@@ -9,3 +9,4 @@ virtiofsd
 bgpkit-broker
 cached-path
 virtiofsd
+sea-orm-cli
