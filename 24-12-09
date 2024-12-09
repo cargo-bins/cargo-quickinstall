@@ -24,3 +24,4 @@ monolith
 cargo-embed
 addr2line
 monolith
+dbus-codegen
