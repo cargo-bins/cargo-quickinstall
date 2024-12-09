@@ -25,3 +25,4 @@ alacritty
 pcu
 virtiofsd
 cargo-list
+cargo-dylint
