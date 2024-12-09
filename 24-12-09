@@ -34,3 +34,4 @@ redoxer
 virtiofsd
 cargo-hatch
 solana-validator
+spider_worker
