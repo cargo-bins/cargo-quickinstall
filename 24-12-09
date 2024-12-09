@@ -3,3 +3,4 @@ borsh
 winpty-rs
 cached-path
 java-locator
+socketcan
