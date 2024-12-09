@@ -3,3 +3,4 @@ probe-rs-tools
 winpty-rs
 hurl
 cached-path
+java-locator
