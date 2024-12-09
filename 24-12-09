@@ -16,3 +16,4 @@ httpbis
 nexmark
 benfred-read-process-memory
 cargo-local-registry
+addr2line
