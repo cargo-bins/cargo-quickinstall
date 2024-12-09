@@ -12,3 +12,4 @@ solana-validator
 spider_worker
 cargo-codspeed
 rkv
+cargo-about
