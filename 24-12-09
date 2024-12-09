@@ -63,3 +63,4 @@ dbus-codegen
 jetsky
 sudo-rs
 dotenvy
+tui-journal
