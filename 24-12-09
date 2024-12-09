@@ -19,3 +19,4 @@ monolith
 stellar-xdr
 nexmark
 cargo-local-registry
+addr2line
