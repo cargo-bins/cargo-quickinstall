@@ -28,3 +28,4 @@ sea-orm-cli
 cargo-list
 solana-faucet
 tui-journal
+argus-cli
