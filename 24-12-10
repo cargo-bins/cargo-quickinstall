@@ -19,3 +19,4 @@ cached-path
 spider_worker
 git-mit-install
 solana-keygen
+cargo-outdated
