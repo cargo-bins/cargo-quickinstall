@@ -13,3 +13,4 @@ cargo-lock
 schemafy
 mit-pre-commit
 espflash
+py-spy
