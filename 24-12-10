@@ -6,3 +6,4 @@ probe-rs
 racer
 remove_dir_all
 racer
+clippy
