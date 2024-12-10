@@ -7,3 +7,4 @@ termusic
 cargo-lock
 schemafy
 cached-path
+wmi
