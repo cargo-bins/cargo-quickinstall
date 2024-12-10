@@ -21,3 +21,4 @@ pijul
 cargo-lock
 schemafy
 probe-rs
+pandora_box
