@@ -66,3 +66,4 @@ mdcat
 i3status-rs
 wmi
 cargo-flash
+probe-run
