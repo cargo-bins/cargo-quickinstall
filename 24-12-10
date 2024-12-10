@@ -3,3 +3,4 @@ git-mit-install
 remove_dir_all
 arrow-flight
 cargo-udeps
+java-locator
