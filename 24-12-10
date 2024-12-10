@@ -3,3 +3,4 @@ pijul
 rustfmt-nightly
 z3tracer
 probe-rs
+racer
