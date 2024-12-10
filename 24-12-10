@@ -41,3 +41,4 @@ argus-cli
 racer
 probe-run
 graphql_client_cli
+cargo-lock
