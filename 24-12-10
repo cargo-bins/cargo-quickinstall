@@ -10,3 +10,4 @@ remove_dir_all
 cargo-embed
 binsider
 arrow-flight
+java-locator
