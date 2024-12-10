@@ -9,3 +9,4 @@ sccache
 solana-faucet
 snarkvm
 racer
+cargo-lock
