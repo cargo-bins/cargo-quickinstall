@@ -5,3 +5,4 @@ remove_dir_all
 solana-faucet
 snarkvm
 racer
+cargo-lock
