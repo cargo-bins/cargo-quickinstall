@@ -23,3 +23,4 @@ paru
 java-locator
 cargo-public-api
 remove_dir_all
+graphql_client_cli
