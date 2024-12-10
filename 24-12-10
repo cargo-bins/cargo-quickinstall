@@ -5,3 +5,4 @@ arrow-flight
 cargo-udeps
 java-locator
 remove_dir_all
+sccache
