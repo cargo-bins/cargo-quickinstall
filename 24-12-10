@@ -19,3 +19,4 @@ cargo-lock
 spider_worker
 schemafy
 py-spy
+cached-path
