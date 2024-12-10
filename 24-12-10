@@ -4,3 +4,4 @@ cargo-hatch
 sea-orm-cli
 hurl
 hurl
+tui-journal
