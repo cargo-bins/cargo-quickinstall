@@ -7,3 +7,4 @@ diesel_cli
 java-locator
 remove_dir_all
 httpmock
+turbocommit
