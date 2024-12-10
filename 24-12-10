@@ -44,3 +44,4 @@ graphql_client_cli
 cargo-lock
 cargo-list
 tui-journal
+schemafy
