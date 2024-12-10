@@ -9,3 +9,4 @@ rustbus
 racer
 cargo-lock
 schemafy
+mit-pre-commit
