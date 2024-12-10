@@ -12,3 +12,4 @@ cargo-lock
 spider_worker
 schemafy
 mit-pre-commit
+py-spy
