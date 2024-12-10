@@ -16,3 +16,4 @@ spider_cli
 remove_dir_all
 bugstalker
 probe-run
+arrow-flight
