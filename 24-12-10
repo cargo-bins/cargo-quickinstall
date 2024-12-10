@@ -44,3 +44,4 @@ cargo-lock
 paru
 schemafy
 kanidm_tools
+nu_plugin_query
