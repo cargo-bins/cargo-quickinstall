@@ -29,3 +29,4 @@ cargo-list
 solana-faucet
 tui-journal
 argus-cli
+snarkvm
