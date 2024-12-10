@@ -14,3 +14,4 @@ probe-rs
 java-locator
 remove_dir_all
 clippy
+solana-faucet
