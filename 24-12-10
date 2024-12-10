@@ -35,3 +35,4 @@ clipboard-history-server
 cargo-dylint
 snarkvm
 kanidm_tools
+argus-cli
