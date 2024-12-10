@@ -12,3 +12,4 @@ alacritty
 cargo-dylint
 kanidm_tools
 nextsv
+remove_dir_all
