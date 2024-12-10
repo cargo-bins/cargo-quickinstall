@@ -65,3 +65,4 @@ argus-cli
 mdcat
 i3status-rs
 wmi
+cargo-flash
