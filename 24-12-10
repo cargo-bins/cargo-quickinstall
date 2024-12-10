@@ -2,3 +2,4 @@ rustfmt
 z3tracer
 skim
 remove_dir_all
+arrow-flight
