@@ -42,3 +42,4 @@ racer
 probe-run
 graphql_client_cli
 cargo-lock
+cargo-list
