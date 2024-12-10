@@ -24,3 +24,4 @@ tui-journal
 mdcat
 tui-journal
 addr2line
+remove_dir_all
