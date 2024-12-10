@@ -9,3 +9,4 @@ sccache
 solana-faucet
 snarkvm
 cargo-lock
+spider_worker
