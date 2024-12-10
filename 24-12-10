@@ -27,3 +27,4 @@ addr2line
 remove_dir_all
 probe-run
 argus-cli
+pcu
