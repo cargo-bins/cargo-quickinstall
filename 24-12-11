@@ -9,3 +9,4 @@ diesel_cli
 git-mit-relates-to
 rustfmt-nightly
 git-mit-relates-to
+safe_network
