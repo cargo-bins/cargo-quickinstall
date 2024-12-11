@@ -3,3 +3,4 @@ rkv
 crates-tui
 tree-sitter-cli
 i3status-rs
+graphql_client_cli
