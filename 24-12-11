@@ -28,3 +28,4 @@ solana-validator
 ruff
 minicbor
 nu_plugin_query
+wayback-rs
