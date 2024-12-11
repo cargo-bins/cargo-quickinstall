@@ -19,3 +19,4 @@ phf_generator
 cargo-maelstrom
 cargo-maelstrom
 borsh
+stellar-strkey
