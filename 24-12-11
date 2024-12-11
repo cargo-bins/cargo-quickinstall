@@ -11,3 +11,4 @@ solana-validator
 minicbor
 git-mit-config
 unic-langid-impl
+ec2_instance_metadata
