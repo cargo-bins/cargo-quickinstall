@@ -7,3 +7,4 @@ nexmark
 solana-validator
 minicbor
 unic-langid-impl
+phf_generator
