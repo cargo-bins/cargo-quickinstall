@@ -17,3 +17,4 @@ nu_plugin_query
 ruff
 phf_generator
 wayback-rs
+nu
