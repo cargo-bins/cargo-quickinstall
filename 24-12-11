@@ -8,3 +8,4 @@ phf_generator
 borsh
 nexmark
 rustfmt-nightly
+solana-validator
