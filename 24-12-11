@@ -44,3 +44,4 @@ borsh
 nu
 stellar-strkey
 cargo-flash
+raw-cpuid
