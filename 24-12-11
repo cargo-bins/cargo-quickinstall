@@ -9,3 +9,4 @@ minicbor
 unic-langid-impl
 phf_generator
 stellar-strkey
+stellar-xdr
