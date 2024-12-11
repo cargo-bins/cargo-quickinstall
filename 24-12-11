@@ -24,3 +24,4 @@ human_name
 evcxr_repl
 mit-pre-commit
 tree-sitter-cli
+wol-rs
