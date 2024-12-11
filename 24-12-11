@@ -40,3 +40,4 @@ mdcat
 phf_generator
 wayback-rs
 cargo-maelstrom
+borsh
