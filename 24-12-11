@@ -68,3 +68,4 @@ cargo-list
 metadata
 ruff
 tracexec
+cargo-list
