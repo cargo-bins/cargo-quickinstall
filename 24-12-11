@@ -67,3 +67,4 @@ ruff
 cargo-list
 metadata
 ruff
+tracexec
