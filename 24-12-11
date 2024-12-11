@@ -10,3 +10,4 @@ nexmark
 rustfmt-nightly
 solana-validator
 minicbor
+starship
