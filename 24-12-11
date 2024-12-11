@@ -69,3 +69,4 @@ metadata
 ruff
 tracexec
 cargo-list
+cargo-maelstrom
