@@ -20,3 +20,4 @@ cargo-maelstrom
 cargo-maelstrom
 borsh
 stellar-strkey
+raw-cpuid
