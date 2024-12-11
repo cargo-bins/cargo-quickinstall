@@ -10,3 +10,4 @@ ruff
 graphql_client_cli
 nu
 nu_plugin_query
+cargo-dylint
