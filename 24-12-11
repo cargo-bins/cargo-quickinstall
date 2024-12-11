@@ -18,3 +18,4 @@ cargo-maelstrom
 phf_generator
 cargo-maelstrom
 cargo-maelstrom
+borsh
