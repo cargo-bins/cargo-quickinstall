@@ -4,3 +4,4 @@ remove_dir_all
 phf_generator
 borsh
 nexmark
+git-mit-relates-to
