@@ -7,3 +7,4 @@ cavif
 wl-screenrec
 cargo-dylint
 ruff
+graphql_client_cli
