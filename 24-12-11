@@ -51,3 +51,4 @@ stellar-xdr
 cargo-maelstrom
 tracexec
 lla
+mdbook-plantuml
