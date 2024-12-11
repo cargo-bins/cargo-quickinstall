@@ -8,3 +8,4 @@ cargo-tarpaulin
 phf_generator
 borsh
 nexmark
+git-mit-relates-to
