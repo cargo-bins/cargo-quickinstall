@@ -7,3 +7,4 @@ borsh
 nexmark
 diesel_cli
 git-mit-relates-to
+rustfmt-nightly
