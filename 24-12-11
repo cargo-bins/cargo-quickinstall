@@ -7,3 +7,4 @@ phf_generator
 borsh
 nexmark
 cargo-maelstrom
+safe_network
