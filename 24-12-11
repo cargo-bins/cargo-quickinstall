@@ -53,3 +53,4 @@ borsh
 stellar-strkey
 raw-cpuid
 hex-patch
+stellar-xdr
