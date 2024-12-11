@@ -35,3 +35,4 @@ unic-langid-impl
 i3status-rs
 nu_plugin_query
 a11ywatch_cli
+nu_plugin_gstat
