@@ -24,3 +24,4 @@ raw-cpuid
 stellar-xdr
 snarkvm
 tree-sitter-cli
+wol-rs
