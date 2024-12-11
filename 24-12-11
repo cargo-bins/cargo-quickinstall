@@ -14,3 +14,4 @@ starship
 unic-langid-impl
 a11ywatch_cli
 phf_generator
+borsh
