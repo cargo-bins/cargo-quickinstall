@@ -7,3 +7,4 @@ borsh
 nexmark
 solana-validator
 minicbor
+phf_generator
