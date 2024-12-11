@@ -12,3 +12,4 @@ remove_dir_all
 wiki-tui
 ruff
 phf_generator
+borsh
