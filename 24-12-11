@@ -14,3 +14,4 @@ ruff
 phf_generator
 borsh
 ruff
+wayback-rs
