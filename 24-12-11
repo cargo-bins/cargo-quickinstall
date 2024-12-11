@@ -70,3 +70,4 @@ ruff
 tracexec
 cargo-list
 cargo-maelstrom
+crates-tui
