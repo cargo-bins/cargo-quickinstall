@@ -24,3 +24,4 @@ unic-langid-impl
 mit-commit-msg
 human_name
 evcxr_repl
+mit-pre-commit
