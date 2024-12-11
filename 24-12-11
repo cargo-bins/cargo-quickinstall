@@ -18,3 +18,4 @@ ruff
 phf_generator
 wayback-rs
 nu
+borsh
