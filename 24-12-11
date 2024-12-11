@@ -50,3 +50,4 @@ cargo-maelstrom
 cargo-flash
 lla
 borsh
+stellar-strkey
