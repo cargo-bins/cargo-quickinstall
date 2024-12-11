@@ -17,3 +17,4 @@ ruff
 wayback-rs
 nexmark
 wl-screenrec
+crates-tui
