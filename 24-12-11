@@ -5,3 +5,4 @@ remove_dir_all
 phf_generator
 borsh
 nexmark
+solana-validator
