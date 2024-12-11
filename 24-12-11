@@ -26,3 +26,4 @@ human_name
 evcxr_repl
 mit-pre-commit
 sccache
+tree-sitter-cli
