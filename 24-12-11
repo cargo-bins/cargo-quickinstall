@@ -22,3 +22,4 @@ snarkvm
 mit-commit-msg
 human_name
 evcxr_repl
+mit-pre-commit
