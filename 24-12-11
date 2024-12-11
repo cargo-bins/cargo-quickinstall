@@ -11,3 +11,4 @@ rustfmt-nightly
 solana-validator
 minicbor
 starship
+unic-langid-impl
