@@ -9,3 +9,4 @@ nexmark
 cargo-maelstrom
 safe_network
 solana-validator
+minicbor
