@@ -72,3 +72,4 @@ cargo-list
 cargo-maelstrom
 crates-tui
 wol-rs
+cargo-info
