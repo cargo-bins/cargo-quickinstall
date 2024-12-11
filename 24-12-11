@@ -22,3 +22,4 @@ borsh
 wl-screenrec
 cavif
 nu_plugin_query
+graphql_client_cli
