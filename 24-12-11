@@ -14,3 +14,4 @@ unic-langid-impl
 ec2_instance_metadata
 phf_generator
 stellar-strkey
+stellar-xdr
