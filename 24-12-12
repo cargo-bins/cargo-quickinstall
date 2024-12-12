@@ -8,3 +8,4 @@ parquet
 sha1collisiondetection
 addr2line
 cargo-tarpaulin
+mit-prepare-commit-msg
