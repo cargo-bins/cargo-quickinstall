@@ -12,3 +12,4 @@ addr2line
 cargo-tarpaulin
 re_query
 mit-commit-msg
+trunk
