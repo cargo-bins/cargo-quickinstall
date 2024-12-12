@@ -20,3 +20,4 @@ remove_dir_all
 wol-rs
 nextest-filtering
 cargo-c
+clippy
