@@ -7,3 +7,4 @@ socketcan
 parquet
 sha1collisiondetection
 addr2line
+cargo-tarpaulin
