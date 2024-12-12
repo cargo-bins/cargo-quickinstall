@@ -13,3 +13,4 @@ cargo-tarpaulin
 re_query
 mit-commit-msg
 trunk
+cached-path
