@@ -22,3 +22,4 @@ wol-rs
 cargo-c
 clippy
 httpmock
+cargo-codspeed
