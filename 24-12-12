@@ -17,3 +17,4 @@ cached-path
 laminar
 protofetch
 evcxr_repl
+remove_dir_all
