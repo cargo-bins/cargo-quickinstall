@@ -20,3 +20,4 @@ evcxr_repl
 remove_dir_all
 wol-rs
 cargo-c
+clippy
