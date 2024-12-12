@@ -3,3 +3,4 @@ cargo-vet
 nexmark
 laminar
 stellar-strkey
+socketcan
