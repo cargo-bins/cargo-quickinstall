@@ -13,3 +13,4 @@ remove_dir_all
 wol-rs
 deno
 clippy
+httpmock
