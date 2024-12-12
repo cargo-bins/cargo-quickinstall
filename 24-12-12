@@ -5,3 +5,4 @@ socketcan
 sha1collisiondetection
 httpmock
 addr2line
+re_query
