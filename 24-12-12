@@ -9,3 +9,4 @@ re_query
 textplots
 cached-path
 laminar
+remove_dir_all
