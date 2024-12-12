@@ -7,3 +7,4 @@ cargo-codspeed
 socketcan
 parquet
 sha1collisiondetection
+httpmock
