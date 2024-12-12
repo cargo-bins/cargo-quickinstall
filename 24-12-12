@@ -15,3 +15,4 @@ trunk
 cached-path
 safe_network
 protofetch
+evcxr_repl
