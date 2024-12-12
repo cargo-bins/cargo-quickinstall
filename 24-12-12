@@ -12,3 +12,4 @@ mit-prepare-commit-msg
 re_query
 mit-commit-msg
 textplots
+cargo-vet
