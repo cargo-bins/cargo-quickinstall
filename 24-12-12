@@ -8,3 +8,4 @@ stellar-strkey
 graphql_client_cli
 socketcan
 cargo-show
+addr2line
