@@ -11,3 +11,4 @@ cargo-tarpaulin
 mit-prepare-commit-msg
 re_query
 mit-commit-msg
+trunk
