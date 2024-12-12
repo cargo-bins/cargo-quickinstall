@@ -7,3 +7,4 @@ socketcan
 cargo-vet
 parquet
 sha1collisiondetection
+addr2line
