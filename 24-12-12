@@ -15,3 +15,4 @@ textplots
 cargo-vet
 trunk
 laminar
+safe_network
