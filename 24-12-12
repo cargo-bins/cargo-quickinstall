@@ -6,3 +6,4 @@ stellar-strkey
 socketcan
 cargo-vet
 parquet
+sha1collisiondetection
