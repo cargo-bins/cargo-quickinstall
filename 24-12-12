@@ -49,3 +49,4 @@ cargo-dylint
 metadata
 dedoc
 cached-path
+sniffglue
