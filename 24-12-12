@@ -6,3 +6,4 @@ stellar-strkey
 cargo-codspeed
 socketcan
 parquet
+sha1collisiondetection
