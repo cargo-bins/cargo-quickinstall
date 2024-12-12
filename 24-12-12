@@ -40,3 +40,4 @@ atuin
 clippy
 exa
 httpmock
+cargo-generate
