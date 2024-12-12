@@ -21,3 +21,4 @@ wol-rs
 nextest-filtering
 cargo-c
 clippy
+httpmock
