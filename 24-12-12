@@ -9,3 +9,4 @@ parquet
 sha1collisiondetection
 httpmock
 addr2line
+cargo-tarpaulin
