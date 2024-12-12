@@ -8,3 +8,4 @@ cargo-vet
 parquet
 sha1collisiondetection
 addr2line
+mit-prepare-commit-msg
