@@ -18,3 +18,4 @@ laminar
 safe_network
 omicron-zone-package
 remove_dir_all
+clippy
