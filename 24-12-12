@@ -10,3 +10,4 @@ sha1collisiondetection
 httpmock
 addr2line
 cargo-tarpaulin
+re_query
