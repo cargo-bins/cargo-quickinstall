@@ -10,3 +10,4 @@ cached-path
 deno
 laminar
 remove_dir_all
+wol-rs
