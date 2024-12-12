@@ -17,3 +17,4 @@ safe_network
 protofetch
 evcxr_repl
 remove_dir_all
+wol-rs
