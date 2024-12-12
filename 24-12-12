@@ -48,3 +48,4 @@ dedoc
 cargo-dylint
 metadata
 dedoc
+cached-path
