@@ -57,3 +57,4 @@ remove_dir_all
 attractorr
 cargo-show
 wol-rs
+crates-tui
