@@ -18,3 +18,4 @@ libbpf-cargo
 sccache
 winpty-rs
 apollo-router
+rustfmt-nightly
