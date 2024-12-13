@@ -18,3 +18,4 @@ human_bytes
 libbpf-cargo
 winpty-rs
 dotenv
+remove_dir_all
