@@ -58,3 +58,4 @@ rua
 remove_dir_all
 patch-crate
 apollo-router
+rustfmt-nightly
