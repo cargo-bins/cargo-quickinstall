@@ -19,3 +19,4 @@ libbpf-cargo
 unic-langid-impl
 kickstart
 winpty-rs
+dotenv
