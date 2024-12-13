@@ -27,3 +27,4 @@ dotenv
 winpty-rs
 sqlx-cli
 apollo-router
+rustfmt-nightly
