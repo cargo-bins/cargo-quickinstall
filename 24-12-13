@@ -3,3 +3,4 @@ rustfmt-nightly
 human_name
 diesel_cli
 hurl
+z3tracer
