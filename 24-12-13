@@ -11,3 +11,4 @@ human_bytes
 libbpf-cargo
 kickstart
 kickstart
+winpty-rs
