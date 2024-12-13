@@ -60,3 +60,4 @@ dotenv
 rua
 minicbor
 apollo-router
+rustfmt-nightly
