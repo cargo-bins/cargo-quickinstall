@@ -2,3 +2,4 @@ phf_generator
 rustfmt-nightly
 human_name
 diesel_cli
+hurl
