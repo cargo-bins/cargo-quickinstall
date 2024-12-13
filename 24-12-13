@@ -13,3 +13,4 @@ oso
 perfcnt
 human_bytes
 libbpf-cargo
+unic-langid-impl
