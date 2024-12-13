@@ -58,3 +58,4 @@ winpty-rs
 cargo-ktra-login
 dotenv
 rua
+minicbor
