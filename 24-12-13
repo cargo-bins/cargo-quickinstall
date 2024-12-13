@@ -20,3 +20,4 @@ perfcnt
 human_bytes
 sqlx-cli
 libbpf-cargo
+cargo-generate
