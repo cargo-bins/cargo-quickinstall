@@ -16,3 +16,4 @@ holochain
 perfcnt
 human_bytes
 libbpf-cargo
+winpty-rs
