@@ -59,3 +59,4 @@ cargo-ktra-login
 dotenv
 rua
 minicbor
+apollo-router
