@@ -49,3 +49,4 @@ git-leave
 trusted-signing-cli
 xbuild
 patch-crate
+cargo-list
