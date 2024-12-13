@@ -17,3 +17,4 @@ perfcnt
 human_bytes
 libbpf-cargo
 winpty-rs
+dotenv
