@@ -54,3 +54,4 @@ rua
 xbuild
 sshx
 trusted-signing-cli
+winpty-rs
