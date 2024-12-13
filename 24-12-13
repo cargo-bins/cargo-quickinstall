@@ -16,3 +16,4 @@ perfcnt
 sn_node
 sqlx-cli
 libbpf-cargo
+unic-langid-impl
