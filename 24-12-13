@@ -26,3 +26,4 @@ natls
 dotenv
 winpty-rs
 sqlx-cli
+apollo-router
