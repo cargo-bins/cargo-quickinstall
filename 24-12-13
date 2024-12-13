@@ -20,3 +20,4 @@ unic-langid-impl
 sn_cli
 winpty-rs
 minicbor
+apollo-router
