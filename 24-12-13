@@ -13,3 +13,4 @@ holochain
 cargo-outdated
 perfcnt
 human_bytes
+sqlx-cli
