@@ -12,3 +12,4 @@ holochain
 oso
 perfcnt
 human_bytes
+libbpf-cargo
