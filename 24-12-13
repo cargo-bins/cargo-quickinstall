@@ -21,3 +21,4 @@ sn_cli
 winpty-rs
 minicbor
 apollo-router
+rustfmt-nightly
