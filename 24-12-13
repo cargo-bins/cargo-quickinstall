@@ -57,3 +57,4 @@ trusted-signing-cli
 winpty-rs
 cargo-ktra-login
 dotenv
+rua
