@@ -25,3 +25,4 @@ natls
 natls
 dotenv
 winpty-rs
+sqlx-cli
