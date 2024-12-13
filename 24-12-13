@@ -16,3 +16,4 @@ libbpf-cargo
 unic-langid-impl
 winpty-rs
 dotenv
+apollo-router
