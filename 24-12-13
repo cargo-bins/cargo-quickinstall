@@ -22,3 +22,4 @@ winpty-rs
 minicbor
 apollo-router
 rustfmt-nightly
+rmesg
