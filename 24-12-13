@@ -60,3 +60,4 @@ patch-crate
 apollo-router
 rustfmt-nightly
 kickstart
+trusted-signing-cli
