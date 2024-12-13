@@ -19,3 +19,4 @@ libbpf-cargo
 sccache
 winpty-rs
 dotenv
+apollo-router
