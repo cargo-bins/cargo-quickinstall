@@ -63,3 +63,4 @@ apollo-router
 rustfmt-nightly
 sshx
 xbuild
+spider_cli
