@@ -5,3 +5,4 @@ tokio-process
 pandora_box
 z3tracer
 solana-cli
+rustfmt
