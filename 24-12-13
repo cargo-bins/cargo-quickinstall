@@ -13,3 +13,4 @@ kickstart
 kickstart
 winpty-rs
 apollo-router
+rustfmt-nightly
