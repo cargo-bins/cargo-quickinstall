@@ -21,3 +21,4 @@ kickstart
 winpty-rs
 dotenv
 kickstart
+apollo-router
