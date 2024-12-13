@@ -16,3 +16,4 @@ human_bytes
 deno
 sqlx-cli
 libbpf-cargo
+sccache
