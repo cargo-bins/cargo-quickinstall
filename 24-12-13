@@ -20,3 +20,4 @@ winpty-rs
 dotenv
 remove_dir_all
 apollo-router
+rustfmt-nightly
