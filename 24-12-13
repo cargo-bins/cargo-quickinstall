@@ -55,3 +55,4 @@ sshx
 winpty-rs
 dotenv
 rua
+remove_dir_all
