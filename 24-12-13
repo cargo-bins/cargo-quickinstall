@@ -4,3 +4,4 @@ phf_generator
 rustfmt-nightly
 human_name
 skyspell
+speedtest-rs
