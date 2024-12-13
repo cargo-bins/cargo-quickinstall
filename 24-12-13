@@ -17,3 +17,4 @@ deno
 sqlx-cli
 libbpf-cargo
 sccache
+winpty-rs
