@@ -62,3 +62,4 @@ minicbor
 apollo-router
 rustfmt-nightly
 sshx
+xbuild
