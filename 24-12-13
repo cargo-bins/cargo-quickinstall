@@ -20,3 +20,4 @@ sccache
 winpty-rs
 dotenv
 apollo-router
+rustfmt-nightly
