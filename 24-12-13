@@ -18,3 +18,4 @@ minicbor
 holochain
 perfcnt
 human_bytes
+sqlx-cli
