@@ -30,3 +30,4 @@ binstall
 archlinux-inputs-fsck
 librespot
 sea-orm-cli
+graphql_client_cli
