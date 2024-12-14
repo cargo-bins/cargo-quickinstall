@@ -8,3 +8,4 @@ re_query
 borsh
 rustfmt-nightly
 sha1collisiondetection
+py-spy
