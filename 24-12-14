@@ -9,3 +9,4 @@ mdcat
 binstall
 cargo-spellcheck
 cargo-dylint
+solana-faucet
