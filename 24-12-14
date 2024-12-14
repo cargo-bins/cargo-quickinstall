@@ -16,3 +16,4 @@ kanidm_tools
 re_query
 kanidm_tools
 sqlx-cli
+rustfmt-nightly
