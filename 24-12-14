@@ -38,3 +38,4 @@ trunk
 rua
 spider_cli
 cargo-fuzzcheck
+borsh
