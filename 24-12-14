@@ -26,3 +26,4 @@ git-mit-install
 sha1collisiondetection
 ruff
 ruff
+honggfuzz
