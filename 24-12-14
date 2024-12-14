@@ -12,3 +12,4 @@ schemafy
 re_query
 rustfmt-nightly
 rustfmt-nightly
+sha1collisiondetection
