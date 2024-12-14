@@ -18,3 +18,4 @@ kanidm_tools
 sqlx-cli
 rustfmt-nightly
 borsh
+kanidm_tools
