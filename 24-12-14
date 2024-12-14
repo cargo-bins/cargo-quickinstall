@@ -5,3 +5,4 @@ solana-faucet
 rls-rustc
 natls
 skim
+sqlx-cli
