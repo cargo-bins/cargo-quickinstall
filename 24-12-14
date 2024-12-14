@@ -73,3 +73,4 @@ cargo-fuzzcheck
 flawz
 flawz
 safe_network
+cargo-fuzzcheck
