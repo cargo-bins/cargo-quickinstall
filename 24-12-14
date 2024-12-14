@@ -12,3 +12,4 @@ trunk
 cargo-generate
 rustfmt-nightly
 git-mit-install
+sccache
