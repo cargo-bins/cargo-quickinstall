@@ -19,3 +19,4 @@ patch-crate
 rua
 cargo-count
 hurl
+xbuild
