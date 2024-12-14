@@ -10,3 +10,4 @@ cargo-spellcheck
 solana-faucet
 dioxus-cli
 rls-rustc
+sea-orm-cli
