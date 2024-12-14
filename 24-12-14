@@ -4,3 +4,4 @@ rls-rustc
 cargo-c
 cargo-codspeed
 rrule
+mit-pre-commit
