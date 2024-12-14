@@ -45,3 +45,4 @@ xbuild
 cargo-ktra-login
 kickstart
 gerust
+rustfmt-nightly
