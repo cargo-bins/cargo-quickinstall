@@ -6,3 +6,4 @@ rrule
 schemafy
 re_query
 borsh
+rustfmt-nightly
