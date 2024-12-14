@@ -14,3 +14,4 @@ rustfmt
 cargo-generate
 git-mit-relates-to
 rustfmt-nightly
+git-mit-install
