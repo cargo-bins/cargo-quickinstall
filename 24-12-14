@@ -8,3 +8,4 @@ schemafy
 dotenv
 re_query
 rustfmt-nightly
+sha1collisiondetection
