@@ -20,3 +20,4 @@ tokio-process
 solana-keygen
 solana-validator
 rmesg
+safe_network
