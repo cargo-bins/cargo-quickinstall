@@ -9,3 +9,4 @@ schemafy
 dotenv
 re_query
 trunk
+cargo-generate
