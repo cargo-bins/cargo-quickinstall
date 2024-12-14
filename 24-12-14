@@ -7,3 +7,4 @@ rrule
 mit-pre-commit
 schemafy
 dotenv
+re_query
