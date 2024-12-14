@@ -7,3 +7,4 @@ cargo-public-api
 cargo-count
 mdcat
 binstall
+cargo-spellcheck
