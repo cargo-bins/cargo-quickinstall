@@ -38,3 +38,4 @@ sea-orm-cli
 cargo-ktra-login
 trunk
 cargo-count
+borsh
