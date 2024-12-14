@@ -12,3 +12,4 @@ cargo-dylint
 solana-faucet
 tree-sitter-cli
 rls-rustc
+bluetui
