@@ -47,3 +47,4 @@ cargo-fuzzcheck
 dioxus-cli
 flawz
 rustfmt-nightly
+gerust
