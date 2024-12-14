@@ -76,3 +76,4 @@ safe_network
 cargo-fuzzcheck
 rustrict
 cargo-whynot
+patto
