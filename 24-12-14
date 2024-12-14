@@ -11,3 +11,4 @@ trunk
 benfred-read-process-memory
 borsh
 rustfmt
+cargo-generate
