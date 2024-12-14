@@ -9,3 +9,4 @@ cargo-ktra-login
 cargo-spellcheck
 solana-faucet
 dioxus-cli
+rls-rustc
