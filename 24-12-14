@@ -84,3 +84,4 @@ rioterm
 cargo-fuzzcheck
 puffin_viewer
 rmkit
+re_query
