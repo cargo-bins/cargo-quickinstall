@@ -46,3 +46,4 @@ cargo-dylint
 cargo-fuzzcheck
 dioxus-cli
 flawz
+rustfmt-nightly
