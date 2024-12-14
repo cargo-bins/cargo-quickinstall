@@ -18,3 +18,4 @@ git-mit-install
 sha1collisiondetection
 tokio-process
 solana-keygen
+solana-validator
