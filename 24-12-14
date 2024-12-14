@@ -7,3 +7,4 @@ solana-net-utils
 schemafy
 dotenv
 re_query
+rustfmt-nightly
