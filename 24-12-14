@@ -15,3 +15,4 @@ trunk
 borsh
 git-mit-relates-to
 cargo-generate
+rustfmt-nightly
