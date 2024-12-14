@@ -34,3 +34,4 @@ re_query
 graphql_client_cli
 xbuild
 flawz
+sea-orm-cli
