@@ -45,3 +45,4 @@ spider_cli
 cargo-dylint
 cargo-fuzzcheck
 dioxus-cli
+flawz
