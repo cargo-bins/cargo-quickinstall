@@ -11,3 +11,4 @@ re_query
 trunk
 cargo-generate
 rustfmt-nightly
+git-mit-install
