@@ -21,3 +21,4 @@ sccache
 sha1collisiondetection
 cargo-udeps
 solana-keygen
+py-spy
