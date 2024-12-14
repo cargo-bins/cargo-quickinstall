@@ -15,3 +15,4 @@ cargo-generate
 git-mit-relates-to
 rustfmt-nightly
 git-mit-install
+sha1collisiondetection
