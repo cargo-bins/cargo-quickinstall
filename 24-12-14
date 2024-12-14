@@ -4,3 +4,4 @@ mit-prepare-commit-msg
 solana-faucet
 rls-rustc
 cargo-c
+cargo-codspeed
