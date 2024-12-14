@@ -53,3 +53,4 @@ sha1collisiondetection
 gerust
 cargo-whynot
 probe-rs-tools
+cargo-ui
