@@ -43,3 +43,4 @@ flawz
 flawz
 spider_cli
 cargo-dylint
+cargo-fuzzcheck
