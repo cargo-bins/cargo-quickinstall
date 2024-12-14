@@ -8,3 +8,4 @@ cargo-count
 mdcat
 binstall
 cargo-spellcheck
+cargo-dylint
