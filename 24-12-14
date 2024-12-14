@@ -10,3 +10,4 @@ binstall
 cargo-spellcheck
 cargo-dylint
 solana-faucet
+tree-sitter-cli
