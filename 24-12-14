@@ -81,3 +81,4 @@ puffin_viewer
 human_bytes
 bluetui
 rioterm
+cargo-fuzzcheck
