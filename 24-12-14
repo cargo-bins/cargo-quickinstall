@@ -12,3 +12,4 @@ rrule
 mit-pre-commit
 schemafy
 dotenv
+kanidm_tools
