@@ -62,3 +62,4 @@ cargo-fuzzcheck
 git-journal
 rua
 code-radio-cli
+spider_cli
