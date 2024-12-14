@@ -40,3 +40,4 @@ spider_cli
 cargo-fuzzcheck
 borsh
 flawz
+flawz
