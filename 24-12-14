@@ -20,3 +20,4 @@ git-mit-install
 sccache
 sha1collisiondetection
 cargo-udeps
+solana-keygen
