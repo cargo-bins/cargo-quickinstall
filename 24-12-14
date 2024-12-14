@@ -13,3 +13,4 @@ mit-pre-commit
 schemafy
 dotenv
 kanidm_tools
+re_query
