@@ -85,3 +85,4 @@ cargo-count
 cargo-fuzzcheck
 puffin_viewer
 cargo-whynot
+rmkit
