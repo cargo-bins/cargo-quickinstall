@@ -10,3 +10,4 @@ re_query
 rustfmt-nightly
 sha1collisiondetection
 atuin
+human_bytes
