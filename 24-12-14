@@ -3,3 +3,4 @@ watchexec-cli
 mit-prepare-commit-msg
 solana-faucet
 rls-rustc
+cargo-c
