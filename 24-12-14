@@ -17,3 +17,4 @@ sha1collisiondetection
 cargo-udeps
 solana-keygen
 solana-validator
+sccache
