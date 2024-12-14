@@ -37,3 +37,4 @@ cargo-dylint
 trunk
 rua
 spider_cli
+cargo-fuzzcheck
