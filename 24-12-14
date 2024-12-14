@@ -60,3 +60,4 @@ cargo-spellcheck
 cargo-ktra-login
 cargo-fuzzcheck
 git-journal
+rua
