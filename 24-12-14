@@ -10,3 +10,4 @@ sqlx-cli
 kanidm_tools
 rrule
 mit-pre-commit
+schemafy
