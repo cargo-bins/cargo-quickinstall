@@ -19,3 +19,4 @@ sqlx-cli
 rustfmt-nightly
 borsh
 kanidm_tools
+git-mit-relates-to
