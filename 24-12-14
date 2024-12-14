@@ -19,3 +19,4 @@ sha1collisiondetection
 tokio-process
 solana-keygen
 solana-validator
+rmesg
