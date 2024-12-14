@@ -56,3 +56,4 @@ probe-rs-tools
 cargo-ui
 cargo-count
 bluetui
+py-spy
