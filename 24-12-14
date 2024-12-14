@@ -32,3 +32,4 @@ schemafy
 dotenv
 re_query
 graphql_client_cli
+xbuild
