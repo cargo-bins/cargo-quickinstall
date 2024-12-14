@@ -58,3 +58,4 @@ cargo-ktra-login
 rmkit
 cargo-spellcheck
 cargo-ktra-login
+cargo-fuzzcheck
