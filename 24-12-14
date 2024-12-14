@@ -48,3 +48,4 @@ dioxus-cli
 flawz
 rustfmt-nightly
 gerust
+patto
