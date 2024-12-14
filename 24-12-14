@@ -13,3 +13,4 @@ borsh
 rustfmt
 cargo-generate
 git-mit-relates-to
+rustfmt-nightly
