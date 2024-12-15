@@ -13,3 +13,4 @@ cargo-pgrx
 sea-orm-cli
 simple-http-server
 trunk
+simple-http-server
