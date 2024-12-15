@@ -11,3 +11,4 @@ unic-langid-impl
 clippy
 deploy
 tree-sitter-cli
+cargo-tarpaulin
