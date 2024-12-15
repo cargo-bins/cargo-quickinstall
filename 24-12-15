@@ -10,3 +10,4 @@ deploy
 trunk
 sea-orm-cli
 cargo-pgrx
+sea-orm-cli
