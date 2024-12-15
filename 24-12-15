@@ -25,3 +25,4 @@ minicbor
 dioxus-cli
 cargo-smart-release
 clippy
+codeberg-cli
