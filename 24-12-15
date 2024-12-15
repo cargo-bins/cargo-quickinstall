@@ -11,3 +11,4 @@ rmkit
 redoxer
 cpp_demangle
 cargo-override
+cargo-spellcheck
