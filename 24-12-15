@@ -39,3 +39,4 @@ dioxus-cli
 hurl
 atuin
 kickstart
+cargo-smart-release
