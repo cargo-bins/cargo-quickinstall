@@ -14,3 +14,4 @@ deploy
 cargo-tarpaulin
 cargo-pgrx
 dotenvy
+spider_cli
