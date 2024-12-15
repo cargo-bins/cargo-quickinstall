@@ -13,3 +13,4 @@ deploy
 tree-sitter-cli
 cargo-tarpaulin
 cargo-pgrx
+dotenvy
