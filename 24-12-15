@@ -10,3 +10,4 @@ rmkit
 tree-sitter-cli
 cargo-spellcheck
 cpp_demangle
+puffin_viewer
