@@ -11,3 +11,4 @@ unic-langid-impl
 minicbor
 clippy
 deploy
+cargo-tarpaulin
