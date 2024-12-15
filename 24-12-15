@@ -26,3 +26,4 @@ dioxus-cli
 cargo-smart-release
 clippy
 codeberg-cli
+deploy
