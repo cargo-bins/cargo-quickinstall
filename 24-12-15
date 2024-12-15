@@ -28,3 +28,4 @@ cargo-smart-release
 rioterm
 rustrict
 dioxus-cli
+unic-langid-impl
