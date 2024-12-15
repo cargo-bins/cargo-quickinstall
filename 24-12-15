@@ -4,3 +4,4 @@ jless
 rioterm
 cpp_demangle
 cargo-override
+sea-orm-cli
