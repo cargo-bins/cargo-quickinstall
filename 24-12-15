@@ -3,3 +3,4 @@ ruff
 solana-genesis
 dua-cli
 rawst
+cpp_demangle
