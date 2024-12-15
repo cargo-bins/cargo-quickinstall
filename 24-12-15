@@ -9,3 +9,4 @@ unic-langid-impl
 clippy
 deploy
 dotenvy
+honggfuzz
