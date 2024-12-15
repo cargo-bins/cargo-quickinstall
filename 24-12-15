@@ -31,3 +31,4 @@ dioxus-cli
 unic-langid-impl
 minicbor
 cargo-smart-release
+clippy
