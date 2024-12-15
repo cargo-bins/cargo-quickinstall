@@ -3,3 +3,4 @@ sn_cli
 cpp_demangle
 cpp_demangle
 solana-keygen
+cargo-generate
