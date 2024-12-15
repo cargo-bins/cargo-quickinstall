@@ -15,3 +15,4 @@ cargo-spellcheck
 redoxer
 alacritty
 cargo-whynot
+tree-sitter-cli
