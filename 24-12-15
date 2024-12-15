@@ -6,3 +6,4 @@ paperclip
 cargo-pgrx
 rustrict
 unic-langid-impl
+clippy
