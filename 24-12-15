@@ -14,3 +14,4 @@ cargo-override
 cargo-spellcheck
 redoxer
 alacritty
+cargo-whynot
