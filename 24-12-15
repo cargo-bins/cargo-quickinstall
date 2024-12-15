@@ -9,3 +9,4 @@ cargo-spellcheck
 rmkit
 tree-sitter-cli
 cargo-spellcheck
+cpp_demangle
