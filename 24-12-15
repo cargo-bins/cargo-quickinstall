@@ -7,3 +7,4 @@ cargo-override
 sea-orm-cli
 rioterm
 cargo-whynot
+rmkit
