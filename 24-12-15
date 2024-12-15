@@ -44,3 +44,4 @@ cargo-pgrx
 cargo-smart-release
 hurl
 dioxus-cli
+dotenvy
