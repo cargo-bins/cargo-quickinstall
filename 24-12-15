@@ -12,3 +12,4 @@ minicbor
 clippy
 deploy
 cargo-tarpaulin
+cargo-pgrx
