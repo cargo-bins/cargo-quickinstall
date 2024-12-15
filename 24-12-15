@@ -27,3 +27,4 @@ cargo-smart-release
 clippy
 codeberg-cli
 deploy
+kickstart
