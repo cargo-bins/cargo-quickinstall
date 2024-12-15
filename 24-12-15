@@ -13,3 +13,4 @@ clippy
 deploy
 cargo-pgrx
 lan-mouse
+dotenvy
