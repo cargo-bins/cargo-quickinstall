@@ -9,3 +9,4 @@ cargo-generate
 rustrict
 unic-langid-impl
 clippy
+deploy
