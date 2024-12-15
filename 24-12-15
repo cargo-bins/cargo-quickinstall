@@ -32,3 +32,4 @@ unic-langid-impl
 minicbor
 cargo-smart-release
 clippy
+codeberg-cli
