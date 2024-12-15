@@ -10,3 +10,4 @@ cargo-whynot
 rmkit
 redoxer
 cpp_demangle
+cargo-override
