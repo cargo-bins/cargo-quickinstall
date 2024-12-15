@@ -6,3 +6,4 @@ cpp_demangle
 cargo-override
 sea-orm-cli
 rioterm
+cargo-whynot
