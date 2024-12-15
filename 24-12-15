@@ -37,3 +37,4 @@ deploy
 cargo-smart-release
 dioxus-cli
 hurl
+atuin
