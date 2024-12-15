@@ -10,3 +10,4 @@ clippy
 deploy
 cargo-pgrx
 trunk
+dotenvy
