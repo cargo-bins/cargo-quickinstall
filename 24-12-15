@@ -7,3 +7,4 @@ dioxus-cli
 atuin
 cargo-spellcheck
 rmkit
+tree-sitter-cli
