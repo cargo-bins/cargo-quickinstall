@@ -8,3 +8,4 @@ paperclip
 cargo-generate
 rustrict
 unic-langid-impl
+minicbor
