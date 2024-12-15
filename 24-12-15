@@ -22,3 +22,4 @@ rustrict
 cargo-smart-release
 unic-langid-impl
 minicbor
+dioxus-cli
