@@ -6,3 +6,4 @@ cpp_demangle
 dioxus-cli
 atuin
 cargo-spellcheck
+rmkit
