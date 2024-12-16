@@ -5,3 +5,4 @@ deno
 holochain
 tree-sitter-graph
 evcxr_repl
+cargo-udeps
