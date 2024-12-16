@@ -29,3 +29,4 @@ cargo-embed
 skim
 cargo-local-registry
 nextest-filtering
+mit-prepare-commit-msg
