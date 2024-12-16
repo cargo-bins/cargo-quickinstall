@@ -10,3 +10,4 @@ apollo-router
 git-mit
 ec2_instance_metadata
 text-diff
+httpmock
