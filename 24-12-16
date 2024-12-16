@@ -2,3 +2,4 @@ sea-orm-cli
 simple-http-server
 rls-rustc
 sea-orm-cli
+wol-rs
