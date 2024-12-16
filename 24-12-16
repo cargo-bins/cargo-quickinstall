@@ -8,3 +8,4 @@ evcxr_repl
 cargo-udeps
 apollo-router
 git-mit
+httpmock
