@@ -39,3 +39,4 @@ cargo-public-api
 httpmock
 cargo-whatfeatures
 cargo-embassy
+intentrace
