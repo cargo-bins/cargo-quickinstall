@@ -4,3 +4,4 @@ kickstart
 r-matrix
 cargo-public-api
 r-matrix
+rls-rustc
