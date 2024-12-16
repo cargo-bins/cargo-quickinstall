@@ -48,3 +48,4 @@ fltk-fluid
 https
 cargo-dylint
 httpmock
+probe-rs-tools
