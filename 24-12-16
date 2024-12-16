@@ -16,3 +16,4 @@ syd
 httpmock
 human_bytes
 cargo-outdated
+cargo-local-registry
