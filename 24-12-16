@@ -11,3 +11,4 @@ git-mit
 ec2_instance_metadata
 text-diff
 httpmock
+mit-prepare-commit-msg
