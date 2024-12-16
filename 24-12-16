@@ -19,3 +19,4 @@ human_bytes
 rav1e
 skim
 cargo-local-registry
+nextest-filtering
