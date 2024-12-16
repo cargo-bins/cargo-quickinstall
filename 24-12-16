@@ -6,3 +6,4 @@ spotify_player
 fltk-fluid
 rls-rustc
 cargo-spellcheck
+wol-rs
