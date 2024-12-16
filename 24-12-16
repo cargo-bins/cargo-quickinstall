@@ -47,3 +47,4 @@ cargo-list
 fltk-fluid
 https
 cargo-dylint
+httpmock
