@@ -40,3 +40,4 @@ httpmock
 cargo-whatfeatures
 cargo-embassy
 intentrace
+pcu
