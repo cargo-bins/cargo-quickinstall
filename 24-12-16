@@ -41,3 +41,4 @@ cargo-whatfeatures
 cargo-embassy
 intentrace
 pcu
+web-crawler
