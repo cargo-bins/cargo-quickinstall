@@ -30,3 +30,4 @@ cargo-whatfeatures
 httpmock
 czkawka_gui
 nextest-filtering
+gossiphs
