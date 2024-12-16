@@ -49,3 +49,4 @@ https
 cargo-dylint
 httpmock
 probe-rs-tools
+web-crawler
