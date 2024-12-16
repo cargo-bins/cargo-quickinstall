@@ -36,3 +36,4 @@ nextsv
 alacritty
 redoxer
 cargo-public-api
+httpmock
