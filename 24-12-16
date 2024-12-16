@@ -52,3 +52,4 @@ probe-rs-tools
 web-crawler
 spotify_player
 gossiphs
+cargo-embassy
