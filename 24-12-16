@@ -27,3 +27,4 @@ trunk
 rav1e
 cargo-embed
 skim
+cargo-local-registry
