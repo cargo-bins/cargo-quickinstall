@@ -56,3 +56,4 @@ cargo-embassy
 r-matrix
 probe-rs-tools
 https
+clipboard-history
