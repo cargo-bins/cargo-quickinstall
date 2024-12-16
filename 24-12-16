@@ -6,3 +6,4 @@ cargo-public-api
 r-matrix
 rls-rustc
 mise
+probe-rs-tools
