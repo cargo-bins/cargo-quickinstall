@@ -9,3 +9,4 @@ holochain
 tree-sitter-graph
 apollo-router
 rustrict
+httpmock
