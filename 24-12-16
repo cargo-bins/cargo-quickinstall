@@ -18,3 +18,4 @@ human_bytes
 cargo-outdated
 cargo-local-registry
 nextest-filtering
+mit-prepare-commit-msg
