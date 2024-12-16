@@ -20,3 +20,4 @@ rav1e
 skim
 cargo-local-registry
 nextest-filtering
+mit-prepare-commit-msg
