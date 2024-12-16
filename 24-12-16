@@ -7,3 +7,4 @@ r-matrix
 rls-rustc
 mise
 probe-rs-tools
+wol-rs
