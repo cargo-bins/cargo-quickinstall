@@ -51,3 +51,4 @@ cargo-list
 atuin
 simple-http-server
 sea-orm-cli
+graphql_client_cli
