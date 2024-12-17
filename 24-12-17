@@ -28,3 +28,4 @@ tendermint-abci
 probe-rs-tools
 clippy
 unic-langid-impl
+bugstalker
