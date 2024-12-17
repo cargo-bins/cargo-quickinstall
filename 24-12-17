@@ -14,3 +14,4 @@ dioxus-cli
 unic-langid-impl
 atuin
 git-disjoint
+libbpf-cargo
