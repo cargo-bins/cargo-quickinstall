@@ -12,3 +12,4 @@ git-disjoint
 cargo-about
 libbpf-cargo
 solana-keygen
+mit-pre-commit
