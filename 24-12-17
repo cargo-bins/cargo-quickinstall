@@ -11,3 +11,4 @@ human_bytes
 dioxus-cli
 dioxus-cli
 solana-genesis
+rustfmt-nightly
