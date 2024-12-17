@@ -55,3 +55,4 @@ graphql_client_cli
 mdcat
 pwasm-utils
 tuono
+diesel_cli
