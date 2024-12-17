@@ -29,3 +29,4 @@ probe-rs-tools
 clippy
 unic-langid-impl
 bugstalker
+cargo-dylint
