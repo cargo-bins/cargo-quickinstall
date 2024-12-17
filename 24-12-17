@@ -24,3 +24,4 @@ papyrus_storage
 cargo-public-api
 redoxer
 patch-crate
+tendermint-abci
