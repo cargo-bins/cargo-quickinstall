@@ -16,3 +16,4 @@ rustfmt-nightly
 stgit
 cargo-dylint
 tuono
+nextsv
