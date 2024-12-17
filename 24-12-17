@@ -37,3 +37,4 @@ cargo-embassy
 probe-rs-tools
 atuin
 deno
+wmi
