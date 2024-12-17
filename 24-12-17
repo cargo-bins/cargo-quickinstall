@@ -30,3 +30,4 @@ clippy
 unic-langid-impl
 bugstalker
 cargo-dylint
+git-disjoint
