@@ -35,3 +35,4 @@ libbpf-cargo
 probe-rs-tools
 cargo-embassy
 probe-rs-tools
+atuin
