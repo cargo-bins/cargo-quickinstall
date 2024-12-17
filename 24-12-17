@@ -31,3 +31,4 @@ unic-langid-impl
 bugstalker
 cargo-dylint
 git-disjoint
+libbpf-cargo
