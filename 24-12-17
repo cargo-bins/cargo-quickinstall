@@ -7,3 +7,4 @@ cargo-public-api
 bugstalker
 clipboard-history
 pcu
+human_bytes
