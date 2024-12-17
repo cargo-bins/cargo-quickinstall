@@ -5,3 +5,4 @@ diesel_cli
 human_bytes
 diesel_cli
 rustfmt-nightly
+clippy
