@@ -8,3 +8,4 @@ rustfmt-nightly
 sqlx-cli
 papyrus_storage
 tendermint-abci
+clippy
