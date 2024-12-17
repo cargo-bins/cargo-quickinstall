@@ -4,3 +4,4 @@ human_name
 human_bytes
 solana-genesis
 rustfmt-nightly
+papyrus_storage
