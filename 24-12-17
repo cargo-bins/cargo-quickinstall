@@ -40,3 +40,4 @@ libbpf-cargo
 cargo-dylint
 hurl
 librespot
+redoxer
