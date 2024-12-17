@@ -28,3 +28,4 @@ tendermint-abci
 cargo-embassy
 rioterm
 rioterm
+clippy
