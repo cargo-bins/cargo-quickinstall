@@ -68,3 +68,4 @@ stellar-xdr
 cargo-template
 tgt
 patch-crate
+simple-http-server
