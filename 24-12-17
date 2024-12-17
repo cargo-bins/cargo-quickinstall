@@ -25,3 +25,4 @@ cargo-public-api
 redoxer
 patch-crate
 tendermint-abci
+probe-rs-tools
