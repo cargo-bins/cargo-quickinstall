@@ -17,3 +17,4 @@ sea-orm-cli
 mdcat
 librespot
 clipboard-history
+cargo-spellcheck
