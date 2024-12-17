@@ -54,3 +54,4 @@ sea-orm-cli
 graphql_client_cli
 mdcat
 pwasm-utils
+tuono
