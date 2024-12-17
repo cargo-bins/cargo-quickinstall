@@ -4,3 +4,4 @@ termusic
 human_bytes
 rustfmt-nightly
 tendermint-abci
+clippy
