@@ -26,3 +26,4 @@ redoxer
 patch-crate
 tendermint-abci
 probe-rs-tools
+clippy
