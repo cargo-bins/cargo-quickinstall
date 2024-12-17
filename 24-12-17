@@ -8,3 +8,4 @@ clippy
 unic-langid-impl
 lan-mouse
 git-disjoint
+libbpf-cargo
