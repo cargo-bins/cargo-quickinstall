@@ -14,3 +14,4 @@ git-disjoint
 libbpf-cargo
 mit-pre-commit
 solana-tokens
+pwasm-utils
