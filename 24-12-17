@@ -11,3 +11,4 @@ libbpf-cargo
 solana-keygen
 wmi
 solana-tokens
+pwasm-utils
