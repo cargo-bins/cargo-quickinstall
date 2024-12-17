@@ -25,3 +25,4 @@ solana-tokens
 evcxr_repl
 pwasm-utils
 nextest-filtering
+stellar-xdr
