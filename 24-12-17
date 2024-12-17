@@ -25,3 +25,4 @@ xplr
 sea-orm-cli
 rioterm
 tendermint-abci
+cargo-embassy
