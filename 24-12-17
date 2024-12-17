@@ -19,3 +19,4 @@ git-disjoint
 cargo-about
 libbpf-cargo
 mit-pre-commit
+wmi
