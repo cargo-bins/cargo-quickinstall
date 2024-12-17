@@ -1,3 +1,4 @@
 tendermint-abci
 cargo-tarpaulin
 human_name
+human_bytes
