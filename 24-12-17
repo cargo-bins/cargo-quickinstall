@@ -12,3 +12,4 @@ dioxus-cli
 dioxus-cli
 solana-genesis
 rustfmt-nightly
+tendermint-abci
