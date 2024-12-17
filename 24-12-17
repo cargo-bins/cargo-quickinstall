@@ -67,3 +67,4 @@ diesel_cli
 stellar-xdr
 cargo-template
 tgt
+patch-crate
