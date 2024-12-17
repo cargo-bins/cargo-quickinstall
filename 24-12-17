@@ -12,3 +12,4 @@ cargo-embed
 tendermint-abci
 av1an
 clippy
+diesel_cli
