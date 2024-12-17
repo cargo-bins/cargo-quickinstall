@@ -12,3 +12,4 @@ clippy
 unic-langid-impl
 git-disjoint
 libbpf-cargo
+mit-pre-commit
