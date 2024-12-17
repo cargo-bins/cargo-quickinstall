@@ -46,3 +46,4 @@ patch-crate
 hurl
 redoxer
 wmi
+cargo-buttplug
