@@ -33,3 +33,4 @@ cargo-embassy
 simple-http-server
 librespot
 cargo-list
+unic-langid-impl
