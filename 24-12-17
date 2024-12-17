@@ -11,3 +11,4 @@ tendermint-abci
 clippy
 unic-langid-impl
 git-disjoint
+libbpf-cargo
