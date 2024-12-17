@@ -2,3 +2,4 @@ tendermint-abci
 libbpf-cargo
 cargo-tarpaulin
 human_name
+dioxus-cli
