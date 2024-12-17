@@ -29,3 +29,4 @@ pwasm-utils
 atuin
 codeberg-cli
 stellar-xdr
+patch-crate
