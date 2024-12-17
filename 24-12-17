@@ -4,3 +4,4 @@ human_bytes
 rustfmt-nightly
 papyrus_storage
 tendermint-abci
+clippy
