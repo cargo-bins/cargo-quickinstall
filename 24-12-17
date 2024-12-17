@@ -41,3 +41,4 @@ cargo-dylint
 hurl
 librespot
 redoxer
+cargo-public-api
