@@ -56,3 +56,4 @@ mdcat
 pwasm-utils
 tuono
 diesel_cli
+simple-http-server
