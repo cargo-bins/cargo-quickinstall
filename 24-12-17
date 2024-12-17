@@ -17,3 +17,4 @@ wmi
 solana-tokens
 evcxr_repl
 pwasm-utils
+nextest-filtering
