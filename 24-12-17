@@ -32,3 +32,4 @@ bugstalker
 cargo-dylint
 git-disjoint
 libbpf-cargo
+probe-rs-tools
