@@ -36,3 +36,4 @@ probe-rs-tools
 cargo-embassy
 probe-rs-tools
 atuin
+deno
