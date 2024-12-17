@@ -2,3 +2,4 @@ tendermint-abci
 human_name
 termusic
 human_bytes
+rustfmt-nightly
