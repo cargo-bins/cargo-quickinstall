@@ -6,3 +6,4 @@ rustfmt-nightly
 tendermint-abci
 clippy
 unic-langid-impl
+lan-mouse
