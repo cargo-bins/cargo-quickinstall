@@ -16,3 +16,4 @@ mit-pre-commit
 solana-tokens
 pwasm-utils
 nextest-filtering
+stellar-xdr
