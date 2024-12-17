@@ -17,3 +17,4 @@ unic-langid-impl
 diesel_cli
 git-disjoint
 libbpf-cargo
+mit-pre-commit
