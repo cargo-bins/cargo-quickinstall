@@ -14,3 +14,4 @@ nextsv
 cargo-list
 rustfmt-nightly
 stgit
+cargo-dylint
