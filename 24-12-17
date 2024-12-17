@@ -37,3 +37,4 @@ unic-langid-impl
 spotify_player
 git-disjoint
 libbpf-cargo
+cargo-dylint
