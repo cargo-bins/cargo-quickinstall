@@ -2,3 +2,4 @@ tendermint-abci
 libbpf-cargo
 human_name
 human_bytes
+rustfmt-nightly
