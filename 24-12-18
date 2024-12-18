@@ -7,3 +7,4 @@ cargo-lock
 rav1e
 nexmark
 schemafy
+safe_network
