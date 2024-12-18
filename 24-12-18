@@ -44,3 +44,4 @@ forgejo-cli
 xbuild
 paru
 trunk
+dbus-codegen
