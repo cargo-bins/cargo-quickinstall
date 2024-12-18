@@ -3,3 +3,4 @@ cpp_demangle
 deploy
 pgrx-tests
 cargo-lock
+nexmark
