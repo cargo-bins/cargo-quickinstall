@@ -38,3 +38,4 @@ tree-sitter-cli
 libbpf-cargo
 mdcat
 cargo-risczero
+cargo-pgrx
