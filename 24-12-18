@@ -62,3 +62,4 @@ python-project-generator
 bugstalker
 forgejo-cli
 xcp
+dbus-codegen
