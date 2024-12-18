@@ -9,3 +9,4 @@ simple-http-server
 atuin
 cargo-lock
 tuono
+graphql_client_cli
