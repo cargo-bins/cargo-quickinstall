@@ -20,3 +20,4 @@ minicbor
 tuono
 cargo-template
 cargo-buttplug
+libbpf-cargo
