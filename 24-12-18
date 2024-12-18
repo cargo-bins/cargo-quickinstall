@@ -48,3 +48,4 @@ dbus-codegen
 paru
 forgejo-cli
 wiki-tui
+python-project-generator
