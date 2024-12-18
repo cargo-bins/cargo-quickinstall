@@ -65,3 +65,4 @@ xcp
 dbus-codegen
 cargo-maelstrom
 paru
+addr2line
