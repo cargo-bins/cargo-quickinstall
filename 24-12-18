@@ -3,3 +3,4 @@ cpp_demangle
 deploy
 pgrx-tests
 git-mit
+cargo-lock
