@@ -29,3 +29,4 @@ tree-sitter-cli
 schemafy
 graphql_client_cli
 python-project-generator
+safe_network
