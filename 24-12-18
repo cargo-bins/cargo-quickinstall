@@ -16,3 +16,4 @@ libbpf-cargo
 httpbis
 ec2_instance_metadata
 pgrx-tests
+cargo-vet
