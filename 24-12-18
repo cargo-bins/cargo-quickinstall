@@ -12,3 +12,4 @@ libbpf-cargo
 cargo-pgrx
 summarize
 summarize
+pgrx-tests
