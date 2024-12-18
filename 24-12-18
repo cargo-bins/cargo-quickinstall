@@ -8,3 +8,4 @@ schemafy
 borsh
 tree-sitter-cli
 libbpf-cargo
+cargo-pgrx
