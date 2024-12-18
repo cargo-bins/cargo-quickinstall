@@ -4,3 +4,4 @@ deploy
 pgrx-tests
 rustrict
 git-mit
+cargo-lock
