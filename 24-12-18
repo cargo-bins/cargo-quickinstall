@@ -12,3 +12,4 @@ borsh
 tree-sitter-cli
 cargo-generate
 libbpf-cargo
+cargo-pgrx
