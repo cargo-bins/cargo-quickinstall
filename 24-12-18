@@ -12,3 +12,4 @@ borsh
 minicbor
 libbpf-cargo
 z3tracer
+diesel_cli
