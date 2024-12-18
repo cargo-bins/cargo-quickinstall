@@ -18,3 +18,4 @@ ec2_instance_metadata
 pgrx-tests
 cargo-vet
 mit-prepare-commit-msg
+nkeys
