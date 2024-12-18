@@ -60,3 +60,4 @@ xcp
 tree-sitter-cli
 python-project-generator
 bugstalker
+forgejo-cli
