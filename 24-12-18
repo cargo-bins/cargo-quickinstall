@@ -19,3 +19,4 @@ mit-prepare-commit-msg
 py-spy
 nkeys
 dbus-codegen
+sqlx-cli
