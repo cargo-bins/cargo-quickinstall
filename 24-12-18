@@ -6,3 +6,4 @@ cargo-lock
 nexmark
 schemafy
 borsh
+tree-sitter-cli
