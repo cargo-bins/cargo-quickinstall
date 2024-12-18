@@ -9,3 +9,4 @@ borsh
 cargo-generate
 libbpf-cargo
 cargo-pgrx
+z3tracer
