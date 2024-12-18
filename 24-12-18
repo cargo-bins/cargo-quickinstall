@@ -33,3 +33,4 @@ safe_network
 borsh
 xcp
 cargo-risczero
+cargo-template
