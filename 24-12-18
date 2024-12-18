@@ -4,3 +4,4 @@ pgrx-tests
 git-mit
 cargo-lock
 nexmark
+schemafy
