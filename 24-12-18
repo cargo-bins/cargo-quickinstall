@@ -30,3 +30,4 @@ cargo-pgrx
 mdcat
 z3tracer
 cargo-template
+pgrx-tests
