@@ -21,3 +21,4 @@ solana-stake-accounts
 summarize
 summarize
 dbus-codegen
+addr2line
