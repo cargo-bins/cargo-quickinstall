@@ -36,3 +36,4 @@ cargo-risczero
 cargo-template
 tree-sitter-cli
 libbpf-cargo
+mdcat
