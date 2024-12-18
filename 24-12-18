@@ -24,3 +24,4 @@ hurl
 nkeys
 songrec
 dbus-codegen
+addr2line
