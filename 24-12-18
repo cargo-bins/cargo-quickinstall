@@ -3,3 +3,4 @@ cpp_demangle
 exa
 pgrx-tests
 git-mit
+cargo-lock
