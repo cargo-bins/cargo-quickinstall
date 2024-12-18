@@ -3,3 +3,4 @@ cpp_demangle
 pgrx-tests
 git-mit
 cargo-lock
+nexmark
