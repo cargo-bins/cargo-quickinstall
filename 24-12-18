@@ -16,3 +16,4 @@ py-spy
 nkeys
 dbus-codegen
 addr2line
+sqlx-cli
