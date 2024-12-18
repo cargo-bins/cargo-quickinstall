@@ -16,3 +16,4 @@ ruff
 dbus-codegen
 parquet
 songrec
+addr2line
