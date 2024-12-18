@@ -8,3 +8,4 @@ diesel_cli
 nexmark
 schemafy
 safe_network
+borsh
