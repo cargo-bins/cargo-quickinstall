@@ -8,3 +8,4 @@ tgt
 simple-http-server
 atuin
 cargo-lock
+tuono
