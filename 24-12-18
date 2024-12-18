@@ -23,3 +23,4 @@ binstall
 git-mit-install
 binstall
 dbus-codegen
+addr2line
