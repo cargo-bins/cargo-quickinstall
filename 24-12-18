@@ -30,3 +30,4 @@ schemafy
 graphql_client_cli
 python-project-generator
 safe_network
+borsh
