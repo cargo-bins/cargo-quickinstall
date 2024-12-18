@@ -34,3 +34,4 @@ borsh
 xcp
 cargo-risczero
 cargo-template
+tree-sitter-cli
