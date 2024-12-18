@@ -4,3 +4,4 @@ pgrx-tests
 deploy
 cargo-lock
 nexmark
+schemafy
