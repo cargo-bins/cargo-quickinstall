@@ -23,3 +23,4 @@ git-mit-install
 parquet
 dbus-codegen
 addr2line
+sqlx-cli
