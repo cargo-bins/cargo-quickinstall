@@ -50,3 +50,4 @@ cargo-risczero
 nu_plugin_query
 patch-crate
 mdcat
+forgejo-cli
