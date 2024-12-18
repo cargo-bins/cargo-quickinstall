@@ -7,3 +7,4 @@ cargo-risczero
 deploy
 tgt
 pgrx-tests
+cargo-template
