@@ -7,3 +7,4 @@ pgrx-tests
 tgt
 simple-http-server
 atuin
+cargo-lock
