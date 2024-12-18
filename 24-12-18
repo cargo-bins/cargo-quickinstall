@@ -8,3 +8,4 @@ deploy
 tgt
 pgrx-tests
 cargo-template
+intentrace
