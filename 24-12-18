@@ -16,3 +16,4 @@ cargo-buttplug
 schemafy
 deno
 borsh
+minicbor
