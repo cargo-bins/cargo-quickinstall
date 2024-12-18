@@ -12,3 +12,4 @@ codeberg-cli
 schemafy
 borsh
 termusic
+libbpf-cargo
