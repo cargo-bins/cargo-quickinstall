@@ -36,3 +36,4 @@ graphql_client_cli
 cargo-ktra-login
 cargo-ktra-login
 forgejo-cli
+py-spy
