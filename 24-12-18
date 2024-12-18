@@ -7,3 +7,4 @@ pgrx-tests
 patch-crate
 cargo-lock
 codeberg-cli
+nexmark
