@@ -39,3 +39,4 @@ libbpf-cargo
 mdcat
 cargo-risczero
 cargo-pgrx
+xcp
