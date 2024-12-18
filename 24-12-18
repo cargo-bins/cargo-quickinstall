@@ -53,3 +53,4 @@ mdcat
 forgejo-cli
 diesel_cli
 nu_plugin_gstat
+py-spy
