@@ -6,3 +6,4 @@ git-mit
 cargo-lock
 diesel_cli
 nexmark
+schemafy
