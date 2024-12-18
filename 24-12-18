@@ -8,3 +8,4 @@ cargo-lock
 nexmark
 schemafy
 safe_network
+borsh
