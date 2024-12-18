@@ -13,3 +13,4 @@ schemafy
 borsh
 termusic
 libbpf-cargo
+cargo-pgrx
