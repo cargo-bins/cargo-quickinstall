@@ -6,3 +6,4 @@ cpp_demangle
 pgrx-tests
 patch-crate
 cargo-lock
+codeberg-cli
