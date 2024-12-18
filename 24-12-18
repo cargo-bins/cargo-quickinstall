@@ -9,3 +9,4 @@ borsh
 tree-sitter-cli
 libbpf-cargo
 cargo-pgrx
+z3tracer
