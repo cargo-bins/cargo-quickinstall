@@ -11,3 +11,4 @@ libbpf-cargo
 cargo-pgrx
 z3tracer
 pgrx-tests
+py-spy
