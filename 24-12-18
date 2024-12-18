@@ -4,3 +4,4 @@ exa
 pgrx-tests
 git-mit
 cargo-lock
+diesel_cli
