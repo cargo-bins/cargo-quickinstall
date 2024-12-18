@@ -5,3 +5,4 @@ deploy
 cargo-lock
 nexmark
 schemafy
+borsh
