@@ -18,3 +18,4 @@ pgrx-tests
 mit-prepare-commit-msg
 py-spy
 nkeys
+dbus-codegen
