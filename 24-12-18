@@ -52,3 +52,4 @@ patch-crate
 mdcat
 forgejo-cli
 diesel_cli
+nu_plugin_gstat
