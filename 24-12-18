@@ -20,3 +20,4 @@ cargo-vet
 mit-prepare-commit-msg
 nkeys
 git-mit-install
+parquet
