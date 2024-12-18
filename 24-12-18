@@ -32,3 +32,4 @@ z3tracer
 cargo-template
 pgrx-tests
 nu_plugin_gstat
+graphql_client_cli
