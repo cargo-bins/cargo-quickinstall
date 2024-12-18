@@ -26,3 +26,4 @@ simple-http-server
 wiki-tui
 tgt
 graphql_client_cli
+cargo-pgrx
