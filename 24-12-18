@@ -12,3 +12,4 @@ borsh
 text-diff
 httpbis
 cargo-generate
+libbpf-cargo
