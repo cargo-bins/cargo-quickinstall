@@ -10,3 +10,4 @@ libbpf-cargo
 deno
 clippy
 raw-cpuid
+cpp_demangle
