@@ -21,3 +21,4 @@ crates-tui
 libbpf-cargo
 crates-tui
 deno
+clippy
