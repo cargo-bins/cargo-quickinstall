@@ -3,3 +3,4 @@ perfcnt
 solana-gossip
 apollo-router
 dotenvy
+sea-orm-cli
