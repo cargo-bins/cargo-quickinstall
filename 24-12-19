@@ -25,3 +25,4 @@ raw-cpuid
 cargo-crev
 critters-rs
 cargo-crev
+cpp_demangle
