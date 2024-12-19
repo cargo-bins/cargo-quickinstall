@@ -17,3 +17,4 @@ mit-prepare-commit-msg
 sccache
 nexmark
 cargo-c
+spider_cli
