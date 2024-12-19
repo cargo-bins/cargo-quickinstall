@@ -18,3 +18,4 @@ jless
 trunk
 critters-rs
 libbpf-cargo
+clippy
