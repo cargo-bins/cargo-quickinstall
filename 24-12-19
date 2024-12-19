@@ -8,3 +8,4 @@ cargo-unmaintained
 tree-sitter-cli
 tuono
 forgejo-cli
+nu_plugin_query
