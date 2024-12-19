@@ -39,3 +39,4 @@ lumen
 cargo-unmaintained
 deno
 clippy
+forgejo-cli
