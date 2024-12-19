@@ -36,3 +36,4 @@ libbpf-cargo
 nu_plugin_query
 slint-lsp
 lumen
+cargo-unmaintained
