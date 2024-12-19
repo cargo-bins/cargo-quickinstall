@@ -9,3 +9,4 @@ cargo-unmaintained
 ruskel
 nu_plugin_query
 bugstalker
+graphql_client_cli
