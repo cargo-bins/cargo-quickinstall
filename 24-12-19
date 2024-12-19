@@ -69,3 +69,4 @@ spider_cli
 cargo-unmaintained
 slint-lsp
 nu
+deno
