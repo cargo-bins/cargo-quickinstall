@@ -6,3 +6,4 @@ dotenvy
 sea-orm-cli
 trunk
 human_name
+libbpf-cargo
