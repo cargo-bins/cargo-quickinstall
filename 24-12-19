@@ -8,3 +8,4 @@ trunk
 libbpf-cargo
 omicron-zone-package
 rustfmt
+deno
