@@ -34,3 +34,4 @@ libbpf-cargo
 lumen
 tectonic
 cargo-maelstrom
+clippy
