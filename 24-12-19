@@ -5,3 +5,4 @@ ruskel
 rustrict
 cargo-public-api
 cargo-unmaintained
+tree-sitter-cli
