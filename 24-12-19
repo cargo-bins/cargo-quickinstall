@@ -10,3 +10,4 @@ cargo-show
 apollo-router
 graphql_client_cli
 dotenvy
+graphql_client_cli
