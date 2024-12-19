@@ -10,3 +10,4 @@ omicron-zone-package
 rustfmt
 deno
 clippy
+pandora_box
