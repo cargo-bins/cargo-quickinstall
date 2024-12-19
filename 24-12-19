@@ -14,3 +14,4 @@ foundationdb-gen
 solana-gossip
 solana-net-utils
 sccache
+watchexec-cli
