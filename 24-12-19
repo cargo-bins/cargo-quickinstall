@@ -9,3 +9,4 @@ libbpf-cargo
 deno
 raw-cpuid
 cpp_demangle
+re_query
