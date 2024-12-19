@@ -12,3 +12,4 @@ re_query
 h3o
 foundationdb-gen
 solana-gossip
+solana-net-utils
