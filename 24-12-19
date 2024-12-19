@@ -8,3 +8,4 @@ sea-orm-cli
 cargo-unmaintained
 ruskel
 nu_plugin_query
+bugstalker
