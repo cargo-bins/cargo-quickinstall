@@ -13,3 +13,4 @@ dotenvy
 graphql_client_cli
 trunk
 cargo-show
+human_name
