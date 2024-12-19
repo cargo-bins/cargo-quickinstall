@@ -41,3 +41,4 @@ deno
 clippy
 forgejo-cli
 tectonic
+raw-cpuid
