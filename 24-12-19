@@ -21,3 +21,4 @@ libbpf-cargo
 deno
 clippy
 pandora_box
+raw-cpuid
