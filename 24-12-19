@@ -9,3 +9,4 @@ human_name
 libbpf-cargo
 deno
 clippy
+raw-cpuid
