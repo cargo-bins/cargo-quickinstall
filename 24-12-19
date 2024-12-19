@@ -3,3 +3,4 @@ cargo-maelstrom
 markdown-test-report
 tree-sitter-cli
 rustrict
+cargo-hf2
