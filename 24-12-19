@@ -12,3 +12,4 @@ cpp_demangle
 re_query
 h3o
 solana-gossip
+solana-net-utils
