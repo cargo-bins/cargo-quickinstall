@@ -6,3 +6,4 @@ dotenvy
 sea-orm-cli
 human_name
 libbpf-cargo
+deno
