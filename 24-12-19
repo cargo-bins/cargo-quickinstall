@@ -20,3 +20,4 @@ critters-rs
 libbpf-cargo
 clippy
 pandora_box
+cargo-crev
