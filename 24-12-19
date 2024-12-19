@@ -6,3 +6,4 @@ dotenvy
 sea-orm-cli
 libbpf-cargo
 deno
+clippy
