@@ -34,3 +34,4 @@ solana-gossip
 jless
 jless
 cargo-crev
+solana-net-utils
