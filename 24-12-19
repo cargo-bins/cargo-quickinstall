@@ -16,3 +16,4 @@ solana-net-utils
 sccache
 watchexec-cli
 cargo-c
+spider_cli
