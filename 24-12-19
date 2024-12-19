@@ -7,3 +7,4 @@ sea-orm-cli
 libbpf-cargo
 deno
 clippy
+raw-cpuid
