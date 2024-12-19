@@ -38,3 +38,4 @@ slint-lsp
 lumen
 cargo-unmaintained
 deno
+clippy
