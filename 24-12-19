@@ -25,3 +25,4 @@ clippy
 raw-cpuid
 crates-tui
 trunk
+re_query
