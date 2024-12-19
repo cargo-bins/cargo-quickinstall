@@ -15,3 +15,4 @@ solana-gossip
 solana-net-utils
 mit-prepare-commit-msg
 sccache
+nexmark
