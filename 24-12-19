@@ -8,3 +8,4 @@ trunk
 human_name
 libbpf-cargo
 deno
+clippy
