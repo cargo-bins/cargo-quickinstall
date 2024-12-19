@@ -32,3 +32,4 @@ nu_plugin_query
 markdown-test-report
 crates-tui
 bugstalker
+libbpf-cargo
