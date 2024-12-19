@@ -3,3 +3,4 @@ perfcnt
 diesel_cli
 solana-gossip
 cargo-show
+graphql_client_cli
