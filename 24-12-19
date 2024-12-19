@@ -10,3 +10,4 @@ clippy
 raw-cpuid
 re_query
 h3o
+foundationdb-gen
