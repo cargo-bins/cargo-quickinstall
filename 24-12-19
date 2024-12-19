@@ -4,3 +4,4 @@ markdown-test-report
 tree-sitter-cli
 rustrict
 cargo-hf2
+sea-orm-cli
