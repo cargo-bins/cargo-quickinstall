@@ -12,3 +12,4 @@ solana-gossip
 solana-keygen
 solana-tokens
 starship
+rls-rustc
