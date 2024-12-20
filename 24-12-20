@@ -13,3 +13,4 @@ solana-gossip
 rustbus
 solana-keygen
 remove_dir_all
+solana-tokens
