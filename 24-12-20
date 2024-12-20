@@ -10,3 +10,4 @@ spider_cli
 spider_worker
 git-mit-relates-to
 winpty-rs
+sccache
