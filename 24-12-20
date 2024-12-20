@@ -16,3 +16,4 @@ solana-gossip
 sea-orm-cli
 solana-keygen
 remove_dir_all
+solana-tokens
