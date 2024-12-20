@@ -18,3 +18,4 @@ solana-keygen
 remove_dir_all
 solana-tokens
 git-mit-config
+rls-rustc
