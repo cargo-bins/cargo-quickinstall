@@ -16,3 +16,4 @@ rls-rustc
 git-disjoint
 racer
 racer
+starship
