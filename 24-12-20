@@ -8,3 +8,4 @@ dotenvy
 kickstart
 graphql_client_cli
 sea-orm-cli
+kak-lsp
