@@ -44,3 +44,4 @@ sequoia-sqv
 mdbook-plantuml
 rls-rustc
 c2rust
+gpg-tui
