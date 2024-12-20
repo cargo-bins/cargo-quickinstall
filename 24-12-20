@@ -3,3 +3,4 @@ dotenvy
 cargo-outdated
 sqlx-cli
 solana-genesis
+holochain
