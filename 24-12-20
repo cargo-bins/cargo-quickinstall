@@ -25,3 +25,4 @@ cargo-dylint
 hurlfmt
 youtui
 cached-path
+c2rust
