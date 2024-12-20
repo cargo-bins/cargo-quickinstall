@@ -3,3 +3,4 @@ dotenvy
 clippy
 spider_cli
 winpty-rs
+cached-path
