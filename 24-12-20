@@ -20,3 +20,4 @@ spider_worker
 fselect
 cargo-dylint
 c2rust
+kak-lsp
