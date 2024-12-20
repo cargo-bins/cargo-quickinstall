@@ -12,3 +12,4 @@ winpty-rs
 sccache
 cached-path
 solana-gossip
+sea-orm-cli
