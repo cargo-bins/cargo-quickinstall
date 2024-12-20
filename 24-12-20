@@ -18,3 +18,4 @@ spider_cli
 kak-lsp
 spider_worker
 fselect
+cargo-dylint
