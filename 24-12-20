@@ -6,3 +6,4 @@ dotenvy
 holochain
 clippy
 spider_cli
+spider_worker
