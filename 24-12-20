@@ -17,3 +17,4 @@ c2rust
 hurlfmt
 nu
 spider_cli
+spider_worker
