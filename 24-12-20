@@ -39,3 +39,4 @@ sequoia-chameleon-gnupg
 c2rust
 llql
 sequoia-sq
+rls-rustc
