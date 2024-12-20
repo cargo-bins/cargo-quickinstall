@@ -18,3 +18,4 @@ binstall
 rg
 cargo-dylint
 winpty-rs
+cached-path
