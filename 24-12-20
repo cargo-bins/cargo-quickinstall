@@ -6,3 +6,4 @@ winpty-rs
 cached-path
 sea-orm-cli
 solana-keygen
+solana-tokens
