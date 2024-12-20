@@ -2,3 +2,4 @@ z3tracer
 dotenvy
 cargo-outdated
 sqlx-cli
+solana-genesis
