@@ -5,3 +5,4 @@ diesel_cli
 dotenvy
 holochain
 clippy
+spider_cli
