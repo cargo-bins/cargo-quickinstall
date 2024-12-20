@@ -22,3 +22,4 @@ cargo-dylint
 c2rust
 kak-lsp
 cargo-dylint
+hurlfmt
