@@ -12,3 +12,4 @@ cached-path
 solana-gossip
 rustbus
 solana-keygen
+remove_dir_all
