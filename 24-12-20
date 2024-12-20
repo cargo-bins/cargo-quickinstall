@@ -13,3 +13,4 @@ sccache
 cached-path
 solana-gossip
 sea-orm-cli
+cargo-about
