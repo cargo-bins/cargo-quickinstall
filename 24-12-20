@@ -16,3 +16,4 @@ nu_plugin_query
 c2rust
 spider_cli
 kak-lsp
+spider_worker
