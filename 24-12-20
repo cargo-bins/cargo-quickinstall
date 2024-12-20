@@ -43,3 +43,4 @@ sequoia-sq
 sequoia-sqv
 mdbook-plantuml
 rls-rustc
+c2rust
