@@ -24,3 +24,4 @@ kak-lsp
 cargo-dylint
 hurlfmt
 youtui
+cached-path
