@@ -7,3 +7,4 @@ socketcan
 apollo-router
 dotenvy
 tendermint-abci
+minicbor
