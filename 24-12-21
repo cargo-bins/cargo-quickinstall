@@ -32,3 +32,4 @@ dotenvy
 opencv-binding-generator
 cargo-dylint
 sequoia-sq
+sniffnet
