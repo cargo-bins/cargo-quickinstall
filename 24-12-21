@@ -20,3 +20,4 @@ stellar-xdr
 archivefs
 solana-faucet
 trunk
+tendermint-abci
