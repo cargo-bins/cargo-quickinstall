@@ -12,3 +12,4 @@ cargo-about
 cargo-tarpaulin
 dotenvy
 opencv-binding-generator
+mit-pre-commit
