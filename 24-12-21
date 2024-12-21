@@ -33,3 +33,4 @@ hurl
 pax-cli
 cargo-spellcheck
 dotenvy
+opencv-binding-generator
