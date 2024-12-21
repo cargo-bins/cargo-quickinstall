@@ -6,3 +6,4 @@ tokio-process
 schemafy
 socketcan
 solana-faucet
+apollo-router
