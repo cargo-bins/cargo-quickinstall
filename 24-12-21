@@ -18,3 +18,4 @@ solana-genesis
 solana-faucet
 systemctl-tui
 systemctl-tui
+tendermint-abci
