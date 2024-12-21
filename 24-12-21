@@ -40,3 +40,4 @@ kanidm_tools
 rg
 codeberg-cli
 cargo-create
+hurl
