@@ -18,3 +18,4 @@ opencv-binding-generator
 tendermint-abci
 minicbor
 stellar-xdr
+solana-faucet
