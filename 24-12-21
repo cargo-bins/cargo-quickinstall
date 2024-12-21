@@ -10,3 +10,4 @@ solana-faucet
 apollo-router
 dotenvy
 systemctl-tui
+mit-pre-commit
