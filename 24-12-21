@@ -3,3 +3,4 @@ mit-prepare-commit-msg
 wmi
 tauri-cli
 sea-orm-cli
+cargo-tarpaulin
