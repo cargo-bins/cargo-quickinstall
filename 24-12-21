@@ -28,3 +28,4 @@ cargo-create
 binstall
 sequoia-chameleon-gnupg
 cargo-spellcheck
+dotenvy
