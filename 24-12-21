@@ -8,3 +8,4 @@ jless
 cargo-spellcheck
 sequoia-sop
 clangql
+llql
