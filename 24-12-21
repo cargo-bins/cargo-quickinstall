@@ -6,3 +6,4 @@ schemafy
 socketcan
 apollo-router
 dotenvy
+tendermint-abci
