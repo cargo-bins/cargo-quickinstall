@@ -13,3 +13,4 @@ cargo-tarpaulin
 dotenvy
 opencv-binding-generator
 mit-pre-commit
+tendermint-abci
