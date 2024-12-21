@@ -17,3 +17,4 @@ mit-pre-commit
 tendermint-abci
 minicbor
 solana-net-utils
+stellar-xdr
