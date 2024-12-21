@@ -9,3 +9,4 @@ socketcan
 solana-faucet
 apollo-router
 dotenvy
+systemctl-tui
