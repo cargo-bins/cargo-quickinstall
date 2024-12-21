@@ -37,3 +37,4 @@ typst-preview
 fend
 dioxus-cli
 binstall
+cargo-dylint
