@@ -45,3 +45,4 @@ cargo-template
 rg
 sysd-manager
 kanidm_tools
+binstall
