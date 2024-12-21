@@ -13,3 +13,4 @@ apollo-router
 cargo-about
 cargo-tarpaulin
 dotenvy
+mit-pre-commit
