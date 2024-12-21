@@ -35,3 +35,4 @@ cargo-spellcheck
 dotenvy
 opencv-binding-generator
 hurl
+sysd-manager
