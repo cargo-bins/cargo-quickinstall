@@ -15,3 +15,4 @@ cargo-tarpaulin
 dotenvy
 mit-pre-commit
 tendermint-abci
+minicbor
