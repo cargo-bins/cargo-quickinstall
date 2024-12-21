@@ -60,3 +60,4 @@ release
 cargo-spellcheck
 tendermint-abci
 sniffnet
+nexmark
