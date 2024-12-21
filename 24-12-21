@@ -40,3 +40,4 @@ binstall
 cargo-dylint
 fend
 rg
+minicbor
