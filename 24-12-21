@@ -3,3 +3,4 @@ mit-prepare-commit-msg
 deno
 zellij
 tokio-process
+schemafy
