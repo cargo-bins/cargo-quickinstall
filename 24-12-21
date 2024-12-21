@@ -3,3 +3,4 @@ sea-orm-cli
 deno
 schemafy
 socketcan
+oso
