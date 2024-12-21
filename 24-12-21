@@ -41,3 +41,4 @@ cargo-dylint
 fend
 rg
 minicbor
+solana-net-utils
