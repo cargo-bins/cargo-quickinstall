@@ -8,3 +8,4 @@ socketcan
 solana-faucet
 apollo-router
 dotenvy
+opencv-binding-generator
