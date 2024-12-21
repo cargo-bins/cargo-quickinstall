@@ -14,3 +14,4 @@ mit-pre-commit
 systemctl-tui
 minicbor
 stellar-xdr
+solana-genesis
