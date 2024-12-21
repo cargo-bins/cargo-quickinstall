@@ -58,3 +58,4 @@ sniffnet
 kanidm_tools
 release
 cargo-spellcheck
+tendermint-abci
