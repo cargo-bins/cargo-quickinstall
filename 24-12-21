@@ -39,3 +39,4 @@ sysd-manager
 kanidm_tools
 rg
 codeberg-cli
+cargo-create
