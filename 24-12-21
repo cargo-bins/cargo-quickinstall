@@ -16,3 +16,4 @@ apollo-router
 dotenvy
 opencv-binding-generator
 tendermint-abci
+minicbor
