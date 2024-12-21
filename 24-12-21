@@ -14,3 +14,4 @@ tendermint-abci
 minicbor
 solana-net-utils
 stellar-xdr
+solana-keygen
