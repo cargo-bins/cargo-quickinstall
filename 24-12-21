@@ -10,3 +10,4 @@ ruff
 socketcan
 oso
 solana-faucet
+apollo-router
