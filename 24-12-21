@@ -29,3 +29,4 @@ binstall
 sequoia-chameleon-gnupg
 cargo-spellcheck
 dotenvy
+opencv-binding-generator
