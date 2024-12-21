@@ -27,3 +27,4 @@ apollo-router
 cargo-create
 binstall
 sequoia-chameleon-gnupg
+cargo-spellcheck
