@@ -9,3 +9,4 @@ socketcan
 oso
 apollo-router
 cargo-about
+cargo-tarpaulin
