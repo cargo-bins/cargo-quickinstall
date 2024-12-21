@@ -11,3 +11,4 @@ socketcan
 solana-faucet
 apollo-router
 cargo-about
+cargo-tarpaulin
