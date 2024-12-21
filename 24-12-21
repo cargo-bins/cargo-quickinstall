@@ -41,3 +41,4 @@ rg
 codeberg-cli
 cargo-create
 hurl
+cargo-template
