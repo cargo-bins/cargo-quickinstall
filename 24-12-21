@@ -6,3 +6,4 @@ cargo-tarpaulin
 deno
 schemafy
 socketcan
+oso
