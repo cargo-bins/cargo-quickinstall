@@ -4,3 +4,4 @@ tauri-cli
 sea-orm-cli
 cargo-tarpaulin
 deno
+schemafy
