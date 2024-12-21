@@ -33,3 +33,4 @@ opencv-binding-generator
 cargo-dylint
 sequoia-sq
 sniffnet
+typst-preview
