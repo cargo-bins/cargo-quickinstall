@@ -12,3 +12,4 @@ opencv-binding-generator
 mit-pre-commit
 tendermint-abci
 minicbor
+solana-net-utils
