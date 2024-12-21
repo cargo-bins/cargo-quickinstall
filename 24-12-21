@@ -10,3 +10,4 @@ apollo-router
 dotenvy
 opencv-binding-generator
 mit-pre-commit
+tendermint-abci
