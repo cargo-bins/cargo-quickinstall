@@ -5,3 +5,4 @@ kickstart
 deno
 trunk
 ruff
+schemafy
