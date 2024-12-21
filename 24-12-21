@@ -26,3 +26,4 @@ sea-orm-cli
 apollo-router
 cargo-create
 binstall
+sequoia-chameleon-gnupg
