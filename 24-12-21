@@ -22,3 +22,4 @@ tendermint-abci
 systemctl-tui
 systemctl-tui
 nexmark
+papyrus_storage
