@@ -25,3 +25,4 @@ sequoia-sop
 sea-orm-cli
 apollo-router
 cargo-create
+binstall
