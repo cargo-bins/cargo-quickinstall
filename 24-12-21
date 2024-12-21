@@ -17,3 +17,4 @@ dotenvy
 opencv-binding-generator
 tendermint-abci
 minicbor
+stellar-xdr
