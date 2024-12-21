@@ -14,3 +14,4 @@ cargo-about
 cargo-tarpaulin
 dotenvy
 mit-pre-commit
+tendermint-abci
