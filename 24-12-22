@@ -76,3 +76,4 @@ rioterm
 probe-rs-cli
 dioxus-cli
 pgrx-tests
+sshx
