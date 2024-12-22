@@ -58,3 +58,4 @@ probe-rs-cli
 gitignored-cli
 cargo-info
 termusic
+dioxus-cli
