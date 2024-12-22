@@ -56,3 +56,4 @@ rmk-cli
 addr2line
 termusic
 rmk-cli
+probe-rs-cli
