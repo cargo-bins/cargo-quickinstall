@@ -46,3 +46,4 @@ cnova
 cargo-info
 binstall
 holochain
+probe-rs-cli
