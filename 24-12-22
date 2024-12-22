@@ -20,3 +20,4 @@ sn_cli
 git-mit-config
 text-diff
 rustbus
+rustfmt
