@@ -7,3 +7,4 @@ rustbus
 foundationdb-gen
 deploy
 schemafy
+safe_network
