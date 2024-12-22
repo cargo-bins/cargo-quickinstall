@@ -34,3 +34,4 @@ safe_network
 bluerepl
 phf_generator
 pax-cli
+opencv-binding-generator
