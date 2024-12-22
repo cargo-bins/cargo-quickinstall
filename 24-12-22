@@ -16,3 +16,4 @@ tree-sitter-cli
 holochain
 kalc
 solana-cli
+sea-orm-cli
