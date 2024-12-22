@@ -25,3 +25,4 @@ tree-sitter-cli
 py-spy
 cargo-info
 trunk
+cargo-create
