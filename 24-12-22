@@ -2,3 +2,4 @@ rustfmt-nightly
 winpty-rs
 stellar-strkey
 deploy
+schemafy
