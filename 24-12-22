@@ -33,3 +33,4 @@ release
 cargo-info
 deploy
 atuin
+binstall
