@@ -17,3 +17,4 @@ holochain
 solana-cli
 watchexec-cli
 tauri-cli
+sea-orm-cli
