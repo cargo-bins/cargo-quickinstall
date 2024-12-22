@@ -19,3 +19,4 @@ watchexec-cli
 tauri-cli
 sea-orm-cli
 git-mit-config
+pgrx-tests
