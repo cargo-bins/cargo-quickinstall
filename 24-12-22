@@ -2,3 +2,4 @@ skim
 rustfmt-nightly
 stellar-strkey
 zellij
+cargo-generate
