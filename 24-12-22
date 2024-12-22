@@ -5,3 +5,4 @@ zellij
 cargo-generate
 cargo-generate
 minicbor
+rustbus
