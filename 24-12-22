@@ -15,3 +15,4 @@ racer
 tendermint-rpc
 holochain
 solana-cli
+addr2line
