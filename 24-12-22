@@ -16,3 +16,4 @@ cargo-list
 zellij
 racer
 tendermint-rpc
+cargo-generate
