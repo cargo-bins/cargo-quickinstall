@@ -6,3 +6,4 @@ trunk
 deploy
 foundationdb-gen
 schemafy
+phf_generator
