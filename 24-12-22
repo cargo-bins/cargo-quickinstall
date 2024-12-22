@@ -18,3 +18,4 @@ solana-cli
 watchexec-cli
 tauri-cli
 sea-orm-cli
+git-mit-config
