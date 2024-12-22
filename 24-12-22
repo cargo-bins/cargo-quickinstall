@@ -53,3 +53,4 @@ gitignored-cli
 termusic
 solana-cli
 rmk-cli
+addr2line
