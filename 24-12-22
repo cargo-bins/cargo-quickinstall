@@ -30,3 +30,4 @@ gitignored-cli
 release
 redoxer
 release
+cargo-info
