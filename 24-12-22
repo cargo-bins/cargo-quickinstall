@@ -22,3 +22,4 @@ trunk
 release
 cargo-create
 kanidm_tools
+diesel_cli
