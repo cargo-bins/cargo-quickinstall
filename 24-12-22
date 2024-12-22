@@ -60,3 +60,4 @@ probe-rs-cli
 tenx
 z3tracer
 probe-rs-cli
+rmk-cli
