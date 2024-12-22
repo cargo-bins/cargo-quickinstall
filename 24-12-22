@@ -9,3 +9,4 @@ rustbus
 deploy
 schemafy
 safe_network
+phf_generator
