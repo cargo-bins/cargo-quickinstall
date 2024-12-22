@@ -6,3 +6,4 @@ cargo-generate
 cargo-generate
 minicbor
 rustbus
+deploy
