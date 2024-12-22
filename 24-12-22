@@ -70,3 +70,4 @@ probe-rs-cli
 gitignored-cli
 rioterm
 termusic
+probe-rs-cli
