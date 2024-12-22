@@ -26,3 +26,4 @@ py-spy
 cargo-info
 trunk
 cargo-create
+gitignored-cli
