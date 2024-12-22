@@ -36,3 +36,4 @@ phf_generator
 pax-cli
 opencv-binding-generator
 cargo-info
+diesel_cli
