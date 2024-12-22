@@ -16,3 +16,4 @@ tree-sitter-cli
 holochain
 solana-cli
 watchexec-cli
+tauri-cli
