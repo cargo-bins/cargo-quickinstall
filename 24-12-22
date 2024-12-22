@@ -45,3 +45,4 @@ binstall
 nexmark
 gitignored-cli
 racer
+cargo-spellcheck
