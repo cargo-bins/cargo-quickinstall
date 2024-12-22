@@ -11,3 +11,4 @@ addr2line
 conceal
 conceal
 pgrx-tests
+phf_generator
