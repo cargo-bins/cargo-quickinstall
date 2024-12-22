@@ -16,3 +16,4 @@ holochain
 solana-cli
 addr2line
 tauri-cli
+sea-orm-cli
