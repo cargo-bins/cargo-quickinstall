@@ -15,3 +15,4 @@ racer
 tendermint-rpc
 tree-sitter-cli
 solana-cli
+addr2line
