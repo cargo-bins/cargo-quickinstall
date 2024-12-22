@@ -14,3 +14,4 @@ tendermint-rpc
 tree-sitter-cli
 holochain
 solana-cli
+addr2line
