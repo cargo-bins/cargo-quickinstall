@@ -26,3 +26,4 @@ diesel_cli
 gitignored-cli
 deploy
 tenx
+foundationdb-gen
