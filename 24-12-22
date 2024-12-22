@@ -12,3 +12,4 @@ safe_network
 phf_generator
 cargo-generate
 racer
+cargo-list
