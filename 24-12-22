@@ -34,3 +34,4 @@ cargo-info
 deploy
 atuin
 binstall
+cargo-spellcheck
