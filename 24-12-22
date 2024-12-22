@@ -27,3 +27,4 @@ cargo-info
 trunk
 cargo-create
 gitignored-cli
+release
