@@ -10,3 +10,4 @@ racer
 tendermint-rpc
 holochain
 addr2line
+pgrx-tests
