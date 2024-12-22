@@ -8,3 +8,4 @@ foundationdb-gen
 schemafy
 phf_generator
 opencv-binding-generator
+nexmark
