@@ -16,3 +16,4 @@ tendermint-rpc
 holochain
 solana-cli
 addr2line
+sn_cli
