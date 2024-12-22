@@ -48,3 +48,4 @@ binstall
 holochain
 probe-rs-cli
 cargo-spellcheck
+bluerepl
