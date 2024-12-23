@@ -8,3 +8,4 @@ tendermint-rpc
 sqlx-cli
 raw-cpuid
 cargo-outdated
+deploy
