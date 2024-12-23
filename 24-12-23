@@ -11,3 +11,4 @@ solana-validator
 hurl
 hurl
 sniffnet
+tendermint-rpc
