@@ -60,3 +60,4 @@ libbpf-cargo
 subkey
 arti
 rustfmt-nightly
+simple-http-server
