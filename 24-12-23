@@ -5,3 +5,4 @@ trunk
 solana-validator
 mit-prepare-commit-msg
 tendermint-rpc
+raw-cpuid
