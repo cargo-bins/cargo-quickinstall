@@ -18,3 +18,4 @@ cargo-pgrx
 git-disjoint
 libbpf-cargo
 cargo-udeps
+librespot
