@@ -29,3 +29,4 @@ sea-orm-cli
 sshx
 pcu
 deno
+raw-cpuid
