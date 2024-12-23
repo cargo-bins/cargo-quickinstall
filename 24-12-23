@@ -11,3 +11,4 @@ exa
 deploy
 laminar
 git-disjoint
+libbpf-cargo
