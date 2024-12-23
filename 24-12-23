@@ -7,3 +7,4 @@ solana-validator
 tendermint-rpc
 raw-cpuid
 text-diff
+rustfmt
