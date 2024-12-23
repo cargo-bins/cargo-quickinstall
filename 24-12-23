@@ -6,3 +6,4 @@ solana-validator
 mit-prepare-commit-msg
 tendermint-rpc
 sqlx-cli
+raw-cpuid
