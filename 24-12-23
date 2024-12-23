@@ -6,3 +6,4 @@ raw-cpuid
 papyrus_storage
 deploy
 laminar
+addr2line
