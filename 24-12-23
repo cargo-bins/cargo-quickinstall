@@ -31,3 +31,4 @@ cargo-near
 tendermint-rpc
 sshx
 cargo-near
+cargo-public-api
