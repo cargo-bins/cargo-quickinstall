@@ -41,3 +41,4 @@ cargo-near
 deploy
 laminar
 nextsv
+rustfmt-nightly
