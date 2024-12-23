@@ -56,3 +56,4 @@ alacritty
 mise
 cargo-pgrx
 git-disjoint
+libbpf-cargo
