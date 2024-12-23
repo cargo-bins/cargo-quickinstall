@@ -6,3 +6,4 @@ sn_node
 solana-validator
 tendermint-rpc
 raw-cpuid
+text-diff
