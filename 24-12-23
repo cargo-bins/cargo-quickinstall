@@ -12,3 +12,4 @@ cargo-outdated
 deploy
 cargo-udeps
 laminar
+zuse
