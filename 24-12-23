@@ -17,3 +17,4 @@ deploy
 laminar
 addr2line
 git-disjoint
+libbpf-cargo
