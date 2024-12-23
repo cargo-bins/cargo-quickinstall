@@ -59,3 +59,4 @@ git-disjoint
 libbpf-cargo
 subkey
 arti
+rustfmt-nightly
