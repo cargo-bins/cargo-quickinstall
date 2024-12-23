@@ -12,3 +12,4 @@ deploy
 cargo-udeps
 laminar
 zuse
+cargo-pgrx
