@@ -10,3 +10,4 @@ charms
 solana-validator
 nu_plugin_gstat
 charms
+tendermint-rpc
