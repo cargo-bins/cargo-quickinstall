@@ -28,3 +28,4 @@ cargo-public-api
 sea-orm-cli
 sshx
 pcu
+deno
