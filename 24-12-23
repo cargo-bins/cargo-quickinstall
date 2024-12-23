@@ -4,3 +4,4 @@ unic-langid-impl
 cargo-generate
 sn_node
 solana-validator
+tendermint-rpc
