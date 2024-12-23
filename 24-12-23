@@ -5,3 +5,4 @@ cargo-generate
 solana-validator
 mit-prepare-commit-msg
 tendermint-rpc
+sqlx-cli
