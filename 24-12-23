@@ -51,3 +51,4 @@ cargo-pgrx
 git-disjoint
 rustfmt-nightly
 libbpf-cargo
+bluetui
