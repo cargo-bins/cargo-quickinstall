@@ -14,3 +14,4 @@ cargo-udeps
 laminar
 zuse
 arrow-flight
+cargo-pgrx
