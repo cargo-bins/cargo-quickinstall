@@ -13,3 +13,4 @@ deploy
 cargo-udeps
 laminar
 zuse
+arrow-flight
