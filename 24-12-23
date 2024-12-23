@@ -7,3 +7,4 @@ mit-prepare-commit-msg
 tendermint-rpc
 sqlx-cli
 raw-cpuid
+cargo-outdated
