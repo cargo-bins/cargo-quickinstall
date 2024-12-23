@@ -13,3 +13,4 @@ laminar
 git-disjoint
 libbpf-cargo
 coldsnap
+sqlx-cli
