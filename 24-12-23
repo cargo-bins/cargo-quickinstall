@@ -8,3 +8,4 @@ tendermint-rpc
 sqlx-cli
 raw-cpuid
 papyrus_storage
+cargo-outdated
