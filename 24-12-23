@@ -10,3 +10,4 @@ addr2line
 zuse
 cargo-pgrx
 git-disjoint
+libbpf-cargo
