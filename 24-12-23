@@ -24,3 +24,4 @@ tenx
 cargo-pgrx
 git-disjoint
 libbpf-cargo
+dotenvy
