@@ -12,3 +12,4 @@ deploy
 laminar
 git-disjoint
 libbpf-cargo
+coldsnap
