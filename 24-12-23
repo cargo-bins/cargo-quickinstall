@@ -10,3 +10,4 @@ raw-cpuid
 cargo-outdated
 deploy
 cargo-udeps
+laminar
