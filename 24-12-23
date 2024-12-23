@@ -8,3 +8,4 @@ deploy
 laminar
 addr2line
 zuse
+cargo-pgrx
