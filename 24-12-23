@@ -25,3 +25,4 @@ arti
 rioterm
 tendermint-rpc
 cargo-public-api
+sea-orm-cli
