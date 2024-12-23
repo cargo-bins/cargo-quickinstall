@@ -16,3 +16,4 @@ raw-cpuid
 deploy
 laminar
 addr2line
+git-disjoint
