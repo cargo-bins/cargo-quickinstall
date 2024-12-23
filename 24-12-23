@@ -13,3 +13,4 @@ cargo-udeps
 laminar
 zuse
 cargo-pgrx
+git-disjoint
