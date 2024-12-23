@@ -14,3 +14,4 @@ laminar
 zuse
 cargo-pgrx
 git-disjoint
+libbpf-cargo
