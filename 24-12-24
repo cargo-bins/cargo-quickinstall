@@ -11,3 +11,4 @@ solana-validator
 git-disjoint
 espflash
 solana-keygen
+cargo-lock
