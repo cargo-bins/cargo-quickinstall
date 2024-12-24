@@ -9,3 +9,4 @@ nexmark
 wmi
 cargo-lock
 tree-sitter-cli
+winpty-rs
