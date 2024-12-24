@@ -30,3 +30,4 @@ rustfmt-nightly
 minicbor
 cargo-dylint
 carapace
+winpty-rs
