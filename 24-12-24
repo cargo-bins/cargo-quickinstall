@@ -35,3 +35,4 @@ spider_cli
 cpp_demangle
 solana-validator
 cargo-public-api
+spider_cli
