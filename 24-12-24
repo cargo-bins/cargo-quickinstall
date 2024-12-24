@@ -23,3 +23,4 @@ rustfmt-nightly
 skim
 cargo-lock
 solana-gossip
+mit-commit-msg
