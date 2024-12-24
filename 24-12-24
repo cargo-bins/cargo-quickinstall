@@ -10,3 +10,4 @@ watchexec-cli
 holochain
 nexmark
 wmi
+cargo-lock
