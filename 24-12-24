@@ -14,3 +14,4 @@ cached-path
 rustfmt-nightly
 cargo-lock
 pgrx-tests
+apollo-router
