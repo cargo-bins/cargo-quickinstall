@@ -45,3 +45,4 @@ probe-run
 airshipper
 probe-run
 frawk
+cargo-lock
