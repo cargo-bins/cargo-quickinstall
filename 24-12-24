@@ -6,3 +6,4 @@ sccache
 paperclip
 wol-rs
 human_bytes
+watchexec-cli
