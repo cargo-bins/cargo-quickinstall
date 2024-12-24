@@ -4,3 +4,4 @@ python-project-generator
 rustfmt-nightly
 solana-keygen
 cargo-near
+cargo-pgrx
