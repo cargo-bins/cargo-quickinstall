@@ -24,3 +24,4 @@ wmi
 mdcat
 carapace
 minicbor
+addr2line
