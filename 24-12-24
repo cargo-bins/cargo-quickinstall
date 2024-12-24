@@ -3,3 +3,4 @@ rustfmt-nightly
 python-project-generator
 rustfmt-nightly
 solana-keygen
+cargo-near
