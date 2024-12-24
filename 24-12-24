@@ -7,3 +7,4 @@ cargo-near
 cargo-pgrx
 hurl
 cargo-dylint
+cargo-samply
