@@ -25,3 +25,4 @@ cargo-lock
 zuse
 spider_worker
 sccache
+solana-gossip
