@@ -15,3 +15,4 @@ cpp_demangle
 solana-validator
 zellij
 iai-callgrind-runner
+git-disjoint
