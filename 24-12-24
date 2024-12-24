@@ -18,3 +18,4 @@ rustfmt-nightly
 skim
 skim
 cargo-lock
+solana-gossip
