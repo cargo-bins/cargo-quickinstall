@@ -5,3 +5,4 @@ nexmark
 wmi
 minicbor
 tree-sitter-cli
+winpty-rs
