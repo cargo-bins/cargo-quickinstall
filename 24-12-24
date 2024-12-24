@@ -13,3 +13,4 @@ cargo-lock
 cached-path
 rustfmt-nightly
 cargo-lock
+pgrx-tests
