@@ -13,3 +13,4 @@ espflash
 solana-keygen
 cargo-lock
 cached-path
+rustfmt-nightly
