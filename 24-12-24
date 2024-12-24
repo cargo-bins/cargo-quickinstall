@@ -31,3 +31,4 @@ minicbor
 cargo-dylint
 carapace
 winpty-rs
+spider_cli
