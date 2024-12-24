@@ -10,3 +10,4 @@ solana-validator
 rrule
 git-disjoint
 cargo-lock
+cached-path
