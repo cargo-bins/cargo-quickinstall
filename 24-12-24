@@ -34,3 +34,4 @@ pgrx-tests
 apollo-router
 mit-prepare-commit-msg
 evcxr_repl
+minicbor
