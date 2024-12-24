@@ -16,3 +16,4 @@ tree-sitter-cli
 winpty-rs
 mit-commit-msg
 cpp_demangle
+solana-validator
