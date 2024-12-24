@@ -16,3 +16,4 @@ git-disjoint
 tree-sitter-cli
 solana-keygen
 tree-sitter-cli
+cargo-lock
