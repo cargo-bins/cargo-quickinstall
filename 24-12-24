@@ -8,3 +8,4 @@ holochain
 nexmark
 wmi
 cargo-lock
+tree-sitter-cli
