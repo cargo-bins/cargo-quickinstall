@@ -5,3 +5,4 @@ rustfmt-nightly
 solana-keygen
 cargo-near
 cargo-pgrx
+hurl
