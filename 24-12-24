@@ -32,3 +32,4 @@ cargo-dylint
 carapace
 winpty-rs
 spider_cli
+cpp_demangle
