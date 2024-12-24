@@ -16,3 +16,4 @@ cached-path
 rustfmt-nightly
 cargo-lock
 zuse
+spider_worker
