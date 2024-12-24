@@ -60,3 +60,4 @@ probe-run
 simple-http-server
 solana-gossip
 cargo-list
+cargo-list
