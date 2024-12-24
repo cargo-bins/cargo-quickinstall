@@ -22,3 +22,4 @@ cargo-lock
 rustfmt-nightly
 cargo-lock
 pgrx-tests
+minicbor
