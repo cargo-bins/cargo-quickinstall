@@ -10,3 +10,4 @@ cargo-lock
 wmi
 minicbor
 winpty-rs
+mise
