@@ -10,3 +10,4 @@ cargo-dylint
 cargo-samply
 av1an
 paperclip
+sea-orm-cli
