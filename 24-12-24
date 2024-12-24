@@ -11,3 +11,4 @@ spider_cli
 sea-orm-cli
 mdcat
 atuin
+cargo-public-api
