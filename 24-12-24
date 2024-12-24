@@ -38,3 +38,4 @@ cargo-public-api
 spider_cli
 cargo-smart-release
 cargo-show
+git-disjoint
