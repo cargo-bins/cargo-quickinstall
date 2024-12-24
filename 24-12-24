@@ -25,3 +25,4 @@ nexmark
 cargo-show
 wmi
 simple-http-server
+cargo-lock
