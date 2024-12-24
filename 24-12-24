@@ -46,3 +46,4 @@ nextsv
 cargo-show
 cargo-lock
 airshipper
+cargo-list
