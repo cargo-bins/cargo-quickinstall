@@ -68,3 +68,4 @@ mdcat
 cargo-smart-release
 pgrx-tests
 airshipper
+simple-http-server
