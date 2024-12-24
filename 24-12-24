@@ -18,3 +18,4 @@ cargo-lock
 zuse
 spider_worker
 pgrx-tests
+apollo-router
