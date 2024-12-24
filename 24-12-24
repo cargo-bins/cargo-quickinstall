@@ -17,3 +17,4 @@ rustfmt-nightly
 cargo-lock
 zuse
 spider_worker
+pgrx-tests
