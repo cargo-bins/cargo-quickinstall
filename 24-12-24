@@ -18,3 +18,4 @@ solana-keygen
 tree-sitter-cli
 cargo-lock
 cached-path
+rustfmt-nightly
