@@ -20,3 +20,4 @@ evcxr_repl
 espflash
 solana-keygen
 cargo-lock
+rustfmt-nightly
