@@ -19,3 +19,4 @@ cargo-show
 pcu
 spider_cli
 sea-orm-cli
+nu
