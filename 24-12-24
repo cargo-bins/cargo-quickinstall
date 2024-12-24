@@ -12,3 +12,4 @@ git-disjoint
 cargo-lock
 cached-path
 rustfmt-nightly
+cargo-lock
