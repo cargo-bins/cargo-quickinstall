@@ -5,3 +5,4 @@ nexmark
 wmi
 winpty-rs
 termusic
+cpp_demangle
