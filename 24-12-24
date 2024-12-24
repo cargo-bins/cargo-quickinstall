@@ -18,3 +18,4 @@ deploy-rs
 git-disjoint
 solana-keygen
 dioxus-cli
+cargo-lock
