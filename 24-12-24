@@ -28,3 +28,4 @@ sccache
 solana-gossip
 mit-commit-msg
 pgrx-tests
+evcxr_repl
