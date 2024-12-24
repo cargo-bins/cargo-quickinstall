@@ -5,3 +5,4 @@ cargo-about
 sccache
 paperclip
 wol-rs
+human_bytes
