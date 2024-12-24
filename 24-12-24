@@ -58,3 +58,4 @@ probe-run
 hyprswitch
 probe-run
 python-project-generator
+pgrx-tests
