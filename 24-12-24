@@ -9,3 +9,4 @@ nexmark
 cargo-lock
 wmi
 minicbor
+winpty-rs
