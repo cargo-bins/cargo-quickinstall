@@ -6,3 +6,4 @@ cargo-pgrx
 cargo-spellcheck
 solana-keygen
 atuin
+simple-http-server
