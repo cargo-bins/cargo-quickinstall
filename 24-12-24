@@ -24,3 +24,4 @@ rustfmt-nightly
 cargo-lock
 zuse
 spider_worker
+sccache
