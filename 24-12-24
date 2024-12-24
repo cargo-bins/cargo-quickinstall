@@ -27,3 +27,4 @@ rustfmt-nightly
 cargo-lock
 spider_worker
 sccache
+solana-gossip
