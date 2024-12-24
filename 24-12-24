@@ -8,3 +8,4 @@ holochain
 nexmark
 cargo-lock
 wmi
+minicbor
