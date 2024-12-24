@@ -19,3 +19,4 @@ git-disjoint
 exa
 solana-keygen
 cargo-lock
+rustfmt-nightly
