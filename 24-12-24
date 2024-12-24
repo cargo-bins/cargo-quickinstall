@@ -44,3 +44,4 @@ cargo-smart-release
 atuin
 nextsv
 cargo-show
+cargo-lock
