@@ -9,3 +9,4 @@ nexmark
 sn_cli
 text-diff
 minicbor
+winpty-rs
