@@ -39,3 +39,4 @@ cargo-dylint
 espflash
 solana-keygen
 spider_cli
+cached-path
