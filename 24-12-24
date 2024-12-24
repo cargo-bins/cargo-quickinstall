@@ -12,3 +12,4 @@ nexmark
 wmi
 cargo-lock
 cargo-about
+tree-sitter-cli
