@@ -49,3 +49,4 @@ cargo-lock
 strain
 airshipper
 hyprswitch
+spider_worker
