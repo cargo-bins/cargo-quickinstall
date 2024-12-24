@@ -12,3 +12,4 @@ git-disjoint
 espflash
 solana-keygen
 cargo-lock
+cached-path
