@@ -47,3 +47,4 @@ textplots
 speedtest-rs
 solana-tokens
 cargo-duplicates
+clippy
