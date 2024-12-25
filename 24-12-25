@@ -13,3 +13,4 @@ solana-tokens
 clippy
 git-disjoint
 winpty-rs
+sha1collisiondetection
