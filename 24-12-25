@@ -8,3 +8,4 @@ hoard-rs
 minicbor
 paperclip
 honggfuzz
+raw-cpuid
