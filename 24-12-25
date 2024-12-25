@@ -64,3 +64,4 @@ textplots
 snarkvm
 crates-tui
 cargo-duplicates
+raw-cpuid
