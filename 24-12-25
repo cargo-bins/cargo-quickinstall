@@ -44,3 +44,4 @@ raw-cpuid
 script
 tree-sitter-graph
 textplots
+speedtest-rs
