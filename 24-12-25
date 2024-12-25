@@ -10,3 +10,4 @@ cargo-vet
 benfred-read-process-memory
 paperclip
 honggfuzz
+raw-cpuid
