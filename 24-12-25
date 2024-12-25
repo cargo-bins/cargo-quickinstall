@@ -16,3 +16,4 @@ textplots
 solana-tokens
 clippy
 llmvm-outsource
+winpty-rs
