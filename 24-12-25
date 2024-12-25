@@ -40,3 +40,4 @@ raw-cpuid
 tree-sitter-graph
 crates-tui
 textplots
+speedtest-rs
