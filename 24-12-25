@@ -31,3 +31,4 @@ strain
 crates-tui
 script
 frawk
+tree-sitter-cli
