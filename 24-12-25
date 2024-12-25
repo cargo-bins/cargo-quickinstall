@@ -38,3 +38,4 @@ fend
 script
 raw-cpuid
 tree-sitter-graph
+crates-tui
