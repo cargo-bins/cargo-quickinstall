@@ -41,3 +41,4 @@ tree-sitter-graph
 crates-tui
 textplots
 speedtest-rs
+leetcode-cli
