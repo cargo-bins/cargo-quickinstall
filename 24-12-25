@@ -7,3 +7,4 @@ wol-rs
 probe-run
 frawk
 wmi
+nu_plugin_gstat
