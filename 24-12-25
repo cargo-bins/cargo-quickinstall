@@ -33,3 +33,4 @@ script
 frawk
 tree-sitter-cli
 deno
+probe-rs-tools
