@@ -15,3 +15,4 @@ clippy
 git-disjoint
 winpty-rs
 sha1collisiondetection
+human_bytes
