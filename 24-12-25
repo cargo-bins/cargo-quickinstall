@@ -35,3 +35,4 @@ tree-sitter-cli
 deno
 probe-rs-tools
 paperclip
+mdcat
