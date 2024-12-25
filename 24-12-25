@@ -16,3 +16,4 @@ solana-tokens
 clippy
 winpty-rs
 nkeys
+sha1collisiondetection
