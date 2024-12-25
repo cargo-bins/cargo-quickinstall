@@ -19,3 +19,4 @@ probe-run
 speedtest-rs
 paperclip
 frawk
+crates-tui
