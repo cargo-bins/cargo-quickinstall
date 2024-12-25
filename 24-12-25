@@ -20,3 +20,4 @@ probe-rs-tools
 wiki-tui
 frawk
 nkeys
+cargo-smart-release
