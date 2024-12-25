@@ -51,3 +51,4 @@ clippy
 cargo-duplicates
 nu_plugin_query
 deno
+winpty-rs
