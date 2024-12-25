@@ -60,3 +60,4 @@ probe-rs-tools
 human_bytes
 crates-tui
 oso
+textplots
