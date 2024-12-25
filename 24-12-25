@@ -4,3 +4,4 @@ nu_plugin_gstat
 wmi
 simple-http-server
 script
+probe-run
