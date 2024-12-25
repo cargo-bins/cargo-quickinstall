@@ -4,3 +4,4 @@ simple-http-server
 ducc-sys
 redoxer
 wol-rs
+probe-run
