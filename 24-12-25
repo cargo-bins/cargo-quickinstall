@@ -57,3 +57,4 @@ probe-rs-tools
 solana-validator
 nkeys
 probe-rs-tools
+human_bytes
