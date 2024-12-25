@@ -11,3 +11,4 @@ benfred-read-process-memory
 paperclip
 honggfuzz
 raw-cpuid
+tree-sitter-graph
