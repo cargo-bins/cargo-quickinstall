@@ -12,3 +12,4 @@ tree-sitter-graph
 solana-tokens
 clippy
 git-disjoint
+winpty-rs
