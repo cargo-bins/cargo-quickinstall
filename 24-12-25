@@ -28,3 +28,4 @@ wiki-tui
 script
 hyprswitch
 cargo-smart-release
+paperclip
