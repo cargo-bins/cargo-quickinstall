@@ -17,3 +17,4 @@ clippy
 winpty-rs
 nkeys
 sha1collisiondetection
+human_bytes
