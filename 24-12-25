@@ -8,3 +8,4 @@ probe-run
 spotify_player
 script
 speedtest-rs
+mdcat
