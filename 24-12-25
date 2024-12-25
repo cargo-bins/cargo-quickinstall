@@ -36,3 +36,4 @@ deno
 probe-rs-tools
 paperclip
 mdcat
+crates-tui
