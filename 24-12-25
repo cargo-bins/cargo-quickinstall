@@ -32,3 +32,4 @@ crates-tui
 script
 frawk
 tree-sitter-cli
+deno
