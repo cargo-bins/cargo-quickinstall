@@ -7,3 +7,4 @@ nkeys
 minicbor
 text-diff
 cargo-vet
+benfred-read-process-memory
