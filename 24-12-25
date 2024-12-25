@@ -16,3 +16,4 @@ winpty-rs
 sha1collisiondetection
 solana-validator
 nkeys
+human_bytes
