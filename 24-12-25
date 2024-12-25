@@ -27,3 +27,4 @@ human_bytes
 oso
 textplots
 rmesg
+raw-cpuid
