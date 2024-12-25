@@ -53,3 +53,4 @@ nu_plugin_query
 deno
 winpty-rs
 probe-rs-tools
+crates-tui
