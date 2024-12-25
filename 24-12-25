@@ -49,3 +49,4 @@ solana-tokens
 cargo-duplicates
 clippy
 cargo-duplicates
+nu_plugin_query
