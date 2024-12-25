@@ -37,3 +37,4 @@ frawk
 fend
 script
 raw-cpuid
+tree-sitter-graph
