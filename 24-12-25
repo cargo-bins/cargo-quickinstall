@@ -50,3 +50,4 @@ crates-tui
 probe-rs-tools
 deno
 fend
+winpty-rs
