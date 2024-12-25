@@ -36,3 +36,4 @@ probe-rs-tools
 frawk
 fend
 script
+raw-cpuid
