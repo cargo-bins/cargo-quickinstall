@@ -21,3 +21,4 @@ tree-sitter-graph
 muxi
 clippy
 git-disjoint
+winpty-rs
