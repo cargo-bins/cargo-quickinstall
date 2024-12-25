@@ -6,3 +6,4 @@ stellar-xdr
 nkeys
 minicbor
 text-diff
+cargo-vet
