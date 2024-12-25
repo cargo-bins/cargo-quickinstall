@@ -9,3 +9,4 @@ minicbor
 paperclip
 honggfuzz
 raw-cpuid
+tree-sitter-graph
