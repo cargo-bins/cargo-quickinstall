@@ -18,3 +18,4 @@ clippy
 llmvm-outsource
 winpty-rs
 llmvm-outsource
+sha1collisiondetection
