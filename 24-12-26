@@ -42,3 +42,4 @@ cargo-unmaintained
 nextest-filtering
 cargo-duplicates
 ncspot
+binwalk
