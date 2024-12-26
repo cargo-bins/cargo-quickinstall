@@ -52,3 +52,4 @@ libbpf-cargo
 kanidm-ldap-sync
 tectonic
 cargo-list
+binwalk
