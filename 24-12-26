@@ -3,3 +3,4 @@ probe-rs-tools
 probe-rs-tools
 nu_plugin_gstat
 cargo-duplicates
+tree-sitter-cli
