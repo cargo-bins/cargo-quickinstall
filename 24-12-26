@@ -11,3 +11,4 @@ raw-cpuid
 syd
 mit-pre-commit
 raw-cpuid
+cpp_demangle
