@@ -13,3 +13,4 @@ syd
 mit-pre-commit
 raw-cpuid
 nextest-filtering
+phf_generator
