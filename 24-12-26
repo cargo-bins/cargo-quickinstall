@@ -49,3 +49,4 @@ tectonic
 nu_plugin_query
 cargo-list
 libbpf-cargo
+kanidm-ldap-sync
