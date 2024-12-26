@@ -17,3 +17,4 @@ raw-cpuid
 cpp_demangle
 nextest-filtering
 diesel_cli
+phf_generator
