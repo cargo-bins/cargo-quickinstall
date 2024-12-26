@@ -28,3 +28,4 @@ cargo-dylint
 syd
 nu_plugin_query
 cargo-public-api
+raw-cpuid
