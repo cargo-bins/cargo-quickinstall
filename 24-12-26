@@ -7,3 +7,4 @@ mdcat
 clippy
 tree-sitter-cli
 rrule
+cargo-smart-release
