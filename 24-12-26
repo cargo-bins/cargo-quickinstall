@@ -16,3 +16,4 @@ nextest-filtering
 phf_generator
 libbpf-cargo
 rkv
+tree-sitter-graph
