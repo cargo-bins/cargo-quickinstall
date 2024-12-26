@@ -8,3 +8,4 @@ raw-cpuid
 syd
 raw-cpuid
 phf_generator
+libbpf-cargo
