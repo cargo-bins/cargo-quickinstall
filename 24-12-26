@@ -10,3 +10,4 @@ raw-cpuid
 syd
 raw-cpuid
 cpp_demangle
+nextest-filtering
