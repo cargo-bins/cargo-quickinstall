@@ -16,3 +16,4 @@ crates-tui
 sea-orm-cli
 protox
 nu_plugin_query
+racer
