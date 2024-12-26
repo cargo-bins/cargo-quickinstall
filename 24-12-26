@@ -3,3 +3,4 @@ deno
 graphql_client_cli
 diesel_cli
 diesel_cli
+solana-gossip
