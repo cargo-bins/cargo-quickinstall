@@ -60,3 +60,4 @@ cargo-list
 tree-sitter-graph
 kanidm-ldap-sync
 tectonic
+graphql_client_cli
