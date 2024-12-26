@@ -18,3 +18,4 @@ libbpf-cargo
 rkv
 tree-sitter-graph
 espflash
+arrow-flight
