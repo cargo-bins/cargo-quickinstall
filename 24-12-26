@@ -10,3 +10,4 @@ raw-cpuid
 phf_generator
 libbpf-cargo
 rkv
+tree-sitter-graph
