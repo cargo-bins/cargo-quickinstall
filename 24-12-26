@@ -18,3 +18,4 @@ cpp_demangle
 nextest-filtering
 diesel_cli
 phf_generator
+libbpf-cargo
