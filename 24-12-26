@@ -25,3 +25,4 @@ raw-cpuid
 cargo-unmaintained
 nu_plugin_query
 cargo-dylint
+syd
