@@ -27,3 +27,4 @@ schemafy
 cargo-tarpaulin
 sha1collisiondetection
 human_name
+watchexec-cli
