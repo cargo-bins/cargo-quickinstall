@@ -13,3 +13,4 @@ cpp_demangle
 nextest-filtering
 phf_generator
 libbpf-cargo
+rkv
