@@ -48,3 +48,4 @@ cargo-unmaintained
 tectonic
 nu_plugin_query
 cargo-list
+libbpf-cargo
