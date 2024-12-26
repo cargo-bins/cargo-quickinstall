@@ -12,3 +12,4 @@ cpp_demangle
 atuin
 nextest-filtering
 atuin
+phf_generator
