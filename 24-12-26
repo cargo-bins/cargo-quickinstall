@@ -24,3 +24,4 @@ nu_plugin_query
 cargo-unmaintained
 binwalk
 ncspot
+raw-cpuid
