@@ -24,3 +24,4 @@ sccache
 tree-sitter-graph
 rkv
 schemafy
+cargo-tarpaulin
