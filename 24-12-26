@@ -44,3 +44,4 @@ cargo-duplicates
 ncspot
 binwalk
 kanidm-ldap-sync
+cargo-unmaintained
