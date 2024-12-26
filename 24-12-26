@@ -17,3 +17,4 @@ phf_generator
 cpp_demangle
 libbpf-cargo
 rkv
+tree-sitter-graph
