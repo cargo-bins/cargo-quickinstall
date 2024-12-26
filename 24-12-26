@@ -13,3 +13,4 @@ mit-pre-commit
 raw-cpuid
 cpp_demangle
 nextest-filtering
+phf_generator
