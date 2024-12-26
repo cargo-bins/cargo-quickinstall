@@ -19,3 +19,4 @@ cpp_demangle
 nextest-filtering
 libbpf-cargo
 rkv
+tree-sitter-graph
