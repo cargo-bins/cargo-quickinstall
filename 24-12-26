@@ -46,3 +46,4 @@ binwalk
 kanidm-ldap-sync
 cargo-unmaintained
 tectonic
+nu_plugin_query
