@@ -8,3 +8,4 @@ clippy
 tree-sitter-cli
 rrule
 cargo-smart-release
+cargo-unmaintained
