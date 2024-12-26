@@ -27,3 +27,4 @@ nu_plugin_query
 cargo-dylint
 syd
 nu_plugin_query
+cargo-public-api
