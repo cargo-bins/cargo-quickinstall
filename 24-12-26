@@ -11,3 +11,4 @@ syd
 raw-cpuid
 cpp_demangle
 nextest-filtering
+phf_generator
