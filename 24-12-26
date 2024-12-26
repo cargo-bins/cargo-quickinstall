@@ -47,3 +47,4 @@ cargo-list
 nextest-filtering
 tectonic
 tectonic
+phf_generator
