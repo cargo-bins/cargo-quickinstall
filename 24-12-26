@@ -2,3 +2,4 @@ deno
 solana-gossip
 clippy
 rrule
+tokio-process
