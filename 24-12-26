@@ -13,3 +13,4 @@ atuin
 nextest-filtering
 atuin
 phf_generator
+libbpf-cargo
