@@ -41,3 +41,4 @@ cargo-list
 cargo-unmaintained
 nextest-filtering
 cargo-duplicates
+ncspot
