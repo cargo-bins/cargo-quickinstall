@@ -66,3 +66,4 @@ cargo-list
 arrow-flight
 kanidm-ldap-sync
 graphql_client_cli
+binwalk
