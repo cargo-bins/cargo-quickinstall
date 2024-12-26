@@ -18,3 +18,4 @@ phf_generator
 libbpf-cargo
 rkv
 tree-sitter-graph
+arrow-flight
