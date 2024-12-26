@@ -25,3 +25,4 @@ tree-sitter-graph
 rkv
 schemafy
 cargo-tarpaulin
+sha1collisiondetection
