@@ -18,3 +18,4 @@ cpp_demangle
 libbpf-cargo
 rkv
 tree-sitter-graph
+arrow-flight
