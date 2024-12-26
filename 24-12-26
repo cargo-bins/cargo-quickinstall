@@ -20,3 +20,4 @@ diesel_cli
 phf_generator
 libbpf-cargo
 conceal
+conceal
