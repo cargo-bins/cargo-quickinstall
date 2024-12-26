@@ -6,3 +6,4 @@ diesel_cli
 solana-gossip
 clippy
 graphql_client_cli
+rrule
