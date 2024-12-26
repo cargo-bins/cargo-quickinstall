@@ -51,3 +51,4 @@ phf_generator
 ncspot
 tectonic
 kanidm-ldap-sync
+libbpf-cargo
