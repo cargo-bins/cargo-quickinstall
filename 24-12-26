@@ -16,3 +16,4 @@ mit-pre-commit
 raw-cpuid
 cpp_demangle
 nextest-filtering
+diesel_cli
