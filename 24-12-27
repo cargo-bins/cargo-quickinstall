@@ -3,3 +3,4 @@ kickstart
 tendermint-abci
 kickstart
 rls-rustc
+apollo-router
