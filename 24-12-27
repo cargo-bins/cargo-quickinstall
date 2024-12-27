@@ -8,3 +8,4 @@ apollo-router
 sn_cli
 diesel_cli
 tendermint-rpc
+rls-rustc
