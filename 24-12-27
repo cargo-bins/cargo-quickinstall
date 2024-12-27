@@ -59,3 +59,4 @@ nextest-filtering
 release-plz
 kickoff
 patch-crate
+tree-sitter-graph
