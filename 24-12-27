@@ -2,3 +2,4 @@ foundationdb-gen
 kickstart
 tendermint-abci
 kickstart
+rls-rustc
