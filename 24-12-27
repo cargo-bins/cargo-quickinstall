@@ -13,3 +13,4 @@ phf_generator
 dotenvy
 oso
 deploy
+spider_worker
