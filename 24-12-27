@@ -27,3 +27,4 @@ evcxr_repl
 nextest-filtering
 zellij
 tree-sitter-graph
+sea-orm-cli
