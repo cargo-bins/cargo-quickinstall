@@ -38,3 +38,4 @@ serie
 deploy
 kickstart
 nextest-filtering
+foundationdb-gen
