@@ -31,3 +31,4 @@ rls-rustc
 borsh
 phf_generator
 kickstart
+dotenvy
