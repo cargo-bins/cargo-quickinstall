@@ -71,3 +71,4 @@ nextest-filtering
 tgt
 release-plz
 bacli
+tree-sitter-graph
