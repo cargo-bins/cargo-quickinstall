@@ -4,3 +4,4 @@ tendermint-abci
 kickstart
 rls-rustc
 apollo-router
+diesel_cli
