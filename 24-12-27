@@ -20,3 +20,4 @@ deploy
 spider_worker
 mise
 nextest-filtering
+tree-sitter-graph
