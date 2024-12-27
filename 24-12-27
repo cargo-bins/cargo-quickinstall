@@ -40,3 +40,4 @@ kickstart
 nextest-filtering
 foundationdb-gen
 nextest-filtering
+tree-sitter-graph
