@@ -19,3 +19,4 @@ solana-gossip
 deploy
 spider_worker
 mise
+nextest-filtering
