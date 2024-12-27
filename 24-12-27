@@ -7,3 +7,4 @@ sn_cli
 apollo-router
 sn_cli
 diesel_cli
+tendermint-rpc
