@@ -56,3 +56,4 @@ patch-crate
 release-plz
 patch-crate
 nextest-filtering
+release-plz
