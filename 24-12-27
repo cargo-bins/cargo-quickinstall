@@ -15,3 +15,4 @@ rls-rustc
 borsh
 phf_generator
 cargo-c
+dotenvy
