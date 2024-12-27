@@ -24,3 +24,4 @@ spider_worker
 nextest-filtering
 cargo-generate
 evcxr_repl
+nextest-filtering
