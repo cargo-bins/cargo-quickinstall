@@ -21,3 +21,4 @@ solana-gossip
 deploy
 cargo-about
 spider_worker
+nextest-filtering
