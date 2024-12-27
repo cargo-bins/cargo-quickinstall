@@ -34,3 +34,4 @@ kickstart
 pgrx-tests
 cavif
 wiki-tui
+rls-rustc
