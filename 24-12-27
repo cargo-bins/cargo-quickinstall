@@ -24,3 +24,4 @@ cargo-dylint
 kickstart
 wiki-tui
 kickstart
+rls-rustc
