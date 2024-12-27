@@ -21,3 +21,4 @@ apollo-router
 kickstart
 diesel_cli
 monolith
+pgrx-tests
