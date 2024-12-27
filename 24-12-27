@@ -48,3 +48,4 @@ cargo-whatfeatures
 kickoff
 tui-journal
 spider_worker
+nextest-filtering
