@@ -21,3 +21,4 @@ deploy
 rg
 nextest-filtering
 tree-sitter-graph
+nexmark
