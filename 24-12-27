@@ -4,3 +4,4 @@ lumen
 script
 solana-keygen
 lumen
+graphql_client_cli
