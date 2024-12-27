@@ -14,3 +14,4 @@ rls-rustc
 borsh
 phf_generator
 dotenvy
+rg
