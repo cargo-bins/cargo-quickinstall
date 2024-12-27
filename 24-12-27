@@ -22,3 +22,4 @@ deploy
 cargo-about
 spider_worker
 nextest-filtering
+cargo-generate
