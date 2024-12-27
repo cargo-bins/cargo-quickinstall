@@ -9,3 +9,4 @@ graphql_client_cli
 cargo-whatfeatures
 bacli
 kickstart
+nu_plugin_plotters
