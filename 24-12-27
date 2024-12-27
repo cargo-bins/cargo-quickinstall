@@ -12,3 +12,4 @@ phf_generator
 dotenvy
 oso
 deploy
+nextest-filtering
