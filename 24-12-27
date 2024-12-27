@@ -10,3 +10,4 @@ diesel_cli
 tendermint-rpc
 rls-rustc
 dotenvy
+oso
