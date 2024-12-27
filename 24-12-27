@@ -18,3 +18,4 @@ nextest-filtering
 tree-sitter-graph
 java-locator
 sea-orm-cli
+nexmark
