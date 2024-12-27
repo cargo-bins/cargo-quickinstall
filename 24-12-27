@@ -14,3 +14,4 @@ oso
 deploy
 nextest-filtering
 nextest-filtering
+tree-sitter-graph
