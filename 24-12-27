@@ -39,3 +39,4 @@ deploy
 kickstart
 nextest-filtering
 foundationdb-gen
+nextest-filtering
