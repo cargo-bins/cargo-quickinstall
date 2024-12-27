@@ -11,3 +11,4 @@ apollo-router
 diesel_cli
 tendermint-rpc
 rls-rustc
+borsh
