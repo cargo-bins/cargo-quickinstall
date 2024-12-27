@@ -19,3 +19,4 @@ oso
 dioxus-cli
 deploy
 rg
+nextest-filtering
