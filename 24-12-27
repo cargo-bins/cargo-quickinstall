@@ -19,3 +19,4 @@ cargo-dylint
 lumen
 bacli
 cavif
+nu_plugin_plotters
