@@ -27,3 +27,4 @@ binstall
 kickstart
 binstall
 tendermint-rpc
+rls-rustc
