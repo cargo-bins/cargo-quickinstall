@@ -20,3 +20,4 @@ dioxus-cli
 deploy
 rg
 nextest-filtering
+tree-sitter-graph
