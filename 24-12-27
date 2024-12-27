@@ -36,3 +36,4 @@ kickstart
 bacli
 mise
 tendermint-rpc
+rls-rustc
