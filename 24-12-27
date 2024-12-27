@@ -8,3 +8,4 @@ apollo-router
 diesel_cli
 pgrx-tests
 rls-rustc
+borsh
