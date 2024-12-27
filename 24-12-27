@@ -20,3 +20,4 @@ lumen
 kickstart
 cavif
 rls-rustc
+nu_plugin_plotters
