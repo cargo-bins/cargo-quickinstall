@@ -11,3 +11,4 @@ apollo-router
 diesel_cli
 pgrx-tests
 tendermint-rpc
+rls-rustc
