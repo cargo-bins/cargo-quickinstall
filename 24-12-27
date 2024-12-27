@@ -37,3 +37,4 @@ bacli
 mise
 tendermint-rpc
 rls-rustc
+borsh
