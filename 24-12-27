@@ -16,3 +16,4 @@ borsh
 phf_generator
 cargo-c
 dotenvy
+oso
