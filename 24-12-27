@@ -17,3 +17,4 @@ solana-gossip
 deploy
 spider_worker
 cargo-generate
+evcxr_repl
