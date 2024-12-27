@@ -58,3 +58,4 @@ patch-crate
 nextest-filtering
 release-plz
 kickoff
+patch-crate
