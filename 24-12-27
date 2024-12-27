@@ -20,3 +20,4 @@ cargo-generate
 evcxr_repl
 nextest-filtering
 tree-sitter-graph
+sea-orm-cli
