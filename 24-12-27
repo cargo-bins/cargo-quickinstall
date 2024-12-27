@@ -10,3 +10,4 @@ graphql_client_cli
 rg
 tendermint-abci
 cargo-dylint
+kickstart
