@@ -17,3 +17,4 @@ httpbis
 cargo-generate
 tokio-process
 nextest-filtering
+zellij
