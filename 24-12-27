@@ -14,3 +14,4 @@ oso
 deploy
 nextest-filtering
 httpbis
+cargo-generate
