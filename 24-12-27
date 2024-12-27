@@ -5,3 +5,4 @@ tendermint-abci
 rls-rustc
 apollo-router
 nu
+diesel_cli
