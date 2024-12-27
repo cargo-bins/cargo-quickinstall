@@ -19,3 +19,4 @@ tokio-process
 nextest-filtering
 zellij
 tree-sitter-graph
+nexmark
