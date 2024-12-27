@@ -6,3 +6,4 @@ sccache
 sccache
 apollo-router
 diesel_cli
+pgrx-tests
