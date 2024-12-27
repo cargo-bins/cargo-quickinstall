@@ -8,3 +8,4 @@ sccache
 rls-rustc
 sccache
 apollo-router
+diesel_cli
