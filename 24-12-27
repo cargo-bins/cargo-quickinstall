@@ -6,3 +6,4 @@ diesel_cli
 rustic-rs
 tendermint-abci
 rustic-rs
+arrow-flight
