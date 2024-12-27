@@ -60,3 +60,4 @@ release-plz
 kickoff
 patch-crate
 tree-sitter-graph
+java-locator
