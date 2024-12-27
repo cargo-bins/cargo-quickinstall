@@ -25,3 +25,4 @@ nextest-filtering
 cargo-generate
 evcxr_repl
 nextest-filtering
+zellij
