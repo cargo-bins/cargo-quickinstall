@@ -14,3 +14,4 @@ dotenvy
 oso
 deploy
 spider_worker
+nextest-filtering
