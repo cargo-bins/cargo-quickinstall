@@ -6,3 +6,4 @@ bacli
 sea-orm-cli
 bacli
 solana-keygen
+graphql_client_cli
