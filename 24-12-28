@@ -13,3 +13,4 @@ binstall
 tendermint-abci
 perfcnt
 libbpf-cargo
+paperclip
