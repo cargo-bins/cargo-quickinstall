@@ -5,3 +5,4 @@ patch-crate
 coreos-installer
 solana-stake-accounts
 yofi
+tree-sitter-cli
