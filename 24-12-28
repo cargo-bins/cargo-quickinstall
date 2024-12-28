@@ -17,3 +17,4 @@ paperclip
 unic-langid-impl
 borsh
 solana-net-utils
+nextest-filtering
