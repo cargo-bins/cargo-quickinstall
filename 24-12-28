@@ -20,3 +20,4 @@ cargo-show
 perfcnt
 cargo-show
 trunk
+libbpf-cargo
