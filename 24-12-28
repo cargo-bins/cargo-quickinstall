@@ -6,3 +6,4 @@ pgrx-tests
 dotenv
 nu
 git-disjoint
+spider_cli
