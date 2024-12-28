@@ -20,3 +20,4 @@ tendermint-abci
 binstall
 trunk
 binstall
+libbpf-cargo
