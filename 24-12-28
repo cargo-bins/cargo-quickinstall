@@ -5,3 +5,4 @@ sqlx-cli
 cargo-local-registry
 dotenv
 git-disjoint
+httpbis
