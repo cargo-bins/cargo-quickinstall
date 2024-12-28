@@ -16,3 +16,4 @@ re_query
 solana-keygen
 rustbus
 perfcnt
+libbpf-cargo
