@@ -61,3 +61,4 @@ solana-net-utils
 salvo-cli
 speedtest-rs
 lucky_commit
+nextest-filtering
