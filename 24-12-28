@@ -6,3 +6,4 @@ cargo-local-registry
 dotenv
 git-disjoint
 httpbis
+solana-validator
