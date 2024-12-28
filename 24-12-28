@@ -21,3 +21,4 @@ unic-langid-impl
 borsh
 solana-net-utils
 git-mit
+nextest-filtering
