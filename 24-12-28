@@ -12,3 +12,4 @@ dioxus-cli
 dotenv
 nu
 spider_cli
+solana-validator
