@@ -13,3 +13,4 @@ nu
 kickoff
 pgrx-tests
 hurl
+cargo-dylint
