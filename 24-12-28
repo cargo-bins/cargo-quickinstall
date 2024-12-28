@@ -16,3 +16,4 @@ solana-keygen
 perfcnt
 sea-orm-cli
 trunk
+libbpf-cargo
