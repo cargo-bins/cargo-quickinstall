@@ -16,3 +16,4 @@ libbpf-cargo
 paperclip
 unic-langid-impl
 borsh
+solana-net-utils
