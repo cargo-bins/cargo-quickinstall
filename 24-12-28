@@ -10,3 +10,4 @@ re_query
 ruff
 binstall
 binstall
+tendermint-abci
