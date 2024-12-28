@@ -30,3 +30,4 @@ solana-faucet
 unic-langid-impl
 kickstart
 borsh
+solana-net-utils
