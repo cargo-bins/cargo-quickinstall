@@ -10,3 +10,4 @@ release-plz
 coreos-installer
 redu
 sea-orm-cli
+hurl
