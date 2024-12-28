@@ -12,3 +12,4 @@ redu
 sea-orm-cli
 hurl
 tgt
+graphql_client_cli
