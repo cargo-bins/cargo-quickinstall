@@ -6,3 +6,4 @@ exa
 pgrx-tests
 gitui
 sqlx-cli
+dotenv
