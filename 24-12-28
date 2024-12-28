@@ -18,3 +18,4 @@ mdcat
 pgrx-tests
 hurl
 tgt
+dotenv
