@@ -57,3 +57,4 @@ logtail
 unic-langid-impl
 borsh
 lucky_commit
+solana-net-utils
