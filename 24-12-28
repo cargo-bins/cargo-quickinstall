@@ -52,3 +52,4 @@ release-plz
 trunk
 libbpf-cargo
 logtail
+lucky_commit
