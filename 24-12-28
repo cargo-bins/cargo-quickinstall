@@ -3,3 +3,4 @@ solana-stake-accounts
 nu
 pgrx-tests
 sqlx-cli
+cargo-local-registry
