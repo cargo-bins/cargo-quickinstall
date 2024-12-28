@@ -3,3 +3,4 @@ solana-stake-accounts
 pgrx-tests
 sqlx-cli
 cargo-local-registry
+dotenv
