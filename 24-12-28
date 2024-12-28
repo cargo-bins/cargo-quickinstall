@@ -26,3 +26,4 @@ git-disjoint
 spider_cli
 tui-journal
 hurl
+release-plz
