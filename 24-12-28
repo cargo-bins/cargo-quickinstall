@@ -18,3 +18,4 @@ libbpf-cargo
 paperclip
 trunk
 unic-langid-impl
+borsh
