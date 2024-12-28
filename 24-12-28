@@ -16,3 +16,4 @@ graphql_client_cli
 nu
 mdcat
 pgrx-tests
+hurl
