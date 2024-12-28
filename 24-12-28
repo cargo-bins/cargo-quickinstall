@@ -8,3 +8,4 @@ git-disjoint
 httpbis
 solana-validator
 re_query
+tokio-process
