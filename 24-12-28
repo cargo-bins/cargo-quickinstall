@@ -10,3 +10,4 @@ release-plz
 patch-crate
 coreos-installer
 nu
+kickoff
