@@ -14,3 +14,4 @@ tendermint-abci
 perfcnt
 libbpf-cargo
 paperclip
+unic-langid-impl
