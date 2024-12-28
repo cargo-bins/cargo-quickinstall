@@ -25,3 +25,4 @@ borsh
 git-mit
 solana-net-utils
 holochain
+nextest-filtering
