@@ -31,3 +31,4 @@ unic-langid-impl
 kickstart
 borsh
 solana-net-utils
+nextest-filtering
