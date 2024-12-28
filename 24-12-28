@@ -27,3 +27,4 @@ paperclip
 cargo-show
 trunk
 unic-langid-impl
+borsh
