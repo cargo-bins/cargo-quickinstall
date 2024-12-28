@@ -19,3 +19,4 @@ paperclip
 solana-faucet
 unic-langid-impl
 borsh
+solana-net-utils
