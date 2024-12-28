@@ -7,3 +7,4 @@ cargo-dylint
 atuin
 tui-journal
 release-plz
+patch-crate
