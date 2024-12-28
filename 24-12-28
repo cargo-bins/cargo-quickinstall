@@ -14,3 +14,4 @@ kickoff
 pgrx-tests
 hurl
 cargo-dylint
+cargo-spellcheck
