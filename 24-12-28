@@ -6,3 +6,4 @@ binstall
 salvo-cli
 pgrx-tests
 salvo-cli
+dotenv
