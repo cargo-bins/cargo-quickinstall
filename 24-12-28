@@ -8,3 +8,4 @@ dotenv
 nu
 git-disjoint
 spider_cli
+cargo-outdated
