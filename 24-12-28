@@ -12,3 +12,4 @@ binstall
 binstall
 tendermint-abci
 perfcnt
+libbpf-cargo
