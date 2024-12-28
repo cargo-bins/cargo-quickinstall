@@ -10,3 +10,4 @@ dotenv
 salvo-cli
 trunk
 salvo-cli
+git-disjoint
