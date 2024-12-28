@@ -31,3 +31,4 @@ borsh
 textplots
 solana-net-utils
 holochain
+nextest-filtering
