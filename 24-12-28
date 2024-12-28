@@ -22,3 +22,4 @@ borsh
 solana-net-utils
 git-mit
 nextest-filtering
+mit-pre-commit
