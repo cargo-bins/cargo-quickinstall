@@ -11,3 +11,4 @@ ruff
 binstall
 binstall
 tendermint-abci
+perfcnt
