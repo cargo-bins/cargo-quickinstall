@@ -19,3 +19,4 @@ dioxus-cli
 dotenv
 yofi
 nu
+cargo-spellcheck
