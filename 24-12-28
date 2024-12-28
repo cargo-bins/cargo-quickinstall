@@ -30,3 +30,4 @@ release-plz
 spider_cli
 cargo-spellcheck
 redu
+rg
