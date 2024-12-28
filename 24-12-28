@@ -20,3 +20,4 @@ dotenv
 yofi
 nu
 cargo-spellcheck
+tui-journal
