@@ -2,3 +2,4 @@ syd
 patch-crate
 solana-stake-accounts
 sea-orm-cli
+tui-journal
