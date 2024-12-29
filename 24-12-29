@@ -46,3 +46,4 @@ tendermint-rpc
 pgrx-tests
 lifecycler
 cross-stream
+thoth
