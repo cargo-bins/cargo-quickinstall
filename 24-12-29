@@ -42,3 +42,4 @@ foundationdb-gen
 z3tracer
 fselect
 thoth
+tendermint-rpc
