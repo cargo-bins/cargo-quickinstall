@@ -49,3 +49,4 @@ dotenvy
 tendermint-rpc
 spider_cli
 pgrx-tests
+mdbook-plantuml
