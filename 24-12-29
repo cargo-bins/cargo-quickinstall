@@ -5,3 +5,4 @@ solana-stake-accounts
 cargo-tarpaulin
 solana-tokens
 nkeys
+apollo-router
