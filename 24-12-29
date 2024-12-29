@@ -24,3 +24,4 @@ dotenvy
 tendermint-rpc
 pgrx-tests
 anda
+sha1collisiondetection
