@@ -4,3 +4,4 @@ solana-stake-accounts
 cargo-generate
 solana-tokens
 cargo-generate
+apollo-router
