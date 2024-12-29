@@ -16,3 +16,4 @@ foundationdb-gen
 dotenvy
 tendermint-rpc
 pgrx-tests
+sea-orm-cli
