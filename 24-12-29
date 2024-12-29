@@ -20,3 +20,4 @@ sea-orm-cli
 trunk
 sea-orm-cli
 spider_cli
+sha1collisiondetection
