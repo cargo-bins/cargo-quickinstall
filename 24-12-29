@@ -16,3 +16,4 @@ oso
 ec2_instance_metadata
 rustfmt
 solana-genesis
+rustfmt
