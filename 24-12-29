@@ -2,3 +2,4 @@ phf_generator
 cargo-codspeed
 cargo-tarpaulin
 apollo-router
+nkeys
