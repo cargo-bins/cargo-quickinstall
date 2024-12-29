@@ -19,3 +19,4 @@ solana-genesis
 rustfmt
 solana-faucet
 nkeys
+deno
