@@ -9,3 +9,4 @@ nkeys
 rustfmt-nightly
 apollo-router
 borsh
+solana-tokens
