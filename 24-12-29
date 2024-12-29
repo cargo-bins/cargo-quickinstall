@@ -44,3 +44,4 @@ fselect
 thoth
 tendermint-rpc
 pgrx-tests
+lifecycler
