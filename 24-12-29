@@ -2,3 +2,4 @@ salvo-cli
 speedtest-rs
 deploy
 logtail
+cargo-spellcheck
