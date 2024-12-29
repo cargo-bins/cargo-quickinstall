@@ -25,3 +25,4 @@ cargo-spellcheck
 trunk
 apollo-router
 speedtest-rs
+borsh
