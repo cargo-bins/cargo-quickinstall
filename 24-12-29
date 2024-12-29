@@ -20,3 +20,4 @@ nkeys
 foundationdb-gen
 z3tracer
 dotenvy
+tendermint-rpc
