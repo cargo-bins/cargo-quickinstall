@@ -16,3 +16,4 @@ apollo-router
 hurl
 nkeys
 salvo-cli
+cargo-spellcheck
