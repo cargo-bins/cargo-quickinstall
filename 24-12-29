@@ -4,3 +4,4 @@ deploy
 logtail
 cargo-spellcheck
 redoxer
+phf_generator
