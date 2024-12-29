@@ -7,3 +7,4 @@ cargo-vet
 solana-tokens
 apollo-router
 nkeys
+iai-callgrind-runner
