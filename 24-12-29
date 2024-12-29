@@ -55,3 +55,4 @@ spider_cli
 cross-stream
 lifecycler
 sha1collisiondetection
+git-task
