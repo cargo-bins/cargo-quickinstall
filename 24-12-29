@@ -3,3 +3,4 @@ phf_generator
 cargo-codspeed
 solana-stake-accounts
 cargo-tarpaulin
+solana-tokens
