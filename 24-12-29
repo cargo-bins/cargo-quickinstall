@@ -24,3 +24,4 @@ tendermint-rpc
 pgrx-tests
 mit-pre-commit
 sha1collisiondetection
+nkeys
