@@ -7,3 +7,4 @@ cargo-generate
 apollo-router
 nkeys
 cargo-generate
+iai-callgrind-runner
