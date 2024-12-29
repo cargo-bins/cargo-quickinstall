@@ -18,3 +18,4 @@ nkeys
 deno
 foundationdb-gen
 z3tracer
+dotenvy
