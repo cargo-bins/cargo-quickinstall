@@ -49,3 +49,4 @@ apollo-router
 binstall
 socketcan
 rsfetch
+ruff
