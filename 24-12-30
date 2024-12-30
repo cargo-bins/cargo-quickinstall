@@ -27,3 +27,4 @@ socketcan
 cargo-pgrx
 dotenvy
 h3o
+fselect
