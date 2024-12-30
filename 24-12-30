@@ -11,3 +11,4 @@ cargo-udeps
 winpty-rs
 mit-prepare-commit-msg
 cargo-c
+laminar
