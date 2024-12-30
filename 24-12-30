@@ -14,3 +14,4 @@ cross-stream
 lifecycler
 lifecycler
 solana-stake-accounts
+cargo-public-api
