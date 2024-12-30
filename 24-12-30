@@ -13,3 +13,4 @@ paperclip
 a11ywatch_cli
 cargo-udeps
 minicbor
+winpty-rs
