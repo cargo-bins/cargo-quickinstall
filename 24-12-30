@@ -28,3 +28,4 @@ spider_cli
 dbus-codegen
 watchexec-cli
 zuse
+cargo-local-registry
