@@ -38,3 +38,4 @@ recursive_scraper
 cargo-public-api
 winpty-rs
 rsfetch
+nu_plugin_gstat
