@@ -8,3 +8,4 @@ solana-stake-accounts
 paperclip
 a11ywatch_cli
 solana-faucet
+winpty-rs
