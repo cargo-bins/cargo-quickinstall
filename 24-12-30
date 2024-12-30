@@ -21,3 +21,4 @@ librespot
 h3o
 dbus-codegen
 zuse
+cargo-local-registry
