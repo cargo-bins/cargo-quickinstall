@@ -31,3 +31,4 @@ recursive_scraper
 minicbor
 rsfetch
 recursive_scraper
+winpty-rs
