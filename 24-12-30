@@ -19,3 +19,4 @@ cargo-c
 laminar
 solana-stake-accounts
 apollo-router
+socketcan
