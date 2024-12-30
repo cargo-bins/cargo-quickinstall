@@ -21,3 +21,4 @@ socketcan
 dotenvy
 h3o
 dbus-codegen
+sn_cli
