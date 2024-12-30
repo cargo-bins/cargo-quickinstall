@@ -12,3 +12,4 @@ raw-cpuid
 paperclip
 a11ywatch_cli
 cargo-udeps
+minicbor
