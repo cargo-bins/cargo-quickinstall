@@ -48,3 +48,4 @@ deno
 apollo-router
 binstall
 socketcan
+rsfetch
