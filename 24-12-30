@@ -9,3 +9,4 @@ paperclip
 a11ywatch_cli
 cargo-udeps
 winpty-rs
+mit-prepare-commit-msg
