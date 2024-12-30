@@ -13,3 +13,4 @@ solana-stake-accounts
 cargo-public-api
 redoxer
 mise
+sea-orm-cli
