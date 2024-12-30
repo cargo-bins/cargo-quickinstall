@@ -10,3 +10,4 @@ a11ywatch_cli
 solana-faucet
 winpty-rs
 laminar
+ducc-sys
