@@ -30,3 +30,4 @@ dbus-codegen
 cargo-list
 cargo-local-registry
 cargo-generate
+cargo-generate
