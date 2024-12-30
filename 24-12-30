@@ -9,3 +9,4 @@ winpty-rs
 laminar
 solana-stake-accounts
 socketcan
+cargo-pgrx
