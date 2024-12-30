@@ -60,3 +60,4 @@ nu_plugin_gstat
 h3o
 nu_plugin_gstat
 binstall
+dbus-codegen
