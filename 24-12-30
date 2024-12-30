@@ -50,3 +50,4 @@ ruff
 xidlehook
 cargo-pgrx
 nextsv
+sshx
