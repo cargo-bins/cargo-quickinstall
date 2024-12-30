@@ -47,3 +47,4 @@ ducc-sys
 deno
 apollo-router
 binstall
+socketcan
