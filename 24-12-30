@@ -5,3 +5,4 @@ raw-cpuid
 paperclip
 a11ywatch_cli
 minicbor
+winpty-rs
