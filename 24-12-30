@@ -12,3 +12,4 @@ winpty-rs
 laminar
 ducc-sys
 apollo-router
+socketcan
