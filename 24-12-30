@@ -36,3 +36,4 @@ sshx
 git-task
 recursive_scraper
 cargo-public-api
+winpty-rs
