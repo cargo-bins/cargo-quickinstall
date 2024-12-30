@@ -27,3 +27,4 @@ cargo-list
 h3o
 cargo-generate
 dbus-codegen
+cargo-list
