@@ -11,3 +11,4 @@ mdcat
 ruff
 sea-orm-cli
 stellar-strkey
+python-project-generator
