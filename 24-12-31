@@ -24,3 +24,4 @@ opencv-binding-generator
 solana-net-utils
 git-mit-install
 racer
+dotenv
