@@ -16,3 +16,4 @@ pwasm-utils
 diesel_cli
 foundationdb-gen
 opencv-binding-generator
+git-mit-config
