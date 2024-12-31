@@ -18,3 +18,4 @@ xidlehook
 grc
 ruff
 cargo-dylint
+opencv-binding-generator
