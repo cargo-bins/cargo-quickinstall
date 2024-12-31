@@ -13,3 +13,4 @@ cargo-tarpaulin
 git-mit-config
 deploy
 cargo-about
+human_name
