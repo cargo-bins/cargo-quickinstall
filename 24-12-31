@@ -27,3 +27,4 @@ sn_cli
 foundationdb-gen
 solana-gossip
 winpty-rs
+holochain
