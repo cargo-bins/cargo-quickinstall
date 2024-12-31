@@ -16,3 +16,4 @@ cargo-public-api
 hurl
 xidlehook
 grc
+ruff
