@@ -8,3 +8,4 @@ deploy
 human_name
 nexmark
 pwasm-utils
+diesel_cli
