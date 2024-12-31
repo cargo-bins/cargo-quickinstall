@@ -19,3 +19,4 @@ pwasm-utils
 foundationdb-gen
 diesel_cli
 opencv-binding-generator
+opencv-binding-generator
