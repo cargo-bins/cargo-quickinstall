@@ -19,3 +19,4 @@ spider_worker
 foundationdb-gen
 opencv-binding-generator
 opencv-binding-generator
+solana-net-utils
