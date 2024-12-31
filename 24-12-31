@@ -12,3 +12,4 @@ nkeys
 cargo-tarpaulin
 git-mit-config
 deploy
+cargo-about
