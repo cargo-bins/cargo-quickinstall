@@ -14,3 +14,4 @@ solana-net-utils
 racer
 dotenv
 foundationdb-gen
+winpty-rs
