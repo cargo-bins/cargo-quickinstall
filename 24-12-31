@@ -25,3 +25,4 @@ coldsnap
 dotenv
 sn_cli
 foundationdb-gen
+solana-gossip
