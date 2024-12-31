@@ -14,3 +14,4 @@ deploy
 coreos-installer
 human_name
 nexmark
+kanidm_tools
