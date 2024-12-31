@@ -17,3 +17,4 @@ foundationdb-gen
 winpty-rs
 holochain
 protox
+deno-bindgen2-cli
