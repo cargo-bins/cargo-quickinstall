@@ -4,3 +4,4 @@ ducc-sys
 foundationdb-gen
 stellar-strkey
 zuse
+opencv-binding-generator
