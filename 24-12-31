@@ -17,3 +17,4 @@ nexmark
 kanidm_tools
 pwasm-utils
 foundationdb-gen
+diesel_cli
