@@ -31,3 +31,4 @@ coreos-installer
 dotenv
 solana-net-utils
 foundationdb-gen
+winpty-rs
