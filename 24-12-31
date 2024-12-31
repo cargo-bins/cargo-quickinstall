@@ -16,3 +16,4 @@ cargo-about
 human_name
 spider_worker
 pwasm-utils
+foundationdb-gen
