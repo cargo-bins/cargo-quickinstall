@@ -11,3 +11,4 @@ diesel_cli
 opencv-binding-generator
 spider_cli
 cached-path
+deploy
