@@ -64,3 +64,4 @@ cargo-component
 metadata
 foundationdb-gen
 paru
+solana-gossip
