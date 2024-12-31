@@ -7,3 +7,4 @@ nkeys
 opencv-binding-generator
 diesel_cli
 termusic
+cached-path
