@@ -62,3 +62,4 @@ dotenv
 paru
 cargo-component
 metadata
+foundationdb-gen
