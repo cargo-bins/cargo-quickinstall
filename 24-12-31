@@ -5,3 +5,4 @@ ducc-sys
 ruff
 binstall
 nextsv
+sea-orm-cli
