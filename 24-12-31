@@ -26,3 +26,4 @@ coldsnap
 dotenv
 solana-gossip
 foundationdb-gen
+winpty-rs
