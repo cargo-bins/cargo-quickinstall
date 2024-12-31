@@ -15,3 +15,4 @@ benfred-read-process-memory
 pwasm-utils
 diesel_cli
 foundationdb-gen
+opencv-binding-generator
