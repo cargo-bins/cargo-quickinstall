@@ -28,3 +28,4 @@ dotenv
 foundationdb-gen
 solana-gossip
 winpty-rs
+holochain
