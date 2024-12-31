@@ -11,3 +11,4 @@ pwasm-utils
 diesel_cli
 foundationdb-gen
 solana-net-utils
+racer
