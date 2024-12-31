@@ -51,3 +51,4 @@ git-disjoint
 zee
 pwasm-utils
 foundationdb-gen
+diesel_cli
