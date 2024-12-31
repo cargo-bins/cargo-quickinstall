@@ -14,3 +14,4 @@ human_name
 benfred-read-process-memory
 pwasm-utils
 diesel_cli
+foundationdb-gen
