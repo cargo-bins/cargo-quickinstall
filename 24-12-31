@@ -62,3 +62,4 @@ solana-net-utils
 foundationdb-gen
 metadata
 paru
+winpty-rs
