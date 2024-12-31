@@ -10,3 +10,4 @@ cargo-spellcheck
 cargo-public-api
 stellar-strkey
 cargo-public-api
+cargo-dylint
