@@ -6,3 +6,4 @@ ruff
 binstall
 nextsv
 sea-orm-cli
+hurl
