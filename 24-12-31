@@ -10,3 +10,4 @@ diesel_cli
 git-mit
 cached-path
 cargo-tarpaulin
+git-mit-config
