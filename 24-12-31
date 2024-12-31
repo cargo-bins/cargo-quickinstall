@@ -26,3 +26,4 @@ git-mit-install
 racer
 dotenv
 foundationdb-gen
+solana-gossip
