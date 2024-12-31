@@ -16,3 +16,4 @@ foundationdb-gen
 diesel_cli
 opencv-binding-generator
 opencv-binding-generator
+solana-net-utils
