@@ -30,3 +30,4 @@ kanidm_tools
 coreos-installer
 dotenv
 solana-net-utils
+foundationdb-gen
