@@ -27,3 +27,4 @@ racer
 dotenv
 foundationdb-gen
 solana-gossip
+winpty-rs
