@@ -13,3 +13,4 @@ sea-orm-cli
 stellar-strkey
 python-project-generator
 cargo-public-api
+hurl
