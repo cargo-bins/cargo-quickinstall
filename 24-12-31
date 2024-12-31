@@ -8,3 +8,4 @@ nextsv
 sea-orm-cli
 hurl
 mdcat
+ruff
