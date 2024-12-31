@@ -13,3 +13,4 @@ oxipng
 spider_worker
 pwasm-utils
 foundationdb-gen
+diesel_cli
