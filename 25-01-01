@@ -6,3 +6,4 @@ mise
 probe-rs-tools
 mise
 opencv-binding-generator
+remove_dir_all
