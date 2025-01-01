@@ -12,3 +12,4 @@ cached-path
 human_bytes
 sha1collisiondetection
 solana-net-utils
+rustfmt
