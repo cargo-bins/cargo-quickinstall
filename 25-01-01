@@ -16,3 +16,4 @@ rustfmt
 tokio-process
 java-locator
 solana-genesis
+paperclip
