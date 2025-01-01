@@ -20,3 +20,4 @@ wmi
 java-locator
 paperclip
 cpp_demangle
+rls-rustc
