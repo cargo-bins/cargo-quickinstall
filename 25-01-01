@@ -26,3 +26,4 @@ tauri-cli
 rls-rustc
 borsh
 cargo-generate
+evcxr_repl
