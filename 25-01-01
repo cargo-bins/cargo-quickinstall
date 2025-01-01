@@ -1,3 +1,4 @@
 sea-orm-cli
 deploy
 opencv-binding-generator
+remove_dir_all
