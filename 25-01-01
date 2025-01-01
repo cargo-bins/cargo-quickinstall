@@ -4,3 +4,4 @@ cargo-generate
 pgrx-tests
 opencv-binding-generator
 remove_dir_all
+tendermint-rpc
