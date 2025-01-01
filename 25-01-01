@@ -25,3 +25,4 @@ cpp_demangle
 tauri-cli
 rls-rustc
 borsh
+cargo-generate
