@@ -12,3 +12,4 @@ winpty-rs
 laminar
 skim
 raw-cpuid
+cached-path
