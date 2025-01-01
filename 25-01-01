@@ -31,3 +31,4 @@ simple-http-server
 cargo-component
 rioterm
 glimpse
+human_bytes
