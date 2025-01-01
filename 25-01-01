@@ -10,3 +10,4 @@ remove_dir_all
 tendermint-rpc
 winpty-rs
 laminar
+skim
