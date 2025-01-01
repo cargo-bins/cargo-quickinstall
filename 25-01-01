@@ -58,3 +58,4 @@ paperclip
 simple-http-server
 spider_worker
 spotify_player
+cpp_demangle
