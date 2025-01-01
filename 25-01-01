@@ -13,3 +13,4 @@ deno-bindgen2-cli
 sshx
 lopxy
 shlf
+tendermint-rpc
