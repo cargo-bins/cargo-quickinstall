@@ -8,3 +8,4 @@ tendermint-rpc
 laminar
 skim
 raw-cpuid
+cached-path
