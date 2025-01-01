@@ -16,3 +16,4 @@ wmi
 java-locator
 paperclip
 spider_worker
+cpp_demangle
