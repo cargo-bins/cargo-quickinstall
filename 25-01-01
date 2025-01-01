@@ -32,3 +32,4 @@ cargo-pgrx
 wmi
 java-locator
 paperclip
+cpp_demangle
