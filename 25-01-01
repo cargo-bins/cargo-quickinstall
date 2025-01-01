@@ -6,3 +6,4 @@ tendermint-rpc
 laminar
 raw-cpuid
 cached-path
+human_bytes
