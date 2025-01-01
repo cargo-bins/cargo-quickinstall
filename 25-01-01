@@ -8,3 +8,4 @@ remove_dir_all
 lopxy
 deno-bindgen2-cli
 lopxy
+tendermint-rpc
