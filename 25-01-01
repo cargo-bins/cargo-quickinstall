@@ -9,3 +9,4 @@ opencv-binding-generator
 remove_dir_all
 tendermint-rpc
 laminar
+raw-cpuid
