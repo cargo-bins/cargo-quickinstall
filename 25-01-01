@@ -20,3 +20,4 @@ solana-genesis
 paperclip
 cpp_demangle
 logtail
+rls-rustc
