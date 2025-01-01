@@ -17,3 +17,4 @@ tokio-process
 java-locator
 solana-genesis
 paperclip
+cpp_demangle
