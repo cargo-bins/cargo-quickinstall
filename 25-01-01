@@ -2,3 +2,4 @@ sea-orm-cli
 deploy
 sqlx-cli
 cargo-generate
+pgrx-tests
