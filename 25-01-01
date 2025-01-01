@@ -22,3 +22,4 @@ rls-rustc
 borsh
 rav1e
 rustbus
+cargo-generate
