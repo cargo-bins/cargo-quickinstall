@@ -19,3 +19,4 @@ solana-genesis
 paperclip
 spider_worker
 cpp_demangle
+tauri-cli
