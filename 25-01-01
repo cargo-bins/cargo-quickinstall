@@ -9,3 +9,4 @@ mdbook-plantuml
 tree-sitter-cli
 deno
 redoxer
+simple-http-server
