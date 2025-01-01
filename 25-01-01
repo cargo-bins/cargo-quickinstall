@@ -62,3 +62,4 @@ cpp_demangle
 mdcat
 get-blessed
 rls-rustc
+borsh
