@@ -46,3 +46,4 @@ cargo-pgrx
 spotify_player
 deno
 glimpse
+foundationdb-gen
