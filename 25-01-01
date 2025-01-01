@@ -7,3 +7,4 @@ remove_dir_all
 tendermint-rpc
 laminar
 skim
+raw-cpuid
