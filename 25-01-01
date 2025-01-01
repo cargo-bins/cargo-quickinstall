@@ -3,3 +3,4 @@ sqlx-cli
 cargo-generate
 pgrx-tests
 opencv-binding-generator
+remove_dir_all
