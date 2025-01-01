@@ -19,3 +19,4 @@ solana-genesis
 paperclip
 cpp_demangle
 rls-rustc
+borsh
