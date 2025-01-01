@@ -27,3 +27,4 @@ paperclip
 spider_worker
 cpp_demangle
 rls-rustc
+starship
