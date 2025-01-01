@@ -20,3 +20,4 @@ paperclip
 spider_worker
 cpp_demangle
 tauri-cli
+rls-rustc
