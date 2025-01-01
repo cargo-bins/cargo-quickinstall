@@ -13,3 +13,4 @@ human_bytes
 sha1collisiondetection
 solana-net-utils
 rustfmt
+tokio-process
