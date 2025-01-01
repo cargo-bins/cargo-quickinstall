@@ -40,3 +40,4 @@ cargo-list
 rioterm
 sha1collisiondetection
 intentrace
+cargo-ui
