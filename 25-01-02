@@ -2,3 +2,4 @@ dotenv
 cargo-ui
 mdcat
 cargo-pgrx
+tree-sitter-cli
