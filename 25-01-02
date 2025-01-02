@@ -26,3 +26,4 @@ winpty-rs
 sqlx-cli
 dua-cli
 holochain
+parquet
