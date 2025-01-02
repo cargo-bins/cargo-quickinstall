@@ -21,3 +21,4 @@ solana-stake-accounts
 mit-prepare-commit-msg
 java-locator
 cargo-c
+mit-pre-commit
