@@ -3,3 +3,4 @@ cargo-pgrx
 dioxus-cli
 socketcan
 pandora_box
+solana-faucet
