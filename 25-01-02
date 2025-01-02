@@ -7,3 +7,4 @@ tree-sitter-cli
 sqlx-cli
 solana-faucet
 stellar-xdr
+minicbor
