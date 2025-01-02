@@ -8,3 +8,4 @@ minicbor
 arrow-flight
 dotenv
 nextest-filtering
+winpty-rs
