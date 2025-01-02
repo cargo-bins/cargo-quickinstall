@@ -9,3 +9,4 @@ sqlx-cli
 solana-faucet
 stellar-xdr
 minicbor
+arrow-flight
