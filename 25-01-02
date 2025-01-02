@@ -10,3 +10,4 @@ stellar-xdr
 minicbor
 arrow-flight
 dotenv
+cargo-codspeed
