@@ -52,3 +52,4 @@ graphql_client_cli
 solana-stake-accounts
 cargo-flash
 java-locator
+clipboard-history
