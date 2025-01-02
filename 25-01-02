@@ -46,3 +46,4 @@ xbuild
 solana-ledger-tool
 cargo-smart-release
 virtiofsd
+cargo-flash
