@@ -12,3 +12,4 @@ arrow-flight
 dotenv
 cargo-codspeed
 nextest-filtering
+winpty-rs
