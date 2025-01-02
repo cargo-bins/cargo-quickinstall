@@ -26,3 +26,4 @@ deno
 nextest-filtering
 cargo-smart-release
 cargo-public-api
+winpty-rs
