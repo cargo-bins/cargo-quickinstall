@@ -16,3 +16,4 @@ get-blessed
 sea-orm-cli
 zr
 cargo-list
+cargo-pgrx
