@@ -16,3 +16,4 @@ arrow-flight
 mdcat
 dotenv
 rustic-rs
+nextest-filtering
