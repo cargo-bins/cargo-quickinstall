@@ -14,3 +14,4 @@ dotenv
 cargo-codspeed
 nextest-filtering
 winpty-rs
+holochain
