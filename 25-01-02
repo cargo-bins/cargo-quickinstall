@@ -16,3 +16,4 @@ graphql_client_cli
 stellar-xdr
 sniffnet
 minicbor
+arrow-flight
