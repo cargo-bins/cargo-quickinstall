@@ -2,3 +2,4 @@ dotenv
 mit-commit-msg
 cargo-pgrx
 solana-cli
+unic-langid-impl
