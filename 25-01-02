@@ -2,3 +2,4 @@ dotenv
 cargo-pgrx
 solana-cli
 tree-sitter-cli
+solana-faucet
