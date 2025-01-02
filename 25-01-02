@@ -18,3 +18,4 @@ dotenv
 rustic-rs
 nextest-filtering
 rustic-rs
+winpty-rs
