@@ -10,3 +10,4 @@ dotenv
 nextest-filtering
 winpty-rs
 parquet
+nexmark
