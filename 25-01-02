@@ -49,3 +49,4 @@ virtiofsd
 cargo-flash
 bluetui
 clipboard-history
+cargo-info
