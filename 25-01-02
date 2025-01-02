@@ -19,3 +19,4 @@ rustic-rs
 nextest-filtering
 rustic-rs
 winpty-rs
+diesel_cli
