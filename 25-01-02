@@ -24,3 +24,4 @@ deno
 arrow-flight
 sea-orm-cli
 cargo-ui
+dotenv
