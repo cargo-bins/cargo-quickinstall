@@ -2,3 +2,4 @@ dotenv
 mit-commit-msg
 cargo-pgrx
 socketcan
+solana-cli
