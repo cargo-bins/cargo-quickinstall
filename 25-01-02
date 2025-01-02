@@ -19,3 +19,4 @@ cargo-list
 cargo-pgrx
 mdbook-plantuml
 stellar-xdr
+minicbor
