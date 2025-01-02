@@ -20,3 +20,4 @@ java-locator
 tree-sitter-cli
 cargo-c
 mit-pre-commit
+git-mit-relates-to
