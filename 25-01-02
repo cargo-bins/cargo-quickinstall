@@ -48,3 +48,4 @@ nexmark
 cargo-smart-release
 cargo-smart-release
 cargo-flash
+graphql_client_cli
