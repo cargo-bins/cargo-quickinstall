@@ -2,3 +2,4 @@ dotenv
 starship
 cargo-pgrx
 socketcan
+solana-cli
