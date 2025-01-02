@@ -9,3 +9,4 @@ graphql_client_cli
 mise
 tree-sitter-cli
 cargo-dylint
+solana-faucet
