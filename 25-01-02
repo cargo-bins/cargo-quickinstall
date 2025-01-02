@@ -5,3 +5,4 @@ rmesg
 ec2_instance_metadata
 solana-cli
 sqlx-cli
+pandora_box
