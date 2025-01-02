@@ -9,3 +9,4 @@ solana-faucet
 stellar-xdr
 minicbor
 arrow-flight
+dotenv
