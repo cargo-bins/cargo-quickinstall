@@ -13,3 +13,4 @@ dotenv
 cargo-codspeed
 nextest-filtering
 winpty-rs
+human_name
