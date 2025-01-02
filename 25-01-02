@@ -25,3 +25,4 @@ holochain
 parquet
 ec2_instance_metadata
 solana-stake-accounts
+mit-prepare-commit-msg
