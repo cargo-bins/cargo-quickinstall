@@ -17,3 +17,4 @@ sea-orm-cli
 zr
 cargo-list
 cargo-pgrx
+mdbook-plantuml
