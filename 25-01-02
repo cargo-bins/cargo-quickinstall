@@ -2,3 +2,4 @@ dotenv
 cargo-pgrx
 dioxus-cli
 socketcan
+pandora_box
