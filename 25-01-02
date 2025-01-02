@@ -2,3 +2,4 @@ dotenv
 graphql_client_cli
 cargo-pgrx
 mise
+get-blessed
