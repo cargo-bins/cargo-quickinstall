@@ -34,3 +34,4 @@ cargo-public-api
 graphql_client_cli
 winpty-rs
 textplots
+cargo-info
