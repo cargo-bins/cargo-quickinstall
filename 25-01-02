@@ -6,3 +6,4 @@ solana-cli
 unic-langid-impl
 tree-sitter-cli
 sqlx-cli
+solana-faucet
