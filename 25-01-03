@@ -14,3 +14,4 @@ trusted-signing-cli
 cargo-dylint
 stgit
 virtiofsd
+solana-ledger-tool
