@@ -20,3 +20,4 @@ remove_dir_all
 nextest-filtering
 raw-cpuid
 unic-langid-impl
+textplots
