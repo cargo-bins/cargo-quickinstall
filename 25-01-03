@@ -46,3 +46,4 @@ ffs
 cargo-dylint
 bluetui
 dotenvy
+trusted-signing-cli
