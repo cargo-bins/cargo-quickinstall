@@ -11,3 +11,4 @@ remove_dir_all
 cargo-outdated
 raw-cpuid
 safe_network
+textplots
