@@ -5,3 +5,4 @@ sqlx-cli
 opencv-binding-generator
 stellar-strkey
 java-locator
+cargo-udeps
