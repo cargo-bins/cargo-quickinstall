@@ -16,3 +16,4 @@ java-locator
 shadowsocks-rust
 agave-ledger-tool
 laminar
+remove_dir_all
