@@ -6,3 +6,4 @@ sea-orm-cli
 cargo-info
 cargo-dylint
 spider_cli
+opencv-binding-generator
