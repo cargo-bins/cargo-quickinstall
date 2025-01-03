@@ -31,3 +31,4 @@ remove_dir_all
 sitemap2urllist
 virtiofsd
 porsmo
+graphql_client_cli
