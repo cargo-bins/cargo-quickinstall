@@ -5,3 +5,4 @@ sqlx-cli
 spider_cli
 opencv-binding-generator
 stellar-strkey
+libbpf-cargo
