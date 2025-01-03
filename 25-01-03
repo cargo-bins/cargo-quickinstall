@@ -28,3 +28,4 @@ cargo-info
 cargo-flash
 porsmo
 bluetui
+raw-cpuid
