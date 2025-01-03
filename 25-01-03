@@ -4,3 +4,4 @@ opencv-binding-generator
 stellar-strkey
 java-locator
 laminar
+remove_dir_all
