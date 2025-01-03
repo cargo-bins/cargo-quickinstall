@@ -10,3 +10,4 @@ opencv-binding-generator
 cargo-info
 mdcat
 stgit
+trusted-signing-cli
