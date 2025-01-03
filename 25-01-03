@@ -5,3 +5,4 @@ clipboard-history
 sea-orm-cli
 cargo-info
 cargo-dylint
+spider_cli
