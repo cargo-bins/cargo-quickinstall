@@ -22,3 +22,4 @@ laminar
 remove_dir_all
 safe_network
 raw-cpuid
+safe_network
