@@ -7,3 +7,4 @@ opencv-binding-generator
 kickstart
 gitnow
 stellar-strkey
+libbpf-cargo
