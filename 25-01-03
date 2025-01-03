@@ -9,3 +9,4 @@ java-locator
 rustfmt
 remove_dir_all
 raw-cpuid
+safe_network
