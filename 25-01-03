@@ -10,3 +10,4 @@ java-locator
 cargo-udeps
 laminar
 remove_dir_all
+cargo-outdated
