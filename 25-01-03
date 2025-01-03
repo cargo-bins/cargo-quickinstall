@@ -7,3 +7,4 @@ laminar
 remove_dir_all
 raw-cpuid
 unic-langid-impl
+espflash
