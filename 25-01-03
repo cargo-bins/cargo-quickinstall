@@ -10,3 +10,4 @@ stellar-strkey
 libbpf-cargo
 java-locator
 laminar
+remove_dir_all
