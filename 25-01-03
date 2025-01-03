@@ -11,3 +11,4 @@ cargo-info
 mdcat
 stgit
 trusted-signing-cli
+cargo-dylint
