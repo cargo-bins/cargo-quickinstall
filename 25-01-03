@@ -20,3 +20,4 @@ libbpf-cargo
 java-locator
 laminar
 remove_dir_all
+safe_network
