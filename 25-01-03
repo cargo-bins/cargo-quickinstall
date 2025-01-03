@@ -11,3 +11,4 @@ cargo-flash
 opencv-binding-generator
 cargo-flash
 virtiofsd
+trusted-signing-cli
