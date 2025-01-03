@@ -13,3 +13,4 @@ pgrx-tests
 papyrus_storage
 solana-cli
 deno
+dotenvy
