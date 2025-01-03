@@ -43,3 +43,4 @@ papyrus_storage
 sitemap2urllist
 solana-cli
 ffs
+cargo-dylint
