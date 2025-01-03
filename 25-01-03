@@ -13,3 +13,4 @@ remove_dir_all
 cargo-outdated
 espflash
 textplots
+pgrx-tests
