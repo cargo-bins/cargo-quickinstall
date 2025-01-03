@@ -9,3 +9,4 @@ libbpf-cargo
 java-locator
 cargo-udeps
 laminar
+remove_dir_all
