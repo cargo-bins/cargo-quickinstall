@@ -8,3 +8,4 @@ virtiofsd
 cargo-smart-release
 wiki-tui
 cargo-flash
+opencv-binding-generator
