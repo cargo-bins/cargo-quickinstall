@@ -7,3 +7,4 @@ opencv-binding-generator
 stellar-strkey
 libbpf-cargo
 java-locator
+cargo-udeps
