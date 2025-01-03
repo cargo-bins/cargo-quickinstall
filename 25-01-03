@@ -45,3 +45,4 @@ solana-cli
 ffs
 cargo-dylint
 bluetui
+dotenvy
