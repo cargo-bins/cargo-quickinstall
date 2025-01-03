@@ -12,3 +12,4 @@ cargo-outdated
 raw-cpuid
 safe_network
 textplots
+pgrx-tests
