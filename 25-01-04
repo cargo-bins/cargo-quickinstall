@@ -14,3 +14,4 @@ watchexec-cli
 cargo-udeps
 phf_generator
 dotenv
+solana-net-utils
