@@ -13,3 +13,4 @@ pwasm-utils
 watchexec-cli
 cargo-udeps
 phf_generator
+dotenv
