@@ -42,3 +42,4 @@ probe-rs-tools
 labt
 sniffglue
 archlinux-inputs-fsck
+cargo-list
