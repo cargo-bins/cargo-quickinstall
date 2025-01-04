@@ -19,3 +19,4 @@ dotenv
 solana-net-utils
 perfcnt
 sqlx-cli
+clippy
