@@ -13,3 +13,4 @@ h3o
 pwasm-utils
 zellij
 cargo-udeps
+phf_generator
