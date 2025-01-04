@@ -32,3 +32,4 @@ speedtest-rs
 binstall
 cargo-duplicates
 nvrs
+rkv
