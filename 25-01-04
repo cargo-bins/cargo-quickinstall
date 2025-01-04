@@ -14,3 +14,4 @@ sniffglue
 cpp_demangle
 sea-orm-cli
 cargo-dylint
+dedoc
