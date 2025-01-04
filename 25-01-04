@@ -3,3 +3,4 @@ trunk
 syd
 raw-cpuid
 cpp_demangle
+dotenv
