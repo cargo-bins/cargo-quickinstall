@@ -10,3 +10,4 @@ h3o
 sqlx-cli
 cargo-tarpaulin
 h3o
+pwasm-utils
