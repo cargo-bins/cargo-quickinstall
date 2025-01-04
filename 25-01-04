@@ -9,3 +9,4 @@ h3o
 pwasm-utils
 phf_generator
 kickstart
+dotenv
