@@ -8,3 +8,4 @@ dioxus-cli
 cpp_demangle
 oxipng
 dioxus-cli
+dotenv
