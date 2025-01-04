@@ -16,3 +16,4 @@ dioxus-cli
 pwasm-utils
 phf_generator
 dotenv
+clippy
