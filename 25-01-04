@@ -14,3 +14,4 @@ dioxus-cli
 h3o
 dioxus-cli
 pwasm-utils
+phf_generator
