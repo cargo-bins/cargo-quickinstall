@@ -38,3 +38,4 @@ h3o
 nvrs
 cargo-dylint
 pwasm-utils
+probe-rs-tools
