@@ -5,3 +5,4 @@ raw-cpuid
 cpp_demangle
 dotenv
 h3o
+dioxus-cli
