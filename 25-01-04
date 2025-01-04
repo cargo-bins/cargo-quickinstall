@@ -17,3 +17,4 @@ coldsnap
 httpbis
 dotenv
 solana-net-utils
+perfcnt
