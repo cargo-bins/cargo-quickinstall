@@ -57,3 +57,4 @@ archlinux-inputs-fsck
 cargo-list
 ffs
 hyprswitch
+cargo-duplicates
