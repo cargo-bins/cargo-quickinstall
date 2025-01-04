@@ -12,3 +12,4 @@ h3o
 pwasm-utils
 watchexec-cli
 cargo-udeps
+phf_generator
