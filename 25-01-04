@@ -3,3 +3,4 @@ socketcan
 pgrx-tests
 mise
 raw-cpuid
+dioxus-cli
