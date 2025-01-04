@@ -16,3 +16,4 @@ sea-orm-cli
 cargo-dylint
 dedoc
 skyspell
+sniffglue
