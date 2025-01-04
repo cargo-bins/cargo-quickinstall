@@ -11,3 +11,4 @@ sqlx-cli
 cargo-tarpaulin
 h3o
 pwasm-utils
+zellij
