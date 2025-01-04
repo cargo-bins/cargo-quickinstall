@@ -11,3 +11,4 @@ cargo-tarpaulin
 h3o
 pwasm-utils
 watchexec-cli
+cargo-udeps
