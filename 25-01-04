@@ -45,3 +45,4 @@ archlinux-inputs-fsck
 cargo-list
 cargo-spellcheck
 ffs
+sniffglue
