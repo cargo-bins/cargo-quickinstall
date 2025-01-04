@@ -17,3 +17,4 @@ phf_generator
 dotenv
 perfcnt
 sqlx-cli
+clippy
