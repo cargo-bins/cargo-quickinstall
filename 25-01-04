@@ -18,3 +18,4 @@ dotenv
 perfcnt
 sqlx-cli
 clippy
+nexmark
