@@ -8,3 +8,4 @@ git-mit-relates-to
 zellij
 h3o
 sqlx-cli
+cargo-tarpaulin
