@@ -2,3 +2,4 @@ socketcan
 pgrx-tests
 exa
 raw-cpuid
+cpp_demangle
