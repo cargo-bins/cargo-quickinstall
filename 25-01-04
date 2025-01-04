@@ -18,3 +18,4 @@ phf_generator
 dotenv
 clippy
 nexmark
+spider_cli
