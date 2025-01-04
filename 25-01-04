@@ -16,3 +16,4 @@ phf_generator
 coldsnap
 httpbis
 dotenv
+solana-net-utils
