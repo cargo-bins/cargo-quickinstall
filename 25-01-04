@@ -8,3 +8,4 @@ shadowsocks-rust
 syd
 raw-cpuid
 cpp_demangle
+dotenv
