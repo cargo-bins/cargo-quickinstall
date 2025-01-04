@@ -13,3 +13,4 @@ pwasm-utils
 phf_generator
 dotenv
 clippy
+nexmark
