@@ -40,3 +40,4 @@ cargo-dylint
 pwasm-utils
 probe-rs-tools
 labt
+sniffglue
