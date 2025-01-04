@@ -10,3 +10,4 @@ pwasm-utils
 phf_generator
 kickstart
 dotenv
+perfcnt
