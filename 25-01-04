@@ -12,3 +12,4 @@ h3o
 pwasm-utils
 phf_generator
 dotenv
+clippy
