@@ -12,3 +12,4 @@ shadowsocks-rust
 mdbook-plantuml
 nu_plugin_query
 trunk
+tree-sitter-cli
