@@ -24,3 +24,4 @@ diesel_cli
 nu_plugin_query
 typst-cli
 llql
+fls
