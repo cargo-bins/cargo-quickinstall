@@ -20,3 +20,4 @@ cargo-override
 stellar-xdr
 nkeys
 underdose
+arrow-flight
