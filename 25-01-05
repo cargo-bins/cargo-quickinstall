@@ -6,3 +6,4 @@ zuse
 solana-genesis
 sea-orm-cli
 sccache
+spider_worker
