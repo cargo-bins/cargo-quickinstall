@@ -27,3 +27,4 @@ rustrict
 cargo-override
 rav1e
 rkv
+clippy
