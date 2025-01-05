@@ -6,3 +6,4 @@ solana-genesis
 sea-orm-cli
 spider_worker
 human_name
+fake
