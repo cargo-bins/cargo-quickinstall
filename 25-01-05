@@ -28,3 +28,4 @@ cargo-override
 rav1e
 rkv
 clippy
+solana-net-utils
