@@ -39,3 +39,4 @@ cargo-profiler
 arrow-flight
 cargo-generate
 borsh
+cargo-profiler
