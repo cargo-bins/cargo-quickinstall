@@ -11,3 +11,4 @@ nu
 java-locator
 tendermint-rpc
 httpmock
+arrow-flight
