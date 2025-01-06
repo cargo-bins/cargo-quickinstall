@@ -14,3 +14,4 @@ solana-keygen
 git-mit
 socketcan
 tokio-process
+safe_network
