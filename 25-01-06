@@ -13,3 +13,4 @@ ducc-sys
 solana-keygen
 git-mit
 socketcan
+tokio-process
