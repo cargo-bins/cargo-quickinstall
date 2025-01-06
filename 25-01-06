@@ -11,3 +11,4 @@ av1an
 binstall
 java-locator
 tendermint-rpc
+httpmock
