@@ -2,3 +2,4 @@ papyrus_storage
 spider_worker
 wol-rs
 cargo-udeps
+tree-sitter-graph
