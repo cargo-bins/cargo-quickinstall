@@ -21,3 +21,4 @@ tendermint-rpc
 rustfmt-nightly
 pgrx-tests
 arrow-flight
+hurl
