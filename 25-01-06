@@ -65,3 +65,4 @@ tendermint-rpc
 httpmock
 sniffnet
 sniffnet
+pgrx-tests
