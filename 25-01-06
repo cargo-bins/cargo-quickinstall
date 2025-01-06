@@ -25,3 +25,4 @@ git-mit
 diesel_cli
 socketcan
 cargo-generate
+safe_network
