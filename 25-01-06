@@ -16,3 +16,4 @@ tendermint-rpc
 httpmock
 cargo-about
 pgrx-tests
+arrow-flight
