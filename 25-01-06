@@ -10,3 +10,4 @@ safe_network
 nu
 java-locator
 tendermint-rpc
+httpmock
