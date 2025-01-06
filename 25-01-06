@@ -13,3 +13,4 @@ java-locator
 tendermint-rpc
 httpmock
 cargo-about
+arrow-flight
