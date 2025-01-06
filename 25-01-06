@@ -42,3 +42,4 @@ cargo-public-api
 tod
 shadowsocks-rust
 solana-keygen
+socketcan
