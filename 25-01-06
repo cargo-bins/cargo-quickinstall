@@ -16,3 +16,4 @@ socketcan
 tokio-process
 safe_network
 rustbus
+java-locator
