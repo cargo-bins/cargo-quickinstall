@@ -63,3 +63,4 @@ fselect
 xbuild
 tendermint-rpc
 httpmock
+sniffnet
