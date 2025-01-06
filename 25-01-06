@@ -6,3 +6,4 @@ rustbus
 pandora_box
 text-diff
 skim
+socketcan
