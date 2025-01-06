@@ -27,3 +27,4 @@ cargo-spellcheck
 pcu
 pcu
 xbuild
+ruff
