@@ -4,3 +4,4 @@ cargo-udeps
 tree-sitter-graph
 socketcan
 zellij
+ducc-sys
