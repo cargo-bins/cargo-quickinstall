@@ -37,3 +37,4 @@ cargo-profiler
 pgrx-tests
 cargo-profiler
 arrow-flight
+cargo-generate
