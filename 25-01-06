@@ -19,3 +19,4 @@ av1an
 java-locator
 tendermint-rpc
 rustfmt-nightly
+pgrx-tests
