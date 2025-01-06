@@ -1,3 +1,4 @@
 deno
 spider_worker
 cargo-udeps
+tree-sitter-graph
