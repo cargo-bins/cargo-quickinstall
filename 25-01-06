@@ -26,3 +26,4 @@ diesel_cli
 socketcan
 cargo-generate
 safe_network
+solana-tokens
