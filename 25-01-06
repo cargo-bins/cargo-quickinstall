@@ -27,3 +27,4 @@ socketcan
 cargo-generate
 safe_network
 solana-tokens
+rustbus
