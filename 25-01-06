@@ -30,3 +30,4 @@ solana-tokens
 rustbus
 java-locator
 httpmock
+cargo-profiler
