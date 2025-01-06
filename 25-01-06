@@ -41,3 +41,4 @@ cargo-generate
 borsh
 cargo-profiler
 mit-prepare-commit-msg
+cargo-generate
