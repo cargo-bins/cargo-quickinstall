@@ -19,3 +19,4 @@ rustbus
 java-locator
 tendermint-rpc
 pgrx-tests
+arrow-flight
