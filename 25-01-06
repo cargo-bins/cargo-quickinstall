@@ -18,3 +18,4 @@ safe_network
 rustbus
 java-locator
 tendermint-rpc
+pgrx-tests
