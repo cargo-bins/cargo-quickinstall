@@ -14,3 +14,4 @@ tendermint-rpc
 httpmock
 av1an
 pgrx-tests
+arrow-flight
