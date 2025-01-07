@@ -4,3 +4,4 @@ remove_dir_all
 trunk
 ducc-sys
 cargo-generate
+java-locator
