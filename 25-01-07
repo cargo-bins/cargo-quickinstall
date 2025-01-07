@@ -22,3 +22,4 @@ deploy
 solana-stake-accounts
 pandora_box
 laminar
+tendermint-abci
