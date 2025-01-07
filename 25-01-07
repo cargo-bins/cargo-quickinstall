@@ -30,3 +30,4 @@ sniffnet
 sniffnet
 diesel_cli
 dbus-codegen
+rustfmt-nightly
