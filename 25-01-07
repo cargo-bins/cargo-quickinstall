@@ -10,3 +10,4 @@ spider_cli
 diesel_cli
 dbus-codegen
 yozefu
+rustfmt-nightly
