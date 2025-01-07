@@ -11,3 +11,4 @@ diesel_cli
 dbus-codegen
 yozefu
 rustfmt-nightly
+wiki-tui
