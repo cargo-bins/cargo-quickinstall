@@ -34,3 +34,4 @@ rustfmt-nightly
 raw-cpuid
 pwasm-utils
 sniffnet
+tendermint-abci
