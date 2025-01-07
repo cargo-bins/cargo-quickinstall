@@ -10,3 +10,4 @@ dbus-codegen
 rustfmt-nightly
 raw-cpuid
 pwasm-utils
+tendermint-abci
