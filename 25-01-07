@@ -4,3 +4,4 @@ tree-sitter-graph
 remove_dir_all
 borsh
 trunk
+tauri-cli
