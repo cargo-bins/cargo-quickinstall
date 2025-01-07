@@ -8,3 +8,4 @@ remove_dir_all
 borsh
 trunk
 rustfmt-nightly
+ducc-sys
