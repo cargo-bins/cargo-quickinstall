@@ -5,3 +5,4 @@ tree-sitter-graph
 remove_dir_all
 borsh
 ducc-sys
+java-locator
