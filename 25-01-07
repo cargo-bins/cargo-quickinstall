@@ -22,3 +22,4 @@ tendermint-abci
 watchexec-cli
 phf_generator
 watchexec-cli
+cargo-udeps
