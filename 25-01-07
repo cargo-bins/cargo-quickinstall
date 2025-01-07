@@ -14,3 +14,4 @@ raw-cpuid
 pwasm-utils
 tendermint-abci
 pandora_box
+phf_generator
