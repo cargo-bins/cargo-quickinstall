@@ -20,3 +20,4 @@ pwasm-utils
 addr2line
 tendermint-abci
 watchexec-cli
+phf_generator
