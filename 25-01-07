@@ -9,3 +9,4 @@ borsh
 trunk
 rustfmt-nightly
 ducc-sys
+hurl
