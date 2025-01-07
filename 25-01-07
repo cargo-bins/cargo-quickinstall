@@ -12,3 +12,4 @@ raw-cpuid
 pwasm-utils
 tendermint-abci
 phf_generator
+deploy
