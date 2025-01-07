@@ -5,3 +5,4 @@ remove_dir_all
 borsh
 trunk
 tauri-cli
+ducc-sys
