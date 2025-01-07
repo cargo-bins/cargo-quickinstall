@@ -13,3 +13,4 @@ rustfmt-nightly
 raw-cpuid
 pwasm-utils
 tendermint-abci
+pandora_box
