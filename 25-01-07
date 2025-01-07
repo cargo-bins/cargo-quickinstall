@@ -16,3 +16,4 @@ mit-commit-msg
 diesel_cli
 dbus-codegen
 rustfmt-nightly
+raw-cpuid
