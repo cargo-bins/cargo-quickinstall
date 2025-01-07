@@ -6,3 +6,4 @@ xbuild
 tree-sitter-graph
 cargo-public-api
 lumen
+cargo-dylint
