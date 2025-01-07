@@ -27,3 +27,4 @@ tectonic
 cargo-risczero
 zellij
 binstall
+rustfmt-nightly
