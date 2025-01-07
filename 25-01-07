@@ -36,3 +36,4 @@ porsmo
 tendermint-abci
 nu_plugin_query
 cargo-list
+phf_generator
