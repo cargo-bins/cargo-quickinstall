@@ -1,3 +1,4 @@
 nexmark
 evcxr_repl
 tree-sitter-graph
+remove_dir_all
