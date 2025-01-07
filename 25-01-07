@@ -25,3 +25,4 @@ watchexec-cli
 cargo-udeps
 solana-stake-accounts
 laminar
+paperclip
