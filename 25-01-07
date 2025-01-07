@@ -29,3 +29,4 @@ rustfmt-nightly
 ansee
 cargo-list
 raw-cpuid
+pwasm-utils
