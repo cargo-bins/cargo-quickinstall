@@ -27,3 +27,4 @@ dbus-codegen
 neovide
 rustfmt-nightly
 ansee
+cargo-list
