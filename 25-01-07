@@ -24,3 +24,4 @@ phf_generator
 watchexec-cli
 cargo-udeps
 solana-stake-accounts
+laminar
