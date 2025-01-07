@@ -33,3 +33,4 @@ raw-cpuid
 tectonic
 cargo-risczero
 pwasm-utils
+addr2line
