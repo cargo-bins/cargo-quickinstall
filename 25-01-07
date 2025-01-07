@@ -31,3 +31,4 @@ rustfmt-nightly
 tectonic
 raw-cpuid
 tectonic
+cargo-risczero
