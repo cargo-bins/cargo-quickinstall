@@ -7,3 +7,4 @@ av1an
 remove_dir_all
 borsh
 trunk
+rustfmt-nightly
