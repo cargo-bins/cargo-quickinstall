@@ -6,3 +6,4 @@ borsh
 trunk
 tauri-cli
 ducc-sys
+cargo-generate
