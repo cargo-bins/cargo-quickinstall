@@ -20,3 +20,4 @@ av1an
 diesel_cli
 dbus-codegen
 raw-cpuid
+pwasm-utils
