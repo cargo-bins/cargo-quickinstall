@@ -25,3 +25,4 @@ addr2line
 tendermint-abci
 anda
 pandora_box
+phf_generator
