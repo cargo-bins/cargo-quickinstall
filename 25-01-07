@@ -21,3 +21,4 @@ diesel_cli
 dbus-codegen
 raw-cpuid
 pwasm-utils
+addr2line
