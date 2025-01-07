@@ -35,3 +35,4 @@ cargo-risczero
 pwasm-utils
 addr2line
 tendermint-abci
+binsider
