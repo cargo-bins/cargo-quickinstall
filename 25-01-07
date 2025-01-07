@@ -51,3 +51,4 @@ dadk
 sea-orm-cli
 paperclip
 tendermint-abci
+cargo-override
