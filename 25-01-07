@@ -8,3 +8,4 @@ redoxer
 tree-sitter-graph
 i3status-rs
 cargo-dylint
+cargo-public-api
