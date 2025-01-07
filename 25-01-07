@@ -14,3 +14,4 @@ diesel_cli
 dbus-codegen
 zellij
 rustfmt-nightly
+raw-cpuid
