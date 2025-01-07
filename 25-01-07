@@ -11,3 +11,4 @@ text-diff
 mit-commit-msg
 diesel_cli
 dbus-codegen
+rustfmt-nightly
