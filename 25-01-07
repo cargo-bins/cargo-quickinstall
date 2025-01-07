@@ -34,3 +34,4 @@ dadk
 addr2line
 porsmo
 tendermint-abci
+nu_plugin_query
