@@ -7,3 +7,4 @@ cargo-generate
 java-locator
 h3o
 zellij
+text-diff
