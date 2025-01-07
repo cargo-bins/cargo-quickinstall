@@ -24,3 +24,4 @@ phf_generator
 cargo-udeps
 solana-stake-accounts
 laminar
+paperclip
