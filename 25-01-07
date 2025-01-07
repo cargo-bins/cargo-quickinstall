@@ -45,3 +45,4 @@ phf_generator
 cargo-override
 pest_debugger
 cargo-override
+solana-stake-accounts
