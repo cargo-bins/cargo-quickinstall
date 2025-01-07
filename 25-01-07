@@ -18,3 +18,4 @@ raw-cpuid
 mit-prepare-commit-msg
 pwasm-utils
 addr2line
+tendermint-abci
