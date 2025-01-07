@@ -48,3 +48,4 @@ cargo-override
 solana-stake-accounts
 laminar
 dadk
+sea-orm-cli
