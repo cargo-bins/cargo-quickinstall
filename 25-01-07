@@ -9,3 +9,4 @@ ducc-sys
 cargo-generate
 solana-tokens
 cargo-udeps
+java-locator
