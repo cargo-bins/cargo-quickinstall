@@ -13,3 +13,4 @@ pwasm-utils
 tendermint-abci
 phf_generator
 deploy
+solana-stake-accounts
