@@ -33,3 +33,4 @@ pwasm-utils
 dadk
 addr2line
 porsmo
+tendermint-abci
