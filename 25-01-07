@@ -18,3 +18,4 @@ dbus-codegen
 rustfmt-nightly
 raw-cpuid
 mit-prepare-commit-msg
+pwasm-utils
