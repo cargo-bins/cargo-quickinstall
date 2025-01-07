@@ -28,3 +28,4 @@ neovide
 rustfmt-nightly
 ansee
 cargo-list
+raw-cpuid
