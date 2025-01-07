@@ -5,3 +5,4 @@ rustfmt-nightly
 tree-sitter-graph
 av1an
 remove_dir_all
+borsh
