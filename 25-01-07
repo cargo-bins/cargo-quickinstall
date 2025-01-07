@@ -31,3 +31,4 @@ cargo-list
 raw-cpuid
 pwasm-utils
 dadk
+addr2line
