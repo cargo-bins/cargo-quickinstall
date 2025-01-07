@@ -10,3 +10,4 @@ i3status-rs
 cargo-dylint
 cargo-public-api
 remove_dir_all
+i3status-rs
