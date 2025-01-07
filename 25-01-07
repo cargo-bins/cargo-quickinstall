@@ -29,3 +29,4 @@ zellij
 binstall
 rustfmt-nightly
 tectonic
+raw-cpuid
