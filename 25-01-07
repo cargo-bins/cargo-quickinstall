@@ -12,3 +12,4 @@ cargo-public-api
 remove_dir_all
 i3status-rs
 mdcat
+trunk
