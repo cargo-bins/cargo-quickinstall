@@ -16,3 +16,4 @@ pcu
 trunk
 lumen
 ducc-sys
+sea-orm-cli
