@@ -19,3 +19,4 @@ rustfmt-nightly
 raw-cpuid
 mit-prepare-commit-msg
 pwasm-utils
+tendermint-abci
