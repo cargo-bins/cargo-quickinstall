@@ -43,3 +43,4 @@ sniffnet
 dadk
 phf_generator
 cargo-override
+pest_debugger
