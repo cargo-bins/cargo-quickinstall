@@ -8,3 +8,4 @@ spider_cli
 diesel_cli
 dbus-codegen
 rustfmt-nightly
+raw-cpuid
