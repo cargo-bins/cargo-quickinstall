@@ -32,3 +32,4 @@ tectonic
 raw-cpuid
 tectonic
 cargo-risczero
+pwasm-utils
