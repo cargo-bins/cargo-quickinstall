@@ -20,3 +20,4 @@ raw-cpuid
 mit-prepare-commit-msg
 pwasm-utils
 tendermint-abci
+phf_generator
