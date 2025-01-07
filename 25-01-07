@@ -15,3 +15,4 @@ dbus-codegen
 zellij
 rustfmt-nightly
 raw-cpuid
+mit-prepare-commit-msg
