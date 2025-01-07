@@ -18,3 +18,4 @@ pwasm-utils
 tendermint-abci
 pandora_box
 phf_generator
+deploy
