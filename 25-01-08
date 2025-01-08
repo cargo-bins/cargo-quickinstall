@@ -2,3 +2,4 @@ ruff
 neovide
 cargo-mobile2
 tree-sitter-cli
+wiki-tui
