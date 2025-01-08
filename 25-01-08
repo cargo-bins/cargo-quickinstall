@@ -7,3 +7,4 @@ nu
 unic-langid-impl
 tendermint-rpc
 tendermint-rpc
+opencv-binding-generator
