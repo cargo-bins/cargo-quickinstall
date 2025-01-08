@@ -46,3 +46,4 @@ cargo-mobile2
 dbus-codegen
 ruff
 nu_plugin_plotters
+reshader
