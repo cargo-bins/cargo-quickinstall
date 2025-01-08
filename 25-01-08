@@ -29,3 +29,4 @@ cargo-override
 dbus-codegen
 gitnow
 mdcat
+crates-tui
