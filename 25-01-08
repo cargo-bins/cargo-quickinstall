@@ -17,3 +17,4 @@ rusty_ytdl-cli
 wol-rs
 cached-path
 rusty_ytdl-cli
+libbpf-cargo
