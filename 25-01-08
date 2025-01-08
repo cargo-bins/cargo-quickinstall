@@ -8,3 +8,4 @@ git-mit-config
 sccache
 tendermint-rpc
 opencv-binding-generator
+deno
