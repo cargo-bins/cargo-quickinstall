@@ -18,3 +18,4 @@ evcxr_repl
 sccache
 rrule
 espflash
+cargo-outdated
