@@ -14,3 +14,4 @@ opencv-binding-generator
 deno
 wol-rs
 stellar-strkey
+evcxr_repl
