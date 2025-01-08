@@ -38,3 +38,4 @@ deno
 cargo-override
 alacritty
 dbus-codegen
+crates-tui
