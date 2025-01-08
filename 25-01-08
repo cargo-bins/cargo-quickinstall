@@ -19,3 +19,4 @@ sccache
 rrule
 espflash
 cargo-outdated
+socketcan
