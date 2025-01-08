@@ -15,3 +15,4 @@ deno
 wol-rs
 stellar-strkey
 evcxr_repl
+sccache
