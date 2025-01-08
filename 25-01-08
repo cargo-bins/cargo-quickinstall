@@ -16,3 +16,4 @@ evcxr_repl
 sccache
 rrule
 cargo-outdated
+socketcan
