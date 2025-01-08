@@ -37,3 +37,4 @@ stgit
 deno
 cargo-override
 alacritty
+dbus-codegen
