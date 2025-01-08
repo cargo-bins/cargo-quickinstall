@@ -37,3 +37,4 @@ ruff
 dbus-codegen
 gitnow
 cached-path
+crates-tui
