@@ -13,3 +13,4 @@ tendermint-rpc
 wol-rs
 cached-path
 rrule
+socketcan
