@@ -5,3 +5,4 @@ tree-sitter-cli
 wiki-tui
 tree-sitter-cli
 nextest-filtering
+pest_debugger
