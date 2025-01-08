@@ -12,3 +12,4 @@ deno
 wol-rs
 stellar-strkey
 libbpf-cargo
+evcxr_repl
