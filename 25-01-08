@@ -40,3 +40,4 @@ alacritty
 dbus-codegen
 crates-tui
 wol-rs
+ruff
