@@ -13,3 +13,4 @@ tendermint-rpc
 wol-rs
 exa
 rrule
+socketcan
