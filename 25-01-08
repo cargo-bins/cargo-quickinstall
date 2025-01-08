@@ -25,3 +25,4 @@ dbus-codegen
 gitnow
 crates-tui
 ruff
+cargo-override
