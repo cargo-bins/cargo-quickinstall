@@ -4,3 +4,4 @@ cargo-mobile2
 tree-sitter-cli
 wiki-tui
 tree-sitter-cli
+nextest-filtering
