@@ -33,3 +33,4 @@ crates-tui
 cargo-mobile2
 tendermint-rpc
 opencv-binding-generator
+stgit
