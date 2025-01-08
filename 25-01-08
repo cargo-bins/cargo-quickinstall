@@ -20,3 +20,4 @@ rusty_ytdl-cli
 libbpf-cargo
 rrule
 socketcan
+httpmock
