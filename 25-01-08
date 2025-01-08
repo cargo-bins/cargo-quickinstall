@@ -9,3 +9,4 @@ sccache
 tendermint-rpc
 opencv-binding-generator
 deno
+wol-rs
