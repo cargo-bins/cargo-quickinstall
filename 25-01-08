@@ -36,3 +36,4 @@ nu_plugin_plotters
 ruff
 dbus-codegen
 gitnow
+cached-path
