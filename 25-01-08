@@ -27,3 +27,4 @@ crates-tui
 ruff
 cargo-override
 dbus-codegen
+gitnow
