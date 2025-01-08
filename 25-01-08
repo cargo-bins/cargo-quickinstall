@@ -11,3 +11,4 @@ opencv-binding-generator
 deno
 wol-rs
 stellar-strkey
+libbpf-cargo
