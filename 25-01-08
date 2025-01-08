@@ -50,3 +50,4 @@ manga-tui
 crates-tui
 socketcan
 mise
+httpmock
