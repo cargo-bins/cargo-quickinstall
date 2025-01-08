@@ -28,3 +28,4 @@ opencv-binding-generator
 stgit
 deno
 tree-sitter-cli
+dbus-codegen
