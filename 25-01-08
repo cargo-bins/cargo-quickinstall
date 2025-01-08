@@ -16,3 +16,4 @@ tendermint-rpc
 wol-rs
 nextsv
 sshx
+cached-path
