@@ -14,3 +14,4 @@ opencv-binding-generator
 deno
 tendermint-rpc
 wol-rs
+nextsv
