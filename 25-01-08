@@ -10,3 +10,4 @@ opencv-binding-generator
 mise
 deno
 tendermint-rpc
+wol-rs
