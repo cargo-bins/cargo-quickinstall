@@ -8,3 +8,4 @@ nextest-filtering
 pest_debugger
 nextest-filtering
 cargo-mobile2
+unic-langid-impl
