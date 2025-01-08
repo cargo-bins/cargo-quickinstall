@@ -32,3 +32,4 @@ dbus-codegen
 perseus-cli
 cargo-mobile2
 wol-rs
+nu_plugin_plotters
