@@ -20,3 +20,4 @@ r3bl-cmdr
 gitnow
 cargo-override
 ruff
+pest_debugger
