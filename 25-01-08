@@ -14,3 +14,4 @@ wol-rs
 exa
 rrule
 socketcan
+httpmock
