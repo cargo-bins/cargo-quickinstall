@@ -43,3 +43,4 @@ wol-rs
 ruff
 deno
 cargo-mobile2
+dbus-codegen
