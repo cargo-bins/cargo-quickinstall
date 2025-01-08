@@ -51,3 +51,4 @@ crates-tui
 socketcan
 mise
 httpmock
+stgit
