@@ -27,3 +27,4 @@ tendermint-rpc
 opencv-binding-generator
 stgit
 deno
+tree-sitter-cli
