@@ -41,3 +41,4 @@ dbus-codegen
 crates-tui
 wol-rs
 ruff
+deno
