@@ -28,3 +28,4 @@ ruff
 cargo-override
 dbus-codegen
 gitnow
+mdcat
