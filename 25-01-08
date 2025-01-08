@@ -31,3 +31,4 @@ tree-sitter-cli
 dbus-codegen
 perseus-cli
 cargo-mobile2
+wol-rs
