@@ -17,3 +17,4 @@ cargo-about
 cargo-c
 sea-orm-cli
 git-mit-install
+spider_worker
