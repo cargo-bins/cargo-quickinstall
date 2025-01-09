@@ -19,3 +19,4 @@ maelstrom-pytest
 maelstrom-pytest
 human_bytes
 stellar-strkey
+tendermint-abci
