@@ -15,3 +15,4 @@ cargo-vet
 laminar
 opencv-binding-generator
 human_bytes
+cargo-risczero
