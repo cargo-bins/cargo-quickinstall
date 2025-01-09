@@ -4,3 +4,4 @@ nextest-filtering
 librespot
 git-mit
 nu
+sqlx-cli
