@@ -14,3 +14,4 @@ cargo-vet
 cargo-vet
 laminar
 opencv-binding-generator
+human_bytes
