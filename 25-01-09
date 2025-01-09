@@ -21,3 +21,4 @@ human_bytes
 hurl
 py-spy
 sea-orm-cli
+parquet
