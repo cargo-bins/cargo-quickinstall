@@ -5,3 +5,4 @@ nextest-filtering
 git-mit
 sn_node
 sqlx-cli
+solana-gossip
