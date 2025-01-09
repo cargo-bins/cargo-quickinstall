@@ -11,3 +11,4 @@ perseus-cli
 nu_plugin_plotters
 cargo-smart-release
 nextest-filtering
+raw-cpuid
