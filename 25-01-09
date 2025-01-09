@@ -13,3 +13,4 @@ py-spy
 sea-orm-cli
 opencv-binding-generator
 laminar
+human_bytes
