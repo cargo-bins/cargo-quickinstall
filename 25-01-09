@@ -43,3 +43,4 @@ odbc2parquet
 sea-orm-cli
 cargo-smart-release
 mise
+cargo-smart-release
