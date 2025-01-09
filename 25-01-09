@@ -41,3 +41,4 @@ sea-orm-cli
 termusix
 odbc2parquet
 sea-orm-cli
+cargo-smart-release
