@@ -6,3 +6,4 @@ dotenvy
 nextest-filtering
 sqlx-cli
 git-mit
+solana-gossip
