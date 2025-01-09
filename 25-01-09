@@ -21,3 +21,4 @@ maelstrom-pytest
 opencv-binding-generator
 human_bytes
 forgejo-cli
+stellar-strkey
