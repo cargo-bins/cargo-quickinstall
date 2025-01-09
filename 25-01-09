@@ -13,3 +13,4 @@ cargo-smart-release
 nextest-filtering
 raw-cpuid
 easytier
+mdcat
