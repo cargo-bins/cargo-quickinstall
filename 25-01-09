@@ -2,3 +2,4 @@ cpp_demangle
 foundationdb-gen
 clippy
 dotenvy
+nextest-filtering
