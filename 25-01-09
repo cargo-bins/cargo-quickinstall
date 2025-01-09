@@ -10,3 +10,4 @@ nu
 sqlx-cli
 solana-gossip
 remove_dir_all
+human_bytes
