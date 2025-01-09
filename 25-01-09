@@ -3,3 +3,4 @@ foundationdb-gen
 clippy
 dotenvy
 nextest-filtering
+raw-cpuid
