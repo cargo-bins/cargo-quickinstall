@@ -22,3 +22,4 @@ zee
 tree-sitter-cli
 ncspot
 remove_dir_all
+cargo-dylint
