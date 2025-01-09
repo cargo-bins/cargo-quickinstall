@@ -9,3 +9,4 @@ solana-gossip
 sn_cli
 remove_dir_all
 human_bytes
+git-mit-install
