@@ -10,3 +10,4 @@ nextest-filtering
 raw-cpuid
 termusic
 termusic
+remove_dir_all
