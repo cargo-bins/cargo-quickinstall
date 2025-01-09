@@ -4,3 +4,4 @@ clippy
 rusty_ytdl-cli
 dotenvy
 nextest-filtering
+sqlx-cli
