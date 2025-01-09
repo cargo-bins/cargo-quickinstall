@@ -11,3 +11,4 @@ human_bytes
 nu
 py-spy
 sea-orm-cli
+opencv-binding-generator
