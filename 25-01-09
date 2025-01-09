@@ -8,3 +8,4 @@ sqlx-cli
 git-mit
 solana-gossip
 sqlx-cli
+remove_dir_all
