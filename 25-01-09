@@ -18,3 +18,4 @@ maelstrom-pytest
 stellar-strkey
 forgejo-cli
 maelstrom-pytest
+opencv-binding-generator
