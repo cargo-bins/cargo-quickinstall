@@ -12,3 +12,4 @@ remove_dir_all
 sqlx-cli
 sqlx-cli
 human_bytes
+fcat
