@@ -15,3 +15,4 @@ sea-orm-cli
 git-mit-install
 stellar-strkey
 opencv-binding-generator
+human_bytes
