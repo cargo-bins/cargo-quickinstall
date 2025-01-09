@@ -10,3 +10,4 @@ remove_dir_all
 human_bytes
 nu
 py-spy
+sea-orm-cli
