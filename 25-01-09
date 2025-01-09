@@ -33,3 +33,4 @@ py-spy
 tree-sitter-cli
 cargo-smart-release
 zee
+clippy
