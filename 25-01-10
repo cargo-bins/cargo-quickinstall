@@ -11,3 +11,4 @@ c2patool
 mit-pre-commit
 minicbor
 holochain
+nextest-filtering
