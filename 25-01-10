@@ -21,3 +21,4 @@ cargo-dylint
 wmi
 git-disjoint
 solana-net-utils
+deno
