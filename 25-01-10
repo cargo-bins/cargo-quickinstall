@@ -6,3 +6,4 @@ cargo-dylint
 re_query
 cargo-dylint
 wiki-tui
+graphql_client_cli
