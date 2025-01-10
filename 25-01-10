@@ -4,3 +4,4 @@ pandora_box
 re_query
 cargo-local-registry
 syd
+cargo-generate
