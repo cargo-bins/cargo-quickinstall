@@ -6,3 +6,4 @@ cargo-local-registry
 syd
 cargo-generate
 mit-pre-commit
+holochain
