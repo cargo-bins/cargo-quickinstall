@@ -21,3 +21,4 @@ rustfmt-nightly
 git-disjoint
 solana-net-utils
 perfcnt
+rustrict
