@@ -9,3 +9,4 @@ mit-pre-commit
 evcxr_repl
 holochain
 protofetch
+solana-cli
