@@ -10,3 +10,4 @@ evcxr_repl
 holochain
 protofetch
 solana-cli
+cargo-c
