@@ -2,3 +2,4 @@ graphql_client_cli
 ducc-sys
 odbc2parquet
 zee
+cargo-dylint
