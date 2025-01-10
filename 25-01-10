@@ -11,3 +11,4 @@ evcxr_repl
 holochain
 nextest-filtering
 protofetch
+solana-cli
