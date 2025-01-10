@@ -8,3 +8,4 @@ cargo-generate
 mit-pre-commit
 evcxr_repl
 holochain
+protofetch
