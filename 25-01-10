@@ -16,3 +16,4 @@ deno
 simple-http-server
 deno
 solana-cli
+solana-validator
