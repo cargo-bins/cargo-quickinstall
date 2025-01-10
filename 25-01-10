@@ -3,3 +3,4 @@ sqlx-cli
 cargo-codspeed
 re_query
 cargo-local-registry
+tauri-cli
