@@ -21,3 +21,4 @@ holochain
 nextest-filtering
 rua
 cargo-whatfeatures
+solana-cli
