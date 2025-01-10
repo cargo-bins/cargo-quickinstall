@@ -2,3 +2,4 @@ ducc-sys
 sqlx-cli
 cargo-codspeed
 re_query
+cargo-local-registry
