@@ -3,3 +3,4 @@ ducc-sys
 odbc2parquet
 zee
 cargo-dylint
+re_query
