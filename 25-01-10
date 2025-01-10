@@ -7,3 +7,4 @@ syd
 cargo-generate
 mit-pre-commit
 holochain
+cargo-vet
