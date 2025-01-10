@@ -11,3 +11,4 @@ holochain
 protofetch
 solana-cli
 cargo-c
+solana-validator
