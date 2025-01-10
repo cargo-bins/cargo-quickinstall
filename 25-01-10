@@ -16,3 +16,4 @@ a11ywatch_cli
 solana-cli
 wmi
 rustfmt-nightly
+git-disjoint
