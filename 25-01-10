@@ -22,3 +22,4 @@ solana-cli
 wmi
 git-disjoint
 solana-net-utils
+perfcnt
