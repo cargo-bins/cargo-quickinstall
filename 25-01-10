@@ -11,3 +11,4 @@ solana-cli
 wmi
 rustfmt-nightly
 git-disjoint
+solana-net-utils
