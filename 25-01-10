@@ -5,3 +5,4 @@ re_query
 cargo-local-registry
 syd
 cargo-generate
+mit-pre-commit
