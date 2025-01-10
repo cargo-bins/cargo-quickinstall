@@ -9,3 +9,4 @@ mit-pre-commit
 holochain
 cargo-vet
 solana-cli
+pandora_box
