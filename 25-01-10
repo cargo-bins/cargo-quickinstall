@@ -6,3 +6,4 @@ cargo-local-registry
 tauri-cli
 watchexec-cli
 cargo-generate
+mit-pre-commit
