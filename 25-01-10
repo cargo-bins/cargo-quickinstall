@@ -21,3 +21,4 @@ a11ywatch_cli
 solana-cli
 wmi
 git-disjoint
+solana-net-utils
