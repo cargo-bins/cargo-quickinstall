@@ -14,3 +14,4 @@ mork
 holochain
 maelstrom-pytest
 mork
+nextest-filtering
