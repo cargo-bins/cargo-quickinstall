@@ -7,3 +7,4 @@ tauri-cli
 cargo-generate
 mit-pre-commit
 evcxr_repl
+holochain
