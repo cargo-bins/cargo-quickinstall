@@ -5,3 +5,4 @@ re_query
 cargo-local-registry
 tauri-cli
 watchexec-cli
+cargo-generate
