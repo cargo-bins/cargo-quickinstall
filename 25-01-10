@@ -10,3 +10,4 @@ mit-pre-commit
 evcxr_repl
 holochain
 nextest-filtering
+protofetch
