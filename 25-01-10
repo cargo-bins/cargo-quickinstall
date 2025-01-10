@@ -7,3 +7,4 @@ tauri-cli
 watchexec-cli
 cargo-generate
 mit-pre-commit
+evcxr_repl
