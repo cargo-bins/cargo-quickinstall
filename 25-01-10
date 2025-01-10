@@ -18,3 +18,4 @@ watchexec-cli
 solana-cli
 wmi
 rustfmt-nightly
+git-disjoint
