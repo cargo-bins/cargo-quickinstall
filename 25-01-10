@@ -12,3 +12,4 @@ holochain
 nextest-filtering
 protofetch
 solana-cli
+cargo-c
