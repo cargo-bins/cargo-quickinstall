@@ -11,3 +11,4 @@ laminar
 dioxus-cli
 rls-rustc
 probe-rs-tools
+apollo-router
