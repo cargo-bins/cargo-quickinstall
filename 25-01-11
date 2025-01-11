@@ -11,3 +11,4 @@ textplots
 winpty-rs
 cargo-lock
 solana-gossip
+git-disjoint
