@@ -19,3 +19,4 @@ addr2line
 ec2_instance_metadata
 parquet
 solana-tokens
+nkeys
