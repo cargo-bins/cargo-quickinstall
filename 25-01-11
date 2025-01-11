@@ -30,3 +30,4 @@ cpp_demangle
 tree-sitter-cli
 cargo-pgrx
 addr2line
+tree-sitter-cli
