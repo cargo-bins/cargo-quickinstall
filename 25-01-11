@@ -42,3 +42,4 @@ binstall
 flawz
 cargo-pgrx
 trunk
+addr2line
