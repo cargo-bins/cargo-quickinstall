@@ -5,3 +5,4 @@ laminar
 rls-rustc
 apollo-router
 textplots
+dotenvy
