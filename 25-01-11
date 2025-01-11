@@ -5,3 +5,4 @@ diesel_cli
 diesel_cli
 sqlx-cli
 laminar
+rls-rustc
