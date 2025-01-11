@@ -16,3 +16,4 @@ winpty-rs
 dua-cli
 cargo-lock
 solana-gossip
+papyrus_storage
