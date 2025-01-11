@@ -28,3 +28,4 @@ probe-rs-tools
 tree-sitter-cli
 cpp_demangle
 tree-sitter-cli
+cargo-pgrx
