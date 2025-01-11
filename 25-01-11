@@ -23,3 +23,4 @@ apollo-router
 textplots
 forgejo-cli
 rustdesk
+graphql_client_cli
