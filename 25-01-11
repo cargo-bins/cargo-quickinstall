@@ -17,3 +17,4 @@ dioxus-cli
 probe-run
 winpty-rs
 probe-rs-tools
+cargo-lock
