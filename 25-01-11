@@ -3,3 +3,4 @@ solana-faucet
 diesel_cli
 diesel_cli
 diesel_cli
+sqlx-cli
