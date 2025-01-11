@@ -19,3 +19,4 @@ winpty-rs
 probe-rs-tools
 cargo-lock
 probe-run
+probe-rs-tools
