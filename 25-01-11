@@ -3,3 +3,4 @@ sea-orm-cli
 sqlx-cli
 laminar
 rls-rustc
+apollo-router
