@@ -20,3 +20,4 @@ ec2_instance_metadata
 parquet
 solana-tokens
 nkeys
+solana-keygen
