@@ -29,3 +29,4 @@ tree-sitter-cli
 cpp_demangle
 tree-sitter-cli
 cargo-pgrx
+addr2line
