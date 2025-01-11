@@ -31,3 +31,4 @@ cargo-lock
 ripunzip
 hyprswitch
 hurl
+forgejo-cli
