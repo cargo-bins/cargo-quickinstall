@@ -6,3 +6,4 @@ diesel_cli
 sqlx-cli
 laminar
 rls-rustc
+apollo-router
