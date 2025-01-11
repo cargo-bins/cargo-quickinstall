@@ -8,3 +8,4 @@ textplots
 winpty-rs
 cargo-lock
 solana-gossip
+papyrus_storage
