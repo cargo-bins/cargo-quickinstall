@@ -47,3 +47,4 @@ probe-rs-tools
 neophyte
 forgejo-cli
 oha
+cargo-pgrx
