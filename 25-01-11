@@ -10,3 +10,4 @@ apollo-router
 textplots
 winpty-rs
 cargo-lock
+solana-gossip
