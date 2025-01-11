@@ -10,3 +10,4 @@ probe-run
 laminar
 dioxus-cli
 rls-rustc
+probe-rs-tools
