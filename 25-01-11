@@ -4,3 +4,4 @@ solana-faucet
 sea-orm-cli
 laminar
 rls-rustc
+apollo-router
