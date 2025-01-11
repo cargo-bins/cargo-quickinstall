@@ -13,3 +13,4 @@ cargo-lock
 solana-gossip
 cargo-pgrx
 solana-tokens
+parquet
