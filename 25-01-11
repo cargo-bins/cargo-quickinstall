@@ -14,3 +14,4 @@ socketcan
 dua-cli
 winpty-rs
 dua-cli
+cargo-lock
