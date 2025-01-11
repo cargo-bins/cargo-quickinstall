@@ -8,3 +8,4 @@ laminar
 rls-rustc
 apollo-router
 textplots
+winpty-rs
