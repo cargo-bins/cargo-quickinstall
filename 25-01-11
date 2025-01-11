@@ -29,3 +29,4 @@ binstall
 winpty-rs
 termusic
 cargo-lock
+cargo-dylint
