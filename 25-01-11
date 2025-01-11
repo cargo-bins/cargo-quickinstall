@@ -1,3 +1,4 @@
 probe-run
 starship
 solana-faucet
+sea-orm-cli
