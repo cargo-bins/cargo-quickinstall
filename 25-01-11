@@ -26,3 +26,4 @@ solana-gossip
 probe-rs-tools
 probe-rs-tools
 tree-sitter-cli
+cpp_demangle
