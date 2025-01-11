@@ -10,3 +10,4 @@ winpty-rs
 cargo-lock
 git-disjoint
 cpp_demangle
+cargo-pgrx
