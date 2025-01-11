@@ -10,3 +10,4 @@ winpty-rs
 kickstart
 cargo-lock
 cpp_demangle
+addr2line
