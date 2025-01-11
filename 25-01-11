@@ -12,3 +12,4 @@ dotenvy
 cargo-lock
 kickstart
 kickstart
+cpp_demangle
