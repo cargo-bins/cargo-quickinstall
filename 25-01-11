@@ -28,3 +28,4 @@ paru
 binstall
 winpty-rs
 termusic
+cargo-lock
