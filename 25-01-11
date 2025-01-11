@@ -17,3 +17,4 @@ dua-cli
 cargo-lock
 solana-gossip
 papyrus_storage
+addr2line
