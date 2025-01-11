@@ -11,3 +11,4 @@ kickstart
 cargo-lock
 cpp_demangle
 addr2line
+parquet
