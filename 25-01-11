@@ -16,3 +16,4 @@ httpbis
 papyrus_storage
 cpp_demangle
 addr2line
+ec2_instance_metadata
