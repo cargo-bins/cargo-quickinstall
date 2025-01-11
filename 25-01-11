@@ -13,3 +13,4 @@ cpp_demangle
 addr2line
 parquet
 nkeys
+borsh
