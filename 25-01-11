@@ -14,3 +14,4 @@ solana-gossip
 git-disjoint
 httpbis
 papyrus_storage
+cpp_demangle
