@@ -12,3 +12,4 @@ textplots
 dua-cli
 socketcan
 dua-cli
+winpty-rs
