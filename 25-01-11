@@ -20,3 +20,4 @@ snarkvm
 solana-keygen
 nkeys
 sccache
+borsh
