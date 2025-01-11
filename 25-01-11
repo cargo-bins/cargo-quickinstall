@@ -15,3 +15,4 @@ git-disjoint
 httpbis
 papyrus_storage
 cpp_demangle
+addr2line
