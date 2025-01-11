@@ -30,3 +30,4 @@ winpty-rs
 termusic
 cargo-lock
 cargo-dylint
+probe-rs-tools
