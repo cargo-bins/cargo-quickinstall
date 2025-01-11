@@ -15,3 +15,4 @@ apollo-router
 textplots
 dioxus-cli
 probe-run
+winpty-rs
