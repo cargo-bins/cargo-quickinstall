@@ -27,3 +27,4 @@ graphql_client_cli
 hurl
 winpty-rs
 ripunzip
+cargo-lock
