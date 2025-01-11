@@ -43,3 +43,4 @@ flawz
 cargo-pgrx
 trunk
 addr2line
+cargo-embed
