@@ -13,3 +13,4 @@ cpp_demangle
 cargo-pgrx
 addr2line
 solana-tokens
+spider_cli
