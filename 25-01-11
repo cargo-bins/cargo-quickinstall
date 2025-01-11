@@ -9,3 +9,4 @@ dioxus-cli
 probe-run
 laminar
 dioxus-cli
+rls-rustc
