@@ -9,3 +9,4 @@ dotenvy
 dotenvy
 winpty-rs
 dotenvy
+cargo-lock
