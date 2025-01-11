@@ -13,3 +13,4 @@ rls-rustc
 probe-rs-tools
 apollo-router
 textplots
+dioxus-cli
