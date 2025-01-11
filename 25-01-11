@@ -13,3 +13,4 @@ cargo-lock
 solana-gossip
 git-disjoint
 httpbis
+papyrus_storage
