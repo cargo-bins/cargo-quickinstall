@@ -5,3 +5,4 @@ exa
 sqlx-cli
 laminar
 rustbus
+rls-rustc
