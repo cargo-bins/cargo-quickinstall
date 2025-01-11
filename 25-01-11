@@ -36,3 +36,4 @@ probe-rs-tools
 rustdesk
 cargo-spellcheck
 spiko
+solana-gossip
