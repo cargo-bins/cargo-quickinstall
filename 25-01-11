@@ -8,3 +8,4 @@ dotenvy
 dotenvy
 winpty-rs
 kickstart
+cargo-lock
