@@ -8,3 +8,4 @@ cargo-spellcheck
 hyprswitch
 solana-tokens
 cargo-embed
+nextest-filtering
