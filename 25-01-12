@@ -8,3 +8,4 @@ httpmock
 oso
 deno
 zellij
+cargo-tarpaulin
