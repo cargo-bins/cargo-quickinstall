@@ -36,3 +36,4 @@ human_bytes
 cargo-override
 tree-sitter-cli
 addr2line
+grc
