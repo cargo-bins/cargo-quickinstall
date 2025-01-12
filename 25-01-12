@@ -18,3 +18,4 @@ buck2
 cargo-override
 cargo-whatfeatures
 cargo-embed
+redoxer
