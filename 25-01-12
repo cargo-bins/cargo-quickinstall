@@ -2,3 +2,4 @@ dotenvy
 borsh
 sqlx-cli
 solana-tokens
+nextest-filtering
