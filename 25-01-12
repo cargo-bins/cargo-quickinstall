@@ -26,3 +26,4 @@ sea-orm-cli
 cargo-whatfeatures
 simple-http-server
 redoxer
+typst-cli
