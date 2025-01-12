@@ -5,3 +5,4 @@ sqlx-cli
 borsh
 solana-tokens
 nextest-filtering
+oso
