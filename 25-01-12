@@ -55,3 +55,4 @@ rav1e
 nkeys
 cargo-duplicates
 tgt
+tree-sitter-graph
