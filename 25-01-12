@@ -50,3 +50,4 @@ buck2
 diesel_cli
 vimcats
 solana-validator
+simple-http-server
