@@ -19,3 +19,4 @@ cargo-override
 cargo-whatfeatures
 cargo-embed
 redoxer
+oso
