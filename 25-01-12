@@ -17,3 +17,4 @@ diesel_cli
 dioxus-cli
 solana-validator
 rav1e
+ruff
