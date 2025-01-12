@@ -21,3 +21,4 @@ solana-gossip
 solana-validator
 nkeys
 cargo-outdated
+tree-sitter-graph
