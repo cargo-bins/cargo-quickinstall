@@ -34,3 +34,4 @@ hyprswitch
 cargo-override
 human_bytes
 cargo-override
+tree-sitter-cli
