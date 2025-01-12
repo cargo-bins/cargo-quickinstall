@@ -40,3 +40,4 @@ grc
 tree-sitter-cli
 tree-sitter-cli
 buck2
+cargo-spellcheck
