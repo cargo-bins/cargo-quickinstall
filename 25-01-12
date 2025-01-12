@@ -4,3 +4,4 @@ borsh
 solana-tokens
 nextest-filtering
 httpmock
+oso
