@@ -4,3 +4,4 @@ borsh
 sqlx-cli
 borsh
 solana-tokens
+nextest-filtering
