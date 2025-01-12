@@ -13,3 +13,4 @@ laminar
 rustrict
 mit-pre-commit
 human_name
+libbpf-cargo
