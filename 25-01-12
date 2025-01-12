@@ -16,3 +16,4 @@ oha
 tree-sitter-cli
 buck2
 cargo-override
+cargo-whatfeatures
