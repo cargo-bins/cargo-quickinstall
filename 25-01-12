@@ -3,3 +3,4 @@ nextest-filtering
 httpmock
 oso
 human_bytes
+addr2line
