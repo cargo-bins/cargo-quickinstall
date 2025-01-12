@@ -42,3 +42,4 @@ typst-cli
 dioxus-cli
 simple-http-server
 laminar
+tree-sitter-cli
