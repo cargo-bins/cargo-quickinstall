@@ -13,3 +13,4 @@ diesel_cli
 solana-validator
 ruff
 diesel_cli
+tree-sitter-graph
