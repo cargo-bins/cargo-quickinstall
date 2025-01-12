@@ -12,3 +12,4 @@ cargo-tarpaulin
 addr2line
 laminar
 rustrict
+human_name
