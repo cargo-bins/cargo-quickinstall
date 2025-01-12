@@ -8,3 +8,4 @@ paperclip
 deno
 zellij
 cargo-tarpaulin
+addr2line
