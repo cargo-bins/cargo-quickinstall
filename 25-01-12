@@ -27,3 +27,4 @@ simple-http-server
 human_bytes
 grc
 buck2
+addr2line
