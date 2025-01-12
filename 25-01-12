@@ -11,3 +11,4 @@ cargo-embed
 nextest-filtering
 nvrs
 oha
+buck2
