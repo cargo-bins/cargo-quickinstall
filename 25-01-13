@@ -5,3 +5,4 @@ nextest-filtering
 cargo-outdated
 cargo-udeps
 raw-cpuid
+mit-prepare-commit-msg
