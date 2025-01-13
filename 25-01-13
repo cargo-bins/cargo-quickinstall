@@ -2,3 +2,4 @@ cached-path
 cargo-tarpaulin
 sea-orm-cli
 oso
+cargo-outdated
