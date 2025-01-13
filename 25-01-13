@@ -6,3 +6,4 @@ cargo-outdated
 cargo-udeps
 mit-prepare-commit-msg
 oso
+parquet
