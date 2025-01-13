@@ -2,3 +2,4 @@ cached-path
 sea-orm-cli
 nextest-filtering
 oxipng
+raw-cpuid
