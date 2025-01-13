@@ -3,3 +3,4 @@ cargo-tarpaulin
 sea-orm-cli
 oso
 cargo-outdated
+cargo-udeps
