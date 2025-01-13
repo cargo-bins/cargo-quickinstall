@@ -1,3 +1,4 @@
 cached-path
 cargo-tarpaulin
 sea-orm-cli
+nextest-filtering
