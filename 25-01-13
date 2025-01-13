@@ -17,3 +17,4 @@ cargo-local-registry
 textplots
 rustbus
 schemafy
+mit-prepare-commit-msg
