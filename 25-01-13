@@ -4,3 +4,4 @@ honggfuzz
 pandora_box
 mit-prepare-commit-msg
 oso
+iai-callgrind-runner
