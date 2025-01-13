@@ -4,3 +4,4 @@ sea-orm-cli
 nextest-filtering
 cargo-outdated
 cargo-udeps
+raw-cpuid
