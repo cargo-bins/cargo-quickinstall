@@ -8,3 +8,4 @@ tgt
 nextsv
 lifecycler
 sea-orm-cli
+nextest-filtering
