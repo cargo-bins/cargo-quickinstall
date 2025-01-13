@@ -6,3 +6,4 @@ pcu
 sea-orm-cli
 tgt
 nextsv
+lifecycler
