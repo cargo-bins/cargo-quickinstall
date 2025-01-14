@@ -43,3 +43,4 @@ cargo-risczero
 pwasm-utils
 apollo-router
 stellar-xdr
+xcp
