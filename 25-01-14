@@ -9,3 +9,4 @@ tendermint-abci
 cargo-maelstrom
 httpmock
 racer
+sha1collisiondetection
