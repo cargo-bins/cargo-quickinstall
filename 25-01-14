@@ -17,3 +17,4 @@ wol-rs
 cached-path
 cached-path
 cargo-lock
+pwasm-utils
