@@ -11,3 +11,4 @@ sha1collisiondetection
 rrule
 librespot
 tendermint-abci
+wol-rs
