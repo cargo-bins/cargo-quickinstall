@@ -53,3 +53,4 @@ clipboard-history
 rav1e
 opencv-binding-generator
 sea-orm-cli
+cached-path
