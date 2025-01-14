@@ -35,3 +35,4 @@ cargo-spellcheck
 cargo-public-api
 racer
 oxio
+hemingway
