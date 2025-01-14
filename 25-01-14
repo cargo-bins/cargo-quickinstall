@@ -40,3 +40,4 @@ arp-spoofer
 iai-callgrind-runner
 arp-spoofer
 cargo-risczero
+pwasm-utils
