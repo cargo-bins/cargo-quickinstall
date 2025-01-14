@@ -7,3 +7,4 @@ tendermint-abci
 cargo-risczero
 httpmock
 racer
+sha1collisiondetection
