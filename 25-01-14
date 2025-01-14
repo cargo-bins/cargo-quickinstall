@@ -13,3 +13,4 @@ espflash
 tendermint-abci
 wol-rs
 opencv-binding-generator
+cached-path
