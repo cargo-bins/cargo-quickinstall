@@ -62,3 +62,4 @@ cargo-embassy
 mdcat
 llm-lsp
 pwasm-utils
+spider_cli
