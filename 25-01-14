@@ -4,3 +4,4 @@ phf_generator
 stellar-strkey
 nkeys
 cargo-risczero
+httpmock
