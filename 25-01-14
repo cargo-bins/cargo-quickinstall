@@ -6,3 +6,4 @@ nkeys
 tendermint-abci
 cargo-risczero
 httpmock
+racer
