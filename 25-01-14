@@ -32,3 +32,4 @@ nu_plugin_plotters
 c2rust
 mdcat
 cargo-spellcheck
+cargo-public-api
