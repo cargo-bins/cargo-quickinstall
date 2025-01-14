@@ -11,3 +11,4 @@ sha1collisiondetection
 rrule
 pandora_box
 tendermint-abci
+wol-rs
