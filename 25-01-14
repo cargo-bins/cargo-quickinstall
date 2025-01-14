@@ -33,3 +33,4 @@ c2rust
 mdcat
 cargo-spellcheck
 cargo-public-api
+racer
