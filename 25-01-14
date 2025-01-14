@@ -19,3 +19,4 @@ sqlx-cli
 iai-callgrind-runner
 cargo-lock
 pwasm-utils
+apollo-router
