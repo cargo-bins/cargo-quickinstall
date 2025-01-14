@@ -49,3 +49,4 @@ tendermint-abci
 nu_plugin_plotters
 wol-rs
 hemingway
+clipboard-history
