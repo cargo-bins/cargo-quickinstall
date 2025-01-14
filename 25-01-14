@@ -46,3 +46,4 @@ cargo-public-api
 tod
 fselect
 tendermint-abci
+nu_plugin_plotters
