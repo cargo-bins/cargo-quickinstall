@@ -14,3 +14,4 @@ tendermint-abci
 wol-rs
 opencv-binding-generator
 cached-path
+sqlx-cli
