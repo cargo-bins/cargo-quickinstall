@@ -32,3 +32,4 @@ bluetui
 llm-lsp
 racer
 cargo-spellcheck
+sha1collisiondetection
