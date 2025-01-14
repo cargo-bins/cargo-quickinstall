@@ -10,3 +10,4 @@ cargo-maelstrom
 httpmock
 racer
 sha1collisiondetection
+rrule
