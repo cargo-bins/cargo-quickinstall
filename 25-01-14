@@ -8,3 +8,4 @@ nkeys
 tendermint-abci
 cargo-maelstrom
 httpmock
+racer
