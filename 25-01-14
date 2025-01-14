@@ -16,3 +16,4 @@ tendermint-abci
 wol-rs
 cached-path
 cached-path
+cargo-lock
