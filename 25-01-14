@@ -35,3 +35,4 @@ cargo-spellcheck
 sha1collisiondetection
 sea-orm-cli
 statusline
+pcu
