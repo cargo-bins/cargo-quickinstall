@@ -58,3 +58,4 @@ cached-path
 below
 hemingway
 c2rust
+cargo-embassy
