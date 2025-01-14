@@ -61,3 +61,4 @@ c2rust
 cargo-embassy
 mdcat
 llm-lsp
+pwasm-utils
