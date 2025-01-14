@@ -18,3 +18,4 @@ cached-path
 cached-path
 cargo-lock
 pwasm-utils
+stellar-xdr
