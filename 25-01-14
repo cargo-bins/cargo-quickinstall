@@ -5,3 +5,4 @@ sn_node
 nkeys
 tendermint-abci
 cargo-risczero
+httpmock
