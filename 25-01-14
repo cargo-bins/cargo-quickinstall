@@ -17,3 +17,4 @@ opencv-binding-generator
 cached-path
 cached-path
 sqlx-cli
+pwasm-utils
