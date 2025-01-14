@@ -13,3 +13,4 @@ cargo-dylint
 racer
 bugstalker
 nkeys
+tendermint-abci
