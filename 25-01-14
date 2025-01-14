@@ -10,3 +10,4 @@ rrule
 librespot
 tendermint-abci
 wol-rs
+opencv-binding-generator
