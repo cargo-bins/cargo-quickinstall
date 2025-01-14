@@ -20,3 +20,4 @@ iai-callgrind-runner
 cargo-lock
 pwasm-utils
 apollo-router
+stellar-xdr
