@@ -7,3 +7,4 @@ cargo-maelstrom
 nkeys
 tendermint-abci
 cargo-maelstrom
+httpmock
