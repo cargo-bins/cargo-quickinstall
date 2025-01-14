@@ -21,3 +21,4 @@ cargo-lock
 pwasm-utils
 apollo-router
 stellar-xdr
+sn_faucet
