@@ -8,3 +8,4 @@ cargo-risczero
 httpmock
 racer
 sha1collisiondetection
+rrule
