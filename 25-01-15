@@ -27,3 +27,4 @@ python-project-generator
 porsmo
 tree-sitter-cli
 redoxer
+remove_dir_all
