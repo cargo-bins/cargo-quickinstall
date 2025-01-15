@@ -34,3 +34,4 @@ diesel_cli
 h3o
 jless
 git-mit
+cargo-local-registry
