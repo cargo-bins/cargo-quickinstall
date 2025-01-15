@@ -32,3 +32,4 @@ speedtest-rs
 cargo-pgrx
 lowfi
 alacritty
+unic-langid-impl
