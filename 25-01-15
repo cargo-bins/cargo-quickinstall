@@ -45,3 +45,4 @@ oxio
 slint-lsp
 cargo-pgrx
 cargo-dylint
+cargo-embassy
