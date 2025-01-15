@@ -14,3 +14,4 @@ mit-commit-msg
 rustbus
 stellar-xdr
 rustfmt-nightly
+diesel_cli
