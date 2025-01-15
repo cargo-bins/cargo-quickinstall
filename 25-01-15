@@ -11,3 +11,4 @@ mit-commit-msg
 rustbus
 stellar-xdr
 rustfmt-nightly
+raw-cpuid
