@@ -9,3 +9,4 @@ rustfmt-nightly
 cargo-pgrx
 unic-langid-impl
 textplots
+nextest-filtering
