@@ -9,3 +9,4 @@ mit-commit-msg
 stellar-xdr
 rustfmt-nightly
 cargo-about
+cargo-pgrx
