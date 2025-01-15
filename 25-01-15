@@ -10,3 +10,4 @@ cargo-pgrx
 unic-langid-impl
 textplots
 nextest-filtering
+cargo-lock
