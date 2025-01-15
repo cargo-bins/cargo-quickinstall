@@ -39,3 +39,4 @@ porsmo
 stellar-xdr
 markdown-test-report
 cargo-spellcheck
+rustfmt-nightly
