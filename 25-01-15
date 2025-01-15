@@ -41,3 +41,4 @@ markdown-test-report
 cargo-spellcheck
 rustfmt-nightly
 cargo-public-api
+oxio
