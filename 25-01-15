@@ -62,3 +62,4 @@ markdown-test-report
 venator-app
 nextest-filtering
 bugstalker
+cargo-lock
