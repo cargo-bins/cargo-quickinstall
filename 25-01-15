@@ -9,3 +9,4 @@ solana-cli
 sqlx-cli
 nexmark
 git-mit
+remove_dir_all
