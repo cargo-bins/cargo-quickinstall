@@ -50,3 +50,4 @@ cargo-info
 cargo-public-api
 raw-cpuid
 tree-sitter-cli
+diesel_cli
