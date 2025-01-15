@@ -60,3 +60,4 @@ cargo-info
 slint-lsp
 markdown-test-report
 venator-app
+nextest-filtering
