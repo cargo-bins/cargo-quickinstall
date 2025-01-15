@@ -16,3 +16,4 @@ git-mit
 textplots
 mit-commit-msg
 nextest-filtering
+cargo-lock
