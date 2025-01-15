@@ -14,3 +14,4 @@ rustfmt-nightly
 sea-orm-cli
 gitui
 cargo-pgrx
+gitui
