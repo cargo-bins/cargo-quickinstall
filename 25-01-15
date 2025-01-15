@@ -51,3 +51,4 @@ cargo-public-api
 raw-cpuid
 tree-sitter-cli
 diesel_cli
+unic-langid-impl
