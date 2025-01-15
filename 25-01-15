@@ -42,3 +42,4 @@ cargo-spellcheck
 rustfmt-nightly
 cargo-public-api
 oxio
+slint-lsp
