@@ -29,3 +29,4 @@ lowfi
 venator-app
 rustfmt-nightly
 speedtest-rs
+cargo-pgrx
