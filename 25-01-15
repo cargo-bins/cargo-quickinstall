@@ -65,3 +65,4 @@ bugstalker
 cargo-lock
 deno
 cargo-public-api
+fake
