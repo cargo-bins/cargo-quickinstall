@@ -18,3 +18,4 @@ nextest-filtering
 tree-sitter-cli
 mit-commit-msg
 sccache
+fake
