@@ -25,3 +25,4 @@ cargo-pgrx
 re_query
 git-mit
 cargo-local-registry
+opencv-binding-generator
