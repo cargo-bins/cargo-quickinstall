@@ -46,3 +46,4 @@ slint-lsp
 cargo-pgrx
 cargo-dylint
 cargo-embassy
+cargo-info
