@@ -38,3 +38,4 @@ tree-sitter-cli
 porsmo
 stellar-xdr
 markdown-test-report
+cargo-spellcheck
