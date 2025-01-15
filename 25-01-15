@@ -12,3 +12,4 @@ rustbus
 stellar-xdr
 rustfmt-nightly
 raw-cpuid
+unic-langid-impl
