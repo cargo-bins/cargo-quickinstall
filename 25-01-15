@@ -24,3 +24,4 @@ cargo-pgrx
 git-mit
 watchexec-cli
 cargo-local-registry
+opencv-binding-generator
