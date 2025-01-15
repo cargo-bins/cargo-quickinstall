@@ -21,3 +21,4 @@ textplots
 gitui
 gitui
 nextest-filtering
+cargo-lock
