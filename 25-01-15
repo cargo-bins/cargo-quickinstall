@@ -8,3 +8,4 @@ stellar-xdr
 rustfmt-nightly
 cargo-pgrx
 unic-langid-impl
+textplots
