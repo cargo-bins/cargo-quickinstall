@@ -16,3 +16,4 @@ dioxus-cli
 cargo-pgrx
 https
 raw-cpuid
+sshx
