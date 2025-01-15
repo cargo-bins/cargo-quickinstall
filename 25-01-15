@@ -14,3 +14,4 @@ rustfmt-nightly
 raw-cpuid
 unic-langid-impl
 git-mit
+ec2_instance_metadata
