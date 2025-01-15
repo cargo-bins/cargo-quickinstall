@@ -12,3 +12,4 @@ textplots
 nextest-filtering
 cargo-lock
 tree-sitter-cli
+fake
