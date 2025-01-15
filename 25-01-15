@@ -36,3 +36,4 @@ python-project-generator
 cargo-embassy
 tree-sitter-cli
 porsmo
+stellar-xdr
