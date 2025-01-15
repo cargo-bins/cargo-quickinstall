@@ -41,3 +41,4 @@ nextest-filtering
 cargo-lock
 ncspot
 venator-app
+speedtest-rs
