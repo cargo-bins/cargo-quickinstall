@@ -16,3 +16,4 @@ stellar-xdr
 rustfmt-nightly
 diesel_cli
 raw-cpuid
+unic-langid-impl
