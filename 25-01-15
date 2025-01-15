@@ -6,3 +6,4 @@ nexmark
 remove_dir_all
 stellar-xdr
 rustfmt-nightly
+cargo-pgrx
