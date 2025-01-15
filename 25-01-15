@@ -21,3 +21,4 @@ remove_dir_all
 sshx
 deno
 speedtest-rs
+ncspot
