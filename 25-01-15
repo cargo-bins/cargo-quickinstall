@@ -49,3 +49,4 @@ cargo-embassy
 cargo-info
 cargo-public-api
 raw-cpuid
+tree-sitter-cli
