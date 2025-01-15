@@ -24,3 +24,4 @@ h3o
 cargo-pgrx
 re_query
 git-mit
+cargo-local-registry
