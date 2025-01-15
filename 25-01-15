@@ -21,3 +21,4 @@ cargo-lock
 mit-commit-msg
 fake
 h3o
+text-diff
