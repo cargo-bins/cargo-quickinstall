@@ -17,3 +17,4 @@ cargo-pgrx
 gitui
 raw-cpuid
 unic-langid-impl
+textplots
