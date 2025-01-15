@@ -63,3 +63,4 @@ venator-app
 nextest-filtering
 bugstalker
 cargo-lock
+deno
