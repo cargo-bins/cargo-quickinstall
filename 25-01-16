@@ -6,3 +6,4 @@ rtx-cli
 rustfmt-nightly
 c2patool
 sqlx-cli
+cargo-crev
