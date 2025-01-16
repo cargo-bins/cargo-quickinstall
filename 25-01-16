@@ -11,3 +11,4 @@ sqlx-cli
 cargo-crev
 rtx-cli
 dotenv
+c2patool
