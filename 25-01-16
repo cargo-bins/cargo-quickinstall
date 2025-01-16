@@ -17,3 +17,4 @@ oso
 py-spy
 dotenvy
 cargo-local-registry
+tree-sitter-cli
