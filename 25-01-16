@@ -24,3 +24,4 @@ pwasm-utils
 solana-cli
 deno
 racer
+benfred-read-process-memory
