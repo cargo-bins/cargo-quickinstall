@@ -32,3 +32,4 @@ nu_plugin_dbus
 trunk
 deno
 oculante
+cargo-public-api
