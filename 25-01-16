@@ -8,3 +8,4 @@ dotenv
 sha1collisiondetection
 librespot
 unic-langid-impl
+apollo-router
