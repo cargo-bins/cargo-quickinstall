@@ -29,3 +29,4 @@ crates-tui
 unic-langid-impl
 apollo-router
 tuisky
+nu_plugin_dbus
