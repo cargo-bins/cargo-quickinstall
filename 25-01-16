@@ -19,3 +19,4 @@ oso
 tokio-process
 dotenvy
 cargo-local-registry
+rmesg
