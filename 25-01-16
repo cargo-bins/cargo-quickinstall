@@ -3,3 +3,4 @@ cargo-smart-release
 venator-app
 tree-sitter-graph
 rustfmt-nightly
+graphql_client_cli
