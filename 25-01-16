@@ -50,3 +50,4 @@ probe-rs-tools
 dotenvy
 pwasm-utils
 stgit
+crates-tui
