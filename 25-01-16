@@ -16,3 +16,4 @@ nu
 remove_dir_all
 py-spy
 dotenvy
+cargo-local-registry
