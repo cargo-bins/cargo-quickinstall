@@ -5,3 +5,4 @@ cargo-outdated
 sqlx-cli
 mit-prepare-commit-msg
 dotenv
+sha1collisiondetection
