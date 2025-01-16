@@ -21,3 +21,4 @@ dotenvy
 cargo-local-registry
 rmesg
 pwasm-utils
+solana-cli
