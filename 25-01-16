@@ -3,3 +3,4 @@ rtx-cli
 tree-sitter-graph
 c2patool
 rtx-cli
+rustfmt-nightly
