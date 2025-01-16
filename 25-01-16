@@ -8,3 +8,4 @@ tendermint-abci
 librespot
 unic-langid-impl
 apollo-router
+tauri-cli
