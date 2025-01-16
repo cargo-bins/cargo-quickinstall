@@ -32,3 +32,4 @@ cargo-maelstrom
 cargo-maelstrom
 pwasm-utils
 deno
+solana-cli
