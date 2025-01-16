@@ -7,3 +7,4 @@ graphql_client_cli
 nu_plugin_dbus
 cargo-smart-release
 sea-orm-cli
+deno
