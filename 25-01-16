@@ -46,3 +46,4 @@ remove_dir_all
 jless
 c2rust
 c2rust
+py-spy
