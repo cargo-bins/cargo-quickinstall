@@ -16,3 +16,4 @@ rtx-cli
 cargo-crev
 sha1collisiondetection
 sqlx-cli
+cargo-crev
