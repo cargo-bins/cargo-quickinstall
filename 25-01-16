@@ -4,3 +4,4 @@ rustfmt-nightly
 dotenv
 sha1collisiondetection
 librespot
+apollo-router
