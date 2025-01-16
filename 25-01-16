@@ -16,3 +16,4 @@ remove_dir_all
 py-spy
 dotenvy
 pwasm-utils
+tree-sitter-cli
