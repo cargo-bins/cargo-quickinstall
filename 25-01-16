@@ -8,3 +8,4 @@ sn_faucet
 dotenv
 sha1collisiondetection
 apollo-router
+rustbus
