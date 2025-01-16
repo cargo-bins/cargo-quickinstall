@@ -7,3 +7,4 @@ rustfmt-nightly
 c2patool
 sqlx-cli
 cargo-crev
+sqlx-cli
