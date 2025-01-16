@@ -13,3 +13,4 @@ tauri-cli
 perfcnt
 safe_network
 nu
+remove_dir_all
