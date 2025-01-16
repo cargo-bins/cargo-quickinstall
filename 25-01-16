@@ -37,3 +37,4 @@ nu_plugin_dbus
 openpgp-card-tools
 crates-tui
 cargo-smart-release
+nu
