@@ -3,3 +3,4 @@ rustfmt-nightly
 cargo-outdated
 sqlx-cli
 dotenv
+sha1collisiondetection
