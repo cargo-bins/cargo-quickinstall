@@ -21,3 +21,4 @@ pwasm-utils
 tree-sitter-cli
 deno
 solana-cli
+racer
