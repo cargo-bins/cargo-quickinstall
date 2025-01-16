@@ -17,3 +17,4 @@ dotenv
 cargo-dylint
 sha1collisiondetection
 wiki-tui
+cargo-smart-release
