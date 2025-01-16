@@ -11,3 +11,4 @@ deno
 sea-orm-cli
 crates-tui
 nu_plugin_dbus
+tree-sitter-cli
