@@ -9,3 +9,4 @@ cargo-smart-release
 sea-orm-cli
 deno
 sea-orm-cli
+crates-tui
