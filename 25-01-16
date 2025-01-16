@@ -7,3 +7,4 @@ mit-prepare-commit-msg
 dotenv
 sha1collisiondetection
 librespot
+unic-langid-impl
