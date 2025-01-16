@@ -5,3 +5,4 @@ sqlx-cli
 dotenv
 sha1collisiondetection
 tendermint-abci
+librespot
