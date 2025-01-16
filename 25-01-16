@@ -16,3 +16,4 @@ venator-app
 dotenv
 cargo-dylint
 sha1collisiondetection
+wiki-tui
