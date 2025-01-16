@@ -13,3 +13,4 @@ rtx-cli
 dotenv
 c2patool
 rtx-cli
+cargo-crev
