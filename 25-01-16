@@ -5,3 +5,4 @@ sqlx-cli
 sn_faucet
 sn_node_rpc_client
 sn_faucet
+dotenv
