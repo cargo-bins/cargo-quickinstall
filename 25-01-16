@@ -17,3 +17,4 @@ remove_dir_all
 py-spy
 dotenvy
 cargo-local-registry
+pwasm-utils
