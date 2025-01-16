@@ -51,3 +51,4 @@ dotenvy
 pwasm-utils
 stgit
 crates-tui
+solana-cli
