@@ -11,3 +11,4 @@ unic-langid-impl
 apollo-router
 tauri-cli
 perfcnt
+safe_network
