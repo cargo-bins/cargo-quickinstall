@@ -19,3 +19,4 @@ sqlx-cli
 cargo-crev
 tendermint-abci
 rtx-cli
+unic-langid-impl
