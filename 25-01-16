@@ -40,3 +40,4 @@ cargo-smart-release
 nu
 httpmock
 remove_dir_all
+trunk
