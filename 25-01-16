@@ -1,3 +1,4 @@
 pgrx-tests
 tree-sitter-graph
 rustfmt-nightly
+sqlx-cli
