@@ -35,3 +35,4 @@ cargo-public-api
 neovide
 oculante
 nu_plugin_dbus
+cargo-smart-release
