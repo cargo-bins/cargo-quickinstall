@@ -14,3 +14,4 @@ ncspot
 openpgp-card-tools
 venator-app
 dotenv
+cargo-dylint
