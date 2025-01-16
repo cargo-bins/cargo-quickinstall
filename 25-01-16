@@ -42,3 +42,4 @@ tplay
 cargo-smart-release
 bugstalker
 jless
+remove_dir_all
