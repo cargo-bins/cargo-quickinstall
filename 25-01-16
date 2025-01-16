@@ -13,3 +13,4 @@ httpbis
 perfcnt
 safe_network
 benfred-read-process-memory
+tokio-process
