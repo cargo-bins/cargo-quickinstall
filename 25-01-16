@@ -27,3 +27,4 @@ nu_plugin_dbus
 librespot
 crates-tui
 unic-langid-impl
+apollo-router
