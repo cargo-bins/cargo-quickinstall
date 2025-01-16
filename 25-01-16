@@ -3,3 +3,4 @@ tmtc-c2a
 tree-sitter-graph
 binstall
 material
+rustfmt-nightly
