@@ -18,3 +18,4 @@ sha1collisiondetection
 sqlx-cli
 cargo-crev
 tendermint-abci
+rtx-cli
