@@ -19,3 +19,4 @@ openpgp-card-tools
 speedtest-rs
 graphql_client_cli
 openpgp-card-tools
+dotenv
