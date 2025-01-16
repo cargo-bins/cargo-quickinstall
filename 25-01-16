@@ -11,3 +11,4 @@ apollo-router
 tauri-cli
 perfcnt
 nu
+remove_dir_all
