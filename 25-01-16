@@ -10,3 +10,4 @@ sha1collisiondetection
 apollo-router
 rustbus
 httpbis
+perfcnt
