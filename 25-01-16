@@ -3,3 +3,4 @@ tree-sitter-graph
 rustfmt-nightly
 cargo-outdated
 sqlx-cli
+mit-prepare-commit-msg
