@@ -31,3 +31,4 @@ zellij
 remove_dir_all
 cavif
 git-mit
+cargo-crev
