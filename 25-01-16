@@ -51,3 +51,4 @@ openpgp-card-tools
 jless
 mdcat
 crates-tui
+dotenvy
