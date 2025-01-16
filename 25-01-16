@@ -34,3 +34,4 @@ git-mit
 cargo-crev
 cavif
 dotenvy
+cargo-local-registry
