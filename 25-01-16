@@ -15,3 +15,4 @@ tree-sitter-cli
 cargo-smart-release
 oculante
 crates-tui
+openpgp-card-tools
