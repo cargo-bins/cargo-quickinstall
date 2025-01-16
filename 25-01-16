@@ -4,3 +4,4 @@ rustfmt-nightly
 cargo-outdated
 sqlx-cli
 mit-prepare-commit-msg
+dotenv
