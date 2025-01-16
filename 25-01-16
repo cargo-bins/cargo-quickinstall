@@ -14,3 +14,4 @@ dotenv
 c2patool
 rtx-cli
 cargo-crev
+sha1collisiondetection
