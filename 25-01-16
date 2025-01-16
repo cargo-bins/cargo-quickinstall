@@ -2,3 +2,4 @@ cargo-smart-release
 mdcat
 dioxus-cli
 tree-sitter-graph
+rustfmt-nightly
