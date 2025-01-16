@@ -4,3 +4,4 @@ dioxus-cli
 tree-sitter-graph
 rustfmt-nightly
 nu_plugin_dbus
+tree-sitter-cli
