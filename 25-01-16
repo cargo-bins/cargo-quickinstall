@@ -5,3 +5,4 @@ c2patool
 rtx-cli
 rustfmt-nightly
 c2patool
+sqlx-cli
