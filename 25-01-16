@@ -38,3 +38,4 @@ openpgp-card-tools
 crates-tui
 cargo-smart-release
 nu
+httpmock
