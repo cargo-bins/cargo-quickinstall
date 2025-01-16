@@ -42,3 +42,4 @@ httpmock
 remove_dir_all
 trunk
 tplay
+crates-tui
