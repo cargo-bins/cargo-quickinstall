@@ -20,3 +20,4 @@ cargo-crev
 tendermint-abci
 rtx-cli
 unic-langid-impl
+apollo-router
