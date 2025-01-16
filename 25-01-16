@@ -16,3 +16,4 @@ benfred-read-process-memory
 tokio-process
 remove_dir_all
 oso
+tokio-process
