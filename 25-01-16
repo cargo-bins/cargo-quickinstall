@@ -2,3 +2,4 @@ tree-sitter-graph
 rustfmt-nightly
 cargo-outdated
 sqlx-cli
+dotenv
