@@ -21,3 +21,4 @@ graphql_client_cli
 openpgp-card-tools
 dotenv
 venator-app
+sha1collisiondetection
