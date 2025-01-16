@@ -6,3 +6,4 @@ rustfmt-nightly
 nu_plugin_dbus
 tree-sitter-cli
 nu_plugin_dbus
+sequoia-sq
