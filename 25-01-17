@@ -11,3 +11,4 @@ tactics-trainer-cli
 alacritty
 dotenv
 socketcan
+graphql_client_cli
