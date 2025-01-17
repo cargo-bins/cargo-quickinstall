@@ -2,3 +2,4 @@ winpty-rs
 nkeys
 deploy
 rustfmt-nightly
+dotenv
