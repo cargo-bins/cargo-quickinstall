@@ -6,3 +6,4 @@ socketcan
 deploy
 solana-genesis
 cargo-udeps
+opencv-binding-generator
