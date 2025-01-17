@@ -9,3 +9,4 @@ cargo-udeps
 opencv-binding-generator
 clippy
 nu
+re_query
