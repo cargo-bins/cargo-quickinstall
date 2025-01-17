@@ -12,3 +12,4 @@ cargo-template
 clippy
 re_query
 oso
+laminar
