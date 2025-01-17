@@ -7,3 +7,4 @@ deploy
 rustfmt-nightly
 alacritty
 mdcat
+tactics-trainer-cli
