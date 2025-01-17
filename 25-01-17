@@ -19,3 +19,4 @@ opencv-binding-generator
 trunk
 carapace
 graphql_client_cli
+clippy
