@@ -13,3 +13,4 @@ dotenv
 socketcan
 graphql_client_cli
 deploy
+stgit
