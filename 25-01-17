@@ -1,3 +1,4 @@
 winpty-rs
 deploy
 zellij
+rustfmt-nightly
