@@ -43,3 +43,4 @@ diesel_cli
 rg
 trunk
 deno
+cargo-stylus
