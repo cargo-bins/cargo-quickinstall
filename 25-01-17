@@ -13,3 +13,4 @@ xbuild
 opencv-binding-generator
 trunk
 xbuild
+cargo-spellcheck
