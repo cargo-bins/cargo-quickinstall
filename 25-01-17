@@ -11,3 +11,4 @@ clippy
 nu
 re_query
 oso
+tauri-cli
