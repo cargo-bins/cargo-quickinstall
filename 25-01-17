@@ -4,3 +4,4 @@ oculante
 cargo-dylint
 porsmo
 deploy
+rustfmt-nightly
