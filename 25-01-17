@@ -6,3 +6,4 @@ porsmo
 deploy
 rustfmt-nightly
 alacritty
+mdcat
