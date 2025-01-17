@@ -5,3 +5,4 @@ mdcat
 deploy
 rustfmt-nightly
 dotenv
+socketcan
