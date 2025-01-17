@@ -5,3 +5,4 @@ dotenv
 cargo-template
 socketcan
 deploy
+cargo-template
