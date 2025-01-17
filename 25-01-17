@@ -13,3 +13,4 @@ cargo-template
 deno
 opencv-binding-generator
 deno
+clippy
