@@ -4,3 +4,4 @@ deploy
 rustfmt-nightly
 dotenv
 socketcan
+deploy
