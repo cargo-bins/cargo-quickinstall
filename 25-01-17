@@ -4,3 +4,4 @@ rustfmt-nightly
 cargo-template
 dotenv
 socketcan
+deploy
