@@ -15,3 +15,4 @@ graphql_client_cli
 stgit
 rga
 cargo-list
+opencv-binding-generator
