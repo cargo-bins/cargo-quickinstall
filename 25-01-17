@@ -6,3 +6,4 @@ socketcan
 deploy
 solana-genesis
 sn_cli
+opencv-binding-generator
