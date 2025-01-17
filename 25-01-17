@@ -2,3 +2,4 @@ winpty-rs
 deploy
 rustfmt-nightly
 dotenv
+cargo-template
