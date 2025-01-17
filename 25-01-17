@@ -3,3 +3,4 @@ nkeys
 deploy
 rustfmt-nightly
 dotenv
+socketcan
