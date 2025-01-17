@@ -10,3 +10,4 @@ mdcat
 tactics-trainer-cli
 alacritty
 dotenv
+socketcan
