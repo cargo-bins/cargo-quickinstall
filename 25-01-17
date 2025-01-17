@@ -18,3 +18,4 @@ clippy
 xbuild
 cargo-spellcheck
 xbuild
+wait-for-them
