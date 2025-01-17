@@ -5,3 +5,4 @@ dotenv
 socketcan
 deploy
 solana-genesis
+cargo-udeps
