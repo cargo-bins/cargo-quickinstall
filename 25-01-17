@@ -23,3 +23,4 @@ rga
 graphql_client_cli
 opencv-binding-generator
 clippy
+tactics-trainer-cli
