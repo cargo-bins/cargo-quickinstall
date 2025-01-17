@@ -1,3 +1,4 @@
 winpty-rs
 deploy
 rustfmt-nightly
+dotenv
