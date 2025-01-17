@@ -14,3 +14,4 @@ oso
 tauri-cli
 rkv
 wmi
+pwasm-utils
