@@ -55,3 +55,4 @@ crates-tui
 porsmo
 cargo-dylint
 tactics-trainer-cli
+wiki-tui
