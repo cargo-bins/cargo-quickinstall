@@ -6,3 +6,4 @@ dotenv
 socketcan
 deploy
 cargo-template
+protox
