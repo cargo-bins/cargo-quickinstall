@@ -4,3 +4,4 @@ rustfmt-nightly
 dotenv
 socketcan
 deploy
+solana-genesis
