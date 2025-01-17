@@ -4,3 +4,4 @@ oculante
 mdcat
 deploy
 rustfmt-nightly
+dotenv
