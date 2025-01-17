@@ -7,3 +7,4 @@ rustfmt-nightly
 dotenv
 socketcan
 carapace
+deploy
