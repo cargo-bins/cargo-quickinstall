@@ -5,3 +5,4 @@ cargo-dylint
 porsmo
 deploy
 rustfmt-nightly
+alacritty
