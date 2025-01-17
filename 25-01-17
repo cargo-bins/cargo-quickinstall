@@ -2,3 +2,4 @@ winpty-rs
 deploy
 zellij
 rustfmt-nightly
+c2patool
