@@ -16,3 +16,4 @@ papyrus_storage
 perfcnt
 papyrus_storage
 git-mit
+cargo-generate
