@@ -34,3 +34,4 @@ probe-rs-tools
 jless
 endbasic
 probe-run
+raw-cpuid
