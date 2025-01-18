@@ -42,3 +42,4 @@ arrow-flight
 cargo-dylint
 wiki-tui
 probe-run
+dbus-codegen
