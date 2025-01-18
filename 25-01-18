@@ -1,3 +1,4 @@
 endbasic
 probe-run
 rg
+dbus-codegen
