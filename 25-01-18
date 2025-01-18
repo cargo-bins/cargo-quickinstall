@@ -28,3 +28,4 @@ perfcnt
 papyrus_storage
 git-mit
 iai-callgrind-runner
+cargo-generate
