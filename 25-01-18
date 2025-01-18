@@ -29,3 +29,4 @@ probe-run
 cargo-stylus
 cargo-dylint
 speedtest-rs
+cargo-stylus
