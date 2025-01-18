@@ -4,3 +4,4 @@ evcxr_repl
 mit-pre-commit
 cargo-udeps
 addr2line
+tree-sitter-graph
