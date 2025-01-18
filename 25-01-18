@@ -30,3 +30,4 @@ git-mit
 iai-callgrind-runner
 cargo-generate
 skim
+honggfuzz
