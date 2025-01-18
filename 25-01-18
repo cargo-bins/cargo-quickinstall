@@ -50,3 +50,4 @@ dbus-codegen
 cargo-info
 ripdrag
 git-next
+probe-rs-tools
