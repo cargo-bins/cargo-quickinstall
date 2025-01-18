@@ -14,3 +14,4 @@ evcxr_repl
 solana-tokens
 perfcnt
 git-mit
+cargo-generate
