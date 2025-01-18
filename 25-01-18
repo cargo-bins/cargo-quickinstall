@@ -33,3 +33,4 @@ cargo-stylus
 probe-rs-tools
 jless
 endbasic
+probe-run
