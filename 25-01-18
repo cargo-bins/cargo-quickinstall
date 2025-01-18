@@ -16,3 +16,4 @@ iai-callgrind-runner
 cargo-generate
 deno
 holochain
+holochain_keystore
