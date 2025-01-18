@@ -19,3 +19,4 @@ clipboard-history
 graphql_client_cli
 endbasic
 mdcat
+probe-run
