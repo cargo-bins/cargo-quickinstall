@@ -5,3 +5,4 @@ rg
 mit-pre-commit
 rg
 addr2line
+tree-sitter-graph
