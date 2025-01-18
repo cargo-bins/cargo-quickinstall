@@ -7,3 +7,4 @@ addr2line
 tree-sitter-graph
 httpmock
 solana-cli
+mit-pre-commit
