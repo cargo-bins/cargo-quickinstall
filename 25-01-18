@@ -3,3 +3,4 @@ probe-run
 rg
 dbus-codegen
 alacritty
+cargo-stylus
