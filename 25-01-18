@@ -6,3 +6,4 @@ httpmock
 solana-cli
 exa
 mit-pre-commit
+arrow-flight
