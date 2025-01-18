@@ -10,3 +10,4 @@ sea-orm-cli
 netop
 addr2line
 cargo-stylus
+tree-sitter-graph
