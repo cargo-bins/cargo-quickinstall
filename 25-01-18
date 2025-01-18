@@ -67,3 +67,4 @@ rtx-cli
 probe-rs-tools
 git-next
 tree-sitter-graph
+solana-net-utils
