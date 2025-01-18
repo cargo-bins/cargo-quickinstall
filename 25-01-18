@@ -11,3 +11,4 @@ gnome-randr
 hurl
 sea-orm-cli
 cargo-stylus
+addr2line
