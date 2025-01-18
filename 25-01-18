@@ -10,3 +10,4 @@ dbus-codegen
 gnome-randr
 hurl
 sea-orm-cli
+cargo-stylus
