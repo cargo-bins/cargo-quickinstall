@@ -11,3 +11,4 @@ netop
 addr2line
 cargo-stylus
 tree-sitter-graph
+cargo-dylint
