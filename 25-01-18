@@ -18,3 +18,4 @@ cargo-generate
 sccache
 deno
 solana-tokens
+watchexec-cli
