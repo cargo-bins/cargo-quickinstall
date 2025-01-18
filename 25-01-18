@@ -15,3 +15,4 @@ solana-tokens
 perfcnt
 git-mit
 cargo-generate
+sccache
