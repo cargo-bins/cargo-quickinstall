@@ -40,3 +40,4 @@ probe-rs-tools
 endbasic
 arrow-flight
 cargo-dylint
+wiki-tui
