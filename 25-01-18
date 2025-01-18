@@ -20,3 +20,4 @@ holochain_keystore
 deno
 sn_faucet
 honggfuzz
+laminar
