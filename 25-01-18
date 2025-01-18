@@ -2,3 +2,4 @@ addr2line
 tree-sitter-graph
 raw-cpuid
 arrow-flight
+perfcnt
