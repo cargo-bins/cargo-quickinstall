@@ -66,3 +66,4 @@ probe-rs-tools
 rtx-cli
 probe-rs-tools
 git-next
+tree-sitter-graph
