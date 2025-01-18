@@ -71,3 +71,4 @@ probe-rs-tools
 solana-net-utils
 endbasic
 cargo-unmaintained
+git-next
