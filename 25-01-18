@@ -31,3 +31,4 @@ iai-callgrind-runner
 cargo-generate
 skim
 honggfuzz
+skim
