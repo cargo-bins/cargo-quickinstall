@@ -27,3 +27,4 @@ cargo-list
 neovide
 probe-run
 cargo-stylus
+cargo-dylint
