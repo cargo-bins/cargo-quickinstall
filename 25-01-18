@@ -35,3 +35,4 @@ jless
 endbasic
 probe-run
 raw-cpuid
+neovide
