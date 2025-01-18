@@ -1,3 +1,4 @@
 pwasm-utils
 mit-pre-commit
 addr2line
+tree-sitter-graph
