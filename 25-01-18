@@ -11,3 +11,4 @@ mit-pre-commit
 raw-cpuid
 arrow-flight
 librespot
+evcxr_repl
