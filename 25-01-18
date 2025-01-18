@@ -17,3 +17,4 @@ sqlx-cli
 mit-pre-commit
 raw-cpuid
 sheldon
+arrow-flight
