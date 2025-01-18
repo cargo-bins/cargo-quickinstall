@@ -13,3 +13,4 @@ cargo-stylus
 tree-sitter-graph
 cargo-dylint
 neovide
+httpmock
