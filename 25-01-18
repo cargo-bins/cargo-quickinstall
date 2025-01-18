@@ -68,3 +68,4 @@ probe-rs-tools
 git-next
 tree-sitter-graph
 solana-net-utils
+cargo-unmaintained
