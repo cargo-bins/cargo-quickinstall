@@ -22,3 +22,4 @@ watchexec-cli
 zellij
 textplots
 tree-sitter-graph
+sccache
