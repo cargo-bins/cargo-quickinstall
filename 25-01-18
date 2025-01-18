@@ -54,3 +54,4 @@ git-next
 neovide
 probe-rs-tools
 ddt
+dbus-codegen
