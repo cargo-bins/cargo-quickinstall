@@ -36,3 +36,4 @@ endbasic
 probe-run
 raw-cpuid
 neovide
+probe-rs-tools
