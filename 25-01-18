@@ -27,3 +27,4 @@ probe-rs-tools
 deno
 laminar
 textplots
+tree-sitter-graph
