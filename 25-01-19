@@ -13,3 +13,4 @@ perfcnt
 dotenv
 clippy
 nextest-filtering
+sea-orm-cli
