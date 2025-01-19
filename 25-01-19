@@ -14,3 +14,4 @@ spider_cli
 perfcnt
 cargo-risczero
 dotenv
+clippy
