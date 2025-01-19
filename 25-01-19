@@ -16,3 +16,4 @@ perfcnt
 cargo-risczero
 dotenv
 clippy
+nextest-filtering
