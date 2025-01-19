@@ -20,3 +20,4 @@ deploy
 tree-sitter-cli
 git-next
 solana-cli
+cargo-unmaintained
