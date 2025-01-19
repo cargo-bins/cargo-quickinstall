@@ -11,3 +11,4 @@ stellar-strkey
 rustbus
 addr2line
 cargo-generate
+solana-cli
