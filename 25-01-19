@@ -21,3 +21,4 @@ rustbus
 addr2line
 dua-cli
 cargo-generate
+solana-cli
