@@ -12,3 +12,4 @@ spider_cli
 perfcnt
 dotenv
 clippy
+nextest-filtering
