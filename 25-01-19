@@ -13,3 +13,4 @@ cargo-generate
 spider_cli
 perfcnt
 cargo-risczero
+dotenv
