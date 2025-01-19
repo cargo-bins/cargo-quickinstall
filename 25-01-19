@@ -9,3 +9,4 @@ httpmock
 stellar-strkey
 addr2line
 solana-cli
+cargo-generate
