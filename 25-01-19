@@ -13,3 +13,4 @@ addr2line
 cargo-generate
 solana-cli
 perfcnt
+cargo-risczero
