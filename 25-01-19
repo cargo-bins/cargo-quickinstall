@@ -3,3 +3,4 @@ foundationdb-gen
 nextest-filtering
 deploy
 racer
+httpmock
