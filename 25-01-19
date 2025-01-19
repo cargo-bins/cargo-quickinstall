@@ -10,3 +10,4 @@ solana-net-utils
 avm
 avm
 perfcnt
+dotenv
