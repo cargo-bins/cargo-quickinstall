@@ -14,3 +14,4 @@ perfcnt
 dotenv
 clippy
 nextest-filtering
+cargo-codspeed
