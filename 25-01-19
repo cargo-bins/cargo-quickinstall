@@ -54,3 +54,4 @@ fselect
 kak-lsp
 tree-sitter-cli
 amdgpu_top
+cargo-bootimage
