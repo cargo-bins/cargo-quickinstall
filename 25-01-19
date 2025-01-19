@@ -18,3 +18,4 @@ dotenv
 clippy
 nextest-filtering
 rmesg
+ec2_instance_metadata
