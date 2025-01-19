@@ -57,3 +57,4 @@ amdgpu_top
 cargo-bootimage
 oculante
 simple-http-server
+dx-cli
