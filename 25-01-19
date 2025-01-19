@@ -43,3 +43,4 @@ stgit
 cargo-spellcheck
 nextest-filtering
 dx-cli
+simple-http-server
