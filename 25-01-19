@@ -16,3 +16,4 @@ clippy
 nextest-filtering
 cargo-codspeed
 cargo-codspeed
+mit-pre-commit
