@@ -6,3 +6,4 @@ nextest-filtering
 deploy
 racer
 stellar-strkey
+addr2line
