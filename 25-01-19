@@ -22,3 +22,4 @@ mit-pre-commit
 nextest-filtering
 sea-orm-cli
 spider_cli
+mit-pre-commit
