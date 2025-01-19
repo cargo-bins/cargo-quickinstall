@@ -63,3 +63,4 @@ cargo-bootimage
 tree-sitter-cli
 spider_cli
 cargo-bootimage
+phf_generator
