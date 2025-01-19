@@ -19,3 +19,4 @@ cargo-codspeed
 mit-pre-commit
 nextest-filtering
 sea-orm-cli
+spider_cli
