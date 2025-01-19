@@ -3,3 +3,4 @@ snarkvm
 tendermint-rpc
 foundationdb-gen
 trunk
+py-spy
