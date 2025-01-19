@@ -61,3 +61,4 @@ simple-http-server
 dx-cli
 spotify_player
 stgit
+cargo-bootimage
