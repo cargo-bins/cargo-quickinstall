@@ -17,3 +17,4 @@ cargo-risczero
 dotenv
 clippy
 nextest-filtering
+rmesg
