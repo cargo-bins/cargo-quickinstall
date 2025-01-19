@@ -58,3 +58,4 @@ cargo-bootimage
 oculante
 simple-http-server
 dx-cli
+tree-sitter-cli
