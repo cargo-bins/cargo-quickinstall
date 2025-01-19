@@ -2,3 +2,4 @@ snarkvm
 foundationdb-gen
 safe_network
 py-spy
+nextest-filtering
