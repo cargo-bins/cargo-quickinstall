@@ -30,3 +30,4 @@ addr2line
 binwalk
 solana-cli
 alacritty
+simple-http-server
