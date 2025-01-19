@@ -24,3 +24,4 @@ sea-orm-cli
 spider_cli
 mit-pre-commit
 phf_generator
+nkeys
