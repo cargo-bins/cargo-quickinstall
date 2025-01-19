@@ -2,3 +2,4 @@ tendermint-rpc
 foundationdb-gen
 nextest-filtering
 deploy
+racer
