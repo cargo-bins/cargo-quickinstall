@@ -51,3 +51,4 @@ cargo-bootimage
 cargo-bootimage
 stgit
 clippy
+nextest-filtering
