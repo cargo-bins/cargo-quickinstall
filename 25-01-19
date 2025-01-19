@@ -4,3 +4,4 @@ foundationdb-gen
 py-spy
 nextest-filtering
 deploy
+racer
