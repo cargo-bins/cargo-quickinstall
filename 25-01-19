@@ -16,3 +16,4 @@ perfcnt
 dotenv
 clippy
 nextest-filtering
+phf_generator
