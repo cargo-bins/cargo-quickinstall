@@ -40,3 +40,4 @@ oculante
 dotenv
 simple-http-server
 stgit
+cargo-spellcheck
