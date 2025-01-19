@@ -20,3 +20,4 @@ nextest-filtering
 rmesg
 ec2_instance_metadata
 mit-pre-commit
+nextest-filtering
