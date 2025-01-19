@@ -9,3 +9,4 @@ deploy
 solana-cli
 racer
 stellar-strkey
+addr2line
