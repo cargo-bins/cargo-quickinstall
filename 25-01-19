@@ -38,3 +38,4 @@ xcolor
 cargo-bootimage
 oculante
 dotenv
+simple-http-server
