@@ -18,3 +18,4 @@ cargo-codspeed
 cargo-codspeed
 mit-pre-commit
 nextest-filtering
+sea-orm-cli
