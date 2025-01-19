@@ -4,3 +4,4 @@ tendermint-rpc
 foundationdb-gen
 trunk
 py-spy
+nextest-filtering
