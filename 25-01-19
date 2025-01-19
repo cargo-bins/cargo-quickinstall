@@ -14,3 +14,4 @@ solana-cli
 spider_cli
 perfcnt
 dotenv
+clippy
