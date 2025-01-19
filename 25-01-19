@@ -10,3 +10,4 @@ addr2line
 solana-cli
 cargo-generate
 spider_cli
+perfcnt
