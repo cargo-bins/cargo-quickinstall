@@ -2,3 +2,4 @@ snarkvm
 tendermint-rpc
 foundationdb-gen
 py-spy
+nextest-filtering
