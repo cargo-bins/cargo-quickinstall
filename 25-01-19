@@ -10,3 +10,4 @@ httpmock
 stellar-strkey
 rustbus
 addr2line
+cargo-generate
