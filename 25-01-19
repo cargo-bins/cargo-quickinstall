@@ -7,3 +7,4 @@ deploy
 racer
 stellar-strkey
 addr2line
+solana-cli
