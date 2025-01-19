@@ -12,3 +12,4 @@ cargo-generate
 spider_cli
 perfcnt
 dotenv
+clippy
