@@ -17,3 +17,4 @@ py-spy
 simple-http-server
 nextest-filtering
 deploy
+tree-sitter-cli
