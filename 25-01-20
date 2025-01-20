@@ -11,3 +11,4 @@ stellar-strkey
 nextest-filtering
 cargo-outdated
 tendermint-rpc
+cpp_demangle
