@@ -10,3 +10,4 @@ stellar-strkey
 tendermint-rpc
 cpp_demangle
 apollo-router
+tendermint-abci
