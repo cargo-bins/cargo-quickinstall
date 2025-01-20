@@ -15,3 +15,4 @@ cpp_demangle
 cargo-outdated
 apollo-router
 tendermint-abci
+perfcnt
