@@ -20,3 +20,4 @@ tendermint-rpc
 oso
 cpp_demangle
 cargo-outdated
+apollo-router
