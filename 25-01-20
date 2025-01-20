@@ -10,3 +10,4 @@ nextest-filtering
 tendermint-rpc
 cpp_demangle
 apollo-router
+tendermint-abci
