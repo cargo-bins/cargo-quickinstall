@@ -18,3 +18,4 @@ nextest-filtering
 cargo-outdated
 tendermint-rpc
 oso
+cpp_demangle
