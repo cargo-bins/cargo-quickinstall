@@ -12,3 +12,4 @@ nextest-filtering
 holochain_keystore
 tendermint-rpc
 cpp_demangle
+rav1e
