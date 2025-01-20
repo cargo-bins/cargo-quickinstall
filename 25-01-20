@@ -19,3 +19,4 @@ cargo-outdated
 tendermint-rpc
 oso
 cpp_demangle
+cargo-outdated
