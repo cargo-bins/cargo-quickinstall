@@ -12,3 +12,4 @@ tendermint-rpc
 oso
 cpp_demangle
 apollo-router
+tendermint-abci
