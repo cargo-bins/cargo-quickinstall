@@ -8,3 +8,4 @@ rrule
 stellar-strkey
 nextest-filtering
 tendermint-rpc
+cpp_demangle
