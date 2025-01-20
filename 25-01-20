@@ -42,3 +42,4 @@ imgcat
 rav1e
 apollo-router
 tendermint-abci
+sea-orm-cli
