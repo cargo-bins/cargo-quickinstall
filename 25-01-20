@@ -12,3 +12,4 @@ nextest-filtering
 cargo-outdated
 tendermint-rpc
 cpp_demangle
+cargo-outdated
