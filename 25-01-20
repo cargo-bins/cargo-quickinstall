@@ -11,3 +11,4 @@ httpbis
 nextest-filtering
 holochain_keystore
 tendermint-rpc
+cpp_demangle
