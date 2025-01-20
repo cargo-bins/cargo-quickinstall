@@ -23,3 +23,4 @@ git-mit-install
 cargo-risczero
 deno
 cargo-generate
+human_bytes
