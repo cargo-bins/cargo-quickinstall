@@ -31,3 +31,4 @@ dx-cli
 cargo-spellcheck
 imgcat
 nextsv
+tendermint-rpc
