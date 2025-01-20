@@ -12,3 +12,4 @@ kak-lsp
 cargo-bootimage
 spotify_player
 stellar-xdr
+sea-orm-cli
