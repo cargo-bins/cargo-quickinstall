@@ -32,3 +32,4 @@ deno
 cargo-generate
 tauri-cli
 ducc-sys
+solana-validator
