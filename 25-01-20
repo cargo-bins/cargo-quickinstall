@@ -22,3 +22,4 @@ git-mit-install
 h3o
 deno
 cargo-generate
+tauri-cli
