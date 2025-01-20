@@ -12,3 +12,4 @@ cpp_demangle
 apollo-router
 tendermint-abci
 perfcnt
+rustrict
