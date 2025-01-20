@@ -16,3 +16,4 @@ rrule
 stellar-strkey
 nextest-filtering
 cargo-outdated
+tendermint-rpc
