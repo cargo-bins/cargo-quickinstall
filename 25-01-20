@@ -8,3 +8,4 @@ nexmark
 rrule
 stellar-strkey
 tendermint-rpc
+cpp_demangle
