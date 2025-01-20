@@ -8,3 +8,4 @@ rrule
 stellar-strkey
 mit-pre-commit
 tendermint-rpc
+cpp_demangle
