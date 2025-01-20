@@ -44,3 +44,4 @@ apollo-router
 tendermint-abci
 sea-orm-cli
 rustrict
+clippy
