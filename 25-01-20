@@ -16,3 +16,4 @@ cargo-outdated
 apollo-router
 tendermint-abci
 perfcnt
+solana-cli
