@@ -11,3 +11,4 @@ tendermint-rpc
 cpp_demangle
 rav1e
 apollo-router
+tendermint-abci
