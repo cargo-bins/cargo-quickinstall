@@ -31,3 +31,4 @@ h3o
 deno
 cargo-generate
 tauri-cli
+ducc-sys
