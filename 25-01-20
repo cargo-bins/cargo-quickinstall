@@ -25,3 +25,4 @@ deno
 cargo-generate
 human_bytes
 rustfmt
+solana-validator
