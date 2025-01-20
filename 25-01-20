@@ -6,3 +6,4 @@ stellar-xdr
 nexmark
 spider_cli
 rrule
+spider_worker
