@@ -6,3 +6,4 @@ cargo-local-registry
 solana-tokens
 sha1collisiondetection
 exa
+mit-prepare-commit-msg
