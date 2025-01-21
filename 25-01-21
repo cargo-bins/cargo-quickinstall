@@ -4,3 +4,4 @@ cargo-codspeed
 safe_network
 tree-sitter-graph
 fake
+human_name
