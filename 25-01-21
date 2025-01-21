@@ -17,3 +17,4 @@ mit-prepare-commit-msg
 socketcan
 tree-sitter-cli
 solana-gossip
+clippy
