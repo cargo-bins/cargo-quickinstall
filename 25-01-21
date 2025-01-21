@@ -21,3 +21,4 @@ protofetch
 diesel_cli
 cargo-about
 minicbor
+sqlx-cli
