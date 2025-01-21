@@ -25,3 +25,4 @@ diesel_cli
 cargo-flash
 minicbor
 argus-cli
+oso
