@@ -7,3 +7,4 @@ fake
 human_name
 cargo-outdated
 nu
+watchexec-cli
