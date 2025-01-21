@@ -15,3 +15,4 @@ socketcan
 tree-sitter-cli
 solana-gossip
 clippy
+schemafy
