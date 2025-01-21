@@ -9,3 +9,4 @@ socketcan
 tree-sitter-cli
 racer
 clippy
+schemafy
