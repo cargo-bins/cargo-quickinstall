@@ -27,3 +27,4 @@ cargo-ktra-login
 vnc-client
 hyprswitch
 solana-tokens
+sha1collisiondetection
