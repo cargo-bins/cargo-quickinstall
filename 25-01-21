@@ -16,3 +16,4 @@ schemafy
 diesel_cli
 minicbor
 sqlx-cli
+oso
