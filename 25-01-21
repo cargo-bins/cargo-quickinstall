@@ -12,3 +12,4 @@ cargo-local-registry
 ncspot
 material
 solana-tokens
+sha1collisiondetection
