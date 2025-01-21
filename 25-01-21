@@ -4,3 +4,4 @@ human_name
 sn_cli
 cargo-local-registry
 solana-tokens
+sha1collisiondetection
