@@ -61,3 +61,4 @@ diesel_cli
 minicbor
 twitch-tui
 oso
+cargo-spellcheck
