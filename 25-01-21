@@ -6,3 +6,4 @@ human_name
 cargo-outdated
 nu
 cargo-tarpaulin
+cargo-local-registry
