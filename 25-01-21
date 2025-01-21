@@ -24,3 +24,4 @@ cargo-flash
 diesel_cli
 cargo-flash
 minicbor
+argus-cli
