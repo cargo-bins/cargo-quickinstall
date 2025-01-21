@@ -8,3 +8,4 @@ fake
 nextest-filtering
 ncspot
 ncspot
+cargo-local-registry
