@@ -8,3 +8,4 @@ nu
 cargo-tarpaulin
 cargo-local-registry
 solana-tokens
+sha1collisiondetection
