@@ -19,3 +19,4 @@ nextest-filtering
 binstall
 cargo-public-api
 legba
+bugstalker
