@@ -21,3 +21,4 @@ socketcan
 clippy
 schemafy
 cargo-flash
+diesel_cli
