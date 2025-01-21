@@ -18,3 +18,4 @@ clippy
 schemafy
 solana-tokens
 protofetch
+diesel_cli
