@@ -14,3 +14,4 @@ socketcan
 cargo-flash
 pnafs
 clippy
+schemafy
