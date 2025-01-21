@@ -10,3 +10,4 @@ nu
 watchexec-cli
 cargo-tarpaulin
 cargo-local-registry
+solana-tokens
