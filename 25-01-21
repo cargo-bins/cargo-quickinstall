@@ -17,3 +17,4 @@ clippy
 schemafy
 wac
 solana-tokens
+diesel_cli
