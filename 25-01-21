@@ -20,3 +20,4 @@ pnafs
 socketcan
 clippy
 schemafy
+cargo-flash
