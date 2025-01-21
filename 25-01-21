@@ -9,3 +9,4 @@ cargo-outdated
 nu
 watchexec-cli
 cargo-tarpaulin
+cargo-local-registry
