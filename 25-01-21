@@ -13,3 +13,4 @@ solana-tokens
 mit-prepare-commit-msg
 socketcan
 tree-sitter-cli
+solana-gossip
