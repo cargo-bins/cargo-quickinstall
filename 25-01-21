@@ -24,3 +24,4 @@ cargo-flash
 cargo-flash
 oso
 argus-cli
+pwasm-utils
