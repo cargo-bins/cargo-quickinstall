@@ -16,3 +16,4 @@ cargo-spellcheck
 re_query
 tgt
 nexmark
+addr2line
