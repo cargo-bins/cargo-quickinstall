@@ -39,3 +39,4 @@ git-mit-relates-to
 wol-rs
 mit-prepare-commit-msg
 cargo-local-registry
+cargo-selector
