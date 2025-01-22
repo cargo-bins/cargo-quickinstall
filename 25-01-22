@@ -57,3 +57,4 @@ spider_worker
 tree-sitter-cli
 fend
 fselect
+tui-journal
