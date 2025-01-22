@@ -71,3 +71,4 @@ redoxer
 rsql_cli
 cargo-info
 clipboard-history
+tui-journal
