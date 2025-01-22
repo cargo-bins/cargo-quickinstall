@@ -3,3 +3,4 @@ schemafy
 re_query
 holochain
 nexmark
+remove_dir_all
