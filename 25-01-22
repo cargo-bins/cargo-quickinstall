@@ -40,3 +40,4 @@ wol-rs
 mit-prepare-commit-msg
 cargo-local-registry
 cargo-selector
+solana-stake-accounts
