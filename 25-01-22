@@ -6,3 +6,4 @@ tokio-process
 holochain
 nexmark
 sn_faucet
+deno
