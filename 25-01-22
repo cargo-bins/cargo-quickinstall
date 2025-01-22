@@ -13,3 +13,4 @@ fake
 git-disjoint
 cargo-udeps
 cached-path
+spider_worker
