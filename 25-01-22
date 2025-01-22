@@ -12,3 +12,4 @@ git-disjoint
 cached-path
 spider_worker
 apollo-router
+parquet
