@@ -20,3 +20,4 @@ tree-sitter-cli
 musicgpt
 holochain
 nexmark
+remove_dir_all
