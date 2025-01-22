@@ -39,3 +39,4 @@ tgt
 git-disjoint
 tgt
 cached-path
+fzf-make
