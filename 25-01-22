@@ -22,3 +22,4 @@ dioxus-cli
 fake
 git-disjoint
 cached-path
+apollo-router
