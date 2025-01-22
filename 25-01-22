@@ -14,3 +14,4 @@ spider_worker
 apollo-router
 parquet
 wol-rs
+z3tracer
