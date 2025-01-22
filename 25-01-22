@@ -13,3 +13,4 @@ cargo-spellcheck
 tree-sitter-cli
 diesel_cli
 tgt
+twitch-tui
