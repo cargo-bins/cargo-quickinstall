@@ -24,3 +24,4 @@ remove_dir_all
 cargo-count
 terminusdm
 plastic_tui
+deno
