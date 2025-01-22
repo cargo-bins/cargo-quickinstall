@@ -26,3 +26,4 @@ git-mit-relates-to
 cargo-vet
 wol-rs
 parquet
+mit-prepare-commit-msg
