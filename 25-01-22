@@ -18,3 +18,4 @@ cargo-udeps
 cached-path
 spider_worker
 git-mit-install
+apollo-router
