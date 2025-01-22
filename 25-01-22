@@ -3,3 +3,4 @@ schemafy
 sqlx-cli
 re_query
 tokio-process
+holochain
