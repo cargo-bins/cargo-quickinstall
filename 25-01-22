@@ -10,3 +10,4 @@ xv
 schemafy
 cargo-count
 cargo-spellcheck
+tree-sitter-cli
