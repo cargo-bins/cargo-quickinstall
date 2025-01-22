@@ -7,3 +7,4 @@ holochain
 nexmark
 deno
 solana-tokens
+sqlx-cli
