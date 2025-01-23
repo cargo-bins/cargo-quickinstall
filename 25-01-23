@@ -20,3 +20,4 @@ cargo-dylint
 odbc2parquet
 rkv
 oxio
+solana-validator
