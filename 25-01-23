@@ -5,3 +5,4 @@ safe_network
 diesel_cli
 rkv
 a11ywatch_cli
+unic-langid-impl
