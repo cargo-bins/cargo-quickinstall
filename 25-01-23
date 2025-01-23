@@ -51,3 +51,4 @@ shadowsocks-rust
 c2rust
 oxio
 wthrr
+cargo-embassy
