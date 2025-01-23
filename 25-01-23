@@ -53,3 +53,4 @@ a11ywatch_cli
 odbc2parquet
 nu
 rg
+cargo-public-api
