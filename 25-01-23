@@ -68,3 +68,4 @@ cargo-public-api
 librespot
 markdown-test-report
 libbpf-cargo
+odbc2parquet
