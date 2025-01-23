@@ -20,3 +20,4 @@ sccache
 safe_network
 librespot
 libbpf-cargo
+wol-rs
