@@ -69,3 +69,4 @@ librespot
 markdown-test-report
 libbpf-cargo
 odbc2parquet
+wol-rs
