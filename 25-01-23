@@ -40,3 +40,4 @@ tree-sitter-cli
 shadowsocks-rust
 rg
 ledgerdb
+c2rust
