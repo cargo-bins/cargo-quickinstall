@@ -27,3 +27,4 @@ a11ywatch_cli
 ledgerdb
 c2rust
 oculante
+cargo-embassy
