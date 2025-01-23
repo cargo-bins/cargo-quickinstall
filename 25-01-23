@@ -14,3 +14,4 @@ libbpf-cargo
 wol-rs
 a11ywatch_cli
 solana-faucet
+human_bytes
