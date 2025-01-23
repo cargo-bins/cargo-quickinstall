@@ -8,3 +8,4 @@ zero4rs
 cargo-local-registry
 sqlx-cli
 zero4rs
+stellar-strkey
