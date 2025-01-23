@@ -30,3 +30,4 @@ ledgerdb
 cargo-ktra-login
 raw-cpuid
 dioxus-cli
+shadowsocks-rust
