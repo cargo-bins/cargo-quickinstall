@@ -59,3 +59,4 @@ sniffnet
 sea-orm-cli
 c2rust
 mdcat
+safe_network
