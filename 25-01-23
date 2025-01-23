@@ -21,3 +21,4 @@ safe_network
 librespot
 libbpf-cargo
 wol-rs
+a11ywatch_cli
