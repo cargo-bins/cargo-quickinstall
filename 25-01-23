@@ -12,3 +12,4 @@ venator-app
 odbc2parquet
 ledgerdb
 totpm
+cargo-info
