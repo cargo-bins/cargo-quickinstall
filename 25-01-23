@@ -73,3 +73,4 @@ wol-rs
 cargo-public-api
 glv
 odbc2parquet
+a11ywatch_cli
