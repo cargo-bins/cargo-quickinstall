@@ -29,3 +29,4 @@ c2rust
 oculante
 cargo-embassy
 ledgerdb
+graphql_client_cli
