@@ -12,3 +12,4 @@ ddt
 addr2line
 graphql_client_cli
 cargo-dylint
+sea-orm-cli
