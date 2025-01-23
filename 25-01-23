@@ -54,3 +54,4 @@ odbc2parquet
 nu
 rg
 cargo-public-api
+cargo-embassy
