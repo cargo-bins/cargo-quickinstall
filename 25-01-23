@@ -2,3 +2,4 @@ totpm
 cargo-embassy
 fend
 sshx
+human_bytes
