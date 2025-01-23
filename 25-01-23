@@ -14,3 +14,4 @@ sqlx-cli
 sqlx-cli
 rkv
 cargo-local-registry
+solana-validator
