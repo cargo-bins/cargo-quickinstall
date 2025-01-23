@@ -19,3 +19,4 @@ fend
 cargo-dylint
 odbc2parquet
 rkv
+oxio
