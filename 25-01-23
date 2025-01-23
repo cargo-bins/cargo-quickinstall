@@ -50,3 +50,4 @@ shadowsocks-rust
 cargo-embassy
 glv
 a11ywatch_cli
+odbc2parquet
