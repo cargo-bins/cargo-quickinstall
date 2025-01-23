@@ -14,3 +14,4 @@ graphql_client_cli
 cargo-dylint
 sea-orm-cli
 odbc2parquet
+safe_network
