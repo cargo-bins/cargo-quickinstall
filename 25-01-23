@@ -57,3 +57,4 @@ cargo-public-api
 cargo-embassy
 sniffnet
 sea-orm-cli
+c2rust
