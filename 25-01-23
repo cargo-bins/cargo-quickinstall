@@ -17,3 +17,4 @@ cargo-local-registry
 solana-validator
 cargo-selector
 zero4rs
+unic-langid-impl
