@@ -14,3 +14,4 @@ mit-prepare-commit-msg
 safe_network
 rav1e
 libbpf-cargo
+wol-rs
