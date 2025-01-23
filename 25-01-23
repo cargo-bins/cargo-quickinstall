@@ -56,3 +56,4 @@ rg
 cargo-public-api
 cargo-embassy
 sniffnet
+sea-orm-cli
