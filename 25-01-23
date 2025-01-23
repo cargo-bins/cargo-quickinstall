@@ -10,3 +10,4 @@ solana-net-utils
 tui-journal
 ddt
 addr2line
+graphql_client_cli
