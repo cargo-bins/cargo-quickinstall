@@ -9,3 +9,4 @@ c2rust
 solana-net-utils
 tui-journal
 ddt
+addr2line
