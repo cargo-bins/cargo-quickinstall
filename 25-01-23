@@ -70,3 +70,4 @@ markdown-test-report
 libbpf-cargo
 odbc2parquet
 wol-rs
+cargo-public-api
