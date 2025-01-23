@@ -33,3 +33,4 @@ dioxus-cli
 shadowsocks-rust
 oso
 odbc2parquet
+rsql_cli
