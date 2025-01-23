@@ -37,3 +37,4 @@ raw-cpuid
 cargo-unmaintained
 wthrr
 tree-sitter-cli
+shadowsocks-rust
