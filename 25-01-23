@@ -19,3 +19,4 @@ a11ywatch_cli
 nu
 safe_network
 librespot
+libbpf-cargo
