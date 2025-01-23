@@ -33,3 +33,4 @@ graphql_client_cli
 ledgerdb
 oxio
 holochain
+raw-cpuid
