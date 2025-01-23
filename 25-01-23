@@ -3,3 +3,4 @@ solana-net-utils
 mit-pre-commit
 safe_network
 diesel_cli
+rkv
