@@ -15,3 +15,4 @@ nu
 mit-prepare-commit-msg
 sccache
 librespot
+libbpf-cargo
