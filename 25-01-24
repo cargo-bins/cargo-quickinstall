@@ -10,3 +10,4 @@ fake
 solana-validator
 ducc-sys
 tendermint-rpc
+rustfmt-nightly
