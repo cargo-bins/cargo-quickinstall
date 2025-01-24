@@ -21,3 +21,4 @@ ducc-sys
 schemafy
 spider_worker
 tendermint-rpc
+rustfmt-nightly
