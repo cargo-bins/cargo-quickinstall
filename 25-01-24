@@ -10,3 +10,4 @@ tendermint-abci
 cargo-vet
 syd
 ducc-sys
+mit-commit-msg
