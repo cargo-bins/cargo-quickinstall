@@ -4,3 +4,4 @@ git-mit-config
 snarkvm
 dotenvy
 winpty-rs
+tendermint-abci
