@@ -20,3 +20,4 @@ text-diff
 iai-callgrind-runner
 text-diff
 ec2_instance_metadata
+tendermint-rpc
