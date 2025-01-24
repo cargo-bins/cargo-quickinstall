@@ -62,3 +62,4 @@ eureka
 tendermint-rpc
 fm-tui
 rustfmt-nightly
+winpty-rs
