@@ -3,3 +3,4 @@ cpp_demangle
 rls-rustc
 dotenvy
 tendermint-abci
+syd
