@@ -11,3 +11,4 @@ git-mit-config
 dotenvy
 winpty-rs
 tendermint-abci
+cargo-crev
