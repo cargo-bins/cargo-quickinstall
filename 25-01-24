@@ -39,3 +39,4 @@ sysd-manager
 ducc-sys
 fm-tui
 speedtest-rs
+remove_dir_all
