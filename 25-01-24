@@ -58,3 +58,4 @@ spider_worker
 kanidm_tools
 tendermint-rpc
 human_name
+nu_plugin_dbus
