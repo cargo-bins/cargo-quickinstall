@@ -63,3 +63,4 @@ speedtest-rs
 kanidm_tools
 cargo-whatfeatures
 eureka
+rustfmt-nightly
