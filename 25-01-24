@@ -21,3 +21,4 @@ cargo-pgrx
 ducc-sys
 spider_worker
 tendermint-rpc
+rustfmt-nightly
