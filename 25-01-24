@@ -28,3 +28,4 @@ ducc-sys
 cargo-dylint
 tendermint-rpc
 cargo-dylint
+rustfmt-nightly
