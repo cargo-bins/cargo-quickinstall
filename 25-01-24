@@ -26,3 +26,4 @@ solana-validator
 cargo-pgrx
 ducc-sys
 cargo-dylint
+tendermint-rpc
