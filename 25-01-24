@@ -20,3 +20,4 @@ solana-validator
 cargo-pgrx
 ducc-sys
 spider_worker
+tendermint-rpc
