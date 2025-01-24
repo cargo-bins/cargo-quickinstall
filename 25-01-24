@@ -64,3 +64,4 @@ kanidm_tools
 cargo-whatfeatures
 eureka
 rustfmt-nightly
+cargo-whatfeatures
