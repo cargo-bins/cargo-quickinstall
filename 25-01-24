@@ -28,3 +28,4 @@ wiki-tui
 winpty-rs
 tendermint-abci
 odbc2parquet
+cargo-dylint
