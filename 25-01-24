@@ -6,3 +6,4 @@ ec2_instance_metadata
 git-mit-config
 dotenvy
 iai-callgrind-runner
+tendermint-abci
