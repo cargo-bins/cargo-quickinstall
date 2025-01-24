@@ -11,3 +11,4 @@ solana-validator
 ducc-sys
 tendermint-rpc
 rustfmt-nightly
+winpty-rs
