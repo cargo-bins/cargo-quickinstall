@@ -7,3 +7,4 @@ winpty-rs
 tendermint-abci
 syd
 ducc-sys
+remove_dir_all
