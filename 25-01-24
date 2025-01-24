@@ -30,3 +30,4 @@ tendermint-abci
 odbc2parquet
 cargo-dylint
 anicli-esp
+graphql_client_cli
