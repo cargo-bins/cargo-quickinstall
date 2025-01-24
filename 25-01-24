@@ -4,3 +4,4 @@ rls-rustc
 dotenvy
 tendermint-abci
 syd
+ducc-sys
