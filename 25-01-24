@@ -14,3 +14,4 @@ mit-commit-msg
 remove_dir_all
 fake
 solana-validator
+ducc-sys
