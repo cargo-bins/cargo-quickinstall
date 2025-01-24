@@ -13,3 +13,4 @@ remove_dir_all
 sea-orm-cli
 spider_cli
 fake
+solana-validator
