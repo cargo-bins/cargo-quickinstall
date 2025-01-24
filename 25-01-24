@@ -11,3 +11,4 @@ remove_dir_all
 sea-orm-cli
 fake
 oxipng
+solana-validator
