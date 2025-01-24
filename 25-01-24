@@ -25,3 +25,4 @@ snarkvm
 dotenvy
 cargo-dylint
 wiki-tui
+winpty-rs
