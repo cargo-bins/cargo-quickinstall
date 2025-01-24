@@ -32,3 +32,4 @@ rustfmt-nightly
 winpty-rs
 cargo-dylint
 av1an
+addr2line
