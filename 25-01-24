@@ -20,3 +20,4 @@ evcxr_repl
 ducc-sys
 tendermint-rpc
 winpty-rs
+cargo-codspeed
