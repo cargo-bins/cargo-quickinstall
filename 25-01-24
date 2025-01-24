@@ -63,3 +63,4 @@ tendermint-rpc
 fm-tui
 rustfmt-nightly
 winpty-rs
+kanidm_tools
