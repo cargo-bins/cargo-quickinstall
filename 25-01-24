@@ -2,3 +2,4 @@ binstall
 rustbus
 kanidm_tools
 oso
+cpp_demangle
