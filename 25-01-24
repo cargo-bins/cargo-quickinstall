@@ -65,3 +65,4 @@ cargo-whatfeatures
 eureka
 rustfmt-nightly
 cargo-whatfeatures
+speedtest-rs
