@@ -19,3 +19,4 @@ protox
 evcxr_repl
 ducc-sys
 tendermint-rpc
+winpty-rs
