@@ -27,3 +27,4 @@ cargo-dylint
 wiki-tui
 winpty-rs
 tendermint-abci
+odbc2parquet
