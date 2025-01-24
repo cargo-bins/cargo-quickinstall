@@ -10,3 +10,4 @@ watchexec-cli
 ducc-sys
 mit-commit-msg
 remove_dir_all
+sea-orm-cli
