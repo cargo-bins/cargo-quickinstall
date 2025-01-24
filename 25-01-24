@@ -25,3 +25,4 @@ solana-validator
 ducc-sys
 iai-callgrind-runner
 tendermint-rpc
+human_name
