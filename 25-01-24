@@ -39,3 +39,4 @@ nu_plugin_dbus
 sysd-manager
 spider_cli
 fake
+fm-tui
