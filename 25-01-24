@@ -2,3 +2,4 @@ rustbus
 cpp_demangle
 rustbus
 rls-rustc
+ec2_instance_metadata
