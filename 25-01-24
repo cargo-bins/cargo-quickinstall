@@ -21,3 +21,4 @@ ducc-sys
 remove_dir_all
 cargo-dylint
 fake
+cargo-dylint
