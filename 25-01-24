@@ -48,3 +48,4 @@ nu_plugin_dbus
 cargo-pgrx
 speedtest-rs
 pcu
+fm-tui
