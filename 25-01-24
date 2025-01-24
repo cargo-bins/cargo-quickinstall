@@ -18,3 +18,4 @@ cargo-crev
 ducc-sys
 mit-commit-msg
 cargo-crev
+remove_dir_all
