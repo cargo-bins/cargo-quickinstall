@@ -7,3 +7,4 @@ git-mit-config
 dotenvy
 iai-callgrind-runner
 tendermint-abci
+cargo-vet
