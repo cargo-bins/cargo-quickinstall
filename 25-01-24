@@ -30,3 +30,4 @@ tendermint-rpc
 cargo-dylint
 rustfmt-nightly
 winpty-rs
+cargo-dylint
