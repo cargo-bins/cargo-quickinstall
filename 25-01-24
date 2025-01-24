@@ -21,3 +21,4 @@ cargo-crev
 remove_dir_all
 cargo-crev
 fake
+solana-validator
