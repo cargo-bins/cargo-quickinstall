@@ -51,3 +51,4 @@ graphql_client_cli
 solana-validator
 eureka
 cargo-pgrx
+nu_plugin_dbus
