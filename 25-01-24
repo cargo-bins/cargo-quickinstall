@@ -9,3 +9,4 @@ remove_dir_all
 fake
 solana-validator
 ducc-sys
+tendermint-rpc
