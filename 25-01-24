@@ -16,3 +16,4 @@ cargo-pgrx
 ducc-sys
 schemafy
 tendermint-rpc
+rustfmt-nightly
