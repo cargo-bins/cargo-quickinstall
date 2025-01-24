@@ -50,3 +50,4 @@ fake
 graphql_client_cli
 solana-validator
 eureka
+cargo-pgrx
