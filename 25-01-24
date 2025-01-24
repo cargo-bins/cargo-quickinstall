@@ -21,3 +21,4 @@ ducc-sys
 tendermint-rpc
 winpty-rs
 cargo-codspeed
+addr2line
