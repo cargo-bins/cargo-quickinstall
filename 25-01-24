@@ -54,3 +54,4 @@ cargo-pgrx
 nu_plugin_dbus
 eureka
 twm
+ducc-sys
