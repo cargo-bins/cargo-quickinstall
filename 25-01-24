@@ -9,3 +9,4 @@ diesel_cli
 charybdis-migrate
 mise
 mise
+dotenvy
