@@ -9,3 +9,4 @@ iai-callgrind-runner
 tendermint-abci
 cargo-vet
 syd
+ducc-sys
