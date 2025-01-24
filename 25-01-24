@@ -3,3 +3,4 @@ rls-rustc
 dotenvy
 snarkvm
 dotenvy
+winpty-rs
