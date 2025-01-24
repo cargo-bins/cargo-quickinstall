@@ -15,3 +15,4 @@ solana-validator
 cargo-pgrx
 ducc-sys
 schemafy
+tendermint-rpc
