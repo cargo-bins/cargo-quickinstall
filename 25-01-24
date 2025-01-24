@@ -31,3 +31,4 @@ odbc2parquet
 cargo-dylint
 anicli-esp
 graphql_client_cli
+markdown-test-report
