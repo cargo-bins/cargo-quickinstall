@@ -59,3 +59,4 @@ eureka
 spider_worker
 nu_plugin_dbus
 eureka
+tendermint-rpc
