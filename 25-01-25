@@ -40,3 +40,4 @@ paperclip
 ddt
 re_query
 salvo-cli
+addr2line
