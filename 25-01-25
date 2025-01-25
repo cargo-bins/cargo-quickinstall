@@ -5,3 +5,4 @@ cargo-about
 human_bytes
 spider_worker
 git-mit-relates-to
+cargo-lock
