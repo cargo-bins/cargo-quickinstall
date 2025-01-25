@@ -10,3 +10,4 @@ cargo-generate
 fake
 solana-faucet
 tendermint-rpc
+pwasm-utils
