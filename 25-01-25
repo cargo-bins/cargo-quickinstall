@@ -51,3 +51,4 @@ spider_cli
 re_query
 tmux
 cargo-flash
+addr2line
