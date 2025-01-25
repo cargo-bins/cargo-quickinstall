@@ -13,3 +13,4 @@ pwasm-utils
 cargo-generate
 rustrict
 git-disjoint
+tendermint-rpc
