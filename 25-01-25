@@ -12,3 +12,4 @@ solana-faucet
 tendermint-rpc
 pwasm-utils
 rustrict
+git-disjoint
