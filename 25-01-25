@@ -10,3 +10,4 @@ human_bytes
 cargo-ebuild
 cargo-spellcheck
 sea-orm-cli
+spider_worker
