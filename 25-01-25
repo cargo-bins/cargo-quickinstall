@@ -63,3 +63,4 @@ remove_dir_all
 phf_generator
 binstall
 snarkvm
+cargo-list
