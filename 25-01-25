@@ -7,3 +7,4 @@ spider_worker
 git-mit-relates-to
 cargo-lock
 cargo-generate
+fake
