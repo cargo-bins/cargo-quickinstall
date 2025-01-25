@@ -32,3 +32,4 @@ sqlx-cli
 re_query
 musicgpt
 addr2line
+solana-gossip
