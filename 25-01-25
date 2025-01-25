@@ -4,3 +4,4 @@ mit-commit-msg
 skim
 coldsnap
 human_bytes
+cargo-lock
