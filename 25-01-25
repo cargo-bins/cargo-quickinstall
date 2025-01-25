@@ -16,3 +16,4 @@ paperclip
 re_query
 spider_cli
 addr2line
+sea-orm-cli
