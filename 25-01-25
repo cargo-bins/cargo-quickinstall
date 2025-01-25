@@ -16,3 +16,4 @@ cargo-whatfeatures
 cargo-lock
 cargo-ebuild
 git-next
+kanidm_tools
