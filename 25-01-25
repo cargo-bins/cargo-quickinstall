@@ -9,3 +9,4 @@ solana-faucet
 pwasm-utils
 rustrict
 git-disjoint
+tendermint-rpc
