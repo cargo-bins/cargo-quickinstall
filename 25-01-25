@@ -5,3 +5,4 @@ cargo-lock
 solana-net-utils
 fake
 java-locator
+solana-faucet
