@@ -12,3 +12,4 @@ kanidm_tools
 sea-orm-cli
 solana-net-utils
 fake
+python-project-generator
