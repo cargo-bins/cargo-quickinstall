@@ -31,3 +31,4 @@ paperclip
 sqlx-cli
 re_query
 musicgpt
+addr2line
