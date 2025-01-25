@@ -32,3 +32,4 @@ cargo-list
 git-disjoint
 tendermint-rpc
 xbuild
+stellar-strkey
