@@ -50,3 +50,4 @@ ddt
 spider_cli
 re_query
 tmux
+cargo-flash
