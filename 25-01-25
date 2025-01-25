@@ -13,3 +13,4 @@ rkv
 git-disjoint
 tendermint-rpc
 stellar-strkey
+stellar-xdr
