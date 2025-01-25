@@ -45,3 +45,4 @@ python-project-generator
 xbuild
 raw-cpuid
 remove_dir_all
+binstall
