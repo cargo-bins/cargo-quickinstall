@@ -42,3 +42,4 @@ tendermint-rpc
 cargo-ebuild
 tmux
 stellar-strkey
+stellar-xdr
