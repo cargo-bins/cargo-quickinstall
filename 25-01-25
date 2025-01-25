@@ -10,3 +10,4 @@ dioxus-cli
 solana-net-utils
 fake
 solana-faucet
+tendermint-rpc
