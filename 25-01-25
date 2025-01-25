@@ -2,3 +2,4 @@ fake
 human_bytes
 spider_worker
 cargo-lock
+solana-net-utils
