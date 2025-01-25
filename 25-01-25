@@ -5,3 +5,4 @@ cargo-lock
 fake
 java-locator
 sark0y_tam_rst
+dotenv
