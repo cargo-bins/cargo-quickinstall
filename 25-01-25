@@ -35,3 +35,4 @@ xbuild
 tmux
 python-project-generator
 hayagriva
+cargo-dylint
