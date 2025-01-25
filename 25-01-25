@@ -33,3 +33,4 @@ git-disjoint
 tendermint-rpc
 xbuild
 stellar-strkey
+stellar-xdr
