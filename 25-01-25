@@ -7,3 +7,4 @@ spider_worker
 git-next
 hurl
 hurl
+cargo-lock
