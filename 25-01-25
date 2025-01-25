@@ -41,3 +41,4 @@ eureka
 tendermint-rpc
 cargo-ebuild
 tmux
+stellar-strkey
