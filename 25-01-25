@@ -20,3 +20,4 @@ kanidm_tools
 solana-faucet
 tendermint-rpc
 xbuild
+pwasm-utils
