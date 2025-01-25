@@ -7,3 +7,4 @@ tokio-process
 cargo-lock
 cargo-generate
 solana-net-utils
+fake
