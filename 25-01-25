@@ -9,3 +9,4 @@ cargo-lock
 dioxus-cli
 solana-net-utils
 fake
+solana-faucet
