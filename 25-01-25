@@ -13,3 +13,4 @@ pwasm-utils
 rustrict
 git-disjoint
 tendermint-rpc
+stellar-strkey
