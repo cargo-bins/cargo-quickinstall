@@ -52,3 +52,4 @@ re_query
 tmux
 cargo-flash
 addr2line
+cargo-ebuild
