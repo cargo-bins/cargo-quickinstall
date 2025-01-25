@@ -8,3 +8,4 @@ spider_worker
 cargo-lock
 dioxus-cli
 solana-net-utils
+fake
