@@ -20,3 +20,4 @@ re_query
 addr2line
 remove_dir_all
 phf_generator
+racer
