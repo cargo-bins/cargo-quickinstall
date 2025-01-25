@@ -14,3 +14,4 @@ cargo-generate
 rustrict
 git-disjoint
 tendermint-rpc
+stellar-strkey
