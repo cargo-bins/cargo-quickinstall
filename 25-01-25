@@ -12,3 +12,4 @@ solana-faucet
 pwasm-utils
 cargo-generate
 rustrict
+git-disjoint
