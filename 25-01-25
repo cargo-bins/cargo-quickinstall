@@ -12,3 +12,4 @@ tendermint-rpc
 pwasm-utils
 rustrict
 git-disjoint
+tendermint-rpc
