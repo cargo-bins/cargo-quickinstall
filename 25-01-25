@@ -7,3 +7,4 @@ spider_worker
 cargo-lock
 solana-net-utils
 cargo-generate
+fake
