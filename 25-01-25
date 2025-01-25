@@ -60,3 +60,4 @@ python-project-generator
 raw-cpuid
 solana-gossip
 remove_dir_all
+phf_generator
