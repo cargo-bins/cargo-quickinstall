@@ -9,3 +9,4 @@ solana-net-utils
 cargo-generate
 fake
 solana-faucet
+tendermint-rpc
