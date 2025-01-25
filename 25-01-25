@@ -10,3 +10,4 @@ skim
 sqlx-cli
 cargo-generate
 fake
+java-locator
