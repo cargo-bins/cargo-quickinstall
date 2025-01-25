@@ -9,3 +9,4 @@ cargo-lock
 cargo-generate
 fake
 solana-faucet
+pwasm-utils
