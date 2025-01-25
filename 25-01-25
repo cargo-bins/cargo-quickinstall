@@ -21,3 +21,4 @@ solana-faucet
 tendermint-rpc
 xbuild
 pwasm-utils
+sea-orm-cli
