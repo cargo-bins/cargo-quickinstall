@@ -9,3 +9,4 @@ hurl
 hurl
 cargo-lock
 kanidm_tools
+sea-orm-cli
