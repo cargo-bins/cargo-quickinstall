@@ -25,3 +25,4 @@ solana-gossip
 remove_dir_all
 phf_generator
 perfcnt
+racer
