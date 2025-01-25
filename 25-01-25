@@ -39,3 +39,4 @@ cargo-dylint
 git-disjoint
 eureka
 tendermint-rpc
+cargo-ebuild
