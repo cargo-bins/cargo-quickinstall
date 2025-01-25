@@ -11,3 +11,4 @@ pwasm-utils
 rustrict
 rkv
 git-disjoint
+tendermint-rpc
