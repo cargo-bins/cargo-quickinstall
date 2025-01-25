@@ -5,3 +5,4 @@ coldsnap
 human_bytes
 tokio-process
 cargo-lock
+cargo-generate
