@@ -8,3 +8,4 @@ cargo-lock
 skim
 skim
 sqlx-cli
+cargo-generate
