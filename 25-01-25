@@ -10,3 +10,4 @@ hurl
 cargo-lock
 kanidm_tools
 sea-orm-cli
+solana-net-utils
