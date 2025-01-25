@@ -21,3 +21,4 @@ textplots
 paperclip
 re_query
 addr2line
+sea-orm-cli
