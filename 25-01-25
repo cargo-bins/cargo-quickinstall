@@ -8,3 +8,4 @@ git-next
 speedtest-rs
 human_bytes
 cargo-ebuild
+cargo-spellcheck
