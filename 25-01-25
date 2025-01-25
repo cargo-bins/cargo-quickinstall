@@ -20,3 +20,4 @@ textplots
 re_query
 addr2line
 html2md
+sea-orm-cli
