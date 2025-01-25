@@ -64,3 +64,4 @@ phf_generator
 binstall
 snarkvm
 cargo-list
+python-project-generator
