@@ -53,3 +53,4 @@ tmux
 cargo-flash
 addr2line
 cargo-ebuild
+python-project-generator
