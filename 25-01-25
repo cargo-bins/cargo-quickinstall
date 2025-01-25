@@ -8,3 +8,4 @@ git-mit-relates-to
 cargo-lock
 cargo-generate
 fake
+solana-faucet
