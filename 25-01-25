@@ -26,3 +26,4 @@ eureka
 cargo-ebuild
 xbuild
 solana-faucet
+pwasm-utils
