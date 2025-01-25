@@ -22,3 +22,4 @@ git-disjoint
 tendermint-rpc
 stellar-strkey
 textplots
+sn_cli
