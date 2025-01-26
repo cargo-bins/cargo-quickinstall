@@ -5,3 +5,4 @@ dotenvy
 textplots
 kickstart
 cargo-lock
+dbus-codegen
