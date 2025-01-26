@@ -21,3 +21,4 @@ stellar-xdr
 espflash
 dotenvy
 dbus-codegen
+libbpf-cargo
