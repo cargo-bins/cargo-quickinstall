@@ -23,3 +23,4 @@ daily-garf
 dbus-codegen
 salvo-cli
 daily-garf
+release-plz
