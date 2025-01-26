@@ -2,3 +2,4 @@ borsh
 foundationdb-gen
 rustfmt
 sn_faucet
+solana-tokens
