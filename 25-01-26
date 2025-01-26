@@ -20,3 +20,4 @@ apollo-router
 socketcan
 textplots
 phf_generator
+safe_network
