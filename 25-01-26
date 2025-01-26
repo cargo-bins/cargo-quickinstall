@@ -21,3 +21,4 @@ cargo-lock
 dioxus-cli
 daily-garf
 dbus-codegen
+salvo-cli
