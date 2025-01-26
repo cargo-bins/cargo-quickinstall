@@ -3,3 +3,4 @@ tendermint-rpc
 dotenvy
 textplots
 cargo-c
+cargo-lock
