@@ -21,3 +21,4 @@ binstall
 textplots
 tuono
 cargo-lock
+cargo-spellcheck
