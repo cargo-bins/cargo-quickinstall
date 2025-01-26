@@ -6,3 +6,4 @@ xbuild
 redoxer
 tree-sitter-cli
 cargo-list
+cargo-spellcheck
