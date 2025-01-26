@@ -19,3 +19,4 @@ phf_generator
 safe_network
 stellar-xdr
 dotenvy
+rkv
