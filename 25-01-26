@@ -10,3 +10,4 @@ textplots
 rkv
 cargo-lock
 dbus-codegen
+httpbis
