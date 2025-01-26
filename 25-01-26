@@ -9,3 +9,4 @@ dbus-codegen
 holochain
 cargo-generate
 cargo-risczero
+rustfmt-nightly
