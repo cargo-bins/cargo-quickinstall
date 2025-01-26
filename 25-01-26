@@ -7,3 +7,4 @@ textplots
 cargo-lock
 dbus-codegen
 addr2line
+nkeys
