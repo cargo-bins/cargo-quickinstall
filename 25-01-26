@@ -11,3 +11,4 @@ cargo-generate
 cargo-risczero
 rustfmt-nightly
 apollo-router
+cargo-pgrx
