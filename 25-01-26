@@ -3,3 +3,4 @@ foundationdb-gen
 dotenvy
 textplots
 cargo-lock
+dbus-codegen
