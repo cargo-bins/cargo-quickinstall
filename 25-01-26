@@ -62,3 +62,4 @@ paru
 dbus-codegen
 graphql_client_cli
 oculante
+libbpf-cargo
