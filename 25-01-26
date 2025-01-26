@@ -6,3 +6,4 @@ textplots
 cargo-c
 cargo-lock
 dbus-codegen
+holochain
