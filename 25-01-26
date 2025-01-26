@@ -46,3 +46,4 @@ apollo-router
 cargo-pgrx
 java-locator
 tuono
+socketcan
