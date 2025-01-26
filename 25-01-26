@@ -8,3 +8,4 @@ dbus-codegen
 nkeys
 holochain
 cargo-generate
+cargo-risczero
