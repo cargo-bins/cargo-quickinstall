@@ -60,3 +60,4 @@ tauri-cli
 dbus-codegen
 paru
 oculante
+libbpf-cargo
