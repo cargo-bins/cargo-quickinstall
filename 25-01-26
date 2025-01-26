@@ -42,3 +42,4 @@ rustfmt-nightly
 raw-cpuid
 bacon
 tuono
+apollo-router
