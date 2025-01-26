@@ -8,3 +8,4 @@ addr2line
 holochain
 human_bytes
 rustfmt-nightly
+raw-cpuid
