@@ -6,3 +6,4 @@ binstall
 cargo-list
 cargo-spellcheck
 alacritty
+redoxer
