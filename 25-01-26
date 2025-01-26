@@ -16,3 +16,4 @@ dbus-codegen
 holochain
 human_bytes
 rustfmt-nightly
+apollo-router
