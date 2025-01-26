@@ -28,3 +28,4 @@ stellar-xdr
 trunk
 dotenvy
 dbus-codegen
+libbpf-cargo
