@@ -7,3 +7,4 @@ dbus-codegen
 addr2line
 holochain
 human_bytes
+rustfmt-nightly
