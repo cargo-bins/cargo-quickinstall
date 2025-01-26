@@ -2,3 +2,4 @@ borsh
 foundationdb-gen
 dotenvy
 textplots
+cargo-lock
