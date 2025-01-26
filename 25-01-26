@@ -27,3 +27,4 @@ dbus-codegen
 tree-sitter-cli
 binstall
 release-plz
+nkeys
