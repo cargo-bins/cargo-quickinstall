@@ -57,3 +57,4 @@ tuono
 dotenvy
 graphql_client_cli
 tauri-cli
+dbus-codegen
