@@ -41,3 +41,4 @@ tree-sitter-cli
 rustfmt-nightly
 raw-cpuid
 bacon
+tuono
