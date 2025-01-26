@@ -28,3 +28,4 @@ stellar-xdr
 sn_cli
 dotenvy
 dbus-codegen
+sqlx-cli
