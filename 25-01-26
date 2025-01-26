@@ -10,3 +10,4 @@ holochain
 cargo-generate
 cargo-risczero
 rustfmt-nightly
+apollo-router
