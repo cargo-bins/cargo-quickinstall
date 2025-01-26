@@ -6,3 +6,4 @@ cargo-c
 cargo-lock
 dbus-codegen
 nkeys
+holochain
