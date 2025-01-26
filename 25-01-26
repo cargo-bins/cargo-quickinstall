@@ -7,3 +7,4 @@ redoxer
 tree-sitter-cli
 cargo-list
 cargo-spellcheck
+foundationdb-gen
