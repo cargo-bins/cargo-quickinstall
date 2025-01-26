@@ -16,3 +16,4 @@ cargo-pgrx
 socketcan
 protofetch
 textplots
+cpp_demangle
