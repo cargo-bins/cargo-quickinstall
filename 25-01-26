@@ -7,3 +7,4 @@ cargo-c
 cargo-lock
 dbus-codegen
 holochain
+cargo-generate
