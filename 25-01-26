@@ -4,3 +4,4 @@ binstall
 borsh
 binstall
 cargo-list
+cargo-spellcheck
