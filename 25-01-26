@@ -15,3 +15,4 @@ solana-tokens
 cargo-list
 dioxus-cli
 binstall
+dotenvy
