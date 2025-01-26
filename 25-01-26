@@ -11,3 +11,4 @@ nkeys
 iai-callgrind-runner
 holochain
 cargo-generate
+cargo-risczero
