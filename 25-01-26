@@ -29,3 +29,4 @@ sn_cli
 dotenvy
 dbus-codegen
 sqlx-cli
+libbpf-cargo
