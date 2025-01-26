@@ -4,3 +4,4 @@ rustfmt
 sn_faucet
 solana-tokens
 sn_node_rpc_client
+dotenvy
