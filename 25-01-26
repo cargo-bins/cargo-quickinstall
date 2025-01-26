@@ -2,3 +2,4 @@ foundationdb-gen
 tendermint-rpc
 dotenvy
 textplots
+cargo-c
