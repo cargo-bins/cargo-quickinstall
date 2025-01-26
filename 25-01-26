@@ -11,3 +11,4 @@ rkv
 cargo-lock
 dbus-codegen
 httpbis
+iai-callgrind-runner
