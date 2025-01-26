@@ -11,3 +11,4 @@ dbus-codegen
 trunk
 human_bytes
 rustfmt-nightly
+apollo-router
