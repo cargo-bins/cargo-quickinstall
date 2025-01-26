@@ -25,3 +25,4 @@ stellar-xdr
 dotenvy
 dbus-codegen
 libbpf-cargo
+coldsnap
