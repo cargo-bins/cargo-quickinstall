@@ -29,3 +29,4 @@ sequoia-chameleon-gnupg
 dotenvy
 dbus-codegen
 sequoia-chameleon-gnupg
+libbpf-cargo
