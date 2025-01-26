@@ -27,3 +27,4 @@ stellar-xdr
 mollysocket
 sequoia-chameleon-gnupg
 dotenvy
+dbus-codegen
