@@ -6,3 +6,4 @@ cargo-lock
 dbus-codegen
 addr2line
 holochain
+human_bytes
