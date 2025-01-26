@@ -27,3 +27,4 @@ safe_network
 stellar-xdr
 trunk
 dotenvy
+dbus-codegen
