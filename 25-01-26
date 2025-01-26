@@ -18,3 +18,4 @@ cargo-risczero
 human_bytes
 rustfmt-nightly
 exa
+apollo-router
