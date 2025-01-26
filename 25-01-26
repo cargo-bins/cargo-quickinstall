@@ -5,3 +5,4 @@ borsh
 binstall
 cargo-list
 cargo-spellcheck
+alacritty
