@@ -5,3 +5,4 @@ dotenvy
 textplots
 cargo-c
 cargo-lock
+dbus-codegen
