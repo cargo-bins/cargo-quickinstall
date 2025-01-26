@@ -22,3 +22,4 @@ phf_generator
 stellar-xdr
 espflash
 dotenvy
+dbus-codegen
