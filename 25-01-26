@@ -9,3 +9,4 @@ textplots
 cargo-lock
 dbus-codegen
 trunk
+human_bytes
