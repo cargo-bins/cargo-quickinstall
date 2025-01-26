@@ -25,3 +25,4 @@ cargo-spellcheck
 salvo-cli
 dbus-codegen
 tree-sitter-cli
+binstall
