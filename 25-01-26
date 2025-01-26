@@ -35,3 +35,4 @@ rustfmt-nightly
 apollo-router
 cargo-pgrx
 java-locator
+socketcan
