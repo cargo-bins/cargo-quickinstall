@@ -40,3 +40,4 @@ tree-sitter-cli
 tree-sitter-cli
 rustfmt-nightly
 raw-cpuid
+bacon
