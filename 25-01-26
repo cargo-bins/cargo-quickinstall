@@ -10,3 +10,4 @@ holochain
 cargo-generate
 cargo-risczero
 human_bytes
+rustfmt-nightly
