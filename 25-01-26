@@ -28,3 +28,4 @@ tree-sitter-cli
 binstall
 release-plz
 nkeys
+release-plz
