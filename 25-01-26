@@ -19,3 +19,4 @@ stellar-xdr
 dotenvy
 rkv
 dbus-codegen
+libbpf-cargo
