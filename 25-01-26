@@ -20,3 +20,4 @@ rustfmt-nightly
 exa
 apollo-router
 socketcan
+textplots
