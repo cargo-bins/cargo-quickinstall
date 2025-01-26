@@ -9,3 +9,4 @@ dbus-codegen
 addr2line
 nkeys
 iai-callgrind-runner
+holochain
