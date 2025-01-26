@@ -15,3 +15,4 @@ cargo-risczero
 human_bytes
 rustfmt-nightly
 raw-cpuid
+pandora_box
