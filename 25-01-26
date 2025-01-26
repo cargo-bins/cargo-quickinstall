@@ -17,3 +17,4 @@ rustfmt-nightly
 raw-cpuid
 pandora_box
 apollo-router
+socketcan
