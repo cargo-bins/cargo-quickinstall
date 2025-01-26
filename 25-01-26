@@ -13,3 +13,4 @@ kickstart
 holochain
 rustfmt-nightly
 raw-cpuid
+apollo-router
