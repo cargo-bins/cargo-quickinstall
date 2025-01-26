@@ -12,3 +12,4 @@ cargo-risczero
 rustfmt-nightly
 apollo-router
 cargo-pgrx
+socketcan
