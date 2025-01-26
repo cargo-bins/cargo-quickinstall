@@ -20,3 +20,4 @@ textplots
 cargo-lock
 dioxus-cli
 daily-garf
+dbus-codegen
