@@ -6,3 +6,4 @@ textplots
 kickstart
 cargo-lock
 dbus-codegen
+addr2line
