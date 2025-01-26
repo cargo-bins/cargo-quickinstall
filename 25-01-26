@@ -30,3 +30,4 @@ dotenvy
 dbus-codegen
 sqlx-cli
 libbpf-cargo
+coldsnap
