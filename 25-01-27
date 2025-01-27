@@ -2,3 +2,4 @@ skim
 rls-rustc
 cached-path
 cargo-local-registry
+rls-rustc
