@@ -5,3 +5,4 @@ cached-path
 snarkvm
 rls-rustc
 dotenv-flow
+perfcnt
