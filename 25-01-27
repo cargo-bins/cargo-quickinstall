@@ -58,3 +58,4 @@ redoxer
 cargo-info
 rustrict
 cargo-embed
+probe-run
