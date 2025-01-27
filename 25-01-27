@@ -17,3 +17,4 @@ cargo-about
 schemafy
 protox
 cargo-generate
+phf_generator
