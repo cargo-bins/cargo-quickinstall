@@ -7,3 +7,4 @@ snarkvm
 rls-rustc
 bacon
 dotenv-flow
+perfcnt
