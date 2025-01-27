@@ -17,3 +17,4 @@ solana-tokens
 cargo-about
 protox
 cargo-generate
+phf_generator
