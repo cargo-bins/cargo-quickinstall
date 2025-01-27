@@ -58,3 +58,4 @@ addr2line
 cargo-interactive-update
 rustrict
 kdotool
+dioxus-cli
