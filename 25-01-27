@@ -19,3 +19,4 @@ protox
 rg
 rg
 cargo-generate
+phf_generator
