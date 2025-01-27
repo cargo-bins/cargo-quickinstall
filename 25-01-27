@@ -1,3 +1,4 @@
 cargo-c
 rls-rustc
 sea-orm-cli
+cached-path
