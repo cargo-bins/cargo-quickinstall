@@ -8,3 +8,4 @@ rls-rustc
 bacon
 dotenv-flow
 perfcnt
+cached-path
