@@ -8,3 +8,4 @@ snarkvm
 rls-rustc
 cargo-c
 dotenv-flow
+perfcnt
