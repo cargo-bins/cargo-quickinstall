@@ -22,3 +22,4 @@ cargo-generate
 phf_generator
 ruff
 kdbx
+h3o
