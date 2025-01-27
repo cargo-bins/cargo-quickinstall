@@ -8,3 +8,4 @@ rls-rustc
 cargo-c
 dotenv-flow
 perfcnt
+mit-pre-commit
