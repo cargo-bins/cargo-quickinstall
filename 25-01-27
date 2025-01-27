@@ -22,3 +22,4 @@ rls-rustc
 cargo-public-api
 heic-to-dynamic-gnome-wallpaper
 nextsv
+cached-path
