@@ -44,3 +44,4 @@ pcu
 cargo-public-api
 hurl
 leetcode-tui-rs
+rioterm
