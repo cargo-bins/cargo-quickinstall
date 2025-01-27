@@ -14,3 +14,4 @@ solana-tokens
 schemafy
 protox
 cargo-generate
+phf_generator
