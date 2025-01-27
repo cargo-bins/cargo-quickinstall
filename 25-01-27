@@ -6,3 +6,4 @@ snarkvm
 rls-rustc
 dotenv-flow
 perfcnt
+z3tracer
