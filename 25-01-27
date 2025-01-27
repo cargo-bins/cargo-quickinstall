@@ -4,3 +4,4 @@ sea-orm-cli
 cached-path
 snarkvm
 rls-rustc
+dotenv-flow
