@@ -18,3 +18,4 @@ pcu
 cached-path
 nextsv
 snarkvm
+rls-rustc
