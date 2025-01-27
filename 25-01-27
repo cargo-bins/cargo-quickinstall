@@ -4,3 +4,4 @@ sea-orm-cli
 bacon
 cached-path
 snarkvm
+rls-rustc
