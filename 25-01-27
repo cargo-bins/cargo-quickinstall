@@ -5,3 +5,4 @@ cargo-local-registry
 rls-rustc
 dotenv-flow
 perfcnt
+mit-pre-commit
