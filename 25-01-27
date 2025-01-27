@@ -57,3 +57,4 @@ cargo-public-api
 addr2line
 cargo-interactive-update
 rustrict
+kdotool
