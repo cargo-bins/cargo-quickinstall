@@ -31,3 +31,4 @@ rls-rustc
 dotenv-flow
 heic-to-dynamic-gnome-wallpaper
 flawz
+cargo-spellcheck
