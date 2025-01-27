@@ -5,3 +5,4 @@ cargo-outdated
 cached-path
 cargo-local-registry
 snarkvm
+rls-rustc
