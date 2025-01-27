@@ -2,3 +2,4 @@ rls-rustc
 skim
 rls-rustc
 cached-path
+rg
