@@ -27,3 +27,4 @@ tauri-cli
 pcu
 tactics-trainer-cli
 snarkvm
+rls-rustc
