@@ -11,3 +11,4 @@ dotenv-flow
 perfcnt
 mit-pre-commit
 cached-path
+mit-prepare-commit-msg
