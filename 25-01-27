@@ -10,3 +10,4 @@ cargo-c
 dotenv-flow
 perfcnt
 mit-pre-commit
+cached-path
