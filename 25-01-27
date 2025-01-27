@@ -4,3 +4,4 @@ sea-orm-cli
 cached-path
 cargo-local-registry
 snarkvm
+rls-rustc
