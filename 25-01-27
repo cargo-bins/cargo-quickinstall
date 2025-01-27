@@ -17,3 +17,4 @@ cargo-generate
 phf_generator
 httpbis
 h3o
+textplots
