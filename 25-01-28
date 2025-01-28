@@ -19,3 +19,4 @@ leetcode-tui-rs
 cargo-public-api
 z3tracer
 nu
+unic-langid-impl
