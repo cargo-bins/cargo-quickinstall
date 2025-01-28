@@ -19,3 +19,4 @@ solana-validator
 parquet
 racer
 tendermint-abci
+httpmock
