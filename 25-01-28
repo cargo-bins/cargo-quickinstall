@@ -20,3 +20,4 @@ patch-crate
 parquet
 tendermint-abci
 httpmock
+schemafy
