@@ -17,3 +17,4 @@ cargo-info
 minicbor
 syd
 foundationdb-gen
+arrow-flight
