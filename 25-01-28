@@ -10,3 +10,4 @@ sshx
 cargo-dylint
 stellar-xdr
 ncspot
+probe-run
