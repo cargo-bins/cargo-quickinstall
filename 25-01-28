@@ -9,3 +9,4 @@ nu
 cargo-info
 unic-langid-impl
 solana-keygen
+diesel_cli
