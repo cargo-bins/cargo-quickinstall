@@ -21,3 +21,4 @@ parquet
 tendermint-abci
 httpmock
 schemafy
+java-locator
