@@ -12,3 +12,4 @@ foundationdb-gen
 httpbis
 coldsnap
 solana-stake-accounts
+sn_node_rpc_client
