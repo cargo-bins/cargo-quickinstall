@@ -11,3 +11,4 @@ unic-langid-impl
 solana-keygen
 diesel_cli
 solana-validator
+cargo-info
