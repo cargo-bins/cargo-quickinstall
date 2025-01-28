@@ -21,3 +21,4 @@ racer
 tendermint-abci
 httpmock
 schemafy
+spider_cli
