@@ -48,3 +48,4 @@ nextsv
 cargo-spellcheck
 hurlfmt
 forex
+forgejo-cli
