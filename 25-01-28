@@ -24,3 +24,4 @@ schemafy
 spider_cli
 rustrict
 cargo-tarpaulin
+a11ywatch_cli
