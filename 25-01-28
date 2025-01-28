@@ -17,3 +17,4 @@ foundationdb-gen
 rrule
 parquet
 tendermint-abci
+schemafy
