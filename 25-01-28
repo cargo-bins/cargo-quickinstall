@@ -16,3 +16,4 @@ parquet
 racer
 tendermint-abci
 schemafy
+spider_cli
