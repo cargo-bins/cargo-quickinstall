@@ -24,3 +24,4 @@ probe-run
 rioterm
 kdotool
 a11ywatch_cli
+sea-orm-cli
