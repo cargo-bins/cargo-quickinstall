@@ -16,3 +16,4 @@ a11ywatch_cli
 cargo-info
 minicbor
 syd
+foundationdb-gen
