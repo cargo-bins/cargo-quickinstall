@@ -20,3 +20,4 @@ tendermint-abci
 httpmock
 schemafy
 java-locator
+spider_cli
