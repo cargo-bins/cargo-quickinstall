@@ -20,3 +20,4 @@ probe-run
 solana-validator
 kdotool
 hurl
+probe-run
