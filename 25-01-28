@@ -11,3 +11,4 @@ ruff
 turbocommit
 wac
 minicbor
+foundationdb-gen
