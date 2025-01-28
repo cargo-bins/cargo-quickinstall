@@ -19,3 +19,4 @@ turbocommit
 patch-crate
 parquet
 tendermint-abci
+httpmock
