@@ -69,3 +69,4 @@ venator-app
 forgejo-cli
 a11ywatch_cli
 hurlfmt
+cargo-spellcheck
