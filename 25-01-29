@@ -20,3 +20,4 @@ stellar-strkey
 espflash
 cargo-bisect-rustc
 snarkvm
+forgejo-cli
