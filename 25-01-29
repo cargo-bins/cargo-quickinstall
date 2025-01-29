@@ -38,3 +38,4 @@ cargo-list
 tree-sitter-cli
 fselect
 cargo-show
+probe-rs-tools
