@@ -2,3 +2,4 @@ racer
 nkeys
 binstall
 patch-crate
+dotenv
