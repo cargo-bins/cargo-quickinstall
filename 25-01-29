@@ -5,3 +5,4 @@ nkeys
 git-mit-config
 remove_dir_all
 evcxr_repl
+re_query
