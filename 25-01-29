@@ -14,3 +14,4 @@ perfcnt
 clippy
 phf_generator
 oxipng
+socketcan
