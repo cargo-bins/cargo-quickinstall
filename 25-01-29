@@ -3,3 +3,4 @@ kondo-ui
 cargo-bisect-rustc
 nkeys
 dotenv
+kondo-ui
