@@ -10,3 +10,4 @@ cargo-bisect-rustc
 bugstalker
 cargo-spellcheck
 venator-app
+patch-crate
