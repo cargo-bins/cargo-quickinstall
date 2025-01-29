@@ -27,3 +27,4 @@ stellar-xdr
 patch-crate
 cargo-near
 venator-app
+probe-rs-tools
