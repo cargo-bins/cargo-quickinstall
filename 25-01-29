@@ -12,3 +12,4 @@ snarkvm
 sqlx-cli
 stellar-xdr
 stellar-strkey
+cargo-local-registry
