@@ -31,3 +31,4 @@ wizer
 phf_generator
 binstall
 socketcan
+diesel_cli
