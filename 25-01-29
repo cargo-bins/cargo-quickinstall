@@ -58,3 +58,4 @@ cargo-near
 clippy
 dotenv
 rav1e
+stellar-xdr
