@@ -13,3 +13,4 @@ patch-crate
 rkv
 patch-crate
 stellar-strkey
+clippy
