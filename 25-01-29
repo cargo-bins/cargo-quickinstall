@@ -30,3 +30,4 @@ patch-crate
 cargo-show
 bugstalker
 stellar-xdr
+stellar-strkey
