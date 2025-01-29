@@ -35,3 +35,4 @@ tree-sitter-cli
 cargo-dylint
 kondo-ui
 cargo-list
+tree-sitter-cli
