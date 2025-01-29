@@ -42,3 +42,4 @@ phf_generator
 redoxer
 alacritty
 socketcan
+fselect
