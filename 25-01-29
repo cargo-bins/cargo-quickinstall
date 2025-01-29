@@ -12,3 +12,4 @@ cargo-spellcheck
 venator-app
 patch-crate
 remove_dir_all
+forgejo-cli
