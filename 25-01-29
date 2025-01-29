@@ -18,3 +18,4 @@ rkv
 bugstalker
 stellar-strkey
 espflash
+cargo-bisect-rustc
