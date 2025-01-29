@@ -20,3 +20,4 @@ git-mit
 diesel_cli
 dotenv
 stellar-xdr
+solana-cli
