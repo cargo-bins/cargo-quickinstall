@@ -9,3 +9,4 @@ patch-crate
 remove_dir_all
 wizer
 clippy
+patch-crate
