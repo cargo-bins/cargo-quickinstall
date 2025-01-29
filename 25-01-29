@@ -32,3 +32,4 @@ phf_generator
 binstall
 socketcan
 diesel_cli
+rav1e
