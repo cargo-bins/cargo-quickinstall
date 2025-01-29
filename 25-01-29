@@ -56,3 +56,4 @@ probe-rs-tools
 sniffnet
 cargo-near
 clippy
+dotenv
