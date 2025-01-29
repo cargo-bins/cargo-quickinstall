@@ -40,3 +40,4 @@ fselect
 cargo-show
 probe-rs-tools
 cargo-show
+sniffnet
