@@ -16,3 +16,4 @@ cargo-local-registry
 clippy
 phf_generator
 socketcan
+git-mit
