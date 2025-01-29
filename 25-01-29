@@ -46,3 +46,4 @@ cargo-bisect-rustc
 cargo-near
 phf_generator
 mdcat
+steam-tui
