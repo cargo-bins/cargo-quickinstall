@@ -6,3 +6,4 @@ dotenv
 nkeys
 clippy
 patch-crate
+remove_dir_all
