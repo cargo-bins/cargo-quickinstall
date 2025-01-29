@@ -15,3 +15,4 @@ clippy
 phf_generator
 oxipng
 socketcan
+dioxus-cli
