@@ -29,3 +29,4 @@ cargo-near
 venator-app
 probe-rs-tools
 patch-crate
+mdcat
