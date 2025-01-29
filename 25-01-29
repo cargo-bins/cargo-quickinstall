@@ -31,3 +31,4 @@ probe-rs-tools
 patch-crate
 mdcat
 clippy
+redoxer
