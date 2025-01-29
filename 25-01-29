@@ -13,3 +13,4 @@ snarkvm
 sqlx-cli
 stellar-strkey
 cargo-local-registry
+clippy
