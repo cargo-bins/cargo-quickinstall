@@ -17,3 +17,4 @@ perfcnt
 clippy
 cargo-c
 phf_generator
+socketcan
