@@ -44,3 +44,4 @@ sniffnet
 clippy
 cargo-bisect-rustc
 cargo-near
+phf_generator
