@@ -14,3 +14,4 @@ rkv
 patch-crate
 stellar-strkey
 clippy
+binstall
