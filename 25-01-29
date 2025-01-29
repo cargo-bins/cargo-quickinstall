@@ -21,3 +21,4 @@ espflash
 cargo-bisect-rustc
 snarkvm
 forgejo-cli
+sniffnet
