@@ -4,3 +4,4 @@ dotenv
 nkeys
 remove_dir_all
 rkv
+stellar-strkey
