@@ -4,3 +4,4 @@ binstall
 patch-crate
 dotenv
 nkeys
+clippy
