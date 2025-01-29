@@ -20,3 +20,4 @@ perfcnt
 maelstrom-run
 maelstrom-run
 clippy
+phf_generator
