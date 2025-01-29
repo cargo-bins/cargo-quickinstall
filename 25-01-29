@@ -18,3 +18,4 @@ phf_generator
 socketcan
 git-mit
 diesel_cli
+dotenv
