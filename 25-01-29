@@ -40,3 +40,4 @@ cargo-whatfeatures
 clippy
 phf_generator
 redoxer
+alacritty
