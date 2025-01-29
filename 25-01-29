@@ -33,3 +33,4 @@ mdcat
 clippy
 redoxer
 cargo-near
+cargo-bisect-rustc
