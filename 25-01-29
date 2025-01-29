@@ -43,3 +43,4 @@ cargo-show
 sniffnet
 clippy
 cargo-bisect-rustc
+cargo-near
