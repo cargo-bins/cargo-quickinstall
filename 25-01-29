@@ -31,3 +31,4 @@ cargo-show
 bugstalker
 stellar-xdr
 stellar-strkey
+tree-sitter-cli
