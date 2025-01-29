@@ -4,3 +4,4 @@ cargo-bisect-rustc
 nkeys
 dotenv
 kondo-ui
+spotify_player
