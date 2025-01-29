@@ -13,3 +13,4 @@ remove_dir_all
 venator-app
 cargo-show
 venator-app
+forgejo-cli
