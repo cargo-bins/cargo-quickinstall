@@ -54,3 +54,4 @@ clippy
 cargo-whatfeatures
 probe-rs-tools
 sniffnet
+cargo-near
