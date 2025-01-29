@@ -37,3 +37,4 @@ kondo-ui
 cargo-list
 tree-sitter-cli
 fselect
+cargo-show
