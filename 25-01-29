@@ -37,3 +37,4 @@ cargo-bisect-rustc
 sniffnet
 steam-tui
 cargo-whatfeatures
+clippy
