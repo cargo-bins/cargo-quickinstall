@@ -7,3 +7,4 @@ nkeys
 remove_dir_all
 rkv
 stellar-strkey
+sqlx-cli
