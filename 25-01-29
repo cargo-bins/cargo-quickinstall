@@ -32,3 +32,4 @@ patch-crate
 mdcat
 clippy
 redoxer
+cargo-near
