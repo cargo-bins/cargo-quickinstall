@@ -33,3 +33,4 @@ stellar-xdr
 stellar-strkey
 tree-sitter-cli
 cargo-dylint
+kondo-ui
