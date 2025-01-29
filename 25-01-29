@@ -14,3 +14,4 @@ sqlx-cli
 stellar-strkey
 cargo-local-registry
 clippy
+phf_generator
