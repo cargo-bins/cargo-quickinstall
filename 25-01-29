@@ -54,3 +54,4 @@ cargo-whatfeatures
 stellar-xdr
 czkawka_gui
 fselect
+cargo-bisect-rustc
