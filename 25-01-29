@@ -24,3 +24,4 @@ forgejo-cli
 sniffnet
 cargo-near
 stellar-xdr
+patch-crate
