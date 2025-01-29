@@ -5,3 +5,4 @@ patch-crate
 dotenv
 nkeys
 clippy
+patch-crate
