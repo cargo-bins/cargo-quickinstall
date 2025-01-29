@@ -19,3 +19,4 @@ re_query
 cargo-show
 rkv
 venator-app
+cargo-bisect-rustc
