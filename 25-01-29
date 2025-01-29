@@ -9,3 +9,4 @@ evcxr_repl
 rkv
 stellar-strkey
 snarkvm
+sqlx-cli
