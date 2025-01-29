@@ -12,3 +12,4 @@ espflash
 snarkvm
 sqlx-cli
 stellar-strkey
+cargo-local-registry
