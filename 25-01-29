@@ -8,3 +8,4 @@ spotify_player
 nkeys
 cargo-bisect-rustc
 bugstalker
+cargo-spellcheck
