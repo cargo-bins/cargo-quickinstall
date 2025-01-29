@@ -26,3 +26,4 @@ cargo-spellcheck
 bugstalker
 snarkvm
 mdcat
+patch-crate
