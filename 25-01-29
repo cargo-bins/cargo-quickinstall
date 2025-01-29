@@ -18,3 +18,4 @@ clippy
 cargo-c
 phf_generator
 socketcan
+git-mit
