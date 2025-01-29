@@ -3,3 +3,4 @@ nkeys
 dotenv
 nkeys
 git-mit-config
+remove_dir_all
