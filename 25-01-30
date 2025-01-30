@@ -2,3 +2,4 @@ text-diff
 git-disjoint
 sn_node_rpc_client
 tendermint-rpc
+re_query
