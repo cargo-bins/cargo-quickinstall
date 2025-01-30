@@ -12,3 +12,4 @@ ferris-fetch
 papyrus_storage
 sqlx-cli
 phf_generator
+rls-rustc
