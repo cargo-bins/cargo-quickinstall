@@ -20,3 +20,4 @@ solana-gossip
 cargo-local-registry
 coldsnap
 sn_cli
+honggfuzz
