@@ -16,3 +16,4 @@ solana-faucet
 arrow-flight
 sha1collisiondetection
 honggfuzz
+solana-gossip
