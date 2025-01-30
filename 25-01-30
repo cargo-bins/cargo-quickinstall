@@ -80,3 +80,4 @@ cargo-public-api
 tree-sitter-graph
 borsh
 sequoia-chameleon-gnupg
+deno
