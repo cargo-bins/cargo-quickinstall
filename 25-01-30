@@ -37,3 +37,4 @@ usage-cli
 sha1collisiondetection
 honggfuzz
 cargo-i18n
+solana-gossip
