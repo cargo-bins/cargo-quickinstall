@@ -7,3 +7,4 @@ subkey
 re_query
 deploy
 ferris-fetch
+sqlx-cli
