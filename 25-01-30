@@ -5,3 +5,4 @@ tendermint-rpc
 re_query
 papyrus_storage
 phf_generator
+rls-rustc
