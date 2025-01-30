@@ -3,3 +3,4 @@ tendermint-rpc
 re_query
 wmi
 papyrus_storage
+phf_generator
