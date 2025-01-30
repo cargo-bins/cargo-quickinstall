@@ -18,3 +18,4 @@ sha1collisiondetection
 honggfuzz
 solana-gossip
 cargo-local-registry
+coldsnap
