@@ -3,3 +3,4 @@ git-disjoint
 subkey
 tendermint-rpc
 sqlx-cli
+subkey
