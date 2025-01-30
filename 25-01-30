@@ -22,3 +22,4 @@ coldsnap
 sn_cli
 honggfuzz
 tree-sitter-graph
+borsh
