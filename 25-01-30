@@ -41,3 +41,4 @@ solana-gossip
 cargo-i18n
 cargo-local-registry
 coldsnap
+ripcalc
