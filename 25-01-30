@@ -17,3 +17,4 @@ sha1collisiondetection
 espflash
 solana-gossip
 cargo-local-registry
+tree-sitter-graph
