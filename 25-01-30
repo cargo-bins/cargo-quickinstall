@@ -8,3 +8,4 @@ git-disjoint
 nkeys
 socketcan
 rkv
+diesel_cli
