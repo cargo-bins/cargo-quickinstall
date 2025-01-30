@@ -39,3 +39,4 @@ git-disjoint
 cargo-embassy
 xplr
 probe-rs-tools
+leetcode-cli
