@@ -43,3 +43,4 @@ cargo-local-registry
 coldsnap
 ripcalc
 usage-cli
+honggfuzz
