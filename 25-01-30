@@ -5,3 +5,4 @@ wmi
 phf_generator
 git-disjoint
 nkeys
+socketcan
