@@ -77,3 +77,4 @@ cargo-embassy
 metadata
 sequoia-chameleon-gnupg
 cargo-public-api
+tree-sitter-graph
