@@ -76,3 +76,4 @@ sea-orm-cli
 cargo-embassy
 metadata
 sequoia-chameleon-gnupg
+cargo-public-api
