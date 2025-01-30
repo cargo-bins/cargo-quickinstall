@@ -21,3 +21,4 @@ cargo-local-registry
 coldsnap
 sn_cli
 honggfuzz
+tree-sitter-graph
