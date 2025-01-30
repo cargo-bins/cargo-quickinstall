@@ -14,3 +14,4 @@ sha1collisiondetection
 solana-gossip
 cargo-local-registry
 tree-sitter-graph
+borsh
