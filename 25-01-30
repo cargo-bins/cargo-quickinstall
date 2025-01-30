@@ -8,3 +8,4 @@ git-disjoint
 xplr
 tendermint-rpc
 cargo-near
+cargo-whatfeatures
