@@ -3,3 +3,4 @@ tendermint-rpc
 re_query
 wmi
 phf_generator
+git-disjoint
