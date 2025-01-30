@@ -12,3 +12,4 @@ solana-faucet
 arrow-flight
 sha1collisiondetection
 solana-gossip
+cargo-local-registry
