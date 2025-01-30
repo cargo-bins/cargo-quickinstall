@@ -7,3 +7,4 @@ phf_generator
 git-disjoint
 papyrus_storage
 nkeys
+socketcan
