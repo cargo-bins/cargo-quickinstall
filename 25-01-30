@@ -73,3 +73,4 @@ leetcode-cli
 https
 https
 sea-orm-cli
+cargo-embassy
