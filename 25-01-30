@@ -44,3 +44,4 @@ coldsnap
 ripcalc
 usage-cli
 honggfuzz
+tree-sitter-graph
