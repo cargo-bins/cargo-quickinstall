@@ -16,3 +16,4 @@ arrow-flight
 sha1collisiondetection
 espflash
 solana-gossip
+cargo-local-registry
