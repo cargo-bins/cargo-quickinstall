@@ -8,3 +8,4 @@ phf_generator
 rls-rustc
 git-disjoint
 papyrus_storage
+nkeys
