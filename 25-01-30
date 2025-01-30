@@ -9,3 +9,4 @@ rls-rustc
 git-disjoint
 papyrus_storage
 nkeys
+socketcan
