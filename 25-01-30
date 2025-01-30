@@ -11,3 +11,4 @@ sqlx-cli
 ferris-fetch
 papyrus_storage
 sqlx-cli
+phf_generator
