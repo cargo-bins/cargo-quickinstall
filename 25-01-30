@@ -14,3 +14,4 @@ diesel_cli
 solana-faucet
 arrow-flight
 sha1collisiondetection
+solana-gossip
