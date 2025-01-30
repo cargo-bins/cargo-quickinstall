@@ -39,3 +39,4 @@ honggfuzz
 cargo-i18n
 solana-gossip
 cargo-i18n
+cargo-local-registry
