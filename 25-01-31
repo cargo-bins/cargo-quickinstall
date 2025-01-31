@@ -18,3 +18,4 @@ cargo-outdated
 cargo-risczero
 syd
 git-mit
+nextest-filtering
