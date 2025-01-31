@@ -24,3 +24,4 @@ kanidm_tools
 ripunzip
 graphql_client_cli
 cargo-embassy
+dotenvy
