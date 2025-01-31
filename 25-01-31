@@ -35,3 +35,4 @@ human_name
 ruff
 protox
 deno
+trusted-signing-cli
