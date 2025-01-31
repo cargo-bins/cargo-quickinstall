@@ -3,3 +3,4 @@ solana-faucet
 rkv
 re_query
 safe_network
+sea-orm-cli
