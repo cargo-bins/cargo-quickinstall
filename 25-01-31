@@ -6,3 +6,4 @@ sea-orm-cli
 human_name
 protox
 snarkvm
+cpp_demangle
