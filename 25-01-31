@@ -25,3 +25,4 @@ nextest-filtering
 dbus-codegen
 stellar-strkey
 rustfmt-nightly
+iai-callgrind-runner
