@@ -55,3 +55,4 @@ ruff
 https
 ruff
 trusted-signing-cli
+cargo-mobile2
