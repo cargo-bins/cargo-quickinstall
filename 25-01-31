@@ -9,3 +9,4 @@ snarkvm
 cpp_demangle
 tendermint-rpc
 syd
+nextest-filtering
