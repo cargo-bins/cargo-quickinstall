@@ -9,3 +9,4 @@ human_name
 protox
 cargo-udeps
 snarkvm
+tendermint-rpc
