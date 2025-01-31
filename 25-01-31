@@ -47,3 +47,4 @@ dotenvy
 ruff
 mdbook-bib
 trusted-signing-cli
+tendermint-rpc
