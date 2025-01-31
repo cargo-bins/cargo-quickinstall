@@ -87,3 +87,4 @@ trusted-signing-cli
 fast-csv-to-json
 stellar-strkey
 cargo-n64
+hid-recorder
