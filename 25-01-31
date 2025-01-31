@@ -7,3 +7,4 @@ mit-prepare-commit-msg
 human_name
 protox
 mit-pre-commit
+sqlx-cli
