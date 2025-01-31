@@ -8,3 +8,4 @@ protox
 tendermint-rpc
 syd
 nextest-filtering
+dbus-codegen
