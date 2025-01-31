@@ -21,3 +21,4 @@ easytier
 syd
 rustfmt-nightly
 git-mit
+nextest-filtering
