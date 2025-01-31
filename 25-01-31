@@ -12,3 +12,4 @@ snarkvm
 tendermint-rpc
 mit-pre-commit
 sccache
+sqlx-cli
