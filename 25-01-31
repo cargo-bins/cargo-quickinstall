@@ -2,3 +2,4 @@ metadata
 minicbor
 dotenvy
 deno
+cargo-dylint
