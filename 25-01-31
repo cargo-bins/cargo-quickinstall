@@ -6,3 +6,4 @@ cargo-embassy
 metadata
 kanidm_tools
 mdcat
+solana-faucet
