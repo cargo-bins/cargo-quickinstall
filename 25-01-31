@@ -31,3 +31,4 @@ cargo-dylint
 alacritty
 https
 ruff
+human_name
