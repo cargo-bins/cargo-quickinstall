@@ -75,3 +75,4 @@ diesel_cli
 lumen
 trusted-signing-cli
 dx-cli
+cargo-mobile2
