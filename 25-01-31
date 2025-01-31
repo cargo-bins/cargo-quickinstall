@@ -13,3 +13,4 @@ rmesg
 syd
 git-mit
 nextest-filtering
+dbus-codegen
