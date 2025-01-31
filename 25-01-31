@@ -16,3 +16,4 @@ nextest-filtering
 dbus-codegen
 stellar-strkey
 iai-callgrind-runner
+safe_network
