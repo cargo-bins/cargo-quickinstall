@@ -24,3 +24,4 @@ git-mit
 nextest-filtering
 dbus-codegen
 stellar-strkey
+rustfmt-nightly
