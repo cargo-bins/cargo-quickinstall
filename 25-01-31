@@ -66,3 +66,4 @@ trusted-signing-cli
 nextest-filtering
 dbus-codegen
 cargo-mobile2
+trusted-signing-cli
