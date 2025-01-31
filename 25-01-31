@@ -46,3 +46,4 @@ diesel_cli
 dotenvy
 ruff
 mdbook-bib
+trusted-signing-cli
