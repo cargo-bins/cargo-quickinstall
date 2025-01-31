@@ -11,3 +11,4 @@ cargo-udeps
 snarkvm
 tendermint-rpc
 mit-pre-commit
+sccache
