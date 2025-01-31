@@ -25,3 +25,4 @@ protox
 snarkvm
 tendermint-rpc
 nextest-filtering
+dbus-codegen
