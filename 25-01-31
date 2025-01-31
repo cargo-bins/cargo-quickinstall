@@ -26,3 +26,4 @@ snarkvm
 tendermint-rpc
 nextest-filtering
 dbus-codegen
+wmi
