@@ -64,3 +64,4 @@ ripunzip
 lumen
 trusted-signing-cli
 nextest-filtering
+dbus-codegen
