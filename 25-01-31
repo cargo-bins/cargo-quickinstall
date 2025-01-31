@@ -27,3 +27,4 @@ stellar-strkey
 rustfmt-nightly
 iai-callgrind-runner
 easytier
+safe_network
