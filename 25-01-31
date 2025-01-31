@@ -20,3 +20,4 @@ ruff
 kanidm_tools
 winpty-rs
 mdcat
+graphql_client_cli
