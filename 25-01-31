@@ -74,3 +74,4 @@ fast-csv-to-json
 diesel_cli
 lumen
 trusted-signing-cli
+dx-cli
