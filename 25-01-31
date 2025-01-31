@@ -42,3 +42,4 @@ snarkvm
 cpp_demangle
 ruff
 deno
+diesel_cli
