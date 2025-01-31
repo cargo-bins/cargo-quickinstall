@@ -45,3 +45,4 @@ deno
 diesel_cli
 dotenvy
 ruff
+mdbook-bib
