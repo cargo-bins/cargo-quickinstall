@@ -18,3 +18,4 @@ nextest-filtering
 dbus-codegen
 wmi
 stellar-strkey
+kanidm_tools
