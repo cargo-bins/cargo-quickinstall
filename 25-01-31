@@ -5,3 +5,4 @@ re_query
 sea-orm-cli
 winpty-rs
 mit-prepare-commit-msg
+human_name
