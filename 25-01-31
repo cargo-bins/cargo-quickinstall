@@ -19,3 +19,4 @@ dbus-codegen
 wmi
 stellar-strkey
 kanidm_tools
+cargo-dylint
