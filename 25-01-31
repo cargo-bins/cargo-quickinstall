@@ -54,3 +54,4 @@ diesel_cli
 ruff
 https
 ruff
+trusted-signing-cli
