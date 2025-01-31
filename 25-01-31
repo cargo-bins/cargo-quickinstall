@@ -51,3 +51,4 @@ tendermint-rpc
 suckit
 ripunzip
 diesel_cli
+ruff
