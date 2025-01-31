@@ -18,3 +18,4 @@ metadata
 re_query
 ruff
 kanidm_tools
+winpty-rs
