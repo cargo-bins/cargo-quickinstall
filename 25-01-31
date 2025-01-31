@@ -22,3 +22,4 @@ cargo-whatfeatures
 https
 kanidm_tools
 ripunzip
+graphql_client_cli
