@@ -24,3 +24,4 @@ tree-sitter-cli
 re_query
 tree-sitter-cli
 deno
+libbpf-cargo
