@@ -3,3 +3,4 @@ lumen
 cargo-dylint
 wiki-tui
 httpmock
+hurl
