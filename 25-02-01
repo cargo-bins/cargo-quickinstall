@@ -11,3 +11,4 @@ ncspot
 httpmock
 ncspot
 rls-rustc
+cargo-dylint
