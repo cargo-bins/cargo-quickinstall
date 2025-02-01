@@ -15,3 +15,4 @@ git-mit-config
 re_query
 rustbus
 sqlx-cli
+deno
