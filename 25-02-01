@@ -16,3 +16,4 @@ re_query
 rustbus
 sqlx-cli
 deno
+text-diff
