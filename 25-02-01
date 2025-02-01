@@ -16,3 +16,4 @@ libbpf-cargo
 sea-orm-cli
 git-mit-config
 tauri-cli
+httpmock
