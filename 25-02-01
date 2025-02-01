@@ -36,3 +36,4 @@ libbpf-cargo
 python-project-generator
 catbox
 sea-orm-cli
+cargo-n64
