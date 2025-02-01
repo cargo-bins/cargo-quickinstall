@@ -19,3 +19,4 @@ cargo-dylint
 charybdis-migrate
 re_query
 charybdis-migrate
+deno
