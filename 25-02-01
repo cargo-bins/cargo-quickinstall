@@ -18,3 +18,4 @@ honggfuzz
 libbpf-cargo
 git-mit-config
 minicbor
+parquet
