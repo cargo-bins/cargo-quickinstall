@@ -22,3 +22,4 @@ charybdis-migrate
 deno
 libbpf-cargo
 ncspot
+minicbor
