@@ -4,3 +4,4 @@ cargo-embassy
 hurl
 httpmock
 python-project-generator
+kanidm_tools
