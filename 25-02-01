@@ -28,3 +28,4 @@ libbpf-cargo
 sea-orm-cli
 minicbor
 metrics-observer
+parquet
