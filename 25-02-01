@@ -10,3 +10,4 @@ rls-rustc
 papyrus_storage
 nexmark
 solana-cli
+benfred-read-process-memory
