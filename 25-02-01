@@ -21,3 +21,4 @@ re_query
 charybdis-migrate
 deno
 libbpf-cargo
+ncspot
