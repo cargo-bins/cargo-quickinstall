@@ -15,3 +15,4 @@ httpmock
 dioxus-cli
 tree-sitter-cli
 dioxus-cli
+rls-rustc
