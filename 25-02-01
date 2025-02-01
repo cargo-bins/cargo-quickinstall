@@ -16,3 +16,4 @@ re_query
 rustbus
 honggfuzz
 libbpf-cargo
+git-mit-config
