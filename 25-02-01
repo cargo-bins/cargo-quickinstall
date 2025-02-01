@@ -13,3 +13,4 @@ re_query
 deno
 sqlx-cli
 libbpf-cargo
+sea-orm-cli
