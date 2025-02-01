@@ -12,3 +12,4 @@ re_query
 deno
 libbpf-cargo
 sea-orm-cli
+minicbor
