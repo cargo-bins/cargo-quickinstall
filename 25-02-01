@@ -14,3 +14,4 @@ rls-rustc
 cargo-dylint
 cargo-dylint
 nexmark
+charybdis-migrate
