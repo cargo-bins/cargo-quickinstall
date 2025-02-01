@@ -32,3 +32,4 @@ binstall
 neophyte
 cargo-ktra-login
 deno
+libbpf-cargo
