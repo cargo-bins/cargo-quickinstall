@@ -5,3 +5,4 @@ cargo-c
 solana-keygen
 httpmock
 mit-commit-msg
+rls-rustc
