@@ -11,3 +11,4 @@ solana-cli
 re_query
 deno
 libbpf-cargo
+sea-orm-cli
