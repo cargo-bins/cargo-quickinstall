@@ -20,3 +20,4 @@ charybdis-migrate
 re_query
 charybdis-migrate
 deno
+libbpf-cargo
