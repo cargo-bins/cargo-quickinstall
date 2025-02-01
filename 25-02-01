@@ -14,3 +14,4 @@ benfred-read-process-memory
 git-mit-config
 re_query
 rustbus
+sqlx-cli
