@@ -11,3 +11,4 @@ solana-cli
 git-mit-config
 re_query
 deno
+sqlx-cli
