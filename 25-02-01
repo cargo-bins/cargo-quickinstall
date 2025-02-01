@@ -17,3 +17,4 @@ rustbus
 sqlx-cli
 deno
 text-diff
+libbpf-cargo
