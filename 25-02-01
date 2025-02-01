@@ -14,3 +14,4 @@ libbpf-cargo
 sea-orm-cli
 minicbor
 parquet
+nu
