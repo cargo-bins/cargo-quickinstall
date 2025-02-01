@@ -2,3 +2,4 @@ catbox
 cargo-n64
 cargo-embassy
 hurl
+httpmock
