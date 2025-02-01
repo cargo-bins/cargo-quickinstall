@@ -59,3 +59,4 @@ cargo-ktra-login
 fzf-make
 solana-validator
 cargo-list
+solana-net-utils
