@@ -13,3 +13,4 @@ cargo-ktra-login
 solana-keygen
 kanidm_tools
 httpmock
+hid-recorder
