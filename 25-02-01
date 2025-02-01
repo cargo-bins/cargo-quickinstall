@@ -14,3 +14,4 @@ deno
 sqlx-cli
 libbpf-cargo
 sea-orm-cli
+git-mit-config
