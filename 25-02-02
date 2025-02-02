@@ -10,3 +10,4 @@ termusic
 diesel_cli
 laminar
 socketcan
+rls-rustc
