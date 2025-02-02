@@ -13,3 +13,4 @@ diesel_cli
 laminar
 solana-keygen
 socketcan
+rls-rustc
