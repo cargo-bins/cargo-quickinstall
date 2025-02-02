@@ -16,3 +16,4 @@ solana-stake-accounts
 socketcan
 tauri-cli
 human_name
+cargo-c
