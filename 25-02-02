@@ -10,3 +10,4 @@ graphql_client_cli
 minicbor
 cargo-list
 redoxer
+cargo-unmaintained
