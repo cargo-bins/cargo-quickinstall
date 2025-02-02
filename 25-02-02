@@ -21,3 +21,4 @@ sn_cli
 sn_node
 human_name
 cargo-vet
+dotenv-flow
