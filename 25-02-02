@@ -46,3 +46,4 @@ tree-sitter-cli
 tgt
 cargo-unmaintained
 mollysocket
+socketcan
