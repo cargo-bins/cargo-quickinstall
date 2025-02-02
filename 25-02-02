@@ -12,3 +12,4 @@ dotenv
 diesel_cli
 laminar
 solana-keygen
+socketcan
