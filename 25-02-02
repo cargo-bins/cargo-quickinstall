@@ -26,3 +26,4 @@ alacritty
 dotenv
 mollysocket
 a11ywatch_cli
+fzf-make
