@@ -9,3 +9,4 @@ tendermint-rpc
 diesel_cli
 laminar
 solana-keygen
+socketcan
