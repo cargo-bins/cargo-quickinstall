@@ -18,3 +18,4 @@ solana-stake-accounts
 minicbor
 socketcan
 sn_cli
+sn_node
