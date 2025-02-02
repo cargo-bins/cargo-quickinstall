@@ -11,3 +11,4 @@ laminar
 solana-keygen
 trunk
 socketcan
+rls-rustc
