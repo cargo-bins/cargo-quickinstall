@@ -9,3 +9,4 @@ tendermint-rpc
 termusic
 diesel_cli
 laminar
+socketcan
