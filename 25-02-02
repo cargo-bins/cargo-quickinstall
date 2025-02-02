@@ -20,3 +20,4 @@ a11ywatch_cli
 human_bytes
 tendermint-rpc
 cargo-list
+papyrus_storage
