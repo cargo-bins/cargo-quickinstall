@@ -18,3 +18,4 @@ cargo-list
 fzf-make
 cargo-dylint
 cargo-unmaintained
+a11ywatch_cli
