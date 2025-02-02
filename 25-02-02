@@ -28,3 +28,4 @@ minicbor
 socketcan
 human_name
 laminar
+dotenv-flow
