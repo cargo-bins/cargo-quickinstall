@@ -10,3 +10,4 @@ diesel_cli
 laminar
 solana-keygen
 trunk
+socketcan
