@@ -7,3 +7,4 @@ redoxer
 cargo-spellcheck
 tree-sitter-cli
 graphql_client_cli
+minicbor
