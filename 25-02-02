@@ -9,3 +9,4 @@ mit-commit-msg
 tendermint-rpc
 papyrus_storage
 dotenv
+diesel_cli
