@@ -15,3 +15,4 @@ socketcan
 rls-rustc
 text-diff
 solana-stake-accounts
+minicbor
