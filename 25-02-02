@@ -43,3 +43,4 @@ mollysocket
 socketcan
 vl-convert
 rls-rustc
+sniffnet
