@@ -13,3 +13,4 @@ socketcan
 rls-rustc
 cargo-codspeed
 solana-stake-accounts
+socketcan
