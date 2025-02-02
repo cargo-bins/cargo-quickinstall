@@ -6,3 +6,4 @@ tendermint-rpc
 papyrus_storage
 dotenv
 a11ywatch_cli
+diesel_cli
