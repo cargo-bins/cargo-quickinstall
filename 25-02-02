@@ -66,3 +66,4 @@ glim-tui
 tgt
 librespot
 cargo-unmaintained
+cpp_demangle
