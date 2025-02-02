@@ -19,3 +19,4 @@ cargo-codspeed
 borsh
 solana-stake-accounts
 minicbor
+socketcan
