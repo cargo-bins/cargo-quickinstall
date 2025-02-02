@@ -42,3 +42,4 @@ vl-convert
 mollysocket
 socketcan
 vl-convert
+rls-rustc
