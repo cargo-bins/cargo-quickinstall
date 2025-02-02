@@ -27,3 +27,4 @@ cargo-c
 cargo-tarpaulin
 nu
 librespot
+cargo-udeps
