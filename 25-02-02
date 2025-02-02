@@ -16,3 +16,4 @@ cargo-list
 cargo-unmaintained
 cargo-list
 fzf-make
+cargo-dylint
