@@ -4,3 +4,4 @@ trunk
 a11ywatch_cli
 tendermint-rpc
 papyrus_storage
+dotenv
