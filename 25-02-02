@@ -20,3 +20,4 @@ borsh
 solana-stake-accounts
 minicbor
 socketcan
+tauri-cli
