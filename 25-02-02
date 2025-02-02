@@ -9,3 +9,4 @@ tree-sitter-cli
 graphql_client_cli
 minicbor
 cargo-list
+redoxer
