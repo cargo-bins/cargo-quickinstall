@@ -13,3 +13,4 @@ trunk
 socketcan
 rls-rustc
 trunk
+borsh
