@@ -12,3 +12,4 @@ cargo-unmaintained
 graphql_client_cli
 cargo-spellcheck
 holochain
+cargo-list
