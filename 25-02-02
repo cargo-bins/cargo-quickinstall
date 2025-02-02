@@ -12,3 +12,4 @@ laminar
 socketcan
 rls-rustc
 borsh
+minicbor
