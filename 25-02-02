@@ -5,3 +5,4 @@ alacritty
 binstall
 redoxer
 cargo-spellcheck
+tree-sitter-cli
