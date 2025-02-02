@@ -35,3 +35,4 @@ tree-sitter-cli
 sniffnet
 socketcan
 tree-sitter-cli
+rls-rustc
