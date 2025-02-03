@@ -12,3 +12,4 @@ borsh
 wol-rs
 zuse
 solana-keygen
+dotenv
