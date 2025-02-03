@@ -6,3 +6,4 @@ opencv-binding-generator
 tgt
 redoxer
 cargo-flash
+arrow-flight
