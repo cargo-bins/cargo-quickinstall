@@ -30,3 +30,4 @@ scryer-prolog
 cargo-flash
 tytanic
 rustfmt-nightly
+gguf
