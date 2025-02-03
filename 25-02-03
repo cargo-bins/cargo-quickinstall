@@ -24,3 +24,4 @@ probe-rs-tools
 rsgen-avro
 cargo-insta
 cargo-insta
+probe-rs-tools
