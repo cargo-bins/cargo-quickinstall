@@ -19,3 +19,4 @@ wol-rs
 dotenv
 solana-keygen
 cargo-local-registry
+holochain_keystore
