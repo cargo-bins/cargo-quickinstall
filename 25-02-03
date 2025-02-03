@@ -6,3 +6,4 @@ winpty-rs
 rustfmt-nightly
 safe_network
 schemafy
+spider_worker
