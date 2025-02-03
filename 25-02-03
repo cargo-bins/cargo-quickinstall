@@ -23,3 +23,4 @@ diesel_cli
 kble
 tlmcmddb-cli
 tmtc-c2a
+parquet
