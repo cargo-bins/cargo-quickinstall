@@ -10,3 +10,4 @@ cargo-udeps
 rustfmt-nightly
 safe_network
 cargo-local-registry
+schemafy
