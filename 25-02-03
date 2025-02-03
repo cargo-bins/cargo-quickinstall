@@ -33,3 +33,4 @@ rustfmt-nightly
 gguf
 hyprswitch
 nvl-cli
+cargo-public-api
