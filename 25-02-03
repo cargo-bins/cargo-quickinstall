@@ -6,3 +6,4 @@ winpty-rs
 wol-rs
 cargo-local-registry
 schemafy
+cargo-local-registry
