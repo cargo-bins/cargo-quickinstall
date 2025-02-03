@@ -29,3 +29,4 @@ nvl-cli
 scryer-prolog
 cargo-flash
 tytanic
+rustfmt-nightly
