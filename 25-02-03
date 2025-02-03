@@ -9,3 +9,4 @@ cargo-flash
 arrow-flight
 gguf
 winpty-rs
+cargo-spellcheck
