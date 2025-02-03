@@ -31,3 +31,4 @@ cargo-dylint
 scryer-prolog
 hyprswitch
 gguf
+nvl-cli
