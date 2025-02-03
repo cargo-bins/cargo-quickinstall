@@ -12,3 +12,4 @@ safe_network
 cargo-local-registry
 schemafy
 cargo-local-registry
+spider_worker
