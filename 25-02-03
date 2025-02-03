@@ -13,3 +13,4 @@ cargo-local-registry
 borsh
 dotenvy
 wol-rs
+serie
