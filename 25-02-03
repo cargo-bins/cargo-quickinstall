@@ -24,3 +24,4 @@ rkv
 diesel_cli
 pwasm-utils
 sea-orm-cli
+solana-cli
