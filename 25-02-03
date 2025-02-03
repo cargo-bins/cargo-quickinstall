@@ -11,3 +11,4 @@ rustfmt-nightly
 safe_network
 cargo-local-registry
 schemafy
+cargo-local-registry
