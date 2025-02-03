@@ -12,3 +12,4 @@ schemafy
 cargo-local-registry
 borsh
 dotenvy
+wol-rs
