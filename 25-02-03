@@ -67,3 +67,4 @@ mdcat
 pwasm-utils
 rav1e
 sea-orm-cli
+tracexec
