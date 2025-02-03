@@ -14,3 +14,4 @@ schemafy
 cargo-local-registry
 spider_worker
 borsh
+dotenvy
