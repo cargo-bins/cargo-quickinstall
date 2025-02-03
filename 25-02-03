@@ -5,3 +5,4 @@ winpty-rs
 rg
 wol-rs
 rkv
+diesel_cli
