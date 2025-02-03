@@ -16,3 +16,4 @@ dotenv
 cargo-local-registry
 diesel_cli
 pwasm-utils
+sea-orm-cli
