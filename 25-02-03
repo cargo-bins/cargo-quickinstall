@@ -39,3 +39,4 @@ schemafy
 cargo-public-api
 gguf
 borsh
+wol-rs
