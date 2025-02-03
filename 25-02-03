@@ -8,3 +8,4 @@ git-mit-config
 wol-rs
 cargo-udeps
 rustfmt-nightly
+safe_network
