@@ -26,3 +26,4 @@ rustfmt-nightly
 safe_network
 twm
 dioxus-cli
+gguf
