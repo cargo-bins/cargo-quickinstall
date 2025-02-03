@@ -4,3 +4,4 @@ arrow-flight
 trunk
 winpty-rs
 rustfmt-nightly
+safe_network
