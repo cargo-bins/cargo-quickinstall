@@ -4,3 +4,4 @@ arrow-flight
 winpty-rs
 spider_worker
 borsh
+dotenvy
