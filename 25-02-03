@@ -8,3 +8,4 @@ redoxer
 cargo-flash
 arrow-flight
 gguf
+winpty-rs
