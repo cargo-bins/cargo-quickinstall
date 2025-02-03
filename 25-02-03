@@ -9,3 +9,4 @@ wol-rs
 skim
 safe_network
 rustfmt-nightly
+sn_node
