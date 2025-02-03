@@ -22,3 +22,4 @@ dioxus-cli
 redoxer
 alacritty
 hurl
+rustfmt-nightly
