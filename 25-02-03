@@ -13,3 +13,4 @@ dotenv
 diesel_cli
 pwasm-utils
 sea-orm-cli
+parquet
