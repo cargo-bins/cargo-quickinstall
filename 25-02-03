@@ -15,3 +15,4 @@ pwasm-utils
 sea-orm-cli
 parquet
 solana-cli
+nexmark
