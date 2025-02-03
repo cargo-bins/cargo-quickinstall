@@ -13,3 +13,4 @@ wol-rs
 zuse
 solana-keygen
 dotenv
+cargo-local-registry
