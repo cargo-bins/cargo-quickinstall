@@ -10,3 +10,4 @@ borsh
 tlmcmddb-cli
 dotenvy
 tmtc-c2a
+wol-rs
