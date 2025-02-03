@@ -7,3 +7,4 @@ winpty-rs
 git-mit-config
 wol-rs
 cargo-udeps
+rustfmt-nightly
