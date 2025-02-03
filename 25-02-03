@@ -28,3 +28,4 @@ probe-rs-tools
 probe-rs-tools
 cargo-insta
 probe-rs-tools
+sea-orm-cli
