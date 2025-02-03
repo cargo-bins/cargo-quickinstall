@@ -14,3 +14,4 @@ zuse
 solana-keygen
 dotenv
 cargo-local-registry
+diesel_cli
