@@ -3,3 +3,4 @@ opencv-binding-generator
 arrow-flight
 winpty-rs
 rg
+wol-rs
