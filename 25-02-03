@@ -3,3 +3,4 @@ sccache
 opencv-binding-generator
 arrow-flight
 pwasm-utils
+winpty-rs
