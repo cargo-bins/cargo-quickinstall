@@ -11,3 +11,4 @@ rrule
 solana-keygen
 dotenv
 diesel_cli
+pwasm-utils
