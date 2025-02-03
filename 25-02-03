@@ -10,3 +10,4 @@ arrow-flight
 gguf
 winpty-rs
 cargo-spellcheck
+nvl-cli
