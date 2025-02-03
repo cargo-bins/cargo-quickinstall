@@ -2,3 +2,4 @@ socketcan
 opencv-binding-generator
 solana-tokens
 arrow-flight
+pwasm-utils
