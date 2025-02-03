@@ -10,3 +10,4 @@ spider_worker
 borsh
 wol-rs
 zuse
+rsgen-avro
