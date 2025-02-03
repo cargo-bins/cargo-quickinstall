@@ -14,3 +14,4 @@ diesel_cli
 pwasm-utils
 sea-orm-cli
 parquet
+solana-cli
