@@ -21,3 +21,4 @@ rrule
 solana-keygen
 cargo-local-registry
 rkv
+diesel_cli
