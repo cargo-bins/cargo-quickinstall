@@ -18,3 +18,4 @@ diesel_cli
 pwasm-utils
 sea-orm-cli
 libbpf-cargo
+solana-cli
