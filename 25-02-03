@@ -2,3 +2,4 @@ socketcan
 sccache
 opencv-binding-generator
 arrow-flight
+pwasm-utils
