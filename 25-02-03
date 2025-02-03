@@ -6,3 +6,4 @@ pwasm-utils
 winpty-rs
 git-mit-config
 wol-rs
+cargo-udeps
