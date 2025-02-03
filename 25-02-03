@@ -10,3 +10,4 @@ skim
 safe_network
 rustfmt-nightly
 sn_node
+cargo-local-registry
