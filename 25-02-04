@@ -72,3 +72,4 @@ racer
 cargo-pgrx
 rustfmt-nightly
 cargo-whatfeatures
+libbpf-cargo
