@@ -5,3 +5,4 @@ httpmock
 sha1collisiondetection
 nkeys
 pwasm-utils
+borsh
