@@ -16,3 +16,4 @@ oso
 oso
 dotenvy
 rustfmt-nightly
+libbpf-cargo
