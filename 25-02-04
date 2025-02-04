@@ -3,3 +3,4 @@ sha1collisiondetection
 nkeys
 iai-callgrind-runner
 pwasm-utils
+borsh
