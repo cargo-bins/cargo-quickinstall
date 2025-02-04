@@ -11,3 +11,4 @@ addr2line
 cpp_demangle
 py-spy
 shunkakinoki
+sea-orm-cli
