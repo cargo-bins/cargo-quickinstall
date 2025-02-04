@@ -13,3 +13,4 @@ sha1collisiondetection
 tracexec
 nextsv
 nkeys
+cargo-dylint
