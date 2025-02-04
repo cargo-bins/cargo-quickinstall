@@ -70,3 +70,4 @@ dotenvy
 librespot
 racer
 cargo-pgrx
+rustfmt-nightly
