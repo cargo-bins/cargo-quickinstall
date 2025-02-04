@@ -10,3 +10,4 @@ addr2line
 oso
 oso
 dotenvy
+rustfmt-nightly
