@@ -11,3 +11,4 @@ cargo-public-api
 bluetui
 httpmock
 hurl
+pcu
