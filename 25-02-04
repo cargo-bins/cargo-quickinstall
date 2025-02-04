@@ -6,3 +6,4 @@ pwasm-utils
 borsh
 phf_generator
 honggfuzz
+text-diff
