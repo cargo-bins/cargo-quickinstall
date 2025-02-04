@@ -3,3 +3,4 @@ nkeys
 tree-sitter-cli
 watchexec-cli
 borsh
+phf_generator
