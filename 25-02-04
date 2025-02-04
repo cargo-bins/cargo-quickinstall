@@ -8,3 +8,4 @@ tauri-cli
 sea-orm-cli
 sccache
 addr2line
+cpp_demangle
