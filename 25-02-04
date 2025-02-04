@@ -8,3 +8,4 @@ tauri-cli
 sea-orm-cli
 spider_cli
 sccache
+addr2line
