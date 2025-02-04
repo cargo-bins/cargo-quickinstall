@@ -13,3 +13,4 @@ pwasm-utils
 gitui
 cargo-crev
 borsh
+dua-cli
