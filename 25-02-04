@@ -9,3 +9,4 @@ rg
 sea-orm-cli
 cargo-spellcheck
 nextsv
+sha1collisiondetection
