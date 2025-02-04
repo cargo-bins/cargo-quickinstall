@@ -4,3 +4,4 @@ nkeys
 iai-callgrind-runner
 pwasm-utils
 borsh
+phf_generator
