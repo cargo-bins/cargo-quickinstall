@@ -10,3 +10,4 @@ borsh
 phf_generator
 sark0y_tam_rst
 dioxus-cli
+addr2line
