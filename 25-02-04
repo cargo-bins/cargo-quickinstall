@@ -5,3 +5,4 @@ borsh
 phf_generator
 sea-orm-cli
 spider_cli
+addr2line
