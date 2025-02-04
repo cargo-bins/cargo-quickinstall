@@ -4,3 +4,4 @@ diesel_cli
 httpmock
 sha1collisiondetection
 nkeys
+pwasm-utils
