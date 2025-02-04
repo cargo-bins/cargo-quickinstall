@@ -5,3 +5,4 @@ pwasm-utils
 borsh
 phf_generator
 tauri-cli
+sea-orm-cli
