@@ -16,3 +16,4 @@ borsh
 dua-cli
 cargo-crev
 cargo-crev
+phf_generator
