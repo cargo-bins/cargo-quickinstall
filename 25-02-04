@@ -51,3 +51,4 @@ ore-cli
 ore-cli
 cargo-download
 addr2line
+py-spy
