@@ -50,3 +50,4 @@ age-plugin-yubikey
 ore-cli
 ore-cli
 cargo-download
+addr2line
