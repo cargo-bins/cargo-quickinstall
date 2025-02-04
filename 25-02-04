@@ -44,3 +44,4 @@ oso
 dua
 cargo-lock
 dotenvy
+rustfmt-nightly
