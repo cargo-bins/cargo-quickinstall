@@ -53,3 +53,4 @@ cargo-download
 addr2line
 py-spy
 age-plugin-yubikey
+cargo-info
