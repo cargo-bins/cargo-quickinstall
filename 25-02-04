@@ -12,3 +12,4 @@ gitui
 pwasm-utils
 gitui
 cargo-crev
+borsh
