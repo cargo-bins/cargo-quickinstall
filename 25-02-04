@@ -4,3 +4,4 @@ sha1collisiondetection
 nkeys
 kickstart
 borsh
+phf_generator
