@@ -8,3 +8,4 @@ httpmock
 rg
 sea-orm-cli
 cargo-spellcheck
+nextsv
