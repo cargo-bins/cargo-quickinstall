@@ -9,3 +9,4 @@ squawk
 sea-orm-cli
 cargo-public-api
 bluetui
+httpmock
