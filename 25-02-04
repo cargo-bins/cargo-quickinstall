@@ -25,3 +25,4 @@ phf_generator
 cargo-public-api
 age-plugin-yubikey
 bluetui
+nextsv
