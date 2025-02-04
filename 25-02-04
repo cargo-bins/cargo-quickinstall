@@ -58,3 +58,4 @@ librespot
 cargo-info
 racer
 ore-cli
+rustfmt-nightly
