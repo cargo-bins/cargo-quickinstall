@@ -16,3 +16,4 @@ sn_node
 oso
 dotenvy
 rustfmt-nightly
+libbpf-cargo
