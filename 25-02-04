@@ -3,3 +3,4 @@ nkeys
 tree-sitter-cli
 pwasm-utils
 borsh
+phf_generator
