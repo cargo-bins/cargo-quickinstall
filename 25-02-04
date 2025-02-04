@@ -4,3 +4,4 @@ tree-sitter-cli
 pwasm-utils
 borsh
 phf_generator
+tauri-cli
