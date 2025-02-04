@@ -10,3 +10,4 @@ spider_cli
 sccache
 addr2line
 nkeys
+py-spy
