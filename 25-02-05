@@ -6,3 +6,4 @@ git-disjoint
 dotenv
 sqlx-cli
 pandora_box
+nkeys
