@@ -16,3 +16,4 @@ cargo-spellcheck
 spider_worker
 git-disjoint
 sniffnet
+hurlfmt
