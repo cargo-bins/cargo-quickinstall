@@ -9,3 +9,4 @@ dotenv
 protox
 httpmock
 sqlx-cli
+pandora_box
