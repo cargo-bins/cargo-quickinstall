@@ -53,3 +53,4 @@ nu_plugin_gstat
 python-project-generator
 hurlfmt
 spider_worker
+httpmock
