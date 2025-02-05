@@ -3,3 +3,4 @@ laminar
 winpty-rs
 oxipng
 spider_worker
+dbus-codegen
