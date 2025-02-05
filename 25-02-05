@@ -39,3 +39,4 @@ cargo-whatfeatures
 shunkakinoki
 tuisky
 nu_plugin_query
+opencv-binding-generator
