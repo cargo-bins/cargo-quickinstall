@@ -13,3 +13,4 @@ cargo-codspeed
 opencv-binding-generator
 nu
 spider_worker
+httpmock
