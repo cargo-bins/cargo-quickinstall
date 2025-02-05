@@ -37,3 +37,4 @@ cargo-spellcheck
 racer
 nkeys
 nu_plugin_gstat
+nu_plugin_query
