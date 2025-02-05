@@ -19,3 +19,4 @@ dbus-codegen
 python-project-generator
 cargo-pgrx
 git-disjoint
+dotenv
