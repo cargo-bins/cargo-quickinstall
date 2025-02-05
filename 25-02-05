@@ -21,3 +21,4 @@ cargo-pgrx
 git-disjoint
 dotenv
 racer
+hurlfmt
