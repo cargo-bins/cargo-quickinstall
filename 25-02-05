@@ -17,3 +17,4 @@ cargo-codspeed
 solana-genesis
 opencv-binding-generator
 nu
+papyrus_storage
