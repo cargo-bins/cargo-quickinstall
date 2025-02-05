@@ -5,3 +5,4 @@ dioxus-cli
 kalc
 kalc
 git-disjoint
+dotenv
