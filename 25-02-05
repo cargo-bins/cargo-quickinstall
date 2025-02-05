@@ -6,3 +6,4 @@ tokio-process
 sqlx-cli
 dbus-codegen
 git-disjoint
+dotenv
