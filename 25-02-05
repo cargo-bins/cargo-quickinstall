@@ -20,3 +20,4 @@ opencv-binding-generator
 clippy
 nu_plugin_gstat
 termusic
+httpmock
