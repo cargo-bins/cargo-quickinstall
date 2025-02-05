@@ -12,3 +12,4 @@ cargo-pgrx
 alacritty
 racer
 cargo-info
+cargo-spellcheck
