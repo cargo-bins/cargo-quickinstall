@@ -15,3 +15,4 @@ diesel_cli
 opencv-binding-generator
 nu
 rmatrix
+spider_worker
