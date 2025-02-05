@@ -10,3 +10,4 @@ clippy
 dbus-codegen
 kickstart
 git-disjoint
+dotenv
