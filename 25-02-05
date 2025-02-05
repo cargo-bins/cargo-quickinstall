@@ -3,3 +3,4 @@ protox
 cargo-info
 racer
 spider_cli
+winpty-rs
