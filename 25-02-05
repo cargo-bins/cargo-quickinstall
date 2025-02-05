@@ -10,3 +10,4 @@ age-plugin-yubikey
 cargo-dylint
 redoxer
 cargo-info
+spider_cli
