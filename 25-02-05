@@ -7,3 +7,4 @@ dotenv
 sqlx-cli
 pandora_box
 nkeys
+evcxr_repl
