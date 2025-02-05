@@ -16,3 +16,4 @@ tree-sitter-cli
 racer
 sniffnet
 dbus-codegen
+python-project-generator
