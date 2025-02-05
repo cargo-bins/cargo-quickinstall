@@ -7,3 +7,4 @@ winpty-rs
 cargo-whatfeatures
 cargo-info
 age-plugin-yubikey
+cargo-dylint
