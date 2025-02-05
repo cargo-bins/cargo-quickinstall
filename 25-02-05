@@ -3,3 +3,4 @@ winpty-rs
 cargo-pgrx
 tauri-cli
 sqlx-cli
+dbus-codegen
