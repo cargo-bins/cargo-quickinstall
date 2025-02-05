@@ -56,3 +56,4 @@ hurlfmt
 simple-http-server
 spider_worker
 tuisky
+httpmock
