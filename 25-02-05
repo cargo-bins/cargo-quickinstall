@@ -2,3 +2,4 @@ protox
 skim
 dbus-codegen
 git-disjoint
+dotenv
