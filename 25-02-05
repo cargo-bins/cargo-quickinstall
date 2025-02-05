@@ -6,3 +6,4 @@ spider_cli
 winpty-rs
 cargo-whatfeatures
 cargo-info
+age-plugin-yubikey
