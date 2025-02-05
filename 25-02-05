@@ -7,3 +7,4 @@ sqlx-cli
 dbus-codegen
 git-disjoint
 dotenv
+protox
