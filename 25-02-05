@@ -17,3 +17,4 @@ spider_worker
 git-disjoint
 sniffnet
 hurlfmt
+dotenv
