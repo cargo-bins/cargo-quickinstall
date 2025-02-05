@@ -8,3 +8,4 @@ dbus-codegen
 git-disjoint
 dotenv
 httpmock
+pandora_box
