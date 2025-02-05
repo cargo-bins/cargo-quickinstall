@@ -20,3 +20,4 @@ python-project-generator
 cargo-pgrx
 git-disjoint
 dotenv
+racer
