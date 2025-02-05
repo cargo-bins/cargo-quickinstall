@@ -54,3 +54,4 @@ python-project-generator
 hurlfmt
 spider_worker
 httpmock
+nu_plugin_query
