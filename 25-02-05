@@ -10,3 +10,4 @@ dotenv
 protox
 rav1e
 httpmock
+sqlx-cli
