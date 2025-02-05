@@ -12,3 +12,4 @@ kickstart
 git-disjoint
 dotenv
 protox
+httpmock
