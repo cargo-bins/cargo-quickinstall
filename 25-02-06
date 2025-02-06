@@ -11,3 +11,4 @@ addr2line
 solana-faucet
 nexmark
 tendermint-rpc
+rls-rustc
