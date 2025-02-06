@@ -17,3 +17,4 @@ tendermint-rpc
 cargo-generate
 rls-rustc
 solana-faucet
+cargo-tarpaulin
