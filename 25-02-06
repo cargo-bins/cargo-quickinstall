@@ -30,3 +30,4 @@ crates-tui
 git-next
 tuisky
 cargo-embed
+cargo-public-api
