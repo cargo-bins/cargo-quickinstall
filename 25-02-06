@@ -12,3 +12,4 @@ zellij
 dbus-codegen
 cargo-udeps
 solana-faucet
+nexmark
