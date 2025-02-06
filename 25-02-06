@@ -38,3 +38,4 @@ cargo-embed
 probe-rs-tools
 cargo-whatfeatures
 cargo-embassy
+tree-sitter-cli
