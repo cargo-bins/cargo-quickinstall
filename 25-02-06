@@ -17,3 +17,4 @@ sn_node
 tendermint-rpc
 cargo-generate
 rls-rustc
+cpp_demangle
