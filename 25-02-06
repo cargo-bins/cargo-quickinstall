@@ -8,3 +8,4 @@ sqlx-cli
 rav1e
 zellij
 rustfmt
+benfred-read-process-memory
