@@ -13,3 +13,4 @@ zellij
 dbus-codegen
 cargo-udeps
 addr2line
+solana-faucet
