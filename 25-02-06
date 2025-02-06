@@ -15,3 +15,4 @@ cargo-udeps
 addr2line
 solana-faucet
 nexmark
+html2md
