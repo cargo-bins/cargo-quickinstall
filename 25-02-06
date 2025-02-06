@@ -14,3 +14,4 @@ tendermint-rpc
 rls-rustc
 solana-keygen
 solana-cli
+solana-faucet
