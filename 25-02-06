@@ -19,3 +19,4 @@ html2md
 tendermint-rpc
 cargo-generate
 rls-rustc
+solana-cli
