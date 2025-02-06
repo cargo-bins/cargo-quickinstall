@@ -13,3 +13,4 @@ dbus-codegen
 cargo-udeps
 solana-faucet
 nexmark
+tendermint-rpc
