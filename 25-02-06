@@ -11,3 +11,4 @@ sqlx-cli
 cargo-about
 zellij
 dbus-codegen
+cargo-udeps
