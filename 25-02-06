@@ -18,3 +18,4 @@ nexmark
 solana-net-utils
 tendermint-rpc
 cargo-generate
+rls-rustc
