@@ -8,3 +8,4 @@ cargo-tarpaulin
 git-mit-relates-to
 sqlx-cli
 cargo-about
+zellij
