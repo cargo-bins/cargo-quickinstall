@@ -20,3 +20,4 @@ solana-faucet
 nexmark
 ruskel
 tendermint-rpc
+rls-rustc
