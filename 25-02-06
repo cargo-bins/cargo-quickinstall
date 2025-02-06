@@ -10,3 +10,4 @@ a11ywatch_cli
 addr2line
 solana-faucet
 nexmark
+tendermint-rpc
