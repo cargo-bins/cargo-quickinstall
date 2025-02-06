@@ -17,3 +17,4 @@ graphql_client_cli
 fyrox-project-manager
 cargo-embed
 cargo-public-api
+hurlfmt
