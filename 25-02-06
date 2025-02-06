@@ -10,3 +10,4 @@ git-mit-relates-to
 sqlx-cli
 cargo-about
 zellij
+dbus-codegen
