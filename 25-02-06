@@ -5,3 +5,4 @@ re_query
 solana-faucet
 minicbor
 mit-commit-msg
+cargo-tarpaulin
