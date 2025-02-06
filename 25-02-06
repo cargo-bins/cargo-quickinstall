@@ -21,3 +21,4 @@ cargo-generate
 rls-rustc
 solana-cli
 xradar
+solana-faucet
