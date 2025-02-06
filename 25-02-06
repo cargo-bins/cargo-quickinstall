@@ -28,3 +28,4 @@ probe-rs-tools
 cargo-public-api
 crates-tui
 git-next
+tuisky
