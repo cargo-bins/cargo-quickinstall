@@ -13,3 +13,4 @@ dbus-codegen
 rustfmt
 solana-faucet
 nexmark
+sn_node
