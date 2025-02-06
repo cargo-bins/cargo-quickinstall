@@ -14,3 +14,4 @@ cargo-udeps
 solana-faucet
 nexmark
 tendermint-rpc
+cargo-generate
