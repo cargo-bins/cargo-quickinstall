@@ -28,3 +28,4 @@ git-next
 nu_plugin_gstat
 nxcloud
 simple-http-server
+cargo-embassy
