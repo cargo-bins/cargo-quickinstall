@@ -16,3 +16,4 @@ nexmark
 sn_node
 tendermint-rpc
 cargo-generate
+rls-rustc
