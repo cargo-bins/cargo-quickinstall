@@ -5,3 +5,4 @@ cargo-dylint
 solana-stake-accounts
 ffsend
 laminar
+re_query
