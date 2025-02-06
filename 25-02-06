@@ -22,3 +22,4 @@ rls-rustc
 solana-cli
 solana-faucet
 racer
+cargo-tarpaulin
