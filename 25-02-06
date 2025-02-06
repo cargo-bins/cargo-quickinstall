@@ -18,3 +18,4 @@ nexmark
 html2md
 tendermint-rpc
 cargo-generate
+rls-rustc
