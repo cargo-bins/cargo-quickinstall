@@ -17,3 +17,4 @@ solana-faucet
 nexmark
 html2md
 tendermint-rpc
+cargo-generate
