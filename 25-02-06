@@ -5,3 +5,4 @@ binstall
 binstall
 nexmark
 tendermint-rpc
+rls-rustc
