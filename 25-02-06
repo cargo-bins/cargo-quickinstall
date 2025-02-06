@@ -19,3 +19,4 @@ cargo-generate
 rls-rustc
 cpp_demangle
 ec2_instance_metadata
+racer
