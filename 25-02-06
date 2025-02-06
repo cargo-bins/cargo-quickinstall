@@ -12,3 +12,4 @@ benfred-read-process-memory
 dbus-codegen
 rustfmt
 solana-faucet
+nexmark
