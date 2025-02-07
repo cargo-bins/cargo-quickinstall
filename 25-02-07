@@ -10,3 +10,4 @@ binstall
 foundationdb-gen
 binstall
 arrow-flight
+dbus-codegen
