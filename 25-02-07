@@ -48,3 +48,4 @@ alacritty
 cached-path
 cargo-maelstrom
 wol-rs
+nu_plugin_gstat
