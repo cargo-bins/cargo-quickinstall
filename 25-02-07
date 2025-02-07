@@ -5,3 +5,4 @@ phf_generator
 stellar-strkey
 arrow-flight
 opencv-binding-generator
+dbus-codegen
