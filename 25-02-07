@@ -16,3 +16,4 @@ git-next
 cargo-embassy
 foundationdb-gen
 stellar-strkey
+tectonic
