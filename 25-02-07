@@ -5,3 +5,4 @@ foundationdb-gen
 stellar-strkey
 phf_generator
 cargo-tarpaulin
+arrow-flight
