@@ -14,3 +14,4 @@ ffsend
 nkeys
 git-next
 cargo-embassy
+foundationdb-gen
