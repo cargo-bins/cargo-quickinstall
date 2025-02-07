@@ -20,3 +20,4 @@ human_bytes
 foundationdb-gen
 cached-path
 wol-rs
+raw-cpuid
