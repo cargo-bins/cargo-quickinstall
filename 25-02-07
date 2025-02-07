@@ -4,3 +4,4 @@ foundationdb-gen
 phf_generator
 stellar-strkey
 arrow-flight
+opencv-binding-generator
