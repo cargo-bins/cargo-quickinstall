@@ -5,3 +5,4 @@ nkeys
 foundationdb-gen
 stellar-strkey
 foundationdb-gen
+cargo-tarpaulin
