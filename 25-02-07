@@ -10,3 +10,4 @@ dbus-codegen
 aki-image-view-gtk
 ruff
 human_bytes
+foundationdb-gen
