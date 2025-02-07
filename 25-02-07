@@ -3,3 +3,4 @@ binstall
 foundationdb-gen
 aki-image-view-gtk
 stellar-strkey
+phf_generator
