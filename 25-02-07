@@ -12,3 +12,4 @@ ruff
 human_bytes
 foundationdb-gen
 sequoia-sq
+cached-path
