@@ -19,3 +19,4 @@ foundationdb-gen
 deno
 cached-path
 mit-prepare-commit-msg
+wol-rs
