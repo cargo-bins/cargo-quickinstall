@@ -26,3 +26,4 @@ speedtest-rs
 opencv-binding-generator
 deno
 dbus-codegen
+cargo-dylint
