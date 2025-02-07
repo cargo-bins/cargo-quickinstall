@@ -11,3 +11,4 @@ cargo-outdated
 dbus-codegen
 a11ywatch_cli
 tree-sitter-cli
+git-mit-install
