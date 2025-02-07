@@ -9,3 +9,4 @@ deno
 cargo-maelstrom
 trusted-signing-cli
 nkeys
+cargo-list
