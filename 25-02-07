@@ -3,3 +3,4 @@ nkeys
 foundationdb-gen
 phf_generator
 stellar-strkey
+arrow-flight
