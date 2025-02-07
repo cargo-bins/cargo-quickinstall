@@ -6,3 +6,4 @@ stellar-strkey
 foundationdb-gen
 arrow-flight
 opencv-binding-generator
+dbus-codegen
