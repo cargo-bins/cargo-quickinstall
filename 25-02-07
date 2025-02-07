@@ -7,3 +7,4 @@ stellar-strkey
 foundationdb-gen
 cargo-tarpaulin
 arrow-flight
+opencv-binding-generator
