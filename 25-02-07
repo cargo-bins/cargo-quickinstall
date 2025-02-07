@@ -4,3 +4,4 @@ nkeys
 foundationdb-gen
 stellar-strkey
 phf_generator
+cargo-tarpaulin
