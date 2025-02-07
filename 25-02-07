@@ -20,3 +20,4 @@ mit-prepare-commit-msg
 wol-rs
 raw-cpuid
 solana-cli
+cargo-codspeed
