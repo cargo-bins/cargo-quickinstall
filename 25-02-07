@@ -8,3 +8,4 @@ foundationdb-gen
 cargo-tarpaulin
 arrow-flight
 opencv-binding-generator
+cargo-outdated
