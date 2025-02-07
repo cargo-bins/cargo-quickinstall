@@ -6,3 +6,4 @@ stellar-strkey
 arrow-flight
 opencv-binding-generator
 dbus-codegen
+iai-callgrind-runner
