@@ -18,3 +18,4 @@ foundationdb-gen
 cached-path
 mit-prepare-commit-msg
 wol-rs
+raw-cpuid
