@@ -38,3 +38,4 @@ nu_plugin_gstat
 gpg-tui
 turbocommit
 termusix
+cargo-dylint
