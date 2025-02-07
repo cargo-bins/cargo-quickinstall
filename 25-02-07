@@ -14,3 +14,4 @@ deno
 cargo-maelstrom
 dioxus-cli
 foundationdb-gen
+graphql_client_cli
