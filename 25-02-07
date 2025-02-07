@@ -48,3 +48,4 @@ crates-tui
 sequoia-sq
 human_bytes
 foundationdb-gen
+ttysvr
