@@ -16,3 +16,4 @@ foundationdb-gen
 deno
 wol-rs
 raw-cpuid
+solana-cli
