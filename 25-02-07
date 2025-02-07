@@ -7,3 +7,4 @@ sea-orm-cli
 nu
 deno
 cargo-maelstrom
+trusted-signing-cli
