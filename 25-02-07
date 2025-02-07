@@ -8,3 +8,4 @@ opencv-binding-generator
 dbus-codegen
 iai-callgrind-runner
 git-mit-install
+solana-gossip
