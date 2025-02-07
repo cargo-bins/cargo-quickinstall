@@ -47,3 +47,4 @@ solana-gossip
 crates-tui
 sequoia-sq
 human_bytes
+foundationdb-gen
