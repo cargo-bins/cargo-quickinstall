@@ -34,3 +34,4 @@ crates-tui
 re_query
 paru
 termusix
+nu_plugin_gstat
