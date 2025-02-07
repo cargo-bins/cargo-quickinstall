@@ -16,3 +16,4 @@ dioxus-cli
 foundationdb-gen
 graphql_client_cli
 stellar-strkey
+phf_generator
