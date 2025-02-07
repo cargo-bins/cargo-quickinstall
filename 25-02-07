@@ -13,3 +13,4 @@ human_bytes
 foundationdb-gen
 sequoia-sq
 cached-path
+wol-rs
