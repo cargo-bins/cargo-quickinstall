@@ -17,3 +17,4 @@ solana-gossip
 human_bytes
 foundationdb-gen
 deno
+cached-path
