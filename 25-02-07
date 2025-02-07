@@ -46,3 +46,4 @@ crates-tui
 solana-gossip
 crates-tui
 sequoia-sq
+human_bytes
