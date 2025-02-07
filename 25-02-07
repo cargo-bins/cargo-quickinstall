@@ -19,3 +19,4 @@ foundationdb-gen
 cached-path
 wol-rs
 git-workspace
+raw-cpuid
