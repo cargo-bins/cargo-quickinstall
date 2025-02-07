@@ -53,3 +53,4 @@ speedtest-rs
 paru
 cargo-maelstrom
 cached-path
+wol-rs
