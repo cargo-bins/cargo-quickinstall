@@ -33,3 +33,4 @@ wmi
 sea-orm-cli
 solana-faucet
 neovide
+cargo-ktra-login
