@@ -5,3 +5,4 @@ dioxus-cli
 winpty-rs
 dioxus-cli
 xplr
+cpp_demangle
