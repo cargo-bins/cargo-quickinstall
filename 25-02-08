@@ -25,3 +25,4 @@ cargo-ktra-login
 python-project-generator
 rga
 feluda
+libbpf-cargo
