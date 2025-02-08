@@ -13,3 +13,4 @@ solana-faucet
 sqlx-cli
 wol-rs
 wol-rs
+solana-gossip
