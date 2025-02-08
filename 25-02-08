@@ -4,3 +4,4 @@ shunkakinoki
 cargo-spellcheck
 gpg-tui
 alacritty
+winpty-rs
