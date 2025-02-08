@@ -6,3 +6,4 @@ gpg-tui
 alacritty
 winpty-rs
 leetcode-tui-rs
+graphql_client_cli
