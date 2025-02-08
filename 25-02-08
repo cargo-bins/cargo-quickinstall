@@ -4,3 +4,4 @@ cpp_demangle
 solana-net-utils
 human_name
 libbpf-cargo
+wmi
