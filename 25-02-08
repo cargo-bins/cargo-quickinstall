@@ -12,3 +12,4 @@ solana-cli
 sqlx-cli
 wol-rs
 wol-rs
+cargo-codspeed
