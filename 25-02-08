@@ -20,3 +20,4 @@ feluda
 python-project-generator
 graphql_client_cli
 cargo-dylint
+cargo-ktra-login
