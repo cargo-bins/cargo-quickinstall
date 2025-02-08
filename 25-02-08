@@ -41,3 +41,4 @@ probe-rs-tools
 wol-rs
 rga
 clipboard-history-tui
+sniffnet
