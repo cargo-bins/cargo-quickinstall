@@ -14,3 +14,4 @@ dioxus-cli
 libbpf-cargo
 wmi
 solana-faucet
+wol-rs
