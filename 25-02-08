@@ -7,3 +7,4 @@ libbpf-cargo
 wmi
 solana-faucet
 solana-cli
+wol-rs
