@@ -22,3 +22,4 @@ graphql_client_cli
 cargo-dylint
 cargo-ktra-login
 libbpf-cargo
+arti
