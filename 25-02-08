@@ -5,3 +5,4 @@ cargo-spellcheck
 gpg-tui
 alacritty
 winpty-rs
+leetcode-tui-rs
