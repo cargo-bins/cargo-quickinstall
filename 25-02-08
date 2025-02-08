@@ -3,3 +3,4 @@ winpty-rs
 cpp_demangle
 solana-net-utils
 human_name
+unic-langid-impl
