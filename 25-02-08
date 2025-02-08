@@ -12,3 +12,4 @@ dioxus-cli
 human_name
 dioxus-cli
 libbpf-cargo
+wmi
