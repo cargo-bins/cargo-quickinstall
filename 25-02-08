@@ -10,3 +10,4 @@ graphql_client_cli
 cpp_demangle
 rga
 sea-orm-cli
+solana-net-utils
