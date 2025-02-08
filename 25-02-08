@@ -3,3 +3,4 @@ dioxus-cli
 winpty-rs
 git-workspace
 cpp_demangle
+yolk
