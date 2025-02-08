@@ -20,3 +20,4 @@ git-mit-config
 sha1collisiondetection
 solana-faucet
 tendermint-abci
+cargo-git
