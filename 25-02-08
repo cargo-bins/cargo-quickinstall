@@ -6,3 +6,4 @@ human_name
 diesel_cli
 unic-langid-impl
 iai-callgrind-runner
+libbpf-cargo
