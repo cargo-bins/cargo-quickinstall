@@ -9,3 +9,4 @@ winpty-rs
 spotify_player
 cpp_demangle
 rga
+sea-orm-cli
