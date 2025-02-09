@@ -3,3 +3,4 @@ deno
 clipboard-history
 probe-rs-tools
 nur
+patch-crate
