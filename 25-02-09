@@ -17,3 +17,4 @@ cargo-c
 rls-rustc
 py-spy
 schemafy
+pwasm-utils
