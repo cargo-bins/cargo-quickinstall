@@ -58,3 +58,4 @@ cargo-depsize
 pwasm-utils
 binwalk
 ncspot
+papyrus_storage
