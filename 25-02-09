@@ -46,3 +46,4 @@ patch-crate
 foundationdb-gen
 what-the-port
 solana-stake-accounts
+cargo-spellcheck
