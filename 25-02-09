@@ -6,3 +6,4 @@ opencv-binding-generator
 rls-rustc
 foundationdb-gen
 arrow-flight
+schemafy
