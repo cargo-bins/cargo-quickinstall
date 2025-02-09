@@ -39,3 +39,4 @@ nu_plugin_dbus
 cargo-unmaintained
 lowfi
 rls-rustc
+lowfi
