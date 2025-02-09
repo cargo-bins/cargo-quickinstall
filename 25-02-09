@@ -17,3 +17,4 @@ rls-rustc
 borsh
 foundationdb-gen
 termusic
+lurk-cli
