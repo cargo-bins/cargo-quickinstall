@@ -21,3 +21,4 @@ cargo-duplicates
 rls-rustc
 kickstart
 dioxus-cli
+cargo-duplicates
