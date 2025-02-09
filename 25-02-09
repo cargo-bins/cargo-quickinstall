@@ -19,3 +19,4 @@ zellij
 kanidm_tools
 hike
 sqlx-cli
+rls-rustc
