@@ -59,3 +59,4 @@ pwasm-utils
 binwalk
 ncspot
 papyrus_storage
+tree-sitter-cli
