@@ -28,3 +28,4 @@ tui-journal
 cargo-depsize
 zuse
 hybrid-bar
+opencv-binding-generator
