@@ -5,3 +5,4 @@ probe-rs-tools
 nur
 patch-crate
 probe-rs-tools
+cargo-spellcheck
