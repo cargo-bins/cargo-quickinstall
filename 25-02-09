@@ -2,3 +2,4 @@ deno
 h3o
 opencv-binding-generator
 cargo-c
+wmi
