@@ -25,3 +25,4 @@ patch-crate
 tod
 syd
 tui-journal
+cargo-depsize
