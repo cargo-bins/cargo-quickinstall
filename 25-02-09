@@ -13,3 +13,4 @@ rls-rustc
 foundationdb-gen
 py-spy
 schemafy
+pwasm-utils
