@@ -7,3 +7,4 @@ rls-rustc
 foundationdb-gen
 arrow-flight
 schemafy
+pwasm-utils
