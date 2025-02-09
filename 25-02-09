@@ -42,3 +42,4 @@ rls-rustc
 lowfi
 airshipper
 sitemap2urllist
+patch-crate
