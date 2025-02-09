@@ -11,3 +11,4 @@ opencv-binding-generator
 espflash
 rls-rustc
 foundationdb-gen
+py-spy
