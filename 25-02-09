@@ -15,3 +15,4 @@ opencv-binding-generator
 cargo-c
 cargo-c
 rls-rustc
+py-spy
