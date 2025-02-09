@@ -26,3 +26,4 @@ tree-sitter-cli
 cargo-unmaintained
 what-the-port
 neophyte
+opencv-binding-generator
