@@ -33,3 +33,4 @@ snarkvm
 cargo-smart-release
 ncspot
 lowfi
+clippy
