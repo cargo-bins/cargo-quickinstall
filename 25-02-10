@@ -54,3 +54,4 @@ nvrs
 cargo-ktra-login
 rg
 mqtt-client-cli
+solana-gossip
