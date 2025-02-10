@@ -10,3 +10,4 @@ clippy
 deploy
 cargo-generate
 solana-genesis
+cargo-tarpaulin
