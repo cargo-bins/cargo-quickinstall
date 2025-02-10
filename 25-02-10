@@ -50,3 +50,4 @@ cargo-smart-release
 tgt
 dioxus-cli
 solana-net-utils
+bugstalker
