@@ -9,3 +9,4 @@ clippy
 deploy
 solana-validator
 rustbus
+cargo-generate
