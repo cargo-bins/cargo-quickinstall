@@ -37,3 +37,4 @@ clippy
 virtiofsd
 deploy
 solana-validator
+cargo-public-api
