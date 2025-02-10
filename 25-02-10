@@ -9,3 +9,4 @@ cargo-generate
 clippy
 deploy
 cargo-generate
+solana-genesis
