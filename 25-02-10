@@ -39,3 +39,4 @@ cargo-dylint
 virtiofsd
 plastic
 alacritty
+diesel_cli
