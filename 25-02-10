@@ -5,3 +5,4 @@ httpmock
 cargo-duplicates
 nkeys
 lurk-cli
+clippy
