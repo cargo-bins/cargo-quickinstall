@@ -6,3 +6,4 @@ nkeys
 git-mit-install
 cargo-generate
 clippy
+deploy
