@@ -20,3 +20,4 @@ snarkvm
 mqtt-client-cli
 nkeys
 binwalk
+cargo-smart-release
