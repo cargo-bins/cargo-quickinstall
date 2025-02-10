@@ -27,3 +27,4 @@ hurl
 hurl
 rg
 cargo-spellcheck
+diesel_cli
