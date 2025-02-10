@@ -33,3 +33,4 @@ snarkvm
 alacritty
 clippy
 deploy
+cargo-smart-release
