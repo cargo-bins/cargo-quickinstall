@@ -35,3 +35,4 @@ clippy
 deploy
 cargo-smart-release
 underdose
+cargo-dylint
