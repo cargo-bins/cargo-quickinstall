@@ -13,3 +13,4 @@ solana-genesis
 cargo-tarpaulin
 deno
 git-mit
+solana-net-utils
