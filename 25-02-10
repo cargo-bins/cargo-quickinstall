@@ -45,3 +45,4 @@ tree-sitter-cli
 mqtt-client-cli
 slint-lsp
 dotenv
+cargo-smart-release
