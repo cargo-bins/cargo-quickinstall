@@ -9,3 +9,4 @@ cargo-spellcheck
 binwalk
 plastic
 httpmock
+sea-orm-cli
