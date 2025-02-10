@@ -6,3 +6,4 @@ snarkvm
 laminar
 git-mit-install
 cargo-generate
+clippy
