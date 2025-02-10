@@ -43,3 +43,4 @@ diesel_cli
 cargo-ktra-login
 tree-sitter-cli
 mqtt-client-cli
+slint-lsp
