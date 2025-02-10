@@ -21,3 +21,4 @@ clippy
 deploy
 hike
 ferris-fetch
+cargo-generate
