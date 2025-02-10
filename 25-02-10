@@ -8,3 +8,4 @@ cargo-generate
 clippy
 deploy
 solana-validator
+cargo-generate
