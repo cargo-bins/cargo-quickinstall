@@ -10,3 +10,4 @@ deploy
 solana-validator
 cargo-generate
 git-mit
+solana-genesis
