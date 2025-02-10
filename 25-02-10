@@ -9,3 +9,4 @@ clippy
 deploy
 solana-validator
 cargo-generate
+git-mit
