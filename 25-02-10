@@ -55,3 +55,4 @@ cargo-ktra-login
 rg
 mqtt-client-cli
 solana-gossip
+mqtt-client-cli
