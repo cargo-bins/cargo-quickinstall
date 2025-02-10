@@ -8,3 +8,4 @@ git-mit-install
 cargo-generate
 clippy
 deploy
+cargo-generate
