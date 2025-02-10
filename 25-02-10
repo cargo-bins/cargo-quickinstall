@@ -22,3 +22,4 @@ nkeys
 binwalk
 cargo-smart-release
 tracexec
+virtiofsd
