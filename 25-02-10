@@ -46,3 +46,4 @@ mqtt-client-cli
 slint-lsp
 dotenv
 cargo-smart-release
+diesel_cli
