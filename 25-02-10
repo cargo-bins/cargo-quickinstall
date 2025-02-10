@@ -30,3 +30,4 @@ cargo-public-api
 unic-langid-impl
 alacritty
 snarkvm
+cargo-smart-release
