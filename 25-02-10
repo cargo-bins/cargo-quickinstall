@@ -8,3 +8,4 @@ redoxer
 cargo-spellcheck
 binwalk
 plastic
+httpmock
