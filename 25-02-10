@@ -5,3 +5,4 @@ git-mit
 nkeys
 git-mit-install
 cargo-generate
+clippy
