@@ -9,3 +9,4 @@ nkeys
 deploy
 solana-validator
 deno
+solana-net-utils
