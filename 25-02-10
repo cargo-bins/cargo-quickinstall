@@ -48,3 +48,4 @@ dotenv
 zee
 cargo-smart-release
 tgt
+dioxus-cli
