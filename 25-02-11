@@ -8,3 +8,4 @@ rustbus
 rrule
 re_query
 coldsnap
+rls-rustc
