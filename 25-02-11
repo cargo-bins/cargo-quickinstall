@@ -13,3 +13,4 @@ rls-rustc
 solana-net-utils
 httpmock
 protox
+pwasm-utils
