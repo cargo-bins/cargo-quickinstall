@@ -29,3 +29,4 @@ redoxer
 tgt
 cargo-public-api
 re_query
+sea-orm-cli
