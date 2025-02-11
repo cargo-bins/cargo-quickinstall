@@ -11,3 +11,4 @@ espflash
 rls-rustc
 httpmock
 protox
+pwasm-utils
