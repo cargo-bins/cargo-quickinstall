@@ -40,3 +40,4 @@ trusted-signing-cli
 sshx
 xplr
 rls-rustc
+httpmock
