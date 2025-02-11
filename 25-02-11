@@ -29,3 +29,4 @@ cargo-i18n
 httpmock
 protox
 cargo-i18n
+cargo-fuzzcheck
