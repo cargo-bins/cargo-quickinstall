@@ -18,3 +18,4 @@ sea-orm-cli
 trusted-signing-cli
 tgt
 grib-cli
+cargo-dylint
