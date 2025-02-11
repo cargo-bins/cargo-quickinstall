@@ -13,3 +13,4 @@ rls-rustc
 material
 solana-net-utils
 httpmock
+nu-completion-script
