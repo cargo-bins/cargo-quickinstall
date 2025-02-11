@@ -24,3 +24,4 @@ fw
 cargo-i18n
 cargo-generate
 rls-rustc
+solana-net-utils
