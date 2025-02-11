@@ -19,3 +19,4 @@ trusted-signing-cli
 tgt
 grib-cli
 cargo-dylint
+re_query
