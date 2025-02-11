@@ -3,3 +3,4 @@ solana-stake-accounts
 c2patool
 ferris-fetch
 gitui
+dotenv-flow
