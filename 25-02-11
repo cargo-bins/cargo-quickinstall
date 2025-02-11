@@ -11,3 +11,4 @@ re_query
 cargo-about
 schemafy
 rls-rustc
+solana-net-utils
