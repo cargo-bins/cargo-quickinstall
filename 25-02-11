@@ -22,3 +22,4 @@ coldsnap
 schemafy
 fw
 cargo-i18n
+cargo-generate
