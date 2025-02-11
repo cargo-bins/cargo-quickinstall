@@ -4,3 +4,4 @@ solana-stake-accounts
 virtiofsd
 dioxus-cli
 sniffnet
+dotenv-flow
