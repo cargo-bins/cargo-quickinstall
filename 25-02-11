@@ -27,3 +27,4 @@ rls-rustc
 solana-net-utils
 cargo-i18n
 httpmock
+protox
