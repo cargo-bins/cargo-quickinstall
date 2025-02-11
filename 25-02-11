@@ -31,3 +31,4 @@ cargo-public-api
 re_query
 sea-orm-cli
 redoxer
+c2rust
