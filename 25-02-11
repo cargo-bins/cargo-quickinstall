@@ -14,3 +14,4 @@ protox
 sn_faucet
 exa
 pwasm-utils
+tokio-process
