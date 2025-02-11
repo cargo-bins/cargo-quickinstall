@@ -32,3 +32,4 @@ re_query
 sea-orm-cli
 redoxer
 c2rust
+hurl
