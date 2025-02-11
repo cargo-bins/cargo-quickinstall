@@ -18,3 +18,4 @@ cargo-spellcheck
 tgt
 mqtt-client-cli
 tgt
+nextest
