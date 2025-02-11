@@ -21,3 +21,4 @@ grib-cli
 cargo-dylint
 re_query
 trusted-signing-cli
+azure-pim-cli
