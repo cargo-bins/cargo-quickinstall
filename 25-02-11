@@ -19,3 +19,4 @@ tgt
 mqtt-client-cli
 tgt
 nextest
+nextsv
