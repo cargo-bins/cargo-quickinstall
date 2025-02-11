@@ -43,3 +43,4 @@ rls-rustc
 httpmock
 yofi
 grib-cli
+rg
