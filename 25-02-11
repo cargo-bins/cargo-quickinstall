@@ -5,3 +5,4 @@ virtiofsd
 dioxus-cli
 sniffnet
 dotenv-flow
+cargo-ktra-login
