@@ -31,3 +31,4 @@ protox
 cargo-i18n
 cargo-fuzzcheck
 exa
+pwasm-utils
