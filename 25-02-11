@@ -9,3 +9,4 @@ re_query
 schemafy
 espflash
 rls-rustc
+httpmock
