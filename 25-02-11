@@ -10,3 +10,4 @@ re_query
 coldsnap
 rls-rustc
 httpmock
+protox
