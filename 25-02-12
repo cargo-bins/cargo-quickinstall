@@ -3,3 +3,4 @@ espflash
 trunk
 deno
 pwasm-utils
+wol-rs
