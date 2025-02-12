@@ -43,3 +43,4 @@ snatch
 cargo-unmaintained
 namada_apps
 binstall
+rustfmt-nightly
