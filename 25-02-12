@@ -53,3 +53,4 @@ nextest
 cargo-smart-release
 cargo-flash
 snatch
+tree-sitter-cli
