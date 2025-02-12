@@ -11,3 +11,4 @@ trusted-signing-cli
 binstall
 hurlfmt
 espflash
+cargo-ktra-login
