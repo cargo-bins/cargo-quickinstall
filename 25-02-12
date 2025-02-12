@@ -33,3 +33,4 @@ cargo-spellcheck
 nextest
 wol-rs
 tree-sitter-cli
+cargo-flash
