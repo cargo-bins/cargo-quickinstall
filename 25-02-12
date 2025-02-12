@@ -19,3 +19,4 @@ nextest
 archwiki-rs
 grib-cli
 nextest
+cargo-ktra-login
