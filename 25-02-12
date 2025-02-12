@@ -5,3 +5,4 @@ rustfmt
 mit-commit-msg
 deno
 pwasm-utils
+git-mit-config
