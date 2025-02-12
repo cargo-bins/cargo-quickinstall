@@ -9,3 +9,4 @@ git-mit-config
 cargo-outdated
 wol-rs
 solana-genesis
+diesel_cli
