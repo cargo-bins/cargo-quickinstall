@@ -10,3 +10,4 @@ mpd-discord-rpc
 honggfuzz
 cargo-i18n
 mit-commit-msg
+cargo-fuzzcheck
