@@ -13,3 +13,4 @@ sn_node
 diesel_cli
 honggfuzz
 solana-faucet
+rustbus
