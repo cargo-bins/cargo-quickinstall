@@ -16,3 +16,4 @@ solana-faucet
 rustbus
 sn_node_rpc_client
 re_query
+sn_cli
