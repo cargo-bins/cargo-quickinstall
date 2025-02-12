@@ -45,3 +45,4 @@ namada_apps
 binstall
 rustfmt-nightly
 cargo-flash
+binstall
