@@ -13,3 +13,4 @@ diesel_cli
 solana-faucet
 watchexec-cli
 spider_worker
+stellar-strkey
