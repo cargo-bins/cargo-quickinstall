@@ -16,3 +16,4 @@ diesel_cli
 cargo-spellcheck
 gitnr
 gitnr
+spider_worker
