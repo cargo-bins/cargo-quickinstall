@@ -22,3 +22,4 @@ diesel_cli
 hidpipe
 rust-image-to-ascii
 tplay
+ascii-artist-cli
