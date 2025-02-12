@@ -46,3 +46,4 @@ binstall
 rustfmt-nightly
 cargo-flash
 binstall
+cargo-smart-release
