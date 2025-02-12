@@ -12,3 +12,4 @@ cargo-outdated
 wol-rs
 solana-genesis
 deno
+diesel_cli
