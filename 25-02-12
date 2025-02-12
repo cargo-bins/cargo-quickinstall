@@ -26,3 +26,4 @@ rustfmt-nightly
 diesel_cli
 nu_plugin_port_extension
 honggfuzz
+rustbus
