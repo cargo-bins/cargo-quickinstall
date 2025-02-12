@@ -12,3 +12,4 @@ wol-rs
 cargo-spellcheck
 deno
 gitnr
+diesel_cli
