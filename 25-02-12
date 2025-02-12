@@ -12,3 +12,4 @@ benfred-read-process-memory
 sn_node
 diesel_cli
 honggfuzz
+solana-faucet
