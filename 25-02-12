@@ -6,3 +6,4 @@ pwasm-utils
 wol-rs
 deno
 diesel_cli
+spider_worker
