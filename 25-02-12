@@ -48,3 +48,4 @@ namada_apps
 binstall
 spider_worker
 cargo-pgrx
+cargo-unmaintained
