@@ -22,3 +22,4 @@ nu_plugin_port_extension
 solana-genesis
 diesel_cli
 tabiew
+rustfmt-nightly
