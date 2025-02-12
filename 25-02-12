@@ -8,3 +8,4 @@ pwasm-utils
 git-mit-config
 cargo-outdated
 wol-rs
+solana-genesis
