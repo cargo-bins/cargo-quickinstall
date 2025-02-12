@@ -10,3 +10,4 @@ cargo-outdated
 wol-rs
 solana-genesis
 diesel_cli
+solana-faucet
