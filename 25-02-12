@@ -8,3 +8,4 @@ dua-cli
 cargo-fuzzcheck
 mpd-discord-rpc
 honggfuzz
+cargo-i18n
