@@ -2,3 +2,4 @@ cargo-local-registry
 nexmark
 sn_node
 rustfmt
+mit-commit-msg
