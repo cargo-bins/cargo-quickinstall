@@ -9,3 +9,4 @@ deno
 trunk
 pwasm-utils
 wol-rs
+cargo-spellcheck
