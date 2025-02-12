@@ -9,3 +9,4 @@ cargo-about
 pwasm-utils
 git-mit-config
 cargo-outdated
+wol-rs
