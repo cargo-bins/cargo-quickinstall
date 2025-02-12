@@ -5,3 +5,4 @@ deno
 cargo-udeps
 cargo-about
 pwasm-utils
+git-mit-config
