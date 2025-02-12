@@ -5,3 +5,4 @@ deno
 pwasm-utils
 wol-rs
 deno
+diesel_cli
