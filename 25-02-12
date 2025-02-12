@@ -30,3 +30,4 @@ xxv
 pwasm-utils
 kanidm_tools
 cargo-spellcheck
+nextest
