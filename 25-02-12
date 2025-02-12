@@ -32,3 +32,4 @@ kanidm_tools
 cargo-spellcheck
 nextest
 wol-rs
+tree-sitter-cli
