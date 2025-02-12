@@ -13,3 +13,4 @@ wol-rs
 solana-genesis
 deno
 diesel_cli
+spider_worker
