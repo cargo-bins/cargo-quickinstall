@@ -41,3 +41,4 @@ venator-app
 duckup
 cargo-flash
 binstall
+probe-rs-tools
