@@ -14,3 +14,4 @@ diesel_cli
 honggfuzz
 solana-faucet
 rustbus
+sn_node_rpc_client
