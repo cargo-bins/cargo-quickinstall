@@ -17,3 +17,4 @@ git-journal
 rg
 nextest
 archwiki-rs
+grib-cli
