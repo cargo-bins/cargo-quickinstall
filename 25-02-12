@@ -8,3 +8,4 @@ pwasm-utils
 git-mit-config
 wol-rs
 solana-genesis
+benfred-read-process-memory
