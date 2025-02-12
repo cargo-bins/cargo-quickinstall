@@ -48,3 +48,4 @@ cargo-flash
 binstall
 cargo-smart-release
 namada_apps
+tactics-trainer-cli
