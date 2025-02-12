@@ -4,3 +4,4 @@ sn_node
 rustfmt
 mit-commit-msg
 deno
+pwasm-utils
