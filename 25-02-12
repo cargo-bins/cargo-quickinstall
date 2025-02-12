@@ -16,3 +16,4 @@ hidpipe
 pwasm-utils
 fm-tui
 startup-disk
+wol-rs
