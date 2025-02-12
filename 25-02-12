@@ -11,3 +11,4 @@ solana-genesis
 benfred-read-process-memory
 sn_node
 diesel_cli
+honggfuzz
