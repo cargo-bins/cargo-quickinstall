@@ -31,3 +31,4 @@ pwasm-utils
 kanidm_tools
 cargo-spellcheck
 nextest
+wol-rs
