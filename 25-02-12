@@ -12,3 +12,4 @@ cargo-i18n
 mit-commit-msg
 cargo-fuzzcheck
 dua-cli
+mpd-discord-rpc
