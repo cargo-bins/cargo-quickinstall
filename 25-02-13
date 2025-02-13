@@ -4,3 +4,4 @@ phf_generator
 librespot
 cargo-pgrx
 sea-orm-cli
+rustfmt-nightly
