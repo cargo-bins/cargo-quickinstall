@@ -50,3 +50,4 @@ arti
 tree-sitter-cli
 skyspell_kak
 probe-run
+patch-crate
