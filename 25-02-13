@@ -13,3 +13,4 @@ minicbor
 cargo-public-api
 graphql_client_cli
 porsmo
+cargo-pgrx
