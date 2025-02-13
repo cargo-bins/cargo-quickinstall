@@ -31,3 +31,4 @@ crates-tui
 re_query
 cargo-dylint
 syd
+tui-journal
