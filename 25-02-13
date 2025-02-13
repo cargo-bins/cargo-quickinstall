@@ -45,3 +45,4 @@ probe-rs-tools
 fend
 solana-tokens
 cargo-pgrx
+cached-path
