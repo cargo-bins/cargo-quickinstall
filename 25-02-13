@@ -41,3 +41,4 @@ cargo-public-api
 nextest
 tectonic
 fend
+cargo-pgrx
