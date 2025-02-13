@@ -7,3 +7,4 @@ tree-sitter-cli
 rustfmt-nightly
 cargo-smart-release
 cargo-dylint
+cargo-smart-release
