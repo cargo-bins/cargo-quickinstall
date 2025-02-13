@@ -8,3 +8,4 @@ rustfmt-nightly
 cargo-smart-release
 cargo-dylint
 cargo-smart-release
+neovide
