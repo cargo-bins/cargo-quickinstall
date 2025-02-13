@@ -8,3 +8,4 @@ rustfmt-nightly
 probe-rs-tools
 neovide
 sshx
+cargo-public-api
