@@ -11,3 +11,4 @@ sshx
 cargo-public-api
 minicbor
 cargo-public-api
+graphql_client_cli
