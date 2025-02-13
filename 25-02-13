@@ -9,3 +9,4 @@ probe-rs-tools
 neovide
 sshx
 cargo-public-api
+minicbor
