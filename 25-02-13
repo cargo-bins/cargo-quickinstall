@@ -24,3 +24,4 @@ cargo-flash
 namada_apps
 tgt
 cargo-unmaintained
+clipboard-history-server
