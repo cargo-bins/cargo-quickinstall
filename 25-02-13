@@ -5,3 +5,4 @@ minicbor
 hayagriva
 cargo-crev
 git-mit-install
+sqlx-cli
