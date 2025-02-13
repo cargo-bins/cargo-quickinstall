@@ -10,3 +10,4 @@ wmi
 cargo-generate
 snarkvm
 cached-path
+evcxr_repl
