@@ -32,3 +32,4 @@ re_query
 cargo-dylint
 syd
 tui-journal
+cached-path
