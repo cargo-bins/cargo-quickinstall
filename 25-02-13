@@ -38,3 +38,4 @@ clipboard-history-server
 wmi
 dioxus-cli
 nvrs
+cargo-pgrx
