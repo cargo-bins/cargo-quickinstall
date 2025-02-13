@@ -24,3 +24,4 @@ sshx-server
 cargo-dylint
 solana-tokens
 cached-path
+nextest
