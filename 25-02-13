@@ -21,3 +21,4 @@ cached-path
 wmi
 sshx-server
 sshx-server
+cargo-dylint
