@@ -5,3 +5,4 @@ librespot
 porsmo
 tree-sitter-cli
 rustfmt-nightly
+cargo-smart-release
