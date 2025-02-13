@@ -10,3 +10,4 @@ cargo-dylint
 cargo-smart-release
 neovide
 nextest
+minicbor
