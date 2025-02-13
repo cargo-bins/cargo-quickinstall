@@ -3,3 +3,4 @@ cargo-flash
 phf_generator
 librespot
 porsmo
+tree-sitter-cli
