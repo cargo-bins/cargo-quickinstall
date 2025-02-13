@@ -16,3 +16,4 @@ porsmo
 cargo-pgrx
 dioxus-cli
 sshx
+clipboard-history-server
