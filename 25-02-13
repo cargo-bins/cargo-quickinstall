@@ -44,3 +44,4 @@ fend
 cargo-pgrx
 tui-journal
 snarkvm
+dioxus-cli
