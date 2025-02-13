@@ -25,3 +25,4 @@ namada_apps
 tgt
 cargo-unmaintained
 clipboard-history-server
+textplots
