@@ -14,3 +14,4 @@ cargo-generate
 snarkvm
 cached-path
 espflash
+evcxr_repl
