@@ -13,3 +13,4 @@ foundationdb-gen
 git-mit-install
 sn_cli
 tokio-process
+minicbor
