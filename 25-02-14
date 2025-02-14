@@ -25,3 +25,4 @@ rpmoci
 arrow-flight
 foundationdb-gen
 tada
+cargo-pgrx
