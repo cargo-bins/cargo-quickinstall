@@ -3,3 +3,4 @@ solana-genesis
 addr2line
 sha1collisiondetection
 solana-tokens
+minicbor
