@@ -16,3 +16,4 @@ arrow-flight
 foundationdb-gen
 git-mit-install
 cargo-pgrx
+opencv-binding-generator
