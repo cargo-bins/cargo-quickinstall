@@ -24,3 +24,4 @@ sequoia-chameleon-gnupg
 dioxus-cli
 opencv-binding-generator
 sha1collisiondetection
+shpool
