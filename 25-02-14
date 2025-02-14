@@ -6,3 +6,4 @@ arrow-flight
 foundationdb-gen
 cargo-pgrx
 minicbor
+opencv-binding-generator
