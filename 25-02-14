@@ -17,3 +17,4 @@ solana-tokens
 binstall
 graphql_client_cli
 minicbor
+hurlfmt
