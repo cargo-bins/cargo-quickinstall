@@ -8,3 +8,4 @@ clipboard-history-server
 addr2line
 tracexec
 cargo-public-api
+solana-tokens
