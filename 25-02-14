@@ -39,3 +39,4 @@ foundationdb-gen
 cargo-list
 hurlfmt
 toolforge
+android-cli
