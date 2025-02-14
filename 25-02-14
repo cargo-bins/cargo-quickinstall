@@ -1,3 +1,4 @@
 honggfuzz
 mit-commit-msg
 ec2_instance_metadata
+addr2line
