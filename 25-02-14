@@ -38,3 +38,4 @@ foundationdb-gen
 patch-crate
 cargo-whatfeatures
 tuono
+minicbor
