@@ -42,3 +42,4 @@ toolforge
 android-cli
 rsql_cli
 cargo-whatfeatures
+cargo-dylint
