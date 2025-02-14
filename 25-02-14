@@ -29,3 +29,4 @@ kanidm_tools
 nvrs
 graphql_client_cli
 rusthound-ce
+tracexec
