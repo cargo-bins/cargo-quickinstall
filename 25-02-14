@@ -53,3 +53,4 @@ cargo-flash
 cargo-info
 cargo-embassy
 cargo-whatfeatures
+android-cli
