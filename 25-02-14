@@ -12,3 +12,4 @@ foundationdb-gen
 cargo-pgrx
 spider_worker
 py-spy
+sha1collisiondetection
