@@ -40,3 +40,4 @@ cargo-whatfeatures
 tuono
 minicbor
 rsql_cli
+mdbook-plantuml
