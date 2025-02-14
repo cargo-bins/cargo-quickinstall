@@ -39,3 +39,4 @@ patch-crate
 cargo-whatfeatures
 tuono
 minicbor
+rsql_cli
