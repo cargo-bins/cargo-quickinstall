@@ -18,3 +18,4 @@ git-mit-install
 cargo-pgrx
 opencv-binding-generator
 py-spy
+cargo-udeps
