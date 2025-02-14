@@ -40,3 +40,4 @@ cargo-list
 hurlfmt
 toolforge
 android-cli
+rsql_cli
