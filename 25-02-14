@@ -7,3 +7,4 @@ foundationdb-gen
 cargo-pgrx
 minicbor
 opencv-binding-generator
+py-spy
