@@ -19,3 +19,4 @@ graphql_client_cli
 minicbor
 hurlfmt
 tracexec
+rusthound-ce
