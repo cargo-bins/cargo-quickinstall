@@ -45,3 +45,4 @@ cargo-whatfeatures
 cargo-dylint
 easytier
 rsql_cli
+opencv-binding-generator
