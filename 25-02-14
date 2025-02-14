@@ -36,3 +36,4 @@ cargo-whatfeatures
 arrow-flight
 graphql_client_cli
 foundationdb-gen
+cargo-list
