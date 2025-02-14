@@ -4,3 +4,4 @@ ec2_instance_metadata
 addr2line
 solana-tokens
 minicbor
+rustbus
