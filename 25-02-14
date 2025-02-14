@@ -22,3 +22,4 @@ sequoia-sq
 cargo-pgrx
 sequoia-chameleon-gnupg
 dioxus-cli
+opencv-binding-generator
