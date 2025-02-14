@@ -9,3 +9,4 @@ addr2line
 tracexec
 cargo-public-api
 solana-tokens
+hurlfmt
