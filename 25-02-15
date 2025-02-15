@@ -26,3 +26,4 @@ patch-crate
 cargo-whatfeatures
 xcp
 cargo-embed
+cargo-embassy
