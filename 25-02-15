@@ -9,3 +9,4 @@ skim
 cargo-local-registry
 sn_cli
 honggfuzz
+foundationdb-gen
