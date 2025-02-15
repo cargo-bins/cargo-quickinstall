@@ -34,3 +34,4 @@ android-cli
 cargo-embassy
 nu_plugin_gstat
 opencv-binding-generator
+codeberg-cli
