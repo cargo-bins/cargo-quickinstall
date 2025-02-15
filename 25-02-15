@@ -3,3 +3,4 @@ solana-gossip
 tauri-cli
 oso
 tree-sitter-graph
+cargo-outdated
