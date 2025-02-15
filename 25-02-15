@@ -5,3 +5,4 @@ pwasm-utils
 xcp
 alacritty
 hurl
+cargo-dylint
