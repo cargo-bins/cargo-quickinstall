@@ -7,3 +7,4 @@ unic-langid-impl
 cargo-outdated
 solana-faucet
 cargo-local-registry
+opencv-binding-generator
