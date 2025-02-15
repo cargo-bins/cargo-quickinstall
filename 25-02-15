@@ -51,3 +51,4 @@ cargo-info
 cargo-interactive-update
 nu_plugin_query
 nu_plugin_query
+solana-genesis
