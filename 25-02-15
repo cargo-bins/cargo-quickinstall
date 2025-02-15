@@ -30,3 +30,4 @@ cargo-embassy
 mdbook-plantuml
 rmz
 typst-cli
+cargo-embed
