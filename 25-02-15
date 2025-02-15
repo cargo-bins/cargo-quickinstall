@@ -14,3 +14,4 @@ dioxus-cli
 hurl
 oso
 tree-sitter-graph
+wayland-pipewire-idle-inhibit
