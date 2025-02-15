@@ -31,3 +31,4 @@ i3stat
 ruff
 typst-cli
 android-cli
+cargo-embassy
