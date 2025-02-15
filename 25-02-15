@@ -10,3 +10,4 @@ cargo-local-registry
 sn_cli
 honggfuzz
 foundationdb-gen
+opencv-binding-generator
