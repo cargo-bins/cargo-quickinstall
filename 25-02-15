@@ -25,3 +25,4 @@ unic-langid-impl
 patch-crate
 cargo-whatfeatures
 xcp
+cargo-embed
