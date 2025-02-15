@@ -9,3 +9,4 @@ nkeys
 solana-genesis
 clippy
 solana-faucet
+sea-orm-cli
