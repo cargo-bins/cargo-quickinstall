@@ -42,3 +42,4 @@ typst-cli
 cargo-embassy
 rmz
 rmz
+graphql_client_cli
