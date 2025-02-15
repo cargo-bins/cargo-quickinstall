@@ -16,3 +16,4 @@ solana-genesis
 clippy
 solana-faucet
 protofetch
+sea-orm-cli
