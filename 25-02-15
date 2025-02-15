@@ -16,3 +16,4 @@ ruff
 dioxus-cli
 sea-orm-cli
 oso
+i3stat
