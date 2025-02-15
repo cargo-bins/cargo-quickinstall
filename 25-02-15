@@ -69,3 +69,4 @@ coreos-installer
 cargo-interactive-update
 cargo-interactive-update
 coreos-installer
+cargo-embassy
