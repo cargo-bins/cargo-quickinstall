@@ -39,3 +39,4 @@ cargo-flash
 typst-cli
 cargo-embed
 typst-cli
+cargo-embassy
