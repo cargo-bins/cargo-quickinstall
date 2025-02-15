@@ -15,3 +15,4 @@ cargo-embassy
 ruff
 dioxus-cli
 sea-orm-cli
+oso
