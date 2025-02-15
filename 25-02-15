@@ -7,3 +7,4 @@ unic-langid-impl
 iai-callgrind-runner
 skim
 cargo-local-registry
+sn_cli
