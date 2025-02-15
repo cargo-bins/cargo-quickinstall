@@ -56,3 +56,4 @@ cargo-embassy
 cargo-interactive-update
 nu_plugin_query
 solana-faucet
+cargo-dylint
