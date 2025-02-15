@@ -50,3 +50,4 @@ xcp
 typst-cli
 neovide
 cargo-info
+ruff
