@@ -18,3 +18,4 @@ wayland-pipewire-idle-inhibit
 wayland-pipewire-idle-inhibit
 hidpipe
 startup-disk
+dioxus-cli
