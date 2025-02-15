@@ -14,3 +14,4 @@ solana-gossip
 graphql_client_cli
 rmz
 sea-orm-cli
+safe_network
