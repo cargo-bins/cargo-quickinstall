@@ -52,3 +52,4 @@ neovide
 cargo-info
 ruff
 nu_plugin_gstat
+cargo-interactive-update
