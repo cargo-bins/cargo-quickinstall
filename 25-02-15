@@ -6,3 +6,4 @@ tree-sitter-graph
 unic-langid-impl
 iai-callgrind-runner
 skim
+cargo-local-registry
