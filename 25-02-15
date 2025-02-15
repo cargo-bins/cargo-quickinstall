@@ -6,3 +6,4 @@ tree-sitter-graph
 cargo-outdated
 solana-faucet
 cargo-local-registry
+opencv-binding-generator
