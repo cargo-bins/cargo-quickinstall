@@ -6,3 +6,4 @@ tree-sitter-graph
 unic-langid-impl
 cargo-outdated
 solana-faucet
+cargo-local-registry
