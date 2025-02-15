@@ -72,3 +72,4 @@ coreos-installer
 cargo-embassy
 rmz
 cargo-interactive-update
+solana-faucet
