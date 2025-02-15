@@ -7,3 +7,4 @@ cargo-outdated
 solana-faucet
 cargo-local-registry
 opencv-binding-generator
+zuse
