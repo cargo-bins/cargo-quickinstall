@@ -17,3 +17,4 @@ sea-orm-cli
 safe_network
 codeberg-cli
 cargo-info
+cargo-embassy
