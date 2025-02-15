@@ -13,3 +13,4 @@ cargo-c
 nkeys
 protofetch
 solana-genesis
+clippy
