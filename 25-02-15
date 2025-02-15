@@ -53,3 +53,4 @@ nu_plugin_query
 nu_plugin_query
 solana-genesis
 cargo-embassy
+cargo-interactive-update
