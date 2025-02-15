@@ -41,3 +41,4 @@ neovide
 typst-cli
 cargo-info
 cargo-embassy
+cargo-embed
