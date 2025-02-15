@@ -16,3 +16,4 @@ cargo-risczero
 solana-genesis
 clippy
 protofetch
+sea-orm-cli
