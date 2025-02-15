@@ -9,3 +9,4 @@ cargo-dylint
 hurl
 cargo-info
 android-cli
+rusthound-ce
