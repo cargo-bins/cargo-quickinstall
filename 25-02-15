@@ -4,3 +4,4 @@ hurl
 patch-crate
 codeberg-cli
 tuono
+sea-orm-cli
