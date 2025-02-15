@@ -21,3 +21,4 @@ cargo-embassy
 oso
 i3stat
 tree-sitter-graph
+unic-langid-impl
