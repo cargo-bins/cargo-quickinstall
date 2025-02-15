@@ -35,3 +35,4 @@ probe-rs-tools
 startup-disk
 speakersafetyd
 asahi-btsync
+dioxus-cli
