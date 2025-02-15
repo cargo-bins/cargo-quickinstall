@@ -28,3 +28,4 @@ nkeys
 rmesg
 solana-genesis
 clippy
+sqlx-cli
