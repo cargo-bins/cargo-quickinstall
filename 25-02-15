@@ -51,3 +51,4 @@ typst-cli
 neovide
 cargo-info
 ruff
+nu_plugin_gstat
