@@ -7,3 +7,4 @@ rmz
 foundationdb-gen
 dotenv
 opencv-binding-generator
+shpool
