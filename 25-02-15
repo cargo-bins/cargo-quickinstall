@@ -5,3 +5,4 @@ oso
 tree-sitter-graph
 cargo-outdated
 solana-faucet
+cargo-local-registry
