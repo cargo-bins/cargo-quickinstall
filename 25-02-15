@@ -21,3 +21,4 @@ rmatrix
 rmatrix
 cargo-local-registry
 protox
+honggfuzz
