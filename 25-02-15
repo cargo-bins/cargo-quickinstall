@@ -6,3 +6,4 @@ unic-langid-impl
 rmz
 foundationdb-gen
 dotenv
+opencv-binding-generator
