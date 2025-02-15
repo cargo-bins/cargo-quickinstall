@@ -11,3 +11,4 @@ cargo-info
 android-cli
 rusthound-ce
 solana-gossip
+graphql_client_cli
