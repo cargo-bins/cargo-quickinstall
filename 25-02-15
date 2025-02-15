@@ -26,3 +26,4 @@ asahi-btsync
 startup-disk
 dioxus-cli
 foundationdb-gen
+opencv-binding-generator
