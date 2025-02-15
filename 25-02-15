@@ -44,3 +44,4 @@ cargo-embassy
 cargo-embed
 nu_plugin_gstat
 cargo-embassy
+nu_plugin_query
