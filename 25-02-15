@@ -41,3 +41,4 @@ probe-rs-tools
 asahi-btsync
 asahi-btsync
 solana-genesis
+sea-orm-cli
