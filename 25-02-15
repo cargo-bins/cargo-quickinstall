@@ -29,3 +29,4 @@ foundationdb-gen
 opencv-binding-generator
 sea-orm-cli
 zuse
+startup-disk
