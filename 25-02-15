@@ -13,3 +13,4 @@ safe_network
 dioxus-cli
 hurl
 oso
+tree-sitter-graph
