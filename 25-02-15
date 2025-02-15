@@ -47,3 +47,4 @@ cargo-embassy
 nu_plugin_query
 codeberg-cli
 cargo-interactive-update
+cargo-info
