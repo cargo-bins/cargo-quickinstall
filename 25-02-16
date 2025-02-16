@@ -48,3 +48,4 @@ solana-cli
 java-locator
 winpty-rs
 opencv-binding-generator
+re_query
