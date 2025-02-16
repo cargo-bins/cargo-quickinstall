@@ -6,3 +6,4 @@ httpbis
 rls-rustc
 rustfmt
 stellar-strkey
+winpty-rs
