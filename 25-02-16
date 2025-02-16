@@ -18,3 +18,4 @@ winpty-rs
 zellij
 git-disjoint
 evcxr_repl
+sccache
