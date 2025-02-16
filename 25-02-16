@@ -22,3 +22,4 @@ sccache
 tendermint-abci
 tree-sitter-cli
 minicbor
+tauri-cli
