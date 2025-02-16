@@ -19,3 +19,4 @@ zellij
 git-disjoint
 evcxr_repl
 sccache
+tendermint-abci
