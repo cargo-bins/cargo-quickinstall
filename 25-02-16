@@ -6,3 +6,4 @@ human_bytes
 pgrx-tests
 cargo-udeps
 cargo-c
+sea-orm-cli
