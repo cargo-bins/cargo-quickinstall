@@ -24,3 +24,4 @@ winpty-rs
 opencv-binding-generator
 re_query
 spider_worker
+pgrx-tests
