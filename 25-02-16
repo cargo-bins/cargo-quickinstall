@@ -17,3 +17,4 @@ trunk
 git-disjoint
 tendermint-abci
 tree-sitter-cli
+minicbor
