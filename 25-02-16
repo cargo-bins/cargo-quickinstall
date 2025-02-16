@@ -10,3 +10,4 @@ rls-rustc
 cargo-pgrx
 stellar-strkey
 trunk
+git-disjoint
