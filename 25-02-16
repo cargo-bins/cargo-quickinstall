@@ -12,3 +12,4 @@ stellar-strkey
 trunk
 git-disjoint
 foundationdb-gen
+tendermint-abci
