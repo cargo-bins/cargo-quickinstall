@@ -13,3 +13,4 @@ ec2_instance_metadata
 tendermint-abci
 minicbor
 java-locator
+winpty-rs
