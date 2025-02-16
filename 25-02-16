@@ -10,3 +10,4 @@ sea-orm-cli
 nu
 rls-rustc
 cargo-pgrx
+dotenv
