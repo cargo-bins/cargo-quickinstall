@@ -25,3 +25,4 @@ minicbor
 tauri-cli
 java-locator
 winpty-rs
+opencv-binding-generator
