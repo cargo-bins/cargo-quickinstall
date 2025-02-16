@@ -24,3 +24,4 @@ java-locator
 winpty-rs
 patch-crate
 opencv-binding-generator
+patch-crate
