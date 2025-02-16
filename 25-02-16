@@ -8,3 +8,4 @@ cargo-interactive-update
 human_bytes
 patch-crate
 cargo-interactive-update
+nu_plugin_gstat
