@@ -13,3 +13,4 @@ cargo-pgrx
 dotenv
 solana-keygen
 stellar-strkey
+pgrx-tests
