@@ -22,3 +22,4 @@ solana-cli
 patch-crate
 java-locator
 winpty-rs
+patch-crate
