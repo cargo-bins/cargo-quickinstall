@@ -47,3 +47,4 @@ minicbor
 solana-cli
 java-locator
 winpty-rs
+opencv-binding-generator
