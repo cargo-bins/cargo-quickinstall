@@ -4,3 +4,4 @@ human_bytes
 mempeek
 tuxtrain
 rls-rustc
+cargo-pgrx
