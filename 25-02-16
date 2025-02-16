@@ -21,3 +21,4 @@ minicbor
 solana-cli
 patch-crate
 java-locator
+winpty-rs
