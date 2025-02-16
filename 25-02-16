@@ -18,3 +18,4 @@ minicbor
 solana-cli
 stellar-strkey
 java-locator
+opencv-binding-generator
