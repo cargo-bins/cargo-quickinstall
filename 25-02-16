@@ -22,3 +22,4 @@ tendermint-abci
 dotenv-flow
 minicbor
 lurk-cli
+stellar-strkey
