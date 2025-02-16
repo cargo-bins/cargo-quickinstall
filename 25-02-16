@@ -8,3 +8,4 @@ rustfmt
 stellar-strkey
 winpty-rs
 zellij
+git-disjoint
