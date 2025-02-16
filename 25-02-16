@@ -21,3 +21,4 @@ evcxr_repl
 sccache
 tendermint-abci
 tree-sitter-cli
+minicbor
