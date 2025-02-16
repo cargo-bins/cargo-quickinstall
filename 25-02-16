@@ -11,3 +11,4 @@ cargo-interactive-update
 nu_plugin_gstat
 patch-crate
 coreos-installer
+patch-crate
