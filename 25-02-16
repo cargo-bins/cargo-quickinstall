@@ -11,3 +11,4 @@ cargo-pgrx
 stellar-strkey
 trunk
 git-disjoint
+foundationdb-gen
