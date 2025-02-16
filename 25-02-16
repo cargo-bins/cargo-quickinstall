@@ -26,3 +26,4 @@ solana-cli
 java-locator
 winpty-rs
 re_query
+pgrx-tests
