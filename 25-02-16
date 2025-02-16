@@ -27,3 +27,4 @@ opencv-binding-generator
 patch-crate
 patch-crate
 re_query
+patch-crate
