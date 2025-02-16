@@ -11,3 +11,4 @@ zellij
 git-disjoint
 ec2_instance_metadata
 tendermint-abci
+minicbor
