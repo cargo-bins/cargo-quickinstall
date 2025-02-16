@@ -30,3 +30,4 @@ nu_plugin_query
 tendermint-abci
 dotenv-flow
 ncspot
+minicbor
