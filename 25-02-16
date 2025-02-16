@@ -16,3 +16,4 @@ tendermint-abci
 tree-sitter-cli
 minicbor
 solana-cli
+stellar-strkey
