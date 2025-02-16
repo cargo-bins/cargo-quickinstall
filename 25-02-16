@@ -13,3 +13,4 @@ trunk
 git-disjoint
 foundationdb-gen
 tendermint-abci
+tree-sitter-cli
