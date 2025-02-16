@@ -15,3 +15,4 @@ stellar-strkey
 winpty-rs
 trunk
 git-disjoint
+tendermint-abci
