@@ -7,3 +7,4 @@ cargo-interactive-update
 tree-sitter-cli
 patch-crate
 fend
+socketcan
