@@ -20,3 +20,4 @@ tree-sitter-cli
 minicbor
 tauri-cli
 java-locator
+winpty-rs
