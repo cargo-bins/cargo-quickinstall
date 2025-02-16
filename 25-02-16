@@ -14,3 +14,4 @@ dotenv
 solana-keygen
 stellar-strkey
 pgrx-tests
+winpty-rs
