@@ -45,3 +45,4 @@ tendermint-abci
 dotenv-flow
 minicbor
 solana-cli
+java-locator
