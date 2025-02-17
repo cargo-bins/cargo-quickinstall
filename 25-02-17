@@ -9,3 +9,4 @@ cargo-local-registry
 git-mit
 stellar-xdr
 httpmock
+mit-prepare-commit-msg
