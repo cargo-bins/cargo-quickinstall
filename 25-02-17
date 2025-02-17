@@ -17,3 +17,4 @@ dioxus-cli
 forgejo-cli
 pgrx-tests
 httpmock
+cargo-pgrx
