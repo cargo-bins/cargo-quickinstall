@@ -18,3 +18,4 @@ httpmock
 minicbor
 nextest-filtering
 foundationdb-gen
+dotenv
