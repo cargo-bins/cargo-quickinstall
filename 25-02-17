@@ -2,3 +2,4 @@ parquet
 trunk
 git-disjoint
 pgrx-tests
+cargo-pgrx
