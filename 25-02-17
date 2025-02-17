@@ -7,3 +7,4 @@ dotenv-flow
 safe_network
 cargo-local-registry
 git-mit
+stellar-xdr
