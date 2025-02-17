@@ -11,3 +11,4 @@ socketcan
 cargo-smart-release
 clippy
 python-project-generator
+git-disjoint
