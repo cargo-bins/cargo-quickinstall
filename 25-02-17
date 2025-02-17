@@ -3,3 +3,4 @@ socketcan
 sea-orm-cli
 trunk
 pgrx-tests
+papyrus_storage
