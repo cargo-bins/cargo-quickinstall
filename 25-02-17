@@ -18,3 +18,4 @@ py-spy
 mit-prepare-commit-msg
 solana-gossip
 minicbor
+cargo-outdated
