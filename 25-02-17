@@ -2,3 +2,4 @@ cargo-about
 parquet
 httpmock
 socketcan
+sea-orm-cli
