@@ -7,3 +7,4 @@ clippy
 parquet
 ncspot
 cargo-smart-release
+socketcan
