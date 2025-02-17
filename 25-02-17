@@ -31,3 +31,4 @@ pandora_box
 kickstart
 minicbor
 foundationdb-gen
+dotenv
