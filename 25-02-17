@@ -39,3 +39,4 @@ cargo-public-api
 pcu
 forgejo-cli
 redoxer
+clippy
