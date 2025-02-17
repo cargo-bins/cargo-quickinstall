@@ -4,3 +4,4 @@ sea-orm-cli
 evcxr_repl
 pgrx-tests
 cargo-pgrx
+safe_network
