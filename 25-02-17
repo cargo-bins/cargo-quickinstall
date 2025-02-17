@@ -1,3 +1,4 @@
 cargo-about
 parquet
 sea-orm-cli
+evcxr_repl
