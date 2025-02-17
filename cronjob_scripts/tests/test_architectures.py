@@ -13,6 +13,6 @@ class TestMyScript(unittest.TestCase):
         ) as file:
             supported_targets = [word for word in file.read().split() if word]
 
-        assert set(TARGET_ARCH_TO_BUILD_OS.keys()) == set(
-            supported_targets
-        ), "please keep /supported-targets and TARGET_ARCH_TO_BUILD_OS in sync"
+        assert set(TARGET_ARCH_TO_BUILD_OS.keys()) == set(supported_targets), (
+            "please keep /supported-targets and TARGET_ARCH_TO_BUILD_OS in sync"
+        )
