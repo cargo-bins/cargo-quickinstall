@@ -26,3 +26,4 @@ crates-tui
 clippy
 dioxus-cli
 crates-tui
+cargo-dylint
