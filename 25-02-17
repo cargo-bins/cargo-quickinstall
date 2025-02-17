@@ -27,3 +27,4 @@ clippy
 dioxus-cli
 crates-tui
 cargo-dylint
+tree-sitter-cli
