@@ -24,3 +24,4 @@ pgrx-tests
 alacritty
 crates-tui
 clippy
+dioxus-cli
