@@ -10,3 +10,4 @@ stellar-xdr
 httpmock
 py-spy
 solana-gossip
+minicbor
