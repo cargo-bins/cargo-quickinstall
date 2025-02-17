@@ -17,3 +17,4 @@ solana-gossip
 minicbor
 cargo-outdated
 cargo-c
+watchexec-cli
