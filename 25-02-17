@@ -58,3 +58,4 @@ cargo-near
 minicbor
 forgejo-cli
 ncspot
+python-project-generator
