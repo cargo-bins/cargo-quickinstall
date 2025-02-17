@@ -7,3 +7,4 @@ cargo-pgrx
 safe_network
 cargo-local-registry
 sea-orm-cli
+a11ywatch_cli
