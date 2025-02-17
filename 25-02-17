@@ -9,3 +9,4 @@ papyrus_storage
 cargo-pgrx
 dotenv-flow
 cargo-local-registry
+sea-orm-cli
