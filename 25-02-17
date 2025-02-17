@@ -48,3 +48,4 @@ ncspot
 cargo-public-api
 spotify_player
 tactics-trainer-cli
+httpmock
