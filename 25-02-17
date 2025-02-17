@@ -20,3 +20,4 @@ cargo-c
 watchexec-cli
 git-mit
 dotenv
+textplots
