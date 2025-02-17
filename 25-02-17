@@ -17,3 +17,4 @@ python-project-generator
 graphql_client_cli
 cargo-embed
 crates-tui
+oxio
