@@ -16,3 +16,4 @@ lurk-cli
 dioxus-cli
 forgejo-cli
 pgrx-tests
+httpmock
