@@ -67,3 +67,4 @@ pcu
 crates-tui
 wiki-tui
 tactics-trainer-cli
+dotenv
