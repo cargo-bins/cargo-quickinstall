@@ -19,3 +19,4 @@ mit-prepare-commit-msg
 solana-gossip
 minicbor
 cargo-outdated
+cargo-c
