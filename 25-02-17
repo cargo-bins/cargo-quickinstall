@@ -1,3 +1,4 @@
 parquet
 rmesg
 pgrx-tests
+ec2_instance_metadata
