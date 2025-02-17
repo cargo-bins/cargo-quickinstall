@@ -37,17 +37,17 @@ def get_target_architectures() -> list[str]:
         ["rustc", "--version", "--verbose"], capture_output=True, text=True
     )
 
-    assert (
-        rustc_version_output.returncode == 0
-    ), f"rustc --version --verbose failed: {rustc_version_output}"
+    assert rustc_version_output.returncode == 0, (
+        f"rustc --version --verbose failed: {rustc_version_output}"
+    )
 
     host_values = [
         line.removeprefix("host: ")
         for line in rustc_version_output.stdout.splitlines()
         if line.startswith("host: ")
     ]
-    assert (
-        len(host_values) == 1
-    ), f"rustc did not tell us its host, or told us multiple: {rustc_version_output}"
+    assert len(host_values) == 1, (
+        f"rustc did not tell us its host, or told us multiple: {rustc_version_output}"
+    )
 
     return host_values
