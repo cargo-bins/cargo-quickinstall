@@ -10,3 +10,4 @@ sea-orm-cli
 a11ywatch_cli
 git-mit
 stellar-xdr
+httpmock
