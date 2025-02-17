@@ -4,3 +4,4 @@ git-disjoint
 pgrx-tests
 cargo-pgrx
 trunk
+safe_network
