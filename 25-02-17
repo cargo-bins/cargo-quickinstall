@@ -17,3 +17,4 @@ stellar-xdr
 httpmock
 minicbor
 nextest-filtering
+foundationdb-gen
