@@ -10,3 +10,4 @@ cargo-pgrx
 dotenv-flow
 cargo-local-registry
 sea-orm-cli
+a11ywatch_cli
