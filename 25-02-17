@@ -3,3 +3,4 @@ parquet
 httpmock
 socketcan
 sea-orm-cli
+evcxr_repl
