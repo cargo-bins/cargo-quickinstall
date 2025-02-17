@@ -6,3 +6,4 @@ sea-orm-cli
 evcxr_repl
 pgrx-tests
 papyrus_storage
+cargo-pgrx
