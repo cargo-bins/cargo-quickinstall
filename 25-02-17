@@ -4,3 +4,4 @@ pgrx-tests
 ec2_instance_metadata
 papyrus_storage
 dotenv-flow
+safe_network
