@@ -6,3 +6,4 @@ pgrx-tests
 cargo-pgrx
 safe_network
 cargo-local-registry
+sea-orm-cli
