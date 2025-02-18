@@ -5,3 +5,4 @@ solana-faucet
 addr2line
 tree-sitter-cli
 protox
+opencv-binding-generator
