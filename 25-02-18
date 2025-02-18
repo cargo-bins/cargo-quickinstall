@@ -2,3 +2,4 @@ dotenv-flow
 spider_cli
 spider_worker
 solana-faucet
+addr2line
