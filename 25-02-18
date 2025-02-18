@@ -7,3 +7,4 @@ jami-cli
 dotenv-flow
 jami-cli
 wiki-tui
+ruff
