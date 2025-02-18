@@ -44,3 +44,4 @@ dioxus-cli
 tectonic
 cargo-public-api
 ffsend
+diesel_cli
