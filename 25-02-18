@@ -2,3 +2,4 @@ sn_faucet
 dotenv-flow
 solana-gossip
 addr2line
+benfred-read-process-memory
