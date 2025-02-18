@@ -13,3 +13,4 @@ mit-prepare-commit-msg
 nexmark
 cargo-about
 cargo-pgrx
+sha1collisiondetection
