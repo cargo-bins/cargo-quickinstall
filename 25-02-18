@@ -4,3 +4,4 @@ solana-net-utils
 spider_worker
 solana-faucet
 solana-gossip
+addr2line
