@@ -11,3 +11,4 @@ opencv-binding-generator
 deploy
 mit-prepare-commit-msg
 nexmark
+cargo-about
