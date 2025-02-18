@@ -14,3 +14,4 @@ nexmark
 cargo-about
 cargo-pgrx
 sha1collisiondetection
+rustfmt-nightly
