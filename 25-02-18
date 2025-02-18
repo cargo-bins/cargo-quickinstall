@@ -15,3 +15,4 @@ spider_worker
 rustmission
 hurl
 solana-faucet
+sea-orm-cli
