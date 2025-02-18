@@ -32,3 +32,4 @@ tbr
 rustfmt-nightly
 ytop
 tbr
+diesel_cli
