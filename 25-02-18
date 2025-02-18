@@ -9,3 +9,4 @@ deploy
 mit-prepare-commit-msg
 rav1e
 sha1collisiondetection
+rustfmt-nightly
