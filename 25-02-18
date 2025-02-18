@@ -6,3 +6,4 @@ solana-faucet
 solana-gossip
 addr2line
 protox
+opencv-binding-generator
