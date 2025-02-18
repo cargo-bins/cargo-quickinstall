@@ -19,3 +19,4 @@ ttyrec-bin
 process_viewer
 sha1collisiondetection
 whereis
+rustfmt-nightly
