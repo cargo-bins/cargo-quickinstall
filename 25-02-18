@@ -50,3 +50,4 @@ archivefs
 wbcli
 trusted-signing-cli
 below
+sha1collisiondetection
