@@ -21,3 +21,4 @@ sha1collisiondetection
 whereis
 rustfmt-nightly
 ncspot
+procfsps
