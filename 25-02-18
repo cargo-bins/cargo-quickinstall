@@ -48,3 +48,4 @@ ffsend
 mdcat
 archivefs
 wbcli
+trusted-signing-cli
