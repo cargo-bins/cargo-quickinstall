@@ -57,3 +57,4 @@ ffsend
 rustfmt-nightly
 tplay
 nextsv
+trusted-signing-cli
