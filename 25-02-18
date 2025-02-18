@@ -4,3 +4,4 @@ solana-gossip
 addr2line
 benfred-read-process-memory
 protox
+opencv-binding-generator
