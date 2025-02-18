@@ -20,3 +20,4 @@ forgejo-cli
 solana-faucet
 rustmission
 addr2line
+hurl
