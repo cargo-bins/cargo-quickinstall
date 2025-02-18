@@ -33,3 +33,4 @@ dioxus-cli
 stgit
 tectonic
 nextest
+ruff
