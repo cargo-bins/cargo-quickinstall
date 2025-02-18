@@ -11,3 +11,4 @@ spider_cli
 ruff
 probe-rs-tools
 hyprswitch
+spider_worker
