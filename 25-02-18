@@ -13,3 +13,4 @@ deploy
 tree-sitter-cli
 nexmark
 dotenv-flow
+cargo-pgrx
