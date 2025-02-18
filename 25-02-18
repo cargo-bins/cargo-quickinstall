@@ -18,3 +18,4 @@ cargo-pgrx
 ttyrec-bin
 process_viewer
 sha1collisiondetection
+whereis
