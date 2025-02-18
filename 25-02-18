@@ -12,3 +12,4 @@ opencv-binding-generator
 deploy
 tree-sitter-cli
 nexmark
+dotenv-flow
