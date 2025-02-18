@@ -20,3 +20,4 @@ d30-cli
 procfsps
 usedby
 claim-ip
+rustfmt-nightly
