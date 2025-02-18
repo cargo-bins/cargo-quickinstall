@@ -5,3 +5,4 @@ process_viewer
 addr2line
 sshmount
 mount_status_monitor
+protox
