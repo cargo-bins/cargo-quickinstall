@@ -2,3 +2,4 @@ dotenv-flow
 process_viewer
 solana-net-utils
 process_viewer
+addr2line
