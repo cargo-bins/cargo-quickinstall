@@ -13,3 +13,4 @@ forgejo-cli
 cargo-public-api
 spider_worker
 below
+tree-sitter-cli
