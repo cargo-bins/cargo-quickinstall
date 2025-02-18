@@ -3,3 +3,4 @@ dotenv-flow
 spider_cli
 spider_worker
 solana-faucet
+solana-gossip
