@@ -47,3 +47,4 @@ ffsend
 diesel_cli
 zee
 ffsend
+rustfmt-nightly
