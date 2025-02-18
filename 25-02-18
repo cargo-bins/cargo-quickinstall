@@ -11,3 +11,4 @@ ruff
 spider_cli
 forgejo-cli
 cargo-public-api
+spider_worker
