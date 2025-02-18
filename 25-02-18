@@ -12,3 +12,4 @@ cargo-about
 cargo-pgrx
 sha1collisiondetection
 cargo-pgrx
+rustfmt-nightly
