@@ -54,3 +54,4 @@ sha1collisiondetection
 cns
 archivefs
 ffsend
+rustfmt-nightly
