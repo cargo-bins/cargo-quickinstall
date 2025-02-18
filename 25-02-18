@@ -3,3 +3,4 @@ spider_cli
 solana-net-utils
 spider_worker
 solana-faucet
+solana-gossip
