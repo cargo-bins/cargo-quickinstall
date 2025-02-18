@@ -5,3 +5,4 @@ tactics-trainer-cli
 probe-rs-tools
 nextsv
 rustmission
+sshx
