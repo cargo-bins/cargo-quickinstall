@@ -27,3 +27,4 @@ tplay
 solana-stake-accounts
 probe-rs-cli
 exa
+winpty-rs
