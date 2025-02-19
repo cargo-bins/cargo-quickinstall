@@ -5,3 +5,4 @@ protox
 cargo-local-registry
 opencv-binding-generator
 wol-rs
+rkv
