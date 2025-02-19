@@ -20,3 +20,4 @@ maelstrom-pytest
 clippy
 winpty-rs
 raw-cpuid
+maelstrom-pytest
