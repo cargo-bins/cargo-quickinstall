@@ -10,3 +10,4 @@ rkv
 foundationdb-gen
 clippy
 solana-stake-accounts
+winpty-rs
