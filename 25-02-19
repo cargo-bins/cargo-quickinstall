@@ -11,3 +11,4 @@ wol-rs
 snarkvm
 solana-tokens
 foundationdb-gen
+clippy
