@@ -3,3 +3,4 @@ rls-rustc
 mit-commit-msg
 sea-orm-cli
 protox
+cargo-local-registry
