@@ -46,3 +46,4 @@ wiki-tui
 tgt
 tree-sitter-cli
 tgt
+cargo-dylint
