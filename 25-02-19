@@ -9,3 +9,4 @@ cargo-local-registry
 rustrict
 ripcalc
 tplay
+diesel_cli
