@@ -7,3 +7,4 @@ opencv-binding-generator
 wol-rs
 rkv
 foundationdb-gen
+clippy
