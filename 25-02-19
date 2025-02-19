@@ -48,3 +48,4 @@ tree-sitter-cli
 tgt
 cargo-dylint
 cargo-dylint
+raw-cpuid
