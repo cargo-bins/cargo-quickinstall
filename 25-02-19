@@ -18,3 +18,4 @@ raw-cpuid
 cargo-about
 spider_cli
 deno
+apollo-router
