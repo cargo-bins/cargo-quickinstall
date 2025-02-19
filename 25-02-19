@@ -26,3 +26,4 @@ snarkvm
 solana-tokens
 cargo-list
 record
+nextest
