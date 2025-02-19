@@ -22,3 +22,4 @@ rkv
 probe-rs-cli
 foundationdb-gen
 clippy
+probe-rs-cli
