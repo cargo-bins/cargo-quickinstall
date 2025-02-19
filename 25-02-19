@@ -27,3 +27,4 @@ solana-tokens
 cargo-list
 record
 nextest
+rkv
