@@ -4,3 +4,4 @@ opencv-binding-generator
 snarkvm
 solana-tokens
 foundationdb-gen
+clippy
