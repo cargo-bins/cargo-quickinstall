@@ -13,3 +13,4 @@ solana-tokens
 diesel_cli
 nextest
 rmz
+rkv
