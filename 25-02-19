@@ -7,3 +7,4 @@ protox
 cargo-local-registry
 rustrict
 opencv-binding-generator
+wol-rs
