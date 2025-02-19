@@ -18,3 +18,4 @@ json-generator-rand
 foundationdb-gen
 maelstrom-pytest
 clippy
+winpty-rs
