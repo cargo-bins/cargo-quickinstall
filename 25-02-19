@@ -4,3 +4,4 @@ cargo-local-registry
 protox
 cargo-local-registry
 opencv-binding-generator
+wol-rs
