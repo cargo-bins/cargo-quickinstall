@@ -8,3 +8,4 @@ whereis
 opencv-binding-generator
 procfsps
 https
+wol-rs
