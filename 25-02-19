@@ -19,3 +19,4 @@ nextest
 foundationdb-gen
 diesel_cli
 clippy
+nextest
