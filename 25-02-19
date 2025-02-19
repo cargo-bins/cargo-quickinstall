@@ -14,3 +14,4 @@ winpty-rs
 evcxr_repl
 raw-cpuid
 cargo-about
+spider_cli
