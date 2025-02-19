@@ -19,3 +19,4 @@ foundationdb-gen
 maelstrom-pytest
 clippy
 winpty-rs
+raw-cpuid
