@@ -49,3 +49,4 @@ tgt
 cargo-dylint
 cargo-dylint
 raw-cpuid
+spider_worker
