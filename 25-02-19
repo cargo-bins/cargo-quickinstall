@@ -2,3 +2,4 @@ apollo-router
 rls-rustc
 mit-commit-msg
 sea-orm-cli
+cargo-local-registry
