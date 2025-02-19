@@ -6,3 +6,4 @@ cargo-local-registry
 opencv-binding-generator
 wol-rs
 rkv
+foundationdb-gen
