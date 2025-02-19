@@ -12,3 +12,4 @@ clippy
 solana-stake-accounts
 winpty-rs
 evcxr_repl
+raw-cpuid
