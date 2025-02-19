@@ -8,3 +8,4 @@ clippy
 solana-stake-accounts
 trunk
 raw-cpuid
+spider_cli
