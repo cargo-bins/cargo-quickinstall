@@ -28,3 +28,4 @@ cargo-list
 record
 nextest
 rkv
+nextest
