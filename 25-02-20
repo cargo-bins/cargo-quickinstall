@@ -16,3 +16,4 @@ wol-rs
 phf_generator
 oxipng
 dotenv
+rkv
