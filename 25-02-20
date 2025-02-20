@@ -12,3 +12,4 @@ spider_cli
 wol-rs
 phf_generator
 oxipng
+dotenv
