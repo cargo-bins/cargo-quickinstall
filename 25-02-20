@@ -10,3 +10,4 @@ pandora_box
 pgrx-tests
 wol-rs
 nexmark
+tendermint-rpc
