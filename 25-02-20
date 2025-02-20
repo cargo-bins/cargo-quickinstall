@@ -18,3 +18,4 @@ mdcat
 julia
 cached-path
 cargo-public-api
+cargo-dylint
