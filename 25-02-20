@@ -16,3 +16,4 @@ dotenv
 remove_dir_all
 rkv
 foundationdb-gen
+papyrus_storage
