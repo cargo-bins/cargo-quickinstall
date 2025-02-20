@@ -18,3 +18,4 @@ remove_dir_all
 mit-pre-commit
 cargo-risczero
 rkv
+foundationdb-gen
