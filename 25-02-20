@@ -24,3 +24,4 @@ rustbus
 dotenv
 remove_dir_all
 mit-pre-commit
+rkv
