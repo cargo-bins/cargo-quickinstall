@@ -9,3 +9,4 @@ patch-crate
 tree-sitter-cli
 ddt
 sha1collisiondetection
+dioxus-cli
