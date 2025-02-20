@@ -45,3 +45,4 @@ phf_generator
 cargo-public-api
 julia
 rg
+amdgpu_top
