@@ -37,3 +37,4 @@ amdgpu_top
 spider_cli
 opencv-binding-generator
 mise
+wol-rs
