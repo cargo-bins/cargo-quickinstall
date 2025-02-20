@@ -16,3 +16,4 @@ phf_generator
 dotenv
 remove_dir_all
 mit-pre-commit
+cargo-risczero
