@@ -16,3 +16,4 @@ cargo-local-registry
 html2md
 dotenv
 mit-pre-commit
+rkv
