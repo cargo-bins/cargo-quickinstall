@@ -17,3 +17,4 @@ wol-rs
 fw
 dua-cli
 cached-path
+cargo-local-registry
