@@ -18,3 +18,4 @@ dotenv
 mit-pre-commit
 rkv
 html2md
+foundationdb-gen
