@@ -13,3 +13,4 @@ spider_cli
 opencv-binding-generator
 wol-rs
 cargo-local-registry
+html2md
