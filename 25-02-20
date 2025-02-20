@@ -16,3 +16,4 @@ holochain_keystore
 cargo-local-registry
 sn_faucet
 phf_generator
+rustbus
