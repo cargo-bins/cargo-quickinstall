@@ -22,3 +22,4 @@ phf_generator
 cargo-generate
 rustbus
 dotenv
+remove_dir_all
