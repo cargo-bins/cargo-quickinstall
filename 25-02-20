@@ -24,3 +24,4 @@ mit-pre-commit
 rkv
 honggfuzz
 foundationdb-gen
+papyrus_storage
