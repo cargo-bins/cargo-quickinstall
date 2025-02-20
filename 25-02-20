@@ -46,3 +46,4 @@ cargo-public-api
 julia
 rg
 amdgpu_top
+dotenv
