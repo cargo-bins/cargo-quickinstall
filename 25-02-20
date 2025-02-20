@@ -13,3 +13,4 @@ opencv-binding-generator
 wol-rs
 tokio-process
 holochain_keystore
+cargo-local-registry
