@@ -27,3 +27,4 @@ mit-pre-commit
 rkv
 honggfuzz
 dua-cli
+foundationdb-gen
