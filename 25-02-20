@@ -20,3 +20,4 @@ rustbus
 dotenv
 cargo-risczero
 remove_dir_all
+mit-pre-commit
