@@ -12,3 +12,4 @@ tendermint-rpc
 spider_cli
 wol-rs
 cargo-local-registry
+phf_generator
