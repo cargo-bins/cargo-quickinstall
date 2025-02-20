@@ -10,3 +10,4 @@ wol-rs
 nexmark
 tendermint-rpc
 spider_cli
+opencv-binding-generator
