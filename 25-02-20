@@ -10,3 +10,4 @@ pgrx-tests
 nexmark
 tendermint-rpc
 spider_cli
+wol-rs
