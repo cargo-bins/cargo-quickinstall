@@ -13,3 +13,4 @@ wol-rs
 phf_generator
 oxipng
 dotenv
+remove_dir_all
