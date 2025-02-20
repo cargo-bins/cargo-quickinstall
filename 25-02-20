@@ -18,3 +18,4 @@ fw
 dua-cli
 cached-path
 cargo-local-registry
+phf_generator
