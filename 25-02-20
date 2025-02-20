@@ -25,3 +25,4 @@ graphql_client_cli
 rua
 julia
 cargo-public-api
+termusic-server
