@@ -32,3 +32,4 @@ binstall
 nexmark
 votd
 tendermint-rpc
+graphql_client_cli
