@@ -58,3 +58,4 @@ obelisk
 cargo-http-registry
 cargo-list
 nextest-filtering
+cargo-list
