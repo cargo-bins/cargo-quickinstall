@@ -64,3 +64,4 @@ spider_cli
 solana-cli
 fyrox-project-manager
 graphql_client_cli
+cargo-leptos
