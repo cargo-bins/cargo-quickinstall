@@ -35,3 +35,4 @@ raw-cpuid
 cargo-spellcheck
 speedtest-rs
 tod
+wmi
