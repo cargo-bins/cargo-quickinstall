@@ -59,3 +59,4 @@ sgxs-tools
 deploy
 virtiofsd
 shadowsocks-rust
+moshi-backend
