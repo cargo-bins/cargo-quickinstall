@@ -10,3 +10,4 @@ cargo-outdated
 git-mit-relates-to
 mise
 nextest-filtering
+deploy
