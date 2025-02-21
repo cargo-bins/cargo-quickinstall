@@ -83,3 +83,4 @@ trusted-signing-cli
 sgxs-tools
 fyrox-project-manager
 obelisk
+cargo-info
