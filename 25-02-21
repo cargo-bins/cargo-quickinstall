@@ -8,3 +8,4 @@ raw-cpuid
 wmi
 nu
 cargo-outdated
+wol-rs
