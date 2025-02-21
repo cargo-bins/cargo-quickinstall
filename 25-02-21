@@ -8,3 +8,4 @@ nextest-filtering
 solana-cli
 coldsnap
 ec2_instance_metadata
+racer
