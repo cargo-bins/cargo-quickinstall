@@ -66,3 +66,4 @@ fyrox-project-manager
 graphql_client_cli
 cargo-leptos
 nextest
+cargo-smart-release
