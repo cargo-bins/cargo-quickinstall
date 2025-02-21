@@ -43,3 +43,4 @@ probe-rs-tools
 cargo-http-registry
 virtiofsd
 speedtest-rs
+nu
