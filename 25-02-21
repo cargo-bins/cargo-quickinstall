@@ -20,3 +20,4 @@ sea-orm-cli
 a11ywatch_cli
 carapace
 spider_cli
+graphql_client_cli
