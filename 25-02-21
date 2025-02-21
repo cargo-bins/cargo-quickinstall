@@ -52,3 +52,4 @@ cargo-whatfeatures
 nextest-filtering
 stgit
 virtiofsd
+hurlfmt
