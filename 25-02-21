@@ -25,3 +25,4 @@ cargo-leptos
 deploy
 cargo-leptos
 multigit
+solana-cli
