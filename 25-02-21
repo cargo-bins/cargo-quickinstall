@@ -27,3 +27,4 @@ speedtest-rs
 speedtest-rs
 moshi-cli
 cargo-dylint
+raw-cpuid
