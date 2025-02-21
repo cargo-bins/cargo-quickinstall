@@ -49,3 +49,4 @@ cargo-leptos
 shadowsocks-rust
 graphql_client_cli
 cargo-whatfeatures
+nextest-filtering
