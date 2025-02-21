@@ -69,3 +69,4 @@ nextest
 cargo-smart-release
 fyrox-project-manager
 shadowsocks-rust
+cargo-http-registry
