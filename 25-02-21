@@ -79,3 +79,4 @@ ffsend
 cargo-leptos
 virtiofsd
 patch-crate
+trusted-signing-cli
