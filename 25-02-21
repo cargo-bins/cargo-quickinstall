@@ -40,3 +40,4 @@ alacritty
 nu
 neovide
 probe-rs-tools
+cargo-dylint
