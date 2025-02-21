@@ -61,3 +61,4 @@ nextest-filtering
 cargo-list
 wonky
 ffsend
+sgxs-tools
