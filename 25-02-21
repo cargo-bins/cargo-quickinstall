@@ -65,3 +65,4 @@ sgxs-tools
 cargo-whatfeatures
 solana-faucet
 virtiofsd
+cargo-http-registry
