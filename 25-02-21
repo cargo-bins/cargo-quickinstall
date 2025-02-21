@@ -66,3 +66,4 @@ cargo-whatfeatures
 solana-faucet
 virtiofsd
 cargo-http-registry
+deploy
