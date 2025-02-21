@@ -60,3 +60,4 @@ deploy
 virtiofsd
 shadowsocks-rust
 moshi-backend
+spider_cli
