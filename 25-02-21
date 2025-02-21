@@ -44,3 +44,4 @@ cargo-dylint
 nextest
 wol-rs
 virtiofsd
+ffsend
