@@ -80,3 +80,4 @@ cargo-leptos
 virtiofsd
 patch-crate
 trusted-signing-cli
+sgxs-tools
