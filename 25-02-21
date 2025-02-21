@@ -45,3 +45,4 @@ nextest
 wol-rs
 virtiofsd
 ffsend
+cargo-leptos
