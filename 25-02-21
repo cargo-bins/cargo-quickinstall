@@ -43,3 +43,4 @@ probe-rs-tools
 cargo-dylint
 nextest
 wol-rs
+virtiofsd
