@@ -65,3 +65,4 @@ solana-cli
 fyrox-project-manager
 graphql_client_cli
 cargo-leptos
+nextest
