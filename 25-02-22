@@ -7,3 +7,4 @@ borsh
 rkv
 safe_network
 sccache
+solana-gossip
