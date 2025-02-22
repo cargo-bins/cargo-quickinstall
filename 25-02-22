@@ -7,3 +7,4 @@ borsh
 solana-gossip
 nkeys
 git-disjoint
+raw-cpuid
