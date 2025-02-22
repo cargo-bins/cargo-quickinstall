@@ -13,3 +13,4 @@ git-disjoint
 cargo-udeps
 holochain
 raw-cpuid
+cargo-risczero
