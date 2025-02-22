@@ -27,3 +27,4 @@ patch-crate
 patch-crate
 safe_network
 srt_whep
+cargo-duplicates
