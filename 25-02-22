@@ -16,3 +16,4 @@ cargo-pgrx
 borsh
 safe_network
 solana-gossip
+nkeys
