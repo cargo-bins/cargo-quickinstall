@@ -7,3 +7,4 @@ cargo-pgrx
 borsh
 nkeys
 rls-rustc
+git-disjoint
