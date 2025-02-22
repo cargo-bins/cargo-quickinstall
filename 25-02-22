@@ -8,3 +8,4 @@ pwasm-utils
 cargo-info
 cargo-dylint
 wonky
+cargo-duplicates
