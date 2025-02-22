@@ -18,3 +18,4 @@ cargo-duplicates
 cargo-ktra-login
 sea-orm-cli
 borsh
+ryot-assets-cli
