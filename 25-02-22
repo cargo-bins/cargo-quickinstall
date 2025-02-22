@@ -3,3 +3,4 @@ bluetui
 cargo-whatfeatures
 sgxs-tools
 pwasm-utils
+patch-crate
