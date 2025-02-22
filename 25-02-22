@@ -24,3 +24,4 @@ dioxus-cli
 cargo-duplicates
 bluetui
 cargo-leptos
+solana-gossip
