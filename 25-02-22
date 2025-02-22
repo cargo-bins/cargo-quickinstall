@@ -6,3 +6,4 @@ pwasm-utils
 patch-crate
 cargo-dylint
 hurlfmt
+cargo-info
