@@ -30,3 +30,4 @@ gpio-utils
 ntap
 oxipng
 libbpf-cargo
+solana-cli
