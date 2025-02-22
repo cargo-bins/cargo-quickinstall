@@ -9,3 +9,4 @@ hurlfmt
 cargo-info
 srt_whep
 shadowsocks-rust
+sha1collisiondetection
