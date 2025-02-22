@@ -51,3 +51,4 @@ typst-cli
 bun
 cargo-duplicates
 libbpf-cargo
+cargo-duplicates
