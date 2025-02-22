@@ -35,3 +35,4 @@ sea-orm-cli
 sea-orm-cli
 hurl
 git-disjoint
+cargo-info
