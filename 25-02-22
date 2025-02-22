@@ -6,3 +6,4 @@ cargo-pgrx
 borsh
 solana-gossip
 nkeys
+git-disjoint
