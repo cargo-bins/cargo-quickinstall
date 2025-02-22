@@ -6,3 +6,4 @@ cargo-pgrx
 borsh
 rkv
 safe_network
+sccache
