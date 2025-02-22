@@ -4,3 +4,4 @@ bun
 cargo-ktra-login
 alacritty
 hurl
+pwasm-utils
