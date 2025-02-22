@@ -19,3 +19,4 @@ git-disjoint
 raw-cpuid
 cargo-risczero
 dotenv-flow
+cargo-maelstrom
