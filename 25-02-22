@@ -41,3 +41,4 @@ cargo-info
 cargo-leptos
 shadowsocks-rust
 bun
+opencv-binding-generator
