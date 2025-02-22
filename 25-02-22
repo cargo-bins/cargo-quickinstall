@@ -9,3 +9,4 @@ nkeys
 git-disjoint
 raw-cpuid
 oxipng
+libbpf-cargo
