@@ -12,3 +12,4 @@ holochain
 raw-cpuid
 cargo-risczero
 dotenv-flow
+libbpf-cargo
