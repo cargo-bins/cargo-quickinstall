@@ -21,3 +21,4 @@ borsh
 ryot-assets-cli
 hurlfmt
 graphql_client_cli
+cargo-pgrx
