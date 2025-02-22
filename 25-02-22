@@ -17,3 +17,4 @@ cargo-risczero
 evcxr_repl
 libbpf-cargo
 solana-cli
+sqlx-cli
