@@ -62,3 +62,4 @@ libbpf-cargo
 bun
 gerust
 flawz
+diesel_cli
