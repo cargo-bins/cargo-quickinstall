@@ -13,3 +13,4 @@ dioxus-cli
 dioxus-cli
 sea-orm-cli
 cargo-pgrx
+borsh
