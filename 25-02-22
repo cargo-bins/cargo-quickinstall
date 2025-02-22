@@ -9,3 +9,4 @@ sccache
 solana-gossip
 nkeys
 rls-rustc
+git-disjoint
