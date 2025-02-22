@@ -4,3 +4,4 @@ ec2_instance_metadata
 sha1collisiondetection
 borsh
 borsh
+safe_network
