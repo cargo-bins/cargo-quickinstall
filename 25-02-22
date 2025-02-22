@@ -13,3 +13,4 @@ raw-cpuid
 cargo-risczero
 dotenv-flow
 libbpf-cargo
+solana-cli
