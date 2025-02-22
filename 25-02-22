@@ -13,3 +13,4 @@ cargo-duplicates
 hurlfmt
 ryot-assets-cli
 obelisk
+sha1collisiondetection
