@@ -49,3 +49,4 @@ gerust
 dioxus-cli
 typst-cli
 bun
+cargo-duplicates
