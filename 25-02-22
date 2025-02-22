@@ -23,3 +23,4 @@ gpio-utils
 git-disjoint
 gpio-utils
 holochain
+raw-cpuid
