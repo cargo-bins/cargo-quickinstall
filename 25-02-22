@@ -8,3 +8,4 @@ borsh
 nkeys
 rls-rustc
 git-disjoint
+raw-cpuid
