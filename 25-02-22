@@ -5,3 +5,4 @@ borsh
 cargo-pgrx
 borsh
 rkv
+safe_network
