@@ -12,3 +12,4 @@ rls-rustc
 git-disjoint
 cargo-udeps
 holochain
+raw-cpuid
