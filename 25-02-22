@@ -6,3 +6,4 @@ nu_plugin_port_extension
 rustowl
 sha1collisiondetection
 binstall
+borsh
