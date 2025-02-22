@@ -38,3 +38,4 @@ git-disjoint
 cargo-info
 bun
 raw-cpuid
+cargo-duplicates
