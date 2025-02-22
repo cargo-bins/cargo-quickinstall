@@ -17,3 +17,4 @@ borsh
 safe_network
 solana-gossip
 nkeys
+gpio-utils
