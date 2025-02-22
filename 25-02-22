@@ -14,3 +14,4 @@ dioxus-cli
 sea-orm-cli
 cargo-pgrx
 borsh
+safe_network
