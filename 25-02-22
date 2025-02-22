@@ -13,3 +13,4 @@ opencv-binding-generator
 git-disjoint
 holochain
 cargo-udeps
+raw-cpuid
