@@ -5,3 +5,4 @@ cargo-ktra-login
 alacritty
 hurl
 pwasm-utils
+cargo-info
