@@ -16,3 +16,4 @@ cargo-udeps
 raw-cpuid
 cargo-risczero
 libbpf-cargo
+sqlx-cli
