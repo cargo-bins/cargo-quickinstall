@@ -36,3 +36,4 @@ sea-orm-cli
 hurl
 git-disjoint
 cargo-info
+bun
