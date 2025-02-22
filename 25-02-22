@@ -17,3 +17,4 @@ sha1collisiondetection
 cargo-duplicates
 cargo-ktra-login
 sea-orm-cli
+borsh
