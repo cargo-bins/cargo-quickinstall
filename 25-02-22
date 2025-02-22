@@ -40,3 +40,4 @@ bun
 raw-cpuid
 cargo-duplicates
 sshx
+cargo-info
