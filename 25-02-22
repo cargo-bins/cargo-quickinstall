@@ -25,3 +25,4 @@ gitui
 libbpf-cargo
 solana-cli
 sqlx-cli
+cargo-maelstrom
