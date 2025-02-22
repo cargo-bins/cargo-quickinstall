@@ -16,3 +16,4 @@ raw-cpuid
 cargo-risczero
 evcxr_repl
 libbpf-cargo
+solana-cli
