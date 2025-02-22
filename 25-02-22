@@ -9,3 +9,4 @@ solana-gossip
 nkeys
 git-disjoint
 holochain
+raw-cpuid
