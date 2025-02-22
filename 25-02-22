@@ -25,3 +25,4 @@ cargo-pgrx
 cargo-duplicates
 patch-crate
 patch-crate
+safe_network
