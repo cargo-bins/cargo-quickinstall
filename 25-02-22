@@ -14,3 +14,4 @@ cargo-udeps
 holochain
 raw-cpuid
 cargo-risczero
+evcxr_repl
