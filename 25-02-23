@@ -15,3 +15,4 @@ unic-langid-impl
 sea-orm-cli
 parquet
 cargo-pgrx
+wmi
