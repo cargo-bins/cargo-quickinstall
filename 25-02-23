@@ -16,3 +16,4 @@ sea-orm-cli
 mit-pre-commit
 nextest-filtering
 tauri-cli
+parquet
