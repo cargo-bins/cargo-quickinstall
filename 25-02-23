@@ -5,3 +5,4 @@ tendermint-abci
 moonup
 moonup
 cargo-leptos
+libbpf-cargo
