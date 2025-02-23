@@ -4,3 +4,4 @@ cargo-flash
 gpg-tui
 rustowl
 cargo-dylint
+cargo-leptos
