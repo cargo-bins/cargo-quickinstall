@@ -14,3 +14,4 @@ unic-langid-impl
 sea-orm-cli
 mit-pre-commit
 tauri-cli
+parquet
