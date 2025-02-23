@@ -34,3 +34,4 @@ dotenv
 mit-pre-commit
 parquet
 fw
+cargo-crev
