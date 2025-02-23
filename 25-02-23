@@ -3,3 +3,4 @@ apollo-router
 cargo-flash
 gpg-tui
 rustowl
+cargo-dylint
