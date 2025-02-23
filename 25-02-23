@@ -17,3 +17,4 @@ deploy
 cargo-generate
 zellij
 rustrict
+jless
