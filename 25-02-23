@@ -3,3 +3,4 @@ tokio-process
 dbus-codegen
 tendermint-abci
 mit-commit-msg
+holochain_keystore
