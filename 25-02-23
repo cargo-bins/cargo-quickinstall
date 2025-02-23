@@ -52,3 +52,4 @@ parquet
 cargo-pgrx
 openapi-to-hurl
 cargo-list
+wmi
