@@ -6,3 +6,4 @@ libbpf-cargo
 nexmark
 deploy
 rustrict
+schemafy
