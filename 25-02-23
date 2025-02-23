@@ -16,3 +16,4 @@ sea-orm-cli
 parquet
 cargo-pgrx
 wmi
+cargo-pgrx
