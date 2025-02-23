@@ -32,3 +32,4 @@ cargo-flash
 patch-crate
 py-spy
 cargo-flash
+httpmock
