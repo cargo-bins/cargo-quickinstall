@@ -26,3 +26,4 @@ cargo-local
 mdbook-latex
 racer
 httpmock
+cargo-local
