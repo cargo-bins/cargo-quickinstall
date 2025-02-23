@@ -7,3 +7,4 @@ cargo-dylint
 cargo-leptos
 cargo-flash
 dbus-codegen
+tendermint-abci
