@@ -16,3 +16,4 @@ mit-pre-commit
 tauri-cli
 parquet
 cargo-pgrx
+wmi
