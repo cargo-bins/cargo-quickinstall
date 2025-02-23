@@ -48,3 +48,4 @@ cargo-flash
 nextest-filtering
 cargo-flash
 openapi-to-hurl
+parquet
