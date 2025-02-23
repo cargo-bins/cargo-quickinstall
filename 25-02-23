@@ -35,3 +35,4 @@ cargo-flash
 httpmock
 cargo-list
 toolforge
+unic-langid-impl
