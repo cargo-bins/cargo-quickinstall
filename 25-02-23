@@ -11,3 +11,4 @@ redoxer
 tendermint-abci
 gerust
 cargo-flash
+graphql_client_cli
