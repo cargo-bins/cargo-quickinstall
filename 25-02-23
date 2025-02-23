@@ -7,3 +7,4 @@ tendermint-abci
 qbittorrent
 rustowl
 mdbook-latex
+libbpf-cargo
