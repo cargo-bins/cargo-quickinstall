@@ -12,3 +12,4 @@ libbpf-cargo
 cargo-maelstrom
 zellij
 nexmark
+dotenv
