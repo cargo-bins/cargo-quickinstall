@@ -18,3 +18,4 @@ cargo-generate
 zellij
 rustrict
 jless
+cargo-crev
