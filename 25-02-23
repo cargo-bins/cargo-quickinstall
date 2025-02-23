@@ -11,3 +11,4 @@ libbpf-cargo
 binstall
 nexmark
 deploy
+agesafetch
