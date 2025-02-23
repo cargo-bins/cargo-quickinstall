@@ -24,3 +24,4 @@ jless
 cargo-crev
 racer
 cargo-crev
+httpmock
