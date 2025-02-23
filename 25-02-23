@@ -6,3 +6,4 @@ mit-prepare-commit-msg
 libbpf-cargo
 nexmark
 deploy
+rustrict
