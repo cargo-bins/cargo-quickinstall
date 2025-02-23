@@ -18,3 +18,4 @@ nextest-filtering
 tauri-cli
 parquet
 cargo-pgrx
+wmi
