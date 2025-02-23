@@ -32,3 +32,4 @@ fw
 jless
 dotenv
 mit-pre-commit
+parquet
