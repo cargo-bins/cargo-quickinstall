@@ -6,3 +6,4 @@ dbus-codegen
 tendermint-abci
 qbittorrent
 rustowl
+mdbook-latex
