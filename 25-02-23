@@ -22,3 +22,4 @@ trunk
 unic-langid-impl
 sea-orm-cli
 nextest-filtering
+parquet
