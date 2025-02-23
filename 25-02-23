@@ -1,3 +1,4 @@
 apollo-router
 tokio-process
 dbus-codegen
+tendermint-abci
