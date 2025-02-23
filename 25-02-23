@@ -16,3 +16,4 @@ dotenv
 deploy
 cargo-generate
 zellij
+rustrict
