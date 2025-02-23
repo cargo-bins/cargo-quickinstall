@@ -24,3 +24,4 @@ unic-langid-impl
 agesafetch
 vkfetch-rs
 clippy
+parquet
