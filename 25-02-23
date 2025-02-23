@@ -9,3 +9,4 @@ libbpf-cargo
 nexmark
 sn_faucet
 deploy
+rustrict
