@@ -10,3 +10,4 @@ mdbook-latex
 libbpf-cargo
 binstall
 nexmark
+deploy
