@@ -10,3 +10,4 @@ dbus-codegen
 redoxer
 tendermint-abci
 gerust
+cargo-flash
