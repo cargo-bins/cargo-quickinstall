@@ -27,3 +27,4 @@ clippy
 parquet
 clippy
 nextest
+wmi
