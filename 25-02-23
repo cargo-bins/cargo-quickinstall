@@ -46,3 +46,4 @@ tuono
 addr2line
 cargo-flash
 nextest-filtering
+cargo-flash
