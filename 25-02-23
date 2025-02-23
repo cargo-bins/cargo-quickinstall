@@ -9,3 +9,4 @@ cargo-flash
 dbus-codegen
 tendermint-abci
 gerust
+patch-crate
