@@ -9,3 +9,4 @@ deploy
 rustrict
 schemafy
 racer
+httpmock
