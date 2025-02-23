@@ -2,3 +2,4 @@ dbus-codegen
 tendermint-abci
 trunk
 trunk
+libbpf-cargo
