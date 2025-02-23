@@ -8,3 +8,4 @@ deploy
 watchexec-cli
 rustrict
 racer
+httpmock
