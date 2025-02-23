@@ -7,3 +7,4 @@ holochain_keystore
 mit-prepare-commit-msg
 libbpf-cargo
 nexmark
+sn_faucet
