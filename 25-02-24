@@ -16,3 +16,4 @@ phf_generator
 cargo-vet
 diesel_cli
 rmesg
+solana-net-utils
