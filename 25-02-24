@@ -17,3 +17,4 @@ addr2line
 cargo-dylint
 graphql_client_cli
 librespot
+pcu
