@@ -10,3 +10,4 @@ cargo-leptos
 holochain
 tree-sitter-graph
 stellar-xdr
+opencv-binding-generator
