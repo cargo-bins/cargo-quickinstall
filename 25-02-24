@@ -12,3 +12,4 @@ opencv-binding-generator
 pgrx-tests
 perfcnt
 human_name
+phf_generator
