@@ -2,3 +2,4 @@ nextest
 pgrx-tests
 clippy
 git-disjoint
+nextest
