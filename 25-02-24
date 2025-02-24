@@ -45,3 +45,4 @@ diesel_cli
 solana-keygen
 cargo-embassy
 tree-sitter-cli
+phf_generator
