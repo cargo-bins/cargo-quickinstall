@@ -24,3 +24,4 @@ diesel_cli
 rmesg
 pmc
 pmc
+solana-net-utils
