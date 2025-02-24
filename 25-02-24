@@ -13,3 +13,4 @@ dotenv
 buck2
 solana-gossip
 holochain
+tree-sitter-graph
