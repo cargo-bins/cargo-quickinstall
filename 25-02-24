@@ -18,3 +18,4 @@ cargo-tarpaulin
 diesel_cli
 solana-net-utils
 cargo-about
+fake
