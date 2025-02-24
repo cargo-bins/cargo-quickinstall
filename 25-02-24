@@ -3,3 +3,4 @@ openapi-to-hurl
 inlyne
 redoxer
 git-disjoint
+cargo-public-api
