@@ -54,3 +54,4 @@ cargo-mobile2
 cargo-smart-release
 cargo-changelog
 bugstalker
+diesel_cli
