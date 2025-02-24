@@ -13,3 +13,4 @@ pgrx-tests
 perfcnt
 human_name
 phf_generator
+cargo-vet
