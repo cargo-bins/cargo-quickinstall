@@ -14,3 +14,4 @@ inlyne
 dioxus-cli
 human_bytes
 addr2line
+cargo-dylint
