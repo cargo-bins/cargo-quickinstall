@@ -56,3 +56,4 @@ cargo-changelog
 bugstalker
 diesel_cli
 py-spy
+cargo-smart-release
