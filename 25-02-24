@@ -29,3 +29,4 @@ cargo-local
 fake
 vkfetch-rs
 nxfetch
+omnifetch
