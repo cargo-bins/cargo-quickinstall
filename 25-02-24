@@ -19,3 +19,4 @@ nextsv
 solana-gossip
 cargo-info
 dioxus-cli
+addr2line
