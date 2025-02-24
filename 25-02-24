@@ -25,3 +25,4 @@ diesel_cli
 rsftch
 avm
 solana-net-utils
+cargo-local
