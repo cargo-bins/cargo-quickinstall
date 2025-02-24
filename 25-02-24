@@ -19,3 +19,4 @@ cargo-tarpaulin
 diesel_cli
 cargo-about
 fake
+cargo-generate
