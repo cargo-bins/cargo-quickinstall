@@ -8,3 +8,4 @@ solana-gossip
 holochain
 tree-sitter-graph
 stellar-xdr
+opencv-binding-generator
