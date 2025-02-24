@@ -17,3 +17,4 @@ cargo-vet
 diesel_cli
 rmesg
 solana-net-utils
+cargo-generate
