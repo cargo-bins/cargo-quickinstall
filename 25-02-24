@@ -16,3 +16,4 @@ human_name
 solana-keygen
 cargo-tarpaulin
 diesel_cli
+solana-net-utils
