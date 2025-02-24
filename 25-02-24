@@ -46,3 +46,4 @@ cargo-embassy
 blissify
 py-spy
 cargo-changelog
+cargo-smart-release
