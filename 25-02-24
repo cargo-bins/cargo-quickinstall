@@ -14,3 +14,4 @@ perfcnt
 human_name
 phf_generator
 cargo-vet
+diesel_cli
