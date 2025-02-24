@@ -36,3 +36,4 @@ blissify
 tree-sitter-cli
 songrec
 cargo-public-api
+phf_generator
