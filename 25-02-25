@@ -9,3 +9,4 @@ holochain_keystore
 sn_faucet
 perfcnt
 iai-callgrind-runner
+holochain_keystore
