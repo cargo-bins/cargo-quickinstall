@@ -24,3 +24,4 @@ hurl
 trusted-signing-cli
 cargo-public-api
 trusted-signing-cli
+cargo-smart-release
