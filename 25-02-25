@@ -27,3 +27,4 @@ trusted-signing-cli
 cargo-smart-release
 forgejo-cli
 cargo-changelog
+clipboard-history
