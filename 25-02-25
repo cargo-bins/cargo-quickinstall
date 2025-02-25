@@ -22,3 +22,4 @@ solana-tokens
 c2rust
 hurl
 trusted-signing-cli
+cargo-public-api
