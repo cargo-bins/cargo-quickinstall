@@ -3,3 +3,4 @@ nkeys
 clippy
 nextsv
 cargo-smart-release
+cargo-public-api
