@@ -14,3 +14,4 @@ benfred-read-process-memory
 human_bytes
 deno
 solana-net-utils
+borsh
