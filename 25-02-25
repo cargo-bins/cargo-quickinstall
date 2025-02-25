@@ -9,3 +9,4 @@ forgejo-cli
 cargo-lock
 py-spy
 py-spy
+apollo-router
