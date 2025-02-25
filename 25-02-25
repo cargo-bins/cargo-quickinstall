@@ -10,3 +10,4 @@ deno
 solana-net-utils
 borsh
 human_name
+sccache
