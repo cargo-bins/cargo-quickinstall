@@ -24,3 +24,4 @@ solana-tokens
 cargo-pgrx
 fake
 cargo-smart-release
+cargo-public-api
