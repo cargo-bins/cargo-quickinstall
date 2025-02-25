@@ -6,3 +6,4 @@ cargo-smart-release
 sea-orm-cli
 songrec
 forgejo-cli
+cargo-lock
