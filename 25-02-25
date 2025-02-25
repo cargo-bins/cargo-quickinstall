@@ -12,3 +12,4 @@ iai-callgrind-runner
 holochain_keystore
 benfred-read-process-memory
 human_bytes
+deno
