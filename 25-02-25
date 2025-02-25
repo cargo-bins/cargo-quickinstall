@@ -21,3 +21,4 @@ tree-sitter-cli
 solana-tokens
 c2rust
 hurl
+trusted-signing-cli
