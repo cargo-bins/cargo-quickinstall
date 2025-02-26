@@ -21,3 +21,4 @@ pgrx-tests
 rustfmt-nightly
 codeberg-cli
 espflash
+apollo-router
