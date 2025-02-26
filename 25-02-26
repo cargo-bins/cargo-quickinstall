@@ -27,3 +27,4 @@ trusted-signing-cli
 stgit
 unic-langid-impl
 redoxer
+cargo-list
