@@ -57,3 +57,4 @@ nextest
 nextest
 trusted-signing-cli
 solana-tokens
+sudo-rs
