@@ -34,3 +34,4 @@ librespot
 sudo-rs
 human_name
 tree-sitter-cli
+crates-tui
