@@ -9,3 +9,4 @@ dotenv-flow
 rg
 scoop
 amp
+sqlx-cli
