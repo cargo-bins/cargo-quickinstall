@@ -6,3 +6,4 @@ spotify_player
 rustfmt-nightly
 tuono
 oculante
+dotenv-flow
