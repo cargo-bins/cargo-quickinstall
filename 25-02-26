@@ -3,3 +3,4 @@ rg
 mit-commit-msg
 honggfuzz
 skim
+sqlx-cli
