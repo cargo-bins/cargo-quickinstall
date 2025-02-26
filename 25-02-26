@@ -16,3 +16,4 @@ nkeys
 protofetch
 perfcnt
 evcxr_repl
+cargo-c
