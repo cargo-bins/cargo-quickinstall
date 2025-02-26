@@ -21,3 +21,4 @@ tod
 dbus-codegen
 rustfmt-nightly
 hayagriva
+hurl
