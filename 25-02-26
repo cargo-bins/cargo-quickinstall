@@ -19,3 +19,4 @@ oculante
 apollo-router
 tod
 dbus-codegen
+rustfmt-nightly
