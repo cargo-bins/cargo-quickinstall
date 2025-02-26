@@ -7,3 +7,4 @@ spider_cli
 cargo-pgrx
 espflash
 apollo-router
+dbus-codegen
