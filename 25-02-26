@@ -4,3 +4,4 @@ honggfuzz
 dotenv-flow
 apollo-router
 dbus-codegen
+unic-langid-impl
