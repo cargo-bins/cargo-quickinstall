@@ -36,3 +36,4 @@ human_name
 tree-sitter-cli
 crates-tui
 nkeys
+gpg-tui
