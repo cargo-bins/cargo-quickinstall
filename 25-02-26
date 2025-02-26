@@ -13,3 +13,4 @@ sqlx-cli
 amp
 nu_plugin_port_extension
 apollo-router
+dbus-codegen
