@@ -4,3 +4,4 @@ dotenv-flow
 mise
 spider_cli
 cargo-pgrx
+apollo-router
