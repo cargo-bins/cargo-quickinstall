@@ -17,3 +17,4 @@ protofetch
 perfcnt
 evcxr_repl
 cargo-c
+dotenvy
