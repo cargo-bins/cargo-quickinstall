@@ -60,3 +60,4 @@ solana-tokens
 sudo-rs
 nu_plugin_plotters
 cargo-ktra-login
+nextest
