@@ -3,3 +3,4 @@ nextest
 cargo-spellcheck
 dotenv-flow
 spider_cli
+tree-sitter-cli
