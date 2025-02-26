@@ -26,3 +26,4 @@ dbus-codegen
 unic-langid-impl
 paperclip
 nextest
+trusted-signing-cli
