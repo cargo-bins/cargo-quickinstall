@@ -56,3 +56,4 @@ hayagriva
 sudo-rs
 cargo-dylint
 porsmo
+trusted-signing-cli
