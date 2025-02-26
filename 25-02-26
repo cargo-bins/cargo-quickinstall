@@ -5,3 +5,4 @@ mise
 spider_cli
 cargo-pgrx
 apollo-router
+dbus-codegen
