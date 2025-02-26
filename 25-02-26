@@ -44,3 +44,4 @@ rustfmt-nightly
 sniffnet
 codeberg-cli
 hayagriva
+crates-tui
