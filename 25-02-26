@@ -9,3 +9,4 @@ cargo-leptos
 check_urls
 dotenv-flow
 xcolor
+cargo-list
