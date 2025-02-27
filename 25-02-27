@@ -8,3 +8,4 @@ solana-net-utils
 sn_cli
 tokio-process
 sn_faucet
+cargo-local-registry
