@@ -86,3 +86,4 @@ racer
 simple-http-server
 nu_plugin_gstat
 xplr
+cargo-dylint
