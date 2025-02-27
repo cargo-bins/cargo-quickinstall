@@ -26,3 +26,4 @@ sha1collisiondetection
 subkey
 material
 cargo-flash
+diesel_cli
