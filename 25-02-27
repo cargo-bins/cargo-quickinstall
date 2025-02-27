@@ -19,3 +19,4 @@ py-spy
 snarkvm
 socketcan
 racer
+dotenv
