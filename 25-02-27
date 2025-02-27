@@ -40,3 +40,4 @@ cargo-public-api
 xplr
 lumen
 bluetui
+cargo-dylint
