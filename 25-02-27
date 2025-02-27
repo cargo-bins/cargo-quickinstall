@@ -18,3 +18,4 @@ diesel_cli
 mit-pre-commit
 rustbus
 usage-cli
+nkeys
