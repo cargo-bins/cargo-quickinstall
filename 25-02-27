@@ -12,3 +12,4 @@ cargo-local-registry
 diesel_cli
 mit-pre-commit
 rustbus
+racer
