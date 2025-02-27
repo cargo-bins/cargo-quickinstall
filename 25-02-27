@@ -2,3 +2,4 @@ text-diff
 opencv-binding-generator
 cargo-vet
 sn_node_rpc_client
+pandora_box
