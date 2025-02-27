@@ -7,3 +7,4 @@ opencv-binding-generator
 cargo-public-api
 cargo-public-api
 termusic
+openapi-to-hurl
