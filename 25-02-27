@@ -69,3 +69,4 @@ pyapp
 sniffnet
 sea-orm-cli
 rmup
+nextest-filtering
