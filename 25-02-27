@@ -12,3 +12,4 @@ sccache
 parquet
 cargo-local-registry
 diesel_cli
+java-locator
