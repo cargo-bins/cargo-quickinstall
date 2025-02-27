@@ -46,3 +46,4 @@ rmup
 cargo-public-api
 sniffnet
 solana-net-utils
+dotenv
