@@ -29,3 +29,4 @@ cargo-flash
 diesel_cli
 subkey
 cargo-dylint
+https
