@@ -58,3 +58,4 @@ sudo-rs
 parquet
 ruskel
 checker
+nu_plugin_query
