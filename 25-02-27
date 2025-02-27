@@ -9,3 +9,4 @@ sn_cli
 tokio-process
 sn_faucet
 cargo-local-registry
+diesel_cli
