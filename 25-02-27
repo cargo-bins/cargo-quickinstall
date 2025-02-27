@@ -30,3 +30,4 @@ diesel_cli
 subkey
 cargo-dylint
 https
+racer
