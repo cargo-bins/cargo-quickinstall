@@ -5,3 +5,4 @@ sn_node_rpc_client
 pandora_box
 git-disjoint
 solana-net-utils
+sn_cli
