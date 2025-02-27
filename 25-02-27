@@ -15,3 +15,4 @@ diesel_cli
 java-locator
 mit-pre-commit
 snarkvm
+py-spy
