@@ -11,3 +11,4 @@ parquet
 diesel_cli
 java-locator
 snarkvm
+py-spy
