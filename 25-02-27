@@ -14,3 +14,4 @@ solana-net-utils
 solana-tokens
 parquet
 cargo-local-registry
+diesel_cli
