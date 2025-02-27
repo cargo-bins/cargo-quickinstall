@@ -13,3 +13,4 @@ dotenv
 solana-net-utils
 solana-tokens
 parquet
+cargo-local-registry
