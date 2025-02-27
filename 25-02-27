@@ -25,3 +25,4 @@ nu_plugin_plotters
 ffsend
 cargo-dylint
 fend
+nu_plugin_plotters
