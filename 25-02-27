@@ -44,3 +44,4 @@ cargo-dylint
 nu_plugin_plotters
 rmup
 cargo-public-api
+sniffnet
