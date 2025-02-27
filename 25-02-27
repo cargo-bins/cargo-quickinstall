@@ -13,3 +13,4 @@ nextest
 sha1collisiondetection
 lurk-cli
 parquet
+diesel_cli
