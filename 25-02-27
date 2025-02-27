@@ -14,3 +14,4 @@ java-locator
 mit-pre-commit
 py-spy
 snarkvm
+watchexec-cli
