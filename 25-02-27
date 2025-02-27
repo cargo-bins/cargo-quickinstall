@@ -84,3 +84,4 @@ koko
 sudo-rs
 racer
 simple-http-server
+nu_plugin_gstat
