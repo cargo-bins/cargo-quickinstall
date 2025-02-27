@@ -6,3 +6,4 @@ pandora_box
 git-disjoint
 solana-net-utils
 sn_cli
+tokio-process
