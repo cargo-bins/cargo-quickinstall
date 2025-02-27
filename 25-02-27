@@ -88,3 +88,4 @@ nu_plugin_gstat
 xplr
 cargo-dylint
 nu_plugin_query
+nkeys
