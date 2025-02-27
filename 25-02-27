@@ -31,3 +31,4 @@ subkey
 cargo-dylint
 https
 racer
+cargo-flash
