@@ -70,3 +70,4 @@ sniffnet
 sea-orm-cli
 rmup
 nextest-filtering
+simple-http-server
