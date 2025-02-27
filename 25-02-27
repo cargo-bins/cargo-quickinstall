@@ -12,3 +12,4 @@ dua-cli
 dotenv
 solana-net-utils
 solana-tokens
+parquet
