@@ -45,3 +45,4 @@ nu_plugin_plotters
 rmup
 cargo-public-api
 sniffnet
+solana-net-utils
