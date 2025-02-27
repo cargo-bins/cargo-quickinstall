@@ -7,3 +7,4 @@ crates-tui
 opencv-binding-generator
 patch-crate
 git-next
+hurlfmt
