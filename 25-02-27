@@ -10,3 +10,4 @@ solana-net-utils
 zuse
 sccache
 parquet
+cargo-local-registry
