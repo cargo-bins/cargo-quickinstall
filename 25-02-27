@@ -4,3 +4,4 @@ nu_plugin_plotters
 sudo-rs
 aura-pm
 opencv-binding-generator
+cargo-public-api
