@@ -8,3 +8,4 @@ deploy
 usage-cli
 cargo-local-registry
 rls-rustc
+usage-cli
