@@ -9,3 +9,4 @@ cargo-local-registry
 rls-rustc
 solana-stake-accounts
 wmi
+mit-commit-msg
