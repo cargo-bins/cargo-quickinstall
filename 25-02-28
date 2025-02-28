@@ -10,3 +10,4 @@ deploy
 cargo-flash
 ratiscat
 rls-rustc
+pwasm-utils
