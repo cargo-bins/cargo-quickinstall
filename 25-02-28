@@ -8,3 +8,4 @@ solana-stake-accounts
 paperclip
 cargo-lock
 dotenvy
+tree-sitter-graph
