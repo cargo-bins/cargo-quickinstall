@@ -24,3 +24,4 @@ koko
 py-spy
 rsfetch
 rls-rustc
+cargo-dephell
