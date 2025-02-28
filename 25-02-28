@@ -5,3 +5,4 @@ sqlx-cli
 rustrict
 deploy
 cpp_demangle
+cargo-local-registry
