@@ -5,3 +5,4 @@ spider_cli
 unic-langid-impl
 cargo-local-registry
 rls-rustc
+solana-stake-accounts
