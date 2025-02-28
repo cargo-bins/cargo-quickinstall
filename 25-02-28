@@ -11,3 +11,4 @@ cargo-flash
 ratiscat
 rls-rustc
 pwasm-utils
+cargo-dylint
