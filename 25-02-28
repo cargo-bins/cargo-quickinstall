@@ -30,3 +30,4 @@ sea-orm-cli
 checker
 cargo-http-registry
 nu_plugin_query
+fyrox-project-manager
