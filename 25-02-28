@@ -14,3 +14,4 @@ dotenvy
 evcxr_repl
 cargo-about
 winpty-rs
+html2md
