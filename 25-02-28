@@ -4,3 +4,4 @@ deploy
 spider_cli
 unic-langid-impl
 cargo-local-registry
+rls-rustc
