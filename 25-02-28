@@ -18,3 +18,4 @@ cargo-lock
 mit-prepare-commit-msg
 cargo-risczero
 dotenvy
+winpty-rs
