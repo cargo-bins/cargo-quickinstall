@@ -18,3 +18,4 @@ cargo-http-registry
 cpp_demangle
 python-project-generator
 unic-langid-impl
+graphql_client_cli
