@@ -3,3 +3,4 @@ rustrict
 deploy
 spider_cli
 cpp_demangle
+rls-rustc
