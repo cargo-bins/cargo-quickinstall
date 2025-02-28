@@ -9,3 +9,4 @@ rustrict
 deploy
 cargo-flash
 ratiscat
+rls-rustc
