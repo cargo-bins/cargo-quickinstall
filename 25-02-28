@@ -47,3 +47,4 @@ python-project-generator
 shadowsocks-rust
 nextest
 dotenvy
+lux-cli
