@@ -3,3 +3,4 @@ dbus-codegen
 ratiscat
 ratiscat
 deploy
+cpp_demangle
