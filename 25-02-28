@@ -11,3 +11,4 @@ python-project-generator
 checker
 rustrict
 deploy
+cargo-http-registry
