@@ -13,3 +13,4 @@ mit-commit-msg
 cargo-lock
 mit-prepare-commit-msg
 dotenvy
+evcxr_repl
