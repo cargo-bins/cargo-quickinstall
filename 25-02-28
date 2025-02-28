@@ -5,3 +5,4 @@ sqlx-cli
 rustrict
 deploy
 unic-langid-impl
+cargo-local-registry
