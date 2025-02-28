@@ -32,3 +32,4 @@ koko
 cargo-dephell
 cargo-http-registry
 mdcat
+nu_plugin_gstat
