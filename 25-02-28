@@ -21,3 +21,4 @@ cargo-duplicates
 lsusb
 tree-sitter-graph
 cargo-duplicates
+cargo-leptos
