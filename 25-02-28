@@ -40,3 +40,4 @@ shadowsocks-rust
 cargo-dephell
 purs
 paru
+cargo-http-registry
