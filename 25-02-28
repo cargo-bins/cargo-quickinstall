@@ -4,3 +4,4 @@ oso
 sqlx-cli
 rustrict
 deploy
+cpp_demangle
