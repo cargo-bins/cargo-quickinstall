@@ -12,3 +12,4 @@ solana-stake-accounts
 paperclip
 sn_node
 mit-commit-msg
+cargo-lock
