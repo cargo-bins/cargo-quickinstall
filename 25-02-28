@@ -11,3 +11,4 @@ cargo-lock
 mit-prepare-commit-msg
 cargo-risczero
 dotenvy
+evcxr_repl
