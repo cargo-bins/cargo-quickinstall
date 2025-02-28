@@ -34,3 +34,4 @@ fyrox-project-manager
 cargo-http-registry
 cargo-lock
 cargo-dephell
+shadowsocks-rust
