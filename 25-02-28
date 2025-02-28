@@ -24,3 +24,4 @@ modem_updater
 lux-cli
 cargo-public-api
 nu_plugin_gstat
+solana-stake-accounts
