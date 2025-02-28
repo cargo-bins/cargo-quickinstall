@@ -33,3 +33,4 @@ nu_plugin_query
 fyrox-project-manager
 cargo-http-registry
 cargo-lock
+cargo-dephell
