@@ -7,3 +7,4 @@ deploy
 cpp_demangle
 cargo-local-registry
 rls-rustc
+solana-stake-accounts
