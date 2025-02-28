@@ -3,3 +3,4 @@ sqlx-cli
 deploy
 spider_cli
 unic-langid-impl
+cargo-local-registry
