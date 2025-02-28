@@ -10,3 +10,4 @@ rls-rustc
 rustfmt
 solana-stake-accounts
 paperclip
+sn_node
