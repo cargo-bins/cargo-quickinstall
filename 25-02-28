@@ -46,3 +46,4 @@ cargo-leptos
 python-project-generator
 shadowsocks-rust
 nextest
+dotenvy
