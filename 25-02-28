@@ -43,3 +43,4 @@ nu_plugin_query
 binwalk
 lumen
 cargo-leptos
+python-project-generator
