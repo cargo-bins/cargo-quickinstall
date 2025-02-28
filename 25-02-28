@@ -9,3 +9,4 @@ ratiscat
 ratiscat
 cargo-lock
 dotenvy
+tree-sitter-graph
