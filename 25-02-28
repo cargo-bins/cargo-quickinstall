@@ -16,3 +16,4 @@ solana-stake-accounts
 cargo-leptos
 cargo-lock
 cargo-duplicates
+dotenvy
