@@ -6,3 +6,4 @@ deploy
 spider_cli
 unic-langid-impl
 rls-rustc
+solana-stake-accounts
