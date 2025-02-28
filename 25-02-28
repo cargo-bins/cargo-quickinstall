@@ -19,3 +19,4 @@ cargo-duplicates
 dotenvy
 cargo-duplicates
 lsusb
+tree-sitter-graph
