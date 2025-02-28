@@ -13,3 +13,4 @@ rls-rustc
 pwasm-utils
 cargo-dylint
 solana-stake-accounts
+cargo-leptos
