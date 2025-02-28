@@ -7,3 +7,4 @@ rustrict
 deploy
 usage-cli
 cargo-local-registry
+rls-rustc
