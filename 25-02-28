@@ -6,3 +6,4 @@ cpp_demangle
 rls-rustc
 solana-stake-accounts
 paperclip
+cargo-lock
