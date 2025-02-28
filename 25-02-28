@@ -42,3 +42,4 @@ cargo-lock
 nu_plugin_query
 binwalk
 lumen
+cargo-leptos
