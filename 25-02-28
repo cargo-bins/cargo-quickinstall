@@ -33,3 +33,4 @@ cargo-dephell
 cargo-http-registry
 mdcat
 nu_plugin_gstat
+simple-http-server
