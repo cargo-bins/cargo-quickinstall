@@ -14,3 +14,4 @@ deploy
 cargo-http-registry
 spider_cli
 python-project-generator
+cargo-http-registry
