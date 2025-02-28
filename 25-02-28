@@ -27,3 +27,4 @@ nu_plugin_gstat
 solana-stake-accounts
 dioxus-cli
 sea-orm-cli
+checker
