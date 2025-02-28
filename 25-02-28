@@ -61,3 +61,4 @@ winpty-rs
 graphql_client_cli
 skyspell_kak
 paru
+cargo-graph
