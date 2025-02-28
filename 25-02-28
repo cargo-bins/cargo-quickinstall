@@ -12,3 +12,4 @@ checker
 rustrict
 deploy
 cargo-http-registry
+spider_cli
