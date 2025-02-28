@@ -18,3 +18,4 @@ cargo-lock
 cargo-duplicates
 dotenvy
 cargo-duplicates
+lsusb
