@@ -14,3 +14,4 @@ pwasm-utils
 cargo-dylint
 solana-stake-accounts
 cargo-leptos
+cargo-lock
