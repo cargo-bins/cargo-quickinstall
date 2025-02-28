@@ -10,3 +10,4 @@ ratiscat
 cargo-lock
 dotenvy
 tree-sitter-graph
+winpty-rs
