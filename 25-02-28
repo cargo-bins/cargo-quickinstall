@@ -35,3 +35,4 @@ cargo-http-registry
 cargo-lock
 cargo-dephell
 shadowsocks-rust
+nu_plugin_gstat
