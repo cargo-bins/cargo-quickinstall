@@ -39,3 +39,4 @@ wmi
 neovide
 purs
 cargo-lock
+nu_plugin_query
