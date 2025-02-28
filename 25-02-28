@@ -8,3 +8,4 @@ unic-langid-impl
 cargo-local-registry
 rls-rustc
 rustfmt
+solana-stake-accounts
