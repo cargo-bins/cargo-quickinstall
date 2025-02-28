@@ -28,3 +28,4 @@ solana-stake-accounts
 dioxus-cli
 sea-orm-cli
 checker
+cargo-http-registry
