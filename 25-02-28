@@ -42,3 +42,4 @@ purs
 paru
 cargo-http-registry
 shadowsocks-rust
+dotenvy
