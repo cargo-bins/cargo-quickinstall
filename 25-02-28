@@ -11,3 +11,4 @@ solana-stake-accounts
 wmi
 mit-commit-msg
 cargo-lock
+mit-prepare-commit-msg
