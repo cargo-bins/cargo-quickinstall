@@ -14,3 +14,4 @@ paperclip
 usage-cli
 usage-cli
 mit-commit-msg
+cargo-lock
