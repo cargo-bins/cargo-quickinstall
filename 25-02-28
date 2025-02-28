@@ -9,3 +9,4 @@ cargo-local-registry
 rls-rustc
 rustfmt
 solana-stake-accounts
+paperclip
