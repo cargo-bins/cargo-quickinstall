@@ -10,3 +10,4 @@ rls-rustc
 solana-stake-accounts
 wmi
 mit-commit-msg
+cargo-lock
