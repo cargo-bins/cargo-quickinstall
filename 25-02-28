@@ -16,3 +16,4 @@ cargo-lock
 mit-prepare-commit-msg
 cargo-risczero
 dotenvy
+sn_cli
