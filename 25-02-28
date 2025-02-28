@@ -2,3 +2,4 @@ solana-cli
 rustrict
 deploy
 spider_cli
+cpp_demangle
