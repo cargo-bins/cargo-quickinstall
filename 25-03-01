@@ -19,3 +19,4 @@ solana-gossip
 deno
 tendermint-abci
 cached-path
+html2md
