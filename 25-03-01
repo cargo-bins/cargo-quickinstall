@@ -10,3 +10,4 @@ foundationdb-gen
 pwasm-utils
 unic-langid-impl
 solana-validator
+winpty-rs
