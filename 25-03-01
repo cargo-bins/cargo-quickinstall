@@ -4,3 +4,4 @@ cpp_demangle
 parquet
 human_bytes
 solana-faucet
+cargo-local-registry
