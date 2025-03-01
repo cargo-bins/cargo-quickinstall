@@ -23,3 +23,4 @@ deno
 tendermint-abci
 spider_worker
 git-disjoint
+apollo-router
