@@ -33,3 +33,4 @@ probe-run
 skyspell
 winpty-rs
 gbump
+binstall
