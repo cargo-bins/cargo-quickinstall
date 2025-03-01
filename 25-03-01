@@ -20,3 +20,4 @@ tendermint-abci
 cargo-tarpaulin
 watchexec-cli
 git-disjoint
+apollo-router
