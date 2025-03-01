@@ -3,3 +3,4 @@ parquet
 human_bytes
 solana-faucet
 foundationdb-gen
+pwasm-utils
