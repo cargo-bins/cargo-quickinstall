@@ -58,3 +58,4 @@ probe-run
 slint-lsp
 rustfmt-nightly
 plastic
+skyspell_kak
