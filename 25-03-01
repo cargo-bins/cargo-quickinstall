@@ -21,3 +21,4 @@ foundationdb-gen
 purs
 shadowsocks-rust
 pwasm-utils
+unic-langid-impl
