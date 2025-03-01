@@ -54,3 +54,4 @@ rustfmt-nightly
 plastic
 cargo-duplicates
 nannou-new
+cargo-leptos
