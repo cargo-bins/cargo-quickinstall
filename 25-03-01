@@ -3,3 +3,4 @@ cargo-udeps
 cpp_demangle
 parquet
 human_bytes
+solana-faucet
