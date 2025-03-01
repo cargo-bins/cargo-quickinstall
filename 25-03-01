@@ -64,3 +64,4 @@ tendermint-abci
 binstall
 cargo-pgrx
 skyspell
+nu_plugin_gstat
