@@ -79,3 +79,4 @@ shadowsocks-rust
 bluetui
 fake
 cargo-pgrx
+spider_worker
