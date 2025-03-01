@@ -6,3 +6,4 @@ safe_network
 solana-faucet
 cargo-local-registry
 mit-commit-msg
+foundationdb-gen
