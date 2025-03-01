@@ -19,3 +19,4 @@ deno
 tendermint-abci
 cargo-tarpaulin
 watchexec-cli
+git-disjoint
