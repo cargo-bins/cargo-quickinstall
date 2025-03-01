@@ -56,3 +56,4 @@ slint-lsp
 a11ywatch_cli
 probe-run
 slint-lsp
+rustfmt-nightly
