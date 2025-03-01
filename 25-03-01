@@ -10,3 +10,4 @@ lsusb
 lsusb
 tendermint-abci
 sshx
+rustfmt-nightly
