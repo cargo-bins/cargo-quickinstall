@@ -27,3 +27,4 @@ cargo-leptos
 shadowsocks-rust
 kanidm_tools
 kwaak
+pwasm-utils
