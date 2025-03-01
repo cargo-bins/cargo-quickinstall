@@ -48,3 +48,4 @@ skyspell
 probe-run
 cargo-leptos
 kwaak
+cargo-graph
