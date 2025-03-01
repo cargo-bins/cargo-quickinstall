@@ -7,3 +7,4 @@ pwasm-utils
 unic-langid-impl
 winpty-rs
 oxipng
+tendermint-abci
