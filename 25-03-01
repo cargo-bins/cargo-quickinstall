@@ -13,3 +13,4 @@ solana-validator
 winpty-rs
 tendermint-abci
 sea-orm-cli
+a11ywatch_cli
