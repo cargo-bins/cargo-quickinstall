@@ -9,3 +9,4 @@ patch-crate
 lumen
 cargo-leptos
 sea-orm-cli
+wiki-tui
