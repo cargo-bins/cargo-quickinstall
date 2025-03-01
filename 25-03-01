@@ -16,3 +16,4 @@ winpty-rs
 tendermint-abci
 wizer
 rustfmt-nightly
+sshx
