@@ -16,3 +16,4 @@ kanidm_tools
 cargo-graph
 sea-orm-cli
 rustowl
+kanidm_tools
