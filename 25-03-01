@@ -21,3 +21,4 @@ rustfmt-nightly
 solana-gossip
 deno
 tendermint-abci
+spider_worker
