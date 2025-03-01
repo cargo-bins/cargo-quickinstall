@@ -69,3 +69,4 @@ nu_plugin_gstat
 nu_plugin_query
 bluetui
 plastic
+spider_worker
