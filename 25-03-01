@@ -22,3 +22,4 @@ purs
 shadowsocks-rust
 pwasm-utils
 unic-langid-impl
+simple-http-server
