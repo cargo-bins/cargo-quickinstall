@@ -20,3 +20,4 @@ hurl
 foundationdb-gen
 purs
 shadowsocks-rust
+pwasm-utils
