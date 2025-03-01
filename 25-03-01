@@ -5,3 +5,4 @@ solana-faucet
 foundationdb-gen
 pwasm-utils
 unic-langid-impl
+winpty-rs
