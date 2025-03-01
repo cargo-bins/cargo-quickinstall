@@ -36,3 +36,4 @@ mdbook-plantuml
 cargo-duplicates
 winpty-rs
 cargo-graph
+plastic
