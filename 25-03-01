@@ -33,3 +33,4 @@ skyspell_kak
 unic-langid-impl
 cargo-graph
 mdbook-plantuml
+cargo-duplicates
