@@ -2,3 +2,4 @@ kickstart
 apollo-router
 parquet
 foundationdb-gen
+pwasm-utils
