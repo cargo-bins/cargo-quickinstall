@@ -11,3 +11,4 @@ lsusb
 cargo-duplicates
 cargo-leptos
 foundationdb-gen
+unic-langid-impl
