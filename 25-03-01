@@ -50,3 +50,4 @@ cargo-leptos
 kwaak
 cargo-graph
 dioxus-cli
+rustfmt-nightly
