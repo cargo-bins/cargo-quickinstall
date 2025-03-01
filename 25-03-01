@@ -3,3 +3,4 @@ cargo-udeps
 parquet
 human_bytes
 safe_network
+solana-faucet
