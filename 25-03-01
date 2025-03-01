@@ -66,3 +66,4 @@ cargo-pgrx
 skyspell
 nu_plugin_gstat
 nu_plugin_gstat
+nu_plugin_query
