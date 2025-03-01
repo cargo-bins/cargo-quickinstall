@@ -76,3 +76,4 @@ git-disjoint
 shadowsocks-rust
 cargo-duplicates
 sniffnet
+apollo-router
