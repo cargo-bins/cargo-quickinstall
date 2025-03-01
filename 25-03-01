@@ -21,3 +21,4 @@ tendermint-abci
 cached-path
 html2md
 cargo-tarpaulin
+git-disjoint
