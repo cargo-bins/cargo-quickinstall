@@ -14,3 +14,4 @@ winpty-rs
 tendermint-abci
 sea-orm-cli
 rustfmt-nightly
+solana-gossip
