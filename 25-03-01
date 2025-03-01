@@ -6,3 +6,4 @@ human_bytes
 solana-faucet
 cargo-local-registry
 mit-commit-msg
+foundationdb-gen
