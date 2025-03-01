@@ -13,3 +13,4 @@ foundationdb-gen
 rustowl
 cargo-local-registry
 pwasm-utils
+hoard-rs
