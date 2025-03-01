@@ -74,3 +74,4 @@ bluetui
 fake
 git-disjoint
 shadowsocks-rust
+cargo-duplicates
