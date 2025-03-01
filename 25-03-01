@@ -12,3 +12,4 @@ mit-commit-msg
 foundationdb-gen
 rustowl
 cargo-local-registry
+pwasm-utils
