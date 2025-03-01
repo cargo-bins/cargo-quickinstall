@@ -11,3 +11,4 @@ sn_cli
 winpty-rs
 tendermint-abci
 exa
+rustfmt-nightly
