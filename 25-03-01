@@ -68,3 +68,4 @@ deno
 bluetui
 tendermint-abci
 cargo-duplicates
+nu_plugin_gstat
