@@ -34,3 +34,4 @@ unic-langid-impl
 cargo-graph
 mdbook-plantuml
 cargo-duplicates
+winpty-rs
