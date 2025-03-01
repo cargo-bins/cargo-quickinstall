@@ -53,3 +53,4 @@ dioxus-cli
 rustfmt-nightly
 plastic
 cargo-duplicates
+nannou-new
