@@ -71,3 +71,4 @@ cargo-duplicates
 nu_plugin_gstat
 bluetui
 nannou-new
+nu_plugin_query
