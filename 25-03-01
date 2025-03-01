@@ -13,3 +13,4 @@ tendermint-abci
 exa
 rustfmt-nightly
 solana-gossip
+deno
