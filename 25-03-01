@@ -11,3 +11,4 @@ dioxus-cli
 foundationdb-gen
 dioxus-cli
 pwasm-utils
+unic-langid-impl
