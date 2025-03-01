@@ -14,3 +14,4 @@ winpty-rs
 tendermint-abci
 sea-orm-cli
 a11ywatch_cli
+rustfmt-nightly
