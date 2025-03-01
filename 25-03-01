@@ -21,3 +21,4 @@ ripcalc
 ripcalc
 rustowl
 winpty-rs
+sqlx-cli
