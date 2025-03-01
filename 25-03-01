@@ -13,3 +13,4 @@ cargo-leptos
 foundationdb-gen
 unic-langid-impl
 winpty-rs
+tendermint-abci
