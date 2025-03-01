@@ -10,3 +10,4 @@ wizer
 lsusb
 cargo-duplicates
 cargo-leptos
+foundationdb-gen
