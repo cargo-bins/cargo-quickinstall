@@ -14,3 +14,4 @@ solana-faucet
 hurl
 kanidm_tools
 cargo-graph
+sea-orm-cli
