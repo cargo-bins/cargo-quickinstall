@@ -52,3 +52,4 @@ cargo-graph
 dioxus-cli
 rustfmt-nightly
 plastic
+cargo-duplicates
