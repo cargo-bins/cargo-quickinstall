@@ -16,3 +16,4 @@ dotenv
 socketcan
 trunk
 diesel_cli
+spider_worker
