@@ -6,3 +6,4 @@ mit-pre-commit
 schemafy
 spider_worker
 raw-cpuid
+tendermint-abci
