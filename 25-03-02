@@ -25,3 +25,4 @@ probe-rs-tools
 cargo-leptos
 tuono
 sqli
+raw-cpuid
