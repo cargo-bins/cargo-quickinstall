@@ -6,3 +6,4 @@ schemafy
 spider_worker
 raw-cpuid
 tendermint-abci
+stellar-xdr
