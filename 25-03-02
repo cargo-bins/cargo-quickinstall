@@ -18,3 +18,4 @@ socketcan
 spider_worker
 zuse
 libbpf-cargo
+foundationdb-gen
