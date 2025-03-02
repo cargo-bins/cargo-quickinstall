@@ -12,3 +12,4 @@ git-disjoint
 rmesg
 raw-cpuid
 paperclip
+socketcan
