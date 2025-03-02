@@ -48,3 +48,4 @@ redoxfs
 binstall
 socketcan
 redoxfs
+spider_worker
