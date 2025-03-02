@@ -12,3 +12,4 @@ cargo-leptos
 sqli
 cargo-leptos
 cargo-duplicates
+cargo-pgrx
