@@ -31,3 +31,4 @@ tendermint-abci
 stellar-xdr
 fake
 cargo-duplicates
+sniffnet
