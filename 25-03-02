@@ -22,3 +22,4 @@ schemafy
 typst-cli
 spider_worker
 probe-rs-tools
+cargo-leptos
