@@ -25,3 +25,4 @@ cargo-flash
 diesel_cli
 cargo-flash
 socketcan
+socketcan
