@@ -13,3 +13,4 @@ rmesg
 raw-cpuid
 paperclip
 socketcan
+rustfmt
