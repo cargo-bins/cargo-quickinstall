@@ -12,3 +12,4 @@ graphql_client_cli
 tuono
 syd
 nu_plugin_gstat
+cargo-pgrx
