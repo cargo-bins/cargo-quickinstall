@@ -18,3 +18,4 @@ socketcan
 dotenv
 socketcan
 pgrx-tests
+foundationdb-gen
