@@ -34,3 +34,4 @@ tendermint-abci
 cargo-list
 rustrict
 probe-rs-tools
+mdbook-plantuml
