@@ -43,3 +43,4 @@ paperclip
 cargo-info
 tui-journal
 socketcan
+redoxfs
