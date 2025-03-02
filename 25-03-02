@@ -4,3 +4,4 @@ syd
 cargo-vet
 mit-pre-commit
 sn_node_rpc_client
+raw-cpuid
