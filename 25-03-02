@@ -11,3 +11,4 @@ tendermint-abci
 rustrict
 raw-cpuid
 paperclip
+socketcan
