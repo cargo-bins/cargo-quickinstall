@@ -16,3 +16,4 @@ socketcan
 rustfmt
 socketcan
 cargo-risczero
+foundationdb-gen
