@@ -6,3 +6,4 @@ mit-pre-commit
 sn_node_rpc_client
 raw-cpuid
 tendermint-abci
+stellar-xdr
