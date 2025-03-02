@@ -40,3 +40,4 @@ binstall
 probe-rs-tools
 redoxfs
 raw-cpuid
+sqli
