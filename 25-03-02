@@ -21,3 +21,4 @@ cargo-c
 cargo-c
 zuse
 libbpf-cargo
+foundationdb-gen
