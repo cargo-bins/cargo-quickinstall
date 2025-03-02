@@ -19,3 +19,4 @@ spider_worker
 zuse
 libbpf-cargo
 foundationdb-gen
+cargo-about
