@@ -52,3 +52,4 @@ porsmo
 socketcan
 cargo-list
 tui-journal
+spider_worker
