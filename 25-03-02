@@ -13,3 +13,4 @@ tendermint-abci
 binstall
 rustrict
 git-disjoint
+binstall
