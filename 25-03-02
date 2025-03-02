@@ -19,3 +19,4 @@ dotenv
 socketcan
 pgrx-tests
 foundationdb-gen
+rustrict
