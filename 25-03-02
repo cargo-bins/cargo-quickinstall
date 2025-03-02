@@ -39,3 +39,4 @@ tuono
 binstall
 probe-rs-tools
 redoxfs
+raw-cpuid
