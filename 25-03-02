@@ -10,3 +10,4 @@ stellar-xdr
 rustrict
 git-disjoint
 rmesg
+raw-cpuid
