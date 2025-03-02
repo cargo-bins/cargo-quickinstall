@@ -20,3 +20,4 @@ zuse
 libbpf-cargo
 foundationdb-gen
 cargo-about
+cargo-outdated
