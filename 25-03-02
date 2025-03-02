@@ -42,3 +42,4 @@ cargo-duplicates
 paperclip
 cargo-info
 tui-journal
+socketcan
