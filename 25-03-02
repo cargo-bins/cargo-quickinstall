@@ -16,3 +16,4 @@ cargo-pgrx
 probe-rs-tools
 typst-cli
 slint-lsp
+sqli
