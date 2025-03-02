@@ -14,3 +14,4 @@ cargo-leptos
 cargo-duplicates
 cargo-pgrx
 probe-rs-tools
+typst-cli
