@@ -6,3 +6,4 @@ holochain
 spider_worker
 solana-validator
 fake
+rkv
