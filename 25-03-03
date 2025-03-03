@@ -12,3 +12,4 @@ rkv
 addr2line
 raw-cpuid
 toipe
+nextest-filtering
