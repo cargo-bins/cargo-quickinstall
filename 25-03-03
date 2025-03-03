@@ -4,3 +4,4 @@ pgrx-tests
 rustfmt
 holochain
 openpty
+solana-validator
