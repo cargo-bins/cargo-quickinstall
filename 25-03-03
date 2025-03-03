@@ -2,3 +2,4 @@ yaydl
 remove_dir_all
 starship-jj
 diesel_cli
+graphql_client_cli
