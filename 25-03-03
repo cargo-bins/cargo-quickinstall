@@ -16,3 +16,4 @@ clippy
 coldsnap
 rustfmt-nightly
 perfcnt
+racer
