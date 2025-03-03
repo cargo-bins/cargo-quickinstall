@@ -6,3 +6,4 @@ holochain
 spider_worker
 solana-validator
 rkv
+addr2line
