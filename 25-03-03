@@ -2,3 +2,4 @@ remove_dir_all
 cargo-leptos
 pgrx-tests
 spider_worker
+cargo-leptos
