@@ -2,3 +2,4 @@ remove_dir_all
 tauri-cli
 pgrx-tests
 spider_worker
+holochain
