@@ -12,3 +12,4 @@ human_bytes
 solana-validator
 rkv
 fake
+addr2line
