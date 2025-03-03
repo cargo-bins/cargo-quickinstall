@@ -12,3 +12,4 @@ ducc-sys
 shunkakinoki
 raw-cpuid
 nextest-filtering
+clippy
