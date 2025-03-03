@@ -6,3 +6,4 @@ graphql_client_cli
 pcu
 pgrx-tests
 tree-sitter-cli
+spider_worker
