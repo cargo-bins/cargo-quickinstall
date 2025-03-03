@@ -7,3 +7,4 @@ spider_worker
 solana-validator
 fake
 rkv
+addr2line
