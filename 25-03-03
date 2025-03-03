@@ -2,3 +2,4 @@ remove_dir_all
 mdbook-latex
 mdbook-latex
 pgrx-tests
+mdbook-latex
