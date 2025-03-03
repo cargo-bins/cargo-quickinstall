@@ -3,3 +3,4 @@ cargo-vet
 pgrx-tests
 rustfmt
 holochain
+openpty
