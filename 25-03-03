@@ -4,3 +4,4 @@ starship-jj
 diesel_cli
 graphql_client_cli
 pcu
+pgrx-tests
