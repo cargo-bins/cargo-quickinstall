@@ -19,3 +19,4 @@ raw-cpuid
 nextest-filtering
 solana-keygen
 clippy
+git-disjoint
