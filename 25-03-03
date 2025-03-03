@@ -16,3 +16,4 @@ binstall
 ncspot
 python-project-generator
 spider_worker
+tree-sitter-cli
