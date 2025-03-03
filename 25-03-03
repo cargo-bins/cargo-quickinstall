@@ -10,3 +10,4 @@ mdbook-latex
 solana-validator
 rkv
 addr2line
+raw-cpuid
