@@ -12,3 +12,4 @@ rkv
 addr2line
 pnafs
 ducc-sys
+raw-cpuid
