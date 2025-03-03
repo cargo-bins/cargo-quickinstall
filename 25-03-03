@@ -7,3 +7,4 @@ openpty
 solana-validator
 rkv
 fake
+addr2line
