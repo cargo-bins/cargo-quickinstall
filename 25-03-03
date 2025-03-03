@@ -37,3 +37,4 @@ probe-rs-tools
 lindera-cli
 shunkakinoki
 ducc-sys
+raw-cpuid
