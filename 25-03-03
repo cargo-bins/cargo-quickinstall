@@ -15,3 +15,4 @@ dioxus-cli
 holochain
 nextsv
 acme-client
+cargo-info
