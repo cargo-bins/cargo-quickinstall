@@ -9,3 +9,4 @@ human_bytes
 mdbook-latex
 solana-validator
 rkv
+addr2line
