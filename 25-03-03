@@ -5,3 +5,4 @@ diesel_cli
 graphql_client_cli
 pcu
 pgrx-tests
+tree-sitter-cli
