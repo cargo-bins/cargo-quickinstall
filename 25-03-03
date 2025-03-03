@@ -10,3 +10,4 @@ pgrx-tests
 ncspot
 spider_worker
 sea-orm-cli
+tui-journal
