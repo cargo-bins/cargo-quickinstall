@@ -11,3 +11,4 @@ addr2line
 ducc-sys
 shunkakinoki
 raw-cpuid
+nextest-filtering
