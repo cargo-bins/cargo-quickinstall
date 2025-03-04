@@ -3,6 +3,7 @@ name: Release-plz
 permissions:
   pull-requests: write
   contents: write
+  actions: write
 
 on:
   push:
