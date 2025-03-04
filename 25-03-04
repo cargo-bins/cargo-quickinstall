@@ -18,3 +18,4 @@ cargo-risczero
 probe-rs-cli
 fw
 sniffnet
+probe-rs-cli
