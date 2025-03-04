@@ -46,3 +46,4 @@ diesel_cli
 solana-genesis
 ruff
 deploy
+airshipper
