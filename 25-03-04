@@ -17,3 +17,4 @@ zellij
 cargo-risczero
 probe-rs-cli
 fw
+sniffnet
