@@ -10,3 +10,4 @@ dioxus-cli
 sea-orm-cli
 clipboard-history
 ddt
+minicbor
