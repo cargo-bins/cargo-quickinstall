@@ -9,3 +9,4 @@ tree-sitter-cli
 cargo-risczero
 rustrict
 oso
+phf_generator
