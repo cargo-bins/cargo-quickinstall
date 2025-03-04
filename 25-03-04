@@ -13,3 +13,4 @@ wol-rs
 sqlx-cli
 mit-pre-commit
 sniffnet
+zellij
