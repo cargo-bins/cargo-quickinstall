@@ -22,3 +22,4 @@ airshipper
 ddt
 rustrict
 cargo-public-api
+ruff
