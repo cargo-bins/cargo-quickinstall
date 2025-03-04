@@ -10,3 +10,4 @@ sniffnet
 human_name
 sniffnet
 wol-rs
+sqlx-cli
