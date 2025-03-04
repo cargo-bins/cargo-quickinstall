@@ -9,3 +9,4 @@ mit-pre-commit
 cargo-risczero
 rustrict
 textplots
+cached-path
