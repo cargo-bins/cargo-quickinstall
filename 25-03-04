@@ -25,3 +25,4 @@ cargo-public-api
 ruff
 trusted-signing-cli
 airshipper
+kdotool
