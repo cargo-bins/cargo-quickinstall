@@ -14,3 +14,4 @@ sqlx-cli
 mit-pre-commit
 sniffnet
 zellij
+cargo-risczero
