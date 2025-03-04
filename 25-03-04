@@ -15,3 +15,4 @@ mit-pre-commit
 sniffnet
 zellij
 cargo-risczero
+probe-rs-cli
