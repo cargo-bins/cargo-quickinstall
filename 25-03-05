@@ -3,3 +3,4 @@ cargo-spellcheck
 apollo-router
 deploy
 solana-stake-accounts
+tree-sitter-cli
