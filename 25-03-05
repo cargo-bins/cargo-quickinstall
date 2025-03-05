@@ -31,3 +31,4 @@ cargo-info
 httpmock
 solana-stake-accounts
 intentrace
+cargo-download
