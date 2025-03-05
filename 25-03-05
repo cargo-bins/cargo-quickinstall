@@ -2,3 +2,4 @@ addr2line
 racer
 cargo-dylint
 minicbor
+bugstalker
