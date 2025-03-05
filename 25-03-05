@@ -11,3 +11,4 @@ cargo-dylint
 tree-sitter-cli
 grepq
 coinlive
+trusted-signing-cli
