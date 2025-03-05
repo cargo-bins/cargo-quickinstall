@@ -11,3 +11,4 @@ httpmock
 cargo-tarpaulin
 solana-stake-accounts
 mise
+cargo-leptos
