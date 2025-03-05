@@ -39,3 +39,4 @@ sudo-rs
 cargo-leptos
 papyrus_storage
 neovide
+dotenv-flow
