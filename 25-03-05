@@ -8,3 +8,4 @@ openpty
 solana-cli
 java-locator
 gitui
+httpmock
