@@ -13,3 +13,4 @@ cargo-leptos
 socketcan
 papyrus_storage
 dotenv-flow
+human_name
