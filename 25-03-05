@@ -11,3 +11,4 @@ cargo-leptos
 watchexec-cli
 socketcan
 dotenv-flow
+human_name
