@@ -5,3 +5,4 @@ nextest
 staging-chain-spec-builder
 nix-user-chroot
 deploy
+mprober
