@@ -5,3 +5,4 @@ zellij
 perfcnt
 solana-cli
 java-locator
+cargo-tarpaulin
