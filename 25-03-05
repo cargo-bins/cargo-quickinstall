@@ -28,3 +28,4 @@ cargo-list
 neovide
 httpmock
 nextsv
+tracexec
