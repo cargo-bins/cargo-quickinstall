@@ -13,3 +13,4 @@ rsflex
 kickstart
 nix-user-chroot
 porteurbars
+openpty
