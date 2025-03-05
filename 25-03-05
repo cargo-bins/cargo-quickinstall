@@ -8,3 +8,4 @@ perfcnt
 openpty
 solana-cli
 java-locator
+httpmock
