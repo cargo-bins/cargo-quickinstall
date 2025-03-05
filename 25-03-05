@@ -19,3 +19,4 @@ coinlive
 trusted-signing-cli
 tracexec
 solana-cli
+sudo-rs
