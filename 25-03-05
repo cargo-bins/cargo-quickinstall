@@ -1,3 +1,4 @@
 addr2line
 racer
 cargo-info
+trusted-signing-cli
