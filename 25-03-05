@@ -10,3 +10,4 @@ solana-stake-accounts
 cargo-leptos
 watchexec-cli
 socketcan
+dotenv-flow
