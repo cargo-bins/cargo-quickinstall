@@ -30,3 +30,4 @@ dotenv-flow
 dioxus-cli
 staging-chain-spec-builder
 human_name
+bustd
