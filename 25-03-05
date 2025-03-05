@@ -5,3 +5,4 @@ deploy
 solana-stake-accounts
 tree-sitter-cli
 cargo-spellcheck
+wol-rs
