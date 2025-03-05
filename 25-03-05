@@ -7,3 +7,4 @@ speedtest-rs
 deploy
 tree-sitter-cli
 speedtest-rs
+cargo-dylint
