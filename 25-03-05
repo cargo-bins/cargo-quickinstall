@@ -6,3 +6,4 @@ deploy
 perfcnt
 fcp
 openpty
+nix-user-chroot
