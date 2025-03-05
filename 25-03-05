@@ -4,3 +4,4 @@ deploy
 solana-stake-accounts
 wol-rs
 perfcnt
+solana-cli
