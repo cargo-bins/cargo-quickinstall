@@ -12,3 +12,4 @@ nextest
 cargo-info
 solana-stake-accounts
 cargo-info
+cargo-dylint
