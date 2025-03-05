@@ -28,3 +28,4 @@ neovide
 java-locator
 speedtest-rs
 cargo-info
+httpmock
