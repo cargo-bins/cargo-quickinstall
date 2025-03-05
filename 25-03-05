@@ -8,3 +8,4 @@ java-locator
 cargo-tarpaulin
 solana-stake-accounts
 cargo-leptos
+watchexec-cli
