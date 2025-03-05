@@ -16,3 +16,4 @@ socketcan
 papyrus_storage
 gitui
 gitui
+dotenv-flow
