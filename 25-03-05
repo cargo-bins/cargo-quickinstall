@@ -14,3 +14,4 @@ kickstart
 nix-user-chroot
 porteurbars
 openpty
+solana-cli
