@@ -40,3 +40,4 @@ dotenv-flow
 cargo-download
 human_name
 rua
+tracexec
