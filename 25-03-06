@@ -13,3 +13,4 @@ r-matrix
 sudo-rs
 sudo-rs
 unic-langid-impl
+cargo-dylint
