@@ -38,3 +38,4 @@ wol-rs
 cargo-dylint
 clippy
 netop
+cargo-ktra-login
