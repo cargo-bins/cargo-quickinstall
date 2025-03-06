@@ -11,3 +11,4 @@ unic-langid-impl
 tendermint-abci
 psfu
 cargo-mote
+varfish-server-worker
