@@ -20,3 +20,4 @@ probe-run
 clippy
 r-matrix
 schematools-cli
+stgit
