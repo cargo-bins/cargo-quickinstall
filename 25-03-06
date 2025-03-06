@@ -40,3 +40,4 @@ clippy
 netop
 cargo-ktra-login
 nu
+sudo-rs
