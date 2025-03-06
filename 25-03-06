@@ -46,3 +46,4 @@ clippy
 cargo-public-api
 stgit
 hayagriva
+dioxus-cli
