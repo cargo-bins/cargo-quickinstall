@@ -19,3 +19,4 @@ tendermint-abci
 netop
 trusted-signing-cli
 xplr
+probe-rs-tools
