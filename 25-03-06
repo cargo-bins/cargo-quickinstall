@@ -12,3 +12,4 @@ nextest
 rua
 unic-langid-impl
 stgit
+probe-run
