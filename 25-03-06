@@ -8,3 +8,4 @@ dotenvy
 binstall
 cargo-mote
 unic-langid-impl
+tendermint-abci
