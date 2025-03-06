@@ -3,3 +3,4 @@ solana-stake-accounts
 dotenvy
 sea-orm-cli
 unic-langid-impl
+tendermint-abci
