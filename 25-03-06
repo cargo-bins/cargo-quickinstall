@@ -43,3 +43,4 @@ nu
 cargo-flash
 tw
 clippy
+cargo-public-api
