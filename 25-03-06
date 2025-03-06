@@ -16,3 +16,4 @@ probe-run
 tendermint-abci
 bluetui
 stgit
+probe-run
