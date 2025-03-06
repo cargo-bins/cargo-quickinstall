@@ -37,3 +37,4 @@ r-matrix
 wol-rs
 cargo-dylint
 clippy
+netop
