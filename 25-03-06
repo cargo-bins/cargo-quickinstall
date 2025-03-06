@@ -21,3 +21,4 @@ trusted-signing-cli
 xplr
 probe-rs-tools
 schematools-cli
+cargo-dylint
