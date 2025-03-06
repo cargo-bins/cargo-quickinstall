@@ -22,3 +22,4 @@ r-matrix
 schematools-cli
 stgit
 tree-sitter-cli
+cached-path
