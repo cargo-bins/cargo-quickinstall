@@ -4,3 +4,4 @@ dotenvy
 sea-orm-cli
 unic-langid-impl
 tendermint-abci
+cached-path
