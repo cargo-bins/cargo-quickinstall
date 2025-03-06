@@ -4,3 +4,4 @@ dotenvy
 unic-langid-impl
 tendermint-abci
 cached-path
+human_name
