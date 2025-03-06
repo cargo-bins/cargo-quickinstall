@@ -3,3 +3,4 @@ stellar-xdr
 schematools-cli
 clippy
 r-matrix
+graphql_client_cli
