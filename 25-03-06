@@ -36,3 +36,4 @@ netop
 r-matrix
 wol-rs
 cargo-dylint
+clippy
