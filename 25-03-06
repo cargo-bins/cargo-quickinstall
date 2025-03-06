@@ -29,3 +29,4 @@ cargo-dylint
 human_name
 netop
 solana-net-utils
+sudo-rs
