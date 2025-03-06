@@ -42,3 +42,4 @@ probe-rs-tools
 nu
 cargo-flash
 tw
+clippy
