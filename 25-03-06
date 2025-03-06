@@ -11,3 +11,4 @@ wol-rs
 holochain_keystore
 text-diff
 cargo-generate
+perfcnt
