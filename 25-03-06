@@ -5,3 +5,4 @@ sea-orm-cli
 unic-langid-impl
 tendermint-abci
 human_name
+solana-net-utils
