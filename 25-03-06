@@ -3,3 +3,4 @@ nextest
 cargo-spellcheck
 nextest
 solana-stake-accounts
+dotenvy
