@@ -5,3 +5,4 @@ clippy
 r-matrix
 graphql_client_cli
 sudo-rs
+tuono
