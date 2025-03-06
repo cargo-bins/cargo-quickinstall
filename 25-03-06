@@ -25,3 +25,4 @@ tree-sitter-cli
 cached-path
 r-matrix
 rua
+cargo-dylint
