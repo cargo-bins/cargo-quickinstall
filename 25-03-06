@@ -33,3 +33,4 @@ probe-rs-tools
 cargo-ktra-login
 tree-sitter-cli
 stgit
+trusted-signing-cli
