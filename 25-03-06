@@ -17,3 +17,4 @@ tendermint-abci
 bluetui
 stgit
 probe-run
+clippy
