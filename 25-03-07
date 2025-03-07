@@ -31,3 +31,4 @@ phf_generator
 opencv-binding-generator
 diesel_cli
 ripit
+dotenvy
