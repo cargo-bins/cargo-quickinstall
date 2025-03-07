@@ -16,3 +16,4 @@ rustup-toolchain-install-master
 sea-orm-cli
 remove_dir_all
 fend
+spotify_player
