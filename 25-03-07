@@ -2,3 +2,4 @@ remove_dir_all
 cargo-vet
 solana-stake-accounts
 skim
+rustup-toolchain-install-master
