@@ -43,3 +43,4 @@ codeberg-cli
 arrow-flight
 solana-gossip
 phf_generator
+ruff
