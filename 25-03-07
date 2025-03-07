@@ -12,3 +12,4 @@ sn_faucet
 apollo-router
 solana-gossip
 phf_generator
+dotenvy
