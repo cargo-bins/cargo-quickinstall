@@ -6,3 +6,4 @@ solana-stake-accounts
 diesel_cli
 java-locator
 cargo-i18n
+remove_dir_all
