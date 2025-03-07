@@ -10,3 +10,4 @@ remove_dir_all
 git-mit-config
 racer
 solana-genesis
+protofetch
