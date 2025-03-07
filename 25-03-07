@@ -13,3 +13,4 @@ dioxus-cli
 azik_generator
 simple-http-server
 rustup-toolchain-install-master
+sea-orm-cli
