@@ -7,3 +7,4 @@ spider_cli
 probe-rs-tools
 cargo-leptos
 spotify_player
+remove_dir_all
