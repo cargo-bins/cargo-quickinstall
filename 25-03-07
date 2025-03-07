@@ -27,3 +27,4 @@ phf_generator
 wild-linker
 dotenvy
 dotenv
+cargo-generate
