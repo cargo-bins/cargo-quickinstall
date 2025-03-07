@@ -21,3 +21,4 @@ wild-linker
 diesel_cli
 nextest
 apollo-router
+minicbor
