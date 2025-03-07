@@ -22,3 +22,4 @@ diesel_cli
 nextest
 apollo-router
 minicbor
+solana-gossip
