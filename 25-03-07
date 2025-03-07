@@ -3,3 +3,4 @@ remove_dir_all
 solana-stake-accounts
 tauri-cli
 tauri-cli
+rustup-toolchain-install-master
