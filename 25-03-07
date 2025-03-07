@@ -37,3 +37,4 @@ solana-gossip
 phf_generator
 cargo-smart-release
 codeberg-cli
+dotenvy
