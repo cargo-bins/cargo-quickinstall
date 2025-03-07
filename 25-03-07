@@ -9,3 +9,4 @@ sea-orm-cli
 apollo-router
 arrow-flight
 solana-gossip
+phf_generator
