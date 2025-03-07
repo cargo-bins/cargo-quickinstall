@@ -7,3 +7,4 @@ record-screen
 java-locator
 remove_dir_all
 cargo-maelstrom
+photohash
