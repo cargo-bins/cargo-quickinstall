@@ -13,3 +13,4 @@ arrow-flight
 solana-gossip
 phf_generator
 dotenvy
+tauri-cli
