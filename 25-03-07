@@ -3,3 +3,4 @@ cargo-spellcheck
 remove_dir_all
 solana-stake-accounts
 rustup-toolchain-install-master
+remove_dir_all
