@@ -13,3 +13,4 @@ apollo-router
 solana-gossip
 phf_generator
 dotenvy
+dotenv
