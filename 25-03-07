@@ -6,3 +6,4 @@ remove_dir_all
 racer
 solana-genesis
 sea-orm-cli
+apollo-router
