@@ -48,3 +48,4 @@ dotenvy
 tmtc-c2a
 leetcode-cli
 dotenv
+cargo-smart-release
