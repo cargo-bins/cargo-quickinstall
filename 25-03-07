@@ -3,3 +3,4 @@ fw
 raw-cpuid
 remove_dir_all
 solana-stake-accounts
+diesel_cli
