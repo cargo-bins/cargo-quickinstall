@@ -10,3 +10,4 @@ protofetch
 sea-orm-cli
 apollo-router
 arrow-flight
+solana-gossip
