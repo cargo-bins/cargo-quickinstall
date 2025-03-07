@@ -3,3 +3,4 @@ cargo-vet
 solana-stake-accounts
 skim
 rustup-toolchain-install-master
+java-locator
