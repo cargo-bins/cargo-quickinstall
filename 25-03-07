@@ -35,3 +35,4 @@ cargo-embed
 azik_generator
 solana-gossip
 phf_generator
+cargo-smart-release
