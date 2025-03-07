@@ -5,3 +5,4 @@ rustup-toolchain-install-master
 remove_dir_all
 racer
 solana-genesis
+sea-orm-cli
