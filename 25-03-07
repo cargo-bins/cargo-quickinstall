@@ -14,3 +14,4 @@ porsmo
 cargo-embed
 rustup-toolchain-install-master
 cargo-ktra-login
+remove_dir_all
