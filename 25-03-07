@@ -8,3 +8,4 @@ java-locator
 remove_dir_all
 cargo-maelstrom
 photohash
+racer
