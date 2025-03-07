@@ -5,3 +5,4 @@ cargo-maelstrom
 autumnus
 record-screen
 java-locator
+remove_dir_all
