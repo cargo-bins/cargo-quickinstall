@@ -21,3 +21,4 @@ authenticator-cli
 crossbundle
 clippy
 cargo-leptos
+dotenv
