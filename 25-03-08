@@ -19,3 +19,4 @@ cargo-leptos
 gerust
 c2rust
 binstall
+cargo-smart-release
