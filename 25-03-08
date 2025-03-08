@@ -10,3 +10,4 @@ cargo-outdated
 cargo-risczero
 mit-commit-msg
 html2md
+dotenv
