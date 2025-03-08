@@ -11,3 +11,4 @@ cargo-public-api
 leetcode-cli
 sea-orm-cli
 cargo-smart-release
+typst-cli
