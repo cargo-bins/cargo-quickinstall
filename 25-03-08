@@ -40,3 +40,4 @@ cargo-smart-release
 bluetui
 clippy
 c2rust
+dotenv
