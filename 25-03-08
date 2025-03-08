@@ -47,3 +47,4 @@ clippy
 offflix
 dotenv
 wall-rs
+simple-http-server
