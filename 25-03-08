@@ -19,3 +19,4 @@ slint-lsp
 solana-net-utils
 dioxus-cli
 clippy
+dotenv
