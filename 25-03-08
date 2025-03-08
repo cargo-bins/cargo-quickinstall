@@ -7,3 +7,4 @@ fake
 solana-net-utils
 mit-pre-commit
 cargo-outdated
+cargo-risczero
