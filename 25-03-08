@@ -13,3 +13,4 @@ solana-net-utils
 cargo-generate
 mit-pre-commit
 cargo-risczero
+binstall
