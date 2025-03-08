@@ -44,3 +44,4 @@ dotenv
 nkeys
 a11ywatch_cli
 binstall
+cargo-duplicates
