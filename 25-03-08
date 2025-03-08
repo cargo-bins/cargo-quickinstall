@@ -13,3 +13,4 @@ sea-orm-cli
 cargo-smart-release
 typst-cli
 cargo-info
+borsh
