@@ -9,3 +9,4 @@ cargo-outdated
 cargo-risczero
 mit-commit-msg
 clippy
+dotenv
