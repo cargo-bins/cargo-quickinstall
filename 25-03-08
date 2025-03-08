@@ -11,3 +11,4 @@ cargo-smart-release
 hurl
 alacritty
 binstall
+cargo-leptos
