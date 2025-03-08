@@ -10,3 +10,4 @@ borsh
 cargo-smart-release
 hurl
 alacritty
+binstall
