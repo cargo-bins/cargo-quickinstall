@@ -6,3 +6,4 @@ solana-net-utils
 mit-pre-commit
 cargo-risczero
 mit-commit-msg
+mit-prepare-commit-msg
