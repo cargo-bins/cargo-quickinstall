@@ -15,3 +15,4 @@ typst-cli
 cargo-info
 borsh
 alacritty
+cargo-leptos
