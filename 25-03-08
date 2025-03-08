@@ -14,3 +14,4 @@ cargo-generate
 mit-pre-commit
 cargo-risczero
 binstall
+mit-commit-msg
