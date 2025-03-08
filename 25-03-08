@@ -6,3 +6,4 @@ leetcode-cli
 cargo-leptos
 hurl
 human_name
+sea-orm-cli
