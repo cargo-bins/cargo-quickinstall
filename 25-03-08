@@ -30,3 +30,4 @@ nextest
 solana-net-utils
 porsmo
 gerust
+c2rust
