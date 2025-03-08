@@ -20,3 +20,4 @@ binstall
 clippy
 spacetimedb-cli
 dotenv
+nkeys
