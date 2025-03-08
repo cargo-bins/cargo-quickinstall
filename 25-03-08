@@ -21,3 +21,4 @@ clippy
 spacetimedb-cli
 dotenv
 nkeys
+binstall
