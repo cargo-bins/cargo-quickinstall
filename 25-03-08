@@ -21,3 +21,4 @@ c2rust
 binstall
 cargo-smart-release
 c2rust
+graphql_client_cli
