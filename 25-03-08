@@ -22,3 +22,4 @@ crossbundle
 clippy
 cargo-leptos
 dotenv
+nkeys
