@@ -32,3 +32,4 @@ codeberg-cli
 bluetui
 gerust
 build-clean
+cargo-info
