@@ -45,3 +45,4 @@ cargo-duplicates
 graphql_client_cli
 clippy
 offflix
+dotenv
