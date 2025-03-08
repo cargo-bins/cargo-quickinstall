@@ -35,3 +35,4 @@ build-clean
 cargo-info
 bluetui
 c2rust
+ddt
