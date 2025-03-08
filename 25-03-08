@@ -51,3 +51,4 @@ simple-http-server
 mdcat
 offflix
 cargo-dylint
+cargo-duplicates
