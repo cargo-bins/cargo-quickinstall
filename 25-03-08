@@ -5,3 +5,4 @@ cargo-about
 fake
 solana-net-utils
 mit-pre-commit
+cargo-outdated
