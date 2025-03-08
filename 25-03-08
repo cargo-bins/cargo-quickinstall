@@ -10,3 +10,4 @@ spacetimedb-cli
 fake
 binstall
 solana-net-utils
+cargo-generate
