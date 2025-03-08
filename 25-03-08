@@ -41,3 +41,4 @@ cargo-dylint
 build-clean
 alacritty
 offflix
+cargo-duplicates
