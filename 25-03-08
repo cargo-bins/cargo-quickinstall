@@ -21,3 +21,4 @@ gerust
 wall-rs
 cargo-leptos
 graphql_client_cli
+simple-http-server
