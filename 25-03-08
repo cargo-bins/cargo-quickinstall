@@ -12,3 +12,4 @@ hurl
 alacritty
 binstall
 cargo-leptos
+sea-orm-cli
