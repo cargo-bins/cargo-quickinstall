@@ -22,3 +22,4 @@ clippy
 dotenv
 nkeys
 dioxus-cli
+a11ywatch_cli
