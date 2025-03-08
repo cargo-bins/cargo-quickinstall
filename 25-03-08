@@ -19,3 +19,4 @@ mit-prepare-commit-msg
 binstall
 clippy
 spacetimedb-cli
+dotenv
