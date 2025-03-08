@@ -42,3 +42,4 @@ build-clean
 alacritty
 offflix
 cargo-duplicates
+graphql_client_cli
