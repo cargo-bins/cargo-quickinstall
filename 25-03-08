@@ -20,3 +20,4 @@ crossbundle
 authenticator-cli
 crossbundle
 clippy
+cargo-leptos
