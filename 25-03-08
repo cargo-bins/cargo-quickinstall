@@ -38,3 +38,4 @@ c2rust
 ddt
 cargo-duplicates
 cargo-dylint
+build-clean
