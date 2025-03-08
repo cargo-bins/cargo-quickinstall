@@ -27,3 +27,4 @@ graphql_client_cli
 fake
 simple-http-server
 nextest
+solana-net-utils
