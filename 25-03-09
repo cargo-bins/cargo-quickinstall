@@ -7,3 +7,4 @@ solana-genesis
 parquet
 cargo-public-api
 spotifyd
+cargo-bisect-rustc
