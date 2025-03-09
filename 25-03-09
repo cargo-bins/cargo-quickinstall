@@ -7,3 +7,4 @@ cargo-bisect-rustc
 tgt
 tgt
 speedtest-rs
+netop
