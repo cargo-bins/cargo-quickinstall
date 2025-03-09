@@ -3,3 +3,4 @@ cpp_demangle
 speedtest-rs
 cargo-bisect-rustc
 cargo-whatfeatures
+solana-genesis
