@@ -10,3 +10,4 @@ spotifyd
 cargo-bisect-rustc
 sniffnet
 solana-gossip
+rustup-toolchain-install-master
