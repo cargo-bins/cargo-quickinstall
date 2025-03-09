@@ -5,3 +5,4 @@ cargo-bisect-rustc
 cargo-whatfeatures
 solana-genesis
 parquet
+cargo-public-api
