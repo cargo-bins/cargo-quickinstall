@@ -16,3 +16,4 @@ binstall
 solana-gossip
 cargo-lock
 pandora_box
+rmpc
