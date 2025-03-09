@@ -6,3 +6,4 @@ cargo-bisect-rustc
 cargo-bisect-rustc
 tgt
 tgt
+speedtest-rs
