@@ -3,3 +3,4 @@ speedtest-rs
 rustup-toolchain-install-master
 cpp_demangle
 cargo-bisect-rustc
+cargo-bisect-rustc
