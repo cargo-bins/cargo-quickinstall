@@ -3,3 +3,4 @@ nextest-filtering
 dioxus-cli
 cpp_demangle
 probe-rs-tools
+mediatoascii
