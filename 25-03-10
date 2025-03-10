@@ -25,3 +25,4 @@ redoxer
 tree-sitter-graph
 cargo-bisect-rustc
 sniffnet
+mdcat
