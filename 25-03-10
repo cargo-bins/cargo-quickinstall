@@ -4,3 +4,4 @@ borsh
 re_query
 cargo-leptos
 unic-langid-impl
+addr2line
