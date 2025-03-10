@@ -10,3 +10,4 @@ deploy
 cargo-leptos
 zuse
 solana-stake-accounts
+probe-rs-tools
