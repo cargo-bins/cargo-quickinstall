@@ -43,3 +43,4 @@ java-locator
 feed-rs
 cargo-whatfeatures
 kanidm_tools
+sea-orm-cli
