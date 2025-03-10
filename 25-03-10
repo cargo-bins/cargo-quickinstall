@@ -26,3 +26,4 @@ project_ares
 pez
 dioxus-cli
 spider_worker
+cargo-bisect-rustc
