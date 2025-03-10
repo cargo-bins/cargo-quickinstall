@@ -45,3 +45,4 @@ cargo-whatfeatures
 kanidm_tools
 sea-orm-cli
 sniffnet
+pcu
