@@ -19,3 +19,4 @@ mdcat
 cargo-whatfeatures
 unic-langid-impl
 nextsv
+addr2line
