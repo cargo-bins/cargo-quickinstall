@@ -23,3 +23,4 @@ addr2line
 project_ares
 redoxer
 tree-sitter-graph
+cargo-bisect-rustc
