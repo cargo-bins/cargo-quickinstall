@@ -27,3 +27,4 @@ pez
 dioxus-cli
 spider_worker
 cargo-bisect-rustc
+cargo-public-api
