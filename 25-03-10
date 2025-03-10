@@ -12,3 +12,4 @@ cargo-i18n
 wasmcloud
 unic-langid-impl
 wasmcloud
+addr2line
