@@ -16,3 +16,4 @@ hurl
 cargo-leptos
 addr2line
 probe-rs-tools
+python-project-generator
