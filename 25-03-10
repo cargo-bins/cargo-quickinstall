@@ -4,3 +4,4 @@ rrule
 tree-sitter-cli
 minicbor
 unic-langid-impl
+addr2line
