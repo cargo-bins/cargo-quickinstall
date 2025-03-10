@@ -11,3 +11,4 @@ deploy
 spider_worker
 tauri-cli
 zuse
+solana-stake-accounts
