@@ -4,3 +4,4 @@ deploy
 tree-sitter-cli
 nextsv
 graphql_client_cli
+binstall
