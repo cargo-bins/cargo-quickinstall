@@ -15,3 +15,4 @@ lucky_commit
 hurl
 cargo-leptos
 addr2line
+probe-rs-tools
