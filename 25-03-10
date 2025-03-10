@@ -27,3 +27,4 @@ cargo-bisect-rustc
 sniffnet
 mdcat
 deploy
+pcu
