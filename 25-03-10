@@ -30,3 +30,4 @@ deploy
 pcu
 redoxer
 rustup-toolchain-install-master
+rustube-cli
