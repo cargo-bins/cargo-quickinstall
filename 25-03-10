@@ -28,3 +28,4 @@ dioxus-cli
 spider_worker
 cargo-bisect-rustc
 cargo-public-api
+solana-stake-accounts
