@@ -24,3 +24,4 @@ project_ares
 redoxer
 tree-sitter-graph
 cargo-bisect-rustc
+sniffnet
