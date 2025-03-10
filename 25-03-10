@@ -30,3 +30,4 @@ cargo-bisect-rustc
 cargo-public-api
 solana-stake-accounts
 cargo-bisect-rustc
+cargo-spellcheck
