@@ -4,3 +4,4 @@ re_query
 tree-sitter-cli
 unic-langid-impl
 addr2line
+cargo-about
