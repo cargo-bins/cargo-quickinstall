@@ -9,3 +9,4 @@ cargo-about
 mit-commit-msg
 deploy
 spider_worker
+tauri-cli
