@@ -18,3 +18,4 @@ addr2line
 probe-rs-tools
 python-project-generator
 tuono
+binstall
