@@ -32,3 +32,4 @@ redoxer
 rustup-toolchain-install-master
 rustube-cli
 nextsv
+spider_worker
