@@ -10,3 +10,4 @@ cargo-risczero
 parquet
 nexmark
 sea-orm-cli
+cargo-lock
