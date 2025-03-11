@@ -4,3 +4,4 @@ cargo-outdated
 parquet
 sccache
 sha1collisiondetection
+cargo-c
