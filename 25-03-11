@@ -11,3 +11,4 @@ pcu
 hurl
 parquet
 alacritty
+sea-orm-cli
