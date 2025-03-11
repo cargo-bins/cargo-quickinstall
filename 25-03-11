@@ -5,3 +5,4 @@ parquet
 sccache
 sha1collisiondetection
 cargo-c
+protox
