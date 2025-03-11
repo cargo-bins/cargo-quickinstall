@@ -13,3 +13,4 @@ nexmark
 qcow2-fuse
 probe-rs-cli
 cargo-lock
+cobalt-bin
