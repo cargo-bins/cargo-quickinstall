@@ -57,3 +57,4 @@ pcu
 git-disjoint
 feed-rs
 tree-sitter-cli
+shadowsocks-rust
