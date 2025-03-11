@@ -5,3 +5,4 @@ sha1collisiondetection
 protox
 parquet
 nexmark
+sea-orm-cli
