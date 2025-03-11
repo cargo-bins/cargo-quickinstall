@@ -42,3 +42,4 @@ feed-rs
 fyrox-project-manager
 cargo-lock
 rustowl
+borsh
