@@ -15,3 +15,4 @@ borsh
 spider_cli
 phf_generator
 git-disjoint
+fake
