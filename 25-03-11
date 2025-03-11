@@ -3,3 +3,4 @@ laminar
 cargo-outdated
 parquet
 sccache
+sha1collisiondetection
