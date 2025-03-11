@@ -43,3 +43,4 @@ fyrox-project-manager
 cargo-lock
 rustowl
 borsh
+process_viewer
