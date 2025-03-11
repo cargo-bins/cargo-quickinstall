@@ -12,3 +12,4 @@ parquet
 nexmark
 sn_cli
 cargo-lock
+httpbis
