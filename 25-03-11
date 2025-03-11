@@ -46,3 +46,4 @@ borsh
 process_viewer
 glide
 cargo-ktra-login
+cargo-public-api
