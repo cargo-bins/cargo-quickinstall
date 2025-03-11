@@ -32,3 +32,4 @@ sniffnet
 cargo-lock
 monolith
 borsh
+frawk
