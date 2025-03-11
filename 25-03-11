@@ -19,3 +19,4 @@ hurl
 tree-sitter-graph
 cargo-spellcheck
 sniffnet
+sha1collisiondetection
