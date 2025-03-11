@@ -4,3 +4,4 @@ laminar
 cargo-outdated
 sccache
 tree-sitter-graph
+sha1collisiondetection
