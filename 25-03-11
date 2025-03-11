@@ -7,3 +7,4 @@ tree-sitter-graph
 sha1collisiondetection
 cargo-risczero
 parquet
+nexmark
