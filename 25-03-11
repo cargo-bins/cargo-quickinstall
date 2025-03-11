@@ -19,3 +19,4 @@ skim
 phf_generator
 holochain_keystore
 git-disjoint
+text-diff
