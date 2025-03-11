@@ -10,3 +10,4 @@ parquet
 nexmark
 sea-orm-cli
 cargo-lock
+borsh
