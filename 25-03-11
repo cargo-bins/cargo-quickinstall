@@ -3,3 +3,4 @@ zellij
 cargo-crev
 remove_dir_all
 iai-callgrind-runner
+laminar
