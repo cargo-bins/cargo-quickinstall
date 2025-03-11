@@ -11,3 +11,4 @@ git-query
 parquet
 nexmark
 qcow2-fuse
+probe-rs-cli
