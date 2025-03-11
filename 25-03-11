@@ -54,3 +54,4 @@ shadowsocks-rust
 pcu
 spider_cli
 clippy
+phf_generator
