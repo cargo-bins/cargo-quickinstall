@@ -2,3 +2,4 @@ project_ares
 hyprswitch
 bugstalker
 sea-orm-cli
+remove_dir_all
