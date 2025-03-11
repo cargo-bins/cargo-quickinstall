@@ -53,3 +53,4 @@ glide
 shadowsocks-rust
 pcu
 spider_cli
+clippy
