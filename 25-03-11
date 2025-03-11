@@ -8,3 +8,4 @@ sha1collisiondetection
 cargo-risczero
 parquet
 nexmark
+sea-orm-cli
