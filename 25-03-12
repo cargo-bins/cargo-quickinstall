@@ -4,3 +4,4 @@ rrule
 libbpf-cargo
 rustfmt
 benfred-read-process-memory
+sn_faucet
