@@ -49,3 +49,4 @@ cpp_demangle
 cai
 ai-gateway
 soar-cli
+cargo-spellcheck
