@@ -41,3 +41,4 @@ wayland-interface-check
 simple-http-server
 ncspot
 netop
+raw-cpuid
