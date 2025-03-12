@@ -4,3 +4,4 @@ cargo-spellcheck
 git-disjoint
 rrule
 cargo-spellcheck
+libbpf-cargo
