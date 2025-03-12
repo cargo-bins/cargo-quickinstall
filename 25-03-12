@@ -24,3 +24,4 @@ cpp_demangle
 syd
 solana-validator
 cached-path
+sea-orm-cli
