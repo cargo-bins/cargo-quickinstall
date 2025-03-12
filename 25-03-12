@@ -16,3 +16,4 @@ raw-cpuid
 stellar-strkey
 dioxus-cli
 cpp_demangle
+cargo-leptos
