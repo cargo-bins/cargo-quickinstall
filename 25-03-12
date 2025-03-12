@@ -7,3 +7,4 @@ libbpf-cargo
 probe-rs-cli
 cached-path
 parquet
+httpmock
