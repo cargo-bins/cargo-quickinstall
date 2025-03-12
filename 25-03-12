@@ -19,3 +19,4 @@ raw-cpuid
 honggfuzz
 stellar-strkey
 cpp_demangle
+rustbus
