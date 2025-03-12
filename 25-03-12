@@ -9,3 +9,4 @@ cargo-leptos
 process_viewer
 libbpf-cargo
 neophyte
+spider_worker
