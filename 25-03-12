@@ -3,3 +3,4 @@ git-disjoint
 rrule
 libbpf-cargo
 spider_worker
+cached-path
