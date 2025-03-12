@@ -4,3 +4,4 @@ git-disjoint
 rrule
 cargo-maelstrom
 libbpf-cargo
+probe-rs-cli
