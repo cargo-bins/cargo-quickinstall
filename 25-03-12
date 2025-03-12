@@ -18,3 +18,4 @@ git-mit-relates-to
 raw-cpuid
 honggfuzz
 stellar-strkey
+cpp_demangle
