@@ -8,3 +8,4 @@ parquet
 dotenvy
 httpmock
 paperclip
+sea-orm-cli
