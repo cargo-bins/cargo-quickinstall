@@ -4,3 +4,4 @@ rrule
 libbpf-cargo
 monolith
 cargo-codspeed
+nextest
