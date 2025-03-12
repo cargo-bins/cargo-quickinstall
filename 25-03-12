@@ -11,3 +11,4 @@ httpmock
 paperclip
 probe-rs-tools
 dotenv-flow
+sea-orm-cli
