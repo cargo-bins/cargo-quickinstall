@@ -16,3 +16,4 @@ parquet
 httpmock
 paperclip
 protox
+sea-orm-cli
