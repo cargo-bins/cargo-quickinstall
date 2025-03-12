@@ -38,3 +38,4 @@ cargo-leptos
 wayland-interface-check
 dotenv-flow
 wayland-interface-check
+simple-http-server
