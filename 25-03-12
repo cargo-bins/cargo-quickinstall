@@ -8,3 +8,4 @@ libbpf-cargo
 cargo-spellcheck
 hurl
 spider_worker
+hurl
