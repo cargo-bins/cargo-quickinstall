@@ -18,3 +18,4 @@ paperclip
 protox
 sea-orm-cli
 dotenv-flow
+raw-cpuid
