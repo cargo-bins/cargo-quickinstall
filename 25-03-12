@@ -12,3 +12,4 @@ dioxus-cli
 paperclip
 protox
 dotenv-flow
+raw-cpuid
