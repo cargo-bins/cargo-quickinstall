@@ -9,3 +9,4 @@ parquet
 cargo-maelstrom
 httpmock
 dioxus-cli
+paperclip
