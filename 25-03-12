@@ -7,3 +7,4 @@ cargo-spellcheck
 libbpf-cargo
 cargo-spellcheck
 hurl
+spider_worker
