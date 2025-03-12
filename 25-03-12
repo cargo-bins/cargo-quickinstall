@@ -20,3 +20,4 @@ sea-orm-cli
 dotenv-flow
 raw-cpuid
 stellar-strkey
+cpp_demangle
