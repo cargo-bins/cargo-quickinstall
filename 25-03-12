@@ -2,3 +2,4 @@ feed-rs
 dbus-codegen
 git-disjoint
 rrule
+cargo-maelstrom
