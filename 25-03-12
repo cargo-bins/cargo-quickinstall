@@ -2,3 +2,4 @@ dbus-codegen
 git-disjoint
 rrule
 libbpf-cargo
+qcow2-fuse
