@@ -10,3 +10,4 @@ parquet
 httpmock
 paperclip
 dotenv-flow
+cargo-maelstrom
