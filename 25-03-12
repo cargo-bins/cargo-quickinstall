@@ -5,3 +5,4 @@ libbpf-cargo
 monolith
 cargo-codspeed
 nextest
+dua-cli
