@@ -26,3 +26,4 @@ cached-path
 termusic
 shadowsocks-rust
 wayland-interface-check
+cargo-spellcheck
