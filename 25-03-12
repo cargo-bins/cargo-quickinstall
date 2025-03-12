@@ -27,3 +27,4 @@ raw-cpuid
 honggfuzz
 aim
 stellar-strkey
+cpp_demangle
