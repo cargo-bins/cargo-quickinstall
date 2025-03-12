@@ -7,3 +7,4 @@ cached-path
 git-mit-config
 parquet
 dotenvy
+httpmock
