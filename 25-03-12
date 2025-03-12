@@ -11,3 +11,4 @@ paperclip
 sea-orm-cli
 dotenv-flow
 raw-cpuid
+cpp_demangle
