@@ -11,3 +11,4 @@ libbpf-cargo
 neophyte
 spider_worker
 cargo-spellcheck
+cargo-ktra-login
