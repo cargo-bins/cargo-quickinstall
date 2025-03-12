@@ -14,3 +14,4 @@ cargo-spellcheck
 cargo-ktra-login
 simple-http-server
 neophyte
+tree-sitter-graph
