@@ -7,3 +7,4 @@ pcu
 rrule
 cargo-leptos
 process_viewer
+libbpf-cargo
