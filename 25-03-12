@@ -9,3 +9,4 @@ parquet
 httpmock
 paperclip
 sea-orm-cli
+dotenv-flow
