@@ -19,3 +19,4 @@ git-mit-config
 solana-validator
 cached-path
 solana-net-utils
+cargo-tarpaulin
