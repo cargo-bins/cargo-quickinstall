@@ -45,3 +45,4 @@ diesel_cli
 stellar-strkey
 ncspot
 redoxer
+cpp_demangle
