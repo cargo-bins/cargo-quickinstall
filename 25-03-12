@@ -14,3 +14,4 @@ cargo-maelstrom
 stellar-strkey
 syd
 solana-validator
+cached-path
