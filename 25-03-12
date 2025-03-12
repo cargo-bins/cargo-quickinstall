@@ -8,3 +8,4 @@ cached-path
 parquet
 cargo-maelstrom
 httpmock
+dioxus-cli
