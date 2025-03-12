@@ -13,3 +13,4 @@ dotenv-flow
 cargo-maelstrom
 stellar-strkey
 syd
+solana-validator
