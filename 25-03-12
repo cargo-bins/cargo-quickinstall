@@ -6,3 +6,4 @@ qcow2-fuse
 qcow2-fuse
 cached-path
 parquet
+cargo-maelstrom
