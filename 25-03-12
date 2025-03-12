@@ -20,3 +20,4 @@ cargo-leptos
 nextest
 cached-path
 cargo-maelstrom
+cargo-leptos
