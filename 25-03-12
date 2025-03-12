@@ -25,3 +25,4 @@ cargo-spellcheck
 cached-path
 termusic
 shadowsocks-rust
+wayland-interface-check
