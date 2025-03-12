@@ -2,3 +2,4 @@ dbus-codegen
 hurl
 cargo-spellcheck
 git-disjoint
+rrule
