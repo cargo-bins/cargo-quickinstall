@@ -18,3 +18,4 @@ dioxus-cli
 cpp_demangle
 cargo-leptos
 nextest
+cached-path
