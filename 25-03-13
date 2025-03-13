@@ -44,3 +44,4 @@ unic-langid-impl
 solana-net-utils
 solana-net-utils
 cargo-smart-release
+graphql_client_cli
