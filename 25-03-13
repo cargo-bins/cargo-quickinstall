@@ -5,3 +5,4 @@ cargo-pgrx
 diesel_cli
 py-spy
 diesel_cli
+spider_cli
