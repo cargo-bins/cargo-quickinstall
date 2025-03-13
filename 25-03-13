@@ -52,3 +52,4 @@ cargo-public-api
 pg-extras
 wayland-interface-check
 cargo-duplicates
+airshipper
