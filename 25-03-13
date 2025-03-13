@@ -10,3 +10,4 @@ tree-sitter-cli
 diesel_cli
 minicbor
 addr2line
+spider_cli
