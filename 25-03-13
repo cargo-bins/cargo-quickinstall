@@ -46,3 +46,4 @@ solana-net-utils
 cargo-smart-release
 graphql_client_cli
 wayland-interface-check
+clippy
