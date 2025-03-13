@@ -7,3 +7,4 @@ uu_chcon
 cargo-scripter
 minicbor
 pokedex_rs
+addr2line
