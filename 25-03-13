@@ -25,3 +25,4 @@ minicbor
 gitignored-cli
 diesel_cli
 cargo-embed
+deno
