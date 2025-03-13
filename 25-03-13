@@ -2,3 +2,4 @@ diesel_cli
 cargo-spellcheck
 human_bytes
 cargo-pgrx
+diesel_cli
