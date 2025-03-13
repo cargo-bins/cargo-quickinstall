@@ -47,3 +47,4 @@ cargo-smart-release
 graphql_client_cli
 wayland-interface-check
 clippy
+oso
