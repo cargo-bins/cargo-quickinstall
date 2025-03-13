@@ -13,3 +13,4 @@ py-spy
 graphql_client_cli
 spider_cli
 tree-sitter-cli
+clippy
