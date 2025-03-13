@@ -2,3 +2,4 @@ rustbus
 rustup-toolchain-install-master
 human_bytes
 minicbor
+addr2line
