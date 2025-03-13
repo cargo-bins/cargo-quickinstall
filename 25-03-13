@@ -21,3 +21,4 @@ fend
 gitignored-cli
 lumen
 addr2line
+hurlfmt
