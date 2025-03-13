@@ -4,3 +4,4 @@ spider_cli
 tree-sitter-cli
 stellar-strkey
 minicbor
+addr2line
