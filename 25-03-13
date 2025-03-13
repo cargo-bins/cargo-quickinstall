@@ -3,3 +3,4 @@ cargo-spellcheck
 human_bytes
 cargo-pgrx
 diesel_cli
+py-spy
