@@ -18,3 +18,4 @@ i18
 sqlx-cli
 unic-langid-impl
 iai-callgrind-runner
+solana-net-utils
