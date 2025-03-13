@@ -3,3 +3,4 @@ cargo-pgrx
 spider_cli
 tree-sitter-cli
 stellar-strkey
+minicbor
