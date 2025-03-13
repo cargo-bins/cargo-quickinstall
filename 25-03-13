@@ -9,3 +9,4 @@ spider_cli
 cargo-pgrx
 librespot
 unic-langid-impl
+solana-net-utils
