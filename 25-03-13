@@ -34,3 +34,4 @@ java-locator
 spider_cli
 fend
 cargo-embed
+cargo-public-api
