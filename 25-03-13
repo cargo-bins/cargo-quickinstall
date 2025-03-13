@@ -26,3 +26,4 @@ clippy
 kani-verifier
 protox
 kani-verifier
+sqlx-cli
