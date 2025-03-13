@@ -29,3 +29,4 @@ deno
 cargo-list
 addr2line
 deno
+cargo-check-deadlock
