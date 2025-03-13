@@ -27,3 +27,4 @@ diesel_cli
 cargo-embed
 deno
 cargo-list
+addr2line
