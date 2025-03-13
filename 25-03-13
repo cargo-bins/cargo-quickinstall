@@ -10,3 +10,4 @@ sccache
 cargo-pgrx
 librespot
 unic-langid-impl
+solana-net-utils
