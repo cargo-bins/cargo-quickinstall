@@ -16,3 +16,4 @@ tree-sitter-cli
 clippy
 wiki-tui
 rustowl
+minicbor
