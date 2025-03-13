@@ -33,3 +33,4 @@ cargo-check-deadlock
 java-locator
 spider_cli
 fend
+cargo-embed
