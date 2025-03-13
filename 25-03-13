@@ -5,3 +5,4 @@ minicbor
 addr2line
 holochain_keystore
 lair_keystore_api
+unic-langid-impl
