@@ -22,3 +22,4 @@ gitignored-cli
 lumen
 addr2line
 hurlfmt
+spider_cli
