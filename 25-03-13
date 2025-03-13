@@ -7,3 +7,4 @@ addr2line
 spider_cli
 sccache
 cargo-pgrx
+unic-langid-impl
