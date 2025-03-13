@@ -14,3 +14,4 @@ graphql_client_cli
 spider_cli
 tree-sitter-cli
 clippy
+wiki-tui
