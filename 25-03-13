@@ -9,3 +9,4 @@ spider_cli
 sccache
 cargo-pgrx
 librespot
+unic-langid-impl
