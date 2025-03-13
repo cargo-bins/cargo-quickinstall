@@ -25,3 +25,4 @@ cargo-generate
 clippy
 kani-verifier
 protox
+kani-verifier
