@@ -20,3 +20,4 @@ diesel_cli
 lance
 clippy
 spider_cli
+tree-sitter-cli
