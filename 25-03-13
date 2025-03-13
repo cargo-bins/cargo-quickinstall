@@ -8,3 +8,4 @@ spider_cli
 sccache
 cargo-pgrx
 unic-langid-impl
+solana-net-utils
