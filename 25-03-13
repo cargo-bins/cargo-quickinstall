@@ -22,3 +22,4 @@ clippy
 spider_cli
 tree-sitter-cli
 minicbor
+gitignored-cli
