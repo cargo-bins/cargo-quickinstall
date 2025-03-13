@@ -2,3 +2,4 @@ rustup-toolchain-install-master
 human_bytes
 cargo-pgrx
 py-spy
+spider_cli
