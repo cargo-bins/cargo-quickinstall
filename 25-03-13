@@ -24,3 +24,4 @@ tree-sitter-cli
 minicbor
 gitignored-cli
 diesel_cli
+cargo-embed
