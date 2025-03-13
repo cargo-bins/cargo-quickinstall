@@ -54,3 +54,4 @@ wayland-interface-check
 cargo-duplicates
 airshipper
 nu_plugin_query
+wol-rs
