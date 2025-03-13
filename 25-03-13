@@ -15,3 +15,4 @@ java-locator
 sea-orm-cli
 nextest
 nextest
+cargo-pgrx
