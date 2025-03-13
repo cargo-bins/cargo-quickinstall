@@ -37,3 +37,4 @@ cargo-embed
 cargo-public-api
 cargo-pgrx
 ai-gateway
+clipboard-history
