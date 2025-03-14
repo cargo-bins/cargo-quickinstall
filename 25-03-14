@@ -9,3 +9,4 @@ phf_generator
 perfcnt
 textplots
 git-disjoint
+sha1collisiondetection
