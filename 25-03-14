@@ -13,3 +13,4 @@ textplots
 cargo-dylint
 git-disjoint
 hurl
+sha1collisiondetection
