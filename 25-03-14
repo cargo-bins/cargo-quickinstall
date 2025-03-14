@@ -58,3 +58,4 @@ cargo-embed
 tendermint-abci
 graphql_client_cli
 hunter
+cargo-duplicates
