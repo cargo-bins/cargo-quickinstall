@@ -11,3 +11,4 @@ textplots
 git-disjoint
 sha1collisiondetection
 syd
+cargo-udeps
