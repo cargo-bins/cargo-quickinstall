@@ -22,3 +22,4 @@ pg-extras
 tetanes
 z3tracer
 rustfmt-nightly
+phf_generator
