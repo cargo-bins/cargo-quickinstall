@@ -5,3 +5,4 @@ cargo-c
 mise
 z3tracer
 rustfmt-nightly
+phf_generator
