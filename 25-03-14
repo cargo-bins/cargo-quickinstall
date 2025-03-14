@@ -14,3 +14,4 @@ proof-of-sql
 remove_dir_all
 coldsnap
 tendermint-abci
+ec2_instance_metadata
