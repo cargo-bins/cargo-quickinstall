@@ -53,3 +53,4 @@ cargo-duplicates
 git-next
 airshipper
 dotenv
+mdbook-plantuml
