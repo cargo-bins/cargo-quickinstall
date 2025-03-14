@@ -13,3 +13,4 @@ cargo-generate
 arti
 z3tracer
 rustfmt-nightly
+perfcnt
