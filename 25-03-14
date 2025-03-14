@@ -3,3 +3,4 @@ sqlx-cli
 nextest
 wol-rs
 arti
+kani-verifier
