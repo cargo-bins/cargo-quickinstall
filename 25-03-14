@@ -56,3 +56,4 @@ fend
 remove_dir_all
 cargo-embed
 tendermint-abci
+graphql_client_cli
