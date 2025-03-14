@@ -60,3 +60,4 @@ tectonic
 cargo-embed
 proof-of-sql
 simple-http-server
+remove_dir_all
