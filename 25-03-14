@@ -8,3 +8,4 @@ wayland-interface-check
 graphql_client_cli
 cargo-spellcheck
 librespot
+lux-cli
