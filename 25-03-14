@@ -12,3 +12,4 @@ czkawka_gui
 cargo-generate
 arti
 z3tracer
+rustfmt-nightly
