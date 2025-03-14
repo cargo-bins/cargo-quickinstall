@@ -26,3 +26,4 @@ git-disjoint
 sha1collisiondetection
 proof-of-sql
 remove_dir_all
+tendermint-abci
