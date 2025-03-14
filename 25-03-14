@@ -4,3 +4,4 @@ nextest
 wol-rs
 arti
 kani-verifier
+cargo-i18n
