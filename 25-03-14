@@ -6,3 +6,4 @@ dioxus-cli
 cargo-dylint
 hurlfmt
 z3tracer
+rustfmt-nightly
