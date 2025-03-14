@@ -18,3 +18,4 @@ probe-rs-cli
 cargo-dylint
 probe-rs-cli
 remove_dir_all
+heliocron
