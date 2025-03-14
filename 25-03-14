@@ -55,3 +55,4 @@ proof-of-sql
 fend
 remove_dir_all
 cargo-embed
+tendermint-abci
