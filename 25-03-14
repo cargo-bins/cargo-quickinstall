@@ -12,3 +12,4 @@ librespot
 hurlfmt
 check_urls
 cargo-duplicates
+cargo-public-api
