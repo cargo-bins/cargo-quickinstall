@@ -27,3 +27,4 @@ spotifyd
 lux-cli
 cargo-smart-release
 hunter
+dioxus-cli
