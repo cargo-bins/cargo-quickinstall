@@ -4,3 +4,4 @@ librespot
 cargo-c
 mise
 z3tracer
+rustfmt-nightly
