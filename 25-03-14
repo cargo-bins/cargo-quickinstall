@@ -25,3 +25,4 @@ rustfmt-nightly
 phf_generator
 spotifyd
 lux-cli
+cargo-smart-release
