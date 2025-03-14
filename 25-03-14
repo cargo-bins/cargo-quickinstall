@@ -3,3 +3,4 @@ wol-rs
 httpbis
 nexmark
 z3tracer
+rustfmt-nightly
