@@ -51,3 +51,4 @@ pg-extras
 nu_plugin_gstat
 cargo-duplicates
 spotifyd
+proof-of-sql
