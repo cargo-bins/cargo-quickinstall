@@ -50,3 +50,4 @@ pacfiles
 dotenv
 spotifyd
 cargo-duplicates
+git-next
