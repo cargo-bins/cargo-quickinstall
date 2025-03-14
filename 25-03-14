@@ -13,3 +13,4 @@ sha1collisiondetection
 syd
 cargo-udeps
 git-mit-relates-to
+remove_dir_all
