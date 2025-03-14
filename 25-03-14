@@ -9,3 +9,4 @@ graphql_client_cli
 cargo-spellcheck
 librespot
 lux-cli
+cargo-public-api
