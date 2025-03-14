@@ -14,3 +14,4 @@ check_urls
 cargo-duplicates
 cargo-public-api
 git-leave
+dx-cli
