@@ -10,3 +10,4 @@ rustfmt-nightly
 cargo-dylint
 hurl
 textplots
+cargo-dylint
