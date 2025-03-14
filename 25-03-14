@@ -63,3 +63,4 @@ simple-http-server
 remove_dir_all
 fast-conventional
 tendermint-abci
+cargo-duplicates
