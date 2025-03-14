@@ -8,3 +8,4 @@ hurlfmt
 z3tracer
 rustfmt-nightly
 cargo-dylint
+hurl
