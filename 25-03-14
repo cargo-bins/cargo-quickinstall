@@ -52,3 +52,4 @@ spotifyd
 cargo-duplicates
 git-next
 airshipper
+dotenv
