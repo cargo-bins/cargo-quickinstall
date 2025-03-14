@@ -54,3 +54,4 @@ git-next
 airshipper
 dotenv
 mdbook-plantuml
+nextest
