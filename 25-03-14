@@ -49,3 +49,4 @@ airshipper
 pacfiles
 dotenv
 spotifyd
+cargo-duplicates
