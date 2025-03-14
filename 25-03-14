@@ -19,3 +19,4 @@ cargo-dylint
 probe-rs-cli
 remove_dir_all
 heliocron
+tendermint-abci
