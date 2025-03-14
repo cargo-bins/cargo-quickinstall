@@ -6,3 +6,4 @@ lux-cli
 wayland-interface-check
 wayland-interface-check
 graphql_client_cli
+cargo-spellcheck
