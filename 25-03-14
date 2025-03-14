@@ -7,3 +7,4 @@ rustfmt-nightly
 perfcnt
 textplots
 sn_node_rpc_client
+git-disjoint
