@@ -50,3 +50,4 @@ mdbook-plantuml
 paru
 feluda
 cargo-leptos
+cargo-override
