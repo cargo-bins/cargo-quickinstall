@@ -56,3 +56,4 @@ cli-yt-downloader
 graphql_client_cli
 simple-http-server
 cli-yt-downloader
+cargo-override
