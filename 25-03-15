@@ -47,3 +47,4 @@ dotenv
 addr2line
 sea-orm-cli
 mdbook-plantuml
+paru
