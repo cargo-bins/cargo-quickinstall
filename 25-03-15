@@ -25,3 +25,4 @@ solana-gossip
 graphql_client_cli
 graphite
 nu_plugin_query
+mdcat
