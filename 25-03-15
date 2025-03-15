@@ -4,3 +4,4 @@ cached-path
 probe-rs-cli
 sqlx-cli
 skim
+lychee
