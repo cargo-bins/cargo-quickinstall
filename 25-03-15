@@ -62,3 +62,4 @@ cargo-list
 rustfmt-nightly
 fast-conventional
 feluda
+pg-trunk
