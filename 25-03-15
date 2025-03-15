@@ -60,3 +60,4 @@ cargo-info
 god
 cargo-list
 rustfmt-nightly
+fast-conventional
