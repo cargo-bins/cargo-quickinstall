@@ -53,3 +53,4 @@ dotenv
 cargo-override
 graphite
 feluda
+pg-trunk
