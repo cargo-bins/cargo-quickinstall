@@ -59,3 +59,4 @@ cli-yt-downloader
 cargo-override
 foundyou
 pg-trunk
+rustfmt-nightly
