@@ -30,3 +30,4 @@ lucky_commit
 dotenv
 pgrx-tests
 hurl
+simple-http-server
