@@ -18,3 +18,4 @@ mdbook-emoji
 kickstart
 fetcher
 perfcnt
+rustfmt-nightly
