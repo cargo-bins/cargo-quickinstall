@@ -60,3 +60,4 @@ cargo-override
 foundyou
 pg-trunk
 rustfmt-nightly
+graphite
