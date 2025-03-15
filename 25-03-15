@@ -39,3 +39,4 @@ tree-sitter-graph
 hakoniwa-cli
 solana-net-utils
 nextest
+sha1collisiondetection
