@@ -28,3 +28,4 @@ skim
 rustbus
 probe-rs-cli
 cargo-generate
+probe-rs-cli
