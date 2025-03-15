@@ -26,3 +26,4 @@ probe-rs-cli
 skim
 skim
 rustbus
+probe-rs-cli
