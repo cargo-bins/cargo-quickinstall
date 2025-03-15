@@ -32,3 +32,4 @@ pgrx-tests
 hurl
 simple-http-server
 cargo-duplicates
+nu_plugin_gstat
