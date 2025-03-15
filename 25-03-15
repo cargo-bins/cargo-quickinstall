@@ -31,3 +31,4 @@ dotenv
 pgrx-tests
 hurl
 simple-http-server
+cargo-duplicates
