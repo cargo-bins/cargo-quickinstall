@@ -32,3 +32,4 @@ probe-rs-cli
 perfcnt
 scoop
 skim
+probe-rs-cli
