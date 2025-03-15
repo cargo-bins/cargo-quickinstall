@@ -35,3 +35,4 @@ cargo-duplicates
 nu_plugin_gstat
 zee
 tuono
+tree-sitter-graph
