@@ -26,3 +26,4 @@ graphql_client_cli
 graphite
 nu_plugin_query
 mdcat
+fast-conventional
