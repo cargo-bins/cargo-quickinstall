@@ -2,3 +2,4 @@ graphql_client_cli
 mdcat
 graphql_client_cli
 fast-conventional
+sea-orm-cli
