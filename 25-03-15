@@ -54,3 +54,4 @@ cargo-override
 graphite
 feluda
 pg-trunk
+cargo-leptos
