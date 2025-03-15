@@ -42,3 +42,4 @@ nextest
 sha1collisiondetection
 stellar-xdr
 nu_plugin_query
+cargo-leptos
