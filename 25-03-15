@@ -54,3 +54,4 @@ cargo-override
 nu_plugin_query
 cli-yt-downloader
 graphql_client_cli
+simple-http-server
