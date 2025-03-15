@@ -50,3 +50,4 @@ addr2line
 zee
 hurl
 dotenv
+cargo-override
