@@ -46,3 +46,4 @@ cargo-leptos
 dotenv
 nextest
 nu_plugin_query
+addr2line
