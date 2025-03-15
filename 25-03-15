@@ -49,3 +49,4 @@ nu_plugin_query
 addr2line
 zee
 hurl
+dotenv
