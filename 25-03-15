@@ -31,3 +31,4 @@ cargo-generate
 probe-rs-cli
 perfcnt
 scoop
+skim
