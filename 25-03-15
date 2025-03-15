@@ -53,3 +53,4 @@ cargo-leptos
 cargo-override
 nu_plugin_query
 cli-yt-downloader
+graphql_client_cli
