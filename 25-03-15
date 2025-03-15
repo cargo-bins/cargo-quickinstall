@@ -58,3 +58,4 @@ simple-http-server
 cli-yt-downloader
 cargo-override
 foundyou
+pg-trunk
