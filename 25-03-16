@@ -25,3 +25,4 @@ god
 cargo-list
 fake
 neovide
+sea-orm-cli
