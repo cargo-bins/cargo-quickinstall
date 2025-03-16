@@ -21,3 +21,4 @@ cargo-override
 cargo-override
 hex-patch
 sherlock
+tree-sitter-graph
