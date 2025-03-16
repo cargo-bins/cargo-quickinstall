@@ -4,3 +4,4 @@ pic
 proof-of-sql
 bun
 fetcher
+cargo-native-install
