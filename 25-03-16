@@ -2,3 +2,4 @@ holochain
 cargo-override
 god
 simple-http-server
+dwm-status
