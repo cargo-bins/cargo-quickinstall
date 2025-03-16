@@ -5,3 +5,4 @@ simple-http-server
 dwm-status
 paru
 cargo-override
+cargo-pgrx
