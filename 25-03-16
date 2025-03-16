@@ -3,3 +3,4 @@ cargo-pgrx
 nextest
 pg-trunk
 sherlock
+pg-trunk
