@@ -8,3 +8,4 @@ cargo-native-install
 arrow-flight
 cargo-native-install
 rg
+tree-sitter-graph
