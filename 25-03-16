@@ -5,3 +5,4 @@ proof-of-sql
 bun
 fetcher
 cargo-native-install
+arrow-flight
