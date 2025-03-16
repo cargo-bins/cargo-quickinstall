@@ -5,3 +5,4 @@ sn_node
 tree-sitter-graph
 cargo-vet
 textplots
+ducc-sys
