@@ -22,3 +22,4 @@ cargo-whatfeatures
 spider_cli
 nextsv
 tree-sitter-cli
+sea-orm-cli
