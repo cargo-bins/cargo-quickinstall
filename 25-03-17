@@ -27,3 +27,4 @@ material
 nexmark
 re_query
 cms_notifs
+winpty-rs
