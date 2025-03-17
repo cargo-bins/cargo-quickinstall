@@ -25,3 +25,4 @@ nextsv
 sudo-rs
 mise
 probe-rs-tools
+cargo-dylint
