@@ -45,3 +45,4 @@ sshx
 sea-orm-cli
 paperclip
 probe-rs-tools
+shadowsocks-rust
