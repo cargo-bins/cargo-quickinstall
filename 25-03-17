@@ -11,3 +11,4 @@ cargo-whatfeatures
 opencv-binding-generator
 cargo-spellcheck
 holochain
+graphql_client_cli
