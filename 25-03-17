@@ -9,3 +9,4 @@ solana-tokens
 sha1collisiondetection
 nexmark
 re_query
+winpty-rs
