@@ -47,3 +47,4 @@ nu_plugin_gstat
 cargo-dylint
 re_query
 winpty-rs
+cargo-duplicates
