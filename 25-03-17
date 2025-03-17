@@ -25,3 +25,4 @@ nexmark
 youtube-tui
 clippy
 re_query
+winpty-rs
