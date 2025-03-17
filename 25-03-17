@@ -13,3 +13,4 @@ cargo-codspeed
 nexmark
 re_query
 winpty-rs
+iai-callgrind-runner
