@@ -9,3 +9,4 @@ tree-sitter-cli
 holochain
 cargo-whatfeatures
 opencv-binding-generator
+cargo-spellcheck
