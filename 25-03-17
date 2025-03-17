@@ -50,3 +50,4 @@ winpty-rs
 cargo-duplicates
 shadowsocks-rust
 rg
+codeberg-cli
