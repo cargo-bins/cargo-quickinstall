@@ -8,3 +8,4 @@ goldentests
 tree-sitter-cli
 holochain
 cargo-whatfeatures
+opencv-binding-generator
