@@ -2,3 +2,4 @@ cargo-vet
 dotenv
 httpmock
 holochain
+skim
