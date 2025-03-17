@@ -49,3 +49,4 @@ re_query
 winpty-rs
 cargo-duplicates
 shadowsocks-rust
+rg
