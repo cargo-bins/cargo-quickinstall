@@ -28,3 +28,4 @@ cargo-leptos
 binstall
 nexmark
 re_query
+winpty-rs
