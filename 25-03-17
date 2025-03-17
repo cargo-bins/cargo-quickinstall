@@ -12,3 +12,4 @@ safe_network
 cargo-codspeed
 nexmark
 re_query
+winpty-rs
