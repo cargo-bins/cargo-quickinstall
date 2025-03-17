@@ -21,3 +21,4 @@ probe-rs-tools
 cargo-whatfeatures
 spider_cli
 nextsv
+tree-sitter-cli
