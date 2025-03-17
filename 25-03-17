@@ -16,3 +16,4 @@ safe_network
 nexmark
 re_query
 winpty-rs
+paperclip
