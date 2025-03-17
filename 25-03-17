@@ -13,3 +13,4 @@ safe_network
 minicbor
 nexmark
 re_query
+winpty-rs
