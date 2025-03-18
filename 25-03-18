@@ -6,3 +6,4 @@ syd
 dotenv
 minicbor
 safe_network
+rkv
