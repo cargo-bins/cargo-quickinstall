@@ -16,3 +16,4 @@ dotenv
 parquet
 minicbor
 rkv
+wac
