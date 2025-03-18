@@ -4,3 +4,4 @@ cargo-msrv
 human_bytes
 syd
 dotenv
+safe_network
