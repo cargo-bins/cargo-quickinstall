@@ -7,3 +7,4 @@ tokio-process
 human_bytes
 rustfmt
 syd
+dotenv
