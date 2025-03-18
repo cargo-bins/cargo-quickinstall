@@ -4,3 +4,4 @@ apollo-router
 cargo-msrv
 syd
 dotenv
+minicbor
