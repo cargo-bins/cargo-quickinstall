@@ -6,3 +6,4 @@ iai-callgrind-runner
 tokio-process
 human_bytes
 rustfmt
+syd
