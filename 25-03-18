@@ -12,3 +12,4 @@ libbpf-cargo
 syd
 dotenv
 rkv
+papyrus_storage
