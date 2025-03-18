@@ -11,3 +11,4 @@ cargo-public-api
 cargo-public-api
 sea-orm-cli
 spider_cli
+rg
