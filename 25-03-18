@@ -27,3 +27,4 @@ project_ares
 spotify_player
 shadowsocks-rust
 project_ares
+cargo-dylint
