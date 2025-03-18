@@ -7,3 +7,4 @@ dotenv
 safe_network
 rkv
 oso
+pgrx-tests
