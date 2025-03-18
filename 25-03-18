@@ -20,3 +20,4 @@ libbpf-cargo
 oxyromon
 syd
 lux-cli
+dotenv
