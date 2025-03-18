@@ -10,3 +10,4 @@ binstall
 human_bytes
 libbpf-cargo
 syd
+dotenv
