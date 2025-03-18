@@ -5,3 +5,4 @@ clippy
 shadowsocks-rust
 cargo-check-deadlock
 debcargo
+apollo-router
