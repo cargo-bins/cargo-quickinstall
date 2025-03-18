@@ -3,3 +3,4 @@ html2md
 apollo-router
 cargo-msrv
 syd
+dotenv
