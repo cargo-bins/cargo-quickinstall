@@ -23,3 +23,4 @@ lux-cli
 dotenv
 encrypt-rs
 yozefu
+rkv
