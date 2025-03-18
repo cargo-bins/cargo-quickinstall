@@ -3,3 +3,4 @@ sea-orm-cli
 apollo-router
 human_bytes
 syd
+dotenv
