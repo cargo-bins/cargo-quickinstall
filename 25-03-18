@@ -7,3 +7,4 @@ cargo-check-deadlock
 debcargo
 apollo-router
 cargo-check-deadlock
+cargo-public-api
