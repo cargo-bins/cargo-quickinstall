@@ -9,3 +9,4 @@ rustfmt
 syd
 dotenv
 git-mit-install
+minicbor
