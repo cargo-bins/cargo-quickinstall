@@ -4,3 +4,4 @@ wol-rs
 clippy
 shadowsocks-rust
 cargo-check-deadlock
+debcargo
