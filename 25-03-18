@@ -3,3 +3,4 @@ wol-rs
 feeds-to-pocket
 rg
 probe-rs-tools
+sea-orm-cli
