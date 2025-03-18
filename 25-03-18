@@ -50,3 +50,4 @@ kanidm_tools
 cargo-ktra-login
 sha1collisiondetection
 tree-sitter-cli
+binstall
