@@ -31,3 +31,4 @@ cargo-dylint
 project_ares
 alacritty
 pcu
+clippy
