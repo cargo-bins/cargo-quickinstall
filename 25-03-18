@@ -5,3 +5,4 @@ cargo-msrv
 syd
 dotenv
 minicbor
+rkv
