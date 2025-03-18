@@ -14,3 +14,4 @@ cargo-count
 kanidm_tools
 syd
 lla
+dotenv
