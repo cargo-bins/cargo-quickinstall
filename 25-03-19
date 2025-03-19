@@ -5,3 +5,4 @@ addr2line
 quickenv
 zellij
 zellij
+winpty-rs
