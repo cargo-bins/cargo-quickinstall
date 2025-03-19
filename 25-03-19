@@ -12,3 +12,4 @@ cargo-list
 addr2line
 cargo-outdated
 hurl
+spider_cli
