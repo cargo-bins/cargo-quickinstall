@@ -2,3 +2,4 @@ addr2line
 nu_plugin_plotters
 kanidm_tools
 dioxus-cli
+nextest
