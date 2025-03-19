@@ -20,3 +20,4 @@ pest_debugger
 cargo-spellcheck
 nu
 redoxer
+cargo-whatfeatures
