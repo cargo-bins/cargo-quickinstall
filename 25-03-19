@@ -6,3 +6,4 @@ quickenv
 zellij
 zellij
 winpty-rs
+cargo-codspeed
