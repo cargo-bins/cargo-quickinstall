@@ -36,3 +36,4 @@ cargo-list
 cached-path
 cargo-ktra-login
 librespot
+simple-http-server
