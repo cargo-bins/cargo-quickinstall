@@ -8,3 +8,4 @@ winpty-rs
 java-locator
 safe_network
 text-diff
+holochain_keystore
