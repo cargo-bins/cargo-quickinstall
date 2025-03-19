@@ -54,3 +54,4 @@ rg
 borsh
 xbuild
 nu_plugin_highlight
+cargo-spellcheck
