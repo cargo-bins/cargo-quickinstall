@@ -11,3 +11,4 @@ html2maud-bin
 cargo-list
 addr2line
 cargo-outdated
+hurl
