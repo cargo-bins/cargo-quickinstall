@@ -7,3 +7,4 @@ cargo-outdated
 nextsv
 nextest
 solana-gossip
+html2maud-bin
