@@ -13,3 +13,4 @@ spider_cli
 hurl
 solana-tokens
 nu
+winpty-rs
