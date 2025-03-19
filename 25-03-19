@@ -4,3 +4,4 @@ cargo-whatfeatures
 nextest
 tuono
 cargo-outdated
+nextsv
