@@ -33,3 +33,4 @@ winpty-rs
 nu
 redoxer
 schematools-cli
+cached-path
