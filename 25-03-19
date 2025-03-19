@@ -7,3 +7,4 @@ cargo-spellcheck
 diesel_cli
 solana-gossip
 hurl
+addr2line
