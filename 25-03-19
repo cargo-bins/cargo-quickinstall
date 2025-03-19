@@ -3,3 +3,4 @@ solana-gossip
 addr2line
 spider_cli
 nu
+winpty-rs
