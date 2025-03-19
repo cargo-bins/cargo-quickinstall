@@ -38,3 +38,4 @@ cargo-ktra-login
 librespot
 simple-http-server
 nu_plugin_gstat
+html2maud-bin
