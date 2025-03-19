@@ -3,3 +3,4 @@ redoxer
 cargo-whatfeatures
 nextest
 tuono
+cargo-outdated
