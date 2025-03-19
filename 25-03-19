@@ -54,3 +54,4 @@ sequoia-sq
 xbuild
 cargo-info
 borsh
+soar-cli
