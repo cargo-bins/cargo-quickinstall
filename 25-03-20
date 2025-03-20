@@ -55,3 +55,4 @@ sequoia-sqv
 clipboard-history
 mdbook-plantuml
 sha1collisiondetection
+cargo-public-api
