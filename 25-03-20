@@ -25,3 +25,4 @@ sha1collisiondetection
 opencv-binding-generator
 phf_generator
 fast-conventional
+apollo-router
