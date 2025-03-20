@@ -9,3 +9,4 @@ nextest
 clippy
 apollo-router
 libbpf-cargo
+clippy
