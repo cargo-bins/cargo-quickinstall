@@ -6,3 +6,4 @@ nu_plugin_gstat
 c2rust
 clipboard-history-tui
 solana-gossip
+tree-sitter-graph
