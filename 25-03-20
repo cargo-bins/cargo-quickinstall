@@ -19,3 +19,4 @@ clippy
 clippy
 nextest
 clippy
+cpp_demangle
