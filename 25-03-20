@@ -16,3 +16,4 @@ neovide
 httpmock
 simple-http-server
 rustowl
+clipboard-history-tui
