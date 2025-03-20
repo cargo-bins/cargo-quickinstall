@@ -36,3 +36,4 @@ cargo-codspeed
 cargo-risczero
 cargo-risczero
 phf_generator
+usage-cli
