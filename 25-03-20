@@ -8,3 +8,4 @@ papyrus_storage
 snarkvm
 stellar-xdr
 librespot
+libbpf-cargo
