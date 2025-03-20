@@ -31,3 +31,4 @@ stellar-xdr
 cargo-pgrx
 cargo-spellcheck
 xbuild
+sequoia-chameleon-gnupg
