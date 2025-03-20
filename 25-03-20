@@ -9,3 +9,4 @@ papyrus_storage
 stellar-xdr
 libbpf-cargo
 rustrict
+cpp_demangle
