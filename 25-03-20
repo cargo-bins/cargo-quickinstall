@@ -14,3 +14,4 @@ sequoia-chameleon-gnupg
 nextest
 sequoia-chameleon-gnupg
 apollo-router
+libbpf-cargo
