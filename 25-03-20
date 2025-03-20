@@ -32,3 +32,4 @@ sheldon
 cpp_demangle
 cargo-risczero
 sha1collisiondetection
+cargo-codspeed
