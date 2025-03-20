@@ -39,3 +39,4 @@ cargo-public-api
 mcx
 tree-sitter-cli
 libbpf-cargo
+clipboard-history
