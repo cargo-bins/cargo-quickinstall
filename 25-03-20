@@ -14,3 +14,4 @@ xbuild
 clipboard-history-tui
 neovide
 httpmock
+simple-http-server
