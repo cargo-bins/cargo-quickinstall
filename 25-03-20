@@ -57,3 +57,4 @@ mdbook-plantuml
 sha1collisiondetection
 cargo-public-api
 opencv-binding-generator
+llql
