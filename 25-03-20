@@ -35,3 +35,4 @@ sha1collisiondetection
 cargo-codspeed
 cargo-risczero
 cargo-risczero
+phf_generator
