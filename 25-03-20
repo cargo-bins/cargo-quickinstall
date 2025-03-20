@@ -21,3 +21,4 @@ fast-conventional
 cargo-doctor
 cpp_demangle
 apollo-router
+sha1collisiondetection
