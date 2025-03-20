@@ -11,3 +11,4 @@ librespot
 libbpf-cargo
 rustrict
 cpp_demangle
+sha1collisiondetection
