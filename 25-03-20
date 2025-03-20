@@ -8,3 +8,4 @@ snarkvm
 librespot
 libbpf-cargo
 cpp_demangle
+sha1collisiondetection
