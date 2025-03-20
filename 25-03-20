@@ -26,3 +26,4 @@ opencv-binding-generator
 phf_generator
 fast-conventional
 apollo-router
+cargo-doctor
