@@ -3,3 +3,4 @@ sea-orm-cli
 cargo-spellcheck
 mise
 solana-gossip
+tree-sitter-graph
