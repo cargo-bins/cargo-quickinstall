@@ -16,3 +16,4 @@ sha1collisiondetection
 phf_generator
 cargo-doctor
 cargo-doctor
+clippy
