@@ -17,3 +17,4 @@ shadowsocks-rust
 oculante
 cargo-risczero
 stellar-xdr
+sqlx-cli
