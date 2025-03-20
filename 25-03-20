@@ -52,3 +52,4 @@ opencv-binding-generator
 nu_plugin_query
 c2rust
 phf_generator
+mdcat
