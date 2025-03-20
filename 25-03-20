@@ -27,3 +27,4 @@ libbpf-cargo
 sheldon
 shadowsocks-rust
 rustrict
+usage-cli
