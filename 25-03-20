@@ -14,3 +14,4 @@ sha1collisiondetection
 cargo-codspeed
 opencv-binding-generator
 phf_generator
+httpbis
