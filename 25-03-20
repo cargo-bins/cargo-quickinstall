@@ -11,3 +11,4 @@ tree-sitter-graph
 graphql_client_cli
 cargo-spellcheck
 soar-cli
+sniffnet
