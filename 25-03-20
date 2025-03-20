@@ -12,3 +12,4 @@ libbpf-cargo
 clippy
 rustrict
 cpp_demangle
+sha1collisiondetection
