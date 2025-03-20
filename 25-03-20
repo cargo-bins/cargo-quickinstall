@@ -11,3 +11,4 @@ apollo-router
 libbpf-cargo
 clippy
 rustrict
+cpp_demangle
