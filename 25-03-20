@@ -51,3 +51,4 @@ graphql_client_cli
 opencv-binding-generator
 nu_plugin_query
 c2rust
+phf_generator
