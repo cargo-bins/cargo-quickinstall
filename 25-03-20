@@ -29,3 +29,4 @@ shadowsocks-rust
 rustrict
 usage-cli
 sheldon
+cpp_demangle
