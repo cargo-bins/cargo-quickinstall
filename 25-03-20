@@ -31,3 +31,4 @@ usage-cli
 sheldon
 cpp_demangle
 cargo-risczero
+sha1collisiondetection
