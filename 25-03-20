@@ -10,3 +10,4 @@ stellar-xdr
 librespot
 libbpf-cargo
 rustrict
+cpp_demangle
