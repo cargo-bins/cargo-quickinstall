@@ -13,3 +13,4 @@ cargo-spellcheck
 soar-cli
 sniffnet
 shadowsocks-rust
+sea-orm-cli
