@@ -40,3 +40,4 @@ mcx
 tree-sitter-cli
 libbpf-cargo
 clipboard-history
+cargo-pgrx
