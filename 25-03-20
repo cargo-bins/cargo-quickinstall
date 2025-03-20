@@ -13,3 +13,4 @@ clippy
 rustrict
 cpp_demangle
 sha1collisiondetection
+phf_generator
