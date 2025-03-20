@@ -7,3 +7,4 @@ re_query
 snarkvm
 librespot
 libbpf-cargo
+cpp_demangle
