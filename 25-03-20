@@ -21,3 +21,4 @@ nextest
 clippy
 cpp_demangle
 sha1collisiondetection
+opencv-binding-generator
