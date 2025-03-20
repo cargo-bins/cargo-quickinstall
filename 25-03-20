@@ -54,3 +54,4 @@ cpp_demangle
 sequoia-sqv
 clipboard-history
 mdbook-plantuml
+sha1collisiondetection
