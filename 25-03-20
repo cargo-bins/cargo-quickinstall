@@ -44,3 +44,4 @@ pijul
 cargo-spellcheck
 c2rust
 llql
+cpp_demangle
