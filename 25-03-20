@@ -2,3 +2,4 @@ solana-stake-accounts
 sea-orm-cli
 cargo-spellcheck
 mise
+solana-gossip
