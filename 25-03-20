@@ -6,3 +6,4 @@ apollo-router
 re_query
 snarkvm
 librespot
+libbpf-cargo
