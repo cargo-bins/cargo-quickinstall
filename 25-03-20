@@ -37,3 +37,4 @@ cargo-pgrx
 sniffnet
 cargo-public-api
 mcx
+tree-sitter-cli
