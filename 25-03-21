@@ -38,3 +38,4 @@ solana-cli
 nextest
 drone
 clipboard-history-tui
+wmi
