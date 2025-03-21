@@ -10,3 +10,4 @@ cargo-doctor
 cargo-doctor
 solana-cli
 wmi
+nu_plugin_gstat
