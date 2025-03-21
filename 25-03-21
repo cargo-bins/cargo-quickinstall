@@ -31,3 +31,4 @@ shadowsocks-rust
 cargo-info
 solana-cli
 fselect
+trusted-signing-cli
