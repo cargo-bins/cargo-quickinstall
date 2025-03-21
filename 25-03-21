@@ -5,3 +5,4 @@ cargo-pgrx
 alacritty
 hayagriva
 cargo-public-api
+winpty-rs
