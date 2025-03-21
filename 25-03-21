@@ -10,3 +10,4 @@ oso
 py-spy
 solana-cli
 git-disjoint
+cargo-msrv
