@@ -6,3 +6,4 @@ py-spy
 tree-sitter-graph
 tendermint-abci
 sea-orm-cli
+deno
