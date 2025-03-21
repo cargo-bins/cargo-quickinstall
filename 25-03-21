@@ -4,3 +4,4 @@ tree-sitter-cli
 winpty-rs
 cargo-spellcheck
 snarkvm
+probe-rs-tools
