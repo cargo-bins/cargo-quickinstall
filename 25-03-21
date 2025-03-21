@@ -8,3 +8,4 @@ mit-commit-msg
 deno
 mit-pre-commit
 solana-cli
+git-disjoint
