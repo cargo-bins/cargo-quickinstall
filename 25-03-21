@@ -6,3 +6,4 @@ dioxus-cli
 cargo-public-api
 moonup
 clipboard-history-tui
+winpty-rs
