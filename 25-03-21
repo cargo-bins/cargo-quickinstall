@@ -34,3 +34,4 @@ fselect
 trusted-signing-cli
 arti
 dioxus-cli
+cargo-count
