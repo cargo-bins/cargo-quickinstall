@@ -9,3 +9,4 @@ clipboard-history-tui
 winpty-rs
 drone
 snarkvm
+py-spy
