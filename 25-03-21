@@ -9,3 +9,4 @@ winpty-rs
 cargo-leptos
 snarkvm
 py-spy
+tree-sitter-graph
