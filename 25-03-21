@@ -4,3 +4,4 @@ winpty-rs
 snarkvm
 py-spy
 tree-sitter-graph
+tendermint-abci
