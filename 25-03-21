@@ -10,3 +10,4 @@ mit-pre-commit
 solana-cli
 git-disjoint
 rustrict
+rtx-cli
