@@ -11,3 +11,4 @@ shadowsocks-rust
 git-disjoint
 shadowsocks-rust
 rustrict
+cargo-count
