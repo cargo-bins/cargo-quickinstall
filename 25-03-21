@@ -6,3 +6,4 @@ cargo-doctor
 tree-sitter-graph
 shadowsocks-rust
 socketcan
+tendermint-abci
