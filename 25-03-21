@@ -14,3 +14,4 @@ nu_plugin_gstat
 git-disjoint
 glimpse
 rustrict
+cargo-count
