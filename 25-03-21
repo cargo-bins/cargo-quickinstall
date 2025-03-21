@@ -16,3 +16,4 @@ tree-sitter-graph
 dioxus-cli
 cargo-count
 moonup
+cargo-leptos
