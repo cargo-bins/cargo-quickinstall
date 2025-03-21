@@ -6,3 +6,4 @@ socketcan
 sn_cli
 mit-commit-msg
 deno
+mit-pre-commit
