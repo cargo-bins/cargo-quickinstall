@@ -26,3 +26,4 @@ binstall
 uu_chmod
 uu_chmod
 cargo-generate
+rtx-cli
