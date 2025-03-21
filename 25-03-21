@@ -3,3 +3,4 @@ alacritty
 tree-sitter-cli
 winpty-rs
 cargo-spellcheck
+snarkvm
