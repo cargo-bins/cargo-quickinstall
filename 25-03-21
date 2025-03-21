@@ -27,3 +27,4 @@ fselect
 cargo-info
 clippy
 quran-ref
+trusted-signing-cli
