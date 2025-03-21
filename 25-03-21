@@ -12,3 +12,4 @@ solana-cli
 git-disjoint
 cargo-msrv
 zuse
+rustrict
