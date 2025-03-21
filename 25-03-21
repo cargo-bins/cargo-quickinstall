@@ -35,3 +35,4 @@ trusted-signing-cli
 arti
 dioxus-cli
 cargo-count
+clipboard-history
