@@ -13,3 +13,4 @@ git-disjoint
 cargo-msrv
 zuse
 rustrict
+rtx-cli
