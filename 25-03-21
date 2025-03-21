@@ -6,3 +6,4 @@ cargo-spellcheck
 snarkvm
 probe-rs-tools
 py-spy
+tree-sitter-graph
