@@ -8,3 +8,4 @@ tendermint-abci
 sea-orm-cli
 deno
 py-spy
+solana-cli
