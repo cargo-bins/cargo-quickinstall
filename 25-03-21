@@ -3,3 +3,4 @@ rustbus
 winpty-rs
 tree-sitter-graph
 socketcan
+sn_cli
