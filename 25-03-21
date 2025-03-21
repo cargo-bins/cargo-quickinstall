@@ -3,3 +3,4 @@ sha1collisiondetection
 kalc
 cargo-spellcheck
 dioxus-cli
+cargo-public-api
