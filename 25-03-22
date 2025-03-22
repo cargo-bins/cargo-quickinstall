@@ -13,3 +13,4 @@ loop-rs
 trusted-signing-cli
 solana-cli
 tplay
+hurl
