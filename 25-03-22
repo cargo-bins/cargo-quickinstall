@@ -14,3 +14,4 @@ spider_worker
 graphql_client_cli
 tplay
 loop-rs
+tplay
