@@ -22,3 +22,4 @@ trusted-signing-cli
 diesel_cli
 loop-rs
 xplr
+cargo-leptos
