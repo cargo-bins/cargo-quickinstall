@@ -8,3 +8,4 @@ cargo-info
 java-locator
 sea-orm-cli
 clippy
+spider_worker
