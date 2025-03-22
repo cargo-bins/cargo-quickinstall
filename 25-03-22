@@ -16,3 +16,4 @@ zellij
 zellij
 mit-pre-commit
 git-disjoint
+rls-rustc
