@@ -30,3 +30,4 @@ clue
 loop-rs
 solana-stake-accounts
 fend
+sea-orm-cli
