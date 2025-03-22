@@ -3,3 +3,4 @@ dioxus-cli
 loop-rs
 sea-orm-cli
 graphql_client_cli
+clippy
