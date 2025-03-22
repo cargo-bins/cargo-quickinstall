@@ -28,3 +28,4 @@ graphql_client_cli
 xplr
 hurl
 trusted-signing-cli
+cargo-pgrx
