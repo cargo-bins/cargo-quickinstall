@@ -10,3 +10,4 @@ sea-orm-cli
 clippy
 spider_worker
 loop-rs
+trusted-signing-cli
