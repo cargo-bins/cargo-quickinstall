@@ -14,3 +14,4 @@ trusted-signing-cli
 solana-cli
 tplay
 hurl
+nextest
