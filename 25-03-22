@@ -11,3 +11,4 @@ clippy
 spider_worker
 loop-rs
 trusted-signing-cli
+solana-cli
