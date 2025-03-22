@@ -50,3 +50,4 @@ solana-net-utils
 genpass
 git-disjoint
 clipboard-history
+rls-rustc
