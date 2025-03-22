@@ -6,3 +6,4 @@ spider_worker
 solana-cli
 diesel_cli
 solana-tokens
+solana-stake-accounts
