@@ -6,3 +6,4 @@ graphql_client_cli
 clippy
 cargo-info
 java-locator
+sea-orm-cli
