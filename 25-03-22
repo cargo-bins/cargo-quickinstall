@@ -17,3 +17,4 @@ zellij
 mit-pre-commit
 git-disjoint
 rls-rustc
+papyrus_storage
