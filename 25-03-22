@@ -23,3 +23,4 @@ lemmy_server
 sn0int
 slick
 git-disjoint
+rls-rustc
