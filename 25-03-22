@@ -19,3 +19,4 @@ graphql_client_cli
 solana-cli
 clippy
 trusted-signing-cli
+diesel_cli
