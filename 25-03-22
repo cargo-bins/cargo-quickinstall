@@ -5,3 +5,4 @@ solana-cli
 diesel_cli
 solana-tokens
 fake
+solana-stake-accounts
