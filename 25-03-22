@@ -20,3 +20,4 @@ solana-cli
 clippy
 trusted-signing-cli
 diesel_cli
+loop-rs
