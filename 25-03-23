@@ -20,3 +20,4 @@ mit-pre-commit
 nextest-filtering
 honggfuzz
 tokio-process
+human_name
