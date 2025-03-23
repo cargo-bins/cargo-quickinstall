@@ -9,3 +9,4 @@ nixpkgs-fmt
 git-mit-install
 solana-genesis
 dbus-codegen
+nixpkgs-fmt
