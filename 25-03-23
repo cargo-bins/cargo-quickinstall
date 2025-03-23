@@ -18,3 +18,4 @@ rustowl
 bpf-linker
 borsh
 nixpkgs-fmt
+openpty
