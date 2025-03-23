@@ -12,3 +12,4 @@ dbus-codegen
 nixpkgs-fmt
 golem-cloud-cli
 bpf-linker
+nixpkgs-fmt
