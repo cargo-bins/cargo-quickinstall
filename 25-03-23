@@ -7,3 +7,4 @@ git-mit-install
 solana-genesis
 dbus-codegen
 benfred-read-process-memory
+borsh
