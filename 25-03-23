@@ -11,3 +11,4 @@ borsh
 schemafy
 tokio-process
 lair_keystore_api
+holochain
