@@ -37,3 +37,4 @@ solana-validator
 rav1e
 mit-pre-commit
 nextest-filtering
+honggfuzz
