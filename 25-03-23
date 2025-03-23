@@ -19,3 +19,4 @@ rav1e
 mit-pre-commit
 nextest-filtering
 honggfuzz
+tokio-process
