@@ -19,3 +19,4 @@ bpf-linker
 borsh
 nixpkgs-fmt
 openpty
+racer
