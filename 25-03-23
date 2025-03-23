@@ -16,3 +16,4 @@ nixpkgs-fmt
 bpf-linker
 rustowl
 bpf-linker
+borsh
