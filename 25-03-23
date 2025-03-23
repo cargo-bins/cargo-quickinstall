@@ -13,3 +13,4 @@ tokio-process
 lair_keystore_api
 holochain
 human_bytes
+solana-validator
