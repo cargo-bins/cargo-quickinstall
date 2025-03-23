@@ -10,3 +10,4 @@ git-mit-install
 solana-genesis
 dbus-codegen
 nixpkgs-fmt
+golem-cloud-cli
