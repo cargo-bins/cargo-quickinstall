@@ -3,3 +3,4 @@ solana-cli
 gitostat
 dbus-codegen
 borsh
+schemafy
