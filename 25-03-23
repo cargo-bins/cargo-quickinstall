@@ -30,3 +30,4 @@ nextest
 cargo-embed
 mcx
 llql
+plastic_tui
