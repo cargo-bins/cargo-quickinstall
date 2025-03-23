@@ -29,3 +29,4 @@ rustdoc-text
 nextest
 cargo-embed
 mcx
+llql
