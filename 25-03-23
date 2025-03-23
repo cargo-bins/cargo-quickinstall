@@ -6,3 +6,4 @@ nixpkgs-fmt
 h3o
 cargo-i18n
 nixpkgs-fmt
+git-mit-install
