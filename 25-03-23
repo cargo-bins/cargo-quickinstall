@@ -18,3 +18,4 @@ re_query
 rav1e
 mit-pre-commit
 nextest-filtering
+honggfuzz
