@@ -53,3 +53,4 @@ plastic_tui
 fend
 rustdoc-text
 nextest-filtering
+cargo-embed
