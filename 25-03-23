@@ -8,3 +8,4 @@ solana-genesis
 dbus-codegen
 benfred-read-process-memory
 borsh
+schemafy
