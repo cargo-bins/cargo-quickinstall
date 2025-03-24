@@ -2,3 +2,4 @@ deploy
 tendermint-rpc
 human_name
 oso
+safe_network
