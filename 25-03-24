@@ -62,3 +62,4 @@ mise
 sshx
 libbpf-cargo
 yolk
+winpty-rs
