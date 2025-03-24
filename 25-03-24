@@ -21,3 +21,4 @@ solana-stake-accounts
 spider_cli
 paperclip
 stellar-cli
+libbpf-cargo
