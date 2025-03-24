@@ -11,3 +11,4 @@ solana-cli
 git-disjoint
 solana-gossip
 human_bytes
+solana-stake-accounts
