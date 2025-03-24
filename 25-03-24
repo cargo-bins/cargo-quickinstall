@@ -10,3 +10,4 @@ solana-cli
 holochain_cli_sandbox
 git-disjoint
 human_bytes
+solana-stake-accounts
