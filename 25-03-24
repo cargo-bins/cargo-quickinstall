@@ -7,3 +7,4 @@ solana-cli
 solana-gossip
 minicbor
 holochain_cli_sandbox
+git-disjoint
