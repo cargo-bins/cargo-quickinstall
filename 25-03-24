@@ -57,3 +57,4 @@ nu_plugin_gstat
 python-project-generator
 rustube-cli
 dioxus-cli
+nu_plugin_gstat
