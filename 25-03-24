@@ -16,3 +16,4 @@ mise
 libbpf-cargo
 winpty-rs
 zuse
+sea-orm-cli
