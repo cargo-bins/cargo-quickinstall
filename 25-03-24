@@ -14,3 +14,4 @@ graphql_client_cli
 oso
 trusted-signing-cli
 termusic
+simple-http-server
