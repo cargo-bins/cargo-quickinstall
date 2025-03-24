@@ -6,3 +6,4 @@ nextest
 oso
 shadowsocks-rust
 fake
+minicbor
