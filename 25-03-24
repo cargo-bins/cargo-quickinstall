@@ -12,3 +12,4 @@ pcu
 cargo-info
 cargo-embed
 cargo-info
+sea-orm-cli
