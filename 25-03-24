@@ -6,3 +6,4 @@ sqlpage
 tendermint-rpc
 simple-http-server
 dioxus-cli
+sqlpage
