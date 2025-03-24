@@ -27,3 +27,4 @@ tree-sitter-cli
 rustdoc-text
 tuisky
 solana-cli
+solana-gossip
