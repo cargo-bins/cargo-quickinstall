@@ -6,3 +6,4 @@ cargo-leptos
 oso
 safe_network
 solana-gossip
+solana-cli
