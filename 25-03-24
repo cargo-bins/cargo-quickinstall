@@ -13,3 +13,4 @@ solana-stake-accounts
 paperclip
 pandora_box
 libbpf-cargo
+winpty-rs
