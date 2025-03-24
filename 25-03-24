@@ -3,3 +3,4 @@ deploy
 tendermint-rpc
 shadowsocks-rust
 nextest
+human_name
