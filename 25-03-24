@@ -67,3 +67,4 @@ simple-http-server
 cargo-unmaintained
 nu_plugin_gstat
 winpty-rs
+zuse
