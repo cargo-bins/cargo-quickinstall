@@ -15,3 +15,4 @@ cargo-info
 sea-orm-cli
 nextsv
 pcu
+oso
