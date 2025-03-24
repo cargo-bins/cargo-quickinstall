@@ -64,3 +64,4 @@ libbpf-cargo
 yolk
 winpty-rs
 simple-http-server
+sshx
