@@ -9,3 +9,4 @@ fake
 minicbor
 holochain_cli_sandbox
 git-disjoint
+human_bytes
