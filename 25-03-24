@@ -4,3 +4,4 @@ cargo-embed
 cargo-spellcheck
 tuisky
 skate
+tendermint-rpc
