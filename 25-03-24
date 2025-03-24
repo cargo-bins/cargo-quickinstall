@@ -3,3 +3,4 @@ deploy
 tendermint-rpc
 zuse
 oso
+solana-cli
