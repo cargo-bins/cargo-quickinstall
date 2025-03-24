@@ -65,3 +65,4 @@ oculante
 libbpf-cargo
 simple-http-server
 cargo-unmaintained
+nu_plugin_gstat
