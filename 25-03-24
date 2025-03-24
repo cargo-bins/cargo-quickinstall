@@ -24,3 +24,4 @@ trusted-signing-cli
 yolk
 spider_cli
 tree-sitter-cli
+rustdoc-text
