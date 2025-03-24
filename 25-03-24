@@ -46,3 +46,4 @@ human_bytes
 hayagriva
 cargo-outdated
 rustube-cli
+patch-crate
