@@ -15,3 +15,4 @@ pandora_box
 libbpf-cargo
 winpty-rs
 mit-prepare-commit-msg
+holochain_cli_sandbox
