@@ -25,3 +25,4 @@ libbpf-cargo
 winpty-rs
 xplr
 dioxus-cli
+holochain_cli_sandbox
