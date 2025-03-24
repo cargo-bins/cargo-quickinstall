@@ -4,3 +4,4 @@ deploy
 sea-orm-cli
 sqlpage
 tendermint-rpc
+simple-http-server
