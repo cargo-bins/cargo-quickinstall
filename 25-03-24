@@ -60,3 +60,4 @@ openring
 python-project-generator
 mise
 sshx
+libbpf-cargo
