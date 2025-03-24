@@ -2,3 +2,4 @@ simple-http-server
 cargo-public-api
 deploy
 sea-orm-cli
+sqlpage
