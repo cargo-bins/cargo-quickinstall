@@ -13,3 +13,4 @@ human_bytes
 paperclip
 pandora_box
 libbpf-cargo
+winpty-rs
