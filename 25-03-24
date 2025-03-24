@@ -10,3 +10,4 @@ solana-cli
 fake
 minicbor
 git-disjoint
+solana-gossip
