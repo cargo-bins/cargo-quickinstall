@@ -49,3 +49,4 @@ simple-http-server
 rustube-cli
 spider_cli
 cargo-unmaintained
+python-project-generator
