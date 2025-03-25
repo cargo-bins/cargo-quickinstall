@@ -5,3 +5,4 @@ monolith
 usage-cli
 monolith
 rls-rustc
+perfcnt
