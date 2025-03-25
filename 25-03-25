@@ -8,3 +8,4 @@ socketcan
 racer
 kickstart
 cargo-check-deadlock
+solana-cli
