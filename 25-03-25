@@ -13,3 +13,4 @@ libbpf-cargo
 xplr
 ducc-sys
 rustrict
+sp1-recursion-gnark-cli
