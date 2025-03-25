@@ -22,3 +22,4 @@ pwasm-utils
 dotenv-flow
 cargo-check-deadlock
 cargo-fuzzcheck
+pfdump
