@@ -34,3 +34,4 @@ shadowsocks-rust
 sea-orm-cli
 hurl
 cargo-ktra-login
+cargo-near
