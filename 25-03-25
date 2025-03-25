@@ -9,3 +9,4 @@ socketcan
 metadata
 racer
 cargo-check-deadlock
+libbpf-cargo
