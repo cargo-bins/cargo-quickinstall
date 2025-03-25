@@ -9,3 +9,4 @@ racer
 kickstart
 cargo-check-deadlock
 solana-cli
+ducc-sys
