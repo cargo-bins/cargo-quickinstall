@@ -20,3 +20,4 @@ lingua
 kickstart
 pwasm-utils
 dotenv-flow
+cargo-check-deadlock
