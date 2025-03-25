@@ -9,3 +9,4 @@ nu
 sniffnet
 twitch-tui
 sea-orm-cli
+rls-rustc
