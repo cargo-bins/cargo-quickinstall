@@ -11,3 +11,4 @@ cargo-check-deadlock
 solana-cli
 ducc-sys
 sp1-recursion-gnark-cli
+rustrict
