@@ -19,3 +19,4 @@ cargo-fuzzcheck
 lingua
 kickstart
 pwasm-utils
+dotenv-flow
