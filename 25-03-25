@@ -21,3 +21,4 @@ gpg-tui
 sqlx-cli
 zellij
 lingua
+dotenv-flow
