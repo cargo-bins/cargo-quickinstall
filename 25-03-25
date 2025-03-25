@@ -8,3 +8,4 @@ kickstart
 socketcan
 metadata
 racer
+cargo-check-deadlock
