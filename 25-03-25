@@ -3,3 +3,4 @@ rls-rustc
 sea-orm-cli
 librespot
 a11ywatch_cli
+socketcan
