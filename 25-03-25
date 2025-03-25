@@ -23,3 +23,4 @@ dotenv-flow
 cargo-check-deadlock
 cargo-fuzzcheck
 pfdump
+holochain
