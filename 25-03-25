@@ -7,3 +7,4 @@ yozefu
 socketcan
 racer
 kickstart
+cargo-check-deadlock
