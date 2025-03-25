@@ -11,3 +11,4 @@ racer
 cargo-check-deadlock
 libbpf-cargo
 xplr
+ducc-sys
