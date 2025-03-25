@@ -19,3 +19,4 @@ socketcan
 cargo-public-api
 pcu
 racer
+tree-sitter-cli
