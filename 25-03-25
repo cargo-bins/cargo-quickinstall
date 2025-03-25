@@ -6,3 +6,4 @@ usage-cli
 monolith
 rls-rustc
 perfcnt
+rperf
