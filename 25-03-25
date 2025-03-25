@@ -49,3 +49,4 @@ nu_plugin_query
 pwasm-utils
 cargo-list
 probe-rs-tools
+dioxus-cli
