@@ -17,3 +17,4 @@ pfdump
 mprober
 scx_flash
 locustdb
+cpp_demangle
