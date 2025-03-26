@@ -3,3 +3,4 @@ safe_network
 tendermint-rpc
 dotenv-flow
 clippy
+cpp_demangle
