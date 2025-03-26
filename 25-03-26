@@ -4,3 +4,4 @@ tendermint-rpc
 dotenv-flow
 clippy
 cpp_demangle
+mit-prepare-commit-msg
