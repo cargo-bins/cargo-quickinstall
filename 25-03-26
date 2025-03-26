@@ -19,3 +19,4 @@ mdbook-bib
 forgejo-cli
 cargo-list
 forex
+clippy
