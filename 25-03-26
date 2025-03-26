@@ -4,3 +4,4 @@ kanidm_tools
 safe_network
 sea-orm-cli
 cargo-spellcheck
+tendermint-rpc
