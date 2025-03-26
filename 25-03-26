@@ -16,3 +16,4 @@ clippy
 cargo-dylint
 mdbook-bib
 aipack
+hurlfmt
