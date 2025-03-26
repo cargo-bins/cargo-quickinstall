@@ -26,3 +26,4 @@ gitui
 human_bytes
 addr2line
 diesel_cli
+iai-callgrind-runner
