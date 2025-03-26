@@ -51,3 +51,4 @@ spotify_player
 cargo-list
 rash
 solana-validator
+phf_generator
