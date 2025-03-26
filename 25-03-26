@@ -29,3 +29,4 @@ diesel_cli
 iai-callgrind-runner
 cargo-leptos
 zp
+cargo-local-registry
