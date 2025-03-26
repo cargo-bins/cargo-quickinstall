@@ -3,3 +3,4 @@ clippy
 cpp_demangle
 zellij
 addr2line
+stellar-strkey
