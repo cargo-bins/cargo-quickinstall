@@ -6,3 +6,4 @@ redoxfs
 rash
 dotenv-flow
 forgejo-cli
+nu_plugin_query
