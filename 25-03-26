@@ -1,3 +1,4 @@
 tendermint-rpc
 dotenv-flow
 clippy
+cpp_demangle
