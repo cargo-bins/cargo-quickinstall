@@ -13,3 +13,4 @@ binstall
 cargo-ktra-login
 redoxer
 clippy
+cargo-dylint
