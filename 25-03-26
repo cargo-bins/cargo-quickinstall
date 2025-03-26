@@ -9,3 +9,4 @@ shadowsocks-rust
 psfu
 cargo-fuzzcheck
 mprober
+clippy
