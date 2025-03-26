@@ -10,3 +10,4 @@ dioxus-cli
 xbuild
 dotenv-flow
 rga
+nextest
