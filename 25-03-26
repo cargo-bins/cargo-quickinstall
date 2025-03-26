@@ -2,3 +2,4 @@ holochain_cli_sandbox
 safe_network
 tendermint-rpc
 dotenv-flow
+clippy
