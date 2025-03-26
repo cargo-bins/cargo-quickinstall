@@ -16,3 +16,4 @@ diesel_cli
 lsusb
 cpp_demangle
 zp
+mit-prepare-commit-msg
