@@ -2,3 +2,4 @@ holochain
 clippy
 cpp_demangle
 zellij
+addr2line
