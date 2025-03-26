@@ -7,3 +7,4 @@ redu
 dioxus-cli
 shadowsocks-rust
 psfu
+cargo-fuzzcheck
