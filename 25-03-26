@@ -5,3 +5,4 @@ zellij
 addr2line
 stellar-strkey
 solana-validator
+phf_generator
