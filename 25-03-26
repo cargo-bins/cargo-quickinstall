@@ -5,3 +5,4 @@ safe_network
 sea-orm-cli
 cargo-spellcheck
 tendermint-rpc
+dotenv-flow
