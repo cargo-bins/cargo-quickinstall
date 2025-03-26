@@ -13,3 +13,4 @@ clippy
 sp1-recursion-gnark-cli
 cargo-dylint
 mprober
+pfdump
