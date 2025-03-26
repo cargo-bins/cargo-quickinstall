@@ -52,3 +52,4 @@ cargo-list
 rash
 solana-validator
 phf_generator
+sudo-rs
