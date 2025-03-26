@@ -14,3 +14,4 @@ lsusb
 clippy
 diesel_cli
 lsusb
+cpp_demangle
