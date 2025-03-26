@@ -3,3 +3,4 @@ dotenv-flow
 clippy
 cpp_demangle
 human_bytes
+addr2line
