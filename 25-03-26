@@ -4,3 +4,4 @@ forgejo-cli
 cargo-ktra-login
 redoxfs
 rash
+dotenv-flow
