@@ -26,3 +26,4 @@ pfdump
 mprober
 human_bytes
 notemancy-lsp
+addr2line
