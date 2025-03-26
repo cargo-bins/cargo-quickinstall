@@ -30,3 +30,4 @@ cpp_demangle
 forex
 xbuild
 forex
+cargo-dylint
