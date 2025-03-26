@@ -6,3 +6,4 @@ pfdump
 btfs
 cargo-fuzzcheck
 dotenv-flow
+pfdump
