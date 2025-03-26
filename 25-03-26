@@ -11,3 +11,4 @@ xbuild
 dotenv-flow
 rga
 nextest
+cargo-ktra-login
