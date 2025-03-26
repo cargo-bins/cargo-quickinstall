@@ -11,3 +11,4 @@ cargo-spellcheck
 sea-orm-cli
 cargo-spellcheck
 sea-orm-cli
+cpp_demangle
