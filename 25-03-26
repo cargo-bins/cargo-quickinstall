@@ -12,3 +12,4 @@ addr2line
 stellar-strkey
 iai-callgrind-runner
 cargo-risczero
+cargo-local-registry
