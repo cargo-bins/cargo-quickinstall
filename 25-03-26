@@ -31,3 +31,4 @@ cargo-leptos
 zp
 cargo-local-registry
 solana-validator
+phf_generator
