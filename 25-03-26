@@ -16,3 +16,4 @@ human_bytes
 addr2line
 stellar-strkey
 deno
+phf_generator
