@@ -4,3 +4,4 @@ pfdump
 holochain_cli_sandbox
 pfdump
 btfs
+cargo-fuzzcheck
