@@ -6,3 +6,4 @@ sea-orm-cli
 cargo-spellcheck
 tendermint-rpc
 dotenv-flow
+sea-orm-cli
