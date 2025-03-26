@@ -10,3 +10,4 @@ psfu
 cargo-fuzzcheck
 mprober
 clippy
+sp1-recursion-gnark-cli
