@@ -17,3 +17,4 @@ fast-conventional
 cargo-lock
 cosmoline
 foundationdb-gen
+rrule
