@@ -52,3 +52,4 @@ speedtest-rs
 graphql_client_cli
 hurlfmt
 cargo-info
+hurlfmt
