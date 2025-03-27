@@ -12,3 +12,4 @@ sudo-rs
 ducc-sys
 probe-run
 tree-sitter-cli
+rls-rustc
