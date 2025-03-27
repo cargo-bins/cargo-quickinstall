@@ -33,3 +33,4 @@ alacritty
 foundationdb-gen
 probe-run
 speedtest-rs
+patch-crate
