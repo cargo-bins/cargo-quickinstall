@@ -53,3 +53,4 @@ graphql_client_cli
 hurlfmt
 cargo-info
 hurlfmt
+patch-crate
