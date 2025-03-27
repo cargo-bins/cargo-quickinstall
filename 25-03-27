@@ -40,3 +40,4 @@ alacritty
 hurlfmt
 foundationdb-gen
 tree-sitter-cli
+probe-run
