@@ -45,3 +45,4 @@ clippy
 cargo-spellcheck
 probe-run
 hurlfmt
+alacritty
