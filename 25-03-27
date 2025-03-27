@@ -2,3 +2,4 @@ holochain_keystore
 mit-pre-commit
 cargo-local-registry
 ducc-sys
+rls-rustc
