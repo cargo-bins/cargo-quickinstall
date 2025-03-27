@@ -3,3 +3,4 @@ cargo-local-registry
 schemafy
 czkawka_gui
 sqlx-cli
+ducc-sys
