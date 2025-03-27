@@ -14,3 +14,4 @@ cargo-lock
 foundationdb-gen
 rrule
 stellar-strkey
+tendermint-abci
