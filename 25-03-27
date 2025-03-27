@@ -12,3 +12,4 @@ c2patool
 unic-langid-impl
 passepartui
 cargo-lock
+foundationdb-gen
