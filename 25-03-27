@@ -11,3 +11,4 @@ fend
 deno
 unic-langid-impl
 cargo-lock
+foundationdb-gen
