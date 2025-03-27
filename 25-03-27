@@ -25,3 +25,4 @@ nextest
 ddt
 probe-run
 git-next
+patch-crate
