@@ -31,3 +31,4 @@ cargo-spellcheck
 cargo-lock
 alacritty
 foundationdb-gen
+probe-run
