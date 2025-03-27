@@ -3,3 +3,4 @@ fend
 fend
 cargo-spellcheck
 ducc-sys
+rls-rustc
