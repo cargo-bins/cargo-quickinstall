@@ -14,3 +14,4 @@ probe-run
 tree-sitter-cli
 rls-rustc
 sudo-rs
+fatigue
