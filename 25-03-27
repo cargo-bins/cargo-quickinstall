@@ -44,3 +44,4 @@ blue-build
 clippy
 cargo-spellcheck
 probe-run
+hurlfmt
