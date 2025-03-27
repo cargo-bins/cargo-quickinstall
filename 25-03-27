@@ -18,3 +18,4 @@ cargo-lock
 cosmoline
 foundationdb-gen
 rrule
+scenic
