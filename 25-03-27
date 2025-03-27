@@ -39,3 +39,4 @@ metrics-observer
 alacritty
 hurlfmt
 foundationdb-gen
+tree-sitter-cli
