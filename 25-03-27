@@ -4,3 +4,4 @@ probe-run
 sea-orm-cli
 glim-tui
 ddt
+mdcat
