@@ -6,3 +6,4 @@ sudo-rs
 fatigue
 metrics-observer
 ducc-sys
+rls-rustc
