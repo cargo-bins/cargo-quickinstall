@@ -2,3 +2,4 @@ mit-pre-commit
 cargo-local-registry
 schemafy
 czkawka_gui
+sqlx-cli
