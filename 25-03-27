@@ -4,3 +4,4 @@ cargo-local-registry
 ducc-sys
 rls-rustc
 unic-langid-impl
+exa
