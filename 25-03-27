@@ -35,3 +35,4 @@ probe-run
 speedtest-rs
 patch-crate
 tod
+nextest
