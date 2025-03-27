@@ -15,3 +15,4 @@ tree-sitter-cli
 rls-rustc
 sudo-rs
 fatigue
+wiki-tui
