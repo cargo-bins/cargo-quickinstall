@@ -38,3 +38,4 @@ probe-run
 metrics-observer
 alacritty
 hurlfmt
+foundationdb-gen
