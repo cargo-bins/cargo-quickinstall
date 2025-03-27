@@ -9,3 +9,4 @@ ddt
 schemafy
 cargo-dylint
 sudo-rs
+ducc-sys
