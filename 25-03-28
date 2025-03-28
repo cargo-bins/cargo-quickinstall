@@ -25,3 +25,4 @@ paru
 nextest
 pgrx-tests
 cargo-show
+cargo-smart-release
