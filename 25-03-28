@@ -13,3 +13,4 @@ cargo-spellcheck
 cargo-about
 trusted-signing-cli
 paru
+graphql_client_cli
