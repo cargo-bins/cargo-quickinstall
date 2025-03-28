@@ -19,3 +19,4 @@ pgrx-tests
 rg
 cargo-duplicates
 cargo-duplicates
+apollo-router
