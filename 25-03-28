@@ -23,3 +23,4 @@ check_urls
 wol-rs
 paru
 nextest
+pgrx-tests
