@@ -16,3 +16,4 @@ sqlx-cli
 wol-rs
 pgrx-tests
 code2prompt
+ripsecrets
