@@ -28,3 +28,4 @@ probe-rs-cli
 paperclip
 sniffnet
 cargo-generate
+code2prompt
