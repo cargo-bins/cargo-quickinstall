@@ -21,3 +21,4 @@ rmesg
 git-mit-relates-to
 solana-cli
 code2prompt
+probe-rs-cli
