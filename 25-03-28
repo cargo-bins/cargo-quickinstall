@@ -24,3 +24,4 @@ gitspace
 dioxus-cli
 nu-completion-script
 pgrx-tests
+nu_plugin_dbus
