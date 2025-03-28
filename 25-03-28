@@ -5,3 +5,4 @@ clippy
 dioxus-cli
 cargo-info
 czkawka_gui
+cargo-public-api
