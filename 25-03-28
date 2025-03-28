@@ -31,3 +31,4 @@ nu_plugin_gstat
 check_urls
 fselect
 binwalk
+cargo-smart-release
