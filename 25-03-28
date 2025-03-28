@@ -17,3 +17,4 @@ rg
 wol-rs
 pgrx-tests
 rg
+cargo-duplicates
