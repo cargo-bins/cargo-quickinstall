@@ -28,3 +28,4 @@ nu_plugin_dbus
 gerust
 firewire-dice-protocols
 bunnyhop
+phf_generator
