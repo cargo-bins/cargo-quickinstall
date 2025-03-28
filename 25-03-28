@@ -13,3 +13,4 @@ probe-rs-cli
 ripsecrets
 tascli
 sqlx-cli
+wol-rs
