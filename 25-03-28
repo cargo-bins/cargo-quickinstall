@@ -2,3 +2,4 @@ pgrx-tests
 cargo-public-api
 tod
 blue-build
+clippy
