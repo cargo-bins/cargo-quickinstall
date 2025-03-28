@@ -5,3 +5,4 @@ cargo-lock
 diesel_cli
 hurl
 cargo-spellcheck
+diesel_cli
