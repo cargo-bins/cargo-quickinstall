@@ -43,3 +43,4 @@ dx-cli
 check_urls
 nu_plugin_query
 deno
+apollo-router
