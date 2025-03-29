@@ -6,3 +6,4 @@ rustowl
 pwasm-utils
 sea-orm-cli
 solana-net-utils
+graphql_client_cli
