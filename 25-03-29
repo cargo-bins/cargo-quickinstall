@@ -5,3 +5,4 @@ solana-validator
 dotenv-flow
 skim
 cargo-codspeed
+solana-genesis
