@@ -13,3 +13,4 @@ cargo-override
 solana-validator
 dx-cli
 binwalk
+excalivator-client
