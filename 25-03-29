@@ -35,3 +35,4 @@ dioxus-cli
 espflash
 cargo-override
 graphql_client_cli
+sniffnet
