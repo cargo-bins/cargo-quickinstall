@@ -33,3 +33,4 @@ cargo-override
 cargo-risczero
 dioxus-cli
 espflash
+cargo-override
