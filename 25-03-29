@@ -12,3 +12,4 @@ dotenv-flow
 zuse
 solana-genesis
 solana-keygen
+solana-cli
