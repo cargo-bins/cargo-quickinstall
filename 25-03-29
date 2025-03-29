@@ -60,3 +60,4 @@ nexmark
 python-project-generator
 graphql_client_cli
 dotenv
+fake
