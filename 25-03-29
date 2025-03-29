@@ -34,3 +34,4 @@ cargo-risczero
 dioxus-cli
 espflash
 cargo-override
+graphql_client_cli
