@@ -47,3 +47,4 @@ cargo-override
 dioxus-cli
 cargo-override
 sniffnet
+cleaner
