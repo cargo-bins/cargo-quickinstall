@@ -58,3 +58,4 @@ shunkakinoki
 cargo-override
 nexmark
 python-project-generator
+graphql_client_cli
