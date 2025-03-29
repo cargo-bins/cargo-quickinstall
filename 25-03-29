@@ -20,3 +20,4 @@ gerust
 hurl
 dotenv-flow
 sea-orm-cli
+nu_plugin_gstat
