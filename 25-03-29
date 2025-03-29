@@ -21,3 +21,4 @@ dx-cli
 dotenv-flow
 cleaner
 cargo-override
+cargo-smart-release
