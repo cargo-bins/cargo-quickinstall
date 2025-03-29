@@ -5,3 +5,4 @@ dx-cli
 rustowl
 pwasm-utils
 sea-orm-cli
+solana-net-utils
