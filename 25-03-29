@@ -29,3 +29,4 @@ cleaner
 dioxus-cli
 nu
 zuse
+cargo-override
