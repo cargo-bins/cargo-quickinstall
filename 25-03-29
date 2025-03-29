@@ -41,3 +41,4 @@ hurl
 nextest
 rustowl
 sniffnet
+graphql_client_cli
