@@ -14,3 +14,4 @@ cargo-git
 cargo-proc-debug
 cargo-proc-debug
 cargo-tag
+cargo-tag
