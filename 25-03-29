@@ -12,3 +12,4 @@ solana-cli
 nexmark
 ducc-sys
 dotenv
+cargo-pgrx
