@@ -4,3 +4,4 @@ solana-net-utils
 solana-validator
 dotenv-flow
 skim
+cargo-codspeed
