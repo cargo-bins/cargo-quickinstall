@@ -11,3 +11,4 @@ cargo-git
 zuse
 cargo-git
 cargo-git
+cargo-proc-debug
