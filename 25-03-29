@@ -32,3 +32,4 @@ bootloader_linker
 nexmark
 dotenv
 skim
+auto-palette-cli
