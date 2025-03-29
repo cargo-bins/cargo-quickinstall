@@ -38,3 +38,4 @@ graphql_client_cli
 sniffnet
 sea-orm-cli
 hurl
+nextest
