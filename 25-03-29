@@ -9,3 +9,4 @@ solana-net-utils
 graphql_client_cli
 hippotat
 gerust
+cargo-override
