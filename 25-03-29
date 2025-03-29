@@ -63,3 +63,4 @@ dotenv
 fake
 cargo-public-api
 cargo-pgrx
+sniffnet
