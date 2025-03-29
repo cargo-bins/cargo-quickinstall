@@ -8,3 +8,4 @@ cargo-codspeed
 solana-genesis
 solana-cli
 nexmark
+dotenv
