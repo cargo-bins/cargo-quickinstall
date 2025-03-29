@@ -16,3 +16,4 @@ fend
 cargo-about
 sea-orm-cli
 cargo-override
+cargo-smart-release
