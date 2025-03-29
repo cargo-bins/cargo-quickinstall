@@ -11,3 +11,4 @@ cargo-override
 hippotat
 nu_plugin_query
 solana-validator
+check_urls
