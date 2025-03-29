@@ -24,3 +24,4 @@ cargo-override
 cargo-smart-release
 redoxer
 nextest
+hippotat
