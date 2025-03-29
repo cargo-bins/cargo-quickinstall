@@ -6,3 +6,4 @@ dotenv-flow
 html2md
 zuse
 espflash
+cargo-msrv
