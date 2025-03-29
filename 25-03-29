@@ -7,3 +7,4 @@ pwasm-utils
 binwalk
 solana-net-utils
 dx-cli
+cargo-override
