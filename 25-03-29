@@ -63,3 +63,4 @@ nexmark
 dotenv
 hid-recorder
 fake
+python-project-generator
