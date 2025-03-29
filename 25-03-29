@@ -4,3 +4,4 @@ cargo-generate
 pwasm-utils
 solana-net-utils
 sniffnet
+solana-validator
