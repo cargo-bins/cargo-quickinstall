@@ -26,3 +26,4 @@ cargo-proc-debug
 shunkakinoki
 nexmark
 ducc-sys
+dotenv
