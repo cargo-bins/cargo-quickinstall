@@ -8,3 +8,4 @@ solana-net-utils
 solana-validator
 cargo-about
 cargo-duplicates
+dotenv-flow
