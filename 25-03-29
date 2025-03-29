@@ -30,3 +30,4 @@ auto-palette-cli
 solana-cli
 bootloader_linker
 nexmark
+dotenv
