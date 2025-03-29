@@ -12,3 +12,4 @@ html2md
 solana-keygen
 solana-cli
 nexmark
+dotenv
