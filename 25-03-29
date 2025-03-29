@@ -4,3 +4,4 @@ fend
 dx-cli
 rustowl
 pwasm-utils
+sea-orm-cli
