@@ -3,3 +3,4 @@ sniffglue
 cargo-generate
 pwasm-utils
 solana-net-utils
+sniffnet
