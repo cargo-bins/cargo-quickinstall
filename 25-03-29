@@ -62,3 +62,4 @@ graphql_client_cli
 dotenv
 fake
 cargo-public-api
+cargo-pgrx
