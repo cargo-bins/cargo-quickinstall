@@ -2,3 +2,4 @@ sha1collisiondetection
 pwasm-utils
 solana-net-utils
 solana-validator
+dotenv-flow
