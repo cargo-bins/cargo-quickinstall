@@ -5,3 +5,4 @@ dioxus-cli
 hurl
 pwasm-utils
 binwalk
+solana-net-utils
