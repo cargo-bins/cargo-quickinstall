@@ -11,3 +11,4 @@ protox
 solana-cli
 nexmark
 ducc-sys
+dotenv
