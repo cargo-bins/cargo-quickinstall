@@ -3,3 +3,4 @@ cargo-outdated
 cargo-risczero
 dioxus-cli
 hurl
+pwasm-utils
