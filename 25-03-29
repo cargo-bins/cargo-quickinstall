@@ -13,3 +13,4 @@ dotenv-flow
 sniffnet
 skim
 sniffglue
+cargo-generate
