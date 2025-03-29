@@ -18,3 +18,4 @@ sea-orm-cli
 cargo-override
 cargo-smart-release
 dx-cli
+dotenv-flow
