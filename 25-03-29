@@ -21,3 +21,4 @@ cargo-tag
 solana-genesis
 cargo-proc-debug
 solana-keygen
+solana-cli
