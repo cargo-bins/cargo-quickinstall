@@ -9,3 +9,4 @@ solana-net-utils
 dx-cli
 cargo-override
 hippotat
+nu_plugin_query
