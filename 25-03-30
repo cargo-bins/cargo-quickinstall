@@ -7,3 +7,4 @@ zuse
 cargo-lock
 racer
 clap-stdin
+foundationdb-gen
