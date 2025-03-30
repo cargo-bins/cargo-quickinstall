@@ -5,3 +5,4 @@ tokio-process
 cargo-lock
 racer
 clap-stdin
+dbus-codegen
