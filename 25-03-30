@@ -8,3 +8,4 @@ clap-stdin
 foundationdb-gen
 syd
 rrule
+borsh
