@@ -5,3 +5,4 @@ snarkvm
 cargo-lock
 racer
 clap-stdin
+foundationdb-gen
