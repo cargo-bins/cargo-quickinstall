@@ -32,3 +32,4 @@ binstall
 mdcat
 spider_cli
 clipboard-history
+clap-stdin
