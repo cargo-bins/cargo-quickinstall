@@ -4,3 +4,4 @@ bootloader_linker
 subtile-ocr
 auto-palette-cli
 bootloader_linker
+clippy
