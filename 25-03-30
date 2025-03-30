@@ -20,3 +20,4 @@ dua-cli
 cargo-lock
 dua-cli
 racer
+clap-stdin
