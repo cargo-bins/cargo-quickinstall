@@ -30,3 +30,4 @@ cargo-lock
 racer
 binstall
 mdcat
+spider_cli
