@@ -10,3 +10,4 @@ foundationdb-gen
 syd
 rrule
 borsh
+honggfuzz
