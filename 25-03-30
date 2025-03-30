@@ -9,3 +9,4 @@ racer
 clap-stdin
 dbus-codegen
 foundationdb-gen
+syd
