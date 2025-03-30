@@ -3,3 +3,4 @@ wayland-interface-check
 typst-cli
 cargo-lock
 fend
+clipboard-history
