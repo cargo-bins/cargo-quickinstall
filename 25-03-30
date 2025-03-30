@@ -9,3 +9,4 @@ dbus-codegen
 foundationdb-gen
 syd
 rrule
+borsh
