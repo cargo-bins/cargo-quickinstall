@@ -35,3 +35,4 @@ clipboard-history
 clap-stdin
 wayland-interface-check
 iwes
+binstall
