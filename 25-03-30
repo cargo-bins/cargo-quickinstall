@@ -36,3 +36,4 @@ clap-stdin
 wayland-interface-check
 iwes
 binstall
+foundationdb-gen
