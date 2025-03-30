@@ -16,3 +16,4 @@ cargo-public-api
 wayland-interface-check
 nu
 nextsv
+simple-http-server
