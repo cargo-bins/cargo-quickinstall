@@ -35,3 +35,4 @@ nextest
 libbpf-cargo
 kanidm_tools
 nextest
+binstall
