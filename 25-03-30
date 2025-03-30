@@ -4,3 +4,4 @@ typst-cli
 cargo-lock
 fend
 clipboard-history
+spider_cli
