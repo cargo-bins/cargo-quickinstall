@@ -36,3 +36,4 @@ cargo-lock
 hid-recorder
 racer
 wayland-interface-check
+yaydl
