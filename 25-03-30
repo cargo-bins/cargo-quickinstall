@@ -2,3 +2,4 @@ cargo-lock
 dioxus-cli
 dioxus-cli
 solana-genesis
+clippy
