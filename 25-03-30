@@ -4,3 +4,4 @@ clippy
 tokio-process
 cargo-lock
 racer
+clap-stdin
