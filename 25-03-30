@@ -38,3 +38,4 @@ nextest
 binstall
 kanidm_tools
 raw-cpuid
+rustfmt-nightly
