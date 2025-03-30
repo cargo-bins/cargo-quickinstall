@@ -13,3 +13,4 @@ nextest
 nextest
 cargo-lock
 racer
+clap-stdin
