@@ -6,3 +6,4 @@ clippy
 zuse
 cargo-lock
 racer
+clap-stdin
