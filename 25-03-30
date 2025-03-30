@@ -14,3 +14,4 @@ cargo-public-api
 clippy
 cargo-public-api
 wayland-interface-check
+nu
