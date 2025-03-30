@@ -3,3 +3,4 @@ solana-genesis
 clippy
 tokio-process
 cargo-lock
+racer
