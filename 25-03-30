@@ -27,3 +27,4 @@ python-project-generator
 spider_cli
 clipboard-history
 cargo-lock
+racer
