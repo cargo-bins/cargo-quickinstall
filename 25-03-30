@@ -16,3 +16,4 @@ cargo-lock
 racer
 clap-stdin
 dbus-codegen
+foundationdb-gen
