@@ -52,3 +52,4 @@ snarkvm
 airshipper
 nextest
 simple-http-server
+clipboard-history-tui
