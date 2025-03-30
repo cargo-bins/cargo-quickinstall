@@ -41,3 +41,4 @@ clap-stdin
 wayland-interface-check
 foundationdb-gen
 clipboard-history
+hid-recorder
