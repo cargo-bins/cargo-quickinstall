@@ -21,3 +21,4 @@ cargo-lock
 dua-cli
 racer
 clap-stdin
+dbus-codegen
