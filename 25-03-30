@@ -37,3 +37,4 @@ hid-recorder
 racer
 wayland-interface-check
 yaydl
+clap-stdin
