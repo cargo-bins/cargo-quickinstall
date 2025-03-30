@@ -4,3 +4,4 @@ dioxus-cli
 solana-genesis
 clippy
 zuse
+cargo-lock
