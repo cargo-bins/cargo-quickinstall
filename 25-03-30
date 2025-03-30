@@ -22,3 +22,4 @@ dua-cli
 racer
 clap-stdin
 dbus-codegen
+foundationdb-gen
