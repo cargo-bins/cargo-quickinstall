@@ -10,3 +10,4 @@ clap-stdin
 foundationdb-gen
 syd
 rrule
+snarkvm
