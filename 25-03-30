@@ -2,3 +2,4 @@ cargo-lock
 tree-sitter-graph
 clippy
 zuse
+cargo-lock
