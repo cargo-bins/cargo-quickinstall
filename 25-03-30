@@ -40,3 +40,4 @@ yaydl
 clap-stdin
 wayland-interface-check
 foundationdb-gen
+clipboard-history
