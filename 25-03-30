@@ -11,3 +11,4 @@ fend
 cargo-info
 solana-genesis
 cargo-public-api
+clippy
