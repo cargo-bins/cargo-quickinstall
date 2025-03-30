@@ -35,3 +35,4 @@ flipperzero-tools
 cargo-lock
 hid-recorder
 racer
+wayland-interface-check
