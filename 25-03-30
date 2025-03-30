@@ -4,3 +4,4 @@ zuse
 snarkvm
 cargo-lock
 racer
+clap-stdin
