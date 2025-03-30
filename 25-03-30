@@ -8,3 +8,4 @@ clap-stdin
 dbus-codegen
 foundationdb-gen
 syd
+rrule
