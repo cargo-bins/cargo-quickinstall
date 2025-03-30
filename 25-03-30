@@ -16,3 +16,4 @@ libbpf-cargo
 lair_keystore_api
 cargo-vet
 raw-cpuid
+rustfmt-nightly
