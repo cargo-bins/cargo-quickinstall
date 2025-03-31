@@ -13,3 +13,4 @@ spider_worker
 ducc-sys
 tree-sitter-cli
 solana-stake-accounts
+solana-gossip
