@@ -16,3 +16,4 @@ squawk
 ducc-sys
 openpty
 sha1collisiondetection
+tree-sitter-graph
