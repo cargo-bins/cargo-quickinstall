@@ -32,3 +32,4 @@ solana-validator
 cargo-bounds
 phf_generator
 cargo-embassy
+python-project-generator
