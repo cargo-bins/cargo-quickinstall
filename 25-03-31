@@ -6,3 +6,4 @@ addr2line
 remove_dir_all
 wizer
 binstall
+winpty-rs
