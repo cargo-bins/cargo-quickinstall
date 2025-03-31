@@ -15,3 +15,4 @@ solana-stake-accounts
 solana-gossip
 sha1collisiondetection
 parquet
+tree-sitter-graph
