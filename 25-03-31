@@ -53,3 +53,4 @@ mise
 fselect
 cargo-pgrx
 nu
+remove_dir_all
