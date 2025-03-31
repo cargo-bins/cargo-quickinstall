@@ -20,3 +20,4 @@ feroxbuster
 mit-pre-commit
 ducc-sys
 openpty
+sqlx-cli
