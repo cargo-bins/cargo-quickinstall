@@ -12,3 +12,4 @@ phf_generator
 mit-pre-commit
 human_bytes
 dotenv
+ducc-sys
