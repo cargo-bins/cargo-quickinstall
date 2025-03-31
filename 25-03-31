@@ -11,3 +11,4 @@ solana-validator
 phf_generator
 spider_worker
 ducc-sys
+tree-sitter-cli
