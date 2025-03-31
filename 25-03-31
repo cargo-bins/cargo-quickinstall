@@ -60,3 +60,4 @@ fend
 remove_dir_all
 cargo-pgrx
 nu_plugin_plotters
+proof-of-sql
