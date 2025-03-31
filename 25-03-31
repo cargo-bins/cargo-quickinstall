@@ -40,3 +40,4 @@ tod
 fselect
 cargo-pgrx
 cargo-whatfeatures
+libbpf-cargo
