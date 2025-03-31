@@ -25,3 +25,4 @@ rustbus
 solana-gossip
 sha1collisiondetection
 parquet
+tree-sitter-graph
