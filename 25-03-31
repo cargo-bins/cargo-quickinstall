@@ -41,3 +41,4 @@ airshipper
 ducc-sys
 dotenv
 cargo-pgrx
+tui-journal
