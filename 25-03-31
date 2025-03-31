@@ -13,3 +13,4 @@ tree-sitter-cli
 clipboard-history-tui
 cargo-whatfeatures
 python-project-generator
+winpty-rs
