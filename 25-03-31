@@ -19,3 +19,4 @@ squawk
 sha1collisiondetection
 parquet
 tree-sitter-graph
+remove_dir_all
