@@ -37,3 +37,4 @@ cargo-bounds
 shadowsocks-rust
 ducc-sys
 tod
+fselect
