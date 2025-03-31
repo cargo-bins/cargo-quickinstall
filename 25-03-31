@@ -57,3 +57,4 @@ cargo-bom
 cargo-pgrx
 nu_plugin_plotters
 fend
+remove_dir_all
