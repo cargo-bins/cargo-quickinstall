@@ -48,3 +48,4 @@ cargo-bom
 parquet
 pcu
 tree-sitter-graph
+python-project-generator
