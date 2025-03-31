@@ -1,2 +1,3 @@
 cpp_demangle
 addr2line
+remove_dir_all
