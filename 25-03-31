@@ -4,3 +4,4 @@ cpp_demangle
 binstall
 addr2line
 remove_dir_all
+wizer
