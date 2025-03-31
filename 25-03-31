@@ -5,3 +5,4 @@ kanidm_tools
 addr2line
 binstall
 monolith
+remove_dir_all
