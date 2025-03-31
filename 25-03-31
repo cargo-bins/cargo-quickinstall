@@ -11,3 +11,4 @@ solana-validator
 phf_generator
 mit-pre-commit
 human_bytes
+dotenv
