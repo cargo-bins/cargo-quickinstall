@@ -18,3 +18,4 @@ rustbus
 solana-stake-accounts
 solana-gossip
 sha1collisiondetection
+tree-sitter-graph
