@@ -10,3 +10,4 @@ phf_generator
 spider_worker
 human_bytes
 ducc-sys
+tree-sitter-cli
