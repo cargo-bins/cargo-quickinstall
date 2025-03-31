@@ -22,3 +22,4 @@ libbpf-cargo
 tree-sitter-cli
 yozefu
 solana-stake-accounts
+solana-gossip
