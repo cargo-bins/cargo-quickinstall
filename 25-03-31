@@ -10,3 +10,4 @@ winpty-rs
 binstall
 java-locator
 solana-validator
+phf_generator
