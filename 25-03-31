@@ -18,3 +18,4 @@ solana-validator
 phf_generator
 feroxbuster
 mit-pre-commit
+ducc-sys
