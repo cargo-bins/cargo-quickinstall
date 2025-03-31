@@ -44,3 +44,4 @@ libbpf-cargo
 airshipper
 solana-gossip
 sha1collisiondetection
+cargo-bom
