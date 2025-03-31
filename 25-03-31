@@ -46,3 +46,4 @@ solana-gossip
 sha1collisiondetection
 cargo-bom
 parquet
+pcu
