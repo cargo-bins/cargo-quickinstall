@@ -5,3 +5,4 @@ java-locator
 remove_dir_all
 winpty-rs
 dioxus-cli
+solana-validator
