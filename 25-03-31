@@ -45,3 +45,4 @@ tui-journal
 cargo-public-api
 nextsv
 speedtest-rs
+tree-sitter-cli
