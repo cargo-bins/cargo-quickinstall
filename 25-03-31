@@ -16,3 +16,4 @@ solana-gossip
 sha1collisiondetection
 tree-sitter-graph
 cargo-pgrx
+remove_dir_all
