@@ -11,3 +11,4 @@ cargo-public-api
 simple-http-server
 wol
 remove_dir_all
+sea-orm-cli
