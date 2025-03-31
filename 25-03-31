@@ -4,3 +4,4 @@ sea-orm-cli
 cpp_demangle
 neovide
 addr2line
+clipboard-history-tui
