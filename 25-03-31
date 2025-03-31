@@ -7,3 +7,4 @@ sn_node
 cargo-generate
 java-locator
 rkv
+solana-validator
