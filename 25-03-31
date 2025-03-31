@@ -16,3 +16,4 @@ ducc-sys
 openpty
 rustbus
 solana-stake-accounts
+solana-gossip
