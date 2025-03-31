@@ -8,3 +8,4 @@ winpty-rs
 solana-faucet
 java-locator
 solana-validator
+phf_generator
