@@ -17,3 +17,4 @@ openpty
 rustbus
 solana-stake-accounts
 solana-gossip
+sha1collisiondetection
