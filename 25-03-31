@@ -24,3 +24,4 @@ sqlx-cli
 rustbus
 solana-gossip
 sha1collisiondetection
+parquet
