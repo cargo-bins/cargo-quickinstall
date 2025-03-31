@@ -12,3 +12,4 @@ human_bytes
 ducc-sys
 tree-sitter-cli
 solana-stake-accounts
+solana-gossip
