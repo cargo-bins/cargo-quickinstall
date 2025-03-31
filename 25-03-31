@@ -4,3 +4,4 @@ remove_dir_all
 winpty-rs
 solana-faucet
 java-locator
+rkv
