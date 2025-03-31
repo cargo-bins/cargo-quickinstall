@@ -47,3 +47,4 @@ sha1collisiondetection
 cargo-bom
 parquet
 pcu
+tree-sitter-graph
