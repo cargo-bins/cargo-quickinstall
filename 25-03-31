@@ -14,3 +14,4 @@ remove_dir_all
 sea-orm-cli
 tuono
 alert-after
+winpty-rs
