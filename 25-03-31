@@ -4,3 +4,4 @@ addr2line
 solana-keygen
 java-locator
 remove_dir_all
+winpty-rs
