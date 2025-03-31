@@ -7,3 +7,4 @@ solana-faucet
 java-locator
 rkv
 solana-validator
+phf_generator
