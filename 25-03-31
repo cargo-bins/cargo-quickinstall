@@ -2,3 +2,4 @@ kanidm_tools
 binstall
 cpp_demangle
 kanidm_tools
+addr2line
