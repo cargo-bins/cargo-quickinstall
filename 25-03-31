@@ -27,3 +27,4 @@ cargo-embassy
 kanidm_tools
 rkv
 solana-validator
+phf_generator
