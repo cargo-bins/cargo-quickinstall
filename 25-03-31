@@ -13,3 +13,4 @@ mit-pre-commit
 human_bytes
 dotenv
 ducc-sys
+openpty
