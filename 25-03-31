@@ -54,3 +54,4 @@ fselect
 cargo-pgrx
 nu
 remove_dir_all
+shadowsocks-rust
