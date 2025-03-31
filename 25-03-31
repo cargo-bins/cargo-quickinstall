@@ -4,3 +4,4 @@ addr2line
 remove_dir_all
 winpty-rs
 sn_node
+cargo-generate
