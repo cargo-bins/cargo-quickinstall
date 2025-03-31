@@ -9,3 +9,4 @@ solana-validator
 binstall
 java-locator
 solana-validator
+phf_generator
