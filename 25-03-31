@@ -3,3 +3,4 @@ cargo-embassy
 cpp_demangle
 laze
 iwes
+addr2line
