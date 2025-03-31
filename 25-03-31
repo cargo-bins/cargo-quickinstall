@@ -19,3 +19,4 @@ spider_worker
 ducc-sys
 yozefu
 libbpf-cargo
+tree-sitter-cli
