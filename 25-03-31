@@ -40,3 +40,4 @@ spider_worker
 airshipper
 ducc-sys
 dotenv
+cargo-pgrx
