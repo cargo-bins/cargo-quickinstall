@@ -43,3 +43,4 @@ dotenv
 cargo-pgrx
 tui-journal
 cargo-public-api
+nextsv
