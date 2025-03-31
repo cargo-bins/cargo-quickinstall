@@ -9,3 +9,4 @@ solana-faucet
 java-locator
 solana-validator
 phf_generator
+spider_worker
