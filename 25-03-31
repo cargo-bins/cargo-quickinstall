@@ -35,3 +35,4 @@ cargo-bounds
 spider_worker
 cargo-bounds
 shadowsocks-rust
+ducc-sys
