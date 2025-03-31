@@ -7,3 +7,4 @@ binstall
 monolith
 remove_dir_all
 monolith
+winpty-rs
