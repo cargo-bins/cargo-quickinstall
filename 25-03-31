@@ -19,3 +19,4 @@ phf_generator
 feroxbuster
 mit-pre-commit
 ducc-sys
+openpty
