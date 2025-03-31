@@ -53,3 +53,4 @@ sha1collisiondetection
 tree-sitter-graph
 fselect
 tree-sitter-cli
+cargo-bom
