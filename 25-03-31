@@ -8,3 +8,4 @@ kanidm_tools
 graphql_client_cli
 wol
 tuono
+remove_dir_all
