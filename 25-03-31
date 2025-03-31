@@ -43,3 +43,4 @@ cargo-whatfeatures
 libbpf-cargo
 airshipper
 solana-gossip
+sha1collisiondetection
