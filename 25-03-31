@@ -10,3 +10,4 @@ kanidm_tools
 cargo-public-api
 simple-http-server
 wol
+remove_dir_all
