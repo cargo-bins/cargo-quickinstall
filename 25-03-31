@@ -2,3 +2,4 @@ binstall
 wizer
 cpp_demangle
 binstall
+addr2line
