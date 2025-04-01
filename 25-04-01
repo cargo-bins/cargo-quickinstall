@@ -49,3 +49,4 @@ xcp
 speedtest-rs
 cargo-embed
 loop-rs
+cargo-dylint
