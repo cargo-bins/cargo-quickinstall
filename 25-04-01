@@ -71,3 +71,4 @@ cargo-lambda
 tree_magic
 trusted-signing-cli
 sha1collisiondetection
+tuono
