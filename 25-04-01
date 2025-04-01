@@ -58,3 +58,4 @@ cargo-duplicates
 nu
 alacritty
 wmi
+cargo-bom
