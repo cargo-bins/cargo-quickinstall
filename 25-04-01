@@ -17,3 +17,4 @@ cargo-bounds
 stellar-cli
 binwalk
 loop-rs
+clippy
