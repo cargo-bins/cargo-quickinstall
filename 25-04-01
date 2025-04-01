@@ -4,3 +4,4 @@ sqlx-cli
 mit-pre-commit
 nkeys
 monolith
+rkv
