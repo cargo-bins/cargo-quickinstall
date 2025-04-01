@@ -45,3 +45,4 @@ wmi
 addr2line
 cargo-embassy
 cargo-duplicates
+deploy
