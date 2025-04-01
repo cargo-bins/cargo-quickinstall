@@ -7,3 +7,4 @@ wmi
 deploy
 alacritty
 tree_magic
+dotenv
