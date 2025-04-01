@@ -2,3 +2,4 @@ benfred-read-process-memory
 mit-pre-commit
 sn_node_rpc_client
 rkv
+minicbor
