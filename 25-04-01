@@ -54,3 +54,4 @@ cargo-bom
 bugstalker
 git-workspace
 fselect
+cargo-duplicates
