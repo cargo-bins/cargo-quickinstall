@@ -43,3 +43,4 @@ alacritty
 laze
 wmi
 addr2line
+cargo-embassy
