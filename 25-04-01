@@ -27,3 +27,4 @@ minicbor
 fend
 bugstalker
 loop-rs
+cargo-dylint
