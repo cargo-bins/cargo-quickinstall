@@ -12,3 +12,4 @@ dioxus-cli
 hurl
 rrule
 cargo-pgrx
+cargo-bom
