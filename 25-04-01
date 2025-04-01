@@ -2,3 +2,4 @@ binwalk
 cargo-whatfeatures
 fselect
 stellar-cli
+cargo-pgrx
