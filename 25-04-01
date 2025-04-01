@@ -53,3 +53,4 @@ cargo-dylint
 cargo-bom
 bugstalker
 git-workspace
+fselect
