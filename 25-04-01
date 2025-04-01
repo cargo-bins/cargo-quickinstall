@@ -44,3 +44,4 @@ loop-rs
 clippy
 nu
 cargo-flash
+trusted-signing-cli
