@@ -48,3 +48,4 @@ cargo-duplicates
 deploy
 addr2line
 cargo-bom
+addr2line
