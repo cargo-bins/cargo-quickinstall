@@ -14,3 +14,4 @@ cargo-maelstrom
 minicbor
 wmi
 netns_tcp_bridge
+cargo-maelstrom
