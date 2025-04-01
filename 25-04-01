@@ -11,3 +11,4 @@ cargo-maelstrom
 deploy
 tree_magic
 cargo-maelstrom
+minicbor
