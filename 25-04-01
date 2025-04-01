@@ -13,3 +13,4 @@ tree_magic
 cargo-maelstrom
 minicbor
 wmi
+netns_tcp_bridge
