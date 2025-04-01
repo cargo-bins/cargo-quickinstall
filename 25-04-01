@@ -50,3 +50,4 @@ speedtest-rs
 cargo-embed
 loop-rs
 cargo-dylint
+cargo-bom
