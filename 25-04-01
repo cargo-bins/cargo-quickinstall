@@ -35,3 +35,4 @@ cargo-duplicates
 zuse
 trusted-signing-cli
 binwalk
+cargo-pgrx
