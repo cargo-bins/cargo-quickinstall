@@ -16,3 +16,4 @@ bugstalker
 cargo-bounds
 stellar-cli
 binwalk
+loop-rs
