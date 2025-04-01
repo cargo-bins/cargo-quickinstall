@@ -30,3 +30,4 @@ soroban-cli
 rkv
 cargo-dylint
 trusted-signing-cli
+fselect
