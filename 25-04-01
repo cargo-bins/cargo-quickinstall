@@ -43,3 +43,4 @@ cargo-duplicates
 loop-rs
 clippy
 nu
+cargo-flash
