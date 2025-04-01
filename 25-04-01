@@ -52,3 +52,4 @@ loop-rs
 cargo-dylint
 cargo-bom
 bugstalker
+git-workspace
