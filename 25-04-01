@@ -42,3 +42,4 @@ cargo-duplicates
 alacritty
 laze
 wmi
+addr2line
