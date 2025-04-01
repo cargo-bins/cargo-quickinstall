@@ -28,3 +28,4 @@ cargo-bom
 nextsv
 soroban-cli
 rkv
+cargo-dylint
