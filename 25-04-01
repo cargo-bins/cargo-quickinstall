@@ -24,3 +24,4 @@ deploy
 cargo-maelstrom
 tree_magic
 airshipper
+minicbor
