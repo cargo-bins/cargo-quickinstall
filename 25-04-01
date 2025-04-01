@@ -11,3 +11,4 @@ stellar-cli
 binwalk
 speedtest-rs
 laze
+cargo-bounds
