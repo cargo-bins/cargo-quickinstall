@@ -61,3 +61,4 @@ wmi
 cargo-bom
 cargo-dylint
 project_ares
+deploy
