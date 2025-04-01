@@ -49,3 +49,4 @@ deploy
 addr2line
 cargo-bom
 addr2line
+loop-rs
