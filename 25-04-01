@@ -41,3 +41,4 @@ r-matrix
 cargo-flash
 cargo-duplicates
 loop-rs
+clippy
