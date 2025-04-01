@@ -16,3 +16,4 @@ cargo-bom
 nu
 hurl
 cargo-public-api
+sea-orm-cli
