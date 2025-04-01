@@ -33,3 +33,4 @@ cargo-dylint
 git-workspace
 cargo-duplicates
 zuse
+trusted-signing-cli
