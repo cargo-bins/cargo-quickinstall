@@ -38,3 +38,4 @@ binwalk
 cargo-pgrx
 pcu
 solang
+cargo-duplicates
