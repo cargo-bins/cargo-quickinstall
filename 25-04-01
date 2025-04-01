@@ -9,3 +9,4 @@ cargo-bom
 pcu
 stellar-cli
 binwalk
+speedtest-rs
