@@ -32,3 +32,4 @@ cargo-public-api
 cargo-dylint
 git-workspace
 cargo-duplicates
+zuse
