@@ -48,3 +48,4 @@ trusted-signing-cli
 xcp
 speedtest-rs
 cargo-embed
+loop-rs
