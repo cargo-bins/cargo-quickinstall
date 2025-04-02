@@ -8,3 +8,4 @@ cargo-flash
 pcu
 opencv-binding-generator
 redoxer
+git-workspace
