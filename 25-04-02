@@ -36,3 +36,4 @@ nextest
 hurlfmt
 sudo-rs
 rkv
+simple-http-server
