@@ -3,3 +3,4 @@ airshipper
 addr2line
 netns_tcp_bridge
 hunter
+nexmark
