@@ -39,3 +39,4 @@ rkv
 simple-http-server
 lowfi
 java-locator
+cargo-dylint
