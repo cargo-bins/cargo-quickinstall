@@ -7,3 +7,4 @@ addr2line
 opencv-binding-generator
 xee
 addr2line
+cargo-duplicates
