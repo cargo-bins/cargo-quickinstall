@@ -9,3 +9,4 @@ pcu
 opencv-binding-generator
 redoxer
 git-workspace
+trusted-signing-cli
