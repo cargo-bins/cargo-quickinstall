@@ -45,3 +45,4 @@ hurlfmt
 cargo-about
 laze
 deploy
+cargo-dylint
