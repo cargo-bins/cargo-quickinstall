@@ -35,3 +35,4 @@ cargo-lambda
 nextest
 hurlfmt
 sudo-rs
+rkv
