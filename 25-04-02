@@ -5,3 +5,4 @@ cargo-lambda
 soroban-cli
 addr2line
 opencv-binding-generator
+xee
