@@ -7,3 +7,4 @@ stellar-cli
 cargo-flash
 pcu
 opencv-binding-generator
+redoxer
