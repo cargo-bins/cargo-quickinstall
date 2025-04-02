@@ -5,3 +5,4 @@ rustup-toolchain-install-master
 nexmark
 laminar
 pandora_box
+dotenv-flow
