@@ -43,3 +43,4 @@ cargo-dylint
 nix-installer
 cargo-about
 deploy
+nix-installer
