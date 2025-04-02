@@ -16,3 +16,4 @@ addr2line
 cargo-flash
 spotifyd
 cargo-ktra-login
+dioxus-cli
