@@ -9,3 +9,4 @@ xee
 addr2line
 cargo-duplicates
 cargo-about
+cargo-embed
