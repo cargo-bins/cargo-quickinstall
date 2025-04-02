@@ -25,3 +25,4 @@ cargo-lambda
 laminar
 laze
 redoxer
+dioxus-cli
