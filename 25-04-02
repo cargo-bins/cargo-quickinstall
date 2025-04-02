@@ -27,3 +27,4 @@ deploy
 glit
 hunter
 bb
+cargo-extras
