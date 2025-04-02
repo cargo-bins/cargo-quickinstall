@@ -2,3 +2,4 @@ httpbis
 opencv-binding-generator
 addr2line
 nexmark
+rustup-toolchain-install-master
