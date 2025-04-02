@@ -6,3 +6,4 @@ cargo-maelstrom
 airshipper
 addr2line
 bb
+sshx
