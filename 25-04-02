@@ -21,3 +21,4 @@ rustup-toolchain-install-master
 stellar-cli
 cargo-embed
 xee
+cargo-lambda
