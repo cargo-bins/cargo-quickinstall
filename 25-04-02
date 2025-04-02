@@ -5,3 +5,4 @@ addr2line
 cargo-spellcheck
 deno
 cargo-spellcheck
+rustup-toolchain-install-master
