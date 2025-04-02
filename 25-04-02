@@ -55,3 +55,4 @@ snarkvm
 spider_cli
 simple-http-server
 wiki-tui
+nix-installer
