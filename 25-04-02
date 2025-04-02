@@ -9,3 +9,4 @@ rustup-toolchain-install-master
 solana-keygen
 laminar
 pandora_box
+dotenv-flow
