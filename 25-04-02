@@ -20,3 +20,4 @@ dioxus-cli
 spotifyd
 rustup-toolchain-install-master
 trusted-signing-cli
+laze
