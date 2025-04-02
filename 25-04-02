@@ -45,3 +45,4 @@ cargo-about
 deploy
 nix-installer
 bluetui
+paperclip
