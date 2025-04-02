@@ -11,3 +11,4 @@ redoxer
 git-workspace
 trusted-signing-cli
 cargo-spellcheck
+cargo-about
