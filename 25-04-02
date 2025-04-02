@@ -34,3 +34,4 @@ xee
 cargo-lambda
 nextest
 hurlfmt
+sudo-rs
