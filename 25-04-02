@@ -8,3 +8,4 @@ opencv-binding-generator
 xee
 addr2line
 cargo-duplicates
+cargo-about
