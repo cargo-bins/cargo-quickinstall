@@ -4,3 +4,4 @@ airshipper
 netns_tcp_bridge
 cargo-maelstrom
 airshipper
+addr2line
