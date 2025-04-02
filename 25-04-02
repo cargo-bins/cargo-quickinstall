@@ -5,3 +5,4 @@ nexmark
 rustup-toolchain-install-master
 git-mit
 laminar
+cached-path
