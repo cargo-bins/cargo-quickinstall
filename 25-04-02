@@ -2,3 +2,4 @@ opencv-binding-generator
 cargo-about
 addr2line
 rustup-toolchain-install-master
+laminar
