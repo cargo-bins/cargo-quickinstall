@@ -19,3 +19,4 @@ cargo-ktra-login
 dioxus-cli
 spotifyd
 rustup-toolchain-install-master
+trusted-signing-cli
