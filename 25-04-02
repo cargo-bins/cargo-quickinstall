@@ -2,3 +2,4 @@ opencv-binding-generator
 cargo-spellcheck
 cargo-about
 addr2line
+cargo-spellcheck
