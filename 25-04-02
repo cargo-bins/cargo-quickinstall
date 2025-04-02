@@ -21,3 +21,4 @@ spotifyd
 rustup-toolchain-install-master
 trusted-signing-cli
 laze
+hurl
