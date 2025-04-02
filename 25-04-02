@@ -26,3 +26,4 @@ laminar
 laze
 redoxer
 dioxus-cli
+dotenv-flow
