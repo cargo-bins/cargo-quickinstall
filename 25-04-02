@@ -46,3 +46,4 @@ deploy
 nix-installer
 bluetui
 paperclip
+simple-http-server
