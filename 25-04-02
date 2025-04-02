@@ -6,3 +6,4 @@ xee
 stellar-cli
 cargo-flash
 pcu
+opencv-binding-generator
