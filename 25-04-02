@@ -40,3 +40,4 @@ simple-http-server
 lowfi
 java-locator
 cargo-dylint
+nix-installer
