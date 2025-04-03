@@ -15,3 +15,4 @@ parquet
 c2patool
 zellij
 diesel_cli
+dotenv
