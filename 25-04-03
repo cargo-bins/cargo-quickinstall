@@ -6,3 +6,4 @@ parquet
 diesel_cli
 dotenv-flow
 dotenv
+libbpf-cargo
