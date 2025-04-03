@@ -5,3 +5,4 @@ cargo-leptos
 stellar-xdr
 syd
 addr2line
+diesel_cli
