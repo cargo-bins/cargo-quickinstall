@@ -17,3 +17,4 @@ lux-cli
 tree-sitter-cli
 paru
 sudo-rs
+cargo-bounds
