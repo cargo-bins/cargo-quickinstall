@@ -40,3 +40,4 @@ markdown2pdf
 libbpf-cargo
 cargo-outdated
 nkeys
+cargo-spellcheck
