@@ -18,3 +18,4 @@ diesel_cli
 dotenv
 cargo-deb
 libbpf-cargo
+cargo-deb
