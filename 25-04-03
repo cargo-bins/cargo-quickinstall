@@ -22,3 +22,4 @@ parquet
 diesel_cli
 panduck
 dotenv-flow
+csv-txt-excel-parallel-toolkit
