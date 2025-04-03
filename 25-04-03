@@ -4,3 +4,4 @@ stellar-xdr
 cargo-pgrx
 syd
 addr2line
+stellar-strkey
