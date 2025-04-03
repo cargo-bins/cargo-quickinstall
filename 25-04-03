@@ -5,3 +5,4 @@ syd
 parquet
 diesel_cli
 dotenv-flow
+dotenv
