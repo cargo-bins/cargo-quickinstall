@@ -4,3 +4,4 @@ cargo-pgrx
 syd
 parquet
 diesel_cli
+dotenv-flow
