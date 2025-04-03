@@ -40,3 +40,4 @@ laze
 cargo-about
 hurlfmt
 wiki-tui
+dotenv
