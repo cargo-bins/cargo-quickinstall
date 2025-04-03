@@ -6,3 +6,4 @@ addr2line
 diesel_cli
 dotenv-flow
 dotenv
+libbpf-cargo
