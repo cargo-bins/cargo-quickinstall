@@ -26,3 +26,4 @@ csv-txt-excel-parallel-toolkit
 dotenv
 tmuxstatus
 pidtree_mon
+libbpf-cargo
