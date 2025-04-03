@@ -18,3 +18,4 @@ syd
 csv-txt-excel-parallel-toolkit
 addr2line
 dagster_pipes_rust
+parquet
