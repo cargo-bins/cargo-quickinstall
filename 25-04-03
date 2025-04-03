@@ -7,3 +7,4 @@ addr2line
 stellar-strkey
 diesel_cli
 dotenv-flow
+dotenv
