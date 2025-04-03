@@ -22,3 +22,4 @@ async_kraken_ws
 dotenv
 libbpf-cargo
 yafo
+leetcode-cli-rs
