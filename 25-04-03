@@ -19,3 +19,4 @@ dotenv
 cargo-deb
 libbpf-cargo
 cargo-deb
+nkeys
