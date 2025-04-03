@@ -20,3 +20,4 @@ cargo-deb
 libbpf-cargo
 cargo-deb
 nkeys
+cargo-i18n
