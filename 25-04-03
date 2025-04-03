@@ -37,3 +37,4 @@ dotenv-flow
 dotenv
 termusic
 markdown2pdf
+libbpf-cargo
