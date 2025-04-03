@@ -4,3 +4,4 @@ cargo-pgrx
 syd
 addr2line
 diesel_cli
+dotenv-flow
