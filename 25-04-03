@@ -7,3 +7,4 @@ syd
 addr2line
 diesel_cli
 dotenv
+libbpf-cargo
