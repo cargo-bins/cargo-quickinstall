@@ -48,3 +48,4 @@ libbpf-cargo
 cargo-bounds
 nkeys
 markdown2pdf
+lux-cli
