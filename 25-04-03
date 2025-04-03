@@ -20,3 +20,4 @@ stellar-strkey
 tmuxstatus
 async_kraken_ws
 dotenv
+libbpf-cargo
