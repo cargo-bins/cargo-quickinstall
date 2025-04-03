@@ -30,3 +30,4 @@ libbpf-cargo
 spreadsheet_textconv
 libbpf-cargo
 xlsx_split
+psfu
