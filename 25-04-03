@@ -5,3 +5,4 @@ cargo-pgrx
 syd
 addr2line
 stellar-strkey
+diesel_cli
