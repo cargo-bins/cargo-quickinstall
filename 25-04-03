@@ -13,3 +13,4 @@ simple-http-server
 diesel_cli
 simple-http-server
 dotenv-flow
+dotenv
