@@ -20,3 +20,4 @@ addr2line
 dagster_pipes_rust
 parquet
 diesel_cli
+panduck
