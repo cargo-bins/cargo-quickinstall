@@ -11,3 +11,4 @@ unic-langid-impl
 mdcat
 cargo-spellcheck
 tree-sitter-cli
+wiki-tui
