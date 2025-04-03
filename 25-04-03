@@ -11,3 +11,4 @@ dioxus-cli
 sudo-rs
 mdcat
 nextest
+sea-orm-cli
