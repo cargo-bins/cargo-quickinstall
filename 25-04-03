@@ -2,3 +2,4 @@ fake
 stellar-xdr
 cargo-pgrx
 syd
+addr2line
