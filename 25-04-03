@@ -37,3 +37,4 @@ diesel_cli
 alacritty
 dotenv-flow
 laze
+cargo-about
