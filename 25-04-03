@@ -10,3 +10,4 @@ dotenv
 libbpf-cargo
 libbpf-cargo
 git-disjoint
+zellij
