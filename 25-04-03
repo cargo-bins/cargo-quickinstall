@@ -14,3 +14,4 @@ addr2line
 parquet
 c2patool
 zellij
+diesel_cli
