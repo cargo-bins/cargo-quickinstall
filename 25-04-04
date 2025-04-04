@@ -39,3 +39,4 @@ remove_dir_all
 lingua
 cargo-whatfeatures
 sequoia-sq
+human_bytes
