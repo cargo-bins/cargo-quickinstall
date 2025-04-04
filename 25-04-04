@@ -4,3 +4,4 @@ apollo-router
 wol-rs
 honggfuzz
 httpbis
+cargo-codspeed
