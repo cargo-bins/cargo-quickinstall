@@ -57,3 +57,4 @@ nu_plugin_gstat
 solana-tokens
 get-blessed
 nextest
+cargo-smart-release
