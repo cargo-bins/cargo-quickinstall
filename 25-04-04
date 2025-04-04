@@ -15,3 +15,4 @@ xee
 nextest
 tree-sitter-graph
 cached-path
+remove_dir_all
