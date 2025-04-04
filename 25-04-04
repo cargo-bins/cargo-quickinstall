@@ -52,3 +52,4 @@ release-plz
 racer
 hurlfmt
 nu_plugin_gstat
+cargo-whatfeatures
