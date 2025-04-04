@@ -19,3 +19,4 @@ probe-rs-tools
 dioxus-cli
 apollo-router
 probe-rs-tools
+cargo-info
