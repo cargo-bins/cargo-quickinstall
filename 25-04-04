@@ -14,3 +14,4 @@ cargo-deb
 cargo-generate
 airshipper
 cargo-codspeed
+honggfuzz
