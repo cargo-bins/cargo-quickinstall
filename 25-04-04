@@ -16,3 +16,4 @@ cargo-spellcheck
 task-keeper
 cargo-list
 probe-rs-tools
+dioxus-cli
