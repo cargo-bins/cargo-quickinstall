@@ -44,3 +44,4 @@ nu_plugin_gstat
 tplay
 nu_plugin_gstat
 cargo-bootimage
+wmi
