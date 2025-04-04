@@ -8,3 +8,4 @@ apollo-router
 wol-rs
 cargo-deb
 cargo-generate
+tree-sitter-graph
