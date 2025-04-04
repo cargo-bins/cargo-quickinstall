@@ -11,3 +11,4 @@ cargo-generate
 tree-sitter-graph
 czkawka_gui
 cargo-deb
+cargo-generate
