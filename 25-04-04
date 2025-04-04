@@ -11,3 +11,4 @@ hurl
 cargo-leptos
 cargo-leptos
 sea-orm-cli
+cached-path
