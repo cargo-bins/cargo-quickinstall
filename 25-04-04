@@ -4,3 +4,4 @@ apollo-router
 wol-rs
 tree-sitter-graph
 sea-orm-cli
+cached-path
