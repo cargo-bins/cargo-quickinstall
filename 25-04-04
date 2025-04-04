@@ -26,3 +26,4 @@ nextest
 cargo-spellcheck
 probe-rs-tools
 gerust
+cargo-leptos
