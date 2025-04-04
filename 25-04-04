@@ -6,3 +6,4 @@ apollo-router
 tree-sitter-graph
 tuftool
 sea-orm-cli
+cached-path
