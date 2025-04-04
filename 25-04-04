@@ -55,3 +55,4 @@ cargo-leptos
 tree-sitter-cli
 tplay
 rustfmt-nightly
+diesel_cli
