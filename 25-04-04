@@ -10,3 +10,4 @@ cached-path
 remove_dir_all
 pgrx-tests
 lingua
+human_bytes
