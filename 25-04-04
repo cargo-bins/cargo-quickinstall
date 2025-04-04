@@ -6,3 +6,4 @@ honggfuzz
 httpbis
 cargo-codspeed
 tree-sitter-graph
+cached-path
