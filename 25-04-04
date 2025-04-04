@@ -35,3 +35,4 @@ termusic-server
 release-plz
 cached-path
 graphql_client_cli
+remove_dir_all
