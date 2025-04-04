@@ -33,3 +33,4 @@ dioxus-cli
 cargo-outdated
 termusic-server
 release-plz
+cached-path
