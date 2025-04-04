@@ -35,3 +35,4 @@ cached-path
 cargo-list
 remove_dir_all
 sequoia-sq
+pgrx-tests
