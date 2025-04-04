@@ -7,3 +7,4 @@ tree-sitter-graph
 tuftool
 sea-orm-cli
 cached-path
+remove_dir_all
