@@ -7,3 +7,4 @@ git-mit-install
 apollo-router
 wol-rs
 cargo-deb
+cargo-generate
