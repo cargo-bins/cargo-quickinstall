@@ -17,3 +17,4 @@ remove_dir_all
 pgrx-tests
 lingua
 hurl
+cargo-leptos
