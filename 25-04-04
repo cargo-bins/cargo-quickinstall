@@ -56,3 +56,4 @@ cargo-whatfeatures
 nu_plugin_gstat
 solana-tokens
 get-blessed
+nextest
