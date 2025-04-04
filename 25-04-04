@@ -17,3 +17,4 @@ tree-sitter-graph
 cached-path
 remove_dir_all
 lingua
+human_bytes
