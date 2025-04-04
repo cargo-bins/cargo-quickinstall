@@ -28,3 +28,4 @@ probe-rs-tools
 gerust
 cargo-leptos
 redoxer
+passepartui
