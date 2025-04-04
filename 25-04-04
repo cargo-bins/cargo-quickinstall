@@ -54,3 +54,4 @@ czkawka_gui
 cargo-leptos
 tree-sitter-cli
 tplay
+rustfmt-nightly
