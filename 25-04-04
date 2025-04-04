@@ -38,3 +38,4 @@ graphql_client_cli
 remove_dir_all
 lingua
 cargo-whatfeatures
+sequoia-sq
