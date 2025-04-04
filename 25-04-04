@@ -32,3 +32,4 @@ czkawka_gui
 dioxus-cli
 cargo-outdated
 termusic-server
+release-plz
