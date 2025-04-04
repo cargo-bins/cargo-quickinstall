@@ -46,3 +46,4 @@ nu_plugin_gstat
 cargo-bootimage
 wmi
 feluda
+cargo-smart-release
