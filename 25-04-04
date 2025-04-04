@@ -4,3 +4,4 @@ buck2
 dbus-codegen
 syd
 xlsynth-driver
+async_kraken
