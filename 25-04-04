@@ -23,3 +23,4 @@ airshipper
 remove_dir_all
 pgrx-tests
 lingua
+shamir_file_secret_sharing
