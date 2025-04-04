@@ -7,3 +7,4 @@ wol-rs
 tree-sitter-graph
 tuftool
 sea-orm-cli
+remove_dir_all
