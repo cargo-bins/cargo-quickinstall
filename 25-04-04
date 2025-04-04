@@ -6,3 +6,4 @@ tree-sitter-graph
 sea-orm-cli
 cached-path
 remove_dir_all
+pgrx-tests
