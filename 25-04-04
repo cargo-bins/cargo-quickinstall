@@ -5,3 +5,4 @@ wol-rs
 honggfuzz
 httpbis
 cargo-codspeed
+tree-sitter-graph
