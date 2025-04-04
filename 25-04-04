@@ -13,3 +13,4 @@ lingua
 human_bytes
 wmi
 racer
+rustfmt-nightly
