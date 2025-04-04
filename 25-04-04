@@ -22,3 +22,4 @@ probe-rs-tools
 cargo-info
 cargo-info
 termusic
+nextest
