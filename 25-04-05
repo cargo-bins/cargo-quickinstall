@@ -8,3 +8,4 @@ sha1collisiondetection
 rtx-cli
 tree_magic
 minicbor
+parquet
