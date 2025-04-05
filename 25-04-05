@@ -8,3 +8,4 @@ h3o
 ec2_instance_metadata
 rrule
 git-disjoint
+sha1collisiondetection
