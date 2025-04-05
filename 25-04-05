@@ -45,3 +45,4 @@ tree_magic
 dioxus-cli
 lumen
 cargo-dephell
+cargo-info
