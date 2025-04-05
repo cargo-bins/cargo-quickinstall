@@ -21,3 +21,4 @@ java-locator
 parquet
 h3o
 dotenv
+diesel_cli
