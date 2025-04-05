@@ -21,3 +21,4 @@ py-spy
 cargo-git
 rrule
 git-disjoint
+sha1collisiondetection
