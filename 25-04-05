@@ -41,3 +41,4 @@ kickstart
 redoxer
 cargo-semver-bump
 tplay
+crates-tui
