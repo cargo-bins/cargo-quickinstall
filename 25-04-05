@@ -24,3 +24,4 @@ cargo-generate
 skim
 cargo-book
 usage-cli
+minicbor
