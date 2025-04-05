@@ -11,3 +11,4 @@ git-disjoint
 sha1collisiondetection
 rav1e
 iai-callgrind-runner
+rtx-cli
