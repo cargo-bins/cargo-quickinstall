@@ -1,2 +1,3 @@
 deploy
 cargo-leptos
+cargo-semver-bump
