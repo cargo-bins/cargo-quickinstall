@@ -66,3 +66,4 @@ h3o
 hurl
 cargo-semver-bump
 dotenv
+graphql_client_cli
