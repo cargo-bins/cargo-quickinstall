@@ -9,3 +9,4 @@ sequoia-sq
 minicbor
 gerust
 nextest
+cargo-bootimage
