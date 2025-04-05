@@ -35,3 +35,4 @@ parquet
 h3o
 fw
 dotenv
+cargo-generate
