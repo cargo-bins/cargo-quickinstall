@@ -42,3 +42,4 @@ redoxer
 cargo-semver-bump
 tplay
 crates-tui
+nu_plugin_gstat
