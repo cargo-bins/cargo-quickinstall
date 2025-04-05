@@ -11,3 +11,4 @@ gerust
 nextest
 cargo-bootimage
 crates-tui
+tplay
