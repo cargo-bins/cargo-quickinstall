@@ -15,3 +15,4 @@ parquet
 sp1-recursion-gnark-cli
 h3o
 dotenv
+diesel_cli
