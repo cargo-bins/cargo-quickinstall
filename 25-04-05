@@ -37,3 +37,4 @@ rtx-cli
 tplay
 cargo-smart-release
 clippy
+tui-journal
