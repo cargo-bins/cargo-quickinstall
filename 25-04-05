@@ -60,3 +60,4 @@ fzf-make
 graphql_client_cli
 crates-tui
 bugstalker
+parquet
