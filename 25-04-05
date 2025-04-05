@@ -14,3 +14,4 @@ crates-tui
 tplay
 graphql_client_cli
 nu_plugin_gstat
+scope-tui
