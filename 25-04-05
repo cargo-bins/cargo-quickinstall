@@ -58,3 +58,4 @@ rtx-cli
 mise
 fzf-make
 graphql_client_cli
+crates-tui
