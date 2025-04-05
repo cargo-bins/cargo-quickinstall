@@ -53,3 +53,4 @@ dioxus-cli
 cargo-smart-release
 mise
 hurl
+crates-tui
