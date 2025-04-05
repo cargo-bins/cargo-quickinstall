@@ -15,3 +15,4 @@ rrule
 usage-cli
 git-disjoint
 sha1collisiondetection
+httpmock
