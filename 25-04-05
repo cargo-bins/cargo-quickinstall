@@ -4,3 +4,4 @@ cargo-proc-debug
 cargo-proc-debug
 holochain
 cargo-git
+cargo-tag
