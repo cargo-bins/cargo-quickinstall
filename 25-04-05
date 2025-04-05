@@ -11,3 +11,4 @@ holochain
 minicbor
 termusic
 diesel_cli
+sea-orm-cli
