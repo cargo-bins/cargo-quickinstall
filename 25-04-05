@@ -36,3 +36,4 @@ h3o
 fw
 dotenv
 cargo-generate
+spacetimedb-cli
