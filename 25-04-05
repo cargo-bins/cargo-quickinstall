@@ -6,3 +6,4 @@ holochain
 cargo-git
 cargo-tag
 minicbor
+cargo-tag
