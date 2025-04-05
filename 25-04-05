@@ -11,3 +11,4 @@ rrule
 git-disjoint
 sha1collisiondetection
 rtx-cli
+minicbor
