@@ -50,3 +50,4 @@ hurl
 minicbor
 get-blessed
 dioxus-cli
+cargo-smart-release
