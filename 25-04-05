@@ -2,3 +2,4 @@ deploy
 tplay
 intentrace
 cargo-leptos
+nu_plugin_gstat
