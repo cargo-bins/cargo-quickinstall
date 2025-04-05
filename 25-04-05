@@ -2,3 +2,4 @@ deploy
 cargo-leptos
 cargo-semver-bump
 sea-orm-cli
+passepartui
