@@ -49,3 +49,4 @@ cargo-info
 hurl
 minicbor
 get-blessed
+dioxus-cli
