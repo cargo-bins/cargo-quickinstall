@@ -3,3 +3,4 @@ cargo-leptos
 cargo-semver-bump
 sea-orm-cli
 passepartui
+sea-orm-cli
