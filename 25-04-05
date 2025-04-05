@@ -31,3 +31,4 @@ cargo-fuzzcheck
 sniffnet
 cargo-book
 usage-cli
+parquet
