@@ -12,3 +12,4 @@ cargo-git
 cargo-tag
 cargo-tag
 diesel_cli
+cargo-proc-debug
