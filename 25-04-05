@@ -12,3 +12,4 @@ rrule
 git-disjoint
 dioxus-cli
 sha1collisiondetection
+httpmock
