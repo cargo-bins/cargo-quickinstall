@@ -39,3 +39,4 @@ rtx-cli
 tui-journal
 kickstart
 redoxer
+cargo-semver-bump
