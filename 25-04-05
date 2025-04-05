@@ -70,3 +70,4 @@ graphql_client_cli
 kickstart
 cargo-semver-bump
 mise
+proof-of-sql
