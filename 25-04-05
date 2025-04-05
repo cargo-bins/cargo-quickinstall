@@ -5,3 +5,4 @@ cargo-proc-debug
 holochain
 cargo-git
 cargo-tag
+minicbor
