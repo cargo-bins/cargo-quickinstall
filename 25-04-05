@@ -17,3 +17,4 @@ nu_plugin_gstat
 scope-tui
 fzf-make
 py-spy
+dioxus-cli
