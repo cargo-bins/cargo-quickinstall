@@ -10,3 +10,4 @@ tree_magic
 minicbor
 parquet
 h3o
+dotenv
