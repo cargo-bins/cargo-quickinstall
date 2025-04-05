@@ -14,3 +14,4 @@ diesel_cli
 sea-orm-cli
 crates-tui
 tui-journal
+sea-orm-cli
