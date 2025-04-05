@@ -32,3 +32,4 @@ cliflux
 httpmock
 clippy
 dioxus-cli
+fzf-make
