@@ -21,3 +21,4 @@ iai-callgrind-runner
 rtx-cli
 sniffnet
 cargo-generate
+skim
