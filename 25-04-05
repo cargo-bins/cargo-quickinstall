@@ -56,3 +56,4 @@ tplay
 graphql_client_cli
 rtx-cli
 mise
+fzf-make
