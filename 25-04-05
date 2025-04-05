@@ -64,3 +64,4 @@ parquet
 scope-tui
 h3o
 hurl
+cargo-semver-bump
