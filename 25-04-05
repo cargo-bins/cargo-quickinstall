@@ -36,3 +36,4 @@ ripasso-cursive
 rtx-cli
 tplay
 cargo-smart-release
+clippy
