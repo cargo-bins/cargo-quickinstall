@@ -14,3 +14,4 @@ iai-callgrind-runner
 rtx-cli
 skim
 ec2_instance_metadata
+zellij
