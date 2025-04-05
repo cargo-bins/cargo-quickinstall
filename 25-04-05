@@ -22,3 +22,4 @@ parquet
 h3o
 dotenv
 diesel_cli
+proof-of-sql
