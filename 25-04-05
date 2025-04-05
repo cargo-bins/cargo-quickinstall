@@ -1,2 +1,3 @@
 deploy
 cargo-tag
+cargo-proc-debug
