@@ -57,3 +57,4 @@ crates-tui
 mdbook-trunk
 tui-journal
 nextest
+parquet
