@@ -20,3 +20,4 @@ minicbor
 java-locator
 parquet
 h3o
+dotenv
