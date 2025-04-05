@@ -26,3 +26,4 @@ cargo-smart-release
 git-disjoint
 sha1collisiondetection
 tplay
+graphql_client_cli
