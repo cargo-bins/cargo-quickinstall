@@ -16,3 +16,4 @@ crates-tui
 tui-journal
 sea-orm-cli
 kickstart
+intentrace
