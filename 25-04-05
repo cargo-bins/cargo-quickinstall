@@ -11,3 +11,4 @@ fast-conventional
 rrule
 git-disjoint
 dioxus-cli
+sha1collisiondetection
