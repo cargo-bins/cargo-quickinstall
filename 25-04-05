@@ -7,3 +7,4 @@ cargo-git
 cargo-tag
 minicbor
 cargo-tag
+cargo-proc-debug
