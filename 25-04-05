@@ -28,3 +28,4 @@ sha1collisiondetection
 tplay
 graphql_client_cli
 httpmock
+cargo-c
