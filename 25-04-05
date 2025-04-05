@@ -2,3 +2,4 @@ deploy
 cargo-tag
 cargo-proc-debug
 cargo-proc-debug
+holochain
