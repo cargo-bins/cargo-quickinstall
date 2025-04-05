@@ -52,3 +52,4 @@ get-blessed
 dioxus-cli
 cargo-smart-release
 mise
+hurl
