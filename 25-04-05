@@ -38,3 +38,4 @@ dotenv
 cargo-generate
 spacetimedb-cli
 mit-prepare-commit-msg
+proof-of-sql
