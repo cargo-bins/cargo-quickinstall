@@ -22,3 +22,4 @@ dua-cli
 scoop
 addr2line
 spacetimedb-cli
+diesel_cli
