@@ -8,3 +8,4 @@ diesel_cli
 ducc-sys
 librespot
 borsh
+proof-of-sql
