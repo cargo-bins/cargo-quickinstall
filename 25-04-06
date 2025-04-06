@@ -8,3 +8,4 @@ opencv-binding-generator
 diesel_cli
 ducc-sys
 librespot
+borsh
