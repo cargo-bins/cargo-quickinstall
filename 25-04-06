@@ -12,3 +12,4 @@ opencv-binding-generator
 ducc-sys
 rmesg
 borsh
+proof-of-sql
