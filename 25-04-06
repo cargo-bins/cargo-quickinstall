@@ -16,3 +16,4 @@ coldsnap
 alacritty
 diesel_cli
 oso
+winpty-rs
