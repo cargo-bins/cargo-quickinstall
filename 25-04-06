@@ -62,3 +62,4 @@ oso
 nextest
 release-plz
 spl-token-cli
+winpty-rs
