@@ -11,3 +11,4 @@ mit-prepare-commit-msg
 holochain
 arrow-flight
 cargo-generate
+perfcnt
