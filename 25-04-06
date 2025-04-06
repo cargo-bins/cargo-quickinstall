@@ -45,3 +45,4 @@ mit-commit-msg
 diesel_cli
 oso
 rustdesk
+winpty-rs
