@@ -19,3 +19,4 @@ alacritty
 wmi
 diesel_cli
 oso
+winpty-rs
