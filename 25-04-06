@@ -24,3 +24,4 @@ addr2line
 spacetimedb-cli
 diesel_cli
 binstall
+scoop
