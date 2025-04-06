@@ -51,3 +51,4 @@ rrule
 bluetui
 sniffnet
 lux-cli
+dbus-codegen
