@@ -7,3 +7,4 @@ dioxus-cli
 perfcnt
 py-spy
 borsh
+opencv-binding-generator
