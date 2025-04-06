@@ -63,3 +63,4 @@ nextest
 release-plz
 spl-token-cli
 winpty-rs
+lux-cli
