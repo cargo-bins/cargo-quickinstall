@@ -13,3 +13,4 @@ opencv-binding-generator
 rrule
 diesel_cli
 oso
+winpty-rs
