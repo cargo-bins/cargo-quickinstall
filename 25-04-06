@@ -4,3 +4,4 @@ holochain
 arrow-flight
 borsh
 opencv-binding-generator
+addr2line
