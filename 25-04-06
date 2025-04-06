@@ -6,3 +6,4 @@ borsh
 diesel_cli
 ducc-sys
 borsh
+proof-of-sql
