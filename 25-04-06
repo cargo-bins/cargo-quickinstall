@@ -31,3 +31,4 @@ binstall
 rmesg
 yt
 borsh
+cargo-fuzzcheck
