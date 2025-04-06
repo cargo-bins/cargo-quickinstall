@@ -7,3 +7,4 @@ opencv-binding-generator
 addr2line
 diesel_cli
 ducc-sys
+borsh
