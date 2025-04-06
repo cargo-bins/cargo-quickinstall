@@ -20,3 +20,4 @@ cargo-i18n
 rustdesk
 dua-cli
 scoop
+addr2line
