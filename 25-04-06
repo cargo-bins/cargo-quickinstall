@@ -34,3 +34,4 @@ borsh
 cargo-fuzzcheck
 cargo-i18n
 fw
+proof-of-sql
