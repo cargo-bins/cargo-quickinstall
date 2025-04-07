@@ -39,3 +39,4 @@ cargo-spellcheck
 cargo-whatfeatures
 tectonic
 grepq
+dbus-codegen
