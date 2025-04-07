@@ -59,3 +59,4 @@ rustfmt-nightly
 cargo-embassy
 python-project-generator
 tendermint-abci
+tuono
