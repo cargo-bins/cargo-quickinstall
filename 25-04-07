@@ -18,3 +18,4 @@ rustfmt-nightly
 tendermint-abci
 lux-cli
 foundationdb-gen
+lux-cli
