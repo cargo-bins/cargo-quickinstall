@@ -28,3 +28,4 @@ python-project-generator
 paperclip
 tectonic
 dbus-codegen
+tree-sitter-cli
