@@ -33,3 +33,4 @@ cargo
 minicbor
 cargo-whatfeatures
 python-project-generator
+dbus-codegen
