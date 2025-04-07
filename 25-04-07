@@ -34,3 +34,4 @@ minicbor
 cargo-whatfeatures
 python-project-generator
 dbus-codegen
+binstall
