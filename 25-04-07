@@ -20,3 +20,4 @@ spider_worker
 binstall
 rtx-cli
 nexmark
+cargo-public-api
