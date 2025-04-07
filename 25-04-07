@@ -10,3 +10,4 @@ zellij
 minicbor
 pgrx-tests
 alacritty
+rustfmt-nightly
