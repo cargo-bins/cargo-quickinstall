@@ -24,3 +24,4 @@ lux-cli
 cargo-serve-docs
 pgrx-tests
 racer
+rustfmt-nightly
