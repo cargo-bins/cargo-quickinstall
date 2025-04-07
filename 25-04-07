@@ -11,3 +11,4 @@ zellij
 exa
 pgrx-tests
 rustfmt-nightly
+tendermint-abci
