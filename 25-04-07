@@ -28,3 +28,4 @@ cargo-about
 paperclip
 dbus-codegen
 python-project-generator
+binstall
