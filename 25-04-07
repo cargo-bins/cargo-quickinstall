@@ -16,3 +16,4 @@ rg
 pgrx-tests
 rustfmt-nightly
 tendermint-abci
+lux-cli
