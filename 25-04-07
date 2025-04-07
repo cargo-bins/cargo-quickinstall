@@ -14,3 +14,4 @@ fselect
 dbus-codegen
 lux-cli
 pcu
+cargo-public-api
