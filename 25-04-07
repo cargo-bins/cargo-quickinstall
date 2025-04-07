@@ -55,3 +55,4 @@ python-project-generator
 grepq
 i3status-rs
 cargo-list
+rustfmt-nightly
