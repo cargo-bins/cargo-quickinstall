@@ -30,3 +30,4 @@ tectonic
 dbus-codegen
 tree-sitter-cli
 cargo
+minicbor
