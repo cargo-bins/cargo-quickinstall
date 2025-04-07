@@ -26,3 +26,4 @@ maelstrom-pytest
 rustowl
 tendermint-abci
 foundationdb-gen
+lux-cli
