@@ -27,3 +27,4 @@ cargo-public-api
 python-project-generator
 paperclip
 tectonic
+dbus-codegen
