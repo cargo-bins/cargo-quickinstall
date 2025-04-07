@@ -31,3 +31,4 @@ dbus-codegen
 tree-sitter-cli
 cargo
 minicbor
+cargo-whatfeatures
