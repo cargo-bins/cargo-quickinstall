@@ -5,3 +5,4 @@ dotenv
 python-project-generator
 ruff
 pcu
+spider_worker
