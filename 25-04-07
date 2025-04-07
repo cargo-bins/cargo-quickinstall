@@ -10,3 +10,4 @@ paperclip
 zellij
 exa
 pgrx-tests
+rustfmt-nightly
