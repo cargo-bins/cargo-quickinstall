@@ -8,3 +8,4 @@ cargo
 nextsv
 rtx-cli
 nextsv
+sea-orm-cli
