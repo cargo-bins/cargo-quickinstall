@@ -28,3 +28,4 @@ rustfmt-nightly
 rqbit
 tendermint-abci
 racer
+binstall
