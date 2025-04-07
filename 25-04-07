@@ -6,3 +6,4 @@ python-project-generator
 ruff
 pcu
 spider_worker
+cargo-public-api
