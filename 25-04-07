@@ -6,3 +6,4 @@ fselect
 spider_worker
 cargo
 nextsv
+rtx-cli
