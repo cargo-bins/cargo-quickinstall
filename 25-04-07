@@ -36,3 +36,4 @@ binstall
 cargo-count
 cargo-public-api
 cargo-spellcheck
+cargo-whatfeatures
