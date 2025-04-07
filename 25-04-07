@@ -52,3 +52,4 @@ cargo-about
 tendermint-abci
 grepq
 tectonic
+foundationdb-gen
