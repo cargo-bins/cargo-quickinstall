@@ -30,3 +30,4 @@ dbus-codegen
 python-project-generator
 binstall
 graphql_client_cli
+tuono
