@@ -51,3 +51,4 @@ cargo-embassy
 binstall
 cargo-embassy
 grepq
+python-project-generator
