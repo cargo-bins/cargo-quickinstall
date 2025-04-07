@@ -11,3 +11,4 @@ minicbor
 pgrx-tests
 alacritty
 rustfmt-nightly
+tendermint-abci
