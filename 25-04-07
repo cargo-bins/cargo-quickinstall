@@ -26,3 +26,4 @@ ruff
 cargo-public-api
 python-project-generator
 paperclip
+tectonic
