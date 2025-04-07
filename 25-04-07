@@ -8,3 +8,4 @@ nexmark
 paperclip
 pgrx-tests
 alacritty
+rustfmt-nightly
