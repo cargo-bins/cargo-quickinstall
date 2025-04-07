@@ -42,3 +42,4 @@ grepq
 dbus-codegen
 cargo-embassy
 binstall
+tuono
