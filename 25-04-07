@@ -7,3 +7,4 @@ stellar-xdr
 cargo-serve-docs
 rustdesk
 rustdesk
+lux-cli
