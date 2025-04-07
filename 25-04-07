@@ -41,3 +41,4 @@ tectonic
 grepq
 dbus-codegen
 cargo-embassy
+binstall
