@@ -40,3 +40,4 @@ cargo-whatfeatures
 tectonic
 grepq
 dbus-codegen
+cargo-embassy
