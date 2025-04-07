@@ -24,3 +24,4 @@ intiface-cli
 rustfmt-nightly
 maelstrom-pytest
 rustowl
+tendermint-abci
