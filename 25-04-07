@@ -33,3 +33,4 @@ graphql_client_cli
 tuono
 laze
 binstall
+cargo-count
