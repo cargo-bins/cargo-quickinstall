@@ -56,3 +56,4 @@ grepq
 i3status-rs
 cargo-list
 rustfmt-nightly
+cargo-embassy
