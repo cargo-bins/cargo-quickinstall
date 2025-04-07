@@ -11,3 +11,4 @@ pcu
 cargo-public-api
 stellar-xdr
 fselect
+dbus-codegen
