@@ -18,3 +18,4 @@ cargo-public-api
 spider_worker
 tree-sitter-cli
 airshipper
+binstall
