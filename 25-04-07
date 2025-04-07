@@ -12,3 +12,4 @@ cargo-public-api
 stellar-xdr
 fselect
 dbus-codegen
+lux-cli
