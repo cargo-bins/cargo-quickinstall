@@ -13,3 +13,4 @@ dango-core
 lux-cli
 lux-cli
 rustfmt-nightly
+tendermint-abci
