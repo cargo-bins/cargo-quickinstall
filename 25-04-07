@@ -14,3 +14,4 @@ rg
 rg
 rg
 pgrx-tests
+rustfmt-nightly
