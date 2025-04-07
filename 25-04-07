@@ -49,3 +49,4 @@ cargo-count
 rustfmt-nightly
 cargo-whatfeatures
 cargo-about
+tendermint-abci
