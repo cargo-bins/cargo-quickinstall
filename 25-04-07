@@ -21,3 +21,4 @@ binstall
 rtx-cli
 nexmark
 cargo-public-api
+tree-sitter-cli
