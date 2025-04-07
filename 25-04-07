@@ -16,3 +16,4 @@ pcu
 espflash
 sea-orm-cli
 cargo-embassy
+spider_worker
