@@ -13,3 +13,4 @@ alacritty
 rustfmt-nightly
 tendermint-abci
 foundationdb-gen
+cargo-about
