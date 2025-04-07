@@ -19,3 +19,4 @@ cargo-embassy
 spider_worker
 binstall
 rtx-cli
+nexmark
