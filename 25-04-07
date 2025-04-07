@@ -4,3 +4,4 @@ pcu
 dotenv
 python-project-generator
 ruff
+pcu
