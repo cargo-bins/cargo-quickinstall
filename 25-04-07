@@ -18,3 +18,4 @@ sea-orm-cli
 cargo-embassy
 spider_worker
 binstall
+rtx-cli
