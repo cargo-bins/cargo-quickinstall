@@ -37,3 +37,4 @@ dbus-codegen
 binstall
 tectonic
 hurl
+pgrx-tests
