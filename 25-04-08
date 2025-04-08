@@ -8,3 +8,4 @@ rustfmt-nightly
 crab-fetch
 fcp
 stellar-strkey
+cargo-outofdate
