@@ -13,3 +13,4 @@ schemafy
 nu-completion-script
 rustfmt-nightly
 obeli-sk
+tree-sitter-graph
