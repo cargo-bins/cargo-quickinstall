@@ -5,3 +5,4 @@ schemafy
 solana-gossip
 rustfmt-nightly
 tree-sitter-graph
+solana-keygen
