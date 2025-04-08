@@ -8,3 +8,4 @@ addr2line
 schemafy
 solana-gossip
 cargo-override
+solana-keygen
