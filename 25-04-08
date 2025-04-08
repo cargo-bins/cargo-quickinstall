@@ -5,3 +5,4 @@ textplots
 schemafy
 rustfmt-nightly
 rustfmt-nightly
+crab-fetch
