@@ -16,3 +16,4 @@ clippy
 holochain_keystore
 cargo-vet
 openpty
+wol-rs
