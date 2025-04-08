@@ -28,3 +28,4 @@ argus-cli
 openpty
 swerve
 wol-rs
+tomcat
