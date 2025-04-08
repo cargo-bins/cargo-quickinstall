@@ -26,3 +26,4 @@ cargo-whatfeatures
 c2rust
 c2rust
 solana-gossip
+rustfmt-nightly
