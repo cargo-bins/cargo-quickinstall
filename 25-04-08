@@ -8,3 +8,4 @@ sn_cli
 sn_node
 solana-gossip
 rustfmt-nightly
+tree-sitter-graph
