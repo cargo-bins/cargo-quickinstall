@@ -5,3 +5,4 @@ diesel_cli
 lux-cli
 textplots
 addr2line
+schemafy
