@@ -4,3 +4,4 @@ nextsv
 socketcan
 crates-tui
 cargo-public-api
+fselect
