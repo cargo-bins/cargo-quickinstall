@@ -17,3 +17,4 @@ tree-sitter-graph
 cargo-cvm
 beerxml
 cargo-outofdate
+git-workspace
