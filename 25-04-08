@@ -25,3 +25,4 @@ cargo-public-api
 crates-tui
 solana-gossip
 addr2line
+rustfmt-nightly
