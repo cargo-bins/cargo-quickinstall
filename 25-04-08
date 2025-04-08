@@ -9,3 +9,4 @@ crab-fetch
 fcp
 stellar-strkey
 cargo-outofdate
+clippy
