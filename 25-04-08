@@ -2,3 +2,4 @@ probe-rs-tools
 tectonic
 nextsv
 socketcan
+crates-tui
