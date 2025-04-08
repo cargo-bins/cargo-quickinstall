@@ -34,3 +34,4 @@ openpgp-card-tools
 rustfmt-nightly
 mbtiles
 cargo-risczero
+wol-rs
