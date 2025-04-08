@@ -33,3 +33,4 @@ tree-sitter-graph
 openpgp-card-tools
 rustfmt-nightly
 mbtiles
+cargo-risczero
