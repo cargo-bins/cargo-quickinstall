@@ -4,3 +4,4 @@ addr2line
 schemafy
 solana-gossip
 rustfmt-nightly
+tree-sitter-graph
