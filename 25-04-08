@@ -9,3 +9,4 @@ schemafy
 solana-gossip
 cargo-override
 solana-keygen
+solana-cli
