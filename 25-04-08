@@ -7,3 +7,4 @@ textplots
 addr2line
 schemafy
 solana-gossip
+cargo-override
