@@ -22,3 +22,4 @@ binstall
 simple-http-server
 youtube-tui
 cargo-public-api
+crates-tui
