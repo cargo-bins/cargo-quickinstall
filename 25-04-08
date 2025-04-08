@@ -6,3 +6,4 @@ crates-tui
 cargo-public-api
 fselect
 cargo-embassy
+nu
