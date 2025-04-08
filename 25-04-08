@@ -28,3 +28,4 @@ addr2line
 rustfmt-nightly
 openpgp-card-tools
 nu
+cargo-outdated
