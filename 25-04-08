@@ -3,3 +3,4 @@ rustowl
 cargo-outofdate
 textplots
 schemafy
+rustfmt-nightly
