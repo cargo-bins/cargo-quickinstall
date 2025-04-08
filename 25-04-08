@@ -3,3 +3,4 @@ textplots
 schemafy
 solana-gossip
 rustfmt-nightly
+tree-sitter-graph
