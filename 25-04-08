@@ -40,3 +40,4 @@ hurl
 cargo-info
 sea-orm-cli
 solana-keygen
+solana-cli
