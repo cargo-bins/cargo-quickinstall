@@ -2,3 +2,4 @@ clap-stdin
 racer
 socketcan
 sqlx-cli
+binstall
