@@ -38,3 +38,4 @@ wol-rs
 hurl
 hurl
 cargo-info
+sea-orm-cli
