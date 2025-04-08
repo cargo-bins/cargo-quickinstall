@@ -27,3 +27,4 @@ nebulous
 argus-cli
 openpty
 swerve
+wol-rs
