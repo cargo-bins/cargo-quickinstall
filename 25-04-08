@@ -11,3 +11,4 @@ rustfmt-nightly
 tree-sitter-graph
 sqlx-cli
 rustfmt-nightly
+stellar-strkey
