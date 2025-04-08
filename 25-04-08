@@ -20,3 +20,4 @@ cargo-outofdate
 git-workspace
 stellar-strkey
 cargo-duplicates
+clippy
