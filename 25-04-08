@@ -27,3 +27,4 @@ solana-gossip
 addr2line
 rustfmt-nightly
 openpgp-card-tools
+nu
