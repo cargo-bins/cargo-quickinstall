@@ -14,3 +14,4 @@ rustfmt-nightly
 stellar-strkey
 clippy
 holochain_keystore
+cargo-vet
