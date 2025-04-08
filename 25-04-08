@@ -5,3 +5,4 @@ solana-gossip
 rustfmt-nightly
 tree-sitter-graph
 wol-rs
+solana-cli
