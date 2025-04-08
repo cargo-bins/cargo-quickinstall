@@ -29,3 +29,4 @@ solana-gossip
 rustfmt-nightly
 openpgp-card-tools
 addr2line
+tree-sitter-graph
