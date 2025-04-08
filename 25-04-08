@@ -31,3 +31,4 @@ nu
 cargo-outdated
 tree-sitter-graph
 openpgp-card-tools
+rustfmt-nightly
