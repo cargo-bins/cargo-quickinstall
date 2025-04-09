@@ -8,3 +8,4 @@ httpmock
 diesel_cli
 fake
 solana-validator
+httpmock
