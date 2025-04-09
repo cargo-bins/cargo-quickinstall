@@ -52,3 +52,4 @@ trusted-signing-cli
 sshx
 httpmock
 openring
+ballast
