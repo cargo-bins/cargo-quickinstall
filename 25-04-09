@@ -10,3 +10,4 @@ diesel_cli
 fake
 solana-validator
 httpmock
+ducc-sys
