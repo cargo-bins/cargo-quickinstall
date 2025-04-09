@@ -44,3 +44,4 @@ lifecycler
 httpmock
 probe-run
 laze
+sshx
