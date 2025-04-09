@@ -28,3 +28,4 @@ fake
 tree-sitter-cli
 mise
 solana-validator
+httpmock
