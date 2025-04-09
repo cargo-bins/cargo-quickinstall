@@ -8,3 +8,4 @@ nextest
 cargo-spellcheck
 nextest
 unic-langid-impl
+mdbook-plantuml
