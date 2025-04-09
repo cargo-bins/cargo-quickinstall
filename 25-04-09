@@ -6,3 +6,4 @@ easytier
 tendermint-abci
 httpmock
 diesel_cli
+fake
