@@ -9,3 +9,4 @@ diesel_cli
 fake
 libnewsboat
 solana-validator
+cargo-local-registry
