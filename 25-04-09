@@ -20,3 +20,4 @@ mqtt-client-cli
 swerve
 git-series
 argus-cli
+tendermint-abci
