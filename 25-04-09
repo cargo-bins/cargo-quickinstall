@@ -44,3 +44,4 @@ nextest
 dioxus-cli
 trusted-signing-cli
 fake
+trusted-signing-cli
