@@ -20,3 +20,4 @@ tree-sitter-cli
 tendermint-abci
 mdbook-plantuml
 solana-faucet
+spider_worker
