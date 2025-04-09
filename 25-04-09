@@ -7,3 +7,4 @@ solana-faucet
 spider_worker
 httpmock
 diesel_cli
+fake
