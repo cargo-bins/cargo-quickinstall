@@ -38,3 +38,4 @@ cargo-whatfeatures
 openring
 httpmock
 laze
+argus-cli
