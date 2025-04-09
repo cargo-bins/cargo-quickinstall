@@ -3,3 +3,4 @@ oso
 tendermint-abci
 tendermint-abci
 httpmock
+diesel_cli
