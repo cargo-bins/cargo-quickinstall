@@ -8,3 +8,4 @@ spider_worker
 httpmock
 diesel_cli
 fake
+solana-validator
