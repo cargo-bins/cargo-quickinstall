@@ -42,3 +42,4 @@ laze
 spider_worker
 lifecycler
 httpmock
+probe-run
