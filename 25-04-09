@@ -26,3 +26,4 @@ mqtt-client-cli
 httpmock
 ripasso-cursive
 ripasso-cursive
+bevy_gaussian_splatting
