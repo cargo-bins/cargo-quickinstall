@@ -5,3 +5,4 @@ tendermint-abci
 httpmock
 diesel_cli
 fake
+solana-validator
