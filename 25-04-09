@@ -5,3 +5,4 @@ pcu
 dptran
 hurl
 rustfmt-nightly
+c2rust
