@@ -5,3 +5,4 @@ tendermint-abci
 easytier
 tendermint-abci
 httpmock
+diesel_cli
