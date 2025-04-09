@@ -51,3 +51,4 @@ solana-validator
 trusted-signing-cli
 sshx
 httpmock
+openring
