@@ -30,3 +30,4 @@ spider_cli
 lifecycler
 tendermint-abci
 hurlfmt
+nu_plugin_gstat
