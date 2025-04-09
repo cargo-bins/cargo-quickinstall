@@ -36,3 +36,4 @@ massh
 solana-faucet
 cargo-whatfeatures
 openring
+httpmock
