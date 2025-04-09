@@ -5,3 +5,4 @@ oso
 tendermint-abci
 solana-faucet
 spider_worker
+httpmock
