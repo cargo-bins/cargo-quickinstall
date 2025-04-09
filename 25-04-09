@@ -27,3 +27,4 @@ probe-run
 mbtiles
 tendermint-abci
 youtube-tui
+sniffnet
