@@ -7,3 +7,4 @@ diesel_cli
 fake
 solana-validator
 httpmock
+cargo-local-registry
