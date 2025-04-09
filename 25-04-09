@@ -22,3 +22,4 @@ mdbook-plantuml
 solana-faucet
 spider_worker
 tree-sitter-cli
+httpmock
