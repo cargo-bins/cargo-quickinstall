@@ -7,3 +7,4 @@ racer
 cargo-codspeed
 mit-commit-msg
 remove_dir_all
+rls-rustc
