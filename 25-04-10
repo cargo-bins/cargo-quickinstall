@@ -5,3 +5,4 @@ lifecycler
 trusted-signing-cli
 wiki-tui
 snarkvm
+hurlfmt
