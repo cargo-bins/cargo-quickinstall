@@ -18,3 +18,4 @@ cargo-embed
 mit-commit-msg
 remove_dir_all
 comet
+rls-rustc
