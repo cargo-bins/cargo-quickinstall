@@ -20,3 +20,4 @@ remove_dir_all
 comet
 rls-rustc
 stellar-xdr
+tectonic
