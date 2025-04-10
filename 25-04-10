@@ -4,3 +4,4 @@ holochain_keystore
 stellar-xdr
 holochain_cli_sandbox
 racer
+cargo-codspeed
