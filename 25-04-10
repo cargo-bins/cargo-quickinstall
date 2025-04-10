@@ -3,3 +3,4 @@ snarkvm
 stellar-xdr
 holochain_cli_sandbox
 racer
+remove_dir_all
