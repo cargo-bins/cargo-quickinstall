@@ -8,3 +8,4 @@ stellar-xdr
 minicbor
 cargo-pgrx
 dbus-codegen
+solana-tokens
