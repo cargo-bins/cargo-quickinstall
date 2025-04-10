@@ -33,3 +33,4 @@ sshx
 lifecycler
 cargo-spellcheck
 cargo-near
+nextest
