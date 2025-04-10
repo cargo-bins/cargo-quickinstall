@@ -35,3 +35,4 @@ rls-rustc
 cargo-geiger
 clippy
 starship-jj
+star-history
