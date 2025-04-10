@@ -32,3 +32,4 @@ remove_dir_all
 xplr
 laze
 rls-rustc
+cargo-geiger
