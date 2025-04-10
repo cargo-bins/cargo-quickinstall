@@ -16,3 +16,4 @@ raw-cpuid
 cargo-hax
 minicbor
 cargo-hax
+sea-orm-cli
