@@ -8,3 +8,4 @@ binstall
 cosmwasm-simulate
 demikernel-network-simulator
 racer
+remove_dir_all
