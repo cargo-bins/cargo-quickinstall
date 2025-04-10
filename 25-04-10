@@ -44,3 +44,4 @@ fls
 minicbor
 cargo-pgrx
 c2rust
+dbus-codegen
