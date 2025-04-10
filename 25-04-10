@@ -11,3 +11,4 @@ solana-faucet
 remove_dir_all
 stellar-xdr
 sea-orm-cli
+sea-orm-cli
