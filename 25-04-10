@@ -7,3 +7,4 @@ remove_dir_all
 stellar-xdr
 minicbor
 cargo-pgrx
+dbus-codegen
