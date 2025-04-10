@@ -43,3 +43,4 @@ tree-sitter-cli
 fls
 minicbor
 cargo-pgrx
+c2rust
