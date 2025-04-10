@@ -11,3 +11,4 @@ graphql_client_cli
 sudo-rs
 czkawka_gui
 hurlfmt
+lifecycler
