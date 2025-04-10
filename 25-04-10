@@ -8,3 +8,4 @@ stellar-xdr
 dbus-codegen
 minicbor
 cargo-pgrx
+dbus-codegen
