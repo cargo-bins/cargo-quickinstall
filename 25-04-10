@@ -16,3 +16,4 @@ nextest
 csv-txt-excel-parallel-toolkit
 cosmwasm-simulate
 minicbor
+rg
