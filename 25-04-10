@@ -2,3 +2,4 @@ rav1e
 cargo-risczero
 holochain_keystore
 stellar-xdr
+holochain_cli_sandbox
