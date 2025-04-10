@@ -9,3 +9,4 @@ mit-commit-msg
 remove_dir_all
 rls-rustc
 mit-prepare-commit-msg
+httpbis
