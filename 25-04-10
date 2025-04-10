@@ -20,3 +20,4 @@ rg
 dbus-codegen
 cosmwasm-simulate
 dioxus-cli
+servicepoint-simulator
