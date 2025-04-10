@@ -6,3 +6,4 @@ cargo-risczero
 alacritty
 redoxer
 argus-cli
+graphql_client_cli
