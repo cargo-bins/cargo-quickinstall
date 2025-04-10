@@ -19,3 +19,4 @@ mit-commit-msg
 remove_dir_all
 comet
 rls-rustc
+stellar-xdr
