@@ -16,3 +16,4 @@ tree-sitter-cli
 wiki-tui
 sudo-rs
 laze
+hurlfmt
