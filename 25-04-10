@@ -42,3 +42,4 @@ remove_dir_all
 tgv
 tytanic
 simple-http-server
+clippy
