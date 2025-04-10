@@ -34,3 +34,4 @@ laze
 rls-rustc
 cargo-geiger
 clippy
+starship-jj
