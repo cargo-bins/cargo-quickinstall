@@ -46,3 +46,4 @@ cargo-pgrx
 c2rust
 dbus-codegen
 cargo-geiger
+clippy
