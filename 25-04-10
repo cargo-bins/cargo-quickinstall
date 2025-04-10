@@ -6,3 +6,4 @@ holochain_cli_sandbox
 racer
 cargo-codspeed
 mit-commit-msg
+remove_dir_all
