@@ -48,3 +48,4 @@ dbus-codegen
 cargo-geiger
 clippy
 nur
+autumnus
