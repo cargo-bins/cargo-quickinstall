@@ -19,3 +19,4 @@ minicbor
 rg
 dbus-codegen
 cosmwasm-simulate
+dioxus-cli
