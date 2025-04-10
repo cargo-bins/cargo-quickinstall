@@ -28,3 +28,4 @@ cargo-near
 simple-http-server
 xplr
 cargo-geiger
+remove_dir_all
