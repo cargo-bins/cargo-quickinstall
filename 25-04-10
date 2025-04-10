@@ -33,3 +33,4 @@ xplr
 laze
 rls-rustc
 cargo-geiger
+clippy
