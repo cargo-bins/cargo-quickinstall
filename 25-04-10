@@ -7,3 +7,4 @@ rls-rustc
 stellar-xdr
 dbus-codegen
 minicbor
+cargo-pgrx
