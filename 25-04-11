@@ -44,3 +44,4 @@ nu_plugin_net
 dotenvy
 mit-pre-commit
 nu_plugin_net
+unic-langid-impl
