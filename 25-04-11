@@ -3,3 +3,4 @@ dotenv-flow
 httpbis
 mit-commit-msg
 stellar-xdr
+sqlx-cli
