@@ -2,3 +2,4 @@ human_name
 nextest
 wizer
 cosmwasm-simulate
+dotenv-flow
