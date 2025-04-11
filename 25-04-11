@@ -6,3 +6,4 @@ dotenv-flow
 cargo-public-api
 lynxfetch
 autumnus
+cargo-geiger
