@@ -10,3 +10,4 @@ oso
 deno
 foundationdb-gen
 zellij
+phf_generator
