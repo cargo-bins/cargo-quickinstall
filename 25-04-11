@@ -5,3 +5,4 @@ cosmwasm-simulate
 dotenv-flow
 wizer
 rg
+nextest
