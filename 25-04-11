@@ -19,3 +19,4 @@ cargo-pgrx
 nextest-filtering
 nu
 stellar-strkey
+dotenvy
