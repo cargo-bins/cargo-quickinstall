@@ -20,3 +20,4 @@ oso
 arti
 cargo-i18n
 foundationdb-gen
+sqlx-cli
