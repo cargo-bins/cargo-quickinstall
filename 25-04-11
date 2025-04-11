@@ -51,3 +51,4 @@ salvo-cli
 trusted-signing-cli
 stellar-strkey
 lynxfetch
+graphql_client_cli
