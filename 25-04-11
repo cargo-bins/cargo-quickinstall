@@ -11,3 +11,4 @@ a11ywatch_cli
 foundationdb-gen
 google-cloud-longrunning
 phf_generator
+cargo-pgrx
