@@ -14,3 +14,4 @@ cargo-pgrx
 nextest-filtering
 nu
 stellar-strkey
+unic-langid-impl
