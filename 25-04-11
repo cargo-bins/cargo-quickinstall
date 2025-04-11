@@ -15,3 +15,4 @@ nextest-filtering
 mit-prepare-commit-msg
 stellar-strkey
 mit-pre-commit
+unic-langid-impl
