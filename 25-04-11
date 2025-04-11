@@ -11,3 +11,4 @@ zellij
 google-cloud-longrunning
 phf_generator
 cargo-pgrx
+nextest-filtering
