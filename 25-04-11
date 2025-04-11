@@ -16,3 +16,4 @@ foundationdb-gen
 google-cloud-longrunning
 phf_generator
 cargo-pgrx
+nextest-filtering
