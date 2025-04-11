@@ -6,3 +6,4 @@ rtx-cli
 dotenv-flow
 cargo-hax
 sea-orm-cli
+stellar-xdr
