@@ -13,3 +13,4 @@ phf_generator
 cargo-pgrx
 nextest-filtering
 nu
+stellar-strkey
