@@ -24,3 +24,4 @@ rg
 rg
 foundationdb-gen
 wizer
+phf_generator
