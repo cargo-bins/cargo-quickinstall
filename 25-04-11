@@ -10,3 +10,4 @@ dotenv-flow
 clippy
 mise
 starship-jj
+cargo-spellcheck
