@@ -6,3 +6,4 @@ mise
 rtx-cli
 laze
 nextest
+dotenv-flow
