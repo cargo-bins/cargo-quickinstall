@@ -54,3 +54,4 @@ lynxfetch
 graphql_client_cli
 avm
 arti
+cargo-outdated
