@@ -5,3 +5,4 @@ cargo-spellcheck
 rtx-cli
 dotenv-flow
 cargo-hax
+sea-orm-cli
