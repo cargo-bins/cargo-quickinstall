@@ -15,3 +15,4 @@ cargo-spellcheck
 tree-sitter-cli
 stellar-xdr
 autumnus
+diesel_cli
