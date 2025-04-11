@@ -14,3 +14,4 @@ phf_generator
 nextest-filtering
 mit-prepare-commit-msg
 stellar-strkey
+mit-pre-commit
