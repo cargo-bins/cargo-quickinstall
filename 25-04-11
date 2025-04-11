@@ -36,3 +36,4 @@ cargo-pgrx
 starship-jj
 nextest-filtering
 starship-jj
+hex-patch
