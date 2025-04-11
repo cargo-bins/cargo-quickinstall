@@ -34,3 +34,4 @@ phf_generator
 cargo-pgrx
 nextest
 mise
+nextest-filtering
