@@ -26,3 +26,4 @@ foundationdb-gen
 wizer
 phf_generator
 rg
+nextest-filtering
