@@ -11,3 +11,4 @@ deno
 foundationdb-gen
 zellij
 phf_generator
+nextest-filtering
