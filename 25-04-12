@@ -45,3 +45,4 @@ deno
 python-project-generator
 markdown2pdf
 ripunzip
+remove_dir_all
