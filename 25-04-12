@@ -49,3 +49,4 @@ remove_dir_all
 binstall
 cargo-stylus
 hurlfmt
+hex-patch
