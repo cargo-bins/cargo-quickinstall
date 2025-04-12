@@ -2,3 +2,4 @@ safe_network
 sqlx-cli
 httpbis
 re_query
+cargo-codspeed
