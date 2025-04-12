@@ -14,3 +14,4 @@ remove_dir_all
 avm
 avm
 cargo-dylint
+avm
