@@ -39,3 +39,4 @@ kble-serialport
 remove_dir_all
 graphql_client_cli
 lingua
+cargo-stylus
