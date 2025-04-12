@@ -18,3 +18,4 @@ rmesg
 remove_dir_all
 exa
 nextest-filtering
+rustrict
