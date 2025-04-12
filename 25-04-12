@@ -27,3 +27,4 @@ hurl
 cargo-embed
 hurl
 racer
+nextest
