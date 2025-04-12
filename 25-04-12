@@ -33,3 +33,4 @@ cargo-stylus
 kble-serialport
 apollo-router
 ripunzip
+hex-patch
