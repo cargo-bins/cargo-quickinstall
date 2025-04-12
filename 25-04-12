@@ -16,3 +16,4 @@ avm
 cargo-dylint
 avm
 nextest-filtering
+rustrict
