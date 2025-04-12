@@ -6,3 +6,4 @@ re_query
 cargo-tag
 cargo-git
 cargo-tag
+cargo-proc-debug
