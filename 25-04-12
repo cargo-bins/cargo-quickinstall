@@ -18,3 +18,4 @@ avm
 nextest-filtering
 rustrict
 raw-cpuid
+dioxus-cli
