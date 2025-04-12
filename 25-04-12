@@ -31,3 +31,4 @@ nextest
 gerust
 cargo-stylus
 deno
+graphql_client_cli
