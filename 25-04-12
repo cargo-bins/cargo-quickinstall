@@ -24,3 +24,4 @@ cargo-generate
 rustrict
 dysk
 cargo-generate
+raw-cpuid
