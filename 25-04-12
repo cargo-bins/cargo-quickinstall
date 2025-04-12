@@ -21,3 +21,4 @@ cargo-git
 holochain
 tree_magic
 wol-rs
+racer
