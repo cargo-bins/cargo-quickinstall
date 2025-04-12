@@ -47,3 +47,4 @@ markdown2pdf
 ripunzip
 remove_dir_all
 binstall
+cargo-stylus
