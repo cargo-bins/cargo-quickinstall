@@ -72,3 +72,4 @@ rsfetch
 raw-cpuid
 rsfetch
 tod
+cargo-embed
