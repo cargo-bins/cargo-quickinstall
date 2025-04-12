@@ -10,3 +10,4 @@ racer
 cargo-dylint
 rrule
 apollo-router
+remove_dir_all
