@@ -29,3 +29,4 @@ remove_dir_all
 sea-orm-cli
 tree-sitter-cli
 nextest-filtering
+rustrict
