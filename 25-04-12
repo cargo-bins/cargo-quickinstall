@@ -50,3 +50,4 @@ binstall
 cargo-stylus
 hurlfmt
 hex-patch
+markdown2pdf
