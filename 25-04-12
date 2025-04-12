@@ -2,3 +2,4 @@ safe_network
 hurl
 re_query
 sea-orm-cli
+dioxus-cli
