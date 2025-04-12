@@ -27,3 +27,4 @@ cargo-generate
 raw-cpuid
 dysk
 tailspin
+fake
