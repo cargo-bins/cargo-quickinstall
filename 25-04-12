@@ -24,3 +24,4 @@ cargo-spellcheck
 graphql_client_cli
 rsfetch
 hurl
+cargo-embed
