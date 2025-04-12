@@ -66,3 +66,4 @@ nextest-filtering
 rg
 hex-patch
 binstall
+rustrict
