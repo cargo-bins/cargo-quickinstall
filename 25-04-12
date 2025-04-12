@@ -9,3 +9,4 @@ rrule
 apollo-router
 schemafy
 remove_dir_all
+sea-orm-cli
