@@ -11,3 +11,4 @@ sea-orm-cli
 tree-sitter-cli
 nextest-filtering
 rustrict
+raw-cpuid
