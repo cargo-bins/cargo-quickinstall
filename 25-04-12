@@ -20,3 +20,4 @@ remove_dir_all
 lingua
 nextest-filtering
 rustrict
+raw-cpuid
