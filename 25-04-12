@@ -33,3 +33,4 @@ cargo-stylus
 deno
 graphql_client_cli
 shunkakinoki
+nextest
