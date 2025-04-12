@@ -12,3 +12,4 @@ apollo-router
 nextest-filtering
 rustrict
 raw-cpuid
+fake
