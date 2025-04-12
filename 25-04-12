@@ -8,3 +8,4 @@ cargo-git
 cargo-tag
 cargo-proc-debug
 cargo-git
+cargo-proc-debug
