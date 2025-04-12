@@ -17,3 +17,4 @@ lair_keystore_api
 rmesg
 remove_dir_all
 exa
+nextest-filtering
