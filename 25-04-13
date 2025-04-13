@@ -34,3 +34,4 @@ ruget
 cargo-crev
 dotenv-flow
 youtube-tui
+opencv-binding-generator
