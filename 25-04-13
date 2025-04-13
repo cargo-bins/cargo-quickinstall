@@ -26,3 +26,4 @@ usage-cli
 usage-cli
 mit-pre-commit
 cargo-crev
+wol-rs
