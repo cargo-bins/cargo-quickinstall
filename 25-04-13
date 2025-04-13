@@ -19,3 +19,4 @@ dotenv-flow
 deploy
 rrule
 httpmock
+tree_magic
