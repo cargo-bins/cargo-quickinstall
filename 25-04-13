@@ -6,3 +6,4 @@ human_bytes
 dotenv-flow
 opencv-binding-generator
 deploy
+httpmock
