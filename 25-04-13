@@ -3,3 +3,4 @@ wol-rs
 libbpf-cargo
 nkeys
 skim
+human_bytes
