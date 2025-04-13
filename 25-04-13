@@ -19,3 +19,4 @@ tailspin
 dotenv-flow
 deploy
 cargo-nuget
+httpmock
