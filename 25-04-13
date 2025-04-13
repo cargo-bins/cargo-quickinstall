@@ -4,3 +4,4 @@ dioxus-cli
 libbpf-cargo
 dioxus-cli
 nkeys
+human_bytes
