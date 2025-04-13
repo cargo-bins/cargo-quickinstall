@@ -9,3 +9,4 @@ cargo-pgrx
 puffin_viewer
 nextest
 libbpf-cargo
+puffin_viewer
