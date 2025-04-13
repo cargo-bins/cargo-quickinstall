@@ -13,3 +13,4 @@ wol-rs
 deploy
 laminar
 textplots
+winpty-rs
