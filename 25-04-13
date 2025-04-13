@@ -55,3 +55,4 @@ ruget
 deploy
 sudo-rs
 sniffnet
+cargo-crev
