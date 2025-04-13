@@ -3,3 +3,4 @@ wol-rs
 libbpf-cargo
 nkeys
 human_bytes
+dotenv-flow
