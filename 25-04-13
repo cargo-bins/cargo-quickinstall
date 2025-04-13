@@ -6,3 +6,4 @@ dioxus-cli
 nkeys
 human_bytes
 dotenv-flow
+opencv-binding-generator
