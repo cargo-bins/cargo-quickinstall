@@ -5,3 +5,4 @@ wol-rs
 cargo-pgrx
 puffin_viewer
 nur
+libbpf-cargo
