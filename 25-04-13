@@ -31,3 +31,4 @@ cargo-nuget
 deploy
 cargo-nuget
 laminar
+usage-cli
