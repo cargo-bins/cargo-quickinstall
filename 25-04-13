@@ -3,3 +3,4 @@ wol-rs
 cargo-generate
 dua-cli
 libbpf-cargo
+cargo-nuget
