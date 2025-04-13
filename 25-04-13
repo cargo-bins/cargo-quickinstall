@@ -18,3 +18,4 @@ dotenv-flow
 opencv-binding-generator
 deploy
 rrule
+httpmock
