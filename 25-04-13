@@ -32,3 +32,4 @@ deploy
 cargo-nuget
 laminar
 usage-cli
+cargo-crev
