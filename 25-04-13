@@ -4,3 +4,4 @@ cargo-generate
 dua-cli
 libbpf-cargo
 cargo-nuget
+usage-cli
