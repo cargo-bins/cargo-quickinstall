@@ -56,3 +56,4 @@ deploy
 sudo-rs
 sniffnet
 cargo-crev
+cargo-info
