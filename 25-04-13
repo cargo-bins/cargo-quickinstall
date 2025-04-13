@@ -20,3 +20,4 @@ dotenv-flow
 deploy
 cargo-nuget
 httpmock
+tree_magic
