@@ -28,3 +28,4 @@ mit-pre-commit
 cargo-crev
 wol-rs
 cargo-nuget
+deploy
