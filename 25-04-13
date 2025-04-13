@@ -28,3 +28,4 @@ sudo-rs
 binwalk
 dotenv-flow
 youtube-tui
+opencv-binding-generator
