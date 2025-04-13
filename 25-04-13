@@ -6,3 +6,4 @@ libbpf-cargo
 cargo-nuget
 usage-cli
 nkeys
+monolith
