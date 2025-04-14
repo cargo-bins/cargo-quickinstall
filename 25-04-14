@@ -50,3 +50,4 @@ python-project-generator
 bugstalker
 laze
 cargo-embed
+cargo-dylint
