@@ -32,3 +32,4 @@ cargo-dylint
 cargo-c
 hex-patch
 hurl
+spider_cli
