@@ -3,3 +3,4 @@ dbus-codegen
 wmi
 pgrx-tests
 onefetch
+opencv-binding-generator
