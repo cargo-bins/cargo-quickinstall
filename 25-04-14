@@ -32,3 +32,4 @@ pcu
 cargo-dylint
 tuono
 fselect
+tree-sitter-cli
