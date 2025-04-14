@@ -19,3 +19,4 @@ dioxus-cli
 sea-orm-cli
 python-project-generator
 pgrx-tests
+opencv-binding-generator
