@@ -44,3 +44,4 @@ raw-cpuid
 fselect
 c2rust
 ripasso-cursive
+cargo-public-api
