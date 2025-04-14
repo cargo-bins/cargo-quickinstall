@@ -6,3 +6,4 @@ dioxus-cli
 lux-cli
 opencv-binding-generator
 raw-cpuid
+rustfmt-nightly
