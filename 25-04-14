@@ -28,3 +28,4 @@ raw-cpuid
 spider_cli
 pcu
 tuono
+cargo-dylint
