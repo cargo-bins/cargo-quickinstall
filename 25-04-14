@@ -8,3 +8,4 @@ raw-cpuid
 raw-cpuid
 openpty
 sp1-recursion-gnark-cli
+lux-cli
