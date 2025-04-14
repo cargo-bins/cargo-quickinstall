@@ -5,3 +5,4 @@ rrule
 pgrx-tests
 opencv-binding-generator
 raw-cpuid
+rustfmt-nightly
