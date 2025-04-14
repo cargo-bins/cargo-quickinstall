@@ -7,3 +7,4 @@ opencv-binding-generator
 raw-cpuid
 rustfmt-nightly
 shunkakinoki
+py-spy
