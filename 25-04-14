@@ -9,3 +9,4 @@ raw-cpuid
 rustfmt-nightly
 lux-cli
 raw-cpuid
+openpty
