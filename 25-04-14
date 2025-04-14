@@ -11,3 +11,4 @@ lux-cli
 raw-cpuid
 openpty
 sp1-recursion-gnark-cli
+stellar-strkey
