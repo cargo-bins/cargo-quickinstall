@@ -3,3 +3,4 @@ dbus-codegen
 wmi
 rrule
 pgrx-tests
+opencv-binding-generator
