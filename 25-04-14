@@ -9,3 +9,4 @@ opencv-binding-generator
 nu_plugin_query
 raw-cpuid
 nu_plugin_query
+py-spy
