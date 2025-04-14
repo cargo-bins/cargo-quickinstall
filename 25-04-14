@@ -54,3 +54,4 @@ cargo-dylint
 solana-gossip
 cargo-public-api
 cargo-public-api
+solana-keygen
