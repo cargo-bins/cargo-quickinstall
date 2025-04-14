@@ -3,3 +3,4 @@ git-disjoint
 dbus-codegen
 wmi
 pgrx-tests
+opencv-binding-generator
