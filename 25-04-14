@@ -18,3 +18,4 @@ rrule
 dioxus-cli
 sea-orm-cli
 python-project-generator
+pgrx-tests
