@@ -55,3 +55,4 @@ tree-sitter-cli
 cargo-risczero
 simple-http-server
 fselect
+dioxus-cli
