@@ -16,3 +16,4 @@ wmi
 simple-http-server
 rrule
 dioxus-cli
+sea-orm-cli
