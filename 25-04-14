@@ -46,3 +46,4 @@ cargo-dylint
 raw-cpuid
 cargo-ktra-login
 cargo-dylint
+python-project-generator
