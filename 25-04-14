@@ -5,3 +5,4 @@ pgrx-tests
 dioxus-cli
 lux-cli
 opencv-binding-generator
+raw-cpuid
