@@ -5,3 +5,4 @@ wmi
 rrule
 nu_plugin_query
 pgrx-tests
+opencv-binding-generator
