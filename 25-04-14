@@ -16,3 +16,4 @@ szyszka
 cargo-local-registry
 raw-cpuid
 salt_ide
+openpty
