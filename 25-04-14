@@ -5,3 +5,4 @@ wmi
 pgrx-tests
 opencv-binding-generator
 alacritty
+raw-cpuid
