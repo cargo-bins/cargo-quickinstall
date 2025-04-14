@@ -10,3 +10,4 @@ holochain_keystore
 cargo-local-registry
 shunkakinoki
 raw-cpuid
+httpbis
