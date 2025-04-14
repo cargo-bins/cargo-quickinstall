@@ -7,3 +7,4 @@ lux-cli
 opencv-binding-generator
 raw-cpuid
 rustfmt-nightly
+lux-cli
