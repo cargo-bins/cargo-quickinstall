@@ -9,3 +9,4 @@ spider_cli
 git-disjoint
 cargo-public-api
 tplay
+dbus-codegen
