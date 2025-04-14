@@ -19,3 +19,4 @@ salt_ide
 openpty
 solana-gossip
 cargo-generate
+cargo-risczero
