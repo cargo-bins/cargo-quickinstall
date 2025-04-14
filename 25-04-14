@@ -15,3 +15,4 @@ openpty
 solana-gossip
 cargo-risczero
 stellar-strkey
+sn_node_rpc_client
