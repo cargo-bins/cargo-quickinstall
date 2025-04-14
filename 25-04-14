@@ -10,3 +10,4 @@ git-disjoint
 cargo-public-api
 tplay
 dbus-codegen
+sea-orm-cli
