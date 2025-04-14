@@ -13,3 +13,4 @@ dbus-codegen
 sea-orm-cli
 sea-orm-cli
 wmi
+simple-http-server
