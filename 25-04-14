@@ -17,3 +17,4 @@ cargo-risczero
 stellar-strkey
 sn_node_rpc_client
 syd
+cargo-generate
