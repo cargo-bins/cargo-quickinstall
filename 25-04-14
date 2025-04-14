@@ -17,3 +17,4 @@ cargo-local-registry
 raw-cpuid
 salt_ide
 openpty
+solana-gossip
