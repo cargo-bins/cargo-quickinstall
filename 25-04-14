@@ -25,3 +25,4 @@ pgrx-tests
 cargo-spellcheck
 opencv-binding-generator
 python-project-generator
+tplay
