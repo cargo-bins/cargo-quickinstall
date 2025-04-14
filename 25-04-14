@@ -7,3 +7,4 @@ nu_plugin_query
 pgrx-tests
 opencv-binding-generator
 nu_plugin_query
+raw-cpuid
