@@ -30,3 +30,4 @@ raw-cpuid
 python-project-generator
 pcu
 cargo-dylint
+tuono
