@@ -6,3 +6,4 @@ opencv-binding-generator
 raw-cpuid
 httpbis
 lair_keystore_api
+holochain_keystore
