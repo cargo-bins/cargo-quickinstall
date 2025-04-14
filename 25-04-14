@@ -39,3 +39,4 @@ pcu
 lux-cli
 rustfmt-nightly
 cargo-dylint
+cargo-mobile2
