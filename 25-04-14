@@ -11,3 +11,4 @@ cargo-local-registry
 shunkakinoki
 raw-cpuid
 httpbis
+openpty
