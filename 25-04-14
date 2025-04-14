@@ -4,3 +4,4 @@ wmi
 rrule
 pgrx-tests
 opencv-binding-generator
+raw-cpuid
