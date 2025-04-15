@@ -2,3 +2,4 @@ simple-http-server
 cargo-embed
 space_editor
 parquet
+tuono
