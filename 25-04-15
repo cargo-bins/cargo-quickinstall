@@ -48,3 +48,4 @@ tmtc-c2a
 tmtc-c2a
 holochain_cli_sandbox
 nextest-filtering
+cpp_demangle
