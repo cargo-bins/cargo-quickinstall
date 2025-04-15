@@ -32,3 +32,4 @@ piechart
 tunein-cli
 nextest-filtering
 md-tui
+cpp_demangle
