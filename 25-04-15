@@ -34,3 +34,4 @@ nextest-filtering
 md-tui
 cpp_demangle
 mit-prepare-commit-msg
+tui-slides
