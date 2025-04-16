@@ -6,3 +6,4 @@ tendermint-rpc
 openpty
 minicbor
 pgrx-tests
+java-locator
