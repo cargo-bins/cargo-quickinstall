@@ -42,3 +42,4 @@ hoard-rs
 lux-cli
 cargo-risczero
 cargo-flash
+cargo-embed
