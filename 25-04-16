@@ -8,3 +8,4 @@ kickstart
 tendermint-rpc
 openpty
 minicbor
+holochain
