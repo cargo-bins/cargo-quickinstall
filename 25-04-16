@@ -10,3 +10,4 @@ java-locator
 binstall
 clap-stdin
 pwasm-utils
+cargo-bootimage
