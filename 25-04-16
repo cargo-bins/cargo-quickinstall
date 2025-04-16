@@ -6,3 +6,4 @@ winpty-rs
 java-locator
 kickstart
 tendermint-rpc
+openpty
