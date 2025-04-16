@@ -9,3 +9,4 @@ tendermint-rpc
 openpty
 minicbor
 holochain
+opencv-binding-generator
