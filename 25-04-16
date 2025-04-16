@@ -7,3 +7,4 @@ java-locator
 serie
 md-tui
 tendermint-rpc
+openpty
