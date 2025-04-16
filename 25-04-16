@@ -14,3 +14,4 @@ clap-stdin
 turbocommit
 binstall
 turbocommit
+pwasm-utils
