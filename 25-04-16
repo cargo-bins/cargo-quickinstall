@@ -46,3 +46,4 @@ cargo-embed
 clap-stdin
 binsider
 ghciwatch
+cargo-risczero
