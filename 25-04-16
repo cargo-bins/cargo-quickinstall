@@ -5,3 +5,4 @@ tokio-process
 lair_keystore_api
 opencv-binding-generator
 pwasm-utils
+re_query
