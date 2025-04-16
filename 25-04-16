@@ -45,3 +45,4 @@ cargo-flash
 cargo-embed
 clap-stdin
 binsider
+ghciwatch
