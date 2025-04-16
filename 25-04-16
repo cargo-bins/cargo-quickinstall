@@ -8,3 +8,4 @@ minicbor
 pgrx-tests
 java-locator
 binstall
+clap-stdin
