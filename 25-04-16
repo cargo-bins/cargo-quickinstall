@@ -4,3 +4,4 @@ winpty-rs
 java-locator
 tendermint-rpc
 openpty
+minicbor
