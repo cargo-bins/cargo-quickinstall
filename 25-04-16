@@ -5,3 +5,4 @@ java-locator
 tendermint-rpc
 openpty
 minicbor
+pgrx-tests
