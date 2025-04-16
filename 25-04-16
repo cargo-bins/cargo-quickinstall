@@ -48,3 +48,4 @@ binsider
 ghciwatch
 cargo-risczero
 lux-cli
+pwasm-utils
