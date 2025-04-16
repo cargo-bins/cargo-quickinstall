@@ -2,3 +2,4 @@ winpty-rs
 java-locator
 solana-gossip
 tokio-process
+lair_keystore_api
