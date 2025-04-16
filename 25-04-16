@@ -43,3 +43,4 @@ lux-cli
 cargo-risczero
 cargo-flash
 cargo-embed
+clap-stdin
