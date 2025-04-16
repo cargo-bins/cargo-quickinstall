@@ -47,3 +47,4 @@ clap-stdin
 binsider
 ghciwatch
 cargo-risczero
+lux-cli
