@@ -10,3 +10,4 @@ openpty
 minicbor
 holochain
 opencv-binding-generator
+clap-stdin
