@@ -12,3 +12,4 @@ holochain
 opencv-binding-generator
 clap-stdin
 turbocommit
+binstall
