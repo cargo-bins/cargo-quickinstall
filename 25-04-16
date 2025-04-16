@@ -1,3 +1,4 @@
 winpty-rs
 java-locator
 solana-gossip
+tokio-process
