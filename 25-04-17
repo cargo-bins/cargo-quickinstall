@@ -11,3 +11,4 @@ dbus-codegen
 cargo-lock
 solana-cli
 mit-commit-msg
+git-mit-config
