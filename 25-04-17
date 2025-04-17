@@ -3,3 +3,4 @@ holochain
 fls
 tendermint-rpc
 binstall
+libbpf-cargo
