@@ -18,3 +18,4 @@ skeld
 nrm
 cargo-lock
 repman
+systemd-crontab-generator
