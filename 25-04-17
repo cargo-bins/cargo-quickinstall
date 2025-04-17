@@ -2,3 +2,4 @@ holochain
 cargo-bootimage
 metadata
 tendermint-rpc
+fls
