@@ -10,3 +10,4 @@ libbpf-cargo
 rsb
 cargo-embed
 exa
+lux-cli
