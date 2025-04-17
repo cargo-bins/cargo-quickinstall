@@ -16,3 +16,4 @@ fcd
 dbus-codegen
 skeld
 nrm
+cargo-lock
