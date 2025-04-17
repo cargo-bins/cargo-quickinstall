@@ -8,3 +8,4 @@ dotenvy
 sn_node_rpc_client
 nexmark
 dbus-codegen
+cargo-lock
