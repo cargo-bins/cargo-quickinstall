@@ -5,3 +5,4 @@ human_bytes
 rg
 mit-pre-commit
 rg
+sqlx-cli
