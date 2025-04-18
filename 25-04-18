@@ -11,3 +11,4 @@ benfred-read-process-memory
 solana-net-utils
 httpbis
 sn_faucet
+sha1collisiondetection
