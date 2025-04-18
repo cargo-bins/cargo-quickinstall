@@ -2,3 +2,4 @@ human_bytes
 mit-pre-commit
 dbus-codegen
 httpmock
+mit-prepare-commit-msg
