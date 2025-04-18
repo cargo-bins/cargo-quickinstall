@@ -7,3 +7,4 @@ mit-pre-commit
 rg
 sqlx-cli
 httpmock
+mit-prepare-commit-msg
