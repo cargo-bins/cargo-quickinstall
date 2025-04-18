@@ -6,3 +6,4 @@ rg
 mit-pre-commit
 rg
 sqlx-cli
+httpmock
