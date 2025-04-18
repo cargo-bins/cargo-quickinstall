@@ -4,3 +4,4 @@ dbus-codegen
 httpmock
 mit-prepare-commit-msg
 syd
+git-mit-config
