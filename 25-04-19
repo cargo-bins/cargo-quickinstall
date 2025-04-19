@@ -4,3 +4,4 @@ tree_magic
 winpty-rs
 h3o
 cargo-risczero
+honggfuzz
