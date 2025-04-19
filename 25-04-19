@@ -6,3 +6,4 @@ tree_magic
 winpty-rs
 h3o
 cargo-i18n
+honggfuzz
