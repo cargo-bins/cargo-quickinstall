@@ -5,3 +5,4 @@ solana-net-utils
 coldsnap
 raw-cpuid
 pandora_box
+honggfuzz
