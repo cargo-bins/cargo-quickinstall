@@ -6,3 +6,4 @@ coldsnap
 raw-cpuid
 pandora_box
 honggfuzz
+text-diff
