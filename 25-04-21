@@ -6,3 +6,4 @@ cargo-disasm
 paperclip
 parquet
 cargo-disasm
+tendermint-rpc
