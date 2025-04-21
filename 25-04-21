@@ -9,3 +9,4 @@ tendermint-rpc
 httpmock
 rav1e
 solana-genesis
+minicbor
