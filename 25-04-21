@@ -17,3 +17,4 @@ httpmock
 argus-cli
 minicbor
 socketcan
+lux-cli
