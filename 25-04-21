@@ -16,3 +16,4 @@ argus-cli
 httpmock
 argus-cli
 minicbor
+socketcan
