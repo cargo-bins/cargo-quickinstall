@@ -5,3 +5,4 @@ investments
 deploy
 paperclip
 parquet
+tendermint-rpc
