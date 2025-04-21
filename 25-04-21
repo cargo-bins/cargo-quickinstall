@@ -6,3 +6,4 @@ deploy
 paperclip
 parquet
 tendermint-rpc
+httpmock
