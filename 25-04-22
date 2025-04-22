@@ -20,3 +20,4 @@ ruff
 dotenv
 ax
 solana-validator
+ruff
