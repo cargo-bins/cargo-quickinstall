@@ -37,3 +37,4 @@ re_query
 shadowsocks-rust
 biodiff
 shadowsocks-rust
+cargo-generate
