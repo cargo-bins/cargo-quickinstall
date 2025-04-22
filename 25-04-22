@@ -21,3 +21,4 @@ dotenv
 ax
 solana-validator
 ruff
+re_query
