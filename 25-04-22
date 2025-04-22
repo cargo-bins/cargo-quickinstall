@@ -31,3 +31,4 @@ winpty-rs
 coterm
 shadowsocks-rust
 dotenv
+cargo-crev
