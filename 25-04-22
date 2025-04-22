@@ -24,3 +24,4 @@ ruff
 re_query
 dioxus-cli
 git-disjoint
+ruff
