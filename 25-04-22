@@ -6,3 +6,4 @@ sqlx-cli
 oso
 sark0y_tam_rst
 winpty-rs
+dotenv
