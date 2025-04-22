@@ -30,3 +30,4 @@ zellij
 winpty-rs
 coterm
 shadowsocks-rust
+dotenv
