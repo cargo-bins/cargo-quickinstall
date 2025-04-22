@@ -5,3 +5,4 @@ cargo-crev
 scoop
 sqlx-cli
 cargo-crev
+tree_magic
