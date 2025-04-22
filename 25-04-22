@@ -9,3 +9,4 @@ winpty-rs
 dotenv
 re_query
 git-disjoint
+paperclip
