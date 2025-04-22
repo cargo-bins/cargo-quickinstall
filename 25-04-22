@@ -6,3 +6,4 @@ scoop
 sqlx-cli
 cargo-crev
 tree_magic
+lux-cli
