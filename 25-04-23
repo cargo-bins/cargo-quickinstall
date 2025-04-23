@@ -25,3 +25,4 @@ cargo-show
 cargo-generate
 cargo-show
 rustfmt-nightly
+wrkflw
