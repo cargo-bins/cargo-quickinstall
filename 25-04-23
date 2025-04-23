@@ -26,3 +26,4 @@ cargo-generate
 cargo-show
 rustfmt-nightly
 wrkflw
+cargo-book
