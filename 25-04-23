@@ -9,3 +9,4 @@ shadowsocks-rust
 nextest
 nextest
 nextest
+rustfmt-nightly
