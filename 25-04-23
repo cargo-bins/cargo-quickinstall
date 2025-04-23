@@ -11,3 +11,4 @@ nextest
 nextest
 rustfmt-nightly
 nextest
+shadowsocks-rust
