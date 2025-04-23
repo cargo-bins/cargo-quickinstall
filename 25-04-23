@@ -9,3 +9,4 @@ coldsnap
 honggfuzz
 wol-rs
 holochain_cli_sandbox
+rustfmt-nightly
