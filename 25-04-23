@@ -3,3 +3,4 @@ ruff
 deno
 shadowsocks-rust
 laminar
+oso
