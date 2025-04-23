@@ -22,3 +22,4 @@ wol-rs
 cargo-show
 wrkflw
 cargo-show
+cargo-generate
