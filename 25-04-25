@@ -16,3 +16,4 @@ cargo-native-install
 phf_generator
 badger
 skeld
+meli
