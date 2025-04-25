@@ -13,3 +13,4 @@ cargo-generate
 fcp
 safe_network
 rustowl
+phf_generator
