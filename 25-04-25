@@ -6,3 +6,4 @@ cargo-leptos
 libbpf-cargo
 arrow-flight
 httpbis
+safe_network
