@@ -5,3 +5,4 @@ parquet
 h3o
 sqlx-cli
 cargo-leptos
+pypackage
