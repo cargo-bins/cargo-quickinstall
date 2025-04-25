@@ -16,3 +16,4 @@ rustowl
 phf_generator
 rustowl
 czkawka_gui
+sqlx-cli
