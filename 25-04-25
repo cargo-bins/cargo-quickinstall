@@ -13,3 +13,4 @@ tmtc-c2a
 systemd-crontab-generator
 libbpf-cargo
 cargo-native-install
+phf_generator
