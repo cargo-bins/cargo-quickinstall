@@ -4,3 +4,4 @@ rustowl
 parquet
 h3o
 sqlx-cli
+cargo-leptos
