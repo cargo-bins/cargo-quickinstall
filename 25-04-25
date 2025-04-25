@@ -3,3 +3,4 @@ paperclip
 rustowl
 parquet
 h3o
+sqlx-cli
