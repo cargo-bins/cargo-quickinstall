@@ -3,3 +3,4 @@ staging-chain-spec-builder
 httpmock
 staging-chain-spec-builder
 fast-conventional
+cargo-authors
