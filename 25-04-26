@@ -1,3 +1,4 @@
 cargo-lock
 feroxbuster
 perfcnt
+diesel_cli
