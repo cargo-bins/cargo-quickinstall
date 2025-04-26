@@ -2,3 +2,4 @@ rustowl
 cargo-lock
 perfcnt
 staging-chain-spec-builder
+httpmock
