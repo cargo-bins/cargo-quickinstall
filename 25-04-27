@@ -4,3 +4,4 @@ human_bytes
 rmesg
 stellar-strkey
 rustfmt-nightly
+sn_faucet
