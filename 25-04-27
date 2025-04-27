@@ -13,3 +13,4 @@ pwsp
 lottieconv
 systemd-hardening-helper
 repman
+rustfmt-nightly
