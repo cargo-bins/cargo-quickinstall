@@ -3,3 +3,4 @@ opencv-binding-generator
 human_bytes
 rmesg
 stellar-strkey
+rustfmt-nightly
