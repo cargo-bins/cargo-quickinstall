@@ -15,3 +15,4 @@ systemd-hardening-helper
 repman
 rustfmt-nightly
 pwsp
+comiconv
