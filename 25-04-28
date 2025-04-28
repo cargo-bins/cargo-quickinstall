@@ -5,3 +5,4 @@ ojcmp
 cargo-native-install
 stellar-xdr
 rusthesia
+pwasm-utils
