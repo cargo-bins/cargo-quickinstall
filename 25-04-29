@@ -23,3 +23,4 @@ cargo-i18n
 lux-cli
 lux-cli
 passepartui
+cargo-generate
