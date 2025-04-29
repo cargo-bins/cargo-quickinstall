@@ -20,3 +20,4 @@ proof-of-sql
 dotenvy
 passepartui
 cargo-i18n
+lux-cli
