@@ -12,3 +12,4 @@ tree-sitter-graph
 dbus-codegen
 cargo-i18n
 nextest-filtering
+rustbus
