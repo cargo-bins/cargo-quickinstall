@@ -5,3 +5,4 @@ human_name
 https
 libbpf-cargo
 metrics-observer
+tree-sitter-graph
