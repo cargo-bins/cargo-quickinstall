@@ -7,3 +7,4 @@ libbpf-cargo
 metrics-observer
 tree-sitter-graph
 dbus-codegen
+metrics-observer
