@@ -5,3 +5,4 @@ dbus-codegen
 sark0y_tam_rst
 rustfmt
 nextest-filtering
+cargo-lock
