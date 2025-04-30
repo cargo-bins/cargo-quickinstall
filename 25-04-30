@@ -9,3 +9,4 @@ cargo-i18n
 tailtales
 libbpf-cargo
 tree-sitter-graph
+dbus-codegen
