@@ -14,3 +14,4 @@ metrics-observer
 nextest
 nextest-filtering
 diesel_cli
+nu_plugin_gstat
