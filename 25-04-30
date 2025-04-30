@@ -7,3 +7,4 @@ metrics-observer
 libbpf-cargo
 shlf
 tree-sitter-graph
+dbus-codegen
