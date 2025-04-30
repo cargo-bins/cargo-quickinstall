@@ -7,3 +7,4 @@ rustfmt
 nextest-filtering
 cargo-lock
 rustup-toolchain-install-master
+racer
