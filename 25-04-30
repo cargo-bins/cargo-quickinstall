@@ -10,3 +10,4 @@ tree-sitter-graph
 dbus-codegen
 lux-cli
 nextest
+metrics-observer
