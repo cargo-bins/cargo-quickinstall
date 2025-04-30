@@ -6,3 +6,4 @@ sark0y_tam_rst
 rustfmt
 nextest-filtering
 cargo-lock
+rustup-toolchain-install-master
