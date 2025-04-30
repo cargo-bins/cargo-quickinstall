@@ -4,3 +4,4 @@ metrics-observer
 human_name
 https
 libbpf-cargo
+metrics-observer
