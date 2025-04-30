@@ -13,3 +13,4 @@ dbus-codegen
 cargo-i18n
 nextest-filtering
 rustbus
+cargo-lock
