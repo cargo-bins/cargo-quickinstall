@@ -4,3 +4,4 @@ ec2_instance_metadata
 dbus-codegen
 sark0y_tam_rst
 rustfmt
+nextest-filtering
