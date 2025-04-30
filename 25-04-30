@@ -13,3 +13,4 @@ nextest
 metrics-observer
 nextest
 nextest-filtering
+diesel_cli
