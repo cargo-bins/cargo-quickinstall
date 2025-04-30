@@ -11,3 +11,4 @@ dbus-codegen
 lux-cli
 nextest
 metrics-observer
+nextest
