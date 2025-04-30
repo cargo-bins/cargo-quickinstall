@@ -5,3 +5,4 @@ lux-cli
 hk
 metrics-observer
 libbpf-cargo
+shlf
