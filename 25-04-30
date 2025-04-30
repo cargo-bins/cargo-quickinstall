@@ -16,3 +16,4 @@ nextest-filtering
 diesel_cli
 nu_plugin_gstat
 nextest
+cargo-lock
