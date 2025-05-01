@@ -8,3 +8,4 @@ nextest
 cargo-lock
 oso
 nextest
+fast-conventional
