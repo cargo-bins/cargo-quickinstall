@@ -5,3 +5,4 @@ material
 rkv
 diesel_cli
 nextest
+cargo-lock
