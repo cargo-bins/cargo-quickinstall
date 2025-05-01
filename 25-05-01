@@ -10,3 +10,4 @@ oso
 nextest
 fast-conventional
 paperclip
+dotenv
