@@ -13,3 +13,4 @@ carapace
 solana-cli
 rustbus
 paperclip
+dotenv
