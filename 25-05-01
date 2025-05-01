@@ -6,3 +6,4 @@ rkv
 diesel_cli
 nextest
 cargo-lock
+oso
