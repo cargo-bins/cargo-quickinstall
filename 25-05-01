@@ -1,3 +1,4 @@
 cargo-lock
 lux-cli
 material
+nextest
