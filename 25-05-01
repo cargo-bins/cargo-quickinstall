@@ -9,3 +9,4 @@ cargo-lock
 oso
 nextest
 fast-conventional
+paperclip
