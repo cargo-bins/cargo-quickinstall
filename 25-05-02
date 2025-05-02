@@ -2,3 +2,4 @@ mit-prepare-commit-msg
 git-disjoint
 perfcnt
 cargo-leptos
+socketcan
