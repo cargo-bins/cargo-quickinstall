@@ -14,3 +14,4 @@ cargo-leptos
 socketcan
 exa
 exa
+dotenv-flow
