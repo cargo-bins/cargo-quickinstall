@@ -3,3 +3,4 @@ git-disjoint
 perfcnt
 cargo-leptos
 socketcan
+dotenv-flow
