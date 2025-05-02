@@ -3,3 +3,4 @@ fake
 atuin
 socketcan
 procmon-oprs
+dotenv-flow
