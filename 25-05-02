@@ -5,3 +5,4 @@ sqlx-cli
 zp
 dbus-codegen
 git-disjoint
+perfcnt
