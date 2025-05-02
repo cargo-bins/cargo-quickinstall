@@ -7,3 +7,4 @@ rustowl
 socketcan
 procmon-oprs
 atuin
+dotenv-flow
