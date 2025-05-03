@@ -6,3 +6,4 @@ mit-commit-msg
 httpmock
 exa
 rustowl
+sqlx-cli
