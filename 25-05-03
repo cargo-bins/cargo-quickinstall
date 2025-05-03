@@ -19,3 +19,4 @@ binstall
 argus-cli
 git-loc-analyzer
 git-repo-manager
+rls-rustc
