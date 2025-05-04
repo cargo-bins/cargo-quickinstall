@@ -3,3 +3,4 @@ rustbus
 sentry-kafka-schemas
 racer
 stellar-strkey
+tendermint-abci
