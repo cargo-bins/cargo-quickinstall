@@ -20,3 +20,4 @@ rustfmt-nightly
 safe_network
 cached-path
 diesel_cli
+rustfmt-nightly
