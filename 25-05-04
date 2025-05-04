@@ -26,3 +26,4 @@ diesel_cli
 diesel_cli
 rustfmt-nightly
 xcp
+diesel_cli
