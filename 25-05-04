@@ -4,3 +4,4 @@ sentry-kafka-schemas
 racer
 stellar-strkey
 tendermint-abci
+arrow-flight
