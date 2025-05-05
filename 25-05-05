@@ -10,3 +10,4 @@ rls-rustc
 benfred-read-process-memory
 sn_cli
 ducc-sys
+ec2_instance_metadata
