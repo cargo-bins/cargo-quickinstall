@@ -2,3 +2,4 @@ cavif
 cargo-codspeed
 binstall
 solana-tokens
+dotenv-flow
