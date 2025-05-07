@@ -5,3 +5,4 @@ binstall
 cpp_demangle
 gosh-remote
 cpp_demangle
+signal-scan
