@@ -4,3 +4,4 @@ diesel_cli
 binstall
 cpp_demangle
 gosh-remote
+cpp_demangle
