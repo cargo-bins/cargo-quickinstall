@@ -4,3 +4,4 @@ cpp_demangle
 cargo-leptos
 ducc-sys
 holochain
+arrow-flight
