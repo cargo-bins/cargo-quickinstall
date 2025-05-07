@@ -8,3 +8,4 @@ cpp_demangle
 signal-scan
 sudo-rs
 spotnix
+ducc-sys
