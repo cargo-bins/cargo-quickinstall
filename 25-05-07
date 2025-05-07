@@ -4,3 +4,4 @@ lprefix
 binstall
 oci2git
 pidtree_mon
+cargo-pando
