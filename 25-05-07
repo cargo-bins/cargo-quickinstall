@@ -5,3 +5,4 @@ binstall
 oci2git
 pidtree_mon
 cargo-pando
+cpp_demangle
