@@ -6,3 +6,4 @@ arrow-flight
 lux-cli
 nextest-filtering
 mdbookkit
+rustfmt-nightly
