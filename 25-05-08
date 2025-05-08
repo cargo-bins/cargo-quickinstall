@@ -10,3 +10,4 @@ kickstart
 rustfmt-nightly
 kickstart
 remove_dir_all
+tree-sitter-graph
