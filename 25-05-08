@@ -4,3 +4,4 @@ rg
 pgrx-tests
 arrow-flight
 lux-cli
+nextest-filtering
