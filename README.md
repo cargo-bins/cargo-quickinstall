@@ -32,13 +32,13 @@ This will install pre-compiled versions of any binaries in the crate. If we don'
 If you want to install a rust package on a CI system, you can do it with a `curl | tar` command, directly from the `cargo-quickinstall` github releases repo.
 
 ```bash
-$ cargo-quickinstall --dry-run ripgrep
+cargo-quickinstall --dry-run --no-binstall ripgrep
 ```
 
 will print:
 
 ```bash
-"curl" "--user-agent" "cargo-quickinstall client (alsuren@gmail.com)" "--location" "--silent" "--show-error" "--fail" "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ripgrep-13.0.0-x86_64-apple-darwin/ripgrep-13.0.0-x86_64-apple-darwin.tar.gz" | "tar" "-xzvvf" "-" "-C" "/Users/alsuren/.cargo/bin"
+curl --user-agent "cargo-quickinstall/0.3.13 client (alsuren@gmail.com)" --location --silent --show-error --fail "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ripgrep-14.1.1/ripgrep-14.1.1-aarch64-apple-darwin.tar.gz" | tar -xzvvf - -C /Users/alsuren/.cargo/bin
 ```
 
 Edit the command however you need, and paste it into your CI pipeline.
