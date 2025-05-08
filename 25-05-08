@@ -9,3 +9,4 @@ mdbookkit
 rustfmt-nightly
 tendermint-abci
 nextest
+remove_dir_all
