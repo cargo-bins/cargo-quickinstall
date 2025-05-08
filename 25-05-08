@@ -7,3 +7,4 @@ mdbook-latex
 arrow-flight
 nextest-filtering
 kickstart
+rustfmt-nightly
