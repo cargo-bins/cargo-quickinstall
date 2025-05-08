@@ -6,3 +6,4 @@ nextest-filtering
 rustfmt-nightly
 tendermint-abci
 remove_dir_all
+tree-sitter-graph
