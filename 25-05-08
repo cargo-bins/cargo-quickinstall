@@ -4,3 +4,4 @@ cargo-codspeed
 arrow-flight
 nextest-filtering
 rustfmt-nightly
+tendermint-abci
