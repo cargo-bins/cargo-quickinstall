@@ -7,3 +7,4 @@ cargo-codspeed
 dash-mpd-cli
 nextest-filtering
 dash-mpd-cli
+tendermint-abci
