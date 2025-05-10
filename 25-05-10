@@ -6,3 +6,4 @@ solana-net-utils
 borsh
 sha1collisiondetection
 kickstart
+loop-rs
