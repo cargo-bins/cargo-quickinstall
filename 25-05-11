@@ -11,3 +11,4 @@ solana-validator
 solana-genesis
 cargo-codspeed
 rmpc
+rsgen-avro
