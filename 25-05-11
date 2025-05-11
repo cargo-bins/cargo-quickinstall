@@ -13,3 +13,4 @@ cargo-codspeed
 rmpc
 rsgen-avro
 dysk
+nu_plugin_net
