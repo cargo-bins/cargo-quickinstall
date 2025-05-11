@@ -14,3 +14,4 @@ rsgen-avro
 dioxus-cli
 cargo_crev_reviews
 mdbook-latex
+lux-cli
