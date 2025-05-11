@@ -2,3 +2,4 @@ openpty
 addr2line
 nkeys
 solana-validator
+perfcnt
