@@ -3,3 +3,4 @@ rmpc
 cargo-graph
 easytier
 addr2line
+bendsql
