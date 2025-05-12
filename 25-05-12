@@ -9,3 +9,4 @@ nu_plugin_net
 bendsql
 bmputil
 dysk
+rustfmt-nightly
