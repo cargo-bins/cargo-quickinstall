@@ -10,3 +10,4 @@ bendsql
 bmputil
 dysk
 rustfmt-nightly
+cargo-leptos
