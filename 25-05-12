@@ -5,3 +5,4 @@ nu_plugin_net
 shadowsocks-rust
 bendsql
 zellij
+nu_plugin_net
