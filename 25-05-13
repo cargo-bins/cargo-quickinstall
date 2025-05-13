@@ -1,3 +1,4 @@
 scoop
 cargo-lock
 wizer
+honggfuzz
