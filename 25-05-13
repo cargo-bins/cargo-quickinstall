@@ -2,3 +2,4 @@ scoop
 cargo-lock
 wizer
 honggfuzz
+sqlx-cli
