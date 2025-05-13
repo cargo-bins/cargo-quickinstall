@@ -3,3 +3,4 @@ winpty-rs
 arrow-flight
 openpty
 rkv
+ducc-sys
