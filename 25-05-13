@@ -26,3 +26,4 @@ forgejo-cli
 kickstart
 lux-cli
 rls-rustc
+dioxus-cli
