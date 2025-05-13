@@ -3,3 +3,4 @@ cargo-lock
 wizer
 honggfuzz
 sqlx-cli
+rm-improved
