@@ -6,3 +6,4 @@ sqlx-cli
 rm-improved
 exa
 winpty-rs
+clippy
