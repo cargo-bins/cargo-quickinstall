@@ -7,3 +7,4 @@ rm-improved
 exa
 winpty-rs
 clippy
+nu_plugin_skim
