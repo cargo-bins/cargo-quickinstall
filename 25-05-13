@@ -16,3 +16,4 @@ human_bytes
 skim
 clippy
 rls-rustc
+nu_plugin_skim
