@@ -25,3 +25,4 @@ trashy
 forgejo-cli
 kickstart
 lux-cli
+rls-rustc
