@@ -20,3 +20,4 @@ iroh-net
 cargo-flash
 cargo-embed
 openpty
+tree_magic
