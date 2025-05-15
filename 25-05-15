@@ -7,3 +7,4 @@ cargo-embed
 dotenv-flow
 zellij
 shadowsocks-rust
+sha1collisiondetection
