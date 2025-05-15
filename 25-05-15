@@ -3,3 +3,4 @@ czkawka_gui
 tendermint-abci
 dotenv-flow
 fast-conventional
+sha1collisiondetection
