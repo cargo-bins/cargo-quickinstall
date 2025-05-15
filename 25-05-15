@@ -6,3 +6,4 @@ dotenvy
 pandora_box
 sn_node
 cargo-local-registry
+rtx-cli
