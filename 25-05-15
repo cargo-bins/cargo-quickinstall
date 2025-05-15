@@ -6,3 +6,4 @@ miro
 cargo-embed
 dotenv-flow
 zellij
+shadowsocks-rust
