@@ -22,3 +22,4 @@ exa
 cargo-local-registry
 lux-cli
 nextest
+gitui
