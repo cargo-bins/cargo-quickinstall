@@ -25,3 +25,4 @@ nextest
 gitui
 rtx-cli
 gitui
+httpmock
