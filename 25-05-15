@@ -19,3 +19,4 @@ nextest
 nextest
 pandora_box
 exa
+cargo-local-registry
