@@ -20,3 +20,4 @@ nextest
 pandora_box
 exa
 cargo-local-registry
+lux-cli
