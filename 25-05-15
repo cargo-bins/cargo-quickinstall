@@ -8,3 +8,4 @@ please-install
 please-install
 wmi
 rust-bert
+dotenvy
