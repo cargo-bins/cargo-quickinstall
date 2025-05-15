@@ -8,3 +8,4 @@ dotenv-flow
 zellij
 shadowsocks-rust
 sha1collisiondetection
+nu-completion-script
