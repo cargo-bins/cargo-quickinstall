@@ -14,3 +14,4 @@ git-mit-config
 lux-cli
 schemafy
 rmpc
+cargo-generate
