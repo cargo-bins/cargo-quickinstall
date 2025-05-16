@@ -4,3 +4,4 @@ sn_cli
 ec2_instance_metadata
 httpbis
 opencv-binding-generator
+schemafy
