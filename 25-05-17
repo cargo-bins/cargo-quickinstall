@@ -5,3 +5,4 @@ cargo-flash
 pgrx-tests
 sqlx-cli
 zellij
+ferris-fetch
