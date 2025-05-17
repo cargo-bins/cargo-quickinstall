@@ -3,3 +3,4 @@ rmesg
 dua-cli
 cargo-flash
 pgrx-tests
+sqlx-cli
