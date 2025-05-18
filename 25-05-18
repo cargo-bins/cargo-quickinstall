@@ -2,3 +2,4 @@ proof-of-sql
 rkv
 holochain_cli
 rmesg
+openpty
