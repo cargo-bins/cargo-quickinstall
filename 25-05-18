@@ -8,3 +8,4 @@ openpty
 ducc-sys
 sudo-rs
 sudo-rs
+argus-cli
