@@ -8,3 +8,4 @@ ferris-fetch
 rmesg
 baibot
 firedbg-cli
+openpty
