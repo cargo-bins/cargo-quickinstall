@@ -9,3 +9,4 @@ lux-cli
 nextest
 binstall
 binstall
+winpty-rs
