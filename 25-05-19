@@ -9,3 +9,4 @@ termusic-server
 argus-cli
 winpty-rs
 binstall
+nextest
