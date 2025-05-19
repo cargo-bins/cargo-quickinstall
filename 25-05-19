@@ -11,3 +11,4 @@ winpty-rs
 binstall
 nextest
 ext-sort
+termusic-server
