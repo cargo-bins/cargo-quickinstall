@@ -7,3 +7,4 @@ nextest
 sudo-rs
 termusic-server
 argus-cli
+winpty-rs
