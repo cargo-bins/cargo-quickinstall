@@ -10,3 +10,4 @@ nextest
 binstall
 binstall
 winpty-rs
+binstall
