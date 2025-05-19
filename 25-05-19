@@ -21,3 +21,4 @@ winpty-rs
 git-mit-install
 ext-sort
 dua-cli
+sqlx-cli
