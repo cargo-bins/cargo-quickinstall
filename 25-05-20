@@ -5,3 +5,4 @@ tendermint-rpc
 xtr
 xtr
 sqlx-cli
+human_bytes
