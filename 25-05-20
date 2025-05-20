@@ -13,3 +13,4 @@ cargo-checkmate
 socketcan
 cargo-checkmate
 kani-verifier
+kani-verifier
