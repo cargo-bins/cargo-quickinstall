@@ -14,3 +14,4 @@ lance
 cargo-count
 httpmock
 cargo-count
+nextest
