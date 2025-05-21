@@ -15,3 +15,4 @@ cargo-count
 httpmock
 cargo-count
 nextest
+cargo-lock
