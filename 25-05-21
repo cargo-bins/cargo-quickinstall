@@ -9,3 +9,4 @@ cargo-count
 livetex
 httpmock
 cpp_demangle
+cargo-lock
