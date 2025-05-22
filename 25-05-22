@@ -2,3 +2,4 @@ rm-improved
 dotenv-flow
 ducc-sys
 zp
+cargo-generate
