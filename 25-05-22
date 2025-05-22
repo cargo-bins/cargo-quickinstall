@@ -3,3 +3,4 @@ ducc-sys
 cargo-generate
 skim
 ec2_instance_metadata
+mit-prepare-commit-msg
