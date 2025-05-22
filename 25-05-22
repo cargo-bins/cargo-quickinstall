@@ -4,3 +4,4 @@ nextest
 ducc-sys
 cargo-count
 nextest
+patch-crate
