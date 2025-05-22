@@ -11,3 +11,4 @@ patch-crate
 cargo-lock
 rsgen-avro
 java-locator
+kickstart
