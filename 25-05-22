@@ -12,3 +12,4 @@ cargo-lock
 rsgen-avro
 java-locator
 kickstart
+openpty
