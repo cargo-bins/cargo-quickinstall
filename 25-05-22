@@ -2,3 +2,4 @@ nextest
 dotenv-flow
 nextest
 ducc-sys
+cargo-count
