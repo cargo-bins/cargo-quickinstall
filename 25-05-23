@@ -4,3 +4,4 @@ libbpf-cargo
 paperclip
 tree_magic
 rrule
+tree-sitter-graph
