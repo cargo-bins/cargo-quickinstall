@@ -6,3 +6,4 @@ paperclip
 tree_magic
 tree-sitter-graph
 cargo-vet
+foundationdb-gen
