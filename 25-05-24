@@ -14,3 +14,4 @@ hunter
 code-remote
 commit_verify
 argus-cli
+nu_plugin_gstat
