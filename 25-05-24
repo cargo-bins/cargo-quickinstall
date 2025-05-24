@@ -15,3 +15,4 @@ exa
 sqlx-cli
 cargo-leptos
 blue-build
+mdbook-typst-pdf
