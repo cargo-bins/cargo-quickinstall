@@ -20,3 +20,4 @@ socketcan
 sqlx-cli
 cargo-local-registry
 coreutils
+foundationdb-gen
