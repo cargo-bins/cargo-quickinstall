@@ -2,3 +2,4 @@ clap-stdin
 schemafy
 stellar-strkey
 tendermint-rpc
+socketcan
