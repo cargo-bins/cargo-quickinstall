@@ -16,3 +16,4 @@ tendermint-rpc
 dioxus-cli
 phf_generator
 socketcan
+monitor-affinity
