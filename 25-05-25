@@ -13,3 +13,4 @@ binstall
 stellar-strkey
 tendermint-rpc
 rg
+phf_generator
