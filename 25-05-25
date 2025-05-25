@@ -8,3 +8,4 @@ rrule
 stellar-strkey
 monitor-affinity
 wlr-which-key
+tendermint-rpc
