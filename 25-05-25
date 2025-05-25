@@ -18,3 +18,4 @@ soar-cli
 rg
 socketcan
 sqlx-cli
+cargo-local-registry
