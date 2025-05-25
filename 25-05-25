@@ -17,3 +17,4 @@ dioxus-cli
 phf_generator
 socketcan
 monitor-affinity
+print-type-sizes
