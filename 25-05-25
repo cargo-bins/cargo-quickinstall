@@ -10,3 +10,4 @@ monitor-affinity
 wlr-which-key
 tendermint-rpc
 easytier
+phf_generator
