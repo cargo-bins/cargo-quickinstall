@@ -17,3 +17,4 @@ phf_generator
 soar-cli
 rg
 socketcan
+sqlx-cli
