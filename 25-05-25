@@ -4,3 +4,4 @@ stellar-strkey
 tendermint-rpc
 socketcan
 schemafy
+foundationdb-gen
