@@ -8,3 +8,4 @@ lance
 dotenv
 rustrict
 idr2nix
+pyo3_bindgen_cli
