@@ -5,3 +5,4 @@ cargo-generate
 shunkakinoki
 safe_network
 lance
+dotenv
