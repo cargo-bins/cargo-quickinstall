@@ -5,3 +5,4 @@ nkeys
 pyo3_bindgen_cli
 lux-cli
 lance
+dotenv
