@@ -6,3 +6,4 @@ nkeys
 sqlx-cli
 gitui
 lance
+dotenv
