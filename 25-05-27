@@ -9,3 +9,4 @@ mcfg
 opencv-binding-generator
 idr2nix
 tendermint-abci
+remove_dir_all
