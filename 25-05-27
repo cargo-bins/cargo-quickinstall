@@ -5,3 +5,4 @@ zlib
 zlib
 tendermint-abci
 nextest
+remove_dir_all
