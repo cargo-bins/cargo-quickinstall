@@ -4,3 +4,4 @@ paperclip
 https
 aldoc
 tendermint-abci
+remove_dir_all
