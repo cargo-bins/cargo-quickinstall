@@ -8,3 +8,4 @@ nextest
 remove_dir_all
 zlib
 zlib
+httm
