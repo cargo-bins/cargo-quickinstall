@@ -7,3 +7,4 @@ cargo-bisect-rustc
 kickstart
 cargo-outofdate
 dotenv-flow
+xray-tui
