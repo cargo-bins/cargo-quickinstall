@@ -5,3 +5,4 @@ lux-cli
 xray-tui
 lux-cli
 dotenv-flow
+httpmock
