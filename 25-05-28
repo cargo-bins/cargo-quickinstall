@@ -9,3 +9,4 @@ cargo-outofdate
 dotenv-flow
 xray-tui
 kickstart
+rsgen-avro
