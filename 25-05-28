@@ -6,3 +6,4 @@ xray-tui
 lux-cli
 dotenv-flow
 httpmock
+rsgen-avro
