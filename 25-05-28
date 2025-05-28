@@ -6,3 +6,4 @@ cuteness
 cargo-bisect-rustc
 kickstart
 cargo-outofdate
+dotenv-flow
