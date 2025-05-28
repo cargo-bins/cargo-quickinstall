@@ -5,3 +5,4 @@ kickstart
 cuteness
 cargo-bisect-rustc
 kickstart
+cargo-outofdate
