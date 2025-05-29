@@ -20,3 +20,4 @@ cargo-lock
 zellij
 deploy
 iai-callgrind-runner
+coreutils
