@@ -19,3 +19,4 @@ zellij
 cargo-lock
 zellij
 deploy
+iai-callgrind-runner
