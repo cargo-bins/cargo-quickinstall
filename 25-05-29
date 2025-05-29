@@ -10,3 +10,4 @@ unicode_lsp
 rfm-bin
 cargo-lock
 deploy
+nextest
