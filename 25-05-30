@@ -8,3 +8,4 @@ cargo-semver-bump
 addr2line
 yazi-fm
 pijul
+cargo-codspeed
