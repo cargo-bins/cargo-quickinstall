@@ -5,3 +5,4 @@ cargo-local-registry
 benfred-read-process-memory
 git-mit-relates-to
 socketcan
+httpmock
