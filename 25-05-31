@@ -8,3 +8,4 @@ clean-dev-dirs
 bite
 lux-cli
 socketcan
+httpmock
