@@ -7,3 +7,4 @@ binstall
 clean-dev-dirs
 bite
 lux-cli
+socketcan
