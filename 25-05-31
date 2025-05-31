@@ -5,3 +5,4 @@ clippy
 cargo-local-registry
 gitui
 cargo-codspeed
+gitui
