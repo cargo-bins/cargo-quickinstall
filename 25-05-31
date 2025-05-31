@@ -6,3 +6,4 @@ media_organizer
 binstall
 clean-dev-dirs
 bite
+lux-cli
