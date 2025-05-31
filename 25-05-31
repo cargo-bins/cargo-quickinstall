@@ -4,3 +4,4 @@ nu_plugin_skim
 clippy
 cargo-local-registry
 gitui
+cargo-codspeed
