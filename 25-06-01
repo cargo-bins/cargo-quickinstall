@@ -6,3 +6,4 @@ dotenvy
 minicbor
 socketcan
 sqlx-cli
+httm
