@@ -8,3 +8,4 @@ cached-path
 rsgen-avro
 nexmark
 winpty-rs
+deno
