@@ -11,3 +11,4 @@ syd
 nexmark
 winpty-rs
 rls-rustc
+argus-cli
