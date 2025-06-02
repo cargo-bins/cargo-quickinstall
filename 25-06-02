@@ -9,3 +9,4 @@ cargo-generate
 syd
 nexmark
 cached-path
+cargo-i18n
