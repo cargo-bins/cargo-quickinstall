@@ -8,3 +8,4 @@ rustdesk
 cargo-generate
 syd
 nexmark
+cached-path
