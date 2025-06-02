@@ -1,3 +1,4 @@
 addr2line
 uu_whoami
 sn_cli
+cargo-generate
