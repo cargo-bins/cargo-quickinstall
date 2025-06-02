@@ -7,3 +7,4 @@ nexmark
 cached-path
 rsgen-avro
 nexmark
+winpty-rs
