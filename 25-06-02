@@ -10,3 +10,4 @@ argus-cli
 syd
 nexmark
 winpty-rs
+rls-rustc
