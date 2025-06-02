@@ -19,3 +19,4 @@ cargo-i18n
 nexmark
 winpty-rs
 stellar-xdr
+c2rust
