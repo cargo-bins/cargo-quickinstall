@@ -4,3 +4,4 @@ sn_cli
 cargo-generate
 syd
 nexmark
+cached-path
