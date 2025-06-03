@@ -6,3 +6,4 @@ sequoia-sq
 nextest-filtering
 cargo-leptos
 mit-prepare-commit-msg
+lux-cli
