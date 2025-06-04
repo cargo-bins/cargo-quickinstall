@@ -8,3 +8,4 @@ ruff
 shpool
 staging-chain-spec-builder
 hayagriva
+httpmock
