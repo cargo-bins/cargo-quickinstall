@@ -6,3 +6,4 @@ cargo-lock
 hayagriva
 httpmock
 tendermint-abci
+lux-cli
