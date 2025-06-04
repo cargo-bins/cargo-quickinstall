@@ -5,3 +5,4 @@ winpty-rs
 cargo-lock
 hayagriva
 httpmock
+tendermint-abci
