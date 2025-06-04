@@ -12,3 +12,4 @@ uu_tail
 uu_tail
 cargo-lock
 httpmock
+bendsql
