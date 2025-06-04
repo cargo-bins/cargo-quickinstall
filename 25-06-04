@@ -3,3 +3,4 @@ binstall
 ruff
 lingua
 winpty-rs
+staging-chain-spec-builder
