@@ -6,3 +6,4 @@ cargo-lock
 httpmock
 git-mit-install
 honggfuzz
+git-mit
