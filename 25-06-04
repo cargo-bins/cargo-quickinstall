@@ -5,3 +5,4 @@ winpty-rs
 cargo-lock
 httpmock
 git-mit-install
+honggfuzz
