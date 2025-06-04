@@ -2,3 +2,4 @@ nv
 binstall
 ruff
 lingua
+winpty-rs
