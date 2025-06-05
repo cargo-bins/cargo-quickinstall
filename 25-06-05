@@ -4,3 +4,4 @@ holochain_cli
 laminar
 racer
 cargo-vet
+coldsnap
