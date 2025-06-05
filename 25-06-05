@@ -7,3 +7,4 @@ cargo-vet
 coldsnap
 uu_mv
 rustfmt
+mit-pre-commit
