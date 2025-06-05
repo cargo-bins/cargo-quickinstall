@@ -8,3 +8,4 @@ coldsnap
 uu_mv
 rustfmt
 mit-pre-commit
+socketcan
