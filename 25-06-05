@@ -10,3 +10,4 @@ paperclip
 cargo-supply-chain
 uvx
 rdedup
+nextest
