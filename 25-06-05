@@ -11,3 +11,4 @@ cargo-supply-chain
 uvx
 rdedup
 nextest
+rdedup
