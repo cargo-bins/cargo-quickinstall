@@ -2,3 +2,4 @@ uu_chown
 uu_tail
 uu_uniq
 usage-cli
+uu_basename
