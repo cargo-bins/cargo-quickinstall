@@ -3,3 +3,4 @@ tendermint-abci
 cargo-simd-detect
 nextest
 foundationdb-gen
+nextest
