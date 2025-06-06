@@ -26,3 +26,4 @@ uu_basename
 uu_cat
 raw-cpuid
 uu_tr
+uu_kill
