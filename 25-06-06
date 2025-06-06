@@ -11,3 +11,4 @@ uu_basename
 uu_tail
 coreutils
 pylauncher
+uu_chmod
