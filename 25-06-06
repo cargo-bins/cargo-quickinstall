@@ -5,3 +5,4 @@ nextest
 foundationdb-gen
 nextest
 maelstrom-go-test
+raw-cpuid
