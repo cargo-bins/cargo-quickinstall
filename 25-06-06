@@ -4,3 +4,4 @@ cargo-simd-detect
 nextest
 foundationdb-gen
 nextest
+maelstrom-go-test
