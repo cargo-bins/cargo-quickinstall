@@ -8,3 +8,4 @@ uu_basename
 solana-genesis
 tendermint-abci
 uu_basename
+uu_tail
