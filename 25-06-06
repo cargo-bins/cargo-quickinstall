@@ -6,3 +6,4 @@ uu_basename
 uu_chown
 uu_basename
 solana-genesis
+tendermint-abci
