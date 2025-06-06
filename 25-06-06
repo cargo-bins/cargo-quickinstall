@@ -18,3 +18,4 @@ pylauncher
 uu_cp
 uu_ln
 uu_chmod
+uu_chgrp
