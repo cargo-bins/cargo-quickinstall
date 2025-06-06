@@ -13,3 +13,4 @@ coreutils
 pylauncher
 uu_chmod
 uu_chown
+uu_wc
