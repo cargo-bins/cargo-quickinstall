@@ -22,3 +22,4 @@ uu_chgrp
 uu_ln
 uu_kill
 holochain
+uu_basename
