@@ -12,3 +12,4 @@ uu_tail
 coreutils
 pylauncher
 uu_chmod
+uu_chown
