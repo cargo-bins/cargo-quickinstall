@@ -2,3 +2,4 @@ maelstrom-go-test
 httpmock
 re_query
 maelstrom-go-test
+foundationdb-gen
