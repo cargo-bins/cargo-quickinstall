@@ -5,3 +5,4 @@ foundationdb-gen
 pgrx-tests
 deno
 java-locator
+holochain_cli
