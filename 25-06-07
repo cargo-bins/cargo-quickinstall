@@ -7,3 +7,4 @@ cargo-generate
 rqbit
 xpath-cli
 foundationdb-gen
+dua-cli
