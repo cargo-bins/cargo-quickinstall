@@ -6,3 +6,4 @@ re_query
 cargo-generate
 rqbit
 xpath-cli
+foundationdb-gen
