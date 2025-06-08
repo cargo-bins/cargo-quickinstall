@@ -9,3 +9,4 @@ salt_ide
 cargo-afl
 dua-cli
 solana-validator
+sp1-prover
