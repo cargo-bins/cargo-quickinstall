@@ -23,3 +23,4 @@ cargo-afl
 dx-cli
 arti
 human_name
+amdgpu_top
