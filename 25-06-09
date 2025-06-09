@@ -1,3 +1,4 @@
 rmesg
 rustup-toolchain-install-master
 tree-sitter-graph
+text-diff
