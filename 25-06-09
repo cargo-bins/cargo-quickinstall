@@ -4,3 +4,4 @@ rmesg
 amdgpu_top
 sqlx-cli
 rust-cli-pomodoro
+binstall
