@@ -8,3 +8,4 @@ zellij
 pgrx-tests
 coldsnap
 tmux
+safe-rm
