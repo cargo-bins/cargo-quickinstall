@@ -2,3 +2,4 @@ uu_mktemp
 coldsnap
 cargo-vet
 git-mit
+rmesg
