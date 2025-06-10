@@ -17,3 +17,4 @@ sqlx-cli
 git-disjoint
 sp1-prover
 cargo-leptos
+httpmock
