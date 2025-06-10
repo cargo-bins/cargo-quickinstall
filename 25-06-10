@@ -4,3 +4,4 @@ cargo-vet
 git-mit
 rmesg
 git-disjoint
+httpmock
