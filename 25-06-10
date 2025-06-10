@@ -3,3 +3,4 @@ coldsnap
 cargo-vet
 git-mit
 rmesg
+git-disjoint
