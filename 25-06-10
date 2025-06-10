@@ -12,3 +12,4 @@ git-disjoint
 lux-cli
 fast-conventional
 sp1-prover
+httpmock
