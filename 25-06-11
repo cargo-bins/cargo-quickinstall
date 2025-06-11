@@ -3,3 +3,4 @@ tokio-process
 clap-stdin
 rkv
 solana-cli
+re_query
