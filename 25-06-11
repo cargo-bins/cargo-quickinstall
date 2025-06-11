@@ -2,3 +2,4 @@ libbpf-cargo
 tokio-process
 clap-stdin
 rkv
+solana-cli
