@@ -19,3 +19,4 @@ cargo-supply-chain
 czkawka_gui
 tectonic
 tmux
+sqlx-cli
