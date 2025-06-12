@@ -6,3 +6,4 @@ git-mit
 text-diff
 rustbus
 pgrx-tests
+tendermint-rpc
