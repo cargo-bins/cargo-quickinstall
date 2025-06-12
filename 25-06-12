@@ -6,3 +6,4 @@ nu_plugin_rpm
 solana-cli
 unic-langid-impl
 website_crawler
+sudo-rs
