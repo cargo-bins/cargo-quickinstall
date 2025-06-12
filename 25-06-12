@@ -5,3 +5,4 @@ tokio-process
 git-mit
 text-diff
 rustbus
+pgrx-tests
