@@ -3,3 +3,4 @@ solana-cli
 unic-langid-impl
 tokio-process
 git-mit
+text-diff
