@@ -21,3 +21,4 @@ tectonic
 tmux
 sqlx-cli
 pgrx-tests
+tendermint-rpc
