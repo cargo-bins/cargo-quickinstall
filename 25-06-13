@@ -2,3 +2,4 @@ holochain_cli_sandbox
 solana-stake-accounts
 httpbis
 human_bytes
+cargo-local-registry
