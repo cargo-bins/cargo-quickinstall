@@ -5,3 +5,4 @@ human_bytes
 cargo-local-registry
 ext-sort
 unic-langid-impl
+protox
