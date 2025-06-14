@@ -6,3 +6,4 @@ rustfmt-nightly
 arrow-flight
 typlite
 raw-cpuid
+lux-cli
