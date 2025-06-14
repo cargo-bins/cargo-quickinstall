@@ -4,3 +4,4 @@ clippy
 hunter
 rustfmt-nightly
 arrow-flight
+typlite
