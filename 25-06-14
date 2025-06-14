@@ -1,3 +1,4 @@
 uvx
 rustfmt-nightly
 cargo-supply-chain
+arrow-flight
