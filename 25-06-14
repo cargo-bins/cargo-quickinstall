@@ -2,3 +2,4 @@ nextest
 sile
 clippy
 hunter
+rustfmt-nightly
