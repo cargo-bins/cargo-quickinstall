@@ -13,3 +13,4 @@ skim
 solana-net-utils
 cargo-supply-chain
 lychee
+addr2line
