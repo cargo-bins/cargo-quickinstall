@@ -2,3 +2,4 @@ rustfmt-nightly
 arrow-flight
 raw-cpuid
 stellar-strkey
+deno
