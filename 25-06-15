@@ -18,3 +18,4 @@ rls-rustc
 rtx-cli
 z3tracer
 zellij
+cargo-show
