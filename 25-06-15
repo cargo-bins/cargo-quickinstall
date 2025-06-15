@@ -3,3 +3,4 @@ foundationdb-gen
 nextest
 nextest
 coreutils
+clap-stdin
