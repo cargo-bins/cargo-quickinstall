@@ -2,3 +2,4 @@ cached-path
 foundationdb-gen
 oso
 rustbus
+clap-stdin
