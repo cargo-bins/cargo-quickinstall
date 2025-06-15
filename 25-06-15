@@ -6,3 +6,4 @@ clap-stdin
 nextest-filtering
 coldsnap
 nextest-filtering
+iai-callgrind-runner
