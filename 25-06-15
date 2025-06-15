@@ -6,3 +6,4 @@ coreutils
 clap-stdin
 nextest-filtering
 dataviewer
+nextest-filtering
