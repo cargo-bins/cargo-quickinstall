@@ -11,3 +11,4 @@ solana-gossip
 apollo-router
 rls-rustc
 rtx-cli
+z3tracer
