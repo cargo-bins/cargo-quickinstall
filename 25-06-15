@@ -6,3 +6,4 @@ sqlx-cli
 clap-stdin
 salt_ide
 salt_ide
+mdbook-typst-pdf
