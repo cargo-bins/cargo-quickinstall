@@ -4,3 +4,4 @@ oso
 rustbus
 clap-stdin
 nextest-filtering
+coldsnap
