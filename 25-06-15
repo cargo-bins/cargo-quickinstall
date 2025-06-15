@@ -3,3 +3,4 @@ zp
 oso
 rustbus
 sqlx-cli
+clap-stdin
