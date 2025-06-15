@@ -2,3 +2,4 @@ cached-path
 zp
 oso
 rustbus
+sqlx-cli
