@@ -7,3 +7,4 @@ nextest-filtering
 coldsnap
 nextest-filtering
 iai-callgrind-runner
+solana-gossip
