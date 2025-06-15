@@ -4,3 +4,4 @@ nextest
 nextest
 coreutils
 clap-stdin
+nextest-filtering
