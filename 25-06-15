@@ -3,3 +3,4 @@ foundationdb-gen
 oso
 rustbus
 clap-stdin
+nextest-filtering
