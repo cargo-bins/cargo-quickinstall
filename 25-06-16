@@ -16,3 +16,4 @@ sqlx-cli
 zp
 cargo-disasm
 rmpc
+sqlx-cli
