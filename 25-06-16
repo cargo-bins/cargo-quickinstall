@@ -2,3 +2,4 @@ borsh
 phf_generator
 diesel_cli
 uu_mktemp
+rrule
