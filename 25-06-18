@@ -5,3 +5,4 @@ cargo-lock
 socketcan
 maelstrom-pytest
 balatro_tui
+parquet
