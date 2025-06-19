@@ -3,3 +3,4 @@ cargo-supply-chain
 xcp
 cargo-risczero
 lance
+nextest
