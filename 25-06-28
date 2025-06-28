@@ -2,3 +2,4 @@ mdbook-linkcheck2
 dbus-codegen
 cargo-spellcheck
 remove_dir_all
+dbus-codegen
