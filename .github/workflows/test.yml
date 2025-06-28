@@ -137,3 +137,18 @@ jobs:
           cargo run -- --no-binstall cargo-quickinstall cargo-nextest@0.9.50
           cargo quickinstall -V
           cargo nextest -V
+
+  # Dummy job to have a stable name for the "all tests pass" requirement
+  automated-tests-pass:
+    name: Tests pass
+    needs:
+      - test
+      - e2etest
+      - lint
+    if: always() # always run even if dependencies fail
+    runs-on: ubuntu-latest
+    steps:
+      # fail if ANY dependency has failed or cancelled
+      - if: "contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')"
+        run: exit 1
+      - run: exit 0
