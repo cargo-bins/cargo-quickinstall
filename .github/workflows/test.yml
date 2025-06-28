@@ -96,10 +96,6 @@ jobs:
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
-
-      - uses: Swatinem/rust-cache@v2
-        with:
-          cache-all-crates: true
           
       - name: Test dry-run
         run: cargo run -- --dry-run cargo-quickinstall
