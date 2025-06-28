@@ -152,3 +152,19 @@ jobs:
       branch: ${{ github.head_ref }}
       always_build: 1
       skip_upload: true
+
+  # Dummy job to have a stable name for the "all tests pass" requirement
+  selfbuild-tests-pass:
+    name: selfbuild tests pass
+    needs:
+      - self-build-with-build-version
+      - self-build
+      - build-needing-cc
+      - build-package-test
+    if: always() # always run even if dependencies fail
+    runs-on: ubuntu-latest
+    steps:
+      # fail if ANY dependency has failed or cancelled
+      - if: "contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')"
+        run: exit 1
+      - run: exit 0
