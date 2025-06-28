@@ -3,3 +3,4 @@ dbus-codegen
 cargo-spellcheck
 remove_dir_all
 dbus-codegen
+cargo-spellcheck
