@@ -22,7 +22,15 @@ jobs:
       - name: Run shellcheck
         run: shellcheck *.sh
 
+      - name: Cache shfmt compiled
+        id: cache-shfmt
+        uses: actions/cache@v4
+        with:
+          path: ~/go/bin/shfmt
+          key: ${{ runner.os }}-shfmt-4.4.1
+      
       - name: Install shfmt
+        if: steps.cache-shfmt.outputs.cache-hit != 'true'
         run: go install mvdan.cc/sh/v3/cmd/shfmt@latest
 
       - name: Run shfmt
@@ -33,9 +41,6 @@ jobs:
 
       - name: Lint
         run: cargo fmt --check
-
-      - name: Clippy
-        run: cargo clippy --no-deps
 
   test:
     name: Test runner
@@ -52,11 +57,15 @@ jobs:
       - name: Fetch tags required for testing
         run: git fetch --tags
 
+      - uses: Swatinem/rust-cache@v2
+        with:
+          cache-all-crates: true
+          
       - name: Run cargo clippy for client project
-        run: cargo clippy --all-targets --all-features -- -D warnings
+        run: cargo clippy --all-targets --all-features --no-deps -- -D warnings
 
       - name: Run cargo clippy for stats-server project
-        run: cargo clippy --all-targets --all-features -- -D warnings
+        run: cargo clippy --all-targets --all-features --no-deps -- -D warnings
         working-directory: stats-server
 
       - name: Run cargo test
@@ -87,7 +96,7 @@ jobs:
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
-
+          
       - name: Test dry-run
         run: cargo run -- --dry-run cargo-quickinstall
 
