@@ -7,14 +7,14 @@ import subprocess
 TARGET_ARCH_TO_BUILD_OS = {
     "x86_64-apple-darwin": "macos-latest",
     "aarch64-apple-darwin": "macos-latest",
-    "x86_64-unknown-linux-gnu": "ubuntu-20.04",
-    "x86_64-unknown-linux-musl": "ubuntu-20.04",
+    "x86_64-unknown-linux-gnu": "ubuntu-latest",
+    "x86_64-unknown-linux-musl": "ubuntu-latest",
     "x86_64-pc-windows-msvc": "windows-latest",
     "aarch64-pc-windows-msvc": "windows-latest",
-    "aarch64-unknown-linux-gnu": "ubuntu-20.04",
-    "aarch64-unknown-linux-musl": "ubuntu-20.04",
-    "armv7-unknown-linux-musleabihf": "ubuntu-20.04",
-    "armv7-unknown-linux-gnueabihf": "ubuntu-20.04",
+    "aarch64-unknown-linux-gnu": "ubuntu-latest",
+    "aarch64-unknown-linux-musl": "ubuntu-latest",
+    "armv7-unknown-linux-musleabihf": "ubuntu-latest",
+    "armv7-unknown-linux-gnueabihf": "ubuntu-latest",
 }
 
 
