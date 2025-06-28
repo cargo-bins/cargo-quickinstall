@@ -5,3 +5,4 @@ remove_dir_all
 dbus-codegen
 cargo-spellcheck
 lux-cli
+papyrus_storage
