@@ -140,7 +140,7 @@ jobs:
 
   # Dummy job to have a stable name for the "all tests pass" requirement
   automated-tests-pass:
-    name: Tests pass
+    name: automated tests pass
     needs:
       - test
       - e2etest
