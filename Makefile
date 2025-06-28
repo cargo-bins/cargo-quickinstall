@@ -12,7 +12,7 @@ release: cronjob_scripts/.python-deps-updated.timestamp ## Publish a new release
 # but for now, we do not have access to `uv` in CI and don't automatically update requirements.txt
 # as part of our make rules. I might revisit this decision later.
 requirements.txt: pyproject.toml ## Compile the python dependencies from pyproject.toml into requirements.txt
-	uv pip compile pyproject.toml --python-version=3.8 --output-file requirements.txt
+	uv pip compile pyproject.toml --python-version="$(cat cronjob_scripts/.python-version | tr -s '\n' '')" --output-file requirements.txt
 
 .venv/bin/python:
 	python -m venv .venv
