@@ -3,3 +3,4 @@ cargo-flash
 fetter
 rnp
 rga
+sqlx-cli
