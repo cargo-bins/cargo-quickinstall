@@ -22,17 +22,17 @@ jobs:
           - target_arch: aarch64-apple-darwin
             os: macos-latest
           - target_arch: x86_64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: x86_64-unknown-linux-musl
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: aarch64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: aarch64-unknown-linux-musl
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: armv7-unknown-linux-gnueabihf
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: armv7-unknown-linux-musleabihf
-            os: ubuntu-20.04
+            os: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -72,11 +72,11 @@ jobs:
           - target_arch: aarch64-apple-darwin
             os: macos-latest
           - target_arch: x86_64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: x86_64-unknown-linux-musl
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: aarch64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -102,21 +102,21 @@ jobs:
           - target_arch: x86_64-pc-windows-msvc
             os: windows-latest
           - target_arch: armv7-unknown-linux-gnueabihf
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: armv7-unknown-linux-musleabihf
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: x86_64-apple-darwin
             os: macos-latest
           - target_arch: aarch64-apple-darwin
             os: macos-latest
           - target_arch: x86_64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: x86_64-unknown-linux-musl
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: aarch64-unknown-linux-gnu
-            os: ubuntu-20.04
+            os: ubuntu-latest
           - target_arch: aarch64-unknown-linux-musl
-            os: ubuntu-20.04
+            os: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
