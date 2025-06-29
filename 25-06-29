@@ -20,3 +20,4 @@ libbpf-cargo
 patch-crate
 solana-stake-accounts
 rustfmt-nightly
+nu_plugin_dbus
