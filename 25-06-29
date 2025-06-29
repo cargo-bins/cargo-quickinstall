@@ -12,3 +12,4 @@ re_query
 mdcat
 uu_mktemp
 sea-orm-cli
+fake
