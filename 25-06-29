@@ -12,3 +12,4 @@ uu_mktemp
 cross-stream
 czkawka_gui
 nextest
+addr2line
