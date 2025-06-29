@@ -7,3 +7,4 @@ socketcan
 re_query
 uu_mktemp
 fake
+addr2line
