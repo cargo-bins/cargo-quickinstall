@@ -11,3 +11,4 @@ fake
 addr2line
 h3o
 borsh
+libbpf-cargo
