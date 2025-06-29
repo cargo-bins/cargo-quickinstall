@@ -3,3 +3,4 @@ java-locator
 addr2line
 pwasm-utils
 git-assist
+socketcan
