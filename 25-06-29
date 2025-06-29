@@ -9,3 +9,4 @@ cross-stream
 re_query
 sqlx-cli
 uu_mktemp
+cross-stream
