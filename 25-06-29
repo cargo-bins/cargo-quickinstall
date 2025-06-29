@@ -25,3 +25,4 @@ solana-stake-accounts
 uv
 patch-crate
 rustfmt-nightly
+paru
