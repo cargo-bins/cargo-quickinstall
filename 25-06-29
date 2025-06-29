@@ -5,3 +5,4 @@ cargo-supply-chain
 pwasm-utils
 cross-stream
 socketcan
+cross-stream
