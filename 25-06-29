@@ -29,3 +29,4 @@ mdcat
 degit
 solana-stake-accounts
 sea-orm-cli
+rustfmt-nightly
