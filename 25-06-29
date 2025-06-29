@@ -14,3 +14,4 @@ binstall
 mdbook-linkcheck2
 patch-crate
 redoxer
+sea-orm-cli
