@@ -5,3 +5,4 @@ pwasm-utils
 git-assist
 socketcan
 re_query
+uu_mktemp
