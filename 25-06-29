@@ -3,3 +3,4 @@ java-locator
 addr2line
 cargo-supply-chain
 pwasm-utils
+cross-stream
