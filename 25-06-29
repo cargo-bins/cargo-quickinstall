@@ -5,3 +5,4 @@ lux-cli
 cargo-dylint
 pwasm-utils
 cargo-info
+socketcan
