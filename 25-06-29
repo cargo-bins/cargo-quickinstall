@@ -18,3 +18,4 @@ cross-stream
 borsh
 libbpf-cargo
 czkawka_gui
+rustfmt-nightly
