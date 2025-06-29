@@ -13,3 +13,4 @@ uu_mktemp
 binstall
 mdbook-linkcheck2
 patch-crate
+redoxer
