@@ -12,3 +12,4 @@ fake
 patch-crate
 cargo-dylint
 nu_plugin_query
+sniffnet
