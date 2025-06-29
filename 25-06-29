@@ -6,3 +6,4 @@ pwasm-utils
 mdbook-linkcheck2
 tod
 socketcan
+diesel_cli
