@@ -3,3 +3,4 @@ diesel_cli
 java-locator
 fcp
 cargo-spellcheck
+addr2line
