@@ -28,3 +28,4 @@ libbpf-cargo
 mdcat
 degit
 solana-stake-accounts
+sea-orm-cli
