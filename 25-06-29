@@ -9,3 +9,4 @@ uu_mktemp
 fake
 h3o
 borsh
+libbpf-cargo
