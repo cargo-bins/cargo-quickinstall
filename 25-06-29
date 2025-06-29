@@ -7,3 +7,4 @@ pwasm-utils
 dbus-codegen
 socketcan
 re_query
+solana-cli
