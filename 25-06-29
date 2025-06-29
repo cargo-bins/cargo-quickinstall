@@ -6,3 +6,4 @@ cargo-dylint
 pwasm-utils
 cargo-info
 socketcan
+re_query
