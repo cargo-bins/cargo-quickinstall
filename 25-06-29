@@ -7,3 +7,4 @@ cross-stream
 socketcan
 cross-stream
 re_query
+sqlx-cli
