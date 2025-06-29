@@ -4,3 +4,4 @@ addr2line
 lux-cli
 cargo-dylint
 pwasm-utils
+cargo-info
