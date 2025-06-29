@@ -2,3 +2,4 @@ cargo-info
 java-locator
 addr2line
 lux-cli
+cargo-dylint
