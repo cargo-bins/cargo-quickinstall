@@ -4,3 +4,4 @@ addr2line
 solana-cli
 pwasm-utils
 socketcan
+re_query
