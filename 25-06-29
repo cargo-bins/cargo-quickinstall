@@ -8,3 +8,4 @@ cargo-info
 socketcan
 re_query
 uu_mktemp
+fake
