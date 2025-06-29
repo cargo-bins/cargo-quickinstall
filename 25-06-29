@@ -12,3 +12,4 @@ h3o
 borsh
 libbpf-cargo
 solana-stake-accounts
+rustfmt-nightly
