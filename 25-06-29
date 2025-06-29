@@ -4,3 +4,4 @@ diesel_cli
 java-locator
 addr2line
 pwasm-utils
+dbus-codegen
