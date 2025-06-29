@@ -5,3 +5,4 @@ pwasm-utils
 socketcan
 re_query
 uu_mktemp
+addr2line
