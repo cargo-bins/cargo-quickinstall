@@ -16,3 +16,4 @@ sniffnet
 cargo-pgrx
 h3o
 borsh
+libbpf-cargo
