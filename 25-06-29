@@ -19,3 +19,4 @@ borsh
 libbpf-cargo
 patch-crate
 solana-stake-accounts
+rustfmt-nightly
