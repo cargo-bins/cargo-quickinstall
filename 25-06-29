@@ -5,3 +5,4 @@ addr2line
 pwasm-utils
 mdbook-linkcheck2
 tod
+socketcan
