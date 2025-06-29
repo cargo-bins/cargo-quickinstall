@@ -21,3 +21,4 @@ borsh
 mdbook-linkcheck2
 libbpf-cargo
 cargo-pgrx
+solana-stake-accounts
