@@ -5,3 +5,4 @@ fcp
 cargo-spellcheck
 addr2line
 pwasm-utils
+mdcat
