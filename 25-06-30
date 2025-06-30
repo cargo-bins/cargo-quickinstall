@@ -17,3 +17,4 @@ wmi
 cargo-embed
 libbpf-cargo
 diesel_cli
+bore
