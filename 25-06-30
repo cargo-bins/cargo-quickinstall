@@ -6,3 +6,4 @@ binstall
 graphql_client_cli
 binstall
 fake
+virtiofsd
