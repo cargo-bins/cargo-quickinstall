@@ -10,3 +10,4 @@ wmi
 libbpf-cargo
 sp1-prover
 safe_network
+sea-orm-cli
