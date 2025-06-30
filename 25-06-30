@@ -22,3 +22,4 @@ cargo-embassy
 libbpf-cargo
 lux-cli
 sp1-prover
+rustrict
