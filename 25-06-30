@@ -2,3 +2,4 @@ patch-crate
 nu_plugin_dbus
 re_query
 binstall
+dioxus-cli
