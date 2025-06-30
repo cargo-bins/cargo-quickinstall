@@ -13,3 +13,4 @@ nextest
 cargo-embed
 cargo-name
 nextest
+wmi
