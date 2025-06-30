@@ -19,3 +19,4 @@ libbpf-cargo
 stgit
 safe_network
 fake
+sea-orm-cli
