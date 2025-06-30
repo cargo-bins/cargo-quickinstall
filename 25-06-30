@@ -5,3 +5,4 @@ binstall
 dioxus-cli
 graphql_client_cli
 redoxer
+sequoia-sq
