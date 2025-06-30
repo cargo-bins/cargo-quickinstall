@@ -5,3 +5,4 @@ nu_plugin_dbus
 binstall
 graphql_client_cli
 binstall
+fake
