@@ -3,3 +3,4 @@ nu_plugin_dbus
 wiki-tui
 nu_plugin_dbus
 binstall
+graphql_client_cli
