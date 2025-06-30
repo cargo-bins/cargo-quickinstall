@@ -3,3 +3,4 @@ nu_plugin_dbus
 re_query
 binstall
 dioxus-cli
+graphql_client_cli
