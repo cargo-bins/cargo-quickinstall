@@ -10,3 +10,4 @@ tree_magic
 proof-of-sql
 nkeys
 nextest
+cargo-embed
