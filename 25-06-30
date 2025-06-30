@@ -18,3 +18,4 @@ sp1-prover
 cargo-embed
 fake
 cargo-embed
+nextest
