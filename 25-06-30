@@ -16,3 +16,4 @@ sqlx-cli
 gitui
 zellij
 sudo-rs
+libbpf-cargo
