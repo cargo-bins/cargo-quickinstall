@@ -18,3 +18,4 @@ dioxus-cli
 deno
 spotify_player
 virtiofsd
+cargo-embassy
