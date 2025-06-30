@@ -16,3 +16,4 @@ alacritty
 cargo-spellcheck
 patch-crate
 lux-cli
+nu_plugin_query
