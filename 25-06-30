@@ -18,3 +18,4 @@ cargo-spellcheck
 libbpf-cargo
 stgit
 safe_network
+fake
