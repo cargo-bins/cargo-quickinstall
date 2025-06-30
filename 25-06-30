@@ -16,3 +16,4 @@ stgit
 proof-of-sql
 nkeys
 diesel_cli
+hurl
