@@ -7,3 +7,4 @@ zellij
 deno
 libbpf-cargo
 sp1-prover
+sea-orm-cli
