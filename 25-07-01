@@ -20,3 +20,4 @@ sp1-prover
 racer
 rustfmt-nightly
 airshipper
+clippy
