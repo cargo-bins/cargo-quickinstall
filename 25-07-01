@@ -5,3 +5,4 @@ racer
 rustfmt-nightly
 clippy
 cargo-pgrx
+protox
