@@ -21,3 +21,4 @@ tracexec
 binstall
 tendermint-abci
 rustfmt-nightly
+tracexec
