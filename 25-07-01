@@ -8,3 +8,4 @@ rustfmt-nightly
 cargo-bundle
 cargo-bundle
 cargo-pgrx
+cargo-mobile2
