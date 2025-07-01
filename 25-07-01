@@ -13,3 +13,4 @@ protox
 uu_mktemp
 solana-cli
 clap-stdin
+tendermint-abci
