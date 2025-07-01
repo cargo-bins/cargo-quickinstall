@@ -22,3 +22,4 @@ binstall
 tendermint-abci
 rustfmt-nightly
 tracexec
+trashy
