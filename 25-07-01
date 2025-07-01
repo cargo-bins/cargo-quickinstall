@@ -17,3 +17,4 @@ bugstalker
 rustfmt-nightly
 cargo-public-api
 cargo-pgrx
+patch-crate
