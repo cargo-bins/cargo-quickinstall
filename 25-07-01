@@ -8,3 +8,4 @@ racer
 rustfmt-nightly
 clippy
 cargo-pgrx
+cargo-mobile2
