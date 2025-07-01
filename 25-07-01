@@ -19,3 +19,4 @@ solana-cli
 clap-stdin
 simple-http-server
 nextest
+tendermint-abci
