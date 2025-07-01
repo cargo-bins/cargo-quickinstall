@@ -16,3 +16,4 @@ racer
 bugstalker
 rustfmt-nightly
 cargo-public-api
+cargo-pgrx
