@@ -19,3 +19,4 @@ clap-stdin
 xray-tui
 tracexec
 binstall
+tendermint-abci
