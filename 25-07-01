@@ -26,3 +26,4 @@ codeberg-cli
 tree-sitter-cli
 patch-crate
 oci2git
+uu_mktemp
