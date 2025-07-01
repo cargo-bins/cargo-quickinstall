@@ -32,3 +32,4 @@ probe-rs-tools
 spider_cli
 solana-cli
 clap-stdin
+spider_cli
