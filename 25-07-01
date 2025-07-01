@@ -7,3 +7,4 @@ racer
 rustfmt-nightly
 cargo-bundle
 cargo-bundle
+cargo-pgrx
