@@ -10,3 +10,4 @@ cargo-mobile2
 protox
 simple-http-server
 solana-cli
+clap-stdin
