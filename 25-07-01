@@ -6,3 +6,4 @@ cargo-embassy
 bluetui
 simple-http-server
 sea-orm-cli
+golem-cli
