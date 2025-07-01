@@ -8,3 +8,4 @@ clippy
 tokio-process
 protox
 uu_mktemp
+clap-stdin
