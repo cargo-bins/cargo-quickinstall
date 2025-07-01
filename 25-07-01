@@ -16,3 +16,4 @@ nextest
 uu_mktemp
 nextest
 solana-cli
+clap-stdin
