@@ -20,3 +20,4 @@ xray-tui
 tracexec
 binstall
 tendermint-abci
+rustfmt-nightly
