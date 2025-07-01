@@ -6,3 +6,4 @@ rustfmt-nightly
 clippy
 cargo-pgrx
 protox
+uu_mktemp
