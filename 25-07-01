@@ -11,3 +11,4 @@ uu_mktemp
 clap-stdin
 tendermint-abci
 rustfmt-nightly
+shunkakinoki
