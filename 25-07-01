@@ -31,3 +31,4 @@ codeberg-cli
 solana-cli
 hurl
 clap-stdin
+graphql_client_cli
