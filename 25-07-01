@@ -20,3 +20,4 @@ clap-stdin
 simple-http-server
 nextest
 tendermint-abci
+rustfmt-nightly
