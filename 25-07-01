@@ -8,3 +8,4 @@ uu_cp
 human_bytes
 sp1-prover
 racer
+rustfmt-nightly
