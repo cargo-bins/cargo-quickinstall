@@ -6,3 +6,4 @@ racer
 rustfmt-nightly
 clippy
 tokio-process
+protox
