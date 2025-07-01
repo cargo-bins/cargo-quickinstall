@@ -7,3 +7,4 @@ dioxus-cli
 mise
 cargo-bundle
 scope-tui
+cargo-duplicates
