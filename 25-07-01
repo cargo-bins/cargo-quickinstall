@@ -35,3 +35,4 @@ clap-stdin
 spider_cli
 mise
 spider_cli
+wayland-interface-check
