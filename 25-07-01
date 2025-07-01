@@ -21,3 +21,4 @@ racer
 rustfmt-nightly
 airshipper
 clippy
+sniffnet
