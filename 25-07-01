@@ -4,3 +4,4 @@ cargo-bundle
 rustmission
 cargo-embassy
 bluetui
+simple-http-server
