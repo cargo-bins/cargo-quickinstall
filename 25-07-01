@@ -7,3 +7,4 @@ sp1-prover
 racer
 rustfmt-nightly
 clippy
+cargo-pgrx
