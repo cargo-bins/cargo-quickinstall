@@ -22,3 +22,4 @@ rustfmt-nightly
 airshipper
 clippy
 sniffnet
+cargo-spellcheck
