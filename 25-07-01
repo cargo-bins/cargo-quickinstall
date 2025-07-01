@@ -12,3 +12,4 @@ rustfmt-nightly
 clippy
 protox
 termusic
+termusic-server
