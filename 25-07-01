@@ -3,3 +3,4 @@ diesel_cli
 tracexec
 lux-cli
 nextest
+lux-cli
