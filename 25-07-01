@@ -5,3 +5,4 @@ sp1-prover
 racer
 rustfmt-nightly
 clippy
+tokio-process
