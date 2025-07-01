@@ -10,3 +10,4 @@ clippy
 cargo-pgrx
 cargo-mobile2
 protox
+nextest
