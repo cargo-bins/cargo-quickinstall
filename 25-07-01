@@ -30,3 +30,4 @@ uu_mktemp
 codeberg-cli
 solana-cli
 hurl
+clap-stdin
