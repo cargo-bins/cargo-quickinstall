@@ -10,3 +10,4 @@ ext-sort
 cargo-proc-debug
 rustrict
 cargo-tag
+z3tracer
