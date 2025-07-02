@@ -25,3 +25,4 @@ spotify_player
 cargo-public-api
 cargo-flash
 cargo-pgrx
+dotenv
