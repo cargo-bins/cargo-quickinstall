@@ -5,3 +5,4 @@ cached-path
 kanidm_tools
 gumbo
 sudo-rs
+ruff
