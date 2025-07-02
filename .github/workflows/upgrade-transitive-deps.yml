@@ -22,8 +22,12 @@ jobs:
         run: |
           rustup toolchain install stable --no-self-update --profile minimal
 
-      - name: Upgrade transitive dependencies
+      - name: Upgrade transitive dependencies in cargo-quickinstall
         run: cargo update --aggressive
+
+      - name: Upgrade transitive dependencies in stats-server
+        run: cargo update --aggressive
+        working-directory: stats-server
 
       - name: Detect changes
         id: changes
