@@ -17,3 +17,4 @@ oso
 pwasm-utils
 dotenv
 cargo-git
+cargo-proc-debug
