@@ -26,3 +26,4 @@ cargo-public-api
 cargo-flash
 cargo-pgrx
 dotenv
+cargo-spellcheck
