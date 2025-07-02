@@ -23,3 +23,4 @@ fcd
 binstall
 lux-cli
 dotenvy
+dotenv
