@@ -10,3 +10,4 @@ pwasm-utils
 httpbis
 rustbus
 dotenvy
+dotenv
