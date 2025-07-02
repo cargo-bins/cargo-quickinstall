@@ -11,3 +11,4 @@ simple-http-server
 hurl
 dioxus-cli
 dioxus-cli
+pwasm-utils
