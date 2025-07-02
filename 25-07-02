@@ -1,3 +1,4 @@
 cargo-list
 graphql_client_cli
 wayland-interface-check
+cached-path
