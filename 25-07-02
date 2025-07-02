@@ -19,3 +19,4 @@ dotenv
 cargo-git
 cargo-proc-debug
 cargo-git
+solana-keygen
