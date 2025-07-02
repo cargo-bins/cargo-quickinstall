@@ -2,3 +2,4 @@ cached-path
 zuse
 cargo-git
 cargo-git
+cargo-proc-debug
