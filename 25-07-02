@@ -12,3 +12,4 @@ ruff
 bump2version
 ruff
 ext-sort
+z3tracer
