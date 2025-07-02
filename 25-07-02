@@ -9,3 +9,4 @@ ruff
 ripunzip
 probe-rs-tools
 ruff
+bump2version
