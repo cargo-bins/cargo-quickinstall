@@ -29,3 +29,4 @@ dotenv
 cargo-spellcheck
 ruff
 cargo-public-api
+cargo-list
