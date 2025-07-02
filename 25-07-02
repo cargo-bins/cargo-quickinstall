@@ -29,3 +29,4 @@ simple-http-server
 dotenv
 legba
 contracts-node
+hurl
