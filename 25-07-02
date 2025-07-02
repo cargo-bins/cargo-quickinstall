@@ -9,3 +9,4 @@ oso
 pwasm-utils
 httpbis
 rustbus
+dotenvy
