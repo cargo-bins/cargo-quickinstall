@@ -8,3 +8,4 @@ oso
 simple-http-server
 pwasm-utils
 dotenvy
+dotenv
