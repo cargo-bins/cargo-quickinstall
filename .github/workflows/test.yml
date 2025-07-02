@@ -60,7 +60,10 @@ jobs:
       - uses: Swatinem/rust-cache@v2
         with:
           cache-all-crates: true
-          
+          workspaces: |
+            . -> target
+            stats-server -> target
+
       - name: Run cargo clippy for client project
         run: cargo clippy --all-targets --all-features --no-deps -- -D warnings
 
