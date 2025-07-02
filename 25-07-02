@@ -28,3 +28,4 @@ cargo-pgrx
 dotenv
 cargo-spellcheck
 ruff
+cargo-public-api
