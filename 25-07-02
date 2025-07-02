@@ -6,3 +6,4 @@ nextest
 z3tracer
 oso
 simple-http-server
+pwasm-utils
