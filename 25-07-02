@@ -25,3 +25,4 @@ sea-orm-cli
 tree-sitter-cli
 cargo-flash
 dotenvy
+simple-http-server
