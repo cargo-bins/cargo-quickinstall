@@ -8,3 +8,4 @@ cargo-git
 cargo-tag
 ext-sort
 cargo-proc-debug
+rustrict
