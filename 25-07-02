@@ -27,3 +27,4 @@ cargo-flash
 cargo-pgrx
 dotenv
 cargo-spellcheck
+ruff
