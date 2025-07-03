@@ -3,3 +3,4 @@ rls-rustc
 cargo-vet
 pgrx-tests
 arrow-flight
+lance
