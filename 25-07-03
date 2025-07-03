@@ -35,3 +35,4 @@ cargo-dylint
 tod
 phf_generator
 cargo-spellcheck
+clipboard-history
