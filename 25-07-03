@@ -32,3 +32,4 @@ commit_verify
 cargo-depsize
 kble-eb90
 pnafs
+phf_generator
