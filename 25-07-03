@@ -26,3 +26,4 @@ kble-serialport
 rg
 kble-serialport
 cargo-graph
+commit_verify
