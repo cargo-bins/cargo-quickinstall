@@ -21,3 +21,4 @@ probe-rs-tools
 rg
 bkmr
 tod
+commit_verify
