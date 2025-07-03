@@ -33,3 +33,4 @@ sniffnet
 commit_verify
 cargo-dylint
 tod
+phf_generator
