@@ -13,3 +13,4 @@ cargo-checkmate
 nextsv
 solana-genesis
 arrow-flight
+nextest
