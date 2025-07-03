@@ -3,3 +3,4 @@ dioxus-cli
 cargo-spellcheck
 rls-rustc
 clippy
+spotify_player
