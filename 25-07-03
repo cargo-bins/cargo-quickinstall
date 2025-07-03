@@ -29,3 +29,4 @@ pnafs
 pnafs
 rg
 commit_verify
+cargo-depsize
