@@ -3,3 +3,4 @@ cargo-graph
 rls-rustc
 coursepointer
 rg
+tlmcmddb-cli
