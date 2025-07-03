@@ -2,3 +2,4 @@ rav1e
 rls-rustc
 cargo-vet
 pgrx-tests
+arrow-flight
