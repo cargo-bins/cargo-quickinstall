@@ -4,3 +4,4 @@ cargo-graph
 binstall
 rls-rustc
 fcd
+lux-cli
