@@ -25,3 +25,4 @@ commit_verify
 cargo-spellcheck
 phf_generator
 bugstalker
+ringboard-wayland
