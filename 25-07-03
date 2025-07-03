@@ -24,3 +24,4 @@ tod
 commit_verify
 cargo-spellcheck
 phf_generator
+bugstalker
