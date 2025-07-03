@@ -16,3 +16,4 @@ solana-cli
 clipboard-history-tui
 py-spy
 sea-orm-cli
+ringboard-wayland
