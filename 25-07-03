@@ -4,3 +4,4 @@ cargo-vet
 pgrx-tests
 arrow-flight
 lance
+commit_verify
