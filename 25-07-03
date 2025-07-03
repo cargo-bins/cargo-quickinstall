@@ -12,3 +12,4 @@ jless
 sqlx-cli
 solana-genesis
 iai-callgrind-runner
+arrow-flight
