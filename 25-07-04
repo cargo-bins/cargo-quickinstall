@@ -42,3 +42,4 @@ hurl
 tree-sitter-cli
 dioxus-cli
 blindfold
+nextest
