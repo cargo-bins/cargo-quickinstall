@@ -39,3 +39,4 @@ ghee
 cargo-bundle
 coreos-installer
 hurl
+tree-sitter-cli
