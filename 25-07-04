@@ -22,3 +22,4 @@ probe-run
 alacritty
 tree-sitter-cli
 alacritty
+rg
