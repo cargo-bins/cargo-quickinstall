@@ -35,3 +35,4 @@ coreos-installer
 cargo-dylint
 tectonic
 tmux-rs
+ghee
