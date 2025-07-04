@@ -29,3 +29,4 @@ cargo-flash
 coreos-installer
 dioxus-cli
 mdcat
+cargo-bundle
