@@ -50,3 +50,4 @@ probe-run
 mdcat
 trusted-signing-cli
 bugstalker
+hurl
