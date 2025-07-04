@@ -39,3 +39,4 @@ probe-run
 mdcat
 alacritty
 alacritty
+python-project-generator
