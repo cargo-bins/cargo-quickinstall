@@ -16,3 +16,4 @@ remove_dir_all
 uv
 coreos-installer
 cargo-bundle
+hurl
