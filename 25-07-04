@@ -3,3 +3,4 @@ keepawake
 probe-rs-cli
 wrkflw
 cargo-local-registry
+keepawake
