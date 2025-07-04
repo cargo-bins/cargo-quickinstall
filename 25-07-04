@@ -34,3 +34,4 @@ cargo-spellcheck
 coreos-installer
 cargo-dylint
 tectonic
+tmux-rs
