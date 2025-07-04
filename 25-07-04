@@ -45,3 +45,4 @@ blindfold
 nextest
 uu_mv
 probe-run
+simple-http-server
