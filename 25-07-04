@@ -46,3 +46,4 @@ cargo-flash
 uu_mv
 redoxer
 hex-patch
+probe-run
