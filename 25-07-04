@@ -3,3 +3,4 @@ cargo-depsize
 kble-c2a
 kble-serialport
 binstall
+kble-serialport
