@@ -18,3 +18,4 @@ coreos-installer
 cargo-bundle
 hurl
 tplay
+probe-run
