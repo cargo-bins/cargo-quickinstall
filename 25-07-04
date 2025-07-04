@@ -31,3 +31,4 @@ dioxus-cli
 mdcat
 cargo-bundle
 ncspot
+clippy
