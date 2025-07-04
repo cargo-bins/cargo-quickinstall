@@ -33,3 +33,4 @@ cargo-bundle
 ncspot
 clippy
 uv
+tmux-rs
