@@ -13,3 +13,4 @@ simple-http-server
 uv
 shunkakinoki
 remove_dir_all
+uv
