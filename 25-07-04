@@ -5,3 +5,4 @@ tplay
 sea-orm-cli
 lnr
 simple-http-server
+graphql_client_cli
