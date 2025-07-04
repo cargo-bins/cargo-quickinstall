@@ -35,3 +35,4 @@ clippy
 uv
 tmux-rs
 mdbookkit
+probe-run
