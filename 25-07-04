@@ -36,3 +36,4 @@ cargo-dylint
 tectonic
 tmux-rs
 ghee
+cargo-bundle
