@@ -2,3 +2,4 @@ probe-rs-cli
 keepawake
 probe-rs-cli
 wrkflw
+cargo-local-registry
