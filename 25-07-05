@@ -27,3 +27,4 @@ shadowsocks-rust
 wormhole
 clap-stdin
 cargo-crev
+socketcan
