@@ -18,3 +18,4 @@ make
 shadowsocks-rust
 addr2line
 mdbook-typst-pdf
+rrule
