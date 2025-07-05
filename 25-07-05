@@ -2,3 +2,4 @@ librespot
 sea-orm-cli
 cargo-pgrx
 oso
+raw-cpuid
