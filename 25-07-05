@@ -16,3 +16,4 @@ lcode
 cargo-flash
 oso
 lcode
+probe-run
