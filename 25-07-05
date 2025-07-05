@@ -22,3 +22,4 @@ pijul
 solana-keygen
 cargo-public-api
 simple-http-server
+addr2line
