@@ -4,3 +4,4 @@ sea-orm-cli
 cargo-pgrx
 oso
 solana-keygen
+addr2line
