@@ -13,3 +13,4 @@ simple-http-server
 shady-cli
 oso
 rust-bio-tools
+probe-run
