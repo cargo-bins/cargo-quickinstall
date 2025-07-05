@@ -8,3 +8,4 @@ addr2line
 rrule
 clap-stdin
 socketcan
+winpty-rs
