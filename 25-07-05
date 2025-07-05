@@ -10,3 +10,4 @@ termusic-server
 cargo-bisect-rustc
 cargo-dylint
 simple-http-server
+shady-cli
