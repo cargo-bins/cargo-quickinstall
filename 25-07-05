@@ -36,3 +36,4 @@ clap-stdin
 spacetimedb-cli
 bkmr
 cargo-public-api
+rust-bio-tools
