@@ -35,3 +35,4 @@ spotifyd
 cargo-dylint
 hurl
 rust-bio-tools
+clap-stdin
