@@ -4,3 +4,4 @@ cargo-pgrx
 oso
 raw-cpuid
 solana-keygen
+addr2line
