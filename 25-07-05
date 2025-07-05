@@ -10,3 +10,4 @@ rrule
 httpmock
 clap-stdin
 socketcan
+diesel_cli
