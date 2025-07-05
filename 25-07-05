@@ -7,3 +7,4 @@ lcode
 cargo-flash
 cargo-pgrx
 termusic-server
+cargo-bisect-rustc
