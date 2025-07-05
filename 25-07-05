@@ -7,3 +7,4 @@ solana-keygen
 addr2line
 rrule
 httpmock
+clap-stdin
