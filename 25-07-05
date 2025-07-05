@@ -13,3 +13,4 @@ addr2line
 rrule
 httpmock
 clippy
+clap-stdin
