@@ -29,3 +29,4 @@ clap-stdin
 cargo-crev
 socketcan
 cargo-supply-chain
+shadowsocks-rust
