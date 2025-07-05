@@ -32,3 +32,4 @@ cargo-supply-chain
 shadowsocks-rust
 cargo-crev
 winpty-rs
+sqlx-cli
