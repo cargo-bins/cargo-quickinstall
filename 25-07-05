@@ -16,3 +16,4 @@ mdbook-typst-pdf
 cargo-crev
 make
 shadowsocks-rust
+addr2line
