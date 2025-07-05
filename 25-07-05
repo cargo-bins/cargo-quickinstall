@@ -22,3 +22,4 @@ shadowsocks-rust
 rust-bio-tools
 solana-keygen
 alacritty
+addr2line
