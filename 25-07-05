@@ -10,3 +10,4 @@ httpmock
 clap-stdin
 socketcan
 winpty-rs
+stellar-xdr
