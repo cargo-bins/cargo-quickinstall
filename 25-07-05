@@ -10,3 +10,4 @@ httpmock
 clippy
 clap-stdin
 winpty-rs
+socketcan
