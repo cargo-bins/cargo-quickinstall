@@ -11,3 +11,4 @@ clap-stdin
 socketcan
 winpty-rs
 stellar-xdr
+tree_magic
