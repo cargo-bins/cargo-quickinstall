@@ -20,3 +20,4 @@ probe-run
 nextest
 shadowsocks-rust
 rust-bio-tools
+solana-keygen
