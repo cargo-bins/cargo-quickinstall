@@ -12,8 +12,7 @@ publish = false
 [dependencies]
 tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 axum = "0.8"
-# FIXME: revert back to using crates.io once https://github.com/ijagberg/influx/pull/5 is released
-influxrs = { git = "https://github.com/alsuren/influxrs", rev = "bc037531ef31e0a19014556120ecdd151427561b" }
+influxrs = { version = "3.0.1", features = ["client", "static"] }
 
 [profile.release]
 lto = "thin"
