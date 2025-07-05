@@ -14,3 +14,4 @@ subversion
 cargo-crev
 mdbook-typst-pdf
 cargo-crev
+make
