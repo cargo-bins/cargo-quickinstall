@@ -33,3 +33,4 @@ httpmock
 rust-bio-tools
 redoxer
 clap-stdin
+spacetimedb-cli
