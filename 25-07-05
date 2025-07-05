@@ -9,3 +9,4 @@ rrule
 httpmock
 clippy
 clap-stdin
+winpty-rs
