@@ -21,3 +21,4 @@ rrule
 httpmock
 clap-stdin
 winpty-rs
+socketcan
