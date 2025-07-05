@@ -16,3 +16,4 @@ clippy
 clap-stdin
 dioxus-cli
 socketcan
+dioxus-cli
