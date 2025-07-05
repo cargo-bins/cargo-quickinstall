@@ -25,3 +25,4 @@ httpmock
 wormhole
 shadowsocks-rust
 wormhole
+clap-stdin
