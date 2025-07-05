@@ -13,3 +13,4 @@ shady-cli
 graphql_client_cli
 patch-crate
 lcode
+cargo-flash
