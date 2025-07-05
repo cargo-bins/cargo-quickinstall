@@ -11,3 +11,4 @@ clippy
 clap-stdin
 winpty-rs
 socketcan
+winpty-rs
