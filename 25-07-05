@@ -12,3 +12,4 @@ clap-stdin
 socketcan
 diesel_cli
 whitespacers
+winpty-rs
