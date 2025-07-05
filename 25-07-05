@@ -12,3 +12,4 @@ cargo-dylint
 simple-http-server
 shady-cli
 oso
+rust-bio-tools
