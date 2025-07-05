@@ -42,3 +42,4 @@ sniffnet
 spotifyd
 winpty-rs
 cargo-info
+rust-bio-tools
