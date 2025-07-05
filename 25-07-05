@@ -35,3 +35,4 @@ winpty-rs
 sqlx-cli
 shadowsocks-rust
 dutree
+auth
