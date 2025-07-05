@@ -17,3 +17,4 @@ cargo-flash
 oso
 lcode
 probe-run
+nextest
