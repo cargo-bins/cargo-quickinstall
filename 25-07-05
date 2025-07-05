@@ -19,3 +19,4 @@ lcode
 probe-run
 nextest
 shadowsocks-rust
+rust-bio-tools
