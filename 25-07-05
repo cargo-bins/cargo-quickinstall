@@ -21,3 +21,4 @@ textplots
 httpmock
 clippy
 clap-stdin
+socketcan
