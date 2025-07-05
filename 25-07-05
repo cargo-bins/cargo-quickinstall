@@ -12,3 +12,4 @@ kickstart
 addr2line
 rrule
 httpmock
+clippy
