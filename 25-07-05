@@ -32,3 +32,4 @@ wiremix
 httpmock
 rust-bio-tools
 redoxer
+clap-stdin
