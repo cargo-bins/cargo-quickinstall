@@ -14,3 +14,4 @@ socketcan
 winpty-rs
 stellar-xdr
 clippy
+tree_magic
