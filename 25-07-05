@@ -18,3 +18,4 @@ addr2line
 tmux-rs
 rrule
 textplots
+httpmock
