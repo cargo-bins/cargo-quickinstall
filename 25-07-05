@@ -19,3 +19,4 @@ socketcan
 dioxus-cli
 winpty-rs
 stellar-xdr
+tree_magic
