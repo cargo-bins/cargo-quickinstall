@@ -24,3 +24,4 @@ cargo-public-api
 simple-http-server
 addr2line
 ncspot
+rrule
