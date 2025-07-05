@@ -28,3 +28,4 @@ wormhole
 clap-stdin
 cargo-crev
 socketcan
+cargo-supply-chain
