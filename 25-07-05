@@ -19,3 +19,4 @@ addr2line
 tmux-rs
 rrule
 httpmock
+clap-stdin
