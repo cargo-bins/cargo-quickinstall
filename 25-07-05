@@ -8,3 +8,4 @@ addr2line
 rrule
 httpmock
 clap-stdin
+socketcan
