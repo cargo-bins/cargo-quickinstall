@@ -11,3 +11,4 @@ dioxus-cli
 kickstart
 addr2line
 rrule
+httpmock
