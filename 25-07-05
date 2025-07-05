@@ -33,3 +33,4 @@ shadowsocks-rust
 cargo-crev
 winpty-rs
 sqlx-cli
+shadowsocks-rust
