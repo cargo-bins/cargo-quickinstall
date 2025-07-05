@@ -20,3 +20,4 @@ rrule
 textplots
 httpmock
 clippy
+clap-stdin
