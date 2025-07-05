@@ -34,3 +34,4 @@ cargo-crev
 winpty-rs
 sqlx-cli
 shadowsocks-rust
+dutree
