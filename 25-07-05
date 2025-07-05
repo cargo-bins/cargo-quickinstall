@@ -20,3 +20,4 @@ tmux-rs
 rrule
 httpmock
 clap-stdin
+winpty-rs
