@@ -45,3 +45,4 @@ argus-cli
 tree_magic
 sudo-rs
 hurl
+cargo-bundle
