@@ -12,3 +12,4 @@ gpg-tui
 diesel_cli
 minicbor
 lux-cli
+shadowsocks-rust
