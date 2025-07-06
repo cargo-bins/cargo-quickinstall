@@ -14,3 +14,4 @@ cargo-generate
 windows-env
 rperf
 hayagriva
+git-disjoint
