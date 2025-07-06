@@ -38,3 +38,4 @@ cargo-bundle
 argus-cli
 mavlink2rest
 shawl
+cargo-mobile2
