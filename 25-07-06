@@ -7,3 +7,4 @@ lumen
 wiki-tui
 parquet
 cargo-spellcheck
+diesel_cli
