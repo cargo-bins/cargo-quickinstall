@@ -36,3 +36,4 @@ minicbor
 reductstore
 cargo-bundle
 argus-cli
+mavlink2rest
