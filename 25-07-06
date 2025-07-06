@@ -21,3 +21,4 @@ rustdoc-text
 cargo-public-api
 paru
 redoxer
+cargo-dylint
