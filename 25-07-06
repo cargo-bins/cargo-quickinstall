@@ -38,3 +38,4 @@ mavlink2rest
 sudo-rs
 cargo-info
 blindfold
+ncspot
