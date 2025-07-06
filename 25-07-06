@@ -16,3 +16,4 @@ sudo-rs
 argus-cli
 speedtest-rs
 tplay
+cargo-info
