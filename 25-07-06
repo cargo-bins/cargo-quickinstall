@@ -11,3 +11,4 @@ rllama
 cargo-risczero
 sqlx-cli
 cargo-generate
+windows-env
