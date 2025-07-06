@@ -9,3 +9,4 @@ tokio-process
 git-mit-install
 exa
 minicbor
+mit-prepare-commit-msg
