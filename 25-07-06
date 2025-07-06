@@ -10,3 +10,4 @@ cargo-supply-chain
 rllama
 cargo-risczero
 sqlx-cli
+cargo-generate
