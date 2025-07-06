@@ -3,3 +3,4 @@ cargo-spellcheck
 controller
 diesel_cli
 website_crawler
+minicbor
