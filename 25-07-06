@@ -25,3 +25,4 @@ cargo-dylint
 mise
 patch-crate
 diesel_cli
+cargo-dylint
