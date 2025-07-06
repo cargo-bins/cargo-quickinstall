@@ -1,3 +1,4 @@
 parquet
 cargo-spellcheck
 controller
+diesel_cli
