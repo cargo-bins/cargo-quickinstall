@@ -27,3 +27,4 @@ patch-crate
 diesel_cli
 cargo-dylint
 website_crawler
+intentrace
