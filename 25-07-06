@@ -5,3 +5,4 @@ git-mit-relates-to
 diesel_cli
 website_crawler
 httm
+tokio-process
