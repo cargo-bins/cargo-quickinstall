@@ -12,3 +12,4 @@ cargo-risczero
 sqlx-cli
 cargo-generate
 windows-env
+rperf
