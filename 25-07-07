@@ -9,3 +9,4 @@ cargo-spellcheck
 uu_whoami
 cargo-spellcheck
 sea-orm-cli
+phf_generator
