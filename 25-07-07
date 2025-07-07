@@ -11,3 +11,4 @@ cargo-dylint
 blindfold
 nextsv
 cargo-spellcheck
+nextest
