@@ -28,3 +28,4 @@ cargo-pgrx
 cargo-near
 socketcan
 nu_plugin_plotters
+clipboard-sync
