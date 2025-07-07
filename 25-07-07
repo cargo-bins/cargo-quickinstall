@@ -16,3 +16,4 @@ sea-orm-cli
 foundationdb-gen
 mise
 parquet
+ducc-sys
