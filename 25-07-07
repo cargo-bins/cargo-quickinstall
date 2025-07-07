@@ -11,3 +11,4 @@ httpbis
 solana-validator
 cargo-leptos
 foundationdb-gen
+ducc-sys
