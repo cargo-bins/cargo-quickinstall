@@ -5,3 +5,4 @@ gpg-tui
 openpty
 diesel_cli
 lux-cli
+shadowsocks-rust
