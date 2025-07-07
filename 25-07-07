@@ -8,3 +8,4 @@ phf_generator
 socketcan
 tokio-process
 httpbis
+solana-validator
