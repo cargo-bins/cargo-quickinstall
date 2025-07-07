@@ -2,3 +2,4 @@ commit_verify
 rustfmt
 openpty
 protox
+sn_node_rpc_client
