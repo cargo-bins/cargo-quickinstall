@@ -2,3 +2,4 @@ commit_verify
 diesel_cli
 argus-cli
 openpty
+diesel_cli
