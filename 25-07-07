@@ -9,3 +9,4 @@ shadowsocks-rust
 protox
 uu_whoami
 phf_generator
+socketcan
