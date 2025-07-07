@@ -38,3 +38,4 @@ qmassa
 trusted-signing-cli
 solana-validator
 foundationdb-gen
+cargo-wef
