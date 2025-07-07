@@ -2,3 +2,4 @@ snarkvm
 commit_verify
 diesel_cli
 diesel_cli
+cargo-spellcheck
