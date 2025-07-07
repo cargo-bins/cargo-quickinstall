@@ -26,3 +26,4 @@ nu_plugin_plotters
 rabbitmqadmin
 cargo-pgrx
 cargo-near
+socketcan
