@@ -11,3 +11,4 @@ cargo-spellcheck
 sea-orm-cli
 phf_generator
 sea-orm-cli
+socketcan
