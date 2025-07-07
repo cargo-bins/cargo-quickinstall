@@ -9,3 +9,4 @@ socketcan
 tokio-process
 httpbis
 solana-validator
+cargo-leptos
