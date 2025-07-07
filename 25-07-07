@@ -5,3 +5,4 @@ protox
 rtx-cli
 phf_generator
 py-spy
+socketcan
