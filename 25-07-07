@@ -21,3 +21,4 @@ cargo-ninja
 solana-validator
 foundationdb-gen
 rusthesia
+handlr-regex
