@@ -37,3 +37,4 @@ cargo-pgrx
 qmassa
 trusted-signing-cli
 solana-validator
+foundationdb-gen
