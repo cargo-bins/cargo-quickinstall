@@ -41,3 +41,4 @@ foundationdb-gen
 cargo-wef
 mise
 parquet
+ducc-sys
