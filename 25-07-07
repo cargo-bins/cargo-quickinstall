@@ -13,3 +13,4 @@ phf_generator
 sea-orm-cli
 socketcan
 sea-orm-cli
+foundationdb-gen
