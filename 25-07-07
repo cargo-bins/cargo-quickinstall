@@ -9,3 +9,4 @@ phf_generator
 socketcan
 egui-terminal
 handlr-regex
+tmuxstatus
