@@ -10,3 +10,4 @@ tokio-process
 httpbis
 solana-validator
 cargo-leptos
+foundationdb-gen
