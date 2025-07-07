@@ -17,3 +17,4 @@ tmuxstatus
 foundationdb-gen
 integrity-scrub
 tmux-rs
+ducc-sys
