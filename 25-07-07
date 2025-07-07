@@ -24,3 +24,4 @@ cargo-pgrx
 phf_generator
 nu_plugin_plotters
 rabbitmqadmin
+cargo-pgrx
