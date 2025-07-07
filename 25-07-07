@@ -5,3 +5,4 @@ openpty
 diesel_cli
 protox
 argus-cli
+phf_generator
