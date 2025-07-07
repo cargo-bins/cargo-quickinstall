@@ -5,3 +5,4 @@ protox
 sn_node_rpc_client
 rtx-cli
 phf_generator
+socketcan
