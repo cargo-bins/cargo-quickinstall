@@ -33,3 +33,4 @@ nu_plugin_plotters
 hyprshell
 foundationdb-gen
 pomodoro
+graphql_client_cli
