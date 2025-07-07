@@ -16,3 +16,4 @@ reductstore
 trusted-signing-cli
 cargo-public-api
 nu_plugin_plotters
+hyprshell
