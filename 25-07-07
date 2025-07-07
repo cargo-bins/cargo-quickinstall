@@ -16,3 +16,4 @@ cargo-spellcheck
 cargo-spellcheck
 sea-orm-cli
 rtx-cli
+phf_generator
