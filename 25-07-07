@@ -6,3 +6,4 @@ rtx-cli
 phf_generator
 socketcan
 foundationdb-gen
+parquet
