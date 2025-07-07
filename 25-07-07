@@ -29,3 +29,4 @@ cargo-near
 socketcan
 nu_plugin_plotters
 clipboard-sync
+nu_plugin_plotters
