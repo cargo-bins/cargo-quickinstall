@@ -15,3 +15,4 @@ socketcan
 sea-orm-cli
 foundationdb-gen
 mise
+parquet
