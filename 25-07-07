@@ -6,3 +6,4 @@ rtx-cli
 phf_generator
 py-spy
 socketcan
+foundationdb-gen
