@@ -3,3 +3,4 @@ commit_verify
 website_crawler
 protox
 rtx-cli
+phf_generator
