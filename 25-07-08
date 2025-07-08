@@ -11,3 +11,4 @@ re_query
 deploy
 hyprshell
 deno
+cargo-unmaintained
