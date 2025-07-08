@@ -2,3 +2,4 @@ qmassa
 golem-cli
 cargo-near
 nextest-filtering
+nextsv
