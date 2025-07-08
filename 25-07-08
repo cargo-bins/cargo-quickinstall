@@ -10,3 +10,4 @@ cargo-wef
 sea-orm-cli
 deploy
 pijul
+trusted-signing-cli
