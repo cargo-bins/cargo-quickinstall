@@ -13,3 +13,4 @@ uu_pathchk
 uu_mv
 uu_nice
 malwaredb
+handlr-regex
