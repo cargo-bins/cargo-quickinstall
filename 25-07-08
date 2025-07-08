@@ -6,3 +6,4 @@ tree-sitter-cli
 pcu
 pcu
 nextest
+cargo-wef
