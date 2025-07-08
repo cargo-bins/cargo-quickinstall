@@ -11,3 +11,4 @@ sea-orm-cli
 deploy
 pijul
 trusted-signing-cli
+graphql_client_cli
