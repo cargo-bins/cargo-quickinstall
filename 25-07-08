@@ -4,3 +4,4 @@ nextest-filtering
 cargo-generate
 deploy
 uu_mv
+deno
