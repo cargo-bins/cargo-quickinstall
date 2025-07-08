@@ -17,3 +17,4 @@ cargo-public-api
 re_query
 stellar-xdr
 lux-cli
+laminar
