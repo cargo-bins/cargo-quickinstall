@@ -14,3 +14,4 @@ trusted-signing-cli
 graphql_client_cli
 spider_cli
 uu_mv
+deno
