@@ -8,3 +8,4 @@ cargo-template
 nu_plugin_plotters
 corrodoro
 re_query
+deploy
