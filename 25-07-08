@@ -27,3 +27,4 @@ static-server
 cargo-pgrx
 nkeys
 nextest
+spider_cli
