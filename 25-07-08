@@ -4,3 +4,4 @@ cargo-near
 nextest-filtering
 nextsv
 cargo-near
+cargo-template
