@@ -2,3 +2,4 @@ qmassa
 cargo-pgrx
 hurl
 nextest-filtering
+tree-sitter-cli
