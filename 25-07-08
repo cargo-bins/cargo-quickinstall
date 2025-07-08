@@ -35,3 +35,4 @@ solana-gossip
 ripdrag
 probe-rs-tools
 nextest
+mdbook-linkcheck2
