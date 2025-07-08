@@ -7,3 +7,4 @@ pcu
 pcu
 nextest
 cargo-wef
+sea-orm-cli
