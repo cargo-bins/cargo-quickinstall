@@ -30,3 +30,4 @@ spider_cli
 cargo-unmaintained
 hurlfmt
 mdbrowser
+probe-rs-tools
