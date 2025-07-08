@@ -24,3 +24,4 @@ cargo-public-api
 static-server
 pijul
 nkeys
+grepq
