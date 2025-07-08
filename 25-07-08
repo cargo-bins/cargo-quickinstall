@@ -7,3 +7,4 @@ deploy
 mdbook-linkcheck2
 uu_mv
 dioxus-cli
+deno
