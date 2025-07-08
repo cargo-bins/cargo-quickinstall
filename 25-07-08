@@ -9,3 +9,4 @@ deploy
 load_lpp
 uu_chmod
 ihop
+uu_pathchk
