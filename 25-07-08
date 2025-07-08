@@ -9,3 +9,4 @@ nextest
 cargo-wef
 sea-orm-cli
 deploy
+pijul
