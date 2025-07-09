@@ -27,3 +27,4 @@ uu_tail
 uu_mkfifo
 uu_echo
 cargo-php
+uu_nl
