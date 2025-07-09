@@ -1,4 +1,4 @@
-name: Cache cargo-install target dir
+name: Setup env for cronjob and cache
 
 runs:
   using: composite
