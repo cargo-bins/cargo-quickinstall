@@ -19,3 +19,4 @@ uu_touch
 uu_tail
 uu_split
 uu_tee
+uu_rm
