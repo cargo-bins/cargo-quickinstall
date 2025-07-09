@@ -5,3 +5,4 @@ racer
 probe-rs-tools
 lux-cli
 lux-cli
+cargo-public-api
