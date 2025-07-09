@@ -7,3 +7,4 @@ rustfmt
 benfred-read-process-memory
 holochain_cli
 qsv
+tree-sitter-graph
