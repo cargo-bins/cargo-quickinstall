@@ -16,3 +16,4 @@ intermodal-rs
 uu_chgrp
 uu_seq
 uu_dd
+systemd-hardening-helper
