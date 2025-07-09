@@ -28,3 +28,4 @@ uu_mkfifo
 uu_echo
 cargo-php
 uu_nl
+tree-sitter-graph
