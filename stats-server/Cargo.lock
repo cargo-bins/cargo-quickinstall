@@ -138,9 +138,9 @@ checksum = "a2698f953def977c68f935bb0dfa959375ad4638570e969e2f1e9f433cbf1af6"
 
 [[package]]
 name = "cc"
-version = "1.2.28"
+version = "1.2.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4ad45f4f74e4e20eaa392913b7b33a7091c87e59628f4dd27888205ad888843c"
+checksum = "5c1599538de2394445747c8cf7935946e3cc27e9625f889d979bfb2aaf569362"
 dependencies = [
  "shlex",
 ]
@@ -406,9 +406,9 @@ dependencies = [
 
 [[package]]
 name = "hyper-util"
-version = "0.1.14"
+version = "0.1.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc2fdfdbff08affe55bb779f33b053aa1fe5dd5b54c257343c17edfa55711bdb"
+checksum = "7f66d5bd4c6f02bf0542fad85d626775bab9258cf795a4256dcaf3161114d1df"
 dependencies = [
  "bytes",
  "futures-core",
