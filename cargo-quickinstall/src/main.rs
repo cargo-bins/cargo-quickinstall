@@ -89,7 +89,7 @@ fn do_main_curl(
 
         if args.dry_run {
             let shell_cmd = do_dry_run_curl(&crate_details, args.fallback)?;
-            println!("{}", shell_cmd);
+            println!("{shell_cmd}");
         } else {
             let result = install_crate_curl(&crate_details, args.fallback);
             report_stats_in_background(&crate_details, &result);
@@ -262,7 +262,7 @@ fn do_install_binstall(
     let status = cmd.status()?;
 
     if !status.success() {
-        Err(format!("`{}` failed with {status}", cmd.formattable(),).into())
+        Err(format!("`{}` failed with {status}", cmd.formattable()).into())
     } else {
         Ok(())
     }

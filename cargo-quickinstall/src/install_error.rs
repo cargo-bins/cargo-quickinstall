@@ -40,7 +40,7 @@ impl std::error::Error for InstallError {
 // is what is shown to the user if you return an error from `main()`.
 impl Debug for InstallError {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-        write! {f, "{}", self}
+        Display::fmt(self, f)
     }
 }
 
@@ -48,30 +48,30 @@ impl Display for InstallError {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         match self {
             &InstallError::MissingCrateNameArgument(usage_text) => {
-                write!(f, "No crate name specified.\n\n{}", usage_text)
+                write!(f, "No crate name specified.\n\n{usage_text}")
             }
             InstallError::CommandFailed(CommandFailed {
                 command,
                 stdout,
                 stderr,
             }) => {
-                write!(f, "Command failed:\n    {}\n", command)?;
+                write!(f, "Command failed:\n    {command}\n")?;
                 if !stdout.is_empty() {
-                    write!(f, "Stdout:\n{}\n", stdout)?;
+                    write!(f, "Stdout:\n{stdout}\n")?;
                 }
                 if !stderr.is_empty() {
-                    write!(f, "Stderr:\n{}", stderr)?;
+                    write!(f, "Stderr:\n{stderr}")?;
                 }
 
                 Ok(())
             }
-            InstallError::IoError(e) => write!(f, "{}", e),
+            InstallError::IoError(e) => Display::fmt(e, f),
             InstallError::CargoInstallFailed => {
                 f.write_str("`cargo install` didn't work either. Looks like you're on your own.")
             }
 
             InstallError::CrateDoesNotExist { crate_name } => {
-                write!(f, "`{}` does not exist on crates.io.", crate_name)
+                write!(f, "`{crate_name}` does not exist on crates.io.")
             }
             InstallError::NoFallback(crate_details) => {
                 write!(
