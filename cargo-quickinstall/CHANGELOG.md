@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.20](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.19...v0.3.20) - 2025-07-09
+
+### Other
+
+- FIx clippy error ([#401](https://github.com/cargo-bins/cargo-quickinstall/pull/401))
+- Bump embed-resource from 3.0.4 to 3.0.5 in the deps group ([#398](https://github.com/cargo-bins/cargo-quickinstall/pull/398))
+
 ## [0.3.19](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.18...v0.3.19) - 2025-07-05
 
 ### Other
