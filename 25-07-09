@@ -31,3 +31,4 @@ tree-sitter-graph
 uu_pathchk
 uu_chgrp
 uu_split
+uu_stat
