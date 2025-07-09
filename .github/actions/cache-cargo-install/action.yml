@@ -4,12 +4,15 @@ runs:
   using: composite
   steps:
     - name: Export CARGO_TARGET_DIR
-      run: cygpath -w /tmp/target | tee -a "$GITHUB_ENV"
+      run: |
+        mkdir -p /tmp/target
+        dir="$(cygpath -w /tmp/target)"
+        echo "CARGO_TARGET_DIR=$dir" >> "$GITHUB_ENV"
       shell: bash
       if: runner.os == 'Windows'
 
     - name: Export CARGO_TARGET_DIR
-      run: echo /tmp/target >> "$GITHUB_ENV"
+      run: echo 'CARGO_TARGET_DIR=/tmp/target' >> "$GITHUB_ENV"
       shell: bash
       if: runner.os != 'Windows'
         
