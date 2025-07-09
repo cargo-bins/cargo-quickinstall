@@ -31,3 +31,4 @@ termusic-server
 yaydl
 tree-sitter-cli
 cargo-count
+cargo-spellcheck
