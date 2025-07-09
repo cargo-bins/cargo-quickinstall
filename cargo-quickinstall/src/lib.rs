@@ -170,7 +170,7 @@ fn curl_and_untar(url: &str) -> Result<String, InstallError> {
 }
 
 pub fn get_latest_version(crate_name: &str) -> Result<String, InstallError> {
-    let url = format!("https://crates.io/api/v1/crates/{}", crate_name);
+    let url = format!("https://crates.io/api/v1/crates/{crate_name}");
 
     curl_json(&url)
         .map_err(|e| {
