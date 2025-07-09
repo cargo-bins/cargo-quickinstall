@@ -19,4 +19,4 @@ runs:
     - uses: actions/cache@v4
       with:
         path: ${{ env.CARGO_TARGET_DIR }}
-        key: ${{ runner.os }}-${{ matrix.target_arch }}-self-build-with-build-version
+        key: ${{ runner.os }}-${{ matrix.target_arch }}-${{ github.workflow }}-${{ github.job }}
