@@ -33,3 +33,4 @@ cargo-count
 qsv
 graphql_client_cli
 tree-sitter-graph
+mdbook-linkcheck2
