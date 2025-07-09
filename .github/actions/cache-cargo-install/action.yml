@@ -1,0 +1,22 @@
+name: Cache cargo-install target dir
+
+runs:
+  using: composite
+  steps:
+    - name: Export CARGO_TARGET_DIR
+      run: |
+        mkdir -p /tmp/target
+        dir="$(cygpath -w /tmp/target)"
+        echo "CARGO_TARGET_DIR=$dir" >> "$GITHUB_ENV"
+      shell: bash
+      if: runner.os == 'Windows'
+
+    - name: Export CARGO_TARGET_DIR
+      run: echo 'CARGO_TARGET_DIR=/tmp/target' >> "$GITHUB_ENV"
+      shell: bash
+      if: runner.os != 'Windows'
+        
+    - uses: actions/cache@v4
+      with:
+        path: ${{ env.CARGO_TARGET_DIR }}
+        key: ${{ runner.os }}-${{ matrix.target_arch }}-${{ github.workflow }}-${{ github.job }}

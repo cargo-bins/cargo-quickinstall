@@ -6,9 +6,6 @@ on:
       - main
   pull_request:
 
-env:
-  CARGO_TARGET_DIR: /tmp/target
-
 jobs:
   self-build-with-build-version:
     name: Self-Build-With-build-version
@@ -47,10 +44,7 @@ jobs:
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
 
-      - uses: actions/cache@v4
-        with:
-          path: ${{ env.CARGO_TARGET_DIR }}
-          key: ${{ runner.os }}-${{ matrix.target_arch }}-self-build-with-build-version
+      - uses: ./.github/actions/cache-cargo-install
 
       - name: Build Thyself
         env:
@@ -94,10 +88,7 @@ jobs:
           persist-credentials: false
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
-      - uses: actions/cache@v4
-        with:
-          path: ${{ env.CARGO_TARGET_DIR }}
-          key: ${{ runner.os }}-${{ matrix.target_arch }}-self-build
+      - uses: ./.github/actions/cache-cargo-install
       - name: Install Thyself
         run: cargo install --path cargo-quickinstall
       - name: Install Thyself with Thyself (or fallback to sensei on windows)
@@ -140,10 +131,7 @@ jobs:
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
 
-      - uses: actions/cache@v4
-        with:
-          path: ${{ env.CARGO_TARGET_DIR }}
-          key: ${{ runner.os }}-${{ matrix.target_arch }}-build-needing-cc
+      - uses: ./.github/actions/cache-cargo-install
  
       # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
       - name: Build cargo-deny
