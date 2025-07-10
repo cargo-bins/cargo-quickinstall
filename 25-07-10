@@ -13,3 +13,4 @@ remove_dir_all
 cargo-local-registry
 kani-verifier
 addr2line
+website_crawler
