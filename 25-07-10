@@ -10,3 +10,4 @@ deno
 deploy
 git-mit-config
 remove_dir_all
+cargo-local-registry
