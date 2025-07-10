@@ -25,3 +25,4 @@ sea-orm-cli
 commit-lsp
 addr2line
 tree-sitter-cli
+nextsv
