@@ -9,3 +9,4 @@ cargo-count
 cargo-duplicates
 deploy
 dioxus-cli
+remove_dir_all
