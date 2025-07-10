@@ -27,3 +27,4 @@ addr2line
 tree-sitter-cli
 nextsv
 website_crawler
+cargo-public-api
