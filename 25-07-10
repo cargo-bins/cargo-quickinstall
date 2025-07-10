@@ -21,3 +21,4 @@ uu_pathchk
 wmi
 uu_chmod
 systemd-hardening-helper
+uu_kill
