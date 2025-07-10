@@ -16,3 +16,4 @@ uu_head
 oso
 uu_mkfifo
 uu_stty
+uu_pwd
