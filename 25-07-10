@@ -21,3 +21,4 @@ uu_chroot
 uu_ln
 uu_nohup
 uu_ls
+uu_dd
