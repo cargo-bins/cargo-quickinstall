@@ -7,3 +7,4 @@ uu_readlink
 all-my-circuits
 uu_pathchk
 uu_pwd
+uu_nproc
