@@ -18,3 +18,4 @@ uu_mkfifo
 uu_stty
 uu_pwd
 uu_pathchk
+wmi
