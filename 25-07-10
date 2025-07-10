@@ -20,3 +20,4 @@ uu_pwd
 uu_pathchk
 wmi
 uu_chmod
+systemd-hardening-helper
