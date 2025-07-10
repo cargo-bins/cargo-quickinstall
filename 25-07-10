@@ -6,3 +6,4 @@ uu_install
 uu_readlink
 all-my-circuits
 uu_pathchk
+uu_pwd
