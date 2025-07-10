@@ -30,3 +30,4 @@ kani-verifier
 gitui
 addr2line
 solana-cli
+solana-gossip
