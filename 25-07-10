@@ -5,3 +5,4 @@ uu_chmod
 uu_install
 uu_readlink
 all-my-circuits
+uu_pathchk
