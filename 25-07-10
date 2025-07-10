@@ -28,3 +28,4 @@ cargo-list
 lnr
 cargo-scripter
 paperclip
+fzf-make
