@@ -29,3 +29,4 @@ cargo-local-registry
 kani-verifier
 gitui
 addr2line
+solana-cli
