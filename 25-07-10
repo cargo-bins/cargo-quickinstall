@@ -11,3 +11,4 @@ wmi
 hurl
 hurl
 deploy
+remove_dir_all
