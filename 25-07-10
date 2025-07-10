@@ -25,3 +25,4 @@ uu_dd
 uu_rmdir
 deploy
 uu_shred
+uu_pathchk
