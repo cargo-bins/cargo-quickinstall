@@ -25,3 +25,4 @@ dua
 cargo-supply-chain
 git-mit-config
 remove_dir_all
+cargo-local-registry
