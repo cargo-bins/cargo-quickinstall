@@ -19,3 +19,4 @@ uu_stty
 uu_pwd
 uu_pathchk
 wmi
+uu_chmod
