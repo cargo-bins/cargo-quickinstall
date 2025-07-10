@@ -28,3 +28,4 @@ remove_dir_all
 cargo-local-registry
 kani-verifier
 gitui
+addr2line
