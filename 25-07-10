@@ -21,3 +21,4 @@ commit-lsp
 spotify_player
 remove_dir_all
 rg
+sea-orm-cli
