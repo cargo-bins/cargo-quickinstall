@@ -14,3 +14,4 @@ uu_touch
 uu_rm
 uu_head
 oso
+uu_mkfifo
