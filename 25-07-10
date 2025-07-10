@@ -14,3 +14,4 @@ deploy
 remove_dir_all
 hurl
 addr2line
+website_crawler
