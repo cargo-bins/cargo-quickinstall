@@ -29,3 +29,4 @@ fake
 cargo-i18n
 sqlx-cli
 diesel_cli
+monolith
