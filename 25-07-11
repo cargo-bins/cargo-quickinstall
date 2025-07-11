@@ -30,3 +30,4 @@ uu_chgrp
 uu_env
 fake
 uu_touch
+uu_ls
