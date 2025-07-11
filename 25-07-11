@@ -27,3 +27,4 @@ cargo-i18n
 git-mit-relates-to
 fake
 cargo-i18n
+sqlx-cli
