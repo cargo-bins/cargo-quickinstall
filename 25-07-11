@@ -16,3 +16,4 @@ protox
 cargo-graph
 tree-sitter-cli
 shadowsocks-rust
+gpgme
