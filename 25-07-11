@@ -16,3 +16,4 @@ diesel_cli
 sqlx-cli
 gpgme
 dysk
+monolith
