@@ -23,3 +23,4 @@ cargo-supply-chain
 diesel_cli
 monolith
 java-locator
+cargo-i18n
