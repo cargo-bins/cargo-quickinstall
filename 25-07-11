@@ -37,3 +37,4 @@ uu_nohup
 uu_mv
 uu_sort
 uu_chgrp
+uu_env
