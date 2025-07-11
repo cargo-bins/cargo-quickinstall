@@ -21,3 +21,4 @@ cargo-bundle
 cargo-git
 cargo-proc-debug
 java-locator
+cargo-tag
