@@ -12,3 +12,4 @@ uu_install
 uu_mktemp
 uu_kill
 gpgme
+run-or-raise
