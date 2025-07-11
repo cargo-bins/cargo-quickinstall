@@ -40,3 +40,4 @@ uu_chgrp
 uu_env
 uu_nice
 uu_seq
+uu_pwd
