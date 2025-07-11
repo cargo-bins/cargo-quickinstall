@@ -22,3 +22,4 @@ cargo-mobile2
 cargo-bundle
 re_query
 shadowsocks-rust
+gpgme
