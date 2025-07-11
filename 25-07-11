@@ -45,3 +45,4 @@ uu_split
 dioxus-cli
 uu_head
 uu_mknod
+uu_chroot
