@@ -21,3 +21,4 @@ gpgme
 uu_printenv
 uu_chroot
 uu_cut
+uu_chroot
