@@ -29,3 +29,4 @@ cargo-mobile2
 re_query
 gpgme
 sha1collisiondetection
+mdbook-linkcheck2
