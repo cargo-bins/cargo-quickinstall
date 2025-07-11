@@ -17,3 +17,4 @@ cargo-whatfeatures
 cutler
 protox
 cargo-bundle
+fzf-make
