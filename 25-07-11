@@ -31,3 +31,4 @@ sqlx-cli
 diesel_cli
 monolith
 diesel_cli
+cargo-i18n
