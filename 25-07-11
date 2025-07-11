@@ -19,3 +19,4 @@ uu_mkdir
 rainfrog
 gpgme
 uu_printenv
+uu_chroot
