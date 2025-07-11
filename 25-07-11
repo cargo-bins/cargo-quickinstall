@@ -46,3 +46,4 @@ fzf-make
 simple-http-server
 gdenv
 cargo-spellcheck
+cargo-bundle
