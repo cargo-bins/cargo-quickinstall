@@ -38,3 +38,4 @@ uu_mv
 uu_sort
 uu_chgrp
 uu_env
+uu_nice
