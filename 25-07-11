@@ -19,3 +19,4 @@ shadowsocks-rust
 gpgme
 cargo-public-api
 cargo-mobile2
+cargo-bundle
