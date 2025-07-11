@@ -13,3 +13,4 @@ sea-orm-cli
 cargo-scripter
 tod
 protox
+cargo-graph
