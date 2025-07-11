@@ -13,3 +13,4 @@ dotenv-flow
 arti
 stellar-strkey
 sccache
+cargo-whatfeatures
