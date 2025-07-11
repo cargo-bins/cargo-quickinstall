@@ -9,3 +9,4 @@ cargo-git
 cargo-proc-debug
 diesel_cli
 cargo-proc-debug
+cargo-git
