@@ -12,3 +12,4 @@ cargo-proc-debug
 cargo-git
 gpgme
 cargo-tag
+cargo-bundle
