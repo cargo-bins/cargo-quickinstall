@@ -25,3 +25,4 @@ uu_chroot
 xsra
 re_query
 gpgme
+sha1collisiondetection
