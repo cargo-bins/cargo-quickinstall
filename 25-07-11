@@ -20,3 +20,4 @@ monolith
 re_query
 gpgme
 cargo-supply-chain
+diesel_cli
