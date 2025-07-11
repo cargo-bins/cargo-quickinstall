@@ -7,3 +7,4 @@ diesel_cli
 gpgme
 re_query
 gpgme
+sha1collisiondetection
