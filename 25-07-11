@@ -3,3 +3,4 @@ cargo-git
 stellar-strkey
 protox
 cargo-bundle
+cargo-tag
