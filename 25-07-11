@@ -33,3 +33,4 @@ uu_touch
 uu_ls
 uu_stat
 uu_split
+uu_nohup
