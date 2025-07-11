@@ -32,3 +32,4 @@ diesel_cli
 monolith
 diesel_cli
 cargo-i18n
+spider_cli
