@@ -17,3 +17,4 @@ cargo-git
 re_query
 gpgme
 cargo-proc-debug
+cargo-bundle
