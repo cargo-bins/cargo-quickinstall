@@ -7,3 +7,4 @@ cargo-tag
 cargo-proc-debug
 cargo-git
 cargo-proc-debug
+diesel_cli
