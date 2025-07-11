@@ -15,3 +15,4 @@ cargo-show
 diesel_cli
 sqlx-cli
 gpgme
+dysk
