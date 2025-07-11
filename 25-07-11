@@ -13,3 +13,4 @@ cargo-git
 gpgme
 cargo-tag
 cargo-bundle
+cargo-git
