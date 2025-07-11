@@ -31,3 +31,4 @@ gpgme
 sha1collisiondetection
 mdbook-linkcheck2
 hayagriva
+cargo-graph
