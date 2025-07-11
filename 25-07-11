@@ -20,3 +20,4 @@ sway-plugins
 gpgme
 spider-cloud-cli
 uu_mktemp
+uu_pwd
