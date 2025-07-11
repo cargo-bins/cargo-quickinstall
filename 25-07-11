@@ -14,3 +14,4 @@ gpgme
 cargo-tag
 cargo-bundle
 cargo-git
+re_query
