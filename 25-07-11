@@ -46,3 +46,4 @@ dioxus-cli
 uu_head
 uu_mknod
 uu_chroot
+uu_sort
