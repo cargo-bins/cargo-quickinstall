@@ -21,3 +21,4 @@ fzf-make
 diesel_cli
 cargo-list
 codeberg-cli
+gpgme
