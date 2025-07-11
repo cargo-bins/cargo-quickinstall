@@ -42,3 +42,4 @@ mdbook-linkcheck2
 qsv
 ttfb
 hurl
+fzf-make
