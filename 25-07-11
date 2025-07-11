@@ -4,3 +4,4 @@ dotenv-flow
 stellar-strkey
 protox
 diesel_cli
+gpgme
