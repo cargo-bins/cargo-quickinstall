@@ -35,3 +35,4 @@ cargo-graph
 ttfb
 tree-sitter-cli
 binwalk
+protox
