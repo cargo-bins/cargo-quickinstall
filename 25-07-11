@@ -48,3 +48,4 @@ gdenv
 cargo-spellcheck
 cargo-bundle
 qsv
+cargo-graph
