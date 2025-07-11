@@ -18,3 +18,4 @@ tree-sitter-cli
 shadowsocks-rust
 gpgme
 cargo-public-api
+cargo-mobile2
