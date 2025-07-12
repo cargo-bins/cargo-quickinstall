@@ -27,3 +27,4 @@ uu_mktemp
 virtiofsd
 addr2line
 leetcode-cli
+sniffnet
