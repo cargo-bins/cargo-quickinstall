@@ -9,3 +9,4 @@ holochain_cli
 addr2line
 rustbus
 httpmock
+holochain_cli_sandbox
