@@ -14,3 +14,4 @@ uv
 uu_nl
 uu_mktemp
 binstall
+cargo-lock
