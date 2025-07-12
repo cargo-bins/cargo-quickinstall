@@ -1,3 +1,4 @@
 borsh
 solana-keygen
 probe-run
+cargo-embed
