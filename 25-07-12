@@ -26,3 +26,4 @@ hurl
 uu_mktemp
 dioxus-cli
 cavif
+addr2line
