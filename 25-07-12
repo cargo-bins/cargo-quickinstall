@@ -25,3 +25,4 @@ buck2
 ncspot
 uu_mktemp
 virtiofsd
+addr2line
