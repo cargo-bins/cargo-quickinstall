@@ -10,3 +10,4 @@ minicbor
 probe-run
 cargo-embed
 probe-run
+cargo-embed
