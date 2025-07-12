@@ -6,3 +6,4 @@ monolith
 ruff
 cargo-bolero
 cargo-supply-chain
+kani-verifier
