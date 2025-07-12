@@ -11,3 +11,4 @@ cargo-embed
 probe-run
 cargo-embed
 cargo-lock
+cargo-hf2
