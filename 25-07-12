@@ -9,3 +9,4 @@ addr2line
 librespot
 cargo-msrv
 httpmock
+ext-sort
