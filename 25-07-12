@@ -18,3 +18,4 @@ probe-run
 cargo-hf2
 cargo-lock
 cargo-hf2
+cargo-pgrx
