@@ -3,3 +3,4 @@ graphql_client_cli
 shadowsocks-rust
 shadowsocks-rust
 solana-keygen
+sea-orm-cli
