@@ -13,3 +13,4 @@ monolith
 cargo-lock
 kani-verifier
 git-mit-config
+binstall
