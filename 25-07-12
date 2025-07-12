@@ -2,3 +2,4 @@ borsh
 solana-keygen
 minicbor
 cargo-lock
+cargo-pgrx
