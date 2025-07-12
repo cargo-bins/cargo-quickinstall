@@ -11,3 +11,4 @@ minicbor
 honggfuzz
 monolith
 cargo-lock
+kani-verifier
