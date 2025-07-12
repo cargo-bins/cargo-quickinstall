@@ -3,3 +3,4 @@ borsh
 uu_chroot
 run-or-raise
 uu_nproc
+uu_pathchk
