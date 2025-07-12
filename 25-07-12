@@ -4,3 +4,4 @@ diesel_cli
 solana-keygen
 cargo-embed
 probe-run
+cargo-hf2
