@@ -23,3 +23,4 @@ uu_mktemp
 addr2line
 librespot
 httpmock
+qsv
