@@ -3,3 +3,4 @@ diesel_cli
 diesel_cli
 solana-keygen
 cargo-embed
+probe-run
