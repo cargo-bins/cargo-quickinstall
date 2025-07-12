@@ -20,3 +20,4 @@ cargo-spellcheck
 dioxus-cli
 redoxer
 graphql_client_cli
+uu_mktemp
