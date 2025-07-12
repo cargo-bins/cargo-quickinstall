@@ -10,3 +10,4 @@ kani-verifier
 minicbor
 honggfuzz
 monolith
+cargo-lock
