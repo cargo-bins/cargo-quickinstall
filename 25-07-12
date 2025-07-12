@@ -16,3 +16,4 @@ uu_mktemp
 binstall
 cargo-lock
 rrule
+uv
