@@ -1,3 +1,4 @@
 borsh
 minicbor
 honggfuzz
+cargo-lock
