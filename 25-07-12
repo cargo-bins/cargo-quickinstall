@@ -10,3 +10,4 @@ cargo-embed
 cargo-embed
 probe-run
 cargo-embed
+cargo-lock
