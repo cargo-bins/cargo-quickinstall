@@ -3,3 +3,4 @@ cargo-bolero
 cargo-i18n
 cargo-i18n
 monolith
+ruff
