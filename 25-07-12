@@ -4,3 +4,4 @@ honggfuzz
 cargo-lock
 git-mit-config
 rrule
+uu_mktemp
