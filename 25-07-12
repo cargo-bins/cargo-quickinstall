@@ -21,3 +21,4 @@ kani-verifier
 spider_cli
 addr2line
 rustbus
+zp
