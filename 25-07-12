@@ -9,3 +9,4 @@ cargo-hf2
 minicbor
 probe-run
 cargo-embed
+probe-run
