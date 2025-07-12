@@ -7,3 +7,4 @@ rrule
 uu_mktemp
 holochain_cli
 addr2line
+rustbus
