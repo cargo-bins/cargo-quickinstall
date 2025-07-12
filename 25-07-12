@@ -28,3 +28,4 @@ virtiofsd
 addr2line
 leetcode-cli
 sniffnet
+dx-cli
