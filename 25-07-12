@@ -8,3 +8,4 @@ uu_mktemp
 addr2line
 librespot
 cargo-msrv
+httpmock
