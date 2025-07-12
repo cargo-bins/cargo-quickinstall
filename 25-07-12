@@ -21,3 +21,4 @@ probe-run
 cargo-embed
 uu_mktemp
 addr2line
+librespot
