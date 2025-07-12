@@ -5,3 +5,4 @@ run-or-raise
 uu_nproc
 uu_pathchk
 uu_kill
+uu_stty
