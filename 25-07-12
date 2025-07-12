@@ -24,3 +24,4 @@ rustbus
 zp
 sqlx-cli
 kani-verifier
+ruff
