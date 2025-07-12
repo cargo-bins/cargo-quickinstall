@@ -3,3 +3,4 @@ solana-keygen
 probe-run
 cargo-embed
 minicbor
+cargo-hf2
