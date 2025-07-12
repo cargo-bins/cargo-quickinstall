@@ -27,3 +27,4 @@ kani-verifier
 ruff
 uv
 httpmock
+zp
