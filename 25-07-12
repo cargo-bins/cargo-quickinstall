@@ -16,3 +16,4 @@ cargo-lock
 cargo-bundle
 sea-orm-cli
 cargo-pgrx
+cargo-mobile2
