@@ -20,3 +20,4 @@ binstall
 rustfmt-nightly
 uv
 dioxus-cli
+rrule
