@@ -4,3 +4,4 @@ uu_printenv
 uu_stty
 uv
 fontspector
+run-or-raise
