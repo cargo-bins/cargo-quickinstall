@@ -12,3 +12,4 @@ cargo-graph
 microsandbox-cli
 mise
 redoxer
+cargo-lock
