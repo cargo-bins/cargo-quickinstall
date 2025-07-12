@@ -17,3 +17,4 @@ binstall
 cargo-lock
 rrule
 uv
+rg
