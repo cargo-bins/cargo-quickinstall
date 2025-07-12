@@ -19,3 +19,4 @@ kble-eb90
 cargo-spellcheck
 dioxus-cli
 redoxer
+graphql_client_cli
