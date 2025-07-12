@@ -35,3 +35,4 @@ microsandbox-cli
 agave-install
 cargo-mobile2
 httpmock
+tree-sitter-cli
