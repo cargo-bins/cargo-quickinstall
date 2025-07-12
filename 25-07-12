@@ -8,3 +8,4 @@ cargo-hf2
 probe-run
 cargo-embed
 cargo-embed
+probe-run
