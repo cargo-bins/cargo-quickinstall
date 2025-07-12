@@ -7,3 +7,4 @@ probe-run
 cargo-hf2
 cargo-hf2
 minicbor
+probe-run
