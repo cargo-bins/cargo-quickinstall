@@ -26,3 +26,4 @@ sqlx-cli
 kani-verifier
 ruff
 uv
+httpmock
