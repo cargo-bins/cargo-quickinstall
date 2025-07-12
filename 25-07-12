@@ -12,3 +12,4 @@ httpmock
 holochain_cli_sandbox
 exa
 ext-sort
+sn_node_rpc_client
