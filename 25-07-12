@@ -17,3 +17,4 @@ uu_sleep
 uu_seq
 cargo-lock
 binstall
+rustfmt-nightly
