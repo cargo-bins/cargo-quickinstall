@@ -15,3 +15,4 @@ uu_install
 uu_ln
 uu_sleep
 uu_seq
+cargo-lock
