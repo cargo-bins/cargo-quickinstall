@@ -8,3 +8,4 @@ cargo-bolero
 cargo-supply-chain
 kani-verifier
 minicbor
+honggfuzz
