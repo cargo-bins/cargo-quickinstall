@@ -8,3 +8,4 @@ cargo-mobile2
 sea-orm-cli
 mise
 minicbor
+cargo-graph
