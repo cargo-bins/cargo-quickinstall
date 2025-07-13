@@ -2,3 +2,4 @@ dotenv-flow
 zp
 uv
 cross-stream
+cpp_demangle
