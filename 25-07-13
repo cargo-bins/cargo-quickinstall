@@ -32,3 +32,4 @@ clippy
 gpgme
 quickenv
 quickenv
+cross-stream
