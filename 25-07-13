@@ -30,3 +30,4 @@ tui-journal
 rsii
 cargo-spellcheck
 agave-install
+cpp_demangle
