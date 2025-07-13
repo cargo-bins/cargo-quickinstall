@@ -34,3 +34,4 @@ cpp_demangle
 wiremix
 tmux-rs
 hayagriva
+cargo-embed
