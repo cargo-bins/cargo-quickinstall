@@ -48,3 +48,4 @@ rg
 diesel_cli
 tmux-rs
 rabbitmqadmin
+cargo-info
