@@ -7,3 +7,4 @@ sqlx-cli
 binstall
 zp
 usage-cli
+cpp_demangle
