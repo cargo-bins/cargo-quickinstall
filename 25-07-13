@@ -45,3 +45,4 @@ pcu
 git-leave
 simple-http-server
 patch-crate
+tmux-rs
