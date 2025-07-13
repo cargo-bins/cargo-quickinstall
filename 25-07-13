@@ -3,3 +3,4 @@ safe_network
 diesel_cli
 solana-tokens
 cpp_demangle
+tree-sitter-cli
