@@ -39,3 +39,4 @@ gpgme
 patch-crate
 cross-stream
 wiremix
+cargo-info
