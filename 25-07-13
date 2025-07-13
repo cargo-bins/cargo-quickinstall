@@ -37,3 +37,4 @@ controller
 redoxer
 gpgme
 patch-crate
+cross-stream
