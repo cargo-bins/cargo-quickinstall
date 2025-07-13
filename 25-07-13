@@ -3,3 +3,4 @@ cpp_demangle
 mit-pre-commit
 uu_mkdir
 benfred-read-process-memory
+openpty
