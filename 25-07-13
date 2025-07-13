@@ -12,3 +12,4 @@ cpp_demangle
 controller
 gpgme
 uu_cp
+dotenv-flow
