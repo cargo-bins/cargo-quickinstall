@@ -6,3 +6,4 @@ uu_mkdir
 cpp_demangle
 controller
 gpgme
+uu_cp
