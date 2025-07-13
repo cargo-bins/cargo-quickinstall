@@ -8,3 +8,4 @@ binstall
 zp
 usage-cli
 cpp_demangle
+mit-pre-commit
