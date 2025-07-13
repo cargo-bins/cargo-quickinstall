@@ -12,3 +12,4 @@ tree-sitter-cli
 cpp_demangle
 controller
 gpgme
+sea-orm-cli
