@@ -47,3 +47,4 @@ simple-http-server
 patch-crate
 tmux-rs
 ncspot
+tui-journal
