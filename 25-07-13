@@ -27,3 +27,4 @@ lux-cli
 simple-http-server
 nextsv
 rabbitmqadmin
+cpp_demangle
