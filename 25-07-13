@@ -11,3 +11,4 @@ httm
 holochain_cli_sandbox
 gpgme
 uu_cp
+dotenv-flow
