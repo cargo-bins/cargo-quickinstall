@@ -20,3 +20,4 @@ sea-orm-cli
 uu_mkdir
 rabbitmqadmin
 nextsv
+simple-http-server
