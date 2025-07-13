@@ -15,3 +15,4 @@ gpgme
 sea-orm-cli
 uu_cp
 py-spy
+dotenv-flow
