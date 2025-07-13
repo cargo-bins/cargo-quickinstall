@@ -9,3 +9,4 @@ openpty
 cpp_demangle
 xplr
 gpgme
+nextest
