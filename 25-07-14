@@ -16,3 +16,4 @@ tmux-rs
 cargo-near
 feluda
 cargo-spellcheck
+patch-crate
