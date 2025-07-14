@@ -3,3 +3,4 @@ stellar-xdr
 sea-orm-cli
 tendermint-rpc
 re_query
+wol-rs
