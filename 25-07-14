@@ -17,3 +17,4 @@ alacritty
 probe-rs-tools
 patch-crate
 cargo-near
+wol-rs
