@@ -46,3 +46,4 @@ wait-for-them
 bluetui
 patch-crate
 cargo-near
+probe-rs-tools
