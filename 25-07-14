@@ -10,3 +10,4 @@ arti
 socketcan
 atomic-server
 arti
+wol-rs
