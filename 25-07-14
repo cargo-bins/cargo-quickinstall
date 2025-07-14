@@ -3,3 +3,4 @@ tendermint-rpc
 nextest
 argus-cli
 socketcan
+wol-rs
