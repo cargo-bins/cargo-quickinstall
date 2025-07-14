@@ -4,3 +4,4 @@ atomic-server
 arti
 stellar-xdr
 tendermint-rpc
+clippy
