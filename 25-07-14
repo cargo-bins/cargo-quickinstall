@@ -27,3 +27,4 @@ uu_mktemp
 ragit
 trusted-signing-cli
 wait-for-them
+wol-rs
