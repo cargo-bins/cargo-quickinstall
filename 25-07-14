@@ -5,3 +5,4 @@ diesel_cli
 tendermint-rpc
 re_query
 wol-rs
+solana-genesis
