@@ -4,3 +4,4 @@ sea-orm-cli
 tendermint-rpc
 re_query
 wol-rs
+uu_mktemp
