@@ -15,3 +15,4 @@ lux-cli
 pcu
 alacritty
 probe-rs-tools
+patch-crate
