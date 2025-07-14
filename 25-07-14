@@ -2,3 +2,4 @@ iai-callgrind-runner
 stellar-xdr
 tendermint-rpc
 re_query
+rustfmt
