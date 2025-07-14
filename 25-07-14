@@ -11,3 +11,4 @@ nextest
 laminar
 cargo-embed
 cargo-embed
+xray-tui
