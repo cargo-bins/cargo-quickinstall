@@ -44,3 +44,4 @@ cargo-dylint
 cargo-bundle
 wait-for-them
 bluetui
+patch-crate
