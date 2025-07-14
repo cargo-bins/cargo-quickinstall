@@ -25,3 +25,4 @@ cargo-near
 hurl
 uu_mktemp
 ragit
+trusted-signing-cli
