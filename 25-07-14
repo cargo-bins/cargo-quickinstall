@@ -8,3 +8,4 @@ wol-rs
 solana-genesis
 uu_mktemp
 wol-rs
+sea-orm-cli
