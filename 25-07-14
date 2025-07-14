@@ -4,3 +4,4 @@ tendermint-rpc
 re_query
 rustfmt
 wol-rs
+solana-genesis
