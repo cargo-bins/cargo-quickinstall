@@ -14,3 +14,4 @@ diesel_cli
 wol-rs
 dioxus-cli
 dioxus-cli
+sea-orm-cli
