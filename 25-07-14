@@ -16,3 +16,4 @@ pcu
 alacritty
 probe-rs-tools
 patch-crate
+cargo-near
