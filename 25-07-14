@@ -15,3 +15,4 @@ argus-cli
 tmux-rs
 cargo-near
 feluda
+cargo-spellcheck
