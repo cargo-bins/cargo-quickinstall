@@ -11,3 +11,4 @@ hurl
 git-leave
 tendermint-rpc
 cargo-info
+argus-cli
