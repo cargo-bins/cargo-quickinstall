@@ -9,3 +9,4 @@ solana-genesis
 uu_mktemp
 wol-rs
 sea-orm-cli
+solana-keygen
