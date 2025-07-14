@@ -3,3 +3,4 @@ stellar-xdr
 tendermint-rpc
 re_query
 rustfmt
+wol-rs
