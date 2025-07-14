@@ -13,3 +13,4 @@ tendermint-rpc
 cargo-info
 argus-cli
 tmux-rs
+cargo-near
