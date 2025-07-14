@@ -2,3 +2,4 @@ stellar-xdr
 tendermint-rpc
 nextest
 argus-cli
+socketcan
