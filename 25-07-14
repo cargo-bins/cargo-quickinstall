@@ -3,3 +3,4 @@ stellar-xdr
 diesel_cli
 diesel_cli
 tendermint-rpc
+re_query
