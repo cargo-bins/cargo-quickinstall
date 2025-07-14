@@ -19,3 +19,4 @@ patch-crate
 cargo-near
 wol-rs
 cargo-embed
+solana-genesis
