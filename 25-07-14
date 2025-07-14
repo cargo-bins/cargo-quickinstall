@@ -2,3 +2,4 @@ stellar-xdr
 tendermint-rpc
 re_query
 nextest
+wol-rs
