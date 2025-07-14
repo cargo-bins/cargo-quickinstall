@@ -12,3 +12,4 @@ git-leave
 tendermint-rpc
 cargo-info
 argus-cli
+tmux-rs
