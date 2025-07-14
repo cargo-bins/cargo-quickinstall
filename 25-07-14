@@ -3,3 +3,4 @@ tendermint-rpc
 re_query
 nextest
 wol-rs
+uu_mktemp
