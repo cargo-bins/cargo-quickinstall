@@ -11,3 +11,4 @@ socketcan
 atomic-server
 arti
 wol-rs
+uu_mktemp
