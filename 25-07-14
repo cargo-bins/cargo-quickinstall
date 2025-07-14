@@ -43,3 +43,4 @@ graphql_client_cli
 ruff
 fend
 cavif
+wiki-tui
