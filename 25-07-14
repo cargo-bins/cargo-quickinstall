@@ -7,3 +7,4 @@ wol-rs
 uu_mktemp
 argus-cli
 wol-rs
+cargo-embed
