@@ -45,3 +45,4 @@ cargo-bundle
 wait-for-them
 bluetui
 patch-crate
+cargo-near
