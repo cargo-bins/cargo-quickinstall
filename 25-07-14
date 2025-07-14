@@ -19,3 +19,4 @@ cargo-spellcheck
 patch-crate
 rg
 wol-rs
+kanidm_tools
