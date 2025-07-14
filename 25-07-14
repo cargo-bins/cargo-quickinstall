@@ -5,3 +5,4 @@ dioxus-cli
 tendermint-rpc
 dioxus-cli
 re_query
+diesel_cli
