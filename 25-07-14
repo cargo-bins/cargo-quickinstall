@@ -10,3 +10,4 @@ kanidm_tools
 hurl
 git-leave
 tendermint-rpc
+cargo-info
