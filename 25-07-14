@@ -48,3 +48,4 @@ patch-crate
 cargo-near
 probe-rs-tools
 argus-cli
+cavif
