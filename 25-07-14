@@ -2,3 +2,4 @@ cargo-pgrx
 sea-orm-cli
 stellar-xdr
 dioxus-cli
+tendermint-rpc
