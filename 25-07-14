@@ -3,3 +3,4 @@ cargo-risczero
 atomic-server
 arti
 stellar-xdr
+tendermint-rpc
