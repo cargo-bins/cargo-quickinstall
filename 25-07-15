@@ -9,3 +9,4 @@ remove_dir_all
 sea-orm-cli
 cargo-spellcheck
 dioxus-cli
+minicbor
