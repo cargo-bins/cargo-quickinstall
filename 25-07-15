@@ -8,3 +8,4 @@ cargo-risczero
 pandora_box
 tokio-process
 parquet
+nexmark
