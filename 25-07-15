@@ -16,3 +16,4 @@ sea-orm-cli
 patch-crate
 cargo-spellcheck
 probe-rs-tools
+dioxus-cli
