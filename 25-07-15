@@ -18,3 +18,4 @@ dx-cli
 lux-cli
 solana-gossip
 cargo-pgrx
+nextest
