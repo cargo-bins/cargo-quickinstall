@@ -43,3 +43,4 @@ probe-run
 protox
 trusted-signing-cli
 cargo-flash
+wiremix
