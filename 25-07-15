@@ -54,3 +54,4 @@ commit-lsp
 cargo-embed
 gitx
 rtx-cli
+cargo-flash
