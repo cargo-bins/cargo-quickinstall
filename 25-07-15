@@ -20,3 +20,4 @@ dioxus-cli
 cargo-spellcheck
 dotenv-flow
 probe-rs-tools
+parquet
