@@ -10,3 +10,4 @@ cargo-spellcheck
 sea-orm-cli
 cargo-spellcheck
 patch-crate
+remove_dir_all
