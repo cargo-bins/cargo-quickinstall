@@ -8,3 +8,4 @@ nextest
 nu_plugin_query
 cargo-bundle
 ruff
+trusted-signing-cli
