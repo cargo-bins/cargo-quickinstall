@@ -4,3 +4,4 @@ cpp_demangle
 coldsnap
 minicbor
 solana-gossip
+cargo-risczero
