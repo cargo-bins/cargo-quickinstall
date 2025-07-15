@@ -3,3 +3,4 @@ coldsnap
 cpp_demangle
 minicbor
 sea-orm-cli
+parquet
