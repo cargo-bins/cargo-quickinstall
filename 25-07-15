@@ -34,3 +34,4 @@ probe-rs-cli
 lux-cli
 cargo-flash
 cargo-seek
+neovide
