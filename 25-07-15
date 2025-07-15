@@ -29,3 +29,4 @@ cargo-pgrx
 nextest
 wiremix
 parquet
+nexmark
