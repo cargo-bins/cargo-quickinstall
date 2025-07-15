@@ -21,3 +21,4 @@ cargo-embed
 cargo-pgrx
 ruff
 wiremix
+sea-orm-cli
