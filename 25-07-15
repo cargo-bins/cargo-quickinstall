@@ -9,3 +9,4 @@ dx-cli
 ncspot
 remove_dir_all
 cargo-flash
+nextest
