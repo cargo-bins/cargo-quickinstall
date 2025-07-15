@@ -10,3 +10,4 @@ ncspot
 remove_dir_all
 cargo-flash
 nextest
+cpp_demangle
