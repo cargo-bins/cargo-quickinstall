@@ -32,3 +32,4 @@ mdbook-linkcheck2
 cargo-flash
 probe-rs-cli
 lux-cli
+cargo-flash
