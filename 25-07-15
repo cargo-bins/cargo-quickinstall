@@ -5,3 +5,4 @@ cargo-spellcheck
 cargo-spellcheck
 patch-crate
 sea-orm-cli
+patch-crate
