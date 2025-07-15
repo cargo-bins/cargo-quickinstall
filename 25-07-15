@@ -11,3 +11,4 @@ ruff
 trusted-signing-cli
 xplr
 neovide
+minicbor
