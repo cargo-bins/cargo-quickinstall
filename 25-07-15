@@ -28,3 +28,4 @@ cargo-whatfeatures
 cargo-pgrx
 nextest
 wiremix
+parquet
