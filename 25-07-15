@@ -16,3 +16,4 @@ tree-sitter-cli
 ruff
 solana-gossip
 lux-cli
+hurl
