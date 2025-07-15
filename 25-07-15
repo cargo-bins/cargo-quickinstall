@@ -8,3 +8,4 @@ nu_plugin_query
 dx-cli
 ncspot
 remove_dir_all
+cargo-flash
