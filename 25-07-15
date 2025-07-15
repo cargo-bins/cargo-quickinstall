@@ -38,3 +38,4 @@ neovide
 cargo-seek
 patch-crate
 cargo-pgrx
+probe-rs-tools
