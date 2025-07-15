@@ -46,3 +46,4 @@ cargo-flash
 wiremix
 rtx-cli
 nextest
+dx-cli
