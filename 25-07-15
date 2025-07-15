@@ -43,3 +43,4 @@ gitx
 cargo-seek
 venator-app
 probe-rs-cli
+commit-lsp
