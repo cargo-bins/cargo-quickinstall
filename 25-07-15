@@ -25,3 +25,4 @@ sea-orm-cli
 ruff
 lux-cli
 cargo-whatfeatures
+cargo-pgrx
