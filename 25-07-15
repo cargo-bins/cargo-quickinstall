@@ -33,3 +33,4 @@ cargo-flash
 probe-rs-cli
 lux-cli
 cargo-flash
+cargo-seek
