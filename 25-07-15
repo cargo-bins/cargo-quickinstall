@@ -10,3 +10,4 @@ sea-orm-cli
 cargo-spellcheck
 dioxus-cli
 minicbor
+probe-rs-tools
