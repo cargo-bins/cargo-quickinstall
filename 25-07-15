@@ -45,3 +45,4 @@ venator-app
 probe-rs-cli
 commit-lsp
 cargo-seek
+probe-rs-cli
