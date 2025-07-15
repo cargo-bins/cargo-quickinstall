@@ -37,3 +37,4 @@ mdbook-linkcheck2
 cargo-embed
 simple-http-server
 dx-cli
+zuse
