@@ -20,3 +20,4 @@ solana-gossip
 cargo-pgrx
 nextest
 ncspot
+graphql_client_cli
