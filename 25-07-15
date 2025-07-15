@@ -12,3 +12,4 @@ cargo-spellcheck
 patch-crate
 remove_dir_all
 cargo-spellcheck
+cpp_demangle
