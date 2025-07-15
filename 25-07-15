@@ -22,3 +22,4 @@ nextest
 ncspot
 graphql_client_cli
 argus-cli
+probe-rs-cli
