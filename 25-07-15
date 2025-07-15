@@ -30,3 +30,4 @@ cargo-whatfeatures
 lux-cli
 mdbook-linkcheck2
 cargo-flash
+probe-rs-cli
