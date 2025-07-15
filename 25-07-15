@@ -34,3 +34,4 @@ cargo-seek
 argus-cli
 sea-orm-cli
 mdbook-linkcheck2
+cargo-embed
