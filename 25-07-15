@@ -3,3 +3,4 @@ unic-langid-impl
 sea-orm-cli
 cargo-spellcheck
 cargo-spellcheck
+patch-crate
