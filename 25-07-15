@@ -4,3 +4,4 @@ ffsend
 dx-cli
 cargo-pgrx
 cargo-bundle
+nextest
