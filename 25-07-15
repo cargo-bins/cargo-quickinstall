@@ -5,3 +5,4 @@ patch-crate
 cargo-spellcheck
 patch-crate
 cargo-spellcheck
+remove_dir_all
