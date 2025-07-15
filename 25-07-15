@@ -10,3 +10,4 @@ cargo-bundle
 ruff
 trusted-signing-cli
 xplr
+neovide
