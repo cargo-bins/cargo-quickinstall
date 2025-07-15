@@ -22,3 +22,4 @@ cargo-pgrx
 ruff
 wiremix
 sea-orm-cli
+ruff
