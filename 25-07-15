@@ -4,3 +4,4 @@ coldsnap
 cpp_demangle
 minicbor
 solana-gossip
+sea-orm-cli
