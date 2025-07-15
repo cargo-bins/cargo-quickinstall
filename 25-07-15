@@ -5,3 +5,4 @@ dx-cli
 cargo-pgrx
 cargo-bundle
 nextest
+nu_plugin_query
