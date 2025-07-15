@@ -27,3 +27,4 @@ lux-cli
 cargo-whatfeatures
 cargo-pgrx
 nextest
+wiremix
