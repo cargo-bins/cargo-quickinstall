@@ -12,3 +12,4 @@ cargo-flash
 nextest
 cpp_demangle
 minicbor
+neovide
