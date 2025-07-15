@@ -32,3 +32,4 @@ parquet
 nexmark
 cargo-seek
 argus-cli
+sea-orm-cli
