@@ -4,3 +4,4 @@ cpp_demangle
 minicbor
 sea-orm-cli
 parquet
+nexmark
