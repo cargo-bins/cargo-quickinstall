@@ -18,3 +18,4 @@ solana-gossip
 dotenv-flow
 parquet
 nexmark
+perfcnt
