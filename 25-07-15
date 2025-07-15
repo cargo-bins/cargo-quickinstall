@@ -51,3 +51,4 @@ bluetui
 calc_pi
 argus-cli
 commit-lsp
+cargo-embed
