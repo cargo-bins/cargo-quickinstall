@@ -15,3 +15,4 @@ cargo-spellcheck
 cpp_demangle
 minicbor
 solana-gossip
+dotenv-flow
