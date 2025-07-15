@@ -48,3 +48,4 @@ cargo-seek
 probe-rs-cli
 protox
 bluetui
+calc_pi
