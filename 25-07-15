@@ -30,3 +30,4 @@ nextest
 wiremix
 parquet
 nexmark
+cargo-seek
