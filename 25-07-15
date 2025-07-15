@@ -2,3 +2,4 @@ statime-linux
 remove_dir_all
 cpp_demangle
 coldsnap
+minicbor
