@@ -6,3 +6,4 @@ cargo-spellcheck
 patch-crate
 sea-orm-cli
 patch-crate
+cargo-spellcheck
