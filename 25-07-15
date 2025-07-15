@@ -17,3 +17,4 @@ ruff
 solana-gossip
 lux-cli
 hurl
+cargo-embed
