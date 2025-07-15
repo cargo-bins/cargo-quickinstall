@@ -33,3 +33,4 @@ nexmark
 cargo-seek
 argus-cli
 sea-orm-cli
+mdbook-linkcheck2
