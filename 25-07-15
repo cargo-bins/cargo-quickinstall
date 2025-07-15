@@ -18,3 +18,4 @@ cargo-spellcheck
 probe-rs-tools
 dioxus-cli
 cargo-spellcheck
+dotenv-flow
