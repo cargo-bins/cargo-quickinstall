@@ -18,3 +18,4 @@ solana-gossip
 lux-cli
 hurl
 cargo-embed
+cargo-pgrx
