@@ -7,3 +7,4 @@ patch-crate
 cargo-spellcheck
 remove_dir_all
 sea-orm-cli
+cargo-spellcheck
