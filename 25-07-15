@@ -1,3 +1,4 @@
 remove_dir_all
 coldsnap
 cpp_demangle
+minicbor
