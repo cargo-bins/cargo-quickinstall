@@ -21,3 +21,4 @@ cargo-spellcheck
 dotenv-flow
 probe-rs-tools
 parquet
+nexmark
