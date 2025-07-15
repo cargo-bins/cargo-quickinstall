@@ -11,3 +11,4 @@ parquet
 nexmark
 diesel_cli
 protox
+rustfmt
