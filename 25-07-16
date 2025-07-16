@@ -24,3 +24,4 @@ ruff
 tendermint-rpc
 cargo-count
 racer
+https
