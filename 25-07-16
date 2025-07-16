@@ -7,3 +7,4 @@ rustfmt-nightly
 bluetui
 kickoff
 nu_plugin_query
+trusted-signing-cli
