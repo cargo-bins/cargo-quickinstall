@@ -18,3 +18,4 @@ lux-cli
 cargo-generate
 tendermint-rpc
 cargo-generate
+cargo-leptos
