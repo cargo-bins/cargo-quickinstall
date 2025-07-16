@@ -17,3 +17,4 @@ uv
 ducc-sys
 nextest
 tod
+probe-rs-cli
