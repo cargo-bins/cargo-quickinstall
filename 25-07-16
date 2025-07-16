@@ -5,3 +5,4 @@ solana-gossip
 dioxus-cli
 wmi
 puffin_viewer
+probe-run
