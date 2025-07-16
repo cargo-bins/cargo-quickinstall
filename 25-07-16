@@ -9,3 +9,4 @@ kickoff
 nu_plugin_query
 trusted-signing-cli
 cargo-whatfeatures
+cargo-seek
