@@ -14,3 +14,4 @@ tree-sitter-graph
 sn_node_rpc_client
 iai-callgrind-runner
 httpbis
+arrow-flight
