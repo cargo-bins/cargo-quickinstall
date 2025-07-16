@@ -28,3 +28,4 @@ mdbook-linkcheck2
 clap-stdin
 cargo-flash
 puffin_viewer
+cargo-embed
