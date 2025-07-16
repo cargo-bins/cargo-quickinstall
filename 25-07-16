@@ -5,3 +5,4 @@ binstall
 rustfmt-nightly
 cmus-notify
 ncspot
+clippy
