@@ -20,3 +20,4 @@ cargo-spellcheck
 cargo-dylint
 cargo-whatfeatures
 puffin_viewer
+leetcode-cli
