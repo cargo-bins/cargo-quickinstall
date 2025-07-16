@@ -3,3 +3,4 @@ wmi
 pgrx-tests
 rustfmt-nightly
 ducc-sys
+cargo-spellcheck
