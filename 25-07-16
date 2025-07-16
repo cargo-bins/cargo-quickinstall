@@ -19,3 +19,4 @@ probe-rs-cli
 cargo-spellcheck
 cargo-dylint
 cargo-whatfeatures
+puffin_viewer
