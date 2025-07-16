@@ -32,3 +32,4 @@ commit-lsp
 tree-sitter-cli
 binstall
 tendermint-rpc
+cargo-dylint
