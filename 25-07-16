@@ -24,3 +24,4 @@ cargo-embed
 cargo-flash
 gitx
 cargo-embed
+graphql_client_cli
