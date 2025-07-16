@@ -30,3 +30,4 @@ cargo-flash
 puffin_viewer
 cargo-embed
 racer
+mdbook-linkcheck2
