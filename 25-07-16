@@ -4,3 +4,4 @@ pgrx-tests
 binstall
 rustfmt-nightly
 cmus-notify
+ncspot
