@@ -31,3 +31,4 @@ cmus-notify
 tree-sitter-graph
 https
 cargo-count
+arrow-flight
