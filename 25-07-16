@@ -29,3 +29,4 @@ cargo-spellcheck
 tod
 bluetui
 commit-lsp
+tree-sitter-cli
