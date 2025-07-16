@@ -2,3 +2,4 @@ solana-gossip
 cargo-leptos
 pgrx-tests
 sqlx-cli
+ducc-sys
