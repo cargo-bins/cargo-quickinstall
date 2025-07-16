@@ -22,3 +22,4 @@ tori
 clippy
 ruff
 tendermint-rpc
+cargo-count
