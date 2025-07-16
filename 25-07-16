@@ -2,3 +2,4 @@ wmi
 cmus-notify
 pgrx-tests
 binstall
+rustfmt-nightly
