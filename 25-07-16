@@ -9,3 +9,4 @@ probe-run
 nextest
 rustfmt-nightly
 graphql_client_cli
+mdbook-linkcheck2
