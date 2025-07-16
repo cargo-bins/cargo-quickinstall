@@ -6,3 +6,4 @@ redoxer
 rustfmt-nightly
 bluetui
 kickoff
+nu_plugin_query
