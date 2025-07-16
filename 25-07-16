@@ -19,3 +19,4 @@ nextest
 tod
 probe-rs-cli
 tmux-rs
+cargo-whatfeatures
