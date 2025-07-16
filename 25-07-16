@@ -21,3 +21,4 @@ probe-rs-cli
 tmux-rs
 cargo-whatfeatures
 cargo-embed
+cargo-flash
