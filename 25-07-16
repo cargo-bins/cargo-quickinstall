@@ -27,3 +27,4 @@ lwa_simple_server
 cavif
 cargo-leptos
 tree-sitter-graph
+lux-cli
