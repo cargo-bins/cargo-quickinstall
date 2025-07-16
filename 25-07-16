@@ -7,3 +7,4 @@ rustfmt-nightly
 dioxus-cli
 npwg
 npwg
+ducc-sys
