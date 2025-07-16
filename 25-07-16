@@ -18,3 +18,4 @@ ducc-sys
 nextest
 tod
 probe-rs-cli
+tmux-rs
