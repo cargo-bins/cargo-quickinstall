@@ -16,3 +16,4 @@ cmus-notify
 binstall
 https
 ruff
+lux-cli
