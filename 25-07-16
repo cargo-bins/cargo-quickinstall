@@ -18,3 +18,4 @@ binstall
 ruff
 ruff
 cmus-notify
+tendermint-rpc
