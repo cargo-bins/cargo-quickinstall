@@ -36,3 +36,4 @@ cargo-dylint
 xplr
 binstall
 clap-stdin
+sshx
