@@ -39,3 +39,4 @@ cargo-generate
 lux-cli
 quiren
 cavif
+iai-callgrind-runner
