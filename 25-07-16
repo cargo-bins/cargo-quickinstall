@@ -29,3 +29,4 @@ clap-stdin
 cargo-flash
 puffin_viewer
 cargo-embed
+racer
