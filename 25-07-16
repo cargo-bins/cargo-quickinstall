@@ -5,3 +5,4 @@ rustfmt-nightly
 tplay
 ducc-sys
 diesel_cli
+tplay
