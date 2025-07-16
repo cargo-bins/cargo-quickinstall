@@ -22,3 +22,4 @@ cargo-whatfeatures
 puffin_viewer
 leetcode-cli
 binstall
+tendermint-rpc
