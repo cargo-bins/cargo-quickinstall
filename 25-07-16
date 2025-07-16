@@ -16,3 +16,4 @@ coldsnap
 organic
 lux-cli
 cargo-generate
+tendermint-rpc
