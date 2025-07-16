@@ -25,3 +25,4 @@ binstall
 tendermint-rpc
 cargo-ktra-login
 mdbook-linkcheck2
+clap-stdin
