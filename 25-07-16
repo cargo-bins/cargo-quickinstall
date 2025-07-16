@@ -35,3 +35,4 @@ tendermint-rpc
 cargo-dylint
 xplr
 binstall
+clap-stdin
