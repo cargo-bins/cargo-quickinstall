@@ -34,3 +34,4 @@ binstall
 tendermint-rpc
 cargo-dylint
 xplr
+binstall
