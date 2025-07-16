@@ -1,3 +1,4 @@
 solana-gossip
 wmi
 rustfmt-nightly
+ducc-sys
