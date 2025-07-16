@@ -31,3 +31,4 @@ bluetui
 commit-lsp
 tree-sitter-cli
 binstall
+tendermint-rpc
