@@ -27,3 +27,4 @@ cargo-embed
 graphql_client_cli
 cargo-spellcheck
 tod
+bluetui
