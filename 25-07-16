@@ -3,3 +3,4 @@ solana-gossip
 bluetui
 wmi
 redoxer
+rustfmt-nightly
