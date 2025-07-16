@@ -23,3 +23,4 @@ clippy
 ruff
 tendermint-rpc
 cargo-count
+racer
