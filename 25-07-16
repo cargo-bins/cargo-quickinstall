@@ -12,3 +12,4 @@ graphql_client_cli
 mdbook-linkcheck2
 neovide
 redoxer
+nextest
