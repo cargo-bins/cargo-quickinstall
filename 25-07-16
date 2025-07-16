@@ -24,3 +24,4 @@ ruff
 https
 racer
 xray-tui
+tree-sitter-graph
