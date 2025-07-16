@@ -43,3 +43,4 @@ speedtest-rs
 redoxer
 tree-sitter-graph
 uv
+cargo-spellcheck
