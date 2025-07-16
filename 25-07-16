@@ -17,3 +17,4 @@ simple-http-server
 speedtest-rs
 probe-rs-cli
 cargo-spellcheck
+cargo-dylint
