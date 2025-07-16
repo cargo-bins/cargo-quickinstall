@@ -7,3 +7,4 @@ coldsnap
 tendermint-rpc
 racer
 tree-sitter-graph
+sea-orm-cli
