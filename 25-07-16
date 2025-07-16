@@ -46,3 +46,4 @@ uv
 cargo-spellcheck
 graphql_client_cli
 dioxus-cli
+tracexec
