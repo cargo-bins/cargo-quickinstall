@@ -48,3 +48,4 @@ graphql_client_cli
 dioxus-cli
 tracexec
 bkmr
+patch-crate
