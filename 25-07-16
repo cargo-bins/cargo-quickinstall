@@ -8,3 +8,4 @@ puffin_viewer
 probe-run
 nextest
 rustfmt-nightly
+graphql_client_cli
