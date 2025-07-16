@@ -3,3 +3,4 @@ cargo-leptos
 organic
 rustfmt-nightly
 tplay
+ducc-sys
