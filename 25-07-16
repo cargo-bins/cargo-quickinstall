@@ -7,3 +7,4 @@ wmi
 puffin_viewer
 probe-run
 nextest
+rustfmt-nightly
