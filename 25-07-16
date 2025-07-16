@@ -3,3 +3,4 @@ wmi
 rustfmt-nightly
 ducc-sys
 cargo-spellcheck
+coldsnap
