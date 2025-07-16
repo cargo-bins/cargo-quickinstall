@@ -4,3 +4,4 @@ rustfmt-nightly
 ducc-sys
 racer
 tendermint-rpc
+racer
