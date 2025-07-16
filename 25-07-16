@@ -16,3 +16,4 @@ puffin_viewer
 simple-http-server
 speedtest-rs
 probe-rs-cli
+cargo-spellcheck
