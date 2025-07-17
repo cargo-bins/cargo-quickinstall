@@ -6,3 +6,4 @@ uv
 bluer-tools
 dotenv-flow
 binstall
+probe-run
