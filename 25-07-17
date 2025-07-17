@@ -6,3 +6,4 @@ cargo-whatfeatures
 mdbook-linkcheck2
 trusted-signing-cli
 python-project-generator
+dotenv-flow
