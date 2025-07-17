@@ -9,3 +9,4 @@ rustrict
 cargo-lock
 stgit
 solana-faucet
+mdbook-linkcheck2
