@@ -10,3 +10,4 @@ rustrict
 holochain
 cargo-lock
 rmesg
+borsh
