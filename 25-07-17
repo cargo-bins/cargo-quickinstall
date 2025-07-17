@@ -30,3 +30,4 @@ patch-crate
 bmputil
 sprocket
 cargo-depsize
+sshx
