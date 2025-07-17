@@ -12,3 +12,4 @@ cargo-embed
 cargo-seek
 tectonic
 gitlab-ci-ls
+probe-rs-tools
