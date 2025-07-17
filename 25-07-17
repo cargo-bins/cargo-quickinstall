@@ -10,3 +10,4 @@ probe-run
 binstall
 sshx
 graphql_client_cli
+mdbook-linkcheck2
