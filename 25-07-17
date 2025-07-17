@@ -7,3 +7,4 @@ git-disjoint
 cached-path
 laminar
 rustrict
+cargo-lock
