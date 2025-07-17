@@ -35,3 +35,4 @@ cargo-depsize
 soroban-cli
 ncopds
 ui-cli
+gitlab-ci-ls
