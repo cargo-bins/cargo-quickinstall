@@ -8,3 +8,4 @@ git-disjoint
 cached-path
 rustrict
 holochain
+cargo-lock
