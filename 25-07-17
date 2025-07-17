@@ -10,3 +10,4 @@ rustrict
 cargo-lock
 solana-faucet
 borsh
+z3tracer
