@@ -7,3 +7,4 @@ cached-path
 rustrict
 cargo-lock
 mdbook-linkcheck2
+solana-faucet
