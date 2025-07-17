@@ -9,3 +9,4 @@ laminar
 rustrict
 cargo-lock
 solana-faucet
+borsh
