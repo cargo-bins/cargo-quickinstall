@@ -16,3 +16,4 @@ probe-rs-tools
 cargo-dylint
 rrule
 git-disjoint
+cargo-ktra-login
