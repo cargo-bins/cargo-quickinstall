@@ -11,3 +11,4 @@ holochain
 cargo-lock
 rmesg
 borsh
+cargo-local-registry
