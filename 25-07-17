@@ -26,3 +26,4 @@ cargo-lock
 hurl
 sccache
 dioxus-cli
+patch-crate
