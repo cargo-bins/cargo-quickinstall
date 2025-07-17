@@ -16,3 +16,4 @@ cargo-lock
 csv2xls
 youtube-tui
 nail-parquet
+xray-tui
