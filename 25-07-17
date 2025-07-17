@@ -12,3 +12,4 @@ cargo-lock
 rmesg
 borsh
 cargo-local-registry
+z3tracer
