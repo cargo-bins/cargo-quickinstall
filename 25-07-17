@@ -25,3 +25,4 @@ euler-rs
 cargo-lock
 hurl
 sccache
+dioxus-cli
