@@ -7,3 +7,4 @@ rustrict
 cargo-lock
 protox
 solana-faucet
+borsh
