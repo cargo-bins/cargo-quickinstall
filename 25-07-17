@@ -17,3 +17,4 @@ cargo-dylint
 rrule
 git-disjoint
 cargo-ktra-login
+python-project-generator
