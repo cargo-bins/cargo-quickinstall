@@ -42,3 +42,4 @@ nextest
 qt
 bun
 dua-cli
+cargo-local-registry
