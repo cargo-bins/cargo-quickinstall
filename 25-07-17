@@ -43,3 +43,4 @@ qt
 bun
 dua-cli
 cargo-local-registry
+cargo-supply-chain
