@@ -22,3 +22,4 @@ cargo-embed
 cargo-lock
 python-project-generator
 sshx
+tree-sitter-cli
