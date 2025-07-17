@@ -4,3 +4,4 @@ tuftool
 rrule
 cached-path
 rustrict
+cargo-lock
