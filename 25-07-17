@@ -27,3 +27,4 @@ hurl
 sccache
 dioxus-cli
 patch-crate
+bmputil
