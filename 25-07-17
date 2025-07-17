@@ -6,3 +6,4 @@ laminar
 cached-path
 rustrict
 cargo-lock
+mdbook-linkcheck2
