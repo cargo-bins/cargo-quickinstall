@@ -24,3 +24,4 @@ cargo-public-api
 euler-rs
 cargo-lock
 hurl
+sccache
