@@ -29,3 +29,4 @@ dioxus-cli
 patch-crate
 bmputil
 sprocket
+cargo-depsize
