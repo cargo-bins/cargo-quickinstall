@@ -15,3 +15,4 @@ gitlab-ci-ls
 probe-rs-tools
 cargo-dylint
 rrule
+git-disjoint
