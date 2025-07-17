@@ -13,3 +13,4 @@ cargo-seek
 tectonic
 gitlab-ci-ls
 probe-rs-tools
+cargo-dylint
