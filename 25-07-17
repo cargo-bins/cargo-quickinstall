@@ -6,3 +6,4 @@ fritzdecode
 nextest
 pandora_box
 gitui
+cargo-local-registry
