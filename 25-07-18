@@ -2,3 +2,4 @@ euler-rs
 cargo-depsize
 cargo-public-api
 sshx
+cargo-duplicates
