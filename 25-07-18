@@ -27,3 +27,4 @@ cargo-bundle
 cargo-bundle
 hurl
 cargo-spellcheck
+tree-sitter-cli
