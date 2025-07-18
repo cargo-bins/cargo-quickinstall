@@ -28,3 +28,4 @@ cargo-bundle
 hurl
 cargo-spellcheck
 tree-sitter-cli
+remove_dir_all
