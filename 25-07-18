@@ -6,3 +6,4 @@ remove_dir_all
 solana-stake-accounts
 z3tracer
 cargo-mobile2
+cached-path
