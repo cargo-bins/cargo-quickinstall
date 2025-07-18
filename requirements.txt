@@ -14,7 +14,7 @@ numpy==2.3.1
     # via pyarrow
 polars==1.31.0
     # via cronjob-scripts (pyproject.toml)
-pyarrow==20.0.0
+pyarrow==21.0.0
     # via influxdb3-python
 python-dateutil==2.9.0.post0
     # via influxdb3-python
