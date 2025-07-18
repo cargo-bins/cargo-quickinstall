@@ -9,3 +9,4 @@ mdbook-linkcheck2
 stgit
 uu_whoami
 minicbor
+remove_dir_all
