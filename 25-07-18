@@ -4,3 +4,4 @@ dua-cli
 cargo-supply-chain
 spider_cli
 nextest
+sqlx-cli
