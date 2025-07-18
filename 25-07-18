@@ -2,3 +2,4 @@ cargo-whatfeatures
 euler-rs
 nail-parquet
 refman
+sea-orm-cli
