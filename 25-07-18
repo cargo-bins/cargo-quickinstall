@@ -6,3 +6,4 @@ uu_whoami
 cargo-extras
 remove_dir_all
 z3tracer
+solana-verify
