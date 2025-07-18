@@ -42,3 +42,4 @@ cargo-flutter
 xplr
 rua
 papyrus
+cargo-bisect-rustc
