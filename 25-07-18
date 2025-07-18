@@ -11,3 +11,4 @@ cargo-bundle
 rua
 tree-sitter-cli
 cargo-flash
+solana-cli
