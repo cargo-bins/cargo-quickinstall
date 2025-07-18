@@ -15,3 +15,4 @@ cargo-supply-chain
 mdbook-typst-pdf
 z3tracer
 exa
+sqlx-cli
