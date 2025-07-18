@@ -1,2 +1,3 @@
 euler-rs
 cargo-depsize
+cargo-public-api
