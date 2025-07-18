@@ -52,3 +52,4 @@ cargo-public-api
 offflix
 cargo-info
 cargo-bisect-rustc
+nkeys
