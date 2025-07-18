@@ -20,3 +20,4 @@ cargo-bundle
 mise
 sshx
 stellar-cli
+remove_dir_all
