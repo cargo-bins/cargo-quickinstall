@@ -37,3 +37,4 @@ c2rust
 sea-orm-cli
 papyrus
 melatonin
+cached-path
