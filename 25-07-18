@@ -27,3 +27,4 @@ spider_worker
 mdbook-typst-pdf
 qsv
 rustrict
+cargo-show
