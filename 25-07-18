@@ -53,3 +53,4 @@ offflix
 cargo-info
 cargo-bisect-rustc
 nkeys
+crates-tui
