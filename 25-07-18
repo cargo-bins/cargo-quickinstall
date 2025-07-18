@@ -7,3 +7,4 @@ nextest
 sqlx-cli
 uu_whoami
 minicbor
+qt
