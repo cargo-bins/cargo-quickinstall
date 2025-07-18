@@ -30,3 +30,4 @@ cargo-spellcheck
 tree-sitter-cli
 remove_dir_all
 sshx
+solana-stake-accounts
