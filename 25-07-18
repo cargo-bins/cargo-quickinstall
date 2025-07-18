@@ -11,3 +11,4 @@ qt
 remove_dir_all
 cargo-show
 rustbus
+cargo-supply-chain
