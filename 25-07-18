@@ -10,3 +10,4 @@ uv
 cargo-bundle
 rua
 tree-sitter-cli
+cargo-flash
