@@ -4,3 +4,4 @@ cargo-extras
 c2rust
 uu_whoami
 cargo-extras
+remove_dir_all
