@@ -5,3 +5,4 @@ cargo-supply-chain
 spider_cli
 nextest
 sqlx-cli
+uu_whoami
