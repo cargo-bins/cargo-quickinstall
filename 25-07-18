@@ -6,3 +6,4 @@ remove_dir_all
 squawk
 z3tracer
 cached-path
+qsv
