@@ -19,3 +19,4 @@ sqlx-cli
 mit-pre-commit
 mdbook-typst-pdf
 cached-path
+exa
