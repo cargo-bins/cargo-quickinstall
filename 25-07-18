@@ -9,3 +9,4 @@ hurl
 uv
 cargo-bundle
 rua
+tree-sitter-cli
