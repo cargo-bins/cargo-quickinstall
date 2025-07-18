@@ -54,3 +54,4 @@ cargo-info
 cargo-bisect-rustc
 nkeys
 crates-tui
+just-lsp
