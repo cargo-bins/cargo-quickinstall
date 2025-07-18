@@ -6,3 +6,4 @@ spider_cli
 nextest
 sqlx-cli
 uu_whoami
+minicbor
