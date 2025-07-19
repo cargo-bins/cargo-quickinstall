@@ -16,3 +16,4 @@ cargo-bisect-rustc
 fetchchromium
 cargo-lock
 redoxer
+uv
