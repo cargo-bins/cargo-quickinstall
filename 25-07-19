@@ -27,3 +27,4 @@ just-lsp
 wl-screenrec
 phf_generator
 winpty-rs
+cargo-pgrx
