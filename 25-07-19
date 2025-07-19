@@ -18,3 +18,4 @@ cargo-bisect-rustc
 mise
 dx-cli
 sea-orm-cli
+uu_mv
