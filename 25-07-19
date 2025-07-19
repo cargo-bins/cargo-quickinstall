@@ -15,3 +15,4 @@ tree-sitter-cli
 uv
 process_viewer
 cargo-bisect-rustc
+mise
