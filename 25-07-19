@@ -11,3 +11,4 @@ legba
 cargo-lock
 httpmock
 uu_mv
+phf_generator
