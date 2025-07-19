@@ -33,3 +33,4 @@ rmesg
 uupdump
 rmesg
 minicbor
+perfcnt
