@@ -4,3 +4,4 @@ binstall
 tendermint-rpc
 binstall
 cargo-lock
+xplr
