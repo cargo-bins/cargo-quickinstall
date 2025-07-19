@@ -24,3 +24,4 @@ cargo-fixit
 stellar-cli
 dx-cli
 just-lsp
+wl-screenrec
