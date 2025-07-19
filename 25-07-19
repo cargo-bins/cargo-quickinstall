@@ -11,3 +11,4 @@ httpbis
 uu_mv
 text-diff
 phf_generator
+winpty-rs
