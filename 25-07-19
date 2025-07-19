@@ -8,3 +8,4 @@ rustfmt-nightly
 lux-cli
 lux-cli
 rustfmt-nightly
+cargo-lock
