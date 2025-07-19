@@ -12,3 +12,4 @@ xplr
 agave-install
 cargo-lock
 tree-sitter-cli
+uv
