@@ -17,3 +17,4 @@ kani-verifier
 rmesg
 wild-linker
 httpmock
+cargo-supply-chain
