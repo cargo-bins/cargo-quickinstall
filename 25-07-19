@@ -6,3 +6,4 @@ clap-stdin
 cargo-lock
 kani-verifier
 rmesg
+httpmock
