@@ -3,3 +3,4 @@ tree-sitter-graph
 binstall
 tendermint-rpc
 binstall
+cargo-lock
