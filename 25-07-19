@@ -5,3 +5,4 @@ sudo-rs
 mise
 fetchchromium
 tree-sitter-graph
+cargo-public-api
