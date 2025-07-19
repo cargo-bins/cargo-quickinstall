@@ -29,3 +29,4 @@ phf_generator
 winpty-rs
 cargo-pgrx
 fetchchromium
+sniffnet
