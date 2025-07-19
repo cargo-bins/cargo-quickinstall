@@ -16,3 +16,4 @@ uv
 process_viewer
 cargo-bisect-rustc
 mise
+dx-cli
