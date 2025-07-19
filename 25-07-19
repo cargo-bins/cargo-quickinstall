@@ -8,3 +8,4 @@ phf_generator
 winpty-rs
 commit_verify
 snarkvm
+perfcnt
