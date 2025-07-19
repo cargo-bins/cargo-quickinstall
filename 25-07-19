@@ -10,3 +10,4 @@ httpmock
 httpbis
 uu_mv
 text-diff
+phf_generator
