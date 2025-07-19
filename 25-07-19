@@ -11,3 +11,4 @@ rustfmt-nightly
 cargo-lock
 rustfmt-nightly
 rustfmt-nightly
+httpmock
