@@ -12,3 +12,4 @@ arduino-report-size-deltas
 wild-linker
 arduino-report-size-deltas
 cargo-supply-chain
+cargo-lock
