@@ -14,3 +14,4 @@ arduino-report-size-deltas
 cargo-supply-chain
 cargo-lock
 kani-verifier
+rmesg
