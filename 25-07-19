@@ -13,3 +13,4 @@ agave-install
 cargo-lock
 tree-sitter-cli
 uv
+process_viewer
