@@ -16,3 +16,4 @@ cargo-lock
 kani-verifier
 rmesg
 wild-linker
+httpmock
