@@ -8,3 +8,4 @@ cargo-lock
 lux-cli
 lux-cli
 lux-cli
+httpmock
