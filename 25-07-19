@@ -4,3 +4,4 @@ tendermint-rpc
 cargo-lock
 httpmock
 uu_mv
+phf_generator
