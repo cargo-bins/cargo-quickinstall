@@ -5,3 +5,4 @@ tendermint-rpc
 binstall
 cargo-lock
 xplr
+httpmock
