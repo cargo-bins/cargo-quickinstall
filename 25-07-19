@@ -30,3 +30,4 @@ phf_generator
 wl-screenrec
 agave-install
 just-lsp
+winpty-rs
