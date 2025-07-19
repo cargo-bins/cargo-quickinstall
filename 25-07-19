@@ -4,3 +4,4 @@ tree-sitter-graph
 tendermint-rpc
 clap-stdin
 cargo-lock
+kani-verifier
