@@ -10,3 +10,4 @@ tendermint-rpc
 cargo-show
 arduino-report-size-deltas
 wild-linker
+arduino-report-size-deltas
