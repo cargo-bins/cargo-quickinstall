@@ -17,3 +17,4 @@ fetchchromium
 cargo-lock
 redoxer
 uv
+cargo-info
