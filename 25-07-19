@@ -12,3 +12,4 @@ cargo-lock
 rustfmt-nightly
 rustfmt-nightly
 httpmock
+uu_mv
