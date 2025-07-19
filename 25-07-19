@@ -39,3 +39,4 @@ glimpse
 cargo-pgrx
 graphql_client_cli
 cargo-fixit
+lux-cli
