@@ -3,3 +3,4 @@ schemafy
 tree-sitter-graph
 tendermint-rpc
 clap-stdin
+cargo-lock
