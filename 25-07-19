@@ -33,3 +33,4 @@ just-lsp
 winpty-rs
 commit_verify
 lux-cli
+crates-tui
