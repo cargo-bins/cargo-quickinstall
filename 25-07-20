@@ -12,3 +12,4 @@ uu_mkdir
 uupdump
 clap-stdin
 uupdump
+dotenv
