@@ -6,3 +6,4 @@ arch-repro-status
 winpty-rs
 rfm-bin
 nkeys
+borderless-window
