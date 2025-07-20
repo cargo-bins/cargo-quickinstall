@@ -6,3 +6,4 @@ winpty-rs
 nkeys
 patch-crate
 deno
+nextest
