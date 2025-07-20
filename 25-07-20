@@ -15,3 +15,4 @@ uu_mkdir
 cargo-spellcheck
 deno
 clap-stdin
+just-lsp
