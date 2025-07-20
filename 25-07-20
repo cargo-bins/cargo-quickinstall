@@ -29,3 +29,4 @@ zuse
 patch-crate
 just-lsp
 hayagriva
+clippy
