@@ -2,3 +2,4 @@ wmi
 lua-astra
 winpty-rs
 nkeys
+nextest-filtering
