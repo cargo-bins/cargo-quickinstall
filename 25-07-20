@@ -19,3 +19,4 @@ just-lsp
 cargo-spellcheck
 sea-orm-cli
 dotenv
+redoxer
