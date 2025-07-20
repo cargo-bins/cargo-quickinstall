@@ -7,3 +7,4 @@ uu_mkdir
 qsv
 clap-stdin
 dotenv
+solana-faucet
