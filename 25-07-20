@@ -7,3 +7,4 @@ nkeys
 patch-crate
 deno
 nextest
+lux-cli
