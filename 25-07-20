@@ -8,3 +8,4 @@ qsv
 clap-stdin
 dotenv
 solana-faucet
+git-disjoint
