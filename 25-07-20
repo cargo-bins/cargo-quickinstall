@@ -10,3 +10,4 @@ nextest
 lux-cli
 hayagriva
 deno
+nextest-filtering
