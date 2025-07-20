@@ -5,3 +5,4 @@ sn_faucet
 nextest-filtering
 uu_mkdir
 clap-stdin
+dotenv
