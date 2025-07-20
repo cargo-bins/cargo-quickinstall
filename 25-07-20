@@ -5,3 +5,4 @@ tuftool
 nextest-filtering
 uu_mkdir
 qsv
+clap-stdin
