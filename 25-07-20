@@ -16,3 +16,4 @@ kdotool
 cargo-pgrx
 nextest-filtering
 sea-orm-cli
+pluginlab
