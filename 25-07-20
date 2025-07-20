@@ -4,3 +4,4 @@ wmi
 fclones-gui
 arch-repro-status
 winpty-rs
+rfm-bin
