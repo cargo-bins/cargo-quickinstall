@@ -14,3 +14,4 @@ coma
 sea-orm-cli
 kdotool
 cargo-pgrx
+nextest-filtering
