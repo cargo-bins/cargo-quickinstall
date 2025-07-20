@@ -54,3 +54,4 @@ clippy
 ffsend
 patch-crate
 venator-app
+cargo-dylint
