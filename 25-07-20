@@ -18,3 +18,4 @@ clap-stdin
 just-lsp
 cargo-spellcheck
 sea-orm-cli
+dotenv
