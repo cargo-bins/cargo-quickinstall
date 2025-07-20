@@ -10,3 +10,4 @@ nextest-filtering
 ragrep
 uu_mkdir
 uupdump
+clap-stdin
