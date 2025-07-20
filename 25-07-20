@@ -6,3 +6,4 @@ nextest-filtering
 uu_mkdir
 lua-astra
 clap-stdin
+clippy
