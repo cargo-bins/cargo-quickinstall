@@ -13,3 +13,4 @@ clap-stdin
 pyrefly
 dotenv
 uv
+shadowsocks-rust
