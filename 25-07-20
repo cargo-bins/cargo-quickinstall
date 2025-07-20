@@ -12,3 +12,4 @@ qsv
 clap-stdin
 pyrefly
 dotenv
+uv
