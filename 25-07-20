@@ -4,3 +4,4 @@ uv
 wmi
 winpty-rs
 nkeys
+patch-crate
