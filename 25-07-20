@@ -9,3 +9,4 @@ nextest-filtering
 shadowsocks-rust
 uu_mkdir
 qsv
+clap-stdin
