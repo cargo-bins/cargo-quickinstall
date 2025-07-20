@@ -19,3 +19,4 @@ sea-orm-cli
 pluginlab
 uu_mkdir
 tgt
+clap-stdin
