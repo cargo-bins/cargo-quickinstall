@@ -12,3 +12,4 @@ uu_mkdir
 clap-stdin
 dotenv
 zuse
+crates-tui
