@@ -27,3 +27,4 @@ cargo-list
 kdotool
 zuse
 patch-crate
+just-lsp
