@@ -12,3 +12,4 @@ dioxus-cli
 uu_mkdir
 clap-stdin
 dotenv
+crates-tui
