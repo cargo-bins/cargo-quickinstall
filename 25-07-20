@@ -11,3 +11,4 @@ uu_mkdir
 qsv
 clap-stdin
 pyrefly
+dotenv
