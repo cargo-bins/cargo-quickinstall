@@ -5,3 +5,4 @@ nextest-filtering
 uu_mkdir
 clap-stdin
 dotenv
+zuse
