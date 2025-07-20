@@ -14,3 +14,4 @@ clap-stdin
 dotenv
 crates-tui
 diesel_cli
+crates-tui
