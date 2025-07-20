@@ -16,3 +16,4 @@ cargo-spellcheck
 deno
 clap-stdin
 just-lsp
+cargo-spellcheck
