@@ -9,3 +9,4 @@ clap-stdin
 dotenv
 solana-faucet
 git-disjoint
+uu_mkdir
