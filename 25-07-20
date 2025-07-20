@@ -10,3 +10,4 @@ borderless-window
 nextest-filtering
 dioxus-cli
 uu_mkdir
+clap-stdin
