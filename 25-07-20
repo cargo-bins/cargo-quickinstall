@@ -7,3 +7,4 @@ uu_mkdir
 lua-astra
 clap-stdin
 clippy
+shadowsocks-rust
