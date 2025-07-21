@@ -52,3 +52,4 @@ openring
 cargo-lock
 blindfold
 openring
+foundationdb-gen
