@@ -13,3 +13,4 @@ cargo-bundle
 cargo-tag
 cargo-proc-debug
 pgrx-tests
+cargo-git
