@@ -26,3 +26,4 @@ ruff
 librespot
 openring
 pgrx-tests
+cargo-duplicates
