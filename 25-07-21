@@ -31,3 +31,4 @@ cargo-smart-release
 cargo-list
 patch-crate
 oci2git
+pgrx-tests
