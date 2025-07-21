@@ -49,3 +49,4 @@ oci2git
 metaboss
 hex-patch
 openring
+cargo-lock
