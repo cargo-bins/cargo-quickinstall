@@ -9,3 +9,4 @@ clippy
 textplots
 cargo-spellcheck
 cargo-info
+hex-patch
