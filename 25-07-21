@@ -16,3 +16,4 @@ probe-rs-tools
 ducc-sys
 papyrus_storage
 cargo-lock
+httpmock
