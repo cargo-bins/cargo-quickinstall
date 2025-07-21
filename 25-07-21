@@ -46,3 +46,4 @@ core-utils
 uv
 cargo-lock
 httpmock
+alacritty
