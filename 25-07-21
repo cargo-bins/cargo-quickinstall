@@ -6,3 +6,4 @@ pgrx-tests
 uu_mkdir
 ducc-sys
 cargo-msrv
+papyrus_storage
