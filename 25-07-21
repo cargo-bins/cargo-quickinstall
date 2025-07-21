@@ -13,3 +13,4 @@ rmesg
 papyrus_storage
 benfred-read-process-memory
 cargo-lock
+httpmock
