@@ -31,3 +31,4 @@ uu_mkdir
 cargo-info
 openring
 ducc-sys
+cargo-smart-release
