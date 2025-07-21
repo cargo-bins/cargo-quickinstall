@@ -9,3 +9,4 @@ cargo-bundle
 cargo-tag
 cargo-proc-debug
 cargo-git
+cargo-bundle
