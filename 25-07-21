@@ -19,3 +19,4 @@ uu_mkdir
 cargo-git
 ducc-sys
 cargo-proc-debug
+cargo-msrv
