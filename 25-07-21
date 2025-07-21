@@ -11,3 +11,4 @@ cargo-list
 wait-for-them
 mise
 rg
+clippy
