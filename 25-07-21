@@ -27,3 +27,4 @@ safe_network
 cargo-tag
 cargo-tag
 cargo-lock
+httpmock
