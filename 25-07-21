@@ -33,3 +33,4 @@ patch-crate
 oci2git
 pgrx-tests
 tree-sitter-cli
+cargo-unmaintained
