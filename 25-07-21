@@ -7,3 +7,4 @@ uu_mkdir
 ducc-sys
 cargo-msrv
 papyrus_storage
+cargo-lock
