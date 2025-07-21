@@ -19,3 +19,4 @@ rg
 ruff
 patch-crate
 solana-faucet
+cargo-dylint
