@@ -2,3 +2,4 @@ cargo-list
 cargo-download
 wait-for-them
 cargo-compete
+ruff
