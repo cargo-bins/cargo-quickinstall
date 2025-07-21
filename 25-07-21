@@ -15,3 +15,4 @@ uu_mkdir
 probe-rs-tools
 ducc-sys
 papyrus_storage
+cargo-lock
