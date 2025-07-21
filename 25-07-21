@@ -28,3 +28,4 @@ openring
 pgrx-tests
 cargo-duplicates
 uu_mkdir
+cargo-info
