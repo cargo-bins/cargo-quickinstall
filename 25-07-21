@@ -10,3 +10,4 @@ sqlx-cli
 papyrus_storage
 cargo-risczero
 httm
+pgrx-tests
