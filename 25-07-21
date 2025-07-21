@@ -7,3 +7,4 @@ cargo-git
 cargo-proc-debug
 cargo-bundle
 cargo-tag
+cargo-proc-debug
