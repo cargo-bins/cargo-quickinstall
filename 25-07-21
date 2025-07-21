@@ -27,3 +27,4 @@ below
 wait-for-them
 kanidm_tools
 cargo-dylint
+cargo-smart-release
