@@ -11,3 +11,4 @@ ducc-sys
 safe_network
 hurl
 hurl
+httpmock
