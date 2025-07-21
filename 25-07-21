@@ -8,3 +8,4 @@ ducc-sys
 cargo-msrv
 papyrus_storage
 cargo-lock
+httpmock
