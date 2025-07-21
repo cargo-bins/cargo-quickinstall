@@ -21,3 +21,4 @@ ducc-sys
 cargo-proc-debug
 cargo-msrv
 cargo-bundle
+cargo-proc-debug
