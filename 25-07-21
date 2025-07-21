@@ -20,3 +20,4 @@ ruff
 patch-crate
 solana-faucet
 cargo-dylint
+oci2git
