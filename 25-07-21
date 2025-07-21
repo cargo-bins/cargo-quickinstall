@@ -3,3 +3,4 @@ deduplicator
 mise
 hex-patch
 patch-crate
+cargo-dylint
