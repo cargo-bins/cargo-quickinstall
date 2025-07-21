@@ -40,3 +40,4 @@ hex-patch
 ducc-sys
 librespot
 patch-crate
+cargo-smart-release
