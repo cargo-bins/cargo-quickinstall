@@ -18,3 +18,4 @@ cargo-tag
 uu_mkdir
 cargo-git
 ducc-sys
+cargo-proc-debug
