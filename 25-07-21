@@ -5,3 +5,4 @@ solana-faucet
 pgrx-tests
 uu_mkdir
 ducc-sys
+cargo-msrv
