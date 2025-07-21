@@ -30,3 +30,4 @@ cargo-duplicates
 uu_mkdir
 cargo-info
 openring
+ducc-sys
