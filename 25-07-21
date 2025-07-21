@@ -6,3 +6,4 @@ patch-crate
 cargo-dylint
 vmt
 clippy
+textplots
