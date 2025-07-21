@@ -45,3 +45,4 @@ metaboss
 core-utils
 uv
 cargo-lock
+httpmock
