@@ -36,3 +36,4 @@ tree-sitter-cli
 cargo-unmaintained
 cargo-dylint
 below
+hex-patch
