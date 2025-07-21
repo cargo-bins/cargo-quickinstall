@@ -4,3 +4,4 @@ solana-faucet
 cargo-bundle
 cargo-git
 cargo-git
+cargo-proc-debug
