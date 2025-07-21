@@ -15,3 +15,4 @@ clippy
 openring
 cargo-list
 cargo-dylint
+rg
