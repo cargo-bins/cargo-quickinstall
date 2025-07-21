@@ -12,3 +12,4 @@ cargo-info
 hex-patch
 graphql_client_cli
 clippy
+kanidm_tools
