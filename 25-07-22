@@ -5,3 +5,4 @@ nexmark
 sea-orm-cli
 dotenvy
 cargo-unmaintained
+ruff
