@@ -3,3 +3,4 @@ cargo-unmaintained
 dioxus-cli
 nexmark
 sea-orm-cli
+dotenvy
