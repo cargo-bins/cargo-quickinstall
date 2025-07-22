@@ -10,3 +10,4 @@ stellar-xdr
 simple-http-server
 ducc-sys
 cargo-duplicates
+racer
