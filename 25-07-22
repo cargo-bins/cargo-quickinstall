@@ -16,3 +16,4 @@ fake
 argus-cli
 argus-cli
 ruff
+socketcan
