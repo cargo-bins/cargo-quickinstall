@@ -13,3 +13,4 @@ cargo-duplicates
 racer
 nu_plugin_gstat
 oso
+graphql_client_cli
