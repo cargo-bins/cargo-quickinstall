@@ -13,3 +13,4 @@ cargo-spellcheck
 stellar-xdr
 dioxus-cli
 xcp
+sea-orm-cli
