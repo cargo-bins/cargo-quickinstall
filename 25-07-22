@@ -40,3 +40,4 @@ cargo-mobile2
 nextest
 leetcode-cli
 fend
+tmux-rs
