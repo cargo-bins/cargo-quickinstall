@@ -21,3 +21,4 @@ sonogram
 cargo-unmaintained
 simple-http-server
 nextest
+rsgen-avro
