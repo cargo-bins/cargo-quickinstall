@@ -10,3 +10,4 @@ solana-genesis
 cargo-duplicates
 sea-orm-cli
 stellar-xdr
+nu_plugin_gstat
