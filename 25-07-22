@@ -6,3 +6,4 @@ sea-orm-cli
 dotenvy
 cargo-unmaintained
 ruff
+solana-genesis
