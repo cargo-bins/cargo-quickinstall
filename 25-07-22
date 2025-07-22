@@ -25,3 +25,4 @@ rsgen-avro
 alacritty
 fake
 simple-http-server
+cargo-bundle
