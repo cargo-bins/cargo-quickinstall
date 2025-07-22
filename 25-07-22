@@ -29,3 +29,4 @@ cargo-bundle
 audeye
 safe_network
 diesel_cli
+trusted-signing-cli
