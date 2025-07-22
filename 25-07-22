@@ -11,3 +11,4 @@ probe-rs-tools
 controller
 cargo-spellcheck
 stellar-xdr
+dioxus-cli
