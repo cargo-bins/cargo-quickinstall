@@ -11,3 +11,4 @@ commit_verify
 textplots
 sea-orm-cli
 safe_network
+cargo-spellcheck
