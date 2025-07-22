@@ -13,3 +13,4 @@ stellar-xdr
 nu_plugin_gstat
 core-utils
 racer
+stellar-scaffold-cli
