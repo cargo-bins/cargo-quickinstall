@@ -8,3 +8,4 @@ oso
 librespot
 commit_verify
 sea-orm-cli
+cargo-spellcheck
