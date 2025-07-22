@@ -37,3 +37,4 @@ oci2git
 sprocket
 ruff
 cargo-mobile2
+nextest
