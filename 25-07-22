@@ -23,3 +23,4 @@ cargo-spellcheck
 cargo-spellcheck
 fontspector
 sea-orm-cli
+dioxus-cli
