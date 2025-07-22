@@ -10,3 +10,4 @@ commit_verify
 sea-orm-cli
 cargo-spellcheck
 cargo-mobile2
+rustup-toolchain-install-master
