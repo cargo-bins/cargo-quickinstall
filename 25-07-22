@@ -39,3 +39,4 @@ fake
 cargo-spellcheck
 safe_network
 xcp
+nu_plugin_query
