@@ -8,3 +8,4 @@ alacritty
 patch-crate
 stellar-xdr
 simple-http-server
+ducc-sys
