@@ -35,3 +35,4 @@ diesel_cli
 fend
 oci2git
 sprocket
+ruff
