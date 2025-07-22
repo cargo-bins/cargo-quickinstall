@@ -26,3 +26,4 @@ xcp
 commit_verify
 qsv
 hurl
+nu_plugin_query
