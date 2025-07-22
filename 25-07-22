@@ -17,3 +17,4 @@ sea-orm-cli
 qsv
 racer
 oso
+cargo-spellcheck
