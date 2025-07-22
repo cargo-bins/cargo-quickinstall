@@ -19,3 +19,4 @@ sea-orm-cli
 nu_plugin_query
 librespot
 commit_verify
+cargo-spellcheck
