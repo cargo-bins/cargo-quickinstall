@@ -24,3 +24,4 @@ nextest
 rsgen-avro
 alacritty
 fake
+simple-http-server
