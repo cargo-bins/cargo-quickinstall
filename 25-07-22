@@ -5,3 +5,4 @@ dotenvy
 nu_plugin_query
 hurl
 probe-rs-tools
+dioxus-cli
