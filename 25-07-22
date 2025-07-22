@@ -9,3 +9,4 @@ sea-orm-cli
 cargo-spellcheck
 cargo-spellcheck
 stellar-xdr
+nu_plugin_query
