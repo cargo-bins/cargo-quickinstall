@@ -5,3 +5,4 @@ dotenvy
 cargo-spellcheck
 dioxus-cli
 cargo-spellcheck
+sea-orm-cli
