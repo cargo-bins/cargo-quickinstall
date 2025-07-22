@@ -7,3 +7,4 @@ dotenvy
 cargo-unmaintained
 ruff
 solana-genesis
+cargo-duplicates
