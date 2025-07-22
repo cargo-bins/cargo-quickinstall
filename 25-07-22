@@ -19,3 +19,4 @@ librespot
 commit_verify
 sonogram
 cargo-unmaintained
+simple-http-server
