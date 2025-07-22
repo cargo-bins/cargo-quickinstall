@@ -27,3 +27,4 @@ fake
 simple-http-server
 cargo-bundle
 audeye
+safe_network
