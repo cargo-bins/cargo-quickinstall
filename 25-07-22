@@ -25,3 +25,4 @@ fontspector
 sea-orm-cli
 dioxus-cli
 nu_plugin_query
+cargo-public-api
