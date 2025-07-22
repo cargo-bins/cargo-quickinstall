@@ -31,3 +31,4 @@ hurl
 sea-orm-cli
 textplots
 jless
+cargo-spellcheck
