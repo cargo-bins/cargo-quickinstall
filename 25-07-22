@@ -9,3 +9,4 @@ librespot
 commit_verify
 sea-orm-cli
 cargo-spellcheck
+cargo-mobile2
