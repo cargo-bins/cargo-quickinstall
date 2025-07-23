@@ -12,3 +12,4 @@ winpty-rs
 binstall
 rustrict
 cargo-lock
+lance
