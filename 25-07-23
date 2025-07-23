@@ -35,3 +35,4 @@ clap-stdin
 kanidm_tools
 trusted-signing-cli
 cargo-info
+hurl
