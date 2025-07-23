@@ -13,3 +13,4 @@ rustfmt-nightly
 winpty-rs
 nu_plugin_gstat
 nu_plugin_gstat
+rustrict
