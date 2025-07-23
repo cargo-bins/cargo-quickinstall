@@ -12,3 +12,4 @@ frame-omni-bencher
 minicbor
 cargo-pgrx
 sniffnet
+gitlab-ci-ls
