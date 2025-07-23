@@ -40,3 +40,4 @@ rustfmt-nightly
 wikipe
 fend
 wikimedia-download
+winpty-rs
