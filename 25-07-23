@@ -10,3 +10,4 @@ uu_mkdir
 binstall
 clap-stdin
 rustfmt-nightly
+winpty-rs
