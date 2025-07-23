@@ -10,3 +10,4 @@ hurl
 tmux-rs
 frame-omni-bencher
 minicbor
+cargo-pgrx
