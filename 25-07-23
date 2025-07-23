@@ -38,3 +38,4 @@ cargo-info
 hurl
 what-the-port
 paru
+rustfmt-nightly
