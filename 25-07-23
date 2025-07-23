@@ -30,3 +30,4 @@ lux-cli
 rustfmt-nightly
 winpty-rs
 mle
+lux-cli
