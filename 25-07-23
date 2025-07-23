@@ -4,3 +4,4 @@ minicbor
 uu_mkdir
 perfcnt
 clap-stdin
+winpty-rs
