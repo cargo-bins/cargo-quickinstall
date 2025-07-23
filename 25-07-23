@@ -16,3 +16,4 @@ gitlab-ci-ls
 dx-cli
 sniffnet
 audeye
+cargo-spellcheck
