@@ -9,3 +9,4 @@ tectonic
 uu_mkdir
 binstall
 clap-stdin
+rustfmt-nightly
