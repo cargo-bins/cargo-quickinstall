@@ -36,3 +36,4 @@ tree-sitter-cli
 hurl
 cargo-pgrx
 paru
+rustfmt-nightly
