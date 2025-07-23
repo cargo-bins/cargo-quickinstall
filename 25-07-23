@@ -17,3 +17,4 @@ trusted-signing-cli
 sonogram
 cargo-pgrx
 stellar-scaffold-cli
+tmux-rs
