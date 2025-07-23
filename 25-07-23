@@ -11,3 +11,4 @@ binstall
 clap-stdin
 rustfmt-nightly
 winpty-rs
+nu_plugin_gstat
