@@ -9,3 +9,4 @@ perfcnt
 clap-stdin
 rustfmt-nightly
 winpty-rs
+binstall
