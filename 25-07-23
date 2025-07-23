@@ -32,3 +32,4 @@ elf2uf2-rs
 tools_interface
 dioxus-cli
 clap-stdin
+kanidm_tools
