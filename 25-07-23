@@ -28,3 +28,4 @@ oculante
 clap-stdin
 lux-cli
 rustfmt-nightly
+winpty-rs
