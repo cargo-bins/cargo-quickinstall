@@ -30,3 +30,4 @@ nu_plugin_plotters
 gitlab-ci-ls
 elf2uf2-rs
 tools_interface
+dioxus-cli
