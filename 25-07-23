@@ -5,3 +5,4 @@ papyrus_storage
 minicbor
 uu_mkdir
 perfcnt
+clap-stdin
