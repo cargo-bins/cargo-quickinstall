@@ -8,3 +8,4 @@ perfcnt
 clap-stdin
 rustfmt-nightly
 winpty-rs
+a11ywatch_cli
