@@ -11,3 +11,4 @@ rustfmt-nightly
 winpty-rs
 binstall
 rustrict
+cargo-lock
