@@ -22,3 +22,4 @@ ncspot
 uu_mkdir
 sniffnet
 cargo-spellcheck
+nu_plugin_plotters
