@@ -3,3 +3,4 @@ clippy
 outside
 website_crawler
 uv
+evcxr_repl
