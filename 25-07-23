@@ -33,3 +33,4 @@ spotify-tui
 clap-stdin
 qwiki
 tree-sitter-cli
+hurl
