@@ -3,3 +3,4 @@ dx-cli
 solana-tokens
 clippy
 hurl
+cargo-dylint
