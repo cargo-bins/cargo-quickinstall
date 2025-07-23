@@ -6,3 +6,4 @@ uu_mkdir
 perfcnt
 clap-stdin
 rustfmt-nightly
+winpty-rs
