@@ -6,3 +6,4 @@ minicbor
 uu_mkdir
 perfcnt
 clap-stdin
+rustfmt-nightly
