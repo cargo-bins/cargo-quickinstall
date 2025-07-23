@@ -39,3 +39,4 @@ hurl
 what-the-port
 paru
 rustfmt-nightly
+winpty-rs
