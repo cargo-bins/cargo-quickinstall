@@ -35,3 +35,4 @@ wpblsync
 diesel_cli
 cargo-near
 gitlab-ci-ls
+tendermint-abci
