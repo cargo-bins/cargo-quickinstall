@@ -49,3 +49,4 @@ simple-http-server
 ringfairy
 blindfold
 nu_plugin_query
+libbpf-cargo
