@@ -10,3 +10,4 @@ binstall
 commit_verify
 binstall
 tendermint-abci
+pwasm-utils
