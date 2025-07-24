@@ -4,3 +4,4 @@ cached-path
 cargo-spellcheck
 diesel_cli
 tendermint-abci
+pwasm-utils
