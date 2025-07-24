@@ -46,3 +46,4 @@ cargo-near
 wiki-tui
 blindfold
 libbpf-cargo
+simple-http-server
