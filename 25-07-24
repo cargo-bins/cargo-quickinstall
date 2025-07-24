@@ -6,3 +6,4 @@ diesel_cli
 tendermint-abci
 pwasm-utils
 controller
+rapidhash
