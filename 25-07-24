@@ -8,3 +8,4 @@ diesel_cli
 tendermint-abci
 pwasm-utils
 rmesg
+libbpf-cargo
