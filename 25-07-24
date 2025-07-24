@@ -14,3 +14,4 @@ pwasm-utils
 libbpf-cargo
 spider_cli
 human_name
+nu_plugin_gstat
