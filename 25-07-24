@@ -47,3 +47,4 @@ controller
 diesel_cli
 simple-http-server
 ringfairy
+blindfold
