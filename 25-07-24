@@ -8,3 +8,4 @@ pwasm-utils
 controller
 rapidhash
 libbpf-cargo
+spider_cli
