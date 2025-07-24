@@ -40,3 +40,4 @@ ptx-linker
 pwasm-utils
 clippy
 youtube-tui
+binstall
