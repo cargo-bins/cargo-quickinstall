@@ -3,3 +3,4 @@ textplots
 text-diff
 cached-path
 cargo-vet
+sqlx-cli
