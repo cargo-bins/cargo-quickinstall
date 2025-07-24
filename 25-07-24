@@ -5,3 +5,4 @@ nextest
 nu_plugin_plotters
 neovide
 kgdata
+cached-path
