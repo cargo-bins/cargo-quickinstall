@@ -12,3 +12,4 @@ binstall
 tendermint-abci
 pwasm-utils
 libbpf-cargo
+spider_cli
