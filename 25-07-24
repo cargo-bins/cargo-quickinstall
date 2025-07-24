@@ -5,3 +5,4 @@ cargo-spellcheck
 commit_verify
 addr2line
 diesel_cli
+tendermint-abci
