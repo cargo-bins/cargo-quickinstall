@@ -10,3 +10,4 @@ binstall
 cached-path
 commit_verify
 tendermint-abci
+pwasm-utils
