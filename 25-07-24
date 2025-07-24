@@ -3,3 +3,4 @@ textplots
 cached-path
 cargo-spellcheck
 commit_verify
+addr2line
