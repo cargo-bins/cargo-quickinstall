@@ -3,3 +3,4 @@ textplots
 cached-path
 cargo-spellcheck
 diesel_cli
+tendermint-abci
