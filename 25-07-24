@@ -58,3 +58,4 @@ clippy
 hurl
 uv
 spider_cli
+cargo-embed
