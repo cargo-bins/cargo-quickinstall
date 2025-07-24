@@ -9,3 +9,4 @@ tendermint-abci
 pwasm-utils
 rmesg
 libbpf-cargo
+rustfmt
