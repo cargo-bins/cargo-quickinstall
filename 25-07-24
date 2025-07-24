@@ -48,3 +48,4 @@ diesel_cli
 simple-http-server
 ringfairy
 blindfold
+nu_plugin_query
