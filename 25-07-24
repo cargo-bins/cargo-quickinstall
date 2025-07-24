@@ -9,3 +9,4 @@ tendermint-abci
 pwasm-utils
 rapidhash
 libbpf-cargo
+spider_cli
