@@ -4,3 +4,4 @@ text-diff
 cached-path
 cargo-vet
 sqlx-cli
+diesel_cli
