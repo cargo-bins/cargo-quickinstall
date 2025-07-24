@@ -34,3 +34,4 @@ graphql_client_cli
 wpblsync
 diesel_cli
 cargo-near
+gitlab-ci-ls
