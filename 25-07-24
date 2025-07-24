@@ -39,3 +39,4 @@ gitlab-ci-ls
 nextest
 titans
 controller
+cargo-public-api
