@@ -36,3 +36,4 @@ probe-rs-tools
 cargo-pgrx
 paru
 gitlab-ci-ls
+nextest
