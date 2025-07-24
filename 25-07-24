@@ -38,3 +38,4 @@ gitlab-ci-ls
 tendermint-abci
 ptx-linker
 pwasm-utils
+clippy
