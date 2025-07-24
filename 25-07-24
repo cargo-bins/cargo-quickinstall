@@ -7,3 +7,4 @@ addr2line
 diesel_cli
 tendermint-abci
 pwasm-utils
+rapidhash
