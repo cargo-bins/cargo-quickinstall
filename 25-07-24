@@ -13,3 +13,4 @@ diesel_cli
 ncspot
 tendermint-abci
 kickstart
+pwasm-utils
