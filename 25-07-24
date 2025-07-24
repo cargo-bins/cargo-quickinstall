@@ -13,3 +13,4 @@ tendermint-abci
 pwasm-utils
 libbpf-cargo
 spider_cli
+human_name
