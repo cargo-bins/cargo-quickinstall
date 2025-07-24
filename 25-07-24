@@ -24,3 +24,4 @@ scoop
 cve-rs
 cve-rs
 nu_plugin_skim
+libbpf-cargo
