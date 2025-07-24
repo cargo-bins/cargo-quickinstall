@@ -33,3 +33,4 @@ probe-rs-tools
 pwasm-utils
 cargo-pgrx
 probe-rs-tools
+cargo-pgrx
