@@ -6,3 +6,4 @@ cargo-vet
 sqlx-cli
 diesel_cli
 tendermint-abci
+pwasm-utils
