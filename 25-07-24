@@ -51,3 +51,4 @@ cargo-near
 rg
 statical
 uv
+simple-http-server
