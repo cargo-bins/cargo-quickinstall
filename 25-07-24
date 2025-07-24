@@ -13,3 +13,4 @@ tendermint-abci
 pwasm-utils
 sockudo
 libbpf-cargo
+sockudo
