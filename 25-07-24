@@ -10,3 +10,4 @@ diesel_cli
 tendermint-abci
 pwasm-utils
 oculante
+ncspot
