@@ -13,3 +13,4 @@ cve-rs
 diesel_cli
 dysk
 tendermint-abci
+cargo-show
