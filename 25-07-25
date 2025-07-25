@@ -12,3 +12,4 @@ cargo-leptos
 qsv
 git-disjoint
 httm
+clippy
