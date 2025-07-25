@@ -3,3 +3,4 @@ nu_plugin_gstat
 startup-disk
 tbr
 startup-disk
+cached-path
