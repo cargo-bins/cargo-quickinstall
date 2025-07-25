@@ -10,3 +10,4 @@ solana-gossip
 cargo-generate
 cargo-leptos
 qsv
+git-disjoint
