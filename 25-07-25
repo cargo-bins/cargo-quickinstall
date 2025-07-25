@@ -6,3 +6,4 @@ uu_mkdir
 cached-path
 cargo-vet
 uu_mv
+solana-gossip
