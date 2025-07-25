@@ -34,3 +34,4 @@ spider_cli
 rustup-toolchain-install-master
 uu_mv
 statical
+cargo-mobile2
