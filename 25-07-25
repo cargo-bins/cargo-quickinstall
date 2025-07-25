@@ -40,3 +40,4 @@ metrics-observer
 sea-orm-cli
 redoxer
 zuse
+nextest
