@@ -19,3 +19,4 @@ uu_mv
 solana-gossip
 make
 cargo-generate
+cargo-supply-chain
