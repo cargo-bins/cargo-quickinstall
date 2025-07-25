@@ -38,3 +38,4 @@ cargo-mobile2
 trusted-signing-cli
 sniffnet
 yara-x-cli
+nu_plugin_query
