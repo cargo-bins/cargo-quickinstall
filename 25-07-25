@@ -27,3 +27,4 @@ statical
 nu_plugin_query
 cargo-embed
 cargo-flash
+dioxus-cli
