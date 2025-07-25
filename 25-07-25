@@ -43,3 +43,4 @@ probe-rs-tools
 redoxer
 alacritty
 qsv
+metrics-observer
