@@ -22,3 +22,4 @@ cargo-generate
 cargo-supply-chain
 sqlx-cli
 qsv
+wild-linker
