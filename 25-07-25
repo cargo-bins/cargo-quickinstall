@@ -14,3 +14,4 @@ cargo-embed
 airshipper
 cargo-near
 reboot-arch-btw
+cached-path
