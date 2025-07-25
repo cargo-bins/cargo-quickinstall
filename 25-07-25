@@ -18,3 +18,4 @@ zellij
 uu_mv
 solana-gossip
 make
+cargo-generate
