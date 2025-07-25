@@ -44,3 +44,4 @@ nextest
 qsv
 spider_cli
 spider_cli
+clippy
