@@ -23,3 +23,4 @@ yara-x-cli
 python-project-generator
 fend
 hurl
+uv
