@@ -25,3 +25,4 @@ nu_plugin_query
 graphql_client_cli
 statical
 nu_plugin_query
+cargo-embed
