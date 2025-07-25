@@ -11,3 +11,4 @@ cargo-generate
 cargo-leptos
 qsv
 git-disjoint
+httm
