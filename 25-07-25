@@ -20,3 +20,4 @@ solana-gossip
 make
 cargo-generate
 cargo-supply-chain
+sqlx-cli
