@@ -40,3 +40,4 @@ sniffnet
 yara-x-cli
 nu_plugin_query
 probe-rs-tools
+redoxer
