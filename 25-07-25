@@ -11,3 +11,4 @@ git-fixture
 cached-path
 zellij
 nextest
+make
