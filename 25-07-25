@@ -45,3 +45,4 @@ qsv
 spider_cli
 spider_cli
 clippy
+sea-orm-cli
