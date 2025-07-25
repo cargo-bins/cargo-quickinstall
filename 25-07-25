@@ -3,3 +3,4 @@ rg
 c2rust
 python-project-generator
 nu_plugin_query
+cargo-embed
