@@ -8,3 +8,4 @@ coreutils
 uu_mkdir
 cached-path
 cargo-info
+mdbook-linkcheck2
