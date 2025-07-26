@@ -49,3 +49,4 @@ commit_verify
 agave-install
 solana-keygen
 ruff
+xray-tui
