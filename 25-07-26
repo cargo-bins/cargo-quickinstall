@@ -10,3 +10,4 @@ ducc-sys
 tplay
 sqlite-zstd
 necessist
+addr2line
