@@ -8,3 +8,4 @@ cargo-download
 alacritty
 cargo-list
 build-fs-tree
+mdbook-linkcheck2
