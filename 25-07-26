@@ -8,3 +8,4 @@ ducc-sys
 re_query
 metrics-observer
 dioxus-cli
+uv
