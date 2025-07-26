@@ -2,3 +2,4 @@ phf_generator
 tendermint-abci
 build-fs-tree
 ducc-sys
+re_query
