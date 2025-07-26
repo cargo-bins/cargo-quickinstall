@@ -6,3 +6,4 @@ nu_plugin_gstat
 build-fs-tree
 ducc-sys
 re_query
+metrics-observer
