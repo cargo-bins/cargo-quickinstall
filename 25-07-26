@@ -4,3 +4,4 @@ cargo-vet
 mit-prepare-commit-msg
 cargo-vet
 build-fs-tree
+ducc-sys
