@@ -6,3 +6,4 @@ re_query
 cargo-pgrx
 addr2line
 apollo-router
+wol-rs
