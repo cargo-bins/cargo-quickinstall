@@ -15,3 +15,4 @@ sp1-recursion-gnark-cli
 tplay
 lux-cli
 qsv
+libcst
