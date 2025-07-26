@@ -7,3 +7,4 @@ build-fs-tree
 ducc-sys
 benfred-read-process-memory
 httm
+addr2line
