@@ -17,3 +17,4 @@ addr2line
 alacritty
 apollo-router
 wol-rs
+diesel_cli
