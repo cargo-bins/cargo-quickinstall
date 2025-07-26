@@ -4,3 +4,4 @@ cargo-list
 tendermint-abci
 cargo-download
 coreutils
+cargo-download
