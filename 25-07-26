@@ -5,3 +5,4 @@ dioxus-cli
 coreutils
 metrics-observer
 kondo-ui
+build-fs-tree
