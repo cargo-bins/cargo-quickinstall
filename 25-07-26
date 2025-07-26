@@ -3,3 +3,4 @@ spider_cli
 tendermint-abci
 dioxus-cli
 coreutils
+metrics-observer
