@@ -13,3 +13,4 @@ ducc-sys
 cargo-supply-chain
 binstall
 cargo-supply-chain
+sqlx-cli
