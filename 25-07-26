@@ -6,3 +6,4 @@ cargo-supply-chain
 wild-linker
 cargo-crev
 mit-prepare-commit-msg
+build-fs-tree
