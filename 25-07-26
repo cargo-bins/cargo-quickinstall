@@ -13,3 +13,4 @@ ducc-sys
 coreutils
 cargo-list
 cargo-pgrx
+addr2line
