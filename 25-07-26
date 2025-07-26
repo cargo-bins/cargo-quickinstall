@@ -7,3 +7,4 @@ metrics-observer
 kondo-ui
 build-fs-tree
 ducc-sys
+graphql_client_cli
