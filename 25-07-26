@@ -3,3 +3,4 @@ tendermint-abci
 xray-tui
 cifra
 build-fs-tree
+sqlite-zstd
