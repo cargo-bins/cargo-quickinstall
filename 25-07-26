@@ -14,3 +14,4 @@ rustup-toolchain-install-master
 cargo-spellcheck
 cargo-pgrx
 uv
+tplay
