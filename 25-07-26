@@ -8,3 +8,4 @@ shadowsocks-rust
 build-fs-tree
 ducc-sys
 tplay
+sqlite-zstd
