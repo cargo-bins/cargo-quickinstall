@@ -6,3 +6,4 @@ coreutils
 metrics-observer
 kondo-ui
 build-fs-tree
+ducc-sys
