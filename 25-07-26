@@ -12,3 +12,4 @@ sockudo
 tplay
 rustup-toolchain-install-master
 cargo-spellcheck
+cargo-pgrx
