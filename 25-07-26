@@ -17,3 +17,4 @@ cargo-list
 alacritty
 coreutils
 apollo-router
+wol-rs
