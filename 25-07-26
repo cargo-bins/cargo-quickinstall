@@ -16,3 +16,4 @@ cargo-pgrx
 addr2line
 alacritty
 apollo-router
+wol-rs
