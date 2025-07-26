@@ -33,3 +33,4 @@ agave-install
 tree-sitter-cli
 cargo-spellcheck
 tree-sitter-cli
+safe_network
