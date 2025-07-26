@@ -2,3 +2,4 @@ phf_generator
 tendermint-abci
 xray-tui
 cifra
+build-fs-tree
