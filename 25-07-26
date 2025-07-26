@@ -5,3 +5,4 @@ tendermint-abci
 asahi-bless
 argus-cli
 shadowsocks-rust
+build-fs-tree
