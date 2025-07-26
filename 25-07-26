@@ -10,3 +10,4 @@ metrics-observer
 dioxus-cli
 uv
 alacritty
+addr2line
