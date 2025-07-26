@@ -2,3 +2,4 @@ mdbook-linkcheck2
 phf_generator
 cargo-list
 tendermint-abci
+cargo-download
