@@ -16,3 +16,4 @@ safe_network
 rustfmt
 libcst
 rustrict
+cargo-vet
