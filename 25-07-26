@@ -4,3 +4,4 @@ tendermint-abci
 dioxus-cli
 coreutils
 metrics-observer
+kondo-ui
