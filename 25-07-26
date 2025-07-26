@@ -11,3 +11,4 @@ graphql_client_cli
 sockudo
 tplay
 rustup-toolchain-install-master
+cargo-spellcheck
