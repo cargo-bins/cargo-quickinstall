@@ -37,3 +37,4 @@ probe-rs-tools
 agave-install
 solana-keygen
 qsv
+sockudo
