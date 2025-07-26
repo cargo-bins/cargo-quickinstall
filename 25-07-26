@@ -3,3 +3,4 @@ phf_generator
 cargo-list
 tendermint-abci
 cargo-download
+coreutils
