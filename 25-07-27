@@ -46,3 +46,4 @@ lance
 wscat-rs
 cargo-thesaurust
 rustup-toolchain-install-master
+salvo-cli
