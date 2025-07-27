@@ -7,3 +7,4 @@ deploy
 redoxer
 raw-cpuid
 cargo-bundle
+patch-crate
