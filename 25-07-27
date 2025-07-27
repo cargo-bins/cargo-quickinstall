@@ -7,3 +7,4 @@ rocm_smi_installer
 rg
 fake
 deploy
+raw-cpuid
