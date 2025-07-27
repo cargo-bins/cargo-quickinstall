@@ -10,3 +10,4 @@ cargo-bundle
 patch-crate
 xray-tui
 sockudo
+z3tracer
