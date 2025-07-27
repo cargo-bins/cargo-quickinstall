@@ -39,3 +39,4 @@ httpmock
 salvo-cli
 coreutils
 easytier
+nu-jupyter-kernel
