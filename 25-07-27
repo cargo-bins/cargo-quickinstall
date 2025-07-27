@@ -5,3 +5,4 @@ deploy
 raw-cpuid
 nextest
 nextest
+z3tracer
