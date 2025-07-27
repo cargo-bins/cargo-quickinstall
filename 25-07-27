@@ -13,3 +13,4 @@ rls-rustc
 rustfmt-nightly
 httpmock
 lance
+protox
