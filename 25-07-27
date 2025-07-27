@@ -1,3 +1,4 @@
 fake
 deploy
 raw-cpuid
+cargo-msrv
