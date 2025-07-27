@@ -8,3 +8,4 @@ unic-langid-impl
 solana-cli
 cargo-lock
 cargo-msrv
+rls-rustc
