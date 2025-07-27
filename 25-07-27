@@ -2,3 +2,4 @@ kani-verifier
 fake
 deploy
 raw-cpuid
+holochain_cli_bundle
