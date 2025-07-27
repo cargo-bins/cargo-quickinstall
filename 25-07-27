@@ -8,3 +8,4 @@ z3tracer
 human_bytes
 unic-langid-impl
 cargo-lock
+rls-rustc
