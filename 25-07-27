@@ -34,3 +34,4 @@ hurl
 dioxus-cli
 rls-rustc
 nu-jupyter-kernel
+rls-rustc
