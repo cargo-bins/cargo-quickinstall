@@ -37,3 +37,4 @@ nu-jupyter-kernel
 rls-rustc
 httpmock
 salvo-cli
+coreutils
