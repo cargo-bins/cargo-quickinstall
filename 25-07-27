@@ -33,3 +33,4 @@ rls-rustc
 rustfmt-nightly
 httpmock
 cargo-thesaurust
+cargo-bundle
