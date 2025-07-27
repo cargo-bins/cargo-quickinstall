@@ -26,3 +26,4 @@ nu-jupyter-kernel
 uv
 solana-cli
 cargo-lock
+xray-tui
