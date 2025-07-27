@@ -2,3 +2,4 @@ fake
 deploy
 diesel_cli
 raw-cpuid
+z3tracer
