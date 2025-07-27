@@ -32,3 +32,4 @@ cargo-whatfeatures
 cargo-flash
 hurl
 dioxus-cli
+rls-rustc
