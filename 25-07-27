@@ -37,3 +37,4 @@ cargo-bundle
 cargo-flash
 alacritty
 lance
+patch-crate
