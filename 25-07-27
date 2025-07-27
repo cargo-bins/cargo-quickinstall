@@ -16,3 +16,4 @@ human_bytes
 ruff
 cargo-embed
 cargo-bundle
+redoxer
