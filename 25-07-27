@@ -2,3 +2,4 @@ fake
 deploy
 raw-cpuid
 cargo-msrv
+z3tracer
