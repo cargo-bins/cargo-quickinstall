@@ -4,3 +4,4 @@ xray-tui
 agave-install
 fake
 probe-rs-tools
+cargo-spellcheck
