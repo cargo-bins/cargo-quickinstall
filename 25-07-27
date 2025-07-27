@@ -8,3 +8,4 @@ rrule
 coreutils
 solana-cli
 cargo-lock
+rls-rustc
