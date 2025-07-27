@@ -3,3 +3,4 @@ fake
 deploy
 raw-cpuid
 holochain_cli_bundle
+z3tracer
