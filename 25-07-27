@@ -5,3 +5,4 @@ agave-install
 fake
 probe-rs-tools
 cargo-spellcheck
+patch-crate
