@@ -24,3 +24,4 @@ soar-cli
 rocm_smi_installer
 soar-cli
 soar-cli
+cargo-lock
