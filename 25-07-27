@@ -29,3 +29,4 @@ cargo-lock
 xray-tui
 rls-rustc
 cargo-spellcheck
+rls-rustc
