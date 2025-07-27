@@ -40,3 +40,4 @@ lance
 patch-crate
 salvo-cli
 just-lsp
+nu-jupyter-kernel
