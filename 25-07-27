@@ -38,3 +38,4 @@ rls-rustc
 httpmock
 salvo-cli
 coreutils
+easytier
