@@ -31,3 +31,4 @@ rls-rustc
 cargo-spellcheck
 rls-rustc
 rustfmt-nightly
+httpmock
