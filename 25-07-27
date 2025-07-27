@@ -16,3 +16,4 @@ rustfmt-nightly
 httpmock
 iai-callgrind-runner
 httm
+lance
