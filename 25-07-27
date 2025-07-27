@@ -13,3 +13,4 @@ rustfmt-nightly
 httpmock
 lance
 protox
+solana-genesis
