@@ -21,3 +21,4 @@ human_bytes
 probe-rs-tools
 salvo-cli
 sea-orm-cli
+unic-langid-impl
