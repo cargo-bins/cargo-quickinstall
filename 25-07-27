@@ -16,3 +16,4 @@ cargo-embed
 coreutils
 redoxer
 z3tracer
+probe-rs-tools
