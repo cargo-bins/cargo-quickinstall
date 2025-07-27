@@ -9,3 +9,4 @@ z3tracer
 human_bytes
 nextest
 cargo-lock
+rls-rustc
