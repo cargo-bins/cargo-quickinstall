@@ -15,3 +15,4 @@ cargo-bundle
 cargo-embed
 coreutils
 redoxer
+z3tracer
