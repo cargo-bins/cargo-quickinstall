@@ -11,3 +11,4 @@ cargo-msrv
 rls-rustc
 rls-rustc
 rustfmt-nightly
+httpmock
