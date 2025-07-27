@@ -22,3 +22,4 @@ cargo-bundle
 cargo-spellcheck
 blindfold
 sea-orm-cli
+nu-jupyter-kernel
