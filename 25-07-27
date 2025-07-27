@@ -49,3 +49,4 @@ rustup-toolchain-install-master
 salvo-cli
 easytier
 just-lsp
+nu-jupyter-kernel
