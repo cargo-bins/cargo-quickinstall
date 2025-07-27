@@ -10,3 +10,4 @@ holochain_cli_bundle
 holochain_cli_bundle
 sn_cli
 cargo-lock
+rls-rustc
