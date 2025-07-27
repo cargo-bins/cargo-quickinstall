@@ -13,3 +13,4 @@ cargo-lock
 rls-rustc
 rls-rustc
 rustfmt-nightly
+httpmock
