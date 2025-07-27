@@ -9,3 +9,4 @@ solana-cli
 cargo-lock
 cargo-msrv
 rls-rustc
+rls-rustc
