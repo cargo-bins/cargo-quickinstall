@@ -17,3 +17,4 @@ ruff
 cargo-embed
 cargo-bundle
 redoxer
+blindfold
