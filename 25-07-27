@@ -27,3 +27,4 @@ soar-cli
 cargo-lock
 rmpc
 soar-cli
+rls-rustc
