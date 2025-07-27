@@ -28,3 +28,4 @@ solana-cli
 cargo-lock
 xray-tui
 rls-rustc
+cargo-spellcheck
