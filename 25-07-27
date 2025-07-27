@@ -58,3 +58,4 @@ salvo-cli
 sea-orm-cli
 dioxus-cli
 cargo-thesaurust
+rustup-toolchain-install-master
