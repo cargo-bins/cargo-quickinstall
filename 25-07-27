@@ -11,3 +11,4 @@ nextest
 cargo-lock
 rls-rustc
 httpmock
+lance
