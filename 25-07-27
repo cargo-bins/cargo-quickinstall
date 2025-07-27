@@ -25,3 +25,4 @@ sea-orm-cli
 nu-jupyter-kernel
 uv
 solana-cli
+cargo-lock
