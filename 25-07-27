@@ -6,3 +6,4 @@ z3tracer
 human_bytes
 unic-langid-impl
 solana-cli
+cargo-lock
