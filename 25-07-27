@@ -29,3 +29,4 @@ solana-cli
 cargo-lock
 salvo-cli
 cargo-whatfeatures
+cargo-flash
