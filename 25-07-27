@@ -5,3 +5,4 @@ cargo-msrv
 z3tracer
 human_bytes
 unic-langid-impl
+solana-cli
