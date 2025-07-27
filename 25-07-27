@@ -12,3 +12,4 @@ sn_cli
 cargo-lock
 rls-rustc
 rls-rustc
+rustfmt-nightly
