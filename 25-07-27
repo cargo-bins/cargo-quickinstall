@@ -27,3 +27,4 @@ dioxus-cli
 nu-jupyter-kernel
 solana-cli
 cargo-lock
+salvo-cli
