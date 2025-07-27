@@ -21,3 +21,4 @@ blindfold
 cargo-bundle
 cargo-spellcheck
 blindfold
+sea-orm-cli
