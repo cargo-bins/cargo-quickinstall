@@ -10,3 +10,4 @@ cargo-flash
 deploy
 dynisland
 blindfold
+raw-cpuid
