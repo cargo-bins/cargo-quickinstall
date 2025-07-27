@@ -10,3 +10,4 @@ unic-langid-impl
 cargo-lock
 rls-rustc
 rustfmt-nightly
+httpmock
