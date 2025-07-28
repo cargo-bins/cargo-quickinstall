@@ -6,3 +6,4 @@ cargo-bundle
 dotenvy
 cargo-bundle
 h3o
+diesel_cli
