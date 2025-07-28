@@ -21,3 +21,4 @@ httpmock
 uv
 cargo-checkmate
 cargo-checkmate
+cargo-info
