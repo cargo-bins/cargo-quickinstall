@@ -24,3 +24,4 @@ uu_mkdir
 protox
 cargo-local-registry
 httpmock
+dua-cli
