@@ -2,3 +2,4 @@ stellar-strkey
 rustup-toolchain-install-master
 wscat-rs
 alacritty
+argus-cli
