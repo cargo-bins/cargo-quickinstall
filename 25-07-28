@@ -19,3 +19,4 @@ cargo-checkmate
 uv
 httpmock
 uv
+cargo-checkmate
