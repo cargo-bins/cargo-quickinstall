@@ -3,3 +3,4 @@ controller
 uu_mkdir
 protox
 httpmock
+opencv-binding-generator
