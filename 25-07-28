@@ -8,3 +8,4 @@ schemafy
 cargo-hf2
 patch-crate
 cargo-bundle
+cargo-thesaurust
