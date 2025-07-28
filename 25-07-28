@@ -9,3 +9,4 @@ wscat-rs
 argus-cli
 nextest
 fend
+schematools-cli
