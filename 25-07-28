@@ -19,3 +19,4 @@ cargo-hf2
 patch-crate
 cargo-spellcheck
 czkawka_gui
+git-repo-manager
