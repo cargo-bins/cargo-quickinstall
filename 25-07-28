@@ -5,3 +5,4 @@ tokio-process
 h3o
 uu_mkdir
 protox
+cargo-local-registry
