@@ -17,3 +17,4 @@ tree-sitter-cli
 schematools-cli
 cargo-hf2
 patch-crate
+cargo-spellcheck
