@@ -16,3 +16,4 @@ diesel_cli
 controller
 uu_mkdir
 cargo-checkmate
+uv
