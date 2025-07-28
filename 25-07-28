@@ -6,3 +6,4 @@ h3o
 uu_mkdir
 protox
 cargo-local-registry
+httpmock
