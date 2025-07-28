@@ -9,3 +9,4 @@ diesel_cli
 cargo-bundle
 cargo-bundle
 cargo-info
+cargo-checkmate
