@@ -16,3 +16,4 @@ patch-crate
 dioxus-cli
 lux-cli
 cargo-show
+patch-crate
