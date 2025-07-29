@@ -16,3 +16,4 @@ opencv-binding-generator
 deno
 graphite
 cargo-fixit
+re_query
