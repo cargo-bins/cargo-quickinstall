@@ -2,3 +2,4 @@ uv
 cargo-spellcheck
 dioxus-cli
 opencv-binding-generator
+dioxus-cli
