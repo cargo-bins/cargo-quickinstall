@@ -9,3 +9,4 @@ lux-cli
 phf_generator
 patch-crate
 dioxus-cli
+cargo-show
