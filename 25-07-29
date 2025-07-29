@@ -27,3 +27,4 @@ deno
 lux-cli
 cargo-spellcheck
 patch-crate
+cargo-show
