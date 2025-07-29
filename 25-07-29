@@ -1,3 +1,4 @@
 uv
 cargo-spellcheck
 dioxus-cli
+opencv-binding-generator
