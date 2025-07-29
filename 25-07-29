@@ -3,3 +3,4 @@ cargo-spellcheck
 opencv-binding-generator
 cargo-spellcheck
 phf_generator
+jless
