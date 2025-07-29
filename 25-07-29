@@ -35,3 +35,4 @@ fls
 cargo-dylint
 nu_plugin_gstat
 lumen
+binwalk
