@@ -5,3 +5,4 @@ phf_generator
 ec2_instance_metadata
 rustfmt
 safe_network
+git-mit-config
