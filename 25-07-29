@@ -34,3 +34,4 @@ gitlab-ci-ls
 nu_plugin_gstat
 simple-http-server
 xplr
+cargo-dylint
