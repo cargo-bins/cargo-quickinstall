@@ -5,3 +5,4 @@ safe_network
 tendermint-rpc
 deno
 re_query
+tendermint-abci
