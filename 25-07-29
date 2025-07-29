@@ -30,3 +30,4 @@ tendermint-rpc
 opencv-binding-generator
 tattoy
 typst-cli
+deno
