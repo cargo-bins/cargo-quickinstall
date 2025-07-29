@@ -21,3 +21,4 @@ cleaner
 dioxus-cli
 cleaner
 cargo-playdate
+cargo-fixit
