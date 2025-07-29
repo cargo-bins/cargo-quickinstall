@@ -8,3 +8,4 @@ phf_generator
 jless
 patch-crate
 uv
+dioxus-cli
