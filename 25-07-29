@@ -13,3 +13,4 @@ kickstart
 graphite
 tendermint-rpc
 opencv-binding-generator
+deno
