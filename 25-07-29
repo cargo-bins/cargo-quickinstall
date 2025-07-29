@@ -8,3 +8,4 @@ patch-crate
 lux-cli
 phf_generator
 patch-crate
+dioxus-cli
