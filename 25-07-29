@@ -25,3 +25,4 @@ cargo-fixit
 gnostr-legit
 uv
 cargo-fixit
+tendermint-abci
