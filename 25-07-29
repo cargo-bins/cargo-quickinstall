@@ -11,3 +11,4 @@ uv
 dioxus-cli
 lux-cli
 patch-crate
+jless
