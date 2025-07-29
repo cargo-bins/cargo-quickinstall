@@ -32,3 +32,4 @@ tattoy
 typst-cli
 deno
 fls
+cargo-dylint
