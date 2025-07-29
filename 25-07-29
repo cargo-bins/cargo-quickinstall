@@ -2,3 +2,4 @@ sqlx-cli
 opencv-binding-generator
 phf_generator
 phf_generator
+ec2_instance_metadata
