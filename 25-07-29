@@ -21,3 +21,4 @@ cargo-show
 cargo-spellcheck
 cargo-show
 opencv-binding-generator
+tendermint-rpc
