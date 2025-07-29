@@ -13,3 +13,4 @@ cargo-info
 cargo-hf2
 binwalk
 nkeys
+mdbook-linkcheck2
