@@ -23,3 +23,4 @@ patch-crate
 tendermint-rpc
 git-iris
 deno
+cargo-dylint
