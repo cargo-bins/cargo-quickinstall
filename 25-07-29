@@ -34,3 +34,4 @@ patch-crate
 cargo-show
 patch-crate
 patch-crate
+tendermint-abci
