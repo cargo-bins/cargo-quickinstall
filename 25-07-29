@@ -27,3 +27,4 @@ cargo-public-api
 cargo-info
 typst-cli
 tendermint-rpc
+opencv-binding-generator
