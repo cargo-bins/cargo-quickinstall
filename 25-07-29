@@ -7,3 +7,4 @@ phf_generator
 ruff
 graphite
 tendermint-rpc
+graphite
