@@ -10,3 +10,4 @@ tendermint-rpc
 deno
 mit-pre-commit
 kani-verifier
+re_query
