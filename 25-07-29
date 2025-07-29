@@ -6,3 +6,4 @@ dioxus-cli
 phf_generator
 patch-crate
 lux-cli
+phf_generator
