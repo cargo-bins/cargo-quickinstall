@@ -11,3 +11,4 @@ phf_generator
 vcard_tui
 cargo-info
 cargo-hf2
+binwalk
