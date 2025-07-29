@@ -30,3 +30,4 @@ re_query
 cargo-show
 stgit
 cargo-show
+patch-crate
