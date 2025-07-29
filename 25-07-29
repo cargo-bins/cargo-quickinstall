@@ -20,3 +20,4 @@ cargo-show
 tendermint-rpc
 lux-cli
 cargo-spellcheck
+deno
