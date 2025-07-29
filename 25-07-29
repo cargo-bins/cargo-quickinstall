@@ -17,3 +17,4 @@ patch-crate
 safe_network
 cargo-spellcheck
 cargo-show
+tendermint-rpc
