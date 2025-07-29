@@ -4,3 +4,4 @@ phf_generator
 safe_network
 tendermint-rpc
 deno
+re_query
