@@ -22,3 +22,4 @@ cargo-spellcheck
 cargo-show
 opencv-binding-generator
 tendermint-rpc
+lux-cli
