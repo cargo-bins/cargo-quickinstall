@@ -20,3 +20,4 @@ patch-crate
 cargo-show
 cargo-spellcheck
 cargo-show
+opencv-binding-generator
