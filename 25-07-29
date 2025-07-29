@@ -14,3 +14,4 @@ cargo-hf2
 binwalk
 nkeys
 mdbook-linkcheck2
+tree-sitter-cli
