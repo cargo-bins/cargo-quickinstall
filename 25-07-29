@@ -14,3 +14,4 @@ phf_generator
 cargo-hf2
 binstall
 airshipper
+cargo-info
