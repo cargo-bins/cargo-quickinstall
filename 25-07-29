@@ -26,3 +26,4 @@ lux-cli
 deno
 lux-cli
 cargo-spellcheck
+patch-crate
