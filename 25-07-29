@@ -17,3 +17,4 @@ mdbook-linkcheck2
 tree-sitter-cli
 typst-cli
 binstall
+simple-http-server
