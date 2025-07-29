@@ -12,3 +12,4 @@ dioxus-cli
 cargo-show
 cargo-spellcheck
 lux-cli
+patch-crate
