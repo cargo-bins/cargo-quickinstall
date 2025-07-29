@@ -8,3 +8,4 @@ ruff
 graphite
 tendermint-rpc
 graphite
+cargo-playdate
