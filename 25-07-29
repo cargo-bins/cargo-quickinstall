@@ -7,3 +7,4 @@ rustfmt
 safe_network
 git-mit-config
 tendermint-rpc
+deno
