@@ -30,3 +30,4 @@ patch-crate
 cargo-show
 cargo-show
 re_query
+cargo-spellcheck
