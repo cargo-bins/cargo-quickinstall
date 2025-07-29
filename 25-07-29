@@ -26,3 +26,4 @@ deno
 cargo-dylint
 spotify_player
 lumen
+typst-cli
