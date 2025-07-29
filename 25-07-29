@@ -33,3 +33,4 @@ typst-cli
 deno
 fls
 cargo-dylint
+nu_plugin_gstat
