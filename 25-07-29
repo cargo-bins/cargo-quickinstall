@@ -16,3 +16,4 @@ dioxus-cli
 patch-crate
 safe_network
 cargo-spellcheck
+cargo-show
