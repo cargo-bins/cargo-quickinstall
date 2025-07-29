@@ -29,3 +29,4 @@ cargo-spellcheck
 patch-crate
 cargo-show
 cargo-show
+re_query
