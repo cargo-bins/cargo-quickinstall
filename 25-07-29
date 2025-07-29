@@ -12,3 +12,4 @@ tmux
 git-mit-config
 rmskin-builder
 tendermint-rpc
+mit-pre-commit
