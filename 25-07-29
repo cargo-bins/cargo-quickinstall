@@ -3,3 +3,4 @@ cargo-spellcheck
 dioxus-cli
 opencv-binding-generator
 dioxus-cli
+phf_generator
