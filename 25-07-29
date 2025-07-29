@@ -10,3 +10,4 @@ phf_generator
 patch-crate
 dioxus-cli
 cargo-show
+cargo-spellcheck
