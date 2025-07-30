@@ -30,3 +30,4 @@ binstall
 crates-mirror
 nu_plugin_gstat
 rls-rustc
+snarkvm
