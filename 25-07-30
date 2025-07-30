@@ -6,3 +6,4 @@ clippy
 statime-linux
 holochain_cli
 cached-path
+pwasm-utils
