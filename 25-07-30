@@ -43,3 +43,4 @@ rls-rustc
 rg
 neovide
 alacritty
+pest_debugger
