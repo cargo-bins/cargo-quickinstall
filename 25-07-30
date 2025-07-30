@@ -11,3 +11,4 @@ cached-path
 dioxus-cli
 rg
 pwasm-utils
+wmi
