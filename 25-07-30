@@ -31,3 +31,4 @@ nu_plugin_query
 imap-tools
 pgrx-tests
 graphql_client_cli
+gitlab-ci-ls
