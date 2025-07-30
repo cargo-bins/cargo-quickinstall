@@ -8,3 +8,4 @@ holochain_cli
 cached-path
 pwasm-utils
 cargo-generate
+pgrx-tests
