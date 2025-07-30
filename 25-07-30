@@ -10,3 +10,4 @@ uv
 cached-path
 dioxus-cli
 rg
+pwasm-utils
