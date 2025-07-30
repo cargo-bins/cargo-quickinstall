@@ -2,3 +2,4 @@ uu_cp
 uu_mkdir
 cached-path
 pwasm-utils
+human_bytes
