@@ -8,3 +8,4 @@ clippy
 stgit
 sniffnet
 cached-path
+pwasm-utils
