@@ -45,3 +45,4 @@ rls-rustc
 coreutils
 sea-orm-cli
 imap-tools
+snarkvm
