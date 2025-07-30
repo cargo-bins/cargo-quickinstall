@@ -4,3 +4,4 @@ uu_mkdir
 clippy
 cached-path
 pwasm-utils
+human_bytes
