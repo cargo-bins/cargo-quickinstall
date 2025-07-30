@@ -32,3 +32,4 @@ tracexec
 cargo-near
 uv
 mdbook-bookimport
+stellar-scaffold-cli
