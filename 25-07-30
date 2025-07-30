@@ -8,3 +8,4 @@ clippy
 cargo-fixit
 uv
 cached-path
+dioxus-cli
