@@ -40,3 +40,4 @@ kanidm_tools
 typst-cli
 autogpt
 rls-rustc
+rg
