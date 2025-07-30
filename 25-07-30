@@ -7,3 +7,4 @@ dioxus-cli
 clippy
 stgit
 sniffnet
+cached-path
