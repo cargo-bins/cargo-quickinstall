@@ -43,3 +43,4 @@ tod
 cargo-spellcheck
 rls-rustc
 coreutils
+sea-orm-cli
