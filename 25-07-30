@@ -6,3 +6,4 @@ uu_mkdir
 nextest
 statime-linux
 cached-path
+pwasm-utils
