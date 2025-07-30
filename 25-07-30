@@ -34,3 +34,4 @@ graphql_client_cli
 gitlab-ci-ls
 mdbook-bookimport
 mdbook-linkcheck2
+typst-cli
