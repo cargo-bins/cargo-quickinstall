@@ -12,3 +12,4 @@ pgrx-tests
 holochain
 kani-verifier
 holochain_cli
+rls-rustc
