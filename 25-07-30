@@ -5,3 +5,4 @@ cargo-playdate
 git-repo-manager
 uu_mkdir
 clippy
+cargo-fixit
