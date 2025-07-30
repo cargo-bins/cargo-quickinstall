@@ -25,3 +25,4 @@ holochain
 kani-verifier
 cargo-local-registry
 gitui
+rls-rustc
