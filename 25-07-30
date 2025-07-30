@@ -7,3 +7,4 @@ nextest
 statime-linux
 cached-path
 pwasm-utils
+ext4_rs
