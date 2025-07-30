@@ -26,3 +26,4 @@ dioxus-cli
 pgrx-tests
 gnostr-legit
 uv
+binstall
