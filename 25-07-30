@@ -5,3 +5,4 @@ clippy
 statime-linux
 binstall
 cached-path
+pwasm-utils
