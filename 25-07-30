@@ -44,3 +44,4 @@ cargo-spellcheck
 rls-rustc
 coreutils
 sea-orm-cli
+imap-tools
