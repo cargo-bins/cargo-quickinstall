@@ -32,3 +32,4 @@ imap-tools
 pgrx-tests
 graphql_client_cli
 gitlab-ci-ls
+mdbook-bookimport
