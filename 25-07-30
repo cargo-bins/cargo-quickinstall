@@ -7,3 +7,4 @@ pwasm-utils
 human_bytes
 pgrx-tests
 holochain
+rls-rustc
