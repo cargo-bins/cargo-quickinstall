@@ -10,3 +10,4 @@ pwasm-utils
 cargo-generate
 pgrx-tests
 holochain
+kani-verifier
