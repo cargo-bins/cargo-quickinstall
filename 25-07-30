@@ -12,3 +12,4 @@ dioxus-cli
 rg
 pwasm-utils
 wmi
+nu_plugin_gstat
