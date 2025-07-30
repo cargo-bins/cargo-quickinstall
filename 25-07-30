@@ -26,3 +26,4 @@ kani-verifier
 cargo-local-registry
 gitui
 rls-rustc
+snarkvm
