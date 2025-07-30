@@ -41,3 +41,4 @@ bluetui
 tracexec
 tod
 cargo-spellcheck
+rls-rustc
