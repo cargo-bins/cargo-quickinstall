@@ -23,3 +23,4 @@ dx-cli
 argus-cli
 holochain
 kani-verifier
+cargo-local-registry
