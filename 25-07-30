@@ -28,3 +28,4 @@ gnostr-legit
 uv
 binstall
 crates-mirror
+nu_plugin_gstat
