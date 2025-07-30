@@ -18,3 +18,4 @@ nu_plugin_gstat
 pwasm-utils
 nu_plugin_query
 tod
+mdbook-linkcheck2
