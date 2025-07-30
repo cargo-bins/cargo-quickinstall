@@ -5,3 +5,4 @@ sn_node_rpc_client
 clippy
 statime-linux
 holochain_cli
+cached-path
