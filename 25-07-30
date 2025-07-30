@@ -8,3 +8,4 @@ cached-path
 pwasm-utils
 cargo-playdate
 human_bytes
+binstall
