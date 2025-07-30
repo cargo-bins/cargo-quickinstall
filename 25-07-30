@@ -6,3 +6,4 @@ git-repo-manager
 uu_mkdir
 clippy
 cargo-fixit
+uv
