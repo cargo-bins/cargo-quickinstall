@@ -13,3 +13,4 @@ holochain
 kani-verifier
 holochain_cli
 rls-rustc
+snarkvm
