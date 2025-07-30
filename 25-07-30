@@ -7,3 +7,4 @@ uu_mkdir
 clippy
 cargo-fixit
 uv
+cached-path
