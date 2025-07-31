@@ -27,3 +27,4 @@ fortanix-sgx-tools
 cargo-embed
 porsmo
 rg
+sgxs-tools
