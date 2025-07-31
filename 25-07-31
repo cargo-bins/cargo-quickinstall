@@ -20,3 +20,4 @@ pwasm-utils
 human_name
 nu_plugin_query
 stellar-scaffold-cli
+fortanix-sgx-tools
