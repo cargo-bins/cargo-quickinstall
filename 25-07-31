@@ -7,3 +7,4 @@ kani-verifier
 cargo-local-registry
 pwasm-utils
 cargo-local-registry
+human_name
