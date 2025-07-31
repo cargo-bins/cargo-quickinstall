@@ -22,3 +22,4 @@ nu_plugin_query
 stellar-scaffold-cli
 fortanix-sgx-tools
 wiki-tui
+coreutils
