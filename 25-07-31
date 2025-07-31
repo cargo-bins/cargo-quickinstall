@@ -16,3 +16,4 @@ cargo-flash
 nu_plugin_query
 cargo-spellcheck
 graphql_client_cli
+pwasm-utils
