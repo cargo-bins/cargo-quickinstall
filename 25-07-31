@@ -20,3 +20,4 @@ nextest
 human_name
 graphql_client_cli
 neovide
+cargo-embed
