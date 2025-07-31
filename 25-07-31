@@ -3,3 +3,4 @@ dx-cli
 rrule
 rrule
 cargo-maelstrom
+kani-verifier
