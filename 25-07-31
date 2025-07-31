@@ -33,3 +33,4 @@ cargo-dylint
 rg
 clippy
 markdown2pdf
+arrow-flight
