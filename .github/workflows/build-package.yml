@@ -89,11 +89,7 @@ env:
   NO_DEFAULT_FEATURES: ${{ inputs.NO_DEFAULT_FEATURES }}
   BUILD_DIR: ${{ github.workspace }}/built.d
 
-run-name: >-
-  Build Package
-  ${{ inputs.crate }}
-  ${{ inputs.version }} 
-  (${{ inputs.build_os }})
+run-name: Build Package ${{ inputs.crate }} ${{ inputs.version }} (${{ inputs.build_os }})
 
 jobs:
   build-popular-package:
