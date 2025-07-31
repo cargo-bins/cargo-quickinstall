@@ -4,3 +4,4 @@ rrule
 rrule
 kani-verifier
 benfred-read-process-memory
+pwasm-utils
