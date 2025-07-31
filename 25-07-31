@@ -39,3 +39,4 @@ sgxs-tools
 mdbook-linkcheck2
 rga
 fortanix-sgx-tools
+openring
