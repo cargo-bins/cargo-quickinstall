@@ -19,3 +19,4 @@ graphql_client_cli
 pwasm-utils
 human_name
 nu_plugin_query
+stellar-scaffold-cli
