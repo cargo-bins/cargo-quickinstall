@@ -10,3 +10,4 @@ rrule
 t-rec
 sea-orm-cli
 silicon
+pwasm-utils
