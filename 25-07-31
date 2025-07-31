@@ -3,3 +3,4 @@ cargo-generate
 rrule
 rrule
 kani-verifier
+benfred-read-process-memory
