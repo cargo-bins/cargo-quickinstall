@@ -6,3 +6,4 @@ cargo-maelstrom
 kani-verifier
 cargo-local-registry
 pwasm-utils
+cargo-local-registry
