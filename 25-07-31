@@ -5,3 +5,4 @@ rrule
 cargo-maelstrom
 kani-verifier
 cargo-local-registry
+pwasm-utils
