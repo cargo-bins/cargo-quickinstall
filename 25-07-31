@@ -2,3 +2,4 @@ nextest
 cargo-dylint
 z3tracer
 imap-tools
+rg
