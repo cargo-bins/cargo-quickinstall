@@ -34,3 +34,4 @@ autogpt
 pluginlab
 cargo-flash
 clippy
+fortanix-sgx-tools
