@@ -25,3 +25,4 @@ wiki-tui
 coreutils
 fortanix-sgx-tools
 cargo-embed
+porsmo
