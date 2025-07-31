@@ -18,3 +18,4 @@ nu_plugin_gstat
 pwasm-utils
 nextest
 human_name
+graphql_client_cli
