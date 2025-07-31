@@ -41,3 +41,4 @@ sgxs-tools
 grepq
 sniffnet
 stellar-scaffold-cli
+addr2line
