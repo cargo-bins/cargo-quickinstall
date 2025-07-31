@@ -16,3 +16,4 @@ easytier
 graphql_client_cli
 nu_plugin_gstat
 pwasm-utils
+nextest
