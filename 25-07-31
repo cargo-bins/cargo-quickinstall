@@ -14,3 +14,4 @@ stellar-scaffold-cli
 cargo-bundle
 cargo-flash
 nu_plugin_query
+cargo-spellcheck
