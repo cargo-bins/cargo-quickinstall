@@ -48,3 +48,4 @@ tendermint-rpc
 addr2line
 phf_generator
 cargo-depsize
+cargo-public-api
