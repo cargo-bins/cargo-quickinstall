@@ -42,3 +42,4 @@ cargo-depsize
 pmat
 redoxer
 cargo-mobile2
+nextest
