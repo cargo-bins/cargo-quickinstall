@@ -52,3 +52,4 @@ qsv
 phf_generator
 cargo-list
 cargo-depsize
+ffsend
