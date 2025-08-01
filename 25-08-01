@@ -21,3 +21,4 @@ openring
 simple-http-server
 sync_dis_boi
 mdbook-linkcheck2
+addr2line
