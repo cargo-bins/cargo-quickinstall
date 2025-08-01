@@ -50,3 +50,4 @@ phf_generator
 cargo-depsize
 cargo-public-api
 fend
+stellar-xdr
