@@ -50,3 +50,4 @@ star-history
 cargo-depsize
 qsv
 phf_generator
+cargo-list
