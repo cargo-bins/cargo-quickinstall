@@ -8,3 +8,4 @@ sea-orm-cli
 cargo-mobile2
 tendermint-rpc
 phf_generator
+stellar-xdr
