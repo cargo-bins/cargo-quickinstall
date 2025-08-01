@@ -10,3 +10,4 @@ cargo-public-api
 ffsend
 stellar-scaffold-cli
 sgxs-tools
+simple-http-server
