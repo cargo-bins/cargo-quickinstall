@@ -3,3 +3,4 @@ cargo-seek
 raw-cpuid
 sgxs-tools
 grepq
+stellar-scaffold-cli
