@@ -49,3 +49,4 @@ tendermint-rpc
 star-history
 cargo-depsize
 qsv
+phf_generator
