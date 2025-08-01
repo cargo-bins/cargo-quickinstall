@@ -9,3 +9,4 @@ dioxus-cli
 cargo-public-api
 ffsend
 stellar-scaffold-cli
+sgxs-tools
