@@ -39,3 +39,4 @@ simple-http-server
 cargo-mobile2
 metaboss
 addr2line
+cargo-public-api
