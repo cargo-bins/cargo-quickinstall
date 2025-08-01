@@ -16,3 +16,4 @@ statime-linux
 lux-cli
 tendermint-rpc
 lux-cli
+phf_generator
