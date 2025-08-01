@@ -5,3 +5,4 @@ holochain_keystore
 uu_whoami
 proof-of-sql
 statime-linux
+tendermint-rpc
