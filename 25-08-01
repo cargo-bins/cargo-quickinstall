@@ -6,3 +6,4 @@ solana-stake-accounts
 proof-of-sql
 sea-orm-cli
 cargo-mobile2
+tendermint-rpc
