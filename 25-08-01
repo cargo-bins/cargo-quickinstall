@@ -47,3 +47,4 @@ cargo-mobile2
 ffsend
 tendermint-rpc
 star-history
+cargo-depsize
