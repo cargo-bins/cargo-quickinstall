@@ -44,3 +44,4 @@ redoxer
 cargo-mobile2
 nextest
 x8
+tendermint-rpc
