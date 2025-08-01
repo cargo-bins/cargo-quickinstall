@@ -17,3 +17,4 @@ nextest
 cargo-spellcheck
 openring
 fend
+hurlfmt
