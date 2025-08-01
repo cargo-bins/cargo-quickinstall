@@ -51,3 +51,4 @@ cargo-depsize
 cargo-public-api
 fend
 stellar-xdr
+probe-rs-tools
