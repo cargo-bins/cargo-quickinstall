@@ -2,3 +2,4 @@ cargo-public-api
 cargo-seek
 raw-cpuid
 sgxs-tools
+grepq
