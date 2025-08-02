@@ -34,3 +34,4 @@ dotenvy
 dx-cli
 racer
 ripunzip
+cargo-interactive-update
