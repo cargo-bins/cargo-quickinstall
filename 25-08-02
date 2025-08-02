@@ -26,3 +26,4 @@ tracexec
 monitord-exporter
 wmi
 argus-cli
+cached-path
