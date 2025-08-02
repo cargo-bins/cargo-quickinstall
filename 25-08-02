@@ -38,3 +38,4 @@ ffsend
 wmi
 youtube-tui
 cargo-interactive-update
+rustup-toolchain-install-master
