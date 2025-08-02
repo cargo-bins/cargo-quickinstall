@@ -31,3 +31,4 @@ human_bytes
 binstall
 cargo-ktra-login
 dotenvy
+dx-cli
