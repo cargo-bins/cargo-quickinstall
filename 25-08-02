@@ -40,3 +40,4 @@ youtube-tui
 cargo-interactive-update
 rustup-toolchain-install-master
 cached-path
+opencv-binding-generator
