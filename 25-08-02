@@ -57,3 +57,4 @@ rustup-toolchain-install-master
 youtube-tui
 sea-orm-cli
 nu_plugin_query
+binstall
