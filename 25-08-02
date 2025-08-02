@@ -8,3 +8,4 @@ libbpf-cargo
 hurl
 hurl
 human_bytes
+dotenvy
