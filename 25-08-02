@@ -12,3 +12,4 @@ dbus-codegen
 tplay
 fake
 cargo-embassy
+lingua
