@@ -10,3 +10,4 @@ rink
 cargo-depsize
 dbus-codegen
 tplay
+fake
