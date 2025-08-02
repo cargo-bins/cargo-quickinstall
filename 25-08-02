@@ -9,3 +9,4 @@ diesel_cli
 diesel_cli
 cargo-list
 lingua
+dotenvy
