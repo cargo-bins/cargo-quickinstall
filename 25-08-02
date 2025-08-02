@@ -45,3 +45,4 @@ nextest
 cargo-interactive-update
 paru
 opencv-binding-generator
+tplay
