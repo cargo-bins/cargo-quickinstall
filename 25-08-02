@@ -16,3 +16,4 @@ fortanix-sgx-tools
 fake
 lingua
 lux-cli
+libbpf-cargo
