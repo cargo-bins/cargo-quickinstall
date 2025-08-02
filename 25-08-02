@@ -13,3 +13,4 @@ nextest
 libbpf-cargo
 xplr
 hurl
+monitord-exporter
