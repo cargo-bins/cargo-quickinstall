@@ -42,3 +42,4 @@ rustup-toolchain-install-master
 cached-path
 opencv-binding-generator
 youtube-tui
+minicbor
