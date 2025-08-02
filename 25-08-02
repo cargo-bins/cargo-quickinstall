@@ -5,3 +5,4 @@ wizer
 cached-path
 monitord-exporter
 nextest
+dbus-codegen
