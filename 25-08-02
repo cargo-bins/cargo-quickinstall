@@ -7,3 +7,4 @@ racer
 wmi
 opencv-binding-generator
 minicbor
+dotenv-flow
