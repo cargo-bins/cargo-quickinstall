@@ -5,3 +5,4 @@ libbpf-cargo
 dotenvy
 racer
 wmi
+opencv-binding-generator
