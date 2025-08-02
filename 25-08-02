@@ -11,3 +11,4 @@ cargo-depsize
 dbus-codegen
 tplay
 fake
+cargo-embassy
