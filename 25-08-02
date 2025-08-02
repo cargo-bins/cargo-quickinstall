@@ -39,3 +39,4 @@ binstall
 openring
 cargo-whatfeatures
 cargo-embed
+wmi
