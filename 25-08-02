@@ -12,3 +12,4 @@ snatch
 tracexec
 nextest
 youtube-tui
+libbpf-cargo
