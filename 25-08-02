@@ -7,3 +7,4 @@ ncspot
 tree-sitter-cli
 fake
 rink
+cargo-depsize
