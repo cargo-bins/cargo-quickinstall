@@ -14,3 +14,4 @@ libbpf-cargo
 xplr
 hurl
 monitord-exporter
+tracexec
