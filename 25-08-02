@@ -27,3 +27,4 @@ monitord-exporter
 wmi
 argus-cli
 cached-path
+opencv-binding-generator
