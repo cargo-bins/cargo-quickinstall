@@ -55,3 +55,4 @@ uu_uname
 rustup-toolchain-install-master
 rustup-toolchain-install-master
 youtube-tui
+sea-orm-cli
