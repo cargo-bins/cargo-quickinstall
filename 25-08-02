@@ -54,3 +54,4 @@ uu_uname
 cargo-whatfeatures
 glim-tui
 diesel_cli
+graphql_client_cli
