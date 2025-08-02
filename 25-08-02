@@ -42,3 +42,4 @@ cargo-embed
 wmi
 ripunzip
 nextest
+cargo-interactive-update
