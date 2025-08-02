@@ -28,3 +28,4 @@ git-mit-install
 cargo-supply-chain
 skim
 tracexec
+dotenvy
