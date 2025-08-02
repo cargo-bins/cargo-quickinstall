@@ -10,3 +10,4 @@ fortanix-sgx-tools
 tracexec
 zellij
 binstall
+dbus-codegen
