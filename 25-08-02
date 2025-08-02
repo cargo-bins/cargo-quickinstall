@@ -7,3 +7,4 @@ dbus-codegen
 libbpf-cargo
 hurl
 hurl
+human_bytes
