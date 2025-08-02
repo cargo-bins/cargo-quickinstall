@@ -12,3 +12,4 @@ zellij
 binstall
 dbus-codegen
 fake
+fortanix-sgx-tools
