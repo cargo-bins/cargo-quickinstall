@@ -57,3 +57,4 @@ diesel_cli
 graphql_client_cli
 dx-cli
 cargo-dylint
+neovide
