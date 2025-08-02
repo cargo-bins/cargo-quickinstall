@@ -25,3 +25,4 @@ fortanix-sgx-tools
 binstall
 skim
 git-mit-install
+cargo-supply-chain
