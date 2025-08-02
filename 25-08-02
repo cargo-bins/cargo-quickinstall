@@ -12,3 +12,4 @@ tracexec
 nextest
 libbpf-cargo
 xplr
+hurl
