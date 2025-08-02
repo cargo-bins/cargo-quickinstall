@@ -38,3 +38,4 @@ cargo-interactive-update
 binstall
 openring
 cargo-whatfeatures
+cargo-embed
