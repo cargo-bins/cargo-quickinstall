@@ -4,3 +4,4 @@ cached-path
 cargo-list
 cargo-list
 dbus-codegen
+libbpf-cargo
