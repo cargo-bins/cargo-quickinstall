@@ -2,3 +2,4 @@ cargo-local-registry
 h3o
 cached-path
 libbpf-cargo
+syd
