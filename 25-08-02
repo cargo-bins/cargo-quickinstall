@@ -3,3 +3,4 @@ cached-path
 lingua
 libbpf-cargo
 human_bytes
+dotenvy
