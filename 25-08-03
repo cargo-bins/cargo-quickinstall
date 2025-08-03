@@ -41,3 +41,4 @@ patch-crate
 bkmr
 soroban-cli
 pcu
+cargo-spellcheck
