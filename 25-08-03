@@ -22,3 +22,4 @@ nu_plugin_query
 cargo-spellcheck
 sniffnet
 ripunzip
+dx-cli
