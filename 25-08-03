@@ -44,3 +44,4 @@ pcu
 cargo-spellcheck
 cargo-unmaintained
 redoxer
+cargo-pgrx
