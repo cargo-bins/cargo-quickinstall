@@ -61,3 +61,4 @@ ragit
 pcu
 cargo-dylint
 cargo-nav
+cargo-lock
