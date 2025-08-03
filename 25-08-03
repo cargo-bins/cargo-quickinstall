@@ -50,3 +50,4 @@ project_init
 dioxus-cli
 leetcode-cli
 nu_plugin_query
+cargo-public-api
