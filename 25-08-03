@@ -11,3 +11,4 @@ zuse
 uu_mktemp
 jless
 pgrx-tests
+cargo-pgrx
