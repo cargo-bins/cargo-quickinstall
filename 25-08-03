@@ -71,3 +71,4 @@ uu_mktemp
 soroban-cli
 nextsv
 cargo-smart-release
+cargo-pgrx
