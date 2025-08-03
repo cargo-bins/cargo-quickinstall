@@ -36,3 +36,4 @@ cargo-dylint
 cargo-whatfeatures
 gitpad
 bkmr
+cargo-spellcheck
