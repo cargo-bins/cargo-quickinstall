@@ -26,3 +26,4 @@ binstall
 leetcode-cli
 cargo-spellcheck
 leetcode-cli
+cargo-pgrx
