@@ -48,3 +48,4 @@ cargo-unmaintained
 cargo-public-api
 project_init
 dioxus-cli
+leetcode-cli
