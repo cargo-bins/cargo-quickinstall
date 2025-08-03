@@ -2,3 +2,4 @@ cargo-interactive-update
 cargo-whatfeatures
 leetcode-cli
 nextest
+dx-cli
