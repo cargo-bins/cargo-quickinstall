@@ -5,3 +5,4 @@ nextest
 dx-cli
 cargo-bundle
 human_name
+nu_plugin_gstat
