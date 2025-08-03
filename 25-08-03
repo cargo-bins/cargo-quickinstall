@@ -82,3 +82,4 @@ pcu
 cargo-nav
 tree-sitter-graph
 nextsv
+unic-langid-impl
