@@ -74,3 +74,4 @@ ttysvr
 soroban-cli
 binstall
 unic-langid-impl
+cargo-pgrx
