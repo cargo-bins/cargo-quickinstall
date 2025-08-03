@@ -41,3 +41,4 @@ sp1-prover
 pcu
 leetcode-cli
 cargo-unmaintained
+sea-orm-cli
