@@ -3,3 +3,4 @@ cargo-whatfeatures
 leetcode-cli
 nextest
 dx-cli
+cargo-bundle
