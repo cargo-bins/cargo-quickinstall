@@ -72,3 +72,4 @@ soroban-cli
 nextsv
 cargo-smart-release
 cargo-pgrx
+pgrx-tests
