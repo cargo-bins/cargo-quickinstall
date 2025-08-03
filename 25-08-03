@@ -32,3 +32,4 @@ cargo-pgrx
 bkmr
 soroban-cli
 sea-orm-cli
+cargo-dylint
