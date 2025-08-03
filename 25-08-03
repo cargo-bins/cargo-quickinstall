@@ -6,3 +6,4 @@ diesel_cli
 cargo-lock
 lingua
 pandora_box
+uu_mktemp
