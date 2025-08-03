@@ -45,3 +45,4 @@ sea-orm-cli
 leetcode-cli
 gitpad
 cargo-unmaintained
+cargo-public-api
