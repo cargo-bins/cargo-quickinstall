@@ -12,3 +12,4 @@ zuse
 uu_mktemp
 cargo-pgrx
 tree-sitter-graph
+unic-langid-impl
