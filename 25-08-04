@@ -11,3 +11,4 @@ parquet
 diesel_cli
 parquet
 systemd-manager
+pgrx-tests
