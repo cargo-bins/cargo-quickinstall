@@ -38,3 +38,4 @@ uu_whoami
 reductstore
 simple-http-server
 cargo-fixit
+llql
