@@ -21,3 +21,4 @@ remove_dir_all
 cargo-bundle
 argus-cli
 probe-run
+mise
