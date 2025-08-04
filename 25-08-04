@@ -52,3 +52,4 @@ build-fs-tree
 cargo-smart-release
 llql
 cargo-fixit
+argus-cli
