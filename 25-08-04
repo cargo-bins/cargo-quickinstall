@@ -14,3 +14,4 @@ systemd-manager
 pgrx-tests
 systemd-manager
 sp1-prover
+remove_dir_all
