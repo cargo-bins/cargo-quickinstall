@@ -9,3 +9,4 @@ nextest
 probe-run
 uv
 papyrus_storage
+parquet
