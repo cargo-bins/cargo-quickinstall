@@ -3,3 +3,4 @@ papyrus_storage
 parquet
 pgrx-tests
 sp1-prover
+remove_dir_all
