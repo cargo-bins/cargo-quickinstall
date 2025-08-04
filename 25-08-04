@@ -12,3 +12,4 @@ pgrx-tests
 systemd-manager
 sp1-prover
 systemd-manager
+socketcan
