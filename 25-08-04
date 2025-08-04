@@ -1,3 +1,4 @@
 dotenv
 papyrus_storage
 parquet
+pgrx-tests
