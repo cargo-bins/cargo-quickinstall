@@ -1,3 +1,4 @@
 dotenv
 coreutils
 sea-orm-cli
+diesel_cli
