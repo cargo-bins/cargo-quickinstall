@@ -10,3 +10,4 @@ diesel_cli
 parquet
 diesel_cli
 parquet
+systemd-manager
