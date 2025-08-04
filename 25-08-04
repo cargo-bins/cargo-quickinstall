@@ -4,3 +4,4 @@ cargo-smart-release
 probe-rs-tools
 patch-crate
 cargo-pgrx
+kanidm_tools
