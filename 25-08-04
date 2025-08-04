@@ -50,3 +50,4 @@ solana-gossip
 z3tracer
 build-fs-tree
 cargo-smart-release
+llql
