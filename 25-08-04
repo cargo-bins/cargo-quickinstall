@@ -41,3 +41,4 @@ cargo-fixit
 llql
 tree-sitter-cli
 solana-gossip
+cargo-bundle
