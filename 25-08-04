@@ -3,3 +3,4 @@ binstall
 cargo-smart-release
 probe-rs-tools
 patch-crate
+cargo-pgrx
