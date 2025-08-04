@@ -1,2 +1,3 @@
 dotenv
 coreutils
+sea-orm-cli
