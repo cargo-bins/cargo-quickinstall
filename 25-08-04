@@ -12,3 +12,4 @@ diesel_cli
 buck2
 pgrx-tests
 lux
+diesel_cli
