@@ -9,3 +9,4 @@ dotenv
 parquet
 honggfuzz
 dotenv
+pgrx-tests
