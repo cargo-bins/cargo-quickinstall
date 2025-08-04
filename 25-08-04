@@ -30,3 +30,4 @@ sp1-prover
 remove_dir_all
 cyme
 kanidm_tools
+mdbook-bib
