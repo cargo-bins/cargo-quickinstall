@@ -19,3 +19,4 @@ mise
 systemd-manager
 uu_mkdir
 deno
+uu_whoami
