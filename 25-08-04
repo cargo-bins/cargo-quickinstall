@@ -40,3 +40,4 @@ simple-http-server
 cargo-fixit
 llql
 tree-sitter-cli
+solana-gossip
