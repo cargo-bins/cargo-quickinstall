@@ -39,3 +39,4 @@ reductstore
 simple-http-server
 cargo-fixit
 llql
+tree-sitter-cli
