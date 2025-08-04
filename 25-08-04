@@ -9,3 +9,4 @@ remove_dir_all
 holochain_keystore
 uu_mkdir
 sn_node_rpc_client
+re_query
