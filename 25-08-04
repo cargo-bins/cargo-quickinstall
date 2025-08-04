@@ -28,3 +28,4 @@ re_query
 binstall
 deno
 uu_whoami
+build-fs-tree
