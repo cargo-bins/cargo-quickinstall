@@ -58,3 +58,4 @@ mise
 deno
 all-smi
 graphql_client_cli
+ruff
