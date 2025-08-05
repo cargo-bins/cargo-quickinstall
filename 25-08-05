@@ -60,3 +60,4 @@ cargo-fixit
 binwalk
 mdcat
 spotify_player
+diesel_cli
