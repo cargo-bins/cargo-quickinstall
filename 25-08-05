@@ -24,3 +24,4 @@ wmi
 solana-validator
 pwasm-utils
 deno
+ext-sort
