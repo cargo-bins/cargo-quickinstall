@@ -16,3 +16,4 @@ all-smi
 gitnow
 cargo-dylint
 argus-cli
+sequoia-sq
