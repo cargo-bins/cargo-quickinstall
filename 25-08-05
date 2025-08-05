@@ -18,3 +18,4 @@ all-smi
 iroh-relay
 all-smi
 cargo-dylint
+reductstore
