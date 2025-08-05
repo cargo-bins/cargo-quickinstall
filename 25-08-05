@@ -61,3 +61,4 @@ graphql_client_cli
 ruff
 ext-sort
 cargo-fixit
+mise
