@@ -22,3 +22,4 @@ cargo-spellcheck
 re_query
 wmi
 solana-validator
+pwasm-utils
