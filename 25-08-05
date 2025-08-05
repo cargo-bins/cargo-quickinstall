@@ -8,3 +8,4 @@ java-locator
 re_query
 addr2line
 solana-validator
+pwasm-utils
