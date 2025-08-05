@@ -14,3 +14,4 @@ fend
 tree-sitter-cli
 all-smi
 gitnow
+cargo-dylint
