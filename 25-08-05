@@ -41,3 +41,4 @@ cargo-dylint
 cargo-fixit
 alacritty
 redoxer
+hurlfmt
