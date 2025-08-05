@@ -67,3 +67,4 @@ simple-http-server
 diesel_cli
 lumen
 deno
+golem-cli
