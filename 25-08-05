@@ -46,3 +46,4 @@ diesel_cli
 cargo-near
 cargo-bundle
 ruff
+cargo-mobile2
