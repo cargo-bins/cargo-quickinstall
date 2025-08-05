@@ -46,3 +46,4 @@ ruff
 sequoia-sq
 spotify_player
 solana-validator
+patch-crate
