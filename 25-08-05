@@ -30,3 +30,4 @@ nu_plugin_gstat
 llql
 re_query
 cargo-fixit
+reductstore
