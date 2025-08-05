@@ -31,3 +31,4 @@ llql
 re_query
 cargo-fixit
 reductstore
+mdbook-linkcheck2
