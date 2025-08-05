@@ -66,3 +66,4 @@ simple-http-server
 simple-http-server
 diesel_cli
 lumen
+deno
