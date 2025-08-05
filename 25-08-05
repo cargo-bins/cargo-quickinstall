@@ -32,3 +32,4 @@ re_query
 cargo-fixit
 reductstore
 mdbook-linkcheck2
+cargo-smart-release
