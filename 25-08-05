@@ -42,3 +42,4 @@ cargo-fixit
 alacritty
 redoxer
 hurlfmt
+diesel_cli
