@@ -19,3 +19,4 @@ iroh-relay
 all-smi
 cargo-dylint
 reductstore
+hurlfmt
