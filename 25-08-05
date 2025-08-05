@@ -45,3 +45,4 @@ hurlfmt
 diesel_cli
 cargo-near
 cargo-bundle
+ruff
