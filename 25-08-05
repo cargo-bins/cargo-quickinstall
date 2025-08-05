@@ -12,3 +12,4 @@ typst-cli
 cargo-spellcheck
 dioxus-cli
 cargo-spellcheck
+markdown2pdf
