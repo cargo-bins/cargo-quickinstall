@@ -7,3 +7,4 @@ schemafy
 dbus-codegen
 foundationdb-gen
 pwasm-utils
+remove_dir_all
