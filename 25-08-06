@@ -41,3 +41,4 @@ binstall
 rust_pixel
 kanidm_tools
 pwasm-utils
+frame-omni-bencher
