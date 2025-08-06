@@ -17,3 +17,4 @@ gst-plugin-webrtc-signalling
 dbus-codegen
 comchan
 gst-plugin-webrtc-signalling
+pwasm-utils
