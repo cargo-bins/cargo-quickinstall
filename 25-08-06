@@ -17,3 +17,4 @@ golem-cli
 simple-http-server
 redoxfs
 bluetui
+ruff
