@@ -26,3 +26,4 @@ sniffnet
 gst-plugin-webrtc-signalling
 remove_dir_all
 comchan
+spider_cli
