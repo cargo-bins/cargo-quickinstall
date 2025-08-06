@@ -31,3 +31,4 @@ nu_plugin_query
 foundationdb-gen
 redoxfs
 h8r
+pwasm-utils
