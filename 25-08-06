@@ -6,3 +6,4 @@ java-locator
 nextest
 nextest
 dbus-codegen
+pwasm-utils
