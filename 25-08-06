@@ -9,3 +9,4 @@ rmesg
 schemafy
 foundationdb-gen
 pwasm-utils
+cargo-local-registry
