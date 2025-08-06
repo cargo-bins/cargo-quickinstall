@@ -13,3 +13,4 @@ deploy
 rmesg
 pwasm-utils
 cargo-embed
+arrow-flight
