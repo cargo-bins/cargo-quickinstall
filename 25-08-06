@@ -9,3 +9,4 @@ dbus-codegen
 pwasm-utils
 remove_dir_all
 uv
+build-fs-tree
