@@ -15,3 +15,4 @@ binwalk
 sniffnet
 ripunzip
 cargo-spellcheck
+nextest
