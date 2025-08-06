@@ -4,3 +4,4 @@ commit_verify
 controller
 java-locator
 schemafy
+dbus-codegen
