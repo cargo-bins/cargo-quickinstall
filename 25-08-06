@@ -28,3 +28,4 @@ remove_dir_all
 comchan
 spider_cli
 build-fs-tree
+human_bytes
