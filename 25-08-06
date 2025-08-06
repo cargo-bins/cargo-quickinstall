@@ -5,3 +5,4 @@ controller
 java-locator
 pwasm-utils
 arrow-flight
+remove_dir_all
