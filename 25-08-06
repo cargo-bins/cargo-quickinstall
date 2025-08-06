@@ -11,3 +11,4 @@ remove_dir_all
 remove_dir_all
 spider_cli
 build-fs-tree
+human_bytes
