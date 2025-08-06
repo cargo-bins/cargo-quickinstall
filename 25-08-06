@@ -12,3 +12,4 @@ pwasm-utils
 cargo-local-registry
 build-fs-tree
 human_bytes
+raw-cpuid
