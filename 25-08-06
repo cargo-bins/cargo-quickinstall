@@ -26,3 +26,4 @@ remove_dir_all
 build-fs-tree
 uv
 human_bytes
+raw-cpuid
