@@ -16,3 +16,4 @@ sniffnet
 ripunzip
 cargo-spellcheck
 nextest
+hurlfmt
