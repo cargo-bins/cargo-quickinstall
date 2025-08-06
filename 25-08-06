@@ -10,3 +10,4 @@ schemafy
 foundationdb-gen
 pwasm-utils
 cargo-local-registry
+build-fs-tree
