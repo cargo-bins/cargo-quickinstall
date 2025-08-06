@@ -44,3 +44,4 @@ spider_cli
 nu_plugin_query
 lumen
 oxyromon
+remove_dir_all
