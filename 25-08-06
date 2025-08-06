@@ -12,3 +12,4 @@ dbus-codegen
 pmat
 nextest
 pmat
+foundationdb-gen
