@@ -5,3 +5,4 @@ all-smi
 tinymist
 graphql_client_cli
 mdbook-linkcheck2
+commit_verify
