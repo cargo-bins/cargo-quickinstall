@@ -21,3 +21,4 @@ java-locator
 dbus-codegen
 gst-plugin-webrtc-signalling
 gst-plugin-webrtc-signalling
+pwasm-utils
