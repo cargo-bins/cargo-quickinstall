@@ -2,3 +2,4 @@ holochain
 cargo-msrv
 commit_verify
 controller
+java-locator
