@@ -26,3 +26,4 @@ sshx
 hurlfmt
 binstall
 frame-omni-bencher
+dbus-codegen
