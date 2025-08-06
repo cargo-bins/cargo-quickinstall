@@ -26,3 +26,4 @@ java-locator
 cargo-bundle
 graphql_client_cli
 hurl
+patch-crate
