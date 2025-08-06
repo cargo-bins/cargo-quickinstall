@@ -10,3 +10,4 @@ dioxus-cli
 kickstart
 dbus-codegen
 pmat
+nextest
