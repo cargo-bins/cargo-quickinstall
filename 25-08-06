@@ -44,3 +44,4 @@ pwasm-utils
 frame-omni-bencher
 tectonic
 rust_pixel
+bluetui
