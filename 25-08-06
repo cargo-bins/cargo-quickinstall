@@ -6,3 +6,4 @@ java-locator
 schemafy
 dbus-codegen
 foundationdb-gen
+pwasm-utils
