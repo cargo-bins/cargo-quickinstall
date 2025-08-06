@@ -16,3 +16,4 @@ cargo-embed
 arrow-flight
 cargo-local-registry
 cargo-embed
+remove_dir_all
