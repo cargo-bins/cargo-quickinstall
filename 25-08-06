@@ -8,3 +8,4 @@ java-locator
 nextest
 dioxus-cli
 kickstart
+dbus-codegen
