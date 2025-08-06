@@ -52,3 +52,4 @@ arti
 remove_dir_all
 spider_cli
 rust_pixel
+build-fs-tree
