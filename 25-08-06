@@ -10,3 +10,4 @@ pwasm-utils
 remove_dir_all
 uv
 build-fs-tree
+human_bytes
