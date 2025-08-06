@@ -30,3 +30,4 @@ crates-tui
 gst-plugin-webrtc-signalling
 spider_cli
 build-fs-tree
+human_bytes
