@@ -7,3 +7,4 @@ graphql_client_cli
 mdbook-linkcheck2
 commit_verify
 controller
+spider_cli
