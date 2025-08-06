@@ -17,3 +17,4 @@ ripunzip
 cargo-spellcheck
 nextest
 hurlfmt
+simple-http-server
