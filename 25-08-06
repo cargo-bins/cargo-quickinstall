@@ -11,3 +11,4 @@ spider_cli
 all-smi
 controller
 hurlfmt
+patch-crate
