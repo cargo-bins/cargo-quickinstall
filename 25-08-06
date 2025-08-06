@@ -4,3 +4,4 @@ commit_verify
 controller
 java-locator
 pwasm-utils
+arrow-flight
