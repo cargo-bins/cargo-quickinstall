@@ -28,3 +28,4 @@ graphql_client_cli
 hurl
 patch-crate
 tinymist
+binstall
