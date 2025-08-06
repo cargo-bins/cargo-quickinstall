@@ -7,3 +7,4 @@ nextest
 nextest
 dbus-codegen
 pwasm-utils
+remove_dir_all
