@@ -24,3 +24,4 @@ kickstart
 nextest
 remove_dir_all
 build-fs-tree
+uv
