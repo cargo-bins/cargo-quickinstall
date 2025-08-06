@@ -26,3 +26,4 @@ gst-plugin-webrtc-signalling
 gst-plugin-webrtc-signalling
 crates-tui
 remove_dir_all
+crates-tui
