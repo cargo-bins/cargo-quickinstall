@@ -19,3 +19,4 @@ cargo-embed
 remove_dir_all
 tectonic
 build-fs-tree
+cargo-embed
