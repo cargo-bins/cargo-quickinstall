@@ -7,3 +7,4 @@ cargo-risczero
 java-locator
 rmesg
 schemafy
+foundationdb-gen
