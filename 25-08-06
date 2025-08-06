@@ -29,3 +29,4 @@ frame-omni-bencher
 dbus-codegen
 nu_plugin_query
 foundationdb-gen
+redoxfs
