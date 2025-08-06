@@ -12,3 +12,4 @@ all-smi
 controller
 hurlfmt
 patch-crate
+spotify_player
