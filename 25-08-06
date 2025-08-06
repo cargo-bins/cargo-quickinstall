@@ -29,3 +29,4 @@ remove_dir_all
 crates-tui
 gst-plugin-webrtc-signalling
 spider_cli
+build-fs-tree
