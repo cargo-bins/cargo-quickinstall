@@ -54,3 +54,4 @@ spider_cli
 rust_pixel
 build-fs-tree
 frame-omni-bencher
+human_bytes
