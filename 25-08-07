@@ -7,3 +7,4 @@ cargo-whatfeatures
 i3stat
 tinymist
 tendermint-rpc
+commit_verify
