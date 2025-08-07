@@ -13,3 +13,4 @@ crates-tui
 dx-cli
 parquet
 rsgen-avro
+foundationdb-gen
