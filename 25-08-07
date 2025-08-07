@@ -16,3 +16,4 @@ diesel_cli
 schemafy
 tectonic
 apollo-router
+iai-callgrind-runner
