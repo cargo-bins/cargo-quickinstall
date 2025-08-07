@@ -9,3 +9,4 @@ commit_verify
 tendermint-rpc
 dx-cli
 apollo-router
+crates-tui
