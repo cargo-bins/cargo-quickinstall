@@ -39,6 +39,10 @@ on:
         description: Skip upload
         default: ""
         type: string
+      skip_signing:
+        description: Skip signing
+        default: ""
+        type: string
   workflow_dispatch:
     inputs:
       crate:
@@ -75,6 +79,10 @@ on:
         type: string
       skip_upload:
         description: Skip upload
+        default: ""
+        type: string
+      skip_signing:
+        description: Skip signing
         default: ""
         type: string
 
@@ -207,6 +215,7 @@ jobs:
           URL: https://github.com/jedisct1/minisign/releases/download/0.11/minisign-0.11-linux.tar.gz
 
       - name: Sign the tarball
+        if: "! inputs.skip_signing"
         run: |
           echo "$MINISIGN_PRIVATE_KEY" > /tmp/minisign-key
           minisign -S -s /tmp/minisign-key -x $SIG_FILENAME -m $BUILD_ARCHIVE
@@ -245,6 +254,7 @@ jobs:
           file: ${{ env.SIG_FILENAME }}
 
       - name: Upload signature
+        if: "! inputs.skip_signing"
         uses: actions/upload-artifact@v4
         with:
           name: signature
