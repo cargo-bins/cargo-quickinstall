@@ -11,3 +11,4 @@ parquet
 rsgen-avro
 foundationdb-gen
 schemafy
+dotenv
