@@ -32,3 +32,4 @@ hurl
 raw-cpuid
 xcp
 stellar-xdr
+cargo-dylint
