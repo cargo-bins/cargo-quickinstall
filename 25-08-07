@@ -18,3 +18,4 @@ dotenv
 cargo-whynot
 raw-cpuid
 stellar-xdr
+winpty-rs
