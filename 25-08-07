@@ -19,3 +19,4 @@ cargo-bundle
 apollo-router
 cargo-dylint
 dotenv
+cargo-bundle
