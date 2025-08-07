@@ -10,3 +10,4 @@ rsgen-avro
 foundationdb-gen
 schemafy
 dotenv
+raw-cpuid
