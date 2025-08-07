@@ -48,3 +48,4 @@ cargo-spellcheck
 redoxfs
 lua-astra
 lua-astra
+winpty-rs
