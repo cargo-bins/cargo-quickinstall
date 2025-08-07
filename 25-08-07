@@ -39,3 +39,4 @@ winpty-rs
 jless
 cargo-checkmate
 qsv
+cargo-info
