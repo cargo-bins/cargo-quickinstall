@@ -3,3 +3,4 @@ cargo-info
 python-project-generator
 clippy
 sudo-rs
+trusted-signing-cli
