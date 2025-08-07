@@ -13,3 +13,4 @@ foundationdb-gen
 schemafy
 dotenv
 solana-genesis
+raw-cpuid
