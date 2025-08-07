@@ -19,3 +19,4 @@ dotenv
 rg
 raw-cpuid
 lux-cli
+stellar-xdr
