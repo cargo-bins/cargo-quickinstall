@@ -19,3 +19,4 @@ hurl
 tree-sitter-cli
 sea-orm-cli
 parquet
+nu_plugin_query
