@@ -7,3 +7,4 @@ apollo-router
 holochain
 sn_node_rpc_client
 re_query
+parquet
