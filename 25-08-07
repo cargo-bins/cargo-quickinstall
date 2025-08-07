@@ -12,3 +12,4 @@ nu_plugin_port_extension
 parquet
 rsgen-avro
 foundationdb-gen
+diesel_cli
