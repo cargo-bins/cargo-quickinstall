@@ -5,3 +5,4 @@ tendermint-rpc
 sn_node_rpc_client
 apollo-router
 holochain
+sn_node_rpc_client
