@@ -33,3 +33,4 @@ raw-cpuid
 xcp
 stellar-xdr
 cargo-dylint
+qsv
