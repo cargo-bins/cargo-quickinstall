@@ -10,3 +10,4 @@ cargo-bundle
 schemafy
 cargo-bundle
 dotenv
+cargo-dylint
