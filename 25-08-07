@@ -11,3 +11,4 @@ schemafy
 cargo-bundle
 dotenv
 cargo-dylint
+solana-genesis
