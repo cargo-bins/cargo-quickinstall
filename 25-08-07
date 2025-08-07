@@ -13,3 +13,4 @@ parquet
 rsgen-avro
 foundationdb-gen
 diesel_cli
+schemafy
