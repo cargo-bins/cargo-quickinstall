@@ -30,3 +30,4 @@ cargo-dylint
 cargo-bundle
 hurl
 raw-cpuid
+xcp
