@@ -16,3 +16,4 @@ rsgen-avro
 foundationdb-gen
 schemafy
 cargo-bundle
+apollo-router
