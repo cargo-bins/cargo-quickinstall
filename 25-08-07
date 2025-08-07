@@ -17,3 +17,4 @@ foundationdb-gen
 schemafy
 cargo-bundle
 apollo-router
+cargo-dylint
