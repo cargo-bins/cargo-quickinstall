@@ -37,12 +37,12 @@ on:
         type: string
       skip_upload:
         description: Skip upload
-        default: ""
-        type: string
+        default: false
+        type: boolean
       skip_signing:
         description: Skip signing
-        default: ""
-        type: string
+        default: false
+        type: boolean
   workflow_dispatch:
     inputs:
       crate:
@@ -79,12 +79,12 @@ on:
         type: string
       skip_upload:
         description: Skip upload
-        default: ""
-        type: string
+        default: false
+        type: boolean
       skip_signing:
         description: Skip signing
-        default: ""
-        type: string
+        default: false
+        type: boolean
 
 concurrency:
   group: build-package-${{ github.event.inputs.crate }}-${{ github.event.inputs.version }}-${{ github.event.inputs.target_arch }}
