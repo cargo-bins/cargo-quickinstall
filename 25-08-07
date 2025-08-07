@@ -8,3 +8,4 @@ re_query
 rg
 uv
 parquet
+rsgen-avro
