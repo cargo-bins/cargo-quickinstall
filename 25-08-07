@@ -16,3 +16,4 @@ foundationdb-gen
 schemafy
 apollo-router
 dotenv
+rg
