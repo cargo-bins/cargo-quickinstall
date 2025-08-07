@@ -21,3 +21,4 @@ sea-orm-cli
 parquet
 nu_plugin_query
 rsgen-avro
+redoxer
