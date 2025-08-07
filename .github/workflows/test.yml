@@ -78,6 +78,9 @@ jobs:
       - uses: ./.github/actions/cronjob-setup
 
       - name: Test python cronjob_scripts
+        run: make check-cronjob-scripts
+
+      - name: Test python cronjob_scripts
         run: make test-cronjob-scripts
         if: github.event_name != 'pull_request'
         env:
