@@ -56,13 +56,15 @@ fmt: ## run rustfmt and ruff format
 	cargo fmt
 	.venv/bin/ruff format cronjob_scripts
 
-.PHONY: test-cronjob-scripts
-test-cronjob-scripts: cronjob_scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob_scripts
+.PHONY: test-cronjob-scripts check-cronjob-scripts
+check-cronjob-scripts: cronjob_scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob_scripts
 	.venv/bin/ruff format --check cronjob_scripts
 	.venv/bin/ruff check cronjob_scripts
 	.venv/bin/python -m unittest discover -s cronjob_scripts
 	.venv/bin/trigger-package-build --help
 	.venv/bin/crates-io-popular-crates
+
+test-cronjob-scripts: cronjob_scripts/.python-deps-updated.timestamp ## run the tests for the python cronjob_scripts
 	.venv/bin/stats
 
 .PHONY: help
