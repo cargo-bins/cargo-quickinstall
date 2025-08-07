@@ -31,3 +31,4 @@ schemafy
 nu_plugin_gstat
 i3stat
 speedtest-rs
+dotenv
