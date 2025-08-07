@@ -30,3 +30,4 @@ raw-cpuid
 sqlx-cli
 stellar-xdr
 winpty-rs
+scoop
