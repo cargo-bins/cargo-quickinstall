@@ -29,3 +29,4 @@ cargo-bundle
 cargo-dylint
 cargo-bundle
 hurl
+raw-cpuid
