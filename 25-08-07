@@ -16,3 +16,4 @@ schemafy
 rg
 dotenv
 cargo-whynot
+raw-cpuid
