@@ -7,3 +7,4 @@ holochain
 re_query
 parquet
 rsgen-avro
+foundationdb-gen
