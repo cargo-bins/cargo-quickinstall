@@ -5,6 +5,7 @@ on:
     branches:
       - main
   pull_request:
+  merge_group:
 
 jobs:
   self-build-with-build-version:
@@ -160,6 +161,7 @@ jobs:
       branch: ${{ github.head_ref }}
       always_build: 1
       skip_upload: true
+      skip_signing: ${{ github.event_name == 'pull_request' }}
 
   # Dummy job to have a stable name for the "all tests pass" requirement
   selfbuild-tests-pass:
