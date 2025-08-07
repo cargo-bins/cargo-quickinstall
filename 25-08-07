@@ -12,3 +12,4 @@ parquet
 rg
 rsgen-avro
 foundationdb-gen
+schemafy
