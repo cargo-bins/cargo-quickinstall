@@ -35,3 +35,4 @@ stellar-xdr
 cargo-dylint
 qsv
 qsv
+winpty-rs
