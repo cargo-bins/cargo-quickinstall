@@ -13,3 +13,4 @@ dotenv
 raw-cpuid
 stellar-xdr
 tuftool
+winpty-rs
