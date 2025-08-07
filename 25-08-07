@@ -21,3 +21,4 @@ raw-cpuid
 lux-cli
 stellar-xdr
 pyapp
+winpty-rs
