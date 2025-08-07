@@ -3,3 +3,4 @@ clippy
 tendermint-rpc
 holochain
 re_query
+parquet
