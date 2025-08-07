@@ -2,3 +2,4 @@ clippy
 mit-pre-commit
 ducc-sys
 tendermint-rpc
+sn_node_rpc_client
