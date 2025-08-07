@@ -12,3 +12,4 @@ apollo-router
 crates-tui
 dx-cli
 parquet
+rsgen-avro
