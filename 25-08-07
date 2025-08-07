@@ -4,3 +4,4 @@ ducc-sys
 tendermint-rpc
 sn_node_rpc_client
 apollo-router
+holochain
