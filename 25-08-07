@@ -10,3 +10,4 @@ dioxus-cli
 rg
 parquet
 rg
+rsgen-avro
