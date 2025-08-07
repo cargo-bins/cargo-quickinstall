@@ -6,6 +6,7 @@ on:
     branches:
       - main
   pull_request:
+  merge_group:
 
 jobs:
   lint:
@@ -78,6 +79,7 @@ jobs:
 
       - name: Test python cronjob_scripts
         run: make test-cronjob-scripts
+        if: github.event_name != 'pull_request'
         env:
           INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
 
