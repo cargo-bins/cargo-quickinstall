@@ -21,3 +21,4 @@ cargo-dylint
 dotenv
 cargo-bundle
 cargo-bundle
+solana-genesis
