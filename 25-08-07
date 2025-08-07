@@ -18,3 +18,4 @@ schemafy
 cargo-bundle
 apollo-router
 cargo-dylint
+dotenv
