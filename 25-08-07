@@ -5,3 +5,4 @@ tendermint-rpc
 apollo-router
 holochain
 re_query
+parquet
