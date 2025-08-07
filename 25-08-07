@@ -3,3 +3,4 @@ clippy
 tendermint-rpc
 apollo-router
 re_query
+parquet
