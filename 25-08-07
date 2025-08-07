@@ -9,3 +9,4 @@ sn_node_rpc_client
 re_query
 parquet
 rsgen-avro
+foundationdb-gen
