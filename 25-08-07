@@ -2,3 +2,4 @@ zuse
 cargo-info
 python-project-generator
 clippy
+sudo-rs
