@@ -19,3 +19,4 @@ graphql_client_cli
 patch-crate
 re_query
 frame-omni-bencher
+speedtest-rs
