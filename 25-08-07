@@ -2,3 +2,4 @@ clippy
 mit-pre-commit
 cargo-embed
 tendermint-rpc
+scoop
