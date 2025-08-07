@@ -9,3 +9,4 @@ foundationdb-gen
 cargo-bundle
 schemafy
 cargo-bundle
+dotenv
