@@ -6,3 +6,4 @@ sudo-rs
 trusted-signing-cli
 tendermint-rpc
 speedtest-rs
+commit_verify
