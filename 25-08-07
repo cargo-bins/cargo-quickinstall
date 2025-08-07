@@ -22,3 +22,4 @@ parquet
 nu_plugin_query
 rsgen-avro
 redoxer
+foundationdb-gen
