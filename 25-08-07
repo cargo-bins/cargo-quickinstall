@@ -12,3 +12,4 @@ rsgen-avro
 foundationdb-gen
 schemafy
 dotenv
+solana-genesis
