@@ -6,3 +6,4 @@ crates-tui
 dx-cli
 crates-tui
 commit_verify
+tendermint-rpc
