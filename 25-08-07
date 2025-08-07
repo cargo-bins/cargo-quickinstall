@@ -20,3 +20,4 @@ patch-crate
 re_query
 frame-omni-bencher
 speedtest-rs
+patch-crate
