@@ -14,3 +14,4 @@ dx-cli
 parquet
 rsgen-avro
 foundationdb-gen
+schemafy
