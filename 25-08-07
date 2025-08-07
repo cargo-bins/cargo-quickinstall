@@ -9,3 +9,4 @@ holochain
 binstall
 re_query
 nu_plugin_port_extension
+parquet
