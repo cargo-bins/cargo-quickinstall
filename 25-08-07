@@ -6,3 +6,4 @@ re_query
 parquet
 rsgen-avro
 foundationdb-gen
+schemafy
