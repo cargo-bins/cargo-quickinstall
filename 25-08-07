@@ -11,3 +11,4 @@ foundationdb-gen
 schemafy
 dotenv
 raw-cpuid
+stellar-xdr
