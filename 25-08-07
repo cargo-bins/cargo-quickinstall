@@ -11,3 +11,4 @@ rg
 parquet
 rg
 rsgen-avro
+foundationdb-gen
