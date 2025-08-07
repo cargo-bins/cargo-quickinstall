@@ -7,3 +7,4 @@ parquet
 rsgen-avro
 foundationdb-gen
 cargo-bundle
+schemafy
