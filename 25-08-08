@@ -29,3 +29,4 @@ cargo-local-registry
 turbo-metrics-cli
 httpmock
 cargo-show
+cargo-graph
