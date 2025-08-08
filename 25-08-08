@@ -6,3 +6,4 @@ solana-cli
 arrow-flight
 human_bytes
 proof-of-sql
+cpp_demangle
