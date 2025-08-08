@@ -2,3 +2,4 @@ libcst
 solana-cli
 arrow-flight
 human_bytes
+cpp_demangle
