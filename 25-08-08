@@ -17,3 +17,4 @@ commit_verify
 probe-rs-cli
 httpmock
 cargo-flash
+winpty-rs
