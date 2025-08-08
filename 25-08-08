@@ -33,3 +33,4 @@ cargo-graph
 zellij
 winpty-rs
 uv
+pwasm-utils
