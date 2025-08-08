@@ -8,3 +8,4 @@ phf_generator
 commit_verify
 httpmock
 zellij
+winpty-rs
