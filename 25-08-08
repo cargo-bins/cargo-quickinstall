@@ -7,3 +7,4 @@ cargo-checkmate
 fend
 cargo-info
 lux-cli
+libcst
