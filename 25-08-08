@@ -26,3 +26,4 @@ phf_generator
 commit_verify
 cargo-graph
 cargo-local-registry
+turbo-metrics-cli
