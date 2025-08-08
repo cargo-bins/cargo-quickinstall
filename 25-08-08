@@ -5,3 +5,4 @@ cached-path
 libcst
 arrow-flight
 cargo-leptos
+human_bytes
