@@ -23,3 +23,4 @@ cargo-checkmate
 cargo-info
 arrow-flight
 bmputil
+lux-cli
