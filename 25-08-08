@@ -13,3 +13,4 @@ commit_verify
 cargo-local-registry
 httpmock
 zellij
+winpty-rs
