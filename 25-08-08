@@ -20,3 +20,4 @@ cargo-flash
 winpty-rs
 ttfb
 pwasm-utils
+cargo-flash
