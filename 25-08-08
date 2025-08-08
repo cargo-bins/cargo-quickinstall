@@ -16,3 +16,4 @@ httpmock
 cargo-flash
 winpty-rs
 pwasm-utils
+dicom-pixeldata
