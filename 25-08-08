@@ -14,3 +14,4 @@ cargo-local-registry
 httpmock
 zellij
 winpty-rs
+pwasm-utils
