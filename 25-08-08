@@ -16,3 +16,4 @@ nu_plugin_query
 uv
 arrow-flight
 cargo-public-api
+tree-sitter-cli
