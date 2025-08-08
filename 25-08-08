@@ -44,3 +44,4 @@ trusted-signing-cli
 blissify
 pwasm-utils
 kickoff
+slint-lsp
