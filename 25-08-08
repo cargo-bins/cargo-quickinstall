@@ -24,3 +24,4 @@ make
 git-mit-relates-to
 phf_generator
 commit_verify
+cargo-graph
