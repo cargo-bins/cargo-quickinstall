@@ -13,3 +13,4 @@ probe-rs-cli
 commit_verify
 cargo-flash
 httpmock
+cargo-flash
