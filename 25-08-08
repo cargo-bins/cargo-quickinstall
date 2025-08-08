@@ -9,3 +9,4 @@ proof-of-sql
 cpp_demangle
 commit_verify
 httpmock
+zellij
