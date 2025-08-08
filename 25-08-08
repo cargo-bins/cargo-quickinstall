@@ -5,3 +5,4 @@ libcst
 solana-cli
 arrow-flight
 human_bytes
+proof-of-sql
