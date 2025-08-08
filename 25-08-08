@@ -7,3 +7,4 @@ textplots
 arrow-flight
 human_bytes
 probe-rs-cli
+probe-rs-debugger
