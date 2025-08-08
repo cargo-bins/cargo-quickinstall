@@ -19,3 +19,4 @@ httpmock
 cargo-flash
 winpty-rs
 ttfb
+pwasm-utils
