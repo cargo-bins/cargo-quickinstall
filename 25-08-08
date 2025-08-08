@@ -6,3 +6,4 @@ make
 turbo-metrics-cli
 ssimulacra2_rs
 textplots
+sqlx-cli
