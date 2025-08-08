@@ -36,3 +36,4 @@ uv
 pwasm-utils
 uv
 cargo-show
+cargo-graph
