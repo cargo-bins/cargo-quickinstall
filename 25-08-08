@@ -31,3 +31,4 @@ httpmock
 cargo-show
 cargo-graph
 zellij
+winpty-rs
