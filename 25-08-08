@@ -42,3 +42,4 @@ httpmock
 mise
 winpty-rs
 dicom-pixeldata
+pwasm-utils
