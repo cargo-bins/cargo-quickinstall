@@ -8,3 +8,4 @@ human_bytes
 proof-of-sql
 cpp_demangle
 commit_verify
+httpmock
