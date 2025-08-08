@@ -42,3 +42,4 @@ deduplicator
 winpty-rs
 trusted-signing-cli
 blissify
+pwasm-utils
