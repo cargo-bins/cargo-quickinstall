@@ -40,3 +40,4 @@ fend
 neovide
 deduplicator
 winpty-rs
+trusted-signing-cli
