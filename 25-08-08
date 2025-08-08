@@ -19,3 +19,4 @@ cargo-public-api
 tree-sitter-cli
 human_bytes
 ripdrag
+nextest
