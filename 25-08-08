@@ -4,3 +4,4 @@ cached-path
 libcst
 solana-cli
 arrow-flight
+human_bytes
