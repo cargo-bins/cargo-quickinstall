@@ -38,3 +38,4 @@ nextest
 httpmock
 fend
 neovide
+deduplicator
