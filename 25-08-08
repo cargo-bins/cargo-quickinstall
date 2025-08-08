@@ -12,3 +12,4 @@ phf_generator
 commit_verify
 cargo-local-registry
 httpmock
+zellij
