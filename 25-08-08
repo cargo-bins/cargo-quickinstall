@@ -10,3 +10,4 @@ httpmock
 zellij
 winpty-rs
 pwasm-utils
+dicom-pixeldata
