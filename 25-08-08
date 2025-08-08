@@ -30,3 +30,4 @@ commit_verify
 bmputil
 httpmock
 winpty-rs
+pwasm-utils
