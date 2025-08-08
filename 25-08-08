@@ -4,3 +4,4 @@ arrow-flight
 human_bytes
 cpp_demangle
 cargo-msrv
+phf_generator
