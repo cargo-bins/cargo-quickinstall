@@ -2,3 +2,4 @@ qsv
 cpp_demangle
 cargo-dylint
 xcp
+cargo-info
