@@ -18,3 +18,4 @@ probe-rs-cli
 httpmock
 cargo-flash
 winpty-rs
+ttfb
