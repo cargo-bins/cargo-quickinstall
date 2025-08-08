@@ -35,3 +35,4 @@ winpty-rs
 uv
 pwasm-utils
 uv
+cargo-show
