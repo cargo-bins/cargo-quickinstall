@@ -11,3 +11,4 @@ commit_verify
 httpmock
 zellij
 winpty-rs
+pwasm-utils
