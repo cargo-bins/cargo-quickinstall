@@ -21,3 +21,4 @@ winpty-rs
 ttfb
 pwasm-utils
 cargo-flash
+dicom-pixeldata
