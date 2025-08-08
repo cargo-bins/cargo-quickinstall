@@ -12,3 +12,4 @@ cpp_demangle
 probe-rs-cli
 commit_verify
 cargo-flash
+httpmock
