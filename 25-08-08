@@ -22,3 +22,4 @@ make
 cpp_demangle
 make
 git-mit-relates-to
+phf_generator
