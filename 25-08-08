@@ -10,3 +10,4 @@ probe-rs-cli
 probe-rs-debugger
 cpp_demangle
 probe-rs-cli
+commit_verify
