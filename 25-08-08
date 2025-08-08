@@ -5,3 +5,4 @@ cargo-whynot
 libcst
 arrow-flight
 pyapp
+human_bytes
