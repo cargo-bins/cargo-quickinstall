@@ -10,3 +10,4 @@ cpp_demangle
 commit_verify
 httpmock
 zellij
+winpty-rs
