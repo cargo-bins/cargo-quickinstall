@@ -29,3 +29,4 @@ bmputil
 commit_verify
 bmputil
 httpmock
+winpty-rs
