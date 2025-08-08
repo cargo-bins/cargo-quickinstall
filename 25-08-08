@@ -10,3 +10,4 @@ pyapp
 pyapp
 probe-rs-debugger
 cargo-whynot
+cpp_demangle
