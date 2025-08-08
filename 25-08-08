@@ -19,3 +19,4 @@ cargo-leptos
 human_bytes
 make
 make
+cpp_demangle
