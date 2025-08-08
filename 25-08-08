@@ -8,3 +8,4 @@ arrow-flight
 human_bytes
 probe-rs-cli
 probe-rs-debugger
+cpp_demangle
