@@ -7,3 +7,4 @@ cargo-msrv
 phf_generator
 commit_verify
 httpmock
+zellij
