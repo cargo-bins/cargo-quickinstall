@@ -32,3 +32,4 @@ cargo-show
 cargo-graph
 zellij
 winpty-rs
+uv
