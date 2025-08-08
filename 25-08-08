@@ -17,3 +17,4 @@ cargo-flash
 winpty-rs
 pwasm-utils
 dicom-pixeldata
+probe-rs-cli
