@@ -27,3 +27,4 @@ commit_verify
 cargo-graph
 cargo-local-registry
 turbo-metrics-cli
+httpmock
