@@ -6,3 +6,4 @@ libcst
 arrow-flight
 cargo-leptos
 human_bytes
+cpp_demangle
