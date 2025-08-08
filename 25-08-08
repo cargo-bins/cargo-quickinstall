@@ -28,3 +28,4 @@ neovide
 slint-lsp
 rg
 diesel_cli
+phf_generator
