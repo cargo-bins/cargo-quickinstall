@@ -14,3 +14,4 @@ commit_verify
 cargo-flash
 httpmock
 cargo-flash
+winpty-rs
