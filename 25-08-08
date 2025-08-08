@@ -20,3 +20,4 @@ human_bytes
 make
 make
 cpp_demangle
+make
