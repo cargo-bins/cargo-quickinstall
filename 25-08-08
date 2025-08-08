@@ -3,3 +3,4 @@ cpp_demangle
 sudo-rs
 tod
 textplots
+cargo-spellcheck
