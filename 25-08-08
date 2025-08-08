@@ -39,3 +39,4 @@ httpmock
 fend
 neovide
 deduplicator
+winpty-rs
