@@ -3,3 +3,4 @@ clippy
 socketcan
 proof-of-sql
 rsgen-avro
+sn_faucet
