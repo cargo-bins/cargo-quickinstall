@@ -1,3 +1,4 @@
 probe-rs-cli
 git-disjoint
 clippy
+probe-rs-debugger
