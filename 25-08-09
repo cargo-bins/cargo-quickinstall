@@ -18,3 +18,4 @@ mit-commit-msg
 cargo-show
 skim
 mle
+remove_dir_all
