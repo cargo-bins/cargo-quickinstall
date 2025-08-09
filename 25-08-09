@@ -6,3 +6,4 @@ socketcan
 cargo-supply-chain
 proof-of-sql
 sqlx-cli
+cargo-graph
