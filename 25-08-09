@@ -28,3 +28,4 @@ maelstrom-run
 lux-cli
 clippy
 libbpf-cargo
+gpgme
