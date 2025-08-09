@@ -18,3 +18,4 @@ exa
 holochain_cli_bundle
 clippy
 libbpf-cargo
+gpgme
