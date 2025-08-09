@@ -10,3 +10,4 @@ diesel_cli
 cargo-list
 proof-of-sql
 onehistory
+rsgen-avro
