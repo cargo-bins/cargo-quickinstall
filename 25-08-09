@@ -33,3 +33,4 @@ kickoff
 dotenvy
 neovide
 agave-install
+cargo-override
