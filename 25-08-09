@@ -5,3 +5,4 @@ probe-rs-cli
 maelstrom-run
 yozefu
 socketcan
+proof-of-sql
