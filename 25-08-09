@@ -4,3 +4,4 @@ yozefu
 probe-rs-cli
 maelstrom-run
 yozefu
+socketcan
