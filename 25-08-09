@@ -5,3 +5,4 @@ binstall
 socketcan
 cargo-supply-chain
 proof-of-sql
+sqlx-cli
