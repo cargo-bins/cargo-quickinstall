@@ -57,3 +57,4 @@ socketcan
 librespot
 bluetool
 libbpf-cargo
+dx-cli
