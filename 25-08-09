@@ -9,3 +9,4 @@ controller
 cargo-override
 proof-of-sql
 avm
+uv
