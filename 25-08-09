@@ -36,3 +36,4 @@ kickoff
 cargo-override
 agave-install
 dotenvy
+bsky-cli
