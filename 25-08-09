@@ -6,3 +6,4 @@ maelstrom-run
 yozefu
 socketcan
 proof-of-sql
+probe-rs-cli
