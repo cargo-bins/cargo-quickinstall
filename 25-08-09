@@ -27,3 +27,4 @@ lux-cli
 maelstrom-run
 lux-cli
 clippy
+libbpf-cargo
