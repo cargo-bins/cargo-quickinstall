@@ -2,3 +2,4 @@ git-disjoint
 clippy
 cargo-show
 binstall
+socketcan
