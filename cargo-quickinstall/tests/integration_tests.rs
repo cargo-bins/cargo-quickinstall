@@ -71,19 +71,21 @@ fn do_dry_run_for_nonexistent_package() {
 
 #[test]
 fn test_get_latest_version() {
+    const CRATE_NAME: &str = "cargo-quickinstall";
+
     let process::Output { status, stdout, .. } = process::Command::new("cargo")
-        .args(["info", "cargo-quickinstall"])
+        .args(["info", CRATE_NAME])
         .stderr(process::Stdio::inherit())
+        .current_dir("../..")
         .output()
         .unwrap();
     assert!(status.success());
 
     let stdout = String::from_utf8_lossy(&stdout);
-    let version_line = stdout
+    let version = stdout
         .lines()
         .find_map(|line| line.strip_prefix("version: "))
         .unwrap();
-    let version = version_line.split_once(" ").unwrap().0;
 
-    assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), version);
+    assert_eq!(get_latest_version(CRATE_NAME).unwrap(), version);
 }
