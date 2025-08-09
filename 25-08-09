@@ -28,3 +28,4 @@ mle
 clippy
 socketcan
 libbpf-cargo
+gpgme
