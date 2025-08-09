@@ -13,3 +13,4 @@ mise
 spider_cli
 clippy
 socketcan
+libbpf-cargo
