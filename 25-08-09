@@ -13,3 +13,4 @@ uu_whoami
 cargo-flash
 yozefu
 maelstrom-run
+probe-rs-debugger
