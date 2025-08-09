@@ -14,3 +14,4 @@ probe-rs-debugger
 uu_whoami
 probe-rs-debugger
 cargo-flash
+cargo-flash
