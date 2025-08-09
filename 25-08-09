@@ -56,3 +56,4 @@ bluetool
 socketcan
 librespot
 bluetool
+libbpf-cargo
