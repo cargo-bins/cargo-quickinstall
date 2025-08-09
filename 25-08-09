@@ -48,3 +48,4 @@ sudo-rs
 uv
 spider_cli
 clippy
+gerust
