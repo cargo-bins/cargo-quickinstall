@@ -51,3 +51,4 @@ clippy
 gerust
 bluetool
 ndpm
+libbpf-cargo
