@@ -15,3 +15,4 @@ uu_whoami
 probe-rs-debugger
 cargo-flash
 cargo-flash
+tree_magic
