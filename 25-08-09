@@ -11,3 +11,4 @@ rsgen-avro
 rsgen-avro
 cargo-show
 uu_whoami
+cargo-graph
