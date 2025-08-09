@@ -8,3 +8,4 @@ proof-of-sql
 sqlx-cli
 cargo-graph
 rsgen-avro
+rsgen-avro
