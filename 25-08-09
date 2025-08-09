@@ -17,3 +17,4 @@ probe-rs-debugger
 tree_magic
 ttfb
 probe-rs-debugger
+probe-rs-cli
