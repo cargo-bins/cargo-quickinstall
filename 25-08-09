@@ -11,3 +11,4 @@ rustfmt
 mit-commit-msg
 skim
 uu_uname
+remove_dir_all
