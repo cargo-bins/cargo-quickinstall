@@ -6,3 +6,4 @@ socketcan
 cargo-list
 controller
 proof-of-sql
+rsgen-avro
