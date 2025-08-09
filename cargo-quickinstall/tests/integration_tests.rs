@@ -79,13 +79,11 @@ fn test_get_latest_version() {
     assert!(status.success());
 
     let stdout = String::from_utf8_lossy(&stdout);
-    let version_line = stdout.lines()
+    let version_line = stdout
+        .lines()
         .find_map(|line| line.strip_prefix("version: "))
         .unwrap();
     let version = version_line.split_once(" ").unwrap().0;
 
-    assert_eq!(
-        get_latest_version("cargo-quickinstall").unwrap(),
-        version
-    );
+    assert_eq!(get_latest_version("cargo-quickinstall").unwrap(), version);
 }
