@@ -4,3 +4,4 @@ clippy
 probe-rs-debugger
 probe-rs-cli
 socketcan
+maelstrom-run
