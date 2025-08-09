@@ -10,3 +10,4 @@ probe-rs-cli
 rsgen-avro
 yozefu
 rsgen-avro
+probe-rs-debugger
