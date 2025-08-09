@@ -7,3 +7,4 @@ cargo-list
 controller
 proof-of-sql
 rsgen-avro
+uu_whoami
