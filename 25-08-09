@@ -7,3 +7,4 @@ sniffnet
 socketcan
 controller
 cargo-override
+proof-of-sql
