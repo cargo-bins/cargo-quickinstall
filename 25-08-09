@@ -6,3 +6,4 @@ kickoff
 sniffnet
 socketcan
 controller
+cargo-override
