@@ -18,3 +18,4 @@ remove_dir_all
 dotenvy
 ncspot
 safe_network
+wiki-tui
