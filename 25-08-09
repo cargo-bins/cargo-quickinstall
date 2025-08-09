@@ -3,3 +3,4 @@ git-disjoint
 clippy
 probe-rs-debugger
 probe-rs-cli
+socketcan
