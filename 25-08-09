@@ -13,3 +13,4 @@ dotenvy
 mise
 spider_cli
 clippy
+libbpf-cargo
