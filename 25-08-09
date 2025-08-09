@@ -36,3 +36,4 @@ agave-install
 cargo-override
 bugstalker
 zap-rs
+graphql_client_cli
