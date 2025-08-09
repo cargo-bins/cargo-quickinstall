@@ -32,3 +32,4 @@ socketcan
 ncspot
 wiki-tui
 chr
+libbpf-cargo
