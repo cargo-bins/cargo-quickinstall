@@ -4,3 +4,4 @@ cargo-show
 binstall
 socketcan
 cargo-supply-chain
+proof-of-sql
