@@ -13,3 +13,4 @@ uv
 nextest
 rsgen-avro
 avm
+bsky-cli
