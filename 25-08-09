@@ -22,3 +22,4 @@ maelstrom-run
 remove_dir_all
 maelstrom-run
 dotenvy
+lux-cli
