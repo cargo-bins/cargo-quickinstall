@@ -3,3 +3,4 @@ clippy
 cargo-show
 binstall
 socketcan
+cargo-supply-chain
