@@ -9,3 +9,4 @@ sqlx-cli
 cargo-graph
 rsgen-avro
 rsgen-avro
+cargo-show
