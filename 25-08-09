@@ -38,3 +38,4 @@ agave-install
 dotenvy
 bsky-cli
 zap-rs
+nu_plugin_query
