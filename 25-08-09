@@ -27,3 +27,4 @@ exa
 mle
 clippy
 socketcan
+libbpf-cargo
