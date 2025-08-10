@@ -43,3 +43,4 @@ cargo-list
 cargo-pgrx
 sea-orm-cli
 dx-cli
+autogpt
