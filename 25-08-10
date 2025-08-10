@@ -3,3 +3,4 @@ tendermint-rpc
 remove_dir_all
 argus-cli
 arrow-flight
+argus-cli
