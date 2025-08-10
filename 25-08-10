@@ -7,3 +7,4 @@ alacritty
 tendermint-rpc
 arrow-flight
 tree-sitter-cli
+rsgen-avro
