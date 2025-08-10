@@ -28,3 +28,4 @@ cargo-duplicated-deps
 dx-cli
 leetcode-cli
 sudo-rs
+arrow-flight
