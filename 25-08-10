@@ -60,3 +60,4 @@ cargo-syu
 rsgen-avro
 cargo-duplicated-deps
 rustup-toolchain-install-master
+cargo-syu
