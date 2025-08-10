@@ -26,3 +26,4 @@ fzf-make
 cargo-spellcheck
 sudo-rs
 alacritty
+leetcode-cli
