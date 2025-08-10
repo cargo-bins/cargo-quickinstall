@@ -5,3 +5,4 @@ cargo-spellcheck
 neovide
 dotenv-flow
 ragit
+sea-orm-cli
