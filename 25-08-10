@@ -48,3 +48,4 @@ bluer-tools
 sea-orm-cli
 wrkflw
 cargo-seek
+cargo-duplicated-deps
