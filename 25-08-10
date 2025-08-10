@@ -58,3 +58,4 @@ rg
 bluetui
 cargo-syu
 rsgen-avro
+cargo-duplicated-deps
