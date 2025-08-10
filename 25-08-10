@@ -37,3 +37,4 @@ bluetool
 probe-rs-tools
 zap-rs
 cargo-syu
+redoxer
