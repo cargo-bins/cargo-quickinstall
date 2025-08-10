@@ -51,3 +51,4 @@ cargo-seek
 cargo-duplicated-deps
 probe-rs-tools
 rg
+rsgen-avro
