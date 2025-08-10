@@ -7,3 +7,4 @@ arrow-flight
 dotenv-flow
 build-fs-tree
 coreos-installer
+rsgen-avro
