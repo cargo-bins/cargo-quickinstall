@@ -3,3 +3,4 @@ dotenv-flow
 alacritty
 tendermint-rpc
 dotenv-flow
+cargo-bundle
