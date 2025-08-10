@@ -17,3 +17,4 @@ gerust
 tendermint-rpc
 bugstalker
 cargo-minify
+sudo-rs
