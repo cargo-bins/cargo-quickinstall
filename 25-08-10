@@ -2,3 +2,4 @@ dotenv-flow
 rav1e
 tendermint-rpc
 remove_dir_all
+argus-cli
