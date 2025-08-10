@@ -34,3 +34,4 @@ dx-cli
 cargo-public-api
 binstall
 cargo-syu
+arrow-flight
