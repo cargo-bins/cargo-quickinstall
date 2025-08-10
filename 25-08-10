@@ -24,3 +24,4 @@ cargo-git
 cargo-proc-debug
 cargo-tag
 cargo-proc-debug
+rsgen-avro
