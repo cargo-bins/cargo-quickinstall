@@ -5,3 +5,4 @@ tendermint-rpc
 arrow-flight
 build-fs-tree
 rsgen-avro
+cargo-lambda
