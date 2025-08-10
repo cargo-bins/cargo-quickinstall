@@ -3,3 +3,4 @@ binstall
 dx-cli
 cargo-spellcheck
 neovide
+dotenv-flow
