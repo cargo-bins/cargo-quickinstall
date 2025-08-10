@@ -42,3 +42,4 @@ gerust
 cargo-list
 cargo-pgrx
 sea-orm-cli
+dx-cli
