@@ -12,3 +12,4 @@ cargo-minify
 dx-cli
 cargo-list
 tendermint-rpc
+cargo-list
