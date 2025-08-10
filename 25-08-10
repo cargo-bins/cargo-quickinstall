@@ -40,3 +40,4 @@ cargo-syu
 redoxer
 sea-orm-cli
 bluetool
+cargo-pgrx
