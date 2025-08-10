@@ -23,3 +23,4 @@ cargo-git
 cargo-git
 cargo-proc-debug
 cargo-tag
+cargo-proc-debug
