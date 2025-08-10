@@ -3,3 +3,4 @@ dotenv-flow
 alacritty
 tendermint-rpc
 arrow-flight
+build-fs-tree
