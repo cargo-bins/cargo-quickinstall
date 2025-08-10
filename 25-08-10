@@ -21,3 +21,4 @@ sudo-rs
 remove_dir_all
 wrkflw
 patch-crate
+cargo-spellcheck
