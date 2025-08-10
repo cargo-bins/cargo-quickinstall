@@ -31,3 +31,4 @@ patch-crate
 redoxer
 binstall
 dx-cli
+cargo-public-api
