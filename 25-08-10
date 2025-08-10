@@ -52,3 +52,4 @@ cargo-duplicated-deps
 probe-rs-tools
 rg
 rsgen-avro
+cargo-minify
