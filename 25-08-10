@@ -5,3 +5,4 @@ remove_dir_all
 argus-cli
 arrow-flight
 dotenv-flow
+build-fs-tree
