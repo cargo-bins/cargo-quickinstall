@@ -16,3 +16,4 @@ fzf-make
 gerust
 tendermint-rpc
 bugstalker
+cargo-minify
