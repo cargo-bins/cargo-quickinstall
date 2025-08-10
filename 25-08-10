@@ -9,3 +9,4 @@ build-fs-tree
 coreos-installer
 rsgen-avro
 coreos-installer
+argus-cli
