@@ -18,3 +18,4 @@ tendermint-rpc
 bugstalker
 cargo-minify
 sudo-rs
+remove_dir_all
