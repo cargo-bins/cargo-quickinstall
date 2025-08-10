@@ -14,3 +14,4 @@ cargo-list
 tendermint-rpc
 cargo-list
 cargo-spellcheck
+cargo-public-api
