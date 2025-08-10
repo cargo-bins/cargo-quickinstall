@@ -20,3 +20,4 @@ cargo-spellcheck
 nu_plugin_query
 dioxus-cli
 leetcode-cli
+fzf-make
