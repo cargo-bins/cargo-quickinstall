@@ -41,3 +41,4 @@ cargo-pgrx
 git-disjoint
 mdbook-linkcheck2
 protox
+cargo-spellcheck
