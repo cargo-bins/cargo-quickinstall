@@ -26,3 +26,4 @@ dotenv
 cargo-pgrx
 git-disjoint
 protox
+foundationdb-gen
