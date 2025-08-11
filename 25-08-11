@@ -40,3 +40,4 @@ cargo-pgrx
 rls-rustc
 dotenv
 rsocktui
+stgit
