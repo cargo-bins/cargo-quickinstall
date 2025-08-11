@@ -10,3 +10,4 @@ diesel_cli
 human_name
 sea-orm-cli
 minicbor
+diesel_cli
