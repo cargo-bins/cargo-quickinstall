@@ -37,3 +37,4 @@ dotenv
 wl-screenrec
 cargo-dylint
 code
+cargo-pgrx
