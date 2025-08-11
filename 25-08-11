@@ -13,3 +13,4 @@ dotenv
 git-disjoint
 cargo-pgrx
 protox
+tree-sitter-cli
