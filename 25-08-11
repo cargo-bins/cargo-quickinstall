@@ -19,3 +19,4 @@ clippy
 argus-cli
 qv
 qv
+dotenv
