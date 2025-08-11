@@ -42,3 +42,4 @@ dotenv
 rsocktui
 stgit
 clippy
+cargo-pgrx
