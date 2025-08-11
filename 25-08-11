@@ -25,3 +25,4 @@ patch-crate
 kanidm_tools
 nu_plugin_plotters
 soroban-cli
+cached-path
