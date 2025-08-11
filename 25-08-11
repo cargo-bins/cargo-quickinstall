@@ -21,3 +21,4 @@ buck2
 mdbook-linkcheck2
 vsd
 cached-path
+clippy
