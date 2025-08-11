@@ -21,3 +21,4 @@ soroban-cli
 cargo-dylint
 tree-sitter-cli
 cargo-smart-release
+patch-crate
