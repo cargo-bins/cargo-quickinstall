@@ -16,3 +16,4 @@ minicbor
 stgit
 cargo-smart-release
 fend
+clippy
