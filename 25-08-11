@@ -48,3 +48,4 @@ git-disjoint
 cargo-dylint
 code
 protox
+foundationdb-gen
