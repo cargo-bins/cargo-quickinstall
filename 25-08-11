@@ -21,3 +21,4 @@ dotenv
 cargo-pgrx
 git-disjoint
 foundationdb-gen
+tree-sitter-cli
