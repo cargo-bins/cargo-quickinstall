@@ -31,3 +31,4 @@ clippy
 buck2
 stgit
 cargo-pgrx
+nu_plugin_plotters
