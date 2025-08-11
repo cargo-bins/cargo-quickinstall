@@ -20,3 +20,4 @@ diesel_cli
 cargo-mobile2
 jless
 cached-path
+human_name
