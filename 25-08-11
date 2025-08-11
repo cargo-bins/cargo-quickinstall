@@ -41,3 +41,4 @@ rls-rustc
 dotenv
 rsocktui
 stgit
+clippy
