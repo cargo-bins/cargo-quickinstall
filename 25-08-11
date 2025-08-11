@@ -20,3 +20,4 @@ jless
 dotenv
 cargo-pgrx
 git-disjoint
+foundationdb-gen
