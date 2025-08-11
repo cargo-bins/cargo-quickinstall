@@ -33,3 +33,4 @@ stgit
 cargo-pgrx
 nu_plugin_plotters
 rustup-toolchain-install-master
+dotenv
