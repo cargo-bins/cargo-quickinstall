@@ -44,3 +44,4 @@ protox
 cargo-spellcheck
 typst_font_manager
 n34
+tree-sitter-cli
