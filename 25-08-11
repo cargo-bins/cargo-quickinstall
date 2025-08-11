@@ -8,3 +8,4 @@ sn_cli
 cached-path
 sn_node_rpc_client
 rls-rustc
+git-disjoint
