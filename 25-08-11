@@ -1,0 +1,1 @@
+coreos-installer
