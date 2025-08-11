@@ -46,3 +46,4 @@ typst_font_manager
 n34
 tree-sitter-cli
 cargo-pgrx
+cargo-dylint
