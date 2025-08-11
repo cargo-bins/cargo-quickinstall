@@ -22,3 +22,4 @@ cargo-dylint
 tree-sitter-cli
 cargo-smart-release
 patch-crate
+kanidm_tools
