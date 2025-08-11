@@ -35,3 +35,4 @@ nu_plugin_plotters
 rustup-toolchain-install-master
 dotenv
 wl-screenrec
+cargo-dylint
