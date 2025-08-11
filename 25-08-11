@@ -25,3 +25,4 @@ cargo-pgrx
 dotenv
 cargo-pgrx
 git-disjoint
+protox
