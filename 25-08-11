@@ -36,3 +36,4 @@ rustup-toolchain-install-master
 dotenv
 wl-screenrec
 cargo-dylint
+code
