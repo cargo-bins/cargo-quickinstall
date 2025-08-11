@@ -18,3 +18,4 @@ cargo-smart-release
 fend
 clippy
 soroban-cli
+cargo-dylint
