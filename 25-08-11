@@ -6,3 +6,4 @@ buck2
 probe-rs-tools
 sea-orm-cli
 uu_mktemp
+rustrict
