@@ -27,3 +27,4 @@ cargo-pgrx
 git-disjoint
 protox
 foundationdb-gen
+tree-sitter-cli
