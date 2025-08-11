@@ -14,3 +14,4 @@ diesel_cli
 cargo-mobile2
 cached-path
 probe-rs-tools
+human_name
