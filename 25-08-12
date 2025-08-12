@@ -56,3 +56,4 @@ httpmock
 trusted-signing-cli
 if-changed
 cargo-ktra-login
+trusted-signing-cli
