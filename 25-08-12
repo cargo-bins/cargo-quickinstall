@@ -53,3 +53,4 @@ if-changed
 oci2git
 arti
 httpmock
+trusted-signing-cli
