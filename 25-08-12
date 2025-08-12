@@ -33,3 +33,4 @@ diesel_cli
 cargo-near
 slint-lsp
 cargo-dylint
+nkeys
