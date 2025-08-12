@@ -38,3 +38,4 @@ iroh-relay
 diesel_cli
 stellar-cli
 dbus-codegen
+nu_plugin_gstat
