@@ -4,3 +4,4 @@ build-fs-tree
 nkeys
 dbus-codegen
 aparte
+tree-sitter-graph
