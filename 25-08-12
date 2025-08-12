@@ -58,3 +58,4 @@ dioxus-cli
 cargo-dylint
 if-changed
 uv
+bluer-tools
