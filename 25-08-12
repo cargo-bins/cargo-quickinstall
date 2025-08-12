@@ -5,3 +5,4 @@ build-fs-tree
 nkeys
 dbus-codegen
 tree-sitter-graph
+textplots
