@@ -60,3 +60,4 @@ if-changed
 uv
 bluer-tools
 httpmock
+cargo-flash
