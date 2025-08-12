@@ -49,3 +49,4 @@ ext-sort
 cargo-ktra-login
 cargo-dylint
 wol-rs
+if-changed
