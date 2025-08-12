@@ -55,3 +55,4 @@ arti
 httpmock
 trusted-signing-cli
 if-changed
+cargo-ktra-login
