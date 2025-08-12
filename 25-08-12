@@ -56,3 +56,4 @@ tod
 wol-rs
 dioxus-cli
 cargo-dylint
+if-changed
