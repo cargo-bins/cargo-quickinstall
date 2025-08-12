@@ -14,3 +14,4 @@ probe-rs-tools
 solana-faucet
 cargo-spellcheck
 hurl
+build-fs-tree
