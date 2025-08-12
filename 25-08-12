@@ -53,3 +53,4 @@ ext-sort
 nu_plugin_gstat
 diesel_cli
 tod
+wol-rs
