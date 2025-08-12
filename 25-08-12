@@ -20,3 +20,4 @@ cargo-spellcheck
 dbus-codegen
 tree-sitter-graph
 textplots
+ext-sort
