@@ -9,3 +9,4 @@ cargo-spellcheck
 dioxus-cli
 solana-faucet
 cargo-spellcheck
+build-fs-tree
