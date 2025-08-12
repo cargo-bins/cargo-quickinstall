@@ -47,3 +47,4 @@ nu_plugin_gstat
 uv
 ext-sort
 cargo-ktra-login
+cargo-dylint
