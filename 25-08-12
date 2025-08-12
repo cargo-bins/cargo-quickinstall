@@ -19,3 +19,4 @@ cargo-spellcheck
 cargo-spellcheck
 dbus-codegen
 tree-sitter-graph
+textplots
