@@ -50,3 +50,4 @@ cargo-ktra-login
 cargo-dylint
 wol-rs
 if-changed
+oci2git
