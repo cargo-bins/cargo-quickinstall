@@ -60,3 +60,4 @@ trusted-signing-cli
 fend
 cargo-flash
 autumnus
+oci2git
