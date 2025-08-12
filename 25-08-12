@@ -16,3 +16,4 @@ solana-stake-accounts
 solana-tokens
 rls-rustc
 rsocktui
+cargo-public-api
