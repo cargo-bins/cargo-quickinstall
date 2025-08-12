@@ -2,3 +2,4 @@ openpty
 binstall
 build-fs-tree
 nkeys
+dbus-codegen
