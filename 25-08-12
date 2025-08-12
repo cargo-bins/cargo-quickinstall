@@ -22,3 +22,4 @@ miro-pdf
 nkeys
 dbus-codegen
 parquet
+tree-sitter-graph
