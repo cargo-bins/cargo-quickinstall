@@ -4,3 +4,4 @@ binstall
 build-fs-tree
 dbus-codegen
 aparte
+tree-sitter-graph
