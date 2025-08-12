@@ -40,3 +40,4 @@ stellar-cli
 dbus-codegen
 nu_plugin_gstat
 bkmr
+cargo-public-api
