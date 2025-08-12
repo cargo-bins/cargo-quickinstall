@@ -55,3 +55,4 @@ diesel_cli
 tod
 wol-rs
 dioxus-cli
+cargo-dylint
