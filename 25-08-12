@@ -54,3 +54,4 @@ nu_plugin_gstat
 diesel_cli
 tod
 wol-rs
+dioxus-cli
