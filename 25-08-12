@@ -41,3 +41,4 @@ dbus-codegen
 nu_plugin_gstat
 bkmr
 cargo-public-api
+tree-sitter-graph
