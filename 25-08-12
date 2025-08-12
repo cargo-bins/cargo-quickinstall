@@ -2,3 +2,4 @@ openpty
 cargo-supply-chain
 cargo-supply-chain
 parquet
+sqlx-cli
