@@ -13,3 +13,4 @@ build-fs-tree
 cargo-spellcheck
 solana-stake-accounts
 nkeys
+dbus-codegen
