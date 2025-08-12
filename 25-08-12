@@ -36,3 +36,4 @@ cargo-dylint
 nkeys
 iroh-relay
 diesel_cli
+stellar-cli
