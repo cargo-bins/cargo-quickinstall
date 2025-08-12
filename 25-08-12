@@ -24,3 +24,4 @@ dbus-codegen
 parquet
 tree-sitter-graph
 textplots
+ext-sort
