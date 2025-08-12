@@ -42,3 +42,4 @@ nu_plugin_gstat
 i3stat
 patch-crate
 textplots
+trusted-signing-cli
