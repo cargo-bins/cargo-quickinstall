@@ -3,3 +3,4 @@ solana-stake-accounts
 solana-faucet
 build-fs-tree
 nkeys
+dbus-codegen
