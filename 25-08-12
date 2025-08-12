@@ -44,3 +44,4 @@ patch-crate
 textplots
 trusted-signing-cli
 nu_plugin_gstat
+uv
