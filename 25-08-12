@@ -45,3 +45,4 @@ textplots
 trusted-signing-cli
 nu_plugin_gstat
 uv
+ext-sort
