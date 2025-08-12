@@ -35,3 +35,4 @@ slint-lsp
 cargo-dylint
 nkeys
 iroh-relay
+diesel_cli
