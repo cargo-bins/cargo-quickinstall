@@ -5,3 +5,4 @@ parquet
 sqlx-cli
 git-mit-relates-to
 miro-pdf
+honggfuzz
