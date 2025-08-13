@@ -6,3 +6,4 @@ rsgen-avro
 sea-orm-cli
 tod
 waybar-module-pacman-updates
+httpmock
