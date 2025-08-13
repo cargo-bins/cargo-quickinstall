@@ -3,3 +3,4 @@ ext-sort
 tendermint-rpc
 hk
 rsgen-avro
+httpmock
