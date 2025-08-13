@@ -5,3 +5,4 @@ dioxus-cli
 if-changed
 tendermint-rpc
 rsgen-avro
+httpmock
