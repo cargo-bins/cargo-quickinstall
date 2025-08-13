@@ -6,3 +6,4 @@ dioxus-cli
 rsgen-avro
 gitcal
 httpmock
+hurl
