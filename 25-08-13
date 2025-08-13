@@ -43,3 +43,4 @@ java-locator
 patch-crate
 cargo-embed
 uu_uname
+graphql_client_cli
