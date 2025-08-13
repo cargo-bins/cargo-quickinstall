@@ -28,3 +28,4 @@ probe-rs-tools
 cargo-list
 hurl
 mise
+z3tracer
