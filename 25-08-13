@@ -35,3 +35,4 @@ gst-plugin-webrtc-signalling
 oso
 gst-plugin-webrtc-signalling
 uu_cp
+winpty-rs
