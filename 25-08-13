@@ -3,3 +3,4 @@ tendermint-rpc
 wizer
 binstall
 rsgen-avro
+httpmock
