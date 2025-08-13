@@ -21,3 +21,4 @@ nu_plugin_gstat
 hurl
 nextest
 controller
+cargo-spellcheck
