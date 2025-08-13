@@ -10,3 +10,4 @@ oso
 sn_node_rpc_client
 uu_cp
 winpty-rs
+sha1collisiondetection
