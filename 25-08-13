@@ -2,3 +2,4 @@ buck2
 ext-sort
 tendermint-rpc
 rsgen-avro
+httpmock
