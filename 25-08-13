@@ -26,3 +26,4 @@ cargo-info
 lumen
 cargo-public-api
 z3tracer
+schematools-cli
