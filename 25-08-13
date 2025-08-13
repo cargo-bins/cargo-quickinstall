@@ -3,3 +3,4 @@ ext-sort
 lan-mouse
 tendermint-rpc
 rsgen-avro
+sea-orm-cli
