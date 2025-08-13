@@ -4,3 +4,4 @@ waybar-module-pacman-updates
 dioxus-cli
 if-changed
 tendermint-rpc
+rsgen-avro
