@@ -24,3 +24,4 @@ controller
 cargo-spellcheck
 cargo-info
 lumen
+cargo-public-api
