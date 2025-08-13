@@ -49,3 +49,4 @@ cargo-dylint
 rimage
 pads
 if-changed
+nu_plugin_query
