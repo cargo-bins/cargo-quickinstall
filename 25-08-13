@@ -6,3 +6,4 @@ if-changed
 tendermint-rpc
 rsgen-avro
 httpmock
+lan-mouse
