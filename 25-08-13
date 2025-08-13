@@ -2,3 +2,4 @@ cargo-flash
 ext-sort
 lan-mouse
 tendermint-rpc
+rsgen-avro
