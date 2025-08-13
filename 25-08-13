@@ -2,3 +2,4 @@ cargo-ktra-login
 ext-sort
 waybar-module-pacman-updates
 dioxus-cli
+if-changed
