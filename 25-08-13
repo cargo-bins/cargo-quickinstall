@@ -22,3 +22,4 @@ hurl
 nextest
 controller
 cargo-spellcheck
+cargo-info
