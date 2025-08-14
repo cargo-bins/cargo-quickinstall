@@ -2,3 +2,4 @@ libbpf-cargo
 cargo-info
 mise
 clap-stdin
+cargo-checkmate
