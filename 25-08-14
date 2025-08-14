@@ -4,3 +4,4 @@ alacritty
 lifecycler
 clap-stdin
 nextest
+cargo-embed
