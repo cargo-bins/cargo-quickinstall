@@ -3,3 +3,4 @@ staging-chain-spec-builder
 clap-stdin
 wac
 wac
+wol-rs
