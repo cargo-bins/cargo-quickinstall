@@ -19,3 +19,4 @@ if-changed
 a11ywatch_cli
 nextest
 spotify_player
+binwalk
