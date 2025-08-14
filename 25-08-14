@@ -3,3 +3,4 @@ kanidm_tools
 clap-stdin
 staging-chain-spec-builder
 kanidm_tools
+wol-rs
