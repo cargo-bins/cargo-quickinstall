@@ -9,3 +9,4 @@ clap-stdin
 spl-token-cli
 cargo-fixit
 syd
+git-leave
