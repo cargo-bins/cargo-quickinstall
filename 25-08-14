@@ -6,3 +6,4 @@ clap-stdin
 nextest
 cargo-embed
 mdcat
+spotify_player
