@@ -2,3 +2,4 @@ libbpf-cargo
 dfft
 alacritty
 lifecycler
+clap-stdin
