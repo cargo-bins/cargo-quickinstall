@@ -2,3 +2,4 @@ libbpf-cargo
 clap-stdin
 syd
 wol-rs
+a11ywatch_cli
