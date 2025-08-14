@@ -5,3 +5,4 @@ clap-stdin
 cargo-checkmate
 cargo-info
 syd
+wol-rs
