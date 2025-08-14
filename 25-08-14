@@ -9,3 +9,4 @@ diesel_cli
 staging-chain-spec-builder
 unic-langid-impl
 solana-validator
+git-disjoint
