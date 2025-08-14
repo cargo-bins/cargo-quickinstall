@@ -2,3 +2,4 @@ libbpf-cargo
 clap-stdin
 wol-rs
 rustrict
+a11ywatch_cli
