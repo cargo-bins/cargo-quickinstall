@@ -5,3 +5,4 @@ code
 cargo-fixit
 if-changed
 iroh-relay
+clap-stdin
