@@ -47,3 +47,4 @@ sea-orm-cli
 cargo-info
 deploy
 paru
+tendermint-rpc
