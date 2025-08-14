@@ -13,3 +13,4 @@ kanidm_tools
 kickstart
 solana-validator
 git-disjoint
+dotenv
