@@ -14,3 +14,4 @@ kickstart
 solana-validator
 git-disjoint
 dotenv
+human_name
