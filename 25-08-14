@@ -6,3 +6,4 @@ cargo-fixit
 if-changed
 iroh-relay
 clap-stdin
+spl-token-cli
