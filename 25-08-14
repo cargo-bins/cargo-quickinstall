@@ -7,3 +7,4 @@ wol-rs
 rustrict
 staging-chain-spec-builder
 staging-chain-spec-builder
+diesel_cli
