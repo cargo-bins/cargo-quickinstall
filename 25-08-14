@@ -32,3 +32,4 @@ solana-validator
 patch-crate
 git-disjoint
 dotenv
+deno
