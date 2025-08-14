@@ -13,3 +13,4 @@ qsv
 a11ywatch_cli
 qsv
 safe_network
+httpmock
