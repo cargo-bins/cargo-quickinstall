@@ -3,3 +3,4 @@ clap-stdin
 syd
 wol-rs
 rustfmt
+rustrict
