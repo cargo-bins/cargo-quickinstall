@@ -5,3 +5,4 @@ lifecycler
 clap-stdin
 nextest
 cargo-embed
+mdcat
