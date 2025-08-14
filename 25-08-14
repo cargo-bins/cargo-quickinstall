@@ -36,3 +36,4 @@ schemafy
 lux-cli
 wac
 tendermint-rpc
+ducc-sys
