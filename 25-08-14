@@ -8,3 +8,4 @@ safe_network
 diesel_cli
 unic-langid-impl
 solana-validator
+git-disjoint
