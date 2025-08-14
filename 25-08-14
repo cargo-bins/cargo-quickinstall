@@ -21,3 +21,4 @@ cargo-fixit
 cyme
 if-changed
 httpmock
+cargo-flash
