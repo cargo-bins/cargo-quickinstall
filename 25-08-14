@@ -1,3 +1,4 @@
 libbpf-cargo
 staging-chain-spec-builder
 clap-stdin
+wac
