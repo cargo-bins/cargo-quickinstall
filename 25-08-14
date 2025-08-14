@@ -30,3 +30,4 @@ lifecycler
 solana-validator
 vsd
 git-disjoint
+cargo-near
