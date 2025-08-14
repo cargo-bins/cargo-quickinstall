@@ -17,3 +17,4 @@ cargo-dylint
 a11ywatch_cli
 lifecycler
 safe_network
+cargo-fixit
