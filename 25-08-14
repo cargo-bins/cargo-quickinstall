@@ -7,3 +7,4 @@ wol-rs
 staging-chain-spec-builder
 diesel_cli
 staging-chain-spec-builder
+unic-langid-impl
