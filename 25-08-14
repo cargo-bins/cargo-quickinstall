@@ -3,3 +3,4 @@ clap-stdin
 wol-rs
 rustrict
 a11ywatch_cli
+safe_network
