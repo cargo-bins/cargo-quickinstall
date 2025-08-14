@@ -8,3 +8,4 @@ iroh-relay
 clap-stdin
 spl-token-cli
 cargo-fixit
+syd
