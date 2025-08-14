@@ -2,3 +2,4 @@ nextest
 libbpf-cargo
 wormhole
 code
+cargo-fixit
