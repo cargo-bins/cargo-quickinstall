@@ -20,3 +20,4 @@ safe_network
 cargo-fixit
 cyme
 if-changed
+httpmock
