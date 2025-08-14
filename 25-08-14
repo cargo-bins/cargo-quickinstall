@@ -2,3 +2,4 @@ libbpf-cargo
 qsv
 mise
 clap-stdin
+xcp
