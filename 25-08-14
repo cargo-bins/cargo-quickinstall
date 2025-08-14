@@ -1,2 +1,3 @@
 libbpf-cargo
 kanidm_tools
+clap-stdin
