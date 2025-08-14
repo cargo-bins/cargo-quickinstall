@@ -7,3 +7,4 @@ cargo-info
 syd
 wol-rs
 a11ywatch_cli
+httpmock
