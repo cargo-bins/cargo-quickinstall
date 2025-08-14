@@ -22,3 +22,4 @@ cyme
 if-changed
 httpmock
 cargo-flash
+cargo-info
