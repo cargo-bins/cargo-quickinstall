@@ -16,3 +16,4 @@ gnostr-grep
 dioxus-cli
 uu_chroot
 uu_stty
+phf_generator
