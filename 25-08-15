@@ -18,3 +18,4 @@ nextest
 vsd
 redoxer
 lucky_commit
+wayland-pipewire-idle-inhibit
