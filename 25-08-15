@@ -27,3 +27,4 @@ re_query
 patch-crate
 cargo-spellcheck
 cargo-public-api
+schemafy
