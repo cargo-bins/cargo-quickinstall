@@ -17,3 +17,4 @@ dioxus-cli
 uu_chroot
 uu_stty
 phf_generator
+uu_printenv
