@@ -49,3 +49,4 @@ binstall
 binstall
 rsgen-avro
 if-changed
+neovide
