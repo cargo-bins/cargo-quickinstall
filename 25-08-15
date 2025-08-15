@@ -15,3 +15,4 @@ nu_plugin_query
 re_query
 tendermint-abci
 jless
+schemafy
