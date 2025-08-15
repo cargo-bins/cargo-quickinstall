@@ -10,3 +10,4 @@ cargo-info
 termusic-server
 nail-parquet
 nextest
+clippy
