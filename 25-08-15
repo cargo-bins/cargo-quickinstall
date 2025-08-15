@@ -4,3 +4,4 @@ tendermint-abci
 schemafy
 librespot
 cargo-lambda
+phf_generator
