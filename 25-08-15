@@ -6,3 +6,4 @@ uu_head
 dotenv-flow
 re_query
 tendermint-abci
+systemd-hardening-helper
