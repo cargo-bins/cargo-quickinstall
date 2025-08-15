@@ -9,3 +9,4 @@ uu_mkdir
 ghee
 uu_ln
 re_query
+uu_realpath
