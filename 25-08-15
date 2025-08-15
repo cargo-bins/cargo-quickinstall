@@ -4,3 +4,4 @@ librespot
 cargo-lambda
 phf_generator
 rls-rustc
+rsgen-avro
