@@ -7,3 +7,4 @@ dotenv-flow
 re_query
 tendermint-abci
 systemd-hardening-helper
+schemafy
