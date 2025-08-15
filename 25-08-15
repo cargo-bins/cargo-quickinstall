@@ -25,3 +25,4 @@ coreutils
 blindfold
 re_query
 patch-crate
+cargo-spellcheck
