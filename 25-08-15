@@ -3,3 +3,4 @@ typst-cli
 blindfold
 wiremix
 sea-orm-cli
+cargo-info
