@@ -5,3 +5,4 @@ schemafy
 librespot
 cargo-lambda
 phf_generator
+rsgen-avro
