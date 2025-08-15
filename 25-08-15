@@ -20,3 +20,4 @@ uu_readlink
 phf_generator
 uu_pwd
 ghee
+uu_pathchk
