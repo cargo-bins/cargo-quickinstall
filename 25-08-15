@@ -24,3 +24,4 @@ uu_chmod
 btrfs-dedupe
 debcargo
 uu_echo
+rsgen-avro
