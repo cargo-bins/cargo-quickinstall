@@ -21,3 +21,4 @@ uu_printenv
 uu_nice
 uu_du
 uu_chmod
+btrfs-dedupe
