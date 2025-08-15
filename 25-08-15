@@ -8,3 +8,4 @@ systemd-hardening-helper
 uu_mkdir
 ghee
 uu_ln
+re_query
