@@ -16,3 +16,4 @@ uu_rm
 btrup
 uu_sort
 uu_mv
+uu_readlink
