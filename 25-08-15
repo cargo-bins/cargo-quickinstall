@@ -20,3 +20,4 @@ phf_generator
 uu_printenv
 uu_nice
 uu_du
+uu_chmod
