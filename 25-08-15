@@ -19,3 +19,4 @@ uu_stty
 phf_generator
 uu_printenv
 uu_nice
+uu_du
