@@ -7,3 +7,4 @@ nu_plugin_query
 lux-cli
 nu_plugin_gstat
 lux-cli
+tendermint-abci
