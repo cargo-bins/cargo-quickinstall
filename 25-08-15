@@ -27,3 +27,4 @@ pastebin-cli
 mise
 cargo-smart-release
 statsig-rs
+patch-crate
