@@ -3,3 +3,4 @@ schemafy
 librespot
 cargo-lambda
 phf_generator
+rls-rustc
