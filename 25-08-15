@@ -41,3 +41,4 @@ nu_plugin_gstat
 cargo-bundle
 rsgen-avro
 stellar-scaffold-cli
+nail-parquet
