@@ -25,3 +25,4 @@ gitignored-cli
 cached-path
 wl-screenrec
 gitmoji-rs
+clippy
