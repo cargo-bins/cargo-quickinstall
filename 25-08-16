@@ -5,3 +5,4 @@ dioxus-cli
 puffin_viewer
 pastebin-cli
 debcargo
+cargo-bundle
