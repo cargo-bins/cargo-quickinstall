@@ -11,3 +11,4 @@ leetcode-cli
 cargo-php
 uu_sleep
 uu_shred
+uu_rmdir
