@@ -11,3 +11,4 @@ clippy
 papyrus_storage
 cargo-leptos
 diesel_cli
+dicom-pixeldata
