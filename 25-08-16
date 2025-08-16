@@ -11,3 +11,4 @@ gnostr-grep
 rls-rustc
 cargo-php
 gnostr-grep
+systemd-hardening-helper
