@@ -7,3 +7,4 @@ nextest-filtering
 rls-rustc
 coreutils
 onehistory
+clippy
