@@ -4,3 +4,4 @@ systemd-hardening-helper
 uu_touch
 reflicate
 uu_split
+uu_pathchk
