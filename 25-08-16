@@ -5,3 +5,4 @@ diesel_cli
 diesel_cli
 nextest-filtering
 rls-rustc
+coreutils
