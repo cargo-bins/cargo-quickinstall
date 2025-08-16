@@ -37,3 +37,4 @@ cpp_demangle
 cargo-bundle
 argus-cli
 graphql_client_cli
+safe_network
