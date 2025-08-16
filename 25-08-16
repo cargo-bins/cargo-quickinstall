@@ -10,3 +10,4 @@ rls-rustc
 mit-prepare-commit-msg
 nyoom
 tinty
+clippy
