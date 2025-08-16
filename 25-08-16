@@ -9,3 +9,4 @@ systemd-hardening-helper
 uu_sleep
 gnostr-grep
 rls-rustc
+cargo-php
