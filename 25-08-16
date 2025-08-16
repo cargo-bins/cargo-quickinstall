@@ -16,3 +16,4 @@ argus-cli
 vmt
 nextest-filtering
 rls-rustc
+nextest
