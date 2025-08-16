@@ -15,3 +15,4 @@ imap-tools
 argus-cli
 vmt
 nextest-filtering
+rls-rustc
