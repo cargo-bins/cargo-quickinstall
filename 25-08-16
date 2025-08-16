@@ -19,3 +19,4 @@ rls-rustc
 nextest
 ragit
 tree-sitter-cli
+cached-path
