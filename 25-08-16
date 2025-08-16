@@ -7,3 +7,4 @@ uu_split
 uu_pathchk
 systemd-hardening-helper
 uu_sleep
+gnostr-grep
