@@ -12,3 +12,4 @@ cargo-smart-release
 coreutils
 sniffnet
 imap-tools
+argus-cli
