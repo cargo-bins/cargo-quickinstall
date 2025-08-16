@@ -37,3 +37,4 @@ cargo-bundle
 neovide
 stellar-scaffold-cli
 argus-cli
+gitignored-cli
