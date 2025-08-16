@@ -5,3 +5,4 @@ nextest-filtering
 rls-rustc
 ec2_instance_metadata
 mit-prepare-commit-msg
+clippy
