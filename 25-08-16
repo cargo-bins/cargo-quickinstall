@@ -9,3 +9,4 @@ uu_printenv
 uu_cut
 leetcode-cli
 cargo-php
+uu_sleep
