@@ -15,3 +15,4 @@ systemd-hardening-helper
 sshx
 xsra
 cached-path
+clippy
