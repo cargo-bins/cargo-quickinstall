@@ -3,3 +3,4 @@ sn_faucet
 holochain_cli_bundle
 nextest-filtering
 rls-rustc
+ec2_instance_metadata
