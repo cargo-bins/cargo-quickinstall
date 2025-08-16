@@ -14,3 +14,4 @@ uu_shred
 uu_rmdir
 gnostr-grep
 rls-rustc
+uu_sort
