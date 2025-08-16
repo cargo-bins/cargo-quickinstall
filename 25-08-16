@@ -5,3 +5,4 @@ rls-rustc
 tuftool
 clippy
 clippy
+diesel_cli
