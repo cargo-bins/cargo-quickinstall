@@ -27,3 +27,4 @@ clippy
 sapiens_cli
 tbr
 sapiens_bot
+systemd-hardening-helper
