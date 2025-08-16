@@ -24,3 +24,4 @@ i3stat
 clippy
 cargo-info
 cargo-create
+cargo-bundle
