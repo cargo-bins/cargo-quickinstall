@@ -15,3 +15,4 @@ stellar-scaffold-cli
 nextest-filtering
 redoxer
 stellar-scaffold-cli
+rls-rustc
