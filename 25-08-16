@@ -6,3 +6,4 @@ nyoom
 sqlx-cli
 sqlx-cli
 nextest-filtering
+rls-rustc
