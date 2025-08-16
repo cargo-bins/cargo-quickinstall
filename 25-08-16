@@ -10,3 +10,4 @@ git-mit
 clippy
 papyrus_storage
 cargo-leptos
+diesel_cli
