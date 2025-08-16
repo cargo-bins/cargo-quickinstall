@@ -22,3 +22,4 @@ tree-sitter-cli
 cached-path
 i3stat
 clippy
+cargo-info
