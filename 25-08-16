@@ -43,3 +43,4 @@ cargo-spellcheck
 xplr
 sea-orm-cli
 cargo-bundle
+cve-rs
