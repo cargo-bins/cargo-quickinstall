@@ -18,3 +18,4 @@ nextest-filtering
 rls-rustc
 nextest
 ragit
+tree-sitter-cli
