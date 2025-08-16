@@ -46,3 +46,4 @@ cargo-bundle
 cve-rs
 qmassa
 alacritty
+diesel_cli
