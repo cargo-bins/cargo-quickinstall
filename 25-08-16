@@ -34,3 +34,4 @@ sniffnet
 if-changed
 wiremix
 cpp_demangle
+cargo-bundle
