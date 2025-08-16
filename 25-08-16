@@ -8,3 +8,4 @@ uu_pathchk
 systemd-hardening-helper
 uu_sleep
 gnostr-grep
+rls-rustc
