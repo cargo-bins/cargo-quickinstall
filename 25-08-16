@@ -21,3 +21,4 @@ mit-prepare-commit-msg
 ragit
 neovide
 cargo-bundle
+gitignored-cli
