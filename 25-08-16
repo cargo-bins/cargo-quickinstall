@@ -3,3 +3,4 @@ rls-rustc
 tuftool
 clippy
 safe_network
+diesel_cli
