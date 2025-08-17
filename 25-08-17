@@ -19,3 +19,4 @@ lumen
 uu_whoami
 parquet
 clap-stdin
+ext-sort
