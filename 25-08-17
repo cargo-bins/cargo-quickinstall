@@ -27,3 +27,4 @@ mdcat
 cargo-info
 wrkflw
 probe-run
+dicom-pixeldata
