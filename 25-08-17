@@ -5,3 +5,4 @@ kani-verifier
 httm
 honggfuzz
 foundationdb-gen
+tokio-process
