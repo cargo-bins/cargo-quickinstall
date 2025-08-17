@@ -17,3 +17,4 @@ cargo-create
 gitmoji-rs
 patch-crate
 steelsafe
+cargo-spellcheck
