@@ -19,3 +19,4 @@ parquet
 mdcat
 clap-stdin
 mdcat
+ext-sort
