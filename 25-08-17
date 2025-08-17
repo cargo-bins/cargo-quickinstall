@@ -39,3 +39,4 @@ clap-stdin
 patch-crate
 c2rust
 hurlfmt
+cargo-unmaintained
