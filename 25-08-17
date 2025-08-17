@@ -21,3 +21,4 @@ cargo-spellcheck
 mdcat
 xplr
 graphql_client_cli
+pgrx-tests
