@@ -36,3 +36,4 @@ cargo-whatfeatures
 necessist
 parquet
 clap-stdin
+patch-crate
