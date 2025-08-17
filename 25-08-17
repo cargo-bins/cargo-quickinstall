@@ -35,3 +35,4 @@ gitignored-cli
 cargo-whatfeatures
 necessist
 parquet
+clap-stdin
