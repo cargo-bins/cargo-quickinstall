@@ -46,3 +46,4 @@ cargo-list
 parquet
 probe-rs-cli
 necessist
+clap-stdin
