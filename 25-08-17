@@ -3,3 +3,4 @@ rustbus
 commit_verify
 kani-verifier
 httm
+honggfuzz
