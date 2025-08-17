@@ -18,3 +18,4 @@ sapiens_cli
 dicom-pixeldata
 uu_whoami
 parquet
+clap-stdin
