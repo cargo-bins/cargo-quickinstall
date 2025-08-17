@@ -12,3 +12,4 @@ honggfuzz
 uv
 ty
 pgrx-tests
+foundationdb-gen
