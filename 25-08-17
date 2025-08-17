@@ -11,3 +11,4 @@ dicom-pixeldata
 uu_whoami
 parquet
 clap-stdin
+ext-sort
