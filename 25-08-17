@@ -17,3 +17,4 @@ dicom-pixeldata
 uu_whoami
 parquet
 mdcat
+clap-stdin
