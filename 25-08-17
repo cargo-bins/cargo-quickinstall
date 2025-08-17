@@ -9,3 +9,4 @@ tokio-process
 holochain
 dicom-pixeldata
 uu_whoami
+parquet
