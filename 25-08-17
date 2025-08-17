@@ -26,3 +26,4 @@ foundationdb-gen
 mdcat
 cargo-info
 wrkflw
+probe-run
