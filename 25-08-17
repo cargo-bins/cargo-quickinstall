@@ -48,3 +48,4 @@ probe-rs-cli
 necessist
 clap-stdin
 cargo-info
+gitignored-cli
