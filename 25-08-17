@@ -37,3 +37,4 @@ necessist
 parquet
 clap-stdin
 patch-crate
+c2rust
