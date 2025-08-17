@@ -53,3 +53,4 @@ gitignored-cli
 passepartui
 rg
 archwiki-rs
+git-journal
