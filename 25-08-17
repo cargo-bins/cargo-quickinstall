@@ -10,3 +10,4 @@ holochain
 dicom-pixeldata
 uu_whoami
 parquet
+clap-stdin
