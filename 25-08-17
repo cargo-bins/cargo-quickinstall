@@ -36,3 +36,4 @@ glues
 dicom-pixeldata
 bugstalker
 opencv-binding-generator
+probe-run
