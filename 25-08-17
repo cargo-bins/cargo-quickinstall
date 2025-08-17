@@ -7,3 +7,4 @@ honggfuzz
 foundationdb-gen
 tokio-process
 holochain
+dicom-pixeldata
