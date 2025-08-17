@@ -13,3 +13,4 @@ binwalk
 steelsafe
 sniffnet
 addr2line
+cargo-create
