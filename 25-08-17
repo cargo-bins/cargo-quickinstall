@@ -4,3 +4,4 @@ commit_verify
 kani-verifier
 httm
 honggfuzz
+foundationdb-gen
