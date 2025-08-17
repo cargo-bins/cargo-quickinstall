@@ -20,3 +20,4 @@ net-shell
 uu_whoami
 dioxus-cli
 parquet
+clap-stdin
