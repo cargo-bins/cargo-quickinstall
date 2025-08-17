@@ -10,3 +10,4 @@ parquet
 clap-stdin
 ext-sort
 sark0y_tam_rst
+sha1collisiondetection
