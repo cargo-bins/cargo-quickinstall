@@ -9,3 +9,4 @@ rabbitmqadmin
 probe-run
 sea-orm-cli
 bugstalker
+redoxer
