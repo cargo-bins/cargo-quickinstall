@@ -2,3 +2,4 @@ project_init
 diesel_cli
 apollo-router
 sea-orm-cli
+diesel_cli
