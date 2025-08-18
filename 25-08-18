@@ -7,3 +7,4 @@ tenx
 cargo-public-api
 rabbitmqadmin
 probe-run
+sea-orm-cli
