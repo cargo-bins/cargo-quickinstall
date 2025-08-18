@@ -5,3 +5,4 @@ cargo-spellcheck
 nextest
 tenx
 cargo-public-api
+rabbitmqadmin
