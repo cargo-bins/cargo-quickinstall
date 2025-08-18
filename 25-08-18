@@ -13,3 +13,4 @@ uu_mkdir
 cargo_pup
 argus-cli
 binstall
+nextest-filtering
