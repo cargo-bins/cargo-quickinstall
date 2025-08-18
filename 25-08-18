@@ -60,3 +60,4 @@ trusted-signing-cli
 nextest-filtering
 website_crawler
 h3o
+probe-rs-tools
