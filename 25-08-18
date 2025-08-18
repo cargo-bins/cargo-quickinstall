@@ -6,3 +6,4 @@ nextest
 tenx
 cargo-public-api
 rabbitmqadmin
+probe-run
