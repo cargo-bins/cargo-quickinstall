@@ -2,3 +2,4 @@ rg
 passepartui
 project_init
 cargo-spellcheck
+nextest
