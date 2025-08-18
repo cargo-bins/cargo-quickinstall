@@ -16,3 +16,4 @@ binstall
 nextest-filtering
 cached-path
 cargo_pup
+nextest-filtering
