@@ -26,3 +26,4 @@ tree-sitter-cli
 sea-orm-cli
 statsig-rs
 i3status-rs
+graphql_client_cli
