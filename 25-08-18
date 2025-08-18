@@ -4,3 +4,4 @@ project_init
 cargo-spellcheck
 nextest
 tenx
+cargo-public-api
