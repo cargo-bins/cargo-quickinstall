@@ -43,3 +43,4 @@ cargo-v5
 i3status-rs
 probe-rs-tools
 cargo-pgrx
+trusted-signing-cli
