@@ -38,3 +38,4 @@ cargo-pgrx
 rabbitmqadmin
 reductstore
 i3status-rs
+graphite
