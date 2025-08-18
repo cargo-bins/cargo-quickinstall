@@ -9,3 +9,4 @@ cargo-pgrx
 nextest-filtering
 cached-path
 racer
+nextest-filtering
