@@ -50,3 +50,4 @@ graphql_client_cli
 tree-sitter-cli
 jiggy
 cargo-embed
+graphite
