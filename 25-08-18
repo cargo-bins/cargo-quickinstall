@@ -45,3 +45,4 @@ probe-rs-tools
 cargo-pgrx
 trusted-signing-cli
 i3status-rs
+probe-rs-tools
