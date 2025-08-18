@@ -12,3 +12,4 @@ cargo-pgrx
 jless
 jless
 nextest-filtering
+solana-cli
