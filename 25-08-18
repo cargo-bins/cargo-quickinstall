@@ -22,3 +22,4 @@ mise
 statsig-rs
 cargo-unmaintained
 tree-sitter-cli
+sea-orm-cli
