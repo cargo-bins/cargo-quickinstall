@@ -2,3 +2,4 @@ project_init
 sea-orm-cli
 textplots
 mise
+statsig-rs
