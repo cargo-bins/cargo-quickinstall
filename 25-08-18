@@ -24,3 +24,4 @@ cargo-unmaintained
 tree-sitter-cli
 sea-orm-cli
 i3status-rs
+cargo-whatfeatures
