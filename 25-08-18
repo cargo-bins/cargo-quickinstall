@@ -35,3 +35,4 @@ iroh-relay
 cargo-unmaintained
 sea-orm-cli
 cargo-pgrx
+dioxus-cli
