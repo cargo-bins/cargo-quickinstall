@@ -18,3 +18,4 @@ cargo-bundle
 cargo-git
 cargo-tag
 cargo-proc-debug
+cached-path
