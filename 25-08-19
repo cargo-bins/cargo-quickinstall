@@ -14,3 +14,4 @@ cargo-checkmate
 tree-sitter-cli
 cpp_demangle
 cargo-checkmate
+cargo-info
