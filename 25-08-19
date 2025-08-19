@@ -20,3 +20,4 @@ holochain_cli_bundle
 kanidm_tools
 protox
 nextest
+uv
