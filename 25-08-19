@@ -19,3 +19,4 @@ cargo-spellcheck
 dioxus-cli
 cached-path
 cargo-info
+cargo-checkmate
