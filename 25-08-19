@@ -16,3 +16,4 @@ cpp_demangle
 cargo-checkmate
 cargo-info
 cargo-spellcheck
+dioxus-cli
