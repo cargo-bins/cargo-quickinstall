@@ -14,3 +14,4 @@ uu_whoami
 cargo-spellcheck
 cargo-checkmate
 ducc-sys
+cpp_demangle
