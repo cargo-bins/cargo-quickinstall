@@ -25,3 +25,4 @@ coreutils
 protox
 cargo-checkmate
 dioxus-cli
+cargo-spellcheck
