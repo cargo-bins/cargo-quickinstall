@@ -12,3 +12,4 @@ rga
 coreutils
 mit-prepare-commit-msg
 protox
+cargo-show
