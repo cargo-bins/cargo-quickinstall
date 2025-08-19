@@ -16,3 +16,4 @@ cargo-checkmate
 ducc-sys
 cpp_demangle
 stellar-xdr
+cargo-info
