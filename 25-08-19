@@ -9,3 +9,4 @@ cargo-tag
 cargo-bundle
 cargo-tag
 solana-cli
+cargo-git
