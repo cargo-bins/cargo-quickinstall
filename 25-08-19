@@ -12,3 +12,4 @@ cargo-spellcheck
 website_crawler
 cargo-spellcheck
 lance
+sea-orm-cli
