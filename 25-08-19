@@ -4,3 +4,4 @@ librespot
 a11ywatch_cli
 uu_whoami
 cargo-proc-debug
+cargo-git
