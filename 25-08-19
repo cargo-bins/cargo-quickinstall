@@ -40,3 +40,4 @@ website_crawler
 deduplicator
 lance
 ext-sort
+dioxus-cli
