@@ -20,3 +20,4 @@ cargo-tag
 cargo-proc-debug
 cached-path
 cargo-tag
+cargo-git
