@@ -39,3 +39,4 @@ uv
 satellite_imagery_downloader
 bun
 probe-rs-cli
+lance
