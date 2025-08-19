@@ -11,3 +11,4 @@ uu_whoami
 cargo-spellcheck
 ducc-sys
 cargo-checkmate
+tree-sitter-cli
