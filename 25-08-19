@@ -9,3 +9,4 @@ cargo-checkmate
 onehistory
 solana-cli
 cargo-info
+cargo-spellcheck
