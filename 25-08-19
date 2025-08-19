@@ -29,3 +29,4 @@ cargo-spellcheck
 cargo-proc-debug
 cargo-tag
 cargo-tag
+safe_network
