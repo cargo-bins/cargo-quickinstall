@@ -10,3 +10,4 @@ solana-cli
 uu_whoami
 cargo-spellcheck
 ducc-sys
+cargo-checkmate
