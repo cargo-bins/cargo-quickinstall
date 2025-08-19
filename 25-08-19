@@ -8,3 +8,4 @@ cargo-git
 cargo-tag
 cargo-bundle
 cargo-tag
+solana-cli
