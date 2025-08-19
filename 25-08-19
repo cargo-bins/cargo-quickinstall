@@ -32,3 +32,4 @@ cargo-tag
 safe_network
 cargo-spellcheck
 lance
+sea-orm-cli
