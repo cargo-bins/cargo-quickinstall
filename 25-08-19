@@ -21,3 +21,4 @@ tree-sitter-cli
 cached-path
 cargo-checkmate
 cargo-info
+coreutils
