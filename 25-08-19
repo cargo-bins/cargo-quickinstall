@@ -35,3 +35,4 @@ dioxus-cli
 dioxus-cli
 lance
 sea-orm-cli
+cargo-pgrx
