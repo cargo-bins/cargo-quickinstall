@@ -13,3 +13,4 @@ ducc-sys
 cargo-checkmate
 tree-sitter-cli
 cpp_demangle
+cargo-checkmate
