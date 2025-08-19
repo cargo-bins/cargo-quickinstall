@@ -6,3 +6,4 @@ cargo-spellcheck
 jiggy
 cargo-smart-release
 a11ywatch_cli
+dioxus-cli
