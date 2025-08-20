@@ -26,3 +26,4 @@ cargo-lock
 dbus-codegen
 cached-path
 stgit
+uu_uname
