@@ -6,3 +6,4 @@ cargo-lock
 dbus-codegen
 cached-path
 uu_uname
+snarkvm
