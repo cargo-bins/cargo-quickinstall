@@ -12,3 +12,4 @@ benfred-read-process-memory
 tokio-process
 sp1-prover
 re_query
+dprint
