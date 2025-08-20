@@ -56,3 +56,4 @@ s3ftp
 cargo-mobile2
 nextest
 hurlfmt
+probe-rs-tools
