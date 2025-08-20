@@ -13,3 +13,4 @@ sniffnet
 tendermint-rpc
 sniffnet
 cargo-lock
+coreutils
