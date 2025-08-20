@@ -2,3 +2,4 @@ xcolor
 cargo-ktra-login
 cargo-public-api
 deno
+probe-rs-cli
