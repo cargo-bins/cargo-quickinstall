@@ -59,3 +59,4 @@ hurlfmt
 probe-rs-tools
 speedtest-rs
 clipboard-history
+wayland-interface-check
