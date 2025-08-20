@@ -5,3 +5,4 @@ av
 tendermint-rpc
 av
 cargo-lock
+nextest
