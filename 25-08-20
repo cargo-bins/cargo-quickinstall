@@ -14,3 +14,4 @@ alacritty
 sea-orm-cli
 lux
 cargo-lock
+wayland-interface-check
