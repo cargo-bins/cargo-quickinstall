@@ -5,3 +5,4 @@ cargo-lock
 qsv
 dbus-codegen
 skim
+cached-path
