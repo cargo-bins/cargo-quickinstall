@@ -9,3 +9,4 @@ clippy
 probe-rs-cli
 satellite_imagery_downloader
 unic-langid-impl
+tendermint-rpc
