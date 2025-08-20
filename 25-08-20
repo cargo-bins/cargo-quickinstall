@@ -39,3 +39,4 @@ dbus-codegen
 cargo-public-api
 i3stat
 cached-path
+cargo-mobile2
