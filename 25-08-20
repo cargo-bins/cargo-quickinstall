@@ -58,3 +58,4 @@ nextest
 hurlfmt
 probe-rs-tools
 speedtest-rs
+clipboard-history
