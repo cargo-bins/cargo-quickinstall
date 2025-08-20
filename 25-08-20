@@ -6,3 +6,4 @@ nextest
 dx-cli
 unic-langid-impl
 binstall
+tendermint-rpc
