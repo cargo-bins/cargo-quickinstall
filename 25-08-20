@@ -11,3 +11,4 @@ sudo-rs
 av
 dbus-codegen
 sudo-rs
+cached-path
