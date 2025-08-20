@@ -17,3 +17,4 @@ cargo-ktra-login
 unic-langid-impl
 lua-astra
 probe-rs-cli
+spider_cli
