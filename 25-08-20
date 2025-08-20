@@ -29,3 +29,4 @@ wayland-interface-check
 bun
 aparte
 cargo-lock
+wrkflw
