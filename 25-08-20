@@ -37,3 +37,4 @@ snarkvm
 cargo-info
 i3status-rs
 cargo-mobile2
+if-changed
