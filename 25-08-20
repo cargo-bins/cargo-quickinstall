@@ -13,3 +13,4 @@ tendermint-rpc
 alacritty
 sea-orm-cli
 lux
+cargo-lock
