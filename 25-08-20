@@ -10,3 +10,4 @@ cached-path
 uu_uname
 snarkvm
 cargo-mobile2
+sea-orm-cli
