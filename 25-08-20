@@ -5,3 +5,4 @@ tendermint-rpc
 cargo-lock
 dbus-codegen
 cached-path
+uu_uname
