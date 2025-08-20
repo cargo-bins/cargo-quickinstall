@@ -7,3 +7,4 @@ cargo-lock
 qsv
 dbus-codegen
 cached-path
+uu_uname
