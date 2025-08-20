@@ -9,3 +9,4 @@ binstall
 tendermint-rpc
 hk
 av
+cargo-lock
