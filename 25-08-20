@@ -9,3 +9,4 @@ nextest
 av
 sudo-rs
 av
+dbus-codegen
