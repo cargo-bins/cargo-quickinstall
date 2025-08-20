@@ -1,3 +1,4 @@
 rtx-cli
 unic-langid-impl
 tendermint-rpc
+cargo-lock
