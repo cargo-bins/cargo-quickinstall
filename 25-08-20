@@ -11,3 +11,4 @@ satellite_imagery_downloader
 unic-langid-impl
 tendermint-rpc
 alacritty
+sea-orm-cli
