@@ -24,3 +24,4 @@ sniffnet
 sniffnet
 cargo-lock
 dbus-codegen
+cached-path
