@@ -44,3 +44,4 @@ graphql_client_cli
 wayland-interface-check
 hurlfmt
 s3ftp
+sugar-cli
