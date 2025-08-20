@@ -22,3 +22,4 @@ trusted-signing-cli
 spider_cli
 trusted-signing-cli
 hurl
+s3ftp
