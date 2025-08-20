@@ -27,3 +27,4 @@ dbus-codegen
 tunein-cli
 dua-cli
 zeitfetch
+cached-path
