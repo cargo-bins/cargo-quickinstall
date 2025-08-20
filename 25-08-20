@@ -7,3 +7,4 @@ av
 cargo-lock
 nextest
 av
+sudo-rs
