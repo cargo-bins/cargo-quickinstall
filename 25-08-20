@@ -38,3 +38,4 @@ czkawka_gui
 dbus-codegen
 cargo-public-api
 i3stat
+cached-path
