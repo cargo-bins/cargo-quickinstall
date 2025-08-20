@@ -4,3 +4,4 @@ tendermint-rpc
 cargo-lock
 qsv
 dbus-codegen
+skim
