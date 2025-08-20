@@ -17,3 +17,4 @@ cargo-lock
 wayland-interface-check
 probe-rs-tools
 wiki-tui
+kanidm_tools
