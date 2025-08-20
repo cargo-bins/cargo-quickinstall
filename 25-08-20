@@ -40,3 +40,4 @@ cargo-public-api
 i3stat
 cached-path
 cargo-mobile2
+graphql_client_cli
