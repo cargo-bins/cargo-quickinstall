@@ -16,3 +16,4 @@ cargo-lock
 coreutils
 dbus-codegen
 cached-path
+stgit
