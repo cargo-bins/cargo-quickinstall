@@ -3,3 +3,4 @@ rtx-cli
 solana-stake-accounts
 unic-langid-impl
 tendermint-rpc
+cargo-lock
