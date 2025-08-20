@@ -57,3 +57,4 @@ cargo-mobile2
 nextest
 hurlfmt
 probe-rs-tools
+speedtest-rs
