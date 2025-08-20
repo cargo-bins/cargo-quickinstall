@@ -12,3 +12,4 @@ hurl
 sniffnet
 tendermint-rpc
 sniffnet
+cargo-lock
