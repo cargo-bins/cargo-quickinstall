@@ -20,3 +20,4 @@ probe-rs-cli
 spider_cli
 lua-astra
 spider_cli
+tendermint-rpc
