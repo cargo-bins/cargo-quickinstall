@@ -3,3 +3,4 @@ solana-stake-accounts
 unic-langid-impl
 tendermint-rpc
 cargo-lock
+dbus-codegen
