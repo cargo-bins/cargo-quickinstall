@@ -42,3 +42,4 @@ cached-path
 cargo-mobile2
 graphql_client_cli
 wayland-interface-check
+hurlfmt
