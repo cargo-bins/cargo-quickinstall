@@ -40,3 +40,4 @@ cargo-mobile2
 if-changed
 below
 cargo-public-api
+kanidm_tools
