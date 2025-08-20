@@ -16,3 +16,4 @@ czkawka_gui
 cargo-ktra-login
 unic-langid-impl
 lua-astra
+probe-rs-cli
