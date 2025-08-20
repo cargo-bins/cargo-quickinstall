@@ -39,3 +39,4 @@ i3status-rs
 cargo-mobile2
 if-changed
 below
+cargo-public-api
