@@ -4,3 +4,4 @@ unic-langid-impl
 av
 tendermint-rpc
 av
+cargo-lock
