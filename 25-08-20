@@ -28,3 +28,4 @@ c2rust
 wayland-interface-check
 bun
 aparte
+cargo-lock
