@@ -22,3 +22,4 @@ qsv
 coreutils
 lingua
 cpp_demangle
+nextest
