@@ -45,3 +45,4 @@ nu-jupyter-kernel
 cargo-info
 tectonic
 spider_cli
+rustfmt-nightly
