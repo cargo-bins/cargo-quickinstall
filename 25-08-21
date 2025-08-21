@@ -42,3 +42,4 @@ openring
 nextest
 rustfmt-nightly
 iroh-relay
+binwalk
