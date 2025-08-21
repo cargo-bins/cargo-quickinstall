@@ -54,3 +54,4 @@ star-history
 cargo-smart-release
 nu-jupyter-kernel
 diesel_cli
+gpg-tui
