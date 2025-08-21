@@ -26,3 +26,4 @@ twitch-tui
 cargo-download
 cargo-download
 nexmark
+nextest
