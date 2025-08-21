@@ -30,3 +30,4 @@ nextest
 twitch-tui
 cargo-download
 unic-langid-impl
+human_name
