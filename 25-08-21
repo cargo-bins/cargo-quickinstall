@@ -55,3 +55,4 @@ cargo-smart-release
 nu-jupyter-kernel
 diesel_cli
 gpg-tui
+clipboard-history-tui
