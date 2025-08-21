@@ -24,3 +24,4 @@ trusted-signing-cli
 ringboard-wayland
 patch-crate
 tectonic
+if-changed
