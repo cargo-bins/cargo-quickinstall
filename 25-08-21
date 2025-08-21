@@ -20,3 +20,4 @@ sugar-cli
 speedtest-rs
 hurl
 mise
+if-changed
