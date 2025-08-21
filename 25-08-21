@@ -58,3 +58,4 @@ gpg-tui
 clipboard-history-tui
 cargo-bundle
 cargo-smart-release
+unic-langid-impl
