@@ -21,3 +21,4 @@ rtx-cli
 if-changed
 speedtest-rs
 trusted-signing-cli
+ringboard-wayland
