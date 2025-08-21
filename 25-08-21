@@ -47,3 +47,4 @@ tectonic
 spider_cli
 rustfmt-nightly
 ffsend
+sea-orm-cli
