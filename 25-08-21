@@ -56,3 +56,4 @@ nu-jupyter-kernel
 diesel_cli
 gpg-tui
 clipboard-history-tui
+cargo-bundle
