@@ -48,3 +48,4 @@ spider_cli
 rustfmt-nightly
 ffsend
 sea-orm-cli
+sitemap2urllist
