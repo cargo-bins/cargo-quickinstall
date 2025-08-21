@@ -40,3 +40,4 @@ cpp_demangle
 star-history
 openring
 nextest
+rustfmt-nightly
