@@ -7,3 +7,4 @@ rtx-cli
 solana-validator
 lingua
 cpp_demangle
+sea-orm-cli
