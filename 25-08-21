@@ -5,3 +5,4 @@ paperclip
 tuftool
 rtx-cli
 lingua
+cpp_demangle
