@@ -34,3 +34,4 @@ nextest
 nextest
 twitch-tui
 cargo-download
+nexmark
