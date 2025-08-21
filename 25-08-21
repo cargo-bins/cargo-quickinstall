@@ -60,3 +60,4 @@ unic-langid-impl
 cargo-public-api
 clipboard-history-tui
 gpg-tui
+cargo-interactive-update
