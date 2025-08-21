@@ -6,3 +6,4 @@ tuftool
 rtx-cli
 solana-validator
 lingua
+cpp_demangle
