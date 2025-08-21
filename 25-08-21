@@ -7,3 +7,4 @@ lance
 deploy
 below
 if-changed
+wayland-interface-check
