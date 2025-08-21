@@ -3,3 +3,4 @@ cargo-checkmate
 lance
 deploy
 tree-sitter-cli
+cargo-info
