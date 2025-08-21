@@ -6,3 +6,4 @@ tuftool
 rtx-cli
 lingua
 cpp_demangle
+sea-orm-cli
