@@ -43,3 +43,4 @@ rustfmt-nightly
 neovide
 nu-jupyter-kernel
 cargo-info
+tectonic
