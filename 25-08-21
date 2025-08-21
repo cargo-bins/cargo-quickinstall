@@ -32,3 +32,4 @@ sea-orm-cli
 cargo-download
 nextest
 nextest
+twitch-tui
