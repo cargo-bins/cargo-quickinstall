@@ -10,3 +10,4 @@ if-changed
 wayland-interface-check
 openring
 ffsend
+alacritty
