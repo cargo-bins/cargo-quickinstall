@@ -34,3 +34,4 @@ ringboard-wayland
 cpp_demangle
 cargo-smart-release
 tectonic
+graphql_client_cli
