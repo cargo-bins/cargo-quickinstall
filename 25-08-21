@@ -60,3 +60,4 @@ cargo-bundle
 cargo-smart-release
 unic-langid-impl
 nextest
+human_name
