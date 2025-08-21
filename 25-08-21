@@ -20,3 +20,4 @@ coreutils
 nextest
 twitch-tui
 nextest
+cargo-download
