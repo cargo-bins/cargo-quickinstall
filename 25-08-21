@@ -25,3 +25,4 @@ ringboard-wayland
 patch-crate
 tectonic
 if-changed
+star-history
