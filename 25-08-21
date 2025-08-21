@@ -18,3 +18,4 @@ openring
 wrkflw
 speedtest-rs
 rtx-cli
+if-changed
