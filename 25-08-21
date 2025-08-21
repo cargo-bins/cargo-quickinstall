@@ -61,3 +61,4 @@ cargo-smart-release
 unic-langid-impl
 nextest
 human_name
+binwalk
