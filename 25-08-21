@@ -39,3 +39,4 @@ nextest
 coreutils
 ncspot
 below
+rustfmt-nightly
