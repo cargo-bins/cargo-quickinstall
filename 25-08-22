@@ -6,3 +6,4 @@ patch-crate
 spider_cli
 myip-tui
 alacritty
+sea-orm-cli
