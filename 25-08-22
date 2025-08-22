@@ -57,3 +57,4 @@ commit-lsp
 neovide
 carapace
 dioxus-cli
+cargo-interactive-update
