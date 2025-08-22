@@ -11,3 +11,4 @@ sitemap2urllist
 gpg-tui
 cargo-info
 redoxer
+rustfmt-nightly
