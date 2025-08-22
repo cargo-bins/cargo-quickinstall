@@ -38,3 +38,4 @@ cargo-interactive-update
 cargo-lock
 bkmr
 agave-install
+wmi
