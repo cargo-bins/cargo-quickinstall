@@ -1,2 +1,3 @@
 rustfmt-nightly
 cargo-interactive-update
+nu-jupyter-kernel
