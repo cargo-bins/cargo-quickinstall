@@ -27,3 +27,4 @@ cargo-lock
 wmi
 lance
 ducc-sys
+spider_cli
