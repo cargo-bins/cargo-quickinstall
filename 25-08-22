@@ -14,3 +14,4 @@ redoxer
 rustfmt-nightly
 fend
 bkmr
+cargo-smart-release
