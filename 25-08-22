@@ -59,3 +59,4 @@ cargo-duplicates
 hacksaw
 gnome-randr
 rustup-toolchain-install-master
+nextest
