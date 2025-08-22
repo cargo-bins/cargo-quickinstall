@@ -13,3 +13,4 @@ investments
 cargo-lock
 lance
 git-disjoint
+ducc-sys
