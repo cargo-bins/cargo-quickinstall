@@ -10,3 +10,4 @@ uu_mktemp
 hayagriva
 investments
 cargo-lock
+sqlx-cli
