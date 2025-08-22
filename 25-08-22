@@ -3,3 +3,4 @@ mit-prepare-commit-msg
 rsgen-avro
 httm
 lair_keystore_api
+rustfmt-nightly
