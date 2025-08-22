@@ -4,3 +4,4 @@ rsgen-avro
 httm
 kanidm_tools
 kanidm_tools
+rustfmt-nightly
