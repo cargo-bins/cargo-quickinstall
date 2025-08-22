@@ -70,3 +70,4 @@ cargo-mobile2
 lifecycler
 nextest
 cargo-duplicates
+cargo-interactive-update
