@@ -46,3 +46,4 @@ kanidm_tools
 rustfmt-nightly
 jocalsend
 cargo-lock
+cargo-info
