@@ -13,3 +13,4 @@ cargo-lock
 sqlx-cli
 lance
 git-disjoint
+ducc-sys
