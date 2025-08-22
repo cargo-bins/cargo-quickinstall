@@ -13,3 +13,4 @@ nu-jupyter-kernel
 hurlfmt
 trusted-signing-cli
 rustfmt-nightly
+cargo-spellcheck
