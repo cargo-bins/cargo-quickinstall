@@ -53,3 +53,4 @@ nu_plugin_s3
 wmi
 agave-install
 myip-tui
+commit-lsp
