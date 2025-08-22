@@ -3,3 +3,4 @@ cargo-public-api
 binstall
 graphql_client_cli
 patch-crate
+spider_cli
