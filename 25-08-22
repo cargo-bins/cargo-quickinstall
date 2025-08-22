@@ -2,3 +2,4 @@ cargo-smart-release
 cargo-public-api
 binstall
 graphql_client_cli
+patch-crate
