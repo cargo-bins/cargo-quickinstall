@@ -18,3 +18,4 @@ cargo-smart-release
 ducc-sys
 gpg-tui
 hurlfmt
+uu_mktemp
