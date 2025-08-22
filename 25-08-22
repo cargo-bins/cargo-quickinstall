@@ -6,3 +6,4 @@ kanidm_tools
 kanidm_tools
 rustfmt-nightly
 ducc-sys
+uu_mktemp
