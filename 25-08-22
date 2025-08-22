@@ -1,3 +1,4 @@
 rsgen-avro
 rustfmt-nightly
 ducc-sys
+uu_mktemp
