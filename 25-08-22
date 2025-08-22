@@ -68,3 +68,4 @@ git-disjoint
 ducc-sys
 cargo-mobile2
 lifecycler
+nextest
