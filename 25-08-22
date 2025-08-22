@@ -45,3 +45,4 @@ wmi
 kanidm_tools
 rustfmt-nightly
 jocalsend
+cargo-lock
