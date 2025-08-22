@@ -71,3 +71,4 @@ lifecycler
 nextest
 cargo-duplicates
 cargo-interactive-update
+rustup-toolchain-install-master
