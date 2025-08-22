@@ -3,3 +3,4 @@ rsgen-avro
 solana-verify
 openpty
 rustfmt-nightly
+ducc-sys
