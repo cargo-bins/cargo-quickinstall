@@ -4,3 +4,4 @@ rsgen-avro
 httm
 lair_keystore_api
 rustfmt-nightly
+ducc-sys
