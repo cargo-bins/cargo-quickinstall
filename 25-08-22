@@ -49,3 +49,4 @@ cargo-lock
 cargo-info
 onehistory
 wiki-tui
+nu_plugin_s3
