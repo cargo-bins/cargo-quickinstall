@@ -1,3 +1,4 @@
 rustfmt-nightly
 cargo-interactive-update
 nu-jupyter-kernel
+myip-tui
