@@ -26,3 +26,4 @@ wmi
 cargo-lock
 wmi
 lance
+ducc-sys
