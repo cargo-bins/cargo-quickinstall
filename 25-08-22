@@ -69,3 +69,4 @@ ducc-sys
 cargo-mobile2
 lifecycler
 nextest
+cargo-duplicates
