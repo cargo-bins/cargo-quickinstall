@@ -14,3 +14,4 @@ hurlfmt
 trusted-signing-cli
 rustfmt-nightly
 cargo-spellcheck
+ducc-sys
