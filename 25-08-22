@@ -12,3 +12,4 @@ ec2_instance_metadata
 investments
 cargo-lock
 lance
+git-disjoint
