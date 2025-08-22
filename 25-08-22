@@ -8,3 +8,4 @@ cargo-lock
 wmi
 lance
 git-disjoint
+ducc-sys
