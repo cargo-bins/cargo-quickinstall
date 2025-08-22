@@ -16,3 +16,4 @@ rustfmt-nightly
 cargo-spellcheck
 ducc-sys
 if-changed
+carapace
