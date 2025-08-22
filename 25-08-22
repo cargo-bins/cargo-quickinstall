@@ -10,3 +10,4 @@ a11ywatch_cli
 rustfmt-nightly
 xplr
 ducc-sys
+uu_mktemp
