@@ -11,3 +11,4 @@ cargo-lock
 wmi
 lance
 ncspot
+git-disjoint
