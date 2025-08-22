@@ -2,3 +2,4 @@ solana-verify
 rsgen-avro
 solana-verify
 openpty
+rustfmt-nightly
