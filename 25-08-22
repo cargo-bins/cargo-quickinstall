@@ -14,3 +14,4 @@ paru
 rustfmt-nightly
 paru
 a11ywatch_cli
+ducc-sys
