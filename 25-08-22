@@ -3,3 +3,4 @@ cargo-interactive-update
 nu-jupyter-kernel
 myip-tui
 patch-crate
+nu-jupyter-kernel
