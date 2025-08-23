@@ -8,3 +8,4 @@ mit-pre-commit
 lair_keystore_api
 mit-pre-commit
 cargo-vet
+dprint
