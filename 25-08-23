@@ -70,3 +70,4 @@ rg
 twitch-tui
 cargo-depsize
 venator-app
+human_bytes
