@@ -28,3 +28,4 @@ cargo-bundle
 commit-lsp
 cargo-count
 cargo-duplicates
+simple-http-server
