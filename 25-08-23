@@ -20,3 +20,4 @@ probe-rs-tools
 qsv
 cargo-mobile2
 human_bytes
+stellar-strkey
