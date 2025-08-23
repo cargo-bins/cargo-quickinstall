@@ -27,3 +27,4 @@ venator-app
 cargo-bundle
 commit-lsp
 cargo-count
+cargo-duplicates
