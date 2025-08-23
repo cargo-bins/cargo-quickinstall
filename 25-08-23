@@ -11,3 +11,4 @@ cargo-vet
 dprint
 cargo-leptos
 project_init
+ec2_instance_metadata
