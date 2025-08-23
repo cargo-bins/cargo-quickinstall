@@ -56,3 +56,4 @@ termscp
 cargo-depsize
 qsv
 fend
+if-changed
