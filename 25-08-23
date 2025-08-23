@@ -10,3 +10,4 @@ project_init
 ext-sort
 diesel_cli
 ruff
+diesel_cli
