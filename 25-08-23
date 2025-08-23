@@ -25,3 +25,4 @@ rustup-toolchain-install-master
 termscp
 simple-http-server
 cargo-seek
+cargo-info
