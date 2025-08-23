@@ -10,3 +10,4 @@ cargo-msrv
 project_init
 ext-sort
 probe-rs-tools
+probe-rs-tools
