@@ -45,3 +45,4 @@ cargo-depsize
 cargo-bundle
 ext-sort
 commit-lsp
+simple-http-server
