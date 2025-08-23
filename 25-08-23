@@ -6,3 +6,4 @@ unic-langid-impl
 a11ywatch_cli
 statsig-rs
 dprint
+cargo-msrv
