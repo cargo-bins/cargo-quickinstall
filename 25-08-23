@@ -8,3 +8,4 @@ statsig-rs
 dprint
 cargo-msrv
 project_init
+ext-sort
