@@ -60,3 +60,4 @@ if-changed
 rg
 termscp
 venator-app
+cargo-seek
