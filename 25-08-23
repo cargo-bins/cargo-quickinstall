@@ -8,3 +8,4 @@ rustup-toolchain-install-master
 dprint
 cargo-msrv
 project_init
+ext-sort
