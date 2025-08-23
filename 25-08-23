@@ -63,3 +63,4 @@ venator-app
 cargo-seek
 simple-http-server
 cargo-depsize
+cargo-count
