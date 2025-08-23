@@ -8,3 +8,4 @@ nu_plugin_s3
 wiki-tui
 cargo-duplicates
 cargo-depsize
+unic-langid-impl
