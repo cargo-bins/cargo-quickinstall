@@ -57,3 +57,4 @@ cargo-depsize
 qsv
 fend
 if-changed
+rg
