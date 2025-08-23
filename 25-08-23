@@ -11,3 +11,4 @@ cargo-depsize
 unic-langid-impl
 cargo-info
 redoxer
+cargo-bundle
