@@ -7,3 +7,4 @@ statsig-rs
 rustup-toolchain-install-master
 dprint
 cargo-msrv
+project_init
