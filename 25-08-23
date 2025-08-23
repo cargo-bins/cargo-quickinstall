@@ -19,3 +19,4 @@ probe-rs-tools
 probe-rs-tools
 qsv
 cargo-mobile2
+human_bytes
