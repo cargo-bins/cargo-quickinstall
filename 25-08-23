@@ -43,3 +43,4 @@ rg
 project_init
 nu_plugin_s3
 cargo-bundle
+commit-lsp
