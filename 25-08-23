@@ -6,3 +6,4 @@ a11ywatch_cli
 statsig-rs
 rustup-toolchain-install-master
 dprint
+cargo-msrv
