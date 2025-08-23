@@ -47,3 +47,4 @@ ext-sort
 commit-lsp
 simple-http-server
 cargo-seek
+cargo-depsize
