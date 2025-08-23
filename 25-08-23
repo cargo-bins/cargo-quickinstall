@@ -9,3 +9,4 @@ dprint
 cargo-msrv
 project_init
 ext-sort
+probe-rs-tools
