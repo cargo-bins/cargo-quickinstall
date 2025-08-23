@@ -66,3 +66,4 @@ cargo-depsize
 cargo-count
 venator-app
 cargo-seek
+rg
