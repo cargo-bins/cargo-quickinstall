@@ -41,3 +41,4 @@ venator-app
 project_init
 commit-lsp
 chainsaw
+cargo-depsize
