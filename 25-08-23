@@ -31,3 +31,4 @@ cargo-duplicates
 simple-http-server
 mise
 lifecycler
+dprint
