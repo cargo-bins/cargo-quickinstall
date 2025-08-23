@@ -6,3 +6,4 @@ unic-langid-impl
 carapace
 statime-linux
 mit-pre-commit
+sqlx-cli
