@@ -44,3 +44,4 @@ chainsaw
 cargo-depsize
 cargo-bundle
 ext-sort
+commit-lsp
