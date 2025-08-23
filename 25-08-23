@@ -45,3 +45,4 @@ nu_plugin_s3
 cargo-bundle
 commit-lsp
 simple-http-server
+ext-sort
