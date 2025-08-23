@@ -7,3 +7,4 @@ a11ywatch_cli
 statsig-rs
 dprint
 cargo-msrv
+project_init
