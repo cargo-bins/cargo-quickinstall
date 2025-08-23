@@ -18,3 +18,4 @@ ruff
 argus-cli
 qsv
 ruff
+openpty
