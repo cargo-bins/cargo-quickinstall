@@ -10,3 +10,4 @@ cargo-duplicates
 cargo-depsize
 unic-langid-impl
 cargo-info
+redoxer
