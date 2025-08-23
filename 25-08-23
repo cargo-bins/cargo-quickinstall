@@ -10,3 +10,4 @@ mit-pre-commit
 cargo-vet
 dprint
 cargo-leptos
+project_init
