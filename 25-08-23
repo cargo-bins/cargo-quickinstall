@@ -47,3 +47,4 @@ commit-lsp
 simple-http-server
 ext-sort
 termscp
+cargo-count
