@@ -68,3 +68,4 @@ venator-app
 cargo-seek
 rg
 twitch-tui
+cargo-depsize
