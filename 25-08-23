@@ -78,3 +78,4 @@ scx_lavd
 cargo-count
 scx_lavd
 cargo-minify
+unic-langid-impl
