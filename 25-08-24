@@ -6,3 +6,4 @@ rg
 port-checker
 cargo-minify
 tendermint-abci
+wrkflw
