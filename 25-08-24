@@ -7,3 +7,4 @@ tree-sitter-cli
 solana-ledger-tool
 rrule
 re_query
+pwasm-utils
