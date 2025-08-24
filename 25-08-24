@@ -35,3 +35,4 @@ scx_lavd
 addr2line
 dioxus-cli
 wrkflw
+cargo-list
