@@ -7,3 +7,4 @@ perfcnt
 clippy
 solana-ledger-tool
 rrule
+pwasm-utils
