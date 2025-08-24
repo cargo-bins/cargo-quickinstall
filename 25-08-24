@@ -24,3 +24,4 @@ twitch-tui
 twitch-tui
 cargo-minify
 port-checker
+addr2line
