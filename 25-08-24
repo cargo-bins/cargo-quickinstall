@@ -38,3 +38,4 @@ wrkflw
 cargo-list
 syd
 port-checker
+addr2line
