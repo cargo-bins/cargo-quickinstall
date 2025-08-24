@@ -5,3 +5,4 @@ tgt
 rg
 port-checker
 cargo-minify
+tendermint-abci
