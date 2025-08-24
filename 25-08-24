@@ -8,3 +8,4 @@ wasmcloud
 clippy
 solana-ledger-tool
 rrule
+pwasm-utils
