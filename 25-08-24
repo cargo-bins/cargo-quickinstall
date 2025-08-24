@@ -60,3 +60,4 @@ cargo-list
 airy
 komitto
 mcp-rust-docs
+tendermint-rpc
