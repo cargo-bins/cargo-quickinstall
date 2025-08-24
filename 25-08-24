@@ -4,3 +4,4 @@ tendermint-abci
 perfcnt
 clippy
 tree-sitter-cli
+solana-ledger-tool
