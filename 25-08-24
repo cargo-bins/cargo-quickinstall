@@ -3,3 +3,4 @@ dioxus-cli
 tendermint-abci
 perfcnt
 clippy
+tree-sitter-cli
