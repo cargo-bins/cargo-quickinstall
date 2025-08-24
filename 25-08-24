@@ -4,3 +4,4 @@ cargo-vet
 perfcnt
 clippy
 skim
+solana-ledger-tool
