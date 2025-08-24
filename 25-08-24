@@ -67,3 +67,4 @@ dioxus-cli
 komitto
 cargo-list
 komitto
+cargo-depsize
