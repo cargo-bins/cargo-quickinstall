@@ -10,3 +10,4 @@ tree-sitter-cli
 port-checker
 addr2line
 cargo-embed
+tendermint-abci
