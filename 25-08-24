@@ -14,3 +14,4 @@ tendermint-abci
 autumnus
 port-checker
 twitch-tui
+cargo-embed
