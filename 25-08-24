@@ -4,3 +4,4 @@ clippy
 tree-sitter-cli
 solana-ledger-tool
 re_query
+pwasm-utils
