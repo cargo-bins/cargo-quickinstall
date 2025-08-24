@@ -33,3 +33,4 @@ port-checker
 port-checker
 scx_lavd
 addr2line
+dioxus-cli
