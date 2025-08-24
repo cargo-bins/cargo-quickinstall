@@ -4,3 +4,4 @@ exa
 cargo-generate
 perfcnt
 cargo-generate
+clippy
