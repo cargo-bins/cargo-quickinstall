@@ -6,3 +6,4 @@ tendermint-abci
 argus-cli
 wasmcloud
 clippy
+solana-ledger-tool
