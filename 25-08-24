@@ -7,3 +7,4 @@ cargo-generate
 clippy
 cargo-generate
 rustrict
+solana-ledger-tool
