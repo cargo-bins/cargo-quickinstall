@@ -18,3 +18,4 @@ cargo-embed
 cargo-minify
 dioxus-cli
 clippy
+addr2line
