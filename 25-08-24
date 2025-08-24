@@ -16,3 +16,4 @@ port-checker
 twitch-tui
 cargo-embed
 cargo-minify
+dioxus-cli
