@@ -66,3 +66,4 @@ cargo-dylint
 solana-gossip
 paru
 rtx-cli
+arrow-flight
