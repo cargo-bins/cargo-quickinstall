@@ -57,3 +57,4 @@ cargo-dylint
 uv
 sp1-prover
 uv
+nu_plugin_gstat
