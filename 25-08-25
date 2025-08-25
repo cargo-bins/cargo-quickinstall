@@ -9,3 +9,4 @@ probe-rs-tools
 solana-faucet
 parquet
 stellar-strkey
+safe_network
