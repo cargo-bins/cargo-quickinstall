@@ -48,3 +48,4 @@ cargo-dylint
 forgejo-cli
 stellar-strkey
 nimo
+netrunner_cli
