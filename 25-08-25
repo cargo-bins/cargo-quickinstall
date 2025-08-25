@@ -18,3 +18,4 @@ solana-genesis
 cargo-pgrx
 dotenv
 sp1-prover
+solana-gossip
