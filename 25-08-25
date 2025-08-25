@@ -37,3 +37,4 @@ mit-commit-msg
 monolith
 monolith
 libbpf-cargo
+dotenv
