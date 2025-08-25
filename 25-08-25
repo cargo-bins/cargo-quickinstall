@@ -20,3 +20,4 @@ dotenv
 sp1-prover
 solana-gossip
 rtx-cli
+arrow-flight
