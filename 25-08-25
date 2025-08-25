@@ -16,3 +16,4 @@ tree-sitter-graph
 sp1-prover
 git-disjoint
 iai-callgrind-runner
+pwasm-utils
