@@ -58,3 +58,4 @@ cargo-pgrx
 nu_plugin_gstat
 paru
 cargo-dylint
+nu_plugin_gstat
