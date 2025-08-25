@@ -11,3 +11,4 @@ git-disjoint
 pwasm-utils
 iai-callgrind-runner
 textplots
+sqlx-cli
