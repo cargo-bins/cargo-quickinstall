@@ -18,3 +18,4 @@ solana-genesis
 ec2_instance_metadata
 mit-commit-msg
 skim
+dotenv
