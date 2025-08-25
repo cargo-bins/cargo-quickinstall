@@ -46,3 +46,4 @@ youtube-tui
 statsig-rs
 stellar-strkey
 forgejo-cli
+cargo-dylint
