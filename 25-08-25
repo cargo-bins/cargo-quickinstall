@@ -21,3 +21,4 @@ fdf
 git-disjoint
 scoop
 pwasm-utils
+iai-callgrind-runner
