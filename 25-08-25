@@ -54,3 +54,4 @@ nu_plugin_gstat
 cargo-dylint
 paru
 cargo-dylint
+uv
