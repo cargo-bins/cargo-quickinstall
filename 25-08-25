@@ -32,3 +32,4 @@ httpmock
 codeberg-cli
 nkeys
 codeberg-cli
+cargo-dylint
