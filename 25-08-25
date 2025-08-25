@@ -39,3 +39,4 @@ monolith
 libbpf-cargo
 dotenv
 sp1-prover
+solana-gossip
