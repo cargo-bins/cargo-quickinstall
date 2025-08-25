@@ -63,3 +63,4 @@ sp1-prover
 uv
 cargo-dylint
 cargo-dylint
+solana-gossip
