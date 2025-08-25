@@ -44,3 +44,4 @@ statsig-rs
 shunkakinoki
 sea-orm-cli
 netrunner_cli
+cargo-dylint
