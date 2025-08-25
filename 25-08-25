@@ -20,3 +20,4 @@ netrunner_cli
 fend
 parquet
 snarkvm
+sea-orm-cli
