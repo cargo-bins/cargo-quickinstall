@@ -12,3 +12,4 @@ nkeys
 httpmock
 tree-sitter-graph
 sp1-prover
+pwasm-utils
