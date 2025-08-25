@@ -47,3 +47,4 @@ statsig-rs
 stellar-strkey
 forgejo-cli
 cargo-dylint
+solana-genesis
