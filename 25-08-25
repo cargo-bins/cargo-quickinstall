@@ -8,3 +8,4 @@ httpmock
 sp1-prover
 statime-linux
 git-disjoint
+pwasm-utils
