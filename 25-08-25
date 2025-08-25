@@ -18,3 +18,4 @@ git-disjoint
 iai-callgrind-runner
 pwasm-utils
 textplots
+statsig-rs
