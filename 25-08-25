@@ -52,3 +52,4 @@ netrunner_cli
 tree-sitter-cli
 cargo-dylint
 nimo
+solana-genesis
