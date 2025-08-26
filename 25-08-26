@@ -22,3 +22,4 @@ clippy
 tree-sitter-cli
 arrow-flight
 wrkflw
+rustfmt-nightly
