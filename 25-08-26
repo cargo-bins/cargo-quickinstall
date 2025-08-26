@@ -20,3 +20,4 @@ nextest
 a11ywatch_cli
 cargo-licenses
 tendermint-abci
+ncspot
