@@ -16,3 +16,4 @@ cargo-msrv
 cargo-risczero
 deploy
 deno
+cpp_demangle
