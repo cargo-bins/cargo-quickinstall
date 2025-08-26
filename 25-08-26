@@ -8,3 +8,4 @@ tendermint-abci
 arrow-flight
 xml-rs
 rtx-cli
+controller
