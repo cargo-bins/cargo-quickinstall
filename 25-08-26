@@ -27,3 +27,4 @@ cargo-unused-features
 xml-rs
 wrkflw
 cargo-unused-features
+controller
