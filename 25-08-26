@@ -2,3 +2,4 @@ uv
 project_init
 httm
 cargo-local-registry
+uv
