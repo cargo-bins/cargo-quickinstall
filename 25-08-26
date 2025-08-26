@@ -18,3 +18,4 @@ tree-sitter-cli
 tendermint-abci
 cargo-unused-features
 arrow-flight
+wrkflw
