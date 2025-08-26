@@ -5,3 +5,4 @@ protox
 tendermint-abci
 clippy
 rustfmt-nightly
+arrow-flight
