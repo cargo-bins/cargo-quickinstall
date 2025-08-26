@@ -37,3 +37,4 @@ nextest-filtering
 deploy
 perfcnt
 deno
+cpp_demangle
