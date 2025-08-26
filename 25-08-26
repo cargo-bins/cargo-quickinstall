@@ -3,3 +3,4 @@ project_init
 httm
 cargo-local-registry
 uv
+tectonic
