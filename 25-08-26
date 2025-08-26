@@ -6,3 +6,4 @@ tendermint-abci
 clippy
 rustfmt-nightly
 arrow-flight
+xml-rs
