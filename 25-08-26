@@ -34,3 +34,4 @@ nextest-filtering
 deploy
 perfcnt
 deno
+diesel_cli
