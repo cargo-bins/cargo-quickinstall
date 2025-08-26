@@ -5,3 +5,4 @@ raw-cpuid
 a11ywatch_cli
 tendermint-abci
 rustfmt-nightly
+arrow-flight
