@@ -28,3 +28,4 @@ cargo-licenses
 nextest
 lumen
 rtx-cli
+controller
