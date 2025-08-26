@@ -16,3 +16,4 @@ wrkflw
 a11ywatch_cli
 tree-sitter-cli
 tendermint-abci
+cargo-unused-features
