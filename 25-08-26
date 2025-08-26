@@ -6,3 +6,4 @@ java-locator
 raw-cpuid
 protox
 tendermint-abci
+rustfmt-nightly
