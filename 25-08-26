@@ -27,3 +27,4 @@ lumen
 cargo-licenses
 nextest
 lumen
+rtx-cli
