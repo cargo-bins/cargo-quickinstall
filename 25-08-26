@@ -4,3 +4,4 @@ java-locator
 raw-cpuid
 a11ywatch_cli
 tendermint-abci
+rustfmt-nightly
