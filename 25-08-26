@@ -16,3 +16,4 @@ tectonic
 tendermint-abci
 clippy
 tectonic
+rustfmt-nightly
