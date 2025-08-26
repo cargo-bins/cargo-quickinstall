@@ -30,3 +30,4 @@ cargo-unused-features
 controller
 rtx-cli
 shunkakinoki
+wrkflw
