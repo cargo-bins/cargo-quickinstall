@@ -5,3 +5,4 @@ solana-gossip
 racer
 java-locator
 tendermint-abci
+rustfmt-nightly
