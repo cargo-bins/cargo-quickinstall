@@ -17,3 +17,4 @@ cargo-msrv
 cargo-risczero
 deploy
 deno
+diesel_cli
