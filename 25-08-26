@@ -4,3 +4,4 @@ java-locator
 protox
 tendermint-abci
 clippy
+rustfmt-nightly
