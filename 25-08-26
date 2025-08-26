@@ -12,3 +12,4 @@ uv
 tree-sitter-cli
 java-locator
 uv
+raw-cpuid
