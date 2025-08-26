@@ -19,3 +19,4 @@ deploy
 nrip
 deduplicator
 deno
+diesel_cli
