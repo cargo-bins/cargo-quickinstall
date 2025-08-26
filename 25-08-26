@@ -18,3 +18,4 @@ clippy
 tectonic
 rustfmt-nightly
 arrow-flight
+socketcan
