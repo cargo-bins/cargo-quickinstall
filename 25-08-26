@@ -1,3 +1,4 @@
 project_init
 httm
 cargo-local-registry
+solana-gossip
