@@ -48,3 +48,4 @@ c2rust
 binwalk
 deno
 clippy
+cpp_demangle
