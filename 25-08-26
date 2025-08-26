@@ -7,3 +7,4 @@ tendermint-abci
 rustfmt-nightly
 arrow-flight
 socketcan
+xml-rs
