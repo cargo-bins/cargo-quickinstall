@@ -4,3 +4,4 @@ httm
 cargo-local-registry
 uv
 tectonic
+solana-gossip
