@@ -35,3 +35,4 @@ cargo-licenses
 bluer-tools
 nextest-filtering
 lumen
+c2rust
