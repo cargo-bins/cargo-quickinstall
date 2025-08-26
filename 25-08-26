@@ -21,3 +21,4 @@ neovide
 tendermint-abci
 nextest
 cargo-licenses
+arrow-flight
