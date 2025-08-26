@@ -8,3 +8,4 @@ rustfmt-nightly
 arrow-flight
 xml-rs
 uu_whoami
+nextest-filtering
