@@ -6,3 +6,4 @@ racer
 java-locator
 tendermint-abci
 rustfmt-nightly
+arrow-flight
