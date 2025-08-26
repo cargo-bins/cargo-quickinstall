@@ -8,3 +8,4 @@ rustfmt-nightly
 arrow-flight
 socketcan
 xml-rs
+rtx-cli
