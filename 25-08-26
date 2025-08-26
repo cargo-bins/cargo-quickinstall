@@ -33,3 +33,4 @@ rtx-cli
 controller
 cargo-licenses
 bluer-tools
+nextest-filtering
