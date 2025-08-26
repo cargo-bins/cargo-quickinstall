@@ -13,3 +13,4 @@ tree-sitter-cli
 java-locator
 uv
 raw-cpuid
+cargo-licenses
