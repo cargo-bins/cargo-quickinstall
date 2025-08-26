@@ -7,3 +7,4 @@ raw-cpuid
 protox
 tendermint-abci
 rustfmt-nightly
+arrow-flight
