@@ -20,3 +20,4 @@ rustfmt-nightly
 arrow-flight
 socketcan
 xml-rs
+lnk
