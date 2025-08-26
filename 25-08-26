@@ -4,3 +4,4 @@ ruff
 dioxus-cli
 dioxus-cli
 ruff
+sea-orm-cli
