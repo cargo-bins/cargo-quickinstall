@@ -9,3 +9,4 @@ nu_plugin_gstat
 solana-gossip
 racer
 uv
+tree-sitter-cli
