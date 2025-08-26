@@ -17,3 +17,4 @@ cargo-risczero
 deploy
 deno
 cpp_demangle
+diesel_cli
