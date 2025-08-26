@@ -38,3 +38,4 @@ deploy
 perfcnt
 deno
 cpp_demangle
+diesel_cli
