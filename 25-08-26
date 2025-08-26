@@ -8,3 +8,4 @@ protox
 tendermint-abci
 rustfmt-nightly
 arrow-flight
+nextest-filtering
