@@ -19,3 +19,4 @@ tectonic
 rustfmt-nightly
 arrow-flight
 socketcan
+xml-rs
