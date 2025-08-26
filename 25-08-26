@@ -11,3 +11,4 @@ solana-gossip
 ruff
 racer
 sea-orm-cli
+java-locator
