@@ -15,3 +15,4 @@ nextest-filtering
 cargo-msrv
 cargo-risczero
 deploy
+deno
