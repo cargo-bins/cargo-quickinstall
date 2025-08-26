@@ -12,3 +12,4 @@ controller
 shunkakinoki
 uu_whoami
 nextest-filtering
+cargo-msrv
