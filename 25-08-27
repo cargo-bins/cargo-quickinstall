@@ -21,3 +21,4 @@ clippy
 bluer-tools
 dotenv-flow
 binwalk
+cosmwasm-check
