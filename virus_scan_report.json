@@ -1,0 +1,121 @@
+{
+  "scan_timestamp": 1756311814.2525609,
+  "repo": "cargo-bins/cargo-quickinstall",
+  "windows_builds_scanned": [
+    "17251905333",
+    "17249641461",
+    "17245588332",
+    "17244440208",
+    "17242878973",
+    "17242831077",
+    "17238810878",
+    "17238780295"
+  ],
+  "summary": {
+    "builds_scanned": 8,
+    "total_scanned": 9,
+    "clean": 5,
+    "flagged": 4
+  },
+  "results": [
+    {
+      "filename": "cranelift-assembler-x64.exe",
+      "sha256": "dd0d6456accb92fa3feea1b67311a6644c1057446e465a9447844c1b278ef44a",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 70,
+      "total_engines": 70,
+      "is_safe": true,
+      "scan_url": "https://www.virustotal.com/gui/file/dd0d6456accb92fa3feea1b67311a6644c1057446e465a9447844c1b278ef44a"
+    },
+    {
+      "filename": "acc.exe",
+      "sha256": "909e7323fce81e06eec05437144914187e5ad077cb208bdf37c73e4a780da2d0",
+      "malicious": 2,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 70,
+      "total_engines": 72,
+      "is_safe": false,
+      "scan_url": "https://www.virustotal.com/gui/file/909e7323fce81e06eec05437144914187e5ad077cb208bdf37c73e4a780da2d0"
+    },
+    {
+      "filename": "grpc_build.exe",
+      "sha256": "f356bc7e6fc2ad1e8a81f155ef9dc6e3dff5ff45c93135dc978220c6f27324b4",
+      "malicious": 1,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 68,
+      "total_engines": 69,
+      "is_safe": false,
+      "scan_url": "https://www.virustotal.com/gui/file/f356bc7e6fc2ad1e8a81f155ef9dc6e3dff5ff45c93135dc978220c6f27324b4"
+    },
+    {
+      "filename": "passthrough.exe",
+      "sha256": "8e72848238682cda7c45bbb089930843dcc2bf813d709321cd78f301125b032d",
+      "malicious": 1,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 69,
+      "total_engines": 70,
+      "is_safe": false,
+      "scan_url": "https://www.virustotal.com/gui/file/8e72848238682cda7c45bbb089930843dcc2bf813d709321cd78f301125b032d"
+    },
+    {
+      "filename": "cargo-install-update.exe",
+      "sha256": "7e9a21f0e3e298ca619419e1f9c0f4f69cd11f9a4f81afda2731acc4d2571f06",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 72,
+      "total_engines": 72,
+      "is_safe": true,
+      "scan_url": "https://www.virustotal.com/gui/file/7e9a21f0e3e298ca619419e1f9c0f4f69cd11f9a4f81afda2731acc4d2571f06"
+    },
+    {
+      "filename": "cargo-install-update-config.exe",
+      "sha256": "aa69648ae6eb134aece49a7cf687a3aae3e8f9aae8f7baaf170491caf8e8fe14",
+      "malicious": 7,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 64,
+      "total_engines": 71,
+      "is_safe": false,
+      "scan_url": "https://www.virustotal.com/gui/file/aa69648ae6eb134aece49a7cf687a3aae3e8f9aae8f7baaf170491caf8e8fe14"
+    },
+    {
+      "filename": "nu_plugin_from_beancount.exe",
+      "sha256": "e6a1df59b877424f53a3adf7653f7208c964a58c1f291336f768be6b0c379103",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 72,
+      "total_engines": 72,
+      "is_safe": true,
+      "scan_url": "https://www.virustotal.com/gui/file/e6a1df59b877424f53a3adf7653f7208c964a58c1f291336f768be6b0c379103"
+    },
+    {
+      "filename": "glasgow.exe",
+      "sha256": "cfdf65284aca9c9a2e64d9903cb9bf8894ad2cff5c6f2f27cb97e1d9a6e35c77",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 72,
+      "total_engines": 72,
+      "is_safe": true,
+      "scan_url": "https://www.virustotal.com/gui/file/cfdf65284aca9c9a2e64d9903cb9bf8894ad2cff5c6f2f27cb97e1d9a6e35c77"
+    },
+    {
+      "filename": "fd.exe",
+      "sha256": "a6d43ac7b65b547a795bfdfcbdf3844f26d3edfbb28390a47bf4c1bb65c445c6",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 72,
+      "total_engines": 72,
+      "is_safe": true,
+      "scan_url": "https://www.virustotal.com/gui/file/a6d43ac7b65b547a795bfdfcbdf3844f26d3edfbb28390a47bf4c1bb65c445c6"
+    }
+  ]
+}

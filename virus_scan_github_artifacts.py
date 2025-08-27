@@ -3,13 +3,13 @@
 Script to download GitHub Action artifacts, extract Windows executables,
 and submit them to VirusTotal for scanning.
 
-Usage: python3 virus_scan_github_artifacts.py [start_run_id]
+Usage: python3 virus_scan_github_artifacts.py [start_from_run_id]
 
 Optional arguments:
-  start_run_id    Skip runs older than this run ID (useful to avoid problematic builds)
+  start_from_run_id    Start scanning from this run ID onwards (skipping older runs), but skip this run ID itself
 
 Example:
-  python3 virus_scan_github_artifacts.py 17257337803
+  python3 virus_scan_github_artifacts.py 17256193567
 """
 
 import os
@@ -114,7 +114,7 @@ class GitHubArtifactScanner:
         """Find recent Windows builds using GitHub API."""
         print(f"Searching for Windows builds in {repo}...")
         if start_from_run_id:
-            print(f"Will start scanning from run ID {start_from_run_id} onwards (skipping older runs)")
+            print(f"Will start scanning from run ID {start_from_run_id} onwards (skipping older runs) but will skip that run ID itself")
         
         windows_runs = []
         found_start_run = start_from_run_id is None  # If no start_from_run_id, start immediately
@@ -143,10 +143,16 @@ class GitHubArtifactScanner:
                         if not found_start_run:
                             if run_id == start_from_run_id:
                                 found_start_run = True
-                                print(f"Found starting run ID {start_from_run_id}, will begin scanning from here")
+                                print(f"Found starting run ID {start_from_run_id}, will begin scanning from here (but skip this run)")
+                                continue  # Skip this run ID itself
                             else:
                                 print(f"Skipping run {run_id} (before start point)")
                                 continue
+                        
+                        # Also skip the start_from_run_id if we encounter it again
+                        if start_from_run_id and run_id == start_from_run_id:
+                            print(f"Skipping run {run_id} (excluded start point)")
+                            continue
                         
                         windows_runs.append(run_id)
                         print(
@@ -650,7 +656,7 @@ def main():
             print(__doc__)
             sys.exit(0)
         start_from_run_id = sys.argv[1]
-        print(f"Using starting run ID from command line: {start_from_run_id}")
+        print(f"Using starting run ID from command line: {start_from_run_id} (will skip this run but scan builds before and after)")
 
     # Configuration
     repo = "cargo-bins/cargo-quickinstall"
@@ -667,7 +673,7 @@ def main():
         sys.exit(1)
 
     if start_from_run_id:
-        print(f"Starting virus scan of Windows builds from {repo} (starting from run {start_from_run_id})")
+        print(f"Starting virus scan of Windows builds from {repo} (starting from run {start_from_run_id} but excluding that run)")
     else:
         print(f"Starting virus scan of Windows builds from {repo} (scanning all recent builds)")
 
