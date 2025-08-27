@@ -11,3 +11,4 @@ stellar-strkey
 dotenv-flow
 winliner
 diesel_cli
+commit_verify
