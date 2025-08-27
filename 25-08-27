@@ -5,3 +5,4 @@ stellar-strkey
 pgrx-tests
 dotenv-flow
 diesel_cli
+commit_verify
