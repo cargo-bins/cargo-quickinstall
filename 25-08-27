@@ -6,3 +6,4 @@ nextest
 solana-faucet
 clippy
 trusted-signing-cli
+racer
