@@ -10,8 +10,8 @@ Usage:
 
 Optional arguments:
   start_from_run_id    Start scanning from this run ID onwards (skipping older runs), but skip this run ID itself
-  --continuous         Run continuously, checking for new builds every 5 minutes
-  --interval=N         Set check interval for continuous mode (seconds, default: 300)
+  --continuous         Run continuously, checking for new builds every 1 minute
+  --interval=N         Set check interval for continuous mode (seconds, default: 60)
 
 Examples:
   python3 virus_scan_github_artifacts.py 17256193567
@@ -19,7 +19,7 @@ Examples:
   python3 virus_scan_github_artifacts.py --interval=600
 
 Continuous mode will:
-- Check for new Windows builds every N seconds (default: 300 = 5 minutes)
+- Check for new Windows builds every N seconds (default: 60 = 1 minute)
 - Only scan builds that haven't been scanned before
 - Update the virus_scan_report.json file after each new scan
 - Include build information (ID, name, date) for each scanned binary
@@ -808,7 +808,7 @@ class GitHubArtifactScanner:
         except Exception as e:
             print(f"Error saving report: {e}")
 
-    def continuous_scan(self, repo: str, check_interval: int = 300) -> None:
+    def continuous_scan(self, repo: str, check_interval: int = 60) -> None:
         """Run continuous scanning, checking for new builds every check_interval seconds."""
         print(f"Starting continuous virus scanning for {repo}")
         print(f"Checking for new builds every {check_interval} seconds")
@@ -926,7 +926,7 @@ def main():
     # Parse command line arguments
     start_from_run_id = None
     continuous_mode = False
-    check_interval = 300  # 5 minutes default for continuous mode
+    check_interval = 60  # 1 minute default for continuous mode
 
     if len(sys.argv) > 1:
         if sys.argv[1] in ["-h", "--help", "help"]:
