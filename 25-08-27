@@ -4,3 +4,4 @@ racer
 stellar-strkey
 commit_verify
 dotenv-flow
+diesel_cli
