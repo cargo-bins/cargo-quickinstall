@@ -3,13 +3,27 @@
 Script to download GitHub Action artifacts, extract Windows executables,
 and submit them to VirusTotal for scanning.
 
-Usage: python3 virus_scan_github_artifacts.py [start_from_run_id]
+Usage:
+  python3 virus_scan_github_artifacts.py [start_from_run_id]
+  python3 virus_scan_github_artifacts.py --continuous
+  python3 virus_scan_github_artifacts.py --interval=600
 
 Optional arguments:
   start_from_run_id    Start scanning from this run ID onwards (skipping older runs), but skip this run ID itself
+  --continuous         Run continuously, checking for new builds every 5 minutes
+  --interval=N         Set check interval for continuous mode (seconds, default: 300)
 
-Example:
+Examples:
   python3 virus_scan_github_artifacts.py 17256193567
+  python3 virus_scan_github_artifacts.py --continuous
+  python3 virus_scan_github_artifacts.py --interval=600
+
+Continuous mode will:
+- Check for new Windows builds every N seconds (default: 300 = 5 minutes)
+- Only scan builds that haven't been scanned before
+- Update the virus_scan_report.json file after each new scan
+- Include build information (ID, name, date) for each scanned binary
+- Run forever until interrupted with Ctrl+C
 """
 
 import os
@@ -40,12 +54,19 @@ class ScanResult:
     total_engines: int
     scan_url: str
     is_safe: bool
+    build_id: str
+    build_name: str
+    build_date: str
 
 
 class GitHubArtifactScanner:
     def __init__(self, virustotal_api_key: str, github_token: Optional[str] = None):
         self.vt_api_key = virustotal_api_key
         self.github_token = github_token
+        self.report_path = Path("virus_scan_report.json")
+        self.scanned_builds = set()
+        self.all_results = []
+        self.load_existing_report()
 
     def _make_request(
         self,
@@ -109,15 +130,23 @@ class GitHubArtifactScanner:
             sys.exit(1)
 
     def get_windows_builds(
-        self, repo: str, max_builds: int = 10, max_pages: int = 5, start_from_run_id: Optional[str] = None
-    ) -> List[str]:
+        self,
+        repo: str,
+        max_builds: int = 10,
+        max_pages: int = 5,
+        start_from_run_id: Optional[str] = None,
+    ) -> List[Dict[str, str]]:
         """Find recent Windows builds using GitHub API."""
         print(f"Searching for Windows builds in {repo}...")
         if start_from_run_id:
-            print(f"Will start scanning from run ID {start_from_run_id} onwards (skipping older runs) but will skip that run ID itself")
-        
+            print(
+                f"Will start scanning from run ID {start_from_run_id} onwards (skipping older runs) but will skip that run ID itself"
+            )
+
         windows_runs = []
-        found_start_run = start_from_run_id is None  # If no start_from_run_id, start immediately
+        found_start_run = (
+            start_from_run_id is None
+        )  # If no start_from_run_id, start immediately
 
         for page in range(1, max_pages + 1):
             print(f"Checking page {page}...")
@@ -138,23 +167,30 @@ class GitHubArtifactScanner:
                         and "windows" in run.get("name", "").lower()
                     ):
                         run_id = str(run["id"])
-                        
+
                         # If we haven't found our starting point yet, keep looking
                         if not found_start_run:
                             if run_id == start_from_run_id:
                                 found_start_run = True
-                                print(f"Found starting run ID {start_from_run_id}, will begin scanning from here (but skip this run)")
+                                print(
+                                    f"Found starting run ID {start_from_run_id}, will begin scanning from here (but skip this run)"
+                                )
                                 continue  # Skip this run ID itself
                             else:
                                 print(f"Skipping run {run_id} (before start point)")
                                 continue
-                        
+
                         # Also skip the start_from_run_id if we encounter it again
                         if start_from_run_id and run_id == start_from_run_id:
                             print(f"Skipping run {run_id} (excluded start point)")
                             continue
-                        
-                        windows_runs.append(run_id)
+
+                        build_info = {
+                            "id": run_id,
+                            "name": run["name"],
+                            "date": run["created_at"],
+                        }
+                        windows_runs.append(build_info)
                         print(
                             f"Found Windows build: {run['id']} - {run['name']} ({run['created_at']})"
                         )
@@ -170,7 +206,9 @@ class GitHubArtifactScanner:
                 break
 
         if start_from_run_id and not found_start_run:
-            print(f"Warning: Starting run ID {start_from_run_id} not found in the searched pages")
+            print(
+                f"Warning: Starting run ID {start_from_run_id} not found in the searched pages"
+            )
 
         print(f"Found {len(windows_runs)} Windows builds to scan")
         return windows_runs
@@ -462,7 +500,13 @@ class GitHubArtifactScanner:
         sys.exit(1)
 
     def parse_scan_result(
-        self, vt_result: Dict, filename: str, sha256: str
+        self,
+        vt_result: Dict,
+        filename: str,
+        sha256: str,
+        build_id: str = "",
+        build_name: str = "",
+        build_date: str = "",
     ) -> ScanResult:
         """Parse VirusTotal scan result."""
         # Handle both analysis results and file hash results
@@ -493,9 +537,14 @@ class GitHubArtifactScanner:
             total_engines=total,
             scan_url=scan_url,
             is_safe=is_safe,
+            build_id=build_id,
+            build_name=build_name,
+            build_date=build_date,
         )
 
-    def scan_multiple_runs(self, repo: str, run_ids: List[str]) -> List[ScanResult]:
+    def scan_multiple_runs(
+        self, repo: str, builds: List[Dict[str, str]]
+    ) -> List[ScanResult]:
         """Scan executables from multiple workflow runs."""
         all_results = []
 
@@ -503,9 +552,14 @@ class GitHubArtifactScanner:
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_path = Path(temp_dir)
 
-            for i, run_id in enumerate(run_ids, 1):
+            for i, build in enumerate(builds, 1):
+                run_id = build["id"]
+                build_name = build["name"]
+                build_date = build["date"]
+
                 print(f"\n{'='*60}")
-                print(f"PROCESSING RUN {i}/{len(run_ids)}: {run_id}")
+                print(f"PROCESSING RUN {i}/{len(builds)}: {run_id}")
+                print(f"BUILD: {build_name} ({build_date})")
                 print(f"{'='*60}")
 
                 try:
@@ -518,7 +572,7 @@ class GitHubArtifactScanner:
                         continue
 
                     run_results = self.scan_run_artifacts(
-                        repo, run_id, artifacts, temp_path
+                        repo, run_id, artifacts, temp_path, build_name, build_date
                     )
                     all_results.extend(run_results)
 
@@ -529,7 +583,13 @@ class GitHubArtifactScanner:
 
         return all_results
 
-    def scan_executable(self, exe_path: Path) -> ScanResult:
+    def scan_executable(
+        self,
+        exe_path: Path,
+        build_id: str = "",
+        build_name: str = "",
+        build_date: str = "",
+    ) -> ScanResult:
         """Scan a single executable file."""
         filename = exe_path.name
         sha256 = self.calculate_sha256(exe_path)
@@ -541,7 +601,9 @@ class GitHubArtifactScanner:
 
         # Skip files larger than 32MB (VirusTotal's limit is ~650MB but free tier is much lower)
         if file_size > 32 * 1024 * 1024:
-            print(f"⚠️  Skipping {filename} - file too large ({file_size / (1024*1024):.1f} MB)")
+            print(
+                f"⚠️  Skipping {filename} - file too large ({file_size / (1024*1024):.1f} MB)"
+            )
             # Return a "safe" result for large files to avoid blocking the scan
             return ScanResult(
                 filename=filename,
@@ -553,6 +615,9 @@ class GitHubArtifactScanner:
                 total_engines=0,
                 scan_url=f"https://www.virustotal.com/gui/file/{sha256}",
                 is_safe=True,  # Assume safe to not block CI
+                build_id=build_id,
+                build_name=build_name,
+                build_date=build_date,
             )
 
         try:
@@ -564,7 +629,9 @@ class GitHubArtifactScanner:
             vt_result = self.get_scan_results(scan_id)
 
             # Parse results
-            result = self.parse_scan_result(vt_result, filename, sha256)
+            result = self.parse_scan_result(
+                vt_result, filename, sha256, build_id, build_name, build_date
+            )
 
             return result
         except Exception as e:
@@ -572,7 +639,13 @@ class GitHubArtifactScanner:
             sys.exit(1)
 
     def scan_run_artifacts(
-        self, repo: str, run_id: str, artifacts: List[Dict], temp_path: Path
+        self,
+        repo: str,
+        run_id: str,
+        artifacts: List[Dict],
+        temp_path: Path,
+        build_name: str = "",
+        build_date: str = "",
     ) -> List[ScanResult]:
         """Scan artifacts from a single run."""
         results = []
@@ -610,7 +683,9 @@ class GitHubArtifactScanner:
 
                 # Scan each executable
                 for exe_path in executables:
-                    result = self.scan_executable(exe_path)
+                    result = self.scan_executable(
+                        exe_path, run_id, build_name, build_date
+                    )
                     results.append(result)
 
                     # Print immediate results
@@ -632,6 +707,157 @@ class GitHubArtifactScanner:
 
         return results
 
+    def load_existing_report(self) -> None:
+        """Load existing scan report to avoid rescanning builds."""
+        if self.report_path.exists():
+            try:
+                with open(self.report_path, "r") as f:
+                    data = json.load(f)
+                    # Ensure all build IDs are strings for consistent comparison
+                    scanned_build_ids = data.get("windows_builds_scanned", [])
+                    self.scanned_builds = set(
+                        str(build_id) for build_id in scanned_build_ids
+                    )
+
+                    # Load existing results
+                    for result_data in data.get("results", []):
+                        result = ScanResult(
+                            filename=result_data["filename"],
+                            sha256=result_data["sha256"],
+                            malicious=result_data["malicious"],
+                            suspicious=result_data["suspicious"],
+                            harmless=result_data["harmless"],
+                            undetected=result_data["undetected"],
+                            total_engines=result_data["total_engines"],
+                            scan_url=result_data["scan_url"],
+                            is_safe=result_data["is_safe"],
+                            build_id=result_data.get("build_id", ""),
+                            build_name=result_data.get("build_name", ""),
+                            build_date=result_data.get("build_date", ""),
+                        )
+                        self.all_results.append(result)
+                    print(
+                        f"Loaded existing report with {len(self.scanned_builds)} scanned builds and {len(self.all_results)} results"
+                    )
+            except Exception as e:
+                print(f"Error loading existing report: {e}")
+                self.scanned_builds = set()
+                self.all_results = []
+        else:
+            print("No existing report found, starting fresh")
+
+    def save_report(self, repo: str) -> None:
+        """Save current scan report to file."""
+        total_scanned = len(self.all_results)
+        flagged_count = sum(1 for r in self.all_results if not r.is_safe)
+        clean_count = total_scanned - flagged_count
+
+        report_data = {
+            "scan_timestamp": time.time(),
+            "repo": repo,
+            "windows_builds_scanned": list(self.scanned_builds),
+            "summary": {
+                "builds_scanned": len(self.scanned_builds),
+                "total_scanned": total_scanned,
+                "clean": clean_count,
+                "flagged": flagged_count,
+            },
+            "results": [
+                {
+                    "filename": r.filename,
+                    "sha256": r.sha256,
+                    "malicious": r.malicious,
+                    "suspicious": r.suspicious,
+                    "harmless": r.harmless,
+                    "undetected": r.undetected,
+                    "total_engines": r.total_engines,
+                    "is_safe": r.is_safe,
+                    "scan_url": r.scan_url,
+                    "build_id": r.build_id,
+                    "build_name": r.build_name,
+                    "build_date": r.build_date,
+                }
+                for r in self.all_results
+            ],
+        }
+
+        try:
+            with open(self.report_path, "w") as f:
+                json.dump(report_data, f, indent=2)
+            print(f"Report updated: {self.report_path}")
+        except Exception as e:
+            print(f"Error saving report: {e}")
+
+    def continuous_scan(self, repo: str, check_interval: int = 300) -> None:
+        """Run continuous scanning, checking for new builds every check_interval seconds."""
+        print(f"Starting continuous virus scanning for {repo}")
+        print(f"Checking for new builds every {check_interval} seconds")
+        print(f"Report will be updated after each scan: {self.report_path}")
+        print(f"Already scanned builds: {len(self.scanned_builds)}")
+        if self.scanned_builds:
+            print(f"  Most recent: {sorted(self.scanned_builds, reverse=True)[:5]}")
+
+        while True:
+            try:
+                print(f"\n{'='*80}")
+                print(f"CONTINUOUS SCAN CHECK - {time.strftime('%Y-%m-%d %H:%M:%S')}")
+                print(f"{'='*80}")
+
+                # Find new builds
+                all_builds = self.get_windows_builds(repo, max_builds=20, max_pages=10)
+                print(f"Found {len(all_builds)} total Windows builds")
+
+                # Filter out already scanned builds
+                new_builds = []
+                for build in all_builds:
+                    build_id = str(build["id"])  # Ensure it's a string for comparison
+                    if build_id not in self.scanned_builds:
+                        new_builds.append(build)
+                        print(f"  NEW: {build_id} - {build['name'][:50]}...")
+                    else:
+                        print(f"  SKIP: {build_id} - already scanned")
+
+                if not new_builds:
+                    print("No new Windows builds found to scan.")
+                else:
+                    print(f"\nWill scan {len(new_builds)} new Windows builds")
+
+                    # Scan new builds
+                    new_results = self.scan_multiple_runs(repo, new_builds)
+
+                    # Add results and update scanned builds
+                    self.all_results.extend(new_results)
+                    for build in new_builds:
+                        build_id = str(build["id"])  # Ensure it's a string
+                        self.scanned_builds.add(build_id)
+                        print(f"Added build {build_id} to scanned list")
+
+                    # Save updated report
+                    self.save_report(repo)
+                    print(f"Total scanned builds now: {len(self.scanned_builds)}")
+
+                    # Print summary of new results
+                    if new_results:
+                        flagged = [r for r in new_results if not r.is_safe]
+                        if flagged:
+                            print(f"\n🚨 {len(flagged)} NEW FLAGGED FILES:")
+                            for result in flagged:
+                                print(f"  {result.filename} (Build: {result.build_id})")
+                                print(f"    Report: {result.scan_url}")
+                        else:
+                            print(f"\n✅ All {len(new_results)} new files are clean!")
+
+                print(f"\nWaiting {check_interval} seconds before next check...")
+                time.sleep(check_interval)
+
+            except KeyboardInterrupt:
+                print("\nStopping continuous scan...")
+                break
+            except Exception as e:
+                print(f"Error in continuous scan: {e}")
+                print(f"Waiting {check_interval} seconds before retrying...")
+                time.sleep(check_interval)
+
 
 def load_env_file():
     """Load environment variables from .env file."""
@@ -651,12 +877,27 @@ def main():
 
     # Parse command line arguments
     start_from_run_id = None
+    continuous_mode = False
+    check_interval = 300  # 5 minutes default for continuous mode
+
     if len(sys.argv) > 1:
         if sys.argv[1] in ["-h", "--help", "help"]:
             print(__doc__)
             sys.exit(0)
-        start_from_run_id = sys.argv[1]
-        print(f"Using starting run ID from command line: {start_from_run_id} (will skip this run but scan builds before and after)")
+        elif sys.argv[1] == "--continuous":
+            continuous_mode = True
+        elif sys.argv[1].startswith("--interval="):
+            continuous_mode = True
+            try:
+                check_interval = int(sys.argv[1].split("=")[1])
+            except ValueError:
+                print("Error: Invalid interval value")
+                sys.exit(1)
+        else:
+            start_from_run_id = sys.argv[1]
+            print(
+                f"Using starting run ID from command line: {start_from_run_id} (will skip this run but scan builds before and after)"
+            )
 
     # Configuration
     repo = "cargo-bins/cargo-quickinstall"
@@ -672,17 +913,28 @@ def main():
         print("Please set it in your .env file or environment")
         sys.exit(1)
 
-    if start_from_run_id:
-        print(f"Starting virus scan of Windows builds from {repo} (starting from run {start_from_run_id} but excluding that run)")
-    else:
-        print(f"Starting virus scan of Windows builds from {repo} (scanning all recent builds)")
-
     scanner = GitHubArtifactScanner(vt_api_key, github_token)
+
+    if continuous_mode:
+        # Run continuous scanning
+        scanner.continuous_scan(repo, check_interval)
+        return
+
+    if start_from_run_id:
+        print(
+            f"Starting virus scan of Windows builds from {repo} (starting from run {start_from_run_id} but excluding that run)"
+        )
+    else:
+        print(
+            f"Starting virus scan of Windows builds from {repo} (scanning all recent builds)"
+        )
 
     # Find Windows builds
     try:
-        windows_run_ids = scanner.get_windows_builds(repo, max_builds, max_pages, start_from_run_id)
-        if not windows_run_ids:
+        windows_builds = scanner.get_windows_builds(
+            repo, max_builds, max_pages, start_from_run_id
+        )
+        if not windows_builds:
             print("No Windows builds found!")
             sys.exit(0)
     except Exception as e:
@@ -690,12 +942,18 @@ def main():
         sys.exit(1)
 
     # Scan all found builds
-    print(f"\nStarting scan of {len(windows_run_ids)} Windows builds...")
+    print(f"\nStarting scan of {len(windows_builds)} Windows builds...")
     try:
-        results = scanner.scan_multiple_runs(repo, windows_run_ids)
+        results = scanner.scan_multiple_runs(repo, windows_builds)
     except Exception as e:
         print(f"Error during scanning: {e}")
         sys.exit(1)
+
+    # Add results to scanner
+    scanner.all_results.extend(results)
+    for build in windows_builds:
+        build_id = str(build["id"])  # Ensure it's a string
+        scanner.scanned_builds.add(build_id)
 
     # Generate final report
     print("\n" + "=" * 60)
@@ -706,7 +964,7 @@ def main():
     flagged_count = sum(1 for r in results if not r.is_safe)
     clean_count = total_scanned - flagged_count
 
-    print(f"Windows builds scanned: {len(windows_run_ids)}")
+    print(f"Windows builds scanned: {len(windows_builds)}")
     print(f"Total files scanned: {total_scanned}")
     print(f"Clean files: {clean_count}")
     print(f"Flagged files: {flagged_count}")
@@ -716,6 +974,7 @@ def main():
         for result in results:
             if not result.is_safe:
                 print(f"🚨 {result.filename}")
+                print(f"   Build: {result.build_id} ({result.build_name})")
                 print(f"   SHA256: {result.sha256}")
                 print(
                     f"   Malicious: {result.malicious}, Suspicious: {result.suspicious}"
@@ -724,40 +983,7 @@ def main():
                 print()
 
     # Save detailed report
-    report_path = Path("virus_scan_report.json")
-    report_data = {
-        "scan_timestamp": time.time(),
-        "repo": repo,
-        "windows_builds_scanned": windows_run_ids,
-        "summary": {
-            "builds_scanned": len(windows_run_ids),
-            "total_scanned": total_scanned,
-            "clean": clean_count,
-            "flagged": flagged_count,
-        },
-        "results": [
-            {
-                "filename": r.filename,
-                "sha256": r.sha256,
-                "malicious": r.malicious,
-                "suspicious": r.suspicious,
-                "harmless": r.harmless,
-                "undetected": r.undetected,
-                "total_engines": r.total_engines,
-                "is_safe": r.is_safe,
-                "scan_url": r.scan_url,
-            }
-            for r in results
-        ],
-    }
-
-    try:
-        with open(report_path, "w") as f:
-            json.dump(report_data, f, indent=2)
-        print(f"\nDetailed report saved to: {report_path}")
-    except Exception as e:
-        print(f"Error saving report: {e}")
-        sys.exit(1)
+    scanner.save_report(repo)
 
     # Exit with error code if any files were flagged
     if flagged_count > 0:
