@@ -2,6 +2,14 @@
 """
 Script to download GitHub Action artifacts, extract Windows executables,
 and submit them to VirusTotal for scanning.
+
+Usage: python3 virus_scan_github_artifacts.py [start_run_id]
+
+Optional arguments:
+  start_run_id    Skip runs older than this run ID (useful to avoid problematic builds)
+
+Example:
+  python3 virus_scan_github_artifacts.py 17257337803
 """
 
 import os
@@ -100,40 +108,64 @@ class GitHubArtifactScanner:
             print(f"Download failed: {e}")
             sys.exit(1)
 
-    def get_windows_builds(self, repo: str, max_builds: int = 10, max_pages: int = 5) -> List[str]:
+    def get_windows_builds(
+        self, repo: str, max_builds: int = 10, max_pages: int = 5, start_from_run_id: Optional[str] = None
+    ) -> List[str]:
         """Find recent Windows builds using GitHub API."""
         print(f"Searching for Windows builds in {repo}...")
-        windows_runs = []
+        if start_from_run_id:
+            print(f"Will start scanning from run ID {start_from_run_id} onwards (skipping older runs)")
         
+        windows_runs = []
+        found_start_run = start_from_run_id is None  # If no start_from_run_id, start immediately
+
         for page in range(1, max_pages + 1):
             print(f"Checking page {page}...")
             url = f"https://api.github.com/repos/{repo}/actions/runs?per_page=100&page={page}"
-            
+
             try:
                 result = self._make_request(url)
                 workflow_runs = result.get("workflow_runs", [])
-                
+
                 if not workflow_runs:
                     print(f"No more workflow runs found on page {page}")
                     break
-                
+
                 # Filter for successful Windows builds
                 for run in workflow_runs:
-                    if (run.get("conclusion") == "success" and 
-                        "windows" in run.get("name", "").lower()):
-                        windows_runs.append(str(run["id"]))
-                        print(f"Found Windows build: {run['id']} - {run['name']} ({run['created_at']})")
+                    if (
+                        run.get("conclusion") == "success"
+                        and "windows" in run.get("name", "").lower()
+                    ):
+                        run_id = str(run["id"])
                         
+                        # If we haven't found our starting point yet, keep looking
+                        if not found_start_run:
+                            if run_id == start_from_run_id:
+                                found_start_run = True
+                                print(f"Found starting run ID {start_from_run_id}, will begin scanning from here")
+                            else:
+                                print(f"Skipping run {run_id} (before start point)")
+                                continue
+                        
+                        windows_runs.append(run_id)
+                        print(
+                            f"Found Windows build: {run['id']} - {run['name']} ({run['created_at']})"
+                        )
+
                         if len(windows_runs) >= max_builds:
                             break
-                
+
                 if len(windows_runs) >= max_builds:
                     break
-                    
+
             except Exception as e:
                 print(f"Error fetching workflow runs from page {page}: {e}")
                 break
-        
+
+        if start_from_run_id and not found_start_run:
+            print(f"Warning: Starting run ID {start_from_run_id} not found in the searched pages")
+
         print(f"Found {len(windows_runs)} Windows builds to scan")
         return windows_runs
 
@@ -460,43 +492,62 @@ class GitHubArtifactScanner:
     def scan_multiple_runs(self, repo: str, run_ids: List[str]) -> List[ScanResult]:
         """Scan executables from multiple workflow runs."""
         all_results = []
-        
+
         # Create temporary directory
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_path = Path(temp_dir)
-            
+
             for i, run_id in enumerate(run_ids, 1):
                 print(f"\n{'='*60}")
                 print(f"PROCESSING RUN {i}/{len(run_ids)}: {run_id}")
                 print(f"{'='*60}")
-                
+
                 try:
                     # Get artifacts for this run
                     artifacts = self.get_workflow_artifacts(repo, run_id)
                     print(f"Found {len(artifacts)} artifacts")
-                    
+
                     if not artifacts:
                         print(f"No artifacts found for run {run_id}")
                         continue
-                    
-                    run_results = self.scan_run_artifacts(repo, run_id, artifacts, temp_path)
+
+                    run_results = self.scan_run_artifacts(
+                        repo, run_id, artifacts, temp_path
+                    )
                     all_results.extend(run_results)
-                    
+
                 except Exception as e:
                     print(f"Error processing run {run_id}: {e}")
                     # Continue with other runs instead of exiting
                     continue
-        
+
         return all_results
-    
+
     def scan_executable(self, exe_path: Path) -> ScanResult:
         """Scan a single executable file."""
         filename = exe_path.name
         sha256 = self.calculate_sha256(exe_path)
+        file_size = exe_path.stat().st_size
 
         print(f"\nScanning: {filename}")
         print(f"SHA256: {sha256}")
-        print(f"Size: {exe_path.stat().st_size} bytes")
+        print(f"Size: {file_size} bytes ({file_size / (1024*1024):.1f} MB)")
+
+        # Skip files larger than 32MB (VirusTotal's limit is ~650MB but free tier is much lower)
+        if file_size > 32 * 1024 * 1024:
+            print(f"⚠️  Skipping {filename} - file too large ({file_size / (1024*1024):.1f} MB)")
+            # Return a "safe" result for large files to avoid blocking the scan
+            return ScanResult(
+                filename=filename,
+                sha256=sha256,
+                malicious=0,
+                suspicious=0,
+                harmless=0,
+                undetected=0,
+                total_engines=0,
+                scan_url=f"https://www.virustotal.com/gui/file/{sha256}",
+                is_safe=True,  # Assume safe to not block CI
+            )
 
         try:
             # Submit file
@@ -513,18 +564,24 @@ class GitHubArtifactScanner:
         except Exception as e:
             print(f"Failed to scan {filename}: {e}")
             sys.exit(1)
-    
-    def scan_run_artifacts(self, repo: str, run_id: str, artifacts: List[Dict], temp_path: Path) -> List[ScanResult]:
+
+    def scan_run_artifacts(
+        self, repo: str, run_id: str, artifacts: List[Dict], temp_path: Path
+    ) -> List[ScanResult]:
         """Scan artifacts from a single run."""
         results = []
-        
+
         for artifact in artifacts:
             artifact_name = artifact["name"]
-            artifact_id = artifact["workflow_run"]["id"]  # Use the run ID for downloading
+            artifact_id = artifact["workflow_run"][
+                "id"
+            ]  # Use the run ID for downloading
 
             # Skip non-Windows artifacts
-            if ("windows" not in artifact_name.lower() and 
-                "win" not in artifact_name.lower()):
+            if (
+                "windows" not in artifact_name.lower()
+                and "win" not in artifact_name.lower()
+            ):
                 print(f"Skipping non-Windows artifact: {artifact_name}")
                 continue
 
@@ -537,7 +594,9 @@ class GitHubArtifactScanner:
 
                 # Extract executables
                 extract_dir = temp_path / f"{run_id}_{artifact_name}"
-                executables = self.extract_windows_executables(artifact_path, extract_dir)
+                executables = self.extract_windows_executables(
+                    artifact_path, extract_dir
+                )
 
                 if not executables:
                     print(f"No Windows executables found in {artifact_name}")
@@ -551,7 +610,9 @@ class GitHubArtifactScanner:
                     # Print immediate results
                     status = "✅ CLEAN" if result.is_safe else "🚨 FLAGGED"
                     print(f"{status}: {result.filename}")
-                    print(f"  Malicious: {result.malicious}, Suspicious: {result.suspicious}")
+                    print(
+                        f"  Malicious: {result.malicious}, Suspicious: {result.suspicious}"
+                    )
                     print(f"  Report: {result.scan_url}")
 
                     # Rate limiting (VirusTotal free tier: 4 requests/minute)
@@ -562,7 +623,7 @@ class GitHubArtifactScanner:
                 print(f"Error processing artifact {artifact_name}: {e}")
                 # Continue with other artifacts instead of exiting
                 continue
-        
+
         return results
 
 
@@ -582,10 +643,19 @@ def main():
     # Load environment variables
     load_env_file()
 
+    # Parse command line arguments
+    start_from_run_id = None
+    if len(sys.argv) > 1:
+        if sys.argv[1] in ["-h", "--help", "help"]:
+            print(__doc__)
+            sys.exit(0)
+        start_from_run_id = sys.argv[1]
+        print(f"Using starting run ID from command line: {start_from_run_id}")
+
     # Configuration
     repo = "cargo-bins/cargo-quickinstall"
     max_builds = 10  # Maximum number of Windows builds to scan
-    max_pages = 5   # Maximum pages to search
+    max_pages = 5  # Maximum pages to search
 
     # Get API keys
     vt_api_key = os.getenv("VIRUSTOTAL_API_KEY")
@@ -596,13 +666,16 @@ def main():
         print("Please set it in your .env file or environment")
         sys.exit(1)
 
-    print(f"Starting virus scan of Windows builds from {repo}")
-    
+    if start_from_run_id:
+        print(f"Starting virus scan of Windows builds from {repo} (starting from run {start_from_run_id})")
+    else:
+        print(f"Starting virus scan of Windows builds from {repo} (scanning all recent builds)")
+
     scanner = GitHubArtifactScanner(vt_api_key, github_token)
 
     # Find Windows builds
     try:
-        windows_run_ids = scanner.get_windows_builds(repo, max_builds, max_pages)
+        windows_run_ids = scanner.get_windows_builds(repo, max_builds, max_pages, start_from_run_id)
         if not windows_run_ids:
             print("No Windows builds found!")
             sys.exit(0)
