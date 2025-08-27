@@ -25,3 +25,4 @@ cosmwasm-check
 wagyu
 clippy
 commit_verify
+sp1-prover
