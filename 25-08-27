@@ -5,3 +5,4 @@ parquet
 stellar-strkey
 pgrx-tests
 dotenv-flow
+diesel_cli
