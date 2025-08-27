@@ -66,6 +66,8 @@ class GitHubArtifactScanner:
         self.report_path = Path("virus_scan_report.json")
         self.scanned_builds = set()
         self.all_results = []
+        self.last_page_position = 1  # Track last page position
+        self.last_run_id = None  # Track the most recent run ID we've seen
         self.load_existing_report()
 
     def _make_request(
@@ -135,6 +137,7 @@ class GitHubArtifactScanner:
         max_builds: int = 10,
         max_pages: int = 5,
         start_from_run_id: Optional[str] = None,
+        start_page: int = 1,
     ) -> List[Dict[str, str]]:
         """Find recent Windows builds using GitHub API."""
         print(f"Searching for Windows builds in {repo}...")
@@ -143,12 +146,14 @@ class GitHubArtifactScanner:
                 f"Will start scanning from run ID {start_from_run_id} onwards (skipping older runs) but will skip that run ID itself"
             )
 
+        print(f"Starting search from page {start_page}")
+
         windows_runs = []
         found_start_run = (
             start_from_run_id is None
         )  # If no start_from_run_id, start immediately
 
-        for page in range(1, max_pages + 1):
+        for page in range(start_page, start_page + max_pages):
             print(f"Checking page {page}...")
             url = f"https://api.github.com/repos/{repo}/actions/runs?per_page=100&page={page}"
 
@@ -159,6 +164,10 @@ class GitHubArtifactScanner:
                 if not workflow_runs:
                     print(f"No more workflow runs found on page {page}")
                     break
+
+                # Track the most recent run ID we encounter (from the first page)
+                if page == start_page and workflow_runs and self.last_run_id is None:
+                    self.last_run_id = str(workflow_runs[0]["id"])
 
                 # Filter for successful Windows builds
                 for run in workflow_runs:
@@ -196,6 +205,8 @@ class GitHubArtifactScanner:
                         )
 
                         if len(windows_runs) >= max_builds:
+                            # Store the current page position
+                            self.last_page_position = page
                             break
 
                 if len(windows_runs) >= max_builds:
@@ -719,6 +730,10 @@ class GitHubArtifactScanner:
                         str(build_id) for build_id in scanned_build_ids
                     )
 
+                    # Load page position tracking
+                    self.last_page_position = data.get("last_page_position", 1)
+                    self.last_run_id = data.get("last_run_id")
+
                     # Load existing results
                     for result_data in data.get("results", []):
                         result = ScanResult(
@@ -739,10 +754,13 @@ class GitHubArtifactScanner:
                     print(
                         f"Loaded existing report with {len(self.scanned_builds)} scanned builds and {len(self.all_results)} results"
                     )
+                    print(f"Will continue from page {self.last_page_position}")
             except Exception as e:
                 print(f"Error loading existing report: {e}")
                 self.scanned_builds = set()
                 self.all_results = []
+                self.last_page_position = 1
+                self.last_run_id = None
         else:
             print("No existing report found, starting fresh")
 
@@ -756,6 +774,8 @@ class GitHubArtifactScanner:
             "scan_timestamp": time.time(),
             "repo": repo,
             "windows_builds_scanned": list(self.scanned_builds),
+            "last_page_position": self.last_page_position,
+            "last_run_id": self.last_run_id,
             "summary": {
                 "builds_scanned": len(self.scanned_builds),
                 "total_scanned": total_scanned,
@@ -803,8 +823,33 @@ class GitHubArtifactScanner:
                 print(f"CONTINUOUS SCAN CHECK - {time.strftime('%Y-%m-%d %H:%M:%S')}")
                 print(f"{'='*80}")
 
-                # Find new builds
-                all_builds = self.get_windows_builds(repo, max_builds=20, max_pages=10)
+                # Check if we have new builds by looking at page 1 first
+                recent_builds = self.get_windows_builds(
+                    repo, max_builds=5, max_pages=1, start_page=1
+                )
+
+                # If we find any new builds on page 1, reset to page 1
+                has_new_builds_on_page_1 = any(
+                    str(build["id"]) not in self.scanned_builds
+                    for build in recent_builds
+                )
+
+                if has_new_builds_on_page_1:
+                    print(
+                        "Found new builds on page 1, resetting search to start from page 1"
+                    )
+                    start_page = 1
+                    self.last_page_position = 1
+                else:
+                    print(
+                        f"No new builds on page 1, continuing from page {self.last_page_position}"
+                    )
+                    start_page = self.last_page_position
+
+                # Find new builds starting from the appropriate page
+                all_builds = self.get_windows_builds(
+                    repo, max_builds=20, max_pages=10, start_page=start_page
+                )
                 print(f"Found {len(all_builds)} total Windows builds")
 
                 # Filter out already scanned builds
@@ -819,6 +864,9 @@ class GitHubArtifactScanner:
 
                 if not new_builds:
                     print("No new Windows builds found to scan.")
+                    # Advance page position if we didn't find anything new
+                    self.last_page_position += 1
+                    print(f"Advanced to page {self.last_page_position} for next check")
                 else:
                     print(f"\nWill scan {len(new_builds)} new Windows builds")
 
