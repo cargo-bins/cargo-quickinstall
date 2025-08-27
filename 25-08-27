@@ -5,3 +5,4 @@ clippy
 nextest
 solana-faucet
 clippy
+trusted-signing-cli
