@@ -12,3 +12,4 @@ commit_verify
 zalgo-codec
 dotenv-flow
 exif-cleaner-gui
+diesel_cli
