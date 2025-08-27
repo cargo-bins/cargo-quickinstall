@@ -100,6 +100,43 @@ class GitHubArtifactScanner:
             print(f"Download failed: {e}")
             sys.exit(1)
 
+    def get_windows_builds(self, repo: str, max_builds: int = 10, max_pages: int = 5) -> List[str]:
+        """Find recent Windows builds using GitHub API."""
+        print(f"Searching for Windows builds in {repo}...")
+        windows_runs = []
+        
+        for page in range(1, max_pages + 1):
+            print(f"Checking page {page}...")
+            url = f"https://api.github.com/repos/{repo}/actions/runs?per_page=100&page={page}"
+            
+            try:
+                result = self._make_request(url)
+                workflow_runs = result.get("workflow_runs", [])
+                
+                if not workflow_runs:
+                    print(f"No more workflow runs found on page {page}")
+                    break
+                
+                # Filter for successful Windows builds
+                for run in workflow_runs:
+                    if (run.get("conclusion") == "success" and 
+                        "windows" in run.get("name", "").lower()):
+                        windows_runs.append(str(run["id"]))
+                        print(f"Found Windows build: {run['id']} - {run['name']} ({run['created_at']})")
+                        
+                        if len(windows_runs) >= max_builds:
+                            break
+                
+                if len(windows_runs) >= max_builds:
+                    break
+                    
+            except Exception as e:
+                print(f"Error fetching workflow runs from page {page}: {e}")
+                break
+        
+        print(f"Found {len(windows_runs)} Windows builds to scan")
+        return windows_runs
+
     def get_workflow_artifacts(self, repo: str, run_id: str) -> List[Dict]:
         """Fetch artifacts from a GitHub Actions workflow run."""
         url = f"https://api.github.com/repos/{repo}/actions/runs/{run_id}/artifacts"
@@ -420,6 +457,38 @@ class GitHubArtifactScanner:
             is_safe=is_safe,
         )
 
+    def scan_multiple_runs(self, repo: str, run_ids: List[str]) -> List[ScanResult]:
+        """Scan executables from multiple workflow runs."""
+        all_results = []
+        
+        # Create temporary directory
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_path = Path(temp_dir)
+            
+            for i, run_id in enumerate(run_ids, 1):
+                print(f"\n{'='*60}")
+                print(f"PROCESSING RUN {i}/{len(run_ids)}: {run_id}")
+                print(f"{'='*60}")
+                
+                try:
+                    # Get artifacts for this run
+                    artifacts = self.get_workflow_artifacts(repo, run_id)
+                    print(f"Found {len(artifacts)} artifacts")
+                    
+                    if not artifacts:
+                        print(f"No artifacts found for run {run_id}")
+                        continue
+                    
+                    run_results = self.scan_run_artifacts(repo, run_id, artifacts, temp_path)
+                    all_results.extend(run_results)
+                    
+                except Exception as e:
+                    print(f"Error processing run {run_id}: {e}")
+                    # Continue with other runs instead of exiting
+                    continue
+        
+        return all_results
+    
     def scan_executable(self, exe_path: Path) -> ScanResult:
         """Scan a single executable file."""
         filename = exe_path.name
@@ -444,6 +513,57 @@ class GitHubArtifactScanner:
         except Exception as e:
             print(f"Failed to scan {filename}: {e}")
             sys.exit(1)
+    
+    def scan_run_artifacts(self, repo: str, run_id: str, artifacts: List[Dict], temp_path: Path) -> List[ScanResult]:
+        """Scan artifacts from a single run."""
+        results = []
+        
+        for artifact in artifacts:
+            artifact_name = artifact["name"]
+            artifact_id = artifact["workflow_run"]["id"]  # Use the run ID for downloading
+
+            # Skip non-Windows artifacts
+            if ("windows" not in artifact_name.lower() and 
+                "win" not in artifact_name.lower()):
+                print(f"Skipping non-Windows artifact: {artifact_name}")
+                continue
+
+            print(f"\nProcessing artifact: {artifact_name}")
+
+            try:
+                # Download artifact
+                artifact_path = temp_path / f"{run_id}_{artifact_name}.zip"
+                self.download_artifact(artifact_name, artifact_id, artifact_path)
+
+                # Extract executables
+                extract_dir = temp_path / f"{run_id}_{artifact_name}"
+                executables = self.extract_windows_executables(artifact_path, extract_dir)
+
+                if not executables:
+                    print(f"No Windows executables found in {artifact_name}")
+                    continue
+
+                # Scan each executable
+                for exe_path in executables:
+                    result = self.scan_executable(exe_path)
+                    results.append(result)
+
+                    # Print immediate results
+                    status = "✅ CLEAN" if result.is_safe else "🚨 FLAGGED"
+                    print(f"{status}: {result.filename}")
+                    print(f"  Malicious: {result.malicious}, Suspicious: {result.suspicious}")
+                    print(f"  Report: {result.scan_url}")
+
+                    # Rate limiting (VirusTotal free tier: 4 requests/minute)
+                    print("Waiting 15 seconds for rate limiting...")
+                    time.sleep(15)
+
+            except Exception as e:
+                print(f"Error processing artifact {artifact_name}: {e}")
+                # Continue with other artifacts instead of exiting
+                continue
+        
+        return results
 
 
 def load_env_file():
@@ -464,7 +584,8 @@ def main():
 
     # Configuration
     repo = "cargo-bins/cargo-quickinstall"
-    run_id = "17261615966"  # Example run ID
+    max_builds = 10  # Maximum number of Windows builds to scan
+    max_pages = 5   # Maximum pages to search
 
     # Get API keys
     vt_api_key = os.getenv("VIRUSTOTAL_API_KEY")
@@ -475,75 +596,27 @@ def main():
         print("Please set it in your .env file or environment")
         sys.exit(1)
 
-    print(f"Starting virus scan of artifacts from {repo} run {run_id}")
-
-    results = []
+    print(f"Starting virus scan of Windows builds from {repo}")
+    
     scanner = GitHubArtifactScanner(vt_api_key, github_token)
 
-    # Create temporary directory
-    with tempfile.TemporaryDirectory() as temp_dir:
-        temp_path = Path(temp_dir)
+    # Find Windows builds
+    try:
+        windows_run_ids = scanner.get_windows_builds(repo, max_builds, max_pages)
+        if not windows_run_ids:
+            print("No Windows builds found!")
+            sys.exit(0)
+    except Exception as e:
+        print(f"Error finding Windows builds: {e}")
+        sys.exit(1)
 
-        # Get artifacts
-        print("Fetching artifacts...")
-        try:
-            artifacts = scanner.get_workflow_artifacts(repo, run_id)
-            print(f"Found {len(artifacts)} artifacts")
-        except Exception as e:
-            print(f"Error fetching artifacts: {e}")
-            sys.exit(1)
-
-        for artifact in artifacts:
-            artifact_name = artifact["name"]
-            artifact_id = artifact["workflow_run"][
-                "id"
-            ]  # Use the run ID for downloading
-
-            # Skip non-Windows artifacts
-            if (
-                "windows" not in artifact_name.lower()
-                and "win" not in artifact_name.lower()
-            ):
-                print(f"Skipping non-Windows artifact: {artifact_name}")
-                continue
-
-            print(f"\nProcessing artifact: {artifact_name}")
-
-            try:
-                # Download artifact
-                artifact_path = temp_path / f"{artifact_name}.zip"
-                scanner.download_artifact(artifact_name, artifact_id, artifact_path)
-
-                # Extract executables
-                extract_dir = temp_path / artifact_name
-                executables = scanner.extract_windows_executables(
-                    artifact_path, extract_dir
-                )
-
-                if not executables:
-                    print(f"No Windows executables found in {artifact_name}")
-                    continue
-
-                # Scan each executable
-                for exe_path in executables:
-                    result = scanner.scan_executable(exe_path)
-                    results.append(result)
-
-                    # Print immediate results
-                    status = "✅ CLEAN" if result.is_safe else "🚨 FLAGGED"
-                    print(f"{status}: {result.filename}")
-                    print(
-                        f"  Malicious: {result.malicious}, Suspicious: {result.suspicious}"
-                    )
-                    print(f"  Report: {result.scan_url}")
-
-                    # Rate limiting (VirusTotal free tier: 4 requests/minute)
-                    print("Waiting 15 seconds for rate limiting...")
-                    time.sleep(15)
-
-            except Exception as e:
-                print(f"Error processing artifact {artifact_name}: {e}")
-                sys.exit(1)
+    # Scan all found builds
+    print(f"\nStarting scan of {len(windows_run_ids)} Windows builds...")
+    try:
+        results = scanner.scan_multiple_runs(repo, windows_run_ids)
+    except Exception as e:
+        print(f"Error during scanning: {e}")
+        sys.exit(1)
 
     # Generate final report
     print("\n" + "=" * 60)
@@ -554,6 +627,7 @@ def main():
     flagged_count = sum(1 for r in results if not r.is_safe)
     clean_count = total_scanned - flagged_count
 
+    print(f"Windows builds scanned: {len(windows_run_ids)}")
     print(f"Total files scanned: {total_scanned}")
     print(f"Clean files: {clean_count}")
     print(f"Flagged files: {flagged_count}")
@@ -575,8 +649,9 @@ def main():
     report_data = {
         "scan_timestamp": time.time(),
         "repo": repo,
-        "run_id": run_id,
+        "windows_builds_scanned": windows_run_ids,
         "summary": {
+            "builds_scanned": len(windows_run_ids),
             "total_scanned": total_scanned,
             "clean": clean_count,
             "flagged": flagged_count,
