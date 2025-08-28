@@ -867,6 +867,8 @@ class GitHubArtifactScanner:
                     # Advance page position if we didn't find anything new
                     self.last_page_position += 1
                     print(f"Advanced to page {self.last_page_position} for next check")
+                    # Save the updated page position
+                    self.save_report(repo)
                 else:
                     print(f"\nWill scan {len(new_builds)} new Windows builds")
 
