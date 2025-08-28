@@ -14,18 +14,33 @@ if [[ $confirm != "yes" ]]; then
     exit 1
 fi
 
-echo "Starting deletion of remote tags..."
+echo "Starting deletion of remote tags in batches..."
+batch_size=100
 counter=0
+batch_counter=0
+
+# Process tags in batches
 while IFS= read -r tag; do
+    tags_batch+=("$tag")
     counter=$((counter + 1))
-    echo "[$counter/$total_tags] Deleting remote tag: $tag"
-    git push origin --delete "$tag"
     
-    # Add a small delay every 100 deletions to avoid overwhelming the server
-    if (( counter % 100 == 0 )); then
-        echo "  Pausing briefly..."
-        sleep 1
+    # When we reach batch size or end of file, delete the batch
+    if (( ${#tags_batch[@]} >= batch_size )) || (( counter >= total_tags )); then
+        batch_counter=$((batch_counter + 1))
+        echo "[$counter/$total_tags] Deleting batch $batch_counter (${#tags_batch[@]} tags)..."
+        
+        # Build the push command with all tags in this batch
+        push_args=()
+        for tag in "${tags_batch[@]}"; do
+            push_args+=(":refs/tags/$tag")
+        done
+        
+        git push origin "${push_args[@]}"
+        tags_batch=()
+        
+        # Brief pause between batches
+        sleep 0.5
     fi
 done < all_remote_tags.txt
 
-echo "Completed deleting $counter remote tags"
+echo "Completed deleting $counter remote tags in batches"
