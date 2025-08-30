@@ -2,3 +2,4 @@ sha1collisiondetection
 uu_mkdir
 laminar
 papyrus_storage
+rustfmt
