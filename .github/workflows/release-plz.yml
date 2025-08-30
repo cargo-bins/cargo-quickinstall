@@ -3,7 +3,7 @@ name: Release-plz
 permissions:
   pull-requests: write
   contents: write
-  actions: write
+  id-token: write     # Required for OIDC token exchange
 
 on:
   push:
