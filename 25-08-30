@@ -22,3 +22,4 @@ cargo-lock
 addr2line
 racer
 burn-tch
+wol-rs
