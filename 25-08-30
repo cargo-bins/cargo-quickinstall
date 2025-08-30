@@ -50,3 +50,4 @@ solana-tokens
 pwasm-utils
 shunkakinoki
 cargo-smart-release
+dbus-codegen
