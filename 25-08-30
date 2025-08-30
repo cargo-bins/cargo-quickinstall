@@ -38,3 +38,4 @@ cargo-smart-release
 ncspot
 hurl
 tmux-rs
+rustfmt-nightly
