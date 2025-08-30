@@ -3,3 +3,4 @@ uu_mkdir
 laminar
 papyrus_storage
 rustfmt
+diesel_cli
