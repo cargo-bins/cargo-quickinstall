@@ -18,3 +18,4 @@ pwasm-utils
 dbus-codegen
 rrule
 cargo-lock
+addr2line
