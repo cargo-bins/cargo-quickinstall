@@ -3,6 +3,7 @@
 import sys
 import subprocess
 import json
+import concurrent.futures
 
 
 def gh_api(args):
@@ -63,8 +64,12 @@ def main():
         sys.exit(0)
 
     git_push_tags(tag_names)
-    for rid in draft_ids:
-        undraft_release(repo, rid)
+    if draft_ids:
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = [executor.submit(undraft_release, repo, rid) for rid in draft_ids]
+            for future in concurrent.futures.as_completed(futures):
+                # Will raise if any undraft_release failed
+                future.result()
 
 
 if __name__ == "__main__":
