@@ -20,3 +20,4 @@ holochain_keystore
 laminar
 burn-tch
 fake
+commit_verify
