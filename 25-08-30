@@ -25,3 +25,4 @@ pwasm-utils
 dbus-codegen
 shunkakinoki
 rrule
+cargo-lock
