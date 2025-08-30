@@ -27,7 +27,6 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
 
       - uses: ./.github/actions/cronjob-setup
