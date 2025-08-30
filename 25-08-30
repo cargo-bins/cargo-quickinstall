@@ -4,3 +4,4 @@ laminar
 papyrus_storage
 rustfmt
 diesel_cli
+website_crawler
