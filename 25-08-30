@@ -44,3 +44,4 @@ solana-faucet
 hurl
 cargo-smart-release
 laminar
+commit_verify
