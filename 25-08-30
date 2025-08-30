@@ -19,3 +19,4 @@ dbus-codegen
 rrule
 cargo-lock
 addr2line
+racer
