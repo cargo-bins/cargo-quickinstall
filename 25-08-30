@@ -38,3 +38,4 @@ rtx-cli
 tmux-rs
 codanna
 spotify_player
+cargo-smart-release
