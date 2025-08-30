@@ -1,0 +1,3 @@
+crate-b3sum-0.3.7-x86_64-pc-windows-msvc
+cargo-quickinstall-v0.1.9
+cargo-quickinstall-v0.1.9
