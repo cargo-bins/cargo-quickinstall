@@ -11,3 +11,4 @@ tendermint-abci
 rtx-cli
 solana-faucet
 nexmark
+rustfmt-nightly
