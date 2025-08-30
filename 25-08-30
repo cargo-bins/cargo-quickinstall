@@ -10,3 +10,4 @@ rtx-cli
 clippy
 solana-faucet
 nexmark
+rustfmt-nightly
