@@ -17,3 +17,4 @@ commit_verify
 solana-tokens
 pwasm-utils
 shunkakinoki
+dbus-codegen
