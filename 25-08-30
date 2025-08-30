@@ -19,3 +19,4 @@ tendermint-abci
 meli
 nextest
 clippy
+rtx-cli
