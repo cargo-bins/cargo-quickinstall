@@ -22,3 +22,4 @@ clippy
 rtx-cli
 nexmark
 pandora_box
+nextest
