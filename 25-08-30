@@ -12,3 +12,4 @@ re_query
 tendermint-abci
 rtx-cli
 clippy
+solana-faucet
