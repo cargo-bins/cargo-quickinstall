@@ -17,3 +17,4 @@ commit_verify
 pwasm-utils
 dbus-codegen
 rrule
+cargo-lock
