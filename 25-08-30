@@ -7,3 +7,4 @@ nextest
 nextest
 website_crawler
 diesel_cli
+clippy
