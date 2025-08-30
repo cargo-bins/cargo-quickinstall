@@ -28,3 +28,4 @@ nextest
 laminar
 nextest
 commit_verify
+pwasm-utils
