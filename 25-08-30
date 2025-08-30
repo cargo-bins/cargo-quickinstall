@@ -8,3 +8,4 @@ diesel_cli
 clippy
 oso
 hayagriva
+re_query
