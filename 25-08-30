@@ -20,3 +20,4 @@ meli
 nextest
 clippy
 rtx-cli
+nexmark
