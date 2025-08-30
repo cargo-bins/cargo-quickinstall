@@ -5,3 +5,4 @@ tendermint-abci
 papyrus_storage
 website_crawler
 diesel_cli
+clippy
