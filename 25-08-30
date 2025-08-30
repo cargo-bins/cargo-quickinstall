@@ -16,3 +16,4 @@ diesel_cli
 sysd-manager
 sysd-manager
 deduplicator
+xbuild
