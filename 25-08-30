@@ -42,3 +42,4 @@ rustfmt-nightly
 tmux-rs
 solana-faucet
 hurl
+cargo-smart-release
