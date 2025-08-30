@@ -20,3 +20,4 @@ rrule
 cargo-lock
 addr2line
 racer
+wol-rs
