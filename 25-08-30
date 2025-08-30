@@ -26,3 +26,4 @@ sysd-manager
 hurl
 deduplicator
 oso
+tmux-rs
