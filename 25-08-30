@@ -21,3 +21,4 @@ spotify_player
 sysd-manager
 elf2uf2-rs
 tree-sitter-cli
+cargo-smart-release
