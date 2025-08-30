@@ -26,3 +26,4 @@ dbus-codegen
 shunkakinoki
 rrule
 cargo-lock
+addr2line
