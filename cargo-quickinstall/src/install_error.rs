@@ -20,7 +20,7 @@ impl InstallError {
         matches!(
             self,
             Self::CommandFailed(CommandFailed { stderr, .. })
-            if stderr.contains("curl: (22) The requested URL returned error: 404")
+            if stderr.contains("The requested URL returned error: 404")
         )
     }
 }

@@ -171,7 +171,6 @@ jobs:
       - name: Checkout trigger commit
         uses: actions/checkout@v5
         with:
-          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
           path: trigger
       - name: Checkout main repo
@@ -273,7 +272,6 @@ jobs:
       - name: Checkout trigger branch
         uses: actions/checkout@v5
         with:
-          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
           ref: trigger/${{ inputs.target_arch }}
           path: trigger

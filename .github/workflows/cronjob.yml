@@ -10,7 +10,7 @@ on:
   # If you are an upstream maintainer and you want to test your branch before merging, run
   #
   #     git push
-  #     gh workflow run cronjob.yml --ref `git rev-parse --abbrev-ref HEAD`
+  #     gh workflow run cronjob.yml --ref $(git rev-parse --abbrev-ref HEAD)
   #     gh run list --workflow=cronjob.yml -L1 --json url
   #
   # This may also work on forks, but you might need to set up some repo secrets first,
@@ -27,7 +27,6 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          ssh-key: ${{ secrets.CRONJOB_DEPLOY_KEY }}
           persist-credentials: true
 
       - uses: ./.github/actions/cronjob-setup
