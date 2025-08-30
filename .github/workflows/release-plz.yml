@@ -3,7 +3,7 @@ name: Release-plz
 permissions:
   pull-requests: write
   contents: write
-  actions: write
+  id-token: write     # Required for OIDC token exchange
 
 on:
   push:
@@ -21,11 +21,13 @@ jobs:
           fetch-depth: 0
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
+      - uses: rust-lang/crates-io-auth-action@v1
+        id: auth
       - name: Run release-plz
         uses: MarcoIeni/release-plz-action@v0.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+          CARGO_REGISTRY_TOKEN: ${{ steps.auth.outputs.token }}
 
       - uses: ./.github/actions/cronjob-setup
       - name: Trigger tarball builds of cargo-quickinstall
