@@ -57,3 +57,4 @@ cargo-smart-release
 shunkakinoki
 deduplicator
 spotify_player
+cargo-lock
