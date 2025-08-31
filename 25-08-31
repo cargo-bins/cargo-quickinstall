@@ -3,3 +3,4 @@ burn-tch
 holochain_cli_bundle
 nkeys
 git-disjoint
+rls-rustc
