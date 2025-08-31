@@ -9,3 +9,4 @@ nextest-filtering
 paru
 dioxus-cli
 statsig-rs
+addr2line
