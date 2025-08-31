@@ -3,3 +3,4 @@ protox
 nkeys
 git-disjoint
 rls-rustc
+nextest-filtering
