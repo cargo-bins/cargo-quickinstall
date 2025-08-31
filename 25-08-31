@@ -2,3 +2,4 @@ dioxus-cli
 protox
 nkeys
 git-disjoint
+rls-rustc
