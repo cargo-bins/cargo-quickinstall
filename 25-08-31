@@ -5,3 +5,4 @@ paru
 dioxus-cli
 git-disjoint
 rls-rustc
+nextest-filtering
