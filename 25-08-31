@@ -6,3 +6,4 @@ nkeys
 probe-rs-tools
 git-disjoint
 rls-rustc
+probe-rs-tools
