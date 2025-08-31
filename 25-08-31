@@ -7,3 +7,4 @@ rls-rustc
 nextest-filtering
 statsig-rs
 nexmark
+solana-stake-accounts
