@@ -8,3 +8,4 @@ rls-rustc
 nextest-filtering
 paru
 dioxus-cli
+statsig-rs
