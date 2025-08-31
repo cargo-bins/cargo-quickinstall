@@ -5,3 +5,4 @@ burn-tch
 nkeys
 probe-rs-tools
 git-disjoint
+rls-rustc
