@@ -4,3 +4,4 @@ nkeys
 paru
 dioxus-cli
 git-disjoint
+rls-rustc
