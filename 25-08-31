@@ -9,3 +9,4 @@ rls-rustc
 probe-rs-tools
 statsig-rs
 pomodoro-cli
+nexmark
