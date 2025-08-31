@@ -6,3 +6,4 @@ git-disjoint
 rls-rustc
 nextest-filtering
 statsig-rs
+nexmark
