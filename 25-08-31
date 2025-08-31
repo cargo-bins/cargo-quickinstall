@@ -3,3 +3,4 @@ cargo-msrv
 burn-tch
 nkeys
 git-disjoint
+rls-rustc
