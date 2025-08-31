@@ -12,3 +12,4 @@ dotenvy
 wmi
 uu_uname
 dotenv-flow
+cargo-msrv
