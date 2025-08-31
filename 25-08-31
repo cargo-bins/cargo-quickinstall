@@ -5,3 +5,4 @@ nkeys
 git-disjoint
 rls-rustc
 nextest-filtering
+addr2line
