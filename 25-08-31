@@ -3,3 +3,4 @@ burn-tch
 sea-orm-cli
 nkeys
 git-disjoint
+rls-rustc
