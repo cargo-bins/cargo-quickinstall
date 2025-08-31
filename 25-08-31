@@ -6,3 +6,4 @@ rls-rustc
 nextest-filtering
 nexmark
 dotenvy
+oso
