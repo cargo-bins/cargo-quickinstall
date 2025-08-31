@@ -8,3 +8,4 @@ nextest-filtering
 addr2line
 nexmark
 oatmeal
+dotenvy
