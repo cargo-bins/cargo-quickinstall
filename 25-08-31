@@ -6,3 +6,4 @@ dioxus-cli
 git-disjoint
 rls-rustc
 nextest-filtering
+paru
