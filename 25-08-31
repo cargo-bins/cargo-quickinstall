@@ -11,3 +11,4 @@ solana-stake-accounts
 dotenvy
 uu_uname
 cargo-msrv
+dotenv-flow
