@@ -4,3 +4,4 @@ sea-orm-cli
 nkeys
 git-disjoint
 rls-rustc
+statsig-rs
