@@ -13,3 +13,4 @@ cargo-dylint
 uu_uname
 cargo-dylint
 wmi
+dotenv-flow
