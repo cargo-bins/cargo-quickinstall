@@ -5,3 +5,4 @@ git-disjoint
 rls-rustc
 nextest-filtering
 nexmark
+dotenvy
