@@ -3,3 +3,4 @@ dioxus-cli
 burn-tch
 nkeys
 git-disjoint
+rls-rustc
