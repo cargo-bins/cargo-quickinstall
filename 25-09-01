@@ -13,3 +13,4 @@ uu_mkdir
 gpgme
 cpp_demangle
 scriptr
+cargo-graph
