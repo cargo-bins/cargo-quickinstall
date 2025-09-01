@@ -11,3 +11,4 @@ dioxus-cli
 cargo-graph
 uu_mkdir
 gpgme
+cpp_demangle
