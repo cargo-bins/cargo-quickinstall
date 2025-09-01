@@ -4,3 +4,4 @@ uu_mkdir
 markflowy
 rustfmt-nightly
 holochain_cli
+cargo-graph
