@@ -6,3 +6,4 @@ rustfmt-nightly
 holochain_cli
 cargo-graph
 rav1e
+dioxus-cli
