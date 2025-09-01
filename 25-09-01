@@ -14,3 +14,4 @@ gpgme
 cpp_demangle
 scriptr
 cargo-graph
+dioxus-cli
