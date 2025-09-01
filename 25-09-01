@@ -3,3 +3,4 @@ sniffnet
 cargo-public-api
 kftui
 rustfmt-nightly
+cargo-clone-crate
