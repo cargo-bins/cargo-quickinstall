@@ -2,3 +2,4 @@ pomodoro-cli
 sniffnet
 cargo-public-api
 kftui
+rustfmt-nightly
