@@ -27,3 +27,4 @@ rsgen-avro
 oculante
 rg
 rustup-toolchain-install-master
+probe-rs-tools
