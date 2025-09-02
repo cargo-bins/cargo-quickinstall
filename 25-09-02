@@ -3,3 +3,4 @@ cargo-graph
 scriptr
 unic-langid-impl
 oatmeal
+dbus-codegen
