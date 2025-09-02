@@ -7,3 +7,4 @@ dbus-codegen
 project_init
 solana-validator
 uu_mkdir
+tree_magic
