@@ -20,3 +20,4 @@ scriptr
 sqlx-cli
 generate-app-icons
 rsgen-avro
+tree-sitter-md
