@@ -10,3 +10,4 @@ a11ywatch_cli
 burn-tch
 rsgen-avro
 rustup-toolchain-install-master
+tree-sitter-md
