@@ -7,3 +7,4 @@ tod
 unic-langid-impl
 dbus-codegen
 project_init
+probe-rs-tools
