@@ -16,3 +16,4 @@ xcp
 rsgen-avro
 rustup-toolchain-install-master
 tree-sitter-md
+jless
