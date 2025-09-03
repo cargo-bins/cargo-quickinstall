@@ -5,3 +5,4 @@ cargo-dylint
 parquet
 sea-orm-cli
 wormhole
+libbpf-cargo
