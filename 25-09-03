@@ -2,3 +2,4 @@ commit_verify
 libbpf-cargo
 tree-sitter-cli
 sea-orm-cli
+nu_plugin_gstat
