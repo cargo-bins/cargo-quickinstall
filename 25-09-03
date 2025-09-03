@@ -3,3 +3,4 @@ sea-orm-cli
 virtiofsd
 cargo-dylint
 parquet
+sea-orm-cli
