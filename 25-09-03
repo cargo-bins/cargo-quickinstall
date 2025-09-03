@@ -2,3 +2,4 @@ commit_verify
 libbpf-cargo
 spider_cli
 sass-rs
+solana-ledger-tool
