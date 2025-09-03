@@ -2,3 +2,4 @@ commit_verify
 sea-orm-cli
 virtiofsd
 cargo-dylint
+parquet
