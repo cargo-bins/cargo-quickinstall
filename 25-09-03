@@ -2,3 +2,4 @@ commit_verify
 binstall
 libbpf-cargo
 nu_plugin_gstat
+nu_plugin_gstat
