@@ -25,3 +25,4 @@ nextest
 cargo-list
 bugstalker
 rescrobbled
+cargo-unused-features
