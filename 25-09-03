@@ -2,3 +2,4 @@ commit_verify
 jless
 qsv
 parquet
+libbpf-cargo
