@@ -2,3 +2,4 @@ commit_verify
 libbpf-cargo
 spider_worker
 spider_cli
+sass-rs
