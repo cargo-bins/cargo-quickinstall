@@ -4,3 +4,4 @@ solana-validator
 sqlx-cli
 scriptr
 scriptr
+libbpf-cargo
