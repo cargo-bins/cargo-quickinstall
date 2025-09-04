@@ -19,3 +19,4 @@ cargo-dylint
 minicbor
 moshi-server
 neon-cli
+sequoia-sq
