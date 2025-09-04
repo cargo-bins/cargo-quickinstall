@@ -28,3 +28,4 @@ probe-rs-cli
 wol-rs
 gpg-tui
 gpg-tui
+tree-sitter-cli
