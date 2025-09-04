@@ -19,3 +19,4 @@ neon-cli
 rusthound-ce
 minicbor
 rav1e
+cargo-dylint
