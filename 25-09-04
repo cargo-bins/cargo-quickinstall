@@ -24,3 +24,4 @@ neon-cli
 burn-tch
 vdev
 fontspector
+probe-rs-cli
