@@ -11,3 +11,4 @@ cargo-dylint
 solana-validator
 oso
 borsh
+fancy-prompt
