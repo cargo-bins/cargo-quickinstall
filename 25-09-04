@@ -25,3 +25,4 @@ burn-tch
 vdev
 fontspector
 probe-rs-cli
+wol-rs
