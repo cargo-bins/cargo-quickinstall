@@ -32,3 +32,4 @@ tree-sitter-cli
 a11ywatch_cli
 probe-rs-cli
 typeman
+solana-genesis
