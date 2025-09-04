@@ -10,3 +10,4 @@ qsv
 cargo-dylint
 solana-validator
 oso
+borsh
