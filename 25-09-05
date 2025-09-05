@@ -12,3 +12,4 @@ trusted-signing-cli
 nextest-filtering
 fontspector
 sequoia-sq
+sea-orm-cli
