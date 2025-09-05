@@ -4,3 +4,4 @@ sn_cli
 borsh
 nextest-filtering
 arrow-flight
+safe_network
