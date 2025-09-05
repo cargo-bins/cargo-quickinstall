@@ -9,3 +9,4 @@ maelstrom-pytest
 borsh
 nextest-filtering
 maelstrom-pytest
+arrow-flight
