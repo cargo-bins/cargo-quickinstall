@@ -21,3 +21,4 @@ trusted-signing-cli
 typeman
 kanidm_tools
 shunkakinoki
+cargo-dylint
