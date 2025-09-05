@@ -13,3 +13,4 @@ below
 borsh
 ncspot
 nextest-filtering
+cargo-dylint
