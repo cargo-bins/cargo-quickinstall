@@ -5,3 +5,4 @@ borsh
 nextest-filtering
 arrow-flight
 safe_network
+sn_faucet
