@@ -3,3 +3,4 @@ human_bytes
 kanidm_tools
 probe-rs-cli
 cargo-dylint
+probe-rs-cli
