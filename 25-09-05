@@ -13,3 +13,4 @@ nextest-filtering
 fontspector
 sequoia-sq
 sea-orm-cli
+arrow-flight
