@@ -17,3 +17,4 @@ cargo-dylint
 rustup-toolchain-install-master
 arrow-flight
 nu_plugin_query
+gpg-tui
