@@ -10,3 +10,4 @@ borsh
 nextest-filtering
 maelstrom-pytest
 arrow-flight
+gpgme
