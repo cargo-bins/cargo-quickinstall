@@ -7,3 +7,4 @@ wit-cli
 tree-sitter-md
 maelstrom-pytest
 borsh
+nextest-filtering
