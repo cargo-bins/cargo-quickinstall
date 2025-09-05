@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.27](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.26...v0.3.27) - 2025-09-05
+
+### Other
+
+- Get cronjob working again after I deleted the deploy key ([#445](https://github.com/cargo-bins/cargo-quickinstall/pull/445))
+
 ## [0.3.26](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.25...v0.3.26) - 2025-08-22
 
 ### Other
