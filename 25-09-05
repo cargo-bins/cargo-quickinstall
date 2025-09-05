@@ -4,3 +4,4 @@ safe_network
 borsh
 onehistory
 nextest-filtering
+arrow-flight
