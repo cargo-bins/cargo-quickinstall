@@ -27,3 +27,4 @@ cargo-whatfeatures
 gpgme
 lelwel
 miro-pdf
+trusted-signing-cli
