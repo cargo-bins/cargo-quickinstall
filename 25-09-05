@@ -2,3 +2,4 @@ human_bytes
 safe_network
 borsh
 nextest-filtering
+arrow-flight
