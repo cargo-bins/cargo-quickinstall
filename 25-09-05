@@ -10,3 +10,4 @@ typeman
 borsh
 trusted-signing-cli
 nextest-filtering
+fontspector
