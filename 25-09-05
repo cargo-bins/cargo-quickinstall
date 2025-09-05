@@ -8,3 +8,4 @@ gpgme
 sea-orm-cli
 cargo-mobile2
 proof-of-sql
+solana-gossip
