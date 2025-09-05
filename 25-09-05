@@ -14,3 +14,4 @@ borsh
 ncspot
 nextest-filtering
 cargo-dylint
+rustup-toolchain-install-master
