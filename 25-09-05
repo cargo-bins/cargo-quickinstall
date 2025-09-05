@@ -7,3 +7,4 @@ gpgme
 sea-orm-cli
 cargo-mobile2
 safe_network
+paperclip
