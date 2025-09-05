@@ -22,3 +22,4 @@ nu_plugin_query
 probe-rs-cli
 kanidm_tools
 hurl
+sea-orm-cli
