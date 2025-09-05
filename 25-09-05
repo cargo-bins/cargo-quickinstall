@@ -18,3 +18,4 @@ rustup-toolchain-install-master
 arrow-flight
 nu_plugin_query
 gpg-tui
+nu_plugin_query
