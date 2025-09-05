@@ -7,3 +7,4 @@ probe-rs-cli
 gpg-tui
 gpg-tui
 typeman
+borsh
