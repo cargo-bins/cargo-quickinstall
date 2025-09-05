@@ -4,3 +4,4 @@ borsh
 nextest-filtering
 arrow-flight
 shunkakinoki
+gpgme
