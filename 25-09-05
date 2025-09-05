@@ -9,3 +9,4 @@ gpg-tui
 typeman
 borsh
 trusted-signing-cli
+nextest-filtering
