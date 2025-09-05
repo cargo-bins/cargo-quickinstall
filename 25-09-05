@@ -2,3 +2,4 @@ human_bytes
 safe_network
 sn_cli
 borsh
+nextest-filtering
