@@ -15,3 +15,4 @@ ncspot
 nextest-filtering
 cargo-dylint
 rustup-toolchain-install-master
+arrow-flight
