@@ -24,3 +24,4 @@ loop-rs
 tracing-durations-export
 uv
 pandora_box
+wol-rs
