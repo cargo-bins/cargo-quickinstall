@@ -5,3 +5,4 @@ rsign
 tendermint-rpc
 wol-rs
 fcp
+human_bytes
