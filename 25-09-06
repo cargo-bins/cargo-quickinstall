@@ -26,3 +26,4 @@ nexmark
 nextest-filtering
 binstall
 unic-langid-impl
+tracing-durations-export
