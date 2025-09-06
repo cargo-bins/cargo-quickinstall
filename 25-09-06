@@ -6,3 +6,4 @@ wol-rs
 human_bytes
 tendermint-rpc
 uu_mktemp
+nextest-filtering
