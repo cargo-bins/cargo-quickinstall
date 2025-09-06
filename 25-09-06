@@ -10,3 +10,4 @@ fake
 nextest-filtering
 unic-langid-impl
 fake
+tracing-durations-export
