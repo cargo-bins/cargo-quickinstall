@@ -8,3 +8,4 @@ cargo-lambda
 ext-sort
 fake
 nextest-filtering
+unic-langid-impl
