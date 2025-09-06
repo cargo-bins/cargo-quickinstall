@@ -16,3 +16,4 @@ tendermint-rpc
 nextest-filtering
 cargo-whatfeatures
 probe-rs-tools
+bluetui
