@@ -7,3 +7,4 @@ wol-rs
 fcp
 human_bytes
 uu_mktemp
+tendermint-rpc
