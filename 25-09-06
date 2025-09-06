@@ -20,3 +20,4 @@ fake
 probe-rs-tools
 nextest-filtering
 unic-langid-impl
+tracing-durations-export
