@@ -11,3 +11,4 @@ ext-sort
 fake
 nextest-filtering
 unic-langid-impl
+tracing-durations-export
