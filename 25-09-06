@@ -8,3 +8,4 @@ tendermint-rpc
 uu_mktemp
 nextest-filtering
 ext-sort
+fake
