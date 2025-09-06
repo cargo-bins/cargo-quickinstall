@@ -21,3 +21,4 @@ probe-rs-tools
 nextest-filtering
 unic-langid-impl
 tracing-durations-export
+kanidm_tools
