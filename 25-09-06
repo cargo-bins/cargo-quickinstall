@@ -6,3 +6,4 @@ uu_mktemp
 nextest-filtering
 cargo-lambda
 ext-sort
+fake
