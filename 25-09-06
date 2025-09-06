@@ -15,3 +15,4 @@ uu_mktemp
 tendermint-rpc
 nextest-filtering
 cargo-whatfeatures
+probe-rs-tools
