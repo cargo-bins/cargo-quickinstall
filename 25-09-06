@@ -9,3 +9,4 @@ bluetui
 miro-pdf
 trusted-signing-cli
 tendermint-rpc
+wol-rs
