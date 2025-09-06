@@ -7,3 +7,4 @@ nextest-filtering
 cargo-lambda
 ext-sort
 fake
+nextest-filtering
