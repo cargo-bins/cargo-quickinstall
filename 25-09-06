@@ -19,3 +19,4 @@ kanidm_tools
 fake
 probe-rs-tools
 nextest-filtering
+unic-langid-impl
