@@ -8,3 +8,4 @@ tendermint-rpc
 nextest-filtering
 iai-callgrind-runner
 sn_faucet
+ext-sort
