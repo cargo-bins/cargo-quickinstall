@@ -11,3 +11,4 @@ tendermint-rpc
 nextest-filtering
 loop-rs
 loop-rs
+fcp
