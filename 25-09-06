@@ -16,3 +16,4 @@ fake
 nexmark
 loop-rs
 nextest-filtering
+unic-langid-impl
