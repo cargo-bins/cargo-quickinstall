@@ -5,3 +5,4 @@ nextest
 tendermint-rpc
 wol-rs
 git-mit
+human_bytes
