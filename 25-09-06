@@ -11,3 +11,4 @@ uu_mktemp
 tendermint-rpc
 cargo-whatfeatures
 cargo-whatfeatures
+nextest-filtering
