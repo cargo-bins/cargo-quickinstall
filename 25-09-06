@@ -12,3 +12,4 @@ tendermint-rpc
 cargo-whatfeatures
 cargo-whatfeatures
 nextest-filtering
+sea-orm-cli
