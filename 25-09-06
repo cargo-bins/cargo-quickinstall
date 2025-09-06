@@ -9,3 +9,4 @@ tendermint-rpc
 nextest-filtering
 fcp
 loop-rs
+ext-sort
