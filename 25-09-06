@@ -11,3 +11,4 @@ trusted-signing-cli
 tendermint-rpc
 wol-rs
 human_bytes
+uu_mktemp
