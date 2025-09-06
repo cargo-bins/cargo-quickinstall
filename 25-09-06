@@ -9,3 +9,4 @@ nextest-filtering
 iai-callgrind-runner
 sn_faucet
 ext-sort
+fake
