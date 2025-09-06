@@ -5,3 +5,4 @@ human_bytes
 uu_mktemp
 nextest-filtering
 cargo-lambda
+ext-sort
