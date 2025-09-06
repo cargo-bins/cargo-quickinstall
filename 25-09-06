@@ -8,3 +8,4 @@ cargo-lambda
 ext-sort
 nexmark
 fake
+nextest-filtering
