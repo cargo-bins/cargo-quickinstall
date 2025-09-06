@@ -4,3 +4,4 @@ uu_mktemp
 rsign
 tendermint-rpc
 wol-rs
+fcp
