@@ -2,3 +2,4 @@ uu_mktemp
 uu_whoami
 nextest
 nextest
+tendermint-rpc
