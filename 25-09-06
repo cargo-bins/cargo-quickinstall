@@ -3,3 +3,4 @@ mise
 uu_mktemp
 tendermint-rpc
 wol-rs
+human_bytes
