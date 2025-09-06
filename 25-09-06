@@ -19,3 +19,4 @@ nextest-filtering
 unic-langid-impl
 fcp
 loop-rs
+uv
