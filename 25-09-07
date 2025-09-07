@@ -4,3 +4,4 @@ dioxus-cli
 dotenv
 parquet
 java-locator
+clippy
