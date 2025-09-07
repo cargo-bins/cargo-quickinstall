@@ -6,3 +6,4 @@ dotenv
 parquet
 dioxus-cli
 java-locator
+apollo-router
