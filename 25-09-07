@@ -12,3 +12,4 @@ binstall
 binstall
 clippy
 unic-langid-impl
+openpty
