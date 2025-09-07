@@ -14,3 +14,4 @@ clippy
 unic-langid-impl
 openpty
 binstall
+sqlx-cli
