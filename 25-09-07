@@ -46,3 +46,4 @@ simple-http-server
 rg
 cargo-vibe
 simple-http-server
+foundationdb-gen
