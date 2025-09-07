@@ -16,3 +16,4 @@ openpty
 binstall
 sqlx-cli
 qsv
+ext-sort
