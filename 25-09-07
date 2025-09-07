@@ -13,3 +13,4 @@ cargo-shock
 cargo-dylint
 apollo-router
 rg
+clipboard-history-tui
