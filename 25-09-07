@@ -5,3 +5,4 @@ dotenv
 parquet
 java-locator
 clippy
+apollo-router
