@@ -6,3 +6,4 @@ ruff
 human_name
 trashy
 dotenv
+parquet
