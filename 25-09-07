@@ -6,3 +6,4 @@ dotenv
 parquet
 java-locator
 uv
+apollo-router
