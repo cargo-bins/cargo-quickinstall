@@ -14,3 +14,4 @@ nkeys
 git-disjoint
 pgrx-tests
 cargo-lambda
+winpty-rs
