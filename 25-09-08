@@ -1,3 +1,4 @@
 diesel_cli
 diesel_cli
 dotenv
+clap-stdin
