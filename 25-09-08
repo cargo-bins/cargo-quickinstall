@@ -10,3 +10,4 @@ honggfuzz
 proof-of-sql
 coldsnap
 z3tracer
+git-disjoint
