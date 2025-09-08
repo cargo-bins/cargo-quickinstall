@@ -13,3 +13,4 @@ z3tracer
 nkeys
 git-disjoint
 pgrx-tests
+cargo-lambda
