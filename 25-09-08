@@ -7,3 +7,4 @@ cargo-duplicates
 cargo-duplicates
 tree-sitter-md
 pwasm-utils
+proof-of-sql
