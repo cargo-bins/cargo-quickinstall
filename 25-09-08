@@ -28,3 +28,4 @@ nkeys
 git-disjoint
 pgrx-tests
 winpty-rs
+cargo-download
