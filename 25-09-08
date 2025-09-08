@@ -9,3 +9,4 @@ tree-sitter-md
 pwasm-utils
 safe_network
 cargo-risczero
+dprint
