@@ -11,3 +11,4 @@ nkeys
 git-disjoint
 pgrx-tests
 fontspector
+winpty-rs
