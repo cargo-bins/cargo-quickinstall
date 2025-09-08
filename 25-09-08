@@ -7,3 +7,4 @@ a11ywatch_cli
 pwasm-utils
 cargo-risczero
 dprint
+coldsnap
