@@ -6,3 +6,4 @@ tree-sitter-md
 pwasm-utils
 dprint
 cargo-risczero
+honggfuzz
