@@ -6,3 +6,4 @@ diesel_cli
 tree-sitter-cli
 diesel_cli
 racer
+cargo-pgrx
