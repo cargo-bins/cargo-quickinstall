@@ -18,3 +18,4 @@ cargo-risczero
 uv
 honggfuzz
 uv
+proof-of-sql
