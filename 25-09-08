@@ -7,3 +7,4 @@ uv
 uv
 cargo-prune
 pwasm-utils
+dua-cli
