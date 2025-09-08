@@ -8,3 +8,4 @@ dprint
 cargo-risczero
 honggfuzz
 proof-of-sql
+coldsnap
