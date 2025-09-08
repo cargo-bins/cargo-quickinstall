@@ -10,3 +10,4 @@ cargo-pgrx
 diesel_cli
 a11ywatch_cli
 pwasm-utils
+proof-of-sql
