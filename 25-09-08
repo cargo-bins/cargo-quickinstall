@@ -2,3 +2,4 @@ dotenv
 cargo-risczero
 racer
 httpbis
+tree-sitter-md
