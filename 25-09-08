@@ -3,3 +3,4 @@ clap-stdin
 cargo-risczero
 tree-sitter-cli
 racer
+cargo-pgrx
