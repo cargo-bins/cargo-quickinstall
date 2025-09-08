@@ -18,3 +18,4 @@ pgrx-tests
 winpty-rs
 cargo-lambda
 zuse
+controller
