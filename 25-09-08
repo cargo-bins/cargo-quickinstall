@@ -16,3 +16,4 @@ git-disjoint
 pgrx-tests
 winpty-rs
 zuse
+cargo-spellcheck
