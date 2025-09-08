@@ -10,3 +10,4 @@ diesel_cli
 uu_mkdir
 a11ywatch_cli
 pwasm-utils
+proof-of-sql
