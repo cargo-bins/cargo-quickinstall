@@ -30,3 +30,4 @@ pgrx-tests
 winpty-rs
 cargo-download
 xcp
+cargo-spellcheck
