@@ -14,3 +14,4 @@ proof-of-sql
 z3tracer
 sea-orm-cli
 nkeys
+git-disjoint
