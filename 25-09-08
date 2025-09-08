@@ -16,3 +16,4 @@ sea-orm-cli
 nkeys
 git-disjoint
 pgrx-tests
+winpty-rs
