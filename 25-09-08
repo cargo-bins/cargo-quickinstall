@@ -13,3 +13,4 @@ git-disjoint
 pgrx-tests
 cargo-unused-features
 termusic-server
+winpty-rs
