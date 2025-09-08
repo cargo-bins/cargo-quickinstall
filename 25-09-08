@@ -27,3 +27,4 @@ dioxus-cli
 nkeys
 git-disjoint
 pgrx-tests
+winpty-rs
