@@ -14,3 +14,4 @@ pgrx-tests
 cargo-unused-features
 termusic-server
 winpty-rs
+fontspector
