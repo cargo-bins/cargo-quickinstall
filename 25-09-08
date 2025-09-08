@@ -6,3 +6,4 @@ racer
 tree-sitter-md
 pwasm-utils
 proof-of-sql
+z3tracer
