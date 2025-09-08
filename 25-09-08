@@ -12,3 +12,4 @@ cargo-risczero
 dprint
 coldsnap
 proof-of-sql
+z3tracer
