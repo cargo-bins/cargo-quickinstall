@@ -3,3 +3,4 @@ diesel_cli
 dotenv
 clap-stdin
 diesel_cli
+tree-sitter-cli
