@@ -9,3 +9,4 @@ proof-of-sql
 z3tracer
 nkeys
 git-disjoint
+pgrx-tests
