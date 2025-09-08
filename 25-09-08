@@ -19,3 +19,4 @@ dioxus-cli
 pgrx-tests
 asak
 dioxus-cli
+winpty-rs
