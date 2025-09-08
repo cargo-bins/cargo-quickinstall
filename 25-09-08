@@ -7,3 +7,4 @@ cargo-pgrx
 a11ywatch_cli
 tree-sitter-md
 pwasm-utils
+safe_network
