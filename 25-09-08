@@ -27,3 +27,4 @@ cargo-prune
 pgrx-tests
 television
 winpty-rs
+cargo-prune
