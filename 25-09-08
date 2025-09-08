@@ -18,3 +18,4 @@ git-disjoint
 pgrx-tests
 winpty-rs
 zuse
+sea-orm-cli
