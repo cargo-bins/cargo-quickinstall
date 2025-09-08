@@ -24,3 +24,4 @@ z3tracer
 nkeys
 git-disjoint
 cargo-prune
+pgrx-tests
