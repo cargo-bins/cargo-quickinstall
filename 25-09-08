@@ -3,3 +3,4 @@ cargo-risczero
 racer
 httpbis
 tree-sitter-md
+pwasm-utils
