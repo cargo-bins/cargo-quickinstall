@@ -11,3 +11,4 @@ proof-of-sql
 z3tracer
 git-disjoint
 pgrx-tests
+cargo-unused-features
