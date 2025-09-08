@@ -20,3 +20,4 @@ honggfuzz
 uv
 proof-of-sql
 coldsnap
+z3tracer
