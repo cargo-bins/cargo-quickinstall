@@ -14,3 +14,4 @@ proof-of-sql
 z3tracer
 git-disjoint
 pgrx-tests
+winpty-rs
