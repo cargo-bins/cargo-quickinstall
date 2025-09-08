@@ -6,3 +6,4 @@ uv
 uv
 uv
 cargo-prune
+pwasm-utils
