@@ -10,3 +10,4 @@ pwasm-utils
 safe_network
 cargo-risczero
 dprint
+coldsnap
