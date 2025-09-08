@@ -16,3 +16,4 @@ pgrx-tests
 cargo-lambda
 winpty-rs
 zuse
+cargo-spellcheck
