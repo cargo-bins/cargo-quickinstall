@@ -17,3 +17,4 @@ cargo-lambda
 winpty-rs
 zuse
 cargo-spellcheck
+controller
