@@ -8,3 +8,4 @@ cargo-override
 cargo-unused-features
 cargo-override
 cargo-unused-features
+termusic-server
