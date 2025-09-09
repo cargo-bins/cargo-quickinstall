@@ -24,3 +24,4 @@ rescrobbled
 sql-gen
 vdev
 cosmwasm-check
+spl-token-cli
