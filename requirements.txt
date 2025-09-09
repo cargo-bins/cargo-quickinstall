@@ -12,7 +12,7 @@ influxdb3-python==0.15.0
     # via cronjob-scripts (pyproject.toml)
 numpy==2.3.2
     # via pyarrow
-polars==1.33.0
+polars==1.33.1
     # via cronjob-scripts (pyproject.toml)
 pyarrow==21.0.0
     # via influxdb3-python
