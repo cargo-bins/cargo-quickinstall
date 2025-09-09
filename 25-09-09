@@ -3,3 +3,4 @@ cargo-download
 cargo-spellcheck
 dbus-codegen
 tree-sitter-cli
+cargo-download
