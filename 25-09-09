@@ -2,3 +2,4 @@ dbus-codegen
 wol-rs
 diesel_cli
 libcst
+build-fs-tree
