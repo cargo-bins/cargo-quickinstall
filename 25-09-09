@@ -25,3 +25,4 @@ tendermint-rpc
 cosmwasm-check
 cargo-download
 java-locator
+vdev
