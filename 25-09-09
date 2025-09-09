@@ -20,3 +20,4 @@ hurl
 vdev
 cargo-download
 hurl
+build-fs-tree
