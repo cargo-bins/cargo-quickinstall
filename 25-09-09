@@ -25,3 +25,4 @@ libcst
 build-fs-tree
 java-locator
 dioxus-cli
+httpmock
