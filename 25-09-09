@@ -5,3 +5,4 @@ cargo-override
 sass-rs
 wol-rs
 cargo-override
+cargo-unused-features
