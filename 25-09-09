@@ -5,3 +5,4 @@ dbus-codegen
 tree-sitter-cli
 cargo-download
 vdev
+dioxus-cli
