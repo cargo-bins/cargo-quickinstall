@@ -25,3 +25,4 @@ sql-gen
 vdev
 cosmwasm-check
 spl-token-cli
+cosmwasm-check
