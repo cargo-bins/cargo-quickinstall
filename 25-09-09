@@ -3,3 +3,4 @@ wol-rs
 diesel_cli
 libcst
 build-fs-tree
+java-locator
