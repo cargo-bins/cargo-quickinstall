@@ -34,3 +34,4 @@ mise
 cosmwasm-check
 sql-gen
 httpmock
+hurl
