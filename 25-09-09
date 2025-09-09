@@ -36,3 +36,4 @@ sql-gen
 httpmock
 hurl
 hayagriva
+spider_worker
