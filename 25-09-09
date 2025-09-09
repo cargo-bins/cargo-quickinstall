@@ -23,3 +23,4 @@ tree-sitter-cli
 rescrobbled
 sql-gen
 vdev
+cosmwasm-check
