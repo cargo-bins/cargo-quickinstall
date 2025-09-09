@@ -26,3 +26,4 @@ vdev
 cosmwasm-check
 spl-token-cli
 cosmwasm-check
+build-fs-tree
