@@ -22,3 +22,4 @@ cargo-download
 hurl
 build-fs-tree
 tendermint-rpc
+cosmwasm-check
