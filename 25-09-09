@@ -7,3 +7,4 @@ wol-rs
 cargo-override
 cargo-unused-features
 cargo-override
+cargo-unused-features
