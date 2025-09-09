@@ -19,3 +19,4 @@ sql-gen
 vdev
 below
 cosmwasm-check
+tree-sitter-cli
