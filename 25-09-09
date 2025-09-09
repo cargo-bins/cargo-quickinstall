@@ -3,3 +3,4 @@ dbus-codegen
 fontspector
 cargo-override
 sass-rs
+wol-rs
