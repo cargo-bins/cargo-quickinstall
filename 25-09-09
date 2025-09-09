@@ -18,3 +18,4 @@ solana-ledger-tool
 dioxus-cli
 build-fs-tree
 tendermint-rpc
+java-locator
