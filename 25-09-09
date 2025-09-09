@@ -7,3 +7,4 @@ wol-rs
 ironbar
 libcst
 build-fs-tree
+tendermint-rpc
