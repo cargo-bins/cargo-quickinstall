@@ -10,3 +10,4 @@ build-fs-tree
 tendermint-rpc
 java-locator
 mise
+httpmock
