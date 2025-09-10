@@ -17,3 +17,4 @@ rls-rustc
 safe_network
 cargo-spellcheck
 hayagriva
+pwasm-utils
