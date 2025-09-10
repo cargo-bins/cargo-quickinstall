@@ -7,3 +7,4 @@ vdev
 xcp
 protox
 nextest
+cargo-dylint
