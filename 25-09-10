@@ -10,3 +10,4 @@ safe_network
 cargo-spellcheck
 hayagriva
 pwasm-utils
+cargo-pgrx
