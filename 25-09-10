@@ -3,3 +3,4 @@ protox
 cargo-embassy
 perseus-cli
 spl-token-cli
+cargo-dylint
