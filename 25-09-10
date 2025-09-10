@@ -9,3 +9,4 @@ rls-rustc
 cargo-spellcheck
 hayagriva
 pwasm-utils
+cargo-pgrx
