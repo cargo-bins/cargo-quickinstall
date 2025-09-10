@@ -10,3 +10,4 @@ sea-orm-cli
 schemafy
 deno
 sea-orm-cli
+cargo-embassy
