@@ -12,3 +12,4 @@ schemafy
 cargo-embassy
 cargo-list
 genson-cli
+cosmwasm-check
