@@ -15,3 +15,4 @@ sql-gen
 cargo-list
 spotify_player
 perseus-cli
+spl-token-cli
