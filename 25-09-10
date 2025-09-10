@@ -6,3 +6,4 @@ deno
 ec2_instance_metadata
 holochain_cli
 addr2line
+rls-rustc
