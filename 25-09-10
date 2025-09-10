@@ -6,3 +6,4 @@ graphql_client_cli
 rls-rustc
 cargo-spellcheck
 hayagriva
+pwasm-utils
