@@ -11,3 +11,4 @@ cargo-dylint
 schemafy
 cargo-embassy
 cargo-list
+genson-cli
