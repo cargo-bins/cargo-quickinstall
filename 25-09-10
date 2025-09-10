@@ -31,3 +31,4 @@ nextest
 cargo-list
 cargo-spellcheck
 hayagriva
+genson-cli
