@@ -12,3 +12,4 @@ deno
 sea-orm-cli
 cargo-embassy
 sql-gen
+cargo-list
