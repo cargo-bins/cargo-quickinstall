@@ -8,3 +8,4 @@ holochain_cli
 addr2line
 rls-rustc
 safe_network
+rmesg
