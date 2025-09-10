@@ -32,3 +32,4 @@ cargo-list
 cargo-spellcheck
 hayagriva
 genson-cli
+c2rust
