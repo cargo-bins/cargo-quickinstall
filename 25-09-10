@@ -10,3 +10,4 @@ rls-rustc
 safe_network
 rmesg
 hayagriva
+pwasm-utils
