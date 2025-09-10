@@ -18,3 +18,4 @@ alacritty
 cargo-embassy
 addr2line
 qsv
+rls-rustc
