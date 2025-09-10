@@ -10,3 +10,4 @@ nextest
 cargo-dylint
 schemafy
 cargo-embassy
+cargo-list
