@@ -33,3 +33,4 @@ cargo-spellcheck
 hayagriva
 genson-cli
 c2rust
+pwasm-utils
