@@ -5,3 +5,4 @@ schemafy
 deno
 addr2line
 qsv
+rls-rustc
