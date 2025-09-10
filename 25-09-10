@@ -13,3 +13,4 @@ sea-orm-cli
 cargo-embassy
 sql-gen
 cargo-list
+spotify_player
