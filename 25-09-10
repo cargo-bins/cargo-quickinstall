@@ -16,3 +16,4 @@ cosmwasm-check
 cargo-embassy
 alacritty
 cargo-embassy
+addr2line
