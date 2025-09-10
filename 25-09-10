@@ -11,3 +11,4 @@ safe_network
 rmesg
 hayagriva
 pwasm-utils
+lair_keystore_api
