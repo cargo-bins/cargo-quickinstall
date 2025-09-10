@@ -12,7 +12,7 @@ repository = "https://github.com/cargo-bins/cargo-quickinstall"
 tinyjson = "2"
 home = "0.5.11"
 pico-args = { version = "0.5.0", features = ["eq-separator"] }
-tempfile = "3.21.0"
+tempfile = "3.22.0"
 guess_host_triple = "0.1.5"
 
 [build-dependencies]
