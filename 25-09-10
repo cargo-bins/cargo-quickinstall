@@ -14,3 +14,4 @@ cargo-embassy
 sql-gen
 cargo-list
 spotify_player
+perseus-cli
