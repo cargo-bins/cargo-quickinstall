@@ -31,3 +31,4 @@ genson-cli
 cargo-list
 alacritty
 clipboard-history-wayland
+cargo-spellcheck
