@@ -13,3 +13,4 @@ addr2line
 syncfast
 skim
 rls-rustc
+syncfast
