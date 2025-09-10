@@ -3,3 +3,4 @@ holochain_cli_sandbox
 protox
 schemafy
 deno
+ec2_instance_metadata
