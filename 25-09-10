@@ -12,3 +12,4 @@ jless
 schemafy
 qsv
 deno
+addr2line
