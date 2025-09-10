@@ -10,3 +10,4 @@ ruff
 syncfast
 cloak
 addr2line
+syncfast
