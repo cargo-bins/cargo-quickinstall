@@ -3,3 +3,4 @@ protox
 cargo-msrv
 schemafy
 deno
+addr2line
