@@ -11,3 +11,4 @@ schemafy
 deno
 sea-orm-cli
 cargo-embassy
+sql-gen
