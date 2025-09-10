@@ -10,3 +10,4 @@ kble-c2a
 addr2line
 tlmcmddb-cli
 rls-rustc
+kble
