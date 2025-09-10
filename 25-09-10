@@ -11,3 +11,4 @@ cargo-spellcheck
 hayagriva
 pwasm-utils
 cargo-pgrx
+libcst
