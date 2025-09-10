@@ -9,3 +9,4 @@ protox
 nextest
 cargo-dylint
 schemafy
+cargo-embassy
