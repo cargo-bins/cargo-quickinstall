@@ -29,3 +29,4 @@ safe_network
 alacritty
 nextest
 cargo-list
+cargo-spellcheck
