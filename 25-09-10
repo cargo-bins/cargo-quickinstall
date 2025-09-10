@@ -20,3 +20,4 @@ addr2line
 qsv
 rls-rustc
 alacritty
+genson-cli
