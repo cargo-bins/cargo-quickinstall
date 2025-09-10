@@ -7,3 +7,4 @@ addr2line
 qsv
 rls-rustc
 safe_network
+cargo-spellcheck
