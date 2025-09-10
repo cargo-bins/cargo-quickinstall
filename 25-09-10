@@ -22,3 +22,4 @@ cloak
 skim
 safe_network
 rmesg
+pwasm-utils
