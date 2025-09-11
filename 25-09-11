@@ -10,3 +10,4 @@ cargo-vet
 human_name
 tokio-process
 sqlx-cli
+dotenv
