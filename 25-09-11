@@ -23,3 +23,4 @@ tree-sitter-graph
 cargo-script
 tendermint-abci
 cargo-script
+winpty-rs
