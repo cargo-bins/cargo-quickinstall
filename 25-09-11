@@ -5,3 +5,4 @@ dioxus-cli
 vdev
 tree-sitter-cli
 release
+sha1collisiondetection
