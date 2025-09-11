@@ -10,3 +10,4 @@ zuse
 raw-cpuid
 crypto-cli-tools
 tree-sitter-graph
+tendermint-abci
