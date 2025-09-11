@@ -35,3 +35,4 @@ sniffnet
 cargo-crates
 crypto-cli-tools
 socketcan
+tree-sitter-graph
