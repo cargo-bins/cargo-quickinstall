@@ -8,3 +8,4 @@ raw-cpuid
 socketcan
 crypto-cli-tools
 tree-sitter-graph
+tendermint-abci
