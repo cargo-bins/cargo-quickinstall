@@ -16,3 +16,4 @@ httm
 rustfmt
 raw-cpuid
 sqlx-cli
+socketcan
