@@ -17,3 +17,4 @@ raw-cpuid
 socketcan
 tree-sitter-graph
 cargo-script
+winpty-rs
