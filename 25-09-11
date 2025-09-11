@@ -30,3 +30,4 @@ cargo-unused-features
 cargo-unused-features
 crypto-cli-tools
 socketcan
+cargo-embed
