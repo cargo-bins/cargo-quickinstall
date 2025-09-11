@@ -15,3 +15,4 @@ argus-cli
 cargo-script
 raw-cpuid
 socketcan
+tree-sitter-graph
