@@ -14,3 +14,4 @@ tendermint-abci
 uv
 uv
 uv
+winpty-rs
