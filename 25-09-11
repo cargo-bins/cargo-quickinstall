@@ -32,3 +32,4 @@ release
 cargo-unused-features
 ironbar
 sniffnet
+cargo-crates
