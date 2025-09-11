@@ -8,3 +8,4 @@ deploy
 probe-rs-cli
 clipboard-history-wayland
 genson-cli
+tarmac
