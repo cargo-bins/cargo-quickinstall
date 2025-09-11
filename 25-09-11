@@ -21,3 +21,4 @@ tracexec
 raw-cpuid
 remove_dir_all
 socketcan
+crypto-cli-tools
