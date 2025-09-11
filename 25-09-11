@@ -6,3 +6,4 @@ vdev
 tree-sitter-cli
 release
 sha1collisiondetection
+c2rust
