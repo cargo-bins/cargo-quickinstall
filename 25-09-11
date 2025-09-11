@@ -25,3 +25,4 @@ probe-rs-cli
 cargo-dylint
 release
 tree-sitter-cli
+ironbar
