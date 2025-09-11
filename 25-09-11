@@ -20,3 +20,4 @@ tracexec
 tracexec
 raw-cpuid
 remove_dir_all
+socketcan
