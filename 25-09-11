@@ -21,3 +21,4 @@ probe-rs-cli
 probe-rs-cli
 cargo-unused-features
 zuse
+sniffnet
