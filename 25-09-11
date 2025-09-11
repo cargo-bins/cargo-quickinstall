@@ -13,3 +13,4 @@ sqlx-cli
 dotenv
 fermium
 httm
+rustfmt
