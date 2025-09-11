@@ -11,3 +11,4 @@ human_name
 tokio-process
 sqlx-cli
 dotenv
+fermium
