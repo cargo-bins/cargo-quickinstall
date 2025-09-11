@@ -14,3 +14,4 @@ socketcan
 crypto-cli-tools
 tree-sitter-graph
 tendermint-abci
+uv
