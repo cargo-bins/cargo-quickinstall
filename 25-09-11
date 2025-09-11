@@ -29,3 +29,4 @@ ironbar
 tree-sitter-cli
 raw-cpuid
 release
+cargo-unused-features
