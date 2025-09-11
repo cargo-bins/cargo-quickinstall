@@ -5,3 +5,4 @@ ruff
 onehistory
 sqlx-cli
 ruff
+sha1collisiondetection
