@@ -13,3 +13,4 @@ probe-rs-cli
 probe-rs-tools
 human_name
 probe-rs-tools
+c2rust
