@@ -24,3 +24,4 @@ socketcan
 crypto-cli-tools
 tree-sitter-graph
 tendermint-abci
+mit-commit-msg
