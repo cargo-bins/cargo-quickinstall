@@ -16,3 +16,4 @@ cargo-script
 raw-cpuid
 socketcan
 tree-sitter-graph
+cargo-script
