@@ -38,3 +38,4 @@ socketcan
 tree-sitter-graph
 tendermint-abci
 tarmac
+pijul
