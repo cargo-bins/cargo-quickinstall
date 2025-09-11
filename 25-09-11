@@ -31,3 +31,4 @@ raw-cpuid
 release
 cargo-unused-features
 ironbar
+sniffnet
