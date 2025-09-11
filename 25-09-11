@@ -3,3 +3,4 @@ qsv
 sea-orm-cli
 release
 ck-search
+sha1collisiondetection
