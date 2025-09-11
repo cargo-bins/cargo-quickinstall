@@ -37,3 +37,4 @@ crypto-cli-tools
 socketcan
 tree-sitter-graph
 tendermint-abci
+tarmac
