@@ -20,3 +20,4 @@ vdev
 probe-rs-cli
 dotenv
 wiremix
+c2rust
