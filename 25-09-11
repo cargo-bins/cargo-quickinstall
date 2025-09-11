@@ -32,3 +32,4 @@ crypto-cli-tools
 socketcan
 cargo-embed
 tree-sitter-graph
+ironbar
