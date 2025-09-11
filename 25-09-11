@@ -13,3 +13,4 @@ argus-cli
 dotenv
 argus-cli
 cargo-script
+raw-cpuid
