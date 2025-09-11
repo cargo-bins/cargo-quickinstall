@@ -10,3 +10,4 @@ human_name
 zuse
 raw-cpuid
 remove_dir_all
+socketcan
