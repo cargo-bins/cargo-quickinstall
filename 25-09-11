@@ -12,3 +12,4 @@ tokio-process
 sqlx-cli
 dotenv
 fermium
+httm
