@@ -8,3 +8,4 @@ raw-cpuid
 crypto-cli-tools
 socketcan
 tree-sitter-graph
+winpty-rs
