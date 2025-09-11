@@ -7,3 +7,4 @@ sqlx-cli
 ruff
 sha1collisiondetection
 cloak
+sqlx-cli
