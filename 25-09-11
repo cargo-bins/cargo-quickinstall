@@ -9,3 +9,4 @@ sha1collisiondetection
 cloak
 sqlx-cli
 human_name
+tracexec
