@@ -6,3 +6,4 @@ dotenv
 zuse
 raw-cpuid
 crypto-cli-tools
+socketcan
