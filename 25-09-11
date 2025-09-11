@@ -26,3 +26,4 @@ tarmac
 raw-cpuid
 wiremix
 sniffnet
+cargo-unused-features
