@@ -18,3 +18,4 @@ raw-cpuid
 sqlx-cli
 socketcan
 crypto-cli-tools
+tree-sitter-graph
