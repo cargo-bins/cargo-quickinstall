@@ -19,3 +19,4 @@ release
 probe-rs-cli
 probe-rs-cli
 probe-rs-cli
+cargo-unused-features
