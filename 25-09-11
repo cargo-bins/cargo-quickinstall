@@ -9,3 +9,4 @@ sha1collisiondetection
 c2rust
 cargo-dylint
 cargo-embed
+sniffnet
