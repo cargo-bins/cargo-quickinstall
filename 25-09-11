@@ -33,3 +33,4 @@ socketcan
 cargo-embed
 tree-sitter-graph
 ironbar
+winpty-rs
