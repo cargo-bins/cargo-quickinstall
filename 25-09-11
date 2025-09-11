@@ -33,3 +33,4 @@ cargo-unused-features
 ironbar
 sniffnet
 cargo-crates
+crypto-cli-tools
