@@ -14,3 +14,4 @@ dotenv
 argus-cli
 cargo-script
 raw-cpuid
+socketcan
