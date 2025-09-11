@@ -8,3 +8,4 @@ onehistory
 zellij
 cargo-vet
 human_name
+tokio-process
