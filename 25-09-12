@@ -5,3 +5,4 @@ re_query
 cpp_demangle
 project_init
 cargo-msrv
+syd
