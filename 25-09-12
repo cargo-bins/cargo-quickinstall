@@ -2,3 +2,4 @@ arrow-flight
 tree-sitter-cli
 rustfmt-nightly
 datavzrd
+pwasm-utils
