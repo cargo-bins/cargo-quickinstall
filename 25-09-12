@@ -14,3 +14,4 @@ wiremix
 datavzrd
 probe-rs-cli
 pwasm-utils
+cargo-crates
