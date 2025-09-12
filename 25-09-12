@@ -9,3 +9,4 @@ cargo-embed
 pwasm-utils
 bugstalker
 re_query
+stellar-cli
