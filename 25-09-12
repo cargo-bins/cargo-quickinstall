@@ -3,3 +3,4 @@ honggfuzz
 rustfmt-nightly
 datavzrd
 pwasm-utils
+benfred-read-process-memory
