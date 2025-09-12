@@ -6,3 +6,4 @@ pwasm-utils
 benfred-read-process-memory
 re_query
 cpp_demangle
+syd
