@@ -16,3 +16,4 @@ probe-rs-cli
 pwasm-utils
 cargo-crates
 wiremix
+bugstalker
