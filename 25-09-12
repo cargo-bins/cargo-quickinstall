@@ -30,3 +30,4 @@ cargo-bpf
 burn-tch
 stellar-cli
 magika-cli
+sea-orm-cli
