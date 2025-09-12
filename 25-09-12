@@ -50,3 +50,4 @@ laminar
 nu_plugin_dbus
 nu_plugin_query
 cargo-bpf
+textplots
