@@ -2,3 +2,4 @@ honggfuzz
 rustfmt-nightly
 onehistory
 datavzrd
+pwasm-utils
