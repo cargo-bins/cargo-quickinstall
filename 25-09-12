@@ -4,3 +4,4 @@ rustfmt-nightly
 cargo-script
 pwasm-utils
 re_query
+cpp_demangle
