@@ -26,3 +26,4 @@ project_init
 cargo-bpf
 cargo-unused-features
 tuisky
+syd
