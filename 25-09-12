@@ -11,3 +11,4 @@ rustfmt-nightly
 cargo-embed
 probe-rs-cli
 wiremix
+datavzrd
