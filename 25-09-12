@@ -31,3 +31,4 @@ cargo-unused-features
 tuisky
 sea-orm-cli
 cargo-crates
+bugstalker
