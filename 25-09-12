@@ -5,3 +5,4 @@ datavzrd
 pwasm-utils
 re_query
 cpp_demangle
+iai-callgrind-runner
