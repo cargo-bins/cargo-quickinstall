@@ -20,3 +20,4 @@ project_init
 cargo-bpf
 cargo-crates
 syd
+cargo-dylint
