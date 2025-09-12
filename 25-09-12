@@ -3,3 +3,4 @@ cargo-script
 rustfmt-nightly
 cargo-script
 pwasm-utils
+re_query
