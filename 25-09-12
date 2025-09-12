@@ -4,3 +4,4 @@ rustfmt-nightly
 datavzrd
 pwasm-utils
 re_query
+cpp_demangle
