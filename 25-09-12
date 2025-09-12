@@ -7,3 +7,4 @@ re_query
 cpp_demangle
 iai-callgrind-runner
 onehistory
+project_init
