@@ -3,3 +3,4 @@ probe-rs-cli
 pijul
 cargo-crates
 stellar-cli
+rustfmt-nightly
