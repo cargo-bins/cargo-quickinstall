@@ -48,3 +48,4 @@ proof-of-sql
 diesel_cli
 laminar
 nu_plugin_dbus
+nu_plugin_query
