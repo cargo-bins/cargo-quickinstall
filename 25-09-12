@@ -6,3 +6,4 @@ pwasm-utils
 re_query
 cpp_demangle
 syd
+human_bytes
