@@ -2,3 +2,4 @@ arrow-flight
 honggfuzz
 rustfmt-nightly
 datavzrd
+pwasm-utils
