@@ -21,3 +21,4 @@ cargo-bpf
 cargo-crates
 syd
 cargo-dylint
+bugstalker
