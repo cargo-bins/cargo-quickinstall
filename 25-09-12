@@ -13,3 +13,4 @@ tree_magic
 qsv
 ec2_instance_metadata
 crypto-cli-tools
+proof-of-sql
