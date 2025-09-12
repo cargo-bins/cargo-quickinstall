@@ -7,3 +7,4 @@ rustfmt-nightly
 ironbar
 cargo-embed
 pwasm-utils
+bugstalker
