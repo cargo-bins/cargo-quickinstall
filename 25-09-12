@@ -9,3 +9,4 @@ cargo-dylint
 cargo-embed
 rustfmt-nightly
 cargo-embed
+probe-rs-cli
