@@ -8,3 +8,4 @@ cpp_demangle
 project_init
 cargo-msrv
 syd
+dprint
