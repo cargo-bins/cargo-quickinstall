@@ -49,3 +49,4 @@ nextest
 proof-of-sql
 laminar
 nu_plugin_dbus
+diesel_cli
