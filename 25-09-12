@@ -5,3 +5,4 @@ rustfmt-nightly
 uv
 pwasm-utils
 re_query
+cpp_demangle
