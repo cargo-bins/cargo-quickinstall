@@ -4,3 +4,4 @@ pijul
 cargo-crates
 stellar-cli
 rustfmt-nightly
+ironbar
