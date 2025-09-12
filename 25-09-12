@@ -3,3 +3,4 @@ tree-sitter-cli
 rustfmt-nightly
 datavzrd
 pwasm-utils
+re_query
