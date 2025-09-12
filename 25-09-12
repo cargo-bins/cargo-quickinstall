@@ -6,3 +6,4 @@ stellar-cli
 rustfmt-nightly
 ironbar
 cargo-embed
+pwasm-utils
