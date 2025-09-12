@@ -24,3 +24,4 @@ solana-cli
 ironbar
 project_init
 cargo-bpf
+cargo-unused-features
