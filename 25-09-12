@@ -22,3 +22,4 @@ cargo-crates
 syd
 cargo-dylint
 bugstalker
+dprint
