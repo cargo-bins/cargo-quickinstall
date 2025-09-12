@@ -7,3 +7,4 @@ tarmac
 tuisky
 cargo-dylint
 cargo-embed
+rustfmt-nightly
