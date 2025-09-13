@@ -13,3 +13,4 @@ xargo
 rzup
 cargo-lock
 httpbis
+kani-verifier
