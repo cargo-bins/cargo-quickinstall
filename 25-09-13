@@ -11,3 +11,4 @@ git-mit-config
 raw-cpuid
 xargo
 rzup
+cargo-lock
