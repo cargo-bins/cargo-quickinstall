@@ -7,3 +7,4 @@ sark0y_tam_rst
 project_init
 cargo-lock
 libbpf-cargo
+solana-keygen
