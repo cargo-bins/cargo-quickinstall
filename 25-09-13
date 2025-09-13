@@ -14,3 +14,4 @@ git-mit-config
 raw-cpuid
 rzup
 cargo-lock
+kani-verifier
