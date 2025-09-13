@@ -3,3 +3,4 @@ tracing-durations-export
 sn_node
 git-mit-install
 paperclip
+sqlx-cli
