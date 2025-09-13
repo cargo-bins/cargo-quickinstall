@@ -24,3 +24,4 @@ lottieconv
 cargo-lock
 clipmon
 noisefunge
+libbpf-cargo
