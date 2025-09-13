@@ -5,3 +5,4 @@ commit_verify
 paperclip
 project_init
 cargo-lock
+solana-keygen
