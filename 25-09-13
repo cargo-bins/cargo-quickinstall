@@ -11,3 +11,4 @@ solana-stake-accounts
 raw-cpuid
 rzup
 cargo-lock
+dotenv
