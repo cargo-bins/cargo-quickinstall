@@ -24,3 +24,4 @@ libbpf-cargo
 nu_plugin_query
 solana-keygen
 rustup-toolchain-install-master
+raw-cpuid
