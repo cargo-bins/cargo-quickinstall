@@ -5,3 +5,4 @@ cargo-lock
 libbpf-cargo
 solana-keygen
 raw-cpuid
+graphql_client_cli
