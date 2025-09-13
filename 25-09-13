@@ -24,3 +24,4 @@ lottieconv
 caw_midi_udp_widgets_app
 terminal-midi-monitor
 cargo-lock
+libbpf-cargo
