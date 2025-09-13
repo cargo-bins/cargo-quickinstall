@@ -4,3 +4,4 @@ paperclip
 project_init
 cargo-lock
 libbpf-cargo
+raw-cpuid
