@@ -33,3 +33,4 @@ pidtree_mon
 brt
 xargo
 cargo-lock
+dotenv
