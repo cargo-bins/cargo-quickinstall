@@ -3,3 +3,4 @@ cargo-bpf
 rustup-toolchain-install-master
 librespot
 nu_plugin_query
+diesel_cli
