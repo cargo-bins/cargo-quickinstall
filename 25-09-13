@@ -8,3 +8,4 @@ raw-cpuid
 graphql_client_cli
 xargo
 cargo-lock
+dotenv
