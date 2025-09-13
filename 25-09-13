@@ -6,3 +6,4 @@ cargo-lock
 libbpf-cargo
 raw-cpuid
 xargo
+rzup
