@@ -3,3 +3,4 @@ libcst
 tracing-durations-export
 commit_verify
 paperclip
+project_init
