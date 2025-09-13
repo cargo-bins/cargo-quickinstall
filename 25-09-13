@@ -19,3 +19,4 @@ rustup-toolchain-install-master
 kanidm_tools
 project_init
 nu_plugin_dbus
+rustup-toolchain-install-master
