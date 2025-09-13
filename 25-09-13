@@ -5,3 +5,4 @@ git-mit-install
 paperclip
 sqlx-cli
 project_init
+cargo-lock
