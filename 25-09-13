@@ -17,3 +17,4 @@ himalaya
 diesel_cli
 project_init
 nu_plugin_dbus
+cargo-lock
