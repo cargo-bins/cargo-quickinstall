@@ -7,3 +7,4 @@ rustup-toolchain-install-master
 diesel_cli
 sea-orm-cli
 magika-cli
+diesel_cli
