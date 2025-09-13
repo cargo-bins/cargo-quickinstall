@@ -3,3 +3,4 @@ tracing-durations-export
 paperclip
 project_init
 cargo-lock
+libbpf-cargo
