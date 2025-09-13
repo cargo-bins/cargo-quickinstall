@@ -13,3 +13,4 @@ libbpf-cargo
 git-mit-config
 raw-cpuid
 rzup
+cargo-lock
