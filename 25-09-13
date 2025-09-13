@@ -10,3 +10,4 @@ paperclip
 project_init
 cargo-lock
 libbpf-cargo
+git-mit-config
