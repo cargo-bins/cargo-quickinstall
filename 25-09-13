@@ -27,3 +27,4 @@ solana-keygen
 libbpf-cargo
 rustup-toolchain-install-master
 solana-stake-accounts
+raw-cpuid
