@@ -2,3 +2,4 @@ zuse
 paperclip
 project_init
 cargo-lock
+libbpf-cargo
