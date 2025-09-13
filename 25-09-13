@@ -6,3 +6,4 @@ paperclip
 project_init
 cargo-lock
 solana-keygen
+libbpf-cargo
