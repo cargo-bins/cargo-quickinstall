@@ -4,3 +4,4 @@ nu_plugin_dbus
 nextest
 diesel_cli
 rustup-toolchain-install-master
+diesel_cli
