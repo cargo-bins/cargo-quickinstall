@@ -4,3 +4,4 @@ project_init
 cargo-lock
 libbpf-cargo
 solana-keygen
+raw-cpuid
