@@ -11,3 +11,4 @@ solana-keygen
 solana-stake-accounts
 raw-cpuid
 graphql_client_cli
+cargo-lock
