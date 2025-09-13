@@ -18,3 +18,4 @@ diesel_cli
 project_init
 nu_plugin_dbus
 cargo-lock
+nu_plugin_dbus
