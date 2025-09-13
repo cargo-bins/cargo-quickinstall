@@ -25,3 +25,4 @@ cargo-lock
 himalaya
 solana-keygen
 libbpf-cargo
+rustup-toolchain-install-master
