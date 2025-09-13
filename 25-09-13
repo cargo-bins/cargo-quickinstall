@@ -9,3 +9,4 @@ cargo-lock
 libbpf-cargo
 solana-keygen
 solana-stake-accounts
+raw-cpuid
