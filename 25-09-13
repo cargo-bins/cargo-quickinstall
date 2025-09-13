@@ -7,3 +7,4 @@ project_init
 cargo-lock
 solana-keygen
 libbpf-cargo
+solana-stake-accounts
