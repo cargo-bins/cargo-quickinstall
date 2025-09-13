@@ -28,3 +28,4 @@ libbpf-cargo
 rustup-toolchain-install-master
 solana-stake-accounts
 raw-cpuid
+bluetui
