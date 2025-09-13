@@ -30,3 +30,4 @@ xargo
 rustup-toolchain-install-master
 xplr
 xbuild
+cargo-lock
