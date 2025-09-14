@@ -31,3 +31,4 @@ ruff
 bluetui
 simple-http-server
 cpp_demangle
+cargo-public-api
