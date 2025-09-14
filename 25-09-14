@@ -2,3 +2,4 @@ java-locator
 datavzrd
 tracing-durations-export
 diesel_cli
+httpmock
