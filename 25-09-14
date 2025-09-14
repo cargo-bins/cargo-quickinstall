@@ -14,3 +14,4 @@ cargo-public-api
 simple-http-server
 cargo-dylint
 ruff
+human_bytes
