@@ -3,3 +3,4 @@ datavzrd
 tracing-durations-export
 diesel_cli
 httpmock
+human_bytes
