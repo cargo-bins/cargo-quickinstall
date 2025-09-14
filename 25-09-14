@@ -7,3 +7,4 @@ ruff
 ruff
 tracing-durations-export
 xbuild
+simple-http-server
