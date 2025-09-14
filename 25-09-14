@@ -13,3 +13,4 @@ xplr
 ruff
 xbuild
 sniffnet
+cargo-public-api
