@@ -33,3 +33,4 @@ simple-http-server
 cpp_demangle
 cargo-public-api
 nextest-filtering
+cargo-public-api
