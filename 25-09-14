@@ -37,3 +37,4 @@ cargo-public-api
 minicbor
 xbuild
 pwasm-utils
+hyprshell
