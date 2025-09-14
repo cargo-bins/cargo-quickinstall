@@ -3,3 +3,4 @@ tracing-durations-export
 racer
 diesel_cli
 racer
+sqlx-cli
