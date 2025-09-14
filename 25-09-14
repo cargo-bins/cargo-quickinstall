@@ -36,3 +36,4 @@ nextest-filtering
 cargo-public-api
 minicbor
 xbuild
+pwasm-utils
