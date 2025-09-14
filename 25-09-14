@@ -8,3 +8,4 @@ cpp_demangle
 nextest-filtering
 minicbor
 pwasm-utils
+statime-linux
