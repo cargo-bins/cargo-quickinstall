@@ -15,3 +15,4 @@ xbuild
 sniffnet
 cargo-public-api
 bluetui
+cargo-dylint
