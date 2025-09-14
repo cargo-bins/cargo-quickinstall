@@ -4,3 +4,4 @@ tracing-durations-export
 human_bytes
 rrule
 diesel_cli
+cpp_demangle
