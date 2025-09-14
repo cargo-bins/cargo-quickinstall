@@ -25,3 +25,4 @@ cargo-public-api
 hyprshell
 cpp_demangle
 sea-orm-cli
+nextest-filtering
