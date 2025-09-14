@@ -17,3 +17,4 @@ ruff
 human_bytes
 hyprshell
 ruff
+cargo-public-api
