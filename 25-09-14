@@ -35,3 +35,4 @@ cargo-public-api
 nextest-filtering
 cargo-public-api
 minicbor
+xbuild
