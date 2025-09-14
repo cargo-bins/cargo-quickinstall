@@ -10,3 +10,4 @@ cpp_demangle
 holochain_cli_bundle
 nextest-filtering
 minicbor
+rzup
