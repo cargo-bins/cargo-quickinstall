@@ -5,3 +5,4 @@ xbuild
 xbuild
 ruff
 ruff
+tracing-durations-export
