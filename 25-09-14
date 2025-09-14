@@ -10,3 +10,4 @@ xbuild
 simple-http-server
 simple-http-server
 xbuild
+cargo-public-api
