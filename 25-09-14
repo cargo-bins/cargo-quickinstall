@@ -21,3 +21,4 @@ human_bytes
 sniffnet
 hyprshell
 cargo-dylint
+cargo-public-api
