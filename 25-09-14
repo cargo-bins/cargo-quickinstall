@@ -12,3 +12,4 @@ tree-sitter-md
 rrule
 diesel_cli
 cpp_demangle
+nextest-filtering
