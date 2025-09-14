@@ -4,3 +4,4 @@ diesel_cli
 human_bytes
 diesel_cli
 rrule
+cpp_demangle
