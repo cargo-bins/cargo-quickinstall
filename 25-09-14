@@ -30,3 +30,4 @@ rrule
 ruff
 bluetui
 simple-http-server
+cpp_demangle
