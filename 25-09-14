@@ -5,3 +5,4 @@ httpmock
 human_bytes
 tree-sitter-md
 diesel_cli
+text-diff
