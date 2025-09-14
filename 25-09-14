@@ -24,3 +24,4 @@ cargo-dylint
 cargo-public-api
 cargo-dylint
 simple-http-server
+tree-sitter-md
