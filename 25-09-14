@@ -28,3 +28,4 @@ sea-orm-cli
 nextest-filtering
 minicbor
 cargo-public-api
+hyprshell
