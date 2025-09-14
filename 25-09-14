@@ -9,3 +9,4 @@ tree-sitter-md
 diesel_cli
 rrule
 wac
+cpp_demangle
