@@ -8,3 +8,4 @@ cpp_demangle
 dioxus-cli
 nextest-filtering
 pwasm-utils
+minicbor
