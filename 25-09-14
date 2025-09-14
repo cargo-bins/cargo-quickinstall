@@ -34,3 +34,4 @@ cpp_demangle
 cargo-public-api
 nextest-filtering
 cargo-public-api
+minicbor
