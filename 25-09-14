@@ -9,3 +9,4 @@ cpp_demangle
 nextest-filtering
 minicbor
 protox
+arrow-flight
