@@ -7,3 +7,4 @@ dioxus-cli
 dioxus-cli
 cpp_demangle
 nextest-filtering
+minicbor
