@@ -17,3 +17,4 @@ cargo-public-api
 bluetui
 cargo-dylint
 hyprshell
+human_bytes
