@@ -5,3 +5,4 @@ diesel_cli
 racer
 sqlx-cli
 sqlx-cli
+human_bytes
