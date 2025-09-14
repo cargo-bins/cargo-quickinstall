@@ -38,3 +38,4 @@ minicbor
 xbuild
 pwasm-utils
 hyprshell
+rustnet-monitor
