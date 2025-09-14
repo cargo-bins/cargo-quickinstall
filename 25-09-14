@@ -10,3 +10,4 @@ diesel_cli
 rrule
 wac
 cpp_demangle
+nextest-filtering
