@@ -6,3 +6,4 @@ diesel_cli
 rrule
 cpp_demangle
 nextest-filtering
+minicbor
