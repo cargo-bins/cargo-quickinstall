@@ -13,3 +13,4 @@ xbuild
 cargo-public-api
 simple-http-server
 cargo-dylint
+ruff
