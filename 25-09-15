@@ -6,3 +6,4 @@ wol-rs
 stellar-strkey
 tendermint-abci
 snarkvm
+solana-cli
