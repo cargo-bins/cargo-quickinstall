@@ -3,3 +3,4 @@ parquet
 wol-rs
 stellar-strkey
 tendermint-abci
+nextest
