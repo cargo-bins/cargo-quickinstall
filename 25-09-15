@@ -9,3 +9,4 @@ wol-rs
 dotenvy
 stellar-strkey
 rmesg
+tendermint-abci
