@@ -7,3 +7,4 @@ stellar-strkey
 tendermint-abci
 snarkvm
 solana-cli
+minicbor
