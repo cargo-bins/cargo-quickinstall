@@ -2,3 +2,4 @@ sqlx-cli
 winpty-rs
 cached-path
 parquet
+httm
