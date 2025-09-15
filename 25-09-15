@@ -41,3 +41,4 @@ mdbook-plantuml
 wishbone-tool
 cavif
 cargo-show
+patch-crate
