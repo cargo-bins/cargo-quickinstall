@@ -28,3 +28,4 @@ cargo-vendor-filterer
 tendermint-abci
 exa
 cargo-vendor-filterer
+stellar-scaffold-cli
