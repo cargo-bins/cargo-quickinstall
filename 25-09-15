@@ -1,3 +1,4 @@
 patch-crate
 rustnet-monitor
 rlr-gtk
+winpty-rs
