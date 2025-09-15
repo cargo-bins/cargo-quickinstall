@@ -12,3 +12,4 @@ rmesg
 tendermint-abci
 exa
 snarkvm
+minicbor
