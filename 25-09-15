@@ -33,3 +33,4 @@ snarkvm
 solana-cli
 tectonic
 minicbor
+patch-crate
