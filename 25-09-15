@@ -5,3 +5,4 @@ winpty-rs
 patch-crate
 graphql_client_cli
 codeberg-cli
+statsig-rs
