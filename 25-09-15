@@ -6,3 +6,4 @@ rlr-gtk
 patch-crate
 patch-crate
 statsig-rs
+cached-path
