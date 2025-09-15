@@ -25,3 +25,4 @@ patch-crate
 mdbook-plantuml
 solana-cli
 minicbor
+cargo-show
