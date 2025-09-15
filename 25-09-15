@@ -8,3 +8,4 @@ tendermint-abci
 tuftool
 solana-cli
 minicbor
+fake
