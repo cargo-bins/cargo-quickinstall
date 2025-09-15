@@ -6,3 +6,4 @@ stellar-strkey
 tendermint-abci
 tuftool
 solana-cli
+minicbor
