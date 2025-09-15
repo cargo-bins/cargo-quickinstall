@@ -2,3 +2,4 @@ winpty-rs
 statsig-rs
 parquet
 cached-path
+wol-rs
