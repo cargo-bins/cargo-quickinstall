@@ -5,3 +5,4 @@ wol-rs
 stellar-strkey
 tendermint-abci
 tuftool
+solana-cli
