@@ -22,3 +22,4 @@ tendermint-abci
 tmux-rs
 mdbook-plantuml
 patch-crate
+mdbook-plantuml
