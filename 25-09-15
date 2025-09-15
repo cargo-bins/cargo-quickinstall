@@ -3,3 +3,4 @@ statsig-rs
 cached-path
 wol-rs
 stellar-strkey
+tendermint-abci
