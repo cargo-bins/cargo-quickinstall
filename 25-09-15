@@ -21,3 +21,4 @@ tectonic
 tendermint-abci
 tmux-rs
 mdbook-plantuml
+patch-crate
