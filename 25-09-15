@@ -3,3 +3,4 @@ winpty-rs
 cached-path
 parquet
 httm
+honggfuzz
