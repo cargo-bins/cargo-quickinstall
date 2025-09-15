@@ -6,3 +6,4 @@ tendermint-abci
 nextest
 minicbor
 sp1-prover
+fake
