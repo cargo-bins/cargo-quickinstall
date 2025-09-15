@@ -3,3 +3,4 @@ statsig-rs
 parquet
 cached-path
 wol-rs
+dotenvy
