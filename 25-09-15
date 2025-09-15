@@ -37,3 +37,4 @@ patch-crate
 tmux-rs
 fake
 tectonic
+mdbook-plantuml
