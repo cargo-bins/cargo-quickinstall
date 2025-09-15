@@ -36,3 +36,4 @@ leenfetch
 patch-crate
 mdbook-plantuml
 cavif
+cargo-show
