@@ -38,3 +38,4 @@ mdbook-plantuml
 cavif
 cargo-show
 tmux-rs
+unic-langid-impl
