@@ -8,3 +8,4 @@ tendermint-rpc
 graphql_client_cli
 cargo-pgrx
 cargo-info
+sass-rs
