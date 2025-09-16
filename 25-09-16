@@ -10,3 +10,4 @@ dioxus-cli
 sha1collisiondetection
 libbpf-cargo
 nextest-filtering
+uv
