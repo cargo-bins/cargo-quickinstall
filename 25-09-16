@@ -7,3 +7,4 @@ tree-sitter-cli
 sha1collisiondetection
 libbpf-cargo
 nextest-filtering
+burn-tch
