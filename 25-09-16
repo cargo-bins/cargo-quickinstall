@@ -17,3 +17,4 @@ burn-tch
 ducc-sys
 opencv-binding-generator
 unic-langid-impl
+sqlx-cli
