@@ -31,3 +31,4 @@ cargo-info
 clipboard-history-tui
 sha1collisiondetection
 nextest
+nextest-filtering
