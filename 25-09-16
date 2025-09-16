@@ -13,3 +13,4 @@ sha1collisiondetection
 libbpf-cargo
 nextest-filtering
 rzup
+burn-tch
