@@ -7,3 +7,4 @@ codeberg-cli
 sass-rs
 tree_magic
 coldsnap
+ec2_instance_metadata
