@@ -13,3 +13,4 @@ ducc-sys
 opencv-binding-generator
 unic-langid-impl
 cargo-risczero
+z3tracer
