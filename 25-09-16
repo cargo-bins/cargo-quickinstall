@@ -16,3 +16,4 @@ sass-rs
 tmux-rs
 tmux-rs
 dioxus-cli
+graphql_client_cli
