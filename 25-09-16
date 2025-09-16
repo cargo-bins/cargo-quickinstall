@@ -4,3 +4,4 @@ libbpf-cargo
 tendermint-rpc
 sass-rs
 tree-sitter-cli
+arrow-flight
