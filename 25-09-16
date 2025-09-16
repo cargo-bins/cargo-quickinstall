@@ -12,3 +12,4 @@ libbpf-cargo
 nextest-filtering
 uv
 uv
+burn-tch
