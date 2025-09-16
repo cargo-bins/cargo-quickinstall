@@ -25,3 +25,4 @@ sha1collisiondetection
 nextest-filtering
 nextest
 cavif
+graphql_client_cli
