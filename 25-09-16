@@ -21,3 +21,4 @@ cargo-show
 tree-sitter-cli
 graphql_client_cli
 cargo-info
+sha1collisiondetection
