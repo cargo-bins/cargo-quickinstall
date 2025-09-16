@@ -6,3 +6,4 @@ coldsnap
 tree-sitter-cli
 sha1collisiondetection
 libbpf-cargo
+nextest-filtering
