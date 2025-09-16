@@ -29,3 +29,4 @@ opcua-certificate-creator
 graphql_client_cli
 cargo-info
 clipboard-history-tui
+sha1collisiondetection
