@@ -4,3 +4,4 @@ tendermint-rpc
 cargo-pgrx
 sass-rs
 tree-sitter-cli
+sha1collisiondetection
