@@ -4,3 +4,4 @@ controller
 sass-rs
 coldsnap
 tree-sitter-cli
+sha1collisiondetection
