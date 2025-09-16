@@ -5,3 +5,4 @@ sass-rs
 coldsnap
 tree-sitter-cli
 sha1collisiondetection
+libbpf-cargo
