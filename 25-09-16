@@ -26,3 +26,4 @@ mdbook-plantuml
 dioxus-cli
 tree-sitter-cli
 opcua-certificate-creator
+graphql_client_cli
