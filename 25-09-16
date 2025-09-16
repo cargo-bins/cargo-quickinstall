@@ -14,3 +14,4 @@ libbpf-cargo
 nextest-filtering
 rzup
 burn-tch
+ducc-sys
