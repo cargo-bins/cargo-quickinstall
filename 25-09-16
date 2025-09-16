@@ -6,3 +6,4 @@ clipboard-history-tui
 controller
 tendermint-rpc
 graphql_client_cli
+cargo-pgrx
