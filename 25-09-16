@@ -18,3 +18,4 @@ tmux-rs
 dioxus-cli
 graphql_client_cli
 leenfetch
+opcua-certificate-creator
