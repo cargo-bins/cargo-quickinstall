@@ -4,3 +4,4 @@ tectonic
 libbpf-cargo
 clipboard-history-tui
 controller
+tendermint-rpc
