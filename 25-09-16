@@ -11,3 +11,4 @@ sha1collisiondetection
 libbpf-cargo
 nextest-filtering
 uv
+uv
