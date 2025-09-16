@@ -20,3 +20,4 @@ opcua-certificate-creator
 cargo-show
 tree-sitter-cli
 graphql_client_cli
+cargo-info
