@@ -10,3 +10,4 @@ nextest-filtering
 burn-tch
 ducc-sys
 java-locator
+opencv-binding-generator
