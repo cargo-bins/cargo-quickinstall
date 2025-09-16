@@ -5,3 +5,4 @@ vdev
 wishbone-tool
 controller
 cavif
+cargo-show
