@@ -38,3 +38,4 @@ cargo-show
 opcua-certificate-creator
 opcua-certificate-creator
 burn-tch
+disk-spinner
