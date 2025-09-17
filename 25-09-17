@@ -10,3 +10,4 @@ burn-tch
 wol-rs
 rustup-toolchain-install-master
 shunkakinoki
+rls-rustc
