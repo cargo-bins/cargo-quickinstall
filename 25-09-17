@@ -7,3 +7,4 @@ tree-sitter-graph
 skim
 crypto-cli-tools
 wol-rs
+cargo-generate
