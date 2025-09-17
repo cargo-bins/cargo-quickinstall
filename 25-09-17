@@ -44,3 +44,4 @@ cargo-embed
 genson-cli
 ncspot
 m2sync
+nu_plugin_gstat
