@@ -32,3 +32,4 @@ cargo-download
 nextest
 wol-rs
 ncspot
+m2sync
