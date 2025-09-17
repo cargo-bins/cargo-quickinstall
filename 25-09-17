@@ -44,3 +44,4 @@ cargo-embed
 sha1collisiondetection
 rls-rustc
 cargo-patch
+m2sync
