@@ -11,3 +11,4 @@ wol-rs
 rustup-toolchain-install-master
 borsh
 shunkakinoki
+sha1collisiondetection
