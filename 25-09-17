@@ -13,3 +13,4 @@ rrule
 tree-sitter-graph
 libcst
 wol-rs
+sha1collisiondetection
