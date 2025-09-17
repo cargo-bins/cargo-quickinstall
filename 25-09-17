@@ -3,3 +3,4 @@ spider_worker
 xcp
 dicom-pixeldata
 qsv
+libcst
