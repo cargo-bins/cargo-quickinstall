@@ -56,3 +56,4 @@ cargo-patch
 gcsf
 syd
 binstall
+cargo-embed
