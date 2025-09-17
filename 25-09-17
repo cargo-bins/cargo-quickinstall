@@ -58,3 +58,4 @@ syd
 binstall
 cargo-embed
 binstall
+nu_plugin_gstat
