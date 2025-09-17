@@ -59,3 +59,4 @@ binstall
 cargo-embed
 binstall
 nu_plugin_gstat
+build-fs-tree
