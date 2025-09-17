@@ -10,3 +10,4 @@ git-branchless
 libcst
 gpgme
 rrule
+tree-sitter-graph
