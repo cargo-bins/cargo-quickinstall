@@ -13,3 +13,4 @@ cargo-dylint
 vdev
 gpgme
 alacritty
+disk-spinner
