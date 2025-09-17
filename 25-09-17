@@ -11,3 +11,4 @@ wol-rs
 rustup-toolchain-install-master
 shunkakinoki
 rls-rustc
+sha1collisiondetection
