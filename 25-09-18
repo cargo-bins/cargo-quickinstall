@@ -26,3 +26,4 @@ coldsnap
 perfcnt
 dbus-codegen
 cpp_demangle
+sqlx-cli
