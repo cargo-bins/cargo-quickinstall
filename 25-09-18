@@ -20,3 +20,4 @@ binstall
 cargo-patch
 qsv
 nu_plugin_gstat
+stellar-strkey
