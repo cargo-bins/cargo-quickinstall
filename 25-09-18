@@ -14,3 +14,4 @@ cargo-patch
 parquet
 alacritty
 sea-orm-cli
+cargo-patch
