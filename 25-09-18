@@ -64,3 +64,4 @@ probe-rs-tools
 hurl
 dbus-codegen
 speedtest-rs
+cpp_demangle
