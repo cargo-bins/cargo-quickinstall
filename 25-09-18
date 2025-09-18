@@ -14,3 +14,4 @@ qsv
 controller
 stellar-strkey
 solana-tokens
+sea-orm-cli
