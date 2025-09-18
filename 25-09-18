@@ -19,3 +19,4 @@ syd
 binstall
 cargo-patch
 qsv
+nu_plugin_gstat
