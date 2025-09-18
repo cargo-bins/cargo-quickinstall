@@ -24,3 +24,4 @@ cargo-patch
 deno
 datavzrd
 nu_plugin_gstat
+cargo-dylint
