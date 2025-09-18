@@ -25,3 +25,4 @@ java-locator
 coldsnap
 perfcnt
 dbus-codegen
+cpp_demangle
