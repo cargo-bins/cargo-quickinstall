@@ -6,3 +6,4 @@ tree-sitter-cli
 binstall
 cargo-dylint
 binstall
+gcsf
