@@ -11,3 +11,4 @@ laminar
 sprocket
 sea-orm-cli
 cargo-patch
+parquet
