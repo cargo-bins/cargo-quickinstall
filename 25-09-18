@@ -12,3 +12,4 @@ schemafy
 java-locator
 perfcnt
 dbus-codegen
+cpp_demangle
