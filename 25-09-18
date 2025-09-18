@@ -13,3 +13,4 @@ simple-http-server
 sea-orm-cli
 gcsf
 nu_plugin_gstat
+deno
