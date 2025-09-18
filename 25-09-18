@@ -20,3 +20,4 @@ rustbus
 coldsnap
 perfcnt
 dbus-codegen
+cpp_demangle
