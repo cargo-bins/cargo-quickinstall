@@ -9,3 +9,4 @@ nu_plugin_gstat
 simple-http-server
 laminar
 sprocket
+sea-orm-cli
