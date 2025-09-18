@@ -18,3 +18,4 @@ cargo-patch
 nu_plugin_gstat
 sprocket
 gcsf
+cargo-embed
