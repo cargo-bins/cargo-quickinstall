@@ -9,3 +9,4 @@ parquet
 arrow-flight
 deno
 datavzrd
+cargo-generate
