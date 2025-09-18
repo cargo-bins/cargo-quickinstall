@@ -12,3 +12,4 @@ datavzrd
 cargo-generate
 qsv
 stellar-strkey
+apollo-router
