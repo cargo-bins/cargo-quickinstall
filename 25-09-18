@@ -4,3 +4,4 @@ cargo-download
 cargo-embed
 tree-sitter-cli
 binstall
+cargo-dylint
