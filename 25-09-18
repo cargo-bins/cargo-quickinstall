@@ -52,3 +52,4 @@ probe-rs-tools
 speedtest-rs
 probe-rs-tools
 ripdrag
+dbus-codegen
