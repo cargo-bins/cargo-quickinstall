@@ -17,3 +17,4 @@ sea-orm-cli
 cargo-patch
 nu_plugin_gstat
 sprocket
+gcsf
