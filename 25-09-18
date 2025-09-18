@@ -9,3 +9,4 @@ binstall
 gcsf
 tree-sitter-cli
 parquet
+simple-http-server
