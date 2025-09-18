@@ -10,3 +10,4 @@ simple-http-server
 laminar
 sprocket
 sea-orm-cli
+cargo-patch
