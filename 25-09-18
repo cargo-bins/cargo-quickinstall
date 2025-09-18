@@ -8,3 +8,4 @@ cargo-dylint
 binstall
 gcsf
 tree-sitter-cli
+parquet
