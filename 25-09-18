@@ -14,3 +14,4 @@ stellar-strkey
 schemafy
 hurl
 dbus-codegen
+cpp_demangle
