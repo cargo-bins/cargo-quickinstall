@@ -13,3 +13,4 @@ java-locator
 perfcnt
 dbus-codegen
 cpp_demangle
+winpty-rs
