@@ -16,3 +16,4 @@ stellar-strkey
 solana-tokens
 sea-orm-cli
 rustfmt-nightly
+jless
