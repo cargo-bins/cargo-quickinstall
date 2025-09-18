@@ -6,3 +6,4 @@ sprocket
 binstall
 vdev
 nu_plugin_gstat
+simple-http-server
