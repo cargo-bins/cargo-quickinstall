@@ -27,3 +27,4 @@ stgit
 stgit
 perfcnt
 tree-sitter-cli
+cpp_demangle
