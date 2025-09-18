@@ -17,3 +17,4 @@ perfcnt
 tree-sitter-cli
 dbus-codegen
 cpp_demangle
+winpty-rs
