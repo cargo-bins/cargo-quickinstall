@@ -15,3 +15,4 @@ cargo-lambda
 java-locator
 perfcnt
 tree-sitter-cli
+dbus-codegen
