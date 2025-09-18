@@ -28,3 +28,4 @@ cargo-dylint
 qsv
 cargo-embed
 ncspot
+genson-cli
