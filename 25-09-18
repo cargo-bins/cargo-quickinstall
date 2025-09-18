@@ -11,3 +11,4 @@ tree-sitter-cli
 parquet
 simple-http-server
 sea-orm-cli
+gcsf
