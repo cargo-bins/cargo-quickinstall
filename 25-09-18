@@ -63,3 +63,4 @@ intentrace
 probe-rs-tools
 hurl
 dbus-codegen
+speedtest-rs
