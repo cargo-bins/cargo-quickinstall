@@ -21,3 +21,4 @@ coldsnap
 perfcnt
 dbus-codegen
 cpp_demangle
+winpty-rs
