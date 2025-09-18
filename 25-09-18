@@ -55,3 +55,4 @@ ripdrag
 dbus-codegen
 ripdrag
 speedtest-rs
+cpp_demangle
