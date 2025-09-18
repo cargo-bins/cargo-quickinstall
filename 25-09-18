@@ -27,3 +27,4 @@ nu_plugin_gstat
 cargo-dylint
 qsv
 cargo-embed
+ncspot
