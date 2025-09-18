@@ -24,3 +24,4 @@ rustbus
 java-locator
 coldsnap
 perfcnt
+dbus-codegen
