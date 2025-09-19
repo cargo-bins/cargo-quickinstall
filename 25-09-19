@@ -8,3 +8,4 @@ shimmy
 solana-ledger-tool
 libbpf-cargo
 cargo-lock
+ext-sort
