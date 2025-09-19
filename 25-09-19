@@ -10,3 +10,4 @@ cargo-vet
 cargo-lock
 ext-sort
 httpbis
+pgrx-tests
