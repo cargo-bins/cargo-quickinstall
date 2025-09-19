@@ -9,3 +9,4 @@ coldsnap
 cargo-vet
 cargo-lock
 ext-sort
+httpbis
