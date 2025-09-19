@@ -9,3 +9,4 @@ pgrx-tests
 commit_verify
 dicom-pixeldata
 human_bytes
+openpty
