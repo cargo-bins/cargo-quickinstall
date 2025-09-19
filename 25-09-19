@@ -14,3 +14,4 @@ commit_verify
 dicom-pixeldata
 tracing-durations-export
 fum-player
+openpty
