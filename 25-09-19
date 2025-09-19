@@ -8,3 +8,4 @@ rav1e
 coldsnap
 cargo-vet
 cargo-lock
+ext-sort
