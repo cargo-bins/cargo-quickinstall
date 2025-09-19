@@ -3,3 +3,4 @@ tree-sitter-graph
 solana-ledger-tool
 libbpf-cargo
 rav1e
+cargo-lock
