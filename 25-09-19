@@ -13,3 +13,4 @@ httpbis
 pgrx-tests
 commit_verify
 tracing-durations-export
+dicom-pixeldata
