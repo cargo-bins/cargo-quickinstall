@@ -19,3 +19,4 @@ tracing-durations-export
 rustnet-monitor
 rustnet-monitor
 rustnet-monitor
+diesel_cli
