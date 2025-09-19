@@ -11,3 +11,4 @@ cargo-lock
 ext-sort
 httpbis
 pgrx-tests
+commit_verify
