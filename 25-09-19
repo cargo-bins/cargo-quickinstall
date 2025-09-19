@@ -17,3 +17,4 @@ cktool
 libbpf-cargo
 controller
 solana-tokens
+cargo-lock
