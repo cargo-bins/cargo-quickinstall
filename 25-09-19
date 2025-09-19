@@ -14,3 +14,4 @@ cargo-lock
 pgrx-tests
 commit_verify
 rustfmt-nightly
+dicom-pixeldata
