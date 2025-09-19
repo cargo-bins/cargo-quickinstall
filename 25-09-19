@@ -29,3 +29,4 @@ hurl
 diesel_cli
 cargo-lock
 ext-sort
+spotify-tui
