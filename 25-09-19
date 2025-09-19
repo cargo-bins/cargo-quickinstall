@@ -9,3 +9,4 @@ solana-ledger-tool
 libbpf-cargo
 cargo-lock
 ext-sort
+pgrx-tests
