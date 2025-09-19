@@ -7,3 +7,4 @@ solana-ledger-tool
 libbpf-cargo
 coldsnap
 controller
+cargo-lock
