@@ -49,3 +49,4 @@ diesel_cli
 kanidm
 markdown2pdf
 dbus-codegen
+cargo-count
