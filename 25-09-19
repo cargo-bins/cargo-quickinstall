@@ -10,3 +10,4 @@ commit_verify
 dicom-pixeldata
 human_bytes
 openpty
+diesel_cli
