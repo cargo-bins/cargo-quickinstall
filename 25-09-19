@@ -14,3 +14,4 @@ cktool
 cargo-lock
 pgrx-tests
 commit_verify
+dicom-pixeldata
