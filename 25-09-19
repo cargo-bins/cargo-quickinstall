@@ -24,3 +24,4 @@ human_bytes
 honggfuzz
 openpty
 rustfmt-nightly
+perfcnt
