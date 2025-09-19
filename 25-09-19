@@ -6,3 +6,4 @@ solana-stake-accounts
 solana-ledger-tool
 libbpf-cargo
 coldsnap
+controller
