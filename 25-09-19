@@ -31,3 +31,4 @@ cargo-lock
 ext-sort
 spotify-tui
 kanidm
+pgrx-tests
