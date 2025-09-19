@@ -17,3 +17,4 @@ rustfmt-nightly
 dicom-pixeldata
 tracing-durations-export
 human_bytes
+diesel_cli
