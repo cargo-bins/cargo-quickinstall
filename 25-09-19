@@ -8,3 +8,4 @@ speedtest-rs
 sea-orm-cli
 syd
 solana-stake-accounts
+cargo-dylint
