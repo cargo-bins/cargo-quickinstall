@@ -41,3 +41,4 @@ dicom-pixeldata
 nextest
 feedr
 cargo-spellcheck
+human_bytes
