@@ -16,3 +16,4 @@ pgrx-tests
 commit_verify
 dicom-pixeldata
 tracing-durations-export
+rustnet-monitor
