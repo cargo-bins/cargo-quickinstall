@@ -9,3 +9,4 @@ coldsnap
 controller
 cargo-lock
 ext-sort
+pgrx-tests
