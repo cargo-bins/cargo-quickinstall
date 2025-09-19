@@ -9,3 +9,4 @@ sea-orm-cli
 syd
 solana-stake-accounts
 cargo-dylint
+solana-ledger-tool
