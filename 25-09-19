@@ -17,3 +17,4 @@ commit_verify
 dicom-pixeldata
 tracing-durations-export
 rustnet-monitor
+rustnet-monitor
