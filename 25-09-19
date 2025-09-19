@@ -5,3 +5,4 @@ libbpf-cargo
 rav1e
 cargo-lock
 ext-sort
+pgrx-tests
