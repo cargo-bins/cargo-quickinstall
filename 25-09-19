@@ -16,3 +16,4 @@ diesel_cli
 cargo-lock
 ext-sort
 diesel_cli
+pgrx-tests
