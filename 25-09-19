@@ -12,3 +12,4 @@ human_bytes
 openpty
 diesel_cli
 fum-player
+holochain_cli_bundle
