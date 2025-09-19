@@ -3,3 +3,4 @@ safe_network
 tree-sitter-graph
 rzup
 solana-ledger-tool
+libbpf-cargo
