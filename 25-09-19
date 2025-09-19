@@ -11,3 +11,4 @@ libbpf-cargo
 cktool
 controller
 cktool
+cargo-lock
