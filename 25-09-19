@@ -12,3 +12,4 @@ ext-sort
 httpbis
 pgrx-tests
 commit_verify
+tracing-durations-export
