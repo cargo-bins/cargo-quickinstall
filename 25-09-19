@@ -2,3 +2,4 @@ human_bytes
 probe-rs-tools
 tree-sitter-graph
 syd
+sea-orm-cli
