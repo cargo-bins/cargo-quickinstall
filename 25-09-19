@@ -20,3 +20,4 @@ diesel_cli
 fum-player
 fum-player
 perfcnt
+rustfmt-nightly
