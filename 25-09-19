@@ -13,3 +13,4 @@ pgrx-tests
 commit_verify
 dicom-pixeldata
 diesel_cli
+rustfmt-nightly
