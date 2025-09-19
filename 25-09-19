@@ -24,3 +24,4 @@ commit_verify
 dicom-pixeldata
 human_bytes
 rustnet-monitor
+rustnet-monitor
