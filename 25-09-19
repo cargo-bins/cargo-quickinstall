@@ -20,3 +20,4 @@ pgrx-tests
 commit_verify
 dicom-pixeldata
 tracing-durations-export
+human_bytes
