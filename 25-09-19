@@ -16,3 +16,4 @@ tracing-durations-export
 dicom-pixeldata
 human_bytes
 honggfuzz
+openpty
