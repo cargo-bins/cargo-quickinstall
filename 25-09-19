@@ -8,3 +8,4 @@ sqlx-cli
 onehistory
 onehistory
 solana-ledger-tool
+libbpf-cargo
