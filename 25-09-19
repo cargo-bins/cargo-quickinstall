@@ -4,3 +4,4 @@ safe_network
 probe-rs-tools
 tree-sitter-graph
 sea-orm-cli
+speedtest-rs
