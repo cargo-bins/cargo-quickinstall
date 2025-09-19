@@ -10,3 +10,4 @@ libbpf-cargo
 cargo-lock
 ext-sort
 pgrx-tests
+commit_verify
