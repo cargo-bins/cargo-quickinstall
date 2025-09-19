@@ -14,3 +14,4 @@ diesel_cli
 fum-player
 holochain_cli_bundle
 rustfmt-nightly
+fum-player
