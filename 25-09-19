@@ -46,3 +46,4 @@ markdown2pdf
 dbus-codegen
 cargo-spellcheck
 kanidm
+cargo-count
