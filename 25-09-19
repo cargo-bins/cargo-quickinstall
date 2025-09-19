@@ -29,3 +29,4 @@ rustnet-monitor
 rustnet-monitor
 diesel_cli
 rustnet-monitor
+rustfmt-nightly
