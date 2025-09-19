@@ -10,3 +10,4 @@ coldsnap
 controller
 solana-tokens
 ext-sort
+cargo-lock
