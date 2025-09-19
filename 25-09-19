@@ -6,3 +6,4 @@ rav1e
 cargo-lock
 ext-sort
 pgrx-tests
+commit_verify
