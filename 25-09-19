@@ -12,3 +12,4 @@ cargo-dylint
 solana-ledger-tool
 probe-rs-tools
 libbpf-cargo
+dadk
