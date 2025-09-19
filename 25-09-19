@@ -25,3 +25,4 @@ probe-rs-tools
 solana-tokens
 kanidm
 dadk
+cargo-lock
