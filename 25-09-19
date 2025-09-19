@@ -18,3 +18,4 @@ human_bytes
 honggfuzz
 openpty
 diesel_cli
+holochain_cli_bundle
