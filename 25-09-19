@@ -13,3 +13,4 @@ controller
 cktool
 cargo-lock
 pgrx-tests
+commit_verify
