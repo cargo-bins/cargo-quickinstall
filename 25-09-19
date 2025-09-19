@@ -7,3 +7,4 @@ libbpf-cargo
 rav1e
 coldsnap
 cargo-vet
+cargo-lock
