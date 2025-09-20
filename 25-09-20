@@ -6,3 +6,4 @@ fum-player
 git-disjoint
 foundationdb-gen
 solana-validator
+rsgen-avro
