@@ -13,3 +13,4 @@ foundationdb-gen
 rustbus
 kani-verifier
 hayagriva
+cargo-risczero
