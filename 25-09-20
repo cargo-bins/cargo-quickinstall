@@ -9,3 +9,4 @@ solana-validator
 rsgen-avro
 cargo-lock
 unic-langid-impl
+re_query
