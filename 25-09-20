@@ -12,3 +12,4 @@ racer
 foundationdb-gen
 hayagriva
 commit_verify
+raw-cpuid
