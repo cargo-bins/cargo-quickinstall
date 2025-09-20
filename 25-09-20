@@ -4,3 +4,4 @@ feedr
 cargo-spellcheck
 snarkvm
 nextest
+git-disjoint
