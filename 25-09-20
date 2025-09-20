@@ -13,3 +13,4 @@ re_query
 dioxus-cli
 tree-sitter-md
 racer
+foundationdb-gen
