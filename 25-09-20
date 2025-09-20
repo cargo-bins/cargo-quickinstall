@@ -23,3 +23,4 @@ spotify-tui
 diesel_cli
 re_query
 spotify-tui
+dbus-codegen
