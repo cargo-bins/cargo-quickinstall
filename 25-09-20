@@ -6,3 +6,4 @@ snarkvm
 nextest
 git-disjoint
 nextest
+foundationdb-gen
