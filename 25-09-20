@@ -5,3 +5,4 @@ foundationdb-gen
 rsgen-avro
 cargo-lock
 unic-langid-impl
+re_query
