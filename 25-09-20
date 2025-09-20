@@ -10,3 +10,4 @@ rsgen-avro
 cargo-lock
 unic-langid-impl
 re_query
+dioxus-cli
