@@ -5,3 +5,4 @@ cargo-spellcheck
 snarkvm
 nextest
 git-disjoint
+nextest
