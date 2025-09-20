@@ -11,3 +11,4 @@ cargo-count
 rsgen-avro
 kanidm
 cargo-lock
+cargo-spellcheck
