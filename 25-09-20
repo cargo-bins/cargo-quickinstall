@@ -19,3 +19,4 @@ diesel_cli
 re_query
 cargo-spellcheck
 dbus-codegen
+feedr
