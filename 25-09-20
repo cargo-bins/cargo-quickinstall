@@ -13,3 +13,4 @@ kanidm
 cargo-lock
 cargo-spellcheck
 unic-langid-impl
+dbus-codegen
