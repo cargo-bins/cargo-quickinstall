@@ -30,3 +30,4 @@ cargo-spellcheck
 controller
 racer
 foundationdb-gen
+cargo-bundle
