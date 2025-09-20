@@ -11,3 +11,4 @@ tree-sitter-md
 racer
 foundationdb-gen
 rustbus
+kani-verifier
