@@ -4,3 +4,4 @@ snarkvm
 foundationdb-gen
 rsgen-avro
 cargo-lock
+apollo-router
