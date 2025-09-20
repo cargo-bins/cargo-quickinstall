@@ -3,3 +3,4 @@ snarkvm
 git-disjoint
 foundationdb-gen
 rsgen-avro
+cargo-lock
