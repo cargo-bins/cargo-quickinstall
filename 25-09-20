@@ -18,3 +18,4 @@ dbus-codegen
 cargo-lock
 markdown2pdf
 unic-langid-impl
+diesel_cli
