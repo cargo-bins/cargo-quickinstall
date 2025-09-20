@@ -7,3 +7,4 @@ git-disjoint
 foundationdb-gen
 solana-validator
 rsgen-avro
+cargo-lock
