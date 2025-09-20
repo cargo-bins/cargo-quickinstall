@@ -17,3 +17,4 @@ foundationdb-gen
 fake
 hayagriva
 commit_verify
+raw-cpuid
