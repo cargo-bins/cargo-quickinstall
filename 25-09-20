@@ -19,3 +19,4 @@ cargo-lock
 markdown2pdf
 unic-langid-impl
 diesel_cli
+spotify-tui
