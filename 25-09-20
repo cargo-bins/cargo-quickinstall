@@ -33,3 +33,4 @@ cargo-count
 cargo-bundle
 cargo-bundle
 controller
+dioxus-cli
