@@ -6,3 +6,4 @@ rsgen-avro
 cargo-lock
 apollo-router
 unic-langid-impl
+re_query
