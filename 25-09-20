@@ -9,3 +9,4 @@ nextest
 foundationdb-gen
 solana-validator
 spotify-tui
+cargo-count
