@@ -5,3 +5,4 @@ cargo-count
 git-disjoint
 cargo-count
 foundationdb-gen
+solana-validator
