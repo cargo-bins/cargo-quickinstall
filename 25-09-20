@@ -2,3 +2,4 @@ rustfmt-nightly
 git-disjoint
 snarkvm
 foundationdb-gen
+solana-validator
