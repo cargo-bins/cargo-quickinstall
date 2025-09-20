@@ -13,3 +13,4 @@ racer
 foundationdb-gen
 rustbus
 kani-verifier
+dprint
