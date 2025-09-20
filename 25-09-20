@@ -21,3 +21,4 @@ commit_verify
 raw-cpuid
 burn-tch
 zellij
+rustfmt
