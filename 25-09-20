@@ -12,3 +12,4 @@ spotify-tui
 cargo-count
 cargo-spellcheck
 diesel_cli
+rsgen-avro
