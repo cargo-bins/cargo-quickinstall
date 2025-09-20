@@ -3,3 +3,4 @@ rustfmt-nightly
 feedr
 cargo-spellcheck
 snarkvm
+nextest
