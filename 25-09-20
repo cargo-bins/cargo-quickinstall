@@ -14,3 +14,4 @@ foundationdb-gen
 rustbus
 kani-verifier
 dprint
+fake
