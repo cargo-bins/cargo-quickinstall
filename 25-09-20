@@ -7,3 +7,4 @@ cargo-lock
 unic-langid-impl
 re_query
 tree-sitter-md
+solana-tokens
