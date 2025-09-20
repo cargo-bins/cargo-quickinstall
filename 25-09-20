@@ -17,3 +17,4 @@ cargo-risczero
 commit_verify
 raw-cpuid
 zellij
+sp1-prover
