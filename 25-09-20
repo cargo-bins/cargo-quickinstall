@@ -4,3 +4,4 @@ rustfmt-nightly
 fum-player
 fum-player
 git-disjoint
+foundationdb-gen
