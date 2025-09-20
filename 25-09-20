@@ -21,3 +21,4 @@ cargo-spellcheck
 dbus-codegen
 feedr
 cargo-spellcheck
+tree-sitter-md
