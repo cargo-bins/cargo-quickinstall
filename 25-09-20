@@ -26,3 +26,4 @@ spotify-tui
 dbus-codegen
 cargo-count
 spotify-tui
+tree-sitter-md
