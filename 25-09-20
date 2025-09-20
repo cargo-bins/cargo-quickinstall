@@ -15,3 +15,4 @@ diesel_cli
 rsgen-avro
 diesel_cli
 dbus-codegen
+cargo-lock
