@@ -17,3 +17,4 @@ dbus-codegen
 cargo-spellcheck
 diesel_cli
 re_query
+cargo-spellcheck
