@@ -20,3 +20,4 @@ commit_verify
 raw-cpuid
 sp1-prover
 dbus-codegen
+cpp_demangle
