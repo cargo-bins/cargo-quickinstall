@@ -15,3 +15,4 @@ kani-verifier
 hayagriva
 cargo-risczero
 commit_verify
+raw-cpuid
