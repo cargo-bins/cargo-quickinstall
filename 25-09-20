@@ -10,3 +10,4 @@ re_query
 tree-sitter-md
 racer
 foundationdb-gen
+rustbus
