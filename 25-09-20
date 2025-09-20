@@ -13,3 +13,4 @@ cargo-count
 cargo-spellcheck
 diesel_cli
 rsgen-avro
+diesel_cli
