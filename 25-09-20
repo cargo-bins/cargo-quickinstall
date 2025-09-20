@@ -14,3 +14,4 @@ dioxus-cli
 tree-sitter-md
 racer
 foundationdb-gen
+fake
