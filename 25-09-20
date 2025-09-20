@@ -14,3 +14,4 @@ cargo-lock
 cargo-spellcheck
 unic-langid-impl
 dbus-codegen
+cargo-spellcheck
