@@ -8,3 +8,4 @@ foundationdb-gen
 solana-validator
 rsgen-avro
 cargo-lock
+unic-langid-impl
