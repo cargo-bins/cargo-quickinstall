@@ -14,3 +14,4 @@ hayagriva
 commit_verify
 raw-cpuid
 sp1-prover
+cpp_demangle
