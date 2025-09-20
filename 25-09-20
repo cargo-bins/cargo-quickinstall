@@ -8,3 +8,4 @@ foundationdb-gen
 solana-validator
 dbus-codegen
 cargo-count
+rsgen-avro
