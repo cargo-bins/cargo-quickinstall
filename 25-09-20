@@ -3,3 +3,4 @@ snarkvm
 git-disjoint
 foundationdb-gen
 solana-validator
+rsgen-avro
