@@ -27,3 +27,4 @@ dbus-codegen
 cargo-count
 spotify-tui
 tree-sitter-md
+solana-tokens
