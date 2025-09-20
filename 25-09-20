@@ -12,3 +12,4 @@ rsgen-avro
 kanidm
 cargo-lock
 cargo-spellcheck
+unic-langid-impl
