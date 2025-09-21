@@ -16,3 +16,4 @@ rerun-cli
 protox
 libbpf-cargo
 vdev
+minicbor
