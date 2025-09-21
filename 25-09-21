@@ -12,3 +12,4 @@ protox
 libbpf-cargo
 minicbor
 human_bytes
+addr2line
