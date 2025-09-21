@@ -12,3 +12,4 @@ re_query
 protox
 libbpf-cargo
 minicbor
+addr2line
