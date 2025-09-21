@@ -21,3 +21,4 @@ libbpf-cargo
 dash-mpd-cli
 minicbor
 dash-mpd-cli
+addr2line
