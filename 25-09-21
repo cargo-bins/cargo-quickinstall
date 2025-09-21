@@ -26,3 +26,4 @@ minicbor
 dash-mpd-cli
 dash-mpd-cli
 addr2line
+opencv-binding-generator
