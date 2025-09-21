@@ -11,3 +11,4 @@ proof-of-sql
 protox
 libbpf-cargo
 minicbor
+human_bytes
