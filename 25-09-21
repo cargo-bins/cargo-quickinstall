@@ -18,3 +18,4 @@ libbpf-cargo
 vdev
 minicbor
 vdev
+addr2line
