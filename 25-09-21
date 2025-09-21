@@ -20,3 +20,4 @@ libbpf-cargo
 carapace
 minicbor
 addr2line
+xargo
