@@ -28,3 +28,4 @@ dash-mpd-cli
 addr2line
 opencv-binding-generator
 xargo
+ext-sort
