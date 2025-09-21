@@ -4,3 +4,4 @@ tree-sitter-md
 solana-ledger-tool
 tendermint-abci
 lingua
+cargo-msrv
