@@ -11,3 +11,4 @@ proof-of-sql
 re_query
 protox
 libbpf-cargo
+minicbor
