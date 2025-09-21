@@ -13,3 +13,4 @@ protox
 libbpf-cargo
 minicbor
 addr2line
+opencv-binding-generator
