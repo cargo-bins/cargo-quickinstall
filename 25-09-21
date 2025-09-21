@@ -6,3 +6,4 @@ tendermint-abci
 lingua
 cargo-msrv
 oso
+dotenvy
