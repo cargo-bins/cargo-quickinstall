@@ -13,3 +13,4 @@ build-fs-tree
 cargo-spellcheck
 qsv
 tuftool
+tree-sitter-md
