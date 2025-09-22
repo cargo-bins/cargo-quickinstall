@@ -16,3 +16,4 @@ cargo-public-api
 hayagriva
 rls-rustc
 cargo-public-api
+cargo-extras
