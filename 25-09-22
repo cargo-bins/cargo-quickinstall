@@ -2,3 +2,4 @@ dbus-codegen
 h3o
 libcst
 cargo-lock
+dotenvy
