@@ -9,3 +9,4 @@ pgrx-tests
 hayagriva
 rls-rustc
 cargo-risczero
+build-fs-tree
