@@ -7,3 +7,4 @@ dioxus-cli
 libcst
 cargo-lock
 dotenvy
+stellar-xdr
