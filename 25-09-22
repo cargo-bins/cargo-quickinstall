@@ -25,3 +25,4 @@ lan-mouse
 cargo-info
 qsv
 cargo-extras
+tmux-rs
