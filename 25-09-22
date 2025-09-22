@@ -13,3 +13,4 @@ fermium
 rls-rustc
 cargo-risczero
 httm
+build-fs-tree
