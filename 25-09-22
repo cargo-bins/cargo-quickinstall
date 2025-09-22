@@ -19,3 +19,4 @@ cargo-public-api
 cargo-extras
 cargo-info
 cargo-extras
+build-fs-tree
