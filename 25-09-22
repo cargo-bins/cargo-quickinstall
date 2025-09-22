@@ -32,3 +32,4 @@ esp-config
 cargo-patch
 tree-sitter-md
 cargo-patch
+iai-callgrind-runner
