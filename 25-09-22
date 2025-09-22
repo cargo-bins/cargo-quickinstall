@@ -10,3 +10,4 @@ hayagriva
 rls-rustc
 cargo-risczero
 build-fs-tree
+cargo-spellcheck
