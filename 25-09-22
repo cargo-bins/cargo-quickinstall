@@ -6,3 +6,4 @@ libcst
 cargo-lock
 dotenvy
 stellar-xdr
+minicbor
