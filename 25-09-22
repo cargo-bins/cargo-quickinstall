@@ -10,3 +10,4 @@ cargo-lock
 dotenvy
 stellar-xdr
 minicbor
+dua-cli
