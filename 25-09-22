@@ -14,3 +14,4 @@ librespot
 pgrx-tests
 cargo-public-api
 hayagriva
+rls-rustc
