@@ -7,3 +7,4 @@ crab-fetch
 git-mit-install
 h3o
 cargo-lock
+dotenvy
