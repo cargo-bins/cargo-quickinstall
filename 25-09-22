@@ -8,3 +8,4 @@ cargo-public-api
 cargo-lock
 dotenvy
 cargo-public-api
+rtx-cli
