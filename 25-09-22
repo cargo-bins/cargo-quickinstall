@@ -22,3 +22,4 @@ cargo-extras
 build-fs-tree
 cargo-public-api
 lan-mouse
+cargo-info
