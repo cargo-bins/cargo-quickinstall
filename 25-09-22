@@ -7,3 +7,4 @@ cargo-lock
 stellar-xdr
 dotenvy
 rtx-cli
+minicbor
