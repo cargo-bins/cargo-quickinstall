@@ -12,3 +12,4 @@ rtx-cli
 minicbor
 librespot
 pgrx-tests
+cargo-public-api
