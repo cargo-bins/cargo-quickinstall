@@ -27,3 +27,4 @@ build-fs-tree
 cargo-patch
 esp-config
 cargo-patch
+qsv
