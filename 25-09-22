@@ -9,3 +9,4 @@ h3o
 cargo-lock
 dotenvy
 stellar-xdr
+minicbor
