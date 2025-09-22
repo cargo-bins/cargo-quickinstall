@@ -30,3 +30,4 @@ cargo-patch
 qsv
 esp-config
 cargo-patch
+tree-sitter-md
