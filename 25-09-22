@@ -9,3 +9,4 @@ cargo-public-api
 cargo-lock
 dotenvy
 stellar-xdr
+cargo-public-api
