@@ -33,3 +33,4 @@ tmux-rs
 cargo-unused-features
 cargo-extras
 lan-mouse
+a11ywatch_cli
