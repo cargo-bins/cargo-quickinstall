@@ -11,3 +11,4 @@ dotenvy
 stellar-xdr
 cargo-public-api
 minicbor
+rtx-cli
