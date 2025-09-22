@@ -7,3 +7,4 @@ cargo-lock
 dotenvy
 stellar-xdr
 minicbor
+pgrx-tests
