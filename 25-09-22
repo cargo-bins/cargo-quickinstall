@@ -24,3 +24,4 @@ cargo-risczero
 esp-config
 httm
 build-fs-tree
+cargo-patch
