@@ -13,3 +13,4 @@ cargo-risczero
 cargo-spellcheck
 build-fs-tree
 qsv
+tuftool
