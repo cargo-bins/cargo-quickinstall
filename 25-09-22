@@ -5,3 +5,4 @@ h3o
 libcst
 cargo-lock
 stellar-xdr
+dotenvy
