@@ -30,3 +30,4 @@ tmux-rs
 tree-sitter-md
 rink
 tmux-rs
+cargo-unused-features
