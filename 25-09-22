@@ -9,3 +9,4 @@ cargo-lock
 dotenvy
 cargo-public-api
 rtx-cli
+minicbor
