@@ -5,3 +5,4 @@ nextest-filtering
 libbpf-cargo
 wmi
 pandora_box
+xargo
