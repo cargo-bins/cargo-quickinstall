@@ -13,3 +13,4 @@ cargo-unused-features
 solana-ledger-tool
 rink
 vdev
+tmux-rs
