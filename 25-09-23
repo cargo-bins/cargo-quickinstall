@@ -9,3 +9,4 @@ alacritty
 lan-mouse
 unic-langid-impl
 tree-sitter-cli
+cargo-unused-features
