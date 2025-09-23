@@ -24,3 +24,4 @@ cargo-unused-features
 alacritty
 nextest-filtering
 pez
+cargo-unused-features
