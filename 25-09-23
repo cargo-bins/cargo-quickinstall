@@ -10,3 +10,4 @@ tmux-rs
 tmux-rs
 cargo-info
 rink
+tree-sitter-cli
