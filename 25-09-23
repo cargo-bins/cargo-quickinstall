@@ -25,3 +25,4 @@ alacritty
 nextest-filtering
 pez
 cargo-unused-features
+sudo-rs
