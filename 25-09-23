@@ -37,3 +37,4 @@ papyrus_storage
 leetcode-cli
 cargo-unused-features
 deno
+safe_network
