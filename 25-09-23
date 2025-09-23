@@ -27,3 +27,4 @@ cargo-unused-features
 sudo-rs
 probe-rs-tools
 pez
+cargo-ui
