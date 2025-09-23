@@ -20,3 +20,4 @@ pez
 cargo-info
 nextest-filtering
 burn-tch
+cargo-ui
