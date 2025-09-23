@@ -4,3 +4,4 @@ solana-ledger-tool
 dprint
 tree-sitter-graph
 qsv
+nextest-filtering
