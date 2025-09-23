@@ -18,3 +18,4 @@ tree-sitter-graph
 cargo-info
 pez
 cargo-info
+nextest-filtering
