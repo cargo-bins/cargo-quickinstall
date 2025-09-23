@@ -18,3 +18,4 @@ opencv-binding-generator
 dprint
 xargo
 stellar-strkey
+dotenvy
