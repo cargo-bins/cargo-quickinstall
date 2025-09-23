@@ -22,3 +22,4 @@ nextest-filtering
 burn-tch
 cargo-ui
 pez
+libbpf-cargo
