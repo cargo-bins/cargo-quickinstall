@@ -7,3 +7,4 @@ nextest-filtering
 burn-tch
 libbpf-cargo
 syd
+tree-sitter-cli
