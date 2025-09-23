@@ -5,3 +5,4 @@ lan-mouse
 vdev
 cargo-download
 cargo-extras
+cargo-info
