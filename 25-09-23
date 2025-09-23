@@ -24,3 +24,4 @@ cargo-ui
 pez
 libbpf-cargo
 cargo-unused-features
+sudo-rs
