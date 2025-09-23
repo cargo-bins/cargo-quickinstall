@@ -3,3 +3,4 @@ statsig-rs
 unic-langid-impl
 dprint
 tree-sitter-graph
+nextest-filtering
