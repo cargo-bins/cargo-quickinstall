@@ -22,3 +22,4 @@ tree-sitter-graph
 cargo-info
 cargo-unused-features
 alacritty
+nextest-filtering
