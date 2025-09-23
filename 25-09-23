@@ -18,3 +18,4 @@ lan-mouse
 cargo-download
 rink
 cargo-unused-features
+tree-sitter-graph
