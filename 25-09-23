@@ -44,3 +44,4 @@ sudo-rs
 cargo-ui
 xargo
 sudo-rs
+puffin_viewer
