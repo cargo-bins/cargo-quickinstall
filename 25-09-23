@@ -42,3 +42,4 @@ cargo-unused-features
 papyrus_storage
 sudo-rs
 cargo-ui
+xargo
