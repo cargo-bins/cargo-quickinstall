@@ -46,3 +46,4 @@ xargo
 sudo-rs
 puffin_viewer
 stellar-strkey
+cargo-ui
