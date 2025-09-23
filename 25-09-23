@@ -10,3 +10,4 @@ lan-mouse
 unic-langid-impl
 tree-sitter-cli
 cargo-unused-features
+solana-ledger-tool
