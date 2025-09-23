@@ -32,3 +32,4 @@ libbpf-cargo
 tmux-rs
 pez
 sudo-rs
+cargo-ui
