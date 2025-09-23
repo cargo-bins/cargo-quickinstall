@@ -40,3 +40,4 @@ deno
 safe_network
 cargo-unused-features
 papyrus_storage
+sudo-rs
