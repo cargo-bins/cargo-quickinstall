@@ -6,3 +6,4 @@ solana-ledger-tool
 dprint
 iai-callgrind-runner
 codeberg-cli
+sqlx-cli
