@@ -4,3 +4,4 @@ nextest-filtering
 burn-tch
 holochain
 syd
+libbpf-cargo
