@@ -25,3 +25,4 @@ pez
 libbpf-cargo
 cargo-unused-features
 sudo-rs
+probe-rs-tools
