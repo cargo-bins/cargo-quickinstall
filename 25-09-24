@@ -1,3 +1,4 @@
 foundationdb-gen
 libbpf-cargo
 addr2line
+xargo
