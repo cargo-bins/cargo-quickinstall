@@ -32,3 +32,4 @@ schematools-cli
 puffin_viewer
 cargo-flash
 nextest
+cargo-embed
