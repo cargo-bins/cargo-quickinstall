@@ -22,3 +22,4 @@ dotenv
 skim
 solana-validator
 stellar-strkey
+clippy
