@@ -6,3 +6,4 @@ puffin_viewer
 alacritty
 cargo-ui
 addr2line
+cached-path
