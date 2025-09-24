@@ -8,3 +8,4 @@ cargo-vet
 holochain_cli
 shunkakinoki
 sn_node
+tracing-durations-export
