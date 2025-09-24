@@ -10,3 +10,4 @@ human_name
 tracing-durations-export
 commit_verify
 textplots
+dicom-pixeldata
