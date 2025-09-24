@@ -4,3 +4,4 @@ addr2line
 cached-path
 xargo
 human_name
+tracing-durations-export
