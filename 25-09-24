@@ -51,3 +51,4 @@ solana-validator
 solana-keygen
 cargo-flash
 sass-rs
+schematools-cli
