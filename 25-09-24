@@ -6,3 +6,4 @@ addr2line
 cached-path
 xargo
 human_name
+holochain_cli
