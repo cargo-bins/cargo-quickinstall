@@ -4,3 +4,4 @@ addr2line
 xargo
 human_name
 holochain_cli
+cargo-vet
