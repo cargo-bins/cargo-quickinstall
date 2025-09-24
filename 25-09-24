@@ -14,3 +14,4 @@ puffin_viewer
 shunkakinoki
 solana-cli
 nextest
+tracing-durations-export
