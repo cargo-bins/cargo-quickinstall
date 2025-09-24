@@ -12,3 +12,4 @@ tracing-durations-export
 commit_verify
 dicom-pixeldata
 stellar-strkey
+parquet
