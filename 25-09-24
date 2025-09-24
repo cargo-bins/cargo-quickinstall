@@ -51,3 +51,4 @@ deduplicator
 sniffnet
 airshipper
 nextest
+sea-orm-cli
