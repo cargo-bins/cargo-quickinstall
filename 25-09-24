@@ -15,3 +15,4 @@ shunkakinoki
 solana-cli
 nextest
 tracing-durations-export
+cargo-embed
