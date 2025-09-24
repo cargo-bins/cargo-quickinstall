@@ -18,3 +18,4 @@ tracing-durations-export
 cargo-embed
 mise
 nextest
+commit_verify
