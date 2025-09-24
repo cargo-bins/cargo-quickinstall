@@ -31,3 +31,4 @@ dicom-pixeldata
 schematools-cli
 puffin_viewer
 cargo-flash
+nextest
