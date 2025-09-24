@@ -5,3 +5,4 @@ cached-path
 xargo
 human_name
 tracing-durations-export
+commit_verify
