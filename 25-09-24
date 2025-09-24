@@ -10,3 +10,4 @@ tracing-durations-export
 mise
 commit_verify
 textplots
+dicom-pixeldata
