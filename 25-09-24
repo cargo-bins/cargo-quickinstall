@@ -17,3 +17,4 @@ nextest
 tracing-durations-export
 cargo-embed
 mise
+nextest
