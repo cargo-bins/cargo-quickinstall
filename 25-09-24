@@ -13,3 +13,4 @@ textplots
 dicom-pixeldata
 stellar-strkey
 parquet
+dotenv
