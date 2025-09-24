@@ -1,3 +1,4 @@
 foundationdb-gen
 libbpf-cargo
 cached-path
+addr2line
