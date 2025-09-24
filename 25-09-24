@@ -16,3 +16,4 @@ parquet
 dotenv
 solana-validator
 stellar-strkey
+clippy
