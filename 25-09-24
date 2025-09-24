@@ -54,3 +54,4 @@ sass-rs
 schematools-cli
 stellar-strkey
 cargo-flash
+sea-orm-cli
