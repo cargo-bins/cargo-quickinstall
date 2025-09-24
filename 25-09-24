@@ -8,3 +8,4 @@ cargo-ui
 addr2line
 cached-path
 carapace
+xargo
