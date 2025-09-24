@@ -54,3 +54,4 @@ nextest
 sea-orm-cli
 solana-validator
 solana-keygen
+cargo-fund
