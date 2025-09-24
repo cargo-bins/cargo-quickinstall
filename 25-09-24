@@ -5,3 +5,4 @@ leetcode-cli
 puffin_viewer
 alacritty
 cargo-ui
+addr2line
