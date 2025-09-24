@@ -58,3 +58,4 @@ sea-orm-cli
 ncspot
 cargo-flash
 sniffnet
+clippy
