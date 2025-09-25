@@ -13,3 +13,4 @@ rustfmt-nightly
 arrow-flight
 fake
 nextest
+nextest
