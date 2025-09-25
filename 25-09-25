@@ -12,3 +12,4 @@ perfcnt
 rustfmt-nightly
 arrow-flight
 fake
+nextest
