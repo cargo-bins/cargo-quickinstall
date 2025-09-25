@@ -46,3 +46,4 @@ bun
 spotify_player
 simple-http-server
 proxy-rs
+cargo-dylint
