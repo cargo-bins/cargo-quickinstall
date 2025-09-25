@@ -22,3 +22,4 @@ crypto-cli-tools
 paperclip
 perfcnt
 rustfmt-nightly
+arrow-flight
