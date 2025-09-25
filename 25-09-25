@@ -57,3 +57,4 @@ solana-faucet
 rustfmt-nightly
 todoist-cli
 simple-http-server
+fake
