@@ -14,3 +14,4 @@ pgrx-tests
 rustbus
 tendermint-rpc
 rtx-cli
+mit-pre-commit
