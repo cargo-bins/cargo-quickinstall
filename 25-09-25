@@ -14,3 +14,4 @@ rav1e
 pgrx-tests
 rustbus
 rtx-cli
+sn_node_rpc_client
