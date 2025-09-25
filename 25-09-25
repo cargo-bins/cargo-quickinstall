@@ -41,3 +41,4 @@ esp-config
 tree-sitter-cli
 proxy-rs
 cargo-dylint
+vdev
