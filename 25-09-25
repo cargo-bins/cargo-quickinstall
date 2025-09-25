@@ -9,3 +9,4 @@ crypto-cli-tools
 sass-rs
 perfcnt
 solana-faucet
+rustfmt-nightly
