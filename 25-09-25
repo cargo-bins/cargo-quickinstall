@@ -6,3 +6,4 @@ addr2line
 cargo-embed
 airshipper
 cargo-flash
+schematools-cli
