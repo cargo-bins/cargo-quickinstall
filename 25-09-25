@@ -65,3 +65,4 @@ esp-config
 proxy-rs
 solana-faucet
 vdev
+rustfmt-nightly
