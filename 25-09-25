@@ -18,3 +18,4 @@ sn_node_rpc_client
 mit-pre-commit
 fermium
 honggfuzz
+re_query
