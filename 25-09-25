@@ -28,3 +28,4 @@ tree-sitter-cli
 pgrx-tests
 tree-sitter-cli
 bun
+simple-http-server
