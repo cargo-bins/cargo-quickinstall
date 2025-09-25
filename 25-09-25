@@ -12,3 +12,4 @@ sass-rs
 paperclip
 rustfmt-nightly
 arrow-flight
+fake
