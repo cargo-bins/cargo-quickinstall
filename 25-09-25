@@ -34,3 +34,4 @@ rtx-cli
 ncspot
 wiki-tui
 deduplicator
+cargo-dylint
