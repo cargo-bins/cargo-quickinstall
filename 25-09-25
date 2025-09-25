@@ -10,3 +10,4 @@ re_query
 paperclip
 perfcnt
 rustfmt-nightly
+arrow-flight
