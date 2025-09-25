@@ -16,3 +16,4 @@ jless
 qsv
 perfcnt
 solana-faucet
+rustfmt-nightly
