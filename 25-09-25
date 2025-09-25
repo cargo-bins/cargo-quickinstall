@@ -8,3 +8,4 @@ tendermint-rpc
 rtx-cli
 cargo-mobile2
 re_query
+solana-gossip
