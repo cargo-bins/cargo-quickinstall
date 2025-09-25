@@ -13,3 +13,4 @@ tokio-process
 rav1e
 pgrx-tests
 rustbus
+rtx-cli
