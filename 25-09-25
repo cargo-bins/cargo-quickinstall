@@ -11,3 +11,4 @@ crypto-cli-tools
 sass-rs
 perfcnt
 rustfmt-nightly
+arrow-flight
