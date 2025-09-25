@@ -11,3 +11,4 @@ perfcnt
 solana-faucet
 rustfmt-nightly
 arrow-flight
+fake
