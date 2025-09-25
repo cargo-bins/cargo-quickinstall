@@ -5,3 +5,4 @@ rustrict
 clippy
 pgrx-tests
 tendermint-rpc
+rtx-cli
