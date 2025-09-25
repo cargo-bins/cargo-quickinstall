@@ -3,3 +3,4 @@ rls-rustc
 sniffnet
 sea-orm-cli
 addr2line
+cargo-embed
