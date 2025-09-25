@@ -14,3 +14,4 @@ rustfmt-nightly
 arrow-flight
 fake
 holochain
+cargo-dylint
