@@ -24,3 +24,4 @@ rav1e
 paperclip
 sass-rs
 perfcnt
+rustfmt-nightly
