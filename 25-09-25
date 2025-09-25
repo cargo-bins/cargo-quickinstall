@@ -22,3 +22,4 @@ simple-http-server
 esp-config
 ncspot
 simple-http-server
+sea-orm-cli
