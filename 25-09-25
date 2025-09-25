@@ -31,3 +31,4 @@ bun
 simple-http-server
 bun
 wiki-tui
+tendermint-rpc
