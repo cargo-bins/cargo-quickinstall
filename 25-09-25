@@ -55,3 +55,4 @@ desktop-tui
 simple-http-server
 solana-faucet
 rustfmt-nightly
+todoist-cli
