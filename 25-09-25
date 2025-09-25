@@ -30,3 +30,4 @@ proxy-rs
 bun
 xplr
 tendermint-rpc
+rtx-cli
