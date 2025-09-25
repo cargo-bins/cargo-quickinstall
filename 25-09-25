@@ -16,3 +16,4 @@ tendermint-rpc
 rtx-cli
 mit-pre-commit
 honggfuzz
+re_query
