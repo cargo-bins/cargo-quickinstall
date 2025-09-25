@@ -67,3 +67,4 @@ solana-faucet
 vdev
 rustfmt-nightly
 arrow-flight
+fake
