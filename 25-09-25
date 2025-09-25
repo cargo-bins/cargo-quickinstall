@@ -4,3 +4,4 @@ libcst
 rustrict
 clippy
 pgrx-tests
+tendermint-rpc
