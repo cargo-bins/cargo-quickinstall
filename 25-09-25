@@ -25,3 +25,4 @@ simple-http-server
 cargo-flash
 wiki-tui
 tree-sitter-cli
+pgrx-tests
