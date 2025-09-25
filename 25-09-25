@@ -12,3 +12,4 @@ rustrict
 dx-cli
 pgrx-tests
 rustbus
+tendermint-rpc
