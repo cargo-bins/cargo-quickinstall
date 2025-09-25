@@ -68,3 +68,4 @@ vdev
 rustfmt-nightly
 arrow-flight
 fake
+holochain
