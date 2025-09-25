@@ -25,3 +25,4 @@ rustfmt-nightly
 arrow-flight
 fake
 holochain
+iai-callgrind-runner
