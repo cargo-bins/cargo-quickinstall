@@ -26,3 +26,4 @@ sea-orm-cli
 pgrx-tests
 esp-config
 simple-http-server
+proxy-rs
