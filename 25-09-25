@@ -10,3 +10,4 @@ re_query
 rav1e
 sass-rs
 paperclip
+rustfmt-nightly
