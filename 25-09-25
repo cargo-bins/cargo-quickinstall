@@ -33,3 +33,4 @@ bun
 wiki-tui
 tendermint-rpc
 simple-http-server
+rtx-cli
