@@ -17,3 +17,4 @@ rtx-cli
 mit-pre-commit
 honggfuzz
 re_query
+solana-gossip
