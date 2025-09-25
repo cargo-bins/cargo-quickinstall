@@ -12,3 +12,4 @@ sass-rs
 perfcnt
 rustfmt-nightly
 arrow-flight
+fake
