@@ -17,3 +17,4 @@ rustfmt-nightly
 arrow-flight
 fake
 shunkakinoki
+tree-sitter-cli
