@@ -10,3 +10,4 @@ re_query
 crypto-cli-tools
 sass-rs
 perfcnt
+rustfmt-nightly
