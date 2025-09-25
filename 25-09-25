@@ -36,3 +36,4 @@ simple-http-server
 rtx-cli
 cargo-mobile2
 tree-sitter-cli
+sea-orm-cli
