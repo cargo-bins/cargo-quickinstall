@@ -18,3 +18,4 @@ tree-sitter-cli
 esp-config
 uv
 rav1e
+simple-http-server
