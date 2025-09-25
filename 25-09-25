@@ -43,3 +43,4 @@ proxy-rs
 cargo-dylint
 vdev
 re_query
+tree-sitter-cli
