@@ -21,3 +21,4 @@ solana-gossip
 crypto-cli-tools
 paperclip
 perfcnt
+rustfmt-nightly
