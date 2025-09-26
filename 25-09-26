@@ -42,3 +42,4 @@ rustfmt-nightly
 diesel_cli
 stgit
 tendermint-rpc
+cargo-pgrx
