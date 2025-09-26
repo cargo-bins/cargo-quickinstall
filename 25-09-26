@@ -8,3 +8,4 @@ cargo-lock
 tracing-durations-export
 rustfmt-nightly
 tendermint-rpc
+hayagriva
