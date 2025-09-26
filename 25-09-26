@@ -60,3 +60,4 @@ ringboard-wayland
 librespot
 proof-of-sql
 ringboard-egui
+statsig-rs
