@@ -10,3 +10,4 @@ rustfmt-nightly
 tendermint-rpc
 hayagriva
 dprint
+solana-stake-accounts
