@@ -35,3 +35,4 @@ rustfmt-nightly
 todoist-cli
 kickoff
 cargo-pgrx
+tendermint-rpc
