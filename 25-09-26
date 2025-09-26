@@ -6,3 +6,4 @@ cargo-dylint
 nextest
 winpty-rs
 cargo-dylint
+protox
