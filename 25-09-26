@@ -13,3 +13,4 @@ cargo-dylint
 todoist-cli
 genson-cli
 desktop-tui
+python-project-generator
