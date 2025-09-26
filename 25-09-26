@@ -6,3 +6,4 @@ diesel_cli
 pgrx-tests
 calcit
 cargo-lock
+tracing-durations-export
