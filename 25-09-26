@@ -8,3 +8,4 @@ calcit
 pgrx-tests
 tracing-durations-export
 rustfmt-nightly
+diesel_cli
