@@ -6,3 +6,4 @@ winpty-rs
 honggfuzz
 protox
 diesel_cli
+cargo-risczero
