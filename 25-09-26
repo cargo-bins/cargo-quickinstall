@@ -9,3 +9,4 @@ cargo-dylint
 protox
 cargo-dylint
 nextest
+diesel_cli
