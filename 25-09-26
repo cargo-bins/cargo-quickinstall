@@ -8,3 +8,4 @@ winpty-rs
 cargo-dylint
 protox
 cargo-dylint
+nextest
