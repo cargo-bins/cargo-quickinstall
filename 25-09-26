@@ -43,3 +43,4 @@ diesel_cli
 stgit
 tendermint-rpc
 cargo-pgrx
+stgit
