@@ -11,3 +11,4 @@ solana-stake-accounts
 winpty-rs
 cargo-dylint
 todoist-cli
+genson-cli
