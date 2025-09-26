@@ -14,3 +14,4 @@ cargo-dylint
 pgrx-tests
 dioxus-cli
 rustfmt-nightly
+diesel_cli
