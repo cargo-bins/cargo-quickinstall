@@ -38,3 +38,4 @@ tracing-durations-export
 kickoff
 scryer-prolog
 kickoff
+rustfmt-nightly
