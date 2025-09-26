@@ -39,3 +39,4 @@ kickoff
 scryer-prolog
 kickoff
 rustfmt-nightly
+diesel_cli
