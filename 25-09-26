@@ -15,3 +15,4 @@ rustnet-monitor
 pgrx-tests
 bendsql
 cargo-lock
+rustnet-monitor
