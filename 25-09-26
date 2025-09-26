@@ -17,3 +17,4 @@ rustfmt-nightly
 diesel_cli
 tendermint-rpc
 pez
+cargo-override
