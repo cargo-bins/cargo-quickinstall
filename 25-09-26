@@ -12,3 +12,4 @@ diesel_cli
 tendermint-rpc
 hayagriva
 solana-stake-accounts
+dotenvy
