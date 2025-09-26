@@ -41,3 +41,4 @@ kickoff
 rustfmt-nightly
 diesel_cli
 stgit
+tendermint-rpc
