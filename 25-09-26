@@ -7,3 +7,4 @@ cargo-risczero
 calcit
 pgrx-tests
 tracing-durations-export
+rustfmt-nightly
