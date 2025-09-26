@@ -2,3 +2,4 @@ git-mit-config
 rustfmt
 protox
 git-mit-config
+winpty-rs
