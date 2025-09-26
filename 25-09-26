@@ -36,3 +36,4 @@ todoist-cli
 kickoff
 cargo-pgrx
 tendermint-rpc
+ringboard-wayland
