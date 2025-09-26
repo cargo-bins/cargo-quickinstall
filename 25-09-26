@@ -34,3 +34,4 @@ mise
 rustfmt-nightly
 todoist-cli
 kickoff
+cargo-pgrx
