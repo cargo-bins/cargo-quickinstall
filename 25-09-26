@@ -14,3 +14,4 @@ cargo-risczero
 rustnet-monitor
 pgrx-tests
 bendsql
+cargo-lock
