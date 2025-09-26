@@ -21,3 +21,4 @@ cargo-override
 pez
 cargo-override
 dotenvy
+dioxus-cli
