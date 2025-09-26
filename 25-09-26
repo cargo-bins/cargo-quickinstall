@@ -9,3 +9,4 @@ wiki-tui
 desktop-tui
 solana-stake-accounts
 winpty-rs
+cargo-dylint
