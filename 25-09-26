@@ -80,3 +80,4 @@ ringboard-server
 ringboard-tui
 proof-of-sql
 statsig-rs
+ringboard-server
