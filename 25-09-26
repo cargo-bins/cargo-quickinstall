@@ -22,3 +22,4 @@ rustfmt-nightly
 bendsql
 tendermint-rpc
 hayagriva
+git-mit-config
