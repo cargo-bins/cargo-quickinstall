@@ -6,3 +6,4 @@ sea-orm-cli
 solana-stake-accounts
 genson-cli
 mise
+winpty-rs
