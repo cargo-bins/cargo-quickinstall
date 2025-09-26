@@ -7,3 +7,4 @@ honggfuzz
 protox
 diesel_cli
 cargo-risczero
+pgrx-tests
