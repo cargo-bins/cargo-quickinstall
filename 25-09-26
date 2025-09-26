@@ -8,3 +8,4 @@ genson-cli
 mise
 winpty-rs
 todoist-cli
+cargo-dylint
