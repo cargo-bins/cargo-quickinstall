@@ -11,3 +11,4 @@ cargo-dylint
 nextest
 diesel_cli
 cargo-dylint
+pgrx-tests
