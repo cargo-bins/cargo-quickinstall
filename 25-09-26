@@ -4,3 +4,4 @@ protox
 nextest
 cargo-dylint
 nextest
+winpty-rs
