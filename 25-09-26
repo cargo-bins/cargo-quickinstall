@@ -7,3 +7,4 @@ hurl
 pgrx-tests
 xcp
 cargo-lock
+tracing-durations-export
