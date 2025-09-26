@@ -10,3 +10,4 @@ cargo-risczero
 pgrx-tests
 cargo-lock
 tracing-durations-export
+rustfmt-nightly
