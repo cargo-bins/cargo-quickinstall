@@ -8,3 +8,4 @@ pgrx-tests
 cargo-lock
 rustfmt-nightly
 diesel_cli
+tendermint-rpc
