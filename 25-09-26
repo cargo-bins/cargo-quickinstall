@@ -20,3 +20,4 @@ tracing-durations-export
 rustnet-monitor
 rustfmt-nightly
 bendsql
+tendermint-rpc
