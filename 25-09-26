@@ -8,3 +8,4 @@ calcit
 cargo-lock
 tracing-durations-export
 rustfmt-nightly
+diesel_cli
