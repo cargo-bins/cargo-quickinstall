@@ -32,3 +32,4 @@ genson-cli
 tracing-durations-export
 mise
 rustfmt-nightly
+todoist-cli
