@@ -7,3 +7,4 @@ diesel_cli
 pgrx-tests
 cargo-lock
 rustfmt-nightly
+diesel_cli
