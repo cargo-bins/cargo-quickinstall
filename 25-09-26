@@ -13,3 +13,4 @@ diesel_cli
 cargo-dylint
 pgrx-tests
 dioxus-cli
+rustfmt-nightly
