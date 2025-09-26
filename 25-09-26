@@ -17,3 +17,4 @@ bendsql
 cargo-lock
 rustnet-monitor
 tracing-durations-export
+rustnet-monitor
