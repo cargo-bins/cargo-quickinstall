@@ -8,3 +8,4 @@ dprint
 cargo-generate
 h3o
 raw-cpuid
+crypto-cli-tools
