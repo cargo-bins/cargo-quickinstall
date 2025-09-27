@@ -44,3 +44,4 @@ ringboard-wayland
 raw-cpuid
 wpaperd
 solana-cli
+addr2line
