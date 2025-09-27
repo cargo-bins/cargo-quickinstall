@@ -10,3 +10,4 @@ deploy
 cargo-spellcheck
 solana-genesis
 spider_worker
+human_bytes
