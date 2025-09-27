@@ -42,3 +42,4 @@ cargo-pgrx
 crypto-cli-tools
 ringboard-wayland
 raw-cpuid
+wpaperd
