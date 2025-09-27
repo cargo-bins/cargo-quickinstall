@@ -41,3 +41,4 @@ spotify_player
 cargo-pgrx
 crypto-cli-tools
 ringboard-wayland
+raw-cpuid
