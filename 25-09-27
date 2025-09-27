@@ -11,3 +11,4 @@ crypto-cli-tools
 raw-cpuid
 solana-cli
 deploy
+cargo-spellcheck
