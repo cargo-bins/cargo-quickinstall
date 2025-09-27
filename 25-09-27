@@ -10,3 +10,4 @@ cargo-override
 tectonic
 raw-cpuid
 cargo-override
+deploy
