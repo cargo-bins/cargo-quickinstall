@@ -5,3 +5,4 @@ nkeys
 bpf-linker
 oso
 dprint
+cargo-generate
