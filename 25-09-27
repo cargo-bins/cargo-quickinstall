@@ -13,3 +13,4 @@ spider_worker
 human_bytes
 solana-tokens
 tendermint-rpc
+dioxus-cli
