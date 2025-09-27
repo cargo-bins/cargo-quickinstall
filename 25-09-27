@@ -18,3 +18,4 @@ holochain_cli
 tendermint-rpc
 holochain_cli
 sass-rs
+solana-ledger-tool
