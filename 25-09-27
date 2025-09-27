@@ -11,3 +11,4 @@ rtx-cli
 solana-cli
 deploy
 cargo-spellcheck
+solana-genesis
