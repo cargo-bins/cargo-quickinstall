@@ -20,3 +20,4 @@ cargo-wef
 spotify_player
 sudo-rs
 ringboard-server
+ringboard-egui
