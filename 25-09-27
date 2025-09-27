@@ -8,3 +8,4 @@ crypto-cli-tools
 solana-cli
 deploy
 cargo-spellcheck
+solana-genesis
