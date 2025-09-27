@@ -21,3 +21,4 @@ dioxus-cli
 tendermint-rpc
 sass-rs
 hayagriva
+solana-ledger-tool
