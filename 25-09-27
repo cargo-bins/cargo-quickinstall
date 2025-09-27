@@ -12,3 +12,4 @@ raw-cpuid
 solana-cli
 deploy
 cargo-spellcheck
+solana-genesis
