@@ -17,3 +17,4 @@ deploy
 cargo-spellcheck
 spider_worker
 solana-tokens
+dioxus-cli
