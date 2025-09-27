@@ -13,3 +13,4 @@ deploy
 cargo-spellcheck
 solana-genesis
 spider_worker
+solana-tokens
