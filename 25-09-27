@@ -8,3 +8,4 @@ cargo-override
 h3o
 cargo-override
 tectonic
+raw-cpuid
