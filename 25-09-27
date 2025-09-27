@@ -11,3 +11,4 @@ cargo-pgrx
 nextest
 nkeys
 nextest
+ringboard-tui
