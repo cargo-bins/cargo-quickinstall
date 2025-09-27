@@ -10,3 +10,4 @@ crypto-cli-tools
 rtx-cli
 solana-cli
 deploy
+cargo-spellcheck
