@@ -15,3 +15,4 @@ crypto-cli-tools
 solana-cli
 deploy
 cargo-spellcheck
+spider_worker
