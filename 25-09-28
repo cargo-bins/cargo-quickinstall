@@ -19,3 +19,4 @@ human_name
 rsgen-avro
 sea-orm-cli
 laminar
+remove_dir_all
