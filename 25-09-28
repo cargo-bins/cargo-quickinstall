@@ -18,3 +18,4 @@ cargo-mobile2
 vdev
 racer
 human_name
+rsgen-avro
