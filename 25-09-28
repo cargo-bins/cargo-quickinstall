@@ -11,3 +11,4 @@ probe-rs-tools
 cargo-dylint
 hyprshell
 apollo-router
+cargo-dylint
