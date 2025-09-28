@@ -41,3 +41,4 @@ laminar
 nviwatch
 remove_dir_all
 pandora_box
+libbpf-cargo
