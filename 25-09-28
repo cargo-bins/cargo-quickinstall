@@ -12,3 +12,4 @@ benfred-read-process-memory
 coldsnap
 foundationdb-gen
 openpty
+bpf-linker
