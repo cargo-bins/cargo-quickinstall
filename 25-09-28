@@ -22,3 +22,4 @@ shimmy
 foundationdb-gen
 socketcan
 shimmy
+openpty
