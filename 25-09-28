@@ -20,3 +20,4 @@ rsgen-avro
 sea-orm-cli
 laminar
 remove_dir_all
+solana-faucet
