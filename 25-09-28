@@ -14,3 +14,4 @@ foundationdb-gen
 openpty
 bpf-linker
 sn_cli
+java-locator
