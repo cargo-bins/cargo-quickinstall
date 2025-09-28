@@ -39,3 +39,4 @@ human_name
 rsgen-avro
 laminar
 nviwatch
+remove_dir_all
