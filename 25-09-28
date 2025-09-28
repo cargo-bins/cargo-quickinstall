@@ -10,3 +10,4 @@ apollo-router
 rmesg
 benfred-read-process-memory
 coldsnap
+foundationdb-gen
