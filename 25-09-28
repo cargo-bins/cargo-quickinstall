@@ -42,3 +42,4 @@ xbuild
 remove_dir_all
 rioterm
 solana-faucet
+cargo-count
