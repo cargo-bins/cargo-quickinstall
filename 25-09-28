@@ -7,3 +7,4 @@ protox
 apollo-router
 coldsnap
 foundationdb-gen
+socketcan
