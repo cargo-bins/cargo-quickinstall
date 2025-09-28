@@ -15,3 +15,4 @@ openpty
 bpf-linker
 sn_cli
 java-locator
+tracing-durations-export
