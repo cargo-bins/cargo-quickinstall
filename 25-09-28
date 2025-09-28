@@ -17,3 +17,4 @@ racer
 coldsnap
 human_name
 rsgen-avro
+sea-orm-cli
