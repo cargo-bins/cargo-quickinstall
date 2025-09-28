@@ -13,3 +13,4 @@ coldsnap
 foundationdb-gen
 openpty
 bpf-linker
+sn_cli
