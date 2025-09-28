@@ -20,3 +20,4 @@ laminar
 remove_dir_all
 solana-faucet
 libbpf-cargo
+papyrus_storage
