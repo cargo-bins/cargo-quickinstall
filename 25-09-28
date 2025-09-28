@@ -44,3 +44,4 @@ solana-faucet
 cargo-count
 xbuild
 ravedude
+libbpf-cargo
