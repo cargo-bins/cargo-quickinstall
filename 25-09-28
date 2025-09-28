@@ -41,3 +41,4 @@ uv
 laminar
 remove_dir_all
 solana-faucet
+cargo-count
