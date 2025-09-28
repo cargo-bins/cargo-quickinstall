@@ -20,3 +20,4 @@ human_name
 rsgen-avro
 laminar
 remove_dir_all
+libbpf-cargo
