@@ -22,3 +22,4 @@ foundationdb-gen
 openpty
 java-locator
 tracing-durations-export
+nviwatch
