@@ -10,3 +10,4 @@ build-fs-tree
 git-disjoint
 cargo-spellcheck
 unic-langid-impl
+opencv-binding-generator
