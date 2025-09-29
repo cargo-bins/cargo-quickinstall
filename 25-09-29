@@ -21,3 +21,4 @@ solana-stake-accounts
 winpty-rs
 pwasm-utils
 cargo-seek
+spider_worker
