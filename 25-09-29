@@ -12,3 +12,4 @@ opencv-binding-generator
 winpty-rs
 libcst
 perfcnt
+coldsnap
