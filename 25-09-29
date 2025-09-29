@@ -18,3 +18,4 @@ build-fs-tree
 cargo-seek
 git-disjoint
 rioterm
+unic-langid-impl
