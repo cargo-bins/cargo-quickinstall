@@ -12,3 +12,4 @@ cargo-spellcheck
 unic-langid-impl
 opencv-binding-generator
 solana-stake-accounts
+winpty-rs
