@@ -8,3 +8,4 @@ project_init
 build-fs-tree
 git-disjoint
 opencv-binding-generator
+solana-stake-accounts
