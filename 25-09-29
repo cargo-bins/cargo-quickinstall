@@ -17,3 +17,4 @@ statsig-rs
 perfcnt
 coldsnap
 cargo-lambda
+solana-validator
