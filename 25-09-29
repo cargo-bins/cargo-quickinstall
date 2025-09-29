@@ -13,3 +13,4 @@ kble-serialport
 kble-c2a
 winpty-rs
 kble-c2a
+pwasm-utils
