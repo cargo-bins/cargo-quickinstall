@@ -10,3 +10,4 @@ parquet
 build-fs-tree
 project_init
 cargo-spellcheck
+git-disjoint
