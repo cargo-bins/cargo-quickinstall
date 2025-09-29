@@ -14,3 +14,4 @@ winpty-rs
 pwasm-utils
 spider_worker
 libcst
+statsig-rs
