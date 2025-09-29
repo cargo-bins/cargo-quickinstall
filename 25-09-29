@@ -16,3 +16,4 @@ libcst
 statsig-rs
 perfcnt
 coldsnap
+cargo-lambda
