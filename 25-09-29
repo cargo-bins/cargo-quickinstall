@@ -9,3 +9,4 @@ nextest
 parquet
 project_init
 git-disjoint
+unic-langid-impl
