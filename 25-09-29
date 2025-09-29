@@ -12,3 +12,4 @@ project_init
 cargo-spellcheck
 git-disjoint
 unic-langid-impl
+opencv-binding-generator
