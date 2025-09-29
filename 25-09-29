@@ -13,3 +13,4 @@ cargo-seek
 project_init
 cargo-seek
 git-disjoint
+unic-langid-impl
