@@ -13,3 +13,4 @@ cached-path
 winpty-rs
 pwasm-utils
 spider_worker
+libcst
