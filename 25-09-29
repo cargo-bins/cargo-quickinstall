@@ -42,3 +42,4 @@ kble-serialport
 kble
 c2rust
 tlmcmddb-cli
+dioxus-cli
