@@ -18,3 +18,4 @@ opencv-binding-generator
 cargo-seek
 bluetui
 solana-stake-accounts
+winpty-rs
