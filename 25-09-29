@@ -27,3 +27,4 @@ solana-stake-accounts
 mdcat
 pwasm-utils
 cargo-seek
+spider_worker
