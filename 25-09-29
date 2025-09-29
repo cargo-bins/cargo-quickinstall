@@ -7,3 +7,4 @@ uv
 parquet
 datavzrd
 project_init
+build-fs-tree
