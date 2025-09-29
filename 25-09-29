@@ -52,3 +52,4 @@ cargo-bundle
 java-locator
 mdcat
 a11ywatch_cli
+borsh
