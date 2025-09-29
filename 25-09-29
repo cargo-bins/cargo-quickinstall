@@ -4,3 +4,4 @@ solana-gossip
 parquet
 build-fs-tree
 project_init
+git-disjoint
