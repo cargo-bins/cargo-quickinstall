@@ -19,3 +19,4 @@ cargo-seek
 bluetui
 solana-stake-accounts
 winpty-rs
+pwasm-utils
