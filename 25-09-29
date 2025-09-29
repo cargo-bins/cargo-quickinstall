@@ -13,3 +13,4 @@ cargo-spellcheck
 git-disjoint
 unic-langid-impl
 opencv-binding-generator
+solana-stake-accounts
