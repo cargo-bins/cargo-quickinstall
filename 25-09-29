@@ -5,3 +5,4 @@ solana-gossip
 text-diff
 parquet
 build-fs-tree
+project_init
