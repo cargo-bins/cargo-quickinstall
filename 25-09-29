@@ -16,3 +16,4 @@ rioterm
 project_init
 build-fs-tree
 cargo-seek
+git-disjoint
