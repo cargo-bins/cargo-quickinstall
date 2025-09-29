@@ -21,3 +21,4 @@ cargo-lambda
 solana-validator
 java-locator
 a11ywatch_cli
+borsh
