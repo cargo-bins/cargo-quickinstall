@@ -11,3 +11,4 @@ project_init
 git-disjoint
 unic-langid-impl
 winpty-rs
+perfcnt
