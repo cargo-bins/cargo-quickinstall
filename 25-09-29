@@ -19,3 +19,4 @@ winpty-rs
 spider_worker
 libcst
 statsig-rs
+perfcnt
