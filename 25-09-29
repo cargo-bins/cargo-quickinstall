@@ -9,3 +9,4 @@ project_init
 build-fs-tree
 git-disjoint
 cargo-spellcheck
+unic-langid-impl
