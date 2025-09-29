@@ -11,3 +11,4 @@ opencv-binding-generator
 solana-stake-accounts
 cached-path
 winpty-rs
+spider_worker
