@@ -10,3 +10,4 @@ git-disjoint
 unic-langid-impl
 opencv-binding-generator
 winpty-rs
+libcst
