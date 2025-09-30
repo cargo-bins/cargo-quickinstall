@@ -27,3 +27,4 @@ cargo-generate
 tock
 uv
 human_bytes
+rustrict
