@@ -22,3 +22,4 @@ git-mit-relates-to
 tock
 remove_dir_all
 tracing-durations-export
+commit_verify
