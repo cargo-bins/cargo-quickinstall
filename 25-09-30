@@ -21,3 +21,4 @@ bump-version
 human_bytes
 rustrict
 cargo-acl
+cproxy
