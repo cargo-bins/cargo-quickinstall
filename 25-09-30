@@ -9,3 +9,4 @@ vdev
 cargo-bundle
 xargo
 cargo-unmaintained
+tree-sitter-cli
