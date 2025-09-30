@@ -8,3 +8,4 @@ probe-rs-cli
 bump-version
 remove_dir_all
 bump-version
+probe-rs-cli
