@@ -6,3 +6,4 @@ alacritty
 tree-sitter-cli
 remove_dir_all
 tracing-durations-export
+commit_verify
