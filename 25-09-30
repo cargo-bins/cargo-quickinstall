@@ -25,3 +25,4 @@ tracing-durations-export
 commit_verify
 cargo-generate
 tock
+uv
