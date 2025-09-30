@@ -2,3 +2,4 @@ rustbus
 clippy
 usage-cli
 minicbor
+codeberg-cli
