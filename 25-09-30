@@ -20,3 +20,4 @@ usage-cli
 codeberg-cli
 git-mit-relates-to
 tock
+remove_dir_all
