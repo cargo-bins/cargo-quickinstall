@@ -34,3 +34,4 @@ cargo-acl
 nkeys
 gpgme
 cproxy
+borsh
