@@ -20,3 +20,4 @@ commit_verify
 cargo-generate
 human_name
 human_bytes
+rustrict
