@@ -19,3 +19,4 @@ probe-rs-cli
 bump-version
 bump-version
 human_bytes
+rustrict
