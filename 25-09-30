@@ -2,3 +2,4 @@ cargo-bundle
 cargo-unmaintained
 alacritty
 vdev
+human_bytes
