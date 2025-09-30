@@ -5,3 +5,4 @@ minicbor
 xargo
 perfcnt
 tendermint-abci
+probe-rs-cli
