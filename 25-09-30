@@ -5,3 +5,4 @@ clippy
 xsra
 tendermint-abci
 probe-rs-cli
+bump-version
