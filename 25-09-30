@@ -34,3 +34,4 @@ cargo-acl
 fake
 cargo-acl
 nkeys
+cproxy
