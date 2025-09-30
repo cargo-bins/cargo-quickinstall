@@ -16,3 +16,4 @@ git-mit-relates-to
 remove_dir_all
 tracing-durations-export
 sn_node
+commit_verify
