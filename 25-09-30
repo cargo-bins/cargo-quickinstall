@@ -32,3 +32,4 @@ indradb
 syd
 tracing-durations-export
 deploy
+fzf-make
