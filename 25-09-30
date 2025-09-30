@@ -11,3 +11,4 @@ probe-rs-cli
 remove_dir_all
 probe-rs-cli
 rg
+probe-rs-cli
