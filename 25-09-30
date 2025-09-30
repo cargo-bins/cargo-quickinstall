@@ -5,3 +5,4 @@ tendermint-abci
 alacritty
 tree-sitter-cli
 dotslash
+remove_dir_all
