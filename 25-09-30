@@ -8,3 +8,4 @@ tendermint-abci
 probe-rs-cli
 rg
 probe-rs-cli
+remove_dir_all
