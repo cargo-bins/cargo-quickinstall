@@ -21,3 +21,4 @@ cargo-generate
 human_name
 human_bytes
 rustrict
+dotenv
