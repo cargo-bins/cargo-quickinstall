@@ -5,3 +5,4 @@ perfcnt
 tendermint-abci
 alacritty
 tree-sitter-cli
+remove_dir_all
