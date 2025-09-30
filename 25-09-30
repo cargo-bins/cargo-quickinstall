@@ -28,3 +28,4 @@ cargo-acl
 cproxy
 cargo-acl
 cproxy
+dotenv
