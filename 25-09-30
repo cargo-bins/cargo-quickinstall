@@ -32,3 +32,4 @@ uv
 tock
 uv
 iai-callgrind-runner
+dotenv
