@@ -33,3 +33,4 @@ cargo-acl
 cargo-acl
 nkeys
 gpgme
+cproxy
