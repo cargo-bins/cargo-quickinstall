@@ -6,3 +6,4 @@ xsra
 tendermint-abci
 probe-rs-cli
 bump-version
+remove_dir_all
