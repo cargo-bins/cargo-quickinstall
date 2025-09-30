@@ -2,3 +2,4 @@ rustbus
 clippy
 codeberg-cli
 minicbor
+sn_node_rpc_client
