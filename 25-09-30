@@ -7,3 +7,4 @@ alacritty
 tree-sitter-cli
 remove_dir_all
 alacritty
+tracing-durations-export
