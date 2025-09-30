@@ -10,3 +10,4 @@ commit_verify
 human_name
 human_bytes
 rustrict
+dotenv
