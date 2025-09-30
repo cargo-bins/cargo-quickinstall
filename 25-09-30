@@ -19,3 +19,4 @@ sn_node
 commit_verify
 cargo-generate
 human_name
+human_bytes
