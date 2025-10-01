@@ -19,3 +19,4 @@ cargo-risczero
 spider_worker
 sha1collisiondetection
 apollo-router
+wmi
