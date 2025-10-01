@@ -9,3 +9,4 @@ rmesg
 pandora_box
 fermium
 sqlx-cli
+cargo-generate
