@@ -3,3 +3,4 @@ solana-faucet
 tendermint-abci
 tree_magic
 libbpf-cargo
+gpgme
