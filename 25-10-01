@@ -27,3 +27,4 @@ ducc-sys
 rg
 sniffnet
 rg
+libbpf-cargo
