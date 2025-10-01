@@ -16,3 +16,4 @@ cargo-generate
 hurl
 hurl
 cargo-leptos
+libbpf-cargo
