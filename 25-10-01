@@ -12,3 +12,4 @@ libbpf-cargo
 rrule
 rustfmt-nightly
 tree_magic
+apollo-router
