@@ -20,3 +20,4 @@ build-fs-tree
 burn-tch
 burn-tch
 cargo-leptos
+ec2_instance_metadata
