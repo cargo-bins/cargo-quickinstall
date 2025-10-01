@@ -19,3 +19,4 @@ gpgme
 nextest
 loop-rs
 binstall
+controller
