@@ -17,3 +17,4 @@ hurl
 hurl
 cargo-leptos
 libbpf-cargo
+rustfmt-nightly
