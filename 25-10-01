@@ -11,3 +11,4 @@ libbpf-cargo
 oso
 rrule
 tree_magic
+build-fs-tree
