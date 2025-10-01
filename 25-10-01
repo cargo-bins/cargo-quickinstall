@@ -5,3 +5,4 @@ tree_magic
 libbpf-cargo
 gpgme
 controller
+ducc-sys
