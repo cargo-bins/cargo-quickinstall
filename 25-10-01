@@ -6,3 +6,4 @@ libbpf-cargo
 gpgme
 controller
 ducc-sys
+libbpf-cargo
