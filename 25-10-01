@@ -50,3 +50,4 @@ tectonic
 apollo-router
 wmi
 deduplicator
+rls-rustc
