@@ -6,3 +6,4 @@ tree_magic
 gpgme
 controller
 raw-cpuid
+cargo-msrv
