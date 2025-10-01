@@ -20,3 +20,4 @@ libbpf-cargo
 rustfmt-nightly
 cargo-crev
 rrule
+tree_magic
