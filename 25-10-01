@@ -14,3 +14,4 @@ cargo-leptos
 libbpf-cargo
 rustfmt
 rrule
+rustfmt-nightly
