@@ -8,3 +8,4 @@ controller
 raw-cpuid
 cargo-msrv
 ducc-sys
+libbpf-cargo
