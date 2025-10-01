@@ -31,3 +31,4 @@ cargo-leptos
 cargo-crev
 cargo-risczero
 c2rust
+sha1collisiondetection
