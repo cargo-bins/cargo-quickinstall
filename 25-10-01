@@ -10,3 +10,4 @@ pandora_box
 fermium
 sqlx-cli
 cargo-generate
+cargo-leptos
