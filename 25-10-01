@@ -56,3 +56,4 @@ cargo-public-api
 deduplicator
 apollo-router
 wmi
+rls-rustc
