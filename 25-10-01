@@ -20,3 +20,4 @@ cargo-risczero
 spider_worker
 apollo-router
 wmi
+rls-rustc
