@@ -18,3 +18,4 @@ hurl
 cargo-leptos
 libbpf-cargo
 rustfmt-nightly
+cargo-crev
