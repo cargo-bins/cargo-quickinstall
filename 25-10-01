@@ -12,3 +12,4 @@ hurl
 hurl
 sqlx-cli
 ducc-sys
+cargo-generate
