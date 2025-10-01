@@ -9,3 +9,4 @@ cargo-msrv
 ducc-sys
 rzup
 libbpf-cargo
+rrule
