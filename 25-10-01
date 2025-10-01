@@ -7,3 +7,4 @@ ducc-sys
 libbpf-cargo
 rrule
 tree_magic
+build-fs-tree
