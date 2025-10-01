@@ -27,3 +27,4 @@ build-fs-tree
 rtx-cli
 cargo-crev
 cargo-crev
+cargo-leptos
