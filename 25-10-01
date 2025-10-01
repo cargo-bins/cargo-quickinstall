@@ -24,3 +24,4 @@ ec2_instance_metadata
 cargo-lock
 cargo-risczero
 sha1collisiondetection
+apollo-router
