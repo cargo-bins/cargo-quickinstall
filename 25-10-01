@@ -20,3 +20,4 @@ spider_worker
 sha1collisiondetection
 apollo-router
 wmi
+rls-rustc
