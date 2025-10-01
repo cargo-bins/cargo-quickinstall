@@ -16,3 +16,4 @@ rustfmt
 rrule
 rustfmt-nightly
 tree_magic
+build-fs-tree
