@@ -18,3 +18,4 @@ loop-rs
 gpgme
 nextest
 loop-rs
+binstall
