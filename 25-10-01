@@ -6,3 +6,4 @@ hayagriva
 tendermint-abci
 tree_magic
 libbpf-cargo
+ducc-sys
