@@ -12,3 +12,4 @@ libbpf-cargo
 rrule
 tree_magic
 apollo-router
+build-fs-tree
