@@ -27,3 +27,4 @@ binstall
 sniffnet
 binstall
 binstall
+libbpf-cargo
