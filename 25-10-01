@@ -7,3 +7,4 @@ gpgme
 controller
 cargo-msrv
 ducc-sys
+rzup
