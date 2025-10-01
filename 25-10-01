@@ -19,3 +19,4 @@ cargo-lock
 spider_worker
 apollo-router
 wmi
+rls-rustc
