@@ -9,3 +9,4 @@ ducc-sys
 libbpf-cargo
 rustfmt-nightly
 rrule
+tree_magic
