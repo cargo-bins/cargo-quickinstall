@@ -21,3 +21,4 @@ cargo-lock
 carapace
 carapace
 spider_worker
+apollo-router
