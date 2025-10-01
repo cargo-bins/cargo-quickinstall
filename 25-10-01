@@ -24,3 +24,4 @@ tree_magic
 cargo-crev
 apollo-router
 build-fs-tree
+rtx-cli
