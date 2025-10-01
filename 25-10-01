@@ -12,3 +12,4 @@ sqlx-cli
 cargo-generate
 cargo-leptos
 libbpf-cargo
+rustfmt
