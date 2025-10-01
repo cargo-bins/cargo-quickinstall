@@ -13,3 +13,4 @@ tendermint-abci
 leenfetch
 nextest
 loop-rs
+tree_magic
