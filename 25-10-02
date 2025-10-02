@@ -52,3 +52,4 @@ cargo-list
 tree-sitter-cli
 tracing-durations-export
 probe-rs-tools
+alacritty
