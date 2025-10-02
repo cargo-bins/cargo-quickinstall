@@ -70,3 +70,4 @@ pijul
 probe-run
 cargo-list
 pijul
+hist-cli
