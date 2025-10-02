@@ -42,3 +42,4 @@ cargo-generate
 tracing-durations-export
 comet
 datavzrd
+cargo-generate
