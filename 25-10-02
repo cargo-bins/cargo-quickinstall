@@ -38,3 +38,4 @@ cargo-dylint
 cargo-graph
 cargo-graph
 c2rust
+solana-gossip
