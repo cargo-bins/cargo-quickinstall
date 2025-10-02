@@ -36,3 +36,4 @@ borsh
 cosmwasm-check
 cargo-list
 alacritty
+ducc-sys
