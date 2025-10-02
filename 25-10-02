@@ -34,3 +34,4 @@ cosmwasm-check
 cosmwasm-check
 cargo-list
 alacritty
+cargo-dylint
