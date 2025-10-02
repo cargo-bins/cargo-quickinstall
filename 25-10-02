@@ -55,3 +55,4 @@ probe-rs-tools
 alacritty
 ncspot
 probe-run
+hist-cli
