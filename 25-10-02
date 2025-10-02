@@ -16,3 +16,4 @@ tree-sitter-graph
 dicom-pixeldata
 ducc-sys
 dotenv
+minicbor
