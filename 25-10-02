@@ -21,3 +21,4 @@ minicbor
 crypto-cli-tools
 deploy
 tracing-durations-export
+human_name
