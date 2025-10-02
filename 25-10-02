@@ -49,3 +49,4 @@ deploy
 c2rust
 tree-sitter-graph
 lance
+uv
