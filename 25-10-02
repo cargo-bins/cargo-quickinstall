@@ -56,3 +56,4 @@ alacritty
 ncspot
 probe-run
 hist-cli
+simple-http-server
