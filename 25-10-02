@@ -55,3 +55,4 @@ pijul
 uv
 borsh
 probe-run
+cargo-list
