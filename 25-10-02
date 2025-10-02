@@ -28,3 +28,4 @@ quick_pswd
 probe-rs-tools
 cargo-list
 cosmwasm-check
+vdev
