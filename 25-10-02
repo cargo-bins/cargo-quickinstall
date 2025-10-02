@@ -5,3 +5,4 @@ cargo-msrv
 calcit
 socketcan
 human_name
+dprint
