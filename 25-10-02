@@ -67,3 +67,4 @@ speedtest-rs
 deploy
 tracing-durations-export
 pijul
+probe-run
