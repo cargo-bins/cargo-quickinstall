@@ -20,3 +20,4 @@ cargo-csc
 cargo-csc
 deploy
 cargo-csc
+tracing-durations-export
