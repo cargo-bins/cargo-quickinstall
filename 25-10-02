@@ -23,3 +23,4 @@ socketcan
 deduplicator
 cosmwasm-check
 cargo-public-api
+human_name
