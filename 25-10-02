@@ -71,3 +71,4 @@ probe-run
 cargo-list
 pijul
 hist-cli
+simple-http-server
