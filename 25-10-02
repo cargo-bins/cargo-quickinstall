@@ -33,3 +33,4 @@ dicom-pixeldata
 cargo-graph
 speedtest-rs
 borsh
+cosmwasm-check
