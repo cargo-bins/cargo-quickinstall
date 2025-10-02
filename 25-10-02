@@ -21,3 +21,4 @@ cargo-csc
 deploy
 cargo-csc
 tracing-durations-export
+rspell
