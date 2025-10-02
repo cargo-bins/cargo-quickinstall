@@ -42,3 +42,4 @@ dotenv
 cosmwasm-check
 minicbor
 cargo-list
+pijul
