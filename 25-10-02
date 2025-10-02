@@ -41,3 +41,4 @@ ncspot
 dotenv
 cosmwasm-check
 minicbor
+cargo-list
