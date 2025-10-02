@@ -12,3 +12,4 @@ project_init
 cargo-risczero
 libcst
 deploy
+tree-sitter-graph
