@@ -10,3 +10,4 @@ project_init
 cargo-risczero
 solana-gossip
 libcst
+deploy
