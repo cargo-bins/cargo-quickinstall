@@ -43,3 +43,4 @@ tracing-durations-export
 comet
 datavzrd
 cargo-generate
+probe-rs-debugger
