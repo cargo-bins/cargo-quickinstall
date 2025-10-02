@@ -20,3 +20,4 @@ crypto-cli-tools
 deploy
 tracing-durations-export
 cargo-lambda
+coldsnap
