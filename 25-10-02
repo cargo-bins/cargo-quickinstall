@@ -11,3 +11,4 @@ tree-sitter-graph
 lance
 dicom-pixeldata
 ducc-sys
+cargo-csc
