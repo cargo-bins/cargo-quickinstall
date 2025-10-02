@@ -7,3 +7,4 @@ project_init
 genson-cli
 cosmwasm-check
 cargo-public-api
+rg
