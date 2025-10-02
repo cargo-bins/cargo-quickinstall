@@ -13,3 +13,4 @@ cargo-risczero
 libcst
 deploy
 tree-sitter-graph
+dicom-pixeldata
