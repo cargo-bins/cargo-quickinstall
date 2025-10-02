@@ -16,3 +16,4 @@ cargo-risczero
 solana-gossip
 libcst
 deploy
+tree-sitter-graph
