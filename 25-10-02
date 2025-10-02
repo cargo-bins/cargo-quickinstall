@@ -54,3 +54,4 @@ tracing-durations-export
 probe-rs-tools
 alacritty
 ncspot
+probe-run
