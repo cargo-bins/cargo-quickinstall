@@ -26,3 +26,4 @@ crypto-cli-tools
 deploy
 tracing-durations-export
 git-mit
+coldsnap
