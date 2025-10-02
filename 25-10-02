@@ -50,3 +50,4 @@ deploy
 deduplicator
 cargo-list
 tree-sitter-cli
+tracing-durations-export
