@@ -11,3 +11,4 @@ borsh
 ducc-sys
 minicbor
 deploy
+tracing-durations-export
