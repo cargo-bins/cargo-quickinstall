@@ -65,3 +65,4 @@ ncspot
 crypto-cli-tools
 speedtest-rs
 deploy
+tracing-durations-export
