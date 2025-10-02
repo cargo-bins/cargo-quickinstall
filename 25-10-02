@@ -54,3 +54,4 @@ probe-run
 pijul
 uv
 borsh
+probe-run
