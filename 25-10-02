@@ -28,3 +28,4 @@ tree-sitter-graph
 probe-run
 ncspot
 lance
+cargo-dylint
