@@ -3,3 +3,4 @@ project_init
 cpp_demangle
 carapace
 socketcan
+human_name
