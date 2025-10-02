@@ -48,3 +48,4 @@ crypto-cli-tools
 ncspot
 deploy
 deduplicator
+cargo-list
