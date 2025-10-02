@@ -30,3 +30,4 @@ probe-rs-debugger
 borsh
 comet
 comet
+ducc-sys
