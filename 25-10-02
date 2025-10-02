@@ -38,3 +38,4 @@ crypto-cli-tools
 comet
 deploy
 datavzrd
+cargo-generate
