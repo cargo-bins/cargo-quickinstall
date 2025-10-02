@@ -68,3 +68,4 @@ deploy
 tracing-durations-export
 pijul
 probe-run
+cargo-list
