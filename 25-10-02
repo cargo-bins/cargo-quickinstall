@@ -26,3 +26,4 @@ cargo-public-api
 human_name
 quick_pswd
 probe-rs-tools
+cargo-list
