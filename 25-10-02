@@ -38,3 +38,4 @@ cargo-list
 alacritty
 ducc-sys
 ncspot
+dotenv
