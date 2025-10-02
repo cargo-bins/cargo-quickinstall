@@ -56,3 +56,4 @@ uv
 borsh
 probe-run
 cargo-list
+ducc-sys
