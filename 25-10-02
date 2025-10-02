@@ -34,3 +34,4 @@ cargo-graph
 speedtest-rs
 borsh
 cosmwasm-check
+cargo-list
