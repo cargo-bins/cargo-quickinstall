@@ -21,3 +21,4 @@ vdev
 rg
 socketcan
 deduplicator
+cosmwasm-check
