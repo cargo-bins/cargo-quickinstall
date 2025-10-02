@@ -26,3 +26,4 @@ cargo-list
 deploy
 tree-sitter-graph
 probe-run
+ncspot
