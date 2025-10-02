@@ -13,3 +13,4 @@ dicom-pixeldata
 schemafy
 borsh
 ducc-sys
+minicbor
