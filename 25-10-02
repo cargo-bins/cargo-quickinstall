@@ -20,3 +20,4 @@ neovide
 vdev
 rg
 socketcan
+deduplicator
