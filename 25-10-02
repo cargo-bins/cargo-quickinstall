@@ -72,3 +72,4 @@ cargo-list
 pijul
 hist-cli
 simple-http-server
+probe-rs-tools
