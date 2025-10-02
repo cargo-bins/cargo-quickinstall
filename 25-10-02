@@ -58,3 +58,4 @@ probe-run
 cargo-list
 ducc-sys
 pijul
+cargo-graph
