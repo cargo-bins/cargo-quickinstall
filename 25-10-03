@@ -10,3 +10,4 @@ cargo-lock
 human_bytes
 deploy
 opencv-binding-generator
+spider_worker
