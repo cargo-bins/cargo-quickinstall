@@ -30,3 +30,4 @@ rustbus
 cargo-vet
 xargo
 qsv
+mit-pre-commit
