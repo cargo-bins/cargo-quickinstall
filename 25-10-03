@@ -5,3 +5,4 @@ website_crawler
 holochain_cli_bundle
 cached-path
 cargo-lock
+kble-dump
