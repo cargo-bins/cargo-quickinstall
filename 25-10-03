@@ -3,3 +3,4 @@ probe-rs-tools
 speedtest-rs
 probe-rs-tools
 hist-cli
+probe-run
