@@ -36,3 +36,4 @@ project_init
 sha1collisiondetection
 pandora_box
 sn_node_rpc_client
+cargo-local-registry
