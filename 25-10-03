@@ -8,3 +8,4 @@ website_crawler
 cached-path
 minicbor
 cargo-lock
+human_bytes
