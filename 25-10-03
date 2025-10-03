@@ -5,3 +5,4 @@ website_crawler
 cached-path
 cargo-lock
 kble-dump
+deploy
