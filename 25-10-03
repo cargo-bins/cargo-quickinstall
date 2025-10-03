@@ -12,3 +12,4 @@ cargo-graph
 probe-run
 simple-http-server
 pijul
+cargo-dylint
