@@ -3,3 +3,4 @@ sass-rs
 process_viewer
 website_crawler
 holochain_cli_bundle
+cached-path
