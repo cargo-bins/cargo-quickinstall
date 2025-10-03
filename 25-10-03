@@ -21,3 +21,4 @@ build-fs-tree
 xargo
 qsv
 foundationdb-gen
+project_init
