@@ -11,3 +11,4 @@ tree-sitter-cli
 cargo-graph
 probe-run
 simple-http-server
+pijul
