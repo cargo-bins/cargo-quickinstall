@@ -8,3 +8,4 @@ cargo-dylint
 simple-http-server
 commit_verify
 tectonic
+tree-sitter-cli
