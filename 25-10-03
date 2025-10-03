@@ -32,3 +32,4 @@ hist-cli
 cargo-lock
 human_bytes
 deploy
+hist-cli
