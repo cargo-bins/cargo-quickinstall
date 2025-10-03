@@ -12,3 +12,4 @@ tokio-process
 cached-path
 minicbor
 cargo-lock
+deploy
