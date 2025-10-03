@@ -45,3 +45,4 @@ git-disjoint
 build-fs-tree
 xargo
 foundationdb-gen
+project_init
