@@ -32,3 +32,4 @@ cached-path
 cargo-lock
 human_bytes
 deploy
+simple-http-server
