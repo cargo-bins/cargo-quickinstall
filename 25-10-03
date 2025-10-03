@@ -11,3 +11,4 @@ cargo-lock
 human_bytes
 deploy
 sark0y_tam_rst
+opencv-binding-generator
