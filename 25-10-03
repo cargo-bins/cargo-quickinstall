@@ -11,3 +11,4 @@ spider_worker
 tree-sitter-cli
 sea-orm-cli
 cargo-risczero
+cpp_demangle
