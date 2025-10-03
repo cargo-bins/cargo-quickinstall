@@ -48,3 +48,4 @@ foundationdb-gen
 project_init
 sha1collisiondetection
 website_crawler
+rsgen-avro
