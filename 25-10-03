@@ -44,3 +44,4 @@ build-fs-tree
 xargo
 foundationdb-gen
 sha1collisiondetection
+zuse
