@@ -24,3 +24,4 @@ simple-http-server
 probe-run
 simple-http-server
 website_crawler
+probe-rs-tools
