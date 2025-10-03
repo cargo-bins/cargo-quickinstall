@@ -6,3 +6,4 @@ hist-cli
 probe-run
 sass-rs
 pijul
+tree-sitter-cli
