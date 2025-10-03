@@ -18,3 +18,4 @@ opencv-binding-generator
 sn_node
 git-mit-config
 rustbus
+cargo-risczero
