@@ -16,3 +16,4 @@ cargo-dylint
 solana-genesis
 simple-http-server
 hist-cli
+cargo-dylint
