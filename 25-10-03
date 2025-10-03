@@ -42,3 +42,4 @@ cpp_demangle
 human_name
 cpp_demangle
 git-disjoint
+build-fs-tree
