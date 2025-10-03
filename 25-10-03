@@ -25,3 +25,4 @@ sha1collisiondetection
 zuse
 website_crawler
 rls-rustc
+rsgen-avro
