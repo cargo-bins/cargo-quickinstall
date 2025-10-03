@@ -13,3 +13,4 @@ opencv-binding-generator
 spider_worker
 datavzrd
 sea-orm-cli
+cpp_demangle
