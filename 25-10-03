@@ -10,3 +10,4 @@ opencv-binding-generator
 spider_worker
 tree-sitter-cli
 sea-orm-cli
+cargo-risczero
