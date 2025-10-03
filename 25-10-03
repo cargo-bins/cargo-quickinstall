@@ -9,3 +9,4 @@ cached-path
 minicbor
 cargo-lock
 human_bytes
+deploy
