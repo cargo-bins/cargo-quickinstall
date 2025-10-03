@@ -19,3 +19,4 @@ hist-cli
 cargo-dylint
 speedtest-rs
 probe-run
+hist-cli
