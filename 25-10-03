@@ -8,3 +8,4 @@ h3o
 human_name
 holochain_cli_bundle
 website_crawler
+tokio-process
