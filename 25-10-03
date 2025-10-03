@@ -22,3 +22,4 @@ project_init
 sha1collisiondetection
 zuse
 schemafy
+rsgen-avro
