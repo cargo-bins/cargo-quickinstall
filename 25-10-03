@@ -38,3 +38,4 @@ hist-cli
 hist-cli
 spider_worker
 sea-orm-cli
+cpp_demangle
