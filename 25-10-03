@@ -20,3 +20,4 @@ git-disjoint
 build-fs-tree
 xargo
 qsv
+foundationdb-gen
