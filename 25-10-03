@@ -33,3 +33,4 @@ pandora_box
 sha1collisiondetection
 sqlx-cli
 rls-rustc
+cargo-local-registry
