@@ -46,3 +46,4 @@ build-fs-tree
 xargo
 foundationdb-gen
 project_init
+sha1collisiondetection
