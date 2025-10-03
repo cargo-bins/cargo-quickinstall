@@ -18,3 +18,4 @@ cpp_demangle
 human_name
 java-locator
 git-disjoint
+build-fs-tree
