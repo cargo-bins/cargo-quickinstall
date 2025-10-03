@@ -29,3 +29,4 @@ build-fs-tree
 rustbus
 cargo-vet
 xargo
+qsv
