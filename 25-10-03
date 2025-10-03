@@ -8,3 +8,4 @@ process_viewer
 human_name
 website_crawler
 cached-path
+cargo-lock
