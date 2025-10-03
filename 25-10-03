@@ -3,3 +3,4 @@ tree-sitter-cli
 solana-genesis
 process_viewer
 website_crawler
+cached-path
