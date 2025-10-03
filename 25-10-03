@@ -13,3 +13,4 @@ deploy
 sark0y_tam_rst
 opencv-binding-generator
 spider_worker
+sea-orm-cli
