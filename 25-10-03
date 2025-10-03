@@ -20,3 +20,4 @@ cargo-dylint
 speedtest-rs
 probe-run
 hist-cli
+process_viewer
