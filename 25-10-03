@@ -44,3 +44,4 @@ cpp_demangle
 git-disjoint
 build-fs-tree
 xargo
+foundationdb-gen
