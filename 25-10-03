@@ -14,3 +14,4 @@ minicbor
 cargo-lock
 deploy
 sn_node
+opencv-binding-generator
