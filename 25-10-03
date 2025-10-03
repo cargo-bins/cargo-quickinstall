@@ -18,3 +18,4 @@ simple-http-server
 hist-cli
 cargo-dylint
 speedtest-rs
+probe-run
