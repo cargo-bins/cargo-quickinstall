@@ -5,3 +5,4 @@ cargo-graph
 alacritty
 sass-rs
 cargo-dylint
+simple-http-server
