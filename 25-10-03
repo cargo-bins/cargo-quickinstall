@@ -17,3 +17,4 @@ solana-genesis
 simple-http-server
 hist-cli
 cargo-dylint
+speedtest-rs
