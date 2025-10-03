@@ -24,3 +24,4 @@ build-fs-tree
 xargo
 qsv
 foundationdb-gen
+pandora_box
