@@ -33,3 +33,4 @@ cargo-lock
 human_bytes
 deploy
 hist-cli
+opencv-binding-generator
