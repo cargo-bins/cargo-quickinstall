@@ -11,3 +11,4 @@ website_crawler
 tokio-process
 cached-path
 minicbor
+cargo-lock
