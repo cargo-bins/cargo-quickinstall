@@ -28,3 +28,4 @@ xargo
 qsv
 mit-pre-commit
 foundationdb-gen
+project_init
