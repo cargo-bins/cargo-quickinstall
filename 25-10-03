@@ -32,3 +32,4 @@ project_init
 pandora_box
 sha1collisiondetection
 sqlx-cli
+rls-rustc
