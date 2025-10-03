@@ -34,3 +34,4 @@ human_bytes
 deploy
 simple-http-server
 opencv-binding-generator
+spider_worker
