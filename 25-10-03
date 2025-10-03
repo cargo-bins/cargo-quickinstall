@@ -31,3 +31,4 @@ hist-cli
 cached-path
 cargo-lock
 human_bytes
+deploy
