@@ -30,3 +30,4 @@ probe-run
 speedtest-rs
 hist-cli
 cargo-lock
+human_bytes
