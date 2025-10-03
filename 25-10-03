@@ -35,3 +35,4 @@ deploy
 simple-http-server
 opencv-binding-generator
 spider_worker
+sea-orm-cli
