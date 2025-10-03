@@ -10,3 +10,4 @@ tree-sitter-cli
 tree-sitter-cli
 cargo-graph
 probe-run
+simple-http-server
