@@ -8,3 +8,4 @@ website_crawler
 cached-path
 cargo-lock
 human_bytes
+deploy
