@@ -7,3 +7,4 @@ cached-path
 cargo-lock
 deploy
 opencv-binding-generator
+spider_worker
