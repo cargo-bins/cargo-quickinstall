@@ -36,3 +36,4 @@ rls-rustc
 cargo-local-registry
 website_crawler
 schemafy
+rsgen-avro
