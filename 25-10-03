@@ -12,3 +12,4 @@ deploy
 opencv-binding-generator
 spider_worker
 datavzrd
+sea-orm-cli
