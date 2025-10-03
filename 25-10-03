@@ -22,3 +22,4 @@ xargo
 qsv
 foundationdb-gen
 project_init
+sha1collisiondetection
