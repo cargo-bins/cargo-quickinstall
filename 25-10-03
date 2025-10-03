@@ -11,3 +11,4 @@ human_bytes
 deploy
 opencv-binding-generator
 spider_worker
+tree-sitter-cli
