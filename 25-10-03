@@ -37,3 +37,4 @@ opencv-binding-generator
 hist-cli
 hist-cli
 spider_worker
+sea-orm-cli
