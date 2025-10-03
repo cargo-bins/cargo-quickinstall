@@ -28,3 +28,4 @@ probe-rs-tools
 cached-path
 probe-run
 speedtest-rs
+hist-cli
