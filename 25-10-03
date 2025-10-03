@@ -34,3 +34,4 @@ sha1collisiondetection
 sqlx-cli
 rls-rustc
 cargo-local-registry
+website_crawler
