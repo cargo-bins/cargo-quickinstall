@@ -25,3 +25,4 @@ rustbus
 build-fs-tree
 sqlx-cli
 xargo
+qsv
