@@ -19,3 +19,4 @@ cargo-count
 cpp_demangle
 statime-linux
 human_name
+git-disjoint
