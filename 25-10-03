@@ -22,3 +22,4 @@ xargo
 project_init
 foundationdb-gen
 sha1collisiondetection
+website_crawler
