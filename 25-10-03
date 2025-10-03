@@ -43,3 +43,4 @@ human_name
 cpp_demangle
 git-disjoint
 build-fs-tree
+xargo
