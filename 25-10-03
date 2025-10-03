@@ -20,3 +20,4 @@ java-locator
 build-fs-tree
 xargo
 project_init
+foundationdb-gen
