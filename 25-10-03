@@ -5,3 +5,4 @@ process_viewer
 website_crawler
 cached-path
 cargo-lock
+deploy
