@@ -31,3 +31,4 @@ cargo-vet
 xargo
 qsv
 mit-pre-commit
+foundationdb-gen
