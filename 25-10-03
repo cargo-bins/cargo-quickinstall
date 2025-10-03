@@ -26,3 +26,4 @@ simple-http-server
 website_crawler
 probe-rs-tools
 cached-path
+probe-run
