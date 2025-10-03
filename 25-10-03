@@ -9,3 +9,4 @@ cached-path
 cargo-lock
 human_bytes
 deploy
+opencv-binding-generator
