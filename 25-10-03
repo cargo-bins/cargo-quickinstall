@@ -37,3 +37,4 @@ sha1collisiondetection
 pandora_box
 sn_node_rpc_client
 cargo-local-registry
+website_crawler
