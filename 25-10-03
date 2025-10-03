@@ -8,3 +8,4 @@ cargo-lock
 deploy
 opencv-binding-generator
 spider_worker
+tree-sitter-cli
