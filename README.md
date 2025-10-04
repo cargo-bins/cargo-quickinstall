@@ -72,7 +72,7 @@ There are a few pieces of infrastructure that are also part of this project:
 
 ## Contributing
 
-There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. I created a [Gitter](https://gitter.im/cargo-quickinstall/community) room for collaborating in. You can also poke [@alsuren](https://twitter.com/alsuren) on Twitter or Discord. I'm also up for pairing over zoom to get new contributors onboarded.
+There are a lot of things to figure out at the moment, so now is the perfect time to jump in and help. I created a [Gitter](https://gitter.im/cargo-quickinstall/community) room for collaborating in. You can also poke [@alsuren](https://x.com/alsuren) on X/Twitter or Discord. I'm also up for pairing over zoom to get new contributors onboarded.
 
 Work is currently tracked on [the kanban board](https://github.com/orgs/cargo-bins/projects/1). If you want help breaking down a ticket, give me a shout in one of the above places.
 
@@ -86,11 +86,11 @@ make release
 
 If you need to make a major version bump then copy-paste the commands out of the Makefile.
 
-Once a release has been made, post about it on [the rust forums](https://users.rust-lang.org/c/announcements/6), [reddit](https://www.reddit.com/r/rust/) and twitter.
+Once a release has been made, post about it on [the rust forums](https://users.rust-lang.org/c/announcements/6), [reddit](https://www.reddit.com/r/rust/) and x/twitter.
 
 ## License
 
-Copyright (c) 2020-2022 cargo-quickinstall developers
+Copyright (c) 2020-2025 cargo-quickinstall developers
 
 `cargo-quickinstall` is made available under the terms of either the MIT License or the Apache License 2.0, at your option.
 
