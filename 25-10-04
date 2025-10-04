@@ -2,3 +2,4 @@ libbpf-cargo
 oso
 human_name
 cargo-lambda
+rtx-cli
