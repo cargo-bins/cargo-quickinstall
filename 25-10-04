@@ -21,3 +21,4 @@ cargo-lambda
 proof-of-sql
 mise
 rustfmt-nightly
+schemafy
