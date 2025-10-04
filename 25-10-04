@@ -10,3 +10,4 @@ cargo-spellcheck
 dx-cli
 racer
 nextest-filtering
+lance
