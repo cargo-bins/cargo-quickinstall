@@ -16,3 +16,4 @@ borsh
 wmi
 textplots
 holochain_cli
+tree-sitter-graph
