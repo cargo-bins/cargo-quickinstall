@@ -18,3 +18,4 @@ textplots
 holochain_cli
 tree-sitter-graph
 sha1collisiondetection
+re_query
