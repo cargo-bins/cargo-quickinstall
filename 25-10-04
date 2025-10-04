@@ -35,3 +35,4 @@ holochain_cli
 sn_faucet
 rustfmt-nightly
 schemafy
+tree_magic
