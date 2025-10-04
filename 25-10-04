@@ -6,3 +6,4 @@ cargo-spellcheck
 racer
 coldsnap
 lance
+nextest-filtering
