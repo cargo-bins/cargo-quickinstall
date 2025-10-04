@@ -8,3 +8,4 @@ stellar-strkey
 cargo-spellcheck
 rtx-cli
 racer
+nextest-filtering
