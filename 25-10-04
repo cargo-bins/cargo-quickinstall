@@ -20,3 +20,4 @@ proof-of-sql
 graphql_client_cli
 rustfmt-nightly
 schemafy
+tree_magic
