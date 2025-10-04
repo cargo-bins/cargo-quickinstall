@@ -20,3 +20,4 @@ tree-sitter-graph
 sha1collisiondetection
 re_query
 proof-of-sql
+holochain_cli_bundle
