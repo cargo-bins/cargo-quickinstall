@@ -16,3 +16,4 @@ sass-rs
 borsh
 wmi
 textplots
+sha1collisiondetection
