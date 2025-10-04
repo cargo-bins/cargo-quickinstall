@@ -21,3 +21,4 @@ re_query
 solana-cli
 proof-of-sql
 rustfmt-nightly
+schemafy
