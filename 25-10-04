@@ -30,3 +30,4 @@ re_query
 cargo-leptos
 proof-of-sql
 zellij
+holochain_cli_bundle
