@@ -10,3 +10,4 @@ rtx-cli
 sqlx-cli
 racer
 cargo-vet
+coldsnap
