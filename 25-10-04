@@ -45,3 +45,4 @@ rustfmt-nightly
 binwalk
 thorium
 binwalk
+rustnet-monitor
