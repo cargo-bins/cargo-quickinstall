@@ -19,3 +19,4 @@ solana-cli
 proof-of-sql
 mise
 rustfmt-nightly
+tree_magic
