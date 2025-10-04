@@ -27,3 +27,4 @@ mit-prepare-commit-msg
 tree-sitter-graph
 sha1collisiondetection
 re_query
+cargo-leptos
