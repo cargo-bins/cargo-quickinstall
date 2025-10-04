@@ -11,3 +11,4 @@ lance
 rustup-toolchain-install-master
 arrow-flight
 sass-rs
+borsh
