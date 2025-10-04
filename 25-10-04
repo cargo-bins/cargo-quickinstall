@@ -12,3 +12,4 @@ rustup-toolchain-install-master
 arrow-flight
 sass-rs
 borsh
+textplots
