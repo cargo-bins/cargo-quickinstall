@@ -25,3 +25,4 @@ textplots
 holochain_cli
 mit-prepare-commit-msg
 tree-sitter-graph
+sha1collisiondetection
