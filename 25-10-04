@@ -22,3 +22,4 @@ re_query
 proof-of-sql
 holochain_cli_bundle
 holochain_cli
+rustfmt-nightly
