@@ -8,3 +8,4 @@ coldsnap
 lance
 nextest-filtering
 rustup-toolchain-install-master
+arrow-flight
