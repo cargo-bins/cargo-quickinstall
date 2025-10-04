@@ -22,3 +22,4 @@ git-mit
 borsh
 rustfmt
 textplots
+holochain_cli
