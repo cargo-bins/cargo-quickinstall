@@ -20,3 +20,4 @@ investments
 sn_cli
 git-mit
 borsh
+rustfmt
