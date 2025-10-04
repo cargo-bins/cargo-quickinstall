@@ -12,3 +12,4 @@ racer
 cargo-vet
 coldsnap
 nextest-filtering
+lance
