@@ -16,3 +16,4 @@ nextest-filtering
 lance
 rustup-toolchain-install-master
 arrow-flight
+lance
