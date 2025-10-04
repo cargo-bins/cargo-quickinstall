@@ -22,3 +22,4 @@ solana-cli
 proof-of-sql
 rustfmt-nightly
 schemafy
+tree_magic
