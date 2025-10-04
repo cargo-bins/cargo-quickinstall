@@ -6,3 +6,4 @@ rtx-cli
 cargo-spellcheck
 coldsnap
 racer
+lance
