@@ -51,3 +51,4 @@ mise
 rustnet-monitor
 rustfmt-nightly
 sea-orm-cli
+binwalk
