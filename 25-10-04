@@ -11,3 +11,4 @@ sqlx-cli
 racer
 cargo-vet
 coldsnap
+nextest-filtering
