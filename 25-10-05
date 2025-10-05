@@ -20,3 +20,4 @@ addr2line
 httpmock
 racer
 solana-validator
+build-fs-tree
