@@ -21,3 +21,4 @@ holochain
 human_bytes
 gpgme
 httpmock
+addr2line
