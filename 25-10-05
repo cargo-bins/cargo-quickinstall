@@ -5,3 +5,4 @@ dicom-pixeldata
 kani-verifier
 tokio-process
 holochain
+human_bytes
