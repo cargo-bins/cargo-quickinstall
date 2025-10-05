@@ -5,3 +5,4 @@ dicom-pixeldata
 human_bytes
 gpgme
 httpmock
+addr2line
