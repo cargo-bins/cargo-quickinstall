@@ -4,3 +4,4 @@ solana-cli
 dicom-pixeldata
 human_bytes
 gpgme
+httpmock
