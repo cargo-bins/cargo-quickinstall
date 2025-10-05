@@ -3,3 +3,4 @@ java-locator
 dicom-pixeldata
 rrule
 human_bytes
+httpmock
