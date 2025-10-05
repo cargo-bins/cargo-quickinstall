@@ -2,3 +2,4 @@ tendermint-rpc
 java-locator
 solana-cli
 dicom-pixeldata
+human_bytes
