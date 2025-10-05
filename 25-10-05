@@ -8,3 +8,4 @@ holochain
 human_bytes
 gpgme
 addr2line
+httpmock
