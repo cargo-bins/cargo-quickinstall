@@ -26,3 +26,4 @@ dotenvy
 dioxus-cli
 clippy
 mit-prepare-commit-msg
+ext-sort
