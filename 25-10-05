@@ -7,3 +7,4 @@ tokio-process
 holochain
 human_bytes
 gpgme
+addr2line
