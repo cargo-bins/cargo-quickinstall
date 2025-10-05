@@ -19,3 +19,4 @@ cargo-dylint
 cargo-dylint
 holochain
 human_bytes
+gpgme
