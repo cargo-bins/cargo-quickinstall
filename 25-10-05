@@ -7,3 +7,4 @@ gpgme
 httpmock
 addr2line
 solana-validator
+build-fs-tree
