@@ -5,3 +5,4 @@ dicom-pixeldata
 rrule
 human_bytes
 gpgme
+httpmock
