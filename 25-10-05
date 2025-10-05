@@ -20,3 +20,4 @@ cargo-dylint
 holochain
 human_bytes
 gpgme
+httpmock
