@@ -29,3 +29,4 @@ git-trim
 spotify_player
 spotify-tui
 git-trim
+cargo-smart-release
