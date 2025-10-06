@@ -19,3 +19,4 @@ deploy
 tlmcmddb-cli
 kble-serialport
 dbus-codegen
+tmtc-c2a
