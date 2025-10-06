@@ -14,3 +14,4 @@ kble-c2a
 deploy
 cargo-dylint
 kble-c2a
+kble-serialport
