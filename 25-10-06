@@ -25,3 +25,4 @@ devserver
 cargo-smart-release
 statsig-rs
 naty
+git-trim
