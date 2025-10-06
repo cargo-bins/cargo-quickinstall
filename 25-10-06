@@ -29,3 +29,4 @@ schemafy
 kble-serialport
 kble
 kble-eb90
+cargo-dylint
