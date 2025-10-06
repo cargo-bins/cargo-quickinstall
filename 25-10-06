@@ -3,3 +3,4 @@ re_query
 parquet
 human_bytes
 xargo
+rls-rustc
