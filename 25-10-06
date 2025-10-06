@@ -16,3 +16,4 @@ cargo-dylint
 kble-c2a
 kble-serialport
 dbus-codegen
+kble
