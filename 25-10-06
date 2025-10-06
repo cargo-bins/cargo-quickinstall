@@ -10,3 +10,4 @@ rls-rustc
 xargo
 depyler
 rustrict
+addr2line
