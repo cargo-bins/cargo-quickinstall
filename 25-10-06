@@ -3,3 +3,4 @@ parquet
 dioxus-cli
 dioxus-cli
 socketcan
+human_bytes
