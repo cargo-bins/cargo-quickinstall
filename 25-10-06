@@ -8,3 +8,4 @@ cargo-smart-release
 human_bytes
 spotify-tui
 devserver
+xargo
