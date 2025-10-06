@@ -12,3 +12,4 @@ esp-config
 xargo
 rls-rustc
 esp-config
+mdcat
