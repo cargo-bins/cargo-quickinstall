@@ -5,3 +5,4 @@ human_bytes
 xargo
 rls-rustc
 mise
+addr2line
