@@ -11,3 +11,4 @@ devserver
 xargo
 mdcat
 mise
+addr2line
