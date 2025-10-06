@@ -9,3 +9,4 @@ tlmcmddb-cli
 rls-rustc
 kble-c2a
 rustrict
+addr2line
