@@ -8,3 +8,4 @@ mise
 addr2line
 deploy
 statsig-rs
+dbus-codegen
