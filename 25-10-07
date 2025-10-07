@@ -12,3 +12,4 @@ paperclip
 build-fs-tree
 spider_cli
 deploy
+gpgme
