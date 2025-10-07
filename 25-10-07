@@ -48,3 +48,4 @@ build-fs-tree
 spider_cli
 cargo-info
 cargo-count
+deduplicator
