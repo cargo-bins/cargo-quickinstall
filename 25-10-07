@@ -13,3 +13,4 @@ nkeys
 solana-genesis
 java-locator
 skim
+tokio-process
