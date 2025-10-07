@@ -67,3 +67,4 @@ nkeys
 youtube-tui
 cargo-pgrx
 cargo-bundle
+opencv-binding-generator
