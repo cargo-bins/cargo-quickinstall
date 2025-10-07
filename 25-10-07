@@ -14,3 +14,4 @@ cargo-risczero
 spider_cli
 build-fs-tree
 deploy
+gpgme
