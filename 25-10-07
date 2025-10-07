@@ -4,3 +4,4 @@ diesel_cli
 soroban-cli
 spotify-tui
 wiremix
+raw-cpuid
