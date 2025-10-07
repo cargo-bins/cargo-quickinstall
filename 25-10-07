@@ -21,3 +21,4 @@ a11ywatch_cli
 nexmark
 nkeys
 opencv-binding-generator
+cargo-lock
