@@ -1,3 +1,4 @@
 socketcan
 diesel_cli
 sshx
+raw-cpuid
