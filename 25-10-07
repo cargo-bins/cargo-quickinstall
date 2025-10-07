@@ -20,3 +20,4 @@ sn_node
 cargo-risczero
 build-fs-tree
 deploy
+tokio-process
