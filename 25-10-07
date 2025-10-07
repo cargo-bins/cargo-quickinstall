@@ -15,3 +15,4 @@ gpgme
 cached-path
 nexmark
 nkeys
+cargo-lock
