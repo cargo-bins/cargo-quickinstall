@@ -24,3 +24,4 @@ tokio-process
 gpgme
 cached-path
 wol-rs
+nexmark
