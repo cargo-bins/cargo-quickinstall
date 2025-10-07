@@ -12,3 +12,4 @@ paperclip
 build-fs-tree
 arrow-flight
 gpgme
+cached-path
