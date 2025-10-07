@@ -42,3 +42,4 @@ binstall
 binstall
 lux-cli
 deploy
+gpgme
