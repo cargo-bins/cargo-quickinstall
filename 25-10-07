@@ -44,3 +44,4 @@ lux-cli
 deploy
 gpgme
 cached-path
+wol-rs
