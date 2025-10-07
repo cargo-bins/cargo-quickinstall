@@ -72,3 +72,4 @@ nkeys
 youtube-tui
 soroban-cli
 vdev
+cargo-lock
