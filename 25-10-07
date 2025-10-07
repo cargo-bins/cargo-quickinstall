@@ -13,3 +13,4 @@ human_bytes
 wasm-bpf
 rmpc
 rmpc
+socketcan
