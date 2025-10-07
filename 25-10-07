@@ -16,3 +16,4 @@ skim
 tokio-process
 cargo-local-registry
 paperclip
+sn_node
