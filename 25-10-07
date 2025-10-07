@@ -37,3 +37,4 @@ lux-cli
 rmpc
 codeberg-cli
 cargo-risczero
+build-fs-tree
