@@ -27,3 +27,4 @@ c2rust
 socketcan
 soundscope
 elf2uf2-rs
+cargo-info
