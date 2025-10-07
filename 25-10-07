@@ -19,3 +19,4 @@ sshx
 paperclip
 build-fs-tree
 gpgme
+cached-path
