@@ -13,3 +13,4 @@ build-fs-tree
 spider_cli
 deploy
 gpgme
+a11ywatch_cli
