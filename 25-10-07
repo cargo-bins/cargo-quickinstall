@@ -31,3 +31,4 @@ cargo-local-registry
 paperclip
 lux-cli
 rmpc
+binstall
