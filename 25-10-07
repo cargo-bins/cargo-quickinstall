@@ -24,3 +24,4 @@ opencv-binding-generator
 git-trim
 spr
 c2rust
+socketcan
