@@ -56,3 +56,4 @@ shimmy
 deploy
 rust_radio
 soroban-cli
+cached-path
