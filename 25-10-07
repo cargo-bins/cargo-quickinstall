@@ -21,3 +21,4 @@ vdev
 vdev
 nkeys
 opencv-binding-generator
+cargo-lock
