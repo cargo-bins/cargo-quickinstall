@@ -43,3 +43,4 @@ binstall
 lux-cli
 deploy
 gpgme
+cached-path
