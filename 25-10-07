@@ -30,3 +30,4 @@ elf2uf2-rs
 cargo-info
 wiremix
 nkeys
+solana-genesis
