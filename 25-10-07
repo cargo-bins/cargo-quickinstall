@@ -13,3 +13,4 @@ opencv-binding-generator
 dioxus-cli
 socketcan
 sshx
+nkeys
