@@ -73,3 +73,4 @@ youtube-tui
 soroban-cli
 vdev
 cargo-lock
+opencv-binding-generator
