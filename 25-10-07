@@ -16,3 +16,4 @@ build-fs-tree
 spider_cli
 gpgme
 cached-path
+wol-rs
