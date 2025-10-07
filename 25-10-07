@@ -12,3 +12,4 @@ tree-sitter-cli
 paperclip
 cargo-risczero
 spider_cli
+build-fs-tree
