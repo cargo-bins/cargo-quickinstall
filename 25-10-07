@@ -22,3 +22,4 @@ build-fs-tree
 deploy
 tokio-process
 gpgme
+cached-path
