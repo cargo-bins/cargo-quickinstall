@@ -40,3 +40,4 @@ cargo-risczero
 build-fs-tree
 binstall
 binstall
+lux-cli
