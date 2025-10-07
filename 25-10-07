@@ -10,3 +10,4 @@ dioxus-cli
 human_bytes
 cargo-dylint
 opencv-binding-generator
+dioxus-cli
