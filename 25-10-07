@@ -41,3 +41,4 @@ build-fs-tree
 binstall
 binstall
 lux-cli
+deploy
