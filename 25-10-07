@@ -49,3 +49,4 @@ spider_cli
 cargo-info
 cargo-count
 deduplicator
+spr
