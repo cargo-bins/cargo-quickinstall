@@ -18,3 +18,4 @@ cargo-local-registry
 paperclip
 sn_node
 cargo-risczero
+build-fs-tree
