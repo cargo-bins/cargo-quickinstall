@@ -21,3 +21,4 @@ cargo-risczero
 build-fs-tree
 deploy
 tokio-process
+gpgme
