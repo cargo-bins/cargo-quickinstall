@@ -20,3 +20,4 @@ wol-rs
 nexmark
 nkeys
 cargo-lock
+opencv-binding-generator
