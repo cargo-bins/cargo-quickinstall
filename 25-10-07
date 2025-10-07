@@ -26,3 +26,4 @@ cached-path
 wol-rs
 nexmark
 nkeys
+cargo-lock
