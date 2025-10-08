@@ -5,3 +5,4 @@ clap-stdin
 solana-keygen
 diesel_cli
 minicbor
+lingua
