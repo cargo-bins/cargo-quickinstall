@@ -13,3 +13,4 @@ cpp_demangle
 tendermint-rpc
 gpgme
 wol-rs
+nu-completion-script
