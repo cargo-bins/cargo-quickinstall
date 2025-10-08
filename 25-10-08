@@ -15,3 +15,4 @@ solana-cli
 cpp_demangle
 tendermint-rpc
 foundationdb-gen
+nextest
