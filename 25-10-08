@@ -5,3 +5,4 @@ diesel_cli
 minicbor
 rustfmt
 lingua
+human_bytes
