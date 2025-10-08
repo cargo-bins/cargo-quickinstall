@@ -19,3 +19,4 @@ foundationdb-gen
 gpgme
 wol-rs
 shunkakinoki
+cpp_demangle
