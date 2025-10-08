@@ -17,3 +17,4 @@ tendermint-rpc
 foundationdb-gen
 gpgme
 wol-rs
+coldsnap
