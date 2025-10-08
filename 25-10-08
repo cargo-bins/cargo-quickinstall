@@ -13,3 +13,4 @@ investments
 cpp_demangle
 tendermint-rpc
 foundationdb-gen
+gpgme
