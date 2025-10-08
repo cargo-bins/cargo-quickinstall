@@ -19,3 +19,4 @@ gpgme
 wol-rs
 coldsnap
 shunkakinoki
+cpp_demangle
