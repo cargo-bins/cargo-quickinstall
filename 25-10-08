@@ -19,3 +19,4 @@ tendermint-rpc
 rustbus
 dioxus-cli
 wol-rs
+coldsnap
