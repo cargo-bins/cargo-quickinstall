@@ -17,3 +17,4 @@ dicom-pixeldata
 cpp_demangle
 tendermint-rpc
 rustbus
+dioxus-cli
