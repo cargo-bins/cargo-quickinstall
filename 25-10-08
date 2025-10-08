@@ -52,3 +52,4 @@ tendermint-rpc
 cargo-info
 ironbar
 cargo-seek
+cargo-info
