@@ -11,3 +11,4 @@ cargo-bundle
 clap-stdin
 spr
 youtube-tui
+nextest-filtering
