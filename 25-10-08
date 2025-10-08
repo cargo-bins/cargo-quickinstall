@@ -13,3 +13,4 @@ nexmark
 spider_worker
 solana-cli
 dotslash
+cpp_demangle
