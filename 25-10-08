@@ -3,3 +3,4 @@ vdev
 xargo
 clap-stdin
 nextest-filtering
+solana-keygen
