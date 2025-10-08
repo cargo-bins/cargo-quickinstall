@@ -16,3 +16,4 @@ foundationdb-gen
 gpgme
 sn_node_rpc_client
 holochain_cli_bundle
+rustbus
