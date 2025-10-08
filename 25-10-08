@@ -47,3 +47,4 @@ danbooru-rs
 cargo-pgrx
 cpp_demangle
 buildstamp
+tendermint-rpc
