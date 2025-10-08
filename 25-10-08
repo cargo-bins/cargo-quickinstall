@@ -20,3 +20,4 @@ rustbus
 dioxus-cli
 wol-rs
 coldsnap
+cpp_demangle
