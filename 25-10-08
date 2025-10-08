@@ -25,3 +25,4 @@ deepwiki-rs
 diesel_cli
 buildstamp
 cargo-pgrx
+minicbor
