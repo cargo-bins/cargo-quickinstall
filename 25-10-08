@@ -45,3 +45,4 @@ cargo-bundle
 solana-cli
 buildstamp
 cargo-seek
+dicom-pixeldata
