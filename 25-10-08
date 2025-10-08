@@ -2,3 +2,4 @@ pandora_box
 xargo
 clap-stdin
 winpty-rs
+nu-completion-script
