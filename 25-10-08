@@ -3,3 +3,4 @@ vdev
 xargo
 clap-stdin
 solana-keygen
+diesel_cli
