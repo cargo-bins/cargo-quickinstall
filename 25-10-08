@@ -2,3 +2,4 @@ vdev
 vdev
 xargo
 clap-stdin
+nextest-filtering
