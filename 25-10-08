@@ -13,3 +13,4 @@ rustup-toolchain-install-master
 solana-cli
 dotslash
 cpp_demangle
+tendermint-rpc
