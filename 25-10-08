@@ -14,3 +14,4 @@ cpp_demangle
 tendermint-rpc
 foundationdb-gen
 gpgme
+sn_node_rpc_client
