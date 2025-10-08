@@ -28,3 +28,4 @@ foundationdb-gen
 gpgme
 wol-rs
 ncspot
+cpp_demangle
