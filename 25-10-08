@@ -2,3 +2,4 @@ xargo
 clap-stdin
 nextest-filtering
 winpty-rs
+solana-keygen
