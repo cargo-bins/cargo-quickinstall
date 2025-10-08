@@ -47,3 +47,4 @@ buildstamp
 cargo-seek
 dicom-pixeldata
 danbooru-rs
+cpp_demangle
