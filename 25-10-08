@@ -19,3 +19,4 @@ foundationdb-gen
 gpgme
 wol-rs
 coldsnap
+cpp_demangle
