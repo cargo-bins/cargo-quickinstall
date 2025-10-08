@@ -16,3 +16,4 @@ cpp_demangle
 tendermint-rpc
 foundationdb-gen
 nextest
+wol-rs
