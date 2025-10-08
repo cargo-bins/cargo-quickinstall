@@ -3,3 +3,4 @@ clap-stdin
 nextest-filtering
 winpty-rs
 solana-keygen
+diesel_cli
