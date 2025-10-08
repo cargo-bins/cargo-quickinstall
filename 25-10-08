@@ -5,3 +5,4 @@ clap-stdin
 nextest-filtering
 solana-keygen
 diesel_cli
+minicbor
