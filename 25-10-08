@@ -6,3 +6,4 @@ nu-completion-script
 diesel_cli
 minicbor
 lingua
+human_bytes
