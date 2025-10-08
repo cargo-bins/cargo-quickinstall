@@ -8,3 +8,4 @@ deepwiki-rs
 shimmy
 xargo
 cargo-bundle
+clap-stdin
