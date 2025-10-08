@@ -2,3 +2,4 @@ pandora_box
 clap-stdin
 nextest-filtering
 nu-completion-script
+lua-astra
