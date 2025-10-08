@@ -10,3 +10,4 @@ human_bytes
 sp1-prover
 nexmark
 cpp_demangle
+tendermint-rpc
