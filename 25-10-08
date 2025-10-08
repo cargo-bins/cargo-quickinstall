@@ -19,3 +19,4 @@ holochain_cli_bundle
 rustbus
 wol-rs
 coldsnap
+cpp_demangle
