@@ -27,3 +27,4 @@ tendermint-rpc
 foundationdb-gen
 gpgme
 wol-rs
+ncspot
