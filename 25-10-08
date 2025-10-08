@@ -20,3 +20,4 @@ wol-rs
 nextest
 nextest
 nextest
+cpp_demangle
