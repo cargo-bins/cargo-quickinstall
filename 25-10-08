@@ -49,3 +49,4 @@ dicom-pixeldata
 danbooru-rs
 cpp_demangle
 tendermint-rpc
+cargo-info
