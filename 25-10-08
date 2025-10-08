@@ -4,3 +4,4 @@ clap-stdin
 winpty-rs
 nu-completion-script
 diesel_cli
+minicbor
