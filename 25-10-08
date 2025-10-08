@@ -16,3 +16,4 @@ investments
 dicom-pixeldata
 cpp_demangle
 tendermint-rpc
+rustbus
