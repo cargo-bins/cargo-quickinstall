@@ -49,3 +49,4 @@ cpp_demangle
 buildstamp
 tendermint-rpc
 youtube-tui
+foundationdb-gen
