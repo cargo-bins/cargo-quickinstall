@@ -3,3 +3,4 @@ clap-stdin
 nextest-filtering
 diesel_cli
 minicbor
+rustfmt
