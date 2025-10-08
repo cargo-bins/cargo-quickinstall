@@ -3,3 +3,4 @@ clap-stdin
 nextest-filtering
 nu-completion-script
 lua-astra
+nu-completion-script
