@@ -14,3 +14,4 @@ rustup-toolchain-install-master
 solana-cli
 cpp_demangle
 tendermint-rpc
+foundationdb-gen
