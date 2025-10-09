@@ -49,3 +49,4 @@ wit-cli
 clippy
 python-project-generator
 ext-sort
+deduplicator
