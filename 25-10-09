@@ -54,3 +54,4 @@ socketcan
 deno
 wol-rs
 deno
+wit-cli
