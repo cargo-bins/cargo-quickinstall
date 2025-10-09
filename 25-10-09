@@ -13,3 +13,4 @@ foundationdb-gen
 protox
 clippy
 ext-sort
+raw-cpuid
