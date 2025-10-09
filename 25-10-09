@@ -52,3 +52,4 @@ ext-sort
 deduplicator
 socketcan
 deno
+wol-rs
