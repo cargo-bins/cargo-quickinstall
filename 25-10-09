@@ -57,3 +57,4 @@ cargo-script
 graphql_client_cli
 binstall
 deno
+wit-cli
