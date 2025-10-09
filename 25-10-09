@@ -25,3 +25,4 @@ foundationdb-gen
 esp-config
 protox
 nextest
+clippy
