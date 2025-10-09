@@ -25,3 +25,4 @@ ext-sort
 socketcan
 wol-rs
 nexmark
+graphql_client_cli
