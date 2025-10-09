@@ -36,3 +36,4 @@ simple-http-server
 cargo-mobile2
 deno
 cargo-list
+foundationdb-gen
