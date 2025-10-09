@@ -10,3 +10,4 @@ dotslash
 foundationdb-gen
 protox
 clippy
+socketcan
