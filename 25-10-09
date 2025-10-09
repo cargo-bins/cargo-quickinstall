@@ -26,3 +26,4 @@ socketcan
 wol-rs
 nexmark
 graphql_client_cli
+deploy
