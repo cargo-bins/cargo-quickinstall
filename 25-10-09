@@ -62,3 +62,4 @@ cargo-script
 fake
 deno
 cargo-script
+binstall
