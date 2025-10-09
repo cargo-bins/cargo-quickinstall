@@ -58,3 +58,4 @@ graphql_client_cli
 binstall
 deno
 wit-cli
+cargo-script
