@@ -16,3 +16,4 @@ clippy
 socketcan
 raw-cpuid
 wol-rs
+nexmark
