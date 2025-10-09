@@ -27,3 +27,4 @@ cargo-list
 qsv
 uv
 dioxus-cli
+wit-cli
