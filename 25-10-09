@@ -16,3 +16,4 @@ wol-rs
 dbus-codegen
 nexmark
 tuftool
+graphql_client_cli
