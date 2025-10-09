@@ -19,3 +19,4 @@ raw-cpuid
 wol-rs
 dbus-codegen
 nexmark
+fake
