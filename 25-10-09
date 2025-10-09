@@ -37,3 +37,4 @@ cargo-mobile2
 deno
 cargo-list
 foundationdb-gen
+python-project-generator
