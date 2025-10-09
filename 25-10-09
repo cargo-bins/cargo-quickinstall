@@ -22,3 +22,4 @@ foundationdb-gen
 protox
 clippy
 ext-sort
+socketcan
