@@ -38,3 +38,4 @@ deno
 cargo-list
 foundationdb-gen
 python-project-generator
+genson-cli
