@@ -34,3 +34,4 @@ wol-rs
 nextest
 nexmark
 cargo-generate
+esp-config
