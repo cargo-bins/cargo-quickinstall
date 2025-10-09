@@ -11,3 +11,4 @@ foundationdb-gen
 protox
 clippy
 socketcan
+raw-cpuid
