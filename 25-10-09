@@ -46,3 +46,4 @@ clippy
 socketcan
 raw-cpuid
 wol-rs
+argus-cli
