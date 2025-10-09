@@ -48,3 +48,4 @@ raw-cpuid
 wol-rs
 argus-cli
 deno
+genson-cli
