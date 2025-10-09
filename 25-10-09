@@ -18,3 +18,4 @@ socketcan
 wol-rs
 dbus-codegen
 nexmark
+graphql_client_cli
