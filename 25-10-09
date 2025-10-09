@@ -16,3 +16,4 @@ clippy
 ext-sort
 socketcan
 raw-cpuid
+wol-rs
