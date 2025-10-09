@@ -56,3 +56,4 @@ wol-rs
 deno
 wit-cli
 wit-cli
+dbus-codegen
