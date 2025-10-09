@@ -19,3 +19,4 @@ dioxus-cli
 vdev
 argus-cli
 uv
+cargo-list
