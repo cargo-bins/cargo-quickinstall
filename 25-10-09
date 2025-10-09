@@ -30,3 +30,4 @@ dioxus-cli
 python-project-generator
 simple-http-server
 vdev
+cargo-list
