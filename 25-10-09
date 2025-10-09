@@ -17,3 +17,4 @@ raw-cpuid
 socketcan
 wol-rs
 dbus-codegen
+nexmark
