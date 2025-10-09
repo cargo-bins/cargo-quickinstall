@@ -44,3 +44,4 @@ argus-cli
 protox
 clippy
 socketcan
+raw-cpuid
