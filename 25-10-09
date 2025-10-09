@@ -14,3 +14,4 @@ lingua
 foundationdb-gen
 clippy
 ext-sort
+socketcan
