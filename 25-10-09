@@ -31,3 +31,4 @@ socketcan
 raw-cpuid
 nextest
 wol-rs
+nextest
