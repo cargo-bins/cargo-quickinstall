@@ -16,3 +16,4 @@ ext-sort
 raw-cpuid
 socketcan
 wol-rs
+dbus-codegen
