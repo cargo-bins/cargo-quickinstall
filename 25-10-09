@@ -28,3 +28,4 @@ nextest
 clippy
 sqlx-cli
 socketcan
+raw-cpuid
