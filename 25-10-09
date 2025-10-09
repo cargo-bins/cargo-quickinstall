@@ -25,3 +25,4 @@ nexmark
 cargo-generate
 cargo-vet
 git-mit-install
+fake
