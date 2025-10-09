@@ -13,3 +13,4 @@ foundationdb-gen
 dotenv
 protox
 clippy
+socketcan
