@@ -13,3 +13,4 @@ clippy
 socketcan
 raw-cpuid
 wol-rs
+dbus-codegen
