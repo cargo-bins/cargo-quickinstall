@@ -62,3 +62,4 @@ nexmark
 cargo-script
 deno
 cargo-script
+graphql_client_cli
