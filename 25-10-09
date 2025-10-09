@@ -30,3 +30,4 @@ sqlx-cli
 socketcan
 raw-cpuid
 nextest
+wol-rs
