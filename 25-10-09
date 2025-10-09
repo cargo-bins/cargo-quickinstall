@@ -12,3 +12,4 @@ lingua
 foundationdb-gen
 protox
 clippy
+socketcan
