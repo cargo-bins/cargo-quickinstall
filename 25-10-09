@@ -33,3 +33,4 @@ nextest
 wol-rs
 nextest
 nexmark
+cargo-generate
