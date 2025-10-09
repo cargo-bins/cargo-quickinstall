@@ -49,3 +49,4 @@ wol-rs
 argus-cli
 deno
 genson-cli
+dbus-codegen
