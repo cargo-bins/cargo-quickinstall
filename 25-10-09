@@ -35,3 +35,4 @@ nextest
 nexmark
 cargo-generate
 esp-config
+git-mit-install
