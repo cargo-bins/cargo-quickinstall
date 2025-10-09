@@ -33,3 +33,4 @@ vdev
 cargo-list
 qsv
 cargo-list
+genson-cli
