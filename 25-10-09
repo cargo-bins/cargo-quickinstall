@@ -27,3 +27,4 @@ protox
 nextest
 clippy
 sqlx-cli
+socketcan
