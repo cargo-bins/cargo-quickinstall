@@ -2,3 +2,4 @@ website_crawler
 openpty
 tendermint-abci
 ncspot
+libbpf-cargo
