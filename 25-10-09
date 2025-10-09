@@ -14,3 +14,4 @@ protox
 clippy
 ext-sort
 raw-cpuid
+socketcan
