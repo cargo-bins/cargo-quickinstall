@@ -19,3 +19,4 @@ protox
 clippy
 socketcan
 raw-cpuid
+wol-rs
