@@ -21,3 +21,4 @@ cargo-mobile2
 foundationdb-gen
 protox
 clippy
+ext-sort
