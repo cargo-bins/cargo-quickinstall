@@ -60,3 +60,4 @@ dbus-codegen
 binstall
 nexmark
 cargo-script
+deno
