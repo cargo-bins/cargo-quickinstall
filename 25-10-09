@@ -53,3 +53,4 @@ dbus-codegen
 nexmark
 wit-cli
 binstall
+cargo-script
