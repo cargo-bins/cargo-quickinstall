@@ -36,3 +36,4 @@ cargo-list
 genson-cli
 uv
 wit-cli
+deno
