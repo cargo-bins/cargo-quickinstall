@@ -43,3 +43,4 @@ schemafy
 ducc-sys
 syd
 opencv-binding-generator
+probe-rs-cli
