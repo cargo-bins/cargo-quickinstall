@@ -39,3 +39,4 @@ rrule
 fake
 dbus-codegen
 opencv-binding-generator
+schemafy
