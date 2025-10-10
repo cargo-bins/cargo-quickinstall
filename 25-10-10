@@ -21,3 +21,4 @@ cargo-binstall
 rrule
 cargo-binstall
 fake
+dbus-codegen
