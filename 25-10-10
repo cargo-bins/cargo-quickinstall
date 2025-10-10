@@ -1,3 +1,4 @@
 build-fs-tree
 simple-http-server
 cargo-dylint
+cargo-script
