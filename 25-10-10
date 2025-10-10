@@ -9,3 +9,4 @@ project_init
 nexmark
 human_bytes
 zuse
+tree-sitter-md
