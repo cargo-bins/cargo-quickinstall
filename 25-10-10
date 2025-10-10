@@ -20,3 +20,4 @@ tendermint-abci
 sn_node_rpc_client
 sn_faucet
 borsh
+pandora_box
