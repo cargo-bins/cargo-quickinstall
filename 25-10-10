@@ -13,3 +13,4 @@ human_bytes
 tree-sitter-md
 xargo
 clippy
+foundationdb-gen
