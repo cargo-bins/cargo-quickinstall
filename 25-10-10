@@ -30,3 +30,4 @@ rzup
 dbus-codegen
 opencv-binding-generator
 schemafy
+ducc-sys
