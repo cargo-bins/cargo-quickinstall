@@ -2,3 +2,4 @@ build-fs-tree
 binstall
 deno
 cargo-dylint
+rustdesk
