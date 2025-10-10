@@ -38,3 +38,4 @@ borsh
 rrule
 fake
 dbus-codegen
+opencv-binding-generator
