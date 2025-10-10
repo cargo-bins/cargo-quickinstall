@@ -3,3 +3,4 @@ rustup-toolchain-install-master
 rtx-cli
 website_crawler
 proof-of-sql
+project_init
