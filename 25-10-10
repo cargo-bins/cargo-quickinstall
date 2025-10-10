@@ -17,3 +17,4 @@ foundationdb-gen
 holochain_cli_bundle
 dioxus-cli
 tendermint-abci
+sn_node_rpc_client
