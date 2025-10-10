@@ -24,3 +24,4 @@ rrule
 foundationdb-gen
 dns-doge
 tendermint-abci
+borsh
