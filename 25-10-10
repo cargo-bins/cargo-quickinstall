@@ -37,3 +37,4 @@ c2rust
 borsh
 rrule
 fake
+dbus-codegen
