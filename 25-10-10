@@ -2,3 +2,4 @@ build-fs-tree
 rrule
 rtx-cli
 rustup-toolchain-install-master
+website_crawler
