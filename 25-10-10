@@ -19,3 +19,4 @@ rrule
 rzup
 fake
 dbus-codegen
+opencv-binding-generator
