@@ -26,3 +26,4 @@ opencv-binding-generator
 wasm-tools
 java-locator
 deploy
+cargo-risczero
