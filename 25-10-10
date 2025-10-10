@@ -22,3 +22,4 @@ rrule
 cargo-binstall
 fake
 dbus-codegen
+opencv-binding-generator
