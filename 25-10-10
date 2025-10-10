@@ -25,3 +25,4 @@ ducc-sys
 opencv-binding-generator
 wasm-tools
 java-locator
+deploy
