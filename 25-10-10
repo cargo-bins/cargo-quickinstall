@@ -24,3 +24,4 @@ pandora_box
 tokio-process
 rrule
 sp1-prover
+iai-callgrind-runner
