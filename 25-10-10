@@ -6,3 +6,4 @@ rustdesk
 rustup-toolchain-install-master
 rtx-cli
 cargo-script
+simple-http-server
