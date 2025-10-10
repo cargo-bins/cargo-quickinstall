@@ -13,3 +13,4 @@ xargo
 clippy
 foundationdb-gen
 tendermint-abci
+borsh
