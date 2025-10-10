@@ -10,3 +10,4 @@ clippy
 foundationdb-gen
 tendermint-abci
 borsh
+cached-path
