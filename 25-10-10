@@ -23,3 +23,4 @@ opencv-binding-generator
 schemafy
 ducc-sys
 opencv-binding-generator
+wasm-tools
