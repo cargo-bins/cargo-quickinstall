@@ -48,3 +48,4 @@ probe-rs-cli
 ducc-sys
 syd
 probe-rs-cli
+ruff
