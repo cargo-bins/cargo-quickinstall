@@ -4,3 +4,4 @@ rustup-toolchain-install-master
 stellar-strkey
 website_crawler
 controller
+proof-of-sql
