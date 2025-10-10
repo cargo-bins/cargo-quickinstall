@@ -10,3 +10,4 @@ clippy
 rrule
 foundationdb-gen
 tendermint-abci
+borsh
