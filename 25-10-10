@@ -49,3 +49,4 @@ ducc-sys
 syd
 probe-rs-cli
 ruff
+opencv-binding-generator
