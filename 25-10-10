@@ -28,3 +28,4 @@ iai-callgrind-runner
 fake
 rzup
 dbus-codegen
+opencv-binding-generator
