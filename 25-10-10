@@ -5,3 +5,4 @@ cargo-dylint
 rustdesk
 rustup-toolchain-install-master
 rtx-cli
+cargo-script
