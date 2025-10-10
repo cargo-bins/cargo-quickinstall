@@ -8,3 +8,4 @@ tree-sitter-md
 xargo
 clippy
 foundationdb-gen
+tendermint-abci
