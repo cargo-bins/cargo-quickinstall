@@ -10,3 +10,4 @@ simple-http-server
 cargo-script
 simple-http-server
 binstall
+cargo-dylint
