@@ -3,3 +3,4 @@ simple-http-server
 cargo-dylint
 cargo-script
 rtx-cli
+rustdesk
