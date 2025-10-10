@@ -9,3 +9,4 @@ xargo
 clippy
 rrule
 foundationdb-gen
+tendermint-abci
