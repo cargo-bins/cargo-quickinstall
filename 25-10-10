@@ -19,3 +19,4 @@ dbus-codegen
 opencv-binding-generator
 schemafy
 ducc-sys
+syd
