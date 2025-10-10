@@ -12,3 +12,4 @@ simple-http-server
 binstall
 cargo-dylint
 website_crawler
+rustdesk
