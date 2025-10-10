@@ -3,3 +3,4 @@ binstall
 deno
 cargo-dylint
 rustdesk
+rustup-toolchain-install-master
