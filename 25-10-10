@@ -2,3 +2,4 @@ build-fs-tree
 kani-verifier
 httpbis
 sn_faucet
+rtx-cli
