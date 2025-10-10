@@ -24,3 +24,4 @@ fake
 dbus-codegen
 opencv-binding-generator
 schemafy
+ducc-sys
