@@ -14,3 +14,4 @@ tree-sitter-md
 xargo
 clippy
 foundationdb-gen
+holochain_cli_bundle
