@@ -21,3 +21,4 @@ bluetui
 project_init
 nexmark
 wit-cli
+sea-orm-cli
