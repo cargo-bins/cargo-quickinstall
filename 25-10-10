@@ -45,3 +45,4 @@ opencv-binding-generator
 schemafy
 probe-rs-cli
 probe-rs-cli
+ducc-sys
