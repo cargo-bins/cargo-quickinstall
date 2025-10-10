@@ -1,2 +1,3 @@
 build-fs-tree
 rustup-toolchain-install-master
+rtx-cli
