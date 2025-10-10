@@ -15,3 +15,4 @@ borsh
 rrule
 sp1-prover
 fake
+dbus-codegen
