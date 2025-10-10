@@ -15,3 +15,4 @@ xargo
 clippy
 rrule
 foundationdb-gen
+borsh
