@@ -10,3 +10,4 @@ rustpatcher
 rsgen-avro
 nextest
 rls-rustc
+libbpf-cargo
