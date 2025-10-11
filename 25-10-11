@@ -16,3 +16,4 @@ sea-orm-cli
 rls-rustc
 venator-app
 venator-app
+libbpf-cargo
