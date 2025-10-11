@@ -12,3 +12,4 @@ sp1-prover
 rls-rustc
 holochain
 libbpf-cargo
+tree_magic
