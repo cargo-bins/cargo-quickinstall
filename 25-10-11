@@ -21,3 +21,4 @@ diesel_cli
 sn_cli
 safe_network
 rsgen-avro
+holochain
