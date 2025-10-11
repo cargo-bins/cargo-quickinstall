@@ -13,3 +13,4 @@ rls-rustc
 libbpf-cargo
 nextest
 nkeys
+nextest
