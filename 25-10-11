@@ -19,3 +19,4 @@ diesel_cli
 safe_network
 rsgen-avro
 spider_worker
+solana-gossip
