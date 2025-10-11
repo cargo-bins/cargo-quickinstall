@@ -5,3 +5,4 @@ ruff
 sea-orm-cli
 diesel_cli
 rustrict
+sea-orm-cli
