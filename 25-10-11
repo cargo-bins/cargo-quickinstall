@@ -26,3 +26,4 @@ diesel_cli
 safe_network
 rsgen-avro
 holochain
+solana-gossip
