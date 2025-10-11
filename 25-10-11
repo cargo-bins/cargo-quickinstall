@@ -19,3 +19,4 @@ statsig-rs
 a11ywatch_cli
 coldsnap
 pgrx-tests
+diesel_cli
