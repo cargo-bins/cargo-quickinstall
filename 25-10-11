@@ -12,3 +12,4 @@ nextest
 rls-rustc
 libbpf-cargo
 nextest
+nkeys
