@@ -24,3 +24,4 @@ rsgen-avro
 holochain
 spider_worker
 cargo-risczero
+solana-gossip
