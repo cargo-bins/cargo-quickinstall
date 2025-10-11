@@ -22,3 +22,4 @@ features-cli
 pgrx-tests
 diesel_cli
 rsgen-avro
+stellar-strkey
