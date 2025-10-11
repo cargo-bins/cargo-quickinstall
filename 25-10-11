@@ -7,3 +7,4 @@ cargo-local-registry
 rls-rustc
 holochain
 libbpf-cargo
+tree_magic
