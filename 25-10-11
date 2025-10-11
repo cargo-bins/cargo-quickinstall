@@ -14,3 +14,4 @@ sn_cli
 papyrus_storage
 rmesg
 iai-callgrind-runner
+coldsnap
