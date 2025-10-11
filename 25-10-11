@@ -4,3 +4,4 @@ solana-keygen
 diesel_cli
 rustrict
 zuse
+cargo-msrv
