@@ -25,3 +25,4 @@ holochain
 spider_worker
 cargo-risczero
 solana-gossip
+stellar-strkey
