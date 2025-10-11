@@ -4,3 +4,4 @@ rustrict
 java-locator
 rsgen-avro
 cargo-local-registry
+rls-rustc
