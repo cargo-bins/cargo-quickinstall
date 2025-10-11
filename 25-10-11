@@ -3,3 +3,4 @@ nexmark
 ruff
 solana-keygen
 sea-orm-cli
+probe-rs-cli
