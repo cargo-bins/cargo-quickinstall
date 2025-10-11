@@ -21,3 +21,4 @@ features-cli
 features-cli
 pgrx-tests
 diesel_cli
+rsgen-avro
