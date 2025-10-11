@@ -20,3 +20,4 @@ statsig-rs
 pgrx-tests
 diesel_cli
 rsgen-avro
+solana-stake-accounts
