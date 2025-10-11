@@ -20,3 +20,4 @@ safe_network
 rsgen-avro
 spider_worker
 solana-gossip
+stellar-strkey
