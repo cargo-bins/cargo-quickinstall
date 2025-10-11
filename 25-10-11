@@ -11,3 +11,4 @@ nextest
 nextest
 sp1-prover
 rls-rustc
+libbpf-cargo
