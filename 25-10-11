@@ -10,3 +10,4 @@ rsgen-avro
 nextest
 nextest
 sp1-prover
+rls-rustc
