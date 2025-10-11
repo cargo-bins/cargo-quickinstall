@@ -10,3 +10,4 @@ sea-orm-cli
 ruff
 zuse
 venator-app
+rsgen-avro
