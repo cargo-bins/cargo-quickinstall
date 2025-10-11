@@ -10,3 +10,4 @@ libbpf-cargo
 tree_magic
 deno
 nkeys
+sn_cli
