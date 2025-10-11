@@ -8,3 +8,4 @@ cargo-msrv
 shunkakinoki
 rsgen-avro
 sp1-prover
+rls-rustc
