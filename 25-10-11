@@ -4,3 +4,4 @@ ruff
 solana-keygen
 sea-orm-cli
 probe-rs-cli
+diesel_cli
