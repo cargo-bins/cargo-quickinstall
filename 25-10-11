@@ -6,3 +6,4 @@ rsgen-avro
 cargo-local-registry
 rls-rustc
 holochain
+libbpf-cargo
