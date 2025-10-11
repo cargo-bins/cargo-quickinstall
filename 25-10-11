@@ -9,3 +9,4 @@ nextest
 rustpatcher
 rsgen-avro
 nextest
+rls-rustc
