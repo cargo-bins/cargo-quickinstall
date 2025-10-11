@@ -2,3 +2,4 @@ nexmark
 librespot
 probe-rs-cli
 ruff
+sea-orm-cli
