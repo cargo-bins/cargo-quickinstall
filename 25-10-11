@@ -16,3 +16,4 @@ rmesg
 iai-callgrind-runner
 coldsnap
 pgrx-tests
+sn_node
