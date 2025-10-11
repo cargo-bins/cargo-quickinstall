@@ -17,3 +17,4 @@ nextest
 laminar
 pgrx-tests
 diesel_cli
+rsgen-avro
