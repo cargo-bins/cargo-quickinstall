@@ -3,3 +3,4 @@ remove_dir_all
 cargo-msrv
 sass-rs
 esp-config
+xargo
