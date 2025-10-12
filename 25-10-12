@@ -50,3 +50,4 @@ tree-sitter-cli
 binwalk
 foundationdb-gen
 rg
+sass-rs
