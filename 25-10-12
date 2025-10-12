@@ -7,3 +7,4 @@ xargo
 uniffi
 solana-cli
 cargo-lambda
+spider_worker
