@@ -19,3 +19,4 @@ foundationdb-gen
 sass-rs
 fermium
 cargo-local-registry
+snarkvm
