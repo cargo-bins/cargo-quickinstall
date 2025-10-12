@@ -8,3 +8,4 @@ iai-callgrind-runner
 sass-rs
 honggfuzz
 esp-config
+xargo
