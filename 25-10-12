@@ -2,3 +2,4 @@ clap-stdin
 sass-rs
 esp-config
 xargo
+uniffi
