@@ -9,3 +9,4 @@ cargo-lambda
 spider_worker
 calcit
 papyrus_storage
+wol-rs
