@@ -11,3 +11,4 @@ esp-config
 xargo
 winpty-rs
 ducc-sys
+uniffi
