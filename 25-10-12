@@ -6,3 +6,4 @@ esp-config
 xargo
 uniffi
 cargo-lambda
+spider_worker
