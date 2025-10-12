@@ -9,3 +9,4 @@ solana-cli
 cargo-lambda
 spider_worker
 papyrus_storage
+gpgme
