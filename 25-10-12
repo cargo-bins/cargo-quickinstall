@@ -20,3 +20,4 @@ sass-rs
 fermium
 cargo-local-registry
 snarkvm
+rmesg
