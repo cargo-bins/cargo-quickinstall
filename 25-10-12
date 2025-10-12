@@ -6,3 +6,4 @@ esp-config
 xargo
 uniffi
 solana-cli
+cargo-lambda
