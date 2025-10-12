@@ -9,3 +9,4 @@ sass-rs
 honggfuzz
 esp-config
 xargo
+winpty-rs
