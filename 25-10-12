@@ -20,3 +20,4 @@ ducc-sys
 uniffi
 papyrus_storage
 wol-rs
+foundationdb-gen
