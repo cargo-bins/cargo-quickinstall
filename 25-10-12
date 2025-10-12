@@ -2,3 +2,4 @@ tgt
 nrf-recover
 clap-stdin
 cargo-dylint
+nrf-recover
