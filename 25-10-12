@@ -5,3 +5,4 @@ esp-config
 winpty-rs
 xargo
 ducc-sys
+uniffi
