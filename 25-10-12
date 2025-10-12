@@ -4,3 +4,4 @@ honggfuzz
 mit-pre-commit
 clap-stdin
 remove_dir_all
+cargo-script
