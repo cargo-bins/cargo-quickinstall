@@ -4,3 +4,4 @@ esp-config
 xargo
 uniffi
 gpgme
+wol-rs
