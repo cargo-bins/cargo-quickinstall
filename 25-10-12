@@ -10,3 +10,4 @@ honggfuzz
 esp-config
 xargo
 winpty-rs
+ducc-sys
