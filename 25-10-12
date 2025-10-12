@@ -3,3 +3,4 @@ remove_dir_all
 esp-config
 xargo
 uniffi
+gpgme
