@@ -49,3 +49,4 @@ mise
 tree-sitter-cli
 binwalk
 foundationdb-gen
+rg
