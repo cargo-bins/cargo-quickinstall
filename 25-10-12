@@ -11,3 +11,4 @@ papyrus_storage
 gpgme
 wol-rs
 solana-stake-accounts
+foundationdb-gen
