@@ -4,3 +4,4 @@ sass-rs
 esp-config
 winpty-rs
 xargo
+ducc-sys
