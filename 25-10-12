@@ -2,3 +2,4 @@ remove_dir_all
 clap-stdin
 sass-rs
 esp-config
+winpty-rs
