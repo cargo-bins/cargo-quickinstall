@@ -18,3 +18,4 @@ wol-rs
 foundationdb-gen
 sass-rs
 fermium
+cargo-local-registry
