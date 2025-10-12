@@ -6,3 +6,4 @@ winpty-rs
 xargo
 ducc-sys
 uniffi
+spider_worker
