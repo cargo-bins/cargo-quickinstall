@@ -1,3 +1,4 @@
 clap-stdin
 remove_dir_all
 cargo-msrv
+sass-rs
