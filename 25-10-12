@@ -5,3 +5,4 @@ remove_dir_all
 httm
 skim
 iai-callgrind-runner
+sass-rs
