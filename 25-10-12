@@ -27,3 +27,4 @@ pijul
 uv
 ducc-sys
 uv
+cargo-dylint
