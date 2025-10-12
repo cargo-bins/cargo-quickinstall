@@ -3,3 +3,4 @@ nrf-recover
 clap-stdin
 cargo-dylint
 nrf-recover
+cargo-dylint
