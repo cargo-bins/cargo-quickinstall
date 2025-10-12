@@ -54,3 +54,4 @@ sass-rs
 binwalk
 rg
 rg
+tree-sitter-cli
