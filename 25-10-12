@@ -1,2 +1,3 @@
 honggfuzz
 mit-pre-commit
+clap-stdin
