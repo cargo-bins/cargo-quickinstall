@@ -3,3 +3,4 @@ clap-stdin
 sass-rs
 esp-config
 winpty-rs
+xargo
