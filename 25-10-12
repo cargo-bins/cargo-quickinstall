@@ -16,3 +16,4 @@ tgt
 nrf-recover
 alacritty
 xargo
+winpty-rs
