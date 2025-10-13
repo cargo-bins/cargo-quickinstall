@@ -17,3 +17,4 @@ crypto-cli-tools
 snarkvm
 syd
 cargo-msrv
+commit_verify
