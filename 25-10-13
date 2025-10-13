@@ -20,3 +20,4 @@ cargo-msrv
 commit_verify
 rrule
 wol-rs
+commit_verify
