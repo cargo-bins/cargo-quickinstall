@@ -6,3 +6,4 @@ borsh
 z3tracer
 sqlx-cli
 tree-sitter-graph
+rsgen-avro
