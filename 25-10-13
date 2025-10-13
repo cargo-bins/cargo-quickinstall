@@ -11,3 +11,4 @@ rustup-toolchain-install-master
 spl-token-cli
 librespot
 tree-sitter-graph
+z3tracer
