@@ -12,3 +12,4 @@ rsgen-avro
 crypto-cli-tools
 syd
 commit_verify
+diesel_cli
