@@ -4,3 +4,4 @@ cargo-vet
 cargo-risczero
 stellar-strkey
 borsh
+crypto-cli-tools
