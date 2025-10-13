@@ -12,3 +12,4 @@ wayland-pipewire-idle-inhibit
 tendermint-rpc
 cavif
 wayland-pipewire-idle-inhibit
+avif-decode
