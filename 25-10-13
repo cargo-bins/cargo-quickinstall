@@ -31,3 +31,4 @@ cargo-template
 tree-sitter-graph
 librespot
 rsgen-avro
+avif-decode
