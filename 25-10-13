@@ -6,3 +6,4 @@ cargo-risczero
 stellar-strkey
 raw-cpuid
 borsh
+crypto-cli-tools
