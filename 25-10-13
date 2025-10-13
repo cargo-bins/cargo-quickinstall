@@ -5,3 +5,4 @@ rustrict
 wmi
 tendermint-rpc
 stellar-strkey
+raw-cpuid
