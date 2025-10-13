@@ -6,3 +6,4 @@ stellar-strkey
 borsh
 crypto-cli-tools
 sqlx-cli
+z3tracer
