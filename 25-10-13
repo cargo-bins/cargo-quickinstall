@@ -26,3 +26,4 @@ wayland-pipewire-idle-inhibit
 cargo-template
 cargo-template
 z3tracer
+rustup-toolchain-install-master
