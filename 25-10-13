@@ -6,3 +6,4 @@ stellar-strkey
 raw-cpuid
 borsh
 z3tracer
+tree-sitter-graph
