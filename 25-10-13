@@ -5,3 +5,4 @@ wmi
 cargo-risczero
 stellar-strkey
 raw-cpuid
+borsh
