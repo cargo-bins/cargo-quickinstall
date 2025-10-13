@@ -28,3 +28,4 @@ cargo-template
 z3tracer
 rustup-toolchain-install-master
 cargo-template
+tree-sitter-graph
