@@ -21,3 +21,4 @@ rrule
 commit_verify
 solana-genesis
 ducc-sys
+tendermint-abci
