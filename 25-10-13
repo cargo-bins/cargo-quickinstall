@@ -7,3 +7,4 @@ stellar-strkey
 crypto-cli-tools
 borsh
 z3tracer
+rustup-toolchain-install-master
