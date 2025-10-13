@@ -3,3 +3,4 @@ wmi
 tendermint-rpc
 calcit
 stellar-strkey
+raw-cpuid
