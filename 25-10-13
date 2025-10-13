@@ -3,3 +3,4 @@ rustrict
 cargo-vet
 cargo-risczero
 stellar-strkey
+borsh
