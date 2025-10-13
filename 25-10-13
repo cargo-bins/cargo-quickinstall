@@ -30,3 +30,4 @@ rustup-toolchain-install-master
 cargo-template
 tree-sitter-graph
 librespot
+rsgen-avro
