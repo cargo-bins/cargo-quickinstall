@@ -17,3 +17,4 @@ statime-linux
 rrule
 cargo-generate
 text-diff
+commit_verify
