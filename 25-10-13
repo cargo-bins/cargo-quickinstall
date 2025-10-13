@@ -16,3 +16,4 @@ rsgen-avro
 crypto-cli-tools
 snarkvm
 syd
+cargo-msrv
