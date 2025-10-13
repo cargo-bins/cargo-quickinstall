@@ -9,3 +9,4 @@ raw-cpuid
 borsh
 crypto-cli-tools
 z3tracer
+rustup-toolchain-install-master
