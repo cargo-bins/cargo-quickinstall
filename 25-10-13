@@ -19,3 +19,4 @@ syd
 cargo-msrv
 commit_verify
 rrule
+wol-rs
