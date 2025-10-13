@@ -22,3 +22,4 @@ cargo-template
 cavif
 crypto-cli-tools
 cargo-template
+wayland-pipewire-idle-inhibit
