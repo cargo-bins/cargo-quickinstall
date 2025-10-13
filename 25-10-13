@@ -4,3 +4,4 @@ tendermint-rpc
 calcit
 stellar-strkey
 raw-cpuid
+borsh
