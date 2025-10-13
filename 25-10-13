@@ -10,3 +10,4 @@ borsh
 crypto-cli-tools
 z3tracer
 rustup-toolchain-install-master
+tree-sitter-graph
