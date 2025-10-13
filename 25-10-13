@@ -7,3 +7,4 @@ stellar-strkey
 raw-cpuid
 borsh
 crypto-cli-tools
+rustup-toolchain-install-master
