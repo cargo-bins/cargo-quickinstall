@@ -9,3 +9,4 @@ rustup-toolchain-install-master
 librespot
 tree-sitter-graph
 rsgen-avro
+crypto-cli-tools
