@@ -7,3 +7,4 @@ borsh
 crypto-cli-tools
 sqlx-cli
 z3tracer
+tree-sitter-graph
