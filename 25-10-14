@@ -56,3 +56,4 @@ bun
 socketcan
 spl-token-cli
 libbpf-cargo
+build-fs-tree
