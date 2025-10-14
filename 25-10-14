@@ -11,3 +11,4 @@ remove_dir_all
 xargo
 opencv-binding-generator
 socketcan
+spl-token-cli
