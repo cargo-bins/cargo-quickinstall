@@ -27,3 +27,4 @@ socketcan
 remove_dir_all
 spl-token-cli
 libbpf-cargo
+build-fs-tree
