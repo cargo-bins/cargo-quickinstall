@@ -8,3 +8,4 @@ tendermint-abci
 remove_dir_all
 statime-linux
 dotenv
+xargo
