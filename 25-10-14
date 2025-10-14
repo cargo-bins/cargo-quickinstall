@@ -16,3 +16,4 @@ opencv-binding-generator
 rzup
 socketcan
 zellij
+remove_dir_all
