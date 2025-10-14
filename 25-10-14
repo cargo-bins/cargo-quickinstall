@@ -12,3 +12,4 @@ xargo
 opencv-binding-generator
 socketcan
 spl-token-cli
+libbpf-cargo
