@@ -12,3 +12,4 @@ tree_magic
 statsig-rs
 cargo-lambda
 xargo
+opencv-binding-generator
