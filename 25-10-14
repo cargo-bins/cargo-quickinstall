@@ -20,3 +20,4 @@ dotenv
 xargo
 raw-cpuid
 opencv-binding-generator
+socketcan
