@@ -13,3 +13,4 @@ statsig-rs
 cargo-lambda
 xargo
 opencv-binding-generator
+rzup
