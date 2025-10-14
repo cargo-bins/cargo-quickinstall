@@ -11,3 +11,4 @@ esp-config
 pyapp
 nextest
 mdbook-plantuml
+tree-sitter-graph
