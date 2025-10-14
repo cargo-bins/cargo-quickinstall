@@ -19,3 +19,4 @@ remove_dir_all
 cargo-generate
 mit-pre-commit
 sn_faucet
+xargo
