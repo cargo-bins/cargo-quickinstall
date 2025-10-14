@@ -16,3 +16,4 @@ z3tracer
 shunkakinoki
 commit_verify
 remove_dir_all
+cargo-generate
