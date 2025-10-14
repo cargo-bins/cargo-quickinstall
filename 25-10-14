@@ -18,3 +18,4 @@ wild-linker
 remove_dir_all
 cargo-generate
 statime-linux
+mit-pre-commit
