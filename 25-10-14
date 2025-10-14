@@ -18,3 +18,4 @@ socketcan
 rzup
 deploy
 zellij
+remove_dir_all
