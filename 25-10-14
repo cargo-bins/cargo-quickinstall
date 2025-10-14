@@ -12,3 +12,4 @@ solana-keygen
 statsig-rs
 cargo-lambda
 xargo
+raw-cpuid
