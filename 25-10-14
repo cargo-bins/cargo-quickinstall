@@ -10,3 +10,4 @@ commit_verify
 remove_dir_all
 xargo
 opencv-binding-generator
+socketcan
