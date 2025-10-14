@@ -6,3 +6,4 @@ z3tracer
 commit_verify
 tendermint-abci
 remove_dir_all
+statime-linux
