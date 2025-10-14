@@ -27,3 +27,4 @@ mdbook-plantuml
 blogr-cli
 cargo-embed
 commit_verify
+rg
