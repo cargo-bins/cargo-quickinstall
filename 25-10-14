@@ -19,3 +19,4 @@ statsig-rs
 dotenv
 xargo
 raw-cpuid
+opencv-binding-generator
