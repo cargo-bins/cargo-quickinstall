@@ -4,3 +4,4 @@ dioxus-cli
 cargo-lambda
 protox
 tree-sitter-graph
+z3tracer
