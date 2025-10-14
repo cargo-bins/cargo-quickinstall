@@ -16,3 +16,4 @@ pyapp
 pyapp
 nextest
 cargo-embed
+probe-rs-tools
