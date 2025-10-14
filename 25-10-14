@@ -31,3 +31,4 @@ deploy
 rzup
 spl-token-cli
 libbpf-cargo
+build-fs-tree
