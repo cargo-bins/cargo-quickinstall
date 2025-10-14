@@ -17,3 +17,4 @@ pyapp
 nextest
 cargo-embed
 probe-rs-tools
+wl-screenrec
