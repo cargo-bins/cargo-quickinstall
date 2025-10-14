@@ -46,3 +46,4 @@ xargo
 opencv-binding-generator
 mdbook-plantuml
 probe-rs-tools
+socketcan
