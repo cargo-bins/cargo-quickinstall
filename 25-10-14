@@ -14,3 +14,4 @@ cargo-embed
 tree-sitter-graph
 pyapp
 pyapp
+nextest
