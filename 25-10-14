@@ -16,3 +16,4 @@ commit_verify
 tendermint-abci
 wild-linker
 remove_dir_all
+cargo-generate
