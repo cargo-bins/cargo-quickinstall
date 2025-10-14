@@ -27,3 +27,4 @@ holochain_cli_bundle
 socketcan
 zellij
 rzup
+remove_dir_all
