@@ -26,3 +26,4 @@ nextest
 cargo-embed
 esp-config
 wl-screenrec
+mdbook-plantuml
