@@ -3,3 +3,4 @@ nextest
 pyapp
 solana-validator
 nextest
+cargo-embed
