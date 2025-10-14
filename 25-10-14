@@ -45,3 +45,4 @@ tree_magic
 statsig-rs
 mdbook-plantuml
 wl-screenrec
+dotenv
