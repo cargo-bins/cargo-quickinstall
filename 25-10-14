@@ -32,3 +32,4 @@ mdbook-plantuml
 pyapp
 cargo-embed
 rg
+remove_dir_all
