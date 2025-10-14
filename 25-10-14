@@ -30,3 +30,4 @@ commit_verify
 rg
 mdbook-plantuml
 pyapp
+cargo-embed
