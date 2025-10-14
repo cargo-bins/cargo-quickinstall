@@ -48,3 +48,4 @@ mdbook-plantuml
 probe-rs-tools
 socketcan
 spl-token-cli
+remove_dir_all
