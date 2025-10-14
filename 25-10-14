@@ -25,3 +25,4 @@ raw-cpuid
 opencv-binding-generator
 socketcan
 remove_dir_all
+spl-token-cli
