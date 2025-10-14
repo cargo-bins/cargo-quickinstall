@@ -7,3 +7,4 @@ dioxus-cli
 z3tracer
 dioxus-cli
 commit_verify
+remove_dir_all
