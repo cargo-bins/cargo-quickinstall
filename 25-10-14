@@ -49,3 +49,4 @@ probe-rs-tools
 socketcan
 spl-token-cli
 remove_dir_all
+libbpf-cargo
