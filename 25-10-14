@@ -10,3 +10,4 @@ tendermint-abci
 solana-keygen
 tree_magic
 statsig-rs
+cargo-lambda
