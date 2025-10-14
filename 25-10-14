@@ -44,3 +44,4 @@ wl-screenrec
 statsig-rs
 xargo
 opencv-binding-generator
+mdbook-plantuml
