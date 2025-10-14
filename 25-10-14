@@ -43,3 +43,4 @@ rg
 cargo-embed
 tree_magic
 statsig-rs
+mdbook-plantuml
