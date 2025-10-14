@@ -13,3 +13,4 @@ statsig-rs
 cargo-lambda
 xargo
 raw-cpuid
+opencv-binding-generator
