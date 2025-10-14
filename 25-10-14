@@ -19,3 +19,4 @@ cargo-embed
 probe-rs-tools
 wl-screenrec
 esp-config
+nextest
