@@ -21,3 +21,4 @@ tree_magic
 statsig-rs
 dotenv
 xargo
+raw-cpuid
