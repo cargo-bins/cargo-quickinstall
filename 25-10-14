@@ -13,3 +13,4 @@ opencv-binding-generator
 socketcan
 spl-token-cli
 libbpf-cargo
+build-fs-tree
