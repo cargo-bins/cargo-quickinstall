@@ -22,3 +22,4 @@ sn_faucet
 xargo
 opencv-binding-generator
 exa
+bpf-linker
