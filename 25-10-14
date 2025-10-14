@@ -17,3 +17,4 @@ remove_dir_all
 solana-keygen
 statsig-rs
 dotenv
+xargo
