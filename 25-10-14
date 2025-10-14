@@ -54,3 +54,4 @@ probe-rs-tools
 wl-screenrec
 bun
 socketcan
+spl-token-cli
