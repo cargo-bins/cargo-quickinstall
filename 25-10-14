@@ -24,3 +24,4 @@ xargo
 raw-cpuid
 opencv-binding-generator
 socketcan
+remove_dir_all
