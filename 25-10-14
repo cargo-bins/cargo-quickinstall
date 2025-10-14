@@ -3,3 +3,4 @@ nextest
 pyapp
 cargo-embed
 blogr-cli
+solana-validator
