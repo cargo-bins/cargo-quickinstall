@@ -49,3 +49,4 @@ dotenv
 blogr-cli
 xargo
 probe-rs-tools
+opencv-binding-generator
