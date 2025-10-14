@@ -30,3 +30,4 @@ socketcan
 deploy
 rzup
 spl-token-cli
+libbpf-cargo
