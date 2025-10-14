@@ -9,3 +9,4 @@ commit_verify
 tendermint-abci
 solana-keygen
 tree_magic
+statsig-rs
