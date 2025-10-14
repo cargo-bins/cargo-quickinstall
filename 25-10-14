@@ -10,3 +10,4 @@ statime-linux
 dotenv
 xargo
 socketcan
+remove_dir_all
