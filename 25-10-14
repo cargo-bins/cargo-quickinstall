@@ -53,3 +53,4 @@ opencv-binding-generator
 probe-rs-tools
 wl-screenrec
 bun
+socketcan
