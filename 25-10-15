@@ -5,3 +5,4 @@ cargo-spellcheck
 cargo-msrv
 java-locator
 dprint
+esp-config
