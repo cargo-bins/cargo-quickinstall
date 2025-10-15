@@ -17,3 +17,4 @@ httpbis
 clap-stdin
 git-mit-config
 sqlx-cli
+addr2line
