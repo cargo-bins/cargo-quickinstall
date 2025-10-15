@@ -15,3 +15,4 @@ stellar-strkey
 cargotomllsp
 rustfmt-nightly
 cargotomllsp
+diesel_cli
