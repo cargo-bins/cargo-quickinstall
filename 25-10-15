@@ -8,3 +8,4 @@ stellar-strkey
 rustfmt-nightly
 clap-stdin
 termusic-server
+termusic
