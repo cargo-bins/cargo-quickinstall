@@ -27,3 +27,4 @@ addr2line
 diesel_cli
 tendermint-abci
 ext-sort
+ncspot
