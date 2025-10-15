@@ -18,3 +18,4 @@ statsig-rs
 cargo-lambda
 mise
 mise
+addr2line
