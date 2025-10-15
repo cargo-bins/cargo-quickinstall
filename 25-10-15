@@ -15,3 +15,4 @@ rustfmt-nightly
 wmi
 clap-stdin
 statsig-rs
+cargo-lambda
