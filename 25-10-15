@@ -58,3 +58,4 @@ tod
 cargo-pgrx
 ins
 addr2line
+nu_plugin_query
