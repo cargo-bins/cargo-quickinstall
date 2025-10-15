@@ -24,3 +24,4 @@ termusic-server
 addr2line
 termusic-server
 cargo-show
+nu_plugin_gstat
