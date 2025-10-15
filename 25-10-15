@@ -12,3 +12,4 @@ opencv-binding-generator
 stellar-strkey
 socketcan
 rustfmt-nightly
+wmi
