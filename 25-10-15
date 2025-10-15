@@ -29,3 +29,4 @@ tendermint-abci
 ext-sort
 ncspot
 diesel_cli
+openpty
