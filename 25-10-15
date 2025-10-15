@@ -34,3 +34,4 @@ socketcan
 rustfmt-nightly
 soundscope
 sqlpage
+tod
