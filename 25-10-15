@@ -9,3 +9,4 @@ borsh
 cargo-spellcheck
 tree-sitter-graph
 sqlpage
+bun
