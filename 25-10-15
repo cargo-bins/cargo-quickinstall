@@ -40,3 +40,4 @@ sqlpage
 clap-stdin
 sqlpage
 soundscope
+statsig-rs
