@@ -59,3 +59,4 @@ sqlpage
 addr2line
 soundscope
 cargo-pgrx
+nu_plugin_query
