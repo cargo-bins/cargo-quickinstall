@@ -67,3 +67,4 @@ cargo-pgrx
 ins
 soundscope
 cargo-prefetch
+nu_plugin_gstat
