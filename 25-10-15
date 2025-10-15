@@ -14,3 +14,4 @@ socketcan
 rustfmt-nightly
 wmi
 clap-stdin
+statsig-rs
