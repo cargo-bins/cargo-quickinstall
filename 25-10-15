@@ -7,3 +7,4 @@ bun
 raw-cpuid
 borsh
 cargo-spellcheck
+tree-sitter-graph
