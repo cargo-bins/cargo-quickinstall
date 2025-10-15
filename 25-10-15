@@ -33,3 +33,4 @@ sqlpage
 clap-stdin
 termusic
 bevy_rerecast_editor
+sqlpage
