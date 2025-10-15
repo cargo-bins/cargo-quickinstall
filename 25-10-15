@@ -5,3 +5,4 @@ raw-cpuid
 java-locator
 uniffi
 stellar-strkey
+rustfmt-nightly
