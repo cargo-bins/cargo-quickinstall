@@ -10,3 +10,4 @@ socketcan
 rustfmt-nightly
 nu_plugin_gstat
 wmi
+clap-stdin
