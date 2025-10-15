@@ -28,3 +28,4 @@ diesel_cli
 tendermint-abci
 ext-sort
 ncspot
+diesel_cli
