@@ -33,3 +33,4 @@ stellar-strkey
 socketcan
 rustfmt-nightly
 soundscope
+sqlpage
