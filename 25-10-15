@@ -13,3 +13,4 @@ java-locator
 deploy
 esp-config
 uniffi
+opencv-binding-generator
