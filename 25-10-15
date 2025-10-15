@@ -4,3 +4,4 @@ skim
 dioxus-cli
 mit-commit-msg
 raw-cpuid
+borsh
