@@ -21,3 +21,4 @@ addr2line
 exa
 ec2_instance_metadata
 benfred-read-process-memory
+dprint
