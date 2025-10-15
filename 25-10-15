@@ -7,3 +7,4 @@ java-locator
 dprint
 esp-config
 uniffi
+opencv-binding-generator
