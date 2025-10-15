@@ -14,3 +14,4 @@ clap-stdin
 nu_plugin_gstat
 termusic-server
 cargo-show
+termusic
