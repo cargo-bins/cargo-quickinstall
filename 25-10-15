@@ -41,3 +41,4 @@ clap-stdin
 sqlpage
 soundscope
 statsig-rs
+nu_plugin_query
