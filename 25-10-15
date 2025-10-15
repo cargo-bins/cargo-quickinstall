@@ -6,3 +6,4 @@ probe-rs-tools
 bun
 raw-cpuid
 borsh
+cargo-spellcheck
