@@ -30,3 +30,4 @@ rustfmt-nightly
 sqlpage
 wmi
 sqlpage
+clap-stdin
