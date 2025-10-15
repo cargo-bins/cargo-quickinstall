@@ -15,3 +15,4 @@ stellar-strkey
 rustfmt-nightly
 httpbis
 clap-stdin
+git-mit-config
