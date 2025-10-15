@@ -6,3 +6,4 @@ java-locator
 uniffi
 stellar-strkey
 rustfmt-nightly
+clap-stdin
