@@ -19,3 +19,4 @@ dioxus-cli
 stellar-strkey
 socketcan
 dioxus-cli
+rustfmt-nightly
