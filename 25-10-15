@@ -20,3 +20,4 @@ vdev
 raw-cpuid
 java-locator
 tod
+tree-sitter-cli
