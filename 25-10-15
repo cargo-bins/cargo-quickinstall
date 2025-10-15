@@ -60,3 +60,4 @@ ins
 addr2line
 nu_plugin_query
 cargo-prefetch
+hurl
