@@ -12,3 +12,4 @@ tree-sitter-cli
 borsh
 raw-cpuid
 git-trim
+cargo-spellcheck
