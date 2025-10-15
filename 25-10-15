@@ -4,3 +4,4 @@ ironbar
 safe_network
 probe-rs-tools
 bun
+raw-cpuid
