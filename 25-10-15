@@ -14,3 +14,4 @@ raw-cpuid
 git-trim
 cargo-spellcheck
 tree-sitter-cli
+sqlpage
