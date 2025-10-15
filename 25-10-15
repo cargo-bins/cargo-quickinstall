@@ -22,3 +22,4 @@ dioxus-cli
 rustfmt-nightly
 dioxus-cli
 mise
+clap-stdin
