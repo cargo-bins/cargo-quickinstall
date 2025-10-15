@@ -63,3 +63,4 @@ cargo-prefetch
 hurl
 nu_plugin_gstat
 typst-cli
+cargo-pgrx
