@@ -17,3 +17,4 @@ rustfmt-nightly
 cargotomllsp
 diesel_cli
 clap-stdin
+diesel_cli
