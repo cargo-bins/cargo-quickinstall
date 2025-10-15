@@ -13,3 +13,4 @@ stellar-strkey
 socketcan
 rustfmt-nightly
 wmi
+clap-stdin
