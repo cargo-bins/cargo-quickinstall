@@ -20,3 +20,4 @@ deploy
 bun
 uniffi
 opencv-binding-generator
+bun
