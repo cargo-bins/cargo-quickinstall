@@ -10,3 +10,4 @@ vdev
 git-trim
 tree-sitter-cli
 borsh
+raw-cpuid
