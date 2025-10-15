@@ -2,3 +2,4 @@ rrule
 raw-cpuid
 borsh
 cargo-spellcheck
+cargo-msrv
