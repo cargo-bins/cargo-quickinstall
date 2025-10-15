@@ -8,3 +8,4 @@ opencv-binding-generator
 stellar-strkey
 socketcan
 rustfmt-nightly
+nu_plugin_gstat
