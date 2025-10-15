@@ -4,3 +4,4 @@ borsh
 raw-cpuid
 java-locator
 uniffi
+opencv-binding-generator
