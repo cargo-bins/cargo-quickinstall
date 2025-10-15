@@ -7,3 +7,4 @@ uniffi
 stellar-strkey
 rustfmt-nightly
 clap-stdin
+termusic-server
