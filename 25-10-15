@@ -11,3 +11,4 @@ uniffi
 opencv-binding-generator
 stellar-strkey
 socketcan
+rustfmt-nightly
