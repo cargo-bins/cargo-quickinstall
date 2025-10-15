@@ -6,3 +6,4 @@ cargo-msrv
 java-locator
 dprint
 esp-config
+uniffi
