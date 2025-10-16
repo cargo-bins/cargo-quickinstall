@@ -33,3 +33,4 @@ vdev
 cargo-prefetch
 typst-cli
 stellar-strkey
+argus-cli
