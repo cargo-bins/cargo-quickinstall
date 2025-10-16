@@ -7,3 +7,4 @@ rustup-toolchain-install-master
 laminar
 unic-langid-impl
 solana-ledger-tool
+stellar-strkey
