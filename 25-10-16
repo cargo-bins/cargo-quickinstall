@@ -25,3 +25,4 @@ laminar
 hurl
 unic-langid-impl
 cargo-dylint
+nu_plugin_gstat
