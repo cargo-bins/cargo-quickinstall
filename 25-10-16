@@ -28,3 +28,4 @@ cargo-dylint
 nu_plugin_gstat
 nu_plugin_gstat
 tectonic
+cargo-prefetch
