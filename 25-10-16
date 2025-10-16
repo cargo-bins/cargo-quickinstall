@@ -6,3 +6,4 @@ sass-rs
 add_space
 addr2line
 kalker
+sha1collisiondetection
