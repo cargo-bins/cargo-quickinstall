@@ -3,3 +3,4 @@ human_bytes
 sass-rs
 addr2line
 sha1collisiondetection
+rustup-toolchain-install-master
