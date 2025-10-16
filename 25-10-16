@@ -14,3 +14,4 @@ addr2line
 cargo-prefetch
 nu_plugin_gstat
 cargo-pgrx
+sha1collisiondetection
