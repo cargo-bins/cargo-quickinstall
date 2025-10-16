@@ -4,3 +4,4 @@ sass-rs
 addr2line
 sha1collisiondetection
 rustup-toolchain-install-master
+laminar
