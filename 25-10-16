@@ -14,3 +14,4 @@ sass-rs
 cargo-pgrx
 addr2line
 neovide
+hurl
