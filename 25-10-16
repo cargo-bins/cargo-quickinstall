@@ -11,3 +11,4 @@ termusic
 vdev
 sass-rs
 addr2line
+cargo-prefetch
