@@ -47,3 +47,4 @@ spotify_player
 probe-rs-tools
 miro
 stasis
+remove_dir_all
