@@ -22,3 +22,4 @@ termusic-server
 rustup-toolchain-install-master
 binstall
 laminar
+hurl
