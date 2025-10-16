@@ -12,3 +12,4 @@ vdev
 sass-rs
 addr2line
 cargo-prefetch
+nu_plugin_gstat
