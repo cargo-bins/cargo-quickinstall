@@ -11,3 +11,4 @@ cargo-risczero
 re_query
 git-disjoint
 pgrx-tests
+remove_dir_all
