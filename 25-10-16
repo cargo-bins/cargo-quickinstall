@@ -44,3 +44,4 @@ stasis
 binstall
 argus-cli
 argus-cli
+remove_dir_all
