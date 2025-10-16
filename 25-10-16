@@ -2,3 +2,4 @@ libcst
 termusic
 human_bytes
 cpp_demangle
+addr2line
