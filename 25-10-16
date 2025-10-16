@@ -6,3 +6,4 @@ esp-config
 ncspot
 addr2line
 ncspot
+c2rust
