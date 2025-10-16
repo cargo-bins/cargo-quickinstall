@@ -2,3 +2,4 @@ libcst
 human_bytes
 sass-rs
 addr2line
+sha1collisiondetection
