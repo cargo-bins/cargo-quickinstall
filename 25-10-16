@@ -24,3 +24,4 @@ re_query
 c2rust
 git-disjoint
 uv
+pgrx-tests
