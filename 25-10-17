@@ -38,3 +38,4 @@ cargo-script
 cargo-script
 openpty
 tendermint-rpc
+cargo-script
