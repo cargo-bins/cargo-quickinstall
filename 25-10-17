@@ -32,3 +32,4 @@ tendermint-rpc
 openpty
 dua-cli
 lux-cli
+winpty-rs
