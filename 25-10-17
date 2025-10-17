@@ -9,3 +9,4 @@ investments
 safe_network
 openpty
 tendermint-rpc
+winpty-rs
