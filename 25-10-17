@@ -2,3 +2,4 @@ bat-cli
 argus-cli
 release
 sea-orm-cli
+parquet
