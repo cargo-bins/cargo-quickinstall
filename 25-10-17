@@ -3,3 +3,4 @@ parquet
 foundationdb-gen
 proof-of-sql
 perfcnt
+statsig-rs
