@@ -62,3 +62,4 @@ solana-keygen
 cargo-info
 uv
 probe-run
+kanidm-ldap-sync
