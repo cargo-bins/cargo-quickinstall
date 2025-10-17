@@ -61,3 +61,4 @@ probe-run
 solana-keygen
 cargo-info
 uv
+probe-run
