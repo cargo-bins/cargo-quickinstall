@@ -19,3 +19,4 @@ ruff
 intentrace
 ruff
 minlock
+kanidm-ldap-sync
