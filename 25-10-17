@@ -45,3 +45,4 @@ kanidm-ldap-sync
 kanidm_tools
 cargo-info
 bat-cli
+tendermint-rpc
