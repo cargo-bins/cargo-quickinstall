@@ -47,3 +47,4 @@ cargo-info
 bat-cli
 tendermint-rpc
 minlock
+probe-run
