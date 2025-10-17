@@ -27,3 +27,4 @@ datavzrd
 cargo-script
 cargo-script
 tendermint-rpc
+openpty
