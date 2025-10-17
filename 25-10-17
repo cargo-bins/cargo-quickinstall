@@ -16,3 +16,4 @@ proof-of-sql
 miro
 cargo-dylint
 ruff
+intentrace
