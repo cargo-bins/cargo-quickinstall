@@ -60,3 +60,4 @@ binstall
 probe-run
 solana-keygen
 cargo-info
+uv
