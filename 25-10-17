@@ -48,3 +48,4 @@ bat-cli
 tendermint-rpc
 minlock
 probe-run
+solana-keygen
