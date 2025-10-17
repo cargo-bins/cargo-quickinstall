@@ -49,3 +49,4 @@ tendermint-rpc
 minlock
 probe-run
 solana-keygen
+winpty-rs
