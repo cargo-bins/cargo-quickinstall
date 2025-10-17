@@ -3,3 +3,4 @@ argus-cli
 release
 sea-orm-cli
 parquet
+foundationdb-gen
