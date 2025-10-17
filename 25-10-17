@@ -39,3 +39,4 @@ cargo-script
 openpty
 tendermint-rpc
 cargo-script
+winpty-rs
