@@ -5,3 +5,4 @@ sea-orm-cli
 parquet
 foundationdb-gen
 bluetui
+proof-of-sql
