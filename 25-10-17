@@ -10,3 +10,4 @@ solana-keygen
 safe_network
 tendermint-rpc
 mise
+winpty-rs
