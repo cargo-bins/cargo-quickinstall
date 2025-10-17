@@ -5,3 +5,4 @@ proof-of-sql
 statsig-rs
 cargo-msrv
 solana-keygen
+tendermint-rpc
