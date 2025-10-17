@@ -5,3 +5,4 @@ racer
 statsig-rs
 safe_network
 datavzrd
+cargo-msrv
