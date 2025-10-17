@@ -29,3 +29,4 @@ cargo-script
 tendermint-rpc
 openpty
 winpty-rs
+sha1collisiondetection
