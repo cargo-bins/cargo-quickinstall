@@ -6,3 +6,4 @@ parquet
 foundationdb-gen
 bluetui
 proof-of-sql
+python-project-generator
