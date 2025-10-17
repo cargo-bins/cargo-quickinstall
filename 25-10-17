@@ -55,3 +55,4 @@ kanidm_tools
 kanidm-ldap-sync
 datavzrd
 uv
+bat-cli
