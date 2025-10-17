@@ -42,3 +42,4 @@ python-project-generator
 minlock
 bat-cli
 kanidm-ldap-sync
+kanidm_tools
