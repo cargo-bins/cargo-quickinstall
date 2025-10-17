@@ -29,3 +29,4 @@ safe_network
 lux-cli
 dua-cli
 tendermint-rpc
+openpty
