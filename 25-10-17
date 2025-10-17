@@ -69,3 +69,4 @@ safe_network
 tendermint-rpc
 kanidm-ldap-sync
 rga
+python-project-generator
