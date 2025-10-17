@@ -14,3 +14,4 @@ bat-cli
 bluetui
 proof-of-sql
 miro
+cargo-dylint
