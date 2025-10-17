@@ -8,3 +8,4 @@ datavzrd
 cargo-msrv
 solana-keygen
 safe_network
+tendermint-rpc
