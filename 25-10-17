@@ -4,3 +4,4 @@ foundationdb-gen
 proof-of-sql
 statsig-rs
 cargo-msrv
+solana-keygen
