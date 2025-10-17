@@ -3,3 +3,4 @@ parquet
 proof-of-sql
 racer
 statsig-rs
+safe_network
