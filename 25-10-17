@@ -33,3 +33,4 @@ openpty
 dua-cli
 lux-cli
 winpty-rs
+sha1collisiondetection
