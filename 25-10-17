@@ -18,3 +18,4 @@ cargo-dylint
 ruff
 intentrace
 ruff
+minlock
