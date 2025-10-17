@@ -40,3 +40,4 @@ solana-keygen
 probe-run
 python-project-generator
 minlock
+bat-cli
