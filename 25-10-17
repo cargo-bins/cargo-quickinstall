@@ -28,3 +28,4 @@ cargo-script
 cargo-script
 tendermint-rpc
 openpty
+winpty-rs
