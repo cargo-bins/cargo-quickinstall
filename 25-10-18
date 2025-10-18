@@ -5,3 +5,4 @@ proof-of-sql
 git-disjoint
 winpty-rs
 parquet
+usbwatch-rs
