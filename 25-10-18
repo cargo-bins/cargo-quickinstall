@@ -60,3 +60,4 @@ statsig-rs
 probe-code
 cargo-spellcheck
 a11ywatch_cli
+racer
