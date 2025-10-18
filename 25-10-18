@@ -11,3 +11,4 @@ git-disjoint
 coldsnap
 cargo-lambda
 winpty-rs
+sea-orm-cli
