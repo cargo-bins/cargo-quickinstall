@@ -27,3 +27,4 @@ tvrank-cli
 git-disjoint
 rga
 winpty-rs
+sea-orm-cli
