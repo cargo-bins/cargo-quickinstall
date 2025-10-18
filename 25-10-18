@@ -9,3 +9,4 @@ cargo-lambda
 proof-of-sql
 git-disjoint
 coldsnap
+cargo-lambda
