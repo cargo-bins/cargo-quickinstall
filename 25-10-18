@@ -12,3 +12,4 @@ coldsnap
 sea-orm-cli
 winpty-rs
 parquet
+borsh
