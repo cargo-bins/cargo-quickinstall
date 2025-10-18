@@ -24,3 +24,4 @@ solana-ledger-tool
 tuftool
 socketcan
 gpgme
+statsig-rs
