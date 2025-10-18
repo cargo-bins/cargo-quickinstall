@@ -18,3 +18,4 @@ cargo-info
 pest_debugger
 slint-lsp
 binstall
+rustrict
