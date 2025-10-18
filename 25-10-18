@@ -32,3 +32,4 @@ tvrank-cli
 parquet
 cargo-dylint
 pest_debugger
+feedr
