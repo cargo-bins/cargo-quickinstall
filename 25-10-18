@@ -7,3 +7,4 @@ proof-of-sql
 git-disjoint
 winpty-rs
 parquet
+borsh
