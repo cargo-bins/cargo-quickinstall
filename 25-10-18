@@ -9,3 +9,4 @@ winpty-rs
 parquet
 borsh
 ext-sort
+rustfmt-nightly
