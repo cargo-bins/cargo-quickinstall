@@ -8,3 +8,4 @@ git-disjoint
 winpty-rs
 parquet
 borsh
+ext-sort
