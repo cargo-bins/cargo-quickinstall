@@ -14,3 +14,4 @@ probe-run
 pest_debugger
 feedr
 binstall
+cargo-info
