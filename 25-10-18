@@ -6,3 +6,4 @@ rustfmt
 tokio-process
 git-mit-config
 proof-of-sql
+coldsnap
