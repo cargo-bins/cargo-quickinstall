@@ -14,3 +14,4 @@ borsh
 ext-sort
 rustfmt-nightly
 uniffi
+holochain_cli
