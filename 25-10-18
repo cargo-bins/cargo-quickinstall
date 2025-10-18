@@ -15,3 +15,4 @@ probe-run
 cargo-info
 feedr
 rustrict
+pest_debugger
