@@ -25,3 +25,4 @@ socketcan
 gpgme
 statsig-rs
 cargo-spellcheck
+tree_magic
