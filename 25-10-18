@@ -17,3 +17,4 @@ ext-sort
 clippy
 rustfmt-nightly
 uniffi
+a11ywatch_cli
