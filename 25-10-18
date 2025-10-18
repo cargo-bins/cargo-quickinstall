@@ -13,3 +13,4 @@ borsh
 ext-sort
 clippy
 usbwatch-rs
+rustfmt-nightly
