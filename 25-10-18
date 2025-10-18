@@ -30,3 +30,4 @@ winpty-rs
 sea-orm-cli
 tvrank-cli
 parquet
+cargo-dylint
