@@ -45,3 +45,4 @@ clippy
 rustfmt-nightly
 uniffi
 sniffnet
+tvrank-cli
