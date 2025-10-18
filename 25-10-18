@@ -7,3 +7,4 @@ cargo-script
 proof-of-sql
 winpty-rs
 parquet
+borsh
