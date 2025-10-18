@@ -17,3 +17,4 @@ borsh
 remove_dir_all
 ext-sort
 rustfmt-nightly
+uniffi
