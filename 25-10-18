@@ -9,3 +9,4 @@ binstall
 kanidm-ldap-sync
 leenfetch
 cargo-spellcheck
+cargo-info
