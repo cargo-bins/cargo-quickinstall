@@ -24,3 +24,4 @@ cargo-info
 cargo-dylint
 proof-of-sql
 tvrank-cli
+git-disjoint
