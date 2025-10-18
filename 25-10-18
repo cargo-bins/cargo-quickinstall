@@ -15,3 +15,4 @@ coldsnap
 winpty-rs
 investments
 parquet
+sqlx-cli
