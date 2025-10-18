@@ -53,3 +53,4 @@ bat-cli
 solana-ledger-tool
 socketcan
 sniffnet
+gpgme
