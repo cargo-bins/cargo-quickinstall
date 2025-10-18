@@ -43,3 +43,4 @@ pest_debugger
 ext-sort
 clippy
 rustfmt-nightly
+uniffi
