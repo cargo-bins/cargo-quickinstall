@@ -18,3 +18,4 @@ holochain_cli
 deno
 stellar-strkey
 socketcan
+fermium
