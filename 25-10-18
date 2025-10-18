@@ -33,3 +33,4 @@ parquet
 cargo-dylint
 pest_debugger
 feedr
+pest_debugger
