@@ -44,3 +44,4 @@ ext-sort
 clippy
 rustfmt-nightly
 uniffi
+sniffnet
