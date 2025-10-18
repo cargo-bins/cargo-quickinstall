@@ -37,3 +37,4 @@ wmi
 tvrank-cli
 borsh
 remove_dir_all
+slint-lsp
