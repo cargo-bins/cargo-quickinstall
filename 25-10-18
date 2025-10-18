@@ -10,3 +10,4 @@ git-disjoint
 proof-of-sql
 coldsnap
 sea-orm-cli
+winpty-rs
