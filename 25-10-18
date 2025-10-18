@@ -11,3 +11,4 @@ rga
 cargo-spellcheck
 leenfetch
 probe-run
+pest_debugger
