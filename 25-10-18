@@ -3,3 +3,4 @@ rustbus
 lingua
 holochain_cli
 rustfmt
+tokio-process
