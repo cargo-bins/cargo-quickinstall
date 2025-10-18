@@ -26,3 +26,4 @@ gpgme
 statsig-rs
 cargo-spellcheck
 tree_magic
+crypto-cli-tools
