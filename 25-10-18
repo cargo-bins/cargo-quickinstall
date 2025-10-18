@@ -45,3 +45,4 @@ rustfmt-nightly
 sniffnet
 sniffnet
 tvrank-cli
+slint-lsp
