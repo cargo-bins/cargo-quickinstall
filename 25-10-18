@@ -26,3 +26,4 @@ proof-of-sql
 tvrank-cli
 git-disjoint
 rga
+winpty-rs
