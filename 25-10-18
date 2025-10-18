@@ -29,3 +29,4 @@ rga
 winpty-rs
 sea-orm-cli
 tvrank-cli
+parquet
