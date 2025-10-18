@@ -24,3 +24,4 @@ proof-of-sql
 git-disjoint
 rga
 dioxus-cli
+pest_debugger
