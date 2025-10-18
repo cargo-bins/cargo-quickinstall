@@ -10,3 +10,4 @@ usbwatch-rs
 wmi
 usbwatch-rs
 borsh
+ext-sort
