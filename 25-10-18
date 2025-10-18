@@ -13,3 +13,4 @@ rustfmt-nightly
 uniffi
 stellar-strkey
 solana-ledger-tool
+socketcan
