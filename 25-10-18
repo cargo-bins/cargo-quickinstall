@@ -25,3 +25,4 @@ git-disjoint
 rga
 dioxus-cli
 pest_debugger
+sea-orm-cli
