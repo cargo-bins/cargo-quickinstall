@@ -8,3 +8,4 @@ proof-of-sql
 winpty-rs
 parquet
 borsh
+ext-sort
