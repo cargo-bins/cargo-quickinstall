@@ -11,3 +11,4 @@ wmi
 usbwatch-rs
 borsh
 ext-sort
+clippy
