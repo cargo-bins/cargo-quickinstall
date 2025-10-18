@@ -13,3 +13,4 @@ cargo-lambda
 winpty-rs
 sea-orm-cli
 parquet
+borsh
