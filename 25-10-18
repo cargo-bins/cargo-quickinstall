@@ -11,3 +11,4 @@ borsh
 ext-sort
 clippy
 rustfmt-nightly
+uniffi
