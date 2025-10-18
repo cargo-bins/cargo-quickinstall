@@ -10,3 +10,4 @@ parquet
 borsh
 ext-sort
 rustfmt-nightly
+uniffi
