@@ -38,3 +38,4 @@ tvrank-cli
 borsh
 remove_dir_all
 slint-lsp
+ext-sort
