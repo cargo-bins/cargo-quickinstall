@@ -36,3 +36,4 @@ feedr
 wmi
 tvrank-cli
 borsh
+remove_dir_all
