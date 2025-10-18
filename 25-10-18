@@ -20,3 +20,4 @@ sqlx-cli
 sqlx-cli
 borsh
 remove_dir_all
+ext-sort
