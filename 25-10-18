@@ -24,3 +24,4 @@ crypto-cli-tools
 java-locator
 spider_worker
 crypto-cli-tools
+winpty-rs
