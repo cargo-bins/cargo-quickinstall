@@ -8,3 +8,4 @@ a11ywatch_cli
 cargo-lambda
 proof-of-sql
 git-disjoint
+coldsnap
