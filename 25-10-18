@@ -16,3 +16,4 @@ feedr
 binstall
 cargo-info
 pest_debugger
+slint-lsp
