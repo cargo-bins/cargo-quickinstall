@@ -18,3 +18,4 @@ solana-ledger-tool
 socketcan
 gpgme
 statsig-rs
+cargo-spellcheck
