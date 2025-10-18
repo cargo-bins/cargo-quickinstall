@@ -41,3 +41,4 @@ slint-lsp
 ext-sort
 dioxus-cli
 sniffnet
+rustfmt-nightly
