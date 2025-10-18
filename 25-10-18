@@ -1,3 +1,4 @@
 probe-run
 kanidm-ldap-sync
 datavzrd
+leenfetch
