@@ -16,3 +16,4 @@ rustfmt-nightly
 uniffi
 holochain_cli
 deno
+stellar-strkey
