@@ -12,3 +12,4 @@ investments
 parquet
 borsh
 ext-sort
+rustfmt-nightly
