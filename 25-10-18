@@ -29,3 +29,4 @@ sea-orm-cli
 tvrank-cli
 winpty-rs
 wiki-tui
+parquet
