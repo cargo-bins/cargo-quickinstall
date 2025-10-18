@@ -24,3 +24,4 @@ tuftool
 socketcan
 gpgme
 statsig-rs
+cargo-spellcheck
