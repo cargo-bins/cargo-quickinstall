@@ -8,3 +8,4 @@ wiki-tui
 binstall
 kanidm-ldap-sync
 leenfetch
+cargo-spellcheck
