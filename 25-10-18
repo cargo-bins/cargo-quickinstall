@@ -10,3 +10,4 @@ parquet
 wmi
 borsh
 ext-sort
+rustfmt-nightly
