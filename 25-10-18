@@ -9,3 +9,4 @@ cargo-lambda
 git-disjoint
 proof-of-sql
 coldsnap
+sea-orm-cli
