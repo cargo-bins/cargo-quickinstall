@@ -12,3 +12,4 @@ git-mit-config
 proof-of-sql
 git-disjoint
 coldsnap
+winpty-rs
