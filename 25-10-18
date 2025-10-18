@@ -14,3 +14,4 @@ winpty-rs
 sea-orm-cli
 parquet
 borsh
+remove_dir_all
