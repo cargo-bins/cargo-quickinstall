@@ -17,3 +17,4 @@ stellar-strkey
 solana-ledger-tool
 socketcan
 gpgme
+statsig-rs
