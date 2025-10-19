@@ -22,3 +22,4 @@ a11ywatch_cli
 cargo-ui
 racer
 clippy
+dotenv-flow
