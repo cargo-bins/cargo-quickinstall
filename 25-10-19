@@ -50,3 +50,4 @@ cargo-spellcheck
 paperclip
 falconf
 tree-sitter-graph
+xbuild
