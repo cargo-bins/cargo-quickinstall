@@ -11,3 +11,4 @@ cargo-spellcheck
 libbpf-cargo
 cargo-pgrx
 process_viewer
+rtx-cli
