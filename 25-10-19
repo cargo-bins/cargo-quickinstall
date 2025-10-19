@@ -60,3 +60,4 @@ falconf
 xbuild
 tendermint-rpc
 rustfmt-nightly
+xbuild
