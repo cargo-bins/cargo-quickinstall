@@ -25,3 +25,4 @@ libbpf-cargo
 cargo-spellcheck
 alacritty
 esp-config
+process_viewer
