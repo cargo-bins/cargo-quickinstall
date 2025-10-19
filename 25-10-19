@@ -11,3 +11,4 @@ clippy
 dotenv-flow
 libbpf-cargo
 ducc-sys
+rtx-cli
