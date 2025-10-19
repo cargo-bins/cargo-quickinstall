@@ -7,3 +7,4 @@ rsgen-avro
 rsgen-avro
 datavzrd
 clippy
+dotenv-flow
