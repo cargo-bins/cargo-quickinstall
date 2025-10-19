@@ -9,3 +9,4 @@ clippy
 dotenv-flow
 cargo-spellcheck
 libbpf-cargo
+cargo-pgrx
