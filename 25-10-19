@@ -20,3 +20,4 @@ tree-sitter-graph
 textplots
 cargo-generate
 z3tracer
+rustfmt-nightly
