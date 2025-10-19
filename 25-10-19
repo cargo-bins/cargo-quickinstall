@@ -62,3 +62,4 @@ tendermint-rpc
 rustfmt-nightly
 xbuild
 solana-faucet
+xbuild
