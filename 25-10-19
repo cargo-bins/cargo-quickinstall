@@ -11,3 +11,4 @@ dotenv-flow
 cargo-spellcheck
 libbpf-cargo
 process_viewer
+cargo-pgrx
