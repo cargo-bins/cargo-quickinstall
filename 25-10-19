@@ -11,3 +11,4 @@ datavzrd
 clippy
 libbpf-cargo
 process_viewer
+ducc-sys
