@@ -7,3 +7,4 @@ rsgen-avro
 dotslash
 datavzrd
 clippy
+dotenv-flow
