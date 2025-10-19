@@ -8,3 +8,4 @@ rsgen-avro
 datavzrd
 clippy
 dotenv-flow
+process_viewer
