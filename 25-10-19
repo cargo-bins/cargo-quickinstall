@@ -24,3 +24,4 @@ racer
 clippy
 dotenv-flow
 cargo-dylint
+esp-config
