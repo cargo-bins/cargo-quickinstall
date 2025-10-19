@@ -10,3 +10,4 @@ datavzrd
 clippy
 dotenv-flow
 libbpf-cargo
+ducc-sys
