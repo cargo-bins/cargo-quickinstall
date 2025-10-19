@@ -14,3 +14,4 @@ cargo-pgrx
 process_viewer
 ducc-sys
 rtx-cli
+controller
