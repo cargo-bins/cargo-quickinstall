@@ -10,3 +10,4 @@ clippy
 libbpf-cargo
 ducc-sys
 git-mit-relates-to
+rustbus
