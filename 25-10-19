@@ -28,3 +28,4 @@ tree-sitter-graph
 textplots
 z3tracer
 tendermint-rpc
+rustfmt-nightly
