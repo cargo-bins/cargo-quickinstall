@@ -9,3 +9,4 @@ rsgen-avro
 datavzrd
 clippy
 dotenv-flow
+libbpf-cargo
