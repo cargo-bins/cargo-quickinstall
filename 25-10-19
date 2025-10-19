@@ -6,3 +6,4 @@ rsgen-avro
 datavzrd
 a11ywatch_cli
 clippy
+dotenv-flow
