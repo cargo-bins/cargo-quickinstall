@@ -8,3 +8,4 @@ rsgen-avro
 datavzrd
 clippy
 libbpf-cargo
+ducc-sys
