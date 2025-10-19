@@ -8,3 +8,4 @@ ncspot
 rsgen-avro
 datavzrd
 clippy
+dotenv-flow
