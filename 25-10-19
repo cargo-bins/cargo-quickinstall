@@ -25,3 +25,4 @@ textplots
 rrule
 cargo-generate
 z3tracer
+rustfmt-nightly
