@@ -17,3 +17,4 @@ rsgen-avro
 cargo-dylint
 probe-code
 racer
+datavzrd
