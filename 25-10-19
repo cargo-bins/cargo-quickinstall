@@ -24,3 +24,4 @@ cargo-spellcheck
 rzup
 unic-langid-impl
 paperclip
+tree-sitter-graph
