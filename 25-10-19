@@ -2,3 +2,4 @@ rtx-cli
 librespot
 datavzrd
 tendermint-rpc
+rsgen-avro
