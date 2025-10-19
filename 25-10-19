@@ -14,3 +14,4 @@ probe-code
 cargo-ui
 racer
 rsgen-avro
+cargo-dylint
