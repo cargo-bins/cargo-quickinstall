@@ -31,3 +31,4 @@ tendermint-rpc
 rustfmt-nightly
 rustrict
 solana-faucet
+cargo-lambda
