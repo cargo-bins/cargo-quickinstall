@@ -13,3 +13,4 @@ libbpf-cargo
 process_viewer
 ducc-sys
 rtx-cli
+z3tracer
