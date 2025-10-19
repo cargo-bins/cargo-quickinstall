@@ -13,3 +13,4 @@ libbpf-cargo
 process_viewer
 cargo-pgrx
 ducc-sys
+tuftool
