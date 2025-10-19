@@ -22,3 +22,4 @@ clippy
 alacritty
 alacritty
 libbpf-cargo
+cargo-spellcheck
