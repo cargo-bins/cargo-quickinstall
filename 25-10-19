@@ -11,3 +11,4 @@ datavzrd
 clippy
 dotenv-flow
 cargo-spellcheck
+libbpf-cargo
