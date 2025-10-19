@@ -12,3 +12,4 @@ datavzrd
 cargo-ui
 racer
 cargo-dylint
+rsgen-avro
