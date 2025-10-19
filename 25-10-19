@@ -29,3 +29,4 @@ cargo-dylint
 alacritty
 cargo-spellcheck
 esp-config
+libbpf-cargo
