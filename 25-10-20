@@ -15,3 +15,4 @@ cargo-lock
 cargo-dylint
 nexmark
 proof-of-sql
+wol-rs
