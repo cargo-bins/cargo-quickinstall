@@ -3,3 +3,4 @@ socketcan
 lance
 addr2line
 honggfuzz
+commit_verify
