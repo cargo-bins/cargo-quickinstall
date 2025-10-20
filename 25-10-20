@@ -30,3 +30,4 @@ dotenv-flow
 cargo-generate
 tracing-durations-export
 kani-verifier
+nkeys
