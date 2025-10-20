@@ -11,3 +11,4 @@ uv
 commit_verify
 addr2line
 stellar-strkey
+cargo-lock
