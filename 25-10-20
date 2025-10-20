@@ -5,3 +5,4 @@ rustfmt-nightly
 miro
 vdev
 python-project-generator
+addr2line
