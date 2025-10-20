@@ -1,2 +1,3 @@
 rustfmt-nightly
 lance
+addr2line
