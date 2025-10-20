@@ -4,3 +4,4 @@ addr2line
 honggfuzz
 commit_verify
 xargo
+httm
