@@ -28,3 +28,4 @@ sark0y_tam_rst
 stellar-xdr
 dotenv-flow
 cargo-generate
+tracing-durations-export
