@@ -25,3 +25,4 @@ zuse
 spl-token-cli
 stellar-xdr
 dotenv-flow
+tracing-durations-export
