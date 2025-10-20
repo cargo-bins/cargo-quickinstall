@@ -24,3 +24,4 @@ h3o
 spl-token-cli
 dioxus-cli
 stellar-xdr
+dotenv-flow
