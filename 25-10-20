@@ -14,3 +14,4 @@ addr2line
 cargo-lock
 tree-sitter-cli
 stellar-strkey
+tree-sitter-cli
