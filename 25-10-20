@@ -7,3 +7,4 @@ z3tracer
 commit_verify
 addr2line
 stellar-strkey
+cargo-lock
