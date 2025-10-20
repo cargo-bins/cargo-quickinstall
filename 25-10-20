@@ -12,3 +12,4 @@ jless
 commit_verify
 xargo
 stellar-strkey
+cargo-lock
