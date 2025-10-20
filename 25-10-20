@@ -11,3 +11,4 @@ cargo-lock
 nexmark
 statime-linux
 text-diff
+honggfuzz
