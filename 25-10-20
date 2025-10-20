@@ -1,3 +1,4 @@
 rustfmt-nightly
 socketcan
 lance
+addr2line
