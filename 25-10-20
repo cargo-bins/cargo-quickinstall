@@ -10,3 +10,4 @@ uv
 uv
 commit_verify
 stellar-strkey
+cargo-dylint
