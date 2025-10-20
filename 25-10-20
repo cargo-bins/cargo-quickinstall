@@ -8,3 +8,4 @@ stellar-strkey
 cargo-lock
 cargo-dylint
 statime-linux
+nexmark
