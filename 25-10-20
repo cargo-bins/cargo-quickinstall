@@ -4,3 +4,4 @@ socketcan
 rustfmt-nightly
 miro
 vdev
+python-project-generator
