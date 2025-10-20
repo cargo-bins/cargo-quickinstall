@@ -10,3 +10,4 @@ stellar-strkey
 cargo-lock
 nexmark
 statime-linux
+text-diff
