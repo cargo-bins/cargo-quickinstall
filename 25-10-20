@@ -7,3 +7,4 @@ xargo
 httm
 addr2line
 stellar-strkey
+cargo-lock
