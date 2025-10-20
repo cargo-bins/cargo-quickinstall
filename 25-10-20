@@ -27,3 +27,4 @@ stellar-xdr
 dotenv-flow
 dioxus-cli
 tracing-durations-export
+nkeys
