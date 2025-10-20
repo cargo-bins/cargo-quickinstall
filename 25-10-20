@@ -27,3 +27,4 @@ rmesg
 spl-token-cli
 stellar-xdr
 dotenv-flow
+cargo-generate
