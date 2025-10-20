@@ -5,3 +5,4 @@ commit_verify
 xargo
 addr2line
 stellar-strkey
+cargo-lock
