@@ -2,3 +2,4 @@ solana-faucet
 rustfmt-nightly
 socketcan
 lance
+addr2line
