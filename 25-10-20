@@ -2,3 +2,4 @@ solana-faucet
 rustfmt-nightly
 jless
 socketcan
+jless
