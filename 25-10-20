@@ -10,3 +10,4 @@ cargo-dylint
 statime-linux
 nexmark
 proof-of-sql
+wol-rs
