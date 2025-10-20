@@ -3,3 +3,4 @@ rustfmt-nightly
 socketcan
 lance
 addr2line
+z3tracer
