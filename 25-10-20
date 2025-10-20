@@ -14,3 +14,4 @@ xargo
 stellar-strkey
 cargo-lock
 cargo-dylint
+nexmark
