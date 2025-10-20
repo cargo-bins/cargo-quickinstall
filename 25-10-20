@@ -9,3 +9,4 @@ cargo-lock
 cargo-dylint
 statime-linux
 nexmark
+proof-of-sql
