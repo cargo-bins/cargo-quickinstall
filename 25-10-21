@@ -28,3 +28,4 @@ maelstrom-pytest
 esp-config
 rsgen-avro
 maelstrom-run
+maelstrom-broker
