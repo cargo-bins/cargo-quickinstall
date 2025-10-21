@@ -24,3 +24,4 @@ nexmark
 cargo-embed
 pgrx-tests
 tracing-durations-export
+maelstrom-pytest
