@@ -27,3 +27,4 @@ tracing-durations-export
 maelstrom-pytest
 esp-config
 rsgen-avro
+maelstrom-run
