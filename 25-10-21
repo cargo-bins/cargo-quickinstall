@@ -45,3 +45,4 @@ esp-config
 rource
 rsgen-avro
 shlf
+maelstrom-pytest
