@@ -26,3 +26,4 @@ tracing-durations-export
 esp-config
 rsgen-avro
 fermium
+tokio-process
