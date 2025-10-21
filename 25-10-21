@@ -14,3 +14,4 @@ hayagriva
 apollo-router
 winpty-rs
 sea-orm-cli
+opencv-binding-generator
