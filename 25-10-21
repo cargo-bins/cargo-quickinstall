@@ -12,3 +12,4 @@ apollo-router
 winpty-rs
 librespot
 proof-of-sql
+cargo-dylint
