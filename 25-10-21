@@ -20,3 +20,4 @@ nexmark
 pgrx-tests
 tracing-durations-export
 dotenv-flow
+esp-config
