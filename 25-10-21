@@ -17,3 +17,4 @@ cargo-maelstrom
 maelstrom-go-test
 maelstrom-pytest
 maelstrom-go-test
+proof-of-sql
