@@ -13,3 +13,4 @@ winpty-rs
 opencv-binding-generator
 tendermint-rpc
 librespot
+proof-of-sql
