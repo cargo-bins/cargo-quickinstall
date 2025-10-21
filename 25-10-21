@@ -11,3 +11,4 @@ cargo-maelstrom
 hayagriva
 maelstrom-go-test
 apollo-router
+winpty-rs
