@@ -17,3 +17,4 @@ winpty-rs
 stellar-scaffold-cli
 codeberg-cli
 tabiew
+cargo-embed
