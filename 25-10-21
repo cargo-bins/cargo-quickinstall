@@ -16,3 +16,4 @@ solana-genesis
 nexmark
 pgrx-tests
 tracing-durations-export
+esp-config
