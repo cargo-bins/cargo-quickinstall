@@ -30,3 +30,4 @@ tracing-durations-export
 desktop-tui
 cargo-bundle
 solana-tokens
+cargo-patch
