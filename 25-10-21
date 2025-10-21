@@ -40,3 +40,4 @@ sea-orm-cli
 cargo-patch
 cargo-bundle
 solana-faucet
+cargo-patch
