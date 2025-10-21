@@ -27,3 +27,4 @@ proof-of-sql
 tracing-durations-export
 sp1-prover
 solana-gossip
+solana-genesis
