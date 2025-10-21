@@ -9,3 +9,4 @@ cairo-native
 hayagriva
 vdev
 apollo-router
+winpty-rs
