@@ -27,3 +27,4 @@ cargo-patch
 cargo-bundle
 cargo-bundle
 tracing-durations-export
+desktop-tui
