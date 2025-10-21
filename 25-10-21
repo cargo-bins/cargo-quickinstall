@@ -22,3 +22,4 @@ opencv-binding-generator
 maelstrom-go-test
 cargo-maelstrom
 lua-astra
+shlf
