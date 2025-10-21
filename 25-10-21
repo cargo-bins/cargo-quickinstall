@@ -24,3 +24,4 @@ opencv-binding-generator
 desktop-tui
 librespot
 proof-of-sql
+tracing-durations-export
