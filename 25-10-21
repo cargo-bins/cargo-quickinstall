@@ -27,3 +27,4 @@ maelstrom-pytest
 cargo-maelstrom
 lua-astra
 cargo-embed
+proof-of-sql
