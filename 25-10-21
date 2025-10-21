@@ -3,3 +3,4 @@ dotenv
 maelstrom-go-test
 lingua
 dioxus-cli
+maelstrom-pytest
