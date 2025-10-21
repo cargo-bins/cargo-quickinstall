@@ -36,3 +36,4 @@ yofi
 cargo-patch
 esp-config
 rsgen-avro
+sea-orm-cli
