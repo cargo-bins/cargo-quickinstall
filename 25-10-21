@@ -24,3 +24,4 @@ solana-genesis
 nexmark
 pgrx-tests
 cargo-patch
+cargo-bundle
