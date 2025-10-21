@@ -7,3 +7,4 @@ cairo-native
 hayagriva
 apollo-router
 winpty-rs
+opencv-binding-generator
