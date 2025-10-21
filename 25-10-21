@@ -6,3 +6,4 @@ dioxus-cli
 maelstrom-pytest
 maelstrom-pytest
 cairo-native
+maelstrom-go-test
