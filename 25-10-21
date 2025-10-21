@@ -11,3 +11,4 @@ tendermint-rpc
 librespot
 proof-of-sql
 sp1-prover
+solana-gossip
