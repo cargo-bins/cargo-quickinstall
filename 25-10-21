@@ -14,3 +14,4 @@ maelstrom-go-test
 cargo-maelstrom
 lua-astra
 apollo-router
+winpty-rs
