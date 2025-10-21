@@ -6,3 +6,4 @@ cargo-maelstrom
 cargo-maelstrom
 cairo-native
 maelstrom-pytest
+maelstrom-go-test
