@@ -42,3 +42,4 @@ cargo-bundle
 solana-faucet
 cargo-patch
 yaydl
+desktop-tui
