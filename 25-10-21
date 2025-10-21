@@ -18,3 +18,4 @@ opencv-binding-generator
 sea-orm-cli
 tendermint-rpc
 librespot
+proof-of-sql
