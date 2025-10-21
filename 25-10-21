@@ -2,3 +2,4 @@ dotenv-flow
 cargo-leptos
 codeberg-cli
 git-mit-config
+text-diff
