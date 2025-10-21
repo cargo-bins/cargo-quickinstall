@@ -31,3 +31,4 @@ proof-of-sql
 cargo-embed
 sp1-prover
 maelstrom-pytest
+nexmark
