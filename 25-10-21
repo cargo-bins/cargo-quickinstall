@@ -30,3 +30,4 @@ solana-gossip
 solana-genesis
 nexmark
 yofi
+sea-orm-cli
