@@ -38,3 +38,4 @@ esp-config
 rsgen-avro
 sea-orm-cli
 cargo-patch
+cargo-bundle
