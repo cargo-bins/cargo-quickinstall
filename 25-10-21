@@ -42,3 +42,4 @@ solana-stake-accounts
 rsgen-avro
 sea-orm-cli
 yaydl
+cargo-patch
