@@ -39,3 +39,4 @@ rsgen-avro
 sea-orm-cli
 cargo-patch
 cargo-bundle
+solana-faucet
