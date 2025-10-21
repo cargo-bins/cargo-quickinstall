@@ -33,3 +33,4 @@ yofi
 sea-orm-cli
 pgrx-tests
 desktop-tui
+tracing-durations-export
