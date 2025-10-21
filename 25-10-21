@@ -24,3 +24,4 @@ pgrx-tests
 cargo-leptos
 tracing-durations-export
 esp-config
+rsgen-avro
