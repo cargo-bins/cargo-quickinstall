@@ -47,3 +47,4 @@ rsgen-avro
 shlf
 maelstrom-pytest
 shlf
+maelstrom-broker
