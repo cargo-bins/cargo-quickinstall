@@ -32,3 +32,4 @@ nexmark
 stellar-scaffold-cli
 pgrx-tests
 stellar-scaffold-cli
+tracing-durations-export
