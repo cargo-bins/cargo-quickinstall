@@ -19,3 +19,4 @@ solana-genesis
 nexmark
 pgrx-tests
 tracing-durations-export
+dotenv-flow
