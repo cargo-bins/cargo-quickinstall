@@ -30,3 +30,4 @@ rsgen-avro
 maelstrom-run
 maelstrom-broker
 maelstrom-pytest
+maelstrom-broker
