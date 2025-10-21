@@ -25,3 +25,4 @@ cargo-embed
 pgrx-tests
 tracing-durations-export
 maelstrom-pytest
+esp-config
