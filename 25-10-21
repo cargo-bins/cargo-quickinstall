@@ -20,3 +20,4 @@ cargo-maelstrom
 lua-astra
 opencv-binding-generator
 maelstrom-go-test
+cargo-maelstrom
