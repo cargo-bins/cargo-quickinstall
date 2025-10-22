@@ -19,3 +19,4 @@ statime-linux
 rustfmt-nightly
 sqlx-cli
 cargo-risczero
+foundationdb-gen
