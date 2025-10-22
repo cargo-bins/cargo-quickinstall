@@ -9,3 +9,4 @@ statsig-rs
 racer
 libbpf-cargo
 solana-cli
+rustfmt-nightly
