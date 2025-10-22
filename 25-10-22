@@ -15,3 +15,4 @@ oso
 libbpf-cargo
 cargo-embed
 cargo-local-registry
+statime-linux
