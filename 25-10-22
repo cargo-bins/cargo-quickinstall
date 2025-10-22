@@ -16,3 +16,4 @@ rustfmt-nightly
 cargo-risczero
 foundationdb-gen
 mit-commit-msg
+httpmock
