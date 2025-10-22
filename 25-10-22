@@ -12,3 +12,4 @@ libbpf-cargo
 cargo-local-registry
 text-diff
 statime-linux
+rustfmt-nightly
