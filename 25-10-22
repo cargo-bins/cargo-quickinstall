@@ -12,3 +12,4 @@ datavzrd
 cargo-embed
 racer
 oso
+libbpf-cargo
