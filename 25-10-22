@@ -17,3 +17,4 @@ solana-cli
 rustfmt-nightly
 wmi
 solana-faucet
+foundationdb-gen
