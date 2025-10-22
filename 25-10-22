@@ -20,3 +20,4 @@ rustfmt-nightly
 sqlx-cli
 cargo-risczero
 foundationdb-gen
+mit-commit-msg
