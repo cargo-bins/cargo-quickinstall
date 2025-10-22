@@ -32,3 +32,4 @@ neovide
 hyprshell
 cargo-patch
 solana-cli
+rustfmt-nightly
