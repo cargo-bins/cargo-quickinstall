@@ -33,3 +33,4 @@ hyprshell
 cargo-patch
 solana-cli
 rustfmt-nightly
+wash-cli
