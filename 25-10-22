@@ -18,3 +18,4 @@ foundationdb-gen
 mit-commit-msg
 httpmock
 project_init
+cpp_demangle
