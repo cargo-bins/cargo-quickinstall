@@ -16,3 +16,4 @@ oso
 libbpf-cargo
 statime-linux
 rustfmt-nightly
+wmi
