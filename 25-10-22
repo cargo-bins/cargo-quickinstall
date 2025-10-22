@@ -27,3 +27,4 @@ rabbitmqadmin
 rustfmt-nightly
 binwalk
 cargo-download
+binwalk
