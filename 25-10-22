@@ -18,3 +18,4 @@ cargo-dylint
 sass-rs
 racer
 oso
+libbpf-cargo
