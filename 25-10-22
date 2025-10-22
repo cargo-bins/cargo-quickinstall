@@ -17,3 +17,4 @@ cargo-risczero
 foundationdb-gen
 mit-commit-msg
 httpmock
+project_init
