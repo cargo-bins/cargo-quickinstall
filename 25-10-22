@@ -24,3 +24,4 @@ pijul
 solana-cli
 neovide
 rabbitmqadmin
+rustfmt-nightly
