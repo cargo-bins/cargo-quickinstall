@@ -21,3 +21,4 @@ clippy
 foundationdb-gen
 clippy
 httpmock
+esp-config
