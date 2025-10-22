@@ -18,3 +18,4 @@ cargo-local-registry
 statime-linux
 rustfmt-nightly
 sqlx-cli
+cargo-risczero
