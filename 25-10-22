@@ -32,3 +32,4 @@ cargo-binstall
 wmi
 pijul
 rabbitmqadmin
+binwalk
