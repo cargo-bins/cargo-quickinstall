@@ -13,3 +13,4 @@ rustfmt-nightly
 cargo-risczero
 wmi
 solana-faucet
+foundationdb-gen
