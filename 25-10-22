@@ -48,3 +48,4 @@ hyprshell
 cargo-download
 rabbitmqadmin
 wash-cli
+httpmock
