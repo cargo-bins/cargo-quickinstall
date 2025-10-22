@@ -36,3 +36,4 @@ rustfmt-nightly
 wash-cli
 hyprshell
 pijul
+wmi
