@@ -7,3 +7,4 @@ dioxus-cli
 cargo-dylint
 vdev
 dioxus-cli
+tree-sitter-cli
