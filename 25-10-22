@@ -20,3 +20,4 @@ clippy
 clippy
 foundationdb-gen
 clippy
+httpmock
