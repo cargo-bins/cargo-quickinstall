@@ -10,3 +10,4 @@ racer
 libbpf-cargo
 solana-cli
 rustfmt-nightly
+cargo-risczero
