@@ -30,3 +30,4 @@ cargo-download
 binwalk
 cargo-binstall
 wmi
+pijul
