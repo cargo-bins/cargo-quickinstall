@@ -8,3 +8,4 @@ datavzrd
 sass-rs
 racer
 holochain_cli_bundle
+libbpf-cargo
