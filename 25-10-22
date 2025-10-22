@@ -51,3 +51,4 @@ hyprshell
 binwalk
 rabbitmqadmin
 cargo-download
+httpmock
