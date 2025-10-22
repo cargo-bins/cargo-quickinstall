@@ -43,3 +43,4 @@ foundationdb-gen
 wash-cli
 rabbitmqadmin
 pijul
+cargo-download
