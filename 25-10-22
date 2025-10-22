@@ -8,3 +8,4 @@ cargo-msrv
 statsig-rs
 racer
 libbpf-cargo
+solana-cli
