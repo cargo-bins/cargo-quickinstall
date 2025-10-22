@@ -11,3 +11,4 @@ paperclip
 cargo-embed
 sp1-prover
 datavzrd
+libbpf-cargo
