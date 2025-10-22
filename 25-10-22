@@ -22,3 +22,4 @@ libbpf-cargo
 solana-cli
 rustfmt-nightly
 wmi
+process_viewer
