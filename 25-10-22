@@ -11,3 +11,4 @@ holochain_cli_bundle
 libbpf-cargo
 cargo-local-registry
 text-diff
+statime-linux
