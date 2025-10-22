@@ -45,3 +45,4 @@ foundationdb-gen
 wash-cli
 spotify_player
 cargo-download
+cargo-bundle
