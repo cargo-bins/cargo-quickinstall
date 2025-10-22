@@ -25,3 +25,4 @@ wmi
 process_viewer
 solana-faucet
 borsh
+foundationdb-gen
