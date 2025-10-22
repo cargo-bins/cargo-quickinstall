@@ -23,3 +23,4 @@ solana-cli
 rustfmt-nightly
 wmi
 process_viewer
+solana-faucet
