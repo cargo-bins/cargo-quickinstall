@@ -7,3 +7,4 @@ cargo-msrv
 statsig-rs
 racer
 oso
+libbpf-cargo
