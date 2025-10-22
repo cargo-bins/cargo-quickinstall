@@ -27,3 +27,4 @@ solana-faucet
 borsh
 foundationdb-gen
 httpmock
+project_init
