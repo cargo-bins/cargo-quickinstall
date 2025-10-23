@@ -4,3 +4,4 @@ laminar
 wmi
 rsgen-avro
 ducc-sys
+openpty
