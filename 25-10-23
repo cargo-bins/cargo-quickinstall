@@ -6,3 +6,4 @@ spider_worker
 pwasm-utils
 z3tracer
 libbpf-cargo
+sha1collisiondetection
