@@ -6,3 +6,4 @@ rsgen-avro
 ducc-sys
 openpty
 pwasm-utils
+libbpf-cargo
