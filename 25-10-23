@@ -19,3 +19,4 @@ onehistory
 shadowsocks-rust
 cargo-local-registry
 zellij
+sha1collisiondetection
