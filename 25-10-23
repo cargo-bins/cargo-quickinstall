@@ -63,3 +63,4 @@ refinery_cli
 mecomp-daemon
 refinery_cli
 tendermint-rpc
+mecomp-daemon
