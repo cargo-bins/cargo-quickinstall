@@ -25,3 +25,4 @@ superseedr
 pwasm-utils
 rabbitmqadmin
 cargo-unused-features
+refinery_cli
