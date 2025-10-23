@@ -6,3 +6,4 @@ spider_worker
 pwasm-utils
 libbpf-cargo
 sha1collisiondetection
+textplots
