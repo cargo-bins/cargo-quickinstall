@@ -30,3 +30,4 @@ libbpf-cargo
 sha1collisiondetection
 syd
 fzf-make
+cargo-unused-features
