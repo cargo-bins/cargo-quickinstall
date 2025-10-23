@@ -10,3 +10,4 @@ openpty
 pwasm-utils
 libbpf-cargo
 sha1collisiondetection
+textplots
