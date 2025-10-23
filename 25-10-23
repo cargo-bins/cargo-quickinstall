@@ -4,3 +4,4 @@ rabbitmqadmin
 cargo-download
 laminar
 cargo-unused-features
+wmi
