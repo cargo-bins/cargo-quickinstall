@@ -22,3 +22,4 @@ spider_worker
 rabbitmqadmin
 wash-cli
 superseedr
+pwasm-utils
