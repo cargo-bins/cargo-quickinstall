@@ -5,3 +5,4 @@ cargo-download
 laminar
 cargo-unused-features
 wmi
+cargo-dylint
