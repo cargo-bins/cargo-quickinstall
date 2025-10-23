@@ -16,3 +16,4 @@ solana-genesis
 spider_worker
 cargo-unused-features
 syd
+nextest
