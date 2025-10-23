@@ -5,3 +5,4 @@ wmi
 rsgen-avro
 ducc-sys
 openpty
+pwasm-utils
