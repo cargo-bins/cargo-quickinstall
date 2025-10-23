@@ -20,3 +20,4 @@ textplots
 ducc-sys
 pgrx-tests
 ec2_instance_metadata
+bpf-linker
