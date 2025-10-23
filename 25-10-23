@@ -4,3 +4,4 @@ rsgen-avro
 ducc-sys
 solana-genesis
 spider_worker
+pwasm-utils
