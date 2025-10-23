@@ -20,3 +20,4 @@ nextest
 pwasm-utils
 cargo-unused-features
 z3tracer
+cargo-unused-features
