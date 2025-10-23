@@ -16,3 +16,4 @@ project_init
 proof-of-sql
 racer
 minicbor
+a11ywatch_cli
