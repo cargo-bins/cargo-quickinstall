@@ -47,3 +47,4 @@ spotify_player
 fzf-make
 pgrx-tests
 cargo-unused-features
+nextest
