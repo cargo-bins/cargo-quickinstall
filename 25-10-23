@@ -5,3 +5,4 @@ ducc-sys
 solana-genesis
 spider_worker
 pwasm-utils
+z3tracer
