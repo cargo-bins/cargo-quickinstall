@@ -15,3 +15,4 @@ z3tracer
 libbpf-cargo
 cargo-local-registry
 sha1collisiondetection
+cpp_demangle
