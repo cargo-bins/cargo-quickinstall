@@ -56,3 +56,4 @@ uv
 fzf-make
 tendermint-rpc
 a11ywatch_cli
+minicbor
