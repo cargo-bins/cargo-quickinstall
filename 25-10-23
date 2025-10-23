@@ -6,3 +6,4 @@ laminar
 cargo-unused-features
 wmi
 cargo-dylint
+ducc-sys
