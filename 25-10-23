@@ -11,3 +11,4 @@ libbpf-cargo
 sha1collisiondetection
 textplots
 solana-faucet
+pgrx-tests
