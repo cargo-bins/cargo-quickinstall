@@ -13,3 +13,4 @@ vdev
 refinery_cli
 syd
 wash-cli
+cargo-unused-features
