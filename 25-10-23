@@ -25,3 +25,4 @@ libbpf-cargo
 fzf-make
 syd
 refinery_cli
+sha1collisiondetection
