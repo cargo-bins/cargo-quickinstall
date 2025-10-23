@@ -6,3 +6,4 @@ rsgen-avro
 solana-genesis
 spider_worker
 pwasm-utils
+z3tracer
