@@ -60,3 +60,4 @@ commit_verify
 mecomp-daemon
 uv
 refinery_cli
+mecomp-daemon
