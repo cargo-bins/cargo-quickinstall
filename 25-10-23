@@ -3,3 +3,4 @@ wmi
 rsgen-avro
 solana-genesis
 spider_worker
+pwasm-utils
