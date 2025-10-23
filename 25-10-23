@@ -33,3 +33,4 @@ fzf-make
 cargo-unused-features
 nextest
 superseedr
+rabbitmqadmin
