@@ -54,3 +54,4 @@ cargo-unused-features
 fzf-make
 vdev
 proof-of-sql
+vdev
