@@ -7,3 +7,4 @@ esp-config
 ducc-sys
 rsgen-avro
 openpty
+pwasm-utils
