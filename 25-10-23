@@ -59,3 +59,4 @@ uv
 commit_verify
 mecomp-daemon
 uv
+refinery_cli
