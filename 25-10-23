@@ -8,3 +8,4 @@ openpty
 pwasm-utils
 libbpf-cargo
 sha1collisiondetection
+cpp_demangle
