@@ -7,3 +7,4 @@ ducc-sys
 openpty
 pwasm-utils
 libbpf-cargo
+sha1collisiondetection
