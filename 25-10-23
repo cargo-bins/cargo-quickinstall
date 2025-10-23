@@ -24,3 +24,4 @@ wash-cli
 superseedr
 pwasm-utils
 rabbitmqadmin
+cargo-unused-features
