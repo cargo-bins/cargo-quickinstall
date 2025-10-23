@@ -39,3 +39,4 @@ bpf-linker
 sp1-prover
 project_init
 shadowsocks-rust
+proof-of-sql
