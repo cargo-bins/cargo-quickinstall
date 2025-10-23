@@ -13,3 +13,4 @@ solana-genesis
 pwasm-utils
 z3tracer
 libbpf-cargo
+cargo-local-registry
