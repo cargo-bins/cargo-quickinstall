@@ -37,3 +37,4 @@ esp-config
 ore-cli
 bpf-linker
 sp1-prover
+project_init
