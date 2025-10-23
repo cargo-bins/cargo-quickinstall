@@ -50,3 +50,4 @@ cargo-unused-features
 nextest
 sp1-prover
 project_init
+cargo-unused-features
