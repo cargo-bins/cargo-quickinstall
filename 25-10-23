@@ -27,3 +27,4 @@ rabbitmqadmin
 cargo-unused-features
 refinery_cli
 libbpf-cargo
+sha1collisiondetection
