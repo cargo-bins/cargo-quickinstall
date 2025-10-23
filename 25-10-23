@@ -3,3 +3,4 @@ h3o
 rabbitmqadmin
 cargo-download
 laminar
+cargo-unused-features
