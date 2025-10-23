@@ -24,3 +24,4 @@ cargo-unused-features
 libbpf-cargo
 fzf-make
 syd
+refinery_cli
