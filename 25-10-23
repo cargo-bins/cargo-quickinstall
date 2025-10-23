@@ -48,3 +48,4 @@ fzf-make
 pgrx-tests
 cargo-unused-features
 nextest
+sp1-prover
