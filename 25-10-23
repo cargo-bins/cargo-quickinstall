@@ -7,3 +7,4 @@ cargo-unused-features
 wmi
 cargo-dylint
 ducc-sys
+refinery_cli
