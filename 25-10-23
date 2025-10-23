@@ -18,3 +18,4 @@ cargo-unused-features
 syd
 nextest
 pwasm-utils
+cargo-unused-features
