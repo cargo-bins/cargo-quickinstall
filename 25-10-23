@@ -17,3 +17,4 @@ spider_worker
 cargo-unused-features
 syd
 nextest
+pwasm-utils
