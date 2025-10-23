@@ -3,3 +3,4 @@ cargo-binstall
 dotenvy
 laminar
 wash-cli
+wmi
