@@ -8,3 +8,4 @@ wmi
 cargo-dylint
 ducc-sys
 refinery_cli
+rsgen-avro
