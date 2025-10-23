@@ -9,3 +9,4 @@ rsgen-avro
 openpty
 pwasm-utils
 libbpf-cargo
+sha1collisiondetection
