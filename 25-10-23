@@ -53,3 +53,4 @@ project_init
 cargo-unused-features
 fzf-make
 vdev
+proof-of-sql
