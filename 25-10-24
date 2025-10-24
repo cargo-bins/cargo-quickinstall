@@ -1,3 +1,4 @@
 mecomp-daemon
 uv
 tendermint-abci
+mecomp-cli
