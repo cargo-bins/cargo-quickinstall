@@ -7,3 +7,4 @@ perfcnt
 tree-sitter-cli
 cargo-spellcheck
 libbpf-cargo
+stellar-xdr
