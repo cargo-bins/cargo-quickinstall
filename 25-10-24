@@ -61,3 +61,4 @@ salvo-cli
 fake
 spider_cli
 addr2line
+rsgen-avro
