@@ -19,3 +19,4 @@ investments
 rustbus
 tree-sitter-md
 tokio-process
+rsgen-avro
