@@ -20,3 +20,4 @@ dicom-pixeldata
 tree-sitter-md
 spider_cli
 rsgen-avro
+tree-sitter-cli
