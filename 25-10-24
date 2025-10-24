@@ -42,3 +42,4 @@ diesel_cli
 fake
 addr2line
 fake
+salvo-cli
