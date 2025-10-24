@@ -8,3 +8,4 @@ java-locator
 perfcnt
 tree-sitter-cli
 libbpf-cargo
+cargo-spellcheck
