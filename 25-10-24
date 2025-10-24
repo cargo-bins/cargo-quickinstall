@@ -43,3 +43,4 @@ cargo-binstall
 dicom-pixeldata
 rga
 ncspot
+diesel_cli
