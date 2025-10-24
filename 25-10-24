@@ -7,3 +7,4 @@ stellar-xdr
 rtx-cli
 parquet
 paperclip
+foundationdb-gen
