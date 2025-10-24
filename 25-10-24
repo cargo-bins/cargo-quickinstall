@@ -10,3 +10,4 @@ tree-sitter-cli
 cargo-spellcheck
 libbpf-cargo
 spider_cli
+rtx-cli
