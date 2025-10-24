@@ -17,3 +17,4 @@ cargo-risczero
 paperclip
 foundationdb-gen
 cargo-local-registry
+stellar-strkey
