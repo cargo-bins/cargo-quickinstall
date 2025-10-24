@@ -11,3 +11,4 @@ libbpf-cargo
 cargo-spellcheck
 spider_cli
 stellar-xdr
+parquet
