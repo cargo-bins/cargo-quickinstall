@@ -62,3 +62,4 @@ fake
 spider_cli
 addr2line
 rsgen-avro
+python-project-generator
