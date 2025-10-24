@@ -2,3 +2,4 @@ tendermint-abci
 sea-orm-cli
 tuftool
 statsig-rs
+solana-genesis
