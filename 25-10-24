@@ -20,3 +20,4 @@ mecomp-cli
 tree-sitter-cli
 cargo-spellcheck
 blissify
+libbpf-cargo
