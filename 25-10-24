@@ -8,3 +8,4 @@ tree-sitter-cli
 cargo-spellcheck
 libbpf-cargo
 stellar-xdr
+spider_cli
