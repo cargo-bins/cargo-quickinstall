@@ -40,3 +40,4 @@ mecomp-cli
 python-project-generator
 tree-sitter-md
 cargo-binstall
+dicom-pixeldata
