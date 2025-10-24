@@ -6,3 +6,4 @@ perfcnt
 libbpf-cargo
 stellar-xdr
 holochain_cli
+cargo-risczero
