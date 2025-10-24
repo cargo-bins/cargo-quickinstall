@@ -14,3 +14,4 @@ cargo-spellcheck
 libbpf-cargo
 stellar-xdr
 spider_cli
+python-project-generator
