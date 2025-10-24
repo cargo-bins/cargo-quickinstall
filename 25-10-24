@@ -6,3 +6,4 @@ libbpf-cargo
 stellar-xdr
 rtx-cli
 parquet
+paperclip
