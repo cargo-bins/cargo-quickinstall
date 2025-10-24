@@ -2,3 +2,4 @@ tendermint-abci
 java-locator
 stellar-strkey
 perfcnt
+libbpf-cargo
