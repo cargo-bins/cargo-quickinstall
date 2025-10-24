@@ -46,3 +46,4 @@ ncspot
 diesel_cli
 salvo-cli
 diesel_cli
+addr2line
