@@ -44,3 +44,4 @@ addr2line
 fake
 salvo-cli
 spider_cli
+typst-cli
