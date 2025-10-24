@@ -3,3 +3,4 @@ holochain
 solana-genesis
 java-locator
 perfcnt
+libbpf-cargo
