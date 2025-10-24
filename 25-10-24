@@ -1,3 +1,4 @@
 uv
 fzf-make
 tendermint-abci
+sea-orm-cli
