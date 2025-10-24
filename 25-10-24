@@ -16,3 +16,4 @@ parquet
 cargo-risczero
 paperclip
 foundationdb-gen
+cargo-local-registry
