@@ -50,3 +50,4 @@ addr2line
 rsgen-avro
 diesel_cli
 tree-sitter-cli
+burn-tch
