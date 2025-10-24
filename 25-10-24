@@ -5,3 +5,4 @@ java-locator
 perfcnt
 libbpf-cargo
 stellar-xdr
+holochain_cli
