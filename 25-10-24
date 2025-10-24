@@ -9,3 +9,4 @@ holochain_cli
 cargo-risczero
 paperclip
 cargo-local-registry
+stellar-strkey
