@@ -64,3 +64,4 @@ addr2line
 rsgen-avro
 python-project-generator
 diesel_cli
+bluetui
