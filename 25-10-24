@@ -11,3 +11,4 @@ cargo-spellcheck
 libbpf-cargo
 spider_cli
 rtx-cli
+stellar-xdr
