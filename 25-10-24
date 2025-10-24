@@ -4,3 +4,4 @@ stellar-strkey
 perfcnt
 libbpf-cargo
 stellar-xdr
+rtx-cli
