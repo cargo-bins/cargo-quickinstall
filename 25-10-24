@@ -22,3 +22,4 @@ tokio-process
 rsgen-avro
 burn-tch
 holochain
+papyrus_storage
