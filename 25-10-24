@@ -18,3 +18,4 @@ dicom-pixeldata
 investments
 rustbus
 tree-sitter-md
+tokio-process
