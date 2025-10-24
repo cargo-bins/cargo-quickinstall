@@ -11,3 +11,4 @@ schemafy
 java-locator
 tree-sitter-md
 dicom-pixeldata
+rsgen-avro
