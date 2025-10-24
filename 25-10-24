@@ -8,3 +8,4 @@ stellar-xdr
 holochain_cli
 cargo-risczero
 paperclip
+cargo-local-registry
