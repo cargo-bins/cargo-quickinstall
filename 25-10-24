@@ -7,3 +7,4 @@ stellar-strkey
 java-locator
 perfcnt
 tree-sitter-cli
+libbpf-cargo
