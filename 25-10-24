@@ -22,3 +22,4 @@ spider_cli
 rsgen-avro
 tree-sitter-cli
 holochain
+papyrus_storage
