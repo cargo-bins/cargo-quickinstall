@@ -18,3 +18,4 @@ uv
 spotify_player
 mecomp-cli
 tree-sitter-cli
+cargo-spellcheck
