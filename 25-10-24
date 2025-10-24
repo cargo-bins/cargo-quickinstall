@@ -49,3 +49,4 @@ diesel_cli
 addr2line
 fake
 rga
+diesel_cli
