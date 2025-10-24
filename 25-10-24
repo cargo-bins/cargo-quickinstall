@@ -50,3 +50,4 @@ addr2line
 fake
 rga
 diesel_cli
+typst-cli
