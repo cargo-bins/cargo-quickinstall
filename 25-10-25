@@ -18,3 +18,4 @@ foundationdb-gen
 ducc-sys
 cargo-mobile2
 httpmock
+uniffi
