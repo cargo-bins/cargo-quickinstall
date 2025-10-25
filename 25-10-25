@@ -21,3 +21,4 @@ cargo-generate
 dicom-pixeldata
 zellij
 dbus-codegen
+skim
