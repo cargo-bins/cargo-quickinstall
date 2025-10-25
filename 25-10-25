@@ -34,3 +34,4 @@ slint-lsp
 foundationdb-gen
 fake
 solana-cli
+ducc-sys
