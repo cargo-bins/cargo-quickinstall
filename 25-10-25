@@ -4,3 +4,4 @@ diesel_cli
 cargo-binstall
 slint-lsp
 lingua
+typst-cli
