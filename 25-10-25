@@ -22,3 +22,4 @@ diesel_cli
 tendermint-abci
 cargo-binstall
 nextest-filtering
+rg
