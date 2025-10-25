@@ -9,3 +9,4 @@ tendermint-abci
 nextest-filtering
 unic-langid-impl
 foundationdb-gen
+ducc-sys
