@@ -11,3 +11,4 @@ proof-of-sql
 deploy
 tendermint-abci
 nextest-filtering
+unic-langid-impl
