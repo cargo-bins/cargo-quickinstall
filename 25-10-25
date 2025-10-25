@@ -14,3 +14,4 @@ tendermint-abci
 ext-sort
 nextest-filtering
 unic-langid-impl
+foundationdb-gen
