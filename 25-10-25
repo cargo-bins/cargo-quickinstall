@@ -50,3 +50,4 @@ aura-pm
 dbus-codegen
 rustdesk
 rustdesk
+sha1collisiondetection
