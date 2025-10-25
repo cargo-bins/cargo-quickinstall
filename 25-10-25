@@ -18,3 +18,4 @@ salvo-cli
 nextest-filtering
 deploy
 salvo-cli
+diesel_cli
