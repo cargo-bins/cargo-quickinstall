@@ -18,3 +18,4 @@ tendermint-abci
 gitui
 nextest-filtering
 ext-sort
+unic-langid-impl
