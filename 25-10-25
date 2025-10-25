@@ -1,3 +1,4 @@
 addr2line
 cargo-dylint
 lingua
+typst-cli
