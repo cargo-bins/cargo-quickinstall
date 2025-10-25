@@ -28,3 +28,4 @@ dioxus-cli
 tendermint-abci
 nextest-filtering
 dioxus-cli
+ext-sort
