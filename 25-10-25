@@ -14,3 +14,4 @@ cargo-pgrx
 shunkakinoki
 fake
 controller
+salvo-cli
