@@ -4,3 +4,4 @@ lingua
 typst-cli
 cargo-dylint
 rga
+statsig-rs
