@@ -20,3 +20,4 @@ deploy
 salvo-cli
 diesel_cli
 tendermint-abci
+cargo-binstall
