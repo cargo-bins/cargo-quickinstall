@@ -5,3 +5,4 @@ typst-cli
 cargo-dylint
 rga
 statsig-rs
+fake
