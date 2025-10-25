@@ -16,3 +16,4 @@ mit-prepare-commit-msg
 gitui
 tendermint-abci
 gitui
+nextest-filtering
