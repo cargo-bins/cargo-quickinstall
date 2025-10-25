@@ -24,3 +24,4 @@ cargo-binstall
 nextest-filtering
 rg
 unic-langid-impl
+flipperzero-tools
