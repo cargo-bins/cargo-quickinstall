@@ -2,3 +2,4 @@ addr2line
 diesel_cli
 lingua
 statsig-rs
+raw-cpuid
