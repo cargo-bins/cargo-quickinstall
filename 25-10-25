@@ -12,3 +12,4 @@ tendermint-abci
 ext-sort
 nextest-filtering
 unic-langid-impl
+solana-stake-accounts
