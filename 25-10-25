@@ -12,3 +12,4 @@ nextest-filtering
 proof-of-sql
 deploy
 tendermint-abci
+nextest-filtering
