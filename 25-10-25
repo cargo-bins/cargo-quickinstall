@@ -7,3 +7,4 @@ lingua
 typst-cli
 ncspot
 raw-cpuid
+cargo-binstall
