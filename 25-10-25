@@ -16,3 +16,4 @@ fake
 controller
 salvo-cli
 nextest-filtering
+deploy
