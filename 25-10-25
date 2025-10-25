@@ -16,3 +16,4 @@ solana-stake-accounts
 foundationdb-gen
 ducc-sys
 cargo-mobile2
+httpmock
