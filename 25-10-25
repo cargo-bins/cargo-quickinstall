@@ -32,3 +32,4 @@ ext-sort
 unic-langid-impl
 slint-lsp
 foundationdb-gen
+fake
