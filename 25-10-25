@@ -10,3 +10,4 @@ typst-cli
 raw-cpuid
 salvo-cli
 fake
+cargo-pgrx
