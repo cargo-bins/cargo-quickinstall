@@ -8,3 +8,4 @@ controller
 solana-tokens
 nextest-filtering
 deploy
+tendermint-abci
