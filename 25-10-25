@@ -10,3 +10,4 @@ raw-cpuid
 cargo-binstall
 typst-cli
 slint-lsp
+rga
