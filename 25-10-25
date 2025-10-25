@@ -38,3 +38,4 @@ ducc-sys
 rg
 cargo-mobile2
 rg
+httpmock
