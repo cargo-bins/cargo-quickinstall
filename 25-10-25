@@ -9,3 +9,4 @@ mit-prepare-commit-msg
 git-mit-relates-to
 tendermint-abci
 nextest-filtering
+ext-sort
