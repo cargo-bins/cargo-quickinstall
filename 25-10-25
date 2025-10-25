@@ -12,3 +12,4 @@ ext-sort
 unic-langid-impl
 foundationdb-gen
 ducc-sys
+httpmock
