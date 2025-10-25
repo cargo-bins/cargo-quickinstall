@@ -12,3 +12,4 @@ deploy
 tendermint-abci
 nextest-filtering
 unic-langid-impl
+solana-stake-accounts
