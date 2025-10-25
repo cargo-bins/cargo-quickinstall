@@ -20,3 +20,4 @@ uniffi
 cargo-generate
 dicom-pixeldata
 zellij
+dbus-codegen
