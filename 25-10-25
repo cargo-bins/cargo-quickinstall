@@ -26,3 +26,4 @@ deploy
 slint-lsp
 dioxus-cli
 tendermint-abci
+nextest-filtering
