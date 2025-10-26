@@ -4,3 +4,4 @@ rls-rustc
 krui
 deno
 krui
+tracing-durations-export
