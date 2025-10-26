@@ -2,3 +2,4 @@ process_viewer
 clap-stdin
 sn_faucet
 kani-verifier
+tracing-durations-export
