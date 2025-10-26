@@ -8,3 +8,4 @@ tracing-durations-export
 snarkvm
 fake
 statsig-rs
+solana-gossip
