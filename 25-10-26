@@ -7,3 +7,4 @@ deno
 solana-cli
 esp-config
 cargo-dylint
+fake
