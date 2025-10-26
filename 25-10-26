@@ -4,3 +4,4 @@ cargo-msrv
 clap-stdin
 rls-rustc
 deno
+solana-cli
