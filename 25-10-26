@@ -7,3 +7,4 @@ esp-config
 alacritty
 rls-rustc
 deno
+ruff
