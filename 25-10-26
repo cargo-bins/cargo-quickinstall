@@ -6,3 +6,4 @@ deno
 solana-cli
 tracing-durations-export
 esp-config
+cargo-dylint
