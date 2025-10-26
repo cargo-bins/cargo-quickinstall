@@ -20,3 +20,4 @@ arrow-flight
 rustup-toolchain-install-master
 racer
 dotenv
+human_bytes
