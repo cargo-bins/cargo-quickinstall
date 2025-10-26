@@ -10,3 +10,4 @@ cargo-dylint
 fake
 coldsnap
 statsig-rs
+dioxus-cli
