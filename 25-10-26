@@ -6,3 +6,4 @@ tracing-durations-export
 fake
 coldsnap
 bpf-linker
+solana-gossip
