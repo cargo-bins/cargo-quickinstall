@@ -23,3 +23,4 @@ alacritty
 cargo-dylint
 huey
 snarkvm
+mockforge-cli
