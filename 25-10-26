@@ -1,3 +1,4 @@
 graphql_client_cli
 process_viewer
 clap-stdin
+rls-rustc
