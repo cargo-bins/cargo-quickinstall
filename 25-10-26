@@ -12,3 +12,4 @@ cargo-dylint
 fake
 dioxus-cli
 sass-rs
+dicom-pixeldata
