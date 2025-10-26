@@ -4,3 +4,4 @@ cargo-msrv
 rls-rustc
 deno
 solana-cli
+tracing-durations-export
