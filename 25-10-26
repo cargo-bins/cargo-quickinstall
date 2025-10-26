@@ -42,3 +42,4 @@ stasis
 cargo-dylint
 krnlc
 krnlc
+mockforge-cli
