@@ -3,3 +3,4 @@ process_viewer
 clap-stdin
 rls-rustc
 deno
+solana-cli
