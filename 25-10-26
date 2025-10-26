@@ -2,3 +2,4 @@ process_viewer
 clap-stdin
 rls-rustc
 krui
+deno
