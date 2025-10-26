@@ -40,3 +40,4 @@ sass-rs
 mockforge-cli
 stasis
 cargo-dylint
+krnlc
