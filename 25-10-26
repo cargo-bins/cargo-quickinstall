@@ -25,3 +25,4 @@ ruff
 stasis
 statsig-rs
 mockforge-cli
+solana-gossip
