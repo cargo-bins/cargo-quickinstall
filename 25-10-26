@@ -6,3 +6,4 @@ ruff
 ruff
 rls-rustc
 dioxus-cli
+mockforge-cli
