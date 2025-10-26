@@ -12,3 +12,4 @@ snarkvm
 fake
 xplr
 coldsnap
+bpf-linker
