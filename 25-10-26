@@ -3,3 +3,4 @@ clap-stdin
 sn_faucet
 kani-verifier
 tracing-durations-export
+fake
