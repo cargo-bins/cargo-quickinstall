@@ -11,3 +11,4 @@ fake
 coldsnap
 statsig-rs
 solana-gossip
+sea-orm-cli
