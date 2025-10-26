@@ -6,3 +6,4 @@ rls-rustc
 deno
 solana-cli
 esp-config
+cargo-dylint
