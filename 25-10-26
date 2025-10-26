@@ -3,3 +3,4 @@ process_viewer
 cargo-msrv
 rls-rustc
 deno
+solana-cli
