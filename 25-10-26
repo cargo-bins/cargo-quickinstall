@@ -5,3 +5,4 @@ process_viewer
 stasis
 esp-config
 alacritty
+rls-rustc
