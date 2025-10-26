@@ -21,3 +21,4 @@ tendermint-abci
 arrow-flight
 website_crawler
 racer
+dotenv
