@@ -2,3 +2,4 @@ process_viewer
 graphql_client_cli
 cargo-msrv
 clap-stdin
+rls-rustc
