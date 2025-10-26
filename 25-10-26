@@ -9,3 +9,4 @@ esp-config
 cargo-dylint
 fake
 coldsnap
+statsig-rs
