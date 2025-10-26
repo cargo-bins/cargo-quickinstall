@@ -5,3 +5,4 @@ kani-verifier
 tracing-durations-export
 fake
 coldsnap
+bpf-linker
