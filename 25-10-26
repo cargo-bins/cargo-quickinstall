@@ -2,3 +2,4 @@ graphql_client_cli
 process_viewer
 cargo-msrv
 rls-rustc
+deno
