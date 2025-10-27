@@ -6,3 +6,4 @@ dbus-codegen
 skim
 parquet
 syd
+tendermint-abci
