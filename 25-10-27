@@ -2,3 +2,4 @@ rustfmt-nightly
 xbuild
 calcit
 oci2git
+tree-sitter-cli
