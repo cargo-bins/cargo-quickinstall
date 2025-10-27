@@ -23,3 +23,4 @@ protox
 cached-path
 qsv
 build-fs-tree
+tendermint-rpc
