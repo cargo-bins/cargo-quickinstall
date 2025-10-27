@@ -13,3 +13,4 @@ libbpf-cargo
 parquet
 solana-tokens
 tree-sitter-cli
+tendermint-abci
