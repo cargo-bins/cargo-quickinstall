@@ -27,3 +27,4 @@ tendermint-rpc
 calcit
 rustup-toolchain-install-master
 rzup
+graphql_client_cli
