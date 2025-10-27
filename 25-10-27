@@ -4,3 +4,4 @@ rls-rustc
 cargo-risczero
 dotenv-flow
 dbus-codegen
+parquet
