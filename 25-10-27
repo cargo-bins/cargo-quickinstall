@@ -23,3 +23,4 @@ build-fs-tree
 laminar
 sqlx-cli
 tendermint-rpc
+sqlx-cli
