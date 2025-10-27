@@ -25,3 +25,4 @@ calcit
 rustup-toolchain-install-master
 sass-rs
 rzup
+graphql_client_cli
