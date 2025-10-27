@@ -33,3 +33,4 @@ cached-path
 rustnet-monitor
 ffsend
 qsv
+rls-rustc
