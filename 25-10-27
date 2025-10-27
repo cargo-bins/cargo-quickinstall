@@ -10,3 +10,4 @@ xbuild
 rls-rustc
 krnlc
 ravedude
+dotenv-flow
