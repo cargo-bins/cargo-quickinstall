@@ -6,3 +6,4 @@ parquet
 syd
 tendermint-abci
 process_viewer
+perfcnt
