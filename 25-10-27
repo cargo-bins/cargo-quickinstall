@@ -1,2 +1,3 @@
 rustfmt-nightly
 fast-conventional
+rls-rustc
