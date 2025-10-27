@@ -1,3 +1,4 @@
 rustfmt-nightly
 rls-rustc
 dotenv-flow
+dbus-codegen
