@@ -7,3 +7,4 @@ libbpf-cargo
 krnlc
 krnlc
 xbuild
+rls-rustc
