@@ -7,3 +7,4 @@ parquet
 solana-tokens
 tendermint-abci
 papyrus_storage
+perfcnt
