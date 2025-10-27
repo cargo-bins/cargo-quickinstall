@@ -21,3 +21,4 @@ qsv
 clap-stdin
 build-fs-tree
 laminar
+sqlx-cli
