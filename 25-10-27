@@ -23,3 +23,4 @@ build-fs-tree
 tendermint-rpc
 sass-rs
 investments
+rzup
