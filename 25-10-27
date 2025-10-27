@@ -41,3 +41,4 @@ build-fs-tree
 calcit
 hayagriva
 tendermint-rpc
+rustup-toolchain-install-master
