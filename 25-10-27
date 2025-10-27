@@ -17,3 +17,4 @@ syd
 rustnet-monitor
 tendermint-abci
 rustnet-monitor
+libbpf-cargo
