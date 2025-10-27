@@ -19,3 +19,4 @@ qsv
 rustup-toolchain-install-master
 protox
 zuse
+build-fs-tree
