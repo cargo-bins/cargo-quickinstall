@@ -34,3 +34,4 @@ rustnet-monitor
 ffsend
 qsv
 rls-rustc
+nextest
