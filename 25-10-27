@@ -1,3 +1,4 @@
 rustfmt-nightly
 xbuild
 calcit
+oci2git
