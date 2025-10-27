@@ -5,3 +5,4 @@ dbus-codegen
 parquet
 syd
 tendermint-abci
+process_viewer
