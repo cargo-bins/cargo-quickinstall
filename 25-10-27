@@ -3,3 +3,4 @@ rustfmt-nightly
 ravedude
 calcit
 vdev
+libbpf-cargo
