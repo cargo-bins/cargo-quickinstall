@@ -25,3 +25,4 @@ tendermint-rpc
 calcit
 rustup-toolchain-install-master
 sass-rs
+graphql_client_cli
