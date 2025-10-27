@@ -10,3 +10,4 @@ tree-sitter-cli
 dotenv-flow
 dbus-codegen
 libbpf-cargo
+parquet
