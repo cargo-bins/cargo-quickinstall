@@ -27,3 +27,4 @@ rustnet-monitor
 cached-path
 hayagriva
 qsv
+rls-rustc
