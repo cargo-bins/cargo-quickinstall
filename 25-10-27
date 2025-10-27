@@ -6,3 +6,4 @@ fast-conventional
 dotenv-flow
 versio
 dbus-codegen
+parquet
