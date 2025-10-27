@@ -12,3 +12,4 @@ dbus-codegen
 libbpf-cargo
 parquet
 solana-tokens
+tree-sitter-cli
