@@ -14,3 +14,4 @@ dotenv-flow
 parquet
 solana-tokens
 syd
+rustnet-monitor
