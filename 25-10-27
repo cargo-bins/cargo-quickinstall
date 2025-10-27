@@ -2,3 +2,4 @@ rustfmt-nightly
 calcit
 rls-rustc
 dotenv-flow
+parquet
