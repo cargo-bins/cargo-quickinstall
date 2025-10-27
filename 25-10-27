@@ -4,3 +4,4 @@ dotenv-flow
 dbus-codegen
 parquet
 syd
+tendermint-abci
