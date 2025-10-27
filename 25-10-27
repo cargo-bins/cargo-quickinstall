@@ -18,3 +18,4 @@ cached-path
 sea-orm-cli
 qsv
 zuse
+rustup-toolchain-install-master
