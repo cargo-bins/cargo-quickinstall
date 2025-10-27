@@ -4,3 +4,4 @@ cargo-risczero
 dotenv-flow
 dbus-codegen
 parquet
+syd
