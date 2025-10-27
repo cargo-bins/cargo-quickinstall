@@ -14,3 +14,4 @@ parquet
 solana-tokens
 tree-sitter-cli
 tendermint-abci
+rustnet-monitor
