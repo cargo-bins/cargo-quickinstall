@@ -3,3 +3,4 @@ calcit
 rls-rustc
 dotenv-flow
 dbus-codegen
+parquet
