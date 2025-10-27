@@ -10,3 +10,4 @@ holochain_cli
 text-diff
 unic-langid-impl
 process_viewer
+perfcnt
