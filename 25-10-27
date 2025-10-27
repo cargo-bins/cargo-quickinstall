@@ -7,3 +7,4 @@ krnlc
 libbpf-cargo
 tree-sitter-cli
 tree-sitter-cli
+dotenv-flow
