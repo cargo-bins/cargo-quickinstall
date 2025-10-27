@@ -15,3 +15,4 @@ protox
 cached-path
 sea-orm-cli
 rls-rustc
+qsv
