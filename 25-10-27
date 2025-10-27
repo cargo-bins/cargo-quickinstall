@@ -5,3 +5,4 @@ cargo-risczero
 dotenv-flow
 parquet
 solana-tokens
+tendermint-abci
