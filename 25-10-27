@@ -14,3 +14,4 @@ protox
 cached-path
 qsv
 rls-rustc
+build-fs-tree
