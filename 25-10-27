@@ -20,3 +20,4 @@ cached-path
 qsv
 clap-stdin
 build-fs-tree
+laminar
