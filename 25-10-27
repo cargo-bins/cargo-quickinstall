@@ -19,3 +19,4 @@ tendermint-abci
 rustnet-monitor
 libbpf-cargo
 ravedude
+process_viewer
