@@ -30,3 +30,4 @@ qsv
 rls-rustc
 airshipper
 ffsend
+nextest
