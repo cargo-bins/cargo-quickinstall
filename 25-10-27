@@ -20,3 +20,4 @@ qsv
 zuse
 rustup-toolchain-install-master
 laminar
+build-fs-tree
