@@ -3,3 +3,4 @@ calcit
 rls-rustc
 cargo-risczero
 dotenv-flow
+dbus-codegen
