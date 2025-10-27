@@ -8,3 +8,4 @@ tendermint-abci
 process_viewer
 perfcnt
 lance
+nkeys
