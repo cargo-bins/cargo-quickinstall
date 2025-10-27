@@ -6,3 +6,4 @@ vdev
 libbpf-cargo
 krnlc
 krnlc
+xbuild
