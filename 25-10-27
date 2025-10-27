@@ -9,3 +9,4 @@ tree-sitter-cli
 tree-sitter-cli
 dotenv-flow
 dbus-codegen
+libbpf-cargo
