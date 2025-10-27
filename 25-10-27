@@ -25,3 +25,4 @@ laminar
 build-fs-tree
 tendermint-rpc
 calcit
+rustup-toolchain-install-master
