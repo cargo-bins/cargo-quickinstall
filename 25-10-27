@@ -7,3 +7,4 @@ dbus-codegen
 parquet
 syd
 solana-tokens
+tendermint-abci
