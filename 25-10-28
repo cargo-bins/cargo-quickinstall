@@ -13,3 +13,4 @@ cargo-spellcheck
 rtx-cli
 syd
 graphql_client_cli
+re_query
