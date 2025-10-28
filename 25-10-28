@@ -9,3 +9,4 @@ wol-rs
 rustfmt-nightly
 ext-sort
 rtx-cli
+commit_verify
