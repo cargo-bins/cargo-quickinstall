@@ -9,3 +9,4 @@ wol-rs
 rustfmt-nightly
 ext-sort
 tree-sitter-graph
+rtx-cli
