@@ -10,3 +10,4 @@ a11ywatch_cli
 cargo-duplicates
 sea-orm-cli
 cargo-mobile2
+wol-rs
