@@ -31,3 +31,4 @@ solana-genesis
 uniffi
 lance
 honggfuzz
+holochain_cli
