@@ -28,3 +28,4 @@ dioxus-cli
 rustbus
 uv
 bpf-linker
+arrow-flight
