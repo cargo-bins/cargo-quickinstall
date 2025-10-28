@@ -41,3 +41,4 @@ honggfuzz
 dotenv-flow
 unic-langid-impl
 cargo-leptos
+dioxus-cli
