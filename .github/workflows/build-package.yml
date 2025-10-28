@@ -151,7 +151,7 @@ jobs:
       # TODO: try breaking things so that uploads don't work.
 
       - name: Upload run-local binary artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: built-${{ inputs.build_os }}
           path: ${{ env.BUILD_DIR }}
@@ -254,7 +254,7 @@ jobs:
 
       - name: Upload signature
         if: "! inputs.skip_signing"
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: signature
           path: ${{ env.SIG_FILENAME }}
