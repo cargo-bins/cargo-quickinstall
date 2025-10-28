@@ -37,3 +37,4 @@ dioxus-cli
 uv
 uv
 lance
+honggfuzz
