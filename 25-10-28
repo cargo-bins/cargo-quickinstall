@@ -15,3 +15,4 @@ rtx-cli
 syd
 graphql_client_cli
 solana-genesis
+spider_cli
