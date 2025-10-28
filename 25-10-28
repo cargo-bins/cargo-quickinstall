@@ -11,3 +11,4 @@ cargo-duplicates
 sea-orm-cli
 cargo-mobile2
 wol-rs
+ext-sort
