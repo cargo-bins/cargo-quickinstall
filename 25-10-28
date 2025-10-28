@@ -27,3 +27,4 @@ httm
 dioxus-cli
 rustbus
 uv
+bpf-linker
