@@ -30,3 +30,4 @@ sn_node
 solana-genesis
 uniffi
 lance
+honggfuzz
