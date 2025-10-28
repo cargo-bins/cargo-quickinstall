@@ -8,3 +8,4 @@ cargo-mobile2
 wol-rs
 rustfmt-nightly
 ext-sort
+rtx-cli
