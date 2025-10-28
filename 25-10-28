@@ -50,3 +50,4 @@ cargo-shock
 unic-langid-impl
 tgt
 cargo-shock
+bat-cli
