@@ -19,3 +19,4 @@ cargo-spellcheck
 wl-screenrec
 rtx-cli
 tgt
+cargo-duplicates
