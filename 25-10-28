@@ -20,3 +20,4 @@ commit_verify
 rustbus
 rtx-cli
 stellar-scaffold-cli
+syd
