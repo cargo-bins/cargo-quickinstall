@@ -18,3 +18,4 @@ solana-genesis
 spider_cli
 lance
 cargo-spellcheck
+solana-stake-accounts
