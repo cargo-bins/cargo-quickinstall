@@ -17,3 +17,4 @@ solana-genesis
 spider_cli
 lance
 uniffi
+cargo-spellcheck
