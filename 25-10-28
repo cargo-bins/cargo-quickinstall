@@ -20,3 +20,4 @@ ext-sort
 airshipper
 rtx-cli
 commit_verify
+cargo-spellcheck
