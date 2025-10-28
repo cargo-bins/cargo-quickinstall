@@ -20,3 +20,4 @@ solana-genesis
 spider_cli
 uniffi
 lance
+cargo-spellcheck
