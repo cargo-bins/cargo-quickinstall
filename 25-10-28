@@ -9,3 +9,4 @@ ext-sort
 hayagriva
 rtx-cli
 commit_verify
+cargo-spellcheck
