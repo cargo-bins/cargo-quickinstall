@@ -28,3 +28,4 @@ cargo-duplicates
 schemafy
 mise
 tgt
+graphql_client_cli
