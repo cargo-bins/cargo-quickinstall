@@ -17,3 +17,4 @@ wl-screenrec
 commit_verify
 cargo-spellcheck
 wl-screenrec
+rtx-cli
