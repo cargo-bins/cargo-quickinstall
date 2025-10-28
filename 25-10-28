@@ -11,3 +11,4 @@ commit_verify
 cargo-spellcheck
 rtx-cli
 syd
+graphql_client_cli
