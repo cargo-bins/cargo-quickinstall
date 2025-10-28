@@ -18,3 +18,4 @@ codeberg-cli
 stellar-scaffold-cli
 commit_verify
 rustbus
+rtx-cli
