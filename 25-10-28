@@ -21,3 +21,4 @@ spider_cli
 uniffi
 lance
 cargo-spellcheck
+unic-langid-impl
