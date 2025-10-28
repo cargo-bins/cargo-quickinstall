@@ -182,7 +182,7 @@ jobs:
           path: cargo-quickinstall
 
       - name: Download binary artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: built-${{ inputs.build_os }}
           # TODO: check that we it can't write anywhere other than built.d
