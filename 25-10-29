@@ -20,3 +20,4 @@ mise
 sass-rs
 winpty-rs
 tgt
+remove_dir_all
