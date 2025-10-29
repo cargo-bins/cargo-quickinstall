@@ -23,3 +23,4 @@ tgt
 remove_dir_all
 rustdoc-text
 bat-cli
+paru
