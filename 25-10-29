@@ -11,3 +11,4 @@ cargo-dylint
 rls-rustc
 oso
 diesel_cli
+deno
