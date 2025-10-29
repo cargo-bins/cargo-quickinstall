@@ -5,3 +5,4 @@ h3o
 pgrx-tests
 sha1collisiondetection
 sass-rs
+winpty-rs
