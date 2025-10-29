@@ -9,3 +9,4 @@ remove_dir_all
 holochain_cli
 fermium
 stellar-strkey
+solana-genesis
