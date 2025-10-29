@@ -11,3 +11,4 @@ h3o
 sha1collisiondetection
 winpty-rs
 jless
+remove_dir_all
