@@ -10,3 +10,4 @@ holochain_cli
 fermium
 stellar-strkey
 solana-genesis
+rls-rustc
