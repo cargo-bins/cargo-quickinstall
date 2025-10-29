@@ -9,3 +9,4 @@ cargo-shock
 cargo-shock
 opencv-binding-generator
 vdev
+rustdoc-text
