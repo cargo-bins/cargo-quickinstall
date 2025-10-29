@@ -19,3 +19,4 @@ solana-genesis
 proof-of-sql
 rls-rustc
 bpf-linker
+cargo-generate
