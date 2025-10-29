@@ -17,3 +17,4 @@ stellar-strkey
 project_init
 solana-genesis
 proof-of-sql
+rls-rustc
