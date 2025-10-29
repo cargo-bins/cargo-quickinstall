@@ -12,3 +12,4 @@ stellar-strkey
 solana-genesis
 rls-rustc
 bpf-linker
+cargo-generate
