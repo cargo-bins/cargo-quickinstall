@@ -8,3 +8,4 @@ remove_dir_all
 proof-of-sql
 rls-rustc
 oso
+diesel_cli
