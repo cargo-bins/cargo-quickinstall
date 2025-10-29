@@ -4,3 +4,4 @@ h3o
 pgrx-tests
 sha1collisiondetection
 winpty-rs
+remove_dir_all
