@@ -22,3 +22,4 @@ bpf-linker
 cargo-generate
 oso
 syd
+diesel_cli
