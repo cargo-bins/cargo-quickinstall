@@ -23,3 +23,4 @@ sha1collisiondetection
 bat-cli
 sass-rs
 paru
+winpty-rs
