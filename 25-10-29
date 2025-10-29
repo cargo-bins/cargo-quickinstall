@@ -17,3 +17,4 @@ oso
 syd
 tokio-process
 diesel_cli
+holochain_cli
