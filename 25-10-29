@@ -6,3 +6,4 @@ sha1collisiondetection
 winpty-rs
 remove_dir_all
 proof-of-sql
+rls-rustc
