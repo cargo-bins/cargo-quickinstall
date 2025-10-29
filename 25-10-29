@@ -6,3 +6,4 @@ sha1collisiondetection
 sass-rs
 winpty-rs
 remove_dir_all
+holochain_cli
