@@ -7,3 +7,4 @@ sha1collisiondetection
 sass-rs
 winpty-rs
 stellar-strkey
+cargo-dylint
