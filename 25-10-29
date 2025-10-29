@@ -16,3 +16,4 @@ cargo-generate
 oso
 syd
 tokio-process
+diesel_cli
