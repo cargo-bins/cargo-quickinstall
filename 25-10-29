@@ -7,3 +7,4 @@ tgt
 apollo-router
 rustdoc-text
 opencv-binding-generator
+cargo-shock
