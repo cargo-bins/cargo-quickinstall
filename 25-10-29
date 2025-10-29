@@ -6,3 +6,4 @@ vdev
 dioxus-cli
 dioxus-cli
 apollo-router
+opencv-binding-generator
