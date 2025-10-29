@@ -12,3 +12,4 @@ dioxus-cli
 h3o
 sha1collisiondetection
 winpty-rs
+remove_dir_all
