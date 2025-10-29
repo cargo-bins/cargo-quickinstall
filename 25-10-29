@@ -16,3 +16,4 @@ remove_dir_all
 stellar-strkey
 zuse
 cargo-dylint
+alacritty
