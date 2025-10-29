@@ -44,3 +44,4 @@ hurl
 cargo-pgrx
 soundscope
 bat-cli
+rls-rustc
