@@ -40,3 +40,4 @@ hurl
 proof-of-sql
 soundscope
 leenfetch
+rls-rustc
