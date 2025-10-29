@@ -9,3 +9,4 @@ rustdoc-text
 opencv-binding-generator
 cargo-shock
 bat-cli
+tgt
