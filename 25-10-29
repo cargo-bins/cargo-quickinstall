@@ -8,3 +8,4 @@ sass-rs
 winpty-rs
 stellar-strkey
 cargo-dylint
+rls-rustc
