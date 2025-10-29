@@ -11,3 +11,4 @@ opencv-binding-generator
 vdev
 rustdoc-text
 h3o
+sea-orm-cli
