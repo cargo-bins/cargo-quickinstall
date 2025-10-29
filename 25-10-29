@@ -19,3 +19,4 @@ zuse
 project_init
 cargo-dylint
 alacritty
+solana-genesis
