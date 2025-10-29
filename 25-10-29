@@ -18,3 +18,4 @@ project_init
 solana-genesis
 proof-of-sql
 rls-rustc
+bpf-linker
