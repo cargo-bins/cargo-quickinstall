@@ -4,3 +4,4 @@ parquet
 tuftool
 deno
 nextest-filtering
+rtx-cli
