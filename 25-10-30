@@ -44,3 +44,4 @@ cargo-count
 clippy
 spotify-tui
 clippy
+forgejo-cli
