@@ -52,3 +52,4 @@ socketcan
 clippy
 clap-stdin
 ext-sort
+dioxus-cli
