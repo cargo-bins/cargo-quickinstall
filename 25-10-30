@@ -15,3 +15,4 @@ redoxfs
 vdev
 nextest-filtering
 uv
+cargo-embed
