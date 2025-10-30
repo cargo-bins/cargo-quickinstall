@@ -16,3 +16,4 @@ tracing-durations-export
 socketcan
 clap-stdin
 ext-sort
+solana-stake-accounts
