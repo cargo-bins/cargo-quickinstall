@@ -5,3 +5,4 @@ tuftool
 deno
 nextest-filtering
 httpmock
+rtx-cli
