@@ -21,3 +21,4 @@ minicbor
 rsgen-avro
 tracing-durations-export
 bpf-linker
+socketcan
