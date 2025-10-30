@@ -17,3 +17,4 @@ cargo-patch
 cargo-patch
 pandora_box
 socketcan
+clap-stdin
