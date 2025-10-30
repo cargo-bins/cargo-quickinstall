@@ -9,3 +9,4 @@ nextest-filtering
 httpmock
 rtx-cli
 commit_verify
+pgrx-tests
