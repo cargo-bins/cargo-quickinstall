@@ -45,3 +45,4 @@ clippy
 spotify-tui
 clippy
 forgejo-cli
+socketcan
