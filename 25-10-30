@@ -20,3 +20,4 @@ kani-verifier
 minicbor
 rsgen-avro
 tracing-durations-export
+bpf-linker
