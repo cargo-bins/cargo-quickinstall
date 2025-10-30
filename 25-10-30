@@ -6,3 +6,4 @@ deno
 nextest-filtering
 rtx-cli
 commit_verify
+java-locator
