@@ -13,3 +13,4 @@ nextest-filtering
 rtx-cli
 ec2_instance_metadata
 git-mit
+commit_verify
