@@ -13,3 +13,4 @@ vdev
 nextest-filtering
 vdev
 spotify-tui
+httpmock
