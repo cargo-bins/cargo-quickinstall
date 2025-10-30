@@ -9,3 +9,4 @@ commit_verify
 java-locator
 minicbor
 spl-token-cli
+rsgen-avro
