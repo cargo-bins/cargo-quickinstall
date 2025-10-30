@@ -18,3 +18,4 @@ solana-keygen
 tracing-durations-export
 socketcan
 clap-stdin
+ext-sort
