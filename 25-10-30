@@ -7,3 +7,4 @@ nextest-filtering
 httpmock
 rtx-cli
 commit_verify
+java-locator
