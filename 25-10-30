@@ -12,3 +12,4 @@ wmi
 tracing-durations-export
 pandora_box
 socketcan
+clap-stdin
