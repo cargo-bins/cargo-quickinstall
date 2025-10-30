@@ -40,3 +40,4 @@ dioxus-cli
 minicbor
 boa_cli
 rsgen-avro
+wmi
