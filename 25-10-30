@@ -3,3 +3,4 @@ java-locator
 parquet
 deno
 nextest-filtering
+rtx-cli
