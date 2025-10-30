@@ -24,3 +24,4 @@ cargo-embed
 spotify-tui
 boa_cli
 dioxus-cli
+commit_verify
