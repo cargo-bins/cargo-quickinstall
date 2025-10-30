@@ -9,3 +9,4 @@ deno
 cargo-embed
 redoxfs
 parquet
+vdev
