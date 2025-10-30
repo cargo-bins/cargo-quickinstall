@@ -49,3 +49,4 @@ clippy
 cargo-count
 boa_cli
 socketcan
+clippy
