@@ -12,3 +12,4 @@ commit_verify
 pgrx-tests
 parquet
 java-locator
+minicbor
