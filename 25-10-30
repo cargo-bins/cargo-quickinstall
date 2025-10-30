@@ -7,3 +7,4 @@ vdev
 uv
 deno
 cargo-embed
+redoxfs
