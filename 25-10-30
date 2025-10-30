@@ -28,3 +28,4 @@ boa_cli
 commit_verify
 cargo-embed
 spotify-tui
+boa_cli
