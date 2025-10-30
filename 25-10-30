@@ -49,3 +49,4 @@ socketcan
 forgejo-cli
 cargo-count
 clippy
+clap-stdin
