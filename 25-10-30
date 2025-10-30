@@ -25,3 +25,4 @@ pandora_box
 socketcan
 clap-stdin
 cargo-leptos
+ext-sort
