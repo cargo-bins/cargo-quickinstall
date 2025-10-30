@@ -12,3 +12,4 @@ cargo-embed
 parquet
 cargo-embed
 redoxfs
+vdev
