@@ -11,3 +11,4 @@ cargo-patch
 wmi
 cargo-patch
 tracing-durations-export
+cargo-patch
