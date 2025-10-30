@@ -7,3 +7,4 @@ parquet
 zellij
 deno
 nextest-filtering
+rtx-cli
