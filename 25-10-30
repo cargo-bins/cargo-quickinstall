@@ -22,3 +22,4 @@ rsgen-avro
 tracing-durations-export
 bpf-linker
 socketcan
+pandora_box
