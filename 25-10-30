@@ -10,3 +10,4 @@ minicbor
 cargo-patch
 wmi
 cargo-patch
+tracing-durations-export
