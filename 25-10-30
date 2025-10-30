@@ -26,3 +26,4 @@ socketcan
 clap-stdin
 cargo-leptos
 ext-sort
+papyrus_storage
