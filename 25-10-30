@@ -2,3 +2,4 @@ parquet
 java-locator
 parquet
 deno
+nextest-filtering
