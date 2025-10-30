@@ -8,3 +8,4 @@ deno
 nextest-filtering
 httpmock
 rtx-cli
+commit_verify
