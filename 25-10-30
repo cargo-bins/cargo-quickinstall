@@ -10,3 +10,4 @@ parquet
 onehistory
 deno
 nextest-filtering
+rtx-cli
