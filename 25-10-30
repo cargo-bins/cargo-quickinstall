@@ -24,3 +24,4 @@ zellij
 pandora_box
 socketcan
 clap-stdin
+cargo-leptos
