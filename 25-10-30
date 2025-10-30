@@ -2,3 +2,4 @@ parquet
 parquet
 nextest-filtering
 httpmock
+rtx-cli
