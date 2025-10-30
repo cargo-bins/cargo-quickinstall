@@ -58,3 +58,4 @@ nu_plugin_binaryview
 ext-sort
 cargo-count
 nu_plugin_binaryview
+papyrus_storage
