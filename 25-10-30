@@ -5,3 +5,4 @@ deno
 nextest-filtering
 rtx-cli
 commit_verify
+pgrx-tests
