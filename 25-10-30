@@ -13,3 +13,4 @@ parquet
 cargo-embed
 redoxfs
 vdev
+nextest-filtering
