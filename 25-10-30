@@ -20,3 +20,4 @@ socketcan
 clap-stdin
 ext-sort
 solana-stake-accounts
+papyrus_storage
