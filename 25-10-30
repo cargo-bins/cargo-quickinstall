@@ -9,3 +9,4 @@ deno
 nextest-filtering
 rtx-cli
 git-mit
+commit_verify
