@@ -48,3 +48,4 @@ forgejo-cli
 socketcan
 forgejo-cli
 cargo-count
+clippy
