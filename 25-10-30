@@ -46,3 +46,4 @@ solana-keygen
 tracing-durations-export
 dioxus-cli
 clippy
+cargo-count
