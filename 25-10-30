@@ -12,3 +12,4 @@ spl-token-cli
 rsgen-avro
 wmi
 solana-keygen
+tracing-durations-export
