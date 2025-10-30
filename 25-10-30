@@ -20,3 +20,4 @@ solana-keygen
 mise
 tracing-durations-export
 socketcan
+clap-stdin
