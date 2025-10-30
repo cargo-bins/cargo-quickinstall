@@ -54,3 +54,4 @@ clap-stdin
 ext-sort
 dioxus-cli
 solana-stake-accounts
+papyrus_storage
