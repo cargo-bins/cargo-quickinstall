@@ -22,3 +22,4 @@ spotify-tui
 uv
 cargo-embed
 spotify-tui
+boa_cli
