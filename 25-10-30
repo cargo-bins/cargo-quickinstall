@@ -42,3 +42,4 @@ clippy
 tracing-durations-export
 cargo-count
 clippy
+spotify-tui
