@@ -47,3 +47,4 @@ tracing-durations-export
 dioxus-cli
 clippy
 cargo-count
+boa_cli
