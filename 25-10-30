@@ -50,3 +50,4 @@ forgejo-cli
 cargo-count
 clippy
 clap-stdin
+nu_plugin_binaryview
