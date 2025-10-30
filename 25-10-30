@@ -50,3 +50,4 @@ cargo-count
 boa_cli
 socketcan
 clippy
+clap-stdin
