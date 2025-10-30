@@ -13,3 +13,4 @@ tracing-durations-export
 pandora_box
 socketcan
 clap-stdin
+ext-sort
