@@ -39,3 +39,4 @@ wmi
 solana-keygen
 spotify-tui
 clippy
+tracing-durations-export
