@@ -7,3 +7,4 @@ parquet
 deno
 nextest-filtering
 httpmock
+rtx-cli
