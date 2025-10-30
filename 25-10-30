@@ -43,3 +43,4 @@ rsgen-avro
 wmi
 boa_cli
 solana-keygen
+tracing-durations-export
