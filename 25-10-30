@@ -48,3 +48,4 @@ dioxus-cli
 clippy
 cargo-count
 boa_cli
+socketcan
