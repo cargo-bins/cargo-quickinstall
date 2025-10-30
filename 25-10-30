@@ -6,3 +6,4 @@ spotify_player
 parquet
 deno
 nextest-filtering
+httpmock
