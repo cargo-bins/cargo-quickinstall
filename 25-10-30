@@ -13,3 +13,4 @@ wmi
 solana-keygen
 tracing-durations-export
 socketcan
+clap-stdin
