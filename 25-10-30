@@ -51,3 +51,4 @@ boa_cli
 socketcan
 clippy
 clap-stdin
+ext-sort
