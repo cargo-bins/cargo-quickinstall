@@ -16,3 +16,4 @@ git-mit
 commit_verify
 rmesg
 java-locator
+kani-verifier
