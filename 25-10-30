@@ -11,3 +11,4 @@ onehistory
 deno
 nextest-filtering
 rtx-cli
+ec2_instance_metadata
