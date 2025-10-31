@@ -16,3 +16,4 @@ raw-cpuid
 tuftool
 papyrus_storage
 deno
+pwasm-utils
