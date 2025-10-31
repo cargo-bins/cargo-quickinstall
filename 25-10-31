@@ -22,3 +22,4 @@ parquet
 crypto-cli-tools
 cpp_demangle
 java-locator
+cargo-generate
