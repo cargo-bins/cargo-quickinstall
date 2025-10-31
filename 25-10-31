@@ -9,3 +9,4 @@ cargo-spellcheck
 rustrict
 a11ywatch_cli
 cargo-dylint
+tree-sitter-graph
