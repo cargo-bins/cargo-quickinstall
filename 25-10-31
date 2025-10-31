@@ -19,3 +19,4 @@ rtx-cli
 parquet
 apollo-router
 cpp_demangle
+miden-crypto
