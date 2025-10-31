@@ -60,3 +60,4 @@ nu_plugin_query
 sqlpage
 cargo-list
 cargo-bpf
+nu_plugin_gstat
