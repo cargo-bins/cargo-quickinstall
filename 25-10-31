@@ -16,3 +16,4 @@ sn_node_rpc_client
 exa
 papyrus_storage
 deno
+pwasm-utils
