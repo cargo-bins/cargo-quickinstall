@@ -12,3 +12,4 @@ rsgen-avro
 esp-config
 kble-eb90
 forgejo-cli
+nu_plugin_gstat
