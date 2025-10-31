@@ -57,3 +57,4 @@ cargo-bpf
 cpp_demangle
 intentrace
 intentrace
+steel-cli
