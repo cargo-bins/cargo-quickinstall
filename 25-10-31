@@ -6,3 +6,4 @@ tuftool
 rsgen-avro
 pgrx-tests
 cargo-spellcheck
+rustrict
