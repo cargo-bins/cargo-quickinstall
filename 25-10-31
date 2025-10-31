@@ -7,3 +7,4 @@ rsgen-avro
 pgrx-tests
 cargo-spellcheck
 rustrict
+a11ywatch_cli
