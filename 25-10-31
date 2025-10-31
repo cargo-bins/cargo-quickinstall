@@ -4,3 +4,4 @@ papyrus_storage
 build-fs-tree
 tuftool
 rsgen-avro
+pgrx-tests
