@@ -8,3 +8,4 @@ rsgen-avro
 pgrx-tests
 rustup-toolchain-install-master
 cargo-spellcheck
+rustrict
