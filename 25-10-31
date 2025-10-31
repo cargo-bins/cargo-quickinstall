@@ -42,3 +42,4 @@ nu_plugin_gstat
 cargo-bpf
 pwasm-utils
 rtx-cli
+nu_plugin_query
