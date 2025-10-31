@@ -42,3 +42,4 @@ cargo-count
 rtx-cli
 pwasm-utils
 esp-config
+nu_plugin_binaryview
