@@ -53,3 +53,4 @@ nu_plugin_query
 crypto-cli-tools
 cargo-list
 nu_plugin_query
+cargo-bpf
