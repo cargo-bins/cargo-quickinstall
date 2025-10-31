@@ -53,3 +53,4 @@ apollo-router
 sqlpage
 cargo-bpf
 cargo-bpf
+nu_plugin_query
