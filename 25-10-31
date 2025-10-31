@@ -24,3 +24,4 @@ nextest
 pwasm-utils
 rtx-cli
 parquet
+apollo-router
