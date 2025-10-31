@@ -49,3 +49,4 @@ parquet
 esp-config
 nu_plugin_gstat
 nu_plugin_binaryview
+nu_plugin_query
