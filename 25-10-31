@@ -8,3 +8,4 @@ cargo-pgrx
 uv
 build-fs-tree
 uv
+rsgen-avro
