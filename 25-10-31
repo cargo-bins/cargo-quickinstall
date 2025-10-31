@@ -40,3 +40,4 @@ sqlpage
 intentrace
 nu_plugin_gstat
 cargo-bpf
+pwasm-utils
