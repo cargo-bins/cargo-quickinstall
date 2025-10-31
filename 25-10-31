@@ -20,3 +20,4 @@ rtx-cli
 rrule
 parquet
 apollo-router
+cpp_demangle
