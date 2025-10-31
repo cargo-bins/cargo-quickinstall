@@ -18,3 +18,4 @@ pwasm-utils
 rtx-cli
 parquet
 apollo-router
+cpp_demangle
