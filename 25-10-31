@@ -20,3 +20,4 @@ uv
 uv
 rustrict
 cargo-dylint
+raw-cpuid
