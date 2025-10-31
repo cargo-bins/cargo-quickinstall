@@ -31,3 +31,4 @@ nu_plugin_gstat
 raw-cpuid
 rioterm
 cargo-count
+uv
