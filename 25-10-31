@@ -13,3 +13,4 @@ cargo-dylint
 tree-sitter-graph
 raw-cpuid
 papyrus_storage
+deno
