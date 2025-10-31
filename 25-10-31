@@ -58,3 +58,4 @@ crypto-cli-tools
 cpp_demangle
 nu_plugin_query
 sqlpage
+cargo-list
