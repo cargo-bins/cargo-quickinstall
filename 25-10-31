@@ -61,3 +61,4 @@ sqlpage
 cargo-list
 cargo-bpf
 nu_plugin_gstat
+sea-orm-cli
