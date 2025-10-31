@@ -11,3 +11,4 @@ uv
 nextest
 build-fs-tree
 uv
+rsgen-avro
