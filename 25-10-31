@@ -12,3 +12,4 @@ rustrict
 a11ywatch_cli
 tree-sitter-graph
 cargo-dylint
+raw-cpuid
