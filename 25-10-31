@@ -22,3 +22,4 @@ uv
 uv
 nextest
 pwasm-utils
+rtx-cli
