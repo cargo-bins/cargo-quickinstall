@@ -22,3 +22,4 @@ crypto-cli-tools
 cpp_demangle
 java-locator
 miden-crypto
+parquet
