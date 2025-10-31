@@ -9,3 +9,4 @@ pgrx-tests
 rustup-toolchain-install-master
 cargo-spellcheck
 rustrict
+cargo-dylint
