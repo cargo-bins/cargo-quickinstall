@@ -6,3 +6,4 @@ tuftool
 build-fs-tree
 rsgen-avro
 rustup-toolchain-install-master
+pgrx-tests
