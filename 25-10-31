@@ -21,3 +21,4 @@ nextest
 uv
 uv
 nextest
+pwasm-utils
