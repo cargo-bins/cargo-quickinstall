@@ -13,3 +13,4 @@ cargo-count
 nu_plugin_query
 rsgen-avro
 rustup-toolchain-install-master
+pgrx-tests
