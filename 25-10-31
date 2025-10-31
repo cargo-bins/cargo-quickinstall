@@ -23,3 +23,4 @@ rioterm
 sqlpage
 nu_plugin_gstat
 tree-sitter-graph
+nu_plugin_query
