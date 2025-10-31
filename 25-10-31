@@ -8,3 +8,4 @@ kickstart
 uv
 build-fs-tree
 stellar-strkey
+rsgen-avro
