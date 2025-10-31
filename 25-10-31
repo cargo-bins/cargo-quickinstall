@@ -55,3 +55,4 @@ cargo-list
 nu_plugin_query
 cargo-bpf
 cpp_demangle
+intentrace
