@@ -27,3 +27,4 @@ cpp_demangle
 cargo-generate
 rmpc
 miden-crypto
+parquet
