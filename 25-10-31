@@ -35,3 +35,4 @@ uv
 clippy
 nu_plugin_gstat
 cargo-bpf
+sqlpage
