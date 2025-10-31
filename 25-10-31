@@ -26,3 +26,4 @@ rustrict
 a11ywatch_cli
 tree-sitter-graph
 nu_plugin_query
+nu_plugin_binaryview
