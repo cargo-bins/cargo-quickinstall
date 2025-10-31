@@ -40,3 +40,4 @@ esp-config
 papyrus_storage
 cargo-count
 rtx-cli
+pwasm-utils
