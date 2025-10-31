@@ -3,3 +3,4 @@ uv
 papyrus_storage
 sqlpage
 cargo-count
+nu_plugin_binaryview
