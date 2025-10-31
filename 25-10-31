@@ -9,3 +9,4 @@ kickstart
 nextest
 uv
 nextest
+build-fs-tree
