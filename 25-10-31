@@ -19,3 +19,4 @@ tmtc-c2a
 clippy
 nu_plugin_binaryview
 tree-sitter-cli
+cargo-spellcheck
