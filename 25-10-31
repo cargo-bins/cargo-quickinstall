@@ -30,3 +30,4 @@ nu_plugin_binaryview
 nu_plugin_gstat
 raw-cpuid
 rioterm
+cargo-count
