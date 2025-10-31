@@ -12,3 +12,4 @@ rsgen-avro
 uv
 nextest
 pgrx-tests
+uv
