@@ -8,3 +8,4 @@ rioterm
 sqlpage
 build-fs-tree
 stellar-strkey
+sea-orm-cli
