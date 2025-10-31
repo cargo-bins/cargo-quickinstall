@@ -5,3 +5,4 @@ papyrus_storage
 cargo-pgrx
 build-fs-tree
 rsgen-avro
+pgrx-tests
