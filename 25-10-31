@@ -45,3 +45,4 @@ rtx-cli
 nu_plugin_query
 sqlpage
 nu_plugin_gstat
+parquet
