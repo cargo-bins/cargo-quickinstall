@@ -6,3 +6,4 @@ papyrus_storage
 rioterm
 cargo-pgrx
 uv
+build-fs-tree
