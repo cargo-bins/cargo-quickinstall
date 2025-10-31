@@ -19,3 +19,4 @@ nextest
 uv
 uv
 rustrict
+cargo-dylint
