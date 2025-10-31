@@ -19,3 +19,4 @@ deno
 pwasm-utils
 parquet
 rrule
+apollo-router
