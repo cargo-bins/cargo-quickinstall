@@ -63,3 +63,4 @@ cargo-bpf
 nu_plugin_gstat
 sea-orm-cli
 mdcat
+miden-crypto
