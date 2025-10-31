@@ -11,3 +11,4 @@ uv
 rsgen-avro
 esp-config
 kble-eb90
+forgejo-cli
