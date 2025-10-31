@@ -39,3 +39,4 @@ papyrus_storage
 sqlpage
 intentrace
 nu_plugin_gstat
+cargo-bpf
