@@ -8,3 +8,4 @@ build-fs-tree
 rsgen-avro
 cargo-local-registry
 pgrx-tests
+rustrict
