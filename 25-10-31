@@ -11,3 +11,4 @@ stellar-strkey
 rsgen-avro
 uv
 nextest
+pgrx-tests
