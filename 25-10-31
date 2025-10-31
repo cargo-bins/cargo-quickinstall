@@ -56,3 +56,4 @@ cargo-bpf
 nu_plugin_query
 crypto-cli-tools
 cpp_demangle
+nu_plugin_query
