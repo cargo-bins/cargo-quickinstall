@@ -10,3 +10,4 @@ cargo-local-registry
 pgrx-tests
 rustrict
 tree-sitter-graph
+cargo-local-registry
