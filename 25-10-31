@@ -10,3 +10,4 @@ build-fs-tree
 stellar-strkey
 sea-orm-cli
 cargo-count
+nu_plugin_query
