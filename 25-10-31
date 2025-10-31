@@ -10,3 +10,4 @@ text-diff
 rustrict
 tree-sitter-graph
 cargo-local-registry
+raw-cpuid
