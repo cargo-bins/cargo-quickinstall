@@ -22,3 +22,4 @@ tree-sitter-cli
 cargo-spellcheck
 nu_plugin_binaryview
 nu_plugin_query
+rustrict
