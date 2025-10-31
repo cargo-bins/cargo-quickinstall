@@ -20,3 +20,4 @@ clippy
 nu_plugin_binaryview
 tree-sitter-cli
 cargo-spellcheck
+nu_plugin_binaryview
