@@ -17,3 +17,4 @@ libbpf-cargo
 borsh
 sp1-prover
 wmi
+cargo-pgrx
