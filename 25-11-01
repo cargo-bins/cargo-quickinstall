@@ -5,3 +5,4 @@ dbus-codegen
 project_init
 cargo-mobile2
 solana-gossip
+dotenv
