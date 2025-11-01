@@ -22,3 +22,4 @@ wmi
 pgrx-tests
 cargo-pgrx
 cargo-mobile2
+diesel_cli
