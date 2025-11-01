@@ -32,3 +32,4 @@ rrule
 xargo
 refinery_cli
 gumbo
+winpty-rs
