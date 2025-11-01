@@ -4,3 +4,4 @@ mdcat
 steel-cli
 cargo-list
 cargo-dylint
+nu_plugin_gstat
