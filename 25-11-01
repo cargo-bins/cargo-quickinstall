@@ -7,3 +7,4 @@ solana-gossip
 dotenv
 holochain
 deploy
+cargo-pgrx
