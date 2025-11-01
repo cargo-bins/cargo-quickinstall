@@ -9,3 +9,4 @@ dotenv
 paperclip
 deploy
 cargo-pgrx
+arrow-flight
