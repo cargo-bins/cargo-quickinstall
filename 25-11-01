@@ -8,3 +8,4 @@ dotenv
 deploy
 cargo-pgrx
 process_viewer
+rrule
