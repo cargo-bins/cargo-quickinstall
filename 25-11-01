@@ -16,3 +16,4 @@ cargo-leptos
 xargo
 winpty-rs
 nominal-api
+libbpf-cargo
