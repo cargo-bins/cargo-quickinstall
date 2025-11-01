@@ -6,3 +6,4 @@ dbus-codegen
 project_init
 solana-gossip
 dotenv
+holochain
