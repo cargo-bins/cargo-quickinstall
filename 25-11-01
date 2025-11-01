@@ -3,3 +3,4 @@ solana-genesis
 deploy
 perfcnt
 dbus-codegen
+binstall
