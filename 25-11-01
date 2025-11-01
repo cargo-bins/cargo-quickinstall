@@ -3,3 +3,4 @@ perfcnt
 deploy
 dbus-codegen
 project_init
+cargo-mobile2
