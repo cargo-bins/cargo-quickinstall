@@ -45,3 +45,4 @@ refinery_cli
 gumbo
 libbpf-cargo
 rav1e
+borsh
