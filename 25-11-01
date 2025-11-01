@@ -19,3 +19,4 @@ xargo
 binstall
 nominal-api
 libbpf-cargo
+statime-linux
