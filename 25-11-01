@@ -25,3 +25,4 @@ steel-cli
 wiremix
 process_viewer
 xargo
+cargo-size
