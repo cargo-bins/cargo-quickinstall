@@ -3,3 +3,4 @@ perfcnt
 deploy
 sn_node_rpc_client
 dbus-codegen
+project_init
