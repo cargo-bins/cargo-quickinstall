@@ -3,3 +3,4 @@ dbus-codegen
 mdcat
 steel-cli
 cargo-list
+cargo-dylint
