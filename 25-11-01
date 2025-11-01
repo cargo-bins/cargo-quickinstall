@@ -12,3 +12,4 @@ deploy
 paperclip
 process_viewer
 rrule
+cargo-leptos
