@@ -7,3 +7,4 @@ solana-gossip
 dotenv
 deploy
 cargo-pgrx
+process_viewer
