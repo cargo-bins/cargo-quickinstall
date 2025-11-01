@@ -4,3 +4,4 @@ deploy
 dbus-codegen
 cargo-mobile2
 solana-gossip
+dotenv
