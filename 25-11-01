@@ -43,3 +43,4 @@ mdcat
 cargo-size
 refinery_cli
 gumbo
+libbpf-cargo
