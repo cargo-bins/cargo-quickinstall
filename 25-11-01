@@ -9,3 +9,4 @@ dotenv
 holochain
 deploy
 paperclip
+cargo-pgrx
