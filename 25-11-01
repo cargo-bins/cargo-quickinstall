@@ -20,3 +20,4 @@ sp1-prover
 xargo
 wmi
 pgrx-tests
+cargo-pgrx
