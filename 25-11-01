@@ -8,3 +8,4 @@ solana-gossip
 dotenv
 holochain
 deploy
+paperclip
