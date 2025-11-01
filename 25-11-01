@@ -5,3 +5,4 @@ steel-cli
 cargo-list
 cargo-dylint
 nu_plugin_gstat
+cargo-mobile2
