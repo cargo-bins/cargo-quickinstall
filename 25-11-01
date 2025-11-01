@@ -25,3 +25,4 @@ cargo-list
 cargo-pgrx
 wiremix
 refinery_cli
+cargo-bpf
