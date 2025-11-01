@@ -10,3 +10,4 @@ paperclip
 deploy
 cargo-pgrx
 arrow-flight
+process_viewer
