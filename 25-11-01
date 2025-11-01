@@ -52,3 +52,4 @@ wmi
 cargo-size
 ripdrag
 sysd-manager
+dx-cli
