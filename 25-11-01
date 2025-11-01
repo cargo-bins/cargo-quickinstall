@@ -49,3 +49,4 @@ borsh
 sniffnet
 sp1-prover
 wmi
+cargo-size
