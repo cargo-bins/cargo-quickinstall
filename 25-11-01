@@ -4,3 +4,4 @@ dotenv
 deploy
 paperclip
 process_viewer
+xargo
