@@ -5,3 +5,4 @@ perfcnt
 dbus-codegen
 binstall
 solana-gossip
+dotenv
