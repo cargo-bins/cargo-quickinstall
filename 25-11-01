@@ -15,3 +15,4 @@ rrule
 xargo
 nominal-api
 libbpf-cargo
+borsh
