@@ -26,3 +26,4 @@ pgrx-tests
 skim
 statime-linux
 fermium
+ec2_instance_metadata
