@@ -26,3 +26,4 @@ cargo-pgrx
 wiremix
 refinery_cli
 cargo-bpf
+process_viewer
