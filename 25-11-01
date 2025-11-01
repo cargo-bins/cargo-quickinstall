@@ -4,3 +4,4 @@ deploy
 perfcnt
 dbus-codegen
 binstall
+solana-gossip
