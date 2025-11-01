@@ -3,3 +3,4 @@ dbus-codegen
 dotenv
 deploy
 paperclip
+process_viewer
