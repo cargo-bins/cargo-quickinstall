@@ -16,3 +16,4 @@ nominal-api
 libbpf-cargo
 borsh
 sp1-prover
+wmi
