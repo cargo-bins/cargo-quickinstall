@@ -9,3 +9,4 @@ winpty-rs
 nominal-api
 libbpf-cargo
 statime-linux
+borsh
