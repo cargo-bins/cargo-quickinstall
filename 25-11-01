@@ -34,3 +34,4 @@ cargo-size
 gumbo
 dx-cli
 rav1e
+libbpf-cargo
