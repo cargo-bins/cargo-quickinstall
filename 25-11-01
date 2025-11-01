@@ -6,3 +6,4 @@ cargo-mobile2
 solana-gossip
 dotenv
 deploy
+cargo-pgrx
