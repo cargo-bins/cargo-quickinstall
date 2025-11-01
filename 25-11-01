@@ -26,3 +26,4 @@ wiremix
 process_viewer
 xargo
 cargo-size
+winpty-rs
