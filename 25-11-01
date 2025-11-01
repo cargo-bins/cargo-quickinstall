@@ -55,3 +55,4 @@ sysd-manager
 dx-cli
 cargo-size
 cargo-pgrx
+sniffnet
