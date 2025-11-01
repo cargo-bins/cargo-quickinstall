@@ -3,3 +3,4 @@ mdcat
 solana-genesis
 steel-cli
 cargo-bpf
+dbus-codegen
