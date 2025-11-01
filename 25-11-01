@@ -8,3 +8,4 @@ solana-gossip
 dotenv
 paperclip
 deploy
+cargo-pgrx
