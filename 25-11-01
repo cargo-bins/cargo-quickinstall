@@ -2,3 +2,4 @@ solana-genesis
 perfcnt
 deploy
 sn_node_rpc_client
+dbus-codegen
