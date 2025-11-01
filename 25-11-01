@@ -12,3 +12,4 @@ process_viewer
 xargo
 winpty-rs
 nominal-api
+libbpf-cargo
