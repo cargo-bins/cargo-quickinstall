@@ -5,3 +5,4 @@ steel-cli
 cargo-bpf
 dbus-codegen
 mdcat
+cargo-list
