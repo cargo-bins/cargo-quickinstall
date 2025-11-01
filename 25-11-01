@@ -4,3 +4,4 @@ project_init
 dotenv
 deploy
 paperclip
+process_viewer
