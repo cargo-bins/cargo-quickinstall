@@ -3,3 +3,4 @@ dbus-codegen
 project_init
 dotenv
 deploy
+paperclip
