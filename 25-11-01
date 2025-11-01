@@ -18,3 +18,4 @@ libbpf-cargo
 borsh
 sp1-prover
 xargo
+wmi
