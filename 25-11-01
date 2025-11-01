@@ -5,3 +5,4 @@ deploy
 paperclip
 process_viewer
 xargo
+winpty-rs
