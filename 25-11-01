@@ -9,3 +9,4 @@ holochain
 deploy
 cargo-pgrx
 process_viewer
+xargo
