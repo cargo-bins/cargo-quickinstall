@@ -10,3 +10,4 @@ nominal-api
 libbpf-cargo
 statime-linux
 borsh
+xargo
