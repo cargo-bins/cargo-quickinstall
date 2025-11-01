@@ -14,3 +14,4 @@ process_viewer
 rrule
 cargo-leptos
 xargo
+winpty-rs
