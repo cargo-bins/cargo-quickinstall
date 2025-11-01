@@ -40,3 +40,4 @@ cargo-list
 nominal-api
 gumbo
 mdcat
+cargo-size
