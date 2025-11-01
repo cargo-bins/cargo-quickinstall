@@ -5,3 +5,4 @@ dbus-codegen
 cargo-mobile2
 nexmark
 solana-gossip
+dotenv
