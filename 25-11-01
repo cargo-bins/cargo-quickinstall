@@ -6,3 +6,4 @@ cargo-bpf
 dbus-codegen
 mdcat
 cargo-list
+cargo-mobile2
