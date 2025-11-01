@@ -14,3 +14,4 @@ winpty-rs
 nominal-api
 libbpf-cargo
 borsh
+xargo
