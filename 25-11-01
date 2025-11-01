@@ -18,3 +18,4 @@ cargo-leptos
 xargo
 binstall
 nominal-api
+libbpf-cargo
