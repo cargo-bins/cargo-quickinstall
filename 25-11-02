@@ -40,3 +40,4 @@ cargo-script
 winpty-rs
 lance
 rg
+borsh
