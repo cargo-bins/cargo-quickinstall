@@ -59,3 +59,4 @@ tmux
 rg
 borsh
 tlmcmddb-cli
+cargo-script
