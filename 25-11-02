@@ -14,3 +14,4 @@ cargo-dylint
 sea-orm-cli
 kble-c2a
 tmux
+alacritty
