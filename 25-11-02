@@ -13,3 +13,4 @@ winpty-rs
 lance
 borsh
 httpmock
+cargo-pgrx
