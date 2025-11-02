@@ -43,3 +43,4 @@ rg
 borsh
 nextest
 httpmock
+cargo-pgrx
