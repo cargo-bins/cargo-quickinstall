@@ -7,3 +7,4 @@ winpty-rs
 borsh
 httpmock
 protox
+solana-validator
