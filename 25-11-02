@@ -79,3 +79,4 @@ probe-rs-tools
 superseedr
 nextest
 probe-rs-tools
+cargo-script
