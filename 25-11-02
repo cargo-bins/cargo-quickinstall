@@ -11,3 +11,4 @@ probe-rs-tools
 solana-faucet
 sass-rs
 borsh
+winpty-rs
