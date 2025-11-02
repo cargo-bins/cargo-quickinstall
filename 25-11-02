@@ -16,3 +16,4 @@ winpty-rs
 borsh
 skim
 httpmock
+holochain_cli
