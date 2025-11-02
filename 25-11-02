@@ -9,3 +9,4 @@ cargo-lock
 sass-rs
 borsh
 winpty-rs
+lance
