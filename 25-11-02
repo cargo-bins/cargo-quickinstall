@@ -5,3 +5,4 @@ cargo-dylint
 nextest-filtering
 dx-cli
 dx-cli
+website_crawler
