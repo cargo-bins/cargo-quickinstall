@@ -3,3 +3,4 @@ website_crawler
 probe-rs-tools
 probe-rs-tools
 fake
+cargo-lock
