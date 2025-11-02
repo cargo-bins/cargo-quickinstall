@@ -12,3 +12,4 @@ probe-rs-tools
 probe-rs-tools
 sass-rs
 borsh
+winpty-rs
