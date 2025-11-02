@@ -81,3 +81,4 @@ nextest
 probe-rs-tools
 cargo-script
 kble-serialport
+process_viewer
