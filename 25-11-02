@@ -41,3 +41,4 @@ winpty-rs
 lance
 rg
 borsh
+nextest
