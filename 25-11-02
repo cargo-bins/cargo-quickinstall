@@ -22,3 +22,4 @@ winpty-rs
 lance
 borsh
 cargo-generate
+httpmock
