@@ -3,3 +3,4 @@ website_crawler
 fake
 cargo-lock
 borsh
+winpty-rs
