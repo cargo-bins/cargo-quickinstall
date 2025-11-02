@@ -11,3 +11,4 @@ borsh
 winpty-rs
 lance
 borsh
+httpmock
