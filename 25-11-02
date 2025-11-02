@@ -60,3 +60,4 @@ rg
 borsh
 tlmcmddb-cli
 cargo-script
+httpmock
