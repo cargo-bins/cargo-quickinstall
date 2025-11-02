@@ -49,3 +49,4 @@ sass-rs
 cargo-dylint
 probe-rs-tools
 cargo-script
+tmux-rs
