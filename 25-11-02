@@ -15,3 +15,4 @@ winpty-rs
 cargo-dylint
 borsh
 httpmock
+protox
