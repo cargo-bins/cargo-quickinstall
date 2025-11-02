@@ -8,3 +8,4 @@ cargo-lock
 fake
 solana-faucet
 sass-rs
+borsh
