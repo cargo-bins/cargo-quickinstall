@@ -44,3 +44,4 @@ borsh
 nextest
 httpmock
 cargo-pgrx
+protox
