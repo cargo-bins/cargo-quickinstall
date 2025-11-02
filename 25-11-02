@@ -56,3 +56,4 @@ winpty-rs
 dioxus-cli
 lance
 tmux
+rg
