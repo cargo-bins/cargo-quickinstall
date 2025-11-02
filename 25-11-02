@@ -45,3 +45,4 @@ nextest
 httpmock
 cargo-pgrx
 protox
+tmux-rs
