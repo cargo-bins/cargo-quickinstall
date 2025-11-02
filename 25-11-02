@@ -42,3 +42,4 @@ lance
 rg
 borsh
 nextest
+httpmock
