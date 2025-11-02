@@ -15,3 +15,4 @@ borsh
 httpmock
 cargo-pgrx
 protox
+solana-genesis
