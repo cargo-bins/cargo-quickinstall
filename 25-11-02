@@ -13,3 +13,4 @@ wol-rs
 fake
 cargo-lock
 skim
+rustbus
