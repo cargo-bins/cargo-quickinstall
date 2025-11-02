@@ -52,3 +52,4 @@ cargo-script
 tmux-rs
 kble-c2a
 probe-rs-tools
+winpty-rs
