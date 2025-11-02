@@ -20,3 +20,4 @@ holochain_cli
 protox
 sn_cli
 solana-validator
+solana-genesis
