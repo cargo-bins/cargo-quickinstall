@@ -16,3 +16,4 @@ cargo-dylint
 borsh
 httpmock
 protox
+solana-validator
