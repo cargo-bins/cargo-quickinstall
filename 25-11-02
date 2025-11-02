@@ -12,3 +12,4 @@ solana-faucet
 sass-rs
 borsh
 winpty-rs
+cargo-dylint
