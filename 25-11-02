@@ -37,3 +37,4 @@ sass-rs
 kble-serialport
 tmux
 cargo-script
+winpty-rs
