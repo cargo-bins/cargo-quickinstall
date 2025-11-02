@@ -7,3 +7,4 @@ wol-rs
 fake
 cargo-lock
 sass-rs
+borsh
