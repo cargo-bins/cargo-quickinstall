@@ -80,3 +80,4 @@ superseedr
 nextest
 probe-rs-tools
 cargo-script
+kble-serialport
