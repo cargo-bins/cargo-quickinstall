@@ -2,3 +2,4 @@ tokio-process
 nextest-filtering
 website_crawler
 fermium
+httpbis
