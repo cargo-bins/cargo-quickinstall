@@ -71,3 +71,4 @@ rg
 nextest
 cargo-dylint
 solana-validator
+rg
