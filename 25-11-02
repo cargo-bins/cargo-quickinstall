@@ -50,3 +50,4 @@ cargo-dylint
 probe-rs-tools
 cargo-script
 tmux-rs
+kble-c2a
