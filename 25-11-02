@@ -38,3 +38,4 @@ kble-serialport
 tmux
 cargo-script
 winpty-rs
+lance
