@@ -47,3 +47,4 @@ cargo-pgrx
 protox
 tmux-rs
 tree-sitter-cli
+nextest
