@@ -36,3 +36,4 @@ kble-c2a
 sass-rs
 kble-serialport
 tmux
+cargo-script
