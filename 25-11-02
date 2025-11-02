@@ -6,3 +6,4 @@ httpbis
 bpf-linker
 mit-pre-commit
 cargo-risczero
+fake
