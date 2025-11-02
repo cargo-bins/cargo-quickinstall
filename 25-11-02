@@ -44,3 +44,4 @@ dioxus-cli
 solana-faucet
 dioxus-cli
 tmux-rs
+cargo-dylint
