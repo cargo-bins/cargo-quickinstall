@@ -2,3 +2,4 @@ nextest-filtering
 website_crawler
 protox
 probe-rs-tools
+wol-rs
