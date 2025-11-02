@@ -5,3 +5,4 @@ sniffnet
 nextest-filtering
 alacritty
 sysd-manager
+cargo-size
