@@ -4,3 +4,4 @@ wol-rs
 fake
 sass-rs
 borsh
+winpty-rs
