@@ -11,3 +11,4 @@ tlmcmddb-cli
 tmtc-c2a
 kble-serialport
 cargo-dylint
+sea-orm-cli
