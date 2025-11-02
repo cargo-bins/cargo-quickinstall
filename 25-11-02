@@ -10,3 +10,4 @@ website_crawler
 tlmcmddb-cli
 tmtc-c2a
 kble-serialport
+cargo-dylint
