@@ -21,3 +21,4 @@ exa
 winpty-rs
 lance
 borsh
+cargo-generate
