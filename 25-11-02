@@ -22,3 +22,4 @@ sn_cli
 solana-validator
 solana-genesis
 nkeys
+process_viewer
