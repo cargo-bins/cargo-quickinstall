@@ -2,3 +2,4 @@ dx-cli
 tmux-rs
 sniffnet
 cargo-dylint
+nextest-filtering
