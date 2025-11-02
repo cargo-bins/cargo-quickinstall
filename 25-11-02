@@ -39,3 +39,4 @@ tmux
 cargo-script
 winpty-rs
 lance
+rg
