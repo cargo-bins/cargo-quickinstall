@@ -4,3 +4,4 @@ fake
 cargo-lock
 borsh
 winpty-rs
+borsh
