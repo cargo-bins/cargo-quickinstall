@@ -35,3 +35,4 @@ cargo-script
 kble-c2a
 sass-rs
 kble-serialport
+tmux
