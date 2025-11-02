@@ -16,3 +16,4 @@ httpmock
 cargo-pgrx
 protox
 solana-genesis
+solana-validator
