@@ -11,3 +11,4 @@ nextest
 rg
 superseedr
 diesel_cli
+graphql_client_cli
