@@ -5,3 +5,4 @@ cargo-risczero
 iai-callgrind-runner
 tokio-process
 mit-prepare-commit-msg
+raw-cpuid
