@@ -16,3 +16,4 @@ solana-genesis
 spl-token-cli
 h3o
 pgrx-tests
+foundationdb-gen
