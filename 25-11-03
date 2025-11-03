@@ -1,3 +1,4 @@
 cargo-script
 rg
 graphql_client_cli
+addr2line
