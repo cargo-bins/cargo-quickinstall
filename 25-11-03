@@ -2,3 +2,4 @@ graphql_client_cli
 addr2line
 kble-serialport
 superseedr
+cargo-script
