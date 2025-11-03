@@ -17,3 +17,4 @@ spider_worker
 dprint
 nexmark
 solana-genesis
+spl-token-cli
