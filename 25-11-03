@@ -15,3 +15,4 @@ graphql_client_cli
 vtcode
 vtcode
 rg
+addr2line
