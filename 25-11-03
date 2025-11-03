@@ -12,3 +12,4 @@ holochain_cli
 apollo-router
 clap-stdin
 crypto-cli-tools
+dprint
