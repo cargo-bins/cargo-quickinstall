@@ -4,3 +4,4 @@ diesel_cli
 cargo-risczero
 iai-callgrind-runner
 tokio-process
+mit-prepare-commit-msg
