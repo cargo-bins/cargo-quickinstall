@@ -3,3 +3,4 @@ addr2line
 kble-serialport
 superseedr
 cargo-script
+python-project-generator
