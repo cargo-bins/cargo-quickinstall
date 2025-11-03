@@ -2,3 +2,4 @@ cargo-dylint
 graphql_client_cli
 diesel_cli
 cargo-dylint
+spider_worker
