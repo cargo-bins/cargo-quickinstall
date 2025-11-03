@@ -7,3 +7,4 @@ cargo-msrv
 dioxus-cli
 alacritty
 spider_cli
+raw-cpuid
