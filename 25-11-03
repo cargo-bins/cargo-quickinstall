@@ -6,3 +6,4 @@ cargo-script
 python-project-generator
 rg
 rg
+diesel_cli
