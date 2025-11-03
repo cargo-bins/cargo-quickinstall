@@ -28,3 +28,4 @@ raw-cpuid
 python-project-generator
 metadata
 z3tracer
+cargo-script
