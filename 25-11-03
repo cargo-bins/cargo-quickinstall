@@ -3,3 +3,4 @@ diesel_cli
 cargo-risczero
 iai-callgrind-runner
 esp-config
+re_query
