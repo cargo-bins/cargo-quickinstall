@@ -5,3 +5,4 @@ iai-callgrind-runner
 esp-config
 re_query
 mit-prepare-commit-msg
+z3tracer
