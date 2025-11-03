@@ -6,3 +6,4 @@ iai-callgrind-runner
 tokio-process
 mit-prepare-commit-msg
 raw-cpuid
+z3tracer
