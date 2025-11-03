@@ -19,3 +19,4 @@ h3o
 pgrx-tests
 cargo-risczero
 foundationdb-gen
+pwasm-utils
