@@ -6,3 +6,4 @@ nexmark
 h3o
 pgrx-tests
 git-disjoint
+clap-stdin
