@@ -5,3 +5,4 @@ cargo-msrv
 graphql_client_cli
 spider_worker
 dioxus-cli
+alacritty
