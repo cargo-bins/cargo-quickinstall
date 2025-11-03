@@ -27,3 +27,4 @@ pgrx-tests
 uv
 uv
 cargo-risczero
+foundationdb-gen
