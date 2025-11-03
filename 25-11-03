@@ -3,3 +3,4 @@ rg
 graphql_client_cli
 addr2line
 vtcode
+kble-serialport
