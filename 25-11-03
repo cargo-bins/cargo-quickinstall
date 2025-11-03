@@ -8,3 +8,4 @@ dioxus-cli
 alacritty
 spider_cli
 re_query
+raw-cpuid
