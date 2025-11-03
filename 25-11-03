@@ -25,3 +25,4 @@ vdev
 superseedr
 cargo-script
 raw-cpuid
+python-project-generator
