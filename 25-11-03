@@ -10,3 +10,4 @@ z3tracer
 winpty-rs
 holochain_cli
 apollo-router
+clap-stdin
