@@ -4,3 +4,4 @@ diesel_cli
 cargo-dylint
 spider_worker
 graphql_client_cli
+solana-ledger-tool
