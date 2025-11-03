@@ -60,3 +60,4 @@ pgrx-tests
 below
 serial-monitor
 clap-stdin
+foundationdb-gen
