@@ -21,3 +21,4 @@ spl-token-cli
 h3o
 pgrx-tests
 clap-stdin
+foundationdb-gen
