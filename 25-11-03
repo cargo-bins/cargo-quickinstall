@@ -4,3 +4,4 @@ cargo-risczero
 graphql_client_cli
 spider_worker
 cargo-msrv
+dioxus-cli
