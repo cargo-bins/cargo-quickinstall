@@ -18,3 +18,4 @@ spl-token-cli
 h3o
 pgrx-tests
 cargo-risczero
+foundationdb-gen
