@@ -22,3 +22,4 @@ pgrx-tests
 investments
 cargo-risczero
 foundationdb-gen
+pwasm-utils
