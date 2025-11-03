@@ -4,3 +4,4 @@ graphql_client_cli
 spider_worker
 alacritty
 spider_cli
+raw-cpuid
