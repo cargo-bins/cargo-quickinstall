@@ -1,3 +1,4 @@
 graphql_client_cli
 diesel_cli
 cargo-risczero
+cargo-msrv
