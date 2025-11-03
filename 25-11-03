@@ -61,3 +61,4 @@ below
 serial-monitor
 clap-stdin
 foundationdb-gen
+pwasm-utils
