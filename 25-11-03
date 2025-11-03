@@ -6,3 +6,4 @@ esp-config
 re_query
 mit-prepare-commit-msg
 z3tracer
+winpty-rs
