@@ -3,3 +3,4 @@ diesel_cli
 graphql_client_cli
 spider_worker
 alacritty
+spider_cli
