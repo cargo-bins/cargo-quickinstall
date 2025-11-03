@@ -8,3 +8,4 @@ pgrx-tests
 git-disjoint
 clap-stdin
 foundationdb-gen
+pwasm-utils
