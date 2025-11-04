@@ -30,3 +30,4 @@ serial-monitor
 bluetui
 himalaya
 cargo-spellcheck
+tree-sitter-cli
