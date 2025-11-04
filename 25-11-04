@@ -11,3 +11,4 @@ deploy
 stellar-xdr
 cargo-script
 perfcnt
+clippy
