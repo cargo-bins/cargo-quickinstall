@@ -31,3 +31,4 @@ salvo-cli
 website_crawler
 stasis
 sea-orm-cli
+cargo-spellcheck
