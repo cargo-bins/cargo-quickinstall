@@ -32,3 +32,4 @@ himalaya
 cargo-spellcheck
 tree-sitter-cli
 sea-orm-cli
+deploy
