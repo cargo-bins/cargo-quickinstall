@@ -2,3 +2,4 @@ uniffi
 process_viewer
 openpty
 cargo-script
+website_crawler
