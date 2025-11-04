@@ -40,3 +40,4 @@ salvo-cli
 deploy
 stellar-xdr
 human_bytes
+tree-sitter-cli
