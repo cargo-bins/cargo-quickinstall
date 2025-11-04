@@ -30,3 +30,4 @@ xargo
 wild-linker
 arp-scan
 sqlx-cli
+ruff
