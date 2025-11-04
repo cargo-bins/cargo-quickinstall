@@ -13,3 +13,4 @@ cargo-mobile2
 stellar-xdr
 human_bytes
 perfcnt
+clippy
