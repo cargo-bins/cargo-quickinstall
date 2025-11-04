@@ -18,3 +18,4 @@ process_viewer
 airshipper
 salvo-cli
 binstall
+cargo-spellcheck
