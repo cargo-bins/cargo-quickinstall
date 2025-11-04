@@ -3,3 +3,4 @@ uniffi
 process_viewer
 cargo-spellcheck
 rzup
+sass-rs
