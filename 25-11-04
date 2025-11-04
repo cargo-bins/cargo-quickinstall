@@ -10,3 +10,4 @@ burn-tch
 dotenvy
 cargo-msrv
 website_crawler
+cargo-spellcheck
