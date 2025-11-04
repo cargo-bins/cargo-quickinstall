@@ -9,3 +9,4 @@ sass-rs
 cargo-msrv
 dotenvy
 website_crawler
+cargo-spellcheck
