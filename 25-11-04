@@ -45,3 +45,4 @@ tendermint-abci
 rtx-cli
 tree-sitter-cli
 xargo
+rusthound-ce
