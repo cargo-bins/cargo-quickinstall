@@ -16,3 +16,4 @@ tendermint-abci
 rtx-cli
 xargo
 java-locator
+ext-sort
