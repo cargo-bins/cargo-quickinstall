@@ -54,3 +54,4 @@ tree-sitter-cli
 spider_cli
 ext-sort
 cargo-mobile2
+rusthound-ce
