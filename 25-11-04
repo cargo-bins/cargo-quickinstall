@@ -12,3 +12,4 @@ cargo-msrv
 website_crawler
 cargo-spellcheck
 deploy
+stellar-xdr
