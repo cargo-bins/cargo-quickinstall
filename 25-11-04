@@ -41,3 +41,4 @@ clippy
 salvo-cli
 deno
 deno
+tendermint-abci
