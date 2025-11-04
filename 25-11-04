@@ -14,3 +14,4 @@ cargo-spellcheck
 deploy
 stellar-xdr
 perfcnt
+tuftool
