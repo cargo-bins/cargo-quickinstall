@@ -20,3 +20,4 @@ perfcnt
 ruff
 wild-linker
 arp-scan
+clippy
