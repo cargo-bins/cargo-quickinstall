@@ -10,3 +10,4 @@ cargo-msrv
 dotenvy
 website_crawler
 cargo-spellcheck
+cargo-mobile2
