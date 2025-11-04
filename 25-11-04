@@ -24,3 +24,4 @@ xargo
 java-locator
 holochain_cli
 ext-sort
+cargo-generate
