@@ -20,3 +20,4 @@ perfcnt
 clippy
 tendermint-abci
 rtx-cli
+xargo
