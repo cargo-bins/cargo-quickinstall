@@ -13,3 +13,4 @@ cargo-script
 perfcnt
 clippy
 tendermint-abci
+rtx-cli
