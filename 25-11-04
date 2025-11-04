@@ -25,3 +25,4 @@ ruff
 wild-linker
 tendermint-abci
 wild-linker
+rtx-cli
