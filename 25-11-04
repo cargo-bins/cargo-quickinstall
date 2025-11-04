@@ -1,3 +1,4 @@
 uniffi
 process_viewer
 openpty
+cargo-script
