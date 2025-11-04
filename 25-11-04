@@ -18,3 +18,4 @@ tendermint-abci
 xargo
 java-locator
 solana-keygen
+spider_cli
