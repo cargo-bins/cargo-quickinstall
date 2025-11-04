@@ -14,3 +14,4 @@ deploy
 stellar-xdr
 perfcnt
 clippy
+tendermint-abci
