@@ -41,3 +41,4 @@ deploy
 stellar-xdr
 human_bytes
 tree-sitter-cli
+rusthound-ce
