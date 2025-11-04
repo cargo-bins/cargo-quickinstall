@@ -10,3 +10,4 @@ cargo-script
 deploy
 stellar-xdr
 cargo-script
+perfcnt
