@@ -19,3 +19,4 @@ cargo-script
 cargo-script
 tendermint-abci
 rtx-cli
+xargo
