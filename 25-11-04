@@ -43,3 +43,4 @@ human_bytes
 tree-sitter-cli
 rusthound-ce
 sea-orm-cli
+tendermint-abci
