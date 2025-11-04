@@ -8,3 +8,4 @@ sass-rs
 dotslash
 burn-tch
 dotenvy
+cargo-msrv
