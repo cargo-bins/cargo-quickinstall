@@ -14,3 +14,4 @@ stellar-xdr
 human_bytes
 perfcnt
 clippy
+tendermint-abci
