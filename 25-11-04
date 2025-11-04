@@ -42,3 +42,4 @@ arp-scan
 minicbor
 arp-scan
 nominal-api
+cargo-generate
