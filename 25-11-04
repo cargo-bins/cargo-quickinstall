@@ -19,3 +19,4 @@ stellar-xdr
 perfcnt
 clippy
 tendermint-abci
+rtx-cli
