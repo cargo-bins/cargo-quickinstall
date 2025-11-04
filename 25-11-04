@@ -17,3 +17,4 @@ perfcnt
 tuftool
 clippy
 tendermint-abci
+rtx-cli
