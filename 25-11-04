@@ -12,3 +12,4 @@ stellar-xdr
 cargo-script
 perfcnt
 clippy
+tendermint-abci
