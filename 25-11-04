@@ -20,3 +20,4 @@ tendermint-abci
 rtx-cli
 xargo
 java-locator
+spider_cli
