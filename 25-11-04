@@ -21,3 +21,4 @@ binstall
 cargo-spellcheck
 imager
 deno
+sass-rs
