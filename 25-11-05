@@ -6,3 +6,4 @@ commit_verify
 dotenvy
 cargo-dylint
 solana-faucet
+httpmock
