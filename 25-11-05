@@ -9,3 +9,4 @@ commit_verify
 dotenvy
 solana-faucet
 gpg-tui
+httpmock
