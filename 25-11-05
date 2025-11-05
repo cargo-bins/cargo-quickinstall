@@ -3,3 +3,4 @@ dprint
 rzup
 rustup-toolchain-install-master
 commit_verify
+dotenvy
