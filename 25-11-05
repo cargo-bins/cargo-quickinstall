@@ -5,3 +5,4 @@ rustup-toolchain-install-master
 commit_verify
 dotenvy
 cargo-dylint
+solana-faucet
