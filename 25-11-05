@@ -11,3 +11,4 @@ sea-orm-cli
 dotenvy
 hayagriva
 hurl
+cargo-binstall
