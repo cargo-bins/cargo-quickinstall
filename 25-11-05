@@ -12,3 +12,4 @@ httpmock
 solana-genesis
 winpty-rs
 httpmock
+commit_verify
