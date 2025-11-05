@@ -21,3 +21,4 @@ commit_verify
 exa
 cargo-vet
 nextest-filtering
+ec2_instance_metadata
