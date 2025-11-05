@@ -3,3 +3,4 @@ vdev
 cargo-dylint
 racer
 vdev
+rustup-toolchain-install-master
