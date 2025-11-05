@@ -39,3 +39,4 @@ probe-rs-tools
 wl-screenrec
 sass-rs
 cargo-instruments
+binwalk
