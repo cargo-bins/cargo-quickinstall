@@ -11,3 +11,4 @@ rmesg
 httpmock
 solana-genesis
 winpty-rs
+httpmock
