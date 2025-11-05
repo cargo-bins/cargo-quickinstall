@@ -25,3 +25,4 @@ sea-orm-cli
 solana-genesis
 cargo-spellcheck
 sea-orm-cli
+winpty-rs
