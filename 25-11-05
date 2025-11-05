@@ -13,3 +13,4 @@ winpty-rs
 httpmock
 commit_verify
 paperclip
+tendermint-rpc
