@@ -20,3 +20,4 @@ commit_verify
 nextest-filtering
 sass-rs
 jex
+build-fs-tree
