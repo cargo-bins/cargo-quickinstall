@@ -12,3 +12,4 @@ commit_verify
 cargo-instruments
 tree-sitter-cli
 dotenvy
+cargo-instruments
