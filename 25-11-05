@@ -26,3 +26,4 @@ paperclip
 project_init
 tendermint-rpc
 nextest-filtering
+safe_network
