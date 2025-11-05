@@ -33,3 +33,4 @@ binwalk
 commit_verify
 tendermint-rpc
 wl-screenrec
+nextest-filtering
