@@ -24,3 +24,4 @@ commit_verify
 paperclip
 git-mit-install
 project_init
+tendermint-rpc
