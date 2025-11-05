@@ -35,3 +35,4 @@ tendermint-rpc
 wl-screenrec
 nextest-filtering
 binwalk
+probe-rs-tools
