@@ -19,3 +19,4 @@ git-mit-install
 tendermint-rpc
 commit_verify
 exa
+cargo-vet
