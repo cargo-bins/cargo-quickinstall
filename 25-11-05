@@ -26,3 +26,4 @@ tendermint-rpc
 commit_verify
 sha1collisiondetection
 nextest-filtering
+sass-rs
