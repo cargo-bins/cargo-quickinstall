@@ -2,3 +2,4 @@ solana-faucet
 vdev
 hurl
 salvo-cli
+rustup-toolchain-install-master
