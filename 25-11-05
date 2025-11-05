@@ -8,3 +8,4 @@ cargo-dylint
 solana-faucet
 httpmock
 solana-genesis
+cargo-spellcheck
