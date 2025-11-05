@@ -25,3 +25,4 @@ project_init
 tendermint-rpc
 commit_verify
 sha1collisiondetection
+nextest-filtering
