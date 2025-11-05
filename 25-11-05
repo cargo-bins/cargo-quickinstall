@@ -15,3 +15,4 @@ cargo-binstall
 solana-faucet
 httpmock
 hurl
+solana-genesis
