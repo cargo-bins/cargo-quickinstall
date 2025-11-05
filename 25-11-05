@@ -10,3 +10,4 @@ httpmock
 solana-genesis
 cargo-spellcheck
 winpty-rs
+httpmock
