@@ -21,3 +21,4 @@ cargo-spellcheck
 hurl
 cargo-instruments
 winpty-rs
+httpmock
