@@ -11,3 +11,4 @@ hurl
 commit_verify
 cargo-instruments
 tree-sitter-cli
+dotenvy
