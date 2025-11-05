@@ -1,3 +1,4 @@
 rustfmt
 git-mit-config
 dprint
+racer
