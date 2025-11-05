@@ -7,3 +7,4 @@ dotenvy
 cargo-dylint
 solana-faucet
 httpmock
+solana-genesis
