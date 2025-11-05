@@ -14,3 +14,4 @@ tree-sitter-cli
 dotenvy
 cargo-instruments
 hurl
+rusthound-ce
