@@ -22,3 +22,4 @@ cargo-instruments
 cargo-instruments
 esp-config
 sea-orm-cli
+solana-genesis
