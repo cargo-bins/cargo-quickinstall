@@ -28,3 +28,4 @@ sha1collisiondetection
 nextest-filtering
 sass-rs
 build-fs-tree
+a11ywatch_cli
