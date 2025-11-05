@@ -41,3 +41,4 @@ sass-rs
 cargo-instruments
 binwalk
 wl-screenrec
+build-fs-tree
