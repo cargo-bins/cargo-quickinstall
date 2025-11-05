@@ -3,3 +3,4 @@ vdev
 hurl
 salvo-cli
 rustup-toolchain-install-master
+sea-orm-cli
