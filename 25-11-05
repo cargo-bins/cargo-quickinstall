@@ -19,3 +19,4 @@ solana-genesis
 vdev
 cargo-spellcheck
 hurl
+cargo-instruments
