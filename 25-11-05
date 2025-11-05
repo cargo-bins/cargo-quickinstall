@@ -9,3 +9,4 @@ vdev
 commit_verify
 dotenvy
 solana-faucet
+httpmock
