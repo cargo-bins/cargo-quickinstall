@@ -18,3 +18,4 @@ tendermint-rpc
 commit_verify
 nextest-filtering
 sass-rs
+build-fs-tree
