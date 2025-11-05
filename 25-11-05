@@ -21,3 +21,4 @@ winpty-rs
 gpg-tui
 gpg-tui
 httpmock
+commit_verify
