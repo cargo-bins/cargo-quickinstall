@@ -9,3 +9,4 @@ solana-faucet
 httpmock
 esp-config
 solana-genesis
+cargo-spellcheck
