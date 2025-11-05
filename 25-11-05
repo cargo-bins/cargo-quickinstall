@@ -28,3 +28,4 @@ wl-screenrec
 commit_verify
 paperclip
 binwalk
+cargo-instruments
