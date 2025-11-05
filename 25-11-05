@@ -7,3 +7,4 @@ rustup-toolchain-install-master
 vdev
 vdev
 commit_verify
+dotenvy
