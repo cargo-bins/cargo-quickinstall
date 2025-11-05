@@ -9,3 +9,4 @@ solana-faucet
 httpmock
 solana-genesis
 cargo-spellcheck
+winpty-rs
