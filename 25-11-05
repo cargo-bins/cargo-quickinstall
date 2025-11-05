@@ -13,3 +13,4 @@ cargo-instruments
 tree-sitter-cli
 dotenvy
 cargo-instruments
+hurl
