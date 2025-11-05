@@ -19,3 +19,4 @@ tendermint-rpc
 commit_verify
 nextest-filtering
 sass-rs
+safe_network
