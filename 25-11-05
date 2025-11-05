@@ -27,3 +27,4 @@ project_init
 tendermint-rpc
 commit_verify
 exa
+nextest-filtering
