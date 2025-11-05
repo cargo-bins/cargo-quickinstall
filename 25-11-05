@@ -8,3 +8,4 @@ lan-mouse
 dotenvy
 cargo-dylint
 solana-faucet
+httpmock
