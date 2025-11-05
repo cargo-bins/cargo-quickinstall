@@ -18,3 +18,4 @@ paperclip
 tendermint-rpc
 commit_verify
 nextest-filtering
+sass-rs
