@@ -9,3 +9,4 @@ rustup-toolchain-install-master
 cargo-instruments
 hurl
 commit_verify
+cargo-instruments
