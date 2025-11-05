@@ -11,3 +11,4 @@ esp-config
 solana-genesis
 cargo-spellcheck
 winpty-rs
+httpmock
