@@ -9,3 +9,4 @@ dotenvy
 solana-faucet
 httpmock
 solana-genesis
+winpty-rs
