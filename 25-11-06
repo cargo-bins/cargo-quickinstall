@@ -45,3 +45,4 @@ cargo-depsize
 neverest
 scope-tui
 vdev
+cpp_demangle
