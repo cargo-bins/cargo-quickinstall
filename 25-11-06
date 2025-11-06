@@ -13,3 +13,4 @@ rustrict
 rpki
 holochain
 cpp_demangle
+cargo-msrv
