@@ -44,3 +44,4 @@ cargo-depsize
 cargo-depsize
 ncspot
 qsv
+cpp_demangle
