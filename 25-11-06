@@ -26,3 +26,4 @@ cpp_demangle
 stellar-xdr
 apollo-router
 cargo-leptos
+solana-gossip
