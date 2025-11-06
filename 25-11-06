@@ -12,3 +12,4 @@ nexmark
 rustrict
 rpki
 openpty
+cpp_demangle
