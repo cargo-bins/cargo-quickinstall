@@ -22,3 +22,4 @@ openpty
 holochain
 cpp_demangle
 stellar-xdr
+cargo-leptos
