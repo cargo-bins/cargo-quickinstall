@@ -23,3 +23,4 @@ holochain
 cpp_demangle
 stellar-xdr
 cargo-leptos
+solana-gossip
