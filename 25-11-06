@@ -14,3 +14,4 @@ rrule
 rustrict
 rpki
 holochain
+cargo-msrv
