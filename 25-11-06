@@ -16,3 +16,4 @@ cpp_demangle
 stellar-xdr
 solana-tokens
 solana-gossip
+sha1collisiondetection
