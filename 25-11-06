@@ -15,3 +15,4 @@ holochain
 cpp_demangle
 cargo-msrv
 stellar-xdr
+apollo-router
