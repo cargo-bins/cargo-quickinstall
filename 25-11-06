@@ -27,3 +27,4 @@ stellar-xdr
 apollo-router
 cargo-leptos
 solana-gossip
+sha1collisiondetection
