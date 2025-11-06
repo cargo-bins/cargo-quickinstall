@@ -22,3 +22,4 @@ solana-tokens
 solana-gossip
 sha1collisiondetection
 unic-langid-impl
+spl-token-cli
