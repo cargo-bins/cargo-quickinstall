@@ -16,3 +16,4 @@ tree-sitter-md
 nexmark
 rrule
 rustrict
+cpp_demangle
