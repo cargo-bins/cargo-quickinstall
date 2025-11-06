@@ -21,3 +21,4 @@ borsh
 solana-gossip
 sha1collisiondetection
 unic-langid-impl
+spl-token-cli
