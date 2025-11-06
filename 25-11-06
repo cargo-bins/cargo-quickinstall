@@ -20,3 +20,4 @@ rpki
 git-mit-config
 openpty
 holochain
+cpp_demangle
