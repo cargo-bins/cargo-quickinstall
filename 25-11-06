@@ -14,3 +14,4 @@ ripunzip
 pgrx-tests
 probe-rs-tools
 mpd_info_screen
+rustnet-monitor
