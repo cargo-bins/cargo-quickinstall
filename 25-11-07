@@ -11,3 +11,4 @@ libcst
 deploy
 qv
 syd
+rls-rustc
