@@ -34,3 +34,4 @@ cargo-depsize
 cargo-dylint
 spotify_player
 mise
+ext-sort
