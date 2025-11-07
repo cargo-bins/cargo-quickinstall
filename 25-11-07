@@ -46,3 +46,4 @@ calcit
 cargo-show
 fend
 cargo-bisect-rustc
+statsig-rs
