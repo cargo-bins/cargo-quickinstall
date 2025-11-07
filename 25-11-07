@@ -10,3 +10,4 @@ solana-genesis
 nkeys
 sea-orm-cli
 ext-sort
+pwasm-utils
