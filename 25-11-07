@@ -45,3 +45,4 @@ yolk
 calcit
 cargo-show
 fend
+cargo-bisect-rustc
