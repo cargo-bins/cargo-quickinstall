@@ -9,3 +9,4 @@ nkeys
 coldsnap
 skim
 ext-sort
+ec2_instance_metadata
