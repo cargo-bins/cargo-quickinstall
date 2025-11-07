@@ -21,3 +21,4 @@ h3o
 ec2_instance_metadata
 rzup
 parquet
+dotenvy
