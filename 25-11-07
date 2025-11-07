@@ -53,3 +53,4 @@ cargo-bisect-rustc
 dptran
 syd
 cargo-audit
+rls-rustc
