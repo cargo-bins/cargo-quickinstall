@@ -6,3 +6,4 @@ crypto-cli-tools
 process_viewer
 solana-genesis
 nkeys
+sea-orm-cli
