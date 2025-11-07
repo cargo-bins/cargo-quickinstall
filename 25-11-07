@@ -16,3 +16,4 @@ dprint
 libcst
 cargo-leptos
 syd
+rls-rustc
