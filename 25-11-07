@@ -19,3 +19,4 @@ rls-rustc
 h3o
 rzup
 cargo-lambda
+parquet
