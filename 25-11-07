@@ -15,3 +15,4 @@ dprint
 libcst
 statsig-rs
 syd
+rls-rustc
