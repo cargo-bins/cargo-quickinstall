@@ -10,3 +10,4 @@ sea-orm-cli
 ext-sort
 pwasm-utils
 calcit
+libcst
