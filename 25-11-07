@@ -25,3 +25,4 @@ fend
 solana-genesis
 qsv
 nkeys
+cargo-depsize
