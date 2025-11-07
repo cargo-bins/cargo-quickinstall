@@ -9,3 +9,4 @@ nkeys
 coldsnap
 sea-orm-cli
 ext-sort
+pwasm-utils
