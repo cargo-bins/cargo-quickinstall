@@ -13,3 +13,4 @@ ec2_instance_metadata
 rustbus
 pwasm-utils
 dprint
+libcst
