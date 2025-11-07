@@ -9,3 +9,4 @@ solana-genesis
 nkeys
 dotslash
 coldsnap
+sea-orm-cli
