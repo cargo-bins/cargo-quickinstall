@@ -12,3 +12,4 @@ tree-sitter-cli
 burn-tch
 tendermint-abci
 dioxus-cli
+process_viewer
