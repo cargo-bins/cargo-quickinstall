@@ -18,3 +18,4 @@ cargo-leptos
 syd
 rls-rustc
 h3o
+ec2_instance_metadata
