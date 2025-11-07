@@ -4,3 +4,4 @@ build-fs-tree
 process_viewer
 crypto-cli-tools
 process_viewer
+tree-sitter-cli
