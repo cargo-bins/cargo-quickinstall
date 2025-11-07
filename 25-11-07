@@ -2,3 +2,4 @@ burn-tch
 tendermint-abci
 build-fs-tree
 process_viewer
+crypto-cli-tools
