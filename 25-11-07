@@ -9,3 +9,4 @@ tree-sitter-cli
 solana-genesis
 nkeys
 sea-orm-cli
+ext-sort
