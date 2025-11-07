@@ -14,3 +14,4 @@ rustbus
 pwasm-utils
 dprint
 libcst
+cargo-leptos
