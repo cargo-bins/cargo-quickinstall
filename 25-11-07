@@ -6,3 +6,4 @@ solana-genesis
 nkeys
 qv
 ext-sort
+pwasm-utils
