@@ -30,3 +30,4 @@ ext-sort
 cargo-depsize
 fend
 redoxer
+pwasm-utils
