@@ -14,3 +14,4 @@ libcst
 statsig-rs
 ducc-sys
 syd
+rls-rustc
