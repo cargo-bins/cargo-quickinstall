@@ -39,3 +39,4 @@ wasmtime-cli
 fend
 statsig-rs
 dioxus-cli
+ducc-sys
