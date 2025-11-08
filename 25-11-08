@@ -5,3 +5,4 @@ holochain_cli_bundle
 xargo
 solana-genesis
 tendermint-rpc
+deploy
