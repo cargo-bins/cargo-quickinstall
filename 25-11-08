@@ -52,3 +52,4 @@ esp-config
 ironbar
 cargo-dylint
 material
+bmap-rs
