@@ -32,3 +32,4 @@ unic-langid-impl
 uv
 cargo-dylint
 lance
+opencv-binding-generator
