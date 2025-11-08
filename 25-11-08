@@ -7,3 +7,4 @@ tendermint-rpc
 deploy
 unic-langid-impl
 lance
+opencv-binding-generator
