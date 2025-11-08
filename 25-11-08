@@ -7,3 +7,4 @@ cargo-lambda
 solana-genesis
 tendermint-rpc
 deploy
+zellij
