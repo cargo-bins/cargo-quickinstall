@@ -20,3 +20,4 @@ wasmtime-cli
 cargo-show
 yolk
 ncspot
+uv
