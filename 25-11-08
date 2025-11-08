@@ -5,3 +5,4 @@ solana-genesis
 tendermint-rpc
 deploy
 unic-langid-impl
+uv
