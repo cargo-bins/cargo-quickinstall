@@ -10,3 +10,4 @@ cargo-bisect-rustc
 wasmtime-cli
 hayagriva
 cargo-audit
+rioterm
