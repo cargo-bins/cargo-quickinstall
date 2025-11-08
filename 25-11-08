@@ -16,3 +16,4 @@ benfred-read-process-memory
 papyrus_storage
 addr2line
 nexmark
+text-diff
