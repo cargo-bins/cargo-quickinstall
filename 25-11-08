@@ -37,3 +37,4 @@ wasmtime-cli
 ironbar
 unic-langid-impl
 wasmtime-cli
+cargo-audit
