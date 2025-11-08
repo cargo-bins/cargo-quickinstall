@@ -28,3 +28,4 @@ wasmtime-cli
 rioterm
 rioterm
 cargo-bundle
+unic-langid-impl
