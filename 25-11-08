@@ -16,3 +16,4 @@ wasmtime-cli
 uv
 re_query
 material
+wasmtime-cli
