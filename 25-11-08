@@ -35,3 +35,4 @@ cargo-bundle
 cargo-bisect-rustc
 wasmtime-cli
 ironbar
+unic-langid-impl
