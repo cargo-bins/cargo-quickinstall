@@ -3,3 +3,4 @@ addr2line
 re_query
 xargo
 tendermint-rpc
+deploy
