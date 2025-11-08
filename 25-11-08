@@ -6,3 +6,4 @@ re_query
 cargo-lambda
 solana-genesis
 tendermint-rpc
+deploy
