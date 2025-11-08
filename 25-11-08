@@ -24,3 +24,4 @@ mise
 cargo-bundle
 dptran
 material
+wasmtime-cli
