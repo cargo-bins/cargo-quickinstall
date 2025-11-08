@@ -3,3 +3,4 @@ zuse
 re_query
 xargo
 solana-genesis
+tendermint-rpc
