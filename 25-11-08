@@ -33,3 +33,4 @@ deploy
 cargo-bundle
 cargo-bundle
 cargo-bisect-rustc
+wasmtime-cli
