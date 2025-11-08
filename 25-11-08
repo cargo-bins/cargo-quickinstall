@@ -30,3 +30,4 @@ tendermint-rpc
 hayagriva
 rioterm
 deploy
+cargo-bundle
