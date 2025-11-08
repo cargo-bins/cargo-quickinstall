@@ -3,3 +3,4 @@ addr2line
 re_query
 holochain_cli_bundle
 xargo
+solana-genesis
