@@ -12,3 +12,4 @@ hayagriva
 cargo-audit
 rioterm
 cargo-audit
+wasmtime-cli
