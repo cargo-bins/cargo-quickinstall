@@ -13,3 +13,4 @@ lance
 holochain_cli
 ec2_instance_metadata
 benfred-read-process-memory
+papyrus_storage
