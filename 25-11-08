@@ -40,3 +40,4 @@ wasmtime-cli
 cargo-audit
 cargo-audit
 rucola-notes
+uv
