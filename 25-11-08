@@ -86,3 +86,4 @@ fpm
 spotify-tui
 fpm
 bmap-rs
+cargo-bundle
