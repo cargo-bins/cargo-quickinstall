@@ -25,3 +25,4 @@ cargo-bundle
 dptran
 material
 wasmtime-cli
+rioterm
