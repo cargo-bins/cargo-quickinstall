@@ -13,3 +13,4 @@ cargo-audit
 rioterm
 cargo-audit
 wasmtime-cli
+uv
