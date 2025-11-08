@@ -32,3 +32,4 @@ rioterm
 deploy
 cargo-bundle
 cargo-bundle
+cargo-bisect-rustc
