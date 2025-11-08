@@ -7,3 +7,4 @@ deploy
 unic-langid-impl
 lance
 solana-stake-accounts
+addr2line
