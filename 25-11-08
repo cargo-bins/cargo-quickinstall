@@ -7,3 +7,4 @@ cargo-show
 addr2line
 rioterm
 cargo-bisect-rustc
+wasmtime-cli
