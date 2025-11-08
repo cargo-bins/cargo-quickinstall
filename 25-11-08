@@ -17,3 +17,4 @@ nexmark
 sp1-prover
 miden-crypto
 tree_magic
+addr2line
