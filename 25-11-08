@@ -34,3 +34,4 @@ cargo-dylint
 lance
 opencv-binding-generator
 cargo-bisect-rustc
+cargo-bisect-rustc
