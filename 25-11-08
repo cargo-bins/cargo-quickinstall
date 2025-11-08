@@ -17,3 +17,4 @@ uv
 re_query
 material
 wasmtime-cli
+cargo-show
