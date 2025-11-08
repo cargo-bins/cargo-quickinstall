@@ -35,3 +35,4 @@ lance
 opencv-binding-generator
 cargo-bisect-rustc
 cargo-bisect-rustc
+solana-stake-accounts
