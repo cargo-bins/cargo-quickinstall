@@ -6,3 +6,4 @@ nasty-boii
 cargo-show
 addr2line
 rioterm
+cargo-bisect-rustc
