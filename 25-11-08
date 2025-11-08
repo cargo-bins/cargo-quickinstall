@@ -50,3 +50,4 @@ rioterm
 binstall
 esp-config
 ironbar
+cargo-dylint
