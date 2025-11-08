@@ -8,3 +8,4 @@ stellar-scaffold-cli
 solana-genesis
 stellar-scaffold-cli
 tendermint-rpc
+deploy
