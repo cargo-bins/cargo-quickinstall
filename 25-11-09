@@ -14,3 +14,4 @@ ext-sort
 sass-rs
 rustbus
 paperclip
+text-diff
