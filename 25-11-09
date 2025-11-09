@@ -6,3 +6,4 @@ kpx-cli
 ruff
 fpm
 lance
+bmap-rs
