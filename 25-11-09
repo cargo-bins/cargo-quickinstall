@@ -8,3 +8,4 @@ fpm
 lance
 bmap-rs
 nexmark
+raw-cpuid
