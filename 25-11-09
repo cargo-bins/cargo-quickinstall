@@ -18,3 +18,4 @@ nextest-filtering
 pgtemp
 ruff
 wttr
+kpx-cli
