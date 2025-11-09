@@ -19,3 +19,4 @@ uniffi
 ext-sort
 sass-rs
 process_viewer
+tendermint-rpc
