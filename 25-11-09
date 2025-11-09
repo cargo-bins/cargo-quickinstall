@@ -13,3 +13,4 @@ qsv
 cargo-lock
 a11ywatch_cli
 holochain
+uniffi
