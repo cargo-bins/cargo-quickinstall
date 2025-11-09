@@ -13,3 +13,4 @@ cargo-dylint
 a11ywatch_cli
 uniffi
 solana-ledger-tool
+sass-rs
