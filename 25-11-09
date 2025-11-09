@@ -19,3 +19,4 @@ ext-sort
 sass-rs
 paperclip
 process_viewer
+tendermint-rpc
