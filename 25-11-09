@@ -20,3 +20,4 @@ cargo-vet
 holochain_cli_bundle
 nextest-filtering
 rav1e
+holochain
