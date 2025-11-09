@@ -30,3 +30,4 @@ redoxfs
 kpx-cli
 qsv
 tree-sitter-cli
+cargo-lock
