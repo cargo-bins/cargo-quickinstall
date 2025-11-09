@@ -33,3 +33,4 @@ tree-sitter-cli
 cargo-lock
 redoxfs
 a11ywatch_cli
+wttr
