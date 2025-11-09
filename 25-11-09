@@ -21,3 +21,4 @@ sass-rs
 process_viewer
 tendermint-rpc
 spider_worker
+holochain
