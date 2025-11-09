@@ -7,3 +7,4 @@ ruff
 fpm
 lance
 bmap-rs
+nexmark
