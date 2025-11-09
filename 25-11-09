@@ -11,3 +11,4 @@ nextest-filtering
 spider_worker
 paperclip
 sha1collisiondetection
+solana-genesis
