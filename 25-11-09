@@ -19,3 +19,4 @@ ext-sort
 rustbus
 paperclip
 process_viewer
+tendermint-rpc
