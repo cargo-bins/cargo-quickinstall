@@ -24,3 +24,4 @@ kpx-cli
 paperclip
 kpx-cli
 dioxus-cli
+cargo-dylint
