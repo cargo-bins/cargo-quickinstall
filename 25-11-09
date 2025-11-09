@@ -24,3 +24,4 @@ cargo-dylint
 cargo-dylint
 uniffi
 solana-ledger-tool
+ext-sort
