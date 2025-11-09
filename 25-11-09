@@ -9,3 +9,4 @@ perfcnt
 qsv
 cargo-lock
 holochain
+uniffi
