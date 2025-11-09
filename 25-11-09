@@ -10,3 +10,4 @@ perfcnt
 qsv
 cargo-lock
 cargo-dylint
+a11ywatch_cli
