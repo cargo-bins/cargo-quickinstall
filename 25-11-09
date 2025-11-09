@@ -16,3 +16,4 @@ esp-config
 nextest-filtering
 cargo-dylint
 neovide
+sniffnet
