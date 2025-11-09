@@ -41,3 +41,4 @@ kpx-cli
 wttr
 fpm
 uniffi
+cargo-dylint
