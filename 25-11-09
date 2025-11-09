@@ -20,3 +20,4 @@ sass-rs
 paperclip
 process_viewer
 tendermint-rpc
+spider_worker
