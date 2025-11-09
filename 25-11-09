@@ -16,3 +16,4 @@ rustbus
 paperclip
 text-diff
 process_viewer
+cargo-vet
