@@ -27,3 +27,4 @@ dioxus-cli
 cargo-dylint
 superseedr
 ruff
+wttr
