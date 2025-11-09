@@ -14,3 +14,4 @@ cargo-lock
 a11ywatch_cli
 holochain
 uniffi
+solana-ledger-tool
