@@ -28,3 +28,4 @@ ext-sort
 sass-rs
 process_viewer
 spider_worker
+nextest-filtering
