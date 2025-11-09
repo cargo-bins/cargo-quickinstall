@@ -10,3 +10,4 @@ cargo-lock
 rrule
 uniffi
 ext-sort
+process_viewer
