@@ -16,3 +16,4 @@ esp-config
 esp-config
 nextest-filtering
 pgtemp
+ruff
