@@ -15,3 +15,4 @@ esp-config
 esp-config
 nextest-filtering
 cargo-dylint
+neovide
