@@ -9,3 +9,4 @@ qsv
 cargo-lock
 rrule
 uniffi
+ext-sort
