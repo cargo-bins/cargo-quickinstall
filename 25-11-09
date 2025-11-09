@@ -12,3 +12,4 @@ uniffi
 ext-sort
 process_viewer
 tendermint-rpc
+nextest-filtering
