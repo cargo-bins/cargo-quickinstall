@@ -11,3 +11,4 @@ cargo-lock
 holochain
 uniffi
 ext-sort
+sass-rs
