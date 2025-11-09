@@ -10,3 +10,4 @@ sha1collisiondetection
 solana-genesis
 perfcnt
 qsv
+cargo-lock
