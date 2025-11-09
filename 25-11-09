@@ -17,3 +17,4 @@ paperclip
 text-diff
 process_viewer
 cargo-vet
+holochain_cli_bundle
