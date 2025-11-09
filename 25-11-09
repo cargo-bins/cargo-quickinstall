@@ -20,3 +20,4 @@ rustbus
 paperclip
 process_viewer
 tendermint-rpc
+nextest-filtering
