@@ -10,3 +10,4 @@ bmap-rs
 nexmark
 raw-cpuid
 bmap-rs
+cargo-dylint
