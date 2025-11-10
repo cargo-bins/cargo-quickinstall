@@ -17,3 +17,4 @@ cargo-vet
 miden-crypto
 stellar-strkey
 tokio-process
+iai-callgrind-runner
