@@ -3,3 +3,4 @@ parquet
 rpki
 clap-stdin
 librespot
+rsgen-avro
