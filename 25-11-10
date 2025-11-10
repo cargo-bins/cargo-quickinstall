@@ -20,3 +20,4 @@ tokio-process
 iai-callgrind-runner
 nominal-api
 racer
+httm
