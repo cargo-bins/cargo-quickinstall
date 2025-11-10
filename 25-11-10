@@ -16,3 +16,4 @@ apollo-router
 cargo-vet
 miden-crypto
 stellar-strkey
+tokio-process
