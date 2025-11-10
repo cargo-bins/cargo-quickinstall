@@ -12,3 +12,4 @@ solana-cli
 stellar-strkey
 nominal-api
 solana-ledger-tool
+minicbor
