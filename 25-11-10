@@ -6,3 +6,4 @@ statime-linux
 clap-stdin
 cargo-leptos
 safe_network
+rsgen-avro
