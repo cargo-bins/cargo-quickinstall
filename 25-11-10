@@ -10,3 +10,4 @@ rsgen-avro
 rustfmt
 openpty
 wol-rs
+racer
