@@ -48,3 +48,4 @@ probe-rs-tools
 solana-cli
 stellar-strkey
 fyrox-project-manager
+spl-token-cli
