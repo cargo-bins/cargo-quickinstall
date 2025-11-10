@@ -7,3 +7,4 @@ rsgen-avro
 safe_network
 re_query
 racer
+nextest
