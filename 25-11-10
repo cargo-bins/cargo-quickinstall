@@ -7,3 +7,4 @@ clap-stdin
 cargo-leptos
 safe_network
 rsgen-avro
+rustfmt
