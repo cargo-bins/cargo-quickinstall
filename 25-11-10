@@ -19,3 +19,4 @@ stellar-strkey
 tokio-process
 iai-callgrind-runner
 nominal-api
+racer
