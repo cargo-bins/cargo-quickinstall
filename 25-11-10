@@ -4,3 +4,4 @@ rpki
 clap-stdin
 librespot
 rsgen-avro
+re_query
