@@ -18,3 +18,4 @@ nextest
 miden-crypto
 solana-cli
 fcp
+stellar-strkey
