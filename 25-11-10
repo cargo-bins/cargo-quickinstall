@@ -11,3 +11,4 @@ rustfmt
 openpty
 wol-rs
 racer
+openpty
