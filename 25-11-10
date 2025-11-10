@@ -5,3 +5,4 @@ clap-stdin
 librespot
 rsgen-avro
 safe_network
+re_query
