@@ -3,3 +3,4 @@ kani-verifier
 exa
 parquet
 statime-linux
+clap-stdin
