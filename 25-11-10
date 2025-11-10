@@ -9,3 +9,4 @@ safe_network
 rsgen-avro
 rustfmt
 openpty
+wol-rs
