@@ -13,3 +13,4 @@ wol-rs
 racer
 openpty
 apollo-router
+cargo-vet
