@@ -3,3 +3,4 @@ vdev
 rls-rustc
 pgrx-tests
 solana-gossip
+borsh
