@@ -30,3 +30,4 @@ nkeys
 amp
 cargo-lock
 perfcnt
+safe_network
