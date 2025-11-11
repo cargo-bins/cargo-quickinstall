@@ -33,3 +33,4 @@ perfcnt
 safe_network
 libbpf-cargo
 statime-linux
+xargo
