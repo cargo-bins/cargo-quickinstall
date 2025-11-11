@@ -10,3 +10,4 @@ diesel_cli
 solana-gossip
 nextest
 borsh
+nextest
