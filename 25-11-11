@@ -56,3 +56,4 @@ nextest
 nkeys
 cargo-lock
 nextest
+perfcnt
