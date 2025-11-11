@@ -57,3 +57,4 @@ nkeys
 cargo-lock
 nextest
 perfcnt
+libbpf-cargo
