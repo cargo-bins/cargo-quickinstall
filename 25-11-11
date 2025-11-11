@@ -11,3 +11,4 @@ rls-rustc
 sudo-rs
 pgrx-tests
 cargo-embed
+python-project-generator
