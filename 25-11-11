@@ -42,3 +42,4 @@ xbuild
 libbpf-cargo
 xargo
 nextest
+cargo-bisect-rustc
