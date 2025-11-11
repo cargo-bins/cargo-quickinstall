@@ -21,3 +21,4 @@ xbuild
 kalker
 cargo-embed
 spl-token-cli
+solana-gossip
