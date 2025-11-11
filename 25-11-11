@@ -58,3 +58,4 @@ cargo-lock
 nextest
 perfcnt
 libbpf-cargo
+xargo
