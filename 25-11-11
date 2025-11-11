@@ -17,3 +17,4 @@ sqlx-cli
 sass-rs
 perfcnt
 safe_network
+libbpf-cargo
