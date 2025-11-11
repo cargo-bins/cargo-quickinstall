@@ -33,3 +33,4 @@ xbuild
 cargo-lock
 xbuild
 cracked
+nextest
