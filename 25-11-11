@@ -18,3 +18,4 @@ sass-rs
 perfcnt
 safe_network
 libbpf-cargo
+xargo
