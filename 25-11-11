@@ -13,3 +13,4 @@ wmi
 sass-rs
 cargo-lock
 perfcnt
+libbpf-cargo
