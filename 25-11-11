@@ -50,3 +50,4 @@ solana-gossip
 uvx
 diesel_cli
 borsh
+nextest
