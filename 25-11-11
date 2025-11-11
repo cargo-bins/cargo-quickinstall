@@ -13,3 +13,4 @@ sass-rs
 cargo-lock
 perfcnt
 libbpf-cargo
+xargo
