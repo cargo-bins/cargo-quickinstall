@@ -21,3 +21,4 @@ cargo-embed
 solana-gossip
 alacritty
 bluetui
+borsh
