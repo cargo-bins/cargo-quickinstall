@@ -16,3 +16,4 @@ nkeys
 sqlx-cli
 sass-rs
 perfcnt
+safe_network
