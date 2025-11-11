@@ -54,3 +54,4 @@ nextest
 syd
 nextest
 nkeys
+cargo-lock
