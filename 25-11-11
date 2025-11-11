@@ -4,3 +4,4 @@ rls-rustc
 pgrx-tests
 nextest
 nextest
+diesel_cli
