@@ -9,3 +9,4 @@ vdev
 bluetui
 rls-rustc
 sudo-rs
+pgrx-tests
