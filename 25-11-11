@@ -13,3 +13,4 @@ solana-gossip
 borsh
 syd
 nkeys
+sqlx-cli
