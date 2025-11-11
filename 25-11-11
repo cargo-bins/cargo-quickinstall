@@ -10,3 +10,4 @@ sass-rs
 cargo-lock
 perfcnt
 safe_network
+libbpf-cargo
