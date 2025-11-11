@@ -5,3 +5,4 @@ pgrx-tests
 nextest
 nextest
 diesel_cli
+libcst
