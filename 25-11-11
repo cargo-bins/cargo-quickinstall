@@ -34,3 +34,4 @@ safe_network
 libbpf-cargo
 statime-linux
 xargo
+unic-langid-impl
