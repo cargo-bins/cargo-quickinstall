@@ -30,3 +30,4 @@ sass-rs
 cracked
 cargo-embed
 xbuild
+cargo-lock
