@@ -17,3 +17,4 @@ nextest
 wmi
 cargo-lock
 libbpf-cargo
+xargo
