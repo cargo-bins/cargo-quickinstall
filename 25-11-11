@@ -10,3 +10,4 @@ bluetui
 rls-rustc
 sudo-rs
 pgrx-tests
+cargo-embed
