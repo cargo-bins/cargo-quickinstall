@@ -11,3 +11,4 @@ cargo-lock
 perfcnt
 safe_network
 libbpf-cargo
+xargo
