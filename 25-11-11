@@ -39,3 +39,4 @@ nextest
 hyprshell
 redoxer
 xbuild
+libbpf-cargo
