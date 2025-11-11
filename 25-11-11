@@ -10,3 +10,4 @@ rls-rustc
 pgrx-tests
 sqlx-cli
 solana-gossip
+borsh
