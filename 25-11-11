@@ -9,3 +9,4 @@ nkeys
 sass-rs
 cargo-lock
 perfcnt
+safe_network
