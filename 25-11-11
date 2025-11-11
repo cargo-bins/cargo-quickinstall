@@ -53,3 +53,4 @@ ext-sort
 nextest
 process_viewer
 nextest
+tree-sitter-cli
