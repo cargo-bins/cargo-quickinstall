@@ -44,3 +44,4 @@ xargo
 nextest
 cargo-bisect-rustc
 ext-sort
+cargo-lock
