@@ -38,3 +38,4 @@ cargo-lock
 librespot
 librespot
 xbuild
+nextest
