@@ -28,3 +28,4 @@ sqlx-cli
 amp
 nkeys
 amp
+cargo-lock
