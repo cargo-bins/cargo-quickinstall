@@ -45,3 +45,4 @@ nextest
 cargo-bisect-rustc
 ext-sort
 cargo-lock
+nextest
