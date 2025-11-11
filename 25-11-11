@@ -9,3 +9,4 @@ nkeys
 controller
 wmi
 sass-rs
+cargo-lock
