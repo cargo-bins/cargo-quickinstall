@@ -34,3 +34,4 @@ kalker
 sass-rs
 nextest
 xbuild
+cargo-lock
