@@ -23,3 +23,4 @@ cargo-embed
 spl-token-cli
 solana-gossip
 cargo-embed
+borsh
