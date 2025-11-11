@@ -41,3 +41,4 @@ redoxer
 xbuild
 libbpf-cargo
 xargo
+nextest
