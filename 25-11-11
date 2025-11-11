@@ -12,3 +12,4 @@ nkeys
 wmi
 sass-rs
 cargo-lock
+perfcnt
