@@ -49,3 +49,4 @@ solana-gossip
 cargo-bisect-rustc
 cargo-script
 nexmark
+cargo-script
