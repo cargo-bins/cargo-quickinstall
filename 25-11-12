@@ -6,3 +6,4 @@ rustbus
 rustfmt-nightly
 cargo-local-registry
 wol-rs
+syd
