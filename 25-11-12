@@ -1,3 +1,4 @@
 cargo-risczero
 cargo-msrv
 human_bytes
+cached-path
