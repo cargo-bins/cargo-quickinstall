@@ -44,3 +44,4 @@ re_query
 cargo-bisect-rustc
 simple-http-server
 proof-of-sql
+project_init
