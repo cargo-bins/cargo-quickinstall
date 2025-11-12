@@ -12,3 +12,4 @@ jless
 rustbus
 uv
 dx-cli
+sqlx-cli
