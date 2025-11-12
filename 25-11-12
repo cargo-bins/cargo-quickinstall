@@ -47,3 +47,4 @@ proof-of-sql
 project_init
 solana-gossip
 cargo-bisect-rustc
+cargo-script
