@@ -15,3 +15,4 @@ dx-cli
 sqlx-cli
 jless
 uv
+cargo-local-registry
