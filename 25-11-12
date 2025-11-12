@@ -19,3 +19,4 @@ cargo-local-registry
 wol-rs
 jless
 pik
+dx-cli
