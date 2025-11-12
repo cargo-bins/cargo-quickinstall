@@ -7,3 +7,4 @@ rustfmt-nightly
 cargo-local-registry
 wol-rs
 syd
+mit-prepare-commit-msg
