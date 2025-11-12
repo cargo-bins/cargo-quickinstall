@@ -18,3 +18,4 @@ stellar-xdr
 spl-token-cli
 statsig-rs
 datavzrd
+cargo-spellcheck
