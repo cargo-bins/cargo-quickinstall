@@ -45,3 +45,4 @@ cargo-bisect-rustc
 simple-http-server
 proof-of-sql
 project_init
+solana-gossip
