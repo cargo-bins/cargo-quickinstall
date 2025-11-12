@@ -12,3 +12,4 @@ hist-cli
 hyprshell
 cargo-lock
 hist-cli
+sea-orm-cli
