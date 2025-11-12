@@ -10,3 +10,4 @@ cargo-msrv
 statsig-rs
 dprint
 cargo-spellcheck
+solana-stake-accounts
