@@ -41,3 +41,4 @@ cargo-bundle
 cargo-bundle
 sshx
 re_query
+cargo-bisect-rustc
