@@ -6,3 +6,4 @@ wol-rs
 syd
 stellar-xdr
 spl-token-cli
+cargo-msrv
