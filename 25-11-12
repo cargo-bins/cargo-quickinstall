@@ -4,3 +4,4 @@ sn_faucet
 human_bytes
 rustbus
 rustfmt-nightly
+cargo-local-registry
