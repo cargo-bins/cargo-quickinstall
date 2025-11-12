@@ -13,3 +13,4 @@ hyprshell
 cargo-lock
 hist-cli
 sea-orm-cli
+tree-sitter-cli
