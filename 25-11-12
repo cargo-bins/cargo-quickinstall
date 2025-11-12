@@ -3,3 +3,4 @@ cargo-msrv
 human_bytes
 cached-path
 wol-rs
+crc-fast
