@@ -13,3 +13,4 @@ sea-orm-cli
 human_bytes
 cracked
 hist-cli
+cargo-lock
