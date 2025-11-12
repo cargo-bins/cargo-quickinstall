@@ -11,3 +11,4 @@ stellar-xdr
 spl-token-cli
 cargo-msrv
 statsig-rs
+dprint
