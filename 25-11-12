@@ -8,3 +8,4 @@ cargo-local-registry
 wol-rs
 syd
 mit-prepare-commit-msg
+stellar-xdr
