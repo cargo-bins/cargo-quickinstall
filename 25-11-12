@@ -16,3 +16,4 @@ sqlx-cli
 jless
 uv
 cargo-local-registry
+wol-rs
