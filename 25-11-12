@@ -3,3 +3,4 @@ cargo-risczero
 sn_faucet
 human_bytes
 rustbus
+rustfmt-nightly
