@@ -35,3 +35,4 @@ statsig-rs
 cargo-spellcheck
 hyprshell
 tree-sitter-cli
+solana-stake-accounts
