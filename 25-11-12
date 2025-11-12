@@ -13,3 +13,4 @@ cargo-msrv
 statsig-rs
 dprint
 cargo-spellcheck
+rrule
