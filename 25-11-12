@@ -5,3 +5,4 @@ human_bytes
 rustbus
 rustfmt-nightly
 cargo-local-registry
+wol-rs
