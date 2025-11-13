@@ -12,3 +12,4 @@ tree_magic
 statime-linux
 commit_verify
 shpool
+winpty-rs
