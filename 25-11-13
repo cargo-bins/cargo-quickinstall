@@ -28,3 +28,4 @@ schemafy
 zellij
 cargo-risczero
 clap-stdin
+nextest-filtering
