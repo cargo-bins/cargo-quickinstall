@@ -28,3 +28,4 @@ vdev
 vdev
 clap-stdin
 vdev
+nextest-filtering
