@@ -13,3 +13,4 @@ tree_magic
 commit_verify
 winpty-rs
 fake
+pwasm-utils
