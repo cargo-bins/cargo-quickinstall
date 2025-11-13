@@ -36,3 +36,4 @@ cargo-risczero
 clap-stdin
 dua-cli
 dua-cli
+nextest-filtering
