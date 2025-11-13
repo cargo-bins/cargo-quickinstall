@@ -25,3 +25,4 @@ vdev
 tree_magic
 pijul
 vdev
+commit_verify
