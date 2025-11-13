@@ -5,3 +5,4 @@ human_bytes
 cargo-dylint
 java-locator
 datavzrd
+sea-orm-cli
