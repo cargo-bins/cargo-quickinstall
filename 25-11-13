@@ -17,3 +17,4 @@ holochain_cli_bundle
 tree_magic
 statime-linux
 commit_verify
+ec2_instance_metadata
