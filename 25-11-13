@@ -16,3 +16,4 @@ cpp_demangle
 pwasm-utils
 nkeys
 clippy
+process_viewer
