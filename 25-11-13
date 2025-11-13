@@ -13,3 +13,4 @@ commit_verify
 addr2line
 fake
 cpp_demangle
+pwasm-utils
