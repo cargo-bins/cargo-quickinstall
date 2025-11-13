@@ -18,3 +18,4 @@ tree_magic
 statime-linux
 commit_verify
 ec2_instance_metadata
+winpty-rs
