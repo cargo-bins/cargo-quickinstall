@@ -28,3 +28,4 @@ rustup-toolchain-install-master
 pwasm-utils
 sudo-rs
 nkeys
+clippy
