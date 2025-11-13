@@ -21,3 +21,4 @@ fake
 rustup-toolchain-install-master
 pwasm-utils
 nkeys
+clippy
