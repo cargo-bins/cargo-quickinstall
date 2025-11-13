@@ -23,3 +23,4 @@ vdev
 pwasm-utils
 clippy
 process_viewer
+schemafy
