@@ -33,3 +33,4 @@ process_viewer
 schemafy
 syd
 alacritty
+clap-stdin
