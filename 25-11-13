@@ -20,3 +20,4 @@ commit_verify
 ec2_instance_metadata
 winpty-rs
 fake
+tokio-process
