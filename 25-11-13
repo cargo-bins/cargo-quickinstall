@@ -19,3 +19,4 @@ dioxus-cli
 dioxus-cli
 fake
 rustup-toolchain-install-master
+pwasm-utils
