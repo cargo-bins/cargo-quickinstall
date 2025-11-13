@@ -16,3 +16,4 @@ shpool
 shpool
 cpp_demangle
 fake
+pwasm-utils
