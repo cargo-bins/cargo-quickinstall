@@ -27,3 +27,4 @@ pijul
 vdev
 commit_verify
 wash-cli
+winpty-rs
