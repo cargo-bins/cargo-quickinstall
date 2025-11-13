@@ -6,3 +6,4 @@ wol-rs
 spotify_player
 curlio
 simple-http-server
+cargo-dylint
