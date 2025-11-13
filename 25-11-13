@@ -10,3 +10,4 @@ cargo-dylint
 wash-cli
 java-locator
 pijul
+sqlpage
