@@ -50,3 +50,4 @@ ripdrag
 pijul
 below
 cargo-embed
+clap-stdin
