@@ -13,3 +13,4 @@ tree_magic
 commit_verify
 dioxus-cli
 dioxus-cli
+winpty-rs
