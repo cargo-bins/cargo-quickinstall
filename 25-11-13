@@ -15,3 +15,4 @@ fake
 cpp_demangle
 pwasm-utils
 nkeys
+clippy
