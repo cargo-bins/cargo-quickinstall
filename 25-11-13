@@ -22,3 +22,4 @@ winpty-rs
 fake
 tokio-process
 pwasm-utils
+nkeys
