@@ -29,3 +29,4 @@ sniffnet
 commit_verify
 wiremix
 simple-http-server
+cargo-script
