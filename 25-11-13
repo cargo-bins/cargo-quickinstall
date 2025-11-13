@@ -33,3 +33,4 @@ schemafy
 syd
 dua-cli
 cargo-risczero
+clap-stdin
