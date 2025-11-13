@@ -14,3 +14,4 @@ addr2line
 fake
 cpp_demangle
 pwasm-utils
+nkeys
