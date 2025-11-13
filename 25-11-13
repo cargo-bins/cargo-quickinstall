@@ -13,3 +13,4 @@ vdev
 cargo-script
 pijul
 datavzrd
+sha1collisiondetection
