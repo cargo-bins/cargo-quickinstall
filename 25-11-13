@@ -14,3 +14,4 @@ cargo-risczero
 miden-crypto
 mit-prepare-commit-msg
 holochain_cli_bundle
+tree_magic
