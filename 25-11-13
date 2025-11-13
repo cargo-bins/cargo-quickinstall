@@ -10,3 +10,4 @@ cargo-risczero
 spider_worker
 tree_magic
 commit_verify
+addr2line
