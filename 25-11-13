@@ -6,3 +6,4 @@ cargo-dylint
 java-locator
 datavzrd
 hayagriva
+sea-orm-cli
