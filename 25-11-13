@@ -21,3 +21,4 @@ fake
 vdev
 vdev
 pwasm-utils
+clippy
