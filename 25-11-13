@@ -22,3 +22,4 @@ mit-prepare-commit-msg
 tree_magic
 statime-linux
 commit_verify
+winpty-rs
