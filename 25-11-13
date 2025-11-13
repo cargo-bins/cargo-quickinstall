@@ -20,3 +20,4 @@ addr2line
 fake
 vdev
 vdev
+pwasm-utils
