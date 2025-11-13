@@ -11,3 +11,4 @@ cargo-risczero
 spider_worker
 tree_magic
 commit_verify
+winpty-rs
