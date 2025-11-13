@@ -21,3 +21,4 @@ schemafy
 alacritty
 zellij
 cargo-risczero
+clap-stdin
