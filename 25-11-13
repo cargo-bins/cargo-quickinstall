@@ -33,3 +33,4 @@ cargo-script
 winpty-rs
 cu-rp-balancebot
 simple-http-server
+sniffnet
