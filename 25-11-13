@@ -21,3 +21,4 @@ ec2_instance_metadata
 winpty-rs
 fake
 tokio-process
+pwasm-utils
