@@ -22,3 +22,4 @@ socketcan
 build-fs-tree
 c2rust
 cargo-lock
+c2rust
