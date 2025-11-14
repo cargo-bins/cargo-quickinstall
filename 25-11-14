@@ -14,3 +14,4 @@ controller
 graphql_client_cli
 socketcan
 shunkakinoki
+rerun-cli
