@@ -22,3 +22,4 @@ dioxus-cli
 cargo-msrv
 cargo-lock
 lingua
+rpki
