@@ -17,3 +17,4 @@ cargo-lambda
 graphql_client_cli
 socketcan
 shunkakinoki
+build-fs-tree
