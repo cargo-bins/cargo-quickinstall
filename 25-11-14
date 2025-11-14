@@ -53,3 +53,4 @@ cargo-list
 socketcan
 cargo-list
 cargo-list
+winpty-rs
