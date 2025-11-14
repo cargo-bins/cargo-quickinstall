@@ -20,3 +20,4 @@ socketcan
 build-fs-tree
 sn_node
 cargo-lock
+lingua
