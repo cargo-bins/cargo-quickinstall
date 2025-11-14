@@ -5,3 +5,4 @@ cargo-dylint
 solana-tokens
 nominal-api
 esp-config
+solana-faucet
