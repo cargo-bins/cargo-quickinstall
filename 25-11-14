@@ -21,3 +21,4 @@ quick-junit
 socketcan
 build-fs-tree
 c2rust
+cargo-lock
