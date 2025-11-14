@@ -3,3 +3,4 @@ cargo-mobile2
 holochain
 cargo-dylint
 solana-tokens
+nominal-api
