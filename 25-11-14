@@ -51,3 +51,4 @@ controller
 graphql_client_cli
 cargo-list
 socketcan
+cargo-list
