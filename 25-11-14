@@ -22,3 +22,4 @@ build-fs-tree
 winpty-rs
 cargo-lock
 lingua
+rpki
