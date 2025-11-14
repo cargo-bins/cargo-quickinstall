@@ -3,3 +3,4 @@ diesel_cli
 mit-commit-msg
 sn_cli
 mit-prepare-commit-msg
+ec2_instance_metadata
