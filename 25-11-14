@@ -56,3 +56,4 @@ build-fs-tree
 dioxus-cli
 rg
 winpty-rs
+rpki
