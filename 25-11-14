@@ -18,3 +18,4 @@ quick-junit
 foundationdb-gen
 socketcan
 build-fs-tree
+sn_node
