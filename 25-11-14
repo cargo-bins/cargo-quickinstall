@@ -21,3 +21,4 @@ build-fs-tree
 dioxus-cli
 cargo-msrv
 cargo-lock
+lingua
