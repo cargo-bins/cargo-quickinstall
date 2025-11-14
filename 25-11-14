@@ -48,3 +48,4 @@ quick-junit
 foundationdb-gen
 cargo-list
 controller
+graphql_client_cli
