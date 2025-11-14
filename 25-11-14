@@ -54,3 +54,4 @@ cargo-list
 rg
 build-fs-tree
 dioxus-cli
+rg
