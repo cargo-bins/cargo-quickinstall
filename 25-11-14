@@ -44,3 +44,4 @@ foundationdb-gen
 rg
 cargo-list
 controller
+rg
