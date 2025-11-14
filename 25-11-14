@@ -47,3 +47,4 @@ controller
 rg
 graphql_client_cli
 cargo-list
+fltk-fluid
