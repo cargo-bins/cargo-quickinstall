@@ -16,3 +16,4 @@ quick-junit
 foundationdb-gen
 controller
 cargo-lambda
+graphql_client_cli
