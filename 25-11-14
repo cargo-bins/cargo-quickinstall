@@ -20,3 +20,4 @@ build-fs-tree
 dioxus-cli
 winpty-rs
 cargo-lock
+rpki
