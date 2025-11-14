@@ -12,3 +12,4 @@ oso
 quick-junit
 controller
 graphql_client_cli
+socketcan
