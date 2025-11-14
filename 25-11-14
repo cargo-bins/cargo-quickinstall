@@ -49,3 +49,4 @@ foundationdb-gen
 cargo-list
 controller
 graphql_client_cli
+cargo-list
