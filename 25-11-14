@@ -7,3 +7,4 @@ ec2_instance_metadata
 nominal-api
 esp-config
 crypto-cli-tools
+mit-pre-commit
