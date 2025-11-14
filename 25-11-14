@@ -45,3 +45,4 @@ rg
 cargo-list
 controller
 rg
+graphql_client_cli
