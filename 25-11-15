@@ -44,3 +44,4 @@ mdbook-linkcheck2
 pwasm-utils
 mdbook-linkcheck2
 rsgen-avro
+cpp_demangle
