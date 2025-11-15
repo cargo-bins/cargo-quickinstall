@@ -40,3 +40,4 @@ binstall
 binstall
 binstall
 cargo-generate
+foundationdb-gen
