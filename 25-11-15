@@ -4,3 +4,4 @@ solana-cli
 nkeys
 dotenvy
 dbus-codegen
+tendermint-abci
