@@ -25,3 +25,4 @@ project_init
 forgejo-cli
 debcargo
 dotenvy
+wiki-tui
