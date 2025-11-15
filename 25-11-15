@@ -14,3 +14,4 @@ dbus-codegen
 bpf-linker
 rustrict
 tendermint-abci
+benfred-read-process-memory
