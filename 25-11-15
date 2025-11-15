@@ -11,3 +11,4 @@ cargo-risczero
 dotenvy
 bpf-linker
 dbus-codegen
+bpf-linker
