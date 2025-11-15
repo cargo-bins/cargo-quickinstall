@@ -28,3 +28,4 @@ cross-stream
 cargo-risczero
 tmux-rs
 dotenvy
+bpf-linker
