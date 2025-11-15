@@ -10,3 +10,4 @@ holochain
 cargo-risczero
 dotenvy
 dbus-codegen
+tendermint-abci
