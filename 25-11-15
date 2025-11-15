@@ -43,3 +43,4 @@ cargo-generate
 foundationdb-gen
 lance
 dotenvy
+binstall
