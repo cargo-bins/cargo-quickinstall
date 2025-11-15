@@ -6,3 +6,4 @@ cargo-pgrx
 nkeys
 diesel_cli
 project_init
+holochain
