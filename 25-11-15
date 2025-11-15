@@ -6,3 +6,4 @@ project_init
 dotenvy
 dbus-codegen
 tendermint-abci
+miden-crypto
