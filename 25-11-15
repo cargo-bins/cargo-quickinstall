@@ -26,3 +26,4 @@ forgejo-cli
 debcargo
 dotenvy
 wiki-tui
+dbus-codegen
