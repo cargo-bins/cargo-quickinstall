@@ -41,3 +41,4 @@ binstall
 binstall
 cargo-generate
 foundationdb-gen
+lance
