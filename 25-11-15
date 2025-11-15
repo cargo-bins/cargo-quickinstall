@@ -10,3 +10,4 @@ solana-cli
 cargo-pgrx
 nkeys
 dotenvy
+dbus-codegen
