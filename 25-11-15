@@ -47,3 +47,4 @@ solana-cli
 minicbor
 mdbook-linkcheck2
 pwasm-utils
+cpp_demangle
