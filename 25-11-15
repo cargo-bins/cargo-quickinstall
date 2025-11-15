@@ -27,3 +27,4 @@ tmux-rs
 cross-stream
 cargo-risczero
 tmux-rs
+dotenvy
