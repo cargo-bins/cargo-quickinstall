@@ -12,3 +12,4 @@ dotenvy
 dbus-codegen
 tendermint-abci
 coldsnap
+spider_cli
