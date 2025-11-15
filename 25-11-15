@@ -46,3 +46,4 @@ dotenvy
 binstall
 minicbor
 pwasm-utils
+cpp_demangle
