@@ -13,3 +13,4 @@ crypto-cli-tools
 dbus-codegen
 tendermint-abci
 spider_cli
+miden-crypto
