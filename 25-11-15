@@ -29,3 +29,4 @@ cargo-risczero
 tmux-rs
 dotenvy
 bpf-linker
+dbus-codegen
