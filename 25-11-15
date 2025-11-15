@@ -11,3 +11,4 @@ project_init
 dotenvy
 crypto-cli-tools
 dbus-codegen
+tendermint-abci
