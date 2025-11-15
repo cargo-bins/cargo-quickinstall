@@ -17,3 +17,4 @@ dioxus-cli
 pwasm-utils
 rtk-rustc-driver
 rsgen-avro
+cpp_demangle
