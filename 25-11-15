@@ -2,3 +2,4 @@ forgejo-cli
 forgejo-cli
 syncdoc
 dotenv-flow
+cargo-dylint
