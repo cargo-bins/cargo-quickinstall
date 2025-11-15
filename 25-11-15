@@ -9,3 +9,4 @@ holochain
 mit-prepare-commit-msg
 cargo-risczero
 dotenvy
+bpf-linker
