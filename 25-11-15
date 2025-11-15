@@ -26,3 +26,4 @@ dotenvy
 minicbor
 pwasm-utils
 ec2_instance_metadata
+cpp_demangle
