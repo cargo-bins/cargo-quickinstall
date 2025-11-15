@@ -7,3 +7,4 @@ nkeys
 diesel_cli
 project_init
 holochain
+cargo-risczero
