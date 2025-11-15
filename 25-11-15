@@ -34,3 +34,4 @@ bpf-linker
 rustrict
 tendermint-abci
 coldsnap
+miden-crypto
