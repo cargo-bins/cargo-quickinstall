@@ -11,3 +11,4 @@ cargo-pgrx
 nkeys
 dotenvy
 dbus-codegen
+tendermint-abci
