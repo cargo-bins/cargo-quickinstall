@@ -24,3 +24,4 @@ cargo-generate
 lance
 dotenvy
 minicbor
+pwasm-utils
