@@ -13,3 +13,4 @@ bpf-linker
 dbus-codegen
 bpf-linker
 rustrict
+tendermint-abci
