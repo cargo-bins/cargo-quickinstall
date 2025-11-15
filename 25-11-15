@@ -2,3 +2,4 @@ dotenv-flow
 solana-cli
 nkeys
 diesel_cli
+project_init
