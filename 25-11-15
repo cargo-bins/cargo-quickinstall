@@ -18,3 +18,4 @@ nextest
 nkeys
 nextest
 diesel_cli
+tmux-rs
