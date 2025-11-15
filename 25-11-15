@@ -12,3 +12,4 @@ dotenvy
 minicbor
 pwasm-utils
 rtk-rustc-driver
+cpp_demangle
