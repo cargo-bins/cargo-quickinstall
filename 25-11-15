@@ -3,3 +3,4 @@ solana-cli
 nkeys
 diesel_cli
 project_init
+dotenvy
