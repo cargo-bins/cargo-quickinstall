@@ -9,3 +9,4 @@ project_init
 holochain
 cargo-risczero
 dotenvy
+dbus-codegen
