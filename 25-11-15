@@ -10,3 +10,4 @@ mit-prepare-commit-msg
 cargo-risczero
 dotenvy
 bpf-linker
+dbus-codegen
