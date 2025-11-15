@@ -18,3 +18,4 @@ syncdoc
 forgejo-cli
 cargo-pgrx
 nkeys
+diesel_cli
