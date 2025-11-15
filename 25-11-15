@@ -20,3 +20,4 @@ dotenvy
 solana-cli
 minicbor
 rustrict
+pwasm-utils
