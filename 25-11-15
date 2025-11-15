@@ -20,3 +20,4 @@ dotenvy
 minicbor
 pwasm-utils
 rsgen-avro
+cpp_demangle
