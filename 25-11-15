@@ -4,3 +4,4 @@ syncdoc
 dotenv-flow
 cargo-dylint
 ncspot
+z3tracer
