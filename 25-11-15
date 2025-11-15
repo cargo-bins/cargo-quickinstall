@@ -20,3 +20,4 @@ nextest
 diesel_cli
 tmux-rs
 project_init
+holochain
