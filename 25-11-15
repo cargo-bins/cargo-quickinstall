@@ -11,3 +11,4 @@ cargo-risczero
 dotenvy
 dbus-codegen
 tendermint-abci
+spider_cli
