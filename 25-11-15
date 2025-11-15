@@ -4,3 +4,4 @@ nkeys
 diesel_cli
 project_init
 dotenvy
+dbus-codegen
