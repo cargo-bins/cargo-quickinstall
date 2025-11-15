@@ -12,3 +12,4 @@ c2rust
 nextest
 cross-stream
 nextest
+tmux-rs
