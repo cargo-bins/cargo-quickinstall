@@ -46,3 +46,4 @@ dotenvy
 solana-cli
 minicbor
 mdbook-linkcheck2
+pwasm-utils
