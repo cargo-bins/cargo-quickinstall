@@ -15,3 +15,4 @@ bpf-linker
 rustrict
 tendermint-abci
 benfred-read-process-memory
+ec2_instance_metadata
