@@ -29,3 +29,4 @@ dbus-codegen
 debcargo
 rustrict
 wiki-tui
+tendermint-abci
