@@ -23,3 +23,4 @@ git-mit-install
 cargo-generate
 lance
 dotenvy
+minicbor
