@@ -13,3 +13,4 @@ dbus-codegen
 tendermint-abci
 coldsnap
 spider_cli
+miden-crypto
