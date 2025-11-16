@@ -19,3 +19,4 @@ libbpf-cargo
 cargo-lock
 cached-path
 website_crawler
+dbus-codegen
