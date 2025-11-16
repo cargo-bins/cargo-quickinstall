@@ -22,3 +22,4 @@ website_crawler
 dbus-codegen
 iai-callgrind-runner
 mit-commit-msg
+foundationdb-gen
