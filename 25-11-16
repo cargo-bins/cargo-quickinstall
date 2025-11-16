@@ -12,3 +12,4 @@ etchdns
 cargo-embed
 wormhole
 rzup
+socketcan
