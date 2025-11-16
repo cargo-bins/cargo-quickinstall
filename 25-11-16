@@ -13,3 +13,4 @@ laminar
 quick-junit
 git-disjoint
 uniffi
+libbpf-cargo
