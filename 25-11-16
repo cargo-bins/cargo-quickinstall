@@ -5,3 +5,4 @@ project_init
 perfcnt
 rzup
 socketcan
+sn_node_rpc_client
