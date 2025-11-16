@@ -14,3 +14,4 @@ git-disjoint
 uniffi
 tracing-durations-export
 libbpf-cargo
+openpty
