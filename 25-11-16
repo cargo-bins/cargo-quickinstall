@@ -2,3 +2,4 @@ nominal-api
 clippy
 project_init
 perfcnt
+rustup-toolchain-install-master
