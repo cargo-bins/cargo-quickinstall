@@ -20,3 +20,4 @@ dbus-codegen
 foundationdb-gen
 shunkakinoki
 spider_cli
+remove_dir_all
