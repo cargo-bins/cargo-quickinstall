@@ -15,3 +15,4 @@ uniffi
 libbpf-cargo
 cargo-lock
 binstall
+cached-path
