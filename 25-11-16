@@ -6,3 +6,4 @@ rustup-toolchain-install-master
 socketcan
 calcit
 fake
+laminar
