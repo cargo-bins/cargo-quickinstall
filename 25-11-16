@@ -30,3 +30,4 @@ website_crawler
 cargo-info
 xplr
 steam-tui
+nu_plugin_query
