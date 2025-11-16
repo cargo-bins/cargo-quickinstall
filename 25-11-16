@@ -14,3 +14,4 @@ quick-junit
 git-disjoint
 uniffi
 libbpf-cargo
+cargo-lock
