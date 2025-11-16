@@ -15,3 +15,4 @@ git-disjoint
 uniffi
 libbpf-cargo
 cargo-lock
+controller
