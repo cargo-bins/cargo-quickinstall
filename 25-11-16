@@ -22,3 +22,4 @@ tracing-durations-export
 libbpf-cargo
 cargo-lock
 controller
+paru
