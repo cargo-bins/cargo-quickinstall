@@ -24,3 +24,4 @@ iai-callgrind-runner
 mit-commit-msg
 foundationdb-gen
 shunkakinoki
+remove_dir_all
