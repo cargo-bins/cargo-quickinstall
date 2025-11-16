@@ -19,3 +19,4 @@ website_crawler
 dbus-codegen
 foundationdb-gen
 shunkakinoki
+spider_cli
