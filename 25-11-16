@@ -4,3 +4,4 @@ clippy
 sniffnet
 cargo-dylint
 rustup-toolchain-install-master
+cargo-dylint
