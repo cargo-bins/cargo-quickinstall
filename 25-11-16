@@ -18,3 +18,4 @@ tracing-durations-export
 libbpf-cargo
 cargo-lock
 cached-path
+website_crawler
