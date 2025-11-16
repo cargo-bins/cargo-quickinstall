@@ -14,3 +14,4 @@ tracing-durations-export
 libbpf-cargo
 cargo-lock
 controller
+cached-path
