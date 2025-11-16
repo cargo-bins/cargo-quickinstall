@@ -12,3 +12,4 @@ sniffnet
 rustup-toolchain-install-master
 cargo-dylint
 sniffnet
+cargo-dylint
