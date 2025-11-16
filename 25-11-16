@@ -27,3 +27,4 @@ uniffi
 tracing-durations-export
 libbpf-cargo
 openpty
+cargo-lock
