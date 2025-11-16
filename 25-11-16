@@ -13,3 +13,4 @@ git-disjoint
 project_init
 uniffi
 libbpf-cargo
+cargo-lock
