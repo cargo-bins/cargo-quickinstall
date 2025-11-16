@@ -8,3 +8,4 @@ rtk-rustc-driver
 socketcan
 fake
 laminar
+pandora_box
