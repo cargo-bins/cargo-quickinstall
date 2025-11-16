@@ -42,3 +42,4 @@ cookcli
 rmpc
 foundationdb-gen
 rmpc
+remove_dir_all
