@@ -35,3 +35,4 @@ cached-path
 website_crawler
 cookcli
 dbus-codegen
+iai-callgrind-runner
