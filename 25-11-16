@@ -7,3 +7,4 @@ perfcnt
 rtk-rustc-driver
 protox
 socketcan
+fake
