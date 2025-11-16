@@ -25,3 +25,4 @@ binstall
 oxyromon
 oxyromon
 foundationdb-gen
+remove_dir_all
