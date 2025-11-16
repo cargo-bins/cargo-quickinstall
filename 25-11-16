@@ -4,3 +4,4 @@ clippy
 project_init
 perfcnt
 rzup
+socketcan
