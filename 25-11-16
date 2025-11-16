@@ -29,3 +29,4 @@ libbpf-cargo
 openpty
 cargo-lock
 cargo-embed
+cookcli
