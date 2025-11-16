@@ -5,3 +5,4 @@ perfcnt
 rustup-toolchain-install-master
 socketcan
 calcit
+fake
