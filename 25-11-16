@@ -7,3 +7,4 @@ rzup
 socketcan
 sn_node_rpc_client
 sn_faucet
+bpf-linker
