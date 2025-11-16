@@ -42,3 +42,4 @@ binstall
 dbus-codegen
 xplr
 binstall
+tree-sitter-graph
