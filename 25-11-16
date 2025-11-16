@@ -15,3 +15,4 @@ git-disjoint
 project_init
 uniffi
 tracing-durations-export
+libbpf-cargo
