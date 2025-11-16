@@ -12,3 +12,4 @@ pandora_box
 git-disjoint
 project_init
 uniffi
+libbpf-cargo
