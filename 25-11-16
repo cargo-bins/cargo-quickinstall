@@ -31,3 +31,4 @@ cargo-info
 xplr
 steam-tui
 nu_plugin_query
+foundationdb-gen
