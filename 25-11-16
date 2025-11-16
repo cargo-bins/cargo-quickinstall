@@ -30,3 +30,4 @@ tracing-durations-export
 libbpf-cargo
 steam-tui
 cargo-lock
+alacritty
