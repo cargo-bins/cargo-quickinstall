@@ -7,3 +7,4 @@ rtk-rustc-driver
 rtk-rustc-driver
 socketcan
 fake
+laminar
