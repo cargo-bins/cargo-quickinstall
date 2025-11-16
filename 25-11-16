@@ -20,3 +20,4 @@ cargo-lock
 controller
 website_crawler
 cached-path
+dbus-codegen
