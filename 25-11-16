@@ -39,3 +39,4 @@ spider_cli
 website_crawler
 cached-path
 binstall
+dbus-codegen
