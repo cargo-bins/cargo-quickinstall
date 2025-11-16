@@ -32,3 +32,4 @@ steam-tui
 cargo-lock
 alacritty
 controller
+spider_cli
