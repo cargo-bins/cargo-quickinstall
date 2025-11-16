@@ -16,3 +16,4 @@ uniffi
 libbpf-cargo
 cargo-lock
 controller
+website_crawler
