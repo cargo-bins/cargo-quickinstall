@@ -43,3 +43,4 @@ binstall
 diesel_cli
 libbpf-cargo
 cargo-public-api
+parquet
