@@ -45,3 +45,4 @@ libbpf-cargo
 cargo-public-api
 parquet
 cached-path
+hyprshell
