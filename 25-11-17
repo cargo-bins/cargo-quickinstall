@@ -12,3 +12,4 @@ foundationdb-gen
 holochain
 h3o
 rustup-toolchain-install-master
+diesel_cli
