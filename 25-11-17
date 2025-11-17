@@ -26,3 +26,4 @@ channels-console
 skim
 parquet
 kani-verifier
+cached-path
