@@ -31,3 +31,4 @@ esp-config
 process_viewer
 remove_dir_all
 honggfuzz
+channels-console
