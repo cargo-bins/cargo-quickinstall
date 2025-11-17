@@ -35,3 +35,4 @@ channels-console
 holochain
 deploy
 process_viewer
+cached-path
