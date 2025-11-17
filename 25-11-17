@@ -25,3 +25,4 @@ mit-pre-commit
 channels-console
 skim
 parquet
+kani-verifier
