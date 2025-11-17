@@ -19,3 +19,4 @@ libbpf-cargo
 mit-pre-commit
 sn_node
 parquet
+kani-verifier
