@@ -13,3 +13,4 @@ h3o
 diesel_cli
 libbpf-cargo
 parquet
+cached-path
