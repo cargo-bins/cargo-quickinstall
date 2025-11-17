@@ -41,3 +41,4 @@ cargo-info
 rustup-toolchain-install-master
 binstall
 diesel_cli
+libbpf-cargo
