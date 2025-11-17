@@ -32,3 +32,4 @@ libbpf-cargo
 parquet
 vtcode
 cached-path
+cargo-public-api
