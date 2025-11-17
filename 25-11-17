@@ -6,3 +6,4 @@ xargo
 fake
 nominal-api
 z3tracer
+foundationdb-gen
