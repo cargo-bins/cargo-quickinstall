@@ -15,3 +15,4 @@ rustup-toolchain-install-master
 diesel_cli
 libbpf-cargo
 parquet
+cached-path
