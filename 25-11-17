@@ -37,3 +37,4 @@ tree-sitter-cli
 foundationdb-gen
 binstall
 h3o
+cargo-info
