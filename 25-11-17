@@ -11,3 +11,4 @@ h3o
 rustup-toolchain-install-master
 libbpf-cargo
 parquet
+cached-path
