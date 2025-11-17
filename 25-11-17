@@ -12,3 +12,4 @@ foundationdb-gen
 sqlx-cli
 holochain
 h3o
+httm
