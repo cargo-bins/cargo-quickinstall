@@ -4,3 +4,4 @@ xargo
 fake
 pandora_box
 ec2_instance_metadata
+nominal-api
