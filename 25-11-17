@@ -8,3 +8,4 @@ nominal-api
 honggfuzz
 z3tracer
 coldsnap
+foundationdb-gen
