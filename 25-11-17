@@ -34,3 +34,4 @@ honggfuzz
 channels-console
 holochain
 deploy
+process_viewer
