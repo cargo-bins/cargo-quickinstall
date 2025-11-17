@@ -33,3 +33,4 @@ parquet
 vtcode
 cached-path
 cargo-public-api
+process_viewer
