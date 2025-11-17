@@ -33,3 +33,4 @@ remove_dir_all
 honggfuzz
 channels-console
 holochain
+deploy
