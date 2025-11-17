@@ -27,3 +27,4 @@ remove_dir_all
 honggfuzz
 holochain
 deploy
+process_viewer
