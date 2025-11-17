@@ -25,3 +25,4 @@ esp-config
 process_viewer
 remove_dir_all
 honggfuzz
+holochain
