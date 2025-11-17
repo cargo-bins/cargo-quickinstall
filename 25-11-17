@@ -14,3 +14,4 @@ diesel_cli
 libbpf-cargo
 holochain
 cached-path
+esp-config
