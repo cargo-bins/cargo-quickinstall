@@ -39,3 +39,4 @@ binstall
 h3o
 cargo-info
 rustup-toolchain-install-master
+binstall
