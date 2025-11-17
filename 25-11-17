@@ -5,3 +5,4 @@ cargo-mobile2
 xargo
 socketcan
 fake
+nominal-api
