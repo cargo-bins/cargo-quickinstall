@@ -15,3 +15,4 @@ libbpf-cargo
 holochain
 cached-path
 esp-config
+process_viewer
