@@ -16,3 +16,4 @@ libbpf-cargo
 parquet
 topgrade
 qv
+cached-path
