@@ -17,3 +17,4 @@ diesel_cli
 rzup
 libbpf-cargo
 mit-pre-commit
+sn_node
