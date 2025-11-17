@@ -7,3 +7,4 @@ ec2_instance_metadata
 nominal-api
 honggfuzz
 z3tracer
+coldsnap
