@@ -8,3 +8,4 @@ xargo
 fake
 pandora_box
 nominal-api
+honggfuzz
