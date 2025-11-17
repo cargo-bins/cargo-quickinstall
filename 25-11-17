@@ -40,3 +40,4 @@ deploy
 process_viewer
 cached-path
 nexmark
+cargo-public-api
