@@ -6,3 +6,4 @@ xargo
 socketcan
 fake
 pandora_box
+nominal-api
