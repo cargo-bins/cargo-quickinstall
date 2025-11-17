@@ -31,3 +31,4 @@ bluetui
 libbpf-cargo
 parquet
 vtcode
+cached-path
