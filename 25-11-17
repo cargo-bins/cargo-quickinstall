@@ -13,3 +13,4 @@ rustup-toolchain-install-master
 diesel_cli
 libbpf-cargo
 holochain
+cached-path
