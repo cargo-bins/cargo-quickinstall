@@ -16,3 +16,4 @@ diesel_cli
 libbpf-cargo
 parquet
 cached-path
+process_viewer
