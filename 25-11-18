@@ -26,3 +26,4 @@ mit-pre-commit
 channels-console
 arrow-flight
 pwasm-utils
+sqlx-cli
