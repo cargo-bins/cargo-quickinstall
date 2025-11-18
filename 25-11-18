@@ -22,3 +22,4 @@ pwasm-utils
 pandora_box
 nominal-api
 winpty-rs
+tree_magic
