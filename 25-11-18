@@ -28,3 +28,4 @@ wmi
 maelstrom-pytest
 nominal-api
 winpty-rs
+tree_magic
