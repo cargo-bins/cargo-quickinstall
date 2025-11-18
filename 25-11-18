@@ -31,3 +31,4 @@ remove_dir_all
 ncgopher
 uv
 ncgopher
+pwasm-utils
