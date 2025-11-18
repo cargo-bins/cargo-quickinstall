@@ -21,3 +21,4 @@ arrow-flight
 pwasm-utils
 pandora_box
 nominal-api
+winpty-rs
