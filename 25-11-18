@@ -21,3 +21,4 @@ project_init
 nkeys
 rustfmt-nightly
 remove_dir_all
+arrow-flight
