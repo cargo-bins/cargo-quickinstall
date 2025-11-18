@@ -22,3 +22,4 @@ nkeys
 rustfmt-nightly
 remove_dir_all
 arrow-flight
+pwasm-utils
