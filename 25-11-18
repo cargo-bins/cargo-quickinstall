@@ -27,3 +27,4 @@ remove_dir_all
 topgrade
 arrow-flight
 pwasm-utils
+maelstrom-pytest
