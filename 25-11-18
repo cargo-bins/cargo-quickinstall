@@ -29,3 +29,4 @@ sea-orm-cli
 rustfmt-nightly
 xargo
 remove_dir_all
+vtcode
