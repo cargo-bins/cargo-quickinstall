@@ -27,3 +27,4 @@ maelstrom-pytest
 wmi
 maelstrom-pytest
 nominal-api
+winpty-rs
