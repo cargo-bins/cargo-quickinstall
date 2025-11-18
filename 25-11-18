@@ -27,3 +27,4 @@ project_init
 nkeys
 sea-orm-cli
 rustfmt-nightly
+xargo
