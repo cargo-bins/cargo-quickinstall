@@ -25,3 +25,4 @@ project_init
 nkeys
 crabpicker
 vtcode
+rustfmt-nightly
