@@ -20,3 +20,4 @@ wmi
 cargo-mobile2
 nominal-api
 winpty-rs
+tree_magic
