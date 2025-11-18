@@ -25,3 +25,4 @@ nkeys
 rustfmt-nightly
 remove_dir_all
 topgrade
+arrow-flight
