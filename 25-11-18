@@ -30,3 +30,4 @@ rustfmt-nightly
 xargo
 remove_dir_all
 vtcode
+ncgopher
