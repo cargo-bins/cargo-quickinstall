@@ -16,3 +16,4 @@ xargo
 remove_dir_all
 arrow-flight
 pwasm-utils
+wmi
