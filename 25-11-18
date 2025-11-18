@@ -18,3 +18,4 @@ pwasm-utils
 wmi
 cargo-mobile2
 apollo-router
+winpty-rs
