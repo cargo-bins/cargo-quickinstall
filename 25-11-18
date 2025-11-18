@@ -32,3 +32,4 @@ sqlx-cli
 codeberg-cli
 apollo-router
 sqlx-cli
+winpty-rs
