@@ -21,3 +21,4 @@ nkeys
 project_init
 rustfmt-nightly
 codeberg-cli
+remove_dir_all
