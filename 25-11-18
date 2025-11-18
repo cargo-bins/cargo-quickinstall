@@ -12,3 +12,4 @@ project_init
 nkeys
 rustfmt-nightly
 xargo
+remove_dir_all
