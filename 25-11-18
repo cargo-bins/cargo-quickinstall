@@ -19,3 +19,4 @@ remove_dir_all
 mit-pre-commit
 arrow-flight
 pwasm-utils
+pandora_box
