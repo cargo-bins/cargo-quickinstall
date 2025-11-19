@@ -18,3 +18,4 @@ deploy
 xargo
 clap-stdin
 xargo
+xargo
