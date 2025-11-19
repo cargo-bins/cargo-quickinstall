@@ -16,3 +16,4 @@ solana-genesis
 xargo
 deploy
 xargo
+clap-stdin
