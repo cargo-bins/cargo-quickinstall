@@ -20,3 +20,4 @@ borsh
 cargo-risczero
 sea-orm-cli
 raw-cpuid
+pgrx-tests
