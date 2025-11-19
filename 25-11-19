@@ -12,3 +12,4 @@ deploy
 clap-stdin
 minicbor
 schemafy
+rls-rustc
