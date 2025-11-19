@@ -11,3 +11,4 @@ deploy
 clap-stdin
 tuftool
 minicbor
+schemafy
