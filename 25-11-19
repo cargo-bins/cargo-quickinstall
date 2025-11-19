@@ -19,3 +19,4 @@ cargo-leptos
 solana-genesis
 netavark
 clap-stdin
+uv
