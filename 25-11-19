@@ -21,3 +21,4 @@ httm
 borsh
 cargo-risczero
 rustbus
+rustfmt
