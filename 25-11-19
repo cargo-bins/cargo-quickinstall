@@ -35,3 +35,4 @@ borsh
 cargo-risczero
 rustbus
 raw-cpuid
+gpg-tui
