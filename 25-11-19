@@ -35,3 +35,4 @@ atem
 rls-rustc
 diesel_cli
 minicbor
+dupe-krill
