@@ -27,3 +27,4 @@ sn_node
 safe_network
 cargo-vet
 pgrx-tests
+cargo-local-registry
