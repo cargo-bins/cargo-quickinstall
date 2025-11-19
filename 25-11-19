@@ -25,3 +25,4 @@ rustfmt
 raw-cpuid
 sn_node
 safe_network
+cargo-vet
