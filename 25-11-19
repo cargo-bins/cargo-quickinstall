@@ -19,3 +19,4 @@ cargo-risczero
 sea-orm-cli
 raw-cpuid
 cargo-mobile2
+diesel_cli
