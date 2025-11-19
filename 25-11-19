@@ -12,3 +12,4 @@ rls-rustc
 minicbor
 borsh
 raw-cpuid
+diesel_cli
