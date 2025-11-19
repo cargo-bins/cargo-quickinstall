@@ -26,3 +26,4 @@ minicbor
 borsh
 sha1collisiondetection
 sea-orm-cli
+raw-cpuid
