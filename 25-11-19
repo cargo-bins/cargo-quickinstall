@@ -39,3 +39,4 @@ rioterm
 diesel_cli
 minicbor
 atem
+borsh
