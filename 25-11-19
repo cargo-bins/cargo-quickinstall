@@ -16,3 +16,4 @@ schemafy
 mit-pre-commit
 rls-rustc
 diesel_cli
+minicbor
