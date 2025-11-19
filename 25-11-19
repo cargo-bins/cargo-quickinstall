@@ -30,3 +30,4 @@ diesel_cli
 diesel_cli
 minicbor
 httm
+uv
