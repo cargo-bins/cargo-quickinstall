@@ -26,3 +26,4 @@ deploy
 cargo-unmaintained
 cargo-unmaintained
 clap-stdin
+rioterm
