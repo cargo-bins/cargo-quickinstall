@@ -5,3 +5,4 @@ sea-orm-cli
 rustdoc-text
 httpmock
 vdev
+gpgme
