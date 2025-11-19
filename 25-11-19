@@ -40,3 +40,4 @@ diesel_cli
 minicbor
 atem
 borsh
+cargo-unmaintained
