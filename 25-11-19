@@ -37,3 +37,4 @@ diesel_cli
 minicbor
 dupe-krill
 tectonic
+borsh
