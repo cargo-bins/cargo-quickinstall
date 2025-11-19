@@ -3,3 +3,4 @@ rustdoc-text
 uv
 sea-orm-cli
 rustdoc-text
+httpmock
