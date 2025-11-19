@@ -22,3 +22,4 @@ schemafy
 solana-gossip
 rls-rustc
 minicbor
+borsh
