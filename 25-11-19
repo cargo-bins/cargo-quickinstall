@@ -34,3 +34,4 @@ schemafy
 atem
 rls-rustc
 diesel_cli
+minicbor
