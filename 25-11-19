@@ -26,3 +26,4 @@ schemafy
 mit-pre-commit
 solana-gossip
 rls-rustc
+diesel_cli
