@@ -23,3 +23,4 @@ solana-gossip
 rls-rustc
 minicbor
 borsh
+sea-orm-cli
