@@ -17,3 +17,4 @@ xargo
 deploy
 xargo
 clap-stdin
+xargo
