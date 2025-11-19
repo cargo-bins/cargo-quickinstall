@@ -9,3 +9,4 @@ clap-stdin
 minicbor
 schemafy
 rls-rustc
+minicbor
