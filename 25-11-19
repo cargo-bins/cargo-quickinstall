@@ -19,3 +19,4 @@ xargo
 clap-stdin
 xargo
 xargo
+minicbor
