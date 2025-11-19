@@ -19,3 +19,4 @@ diesel_cli
 minicbor
 httm
 borsh
+cargo-risczero
