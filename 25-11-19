@@ -9,3 +9,4 @@ paperclip
 laminar
 solana-genesis
 deploy
+clap-stdin
