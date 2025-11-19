@@ -34,3 +34,4 @@ uv
 borsh
 cargo-risczero
 rustbus
+raw-cpuid
