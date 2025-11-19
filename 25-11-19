@@ -28,3 +28,4 @@ sha1collisiondetection
 sea-orm-cli
 raw-cpuid
 minicbor
+safe_network
