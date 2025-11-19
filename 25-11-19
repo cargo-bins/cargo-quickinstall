@@ -20,3 +20,4 @@ clap-stdin
 xargo
 xargo
 minicbor
+schemafy
