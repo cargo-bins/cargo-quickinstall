@@ -10,3 +10,4 @@ solana-genesis
 cargo-leptos
 deploy
 holochain_cli
+clap-stdin
