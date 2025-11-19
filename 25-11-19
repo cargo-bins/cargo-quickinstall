@@ -14,3 +14,4 @@ clap-stdin
 minicbor
 schemafy
 mit-pre-commit
+rls-rustc
