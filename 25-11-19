@@ -8,3 +8,4 @@ cargo-mobile2
 fend
 tree-sitter-cli
 sea-orm-cli
+oso
