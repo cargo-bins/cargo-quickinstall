@@ -24,3 +24,4 @@ schemafy
 rls-rustc
 minicbor
 borsh
+sha1collisiondetection
