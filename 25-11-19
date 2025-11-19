@@ -18,3 +18,4 @@ rls-rustc
 minicbor
 borsh
 cargo-risczero
+sea-orm-cli
