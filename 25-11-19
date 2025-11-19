@@ -22,3 +22,4 @@ borsh
 cargo-risczero
 rustbus
 rustfmt
+raw-cpuid
