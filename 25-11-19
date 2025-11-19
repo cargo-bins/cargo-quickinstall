@@ -13,3 +13,4 @@ holochain_cli
 clap-stdin
 minicbor
 schemafy
+mit-pre-commit
