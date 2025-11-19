@@ -25,3 +25,4 @@ solana-genesis
 cargo-unmaintained
 deploy
 yaydl
+clap-stdin
