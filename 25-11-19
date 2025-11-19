@@ -29,3 +29,4 @@ cargo-vet
 pgrx-tests
 cargo-local-registry
 diesel_cli
+sn_node_rpc_client
