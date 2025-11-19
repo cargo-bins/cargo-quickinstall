@@ -29,3 +29,4 @@ rls-rustc
 diesel_cli
 diesel_cli
 minicbor
+httm
