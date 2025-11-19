@@ -43,3 +43,4 @@ dx-cli
 pgrx-tests
 cargo-local-registry
 dx-cli
+gpg-tui
