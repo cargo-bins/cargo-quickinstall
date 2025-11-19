@@ -33,3 +33,4 @@ minicbor
 schemafy
 atem
 rls-rustc
+diesel_cli
