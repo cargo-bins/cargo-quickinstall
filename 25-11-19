@@ -37,3 +37,4 @@ rls-rustc
 atem
 rioterm
 diesel_cli
+minicbor
