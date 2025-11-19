@@ -12,3 +12,4 @@ clap-stdin
 tuftool
 minicbor
 schemafy
+rls-rustc
