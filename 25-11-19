@@ -6,3 +6,4 @@ laminar
 solana-genesis
 deploy
 clap-stdin
+minicbor
