@@ -36,3 +36,4 @@ rls-rustc
 diesel_cli
 minicbor
 dupe-krill
+tectonic
