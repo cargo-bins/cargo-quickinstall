@@ -11,3 +11,4 @@ cargo-leptos
 deploy
 holochain_cli
 clap-stdin
+minicbor
