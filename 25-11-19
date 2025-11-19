@@ -31,3 +31,4 @@ diesel_cli
 minicbor
 httm
 uv
+borsh
