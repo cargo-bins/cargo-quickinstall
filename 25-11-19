@@ -15,3 +15,4 @@ schemafy
 rls-rustc
 minicbor
 borsh
+cargo-risczero
