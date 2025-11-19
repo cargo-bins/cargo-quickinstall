@@ -28,3 +28,4 @@ safe_network
 cargo-vet
 pgrx-tests
 cargo-local-registry
+diesel_cli
