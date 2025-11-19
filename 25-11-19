@@ -16,3 +16,4 @@ xargo
 deploy
 xargo
 clap-stdin
+minicbor
