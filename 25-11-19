@@ -22,3 +22,4 @@ sea-orm-cli
 raw-cpuid
 pgrx-tests
 cargo-mobile2
+diesel_cli
