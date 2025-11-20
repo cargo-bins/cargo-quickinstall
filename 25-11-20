@@ -13,3 +13,4 @@ opencv-binding-generator
 pwasm-utils
 foundationdb-gen
 qsv
+av-scenechange
