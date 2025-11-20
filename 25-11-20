@@ -9,3 +9,4 @@ parquet
 rustrict
 process_viewer
 opencv-binding-generator
+pwasm-utils
