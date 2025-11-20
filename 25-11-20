@@ -7,3 +7,4 @@ laminar
 build-fs-tree
 parquet
 rustrict
+process_viewer
