@@ -25,3 +25,4 @@ mit-prepare-commit-msg
 foundationdb-gen
 qsv
 rmesg
+cargo-local-registry
