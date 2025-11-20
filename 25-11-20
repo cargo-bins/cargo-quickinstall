@@ -34,3 +34,4 @@ foundationdb-gen
 cargo-leptos
 qsv
 cargo-local-registry
+bpf-linker
