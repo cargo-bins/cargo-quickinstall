@@ -14,3 +14,4 @@ opencv-binding-generator
 pwasm-utils
 dprint
 librespot
+foundationdb-gen
