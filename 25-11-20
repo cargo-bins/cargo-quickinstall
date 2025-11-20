@@ -26,3 +26,4 @@ foundationdb-gen
 qsv
 rmesg
 cargo-local-registry
+rust-bert
