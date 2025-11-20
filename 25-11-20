@@ -8,3 +8,4 @@ stellar-xdr
 build-fs-tree
 parquet
 av-scenechange
+process_viewer
