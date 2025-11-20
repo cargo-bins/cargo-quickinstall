@@ -8,3 +8,4 @@ build-fs-tree
 cargo-msrv
 parquet
 av-scenechange
+rustrict
