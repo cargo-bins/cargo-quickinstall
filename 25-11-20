@@ -11,3 +11,4 @@ proof-of-sql
 pwasm-utils
 libcst
 librespot
+foundationdb-gen
