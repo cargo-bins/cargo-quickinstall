@@ -13,3 +13,4 @@ rustrict
 process_viewer
 proof-of-sql
 pwasm-utils
+foundationdb-gen
