@@ -14,3 +14,4 @@ pwasm-utils
 foundationdb-gen
 qsv
 av-scenechange
+rust-bert
