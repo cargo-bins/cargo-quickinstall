@@ -16,3 +16,4 @@ pwasm-utils
 libcst
 dprint
 librespot
+foundationdb-gen
