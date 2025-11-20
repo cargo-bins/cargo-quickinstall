@@ -9,3 +9,4 @@ cargo-dylint
 cpp_demangle
 pijul
 z3tracer
+laminar
