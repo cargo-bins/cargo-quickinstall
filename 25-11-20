@@ -59,3 +59,4 @@ fzf-make
 cargo-bisect-rustc
 pyrefly
 nextest
+fzf-make
