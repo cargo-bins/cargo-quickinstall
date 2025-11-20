@@ -9,3 +9,4 @@ build-fs-tree
 cargo-msrv
 parquet
 av-scenechange
+process_viewer
