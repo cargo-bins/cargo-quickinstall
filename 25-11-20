@@ -56,3 +56,4 @@ av-scenechange
 rust-bert
 pyrefly
 fzf-make
+cargo-bisect-rustc
