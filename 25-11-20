@@ -9,3 +9,4 @@ cargo-msrv
 parquet
 av-scenechange
 rustrict
+process_viewer
