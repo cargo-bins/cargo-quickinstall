@@ -9,3 +9,4 @@ build-fs-tree
 parquet
 av-scenechange
 process_viewer
+opencv-binding-generator
