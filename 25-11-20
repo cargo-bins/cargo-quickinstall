@@ -9,3 +9,4 @@ process_viewer
 opencv-binding-generator
 proof-of-sql
 pwasm-utils
+libcst
