@@ -12,3 +12,4 @@ build-fs-tree
 parquet
 av-scenechange
 fermium
+process_viewer
