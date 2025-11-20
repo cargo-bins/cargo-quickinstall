@@ -12,3 +12,4 @@ opencv-binding-generator
 pwasm-utils
 librespot
 foundationdb-gen
+qsv
