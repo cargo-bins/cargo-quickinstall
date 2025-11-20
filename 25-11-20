@@ -27,3 +27,4 @@ qsv
 rmesg
 cargo-local-registry
 rust-bert
+bpf-linker
