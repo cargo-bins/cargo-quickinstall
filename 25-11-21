@@ -34,3 +34,4 @@ bluer-tools
 racer
 datatui
 tree-sitter-cli
+cargo-audit
