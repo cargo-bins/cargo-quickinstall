@@ -18,3 +18,4 @@ wol-rs
 honggfuzz
 remove_dir_all
 racer
+benfred-read-process-memory
