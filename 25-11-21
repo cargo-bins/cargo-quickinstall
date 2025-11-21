@@ -3,3 +3,4 @@ cargo-bisect-rustc
 fzf-make
 cargo-bisect-rustc
 sea-orm-cli
+cargo-bisect-rustc
