@@ -1,3 +1,4 @@
 tendermint-abci
 cargo-bisect-rustc
 fzf-make
+cargo-bisect-rustc
