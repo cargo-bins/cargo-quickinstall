@@ -18,3 +18,4 @@ wol-rs
 honggfuzz
 laminar
 dua-cli
+remove_dir_all
