@@ -53,3 +53,4 @@ git-workspace
 hurl
 rtx-cli
 cargo-audit
+mdcat
