@@ -2,3 +2,4 @@ tendermint-abci
 cargo-bisect-rustc
 fzf-make
 cargo-bisect-rustc
+sea-orm-cli
