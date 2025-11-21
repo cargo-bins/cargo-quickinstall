@@ -40,3 +40,4 @@ bluer-tools
 tree-sitter-cli
 racer
 tree-sitter-cli
+cargo-audit
