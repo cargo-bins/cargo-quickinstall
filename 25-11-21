@@ -9,3 +9,4 @@ kanidm_tools
 datavzrd
 cargo-pgrx
 pyrefly
+sea-orm-cli
