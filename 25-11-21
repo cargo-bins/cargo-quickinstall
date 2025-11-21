@@ -11,3 +11,4 @@ cargo-pgrx
 pyrefly
 sea-orm-cli
 bluetui
+wol-rs
