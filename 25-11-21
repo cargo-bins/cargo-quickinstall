@@ -47,3 +47,4 @@ cargo-audit
 ext-sort
 hurl
 wol-rs
+git-workspace
