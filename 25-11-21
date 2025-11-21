@@ -5,3 +5,4 @@ wol-rs
 solana-validator
 sass-rs
 ext-sort
+addr2line
