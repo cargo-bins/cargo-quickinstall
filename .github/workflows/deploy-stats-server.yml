@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: deploy-group
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: superfly/flyctl-actions/setup-flyctl@master
       - run: flyctl deploy stats-server --wait-timeout 1m
         env:

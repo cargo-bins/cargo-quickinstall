@@ -38,7 +38,7 @@ jobs:
           - target_arch: armv7-unknown-linux-musleabihf
             os: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
 
@@ -84,7 +84,7 @@ jobs:
           - target_arch: aarch64-unknown-linux-gnu
             os: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
       - name: Install latest rust
@@ -125,7 +125,7 @@ jobs:
           - target_arch: aarch64-unknown-linux-musl
             os: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
 
