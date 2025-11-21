@@ -49,3 +49,4 @@ cargo-bisect-rustc
 hurl
 hurl
 cargo-audit
+git-workspace
