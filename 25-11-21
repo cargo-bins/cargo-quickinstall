@@ -5,3 +5,4 @@ cargo-bisect-rustc
 sea-orm-cli
 cargo-bisect-rustc
 project_init
+kanidm_tools
