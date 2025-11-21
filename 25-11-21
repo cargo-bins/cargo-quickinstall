@@ -18,3 +18,4 @@ datavzrd
 cargo-bisect-rustc
 pkgcruft-git
 dioxus-cli
+cat-ascii-faces
