@@ -61,3 +61,4 @@ wol-rs
 diesel_cli
 remove_dir_all
 nextest
+racer
