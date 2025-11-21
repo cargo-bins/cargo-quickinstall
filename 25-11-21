@@ -3,3 +3,4 @@ project_init
 cargo-pgrx
 wol-rs
 sass-rs
+ext-sort
