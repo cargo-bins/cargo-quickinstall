@@ -4,3 +4,4 @@ fzf-make
 cargo-bisect-rustc
 sea-orm-cli
 cargo-bisect-rustc
+project_init
