@@ -11,3 +11,4 @@ dprint
 ext-sort
 httm
 sn_cli
+sn_node_rpc_client
