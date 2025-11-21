@@ -48,3 +48,4 @@ bluer-tools
 cargo-bisect-rustc
 hurl
 hurl
+cargo-audit
