@@ -12,3 +12,4 @@ ext-sort
 tuftool
 rtx-cli
 ext-sort
+wol-rs
