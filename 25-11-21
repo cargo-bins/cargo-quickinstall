@@ -59,3 +59,4 @@ hurl
 ext-sort
 wol-rs
 diesel_cli
+remove_dir_all
