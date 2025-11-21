@@ -27,3 +27,4 @@ cargo-bisect-rustc
 ext-sort
 datatui
 addr2line
+dioxus-cli
