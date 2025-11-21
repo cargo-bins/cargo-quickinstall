@@ -41,3 +41,4 @@ tree-sitter-cli
 rtx-cli
 git-workspace
 cargo-audit
+azure-pim-cli
