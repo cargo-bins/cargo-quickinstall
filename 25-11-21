@@ -7,3 +7,4 @@ cargo-bisect-rustc
 project_init
 kanidm_tools
 datavzrd
+cargo-pgrx
