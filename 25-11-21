@@ -25,3 +25,4 @@ datatui
 sass-rs
 cargo-bisect-rustc
 ext-sort
+datatui
