@@ -46,3 +46,4 @@ tree-sitter-cli
 cargo-audit
 bluer-tools
 cargo-bisect-rustc
+hurl
