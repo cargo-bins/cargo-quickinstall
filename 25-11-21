@@ -56,3 +56,4 @@ cargo-audit
 mdcat
 rg
 hurl
+ext-sort
