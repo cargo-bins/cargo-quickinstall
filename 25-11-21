@@ -55,3 +55,4 @@ rtx-cli
 cargo-audit
 mdcat
 rg
+hurl
