@@ -10,3 +10,4 @@ qsv
 ext-sort
 rtx-cli
 ext-sort
+wol-rs
