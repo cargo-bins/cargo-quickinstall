@@ -6,3 +6,4 @@ ext-sort
 addr2line
 xargo
 av-scenechange
+iai-callgrind-runner
