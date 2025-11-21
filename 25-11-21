@@ -63,3 +63,4 @@ remove_dir_all
 nextest
 racer
 papyrus_storage
+mdcat
