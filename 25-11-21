@@ -46,3 +46,4 @@ azure-pim-cli
 cargo-audit
 ext-sort
 hurl
+wol-rs
