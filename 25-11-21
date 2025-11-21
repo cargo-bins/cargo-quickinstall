@@ -11,3 +11,4 @@ cargo-bisect-rustc
 kanidm_tools
 wol-rs
 cargo-dylint
+cat-ascii-faces
