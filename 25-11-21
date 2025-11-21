@@ -16,3 +16,4 @@ rtx-cli
 ext-sort
 wol-rs
 honggfuzz
+laminar
