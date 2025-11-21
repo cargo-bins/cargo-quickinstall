@@ -7,3 +7,4 @@ addr2line
 xargo
 av-scenechange
 iai-callgrind-runner
+dprint
