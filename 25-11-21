@@ -5,3 +5,4 @@ addr2line
 xargo
 qsv
 release
+ext-sort
