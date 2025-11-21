@@ -22,3 +22,4 @@ remove_dir_all
 dua-cli
 racer
 papyrus_storage
+cargo-leptos
