@@ -14,3 +14,4 @@ sn_cli
 sn_node_rpc_client
 rtx-cli
 ext-sort
+wol-rs
