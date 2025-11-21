@@ -15,3 +15,4 @@ cat-ascii-faces
 kanidm_tools
 cargo-dylint
 datavzrd
+cargo-bisect-rustc
