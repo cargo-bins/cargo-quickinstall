@@ -8,3 +8,4 @@ fzf-make
 project_init
 fzf-make
 cargo-bisect-rustc
+kanidm_tools
