@@ -41,3 +41,4 @@ tree-sitter-cli
 racer
 tree-sitter-cli
 cargo-audit
+hurl
