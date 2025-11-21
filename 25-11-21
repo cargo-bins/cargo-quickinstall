@@ -36,3 +36,4 @@ datatui
 tree-sitter-cli
 cargo-audit
 fzf-make
+bluer-tools
