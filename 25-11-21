@@ -38,3 +38,4 @@ cargo-audit
 fzf-make
 bluer-tools
 tree-sitter-cli
+rtx-cli
