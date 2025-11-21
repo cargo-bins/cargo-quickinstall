@@ -10,3 +10,4 @@ fzf-make
 cargo-bisect-rustc
 kanidm_tools
 wol-rs
+cargo-dylint
