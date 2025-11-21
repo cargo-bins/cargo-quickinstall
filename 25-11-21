@@ -51,3 +51,4 @@ hurl
 cargo-audit
 git-workspace
 hurl
+rtx-cli
