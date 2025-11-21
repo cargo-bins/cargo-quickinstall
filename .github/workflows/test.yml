@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Fetch source
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Run shellcheck
         run: shellcheck *.sh
@@ -53,7 +53,7 @@ jobs:
     steps:
       # TODO: actions/cache@v2?
       - name: Fetch source
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Fetch tags required for testing
         run: git fetch --tags
@@ -100,7 +100,7 @@ jobs:
 
     steps:
       - name: Fetch source
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal

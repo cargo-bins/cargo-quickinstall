@@ -109,12 +109,12 @@ jobs:
         shell: bash
     steps:
       - name: Checkout trigger commit
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
           path: trigger
       - name: Checkout main repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
           ref: ${{ inputs.branch }}
@@ -169,12 +169,12 @@ jobs:
       SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
       - name: Checkout trigger commit
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           persist-credentials: true
           path: trigger
       - name: Checkout main repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
           # TODO: maybe this should be main or configurable or something?
@@ -270,13 +270,13 @@ jobs:
         shell: bash
     steps:
       - name: Checkout trigger branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           persist-credentials: true
           ref: trigger/${{ inputs.target_arch }}
           path: trigger
       - name: Checkout trigger commit
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
           path: cargo-quickinstall
