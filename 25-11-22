@@ -9,3 +9,4 @@ libbpf-cargo
 cargo-dylint
 hurl
 sassy
+arrow-flight
