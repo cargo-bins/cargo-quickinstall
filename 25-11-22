@@ -71,3 +71,4 @@ magika-cli
 cargo-show
 barbell
 soroban-cli
+addr2line
