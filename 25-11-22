@@ -4,3 +4,4 @@ azure-pim-cli
 git-workspace
 h3o
 cargo-dylint
+cargo-audit
