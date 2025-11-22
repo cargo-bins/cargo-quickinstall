@@ -31,3 +31,4 @@ git-disjoint
 rg
 controller
 ruff
+cargo-show
