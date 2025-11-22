@@ -12,3 +12,4 @@ cargo-audit
 cargo-audit
 libbpf-cargo
 ruff
+dioxus-cli
