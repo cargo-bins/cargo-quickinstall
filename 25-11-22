@@ -18,3 +18,4 @@ bpf-linker
 av-scenechange
 deploy
 deploy
+tendermint-rpc
