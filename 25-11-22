@@ -13,3 +13,4 @@ cargo-audit
 libbpf-cargo
 ruff
 dioxus-cli
+hurlfmt
