@@ -10,3 +10,4 @@ git-workspace
 kble-serialport
 cargo-audit
 cargo-audit
+libbpf-cargo
