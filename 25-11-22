@@ -8,3 +8,4 @@ cargo-audit
 libbpf-cargo
 cargo-dylint
 hurl
+sassy
