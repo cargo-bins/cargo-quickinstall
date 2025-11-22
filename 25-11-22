@@ -5,3 +5,4 @@ diesel_cli
 mdcat
 sassy
 git-workspace
+cargo-show
