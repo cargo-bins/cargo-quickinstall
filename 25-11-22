@@ -19,3 +19,4 @@ av-scenechange
 deploy
 deploy
 tendermint-rpc
+addr2line
