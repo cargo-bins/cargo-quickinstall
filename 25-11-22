@@ -40,3 +40,4 @@ ruff
 paru
 librespot
 dotenv-flow
+hurlfmt
