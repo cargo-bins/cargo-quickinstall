@@ -39,3 +39,4 @@ mdcat
 ruff
 paru
 librespot
+dotenv-flow
