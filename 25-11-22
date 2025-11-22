@@ -26,3 +26,4 @@ ruff
 mdcat
 rg
 kble-serialport
+hurlfmt
