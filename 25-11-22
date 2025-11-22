@@ -20,3 +20,4 @@ spotifyd
 ruff
 mdcat
 cached-path
+hurlfmt
