@@ -14,3 +14,4 @@ solana-tokens
 cargo-audit
 rg
 rav1e
+cargo-show
