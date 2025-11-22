@@ -7,3 +7,4 @@ cargo-dylint
 cargo-audit
 libbpf-cargo
 cargo-dylint
+hurl
