@@ -4,3 +4,4 @@ opencv-binding-generator
 rustrict
 qsv
 rpki
+graphql_client_cli
