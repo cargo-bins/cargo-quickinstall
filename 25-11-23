@@ -11,3 +11,4 @@ sn_node_rpc_client
 text-diff
 sn_node_rpc_client
 httpbis
+sha1collisiondetection
