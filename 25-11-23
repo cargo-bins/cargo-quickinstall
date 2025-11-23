@@ -39,3 +39,4 @@ cargo-dylint
 ncspot
 graphql_client_cli
 cargo-public-api
+nu_plugin_gstat
