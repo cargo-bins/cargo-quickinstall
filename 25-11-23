@@ -22,3 +22,4 @@ tendermint-abci
 tendermint-rpc
 bpf-linker
 syd
+tree-sitter-graph
