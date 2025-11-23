@@ -37,3 +37,4 @@ nu_plugin_query
 nu_plugin_query
 ncspot
 graphql_client_cli
+speedtest-rs
