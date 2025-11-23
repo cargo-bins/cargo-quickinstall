@@ -19,3 +19,4 @@ fake
 esp-config
 build-fs-tree
 rustup-toolchain-install-master
+solana-validator
