@@ -20,3 +20,4 @@ cargo-dylint
 speedtest-rs
 openring
 nu_plugin_query
+nu_plugin_gstat
