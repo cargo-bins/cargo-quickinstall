@@ -7,3 +7,4 @@ rpki
 graphql_client_cli
 tree-sitter-graph
 sha1collisiondetection
+perfcnt
