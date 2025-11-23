@@ -37,3 +37,4 @@ speedtest-rs
 cargo-whatfeatures
 cargo-dylint
 ncspot
+graphql_client_cli
