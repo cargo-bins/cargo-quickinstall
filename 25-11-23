@@ -12,3 +12,4 @@ libcst
 esp-config
 qsv
 tendermint-abci
+tendermint-rpc
