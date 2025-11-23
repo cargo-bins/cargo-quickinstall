@@ -12,3 +12,4 @@ unic-langid-impl
 holochain
 qsv
 tendermint-abci
+tendermint-rpc
