@@ -12,3 +12,4 @@ esp-config
 qsv
 tendermint-rpc
 syd
+tree-sitter-graph
