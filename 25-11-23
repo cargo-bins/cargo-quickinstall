@@ -52,3 +52,4 @@ tendermint-abci
 sqlpage
 tendermint-rpc
 sqlpage
+tree-sitter-graph
