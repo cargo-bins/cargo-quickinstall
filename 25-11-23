@@ -13,3 +13,4 @@ sn_node_rpc_client
 httpbis
 sha1collisiondetection
 perfcnt
+mit-prepare-commit-msg
