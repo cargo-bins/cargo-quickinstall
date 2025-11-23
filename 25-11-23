@@ -5,3 +5,4 @@ openring
 speedtest-rs
 cargo-whatfeatures
 soroban-cli
+nu_plugin_gstat
