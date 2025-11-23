@@ -8,3 +8,4 @@ perfcnt
 libcst
 qsv
 tendermint-abci
+tendermint-rpc
