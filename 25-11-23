@@ -8,3 +8,4 @@ rpki
 rmesg
 iai-callgrind-runner
 sn_node_rpc_client
+text-diff
