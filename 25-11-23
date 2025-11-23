@@ -43,3 +43,4 @@ nu_plugin_gstat
 nu_plugin_gstat
 cargo-public-api
 cargo-public-api
+sha1collisiondetection
