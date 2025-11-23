@@ -9,3 +9,4 @@ mit-pre-commit
 rpki
 rmesg
 iai-callgrind-runner
+sha1collisiondetection
