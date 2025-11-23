@@ -10,3 +10,4 @@ cargo-dylint
 ncspot
 cargo-whatfeatures
 solana-gossip
+nu_plugin_query
