@@ -24,3 +24,4 @@ qsv
 nu_plugin_gstat
 openring
 cargo-dylint
+cargo-whatfeatures
