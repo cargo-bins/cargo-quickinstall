@@ -50,3 +50,4 @@ sqlpage
 qsv
 tendermint-abci
 sqlpage
+tendermint-rpc
