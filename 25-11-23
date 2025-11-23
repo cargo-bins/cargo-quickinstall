@@ -21,3 +21,4 @@ qsv
 tendermint-abci
 tendermint-rpc
 bpf-linker
+syd
