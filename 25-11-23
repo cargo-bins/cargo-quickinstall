@@ -11,3 +11,4 @@ ncspot
 cargo-whatfeatures
 solana-gossip
 nu_plugin_query
+opencv-binding-generator
