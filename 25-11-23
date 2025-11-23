@@ -11,3 +11,4 @@ rmesg
 iai-callgrind-runner
 sha1collisiondetection
 perfcnt
+mit-prepare-commit-msg
