@@ -57,3 +57,4 @@ tendermint-rpc
 sqlpage
 tree-sitter-graph
 fake
+mdbook-linkcheck2
