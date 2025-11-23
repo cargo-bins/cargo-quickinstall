@@ -15,3 +15,4 @@ tendermint-abci
 tendermint-rpc
 syd
 tree-sitter-graph
+fake
