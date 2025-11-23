@@ -20,3 +20,4 @@ tendermint-rpc
 bpf-linker
 tree-sitter-graph
 esp-config
+build-fs-tree
