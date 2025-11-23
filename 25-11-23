@@ -19,3 +19,4 @@ holochain
 esp-config
 qsv
 tendermint-abci
+tendermint-rpc
