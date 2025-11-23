@@ -19,3 +19,4 @@ tendermint-abci
 tendermint-rpc
 bpf-linker
 tree-sitter-graph
+esp-config
