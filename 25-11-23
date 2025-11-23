@@ -8,3 +8,4 @@ soroban-cli
 nu_plugin_gstat
 cargo-dylint
 ncspot
+cargo-whatfeatures
