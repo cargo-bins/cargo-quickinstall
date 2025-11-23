@@ -56,3 +56,4 @@ sqlpage
 tendermint-rpc
 sqlpage
 tree-sitter-graph
+fake
