@@ -30,3 +30,4 @@ cargo-dylint
 nu_plugin_gstat
 alacritty
 speedtest-rs
+cargo-whatfeatures
