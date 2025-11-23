@@ -10,3 +10,4 @@ perfcnt
 libcst
 esp-config
 qsv
+tendermint-rpc
