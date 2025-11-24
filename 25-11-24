@@ -8,3 +8,4 @@ solana-stake-accounts
 nextest-filtering
 nkeys
 rustrict
+addr2line
