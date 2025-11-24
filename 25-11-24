@@ -29,3 +29,4 @@ cargo-scout
 dbus-codegen
 cargo-scout
 unic-langid-impl
+solana-ledger-tool
