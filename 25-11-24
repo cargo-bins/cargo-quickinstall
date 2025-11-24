@@ -29,3 +29,4 @@ sha1collisiondetection
 spr
 blazon
 re_query
+libbpf-cargo
