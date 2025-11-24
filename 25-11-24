@@ -12,3 +12,4 @@ pwasm-utils
 remove_dir_all
 dbus-codegen
 unic-langid-impl
+solana-ledger-tool
