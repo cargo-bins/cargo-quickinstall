@@ -4,3 +4,4 @@ qsv
 nextest-filtering
 nkeys
 rustrict
+addr2line
