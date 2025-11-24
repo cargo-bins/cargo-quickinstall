@@ -10,3 +10,4 @@ addr2line
 foundationdb-gen
 burn-tch
 zuse
+dbus-codegen
