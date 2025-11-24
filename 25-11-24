@@ -21,3 +21,4 @@ rsgen-avro
 xargo
 java-locator
 perfcnt
+cargo-lambda
