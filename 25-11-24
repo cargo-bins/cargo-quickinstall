@@ -31,3 +31,4 @@ cargo-dinghy
 cc-switch
 sozu
 re_query
+libbpf-cargo
