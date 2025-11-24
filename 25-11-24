@@ -24,3 +24,4 @@ cargo-vet
 rustbus
 git-mit-config
 rtx-cli
+cargo-risczero
