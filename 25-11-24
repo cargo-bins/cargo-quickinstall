@@ -22,3 +22,4 @@ cargo-leptos
 sn_node_rpc_client
 cargo-vet
 rustbus
+git-mit-config
