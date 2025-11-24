@@ -14,3 +14,4 @@ rat
 remove_dir_all
 dbus-codegen
 unic-langid-impl
+sha1collisiondetection
