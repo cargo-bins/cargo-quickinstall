@@ -17,3 +17,4 @@ rustfmt
 httpbis
 xargo
 java-locator
+perfcnt
