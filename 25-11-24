@@ -11,3 +11,4 @@ addr2line
 foundationdb-gen
 rat
 rat
+remove_dir_all
