@@ -8,3 +8,4 @@ addr2line
 foundationdb-gen
 burn-tch
 zuse
+remove_dir_all
