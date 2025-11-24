@@ -16,3 +16,4 @@ solana-ledger-tool
 sha1collisiondetection
 shunkakinoki
 re_query
+libbpf-cargo
