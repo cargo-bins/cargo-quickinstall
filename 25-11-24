@@ -11,3 +11,4 @@ burn-tch
 zuse
 remove_dir_all
 dbus-codegen
+unic-langid-impl
