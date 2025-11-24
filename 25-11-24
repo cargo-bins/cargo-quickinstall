@@ -12,3 +12,4 @@ foundationdb-gen
 rat
 rat
 remove_dir_all
+dbus-codegen
