@@ -17,3 +17,4 @@ sha1collisiondetection
 re_query
 libbpf-cargo
 java-locator
+perfcnt
