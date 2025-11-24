@@ -9,3 +9,4 @@ foundationdb-gen
 burn-tch
 zuse
 pwasm-utils
+remove_dir_all
