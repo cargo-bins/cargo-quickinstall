@@ -13,3 +13,4 @@ sha1collisiondetection
 re_query
 libbpf-cargo
 pandora_box
+rustfmt
