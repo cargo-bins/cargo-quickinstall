@@ -19,3 +19,4 @@ libbpf-cargo
 java-locator
 perfcnt
 tree_magic
+cargo-lambda
