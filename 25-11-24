@@ -7,3 +7,4 @@ addr2line
 foundationdb-gen
 burn-tch
 remove_dir_all
+dbus-codegen
