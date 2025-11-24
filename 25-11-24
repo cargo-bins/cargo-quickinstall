@@ -6,3 +6,4 @@ cargo-public-api
 solana-stake-accounts
 solana-stake-accounts
 nextest-filtering
+nkeys
