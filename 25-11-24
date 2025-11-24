@@ -5,3 +5,4 @@ nextest-filtering
 z3tracer
 nkeys
 rustrict
+addr2line
