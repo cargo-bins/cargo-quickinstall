@@ -28,3 +28,4 @@ remove_dir_all
 cargo-scout
 dbus-codegen
 cargo-scout
+unic-langid-impl
