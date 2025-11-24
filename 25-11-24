@@ -24,3 +24,4 @@ trust-list
 re_query
 libbpf-cargo
 rg
+spotifyd
