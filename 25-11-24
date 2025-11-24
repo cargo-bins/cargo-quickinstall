@@ -17,3 +17,4 @@ re_query
 libbpf-cargo
 java-locator
 perfcnt
+rtx-cli
