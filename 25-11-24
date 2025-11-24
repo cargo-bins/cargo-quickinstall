@@ -10,3 +10,4 @@ burn-tch
 zuse
 pwasm-utils
 remove_dir_all
+dbus-codegen
