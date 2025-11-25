@@ -53,3 +53,4 @@ esp-config
 probe-rs-cli
 cargo-interactive-update
 simple-http-server
+fake
