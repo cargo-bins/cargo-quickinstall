@@ -48,3 +48,4 @@ rsmixer
 cargo-interactive-update
 sniffnet
 probe-rs-cli
+esp-config
