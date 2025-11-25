@@ -21,3 +21,4 @@ winpty-rs
 binstall
 esp-config
 binstall
+sqlx-cli
