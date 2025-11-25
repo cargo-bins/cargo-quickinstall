@@ -12,3 +12,4 @@ cargo-mobile2
 holochain
 cpp_demangle
 tree-sitter-cli
+tendermint-abci
