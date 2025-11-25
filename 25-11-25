@@ -21,3 +21,4 @@ binstall
 tendermint-abci
 ruff
 dicom-pixeldata
+binstall
