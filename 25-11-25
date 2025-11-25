@@ -5,3 +5,4 @@ sea-orm-cli
 dotenvy
 opencv-binding-generator
 hayagriva
+rust-bert
