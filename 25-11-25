@@ -16,3 +16,4 @@ vdev
 esp-config
 binstall
 binstall
+cpp_demangle
