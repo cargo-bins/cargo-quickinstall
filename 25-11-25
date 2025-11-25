@@ -32,3 +32,4 @@ simple-http-server
 tendermint-abci
 rsmixer
 rsmixer
+probe-rs-cli
