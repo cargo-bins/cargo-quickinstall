@@ -13,3 +13,4 @@ holochain
 cpp_demangle
 tree-sitter-cli
 tendermint-abci
+laminar
