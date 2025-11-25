@@ -39,3 +39,4 @@ rsmixer
 simple-http-server
 rustorio
 probe-rs-cli
+sniffnet
