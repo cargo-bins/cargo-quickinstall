@@ -2,3 +2,4 @@ graphql_client_cli
 solana-validator
 sea-orm-cli
 sea-orm-cli
+dotenvy
