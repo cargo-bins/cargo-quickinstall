@@ -44,3 +44,4 @@ rustorio
 sniffnet
 cargo-interactive-update
 rustorio
+probe-rs-cli
