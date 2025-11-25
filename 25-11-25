@@ -14,3 +14,4 @@ honggfuzz
 deploy
 winpty-rs
 esp-config
+sqlx-cli
