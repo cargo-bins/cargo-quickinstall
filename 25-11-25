@@ -3,3 +3,4 @@ solana-validator
 sea-orm-cli
 sea-orm-cli
 dotenvy
+opencv-binding-generator
