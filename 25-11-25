@@ -26,3 +26,4 @@ cpp_demangle
 simple-http-server
 igrepper
 rsmixer
+tree-sitter-cli
