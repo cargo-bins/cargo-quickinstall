@@ -13,3 +13,4 @@ sn_faucet
 honggfuzz
 deploy
 winpty-rs
+esp-config
