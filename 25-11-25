@@ -19,3 +19,4 @@ deploy
 honggfuzz
 winpty-rs
 binstall
+esp-config
