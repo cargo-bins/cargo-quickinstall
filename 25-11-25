@@ -42,3 +42,4 @@ probe-rs-cli
 sniffnet
 probe-rs-cli
 rustorio
+wasixcc
