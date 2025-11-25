@@ -12,3 +12,4 @@ git-disjoint
 sn_faucet
 honggfuzz
 deploy
+winpty-rs
