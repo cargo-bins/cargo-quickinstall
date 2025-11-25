@@ -28,3 +28,4 @@ binstall
 stellar-strkey
 holochain
 binstall
+cpp_demangle
