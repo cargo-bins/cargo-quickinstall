@@ -51,3 +51,4 @@ rustorio
 wasixcc
 esp-config
 probe-rs-cli
+cargo-interactive-update
