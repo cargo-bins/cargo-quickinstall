@@ -16,3 +16,4 @@ winpty-rs
 esp-config
 sqlx-cli
 mit-pre-commit
+holochain
