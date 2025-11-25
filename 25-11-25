@@ -38,3 +38,4 @@ igrepper
 rsmixer
 simple-http-server
 rustorio
+probe-rs-cli
