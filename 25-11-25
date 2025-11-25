@@ -50,3 +50,4 @@ sniffnet
 probe-rs-cli
 esp-config
 wasixcc
+fake
