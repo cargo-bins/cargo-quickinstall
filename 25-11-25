@@ -19,3 +19,4 @@ binstall
 binstall
 cpp_demangle
 tendermint-abci
+ruff
