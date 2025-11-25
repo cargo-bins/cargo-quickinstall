@@ -15,3 +15,4 @@ tree-sitter-cli
 tendermint-abci
 laminar
 dprint
+esp-config
