@@ -36,3 +36,4 @@ probe-rs-cli
 igrepper
 igrepper
 wasixcc
+simple-http-server
