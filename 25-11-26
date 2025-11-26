@@ -2,3 +2,4 @@ cargo-lock
 solana-stake-accounts
 cargo-lambda
 crc-fast
+nkeys
