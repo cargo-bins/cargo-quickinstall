@@ -42,3 +42,4 @@ cargo-pgrx
 tendermint-abci
 zuse
 porsmo
+process_viewer
