@@ -2,3 +2,4 @@ cargo-lock
 solana-stake-accounts
 crc-fast
 nkeys
+z3tracer
