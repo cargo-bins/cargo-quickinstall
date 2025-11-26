@@ -20,3 +20,4 @@ burn-tch
 cargo-vet
 mit-pre-commit
 wol-rs
+coldsnap
