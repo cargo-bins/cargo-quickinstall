@@ -7,3 +7,4 @@ contracts-node
 cargo-lock
 simple-http-server
 cargo-binstall
+cargo-interactive-update
