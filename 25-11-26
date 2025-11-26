@@ -12,3 +12,4 @@ process_viewer
 shunkakinoki
 rrule
 pgrx-tests
+remove_dir_all
