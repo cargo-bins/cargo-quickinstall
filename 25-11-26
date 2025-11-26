@@ -5,3 +5,4 @@ cargo-interactive-update
 sniffnet
 contracts-node
 cargo-lock
+simple-http-server
