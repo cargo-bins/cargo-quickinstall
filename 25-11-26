@@ -6,3 +6,4 @@ sniffnet
 contracts-node
 cargo-lock
 simple-http-server
+cargo-binstall
