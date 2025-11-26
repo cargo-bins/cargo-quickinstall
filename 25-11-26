@@ -3,3 +3,4 @@ vdev
 nextest
 vdev
 nextest
+cargo-lock
