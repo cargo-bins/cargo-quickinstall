@@ -6,3 +6,4 @@ nextest
 cargo-lock
 vdev
 nextest
+vdev
