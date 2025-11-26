@@ -25,3 +25,4 @@ remove_dir_all
 protox
 nkeys
 mit-pre-commit
+coldsnap
