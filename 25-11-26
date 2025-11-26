@@ -21,3 +21,4 @@ nkeys
 wmi
 burn-tch
 cargo-msrv
+coldsnap
