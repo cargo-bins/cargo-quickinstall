@@ -2,3 +2,4 @@ probe-rs-cli
 contracts-node
 sniffnet
 contracts-node
+cargo-lock
