@@ -6,3 +6,4 @@ cargo-lock
 solana-stake-accounts
 sniffnet
 skyspell_kak
+probe-rs-cli
