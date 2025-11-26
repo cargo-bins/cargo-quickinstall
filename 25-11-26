@@ -13,3 +13,4 @@ rrule
 rustorio
 pgrx-tests
 topgrade
+remove_dir_all
