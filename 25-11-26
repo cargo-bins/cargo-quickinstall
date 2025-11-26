@@ -54,3 +54,4 @@ rrule
 termusic
 pgrx-tests
 remove_dir_all
+cargo-binstall
