@@ -23,3 +23,4 @@ cpp_demangle
 human_bytes
 borsh
 opencv-binding-generator
+skim
