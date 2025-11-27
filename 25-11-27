@@ -8,3 +8,4 @@ rls-rustc
 tendermint-rpc
 commit_verify
 re_query
+lance
