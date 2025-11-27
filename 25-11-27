@@ -9,3 +9,4 @@ rls-rustc
 argus-cli
 tendermint-rpc
 commit_verify
+argus-cli
