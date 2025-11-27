@@ -9,3 +9,4 @@ librespot
 cargo-dylint
 termusic
 crc-fast
+clippy
