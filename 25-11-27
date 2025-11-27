@@ -14,3 +14,4 @@ commit_verify
 kani-verifier
 sn_node_rpc_client
 lance
+cargo-local-registry
