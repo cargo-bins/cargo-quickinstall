@@ -3,3 +3,4 @@ rpki
 crc-fast
 clippy
 tendermint-rpc
+commit_verify
