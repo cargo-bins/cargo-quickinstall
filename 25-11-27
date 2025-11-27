@@ -9,3 +9,4 @@ clippy
 tendermint-rpc
 commit_verify
 kani-verifier
+lance
