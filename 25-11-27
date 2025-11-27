@@ -14,3 +14,4 @@ cargo-patch
 build-fs-tree
 cargo-patch
 human_bytes
+borsh
