@@ -19,3 +19,4 @@ cargo-patch
 build-fs-tree
 human_bytes
 borsh
+rav1e
