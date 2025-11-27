@@ -11,3 +11,4 @@ commit_verify
 kani-verifier
 lance
 cargo-local-registry
+syd
