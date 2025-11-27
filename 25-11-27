@@ -3,3 +3,4 @@ tree-sitter-cli
 rpki
 argus-cli
 librespot
+crc-fast
