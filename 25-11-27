@@ -19,3 +19,4 @@ build-fs-tree
 rustdesk
 zellij
 rustdesk
+cpp_demangle
