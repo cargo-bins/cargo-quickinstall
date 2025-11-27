@@ -9,3 +9,4 @@ commit_verify
 lance
 topgrade
 cargo-patch
+tree-sitter-md
