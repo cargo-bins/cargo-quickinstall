@@ -4,3 +4,4 @@ esp-config
 rpki
 crc-fast
 clippy
+rls-rustc
