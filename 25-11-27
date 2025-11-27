@@ -3,3 +3,4 @@ rpki
 librespot
 crc-fast
 clippy
+rls-rustc
