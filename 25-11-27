@@ -31,3 +31,4 @@ s3s-fs
 pg2parquet
 superseedr
 human_bytes
+borsh
