@@ -2,3 +2,4 @@ nexmark
 rpki
 crc-fast
 clippy
+tendermint-rpc
