@@ -5,3 +5,4 @@ argus-cli
 librespot
 crc-fast
 clippy
+rls-rustc
