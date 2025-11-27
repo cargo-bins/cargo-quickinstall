@@ -16,3 +16,4 @@ tree-sitter-md
 sea-orm-cli
 build-fs-tree
 nexmark
+cpp_demangle
