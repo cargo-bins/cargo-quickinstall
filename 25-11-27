@@ -4,3 +4,4 @@ crc-fast
 clippy
 tendermint-rpc
 commit_verify
+spider_cli
