@@ -34,3 +34,4 @@ nkeys
 git-mit-config
 nominal-api
 sha1collisiondetection
+charset-normalizer-rs
