@@ -3,3 +3,4 @@ nexmark
 esp-config
 rpki
 crc-fast
+clippy
