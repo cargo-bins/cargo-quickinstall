@@ -10,3 +10,4 @@ cargo-dylint
 termusic
 crc-fast
 clippy
+rls-rustc
