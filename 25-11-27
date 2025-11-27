@@ -27,3 +27,4 @@ tree-sitter-md
 pg2parquet
 superseedr
 build-fs-tree
+s3s-fs
