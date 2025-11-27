@@ -11,3 +11,4 @@ tendermint-rpc
 onehistory
 onehistory
 commit_verify
+kani-verifier
