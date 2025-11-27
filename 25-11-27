@@ -5,3 +5,4 @@ rpki
 crc-fast
 clippy
 rls-rustc
+tendermint-rpc
