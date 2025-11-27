@@ -19,3 +19,4 @@ syd
 coldsnap
 tree-sitter-md
 build-fs-tree
+cpp_demangle
