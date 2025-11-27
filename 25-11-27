@@ -7,3 +7,4 @@ crc-fast
 clippy
 rls-rustc
 argus-cli
+tendermint-rpc
