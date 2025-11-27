@@ -28,3 +28,4 @@ rav1e
 ec2_instance_metadata
 honggfuzz
 perfcnt
+nkeys
