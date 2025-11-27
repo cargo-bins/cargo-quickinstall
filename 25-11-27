@@ -10,3 +10,4 @@ commit_verify
 re_query
 lance
 topgrade
+cargo-patch
