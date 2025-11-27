@@ -20,3 +20,4 @@ cargo-patch
 perfcnt
 nkeys
 nominal-api
+sha1collisiondetection
