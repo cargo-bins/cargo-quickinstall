@@ -21,3 +21,4 @@ human_bytes
 perfcnt
 nkeys
 nominal-api
+sha1collisiondetection
