@@ -7,3 +7,4 @@ rls-rustc
 tendermint-rpc
 commit_verify
 lance
+topgrade
