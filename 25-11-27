@@ -6,3 +6,4 @@ rls-rustc
 tendermint-rpc
 commit_verify
 spider_cli
+sea-orm-cli
