@@ -10,3 +10,4 @@ argus-cli
 tendermint-rpc
 commit_verify
 argus-cli
+spider_cli
