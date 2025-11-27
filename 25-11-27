@@ -16,3 +16,4 @@ tendermint-rpc
 commit_verify
 argus-cli
 vdev
+spider_cli
