@@ -17,3 +17,4 @@ cargo-patch
 cargo-patch
 cargo-patch
 build-fs-tree
+human_bytes
