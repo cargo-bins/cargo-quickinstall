@@ -3,3 +3,4 @@ rpki
 crc-fast
 spider_cli
 clippy
+rls-rustc
