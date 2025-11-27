@@ -24,3 +24,4 @@ argus-cli
 syd
 s3s-fs
 tree-sitter-md
+pg2parquet
