@@ -25,3 +25,4 @@ borsh
 opencv-binding-generator
 skim
 rav1e
+ec2_instance_metadata
