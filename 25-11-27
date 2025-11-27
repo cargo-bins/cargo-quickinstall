@@ -17,3 +17,4 @@ borsh
 perfcnt
 nominal-api
 sha1collisiondetection
+spider_worker
