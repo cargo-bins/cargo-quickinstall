@@ -8,3 +8,4 @@ tendermint-rpc
 commit_verify
 lance
 topgrade
+cargo-patch
