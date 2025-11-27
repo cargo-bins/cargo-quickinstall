@@ -8,3 +8,4 @@ onehistory
 clippy
 tendermint-rpc
 commit_verify
+kani-verifier
