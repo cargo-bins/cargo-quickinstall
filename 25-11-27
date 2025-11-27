@@ -2,3 +2,4 @@ esp-config
 nexmark
 esp-config
 rpki
+crc-fast
