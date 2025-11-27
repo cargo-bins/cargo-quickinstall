@@ -16,3 +16,4 @@ sn_node_rpc_client
 lance
 cargo-local-registry
 syd
+coldsnap
