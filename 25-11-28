@@ -2,3 +2,4 @@ remove_dir_all
 charset-normalizer-rs
 sqlx-cli
 dua-cli
+sqlx-cli
