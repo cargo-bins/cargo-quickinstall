@@ -28,3 +28,4 @@ rust-docs-mcp
 hurl
 bluetui
 cached-path
+nu_plugin_query
