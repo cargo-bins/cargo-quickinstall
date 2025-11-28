@@ -7,3 +7,4 @@ tree-sitter-cli
 pgtemp
 cargo-dylint
 nextest
+wiremix
