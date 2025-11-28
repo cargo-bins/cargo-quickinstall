@@ -8,3 +8,4 @@ pgtemp
 cargo-dylint
 nextest
 wiremix
+safe_network
