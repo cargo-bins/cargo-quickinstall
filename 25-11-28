@@ -9,3 +9,4 @@ cargo-dylint
 nextest
 wiremix
 safe_network
+cargo-dylint
