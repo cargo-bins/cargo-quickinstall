@@ -10,3 +10,4 @@ nextest
 wiremix
 safe_network
 cargo-dylint
+rust-docs-mcp
