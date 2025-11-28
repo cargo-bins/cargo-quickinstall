@@ -5,3 +5,4 @@ wiremix
 tree-sitter-cli
 tree-sitter-cli
 pgtemp
+cargo-dylint
