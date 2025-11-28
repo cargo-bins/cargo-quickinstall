@@ -45,3 +45,4 @@ cargo-mobile2
 mvgfahrinfo
 rust-docs-mcp
 schemafy
+sea-orm-cli
