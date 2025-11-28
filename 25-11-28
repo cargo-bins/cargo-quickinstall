@@ -19,3 +19,4 @@ tree-sitter-cli
 wiremix
 bluetui
 rust-docs-mcp
+nextest
