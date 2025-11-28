@@ -19,3 +19,4 @@ charset-normalizer-rs
 dua-cli
 ducc-sys
 cached-path
+minicbor
