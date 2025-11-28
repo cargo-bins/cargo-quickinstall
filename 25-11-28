@@ -53,3 +53,4 @@ ironbar
 rsgen-avro
 nextest
 spider_cli
+graphql_client_cli
