@@ -12,3 +12,4 @@ safe_network
 cargo-dylint
 rust-docs-mcp
 rust-docs-mcp
+unic-langid-impl
