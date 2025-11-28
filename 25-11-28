@@ -2,3 +2,4 @@ remove_dir_all
 statime-linux
 unic-langid-impl
 crc-fast
+ducc-sys
