@@ -46,3 +46,4 @@ mvgfahrinfo
 rust-docs-mcp
 schemafy
 sea-orm-cli
+cargo-index
