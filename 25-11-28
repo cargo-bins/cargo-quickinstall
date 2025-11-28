@@ -13,3 +13,4 @@ openpty
 mit-prepare-commit-msg
 schemafy
 rsgen-avro
+rtx-cli
