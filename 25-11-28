@@ -9,3 +9,4 @@ minicbor
 apollo-router
 sn_cli
 safe_network
+openpty
