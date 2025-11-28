@@ -2,3 +2,4 @@ remove_dir_all
 safe_network
 unic-langid-impl
 ducc-sys
+cached-path
