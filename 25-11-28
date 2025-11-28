@@ -2,3 +2,4 @@ remove_dir_all
 safe_network
 statime-linux
 unic-langid-impl
+crc-fast
