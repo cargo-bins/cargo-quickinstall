@@ -2,3 +2,4 @@ remove_dir_all
 wiremix
 bluetui
 wiremix
+tree-sitter-cli
