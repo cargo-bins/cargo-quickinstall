@@ -27,3 +27,4 @@ nextest
 rust-docs-mcp
 hurl
 bluetui
+cached-path
