@@ -13,3 +13,4 @@ cargo-dylint
 rust-docs-mcp
 rust-docs-mcp
 unic-langid-impl
+dioxus-cli
