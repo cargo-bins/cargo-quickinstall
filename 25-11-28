@@ -50,3 +50,4 @@ cargo-index
 bluetui
 sea-orm-cli
 ironbar
+rsgen-avro
