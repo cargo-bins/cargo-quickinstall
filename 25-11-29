@@ -21,3 +21,4 @@ re_query
 crc-fast
 tree-sitter-md
 gnostr-grep
+blink-timer
