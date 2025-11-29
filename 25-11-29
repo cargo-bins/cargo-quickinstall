@@ -12,3 +12,4 @@ z3tracer
 libbpf-cargo
 pgrx-tests
 re_query
+tree-sitter-md
