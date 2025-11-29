@@ -22,3 +22,4 @@ crc-fast
 systemd-hardening-helper
 gnostr-grep
 crc-fast
+arp-scan
