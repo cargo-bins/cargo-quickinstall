@@ -2,3 +2,4 @@ deploy
 opencv-binding-generator
 nexmark
 kanidm_tools
+dotenvy
