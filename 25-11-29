@@ -2,3 +2,4 @@ deploy
 nexmark
 crc-fast
 dotenvy
+perfcnt
