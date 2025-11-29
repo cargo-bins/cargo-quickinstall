@@ -18,3 +18,4 @@ tree-sitter-md
 libcst
 a11ywatch_cli
 lance
+rtx-cli
