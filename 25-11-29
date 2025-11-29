@@ -13,3 +13,4 @@ rsgen-avro
 oso
 rpki
 z3tracer
+libbpf-cargo
