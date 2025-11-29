@@ -10,3 +10,4 @@ oso
 dicom-pixeldata
 rpki
 z3tracer
+libbpf-cargo
