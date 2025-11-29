@@ -2,3 +2,4 @@ deploy
 opencv-binding-generator
 nexmark
 dotenvy
+perfcnt
