@@ -3,3 +3,4 @@ deploy
 paru
 nexmark
 dotenvy
+cargo-dylint
