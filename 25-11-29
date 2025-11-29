@@ -11,3 +11,4 @@ libbpf-cargo
 jolteon
 sp1-prover
 arp-scan
+pgrx-tests
