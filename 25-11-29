@@ -18,3 +18,4 @@ ec2_instance_metadata
 rpki
 z3tracer
 libbpf-cargo
+mit-commit-msg
