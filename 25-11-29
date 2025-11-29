@@ -10,3 +10,4 @@ rsgen-avro
 oso
 dicom-pixeldata
 rpki
+libbpf-cargo
