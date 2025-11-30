@@ -13,3 +13,4 @@ git-mit-install
 stellar-xdr
 papyrus_storage
 sn_node
+winpty-rs
