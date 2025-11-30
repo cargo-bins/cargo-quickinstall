@@ -2,3 +2,4 @@ spotify-tui
 wiki-tui
 cargo-dylint
 statsig-rs
+nu_plugin_query
