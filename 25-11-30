@@ -9,3 +9,4 @@ sass-rs
 cargo-pgrx
 nextest-filtering
 solana-stake-accounts
+wmi
