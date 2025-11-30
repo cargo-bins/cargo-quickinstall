@@ -35,3 +35,4 @@ alacritty
 opencv-binding-generator
 crypto-cli-tools
 cargo-patch
+graphql_client_cli
