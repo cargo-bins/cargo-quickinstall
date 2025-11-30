@@ -26,3 +26,4 @@ nu_plugin_gstat
 winpty-rs
 cargo-dylint
 opencv-binding-generator
+opencv-binding-generator
