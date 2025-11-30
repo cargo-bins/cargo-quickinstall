@@ -35,3 +35,4 @@ cargo-patch
 spotify_player
 opencv-binding-generator
 nu_plugin_query
+crypto-cli-tools
