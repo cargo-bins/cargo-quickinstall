@@ -24,3 +24,4 @@ solana-genesis
 opencv-binding-generator
 opencv-binding-generator
 crypto-cli-tools
+graphql_client_cli
