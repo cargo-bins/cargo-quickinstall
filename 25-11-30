@@ -33,3 +33,4 @@ nu_plugin_query
 nu_plugin_query
 cargo-patch
 spotify_player
+opencv-binding-generator
