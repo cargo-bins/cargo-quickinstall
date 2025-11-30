@@ -37,3 +37,4 @@ crypto-cli-tools
 cargo-patch
 graphql_client_cli
 cargo-patch
+rg
