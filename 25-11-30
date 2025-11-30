@@ -11,3 +11,4 @@ oso
 sass-rs
 spotify-tui
 cargo-pgrx
+nextest-filtering
