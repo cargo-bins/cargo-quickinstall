@@ -28,3 +28,4 @@ cargo-dylint
 opencv-binding-generator
 opencv-binding-generator
 tree-sitter-graph
+sass-rs
