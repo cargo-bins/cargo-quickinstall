@@ -2,3 +2,4 @@ openpty
 bpf-linker
 ext-sort
 commit_verify
+rmesg
