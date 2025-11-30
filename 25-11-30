@@ -24,3 +24,4 @@ nu_plugin_gstat
 stellar-xdr
 nu_plugin_gstat
 winpty-rs
+cargo-dylint
