@@ -26,3 +26,4 @@ opencv-binding-generator
 crypto-cli-tools
 graphql_client_cli
 tree-sitter-graph
+sass-rs
