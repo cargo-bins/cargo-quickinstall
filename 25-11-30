@@ -6,3 +6,4 @@ nu_plugin_query
 wash-cli
 spotify-tui
 ext-sort
+nu_plugin_gstat
