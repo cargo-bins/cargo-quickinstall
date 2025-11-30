@@ -19,3 +19,4 @@ winpty-rs
 cargo-dylint
 opencv-binding-generator
 opencv-binding-generator
+crypto-cli-tools
