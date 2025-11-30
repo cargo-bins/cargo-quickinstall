@@ -38,3 +38,4 @@ cargo-patch
 graphql_client_cli
 cargo-patch
 rg
+tree-sitter-graph
