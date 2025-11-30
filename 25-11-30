@@ -19,3 +19,4 @@ papyrus_storage
 winpty-rs
 cargo-dylint
 magika-cli
+solana-genesis
