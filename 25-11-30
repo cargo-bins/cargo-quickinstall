@@ -19,3 +19,4 @@ nextest-filtering
 wmi
 human_name
 nu_plugin_gstat
+cargo-dylint
