@@ -10,3 +10,4 @@ cargo-pgrx
 nextest-filtering
 solana-stake-accounts
 wmi
+human_name
