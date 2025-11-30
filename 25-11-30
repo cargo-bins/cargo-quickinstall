@@ -34,3 +34,4 @@ opencv-binding-generator
 alacritty
 opencv-binding-generator
 crypto-cli-tools
+cargo-patch
