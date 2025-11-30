@@ -21,3 +21,4 @@ cargo-dylint
 magika-cli
 solana-genesis
 magika-cli
+opencv-binding-generator
