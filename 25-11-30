@@ -6,3 +6,4 @@ ext-sort
 commit_verify
 mise
 xargo
+cargo-dylint
