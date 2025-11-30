@@ -3,3 +3,4 @@ wiki-tui
 cargo-dylint
 statsig-rs
 nu_plugin_query
+wash-cli
