@@ -19,3 +19,4 @@ cargo-dylint
 opencv-binding-generator
 crypto-cli-tools
 tree-sitter-graph
+quick-junit
