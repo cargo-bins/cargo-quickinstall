@@ -9,3 +9,4 @@ ext-sort
 nu_plugin_gstat
 commit_verify
 spotify_player
+cargo-dylint
