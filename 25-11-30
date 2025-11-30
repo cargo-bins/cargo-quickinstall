@@ -18,3 +18,4 @@ stellar-xdr
 raw-cpuid
 papyrus_storage
 magika-cli
+winpty-rs
