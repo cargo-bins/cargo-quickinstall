@@ -29,3 +29,4 @@ papyrus_storage
 nu_plugin_gstat
 winpty-rs
 solana-genesis
+nu_plugin_query
