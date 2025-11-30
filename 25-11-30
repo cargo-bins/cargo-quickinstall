@@ -23,3 +23,4 @@ cargo-dylint
 solana-genesis
 opencv-binding-generator
 opencv-binding-generator
+crypto-cli-tools
