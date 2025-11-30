@@ -19,3 +19,4 @@ raw-cpuid
 papyrus_storage
 magika-cli
 winpty-rs
+cargo-dylint
