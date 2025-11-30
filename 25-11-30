@@ -21,3 +21,4 @@ stellar-xdr
 raw-cpuid
 papyrus_storage
 winpty-rs
+crypto-cli-tools
