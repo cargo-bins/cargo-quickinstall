@@ -14,3 +14,4 @@ cargo-pgrx
 nextest-filtering
 nu_plugin_gstat
 cargo-dylint
+solana-stake-accounts
