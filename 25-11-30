@@ -12,3 +12,4 @@ sass-rs
 spotify-tui
 cargo-pgrx
 nextest-filtering
+nu_plugin_gstat
