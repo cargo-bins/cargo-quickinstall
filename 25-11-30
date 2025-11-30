@@ -9,3 +9,4 @@ sass-rs
 cargo-pgrx
 nextest-filtering
 magika-cli
+wmi
