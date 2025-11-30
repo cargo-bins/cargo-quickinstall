@@ -17,3 +17,4 @@ papyrus_storage
 winpty-rs
 cargo-dylint
 opencv-binding-generator
+crypto-cli-tools
