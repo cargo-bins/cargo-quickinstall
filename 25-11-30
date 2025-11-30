@@ -6,3 +6,4 @@ ext-sort
 blink-timer
 commit_verify
 cymbal
+crc-fast
