@@ -44,3 +44,4 @@ dioxus-cli
 ruff
 dioxus-cli
 rav1e
+pwasm-utils
