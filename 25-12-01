@@ -39,3 +39,4 @@ solana-genesis
 ruff
 datatui
 java-locator
+rust-bert
