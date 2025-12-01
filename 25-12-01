@@ -5,3 +5,4 @@ rg
 libbpf-cargo
 rg
 ruff
+cargo-patch
