@@ -8,3 +8,4 @@ ruff
 cargo-patch
 xplr
 safe_network
+qsv
