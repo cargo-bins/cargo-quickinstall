@@ -17,3 +17,4 @@ solana-tokens
 rustfmt-nightly
 arrow-flight
 minicbor
+solana-genesis
