@@ -2,3 +2,4 @@ libbpf-cargo
 paperclip
 safe_network
 qsv
+tree_magic
