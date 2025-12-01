@@ -3,3 +3,4 @@ libbpf-cargo
 sn_node
 safe_network
 paperclip
+qsv
