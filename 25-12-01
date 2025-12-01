@@ -7,3 +7,4 @@ qsv
 tree_magic
 tokio-process
 solana-validator
+mit-pre-commit
