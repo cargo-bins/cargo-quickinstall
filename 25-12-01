@@ -14,3 +14,4 @@ benfred-read-process-memory
 dprint
 text-diff
 rustfmt-nightly
+sn_cli
