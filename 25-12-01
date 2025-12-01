@@ -4,3 +4,4 @@ raw-cpuid
 esp-config
 libbpf-cargo
 paperclip
+safe_network
