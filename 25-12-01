@@ -18,3 +18,4 @@ rustfmt-nightly
 arrow-flight
 minicbor
 solana-genesis
+jless
