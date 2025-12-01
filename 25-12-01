@@ -10,3 +10,4 @@ rpki
 esp-config
 rustfmt-nightly
 arrow-flight
+minicbor
