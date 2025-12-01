@@ -13,3 +13,4 @@ rpki
 benfred-read-process-memory
 dprint
 text-diff
+rustfmt-nightly
