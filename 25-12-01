@@ -23,3 +23,4 @@ channels-console
 bpf-linker
 warcat
 openpty
+cargo-leptos
