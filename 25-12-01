@@ -12,3 +12,4 @@ rustfmt-nightly
 arrow-flight
 minicbor
 solana-genesis
+java-locator
