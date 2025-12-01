@@ -15,3 +15,4 @@ esp-config
 spider_worker
 rustfmt-nightly
 arrow-flight
+solana-genesis
