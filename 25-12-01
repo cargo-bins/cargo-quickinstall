@@ -16,3 +16,4 @@ solana-genesis
 java-locator
 rust-bert
 dioxus-cli
+unic-langid-impl
