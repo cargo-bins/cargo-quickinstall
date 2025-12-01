@@ -11,3 +11,4 @@ esp-config
 rustfmt-nightly
 arrow-flight
 minicbor
+solana-genesis
