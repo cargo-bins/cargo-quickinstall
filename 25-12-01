@@ -12,3 +12,4 @@ cargo-list
 cargo-list
 arrow-flight
 rpki
+spider_worker
