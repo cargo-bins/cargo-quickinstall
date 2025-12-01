@@ -13,3 +13,4 @@ cargo-list
 rpki
 esp-config
 spider_worker
+rustfmt-nightly
