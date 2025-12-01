@@ -8,3 +8,4 @@ rrule
 arrow-flight
 rpki
 esp-config
+rustfmt-nightly
