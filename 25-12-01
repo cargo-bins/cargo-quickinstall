@@ -42,3 +42,4 @@ java-locator
 rust-bert
 a11ywatch_cli
 dioxus-cli
+unic-langid-impl
