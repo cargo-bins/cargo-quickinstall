@@ -2,3 +2,4 @@ raw-cpuid
 libbpf-cargo
 qsv
 cargo-list
+tree_magic
