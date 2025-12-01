@@ -33,3 +33,4 @@ rioterm
 rg
 rustfmt-nightly
 arrow-flight
+datatui
