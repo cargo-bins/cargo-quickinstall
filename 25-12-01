@@ -16,3 +16,4 @@ text-diff
 rustfmt-nightly
 sn_cli
 arrow-flight
+cargo-risczero
