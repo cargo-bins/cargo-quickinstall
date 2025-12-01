@@ -34,3 +34,4 @@ spider_worker
 rioterm
 rustfmt-nightly
 rioterm
+arrow-flight
