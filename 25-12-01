@@ -9,3 +9,4 @@ rustfmt-nightly
 arrow-flight
 solana-genesis
 java-locator
+openpty
