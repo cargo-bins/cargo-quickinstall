@@ -7,3 +7,4 @@ rg
 ruff
 cargo-patch
 xplr
+safe_network
