@@ -34,3 +34,4 @@ rg
 rustfmt-nightly
 arrow-flight
 datatui
+minicbor
