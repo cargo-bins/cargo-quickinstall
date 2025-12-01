@@ -17,3 +17,4 @@ rust-bert
 dioxus-cli
 openpty
 rav1e
+unic-langid-impl
