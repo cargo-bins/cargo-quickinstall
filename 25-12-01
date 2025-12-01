@@ -13,3 +13,4 @@ spider_worker
 rustfmt-nightly
 arrow-flight
 cargo-risczero
+minicbor
