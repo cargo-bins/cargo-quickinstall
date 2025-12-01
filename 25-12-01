@@ -14,3 +14,4 @@ arrow-flight
 rpki
 spider_worker
 solana-tokens
+rustfmt-nightly
