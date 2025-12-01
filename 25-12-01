@@ -4,3 +4,4 @@ libbpf-cargo
 cargo-patch
 rg
 ruff
+alacritty
