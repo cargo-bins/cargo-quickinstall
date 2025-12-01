@@ -14,3 +14,4 @@ rustfmt-nightly
 arrow-flight
 cargo-risczero
 minicbor
+solana-genesis
