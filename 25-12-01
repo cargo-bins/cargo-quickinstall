@@ -14,3 +14,4 @@ rpki
 esp-config
 spider_worker
 rustfmt-nightly
+arrow-flight
