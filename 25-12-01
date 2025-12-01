@@ -41,3 +41,4 @@ datatui
 java-locator
 rust-bert
 dioxus-cli
+ruff
