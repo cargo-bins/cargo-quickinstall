@@ -5,3 +5,4 @@ safe_network
 paperclip
 qsv
 tree_magic
+tokio-process
