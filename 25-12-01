@@ -9,3 +9,4 @@ esp-config
 dprint
 spider_worker
 rustfmt-nightly
+arrow-flight
