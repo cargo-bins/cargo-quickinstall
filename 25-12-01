@@ -22,3 +22,4 @@ java-locator
 channels-console
 bpf-linker
 warcat
+openpty
