@@ -36,3 +36,4 @@ rustfmt-nightly
 rioterm
 arrow-flight
 rioterm
+minicbor
