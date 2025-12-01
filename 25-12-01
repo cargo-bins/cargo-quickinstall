@@ -3,3 +3,4 @@ cargo-patch
 ruff
 rg
 libbpf-cargo
+rg
