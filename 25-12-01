@@ -9,3 +9,4 @@ tuftool
 rpki
 esp-config
 dprint
+spider_worker
