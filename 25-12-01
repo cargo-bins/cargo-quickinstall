@@ -11,3 +11,4 @@ solana-validator
 mit-pre-commit
 arrow-flight
 rpki
+rustfmt-nightly
