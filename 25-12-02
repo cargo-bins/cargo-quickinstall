@@ -27,3 +27,4 @@ nextest-filtering
 solana-tokens
 tree_magic
 dicom-pixeldata
+rls-rustc
