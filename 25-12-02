@@ -16,3 +16,4 @@ channels-console
 solana-genesis
 oso
 codeberg-cli
+dbus-codegen
