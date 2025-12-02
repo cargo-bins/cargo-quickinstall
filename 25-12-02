@@ -20,3 +20,4 @@ wmi
 imagecropper
 wmi
 textplots
+rustfmt-nightly
