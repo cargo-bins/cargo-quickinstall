@@ -35,3 +35,4 @@ kickstart
 gpgme
 rls-rustc
 cargo-lock
+git-branchless
