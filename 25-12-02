@@ -35,3 +35,4 @@ parquet
 arrow-flight
 human_name
 fontspector
+nextest-filtering
