@@ -33,3 +33,4 @@ tree_magic
 dicom-pixeldata
 kickstart
 gpgme
+rls-rustc
