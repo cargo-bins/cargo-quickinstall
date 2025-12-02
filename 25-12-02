@@ -11,3 +11,4 @@ oso
 dbus-codegen
 controller
 tendermint-abci
+unic-langid-impl
