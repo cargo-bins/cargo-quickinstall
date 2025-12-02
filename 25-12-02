@@ -15,3 +15,4 @@ rioterm
 dbus-codegen
 tendermint-abci
 controller
+unic-langid-impl
