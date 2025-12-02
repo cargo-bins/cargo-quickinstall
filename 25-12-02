@@ -5,3 +5,4 @@ vdev
 cpp_demangle
 sha1collisiondetection
 tree-sitter-cli
+commit_verify
