@@ -3,3 +3,4 @@ holochain
 apollo-router
 dioxus-cli
 sha1collisiondetection
+tree-sitter-cli
