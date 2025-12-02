@@ -13,3 +13,4 @@ wmi
 wmi
 textplots
 kickstart
+rustfmt-nightly
