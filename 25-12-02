@@ -15,3 +15,4 @@ unic-langid-impl
 wmi
 wmi
 textplots
+rustfmt-nightly
