@@ -16,3 +16,4 @@ kickstart
 rustfmt-nightly
 pgrx-tests
 kickstart
+solana-validator
