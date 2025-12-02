@@ -13,3 +13,4 @@ controller
 tendermint-abci
 unic-langid-impl
 textplots
+rustfmt-nightly
