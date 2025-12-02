@@ -34,3 +34,4 @@ dicom-pixeldata
 kickstart
 gpgme
 rls-rustc
+cargo-lock
