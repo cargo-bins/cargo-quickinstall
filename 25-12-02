@@ -9,3 +9,4 @@ cargo-lock
 solana-genesis
 oso
 dbus-codegen
+tendermint-abci
