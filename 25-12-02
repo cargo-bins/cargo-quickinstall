@@ -8,3 +8,4 @@ tree-sitter-cli
 commit_verify
 sp1-prover
 cargo-lock
+solana-genesis
