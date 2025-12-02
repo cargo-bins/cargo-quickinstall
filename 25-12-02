@@ -10,3 +10,4 @@ solana-genesis
 oso
 dbus-codegen
 controller
+tendermint-abci
