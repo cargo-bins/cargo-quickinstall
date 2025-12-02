@@ -31,3 +31,4 @@ nextest-filtering
 tree_magic
 dicom-pixeldata
 gpgme
+rls-rustc
