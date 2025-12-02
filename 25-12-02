@@ -16,3 +16,4 @@ wmi
 textplots
 rustfmt-nightly
 solana-stake-accounts
+crypto-cli-tools
