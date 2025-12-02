@@ -17,3 +17,4 @@ textplots
 rustfmt-nightly
 solana-stake-accounts
 crypto-cli-tools
+arrow-flight
