@@ -21,3 +21,4 @@ imagecropper
 wmi
 textplots
 rustfmt-nightly
+parquet
