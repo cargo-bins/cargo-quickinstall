@@ -12,3 +12,4 @@ solana-genesis
 oso
 qsv
 dbus-codegen
+tendermint-abci
