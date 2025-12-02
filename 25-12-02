@@ -15,3 +15,4 @@ cargo-lock
 channels-console
 solana-genesis
 oso
+codeberg-cli
