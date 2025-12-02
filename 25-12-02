@@ -17,3 +17,4 @@ rustfmt-nightly
 pgrx-tests
 kickstart
 solana-validator
+openpty
