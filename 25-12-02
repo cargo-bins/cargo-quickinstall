@@ -14,3 +14,4 @@ wmi
 textplots
 kickstart
 rustfmt-nightly
+pgrx-tests
