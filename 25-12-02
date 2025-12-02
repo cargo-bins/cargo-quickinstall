@@ -21,3 +21,4 @@ wmi
 rioterm
 wmi
 textplots
+rustfmt-nightly
