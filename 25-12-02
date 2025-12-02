@@ -6,3 +6,4 @@ sp1-prover
 cargo-lock
 solana-genesis
 oso
+dbus-codegen
