@@ -22,3 +22,4 @@ rustfmt-nightly
 solana-stake-accounts
 crypto-cli-tools
 arrow-flight
+human_name
