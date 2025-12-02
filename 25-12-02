@@ -6,3 +6,4 @@ cpp_demangle
 sha1collisiondetection
 tree-sitter-cli
 commit_verify
+sp1-prover
