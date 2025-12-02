@@ -21,3 +21,4 @@ textplots
 rustfmt-nightly
 solana-validator
 openpty
+rustbus
