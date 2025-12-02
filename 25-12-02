@@ -4,3 +4,4 @@ apollo-router
 vdev
 cpp_demangle
 sha1collisiondetection
+tree-sitter-cli
