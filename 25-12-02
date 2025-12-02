@@ -4,3 +4,4 @@ cpp_demangle
 sha1collisiondetection
 tree-sitter-cli
 sp1-prover
+cargo-lock
