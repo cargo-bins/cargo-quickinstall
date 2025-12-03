@@ -23,3 +23,4 @@ crc-fast
 graphql_client_cli
 rsgen-avro
 stellar-xdr
+nexmark
