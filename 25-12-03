@@ -7,3 +7,4 @@ java-locator
 rls-rustc
 rust-bert
 cargo-msrv
+sha1collisiondetection
