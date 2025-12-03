@@ -5,3 +5,4 @@ solana-cli
 sass-rs
 uniffi
 java-locator
+rls-rustc
