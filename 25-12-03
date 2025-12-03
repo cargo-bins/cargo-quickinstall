@@ -46,3 +46,4 @@ dx-cli
 crc-fast
 rav1e
 cargo-leptos
+graphql_client_cli
