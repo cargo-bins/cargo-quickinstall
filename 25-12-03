@@ -7,3 +7,4 @@ sha1collisiondetection
 statime-linux
 diesel_cli
 crc-fast
+rsgen-avro
