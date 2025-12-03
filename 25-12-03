@@ -44,3 +44,4 @@ torbridge-cli
 crc-fast
 rav1e
 probe-rs-debugger
+graphql_client_cli
