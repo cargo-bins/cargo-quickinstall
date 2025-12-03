@@ -43,3 +43,4 @@ cargo-leptos
 torbridge-cli
 crc-fast
 rav1e
+probe-rs-debugger
