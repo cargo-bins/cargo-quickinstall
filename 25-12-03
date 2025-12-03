@@ -6,3 +6,4 @@ schemafy
 dprint
 uniffi
 java-locator
+rls-rustc
