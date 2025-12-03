@@ -9,3 +9,4 @@ vdev
 uniffi
 java-locator
 rls-rustc
+rust-bert
