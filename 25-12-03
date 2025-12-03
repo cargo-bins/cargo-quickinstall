@@ -8,3 +8,4 @@ uniffi
 java-locator
 rls-rustc
 remove_dir_all
+rust-bert
