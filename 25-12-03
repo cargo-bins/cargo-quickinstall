@@ -33,3 +33,4 @@ dx-cli
 remove_dir_all
 cargo-leptos
 cargo-leptos
+rust-bert
