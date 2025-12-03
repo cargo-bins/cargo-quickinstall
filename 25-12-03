@@ -9,3 +9,4 @@ cargo-pgrx
 uniffi
 java-locator
 remove_dir_all
+rustup-toolchain-install-master
