@@ -14,3 +14,4 @@ statime-linux
 rmesg
 diesel_cli
 crc-fast
+build-fs-tree
