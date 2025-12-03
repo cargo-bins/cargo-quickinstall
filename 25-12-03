@@ -39,3 +39,4 @@ probe-rs-debugger
 diesel_cli
 probe-rs-debugger
 torbridge-cli
+cargo-leptos
