@@ -9,3 +9,4 @@ diesel_cli
 crc-fast
 rsgen-avro
 stellar-xdr
+nexmark
