@@ -12,3 +12,4 @@ rust-bert
 sha1collisiondetection
 statime-linux
 rmesg
+diesel_cli
