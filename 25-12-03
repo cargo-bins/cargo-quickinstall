@@ -16,3 +16,4 @@ diesel_cli
 crc-fast
 build-fs-tree
 mit-commit-msg
+rsgen-avro
