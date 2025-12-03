@@ -6,3 +6,4 @@ sass-rs
 uniffi
 java-locator
 rls-rustc
+rust-bert
