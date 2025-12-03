@@ -35,3 +35,4 @@ cargo-leptos
 cargo-leptos
 rust-bert
 sha1collisiondetection
+probe-rs-debugger
