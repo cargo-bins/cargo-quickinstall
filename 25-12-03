@@ -10,3 +10,4 @@ cargo-msrv
 sha1collisiondetection
 diesel_cli
 dotslash
+crc-fast
