@@ -3,3 +3,4 @@ solana-cli
 uniffi
 java-locator
 remove_dir_all
+sha1collisiondetection
