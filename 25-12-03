@@ -11,3 +11,4 @@ sha1collisiondetection
 diesel_cli
 dotslash
 crc-fast
+graphql_client_cli
