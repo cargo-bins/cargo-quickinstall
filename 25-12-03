@@ -4,3 +4,4 @@ sass-rs
 dprint
 uniffi
 java-locator
+remove_dir_all
