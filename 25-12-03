@@ -14,3 +14,4 @@ rust-bert
 rustup-toolchain-install-master
 parquet
 rustup-toolchain-install-master
+sha1collisiondetection
