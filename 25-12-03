@@ -6,3 +6,4 @@ uniffi
 java-locator
 rls-rustc
 rust-bert
+cargo-msrv
