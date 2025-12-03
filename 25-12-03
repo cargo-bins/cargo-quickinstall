@@ -5,3 +5,4 @@ dprint
 uniffi
 java-locator
 remove_dir_all
+rust-bert
