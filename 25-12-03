@@ -38,3 +38,4 @@ probe-rs-debugger
 rust-bert
 cargo-leptos
 sha1collisiondetection
+dx-cli
