@@ -57,3 +57,4 @@ laminar
 cargo-spellcheck
 nextest
 nominal-api
+dicom-pixeldata
