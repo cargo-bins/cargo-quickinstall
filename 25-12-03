@@ -12,3 +12,4 @@ diesel_cli
 dotslash
 crc-fast
 graphql_client_cli
+rsgen-avro
