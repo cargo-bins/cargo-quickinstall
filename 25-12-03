@@ -21,3 +21,4 @@ rustup-toolchain-install-master
 rustup-toolchain-install-master
 crc-fast
 graphql_client_cli
+rsgen-avro
