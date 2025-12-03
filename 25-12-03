@@ -39,3 +39,4 @@ rust-bert
 cargo-leptos
 sha1collisiondetection
 dx-cli
+diesel_cli
