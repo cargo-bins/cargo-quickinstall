@@ -6,3 +6,4 @@ remove_dir_all
 sha1collisiondetection
 statime-linux
 diesel_cli
+crc-fast
