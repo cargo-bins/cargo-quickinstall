@@ -22,3 +22,4 @@ cargo-leptos
 vdev
 parquet
 parquet
+dx-cli
