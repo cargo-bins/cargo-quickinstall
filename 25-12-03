@@ -41,3 +41,4 @@ probe-rs-debugger
 torbridge-cli
 cargo-leptos
 torbridge-cli
+crc-fast
