@@ -31,3 +31,4 @@ java-locator
 dx-cli
 dx-cli
 remove_dir_all
+cargo-leptos
