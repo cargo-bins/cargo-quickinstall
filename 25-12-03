@@ -11,3 +11,4 @@ java-locator
 remove_dir_all
 sha1collisiondetection
 statime-linux
+rmesg
