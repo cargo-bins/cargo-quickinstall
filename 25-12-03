@@ -12,3 +12,4 @@ remove_dir_all
 sha1collisiondetection
 statime-linux
 rmesg
+diesel_cli
