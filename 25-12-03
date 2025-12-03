@@ -28,3 +28,4 @@ cargo-leptos
 papyrus_storage
 probe-rs-debugger
 java-locator
+dx-cli
