@@ -48,3 +48,4 @@ graphql_client_cli
 torbridge-cli
 torbridge-cli
 rsgen-avro
+stellar-xdr
