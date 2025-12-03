@@ -56,3 +56,4 @@ rustrict
 laminar
 cargo-spellcheck
 nextest
+nominal-api
