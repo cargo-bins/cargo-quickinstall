@@ -5,3 +5,4 @@ solana-faucet
 rtx-cli
 website_crawler
 process_viewer
+dotenv-flow
