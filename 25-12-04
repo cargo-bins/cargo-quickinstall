@@ -5,3 +5,4 @@ dioxus-cli
 solana-tokens
 rtx-cli
 solana-faucet
+cargo-bisect-rustc
