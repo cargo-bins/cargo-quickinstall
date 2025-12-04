@@ -7,3 +7,4 @@ rtx-cli
 solana-faucet
 cargo-bisect-rustc
 cargo-bisect-rustc
+website_crawler
