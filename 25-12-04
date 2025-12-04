@@ -17,3 +17,4 @@ mit-pre-commit
 dotenv-flow
 bpf-linker
 kani-verifier
+rusty-man
