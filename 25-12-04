@@ -17,3 +17,4 @@ cargo-bisect-rustc
 cargo-bisect-rustc
 cargo-bisect-rustc
 solana-cli
+gpgme
