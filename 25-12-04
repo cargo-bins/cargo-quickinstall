@@ -6,3 +6,4 @@ solana-tokens
 rtx-cli
 solana-faucet
 cargo-bisect-rustc
+cargo-bisect-rustc
