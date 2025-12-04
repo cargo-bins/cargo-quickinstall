@@ -8,3 +8,4 @@ capsula-cli
 typst-cli
 capsula-cli
 oci2git
+cargo-spellcheck
