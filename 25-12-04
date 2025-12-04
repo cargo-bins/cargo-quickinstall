@@ -11,3 +11,4 @@ process_viewer
 dotenv-flow
 deploy
 solana-cli
+gpgme
