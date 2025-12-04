@@ -24,3 +24,4 @@ vdev
 vdev
 cargo-spellcheck
 cargo-seek
+typst-cli
