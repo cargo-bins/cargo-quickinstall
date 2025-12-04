@@ -18,3 +18,4 @@ process_viewer
 dotenv-flow
 bpf-linker
 deploy
+kani-verifier
