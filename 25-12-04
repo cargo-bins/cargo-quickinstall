@@ -20,3 +20,4 @@ bpf-linker
 deploy
 kani-verifier
 text-diff
+benfred-read-process-memory
