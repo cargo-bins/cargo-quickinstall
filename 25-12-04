@@ -27,3 +27,4 @@ cargo-seek
 typst-cli
 cargo-spellcheck
 solana-faucet
+oci2git
