@@ -28,3 +28,4 @@ typst-cli
 cargo-spellcheck
 solana-faucet
 oci2git
+capsula-cli
