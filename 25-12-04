@@ -65,3 +65,4 @@ clipboard-sync
 pgrx-tests
 lightview
 rust-bert
+rustup-toolchain-install-master
