@@ -33,3 +33,4 @@ typst-cli
 cargo-seek
 process_viewer
 cargo-seek
+dotenv-flow
