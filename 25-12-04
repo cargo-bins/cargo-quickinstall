@@ -36,3 +36,4 @@ cargo-seek
 dotenv-flow
 deploy
 ncspot
+solana-cli
