@@ -10,3 +10,4 @@ cargo-bisect-rustc
 website_crawler
 dioxus-cli
 process_viewer
+cargo-bisect-rustc
