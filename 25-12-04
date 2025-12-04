@@ -3,3 +3,4 @@ project_init
 libcst
 dioxus-cli
 solana-tokens
+rtx-cli
