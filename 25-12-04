@@ -2,3 +2,4 @@ cargo-seek
 cargo-dylint
 project_init
 calcit
+spider_cli
