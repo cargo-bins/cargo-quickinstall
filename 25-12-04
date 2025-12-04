@@ -14,3 +14,4 @@ solana-cli
 gpgme
 shunkakinoki
 solana-genesis
+cargo-lock
