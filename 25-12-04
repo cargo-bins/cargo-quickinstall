@@ -64,3 +64,4 @@ clippy
 clipboard-sync
 pgrx-tests
 lightview
+rust-bert
