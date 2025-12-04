@@ -10,3 +10,4 @@ website_crawler
 process_viewer
 dotenv-flow
 deploy
+solana-cli
