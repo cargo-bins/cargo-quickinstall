@@ -21,3 +21,4 @@ deploy
 kani-verifier
 text-diff
 benfred-read-process-memory
+gpgme
