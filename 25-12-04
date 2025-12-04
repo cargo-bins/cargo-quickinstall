@@ -11,3 +11,4 @@ website_crawler
 dioxus-cli
 process_viewer
 cargo-bisect-rustc
+dioxus-cli
