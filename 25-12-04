@@ -11,3 +11,4 @@ tokio-process
 onehistory
 httpbis
 perfcnt
+rtx-cli
