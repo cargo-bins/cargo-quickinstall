@@ -10,3 +10,4 @@ capsula-cli
 oci2git
 cargo-spellcheck
 ncspot
+tree-sitter-cli
