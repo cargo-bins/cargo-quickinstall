@@ -13,3 +13,4 @@ process_viewer
 cargo-bisect-rustc
 dioxus-cli
 dotenv-flow
+cargo-bisect-rustc
