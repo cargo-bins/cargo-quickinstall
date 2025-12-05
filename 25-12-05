@@ -8,3 +8,4 @@ nextest
 clippy
 oxdraw
 httpmock
+nextest
