@@ -19,3 +19,4 @@ clippy
 cargo-risczero
 solana-gossip
 tendermint-rpc
+sha1collisiondetection
