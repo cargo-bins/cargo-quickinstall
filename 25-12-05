@@ -13,3 +13,4 @@ diesel_cli
 esp-config
 clippy
 zuse
+spl-token-cli
