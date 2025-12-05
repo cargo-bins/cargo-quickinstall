@@ -2,3 +2,4 @@ rpki
 rust-bert
 cargo-dylint
 clippy
+httpmock
