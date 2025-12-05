@@ -78,3 +78,4 @@ zensical
 neovide
 probe-rs-cli
 cargo-unused-features
+sha1collisiondetection
