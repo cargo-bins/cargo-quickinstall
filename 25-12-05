@@ -35,3 +35,4 @@ controller
 spl-token-cli
 atomic-server
 deepwiki-rs
+clap-stdin
