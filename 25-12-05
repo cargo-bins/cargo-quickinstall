@@ -4,3 +4,4 @@ cargo-dylint
 clippy
 httpmock
 makepad-studio
+tree-sitter-cli
