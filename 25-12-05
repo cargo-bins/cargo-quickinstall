@@ -14,3 +14,4 @@ diesel_cli
 crc-fast
 esp-config
 clippy
+cargo-risczero
