@@ -4,3 +4,4 @@ dbus-codegen
 h3o
 minicbor
 probe-rs-cli
+socketcan
