@@ -13,3 +13,4 @@ probe-rs-cli
 diesel_cli
 esp-config
 clippy
+tendermint-rpc
