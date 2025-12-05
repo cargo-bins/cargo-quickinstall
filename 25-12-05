@@ -37,3 +37,4 @@ atomic-server
 deepwiki-rs
 clap-stdin
 spl-token-cli
+atomic-server
