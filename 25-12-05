@@ -33,3 +33,4 @@ solana-faucet
 spider_cli
 controller
 spl-token-cli
+atomic-server
