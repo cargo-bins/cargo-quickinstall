@@ -20,3 +20,4 @@ diesel_cli
 crc-fast
 clippy
 kanidm_tools
+cargo-risczero
