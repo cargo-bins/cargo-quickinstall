@@ -17,3 +17,4 @@ socketcan
 bpf-linker
 git-mit-install
 diesel_cli
+crc-fast
