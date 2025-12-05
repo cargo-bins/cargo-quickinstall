@@ -14,3 +14,4 @@ am
 makepad-studio
 tree-sitter-cli
 nextest
+dbus-codegen
