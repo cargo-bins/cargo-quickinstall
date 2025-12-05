@@ -9,3 +9,4 @@ cargo-dylint
 am
 nextest
 clippy
+clippy
