@@ -18,3 +18,4 @@ cargo-risczero
 zuse
 solana-gossip
 spl-token-cli
+tendermint-rpc
