@@ -20,3 +20,4 @@ cargo-risczero
 solana-gossip
 tendermint-rpc
 sha1collisiondetection
+sn_node_rpc_client
