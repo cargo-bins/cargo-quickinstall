@@ -3,3 +3,4 @@ rust-bert
 httpmock
 dbus-codegen
 h3o
+socketcan
