@@ -43,3 +43,4 @@ crypto-cli-tools
 neovide
 spl-token-cli
 atomic-server
+crc-fast
