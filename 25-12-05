@@ -19,3 +19,4 @@ zuse
 solana-gossip
 spl-token-cli
 tendermint-rpc
+sha1collisiondetection
