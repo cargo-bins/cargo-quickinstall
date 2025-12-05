@@ -38,3 +38,4 @@ deepwiki-rs
 clap-stdin
 spl-token-cli
 atomic-server
+spl-token-cli
