@@ -12,3 +12,4 @@ h3o
 socketcan
 probe-rs-cli
 libcst
+probe-rs-cli
