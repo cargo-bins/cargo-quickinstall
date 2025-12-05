@@ -16,3 +16,4 @@ nextest
 tree-sitter-cli
 sea-orm-cli
 nextest
+dbus-codegen
