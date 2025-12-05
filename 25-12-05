@@ -16,3 +16,4 @@ esp-config
 clippy
 cargo-risczero
 zuse
+solana-gossip
