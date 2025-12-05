@@ -20,3 +20,4 @@ esp-config
 rav1e
 clippy
 tendermint-rpc
+sha1collisiondetection
