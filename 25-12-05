@@ -25,3 +25,4 @@ spider_cli
 minicbor
 tree-sitter-cli
 deepwiki-rs
+socketcan
