@@ -7,3 +7,4 @@ probe-rs-cli
 socketcan
 probe-rs-cli
 libcst
+probe-rs-cli
