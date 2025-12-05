@@ -19,3 +19,4 @@ nextest
 dbus-codegen
 am
 am
+tree-sitter-cli
