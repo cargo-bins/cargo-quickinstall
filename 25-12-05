@@ -14,3 +14,4 @@ esp-config
 clippy
 zuse
 spl-token-cli
+tendermint-rpc
