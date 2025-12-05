@@ -19,3 +19,4 @@ diesel_cli
 esp-config
 rav1e
 clippy
+tendermint-rpc
