@@ -39,3 +39,4 @@ clap-stdin
 spl-token-cli
 atomic-server
 spl-token-cli
+crypto-cli-tools
