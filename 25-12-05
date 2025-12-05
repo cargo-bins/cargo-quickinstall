@@ -18,3 +18,4 @@ rav1e
 clippy
 cargo-risczero
 solana-gossip
+tendermint-rpc
