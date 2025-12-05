@@ -3,3 +3,4 @@ rust-bert
 cargo-dylint
 clippy
 httpmock
+makepad-studio
