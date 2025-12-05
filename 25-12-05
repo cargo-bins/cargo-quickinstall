@@ -7,3 +7,4 @@ makepad-studio
 tree-sitter-cli
 cargo-dylint
 am
+nextest
