@@ -3,3 +3,4 @@ rust-bert
 cargo-risczero
 httpmock
 dbus-codegen
+rzup
