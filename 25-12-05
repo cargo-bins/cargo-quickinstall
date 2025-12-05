@@ -4,3 +4,4 @@ dbus-codegen
 h3o
 minicbor
 socketcan
+libcst
