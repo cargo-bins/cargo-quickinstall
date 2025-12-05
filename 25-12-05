@@ -10,3 +10,4 @@ minicbor
 socketcan
 libcst
 bpf-linker
+crypto-cli-tools
