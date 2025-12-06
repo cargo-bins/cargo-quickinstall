@@ -25,3 +25,4 @@ nextest
 nextest
 process_viewer
 lux-cli
+solana-gossip
