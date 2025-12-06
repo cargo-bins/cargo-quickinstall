@@ -8,3 +8,4 @@ dotenv
 stellar-xdr
 probe-rs-cli
 vtcode
+cargo-unused-features
