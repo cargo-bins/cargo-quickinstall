@@ -30,3 +30,4 @@ cargo-smart-release
 rustrict
 cargo-unused-features
 rusthound-ce
+cargo-smart-release
