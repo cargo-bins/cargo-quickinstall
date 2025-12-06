@@ -3,3 +3,4 @@ rustbus
 rustfmt
 dotenv
 text-diff
+stellar-xdr
