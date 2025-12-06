@@ -60,3 +60,4 @@ spider_worker
 scarb
 cargo-smart-release
 graphite
+proof-of-sql
