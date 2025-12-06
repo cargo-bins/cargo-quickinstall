@@ -7,3 +7,4 @@ cargo-info
 dotenv
 stellar-xdr
 probe-rs-cli
+vtcode
