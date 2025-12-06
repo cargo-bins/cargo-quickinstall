@@ -50,3 +50,4 @@ process_viewer
 tendermint-abci
 paperclip
 graphite
+spider_worker
