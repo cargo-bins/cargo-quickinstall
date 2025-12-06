@@ -2,3 +2,4 @@ rustfmt-nightly
 ts-bindgen
 cargo-smart-release
 cargo-smart-release
+racer
