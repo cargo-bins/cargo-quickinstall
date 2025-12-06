@@ -6,3 +6,4 @@ diesel_cli
 cargo-info
 dotenv
 stellar-xdr
+probe-rs-cli
