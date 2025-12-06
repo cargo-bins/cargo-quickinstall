@@ -12,3 +12,4 @@ cargo-lambda
 rustrict
 miden-crypto
 rustrict
+httpmock
