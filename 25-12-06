@@ -26,3 +26,4 @@ probe-rs-cli
 graphite
 cargo-unused-features
 rustrict
+cargo-smart-release
