@@ -8,3 +8,4 @@ a11ywatch_cli
 laminar
 remove_dir_all
 shunkakinoki
+cargo-lambda
