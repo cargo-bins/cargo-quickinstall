@@ -12,3 +12,4 @@ remove_dir_all
 cpp_demangle
 rustrict
 rustrict
+httpmock
