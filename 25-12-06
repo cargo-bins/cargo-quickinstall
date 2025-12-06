@@ -16,3 +16,4 @@ httpmock
 tendermint-rpc
 dotenv
 textplots
+dicom-pixeldata
