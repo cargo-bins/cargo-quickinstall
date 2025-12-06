@@ -8,3 +8,4 @@ stellar-xdr
 ts-bindgen
 datavzrd
 laminar
+remove_dir_all
