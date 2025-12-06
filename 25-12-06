@@ -22,3 +22,4 @@ zensical
 cargo-smart-release
 cargo-dylint
 below
+probe-rs-cli
