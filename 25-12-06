@@ -29,3 +29,4 @@ rustrict
 httpmock
 rusthound-ce
 cargo-smart-release
+probe-rs-cli
