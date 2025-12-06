@@ -2,3 +2,4 @@ rustfmt-nightly
 dioxus-cli
 sea-orm-cli
 dotenv
+stellar-xdr
