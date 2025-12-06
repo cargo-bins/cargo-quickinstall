@@ -2,3 +2,4 @@ rustfmt-nightly
 cargo-info
 racer
 cargo-info
+diesel_cli
