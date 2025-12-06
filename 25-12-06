@@ -43,3 +43,4 @@ cargo-smart-release
 scarb
 probe-rs-cli
 rustdesk
+cargo-smart-release
