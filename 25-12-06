@@ -5,3 +5,4 @@ zensical
 cargo-unused-features
 cargo-info
 cargo-unused-features
+diesel_cli
