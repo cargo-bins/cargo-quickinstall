@@ -16,3 +16,4 @@ a11ywatch_cli
 cargo-info
 laminar
 rusthound-ce
+remove_dir_all
