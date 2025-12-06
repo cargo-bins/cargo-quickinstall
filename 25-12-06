@@ -12,3 +12,4 @@ cargo-lambda
 rustrict
 rustrict
 httpmock
+tendermint-rpc
