@@ -21,3 +21,4 @@ cargo-spellcheck
 solana-gossip
 paperclip
 spider_worker
+proof-of-sql
