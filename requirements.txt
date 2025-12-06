@@ -30,7 +30,7 @@ six==1.17.0
     # via python-dateutil
 typing-extensions==4.15.0
     # via reactivex
-urllib3==2.5.0
+urllib3==2.6.0
     # via
     #   influxdb3-python
     #   requests
