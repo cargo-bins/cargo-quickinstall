@@ -21,3 +21,4 @@ cargo-spellcheck
 process_viewer
 solana-gossip
 paperclip
+proof-of-sql
