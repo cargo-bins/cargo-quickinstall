@@ -38,3 +38,4 @@ graphite
 cargo-unused-features
 tendermint-rpc
 below
+rustdesk
