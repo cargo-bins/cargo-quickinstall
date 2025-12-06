@@ -40,3 +40,4 @@ tendermint-rpc
 below
 rustdesk
 oxdraw
+cargo-smart-release
