@@ -4,3 +4,4 @@ rustfmt
 dotenv
 text-diff
 stellar-xdr
+datavzrd
