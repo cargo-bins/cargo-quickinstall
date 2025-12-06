@@ -20,3 +20,4 @@ diesel_cli
 process_viewer
 solana-gossip
 paperclip
+proof-of-sql
