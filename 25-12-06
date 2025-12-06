@@ -13,3 +13,4 @@ cpp_demangle
 rustrict
 miden-crypto
 rustrict
+httpmock
