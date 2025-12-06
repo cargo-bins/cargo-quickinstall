@@ -47,3 +47,4 @@ cargo-smart-release
 below
 graphite
 process_viewer
+tendermint-abci
