@@ -17,3 +17,4 @@ tendermint-rpc
 dotenv
 textplots
 dicom-pixeldata
+cargo-spellcheck
