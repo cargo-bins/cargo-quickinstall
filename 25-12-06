@@ -11,3 +11,4 @@ stellar-xdr
 cargo-smart-release
 datavzrd
 cargo-smart-release
+ts-bindgen
