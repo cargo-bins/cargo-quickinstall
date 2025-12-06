@@ -12,3 +12,4 @@ cargo-smart-release
 datavzrd
 cargo-smart-release
 ts-bindgen
+remove_dir_all
