@@ -10,3 +10,4 @@ probe-rs-cli
 vtcode
 cargo-unused-features
 a11ywatch_cli
+vtcode
