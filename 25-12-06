@@ -17,3 +17,4 @@ httpmock
 tendermint-rpc
 textplots
 dicom-pixeldata
+cargo-spellcheck
