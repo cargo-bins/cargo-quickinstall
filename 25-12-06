@@ -2,3 +2,4 @@ rustfmt-nightly
 rustbus
 rustfmt
 dotenv
+text-diff
