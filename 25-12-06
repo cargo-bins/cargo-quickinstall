@@ -35,3 +35,4 @@ oxdraw
 below
 probe-rs-cli
 graphite
+cargo-unused-features
