@@ -9,3 +9,4 @@ stellar-xdr
 datavzrd
 laminar
 remove_dir_all
+cpp_demangle
