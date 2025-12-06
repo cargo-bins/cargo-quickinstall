@@ -58,3 +58,4 @@ solana-gossip
 paperclip
 spider_worker
 scarb
+cargo-smart-release
