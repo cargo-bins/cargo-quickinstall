@@ -41,3 +41,4 @@ below
 tendermint-rpc
 cargo-smart-release
 scarb
+probe-rs-cli
