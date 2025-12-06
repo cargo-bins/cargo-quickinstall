@@ -39,3 +39,4 @@ rustdesk
 probe-rs-cli
 below
 tendermint-rpc
+cargo-smart-release
