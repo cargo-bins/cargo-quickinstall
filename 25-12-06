@@ -19,3 +19,4 @@ cargo-dylint
 shunkakinoki
 probe-rs-cli
 zensical
+cargo-smart-release
