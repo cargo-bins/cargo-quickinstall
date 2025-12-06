@@ -16,3 +16,4 @@ tendermint-rpc
 textplots
 dicom-pixeldata
 cargo-spellcheck
+process_viewer
