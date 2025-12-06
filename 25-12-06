@@ -38,3 +38,4 @@ uhyve
 rustdesk
 probe-rs-cli
 below
+tendermint-rpc
