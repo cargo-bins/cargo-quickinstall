@@ -51,3 +51,4 @@ tendermint-abci
 paperclip
 graphite
 spider_worker
+proof-of-sql
