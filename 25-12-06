@@ -9,3 +9,4 @@ diesel_cli
 zensical
 cargo-unused-features
 rusthound-ce
+dotenv
