@@ -20,3 +20,4 @@ httpmock
 tendermint-rpc
 textplots
 dicom-pixeldata
+solana-gossip
