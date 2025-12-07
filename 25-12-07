@@ -2,3 +2,4 @@ pwasm-utils
 nextest-filtering
 datavzrd
 diesel_cli
+ducc-sys
