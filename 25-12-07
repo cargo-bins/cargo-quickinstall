@@ -17,3 +17,4 @@ valknut-rs
 valknut-rs
 website_crawler
 scarb
+clap-stdin
