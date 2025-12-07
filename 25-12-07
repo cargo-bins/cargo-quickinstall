@@ -16,3 +16,4 @@ wol-rs
 solana-faucet
 papyrus_storage
 git-disjoint
+crc-fast
