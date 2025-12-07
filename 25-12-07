@@ -13,3 +13,4 @@ miden-crypto
 clap-stdin
 laminar
 solana-faucet
+crc-fast
