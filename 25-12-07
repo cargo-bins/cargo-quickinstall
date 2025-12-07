@@ -11,3 +11,4 @@ binstall
 lux-cli
 nextest
 binstall
+fake
