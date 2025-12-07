@@ -5,3 +5,4 @@ ducc-sys
 spl-token-cli
 hayagriva
 controller
+cargo-msrv
