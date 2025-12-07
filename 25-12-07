@@ -22,3 +22,4 @@ crc-fast
 ec2_instance_metadata
 coldsnap
 crypto-cli-tools
+cargo-risczero
