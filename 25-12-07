@@ -12,3 +12,4 @@ website_crawler
 clap-stdin
 miden-crypto
 laminar
+wol-rs
