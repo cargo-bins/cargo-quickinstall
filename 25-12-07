@@ -3,3 +3,4 @@ pwasm-utils
 nextest-filtering
 binstall
 datavzrd
+ducc-sys
