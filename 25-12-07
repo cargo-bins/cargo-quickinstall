@@ -12,3 +12,4 @@ miden-crypto
 clap-stdin
 laminar
 wol-rs
+solana-faucet
