@@ -9,3 +9,4 @@ addr2line
 tree-sitter-graph
 cargo-local-registry
 miden-crypto
+website_crawler
