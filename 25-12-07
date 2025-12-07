@@ -24,3 +24,4 @@ cargo-local-registry
 website_crawler
 clap-stdin
 miden-crypto
+laminar
