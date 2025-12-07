@@ -19,3 +19,4 @@ nextest
 nextest
 binstall
 addr2line
+tree-sitter-graph
