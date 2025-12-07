@@ -6,3 +6,4 @@ spl-token-cli
 hayagriva
 controller
 cargo-msrv
+addr2line
