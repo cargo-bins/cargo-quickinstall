@@ -9,3 +9,4 @@ fake
 diesel_cli
 addr2line
 website_crawler
+clap-stdin
