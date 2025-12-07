@@ -13,3 +13,4 @@ controller
 addr2line
 tree-sitter-graph
 coreos-installer
+valknut-rs
