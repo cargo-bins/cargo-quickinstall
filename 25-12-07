@@ -8,3 +8,4 @@ addr2line
 tree-sitter-graph
 miden-crypto
 website_crawler
+clap-stdin
