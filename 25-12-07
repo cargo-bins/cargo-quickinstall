@@ -21,3 +21,4 @@ clap-stdin
 miden-crypto
 laminar
 coreos-installer
+scarb
