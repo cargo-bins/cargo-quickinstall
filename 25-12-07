@@ -26,3 +26,4 @@ clap-stdin
 miden-crypto
 laminar
 typlite
+wol-rs
