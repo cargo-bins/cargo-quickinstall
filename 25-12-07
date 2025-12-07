@@ -2,3 +2,4 @@ pwasm-utils
 nextest-filtering
 datavzrd
 ducc-sys
+spl-token-cli
