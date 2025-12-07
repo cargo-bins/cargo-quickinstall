@@ -17,3 +17,4 @@ benfred-read-process-memory
 tokio-process
 papyrus_storage
 git-disjoint
+tokio-process
