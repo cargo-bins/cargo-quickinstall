@@ -56,3 +56,4 @@ crypto-cli-tools
 cargo-whatfeatures
 solana-gossip
 argus-cli
+syd
