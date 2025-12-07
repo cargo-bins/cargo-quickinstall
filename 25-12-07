@@ -54,3 +54,4 @@ coreos-installer
 cargo-whatfeatures
 crypto-cli-tools
 cargo-whatfeatures
+solana-gossip
