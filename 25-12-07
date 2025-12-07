@@ -18,3 +18,4 @@ rmesg
 nextest
 nextest
 binstall
+addr2line
