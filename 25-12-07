@@ -7,3 +7,4 @@ fake
 rmesg
 addr2line
 tree-sitter-graph
+cargo-local-registry
