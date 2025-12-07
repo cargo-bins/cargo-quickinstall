@@ -13,3 +13,4 @@ website_crawler
 clap-stdin
 laminar
 wol-rs
+benfred-read-process-memory
