@@ -20,3 +20,4 @@ graphite
 valknut-rs
 graphite
 controller
+addr2line
