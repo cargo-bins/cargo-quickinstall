@@ -18,3 +18,4 @@ tokio-process
 papyrus_storage
 git-disjoint
 tokio-process
+crc-fast
