@@ -15,3 +15,4 @@ laminar
 wol-rs
 benfred-read-process-memory
 tokio-process
+papyrus_storage
