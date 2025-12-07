@@ -17,3 +17,4 @@ crc-fast
 coldsnap
 sea-orm-cli
 crypto-cli-tools
+cargo-risczero
