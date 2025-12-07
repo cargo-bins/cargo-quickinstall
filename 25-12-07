@@ -3,3 +3,4 @@ nextest-filtering
 cargo-dylint
 datavzrd
 ducc-sys
+rustdesk
