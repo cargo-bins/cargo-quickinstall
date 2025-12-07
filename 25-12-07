@@ -22,3 +22,4 @@ graphite
 controller
 addr2line
 alacritty
+tree-sitter-graph
