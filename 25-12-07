@@ -48,3 +48,4 @@ coreos-installer
 cargo-whatfeatures
 coreos-installer
 cargo-whatfeatures
+crc-fast
