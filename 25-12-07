@@ -13,3 +13,4 @@ miden-crypto
 clap-stdin
 miden-crypto
 laminar
+wol-rs
