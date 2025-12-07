@@ -21,3 +21,4 @@ binstall
 addr2line
 tree-sitter-graph
 cargo-local-registry
+website_crawler
