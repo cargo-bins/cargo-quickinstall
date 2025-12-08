@@ -4,3 +4,4 @@ rg
 argus-cli
 alacritty
 cargo-script
+socketcan
