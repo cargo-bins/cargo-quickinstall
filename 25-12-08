@@ -28,3 +28,4 @@ rustfmt-nightly
 cargo-tag
 gstat
 lux-cli
+gstat
