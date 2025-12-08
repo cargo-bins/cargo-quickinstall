@@ -4,3 +4,4 @@ channels-console
 sqlx-cli
 diesel_cli
 socketcan
+sqlx-cli
