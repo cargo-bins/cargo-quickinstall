@@ -11,3 +11,4 @@ clap-stdin
 shunkakinoki
 solana-gossip
 re_query
+rtx-cli
