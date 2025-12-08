@@ -14,3 +14,4 @@ winpty-rs
 diesel_cli
 solana-genesis
 perfcnt
+bpf-linker
