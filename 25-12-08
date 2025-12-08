@@ -11,3 +11,4 @@ foundationdb-gen
 clap-stdin
 shunkakinoki
 re_query
+rtx-cli
