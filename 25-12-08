@@ -25,3 +25,4 @@ rustfmt-nightly
 spl-token-cli
 cargo-mobile2
 cargo-mutants
+minicbor
