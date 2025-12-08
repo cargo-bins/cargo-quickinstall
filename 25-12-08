@@ -27,3 +27,4 @@ solana-stake-accounts
 rustfmt-nightly
 cargo-tag
 gstat
+lux-cli
