@@ -24,3 +24,4 @@ cargo-script
 foundationdb-gen
 clap-stdin
 shunkakinoki
+solana-gossip
