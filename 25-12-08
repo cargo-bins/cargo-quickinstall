@@ -7,3 +7,4 @@ cargo-script
 socketcan
 argus-cli
 alacritty
+raw-cpuid
