@@ -6,3 +6,4 @@ raw-cpuid
 pyrefly
 dioxus-cli
 fast-conventional
+winpty-rs
