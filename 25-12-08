@@ -11,3 +11,4 @@ argus-cli
 cargo-whatfeatures
 cargo-script
 rg
+raw-cpuid
