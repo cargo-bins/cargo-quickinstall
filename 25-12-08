@@ -10,3 +10,4 @@ sqlx-cli
 raw-cpuid
 channels-console
 skim
+winpty-rs
