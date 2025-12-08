@@ -27,3 +27,4 @@ solana-gossip
 cargo-scripter
 re_query
 rtx-cli
+dotenv-flow
