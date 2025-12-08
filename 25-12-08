@@ -15,3 +15,4 @@ laminar
 calcit
 solana-stake-accounts
 rustfmt-nightly
+spl-token-cli
