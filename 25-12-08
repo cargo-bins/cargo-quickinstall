@@ -29,3 +29,4 @@ re_query
 rtx-cli
 dotenv-flow
 wash-cli
+cargo-script
