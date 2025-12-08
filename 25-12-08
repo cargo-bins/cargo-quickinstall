@@ -37,3 +37,4 @@ cargo-script
 calcit
 wiki-tui
 solana-stake-accounts
+rustfmt-nightly
