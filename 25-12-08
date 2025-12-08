@@ -9,3 +9,4 @@ argus-cli
 alacritty
 raw-cpuid
 rg
+winpty-rs
