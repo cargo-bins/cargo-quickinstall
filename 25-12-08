@@ -23,3 +23,4 @@ re_query
 rg
 rtx-cli
 rg
+dotenv-flow
