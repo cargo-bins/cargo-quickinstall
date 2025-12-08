@@ -25,3 +25,4 @@ laminar
 lux-cli
 solana-stake-accounts
 rustfmt-nightly
+cargo-tag
