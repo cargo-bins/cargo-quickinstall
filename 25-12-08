@@ -18,3 +18,4 @@ bpf-linker
 protox
 foundationdb-gen
 clap-stdin
+solana-gossip
