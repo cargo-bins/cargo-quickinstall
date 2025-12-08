@@ -6,3 +6,4 @@ binstall
 binstall
 binstall
 raw-cpuid
+winpty-rs
