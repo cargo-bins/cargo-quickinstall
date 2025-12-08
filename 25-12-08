@@ -38,3 +38,4 @@ solana-stake-accounts
 rustfmt-nightly
 wash-cli
 cargo-mobile2
+cargo-duplicates
