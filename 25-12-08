@@ -21,3 +21,4 @@ clap-stdin
 solana-gossip
 re_query
 rg
+rtx-cli
