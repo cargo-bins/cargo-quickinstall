@@ -39,3 +39,4 @@ wiki-tui
 solana-stake-accounts
 rustfmt-nightly
 minicbor
+nu_plugin_gstat
