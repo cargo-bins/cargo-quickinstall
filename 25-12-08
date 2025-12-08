@@ -49,3 +49,4 @@ nu_plugin_gstat
 cargo-script
 cargo-duplicates
 xplr
+cargo-hot
