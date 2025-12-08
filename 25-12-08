@@ -13,3 +13,4 @@ pyrefly
 fast-conventional
 protox
 foundationdb-gen
+clap-stdin
