@@ -30,3 +30,4 @@ gstat
 lux-cli
 gstat
 minicbor
+cargo-tag
