@@ -51,3 +51,4 @@ cargo-duplicates
 xplr
 cargo-hot
 cargo-scripter
+cargo-mutants
