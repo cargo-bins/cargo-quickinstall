@@ -31,3 +31,4 @@ laminar
 rg
 dx-cli
 dx-cli
+rustfmt-nightly
