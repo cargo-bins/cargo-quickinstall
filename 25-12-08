@@ -6,3 +6,4 @@ diesel_cli
 socketcan
 sqlx-cli
 sqlx-cli
+sqlx-cli
