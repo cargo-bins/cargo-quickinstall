@@ -10,3 +10,4 @@ socketcan
 argus-cli
 cargo-whatfeatures
 cargo-script
+rg
