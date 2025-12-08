@@ -16,3 +16,4 @@ clap-stdin
 solana-gossip
 re_query
 rtx-cli
+lux-cli
