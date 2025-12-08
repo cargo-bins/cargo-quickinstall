@@ -4,3 +4,4 @@ raw-cpuid
 winpty-rs
 solana-genesis
 perfcnt
+dprint
