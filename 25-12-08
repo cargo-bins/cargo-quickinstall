@@ -21,3 +21,4 @@ rg
 foundationdb-gen
 cargo-scripter
 bluetui
+wiki-tui
