@@ -12,3 +12,4 @@ cargo-whatfeatures
 cargo-script
 rg
 raw-cpuid
+rg
