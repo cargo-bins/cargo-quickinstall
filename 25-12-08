@@ -32,3 +32,4 @@ rg
 dx-cli
 dx-cli
 rustfmt-nightly
+dx-cli
