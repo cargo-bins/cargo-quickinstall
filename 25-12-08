@@ -24,3 +24,4 @@ dotenv-flow
 laminar
 lux-cli
 solana-stake-accounts
+rustfmt-nightly
