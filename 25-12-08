@@ -16,3 +16,4 @@ text-diff
 dotenv-flow
 git-mit
 laminar
+rustfmt-nightly
