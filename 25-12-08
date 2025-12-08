@@ -30,3 +30,4 @@ rtx-cli
 dotenv-flow
 wash-cli
 cargo-script
+wiki-tui
