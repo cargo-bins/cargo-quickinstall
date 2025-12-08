@@ -13,3 +13,4 @@ perfcnt
 protox
 foundationdb-gen
 clap-stdin
+solana-gossip
