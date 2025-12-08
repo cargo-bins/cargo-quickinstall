@@ -40,3 +40,4 @@ solana-stake-accounts
 rustfmt-nightly
 minicbor
 nu_plugin_gstat
+cargo-mobile2
