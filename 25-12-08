@@ -11,3 +11,4 @@ raw-cpuid
 channels-console
 skim
 winpty-rs
+diesel_cli
