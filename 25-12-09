@@ -45,3 +45,4 @@ tgt
 rabbitmqadmin
 cargo-binstall
 spotatui
+diesel_cli
