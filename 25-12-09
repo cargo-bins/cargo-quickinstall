@@ -19,3 +19,4 @@ cargo-hot
 solana-stake-accounts
 spider_cli
 nominal-api
+graphql_client_cli
