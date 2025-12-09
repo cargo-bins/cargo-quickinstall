@@ -17,3 +17,4 @@ cargo-dylint
 schemafy
 papyrus_storage
 tree_magic
+libcst
