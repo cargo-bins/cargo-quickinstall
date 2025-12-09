@@ -36,3 +36,4 @@ cargo-risczero
 ext-sort
 stellar-xdr
 sha1collisiondetection
+httpmock
