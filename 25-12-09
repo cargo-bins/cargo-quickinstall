@@ -13,3 +13,4 @@ socketcan
 rust-bert
 diesel_cli
 oso
+cargo-risczero
