@@ -11,3 +11,4 @@ rustfmt-nightly
 cargo-tag
 gstat
 dotenv-flow
+solana-stake-accounts
