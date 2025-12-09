@@ -12,3 +12,4 @@ sea-orm-cli
 dotenv-flow
 tree-sitter-cli
 solana-stake-accounts
+wash-cli
