@@ -3,3 +3,4 @@ deno
 racer
 sp1-prover
 rustfmt-nightly
+dotenv-flow
