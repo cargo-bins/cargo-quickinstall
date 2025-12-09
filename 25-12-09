@@ -37,3 +37,4 @@ cargo-hot
 cargo-duplicates
 diesel_cli
 oso
+ext-sort
