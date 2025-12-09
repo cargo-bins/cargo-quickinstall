@@ -38,3 +38,4 @@ cargo-duplicates
 diesel_cli
 oso
 ext-sort
+spotatui
