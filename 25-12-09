@@ -57,3 +57,4 @@ rabbitmqadmin
 tgt
 libbpf-cargo
 dioxus-cli
+sha1collisiondetection
