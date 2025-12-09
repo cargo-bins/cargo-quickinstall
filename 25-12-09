@@ -13,3 +13,4 @@ nominal-api
 build-fs-tree
 mit-pre-commit
 tokio-process
+unic-langid-impl
