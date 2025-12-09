@@ -8,3 +8,4 @@ bluetui
 sp1-prover
 rustfmt-nightly
 spider_cli
+sea-orm-cli
