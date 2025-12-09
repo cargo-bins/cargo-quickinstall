@@ -14,3 +14,4 @@ tree_magic
 libcst
 socketcan
 rust-bert
+diesel_cli
