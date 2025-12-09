@@ -13,3 +13,4 @@ papyrus_storage
 tree_magic
 libcst
 socketcan
+rust-bert
