@@ -13,3 +13,4 @@ cargo-dylint
 unic-langid-impl
 papyrus_storage
 tree_magic
+socketcan
