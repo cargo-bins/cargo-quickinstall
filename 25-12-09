@@ -38,3 +38,4 @@ vdev
 autossh
 rg
 nextest
+libbpf-cargo
