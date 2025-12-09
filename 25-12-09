@@ -45,3 +45,4 @@ buck2
 jujutsu
 libbpf-cargo
 httpmock
+sha1collisiondetection
