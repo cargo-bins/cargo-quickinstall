@@ -8,3 +8,4 @@ wash-cli
 wash-cli
 rustfmt-nightly
 xplr
+tree-sitter-cli
