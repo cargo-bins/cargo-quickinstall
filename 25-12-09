@@ -6,3 +6,4 @@ rustfmt-nightly
 dotenv-flow
 solana-stake-accounts
 cargo-dylint
+nominal-api
