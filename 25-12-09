@@ -36,3 +36,4 @@ graphql_client_cli
 cargo-hot
 cargo-duplicates
 diesel_cli
+oso
