@@ -10,3 +10,4 @@ rustfmt-nightly
 spider_cli
 sea-orm-cli
 dotenv-flow
+tree-sitter-cli
