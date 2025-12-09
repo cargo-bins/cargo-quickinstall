@@ -5,3 +5,4 @@ sp1-prover
 rustfmt-nightly
 dotenv-flow
 solana-stake-accounts
+nominal-api
