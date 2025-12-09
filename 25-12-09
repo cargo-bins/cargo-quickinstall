@@ -34,3 +34,4 @@ spotatui
 graphql_client_cli
 graphql_client_cli
 cargo-hot
+cargo-duplicates
