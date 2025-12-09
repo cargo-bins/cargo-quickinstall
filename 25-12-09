@@ -12,3 +12,4 @@ cargo-dylint
 build-fs-tree
 cargo-dylint
 cargo-dylint
+unic-langid-impl
