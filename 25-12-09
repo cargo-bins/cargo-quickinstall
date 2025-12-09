@@ -28,3 +28,4 @@ spl-token-cli
 httpmock
 sha1collisiondetection
 jujutsu
+esp-config
