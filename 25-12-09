@@ -28,3 +28,4 @@ cargo-duplicates
 cargo-hot
 graphql_client_cli
 graphql_client_cli
+unic-langid-impl
