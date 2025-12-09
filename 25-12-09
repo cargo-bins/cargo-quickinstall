@@ -4,3 +4,4 @@ sp1-prover
 rustfmt-nightly
 solana-stake-accounts
 cargo-dylint
+nominal-api
