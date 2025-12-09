@@ -43,3 +43,4 @@ stellar-xdr
 tgt
 buck2
 jujutsu
+libbpf-cargo
