@@ -18,3 +18,4 @@ diesel_cli
 oso
 ext-sort
 stellar-xdr
+spl-token-cli
