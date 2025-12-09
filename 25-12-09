@@ -6,3 +6,4 @@ rustfmt-nightly
 lux-cli
 dotenv-flow
 gstat
+solana-stake-accounts
