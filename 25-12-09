@@ -28,3 +28,4 @@ ruff
 rust-bert
 rg
 vdev
+nextest
