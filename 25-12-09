@@ -20,3 +20,4 @@ tree_magic
 socketcan
 diesel_cli
 oso
+cargo-risczero
