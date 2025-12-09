@@ -44,3 +44,4 @@ tgt
 buck2
 jujutsu
 libbpf-cargo
+httpmock
