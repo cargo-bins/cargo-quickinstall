@@ -11,3 +11,4 @@ papyrus_storage
 tree_magic
 socketcan
 rust-bert
+diesel_cli
