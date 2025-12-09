@@ -9,3 +9,4 @@ build-fs-tree
 unic-langid-impl
 papyrus_storage
 tree_magic
+socketcan
