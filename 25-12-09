@@ -24,3 +24,4 @@ cargo-risczero
 ext-sort
 stellar-xdr
 libbpf-cargo
+httpmock
