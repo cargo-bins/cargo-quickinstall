@@ -9,3 +9,4 @@ sp1-prover
 cargo-tag
 rustfmt-nightly
 cargo-tag
+gstat
