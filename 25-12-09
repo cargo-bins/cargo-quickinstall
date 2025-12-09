@@ -18,3 +18,4 @@ unic-langid-impl
 schemafy
 ruff
 tree_magic
+libcst
