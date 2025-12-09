@@ -40,3 +40,4 @@ rg
 nextest
 libbpf-cargo
 autossh
+rg
