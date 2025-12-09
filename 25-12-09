@@ -3,3 +3,4 @@ lux-cli
 racer
 sp1-prover
 rustfmt-nightly
+lux-cli
