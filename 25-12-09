@@ -19,3 +19,4 @@ xplr
 build-fs-tree
 xplr
 cargo-duplicates
+nu_plugin_gstat
