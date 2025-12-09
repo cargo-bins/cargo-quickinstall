@@ -41,3 +41,4 @@ socketcan
 spotatui
 rust-bert
 cargo-binstall
+tgt
