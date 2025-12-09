@@ -26,3 +26,4 @@ ext-sort
 nextest
 stellar-xdr
 autossh
+httpmock
