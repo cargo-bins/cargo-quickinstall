@@ -30,3 +30,4 @@ graphql_client_cli
 graphql_client_cli
 unic-langid-impl
 nu_plugin_gstat
+cargo-hot
