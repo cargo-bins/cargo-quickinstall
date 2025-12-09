@@ -6,3 +6,4 @@ sp1-prover
 rustfmt-nightly
 channels-console
 codeberg-cli
+jless
