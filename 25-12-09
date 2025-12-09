@@ -10,3 +10,4 @@ rustfmt-nightly
 xplr
 tree-sitter-cli
 wiki-tui
+graphql_client_cli
