@@ -3,3 +3,4 @@ jless
 deno
 channels-console
 sp1-prover
+rustfmt-nightly
