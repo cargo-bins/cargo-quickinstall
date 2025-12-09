@@ -39,3 +39,4 @@ tree_magic
 cargo-duplicates
 socketcan
 spotatui
+rust-bert
