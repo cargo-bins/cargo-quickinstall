@@ -40,3 +40,4 @@ cargo-duplicates
 socketcan
 spotatui
 rust-bert
+cargo-binstall
