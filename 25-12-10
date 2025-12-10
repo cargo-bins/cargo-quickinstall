@@ -25,3 +25,4 @@ libbpf-cargo
 bpf-linker
 solana-ledger-tool
 mit-prepare-commit-msg
+pwasm-utils
