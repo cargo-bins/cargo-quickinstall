@@ -22,3 +22,4 @@ re_query
 jot
 git-mit-config
 libbpf-cargo
+bpf-linker
