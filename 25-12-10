@@ -18,3 +18,4 @@ buck2
 graphql_client_cli
 sea-orm-cli
 buck2
+tgt
