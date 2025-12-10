@@ -9,3 +9,4 @@ nextest
 nutorch
 nutorch
 dbus-codegen
+sha1collisiondetection
