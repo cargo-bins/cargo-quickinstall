@@ -11,3 +11,4 @@ solana-ledger-tool
 cargo-mobile2
 spider_worker
 cargo-pgrx
+cargo-mutants
