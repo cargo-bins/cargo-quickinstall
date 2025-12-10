@@ -45,3 +45,4 @@ opencv-binding-generator
 binstall
 esp-config
 ruff
+solana-ledger-tool
