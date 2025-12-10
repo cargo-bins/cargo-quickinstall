@@ -25,3 +25,4 @@ opencv-binding-generator
 nutorch
 fake
 solana-ledger-tool
+pwasm-utils
