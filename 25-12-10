@@ -61,3 +61,4 @@ cargo-pgrx
 kble
 cargo-mutants
 ruff
+pwasm-utils
