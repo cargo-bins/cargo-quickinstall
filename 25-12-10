@@ -42,3 +42,4 @@ ruff
 oxipng
 gumbo
 aumate
+opencv-binding-generator
