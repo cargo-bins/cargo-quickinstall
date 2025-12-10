@@ -5,3 +5,4 @@ syd
 winpty-rs
 cargo-mutants
 re_query
+safe_network
