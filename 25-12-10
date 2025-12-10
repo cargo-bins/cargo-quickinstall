@@ -7,3 +7,4 @@ quick-junit
 dioxus-cli
 sea-orm-cli
 rabbitmqadmin
+sha1collisiondetection
