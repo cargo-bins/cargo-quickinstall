@@ -7,3 +7,4 @@ cargo-mutants
 re_query
 safe_network
 opencv-binding-generator
+solana-ledger-tool
