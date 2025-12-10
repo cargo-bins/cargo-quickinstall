@@ -4,3 +4,4 @@ sha1collisiondetection
 syd
 winpty-rs
 cargo-mutants
+re_query
