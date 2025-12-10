@@ -3,3 +3,4 @@ iai-callgrind-runner
 dbus-codegen
 sha1collisiondetection
 syd
+winpty-rs
