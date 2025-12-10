@@ -8,3 +8,4 @@ re_query
 safe_network
 opencv-binding-generator
 solana-ledger-tool
+cargo-mobile2
