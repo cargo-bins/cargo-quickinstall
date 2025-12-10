@@ -2,3 +2,4 @@ quick-junit
 dbus-codegen
 sha1collisiondetection
 syd
+winpty-rs
