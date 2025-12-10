@@ -12,3 +12,4 @@ vdev
 vdev
 sha1collisiondetection
 syd
+winpty-rs
