@@ -14,3 +14,4 @@ spider_worker
 cargo-pgrx
 cargo-mutants
 pwasm-utils
+cargo-pgrx
