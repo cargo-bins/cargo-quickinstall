@@ -16,3 +16,4 @@ autossh
 re_query
 nutorch
 solana-ledger-tool
+pwasm-utils
