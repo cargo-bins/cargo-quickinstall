@@ -60,3 +60,4 @@ codeberg-cli
 cargo-pgrx
 kble
 cargo-mutants
+ruff
