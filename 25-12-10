@@ -3,3 +3,4 @@ dbus-codegen
 sha1collisiondetection
 syd
 winpty-rs
+cargo-mutants
