@@ -64,3 +64,4 @@ ruff
 pwasm-utils
 kble
 fnox
+cargo-pgrx
