@@ -5,3 +5,4 @@ rabbitmqadmin
 quick-junit
 sea-orm-cli
 jujutsu
+dbus-codegen
