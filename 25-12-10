@@ -8,3 +8,4 @@ re_query
 alacritty
 opencv-binding-generator
 libbpf-cargo
+solana-ledger-tool
