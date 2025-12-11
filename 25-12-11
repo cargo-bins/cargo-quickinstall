@@ -18,3 +18,4 @@ protox
 rrule
 dotenvy
 ec2_instance_metadata
+rust-bert
