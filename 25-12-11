@@ -21,3 +21,4 @@ ec2_instance_metadata
 rust-bert
 kani-verifier
 rzup
+cpp_demangle
