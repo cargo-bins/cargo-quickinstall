@@ -11,3 +11,4 @@ onehistory
 tokio-process
 dbus-codegen
 httpmock
+papyrus_storage
