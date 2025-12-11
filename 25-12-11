@@ -4,3 +4,4 @@ re_query
 nkeys
 socketcan
 controller
+dbus-codegen
