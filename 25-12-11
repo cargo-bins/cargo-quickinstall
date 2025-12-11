@@ -4,3 +4,4 @@ re_query
 deploy
 nkeys
 controller
+httpmock
