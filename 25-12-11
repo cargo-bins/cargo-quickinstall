@@ -53,3 +53,4 @@ spider_cli
 solana-validator
 spider_worker
 cpp_demangle
+quick-junit
