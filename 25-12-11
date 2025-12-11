@@ -53,3 +53,4 @@ nu_plugin_query
 cargo-pgrx
 jj
 spider_worker
+cpp_demangle
