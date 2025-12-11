@@ -10,3 +10,4 @@ esp-config
 kble
 nkeys
 tree-sitter-cli
+cargo-dylint
