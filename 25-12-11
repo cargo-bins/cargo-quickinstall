@@ -9,3 +9,4 @@ onehistory
 rmesg
 onehistory
 tokio-process
+dbus-codegen
