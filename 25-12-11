@@ -32,3 +32,4 @@ coreos-installer
 rrule
 dotenvy
 qsv
+kani-verifier
