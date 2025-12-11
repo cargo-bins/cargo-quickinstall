@@ -17,3 +17,4 @@ nextest
 controller
 httpmock
 netavark
+papyrus_storage
