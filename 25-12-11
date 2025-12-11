@@ -5,3 +5,4 @@ deploy
 nkeys
 controller
 httpmock
+papyrus_storage
