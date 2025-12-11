@@ -51,3 +51,4 @@ cargo-pgrx
 spider_cli
 spider_cli
 solana-validator
+spider_worker
