@@ -52,3 +52,4 @@ spider_cli
 spider_cli
 solana-validator
 spider_worker
+cpp_demangle
