@@ -6,3 +6,4 @@ socketcan
 controller
 dbus-codegen
 httpmock
+nexmark
