@@ -14,3 +14,4 @@ rust-bert
 qsv
 cargo-pgrx
 spider_worker
+cpp_demangle
