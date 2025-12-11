@@ -10,3 +10,4 @@ rmesg
 onehistory
 tokio-process
 dbus-codegen
+httpmock
