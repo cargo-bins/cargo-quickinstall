@@ -54,3 +54,4 @@ solana-validator
 spider_worker
 cpp_demangle
 quick-junit
+nu_plugin_query
