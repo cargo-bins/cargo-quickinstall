@@ -6,3 +6,4 @@ coreos-installer
 deploy
 onehistory
 rmesg
+diesel_cli
