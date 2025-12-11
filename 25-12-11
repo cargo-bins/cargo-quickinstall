@@ -5,3 +5,4 @@ nkeys
 socketcan
 controller
 dbus-codegen
+httpmock
