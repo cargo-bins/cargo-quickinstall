@@ -15,3 +15,4 @@ msedit
 socketcan
 nextest
 controller
+httpmock
