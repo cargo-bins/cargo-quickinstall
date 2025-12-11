@@ -2,3 +2,4 @@ libcst
 httpmock
 re_query
 nkeys
+socketcan
