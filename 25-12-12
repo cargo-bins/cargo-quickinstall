@@ -23,3 +23,4 @@ cargo-lock
 cargo-flash
 git-mit
 probe-rs-debugger
+cargo-flash
