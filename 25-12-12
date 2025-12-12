@@ -85,3 +85,4 @@ cargo-lambda
 hurl
 xbuild
 pulsar-cli
+unic-langid-impl
