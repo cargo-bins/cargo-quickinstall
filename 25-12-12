@@ -81,3 +81,4 @@ website_crawler
 hurl
 typst-cli
 burn-tch
+cargo-lambda
