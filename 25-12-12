@@ -16,3 +16,4 @@ cargo-dylint
 nu_plugin_query
 netavark
 solana-faucet
+schemafy
