@@ -14,3 +14,4 @@ apollo-router
 investments
 rpki
 deploy
+cargo-local-registry
