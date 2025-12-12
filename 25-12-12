@@ -69,3 +69,4 @@ crypto-cli-tools
 pulsar-cli
 superseedr
 clippy
+cargo-dylint
