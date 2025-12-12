@@ -32,3 +32,4 @@ shadowsocks-rust
 oclock
 apollo-router
 rustnet-monitor
+clippy
