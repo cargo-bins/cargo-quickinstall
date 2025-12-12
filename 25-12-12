@@ -43,3 +43,4 @@ toktop
 tendermint-abci
 rustnet-monitor
 tree-sitter-cli
+shadowsocks-rust
