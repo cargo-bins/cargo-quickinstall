@@ -8,3 +8,4 @@ diesel_cli
 skim
 zellij
 cargo-flash
+probe-rs-debugger
