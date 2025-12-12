@@ -31,3 +31,4 @@ nu_plugin_query
 shadowsocks-rust
 oclock
 apollo-router
+rustnet-monitor
