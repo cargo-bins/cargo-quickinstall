@@ -71,3 +71,4 @@ contracts-node
 commit_verify
 jj
 clippy
+xbuild
