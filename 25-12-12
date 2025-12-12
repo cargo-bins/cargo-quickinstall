@@ -38,3 +38,4 @@ crypto-cli-tools
 bpf-linker
 human_bytes
 git-mit-config
+commit_verify
