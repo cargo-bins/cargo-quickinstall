@@ -30,3 +30,4 @@ warcat
 tree-sitter-cli
 sniffnet
 contracts-node
+cargo-lock
