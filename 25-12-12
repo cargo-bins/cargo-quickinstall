@@ -7,3 +7,4 @@ spider_cli
 shadowsocks-rust
 jj
 oclock
+rustnet-monitor
