@@ -59,3 +59,4 @@ shadowsocks-rust
 clippy
 rpki
 superseedr
+xbuild
