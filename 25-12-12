@@ -33,3 +33,4 @@ rpki
 deploy
 bpf-linker
 cargo-local-registry
+bpf-linker
