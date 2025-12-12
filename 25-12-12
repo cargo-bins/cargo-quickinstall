@@ -16,3 +16,4 @@ rpki
 deploy
 cargo-local-registry
 crypto-cli-tools
+human_bytes
