@@ -15,3 +15,4 @@ investments
 rpki
 deploy
 cargo-local-registry
+crypto-cli-tools
