@@ -41,3 +41,4 @@ r3bl_tuify
 contracts-node
 stellar-xdr
 probe-rs-tools
+nu_plugin_query
