@@ -93,3 +93,4 @@ contracts-node
 website_crawler
 burn-tch
 typst-cli
+cargo-lambda
