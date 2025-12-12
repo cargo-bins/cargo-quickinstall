@@ -35,3 +35,4 @@ rustnet-monitor
 clippy
 hurl
 superseedr
+pulsar-cli
