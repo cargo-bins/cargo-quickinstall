@@ -35,3 +35,4 @@ bpf-linker
 cargo-local-registry
 bpf-linker
 crypto-cli-tools
+bpf-linker
