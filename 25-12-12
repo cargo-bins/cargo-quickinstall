@@ -21,3 +21,4 @@ probe-rs-debugger
 cargo-flash
 cargo-lock
 cargo-flash
+git-mit
