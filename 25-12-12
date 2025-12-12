@@ -33,3 +33,4 @@ contracts-node
 cargo-lock
 xbuild
 jj
+nu_plugin_query
