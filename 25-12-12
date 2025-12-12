@@ -54,3 +54,4 @@ clippy
 deploy
 tree-sitter-cli
 crypto-cli-tools
+pulsar-cli
