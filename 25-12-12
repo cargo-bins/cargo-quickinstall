@@ -70,3 +70,4 @@ rabbitmqadmin
 contracts-node
 commit_verify
 jj
+clippy
