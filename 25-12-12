@@ -22,3 +22,4 @@ probe-rs-tools
 neovide
 tree-sitter-cli
 toktop
+xbuild
