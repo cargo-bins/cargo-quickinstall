@@ -72,3 +72,4 @@ commit_verify
 jj
 clippy
 xbuild
+cargo-lambda
