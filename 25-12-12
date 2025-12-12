@@ -71,3 +71,4 @@ superseedr
 clippy
 cargo-dylint
 hurl
+human_bytes
