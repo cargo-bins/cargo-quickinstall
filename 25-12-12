@@ -12,3 +12,4 @@ probe-rs-debugger
 mit-prepare-commit-msg
 zellij
 cargo-flash
+zellij
