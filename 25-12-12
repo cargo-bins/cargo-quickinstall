@@ -41,3 +41,4 @@ xbuild
 tree-sitter-cli
 toktop
 tendermint-abci
+rustnet-monitor
