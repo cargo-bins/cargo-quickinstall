@@ -18,3 +18,4 @@ cargo-local-registry
 crypto-cli-tools
 human_bytes
 exa
+sn_node
