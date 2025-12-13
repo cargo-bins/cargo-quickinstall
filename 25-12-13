@@ -13,3 +13,4 @@ typst-cli
 clippy
 rustup-toolchain-install-master
 typst-cli
+uniffi
