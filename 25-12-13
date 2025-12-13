@@ -15,3 +15,4 @@ oatmeal
 cargo-dylint
 rustup-toolchain-install-master
 typst-cli
+cargo-lambda
