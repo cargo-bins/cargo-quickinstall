@@ -6,3 +6,4 @@ cargo-lambda
 rustup-toolchain-install-master
 solana-genesis
 uniffi
+git-disjoint
