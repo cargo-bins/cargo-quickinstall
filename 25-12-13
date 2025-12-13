@@ -18,3 +18,4 @@ unic-langid-impl
 stellar-strkey
 deno
 raw-cpuid
+clap-stdin
