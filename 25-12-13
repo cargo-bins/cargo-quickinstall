@@ -7,3 +7,4 @@ xargo
 xbuild
 typst-cli
 speedtest-rs
+httpmock
