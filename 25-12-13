@@ -11,3 +11,4 @@ solana-genesis
 uniffi
 git-disjoint
 dotenv-flow
+unic-langid-impl
