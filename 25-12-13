@@ -25,3 +25,4 @@ raw-cpuid
 clap-stdin
 rustfmt-nightly
 sha1collisiondetection
+mdbook
