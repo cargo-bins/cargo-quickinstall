@@ -8,3 +8,4 @@ rustup-toolchain-install-master
 solana-genesis
 uniffi
 git-disjoint
+dotenv-flow
