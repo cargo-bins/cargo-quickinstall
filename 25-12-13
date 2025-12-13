@@ -6,3 +6,4 @@ rustup-toolchain-install-master
 solana-genesis
 git-disjoint
 dotenv-flow
+sea-orm-cli
