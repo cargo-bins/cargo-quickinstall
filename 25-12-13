@@ -4,3 +4,4 @@ holochain
 website_crawler
 cargo-local-registry
 solana-genesis
+uniffi
