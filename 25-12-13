@@ -22,3 +22,4 @@ ext-sort
 dotenv
 sass-rs
 cargo-hold
+unic-langid-impl
