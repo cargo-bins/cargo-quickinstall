@@ -29,3 +29,4 @@ raw-cpuid
 clap-stdin
 rustfmt-nightly
 sha1collisiondetection
+process_viewer
