@@ -27,3 +27,4 @@ bpf-linker
 deno
 raw-cpuid
 cargo-local-registry
+clap-stdin
