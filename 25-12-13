@@ -13,3 +13,4 @@ cargo-generate
 cargo-leptos
 unic-langid-impl
 mit-pre-commit
+rustbus
