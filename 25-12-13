@@ -25,3 +25,4 @@ cargo-hold
 unic-langid-impl
 stellar-strkey
 deno
+raw-cpuid
