@@ -27,3 +27,4 @@ zuse
 raw-cpuid
 clap-stdin
 cargo-lock
+sha1collisiondetection
