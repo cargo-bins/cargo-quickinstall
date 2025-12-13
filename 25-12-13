@@ -7,3 +7,4 @@ solana-genesis
 uniffi
 git-mit-config
 git-disjoint
+dotenv-flow
