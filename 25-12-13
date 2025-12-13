@@ -19,3 +19,4 @@ stellar-strkey
 deno
 raw-cpuid
 clap-stdin
+sha1collisiondetection
