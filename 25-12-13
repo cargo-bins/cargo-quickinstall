@@ -12,3 +12,4 @@ dotenv-flow
 sea-orm-cli
 unic-langid-impl
 textplots
+quick-junit
