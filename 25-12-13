@@ -34,3 +34,4 @@ rustup-toolchain-install-master
 oatmeal
 textplots
 quick-junit
+pwasm-utils
