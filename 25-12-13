@@ -30,3 +30,4 @@ cargo-local-registry
 clap-stdin
 rustfmt-nightly
 sha1collisiondetection
+process_viewer
