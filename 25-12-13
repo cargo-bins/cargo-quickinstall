@@ -14,3 +14,4 @@ cargo-leptos
 unic-langid-impl
 mit-pre-commit
 rustbus
+textplots
