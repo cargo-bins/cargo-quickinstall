@@ -8,3 +8,4 @@ xbuild
 typst-cli
 speedtest-rs
 httpmock
+website_crawler
