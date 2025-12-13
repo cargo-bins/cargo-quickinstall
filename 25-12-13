@@ -4,3 +4,4 @@ speedtest-rs
 xargo
 typst-cli
 cargo-lambda
+httpmock
