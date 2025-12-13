@@ -10,3 +10,4 @@ speedtest-rs
 httpmock
 website_crawler
 cargo-lambda
+cargo-dylint
