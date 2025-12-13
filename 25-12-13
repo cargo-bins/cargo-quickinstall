@@ -24,3 +24,4 @@ raw-cpuid
 clap-stdin
 cargo-lock
 rustfmt-nightly
+sha1collisiondetection
