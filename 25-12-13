@@ -10,3 +10,4 @@ git-disjoint
 dotenv-flow
 tokio-process
 cargo-generate
+cargo-leptos
