@@ -21,3 +21,4 @@ speedtest-rs
 uniffi
 git-disjoint
 typst-cli
+dotenv-flow
