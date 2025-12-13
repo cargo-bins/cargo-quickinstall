@@ -6,3 +6,4 @@ typst-cli
 cargo-lambda
 httpmock
 clippy
+website_crawler
