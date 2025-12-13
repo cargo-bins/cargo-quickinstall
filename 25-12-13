@@ -8,3 +8,4 @@ solana-genesis
 uniffi
 git-disjoint
 dotenv-flow
+sea-orm-cli
