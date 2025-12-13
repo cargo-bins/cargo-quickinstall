@@ -17,3 +17,4 @@ syd
 ext-sort
 dotenv
 sass-rs
+unic-langid-impl
