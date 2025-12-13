@@ -8,3 +8,4 @@ uniffi
 git-mit-config
 git-disjoint
 dotenv-flow
+cargo-generate
