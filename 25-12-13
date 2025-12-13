@@ -42,3 +42,4 @@ mise
 clap-stdin
 rustfmt-nightly
 mise
+sha1collisiondetection
