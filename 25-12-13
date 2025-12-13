@@ -32,3 +32,4 @@ unic-langid-impl
 stellar-strkey
 dua-cli
 raw-cpuid
+cargo-local-registry
