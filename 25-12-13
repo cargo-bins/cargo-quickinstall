@@ -6,3 +6,4 @@ website_crawler
 cargo-lambda
 rustup-toolchain-install-master
 solana-genesis
+uniffi
