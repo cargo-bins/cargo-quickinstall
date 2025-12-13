@@ -39,3 +39,4 @@ spider_cli
 deno
 raw-cpuid
 mise
+clap-stdin
