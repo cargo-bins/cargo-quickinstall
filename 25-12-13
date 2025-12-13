@@ -15,3 +15,4 @@ unic-langid-impl
 cargo-hold
 textplots
 quick-junit
+pwasm-utils
