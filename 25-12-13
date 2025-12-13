@@ -10,3 +10,4 @@ rustup-toolchain-install-master
 git-disjoint
 dotenv-flow
 sea-orm-cli
+unic-langid-impl
