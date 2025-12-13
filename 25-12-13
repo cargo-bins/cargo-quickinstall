@@ -11,3 +11,4 @@ dotenv-flow
 cargo-generate
 cargo-leptos
 fg
+unic-langid-impl
