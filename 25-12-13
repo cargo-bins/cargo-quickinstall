@@ -41,3 +41,4 @@ raw-cpuid
 mise
 clap-stdin
 rustfmt-nightly
+mise
