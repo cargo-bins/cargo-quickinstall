@@ -34,3 +34,4 @@ dua-cli
 raw-cpuid
 cargo-local-registry
 clap-stdin
+rustfmt-nightly
