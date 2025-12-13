@@ -27,3 +27,4 @@ deno
 zuse
 raw-cpuid
 clap-stdin
+rustfmt-nightly
