@@ -10,3 +10,4 @@ git-disjoint
 dotenv-flow
 cargo-generate
 cargo-leptos
+fg
