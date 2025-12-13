@@ -5,3 +5,4 @@ website_crawler
 cargo-local-registry
 solana-genesis
 uniffi
+git-mit-config
