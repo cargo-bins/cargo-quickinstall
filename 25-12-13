@@ -3,3 +3,4 @@ httpmock
 holochain
 fermium
 website_crawler
+cargo-local-registry
