@@ -25,3 +25,4 @@ sass-rs
 unic-langid-impl
 bpf-linker
 deno
+raw-cpuid
