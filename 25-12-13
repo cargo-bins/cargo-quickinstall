@@ -28,3 +28,4 @@ raw-cpuid
 clap-stdin
 cargo-lock
 sha1collisiondetection
+process_viewer
