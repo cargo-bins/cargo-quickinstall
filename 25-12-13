@@ -14,3 +14,4 @@ cargo-dylint
 oatmeal
 cargo-dylint
 rustup-toolchain-install-master
+typst-cli
