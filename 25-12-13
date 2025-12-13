@@ -22,3 +22,4 @@ deno
 zuse
 raw-cpuid
 clap-stdin
+cargo-lock
