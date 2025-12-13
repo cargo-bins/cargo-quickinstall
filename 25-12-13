@@ -13,3 +13,4 @@ cargo-lambda
 cargo-dylint
 oatmeal
 cargo-dylint
+rustup-toolchain-install-master
