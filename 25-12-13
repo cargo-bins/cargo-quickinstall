@@ -5,3 +5,4 @@ fermium
 website_crawler
 cargo-local-registry
 solana-genesis
+git-mit-config
