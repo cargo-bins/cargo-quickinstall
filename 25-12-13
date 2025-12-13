@@ -7,3 +7,4 @@ solana-genesis
 git-disjoint
 dotenv-flow
 sea-orm-cli
+nexmark
