@@ -20,3 +20,4 @@ sass-rs
 unic-langid-impl
 deno
 zuse
+raw-cpuid
