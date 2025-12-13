@@ -13,3 +13,4 @@ sea-orm-cli
 unic-langid-impl
 textplots
 quick-junit
+pwasm-utils
