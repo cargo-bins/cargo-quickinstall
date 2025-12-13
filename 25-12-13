@@ -14,3 +14,4 @@ clippy
 rustup-toolchain-install-master
 typst-cli
 uniffi
+git-disjoint
