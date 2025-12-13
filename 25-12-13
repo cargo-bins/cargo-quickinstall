@@ -11,3 +11,4 @@ git-disjoint
 dotenv-flow
 sea-orm-cli
 unic-langid-impl
+textplots
