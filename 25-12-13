@@ -28,3 +28,4 @@ deno
 raw-cpuid
 clap-stdin
 sha1collisiondetection
+process_viewer
