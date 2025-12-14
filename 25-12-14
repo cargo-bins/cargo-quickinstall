@@ -30,3 +30,4 @@ cargo-binstall
 paru
 process_viewer
 libbpf-cargo
+cargo-binstall
