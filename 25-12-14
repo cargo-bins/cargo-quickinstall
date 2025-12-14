@@ -10,3 +10,4 @@ minicbor
 racer
 nkeys
 rustfmt
+cargo-leptos
