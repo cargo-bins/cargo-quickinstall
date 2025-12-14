@@ -25,3 +25,4 @@ qsv
 fsf
 cargo-pgrx
 cargo-bundle
+opencv-binding-generator
