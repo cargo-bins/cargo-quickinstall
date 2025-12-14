@@ -1,3 +1,4 @@
 honggfuzz
 cpp_demangle
 sha1collisiondetection
+miden-crypto
