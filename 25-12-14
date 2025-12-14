@@ -28,3 +28,4 @@ cargo-bundle
 opencv-binding-generator
 cargo-binstall
 paru
+process_viewer
