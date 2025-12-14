@@ -32,3 +32,4 @@ process_viewer
 libbpf-cargo
 cargo-binstall
 solana-genesis
+cargo-bundle
