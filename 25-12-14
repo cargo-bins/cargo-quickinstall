@@ -15,3 +15,4 @@ qsv
 cargo-pgrx
 opencv-binding-generator
 process_viewer
+solana-genesis
