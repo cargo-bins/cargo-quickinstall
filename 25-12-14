@@ -30,3 +30,4 @@ opencv-binding-generator
 cargo-bundle
 process_viewer
 pgrx-tests
+libbpf-cargo
