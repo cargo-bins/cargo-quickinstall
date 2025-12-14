@@ -17,3 +17,4 @@ holochain
 process_viewer
 libbpf-cargo
 solana-genesis
+tunein-cli
