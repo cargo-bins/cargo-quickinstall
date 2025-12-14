@@ -32,3 +32,4 @@ process_viewer
 pgrx-tests
 libbpf-cargo
 solana-genesis
+net-tools-rs
