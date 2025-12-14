@@ -5,3 +5,4 @@ mdbook
 cpp_demangle
 sha1collisiondetection
 opencv-binding-generator
+miden-crypto
