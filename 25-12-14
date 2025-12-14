@@ -6,3 +6,4 @@ miden-crypto
 rustrict
 cargo-mutants
 xargo
+dotenvy
