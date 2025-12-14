@@ -3,3 +3,4 @@ mdbook
 cargo-mobile2
 mdbook
 cpp_demangle
+sha1collisiondetection
