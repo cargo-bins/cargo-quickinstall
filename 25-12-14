@@ -3,3 +3,4 @@ cpp_demangle
 sha1collisiondetection
 cargo-binstall
 cargo-dylint
+opencv-binding-generator
