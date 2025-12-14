@@ -5,3 +5,4 @@ cargo-binstall
 cargo-dylint
 opencv-binding-generator
 cargo-whatfeatures
+cargo-dylint
