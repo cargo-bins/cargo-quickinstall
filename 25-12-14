@@ -1,3 +1,4 @@
 dotenv
 cpp_demangle
 sha1collisiondetection
+cargo-hold
