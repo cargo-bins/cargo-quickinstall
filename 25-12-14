@@ -4,3 +4,4 @@ sha1collisiondetection
 cargo-hold
 miden-crypto
 opencv-binding-generator
+pandora_box
