@@ -31,3 +31,4 @@ cargo-bundle
 process_viewer
 pgrx-tests
 libbpf-cargo
+solana-genesis
