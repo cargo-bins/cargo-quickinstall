@@ -19,3 +19,4 @@ process_viewer
 pgrx-tests
 solana-genesis
 libbpf-cargo
+solana-faucet
