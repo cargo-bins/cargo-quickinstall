@@ -11,3 +11,4 @@ racer
 nkeys
 rustfmt
 cargo-leptos
+ext-sort
