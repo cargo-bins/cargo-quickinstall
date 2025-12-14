@@ -29,3 +29,4 @@ opencv-binding-generator
 cargo-binstall
 paru
 process_viewer
+libbpf-cargo
