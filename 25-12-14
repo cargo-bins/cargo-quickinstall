@@ -3,3 +3,4 @@ cpp_demangle
 sha1collisiondetection
 cargo-hold
 miden-crypto
+opencv-binding-generator
