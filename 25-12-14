@@ -19,3 +19,4 @@ ec2_instance_metadata
 opencv-binding-generator
 holochain
 process_viewer
+solana-genesis
