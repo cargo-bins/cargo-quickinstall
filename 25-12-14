@@ -38,3 +38,4 @@ cargo-bundle
 solana-faucet
 cargo-binstall
 fsf
+net-tools-rs
