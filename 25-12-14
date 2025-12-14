@@ -10,3 +10,4 @@ cargo-dylint
 alacritty
 rustrict
 cargo-mutants
+cargo-binstall
