@@ -11,3 +11,4 @@ mise
 cargo-binstall
 rustrict
 dotenvy
+cargo-dylint
