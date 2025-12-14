@@ -3,3 +3,4 @@ cpp_demangle
 sha1collisiondetection
 cargo-risczero
 opencv-binding-generator
+miden-crypto
