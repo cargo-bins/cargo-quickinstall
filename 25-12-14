@@ -16,3 +16,4 @@ git-mit
 qsv
 statime-linux
 ec2_instance_metadata
+opencv-binding-generator
