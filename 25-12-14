@@ -12,3 +12,4 @@ cargo-binstall
 rustrict
 dotenvy
 cargo-dylint
+minicbor
