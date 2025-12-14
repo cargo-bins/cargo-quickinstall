@@ -9,3 +9,4 @@ miden-crypto
 rustrict
 cargo-mutants
 dotenvy
+minicbor
