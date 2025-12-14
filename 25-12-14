@@ -12,3 +12,4 @@ ext-sort
 qsv
 opencv-binding-generator
 process_viewer
+libbpf-cargo
