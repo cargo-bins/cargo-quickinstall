@@ -34,3 +34,4 @@ cargo-binstall
 solana-genesis
 cargo-bundle
 fsf
+solana-faucet
