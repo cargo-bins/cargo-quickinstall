@@ -17,3 +17,4 @@ qsv
 opencv-binding-generator
 process_viewer
 solana-genesis
+solana-faucet
