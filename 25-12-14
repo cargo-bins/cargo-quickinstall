@@ -13,3 +13,4 @@ nkeys
 ext-sort
 qsv
 cargo-pgrx
+opencv-binding-generator
