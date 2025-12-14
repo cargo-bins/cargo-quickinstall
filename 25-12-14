@@ -9,3 +9,4 @@ cargo-dylint
 cargo-dylint
 alacritty
 rustrict
+cargo-mutants
