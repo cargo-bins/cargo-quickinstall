@@ -13,3 +13,4 @@ rtx-cli
 schemafy
 rls-rustc
 racer
+clippy
