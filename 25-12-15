@@ -3,3 +3,4 @@ kickstart
 kickstart
 paperclip
 sha1collisiondetection
+crc-fast
