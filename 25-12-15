@@ -21,3 +21,4 @@ spider_worker
 dioxus-cli
 spl-token-cli
 nkeys
+nextest
