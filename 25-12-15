@@ -6,3 +6,4 @@ cargo-bundle
 sha1collisiondetection
 remove_dir_all
 forgejo-cli
+librespot
