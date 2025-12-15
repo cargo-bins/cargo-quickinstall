@@ -17,3 +17,4 @@ wmi
 sha1collisiondetection
 proof-of-sql
 quick-junit
+nominal-api
