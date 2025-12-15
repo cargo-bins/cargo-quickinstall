@@ -25,3 +25,4 @@ nextest
 solana-stake-accounts
 esp-config
 alacritty
+rtx-cli
