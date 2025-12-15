@@ -12,3 +12,4 @@ cargo-risczero
 nkeys
 datavzrd
 benfred-read-process-memory
+sha1collisiondetection
