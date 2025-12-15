@@ -8,3 +8,4 @@ cargo-bundle
 sha1collisiondetection
 python-project-generator
 crc-fast
+remove_dir_all
