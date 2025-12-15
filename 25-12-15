@@ -16,3 +16,4 @@ nkeys
 wmi
 sha1collisiondetection
 proof-of-sql
+quick-junit
