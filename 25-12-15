@@ -25,3 +25,4 @@ sass-rs
 cargo-msrv
 proof-of-sql
 quick-junit
+cargo-msrv
