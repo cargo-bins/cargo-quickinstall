@@ -19,3 +19,4 @@ cargo-bundle
 python-project-generator
 spider_worker
 dioxus-cli
+spl-token-cli
