@@ -3,3 +3,4 @@ perfcnt
 sha1collisiondetection
 remove_dir_all
 librespot
+sea-orm-cli
