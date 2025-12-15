@@ -24,3 +24,4 @@ sha1collisiondetection
 sass-rs
 cargo-msrv
 proof-of-sql
+quick-junit
