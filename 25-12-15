@@ -5,3 +5,4 @@ remove_dir_all
 burn-tch
 skim
 rtx-cli
+schemafy
