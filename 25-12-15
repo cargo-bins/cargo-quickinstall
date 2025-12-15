@@ -12,3 +12,4 @@ solana-stake-accounts
 rtx-cli
 schemafy
 rls-rustc
+racer
