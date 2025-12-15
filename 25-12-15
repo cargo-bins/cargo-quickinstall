@@ -6,3 +6,4 @@ crc-fast
 remove_dir_all
 librespot
 sea-orm-cli
+nkeys
