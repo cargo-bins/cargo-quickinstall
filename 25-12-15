@@ -6,3 +6,4 @@ sha1collisiondetection
 crc-fast
 remove_dir_all
 burn-tch
+lua-astra
