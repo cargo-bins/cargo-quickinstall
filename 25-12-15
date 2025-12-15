@@ -31,3 +31,4 @@ dioxus-cli
 rsworktree
 nkeys
 forgejo-cli
+nextest
