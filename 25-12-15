@@ -22,3 +22,4 @@ dioxus-cli
 spl-token-cli
 nkeys
 nextest
+solana-stake-accounts
