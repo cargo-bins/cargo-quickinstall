@@ -30,3 +30,4 @@ cargo-patch
 dioxus-cli
 rsworktree
 nkeys
+forgejo-cli
