@@ -3,3 +3,4 @@ dioxus-cli
 paperclip
 rsworktree
 cargo-bundle
+sha1collisiondetection
