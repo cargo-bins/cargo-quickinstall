@@ -33,3 +33,4 @@ nkeys
 forgejo-cli
 nextest
 zuse
+python-project-generator
