@@ -13,3 +13,4 @@ spl-token-cli
 rsworktree
 python-project-generator
 alacritty
+forgejo-cli
