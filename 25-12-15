@@ -22,3 +22,4 @@ zuse
 datavzrd
 sha1collisiondetection
 sass-rs
+cargo-msrv
