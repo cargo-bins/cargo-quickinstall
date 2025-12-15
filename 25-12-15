@@ -17,3 +17,4 @@ rsworktree
 forgejo-cli
 cargo-bundle
 python-project-generator
+spider_worker
