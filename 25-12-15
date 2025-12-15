@@ -5,3 +5,4 @@ sha1collisiondetection
 remove_dir_all
 burn-tch
 librespot
+sea-orm-cli
