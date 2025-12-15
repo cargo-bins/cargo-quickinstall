@@ -4,3 +4,4 @@ kickstart
 paperclip
 sha1collisiondetection
 crc-fast
+remove_dir_all
