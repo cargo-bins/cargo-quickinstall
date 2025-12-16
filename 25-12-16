@@ -9,3 +9,4 @@ cargo-msrv
 opencv-binding-generator
 solana-stake-accounts
 website_crawler
+arrow-flight
