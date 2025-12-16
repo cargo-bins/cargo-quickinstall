@@ -3,3 +3,4 @@ rls-rustc
 lingua
 rpki
 nextest
+commit_verify
