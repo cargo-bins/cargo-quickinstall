@@ -6,3 +6,4 @@ rpki
 safe_network
 codeberg-cli
 commit_verify
+cargo-lock
