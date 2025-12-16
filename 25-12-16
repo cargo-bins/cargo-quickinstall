@@ -19,3 +19,4 @@ cargo-lock
 shunkakinoki
 jujutsu
 cargo-copter
+sea-orm-cli
