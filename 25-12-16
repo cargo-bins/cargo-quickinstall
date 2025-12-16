@@ -32,3 +32,4 @@ cargo-patch
 rsgen-avro
 nextest
 wmi
+ctrlassist
