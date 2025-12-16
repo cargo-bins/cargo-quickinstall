@@ -31,3 +31,4 @@ binstall
 clippy
 dotenv-flow
 clippy
+build-fs-tree
