@@ -46,3 +46,4 @@ spider_cli
 ctrlassist
 rsgen-avro
 waterui-cli
+cargo-show
