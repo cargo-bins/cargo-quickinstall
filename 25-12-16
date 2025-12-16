@@ -28,3 +28,4 @@ pwasm-utils
 project_init
 dotenv-flow
 dbus-codegen
+build-fs-tree
