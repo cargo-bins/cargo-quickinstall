@@ -31,3 +31,4 @@ solana-cli
 cargo-patch
 rsgen-avro
 nextest
+wmi
