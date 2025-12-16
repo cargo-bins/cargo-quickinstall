@@ -30,3 +30,4 @@ pwasm-utils
 binstall
 clippy
 dotenv-flow
+clippy
