@@ -34,3 +34,4 @@ nextest
 wmi
 ctrlassist
 vdev
+fake
