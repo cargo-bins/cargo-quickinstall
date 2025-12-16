@@ -12,3 +12,4 @@ cargo-copter
 rpki
 waterui-cli
 mise
+forgejo-cli
