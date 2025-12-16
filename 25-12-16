@@ -6,3 +6,4 @@ commit_verify
 shunkakinoki
 arrow-flight
 cargo-msrv
+opencv-binding-generator
