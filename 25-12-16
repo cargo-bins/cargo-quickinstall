@@ -12,3 +12,4 @@ commit_verify
 shunkakinoki
 cargo-whatfeatures
 jujutsu
+nextest
