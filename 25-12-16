@@ -26,3 +26,4 @@ binstall
 clippy
 clippy
 website_crawler
+pwasm-utils
