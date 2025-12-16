@@ -52,3 +52,4 @@ pwasm-utils
 sudo-rs
 project_init
 youtube-tui
+dotenv-flow
