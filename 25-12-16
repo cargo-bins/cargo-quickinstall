@@ -28,3 +28,4 @@ nextest
 cargo-show
 youtube-tui
 solana-cli
+cargo-patch
