@@ -49,3 +49,4 @@ nexus-tui
 cargo-smart-release
 website_crawler
 pwasm-utils
+sudo-rs
