@@ -27,3 +27,4 @@ cargo-show
 nextest
 cargo-show
 youtube-tui
+solana-cli
