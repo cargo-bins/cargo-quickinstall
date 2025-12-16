@@ -57,3 +57,4 @@ nexus-tui
 rvpk
 nexus-tui
 cargo-show
+dbus-codegen
