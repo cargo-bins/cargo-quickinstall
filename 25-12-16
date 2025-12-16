@@ -14,3 +14,4 @@ cargo-whatfeatures
 jujutsu
 nextest
 arrow-flight
+opencv-binding-generator
