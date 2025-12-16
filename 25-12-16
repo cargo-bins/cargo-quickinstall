@@ -7,3 +7,4 @@ commit_verify
 binstall
 nextest
 nextest
+arrow-flight
