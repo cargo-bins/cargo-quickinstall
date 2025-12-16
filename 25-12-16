@@ -30,3 +30,4 @@ youtube-tui
 solana-cli
 cargo-patch
 rsgen-avro
+nextest
