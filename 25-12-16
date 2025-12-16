@@ -3,3 +3,4 @@ statsig-rs
 rls-rustc
 burn-tch
 rpki
+commit_verify
