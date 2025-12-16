@@ -22,3 +22,4 @@ rsgen-avro
 fake
 h3o
 honggfuzz
+pwasm-utils
