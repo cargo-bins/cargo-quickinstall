@@ -32,3 +32,4 @@ website_crawler
 tree-sitter-cli
 cargo-show
 youtube-tui
+racer
