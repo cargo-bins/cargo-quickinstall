@@ -68,3 +68,4 @@ claude-utils
 dotenv-flow
 cargo-smart-release
 claude-utils
+dbus-codegen
