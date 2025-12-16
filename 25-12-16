@@ -25,3 +25,4 @@ honggfuzz
 pwasm-utils
 dotenv-flow
 diesel_cli
+dbus-codegen
