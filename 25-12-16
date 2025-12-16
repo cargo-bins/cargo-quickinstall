@@ -46,3 +46,4 @@ rustnet-monitor
 rvpk
 claude-utils
 nexus-tui
+cargo-smart-release
