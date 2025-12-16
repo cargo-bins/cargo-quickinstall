@@ -12,3 +12,4 @@ commit_verify
 codeberg-cli
 shunkakinoki
 arrow-flight
+opencv-binding-generator
