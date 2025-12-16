@@ -25,3 +25,4 @@ cargo-whatfeatures
 unic-langid-impl
 cargo-show
 nextest
+cargo-show
