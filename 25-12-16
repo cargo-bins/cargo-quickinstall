@@ -17,3 +17,4 @@ solana-cli
 rsgen-avro
 fake
 h3o
+pwasm-utils
