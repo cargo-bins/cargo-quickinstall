@@ -27,3 +27,4 @@ clippy
 pwasm-utils
 project_init
 clippy
+dotenv-flow
