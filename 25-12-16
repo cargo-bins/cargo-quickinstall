@@ -19,3 +19,4 @@ racer
 bpf-linker
 unic-langid-impl
 statime-linux
+rsgen-avro
