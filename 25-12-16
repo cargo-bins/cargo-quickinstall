@@ -9,3 +9,4 @@ commit_verify
 cargo-lock
 arrow-flight
 arrow-flight
+website_crawler
