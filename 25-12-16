@@ -29,3 +29,4 @@ cargo-patch
 solana-stake-accounts
 cargo-whatfeatures
 website_crawler
+tree-sitter-cli
