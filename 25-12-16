@@ -5,3 +5,4 @@ forgejo-cli
 lingua
 cargo-copter
 forgejo-cli
+sea-orm-cli
