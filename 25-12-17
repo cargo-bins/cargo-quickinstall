@@ -26,3 +26,4 @@ cargo-smart-release
 claude-utils
 alacritty
 jujutsu
+cargo-binstall
