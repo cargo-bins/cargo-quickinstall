@@ -47,3 +47,4 @@ sudo-rs
 dicom-pixeldata
 sudo-rs
 cargo-embed
+safe_network
