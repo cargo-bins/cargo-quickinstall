@@ -46,3 +46,4 @@ human_name
 sudo-rs
 dicom-pixeldata
 sudo-rs
+cargo-embed
