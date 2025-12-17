@@ -5,3 +5,4 @@ process_viewer
 cargo-dylint
 crypto-cli-tools
 cargo-lambda
+cpp_demangle
