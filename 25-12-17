@@ -7,3 +7,4 @@ nextest
 cargo-dylint
 cpp_demangle
 textplots
+raw-cpuid
