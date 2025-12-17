@@ -9,3 +9,4 @@ sea-orm-cli
 vdev
 process_viewer
 vdev
+cargo-dylint
