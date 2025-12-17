@@ -2,3 +2,4 @@ cargo-show
 miden-crypto
 nexus-tui
 rvpk
+build-fs-tree
