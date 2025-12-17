@@ -6,3 +6,4 @@ cargo-dylint
 crypto-cli-tools
 cargo-lambda
 cpp_demangle
+papyrus_storage
