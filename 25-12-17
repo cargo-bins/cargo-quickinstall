@@ -9,3 +9,4 @@ build-fs-tree
 vdev
 vdev
 cargo-dylint
+vdev
