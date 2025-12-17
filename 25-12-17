@@ -48,3 +48,4 @@ dicom-pixeldata
 sudo-rs
 cargo-embed
 safe_network
+kanidm_tools
