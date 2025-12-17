@@ -11,3 +11,4 @@ clippy
 xargo
 cargo-lambda
 socketcan
+crypto-cli-tools
