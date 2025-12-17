@@ -28,3 +28,4 @@ sea-orm-cli
 cargo-smart-release
 papyrus_storage
 nexus-tui
+raw-cpuid
