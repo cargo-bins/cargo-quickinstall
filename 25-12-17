@@ -8,3 +8,4 @@ cargo-lambda
 cpp_demangle
 papyrus_storage
 clippy
+xargo
