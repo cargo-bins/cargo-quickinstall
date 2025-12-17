@@ -43,3 +43,4 @@ crypto-cli-tools
 cargo-embed
 miden-crypto
 java-locator
+cargo-smart-release
