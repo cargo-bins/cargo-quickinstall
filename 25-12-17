@@ -5,3 +5,4 @@ build-fs-tree
 nextest
 nextest
 cargo-dylint
+cpp_demangle
