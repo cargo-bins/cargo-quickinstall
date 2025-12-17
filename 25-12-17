@@ -40,3 +40,4 @@ jujutsu
 claude-utils
 socketcan
 crypto-cli-tools
+cargo-embed
