@@ -36,3 +36,4 @@ dicom-pixeldata
 fresh-editor
 cargo-embed
 socketcan
+sudo-rs
