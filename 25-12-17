@@ -3,3 +3,4 @@ miden-crypto
 build-fs-tree
 process_viewer
 cargo-dylint
+build-fs-tree
