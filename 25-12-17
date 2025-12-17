@@ -35,3 +35,4 @@ xargo
 dicom-pixeldata
 fresh-editor
 cargo-embed
+socketcan
