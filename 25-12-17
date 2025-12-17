@@ -55,3 +55,4 @@ cargo-embed
 tree-sitter-md
 kanidm_tools
 loctree
+sha1collisiondetection
