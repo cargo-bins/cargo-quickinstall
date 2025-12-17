@@ -12,3 +12,4 @@ xargo
 cargo-lambda
 socketcan
 crypto-cli-tools
+miden-crypto
