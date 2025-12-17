@@ -3,3 +3,4 @@ cargo-smart-release
 claude-utils
 claude-utils
 miden-crypto
+build-fs-tree
