@@ -7,3 +7,4 @@ vdev
 build-fs-tree
 sea-orm-cli
 vdev
+process_viewer
