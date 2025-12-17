@@ -22,3 +22,4 @@ human_name
 safe_network
 human_name
 dprint
+ec2_instance_metadata
