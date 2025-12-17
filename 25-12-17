@@ -19,3 +19,4 @@ crypto-cli-tools
 sudo-rs
 cargo-smart-release
 jujutsu
+cpp_demangle
