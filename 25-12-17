@@ -4,3 +4,4 @@ miden-crypto
 cargo-generate
 build-fs-tree
 rga
+httm
