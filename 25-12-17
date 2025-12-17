@@ -18,3 +18,4 @@ esp-config
 tree-sitter-md
 libcst
 esp-config
+sha1collisiondetection
