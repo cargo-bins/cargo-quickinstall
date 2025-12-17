@@ -43,3 +43,4 @@ miden-crypto
 cargo-embed
 java-locator
 human_name
+sudo-rs
