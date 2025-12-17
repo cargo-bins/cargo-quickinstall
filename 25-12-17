@@ -21,3 +21,4 @@ cargo-smart-release
 jujutsu
 cpp_demangle
 cargo-binstall
+sudo-rs
