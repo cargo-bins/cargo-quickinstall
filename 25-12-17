@@ -30,3 +30,4 @@ cargo-binstall
 fresh-editor
 sudo-rs
 cargo-smart-release
+raw-cpuid
