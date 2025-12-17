@@ -4,3 +4,4 @@ build-fs-tree
 process_viewer
 cargo-dylint
 crypto-cli-tools
+cargo-lambda
