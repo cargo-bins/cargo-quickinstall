@@ -4,3 +4,4 @@ miden-crypto
 build-fs-tree
 nextest
 nextest
+cargo-dylint
