@@ -38,3 +38,4 @@ cargo-embed
 socketcan
 sudo-rs
 fresh-editor
+crypto-cli-tools
