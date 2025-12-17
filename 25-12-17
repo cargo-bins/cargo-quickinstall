@@ -9,3 +9,4 @@ cpp_demangle
 papyrus_storage
 clippy
 xargo
+cargo-lambda
