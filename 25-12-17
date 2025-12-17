@@ -33,3 +33,4 @@ cargo-smart-release
 raw-cpuid
 sudo-rs
 claude-utils
+xargo
