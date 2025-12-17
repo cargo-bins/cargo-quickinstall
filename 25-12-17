@@ -21,3 +21,4 @@ sea-orm-cli
 cpp_demangle
 sudo-rs
 vdev
+claude-utils
