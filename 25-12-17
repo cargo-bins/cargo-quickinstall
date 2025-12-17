@@ -44,3 +44,4 @@ cargo-embed
 java-locator
 human_name
 sudo-rs
+dicom-pixeldata
