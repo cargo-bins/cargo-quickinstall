@@ -19,3 +19,4 @@ safe_network
 dprint
 tree-sitter-md
 av-scenechange
+libcst
