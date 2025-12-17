@@ -1,3 +1,4 @@
 clippy
 nextest
 miden-crypto
+build-fs-tree
