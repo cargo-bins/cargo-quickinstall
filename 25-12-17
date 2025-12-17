@@ -10,3 +10,4 @@ papyrus_storage
 clippy
 xargo
 cargo-lambda
+socketcan
