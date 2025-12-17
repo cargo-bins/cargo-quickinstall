@@ -10,3 +10,4 @@ cpp_demangle
 clippy
 cargo-lambda
 socketcan
+crypto-cli-tools
