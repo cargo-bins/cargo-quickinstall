@@ -12,3 +12,4 @@ cargo-dylint
 vdev
 crypto-cli-tools
 cpp_demangle
+clippy
