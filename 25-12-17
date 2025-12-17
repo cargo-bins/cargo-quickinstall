@@ -4,3 +4,4 @@ cargo-generate
 build-fs-tree
 httm
 process_viewer
+crypto-cli-tools
