@@ -18,3 +18,4 @@ crypto-cli-tools
 sudo-rs
 alacritty
 sea-orm-cli
+cpp_demangle
