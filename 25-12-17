@@ -22,3 +22,4 @@ jujutsu
 cpp_demangle
 cargo-binstall
 sudo-rs
+sea-orm-cli
