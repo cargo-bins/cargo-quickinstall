@@ -3,3 +3,4 @@ miden-crypto
 cargo-generate
 build-fs-tree
 httm
+process_viewer
