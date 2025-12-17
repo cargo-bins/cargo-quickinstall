@@ -17,3 +17,4 @@ nexus-tui
 fresh-editor
 crypto-cli-tools
 sudo-rs
+cargo-smart-release
