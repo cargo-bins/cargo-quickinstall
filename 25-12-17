@@ -7,3 +7,4 @@ cpp_demangle
 raw-cpuid
 xargo
 socketcan
+miden-crypto
