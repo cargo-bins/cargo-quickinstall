@@ -20,3 +20,4 @@ dprint
 tree-sitter-md
 av-scenechange
 libcst
+sha1collisiondetection
