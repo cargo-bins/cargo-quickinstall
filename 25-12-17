@@ -12,3 +12,4 @@ vdev
 cargo-dylint
 crypto-cli-tools
 cpp_demangle
+textplots
