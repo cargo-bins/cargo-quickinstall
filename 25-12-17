@@ -6,3 +6,4 @@ nextest
 nextest
 cargo-dylint
 cpp_demangle
+textplots
