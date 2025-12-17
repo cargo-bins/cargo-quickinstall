@@ -32,3 +32,4 @@ sudo-rs
 cargo-smart-release
 raw-cpuid
 sudo-rs
+claude-utils
