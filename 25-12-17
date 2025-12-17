@@ -11,3 +11,4 @@ process_viewer
 vdev
 cargo-dylint
 crypto-cli-tools
+cpp_demangle
