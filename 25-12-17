@@ -6,3 +6,4 @@ cargo-dylint
 build-fs-tree
 crypto-cli-tools
 cargo-lambda
+cpp_demangle
