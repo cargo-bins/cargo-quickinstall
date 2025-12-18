@@ -21,3 +21,4 @@ loctree
 loctree
 rustup-toolchain-install-master
 nextest
+deno
