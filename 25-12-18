@@ -6,3 +6,4 @@ kanidm_tools
 cargo-dylint
 vdev
 zuse
+winpty-rs
