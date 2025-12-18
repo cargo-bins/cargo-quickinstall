@@ -31,3 +31,4 @@ cargo-mutants
 wl-screenrec
 spotatui
 nextest
+tree-sitter-cli
