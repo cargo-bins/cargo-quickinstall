@@ -10,3 +10,4 @@ dotenvy
 tree-sitter-cli
 wol-rs
 gpgme
+git-disjoint
