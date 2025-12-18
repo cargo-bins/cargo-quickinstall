@@ -6,3 +6,4 @@ datavzrd
 nominal-api
 rustrict
 cargo-mutants
+dotenvy
