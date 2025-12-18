@@ -31,3 +31,4 @@ binstall
 spotatui
 tree-sitter-cli
 spotatui
+qemu-system-i386
