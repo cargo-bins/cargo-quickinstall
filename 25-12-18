@@ -53,3 +53,4 @@ cargo-size
 addr2line
 qemu-system-i386
 qemu-system-i386
+wl-screenrec
