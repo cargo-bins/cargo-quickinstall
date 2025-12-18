@@ -34,3 +34,4 @@ spotatui
 qemu-system-i386
 cargo-size
 wol-rs
+deno
