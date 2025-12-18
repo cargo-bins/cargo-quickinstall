@@ -20,3 +20,4 @@ binstall
 nextest
 loctree
 deno
+rustrict
