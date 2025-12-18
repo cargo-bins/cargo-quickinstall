@@ -37,3 +37,4 @@ wol-rs
 deno
 gpgme
 cargo-size
+qemu-system-i386
