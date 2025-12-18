@@ -28,3 +28,4 @@ rustup-toolchain-install-master
 nextest
 gloss-word
 cargo-mutants
+wl-screenrec
