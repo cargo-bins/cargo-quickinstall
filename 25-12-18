@@ -51,3 +51,4 @@ spotatui
 wl-screenrec
 cargo-size
 addr2line
+qemu-system-i386
