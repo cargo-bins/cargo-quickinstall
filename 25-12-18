@@ -11,3 +11,4 @@ tree-sitter-cli
 gpgme
 git-disjoint
 solana-validator
+libbpf-cargo
