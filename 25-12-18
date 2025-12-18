@@ -19,3 +19,4 @@ nominal-api
 binstall
 nextest
 loctree
+deno
