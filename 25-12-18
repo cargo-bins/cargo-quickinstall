@@ -46,3 +46,4 @@ solana-validator
 vdev
 binstall
 wl-screenrec
+qemu-system-i386
