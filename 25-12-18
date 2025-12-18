@@ -21,3 +21,4 @@ nextest
 loctree
 deno
 rustrict
+rustup-toolchain-install-master
