@@ -14,3 +14,4 @@ git-disjoint
 solana-validator
 libbpf-cargo
 addr2line
+libcst
