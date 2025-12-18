@@ -8,3 +8,4 @@ rustrict
 cargo-mutants
 dotenvy
 tree-sitter-cli
+gpgme
