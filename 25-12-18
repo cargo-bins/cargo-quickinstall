@@ -13,3 +13,4 @@ gpgme
 oso
 git-disjoint
 libbpf-cargo
+addr2line
