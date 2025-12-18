@@ -16,3 +16,4 @@ tokio-process
 rustrict
 hayagriva
 git-mit-install
+dotenvy
