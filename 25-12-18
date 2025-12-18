@@ -15,3 +15,4 @@ git-disjoint
 libbpf-cargo
 addr2line
 apollo-router
+syd
