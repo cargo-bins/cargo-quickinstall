@@ -38,3 +38,4 @@ deno
 gpgme
 cargo-size
 qemu-system-i386
+loctree
