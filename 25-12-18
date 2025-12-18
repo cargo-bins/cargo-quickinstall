@@ -48,3 +48,4 @@ binstall
 wl-screenrec
 qemu-system-i386
 binstall
+addr2line
