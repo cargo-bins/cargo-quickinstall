@@ -25,3 +25,4 @@ git-disjoint
 cargo-vet
 addr2line
 libcst
+syd
