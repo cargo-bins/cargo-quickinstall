@@ -13,3 +13,4 @@ datavzrd
 sqlx-cli
 nominal-api
 tokio-process
+rustrict
