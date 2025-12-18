@@ -24,3 +24,4 @@ nextest
 deno
 rustrict
 hayagriva
+rustup-toolchain-install-master
