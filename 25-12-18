@@ -50,3 +50,4 @@ spider_cli
 spotatui
 wl-screenrec
 cargo-size
+addr2line
