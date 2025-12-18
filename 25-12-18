@@ -16,3 +16,4 @@ loctree
 rustup-toolchain-install-master
 kanidm_tools
 nominal-api
+binstall
