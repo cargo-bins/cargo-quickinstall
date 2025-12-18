@@ -7,3 +7,4 @@ cargo-dylint
 vdev
 zuse
 winpty-rs
+spider_worker
