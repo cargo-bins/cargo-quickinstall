@@ -29,3 +29,4 @@ rustup-toolchain-install-master
 binstall
 binstall
 spotatui
+tree-sitter-cli
