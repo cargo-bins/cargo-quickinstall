@@ -44,3 +44,4 @@ spotatui
 loctree
 git-disjoint
 solana-validator
+cargo-size
