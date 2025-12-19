@@ -18,3 +18,4 @@ rzup
 tendermint-abci
 bpf-linker
 esp-config
+solana-ledger-tool
