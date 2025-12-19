@@ -12,3 +12,4 @@ dicom-pixeldata
 dotenv-flow
 dotenv
 arrow-flight
+apollo-router
