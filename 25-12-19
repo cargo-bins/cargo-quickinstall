@@ -27,3 +27,4 @@ hurl
 solana-stake-accounts
 spotatui
 cargo-dylint
+cargo-size
