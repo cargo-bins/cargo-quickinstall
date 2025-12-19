@@ -22,3 +22,4 @@ esp-config
 cargo-size
 ringspace
 sha1collisiondetection
+cargo-dylint
