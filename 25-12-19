@@ -41,3 +41,4 @@ dotenv-flow
 binstall
 dotenv
 ringspace
+tree-sitter-cli
