@@ -10,3 +10,4 @@ esp-config
 solana-stake-accounts
 dicom-pixeldata
 dotenv-flow
+dotenv
