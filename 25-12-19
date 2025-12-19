@@ -51,3 +51,4 @@ esp-config
 solana-stake-accounts
 rust-bert
 tree-sitter-cli
+wash-cli
