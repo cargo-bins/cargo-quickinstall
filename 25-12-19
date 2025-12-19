@@ -36,3 +36,4 @@ jj
 dotenv
 esp-config
 arrow-flight
+tree-sitter-cli
