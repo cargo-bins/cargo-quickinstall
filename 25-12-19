@@ -4,3 +4,4 @@ cpp_demangle
 cargo-depsize
 statime-linux
 cargo-depsize
+dioxus-cli
