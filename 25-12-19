@@ -16,3 +16,4 @@ arrow-flight
 iai-callgrind-runner
 rzup
 tendermint-abci
+bpf-linker
