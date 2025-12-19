@@ -17,3 +17,4 @@ solana-stake-accounts
 rust-bert
 tendermint-abci
 esp-config
+solana-ledger-tool
