@@ -42,3 +42,4 @@ binstall
 dotenv
 ringspace
 tree-sitter-cli
+bluetui
