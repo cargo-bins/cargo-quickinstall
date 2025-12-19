@@ -3,3 +3,4 @@ cpp_demangle
 dioxus-cli
 spider_cli
 rustup-toolchain-install-master
+spl-token-cli
