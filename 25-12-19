@@ -8,3 +8,4 @@ vdev
 spider_cli
 dioxus-cli
 spotatui
+cargo-size
