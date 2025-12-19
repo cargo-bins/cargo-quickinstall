@@ -20,3 +20,4 @@ bpf-linker
 esp-config
 solana-ledger-tool
 cargo-leptos
+dotenvy
