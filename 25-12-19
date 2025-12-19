@@ -21,3 +21,4 @@ dicom-pixeldata
 ncspot
 parquet
 dotenv-flow
+dotenv
