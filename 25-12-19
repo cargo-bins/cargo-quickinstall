@@ -10,3 +10,4 @@ diesel_cli
 dicom-pixeldata
 dotenv-flow
 diesel_cli
+dotenv
