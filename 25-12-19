@@ -31,3 +31,4 @@ cargo-size
 cargo-dylint
 jj
 wash-cli
+ringspace
