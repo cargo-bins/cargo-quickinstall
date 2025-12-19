@@ -50,3 +50,4 @@ sniffnet
 tendermint-abci
 esp-config
 wash-cli
+solana-ledger-tool
