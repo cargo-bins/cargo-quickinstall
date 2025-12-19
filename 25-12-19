@@ -16,3 +16,4 @@ binstall
 cargo-pgrx
 jj
 qemu-system-i386
+spl-token-cli
