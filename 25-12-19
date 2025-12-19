@@ -12,3 +12,4 @@ cargo-size
 bluetui
 ringspace
 rsgen-avro
+binstall
