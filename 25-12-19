@@ -36,3 +36,4 @@ esp-config
 cargo-size
 binstall
 hurl
+dicom-pixeldata
