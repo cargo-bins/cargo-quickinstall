@@ -11,3 +11,4 @@ proof-of-sql
 dicom-pixeldata
 dotenv-flow
 dotenv
+arrow-flight
