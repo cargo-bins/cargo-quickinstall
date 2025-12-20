@@ -36,3 +36,4 @@ sniffnet
 remove_dir_all
 crypto-cli-tools
 sniffnet
+probe-rs-cli
