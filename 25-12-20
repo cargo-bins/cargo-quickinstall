@@ -2,3 +2,4 @@ cargo-spellcheck
 sniffnet
 pwasm-utils
 dx-cli
+spider_worker
