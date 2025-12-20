@@ -18,3 +18,4 @@ tendermint-rpc
 tailtales
 dotenv
 mit-pre-commit
+human_name
