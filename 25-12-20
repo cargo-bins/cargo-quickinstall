@@ -12,3 +12,4 @@ rustbus
 rmesg
 remove_dir_all
 oso
+cargo-risczero
