@@ -10,3 +10,4 @@ libbpf-cargo
 mit-pre-commit
 rustbus
 rmesg
+remove_dir_all
