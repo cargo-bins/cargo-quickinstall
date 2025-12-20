@@ -28,3 +28,4 @@ airshipper
 tendermint-rpc
 atomic-server
 airshipper
+wayland-interface-check
