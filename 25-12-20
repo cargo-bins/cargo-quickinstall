@@ -8,3 +8,4 @@ rustrict
 project_init
 tree-sitter-graph
 tendermint-rpc
+dotenv
