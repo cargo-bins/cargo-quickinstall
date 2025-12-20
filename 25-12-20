@@ -25,3 +25,4 @@ tendermint-rpc
 dx-cli
 airshipper
 airshipper
+dotenv
