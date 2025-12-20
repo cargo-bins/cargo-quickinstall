@@ -3,3 +3,4 @@ pwasm-utils
 sea-orm-cli
 spider_worker
 solana-keygen
+foundationdb-gen
