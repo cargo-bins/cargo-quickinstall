@@ -11,3 +11,4 @@ tree-sitter-graph
 tendermint-rpc
 dotenv
 libbpf-cargo
+remove_dir_all
