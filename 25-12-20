@@ -24,3 +24,4 @@ rmesg
 remove_dir_all
 crypto-cli-tools
 oso
+honggfuzz
