@@ -15,3 +15,4 @@ human_name
 remove_dir_all
 crypto-cli-tools
 oso
+rustfmt-nightly
