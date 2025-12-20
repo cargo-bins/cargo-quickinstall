@@ -5,3 +5,4 @@ atomic-server
 cargo-dylint
 foundationdb-gen
 rioterm
+wash-cli
