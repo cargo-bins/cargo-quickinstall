@@ -20,3 +20,4 @@ oso
 rustfmt-nightly
 oso
 git-disjoint
+miden-crypto
