@@ -19,3 +19,4 @@ rustfmt-nightly
 oso
 git-disjoint
 miden-crypto
+website_crawler
