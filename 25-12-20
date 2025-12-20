@@ -13,3 +13,4 @@ dotenv
 libbpf-cargo
 remove_dir_all
 crypto-cli-tools
+oso
