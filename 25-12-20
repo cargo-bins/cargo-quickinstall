@@ -10,3 +10,4 @@ cargo-extras
 rustrict
 tree-sitter-graph
 website_crawler
+tendermint-rpc
