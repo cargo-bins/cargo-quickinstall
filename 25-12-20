@@ -37,3 +37,4 @@ wayland-interface-check
 atomic-server
 atomic-server
 bun
+remove_dir_all
