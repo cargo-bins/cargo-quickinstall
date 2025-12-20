@@ -46,3 +46,4 @@ atomic-server
 rustfmt-nightly
 wayshot
 c2rust
+probe-rs-cli
