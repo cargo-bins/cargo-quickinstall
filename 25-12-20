@@ -11,3 +11,4 @@ tendermint-rpc
 dotenv
 human_name
 cargo-msrv
+remove_dir_all
