@@ -58,3 +58,4 @@ probe-rs-cli
 bun
 wayshot
 markitdown
+c2rust
