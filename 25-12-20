@@ -1,3 +1,4 @@
 cargo-spellcheck
 pwasm-utils
 spider_worker
+atomic-server
