@@ -8,3 +8,4 @@ arrow-flight
 git-disjoint
 cargo-extras
 rustrict
+tree-sitter-graph
