@@ -6,3 +6,4 @@ rustrict
 tree-sitter-graph
 tendermint-rpc
 dotenv
+libbpf-cargo
