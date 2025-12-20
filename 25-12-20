@@ -5,3 +5,4 @@ cargo-extras
 foundationdb-gen
 cargo-extras
 arrow-flight
+git-disjoint
