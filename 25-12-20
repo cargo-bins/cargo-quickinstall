@@ -4,3 +4,4 @@ pwasm-utils
 dx-cli
 spider_worker
 dx-cli
+atomic-server
