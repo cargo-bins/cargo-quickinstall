@@ -21,3 +21,4 @@ cargo-dylint
 tree-sitter-graph
 sniffnet
 airshipper
+tendermint-rpc
