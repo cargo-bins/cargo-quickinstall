@@ -13,3 +13,4 @@ cargo-extras
 tree-sitter-graph
 cargo-extras
 tendermint-rpc
+dotenv
