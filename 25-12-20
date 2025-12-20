@@ -19,3 +19,4 @@ remove_dir_all
 oso
 rustfmt-nightly
 oso
+git-disjoint
