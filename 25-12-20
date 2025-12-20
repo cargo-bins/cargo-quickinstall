@@ -12,3 +12,4 @@ tree-sitter-graph
 website_crawler
 tendermint-rpc
 dotenv
+remove_dir_all
