@@ -25,3 +25,4 @@ wayland-interface-check
 rioterm
 rioterm
 airshipper
+tendermint-rpc
