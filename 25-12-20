@@ -29,3 +29,4 @@ dotenv
 airshipper
 airshipper
 human_name
+wayland-interface-check
