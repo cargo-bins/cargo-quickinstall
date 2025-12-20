@@ -1,3 +1,4 @@
 cargo-spellcheck
 pwasm-utils
 sea-orm-cli
+spider_worker
