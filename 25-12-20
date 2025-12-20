@@ -4,3 +4,4 @@ spider_worker
 atomic-server
 cargo-dylint
 foundationdb-gen
+rioterm
