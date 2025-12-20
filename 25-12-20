@@ -43,3 +43,4 @@ markitdown
 emissary-cli
 wayland-interface-check
 atomic-server
+rustfmt-nightly
