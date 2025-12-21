@@ -12,3 +12,4 @@ winpty-rs
 re_query
 rrule
 foundationdb-gen
+crc-fast
