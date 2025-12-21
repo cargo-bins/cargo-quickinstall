@@ -38,3 +38,4 @@ re_query
 rrule
 nu_plugin_query
 foundationdb-gen
+nu_plugin_query
