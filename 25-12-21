@@ -8,3 +8,4 @@ protox
 cargo-tag
 cargo-tag
 rpki
+tendermint-rpc
