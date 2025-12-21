@@ -7,3 +7,4 @@ cargo-dylint
 probe-rs-cli
 tracing-durations-export
 protox
+wayshot
