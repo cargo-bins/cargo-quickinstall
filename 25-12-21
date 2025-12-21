@@ -2,3 +2,4 @@ parquet
 human_name
 cargo-spellcheck
 tracing-durations-export
+esp-config
