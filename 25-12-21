@@ -11,3 +11,4 @@ tendermint-rpc
 rzup
 qsv
 spider_worker
+winpty-rs
