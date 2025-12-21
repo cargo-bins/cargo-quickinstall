@@ -33,3 +33,4 @@ emissary-cli
 winpty-rs
 bevy-agent
 nu_plugin_query
+timesup
