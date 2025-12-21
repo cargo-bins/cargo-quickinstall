@@ -12,3 +12,4 @@ bevy-agent
 paru
 cargo-dylint
 c2rust
+emissary-cli
