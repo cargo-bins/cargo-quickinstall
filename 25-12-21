@@ -24,3 +24,4 @@ spider_cli
 qsv
 nu_plugin_query
 spider_cli
+spider_worker
