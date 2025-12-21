@@ -16,3 +16,4 @@ winpty-rs
 re_query
 rrule
 spider_cli
+crc-fast
