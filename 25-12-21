@@ -5,3 +5,4 @@ probe-rs-cli
 btrd
 cargo-spellcheck
 tracing-durations-export
+bun
