@@ -8,3 +8,4 @@ solana-ledger-tool
 mit-commit-msg
 rzup
 qsv
+rustfmt
