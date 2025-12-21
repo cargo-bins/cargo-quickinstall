@@ -15,3 +15,4 @@ foundationdb-gen
 crc-fast
 openpty
 datavzrd
+pwasm-utils
