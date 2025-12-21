@@ -40,3 +40,4 @@ nu_plugin_query
 foundationdb-gen
 nu_plugin_query
 bevy-agent
+wash-cli
