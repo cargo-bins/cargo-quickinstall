@@ -17,3 +17,4 @@ rrule
 crc-fast
 openpty
 datavzrd
+rust-bert
