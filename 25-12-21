@@ -16,3 +16,4 @@ emissary-cli
 spider_cli
 bevy-agent
 solana-ledger-tool
+cargo-dylint
