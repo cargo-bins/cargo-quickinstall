@@ -20,3 +20,4 @@ crc-fast
 rust-bert
 solana-stake-accounts
 pwasm-utils
+statsig-rs
