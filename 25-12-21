@@ -19,3 +19,4 @@ spider_cli
 crc-fast
 rust-bert
 solana-stake-accounts
+statsig-rs
