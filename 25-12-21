@@ -10,3 +10,4 @@ cargo-tag
 rpki
 tendermint-rpc
 qsv
+pandora_box
