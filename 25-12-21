@@ -13,3 +13,4 @@ re_query
 rrule
 foundationdb-gen
 crc-fast
+openpty
