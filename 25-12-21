@@ -11,3 +11,4 @@ rpki
 tendermint-rpc
 qsv
 pandora_box
+winpty-rs
