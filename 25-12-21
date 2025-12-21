@@ -5,3 +5,4 @@ timesup
 cargo-spellcheck
 cargo-dylint
 probe-rs-cli
+tracing-durations-export
