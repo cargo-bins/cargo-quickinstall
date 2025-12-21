@@ -30,3 +30,4 @@ emissary-cli
 bevy-agent
 timesup
 emissary-cli
+winpty-rs
