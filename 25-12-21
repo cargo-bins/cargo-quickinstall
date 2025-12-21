@@ -17,3 +17,4 @@ crates-tui
 crates-tui
 re_query
 rrule
+diesel_cli
