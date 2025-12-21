@@ -17,3 +17,4 @@ re_query
 rrule
 spider_cli
 crc-fast
+rust-bert
