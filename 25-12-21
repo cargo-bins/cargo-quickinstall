@@ -9,3 +9,4 @@ cargo-tag
 cargo-tag
 rpki
 tendermint-rpc
+qsv
