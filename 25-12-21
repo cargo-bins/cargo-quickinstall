@@ -25,3 +25,4 @@ bevy-agent
 probe-rs-cli
 btrd
 librespot
+spider_cli
