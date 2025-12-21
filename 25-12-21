@@ -3,3 +3,4 @@ parquet
 human_name
 cargo-tag
 tracing-durations-export
+cargo-tag
