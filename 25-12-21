@@ -12,3 +12,4 @@ rustfmt
 pandora_box
 git-mit
 winpty-rs
+re_query
