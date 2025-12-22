@@ -13,3 +13,4 @@ dbus-codegen
 r3bl_tuify
 tracing-durations-export
 shunkakinoki
+crc-fast
