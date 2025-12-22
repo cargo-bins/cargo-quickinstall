@@ -18,3 +18,4 @@ crc-fast
 pwasm-utils
 deploy
 dotenvy
+solana-cli
