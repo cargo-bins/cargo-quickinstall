@@ -17,3 +17,4 @@ tendermint-rpc
 dotenv-flow
 human_bytes
 sqlx-cli
+holochain
