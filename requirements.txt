@@ -10,7 +10,7 @@ idna==3.11
     # via requests
 influxdb3-python==0.16.0
     # via cronjob-scripts (pyproject.toml)
-numpy==2.3.5
+numpy==2.4.0
     # via pyarrow
 polars==1.36.1
     # via cronjob-scripts (pyproject.toml)
