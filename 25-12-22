@@ -4,3 +4,4 @@ cargo-prune
 cargo-prune
 winpty-rs
 dotenv-flow
+human_bytes
