@@ -37,3 +37,4 @@ rpki
 xplr
 oci2git
 ironbar
+cargo-check-deadlock
