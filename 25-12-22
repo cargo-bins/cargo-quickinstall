@@ -11,3 +11,4 @@ qsv
 stellar-strkey
 dbus-codegen
 r3bl_tuify
+tracing-durations-export
