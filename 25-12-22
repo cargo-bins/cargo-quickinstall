@@ -16,3 +16,4 @@ stellar-strkey
 dbus-codegen
 dioxus-cli
 xplr
+crc-fast
