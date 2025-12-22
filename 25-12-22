@@ -34,3 +34,4 @@ cargo-add
 azure-pim-cli
 ironbar
 cargo-add
+dotenvy
