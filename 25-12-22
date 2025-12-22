@@ -18,3 +18,4 @@ crc-fast
 tracing-durations-export
 httpmock
 crc-fast
+pwasm-utils
