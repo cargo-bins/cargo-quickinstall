@@ -12,3 +12,4 @@ probe-rs-tools
 superseedr
 qsv
 cargo-check-deadlock
+stellar-strkey
