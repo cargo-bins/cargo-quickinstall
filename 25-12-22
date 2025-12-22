@@ -22,3 +22,4 @@ dbus-codegen
 cargo-check-deadlock
 crc-fast
 azure-pim-cli
+probe-rs-tools
