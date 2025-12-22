@@ -8,3 +8,4 @@ spider_worker
 holochain
 qsv
 stellar-strkey
+dbus-codegen
