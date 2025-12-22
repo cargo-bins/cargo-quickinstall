@@ -19,3 +19,4 @@ azure-pim-cli
 xplr
 cargo-check-deadlock
 dbus-codegen
+cargo-check-deadlock
