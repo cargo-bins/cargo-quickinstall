@@ -13,3 +13,4 @@ clippy
 charset-normalizer-rs
 winpty-rs
 charset-normalizer-rs
+tendermint-rpc
