@@ -28,3 +28,4 @@ crc-fast
 cargo-check-deadlock
 probe-rs-tools
 cargo-add
+pwasm-utils
