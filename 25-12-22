@@ -9,3 +9,4 @@ holochain
 qsv
 stellar-strkey
 dbus-codegen
+crc-fast
