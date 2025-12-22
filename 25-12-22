@@ -3,3 +3,4 @@ rustfmt
 iai-callgrind-runner
 git-mit
 sn_faucet
+openpty
