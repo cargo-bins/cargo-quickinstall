@@ -14,3 +14,4 @@ qsv
 cargo-check-deadlock
 stellar-strkey
 dbus-codegen
+dioxus-cli
