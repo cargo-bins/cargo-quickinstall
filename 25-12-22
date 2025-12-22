@@ -2,3 +2,4 @@ openpty
 human_bytes
 cargo-prune
 cargo-prune
+winpty-rs
