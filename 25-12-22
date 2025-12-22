@@ -28,3 +28,4 @@ tracing-durations-export
 httpmock
 dua-cli
 dua-cli
+pwasm-utils
