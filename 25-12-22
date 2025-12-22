@@ -14,3 +14,4 @@ lingua
 stellar-strkey
 dbus-codegen
 dioxus-cli
+crc-fast
