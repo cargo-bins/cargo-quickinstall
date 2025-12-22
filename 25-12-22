@@ -32,3 +32,4 @@ pwasm-utils
 dua-cli
 mit-pre-commit
 deploy
+dotenvy
