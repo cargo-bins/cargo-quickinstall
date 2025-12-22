@@ -20,3 +20,4 @@ sqlx-cli
 holochain
 qsv
 clippy
+stellar-strkey
