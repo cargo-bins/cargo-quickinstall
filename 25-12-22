@@ -3,3 +3,4 @@ alacritty
 human_bytes
 winpty-rs
 tendermint-rpc
+dotenv-flow
