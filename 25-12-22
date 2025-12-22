@@ -26,3 +26,4 @@ tracing-durations-export
 shunkakinoki
 crc-fast
 cargo-check-deadlock
+probe-rs-tools
