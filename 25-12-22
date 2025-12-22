@@ -10,3 +10,4 @@ spider_worker
 qsv
 stellar-strkey
 dbus-codegen
+crc-fast
