@@ -7,3 +7,4 @@ winpty-rs
 dotenv-flow
 human_bytes
 probe-rs-tools
+spider_worker
