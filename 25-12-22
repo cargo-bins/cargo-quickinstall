@@ -11,3 +11,4 @@ spider_worker
 superseedr
 cargo-check-deadlock
 cargo-check-deadlock
+qsv
