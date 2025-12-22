@@ -41,3 +41,4 @@ cargo-check-deadlock
 xplr
 dotenvy
 oci2git
+cargo-check-deadlock
