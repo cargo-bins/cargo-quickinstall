@@ -16,3 +16,4 @@ crc-fast
 r3bl_tuify
 tracing-durations-export
 httpmock
+pwasm-utils
