@@ -21,3 +21,4 @@ holochain
 qsv
 clippy
 stellar-strkey
+dbus-codegen
