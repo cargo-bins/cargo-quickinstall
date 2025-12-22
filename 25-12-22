@@ -13,3 +13,4 @@ superseedr
 qsv
 cargo-check-deadlock
 stellar-strkey
+dbus-codegen
