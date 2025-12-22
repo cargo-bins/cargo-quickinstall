@@ -24,3 +24,4 @@ crc-fast
 azure-pim-cli
 probe-rs-tools
 r3bl_tuify
+tracing-durations-export
