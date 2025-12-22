@@ -17,3 +17,4 @@ dioxus-cli
 crc-fast
 tracing-durations-export
 httpmock
+crc-fast
