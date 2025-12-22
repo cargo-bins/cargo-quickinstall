@@ -16,3 +16,4 @@ dbus-codegen
 dioxus-cli
 crc-fast
 tracing-durations-export
+httpmock
