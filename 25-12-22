@@ -30,3 +30,4 @@ probe-rs-tools
 cargo-add
 pwasm-utils
 ironbar
+dotenvy
