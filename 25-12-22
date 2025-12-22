@@ -12,3 +12,4 @@ cargo-prune
 qsv
 lingua
 stellar-strkey
+dbus-codegen
