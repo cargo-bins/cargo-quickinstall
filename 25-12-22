@@ -19,3 +19,4 @@ xplr
 crc-fast
 xplr
 probe-rs-tools
+cargo-check-deadlock
