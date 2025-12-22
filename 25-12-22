@@ -39,3 +39,4 @@ oci2git
 ironbar
 cargo-check-deadlock
 xplr
+dotenvy
