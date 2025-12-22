@@ -9,3 +9,4 @@ human_bytes
 probe-rs-tools
 spider_worker
 superseedr
+cargo-check-deadlock
