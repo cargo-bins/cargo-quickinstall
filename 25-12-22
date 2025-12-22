@@ -8,3 +8,4 @@ winpty-rs
 dotenv-flow
 human_bytes
 sqlx-cli
+holochain
