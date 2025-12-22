@@ -22,3 +22,4 @@ qsv
 clippy
 stellar-strkey
 dbus-codegen
+crc-fast
