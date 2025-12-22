@@ -18,3 +18,4 @@ crc-fast
 cargo-vet
 r3bl_tuify
 tracing-durations-export
+httpmock
