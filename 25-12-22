@@ -15,3 +15,4 @@ winpty-rs
 charset-normalizer-rs
 tendermint-rpc
 dotenv-flow
+human_bytes
