@@ -6,3 +6,4 @@ alacritty
 winpty-rs
 dotenv-flow
 human_bytes
+spider_worker
