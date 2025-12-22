@@ -19,3 +19,4 @@ human_bytes
 sqlx-cli
 holochain
 qsv
+clippy
