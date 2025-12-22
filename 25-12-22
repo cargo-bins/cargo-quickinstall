@@ -18,3 +18,4 @@ stellar-strkey
 azure-pim-cli
 xplr
 cargo-check-deadlock
+dbus-codegen
