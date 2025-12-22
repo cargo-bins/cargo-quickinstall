@@ -6,3 +6,4 @@ sn_faucet
 openpty
 winpty-rs
 dotenv-flow
+human_bytes
