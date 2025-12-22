@@ -28,3 +28,4 @@ tracing-durations-export
 superseedr
 shunkakinoki
 crc-fast
+pwasm-utils
