@@ -21,3 +21,4 @@ tracing-durations-export
 httpmock
 crc-fast
 shunkakinoki
+pwasm-utils
