@@ -19,3 +19,4 @@ crc-fast
 pwasm-utils
 lingua
 deploy
+dotenvy
