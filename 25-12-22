@@ -22,3 +22,4 @@ probe-rs-tools
 cargo-check-deadlock
 r3bl_tuify
 probe-rs-tools
+tracing-durations-export
