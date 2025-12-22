@@ -21,3 +21,4 @@ cargo-check-deadlock
 dbus-codegen
 cargo-check-deadlock
 crc-fast
+azure-pim-cli
