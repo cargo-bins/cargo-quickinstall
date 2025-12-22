@@ -1,3 +1,4 @@
 openpty
 cargo-prune
 cargo-prune
+winpty-rs
