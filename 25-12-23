@@ -18,3 +18,4 @@ nexmark
 esp-config
 perfcnt
 cargo-dylint
+statsig-rs
