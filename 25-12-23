@@ -4,3 +4,4 @@ project_init
 jj
 ironbar
 cargo-add
+probe-rs-tools
