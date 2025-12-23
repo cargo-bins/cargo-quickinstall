@@ -40,3 +40,4 @@ a11ywatch_cli
 cargo-bounds
 nexmark
 esp-config
+diesel_cli
