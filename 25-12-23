@@ -18,3 +18,4 @@ cargo-generate
 nexmark
 borsh
 sn_node_rpc_client
+esp-config
