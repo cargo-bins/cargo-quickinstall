@@ -15,3 +15,4 @@ nexmark
 esp-config
 cargo-dylint
 statsig-rs
+pwasm-utils
