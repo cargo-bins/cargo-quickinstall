@@ -13,3 +13,4 @@ qsv
 unic-langid-impl
 cargo-generate
 nexmark
+borsh
