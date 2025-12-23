@@ -53,3 +53,4 @@ cargo-bounds
 worf
 diesel_cli
 worf
+pwasm-utils
