@@ -21,3 +21,4 @@ sn_node_rpc_client
 esp-config
 sn_cli
 investments
+pwasm-utils
