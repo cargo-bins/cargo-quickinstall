@@ -12,3 +12,4 @@ sn_node
 openpty
 deno
 perfcnt
+dotenvy
