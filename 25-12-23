@@ -24,3 +24,4 @@ cargo-mobile2
 nextest
 ironbar
 oci2git
+cargo-binstall
