@@ -53,3 +53,4 @@ statsig-rs
 worf
 cargo-bounds
 diesel_cli
+pwasm-utils
