@@ -11,3 +11,4 @@ hotpath
 perfcnt
 qsv
 unic-langid-impl
+cargo-generate
