@@ -44,3 +44,4 @@ diesel_cli
 cargo-unused-features
 cargo-bounds
 cargo-bounds
+worf
