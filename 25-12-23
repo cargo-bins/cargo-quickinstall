@@ -16,3 +16,4 @@ dotenvy
 qsv
 cargo-generate
 nexmark
+borsh
