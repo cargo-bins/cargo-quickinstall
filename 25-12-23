@@ -21,3 +21,4 @@ oci2git
 cargo-unused-features
 cargo-binstall
 cargo-mobile2
+nextest
