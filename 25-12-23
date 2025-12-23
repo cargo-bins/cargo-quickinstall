@@ -14,3 +14,4 @@ oci2git
 tree-sitter-cli
 cargo-binstall
 cargo-add
+cargo-unused-features
