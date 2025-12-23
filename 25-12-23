@@ -42,3 +42,4 @@ nextest
 esp-config
 cargo-unused-features
 cargo-bounds
+cargo-unused-features
