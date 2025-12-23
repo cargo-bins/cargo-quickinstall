@@ -29,3 +29,4 @@ cargo-add
 cargo-add
 ironbar
 dotenvy
+cargo-binstall
