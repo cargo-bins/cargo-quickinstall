@@ -18,3 +18,4 @@ cargo-unused-features
 dioxus-cli
 deno
 oci2git
+cargo-unused-features
