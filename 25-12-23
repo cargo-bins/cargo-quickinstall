@@ -29,3 +29,4 @@ dioxus-cli
 ext-sort
 oci2git
 cargo-add
+qsv
