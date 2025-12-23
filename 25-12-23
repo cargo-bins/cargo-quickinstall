@@ -13,3 +13,4 @@ cargo-add
 oci2git
 tree-sitter-cli
 cargo-binstall
+cargo-add
