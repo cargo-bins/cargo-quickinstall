@@ -13,3 +13,4 @@ solana-keygen
 tree-sitter-cli
 nexmark
 solana-faucet
+cargo-unused-features
