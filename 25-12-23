@@ -12,3 +12,4 @@ protox
 cargo-add
 oci2git
 tree-sitter-cli
+cargo-binstall
