@@ -19,3 +19,4 @@ borsh
 esp-config
 cargo-dylint
 statsig-rs
+pwasm-utils
