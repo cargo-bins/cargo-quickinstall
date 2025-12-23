@@ -14,3 +14,4 @@ a11ywatch_cli
 nexmark
 esp-config
 cargo-dylint
+statsig-rs
