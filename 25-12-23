@@ -15,3 +15,4 @@ tree-sitter-cli
 cargo-binstall
 cargo-add
 cargo-unused-features
+dioxus-cli
