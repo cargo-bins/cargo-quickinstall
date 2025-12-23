@@ -41,3 +41,4 @@ borsh
 nextest
 esp-config
 cargo-unused-features
+cargo-bounds
