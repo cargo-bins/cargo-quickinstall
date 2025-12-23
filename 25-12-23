@@ -51,3 +51,4 @@ statsig-rs
 cargo-bounds
 cargo-bounds
 worf
+diesel_cli
