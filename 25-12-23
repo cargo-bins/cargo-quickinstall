@@ -14,3 +14,4 @@ deno
 perfcnt
 dotenvy
 qsv
+cargo-generate
