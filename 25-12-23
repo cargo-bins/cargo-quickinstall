@@ -18,3 +18,4 @@ nexmark
 borsh
 esp-config
 cargo-dylint
+statsig-rs
