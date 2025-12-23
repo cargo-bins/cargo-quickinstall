@@ -6,3 +6,4 @@ ironbar
 cargo-add
 probe-rs-tools
 xplr
+dioxus-cli
