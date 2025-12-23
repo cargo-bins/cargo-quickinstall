@@ -42,3 +42,4 @@ nexmark
 esp-config
 diesel_cli
 cargo-unused-features
+cargo-bounds
