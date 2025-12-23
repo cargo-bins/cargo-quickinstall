@@ -24,3 +24,4 @@ dioxus-cli
 cargo-mobile2
 nextest
 dioxus-cli
+vdev
