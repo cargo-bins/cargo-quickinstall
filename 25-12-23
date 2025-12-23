@@ -51,3 +51,4 @@ wayshot
 cargo-unused-features
 statsig-rs
 worf
+cargo-bounds
