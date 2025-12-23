@@ -49,3 +49,4 @@ cargo-unused-features
 cargo-bounds
 wayshot
 cargo-unused-features
+statsig-rs
