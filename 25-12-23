@@ -35,3 +35,4 @@ cargo-unused-features
 dioxus-cli
 calcit
 cargo-unused-features
+solana-tokens
