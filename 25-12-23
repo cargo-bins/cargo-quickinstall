@@ -31,3 +31,4 @@ ironbar
 dotenvy
 cargo-binstall
 qsv
+cargo-unused-features
