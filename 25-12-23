@@ -14,3 +14,4 @@ unic-langid-impl
 cargo-generate
 nexmark
 borsh
+esp-config
