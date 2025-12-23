@@ -12,3 +12,4 @@ perfcnt
 qsv
 unic-langid-impl
 cargo-generate
+nexmark
