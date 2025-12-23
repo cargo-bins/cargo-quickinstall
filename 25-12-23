@@ -22,3 +22,4 @@ esp-config
 sn_cli
 investments
 pwasm-utils
+text-diff
