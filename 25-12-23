@@ -40,3 +40,4 @@ nexmark
 borsh
 nextest
 esp-config
+cargo-unused-features
