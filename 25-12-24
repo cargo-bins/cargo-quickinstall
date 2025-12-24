@@ -27,3 +27,4 @@ cargo-dylint
 paperclip
 crc-fast
 sp1-prover
+dicom-pixeldata
