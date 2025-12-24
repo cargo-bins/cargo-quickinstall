@@ -4,3 +4,4 @@ tree-sitter-md
 pwasm-utils
 socketcan
 pgrx-tests
+borsh
