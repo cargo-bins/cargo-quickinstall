@@ -51,3 +51,4 @@ cargo-bundle
 dicom-pixeldata
 oxdraw
 cargo-bundle
+libbpf-cargo
