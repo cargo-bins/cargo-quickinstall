@@ -15,3 +15,4 @@ cargo-lambda
 dioxus-cli
 tuftool
 shunkakinoki
+borsh
