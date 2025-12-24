@@ -13,3 +13,4 @@ cargo-lambda
 dioxus-cli
 tuftool
 borsh
+foundationdb-gen
