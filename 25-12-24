@@ -5,3 +5,4 @@ pwasm-utils
 socketcan
 pgrx-tests
 borsh
+foundationdb-gen
