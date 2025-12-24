@@ -1,2 +1,3 @@
 addr2line
 rustbus
+cpp_demangle
