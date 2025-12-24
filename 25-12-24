@@ -54,3 +54,4 @@ dicom-pixeldata
 cargo-bundle
 cargo-bundle
 libbpf-cargo
+graphql_client_cli
