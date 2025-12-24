@@ -24,3 +24,4 @@ mit-prepare-commit-msg
 foundationdb-gen
 laminar
 ytop
+diesel_cli
