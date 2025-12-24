@@ -33,3 +33,4 @@ papyrus_storage
 minicbor
 re_query
 cpp_demangle
+crc-fast
