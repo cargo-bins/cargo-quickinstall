@@ -34,3 +34,4 @@ minicbor
 re_query
 cpp_demangle
 crc-fast
+sqlx-cli
