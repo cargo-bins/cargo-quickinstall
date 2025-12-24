@@ -53,3 +53,4 @@ cargo-bundle
 dicom-pixeldata
 cargo-bundle
 cargo-bundle
+libbpf-cargo
