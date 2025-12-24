@@ -10,3 +10,4 @@ papyrus_storage
 socketcan
 cargo-lambda
 z3tracer
+pgrx-tests
