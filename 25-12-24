@@ -32,3 +32,4 @@ crc-fast
 sp1-prover
 dicom-pixeldata
 libbpf-cargo
+graphql_client_cli
