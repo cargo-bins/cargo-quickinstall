@@ -26,3 +26,4 @@ tree-sitter-cli
 papyrus_storage
 minicbor
 re_query
+cpp_demangle
