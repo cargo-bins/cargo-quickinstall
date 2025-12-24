@@ -3,3 +3,4 @@ cargo-mobile2
 calcit
 worf
 cargo-binstall
+sea-orm-cli
