@@ -2,3 +2,4 @@ addr2line
 cpp_demangle
 tree-sitter-md
 pwasm-utils
+socketcan
