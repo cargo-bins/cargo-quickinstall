@@ -9,3 +9,4 @@ pwasm-utils
 papyrus_storage
 socketcan
 cargo-lambda
+z3tracer
