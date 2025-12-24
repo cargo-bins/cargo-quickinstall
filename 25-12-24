@@ -12,3 +12,4 @@ borsh
 mit-prepare-commit-msg
 foundationdb-gen
 laminar
+diesel_cli
