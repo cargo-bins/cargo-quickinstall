@@ -24,3 +24,4 @@ nkeys
 diesel_cli
 tree-sitter-cli
 papyrus_storage
+minicbor
