@@ -13,3 +13,4 @@ pwasm-utils
 papyrus_storage
 socketcan
 z3tracer
+pgrx-tests
