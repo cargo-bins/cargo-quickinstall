@@ -20,3 +20,4 @@ cargo-msrv
 nkeys
 diesel_cli
 papyrus_storage
+minicbor
