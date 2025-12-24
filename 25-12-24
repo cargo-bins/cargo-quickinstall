@@ -31,3 +31,4 @@ cargo-dylint
 crc-fast
 sp1-prover
 dicom-pixeldata
+libbpf-cargo
