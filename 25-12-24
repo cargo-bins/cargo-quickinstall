@@ -24,3 +24,4 @@ rmesg
 sp1-prover
 dicom-pixeldata
 libbpf-cargo
+cargo-local-registry
