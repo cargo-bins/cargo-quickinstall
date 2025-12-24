@@ -18,3 +18,4 @@ solana-tokens
 laminar
 cargo-msrv
 nkeys
+diesel_cli
