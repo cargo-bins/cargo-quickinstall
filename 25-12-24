@@ -8,3 +8,4 @@ pwasm-utils
 papyrus_storage
 cargo-lambda
 z3tracer
+pgrx-tests
