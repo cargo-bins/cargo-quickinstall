@@ -21,3 +21,4 @@ diesel_cli
 rustnet-monitor
 pgrx-tests
 rustnet-monitor
+diesel_cli
