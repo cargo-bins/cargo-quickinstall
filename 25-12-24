@@ -2,3 +2,4 @@ addr2line
 skim
 skim
 rustbus
+cpp_demangle
