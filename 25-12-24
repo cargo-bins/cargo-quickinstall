@@ -11,3 +11,4 @@ laminar
 nkeys
 minicbor
 re_query
+cpp_demangle
