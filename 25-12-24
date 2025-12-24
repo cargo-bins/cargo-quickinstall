@@ -2,3 +2,4 @@ addr2line
 cargo-mobile2
 wayshot
 vdev
+sea-orm-cli
