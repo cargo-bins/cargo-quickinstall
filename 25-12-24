@@ -26,3 +26,4 @@ cpp_demangle
 cargo-dylint
 paperclip
 crc-fast
+sp1-prover
