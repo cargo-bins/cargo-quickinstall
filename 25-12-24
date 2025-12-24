@@ -25,3 +25,4 @@ re_query
 cpp_demangle
 cargo-dylint
 paperclip
+crc-fast
