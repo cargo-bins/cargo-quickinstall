@@ -39,3 +39,4 @@ diesel_cli
 oxdraw
 papyrus_storage
 rustnet-monitor
+minicbor
