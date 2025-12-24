@@ -42,3 +42,4 @@ rustnet-monitor
 minicbor
 oxdraw
 re_query
+cpp_demangle
