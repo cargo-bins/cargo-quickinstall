@@ -22,3 +22,4 @@ crc-fast
 sqlx-cli
 rmesg
 sp1-prover
+dicom-pixeldata
