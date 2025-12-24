@@ -4,3 +4,4 @@ calcit
 worf
 cargo-binstall
 sea-orm-cli
+cpp_demangle
