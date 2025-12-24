@@ -10,3 +10,4 @@ sn_node
 pgrx-tests
 borsh
 mit-prepare-commit-msg
+foundationdb-gen
