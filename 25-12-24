@@ -28,3 +28,4 @@ minicbor
 re_query
 cpp_demangle
 cargo-dylint
+crc-fast
