@@ -2,3 +2,4 @@ deploy
 nextest-filtering
 dicom-pixeldata
 human_name
+dicom-pixeldata
