@@ -16,3 +16,4 @@ dotenv-flow
 rls-rustc
 syd
 calcit
+httpmock
