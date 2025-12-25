@@ -31,3 +31,4 @@ rav1e
 opencv-binding-generator
 cargo-list
 alacritty
+unic-langid-impl
