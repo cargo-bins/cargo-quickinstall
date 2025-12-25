@@ -27,3 +27,4 @@ dotenv-flow
 syd
 git-mit
 httpmock
+iai-callgrind-runner
