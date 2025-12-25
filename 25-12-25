@@ -5,3 +5,4 @@ nextest-filtering
 dicom-pixeldata
 human_name
 nexmark
+sqlx-cli
