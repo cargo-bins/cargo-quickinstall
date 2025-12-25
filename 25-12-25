@@ -3,3 +3,4 @@ nkeys
 deploy
 jujutsu
 fake
+cargo-bundle
