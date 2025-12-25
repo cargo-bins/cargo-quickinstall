@@ -8,3 +8,4 @@ cargo-dylint
 cargo-dylint
 tree-sitter-cli
 wl-screenrec
+nextest-filtering
