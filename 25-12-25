@@ -31,3 +31,4 @@ pwasm-utils
 git-mit
 text-diff
 dicom-pixeldata
+iai-callgrind-runner
