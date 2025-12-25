@@ -5,3 +5,4 @@ deploy
 nextest
 nextest
 lux-cli
+nextest-filtering
