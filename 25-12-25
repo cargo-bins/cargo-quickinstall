@@ -4,3 +4,4 @@ nkeys
 lux-cli
 deploy
 fake
+nextest
