@@ -33,3 +33,4 @@ text-diff
 dicom-pixeldata
 iai-callgrind-runner
 papyrus_storage
+nextest-filtering
