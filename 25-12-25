@@ -2,3 +2,4 @@ nkeys
 deploy
 fake
 nextest-filtering
+dicom-pixeldata
