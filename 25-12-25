@@ -20,3 +20,4 @@ pwasm-utils
 dicom-pixeldata
 calcit
 calcit
+sea-orm-cli
