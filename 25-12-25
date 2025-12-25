@@ -3,3 +3,4 @@ nkeys
 deploy
 nextest-filtering
 dicom-pixeldata
+human_name
