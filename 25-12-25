@@ -7,3 +7,4 @@ nexmark
 dicom-pixeldata
 spider_worker
 opencv-binding-generator
+unic-langid-impl
