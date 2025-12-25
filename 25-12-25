@@ -4,3 +4,4 @@ deploy
 jujutsu
 fake
 cargo-bundle
+cargo-dylint
