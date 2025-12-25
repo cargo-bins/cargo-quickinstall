@@ -27,3 +27,4 @@ commit_verify
 dotenv-flow
 sn_cli
 syd
+pwasm-utils
