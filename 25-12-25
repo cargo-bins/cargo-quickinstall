@@ -6,3 +6,4 @@ human_name
 nexmark
 dicom-pixeldata
 spider_worker
+opencv-binding-generator
