@@ -4,3 +4,4 @@ dicom-pixeldata
 human_name
 dicom-pixeldata
 spider_worker
+opencv-binding-generator
