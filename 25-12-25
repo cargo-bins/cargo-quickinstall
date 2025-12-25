@@ -24,3 +24,4 @@ cargo-list
 dicom-pixeldata
 sy
 cargo-list
+spider_worker
