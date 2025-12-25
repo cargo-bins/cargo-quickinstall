@@ -8,3 +8,4 @@ jj
 tree-sitter-cli
 jujutsu
 nextest-filtering
+cargo-list
