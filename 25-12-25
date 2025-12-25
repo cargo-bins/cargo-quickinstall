@@ -17,3 +17,4 @@ commit_verify
 dotenv-flow
 syd
 pwasm-utils
+dicom-pixeldata
