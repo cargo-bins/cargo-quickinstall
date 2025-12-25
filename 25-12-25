@@ -2,3 +2,4 @@ deploy
 fake
 nextest-filtering
 dicom-pixeldata
+human_name
