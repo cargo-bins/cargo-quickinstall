@@ -46,3 +46,4 @@ dotenv-flow
 syd
 pwasm-utils
 dicom-pixeldata
+wayland-interface-check
