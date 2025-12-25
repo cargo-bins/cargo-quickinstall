@@ -10,3 +10,4 @@ tree-sitter-cli
 wl-screenrec
 nextest-filtering
 jujutsu
+cargo-list
