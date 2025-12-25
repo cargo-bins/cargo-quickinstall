@@ -6,3 +6,4 @@ fake
 cargo-bundle
 cargo-dylint
 cargo-dylint
+tree-sitter-cli
