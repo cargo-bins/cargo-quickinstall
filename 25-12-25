@@ -18,3 +18,4 @@ commit_verify
 dotenv-flow
 syd
 calcit
+httpmock
