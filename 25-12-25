@@ -41,3 +41,4 @@ wrangler
 solana-genesis
 commit_verify
 wrangler
+dotenv-flow
