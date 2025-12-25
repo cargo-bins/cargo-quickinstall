@@ -9,3 +9,4 @@ cargo-dylint
 tree-sitter-cli
 wl-screenrec
 nextest-filtering
+jujutsu
