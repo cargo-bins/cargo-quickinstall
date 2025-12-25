@@ -44,3 +44,4 @@ wrangler
 dotenv-flow
 wrangler
 wrangler
+rls-rustc
