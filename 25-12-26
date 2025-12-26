@@ -3,3 +3,4 @@ schemafy
 crc-fast
 wash-cli
 cargo-dylint
+addr2line
