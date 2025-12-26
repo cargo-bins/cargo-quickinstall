@@ -13,3 +13,4 @@ sn_faucet
 kani-verifier
 deploy
 clap-stdin
+cargo-lock
