@@ -28,3 +28,4 @@ termusic-server
 termusic
 cargo-lock
 termusic-server
+safe_network
