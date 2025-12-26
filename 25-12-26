@@ -15,3 +15,4 @@ deploy
 clap-stdin
 cargo-lock
 diesel_cli
+tendermint-rpc
