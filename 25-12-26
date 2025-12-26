@@ -15,3 +15,4 @@ clap-stdin
 cargo-lock
 tendermint-rpc
 diesel_cli
+tracing-durations-export
