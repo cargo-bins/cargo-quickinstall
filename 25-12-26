@@ -52,3 +52,4 @@ clap-stdin
 termusic-server
 tendermint-rpc
 vdev
+diesel_cli
