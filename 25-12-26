@@ -3,3 +3,4 @@ crc-fast
 dbus-codegen
 rtx-cli
 pandora_box
+cargo-lock
