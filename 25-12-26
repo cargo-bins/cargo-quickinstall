@@ -54,3 +54,4 @@ tendermint-rpc
 vdev
 diesel_cli
 tracing-durations-export
+ducc-sys
