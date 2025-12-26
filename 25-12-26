@@ -6,3 +6,4 @@ rtx-cli
 cargo-lock
 perfcnt
 hayagriva
+zellij
