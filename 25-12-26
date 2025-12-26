@@ -16,3 +16,4 @@ diesel_cli
 tendermint-rpc
 tracing-durations-export
 ducc-sys
+clippy
