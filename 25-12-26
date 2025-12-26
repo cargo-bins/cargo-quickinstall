@@ -2,3 +2,4 @@ fend
 schemafy
 crc-fast
 wash-cli
+cargo-dylint
