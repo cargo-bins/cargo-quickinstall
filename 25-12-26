@@ -16,3 +16,4 @@ qsv
 clap-stdin
 tendermint-rpc
 diesel_cli
+tracing-durations-export
