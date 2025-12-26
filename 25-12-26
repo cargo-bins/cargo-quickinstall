@@ -11,3 +11,4 @@ borsh
 process_viewer
 deploy
 qsv
+clap-stdin
