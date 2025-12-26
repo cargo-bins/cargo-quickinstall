@@ -14,3 +14,4 @@ process_viewer
 perfcnt
 deploy
 clap-stdin
+tendermint-rpc
