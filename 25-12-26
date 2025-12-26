@@ -9,3 +9,4 @@ fend
 addr2line
 tree-sitter-cli
 wash-cli
+sea-orm-cli
