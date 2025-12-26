@@ -3,3 +3,4 @@ crc-fast
 crypto-cli-tools
 rtx-cli
 pandora_box
+cargo-lock
