@@ -53,3 +53,4 @@ termusic-server
 tendermint-rpc
 vdev
 diesel_cli
+tracing-durations-export
