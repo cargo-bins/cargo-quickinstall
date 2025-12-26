@@ -5,3 +5,4 @@ wash-cli
 cargo-dylint
 addr2line
 tree-sitter-cli
+wash-cli
