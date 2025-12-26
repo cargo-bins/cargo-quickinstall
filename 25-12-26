@@ -1,3 +1,4 @@
 esp-config
 crc-fast
 dbus-codegen
+rtx-cli
