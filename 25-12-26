@@ -14,3 +14,4 @@ wash-cli
 fend
 crypto-cli-tools
 cargo-dylint
+tree-sitter-cli
