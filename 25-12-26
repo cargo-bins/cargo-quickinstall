@@ -48,3 +48,4 @@ vdev
 clap-stdin
 jj
 dioxus-cli
+cargo-lock
