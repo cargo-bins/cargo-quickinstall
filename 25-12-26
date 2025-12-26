@@ -19,3 +19,4 @@ tendermint-rpc
 tracing-durations-export
 lingua
 ducc-sys
+clippy
