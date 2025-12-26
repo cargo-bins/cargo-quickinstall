@@ -12,3 +12,4 @@ process_viewer
 deploy
 qsv
 clap-stdin
+diesel_cli
