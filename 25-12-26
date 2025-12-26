@@ -17,3 +17,4 @@ deploy
 clap-stdin
 tendermint-rpc
 tracing-durations-export
+lingua
