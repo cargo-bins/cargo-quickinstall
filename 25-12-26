@@ -19,3 +19,4 @@ diesel_cli
 tracing-durations-export
 ducc-sys
 clippy
+dotenv
