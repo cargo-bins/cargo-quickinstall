@@ -52,3 +52,4 @@ cargo-lock
 jj
 tendermint-rpc
 yaydl
+tracing-durations-export
