@@ -28,3 +28,4 @@ cargo-lock
 runmat
 termusic
 sea-orm-cli
+termusic-server
