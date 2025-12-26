@@ -8,3 +8,4 @@ tree-sitter-cli
 wash-cli
 wash-cli
 wash-cli
+cargo-dylint
