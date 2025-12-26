@@ -13,3 +13,4 @@ deploy
 qsv
 clap-stdin
 diesel_cli
+tendermint-rpc
