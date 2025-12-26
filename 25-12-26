@@ -13,3 +13,4 @@ spider_cli
 deploy
 clap-stdin
 cargo-lock
+tendermint-rpc
