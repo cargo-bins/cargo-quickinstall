@@ -11,3 +11,4 @@ process_viewer
 deploy
 clap-stdin
 diesel_cli
+tendermint-rpc
