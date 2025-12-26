@@ -13,3 +13,4 @@ process_viewer
 perfcnt
 deploy
 qsv
+clap-stdin
