@@ -31,3 +31,4 @@ av1an
 clap-stdin
 rpgpie
 diesel_cli
+tendermint-rpc
