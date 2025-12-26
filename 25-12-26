@@ -6,3 +6,4 @@ pandora_box
 cargo-lock
 exa
 safe_network
+perfcnt
