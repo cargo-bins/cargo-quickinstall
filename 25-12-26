@@ -47,3 +47,4 @@ qsv
 vdev
 clap-stdin
 jj
+dioxus-cli
