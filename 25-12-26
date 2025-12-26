@@ -45,3 +45,4 @@ runmat
 deploy
 qsv
 vdev
+clap-stdin
