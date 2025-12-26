@@ -3,3 +3,4 @@ crc-fast
 addr2line
 crypto-cli-tools
 rtx-cli
+cargo-lock
