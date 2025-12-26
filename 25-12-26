@@ -4,3 +4,4 @@ crc-fast
 crypto-cli-tools
 rtx-cli
 cargo-lock
+perfcnt
