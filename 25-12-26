@@ -32,3 +32,4 @@ clap-stdin
 rpgpie
 diesel_cli
 tendermint-rpc
+tracing-durations-export
