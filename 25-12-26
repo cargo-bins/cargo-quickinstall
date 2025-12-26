@@ -2,3 +2,4 @@ esp-config
 schemafy
 crc-fast
 addr2line
+rtx-cli
