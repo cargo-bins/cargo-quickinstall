@@ -9,3 +9,4 @@ datavzrd
 borsh
 process_viewer
 deploy
+clap-stdin
