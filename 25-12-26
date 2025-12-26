@@ -7,3 +7,4 @@ cargo-lock
 perfcnt
 datavzrd
 borsh
+process_viewer
