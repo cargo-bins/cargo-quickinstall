@@ -11,3 +11,4 @@ datavzrd
 borsh
 spider_cli
 deploy
+clap-stdin
