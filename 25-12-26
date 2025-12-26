@@ -50,3 +50,4 @@ jj
 dioxus-cli
 cargo-lock
 jj
+tendermint-rpc
