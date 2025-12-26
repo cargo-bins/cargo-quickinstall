@@ -18,3 +18,4 @@ diesel_cli
 tracing-durations-export
 lingua
 ducc-sys
+clippy
