@@ -2,3 +2,4 @@ schemafy
 wayland-interface-check
 fend
 crc-fast
+sea-orm-cli
