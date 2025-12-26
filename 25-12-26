@@ -27,3 +27,4 @@ wl-screenrec
 cargo-lock
 runmat
 termusic
+sea-orm-cli
