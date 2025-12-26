@@ -22,3 +22,4 @@ ducc-sys
 clippy
 tokio-process
 sqlx-cli
+httpbis
