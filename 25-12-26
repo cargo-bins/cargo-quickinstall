@@ -51,3 +51,4 @@ runmat
 clap-stdin
 termusic-server
 tendermint-rpc
+vdev
