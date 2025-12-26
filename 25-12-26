@@ -8,3 +8,4 @@ cargo-lock
 hayagriva
 datavzrd
 borsh
+process_viewer
