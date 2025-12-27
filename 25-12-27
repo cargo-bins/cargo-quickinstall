@@ -9,3 +9,4 @@ alacritty
 cargo-spellcheck
 tree-sitter-md
 libcst
+cached-path
