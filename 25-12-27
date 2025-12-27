@@ -16,3 +16,4 @@ dioxus-cli
 tree-sitter-md
 cached-path
 libcst
+paperclip
