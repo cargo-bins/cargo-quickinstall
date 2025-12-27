@@ -11,3 +11,4 @@ xargo
 borsh
 tree-sitter-md
 libcst
+cached-path
