@@ -7,3 +7,4 @@ tree-sitter-cli
 borsh
 alacritty
 cargo-spellcheck
+tree-sitter-md
