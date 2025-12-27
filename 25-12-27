@@ -9,3 +9,4 @@ alacritty
 tree-sitter-md
 sass-rs
 libcst
+cached-path
