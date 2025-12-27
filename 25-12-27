@@ -3,3 +3,4 @@ wmi
 human_name
 sea-orm-cli
 sha1collisiondetection
+tree-sitter-cli
