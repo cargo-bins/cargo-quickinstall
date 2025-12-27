@@ -26,3 +26,4 @@ quick-junit
 dash-mpd-cli
 raw-cpuid
 rsgen-avro
+dbus-codegen
