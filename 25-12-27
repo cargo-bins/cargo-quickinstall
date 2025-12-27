@@ -38,3 +38,4 @@ bpf-linker
 raw-cpuid
 rsgen-avro
 dbus-codegen
+git-mit-install
