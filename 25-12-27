@@ -50,3 +50,4 @@ xrusty
 statsig-rs
 valknut-rs
 dbus-codegen
+addr2line
