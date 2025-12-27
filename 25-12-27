@@ -19,3 +19,4 @@ cached-path
 rustbus
 quick-junit
 kani-verifier
+raw-cpuid
