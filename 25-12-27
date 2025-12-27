@@ -8,3 +8,4 @@ sn_cli
 text-diff
 git-mit-config
 tree-sitter-md
+libcst
