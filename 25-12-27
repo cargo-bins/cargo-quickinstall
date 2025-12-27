@@ -18,3 +18,4 @@ rustfmt
 cached-path
 rustbus
 quick-junit
+kani-verifier
