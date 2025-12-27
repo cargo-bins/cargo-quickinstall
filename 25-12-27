@@ -14,3 +14,4 @@ paperclip
 mit-pre-commit
 solana-validator
 git-mit-relates-to
+rustfmt
