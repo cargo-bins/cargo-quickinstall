@@ -6,3 +6,4 @@ sha1collisiondetection
 cargo-dylint
 jj
 wash-cli
+rg
