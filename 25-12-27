@@ -25,3 +25,4 @@ rsgen-avro
 httpbis
 dbus-codegen
 git-mit-install
+sn_node_rpc_client
