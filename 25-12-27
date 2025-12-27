@@ -6,3 +6,4 @@ sha1collisiondetection
 tree-sitter-cli
 borsh
 alacritty
+cargo-spellcheck
