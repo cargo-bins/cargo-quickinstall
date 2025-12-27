@@ -37,3 +37,4 @@ bpf-linker
 bpf-linker
 raw-cpuid
 rsgen-avro
+dbus-codegen
