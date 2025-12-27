@@ -14,3 +14,4 @@ borsh
 dioxus-cli
 dioxus-cli
 tree-sitter-md
+cached-path
