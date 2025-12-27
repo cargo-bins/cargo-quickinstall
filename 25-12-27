@@ -35,3 +35,4 @@ bpf-linker
 kani-verifier
 bpf-linker
 bpf-linker
+raw-cpuid
