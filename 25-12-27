@@ -3,3 +3,4 @@ rustbus
 human_name
 human_bytes
 forge-pfx
+sha1collisiondetection
