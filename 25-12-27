@@ -20,3 +20,4 @@ kanidm_tools
 cargo-spellcheck
 tree-sitter-md
 rg
+vtcode
