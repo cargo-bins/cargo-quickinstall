@@ -36,3 +36,4 @@ wayland-interface-check
 valknut-rs
 addr2line
 valknut-rs
+raw-cpuid
