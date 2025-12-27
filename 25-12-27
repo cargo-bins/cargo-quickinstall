@@ -33,3 +33,4 @@ bpf-linker
 quick-junit
 bpf-linker
 kani-verifier
+bpf-linker
