@@ -11,3 +11,4 @@ cargo-dylint
 rg
 cpp_demangle
 kanidm_tools
+rg
