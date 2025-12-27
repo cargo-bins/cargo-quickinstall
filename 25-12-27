@@ -9,3 +9,4 @@ wash-cli
 rg
 cargo-dylint
 rg
+cpp_demangle
