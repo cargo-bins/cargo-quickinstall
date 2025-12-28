@@ -10,3 +10,4 @@ cargo-embed
 cargo-flash
 nexmark
 cargo-flash
+probe-rs-cli
