@@ -3,3 +3,4 @@ borsh
 gpgme
 coldsnap
 dicom-pixeldata
+cargo-flash
