@@ -4,3 +4,4 @@ borsh
 gpgme
 cargo-tag
 cargo-tag
+remove_dir_all
