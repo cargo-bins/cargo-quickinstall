@@ -8,3 +8,4 @@ sn_cli
 git-mit-install
 racer
 clap-stdin
+human_bytes
