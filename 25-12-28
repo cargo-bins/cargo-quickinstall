@@ -6,3 +6,4 @@ dicom-pixeldata
 cargo-flash
 cargo-flash
 remove_dir_all
+cargo-embed
