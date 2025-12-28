@@ -39,3 +39,4 @@ hck
 cargo-licenses
 nu_plugin_query
 neovide
+dotenvy
