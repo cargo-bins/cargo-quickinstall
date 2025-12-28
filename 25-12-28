@@ -5,3 +5,4 @@ gpgme
 remove_dir_all
 racer
 human_bytes
+cargo-lock
