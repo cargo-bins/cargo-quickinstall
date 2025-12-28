@@ -13,3 +13,4 @@ clap-stdin
 human_bytes
 opencv-binding-generator
 cargo-lock
+dotenvy
