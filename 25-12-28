@@ -9,3 +9,4 @@ git-mit-install
 racer
 clap-stdin
 human_bytes
+opencv-binding-generator
