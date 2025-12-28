@@ -9,3 +9,4 @@ cargo-lock
 dotenvy
 ext-sort
 human_bytes
+ducc-sys
