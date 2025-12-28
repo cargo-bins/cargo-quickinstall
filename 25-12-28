@@ -19,3 +19,4 @@ cargo-flash
 racer
 clap-stdin
 probe-rs-cli
+human_bytes
