@@ -14,3 +14,4 @@ cargo-lock
 git-mit-relates-to
 ec2_instance_metadata
 skim
+dotenvy
