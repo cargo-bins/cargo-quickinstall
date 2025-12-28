@@ -12,3 +12,4 @@ clap-stdin
 cargo-tag
 human_bytes
 opencv-binding-generator
+cargo-lock
