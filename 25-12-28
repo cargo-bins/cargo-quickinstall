@@ -36,3 +36,4 @@ cargo-dylint
 cargo-lock
 esp-config
 hck
+cargo-licenses
