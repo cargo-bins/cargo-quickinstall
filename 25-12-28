@@ -16,3 +16,4 @@ cargo-lock
 dotenvy
 cargo-tag
 ext-sort
+cargo-tag
