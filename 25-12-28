@@ -33,3 +33,4 @@ opencv-binding-generator
 xrusty
 hck
 cargo-dylint
+cargo-lock
