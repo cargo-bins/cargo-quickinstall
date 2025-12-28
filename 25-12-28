@@ -3,3 +3,4 @@ rust-bert
 borsh
 gpgme
 dicom-pixeldata
+graphql_client_cli
