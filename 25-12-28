@@ -4,3 +4,4 @@ borsh
 gpgme
 coldsnap
 dicom-pixeldata
+graphql_client_cli
