@@ -13,3 +13,4 @@ opencv-binding-generator
 cargo-lock
 git-mit-relates-to
 ec2_instance_metadata
+skim
