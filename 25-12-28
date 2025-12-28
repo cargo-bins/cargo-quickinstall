@@ -17,3 +17,4 @@ probe-rs-cli
 git-mit-install
 cargo-flash
 racer
+clap-stdin
