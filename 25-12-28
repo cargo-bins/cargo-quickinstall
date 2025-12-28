@@ -32,3 +32,4 @@ spotify-tui
 opencv-binding-generator
 xrusty
 hck
+cargo-dylint
