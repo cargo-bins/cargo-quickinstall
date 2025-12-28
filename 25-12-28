@@ -3,3 +3,4 @@ addr2line
 rust-bert
 borsh
 valknut-rs
+gpgme
