@@ -40,3 +40,4 @@ cargo-licenses
 nu_plugin_query
 neovide
 dotenvy
+ext-sort
