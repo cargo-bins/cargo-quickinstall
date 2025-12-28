@@ -11,3 +11,4 @@ wayland-interface-check
 cargo-dylint
 spider_cli
 neovide
+xrusty
