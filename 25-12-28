@@ -18,3 +18,4 @@ git-mit-install
 cargo-flash
 racer
 clap-stdin
+probe-rs-cli
