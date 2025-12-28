@@ -8,3 +8,4 @@ cargo-flash
 remove_dir_all
 cargo-embed
 cargo-flash
+nexmark
