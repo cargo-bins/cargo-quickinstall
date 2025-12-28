@@ -13,3 +13,4 @@ rust-bert
 opencv-binding-generator
 cargo-lock
 dotenvy
+ext-sort
