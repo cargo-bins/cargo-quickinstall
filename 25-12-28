@@ -4,3 +4,4 @@ borsh
 gpgme
 dicom-pixeldata
 graphql_client_cli
+remove_dir_all
