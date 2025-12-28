@@ -36,3 +36,4 @@ crypto-cli-tools
 ducc-sys
 qsv
 binsider
+cargo-local-registry
