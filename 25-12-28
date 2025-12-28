@@ -6,3 +6,4 @@ gpgme
 graphql_client_cli
 remove_dir_all
 nexmark
+racer
