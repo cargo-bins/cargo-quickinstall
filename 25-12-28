@@ -14,3 +14,4 @@ opencv-binding-generator
 dotenvy
 ext-sort
 av-scenechange
+human_bytes
