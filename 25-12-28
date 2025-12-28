@@ -16,3 +16,4 @@ probe-rs-cli
 probe-rs-cli
 git-mit-install
 cargo-flash
+racer
