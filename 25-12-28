@@ -12,3 +12,4 @@ cargo-dylint
 spider_cli
 neovide
 xrusty
+cargo-licenses
