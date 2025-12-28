@@ -21,3 +21,4 @@ clap-stdin
 probe-rs-cli
 human_bytes
 probe-rs-cli
+coreos-installer
