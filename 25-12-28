@@ -24,3 +24,4 @@ nexmark
 neovide
 spotify-tui
 cargo-licenses
+cargo-dylint
