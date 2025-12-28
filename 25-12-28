@@ -2,3 +2,4 @@ cached-path
 rust-bert
 addr2line
 borsh
+gpgme
