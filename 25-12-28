@@ -8,3 +8,4 @@ remove_dir_all
 nexmark
 racer
 clap-stdin
+human_bytes
