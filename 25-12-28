@@ -12,3 +12,4 @@ human_bytes
 rust-bert
 opencv-binding-generator
 cargo-lock
+dotenvy
