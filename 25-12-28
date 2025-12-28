@@ -17,3 +17,4 @@ dotenvy
 cargo-tag
 ext-sort
 cargo-tag
+human_bytes
