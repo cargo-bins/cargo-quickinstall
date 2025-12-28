@@ -11,3 +11,4 @@ cargo-flash
 nexmark
 cargo-flash
 probe-rs-cli
+cargo-embed
