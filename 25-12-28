@@ -16,3 +16,4 @@ cargo-licenses
 spotify-tui
 hck
 neovide
+nu_plugin_query
