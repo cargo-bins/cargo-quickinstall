@@ -11,3 +11,4 @@ clap-stdin
 human_bytes
 opencv-binding-generator
 cargo-lock
+git-mit-relates-to
