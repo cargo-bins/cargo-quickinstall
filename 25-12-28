@@ -9,3 +9,4 @@ nexmark
 racer
 clap-stdin
 human_bytes
+rust-bert
