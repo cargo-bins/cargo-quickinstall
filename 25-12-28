@@ -25,3 +25,4 @@ coreos-installer
 cargo-lock
 git-mit-relates-to
 cargo-embed
+coreos-installer
