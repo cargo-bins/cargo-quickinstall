@@ -10,3 +10,4 @@ racer
 clap-stdin
 human_bytes
 rust-bert
+opencv-binding-generator
