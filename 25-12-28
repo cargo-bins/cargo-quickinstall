@@ -10,3 +10,4 @@ cargo-tag
 racer
 clap-stdin
 cargo-tag
+human_bytes
