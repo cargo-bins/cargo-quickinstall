@@ -7,3 +7,4 @@ cargo-tag
 remove_dir_all
 nexmark
 cargo-tag
+racer
