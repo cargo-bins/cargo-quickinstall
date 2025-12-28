@@ -9,3 +9,4 @@ wayland-interface-check
 graphql_client_cli
 wayland-interface-check
 cargo-dylint
+spider_cli
