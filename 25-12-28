@@ -20,3 +20,4 @@ racer
 clap-stdin
 probe-rs-cli
 human_bytes
+probe-rs-cli
