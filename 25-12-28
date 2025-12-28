@@ -2,3 +2,4 @@ cached-path
 borsh
 cargo-lock
 gpgme
+remove_dir_all
