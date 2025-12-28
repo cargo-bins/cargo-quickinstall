@@ -6,3 +6,4 @@ valknut-rs
 gpgme
 superseedr
 wayland-interface-check
+graphql_client_cli
