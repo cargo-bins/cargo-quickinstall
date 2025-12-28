@@ -20,3 +20,4 @@ nu_plugin_query
 racer
 spotify-tui
 cargo-licenses
+clap-stdin
