@@ -46,3 +46,4 @@ below
 sp1-prover
 dotenv-flow
 cached-path
+cargo-pgx
