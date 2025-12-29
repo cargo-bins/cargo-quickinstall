@@ -21,3 +21,4 @@ sp1-prover
 dotenv-flow
 cached-path
 lance
+spl-token-cli
