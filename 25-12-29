@@ -18,3 +18,4 @@ dua-cli
 rustfmt-nightly
 mit-pre-commit
 laminar
+diesel_cli
