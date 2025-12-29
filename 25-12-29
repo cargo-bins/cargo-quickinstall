@@ -28,3 +28,4 @@ cargo-spellcheck
 mdcat
 alacritty
 rustfmt-nightly
+cargo-pgx
