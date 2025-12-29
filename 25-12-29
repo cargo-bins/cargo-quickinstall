@@ -17,3 +17,4 @@ build-fs-tree
 cargo-spellcheck
 rustfmt-nightly
 laminar
+diesel_cli
