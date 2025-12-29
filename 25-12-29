@@ -10,3 +10,4 @@ ratatui-image
 deno
 cargo-mutants
 mise
+dioxus-cli
