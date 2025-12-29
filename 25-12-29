@@ -3,3 +3,4 @@ wmi
 re_query
 tendermint-rpc
 solana-ledger-tool
+tendermint-abci
