@@ -34,3 +34,4 @@ cargo-mobile2
 below
 cargo-pgx
 dotenv-flow
+cached-path
