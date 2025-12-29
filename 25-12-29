@@ -7,3 +7,4 @@ solana-ledger-tool
 tendermint-abci
 ratatui-image
 esp-config
+build-fs-tree
