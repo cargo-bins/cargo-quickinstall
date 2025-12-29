@@ -37,3 +37,4 @@ tmtc-c2a
 rustfmt-nightly
 cargo-pgx
 dash-mpd-cli
+laminar
