@@ -13,3 +13,4 @@ build-fs-tree
 qsv
 qsv
 rav1e
+rustfmt-nightly
