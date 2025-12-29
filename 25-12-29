@@ -13,3 +13,4 @@ tendermint-abci
 alacritty
 controller
 dioxus-cli
+ratatui-image
