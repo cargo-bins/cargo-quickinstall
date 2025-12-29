@@ -24,3 +24,4 @@ mdcat
 build-fs-tree
 rav1e
 cargo-pgx
+cargo-spellcheck
