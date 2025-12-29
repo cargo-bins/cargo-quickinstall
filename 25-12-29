@@ -6,3 +6,4 @@ solana-validator
 solana-ledger-tool
 tendermint-abci
 controller
+ratatui-image
