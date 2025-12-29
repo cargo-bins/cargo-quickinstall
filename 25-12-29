@@ -5,3 +5,4 @@ solana-validator
 tendermint-rpc
 solana-ledger-tool
 tendermint-abci
+controller
