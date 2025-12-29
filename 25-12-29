@@ -22,3 +22,4 @@ httm
 build-fs-tree
 mit-pre-commit
 kani-verifier
+solana-validator
