@@ -3,3 +3,4 @@ clap-stdin
 skim
 re_query
 solana-ledger-tool
+tendermint-abci
