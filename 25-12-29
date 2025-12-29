@@ -12,3 +12,4 @@ deno
 mise
 dioxus-cli
 build-fs-tree
+cargo-spellcheck
