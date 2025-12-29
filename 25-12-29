@@ -13,3 +13,4 @@ rav1e
 mit-pre-commit
 rustfmt-nightly
 diesel_cli
+laminar
