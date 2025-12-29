@@ -11,3 +11,4 @@ ratatui-image
 deno
 mise
 dioxus-cli
+build-fs-tree
