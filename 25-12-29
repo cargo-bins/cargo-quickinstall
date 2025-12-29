@@ -3,3 +3,4 @@ wmi
 re_query
 solana-validator
 tendermint-rpc
+solana-ledger-tool
