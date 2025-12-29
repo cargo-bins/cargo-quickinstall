@@ -14,3 +14,4 @@ dioxus-cli
 build-fs-tree
 cargo-spellcheck
 laminar
+diesel_cli
