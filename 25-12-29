@@ -33,3 +33,4 @@ diesel_cli
 cargo-mobile2
 below
 cargo-pgx
+dotenv-flow
