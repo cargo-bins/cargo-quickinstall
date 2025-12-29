@@ -8,3 +8,4 @@ tendermint-abci
 ratatui-image
 esp-config
 build-fs-tree
+rustfmt-nightly
