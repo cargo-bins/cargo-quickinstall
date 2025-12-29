@@ -15,3 +15,4 @@ rustfmt-nightly
 diesel_cli
 laminar
 dotenv-flow
+cached-path
