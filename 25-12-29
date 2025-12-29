@@ -10,3 +10,4 @@ esp-config
 build-fs-tree
 rustfmt-nightly
 diesel_cli
+laminar
