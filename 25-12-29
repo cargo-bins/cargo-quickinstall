@@ -11,3 +11,4 @@ iai-callgrind-runner
 build-fs-tree
 rav1e
 mit-pre-commit
+rustfmt-nightly
