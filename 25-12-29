@@ -5,3 +5,4 @@ solana-validator
 re_query
 binsider
 solana-ledger-tool
+tendermint-abci
