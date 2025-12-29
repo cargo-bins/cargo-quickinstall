@@ -4,3 +4,4 @@ clap-stdin
 solana-validator
 re_query
 binsider
+solana-ledger-tool
