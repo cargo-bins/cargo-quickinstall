@@ -15,3 +15,4 @@ iai-callgrind-runner
 dua-cli
 build-fs-tree
 dua-cli
+rustfmt-nightly
