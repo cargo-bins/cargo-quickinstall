@@ -4,3 +4,4 @@ wmi
 clap-stdin
 re_query
 tendermint-rpc
+solana-ledger-tool
