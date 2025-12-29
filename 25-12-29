@@ -32,3 +32,4 @@ build-fs-tree
 mit-pre-commit
 mdfried
 kani-verifier
+channels-console
