@@ -39,3 +39,4 @@ cargo-pgx
 dash-mpd-cli
 laminar
 pgrx-tests
+python-project-generator
