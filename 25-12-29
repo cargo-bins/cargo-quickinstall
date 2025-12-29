@@ -6,3 +6,4 @@ solana-ledger-tool
 tendermint-abci
 ratatui-image
 sn_node_rpc_client
+deno
