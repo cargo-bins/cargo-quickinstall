@@ -24,3 +24,4 @@ dotenv-flow
 lance
 spl-token-cli
 build-fs-tree
+solana-validator
