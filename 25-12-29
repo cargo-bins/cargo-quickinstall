@@ -12,3 +12,4 @@ dash-mpd-cli
 solana-ledger-tool
 tendermint-abci
 controller
+ratatui-image
