@@ -11,3 +11,4 @@ tendermint-rpc
 dash-mpd-cli
 solana-ledger-tool
 tendermint-abci
+controller
