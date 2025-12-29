@@ -39,3 +39,4 @@ cargo-pgx
 lance
 python-project-generator
 cargo-pgx
+spl-token-cli
