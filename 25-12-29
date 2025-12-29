@@ -6,3 +6,4 @@ re_query
 solana-validator
 solana-ledger-tool
 tendermint-abci
+controller
