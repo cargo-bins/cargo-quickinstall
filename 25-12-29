@@ -4,3 +4,4 @@ skim
 re_query
 solana-ledger-tool
 tendermint-abci
+ratatui-image
