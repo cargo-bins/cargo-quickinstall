@@ -17,3 +17,4 @@ rustfmt-nightly
 diesel_cli
 laminar
 sp1-prover
+dotenv-flow
