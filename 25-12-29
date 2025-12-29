@@ -37,3 +37,4 @@ dotenv-flow
 cached-path
 cargo-pgx
 lance
+python-project-generator
