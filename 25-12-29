@@ -7,3 +7,4 @@ python-project-generator
 dash-mpd-cli
 re_query
 solana-validator
+tendermint-rpc
