@@ -20,3 +20,4 @@ mit-pre-commit
 laminar
 diesel_cli
 dotenv-flow
+cached-path
