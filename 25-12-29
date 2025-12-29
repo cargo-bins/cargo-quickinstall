@@ -25,3 +25,4 @@ dprint
 build-fs-tree
 datavzrd
 solana-validator
+cargo-msrv
