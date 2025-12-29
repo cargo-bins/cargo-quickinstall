@@ -34,3 +34,4 @@ cyme
 cargo-pgx
 dash-mpd-cli
 tmtc-c2a
+rustfmt-nightly
