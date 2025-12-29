@@ -45,3 +45,4 @@ cargo-pgx
 below
 sp1-prover
 dotenv-flow
+cached-path
