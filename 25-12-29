@@ -10,3 +10,4 @@ solana-validator
 tendermint-rpc
 dash-mpd-cli
 solana-ledger-tool
+tendermint-abci
