@@ -9,3 +9,4 @@ esp-config
 deno
 qsv
 dioxus-cli
+build-fs-tree
