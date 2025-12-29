@@ -4,3 +4,4 @@ wmi
 clap-stdin
 re_query
 solana-validator
+solana-ledger-tool
