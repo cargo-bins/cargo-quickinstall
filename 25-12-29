@@ -12,3 +12,4 @@ build-fs-tree
 rav1e
 mit-pre-commit
 rustfmt-nightly
+diesel_cli
