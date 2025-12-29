@@ -12,3 +12,4 @@ esp-config
 deno
 cargo-mutants
 mise
+dioxus-cli
