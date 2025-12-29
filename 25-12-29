@@ -27,3 +27,4 @@ cargo-pgx
 cargo-spellcheck
 mdcat
 alacritty
+rustfmt-nightly
