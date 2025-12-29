@@ -2,3 +2,4 @@ tendermint-abci
 wmi
 re_query
 solana-validator
+tendermint-rpc
