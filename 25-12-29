@@ -17,3 +17,4 @@ build-fs-tree
 dua-cli
 rustfmt-nightly
 mit-pre-commit
+laminar
