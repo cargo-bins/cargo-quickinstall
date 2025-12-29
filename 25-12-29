@@ -16,3 +16,4 @@ dua-cli
 build-fs-tree
 dua-cli
 rustfmt-nightly
+mit-pre-commit
