@@ -7,3 +7,4 @@ tendermint-abci
 ratatui-image
 sn_node_rpc_client
 deno
+iai-callgrind-runner
