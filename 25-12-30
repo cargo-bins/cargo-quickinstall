@@ -16,3 +16,4 @@ iai-callgrind-runner
 rbw
 channels-console
 flowistry_ide
+pwasm-utils
