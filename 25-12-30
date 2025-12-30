@@ -21,3 +21,4 @@ binstall
 bltz
 paru
 solana-cli
+cargo-info
