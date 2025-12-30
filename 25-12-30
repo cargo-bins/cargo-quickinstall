@@ -7,3 +7,4 @@ tree-sitter-cli
 tendermint-rpc
 perfcnt
 cargo-mutants
+solana-cli
