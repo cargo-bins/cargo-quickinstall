@@ -9,3 +9,4 @@ perfcnt
 cargo-mutants
 solana-cli
 pwasm-utils
+uniffi
