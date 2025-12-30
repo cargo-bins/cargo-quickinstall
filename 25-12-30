@@ -6,3 +6,4 @@ cargo-mutants
 solana-cli
 pwasm-utils
 uniffi
+tree-sitter-md
