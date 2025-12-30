@@ -14,3 +14,4 @@ spotify_player
 tendermint-rpc
 wiki-tui
 cargo-info
+cargo-mutants
