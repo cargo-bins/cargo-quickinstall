@@ -11,3 +11,4 @@ tendermint-rpc
 vdev
 vdev
 solana-cli
+pwasm-utils
