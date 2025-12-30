@@ -20,3 +20,4 @@ zuse
 tree-sitter-cli
 cpp_demangle
 project_init
+tree_magic
