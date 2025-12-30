@@ -8,3 +8,4 @@ tendermint-rpc
 perfcnt
 cargo-mutants
 solana-cli
+pwasm-utils
