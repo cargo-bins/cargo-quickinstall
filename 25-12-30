@@ -63,3 +63,4 @@ project_init
 c2rust
 binstall
 hurl
+tree_magic
