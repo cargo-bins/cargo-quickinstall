@@ -17,3 +17,4 @@ httm
 tendermint-rpc
 papyrus_storage
 av-scenechange
+pwasm-utils
