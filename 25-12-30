@@ -15,3 +15,4 @@ gpgme
 zuse
 tree-sitter-cli
 cpp_demangle
+safe_network
