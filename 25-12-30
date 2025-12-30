@@ -15,3 +15,4 @@ tendermint-rpc
 wiki-tui
 cargo-info
 cargo-mutants
+cargo-info
