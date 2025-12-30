@@ -17,3 +17,4 @@ av-scenechange
 procfd
 tendermint-rpc
 av-scenechange
+pwasm-utils
