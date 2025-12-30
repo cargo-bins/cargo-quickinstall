@@ -30,3 +30,4 @@ bltz
 av-scenechange
 c2rust
 wiki-tui
+tendermint-rpc
