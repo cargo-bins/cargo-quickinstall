@@ -13,3 +13,4 @@ papyrus_storage
 pwasm-utils
 gpgme
 zuse
+tree-sitter-cli
