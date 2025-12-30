@@ -25,3 +25,4 @@ cargo-info
 paru
 bltz
 c2rust
+pwasm-utils
