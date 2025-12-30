@@ -18,3 +18,4 @@ pwasm-utils
 gpgme
 zuse
 tree-sitter-cli
+cpp_demangle
