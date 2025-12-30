@@ -4,3 +4,4 @@ qsv
 esp-config
 schemafy
 procfd
+tendermint-rpc
