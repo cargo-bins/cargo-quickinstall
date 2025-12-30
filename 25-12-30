@@ -11,3 +11,4 @@ pwasm-utils
 uniffi
 pwasm-utils
 gpgme
+cpp_demangle
