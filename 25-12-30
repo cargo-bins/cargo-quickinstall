@@ -13,3 +13,4 @@ cargo-info
 dioxus-cli
 tree-sitter-cli
 wiki-tui
+tendermint-rpc
