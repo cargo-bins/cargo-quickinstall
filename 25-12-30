@@ -14,3 +14,4 @@ perfcnt
 tendermint-rpc
 iai-callgrind-runner
 rbw
+channels-console
