@@ -14,3 +14,4 @@ solana-cli
 pwasm-utils
 uniffi
 tree-sitter-md
+papyrus_storage
