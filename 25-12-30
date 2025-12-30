@@ -2,3 +2,4 @@ quick-junit
 java-locator
 tree-sitter-cli
 tendermint-rpc
+cargo-mutants
