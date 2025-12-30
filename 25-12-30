@@ -9,3 +9,4 @@ cargo-mutants
 solana-cli
 pwasm-utils
 uniffi
+papyrus_storage
