@@ -36,3 +36,4 @@ av-scenechange
 bltz
 pwasm-utils
 fresh-editor
+gpgme
