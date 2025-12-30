@@ -21,3 +21,4 @@ tree-sitter-md
 rbw
 tendermint-rpc
 papyrus_storage
+pwasm-utils
