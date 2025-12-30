@@ -7,3 +7,4 @@ tree-sitter-cli
 tendermint-rpc
 cargo-mutants
 solana-cli
+pwasm-utils
