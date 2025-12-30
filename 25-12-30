@@ -42,3 +42,4 @@ zuse
 binstall
 speedtest-rs
 c2rust
+cpp_demangle
