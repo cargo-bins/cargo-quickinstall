@@ -9,3 +9,4 @@ tendermint-rpc
 codeberg-cli
 codeberg-cli
 iai-callgrind-runner
+pwasm-utils
