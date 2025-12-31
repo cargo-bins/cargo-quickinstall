@@ -13,3 +13,4 @@ stellar-xdr
 cargo-lock
 burn-tch
 spider_worker
+dioxus-cli
