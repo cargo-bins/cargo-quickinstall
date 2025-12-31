@@ -27,3 +27,4 @@ sniffnet
 cargo-unused-features
 arrow-flight
 rustdesk
+nexmark
