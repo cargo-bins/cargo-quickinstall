@@ -39,3 +39,4 @@ solana-ledger-tool
 rustdesk
 minicloze
 controller
+sea-orm-cli
