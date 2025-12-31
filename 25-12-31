@@ -9,3 +9,4 @@ git-mit-install
 cargo-local-registry
 stellar-xdr
 cargo-lock
+burn-tch
