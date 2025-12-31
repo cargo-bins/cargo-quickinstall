@@ -50,3 +50,4 @@ dver
 cargo-lock
 burn-tch
 jless
+jbuild
