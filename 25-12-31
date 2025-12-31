@@ -85,3 +85,4 @@ cargo-unused-features
 tmtc-c2a
 jbuild
 clippy
+rioterm
