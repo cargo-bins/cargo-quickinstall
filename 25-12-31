@@ -79,3 +79,4 @@ endbasic
 endbasic
 spider_worker
 jbuild
+tree-sitter-stack-graphs
