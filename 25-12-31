@@ -5,3 +5,4 @@ pic
 cargo-lock
 lowfi
 c2rust
+sea-orm-cli
