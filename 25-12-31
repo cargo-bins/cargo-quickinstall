@@ -53,3 +53,4 @@ jless
 jbuild
 minicloze
 rustdesk
+cargo-unused-features
