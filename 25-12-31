@@ -7,3 +7,4 @@ stellar-strkey
 solana-ledger-tool
 git-mit-install
 cargo-local-registry
+stellar-xdr
