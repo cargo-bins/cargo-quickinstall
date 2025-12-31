@@ -1,3 +1,4 @@
 quick-junit
 cargo-lock
 rsgen-avro
+arrow-flight
