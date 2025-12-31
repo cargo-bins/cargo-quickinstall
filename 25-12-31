@@ -3,3 +3,4 @@ cargo-lock
 rsgen-avro
 arrow-flight
 nexmark
+stellar-strkey
