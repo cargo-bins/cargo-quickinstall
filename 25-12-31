@@ -2,3 +2,4 @@ quick-junit
 cargo-lock
 cargo-lambda
 rsgen-avro
+rustup-toolchain-install-master
