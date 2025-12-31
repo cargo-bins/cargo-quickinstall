@@ -15,3 +15,4 @@ controller
 addr2line
 stellar-xdr
 cargo-lock
+burn-tch
