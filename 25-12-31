@@ -16,3 +16,4 @@ addr2line
 stellar-xdr
 cargo-lock
 burn-tch
+spider_worker
