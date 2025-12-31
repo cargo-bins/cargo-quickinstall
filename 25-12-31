@@ -57,3 +57,4 @@ cargo-unused-features
 porsmo
 lowfi
 rustdesk
+sea-orm-cli
