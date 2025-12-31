@@ -70,3 +70,4 @@ cargo-unused-features
 ncspot
 endbasic
 ncspot
+tree-sitter-stack-graphs
