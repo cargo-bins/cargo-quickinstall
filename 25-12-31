@@ -7,3 +7,4 @@ vdev
 rustup-toolchain-install-master
 shunkakinoki
 arrow-flight
+nexmark
