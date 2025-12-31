@@ -1,3 +1,4 @@
 quick-junit
 cargo-lock
 cargo-lambda
+rsgen-avro
