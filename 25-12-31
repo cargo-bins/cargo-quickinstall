@@ -2,3 +2,4 @@ quick-junit
 cargo-lock
 vdev
 vdev
+rsgen-avro
