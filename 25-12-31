@@ -81,3 +81,4 @@ spider_worker
 jbuild
 tree-sitter-stack-graphs
 dioxus-cli
+cargo-unused-features
