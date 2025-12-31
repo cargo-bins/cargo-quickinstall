@@ -66,3 +66,4 @@ fyrox-project-manager
 jbuild
 cargo-unused-features
 spotify_player
+tree-sitter-stack-graphs
