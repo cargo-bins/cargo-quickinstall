@@ -14,3 +14,4 @@ binstall
 stellar-strkey
 binstall
 stellar-xdr
+cargo-lock
