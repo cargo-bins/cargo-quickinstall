@@ -12,3 +12,4 @@ controller
 stellar-xdr
 cargo-lock
 burn-tch
+spider_worker
