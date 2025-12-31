@@ -3,3 +3,4 @@ cargo-lock
 arrow-flight
 nexmark
 tree-sitter-graph
+stellar-strkey
