@@ -4,3 +4,4 @@ binstall
 pic
 cargo-lock
 lowfi
+c2rust
