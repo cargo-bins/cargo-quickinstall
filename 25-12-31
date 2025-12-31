@@ -83,3 +83,4 @@ tree-sitter-stack-graphs
 dioxus-cli
 cargo-unused-features
 tmtc-c2a
+jbuild
