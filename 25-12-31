@@ -4,3 +4,4 @@ cargo-lambda
 rsgen-avro
 rustup-toolchain-install-master
 shunkakinoki
+dotslash
