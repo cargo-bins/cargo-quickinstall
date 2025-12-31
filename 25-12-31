@@ -54,3 +54,4 @@ dver
 cargo-unused-features
 ncspot
 rustdesk
+cargo-lock
