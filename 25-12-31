@@ -5,3 +5,4 @@ rsgen-avro
 rustup-toolchain-install-master
 shunkakinoki
 dotslash
+arrow-flight
