@@ -3,3 +3,4 @@ cargo-lock
 cargo-lambda
 rustup-toolchain-install-master
 shunkakinoki
+dotslash
