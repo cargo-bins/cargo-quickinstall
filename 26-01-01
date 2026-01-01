@@ -4,3 +4,4 @@ sp1-prover
 statsig-rs
 clippy
 cargo-msrv
+solana-ledger-tool
