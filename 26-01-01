@@ -16,3 +16,4 @@ solana-faucet
 uniffi
 solana-ledger-tool
 remove_dir_all
+unic-langid-impl
