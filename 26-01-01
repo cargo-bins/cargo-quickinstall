@@ -5,3 +5,4 @@ sp1-prover
 statsig-rs
 clippy
 parquet
+cargo-msrv
