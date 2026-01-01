@@ -18,3 +18,4 @@ charset-normalizer-rs
 solana-ledger-tool
 remove_dir_all
 charset-normalizer-rs
+unic-langid-impl
