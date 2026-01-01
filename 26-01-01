@@ -20,3 +20,4 @@ remove_dir_all
 charset-normalizer-rs
 unic-langid-impl
 project_init
+socketcan
