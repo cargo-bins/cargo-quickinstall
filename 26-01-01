@@ -10,3 +10,4 @@ solana-cli
 build-fs-tree
 tree-sitter-cli
 discord-mpris-rs
+rls-rustc
