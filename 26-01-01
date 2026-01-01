@@ -18,3 +18,4 @@ uniffi
 remove_dir_all
 unic-langid-impl
 project_init
+socketcan
