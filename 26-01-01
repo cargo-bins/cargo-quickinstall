@@ -18,3 +18,4 @@ buck2
 statsig-rs
 sapling
 sapling
+cargo-dylint
