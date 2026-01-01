@@ -4,3 +4,4 @@ rls-rustc
 sp1-prover
 statsig-rs
 clippy
+parquet
