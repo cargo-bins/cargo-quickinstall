@@ -4,3 +4,4 @@ build-fs-tree
 sp1-prover
 statsig-rs
 tree_magic
+clippy
