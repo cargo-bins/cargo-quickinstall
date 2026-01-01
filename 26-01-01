@@ -18,3 +18,4 @@ solana-faucet
 uniffi
 remove_dir_all
 unic-langid-impl
+socketcan
