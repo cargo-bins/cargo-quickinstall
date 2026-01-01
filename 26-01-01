@@ -16,3 +16,4 @@ charset-normalizer-rs
 uniffi
 charset-normalizer-rs
 solana-ledger-tool
+remove_dir_all
