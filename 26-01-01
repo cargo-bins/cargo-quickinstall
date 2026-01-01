@@ -8,3 +8,4 @@ honggfuzz
 wol-rs
 qsv
 rmesg
+charset-normalizer-rs
