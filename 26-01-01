@@ -6,3 +6,4 @@ statsig-rs
 clippy
 parquet
 cargo-msrv
+solana-ledger-tool
