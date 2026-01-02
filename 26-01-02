@@ -14,3 +14,4 @@ exa
 nextest-filtering
 kani-verifier
 z3tracer
+perfcnt
