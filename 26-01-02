@@ -27,3 +27,4 @@ simp
 cargo-dylint
 auto-ytdlp-rs
 deepseek-cli
+ironbar
