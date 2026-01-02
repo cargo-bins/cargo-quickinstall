@@ -18,3 +18,4 @@ perfcnt
 tendermint-abci
 deploy
 mit-prepare-commit-msg
+cargo-leptos
