@@ -6,3 +6,4 @@ nkeys
 sea-orm-cli
 solana-faucet
 sass-rs
+solana-validator
