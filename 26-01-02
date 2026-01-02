@@ -16,3 +16,4 @@ diesel_cli
 kani-verifier
 fake
 z3tracer
+perfcnt
