@@ -7,3 +7,4 @@ solana-validator
 diesel_cli
 dicom-pixeldata
 exa
+nextest-runner
