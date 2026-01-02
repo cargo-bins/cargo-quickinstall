@@ -16,3 +16,4 @@ kani-verifier
 z3tracer
 perfcnt
 tendermint-abci
+deploy
