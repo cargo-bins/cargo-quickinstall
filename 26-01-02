@@ -22,3 +22,4 @@ cargo-dylint
 ironbar
 deepseek-cli
 tree-sitter-cli
+solana-faucet
