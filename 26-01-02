@@ -13,3 +13,4 @@ z3tracer
 perfcnt
 tendermint-abci
 deploy
+spl-token-cli
