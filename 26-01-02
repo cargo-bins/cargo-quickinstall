@@ -13,3 +13,4 @@ perfcnt
 tendermint-abci
 cpp_demangle
 deploy
+spl-token-cli
