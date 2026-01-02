@@ -10,3 +10,4 @@ nexmark
 nextest-runner
 nextest-filtering
 z3tracer
+perfcnt
