@@ -12,3 +12,4 @@ nextest-filtering
 z3tracer
 perfcnt
 tendermint-abci
+deploy
