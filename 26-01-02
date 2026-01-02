@@ -70,3 +70,4 @@ z3tracer
 redoxfs
 slint-lsp
 tendermint-abci
+cpp_demangle
