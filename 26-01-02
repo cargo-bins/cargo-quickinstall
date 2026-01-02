@@ -55,3 +55,4 @@ cargo-smart-release
 rmup
 shadowsocks-rust
 rewrk
+nextest-runner
