@@ -6,3 +6,4 @@ dicom-pixeldata
 nextest-runner
 nextest-filtering
 fake
+z3tracer
