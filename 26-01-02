@@ -7,3 +7,4 @@ sass-rs
 dicom-pixeldata
 nextest-runner
 nextest-filtering
+fake
