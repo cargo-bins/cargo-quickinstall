@@ -14,3 +14,4 @@ nextest-runner
 nextest-filtering
 fake
 z3tracer
+tendermint-abci
