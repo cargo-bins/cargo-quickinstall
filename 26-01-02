@@ -14,3 +14,4 @@ perfcnt
 tendermint-abci
 cpp_demangle
 deploy
+solana-faucet
