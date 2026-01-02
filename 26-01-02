@@ -24,3 +24,4 @@ deepseek-cli
 tree-sitter-cli
 solana-faucet
 simp
+cargo-dylint
