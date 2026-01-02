@@ -13,3 +13,4 @@ nextest-runner
 exa
 nextest-filtering
 kani-verifier
+z3tracer
