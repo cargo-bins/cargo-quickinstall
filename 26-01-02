@@ -36,3 +36,4 @@ simp
 solana-validator
 oxipng
 auto-ytdlp-rs
+sea-orm-cli
