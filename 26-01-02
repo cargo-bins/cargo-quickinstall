@@ -43,3 +43,4 @@ vdev
 vdev
 sass-rs
 cargo-smart-release
+dicom-pixeldata
