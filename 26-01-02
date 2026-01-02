@@ -11,3 +11,4 @@ nextest-runner
 exa
 nextest-filtering
 socketcan
+diesel_cli
