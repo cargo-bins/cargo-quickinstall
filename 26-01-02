@@ -11,3 +11,4 @@ fake
 z3tracer
 perfcnt
 tendermint-abci
+cpp_demangle
