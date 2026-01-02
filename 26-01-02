@@ -62,3 +62,4 @@ nextest-filtering
 spider_cli
 cargo-smart-release
 bluetui
+fake
