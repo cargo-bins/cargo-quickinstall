@@ -58,3 +58,4 @@ bluetui
 cargo-smart-release
 hindsight
 cargo-smart-release
+nextest-filtering
