@@ -13,3 +13,4 @@ nextest-filtering
 socketcan
 diesel_cli
 diesel_cli
+kani-verifier
