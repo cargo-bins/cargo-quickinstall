@@ -24,3 +24,4 @@ deploy
 mit-prepare-commit-msg
 cargo-leptos
 jj
+rustbus
