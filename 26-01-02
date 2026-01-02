@@ -66,3 +66,4 @@ nextest-filtering
 cargo-smart-release
 spider_cli
 fake
+z3tracer
