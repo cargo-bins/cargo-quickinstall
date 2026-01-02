@@ -28,3 +28,4 @@ cargo-dylint
 auto-ytdlp-rs
 deepseek-cli
 ironbar
+shadowsocks-rust
