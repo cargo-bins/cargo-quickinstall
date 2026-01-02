@@ -63,3 +63,4 @@ shadowsocks-rust
 hindsight
 hindsight
 nextest-filtering
+cargo-smart-release
