@@ -19,3 +19,4 @@ z3tracer
 perfcnt
 zellij
 tendermint-abci
+cpp_demangle
