@@ -59,3 +59,4 @@ cargo-smart-release
 hindsight
 cargo-smart-release
 nextest-filtering
+spider_cli
