@@ -9,3 +9,4 @@ simp
 tree-sitter-cli
 youtui
 auto-ytdlp-rs
+cargo-dylint
