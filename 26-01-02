@@ -24,3 +24,4 @@ wayland-interface-check
 cargo-smart-release
 rewrk
 sea-orm-cli
+rewrk
