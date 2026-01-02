@@ -8,3 +8,4 @@ sass-rs
 dicom-pixeldata
 nexmark
 nextest-runner
+nextest-filtering
