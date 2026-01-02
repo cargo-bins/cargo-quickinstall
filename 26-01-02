@@ -17,3 +17,4 @@ bluetui
 shadowsocks-rust
 nkeys
 ironbar
+cargo-smart-release
