@@ -68,3 +68,4 @@ cargo-whatfeatures
 solana-cli
 oktofetch
 nextest
+rustup-toolchain-install-master
