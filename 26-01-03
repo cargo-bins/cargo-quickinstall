@@ -6,3 +6,4 @@ schemafy
 libbpf-cargo
 cached-path
 dotenv
+spl-token-cli
