@@ -9,3 +9,4 @@ dotenv
 spl-token-cli
 ext-sort
 lingua
+cargo-spellcheck
