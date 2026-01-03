@@ -40,3 +40,4 @@ nextest
 glit
 cargo-dylint
 ripunzip
+cargo-spellcheck
