@@ -7,3 +7,4 @@ git-mit-config
 addr2line
 qsv
 schemafy
+libbpf-cargo
