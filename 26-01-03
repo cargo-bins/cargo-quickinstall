@@ -19,3 +19,4 @@ schemafy
 re_query
 libbpf-cargo
 cached-path
+dotenv
