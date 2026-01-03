@@ -7,3 +7,4 @@ libbpf-cargo
 cached-path
 av-scenechange
 dotenv
+spl-token-cli
