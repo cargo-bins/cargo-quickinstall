@@ -37,3 +37,4 @@ cargo-dylint
 socketcan
 pista
 nextest
+glit
