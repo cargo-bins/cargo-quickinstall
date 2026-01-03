@@ -13,3 +13,4 @@ schemafy
 libbpf-cargo
 cached-path
 dotenv
+ext-sort
