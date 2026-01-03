@@ -14,3 +14,4 @@ qsv
 solana-faucet
 schemafy
 dioxus-cli
+libbpf-cargo
