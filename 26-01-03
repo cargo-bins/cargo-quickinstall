@@ -33,3 +33,4 @@ cargo-ssearch
 ripunzip
 dotenv
 spl-token-cli
+ext-sort
