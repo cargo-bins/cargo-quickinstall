@@ -17,3 +17,4 @@ ext-sort
 cargo-spellcheck
 cargo-pgrx
 parquet
+solana-cli
