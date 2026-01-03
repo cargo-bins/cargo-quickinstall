@@ -4,3 +4,4 @@ solana-stake-accounts
 solana-faucet
 schemafy
 libbpf-cargo
+cached-path
