@@ -42,3 +42,4 @@ cargo-dylint
 ripunzip
 cargo-spellcheck
 oktofetch
+cargo-pgrx
