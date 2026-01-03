@@ -17,3 +17,4 @@ dioxus-cli
 libbpf-cargo
 cached-path
 dioxus-cli
+dotenv
