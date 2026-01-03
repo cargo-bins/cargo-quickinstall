@@ -7,3 +7,4 @@ libbpf-cargo
 cached-path
 dotenv
 spl-token-cli
+ext-sort
