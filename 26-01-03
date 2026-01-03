@@ -3,3 +3,4 @@ cargo-add
 wmi
 release
 cargo-add
+addr2line
