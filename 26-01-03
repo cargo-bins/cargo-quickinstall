@@ -12,3 +12,4 @@ lingua
 cargo-spellcheck
 cargo-pgrx
 parquet
+pwasm-utils
