@@ -18,3 +18,4 @@ rustfmt
 honggfuzz
 lingua
 parquet
+pwasm-utils
