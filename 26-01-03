@@ -3,3 +3,4 @@ addr2line
 qsv
 solana-faucet
 schemafy
+libbpf-cargo
