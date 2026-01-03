@@ -61,3 +61,4 @@ solana-cli
 rustup-toolchain-install-master
 pista
 nextest
+nice_prompt
