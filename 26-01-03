@@ -9,3 +9,4 @@ av-scenechange
 dotenv
 spl-token-cli
 ext-sort
+cargo-spellcheck
