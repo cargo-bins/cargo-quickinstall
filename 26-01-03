@@ -18,3 +18,4 @@ libbpf-cargo
 cached-path
 dioxus-cli
 dotenv
+ext-sort
