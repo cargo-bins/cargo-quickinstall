@@ -14,3 +14,4 @@ libbpf-cargo
 cached-path
 dotenv
 ext-sort
+socketcan
