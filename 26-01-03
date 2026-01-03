@@ -16,3 +16,4 @@ dotenv
 ext-sort
 socketcan
 cargo-spellcheck
+cargo-pgrx
