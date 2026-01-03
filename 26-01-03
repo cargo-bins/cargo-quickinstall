@@ -36,3 +36,4 @@ lumen
 cargo-dylint
 socketcan
 pista
+nextest
