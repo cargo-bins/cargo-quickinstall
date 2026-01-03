@@ -21,3 +21,4 @@ libbpf-cargo
 cached-path
 dotenv
 ext-sort
+youtube-tui
