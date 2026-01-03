@@ -4,3 +4,4 @@ wmi
 release
 cargo-add
 addr2line
+cargo-add
