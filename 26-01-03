@@ -10,3 +10,4 @@ dotenv
 spl-token-cli
 ext-sort
 cargo-spellcheck
+cargo-pgrx
