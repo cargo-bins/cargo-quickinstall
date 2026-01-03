@@ -9,3 +9,4 @@ qsv
 schemafy
 libbpf-cargo
 rustbus
+cached-path
