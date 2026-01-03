@@ -54,3 +54,4 @@ mangadex-fs
 cargo-spellcheck
 cargo-pgrx
 nice_prompt
+nextest
