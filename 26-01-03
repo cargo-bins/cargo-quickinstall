@@ -17,3 +17,4 @@ git-mit-install
 rustfmt
 honggfuzz
 lingua
+parquet
