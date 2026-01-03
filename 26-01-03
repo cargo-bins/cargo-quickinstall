@@ -19,3 +19,4 @@ cargo-pgrx
 parquet
 solana-cli
 rustup-toolchain-install-master
+sp1-prover
