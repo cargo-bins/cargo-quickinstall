@@ -20,3 +20,4 @@ re_query
 libbpf-cargo
 cached-path
 dotenv
+ext-sort
