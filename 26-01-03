@@ -17,3 +17,4 @@ cargo-add
 solana-faucet
 schemafy
 re_query
+libbpf-cargo
