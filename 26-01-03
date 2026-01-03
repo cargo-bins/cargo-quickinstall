@@ -8,3 +8,4 @@ addr2line
 qsv
 schemafy
 libbpf-cargo
+rustbus
