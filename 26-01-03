@@ -19,3 +19,4 @@ cargo-spellcheck
 cargo-pgrx
 parquet
 solana-cli
+rustup-toolchain-install-master
