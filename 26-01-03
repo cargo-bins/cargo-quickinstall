@@ -11,3 +11,4 @@ libbpf-cargo
 rustbus
 cached-path
 dotenv
+ext-sort
