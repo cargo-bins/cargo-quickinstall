@@ -33,3 +33,4 @@ cargo-ssearch
 ext-sort
 rav1e
 lumen
+cargo-dylint
