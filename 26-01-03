@@ -16,3 +16,4 @@ dotenv
 ext-sort
 cargo-spellcheck
 cargo-pgrx
+parquet
