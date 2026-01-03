@@ -17,3 +17,4 @@ ext-sort
 socketcan
 cargo-spellcheck
 cargo-pgrx
+parquet
