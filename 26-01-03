@@ -31,3 +31,4 @@ cached-path
 av-scenechange
 cargo-ssearch
 ripunzip
+dotenv
