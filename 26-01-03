@@ -38,3 +38,4 @@ socketcan
 pista
 nextest
 glit
+cargo-dylint
