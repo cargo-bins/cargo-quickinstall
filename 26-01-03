@@ -26,3 +26,4 @@ cargo-whatfeatures
 libbpf-cargo
 mangadex-fs
 pista
+cached-path
