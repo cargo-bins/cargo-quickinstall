@@ -22,3 +22,4 @@ cached-path
 dotenv
 ext-sort
 youtube-tui
+parquet
