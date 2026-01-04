@@ -12,3 +12,4 @@ sha1collisiondetection
 coldsnap
 pwasm-utils
 nextest-filtering
+schemafy
