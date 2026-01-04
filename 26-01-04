@@ -13,3 +13,4 @@ sn_node_rpc_client
 pwasm-utils
 coldsnap
 nextest-filtering
+schemafy
