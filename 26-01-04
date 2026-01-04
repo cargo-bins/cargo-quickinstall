@@ -5,3 +5,4 @@ xargo
 cargo-dylint
 cargo-dylint
 nextest
+cargo-show
