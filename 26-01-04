@@ -33,3 +33,4 @@ spider_cli
 lumen
 pwasm-utils
 mdfried
+nextest-filtering
