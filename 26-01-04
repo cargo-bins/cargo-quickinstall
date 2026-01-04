@@ -25,3 +25,4 @@ cargo-show
 librespot
 cargo-show
 opencv-binding-generator
+sha1collisiondetection
