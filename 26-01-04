@@ -6,3 +6,4 @@ rzup
 textplots
 honggfuzz
 libcst
+opencv-binding-generator
