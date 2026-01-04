@@ -20,3 +20,4 @@ cargo-show
 mdfried
 spider_cli
 solana-stake-accounts
+spl-token-cli
