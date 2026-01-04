@@ -18,3 +18,4 @@ tendermint-rpc
 spl-token-cli
 holochain
 libcst
+tuftool
