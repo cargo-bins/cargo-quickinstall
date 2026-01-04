@@ -31,3 +31,4 @@ pwasm-utils
 cargo-show
 worf-launcher
 nextest-filtering
+schemafy
