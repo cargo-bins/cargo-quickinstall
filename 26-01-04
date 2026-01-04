@@ -20,3 +20,4 @@ git-disjoint
 openpty
 tokio-process
 tendermint-rpc
+holochain
