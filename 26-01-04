@@ -27,3 +27,4 @@ cargo-show
 opencv-binding-generator
 sha1collisiondetection
 cargo-show
+pwasm-utils
