@@ -25,3 +25,4 @@ nextest
 nextest
 openpty
 tendermint-rpc
+libcst
