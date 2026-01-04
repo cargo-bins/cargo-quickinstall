@@ -11,3 +11,4 @@ opencv-binding-generator
 sha1collisiondetection
 coldsnap
 pwasm-utils
+nextest-filtering
