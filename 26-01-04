@@ -12,3 +12,4 @@ pwasm-utils
 nextest-filtering
 schemafy
 tendermint-rpc
+spl-token-cli
