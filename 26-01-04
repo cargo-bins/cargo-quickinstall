@@ -16,3 +16,4 @@ honggfuzz
 rmpc
 rmpc
 sha1collisiondetection
+pwasm-utils
