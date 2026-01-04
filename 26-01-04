@@ -20,3 +20,4 @@ pwasm-utils
 coldsnap
 nextest-filtering
 schemafy
+openpty
