@@ -14,3 +14,4 @@ pwasm-utils
 coldsnap
 nextest-filtering
 schemafy
+benfred-read-process-memory
