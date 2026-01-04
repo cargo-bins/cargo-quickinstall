@@ -17,3 +17,4 @@ schemafy
 benfred-read-process-memory
 sn_cli
 git-disjoint
+openpty
