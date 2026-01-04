@@ -7,3 +7,4 @@ cargo-dylint
 nextest
 cargo-show
 solana-stake-accounts
+lumen
