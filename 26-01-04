@@ -46,3 +46,4 @@ cargo-spellcheck
 jj
 runmat
 worf-launcher
+tendermint-rpc
