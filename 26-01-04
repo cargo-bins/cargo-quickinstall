@@ -21,3 +21,4 @@ openpty
 tokio-process
 tendermint-rpc
 holochain
+libcst
