@@ -3,3 +3,4 @@ solana-genesis
 uniffi
 xargo
 solana-stake-accounts
+argus-cli
