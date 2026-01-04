@@ -11,3 +11,4 @@ sha1collisiondetection
 pwasm-utils
 nextest-filtering
 schemafy
+tendermint-rpc
