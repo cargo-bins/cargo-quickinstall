@@ -4,3 +4,4 @@ xargo
 bpf-linker
 rzup
 textplots
+honggfuzz
