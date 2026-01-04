@@ -6,3 +6,4 @@ cargo-dylint
 cargo-dylint
 nextest
 cargo-show
+solana-stake-accounts
