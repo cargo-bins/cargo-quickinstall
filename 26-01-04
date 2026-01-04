@@ -19,3 +19,4 @@ sn_cli
 git-disjoint
 openpty
 tokio-process
+tendermint-rpc
