@@ -11,3 +11,4 @@ sha1collisiondetection
 rustfmt
 sn_node_rpc_client
 pwasm-utils
+coldsnap
