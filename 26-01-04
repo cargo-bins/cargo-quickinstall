@@ -8,3 +8,4 @@ spl-token-cli
 libcst
 librespot
 sha1collisiondetection
+pwasm-utils
