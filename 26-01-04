@@ -18,3 +18,4 @@ rmpc
 sha1collisiondetection
 pwasm-utils
 coldsnap
+nextest-filtering
