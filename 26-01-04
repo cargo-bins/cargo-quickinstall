@@ -7,3 +7,4 @@ textplots
 honggfuzz
 libcst
 opencv-binding-generator
+sha1collisiondetection
