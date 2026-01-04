@@ -21,3 +21,4 @@ coldsnap
 nextest-filtering
 schemafy
 openpty
+tendermint-rpc
