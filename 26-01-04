@@ -15,3 +15,4 @@ nextest-filtering
 schemafy
 git-disjoint
 tendermint-rpc
+spl-token-cli
