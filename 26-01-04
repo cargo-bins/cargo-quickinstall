@@ -9,3 +9,4 @@ libcst
 opencv-binding-generator
 sha1collisiondetection
 rustfmt
+sn_node_rpc_client
