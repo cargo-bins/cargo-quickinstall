@@ -25,3 +25,4 @@ nextest
 nextest
 openpty
 nextest
+tendermint-rpc
