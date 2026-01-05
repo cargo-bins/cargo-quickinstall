@@ -7,3 +7,4 @@ ratatui-image
 dotenvy
 cargo-pgrx
 tree-sitter-graph
+human_bytes
