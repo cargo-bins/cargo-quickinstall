@@ -10,3 +10,4 @@ human_bytes
 cargo-lambda
 gpgme
 holochain
+diesel_cli
