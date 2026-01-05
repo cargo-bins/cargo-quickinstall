@@ -16,3 +16,4 @@ cargo-pgrx
 tree-sitter-graph
 gpgme
 tracing-durations-export
+diesel_cli
