@@ -10,3 +10,4 @@ cpp_demangle
 ratatui-image
 dotenvy
 cargo-pgrx
+tree-sitter-graph
