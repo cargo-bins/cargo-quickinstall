@@ -8,3 +8,4 @@ human_bytes
 cargo-vet
 gpgme
 holochain
+diesel_cli
