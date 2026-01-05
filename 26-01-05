@@ -11,3 +11,4 @@ cargo-risczero
 dotenvy
 tree-sitter-graph
 human_bytes
+gpgme
