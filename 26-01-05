@@ -34,3 +34,4 @@ channels-console
 sha1collisiondetection
 channels-console
 cargo-generate
+ratatui-image
