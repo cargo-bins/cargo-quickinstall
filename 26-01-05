@@ -28,3 +28,4 @@ schemafy
 channels-console
 nkeys
 project_init
+kani-verifier
