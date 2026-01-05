@@ -2,3 +2,4 @@ remove_dir_all
 z3tracer
 cpp_demangle
 ratatui-image
+dotenvy
