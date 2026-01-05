@@ -12,3 +12,4 @@ videocall-cli
 cpp_demangle
 ratatui-image
 dotenvy
+cargo-pgrx
