@@ -18,3 +18,4 @@ nkeys
 kani-verifier
 project_init
 rpki
+sha1collisiondetection
