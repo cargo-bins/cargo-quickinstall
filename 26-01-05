@@ -20,3 +20,4 @@ project_init
 rpki
 sha1collisiondetection
 cargo-generate
+ratatui-image
