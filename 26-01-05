@@ -16,3 +16,4 @@ cargo-pgrx
 tree-sitter-graph
 simple-http-server
 gpgme
+tracing-durations-export
