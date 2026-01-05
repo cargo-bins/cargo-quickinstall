@@ -17,3 +17,4 @@ tree-sitter-graph
 simple-http-server
 gpgme
 tracing-durations-export
+diesel_cli
