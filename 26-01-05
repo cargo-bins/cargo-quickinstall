@@ -5,3 +5,4 @@ ratatui-image
 cargo-risczero
 dotenvy
 cargo-pgrx
+tree-sitter-graph
