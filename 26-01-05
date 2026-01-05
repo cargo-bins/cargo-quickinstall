@@ -15,3 +15,4 @@ dotenvy
 cargo-pgrx
 tree-sitter-graph
 simple-http-server
+gpgme
