@@ -2,3 +2,4 @@ dbus-codegen
 z3tracer
 ratatui-image
 dotenvy
+tree-sitter-graph
