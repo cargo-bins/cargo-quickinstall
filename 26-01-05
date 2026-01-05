@@ -9,3 +9,4 @@ cargo-pgrx
 tree-sitter-graph
 human_bytes
 gpgme
+diesel_cli
