@@ -2,3 +2,4 @@ dbus-codegen
 papyrus_storage
 librespot
 z3tracer
+cpp_demangle
