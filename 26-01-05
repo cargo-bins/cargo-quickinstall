@@ -10,3 +10,4 @@ cargo-lambda
 gpgme
 holochain
 tracing-durations-export
+diesel_cli
