@@ -6,3 +6,4 @@ cargo-risczero
 dotenvy
 cargo-pgrx
 tree-sitter-graph
+cargo-lambda
