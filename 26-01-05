@@ -14,3 +14,4 @@ ratatui-image
 dotenvy
 cargo-pgrx
 tree-sitter-graph
+gpgme
