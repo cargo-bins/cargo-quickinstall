@@ -20,3 +20,4 @@ dotenv
 cargo-spellcheck
 fake
 stellar-xdr
+racer
