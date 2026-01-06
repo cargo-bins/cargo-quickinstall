@@ -20,3 +20,4 @@ cargo-risczero
 c2rust
 tracing-durations-export
 papyrus_storage
+crc-fast
