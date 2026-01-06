@@ -10,3 +10,4 @@ cached-path
 rrule
 tracing-durations-export
 qsv
+rust-bert
