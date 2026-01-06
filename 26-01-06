@@ -22,3 +22,4 @@ tracing-durations-export
 papyrus_storage
 crc-fast
 c2rust
+cargo-generate
