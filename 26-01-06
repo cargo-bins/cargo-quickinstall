@@ -25,3 +25,4 @@ c2rust
 cargo-generate
 c2rust
 dotenv
+iai-callgrind-runner
