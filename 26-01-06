@@ -7,3 +7,4 @@ rust-bert
 cargo-risczero
 av-scenechange
 papyrus_storage
+crc-fast
