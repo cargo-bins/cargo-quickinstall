@@ -23,3 +23,4 @@ papyrus_storage
 crc-fast
 c2rust
 cargo-generate
+c2rust
