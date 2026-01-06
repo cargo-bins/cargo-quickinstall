@@ -13,3 +13,4 @@ qsv
 rust-bert
 papyrus_storage
 tracing-durations-export
+crc-fast
