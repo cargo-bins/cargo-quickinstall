@@ -6,3 +6,4 @@ tree-sitter-cli
 hunter
 cached-path
 rrule
+tracing-durations-export
