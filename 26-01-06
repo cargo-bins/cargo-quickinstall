@@ -20,3 +20,4 @@ papyrus_storage
 crc-fast
 cached-path
 dotenv
+iai-callgrind-runner
