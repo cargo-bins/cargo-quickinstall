@@ -8,3 +8,4 @@ rzup
 tokio-process
 cached-path
 rrule
+tracing-durations-export
