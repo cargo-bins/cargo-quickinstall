@@ -13,3 +13,4 @@ solana-keygen
 dotenv
 cargo-spellcheck
 fake
+stellar-xdr
