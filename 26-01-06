@@ -19,3 +19,4 @@ av-scenechange
 papyrus_storage
 crc-fast
 cached-path
+dotenv
