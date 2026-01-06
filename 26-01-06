@@ -12,3 +12,4 @@ tracing-durations-export
 qsv
 rustfmt
 rust-bert
+website_crawler
