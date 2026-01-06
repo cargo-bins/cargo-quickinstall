@@ -16,3 +16,4 @@ tracing-durations-export
 crc-fast
 solana-keygen
 cached-path
+dotenv
