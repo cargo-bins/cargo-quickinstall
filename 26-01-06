@@ -7,3 +7,4 @@ av-scenechange
 crc-fast
 rustorio
 cached-path
+dotenv
