@@ -21,3 +21,4 @@ crc-fast
 cached-path
 dotenv
 iai-callgrind-runner
+cargo-vet
