@@ -24,3 +24,4 @@ iai-callgrind-runner
 cargo-vet
 fake
 stellar-xdr
+racer
