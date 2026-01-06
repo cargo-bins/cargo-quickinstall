@@ -6,3 +6,4 @@ codeberg-cli
 codeberg-cli
 rzup
 tokio-process
+cached-path
