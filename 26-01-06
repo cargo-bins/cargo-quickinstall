@@ -28,3 +28,4 @@ dotenv
 iai-callgrind-runner
 fake
 stellar-xdr
+racer
