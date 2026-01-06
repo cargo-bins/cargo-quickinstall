@@ -2,3 +2,4 @@ aoc-cli
 aoc-cli
 vdev
 cargo-spellcheck
+tree-sitter-cli
