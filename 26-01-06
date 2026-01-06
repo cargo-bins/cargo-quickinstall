@@ -19,3 +19,4 @@ cached-path
 dotenv
 cargo-spellcheck
 fake
+stellar-xdr
