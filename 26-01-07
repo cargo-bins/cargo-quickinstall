@@ -44,3 +44,4 @@ rg
 rust-bert
 diesel_cli
 tree-sitter-md
+get-all-crates
