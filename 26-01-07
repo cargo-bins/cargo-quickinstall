@@ -49,3 +49,4 @@ rustrict
 get-all-crates
 binwalk
 graphql_client_cli
+vdev
