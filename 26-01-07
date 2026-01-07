@@ -52,3 +52,4 @@ graphql_client_cli
 vdev
 cargo-bundle
 statsig-rs
+cavif
