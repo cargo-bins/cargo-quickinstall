@@ -55,3 +55,4 @@ cargo-bundle
 nexus-tui
 statsig-rs
 wiki-tui
+rsgen-avro
