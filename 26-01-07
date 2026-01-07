@@ -18,3 +18,4 @@ rust-bert
 diesel_cli
 tree-sitter-md
 rustrict
+graphql_client_cli
