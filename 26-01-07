@@ -43,3 +43,4 @@ avif-decode
 rg
 rust-bert
 diesel_cli
+tree-sitter-md
