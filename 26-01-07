@@ -40,3 +40,4 @@ vdev
 avif-decode
 mise
 wol-rs
+rust-bert
