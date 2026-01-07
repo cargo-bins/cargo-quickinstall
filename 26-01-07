@@ -14,3 +14,4 @@ cargo-generate
 ec2_instance_metadata
 wol-rs
 diesel_cli
+rust-bert
