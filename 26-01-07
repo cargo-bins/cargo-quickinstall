@@ -19,3 +19,4 @@ git-heatmap
 z3tracer
 spl-token-cli
 piano-rs
+tracing-durations-export
