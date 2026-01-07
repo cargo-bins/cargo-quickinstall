@@ -20,3 +20,4 @@ cavif
 spl-token-cli
 git-heatmap
 tracing-durations-export
+diesel_cli
