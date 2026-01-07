@@ -22,3 +22,4 @@ git-heatmap
 tracing-durations-export
 diesel_cli
 cargo-bundle
+controller
