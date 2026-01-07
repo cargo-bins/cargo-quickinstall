@@ -16,3 +16,4 @@ a11ywatch_cli
 wol-rs
 rust-bert
 diesel_cli
+tree-sitter-md
