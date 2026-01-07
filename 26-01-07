@@ -14,3 +14,4 @@ ducc-sys
 spider_worker
 a11ywatch_cli
 wol-rs
+diesel_cli
