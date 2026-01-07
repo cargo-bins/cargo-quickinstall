@@ -21,3 +21,4 @@ tracing-durations-export
 arrow-flight
 ducc-sys
 wol-rs
+diesel_cli
