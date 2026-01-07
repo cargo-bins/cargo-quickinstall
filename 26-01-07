@@ -48,3 +48,4 @@ get-all-crates
 rustrict
 mise
 get-all-crates
+graphql_client_cli
