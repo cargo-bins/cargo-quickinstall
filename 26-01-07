@@ -20,3 +20,4 @@ ducc-sys
 diesel_cli
 tree-sitter-md
 rustrict
+rsgen-avro
