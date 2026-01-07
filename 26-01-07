@@ -23,3 +23,4 @@ ducc-sys
 wol-rs
 diesel_cli
 rust-bert
+tree-sitter-md
