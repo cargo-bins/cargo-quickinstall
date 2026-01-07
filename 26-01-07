@@ -15,3 +15,4 @@ ec2_instance_metadata
 wol-rs
 diesel_cli
 rust-bert
+tree-sitter-md
