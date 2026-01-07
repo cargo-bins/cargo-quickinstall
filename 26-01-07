@@ -10,3 +10,4 @@ tracing-durations-export
 honggfuzz
 arrow-flight
 ducc-sys
+cargo-generate
