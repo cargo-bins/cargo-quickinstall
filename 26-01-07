@@ -39,3 +39,4 @@ nexus-tui
 cargo-bundle
 cargo-bundle
 get-all-crates
+avif-decode
