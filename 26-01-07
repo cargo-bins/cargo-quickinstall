@@ -4,3 +4,4 @@ cargo-vet
 sn_node
 deploy
 solana-genesis
+unic-langid-impl
