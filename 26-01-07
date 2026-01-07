@@ -3,3 +3,4 @@ iai-callgrind-runner
 cargo-vet
 sn_node
 deploy
+solana-genesis
