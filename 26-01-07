@@ -9,3 +9,4 @@ z3tracer
 tracing-durations-export
 honggfuzz
 arrow-flight
+ducc-sys
