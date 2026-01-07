@@ -40,3 +40,4 @@ cargo-bundle
 cargo-bundle
 get-all-crates
 avif-decode
+rg
