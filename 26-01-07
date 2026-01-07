@@ -11,3 +11,4 @@ honggfuzz
 arrow-flight
 ducc-sys
 cargo-generate
+ec2_instance_metadata
