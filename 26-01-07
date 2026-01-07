@@ -41,3 +41,4 @@ cargo-bundle
 get-all-crates
 avif-decode
 rg
+rust-bert
