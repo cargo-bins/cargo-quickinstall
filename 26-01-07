@@ -42,3 +42,4 @@ get-all-crates
 avif-decode
 rg
 rust-bert
+diesel_cli
