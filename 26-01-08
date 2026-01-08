@@ -4,3 +4,4 @@ nominal-api
 tree-sitter-graph
 rustup-toolchain-install-master
 raw-cpuid
+rustfmt-nightly
