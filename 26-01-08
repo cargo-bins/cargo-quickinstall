@@ -34,3 +34,4 @@ gitui
 dotenv
 gitui
 raw-cpuid
+foundationdb-gen
