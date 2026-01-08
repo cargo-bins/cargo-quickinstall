@@ -59,3 +59,4 @@ rari
 yazi-fm
 raw-cpuid
 gg-cli
+cargo-bisect-rustc
