@@ -10,3 +10,4 @@ rustfmt-nightly
 honggfuzz
 nexmark
 dua-cli
+solana-validator
