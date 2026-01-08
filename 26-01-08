@@ -14,3 +14,4 @@ fend
 rustfmt-nightly
 worktree
 nexmark
+get-all-crates
