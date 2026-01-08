@@ -6,3 +6,4 @@ httm
 holochain
 tree-sitter-graph
 raw-cpuid
+rustfmt-nightly
