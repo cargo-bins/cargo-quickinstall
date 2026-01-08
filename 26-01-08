@@ -41,3 +41,4 @@ lance
 paru
 cargo-bisect-rustc
 logtail
+rtail
