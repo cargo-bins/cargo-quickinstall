@@ -42,3 +42,4 @@ paru
 cargo-bisect-rustc
 logtail
 rtail
+gg-cli
