@@ -18,3 +18,4 @@ diesel_cli
 lance
 diesel_cli
 re_query
+wol-rs
