@@ -63,3 +63,4 @@ cargo-bisect-rustc
 gg-cli
 rustnet-monitor
 foundationdb-gen
+yazi-cli
