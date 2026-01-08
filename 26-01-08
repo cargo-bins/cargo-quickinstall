@@ -7,3 +7,4 @@ rg
 tree-sitter-graph
 raw-cpuid
 rustfmt-nightly
+rg
