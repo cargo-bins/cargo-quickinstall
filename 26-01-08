@@ -61,3 +61,4 @@ raw-cpuid
 gg-cli
 cargo-bisect-rustc
 gg-cli
+rustnet-monitor
