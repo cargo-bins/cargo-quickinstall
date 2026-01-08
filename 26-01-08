@@ -7,3 +7,4 @@ raw-cpuid
 rustfmt-nightly
 nexmark
 solana-validator
+dicom-pixeldata
