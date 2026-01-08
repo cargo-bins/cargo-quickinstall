@@ -18,3 +18,4 @@ raw-cpuid
 rg
 nexmark
 commit_verify
+cargo-dylint
