@@ -8,3 +8,4 @@ rustfmt-nightly
 nexmark
 solana-validator
 dicom-pixeldata
+statsig-rs
