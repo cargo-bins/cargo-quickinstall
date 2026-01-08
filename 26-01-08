@@ -10,3 +10,4 @@ rustfmt-nightly
 nexmark
 commit_verify
 solana-validator
+dicom-pixeldata
