@@ -15,3 +15,4 @@ rustfmt-nightly
 worktree
 nexmark
 get-all-crates
+solana-validator
