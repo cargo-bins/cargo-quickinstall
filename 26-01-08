@@ -6,3 +6,4 @@ esp-config
 holochain
 tree-sitter-graph
 raw-cpuid
+rustfmt-nightly
