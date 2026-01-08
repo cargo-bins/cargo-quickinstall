@@ -21,3 +21,4 @@ wol-rs
 rzup
 dotenv
 raw-cpuid
+foundationdb-gen
