@@ -44,3 +44,4 @@ re_query
 yazi-fm
 proof-of-sql
 cargo-bisect-rustc
+gg-cli
