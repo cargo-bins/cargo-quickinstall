@@ -27,3 +27,4 @@ rzup
 dotenv
 raw-cpuid
 text-diff
+foundationdb-gen
