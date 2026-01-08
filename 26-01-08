@@ -47,3 +47,4 @@ cargo-bisect-rustc
 gg-cli
 yazi-cli
 worktree
+wiki-tui
