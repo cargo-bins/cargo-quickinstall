@@ -22,3 +22,4 @@ re_query
 rzup
 dotenv
 raw-cpuid
+foundationdb-gen
