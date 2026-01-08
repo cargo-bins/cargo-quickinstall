@@ -7,3 +7,4 @@ tree-sitter-cli
 tree-sitter-cli
 cargo-bundle
 nexus-tui
+cargo-dylint
