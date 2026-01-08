@@ -7,3 +7,4 @@ binwalk
 rg
 nominal-api
 tree-sitter-cli
+tree-sitter-graph
