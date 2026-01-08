@@ -9,3 +9,4 @@ nominal-api
 tree-sitter-cli
 tree-sitter-graph
 get-all-crates
+raw-cpuid
