@@ -65,3 +65,4 @@ dotenv
 rtail
 raw-cpuid
 venator-app
+rustnet-monitor
