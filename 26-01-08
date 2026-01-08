@@ -39,3 +39,4 @@ wiki-tui
 gg-cli
 lance
 paru
+cargo-bisect-rustc
