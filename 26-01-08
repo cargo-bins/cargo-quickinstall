@@ -8,3 +8,4 @@ tree-sitter-graph
 raw-cpuid
 rustfmt-nightly
 honggfuzz
+nexmark
