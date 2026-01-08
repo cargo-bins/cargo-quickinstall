@@ -12,3 +12,4 @@ get-all-crates
 raw-cpuid
 fend
 rustfmt-nightly
+worktree
