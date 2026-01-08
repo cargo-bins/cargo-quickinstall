@@ -10,3 +10,4 @@ nexus-tui
 cargo-dylint
 cargo-bundle
 binwalk
+tree-sitter-graph
