@@ -40,3 +40,4 @@ gg-cli
 lance
 paru
 cargo-bisect-rustc
+logtail
