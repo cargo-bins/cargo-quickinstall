@@ -46,3 +46,4 @@ proof-of-sql
 cargo-bisect-rustc
 gg-cli
 yazi-cli
+worktree
