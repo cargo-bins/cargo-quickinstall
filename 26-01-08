@@ -13,3 +13,4 @@ raw-cpuid
 fend
 rustfmt-nightly
 worktree
+nexmark
