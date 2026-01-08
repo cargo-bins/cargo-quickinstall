@@ -20,3 +20,4 @@ nexmark
 commit_verify
 cargo-dylint
 fend
+solana-validator
