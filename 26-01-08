@@ -15,3 +15,4 @@ rustup-toolchain-install-master
 get-all-crates
 mise
 raw-cpuid
+rg
