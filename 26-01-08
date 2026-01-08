@@ -13,3 +13,4 @@ raw-cpuid
 rustfmt-nightly
 onehistory
 onehistory
+honggfuzz
