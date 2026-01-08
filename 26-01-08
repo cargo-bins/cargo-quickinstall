@@ -11,3 +11,4 @@ cargo-dylint
 cargo-bundle
 binwalk
 tree-sitter-graph
+rustup-toolchain-install-master
