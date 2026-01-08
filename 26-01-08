@@ -7,3 +7,4 @@ rustup-toolchain-install-master
 raw-cpuid
 nexmark
 solana-validator
+dicom-pixeldata
