@@ -6,3 +6,4 @@ nominal-api
 rg
 tree-sitter-graph
 raw-cpuid
+rustfmt-nightly
