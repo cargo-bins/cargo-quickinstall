@@ -6,3 +6,4 @@ syd
 binwalk
 rg
 nominal-api
+tree-sitter-cli
