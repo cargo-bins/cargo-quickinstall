@@ -11,3 +11,4 @@ tree-sitter-graph
 get-all-crates
 raw-cpuid
 fend
+rustfmt-nightly
