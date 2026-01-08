@@ -32,3 +32,4 @@ re_query
 jj
 dotenv
 raw-cpuid
+foundationdb-gen
