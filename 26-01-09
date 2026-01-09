@@ -31,3 +31,4 @@ venator-app
 logtail
 cargo-dylint
 process_viewer
+tracing-durations-export
