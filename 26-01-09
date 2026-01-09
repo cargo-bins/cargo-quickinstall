@@ -28,3 +28,4 @@ rustnet-monitor
 ckb-cli
 cargo-hot
 venator-app
+logtail
