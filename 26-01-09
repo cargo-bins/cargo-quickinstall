@@ -25,3 +25,4 @@ cargo-hot
 rari
 venator-app
 cargo-bisect-rustc
+logtail
