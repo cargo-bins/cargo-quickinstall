@@ -5,3 +5,4 @@ crypto-cli-tools
 zellij
 charset-normalizer-rs
 charset-normalizer-rs
+openpty
