@@ -4,3 +4,4 @@ rustnet-monitor
 fend
 vdev
 spider_cli
+cargo-bisect-rustc
