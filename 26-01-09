@@ -17,3 +17,4 @@ sea-orm-cli
 alacritty
 cargo-bisect-rustc
 venator-app
+logtail
