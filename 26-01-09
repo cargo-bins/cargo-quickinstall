@@ -7,3 +7,4 @@ spider_cli
 cargo-bisect-rustc
 cargo-hot
 yazi-fm
+cargo-hot
