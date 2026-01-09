@@ -27,3 +27,4 @@ venator-app
 cargo-bisect-rustc
 logtail
 cargo-hot
+sea-orm-cli
