@@ -2,3 +2,4 @@ sea-orm-cli
 rustfmt-nightly
 sha1collisiondetection
 solana-validator
+ratatui-image
