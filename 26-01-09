@@ -3,3 +3,4 @@ rustfmt-nightly
 crypto-cli-tools
 openpty
 solana-validator
+ratatui-image
