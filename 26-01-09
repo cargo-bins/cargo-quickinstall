@@ -37,3 +37,4 @@ rpki
 cargo-dylint
 zedis
 rari
+logtail
