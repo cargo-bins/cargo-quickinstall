@@ -30,3 +30,4 @@ cargo-hot
 venator-app
 logtail
 cargo-dylint
+process_viewer
