@@ -19,3 +19,4 @@ cargo-bisect-rustc
 venator-app
 logtail
 solana-validator
+logtail
