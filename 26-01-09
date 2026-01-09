@@ -38,3 +38,4 @@ cargo-dylint
 zedis
 rari
 logtail
+leetcode-cli
