@@ -20,3 +20,4 @@ rtail
 rustnet-monitor
 paru
 ratatui-image
+cargo-bisect-rustc
