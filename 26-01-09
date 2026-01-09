@@ -14,3 +14,4 @@ nexmark
 tracing-durations-export
 process_viewer
 rpki
+cargo-risczero
