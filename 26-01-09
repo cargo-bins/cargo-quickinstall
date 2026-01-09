@@ -33,3 +33,4 @@ cargo-dylint
 process_viewer
 tracing-durations-export
 vdev
+rpki
