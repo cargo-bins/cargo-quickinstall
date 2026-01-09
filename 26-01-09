@@ -30,3 +30,4 @@ cargo-hot
 sea-orm-cli
 ckb-cli
 cargo-hot
+process_viewer
