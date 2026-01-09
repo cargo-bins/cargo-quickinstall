@@ -51,3 +51,4 @@ tendermint-abci
 vdev
 tree-sitter-cli
 paperclip
+zedis
