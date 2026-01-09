@@ -32,3 +32,4 @@ ckb-cli
 cargo-hot
 process_viewer
 zedis
+tracing-durations-export
