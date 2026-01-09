@@ -15,3 +15,4 @@ tracing-durations-export
 process_viewer
 rpki
 cargo-risczero
+papyrus_storage
