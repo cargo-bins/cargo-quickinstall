@@ -7,3 +7,4 @@ rustfmt-nightly
 gg-cli
 logtail
 spider_cli
+sea-orm-cli
