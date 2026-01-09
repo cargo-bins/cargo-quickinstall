@@ -4,3 +4,4 @@ cargo-bisect-rustc
 yazi-cli
 yazi-fm
 rustfmt-nightly
+gg-cli
