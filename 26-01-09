@@ -29,3 +29,4 @@ ckb-cli
 cargo-hot
 venator-app
 logtail
+cargo-dylint
