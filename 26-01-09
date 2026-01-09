@@ -52,3 +52,4 @@ vdev
 tree-sitter-cli
 paperclip
 zedis
+binwalk
