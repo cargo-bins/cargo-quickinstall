@@ -12,3 +12,4 @@ text-diff
 crypto-cli-tools
 cargo-generate
 lingua
+rtx-cli
