@@ -1,3 +1,4 @@
 textplots
 rustfmt-nightly
 website_crawler
+addr2line
