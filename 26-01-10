@@ -10,3 +10,4 @@ probe-rs-tools
 vdev
 bluetui
 syd
+nextest
