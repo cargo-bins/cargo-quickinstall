@@ -19,3 +19,4 @@ crypto-cli-tools
 cargo-generate
 lingua
 rtx-cli
+codeberg-cli
