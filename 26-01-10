@@ -8,3 +8,4 @@ protox
 sqlx-cli
 rustbus
 parquet
+text-diff
