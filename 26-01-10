@@ -6,3 +6,4 @@ ckb-cli
 website_crawler
 binwalk
 addr2line
+probe-rs-tools
