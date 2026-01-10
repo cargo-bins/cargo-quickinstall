@@ -9,3 +9,4 @@ addr2line
 probe-rs-tools
 vdev
 bluetui
+syd
