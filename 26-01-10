@@ -3,3 +3,4 @@ rustfmt-nightly
 website_crawler
 addr2line
 syd
+sn_faucet
