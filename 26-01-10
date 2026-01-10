@@ -5,3 +5,4 @@ leetcode-cli
 ckb-cli
 website_crawler
 binwalk
+addr2line
