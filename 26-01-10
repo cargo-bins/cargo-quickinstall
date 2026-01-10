@@ -62,3 +62,4 @@ quick-junit
 cargo-spellcheck
 neovide
 solana-keygen
+unic-langid-impl
