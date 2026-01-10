@@ -7,3 +7,4 @@ cargo-dylint
 addr2line
 bluetui
 cargo-dylint
+leetcode-cli
