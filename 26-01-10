@@ -3,3 +3,4 @@ rustfmt-nightly
 website_crawler
 addr2line
 tree-sitter-cli
+syd
