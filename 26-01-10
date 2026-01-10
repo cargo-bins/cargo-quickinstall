@@ -31,3 +31,4 @@ probe-rs-tools
 binwalk
 cargo-mobile2
 binwalk
+codeberg-cli
