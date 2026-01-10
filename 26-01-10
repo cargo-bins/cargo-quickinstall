@@ -23,3 +23,4 @@ nextest
 bluetui
 vdev
 dioxus-cli
+zedis
