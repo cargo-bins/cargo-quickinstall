@@ -4,3 +4,4 @@ statime-linux
 rrule
 parquet
 rtx-cli
+rsgen-avro
