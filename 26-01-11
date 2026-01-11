@@ -12,3 +12,4 @@ codestyle
 parquet
 bl
 dbus-codegen
+track_presence
