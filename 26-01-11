@@ -10,3 +10,4 @@ esp-config
 dbus-codegen
 dioxus-cli
 esp-config
+rtx-cli
