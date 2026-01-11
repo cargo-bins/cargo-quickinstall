@@ -64,3 +64,4 @@ cargo-script
 nextest
 dbus-codegen
 hindsight
+dotenvy
