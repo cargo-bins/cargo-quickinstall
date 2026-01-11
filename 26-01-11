@@ -35,3 +35,4 @@ hurl
 tree-sitter-md
 cargo-script
 sniffnet
+cargo-smart-release
