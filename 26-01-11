@@ -56,3 +56,4 @@ crypto-cli-tools
 https
 cargo-smart-release
 https
+nu_plugin_binaryview
