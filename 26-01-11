@@ -9,3 +9,4 @@ tree-sitter-graph
 fresh-editor
 nextest
 codestyle
+cargo-script
