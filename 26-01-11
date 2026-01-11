@@ -10,3 +10,4 @@ pgrx-tests
 sn_node
 lingua
 tree-sitter-md
+text-diff
