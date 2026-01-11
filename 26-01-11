@@ -64,3 +64,4 @@ codestyle
 nu_plugin_binaryview
 tendermint-abci
 cargo-smart-release
+hurl
