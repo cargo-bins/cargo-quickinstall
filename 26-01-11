@@ -11,3 +11,4 @@ dbus-codegen
 dioxus-cli
 esp-config
 rtx-cli
+rsgen-avro
