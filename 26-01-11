@@ -4,3 +4,4 @@ esp-config
 statime-linux
 parquet
 miden-crypto
+dbus-codegen
