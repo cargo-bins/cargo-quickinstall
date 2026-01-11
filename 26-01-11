@@ -6,3 +6,4 @@ parquet
 rtx-cli
 rsgen-avro
 rustrict
+pgrx-tests
