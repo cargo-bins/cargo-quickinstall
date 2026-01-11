@@ -65,3 +65,4 @@ nextest
 dbus-codegen
 hindsight
 dotenvy
+codestyle
