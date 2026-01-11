@@ -72,3 +72,4 @@ dbus-codegen
 addr2line
 xplr
 vtcode
+dotenvy
