@@ -18,3 +18,4 @@ miden-crypto
 dbus-codegen
 rtx-cli
 rsgen-avro
+sysd-manager
