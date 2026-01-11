@@ -16,3 +16,4 @@ parquet
 codestyle
 miden-crypto
 dbus-codegen
+rtx-cli
