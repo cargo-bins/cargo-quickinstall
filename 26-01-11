@@ -14,3 +14,4 @@ sp1-prover
 tendermint-abci
 libcst
 dbus-codegen
+dotenvy
