@@ -20,3 +20,4 @@ quick-junit
 sp1-prover
 tendermint-abci
 dbus-codegen
+dotenvy
