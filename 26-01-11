@@ -55,3 +55,4 @@ hurl
 sp1-prover
 tendermint-abci
 vtcode
+addr2line
