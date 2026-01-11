@@ -52,3 +52,4 @@ papyrus_storage
 cargo-dylint
 track_presence
 nu_plugin_binaryview
+crypto-cli-tools
