@@ -63,3 +63,4 @@ oxipng
 cargo-script
 nextest
 dbus-codegen
+hindsight
