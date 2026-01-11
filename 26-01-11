@@ -51,3 +51,4 @@ borsh
 papyrus_storage
 cargo-dylint
 track_presence
+nu_plugin_binaryview
