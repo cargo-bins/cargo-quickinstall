@@ -62,3 +62,4 @@ track_presence
 oxipng
 cargo-script
 nextest
+dbus-codegen
