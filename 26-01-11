@@ -6,3 +6,4 @@ parquet
 miden-crypto
 dbus-codegen
 esp-config
+rtx-cli
