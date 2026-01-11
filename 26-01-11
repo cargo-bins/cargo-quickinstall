@@ -2,3 +2,4 @@ tree-sitter-graph
 parquet
 miden-crypto
 dbus-codegen
+rtx-cli
