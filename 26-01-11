@@ -25,3 +25,4 @@ cargo-script
 rustrict
 pgrx-tests
 simp
+track_presence
