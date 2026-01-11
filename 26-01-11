@@ -15,3 +15,4 @@ sysd-manager
 parquet
 codestyle
 miden-crypto
+dbus-codegen
