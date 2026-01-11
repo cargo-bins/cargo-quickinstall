@@ -33,3 +33,4 @@ simp
 sysd-manager
 track_presence
 https
+cargo-dylint
