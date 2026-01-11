@@ -4,3 +4,4 @@ miden-crypto
 dioxus-cli
 dbus-codegen
 rtx-cli
+rsgen-avro
