@@ -3,3 +3,4 @@ parquet
 miden-crypto
 dbus-codegen
 rtx-cli
+rsgen-avro
