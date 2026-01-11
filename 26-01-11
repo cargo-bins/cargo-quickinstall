@@ -8,3 +8,4 @@ miden-crypto
 parquet
 esp-config
 dbus-codegen
+dioxus-cli
