@@ -7,3 +7,4 @@ miden-crypto
 dbus-codegen
 esp-config
 rtx-cli
+rsgen-avro
