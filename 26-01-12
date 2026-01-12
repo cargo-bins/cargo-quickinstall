@@ -5,3 +5,4 @@ website_crawler
 cargo-lambda
 human_bytes
 tracing-durations-export
+tree-sitter-graph
