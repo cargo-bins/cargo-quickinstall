@@ -11,3 +11,4 @@ human_name
 benfred-read-process-memory
 nextest-filtering
 safe_network
+cargo-generate
