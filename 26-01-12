@@ -7,3 +7,4 @@ remove_dir_all
 tracing-durations-export
 tree-sitter-graph
 fresh-editor
+parquet
