@@ -17,3 +17,4 @@ nextest-filtering
 yolk
 safe_network
 protox
+cargo-generate
