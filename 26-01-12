@@ -10,3 +10,4 @@ nu_plugin_binaryview
 rustdesk
 cargo-smart-release
 re_query
+addr2line
