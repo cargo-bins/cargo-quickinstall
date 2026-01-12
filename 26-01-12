@@ -4,3 +4,4 @@ solana-ledger-tool
 re_query
 human_bytes
 tracing-durations-export
+tree-sitter-graph
