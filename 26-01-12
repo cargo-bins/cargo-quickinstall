@@ -6,3 +6,4 @@ exa
 human_bytes
 tracing-durations-export
 tree-sitter-graph
+parquet
