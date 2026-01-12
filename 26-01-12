@@ -8,3 +8,4 @@ ext-sort
 addr2line
 solana-ledger-tool
 rustdesk
+scribe-cli
