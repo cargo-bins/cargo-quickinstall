@@ -19,3 +19,4 @@ nextest-filtering
 protox
 safe_network
 dioxus-cli
+human_bytes
