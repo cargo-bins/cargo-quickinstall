@@ -3,3 +3,4 @@ solana-ledger-tool
 re_query
 website_crawler
 cargo-lambda
+human_bytes
