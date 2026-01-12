@@ -9,3 +9,4 @@ solana-ledger-tool
 nu_plugin_binaryview
 rustdesk
 cargo-smart-release
+re_query
