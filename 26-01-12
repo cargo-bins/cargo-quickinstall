@@ -39,3 +39,4 @@ buck2
 nextest-filtering
 buck2
 safe_network
+scribe-cli
