@@ -7,3 +7,4 @@ cargo-lambda
 human_bytes
 remove_dir_all
 tracing-durations-export
+tree-sitter-graph
