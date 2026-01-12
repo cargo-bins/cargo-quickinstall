@@ -20,3 +20,4 @@ cargo-smart-release
 scribe-cli
 hindsight
 simp
+human_bytes
