@@ -36,3 +36,4 @@ rustdesk
 speedtest-rs
 linera-service
 buck2
+nextest-filtering
