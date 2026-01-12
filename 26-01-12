@@ -12,3 +12,4 @@ benfred-read-process-memory
 nextest-filtering
 safe_network
 cargo-generate
+solana-validator
