@@ -5,3 +5,4 @@ re_query
 website_crawler
 cargo-lambda
 human_bytes
+remove_dir_all
