@@ -8,3 +8,4 @@ tracing-durations-export
 tree-sitter-graph
 parquet
 human_name
+benfred-read-process-memory
