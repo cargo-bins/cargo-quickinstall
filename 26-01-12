@@ -7,3 +7,4 @@ human_bytes
 tracing-durations-export
 tree-sitter-graph
 parquet
+human_name
