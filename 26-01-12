@@ -19,3 +19,4 @@ safe_network
 protox
 cargo-generate
 solana-validator
+human_bytes
