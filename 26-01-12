@@ -21,3 +21,4 @@ cargo-generate
 solana-validator
 human_bytes
 rustrict
+parquet
