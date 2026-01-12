@@ -10,3 +10,4 @@ solana-ledger-tool
 rustdesk
 scribe-cli
 re_query
+addr2line
