@@ -14,3 +14,4 @@ addr2line
 scribe-cli
 cargo-smart-release
 website_crawler
+linera-service
