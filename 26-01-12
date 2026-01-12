@@ -13,3 +13,4 @@ nextest-filtering
 safe_network
 cargo-generate
 solana-validator
+human_bytes
