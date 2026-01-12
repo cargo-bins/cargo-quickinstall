@@ -8,3 +8,4 @@ remove_dir_all
 tracing-durations-export
 tree-sitter-graph
 sark0y_tam_rst
+parquet
