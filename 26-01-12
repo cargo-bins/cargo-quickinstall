@@ -24,3 +24,4 @@ vtcode
 rustdesk
 human_bytes
 zedis
+tracing-durations-export
