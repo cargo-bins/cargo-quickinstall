@@ -20,3 +20,4 @@ esp-config
 ratatui-image
 unic-langid-impl
 nexmark
+httpmock
