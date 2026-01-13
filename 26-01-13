@@ -18,3 +18,4 @@ lux-cli
 paperclip
 lux-cli
 tendermint-abci
+cargo-dylint
