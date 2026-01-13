@@ -12,3 +12,4 @@ pandora_box
 nexmark
 httpmock
 lux-cli
+cargo-dylint
