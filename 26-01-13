@@ -13,3 +13,4 @@ lux-cli
 nexmark
 pgrx-tests
 lux-cli
+httpmock
