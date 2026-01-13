@@ -2,3 +2,4 @@ mit-commit-msg
 cargo-leptos
 rg
 nums
+sqlx-cli
