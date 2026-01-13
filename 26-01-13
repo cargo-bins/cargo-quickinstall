@@ -39,3 +39,4 @@ sea-orm-cli
 clippy
 librespot
 dioxus-cli
+ruff
