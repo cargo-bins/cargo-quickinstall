@@ -24,3 +24,4 @@ cargo-dylint
 lux-cli
 nexmark
 lux-cli
+tree-sitter-graph
