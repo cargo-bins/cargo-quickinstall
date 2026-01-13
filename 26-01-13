@@ -13,3 +13,4 @@ rg
 clippy
 sqlx-cli
 tendermint-abci
+sqlx-cli
