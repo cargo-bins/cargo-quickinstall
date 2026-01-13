@@ -26,3 +26,4 @@ iroh-relay
 paperclip
 tendermint-abci
 tokio-process
+nexmark
