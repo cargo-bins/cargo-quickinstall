@@ -12,3 +12,4 @@ process_viewer
 rg
 clippy
 sqlx-cli
+tendermint-abci
