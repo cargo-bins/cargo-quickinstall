@@ -66,3 +66,4 @@ cargo-public-api
 iroh-relay
 paperclip
 superseedr
+tendermint-abci
