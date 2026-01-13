@@ -26,3 +26,4 @@ pgrx-tests
 httpmock
 iroh-relay
 paperclip
+tendermint-abci
