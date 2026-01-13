@@ -40,3 +40,4 @@ clippy
 librespot
 dioxus-cli
 ruff
+tendermint-abci
