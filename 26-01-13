@@ -11,3 +11,4 @@ rg
 process_viewer
 rg
 clippy
+sqlx-cli
