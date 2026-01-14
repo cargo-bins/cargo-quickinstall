@@ -20,3 +20,4 @@ dotenv
 parquet
 solana-gossip
 keifu
+tree-sitter-md
