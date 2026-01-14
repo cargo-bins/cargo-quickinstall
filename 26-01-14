@@ -5,3 +5,4 @@ crc-fast
 parquet
 paperclip
 skim
+remove_dir_all
