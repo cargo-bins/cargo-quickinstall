@@ -9,3 +9,4 @@ remove_dir_all
 dotenv
 tree-sitter-md
 solana-gossip
+cargo-mutants
