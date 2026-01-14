@@ -12,3 +12,4 @@ remove_dir_all
 solana-gossip
 tree-sitter-md
 proof-of-sql
+deno
