@@ -10,3 +10,4 @@ dotenv
 tree-sitter-md
 solana-gossip
 cargo-mutants
+tree_magic
