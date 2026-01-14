@@ -11,3 +11,4 @@ cargo-sane
 crc-fast
 cargo-sane
 cargo-public-api
+parquet
