@@ -9,3 +9,4 @@ tree-sitter-md
 solana-gossip
 cargo-mutants
 tree-sitter-md
+sea-orm-cli
