@@ -25,3 +25,4 @@ vdev
 remove_dir_all
 pomodoro-tui-discord
 cargo-public-api
+tree-sitter-md
