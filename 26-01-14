@@ -15,3 +15,4 @@ jj
 cargo-sane
 vdev
 paperclip
+sea-orm-cli
