@@ -19,3 +19,4 @@ remove_dir_all
 dotenv
 parquet
 solana-gossip
+keifu
