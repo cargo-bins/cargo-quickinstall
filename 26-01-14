@@ -10,3 +10,4 @@ sea-orm-cli
 cargo-sane
 crc-fast
 cargo-sane
+cargo-public-api
