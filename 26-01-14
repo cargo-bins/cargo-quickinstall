@@ -30,3 +30,4 @@ solana-gossip
 nkeys
 tree_magic
 tree-sitter-md
+proof-of-sql
