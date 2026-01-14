@@ -40,3 +40,4 @@ proof-of-sql
 greentic-distributor-client
 deno
 cargo-binstall
+esp-config
