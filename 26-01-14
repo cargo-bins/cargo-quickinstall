@@ -41,3 +41,4 @@ greentic-distributor-client
 deno
 cargo-binstall
 esp-config
+cargo-spellcheck
