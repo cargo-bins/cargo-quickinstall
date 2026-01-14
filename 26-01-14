@@ -8,3 +8,4 @@ jj
 paperclip
 sea-orm-cli
 cargo-sane
+crc-fast
