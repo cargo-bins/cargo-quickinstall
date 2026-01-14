@@ -2,3 +2,4 @@ tendermint-abci
 socketcan
 vdev
 dbus-codegen
+vdev
