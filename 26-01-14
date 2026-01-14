@@ -10,3 +10,4 @@ dotenv
 tree-sitter-md
 solana-gossip
 tree-sitter-md
+tokio-process
