@@ -27,3 +27,4 @@ deno
 valknut-rs
 rsgen-avro
 keifu
+socketcan
