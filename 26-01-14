@@ -12,3 +12,4 @@ solana-gossip
 cargo-mutants
 tree_magic
 tree-sitter-md
+sea-orm-cli
