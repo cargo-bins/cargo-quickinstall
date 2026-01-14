@@ -49,3 +49,4 @@ cargo-public-api
 nkeys
 calcit
 greentic-distributor-client
+socketcan
