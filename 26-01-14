@@ -18,3 +18,4 @@ sea-orm-cli
 deno
 cargo-spellcheck
 calcit
+socketcan
