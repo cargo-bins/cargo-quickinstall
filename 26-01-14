@@ -43,3 +43,4 @@ esp-config
 nkeys
 crush
 ncspot
+cargo-binstall
