@@ -2,3 +2,4 @@ crush
 crush
 tendermint-abci
 dbus-codegen
+cargo-public-api
