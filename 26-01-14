@@ -12,3 +12,4 @@ tree-sitter-md
 sea-orm-cli
 proof-of-sql
 deno
+cargo-spellcheck
