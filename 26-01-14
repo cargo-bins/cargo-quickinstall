@@ -14,3 +14,4 @@ dotenv
 rmpc
 parquet
 tree-sitter-md
+proof-of-sql
