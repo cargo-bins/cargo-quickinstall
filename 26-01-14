@@ -3,3 +3,4 @@ socketcan
 dbus-codegen
 rmpc
 crc-fast
+parquet
