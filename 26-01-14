@@ -6,3 +6,4 @@ parquet
 paperclip
 skim
 remove_dir_all
+dotenv
