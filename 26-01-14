@@ -1,3 +1,4 @@
 tendermint-abci
 dbus-codegen
 paperclip
+crc-fast
