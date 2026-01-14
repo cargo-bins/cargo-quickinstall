@@ -16,3 +16,4 @@ valknut-rs
 xvc
 valknut-rs
 remove_dir_all
+dotenv
