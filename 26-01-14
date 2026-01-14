@@ -13,3 +13,4 @@ remove_dir_all
 dotenv
 rmpc
 parquet
+tree-sitter-md
