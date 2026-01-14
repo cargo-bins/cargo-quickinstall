@@ -5,3 +5,4 @@ dbus-codegen
 vdev
 paperclip
 vdev
+crc-fast
