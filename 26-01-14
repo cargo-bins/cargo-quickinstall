@@ -2,3 +2,4 @@ tendermint-abci
 dbus-codegen
 human_bytes
 paperclip
+crc-fast
