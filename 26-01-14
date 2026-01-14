@@ -7,3 +7,4 @@ dbus-codegen
 jj
 cargo-sane
 crush
+cargo-public-api
