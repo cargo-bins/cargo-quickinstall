@@ -10,3 +10,4 @@ crush
 cargo-public-api
 crc-fast
 greentic-distributor-client
+parquet
