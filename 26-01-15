@@ -13,3 +13,4 @@ dicom-pixeldata
 arrow-flight
 xargo
 ratatui-image
+clap-stdin
