@@ -9,3 +9,4 @@ minicbor
 openpty
 jujutsu
 rsgen-avro
+addr2line
