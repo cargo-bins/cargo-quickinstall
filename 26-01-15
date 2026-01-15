@@ -19,3 +19,4 @@ xargo
 ratatui-image
 clap-stdin
 deno
+schemafy
