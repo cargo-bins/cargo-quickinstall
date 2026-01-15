@@ -11,3 +11,4 @@ cargo-public-api
 esp-config
 clap-stdin
 minicbor
+rustle
