@@ -13,3 +13,4 @@ esp-config
 minicbor
 rustle
 hck
+diesel_cli
