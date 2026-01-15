@@ -39,3 +39,4 @@ dicom-pixeldata
 cargo-seek
 jujutsu
 diesel_cli
+arrow-flight
