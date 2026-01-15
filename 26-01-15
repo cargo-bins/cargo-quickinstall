@@ -21,3 +21,4 @@ dicom-pixeldata
 sn_cli
 arrow-flight
 xargo
+ratatui-image
