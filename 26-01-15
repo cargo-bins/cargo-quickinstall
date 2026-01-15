@@ -14,3 +14,4 @@ rsgen-avro
 dicom-pixeldata
 diesel_cli
 deno
+arrow-flight
