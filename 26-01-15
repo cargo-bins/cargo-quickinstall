@@ -15,3 +15,4 @@ xargo
 ratatui-image
 clap-stdin
 schemafy
+dotenvy
