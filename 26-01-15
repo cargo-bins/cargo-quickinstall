@@ -10,3 +10,4 @@ minicbor
 openpty
 rustpad
 rsgen-avro
+addr2line
