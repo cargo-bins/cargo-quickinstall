@@ -3,3 +3,4 @@ borsh
 clap-stdin
 minicbor
 rsgen-avro
+addr2line
