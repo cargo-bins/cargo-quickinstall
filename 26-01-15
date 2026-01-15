@@ -4,3 +4,4 @@ clap-stdin
 minicbor
 openpty
 rsgen-avro
+addr2line
