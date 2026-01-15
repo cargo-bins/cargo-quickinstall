@@ -12,3 +12,4 @@ iroh-relay
 deno
 rsgen-avro
 dicom-pixeldata
+diesel_cli
