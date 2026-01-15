@@ -16,3 +16,4 @@ cargo-dylint
 rustle
 carapace
 dioxus-cli
+rsgen-avro
