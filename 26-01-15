@@ -12,3 +12,4 @@ rsgen-avro
 dicom-pixeldata
 arrow-flight
 xargo
+ratatui-image
