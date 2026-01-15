@@ -6,3 +6,4 @@ jujutsu
 jujutsu
 clap-stdin
 minicbor
+openpty
