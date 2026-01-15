@@ -27,3 +27,4 @@ dotenvy
 deploy
 miden-crypto
 oso
+diesel_cli
