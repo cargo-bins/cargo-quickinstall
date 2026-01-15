@@ -16,3 +16,4 @@ diesel_cli
 deno
 arrow-flight
 xargo
+ratatui-image
