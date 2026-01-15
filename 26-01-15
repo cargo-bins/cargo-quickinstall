@@ -47,3 +47,4 @@ lt
 xargo
 rustle
 ratatui-image
+clap-stdin
