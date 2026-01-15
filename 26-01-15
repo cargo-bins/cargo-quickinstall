@@ -9,3 +9,4 @@ clap-stdin
 minicbor
 openpty
 rustpad
+rsgen-avro
