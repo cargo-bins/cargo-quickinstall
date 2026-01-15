@@ -21,3 +21,4 @@ arrow-flight
 statime-linux
 xargo
 ratatui-image
+clap-stdin
