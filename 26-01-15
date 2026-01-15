@@ -17,3 +17,4 @@ deno
 arrow-flight
 xargo
 ratatui-image
+clap-stdin
