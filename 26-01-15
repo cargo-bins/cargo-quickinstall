@@ -50,3 +50,4 @@ xargo
 hck
 ouch
 ratatui-image
+clap-stdin
