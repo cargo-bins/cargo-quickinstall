@@ -19,3 +19,4 @@ rsgen-avro
 sn_node_rpc_client
 dicom-pixeldata
 sn_cli
+arrow-flight
