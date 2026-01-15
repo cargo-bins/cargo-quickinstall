@@ -25,3 +25,4 @@ deno
 dotenvy
 deploy
 miden-crypto
+diesel_cli
