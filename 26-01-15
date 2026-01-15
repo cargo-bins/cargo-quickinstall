@@ -19,3 +19,4 @@ dioxus-cli
 rsgen-avro
 nkeys
 hck
+cargo-dylint
