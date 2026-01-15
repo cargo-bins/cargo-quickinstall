@@ -11,3 +11,4 @@ hck
 clap-stdin
 esp-config
 minicbor
+rustle
