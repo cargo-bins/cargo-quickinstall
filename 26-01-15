@@ -7,3 +7,4 @@ rustpad
 mit-commit-msg
 clap-stdin
 minicbor
+openpty
