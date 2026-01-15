@@ -12,3 +12,4 @@ clap-stdin
 esp-config
 minicbor
 rustle
+hck
