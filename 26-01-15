@@ -13,3 +13,4 @@ clap-stdin
 minicbor
 rustle
 cargo-dylint
+rustle
