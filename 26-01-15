@@ -26,3 +26,4 @@ rzup
 clap-stdin
 jj
 schemafy
+dotenvy
