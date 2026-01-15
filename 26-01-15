@@ -9,3 +9,4 @@ borsh
 cargo-public-api
 cargo-public-api
 esp-config
+clap-stdin
