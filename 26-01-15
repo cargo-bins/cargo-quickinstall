@@ -25,3 +25,4 @@ ratatui-image
 rzup
 clap-stdin
 schemafy
+dotenvy
