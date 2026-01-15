@@ -25,3 +25,4 @@ clap-stdin
 schemafy
 dotenvy
 deploy
+miden-crypto
