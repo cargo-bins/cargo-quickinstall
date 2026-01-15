@@ -12,3 +12,4 @@ esp-config
 clap-stdin
 minicbor
 rustle
+cargo-dylint
