@@ -8,3 +8,4 @@ clap-stdin
 minicbor
 openpty
 jujutsu
+rsgen-avro
