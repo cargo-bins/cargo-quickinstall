@@ -10,3 +10,4 @@ spider_worker
 diesel_cli
 cargo-pgrx
 libcst
+clap-stdin
