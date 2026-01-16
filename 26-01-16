@@ -8,3 +8,4 @@ diesel_cli
 cargo-pgrx
 libcst
 minicbor
+h3o
