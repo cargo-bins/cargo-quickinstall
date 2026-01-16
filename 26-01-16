@@ -18,3 +18,4 @@ cargo-bundle
 cargo-info
 deno
 solana-stake-accounts
+cargo-lock
