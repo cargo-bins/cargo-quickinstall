@@ -40,3 +40,4 @@ oxdraw
 rustfmt-nightly
 qmassa
 cargo-bundle
+cargo-bisect-rustc
