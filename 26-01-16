@@ -45,3 +45,4 @@ cargo-bundle
 spider_cli
 crates-tui
 qmassa
+human_bytes
