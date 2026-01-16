@@ -12,3 +12,4 @@ libcst
 clap-stdin
 iroh-relay
 ext-sort
+minicbor
