@@ -6,3 +6,4 @@ solana-validator
 diesel_cli
 nextest
 nextest
+libcst
