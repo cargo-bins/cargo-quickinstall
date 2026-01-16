@@ -46,3 +46,4 @@ spider_cli
 crates-tui
 qmassa
 human_bytes
+cargo-bisect-rustc
