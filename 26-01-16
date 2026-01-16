@@ -12,3 +12,4 @@ cargo-pgrx
 libcst
 clap-stdin
 solana-stake-accounts
+iroh-relay
