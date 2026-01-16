@@ -50,3 +50,4 @@ cargo-bisect-rustc
 cargo-unmaintained
 calcit
 qmassa
+cargo-bundle
