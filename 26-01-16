@@ -6,3 +6,4 @@ zuse
 cargo-pgrx
 aicommit
 solana-validator
+sea-orm-cli
