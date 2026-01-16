@@ -9,3 +9,4 @@ graphql_client_cli
 vdev
 cargo-pgrx
 probe-rs-cli
+graphql_client_cli
