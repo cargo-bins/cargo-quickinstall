@@ -21,3 +21,4 @@ cargo-bundle
 jujutsu
 cargo-equip
 sea-orm-cli
+graphql_client_cli
