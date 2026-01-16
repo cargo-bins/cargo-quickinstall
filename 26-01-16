@@ -44,3 +44,4 @@ cargo-bisect-rustc
 cargo-bundle
 spider_cli
 crates-tui
+qmassa
