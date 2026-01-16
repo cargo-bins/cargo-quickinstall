@@ -10,3 +10,4 @@ libcst
 minicbor
 h3o
 rustfmt-nightly
+dioxus-cli
