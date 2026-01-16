@@ -8,3 +8,4 @@ diesel_cli
 commit-lsp
 commit-lsp
 cargo-pgrx
+libcst
