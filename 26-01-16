@@ -9,3 +9,4 @@ clap-stdin
 sqlx-cli
 minicbor
 java-locator
+h3o
