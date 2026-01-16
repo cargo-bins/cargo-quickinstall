@@ -32,3 +32,4 @@ cargo-unmaintained
 probe-rs-cli
 minicbor
 aicommit
+spider_cli
