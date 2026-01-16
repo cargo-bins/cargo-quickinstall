@@ -26,3 +26,4 @@ iceoryx2-cli
 cargo-unused-features
 paru
 crates-tui
+minicbor
