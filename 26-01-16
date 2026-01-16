@@ -7,3 +7,4 @@ nextest
 diesel_cli
 cargo-script
 clap-stdin
+nextest
