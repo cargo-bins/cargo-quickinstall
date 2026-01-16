@@ -8,3 +8,4 @@ aicommit
 solana-validator
 sea-orm-cli
 spider_worker
+diesel_cli
