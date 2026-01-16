@@ -39,3 +39,4 @@ cargo-unmaintained
 oxdraw
 rustfmt-nightly
 qmassa
+cargo-bundle
