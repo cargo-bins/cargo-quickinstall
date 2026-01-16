@@ -46,3 +46,4 @@ cargo-dylint
 aicommit
 cargo-bundle
 cargo-bisect-rustc
+sniffnet
