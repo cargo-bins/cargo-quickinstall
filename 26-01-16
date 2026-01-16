@@ -13,3 +13,4 @@ ext-sort
 nextest
 cargo-script
 minicbor
+cargo-script
