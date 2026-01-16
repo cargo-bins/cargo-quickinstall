@@ -16,3 +16,4 @@ probe-rs-cli
 aicommit
 cargo-bundle
 cargo-info
+deno
