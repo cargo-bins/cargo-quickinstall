@@ -10,3 +10,4 @@ sqlx-cli
 minicbor
 java-locator
 h3o
+rustfmt-nightly
