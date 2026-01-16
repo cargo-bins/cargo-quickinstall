@@ -9,3 +9,4 @@ cargo-pgrx
 libcst
 minicbor
 h3o
+rustfmt-nightly
