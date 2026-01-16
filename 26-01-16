@@ -27,3 +27,4 @@ cargo-unused-features
 paru
 crates-tui
 minicbor
+cargo-unused-features
