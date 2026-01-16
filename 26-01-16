@@ -10,3 +10,4 @@ clap-stdin
 nextest
 libcst
 nextest
+cargo-script
