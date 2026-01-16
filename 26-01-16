@@ -6,3 +6,4 @@ cargo-pgrx
 commit-lsp
 solana-validator
 commit-lsp
+spider_worker
