@@ -13,3 +13,4 @@ graphql_client_cli
 probe-rs-cli
 clap-stdin
 probe-rs-cli
+aicommit
