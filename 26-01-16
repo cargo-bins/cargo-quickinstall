@@ -9,3 +9,4 @@ commit-lsp
 commit-lsp
 cargo-pgrx
 libcst
+clap-stdin
