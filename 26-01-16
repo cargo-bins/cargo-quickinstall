@@ -4,3 +4,4 @@ zuse
 cargo-pgrx
 holochain
 spider_worker
+diesel_cli
