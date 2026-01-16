@@ -45,3 +45,4 @@ cargo-info
 cargo-dylint
 aicommit
 cargo-bundle
+cargo-bisect-rustc
