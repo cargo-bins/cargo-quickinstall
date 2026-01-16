@@ -42,3 +42,4 @@ qmassa
 cargo-bundle
 cargo-bisect-rustc
 cargo-bundle
+spider_cli
