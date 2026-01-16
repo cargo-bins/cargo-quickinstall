@@ -12,3 +12,4 @@ solana-stake-accounts
 ext-sort
 nextest
 cargo-script
+minicbor
