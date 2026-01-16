@@ -29,3 +29,4 @@ crates-tui
 minicbor
 cargo-unused-features
 oxdraw
+spider_cli
