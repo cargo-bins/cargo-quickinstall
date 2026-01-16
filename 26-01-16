@@ -11,3 +11,4 @@ diesel_cli
 cargo-pgrx
 libcst
 clap-stdin
+solana-stake-accounts
