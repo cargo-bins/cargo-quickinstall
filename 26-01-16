@@ -43,3 +43,4 @@ iceoryx2-cli
 graphql_client_cli
 cargo-info
 cargo-dylint
+aicommit
