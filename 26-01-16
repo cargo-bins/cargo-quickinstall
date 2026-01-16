@@ -10,3 +10,4 @@ clap-stdin
 charset-normalizer-rs
 jj
 esp-config
+iroh-relay
