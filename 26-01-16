@@ -7,3 +7,4 @@ aicommit
 spider_worker
 graphql_client_cli
 vdev
+cargo-pgrx
