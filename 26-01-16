@@ -21,3 +21,4 @@ solana-stake-accounts
 cargo-lock
 vdev
 graphql_client_cli
+cargo-unmaintained
