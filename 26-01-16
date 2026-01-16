@@ -11,3 +11,4 @@ cargo-pgrx
 libcst
 clap-stdin
 iroh-relay
+ext-sort
