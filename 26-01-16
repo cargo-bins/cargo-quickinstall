@@ -6,3 +6,4 @@ solana-validator
 diesel_cli
 libcst
 clap-stdin
+sqlx-cli
