@@ -9,3 +9,4 @@ libcst
 clap-stdin
 solana-stake-accounts
 minicbor
+java-locator
