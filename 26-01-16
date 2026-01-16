@@ -6,3 +6,4 @@ holochain
 spider_worker
 diesel_cli
 cargo-pgrx
+libcst
