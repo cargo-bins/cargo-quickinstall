@@ -24,3 +24,4 @@ esp-config
 rustfmt-nightly
 charset-normalizer-rs
 investments
+nkeys
