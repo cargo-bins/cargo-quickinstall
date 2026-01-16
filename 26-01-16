@@ -24,3 +24,4 @@ graphql_client_cli
 cargo-unmaintained
 iceoryx2-cli
 cargo-unused-features
+paru
