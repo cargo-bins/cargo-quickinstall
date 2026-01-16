@@ -21,3 +21,4 @@ charset-normalizer-rs
 h3o
 esp-config
 esp-config
+rustfmt-nightly
