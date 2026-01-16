@@ -10,3 +10,4 @@ sea-orm-cli
 spider_worker
 diesel_cli
 ouch
+cargo-seek
