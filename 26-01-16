@@ -49,3 +49,4 @@ cargo-bisect-rustc
 sniffnet
 oxdraw
 vdev
+rg
