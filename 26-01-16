@@ -8,3 +8,4 @@ solana-validator
 commit-lsp
 spider_worker
 diesel_cli
+cargo-pgrx
