@@ -9,3 +9,4 @@ cargo-script
 clap-stdin
 nextest
 libcst
+nextest
