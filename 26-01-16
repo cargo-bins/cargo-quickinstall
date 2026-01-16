@@ -5,3 +5,4 @@ holochain
 solana-validator
 diesel_cli
 cargo-pgrx
+libcst
