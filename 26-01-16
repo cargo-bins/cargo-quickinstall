@@ -16,3 +16,4 @@ sniffnet
 spider_cli
 cargo-pgrx
 alacritty
+clap-stdin
