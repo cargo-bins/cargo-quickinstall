@@ -14,3 +14,4 @@ probe-rs-cli
 clap-stdin
 probe-rs-cli
 aicommit
+cargo-bundle
