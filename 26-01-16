@@ -37,3 +37,4 @@ cargo-unused-features
 h3o
 cargo-unmaintained
 oxdraw
+rustfmt-nightly
