@@ -37,3 +37,4 @@ cargo-bisect-rustc
 probe-rs-cli
 aicommit
 cargo-info
+bluetui
