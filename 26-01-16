@@ -6,3 +6,4 @@ diesel_cli
 jj
 zellij
 comet
+clap-stdin
