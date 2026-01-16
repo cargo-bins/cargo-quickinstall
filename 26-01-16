@@ -3,3 +3,4 @@ racer
 cargo-script
 nextest
 solana-validator
+diesel_cli
