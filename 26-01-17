@@ -19,3 +19,4 @@ rust-docs-mcp
 vdev
 iceoryx2-cli
 cargo-info
+cargo-bisect-rustc
