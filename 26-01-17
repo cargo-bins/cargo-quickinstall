@@ -22,3 +22,4 @@ cargo-info
 cargo-bisect-rustc
 cargo-duplicates
 cargo-unmaintained
+rust-docs-mcp
