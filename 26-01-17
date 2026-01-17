@@ -48,3 +48,4 @@ tgt
 r3bl_tuify
 crates-tui
 pgrx-tests
+alsa-sys
