@@ -18,3 +18,4 @@ cargo-bundle
 git-disjoint
 cargo-equip
 rg
+graphql_client_cli
