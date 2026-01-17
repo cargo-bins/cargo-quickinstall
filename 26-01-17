@@ -24,3 +24,4 @@ cargo-unused-features
 jujutsu
 cargo-bisect-rustc
 rustdesk
+paru
