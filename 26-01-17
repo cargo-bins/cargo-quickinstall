@@ -12,3 +12,4 @@ pgrx-tests
 sha1collisiondetection
 cargo-info
 cargo-duplicates
+cargo-bundle
