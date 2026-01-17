@@ -29,3 +29,4 @@ alsa-sys
 rustbus
 nextest
 nextest
+codeberg-cli
