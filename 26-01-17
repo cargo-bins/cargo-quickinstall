@@ -15,3 +15,4 @@ alsa-sys
 lingua
 alsa-sys
 human_bytes
+libbpf-cargo
