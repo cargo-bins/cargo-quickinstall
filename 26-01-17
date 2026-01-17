@@ -26,3 +26,4 @@ dioxus-cli
 dioxus-cli
 human_bytes
 pandora_box
+libbpf-cargo
