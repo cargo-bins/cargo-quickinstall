@@ -13,3 +13,4 @@ ratatui-image
 solana-cli
 binstall
 paperclip
+alsa-sys
