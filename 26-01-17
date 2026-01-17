@@ -4,3 +4,4 @@ binstall
 pgrx-tests
 sha1collisiondetection
 git-disjoint
+binstall
