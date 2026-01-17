@@ -56,3 +56,4 @@ alsa-sys
 tgt
 binwalk
 xbuild
+tagged-base64
