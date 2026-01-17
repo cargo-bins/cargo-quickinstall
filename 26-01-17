@@ -13,3 +13,4 @@ pgrx-tests
 alsa-sys
 alsa-sys
 tagged-base64
+libbpf-cargo
