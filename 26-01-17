@@ -17,3 +17,4 @@ rg
 sysd-manager
 rust-docs-mcp
 vdev
+iceoryx2-cli
