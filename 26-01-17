@@ -21,3 +21,4 @@ iceoryx2-cli
 cargo-info
 cargo-bisect-rustc
 cargo-duplicates
+cargo-unmaintained
