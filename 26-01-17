@@ -13,3 +13,4 @@ sha1collisiondetection
 cargo-info
 cargo-duplicates
 cargo-bundle
+crates-tui
