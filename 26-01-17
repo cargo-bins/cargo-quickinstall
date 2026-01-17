@@ -24,3 +24,4 @@ cargo-duplicates
 cargo-unmaintained
 rust-docs-mcp
 mise
+human_bytes
