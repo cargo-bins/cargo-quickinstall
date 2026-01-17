@@ -27,3 +27,4 @@ pgrx-tests
 alsa-sys
 alsa-sys
 rustbus
+nextest
