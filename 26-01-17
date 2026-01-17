@@ -20,3 +20,4 @@ cargo-equip
 rg
 graphql_client_cli
 cargo-info
+cargo-unused-features
