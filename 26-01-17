@@ -22,3 +22,4 @@ graphql_client_cli
 cargo-info
 cargo-unused-features
 jujutsu
+cargo-bisect-rustc
