@@ -9,3 +9,4 @@ vdev
 spl-token-cli
 crates-tui
 pgrx-tests
+sha1collisiondetection
