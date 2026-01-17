@@ -5,3 +5,4 @@ pgrx-tests
 sha1collisiondetection
 git-disjoint
 binstall
+human_bytes
