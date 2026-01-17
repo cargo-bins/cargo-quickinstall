@@ -67,3 +67,4 @@ vtcode
 human_bytes
 tgt
 tree-sitter-cli
+crates-tui
