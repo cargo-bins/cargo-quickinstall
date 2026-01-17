@@ -19,3 +19,4 @@ git-disjoint
 cargo-equip
 rg
 graphql_client_cli
+cargo-info
