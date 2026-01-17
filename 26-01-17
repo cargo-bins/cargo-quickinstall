@@ -37,3 +37,4 @@ ext-sort
 mise
 cargo-dylint
 rust-docs-mcp
+ratatui-image
