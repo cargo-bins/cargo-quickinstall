@@ -77,3 +77,4 @@ elf2flash
 binwalk
 libbpf-cargo
 rust-docs-mcp
+binwalk
