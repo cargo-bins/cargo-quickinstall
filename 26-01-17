@@ -13,3 +13,4 @@ alsa-sys
 alsa-sys
 rustbus
 tagged-base64
+httpbis
