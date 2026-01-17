@@ -14,3 +14,4 @@ alsa-sys
 alsa-sys
 tagged-base64
 human_bytes
+libbpf-cargo
