@@ -40,3 +40,4 @@ solana-cli
 paperclip
 comet
 bluetui
+alsa-sys
