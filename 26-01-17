@@ -25,3 +25,4 @@ jujutsu
 cargo-bisect-rustc
 rustdesk
 paru
+cargo-info
