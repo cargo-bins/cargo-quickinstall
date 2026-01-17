@@ -60,3 +60,4 @@ cargo-binstall
 tgt
 rg
 rg
+dioxus-cli
