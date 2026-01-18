@@ -7,3 +7,4 @@ crc-fast
 binsider
 clap-stdin
 syd
+socketcan
