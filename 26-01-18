@@ -13,3 +13,4 @@ pgrx-tests
 nextest-filtering
 foundationdb-gen
 process_viewer
+controller
