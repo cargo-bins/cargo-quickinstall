@@ -21,3 +21,4 @@ tree-sitter-graph
 dicom-pixeldata
 minicbor
 hayagriva
+cargo-size
