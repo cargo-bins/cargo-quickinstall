@@ -6,3 +6,4 @@ clap-stdin
 syd
 socketcan
 tree-sitter-graph
+minicbor
