@@ -16,3 +16,4 @@ cargo-dylint
 mdfried
 clap-stdin
 syd
+socketcan
