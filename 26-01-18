@@ -8,3 +8,4 @@ airshipper
 rust-docs-mcp
 cargo-dylint
 oxdraw
+crc-fast
