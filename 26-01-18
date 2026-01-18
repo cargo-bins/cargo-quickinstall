@@ -20,3 +20,4 @@ socketcan
 scx_lavd
 cargo-size
 tree-sitter-graph
+dicom-pixeldata
