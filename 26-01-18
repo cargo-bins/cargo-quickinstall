@@ -16,3 +16,4 @@ process_viewer
 controller
 safe_network
 uniffi
+spider_worker
