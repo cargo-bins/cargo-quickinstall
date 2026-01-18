@@ -6,3 +6,4 @@ nums
 clap-stdin
 syd
 socketcan
+sn_cli
