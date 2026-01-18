@@ -3,3 +3,4 @@ simp
 crc-fast
 clap-stdin
 socketcan
+tree-sitter-graph
