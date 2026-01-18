@@ -6,3 +6,4 @@ dicom-pixeldata
 airshipper
 tgt
 cargo-dylint
+rust-docs-mcp
