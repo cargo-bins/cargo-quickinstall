@@ -14,3 +14,4 @@ greentic-dev
 clap-stdin
 comet
 syd
+socketcan
