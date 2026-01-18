@@ -40,3 +40,4 @@ cargo-bisect-rustc
 controller
 typst-preview
 kanidm
+safe_network
