@@ -1,3 +1,4 @@
 dicom-pixeldata
 simp
 crc-fast
+clap-stdin
