@@ -33,3 +33,4 @@ elf2flash
 nextest-filtering
 process_viewer
 kanidm
+controller
