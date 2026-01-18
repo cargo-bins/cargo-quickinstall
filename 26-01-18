@@ -9,3 +9,4 @@ cargo-dylint
 rust-docs-mcp
 airshipper
 cargo-dylint
+crc-fast
