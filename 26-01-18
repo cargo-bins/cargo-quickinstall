@@ -3,3 +3,4 @@ cpp_demangle
 mit-commit-msg
 crc-fast
 nums
+clap-stdin
