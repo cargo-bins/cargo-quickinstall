@@ -18,3 +18,4 @@ clap-stdin
 syd
 socketcan
 scx_lavd
+cargo-size
