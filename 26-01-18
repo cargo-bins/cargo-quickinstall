@@ -2,3 +2,4 @@ dicom-pixeldata
 crc-fast
 nums
 clap-stdin
+socketcan
