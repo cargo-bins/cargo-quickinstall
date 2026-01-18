@@ -5,3 +5,4 @@ clap-stdin
 socketcan
 tree-sitter-graph
 dicom-pixeldata
+minicbor
