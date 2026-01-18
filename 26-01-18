@@ -5,3 +5,4 @@ crc-fast
 nums
 clap-stdin
 syd
+socketcan
