@@ -23,3 +23,4 @@ nu_plugin_gstat
 pgrx-tests
 nextest-filtering
 process_viewer
+esp-config
