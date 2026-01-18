@@ -8,3 +8,4 @@ binsider
 clap-stdin
 syd
 socketcan
+tree-sitter-graph
