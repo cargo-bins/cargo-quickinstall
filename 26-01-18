@@ -11,3 +11,4 @@ simp
 simp
 clap-stdin
 syd
+socketcan
