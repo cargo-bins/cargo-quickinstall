@@ -27,3 +27,4 @@ cargo-size
 hayagriva
 jless
 mdfried
+cargo-bisect-rustc
