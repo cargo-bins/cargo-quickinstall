@@ -64,3 +64,4 @@ gpg-tui
 fontpm
 nu_plugin_gstat
 build-fs-tree
+nu_plugin_query
