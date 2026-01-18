@@ -6,3 +6,4 @@ airshipper
 sea-orm-cli
 airshipper
 rust-docs-mcp
+cargo-dylint
