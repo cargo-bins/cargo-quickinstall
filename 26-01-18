@@ -36,3 +36,4 @@ mdfried
 nu_plugin_gstat
 nextest-filtering
 process_viewer
+cargo-bisect-rustc
