@@ -7,3 +7,4 @@ clap-stdin
 syd
 socketcan
 sn_cli
+tree-sitter-graph
