@@ -39,3 +39,4 @@ uniffi
 cargo-size
 fontpm
 nu_plugin_query
+simple-http-server
