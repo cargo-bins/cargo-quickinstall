@@ -38,3 +38,4 @@ nextest-filtering
 process_viewer
 cargo-bisect-rustc
 controller
+typst-preview
