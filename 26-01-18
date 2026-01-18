@@ -16,3 +16,4 @@ uniffi
 spider_worker
 safe_network
 rrule
+build-fs-tree
