@@ -48,3 +48,4 @@ scope-tui
 rrule
 cargo-embed
 cargo-size
+build-fs-tree
