@@ -3,3 +3,4 @@ dicom-pixeldata
 crc-fast
 clap-stdin
 syd
+socketcan
