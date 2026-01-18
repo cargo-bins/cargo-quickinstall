@@ -9,3 +9,4 @@ socketcan
 sn_cli
 tree-sitter-graph
 minicbor
+re_query
