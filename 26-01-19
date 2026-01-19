@@ -66,3 +66,4 @@ shadowsocks-rust
 rustup-toolchain-install-master
 codeberg-cli
 racer
+shadowsocks-rust
