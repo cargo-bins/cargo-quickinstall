@@ -50,3 +50,4 @@ nextest
 bevy_map_editor
 opencv-binding-generator
 syd
+codeberg-cli
