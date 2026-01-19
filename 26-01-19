@@ -25,3 +25,4 @@ scope-tui
 tracing-durations-export
 kanidm_tools
 cargo-pgrx
+jless
