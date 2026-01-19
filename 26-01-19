@@ -10,3 +10,4 @@ cargo-size
 laminar
 jless
 codestyle
+simple-http-server
