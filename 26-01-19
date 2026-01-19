@@ -18,3 +18,4 @@ nextest
 nu_plugin_query
 cargo-unmaintained
 typst-preview
+rustrict
