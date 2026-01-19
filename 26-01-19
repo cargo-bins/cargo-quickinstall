@@ -46,3 +46,4 @@ uniffi
 autoschematic
 scope-tui
 simple-http-server
+nextest
