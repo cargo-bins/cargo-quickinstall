@@ -30,3 +30,4 @@ fontpm
 tracing-durations-export
 bevy_map_editor
 cargo-pgrx
+nu_plugin_gstat
