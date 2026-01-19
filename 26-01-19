@@ -43,3 +43,4 @@ crc-fast
 opencv-binding-generator
 cargo-embed
 syd
+scope-tui
