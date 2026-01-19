@@ -19,3 +19,4 @@ codeberg-cli
 cargo-size
 material
 nu_plugin_gstat
+shadowsocks-rust
