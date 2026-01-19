@@ -15,3 +15,4 @@ material
 fontpm
 bevy_map_editor
 nextest
+nu_plugin_query
