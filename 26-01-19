@@ -74,3 +74,4 @@ autoschematic
 spider_worker
 rustup-toolchain-install-master
 racer
+shadowsocks-rust
