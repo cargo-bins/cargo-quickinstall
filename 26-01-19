@@ -31,3 +31,4 @@ uniffi
 cargo-embed
 shadowsocks-rust
 nextest
+rsgen-avro
