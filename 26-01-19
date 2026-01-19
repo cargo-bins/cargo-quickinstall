@@ -9,3 +9,4 @@ nextest
 cargo-size
 laminar
 jless
+codestyle
