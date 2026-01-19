@@ -48,3 +48,4 @@ scope-tui
 simple-http-server
 nextest
 bevy_map_editor
+opencv-binding-generator
