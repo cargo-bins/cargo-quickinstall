@@ -32,3 +32,4 @@ bevy_map_editor
 cargo-pgrx
 nu_plugin_gstat
 nu_plugin_query
+gpg-tui
