@@ -12,3 +12,4 @@ cargo-embed
 uniffi
 laminar
 autoschematic
+bevy_map_editor
