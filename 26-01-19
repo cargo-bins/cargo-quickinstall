@@ -60,3 +60,4 @@ bevy_map_editor
 rpki
 autoschematic
 shadowsocks-rust
+gpgme
