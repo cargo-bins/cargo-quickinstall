@@ -7,3 +7,4 @@ httpmock
 carapace
 rustrict
 proof-of-sql
+tracing-durations-export
