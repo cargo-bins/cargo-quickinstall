@@ -2,3 +2,4 @@ nextest
 simple-http-server
 nu_plugin_query
 gpg-tui
+codeberg-cli
