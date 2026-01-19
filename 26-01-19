@@ -9,3 +9,4 @@ rsgen-avro
 spider_cli
 opencv-binding-generator
 syd
+tagged-base64
