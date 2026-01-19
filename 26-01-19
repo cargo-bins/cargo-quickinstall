@@ -3,3 +3,4 @@ tracing-durations-export
 laminar
 sqlx-cli
 dprint
+rustrict
