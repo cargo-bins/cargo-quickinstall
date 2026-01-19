@@ -28,3 +28,4 @@ cargo-pgrx
 jless
 codestyle
 uniffi
+cargo-embed
