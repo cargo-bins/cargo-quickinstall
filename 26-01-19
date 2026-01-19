@@ -39,3 +39,4 @@ simple-http-server
 simple-http-server
 bevy_map_editor
 scope-tui
+crc-fast
