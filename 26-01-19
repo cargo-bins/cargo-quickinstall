@@ -16,3 +16,4 @@ bevy_map_editor
 uniffi
 nextest
 codeberg-cli
+cargo-size
