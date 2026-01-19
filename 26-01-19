@@ -22,3 +22,4 @@ rustrict
 probe-run
 codeberg-cli
 scope-tui
+tracing-durations-export
