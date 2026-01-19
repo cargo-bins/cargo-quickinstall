@@ -7,3 +7,4 @@ cargo-pgrx
 mise
 rsgen-avro
 spider_cli
+opencv-binding-generator
