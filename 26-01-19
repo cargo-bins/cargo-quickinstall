@@ -11,3 +11,4 @@ benfred-read-process-memory
 cargo-vet
 syd
 opencv-binding-generator
+schemafy
