@@ -72,3 +72,4 @@ gpgme
 alacritty
 autoschematic
 spider_worker
+rustup-toolchain-install-master
