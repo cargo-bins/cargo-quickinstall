@@ -8,3 +8,4 @@ gpg-tui
 tracing-durations-export
 gpg-tui
 scope-tui
+cargo-embed
