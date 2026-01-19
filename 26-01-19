@@ -56,3 +56,4 @@ material
 nextest
 shadowsocks-rust
 proof-of-sql
+bevy_map_editor
