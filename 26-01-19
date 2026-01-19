@@ -28,3 +28,4 @@ material
 probe-run
 fontpm
 tracing-durations-export
+bevy_map_editor
