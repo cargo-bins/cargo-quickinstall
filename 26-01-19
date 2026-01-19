@@ -6,3 +6,4 @@ gpg-tui
 nu_plugin_gstat
 mdfried
 nextest
+cargo-size
