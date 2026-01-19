@@ -10,3 +10,4 @@ proof-of-sql
 tracing-durations-export
 mit-commit-msg
 carapace
+rsgen-avro
