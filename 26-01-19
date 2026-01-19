@@ -12,3 +12,4 @@ cargo-vet
 syd
 opencv-binding-generator
 schemafy
+tagged-base64
