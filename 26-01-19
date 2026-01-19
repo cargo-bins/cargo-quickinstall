@@ -30,3 +30,4 @@ codestyle
 uniffi
 cargo-embed
 shadowsocks-rust
+nextest
