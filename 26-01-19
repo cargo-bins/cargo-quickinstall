@@ -5,3 +5,4 @@ rustrict
 tracing-durations-export
 cargo-pgrx
 mise
+rsgen-avro
