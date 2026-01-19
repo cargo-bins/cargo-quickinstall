@@ -41,3 +41,4 @@ bevy_map_editor
 scope-tui
 crc-fast
 opencv-binding-generator
+cargo-embed
