@@ -17,3 +17,4 @@ rpki
 gpgme
 spider_worker
 rustup-toolchain-install-master
+racer
