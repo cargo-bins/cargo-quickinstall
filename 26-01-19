@@ -13,3 +13,4 @@ tracing-durations-export
 rsgen-avro
 syd
 opencv-binding-generator
+tagged-base64
