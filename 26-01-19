@@ -12,3 +12,4 @@ rustrict
 tracing-durations-export
 rsgen-avro
 syd
+opencv-binding-generator
