@@ -2,3 +2,4 @@ iai-callgrind-runner
 tracing-durations-export
 laminar
 sqlx-cli
+dprint
