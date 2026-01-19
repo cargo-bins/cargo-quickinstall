@@ -56,3 +56,4 @@ nu_plugin_query
 schemafy
 cargo-embed
 tagged-base64
+wiki-tui
