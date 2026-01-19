@@ -4,3 +4,4 @@ dprint
 rustrict
 proof-of-sql
 tracing-durations-export
+winpty-rs
