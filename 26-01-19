@@ -18,3 +18,4 @@ perfcnt
 proof-of-sql
 rpki
 gpgme
+spider_worker
