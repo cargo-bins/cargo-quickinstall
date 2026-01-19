@@ -27,3 +27,4 @@ kanidm_tools
 cargo-pgrx
 jless
 codestyle
+uniffi
