@@ -9,3 +9,4 @@ statsig-rs
 git-disjoint
 rpki
 sass-rs
+opencv-binding-generator
