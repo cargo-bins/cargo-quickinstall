@@ -18,3 +18,4 @@ cargo-bundle
 tree-sitter-cli
 alacritty
 gpgme
+cargo-public-api
