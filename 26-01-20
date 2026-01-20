@@ -4,3 +4,4 @@ sqlx-cli
 commit_verify
 diesel_cli
 statime-linux
+sqlx-cli
