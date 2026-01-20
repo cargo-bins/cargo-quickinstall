@@ -6,3 +6,4 @@ diesel_cli
 statime-linux
 sqlx-cli
 dbus-codegen
+httm
