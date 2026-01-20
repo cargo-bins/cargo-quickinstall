@@ -3,3 +3,4 @@ vdev
 dotenv-flow
 vdev
 commit_verify
+diesel_cli
