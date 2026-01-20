@@ -4,3 +4,4 @@ imagineer
 parallel_downloader
 dotenv-flow
 commit_verify
+nextest
