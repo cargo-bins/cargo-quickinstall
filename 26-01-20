@@ -10,3 +10,4 @@ spl-token-cli
 parallel_downloader
 dbus-codegen
 sea-orm-cli
+redoxer
