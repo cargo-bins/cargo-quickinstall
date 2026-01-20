@@ -7,3 +7,4 @@ diesel_cli
 codeberg-cli
 statime-linux
 codeberg-cli
+dbus-codegen
