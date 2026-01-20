@@ -7,3 +7,4 @@ diesel_cli
 spl-token-cli
 dbus-codegen
 gpgme
+ck-search
