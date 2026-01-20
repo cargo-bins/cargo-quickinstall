@@ -7,3 +7,4 @@ commit_verify
 nextest
 nextest
 alacritty
+diesel_cli
