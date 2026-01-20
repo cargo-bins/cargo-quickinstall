@@ -16,3 +16,4 @@ git-mit-install
 git-disjoint
 rpki
 sass-rs
+opencv-binding-generator
