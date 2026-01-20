@@ -18,3 +18,4 @@ iroh-relay
 act
 git-disjoint
 rpki
+gpgme
