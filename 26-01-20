@@ -2,3 +2,4 @@ dotenv-flow
 commit_verify
 rsworktree
 diesel_cli
+worktree
