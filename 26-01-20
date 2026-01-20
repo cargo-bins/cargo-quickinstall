@@ -33,3 +33,4 @@ cargo-bundle
 tree-sitter-cli
 parallel_downloader
 alacritty
+git-disjoint
