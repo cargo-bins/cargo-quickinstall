@@ -38,3 +38,4 @@ rpki
 sass-rs
 sniffnet
 parallel_downloader
+opencv-binding-generator
