@@ -30,3 +30,4 @@ git-disjoint
 rpki
 redoxer
 sass-rs
+opencv-binding-generator
