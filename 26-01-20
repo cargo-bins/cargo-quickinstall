@@ -37,3 +37,4 @@ git-disjoint
 rpki
 sass-rs
 sniffnet
+parallel_downloader
