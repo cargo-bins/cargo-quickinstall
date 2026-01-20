@@ -3,3 +3,4 @@ papyrus_storage
 dotenv-flow
 redoxer
 tree-sitter-cli
+cargo-public-api
