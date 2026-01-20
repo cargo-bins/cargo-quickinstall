@@ -22,3 +22,4 @@ parallel_downloader
 sniffnet
 statsig-rs
 sniffnet
+tree-sitter-cli
