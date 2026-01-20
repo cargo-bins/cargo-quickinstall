@@ -9,3 +9,4 @@ dbus-codegen
 httm
 sqlx-cli
 act
+gpgme
