@@ -6,3 +6,4 @@ commit_verify
 diesel_cli
 spl-token-cli
 dbus-codegen
+gpgme
