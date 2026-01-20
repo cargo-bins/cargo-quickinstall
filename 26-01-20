@@ -6,3 +6,4 @@ spl-token-cli
 dbus-codegen
 gpgme
 statsig-rs
+git-disjoint
