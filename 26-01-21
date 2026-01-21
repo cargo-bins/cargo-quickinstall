@@ -20,3 +20,4 @@ statsig-rs
 libbpf-cargo
 rustrict
 rls-rustc
+racer
