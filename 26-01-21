@@ -36,3 +36,4 @@ gerust
 nu_plugin_gstat
 gituie
 cargo-public-api
+libbpf-cargo
