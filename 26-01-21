@@ -2,3 +2,4 @@ clap-stdin
 oso
 rust-bert
 apollo-router
+httpmock
