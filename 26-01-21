@@ -18,3 +18,4 @@ dotenv
 librespot
 statsig-rs
 libbpf-cargo
+rustrict
