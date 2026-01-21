@@ -34,3 +34,4 @@ mise
 lifecycler
 solana-validator
 statsig-rs
+rustnet-monitor
