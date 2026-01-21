@@ -52,3 +52,4 @@ cargo-binstall
 lifecycler
 rustnet-monitor
 libbpf-cargo
+scope-tui
