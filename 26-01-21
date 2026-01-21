@@ -25,3 +25,4 @@ statsig-rs
 cargo-public-api
 rustnet-monitor
 gerust
+gumbo
