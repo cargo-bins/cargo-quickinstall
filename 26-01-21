@@ -3,3 +3,4 @@ clap-stdin
 greentic-component
 sea-orm-cli
 sea-orm-cli
+oso
