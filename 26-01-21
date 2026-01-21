@@ -9,3 +9,4 @@ solana-validator
 statsig-rs
 laminar
 perfcnt
+libbpf-cargo
