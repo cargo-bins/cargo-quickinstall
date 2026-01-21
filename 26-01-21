@@ -51,3 +51,4 @@ gerust
 cargo-binstall
 lifecycler
 rustnet-monitor
+libbpf-cargo
