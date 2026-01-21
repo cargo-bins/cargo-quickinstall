@@ -8,3 +8,4 @@ stellar-xdr
 librespot
 solana-validator
 statsig-rs
+libbpf-cargo
