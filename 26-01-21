@@ -1,3 +1,4 @@
 clap-stdin
 kani-verifier
 oso
+sn_node_rpc_client
