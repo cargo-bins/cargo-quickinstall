@@ -11,3 +11,4 @@ vdev
 near-cli-rs
 apollo-router
 near-cli-rs
+httpmock
