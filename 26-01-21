@@ -15,3 +15,4 @@ libbpf-cargo
 bpf-linker
 rustrict
 pijul
+racer
