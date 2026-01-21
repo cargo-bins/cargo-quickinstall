@@ -18,3 +18,4 @@ sea-orm-cli
 cargo-public-api
 gituie
 httpmock
+stellar-xdr
