@@ -21,3 +21,4 @@ libbpf-cargo
 rustrict
 rls-rustc
 racer
+socketcan
