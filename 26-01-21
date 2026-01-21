@@ -9,3 +9,4 @@ greentic-component
 apollo-router
 sea-orm-cli
 vtcode
+httpmock
