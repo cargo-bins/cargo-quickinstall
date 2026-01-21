@@ -14,3 +14,4 @@ vtcode
 cargo-binstall
 apollo-router
 cargo-public-api
+sea-orm-cli
