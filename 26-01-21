@@ -3,3 +3,4 @@ oso
 httpmock
 stellar-xdr
 nexmark
+cargo-local-registry
