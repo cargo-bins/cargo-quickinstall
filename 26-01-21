@@ -13,3 +13,4 @@ perfcnt
 libbpf-cargo
 bpf-linker
 rustrict
+rls-rustc
