@@ -11,3 +11,4 @@ laminar
 statime-linux
 perfcnt
 libbpf-cargo
+bpf-linker
