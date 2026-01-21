@@ -9,3 +9,4 @@ benfred-read-process-memory
 cargo-local-registry
 laminar
 statime-linux
+perfcnt
