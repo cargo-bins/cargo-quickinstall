@@ -21,3 +21,4 @@ glide
 buck2
 libbpf-cargo
 rustrict
+rls-rustc
