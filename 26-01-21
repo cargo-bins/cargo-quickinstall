@@ -19,3 +19,4 @@ librespot
 statsig-rs
 libbpf-cargo
 rustrict
+rls-rustc
