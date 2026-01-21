@@ -10,3 +10,4 @@ laminar
 libbpf-cargo
 rustrict
 racer
+socketcan
