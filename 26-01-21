@@ -44,3 +44,4 @@ rls-rustc
 gerust
 nu_plugin_gstat
 lifecycler
+racer
