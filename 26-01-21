@@ -10,3 +10,4 @@ cargo-local-registry
 laminar
 statime-linux
 perfcnt
+libbpf-cargo
