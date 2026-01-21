@@ -1,3 +1,4 @@
 cargo-bundle
 clap-stdin
 greentic-component
+sea-orm-cli
