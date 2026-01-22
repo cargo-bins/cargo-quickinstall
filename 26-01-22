@@ -13,3 +13,4 @@ solana-tokens
 tendermint-rpc
 rls-rustc
 addr2line
+quick-junit
