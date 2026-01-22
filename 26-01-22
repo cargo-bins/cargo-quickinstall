@@ -24,3 +24,4 @@ fzf-make
 vdev
 cargo-dylint
 rav1e
+wiki-tui
