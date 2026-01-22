@@ -48,3 +48,4 @@ cargo-spellcheck
 vdev
 tendermint-rpc
 kble-c2a
+hex-patch
