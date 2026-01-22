@@ -10,3 +10,4 @@ dua-cli
 cargo-local-registry
 remove_dir_all
 httm
+fake
