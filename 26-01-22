@@ -61,3 +61,4 @@ tmtc-c2a
 opencv-binding-generator
 cargo-dylint
 jj
+tree-sitter-cli
