@@ -20,3 +20,4 @@ httpmock
 lingua
 tendermint-rpc
 wild-linker
+rls-rustc
