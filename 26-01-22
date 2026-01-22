@@ -38,3 +38,4 @@ hex-patch
 cargo-dylint
 wiki-tui
 fzf-make
+dioxus-cli
