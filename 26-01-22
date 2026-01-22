@@ -7,3 +7,4 @@ dua-cli
 channels-console
 channels-console
 dua-cli
+cargo-local-registry
