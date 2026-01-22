@@ -41,3 +41,4 @@ fzf-make
 dioxus-cli
 httpmock
 cargo-spellcheck
+hex-patch
