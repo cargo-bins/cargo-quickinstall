@@ -12,3 +12,4 @@ pgrx-tests
 fake
 skim
 qsv
+httpmock
