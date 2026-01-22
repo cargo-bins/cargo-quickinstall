@@ -6,3 +6,4 @@ esp-config
 remove_dir_all
 fake
 skim
+qsv
