@@ -32,3 +32,4 @@ wiki-tui
 cargo-spellcheck
 skim
 qsv
+fzf-make
