@@ -26,3 +26,4 @@ cargo-dylint
 rav1e
 wiki-tui
 cargo-spellcheck
+dioxus-cli
