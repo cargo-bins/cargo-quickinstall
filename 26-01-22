@@ -11,3 +11,4 @@ cargo-spellcheck
 gg-cli
 solana-faucet
 esp-config
+remove_dir_all
