@@ -18,3 +18,4 @@ bun
 tendermint-rpc
 rls-rustc
 bun
+addr2line
