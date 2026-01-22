@@ -19,3 +19,4 @@ qsv
 httpmock
 tendermint-rpc
 rls-rustc
+addr2line
