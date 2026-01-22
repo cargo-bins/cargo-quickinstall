@@ -5,3 +5,4 @@ burn-tch
 statsig-rs
 solana-faucet
 esp-config
+remove_dir_all
