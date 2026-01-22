@@ -22,3 +22,4 @@ fzf-make
 cargo-spellcheck
 fake
 skim
+gg-cli
