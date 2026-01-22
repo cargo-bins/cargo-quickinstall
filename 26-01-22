@@ -37,3 +37,4 @@ cargo-spellcheck
 tendermint-rpc
 rls-rustc
 cargo-spellcheck
+addr2line
