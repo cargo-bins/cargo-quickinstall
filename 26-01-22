@@ -20,3 +20,4 @@ tendermint-rpc
 rls-rustc
 addr2line
 dioxus-cli
+perfcnt
