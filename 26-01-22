@@ -54,3 +54,4 @@ paru
 rls-rustc
 fzf-make
 gg-cli
+addr2line
