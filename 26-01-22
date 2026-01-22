@@ -58,3 +58,4 @@ addr2line
 jj
 dioxus-cli
 tmtc-c2a
+opencv-binding-generator
