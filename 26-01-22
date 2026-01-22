@@ -39,3 +39,4 @@ rls-rustc
 cargo-spellcheck
 addr2line
 quick-junit
+opencv-binding-generator
