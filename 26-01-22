@@ -2,3 +2,4 @@ diesel_cli
 project_init
 h3o
 solana-faucet
+remove_dir_all
