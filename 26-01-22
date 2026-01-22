@@ -21,3 +21,4 @@ lingua
 tendermint-rpc
 wild-linker
 rls-rustc
+addr2line
