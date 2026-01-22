@@ -39,3 +39,4 @@ cargo-dylint
 wiki-tui
 fzf-make
 dioxus-cli
+httpmock
