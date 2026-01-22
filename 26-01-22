@@ -12,3 +12,4 @@ qsv
 httpmock
 solana-tokens
 tendermint-rpc
+rls-rustc
