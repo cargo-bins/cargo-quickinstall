@@ -21,3 +21,4 @@ esp-config
 remove_dir_all
 cargo-spellcheck
 fzf-make
+vdev
