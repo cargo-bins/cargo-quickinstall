@@ -13,3 +13,4 @@ esp-config
 fake
 skim
 qsv
+httpmock
