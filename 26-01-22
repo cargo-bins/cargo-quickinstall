@@ -17,3 +17,4 @@ fake
 skim
 qsv
 httpmock
+tendermint-rpc
