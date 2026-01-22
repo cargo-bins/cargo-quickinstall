@@ -16,3 +16,4 @@ rls-rustc
 addr2line
 quick-junit
 perfcnt
+opencv-binding-generator
