@@ -40,3 +40,4 @@ wiki-tui
 fzf-make
 dioxus-cli
 httpmock
+cargo-spellcheck
