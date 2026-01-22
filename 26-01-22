@@ -18,3 +18,4 @@ skim
 qsv
 httpmock
 tendermint-rpc
+rls-rustc
