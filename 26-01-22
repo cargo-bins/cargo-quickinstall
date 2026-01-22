@@ -20,3 +20,4 @@ kickstart
 rls-rustc
 kickstart
 quick-junit
+addr2line
