@@ -24,3 +24,4 @@ rls-rustc
 addr2line
 perfcnt
 ts-bindgen
+git-mit-relates-to
