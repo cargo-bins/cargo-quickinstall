@@ -16,3 +16,4 @@ httpmock
 lingua
 solana-tokens
 tendermint-rpc
+rls-rustc
