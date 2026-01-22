@@ -18,3 +18,4 @@ statsig-rs
 fzf-make
 solana-faucet
 esp-config
+remove_dir_all
