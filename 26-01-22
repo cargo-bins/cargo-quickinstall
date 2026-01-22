@@ -23,3 +23,4 @@ wild-linker
 rls-rustc
 addr2line
 perfcnt
+ts-bindgen
