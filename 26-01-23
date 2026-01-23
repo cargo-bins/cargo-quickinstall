@@ -25,3 +25,4 @@ deno
 deploy
 diesel_cli
 lowfi
+cargo-hot
