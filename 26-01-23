@@ -12,3 +12,4 @@ z3tracer
 mit-commit-msg
 tendermint-abci
 rust-bert
+sqlx-cli
