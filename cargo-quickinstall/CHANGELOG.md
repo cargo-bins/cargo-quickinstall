@@ -52,6 +52,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.45](https://github.com/cargo-bins/cargo-quickinstall/releases/tag/v0.3.45) - 2026-01-23
+
+### Other
+
+- release v0.3.45 ([#529](https://github.com/cargo-bins/cargo-quickinstall/pull/529))
+
 ## [0.3.45](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.44...v0.3.45) - 2026-01-23
 
 ### Other
