@@ -37,3 +37,4 @@ cargo-hot
 diesel_cli
 cargo-hot
 neovide
+rust-bert
