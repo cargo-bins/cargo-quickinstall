@@ -12,3 +12,4 @@ deploy
 sp1-prover
 datavzrd
 cargo-hyperlight
+z3tracer
