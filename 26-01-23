@@ -13,3 +13,4 @@ dotenv
 gpg-tui
 mdfried
 cargo-leptos
+deploy
