@@ -14,3 +14,4 @@ cargo-hyperlight
 skim
 cargo-hyperlight
 deploy
+sha1collisiondetection
