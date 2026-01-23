@@ -22,3 +22,4 @@ vdev
 cargo-dylint
 cargo-hot
 deno
+deploy
