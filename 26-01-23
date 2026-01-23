@@ -34,3 +34,4 @@ all-smi
 superseedr
 rust-bert
 cargo-hot
+diesel_cli
