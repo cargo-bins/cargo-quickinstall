@@ -20,3 +20,4 @@ vdev
 tmtc-c2a
 vdev
 cargo-dylint
+cargo-hot
