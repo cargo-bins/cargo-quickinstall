@@ -48,3 +48,4 @@ all-smi
 linera-service
 cargo-list
 diesel_cli
+rust-bert
