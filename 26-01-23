@@ -4,3 +4,4 @@ crypto-cli-tools
 sqlx-cli
 cargo-vet
 cargo-leptos
+deploy
