@@ -13,3 +13,4 @@ cargo-lock
 dioxus-cli
 protox
 rrule
+dicom-pixeldata
