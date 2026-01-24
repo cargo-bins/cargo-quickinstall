@@ -10,3 +10,4 @@ cargo-lock
 esp-config
 protox
 rrule
+dicom-pixeldata
