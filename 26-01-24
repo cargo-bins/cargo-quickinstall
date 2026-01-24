@@ -35,3 +35,4 @@ honggfuzz
 iai-callgrind-runner
 mit-prepare-commit-msg
 foundationdb-gen
+perfcnt
