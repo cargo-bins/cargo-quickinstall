@@ -30,3 +30,4 @@ protox
 rrule
 iai-callgrind-runner
 winpty-rs
+honggfuzz
