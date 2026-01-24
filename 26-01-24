@@ -8,3 +8,4 @@ cargo-lock
 protox
 rrule
 winpty-rs
+foundationdb-gen
