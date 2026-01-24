@@ -10,3 +10,4 @@ socketcan
 wiremix
 binwalk
 sass-rs
+cargo-dylint
