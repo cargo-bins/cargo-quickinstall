@@ -5,3 +5,4 @@ racer
 socketcan
 sp1-prover
 iroh-relay
+cargo-lock
