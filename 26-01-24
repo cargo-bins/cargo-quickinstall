@@ -18,3 +18,4 @@ winpty-rs
 honggfuzz
 honggfuzz
 rustfmt
+sn_node_rpc_client
