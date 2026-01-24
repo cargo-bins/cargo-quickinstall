@@ -20,3 +20,4 @@ foundationdb-gen
 wol-rs
 dotenv-flow
 rustfmt-nightly
+java-locator
