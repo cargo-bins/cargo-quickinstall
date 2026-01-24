@@ -40,3 +40,4 @@ wol-rs
 binstall
 dotenv-flow
 rustfmt-nightly
+java-locator
