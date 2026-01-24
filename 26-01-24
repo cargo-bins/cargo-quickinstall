@@ -11,3 +11,4 @@ esp-config
 protox
 rrule
 dicom-pixeldata
+winpty-rs
