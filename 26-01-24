@@ -17,3 +17,4 @@ foundationdb-gen
 perfcnt
 wol-rs
 cargo-pgrx
+rustfmt-nightly
