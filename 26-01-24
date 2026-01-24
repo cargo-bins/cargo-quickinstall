@@ -18,3 +18,4 @@ winpty-rs
 r3bl_tuify
 foundationdb-gen
 wol-rs
+dotenv-flow
