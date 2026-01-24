@@ -18,3 +18,4 @@ iroh-relay
 codeberg-cli
 cargo-leptos
 exa
+sqlx-cli
