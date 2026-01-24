@@ -24,3 +24,4 @@ iroh-relay
 all-smi
 pijul
 wiremix
+cargo-lock
