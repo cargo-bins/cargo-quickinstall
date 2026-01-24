@@ -37,3 +37,4 @@ mit-prepare-commit-msg
 foundationdb-gen
 perfcnt
 wol-rs
+binstall
