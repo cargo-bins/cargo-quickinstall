@@ -17,3 +17,4 @@ perfcnt
 wol-rs
 dotenv-flow
 cargo-pgrx
+rustfmt-nightly
