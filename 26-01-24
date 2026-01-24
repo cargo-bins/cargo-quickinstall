@@ -19,3 +19,4 @@ honggfuzz
 honggfuzz
 rustfmt
 sn_node_rpc_client
+iai-callgrind-runner
