@@ -21,3 +21,4 @@ rustfmt
 sn_node_rpc_client
 iai-callgrind-runner
 mit-prepare-commit-msg
+r3bl_tuify
