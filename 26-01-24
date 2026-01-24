@@ -14,3 +14,4 @@ rrule
 iai-callgrind-runner
 fermium
 dicom-pixeldata
+winpty-rs
