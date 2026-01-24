@@ -19,3 +19,4 @@ r3bl_tuify
 foundationdb-gen
 perfcnt
 wol-rs
+dotenv-flow
