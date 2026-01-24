@@ -14,3 +14,4 @@ foundationdb-gen
 perfcnt
 wol-rs
 dotenv-flow
+rustfmt-nightly
