@@ -17,3 +17,4 @@ dicom-pixeldata
 winpty-rs
 honggfuzz
 honggfuzz
+rustfmt
