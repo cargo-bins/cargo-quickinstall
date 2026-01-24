@@ -18,3 +18,4 @@ wol-rs
 dotenv-flow
 cargo-pgrx
 rustfmt-nightly
+cargo-pgrx
