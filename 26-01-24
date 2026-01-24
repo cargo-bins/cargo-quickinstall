@@ -26,3 +26,4 @@ sn_cli
 foundationdb-gen
 perfcnt
 wol-rs
+rustfmt-nightly
