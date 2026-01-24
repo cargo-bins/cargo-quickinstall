@@ -52,3 +52,4 @@ alpm-buildinfo
 aura-pm
 cargo-pgrx
 rsign
+rustfmt-nightly
