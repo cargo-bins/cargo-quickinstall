@@ -38,3 +38,4 @@ foundationdb-gen
 perfcnt
 wol-rs
 binstall
+dotenv-flow
