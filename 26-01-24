@@ -27,3 +27,4 @@ foundationdb-gen
 perfcnt
 wol-rs
 rustfmt-nightly
+java-locator
