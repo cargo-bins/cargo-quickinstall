@@ -16,3 +16,4 @@ rrule
 dicom-pixeldata
 winpty-rs
 r3bl_tuify
+foundationdb-gen
