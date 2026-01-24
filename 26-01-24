@@ -13,3 +13,4 @@ rrule
 dicom-pixeldata
 winpty-rs
 shunkakinoki
+foundationdb-gen
