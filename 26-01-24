@@ -39,3 +39,4 @@ perfcnt
 wol-rs
 binstall
 dotenv-flow
+rustfmt-nightly
