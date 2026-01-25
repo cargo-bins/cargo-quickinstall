@@ -32,3 +32,4 @@ cargo-dylint
 aura-pm
 ruff
 cargo-dylint
+binstall
