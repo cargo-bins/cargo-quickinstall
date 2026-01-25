@@ -6,3 +6,4 @@ cargo-risczero
 cargo-spellcheck
 rrule
 clippy
+addr2line
