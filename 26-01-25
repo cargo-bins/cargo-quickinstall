@@ -40,3 +40,4 @@ songrec
 binstall
 esp-config
 ruff
+addr2line
