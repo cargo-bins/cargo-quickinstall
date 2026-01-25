@@ -13,3 +13,4 @@ deploy
 nexmark
 rrule
 nkeys
+tendermint-rpc
