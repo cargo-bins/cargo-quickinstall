@@ -5,3 +5,4 @@ cargo-spellcheck
 rrule
 clippy
 zellij
+dioxus-cli
