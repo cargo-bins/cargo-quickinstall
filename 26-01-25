@@ -12,3 +12,4 @@ project_init
 rls-rustc
 kalker
 cpx
+deploy
