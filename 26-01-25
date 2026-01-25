@@ -37,3 +37,4 @@ dioxus-cli
 solana-validator
 rsign
 cargo-dylint
+spider_cli
