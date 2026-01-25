@@ -6,3 +6,4 @@ rrule
 openpty
 zellij
 solana-validator
+tokio-process
