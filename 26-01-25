@@ -9,3 +9,4 @@ clippy
 addr2line
 zellij
 dioxus-cli
+solana-validator
