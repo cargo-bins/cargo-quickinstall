@@ -7,3 +7,4 @@ openpty
 zellij
 solana-validator
 tokio-process
+rls-rustc
