@@ -36,3 +36,4 @@ songrec
 dioxus-cli
 solana-validator
 rsign
+cargo-dylint
