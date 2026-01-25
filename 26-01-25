@@ -10,3 +10,4 @@ cargo-risczero
 rrule
 wallust
 clippy
+openpty
