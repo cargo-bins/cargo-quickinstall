@@ -13,3 +13,4 @@ clippy
 openpty
 crypto-cli-tools
 zellij
+solana-validator
