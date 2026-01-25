@@ -33,3 +33,4 @@ aura-pm
 ruff
 cargo-dylint
 binstall
+spider_cli
