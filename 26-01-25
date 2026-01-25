@@ -34,3 +34,4 @@ ruff
 cargo-dylint
 binstall
 spider_cli
+mdfried
