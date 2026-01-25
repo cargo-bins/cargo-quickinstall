@@ -41,3 +41,4 @@ binstall
 esp-config
 ruff
 addr2line
+pwsp
