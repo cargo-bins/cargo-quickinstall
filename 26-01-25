@@ -5,3 +5,4 @@ rrule
 clippy
 solana-validator
 project_init
+rls-rustc
