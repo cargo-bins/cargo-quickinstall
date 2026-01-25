@@ -15,3 +15,4 @@ rrule
 nkeys
 tendermint-rpc
 datavzrd
+iai-callgrind-runner
