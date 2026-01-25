@@ -49,3 +49,4 @@ ruff
 passepartui
 songrec
 project_init
+binstall
