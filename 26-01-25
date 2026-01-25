@@ -4,3 +4,4 @@ statime-linux
 rrule
 clippy
 openpty
+cargo-dylint
