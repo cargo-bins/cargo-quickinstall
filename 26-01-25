@@ -11,3 +11,4 @@ rls-rustc
 project_init
 deploy
 nexmark
+rrule
