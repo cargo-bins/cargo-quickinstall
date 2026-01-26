@@ -75,3 +75,4 @@ cargo-http-registry
 dash-mpd-cli
 syd
 dx-cli
+tendermint-abci
