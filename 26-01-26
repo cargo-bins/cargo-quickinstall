@@ -6,3 +6,4 @@ clap-stdin
 bpf-linker
 miden-crypto
 crc-fast
+deploy
