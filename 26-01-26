@@ -43,3 +43,4 @@ cargo-size
 clap-stdin
 cargo-size
 ncspot
+clippy
