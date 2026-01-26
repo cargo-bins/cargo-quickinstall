@@ -48,3 +48,4 @@ piper-rs-cli
 parquet
 cargo-size
 crc-fast
+project_init
