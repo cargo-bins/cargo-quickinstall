@@ -3,3 +3,4 @@ songrec
 dash-mpd-cli
 clippy
 cargo-dylint
+ruff
