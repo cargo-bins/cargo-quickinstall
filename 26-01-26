@@ -66,3 +66,4 @@ cargo-info
 codestyle
 cargo-http-registry
 tendermint-abci
+qsv
