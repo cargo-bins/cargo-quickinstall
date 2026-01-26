@@ -61,3 +61,4 @@ piper-rs-cli
 cargo-size
 cargo-lock
 dash-mpd-cli
+syd
