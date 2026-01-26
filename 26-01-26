@@ -46,3 +46,4 @@ sea-orm-cli
 codestyle
 piper-rs-cli
 parquet
+cargo-size
