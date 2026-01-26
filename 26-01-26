@@ -13,3 +13,4 @@ rustorio
 nu_plugin_gstat
 deepwiki-rs
 spider_cli
+ruff
