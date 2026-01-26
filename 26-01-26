@@ -21,3 +21,4 @@ clippy
 ncspot
 ncspot
 cargo-info
+sea-orm-cli
