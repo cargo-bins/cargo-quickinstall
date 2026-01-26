@@ -69,3 +69,4 @@ tendermint-abci
 qsv
 dx-cli
 tendermint-rpc
+sql-gen
