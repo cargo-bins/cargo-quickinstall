@@ -27,3 +27,4 @@ sea-orm-cli
 clap-stdin
 clippy
 rslack
+ncspot
