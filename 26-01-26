@@ -14,3 +14,4 @@ cargo-lock
 syd
 tendermint-abci
 qsv
+tendermint-rpc
