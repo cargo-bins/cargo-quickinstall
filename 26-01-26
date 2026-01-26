@@ -2,3 +2,4 @@ cargo-mobile2
 cargo-spellcheck
 clap-stdin
 unic-langid-impl
+clap-stdin
