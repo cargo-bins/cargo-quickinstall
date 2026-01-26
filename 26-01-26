@@ -58,3 +58,4 @@ codestyle
 rg
 oxipng
 piper-rs-cli
+cargo-size
