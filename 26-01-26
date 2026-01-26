@@ -24,3 +24,4 @@ nu_plugin_gstat
 rslack
 spider_cli
 nu_plugin_gstat
+cargo-info
