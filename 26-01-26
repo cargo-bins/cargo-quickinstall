@@ -68,3 +68,4 @@ cargo-http-registry
 tendermint-abci
 qsv
 dx-cli
+tendermint-rpc
