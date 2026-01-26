@@ -40,3 +40,4 @@ nu_plugin_gstat
 codestyle
 dx-cli
 cargo-size
+clap-stdin
