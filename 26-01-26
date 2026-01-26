@@ -4,3 +4,4 @@ dash-mpd-cli
 clippy
 cargo-dylint
 ruff
+esp-config
