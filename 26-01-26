@@ -55,3 +55,4 @@ crc-fast
 rslack
 graphql_client_cli
 cargo-size
+deploy
