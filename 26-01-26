@@ -13,3 +13,4 @@ cargo-lock
 syd
 tendermint-abci
 tendermint-rpc
+zellij
