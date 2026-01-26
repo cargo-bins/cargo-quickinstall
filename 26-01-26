@@ -13,3 +13,4 @@ nominal-api
 cargo-lock
 syd
 tendermint-abci
+qsv
