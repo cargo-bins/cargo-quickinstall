@@ -7,3 +7,4 @@ clap-stdin
 miden-crypto
 parquet
 crc-fast
+project_init
