@@ -17,3 +17,4 @@ jless
 clap-stdin
 bpf-linker
 miden-crypto
+hotpath
