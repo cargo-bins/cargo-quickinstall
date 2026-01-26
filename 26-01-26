@@ -79,3 +79,4 @@ tendermint-abci
 dx-cli
 tendermint-rpc
 rav1e
+rustdoc-text
