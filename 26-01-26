@@ -2,3 +2,4 @@ rustorio
 songrec
 dash-mpd-cli
 clippy
+cargo-dylint
