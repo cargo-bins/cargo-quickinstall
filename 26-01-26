@@ -41,3 +41,4 @@ codestyle
 dx-cli
 cargo-size
 clap-stdin
+cargo-size
