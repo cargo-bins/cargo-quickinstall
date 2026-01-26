@@ -6,3 +6,4 @@ cargo-spellcheck
 clap-stdin
 miden-crypto
 parquet
+crc-fast
