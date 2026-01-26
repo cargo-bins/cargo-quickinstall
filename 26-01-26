@@ -3,3 +3,4 @@ clippy
 esp-config
 songrec
 ruff
+argus-cli
