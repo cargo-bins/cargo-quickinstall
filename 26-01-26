@@ -63,3 +63,4 @@ cargo-lock
 dash-mpd-cli
 syd
 cargo-info
+codestyle
