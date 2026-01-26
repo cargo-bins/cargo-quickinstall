@@ -32,3 +32,4 @@ hotpath
 syd
 tendermint-abci
 tendermint-rpc
+bpf-linker
