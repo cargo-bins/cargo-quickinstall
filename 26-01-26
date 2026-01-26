@@ -5,3 +5,4 @@ unic-langid-impl
 clap-stdin
 miden-crypto
 parquet
+crc-fast
