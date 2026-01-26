@@ -62,3 +62,4 @@ cargo-size
 cargo-lock
 dash-mpd-cli
 syd
+cargo-info
