@@ -3,3 +3,4 @@ cargo-spellcheck
 clap-stdin
 unic-langid-impl
 clap-stdin
+miden-crypto
