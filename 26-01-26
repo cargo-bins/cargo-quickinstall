@@ -18,3 +18,4 @@ ruff
 dash-mpd-cli
 cargo-mobile2
 clippy
+ncspot
