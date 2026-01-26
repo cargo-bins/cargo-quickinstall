@@ -3,3 +3,4 @@ ruff
 ruff
 cargo-mobile2
 cargo-spellcheck
+clap-stdin
