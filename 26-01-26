@@ -5,3 +5,4 @@ cargo-mobile2
 cargo-spellcheck
 clap-stdin
 miden-crypto
+parquet
