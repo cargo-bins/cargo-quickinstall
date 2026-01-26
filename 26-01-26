@@ -2,3 +2,4 @@ cpx
 cargo-dylint
 cpx
 tagged-base64
+clap-stdin
