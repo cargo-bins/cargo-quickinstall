@@ -6,3 +6,4 @@ clap-stdin
 miden-crypto
 parquet
 crc-fast
+deploy
