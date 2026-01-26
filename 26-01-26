@@ -19,3 +19,4 @@ rg
 tendermint-abci
 tendermint-rpc
 rg
+cargo-script
