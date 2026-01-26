@@ -63,3 +63,4 @@ cargo-size
 ncspot
 rust-docs-mcp
 nominal-api
+rg
