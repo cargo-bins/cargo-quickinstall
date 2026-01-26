@@ -8,3 +8,4 @@ esp-config
 dash-mpd-cli
 argus-cli
 alacritty
+nu_plugin_gstat
