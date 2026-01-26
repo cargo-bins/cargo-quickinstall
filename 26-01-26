@@ -31,3 +31,4 @@ ncspot
 website_crawler
 dash-mpd-cli
 deepwiki-rs
+cargo-size
