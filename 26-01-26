@@ -45,3 +45,4 @@ cargo-size
 ncspot
 clippy
 miden-crypto
+cargo-info
