@@ -6,3 +6,4 @@ clap-stdin
 website_crawler
 hurl
 miden-crypto
+crc-fast
