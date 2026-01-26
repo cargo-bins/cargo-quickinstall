@@ -5,3 +5,4 @@ website_crawler
 clap-stdin
 bpf-linker
 miden-crypto
+crc-fast
