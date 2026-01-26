@@ -14,3 +14,4 @@ fx
 website_crawler
 nextest
 jless
+clap-stdin
