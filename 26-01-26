@@ -6,3 +6,4 @@ cargo-dylint
 ruff
 esp-config
 deepwiki-rs
+cargo-info
