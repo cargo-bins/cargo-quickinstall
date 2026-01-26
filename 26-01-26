@@ -18,3 +18,4 @@ cargo-lock
 rg
 tendermint-abci
 tendermint-rpc
+rg
