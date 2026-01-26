@@ -59,3 +59,4 @@ deploy
 project_init
 r3bl_tuify
 dash-mpd-cli
+cargo-size
