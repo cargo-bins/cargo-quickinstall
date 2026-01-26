@@ -3,3 +3,4 @@ cargo-dylint
 cpx
 tagged-base64
 clap-stdin
+website_crawler
