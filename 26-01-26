@@ -10,3 +10,4 @@ nextest
 clap-stdin
 jless
 nextest
+fx
