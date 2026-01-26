@@ -64,3 +64,4 @@ dash-mpd-cli
 syd
 cargo-info
 codestyle
+cargo-http-registry
