@@ -5,3 +5,4 @@ clippy
 cargo-dylint
 ruff
 esp-config
+deepwiki-rs
