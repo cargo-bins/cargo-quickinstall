@@ -20,3 +20,4 @@ cargo-public-api
 jj
 stellar-xdr
 dioxus-cli
+cargo-binstall
