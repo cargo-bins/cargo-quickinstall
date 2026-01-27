@@ -12,3 +12,4 @@ nominal-api
 sn_node
 cpp_demangle
 rustfmt
+stellar-strkey
