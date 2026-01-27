@@ -2,3 +2,4 @@ tracing-durations-export
 sass-rs
 pandora_box
 rustfmt
+uniffi
