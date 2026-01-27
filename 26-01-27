@@ -4,3 +4,4 @@ controller
 uniffi
 stellar-xdr
 nominal-api
+rustup-toolchain-install-master
