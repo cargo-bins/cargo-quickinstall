@@ -8,3 +8,4 @@ cargo-script
 uniffi
 cargo-script
 stellar-xdr
+nominal-api
