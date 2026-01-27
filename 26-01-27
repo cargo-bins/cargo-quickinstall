@@ -5,3 +5,4 @@ rustfmt
 uniffi
 wallust
 stellar-xdr
+nominal-api
