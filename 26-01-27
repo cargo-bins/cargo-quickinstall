@@ -4,3 +4,4 @@ graphql_client_cli
 sass-rs
 piper-rs-cli
 sql-gen
+controller
