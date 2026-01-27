@@ -7,3 +7,4 @@ sql-gen
 controller
 rg
 uniffi
+tree-sitter-cli
