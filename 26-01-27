@@ -11,3 +11,4 @@ sark0y_tam_rst
 nominal-api
 sn_node
 cpp_demangle
+rustfmt
