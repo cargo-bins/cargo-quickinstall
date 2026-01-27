@@ -6,3 +6,4 @@ diesel_cli
 cargo-script
 pandora_box
 uniffi
+stellar-xdr
