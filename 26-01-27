@@ -16,3 +16,4 @@ piper-rs-cli
 graphql_client_cli
 jj
 sql-gen
+dx-cli
