@@ -5,3 +5,4 @@ sniffnet
 cargo-http-registry
 rustdoc-text
 sea-orm-cli
+controller
