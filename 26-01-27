@@ -22,3 +22,4 @@ graphql_client_cli
 sql-gen
 jj
 nominal-api
+rustup-toolchain-install-master
