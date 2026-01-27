@@ -26,3 +26,4 @@ rustdoc-text
 rustdoc-text
 nominal-api
 rustup-toolchain-install-master
+sha1collisiondetection
