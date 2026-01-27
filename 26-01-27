@@ -8,3 +8,4 @@ controller
 rg
 uniffi
 tree-sitter-cli
+rustdoc-text
