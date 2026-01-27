@@ -2,3 +2,4 @@ tracing-durations-export
 cargo-script
 cargo-script
 sass-rs
+diesel_cli
