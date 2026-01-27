@@ -3,3 +3,4 @@ sql-gen
 sass-rs
 sniffnet
 cargo-http-registry
+rustdoc-text
