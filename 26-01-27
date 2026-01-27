@@ -7,3 +7,4 @@ cargo-script
 pandora_box
 uniffi
 stellar-xdr
+nominal-api
