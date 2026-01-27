@@ -33,3 +33,4 @@ mise
 nominal-api
 cargo-flash
 rustdoc-text
+cpp_demangle
