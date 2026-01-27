@@ -22,3 +22,4 @@ stellar-xdr
 dioxus-cli
 cargo-binstall
 sniffnet
+rustdoc-text
