@@ -43,3 +43,4 @@ alacritty
 cpp_demangle
 cargo-flash
 spotify-tui
+cargo-http-registry
