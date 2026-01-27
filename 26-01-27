@@ -34,3 +34,4 @@ nominal-api
 cargo-flash
 rustdoc-text
 cpp_demangle
+stellar-strkey
