@@ -36,3 +36,4 @@ rustdoc-text
 cpp_demangle
 stellar-strkey
 oxipng
+diesel_cli
