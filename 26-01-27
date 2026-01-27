@@ -36,3 +36,4 @@ cargo-binstall
 rustdoc-text
 alacritty
 sql-gen
+cargo-flash
