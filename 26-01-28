@@ -6,3 +6,4 @@ sea-orm-cli
 vdev
 human_bytes
 spotatui
+nu_plugin_query
