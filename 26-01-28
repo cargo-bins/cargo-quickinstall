@@ -38,3 +38,4 @@ crc-fast
 kota
 nu_plugin_gstat
 deno
+nu_plugin_query
