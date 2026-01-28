@@ -53,3 +53,4 @@ crc-fast
 mdcat
 sass-rs
 re_query
+socketcan
