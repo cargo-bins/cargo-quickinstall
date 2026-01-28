@@ -3,3 +3,4 @@ opencv-binding-generator
 nums
 tree-sitter-md
 cargo-pgrx
+unic-langid-impl
