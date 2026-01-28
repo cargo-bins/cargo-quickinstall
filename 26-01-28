@@ -40,3 +40,4 @@ nu_plugin_gstat
 deno
 nu_plugin_query
 kickoff
+a11ywatch_cli
