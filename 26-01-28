@@ -3,3 +3,4 @@ nums
 tree-sitter-md
 tokio-process
 sn_node_rpc_client
+unic-langid-impl
