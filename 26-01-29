@@ -14,3 +14,4 @@ capsula-cli
 clipboard-history-tui
 rust-bert
 cargo-public-api
+diesel_cli
