@@ -8,3 +8,4 @@ datavzrd
 kani-verifier
 minicbor
 rustbus
+tagged-base64
