@@ -3,3 +3,4 @@ diesel_cli
 schemafy
 git-branchless
 datavzrd
+nextest
