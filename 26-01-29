@@ -43,3 +43,4 @@ hoard-rs
 cargo-unmaintained
 minicbor
 addr2line
+xcp
