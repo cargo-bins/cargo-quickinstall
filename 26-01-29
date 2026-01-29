@@ -24,3 +24,4 @@ cargo-dinghy
 mit-commit-msg
 mit-pre-commit
 deploy
+rls-rustc
