@@ -9,3 +9,4 @@ addr2line
 java-locator
 xargo
 deploy
+process_viewer
