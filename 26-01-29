@@ -8,3 +8,4 @@ minicbor
 addr2line
 xargo
 deploy
+process_viewer
