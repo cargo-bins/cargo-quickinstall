@@ -6,3 +6,4 @@ rust-bert
 schemafy
 datavzrd
 kani-verifier
+minicbor
