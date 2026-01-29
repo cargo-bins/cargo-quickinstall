@@ -33,3 +33,4 @@ kanidm_tools
 cargo-public-api
 mise
 magika-cli
+tree-sitter-cli
