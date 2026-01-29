@@ -28,3 +28,4 @@ rls-rustc
 process_viewer
 simp
 solana-genesis
+git-disjoint
