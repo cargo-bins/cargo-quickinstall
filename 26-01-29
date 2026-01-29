@@ -26,3 +26,4 @@ mit-pre-commit
 deploy
 rls-rustc
 process_viewer
+simp
