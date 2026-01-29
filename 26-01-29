@@ -12,3 +12,4 @@ xargo
 nextest
 deploy
 git-branchless
+process_viewer
