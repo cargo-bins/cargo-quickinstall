@@ -58,3 +58,4 @@ deploy
 process_viewer
 rls-rustc
 porsmo
+solana-genesis
