@@ -9,3 +9,4 @@ kani-verifier
 minicbor
 rustbus
 tagged-base64
+addr2line
