@@ -60,3 +60,4 @@ xbuild
 rls-rustc
 tgt
 magika-cli
+clipboard-history-tui
