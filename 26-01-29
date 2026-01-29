@@ -13,3 +13,4 @@ addr2line
 xargo
 mit-commit-msg
 mit-pre-commit
+process_viewer
