@@ -12,3 +12,4 @@ mdcat
 dioxus-cli
 xcp
 clipboard-history
+clipboard-history-tui
