@@ -10,3 +10,4 @@ xargo
 deploy
 process_viewer
 rls-rustc
+solana-genesis
