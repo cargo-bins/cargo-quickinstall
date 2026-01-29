@@ -12,3 +12,4 @@ tagged-base64
 addr2line
 xargo
 mit-commit-msg
+mit-pre-commit
