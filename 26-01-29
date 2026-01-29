@@ -12,3 +12,4 @@ git-branchless
 deploy
 process_viewer
 rls-rustc
+solana-genesis
