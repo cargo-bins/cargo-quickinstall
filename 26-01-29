@@ -25,3 +25,4 @@ mit-commit-msg
 mit-pre-commit
 deploy
 rls-rustc
+process_viewer
