@@ -58,3 +58,4 @@ process_viewer
 tgt
 xbuild
 rls-rustc
+tgt
