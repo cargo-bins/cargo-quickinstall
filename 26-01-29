@@ -10,3 +10,4 @@ addr2line
 xargo
 git-branchless
 deploy
+process_viewer
