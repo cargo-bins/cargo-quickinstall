@@ -22,3 +22,4 @@ xargo
 bootstrap
 cargo-dinghy
 mit-commit-msg
+mit-pre-commit
