@@ -20,3 +20,4 @@ bootstrap
 rmpc
 xargo
 bootstrap
+cargo-dinghy
