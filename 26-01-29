@@ -3,3 +3,4 @@ iai-callgrind-runner
 honggfuzz
 dua-cli
 dua-cli
+cargo-generate
