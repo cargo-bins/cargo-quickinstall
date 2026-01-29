@@ -10,3 +10,4 @@ minicbor
 rustbus
 tagged-base64
 addr2line
+xargo
