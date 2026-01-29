@@ -27,3 +27,4 @@ deploy
 rls-rustc
 process_viewer
 simp
+solana-genesis
