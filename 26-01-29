@@ -42,3 +42,4 @@ datavzrd
 hoard-rs
 cargo-unmaintained
 minicbor
+addr2line
