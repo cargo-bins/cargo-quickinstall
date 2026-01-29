@@ -5,3 +5,4 @@ statsig-rs
 solana-keygen
 datavzrd
 minicbor
+addr2line
