@@ -2,3 +2,4 @@ fermium
 stellar-xdr
 iai-callgrind-runner
 cargo-generate
+rust-bert
