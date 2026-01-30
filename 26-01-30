@@ -8,3 +8,4 @@ proof-of-sql
 diesel_cli
 nextest-filtering
 encoderfile
+esp-config
