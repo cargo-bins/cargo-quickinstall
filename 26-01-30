@@ -2,3 +2,4 @@ nextest
 nextest
 miden-crypto
 git-branchless
+diesel_cli
