@@ -9,3 +9,4 @@ diesel_cli
 nextest-filtering
 encoderfile
 esp-config
+encoderfile
