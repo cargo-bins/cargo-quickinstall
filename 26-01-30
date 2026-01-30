@@ -44,3 +44,4 @@ esp-config
 inspector-gguf
 vdev
 xcp
+tlmcmddb-cli
