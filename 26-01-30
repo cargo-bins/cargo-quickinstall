@@ -17,3 +17,4 @@ simp
 rmpc
 rmpc
 proof-of-sql
+diesel_cli
