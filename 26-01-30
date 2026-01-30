@@ -7,3 +7,4 @@ diesel_cli
 proof-of-sql
 diesel_cli
 nextest-filtering
+encoderfile
