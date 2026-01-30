@@ -22,3 +22,4 @@ cargo-leptos
 nextest-filtering
 esp-config
 iroh-relay
+cpp_demangle
