@@ -4,3 +4,4 @@ miden-crypto
 git-branchless
 diesel_cli
 dbus-codegen
+nextest
