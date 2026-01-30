@@ -3,3 +3,4 @@ diesel_cli
 cargo-generate
 git-mit-relates-to
 burn-tch
+proof-of-sql
