@@ -8,3 +8,4 @@ diesel_cli
 tlmcmddb-cli
 xbuild
 dbus-codegen
+cargo-unmaintained
