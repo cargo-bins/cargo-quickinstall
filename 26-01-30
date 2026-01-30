@@ -19,3 +19,4 @@ rmpc
 proof-of-sql
 diesel_cli
 cargo-leptos
+nextest-filtering
