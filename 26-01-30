@@ -8,3 +8,4 @@ cargo-unmaintained
 diesel_cli
 tgt
 songrec
+tlmcmddb-cli
