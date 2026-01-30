@@ -11,3 +11,4 @@ dbus-codegen
 cargo-unmaintained
 diesel_cli
 tmtc-c2a
+cargo-dylint
