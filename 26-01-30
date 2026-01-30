@@ -32,3 +32,4 @@ cargo-unused-features
 inspector-gguf
 yazi-fm
 jj
+nextest-filtering
