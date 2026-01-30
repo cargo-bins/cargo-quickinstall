@@ -33,3 +33,4 @@ yazi-fm
 fcp
 fast-scp
 cargo-unused-features
+nextest-filtering
