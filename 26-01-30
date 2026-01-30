@@ -6,3 +6,4 @@ burn-tch
 proof-of-sql
 cargo-leptos
 nextest-filtering
+av-scenechange
