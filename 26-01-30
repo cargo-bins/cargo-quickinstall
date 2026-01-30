@@ -17,3 +17,4 @@ dioxus-cli
 nextest-filtering
 av-scenechange
 encoderfile
+rust-docs-mcp
