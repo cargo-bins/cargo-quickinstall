@@ -8,3 +8,4 @@ cargo-leptos
 nextest-filtering
 av-scenechange
 esp-config
+iroh-relay
