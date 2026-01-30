@@ -21,3 +21,4 @@ diesel_cli
 cargo-leptos
 nextest-filtering
 esp-config
+iroh-relay
