@@ -17,3 +17,4 @@ tokio-process
 honggfuzz
 pandora_box
 rustfmt
+burn-tch
