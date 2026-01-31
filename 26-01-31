@@ -27,3 +27,4 @@ slint-lsp
 slint-lsp
 controller
 human_bytes
+dotenv-flow
