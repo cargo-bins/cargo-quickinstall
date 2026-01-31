@@ -14,3 +14,4 @@ cached-path
 benfred-read-process-memory
 av-scenechange
 tokio-process
+honggfuzz
