@@ -28,3 +28,4 @@ slint-lsp
 controller
 human_bytes
 dotenv-flow
+deno
