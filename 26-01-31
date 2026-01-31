@@ -7,3 +7,4 @@ cargo-tag
 dioxus-cli
 cargo-tag
 lance
+human_bytes
