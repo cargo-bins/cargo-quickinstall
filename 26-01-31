@@ -16,3 +16,4 @@ av-scenechange
 tokio-process
 honggfuzz
 pandora_box
+rustfmt
