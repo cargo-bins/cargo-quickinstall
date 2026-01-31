@@ -20,3 +20,4 @@ rustfmt
 burn-tch
 re_query
 perfcnt
+ec2_instance_metadata
