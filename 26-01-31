@@ -10,3 +10,4 @@ cargo-generate
 lance
 human_bytes
 holochain
+cached-path
