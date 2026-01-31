@@ -7,3 +7,4 @@ dioxus-cli
 lance
 human_bytes
 solana-tokens
+opencv-binding-generator
