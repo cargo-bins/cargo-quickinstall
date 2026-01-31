@@ -11,3 +11,4 @@ opencv-binding-generator
 holochain
 cached-path
 a11ywatch_cli
+tree-sitter-cli
