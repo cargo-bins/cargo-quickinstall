@@ -3,3 +3,4 @@ addr2line
 ripdrag
 wiremix
 cargo-unused-features
+ducc-sys
