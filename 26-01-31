@@ -8,3 +8,4 @@ xargo
 diesel_cli
 vdev
 cargo-unused-features
+xcp
