@@ -16,3 +16,4 @@ cargo-unused-features
 skim
 binwalk
 tree_magic
+wiremix
