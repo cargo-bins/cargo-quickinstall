@@ -3,3 +3,4 @@ deno
 rls-rustc
 arrow-flight
 cargo-lock
+nexmark
