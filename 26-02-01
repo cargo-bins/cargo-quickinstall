@@ -8,3 +8,4 @@ git-disjoint
 nextest
 nextest
 sha1collisiondetection
+cargo-dylint
