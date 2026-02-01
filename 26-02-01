@@ -4,3 +4,4 @@ cargo-embassy
 cargo-dylint
 deno
 cargo-dylint
+rls-rustc
