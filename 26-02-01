@@ -1,3 +1,4 @@
 deno
 cached-path
 cargo-embassy
+cargo-dylint
