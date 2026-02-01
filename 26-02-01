@@ -30,3 +30,4 @@ superseedr
 rustnet-monitor
 git-disjoint
 c2rust
+sha1collisiondetection
