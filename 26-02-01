@@ -54,3 +54,4 @@ pgrx-tests
 esp-config
 cargo-html
 solana-keygen
+dotenv
