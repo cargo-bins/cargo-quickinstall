@@ -25,3 +25,4 @@ cargo-embassy
 superseedr
 cargo-spellcheck
 superseedr
+cargo-dylint
