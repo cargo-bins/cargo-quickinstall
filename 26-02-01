@@ -19,3 +19,4 @@ stellar-xdr
 git-mit-install
 pgrx-tests
 perfcnt
+dotenv
