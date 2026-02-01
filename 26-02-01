@@ -19,3 +19,4 @@ cargo-spellcheck
 clippy
 superseedr
 foundationdb-gen
+c2rust
