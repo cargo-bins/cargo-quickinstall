@@ -29,3 +29,4 @@ cargo-spellcheck
 superseedr
 rustnet-monitor
 git-disjoint
+c2rust
