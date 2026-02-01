@@ -36,3 +36,4 @@ c2rust
 datavzrd
 cargo-embassy
 solana-gossip
+sha1collisiondetection
