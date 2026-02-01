@@ -43,3 +43,4 @@ sha1collisiondetection
 rustnet-monitor
 minicbor
 solana-stake-accounts
+cargo-html
