@@ -55,3 +55,4 @@ esp-config
 cargo-html
 solana-keygen
 dotenv
+dioxus-cli
