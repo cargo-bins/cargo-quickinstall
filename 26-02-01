@@ -35,3 +35,4 @@ rustnet-monitor
 c2rust
 datavzrd
 cargo-embassy
+solana-gossip
