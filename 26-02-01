@@ -1,2 +1,3 @@
 deno
 rls-rustc
+cargo-lock
