@@ -29,3 +29,4 @@ cargo-dylint
 cargo-spellcheck
 cargo-embassy
 c2rust
+git-disjoint
