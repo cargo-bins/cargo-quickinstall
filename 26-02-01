@@ -8,3 +8,4 @@ nexmark
 git-disjoint
 sha1collisiondetection
 datavzrd
+statsig-rs
