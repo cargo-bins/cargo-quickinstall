@@ -3,3 +3,4 @@ deno
 rls-rustc
 nkeys
 cargo-lock
+foundationdb-gen
