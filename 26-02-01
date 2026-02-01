@@ -31,3 +31,4 @@ cargo-embassy
 c2rust
 git-disjoint
 c2rust
+cargo-spellcheck
