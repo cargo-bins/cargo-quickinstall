@@ -29,3 +29,4 @@ stellar-xdr
 pgrx-tests
 perfcnt
 solana-keygen
+dotenv
