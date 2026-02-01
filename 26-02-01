@@ -20,3 +20,4 @@ rrule
 pgrx-tests
 perfcnt
 solana-keygen
+dotenv
