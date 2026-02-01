@@ -25,3 +25,4 @@ cargo-embassy
 superseedr
 rustnet-monitor
 c2rust
+cargo-spellcheck
