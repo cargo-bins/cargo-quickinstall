@@ -2,3 +2,4 @@ cached-path
 deno
 rls-rustc
 nkeys
+cargo-lock
