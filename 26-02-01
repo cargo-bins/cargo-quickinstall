@@ -8,3 +8,4 @@ cargo-lock
 nexmark
 git-disjoint
 sha1collisiondetection
+datavzrd
