@@ -20,3 +20,4 @@ superseedr
 foundationdb-gen
 cargo-dylint
 clippy
+rustnet-monitor
