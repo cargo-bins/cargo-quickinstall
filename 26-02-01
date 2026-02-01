@@ -3,3 +3,4 @@ nkeys
 cargo-lock
 nexmark
 foundationdb-gen
+git-disjoint
