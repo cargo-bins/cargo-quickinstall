@@ -28,3 +28,4 @@ superseedr
 cargo-dylint
 cargo-spellcheck
 cargo-embassy
+c2rust
