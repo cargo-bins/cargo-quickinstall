@@ -12,3 +12,4 @@ cargo-embassy
 arrow-flight
 cargo-lock
 superseedr
+nexmark
