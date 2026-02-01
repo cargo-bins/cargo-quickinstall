@@ -14,3 +14,4 @@ datavzrd
 nextest
 statsig-rs
 cargo-dylint
+solana-gossip
