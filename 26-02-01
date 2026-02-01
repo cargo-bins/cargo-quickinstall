@@ -21,3 +21,4 @@ git-disjoint
 stellar-xdr
 kickstart
 pgrx-tests
+dotenv
