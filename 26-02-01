@@ -9,3 +9,4 @@ cargo-embassy
 superseedr
 cargo-spellcheck
 rustnet-monitor
+clippy
