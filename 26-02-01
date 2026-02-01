@@ -2,3 +2,4 @@ cached-path
 deno
 rls-rustc
 arrow-flight
+cargo-lock
