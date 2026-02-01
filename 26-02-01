@@ -11,3 +11,4 @@ cargo-spellcheck
 rustnet-monitor
 clippy
 nkeys
+c2rust
