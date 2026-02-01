@@ -4,3 +4,4 @@ rls-rustc
 arrow-flight
 cargo-lock
 nexmark
+foundationdb-gen
