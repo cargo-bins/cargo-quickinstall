@@ -13,3 +13,4 @@ solana-gossip
 sha1collisiondetection
 minicbor
 protox
+cached-path
