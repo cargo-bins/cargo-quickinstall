@@ -6,3 +6,4 @@ cargo-lock
 foundationdb-gen
 git-disjoint
 sha1collisiondetection
+statsig-rs
