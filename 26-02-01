@@ -14,3 +14,4 @@ nkeys
 c2rust
 rustnet-monitor
 cargo-spellcheck
+cargo-lock
