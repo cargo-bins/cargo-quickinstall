@@ -9,3 +9,4 @@ rustnet-monitor
 cargo-spellcheck
 cargo-dylint
 cargo-embassy
+arrow-flight
