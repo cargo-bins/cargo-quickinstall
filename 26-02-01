@@ -8,3 +8,4 @@ foundationdb-gen
 kickstart
 kickstart
 git-disjoint
+sha1collisiondetection
