@@ -19,3 +19,4 @@ clippy
 superseedr
 foundationdb-gen
 cargo-dylint
+clippy
