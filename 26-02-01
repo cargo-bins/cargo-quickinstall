@@ -18,3 +18,4 @@ solana-gossip
 cargo-dylint
 sha1collisiondetection
 human_name
+minicbor
