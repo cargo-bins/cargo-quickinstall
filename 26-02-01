@@ -3,3 +3,4 @@ rls-rustc
 cargo-lock
 nexmark
 foundationdb-gen
+nextest
