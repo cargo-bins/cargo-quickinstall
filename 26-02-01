@@ -18,3 +18,4 @@ statsig-rs
 cargo-dylint
 solana-gossip
 cargo-dylint
+sha1collisiondetection
