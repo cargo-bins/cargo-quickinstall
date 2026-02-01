@@ -5,3 +5,4 @@ nkeys
 cargo-mutants
 cargo-lock
 nexmark
+git-disjoint
