@@ -42,3 +42,4 @@ solana-gossip
 sha1collisiondetection
 rustnet-monitor
 minicbor
+solana-stake-accounts
