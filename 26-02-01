@@ -37,3 +37,4 @@ cargo-embassy
 rustnet-monitor
 rustnet-monitor
 datavzrd
+statsig-rs
