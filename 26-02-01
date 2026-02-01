@@ -3,3 +3,4 @@ rls-rustc
 nkeys
 arrow-flight
 cargo-lock
+nextest
