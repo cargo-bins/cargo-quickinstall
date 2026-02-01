@@ -16,3 +16,4 @@ rustnet-monitor
 cargo-spellcheck
 cargo-lock
 cargo-spellcheck
+clippy
