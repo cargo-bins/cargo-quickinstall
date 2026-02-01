@@ -2,3 +2,4 @@ deno
 rls-rustc
 h3o
 nkeys
+cargo-mutants
