@@ -18,3 +18,4 @@ c2rust
 clippy
 superseedr
 foundationdb-gen
+cargo-dylint
