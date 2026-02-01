@@ -2,3 +2,4 @@ deno
 rls-rustc
 nkeys
 arrow-flight
+cargo-lock
