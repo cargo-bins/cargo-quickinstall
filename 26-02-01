@@ -8,3 +8,4 @@ nextest
 git-disjoint
 nextest
 nextest
+cargo-dylint
