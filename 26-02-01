@@ -11,3 +11,4 @@ sha1collisiondetection
 cargo-dylint
 nextest
 datavzrd
+nextest
