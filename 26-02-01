@@ -2,3 +2,4 @@ c2rust
 deno
 rls-rustc
 h3o
+cargo-embassy
