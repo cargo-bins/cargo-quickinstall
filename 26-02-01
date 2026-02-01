@@ -17,3 +17,4 @@ git-disjoint
 stellar-xdr
 pgrx-tests
 perfcnt
+dotenv
