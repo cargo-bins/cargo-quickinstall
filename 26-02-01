@@ -12,3 +12,4 @@ cargo-dylint
 nextest
 datavzrd
 nextest
+statsig-rs
