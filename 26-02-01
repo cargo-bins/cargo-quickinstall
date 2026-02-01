@@ -24,3 +24,4 @@ protox
 cargo-dylint
 libcst
 solana-stake-accounts
+git-disjoint
