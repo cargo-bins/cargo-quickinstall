@@ -10,3 +10,4 @@ cargo-spellcheck
 cargo-dylint
 cargo-embassy
 arrow-flight
+cargo-lock
