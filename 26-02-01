@@ -4,3 +4,4 @@ cargo-lock
 nexmark
 foundationdb-gen
 git-disjoint
+sha1collisiondetection
