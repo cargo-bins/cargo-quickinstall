@@ -40,3 +40,4 @@ datavzrd
 statsig-rs
 solana-gossip
 sha1collisiondetection
+rustnet-monitor
