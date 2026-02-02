@@ -5,3 +5,4 @@ cargo-spellcheck
 tracing-durations-export
 rtx-cli
 libcst
+oso
