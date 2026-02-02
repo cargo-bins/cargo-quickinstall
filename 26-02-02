@@ -11,3 +11,4 @@ esp-config
 sea-orm-cli
 odbc2parquet
 bookokrat
+oso
