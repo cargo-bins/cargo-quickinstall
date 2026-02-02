@@ -4,3 +4,4 @@ tracing-durations-export
 rtx-cli
 libcst
 oso
+process_viewer
