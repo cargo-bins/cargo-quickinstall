@@ -6,3 +6,4 @@ tracing-durations-export
 cargo-dylint
 bookokrat
 esp-config
+odbc2parquet
