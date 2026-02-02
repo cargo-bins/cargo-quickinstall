@@ -2,3 +2,4 @@ quick-junit
 apollo-router
 iroh-relay
 cargo-spellcheck
+tracing-durations-export
