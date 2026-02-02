@@ -7,3 +7,4 @@ cargo-crev
 cargo-crev
 tracing-durations-export
 hotpath
+rtx-cli
