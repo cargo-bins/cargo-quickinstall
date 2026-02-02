@@ -12,3 +12,4 @@ sea-orm-cli
 odbc2parquet
 bookokrat
 oso
+tagged-base64
