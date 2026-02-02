@@ -4,3 +4,4 @@ tracing-durations-export
 rtx-cli
 rustfmt
 libcst
+oso
