@@ -6,3 +6,4 @@ rustfmt
 libcst
 oso
 wallust
+process_viewer
