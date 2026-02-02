@@ -5,3 +5,4 @@ tracing-durations-export
 bookokrat
 bookokrat
 rtx-cli
+sea-orm-cli
