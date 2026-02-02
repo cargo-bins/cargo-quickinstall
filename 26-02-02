@@ -5,3 +5,4 @@ apollo-router
 iroh-relay
 cargo-crev
 cargo-crev
+tracing-durations-export
