@@ -19,3 +19,4 @@ esp-config
 sea-orm-cli
 sea-orm-cli
 rust-bert
+gpgme
