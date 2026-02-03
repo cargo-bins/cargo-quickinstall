@@ -22,3 +22,4 @@ sha1collisiondetection
 textplots
 process_viewer
 valknut-rs
+cargo-graph
