@@ -18,3 +18,4 @@ esp-config
 cargo-vet
 rust-bert
 gpgme
+mit-commit-msg
