@@ -20,3 +20,4 @@ ducc-sys
 tree-sitter-cli
 sha1collisiondetection
 textplots
+process_viewer
