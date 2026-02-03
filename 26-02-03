@@ -14,3 +14,4 @@ tree-sitter-cli
 alacritty
 raw-cpuid
 deepwiki-rs
+cargo-graph
