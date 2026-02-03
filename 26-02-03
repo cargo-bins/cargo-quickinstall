@@ -13,3 +13,4 @@ deepwiki-rs
 raw-cpuid
 binstall
 ducc-sys
+sha1collisiondetection
