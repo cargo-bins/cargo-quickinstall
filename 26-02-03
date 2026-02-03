@@ -2,3 +2,4 @@ graphql_client_cli
 wol-rs
 raw-cpuid
 ducc-sys
+sha1collisiondetection
