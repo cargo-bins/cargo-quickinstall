@@ -7,3 +7,4 @@ cargo-public-api
 graphql_client_cli
 deepwiki-rs
 dioxus-cli
+nextest
