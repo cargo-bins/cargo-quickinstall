@@ -11,3 +11,4 @@ ducc-sys
 sha1collisiondetection
 textplots
 wmi
+rustup-toolchain-install-master
