@@ -12,3 +12,4 @@ sha1collisiondetection
 process_viewer
 wmi
 website_crawler
+sea-orm-cli
