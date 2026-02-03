@@ -7,3 +7,4 @@ sha1collisiondetection
 textplots
 process_viewer
 winpty-rs
+diesel_cli
