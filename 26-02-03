@@ -4,3 +4,4 @@ deepwiki-rs
 deno
 sea-orm-cli
 cargo-public-api
+graphql_client_cli
