@@ -26,3 +26,4 @@ nextest
 eitype
 kanidm_tools
 website_crawler
+cargo-graph
