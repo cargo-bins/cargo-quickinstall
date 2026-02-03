@@ -26,3 +26,4 @@ cargo-graph
 valknut-rs
 wmi
 mise
+nextest
