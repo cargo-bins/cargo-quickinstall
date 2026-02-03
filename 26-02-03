@@ -16,3 +16,4 @@ cargo-leptos
 benfred-read-process-memory
 esp-config
 cargo-vet
+rust-bert
