@@ -11,3 +11,4 @@ wmi
 website_crawler
 esp-config
 rust-bert
+gpgme
