@@ -5,3 +5,4 @@ sha1collisiondetection
 process_viewer
 winpty-rs
 wmi
+soroban-env-host
