@@ -8,3 +8,4 @@ tree-sitter-cli
 graphql_client_cli
 kanidm_tools
 deepwiki-rs
+wol-rs
