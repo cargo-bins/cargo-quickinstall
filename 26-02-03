@@ -7,3 +7,4 @@ process_viewer
 cargo-risczero
 zellij
 winpty-rs
+bpf-linker
