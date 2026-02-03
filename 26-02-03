@@ -21,3 +21,4 @@ valknut-rs
 valknut-rs
 wmi
 diesel_cli
+cargo-graph
