@@ -9,3 +9,4 @@ process_viewer
 winpty-rs
 diesel_cli
 wmi
+website_crawler
