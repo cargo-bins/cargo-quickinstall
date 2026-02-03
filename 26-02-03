@@ -2,3 +2,4 @@ graphql_client_cli
 foundationdb-gen
 raw-cpuid
 ducc-sys
+sha1collisiondetection
