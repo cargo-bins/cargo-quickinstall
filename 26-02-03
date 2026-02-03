@@ -8,3 +8,4 @@ graphql_client_cli
 deepwiki-rs
 dioxus-cli
 nextest
+sea-orm-cli
