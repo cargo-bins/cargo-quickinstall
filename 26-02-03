@@ -8,3 +8,4 @@ diesel_cli
 rm-improved
 jolt-tui
 rm-improved
+foundationdb-gen
