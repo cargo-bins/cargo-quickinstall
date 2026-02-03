@@ -5,3 +5,4 @@ nextest
 porsmo
 odbc2parquet
 tree-sitter-cli
+graphql_client_cli
