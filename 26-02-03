@@ -9,3 +9,4 @@ soroban-env-host
 diesel_cli
 website_crawler
 esp-config
+gpgme
