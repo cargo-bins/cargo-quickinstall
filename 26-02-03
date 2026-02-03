@@ -10,3 +10,4 @@ dioxus-cli
 nextest
 sea-orm-cli
 wol-rs
+tree-sitter-cli
