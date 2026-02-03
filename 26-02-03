@@ -17,3 +17,4 @@ deepwiki-rs
 cargo-graph
 binstall
 ducc-sys
+tree-sitter-cli
