@@ -34,3 +34,4 @@ cargo-graph
 binstall
 jj
 mise
+dx-cli
