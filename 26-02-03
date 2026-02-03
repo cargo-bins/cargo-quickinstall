@@ -7,3 +7,4 @@ odbc2parquet
 tree-sitter-cli
 graphql_client_cli
 kanidm_tools
+deepwiki-rs
