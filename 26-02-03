@@ -27,3 +27,4 @@ valknut-rs
 wmi
 mise
 nextest
+cargo-script
