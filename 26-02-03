@@ -12,3 +12,4 @@ sea-orm-cli
 wol-rs
 tree-sitter-cli
 alacritty
+raw-cpuid
