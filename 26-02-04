@@ -35,3 +35,4 @@ commit_verify
 cargo-bitbake
 rg
 rsworktree
+httpmock
