@@ -34,3 +34,4 @@ hurl
 commit_verify
 cargo-bitbake
 rg
+rsworktree
