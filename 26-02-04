@@ -32,3 +32,4 @@ fum-player
 rsworktree
 hurl
 commit_verify
+cargo-bitbake
