@@ -5,3 +5,4 @@ commit_verify
 sn_node_rpc_client
 rustrict
 addr2line
+process_viewer
