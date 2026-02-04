@@ -16,3 +16,4 @@ rustrict
 hurl
 cargo-script
 process_viewer
+sea-orm-cli
