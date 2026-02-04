@@ -8,3 +8,4 @@ addr2line
 process_viewer
 crypto-cli-tools
 cargo-leptos
+rustbus
