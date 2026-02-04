@@ -8,3 +8,4 @@ addr2line
 crypto-cli-tools
 nextest
 cargo-lock
+rustbus
