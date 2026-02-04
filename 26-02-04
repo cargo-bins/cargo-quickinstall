@@ -46,3 +46,4 @@ vdev
 glim-tui
 slint-lsp
 ranger
+cargo-smart-release
