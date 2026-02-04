@@ -14,3 +14,4 @@ cargo-public-api
 commit_verify
 rustrict
 hurl
+cargo-script
