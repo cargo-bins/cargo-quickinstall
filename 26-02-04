@@ -38,3 +38,4 @@ rsworktree
 httpmock
 slint-lsp
 skim
+cargo-public-api
