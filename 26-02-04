@@ -18,3 +18,4 @@ cargo-script
 process_viewer
 sea-orm-cli
 eitype
+crypto-cli-tools
