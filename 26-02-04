@@ -6,3 +6,4 @@ nu_plugin_gstat
 commit_verify
 solana-cli
 ruff
+rustrict
