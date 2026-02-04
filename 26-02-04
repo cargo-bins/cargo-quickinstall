@@ -10,3 +10,4 @@ nextest
 cargo-lock
 rustbus
 dua-cli
+lightningcss_rs
