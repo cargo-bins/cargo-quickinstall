@@ -3,3 +3,4 @@ commit_verify
 solana-cli
 rustrict
 quick-junit
+process_viewer
