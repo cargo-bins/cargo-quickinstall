@@ -34,3 +34,4 @@ tree-sitter-cli
 tree-sitter-cli
 racer
 commit_verify
+cargo-public-api
