@@ -10,3 +10,4 @@ commit_verify
 solana-cli
 rustrict
 fum-player
+process_viewer
