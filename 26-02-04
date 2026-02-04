@@ -12,3 +12,4 @@ valknut-rs
 tree-sitter-cli
 cargo-public-api
 commit_verify
+rustrict
