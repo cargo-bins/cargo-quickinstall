@@ -7,3 +7,4 @@ commit_verify
 solana-cli
 ruff
 rustrict
+jj
