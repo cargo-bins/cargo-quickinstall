@@ -2,3 +2,4 @@ iai-callgrind-runner
 tagged-base64
 text-diff
 commit_verify
+sn_node_rpc_client
