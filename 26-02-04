@@ -9,3 +9,4 @@ crypto-cli-tools
 nextest
 cargo-lock
 rustbus
+dua-cli
