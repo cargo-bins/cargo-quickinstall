@@ -14,3 +14,4 @@ process_viewer
 mdcat
 sea-orm-cli
 crypto-cli-tools
+cargo-bitbake
