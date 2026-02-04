@@ -5,3 +5,4 @@ rustrict
 cargo-generate
 process_viewer
 addr2line
+crypto-cli-tools
