@@ -36,3 +36,4 @@ cargo-bitbake
 rg
 rsworktree
 httpmock
+slint-lsp
