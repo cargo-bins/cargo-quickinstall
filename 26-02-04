@@ -15,3 +15,4 @@ commit_verify
 rustrict
 hurl
 cargo-script
+process_viewer
