@@ -6,3 +6,4 @@ dua-cli
 valknut-rs
 dua-cli
 dbus-codegen
+tracing-durations-export
