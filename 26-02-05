@@ -26,3 +26,4 @@ r3bl_tuify
 simp
 glim-tui
 cargo-info
+cargo-check-deadlock
