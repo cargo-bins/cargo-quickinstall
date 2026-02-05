@@ -65,3 +65,4 @@ nu_plugin_query
 makepad
 librespot
 cargo-info
+nu_plugin_gstat
