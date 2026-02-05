@@ -30,3 +30,4 @@ cargo-check-deadlock
 paru
 qmassa
 rg
+cargo-check-deadlock
