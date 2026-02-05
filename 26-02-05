@@ -42,3 +42,4 @@ solana-tokens
 diesel_cli
 qmassa
 graphql_client_cli
+comet
