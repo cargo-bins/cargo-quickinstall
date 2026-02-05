@@ -6,3 +6,4 @@ dbus-codegen
 tracing-durations-export
 r3bl_tuify
 rls-rustc
+solana-tokens
