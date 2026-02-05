@@ -49,3 +49,4 @@ cargo-check-deadlock
 uhyve
 bun
 spider_worker
+uhyve
