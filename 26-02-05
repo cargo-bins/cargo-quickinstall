@@ -31,3 +31,4 @@ cargo-check-deadlock
 oxdraw
 glim-tui
 rsworktree
+virtiofsd
