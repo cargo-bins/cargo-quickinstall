@@ -7,3 +7,4 @@ sn_node_rpc_client
 sass-rs
 papyrus_storage
 ec2_instance_metadata
+solana-genesis
