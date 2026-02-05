@@ -16,3 +16,4 @@ paru
 cargo-info
 bun
 glim-tui
+tracing-durations-export
