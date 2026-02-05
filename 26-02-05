@@ -2,3 +2,4 @@ ranger
 rg
 cargo-smart-release
 rsworktree
+cargo-dylint
