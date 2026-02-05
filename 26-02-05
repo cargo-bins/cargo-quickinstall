@@ -29,3 +29,4 @@ cargo-info
 cargo-check-deadlock
 paru
 qmassa
+rg
