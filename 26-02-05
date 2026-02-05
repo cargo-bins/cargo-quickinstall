@@ -4,3 +4,4 @@ cargo-smart-release
 rsworktree
 cargo-dylint
 r3bl_tuify
+tree-sitter-cli
