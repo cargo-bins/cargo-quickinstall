@@ -31,3 +31,4 @@ paru
 qmassa
 rg
 cargo-check-deadlock
+slint-lsp
