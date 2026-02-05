@@ -3,3 +3,4 @@ r3bl_tuify
 dbus-codegen
 tracing-durations-export
 r3bl_tuify
+sn_node_rpc_client
