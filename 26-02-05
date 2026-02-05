@@ -11,3 +11,4 @@ tree_magic
 oxdraw
 slint-lsp
 cargo-smart-release
+dbus-codegen
