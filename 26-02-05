@@ -57,3 +57,4 @@ cargo-public-api
 bun
 simp
 vdev
+cargo-check-deadlock
