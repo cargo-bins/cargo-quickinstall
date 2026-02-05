@@ -48,3 +48,4 @@ slint-viewer
 cargo-check-deadlock
 uhyve
 bun
+spider_worker
