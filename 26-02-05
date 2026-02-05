@@ -2,3 +2,4 @@ wol-rs
 release-plz
 r3bl_tuify
 cargo-spellcheck
+dbus-codegen
