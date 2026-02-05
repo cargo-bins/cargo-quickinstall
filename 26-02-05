@@ -13,3 +13,4 @@ slint-lsp
 cargo-smart-release
 dbus-codegen
 paru
+cargo-info
