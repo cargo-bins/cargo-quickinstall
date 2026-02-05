@@ -47,3 +47,4 @@ oxdraw
 slint-viewer
 cargo-check-deadlock
 uhyve
+bun
