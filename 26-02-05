@@ -3,3 +3,4 @@ tree_magic
 diesel_cli
 diesel_cli
 dbus-codegen
+tracing-durations-export
