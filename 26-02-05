@@ -36,3 +36,4 @@ cargo-check-deadlock
 bun
 rls-rustc
 solana-tokens
+graphql_client_cli
