@@ -35,3 +35,4 @@ slint-lsp
 cargo-check-deadlock
 bun
 rls-rustc
+solana-tokens
