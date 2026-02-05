@@ -3,3 +3,4 @@ cargo-spellcheck
 dbus-codegen
 tracing-durations-export
 librespot
+jless
