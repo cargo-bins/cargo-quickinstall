@@ -5,3 +5,4 @@ diesel_cli
 dbus-codegen
 tracing-durations-export
 r3bl_tuify
+rls-rustc
