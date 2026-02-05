@@ -34,3 +34,4 @@ cargo-check-deadlock
 slint-lsp
 cargo-check-deadlock
 bun
+rls-rustc
