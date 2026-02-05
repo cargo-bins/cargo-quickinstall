@@ -32,3 +32,4 @@ qmassa
 rg
 cargo-check-deadlock
 slint-lsp
+cargo-check-deadlock
