@@ -17,3 +17,4 @@ bun
 dbus-codegen
 dioxus-cli
 simp
+tracing-durations-export
