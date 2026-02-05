@@ -60,3 +60,4 @@ vdev
 cargo-check-deadlock
 nu_plugin_gstat
 librespot
+sass-rs
