@@ -30,3 +30,4 @@ pwasm-utils
 charset-normalizer-rs
 charset-normalizer-rs
 clippy
+socketcan
