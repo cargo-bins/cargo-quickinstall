@@ -46,3 +46,4 @@ cargo-add
 pwasm-utils
 neovide
 clippy
+cargo-add
