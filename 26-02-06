@@ -21,3 +21,4 @@ rust-bert
 xargo
 cpx
 pwasm-utils
+clippy
