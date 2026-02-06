@@ -16,3 +16,4 @@ diesel_cli
 feroxbuster
 diesel_cli
 racer
+rustfmt-nightly
