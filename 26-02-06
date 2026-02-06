@@ -9,3 +9,4 @@ rust-bert
 xargo
 pwasm-utils
 clippy
+socketcan
