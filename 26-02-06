@@ -5,3 +5,4 @@ dbus-codegen
 diesel_cli
 cpx
 tree_magic
+unic-langid-impl
