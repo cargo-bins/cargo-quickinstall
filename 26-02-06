@@ -11,3 +11,4 @@ diesel_cli
 rsgen-avro
 project_init
 git-disjoint
+pwasm-utils
