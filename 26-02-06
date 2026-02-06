@@ -9,3 +9,4 @@ bluetui
 git-disjoint
 pwasm-utils
 racer
+rustfmt-nightly
