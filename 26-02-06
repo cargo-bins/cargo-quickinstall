@@ -11,3 +11,4 @@ sha1collisiondetection
 cargo-check-deadlock
 librespot
 vdev
+tree_magic
