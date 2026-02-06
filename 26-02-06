@@ -8,3 +8,4 @@ diesel_cli
 librespot
 cargo-check-deadlock
 sha1collisiondetection
+cargo-check-deadlock
