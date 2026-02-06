@@ -43,3 +43,4 @@ solana-validator
 gg-cli
 rg
 cargo-add
+pwasm-utils
