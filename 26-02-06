@@ -27,3 +27,4 @@ mit-pre-commit
 feroxbuster
 solana-validator
 pwasm-utils
+charset-normalizer-rs
