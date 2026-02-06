@@ -6,3 +6,4 @@ cargo-dylint
 nu_plugin_query
 diesel_cli
 librespot
+cargo-check-deadlock
