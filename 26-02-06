@@ -45,3 +45,4 @@ rg
 cargo-add
 pwasm-utils
 neovide
+clippy
