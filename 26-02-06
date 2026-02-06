@@ -12,3 +12,4 @@ git-disjoint
 pwasm-utils
 racer
 rustfmt-nightly
+encoderfile
