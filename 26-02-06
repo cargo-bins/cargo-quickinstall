@@ -19,3 +19,4 @@ nu_plugin_gstat
 neovide
 slint-lsp
 diesel_cli
+git-disjoint
