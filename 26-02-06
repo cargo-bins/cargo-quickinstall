@@ -33,3 +33,4 @@ neovide
 rg
 cargo-add
 cargo-add
+rust-bert
