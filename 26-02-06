@@ -5,3 +5,4 @@ dbus-codegen
 diesel_cli
 diesel_cli
 coldsnap
+tree_magic
