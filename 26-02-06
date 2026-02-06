@@ -22,3 +22,4 @@ xargo
 cpx
 pwasm-utils
 clippy
+encoderfile
