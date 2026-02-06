@@ -8,3 +8,4 @@ racer
 rust-bert
 xargo
 pwasm-utils
+clippy
