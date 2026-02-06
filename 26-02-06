@@ -4,3 +4,4 @@ cargo-check-deadlock
 cargo-info
 virtiofsd
 nu_plugin_query
+makepad-studio
