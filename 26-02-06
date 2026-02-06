@@ -6,3 +6,4 @@ pwasm-utils
 racer
 rustfmt-nightly
 rust-bert
+xargo
