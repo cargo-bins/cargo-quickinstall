@@ -13,3 +13,4 @@ rustfmt-nightly
 rust-bert
 xargo
 solana-validator
+pwasm-utils
