@@ -13,3 +13,4 @@ pwasm-utils
 racer
 rustfmt-nightly
 encoderfile
+cpx
