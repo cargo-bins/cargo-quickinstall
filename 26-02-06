@@ -47,3 +47,4 @@ pwasm-utils
 neovide
 clippy
 cargo-add
+socketcan
