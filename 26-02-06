@@ -21,3 +21,4 @@ slint-lsp
 diesel_cli
 git-disjoint
 pwasm-utils
+bluetui
