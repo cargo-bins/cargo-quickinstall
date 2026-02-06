@@ -14,3 +14,4 @@ git-mit-install
 mit-pre-commit
 solana-validator
 pwasm-utils
+clippy
