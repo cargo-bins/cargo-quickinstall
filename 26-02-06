@@ -4,3 +4,4 @@ alacritty
 nu_plugin_query
 cargo-dylint
 nu_plugin_query
+diesel_cli
