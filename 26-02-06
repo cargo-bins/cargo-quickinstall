@@ -10,3 +10,4 @@ git-disjoint
 pwasm-utils
 racer
 rustfmt-nightly
+rust-bert
