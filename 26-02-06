@@ -4,3 +4,4 @@ unic-langid-impl
 project_init
 git-disjoint
 pwasm-utils
+racer
