@@ -26,3 +26,4 @@ git-mit-install
 mit-pre-commit
 feroxbuster
 solana-validator
+pwasm-utils
