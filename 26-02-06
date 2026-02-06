@@ -12,3 +12,4 @@ racer
 rustfmt-nightly
 rust-bert
 xargo
+solana-validator
