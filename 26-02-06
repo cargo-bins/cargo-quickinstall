@@ -6,3 +6,4 @@ git-disjoint
 pwasm-utils
 racer
 rust-bert
+xargo
