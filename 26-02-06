@@ -2,3 +2,4 @@ honggfuzz
 sha1collisiondetection
 zellij
 dbus-codegen
+diesel_cli
