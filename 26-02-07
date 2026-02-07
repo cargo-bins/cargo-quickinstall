@@ -16,3 +16,4 @@ process_viewer
 cargo-lock
 paperclip
 honggfuzz
+gpgme
