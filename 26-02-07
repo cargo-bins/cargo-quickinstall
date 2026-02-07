@@ -7,3 +7,4 @@ clap-stdin
 crypto-cli-tools
 sea-orm-cli
 burn-tch
+tendermint-abci
