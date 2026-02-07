@@ -36,3 +36,4 @@ cargo-lock
 controller
 netavark
 paperclip
+wiki-tui
