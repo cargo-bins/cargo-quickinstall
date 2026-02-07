@@ -13,3 +13,4 @@ tendermint-abci
 zellij
 cpp_demangle
 process_viewer
+interprocess
