@@ -10,3 +10,4 @@ cpp_demangle
 process_viewer
 rrule
 cargo-lock
+controller
