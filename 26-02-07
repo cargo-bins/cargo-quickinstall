@@ -8,3 +8,4 @@ clap-stdin
 project_init
 burn-tch
 openpty
+tendermint-abci
