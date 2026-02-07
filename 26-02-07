@@ -13,3 +13,4 @@ cargo-lock
 controller
 paperclip
 burn-tch
+git-disjoint
