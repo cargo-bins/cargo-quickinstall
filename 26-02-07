@@ -9,3 +9,4 @@ project_init
 burn-tch
 tendermint-abci
 zellij
+cpp_demangle
