@@ -14,3 +14,4 @@ process_viewer
 cargo-lock
 paperclip
 ec2_instance_metadata
+burn-tch
