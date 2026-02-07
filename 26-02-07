@@ -10,3 +10,4 @@ project_init
 sea-orm-cli
 burn-tch
 tendermint-abci
+zellij
