@@ -9,3 +9,4 @@ clap-stdin
 dua-cli
 crypto-cli-tools
 project_init
+tendermint-abci
