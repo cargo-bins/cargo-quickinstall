@@ -16,3 +16,4 @@ cargo-add
 neovide
 vdev
 burn-tch
+tendermint-abci
