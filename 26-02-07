@@ -10,3 +10,4 @@ burn-tch
 openpty
 tendermint-abci
 cpp_demangle
+subkey
