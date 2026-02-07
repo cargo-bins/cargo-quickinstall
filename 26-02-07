@@ -6,3 +6,4 @@ cargo-add
 av-scenechange
 neovide
 ext-sort
+foundationdb-gen
