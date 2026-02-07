@@ -11,3 +11,4 @@ rrule
 cargo-lock
 paperclip
 subkey
+git-disjoint
