@@ -11,3 +11,4 @@ process_viewer
 rrule
 cargo-lock
 controller
+paperclip
