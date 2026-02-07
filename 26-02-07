@@ -7,3 +7,4 @@ crypto-cli-tools
 burn-tch
 tendermint-abci
 cpp_demangle
+process_viewer
