@@ -6,3 +6,4 @@ ext-sort
 bluetui
 tree-sitter-cli
 foundationdb-gen
+cargo-spellcheck
