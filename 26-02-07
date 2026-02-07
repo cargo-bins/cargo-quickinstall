@@ -16,3 +16,4 @@ process_viewer
 interprocess
 rrule
 cargo-lock
+paperclip
