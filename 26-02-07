@@ -6,3 +6,4 @@ clap-stdin
 crypto-cli-tools
 burn-tch
 tendermint-abci
+cpp_demangle
