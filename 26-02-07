@@ -47,3 +47,4 @@ diesel_cli
 cargo-hot
 cargo-hot
 git-disjoint
+wiki-tui
