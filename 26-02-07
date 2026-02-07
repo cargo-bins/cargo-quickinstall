@@ -20,3 +20,4 @@ tendermint-abci
 puffin_viewer
 neovide
 alacritty
+cpp_demangle
