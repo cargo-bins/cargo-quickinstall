@@ -9,3 +9,4 @@ project_init
 burn-tch
 openpty
 tendermint-abci
+cpp_demangle
