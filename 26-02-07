@@ -8,3 +8,4 @@ tree-sitter-cli
 foundationdb-gen
 cargo-spellcheck
 cargo-hot
+bluetui
