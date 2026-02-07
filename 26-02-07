@@ -6,3 +6,4 @@ ext-sort
 foundationdb-gen
 clap-stdin
 crypto-cli-tools
+project_init
