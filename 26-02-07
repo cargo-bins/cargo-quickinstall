@@ -12,3 +12,4 @@ cargo-lock
 paperclip
 subkey
 git-disjoint
+gpgme
