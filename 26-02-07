@@ -15,3 +15,4 @@ interprocess
 rrule
 cargo-lock
 controller
+paperclip
