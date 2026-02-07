@@ -11,3 +11,4 @@ sea-orm-cli
 burn-tch
 tendermint-abci
 zellij
+cpp_demangle
