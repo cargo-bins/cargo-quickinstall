@@ -10,3 +10,4 @@ foundationdb-gen
 gg-cli
 cargo-hot
 xcp
+c2rust
