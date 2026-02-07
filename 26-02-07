@@ -15,3 +15,4 @@ cpp_demangle
 process_viewer
 interprocess
 rrule
+cargo-lock
