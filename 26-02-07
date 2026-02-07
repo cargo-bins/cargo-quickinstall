@@ -33,3 +33,4 @@ process_viewer
 wiki-tui
 jj
 cargo-lock
+controller
