@@ -5,3 +5,4 @@ foundationdb-gen
 clap-stdin
 crypto-cli-tools
 burn-tch
+tendermint-abci
