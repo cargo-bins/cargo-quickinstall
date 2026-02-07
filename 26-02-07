@@ -5,3 +5,4 @@ foundationdb-gen
 clap-stdin
 tendermint-abci
 cpp_demangle
+subkey
