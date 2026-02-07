@@ -9,3 +9,4 @@ tendermint-abci
 cpp_demangle
 process_viewer
 rrule
+cargo-lock
