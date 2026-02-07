@@ -11,3 +11,4 @@ crypto-cli-tools
 project_init
 tendermint-abci
 zellij
+cpp_demangle
