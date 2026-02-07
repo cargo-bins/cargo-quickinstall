@@ -7,3 +7,4 @@ clap-stdin
 crypto-cli-tools
 project_init
 burn-tch
+tendermint-abci
