@@ -3,3 +3,4 @@ xargo
 av-scenechange
 ext-sort
 foundationdb-gen
+clap-stdin
