@@ -52,3 +52,4 @@ gpgme
 https
 netavark
 spotify-tui
+wayland-pipewire-idle-inhibit
