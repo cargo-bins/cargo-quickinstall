@@ -6,3 +6,4 @@ foundationdb-gen
 clap-stdin
 crypto-cli-tools
 sea-orm-cli
+burn-tch
