@@ -11,3 +11,4 @@ openpty
 tendermint-abci
 cpp_demangle
 subkey
+process_viewer
