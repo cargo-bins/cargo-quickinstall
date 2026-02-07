@@ -7,3 +7,4 @@ foundationdb-gen
 clap-stdin
 crypto-cli-tools
 project_init
+sea-orm-cli
