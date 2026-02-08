@@ -12,3 +12,4 @@ solana-gossip
 cargo-dylint
 clippy
 cargo-dylint
+pgrx-tests
