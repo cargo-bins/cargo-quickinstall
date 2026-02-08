@@ -12,3 +12,4 @@ dioxus-cli
 clippy
 dioxus-cli
 foundationdb-gen
+pgrx-tests
