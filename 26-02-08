@@ -16,3 +16,4 @@ ext-sort
 clippy
 solana-genesis
 rust-bert
+nominal-api
