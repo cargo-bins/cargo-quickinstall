@@ -7,3 +7,4 @@ solana-gossip
 clippy
 foundationdb-gen
 ext-sort
+tracing-durations-export
