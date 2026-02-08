@@ -6,3 +6,4 @@ https
 quick-junit
 cargo-dylint
 dotenvy
+wayland-pipewire-idle-inhibit
