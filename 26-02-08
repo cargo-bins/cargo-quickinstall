@@ -2,3 +2,4 @@ nkeys
 borsh
 sqlx-cli
 quick-junit
+sqlx-cli
