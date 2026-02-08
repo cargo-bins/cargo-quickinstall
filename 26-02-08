@@ -43,3 +43,4 @@ pgrx-tests
 cargo-dylint
 wiremix
 wayland-pipewire-idle-inhibit
+cargo-dylint
