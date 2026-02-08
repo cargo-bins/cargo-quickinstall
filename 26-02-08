@@ -6,3 +6,4 @@ iroh-gossip
 solana-gossip
 clippy
 foundationdb-gen
+ext-sort
