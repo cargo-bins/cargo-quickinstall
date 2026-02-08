@@ -5,3 +5,4 @@ netavark
 https
 quick-junit
 cargo-dylint
+dotenvy
