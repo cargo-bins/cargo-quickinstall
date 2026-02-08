@@ -2,3 +2,4 @@ nkeys
 diesel_cli
 borsh
 quick-junit
+iroh-gossip
