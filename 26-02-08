@@ -4,3 +4,4 @@ wayland-pipewire-idle-inhibit
 netavark
 https
 quick-junit
+cargo-dylint
