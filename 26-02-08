@@ -8,3 +8,4 @@ cargo-dylint
 dotenvy
 wayland-pipewire-idle-inhibit
 wayshot
+c2rust
