@@ -44,3 +44,4 @@ cargo-dylint
 wiremix
 wayland-pipewire-idle-inhibit
 cargo-dylint
+clippy
