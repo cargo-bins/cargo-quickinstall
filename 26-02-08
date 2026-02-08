@@ -52,3 +52,4 @@ nextest
 wayshot
 smgrep
 wiremix
+wayland-pipewire-idle-inhibit
