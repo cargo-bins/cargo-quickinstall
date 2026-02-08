@@ -13,3 +13,4 @@ moshi-server
 nextest
 cargo-dylint
 clippy
+moshi-server
