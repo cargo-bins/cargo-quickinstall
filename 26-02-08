@@ -12,3 +12,4 @@ c2rust
 moshi-server
 nextest
 cargo-dylint
+clippy
