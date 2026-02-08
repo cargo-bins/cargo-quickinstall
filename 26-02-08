@@ -7,3 +7,4 @@ cargo-dylint
 solana-gossip
 cargo-dylint
 cargo-dylint
+clippy
