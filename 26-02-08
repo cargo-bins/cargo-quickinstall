@@ -6,3 +6,4 @@ dotenvy
 solana-gossip
 clippy
 foundationdb-gen
+ec2_instance_metadata
