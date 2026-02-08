@@ -15,3 +15,4 @@ foundationdb-gen
 ext-sort
 clippy
 solana-genesis
+rust-bert
