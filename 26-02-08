@@ -16,3 +16,4 @@ clippy
 moshi-server
 solana-gossip
 wiremix
+nextest
