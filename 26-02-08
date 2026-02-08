@@ -13,3 +13,4 @@ cargo-dylint
 solana-gossip
 foundationdb-gen
 ext-sort
+clippy
