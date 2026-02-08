@@ -4,3 +4,4 @@ nkeys
 diesel_cli
 binstall
 gumbo
+borsh
