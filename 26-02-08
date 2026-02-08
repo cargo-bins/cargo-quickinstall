@@ -13,3 +13,4 @@ mit-prepare-commit-msg
 sn_cli
 ec2_instance_metadata
 tokio-process
+solana-genesis
