@@ -13,3 +13,4 @@ cargo-dylint
 clippy
 cargo-dylint
 pgrx-tests
+clippy
