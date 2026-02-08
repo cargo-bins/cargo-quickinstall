@@ -8,3 +8,4 @@ clippy
 foundationdb-gen
 ext-sort
 tracing-durations-export
+clippy
