@@ -8,3 +8,4 @@ borsh
 diesel_cli
 quick-junit
 ripdrag
+smgrep
