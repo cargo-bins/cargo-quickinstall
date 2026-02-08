@@ -10,3 +10,4 @@ laminar
 cargo-dylint
 solana-gossip
 cargo-dylint
+clippy
