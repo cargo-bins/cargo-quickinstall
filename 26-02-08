@@ -42,3 +42,4 @@ moshi-server
 pgrx-tests
 cargo-dylint
 wiremix
+wayland-pipewire-idle-inhibit
