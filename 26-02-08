@@ -5,3 +5,4 @@ diesel_cli
 binstall
 gumbo
 borsh
+diesel_cli
