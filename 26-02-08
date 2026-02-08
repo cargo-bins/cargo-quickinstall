@@ -11,3 +11,4 @@ clippy
 r3bl_tuify
 mit-prepare-commit-msg
 sn_cli
+ec2_instance_metadata
