@@ -11,3 +11,4 @@ clippy
 cargo-dylint
 cargo-dylint
 solana-gossip
+foundationdb-gen
