@@ -18,3 +18,4 @@ spotify-tui
 wayland-pipewire-idle-inhibit
 smgrep
 wayshot
+cargo-dylint
