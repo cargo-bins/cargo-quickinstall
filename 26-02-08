@@ -46,3 +46,4 @@ wayland-pipewire-idle-inhibit
 cargo-dylint
 clippy
 wiremix
+spider_worker
