@@ -15,3 +15,4 @@ cargo-dylint
 pgrx-tests
 clippy
 r3bl_tuify
+iroh-relay
