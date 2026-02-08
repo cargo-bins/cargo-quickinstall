@@ -7,3 +7,4 @@ clippy
 solana-gossip
 foundationdb-gen
 ext-sort
+pgrx-tests
