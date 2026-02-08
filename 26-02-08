@@ -28,3 +28,4 @@ clippy
 spotify-tui
 oxipng
 nextest
+cargo-dylint
