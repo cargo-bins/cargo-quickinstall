@@ -12,3 +12,4 @@ cargo-embed
 localgpt
 proof-of-sql
 cpp_demangle
+solana-faucet
