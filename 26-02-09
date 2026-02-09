@@ -2,3 +2,4 @@ z3tracer
 rustfmt
 sqlx-cli
 cargo-generate
+rustfmt
