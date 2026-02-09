@@ -3,3 +3,4 @@ rustfmt
 sqlx-cli
 cargo-generate
 rustfmt
+rust-bert
