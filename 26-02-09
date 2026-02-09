@@ -9,3 +9,4 @@ rrule
 proof-of-sql
 cpp_demangle
 mit-prepare-commit-msg
+sn_node_rpc_client
