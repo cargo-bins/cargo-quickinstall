@@ -38,3 +38,4 @@ sudo-rs
 font-manager
 oxipng
 bevy_map_editor
+agent-client-protocol-schema
