@@ -31,3 +31,4 @@ xplr
 proof-of-sql
 fzf-make
 scope-tui
+cpp_demangle
