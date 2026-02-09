@@ -12,7 +12,7 @@ influxdb3-python==0.17.0
     # via cronjob-scripts (pyproject.toml)
 numpy==2.4.2
     # via pyarrow
-polars==1.38.0
+polars==1.38.1
     # via cronjob-scripts (pyproject.toml)
 pyarrow==23.0.0
     # via influxdb3-python
@@ -24,7 +24,7 @@ requests==2.32.5
     # via cronjob-scripts (pyproject.toml)
 semver==3.0.4
     # via cronjob-scripts (pyproject.toml)
-setuptools==80.10.2
+setuptools==82.0.0
     # via influxdb3-python
 six==1.17.0
     # via python-dateutil
