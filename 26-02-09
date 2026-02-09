@@ -4,3 +4,4 @@ nextest
 xargo
 rrule
 proof-of-sql
+cpp_demangle
