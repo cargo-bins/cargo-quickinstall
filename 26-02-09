@@ -6,3 +6,4 @@ rustfmt
 rust-bert
 xargo
 rrule
+proof-of-sql
