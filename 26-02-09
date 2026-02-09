@@ -15,3 +15,4 @@ cpp_demangle
 solana-faucet
 easytier
 cargo-embed
+c2rust
