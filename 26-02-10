@@ -20,3 +20,4 @@ ruff
 tree-sitter-cli
 git-disjoint
 comet
+winpty-rs
