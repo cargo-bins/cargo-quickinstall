@@ -8,3 +8,4 @@ diesel_cli
 z3tracer
 kickstart
 winpty-rs
+c2rust
