@@ -6,3 +6,4 @@ tree-sitter-md
 git-disjoint
 winpty-rs
 oso
+addr2line
