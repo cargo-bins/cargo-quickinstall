@@ -22,3 +22,4 @@ c2rust
 rustdesk
 dioxus-cli
 git-disjoint
+winpty-rs
