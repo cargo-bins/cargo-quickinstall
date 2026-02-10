@@ -7,3 +7,4 @@ c2rust
 cargo-pgrx
 z3tracer
 alacritty
+winpty-rs
