@@ -22,3 +22,4 @@ git-disjoint
 comet
 winpty-rs
 oso
+cargo-pgrx
