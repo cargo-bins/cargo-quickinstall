@@ -10,3 +10,4 @@ kickstart
 winpty-rs
 c2rust
 tree-sitter-md
+git-disjoint
