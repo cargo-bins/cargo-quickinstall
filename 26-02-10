@@ -3,3 +3,4 @@ libcst
 z3tracer
 winpty-rs
 tree-sitter-md
+git-disjoint
