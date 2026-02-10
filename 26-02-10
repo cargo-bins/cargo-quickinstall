@@ -4,3 +4,4 @@ schemafy
 sea-orm-cli
 cargo-public-api
 cargo-smart-release
+autoschematic-connector-k8s
