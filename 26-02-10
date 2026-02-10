@@ -32,3 +32,4 @@ diesel_cli
 hurl
 autoschematic-connector-k8s
 cargo-pgrx
+addr2line
