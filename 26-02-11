@@ -21,3 +21,4 @@ uniffi
 binstall
 website_crawler
 commit_verify
+c2rust
