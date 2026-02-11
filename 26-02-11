@@ -4,3 +4,4 @@ cargo-prefetch
 dbus-codegen
 autoschematic-connector-k8s
 gis-tools
+parquet
