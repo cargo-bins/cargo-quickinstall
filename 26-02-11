@@ -2,3 +2,4 @@ kickstart
 dbus-codegen
 nextest
 nextest
+parquet
