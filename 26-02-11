@@ -30,3 +30,4 @@ autoschematic-connector-k8s
 vdev
 website_crawler
 nextest
+cargo-unused-features
