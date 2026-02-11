@@ -6,3 +6,4 @@ autoschematic-connector-k8s
 gis-tools
 parquet
 ruff
+cargo-public-api
