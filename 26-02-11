@@ -9,3 +9,4 @@ ec2_instance_metadata
 esp-config
 tree_magic
 uniffi
+commit_verify
