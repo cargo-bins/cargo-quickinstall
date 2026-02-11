@@ -31,3 +31,4 @@ vdev
 website_crawler
 nextest
 cargo-unused-features
+commit_verify
