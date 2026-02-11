@@ -19,3 +19,4 @@ rustrict
 cargo-public-api
 bevy_map_editor
 kanidm_tools
+ratatui-image
