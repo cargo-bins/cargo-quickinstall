@@ -9,3 +9,4 @@ ruff
 cargo-public-api
 gis-tools
 solana-stake-accounts
+sea-orm-cli
