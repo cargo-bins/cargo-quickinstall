@@ -3,3 +3,4 @@ gis-tools
 cargo-prefetch
 ruff
 jj
+parquet
