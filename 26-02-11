@@ -19,3 +19,4 @@ sea-orm-cli
 schemafy
 cargo-public-api
 autoschematic-connector-k8s
+c2rust
