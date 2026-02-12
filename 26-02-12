@@ -13,3 +13,4 @@ c2rust
 crypto-cli-tools
 iroh-gossip
 sqlx-cli
+dua-cli
