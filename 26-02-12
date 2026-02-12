@@ -14,3 +14,4 @@ cargo-whatfeatures
 spider_cli
 pijul
 spider_cli
+cargo-unused-features
