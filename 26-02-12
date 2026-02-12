@@ -7,3 +7,4 @@ rg
 jless
 rg
 controller
+addr2line
