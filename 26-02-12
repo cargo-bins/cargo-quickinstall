@@ -19,3 +19,4 @@ rustnet-monitor
 cargo-whatfeatures
 iroh-gossip
 tree-sitter-cli
+cargo-public-api
