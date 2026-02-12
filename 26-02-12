@@ -4,3 +4,4 @@ cargo-dylint
 rav1e
 sequoia-policy-config
 cargo-pgrx
+addr2line
