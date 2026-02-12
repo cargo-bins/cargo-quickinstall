@@ -11,3 +11,4 @@ nextest
 bevy_rerecast_editor
 cargo-public-api
 cargo-whatfeatures
+spider_cli
