@@ -20,3 +20,4 @@ libcst
 cargo-spellcheck
 stellar-xdr
 lance
+a11ywatch_cli
