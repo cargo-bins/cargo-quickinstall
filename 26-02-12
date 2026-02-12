@@ -18,3 +18,4 @@ jless
 crypto-cli-tools
 libcst
 iroh-gossip
+httpmock
