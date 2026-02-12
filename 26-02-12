@@ -4,3 +4,4 @@ diesel_cli
 addr2line
 rustrict
 diesel_cli
+libcst
