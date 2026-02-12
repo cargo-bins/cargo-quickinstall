@@ -14,3 +14,4 @@ spider_cli
 pijul
 crypto-cli-tools
 cargo-dylint
+cargo-public-api
