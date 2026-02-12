@@ -21,3 +21,4 @@ rustnet-monitor
 cargo-show
 slint-lsp
 mise
+tree-sitter-cli
