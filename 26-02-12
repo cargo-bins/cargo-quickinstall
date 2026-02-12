@@ -15,3 +15,4 @@ pijul
 crypto-cli-tools
 cargo-dylint
 cargo-public-api
+iroh-gossip
