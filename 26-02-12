@@ -19,3 +19,4 @@ crypto-cli-tools
 libcst
 cargo-spellcheck
 stellar-xdr
+lance
