@@ -20,3 +20,4 @@ libcst
 iroh-gossip
 httpmock
 cargo-spellcheck
+stellar-xdr
