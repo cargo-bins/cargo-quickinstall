@@ -8,3 +8,4 @@ spider_cli
 crypto-cli-tools
 libcst
 iroh-gossip
+cargo-spellcheck
