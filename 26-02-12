@@ -6,3 +6,4 @@ rustrict
 diesel_cli
 libcst
 iroh-gossip
+httpmock
