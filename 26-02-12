@@ -1,3 +1,4 @@
 sequoia-policy-config
 build-fs-tree
 diesel_cli
+addr2line
