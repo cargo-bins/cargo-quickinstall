@@ -5,3 +5,4 @@ diesel_cli
 libcst
 iroh-gossip
 httpmock
+pop-cli
