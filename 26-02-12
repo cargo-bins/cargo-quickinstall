@@ -18,3 +18,4 @@ spider_cli
 crypto-cli-tools
 libcst
 cargo-spellcheck
+stellar-xdr
