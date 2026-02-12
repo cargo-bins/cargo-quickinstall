@@ -7,3 +7,4 @@ cargo-pgrx
 addr2line
 controller
 d7s
+diesel_cli
