@@ -18,3 +18,4 @@ cargo-public-api
 iroh-gossip
 cargo-show
 rustnet-monitor
+cargo-show
