@@ -2,3 +2,4 @@ cargo-script
 papyrus_storage
 binstall
 binstall
+build-fs-tree
