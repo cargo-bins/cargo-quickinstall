@@ -19,3 +19,4 @@ crypto-cli-tools
 libcst
 iroh-gossip
 httpmock
+cargo-spellcheck
