@@ -12,3 +12,4 @@ binstall
 c2rust
 crypto-cli-tools
 iroh-gossip
+sqlx-cli
