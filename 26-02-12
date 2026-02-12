@@ -13,3 +13,4 @@ vdev
 spider_cli
 pijul
 crypto-cli-tools
+cargo-dylint
