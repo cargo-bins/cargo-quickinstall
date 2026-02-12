@@ -3,3 +3,4 @@ sequoia-policy-config
 build-fs-tree
 rg
 jless
+rg
