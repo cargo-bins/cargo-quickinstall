@@ -9,3 +9,4 @@ crypto-cli-tools
 libcst
 iroh-gossip
 cargo-spellcheck
+stellar-xdr
