@@ -18,3 +18,4 @@ cargo-unused-features
 rustnet-monitor
 cargo-whatfeatures
 iroh-gossip
+tree-sitter-cli
