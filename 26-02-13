@@ -24,3 +24,4 @@ tendermint-abci
 cargo-smart-release
 z3tracer
 cpp_demangle
+unic-langid-impl
