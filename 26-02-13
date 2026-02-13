@@ -28,3 +28,4 @@ steel-cli
 racer
 cargo-script
 bevy_rerecast_editor
+slint-lsp
