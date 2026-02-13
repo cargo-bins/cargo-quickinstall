@@ -57,3 +57,4 @@ typst-cli
 typeman
 cargo-fuzzcheck
 z3tracer
+rust_pixel
