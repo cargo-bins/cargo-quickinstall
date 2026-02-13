@@ -59,3 +59,4 @@ cargo-fuzzcheck
 z3tracer
 rust_pixel
 scope-tui
+cargo-script
