@@ -40,3 +40,4 @@ codestyle
 diesel_cli
 scope-tui
 cargo-script
+tendermint-abci
