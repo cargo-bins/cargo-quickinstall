@@ -13,3 +13,4 @@ pop-cli
 patch-crate
 rg
 kickstart
+diesel_cli
