@@ -21,3 +21,4 @@ skim
 httpmock
 dicom-pixeldata
 tendermint-abci
+cargo-smart-release
