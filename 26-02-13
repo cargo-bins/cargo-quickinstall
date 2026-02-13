@@ -9,3 +9,4 @@ diesel_cli
 ext-sort
 patch-crate
 sass-rs
+pop-cli
