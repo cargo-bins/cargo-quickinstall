@@ -5,3 +5,4 @@ cargo-show
 d7s
 wmi
 vdev
+diesel_cli
