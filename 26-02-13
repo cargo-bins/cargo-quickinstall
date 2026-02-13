@@ -14,3 +14,4 @@ cargo-dylint
 ext-sort
 rust_pixel
 slint-lsp
+sass-rs
