@@ -47,3 +47,4 @@ typst-cli
 rga
 tendermint-abci
 steel-cli
+cargo-script
