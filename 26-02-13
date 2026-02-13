@@ -48,3 +48,4 @@ rga
 tendermint-abci
 steel-cli
 cargo-script
+tree-sitter-cli
