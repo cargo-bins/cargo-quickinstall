@@ -7,3 +7,4 @@ cargo-local-registry
 httpbis
 sass-rs
 skim
+racer
