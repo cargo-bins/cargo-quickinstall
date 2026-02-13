@@ -14,3 +14,4 @@ patch-crate
 rg
 kickstart
 diesel_cli
+racer
