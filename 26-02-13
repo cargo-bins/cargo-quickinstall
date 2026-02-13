@@ -24,3 +24,4 @@ cargo-show
 slint-viewer
 skim
 tree-sitter-cli
+steel-cli
