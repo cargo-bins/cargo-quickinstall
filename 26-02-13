@@ -31,3 +31,4 @@ scope-tui
 cargo-script
 typeman
 lance
+cargo-fuzzcheck
