@@ -10,3 +10,4 @@ jujutsu
 vm-curator
 vdev
 slint-viewer
+cargo-dylint
