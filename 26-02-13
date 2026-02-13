@@ -43,3 +43,4 @@ cargo-script
 tendermint-abci
 cargo-fuzzcheck
 codestyle
+codestyle
