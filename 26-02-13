@@ -8,3 +8,4 @@ ext-sort
 dua-cli
 cargo-local-registry
 dua-cli
+nextest
