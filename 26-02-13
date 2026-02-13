@@ -10,3 +10,4 @@ vdev
 cargo-dylint
 cargo-show
 tree-sitter-cli
+vm-curator
