@@ -8,3 +8,4 @@ cargo-public-api
 diesel_cli
 vdev
 cargo-dylint
+cargo-show
