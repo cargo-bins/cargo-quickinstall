@@ -11,3 +11,4 @@ cargo-dylint
 cargo-show
 tree-sitter-cli
 vm-curator
+ext-sort
