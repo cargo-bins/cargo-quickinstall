@@ -51,3 +51,4 @@ cargo-script
 tree-sitter-cli
 tree-sitter-cli
 codestyle
+cargo-script
