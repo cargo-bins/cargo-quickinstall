@@ -18,3 +18,4 @@ rg
 dicom-pixeldata
 rg
 tendermint-abci
+z3tracer
