@@ -22,3 +22,4 @@ httpmock
 dicom-pixeldata
 tendermint-abci
 cargo-smart-release
+z3tracer
