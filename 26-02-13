@@ -53,3 +53,4 @@ tree-sitter-cli
 codestyle
 cargo-script
 bevy_rerecast_editor
+typst-cli
