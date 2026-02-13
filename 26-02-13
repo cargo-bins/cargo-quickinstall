@@ -27,3 +27,4 @@ tree-sitter-cli
 cargo-public-api
 jujutsu
 nominal-api
+scope-tui
