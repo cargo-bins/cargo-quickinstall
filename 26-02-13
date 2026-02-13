@@ -45,3 +45,4 @@ cargo-fuzzcheck
 bevy_rerecast_editor
 typst-cli
 rga
+tendermint-abci
