@@ -44,3 +44,4 @@ tendermint-abci
 cargo-fuzzcheck
 codestyle
 codestyle
+typst-cli
