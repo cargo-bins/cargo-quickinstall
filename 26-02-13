@@ -34,3 +34,4 @@ lance
 cargo-fuzzcheck
 cargo-fuzzcheck
 steel-cli
+vm-curator
