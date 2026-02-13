@@ -36,3 +36,4 @@ lance
 vm-curator
 cargo-show
 slint-viewer
+cargo-fuzzcheck
