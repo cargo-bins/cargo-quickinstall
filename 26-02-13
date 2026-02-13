@@ -11,3 +11,4 @@ lance
 dicom-pixeldata
 tendermint-abci
 z3tracer
+cpp_demangle
