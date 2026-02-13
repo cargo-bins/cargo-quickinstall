@@ -38,3 +38,4 @@ cargo-show
 slint-viewer
 cargo-fuzzcheck
 httpmock
+typeman
