@@ -35,3 +35,4 @@ cargo-fuzzcheck
 cargo-fuzzcheck
 steel-cli
 vm-curator
+dicom-pixeldata
