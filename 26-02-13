@@ -24,3 +24,4 @@ slint-lsp
 skim
 racer
 tree-sitter-cli
+cargo-public-api
