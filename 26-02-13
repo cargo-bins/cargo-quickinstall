@@ -12,3 +12,4 @@ vdev
 slint-viewer
 cargo-dylint
 ext-sort
+rust_pixel
