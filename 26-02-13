@@ -39,3 +39,4 @@ slint-viewer
 cargo-fuzzcheck
 httpmock
 typeman
+codestyle
