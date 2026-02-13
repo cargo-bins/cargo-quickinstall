@@ -40,3 +40,4 @@ cargo-fuzzcheck
 httpmock
 typeman
 codestyle
+dicom-pixeldata
