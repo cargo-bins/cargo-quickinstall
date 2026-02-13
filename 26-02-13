@@ -43,3 +43,4 @@ codestyle
 dicom-pixeldata
 cargo-fuzzcheck
 bevy_rerecast_editor
+typst-cli
