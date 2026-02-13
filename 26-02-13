@@ -56,3 +56,4 @@ bevy_rerecast_editor
 typst-cli
 typeman
 cargo-fuzzcheck
+z3tracer
