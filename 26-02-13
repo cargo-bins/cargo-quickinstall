@@ -30,3 +30,4 @@ cargo-script
 bevy_rerecast_editor
 slint-lsp
 nominal-api
+tree-sitter-cli
