@@ -26,3 +26,4 @@ skim
 tree-sitter-cli
 steel-cli
 racer
+cargo-script
