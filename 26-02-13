@@ -10,3 +10,4 @@ cargo-local-registry
 dua-cli
 nextest
 nextest
+safe_network
