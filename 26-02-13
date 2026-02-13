@@ -41,3 +41,4 @@ diesel_cli
 scope-tui
 cargo-script
 tendermint-abci
+cargo-fuzzcheck
