@@ -62,3 +62,4 @@ scope-tui
 cargo-script
 unic-langid-impl
 cargo-fuzzcheck
+rust_pixel
