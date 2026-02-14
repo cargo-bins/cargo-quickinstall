@@ -46,3 +46,4 @@ cargo-pgrx
 cargo-graph
 libbpf-cargo
 vdev
+a11ywatch_cli
