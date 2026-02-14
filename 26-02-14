@@ -18,3 +18,4 @@ bluetui
 bluetui
 https
 cargo-spellcheck
+libbpf-cargo
