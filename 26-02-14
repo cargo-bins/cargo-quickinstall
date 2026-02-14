@@ -9,3 +9,4 @@ ducc-sys
 openpty
 rpki
 cargo-risczero
+cpp_demangle
