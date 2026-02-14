@@ -16,3 +16,4 @@ bevy_rerecast_editor
 cargo-script
 cargo-spellcheck
 libbpf-cargo
+steel-cli
