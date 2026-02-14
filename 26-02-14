@@ -1,3 +1,4 @@
 rsgen-avro
 cargo-playdate
 libbpf-cargo
+httpmock
