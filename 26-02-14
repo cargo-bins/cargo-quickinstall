@@ -21,3 +21,4 @@ httpmock
 esp-config
 cargo-script
 typst-cli
+unic-langid-impl
