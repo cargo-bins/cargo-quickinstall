@@ -2,3 +2,4 @@ rsgen-avro
 cargo-spellcheck
 libbpf-cargo
 httpmock
+unic-langid-impl
