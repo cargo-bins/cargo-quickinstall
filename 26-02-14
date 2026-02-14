@@ -21,3 +21,4 @@ cargo-spellcheck
 libbpf-cargo
 https
 httpmock
+cargo-mobile2
