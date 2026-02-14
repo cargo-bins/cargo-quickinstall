@@ -1,3 +1,4 @@
 cargo-fuzzcheck
 rga
 cargo-fuzzcheck
+cargo-script
