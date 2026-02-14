@@ -5,3 +5,4 @@ esp-config
 cargo-playdate
 cargo-playdate
 libbpf-cargo
+httpmock
