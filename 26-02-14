@@ -7,3 +7,4 @@ foundationdb-gen
 minicbor
 cargo-playdate
 ducc-sys
+openpty
