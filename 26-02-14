@@ -3,3 +3,4 @@ rsgen-avro
 cargo-spellcheck
 httpmock
 unic-langid-impl
+minicbor
