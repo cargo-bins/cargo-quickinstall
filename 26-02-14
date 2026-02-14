@@ -33,3 +33,4 @@ bevy_rerecast_editor
 typst-cli
 ducc-sys
 rustnet-monitor
+unic-langid-impl
