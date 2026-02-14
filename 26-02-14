@@ -17,3 +17,4 @@ mit-prepare-commit-msg
 ducc-sys
 nu_plugin_bash_env
 openpty
+nu_plugin_bash_env
