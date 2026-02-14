@@ -1,3 +1,4 @@
 scope-tui
 cargo-fuzzcheck
 codestyle
+cargo-fuzzcheck
