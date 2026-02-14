@@ -19,3 +19,4 @@ libbpf-cargo
 steel-cli
 httpmock
 esp-config
+cargo-script
