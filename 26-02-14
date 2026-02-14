@@ -3,3 +3,4 @@ rsgen-avro
 libbpf-cargo
 httpmock
 unic-langid-impl
+minicbor
