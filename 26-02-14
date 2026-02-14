@@ -56,3 +56,4 @@ cargo-graph
 jj
 cargo-pgrx
 controller
+libbpf-cargo
