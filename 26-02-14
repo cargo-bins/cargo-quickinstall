@@ -10,3 +10,4 @@ openpty
 rpki
 cargo-risczero
 cpp_demangle
+addr2line
