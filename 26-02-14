@@ -18,3 +18,4 @@ cargo-spellcheck
 libbpf-cargo
 steel-cli
 httpmock
+esp-config
