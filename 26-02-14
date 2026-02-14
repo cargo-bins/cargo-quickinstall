@@ -20,3 +20,4 @@ https
 cargo-spellcheck
 libbpf-cargo
 https
+httpmock
