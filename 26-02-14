@@ -41,3 +41,4 @@ libbpf-cargo
 https
 bluetui
 simple-http-server
+rustnet-monitor
