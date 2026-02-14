@@ -33,3 +33,4 @@ rpgpie
 charset-normalizer-rs
 nu_plugin_dbus
 nu_plugin_bash_env
+nu_plugin_dbus
