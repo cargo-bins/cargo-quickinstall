@@ -28,3 +28,4 @@ cargo-mobile2
 dioxus-cli
 https
 rustnet-monitor
+simple-http-server
