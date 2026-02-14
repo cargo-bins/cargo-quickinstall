@@ -8,3 +8,4 @@ libbpf-cargo
 httpmock
 cargo-playdate
 rg
+unic-langid-impl
