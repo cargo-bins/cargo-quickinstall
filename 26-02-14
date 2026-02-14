@@ -20,3 +20,4 @@ openpty
 nu_plugin_bash_env
 rpki
 rpgpie
+nu_plugin_bash_env
