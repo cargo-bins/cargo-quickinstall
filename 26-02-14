@@ -4,3 +4,4 @@ libbpf-cargo
 httpmock
 unic-langid-impl
 minicbor
+dioxus-cli
