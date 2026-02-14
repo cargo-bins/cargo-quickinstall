@@ -3,3 +3,4 @@ cargo-spellcheck
 libbpf-cargo
 httpmock
 unic-langid-impl
+minicbor
