@@ -31,3 +31,4 @@ rustnet-monitor
 simple-http-server
 bevy_rerecast_editor
 typst-cli
+ducc-sys
