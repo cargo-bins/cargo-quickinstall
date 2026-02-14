@@ -27,3 +27,4 @@ nu_plugin_dbus
 rpgpie
 nu_plugin_bash_env
 charset-normalizer-rs
+cargo-risczero
