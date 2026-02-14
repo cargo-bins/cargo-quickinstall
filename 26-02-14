@@ -49,3 +49,4 @@ vdev
 a11ywatch_cli
 cpp_demangle
 cargo-graph
+bluetui
