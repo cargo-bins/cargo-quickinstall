@@ -28,3 +28,4 @@ rpgpie
 nu_plugin_bash_env
 charset-normalizer-rs
 cargo-risczero
+cpp_demangle
