@@ -4,3 +4,4 @@ cargo-spellcheck
 httpmock
 unic-langid-impl
 minicbor
+ducc-sys
