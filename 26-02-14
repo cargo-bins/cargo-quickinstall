@@ -39,3 +39,4 @@ cargo-mobile2
 typst-cli
 rpki
 cargo-graph
+tree-sitter-cli
