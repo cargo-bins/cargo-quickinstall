@@ -29,3 +29,4 @@ dioxus-cli
 https
 rustnet-monitor
 simple-http-server
+bevy_rerecast_editor
