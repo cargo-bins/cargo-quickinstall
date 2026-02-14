@@ -11,3 +11,4 @@ rpki
 a11ywatch_cli
 cargo-risczero
 cpp_demangle
+addr2line
