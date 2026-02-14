@@ -4,3 +4,4 @@ codestyle
 cargo-fuzzcheck
 alacritty
 steel-cli
+vm-curator
