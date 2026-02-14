@@ -52,3 +52,4 @@ rustnet-monitor
 jj
 arrow-flight
 https
+cargo-graph
