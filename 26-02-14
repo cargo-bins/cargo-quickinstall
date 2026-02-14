@@ -17,3 +17,4 @@ cargo-script
 cargo-spellcheck
 libbpf-cargo
 steel-cli
+httpmock
