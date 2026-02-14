@@ -58,3 +58,4 @@ cargo-pgrx
 controller
 libbpf-cargo
 simple-http-server
+bluetui
