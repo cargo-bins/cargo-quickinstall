@@ -37,3 +37,4 @@ vdev
 cargo-graph
 bluetui
 https
+libbpf-cargo
