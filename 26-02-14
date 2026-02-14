@@ -6,3 +6,4 @@ libbpf-cargo
 esp-config
 httpmock
 esp-config
+unic-langid-impl
