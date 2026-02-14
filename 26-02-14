@@ -3,3 +3,4 @@ cargo-playdate
 libbpf-cargo
 httpmock
 unic-langid-impl
+foundationdb-gen
