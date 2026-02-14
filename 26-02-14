@@ -44,3 +44,4 @@ simple-http-server
 rustnet-monitor
 wiremix
 cargo-mobile2
+esp-config
