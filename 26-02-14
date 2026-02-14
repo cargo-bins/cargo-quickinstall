@@ -13,3 +13,4 @@ esp-config
 bluetui
 slint-lsp
 bevy_rerecast_editor
+cargo-script
