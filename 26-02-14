@@ -42,3 +42,4 @@ cargo-graph
 tree-sitter-cli
 tree-sitter-cli
 bluetui
+cargo-pgrx
