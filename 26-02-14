@@ -2,3 +2,4 @@ rsgen-avro
 cargo-playdate
 libbpf-cargo
 httpmock
+unic-langid-impl
