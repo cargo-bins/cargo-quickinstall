@@ -4,3 +4,4 @@ cargo-fuzzcheck
 cargo-script
 codestyle
 bluetui
+kanidm_tools
