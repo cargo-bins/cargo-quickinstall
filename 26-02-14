@@ -36,3 +36,4 @@ nu_plugin_bash_env
 nu_plugin_dbus
 rpgpie
 addr2line
+charset-normalizer-rs
