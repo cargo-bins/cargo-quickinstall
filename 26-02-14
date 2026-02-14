@@ -3,3 +3,4 @@ cargo-fuzzcheck
 codestyle
 cargo-fuzzcheck
 alacritty
+steel-cli
