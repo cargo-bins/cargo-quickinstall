@@ -3,3 +3,4 @@ rga
 cargo-fuzzcheck
 cargo-script
 codestyle
+bluetui
