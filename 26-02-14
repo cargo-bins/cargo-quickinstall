@@ -5,3 +5,4 @@ cargo-fuzzcheck
 alacritty
 steel-cli
 vm-curator
+papyrus_storage
