@@ -9,3 +9,4 @@ cargo-pgrx
 mise
 nkeys
 cargo-dylint
+cargo-graph
