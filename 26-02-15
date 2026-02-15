@@ -32,3 +32,4 @@ sass-rs
 cargo-dylint
 mdbook-bib
 commit_verify
+mdbook-bib
