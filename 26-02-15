@@ -5,3 +5,4 @@ tendermint-abci
 minicbor
 parquet
 diesel_cli
+charset-normalizer-rs
