@@ -2,3 +2,4 @@ opencv-binding-generator
 nkeys
 cargo-dylint
 tendermint-abci
+cargo-dylint
