@@ -11,3 +11,4 @@ nkeys
 cargo-dylint
 cargo-graph
 diesel_cli
+wiremix
