@@ -10,3 +10,4 @@ nkeys
 rustnet-monitor
 tendermint-abci
 rustnet-monitor
+minicbor
