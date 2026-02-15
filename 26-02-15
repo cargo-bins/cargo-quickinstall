@@ -1,3 +1,4 @@
 diesel_cli
 nkeys
 stellar-xdr
+tendermint-abci
