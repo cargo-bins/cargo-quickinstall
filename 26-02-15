@@ -46,3 +46,4 @@ cargo-embed
 rust-bert
 build-fs-tree
 cargo-embed
+socketcan
