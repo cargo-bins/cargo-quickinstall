@@ -4,3 +4,4 @@ nkeys
 tendermint-abci
 minicbor
 parquet
+wmi
