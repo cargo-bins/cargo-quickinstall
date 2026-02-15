@@ -19,3 +19,4 @@ diesel_cli
 build-fs-tree
 socketcan
 uniffi
+foundationdb-gen
