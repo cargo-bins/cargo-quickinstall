@@ -25,3 +25,4 @@ uniffi
 miden-crypto
 foundationdb-gen
 sea-orm-cli
+solana-gossip
