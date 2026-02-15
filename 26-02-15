@@ -40,3 +40,4 @@ rust-bert
 build-fs-tree
 cargo-embed
 slint-lsp
+socketcan
