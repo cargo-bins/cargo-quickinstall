@@ -5,3 +5,4 @@ tendermint-abci
 cargo-dylint
 minicbor
 cargo-dylint
+parquet
