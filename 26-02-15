@@ -12,3 +12,4 @@ tendermint-abci
 rustnet-monitor
 minicbor
 jj
+parquet
