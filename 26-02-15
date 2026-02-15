@@ -6,3 +6,4 @@ kble
 nkeys
 kble-serialport
 tendermint-abci
+minicbor
