@@ -45,3 +45,4 @@ cargo-embed
 uniffi
 miden-crypto
 foundationdb-gen
+oracle-tui
