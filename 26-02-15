@@ -43,3 +43,4 @@ slint-lsp
 socketcan
 cargo-embed
 uniffi
+miden-crypto
