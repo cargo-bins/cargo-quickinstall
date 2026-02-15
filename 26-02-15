@@ -38,3 +38,4 @@ tree-sitter-md
 cargo-embed
 rust-bert
 build-fs-tree
+cargo-embed
