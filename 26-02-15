@@ -44,3 +44,4 @@ protox
 tree-sitter-md
 cargo-embed
 rust-bert
+build-fs-tree
