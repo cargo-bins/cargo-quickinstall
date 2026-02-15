@@ -18,3 +18,4 @@ fermium
 exa
 sn_node_rpc_client
 ec2_instance_metadata
+socketcan
