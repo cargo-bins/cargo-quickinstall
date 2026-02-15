@@ -51,3 +51,4 @@ uniffi
 miden-crypto
 foundationdb-gen
 crc-fast
+solana-gossip
