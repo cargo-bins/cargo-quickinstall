@@ -3,3 +3,4 @@ nkeys
 cargo-dylint
 tendermint-abci
 cargo-dylint
+minicbor
