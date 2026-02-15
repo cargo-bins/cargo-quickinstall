@@ -18,3 +18,4 @@ tree-sitter-md
 diesel_cli
 build-fs-tree
 socketcan
+uniffi
