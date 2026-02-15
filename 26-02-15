@@ -10,3 +10,4 @@ wmi
 sass-rs
 commit_verify
 a11ywatch_cli
+ducc-sys
