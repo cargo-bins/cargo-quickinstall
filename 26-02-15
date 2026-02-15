@@ -47,3 +47,4 @@ rust-bert
 build-fs-tree
 cargo-embed
 socketcan
+uniffi
