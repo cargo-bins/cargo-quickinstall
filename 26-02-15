@@ -12,3 +12,4 @@ cargo-dylint
 cargo-graph
 diesel_cli
 wiremix
+tendermint-abci
