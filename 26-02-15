@@ -21,3 +21,4 @@ mdbook-bib
 libbpf-cargo
 sass-rs
 jj
+cargo-dylint
