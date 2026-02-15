@@ -4,3 +4,4 @@ nkeys
 tendermint-abci
 minicbor
 tree-sitter-graph
+parquet
