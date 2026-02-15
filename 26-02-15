@@ -19,3 +19,4 @@ build-fs-tree
 socketcan
 uniffi
 miden-crypto
+foundationdb-gen
