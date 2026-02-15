@@ -16,3 +16,4 @@ protox
 tree-sitter-md
 rust-bert
 build-fs-tree
+socketcan
