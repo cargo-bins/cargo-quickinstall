@@ -42,3 +42,4 @@ cargo-embed
 slint-lsp
 socketcan
 cargo-embed
+uniffi
