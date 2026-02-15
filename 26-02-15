@@ -9,3 +9,4 @@ nkeys
 tendermint-abci
 steel-cli
 easytier
+minicbor
