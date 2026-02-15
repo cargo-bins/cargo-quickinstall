@@ -12,3 +12,4 @@ sass-rs
 cargo-dylint
 commit_verify
 a11ywatch_cli
+ducc-sys
