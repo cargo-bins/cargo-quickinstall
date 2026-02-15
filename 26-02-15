@@ -20,3 +20,4 @@ cargo-graph
 cargo-pgrx
 wiremix
 libbpf-cargo
+parquet
