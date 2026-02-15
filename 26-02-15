@@ -2,3 +2,4 @@ cargo-dylint
 av-scenechange
 nkeys
 tendermint-abci
+minicbor
