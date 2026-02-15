@@ -25,3 +25,4 @@ rust-bert
 build-fs-tree
 socketcan
 uniffi
+miden-crypto
