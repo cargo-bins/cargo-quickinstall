@@ -25,3 +25,4 @@ cargo-dylint
 commit_verify
 mdbook-bib
 wiremix
+a11ywatch_cli
