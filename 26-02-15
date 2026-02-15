@@ -2,3 +2,4 @@ nkeys
 sn_faucet
 tendermint-abci
 minicbor
+quick-junit
