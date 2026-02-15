@@ -49,3 +49,4 @@ cargo-embed
 socketcan
 uniffi
 miden-crypto
+foundationdb-gen
