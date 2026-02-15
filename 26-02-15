@@ -21,3 +21,4 @@ build-fs-tree
 socketcan
 miden-crypto
 sea-orm-cli
+solana-gossip
