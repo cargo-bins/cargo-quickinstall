@@ -13,3 +13,4 @@ cargo-graph
 diesel_cli
 wiremix
 tendermint-abci
+mise
