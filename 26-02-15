@@ -2,3 +2,4 @@ nkeys
 tendermint-abci
 minicbor
 cargo-dylint
+parquet
