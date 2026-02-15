@@ -16,3 +16,4 @@ build-fs-tree
 socketcan
 miden-crypto
 foundationdb-gen
+sea-orm-cli
