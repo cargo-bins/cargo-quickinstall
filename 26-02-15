@@ -37,3 +37,4 @@ mdbook-bib
 mdbook-bib
 a11ywatch_cli
 ducc-sys
+cargo-embed
