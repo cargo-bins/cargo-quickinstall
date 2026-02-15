@@ -7,3 +7,4 @@ parquet
 diesel_cli
 charset-normalizer-rs
 commit_verify
+mit-prepare-commit-msg
