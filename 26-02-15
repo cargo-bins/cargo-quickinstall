@@ -16,3 +16,4 @@ parquet
 mise
 wmi
 libbpf-cargo
+cargo-dylint
