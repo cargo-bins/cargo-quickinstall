@@ -41,3 +41,4 @@ build-fs-tree
 cargo-embed
 slint-lsp
 socketcan
+cargo-embed
