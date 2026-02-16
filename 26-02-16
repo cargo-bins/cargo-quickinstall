@@ -8,3 +8,4 @@ librespot
 cargo-pgrx
 stellar-xdr
 clap-stdin
+controller
