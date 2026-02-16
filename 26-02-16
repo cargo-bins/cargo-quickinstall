@@ -33,3 +33,4 @@ stellar-xdr
 binstall
 clap-stdin
 rg
+controller
