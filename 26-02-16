@@ -3,3 +3,4 @@ rrule
 human_bytes
 ec2_instance_metadata
 httpbis
+kani-verifier
