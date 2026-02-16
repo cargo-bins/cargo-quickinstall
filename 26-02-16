@@ -1,3 +1,4 @@
 sqlx-cli
 rrule
 human_bytes
+ec2_instance_metadata
