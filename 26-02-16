@@ -16,3 +16,4 @@ quick-junit
 clap-stdin
 hotpath
 nextest-filtering
+cargo-local-registry
