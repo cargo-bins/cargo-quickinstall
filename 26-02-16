@@ -27,3 +27,4 @@ safe_network
 codesnap-cli
 clap-stdin
 sequoia-policy-config
+hotpath
