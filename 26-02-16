@@ -15,3 +15,4 @@ cargo-leptos
 quick-junit
 clap-stdin
 hotpath
+nextest-filtering
