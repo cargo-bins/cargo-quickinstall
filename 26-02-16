@@ -5,3 +5,4 @@ ec2_instance_metadata
 httpbis
 kani-verifier
 git-mit-install
+uniffi
