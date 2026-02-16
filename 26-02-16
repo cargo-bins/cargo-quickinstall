@@ -9,3 +9,4 @@ quick-junit
 dioxus-cli
 dioxus-cli
 clap-stdin
+nextest-filtering
