@@ -17,3 +17,4 @@ frawk
 rg
 clap-stdin
 dioxus-cli
+nextest-filtering
