@@ -14,3 +14,4 @@ controller
 sequoia-policy-config
 arrow-flight
 borsh
+solana-cli
