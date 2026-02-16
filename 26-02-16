@@ -20,3 +20,4 @@ dioxus-cli
 nextest-filtering
 frawk
 ruff
+nextest
