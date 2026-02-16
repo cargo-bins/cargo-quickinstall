@@ -35,3 +35,4 @@ ruff
 sequoia-policy-config
 vtcode
 wac
+arrow-flight
