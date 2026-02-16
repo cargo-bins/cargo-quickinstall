@@ -32,3 +32,4 @@ binstall
 clap-stdin
 binwalk
 ruff
+sequoia-policy-config
