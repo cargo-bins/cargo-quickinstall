@@ -13,3 +13,4 @@ zellij
 uniffi
 cargo-leptos
 quick-junit
+clap-stdin
