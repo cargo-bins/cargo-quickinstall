@@ -5,3 +5,4 @@ clap-stdin
 nextest-filtering
 librespot
 cargo-pgrx
+stellar-xdr
