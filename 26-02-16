@@ -13,3 +13,4 @@ cargo-local-registry
 text-diff
 stellar-xdr
 safe_network
+clap-stdin
