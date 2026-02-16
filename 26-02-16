@@ -8,3 +8,4 @@ git-mit-install
 uniffi
 quick-junit
 clap-stdin
+nextest-filtering
