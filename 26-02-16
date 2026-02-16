@@ -2,3 +2,4 @@ rrule
 human_bytes
 uniffi
 quick-junit
+clap-stdin
