@@ -31,3 +31,4 @@ binstall
 binstall
 stellar-xdr
 binstall
+clap-stdin
