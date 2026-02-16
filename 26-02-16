@@ -10,3 +10,4 @@ safe_network
 clap-stdin
 controller
 sequoia-policy-config
+arrow-flight
