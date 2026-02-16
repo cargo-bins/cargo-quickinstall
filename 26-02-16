@@ -25,3 +25,4 @@ hotpath
 stellar-xdr
 safe_network
 codesnap-cli
+clap-stdin
