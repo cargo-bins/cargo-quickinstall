@@ -2,3 +2,4 @@ sqlx-cli
 rrule
 cargo-leptos
 zellij
+human_bytes
