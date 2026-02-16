@@ -9,3 +9,4 @@ nextest-filtering
 librespot
 cargo-pgrx
 stellar-xdr
+clap-stdin
