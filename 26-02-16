@@ -12,3 +12,4 @@ clap-stdin
 controller
 sequoia-policy-config
 arrow-flight
+spider_cli
