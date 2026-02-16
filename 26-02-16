@@ -10,3 +10,4 @@ quick-junit
 clap-stdin
 nextest-filtering
 cargo-local-registry
+text-diff
