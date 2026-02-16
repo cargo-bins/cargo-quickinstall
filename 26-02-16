@@ -34,3 +34,4 @@ binstall
 clap-stdin
 rg
 controller
+sequoia-policy-config
