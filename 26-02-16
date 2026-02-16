@@ -19,3 +19,4 @@ codeberg-cli
 stellar-xdr
 codeberg-cli
 clap-stdin
+sequoia-policy-config
