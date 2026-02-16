@@ -6,3 +6,4 @@ nextest-filtering
 librespot
 cargo-pgrx
 stellar-xdr
+safe_network
