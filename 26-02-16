@@ -18,3 +18,4 @@ hotpath
 nextest-filtering
 cargo-local-registry
 hotpath
+rmesg
