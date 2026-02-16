@@ -14,3 +14,4 @@ text-diff
 stellar-xdr
 safe_network
 clap-stdin
+sequoia-policy-config
