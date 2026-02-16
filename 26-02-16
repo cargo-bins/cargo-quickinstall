@@ -9,3 +9,4 @@ cargo-pgrx
 stellar-xdr
 safe_network
 clap-stdin
+controller
