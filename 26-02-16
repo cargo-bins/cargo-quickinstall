@@ -11,3 +11,4 @@ cargo-pgrx
 stellar-xdr
 clap-stdin
 controller
+sequoia-policy-config
