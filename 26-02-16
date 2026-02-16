@@ -20,3 +20,4 @@ rg
 clap-stdin
 rg
 nextest-filtering
+frawk
