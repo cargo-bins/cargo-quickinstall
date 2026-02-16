@@ -17,3 +17,4 @@ clap-stdin
 hotpath
 nextest-filtering
 cargo-local-registry
+hotpath
