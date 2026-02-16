@@ -33,3 +33,4 @@ clap-stdin
 binwalk
 ruff
 sequoia-policy-config
+vtcode
