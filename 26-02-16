@@ -7,3 +7,4 @@ quick-junit
 clap-stdin
 nextest-filtering
 librespot
+cargo-pgrx
