@@ -12,3 +12,4 @@ nextest-filtering
 cargo-local-registry
 text-diff
 stellar-xdr
+safe_network
