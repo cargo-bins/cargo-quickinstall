@@ -19,3 +19,4 @@ clap-stdin
 dioxus-cli
 nextest-filtering
 frawk
+ruff
