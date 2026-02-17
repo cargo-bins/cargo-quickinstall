@@ -17,3 +17,4 @@ cargo-quad-apk
 rg
 localgpt
 rls-rustc
+binwalk
