@@ -4,3 +4,4 @@ cargo-duplicates
 sea-orm-cli
 ruff
 binwalk
+ncspot
