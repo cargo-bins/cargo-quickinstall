@@ -2,3 +2,4 @@ binstall
 ruff
 cargo-duplicates
 sea-orm-cli
+ruff
