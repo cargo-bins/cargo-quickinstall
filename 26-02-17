@@ -19,3 +19,4 @@ localgpt
 cargo-duplicates
 cargo-duplicates
 kanidm_tools
+sea-orm-cli
