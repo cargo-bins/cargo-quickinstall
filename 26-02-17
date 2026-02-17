@@ -6,3 +6,4 @@ cargo-duplicates
 foundationdb-gen
 vtcode
 diesel_cli
+oracle-tui
