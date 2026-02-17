@@ -11,3 +11,4 @@ cargo-public-api
 cargo-duplicates
 lance
 cargo-quad-apk
+dioxus-cli
