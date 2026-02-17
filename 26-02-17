@@ -5,3 +5,4 @@ binstall
 cargo-duplicates
 foundationdb-gen
 vtcode
+diesel_cli
