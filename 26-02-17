@@ -46,3 +46,4 @@ cargo-unused-features
 stasis
 cargo-show
 graphql_client_cli
+social_networks
