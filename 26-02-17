@@ -41,3 +41,4 @@ social_networks
 cargo-duplicates
 kanidm_tools
 cargo-unused-features
+graphql_client_cli
