@@ -16,3 +16,4 @@ ruff
 cargo-quad-apk
 rg
 localgpt
+rls-rustc
