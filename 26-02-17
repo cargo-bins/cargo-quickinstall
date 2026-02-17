@@ -23,3 +23,4 @@ sea-orm-cli
 cargo-duplicates
 ncspot
 rls-rustc
+cargo-quad-apk
