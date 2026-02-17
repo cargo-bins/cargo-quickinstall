@@ -4,3 +4,4 @@ ncspot
 binstall
 cargo-duplicates
 foundationdb-gen
+vtcode
