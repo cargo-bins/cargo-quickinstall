@@ -44,3 +44,4 @@ cargo-unused-features
 localgpt
 cargo-unused-features
 stasis
+cargo-show
