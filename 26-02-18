@@ -11,3 +11,4 @@ solana-genesis
 cargo-show
 cargo-public-api
 social_networks
+cargo-unused-features
