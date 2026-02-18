@@ -8,3 +8,4 @@ rtx-cli
 tplay
 rioterm
 solana-genesis
+cargo-show
