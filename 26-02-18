@@ -5,3 +5,4 @@ clippy
 rtx-cli
 solana-genesis
 clippy
+diesel_cli
