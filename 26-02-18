@@ -10,3 +10,4 @@ diesel_cli
 safe_network
 xargo
 nkeys
+re_query
