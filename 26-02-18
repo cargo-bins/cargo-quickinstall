@@ -9,3 +9,4 @@ diesel_cli
 burn-tch
 xargo
 nkeys
+re_query
