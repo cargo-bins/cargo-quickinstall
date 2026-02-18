@@ -5,3 +5,4 @@ diesel_cli
 holochain
 safe_network
 xargo
+dprint
