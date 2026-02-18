@@ -13,3 +13,4 @@ foundationdb-gen
 cargo-unused-features
 solana-genesis
 sea-orm-cli
+webterm
