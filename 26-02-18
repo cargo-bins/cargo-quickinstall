@@ -11,3 +11,4 @@ tplay
 rtx-cli
 foundationdb-gen
 cargo-unused-features
+solana-genesis
