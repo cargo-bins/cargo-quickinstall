@@ -19,3 +19,4 @@ re_query
 oso
 diesel_cli
 git-disjoint
+remove_dir_all
