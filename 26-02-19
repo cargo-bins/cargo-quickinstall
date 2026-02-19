@@ -39,3 +39,4 @@ borsh
 fake
 re_query
 oso
+slint-lsp
