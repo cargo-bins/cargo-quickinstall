@@ -5,3 +5,4 @@ miden-crypto
 solana-ledger-tool
 solana-faucet
 sea-orm-cli
+ext-sort
