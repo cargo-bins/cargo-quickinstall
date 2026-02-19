@@ -41,3 +41,4 @@ skim
 diesel_cli
 rrule
 borsh
+c2rust
