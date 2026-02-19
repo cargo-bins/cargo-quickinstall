@@ -28,3 +28,4 @@ c2rust
 ncspot
 tree-sitter-graph
 carapace
+cargo-dylint
