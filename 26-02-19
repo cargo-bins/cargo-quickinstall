@@ -14,3 +14,4 @@ re_query
 oso
 git-disjoint
 solana-genesis
+remove_dir_all
