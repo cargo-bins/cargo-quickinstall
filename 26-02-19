@@ -30,3 +30,4 @@ tree-sitter-graph
 carapace
 cargo-dylint
 spotatui
+vdev
