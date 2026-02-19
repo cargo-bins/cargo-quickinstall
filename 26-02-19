@@ -49,3 +49,4 @@ c2rust
 slint-lsp
 binwalk
 tmtc-c2a
+cargo-binstall
