@@ -7,3 +7,4 @@ crypto-cli-tools
 ncspot
 tree-sitter-cli
 cargo-public-api
+c2rust
