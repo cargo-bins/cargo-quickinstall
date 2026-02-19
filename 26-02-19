@@ -43,3 +43,4 @@ slint-lsp
 git-disjoint
 spotatui
 solana-genesis
+remove_dir_all
