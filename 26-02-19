@@ -16,3 +16,4 @@ oso
 diesel_cli
 git-disjoint
 leetcode-cli
+remove_dir_all
