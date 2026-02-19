@@ -2,3 +2,4 @@ crypto-cli-tools
 project_init
 lance
 miden-crypto
+cargo-vet
