@@ -37,3 +37,4 @@ cargo-binstall
 rrule
 borsh
 fake
+re_query
