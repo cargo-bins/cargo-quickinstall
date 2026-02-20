@@ -6,3 +6,4 @@ diesel_cli
 cargo-dylint
 binwalk
 cargo-public-api
+nextest
