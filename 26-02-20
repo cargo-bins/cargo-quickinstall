@@ -13,3 +13,4 @@ pwasm-utils
 stellar-strkey
 clippy
 cargo-pgrx
+tree-sitter-cli
