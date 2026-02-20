@@ -3,3 +3,4 @@ nextest
 slint-lsp
 spider_worker
 diesel_cli
+cargo-dylint
