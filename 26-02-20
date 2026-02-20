@@ -2,3 +2,4 @@ cargo-lock
 wallust
 lance
 crc-fast
+safe_network
