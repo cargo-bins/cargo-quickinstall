@@ -16,3 +16,4 @@ remove_dir_all
 pandora_box
 nominal-api
 pgrx-tests
+rustfmt-nightly
