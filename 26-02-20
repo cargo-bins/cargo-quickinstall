@@ -46,3 +46,4 @@ bevy_sprinkles_editor
 nominal-api
 addr2line
 pgrx-tests
+rustfmt-nightly
