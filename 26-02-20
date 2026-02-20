@@ -16,3 +16,4 @@ diesel_cli
 bevy_sprinkles_editor
 alacritty
 mdfried
+pwasm-utils
