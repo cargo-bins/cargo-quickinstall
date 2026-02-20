@@ -29,3 +29,4 @@ bevy_sprinkles_editor
 bevy_sprinkles_editor
 cargo-unused-features
 nextest
+cargo-show
