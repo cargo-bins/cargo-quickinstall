@@ -40,3 +40,4 @@ git-trim
 avm
 remove_dir_all
 avm
+addr2line
