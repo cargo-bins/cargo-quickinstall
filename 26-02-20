@@ -3,3 +3,4 @@ pwasm-utils
 diesel_cli
 stellar-strkey
 diesel_cli
+remove_dir_all
