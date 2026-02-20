@@ -10,3 +10,4 @@ jless
 clippy
 cargo-pgrx
 tree-sitter-cli
+pgrx-tests
