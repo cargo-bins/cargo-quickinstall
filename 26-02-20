@@ -30,3 +30,4 @@ bevy_sprinkles_editor
 cargo-unused-features
 nextest
 cargo-show
+sha1collisiondetection
