@@ -35,3 +35,4 @@ cargo-show
 tree-sitter-cli
 binwalk
 tree-sitter-cli
+pgrx-tests
