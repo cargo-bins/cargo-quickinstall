@@ -57,3 +57,4 @@ tmtc-c2a
 binstall
 cargo-show
 voidmerge
+addr2line
