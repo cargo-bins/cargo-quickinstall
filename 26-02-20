@@ -58,3 +58,4 @@ binstall
 cargo-show
 voidmerge
 addr2line
+git-trim
