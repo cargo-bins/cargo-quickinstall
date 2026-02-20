@@ -7,3 +7,4 @@ pwasm-utils
 stellar-strkey
 clippy
 sn_faucet
+cargo-vet
