@@ -54,3 +54,4 @@ cargo-show
 remove_dir_all
 gpgme
 tmtc-c2a
+binstall
