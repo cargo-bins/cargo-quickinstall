@@ -20,3 +20,4 @@ nextest
 vdev
 dioxus-cli
 safe_network
+tree-sitter-cli
