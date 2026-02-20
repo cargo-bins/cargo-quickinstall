@@ -8,3 +8,4 @@ diesel_cli
 tree-sitter-cli
 bevy_sprinkles_editor
 dealve-tui
+cargo-dylint
