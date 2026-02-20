@@ -16,3 +16,4 @@ slint-lsp
 dioxus-cli
 bevy_sprinkles_editor
 crc-fast
+nextest
