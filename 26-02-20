@@ -7,3 +7,4 @@ cargo-dylint
 binwalk
 cargo-public-api
 nextest
+vdev
