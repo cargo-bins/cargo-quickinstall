@@ -9,3 +9,4 @@ solana-verify
 dioxus-cli
 diesel_cli
 diesel_cli
+pwasm-utils
