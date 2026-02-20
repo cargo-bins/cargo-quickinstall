@@ -5,3 +5,4 @@ crc-fast
 safe_network
 pwasm-utils
 stellar-strkey
+clippy
