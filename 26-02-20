@@ -15,3 +15,4 @@ cargo-pgrx
 tree-sitter-cli
 remove_dir_all
 nominal-api
+pgrx-tests
