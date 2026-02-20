@@ -13,3 +13,4 @@ tree-sitter-cli
 pgrx-tests
 remove_dir_all
 nominal-api
+pgrx-tests
