@@ -12,3 +12,4 @@ cargo-dylint
 vdev
 diesel_cli
 mdfried
+slint-lsp
