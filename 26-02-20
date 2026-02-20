@@ -16,3 +16,4 @@ cargo-pgrx
 tree-sitter-cli
 pgrx-tests
 r3bl_tuify
+remove_dir_all
