@@ -14,3 +14,4 @@ stellar-strkey
 clippy
 cargo-pgrx
 tree-sitter-cli
+pgrx-tests
