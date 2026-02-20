@@ -16,3 +16,4 @@ exa
 mit-pre-commit
 nominal-api
 rustfmt-nightly
+pgrx-tests
