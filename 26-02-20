@@ -8,3 +8,4 @@ binwalk
 cargo-public-api
 nextest
 vdev
+diesel_cli
