@@ -60,3 +60,4 @@ scope-tui
 cargo-whatfeatures
 cargo-whatfeatures
 solana-keygen
+cargo-lock
