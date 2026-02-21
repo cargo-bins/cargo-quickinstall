@@ -12,3 +12,4 @@ stellar-xdr
 addr2line
 xargo
 git-trim
+tree-sitter-cli
