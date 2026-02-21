@@ -11,3 +11,4 @@ remove_dir_all
 wmi
 winpty-rs
 datavzrd
+ratatui-image
