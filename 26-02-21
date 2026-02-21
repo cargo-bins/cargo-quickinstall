@@ -8,3 +8,4 @@ graphql_client_cli
 zellij
 lingua
 rpki
+remove_dir_all
