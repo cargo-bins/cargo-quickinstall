@@ -30,3 +30,4 @@ scope-tui
 lingua
 addr2line
 remove_dir_all
+wmi
