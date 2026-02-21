@@ -20,3 +20,4 @@ solana-genesis
 tree-sitter-md
 solana-keygen
 cargo-lock
+cargo-spellcheck
