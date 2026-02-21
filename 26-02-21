@@ -26,3 +26,4 @@ scope-tui
 scope-tui
 cargo-unused-features
 avm
+azure-pim-cli
