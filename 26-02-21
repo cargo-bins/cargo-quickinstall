@@ -18,3 +18,4 @@ graphql_client_cli
 addr2line
 wol-rs
 voidmerge
+index_camera_passthrough
