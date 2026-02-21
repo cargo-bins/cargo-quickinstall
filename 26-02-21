@@ -64,3 +64,4 @@ cargo-lock
 fcp
 oxipng
 nu_plugin_query
+rls-rustc
