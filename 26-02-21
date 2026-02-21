@@ -67,3 +67,4 @@ nu_plugin_query
 rls-rustc
 paru
 nu_plugin_gstat
+cargo-spellcheck
