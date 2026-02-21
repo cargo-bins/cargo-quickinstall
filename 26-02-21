@@ -33,3 +33,4 @@ remove_dir_all
 wmi
 index_camera_passthrough
 addr2line
+datavzrd
