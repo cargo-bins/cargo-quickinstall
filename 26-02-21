@@ -29,3 +29,4 @@ solana-genesis
 tree-sitter-md
 iai-callgrind-runner
 cargo-lock
+dua-cli
