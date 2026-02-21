@@ -16,3 +16,4 @@ tree_magic
 dotenv
 solana-genesis
 tree-sitter-md
+iai-callgrind-runner
