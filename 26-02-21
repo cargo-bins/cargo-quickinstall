@@ -16,3 +16,4 @@ tree_magic
 solana-stake-accounts
 solana-genesis
 tree-sitter-md
+cargo-lock
