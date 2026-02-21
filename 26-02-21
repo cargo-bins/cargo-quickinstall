@@ -15,3 +15,4 @@ solana-stake-accounts
 solana-genesis
 tree-sitter-md
 solana-keygen
+cargo-lock
