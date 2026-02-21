@@ -11,3 +11,4 @@ rpki
 remove_dir_all
 winpty-rs
 datavzrd
+ratatui-image
