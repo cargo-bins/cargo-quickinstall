@@ -36,3 +36,4 @@ azure-pim-cli
 wmi
 avm
 index_camera_passthrough
+winpty-rs
