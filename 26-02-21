@@ -17,3 +17,4 @@ dotenv
 solana-genesis
 tree-sitter-md
 iai-callgrind-runner
+cargo-lock
