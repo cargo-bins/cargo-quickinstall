@@ -28,3 +28,4 @@ cargo-unused-features
 avm
 azure-pim-cli
 rpki
+remove_dir_all
