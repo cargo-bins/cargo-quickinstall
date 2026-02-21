@@ -14,3 +14,4 @@ fcp
 addr2line
 wmi
 miden-crypto
+graphql_client_cli
