@@ -12,3 +12,4 @@ remove_dir_all
 wmi
 datavzrd
 winpty-rs
+datavzrd
