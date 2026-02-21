@@ -17,3 +17,4 @@ tree-sitter-cli
 wmi
 miden-crypto
 graphql_client_cli
+addr2line
