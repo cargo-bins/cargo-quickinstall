@@ -14,3 +14,4 @@ winpty-rs
 datavzrd
 ratatui-image
 tree_magic
+dotenv
