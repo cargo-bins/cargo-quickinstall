@@ -11,3 +11,4 @@ vdev
 xargo
 qmassa
 fcp
+addr2line
