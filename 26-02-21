@@ -4,3 +4,4 @@ xargo
 wmi
 graphql_client_cli
 rpki
+remove_dir_all
