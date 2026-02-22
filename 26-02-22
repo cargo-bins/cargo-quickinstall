@@ -24,3 +24,4 @@ maliput-sdk
 cargo-seek
 netop
 crates-tui
+esp-config
