@@ -33,3 +33,4 @@ bluetui
 simple-http-server
 mise
 cargo-override
+nu_plugin_query
