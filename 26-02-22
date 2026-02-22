@@ -2,3 +2,4 @@ build-fs-tree
 schemafy
 diesel_cli
 rrule
+safe_network
