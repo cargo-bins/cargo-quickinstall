@@ -5,3 +5,4 @@ rrule
 crypto-cli-tools
 maliput-sdk
 skim
+clap-stdin
