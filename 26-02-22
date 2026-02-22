@@ -5,3 +5,4 @@ schemafy
 radio-sx128x
 cargo-dylint
 cargo-dylint
+diesel_cli
