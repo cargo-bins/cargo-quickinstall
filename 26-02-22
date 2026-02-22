@@ -32,3 +32,4 @@ leetcode-cli
 bluetui
 simple-http-server
 mise
+cargo-override
