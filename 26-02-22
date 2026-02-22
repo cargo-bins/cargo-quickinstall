@@ -13,3 +13,4 @@ cargo-override
 termusic
 tailscale-systray
 rav1e
+maliput-sdk
