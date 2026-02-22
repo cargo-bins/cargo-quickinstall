@@ -14,3 +14,4 @@ cargo-override
 ragit
 safe_network
 rustfinity
+xargo
