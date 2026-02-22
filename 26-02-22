@@ -21,3 +21,4 @@ cargo-override
 tailscale-systray
 mdbook-linkcheck2
 comet
+termusic-server
