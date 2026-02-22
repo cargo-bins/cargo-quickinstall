@@ -4,3 +4,4 @@ ragit
 deploy
 cargo-whatfeatures
 rrule
+cargo-override
