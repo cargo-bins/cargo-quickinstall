@@ -12,3 +12,4 @@ esp-config
 mit-pre-commit
 wallust
 wallust
+clap-stdin
