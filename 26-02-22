@@ -18,3 +18,4 @@ xargo
 crypto-cli-tools
 cargo-whatfeatures
 cargo-override
+tailscale-systray
