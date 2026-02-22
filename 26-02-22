@@ -5,3 +5,4 @@ deploy
 cargo-whatfeatures
 rrule
 cargo-override
+nu_plugin_query
