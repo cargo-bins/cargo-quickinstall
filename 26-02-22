@@ -3,3 +3,4 @@ deploy
 diesel_cli
 rrule
 crypto-cli-tools
+maliput-sdk
