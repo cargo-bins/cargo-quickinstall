@@ -27,3 +27,4 @@ valknut-rs
 rustfinity
 cargo-override
 eitype
+simple-http-server
