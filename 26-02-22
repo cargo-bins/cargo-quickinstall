@@ -7,3 +7,4 @@ crypto-cli-tools
 maliput-sdk
 skim
 esp-config
+clap-stdin
