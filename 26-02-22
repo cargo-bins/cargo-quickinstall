@@ -8,3 +8,4 @@ cargo-override
 nu_plugin_query
 runst
 crypto-cli-tools
+comet
