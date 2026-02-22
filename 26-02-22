@@ -23,3 +23,4 @@ osintui
 maliput-sdk
 cargo-seek
 netop
+crates-tui
