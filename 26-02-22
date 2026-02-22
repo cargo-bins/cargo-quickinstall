@@ -3,3 +3,4 @@ build-fs-tree
 radio-sx128x
 schemafy
 radio-sx128x
+cargo-dylint
