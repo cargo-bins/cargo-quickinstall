@@ -2,3 +2,4 @@ build-fs-tree
 schemafy
 deploy
 cargo-count
+libcst
