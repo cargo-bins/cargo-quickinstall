@@ -6,3 +6,4 @@ simple-http-server
 cargo-dylint
 build-fs-tree
 eitype
+superseedr
