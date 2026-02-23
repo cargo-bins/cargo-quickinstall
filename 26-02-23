@@ -17,3 +17,4 @@ iai-callgrind-runner
 git-disjoint
 dotenv-flow
 datavzrd
+diesel_cli
