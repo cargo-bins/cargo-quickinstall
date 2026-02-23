@@ -12,3 +12,4 @@ solana-validator
 dotenv-flow
 dioxus-cli
 datavzrd
+socketcan
