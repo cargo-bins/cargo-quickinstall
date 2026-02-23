@@ -2,3 +2,4 @@ rustdesk
 valknut-rs
 cargo-dylint
 tailscale-systray
+simple-http-server
