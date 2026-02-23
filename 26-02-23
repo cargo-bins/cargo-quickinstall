@@ -3,3 +3,4 @@ cargo-override
 cargo-dylint
 build-fs-tree
 superseedr
+rustdesk
