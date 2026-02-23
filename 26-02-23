@@ -7,3 +7,4 @@ solana-validator
 dotenv-flow
 datavzrd
 cargo-lock
+socketcan
