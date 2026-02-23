@@ -36,3 +36,4 @@ cargo-minify
 datavzrd
 cargo-lock
 socketcan
+xcp
