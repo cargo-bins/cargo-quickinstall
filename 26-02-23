@@ -5,3 +5,4 @@ tailscale-systray
 simple-http-server
 cargo-dylint
 build-fs-tree
+eitype
