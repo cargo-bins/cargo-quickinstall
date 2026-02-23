@@ -14,3 +14,4 @@ solana-validator
 dotenv-flow
 datavzrd
 socketcan
+iai-callgrind-runner
