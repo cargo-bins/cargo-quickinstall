@@ -35,3 +35,4 @@ beads_rust
 cargo-minify
 datavzrd
 cargo-lock
+socketcan
