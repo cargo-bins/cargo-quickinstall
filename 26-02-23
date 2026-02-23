@@ -2,3 +2,4 @@ openpty
 build-fs-tree
 dioxus-cli
 git-disjoint
+human_name
