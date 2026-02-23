@@ -26,3 +26,4 @@ sea-orm-cli
 oxipng
 solana-validator
 rustdesk
+dotenv-flow
