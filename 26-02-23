@@ -1,2 +1,3 @@
 termusic-server
 cargo-override
+cargo-dylint
