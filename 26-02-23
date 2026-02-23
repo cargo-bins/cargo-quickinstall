@@ -31,3 +31,4 @@ datavzrd
 hurl
 cargo-minify
 socketcan
+tlmcmddb-cli
