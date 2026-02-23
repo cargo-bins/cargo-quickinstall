@@ -38,3 +38,4 @@ cargo-lock
 socketcan
 xcp
 xcp
+beads_rust
