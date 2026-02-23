@@ -8,3 +8,4 @@ sea-orm-cli
 human_name
 pijul
 sass-rs
+cargo-minify
