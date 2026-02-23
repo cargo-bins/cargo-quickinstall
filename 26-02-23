@@ -4,3 +4,4 @@ cargo-dylint
 build-fs-tree
 superseedr
 rustdesk
+sea-orm-cli
