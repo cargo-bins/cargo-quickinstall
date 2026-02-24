@@ -4,3 +4,4 @@ dicom-pixeldata
 sequoia-policy-config
 perfcnt
 statime-linux
+tracing-durations-export
