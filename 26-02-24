@@ -5,3 +5,4 @@ controller
 dicom-pixeldata
 perfcnt
 laminar
+tracing-durations-export
