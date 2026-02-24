@@ -5,3 +5,4 @@ controller
 dicom-pixeldata
 sequoia-policy-config
 perfcnt
+tracing-durations-export
