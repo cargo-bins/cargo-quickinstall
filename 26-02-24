@@ -7,3 +7,4 @@ rustfmt
 laminar
 statime-linux
 tracing-durations-export
+honggfuzz
