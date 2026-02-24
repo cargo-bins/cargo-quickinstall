@@ -12,3 +12,4 @@ beads_rust
 xcp
 rust_pixel
 youtui
+tracing-durations-export
