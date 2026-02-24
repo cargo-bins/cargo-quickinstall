@@ -3,3 +3,4 @@ spl-token-cli
 httpmock
 controller
 dicom-pixeldata
+sequoia-policy-config
