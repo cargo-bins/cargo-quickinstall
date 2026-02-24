@@ -14,3 +14,4 @@ project_init
 nextest
 bluetui
 jj
+beads_rust
