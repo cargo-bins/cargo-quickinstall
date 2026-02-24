@@ -3,3 +3,4 @@ ec2_instance_metadata
 httpmock
 dicom-pixeldata
 perfcnt
+rustfmt
