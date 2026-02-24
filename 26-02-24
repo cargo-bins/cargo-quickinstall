@@ -4,3 +4,4 @@ httpmock
 dicom-pixeldata
 perfcnt
 rustfmt
+laminar
