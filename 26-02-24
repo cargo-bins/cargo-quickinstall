@@ -10,3 +10,4 @@ sea-orm-cli
 dicom-pixeldata
 beads_rust
 xcp
+rust_pixel
