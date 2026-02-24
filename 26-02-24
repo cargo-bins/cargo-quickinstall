@@ -12,3 +12,4 @@ diesel_cli
 statime-linux
 jujutsu
 tracing-durations-export
+honggfuzz
