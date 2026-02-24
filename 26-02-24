@@ -5,3 +5,4 @@ spl-token-cli
 httpmock
 controller
 dicom-pixeldata
+diesel_cli
