@@ -11,3 +11,4 @@ jujutsu
 diesel_cli
 statime-linux
 jujutsu
+tracing-durations-export
