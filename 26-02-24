@@ -12,3 +12,4 @@ tracing-durations-export
 beads_rust
 project_init
 nextest
+bluetui
