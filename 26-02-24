@@ -4,3 +4,4 @@ httpmock
 controller
 dicom-pixeldata
 sequoia-policy-config
+perfcnt
