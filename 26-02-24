@@ -7,3 +7,4 @@ spl-token-cli
 httpmock
 controller
 sea-orm-cli
+dicom-pixeldata
