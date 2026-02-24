@@ -17,3 +17,4 @@ project_init
 bun
 honggfuzz
 bun
+safe_network
