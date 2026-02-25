@@ -13,3 +13,4 @@ ext-sort
 ruff
 rpki
 kanidm_tools
+cargo-unused-features
