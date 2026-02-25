@@ -22,3 +22,4 @@ cargo-unused-features
 ruff
 sea-orm-cli
 oracle-tui
+avif-decode
