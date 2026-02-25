@@ -20,3 +20,4 @@ cargo-unused-features
 mdcat
 sea-orm-cli
 jj
+jujutsu
