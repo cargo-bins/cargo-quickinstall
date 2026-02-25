@@ -11,3 +11,4 @@ cargo-public-api
 xbuild
 ext-sort
 ruff
+sea-orm-cli
