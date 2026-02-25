@@ -13,3 +13,4 @@ ext-sort
 ruff
 sea-orm-cli
 rpki
+mdcat
