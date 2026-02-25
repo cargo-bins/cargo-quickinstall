@@ -20,3 +20,4 @@ avif-decode
 terminal_gameboy
 cargo-unused-features
 ruff
+sea-orm-cli
