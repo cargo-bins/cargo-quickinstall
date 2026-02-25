@@ -13,3 +13,4 @@ rpki
 beads_rust
 ncspot
 dotenv-flow
+lux-cli
