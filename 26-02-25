@@ -16,3 +16,4 @@ rpki
 mdcat
 ruff
 solana-keygen
+cargo-unused-features
