@@ -25,3 +25,4 @@ oracle-tui
 avif-decode
 cargo-unused-features
 jujutsu
+worker-build
