@@ -10,3 +10,4 @@ httpmock
 cargo-public-api
 xbuild
 ext-sort
+ruff
