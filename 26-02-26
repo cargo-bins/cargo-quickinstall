@@ -25,3 +25,4 @@ cargo-public-api
 worker-build
 clipsync
 gpg-tui
+mlt
