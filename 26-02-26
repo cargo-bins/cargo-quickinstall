@@ -15,3 +15,4 @@ git-branchless
 solana-tokens
 laminar
 cargo-progenitor
+rls-rustc
