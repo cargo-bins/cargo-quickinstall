@@ -31,3 +31,4 @@ worker-build
 rusthound-ce
 laurel
 clipsync
+cargo-public-api
