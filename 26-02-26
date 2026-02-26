@@ -13,3 +13,4 @@ cargo-public-api
 laurel
 rusthound-ce
 spider_cli
+pwninit
