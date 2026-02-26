@@ -6,3 +6,4 @@ cargo-public-api
 oracle-tui
 rpki
 kanidm_tools
+tree-sitter-cli
