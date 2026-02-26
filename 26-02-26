@@ -3,3 +3,4 @@ tendermint-rpc
 laurel
 cargo-unused-features
 cargo-public-api
+oracle-tui
