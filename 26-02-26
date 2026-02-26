@@ -5,3 +5,4 @@ paperclip
 dprint
 laminar
 pwasm-utils
+addr2line
