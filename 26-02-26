@@ -6,3 +6,4 @@ dprint
 laminar
 pwasm-utils
 addr2line
+rust-bert
