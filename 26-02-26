@@ -2,3 +2,4 @@ tendermint-rpc
 terminal_gameboy
 mlt
 worker-build
+cargo-hot
