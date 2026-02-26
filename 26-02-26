@@ -39,3 +39,4 @@ rust-bert
 cargo-public-api
 wl-screenrec
 clipsync
+worker-build
