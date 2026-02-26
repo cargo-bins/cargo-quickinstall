@@ -16,3 +16,4 @@ laminar
 rls-rustc
 cargo-mobile2
 rust-bert
+addr2line
