@@ -1,3 +1,4 @@
 worker-build
 tendermint-rpc
 laurel
+cargo-unused-features
