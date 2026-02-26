@@ -2,3 +2,4 @@ tendermint-rpc
 rpki
 lance
 statsig-rs
+spider_cli
