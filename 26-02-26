@@ -5,3 +5,4 @@ cargo-unused-features
 cargo-public-api
 oracle-tui
 rpki
+kanidm_tools
