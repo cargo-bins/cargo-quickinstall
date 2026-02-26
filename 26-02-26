@@ -23,3 +23,4 @@ vdev
 laminar
 cargo-public-api
 worker-build
+clipsync
