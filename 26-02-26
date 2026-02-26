@@ -25,3 +25,4 @@ kanidm_tools
 addr2line
 git-branchless
 termusic
+rust-bert
