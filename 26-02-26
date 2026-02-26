@@ -22,3 +22,4 @@ solana-cli
 vdev
 laminar
 cargo-public-api
+worker-build
