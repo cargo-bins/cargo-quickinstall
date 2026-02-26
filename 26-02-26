@@ -40,3 +40,4 @@ cargo-public-api
 mlt
 pwninit
 alacritty
+cargo-dylint
