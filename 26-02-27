@@ -8,3 +8,4 @@ maliput-sdk
 sass-rs
 tree-sitter-cli
 holochain
+solana-gossip
