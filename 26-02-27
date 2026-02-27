@@ -11,3 +11,4 @@ holochain
 solana-gossip
 az-snp-vtpm
 quick-junit
+spl-token-cli
