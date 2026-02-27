@@ -36,3 +36,4 @@ esp-config
 sass-rs
 tree-sitter-cli
 jujutsu
+parquet
