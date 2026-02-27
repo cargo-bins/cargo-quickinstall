@@ -44,3 +44,4 @@ spl-token-cli
 dotenv-flow
 diesel_cli
 laminar
+esp-config
