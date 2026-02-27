@@ -14,3 +14,4 @@ parquet
 whisper_cli
 dioxus-cli
 solana-gossip
+openpty
