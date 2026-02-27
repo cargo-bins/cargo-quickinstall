@@ -53,3 +53,4 @@ libbpf-cargo
 tgt
 gumbo
 rewrk
+quick-junit
