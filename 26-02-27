@@ -40,3 +40,4 @@ kanidm_tools
 az-snp-vtpm
 esp-config
 quick-junit
+spl-token-cli
