@@ -56,3 +56,4 @@ rewrk
 quick-junit
 cargo-script
 spl-token-cli
+dotenv-flow
