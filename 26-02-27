@@ -42,3 +42,4 @@ esp-config
 quick-junit
 spl-token-cli
 dotenv-flow
+diesel_cli
