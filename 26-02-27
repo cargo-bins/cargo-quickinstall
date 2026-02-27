@@ -8,3 +8,4 @@ sass-rs
 tree-sitter-cli
 parquet
 holochain
+solana-gossip
