@@ -11,3 +11,4 @@ diesel_cli
 openpty
 z3tracer
 diesel_cli
+whisper_cli
