@@ -11,3 +11,4 @@ stellar-strkey
 cargo-spellcheck
 maliput-sdk
 sass-rs
+tree-sitter-cli
