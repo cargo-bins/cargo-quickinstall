@@ -25,3 +25,4 @@ diesel_cli
 libbpf-cargo
 stellar-strkey
 xbuild
+cargo-spellcheck
