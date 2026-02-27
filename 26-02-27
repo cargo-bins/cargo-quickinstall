@@ -9,3 +9,4 @@ rusthound-ce
 jujutsu
 cached-path
 tgt
+libbpf-cargo
