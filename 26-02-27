@@ -34,3 +34,4 @@ cargo-dylint
 alacritty
 esp-config
 sass-rs
+tree-sitter-cli
