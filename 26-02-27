@@ -15,3 +15,4 @@ quick-junit
 spl-token-cli
 dotenv-flow
 laminar
+spider_worker
