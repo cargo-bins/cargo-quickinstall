@@ -10,3 +10,4 @@ pwninit
 cached-path
 alacritty
 diesel_cli
+libbpf-cargo
