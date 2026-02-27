@@ -17,3 +17,4 @@ diesel_cli
 dotenv-flow
 whisper_cli
 laminar
+diesel_cli
