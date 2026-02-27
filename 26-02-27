@@ -7,3 +7,4 @@ whisper_cli
 whisper_cli
 parquet
 solana-gossip
+diesel_cli
