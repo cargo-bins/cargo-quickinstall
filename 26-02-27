@@ -9,3 +9,4 @@ maliput-sdk
 sass-rs
 holochain
 solana-gossip
+openpty
