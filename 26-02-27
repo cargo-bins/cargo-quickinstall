@@ -13,3 +13,4 @@ jless
 maliput-sdk
 cargo-spellcheck
 sass-rs
+tree-sitter-cli
