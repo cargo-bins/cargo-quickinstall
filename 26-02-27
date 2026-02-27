@@ -26,3 +26,4 @@ maliput-sdk
 xbuild
 cargo-spellcheck
 cargo-dylint
+gumbo
