@@ -29,3 +29,4 @@ cargo-spellcheck
 xbuild
 maliput-sdk
 cargo-spellcheck
+tree-sitter-cli
