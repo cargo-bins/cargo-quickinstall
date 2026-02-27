@@ -31,3 +31,4 @@ maliput-sdk
 cargo-spellcheck
 tree-sitter-cli
 cargo-dylint
+alacritty
