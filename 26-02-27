@@ -27,3 +27,4 @@ xbuild
 cargo-spellcheck
 cargo-dylint
 gumbo
+sass-rs
