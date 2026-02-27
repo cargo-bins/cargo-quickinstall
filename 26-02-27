@@ -17,3 +17,4 @@ oso
 worker-build
 gpg-tui
 diesel_cli
+tree-sitter-cli
