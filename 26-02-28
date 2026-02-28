@@ -5,3 +5,4 @@ sniffnet
 vdev
 cargo-seek
 cached-path
+wol-rs
