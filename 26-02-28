@@ -17,3 +17,4 @@ pandora_box
 tendermint-abci
 cargo-leptos
 dotenv-flow
+httpbis
