@@ -17,3 +17,4 @@ build-fs-tree
 unic-langid-impl
 re_query
 libcst
+dioxus-cli
