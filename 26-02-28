@@ -20,3 +20,4 @@ nexmark
 pandora_box
 tendermint-abci
 dotenv-flow
+build-fs-tree
