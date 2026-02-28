@@ -3,3 +3,4 @@ cargo-seek
 wol-rs
 sniffnet
 asak
+cached-path
