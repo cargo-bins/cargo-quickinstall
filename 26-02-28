@@ -14,3 +14,4 @@ nexmark
 fake
 tendermint-abci
 dotenv-flow
+build-fs-tree
