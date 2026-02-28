@@ -5,3 +5,4 @@ oso
 dbus-codegen
 cargo-override
 cargo-override
+solana-validator
