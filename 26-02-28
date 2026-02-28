@@ -31,3 +31,4 @@ graphql_client_cli
 mdcat
 process_viewer
 cargo-script
+nexmark
