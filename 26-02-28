@@ -45,3 +45,4 @@ build-fs-tree
 snipt
 cargo-seek
 deepwiki-rs
+graphql_client_cli
