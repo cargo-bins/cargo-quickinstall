@@ -4,3 +4,4 @@ dbus-codegen
 solana-validator
 tree_magic
 kani-verifier
+tendermint-abci
