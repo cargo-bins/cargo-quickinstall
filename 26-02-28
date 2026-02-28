@@ -33,3 +33,4 @@ process_viewer
 cargo-script
 nexmark
 quick-junit
+snipt
