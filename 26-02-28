@@ -16,3 +16,4 @@ tendermint-abci
 dotenv-flow
 build-fs-tree
 unic-langid-impl
+re_query
