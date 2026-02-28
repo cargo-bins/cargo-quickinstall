@@ -11,3 +11,4 @@ cargo-override
 cargo-override
 tendermint-abci
 cargo-override
+git-disjoint
