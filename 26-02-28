@@ -3,3 +3,4 @@ cached-path
 dbus-codegen
 solana-validator
 tree_magic
+kani-verifier
