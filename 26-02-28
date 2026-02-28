@@ -20,3 +20,4 @@ dotenv-flow
 httpbis
 build-fs-tree
 cargo-generate
+re_query
