@@ -4,3 +4,4 @@ dioxus-cli
 dbus-codegen
 solana-validator
 tree_magic
+git-disjoint
