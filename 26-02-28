@@ -25,3 +25,4 @@ asak
 tendermint-abci
 cargo-seek
 git-disjoint
+cached-path
