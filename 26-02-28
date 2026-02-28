@@ -41,3 +41,4 @@ tree-sitter-graph
 dotenv-flow
 cargo-seek
 mise
+build-fs-tree
