@@ -46,3 +46,4 @@ snipt
 cargo-seek
 deepwiki-rs
 graphql_client_cli
+tree-sitter-graph
