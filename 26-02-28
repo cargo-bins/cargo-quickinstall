@@ -36,3 +36,4 @@ binstall
 tendermint-abci
 cargo-leptos
 dotenv-flow
+dua-cli
