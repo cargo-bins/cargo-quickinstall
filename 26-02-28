@@ -32,3 +32,4 @@ mdcat
 process_viewer
 cargo-script
 nexmark
+quick-junit
