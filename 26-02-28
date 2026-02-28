@@ -53,3 +53,4 @@ worker-build
 cargo-seek
 deepwiki-rs
 re_query
+tree-sitter-cli
