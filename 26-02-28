@@ -6,3 +6,4 @@ vdev
 cargo-seek
 cached-path
 wol-rs
+esp-config
