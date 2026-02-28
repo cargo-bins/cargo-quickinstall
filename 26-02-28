@@ -55,3 +55,4 @@ deepwiki-rs
 re_query
 tree-sitter-cli
 graphql_client_cli
+dioxus-cli
