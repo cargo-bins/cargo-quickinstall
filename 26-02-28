@@ -13,3 +13,4 @@ fake
 nexmark
 fake
 tendermint-abci
+dotenv-flow
