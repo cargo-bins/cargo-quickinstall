@@ -19,3 +19,4 @@ cargo-leptos
 dotenv-flow
 httpbis
 build-fs-tree
+cargo-generate
