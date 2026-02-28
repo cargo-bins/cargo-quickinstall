@@ -3,3 +3,4 @@ wol-rs
 cached-path
 oso
 dbus-codegen
+cargo-override
