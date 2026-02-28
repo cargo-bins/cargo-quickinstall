@@ -33,3 +33,4 @@ nextest
 fake
 localgpt
 binstall
+tendermint-abci
