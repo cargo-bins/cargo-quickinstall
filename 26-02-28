@@ -6,3 +6,4 @@ dbus-codegen
 cargo-override
 cargo-override
 solana-validator
+tree_magic
