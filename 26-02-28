@@ -18,3 +18,4 @@ tendermint-abci
 cargo-leptos
 dotenv-flow
 httpbis
+build-fs-tree
