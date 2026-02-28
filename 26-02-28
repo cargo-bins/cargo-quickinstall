@@ -15,3 +15,4 @@ esp-config
 a11ywatch_cli
 dioxus-cli
 asak
+dbus-codegen
