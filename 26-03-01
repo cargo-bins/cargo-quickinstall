@@ -39,3 +39,4 @@ nominal-api
 rpki
 slint-lsp
 ducc-sys
+nu_plugin_query
