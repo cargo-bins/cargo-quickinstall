@@ -7,3 +7,4 @@ cargo-dylint
 lowfi
 tree-sitter-graph
 cached-path
+cargo-pgrx
