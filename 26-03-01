@@ -8,3 +8,4 @@ lowfi
 tree-sitter-graph
 cached-path
 cargo-pgrx
+dotenvy
