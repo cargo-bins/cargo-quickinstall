@@ -30,3 +30,4 @@ nu_plugin_query
 xargo
 youtui
 nu_plugin_gstat
+slint-lsp
