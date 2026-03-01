@@ -32,3 +32,4 @@ bevy_sprinkles_editor
 diesel_cli
 uniffi
 protox
+nu_plugin_query
