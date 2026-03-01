@@ -4,3 +4,4 @@ socketcan
 dua-cli
 kani-verifier
 cached-path
+dotenvy
