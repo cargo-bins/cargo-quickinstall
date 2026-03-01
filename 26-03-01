@@ -5,3 +5,4 @@ socketcan
 cached-path
 dotenvy
 git-disjoint
+wol-rs
