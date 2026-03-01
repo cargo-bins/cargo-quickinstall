@@ -11,3 +11,4 @@ coldsnap
 wol-rs
 arrow-flight
 bpf-linker
+qsv
