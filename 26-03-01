@@ -37,3 +37,4 @@ uniffi
 nu_plugin_gstat
 nominal-api
 rpki
+slint-lsp
