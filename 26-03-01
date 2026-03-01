@@ -31,3 +31,4 @@ nu_plugin_query
 bevy_sprinkles_editor
 diesel_cli
 uniffi
+protox
