@@ -11,3 +11,4 @@ cargo-pgrx
 dotenvy
 mise
 tree-sitter-graph
+git-disjoint
