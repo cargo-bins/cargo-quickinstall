@@ -10,3 +10,4 @@ cargo-dylint
 cached-path
 dotenvy
 git-disjoint
+wol-rs
