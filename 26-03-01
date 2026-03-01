@@ -6,3 +6,4 @@ cargo-dylint
 cargo-dylint
 lowfi
 tree-sitter-graph
+cached-path
