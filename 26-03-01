@@ -11,3 +11,4 @@ wol-rs
 arrow-flight
 bpf-linker
 dua-cli
+qsv
