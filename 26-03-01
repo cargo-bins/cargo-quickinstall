@@ -16,3 +16,4 @@ nu_plugin_gstat
 slint-lsp
 lowfi
 git-disjoint
+wol-rs
