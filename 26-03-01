@@ -5,3 +5,4 @@ git-disjoint
 socketcan
 kani-verifier
 cached-path
+dotenvy
