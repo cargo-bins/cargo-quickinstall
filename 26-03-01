@@ -8,3 +8,4 @@ cargo-dylint
 cached-path
 cargo-dylint
 dotenvy
+git-disjoint
