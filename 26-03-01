@@ -10,3 +10,4 @@ cargo-dylint
 dotenvy
 git-disjoint
 wol-rs
+arrow-flight
