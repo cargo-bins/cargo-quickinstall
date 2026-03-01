@@ -5,3 +5,4 @@ socketcan
 cargo-dylint
 cargo-dylint
 lowfi
+tree-sitter-graph
