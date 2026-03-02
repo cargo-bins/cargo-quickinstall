@@ -9,3 +9,4 @@ minicbor
 statsig-rs
 tendermint-abci
 elma-tui
+opencv-binding-generator
