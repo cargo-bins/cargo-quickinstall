@@ -12,3 +12,4 @@ winpty-rs
 dbus-codegen
 controller
 nkeys
+solana-cli
