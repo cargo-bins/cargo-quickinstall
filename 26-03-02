@@ -14,3 +14,4 @@ controller
 nkeys
 solana-cli
 wmi
+cargo-spellcheck
