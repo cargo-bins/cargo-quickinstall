@@ -2,3 +2,4 @@ unic-langid-impl
 text-diff
 sn_node_rpc_client
 cargo-risczero
+minicbor
