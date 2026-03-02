@@ -7,3 +7,4 @@ cargo-dylint
 codestyle
 nu_plugin_gstat
 minicbor
+maliput
