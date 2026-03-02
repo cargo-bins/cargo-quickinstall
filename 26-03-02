@@ -10,3 +10,4 @@ unic-langid-impl
 winpty-rs
 dbus-codegen
 nkeys
+wmi
