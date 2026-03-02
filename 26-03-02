@@ -39,3 +39,4 @@ kble-serialport
 kble-eb90
 sniffnet
 cargo-patch
+solana-cli
