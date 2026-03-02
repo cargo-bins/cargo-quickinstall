@@ -10,3 +10,4 @@ exa
 unic-langid-impl
 winpty-rs
 dbus-codegen
+coldsnap
