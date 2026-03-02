@@ -7,3 +7,4 @@ opencv-binding-generator
 fake
 z3tracer
 unic-langid-impl
+winpty-rs
