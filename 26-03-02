@@ -2,3 +2,4 @@ cargo-risczero
 minicbor
 maliput
 statsig-rs
+tendermint-abci
