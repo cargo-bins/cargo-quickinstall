@@ -12,3 +12,4 @@ winpty-rs
 dbus-codegen
 dprint
 nkeys
+wmi
