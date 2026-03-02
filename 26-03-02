@@ -5,3 +5,4 @@ cargo-risczero
 minicbor
 opencv-binding-generator
 fake
+z3tracer
