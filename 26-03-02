@@ -3,3 +3,4 @@ minicbor
 tendermint-abci
 cargo-i18n
 crypto-cli-tools
+fake
