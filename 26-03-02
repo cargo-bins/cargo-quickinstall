@@ -3,3 +3,4 @@ nu_plugin_query
 unic-langid-impl
 slint-lsp
 nu_plugin_gstat
+cargo-dylint
