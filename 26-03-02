@@ -5,3 +5,4 @@ maliput
 statsig-rs
 tendermint-abci
 opencv-binding-generator
+crypto-cli-tools
