@@ -4,3 +4,4 @@ maliput
 statsig-rs
 tendermint-abci
 opencv-binding-generator
+fake
