@@ -6,3 +6,4 @@ nu_plugin_gstat
 cargo-dylint
 codestyle
 nu_plugin_gstat
+minicbor
