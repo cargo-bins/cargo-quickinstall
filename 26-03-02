@@ -12,3 +12,4 @@ dbus-codegen
 nkeys
 wmi
 cargo-spellcheck
+maliput-sdk
