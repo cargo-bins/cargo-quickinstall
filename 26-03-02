@@ -17,3 +17,4 @@ z3tracer
 cargo-dylint
 unic-langid-impl
 winpty-rs
+sea-orm-cli
