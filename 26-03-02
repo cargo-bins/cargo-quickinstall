@@ -10,3 +10,4 @@ statsig-rs
 tendermint-abci
 elma-tui
 opencv-binding-generator
+sea-orm-cli
