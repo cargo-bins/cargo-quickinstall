@@ -11,3 +11,4 @@ winpty-rs
 dbus-codegen
 nkeys
 wmi
+cargo-spellcheck
