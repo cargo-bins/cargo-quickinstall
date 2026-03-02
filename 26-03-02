@@ -4,3 +4,4 @@ unic-langid-impl
 slint-lsp
 nu_plugin_gstat
 cargo-dylint
+codestyle
