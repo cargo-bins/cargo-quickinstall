@@ -13,3 +13,4 @@ dbus-codegen
 dprint
 nkeys
 wmi
+cargo-spellcheck
