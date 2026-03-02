@@ -10,3 +10,4 @@ fake
 z3tracer
 unic-langid-impl
 winpty-rs
+dbus-codegen
