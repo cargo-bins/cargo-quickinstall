@@ -9,3 +9,4 @@ winpty-rs
 dbus-codegen
 nkeys
 dioxus-cli
+wmi
