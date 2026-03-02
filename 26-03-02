@@ -12,3 +12,4 @@ bevy_sprinkles_editor
 statsig-rs
 diesel_cli
 localgpt
+opencv-binding-generator
