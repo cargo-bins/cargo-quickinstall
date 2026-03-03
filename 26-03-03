@@ -48,3 +48,4 @@ cargo-embassy
 ripdrag
 cargo-licenses
 kble-serialport
+safe_network
