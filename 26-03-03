@@ -6,3 +6,4 @@ kble-serialport
 dotenvy
 qsv
 av-scenechange
+simple-http-server
