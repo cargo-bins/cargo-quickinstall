@@ -8,3 +8,4 @@ nominal-api
 racer
 cargo-risczero
 fake
+clap-stdin
