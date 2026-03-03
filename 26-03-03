@@ -16,3 +16,4 @@ patch-crate
 alacritty
 cargo-info
 kble
+simple-http-server
