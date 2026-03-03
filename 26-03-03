@@ -10,3 +10,4 @@ racer
 cargo-risczero
 fake
 tree_magic
+clap-stdin
