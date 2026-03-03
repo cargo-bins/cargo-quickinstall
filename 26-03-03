@@ -12,3 +12,4 @@ tree-sitter-cli
 sea-orm-cli
 rls-rustc
 sea-orm-cli
+addr2line
