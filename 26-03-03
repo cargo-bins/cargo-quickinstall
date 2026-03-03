@@ -14,3 +14,4 @@ spotifyd
 rls-rustc
 patch-crate
 alacritty
+cargo-info
