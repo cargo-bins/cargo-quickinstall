@@ -19,3 +19,4 @@ racer
 addr2line
 fake
 addr2line
+clap-stdin
