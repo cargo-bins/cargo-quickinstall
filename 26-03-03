@@ -40,3 +40,4 @@ tree_magic
 cargo-info
 clap-stdin
 browser-use
+a11ywatch_cli
