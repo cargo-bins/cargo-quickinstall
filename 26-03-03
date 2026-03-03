@@ -11,3 +11,4 @@ sea-orm-cli
 cargo-patch
 sea-orm-cli
 nextest
+rls-rustc
