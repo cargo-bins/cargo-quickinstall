@@ -10,3 +10,4 @@ simple-http-server
 sea-orm-cli
 cargo-patch
 sea-orm-cli
+nextest
