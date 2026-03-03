@@ -10,3 +10,4 @@ sqlx-cli
 nominal-api
 racer
 cargo-risczero
+fake
