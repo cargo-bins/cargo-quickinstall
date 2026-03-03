@@ -32,3 +32,4 @@ fake
 slint-viewer
 tree_magic
 patch-crate
+slint-lsp
