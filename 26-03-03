@@ -14,3 +14,4 @@ rls-rustc
 sea-orm-cli
 addr2line
 addr2line
+nominal-api
