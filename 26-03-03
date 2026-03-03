@@ -38,3 +38,4 @@ compendium
 xargo
 tree_magic
 cargo-info
+clap-stdin
