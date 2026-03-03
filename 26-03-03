@@ -4,3 +4,4 @@ nextest-filtering
 laminar
 tlmcmddb-cli
 simple-http-server
+dotenvy
