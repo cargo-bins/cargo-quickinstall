@@ -3,3 +3,4 @@ laminar
 tree-sitter-cli
 dotenvy
 vdev
+sea-orm-cli
