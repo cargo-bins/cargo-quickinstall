@@ -2,3 +2,4 @@ nextest-filtering
 laminar
 tree-sitter-cli
 dotenvy
+sea-orm-cli
