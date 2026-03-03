@@ -7,3 +7,4 @@ rustbus
 rls-rustc
 git-mit-install
 sqlx-cli
+nominal-api
