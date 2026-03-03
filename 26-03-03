@@ -8,3 +8,4 @@ qsv
 tree-sitter-cli
 tree-sitter-cli
 sea-orm-cli
+rls-rustc
