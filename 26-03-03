@@ -9,3 +9,4 @@ rustbus
 rls-rustc
 diesel_cli
 ruff
+lll
