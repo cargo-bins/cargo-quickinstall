@@ -12,3 +12,4 @@ rls-rustc
 sea-orm-cli
 sea-orm-cli
 h3o
+addr2line
