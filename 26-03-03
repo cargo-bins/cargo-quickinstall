@@ -8,3 +8,4 @@ racer
 solana-cli
 fake
 tree_magic
+clap-stdin
