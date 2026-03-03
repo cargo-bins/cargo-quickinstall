@@ -20,3 +20,4 @@ addr2line
 fake
 addr2line
 clap-stdin
+a11ywatch_cli
