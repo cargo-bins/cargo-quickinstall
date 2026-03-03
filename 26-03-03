@@ -16,3 +16,4 @@ lll
 diesel_cli
 sqlx-cli
 nominal-api
+zellij
