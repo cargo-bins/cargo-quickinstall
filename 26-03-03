@@ -12,3 +12,4 @@ solana-cli
 fake
 solana-genesis
 tectonic
+clap-stdin
