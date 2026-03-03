@@ -8,3 +8,4 @@ qsv
 av-scenechange
 simple-http-server
 sea-orm-cli
+cargo-patch
