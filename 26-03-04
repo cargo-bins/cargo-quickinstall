@@ -13,3 +13,4 @@ termusic
 statsig-rs
 cargo-embassy
 ripdrag
+sea-orm-cli
