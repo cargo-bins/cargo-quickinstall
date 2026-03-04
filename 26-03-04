@@ -16,3 +16,4 @@ sea-orm-cli
 gpgme
 tlmcmddb-cli
 jj
+minicbor
