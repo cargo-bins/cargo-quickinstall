@@ -21,3 +21,4 @@ gpgme
 kble-serialport
 slint-viewer
 sea-orm-cli
+minicbor
