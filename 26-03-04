@@ -14,3 +14,4 @@ vdev
 magika-cli
 sea-orm-cli
 gpgme
+tlmcmddb-cli
