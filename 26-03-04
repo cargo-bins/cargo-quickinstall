@@ -5,3 +5,4 @@ gpgme
 minicbor
 deno
 textplots
+human_bytes
