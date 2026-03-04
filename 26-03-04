@@ -45,3 +45,4 @@ cargo-embassy
 magika-cli
 hurl
 az-snp-vtpm
+sea-orm-cli
