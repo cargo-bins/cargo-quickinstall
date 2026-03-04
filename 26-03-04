@@ -17,3 +17,4 @@ sea-orm-cli
 cargo-licenses
 magika-cli
 tlmcmddb-cli
+gpgme
