@@ -12,3 +12,4 @@ az-snp-vtpm
 mit-pre-commit
 holochain
 safe_network
+sn_node_rpc_client
