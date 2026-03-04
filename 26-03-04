@@ -13,3 +13,4 @@ solana-faucet
 vdev
 magika-cli
 sea-orm-cli
+gpgme
