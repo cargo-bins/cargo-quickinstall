@@ -4,3 +4,4 @@ syd
 dbus-codegen
 libcst
 rpki
+cargo-lock
