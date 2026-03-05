@@ -20,3 +20,4 @@ cargo-dylint
 gitfetch-rs
 papyrus_storage
 cargo-size
+simple-http-server
