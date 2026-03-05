@@ -3,3 +3,4 @@ sequoia-policy-config
 tagged-base64
 syd
 wallust
+dbus-codegen
