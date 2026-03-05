@@ -7,3 +7,4 @@ rpki
 cargo-lock
 xargo
 deno
+pwasm-utils
