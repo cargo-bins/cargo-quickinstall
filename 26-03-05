@@ -16,3 +16,4 @@ nail-parquet
 xargo
 pwasm-utils
 gitfetch-rs
+cargo-dylint
