@@ -43,3 +43,4 @@ crates-tui
 cargo-public-api
 bluetui
 gitfetch-rs
+hurl
