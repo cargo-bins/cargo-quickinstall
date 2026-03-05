@@ -24,3 +24,4 @@ cargo-lock
 xargo
 alacritty
 deno
+coreos-installer
