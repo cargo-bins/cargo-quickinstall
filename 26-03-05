@@ -2,3 +2,4 @@ sequoia-policy-config
 tagged-base64
 syd
 dbus-codegen
+libcst
