@@ -2,3 +2,4 @@ cargo-script
 ncspot
 sequoia-policy-config
 syd
+dbus-codegen
