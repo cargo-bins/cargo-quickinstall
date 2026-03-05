@@ -25,3 +25,4 @@ xargo
 alacritty
 deno
 coreos-installer
+pwasm-utils
