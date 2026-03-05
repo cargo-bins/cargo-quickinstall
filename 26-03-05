@@ -7,3 +7,4 @@ dbus-codegen
 cargo-lock
 xargo
 pwasm-utils
+git-mit-config
