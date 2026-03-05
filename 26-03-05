@@ -4,3 +4,4 @@ tagged-base64
 syd
 wallust
 dbus-codegen
+cargo-lock
