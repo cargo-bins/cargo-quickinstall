@@ -8,3 +8,4 @@ cargo-lock
 xargo
 pwasm-utils
 git-mit-config
+papyrus_storage
