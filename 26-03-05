@@ -27,3 +27,4 @@ deno
 coreos-installer
 pwasm-utils
 wiki-tui
+cargo-size
