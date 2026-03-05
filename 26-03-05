@@ -6,3 +6,4 @@ wallust
 dbus-codegen
 cargo-lock
 xargo
+pwasm-utils
