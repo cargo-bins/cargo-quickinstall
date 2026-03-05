@@ -22,3 +22,4 @@ papyrus_storage
 cargo-size
 simple-http-server
 stmo-cli
+hurl
