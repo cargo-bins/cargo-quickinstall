@@ -6,3 +6,4 @@ dono-cli
 tagged-base64
 coreos-installer
 pyoxidizer
+cargo-public-api
