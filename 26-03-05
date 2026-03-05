@@ -8,3 +8,4 @@ dbus-codegen
 libcst
 xargo
 pwasm-utils
+papyrus_storage
