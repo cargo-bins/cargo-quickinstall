@@ -8,3 +8,4 @@ libcst
 xargo
 jujutsu
 deno
+pwasm-utils
