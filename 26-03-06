@@ -13,3 +13,4 @@ website_crawler
 cargo-dylint
 paperclip
 diesel_cli
+dbus-codegen
