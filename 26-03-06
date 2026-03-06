@@ -12,3 +12,4 @@ dioxus-cli
 website_crawler
 cargo-dylint
 paperclip
+diesel_cli
