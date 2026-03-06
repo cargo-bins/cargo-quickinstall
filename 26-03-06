@@ -30,3 +30,4 @@ crates-tui
 dicom-pixeldata
 wizer
 feedr
+nextest-filtering
