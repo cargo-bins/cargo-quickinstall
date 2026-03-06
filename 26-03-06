@@ -3,3 +3,4 @@ borsh
 cargo-dylint
 mdcat
 gitfetch-rs
+stmo-cli
