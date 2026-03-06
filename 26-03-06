@@ -5,3 +5,4 @@ website_crawler
 dbus-codegen
 stellar-strkey
 tree-sitter-graph
+safe_network
