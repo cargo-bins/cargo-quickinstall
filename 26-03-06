@@ -55,3 +55,4 @@ lance
 worker-build
 quick-junit
 cargo-public-api
+cargo-binstall
