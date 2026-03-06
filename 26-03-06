@@ -2,3 +2,4 @@ borsh
 sqlx-cli
 pandora_box
 website_crawler
+dbus-codegen
