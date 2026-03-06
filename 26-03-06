@@ -28,3 +28,4 @@ worker-build
 mdcat
 nextest-filtering
 wizer
+pgrx-tests
