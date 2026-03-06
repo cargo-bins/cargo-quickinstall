@@ -3,3 +3,4 @@ feedr
 gitfetch-rs
 simple-http-server
 dono-cli
+diesel_cli
