@@ -34,3 +34,4 @@ nextest-filtering
 dioxus-cli
 pgrx-tests
 vm-curator
+cargo-public-api
