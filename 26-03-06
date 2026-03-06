@@ -17,3 +17,4 @@ dbus-codegen
 stmo-cli
 cargo-public-api
 lowfi
+feedr
