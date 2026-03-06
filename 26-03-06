@@ -6,3 +6,4 @@ dioxus-cli
 stellar-strkey
 tree-sitter-graph
 dicom-pixeldata
+nextest-filtering
