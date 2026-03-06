@@ -5,3 +5,4 @@ dbus-codegen
 stellar-strkey
 tree-sitter-graph
 dicom-pixeldata
+tree-sitter-cli
