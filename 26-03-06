@@ -37,3 +37,4 @@ vm-curator
 cargo-public-api
 cargo-bootimage
 alacritty
+netwatch-tui
