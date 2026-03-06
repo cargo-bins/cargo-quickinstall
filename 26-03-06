@@ -9,3 +9,4 @@ safe_network
 dicom-pixeldata
 tree-sitter-cli
 nextest-filtering
+pgrx-tests
