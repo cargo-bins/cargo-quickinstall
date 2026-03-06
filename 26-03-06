@@ -2,3 +2,4 @@ codestyle
 borsh
 cargo-dylint
 mdcat
+gitfetch-rs
