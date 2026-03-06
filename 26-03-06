@@ -6,3 +6,4 @@ dbus-codegen
 jujutsu
 jj
 stellar-strkey
+tree-sitter-graph
