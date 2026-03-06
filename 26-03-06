@@ -38,3 +38,4 @@ crates-tui
 datavzrd
 laminar
 cargo-bootimage
+sequoia-policy-config
