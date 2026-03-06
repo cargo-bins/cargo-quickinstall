@@ -24,3 +24,4 @@ crates-tui
 feedr
 simple-http-server
 wizer
+safe_network
