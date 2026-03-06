@@ -14,3 +14,4 @@ cargo-dylint
 paperclip
 diesel_cli
 dbus-codegen
+stmo-cli
