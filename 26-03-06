@@ -25,3 +25,4 @@ tree-sitter-graph
 cargo-bootimage
 feedr
 worker-build
+mdcat
