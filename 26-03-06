@@ -16,3 +16,4 @@ diesel_cli
 dbus-codegen
 stmo-cli
 cargo-public-api
+lowfi
