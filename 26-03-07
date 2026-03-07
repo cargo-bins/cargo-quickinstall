@@ -9,3 +9,4 @@ kickstart
 cpp_demangle
 miden-crypto
 mtxt
+tree_magic
