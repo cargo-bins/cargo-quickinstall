@@ -7,3 +7,4 @@ cached-path
 worker-build
 cargo-binstall
 clippy
+quick-junit
