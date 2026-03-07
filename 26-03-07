@@ -21,3 +21,4 @@ s3s-fs
 kani-verifier
 cpp_demangle
 kani-verifier
+nu_plugin_net
