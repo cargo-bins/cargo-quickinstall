@@ -11,3 +11,4 @@ dicom-pixeldata
 s3s-fs
 cpp_demangle
 miden-crypto
+text-diff
