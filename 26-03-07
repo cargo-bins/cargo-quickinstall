@@ -5,3 +5,4 @@ clippy
 openpty
 alsa-sys
 lingua
+rmesg
