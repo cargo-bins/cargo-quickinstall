@@ -2,3 +2,4 @@ safe_network
 tracing-durations-export
 clippy
 alsa-sys
+lingua
