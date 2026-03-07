@@ -2,3 +2,4 @@ safe_network
 tracing-durations-export
 quick-junit
 clippy
+openpty
