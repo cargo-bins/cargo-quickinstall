@@ -9,3 +9,4 @@ rmesg
 text-diff
 dicom-pixeldata
 s3s-fs
+cpp_demangle
