@@ -1,3 +1,4 @@
 parsync
 safe_network
 tracing-durations-export
+clippy
