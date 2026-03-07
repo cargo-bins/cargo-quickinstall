@@ -25,3 +25,4 @@ nu_plugin_net
 miden-crypto
 xcp
 kani-verifier
+nu_plugin_net
