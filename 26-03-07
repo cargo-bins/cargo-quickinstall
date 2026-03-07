@@ -4,3 +4,4 @@ clippy
 alsa-sys
 lingua
 dicom-pixeldata
+cpp_demangle
