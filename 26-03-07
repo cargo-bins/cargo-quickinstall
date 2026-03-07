@@ -24,3 +24,4 @@ miden-crypto
 cargo-public-api
 feedr
 diesel_cli
+tree_magic
