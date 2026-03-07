@@ -7,3 +7,4 @@ openpty
 fake
 parsync
 alsa-sys
+nu_plugin_net
