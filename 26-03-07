@@ -4,3 +4,4 @@ clippy
 openpty
 alsa-sys
 lingua
+dicom-pixeldata
