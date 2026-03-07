@@ -2,3 +2,4 @@ worker-build
 wizer
 tracing-durations-export
 alacritty
+cached-path
