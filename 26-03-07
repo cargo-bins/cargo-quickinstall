@@ -2,3 +2,4 @@ xplr
 worker-build
 safe_network
 cargo-binstall
+tracing-durations-export
