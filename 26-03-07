@@ -9,3 +9,4 @@ cargo-binstall
 clippy
 quick-junit
 cargo-binstall
+vdev
