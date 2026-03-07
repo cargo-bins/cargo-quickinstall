@@ -6,3 +6,4 @@ parsync
 openpty
 fake
 parsync
+alsa-sys
