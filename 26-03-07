@@ -22,3 +22,4 @@ kani-verifier
 cpp_demangle
 kani-verifier
 nu_plugin_net
+miden-crypto
