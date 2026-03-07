@@ -21,3 +21,4 @@ dicom-pixeldata
 ripunzip
 dealve-tui
 miden-crypto
+cargo-public-api
