@@ -5,3 +5,4 @@ alsa-sys
 lingua
 cargo-mutants
 dicom-pixeldata
+miden-crypto
