@@ -3,3 +3,4 @@ cached-path
 clippy
 alsa-sys
 lingua
+cargo-mutants
