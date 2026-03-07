@@ -8,3 +8,4 @@ worker-build
 cargo-binstall
 clippy
 quick-junit
+cargo-binstall
