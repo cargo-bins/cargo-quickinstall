@@ -4,3 +4,4 @@ clippy
 lingua
 papyrus_storage
 dicom-pixeldata
+cpp_demangle
