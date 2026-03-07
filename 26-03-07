@@ -5,3 +5,4 @@ openpty
 alsa-sys
 lingua
 dicom-pixeldata
+miden-crypto
