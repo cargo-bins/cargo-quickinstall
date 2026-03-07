@@ -7,3 +7,4 @@ dicom-pixeldata
 cpp_demangle
 miden-crypto
 tree_magic
+fake
