@@ -6,3 +6,4 @@ tracing-durations-export
 cached-path
 worker-build
 cargo-binstall
+clippy
