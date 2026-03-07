@@ -27,3 +27,4 @@ diesel_cli
 tree_magic
 cargo-public-api
 fake
+schemafy
