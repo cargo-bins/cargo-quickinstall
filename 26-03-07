@@ -3,3 +3,4 @@ tracing-durations-export
 quick-junit
 clippy
 openpty
+alsa-sys
