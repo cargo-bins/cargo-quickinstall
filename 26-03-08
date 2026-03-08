@@ -13,3 +13,4 @@ process_viewer
 quick-junit
 fermium
 holochain
+rls-rustc
