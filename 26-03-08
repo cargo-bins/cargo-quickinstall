@@ -58,3 +58,4 @@ rls-rustc
 typst-cli
 slint-lsp
 wiremix
+slint-viewer
