@@ -3,3 +3,4 @@ dioxus-cli
 nitro-tpm-attest
 tree-sitter-md
 winpty-rs
+wmi
