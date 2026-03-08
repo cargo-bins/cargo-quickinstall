@@ -12,3 +12,4 @@ winpty-rs
 wmi
 socketcan
 rustfmt-nightly
+process_viewer
