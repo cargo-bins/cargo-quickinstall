@@ -60,3 +60,4 @@ slint-lsp
 wiremix
 slint-viewer
 libbpf-cargo
+cargo-smart-release
