@@ -14,3 +14,4 @@ winpty-rs
 sass-rs
 socketcan
 rustfmt-nightly
+process_viewer
