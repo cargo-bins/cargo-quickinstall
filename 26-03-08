@@ -65,3 +65,4 @@ pcu
 mise
 tree-sitter-cli
 cargo-embassy
+spl-token-cli
