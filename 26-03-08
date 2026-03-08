@@ -31,3 +31,4 @@ cargo-script
 tplay
 pcu
 mise
+tree-sitter-cli
