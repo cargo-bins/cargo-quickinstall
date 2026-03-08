@@ -16,3 +16,4 @@ socketcan
 rustfmt-nightly
 process_viewer
 quick-junit
+statsig-rs
