@@ -26,3 +26,4 @@ winpty-rs
 cargo-dylint
 cargo-smart-release
 mise
+cargo-smart-release
