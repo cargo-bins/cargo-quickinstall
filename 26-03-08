@@ -23,3 +23,4 @@ dash-mpd-cli
 mise
 mise
 winpty-rs
+cargo-dylint
