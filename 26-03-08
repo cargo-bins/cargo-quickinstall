@@ -14,3 +14,4 @@ socketcan
 rustfmt-nightly
 process_viewer
 quick-junit
+rls-rustc
