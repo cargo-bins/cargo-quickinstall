@@ -8,3 +8,4 @@ sass-rs
 remove_dir_all
 burn-tch
 socketcan
+rustfmt-nightly
