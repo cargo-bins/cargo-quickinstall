@@ -4,3 +4,4 @@ cargo-script
 tree-sitter-cli
 cargo-script
 dioxus-cli
+nitro-tpm-attest
