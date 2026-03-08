@@ -63,3 +63,4 @@ cargo-show
 cargo-show
 typst-cli
 cargo-whatfeatures
+libbpf-cargo
