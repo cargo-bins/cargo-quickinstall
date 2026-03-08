@@ -64,3 +64,4 @@ cargo-smart-release
 pcu
 mise
 tree-sitter-cli
+cargo-embassy
