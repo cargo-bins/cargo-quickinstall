@@ -4,3 +4,4 @@ tree-sitter-cli
 ripunzip
 nitro-tpm-attest
 tplay
+cargo-dylint
