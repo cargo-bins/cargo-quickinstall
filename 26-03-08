@@ -42,3 +42,4 @@ tplay
 libbpf-cargo
 dash-mpd-cli
 burn-tch
+socketcan
