@@ -47,3 +47,4 @@ wiremix
 process_viewer
 quick-junit
 cargo-show
+cargo-embassy
