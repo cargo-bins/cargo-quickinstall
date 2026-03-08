@@ -51,3 +51,4 @@ cargo-embassy
 mise
 statsig-rs
 cargo-smart-release
+slint-lsp
