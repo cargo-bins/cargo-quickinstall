@@ -22,3 +22,4 @@ cargo-dylint
 dash-mpd-cli
 mise
 mise
+winpty-rs
