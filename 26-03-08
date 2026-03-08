@@ -43,3 +43,4 @@ libbpf-cargo
 dash-mpd-cli
 burn-tch
 socketcan
+cargo-smart-release
