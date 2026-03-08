@@ -40,3 +40,4 @@ cargo-script
 wiremix
 neovide
 burn-tch
+socketcan
