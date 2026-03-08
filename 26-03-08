@@ -3,3 +3,4 @@ dioxus-cli
 nitro-tpm-attest
 ext-sort
 tree-sitter-md
+winpty-rs
