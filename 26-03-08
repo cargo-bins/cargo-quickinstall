@@ -19,3 +19,4 @@ quick-junit
 statsig-rs
 rls-rustc
 spl-token-cli
+rustfmt-nightly
