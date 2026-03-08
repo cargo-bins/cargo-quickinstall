@@ -39,3 +39,4 @@ cargo-show
 libbpf-cargo
 pcu
 tplay
+libbpf-cargo
