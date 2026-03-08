@@ -6,3 +6,4 @@ nitro-tpm-attest
 tplay
 cargo-dylint
 ncspot
+diesel_cli
