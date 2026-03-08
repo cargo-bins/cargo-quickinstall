@@ -30,3 +30,4 @@ cargo-smart-release
 tree-sitter-cli
 tplay
 cargo-smart-release
+cargo-script
