@@ -38,3 +38,4 @@ sass-rs
 cargo-show
 libbpf-cargo
 pcu
+tplay
