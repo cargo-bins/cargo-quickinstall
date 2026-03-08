@@ -40,3 +40,4 @@ libbpf-cargo
 pcu
 tplay
 libbpf-cargo
+dash-mpd-cli
