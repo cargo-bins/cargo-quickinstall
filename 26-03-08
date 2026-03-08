@@ -13,3 +13,4 @@ winpty-rs
 wmi
 sass-rs
 socketcan
+rustfmt-nightly
