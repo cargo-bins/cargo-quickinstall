@@ -22,3 +22,4 @@ winpty-rs
 ncspot
 cargo-script
 ncspot
+tree-sitter-cli
