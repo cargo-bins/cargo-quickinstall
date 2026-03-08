@@ -53,3 +53,4 @@ statsig-rs
 cargo-smart-release
 slint-lsp
 libbpf-cargo
+typst-cli
