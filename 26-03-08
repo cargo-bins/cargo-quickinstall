@@ -10,3 +10,4 @@ diesel_cli
 dash-mpd-cli
 cargo-show
 dash-mpd-cli
+tree-sitter-cli
