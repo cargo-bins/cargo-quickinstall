@@ -57,3 +57,4 @@ statsig-rs
 libbpf-cargo
 cargo-smart-release
 pcu
+ncspot
