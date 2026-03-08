@@ -20,3 +20,4 @@ quick-junit
 holochain
 rls-rustc
 datavzrd
+rustfmt-nightly
