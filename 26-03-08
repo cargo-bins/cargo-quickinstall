@@ -59,3 +59,4 @@ cargo-smart-release
 pcu
 ncspot
 cargo-whatfeatures
+cargo-show
