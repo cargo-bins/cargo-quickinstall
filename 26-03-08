@@ -25,3 +25,4 @@ ncspot
 tree-sitter-cli
 cargo-smart-release
 cargo-script
+wmi
