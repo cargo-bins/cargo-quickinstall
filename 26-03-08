@@ -12,3 +12,4 @@ rustfmt-nightly
 process_viewer
 quick-junit
 holochain
+statsig-rs
