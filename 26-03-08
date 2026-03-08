@@ -45,3 +45,4 @@ rustfmt-nightly
 neovide
 wiremix
 process_viewer
+quick-junit
