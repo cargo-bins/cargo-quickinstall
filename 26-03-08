@@ -66,3 +66,4 @@ cargo-whatfeatures
 libbpf-cargo
 typst-cli
 mise
+pcu
