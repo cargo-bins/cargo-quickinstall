@@ -54,3 +54,4 @@ cargo-smart-release
 slint-lsp
 libbpf-cargo
 typst-cli
+rls-rustc
