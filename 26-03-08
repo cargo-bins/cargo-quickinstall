@@ -8,3 +8,4 @@ cargo-dylint
 ncspot
 diesel_cli
 dash-mpd-cli
+cargo-show
