@@ -72,3 +72,4 @@ ncspot
 spl-token-cli
 slint-lsp
 slint-lsp
+rustfmt-nightly
