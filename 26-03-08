@@ -16,3 +16,4 @@ libbpf-cargo
 winpty-rs
 socketcan
 process_viewer
+quick-junit
