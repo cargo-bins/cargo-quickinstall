@@ -32,3 +32,4 @@ tplay
 pcu
 mise
 tree-sitter-cli
+libbpf-cargo
