@@ -11,3 +11,4 @@ socketcan
 rustfmt-nightly
 process_viewer
 quick-junit
+holochain
