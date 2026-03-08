@@ -16,3 +16,4 @@ process_viewer
 quick-junit
 rls-rustc
 oculante
+rustfmt-nightly
