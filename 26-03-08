@@ -5,3 +5,4 @@ tree-sitter-cli
 cargo-script
 dioxus-cli
 nitro-tpm-attest
+tplay
