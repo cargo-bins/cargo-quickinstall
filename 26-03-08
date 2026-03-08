@@ -9,3 +9,4 @@ cargo-dylint
 cargo-dylint
 ext-sort
 tree-sitter-md
+winpty-rs
