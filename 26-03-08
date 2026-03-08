@@ -14,3 +14,4 @@ localgpt
 localgpt
 libbpf-cargo
 winpty-rs
+socketcan
