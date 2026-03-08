@@ -56,3 +56,4 @@ tree-sitter-cli
 statsig-rs
 libbpf-cargo
 cargo-smart-release
+pcu
