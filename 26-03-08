@@ -63,3 +63,4 @@ libbpf-cargo
 cargo-smart-release
 pcu
 mise
+tree-sitter-cli
