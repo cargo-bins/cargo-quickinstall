@@ -18,3 +18,4 @@ socketcan
 process_viewer
 quick-junit
 holochain
+rls-rustc
