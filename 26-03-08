@@ -11,3 +11,4 @@ tree-sitter-md
 winpty-rs
 wmi
 socketcan
+rustfmt-nightly
