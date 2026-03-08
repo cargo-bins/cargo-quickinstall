@@ -50,3 +50,4 @@ cargo-show
 cargo-embassy
 mise
 statsig-rs
+cargo-smart-release
