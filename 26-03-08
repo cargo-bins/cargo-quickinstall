@@ -32,3 +32,4 @@ tplay
 cargo-smart-release
 cargo-script
 libbpf-cargo
+sass-rs
