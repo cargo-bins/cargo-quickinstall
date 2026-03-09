@@ -16,3 +16,4 @@ dioxus-cli
 pi_agent_rust
 tagged-base64
 crc-fast
+remove_dir_all
