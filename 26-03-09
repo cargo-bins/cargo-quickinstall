@@ -19,3 +19,4 @@ stellar-xdr
 syd
 cargo-embassy
 controller
+httpmock
