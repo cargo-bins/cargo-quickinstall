@@ -14,3 +14,4 @@ git-vendor
 git-vendor
 dioxus-cli
 pi_agent_rust
+tagged-base64
