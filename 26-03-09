@@ -8,3 +8,4 @@ crc-fast
 borsh
 textplots
 solana-gossip
+cargo-local-registry
