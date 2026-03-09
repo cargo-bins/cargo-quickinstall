@@ -15,3 +15,4 @@ tagged-base64
 crc-fast
 remove_dir_all
 borsh
+unic-langid-impl
