@@ -8,3 +8,4 @@ controller
 httpmock
 wmi
 tagged-base64
+crc-fast
