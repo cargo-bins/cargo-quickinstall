@@ -36,3 +36,4 @@ borsh
 textplots
 statsig-rs
 linear-cli
+rustdoc-text
