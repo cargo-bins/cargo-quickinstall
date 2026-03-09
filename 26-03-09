@@ -12,3 +12,4 @@ remove_dir_all
 borsh
 unic-langid-impl
 textplots
+solana-gossip
