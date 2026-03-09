@@ -9,3 +9,4 @@ httpmock
 wmi
 crc-fast
 remove_dir_all
+borsh
