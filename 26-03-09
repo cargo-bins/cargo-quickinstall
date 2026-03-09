@@ -2,3 +2,4 @@ ext-sort
 rpki
 commit_verify
 stellar-xdr
+sha1collisiondetection
