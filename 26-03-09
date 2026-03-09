@@ -7,3 +7,4 @@ syd
 controller
 httpmock
 wmi
+tagged-base64
