@@ -22,3 +22,4 @@ controller
 httpmock
 slint-lsp
 typst-cli
+wmi
