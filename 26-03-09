@@ -13,3 +13,4 @@ borsh
 unic-langid-impl
 textplots
 solana-gossip
+statsig-rs
