@@ -11,3 +11,4 @@ tagged-base64
 crc-fast
 remove_dir_all
 borsh
+textplots
