@@ -10,3 +10,4 @@ cargo-leptos
 stellar-xdr
 sha1collisiondetection
 syd
+httpmock
