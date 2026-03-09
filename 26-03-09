@@ -5,3 +5,4 @@ stellar-xdr
 sha1collisiondetection
 syd
 controller
+httpmock
