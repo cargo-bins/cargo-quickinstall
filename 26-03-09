@@ -16,3 +16,4 @@ slint-viewer
 inspector-gguf
 syd
 controller
+httpmock
