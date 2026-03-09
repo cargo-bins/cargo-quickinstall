@@ -24,3 +24,4 @@ slint-lsp
 typst-cli
 wmi
 lowfi
+cargo-bundle
