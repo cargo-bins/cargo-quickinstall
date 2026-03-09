@@ -8,3 +8,4 @@ cargo-dylint
 slint-lsp
 inspector-gguf
 commit_verify
+slint-viewer
