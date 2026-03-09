@@ -12,3 +12,4 @@ sea-orm-cli
 commit_verify
 pcu
 inspector-gguf
+slint-lsp
