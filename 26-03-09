@@ -37,3 +37,4 @@ crc-fast
 remove_dir_all
 slint-lsp
 cargo-pgrx
+mouce
