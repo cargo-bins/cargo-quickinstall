@@ -21,3 +21,4 @@ cargo-embassy
 controller
 httpmock
 slint-lsp
+typst-cli
