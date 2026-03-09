@@ -28,3 +28,4 @@ linear-cli
 mouce
 diesel_cli
 mouce
+cargo-dylint
