@@ -6,3 +6,4 @@ cargo-pgrx
 cargo-whatfeatures
 cargo-dylint
 slint-lsp
+inspector-gguf
