@@ -32,3 +32,4 @@ cargo-dylint
 lowfi
 arti
 simple-http-server
+tagged-base64
