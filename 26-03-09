@@ -32,3 +32,4 @@ kota
 cargo-bundle
 crc-fast
 rustdoc-text
+borsh
