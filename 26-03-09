@@ -30,3 +30,4 @@ linear-cli
 pwsp
 kota
 cargo-bundle
+crc-fast
