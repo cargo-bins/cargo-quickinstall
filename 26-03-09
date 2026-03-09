@@ -13,3 +13,4 @@ wmi
 git-vendor
 git-vendor
 dioxus-cli
+pi_agent_rust
