@@ -43,3 +43,4 @@ simp
 textplots
 lowfi
 statsig-rs
+rustdoc-text
