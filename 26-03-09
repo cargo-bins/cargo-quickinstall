@@ -12,3 +12,4 @@ crc-fast
 remove_dir_all
 borsh
 textplots
+solana-gossip
