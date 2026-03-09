@@ -24,3 +24,4 @@ cargo-bundle
 kota
 inspector-gguf
 rustnet-monitor
+linear-cli
