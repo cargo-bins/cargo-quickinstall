@@ -25,3 +25,4 @@ typst-cli
 wmi
 lowfi
 cargo-bundle
+cargo-whatfeatures
