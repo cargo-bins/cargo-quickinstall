@@ -19,3 +19,4 @@ controller
 httpmock
 linear-cli
 wmi
+rustnet-monitor
