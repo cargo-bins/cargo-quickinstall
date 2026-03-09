@@ -35,3 +35,4 @@ rustdoc-text
 borsh
 textplots
 statsig-rs
+linear-cli
