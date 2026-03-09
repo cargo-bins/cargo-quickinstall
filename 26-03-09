@@ -7,3 +7,4 @@ cargo-whatfeatures
 cargo-dylint
 slint-lsp
 inspector-gguf
+commit_verify
