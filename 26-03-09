@@ -20,3 +20,4 @@ httpmock
 linear-cli
 wmi
 rustnet-monitor
+cargo-bundle
