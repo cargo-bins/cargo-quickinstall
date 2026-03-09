@@ -20,3 +20,4 @@ remove_dir_all
 borsh
 pi_agent_rust
 textplots
+solana-gossip
