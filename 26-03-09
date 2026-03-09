@@ -4,3 +4,4 @@ cargo-lock
 rpki
 sea-orm-cli
 sea-orm-cli
+inspector-gguf
