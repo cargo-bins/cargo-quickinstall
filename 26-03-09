@@ -4,3 +4,4 @@ rpki
 cargo-whatfeatures
 cargo-pgrx
 cargo-whatfeatures
+cargo-dylint
