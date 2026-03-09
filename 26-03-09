@@ -9,3 +9,4 @@ sea-orm-cli
 cargo-pgrx
 inspector-gguf
 sea-orm-cli
+commit_verify
