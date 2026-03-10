@@ -3,3 +3,4 @@ vdev
 nitro-tpm-attest
 vdev
 raw-cpuid
+dicom-pixeldata
