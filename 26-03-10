@@ -14,3 +14,4 @@ diesel_cli
 fake
 tendermint-abci
 gpgme
+diesel_cli
