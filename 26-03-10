@@ -17,3 +17,4 @@ gpgme
 diesel_cli
 dicom-pixeldata
 diesel_cli
+cargo-dylint
