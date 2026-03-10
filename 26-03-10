@@ -11,3 +11,4 @@ gpgme
 parquet
 dicom-pixeldata
 addr2line
+rustrict
