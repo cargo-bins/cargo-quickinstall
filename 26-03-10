@@ -7,3 +7,4 @@ tree-sitter-cli
 maliput
 fake
 diesel_cli
+tendermint-abci
