@@ -31,3 +31,4 @@ tectonic
 gpgme
 dicom-pixeldata
 zellij
+addr2line
