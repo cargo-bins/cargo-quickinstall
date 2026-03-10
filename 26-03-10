@@ -20,3 +20,4 @@ diesel_cli
 cargo-dylint
 diesel_cli
 addr2line
+diesel_cli
