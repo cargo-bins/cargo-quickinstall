@@ -10,3 +10,4 @@ tendermint-abci
 gpgme
 parquet
 dicom-pixeldata
+addr2line
