@@ -10,3 +10,4 @@ fake
 diesel_cli
 tendermint-abci
 gpgme
+dicom-pixeldata
