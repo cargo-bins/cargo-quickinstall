@@ -4,3 +4,4 @@ rustdoc-text
 dioxus-cli
 mdcat
 raw-cpuid
+slint-viewer
