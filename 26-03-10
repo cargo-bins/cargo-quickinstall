@@ -10,3 +10,4 @@ maliput
 diesel_cli
 tendermint-abci
 gpgme
+parquet
