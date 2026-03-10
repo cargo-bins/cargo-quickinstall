@@ -12,3 +12,4 @@ tendermint-abci
 gpgme
 dicom-pixeldata
 cargo-dylint
+addr2line
