@@ -11,3 +11,4 @@ diesel_cli
 tendermint-abci
 gpgme
 parquet
+dicom-pixeldata
