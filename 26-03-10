@@ -18,3 +18,4 @@ parquet
 jujutsu
 dicom-pixeldata
 diesel_cli
+addr2line
