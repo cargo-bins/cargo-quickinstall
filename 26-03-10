@@ -6,3 +6,4 @@ solana-ledger-tool
 maliput
 fake
 diesel_cli
+tendermint-abci
