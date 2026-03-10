@@ -13,3 +13,4 @@ gpgme
 parquet
 dicom-pixeldata
 cargo-dylint
+addr2line
