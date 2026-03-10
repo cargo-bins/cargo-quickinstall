@@ -12,3 +12,4 @@ tendermint-abci
 gpgme
 parquet
 dicom-pixeldata
+cargo-dylint
