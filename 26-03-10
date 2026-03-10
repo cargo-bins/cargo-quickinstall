@@ -13,3 +13,4 @@ jj
 diesel_cli
 fake
 tendermint-abci
+gpgme
