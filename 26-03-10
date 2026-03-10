@@ -13,3 +13,4 @@ gpgme
 dicom-pixeldata
 cargo-dylint
 addr2line
+rustrict
