@@ -6,3 +6,4 @@ simple-http-server
 rustnet-monitor
 pwsp
 simp
+raw-cpuid
