@@ -11,3 +11,4 @@ tendermint-abci
 gpgme
 dicom-pixeldata
 quick-junit
+addr2line
