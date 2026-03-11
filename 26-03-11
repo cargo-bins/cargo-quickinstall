@@ -7,3 +7,4 @@ wasm-bindgen-cli
 cargo-pgrx
 wasm-bindgen-cli
 sea-orm-cli
+cargo-spellcheck
