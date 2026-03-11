@@ -11,3 +11,4 @@ cargo-spellcheck
 sea-orm-cli
 datavzrd
 nitro-tpm-attest
+sudo-rs
