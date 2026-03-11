@@ -25,3 +25,4 @@ re_query
 tendermint-rpc
 deploy
 dbus-codegen
+z3tracer
