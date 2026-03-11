@@ -6,3 +6,4 @@ cargo-pgrx
 all-smi
 cargo-spellcheck
 youtui
+sea-orm-cli
