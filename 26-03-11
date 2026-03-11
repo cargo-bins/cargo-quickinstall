@@ -12,3 +12,4 @@ skim
 diesel_cli
 deploy
 diesel_cli
+dbus-codegen
