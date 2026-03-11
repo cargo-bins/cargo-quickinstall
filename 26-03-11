@@ -13,3 +13,4 @@ dbus-codegen
 z3tracer
 parquet
 uniffi
+winpty-rs
