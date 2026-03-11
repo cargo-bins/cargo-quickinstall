@@ -9,3 +9,4 @@ vdev
 cargo-pgrx
 tree-sitter-cli
 vdev
+cargo-spellcheck
