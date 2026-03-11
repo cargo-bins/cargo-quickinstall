@@ -15,3 +15,4 @@ sudo-rs
 a11ywatch_cli
 textplots
 kanidm_tools
+wasm-bindgen-cli
