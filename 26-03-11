@@ -30,3 +30,4 @@ rrule
 uniffi
 winpty-rs
 sass-rs
+httpmock
