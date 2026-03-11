@@ -7,3 +7,4 @@ nitro-tpm-attest
 textplots
 re_query
 tendermint-rpc
+diesel_cli
