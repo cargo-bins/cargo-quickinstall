@@ -4,3 +4,4 @@ tagged-base64
 vdev
 cargo-pgrx
 all-smi
+cargo-spellcheck
