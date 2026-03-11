@@ -9,3 +9,4 @@ tendermint-rpc
 diesel_cli
 deploy
 dbus-codegen
+wizer
