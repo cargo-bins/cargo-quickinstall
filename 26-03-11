@@ -8,3 +8,4 @@ re_query
 tendermint-rpc
 diesel_cli
 deploy
+dbus-codegen
