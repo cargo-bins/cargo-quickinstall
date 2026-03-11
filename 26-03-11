@@ -13,3 +13,4 @@ uniffi
 sass-rs
 winpty-rs
 wizer
+httpmock
