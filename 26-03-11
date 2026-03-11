@@ -22,3 +22,4 @@ youtui
 youtui
 sudo-rs
 tendermint-rpc
+sea-orm-cli
