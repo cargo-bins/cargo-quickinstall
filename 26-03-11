@@ -33,3 +33,4 @@ cargo-v5
 cargo-v5
 uniffi
 sass-rs
+httpmock
