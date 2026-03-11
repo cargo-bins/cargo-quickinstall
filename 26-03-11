@@ -24,3 +24,4 @@ re_query
 tendermint-rpc
 deploy
 dbus-codegen
+cargo-v5
