@@ -27,3 +27,4 @@ kanidm_tools
 cargo-public-api
 deploy
 sudo-rs
+rustnet-monitor
