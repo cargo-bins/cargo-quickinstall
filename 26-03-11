@@ -18,3 +18,4 @@ re_query
 tendermint-rpc
 kanidm_tools
 deploy
+dbus-codegen
