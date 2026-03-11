@@ -13,3 +13,4 @@ dbus-codegen
 z3tracer
 rrule
 uniffi
+winpty-rs
