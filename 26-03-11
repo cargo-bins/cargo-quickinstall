@@ -12,3 +12,4 @@ deploy
 dbus-codegen
 z3tracer
 parquet
+uniffi
