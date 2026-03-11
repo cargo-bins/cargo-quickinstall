@@ -20,3 +20,4 @@ kanidm_tools
 deploy
 dbus-codegen
 sudo-rs
+wasm-bindgen-cli
