@@ -10,3 +10,4 @@ textplots
 tendermint-rpc
 deploy
 dbus-codegen
+z3tracer
