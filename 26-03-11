@@ -31,3 +31,4 @@ rustnet-monitor
 uniffi
 sass-rs
 packetry
+httpmock
