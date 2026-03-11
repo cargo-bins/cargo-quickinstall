@@ -25,3 +25,4 @@ tendermint-rpc
 sea-orm-cli
 kanidm_tools
 cargo-public-api
+deploy
