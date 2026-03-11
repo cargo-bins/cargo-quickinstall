@@ -5,3 +5,4 @@ nitro-tpm-attest
 re_query
 tendermint-rpc
 deploy
+dbus-codegen
