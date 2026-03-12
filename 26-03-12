@@ -5,3 +5,4 @@ rsgen-avro
 uniffi
 tree_magic
 rust-bert
+foundationdb-gen
