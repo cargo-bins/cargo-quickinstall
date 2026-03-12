@@ -41,3 +41,4 @@ all-smi
 cargo-size
 foundationdb-gen
 cargo-size
+xxv
