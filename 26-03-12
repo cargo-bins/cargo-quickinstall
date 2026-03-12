@@ -9,3 +9,4 @@ rust-bert
 foundationdb-gen
 git-mit
 sqlx-cli
+rustbus
