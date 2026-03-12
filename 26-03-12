@@ -7,3 +7,4 @@ foundationdb-gen
 packetry
 sequoia-policy-config
 kanidm_tools
+cargo-public-api
