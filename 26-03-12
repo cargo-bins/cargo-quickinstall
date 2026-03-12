@@ -38,3 +38,4 @@ mdcat
 nextest
 sequoia-sq
 all-smi
+cargo-size
