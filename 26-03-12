@@ -4,3 +4,4 @@ sequoia-policy-config
 rsgen-avro
 uniffi
 tree_magic
+rust-bert
