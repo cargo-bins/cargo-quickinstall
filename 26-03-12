@@ -13,3 +13,4 @@ shadowsocks-rust
 nu_plugin_gstat
 cargo-dylint
 rsgen-avro
+xxv
