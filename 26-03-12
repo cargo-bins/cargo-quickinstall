@@ -5,3 +5,4 @@ rsgen-avro
 uniffi
 tree_magic
 wol-rs
+rust-bert
