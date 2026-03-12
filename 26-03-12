@@ -2,3 +2,4 @@ raw-cpuid
 cargo-slicer
 cargo-slicer
 ruff
+sequoia-policy-config
