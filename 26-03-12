@@ -8,3 +8,4 @@ tree_magic
 rust-bert
 foundationdb-gen
 git-mit
+sqlx-cli
