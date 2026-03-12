@@ -9,3 +9,4 @@ ruff
 mit-prepare-commit-msg
 rsgen-avro
 cargo-slicer
+ruff
