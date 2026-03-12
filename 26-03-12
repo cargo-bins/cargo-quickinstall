@@ -29,3 +29,4 @@ nu_plugin_gstat
 tree_magic
 rat
 lowfi
+cargo-size
