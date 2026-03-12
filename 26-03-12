@@ -3,3 +3,4 @@ sequoia-policy-config
 papyrus_storage
 rsgen-avro
 uniffi
+tree_magic
