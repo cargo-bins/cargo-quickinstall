@@ -10,3 +10,4 @@ sequoia-policy-config
 kanidm_tools
 papyrus_storage
 shadowsocks-rust
+nu_plugin_gstat
