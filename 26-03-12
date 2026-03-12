@@ -7,3 +7,4 @@ deno
 foundationdb-gen
 cargo-show
 sequoia-policy-config
+kanidm_tools
