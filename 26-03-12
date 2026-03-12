@@ -6,3 +6,4 @@ sequoia-policy-config
 cargo-slicer
 cargo-slicer
 ruff
+mit-prepare-commit-msg
