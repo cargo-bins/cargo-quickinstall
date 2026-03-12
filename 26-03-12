@@ -9,3 +9,4 @@ sequoia-policy-config
 kanidm_tools
 cargo-public-api
 tree-sitter-cli
+papyrus_storage
