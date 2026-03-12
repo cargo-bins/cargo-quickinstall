@@ -10,3 +10,4 @@ foundationdb-gen
 git-mit
 sqlx-cli
 rustbus
+iroh-gossip
