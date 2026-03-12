@@ -6,3 +6,4 @@ uniffi
 tree_magic
 rust-bert
 foundationdb-gen
+iroh-gossip
