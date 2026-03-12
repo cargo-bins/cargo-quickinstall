@@ -9,3 +9,4 @@ rust-bert
 foundationdb-gen
 tree_magic
 iroh-gossip
+spider_worker
