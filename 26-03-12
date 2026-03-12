@@ -5,3 +5,4 @@ ruff
 sequoia-policy-config
 cargo-slicer
 cargo-slicer
+ruff
