@@ -35,3 +35,4 @@ rust-bert
 nu_plugin_gstat
 all-smi
 mdcat
+nextest
