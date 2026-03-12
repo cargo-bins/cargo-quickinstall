@@ -7,3 +7,4 @@ cargo-slicer
 cargo-slicer
 ruff
 mit-prepare-commit-msg
+rsgen-avro
