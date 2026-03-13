@@ -11,3 +11,4 @@ cargo-public-api
 diesel_cli
 simple-http-server
 solana-cli
+mdcat
