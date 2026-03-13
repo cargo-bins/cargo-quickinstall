@@ -35,3 +35,4 @@ simple-http-server
 crypto-cli-tools
 bluetui
 unic-langid-impl
+human_bytes
