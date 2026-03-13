@@ -8,3 +8,4 @@ vdev
 iroh-gossip
 unic-langid-impl
 cargo-public-api
+diesel_cli
