@@ -6,3 +6,4 @@ diesel_cli
 spider_cli
 vdev
 iroh-gossip
+unic-langid-impl
