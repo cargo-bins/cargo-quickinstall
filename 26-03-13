@@ -26,3 +26,4 @@ cargo-ui
 nkeys
 cargo-ui
 az-snp-vtpm
+rls-rustc
