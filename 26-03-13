@@ -2,3 +2,4 @@ laminar
 virtiofsd
 deploy
 gitui
+sqlx-cli
