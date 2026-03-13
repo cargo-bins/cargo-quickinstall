@@ -5,3 +5,4 @@ binstall
 deploy
 diesel_cli
 shellfirm
+spider_cli
