@@ -22,3 +22,4 @@ vdev
 clippy
 cargo-dylint
 controller
+simple-http-server
