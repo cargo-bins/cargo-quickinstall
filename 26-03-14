@@ -7,3 +7,4 @@ iroh-relay
 solana-stake-accounts
 nums
 wol-rs
+tendermint-rpc
