@@ -37,3 +37,4 @@ hurl
 xaskpass
 wol-rs
 tendermint-rpc
+simple-http-server
