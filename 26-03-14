@@ -18,3 +18,4 @@ clippy
 x7dap
 bluetui
 cargo-dylint
+raw-cpuid
