@@ -32,3 +32,4 @@ iroh-relay
 superseedr
 nums
 tendermint-rpc
+cargo-bootimage
