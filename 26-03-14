@@ -54,3 +54,4 @@ cargo-bootimage
 shellcast
 cktool
 safe_network
+hurl
