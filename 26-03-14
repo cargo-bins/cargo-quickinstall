@@ -12,3 +12,4 @@ solana-cli
 iroh-relay
 solana-stake-accounts
 nums
+libbpf-cargo
