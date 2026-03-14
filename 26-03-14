@@ -1,3 +1,4 @@
 openpty
 rg
 raw-cpuid
+wol-rs
