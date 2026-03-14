@@ -1,3 +1,4 @@
 raw-cpuid
 wol-rs
 solana-cli
+sea-orm-cli
