@@ -12,3 +12,4 @@ tokio-process
 tendermint-rpc
 parquet
 racer
+lance
