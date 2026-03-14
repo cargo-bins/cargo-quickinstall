@@ -11,3 +11,4 @@ tendermint-rpc
 parquet
 racer
 lance
+pgrx-tests
