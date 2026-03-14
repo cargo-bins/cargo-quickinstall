@@ -9,3 +9,4 @@ iroh-relay
 kani-verifier
 nums
 tokio-process
+tendermint-rpc
