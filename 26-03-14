@@ -13,3 +13,4 @@ iroh-relay
 solana-stake-accounts
 nums
 libbpf-cargo
+tendermint-rpc
