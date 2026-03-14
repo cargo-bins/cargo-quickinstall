@@ -52,6 +52,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.50](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.49...v0.3.50) - 2026-03-13
+
+### Other
+
+- *(deps)* Bump tempfile from 3.26.0 to 3.27.0 in the deps group ([#567](https://github.com/cargo-bins/cargo-quickinstall/pull/567))
+
 ## [0.3.49](https://github.com/cargo-bins/cargo-quickinstall/compare/v0.3.48...v0.3.49) - 2026-03-06
 
 ### Other
