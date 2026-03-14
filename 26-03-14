@@ -15,3 +15,4 @@ jless
 solana-stake-accounts
 nums
 libbpf-cargo
+tendermint-rpc
