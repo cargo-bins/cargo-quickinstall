@@ -10,3 +10,4 @@ kani-verifier
 nums
 tokio-process
 tendermint-rpc
+parquet
