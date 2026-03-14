@@ -4,3 +4,4 @@ openpty
 cargo-ui
 zsh-plugin-cli
 zsh-plugin-cli
+raw-cpuid
