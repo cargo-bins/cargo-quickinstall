@@ -11,3 +11,4 @@ dbus-codegen
 laminar
 z3tracer
 worker-build
+wmi
