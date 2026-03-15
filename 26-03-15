@@ -18,3 +18,4 @@ dbus-codegen
 laminar
 website_crawler
 z3tracer
+worker-build
