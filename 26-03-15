@@ -62,3 +62,4 @@ qmassa
 esp-config
 solana-ledger-tool
 sem-cli
+charybdis-migrate
