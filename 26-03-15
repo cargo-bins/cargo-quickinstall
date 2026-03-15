@@ -4,3 +4,4 @@ burn-tch
 tree-sitter-cli
 hurl
 build-fs-tree
+cargo-dylint
