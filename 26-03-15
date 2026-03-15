@@ -32,3 +32,4 @@ cktool
 sem-cli
 cktool
 cargo-script
+tree-sitter-cli
