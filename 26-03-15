@@ -36,3 +36,4 @@ tree-sitter-cli
 uvx
 jj
 sem-cli
+dbus-codegen
