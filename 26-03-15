@@ -12,3 +12,4 @@ jj
 vdev
 tree-sitter-cli
 socketcan
+cargo-script
