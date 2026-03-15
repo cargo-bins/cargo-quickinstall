@@ -35,3 +35,4 @@ cargo-script
 tree-sitter-cli
 uvx
 jj
+sem-cli
