@@ -5,3 +5,4 @@ cargo-dylint
 burn-tch
 build-fs-tree
 ratatui-image
+tree-sitter-cli
