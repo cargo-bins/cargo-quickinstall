@@ -15,3 +15,4 @@ socketcan
 cargo-script
 charybdis-migrate
 xcp
+cargo-dylint
