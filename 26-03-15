@@ -32,3 +32,4 @@ tree-sitter-cli
 charybdis-migrate
 cyme
 esp-config
+cargo-script
