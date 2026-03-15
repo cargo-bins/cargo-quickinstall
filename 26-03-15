@@ -61,3 +61,4 @@ cargo-script
 qmassa
 esp-config
 solana-ledger-tool
+sem-cli
