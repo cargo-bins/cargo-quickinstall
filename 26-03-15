@@ -6,3 +6,4 @@ burn-tch
 cargo-dylint
 build-fs-tree
 cargo-dylint
+ratatui-image
