@@ -54,3 +54,4 @@ bun
 cargo-script
 sem-cli
 charybdis-migrate
+sem-cli
