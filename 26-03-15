@@ -13,3 +13,4 @@ vdev
 tree-sitter-cli
 socketcan
 cargo-script
+charybdis-migrate
