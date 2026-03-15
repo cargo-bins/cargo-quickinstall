@@ -5,3 +5,4 @@ build-fs-tree
 cavif
 ratatui-image
 proof-of-sql
+socketcan
