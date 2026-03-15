@@ -40,3 +40,4 @@ dbus-codegen
 spider_cli
 cargo-script
 esp-config
+laminar
