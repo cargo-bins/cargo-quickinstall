@@ -44,3 +44,4 @@ dbus-codegen
 shellcast
 cktool
 laminar
+sem-cli
