@@ -57,3 +57,4 @@ charybdis-migrate
 sem-cli
 wmi
 shellcast
+cargo-script
