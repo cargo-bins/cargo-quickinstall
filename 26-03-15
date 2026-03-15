@@ -19,3 +19,4 @@ cargo-dylint
 rathole
 charybdis-migrate
 jj
+tree-sitter-cli
