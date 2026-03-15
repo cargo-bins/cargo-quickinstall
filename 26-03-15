@@ -10,3 +10,4 @@ ratatui-image
 cargo-dylint
 cargo-dylint
 proof-of-sql
+socketcan
