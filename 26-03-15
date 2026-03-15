@@ -10,3 +10,4 @@ cargo-bootimage
 proof-of-sql
 jj
 cktool
+socketcan
