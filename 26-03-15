@@ -4,3 +4,4 @@ cargo-bootimage
 cargo-dylint
 burn-tch
 build-fs-tree
+ratatui-image
