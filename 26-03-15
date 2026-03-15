@@ -53,3 +53,4 @@ z3tracer
 bun
 cargo-script
 sem-cli
+charybdis-migrate
