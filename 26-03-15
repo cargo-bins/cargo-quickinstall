@@ -66,3 +66,4 @@ sem-cli
 qmassa
 rathole
 solana-ledger-tool
+cargo-script
