@@ -7,3 +7,4 @@ build-fs-tree
 cargo-dylint
 ratatui-image
 cargo-bootimage
+proof-of-sql
