@@ -10,3 +10,4 @@ cargo-dylint
 ratatui-image
 socketcan
 ducc-sys
+solana-faucet
