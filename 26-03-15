@@ -40,3 +40,4 @@ cktool
 uvx
 charybdis-migrate
 shellcast
+dbus-codegen
