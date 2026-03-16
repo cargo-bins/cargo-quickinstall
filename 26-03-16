@@ -27,3 +27,4 @@ solana-faucet
 cargo-lock
 alacritty
 shadowsocks-rust
+cargo-bundle
