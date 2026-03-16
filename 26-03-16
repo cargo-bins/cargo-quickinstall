@@ -30,3 +30,4 @@ shadowsocks-rust
 cargo-bundle
 sea-orm-cli
 s3s-fs
+shadowsocks-rust
