@@ -28,3 +28,4 @@ cargo-lock
 alacritty
 shadowsocks-rust
 cargo-bundle
+sea-orm-cli
