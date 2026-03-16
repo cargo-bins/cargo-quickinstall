@@ -2,3 +2,4 @@ crypto-cli-tools
 nkeys
 solana-ledger-tool
 better-auth
+sea-orm-cli
