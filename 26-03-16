@@ -34,3 +34,4 @@ slint-lsp
 ym2149-replayer-cli
 solana-faucet
 alacritty
+cargo-lock
