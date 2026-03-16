@@ -13,3 +13,4 @@ solana-faucet
 better-auth
 better-auth
 cargo-lock
+sea-orm-cli
