@@ -37,3 +37,4 @@ alacritty
 cargo-lock
 ripasso-cursive
 alacritty
+cargo-bisect-rustc
