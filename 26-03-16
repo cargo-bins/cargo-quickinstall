@@ -6,3 +6,4 @@ openpty
 solana-ledger-tool
 sark0y_tam_rst
 honggfuzz
+cargo-lock
