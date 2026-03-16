@@ -8,3 +8,4 @@ honggfuzz
 cargo-lock
 bpf-linker
 s3s-fs
+git-mit-install
