@@ -41,3 +41,4 @@ cargo-bisect-rustc
 cargo-dylint
 alacritty
 ripasso-cursive
+s3s-fs
