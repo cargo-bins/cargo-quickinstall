@@ -30,3 +30,4 @@ r-matrix
 cargo-bisect-rustc
 re_query
 neovide
+rg
