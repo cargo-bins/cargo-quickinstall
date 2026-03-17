@@ -3,3 +3,4 @@ cargo-bundle
 iroh-relay
 ssh-mcp
 comchan
+slint-lsp
