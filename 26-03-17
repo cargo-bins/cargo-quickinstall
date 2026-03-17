@@ -9,3 +9,4 @@ r-matrix
 cargo-bisect-rustc
 mdcat
 alacritty
+pwasm-utils
