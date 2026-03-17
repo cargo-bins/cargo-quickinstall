@@ -16,3 +16,4 @@ nextest
 wiremix
 foundationdb-gen
 ssh-mcp
+kble-serialport
