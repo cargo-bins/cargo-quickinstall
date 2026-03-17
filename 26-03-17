@@ -19,3 +19,4 @@ ssh-mcp
 kble-serialport
 sea-orm-cli
 paru
+simple-http-server
