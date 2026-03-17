@@ -3,3 +3,4 @@ pwasm-utils
 paperclip
 foundationdb-gen
 re_query
+wol-rs
