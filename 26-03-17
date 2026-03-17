@@ -17,3 +17,4 @@ wiremix
 foundationdb-gen
 ssh-mcp
 kble-serialport
+sea-orm-cli
