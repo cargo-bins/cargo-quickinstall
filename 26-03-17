@@ -22,3 +22,4 @@ paru
 simple-http-server
 oxdraw
 kble-serialport
+cargo-bisect-rustc
