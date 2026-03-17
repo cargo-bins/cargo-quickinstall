@@ -19,3 +19,4 @@ ncspot
 paperclip
 oxdraw
 foundationdb-gen
+cargo-bisect-rustc
