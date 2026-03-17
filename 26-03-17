@@ -28,3 +28,4 @@ rg
 wiremix
 r-matrix
 cargo-bisect-rustc
+re_query
