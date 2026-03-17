@@ -12,3 +12,4 @@ pwasm-utils
 clippy
 paperclip
 foundationdb-gen
+dioxus-cli
