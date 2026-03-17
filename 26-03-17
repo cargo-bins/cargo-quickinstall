@@ -13,3 +13,4 @@ pwasm-utils
 shadowsocks-rust
 cargo-bisect-rustc
 nextest
+wiremix
