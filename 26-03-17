@@ -13,3 +13,4 @@ clippy
 paperclip
 foundationdb-gen
 dioxus-cli
+re_query
