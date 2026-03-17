@@ -25,3 +25,4 @@ kble-serialport
 cargo-bisect-rustc
 alacritty
 rg
+wiremix
