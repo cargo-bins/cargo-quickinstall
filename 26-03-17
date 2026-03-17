@@ -6,3 +6,4 @@ oxdraw
 fontspector
 sea-orm-cli
 r-matrix
+cargo-bisect-rustc
