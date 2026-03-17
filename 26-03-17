@@ -11,3 +11,4 @@ mdcat
 alacritty
 pwasm-utils
 shadowsocks-rust
+cargo-bisect-rustc
