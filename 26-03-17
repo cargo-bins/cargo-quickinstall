@@ -24,3 +24,4 @@ oxdraw
 kble-serialport
 cargo-bisect-rustc
 alacritty
+rg
