@@ -35,3 +35,4 @@ nextest
 rustnet-monitor
 dealve-tui
 wiremix
+wol-rs
