@@ -23,3 +23,4 @@ lingua
 simple-http-server
 laminar
 pyrefly
+sea-orm-cli
