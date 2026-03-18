@@ -12,3 +12,4 @@ diesel_cli
 laminar
 dbus-codegen
 zellij
+iai-callgrind-runner
