@@ -3,3 +3,4 @@ probe-rs-cli
 paru
 solana-genesis
 songrec
+rustnet-monitor
