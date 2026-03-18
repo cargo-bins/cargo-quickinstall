@@ -24,3 +24,4 @@ simple-http-server
 laminar
 pyrefly
 sea-orm-cli
+dbus-codegen
