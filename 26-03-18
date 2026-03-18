@@ -10,3 +10,4 @@ diesel_cli
 lingua
 diesel_cli
 laminar
+dbus-codegen
