@@ -9,3 +9,4 @@ kble-serialport
 cargo-duplicates
 cargo-duplicates
 apollo-router
+sea-orm-cli
