@@ -17,3 +17,4 @@ neovide
 probe-rs-cli
 rg
 cached-path
+mdcat
