@@ -28,3 +28,4 @@ dbus-codegen
 clippy
 sea-orm-cli
 xplr
+project_init
