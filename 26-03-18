@@ -13,3 +13,4 @@ laminar
 dbus-codegen
 zellij
 iai-callgrind-runner
+diesel_cli
