@@ -25,3 +25,4 @@ laminar
 pyrefly
 sea-orm-cli
 dbus-codegen
+clippy
