@@ -18,3 +18,4 @@ probe-rs-cli
 rg
 cached-path
 mdcat
+dealve-tui
