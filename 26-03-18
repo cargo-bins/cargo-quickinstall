@@ -36,3 +36,4 @@ parquet
 mise
 xplr
 probe-rs-cli
+clippy
