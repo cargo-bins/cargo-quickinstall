@@ -10,3 +10,4 @@ cargo-duplicates
 cargo-duplicates
 apollo-router
 sea-orm-cli
+website_crawler
