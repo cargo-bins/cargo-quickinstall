@@ -14,3 +14,4 @@ dbus-codegen
 zellij
 iai-callgrind-runner
 diesel_cli
+project_init
