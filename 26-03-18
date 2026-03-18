@@ -20,3 +20,4 @@ probe-rs-cli
 solana-stake-accounts
 neovide
 lingua
+simple-http-server
