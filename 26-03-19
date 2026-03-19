@@ -2,3 +2,4 @@ wol-rs
 ext-sort
 website_crawler
 rustfmt-nightly
+deno
