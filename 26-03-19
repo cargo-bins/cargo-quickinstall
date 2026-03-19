@@ -3,3 +3,4 @@ rustfmt-nightly
 deno
 rustrict
 papyrus_storage
+tagged-base64
