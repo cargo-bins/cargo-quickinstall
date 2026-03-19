@@ -7,3 +7,4 @@ rzup
 website_crawler
 rustfmt-nightly
 alsa-sys
+deno
