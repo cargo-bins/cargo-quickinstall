@@ -4,3 +4,4 @@ website_crawler
 rustfmt-nightly
 deno
 rustrict
+sbe-cli
