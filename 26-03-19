@@ -6,3 +6,4 @@ sn_cli
 rzup
 website_crawler
 rustfmt-nightly
+alsa-sys
