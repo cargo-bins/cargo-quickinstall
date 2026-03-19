@@ -1,3 +1,4 @@
 wol-rs
 ext-sort
 rustfmt-nightly
+alsa-sys
