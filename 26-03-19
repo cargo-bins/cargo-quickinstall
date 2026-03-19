@@ -3,3 +3,4 @@ ext-sort
 rustfmt-nightly
 alsa-sys
 deno
+rustrict
