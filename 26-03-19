@@ -16,3 +16,4 @@ solana-genesis
 safe_network
 git-mit-relates-to
 modelexpress-client
+cargo-generate
