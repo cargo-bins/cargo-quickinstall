@@ -27,3 +27,4 @@ cargo-public-api
 cargo-bitbake
 rustfmt-nightly
 lux-cli
+vdev
