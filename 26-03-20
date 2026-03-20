@@ -24,3 +24,4 @@ clap-stdin
 solana-genesis
 rustfmt-nightly
 sn_cli
+maliput-sdk
