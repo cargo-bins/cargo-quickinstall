@@ -13,3 +13,4 @@ clap-stdin
 hotpath
 cargo-graph
 onehistory
+solana-genesis
