@@ -31,3 +31,4 @@ vdev
 sha1collisiondetection
 codestyle
 maliput-sdk
+lux-cli
