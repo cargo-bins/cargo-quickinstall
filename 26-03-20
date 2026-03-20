@@ -15,3 +15,4 @@ dotslash
 solana-genesis
 sp1-prover
 rustfmt-nightly
+sha1collisiondetection
