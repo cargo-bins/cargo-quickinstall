@@ -13,3 +13,4 @@ cached-path
 songrec
 maliput-sdk
 laminar
+clap-stdin
