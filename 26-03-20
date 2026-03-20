@@ -5,3 +5,4 @@ cargo-mutants
 maliput
 datavzrd
 hayagriva
+cached-path
