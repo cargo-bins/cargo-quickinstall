@@ -16,3 +16,4 @@ youtube-tui
 cached-path
 maliput-sdk
 laminar
+clap-stdin
