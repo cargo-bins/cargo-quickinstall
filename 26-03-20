@@ -17,3 +17,4 @@ alacritty
 solana-genesis
 rustfmt-nightly
 sha1collisiondetection
+maliput-sdk
