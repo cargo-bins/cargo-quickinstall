@@ -21,3 +21,4 @@ cargo-bitbake
 maliput-sdk
 laminar
 clap-stdin
+cargo-bitbake
