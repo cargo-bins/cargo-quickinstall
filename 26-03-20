@@ -5,3 +5,4 @@ maliput
 hayagriva
 cached-path
 maliput-sdk
+clap-stdin
