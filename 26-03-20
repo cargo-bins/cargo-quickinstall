@@ -25,3 +25,4 @@ solana-genesis
 cargo-bitbake
 cargo-public-api
 cargo-bitbake
+rustfmt-nightly
