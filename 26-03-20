@@ -16,3 +16,4 @@ deno
 alacritty
 solana-genesis
 rustfmt-nightly
+sha1collisiondetection
