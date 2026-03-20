@@ -20,3 +20,4 @@ cached-path
 cargo-bitbake
 maliput-sdk
 laminar
+clap-stdin
