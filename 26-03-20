@@ -22,3 +22,4 @@ pandora_box
 laminar
 clap-stdin
 solana-genesis
+rustfmt-nightly
