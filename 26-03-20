@@ -11,3 +11,4 @@ maliput-sdk
 laminar
 clap-stdin
 hotpath
+cargo-graph
