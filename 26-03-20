@@ -16,3 +16,4 @@ cargo-bitbake
 cargo-ui
 cargo-bitbake
 cargo-bitbake
+cached-path
