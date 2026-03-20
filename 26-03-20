@@ -29,3 +29,4 @@ rustfmt-nightly
 lux-cli
 vdev
 sha1collisiondetection
+codestyle
