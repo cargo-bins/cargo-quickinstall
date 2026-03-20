@@ -16,3 +16,4 @@ laminar
 clap-stdin
 alacritty
 sp1-prover
+rustfmt-nightly
