@@ -18,3 +18,4 @@ solana-stake-accounts
 alsa-sys
 proof-of-sql
 tracing-durations-export
+raw-cpuid
