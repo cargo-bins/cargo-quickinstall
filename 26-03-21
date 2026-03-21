@@ -18,3 +18,4 @@ raw-cpuid
 libbpf-cargo
 proof-of-sql
 tree-sitter-cli
+tendermint-rpc
