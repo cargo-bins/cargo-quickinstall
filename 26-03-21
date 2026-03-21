@@ -22,3 +22,4 @@ tracing-durations-export
 raw-cpuid
 java-locator
 libbpf-cargo
+tendermint-rpc
