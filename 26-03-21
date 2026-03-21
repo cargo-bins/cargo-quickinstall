@@ -18,3 +18,4 @@ solana-stake-accounts
 alsa-sys
 portview
 proof-of-sql
+tracing-durations-export
