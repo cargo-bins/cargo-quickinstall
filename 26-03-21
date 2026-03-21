@@ -25,3 +25,4 @@ rural
 ext-sort
 syncgit
 just-lsp
+cargo-dylint
