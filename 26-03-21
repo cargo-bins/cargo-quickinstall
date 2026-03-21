@@ -19,3 +19,4 @@ alsa-sys
 proof-of-sql
 tracing-durations-export
 raw-cpuid
+libbpf-cargo
