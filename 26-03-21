@@ -19,3 +19,4 @@ proof-of-sql
 tracing-durations-export
 raw-cpuid
 httm
+cargo-script
