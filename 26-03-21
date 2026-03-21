@@ -58,3 +58,4 @@ binstall
 spotify_player
 raw-cpuid
 ripunzip
+libbpf-cargo
