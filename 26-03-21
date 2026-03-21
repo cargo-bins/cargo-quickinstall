@@ -11,3 +11,4 @@ sn_cli
 alsa-sys
 proof-of-sql
 zellij
+tracing-durations-export
