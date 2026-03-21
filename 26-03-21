@@ -14,3 +14,4 @@ alsa-sys
 proof-of-sql
 zellij
 tracing-durations-export
+raw-cpuid
