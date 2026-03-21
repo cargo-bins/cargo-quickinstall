@@ -32,3 +32,4 @@ confirm-pam
 cargo-size
 mise
 lux-cli
+cargo-public-api
