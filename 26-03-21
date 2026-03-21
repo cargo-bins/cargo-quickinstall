@@ -21,3 +21,4 @@ raw-cpuid
 httm
 cargo-script
 libbpf-cargo
+cargo-script
