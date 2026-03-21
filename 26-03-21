@@ -13,3 +13,4 @@ re_query
 quick-junit
 cargo-script
 alsa-sys
+cargo-script
