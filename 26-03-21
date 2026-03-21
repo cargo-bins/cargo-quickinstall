@@ -46,3 +46,4 @@ raw-cpuid
 java-locator
 rioterm
 libbpf-cargo
+binstall
