@@ -45,3 +45,4 @@ tracing-durations-export
 raw-cpuid
 java-locator
 rioterm
+libbpf-cargo
