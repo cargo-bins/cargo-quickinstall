@@ -19,3 +19,4 @@ cargo-size
 youtube-tui
 virtiofsd
 codestyle
+clippy
