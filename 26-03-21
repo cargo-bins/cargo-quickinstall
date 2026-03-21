@@ -16,3 +16,4 @@ cargo-size
 codestyle
 ext-sort
 rustnet-monitor
+controller
