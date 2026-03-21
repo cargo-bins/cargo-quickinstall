@@ -16,3 +16,4 @@ httm
 raw-cpuid
 libbpf-cargo
 fermium
+tokio-process
