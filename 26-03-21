@@ -16,3 +16,4 @@ zellij
 tracing-durations-export
 raw-cpuid
 libbpf-cargo
+proof-of-sql
