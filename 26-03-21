@@ -7,3 +7,4 @@ virtiofsd
 clippy
 ext-sort
 controller
+re_query
