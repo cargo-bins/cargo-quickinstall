@@ -10,3 +10,4 @@ controller
 re_query
 quick-junit
 solana-stake-accounts
+alsa-sys
