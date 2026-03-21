@@ -22,3 +22,4 @@ tracing-durations-export
 raw-cpuid
 libbpf-cargo
 proof-of-sql
+tree-sitter-cli
