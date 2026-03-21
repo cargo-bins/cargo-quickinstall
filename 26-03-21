@@ -23,3 +23,4 @@ cargo-dylint
 quick-junit
 confirm-pam
 rural
+cargo-size
