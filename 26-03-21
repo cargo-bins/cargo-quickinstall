@@ -46,3 +46,4 @@ binstall
 syncgit
 lux-cli
 cargo-size
+ripunzip
