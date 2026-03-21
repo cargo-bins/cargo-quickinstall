@@ -26,3 +26,4 @@ ext-sort
 syncgit
 just-lsp
 cargo-dylint
+ripunzip
