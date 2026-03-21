@@ -16,3 +16,4 @@ tracing-durations-export
 raw-cpuid
 libbpf-cargo
 tree-sitter-cli
+tendermint-rpc
