@@ -14,3 +14,4 @@ zellij
 tracing-durations-export
 httm
 raw-cpuid
+libbpf-cargo
