@@ -2,3 +2,4 @@ cargo-size
 dioxus-cli
 website_crawler
 lux-cli
+wmi
