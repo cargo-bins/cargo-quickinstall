@@ -24,3 +24,4 @@ libbpf-cargo
 proof-of-sql
 tree-sitter-cli
 tendermint-rpc
+tree_magic
