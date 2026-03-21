@@ -12,3 +12,4 @@ ext-sort
 re_query
 quick-junit
 cargo-script
+alsa-sys
