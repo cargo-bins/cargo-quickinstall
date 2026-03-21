@@ -16,3 +16,4 @@ alsa-sys
 cargo-script
 cargo-script
 proof-of-sql
+tracing-durations-export
