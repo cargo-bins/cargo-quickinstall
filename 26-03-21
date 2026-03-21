@@ -14,3 +14,4 @@ virtiofsd
 clippy
 cargo-size
 codestyle
+ext-sort
