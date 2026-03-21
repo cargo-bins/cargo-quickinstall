@@ -18,3 +18,4 @@ ext-sort
 rustnet-monitor
 controller
 cargo-dylint
+confirm-pam
