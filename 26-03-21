@@ -18,3 +18,4 @@ quick-junit
 syd
 alsa-sys
 proof-of-sql
+tracing-durations-export
