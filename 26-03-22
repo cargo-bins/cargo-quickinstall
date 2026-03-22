@@ -12,3 +12,4 @@ apollo-router
 az-snp-vtpm
 cargo-vet
 perfcnt
+raw-cpuid
