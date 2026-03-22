@@ -1,2 +1,3 @@
 rust-bert
 cargo-vet
+dotenv
