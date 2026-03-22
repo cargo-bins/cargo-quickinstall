@@ -10,3 +10,4 @@ spider_cli
 nexmark
 worker-build
 protox
+remove_dir_all
