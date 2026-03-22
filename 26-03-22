@@ -32,3 +32,4 @@ tree-sitter-cli
 sniffnet
 cargo-maintained
 remove_dir_all
+website_crawler
