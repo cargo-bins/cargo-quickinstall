@@ -13,3 +13,4 @@ remove_dir_all
 website_crawler
 apollo-router
 cargo-smart-release
+az-snp-vtpm
