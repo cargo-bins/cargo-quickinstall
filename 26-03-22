@@ -12,3 +12,4 @@ desktop-tui
 dotenv
 cargo-dylint
 desktop-tui
+binstall
