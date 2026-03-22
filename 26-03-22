@@ -6,3 +6,4 @@ az-snp-vtpm
 nexmark
 iai-callgrind-runner
 protox
+cargo-leptos
