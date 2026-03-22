@@ -8,3 +8,4 @@ cargo-dylint
 dotenv
 cargo-dylint
 lonkero
+dicom-pixeldata
