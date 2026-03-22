@@ -3,3 +3,4 @@ dotenv
 cargo-dylint
 dicom-pixeldata
 cargo-pgrx
+libcst
