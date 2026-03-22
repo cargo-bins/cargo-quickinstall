@@ -17,3 +17,4 @@ spider_cli
 nexmark
 worker-build
 website_crawler
+apollo-router
