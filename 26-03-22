@@ -19,3 +19,4 @@ tree-sitter-cli
 dotenv
 spotify_player
 termusic-server
+desktop-tui
