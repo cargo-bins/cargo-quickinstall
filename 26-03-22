@@ -19,3 +19,4 @@ worker-build
 website_crawler
 apollo-router
 az-snp-vtpm
+perfcnt
