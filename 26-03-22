@@ -10,3 +10,4 @@ cargo-pgrx
 az-snp-vtpm
 spider_cli
 nexmark
+worker-build
