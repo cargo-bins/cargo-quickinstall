@@ -38,3 +38,4 @@ az-snp-vtpm
 cargo-maintained
 raw-cpuid
 spider_cli
+nexmark
