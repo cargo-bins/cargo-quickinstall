@@ -35,3 +35,4 @@ remove_dir_all
 website_crawler
 cargo-plumbing
 tree-sitter-cli
+zr
