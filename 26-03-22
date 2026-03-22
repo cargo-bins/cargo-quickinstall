@@ -50,3 +50,4 @@ website_crawler
 cargo-maintained
 desktop-tui
 tree-sitter-cli
+apollo-router
