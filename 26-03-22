@@ -10,3 +10,4 @@ cargo-dylint
 lonkero
 dicom-pixeldata
 cargo-pgrx
+libcst
