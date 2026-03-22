@@ -3,3 +3,4 @@ rust-bert
 dotenv
 cargo-dylint
 lonkero
+dicom-pixeldata
