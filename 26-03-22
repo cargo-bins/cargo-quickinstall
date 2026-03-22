@@ -30,3 +30,4 @@ worker-build
 protox
 tree-sitter-cli
 sniffnet
+cargo-maintained
