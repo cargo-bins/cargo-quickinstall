@@ -12,3 +12,4 @@ dicom-pixeldata
 cargo-pgrx
 libcst
 az-snp-vtpm
+raw-cpuid
