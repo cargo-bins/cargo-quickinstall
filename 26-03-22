@@ -9,3 +9,4 @@ dotenv
 cargo-dylint
 lonkero
 dicom-pixeldata
+cargo-pgrx
