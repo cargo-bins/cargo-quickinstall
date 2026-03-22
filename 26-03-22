@@ -26,3 +26,4 @@ raw-cpuid
 spider_cli
 desktop-tui
 nexmark
+worker-build
