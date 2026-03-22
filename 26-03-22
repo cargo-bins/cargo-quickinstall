@@ -6,3 +6,4 @@ dotenv
 cargo-dylint
 cargo-dylint
 dicom-pixeldata
+cargo-pgrx
