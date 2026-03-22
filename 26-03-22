@@ -10,3 +10,4 @@ cargo-leptos
 website_crawler
 apollo-router
 az-snp-vtpm
+cargo-vet
