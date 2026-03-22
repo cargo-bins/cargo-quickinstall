@@ -2,3 +2,4 @@ rust-bert
 dotenv
 cargo-dylint
 dicom-pixeldata
+cargo-pgrx
