@@ -9,3 +9,4 @@ cargo-smart-release
 raw-cpuid
 nexmark
 cargo-smart-release
+remove_dir_all
