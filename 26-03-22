@@ -12,3 +12,4 @@ apollo-router
 az-snp-vtpm
 ext-sort
 perfcnt
+raw-cpuid
