@@ -13,3 +13,4 @@ dotenv
 cargo-dylint
 desktop-tui
 binstall
+zr
