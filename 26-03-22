@@ -2,3 +2,4 @@ rust-bert
 cargo-vet
 dotenv
 dicom-pixeldata
+az-snp-vtpm
