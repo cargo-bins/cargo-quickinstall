@@ -4,3 +4,4 @@ dotenv
 dicom-pixeldata
 az-snp-vtpm
 nexmark
+iai-callgrind-runner
