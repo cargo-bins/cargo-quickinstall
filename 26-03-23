@@ -6,3 +6,4 @@ cargo-lock
 dbus-codegen
 maliput-sdk
 httpmock
+crypto-cli-tools
