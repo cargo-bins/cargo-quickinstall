@@ -16,3 +16,4 @@ forgejo-cli
 maliput-sdk
 httpmock
 forgejo-cli
+cached-path
