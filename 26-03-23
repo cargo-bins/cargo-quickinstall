@@ -9,3 +9,4 @@ dioxus-cli
 dioxus-cli
 forgejo-cli
 ruff
+dbus-codegen
