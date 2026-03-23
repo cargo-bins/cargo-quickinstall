@@ -14,3 +14,4 @@ worker-build
 sniffnet
 maliput-sdk
 vdev
+slint-lsp
