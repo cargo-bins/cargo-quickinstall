@@ -10,3 +10,4 @@ slint-lsp
 cargo-plumbing
 sniffnet
 slint-lsp
+dbus-codegen
