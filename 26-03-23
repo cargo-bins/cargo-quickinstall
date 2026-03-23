@@ -13,3 +13,4 @@ cargo-plumbing
 worker-build
 sniffnet
 maliput-sdk
+vdev
