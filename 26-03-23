@@ -4,3 +4,4 @@ cpp_demangle
 dbus-codegen
 worker-build
 maliput-sdk
+httpmock
