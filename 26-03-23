@@ -12,3 +12,4 @@ sniffnet
 slint-lsp
 dbus-codegen
 worker-build
+maliput-sdk
