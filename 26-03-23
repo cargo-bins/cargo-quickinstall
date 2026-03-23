@@ -4,3 +4,4 @@ sniffnet
 slint-lsp
 cpp_demangle
 vdev
+cargo-plumbing
