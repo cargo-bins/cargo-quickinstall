@@ -4,3 +4,4 @@ zuse
 cpp_demangle
 cargo-public-api
 cargo-lock
+sea-orm-cli
