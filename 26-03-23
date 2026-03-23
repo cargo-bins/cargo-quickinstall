@@ -3,3 +3,4 @@ zuse
 cargo-lock
 dbus-codegen
 worker-build
+maliput-sdk
