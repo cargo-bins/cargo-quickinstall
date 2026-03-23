@@ -4,3 +4,4 @@ cargo-lock
 dbus-codegen
 worker-build
 maliput-sdk
+httpmock
