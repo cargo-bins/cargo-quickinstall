@@ -14,3 +14,4 @@ forgejo-cli
 ruff
 forgejo-cli
 maliput-sdk
+httpmock
