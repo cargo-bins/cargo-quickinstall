@@ -2,3 +2,4 @@ wol-rs
 rpki
 statime-linux
 cpp_demangle
+cargo-lock
