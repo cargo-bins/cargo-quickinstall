@@ -13,3 +13,4 @@ dbus-codegen
 forgejo-cli
 ruff
 forgejo-cli
+maliput-sdk
