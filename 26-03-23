@@ -4,3 +4,4 @@ ruff
 cpp_demangle
 ncspot
 cargo-lock
+cargo-smart-release
