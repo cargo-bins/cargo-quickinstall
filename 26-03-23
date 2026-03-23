@@ -28,3 +28,4 @@ maliput
 pi_agent_rust
 schematools-cli
 schematools-cli
+cargo-public-api
