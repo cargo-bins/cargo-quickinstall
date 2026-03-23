@@ -19,3 +19,4 @@ httpmock
 jj
 cargo-size
 cargo-dylint
+crypto-cli-tools
