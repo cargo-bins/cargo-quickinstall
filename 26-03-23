@@ -2,3 +2,4 @@ wol-rs
 zuse
 cargo-lock
 dbus-codegen
+worker-build
