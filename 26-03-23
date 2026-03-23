@@ -3,3 +3,4 @@ rpki
 statime-linux
 cpp_demangle
 cargo-lock
+dbus-codegen
