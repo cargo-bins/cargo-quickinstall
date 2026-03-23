@@ -12,3 +12,4 @@ ruff
 dbus-codegen
 forgejo-cli
 ruff
+forgejo-cli
