@@ -2,3 +2,4 @@ wol-rs
 statime-linux
 binsider
 pmc
+dbus-codegen
