@@ -7,3 +7,4 @@ vdev
 cargo-plumbing
 cargo-lock
 slint-lsp
+cargo-plumbing
