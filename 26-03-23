@@ -7,3 +7,4 @@ dbus-codegen
 maliput-sdk
 httpmock
 crypto-cli-tools
+mit-pre-commit
