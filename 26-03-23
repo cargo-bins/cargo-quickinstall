@@ -3,3 +3,4 @@ rpki
 zuse
 cpp_demangle
 cargo-public-api
+cargo-lock
