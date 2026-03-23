@@ -6,3 +6,4 @@ dbus-codegen
 binsider
 maliput-sdk
 httpmock
+crypto-cli-tools
