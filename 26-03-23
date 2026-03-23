@@ -18,3 +18,4 @@ httpmock
 forgejo-cli
 cached-path
 ncspot
+ruff
