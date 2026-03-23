@@ -5,3 +5,4 @@ pmc
 dbus-codegen
 binsider
 maliput-sdk
+httpmock
