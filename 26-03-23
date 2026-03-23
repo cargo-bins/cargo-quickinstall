@@ -11,3 +11,4 @@ cargo-plumbing
 sniffnet
 slint-lsp
 dbus-codegen
+worker-build
