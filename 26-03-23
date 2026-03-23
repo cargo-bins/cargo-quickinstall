@@ -2,3 +2,4 @@ wol-rs
 zuse
 cpp_demangle
 cargo-lock
+dbus-codegen
