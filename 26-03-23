@@ -3,3 +3,4 @@ zuse
 cpp_demangle
 cargo-lock
 dbus-codegen
+spotify_player
