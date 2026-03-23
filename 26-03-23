@@ -7,3 +7,4 @@ cargo-lock
 sea-orm-cli
 cargo-public-api
 cargo-plumbing
+sniffnet
