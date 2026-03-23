@@ -10,3 +10,4 @@ cargo-plumbing
 sniffnet
 dbus-codegen
 cargo-plumbing
+worker-build
