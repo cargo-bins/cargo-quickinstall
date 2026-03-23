@@ -3,3 +3,4 @@ statime-linux
 ruff
 cpp_demangle
 ncspot
+cargo-lock
