@@ -11,3 +11,4 @@ sniffnet
 dbus-codegen
 cargo-plumbing
 worker-build
+sniffnet
