@@ -25,3 +25,4 @@ r3bl_tuify
 jackdaw
 cargo-bisect-rustc
 wiki-tui
+cargo-public-api
