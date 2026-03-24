@@ -2,3 +2,4 @@ papyrus_storage
 sequoia-policy-config
 pgrx-tests
 rustbus
+sn_cli
