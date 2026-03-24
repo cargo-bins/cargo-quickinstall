@@ -2,3 +2,4 @@ papyrus_storage
 sequoia-policy-config
 wol-rs
 dua-cli
+cached-path
