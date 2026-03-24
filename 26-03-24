@@ -11,3 +11,4 @@ cached-path
 sea-orm-cli
 wormhole
 ratatalk
+schematools-cli
