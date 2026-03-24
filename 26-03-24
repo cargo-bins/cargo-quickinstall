@@ -6,3 +6,4 @@ sn_cli
 solana-ledger-tool
 laminar
 r3bl_tuify
+libbpf-cargo
