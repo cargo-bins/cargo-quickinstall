@@ -27,3 +27,4 @@ cargo-bisect-rustc
 wiki-tui
 cargo-public-api
 superseedr
+bevy_sprinkles_editor
