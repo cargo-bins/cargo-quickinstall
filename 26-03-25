@@ -26,3 +26,4 @@ spl-token-cli
 lance
 cargo-public-api
 jj
+cargo-spellcheck
