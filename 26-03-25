@@ -40,3 +40,4 @@ rg
 worktree
 ruff
 dioxus-cli
+a11ywatch_cli
