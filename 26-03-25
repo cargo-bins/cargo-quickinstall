@@ -10,3 +10,4 @@ cargo-pgrx
 modelexpress-client
 solana-validator
 project_init
+sea-orm-cli
