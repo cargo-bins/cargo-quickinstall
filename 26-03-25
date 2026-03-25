@@ -26,3 +26,4 @@ rustnet-monitor
 fake
 spl-token-cli
 lance
+cargo-bisect-rustc
