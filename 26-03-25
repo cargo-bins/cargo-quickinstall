@@ -4,3 +4,4 @@ remove_dir_all
 crypto-cli-tools
 cargo-pgrx
 modelexpress-client
+solana-validator
