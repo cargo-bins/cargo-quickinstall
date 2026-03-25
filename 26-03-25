@@ -3,3 +3,4 @@ build-fs-tree
 rustfinity
 remove_dir_all
 worktree
+wiki-tui
