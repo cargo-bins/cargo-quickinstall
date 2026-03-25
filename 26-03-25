@@ -2,3 +2,4 @@ lonkero
 build-fs-tree
 youtube-tui
 remove_dir_all
+cargo-script
