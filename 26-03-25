@@ -6,3 +6,4 @@ mise
 remove_dir_all
 crypto-cli-tools
 human_bytes
+cargo-pgrx
