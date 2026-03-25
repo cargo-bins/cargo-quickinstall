@@ -3,3 +3,4 @@ remove_dir_all
 httm
 iai-callgrind-runner
 human_bytes
+modelexpress-client
