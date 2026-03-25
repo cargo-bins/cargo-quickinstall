@@ -46,3 +46,4 @@ spider_cli
 ruff
 mdcat
 remove_dir_all
+rustnet-monitor
