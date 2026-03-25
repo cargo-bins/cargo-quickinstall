@@ -11,3 +11,4 @@ modelexpress-client
 solana-validator
 project_init
 sea-orm-cli
+safe_network
