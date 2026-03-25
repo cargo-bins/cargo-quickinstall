@@ -33,3 +33,4 @@ cargo-spellcheck
 sea-orm-cli
 process_viewer
 jiggy
+dioxus-cli
