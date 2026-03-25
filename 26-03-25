@@ -3,3 +3,4 @@ build-fs-tree
 remove_dir_all
 crypto-cli-tools
 cargo-pgrx
+human_bytes
