@@ -31,3 +31,4 @@ cargo-spellcheck
 jiggy
 cargo-spellcheck
 sea-orm-cli
+process_viewer
