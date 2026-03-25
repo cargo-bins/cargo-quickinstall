@@ -8,3 +8,4 @@ crypto-cli-tools
 human_bytes
 cargo-pgrx
 modelexpress-client
+solana-validator
