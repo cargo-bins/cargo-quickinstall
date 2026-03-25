@@ -13,3 +13,4 @@ project_init
 sea-orm-cli
 safe_network
 dx-cli
+spl-token-cli
