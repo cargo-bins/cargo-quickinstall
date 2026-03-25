@@ -45,3 +45,4 @@ a11ywatch_cli
 spider_cli
 ruff
 mdcat
+remove_dir_all
