@@ -10,3 +10,4 @@ cargo-bisect-rustc
 sea-orm-cli
 fake
 jackdaw
+jj
