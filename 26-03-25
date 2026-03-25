@@ -7,3 +7,4 @@ human_bytes
 solana-validator
 project_init
 sea-orm-cli
+spl-token-cli
