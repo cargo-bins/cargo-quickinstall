@@ -27,3 +27,4 @@ fake
 spl-token-cli
 lance
 cargo-bisect-rustc
+bevy_sprinkles_editor
