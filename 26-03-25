@@ -3,3 +3,4 @@ remove_dir_all
 cargo-script
 cargo-script
 cargo-script
+human_bytes
