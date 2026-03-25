@@ -12,3 +12,4 @@ rustrict
 process_viewer
 diesel_cli
 dotslash
+remove_dir_all
