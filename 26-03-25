@@ -6,3 +6,4 @@ build-fs-tree
 chabeau
 jj
 remove_dir_all
+cargo-bisect-rustc
