@@ -3,3 +3,4 @@ build-fs-tree
 remove_dir_all
 cargo-pgrx
 human_bytes
+modelexpress-client
