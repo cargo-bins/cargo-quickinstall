@@ -5,3 +5,4 @@ crypto-cli-tools
 cargo-pgrx
 modelexpress-client
 solana-validator
+sea-orm-cli
