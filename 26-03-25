@@ -6,3 +6,4 @@ human_bytes
 modelexpress-client
 solana-validator
 project_init
+sea-orm-cli
