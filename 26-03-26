@@ -30,3 +30,4 @@ siomon
 cargo-bisect-rustc
 xplr
 lonkero
+nextest-filtering
