@@ -10,3 +10,4 @@ nitro-tpm-attest
 mdcat
 cargo-public-api
 nkeys
+stellar-strkey
