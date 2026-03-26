@@ -31,3 +31,4 @@ cargo-bisect-rustc
 xplr
 lonkero
 nextest-filtering
+cargo-bisect-rustc
