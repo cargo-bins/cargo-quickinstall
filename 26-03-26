@@ -5,3 +5,4 @@ nitro-tpm-attest
 cpp_demangle
 nkeys
 stellar-strkey
+tree_magic
