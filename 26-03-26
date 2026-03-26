@@ -4,3 +4,4 @@ nitro-tpm-attest
 nkeys
 stellar-strkey
 tree_magic
+worker-build
