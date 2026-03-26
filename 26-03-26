@@ -27,3 +27,4 @@ burn-tch
 xargo
 ddc-brightness-ctl
 siomon
+cargo-bisect-rustc
