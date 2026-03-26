@@ -16,3 +16,4 @@ deno
 ddc-brightness-ctl
 mdcat
 cargo-spellcheck
+worker-build
