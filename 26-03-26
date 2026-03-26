@@ -8,3 +8,4 @@ worker-build
 a11ywatch_cli
 xargo
 lonkero
+nextest-filtering
