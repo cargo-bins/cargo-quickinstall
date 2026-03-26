@@ -8,3 +8,4 @@ stellar-strkey
 tree_magic
 investments
 sn_faucet
+sn_node_rpc_client
