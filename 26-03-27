@@ -9,3 +9,4 @@ apollo-router
 httpmock
 stellar-strkey
 fake
+cargo-public-api
