@@ -5,3 +5,4 @@ apollo-router
 httpmock
 stellar-strkey
 fake
+diesel_cli
