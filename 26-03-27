@@ -16,3 +16,4 @@ cargo-bisect-rustc
 deno
 cargo-public-api
 rg
+nitro-tpm-attest
