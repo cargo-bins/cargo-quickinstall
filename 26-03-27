@@ -26,3 +26,4 @@ diesel_cli
 ruff
 burn-tch
 java-locator
+rewrk
