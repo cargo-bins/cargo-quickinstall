@@ -4,3 +4,4 @@ av-scenechange
 unic-langid-impl
 cargo-bisect-rustc
 spider_cli
+solana-genesis
