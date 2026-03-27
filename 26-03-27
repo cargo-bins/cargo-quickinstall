@@ -5,3 +5,4 @@ unic-langid-impl
 apollo-router
 c2rust
 httpmock
+fake
