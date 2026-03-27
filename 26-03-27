@@ -15,3 +15,4 @@ diesel_cli
 rg
 netwatch-tui
 deno
+rewrk
