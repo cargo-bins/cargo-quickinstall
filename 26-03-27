@@ -6,3 +6,4 @@ apollo-router
 c2rust
 httpmock
 fake
+diesel_cli
