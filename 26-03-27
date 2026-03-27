@@ -11,3 +11,4 @@ stellar-strkey
 fake
 cargo-public-api
 netwatch-tui
+diesel_cli
