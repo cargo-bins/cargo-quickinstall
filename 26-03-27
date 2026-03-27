@@ -5,3 +5,4 @@ httpmock
 stellar-strkey
 fake
 diesel_cli
+netwatch-tui
