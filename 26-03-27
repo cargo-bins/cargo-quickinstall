@@ -10,3 +10,4 @@ httpmock
 stellar-strkey
 fake
 cargo-public-api
+netwatch-tui
