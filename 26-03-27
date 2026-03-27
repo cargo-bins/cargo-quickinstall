@@ -12,3 +12,4 @@ solana-genesis
 alacritty
 httpmock
 fake
+cargo-bisect-rustc
