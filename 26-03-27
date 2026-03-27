@@ -19,3 +19,4 @@ codeberg-cli
 nitro-tpm-attest
 coldsnap
 mit-prepare-commit-msg
+diesel_cli
