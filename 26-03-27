@@ -20,3 +20,4 @@ nitro-tpm-attest
 netwatch-tui
 cargo-bisect-rustc
 netwatch-tui
+rg
