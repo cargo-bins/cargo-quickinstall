@@ -18,3 +18,4 @@ cargo-public-api
 rg
 nitro-tpm-attest
 netwatch-tui
+cargo-bisect-rustc
