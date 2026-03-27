@@ -15,3 +15,4 @@ fake
 cargo-bisect-rustc
 deno
 cargo-public-api
+rg
