@@ -13,3 +13,4 @@ alacritty
 httpmock
 fake
 cargo-bisect-rustc
+deno
