@@ -1,3 +1,4 @@
 r3bl_tuify
 cargo-bisect-rustc
 av-scenechange
+unic-langid-impl
