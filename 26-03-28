@@ -8,3 +8,4 @@ mdfried
 rg
 ruff
 cargo-dylint
+slint-lsp
