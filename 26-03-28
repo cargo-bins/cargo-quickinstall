@@ -41,3 +41,4 @@ maliput-sdk
 virtiofsd
 dioxus-cli
 syd
+cargo-smart-release
