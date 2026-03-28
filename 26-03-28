@@ -45,3 +45,4 @@ h3o
 dioxus-cli
 avif-decode
 avif-decode
+alsa-sys
