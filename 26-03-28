@@ -29,3 +29,4 @@ sqlx-cli
 solana-genesis
 iai-callgrind-runner
 alsa-sys
+sqlx-cli
