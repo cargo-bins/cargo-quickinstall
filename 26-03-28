@@ -25,3 +25,4 @@ ruff
 cargo-public-api
 mdfried
 z3tracer
+gpg-tui
