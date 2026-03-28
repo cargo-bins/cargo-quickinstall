@@ -21,3 +21,4 @@ h3o
 rustfmt
 solana-genesis
 iai-callgrind-runner
+alsa-sys
