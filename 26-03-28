@@ -4,3 +4,4 @@ iroh-gossip
 worker-build
 crc-fast
 java-locator
+z3tracer
