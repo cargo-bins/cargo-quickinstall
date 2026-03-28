@@ -7,3 +7,4 @@ dioxus-cli
 mdfried
 rg
 ruff
+cargo-dylint
