@@ -7,3 +7,4 @@ cargo-leptos
 iroh-gossip
 skim
 text-diff
+crc-fast
