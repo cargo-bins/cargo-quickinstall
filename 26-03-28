@@ -9,3 +9,4 @@ rg
 ruff
 cargo-dylint
 slint-lsp
+iroh-gossip
