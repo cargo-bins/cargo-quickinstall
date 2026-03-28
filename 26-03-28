@@ -10,3 +10,4 @@ ruff
 cargo-dylint
 slint-lsp
 iroh-gossip
+worker-build
