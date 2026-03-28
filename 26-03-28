@@ -15,3 +15,4 @@ tokio-process
 lingua
 maliput-sdk
 virtiofsd
+cargo-leptos
