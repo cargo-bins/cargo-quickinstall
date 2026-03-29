@@ -2,3 +2,4 @@ cargo-smart-release
 worker-build
 avif-decode
 gpgme
+dicom-pixeldata
