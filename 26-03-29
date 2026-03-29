@@ -35,3 +35,4 @@ worker-build
 ncspot
 hurl
 nordselect
+dbus-codegen
