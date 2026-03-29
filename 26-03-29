@@ -9,3 +9,4 @@ zellij
 rmesg
 statime-linux
 zellij
+cargo-local-registry
