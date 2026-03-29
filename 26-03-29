@@ -38,3 +38,4 @@ nordselect
 dbus-codegen
 sequoia-policy-config
 below
+html-minify
