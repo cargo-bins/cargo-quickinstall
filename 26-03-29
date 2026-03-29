@@ -19,3 +19,4 @@ solana-ledger-tool
 dbus-codegen
 sequoia-policy-config
 solana-genesis
+ec2_instance_metadata
