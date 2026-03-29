@@ -3,3 +3,4 @@ sqlx-cli
 freenet
 gpgme
 bpf-linker
+code-graph-cli
