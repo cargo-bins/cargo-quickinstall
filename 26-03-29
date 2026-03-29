@@ -21,3 +21,4 @@ sequoia-policy-config
 solana-genesis
 ec2_instance_metadata
 shunkakinoki
+borsh
