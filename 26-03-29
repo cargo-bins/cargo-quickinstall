@@ -4,3 +4,4 @@ avif-decode
 gpgme
 dicom-pixeldata
 cargo-smart-release
+avif-decode
