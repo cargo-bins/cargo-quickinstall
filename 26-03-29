@@ -18,3 +18,4 @@ code-graph-cli
 code-graph-cli
 solana-ledger-tool
 dbus-codegen
+sequoia-policy-config
