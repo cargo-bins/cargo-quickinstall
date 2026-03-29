@@ -14,3 +14,4 @@ r3bl_tuify
 solana-ledger-tool
 worker-build
 dbus-codegen
+sequoia-policy-config
