@@ -6,3 +6,4 @@ r3bl_tuify
 uniffi
 solana-ledger-tool
 worker-build
+dbus-codegen
