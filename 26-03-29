@@ -9,3 +9,4 @@ worker-build
 dbus-codegen
 solana-genesis
 shunkakinoki
+borsh
