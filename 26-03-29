@@ -7,3 +7,4 @@ cargo-smart-release
 avif-decode
 ncspot
 worker-build
+tree-sitter-cli
