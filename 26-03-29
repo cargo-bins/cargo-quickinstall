@@ -15,3 +15,4 @@ cargo-spellcheck
 cargo-spellcheck
 stellar-xdr
 solana-ledger-tool
+worker-build
