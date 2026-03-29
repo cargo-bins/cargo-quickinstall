@@ -2,3 +2,4 @@ foundationdb-gen
 sqlx-cli
 freenet
 gpgme
+bpf-linker
