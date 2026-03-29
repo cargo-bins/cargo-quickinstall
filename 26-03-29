@@ -3,3 +3,4 @@ worker-build
 avif-decode
 gpgme
 dicom-pixeldata
+cargo-smart-release
