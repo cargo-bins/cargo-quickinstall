@@ -2,3 +2,4 @@ avif-decode
 cargo-smart-release
 foundationdb-gen
 gpgme
+dioxus-cli
