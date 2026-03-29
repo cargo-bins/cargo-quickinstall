@@ -19,3 +19,4 @@ code-graph-cli
 solana-ledger-tool
 dbus-codegen
 sequoia-policy-config
+solana-genesis
