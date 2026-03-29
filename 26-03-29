@@ -7,3 +7,4 @@ uniffi
 solana-ledger-tool
 worker-build
 dbus-codegen
+solana-genesis
