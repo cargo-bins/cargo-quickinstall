@@ -12,3 +12,4 @@ cargo-spellcheck
 cargo-dylint
 r3bl_tuify
 solana-ledger-tool
+worker-build
