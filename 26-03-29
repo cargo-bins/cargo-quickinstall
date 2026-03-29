@@ -10,3 +10,4 @@ stellar-xdr
 rg
 solana-ledger-tool
 rg
+dbus-codegen
