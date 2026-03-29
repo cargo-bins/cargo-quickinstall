@@ -10,3 +10,4 @@ worker-build
 tree-sitter-cli
 cargo-dylint
 avif-decode
+alacritty
