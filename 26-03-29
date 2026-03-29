@@ -11,3 +11,4 @@ rg
 solana-ledger-tool
 rg
 dbus-codegen
+sequoia-policy-config
