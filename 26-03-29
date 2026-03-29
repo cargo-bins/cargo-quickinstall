@@ -16,3 +16,4 @@ cargo-spellcheck
 stellar-xdr
 solana-ledger-tool
 worker-build
+dbus-codegen
