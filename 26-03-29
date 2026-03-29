@@ -30,3 +30,4 @@ cargo-msix
 dbus-codegen
 jujutsu
 sequoia-policy-config
+sails-cli
