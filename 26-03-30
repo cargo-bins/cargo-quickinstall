@@ -19,3 +19,4 @@ worker-build
 siomon
 all-smi
 vdev
+rust-docs-mcp
