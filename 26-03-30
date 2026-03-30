@@ -21,3 +21,4 @@ msixbundle-cli
 rtx-cli
 superseedr
 sea-orm-cli
+cargo-dylint
