@@ -8,3 +8,4 @@ rtx-cli
 cargo-dylint
 h3o
 sass-rs
+borsh
