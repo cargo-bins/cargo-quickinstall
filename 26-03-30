@@ -5,3 +5,4 @@ xargo
 mit-pre-commit
 qsv
 nexmark
+rtx-cli
