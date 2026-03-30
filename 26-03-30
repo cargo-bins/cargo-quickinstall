@@ -10,3 +10,4 @@ all-smi
 ort-openrouter-cli
 cargo-public-api
 hck
+xargo
