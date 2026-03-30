@@ -29,3 +29,4 @@ sass-rs
 rust-docs-mcp
 spider_cli
 nextest
+borsh
