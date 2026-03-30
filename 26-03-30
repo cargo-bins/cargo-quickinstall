@@ -4,3 +4,4 @@ parquet
 xargo
 qsv
 nexmark
+rtx-cli
