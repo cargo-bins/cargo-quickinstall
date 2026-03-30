@@ -35,3 +35,4 @@ nextest
 sass-rs
 below
 borsh
+sea-orm-cli
