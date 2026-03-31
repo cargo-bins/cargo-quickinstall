@@ -3,3 +3,4 @@ raw-cpuid
 solana-faucet
 borsh
 qsv
+tendermint-abci
