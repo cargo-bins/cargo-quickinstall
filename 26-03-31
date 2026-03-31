@@ -32,3 +32,4 @@ netwatch-tui
 deno
 hurlfmt
 termusic
+dbus-codegen
