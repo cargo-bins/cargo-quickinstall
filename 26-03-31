@@ -6,3 +6,4 @@ borsh
 qsv
 alacritty
 tendermint-abci
+statsig-rs
