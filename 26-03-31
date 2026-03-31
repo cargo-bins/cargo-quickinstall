@@ -4,3 +4,4 @@ hck
 solana-cli
 sea-orm-cli
 raw-cpuid
+nextest
