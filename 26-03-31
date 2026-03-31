@@ -7,3 +7,4 @@ raw-cpuid
 nextest
 hurl
 worker-build
+borsh
