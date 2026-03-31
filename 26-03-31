@@ -8,3 +8,4 @@ nextest
 hurl
 worker-build
 borsh
+cargo-public-api
