@@ -38,3 +38,4 @@ tree-sitter-cli
 tree-sitter-cli
 deno
 rustrict
+hurlfmt
