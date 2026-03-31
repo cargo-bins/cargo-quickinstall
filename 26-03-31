@@ -4,3 +4,4 @@ raw-cpuid
 solana-faucet
 borsh
 uklid
+tendermint-abci
