@@ -25,3 +25,4 @@ kanidm
 tendermint-abci
 cargo-public-api
 deno
+statsig-rs
