@@ -7,3 +7,4 @@ alacritty
 tendermint-abci
 statsig-rs
 papyrus_storage
+sea-orm-cli
