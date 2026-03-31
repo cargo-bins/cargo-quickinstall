@@ -11,3 +11,4 @@ papyrus_storage
 sea-orm-cli
 rustrict
 tree-sitter-md
+build-fs-tree
