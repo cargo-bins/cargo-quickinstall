@@ -9,3 +9,4 @@ tendermint-abci
 statsig-rs
 sea-orm-cli
 rustrict
+tree-sitter-md
