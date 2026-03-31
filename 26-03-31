@@ -4,3 +4,4 @@ dotenv-flow
 solana-faucet
 borsh
 alacritty
+tendermint-abci
