@@ -40,3 +40,4 @@ deno
 rustrict
 hurlfmt
 tree-sitter-md
+build-fs-tree
