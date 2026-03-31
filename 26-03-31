@@ -10,3 +10,4 @@ tree-sitter-cli
 hurl
 solana-faucet
 borsh
+sea-orm-cli
