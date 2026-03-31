@@ -5,3 +5,4 @@ solana-faucet
 borsh
 alacritty
 tendermint-abci
+statsig-rs
