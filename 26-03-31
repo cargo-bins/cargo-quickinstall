@@ -16,3 +16,4 @@ rheo
 songrec
 cargo-dylint
 tree-sitter-cli
+sea-orm-cli
