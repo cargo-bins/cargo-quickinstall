@@ -6,3 +6,4 @@ sea-orm-cli
 raw-cpuid
 nextest
 hurl
+worker-build
