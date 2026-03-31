@@ -10,3 +10,4 @@ statsig-rs
 sea-orm-cli
 rustrict
 tree-sitter-md
+build-fs-tree
