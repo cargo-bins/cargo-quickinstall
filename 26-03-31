@@ -7,3 +7,4 @@ lingua
 alacritty
 tendermint-abci
 statsig-rs
+sea-orm-cli
