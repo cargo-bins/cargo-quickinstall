@@ -4,3 +4,4 @@ iroh-gossip
 benfred-read-process-memory
 xargo
 addr2line
+sqlx-cli
