@@ -3,3 +3,4 @@ addr2line
 cargo-risczero
 textplots
 z3tracer
+build-fs-tree
