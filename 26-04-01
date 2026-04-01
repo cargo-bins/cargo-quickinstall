@@ -44,3 +44,4 @@ oxdraw
 deploy
 sails-cli
 codestyle
+cargo-unmaintained
