@@ -25,3 +25,4 @@ gg-cli
 cargo-cooldown
 cargo-unmaintained
 oxdraw
+slint-lsp
