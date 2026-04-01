@@ -3,3 +3,4 @@ sn_faucet
 iroh-gossip
 benfred-read-process-memory
 xargo
+addr2line
