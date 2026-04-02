@@ -4,3 +4,4 @@ rustfmt-nightly
 vdev
 vdev
 vdev
+tree-sitter-cli
