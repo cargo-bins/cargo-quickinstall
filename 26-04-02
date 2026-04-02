@@ -9,3 +9,4 @@ quick-junit
 dicom-pixeldata
 tmtc-c2a
 esp-config
+rustfmt-nightly
