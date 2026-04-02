@@ -3,3 +3,4 @@ r3bl_tuify
 rustfmt-nightly
 fresh-editor
 fresh-editor
+cargo-dylint
