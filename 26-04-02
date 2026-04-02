@@ -3,3 +3,4 @@ r3bl_tuify
 rustfmt-nightly
 zellij
 cargo-generate
+quick-junit
