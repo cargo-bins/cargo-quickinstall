@@ -3,3 +3,4 @@ r3bl_tuify
 rustfmt-nightly
 vdev
 vdev
+tree-sitter-cli
