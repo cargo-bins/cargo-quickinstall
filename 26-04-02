@@ -27,3 +27,4 @@ dicom-pixeldata
 ochat
 ripunzip
 jj
+rustfmt-nightly
