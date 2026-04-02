@@ -8,3 +8,4 @@ shunkakinoki
 dicom-pixeldata
 cargo-local-registry
 git-mit
+rustfmt-nightly
