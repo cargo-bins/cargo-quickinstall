@@ -7,3 +7,4 @@ quick-junit
 dicom-pixeldata
 gungraun-runner
 git-mit
+rustfmt-nightly
