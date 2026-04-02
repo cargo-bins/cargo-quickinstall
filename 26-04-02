@@ -13,3 +13,4 @@ cargo-dylint
 cargo-dylint
 spider_cli
 cargo-cooldown
+tlmcmddb-cli
