@@ -27,3 +27,4 @@ dicom-pixeldata
 ochat
 rustfmt-nightly
 tlmcmddb-cli
+codestyle
