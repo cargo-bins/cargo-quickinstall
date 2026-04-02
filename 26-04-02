@@ -25,3 +25,4 @@ yazi-fm
 rg
 dicom-pixeldata
 ochat
+rustfmt-nightly
