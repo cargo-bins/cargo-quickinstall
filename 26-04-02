@@ -4,3 +4,4 @@ rustfmt-nightly
 zellij
 cargo-generate
 quick-junit
+dicom-pixeldata
