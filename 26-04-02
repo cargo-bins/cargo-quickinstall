@@ -11,3 +11,4 @@ tree-sitter-cli
 quick-junit
 dicom-pixeldata
 rustfmt-nightly
+gg-cli
