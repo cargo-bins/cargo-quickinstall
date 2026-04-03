@@ -13,3 +13,4 @@ sass-rs
 stellar-strkey
 sea-orm-cli
 mise
+dbus-codegen
