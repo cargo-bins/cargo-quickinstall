@@ -29,3 +29,4 @@ charset-normalizer-rs
 cargo-generate
 stellar-strkey
 nu_plugin_skim
+honggfuzz
