@@ -35,3 +35,4 @@ cargo-leptos
 charset-normalizer-rs
 nu_plugin_skim
 charset-normalizer-rs
+rtx-cli
