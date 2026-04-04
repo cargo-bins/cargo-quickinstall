@@ -10,3 +10,4 @@ cargo-dylint
 re_query
 buck2
 worker-build
+papyrus_storage
