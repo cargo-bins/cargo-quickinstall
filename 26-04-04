@@ -13,3 +13,4 @@ unic-langid-impl
 cached-path
 crypto-cli-tools
 foundationdb-gen
+cargo-mutants
