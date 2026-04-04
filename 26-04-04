@@ -15,3 +15,4 @@ crypto-cli-tools
 foundationdb-gen
 cargo-mutants
 cargo-risczero
+rustrict
