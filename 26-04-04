@@ -17,3 +17,4 @@ proof-of-sql
 alsa-sys
 unic-langid-impl
 stellar-strkey
+cached-path
