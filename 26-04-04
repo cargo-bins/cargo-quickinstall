@@ -11,3 +11,4 @@ diesel_cli
 sn_node_rpc_client
 alsa-sys
 unic-langid-impl
+cached-path
