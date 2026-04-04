@@ -16,3 +16,4 @@ diesel_cli
 proof-of-sql
 alsa-sys
 unic-langid-impl
+cached-path
