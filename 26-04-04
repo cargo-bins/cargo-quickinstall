@@ -6,3 +6,4 @@ sea-orm-cli
 sea-orm-cli
 re_query
 worker-build
+papyrus_storage
