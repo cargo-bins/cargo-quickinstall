@@ -11,3 +11,4 @@ diesel_cli
 alsa-sys
 unic-langid-impl
 cached-path
+crypto-cli-tools
