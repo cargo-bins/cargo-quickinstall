@@ -53,3 +53,4 @@ spotify-tui
 unic-langid-impl
 cargo-duplicates
 spotifyd
+cached-path
