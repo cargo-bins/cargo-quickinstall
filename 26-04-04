@@ -38,3 +38,4 @@ cargo-duplicates
 rioterm
 ironbar
 spotify-tui
+alsa-sys
