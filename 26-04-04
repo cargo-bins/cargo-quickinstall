@@ -9,3 +9,4 @@ shadowsocks-rust
 cargo-dylint
 re_query
 buck2
+worker-build
