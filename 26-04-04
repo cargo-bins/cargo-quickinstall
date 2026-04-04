@@ -13,3 +13,4 @@ worker-build
 papyrus_storage
 cargo-duplicates
 cavif
+ruff
