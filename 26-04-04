@@ -43,3 +43,4 @@ rustnet-monitor
 ironbar
 spider_cli
 spotatui
+alsa-sys
