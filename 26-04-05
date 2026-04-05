@@ -10,3 +10,4 @@ cpp_demangle
 socketcan
 protox
 nominal-api
+zip-extensions
