@@ -52,3 +52,4 @@ rg
 solana-tokens
 rg
 stellar-strkey
+cargo-msrv
