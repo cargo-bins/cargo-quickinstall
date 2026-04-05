@@ -33,3 +33,4 @@ rustnet-monitor
 socketcan
 protox
 cargo-cooldown
+rg
