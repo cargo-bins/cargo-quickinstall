@@ -29,3 +29,4 @@ rioterm
 cpp_demangle
 solana-cli
 alacritty
+rustnet-monitor
