@@ -25,3 +25,4 @@ cargo-dylint
 ruv-swarm-cli
 ratatui-image
 rioterm
+cpp_demangle
