@@ -34,3 +34,4 @@ socketcan
 protox
 cargo-cooldown
 rg
+sem-cli
