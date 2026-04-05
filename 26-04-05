@@ -9,3 +9,4 @@ cargo-dylint
 cpp_demangle
 socketcan
 protox
+nominal-api
