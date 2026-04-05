@@ -6,3 +6,4 @@ iroh-relay
 cargo-dylint
 cargo-dylint
 cargo-dylint
+cpp_demangle
