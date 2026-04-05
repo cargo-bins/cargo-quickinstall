@@ -51,3 +51,4 @@ ruv-swarm-cli
 slint-lsp
 proof-of-sql
 tree-sitter-graph
+cargo-msrv
