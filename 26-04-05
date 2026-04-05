@@ -5,3 +5,4 @@ cpp_demangle
 solana-cli
 socketcan
 protox
+nominal-api
