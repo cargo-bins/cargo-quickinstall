@@ -3,3 +3,4 @@ tree_magic
 iroh-relay
 cpp_demangle
 solana-cli
+socketcan
