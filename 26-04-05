@@ -55,3 +55,4 @@ stellar-strkey
 cargo-msrv
 fzf-make
 proof-of-sql
+tree-sitter-graph
