@@ -10,3 +10,4 @@ cargo-dylint
 ratatui-image
 cpp_demangle
 solana-cli
+socketcan
