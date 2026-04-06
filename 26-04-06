@@ -36,3 +36,4 @@ localgpt
 cargo-prefetch
 vdev
 blogr-cli
+fzf-make
