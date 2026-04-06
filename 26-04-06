@@ -26,3 +26,4 @@ cargo-msrv
 oculante
 bluetui
 paperclip
+fzf-make
