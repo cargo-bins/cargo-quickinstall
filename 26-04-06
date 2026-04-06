@@ -6,3 +6,4 @@ paru
 cargo-msrv
 localgpt
 bluetui
+tree-sitter-cli
