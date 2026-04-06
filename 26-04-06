@@ -33,3 +33,4 @@ cargo-unused-features
 schemafy
 cargo-msrv
 localgpt
+cargo-prefetch
