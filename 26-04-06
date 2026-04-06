@@ -10,3 +10,4 @@ kble
 cargo-dylint
 maliput
 codeberg-cli
+slint-lsp
