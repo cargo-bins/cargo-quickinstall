@@ -28,3 +28,4 @@ bluetui
 paperclip
 fzf-make
 oculante
+cargo-unused-features
