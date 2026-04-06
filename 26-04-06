@@ -7,3 +7,4 @@ cargo-msrv
 localgpt
 bluetui
 tree-sitter-cli
+nextest
