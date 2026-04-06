@@ -35,3 +35,4 @@ cargo-msrv
 localgpt
 cargo-prefetch
 vdev
+blogr-cli
