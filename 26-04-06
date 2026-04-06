@@ -37,3 +37,4 @@ cargo-prefetch
 vdev
 blogr-cli
 fzf-make
+diesel_cli
