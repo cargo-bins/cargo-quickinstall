@@ -20,3 +20,4 @@ fzf-make
 java-locator
 blogr-cli
 ncspot
+cargo-unused-features
