@@ -9,3 +9,4 @@ codestyle
 cargo-public-api
 md2pdf
 termusic
+build-fs-tree
