@@ -5,3 +5,4 @@ tree-sitter-cli
 rioterm
 cargo-public-api
 sea-orm-cli
+codestyle
