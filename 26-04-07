@@ -13,3 +13,4 @@ build-fs-tree
 cargo-prefetch
 tree-sitter-cli
 blogr-cli
+alacritty
