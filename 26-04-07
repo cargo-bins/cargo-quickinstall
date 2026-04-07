@@ -3,3 +3,4 @@ build-fs-tree
 diesel_cli
 lance
 java-locator
+project_init
