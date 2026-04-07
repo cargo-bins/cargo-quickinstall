@@ -21,3 +21,4 @@ statsig-rs
 spider_cli
 lance
 rga
+cargo-dylint
