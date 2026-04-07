@@ -3,3 +3,4 @@ build-fs-tree
 diesel_cli
 statsig-rs
 lance
+java-locator
