@@ -5,3 +5,4 @@ dioxus-cli
 diesel_cli
 lance
 release
+project_init
