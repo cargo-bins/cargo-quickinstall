@@ -9,3 +9,4 @@ dicexp
 build-fs-tree
 dua-cli
 sqlx-cli
+diesel_cli
