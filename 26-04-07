@@ -22,3 +22,4 @@ ducc-sys
 sem-cli
 wol-rs
 wallust
+sqlx-cli
