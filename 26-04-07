@@ -11,3 +11,4 @@ md2pdf
 termusic
 build-fs-tree
 cargo-prefetch
+tree-sitter-cli
