@@ -9,3 +9,4 @@ project_init
 release
 dioxus-cli
 sass-rs
+wol-rs
