@@ -4,3 +4,4 @@ build-fs-tree
 dioxus-cli
 diesel_cli
 lance
+release
