@@ -6,3 +6,4 @@ deploy
 socketcan
 unic-langid-impl
 schemafy
+graphql_client_cli
