@@ -4,3 +4,4 @@ racer
 human_name
 codestyle
 foundationdb-gen
+sea-orm-cli
