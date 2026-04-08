@@ -5,3 +5,4 @@ foundationdb-gen
 deploy
 socketcan
 vdev
+unic-langid-impl
