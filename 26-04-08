@@ -5,3 +5,4 @@ human_name
 foundationdb-gen
 deploy
 nextest
+socketcan
