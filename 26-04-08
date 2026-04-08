@@ -8,3 +8,4 @@ nextest
 socketcan
 rtx-cli
 schemafy
+nu-completion-script
