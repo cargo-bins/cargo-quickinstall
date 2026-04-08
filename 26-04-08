@@ -6,3 +6,4 @@ foundationdb-gen
 deploy
 socketcan
 rtx-cli
+cargo-leptos
