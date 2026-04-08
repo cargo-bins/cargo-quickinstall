@@ -20,3 +20,4 @@ emissary-cli
 spider_cli
 slint-lsp
 lurk
+sea-orm-cli
