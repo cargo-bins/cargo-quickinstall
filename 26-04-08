@@ -16,3 +16,4 @@ emissary-cli
 ripdrag
 deploy
 slint-lsp
+socketcan
