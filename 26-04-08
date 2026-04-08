@@ -7,3 +7,4 @@ deploy
 socketcan
 rtx-cli
 cargo-leptos
+bpf-linker
