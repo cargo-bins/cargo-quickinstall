@@ -5,3 +5,4 @@ foundationdb-gen
 deploy
 socketcan
 unic-langid-impl
+schemafy
