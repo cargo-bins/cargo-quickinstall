@@ -13,3 +13,4 @@ deploy
 frawk
 socketcan
 pandora_box
+cargo-leptos
