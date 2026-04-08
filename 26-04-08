@@ -7,3 +7,4 @@ foundationdb-gen
 claude-tmux
 deploy
 socketcan
+nextest
