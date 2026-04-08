@@ -21,3 +21,4 @@ spider_cli
 slint-lsp
 lurk
 sea-orm-cli
+unic-langid-impl
