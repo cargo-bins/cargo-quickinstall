@@ -9,3 +9,4 @@ deploy
 socketcan
 nextest
 claude-tmux
+unic-langid-impl
