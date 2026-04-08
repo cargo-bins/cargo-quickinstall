@@ -5,3 +5,4 @@ foundationdb-gen
 deploy
 socketcan
 rtx-cli
+vdev
