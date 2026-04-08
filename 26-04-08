@@ -6,3 +6,4 @@ deploy
 socketcan
 rtx-cli
 vdev
+unic-langid-impl
