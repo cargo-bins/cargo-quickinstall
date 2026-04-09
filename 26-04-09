@@ -22,3 +22,4 @@ pnut-cli
 rustorio
 cargo-public-api
 cargo-dylint
+ratatui-image
