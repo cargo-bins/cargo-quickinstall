@@ -25,3 +25,4 @@ graphql_client_cli
 ringboard
 codestyle
 tracing-durations-export
+dockerdump
