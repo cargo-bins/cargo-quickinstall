@@ -8,3 +8,4 @@ cargo-dylint
 codestyle
 dioxus-cli
 dioxus-cli
+clipboard-history-server
