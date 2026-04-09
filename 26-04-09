@@ -3,3 +3,4 @@ dioxus-cli
 tagged-base64
 libbpf-cargo
 ratatui-image
+graphql_client_cli
