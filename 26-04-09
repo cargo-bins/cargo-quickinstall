@@ -24,3 +24,4 @@ cargo-public-api
 cargo-dylint
 ratatui-image
 graphql_client_cli
+ripdrag
