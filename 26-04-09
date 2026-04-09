@@ -12,3 +12,4 @@ clipboard-history-server
 pyrex
 mdfried
 sea-orm-cli
+tagged-base64
