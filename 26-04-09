@@ -5,3 +5,4 @@ libbpf-cargo
 ratatui-image
 graphql_client_cli
 parquet
+tracing-durations-export
