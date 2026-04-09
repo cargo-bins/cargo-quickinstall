@@ -3,3 +3,4 @@ frawk
 project_init
 codeberg-cli
 tagged-base64
+iai-callgrind-runner
