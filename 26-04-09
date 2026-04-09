@@ -6,3 +6,4 @@ tree-sitter-cli
 clipboard-history-wayland
 cargo-dylint
 codestyle
+dioxus-cli
