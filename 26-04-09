@@ -13,3 +13,4 @@ pyrex
 mdfried
 sea-orm-cli
 tagged-base64
+cargo-spellcheck
