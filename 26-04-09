@@ -5,3 +5,4 @@ pyrex
 project_init
 spider_cli
 songrec
+cargo-spellcheck
