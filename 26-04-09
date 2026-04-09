@@ -21,3 +21,4 @@ deno
 ratatui-image
 ringboard-tui
 wluma
+graphql_client_cli
