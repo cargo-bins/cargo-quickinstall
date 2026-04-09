@@ -20,3 +20,4 @@ tree-sitter-cli
 tree-sitter-cli
 ratatui-image
 graphql_client_cli
+tracing-durations-export
