@@ -7,3 +7,4 @@ iai-callgrind-runner
 libbpf-cargo
 bun
 steer
+ratatui-image
