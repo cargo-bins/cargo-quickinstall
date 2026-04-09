@@ -2,3 +2,4 @@ project_init
 nu-completion-script
 nu-completion-script
 tagged-base64
+libbpf-cargo
