@@ -7,3 +7,4 @@ spider_cli
 songrec
 cargo-spellcheck
 cargo-dylint
+clipboard-history-server
