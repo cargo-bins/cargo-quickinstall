@@ -1,3 +1,4 @@
 project_init
 tagged-base64
 iai-callgrind-runner
+libbpf-cargo
