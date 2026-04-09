@@ -19,3 +19,4 @@ tree-sitter-cli
 ironbar
 ratatui-image
 graphql_client_cli
+tracing-durations-export
