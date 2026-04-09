@@ -19,3 +19,4 @@ spider_worker
 rustorio
 deno
 ratatui-image
+ringboard-tui
