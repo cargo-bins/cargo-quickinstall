@@ -20,3 +20,4 @@ pnut-cli
 codestyle
 pnut-cli
 rustorio
+cargo-public-api
