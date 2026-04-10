@@ -11,3 +11,4 @@ cargo-spellcheck
 opencv-binding-generator
 tree-sitter-cli
 xargo
+vdev
