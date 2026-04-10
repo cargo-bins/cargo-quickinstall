@@ -13,3 +13,4 @@ tree-sitter-cli
 xargo
 vdev
 all-smi
+hotpath
