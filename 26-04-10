@@ -12,3 +12,4 @@ opencv-binding-generator
 tree-sitter-cli
 xargo
 vdev
+all-smi
