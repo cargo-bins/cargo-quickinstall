@@ -12,3 +12,4 @@ slint-viewer
 opencv-binding-generator
 mise
 xargo
+cargo-spellcheck
