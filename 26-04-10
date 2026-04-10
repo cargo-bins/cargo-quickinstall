@@ -31,3 +31,4 @@ sniffnet
 cargo-minify
 wmi
 all-smi
+cargo-public-api
