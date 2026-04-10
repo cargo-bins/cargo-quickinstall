@@ -16,3 +16,4 @@ cargo-spellcheck
 racer
 vdev
 vdev
+tagged-base64
