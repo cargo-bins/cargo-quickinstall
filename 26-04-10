@@ -15,3 +15,4 @@ codeberg-cli
 opencv-binding-generator
 xargo
 racer
+tagged-base64
