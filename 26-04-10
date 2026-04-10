@@ -11,3 +11,4 @@ dioxus-cli
 slint-viewer
 opencv-binding-generator
 mise
+xargo
