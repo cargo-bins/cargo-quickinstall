@@ -18,3 +18,4 @@ racer
 tagged-base64
 esp-config
 nkeys
+clap-stdin
