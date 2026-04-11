@@ -10,3 +10,4 @@ rustnet-monitor
 mise
 mise
 cargo-dylint
+cargo-minify
