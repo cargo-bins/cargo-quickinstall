@@ -4,3 +4,4 @@ sniffnet
 alsa-sys
 mise
 hotpath
+addr2line
