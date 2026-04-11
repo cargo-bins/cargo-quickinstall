@@ -2,3 +2,4 @@ pandora_box
 cargo-local-registry
 papyrus_storage
 project_init
+addr2line
