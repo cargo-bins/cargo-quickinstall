@@ -8,3 +8,4 @@ nextest
 nextest
 rg
 rg
+addr2line
