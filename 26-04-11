@@ -17,3 +17,4 @@ cargo-dylint
 papyrus_storage
 mise
 cargo-minify
+addr2line
