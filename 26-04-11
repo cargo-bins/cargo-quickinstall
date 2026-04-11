@@ -24,3 +24,4 @@ cargo-minify
 nextest
 mdcat
 addr2line
+mdcat
