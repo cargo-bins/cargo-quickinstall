@@ -5,3 +5,4 @@ all-smi
 all-smi
 mdcat
 cargo-spellcheck
+spider_cli
