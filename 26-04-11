@@ -13,3 +13,4 @@ cargo-public-api
 worker-build
 mdcat
 alacritty
+addr2line
