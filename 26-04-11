@@ -22,3 +22,4 @@ project_init
 mdfried
 all-smi
 mdcat
+worker-build
