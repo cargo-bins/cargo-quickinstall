@@ -41,3 +41,4 @@ kanidm_tools
 libbpf-cargo
 build-fs-tree
 wmi
+racer
