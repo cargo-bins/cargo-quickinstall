@@ -14,3 +14,4 @@ worker-build
 mdcat
 alacritty
 addr2line
+gg-cli
