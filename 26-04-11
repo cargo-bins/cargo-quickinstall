@@ -8,3 +8,4 @@ cargo-local-registry
 codeberg-cli
 onehistory
 onehistory
+nextest-filtering
