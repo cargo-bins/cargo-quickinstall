@@ -47,3 +47,4 @@ wmi
 gg-cli
 racer
 xplr
+libbpf-cargo
