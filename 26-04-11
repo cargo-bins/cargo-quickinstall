@@ -18,3 +18,4 @@ dicom-pixeldata
 h3o
 virtiofsd
 dotenv
+lux-cli
