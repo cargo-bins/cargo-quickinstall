@@ -12,3 +12,4 @@ pwasm-utils
 dicom-pixeldata
 h3o
 virtiofsd
+dotenv
