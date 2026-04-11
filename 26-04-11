@@ -25,3 +25,4 @@ orca-cli
 build-fs-tree
 racer
 oso
+pwasm-utils
