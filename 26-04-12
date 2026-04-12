@@ -13,3 +13,4 @@ nu_plugin_query
 schemafy
 nu_plugin_gstat
 tectonic
+statsig-rs
