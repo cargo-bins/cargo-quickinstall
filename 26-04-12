@@ -3,3 +3,4 @@ lux-cli
 proof-of-sql
 schemafy
 perfcnt
+diesel_cli
