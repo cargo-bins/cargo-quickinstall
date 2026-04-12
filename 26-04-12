@@ -3,3 +3,4 @@ libcst
 proof-of-sql
 schemafy
 perfcnt
+statsig-rs
