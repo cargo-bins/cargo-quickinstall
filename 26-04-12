@@ -13,3 +13,4 @@ cargo-dylint
 schemafy
 perfcnt
 statsig-rs
+diesel_cli
