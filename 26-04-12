@@ -13,3 +13,4 @@ schemafy
 cargo-dylint
 perfcnt
 statsig-rs
+spl-token-cli
