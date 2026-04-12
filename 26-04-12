@@ -1,3 +1,4 @@
 cargo-show
 cargo-graph
 cargo-dylint
+cargo-smart-release
