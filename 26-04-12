@@ -3,3 +3,4 @@ cargo-graph
 cargo-dylint
 cargo-smart-release
 cargo-show
+nu_plugin_gstat
