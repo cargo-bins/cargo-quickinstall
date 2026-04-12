@@ -9,3 +9,4 @@ diesel_cli
 stellar-strkey
 dotenv
 termusic
+human_name
