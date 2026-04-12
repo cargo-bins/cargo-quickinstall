@@ -8,3 +8,4 @@ statsig-rs
 diesel_cli
 stellar-strkey
 dotenv
+wmi
