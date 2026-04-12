@@ -9,3 +9,4 @@ proof-of-sql
 xplr
 nu_plugin_gstat
 cargo-graph
+nu_plugin_query
