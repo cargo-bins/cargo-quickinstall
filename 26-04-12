@@ -16,3 +16,4 @@ statsig-rs
 spl-token-cli
 diesel_cli
 stellar-strkey
+dotenv
