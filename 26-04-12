@@ -11,3 +11,4 @@ lux-cli
 diesel_cli
 stellar-strkey
 wmi
+pgmq
