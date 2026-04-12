@@ -14,3 +14,4 @@ wmi
 pgmq
 kreuzberg-cli
 ruff
+nu_plugin_query
