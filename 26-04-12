@@ -8,3 +8,4 @@ dotenv
 stellar-strkey
 wmi
 ruff
+pgmq
