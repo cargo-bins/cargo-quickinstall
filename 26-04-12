@@ -25,3 +25,4 @@ statsig-rs
 xplr
 tectonic
 spl-token-cli
+libbpf-cargo
