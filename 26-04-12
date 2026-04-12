@@ -16,3 +16,4 @@ kreuzberg-cli
 ruff
 nu_plugin_query
 human_name
+tree_magic
