@@ -10,3 +10,4 @@ proof-of-sql
 jless
 cargo-dylint
 cargo-dylint
+schemafy
