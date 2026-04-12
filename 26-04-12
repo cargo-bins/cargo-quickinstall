@@ -5,3 +5,4 @@ proof-of-sql
 schemafy
 perfcnt
 wallust
+diesel_cli
