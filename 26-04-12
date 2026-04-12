@@ -39,3 +39,4 @@ get-all-crates
 human_name
 sniffglue
 xplr
+cargo-cooldown
