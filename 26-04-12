@@ -7,3 +7,4 @@ statsig-rs
 diesel_cli
 stellar-strkey
 wmi
+human_name
