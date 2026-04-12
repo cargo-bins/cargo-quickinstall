@@ -36,3 +36,4 @@ cargo-smart-release
 get-all-crates
 cargo-graph
 get-all-crates
+human_name
