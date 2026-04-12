@@ -6,3 +6,4 @@ schemafy
 perfcnt
 statsig-rs
 diesel_cli
+stellar-strkey
