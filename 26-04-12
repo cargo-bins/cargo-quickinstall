@@ -4,3 +4,4 @@ proof-of-sql
 schemafy
 perfcnt
 statsig-rs
+diesel_cli
