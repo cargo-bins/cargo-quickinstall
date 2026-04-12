@@ -9,3 +9,4 @@ diesel_cli
 stellar-strkey
 human_name
 tree_magic
+cargo-vet
