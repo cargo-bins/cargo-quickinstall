@@ -11,3 +11,4 @@ nu_plugin_gstat
 cargo-graph
 nu_plugin_query
 schemafy
+nu_plugin_gstat
