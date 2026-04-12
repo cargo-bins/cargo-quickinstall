@@ -24,3 +24,4 @@ get-all-crates
 statsig-rs
 xplr
 tectonic
+spl-token-cli
