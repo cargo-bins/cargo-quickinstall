@@ -10,3 +10,4 @@ cargo-dylint
 tectonic
 cargo-graph
 tectonic
+cargo-smart-release
