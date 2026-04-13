@@ -20,3 +20,4 @@ sudo-rs
 vdev
 statsig-rs
 age-plugin-yubikey
+tree-sitter-cli
