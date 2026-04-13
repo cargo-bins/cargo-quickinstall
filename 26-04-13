@@ -27,3 +27,4 @@ nu_plugin_query
 rustnet-monitor
 rustnet-monitor
 git-forge
+socketcan
