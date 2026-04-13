@@ -13,3 +13,4 @@ nu_plugin_gstat
 nu_plugin_gstat
 nu_plugin_query
 socketcan
+nu_plugin_gstat
