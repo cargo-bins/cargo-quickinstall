@@ -24,3 +24,4 @@ netwatch-tui
 cargo-show
 git-forge
 vdev
+nu_plugin_query
