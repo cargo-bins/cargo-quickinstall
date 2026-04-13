@@ -11,7 +11,7 @@ dependencies = [
     "requests>=2.32.3",
     "semver>=3.0.2",
     "polars>=1.7.0",
-    "ruff>=0.7.2",
+    "ruff>=0.15.10",
 ]
 
 [tool.setuptools]
