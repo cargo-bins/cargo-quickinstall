@@ -5,3 +5,4 @@ rav1e
 cpp_demangle
 text-diff
 cargo-vet
+socketcan
