@@ -4,3 +4,4 @@ lance
 cpp_demangle
 human_name
 statsig-rs
+socketcan
