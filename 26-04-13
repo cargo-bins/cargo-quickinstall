@@ -4,3 +4,4 @@ r3bl_tuify
 cpp_demangle
 human_name
 statsig-rs
+socketcan
