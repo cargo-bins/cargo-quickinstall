@@ -2,3 +2,4 @@ sass-rs
 fake
 fuel-gql-client
 virtiofsd
+socketcan
