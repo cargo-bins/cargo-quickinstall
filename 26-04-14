@@ -20,3 +20,4 @@ rioterm
 socketcan
 cargo-public-api
 cargo-public-api
+age-plugin-yubikey
