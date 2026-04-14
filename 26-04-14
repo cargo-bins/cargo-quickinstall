@@ -13,3 +13,4 @@ qmassa
 virtiofsd
 socketcan
 rg
+fzf-make
