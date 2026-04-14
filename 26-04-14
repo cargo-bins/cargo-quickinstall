@@ -2,3 +2,4 @@ sass-rs
 fake
 uniffi
 virtiofsd
+socketcan
