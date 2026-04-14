@@ -2,3 +2,4 @@ rustbus
 fake
 fuel-gql-client
 uniffi
+rustfmt
