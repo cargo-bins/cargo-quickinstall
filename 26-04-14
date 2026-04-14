@@ -19,3 +19,4 @@ iai-callgrind-runner
 sp1-prover
 nextest
 stellar-xdr
+cargo-generate
