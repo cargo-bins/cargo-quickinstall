@@ -32,3 +32,4 @@ cargo-ui
 jackdaw
 sp1-prover
 stellar-xdr
+nu_plugin_gstat
