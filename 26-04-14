@@ -11,3 +11,4 @@ jless
 cargo-crev
 jless
 virtiofsd
+socketcan
