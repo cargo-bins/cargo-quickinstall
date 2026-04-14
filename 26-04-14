@@ -5,3 +5,4 @@ uniffi
 rustfmt
 virtiofsd
 socketcan
+rustfmt
