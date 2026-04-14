@@ -3,3 +3,4 @@ fake
 fuel-gql-client
 uniffi
 rustfmt
+virtiofsd
