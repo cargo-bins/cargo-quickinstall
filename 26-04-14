@@ -6,3 +6,4 @@ rustfmt
 virtiofsd
 socketcan
 rustfmt
+iai-callgrind-runner
