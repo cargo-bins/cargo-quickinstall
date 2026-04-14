@@ -31,3 +31,4 @@ vdev
 cargo-dylint
 pnut-cli
 tree_magic
+cargo-ui
