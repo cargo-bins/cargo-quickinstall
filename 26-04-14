@@ -8,3 +8,4 @@ nu_plugin_query
 fuel-gql-client
 alacritty
 sudo-rs
+cargo-show
