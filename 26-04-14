@@ -12,3 +12,4 @@ cargo-crev
 jless
 virtiofsd
 socketcan
+re_query
