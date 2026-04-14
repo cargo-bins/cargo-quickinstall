@@ -18,3 +18,4 @@ sea-orm-cli
 virtiofsd
 rioterm
 socketcan
+cargo-public-api
