@@ -7,3 +7,4 @@ codeberg-cli
 nextest
 az-snp-vtpm
 wol-rs
+cargo-tangle
