@@ -41,3 +41,4 @@ cargo-tangle
 nextest
 bluetui
 netinfo
+esp-config
