@@ -4,3 +4,4 @@ solana-cli
 rustfmt-nightly
 az-snp-vtpm
 wol-rs
+rpki
