@@ -9,3 +9,4 @@ rustfmt-nightly
 jj
 schematools-cli
 age-plugin-yubikey
+process_viewer
