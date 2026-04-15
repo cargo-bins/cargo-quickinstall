@@ -12,3 +12,4 @@ age-plugin-yubikey
 process_viewer
 neovide
 sniffnet
+sea-orm-cli
