@@ -3,3 +3,4 @@ process_viewer
 vdev
 vdev
 vdev
+rustfmt-nightly
