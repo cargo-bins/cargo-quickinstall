@@ -6,3 +6,4 @@ cargo-ui
 jackdaw
 sea-orm-cli
 rustfmt-nightly
+jj
