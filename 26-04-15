@@ -4,3 +4,4 @@ rustlens
 fzf-make
 cargo-ui
 jackdaw
+sea-orm-cli
