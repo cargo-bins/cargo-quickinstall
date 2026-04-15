@@ -7,3 +7,4 @@ rustfmt-nightly
 az-snp-vtpm
 vdev
 wol-rs
+maliput-sdk
