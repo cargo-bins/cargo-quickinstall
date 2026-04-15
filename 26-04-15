@@ -6,3 +6,4 @@ rustfmt-nightly
 az-snp-vtpm
 wol-rs
 rpki
+esp-config
