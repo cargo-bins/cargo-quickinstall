@@ -30,3 +30,4 @@ wol-rs
 nextest
 rpki
 cargo-public-api
+lowfi
