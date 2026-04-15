@@ -1,2 +1,3 @@
 tokio-process
 git-mit-config
+rustfmt-nightly
