@@ -20,3 +20,4 @@ bqtools
 solana-cli
 sniffnet
 twitch-tui
+rustfmt-nightly
