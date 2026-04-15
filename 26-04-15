@@ -3,3 +3,4 @@ vdev
 process_viewer
 az-snp-vtpm
 wol-rs
+maliput-sdk
