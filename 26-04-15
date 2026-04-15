@@ -40,3 +40,4 @@ cargo-hot
 cargo-tangle
 nextest
 bluetui
+netinfo
