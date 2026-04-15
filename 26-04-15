@@ -7,3 +7,4 @@ jackdaw
 sea-orm-cli
 rustfmt-nightly
 jj
+schematools-cli
