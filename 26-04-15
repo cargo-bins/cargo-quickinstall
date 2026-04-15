@@ -23,3 +23,4 @@ solana-cli
 cargo-tangle
 cargo-hot
 rustfmt-nightly
+twitch-tui
