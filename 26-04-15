@@ -22,3 +22,4 @@ tola
 solana-cli
 cargo-tangle
 cargo-hot
+rustfmt-nightly
