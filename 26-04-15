@@ -2,3 +2,4 @@ nextest
 nextest
 git-mit-config
 zellij
+rustfmt-nightly
