@@ -38,3 +38,4 @@ tmtc-c2a
 bluetui
 cargo-hot
 cargo-tangle
+nextest
