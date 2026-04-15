@@ -8,3 +8,4 @@ sea-orm-cli
 rustfmt-nightly
 jj
 schematools-cli
+age-plugin-yubikey
