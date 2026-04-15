@@ -25,3 +25,4 @@ cargo-hot
 rustfmt-nightly
 twitch-tui
 sniffnet
+az-snp-vtpm
