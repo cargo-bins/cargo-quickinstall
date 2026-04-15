@@ -5,3 +5,4 @@ zellij
 rustfmt-nightly
 codeberg-cli
 nextest
+az-snp-vtpm
