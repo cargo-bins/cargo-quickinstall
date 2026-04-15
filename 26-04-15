@@ -29,3 +29,4 @@ xray-tui
 bqtools
 cargo-tangle
 wol-rs
+cargo-hot
