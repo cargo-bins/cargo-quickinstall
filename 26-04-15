@@ -31,3 +31,4 @@ nextest
 rpki
 cargo-public-api
 lowfi
+binstall
