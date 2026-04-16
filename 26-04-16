@@ -19,3 +19,4 @@ tree-sitter-cli
 netinfo
 diesel_cli
 sniffnet
+nu_plugin_query
