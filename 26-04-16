@@ -12,3 +12,4 @@ cargo-hot
 tgt
 project-rag
 spider_cli
+cargo-public-api
