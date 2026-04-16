@@ -18,3 +18,4 @@ sea-orm-cli
 bluetui
 cargo-dylint
 slint-lsp
+diesel_cli
