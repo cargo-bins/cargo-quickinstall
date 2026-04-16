@@ -7,3 +7,4 @@ tola
 binstall
 sea-orm-cli
 nextest
+schematools-cli
