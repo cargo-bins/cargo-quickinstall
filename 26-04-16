@@ -2,3 +2,4 @@ nextest
 rsgen-avro
 monitetoring
 jackdaw
+cargo-hot
