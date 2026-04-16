@@ -16,3 +16,4 @@ cargo-public-api
 monitetoring
 sea-orm-cli
 tree-sitter-cli
+netinfo
