@@ -8,3 +8,4 @@ binstall
 sea-orm-cli
 nextest
 schematools-cli
+cargo-hot
