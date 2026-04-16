@@ -10,3 +10,4 @@ nextest
 schematools-cli
 cargo-hot
 tgt
+project-rag
