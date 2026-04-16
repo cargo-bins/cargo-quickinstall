@@ -15,3 +15,4 @@ spider_cli
 cargo-public-api
 netinfo
 sea-orm-cli
+bluetui
