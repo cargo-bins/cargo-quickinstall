@@ -11,3 +11,4 @@ schematools-cli
 cargo-hot
 tgt
 project-rag
+spider_cli
