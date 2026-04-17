@@ -13,3 +13,4 @@ cargo-public-api
 pgrx-tests
 textplots
 bmputil
+slint-viewer
