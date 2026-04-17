@@ -21,3 +21,4 @@ vdev
 rustnet-monitor
 bmputil
 neovide
+tree-sitter-cli
