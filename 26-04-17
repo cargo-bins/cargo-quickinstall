@@ -3,3 +3,4 @@ fake
 cargo-public-api
 tgt
 jj
+nu_plugin_query
