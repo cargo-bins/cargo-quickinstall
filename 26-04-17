@@ -10,3 +10,4 @@ slint-viewer
 tgt
 vdev
 cargo-public-api
+pgrx-tests
