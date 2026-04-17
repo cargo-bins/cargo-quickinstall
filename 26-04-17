@@ -2,3 +2,4 @@ slint-lsp
 rustdesk
 cargo-public-api
 tree-sitter-cli
+rustnet-monitor
