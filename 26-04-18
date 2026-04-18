@@ -5,3 +5,4 @@ cargo-pgrx
 oso
 re_viewer
 rpki
+tracing-durations-export
