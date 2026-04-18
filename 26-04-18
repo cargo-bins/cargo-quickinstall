@@ -49,3 +49,4 @@ mycrate
 raw-cpuid
 gumbo
 slint-lsp
+lux-cli
