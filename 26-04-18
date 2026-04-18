@@ -3,3 +3,4 @@ remove_dir_all
 cargo-pgrx
 re_viewer
 tracing-durations-export
+sp1-prover
