@@ -10,3 +10,4 @@ cargo-dylint
 spider_cli
 wiremix
 termusic
+cargo-pgrx
