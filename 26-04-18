@@ -6,3 +6,4 @@ tracing-durations-export
 sp1-prover
 a11ywatch_cli
 tree-sitter-graph
+raw-cpuid
