@@ -31,3 +31,4 @@ rpki
 neovide
 slint-lsp
 gumbo
+cargo-dylint
