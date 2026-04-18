@@ -35,3 +35,4 @@ cargo-dylint
 pwninit
 gumbo
 slint-lsp
+lux-cli
