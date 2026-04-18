@@ -10,3 +10,4 @@ sn_faucet
 tracing-durations-export
 tree-sitter-graph
 benfred-read-process-memory
+raw-cpuid
