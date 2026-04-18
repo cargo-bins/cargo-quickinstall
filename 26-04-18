@@ -18,3 +18,4 @@ cargo-pgrx
 wiremix
 sudo-rs
 mdcat
+slint-lsp
