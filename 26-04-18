@@ -7,3 +7,4 @@ wiremix
 neovide
 remove_dir_all
 cargo-dylint
+spider_cli
