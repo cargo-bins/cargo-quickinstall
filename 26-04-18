@@ -4,3 +4,4 @@ remove_dir_all
 cargo-pgrx
 oso
 re_viewer
+rpki
