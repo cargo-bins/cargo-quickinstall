@@ -12,3 +12,4 @@ tree-sitter-graph
 mit-commit-msg
 bpf-linker
 nexmark
+cargo-lock
