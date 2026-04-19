@@ -4,3 +4,4 @@ pandora_box
 wol-rs
 arrow-flight
 httpmock
+ec2_instance_metadata
