@@ -40,3 +40,4 @@ esp-config
 cargo-lock
 jujutsu
 cargo-bundle
+sp1-prover
