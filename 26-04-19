@@ -8,3 +8,4 @@ cargo-dylint
 cargo-dylint
 arrow-flight
 httpmock
+tree-sitter-graph
