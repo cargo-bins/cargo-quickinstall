@@ -11,3 +11,4 @@ pwninit
 slint-lsp
 cargo-pgrx
 commit_verify
+lux-cli
