@@ -16,3 +16,4 @@ diesel_cli
 yazi-fm
 lux-cli
 cargo-bundle
+cargo-pgrx
