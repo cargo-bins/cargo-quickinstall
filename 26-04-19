@@ -37,3 +37,4 @@ tlmcmddb-cli
 esp-config
 kble
 nexmark
+cargo-graph
