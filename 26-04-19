@@ -7,3 +7,4 @@ diesel_cli
 cargo-dylint
 cargo-dylint
 arrow-flight
+httpmock
