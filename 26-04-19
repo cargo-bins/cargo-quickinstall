@@ -9,3 +9,4 @@ cargo-dylint
 arrow-flight
 httpmock
 sass-rs
+tree-sitter-graph
