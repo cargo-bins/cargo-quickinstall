@@ -8,3 +8,4 @@ ec2_instance_metadata
 git-mit
 sass-rs
 holochain
+tree-sitter-graph
