@@ -18,3 +18,4 @@ lux-cli
 cargo-bundle
 cargo-pgrx
 wol-rs
+arrow-flight
