@@ -12,3 +12,4 @@ solana-tokens
 forgejo-cli
 nexmark
 cargo-lock
+cargo-fixit
