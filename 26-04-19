@@ -7,3 +7,4 @@ lowfi
 mycrate
 cargo-dylint
 cargo-pgrx
+pwninit
