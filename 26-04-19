@@ -14,3 +14,4 @@ nexmark
 cargo-lock
 cargo-fixit
 sp1-prover
+stellar-strkey
