@@ -39,3 +39,4 @@ pg-embed-setup-unpriv
 esp-config
 cargo-lock
 jujutsu
+cargo-bundle
