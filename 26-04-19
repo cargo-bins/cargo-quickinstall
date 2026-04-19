@@ -8,3 +8,4 @@ httpmock
 tree-sitter-graph
 solana-tokens
 nexmark
+cargo-lock
