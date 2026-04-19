@@ -8,3 +8,4 @@ mycrate
 cargo-dylint
 cargo-pgrx
 pwninit
+slint-lsp
