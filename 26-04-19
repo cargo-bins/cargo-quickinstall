@@ -24,3 +24,4 @@ cargo-lock
 lux-cli
 sp1-prover
 stellar-strkey
+r-matrix
