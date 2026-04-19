@@ -38,3 +38,4 @@ esp-config
 kble
 nexmark
 cargo-graph
+kble-serialport
