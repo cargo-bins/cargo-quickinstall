@@ -8,3 +8,4 @@ pwninit
 cargo-pgrx
 cargo-dylint
 lowfi
+commit_verify
