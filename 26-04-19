@@ -21,3 +21,4 @@ r-matrix
 bpf-linker
 nexmark
 cargo-lock
+lux-cli
