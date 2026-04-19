@@ -14,3 +14,4 @@ solana-cli
 nexmark
 cargo-lock
 sp1-prover
+stellar-strkey
