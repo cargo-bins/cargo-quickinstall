@@ -41,3 +41,4 @@ cargo-lock
 jujutsu
 cargo-bundle
 sp1-prover
+stellar-strkey
