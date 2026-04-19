@@ -2,3 +2,4 @@ commit_verify
 diesel_cli
 pandora_box
 solana-stake-accounts
+wol-rs
