@@ -2,3 +2,4 @@ commit_verify
 cargo-dylint
 cargo-dylint
 protox
+diesel_cli
