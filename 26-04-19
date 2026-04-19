@@ -20,3 +20,4 @@ r-matrix
 r-matrix
 bpf-linker
 nexmark
+cargo-lock
