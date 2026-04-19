@@ -37,3 +37,4 @@ mise
 cargo-pgrx
 pg-embed-setup-unpriv
 esp-config
+cargo-lock
