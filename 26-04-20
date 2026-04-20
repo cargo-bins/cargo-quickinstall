@@ -15,3 +15,4 @@ crates-mcp
 rustweb2
 opencv-binding-generator
 social_networks
+spider_cli
