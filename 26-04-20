@@ -25,3 +25,4 @@ cargo-unused-features
 cargo-pgrx
 safe_network
 dx-cli
+lifecycler
