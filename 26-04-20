@@ -24,3 +24,4 @@ cargo-unused-features
 cargo-unused-features
 cargo-pgrx
 safe_network
+dx-cli
