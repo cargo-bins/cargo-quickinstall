@@ -6,3 +6,4 @@ syd
 nu_plugin_gstat
 iroh-relay
 opencv-binding-generator
+rustnet-monitor
