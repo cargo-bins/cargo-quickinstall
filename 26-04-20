@@ -21,3 +21,4 @@ opencv-binding-generator
 framework_tool
 cargo-smart-release
 cargo-unused-features
+cargo-unused-features
