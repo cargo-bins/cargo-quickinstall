@@ -22,3 +22,4 @@ framework_tool
 cargo-smart-release
 cargo-unused-features
 cargo-unused-features
+cargo-pgrx
