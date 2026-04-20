@@ -11,3 +11,4 @@ rust-bert
 minicbor
 syd
 opencv-binding-generator
+diesel_cli
