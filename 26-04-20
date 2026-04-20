@@ -8,3 +8,4 @@ iroh-relay
 opencv-binding-generator
 rustnet-monitor
 mapvas
+rust-bert
