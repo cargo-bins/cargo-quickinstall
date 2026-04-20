@@ -15,3 +15,4 @@ cargo-unused-features
 pg-embed-setup-unpriv
 syd
 tree-sitter-cli
+rustnet-monitor
