@@ -11,3 +11,4 @@ mapvas
 rust-bert
 minicbor
 jujutsu
+cargo-unused-features
