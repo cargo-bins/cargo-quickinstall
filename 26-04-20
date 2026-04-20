@@ -5,3 +5,4 @@ rust-bert
 solana-stake-accounts
 syd
 opencv-binding-generator
+diesel_cli
