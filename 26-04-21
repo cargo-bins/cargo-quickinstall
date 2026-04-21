@@ -5,3 +5,4 @@ human_name
 tendermint-rpc
 sqlx-cli
 dx-cli
+bpf-linker
