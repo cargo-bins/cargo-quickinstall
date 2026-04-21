@@ -4,3 +4,4 @@ codeberg-cli
 human_name
 tendermint-rpc
 sqlx-cli
+dx-cli
