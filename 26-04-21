@@ -6,3 +6,4 @@ tendermint-rpc
 sqlx-cli
 dx-cli
 bpf-linker
+mit-commit-msg
