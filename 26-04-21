@@ -15,3 +15,4 @@ sea-orm-cli
 cargo-smart-release
 cargo-auto
 dx-cli
+vdev
