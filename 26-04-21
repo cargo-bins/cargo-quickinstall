@@ -6,3 +6,4 @@ probe-run
 cargo-auto
 tmtc-c2a
 cargo-smart-release
+human_name
