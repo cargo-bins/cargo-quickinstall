@@ -7,3 +7,4 @@ cargo-auto
 human_name
 mdfried
 cargo-auto
+tendermint-rpc
