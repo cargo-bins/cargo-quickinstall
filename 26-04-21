@@ -9,3 +9,4 @@ cargo-smart-release
 human_name
 dx-cli
 tendermint-rpc
+sea-orm-cli
