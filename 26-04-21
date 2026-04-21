@@ -16,3 +16,4 @@ vdev
 cargo-smart-release
 cargo-smart-release
 probe-run
+dx-cli
