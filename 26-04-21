@@ -2,3 +2,4 @@ framework_tool
 cargo-auto
 social_networks
 cargo-spellcheck
+probe-run
