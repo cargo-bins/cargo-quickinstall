@@ -12,3 +12,4 @@ tendermint-rpc
 sea-orm-cli
 cargo-dylint
 sea-orm-cli
+cargo-smart-release
