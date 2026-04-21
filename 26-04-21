@@ -3,3 +3,4 @@ nextest
 human_name
 tendermint-rpc
 bun
+nu_plugin_file
