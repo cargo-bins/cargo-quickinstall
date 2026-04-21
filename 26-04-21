@@ -2,3 +2,4 @@ mapvas
 cargo-spellcheck
 sea-orm-cli
 cargo-public-api
+cargo-auto
