@@ -11,3 +11,4 @@ tendermint-rpc
 iocaine
 tree-sitter-cli
 welds-cli
+rustnet-monitor
