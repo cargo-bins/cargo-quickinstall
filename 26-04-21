@@ -16,3 +16,4 @@ cargo-smart-release
 cargo-auto
 dx-cli
 vdev
+rustweb2
