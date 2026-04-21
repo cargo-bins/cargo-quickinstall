@@ -13,3 +13,4 @@ tree-sitter-cli
 welds-cli
 rustnet-monitor
 vdev
+cargo-smart-release
