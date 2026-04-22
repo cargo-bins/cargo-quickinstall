@@ -30,3 +30,4 @@ cargo-mobile2
 worker-build
 rg
 tplay
+binwalk
