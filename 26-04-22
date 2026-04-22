@@ -5,3 +5,4 @@ diesel_cli
 arrow-flight
 codeberg-cli
 duckduckgo
+sqlx-cli
