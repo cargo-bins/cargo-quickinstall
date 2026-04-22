@@ -8,3 +8,4 @@ worker-build
 spider_cli
 worker-build
 cargo-quad-apk
+sea-orm-cli
