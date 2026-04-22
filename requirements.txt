@@ -6,7 +6,7 @@ certifi==2026.2.25
     #   requests
 charset-normalizer==3.4.7
     # via requests
-idna==3.11
+idna==3.12
     # via requests
 influxdb3-python==0.18.0
     # via cronjob-scripts (pyproject.toml)
