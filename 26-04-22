@@ -9,3 +9,4 @@ vdev
 netwatch-tui
 spider_cli
 tree-sitter-cli
+worker-build
