@@ -3,3 +3,4 @@ diesel_cli
 tracing-durations-export
 arrow-flight
 textplots
+schemafy
