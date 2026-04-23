@@ -9,3 +9,4 @@ stellar-strkey
 stellar-xdr
 lux-cli
 binstall
+nextest-filtering
