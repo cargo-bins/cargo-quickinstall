@@ -14,3 +14,4 @@ cargo-minify
 worker-build
 cyme
 sea-orm-cli
+cargo-public-api
