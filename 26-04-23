@@ -5,3 +5,4 @@ crypto-cli-tools
 cargo-local-registry
 cargo-vet
 git-mit-install
+diesel_cli
