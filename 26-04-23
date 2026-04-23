@@ -7,3 +7,4 @@ cargo-vet
 git-mit-install
 diesel_cli
 stellar-strkey
+stellar-xdr
