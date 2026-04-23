@@ -30,3 +30,4 @@ rsfetch
 worker-build
 bkb-mcp
 nextest-filtering
+nono-cli
