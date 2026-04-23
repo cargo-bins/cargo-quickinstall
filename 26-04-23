@@ -23,3 +23,4 @@ stellar-xdr
 rsfetch
 nextest-filtering
 racer
+cargo-count
