@@ -27,3 +27,4 @@ cargo-count
 cargo-public-api
 stellar-xdr
 rsfetch
+worker-build
