@@ -8,3 +8,4 @@ git-mit-install
 diesel_cli
 stellar-strkey
 stellar-xdr
+nextest-filtering
