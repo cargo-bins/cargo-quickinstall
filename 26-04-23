@@ -32,3 +32,4 @@ bkb-mcp
 nextest-filtering
 nono-cli
 racer
+cargo-show
