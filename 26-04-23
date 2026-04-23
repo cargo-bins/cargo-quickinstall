@@ -5,3 +5,4 @@ cargo-local-registry
 esp-config
 git-mit-install
 updt
+diesel_cli
