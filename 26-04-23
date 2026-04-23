@@ -24,3 +24,4 @@ rsfetch
 nextest-filtering
 racer
 cargo-count
+sea-orm-cli
