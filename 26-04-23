@@ -20,3 +20,4 @@ diesel_cli
 stellar-strkey
 rg
 stellar-xdr
+rsfetch
