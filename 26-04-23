@@ -9,3 +9,4 @@ diesel_cli
 binstall
 stellar-strkey
 jujutsu
+stellar-xdr
