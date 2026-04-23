@@ -9,3 +9,4 @@ crypto-cli-tools
 cargo-minify
 oracle-tui
 binwalk
+rsfetch
