@@ -2,3 +2,4 @@ jsonrpc-debugger
 tracing-durations-export
 spider_cli
 tmtc-c2a
+cargo-public-api
