@@ -13,3 +13,4 @@ rsfetch
 cargo-minify
 worker-build
 cyme
+sea-orm-cli
