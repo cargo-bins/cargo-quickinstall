@@ -11,3 +11,4 @@ markitdown
 cargo-minify
 rsfetch
 cargo-minify
+worker-build
