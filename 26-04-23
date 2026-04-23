@@ -16,3 +16,4 @@ cyme
 sea-orm-cli
 cargo-public-api
 cargo-bundle
+oracle-tui
