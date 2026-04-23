@@ -8,3 +8,4 @@ sea-orm-cli
 nono-cli
 netwatch-tui
 markitdown
+cargo-minify
