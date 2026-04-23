@@ -4,3 +4,4 @@ vdev
 rg
 spider_cli
 crypto-cli-tools
+sea-orm-cli
