@@ -6,3 +6,4 @@ cargo-public-api
 spider_cli
 spider_cli
 crypto-cli-tools
+cargo-minify
