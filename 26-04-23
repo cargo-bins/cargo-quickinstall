@@ -2,3 +2,4 @@ libcst
 tracing-durations-export
 crypto-cli-tools
 diesel_cli
+stellar-strkey
