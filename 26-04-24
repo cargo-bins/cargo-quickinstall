@@ -6,3 +6,4 @@ oso
 cargo-minify
 iroh-gossip
 kache
+cached-path
