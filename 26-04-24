@@ -19,3 +19,4 @@ binstall
 cargo-dylint
 slint-viewer
 cargo-bundle
+hex-patch
