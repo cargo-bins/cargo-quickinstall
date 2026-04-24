@@ -17,3 +17,4 @@ rfmt
 qsv
 binstall
 cargo-dylint
+slint-viewer
