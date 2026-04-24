@@ -13,3 +13,4 @@ cargo-bundle
 mise
 hex-patch
 cached-path
+rfmt
