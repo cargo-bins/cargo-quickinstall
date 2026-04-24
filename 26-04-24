@@ -16,3 +16,4 @@ cached-path
 rfmt
 qsv
 binstall
+cargo-dylint
