@@ -2,3 +2,4 @@ refinery_cli
 buck2
 bluetui
 dioxus-cli
+cargo-show
