@@ -3,3 +3,4 @@ dioxus-cli
 kache
 tendermint-abci
 oso
+cargo-minify
