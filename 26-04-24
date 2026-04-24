@@ -5,3 +5,4 @@ esp-config
 codeberg-cli
 datavzrd
 esp-config
+cargo-local-registry
