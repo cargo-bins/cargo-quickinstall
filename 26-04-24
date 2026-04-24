@@ -12,3 +12,4 @@ iroh-gossip
 cargo-bundle
 mise
 hex-patch
+cached-path
