@@ -2,3 +2,4 @@ dioxus-cli
 tendermint-abci
 oso
 iroh-gossip
+cached-path
