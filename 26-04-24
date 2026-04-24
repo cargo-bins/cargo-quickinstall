@@ -27,3 +27,4 @@ grepq
 rustdoc-text
 social_networks
 binstall
+cargo-dylint
