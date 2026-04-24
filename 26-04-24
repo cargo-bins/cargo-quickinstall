@@ -30,3 +30,4 @@ binstall
 cargo-dylint
 rfmt
 mise
+all-smi
