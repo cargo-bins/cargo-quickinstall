@@ -21,3 +21,4 @@ cargo-dylint
 all-smi
 all-smi
 slint-lsp
+bluetui
