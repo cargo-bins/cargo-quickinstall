@@ -17,3 +17,4 @@ cached-path
 slint-viewer
 binstall
 jocalsend
+cargo-dylint
