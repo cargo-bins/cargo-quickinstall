@@ -40,3 +40,4 @@ slint-viewer
 rg
 tree-sitter-cli
 stellar-xdr
+cargo-vendor
