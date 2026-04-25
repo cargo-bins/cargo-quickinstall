@@ -46,3 +46,4 @@ commit_verify
 deno
 attractorr
 socketcan
+cargo-vendor
