@@ -11,3 +11,4 @@ ringboard
 tree-sitter-cli
 kble-serialport
 binstall
+rfmt
