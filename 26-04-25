@@ -34,3 +34,4 @@ rustdoc-text
 cargo-public-api
 spider_cli
 rustdoc-text
+cargo-vendor
