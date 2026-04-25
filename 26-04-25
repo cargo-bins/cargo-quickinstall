@@ -30,3 +30,4 @@ cargo-dylint
 rg
 alacritty
 schematools-cli
+cargo-unused-features
