@@ -46,3 +46,4 @@ rustdoc-text
 schematools-cli
 socketcan
 kble-serialport
+serde-saphyr
