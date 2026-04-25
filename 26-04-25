@@ -10,3 +10,4 @@ commit_verify
 deno
 socketcan
 serde-saphyr
+sn_cli
