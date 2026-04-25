@@ -8,3 +8,4 @@ stellar-xdr
 commit_verify
 deno
 socketcan
+serde-saphyr
