@@ -9,3 +9,4 @@ project_init
 commit_verify
 deno
 socketcan
+serde-saphyr
