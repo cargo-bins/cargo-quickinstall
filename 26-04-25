@@ -29,3 +29,4 @@ rustdoc-text
 cargo-dylint
 rg
 alacritty
+schematools-cli
