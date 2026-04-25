@@ -19,3 +19,4 @@ stellar-xdr
 commit_verify
 socketcan
 cargo-embed
+serde-saphyr
