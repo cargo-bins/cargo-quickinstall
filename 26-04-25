@@ -32,3 +32,4 @@ schematools-cli
 paru
 rustdoc-text
 cargo-public-api
+spider_cli
