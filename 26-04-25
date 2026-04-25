@@ -20,3 +20,4 @@ rustdoc-text
 ringboard
 tree-sitter-cli
 wl-screenrec
+ducc-sys
