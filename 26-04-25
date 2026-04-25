@@ -10,3 +10,4 @@ slint-viewer
 jocalsend
 mise
 cargo-dylint
+slint-lsp
