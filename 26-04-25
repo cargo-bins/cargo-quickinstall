@@ -20,3 +20,4 @@ hurl
 wl-screenrec
 cargo-unused-features
 ducc-sys
+rfmt
