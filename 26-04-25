@@ -50,3 +50,4 @@ cargo-vendor
 cargo-vendor
 hurl
 mise
+serde-saphyr
