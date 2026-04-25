@@ -12,3 +12,4 @@ stellar-xdr
 commit_verify
 socketcan
 serde-saphyr
+cargo-pgrx
