@@ -18,3 +18,4 @@ ringboard
 fuel-gql-client
 hurl
 wl-screenrec
+cargo-unused-features
