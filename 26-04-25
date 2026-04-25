@@ -44,3 +44,4 @@ cargo-vendor
 commit_verify
 rustdoc-text
 schematools-cli
+socketcan
