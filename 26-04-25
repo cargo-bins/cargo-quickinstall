@@ -13,3 +13,4 @@ commit_verify
 socketcan
 serde-saphyr
 cargo-pgrx
+solana-stake-accounts
