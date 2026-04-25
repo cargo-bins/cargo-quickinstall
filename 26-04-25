@@ -9,3 +9,4 @@ project_init
 stellar-xdr
 commit_verify
 deno
+socketcan
