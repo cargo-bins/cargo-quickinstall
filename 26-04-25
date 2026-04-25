@@ -21,3 +21,4 @@ commit_verify
 nu_plugin_gstat
 nu_plugin_gstat
 socketcan
+serde-saphyr
