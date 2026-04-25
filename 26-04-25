@@ -9,3 +9,4 @@ cargo-unused-features
 slint-viewer
 jocalsend
 mise
+cargo-dylint
