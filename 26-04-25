@@ -12,3 +12,4 @@ deno
 socketcan
 serde-saphyr
 cargo-pgrx
+solana-stake-accounts
