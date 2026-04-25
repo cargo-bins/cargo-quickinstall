@@ -41,3 +41,4 @@ rg
 tree-sitter-cli
 stellar-xdr
 cargo-vendor
+commit_verify
