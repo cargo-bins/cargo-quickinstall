@@ -14,3 +14,4 @@ slint-lsp
 binstall
 jocalsend
 nu_plugin_file
+rfmt
