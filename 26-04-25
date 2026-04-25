@@ -9,3 +9,4 @@ commit_verify
 deno
 socketcan
 cargo-pgrx
+solana-stake-accounts
