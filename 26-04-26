@@ -17,3 +17,4 @@ sass-rs
 cargo-dylint
 rg
 cargo-about
+a11ywatch_cli
