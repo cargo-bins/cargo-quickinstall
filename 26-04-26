@@ -41,3 +41,4 @@ vm-curator
 c2rust
 fake
 solana-stake-accounts
+addr2line
