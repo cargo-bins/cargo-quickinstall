@@ -29,3 +29,4 @@ magika-cli
 maliput
 deno
 solana-stake-accounts
+addr2line
