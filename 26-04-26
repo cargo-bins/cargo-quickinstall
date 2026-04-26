@@ -6,3 +6,4 @@ lingua
 maliput
 diesel_cli
 sn_node_rpc_client
+addr2line
