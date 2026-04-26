@@ -12,3 +12,4 @@ dotenvy
 cargo-vendor
 sequoia-sq
 sass-rs
+sequoia-git
