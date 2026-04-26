@@ -37,3 +37,4 @@ cargo-bundle
 sequoia-sq
 stellar-xdr
 slint-lsp
+vm-curator
