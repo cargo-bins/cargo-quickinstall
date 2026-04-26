@@ -11,3 +11,4 @@ binstall
 dotenvy
 cargo-vendor
 sequoia-sq
+sass-rs
