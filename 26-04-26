@@ -3,3 +3,4 @@ rg
 alacritty
 binstall
 sequoia-git
+cargo-dylint
