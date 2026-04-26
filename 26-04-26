@@ -32,3 +32,4 @@ fake
 maliput
 sequoia-sq
 diesel_cli
+gpg-tui
