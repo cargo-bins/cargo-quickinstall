@@ -6,3 +6,4 @@ sequoia-git
 cargo-dylint
 sniffglue
 gpg-tui
+sequoia-sq
