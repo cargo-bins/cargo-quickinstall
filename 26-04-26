@@ -36,3 +36,4 @@ slint-lsp
 c2rust
 vm-curator
 binstall
+cargo-bundle
