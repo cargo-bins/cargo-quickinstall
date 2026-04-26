@@ -9,3 +9,4 @@ gpg-tui
 sequoia-sq
 binstall
 dotenvy
+cargo-vendor
