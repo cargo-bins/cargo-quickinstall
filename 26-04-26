@@ -40,3 +40,4 @@ cargo-bundle
 solana-stake-accounts
 addr2line
 cargo-bundle
+statsig-rs
