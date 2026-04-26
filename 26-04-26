@@ -5,3 +5,4 @@ binstall
 sequoia-git
 cargo-dylint
 sniffglue
+gpg-tui
