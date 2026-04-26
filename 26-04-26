@@ -14,3 +14,4 @@ bun
 rg
 rg
 sass-rs
+cargo-dylint
