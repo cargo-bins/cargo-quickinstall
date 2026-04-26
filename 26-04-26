@@ -30,3 +30,4 @@ maliput
 deno
 solana-stake-accounts
 addr2line
+statsig-rs
