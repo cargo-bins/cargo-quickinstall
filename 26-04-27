@@ -3,3 +3,4 @@ crypto-cli-tools
 gpg-tui
 vm-curator
 soroban-cli
+pg-embed-setup-unpriv
