@@ -6,3 +6,4 @@ openpty
 human_name
 mdfried
 kani-verifier
+charset-normalizer-rs
