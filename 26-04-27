@@ -9,3 +9,4 @@ rg
 portal-credits-rs
 mdfried
 nextest
+pg-embed-setup-unpriv
