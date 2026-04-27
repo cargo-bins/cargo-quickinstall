@@ -16,7 +16,7 @@ checksum = "c4512299f36f043ab09a583e57bceb5a5aab7a73db1805848e8fef3c9e8c78b3"
 
 [[package]]
 name = "cargo-quickinstall"
-version = "0.3.51"
+version = "0.3.52"
 dependencies = [
  "embed-resource",
  "guess_host_triple",
