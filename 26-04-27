@@ -2,3 +2,4 @@ bpf-linker
 statime-linux
 openpty
 protox
+kani-verifier
