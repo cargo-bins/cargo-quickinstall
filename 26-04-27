@@ -3,3 +3,4 @@ statime-linux
 openpty
 protox
 kani-verifier
+tracing-durations-export
