@@ -17,3 +17,4 @@ bluetui
 bluetui
 hurl
 pg-embed-setup-unpriv
+tracing-durations-export
