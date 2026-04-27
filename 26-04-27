@@ -2,3 +2,4 @@ bpf-linker
 statime-linux
 bmputil
 hotpath
+openpty
