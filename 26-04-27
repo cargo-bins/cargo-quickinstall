@@ -3,3 +3,4 @@ pg-embed-setup-unpriv
 mdfried
 pg-embed-setup-unpriv
 cargo-bundle
+hurlfmt
