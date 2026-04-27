@@ -16,3 +16,4 @@ nu_plugin_query
 bluetui
 bluetui
 hurl
+pg-embed-setup-unpriv
