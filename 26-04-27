@@ -2,3 +2,4 @@ cargo-dylint
 crypto-cli-tools
 gpg-tui
 vm-curator
+soroban-cli
