@@ -20,3 +20,4 @@ pg-embed-setup-unpriv
 tracing-durations-export
 nu_plugin_query
 fake
+ruff
