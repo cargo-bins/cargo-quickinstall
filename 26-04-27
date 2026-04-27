@@ -13,3 +13,4 @@ pg-embed-setup-unpriv
 human_name
 vdev
 tracing-durations-export
+hurl
