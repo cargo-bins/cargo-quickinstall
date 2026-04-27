@@ -16,3 +16,4 @@ tracing-durations-export
 hurl
 hurlfmt
 vdev
+fake
