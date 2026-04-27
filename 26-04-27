@@ -2,3 +2,4 @@ statime-linux
 openpty
 human_name
 rg
+tracing-durations-export
