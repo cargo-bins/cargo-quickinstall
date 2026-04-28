@@ -27,3 +27,4 @@ sha1collisiondetection
 rust-sasa
 deno
 gtc-dev
+clippy
