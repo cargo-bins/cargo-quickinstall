@@ -4,3 +4,4 @@ nkeys
 rg
 statime-linux
 nextest
+remove_dir_all
