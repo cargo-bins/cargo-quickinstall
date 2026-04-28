@@ -3,3 +3,4 @@ nu_plugin_gstat
 re_query
 cargo-dylint
 crate2bib
+cargo-bundle
