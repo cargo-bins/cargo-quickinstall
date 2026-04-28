@@ -18,3 +18,4 @@ gtc-dev
 cargo-public-api
 remove_dir_all
 spider_cli
+crate2bib
