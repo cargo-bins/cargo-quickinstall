@@ -3,3 +3,4 @@ re_query
 safe_network
 remove_dir_all
 remove_dir_all
+sha1collisiondetection
