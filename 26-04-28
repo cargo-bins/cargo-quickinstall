@@ -3,3 +3,4 @@ airshipper
 statime-linux
 selfci
 airshipper
+remove_dir_all
