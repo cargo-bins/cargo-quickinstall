@@ -5,3 +5,4 @@ cargo-dylint
 crate2bib
 cargo-bundle
 ripdrag
+cargo-public-api
