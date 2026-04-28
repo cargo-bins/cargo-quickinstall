@@ -7,3 +7,4 @@ nextest
 remove_dir_all
 selfci
 remove_dir_all
+sha1collisiondetection
