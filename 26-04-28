@@ -3,3 +3,4 @@ safe_network
 remove_dir_all
 dprint
 sha1collisiondetection
+nominal-api
