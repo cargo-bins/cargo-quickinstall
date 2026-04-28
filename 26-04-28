@@ -15,3 +15,4 @@ tectonic
 remove_dir_all
 bluetui
 gtc-dev
+cargo-public-api
