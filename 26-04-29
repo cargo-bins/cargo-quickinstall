@@ -6,3 +6,4 @@ gitui
 solana-genesis
 esp-config
 crypto-cli-tools
+sqlx-cli
