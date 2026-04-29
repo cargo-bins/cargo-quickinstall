@@ -29,3 +29,4 @@ vdev
 crypto-cli-tools
 dioxus-cli
 spider_cli
+netwatch-tui
