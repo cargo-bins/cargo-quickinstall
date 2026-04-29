@@ -27,3 +27,4 @@ solana-genesis
 worker-build
 vdev
 crypto-cli-tools
+dioxus-cli
