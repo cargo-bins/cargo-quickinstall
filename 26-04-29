@@ -28,3 +28,4 @@ worker-build
 vdev
 crypto-cli-tools
 dioxus-cli
+spider_cli
