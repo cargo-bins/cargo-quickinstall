@@ -4,3 +4,4 @@ sqlx-cli
 cargo-generate
 gitui
 diesel_cli
+cc-switch
