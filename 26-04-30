@@ -13,3 +13,4 @@ cargo-bundle
 bun
 nextest
 cargo-public-api
+sea-orm-cli
