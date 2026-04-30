@@ -3,3 +3,4 @@ tplay
 sqlx-cli
 cargo-generate
 gitui
+diesel_cli
