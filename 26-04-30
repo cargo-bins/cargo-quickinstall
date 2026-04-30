@@ -9,3 +9,4 @@ rustfmt-nightly
 bun
 tree-sitter-cli
 yazi-fm
+cargo-bundle
