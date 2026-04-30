@@ -5,3 +5,4 @@ cargo-generate
 gitui
 diesel_cli
 cc-switch
+unic-langid-impl
