@@ -11,3 +11,4 @@ cargo-dylint
 slint-lsp
 tmtc-c2a
 jj
+minicbor
