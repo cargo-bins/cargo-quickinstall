@@ -2,3 +2,4 @@ cached-path
 process_viewer
 h3o
 cargo-dylint
+minicbor
