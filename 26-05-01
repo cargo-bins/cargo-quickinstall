@@ -17,3 +17,4 @@ rioterm
 cargo-show
 ninja-xtask
 mdfried
+tree-sitter-cli
