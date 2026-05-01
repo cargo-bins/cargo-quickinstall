@@ -2,3 +2,4 @@ cached-path
 process_viewer
 minicbor
 tagged-base64
+opencv-binding-generator
