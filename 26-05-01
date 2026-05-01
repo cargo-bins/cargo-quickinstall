@@ -2,3 +2,4 @@ lurk
 process_viewer
 cargo-dylint
 mise
+slint-lsp
