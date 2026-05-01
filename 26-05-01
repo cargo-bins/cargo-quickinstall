@@ -8,3 +8,4 @@ esp-config
 minicbor
 tagged-base64
 exa
+parsync
