@@ -2,3 +2,4 @@ cached-path
 rat
 process_viewer
 cargo-dylint
+minicbor
