@@ -4,3 +4,4 @@ h3o
 cargo-dylint
 minicbor
 opencv-binding-generator
+maliput-sdk
