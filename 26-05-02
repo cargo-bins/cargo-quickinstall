@@ -2,3 +2,4 @@ nitro-tpm-attest
 cargo-dylint
 statsig-rs
 tracing-durations-export
+lingua
