@@ -7,3 +7,4 @@ vdev
 nitro-tpm-attest
 cargo-dylint
 hurl
+cargo-dylint
