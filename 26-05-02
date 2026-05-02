@@ -8,3 +8,4 @@ zellij
 iai-callgrind-runner
 tracing-durations-export
 pandora_box
+cargo-local-registry
