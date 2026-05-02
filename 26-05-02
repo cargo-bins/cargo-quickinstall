@@ -6,3 +6,4 @@ cargo-bundle
 nitro-tpm-attest
 slint-viewer
 martin
+cargo-public-api
