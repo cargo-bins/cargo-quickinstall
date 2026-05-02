@@ -5,3 +5,4 @@ diesel_cli
 statsig-rs
 tracing-durations-export
 nums
+diesel_cli
