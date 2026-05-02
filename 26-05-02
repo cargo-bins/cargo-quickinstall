@@ -11,3 +11,4 @@ cargo-dylint
 nu_plugin_gstat
 cargo-show
 nu_plugin_gstat
+cargo-bundle
