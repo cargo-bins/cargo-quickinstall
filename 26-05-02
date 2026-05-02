@@ -4,3 +4,4 @@ ratatui-image
 diesel_cli
 statsig-rs
 tracing-durations-export
+nums
