@@ -1,3 +1,4 @@
 diesel_cli
 os-checker
 nitro-tpm-attest
+cargo-dylint
