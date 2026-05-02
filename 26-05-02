@@ -2,3 +2,4 @@ clippy
 tree_magic
 ratatui-image
 diesel_cli
+statsig-rs
