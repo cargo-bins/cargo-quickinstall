@@ -6,3 +6,4 @@ parsync
 codeberg-cli
 zellij
 iai-callgrind-runner
+tracing-durations-export
