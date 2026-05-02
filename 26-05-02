@@ -8,3 +8,4 @@ nitro-tpm-attest
 cargo-dylint
 hurl
 cargo-dylint
+nu_plugin_gstat
