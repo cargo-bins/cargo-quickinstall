@@ -7,3 +7,4 @@ dioxus-cli
 statsig-rs
 dioxus-cli
 dioxus-cli
+tracing-durations-export
