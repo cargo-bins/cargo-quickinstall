@@ -10,3 +10,4 @@ cargo-public-api
 alacritty
 tree_magic
 ratatui-image
+diesel_cli
