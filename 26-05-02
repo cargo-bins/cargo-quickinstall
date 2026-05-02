@@ -3,3 +3,4 @@ cargo-dylint
 xargo
 statsig-rs
 tracing-durations-export
+lingua
