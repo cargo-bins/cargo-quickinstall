@@ -16,3 +16,4 @@ diesel_cli
 boop-gtk
 gpgme
 haunt-inject
+ratatui-image
