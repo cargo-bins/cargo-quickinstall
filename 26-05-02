@@ -6,3 +6,4 @@ slint-viewer
 vdev
 nitro-tpm-attest
 cargo-dylint
+hurl
