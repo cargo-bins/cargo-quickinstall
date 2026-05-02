@@ -3,3 +3,4 @@ sccache
 ninja-xtask
 kanidm_tools
 cargo-bundle
+nitro-tpm-attest
