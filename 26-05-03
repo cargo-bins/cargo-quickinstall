@@ -4,3 +4,4 @@ diesel_cli
 cargo-dylint
 cargo-dylint
 build-fs-tree
+cargo-lock
