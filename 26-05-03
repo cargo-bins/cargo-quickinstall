@@ -7,3 +7,4 @@ solana-faucet
 cpp_demangle
 lance
 nitro-tpm-attest
+diesel_cli
