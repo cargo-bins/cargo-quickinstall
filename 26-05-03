@@ -18,3 +18,4 @@ airshipper
 paru
 dotenv-flow
 setch
+cargo-dylint
