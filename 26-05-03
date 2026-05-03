@@ -4,3 +4,4 @@ cargo-lock
 dotenv-flow
 bpf-linker
 cargo-local-registry
+cpp_demangle
