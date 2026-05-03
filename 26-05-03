@@ -3,3 +3,4 @@ cargo-dylint
 diesel_cli
 cargo-dylint
 cargo-dylint
+build-fs-tree
