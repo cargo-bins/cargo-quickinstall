@@ -10,3 +10,4 @@ cargo-lock
 dotenv-flow
 shadowsocks-rust
 wmi
+lance
