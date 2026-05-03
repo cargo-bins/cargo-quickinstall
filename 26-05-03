@@ -5,3 +5,4 @@ cargo-local-registry
 mit-pre-commit
 lance
 nitro-tpm-attest
+dx-cli
