@@ -38,3 +38,4 @@ sniffnet
 xcp
 hurl
 rustfmt-nightly
+gpg-tui
