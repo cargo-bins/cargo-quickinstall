@@ -7,3 +7,4 @@ build-fs-tree
 cargo-lock
 cargo-dylint
 dotenv-flow
+cargo-dylint
