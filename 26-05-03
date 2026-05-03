@@ -3,3 +3,4 @@ cargo-lock
 bpf-linker
 cargo-local-registry
 mit-pre-commit
+lance
