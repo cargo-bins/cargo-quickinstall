@@ -1,2 +1,3 @@
 text-diff
 build-fs-tree
+cargo-lock
