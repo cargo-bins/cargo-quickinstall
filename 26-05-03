@@ -3,3 +3,4 @@ build-fs-tree
 cargo-lock
 dotenv-flow
 bpf-linker
+cargo-local-registry
