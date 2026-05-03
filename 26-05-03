@@ -37,3 +37,4 @@ nitro-tpm-attest
 sniffnet
 xcp
 hurl
+rustfmt-nightly
