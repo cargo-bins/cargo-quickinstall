@@ -6,3 +6,4 @@ bpf-linker
 cargo-local-registry
 cpp_demangle
 lance
+nitro-tpm-attest
