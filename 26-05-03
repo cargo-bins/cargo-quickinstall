@@ -41,3 +41,4 @@ nitro-tpm-attest
 paru
 rustfmt-nightly
 rewrk
+diesel_cli
