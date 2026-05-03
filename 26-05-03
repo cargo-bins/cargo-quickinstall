@@ -2,3 +2,4 @@ text-diff
 build-fs-tree
 cargo-lock
 dotenv-flow
+bpf-linker
