@@ -12,3 +12,4 @@ build-fs-tree
 diesel_cli
 cargo-lock
 forte-cli
+binstall
