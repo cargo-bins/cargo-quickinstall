@@ -36,3 +36,4 @@ signal-backup-decode
 nitro-tpm-attest
 sniffnet
 xcp
+hurl
