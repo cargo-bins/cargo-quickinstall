@@ -13,3 +13,4 @@ wmi
 cpp_demangle
 lance
 nitro-tpm-attest
+rustfmt-nightly
