@@ -5,3 +5,4 @@ dotenv-flow
 bpf-linker
 cargo-local-registry
 cpp_demangle
+lance
