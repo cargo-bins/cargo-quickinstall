@@ -16,3 +16,4 @@ cargo-lock
 sniffnet
 airshipper
 paru
+dotenv-flow
