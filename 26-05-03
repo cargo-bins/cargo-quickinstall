@@ -10,3 +10,4 @@ cargo-dylint
 dotenv-flow
 zuse
 wmi
+solana-faucet
