@@ -10,3 +10,4 @@ dotenv-flow
 cargo-dylint
 zuse
 wmi
+cpp_demangle
