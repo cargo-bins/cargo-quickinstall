@@ -20,3 +20,4 @@ dotenv-flow
 setch
 cargo-dylint
 zuse
+diesel_cli
