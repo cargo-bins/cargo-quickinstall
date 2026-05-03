@@ -1,3 +1,4 @@
 build-fs-tree
 cargo-lock
 bpf-linker
+cargo-local-registry
