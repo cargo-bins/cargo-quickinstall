@@ -12,3 +12,4 @@ shadowsocks-rust
 wmi
 lance
 nitro-tpm-attest
+diesel_cli
