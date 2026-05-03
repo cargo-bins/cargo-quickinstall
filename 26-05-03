@@ -8,3 +8,4 @@ cargo-lock
 shadowsocks-rust
 dotenv-flow
 shadowsocks-rust
+wmi
