@@ -6,3 +6,4 @@ cargo-dylint
 build-fs-tree
 cargo-dylint
 cargo-lock
+cargo-dylint
