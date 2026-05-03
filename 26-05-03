@@ -9,3 +9,4 @@ cargo-bundle
 rioterm
 carapace
 build-fs-tree
+diesel_cli
