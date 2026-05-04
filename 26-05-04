@@ -18,3 +18,4 @@ deepseek-tui
 nextest
 rustnet-monitor
 whatcable
+tendermint-rpc
