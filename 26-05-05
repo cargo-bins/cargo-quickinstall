@@ -5,3 +5,4 @@ diesel_cli
 lux-cli
 r3bl_tuify
 wmi
+winpty-rs
