@@ -14,3 +14,4 @@ wmi
 spell-cli
 bluetui
 winpty-rs
+slint-viewer
