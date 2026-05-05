@@ -9,3 +9,4 @@ dioxus-cli
 rustnet-monitor
 cargo-public-api
 spotatui
+sniffnet
