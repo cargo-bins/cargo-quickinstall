@@ -3,3 +3,4 @@ serde-saphyr
 spotatui
 gpg-tui
 jj
+sea-orm-cli
