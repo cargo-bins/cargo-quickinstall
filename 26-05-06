@@ -3,3 +3,4 @@ cargo-add
 pwasm-utils
 re_viewer
 kache
+tlmcmddb-cli
