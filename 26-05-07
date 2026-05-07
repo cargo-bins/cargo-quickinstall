@@ -7,3 +7,4 @@ papyrus_storage
 tree-sitter-cli
 tree-sitter-cli
 cargo-spellcheck
+cargo-lock
