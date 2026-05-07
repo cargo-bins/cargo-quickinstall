@@ -14,3 +14,4 @@ cargo-spellcheck
 sniffnet
 aipm
 deepseek-tui
+cargo-lock
