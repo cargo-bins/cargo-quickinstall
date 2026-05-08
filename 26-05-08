@@ -7,3 +7,4 @@ miden-crypto
 codeberg-cli
 s3s-fs
 rpki
+rustfmt
