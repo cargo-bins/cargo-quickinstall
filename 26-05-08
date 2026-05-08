@@ -18,3 +18,4 @@ slint-lsp
 sea-orm-cli
 clipboard-history-egui
 cargo-public-api
+httpmock
