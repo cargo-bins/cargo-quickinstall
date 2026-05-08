@@ -14,3 +14,4 @@ cargo-public-api
 miden-crypto
 hurl
 s3s-fs
+nextest
