@@ -8,3 +8,4 @@ spider_cli
 venator-app
 deepseek-tui
 cargo-public-api
+nextest
