@@ -12,3 +12,4 @@ nextest
 spider_cli
 cargo-public-api
 miden-crypto
+hurl
