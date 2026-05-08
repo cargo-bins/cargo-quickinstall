@@ -18,3 +18,4 @@ nextest
 cargo-public-api
 cargo-public-api
 nextest
+slint-lsp
