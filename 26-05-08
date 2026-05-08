@@ -9,3 +9,4 @@ venator-app
 deepseek-tui
 cargo-public-api
 nextest
+spider_cli
