@@ -17,3 +17,4 @@ cargo-dylint
 slint-lsp
 sea-orm-cli
 clipboard-history-egui
+cargo-public-api
