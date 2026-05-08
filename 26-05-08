@@ -26,3 +26,4 @@ bun
 sea-orm-cli
 fontspector
 deepseek-tui
+cargo-dylint
