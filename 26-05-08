@@ -21,3 +21,4 @@ nextest
 slint-lsp
 sudo-rs
 sea-orm-cli
+fontspector
