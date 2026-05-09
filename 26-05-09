@@ -11,3 +11,4 @@ diesel_cli
 pgmq
 industrial-io
 minicbor
+piper-plus-cli
