@@ -6,3 +6,4 @@ lux-cli
 cargo-lock
 pgmq
 industrial-io
+minicbor
