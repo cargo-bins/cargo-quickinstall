@@ -26,3 +26,4 @@ nextest
 sqlx-cli
 nextest
 honggfuzz
+bpf-linker
