@@ -6,3 +6,4 @@ pgmq
 industrial-io
 minicbor
 sqlx-cli
+honggfuzz
