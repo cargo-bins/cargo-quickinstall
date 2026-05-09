@@ -23,3 +23,4 @@ xcolor
 a11ywatch_cli
 ruff
 ncspot
+cargo-duplicates
