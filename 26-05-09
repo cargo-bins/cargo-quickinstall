@@ -34,3 +34,4 @@ spider_cli
 spider_cli
 cargo-duplicates
 ruff
+hurl
