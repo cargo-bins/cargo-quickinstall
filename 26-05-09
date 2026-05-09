@@ -9,3 +9,4 @@ sudo-rs
 ruff
 lonkero
 rdedup
+clippy
