@@ -13,3 +13,4 @@ clippy
 esp-config
 cargo-dylint
 xcolor
+pgmq
