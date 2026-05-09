@@ -25,3 +25,4 @@ ncspot
 nextest
 sqlx-cli
 nextest
+honggfuzz
