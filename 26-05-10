@@ -32,3 +32,4 @@ deepseek-tui-cli
 addr2line
 deepseek-tui-cli
 cargo-dylint
+tlmcmddb-cli
