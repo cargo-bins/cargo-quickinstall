@@ -8,3 +8,4 @@ gpgme
 cargo-dylint
 stellar-strkey
 deploy
+human_name
