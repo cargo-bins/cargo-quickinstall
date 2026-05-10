@@ -3,3 +3,4 @@ gpgme
 stellar-strkey
 deploy
 human_name
+tendermint-abci
