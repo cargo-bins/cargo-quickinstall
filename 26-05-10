@@ -10,3 +10,4 @@ stellar-strkey
 deploy
 human_name
 tendermint-abci
+spider_cli
