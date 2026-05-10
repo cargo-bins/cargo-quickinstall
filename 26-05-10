@@ -36,3 +36,4 @@ cargo-unmaintained
 deepseek-tui-cli
 addr2line
 c2rust
+rioterm
