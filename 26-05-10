@@ -31,3 +31,4 @@ c2rust
 deepseek-tui-cli
 addr2line
 deepseek-tui-cli
+cargo-dylint
