@@ -14,3 +14,4 @@ cpp_demangle
 kache
 tree-sitter-cli
 binstall
+vdev
