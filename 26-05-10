@@ -5,3 +5,4 @@ diesel_cli
 gpgme
 stellar-strkey
 deploy
+human_name
