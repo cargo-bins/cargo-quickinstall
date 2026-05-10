@@ -3,3 +3,4 @@ nextest
 vdev
 spider_cli
 netwatch-tui
+tree-sitter-cli
