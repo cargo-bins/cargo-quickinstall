@@ -16,3 +16,4 @@ tree-sitter-cli
 binstall
 vdev
 gpgme
+cargo-duplicates
