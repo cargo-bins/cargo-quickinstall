@@ -10,3 +10,4 @@ uhyve
 tree-sitter-cli
 cargo-bundle
 ferrite
+cargo-unmaintained
