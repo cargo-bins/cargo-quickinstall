@@ -22,3 +22,4 @@ uhyve
 rioterm
 diesel_cli
 cargo-duplicates
+deepseek-tui-cli
