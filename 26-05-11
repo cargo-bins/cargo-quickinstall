@@ -7,3 +7,4 @@ rpki
 rtx-cli
 cargo-mobile2
 uhyve
+tree-sitter-cli
