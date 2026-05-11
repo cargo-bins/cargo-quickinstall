@@ -14,3 +14,4 @@ cargo-unmaintained
 addr2line
 uhyve
 kache
+scx_bpfland
