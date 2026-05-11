@@ -13,3 +13,4 @@ deepseek-tui-cli
 cargo-mobile2
 diesel_cli
 addr2line
+cargo-size
