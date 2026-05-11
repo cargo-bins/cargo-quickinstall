@@ -15,3 +15,4 @@ addr2line
 uhyve
 kache
 scx_bpfland
+cargo-size
