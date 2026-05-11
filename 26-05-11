@@ -12,3 +12,4 @@ cargo-bundle
 ferrite
 cargo-unmaintained
 addr2line
+uhyve
