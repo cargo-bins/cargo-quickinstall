@@ -2,3 +2,4 @@ cargo-duplicates
 rioterm
 c2rust
 superseedr
+cargo-dylint
