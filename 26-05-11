@@ -16,3 +16,4 @@ addr2line
 cargo-size
 borsh
 xbuild
+scx_bpfland
