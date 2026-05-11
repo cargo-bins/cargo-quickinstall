@@ -17,3 +17,4 @@ cargo-size
 borsh
 xbuild
 scx_bpfland
+spider_cli
