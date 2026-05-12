@@ -10,3 +10,4 @@ cargo-duplicates
 diesel_cli
 cargo-bundle
 nvrs
+dioxus-cli
