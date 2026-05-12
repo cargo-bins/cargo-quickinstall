@@ -9,3 +9,4 @@ diesel_cli
 cargo-size
 diesel_cli
 cargo-bundle
+xbuild
