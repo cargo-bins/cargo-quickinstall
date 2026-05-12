@@ -12,3 +12,4 @@ cargo-bundle
 xbuild
 hurl
 slint-lsp
+spotify-tui
