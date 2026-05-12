@@ -7,3 +7,4 @@ uhyve
 cargo-bundle
 solana-faucet
 cargo-duplicates
+diesel_cli
