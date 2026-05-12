@@ -14,3 +14,4 @@ dioxus-cli
 jj
 nvrs
 cargo-dylint
+worker-build
