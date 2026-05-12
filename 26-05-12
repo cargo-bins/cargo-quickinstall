@@ -10,3 +10,4 @@ cargo-size
 diesel_cli
 cargo-bundle
 xbuild
+hurl
