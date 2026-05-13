@@ -12,3 +12,4 @@ airshipper
 cargo-prune
 teller
 shellfirm
+cargo-public-api
