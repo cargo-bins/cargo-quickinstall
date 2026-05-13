@@ -2,3 +2,4 @@ proof-of-sql
 cargo-dylint
 ratatui-image
 kache
+solana-ledger-tool
