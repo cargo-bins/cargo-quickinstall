@@ -16,3 +16,4 @@ cargo-prune
 kble-serialport
 kble-c2a
 scx_bpfland
+nextest
