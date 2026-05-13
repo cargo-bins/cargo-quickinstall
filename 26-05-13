@@ -4,3 +4,4 @@ slint-lsp
 cargo-dylint
 sea-orm-cli
 deepseek-tui-cli
+ratatui-image
