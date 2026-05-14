@@ -3,3 +3,4 @@ cosmwasm-check
 pgmq
 rustrict
 borsh
+build-fs-tree
