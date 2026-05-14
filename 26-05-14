@@ -6,3 +6,4 @@ esp-config
 cargo-prune
 ruff
 pgmq
+ironbar
