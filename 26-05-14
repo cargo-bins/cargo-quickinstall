@@ -7,3 +7,4 @@ cargo-prune
 ruff
 pgmq
 ironbar
+sea-orm-cli
