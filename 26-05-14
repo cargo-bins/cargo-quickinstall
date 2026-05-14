@@ -9,3 +9,4 @@ sea-orm-cli
 worker-build
 ruff
 kble-serialport
+oxigdal-cli
