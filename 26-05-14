@@ -11,3 +11,4 @@ ruff
 kble-serialport
 oxigdal-cli
 tree-sitter-cli
+rustrict
