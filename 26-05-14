@@ -12,3 +12,4 @@ clippy
 teller
 rustrict
 rustnet-monitor
+build-fs-tree
