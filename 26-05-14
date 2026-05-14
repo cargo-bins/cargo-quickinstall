@@ -3,3 +3,4 @@ esp-config
 nextest
 kanidm_tools
 esp-config
+cargo-prune
