@@ -8,3 +8,4 @@ slint-viewer
 sea-orm-cli
 worker-build
 ruff
+kble-serialport
