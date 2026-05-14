@@ -10,3 +10,4 @@ worker-build
 ruff
 kble-serialport
 oxigdal-cli
+tree-sitter-cli
