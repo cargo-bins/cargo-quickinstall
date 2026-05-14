@@ -8,3 +8,4 @@ ruff
 pgmq
 ironbar
 sea-orm-cli
+clippy
