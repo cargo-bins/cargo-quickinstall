@@ -11,3 +11,4 @@ sea-orm-cli
 clippy
 teller
 rustrict
+rustnet-monitor
