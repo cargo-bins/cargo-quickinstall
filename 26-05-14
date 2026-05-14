@@ -7,3 +7,4 @@ aidaemon
 slint-viewer
 sea-orm-cli
 worker-build
+ruff
