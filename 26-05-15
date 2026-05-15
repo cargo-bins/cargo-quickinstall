@@ -4,3 +4,4 @@ cargo-public-api
 paru
 cargo-dylint
 sea-orm-cli
+hurl
