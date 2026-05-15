@@ -2,3 +2,4 @@ patch-crate
 rg
 cargo-public-api
 paru
+cargo-dylint
