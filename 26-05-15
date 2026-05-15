@@ -6,3 +6,4 @@ deepseek-tui
 cargo-dylint
 deepseek-tui-cli
 cargo-prune
+alsa-sys
