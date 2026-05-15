@@ -14,3 +14,4 @@ deepseek-tui
 rustnet-monitor
 ducc-sys
 iroh-gossip
+cargo-public-api
