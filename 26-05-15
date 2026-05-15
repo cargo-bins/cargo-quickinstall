@@ -10,3 +10,4 @@ shunkakinoki
 rustnet-monitor
 sea-orm-cli
 ducc-sys
+reserde
