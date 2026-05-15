@@ -8,3 +8,4 @@ hurl
 alsa-sys
 shunkakinoki
 rustnet-monitor
+sea-orm-cli
