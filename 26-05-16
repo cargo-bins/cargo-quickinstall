@@ -2,3 +2,4 @@ uniffi
 cargo-local-registry
 h3o
 sqlx-cli
+lance
