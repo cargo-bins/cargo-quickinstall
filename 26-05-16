@@ -4,3 +4,4 @@ hurl
 cargo-dylint
 cargo-public-api
 hurl
+rustnet-monitor
