@@ -11,3 +11,4 @@ sqlx-cli
 lance
 virtiofsd
 esp-config
+diesel_cli
