@@ -18,3 +18,4 @@ cargo-bundle
 kble-c2a
 socketcan
 tlmcmddb-cli
+rsgen-avro
