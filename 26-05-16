@@ -10,3 +10,4 @@ lance
 virtiofsd
 socketcan
 rsgen-avro
+sea-orm-cli
