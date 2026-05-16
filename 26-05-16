@@ -2,3 +2,4 @@ uniffi
 sea-orm-cli
 rustnet-monitor
 cargo-bundle
+cargo-prune
