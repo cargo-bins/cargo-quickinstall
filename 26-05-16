@@ -17,3 +17,4 @@ virtiofsd
 cargo-bundle
 kble-c2a
 socketcan
+tlmcmddb-cli
