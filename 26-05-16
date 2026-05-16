@@ -13,3 +13,4 @@ cargo-bundle
 spider_worker
 lance
 netwatch-tui
+virtiofsd
