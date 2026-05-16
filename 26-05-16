@@ -15,3 +15,4 @@ diesel_cli
 esp-config
 socketcan
 s3s-fs
+rsgen-avro
