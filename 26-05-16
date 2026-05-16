@@ -20,3 +20,4 @@ socketcan
 tlmcmddb-cli
 rsgen-avro
 kble-c2a
+cargo-dylint
