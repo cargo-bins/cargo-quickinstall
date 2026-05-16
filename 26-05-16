@@ -19,3 +19,4 @@ rustnet-monitor
 cargo-bundle
 reserde
 binstall
+spider_cli
