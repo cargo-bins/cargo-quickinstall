@@ -17,3 +17,4 @@ kble-c2a
 virtiofsd
 rustnet-monitor
 cargo-bundle
+reserde
