@@ -6,3 +6,4 @@ socketcan
 rsgen-avro
 sea-orm-cli
 spider_cli
+opencv-binding-generator
