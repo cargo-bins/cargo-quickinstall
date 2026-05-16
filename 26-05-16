@@ -9,3 +9,4 @@ tree-sitter-cli
 h3o
 spider_cli
 spider_worker
+cargo-public-api
