@@ -2,3 +2,4 @@ uniffi
 mdfried
 hurl
 cargo-dylint
+cargo-public-api
