@@ -16,3 +16,4 @@ esp-config
 socketcan
 s3s-fs
 rsgen-avro
+blue-build
