@@ -11,3 +11,4 @@ virtiofsd
 socketcan
 rsgen-avro
 sea-orm-cli
+spotify_player
