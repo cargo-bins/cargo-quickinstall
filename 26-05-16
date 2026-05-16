@@ -6,3 +6,4 @@ socketcan
 rsgen-avro
 spider_cli
 dotenvy
+opencv-binding-generator
