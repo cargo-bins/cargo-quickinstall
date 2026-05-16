@@ -35,3 +35,4 @@ kache
 nextest
 tlmcmddb-cli
 dotenvy
+opencv-binding-generator
