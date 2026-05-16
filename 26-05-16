@@ -9,3 +9,4 @@ esp-config
 zellij
 sqlx-cli
 lance
+virtiofsd
