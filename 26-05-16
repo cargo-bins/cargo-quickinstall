@@ -2,3 +2,4 @@ uniffi
 spider_worker
 lance
 virtiofsd
+socketcan
