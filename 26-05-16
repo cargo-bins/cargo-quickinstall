@@ -5,3 +5,4 @@ sqlx-cli
 lance
 virtiofsd
 socketcan
+rsgen-avro
