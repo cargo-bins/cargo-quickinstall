@@ -21,3 +21,4 @@ tlmcmddb-cli
 rsgen-avro
 kble-c2a
 cargo-dylint
+spider_cli
