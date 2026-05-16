@@ -5,3 +5,4 @@ virtiofsd
 socketcan
 rsgen-avro
 sea-orm-cli
+spider_cli
