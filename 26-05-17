@@ -14,3 +14,4 @@ cargo-local-registry
 solana-ledger-tool
 esp-config
 schemafy
+sqz-cli
