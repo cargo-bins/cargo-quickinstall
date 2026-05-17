@@ -10,3 +10,4 @@ sqz-cli
 mit-pre-commit
 dotenv
 sqz-cli
+cargo-local-registry
