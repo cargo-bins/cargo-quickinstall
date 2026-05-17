@@ -16,3 +16,4 @@ cargo-duplicates
 servo-fetch-cli
 pomodorust
 worker-build
+cargo-duplicates
