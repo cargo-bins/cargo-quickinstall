@@ -8,3 +8,4 @@ sqz-cli
 rush-sh
 sqz-cli
 mit-pre-commit
+dotenv
