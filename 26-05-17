@@ -18,3 +18,4 @@ pomodorust
 worker-build
 cargo-duplicates
 deepseek-tui-cli
+rustnet-monitor
