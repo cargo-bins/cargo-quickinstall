@@ -28,3 +28,4 @@ cargo-duplicates
 jj
 worker-build
 nextest
+pomodorust
