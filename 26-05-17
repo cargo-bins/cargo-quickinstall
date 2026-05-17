@@ -27,3 +27,4 @@ pomodorust
 cargo-duplicates
 jj
 worker-build
+nextest
