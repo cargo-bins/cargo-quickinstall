@@ -4,3 +4,4 @@ solana-cli
 dotenv
 solana-ledger-tool
 schemafy
+worker-build
