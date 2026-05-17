@@ -17,3 +17,4 @@ servo-fetch-cli
 pomodorust
 worker-build
 cargo-duplicates
+deepseek-tui-cli
