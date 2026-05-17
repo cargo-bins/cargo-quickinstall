@@ -8,3 +8,4 @@ dotenv
 cargo-local-registry
 solana-ledger-tool
 schemafy
+rustbus
