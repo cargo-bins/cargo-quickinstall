@@ -26,3 +26,4 @@ cargo-duplicates
 pomodorust
 cargo-duplicates
 jj
+worker-build
