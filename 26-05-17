@@ -9,3 +9,4 @@ cargo-local-registry
 solana-ledger-tool
 schemafy
 rustbus
+nominal-api
