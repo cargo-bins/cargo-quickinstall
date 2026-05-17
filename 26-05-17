@@ -16,3 +16,4 @@ esp-config
 schemafy
 sqz-cli
 rustbus
+nominal-api
