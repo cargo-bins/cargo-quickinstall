@@ -6,3 +6,4 @@ dotenv
 solana-ledger-tool
 schemafy
 worker-build
+nominal-api
