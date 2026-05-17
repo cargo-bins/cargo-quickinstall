@@ -19,3 +19,4 @@ worker-build
 cargo-duplicates
 deepseek-tui-cli
 rustnet-monitor
+deepseek-tui-cli
