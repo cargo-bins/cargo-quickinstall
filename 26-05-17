@@ -11,3 +11,4 @@ mit-pre-commit
 dotenv
 sqz-cli
 cargo-local-registry
+solana-ledger-tool
