@@ -7,3 +7,4 @@ cargo-dylint
 iroh-relay
 orc-rust
 solana-cli
+dotenv
