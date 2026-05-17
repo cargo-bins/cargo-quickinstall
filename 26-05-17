@@ -5,3 +5,4 @@ coldsnap
 iroh-relay
 mit-pre-commit
 dotenv
+cargo-local-registry
