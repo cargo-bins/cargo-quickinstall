@@ -6,3 +6,4 @@ dotenv
 solana-ledger-tool
 schemafy
 youtube-tui
+nominal-api
