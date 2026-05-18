@@ -2,3 +2,4 @@ rmesg
 cargo-risczero
 process_viewer
 minicbor
+clippy
