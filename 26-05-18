@@ -17,3 +17,4 @@ diesel_cli
 cargo-show
 dioxus-cli
 clippy
+cargo-dylint
