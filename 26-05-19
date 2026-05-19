@@ -3,3 +3,4 @@ cargo-show
 slint-lsp
 re_viewer
 librespot
+fzf-make
