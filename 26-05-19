@@ -4,3 +4,4 @@ graphql_client_cli
 re_viewer
 salvo-cli
 all-smi
+sea-orm-cli
