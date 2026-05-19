@@ -10,3 +10,4 @@ cargo-duplicates
 rdme
 fzf-make
 vdev
+tracing-durations-export
