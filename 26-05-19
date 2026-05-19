@@ -4,3 +4,4 @@ cargo-dylint
 cargo-dylint
 probe-rs-cli
 tracing-durations-export
+lux-cli
