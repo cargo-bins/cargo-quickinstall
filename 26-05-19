@@ -11,3 +11,4 @@ spotatui
 cargo-duplicates
 phonto
 rustfmt-nightly
+deepseek-tui-cli
