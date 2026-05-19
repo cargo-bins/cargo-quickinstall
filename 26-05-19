@@ -13,3 +13,4 @@ phonto
 rustfmt-nightly
 deepseek-tui-cli
 deepseek-tui-cli
+nu_plugin_query
