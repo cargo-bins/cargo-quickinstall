@@ -13,3 +13,4 @@ cargo-smart-release
 nvrs
 claude-history
 cargo-smart-release
+tracing-durations-export
