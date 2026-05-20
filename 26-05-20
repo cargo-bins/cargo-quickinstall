@@ -1,3 +1,4 @@
 gpgme
 cargo-about
 sp1-prover
+tracing-durations-export
