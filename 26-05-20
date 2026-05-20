@@ -8,3 +8,4 @@ cargo-dylint
 fake
 gpgme
 rust-docs-mcp
+wizer
