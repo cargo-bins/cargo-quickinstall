@@ -3,3 +3,4 @@ gpgme
 cargo-show
 rathole
 tracing-durations-export
+codeberg-cli
