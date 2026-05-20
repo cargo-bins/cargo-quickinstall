@@ -15,3 +15,4 @@ claude-history
 cargo-smart-release
 tracing-durations-export
 keroberos
+speedtest-rs
