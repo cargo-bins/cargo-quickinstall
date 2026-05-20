@@ -7,3 +7,4 @@ gpgme
 vigil-baseline
 libserpix_rs
 sc2-proxy
+tracing-durations-export
