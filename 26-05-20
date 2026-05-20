@@ -4,3 +4,4 @@ kache
 cargo-dylint
 lux-cli
 sp1-prover
+tracing-durations-export
