@@ -7,3 +7,4 @@ rg
 pandora_box
 cargo-generate
 sqlx-cli
+codeberg-cli
