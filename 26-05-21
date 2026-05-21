@@ -7,3 +7,4 @@ sea-orm-cli
 inkhaven
 burn-tch
 cargo-public-api
+cargo-dylint
