@@ -2,3 +2,4 @@ claude-history
 cargo-dylint
 iroh-gossip
 clippy
+sea-orm-cli
