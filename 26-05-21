@@ -6,3 +6,4 @@ zellij
 rg
 pandora_box
 cargo-generate
+sqlx-cli
