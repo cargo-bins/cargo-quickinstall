@@ -6,3 +6,4 @@ files
 cargo-generate
 rmpc
 clippy
+uu_stty
