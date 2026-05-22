@@ -13,3 +13,4 @@ orc-rust
 rmpc
 charset-normalizer-rs
 sqlx-cli
+sniffnet
