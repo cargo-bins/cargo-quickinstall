@@ -8,3 +8,4 @@ rioterm
 clippy
 yapper
 orc-rust
+cargo-dylint
