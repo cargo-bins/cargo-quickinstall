@@ -5,3 +5,4 @@ pyo3_bindgen_cli
 cosmwasm-check
 clippy
 turbocommit
+ratatui-image
