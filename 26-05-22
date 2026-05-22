@@ -3,3 +3,4 @@ sqlx-cli
 dua-cli
 orc-rust
 files
+cargo-generate
