@@ -1,3 +1,4 @@
 orc-rust
 gpgme
 clippy
+cargo-dylint
