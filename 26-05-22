@@ -9,3 +9,4 @@ clippy
 uu_stty
 make
 charset-normalizer-rs
+orc-rust
