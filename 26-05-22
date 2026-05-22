@@ -5,3 +5,4 @@ orc-rust
 files
 cargo-generate
 rmpc
+clippy
