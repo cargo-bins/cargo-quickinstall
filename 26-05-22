@@ -2,3 +2,4 @@ rav1e
 cargo-dylint
 orc-rust
 pyo3_bindgen_cli
+cosmwasm-check
