@@ -1,3 +1,4 @@
 esp-config
 sqlx-cli
 zellij
+openpty
