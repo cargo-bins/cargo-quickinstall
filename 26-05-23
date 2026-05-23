@@ -11,3 +11,4 @@ esp-config
 wasm-tools
 sp1-prover
 codeberg-cli
+solana-ledger-tool
