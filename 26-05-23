@@ -8,3 +8,4 @@ make
 sniffnet
 sniffnet
 esp-config
+wasm-tools
