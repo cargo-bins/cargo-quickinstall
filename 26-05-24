@@ -7,3 +7,4 @@ c2rust
 project_init
 mdcat
 spider_cli
+nu_plugin_gstat
