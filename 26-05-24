@@ -15,3 +15,4 @@ spider_cli
 nextest
 codewhale-tui
 rustnet-monitor
+mdcat
