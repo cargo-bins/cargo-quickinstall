@@ -14,3 +14,4 @@ nu_plugin_gstat
 spider_cli
 nextest
 codewhale-tui
+rustnet-monitor
