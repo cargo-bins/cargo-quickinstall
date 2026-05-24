@@ -12,3 +12,4 @@ cargo-dylint
 vdev
 nu_plugin_gstat
 spider_cli
+nextest
