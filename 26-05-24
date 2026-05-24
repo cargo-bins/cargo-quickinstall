@@ -9,3 +9,4 @@ cargo-dylint
 cargo-about
 cargo-dylint
 project_init
+sea-orm-cli
