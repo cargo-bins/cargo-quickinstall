@@ -8,3 +8,4 @@ project_init
 mdcat
 spider_cli
 nu_plugin_gstat
+nu_plugin_query
