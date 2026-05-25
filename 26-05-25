@@ -4,3 +4,4 @@ spider_cli
 showme
 cargo-dylint
 neovide
+slint-lsp
