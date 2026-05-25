@@ -3,3 +3,4 @@ mpd_info_screen
 tmtc-c2a
 rustnet-monitor
 slint-lsp
+cargo-dylint
