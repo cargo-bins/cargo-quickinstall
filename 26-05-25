@@ -10,3 +10,4 @@ varlink-language-server
 nu_plugin_gstat
 neovide
 nu_plugin_gstat
+nu_plugin_query
