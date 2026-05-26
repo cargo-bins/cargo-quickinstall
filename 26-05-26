@@ -5,3 +5,4 @@ rustlens
 sea-orm-cli
 cargo-public-api
 deepseek-tui-cli
+deepseek-tui
