@@ -8,3 +8,4 @@ inlyne
 tree-sitter-cli
 inlyne
 sea-streamer-file
+cargo-patch
