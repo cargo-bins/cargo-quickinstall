@@ -3,3 +3,4 @@ rustlens
 nextest
 rustlens
 sea-orm-cli
+cargo-public-api
