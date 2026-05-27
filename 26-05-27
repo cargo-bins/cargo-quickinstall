@@ -5,3 +5,4 @@ inkhaven
 cargo-dylint
 alsa-sys
 coraline
+dioxus-cli
