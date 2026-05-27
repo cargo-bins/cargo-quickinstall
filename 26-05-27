@@ -3,3 +3,4 @@ tmtc-c2a
 east-asian-width
 inkhaven
 cargo-dylint
+alsa-sys
