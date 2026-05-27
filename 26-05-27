@@ -8,3 +8,4 @@ alsa-sys
 deepseek-tui
 alacritty
 cargo-dylint
+cargo-public-api
