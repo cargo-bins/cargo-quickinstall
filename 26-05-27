@@ -6,3 +6,4 @@ cargo-dylint
 alsa-sys
 coraline
 dioxus-cli
+lux-cli
