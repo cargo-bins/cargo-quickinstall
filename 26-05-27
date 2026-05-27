@@ -4,3 +4,4 @@ dioxus-cli
 inlyne
 inlyne
 dioxus-cli
+alsa-sys
