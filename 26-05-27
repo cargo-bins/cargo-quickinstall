@@ -7,3 +7,4 @@ dioxus-cli
 alsa-sys
 deepseek-tui
 alacritty
+cargo-dylint
