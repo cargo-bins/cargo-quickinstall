@@ -2,3 +2,4 @@ ruff
 east-asian-width
 ruff
 netwatch-tui
+alsa-sys
