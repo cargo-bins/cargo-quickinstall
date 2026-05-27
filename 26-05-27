@@ -5,3 +5,4 @@ vdev
 cargo-public-api
 inlyne
 alacritty
+nu_plugin_query
