@@ -9,3 +9,4 @@ dotenv
 all-smi
 vdev
 sea-orm-cli
+oneio
