@@ -1,3 +1,4 @@
 dotenv
 maliput-sdk
 sqlx-cli
+kani-verifier
