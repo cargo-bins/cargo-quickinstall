@@ -5,3 +5,4 @@ cargo-public-api
 alacritty
 tectonic
 sea-orm-cli
+dotenv
