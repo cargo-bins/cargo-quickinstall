@@ -7,3 +7,4 @@ dotenv
 duckduckgo
 nu_plugin_file
 cargo-dylint
+cargo-script
