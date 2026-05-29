@@ -6,3 +6,4 @@ rg
 winpty-rs
 rioterm
 uniffi
+cargo-unused-features
