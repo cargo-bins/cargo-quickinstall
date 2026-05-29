@@ -4,3 +4,4 @@ rg
 paperclip
 winpty-rs
 binstall
+cargo-public-api
