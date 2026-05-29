@@ -3,3 +3,4 @@ tree-sitter-cli
 rg
 paperclip
 winpty-rs
+binstall
