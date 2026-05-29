@@ -6,3 +6,4 @@ winpty-rs
 binstall
 cargo-public-api
 cargo-public-api
+ruff
