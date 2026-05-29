@@ -2,3 +2,4 @@ httpbis
 bpf-linker
 paperclip
 codeberg-cli
+winpty-rs
