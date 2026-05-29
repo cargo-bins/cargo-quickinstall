@@ -2,3 +2,4 @@ fortanix-sgx-tools
 tree-sitter-cli
 rg
 paperclip
+winpty-rs
