@@ -9,3 +9,4 @@ cargo-public-api
 ruff
 uniffi
 lowfi
+tree-sitter-cli
