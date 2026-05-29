@@ -7,3 +7,4 @@ binstall
 cargo-public-api
 cargo-public-api
 ruff
+uniffi
