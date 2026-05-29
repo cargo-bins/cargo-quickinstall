@@ -4,3 +4,4 @@ cargo-dylint
 pyrefly
 rg
 winpty-rs
+rioterm
