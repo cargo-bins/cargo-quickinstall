@@ -15,3 +15,4 @@ vdev
 codewhale-tui
 clippy
 vdev
+cargo-bundle
