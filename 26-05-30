@@ -16,3 +16,4 @@ codewhale-tui
 clippy
 vdev
 cargo-bundle
+racer
