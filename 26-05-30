@@ -17,3 +17,4 @@ clippy
 vdev
 cargo-bundle
 racer
+netwatch-tui
