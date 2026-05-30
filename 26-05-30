@@ -7,3 +7,4 @@ cargo-generate
 httpmock
 industrial-io
 codeberg-cli
+racer
