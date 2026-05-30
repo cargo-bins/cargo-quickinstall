@@ -2,3 +2,4 @@ cpp_demangle
 rg
 cargo-unused-features
 sozu
+proof-of-sql
