@@ -19,3 +19,4 @@ cargo-bundle
 racer
 netwatch-tui
 rustrict
+clippy
