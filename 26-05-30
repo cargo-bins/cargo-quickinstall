@@ -5,3 +5,4 @@ sozu
 proof-of-sql
 nu_plugin_gstat
 mdfried
+sea-orm-cli
