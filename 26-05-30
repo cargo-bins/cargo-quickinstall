@@ -4,3 +4,4 @@ cargo-generate
 proof-of-sql
 sqlx-cli
 cargo-generate
+httpmock
