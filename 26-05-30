@@ -1,3 +1,4 @@
 cpp_demangle
 nu_plugin_query
 proof-of-sql
+nu_plugin_gstat
