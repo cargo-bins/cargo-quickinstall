@@ -2,3 +2,4 @@ cpp_demangle
 sn_node
 proof-of-sql
 pgmq
+httpmock
