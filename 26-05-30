@@ -3,3 +3,4 @@ rg
 cargo-unused-features
 sozu
 proof-of-sql
+nu_plugin_gstat
