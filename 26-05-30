@@ -3,3 +3,4 @@ nu_plugin_query
 proof-of-sql
 nu_plugin_gstat
 httpmock
+nu_plugin_gstat
