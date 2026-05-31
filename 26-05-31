@@ -15,3 +15,4 @@ binstall
 cargo-unmaintained
 binstall
 borsh
+cargo-dylint
