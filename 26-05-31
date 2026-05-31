@@ -4,3 +4,4 @@ rathole
 binstall
 cargo-dylint
 binstall
+slint-lsp
