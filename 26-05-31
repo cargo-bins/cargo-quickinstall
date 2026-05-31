@@ -14,3 +14,4 @@ deepseek-tui
 borsh
 hurl
 slint-lsp
+sea-orm-cli
