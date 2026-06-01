@@ -3,3 +3,4 @@ cargo-bundle
 netop
 tree-sitter-md
 xpath-cli
+cargo-seek
