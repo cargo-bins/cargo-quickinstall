@@ -2,3 +2,4 @@ cargo-clone-crate
 wol-rs
 nu_plugin_file
 tree-sitter-md
+serde-saphyr
