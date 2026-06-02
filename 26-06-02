@@ -7,3 +7,4 @@ codewhale-cli
 cargo-dylint
 spotatui
 gg-cli
+codewhale-tui
