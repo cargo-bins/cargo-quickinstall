@@ -4,3 +4,4 @@ nvrs
 orc-rust
 tmtc-c2a
 codewhale-cli
+cargo-dylint
