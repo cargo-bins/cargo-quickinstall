@@ -2,3 +2,4 @@ esp-config
 esp-config
 bpf-linker
 diesel_cli
+sqlx-cli
