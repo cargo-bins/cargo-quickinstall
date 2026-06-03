@@ -2,3 +2,4 @@ nvrs
 codewhale-tui
 alacritty
 cargo-bundle
+cargo-public-api
