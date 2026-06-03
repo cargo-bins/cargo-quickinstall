@@ -2,3 +2,4 @@ pomodoro-cli
 cargo-public-api
 i3status-rs
 nu-jupyter-kernel
+httpmock
