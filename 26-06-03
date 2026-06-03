@@ -4,3 +4,4 @@ alacritty
 cargo-bundle
 cargo-public-api
 httpmock
+spider_cli
