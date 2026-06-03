@@ -6,3 +6,4 @@ httpmock
 nextest
 nu-jupyter-kernel
 vdev
+spider_cli
