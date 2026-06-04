@@ -16,3 +16,4 @@ cargo-public-api
 esp-config
 cargo-public-api
 cargo-seek
+sea-orm-cli
