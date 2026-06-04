@@ -4,3 +4,4 @@ tree_magic
 dbus-codegen
 stellar-strkey
 iai-callgrind-runner
+esp-config
