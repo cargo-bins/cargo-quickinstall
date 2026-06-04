@@ -6,3 +6,4 @@ esp-config
 dbus-codegen
 stellar-strkey
 sqlx-cli
+esp-config
