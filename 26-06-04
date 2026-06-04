@@ -8,3 +8,4 @@ dbus-codegen
 nu_plugin_gstat
 sea-orm-cli
 stellar-strkey
+cosmwasm-check
