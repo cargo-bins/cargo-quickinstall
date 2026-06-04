@@ -5,3 +5,4 @@ dua-cli
 esp-config
 dbus-codegen
 stellar-strkey
+sqlx-cli
