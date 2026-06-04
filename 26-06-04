@@ -2,3 +2,4 @@ ducc-sys
 bearer
 tree_magic
 par-term-emu-core-rust
+dbus-codegen
