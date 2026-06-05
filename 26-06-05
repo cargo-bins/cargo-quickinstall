@@ -4,3 +4,4 @@ qmassa
 patent
 sea-orm-cli
 cargo-dylint
+cargo-public-api
