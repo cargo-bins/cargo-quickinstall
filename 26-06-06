@@ -4,3 +4,4 @@ wol-rs
 kble-serialport
 jj
 east-asian-width
+cargo-dylint
