@@ -11,3 +11,4 @@ tree-sitter-cli
 sea-orm-cli
 cargo-bundle
 rg
+oso
