@@ -1,3 +1,4 @@
 deploy
 shunkakinoki
 cargo-dylint
+rls-rustc
