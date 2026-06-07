@@ -3,3 +3,4 @@ rls-rustc
 sqlglot-rust
 sqlglot-rust
 solana-validator
+sqlx-cli
