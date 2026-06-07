@@ -2,3 +2,4 @@ deploy
 shunkakinoki
 rls-rustc
 metrics-observer
+sea-orm-cli
