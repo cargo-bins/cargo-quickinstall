@@ -5,3 +5,4 @@ rls-rustc
 solana-validator
 cargo-generate
 cargo-vet
+dua-cli
