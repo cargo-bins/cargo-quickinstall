@@ -4,3 +4,4 @@ httpmock
 rls-rustc
 solana-validator
 cargo-generate
+cargo-vet
