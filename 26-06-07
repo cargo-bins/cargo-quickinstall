@@ -2,3 +2,4 @@ deploy
 json_typegen_cli
 shunkakinoki
 httpmock
+tree-sitter-cli
