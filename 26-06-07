@@ -2,3 +2,4 @@ deploy
 shunkakinoki
 rls-rustc
 binstall
+tree-sitter-md
