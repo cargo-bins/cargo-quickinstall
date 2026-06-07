@@ -2,3 +2,4 @@ deploy
 shunkakinoki
 rls-rustc
 solana-validator
+dotenv
