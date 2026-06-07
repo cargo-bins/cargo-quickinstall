@@ -5,3 +5,4 @@ rls-rustc
 cargo-dylint
 cargo-dylint
 ruff
+cargo-dylint
