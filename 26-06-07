@@ -2,3 +2,4 @@ deploy
 httpmock
 rls-rustc
 solana-validator
+cargo-dylint
