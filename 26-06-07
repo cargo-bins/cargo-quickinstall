@@ -8,3 +8,4 @@ cargo-generate
 sqlglot-rust
 esp-config
 sqlx-cli
+dua-cli
