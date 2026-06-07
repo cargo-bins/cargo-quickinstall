@@ -5,3 +5,4 @@ sqlglot-rust
 solana-validator
 sqlx-cli
 cargo-generate
+sqlglot-rust
