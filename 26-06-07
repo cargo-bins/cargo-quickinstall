@@ -1,3 +1,4 @@
 deploy
 rls-rustc
 solana-validator
+beads_rust
