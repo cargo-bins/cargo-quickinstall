@@ -7,3 +7,4 @@ llama-gguf
 cargo-flash
 cargo-public-api
 kble-serialport
+cargo-size
