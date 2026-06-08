@@ -6,3 +6,4 @@ nu_plugin_query
 llama-gguf
 cargo-flash
 cargo-public-api
+kble-serialport
