@@ -3,3 +3,4 @@ rasterrocket-cli
 kanidm
 binstall
 beads_rust
+cargo-dylint
