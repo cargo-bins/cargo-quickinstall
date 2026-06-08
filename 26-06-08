@@ -4,3 +4,4 @@ diesel_cli
 wasm-bindgen-cli
 wiremix
 tlmcmddb-cli
+vdev
