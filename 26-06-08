@@ -5,3 +5,4 @@ wasm-bindgen-cli
 wiremix
 tlmcmddb-cli
 vdev
+llama-gguf
