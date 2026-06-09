@@ -6,3 +6,4 @@ wayshot
 cargo-bundle
 tgt
 tlmcmddb-cli
+nu_plugin_query
