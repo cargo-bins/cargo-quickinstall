@@ -12,3 +12,4 @@ paperclip
 ruff
 statsig-rs
 hyprshell
+cargo-bisect-rustc
