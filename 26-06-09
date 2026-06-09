@@ -3,3 +3,4 @@ hannoy
 probe-run
 tree-sitter-cli
 wayshot
+cargo-bundle
