@@ -4,3 +4,4 @@ mdcat
 cargo-http-registry
 tree-sitter-cli
 worker-build
+apollo-router
