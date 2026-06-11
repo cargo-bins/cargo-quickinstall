@@ -3,3 +3,4 @@ tagged-base64
 sea-orm-cli
 dicom-pixeldata
 kble
+cargo-bundle
