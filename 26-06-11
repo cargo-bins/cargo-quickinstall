@@ -5,3 +5,4 @@ crates-mcp
 ruff
 typst-count
 diesel_cli
+sniffnet
