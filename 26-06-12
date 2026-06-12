@@ -3,3 +3,4 @@ diesel_cli
 coldsnap
 cargo-scripter
 cargo-script
+cargo-local-registry
