@@ -7,3 +7,4 @@ cargo-dylint
 mise
 refinery_cli
 commit_verify
+cargo-public-api
