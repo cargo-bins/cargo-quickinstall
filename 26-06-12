@@ -6,3 +6,4 @@ refinery_cli
 cargo-dylint
 mise
 refinery_cli
+commit_verify
