@@ -9,3 +9,4 @@ refinery_cli
 commit_verify
 cargo-public-api
 youtube-tui
+sea-orm-cli
