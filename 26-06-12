@@ -2,3 +2,4 @@ esp-config
 diesel_cli
 coldsnap
 cargo-scripter
+cargo-script
