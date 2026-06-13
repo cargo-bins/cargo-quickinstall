@@ -4,3 +4,4 @@ cargo-public-api
 re_query
 claude-history
 feedr
+nextest
