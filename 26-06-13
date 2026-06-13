@@ -9,3 +9,4 @@ miden-crypto
 ruff
 solana-keygen
 netwatch-tui
+worker-build
