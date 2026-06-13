@@ -2,3 +2,4 @@ binstall
 maliput
 cargo-public-api
 re_query
+claude-history
