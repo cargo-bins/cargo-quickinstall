@@ -8,3 +8,4 @@ sea-orm-cli
 miden-crypto
 ruff
 solana-keygen
+netwatch-tui
