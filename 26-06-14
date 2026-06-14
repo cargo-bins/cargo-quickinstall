@@ -10,3 +10,4 @@ rg
 rg
 cargo-dylint
 rg
+remove_dir_all
