@@ -12,3 +12,4 @@ cargo-dylint
 rg
 remove_dir_all
 rg
+rg
