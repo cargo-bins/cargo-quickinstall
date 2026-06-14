@@ -11,3 +11,4 @@ sqlant
 nominal-api
 mise
 age-plugin-yubikey
+sea-orm-cli
