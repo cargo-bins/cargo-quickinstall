@@ -3,3 +3,4 @@ racer
 rsgen-avro
 tokio-process
 remove_dir_all
+uniffi
