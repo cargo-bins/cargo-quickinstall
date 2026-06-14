@@ -8,3 +8,4 @@ mise
 age-plugin-yubikey
 cargo-dylint
 sqlant
+nominal-api
