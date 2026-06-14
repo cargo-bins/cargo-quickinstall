@@ -13,3 +13,4 @@ mise
 age-plugin-yubikey
 sea-orm-cli
 cargo-dylint
+remove_dir_all
