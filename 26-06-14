@@ -16,3 +16,4 @@ cargo-dylint
 remove_dir_all
 dioxus-cli
 uniffi
+claude-history
