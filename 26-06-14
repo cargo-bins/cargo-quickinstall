@@ -11,3 +11,4 @@ cargo-public-api
 neovide
 jj
 dioxus-cli
+remove_dir_all
