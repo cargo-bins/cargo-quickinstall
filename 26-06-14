@@ -7,3 +7,4 @@ rsgen-avro
 mise
 age-plugin-yubikey
 cargo-dylint
+sqlant
