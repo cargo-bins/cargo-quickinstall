@@ -2,3 +2,4 @@ rg
 tree-sitter-graph
 rg
 cargo-dylint
+clippy
