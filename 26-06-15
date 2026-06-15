@@ -3,3 +3,4 @@ sea-orm-cli
 clippy
 jj
 unic-langid-impl
+ballista-scheduler
