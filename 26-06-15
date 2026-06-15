@@ -4,3 +4,4 @@ cargo-nuget
 clippy
 codeberg-cli
 zellij
+tree-sitter-graph
