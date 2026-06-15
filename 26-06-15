@@ -5,3 +5,4 @@ clippy
 codeberg-cli
 zellij
 tree-sitter-graph
+cargo-generate
