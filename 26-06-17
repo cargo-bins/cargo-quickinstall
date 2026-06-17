@@ -1,2 +1,3 @@
 cargo-about
 diesel_cli
+rustfmt-nightly
