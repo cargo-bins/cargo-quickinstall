@@ -3,3 +3,4 @@ diesel_cli
 rustfmt-nightly
 charset-normalizer-rs
 sqlx-cli
+openpty
