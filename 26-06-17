@@ -3,3 +3,4 @@ tree-sitter-cli
 rustnet-monitor
 mise
 tlmcmddb-cli
+cargo-bitbake
