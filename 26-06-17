@@ -4,3 +4,4 @@ rustfmt-nightly
 charset-normalizer-rs
 sqlx-cli
 openpty
+dua-cli
