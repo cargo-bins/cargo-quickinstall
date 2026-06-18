@@ -12,3 +12,4 @@ lazyllama
 cargo-dylint
 liteparse
 cargo-bundle
+pwasm-utils
