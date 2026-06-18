@@ -1,3 +1,4 @@
 cargo-dylint
 diesel_cli
 rtx-cli
+pwasm-utils
