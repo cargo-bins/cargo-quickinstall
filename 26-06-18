@@ -1,3 +1,4 @@
 diesel_cli
 rtx-cli
 tagged-base64
+rustnet-monitor
