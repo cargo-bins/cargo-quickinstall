@@ -5,3 +5,4 @@ diesel_cli
 lan-mouse
 rtx-cli
 probe-rs-cli
+tagged-base64
