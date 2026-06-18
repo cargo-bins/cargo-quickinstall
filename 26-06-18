@@ -3,3 +3,4 @@ cargo-dylint
 cargo-dylint
 jackdaw
 bigtools
+sea-orm-cli
