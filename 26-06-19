@@ -3,3 +3,4 @@ slint-lsp
 cargo-public-api
 capsula
 rls-rustc
+hck
