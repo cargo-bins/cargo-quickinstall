@@ -2,3 +2,4 @@ commit_verify
 probe-rs-cli
 rls-rustc
 cargo-patch
+wmi
