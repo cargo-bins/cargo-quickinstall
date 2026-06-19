@@ -12,3 +12,4 @@ vdev
 binstall
 cargo-dylint
 dim-screen
+kble-serialport
