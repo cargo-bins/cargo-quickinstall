@@ -2,3 +2,4 @@ commit_verify
 slint-lsp
 cargo-public-api
 capsula
+rls-rustc
