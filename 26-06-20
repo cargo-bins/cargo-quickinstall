@@ -1,3 +1,4 @@
 nitro-tpm-attest
 sqlglot-rust
 protox
+sqlx-cli
