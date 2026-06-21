@@ -4,3 +4,4 @@ az-snp-vtpm
 codeberg-cli
 esp-config
 cargo-generate
+rsgen-avro
