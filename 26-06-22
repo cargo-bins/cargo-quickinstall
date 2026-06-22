@@ -3,3 +3,4 @@ rescrobbled
 cargo-dylint
 cargo-spellcheck
 clippy
+orc-rust
