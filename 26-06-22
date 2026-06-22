@@ -5,3 +5,4 @@ rustnet-monitor
 cargo-spellcheck
 clippy
 ruff
+nala
