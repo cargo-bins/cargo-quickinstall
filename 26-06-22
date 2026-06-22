@@ -4,3 +4,4 @@ cargo-dylint
 cargo-spellcheck
 clippy
 orc-rust
+cargo-dylint
