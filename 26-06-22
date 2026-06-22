@@ -4,3 +4,4 @@ cargo-public-api
 rustnet-monitor
 cargo-spellcheck
 clippy
+ruff
