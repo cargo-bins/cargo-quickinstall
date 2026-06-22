@@ -9,3 +9,4 @@ clippy
 ruff
 superseedr
 spider_cli
+cargo-dylint
