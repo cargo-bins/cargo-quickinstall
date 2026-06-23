@@ -4,3 +4,4 @@ quick-junit
 codeberg-cli
 dua-cli
 tracing-durations-export
+sqlx-cli
