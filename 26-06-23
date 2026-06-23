@@ -9,3 +9,4 @@ sqlx-cli
 wol-rs
 nums
 zellij
+winpty-rs
