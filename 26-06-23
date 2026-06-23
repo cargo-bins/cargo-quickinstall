@@ -4,3 +4,4 @@ bevy_rerecast_editor
 ruff
 mdcat
 cargo-dylint
+hurl
