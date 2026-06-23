@@ -1,3 +1,4 @@
 quick-junit
 tracing-durations-export
 wol-rs
+winpty-rs
