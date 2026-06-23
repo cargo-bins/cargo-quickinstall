@@ -11,3 +11,4 @@ sudo-rs
 wol-rs
 mdfried
 rg
+cargo-public-api
