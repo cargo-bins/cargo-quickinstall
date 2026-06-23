@@ -2,3 +2,4 @@ sn_node
 sn_faucet
 tracing-durations-export
 wol-rs
+winpty-rs
