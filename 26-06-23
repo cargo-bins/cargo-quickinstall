@@ -13,3 +13,4 @@ sea-orm-cli
 tracing-durations-export
 sudo-rs
 wol-rs
+kanidm_tools
