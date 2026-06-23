@@ -13,3 +13,4 @@ mdfried
 rg
 cargo-public-api
 hurl
+winpty-rs
