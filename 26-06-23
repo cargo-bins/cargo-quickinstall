@@ -6,3 +6,4 @@ dua-cli
 tracing-durations-export
 sqlx-cli
 sqlx-cli
+wol-rs
