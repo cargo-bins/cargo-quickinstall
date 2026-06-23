@@ -7,3 +7,4 @@ binstall
 sea-orm-cli
 tracing-durations-export
 auto-uml
+sudo-rs
