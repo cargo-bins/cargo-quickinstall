@@ -8,3 +8,4 @@ mdfried
 spider_cli
 diesel_cli
 dotenv-flow
+sea-orm-cli
