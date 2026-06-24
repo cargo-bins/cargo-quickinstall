@@ -10,3 +10,4 @@ diesel_cli
 dotenv-flow
 sea-orm-cli
 seetui
+gen-circleci-orb
