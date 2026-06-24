@@ -4,3 +4,4 @@ virtiofsd
 avm
 z3tracer
 solana-cli
+dotenv-flow
