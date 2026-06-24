@@ -3,3 +3,4 @@ avm
 z3tracer
 cargo-dylint
 tectonic
+dotenv-flow
