@@ -7,3 +7,4 @@ dotenv-flow
 miden-crypto
 patent
 laminar
+probe-rs-cli
