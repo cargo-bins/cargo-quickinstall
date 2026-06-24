@@ -15,3 +15,4 @@ miden-crypto
 laminar
 gen-circleci-orb
 kanidm_tools
+sea-streamer-socket
