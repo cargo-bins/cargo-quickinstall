@@ -16,3 +16,4 @@ cargo_pup
 patent
 sea-streamer-socket
 sea-orm-cli
+rtx-cli
