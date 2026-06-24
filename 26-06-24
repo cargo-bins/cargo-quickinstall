@@ -10,3 +10,4 @@ probe-rs-cli
 laminar
 diesel_cli
 spl-token-cli
+diesel_cli
