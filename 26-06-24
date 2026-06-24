@@ -3,3 +3,4 @@ dotenv-flow
 remove_dir_all
 miden-crypto
 laminar
+sea-streamer-socket
