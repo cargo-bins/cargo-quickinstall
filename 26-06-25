@@ -3,3 +3,4 @@ liteparse
 jocalsend
 cargo-pgrx
 cargo-script
+tree-sitter-cli
