@@ -5,3 +5,4 @@ cargo-pgrx
 cargo-script
 tree-sitter-cli
 slint-viewer
+sea-orm-cli
