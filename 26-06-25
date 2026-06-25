@@ -3,3 +3,4 @@ alacritty
 gen-circleci-orb
 cargo-dylint
 tuisky
+tree-sitter-cli
