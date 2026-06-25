@@ -11,3 +11,4 @@ bigtools
 tree-sitter-cli
 jujutsu
 claude-history
+nu_plugin_gstat
