@@ -6,3 +6,4 @@ cargo-script
 tree-sitter-cli
 slint-viewer
 sea-orm-cli
+nu_plugin_gstat
