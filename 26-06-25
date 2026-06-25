@@ -13,3 +13,4 @@ jujutsu
 claude-history
 nu_plugin_gstat
 bigtools
+nu_plugin_prometheus
