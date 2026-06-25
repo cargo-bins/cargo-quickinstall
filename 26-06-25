@@ -1,3 +1,4 @@
 mdcat
 alacritty
 gen-circleci-orb
+cargo-dylint
