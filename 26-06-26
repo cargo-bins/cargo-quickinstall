@@ -2,3 +2,4 @@ diesel_cli
 lux-cli
 xet-client
 patent
+cargo-dylint
