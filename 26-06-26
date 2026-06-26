@@ -2,3 +2,4 @@ cargo-dylint
 sea-orm-cli
 wasm-bindgen-cli
 xet-client
+tree-sitter-cli
