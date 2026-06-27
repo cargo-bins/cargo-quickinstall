@@ -13,3 +13,4 @@ cargo-public-api
 slint-viewer
 cargo-public-api
 automc
+minicbor
