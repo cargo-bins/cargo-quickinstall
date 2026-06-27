@@ -5,3 +5,4 @@ modelexpress-client
 wol-rs
 binwalk
 human_bytes
+minicbor
