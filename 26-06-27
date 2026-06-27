@@ -3,3 +3,4 @@ libcst
 modelexpress-client
 human_bytes
 diesel_cli
+minicbor
