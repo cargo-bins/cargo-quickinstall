@@ -6,3 +6,4 @@ modelexpress-client
 cargo-leptos
 esp-config
 human_bytes
+minicbor
