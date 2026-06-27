@@ -3,3 +3,4 @@ libcst
 modelexpress-client
 wol-rs
 human_bytes
+minicbor
