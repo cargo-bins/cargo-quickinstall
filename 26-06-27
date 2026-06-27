@@ -12,3 +12,4 @@ codewhale-cli
 nextest
 carapace
 cargo-public-api
+wol-rs
