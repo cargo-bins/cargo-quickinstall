@@ -3,3 +3,4 @@ libcst
 cargo-dylint
 av-scenechange
 modelexpress-client
+wol-rs
