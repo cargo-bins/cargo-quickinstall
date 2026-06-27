@@ -18,14 +18,14 @@ jobs:
 
     steps:
       - name: Fetch source
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: Run shellcheck
         run: shellcheck *.sh
 
       - name: Cache shfmt compiled
         id: cache-shfmt
-        uses: actions/cache@v6
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: ~/go/bin/shfmt
           key: ${{ runner.os }}-shfmt-4.4.1
@@ -53,12 +53,12 @@ jobs:
     steps:
       # TODO: actions/cache@v2?
       - name: Fetch source
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: Fetch tags required for testing
         run: git fetch --tags
 
-      - uses: Swatinem/rust-cache@v2
+      - uses: Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4 # v2.9.1
         with:
           cache-all-crates: true
           workspaces: |
@@ -100,7 +100,7 @@ jobs:
 
     steps:
       - name: Fetch source
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal

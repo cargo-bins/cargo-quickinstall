@@ -3,7 +3,7 @@ name: Setup env for cronjob and cache
 runs:
   using: composite
   steps:
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
       with:
         python-version-file: "cronjob_scripts/.python-version"
         cache: "pip"
@@ -14,7 +14,7 @@ runs:
       shell: bash
 
     - name: Cache crates-io popular crates
-      uses: actions/cache@v4
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
       with:
         path: cached_crates_io_popular_crates.parquet
         key: ${{ env.NOW }}-cached_crates_io_popular_crates.parquet
