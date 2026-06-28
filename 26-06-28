@@ -10,3 +10,4 @@ sea-orm-cli
 mise
 clap-stdin
 nu_plugin_query
+nu_plugin_query
