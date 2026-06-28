@@ -12,3 +12,4 @@ cargo-dylint
 fuel-gql-client
 proof-of-sql
 clap-stdin
+website_crawler
