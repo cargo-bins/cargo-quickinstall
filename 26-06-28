@@ -5,3 +5,4 @@ nu_plugin_gstat
 fuel-gql-client
 proof-of-sql
 jj
+nu_plugin_query
