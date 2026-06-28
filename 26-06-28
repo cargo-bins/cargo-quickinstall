@@ -10,3 +10,4 @@ diesel_cli
 diesel_cli
 cargo-dylint
 fuel-gql-client
+proof-of-sql
