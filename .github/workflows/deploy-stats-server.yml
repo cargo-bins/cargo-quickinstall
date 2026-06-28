@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: deploy-group
     steps:
-      - uses: actions/checkout@v7
-      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - uses: pcrockett/setup-fly@c59149fa58c215cf1e961bec2ffb53f0a21c2e85 # v0.1.0
       - run: flyctl deploy stats-server --wait-timeout 1m
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
