@@ -16,3 +16,4 @@ cargo-dylint
 vdev
 fasttext
 age-plugin-yubikey
+kanidm_tools
