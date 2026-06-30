@@ -3,3 +3,4 @@ cargo-patch
 dicom-pixeldata
 dicom-pixeldata
 qsv
+lux-cli
