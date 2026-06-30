@@ -5,3 +5,4 @@ claude-history
 cargo-public-api
 dicom-pixeldata
 cargo-bundle
+cargo-dylint
