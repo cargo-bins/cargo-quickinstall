@@ -7,3 +7,4 @@ dicom-pixeldata
 cargo-bundle
 cargo-dylint
 leetcode-cli
+qsv
