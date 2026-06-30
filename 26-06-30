@@ -4,3 +4,4 @@ dicom-pixeldata
 cargo-about
 parquet
 coldsnap
+cargo-generate
