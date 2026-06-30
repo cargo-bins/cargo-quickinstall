@@ -10,3 +10,4 @@ dicom-pixeldata
 dicom-pixeldata
 sea-orm-cli
 parquet
+liteparse
