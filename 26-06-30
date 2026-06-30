@@ -11,3 +11,4 @@ dicom-pixeldata
 sea-orm-cli
 parquet
 liteparse
+miro-pdf
