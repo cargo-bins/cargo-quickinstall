@@ -9,3 +9,4 @@ dua-cli
 amp
 steamdepot-cli
 sqlglot-rust
+sqlx-cli
