@@ -4,3 +4,4 @@ rust-bert
 hurl
 winpty-rs
 hurl
+sea-streamer-redis
