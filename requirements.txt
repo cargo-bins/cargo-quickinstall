@@ -28,7 +28,7 @@ setuptools==82.0.1
     # via influxdb3-python
 six==1.17.0
     # via python-dateutil
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via reactivex
 urllib3==2.7.0
     # via
