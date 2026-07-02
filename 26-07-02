@@ -8,3 +8,4 @@ sea-streamer-redis
 cargo-doctor
 zellij
 s3s-fs
+steamdepot-cli
