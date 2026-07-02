@@ -7,3 +7,4 @@ cargo-hf2
 sea-streamer-redis
 fontspector
 s3s-fs
+miro-pdf
