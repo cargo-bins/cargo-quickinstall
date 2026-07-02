@@ -5,3 +5,4 @@ winpty-rs
 cargo-doctor
 codeberg-cli
 sea-streamer-redis
+cargo-doctor
