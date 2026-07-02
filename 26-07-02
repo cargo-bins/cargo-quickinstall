@@ -3,3 +3,4 @@ iroh-gossip
 rust-bert
 termscp
 winpty-rs
+cargo-hf2
