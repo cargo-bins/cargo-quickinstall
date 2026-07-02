@@ -7,3 +7,4 @@ rust-bert
 winpty-rs
 sea-streamer-redis
 mdfried
+s3s-fs
