@@ -2,3 +2,4 @@ sqlglot-rust
 iroh-gossip
 zellij
 winpty-rs
+cargo-doctor
