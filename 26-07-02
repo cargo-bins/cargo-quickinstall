@@ -2,3 +2,4 @@ twitch-tui
 iroh-gossip
 rust-bert
 termscp
+winpty-rs
