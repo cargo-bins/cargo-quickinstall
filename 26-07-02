@@ -2,3 +2,4 @@ iroh-gossip
 rust-bert
 winpty-rs
 sea-streamer-redis
+s3s-fs
