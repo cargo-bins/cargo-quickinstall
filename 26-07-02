@@ -2,3 +2,4 @@ iroh-gossip
 rust-bert
 winpty-rs
 neovide
+sea-streamer-redis
