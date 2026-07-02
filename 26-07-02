@@ -2,3 +2,4 @@ iroh-gossip
 rust-bert
 uhyve
 termscp
+winpty-rs
