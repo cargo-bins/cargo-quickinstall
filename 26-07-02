@@ -4,3 +4,4 @@ iroh-gossip
 diesel_cli
 diesel_cli
 rust-bert
+winpty-rs
