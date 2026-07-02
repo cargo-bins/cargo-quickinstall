@@ -2,3 +2,4 @@ iroh-gossip
 hurl
 rust-bert
 hurl
+winpty-rs
