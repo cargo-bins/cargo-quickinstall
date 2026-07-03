@@ -2,3 +2,4 @@ dbus-codegen
 cargo-public-api
 dbus-codegen
 barad-dur
+spider_cli
