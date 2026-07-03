@@ -13,3 +13,4 @@ zebrad
 stellar-strkey
 nono-cli
 xargo
+dbus-codegen
