@@ -11,3 +11,4 @@ cargo-seek
 zebrad
 nextest
 iroh-relay
+apollo-router
