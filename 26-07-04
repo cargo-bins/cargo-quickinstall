@@ -13,3 +13,4 @@ nextest
 iroh-relay
 apollo-router
 cargo-dylint
+cargo-public-api
