@@ -12,3 +12,4 @@ zebrad
 nextest
 iroh-relay
 apollo-router
+cargo-dylint
