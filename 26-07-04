@@ -2,3 +2,4 @@ social_networks
 cargo-seek
 wiremix
 binwalk
+sea-orm-cli
