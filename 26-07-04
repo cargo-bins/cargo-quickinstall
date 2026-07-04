@@ -10,3 +10,4 @@ slint-viewer
 codewhale-tui
 nextest
 binwalk
+cargo-dylint
