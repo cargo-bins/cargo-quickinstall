@@ -13,3 +13,4 @@ binwalk
 cargo-dylint
 nu_plugin_gstat
 hayagriva
+cargo-bundle
