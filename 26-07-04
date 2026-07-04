@@ -18,3 +18,4 @@ cargo-atcoder
 nextest-filtering
 spider_cli
 zebrad
+cargo-info
