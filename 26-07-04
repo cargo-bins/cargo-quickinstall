@@ -15,3 +15,4 @@ apollo-router
 cargo-dylint
 cargo-public-api
 cargo-atcoder
+nextest-filtering
