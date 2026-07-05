@@ -3,3 +3,4 @@ cargo-dylint
 lean-ctx
 sequoia-policy-config
 iroh-gossip
+cargo-dylint
