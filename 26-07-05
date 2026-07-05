@@ -2,3 +2,4 @@ llama-rs
 cargo-dylint
 lean-ctx
 sequoia-policy-config
+iroh-gossip
