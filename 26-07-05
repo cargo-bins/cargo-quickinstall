@@ -4,3 +4,4 @@ framework_tool
 binwalk
 zebrad
 test_crate
+spider_cli
