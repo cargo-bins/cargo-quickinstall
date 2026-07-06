@@ -5,3 +5,4 @@ alacritty
 dioxus-cli
 bpf-linker
 cached-path
+cargo-public-api
