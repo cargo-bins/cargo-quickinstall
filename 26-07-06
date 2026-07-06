@@ -8,3 +8,4 @@ vdev
 mdcat
 alacritty
 cached-path
+cargo-public-api
