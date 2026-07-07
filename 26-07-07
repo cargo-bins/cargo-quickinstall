@@ -9,3 +9,4 @@ cargo-dylint
 alacritty
 cargo-dylint
 nitro-tpm-attest
+tree-sitter-cli
