@@ -3,3 +3,4 @@ cargo-dylint
 clashctl
 tectonic
 sea-orm-cli
+sea-streamer-file
