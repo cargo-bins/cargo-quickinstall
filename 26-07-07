@@ -5,3 +5,4 @@ lux-cli
 nextest
 sea-streamer-file
 libcst
+nitro-tpm-attest
