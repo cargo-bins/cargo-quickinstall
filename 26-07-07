@@ -2,3 +2,4 @@ slint-viewer
 cargo-dylint
 clashctl
 tectonic
+sea-orm-cli
