@@ -17,3 +17,4 @@ spider_cli
 cargo-dylint
 spider_cli
 httpmock
+cargo-info
