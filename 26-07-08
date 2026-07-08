@@ -7,3 +7,4 @@ rioterm
 cargo-override
 salvo-cli
 nextest
+hurl
