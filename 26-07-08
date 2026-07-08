@@ -14,3 +14,4 @@ gpg-tui
 qmassa
 crates-tui
 deno
+httpmock
