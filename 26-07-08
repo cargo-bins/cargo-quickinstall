@@ -5,3 +5,4 @@ wl-clipboard-rs-tools
 mit-commit-msg
 sha1collisiondetection
 gitui
+httpmock
