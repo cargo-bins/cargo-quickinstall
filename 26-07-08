@@ -5,3 +5,4 @@ cargo-override
 phetch
 rioterm
 cargo-override
+salvo-cli
