@@ -12,3 +12,4 @@ crates-tui
 cargo-info
 rerun-cli
 sha1collisiondetection
+miro-pdf
