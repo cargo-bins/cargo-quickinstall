@@ -6,3 +6,4 @@ phetch
 rioterm
 cargo-override
 salvo-cli
+nextest
