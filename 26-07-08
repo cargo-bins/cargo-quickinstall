@@ -16,3 +16,4 @@ miro-pdf
 spider_cli
 cargo-dylint
 spider_cli
+httpmock
