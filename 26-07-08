@@ -1,3 +1,4 @@
 i3status-rs
 uhyve
 sea-orm-cli
+cargo-override
