@@ -16,3 +16,4 @@ crates-tui
 deno
 httpmock
 paperclip
+cargo-seek
