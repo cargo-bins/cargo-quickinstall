@@ -3,3 +3,4 @@ uhyve
 sea-orm-cli
 cargo-override
 phetch
+rioterm
