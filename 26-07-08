@@ -8,3 +8,4 @@ cargo-override
 salvo-cli
 nextest
 hurl
+cargo-pgrx
