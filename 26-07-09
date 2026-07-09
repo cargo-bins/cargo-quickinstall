@@ -6,3 +6,4 @@ esp-config
 cargo-generate
 c2rust
 z3tracer
+git-mit-install
