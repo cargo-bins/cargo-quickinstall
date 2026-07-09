@@ -3,3 +3,4 @@ cargo-generate
 nitro-tpm-attest
 codeberg-cli
 esp-config
+cargo-generate
