@@ -4,3 +4,4 @@ nitro-tpm-attest
 codeberg-cli
 esp-config
 cargo-generate
+c2rust
