@@ -2,3 +2,4 @@ rpki
 tmtc-c2a
 cargo-embed
 spotatui
+nu_plugin_gstat
