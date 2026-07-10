@@ -4,3 +4,4 @@ diesel_cli
 tmtc-c2a
 re_query
 cargo-dylint
+tlmcmddb-cli
