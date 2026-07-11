@@ -11,3 +11,4 @@ sea-orm-cli
 monochromatic-nested-wayland-session
 librespot
 cargo-dylint
+raw-cpuid
