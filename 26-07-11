@@ -3,3 +3,4 @@ hck
 cargo-unused-features
 liteparse
 monochromatic-nested-wayland-session
+qv
