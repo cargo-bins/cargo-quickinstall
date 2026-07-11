@@ -19,3 +19,4 @@ cargo-dylint
 cargo-script
 fuel-gql-client
 liteparse
+nums
