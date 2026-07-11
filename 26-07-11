@@ -15,3 +15,4 @@ raw-cpuid
 mdfried
 mdcat
 cargo-script
+cargo-dylint
