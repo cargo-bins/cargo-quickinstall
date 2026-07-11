@@ -11,3 +11,4 @@ fuel-gql-client
 sqlx-cli
 charset-normalizer-rs
 nums
+cargo-php
