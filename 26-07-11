@@ -9,3 +9,4 @@ sqlx-cli
 esp-config
 fuel-gql-client
 sqlx-cli
+charset-normalizer-rs
