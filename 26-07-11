@@ -19,3 +19,4 @@ audiobook-forge
 esp-config
 sea-orm-cli
 hurl
+sea-streamer-stdio
