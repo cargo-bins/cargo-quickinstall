@@ -6,3 +6,4 @@ monochromatic-nested-wayland-session
 hck
 qv
 rg
+cargo-unused-features
