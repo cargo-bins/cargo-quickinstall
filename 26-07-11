@@ -9,3 +9,4 @@ rg
 cargo-unused-features
 cargo-dylint
 diesel_cli
+librespot
