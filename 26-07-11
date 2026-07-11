@@ -7,3 +7,4 @@ hck
 qv
 rg
 cargo-unused-features
+cargo-dylint
