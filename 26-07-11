@@ -17,3 +17,4 @@ mdcat
 cargo-script
 cargo-dylint
 cargo-script
+fuel-gql-client
