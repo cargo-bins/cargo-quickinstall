@@ -12,3 +12,4 @@ sqlx-cli
 charset-normalizer-rs
 nums
 cargo-php
+sea-streamer-stdio
