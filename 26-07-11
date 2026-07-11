@@ -6,3 +6,4 @@ diesel_cli
 herdr
 nums
 sea-streamer-stdio
+uniffi
