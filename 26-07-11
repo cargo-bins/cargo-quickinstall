@@ -20,3 +20,4 @@ esp-config
 sea-orm-cli
 hurl
 sea-streamer-stdio
+mdcat
