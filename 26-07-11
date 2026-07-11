@@ -11,3 +11,4 @@ cargo-dylint
 diesel_cli
 librespot
 cargo-public-api
+tola
