@@ -26,3 +26,4 @@ cargo-pgrx
 kanidm
 cargo-public-api
 nu_plugin_query
+papyrus_storage
