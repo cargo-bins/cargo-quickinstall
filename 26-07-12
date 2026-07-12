@@ -2,3 +2,4 @@ pest_debugger
 cargo-dylint
 cargo-hot
 unic-langid-impl
+esp-config
