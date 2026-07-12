@@ -8,3 +8,4 @@ cargo-dylint
 java-locator
 ext-sort
 opencv-binding-generator
+cargo-pgrx
