@@ -13,3 +13,4 @@ bpf-linker
 ext-sort
 dua
 bpf-linker
+kani-verifier
