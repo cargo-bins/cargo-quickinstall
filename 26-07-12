@@ -2,3 +2,4 @@ monochromatic-nested-wayland-session
 cargo-public-api
 nu_plugin_gstat
 cargo-public-api
+sea-streamer-stdio
