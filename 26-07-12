@@ -20,3 +20,4 @@ opencv-binding-generator
 pest_debugger
 cargo-dylint
 cargo-pgrx
+liteparse
