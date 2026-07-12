@@ -5,3 +5,4 @@ cargo-dylint
 java-locator
 kanidm
 ext-sort
+opencv-binding-generator
