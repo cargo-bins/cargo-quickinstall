@@ -4,3 +4,4 @@ cargo-hot
 unic-langid-impl
 esp-config
 monochromatic-nested-wayland-session
+pest_debugger
