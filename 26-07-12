@@ -8,3 +8,4 @@ cargo-about
 java-locator
 ext-sort
 opencv-binding-generator
+kani-verifier
