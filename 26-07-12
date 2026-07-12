@@ -18,3 +18,4 @@ liteparse
 hurl
 opencv-binding-generator
 pest_debugger
+cargo-dylint
