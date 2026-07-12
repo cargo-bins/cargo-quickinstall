@@ -2,3 +2,4 @@ unic-langid-impl
 sea-streamer-stdio
 java-locator
 ext-sort
+opencv-binding-generator
