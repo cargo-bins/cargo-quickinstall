@@ -7,3 +7,4 @@ sea-streamer-stdio
 cargo-about
 java-locator
 ext-sort
+opencv-binding-generator
