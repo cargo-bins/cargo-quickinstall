@@ -8,3 +8,4 @@ tree-sitter-cli
 tree-sitter-cli
 debugger-cli
 vdev
+nextest
