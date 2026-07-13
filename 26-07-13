@@ -9,3 +9,4 @@ tree-sitter-cli
 debugger-cli
 vdev
 nextest
+binstall
