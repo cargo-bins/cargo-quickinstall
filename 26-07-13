@@ -13,3 +13,4 @@ miro-pdf
 tree-sitter-cli
 debugger-cli
 av-scenechange
+sea-orm-cli
