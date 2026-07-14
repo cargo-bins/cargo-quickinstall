@@ -11,3 +11,4 @@ cargo-bundle
 sea-orm-cli
 tree-sitter-cli
 clap-stdin
+tree-sitter-cli
