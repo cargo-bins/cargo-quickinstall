@@ -9,3 +9,4 @@ clap-stdin
 binstall
 nu_plugin_query
 opencv-binding-generator
+miro-pdf
