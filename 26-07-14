@@ -2,3 +2,4 @@ tor-geoip
 sn_node
 clap-stdin
 deno
+opencv-binding-generator
