@@ -3,3 +3,4 @@ xargo
 esp-config
 clap-stdin
 xargo
+rg
