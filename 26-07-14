@@ -8,3 +8,4 @@ cargo-bundle
 cargo-dylint
 cargo-bundle
 cargo-bundle
+sea-orm-cli
