@@ -14,3 +14,4 @@ cargo-dylint
 cargo-public-api
 opencv-binding-generator
 nu_plugin_gstat
+cargo-about
