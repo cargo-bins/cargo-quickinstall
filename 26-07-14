@@ -2,3 +2,4 @@ lux-cli
 tor-geoip
 ripdrag
 jj
+clap-stdin
