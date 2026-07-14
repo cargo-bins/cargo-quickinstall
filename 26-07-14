@@ -7,3 +7,4 @@ hurl
 nu_plugin_gstat
 clap-stdin
 binstall
+nu_plugin_query
