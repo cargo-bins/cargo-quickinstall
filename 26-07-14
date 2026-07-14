@@ -12,3 +12,4 @@ opencv-binding-generator
 miro-pdf
 cargo-about
 mdcat
+ratatui-image
