@@ -9,3 +9,4 @@ cargo-dylint
 cargo-bundle
 cargo-bundle
 sea-orm-cli
+tree-sitter-cli
