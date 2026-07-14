@@ -14,3 +14,4 @@ clap-stdin
 tree-sitter-cli
 lonkero
 tree-sitter-cli
+opencv-binding-generator
