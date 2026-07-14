@@ -10,3 +10,4 @@ rioterm
 binstall
 clap-stdin
 miro-pdf
+cargo-dylint
