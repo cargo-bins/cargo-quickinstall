@@ -3,3 +3,4 @@ tor-geoip
 cargo-dylint
 wizer
 spider_cli
+hurl
