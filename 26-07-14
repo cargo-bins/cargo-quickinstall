@@ -6,3 +6,4 @@ spider_cli
 hurl
 nu_plugin_gstat
 clap-stdin
+binstall
