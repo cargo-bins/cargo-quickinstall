@@ -5,3 +5,4 @@ sea-orm-cli
 safe_network
 fasttext
 tracing-durations-export
+rust-bert
