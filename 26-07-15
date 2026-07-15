@@ -8,3 +8,4 @@ fasttext
 mdcat
 sea-orm-cli
 unic-langid-impl
+cargo-dylint
