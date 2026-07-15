@@ -18,3 +18,4 @@ sea-orm-cli
 xbuild
 eitype
 tectonic
+serde-saphyr
