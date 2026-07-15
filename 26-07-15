@@ -7,3 +7,4 @@ safe_network
 fasttext
 sqlx-cli
 rustbus
+iroh-relay
