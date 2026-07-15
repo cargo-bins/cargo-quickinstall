@@ -7,3 +7,4 @@ fasttext
 tracing-durations-export
 rust-bert
 serde-saphyr
+iroh-relay
