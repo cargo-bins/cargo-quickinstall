@@ -6,3 +6,4 @@ addr2line
 safe_network
 fasttext
 sqlx-cli
+rustbus
