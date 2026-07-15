@@ -5,3 +5,4 @@ crypto-cli-tools
 cargo-dylint
 xbuild
 xbuild
+cargo-fission
