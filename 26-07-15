@@ -6,3 +6,4 @@ nextest
 mdcat
 fasttext
 mdcat
+sea-orm-cli
