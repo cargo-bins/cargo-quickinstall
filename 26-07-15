@@ -10,3 +10,4 @@ sea-orm-cli
 unic-langid-impl
 cargo-dylint
 xbuild
+rust-bert
