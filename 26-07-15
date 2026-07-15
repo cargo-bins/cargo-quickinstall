@@ -4,3 +4,4 @@ sea-orm-cli
 xbuild
 nextest
 mdcat
+fasttext
