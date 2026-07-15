@@ -1,3 +1,4 @@
 cargo-duplicates
 nextest
 sea-orm-cli
+xbuild
