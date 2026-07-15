@@ -9,3 +9,4 @@ cargo-fission
 hurl
 safe_network
 fasttext
+unic-langid-impl
