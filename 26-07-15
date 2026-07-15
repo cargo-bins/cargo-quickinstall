@@ -8,3 +8,4 @@ xbuild
 cargo-fission
 hurl
 safe_network
+fasttext
