@@ -6,3 +6,4 @@ safe_network
 fasttext
 tracing-durations-export
 rust-bert
+serde-saphyr
