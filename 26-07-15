@@ -4,3 +4,4 @@ cargo-risczero
 crypto-cli-tools
 addr2line
 safe_network
+fasttext
