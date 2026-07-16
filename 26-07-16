@@ -4,3 +4,4 @@ tectonic
 rust_iso3166
 cargo-public-api
 nu_plugin_gstat
+tree-sitter-cli
