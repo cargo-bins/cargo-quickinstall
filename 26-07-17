@@ -1,3 +1,4 @@
 cargo-component
 pijul
 mise
+tracing-durations-export
