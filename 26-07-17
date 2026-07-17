@@ -6,3 +6,4 @@ cargo-public-api
 cargo-unmaintained
 feedr
 cargo-binstall
+hex-patch
