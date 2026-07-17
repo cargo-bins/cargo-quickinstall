@@ -2,3 +2,4 @@ nextest
 nextest
 cargo-about
 nextest
+tracing-durations-export
