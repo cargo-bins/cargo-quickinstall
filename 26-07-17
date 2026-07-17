@@ -2,3 +2,4 @@ cargo-component
 pijul
 mise
 tracing-durations-export
+cargo-public-api
