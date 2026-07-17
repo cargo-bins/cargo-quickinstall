@@ -9,3 +9,4 @@ cargo-binstall
 hex-patch
 cargo-dylint
 shunkakinoki
+spider_cli
