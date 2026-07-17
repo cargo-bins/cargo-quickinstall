@@ -5,3 +5,4 @@ nextest
 tracing-durations-export
 nextest
 nextest
+wol-rs
