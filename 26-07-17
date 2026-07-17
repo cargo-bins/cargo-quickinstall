@@ -1,3 +1,4 @@
 nextest
 cargo-dylint
 tracing-durations-export
+cargo-script
