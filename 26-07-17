@@ -7,3 +7,4 @@ cargo-unmaintained
 feedr
 cargo-binstall
 hex-patch
+cargo-dylint
