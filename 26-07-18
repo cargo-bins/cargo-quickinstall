@@ -8,3 +8,4 @@ codeberg-cli
 statime-linux
 holochain
 libcst
+tracing-durations-export
