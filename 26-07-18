@@ -10,3 +10,4 @@ holochain
 libcst
 tracing-durations-export
 esp-config
+tor-geoip
