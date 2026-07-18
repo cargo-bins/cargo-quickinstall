@@ -16,3 +16,4 @@ dioxus-cli
 miro-pdf
 ignorant-rs
 cargo-public-api
+sea-orm-cli
