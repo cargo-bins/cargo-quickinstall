@@ -19,3 +19,4 @@ cargo-public-api
 sea-orm-cli
 below
 esp-config
+cargo-dylint
