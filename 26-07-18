@@ -4,3 +4,4 @@ sea-orm-cli
 dioxus-cli
 patent
 codewhale-cli
+cargo-dylint
