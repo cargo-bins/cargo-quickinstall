@@ -6,3 +6,4 @@ nexmark
 cargo-about
 cargo-dylint
 mdcat
+fasttext
