@@ -18,3 +18,4 @@ ignorant-rs
 cargo-public-api
 sea-orm-cli
 below
+esp-config
