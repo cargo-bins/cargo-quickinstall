@@ -3,3 +3,4 @@ nexmark
 cargo-mutants
 fasttext
 holochain
+libcst
