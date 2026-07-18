@@ -4,3 +4,4 @@ cargo-mutants
 fasttext
 holochain
 libcst
+tracing-durations-export
