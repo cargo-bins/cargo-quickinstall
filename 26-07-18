@@ -10,3 +10,4 @@ filebyte
 esp-config
 statime-linux
 holochain
+tracing-durations-export
