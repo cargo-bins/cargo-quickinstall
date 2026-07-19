@@ -3,3 +3,4 @@ project_init
 human_bytes
 raw-cpuid
 cargo-dylint
+cargo-dylint
