@@ -5,3 +5,4 @@ raw-cpuid
 cargo-dylint
 cargo-dylint
 dotenv-flow
+dbus-codegen
