@@ -3,3 +3,4 @@ human_bytes
 codeberg-cli
 raw-cpuid
 dotenv-flow
+dbus-codegen
