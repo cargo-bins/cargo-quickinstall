@@ -1,3 +1,4 @@
 project_init
 cargo-dylint
 human_bytes
+cargo-dylint
