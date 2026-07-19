@@ -6,3 +6,4 @@ project_init
 cargo-dylint
 virtiofsd
 human_bytes
+virtiofsd
