@@ -5,3 +5,4 @@ sqlx-cli
 raw-cpuid
 cargo-graph
 sqlx-cli
+dotenv-flow
