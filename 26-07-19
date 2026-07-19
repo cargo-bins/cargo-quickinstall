@@ -8,3 +8,4 @@ cuenv
 human_bytes
 miro-pdf
 raw-cpuid
+cargo-dylint
