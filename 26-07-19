@@ -2,3 +2,4 @@ project_init
 human_bytes
 codeberg-cli
 raw-cpuid
+dotenv-flow
