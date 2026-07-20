@@ -7,3 +7,4 @@ addr2line
 cargo-public-api
 nu_plugin_query
 amdtop
+vdev
