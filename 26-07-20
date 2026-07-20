@@ -9,3 +9,4 @@ nu_plugin_query
 amdtop
 vdev
 sea-orm-cli
+cargo-unused-features
