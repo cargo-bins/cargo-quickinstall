@@ -7,3 +7,4 @@ solana-ledger-tool
 statsig-rs
 vdev
 aqiv
+pwasm-utils
