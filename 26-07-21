@@ -9,3 +9,4 @@ dbus-codegen
 writedisk
 cpx
 httpmock
+cargo-risczero
