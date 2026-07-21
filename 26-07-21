@@ -5,3 +5,4 @@ solana-ledger-tool
 cargo-smart-release
 statsig-rs
 pwasm-utils
+cargo-http-registry
