@@ -6,3 +6,4 @@ pwasm-utils
 cpx
 dbus-codegen
 lux-cli
+httpmock
