@@ -3,3 +3,4 @@ solana-ledger-tool
 statsig-rs
 pwasm-utils
 dbus-codegen
+httpmock
