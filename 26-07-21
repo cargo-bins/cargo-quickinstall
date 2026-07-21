@@ -3,3 +3,4 @@ esp-config
 forgejo-cli
 solana-ledger-tool
 cargo-smart-release
+statsig-rs
