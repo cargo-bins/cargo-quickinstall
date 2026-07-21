@@ -19,3 +19,4 @@ dbus-codegen
 cargo-unused-features
 alacritty
 aqiv
+cargo-show
