@@ -2,3 +2,4 @@ esp-config
 cargo-dylint
 solana-ledger-tool
 cargo-dylint
+statsig-rs
