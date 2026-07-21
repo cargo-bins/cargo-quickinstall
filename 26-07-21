@@ -3,3 +3,4 @@ dirge-agent
 dbus-codegen
 dirge-agent
 esp-config
+httpmock
