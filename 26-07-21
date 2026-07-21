@@ -24,3 +24,4 @@ jj
 cargo-show
 cargo-http-registry
 httpmock
+cargo-whatfeatures
