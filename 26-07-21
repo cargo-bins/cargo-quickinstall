@@ -2,3 +2,4 @@ esp-config
 herdr
 solana-ledger-tool
 writedisk
+pwasm-utils
