@@ -7,3 +7,4 @@ statsig-rs
 pwasm-utils
 cargo-http-registry
 gitv
+cargo-dylint
