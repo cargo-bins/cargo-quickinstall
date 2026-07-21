@@ -2,3 +2,4 @@ esp-config
 solana-ledger-tool
 qbsdiff
 dbus-codegen
+httpmock
