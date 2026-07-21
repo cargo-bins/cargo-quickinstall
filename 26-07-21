@@ -3,3 +3,4 @@ solana-ledger-tool
 statsig-rs
 dbus-codegen
 httpmock
+cargo-risczero
