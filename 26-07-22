@@ -5,3 +5,4 @@ protox
 cargo-smart-release
 nextest
 dirge-agent
+rust_iso3166
