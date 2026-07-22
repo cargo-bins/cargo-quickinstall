@@ -2,3 +2,4 @@ librespot
 cargo-near
 sea-orm-cli
 moviebox-tui
+cargo-dylint
