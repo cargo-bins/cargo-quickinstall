@@ -10,3 +10,4 @@ ad-editor
 kokoro-cli
 protox
 cargo-mark-sweep
+clippy
