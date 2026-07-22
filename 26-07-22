@@ -7,3 +7,4 @@ cargo-public-api
 cargo-whatfeatures
 deepseek-tui
 cradle
+nu_plugin_gstat
