@@ -12,3 +12,4 @@ protox
 cargo-mark-sweep
 clippy
 tagged-base64
+kokoro-cli
