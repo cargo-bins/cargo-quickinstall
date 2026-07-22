@@ -14,3 +14,4 @@ clippy
 tagged-base64
 kokoro-cli
 rust_iso3166
+kokoro-cli
