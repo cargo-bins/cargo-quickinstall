@@ -4,3 +4,4 @@ sea-orm-cli
 moviebox-tui
 cargo-dylint
 cargo-public-api
+cargo-whatfeatures
