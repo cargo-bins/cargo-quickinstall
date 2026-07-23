@@ -5,3 +5,4 @@ kani-verifier
 cargo-generate
 cargo-generate
 minicbor
+codeberg-cli
