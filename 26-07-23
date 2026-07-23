@@ -4,3 +4,4 @@ kani-verifier
 nkeys
 minicbor
 ec2_instance_metadata
+paperclip
