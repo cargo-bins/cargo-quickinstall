@@ -2,3 +2,4 @@ cargo-mark-sweep
 r3bl_tuify
 cargo-mark-sweep
 kani-verifier
+cargo-generate
