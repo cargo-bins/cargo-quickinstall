@@ -4,3 +4,4 @@ cargo-mark-sweep
 kani-verifier
 cargo-generate
 cargo-generate
+minicbor
