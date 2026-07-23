@@ -3,3 +3,4 @@ sass-rs
 iroh-gossip
 process_viewer
 nkeys
+minicbor
