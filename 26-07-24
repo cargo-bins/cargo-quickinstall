@@ -6,3 +6,4 @@ alacritty
 stellar-scaffold-cli
 alacritty
 deno
+cargo-dylint
