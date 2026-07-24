@@ -6,3 +6,4 @@ cargo-lock
 rustnet-monitor
 rustnet-monitor
 rustnet-monitor
+tree-sitter-cli
