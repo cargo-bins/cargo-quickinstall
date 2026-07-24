@@ -10,3 +10,4 @@ cargo-dylint
 miro-pdf
 claude-history
 cargo-lock
+sea-orm-cli
