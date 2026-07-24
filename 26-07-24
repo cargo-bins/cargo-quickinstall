@@ -9,3 +9,4 @@ deno
 cargo-dylint
 miro-pdf
 claude-history
+cargo-lock
