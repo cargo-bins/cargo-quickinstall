@@ -11,3 +11,4 @@ rustnet-monitor
 graphql_client_cli
 rustnet-monitor
 tree-sitter-cli
+sea-streamer-redis
