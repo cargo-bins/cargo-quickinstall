@@ -22,3 +22,4 @@ wasm-bindgen-cli
 stellar-scaffold-cli
 sea-streamer-redis
 claude-history
+spider_cli
