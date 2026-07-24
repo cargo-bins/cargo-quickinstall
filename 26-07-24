@@ -12,3 +12,4 @@ cargo-generate
 codeberg-cli
 zellij
 sea-streamer-redis
+shimmy
