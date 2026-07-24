@@ -12,3 +12,4 @@ inkhaven
 deno
 cargo-lock
 sea-orm-cli
+graphql_client_cli
