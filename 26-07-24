@@ -13,3 +13,4 @@ cargo-lock
 sea-orm-cli
 buck2
 cargo-public-api
+tokensave
