@@ -3,3 +3,4 @@ cargo-generate
 shimmy
 esp-config
 shimmy
+sqlx-cli
