@@ -19,3 +19,4 @@ graphql_client_cli
 miro-pdf
 padprobe
 sea-streamer-redis
+build-fs-tree
