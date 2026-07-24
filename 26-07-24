@@ -1,3 +1,4 @@
 cargo-local-registry
 cargo-lock
 sea-streamer-redis
+httpbis
