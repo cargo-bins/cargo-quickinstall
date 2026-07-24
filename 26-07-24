@@ -20,3 +20,4 @@ tokensave
 miro-pdf
 wasm-bindgen-cli
 stellar-scaffold-cli
+sea-streamer-redis
