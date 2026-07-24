@@ -5,3 +5,4 @@ esp-config
 shimmy
 sqlx-cli
 shimmy
+cargo-local-registry
