@@ -19,3 +19,4 @@ foundationdb-gen
 solana-ledger-tool
 cargo-public-api
 rustnet-monitor
+cargo-dylint
