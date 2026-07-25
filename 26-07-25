@@ -14,3 +14,4 @@ wasm-bindgen-cli
 nextest
 foundationdb-gen
 solana-ledger-tool
+rustnet-monitor
