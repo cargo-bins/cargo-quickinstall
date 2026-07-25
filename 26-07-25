@@ -4,3 +4,4 @@ lonkero
 psmux
 cargo-dylint
 sea-streamer-stdio
+cpp_demangle
