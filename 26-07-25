@@ -20,3 +20,4 @@ solana-ledger-tool
 cargo-public-api
 rustnet-monitor
 cargo-dylint
+nu_plugin_query
