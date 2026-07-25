@@ -6,3 +6,4 @@ sea-streamer-stdio
 cpp_demangle
 tor-geoip
 rdst
+foundationdb-gen
