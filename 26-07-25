@@ -27,3 +27,4 @@ sniffnet
 edgecrab-cli
 cargo-unmaintained
 rustnet-monitor
+controller
