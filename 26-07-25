@@ -10,3 +10,4 @@ shadertoy-rs
 sea-orm-cli
 pyrefly
 tor-geoip
+wasm-bindgen-cli
