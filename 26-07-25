@@ -29,3 +29,4 @@ jj
 sea-orm-cli
 alloc-no-stdlib
 rmux
+cargo-near
