@@ -17,3 +17,4 @@ rmux
 alacritty
 foundationdb-gen
 solana-ledger-tool
+cargo-public-api
