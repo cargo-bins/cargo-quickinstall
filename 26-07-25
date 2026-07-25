@@ -31,3 +31,4 @@ alloc-no-stdlib
 rmux
 cargo-near
 nu_plugin_query
+cargo-dylint
