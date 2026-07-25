@@ -19,3 +19,4 @@ cargo-public-api
 martin
 nu_plugin_gstat
 rustnet-monitor
+sniffnet
