@@ -25,3 +25,4 @@ alloc-no-stdlib
 martin
 sniffnet
 edgecrab-cli
+cargo-unmaintained
