@@ -21,3 +21,4 @@ cargo-public-api
 rustnet-monitor
 cargo-dylint
 nu_plugin_query
+freya-devtools-app
