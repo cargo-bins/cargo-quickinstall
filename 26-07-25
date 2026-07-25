@@ -34,3 +34,4 @@ nu_plugin_query
 cargo-dylint
 cargo-dylint
 controller
+dioxus-cli
