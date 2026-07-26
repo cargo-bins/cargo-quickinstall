@@ -12,3 +12,4 @@ cargo-dylint
 cargo-dylint
 nexmark
 libcst
+website_crawler
