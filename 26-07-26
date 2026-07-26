@@ -3,3 +3,4 @@ cargo-dylint
 cargo-dylint
 libcst
 website_crawler
+build-fs-tree
