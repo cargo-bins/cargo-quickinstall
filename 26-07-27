@@ -3,3 +3,4 @@ rg
 deploy
 diesel_cli
 esp-config
+sqlx-cli
