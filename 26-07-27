@@ -2,3 +2,4 @@ lair_keystore
 rg
 deploy
 diesel_cli
+esp-config
