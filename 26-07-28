@@ -4,3 +4,4 @@ zip-extensions
 az-snp-vtpm
 cached-path
 nextest
+dx-cli
