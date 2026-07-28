@@ -5,3 +5,4 @@ cargo-dylint
 jj
 zip-extensions
 nu_plugin_dbus
+borsh
