@@ -9,3 +9,4 @@ spider_cli
 nu_plugin_dbus
 xa11y
 az-snp-vtpm
+cargo-dylint
