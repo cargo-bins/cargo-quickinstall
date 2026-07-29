@@ -5,3 +5,4 @@ dotenv-flow
 kanidm_tools
 spotifyd
 worktree
+cargo-public-api
