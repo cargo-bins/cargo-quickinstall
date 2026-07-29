@@ -10,3 +10,4 @@ cargo-public-api
 liteparse
 cargo-public-api
 fasttext
+update-version
