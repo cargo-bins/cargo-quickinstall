@@ -2,3 +2,4 @@ dioxus-cli
 spl-token-cli
 fake
 asupersync
+sha1collisiondetection
