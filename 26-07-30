@@ -12,3 +12,4 @@ sea-orm-cli
 asupersync
 dash-mpd-cli
 sniffnet
+sha1collisiondetection
