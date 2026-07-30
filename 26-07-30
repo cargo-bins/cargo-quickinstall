@@ -10,3 +10,4 @@ cargo-dylint
 netwatch-tui
 sea-orm-cli
 asupersync
+dash-mpd-cli
