@@ -8,3 +8,4 @@ cargo-unused-features
 cargo-public-api
 cargo-dylint
 netwatch-tui
+sea-orm-cli
