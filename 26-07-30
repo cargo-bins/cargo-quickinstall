@@ -2,3 +2,4 @@ update-version
 dioxus-cli
 cargo-dylint
 fake
+cargo-public-api
