@@ -4,3 +4,4 @@ below
 spl-token-cli
 fake
 claude-history
+cargo-unused-features
