@@ -4,3 +4,4 @@ lux-cli
 asupersync
 sha1collisiondetection
 cargo-about
+cargo-dylint
