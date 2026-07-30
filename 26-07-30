@@ -21,3 +21,4 @@ cargo-about
 fontspector
 protox
 sea-orm-cli
+cargo-dylint
