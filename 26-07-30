@@ -6,3 +6,4 @@ cargo-public-api
 sniffnet
 asupersync
 wifui
+sha1collisiondetection
