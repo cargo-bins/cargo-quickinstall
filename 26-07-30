@@ -6,3 +6,4 @@ fake
 claude-history
 cargo-unused-features
 cargo-public-api
+cargo-dylint
