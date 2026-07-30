@@ -1,5 +1,4 @@
 from __future__ import annotations
-
 import os
 import subprocess
 
@@ -34,11 +33,10 @@ def get_target_architectures() -> list[str]:
         return list(TARGET_ARCH_TO_BUILD_OS.keys())
 
     rustc_version_output = subprocess.run(
-        ["rustc", "--version", "--verbose"], capture_output=True, text=True
-    )
-
-    assert rustc_version_output.returncode == 0, (
-        f"rustc --version --verbose failed: {rustc_version_output}"
+        ["rustc", "--version", "--verbose"],
+        capture_output=True,
+        text=True,
+        check=True,
     )
 
     host_values = [
