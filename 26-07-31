@@ -12,3 +12,4 @@ cargo-public-api
 rpki
 bluetui
 vdev
+graphql_client_cli
