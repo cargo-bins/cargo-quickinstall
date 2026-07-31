@@ -2,3 +2,4 @@ rls-rustc
 codeberg-cli
 sqlx-cli
 rpki
+esp-config
