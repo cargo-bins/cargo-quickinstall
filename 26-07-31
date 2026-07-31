@@ -16,3 +16,4 @@ alacritty
 graphql_client_cli
 bsky-cli
 stellar-strkey
+sea-orm-cli
