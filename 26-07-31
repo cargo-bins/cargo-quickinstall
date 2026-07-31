@@ -13,3 +13,4 @@ rpki
 bluetui
 vdev
 graphql_client_cli
+worker-build
