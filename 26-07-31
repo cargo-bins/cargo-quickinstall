@@ -6,3 +6,4 @@ rls-rustc
 codewhale-tui
 qmassa
 cargo-public-api
+schematools-cli
