@@ -16,3 +16,4 @@ fuel-gql-client
 libbpf-cargo
 dash-mpd-cli
 sniffnet
+binstall
