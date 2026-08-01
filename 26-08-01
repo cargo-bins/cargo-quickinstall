@@ -9,3 +9,4 @@ fuel-gql-client
 libbpf-cargo
 cargo-unmaintained
 sea-streamer-file
+esp-config
