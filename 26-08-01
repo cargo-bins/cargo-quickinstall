@@ -7,3 +7,4 @@ dioxus-cli
 cargo-dylint
 fuel-gql-client
 libbpf-cargo
+cargo-unmaintained
