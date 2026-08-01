@@ -17,3 +17,4 @@ libbpf-cargo
 pcu
 unpdf-cli
 sea-orm-cli
+claude-history
