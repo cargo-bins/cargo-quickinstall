@@ -14,3 +14,4 @@ worker-build
 cargo-dylint
 fuel-gql-client
 libbpf-cargo
+dash-mpd-cli
