@@ -13,3 +13,4 @@ alacritty
 worker-build
 cargo-dylint
 fuel-gql-client
+libbpf-cargo
