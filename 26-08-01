@@ -13,3 +13,4 @@ netwatch-tui
 fuel-gql-client
 pcu
 cratesdotio-mcp
+libbpf-cargo
