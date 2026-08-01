@@ -10,3 +10,4 @@ libbpf-cargo
 cargo-unmaintained
 sea-streamer-file
 esp-config
+textplots
