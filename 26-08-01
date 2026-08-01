@@ -6,3 +6,4 @@ z3tracer
 dioxus-cli
 cargo-dylint
 fuel-gql-client
+libbpf-cargo
