@@ -16,3 +16,4 @@ cratesdotio-mcp
 libbpf-cargo
 pcu
 unpdf-cli
+sea-orm-cli
