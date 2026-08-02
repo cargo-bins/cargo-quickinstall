@@ -1,7 +1,7 @@
 from __future__ import annotations
+
 import os
 import subprocess
-
 
 TARGET_ARCH_TO_BUILD_OS = {
     "x86_64-apple-darwin": "macos-latest",
