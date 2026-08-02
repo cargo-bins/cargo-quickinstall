@@ -19,3 +19,4 @@ holochain
 dotenv
 charset-normalizer-rs
 nums
+grpcurl-rs
