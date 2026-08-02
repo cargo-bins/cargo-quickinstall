@@ -16,3 +16,4 @@ sqlx-cli
 grpcurl-rs
 dua-cli
 holochain
+dotenv
