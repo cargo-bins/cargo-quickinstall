@@ -13,3 +13,4 @@ charset-normalizer-rs
 dua-cli
 charset-normalizer-rs
 sqlx-cli
+grpcurl-rs
