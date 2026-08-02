@@ -17,3 +17,4 @@ clippy
 dotenv
 sea-orm-cli
 wkeys
+spotify-tui
