@@ -5,3 +5,4 @@ spotify-tui
 cargo-pgrx
 sea-orm-cli
 clippy
+nitro-tpm-attest
