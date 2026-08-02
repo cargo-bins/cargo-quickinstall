@@ -17,3 +17,4 @@ grpcurl-rs
 dua-cli
 holochain
 dotenv
+charset-normalizer-rs
