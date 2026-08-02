@@ -16,3 +16,4 @@ cargo-dylint
 clippy
 dotenv
 sea-orm-cli
+wkeys
