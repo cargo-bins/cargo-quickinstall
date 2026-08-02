@@ -8,3 +8,4 @@ charset-normalizer-rs
 charset-normalizer-rs
 grpcurl-rs
 debtmap
+nitro-tpm-attest
