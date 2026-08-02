@@ -13,3 +13,4 @@ cargo-unmaintained
 cargo-unmaintained
 mise
 cargo-dylint
+clippy
