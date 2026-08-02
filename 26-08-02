@@ -16,3 +16,4 @@ nitro-tpm-attest
 tree-sitter-cli
 cargo-dylint
 dotenv
+nums
