@@ -4,3 +4,4 @@ ncspot
 spotify-tui
 cargo-pgrx
 sea-orm-cli
+clippy
