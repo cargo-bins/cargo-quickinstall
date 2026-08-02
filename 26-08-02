@@ -12,3 +12,4 @@ nitro-tpm-attest
 charset-normalizer-rs
 dua-cli
 charset-normalizer-rs
+sqlx-cli
