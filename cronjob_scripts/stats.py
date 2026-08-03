@@ -1,13 +1,13 @@
 from __future__ import annotations
 
-from polars import DataFrame
-
-from functools import lru_cache
 import os
+from functools import lru_cache
 
 from influxdb_client_3 import InfluxDBClient3
+from functools import lru_cache
 
 from cronjob_scripts.types import CrateAndVersion
+
 
 TOKEN = os.environ.get("INFLUXDB_TOKEN")
 ORG = "cargo-bins"
