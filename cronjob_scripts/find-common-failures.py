@@ -177,12 +177,8 @@ def get_unique_errors(logs: pl.DataFrame) -> pl.DataFrame:
 
     warnings = logs.filter(
         logs["message"].str.starts_with("warning: ")
-        & ~logs["message"].str.starts_with(
-            "warning: no Cargo.lock file published in "
-        )
-        | logs["message"].str.contains(
-            "failed to select a version for the requirement"
-        )
+        & ~logs["message"].str.starts_with("warning: no Cargo.lock file published in ")
+        | logs["message"].str.contains("failed to select a version for the requirement")
     ).unique()
 
     if warnings.shape[0] > 0:
