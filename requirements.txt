@@ -18,7 +18,7 @@ pyarrow==25.0.0
     # via influxdb3-python
 python-dateutil==2.9.0.post0
     # via influxdb3-python
-reactivex==5.0.0
+reactivex==5.1.0
     # via influxdb3-python
 requests==2.34.2
     # via cronjob-scripts (pyproject.toml)
