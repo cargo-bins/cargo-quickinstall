@@ -2,24 +2,23 @@
 
 from __future__ import annotations
 
-
-from collections import Counter
-from dataclasses import dataclass
-from functools import lru_cache
 import json
 import os
-from pathlib import Path
 import random
 import subprocess
 import sys
 import time
+from collections import Counter
+from dataclasses import dataclass
+from functools import lru_cache
+from pathlib import Path
 
-from cronjob_scripts.types import CrateAndMaybeVersion, CrateAndVersion, GithubAsset
 from cronjob_scripts.architectures import get_build_os, get_target_architectures
 from cronjob_scripts.checkout_worktree import checkout_worktree_for_target
+from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crates
 from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_version
 from cronjob_scripts.stats import get_requested_crates
-from cronjob_scripts.crates_io_popular_crates import get_crates_io_popular_crates
+from cronjob_scripts.types import CrateAndMaybeVersion, CrateAndVersion, GithubAsset
 
 MAX_CHECKS_PER_QUEUE = 1000
 
@@ -70,8 +69,8 @@ def main():
             "Usage: INFLUXDB_TOKEN= target= CRATE_CHECK_LIMIT= RECHECK= GITHUB_REPOSITORY= trigger-package-build.py"
         )
         if sys.argv[1] == "--help":
-            exit(0)
-        exit(1)
+            sys.exit(0)
+        sys.exit(1)
 
     targets = get_target_architectures()
     queues: list[QueueInfo] = []
@@ -177,7 +176,7 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
     else:
         features = ",".join(
             feat
-            for feat in version["features"].keys()
+            for feat in version["features"]
             if "vendored" in feat or "bundled" in feat
         )
     build_os = get_build_os(queue.target)
@@ -222,7 +221,7 @@ def get_excluded(tracking_worktree_path: str, days: int, max_failures: int) -> s
                 Counter(stripped for line in file if (stripped := line.strip()))
             )
 
-    return set(crate for crate, count in failures.items() if count >= max_failures)
+    return {crate for crate, count in failures.items() if count >= max_failures}
 
 
 @lru_cache
@@ -234,6 +233,7 @@ def get_repo_url() -> str:
         ["gh", "repo", "view", "--json", "url", "--jq", ".url"],
         capture_output=True,
         text=True,
+        check=True,
     ).stdout.strip()
 
 
@@ -242,6 +242,7 @@ def get_branch() -> str:
         ["git", "branch", "--show-current"],
         capture_output=True,
         text=True,
+        check=True,
     ).stdout.strip()
 
 
