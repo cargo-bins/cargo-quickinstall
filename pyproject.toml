@@ -17,6 +17,9 @@ dependencies = [
 [tool.setuptools]
 py-modules = ["cronjob_scripts"]
 
+[tool.ruff.lint.isort]
+lines-after-imports = 2
+
 [project.scripts]
 trigger-package-build = "cronjob_scripts.trigger_package_build:main"
 crates-io-popular-crates = "cronjob_scripts.crates_io_popular_crates:main"
