@@ -5,8 +5,8 @@ import warnings
 from pathlib import Path
 from typing import TypedDict
 
-import requests
 import polars as pl
+import requests
 
 from cronjob_scripts.types import CrateAndMaybeVersion
 
