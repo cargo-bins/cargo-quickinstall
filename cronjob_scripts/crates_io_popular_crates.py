@@ -10,6 +10,7 @@ import requests
 
 from cronjob_scripts.types import CrateAndMaybeVersion
 
+
 warnings.filterwarnings("ignore", message="Polars found a filename")
 
 
