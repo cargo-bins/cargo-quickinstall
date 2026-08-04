@@ -4,3 +4,4 @@ cargo-dylint
 cargo-dylint
 crypto-cli-tools
 proof-of-sql
+raw-cpuid
