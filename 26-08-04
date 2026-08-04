@@ -10,3 +10,4 @@ holochain
 rustnet-monitor
 atuin
 tagged-base64
+proof-of-sql
