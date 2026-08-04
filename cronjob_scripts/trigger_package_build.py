@@ -20,6 +20,7 @@ from cronjob_scripts.get_latest_version import CrateVersionDict, get_latest_vers
 from cronjob_scripts.stats import get_requested_crates
 from cronjob_scripts.types import CrateAndMaybeVersion, CrateAndVersion, GithubAsset
 
+
 MAX_CHECKS_PER_QUEUE = 1000
 
 
