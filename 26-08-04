@@ -1,3 +1,4 @@
 crypto-cli-tools
 holochain_keystore
 cargo-vet
+proof-of-sql
