@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# ruff: noqa: N999
 from __future__ import annotations
 
 import hashlib
