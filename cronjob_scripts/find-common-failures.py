@@ -8,7 +8,6 @@ import subprocess
 import sys
 from typing import TypedDict
 
-
 import polars as pl
 
 
