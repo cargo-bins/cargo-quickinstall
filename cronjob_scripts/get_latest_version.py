@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-import json
 import functools
+import json
 from typing import TypedDict
-import requests
 
+import requests
 import semver
 
 

@@ -5,10 +5,11 @@ import warnings
 from pathlib import Path
 from typing import TypedDict
 
-import requests
 import polars as pl
+import requests
 
 from cronjob_scripts.types import CrateAndMaybeVersion
+
 
 warnings.filterwarnings("ignore", message="Polars found a filename")
 

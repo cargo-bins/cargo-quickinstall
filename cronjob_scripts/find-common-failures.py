@@ -1,13 +1,13 @@
 #!/usr/bin/env python
+# ruff: noqa: N999
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import subprocess
 import sys
 from typing import TypedDict
-import hashlib
-
 
 import polars as pl
 
@@ -152,7 +152,7 @@ def tidy_logs(logs: pl.DataFrame) -> pl.DataFrame:
         )
         # rewrite some common errors that show up as a result of other errors in the same build
         .str.replace(
-            "^error: could not compile `.*` \(bin .*\) due to .* previous error",
+            r"^error: could not compile `.*` \(bin .*\) due to .* previous error",
             "<ignore: ${0}>",
         )
         .str.replace(
@@ -176,21 +176,15 @@ def get_unique_errors(logs: pl.DataFrame) -> pl.DataFrame:
         return errors
 
     warnings = logs.filter(
-        (
-            logs["message"].str.starts_with("warning: ")
-            & ~logs["message"].str.starts_with(
-                "warning: no Cargo.lock file published in "
-            )
-            | logs["message"].str.contains(
-                "failed to select a version for the requirement"
-            )
-        )
+        logs["message"].str.starts_with("warning: ")
+        & ~logs["message"].str.starts_with("warning: no Cargo.lock file published in ")
+        | logs["message"].str.contains("failed to select a version for the requirement")
     ).unique()
 
     if warnings.shape[0] > 0:
         return warnings
 
-    errors = logs.filter(logs["message"].str.contains("^error(\[E[0-9]*\])?: ")).head()
+    errors = logs.filter(logs["message"].str.contains(r"^error(\[E[0-9]*\])?: ")).head()
     return errors
 
 
@@ -263,5 +257,5 @@ if __name__ == "__main__":
             """,
             file=sys.stderr,
         )
-        exit(1)
+        sys.exit(1)
     main()

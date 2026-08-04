@@ -1,6 +1,5 @@
-from pathlib import Path
 import unittest
-
+from pathlib import Path
 
 from cronjob_scripts.architectures import TARGET_ARCH_TO_BUILD_OS
 
