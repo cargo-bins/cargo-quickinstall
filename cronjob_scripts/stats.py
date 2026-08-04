@@ -4,7 +4,7 @@ import os
 from functools import lru_cache
 
 from influxdb_client_3 import InfluxDBClient3
-from functools import lru_cache
+from polars import DataFrame
 
 from cronjob_scripts.types import CrateAndVersion
 
