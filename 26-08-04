@@ -9,3 +9,4 @@ crypto-cli-tools
 holochain
 rustnet-monitor
 atuin
+tagged-base64
