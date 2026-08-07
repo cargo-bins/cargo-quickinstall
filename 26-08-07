@@ -21,3 +21,4 @@ spotatui
 lingua
 binstall
 project_init
+cargo-check-deadlock
