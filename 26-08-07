@@ -7,3 +7,4 @@ jj
 cargo-check-deadlock
 rustfinity
 sniffnet
+auto-uml
