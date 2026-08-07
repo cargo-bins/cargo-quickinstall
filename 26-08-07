@@ -8,3 +8,4 @@ virtiofsd
 makepad
 tree-sitter-md
 winpty-rs
+s3s-fs
