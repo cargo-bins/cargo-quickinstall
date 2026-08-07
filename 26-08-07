@@ -7,3 +7,4 @@ sea-streamer-socket
 virtiofsd
 makepad
 tree-sitter-md
+winpty-rs
