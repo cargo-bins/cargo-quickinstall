@@ -4,3 +4,4 @@ project_init
 sea-streamer-socket
 virtiofsd
 tree-sitter-md
+s3s-fs
