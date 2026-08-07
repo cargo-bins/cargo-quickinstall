@@ -4,3 +4,4 @@ glide
 cargo-public-api
 rustfinity
 jj
+cargo-check-deadlock
