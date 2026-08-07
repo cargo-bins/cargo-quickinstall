@@ -15,3 +15,4 @@ cargo-about
 sea-orm-cli
 solana-ledger-tool
 spotatui
+cargo-check-deadlock
