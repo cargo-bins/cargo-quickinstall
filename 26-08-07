@@ -13,3 +13,4 @@ glide
 all-smi
 cargo-about
 sea-orm-cli
+solana-ledger-tool
