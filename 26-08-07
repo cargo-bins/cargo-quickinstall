@@ -26,3 +26,4 @@ virtiofsd
 deepseek-tui
 inkhaven
 tree-sitter-md
+winpty-rs
