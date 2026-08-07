@@ -25,3 +25,4 @@ cargo-check-deadlock
 spotatui
 sea-streamer-socket
 liteparse
+qmassa
