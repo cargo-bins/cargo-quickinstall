@@ -19,3 +19,4 @@ cargo-check-deadlock
 liteparse
 spotatui
 lingua
+binstall
