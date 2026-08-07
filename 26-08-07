@@ -24,3 +24,4 @@ project_init
 cargo-check-deadlock
 spotatui
 sea-streamer-socket
+liteparse
