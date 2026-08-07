@@ -42,3 +42,4 @@ libbpf-cargo
 protox
 refinery_cli
 spider_cli
+sea-orm-cli
