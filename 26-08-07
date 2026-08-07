@@ -16,3 +16,4 @@ sea-orm-cli
 solana-ledger-tool
 spotatui
 cargo-check-deadlock
+liteparse
