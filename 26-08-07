@@ -36,3 +36,4 @@ s3s-fs
 spider_cli
 mdcat
 auto-cpufreq
+libbpf-cargo
