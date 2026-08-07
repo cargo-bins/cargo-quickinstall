@@ -12,3 +12,4 @@ cargo-unmaintained
 virtiofsd
 ncspot
 tree-sitter-md
+winpty-rs
