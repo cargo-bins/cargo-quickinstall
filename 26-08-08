@@ -13,3 +13,4 @@ cargo-near
 cargo-about
 cargo-dylint
 wallr
+opencv-binding-generator
