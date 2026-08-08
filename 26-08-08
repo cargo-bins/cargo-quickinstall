@@ -5,3 +5,4 @@ spider_cli
 cargo-about
 opencv-binding-generator
 clap-stdin
+tree-sitter-cli
