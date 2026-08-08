@@ -26,3 +26,4 @@ sea-orm-cli
 miro-pdf
 mise
 lemmy_utils
+spider_worker
