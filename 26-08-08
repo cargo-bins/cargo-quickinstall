@@ -2,3 +2,4 @@ raw-cpuid
 cargo-about
 java-locator
 clap-stdin
+serde-saphyr
