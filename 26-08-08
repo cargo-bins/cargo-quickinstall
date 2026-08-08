@@ -20,3 +20,4 @@ clap-stdin
 auto-cpufreq
 mise
 mdfried
+cargo-dylint
