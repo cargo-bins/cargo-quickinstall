@@ -48,3 +48,4 @@ dprint
 auto-uml
 industrial-io
 glide
+cargo-dylint
