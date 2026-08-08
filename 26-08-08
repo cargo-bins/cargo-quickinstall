@@ -7,3 +7,4 @@ opencv-binding-generator
 clap-stdin
 serde-saphyr
 spider_worker
+r3bl_tuify
