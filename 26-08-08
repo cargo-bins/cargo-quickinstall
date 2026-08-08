@@ -7,3 +7,4 @@ codeberg-cli
 codeberg-cli
 cargo-about
 opencv-binding-generator
+clap-stdin
