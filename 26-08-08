@@ -7,3 +7,4 @@ mdcat
 cargo-about
 opencv-binding-generator
 clap-stdin
+lemmy_utils
