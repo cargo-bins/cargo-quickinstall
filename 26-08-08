@@ -8,3 +8,4 @@ mdcat
 cargo-about
 opencv-binding-generator
 clap-stdin
+spider_worker
