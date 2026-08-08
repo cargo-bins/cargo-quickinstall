@@ -17,3 +17,4 @@ wallr
 refinery_cli
 clap-stdin
 cargo-near
+auto-cpufreq
