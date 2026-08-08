@@ -10,3 +10,4 @@ gitui
 kani-verifier
 serde-saphyr
 holochain_cli_sandbox
+rustbus
