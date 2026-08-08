@@ -8,3 +8,4 @@ clap-stdin
 gitui
 gitui
 kani-verifier
+serde-saphyr
