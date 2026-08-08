@@ -11,3 +11,4 @@ sea-orm-cli
 forgemax
 cargo-near
 cargo-about
+cargo-dylint
