@@ -55,3 +55,4 @@ rustymcp
 auto-uml
 asak
 ssh-gpg-agent
+cargo-dylint
