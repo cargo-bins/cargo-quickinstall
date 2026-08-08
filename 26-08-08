@@ -13,3 +13,4 @@ kani-verifier
 serde-saphyr
 holochain_cli_sandbox
 rustbus
+lemmy_utils
