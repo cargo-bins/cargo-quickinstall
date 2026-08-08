@@ -16,3 +16,4 @@ wallr
 opencv-binding-generator
 cargo-dylint
 cargo-near
+clap-stdin
