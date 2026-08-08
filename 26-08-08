@@ -11,3 +11,4 @@ clap-stdin
 sn_faucet
 kani-verifier
 serde-saphyr
+holochain_cli_sandbox
