@@ -3,3 +3,4 @@ raw-cpuid
 cargo-dylint
 cargo-unmaintained
 cargo-about
+opencv-binding-generator
