@@ -7,3 +7,4 @@ opencv-binding-generator
 clap-stdin
 tree-sitter-cli
 serde-saphyr
+lemmy_utils
