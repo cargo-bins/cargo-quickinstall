@@ -17,3 +17,4 @@ opencv-binding-generator
 cargo-dylint
 cargo-near
 clap-stdin
+auto-cpufreq
