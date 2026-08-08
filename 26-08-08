@@ -8,3 +8,4 @@ clap-stdin
 tree-sitter-cli
 serde-saphyr
 lemmy_utils
+spider_worker
