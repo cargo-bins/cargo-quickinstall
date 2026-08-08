@@ -18,3 +18,4 @@ refinery_cli
 clap-stdin
 cargo-near
 auto-cpufreq
+spider_cli
