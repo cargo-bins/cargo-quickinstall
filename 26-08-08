@@ -19,3 +19,4 @@ clap-stdin
 cargo-near
 auto-cpufreq
 spider_cli
+tree-sitter-cli
