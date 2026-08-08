@@ -11,3 +11,4 @@ all-smi
 cargo-about
 wallr
 mise
+opencv-binding-generator
