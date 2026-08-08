@@ -10,3 +10,4 @@ opencv-binding-generator
 clap-stdin
 sn_faucet
 kani-verifier
+serde-saphyr
