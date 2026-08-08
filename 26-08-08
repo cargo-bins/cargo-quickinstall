@@ -2,3 +2,4 @@ sea-orm-cli
 solana-cli
 libbpf-cargo
 raw-cpuid
+auto-cpufreq
