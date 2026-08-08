@@ -6,3 +6,4 @@ cargo-about
 opencv-binding-generator
 clap-stdin
 serde-saphyr
+spider_worker
