@@ -4,3 +4,4 @@ cargo-vet
 sequoia-policy-config
 httpmock
 cargo-vet
+nextest-runner
