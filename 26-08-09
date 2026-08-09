@@ -4,3 +4,4 @@ httpmock
 nextest-runner
 commit_verify
 sea-streamer-file
+process_viewer
