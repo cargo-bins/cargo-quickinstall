@@ -7,3 +7,4 @@ holochain_cli_sandbox
 codeberg-cli
 esp-config
 monolith
+nextest-runner
