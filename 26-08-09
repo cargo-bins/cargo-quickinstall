@@ -28,3 +28,4 @@ ssh-gpg-agent
 auto-uml
 cargo-unmaintained
 sniffnet
+commit_verify
