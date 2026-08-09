@@ -8,3 +8,4 @@ process_viewer
 holochain
 worker-build
 helius-laserstream
+statsig-rs
