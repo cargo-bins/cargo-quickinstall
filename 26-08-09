@@ -3,3 +3,4 @@ clap-stdin
 cargo-vet
 sequoia-policy-config
 httpmock
+cargo-vet
