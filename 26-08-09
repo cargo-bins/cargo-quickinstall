@@ -24,3 +24,4 @@ nextest-runner
 dioxus-cli
 mdfried
 vdev
+ssh-gpg-agent
