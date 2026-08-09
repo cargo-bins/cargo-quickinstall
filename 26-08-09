@@ -4,3 +4,4 @@ clap-stdin
 cargo-dylint
 httpmock
 auto-uml
+nextest-runner
