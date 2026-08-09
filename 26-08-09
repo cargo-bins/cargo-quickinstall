@@ -1,3 +1,4 @@
 az-snp-vtpm
 clap-stdin
 cargo-vet
+sequoia-policy-config
