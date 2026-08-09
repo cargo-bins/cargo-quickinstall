@@ -3,3 +3,4 @@ cargo-dylint
 clap-stdin
 cargo-dylint
 httpmock
+auto-uml
