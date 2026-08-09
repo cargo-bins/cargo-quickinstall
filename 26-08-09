@@ -11,3 +11,4 @@ dioxus-cli
 asak
 asak
 httpmock
+nextest-runner
