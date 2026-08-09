@@ -2,3 +2,4 @@ az-snp-vtpm
 cargo-dylint
 clap-stdin
 cargo-dylint
+httpmock
