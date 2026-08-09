@@ -5,3 +5,4 @@ sequoia-policy-config
 httpmock
 cargo-vet
 nextest-runner
+sea-streamer-file
