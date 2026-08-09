@@ -9,3 +9,4 @@ cargo-dylint
 httpmock
 nextest-runner
 commit_verify
+sea-streamer-file
