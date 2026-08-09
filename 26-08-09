@@ -4,3 +4,4 @@ httpmock
 nextest-runner
 ext-sort
 sea-streamer-file
+process_viewer
