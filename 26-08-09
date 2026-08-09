@@ -14,3 +14,4 @@ httpmock
 nextest-runner
 pwsp
 mdfried
+ssh-gpg-agent
