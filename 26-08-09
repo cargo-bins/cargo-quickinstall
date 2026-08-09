@@ -6,3 +6,4 @@ httpmock
 cargo-vet
 nextest-runner
 sea-streamer-file
+process_viewer
