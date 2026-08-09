@@ -27,3 +27,4 @@ process_viewer
 ssh-gpg-agent
 ssh-gpg-agent
 nu_plugin_gstat
+cargo-unmaintained
