@@ -37,3 +37,4 @@ helius-laserstream
 statsig-rs
 nu_plugin_gstat
 re_query
+bevy_animation_graph_editor
