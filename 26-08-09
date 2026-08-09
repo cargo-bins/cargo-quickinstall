@@ -42,3 +42,4 @@ sea-orm-cli
 cargo-unmaintained
 jj
 jj-gh
+nu_plugin_query
