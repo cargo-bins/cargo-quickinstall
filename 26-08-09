@@ -35,3 +35,4 @@ dioxus-cli
 glide
 jj-gh
 sea-orm-cli
+sea-streamer-file
