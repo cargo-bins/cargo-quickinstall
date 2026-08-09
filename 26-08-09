@@ -3,3 +3,4 @@ clap-stdin
 httpmock
 nextest-runner
 ext-sort
+sea-streamer-file
