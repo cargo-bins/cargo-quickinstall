@@ -5,3 +5,4 @@ cargo-dylint
 httpmock
 auto-uml
 nextest-runner
+auto-uml
