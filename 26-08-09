@@ -10,3 +10,4 @@ worker-build
 helius-laserstream
 statsig-rs
 re_query
+miden-crypto
