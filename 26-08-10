@@ -8,3 +8,4 @@ xargo
 controller
 deno
 stellar-strkey
+sea-streamer-stdio
