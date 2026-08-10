@@ -31,3 +31,4 @@ tectonic
 binstall
 sp1-prover
 cargo-unused-features
+sea-streamer-stdio
