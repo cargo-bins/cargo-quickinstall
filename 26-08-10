@@ -22,3 +22,4 @@ rg
 bevy_animation_graph_editor
 controller
 cargo-unused-features
+netwatch-tui
