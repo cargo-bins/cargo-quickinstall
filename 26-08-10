@@ -11,3 +11,4 @@ spl-token-cli
 rustdoc-text
 pest_debugger
 cargo-pgrx
+cargo-unused-features
