@@ -16,3 +16,4 @@ opencv-binding-generator
 bevy_animation_graph_editor
 cargo-unused-features
 xargo
+rg
