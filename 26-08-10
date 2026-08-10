@@ -9,3 +9,4 @@ nu_plugin_gstat
 nu_plugin_gstat
 spl-token-cli
 rustdoc-text
+pest_debugger
