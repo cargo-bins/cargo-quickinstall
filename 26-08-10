@@ -18,3 +18,4 @@ cargo-unused-features
 xargo
 rg
 cargo-public-api
+rg
