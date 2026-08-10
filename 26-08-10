@@ -30,3 +30,4 @@ rg
 tectonic
 binstall
 sp1-prover
+cargo-unused-features
