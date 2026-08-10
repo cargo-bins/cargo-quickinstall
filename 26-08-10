@@ -24,3 +24,4 @@ controller
 cargo-unused-features
 netwatch-tui
 tree-sitter-cli
+binstall
