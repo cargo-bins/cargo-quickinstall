@@ -24,3 +24,4 @@ cargo-pgrx
 stellar-strkey
 rustdoc-text
 tectonic
+tree-sitter-cli
