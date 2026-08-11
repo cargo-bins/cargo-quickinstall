@@ -10,3 +10,4 @@ codewhale-tui
 ratatui-image
 cargo-validate
 tplay
+cpp_demangle
