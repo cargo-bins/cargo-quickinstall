@@ -10,3 +10,4 @@ sp1-core-executor-runner-binary
 statime-linux
 iai-callgrind-runner
 industrial-io
+safe_network
