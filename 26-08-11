@@ -12,3 +12,4 @@ rg
 ratatui-image
 dash-mpd-cli
 tree-sitter-cli
+dotenvy
