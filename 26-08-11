@@ -20,3 +20,4 @@ sqlx-cli
 industrial-io
 safe_network
 laminar
+charset-normalizer-rs
