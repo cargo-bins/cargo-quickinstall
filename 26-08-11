@@ -11,3 +11,4 @@ maliput-sdk
 tectonic
 rustbus
 sqlx-cli
+cpp_demangle
