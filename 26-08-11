@@ -3,3 +3,4 @@ ducc-sys
 maliput-sdk
 rustbus
 sqlx-cli
+cpp_demangle
