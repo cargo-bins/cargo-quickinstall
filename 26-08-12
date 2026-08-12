@@ -6,3 +6,4 @@ iroh-relay
 gix-filter
 rustfmt-nightly
 qbsdiff
+fake
