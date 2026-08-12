@@ -18,3 +18,4 @@ gix-filter
 netwatch-tui
 shadowsocks-rust
 mise
+worker-build
