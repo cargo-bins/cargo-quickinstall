@@ -4,3 +4,4 @@ foundationdb-gen
 esp-config
 charset-normalizer-rs
 hannoy
+crossref-client
