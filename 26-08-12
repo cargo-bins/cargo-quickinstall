@@ -12,3 +12,4 @@ sqlx-cli
 gix-filter
 cargo-leptos
 opencitations-client
+arxiv-client
