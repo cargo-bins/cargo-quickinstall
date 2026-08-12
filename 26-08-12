@@ -10,3 +10,4 @@ iroh-relay
 opencitations-client
 sqlx-cli
 gix-filter
+cargo-leptos
