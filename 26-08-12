@@ -8,3 +8,4 @@ crossref-client
 opencitations-client
 iroh-relay
 opencitations-client
+sqlx-cli
