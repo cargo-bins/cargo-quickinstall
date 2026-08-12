@@ -13,3 +13,4 @@ iroh-relay
 lingua
 mise
 gix-filter
+rustfmt-nightly
