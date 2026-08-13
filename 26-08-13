@@ -22,3 +22,4 @@ miro-pdf
 mdcat
 wasm-bindgen-cli
 socketcan
+alloc-no-stdlib
