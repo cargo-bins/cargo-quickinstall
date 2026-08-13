@@ -20,3 +20,4 @@ wasm-bindgen-cli
 socketcan
 netwatch-tui
 alloc-no-stdlib
+mdcat
