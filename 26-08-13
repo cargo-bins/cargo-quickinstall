@@ -7,3 +7,4 @@ cargo-mobile2
 hayagriva
 git-disjoint
 socketcan
+alloc-no-stdlib
