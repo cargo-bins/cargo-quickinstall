@@ -13,3 +13,4 @@ maliput-sdk
 codeberg-cli
 bgpkit-parser
 socketcan
+alloc-no-stdlib
