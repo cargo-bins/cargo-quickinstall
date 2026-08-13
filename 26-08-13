@@ -7,3 +7,4 @@ hayagriva
 cargo-pgrx
 git-disjoint
 socketcan
+alloc-no-stdlib
