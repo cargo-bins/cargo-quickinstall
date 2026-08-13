@@ -3,3 +3,4 @@ fasttext
 lance
 hayagriva
 socketcan
+alloc-no-stdlib
