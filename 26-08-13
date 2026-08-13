@@ -6,3 +6,4 @@ cargo-mobile2
 hayagriva
 cargo-pgrx
 socketcan
+alloc-no-stdlib
