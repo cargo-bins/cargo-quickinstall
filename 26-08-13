@@ -11,3 +11,4 @@ hayagriva
 maliput-sdk
 socketcan
 mit-commit-msg
+alloc-no-stdlib
