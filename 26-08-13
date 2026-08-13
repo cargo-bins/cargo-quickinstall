@@ -3,3 +3,4 @@ wasm-bindgen-cli
 fasttext
 cargo-public-api
 solana-keygen
+netwatch-tui
