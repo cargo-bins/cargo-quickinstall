@@ -8,3 +8,4 @@ codeberg-cli
 cargo-risczero
 cargo-risczero
 addr2line
+bgpkit-parser
