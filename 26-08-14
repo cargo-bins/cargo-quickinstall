@@ -20,3 +20,4 @@ remove_dir_all
 sea-orm-cli
 nkeys
 dbus-codegen
+agent-desktop
