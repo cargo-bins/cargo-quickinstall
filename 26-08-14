@@ -15,3 +15,4 @@ bgpkit-parser
 nkeys
 iai-callgrind-runner
 dbus-codegen
+cargo-risczero
