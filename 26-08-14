@@ -8,3 +8,4 @@ ducc-sys
 tokensave
 cargo-unused-features
 wasm-bindgen-cli
+crates-tui
