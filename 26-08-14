@@ -4,3 +4,4 @@ cargo-mobile2
 dioxus-cli
 nkeys
 solana-keygen
+dbus-codegen
