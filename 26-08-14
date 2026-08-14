@@ -9,3 +9,4 @@ tokensave
 cargo-unused-features
 wasm-bindgen-cli
 crates-tui
+tokensave
