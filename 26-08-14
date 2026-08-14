@@ -7,3 +7,4 @@ cargo-public-api
 ducc-sys
 tokensave
 cargo-unused-features
+wasm-bindgen-cli
