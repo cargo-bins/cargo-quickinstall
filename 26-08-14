@@ -21,3 +21,4 @@ kanidm_tools
 microsandbox
 wasm-bindgen-cli
 agent-desktop
+cargo-unused-features
