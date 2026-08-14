@@ -6,3 +6,4 @@ remove_dir_all
 sn_cli
 nkeys
 iai-callgrind-runner
+dbus-codegen
