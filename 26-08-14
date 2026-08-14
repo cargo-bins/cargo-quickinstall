@@ -9,3 +9,4 @@ cargo-risczero
 cargo-risczero
 addr2line
 bgpkit-parser
+arp-scan
