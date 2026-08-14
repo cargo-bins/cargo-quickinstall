@@ -8,3 +8,4 @@ ducc-sys
 tree-sitter-cli
 crates-tui
 microsandbox
+tplay
