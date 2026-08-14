@@ -7,3 +7,4 @@ cargo-dylint
 nkeys
 lux-cli
 dbus-codegen
+lux-cli
