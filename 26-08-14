@@ -28,3 +28,4 @@ nkeys
 solana-keygen
 dbus-codegen
 mise
+sea-orm-cli
