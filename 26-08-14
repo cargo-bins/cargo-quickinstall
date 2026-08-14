@@ -5,3 +5,4 @@ tplay
 cargo-mobile2
 cargo-public-api
 ducc-sys
+tree-sitter-cli
