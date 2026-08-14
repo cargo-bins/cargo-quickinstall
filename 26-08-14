@@ -4,3 +4,4 @@ cargo-mobile2
 dioxus-cli
 remove_dir_all
 nkeys
+dbus-codegen
