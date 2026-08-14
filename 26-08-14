@@ -14,3 +14,4 @@ bgpkit-parser
 bgpkit-parser
 nkeys
 iai-callgrind-runner
+dbus-codegen
