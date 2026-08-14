@@ -18,3 +18,4 @@ agent-desktop
 cargo-public-api
 remove_dir_all
 sea-orm-cli
+nkeys
