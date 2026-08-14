@@ -7,3 +7,4 @@ sn_cli
 nkeys
 iai-callgrind-runner
 dbus-codegen
+tree-sitter-md
