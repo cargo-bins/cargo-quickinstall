@@ -19,3 +19,4 @@ cargo-dylint
 tokensave
 kanidm_tools
 microsandbox
+wasm-bindgen-cli
