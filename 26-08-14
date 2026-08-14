@@ -5,3 +5,4 @@ dioxus-cli
 remove_dir_all
 nkeys
 dbus-codegen
+tree-sitter-md
