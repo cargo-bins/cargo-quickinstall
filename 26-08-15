@@ -45,3 +45,4 @@ virtiofsd
 s3s-fs
 fuel-gql-client
 oxicode-cli
+socketcan
