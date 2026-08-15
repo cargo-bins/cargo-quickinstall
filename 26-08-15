@@ -50,3 +50,4 @@ deploy
 socketcan
 cargo-duplicates
 iroh-relay
+oxicode-cli
