@@ -2,3 +2,4 @@ crates-tui
 all-smi
 nexmark
 cargo-unused-features
+sea-orm-cli
