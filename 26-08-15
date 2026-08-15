@@ -16,3 +16,4 @@ kani-verifier
 schemafy
 cargo-risczero
 libbpf-cargo
+tokio-process
