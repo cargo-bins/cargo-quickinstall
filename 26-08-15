@@ -48,3 +48,4 @@ superseedr
 nextest
 deploy
 socketcan
+cargo-duplicates
