@@ -1,3 +1,4 @@
 crates-tui
 all-smi
 nexmark
+cargo-unused-features
