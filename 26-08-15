@@ -19,3 +19,4 @@ libbpf-cargo
 tokio-process
 cargo-about
 qsv
+paperclip
