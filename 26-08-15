@@ -13,3 +13,4 @@ libbpf-cargo
 cargo-about
 buck2
 qsv
+ts-bindgen
