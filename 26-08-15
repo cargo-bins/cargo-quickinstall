@@ -17,3 +17,4 @@ schemafy
 cargo-risczero
 libbpf-cargo
 tokio-process
+cargo-about
