@@ -2,3 +2,4 @@ buck2
 nexmark
 qsv
 modelexpress-client
+cargo-lock
