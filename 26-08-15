@@ -17,3 +17,4 @@ modelexpress-client
 microsandbox
 project_init
 sea-orm-cli
+schemafy
