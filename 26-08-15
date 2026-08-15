@@ -21,3 +21,4 @@ cargo-duplicates
 cargo-duplicates
 schemafy
 sea-orm-cli
+apollo-federation
