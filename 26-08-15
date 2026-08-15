@@ -15,3 +15,4 @@ coldsnap
 kani-verifier
 schemafy
 cargo-risczero
+libbpf-cargo
