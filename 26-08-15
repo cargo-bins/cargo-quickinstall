@@ -16,3 +16,4 @@ crates-tui
 modelexpress-client
 microsandbox
 project_init
+sea-orm-cli
