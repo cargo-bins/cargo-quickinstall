@@ -13,3 +13,4 @@ kani-verifier
 schemafy
 msedit
 xet-client
+libbpf-cargo
