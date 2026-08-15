@@ -26,3 +26,4 @@ all-smi
 oci-api
 libbpf-cargo
 halloy
+cargo-duplicates
