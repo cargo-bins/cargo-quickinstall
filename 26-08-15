@@ -10,3 +10,4 @@ cargo-risczero
 libbpf-cargo
 cargo-about
 alacritty
+qsv
