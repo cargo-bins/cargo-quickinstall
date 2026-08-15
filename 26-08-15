@@ -14,3 +14,4 @@ all-smi
 cargo-dylint
 cargo-lock
 mise
+cargo-dylint
