@@ -7,3 +7,4 @@ project_init
 schemafy
 oci-api
 libbpf-cargo
+cargo-about
