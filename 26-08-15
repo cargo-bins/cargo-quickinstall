@@ -7,3 +7,4 @@ buck2
 modelexpress-client
 buck2
 schemafy
+libbpf-cargo
