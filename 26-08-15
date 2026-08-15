@@ -47,3 +47,4 @@ fuel-gql-client
 oxicode-cli
 socketcan
 deploy
+nextest
