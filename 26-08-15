@@ -17,3 +17,4 @@ mise
 cargo-dylint
 modelexpress-client
 project_init
+cargo-duplicates
