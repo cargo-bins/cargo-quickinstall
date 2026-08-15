@@ -20,3 +20,4 @@ tokio-process
 cargo-about
 qsv
 paperclip
+deep_filter
