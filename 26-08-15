@@ -9,3 +9,4 @@ project_init
 buck2
 schemafy
 xet-client
+libbpf-cargo
