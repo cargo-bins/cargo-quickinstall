@@ -9,3 +9,4 @@ cargo-lock
 modelexpress-client
 project_init
 coldsnap
+kani-verifier
