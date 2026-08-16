@@ -14,3 +14,4 @@ quick-junit
 rtx-cli
 cargo-lock
 rpki
+perfcnt
