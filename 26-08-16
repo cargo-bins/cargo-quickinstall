@@ -4,3 +4,4 @@ fermium
 xet-data
 sass-rs
 iroh-gossip
+rustfmt-nightly
