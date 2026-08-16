@@ -8,3 +8,4 @@ rustfmt-nightly
 burn-tch
 quick-junit
 tree_magic
+rtx-cli
