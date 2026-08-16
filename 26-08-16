@@ -33,3 +33,4 @@ cinder
 cargo-local-registry
 cinder
 industrial-io
+commit_verify
