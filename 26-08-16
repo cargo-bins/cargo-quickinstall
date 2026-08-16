@@ -24,3 +24,4 @@ rpki
 sea-streamer-stdio
 apollo-federation
 nu_plugin_query
+commit_verify
