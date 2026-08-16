@@ -11,3 +11,4 @@ tree_magic
 rtx-cli
 cargo-lock
 z3tracer
+sass-rs
