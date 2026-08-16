@@ -2,3 +2,4 @@ build-fs-tree
 deploy
 xet-data
 sass-rs
+iroh-gossip
