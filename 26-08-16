@@ -20,3 +20,4 @@ sea-streamer-stdio
 apollo-federation
 qsv
 tree-sitter-cli
+cargo-spellcheck
