@@ -4,3 +4,4 @@ xet-data
 sass-rs
 iroh-gossip
 cargo-pgrx
+rustfmt-nightly
