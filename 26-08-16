@@ -6,3 +6,4 @@ iroh-gossip
 cargo-pgrx
 rustfmt-nightly
 burn-tch
+quick-junit
