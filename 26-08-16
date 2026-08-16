@@ -16,3 +16,4 @@ cargo-lock
 rpki
 perfcnt
 apollo-federation
+commit_verify
