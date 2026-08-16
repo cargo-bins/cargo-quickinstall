@@ -11,3 +11,4 @@ cargo-pgrx
 nu_plugin_query
 burn-tch
 quick-junit
+nextest
