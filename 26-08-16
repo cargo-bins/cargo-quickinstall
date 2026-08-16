@@ -2,3 +2,4 @@ build-fs-tree
 sea-orm-cli
 cargo-dylint
 superseedr
+xet-data
