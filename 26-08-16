@@ -7,3 +7,4 @@ cargo-dylint
 xet-data
 sass-rs
 cargo-pgrx
+rustfmt-nightly
