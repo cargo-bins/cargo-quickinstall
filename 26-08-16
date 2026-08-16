@@ -8,3 +8,4 @@ iroh-gossip
 sea-orm-cli
 sea-orm-cli
 cargo-pgrx
+nu_plugin_query
