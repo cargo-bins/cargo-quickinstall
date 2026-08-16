@@ -13,3 +13,4 @@ cargo-lock
 sass-rs
 helius-laserstream
 perfcnt
+apollo-federation
