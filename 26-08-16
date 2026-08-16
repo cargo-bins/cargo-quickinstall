@@ -6,3 +6,4 @@ sass-rs
 iroh-gossip
 rustfmt-nightly
 burn-tch
+quick-junit
