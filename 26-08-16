@@ -8,3 +8,4 @@ burn-tch
 quick-junit
 rtx-cli
 cargo-lock
+z3tracer
