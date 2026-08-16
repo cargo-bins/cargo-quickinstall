@@ -17,3 +17,4 @@ rtx-cli
 tree_magic
 xplr
 cargo-lock
+nu_plugin_query
