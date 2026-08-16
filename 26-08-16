@@ -19,3 +19,4 @@ xplr
 cargo-lock
 nu_plugin_query
 dash-mpd-cli
+tree-sitter-cli
