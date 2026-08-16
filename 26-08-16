@@ -9,3 +9,4 @@ burn-tch
 quick-junit
 tree_magic
 rtx-cli
+cargo-lock
