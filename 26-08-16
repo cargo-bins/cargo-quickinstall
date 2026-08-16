@@ -9,3 +9,4 @@ sass-rs
 cargo-pgrx
 rustfmt-nightly
 burn-tch
+quick-junit
