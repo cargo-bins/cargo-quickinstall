@@ -12,3 +12,4 @@ airshipper
 airshipper
 quick-junit
 rtx-cli
+cargo-lock
