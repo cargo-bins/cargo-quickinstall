@@ -10,3 +10,4 @@ cargo-pgrx
 rustfmt-nightly
 burn-tch
 quick-junit
+rtx-cli
