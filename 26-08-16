@@ -18,3 +18,4 @@ perfcnt
 sea-streamer-stdio
 apollo-federation
 qsv
+cargo-local-registry
