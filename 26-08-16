@@ -23,3 +23,4 @@ tree_magic
 nu_plugin_query
 dash-mpd-cli
 nextest
+cargo-lock
