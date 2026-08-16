@@ -12,3 +12,4 @@ tree_magic
 cargo-lock
 sass-rs
 helius-laserstream
+perfcnt
