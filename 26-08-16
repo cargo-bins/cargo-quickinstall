@@ -18,3 +18,4 @@ tree-sitter-cli
 cargo-spellcheck
 shunkakinoki
 dotslash
+commit_verify
