@@ -30,3 +30,4 @@ sea-streamer-stdio
 cinder
 apollo-federation
 cinder
+cargo-local-registry
