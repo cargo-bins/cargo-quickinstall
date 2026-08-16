@@ -14,3 +14,4 @@ carapace
 rtx-cli
 gitui
 zellij
+cargo-lock
