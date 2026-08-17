@@ -11,3 +11,4 @@ rsgen-avro
 sea-streamer-file
 nitro-tpm-attest
 apollo-federation
+addr2line
