@@ -18,3 +18,4 @@ dbus-codegen
 netwatch-tui
 dash-mpd-cli
 cargo-public-api
+diesel_cli
