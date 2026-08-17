@@ -14,3 +14,4 @@ tree-sitter-cli
 tensaku
 dioxus-cli
 sp1-prover
+dbus-codegen
