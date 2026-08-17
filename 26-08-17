@@ -9,3 +9,4 @@ diesel_cli
 graphql_client_cli
 rsgen-avro
 cargo-mutants
+sea-streamer-file
