@@ -21,3 +21,4 @@ cargo-public-api
 diesel_cli
 vdev
 graphql_client_cli
+rsgen-avro
