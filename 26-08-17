@@ -20,3 +20,4 @@ tensaku
 diesel_cli
 alacritty
 graphql_client_cli
+fzf-make
