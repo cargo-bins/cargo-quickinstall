@@ -2,3 +2,4 @@ ext-sort
 dioxus-cli
 cargo-pgrx
 dash-mpd-cli
+tree-sitter-cli
