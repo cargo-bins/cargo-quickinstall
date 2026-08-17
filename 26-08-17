@@ -10,3 +10,4 @@ graphql_client_cli
 rsgen-avro
 cargo-mutants
 sea-streamer-file
+nitro-tpm-attest
