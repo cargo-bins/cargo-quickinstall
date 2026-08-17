@@ -20,3 +20,4 @@ dash-mpd-cli
 cargo-public-api
 diesel_cli
 vdev
+graphql_client_cli
