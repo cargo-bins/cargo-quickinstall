@@ -12,3 +12,4 @@ cargo-mutants
 sea-streamer-file
 nitro-tpm-attest
 tendermint-rpc
+apollo-federation
