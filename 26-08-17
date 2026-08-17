@@ -6,3 +6,4 @@ rustbus
 sp1-prover
 dbus-codegen
 shunkakinoki
+diesel_cli
