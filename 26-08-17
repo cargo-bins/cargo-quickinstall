@@ -8,3 +8,4 @@ dbus-codegen
 shunkakinoki
 diesel_cli
 rsgen-avro
+sea-streamer-file
