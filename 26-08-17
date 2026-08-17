@@ -16,3 +16,4 @@ graphql_client_cli
 rsgen-avro
 sea-streamer-file
 nitro-tpm-attest
+probe-rs-cli
