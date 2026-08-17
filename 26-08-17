@@ -10,3 +10,4 @@ dbus-codegen
 nu_plugin_query
 diesel_cli
 rsgen-avro
+sea-streamer-file
