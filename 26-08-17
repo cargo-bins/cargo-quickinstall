@@ -11,3 +11,4 @@ rsgen-avro
 sea-streamer-file
 apollo-federation
 coldsnap
+addr2line
