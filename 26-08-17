@@ -17,3 +17,4 @@ sp1-prover
 dbus-codegen
 netwatch-tui
 dash-mpd-cli
+cargo-public-api
