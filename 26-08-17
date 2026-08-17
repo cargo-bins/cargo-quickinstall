@@ -8,3 +8,4 @@ industrial-io
 sp1-prover
 dbus-codegen
 nu_plugin_query
+diesel_cli
