@@ -6,3 +6,4 @@ sp1-prover
 dbus-codegen
 diesel_cli
 rsgen-avro
+sea-streamer-file
