@@ -13,3 +13,4 @@ dbus-codegen
 diesel_cli
 graphql_client_cli
 rsgen-avro
+sea-streamer-file
