@@ -22,3 +22,4 @@ probe-rs-cli
 probe-rs-cli
 probe-rs-cli
 probe-rs-cli
+addr2line
