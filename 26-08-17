@@ -10,3 +10,4 @@ diesel_cli
 rsgen-avro
 sea-streamer-file
 apollo-federation
+coldsnap
