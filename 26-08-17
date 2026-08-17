@@ -8,3 +8,4 @@ diesel_cli
 rsgen-avro
 sea-streamer-file
 apollo-federation
+addr2line
