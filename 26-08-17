@@ -9,3 +9,4 @@ rustbus
 garage
 sp1-prover
 dbus-codegen
+diesel_cli
