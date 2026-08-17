@@ -33,3 +33,4 @@ wl-screenrec
 vdev
 apollo-federation
 patch-crate
+addr2line
