@@ -7,3 +7,4 @@ sp1-prover
 dbus-codegen
 diesel_cli
 graphql_client_cli
+rsgen-avro
