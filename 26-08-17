@@ -12,3 +12,4 @@ dbus-codegen
 diesel_cli
 zellij
 garage
+rsgen-avro
