@@ -4,3 +4,4 @@ rrule
 librespot
 xargo
 rust-bert
+alsa-sys
