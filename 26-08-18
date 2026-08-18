@@ -10,3 +10,4 @@ alsa-sys
 sea-orm-cli
 re_query
 syd
+raw-cpuid
