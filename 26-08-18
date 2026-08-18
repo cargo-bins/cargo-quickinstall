@@ -8,3 +8,4 @@ alsa-sys
 re_query
 raw-cpuid
 modelexpress-client
+statsig-rs
