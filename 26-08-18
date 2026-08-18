@@ -13,3 +13,4 @@ rust-bert
 alsa-sys
 re_query
 nu_plugin_query
+sqlpage
