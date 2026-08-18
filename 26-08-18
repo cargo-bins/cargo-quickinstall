@@ -33,3 +33,4 @@ spider_cli
 alsa-sys
 xbuild
 jackdaw
+tree-sitter-cli
