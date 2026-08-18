@@ -12,3 +12,4 @@ re_query
 holochain_cli_sandbox
 syd
 raw-cpuid
+modelexpress-client
