@@ -31,3 +31,4 @@ alsa-sys
 zensical
 cargo-unused-features
 fyrox-project-manager
+syntaqlite-cli
