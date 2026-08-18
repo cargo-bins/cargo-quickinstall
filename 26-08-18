@@ -30,3 +30,4 @@ cargo-public-api
 iroh-relay
 rust-bert
 spider_cli
+alsa-sys
