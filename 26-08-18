@@ -8,3 +8,4 @@ iroh-relay
 rust-bert
 alsa-sys
 container-device-interface
+re_query
