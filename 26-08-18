@@ -12,3 +12,4 @@ alsa-sys
 uroman
 sqlx-cli
 dirge-agent
+container-device-interface
