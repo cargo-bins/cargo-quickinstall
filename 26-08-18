@@ -29,3 +29,4 @@ dash-mpd-cli
 cargo-public-api
 iroh-relay
 rust-bert
+spider_cli
