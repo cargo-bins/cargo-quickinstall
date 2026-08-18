@@ -45,3 +45,4 @@ tempo-shortcut
 mdcat
 patch-crate
 cargo-resolvediff
+raw-cpuid
