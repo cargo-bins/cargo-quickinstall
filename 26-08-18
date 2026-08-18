@@ -7,3 +7,4 @@ rust-bert
 alsa-sys
 re_query
 raw-cpuid
+modelexpress-client
