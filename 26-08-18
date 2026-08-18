@@ -6,3 +6,4 @@ sn_faucet
 xargo
 iroh-relay
 rust-bert
+alsa-sys
