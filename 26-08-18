@@ -11,3 +11,4 @@ xargo
 iroh-relay
 rust-bert
 alsa-sys
+re_query
