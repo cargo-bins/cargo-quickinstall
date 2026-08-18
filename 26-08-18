@@ -47,3 +47,4 @@ patch-crate
 cargo-resolvediff
 raw-cpuid
 jocalsend
+modelexpress-client
