@@ -10,3 +10,4 @@ alsa-sys
 container-device-interface
 re_query
 holochain_cli_sandbox
+syd
