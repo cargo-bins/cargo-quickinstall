@@ -8,3 +8,4 @@ xargo
 esp-config
 iroh-relay
 sqlx-cli
+alsa-sys
