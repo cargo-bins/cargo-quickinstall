@@ -6,3 +6,4 @@ librespot
 xargo
 iroh-relay
 rust-bert
+alsa-sys
