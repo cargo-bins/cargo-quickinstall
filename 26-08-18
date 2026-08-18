@@ -31,3 +31,4 @@ iroh-relay
 rust-bert
 spider_cli
 alsa-sys
+xbuild
