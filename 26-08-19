@@ -3,3 +3,4 @@ wol-rs
 rdst
 cargo-unused-features
 bpf-linker
+liteparse
