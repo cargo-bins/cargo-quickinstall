@@ -21,3 +21,4 @@ cargo-dylint
 rls-rustc
 yazi-cli
 krunvm
+flow
