@@ -31,3 +31,4 @@ cargo-public-api
 rew
 miden-crypto
 cargo-binstall
+tlmcmddb-cli
