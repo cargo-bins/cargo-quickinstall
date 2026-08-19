@@ -4,3 +4,4 @@ wol-rs
 rdst
 esp-config
 sqlx-cli
+dirge-agent
