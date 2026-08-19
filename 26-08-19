@@ -5,3 +5,4 @@ cargo-unused-features
 bpf-linker
 liteparse
 librespot
+tagged-base64
