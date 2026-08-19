@@ -7,3 +7,4 @@ xargo
 rls-rustc
 anpa
 human_bytes
+miden-crypto
