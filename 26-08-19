@@ -31,3 +31,4 @@ rust_iso3166
 rpki
 oneio
 tlmcmddb-cli
+kble-serialport
