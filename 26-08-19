@@ -16,3 +16,4 @@ rls-rustc
 anpa
 human_bytes
 nu_plugin_query
+miden-crypto
