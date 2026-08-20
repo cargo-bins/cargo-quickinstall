@@ -48,3 +48,4 @@ mise
 cpp_demangle
 cargo
 nu_plugin_parquet
+winpty-rs
