@@ -35,3 +35,4 @@ quil-rs
 nu_plugin_strutils
 just-lsp
 nu_plugin_regex
+nu_plugin_parquet
