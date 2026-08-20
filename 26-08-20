@@ -27,3 +27,4 @@ nu_plugin_emoji
 sentry-kafka-schemas
 nu_plugin_jwalk
 paperclip
+nextest-runner
