@@ -26,3 +26,4 @@ nu_plugin_ulid
 nu_plugin_emoji
 sentry-kafka-schemas
 nu_plugin_jwalk
+paperclip
