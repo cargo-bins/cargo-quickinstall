@@ -21,3 +21,4 @@ kanidm_tools
 oxipng
 cargo-embed
 cargo-public-api
+libbpf-cargo
