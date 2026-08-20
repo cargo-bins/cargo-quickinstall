@@ -58,3 +58,4 @@ nu_plugin_emoji
 cargo
 kble
 nu_plugin_ulid
+nu_plugin_strutils
