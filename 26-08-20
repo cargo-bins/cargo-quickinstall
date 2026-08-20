@@ -52,3 +52,4 @@ winpty-rs
 cargo
 kble
 nu_plugin_emoji
+swc_cli
