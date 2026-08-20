@@ -10,3 +10,4 @@ kble-serialport
 kble-serialport
 kble-dump
 voidpin
+libbpf-cargo
