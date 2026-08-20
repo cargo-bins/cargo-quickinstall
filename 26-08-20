@@ -11,3 +11,4 @@ hayagriva
 ec2_instance_metadata
 paperclip
 cpp_demangle
+nextest-runner
