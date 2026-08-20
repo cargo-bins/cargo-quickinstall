@@ -2,3 +2,4 @@ commit_verify
 orc-rust
 rust-bert
 bpf-linker
+libbpf-cargo
