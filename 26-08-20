@@ -44,3 +44,4 @@ subprocess
 nu_plugin_strutils
 nu_plugin_parquet
 nextest-runner
+mise
