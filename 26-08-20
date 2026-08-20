@@ -7,3 +7,4 @@ gstat
 bpf-linker
 oxibrowser
 oxibrowser
+libbpf-cargo
