@@ -29,3 +29,4 @@ nu_plugin_jwalk
 paperclip
 nextest-runner
 cpp_demangle
+winpty-rs
