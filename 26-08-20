@@ -24,3 +24,4 @@ cargo
 saphyr-parser
 nu_plugin_ulid
 nu_plugin_emoji
+sentry-kafka-schemas
