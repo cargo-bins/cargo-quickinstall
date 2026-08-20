@@ -36,3 +36,4 @@ paperclip
 nextest-runner
 cpp_demangle
 claude-history
+winpty-rs
