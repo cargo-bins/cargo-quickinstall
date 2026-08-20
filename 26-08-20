@@ -45,3 +45,4 @@ xbuild
 paperclip
 cargo-mobile2
 nextest-runner
+netwatch-tui
