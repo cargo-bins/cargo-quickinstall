@@ -51,3 +51,4 @@ nu_plugin_parquet
 winpty-rs
 cargo
 kble
+nu_plugin_emoji
