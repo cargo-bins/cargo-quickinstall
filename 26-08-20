@@ -42,3 +42,4 @@ nu_plugin_strutils
 mise
 subprocess
 nu_plugin_strutils
+nu_plugin_parquet
