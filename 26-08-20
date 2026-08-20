@@ -11,3 +11,4 @@ kanidm_tools
 kble-eb90
 cargo-embed
 libbpf-cargo
+tree-sitter-cli
