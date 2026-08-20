@@ -38,3 +38,4 @@ nu_plugin_regex
 nu_plugin_parquet
 sentry-kafka-schemas
 mise
+nu_plugin_strutils
