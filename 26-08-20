@@ -50,3 +50,4 @@ cargo
 nu_plugin_parquet
 winpty-rs
 cargo
+kble
