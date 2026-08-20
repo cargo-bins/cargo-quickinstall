@@ -34,3 +34,4 @@ codewhale
 cargo-mobile2
 paperclip
 nextest-runner
+cpp_demangle
