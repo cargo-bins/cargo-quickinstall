@@ -38,3 +38,4 @@ cpp_demangle
 claude-history
 winpty-rs
 carapace
+xbuild
