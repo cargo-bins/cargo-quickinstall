@@ -28,3 +28,4 @@ sentry-kafka-schemas
 nu_plugin_jwalk
 paperclip
 nextest-runner
+cpp_demangle
