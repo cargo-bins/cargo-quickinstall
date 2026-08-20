@@ -47,3 +47,4 @@ nextest-runner
 mise
 cpp_demangle
 cargo
+nu_plugin_parquet
