@@ -23,3 +23,4 @@ nu_plugin_emoji
 cargo
 saphyr-parser
 nu_plugin_ulid
+nu_plugin_emoji
