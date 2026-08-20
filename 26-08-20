@@ -13,3 +13,4 @@ tlmcmddb-cli
 kble-dump
 kble-serialport
 libbpf-cargo
+kble-c2a
