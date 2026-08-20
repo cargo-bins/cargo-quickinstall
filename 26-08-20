@@ -44,3 +44,4 @@ netwatch-tui
 xbuild
 paperclip
 cargo-mobile2
+nextest-runner
