@@ -37,3 +37,4 @@ nextest-runner
 cpp_demangle
 claude-history
 winpty-rs
+carapace
