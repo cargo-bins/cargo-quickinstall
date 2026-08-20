@@ -53,3 +53,4 @@ cargo
 kble
 nu_plugin_emoji
 swc_cli
+nu_plugin_strutils
