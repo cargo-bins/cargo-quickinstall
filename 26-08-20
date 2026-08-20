@@ -48,3 +48,4 @@ nextest-runner
 netwatch-tui
 winpty-rs
 scx_bpfland
+claude-history
