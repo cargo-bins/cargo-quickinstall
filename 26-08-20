@@ -30,3 +30,4 @@ paperclip
 nextest-runner
 cpp_demangle
 winpty-rs
+nu_plugin_strutils
