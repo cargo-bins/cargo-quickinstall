@@ -9,3 +9,4 @@ rdst
 bpf-linker
 benfred-read-process-memory
 honggfuzz
+build-fs-tree
