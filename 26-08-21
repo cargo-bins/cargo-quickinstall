@@ -34,3 +34,4 @@ holochain_keystore
 cached-path
 rustic-rs
 pokeductor
+git-graph
