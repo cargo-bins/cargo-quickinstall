@@ -26,3 +26,4 @@ rustnet-monitor
 netwatch-tui
 rustrict
 scx_bpfland
+build-fs-tree
