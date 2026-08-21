@@ -2,3 +2,4 @@ nu_plugin_ulid
 nu_plugin_strutils
 clap-stdin
 minicloze
+kble-dump
