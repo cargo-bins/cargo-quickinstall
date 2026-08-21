@@ -24,3 +24,4 @@ nu_plugin_strutils
 filessh
 patch-crate
 nu_plugin_ulid
+filessh
