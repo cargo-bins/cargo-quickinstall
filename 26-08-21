@@ -57,3 +57,4 @@ build-fs-tree
 cargo-llvm-lines
 latuicon
 minicloze
+filessh
