@@ -6,3 +6,4 @@ cargo-mutants
 quick-junit
 patch-crate
 nextest-filtering
+socketcan
