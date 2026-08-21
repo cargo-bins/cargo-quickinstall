@@ -29,3 +29,4 @@ sentry-kafka-schemas
 nextest-filtering
 xet-runtime
 rustic-rs
+nu_plugin_regex
