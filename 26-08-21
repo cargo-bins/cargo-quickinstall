@@ -31,3 +31,4 @@ foxguard
 sentry-kafka-schemas
 cargo-dylint
 crabz
+nextest-filtering
