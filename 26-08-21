@@ -16,3 +16,4 @@ nu_plugin_regex
 nu_plugin_emoji
 pokeductor
 quick-junit
+git-graph
