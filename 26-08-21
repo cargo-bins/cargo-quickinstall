@@ -12,3 +12,4 @@ patch-crate
 nextest-filtering
 cached-path
 rdst
+bpf-linker
