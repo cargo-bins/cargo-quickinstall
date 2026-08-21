@@ -8,3 +8,4 @@ cached-path
 rdst
 bpf-linker
 benfred-read-process-memory
+honggfuzz
