@@ -2,3 +2,4 @@ perfcnt
 clap-stdin
 nu_plugin_parquet
 cargo
+nu_plugin_emoji
