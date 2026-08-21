@@ -3,3 +3,4 @@ nu_plugin_strutils
 clap-stdin
 minicloze
 kble-dump
+cargo-dylint
