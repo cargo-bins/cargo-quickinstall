@@ -4,3 +4,4 @@ asupersync
 qsv
 quick-junit
 patch-crate
+nextest-filtering
