@@ -8,3 +8,4 @@ cargo-dylint
 kble-dump
 nu_plugin_regex
 nextest-filtering
+qsv
