@@ -24,3 +24,4 @@ bpf-linker
 swtchr
 rustnet-monitor
 netwatch-tui
+rustrict
