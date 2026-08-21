@@ -16,3 +16,4 @@ bpf-linker
 honggfuzz
 tea
 rustrict
+build-fs-tree
