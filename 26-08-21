@@ -6,3 +6,4 @@ codeberg-cli
 quick-junit
 tea
 nextest-filtering
+socketcan
