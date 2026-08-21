@@ -9,3 +9,4 @@ nextest-filtering
 socketcan
 cached-path
 rdst
+bpf-linker
