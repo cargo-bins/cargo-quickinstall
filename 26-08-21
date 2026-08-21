@@ -8,3 +8,4 @@ rustnet-monitor
 nextest-filtering
 rustnet-monitor
 qsv
+patch-crate
