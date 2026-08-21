@@ -41,3 +41,4 @@ cargo-llvm-lines
 nu_plugin_ulid
 foxguard
 minicloze
+honggfuzz
