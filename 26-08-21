@@ -9,3 +9,4 @@ kble-dump
 nu_plugin_regex
 nextest-filtering
 qsv
+nu_plugin_parquet
