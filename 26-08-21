@@ -7,3 +7,4 @@ quick-junit
 patch-crate
 nextest-filtering
 socketcan
+cached-path
