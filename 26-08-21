@@ -8,3 +8,4 @@ tea
 nextest-filtering
 socketcan
 dash-mpd-cli
+cached-path
