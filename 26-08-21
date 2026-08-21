@@ -35,3 +35,4 @@ nextest-filtering
 socketcan
 nu_plugin_regex
 filessh
+xet-runtime
