@@ -8,3 +8,4 @@ wiki-tui
 soroban-cli
 carapace
 rls-rustc
+cargo-public-api
