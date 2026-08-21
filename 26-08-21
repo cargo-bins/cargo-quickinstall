@@ -1,3 +1,4 @@
 perfcnt
 clap-stdin
 qsv
+rls-rustc
