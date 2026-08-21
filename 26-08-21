@@ -18,3 +18,4 @@ nextest-filtering
 socketcan
 cargo-dylint
 cached-path
+tokensave
