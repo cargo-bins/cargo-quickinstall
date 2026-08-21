@@ -33,3 +33,4 @@ cargo-dylint
 crabz
 nextest-filtering
 socketcan
+nu_plugin_regex
