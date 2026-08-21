@@ -30,3 +30,4 @@ nextest-filtering
 xet-runtime
 rustic-rs
 nu_plugin_regex
+holochain_keystore
