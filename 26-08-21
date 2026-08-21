@@ -10,3 +10,4 @@ rustnet-monitor
 qsv
 patch-crate
 nextest-filtering
+cached-path
