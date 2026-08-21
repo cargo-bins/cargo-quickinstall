@@ -9,3 +9,4 @@ soroban-cli
 carapace
 rls-rustc
 cargo-public-api
+netwatch-tui
