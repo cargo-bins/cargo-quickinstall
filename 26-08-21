@@ -3,3 +3,4 @@ clap-stdin
 asupersync
 qsv
 quick-junit
+patch-crate
