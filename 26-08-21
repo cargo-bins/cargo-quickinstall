@@ -3,3 +3,4 @@ clap-stdin
 qsv
 rls-rustc
 cargo-mutants
+quick-junit
