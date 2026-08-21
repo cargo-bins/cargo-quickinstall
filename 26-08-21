@@ -3,3 +3,4 @@ nextest-filtering
 qsv
 quick-junit
 sn_node_rpc_client
+nextest-filtering
