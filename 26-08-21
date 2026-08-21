@@ -37,3 +37,4 @@ nu_plugin_regex
 filessh
 xet-runtime
 nu_plugin_ulid
+git-graph
