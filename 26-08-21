@@ -13,3 +13,4 @@ nextest-filtering
 cached-path
 rdst
 bpf-linker
+build-fs-tree
