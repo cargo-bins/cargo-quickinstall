@@ -19,3 +19,4 @@ socketcan
 cargo-dylint
 cached-path
 tokensave
+wiki-tui
