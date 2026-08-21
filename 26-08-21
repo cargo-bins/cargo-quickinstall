@@ -10,3 +10,4 @@ carapace
 rls-rustc
 cargo-public-api
 netwatch-tui
+wiki-tui
