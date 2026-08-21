@@ -18,3 +18,4 @@ cargo-public-api
 whisrs
 nextest-filtering
 cached-path
+whisrs
