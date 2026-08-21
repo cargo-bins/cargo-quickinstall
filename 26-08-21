@@ -6,3 +6,4 @@ kble-dump
 cargo-dylint
 cargo-dylint
 kble-dump
+nu_plugin_regex
