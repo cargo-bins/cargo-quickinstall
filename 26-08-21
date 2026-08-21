@@ -2,3 +2,4 @@ clap-stdin
 jj
 asupersync
 nextest-filtering
+netwatch-tui
