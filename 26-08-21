@@ -17,3 +17,4 @@ rustnet-monitor
 cargo-public-api
 whisrs
 nextest-filtering
+cached-path
