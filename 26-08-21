@@ -47,3 +47,4 @@ nu_plugin_parquet
 foxguard
 rdst
 bpf-linker
+filessh
