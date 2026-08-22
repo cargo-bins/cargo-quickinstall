@@ -8,3 +8,4 @@ libcst
 spider_worker
 zuse
 dotenv-flow
+spider_cli
