@@ -66,3 +66,4 @@ sbpf-linker
 cargo-lock
 cargo-mend
 cargo-mend
+sbpf-linker
