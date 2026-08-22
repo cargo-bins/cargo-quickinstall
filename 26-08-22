@@ -70,3 +70,4 @@ sbpf-linker
 alloc-no-stdlib
 cargo-lambda
 dprint
+sbpf-linker
