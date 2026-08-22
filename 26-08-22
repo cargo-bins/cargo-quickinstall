@@ -50,3 +50,4 @@ fyrox-project-manager
 gpui_perf
 naga-cli
 dotenv-flow
+watchexec-cli
