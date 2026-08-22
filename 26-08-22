@@ -72,3 +72,4 @@ cargo-lambda
 dprint
 sbpf-linker
 cargo-binstall
+sbpf-linker
