@@ -36,3 +36,4 @@ cargo-lock
 cargo-dylint
 rustdiff
 sea-orm-cli
+alloc-no-stdlib
