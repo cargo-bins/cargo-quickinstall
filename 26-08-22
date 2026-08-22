@@ -54,3 +54,4 @@ watchexec-cli
 naga-cli
 sem-mcp
 spider_cli
+cargo-mend
