@@ -10,3 +10,4 @@ kanidm_tools
 cargo-dylint
 vm-curator
 cargo-component
+sea-orm-cli
