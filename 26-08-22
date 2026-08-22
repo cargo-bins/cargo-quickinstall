@@ -70,3 +70,4 @@ cargo-mend
 surrealkit
 cargo-mend
 dbus-codegen
+sbpf-linker
