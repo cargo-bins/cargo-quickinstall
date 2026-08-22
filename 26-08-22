@@ -37,3 +37,4 @@ cargo-dylint
 rustdiff
 sea-orm-cli
 alloc-no-stdlib
+tree-sitter-cli
