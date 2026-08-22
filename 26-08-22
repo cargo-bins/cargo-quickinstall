@@ -13,3 +13,4 @@ schemafy
 dotenv-flow
 dbus-codegen
 cargo-lock
+rustfmt
