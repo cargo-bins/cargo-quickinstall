@@ -60,3 +60,4 @@ cargo-mend
 sem-mcp
 naga-cli
 cargo-mend
+dbus-codegen
