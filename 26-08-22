@@ -12,3 +12,4 @@ stdinman
 datavzrd
 retch-cli
 rustic-rs
+cargo-llvm-lines
