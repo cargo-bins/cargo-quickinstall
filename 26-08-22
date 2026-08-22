@@ -10,3 +10,4 @@ rustdiff
 cargo-dylint
 lemmy_utils
 pijul
+rustnet-monitor
