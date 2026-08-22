@@ -62,3 +62,4 @@ naga-cli
 cargo-mend
 dbus-codegen
 cargo-mend
+sbpf-linker
