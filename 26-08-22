@@ -75,3 +75,4 @@ cargo-lock
 sbpf-linker
 alloc-no-stdlib
 sem-cli
+sbpf-linker
