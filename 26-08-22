@@ -12,3 +12,4 @@ vm-curator
 cargo-component
 sea-orm-cli
 solana-tokens
+kanidm_tools
