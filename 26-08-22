@@ -7,3 +7,4 @@ datavzrd
 pijul
 sea-orm-cli
 rustdiff
+cargo-dylint
