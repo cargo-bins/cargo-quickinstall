@@ -19,3 +19,4 @@ mpvd
 dotenv-flow
 mpvd
 dbus-codegen
+cargo-lock
