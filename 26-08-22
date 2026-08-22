@@ -68,3 +68,4 @@ cargo-mend
 cargo-mend
 sbpf-linker
 alloc-no-stdlib
+cargo-lambda
