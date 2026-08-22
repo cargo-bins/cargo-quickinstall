@@ -31,3 +31,4 @@ dbus-codegen
 oneio
 cargo-lock
 ncspot
+cargo-dylint
