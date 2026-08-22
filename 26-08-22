@@ -9,3 +9,4 @@ sea-orm-cli
 rustdiff
 cargo-dylint
 lemmy_utils
+pijul
