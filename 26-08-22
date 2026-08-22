@@ -40,3 +40,4 @@ alloc-no-stdlib
 tree-sitter-cli
 codewhale-tui
 alacritty
+codewhale-cli
