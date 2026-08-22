@@ -33,3 +33,4 @@ cargo-lock
 ncspot
 cargo-dylint
 rustdiff
+tree-sitter-cli
