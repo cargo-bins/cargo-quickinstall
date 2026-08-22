@@ -9,3 +9,4 @@ zuse
 dotenv-flow
 spider_cli
 dbus-codegen
+cargo-lock
