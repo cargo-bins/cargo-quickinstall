@@ -27,3 +27,4 @@ vm-curator
 codewhale-cli
 codewhale-tui
 spider_cli
+cargo-dylint
