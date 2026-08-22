@@ -64,3 +64,4 @@ dbus-codegen
 cargo-mend
 sbpf-linker
 cargo-lock
+cargo-mend
