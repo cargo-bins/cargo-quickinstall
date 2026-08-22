@@ -30,3 +30,4 @@ spider_cli
 cargo-dylint
 codewhale-tui
 dbus-codegen
+ncspot
