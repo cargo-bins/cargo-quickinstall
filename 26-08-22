@@ -77,3 +77,4 @@ alloc-no-stdlib
 sem-cli
 sbpf-linker
 sem-cli
+sbpf-linker
