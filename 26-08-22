@@ -35,3 +35,4 @@ oneio
 cargo-lock
 cargo-dylint
 rustdiff
+sea-orm-cli
