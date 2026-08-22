@@ -12,3 +12,4 @@ libcst
 schemafy
 dotenv-flow
 dbus-codegen
+cargo-lock
