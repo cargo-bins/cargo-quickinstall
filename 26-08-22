@@ -80,3 +80,4 @@ sem-cli
 sbpf-linker
 sbpf-linker
 cargo-script
+sem-cli
