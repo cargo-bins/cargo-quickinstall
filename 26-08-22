@@ -34,3 +34,4 @@ ncspot
 oneio
 cargo-lock
 cargo-dylint
+rustdiff
