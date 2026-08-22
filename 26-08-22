@@ -38,3 +38,4 @@ rustdiff
 sea-orm-cli
 alloc-no-stdlib
 tree-sitter-cli
+codewhale-tui
