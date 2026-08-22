@@ -76,3 +76,4 @@ sbpf-linker
 sbpf-linker
 cargo-script
 cargo-script
+cargo-binstall
