@@ -25,3 +25,4 @@ dotenv-flow
 rustdiff
 vm-curator
 codewhale-cli
+codewhale-tui
