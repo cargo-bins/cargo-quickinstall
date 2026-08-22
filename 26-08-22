@@ -34,3 +34,4 @@ ncspot
 cargo-dylint
 rustdiff
 tree-sitter-cli
+vm-curator
