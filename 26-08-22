@@ -86,3 +86,4 @@ cargo-binstall
 sem-cli
 cargo-binstall
 automatic-timezoned
+cargo-script
