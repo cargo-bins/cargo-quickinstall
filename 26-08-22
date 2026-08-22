@@ -15,3 +15,4 @@ cargo-component
 solana-tokens
 rust_iso3166
 sea-orm-cli
+spider_worker
