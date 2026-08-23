@@ -90,3 +90,4 @@ nu_plugin_gstat
 codex-relay
 nu_plugin_inc
 du-dust
+basic-http-server
