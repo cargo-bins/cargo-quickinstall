@@ -62,3 +62,4 @@ wol-rs
 nu_plugin_polars
 airshipper
 nu_plugin_polars
+dynamo-parsers
