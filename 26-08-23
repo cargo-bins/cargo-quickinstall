@@ -13,3 +13,4 @@ cargo-spellcheck
 wol-rs
 foundationdb-gen
 temporalio-sdk-core
+xargo
