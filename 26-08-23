@@ -10,3 +10,4 @@ foundationdb-gen
 crc-fast
 temporalio-sdk-core
 cargo-spellcheck
+commit_verify
