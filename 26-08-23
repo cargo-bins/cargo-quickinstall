@@ -31,3 +31,4 @@ nu_plugin_formats
 oas3-gen
 cargo-dinghy
 flutter_rust_bridge_codegen
+nu_plugin_polars
