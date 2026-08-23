@@ -7,3 +7,4 @@ racer
 cargo-spellcheck
 wol-rs
 foundationdb-gen
+crc-fast
