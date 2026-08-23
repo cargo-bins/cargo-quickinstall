@@ -11,3 +11,4 @@ wol-rs
 foundationdb-gen
 crc-fast
 spotify-tui
+temporalio-sdk-core
