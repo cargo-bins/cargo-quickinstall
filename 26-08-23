@@ -25,3 +25,4 @@ flutter_rust_bridge_codegen
 asupersync
 oas3-gen
 nu_plugin_polars
+flutter_rust_bridge_codegen
