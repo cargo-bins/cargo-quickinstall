@@ -7,3 +7,4 @@ asupersync
 racer
 cargo-spellcheck
 wol-rs
+crc-fast
