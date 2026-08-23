@@ -42,3 +42,4 @@ nu_plugin_polars
 cargo-dinghy
 zedbar
 oas3-gen
+spider_cli
