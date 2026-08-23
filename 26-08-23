@@ -9,3 +9,4 @@ wol-rs
 temporalio-sdk-core
 xargo
 cargo-spellcheck
+commit_verify
