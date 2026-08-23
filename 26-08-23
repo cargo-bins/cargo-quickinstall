@@ -41,3 +41,4 @@ nu_plugin_query
 nu_plugin_formats
 nu_plugin_formats
 cargo-dinghy
+soroban-env-host
