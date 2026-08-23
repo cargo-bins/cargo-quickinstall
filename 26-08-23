@@ -9,3 +9,4 @@ wol-rs
 foundationdb-gen
 crc-fast
 temporalio-sdk-core
+cargo-spellcheck
