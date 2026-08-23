@@ -8,3 +8,4 @@ racer
 cargo-spellcheck
 wol-rs
 crc-fast
+temporalio-sdk-core
