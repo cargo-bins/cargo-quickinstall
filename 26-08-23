@@ -48,3 +48,4 @@ nu_plugin_formats
 racer
 nu_plugin_polars
 zedbar
+nu_plugin_formats
