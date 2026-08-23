@@ -58,3 +58,4 @@ zedbar
 crc-fast
 temporalio-sdk-core
 cargo-dinghy
+rustledger-lsp
