@@ -30,3 +30,4 @@ zellij
 nu_plugin_formats
 oas3-gen
 cargo-dinghy
+flutter_rust_bridge_codegen
