@@ -8,3 +8,4 @@ cargo-binstall
 oxker
 cargo-script
 detect-targets
+fmtron
