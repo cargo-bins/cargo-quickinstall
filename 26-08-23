@@ -73,3 +73,4 @@ nu_plugin_query
 spider_cli
 bacon
 du-dust
+nu_plugin_gstat
