@@ -9,3 +9,4 @@ a11ywatch_cli
 process_viewer
 asupersync
 racer
+cargo-spellcheck
