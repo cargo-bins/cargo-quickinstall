@@ -56,3 +56,4 @@ foundationdb-gen
 nu_plugin_gstat
 zedbar
 crc-fast
+temporalio-sdk-core
