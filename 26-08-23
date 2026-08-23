@@ -7,3 +7,4 @@ kcl-lib
 cargo-binstall
 oxker
 cargo-script
+detect-targets
