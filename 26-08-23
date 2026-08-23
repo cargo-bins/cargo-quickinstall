@@ -25,3 +25,4 @@ process_viewer
 flutter_rust_bridge_codegen
 asupersync
 flutter_rust_bridge_codegen
+oas3-gen
