@@ -36,3 +36,4 @@ nu_plugin_query
 cargo-dinghy
 zedbar
 soroban-env-host
+nu_plugin_formats
