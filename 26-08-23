@@ -37,3 +37,4 @@ flutter_rust_bridge_codegen
 cargo-dinghy
 nu_plugin_polars
 cargo-dinghy
+nu_plugin_query
