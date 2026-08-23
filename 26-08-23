@@ -38,3 +38,4 @@ cargo-dinghy
 nu_plugin_polars
 cargo-dinghy
 nu_plugin_query
+nu_plugin_formats
