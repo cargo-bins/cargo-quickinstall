@@ -46,3 +46,4 @@ oha
 spider_cli
 nu_plugin_formats
 racer
+nu_plugin_polars
