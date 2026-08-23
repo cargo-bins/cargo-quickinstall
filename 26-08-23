@@ -67,3 +67,4 @@ basic-http-server
 nu_plugin_gstat
 oha
 xargo
+nu_plugin_query
