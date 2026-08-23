@@ -63,3 +63,4 @@ nu_plugin_gstat
 nu_plugin_polars
 nu_plugin_gstat
 codex-relay
+basic-http-server
