@@ -61,3 +61,4 @@ cargo-dinghy
 rustledger-lsp
 nu_plugin_gstat
 nu_plugin_polars
+nu_plugin_gstat
