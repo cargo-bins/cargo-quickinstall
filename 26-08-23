@@ -25,3 +25,4 @@ crc-fast
 nu_plugin_query
 neovide
 esp-config
+temporalio-sdk-core
