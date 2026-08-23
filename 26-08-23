@@ -5,3 +5,4 @@ cargo-binstall
 kcl-lib
 oxker
 detect-targets
+cargo-binstall
