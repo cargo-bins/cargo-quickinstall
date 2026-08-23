@@ -21,3 +21,4 @@ cargo-spellcheck
 dx-cli
 wol-rs
 z3tracer
+crc-fast
