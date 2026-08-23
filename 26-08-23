@@ -59,3 +59,4 @@ crc-fast
 temporalio-sdk-core
 cargo-dinghy
 rustledger-lsp
+nu_plugin_gstat
