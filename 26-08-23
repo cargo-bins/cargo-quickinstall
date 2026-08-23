@@ -86,3 +86,4 @@ xargo
 basic-http-server
 bacon
 nu_plugin_inc
+nu_plugin_gstat
