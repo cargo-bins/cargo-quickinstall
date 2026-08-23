@@ -10,3 +10,4 @@ wol-rs
 crc-fast
 temporalio-sdk-core
 xargo
+cargo-spellcheck
