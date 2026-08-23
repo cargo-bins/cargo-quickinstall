@@ -27,3 +27,4 @@ oas3-gen
 nu_plugin_polars
 flutter_rust_bridge_codegen
 zellij
+nu_plugin_formats
