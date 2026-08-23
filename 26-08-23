@@ -38,3 +38,4 @@ zedbar
 soroban-env-host
 nu_plugin_formats
 racer
+nu_plugin_polars
