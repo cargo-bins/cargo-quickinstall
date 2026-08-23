@@ -53,3 +53,4 @@ spider_cli
 dynamo-parsers
 oha
 foundationdb-gen
+nu_plugin_gstat
