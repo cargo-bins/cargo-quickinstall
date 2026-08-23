@@ -19,3 +19,4 @@ container-device-interface
 oas3-gen
 flutter_rust_bridge_codegen
 fmtron
+process_viewer
