@@ -6,3 +6,4 @@ process_viewer
 asupersync
 racer
 cargo-spellcheck
+wol-rs
