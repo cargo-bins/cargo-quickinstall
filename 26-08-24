@@ -13,3 +13,4 @@ rustledger-lsp
 basic-http-server
 nu_plugin_query
 nu_plugin_query
+codex-relay
