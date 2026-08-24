@@ -56,3 +56,4 @@ mdriver
 nu_plugin_inc
 paperclip
 tealdeer
+cargo-zigbuild
