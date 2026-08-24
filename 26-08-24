@@ -49,3 +49,4 @@ glab-tui-crate
 nu_plugin_formats
 clap-stdin
 nu_plugin_hcl
+nu_plugin_hcl
