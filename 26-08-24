@@ -40,3 +40,4 @@ device-driver-cli
 xet-data
 drift-tui
 device-driver-cli
+cranelift-assembler-x64
