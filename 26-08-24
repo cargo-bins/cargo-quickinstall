@@ -31,3 +31,4 @@ rust_iso3166
 dioxus-cli
 esp-config
 tectonic
+diesel_cli
