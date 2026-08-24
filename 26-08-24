@@ -23,3 +23,4 @@ nu_plugin_formats
 nu_plugin_polars
 cargo-lambda
 bacon
+rustledger-lsp
