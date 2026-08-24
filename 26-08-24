@@ -15,3 +15,4 @@ sea-orm-cli
 xet-data
 iroh-relay
 commit_verify
+rustnet-monitor
