@@ -16,3 +16,4 @@ xet-data
 iroh-relay
 commit_verify
 rustnet-monitor
+libublk
