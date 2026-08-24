@@ -11,3 +11,4 @@ rustledger-lsp
 mdriver
 rustledger-lsp
 basic-http-server
+nu_plugin_query
