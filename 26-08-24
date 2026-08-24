@@ -5,3 +5,4 @@ esp-config
 xplr
 foundationdb-gen
 sea-streamer-kafka
+nu_plugin_query
