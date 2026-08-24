@@ -15,3 +15,4 @@ cargo-mobile2
 bpf-linker
 rioterm
 xet-data
+commit_verify
