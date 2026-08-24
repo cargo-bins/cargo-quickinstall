@@ -50,3 +50,4 @@ cargo-zigbuild
 commit_verify
 libublk
 dprint
+rerun-cli
