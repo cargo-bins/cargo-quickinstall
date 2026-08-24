@@ -14,3 +14,4 @@ basic-http-server
 nu_plugin_query
 nu_plugin_query
 codex-relay
+nu_plugin_gstat
