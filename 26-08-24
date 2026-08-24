@@ -10,3 +10,4 @@ foundationdb-gen
 rustledger-lsp
 mdriver
 rustledger-lsp
+basic-http-server
