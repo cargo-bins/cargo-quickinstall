@@ -49,3 +49,4 @@ device-driver-cli
 cargo-zigbuild
 commit_verify
 libublk
+dprint
