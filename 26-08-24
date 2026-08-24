@@ -57,3 +57,4 @@ nu_plugin_inc
 paperclip
 tealdeer
 cargo-zigbuild
+saphyr-parser
