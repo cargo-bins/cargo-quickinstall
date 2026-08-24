@@ -29,3 +29,4 @@ basic-http-server
 codex-relay
 xet-data
 rustledger-lsp
+cranelift-assembler-x64
