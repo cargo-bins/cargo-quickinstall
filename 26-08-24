@@ -5,3 +5,4 @@ cargo-dylint
 foundationdb-gen
 mdcat
 mdcat
+sea-streamer-kafka
