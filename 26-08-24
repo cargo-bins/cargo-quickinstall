@@ -63,3 +63,4 @@ glab-tui-crate
 cargo-zigbuild
 mdriver
 tealdeer
+nu_plugin_hcl
