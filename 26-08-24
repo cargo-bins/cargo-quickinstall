@@ -14,3 +14,4 @@ xet-data
 commit_verify
 textplots
 solana-stake-accounts
+clap-stdin
