@@ -7,3 +7,4 @@ commit_verify
 libublk
 solana-stake-accounts
 clap-stdin
+paperclip
