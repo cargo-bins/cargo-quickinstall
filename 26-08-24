@@ -74,3 +74,4 @@ hannoy
 rerun-cli
 rustnet-monitor
 broot
+cargo-zigbuild
