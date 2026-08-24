@@ -26,3 +26,4 @@ clap-stdin
 rioterm
 paperclip
 tectonic
+rustnet-monitor
