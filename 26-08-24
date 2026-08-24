@@ -8,3 +8,4 @@ spotify-tui
 commit_verify
 libublk
 clap-stdin
+pmc
