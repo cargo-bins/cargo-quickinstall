@@ -52,3 +52,4 @@ libublk
 dprint
 rerun-cli
 nu_plugin_hcl
+riffdiff
