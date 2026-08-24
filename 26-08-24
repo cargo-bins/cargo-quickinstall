@@ -42,3 +42,4 @@ drift-tui
 device-driver-cli
 cranelift-assembler-x64
 rustledger-lsp
+iroh-relay
