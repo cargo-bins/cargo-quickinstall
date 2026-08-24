@@ -46,3 +46,4 @@ iroh-relay
 riffdiff
 drift-tui
 device-driver-cli
+cargo-zigbuild
