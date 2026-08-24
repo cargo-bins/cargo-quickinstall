@@ -32,3 +32,4 @@ rustledger-lsp
 cranelift-assembler-x64
 bacon
 nu_plugin_formats
+mdriver
