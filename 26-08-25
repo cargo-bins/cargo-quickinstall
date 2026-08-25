@@ -11,3 +11,4 @@ cargo-zigbuild
 nu_plugin_hcl
 cargo-zigbuild
 tealdeer
+flowrs-tui
