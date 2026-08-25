@@ -11,3 +11,4 @@ textplots
 sqlx-cli
 sqlx-cli
 remove_dir_all
+schemafy
