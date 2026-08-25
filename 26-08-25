@@ -3,3 +3,4 @@ yara-x-cli
 rustnet-monitor
 cargo-nested
 binstall
+flowrs-tui
