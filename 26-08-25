@@ -29,3 +29,4 @@ cargo-public-api
 build_pbf_glyphs
 nu_plugin_query
 superseedr
+textplots
