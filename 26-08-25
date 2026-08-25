@@ -8,3 +8,4 @@ rustnet-monitor
 cargo-zigbuild
 cargo
 cargo-zigbuild
+nu_plugin_hcl
