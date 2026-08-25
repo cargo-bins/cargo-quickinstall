@@ -25,3 +25,4 @@ rioterm
 dash-mpd-cli
 rerun-cli
 ripunzip
+cargo-public-api
