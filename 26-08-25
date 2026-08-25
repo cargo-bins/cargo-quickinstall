@@ -6,3 +6,4 @@ remove_dir_all
 solana-tokens
 schemafy
 jless
+deep_filter
