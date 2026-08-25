@@ -36,3 +36,4 @@ paru
 glide
 rustdesk
 remove_dir_all
+cargo-public-api
