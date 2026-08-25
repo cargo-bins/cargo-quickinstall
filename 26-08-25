@@ -4,3 +4,4 @@ binstall
 nu_plugin_inc
 cargo-nested
 binstall
+yara-x-cli
