@@ -16,3 +16,4 @@ rustnet-monitor
 schemafy
 binstall
 flowrs-tui
+nu_plugin_hcl
