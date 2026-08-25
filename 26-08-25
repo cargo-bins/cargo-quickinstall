@@ -5,3 +5,4 @@ cargo-nested
 binstall
 flowrs-tui
 rustnet-monitor
+cargo-zigbuild
