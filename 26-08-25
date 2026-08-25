@@ -20,3 +20,4 @@ nu_plugin_hcl
 cargo-nested
 nu_plugin_hcl
 tealdeer
+yara-x-cli
