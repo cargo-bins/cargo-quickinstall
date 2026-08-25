@@ -10,3 +10,4 @@ schemafy
 arrow-flight
 gix-testtools
 textplots
+remove_dir_all
