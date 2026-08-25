@@ -13,3 +13,4 @@ cargo-zigbuild
 tealdeer
 flowrs-tui
 rustnet-monitor
+schemafy
