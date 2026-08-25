@@ -9,3 +9,4 @@ cargo-zigbuild
 cargo
 cargo-zigbuild
 nu_plugin_hcl
+cargo-zigbuild
