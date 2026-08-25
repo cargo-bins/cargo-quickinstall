@@ -1,3 +1,4 @@
 nu_plugin_hcl
 yara-x-cli
 rustnet-monitor
+cargo-nested
