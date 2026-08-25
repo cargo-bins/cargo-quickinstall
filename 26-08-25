@@ -9,3 +9,4 @@ schemafy
 gix-testtools
 paperclip
 textplots
+remove_dir_all
