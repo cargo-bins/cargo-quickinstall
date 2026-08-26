@@ -4,3 +4,4 @@ s3s-fs
 wol-rs
 sqlx-cli
 esp-config
+raw-cpuid
