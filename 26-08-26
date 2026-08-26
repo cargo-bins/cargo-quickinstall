@@ -5,3 +5,4 @@ raw-cpuid
 fasttext
 rust-bert
 crc-fast
+solana-cli
