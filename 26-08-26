@@ -8,3 +8,4 @@ mit-prepare-commit-msg
 fasttext
 rust-bert
 proof-of-sql
+iroh-gossip
