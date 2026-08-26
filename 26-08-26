@@ -6,3 +6,4 @@ wol-rs
 raw-cpuid
 mit-prepare-commit-msg
 fasttext
+rust-bert
