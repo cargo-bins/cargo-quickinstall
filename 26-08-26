@@ -6,3 +6,4 @@ crc-fast
 solana-cli
 proof-of-sql
 iroh-gossip
+solana-ledger-tool
