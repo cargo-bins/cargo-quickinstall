@@ -42,3 +42,4 @@ diesel_cli
 hurl
 binwalk
 codewhale-cli
+solana-ledger-tool
