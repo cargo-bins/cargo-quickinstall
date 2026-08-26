@@ -9,3 +9,4 @@ rust-bert
 solana-cli
 proof-of-sql
 iroh-gossip
+patch-crate
