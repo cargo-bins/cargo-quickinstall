@@ -2,3 +2,4 @@ z3tracer
 tendermint-rpc
 s3s-fs
 wol-rs
+sqlx-cli
