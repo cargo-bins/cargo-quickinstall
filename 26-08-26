@@ -7,3 +7,4 @@ rust-bert
 crc-fast
 solana-cli
 proof-of-sql
+iroh-gossip
