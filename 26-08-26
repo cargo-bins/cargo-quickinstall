@@ -3,3 +3,4 @@ tendermint-rpc
 lux-cli
 s3s-fs
 lux-cli
+wol-rs
