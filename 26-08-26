@@ -44,3 +44,4 @@ binwalk
 codewhale-cli
 solana-ledger-tool
 alacritty
+patch-crate
