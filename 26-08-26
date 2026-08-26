@@ -6,3 +6,4 @@ wol-rs
 raw-cpuid
 fasttext
 rust-bert
+solana-cli
