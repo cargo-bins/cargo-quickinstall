@@ -7,3 +7,4 @@ raw-cpuid
 fasttext
 rust-bert
 solana-cli
+proof-of-sql
