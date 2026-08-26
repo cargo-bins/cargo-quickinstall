@@ -38,3 +38,4 @@ iroh-gossip
 pwsp
 rmux
 tokensave
+ssh-gpg-agent
