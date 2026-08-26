@@ -7,3 +7,4 @@ esp-config
 raw-cpuid
 esp-config
 fasttext
+sqlx-cli
