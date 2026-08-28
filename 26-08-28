@@ -3,3 +3,4 @@ impala
 cargo-install-describe
 oso
 cargo-crates
+cargo-seek
