@@ -5,3 +5,4 @@ kanban-cli
 uniffi-bindgen-java
 rwatch
 tokensave
+borsh
