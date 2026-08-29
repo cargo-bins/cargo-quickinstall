@@ -10,3 +10,4 @@ borsh
 cargo-dylint
 cargo-multivers
 jujutsu
+drydock
