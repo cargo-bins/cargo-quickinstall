@@ -6,3 +6,4 @@ uniffi-bindgen-java
 rwatch
 tokensave
 borsh
+cargo-multivers
