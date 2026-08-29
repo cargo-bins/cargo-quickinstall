@@ -4,3 +4,4 @@ nu_plugin_dns
 kanban-cli
 uniffi-bindgen-java
 rwatch
+tokensave
