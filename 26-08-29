@@ -8,3 +8,4 @@ kanban-cli
 jujutsu
 borsh
 cargo-dylint
+cargo-multivers
