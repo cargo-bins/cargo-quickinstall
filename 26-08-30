@@ -9,3 +9,4 @@ cdviz-collector
 cargo-semver-checks
 elf-info
 mcat
+xlsynth-driver
