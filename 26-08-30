@@ -6,3 +6,4 @@ mcat
 gpui_perf
 jujutsu
 cdviz-collector
+cargo-semver-checks
