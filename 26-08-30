@@ -7,3 +7,4 @@ ocrs-cli
 cargo-semver-checks
 elf-info
 elf-info
+cdviz-collector
