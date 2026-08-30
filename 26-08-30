@@ -4,3 +4,4 @@ oj
 gpui_perf
 jujutsu
 ocrs-cli
+cargo-semver-checks
