@@ -16,3 +16,4 @@ sshconfig-lint
 cargo-clean-all
 sshconfig-lint
 solana-genesis
+elf-info
