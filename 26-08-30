@@ -10,3 +10,4 @@ cargo-semver-checks
 elf-info
 mcat
 xlsynth-driver
+sshconfig-lint
