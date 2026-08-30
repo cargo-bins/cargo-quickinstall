@@ -12,3 +12,4 @@ mcat
 xlsynth-driver
 sshconfig-lint
 cargo-clean-all
+sshconfig-lint
