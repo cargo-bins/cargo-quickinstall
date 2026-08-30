@@ -3,3 +3,4 @@ superposition_core
 cargo-dylint
 ocrs-cli
 mcat
+gpui_perf
