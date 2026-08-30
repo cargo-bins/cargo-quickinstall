@@ -14,3 +14,4 @@ xlsynth-driver
 xlsynth-driver
 ocrs-cli
 cargo-clean-all
+solana-genesis
