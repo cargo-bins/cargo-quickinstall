@@ -6,13 +6,13 @@ certifi==2026.7.22
     #   requests
 charset-normalizer==3.5.1
     # via requests
-idna==3.18
+idna==3.19
     # via requests
-influxdb3-python==0.20.0
+influxdb3-python==0.21.0
     # via cronjob-scripts (pyproject.toml)
 numpy==2.5.2
     # via pyarrow
-polars==1.43.2
+polars==1.44.1
     # via cronjob-scripts (pyproject.toml)
 pyarrow==25.0.1
     # via influxdb3-python
