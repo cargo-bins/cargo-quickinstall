@@ -7,3 +7,4 @@ cargo-dylint
 onefetch
 cargo-clean-all
 portside-tui
+simple-http-server
