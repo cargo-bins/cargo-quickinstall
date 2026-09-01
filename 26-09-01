@@ -4,3 +4,4 @@ iwes
 gping
 cargo-clean-all
 compare-dir
+wasm-opt
