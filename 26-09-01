@@ -11,3 +11,4 @@ simple-http-server
 rusteron-media-driver
 uemacs
 portside-tui
+cargo-dylint
