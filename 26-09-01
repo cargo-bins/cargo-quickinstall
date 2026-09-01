@@ -6,3 +6,4 @@ cargo-clean-all
 compare-dir
 wasm-opt
 cargo-clean-all
+gping
