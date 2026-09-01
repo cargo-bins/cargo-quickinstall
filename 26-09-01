@@ -9,3 +9,4 @@ cargo-clean-all
 portside-tui
 simple-http-server
 rusteron-media-driver
+uemacs
