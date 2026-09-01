@@ -7,3 +7,4 @@ compare-dir
 wasm-opt
 cargo-clean-all
 gping
+rusteron-media-driver
