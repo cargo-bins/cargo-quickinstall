@@ -11,3 +11,4 @@ lux-cli
 gping
 cargo-clean-all
 gping
+liteparse
