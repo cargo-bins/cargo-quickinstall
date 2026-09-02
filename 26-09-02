@@ -9,3 +9,4 @@ drift-tui
 cargo-deb
 lux-cli
 gping
+cargo-clean-all
