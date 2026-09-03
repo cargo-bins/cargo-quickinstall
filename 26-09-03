@@ -4,3 +4,4 @@ rls-rustc
 liteparse
 spider_cli
 sea-orm-cli
+liteparse
