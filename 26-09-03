@@ -4,3 +4,4 @@ cargo-deb
 clap-stdin
 clickup-cli
 surfer
+cognitox
