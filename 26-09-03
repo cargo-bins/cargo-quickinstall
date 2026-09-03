@@ -3,3 +3,4 @@ cached-path
 cargo-deb
 clap-stdin
 clickup-cli
+surfer
