@@ -18,3 +18,4 @@ cavif
 geckodriver
 holochain_cli_bundle
 beads_rust
+rust-analyzer-mcp
