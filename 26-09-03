@@ -5,3 +5,4 @@ clap-stdin
 clickup-cli
 surfer
 cognitox
+cargo-wasix
