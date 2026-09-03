@@ -3,3 +3,4 @@ clap-stdin
 rls-rustc
 liteparse
 spider_cli
+sea-orm-cli
