@@ -2,3 +2,4 @@ cached-path
 clap-stdin
 rls-rustc
 liteparse
+spider_cli
