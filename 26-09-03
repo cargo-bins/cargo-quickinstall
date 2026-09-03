@@ -1,3 +1,4 @@
 surfer
 cached-path
 cargo-deb
+clap-stdin
