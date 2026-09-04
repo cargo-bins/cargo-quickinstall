@@ -6,3 +6,4 @@ jj
 graphql_client_cli
 dotenv
 cargo-public-api
+pup
