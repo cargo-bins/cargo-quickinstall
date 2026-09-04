@@ -8,3 +8,4 @@ dotenv
 cargo-public-api
 pup
 cargo-public-api
+cargo-dylint
