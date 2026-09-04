@@ -5,3 +5,4 @@ esp-config
 zellij
 dotenv
 codeberg-cli
+sqlx-cli
