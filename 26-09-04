@@ -4,3 +4,4 @@ cargo-dylint
 jotdown
 jj
 graphql_client_cli
+dotenv
