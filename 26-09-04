@@ -20,3 +20,4 @@ siderophile
 cargo-clean-all
 tmtc-c2a
 feluda
+proto_cli
