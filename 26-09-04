@@ -10,3 +10,4 @@ cargo-zigbuild
 modelsdev
 dotenv
 siderophile
+timeout-cli
