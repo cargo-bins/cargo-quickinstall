@@ -20,3 +20,4 @@ cargo-semver-checks
 libmagic-rs
 terminal-use
 cargo-tarpaulin
+cargo-wasix
