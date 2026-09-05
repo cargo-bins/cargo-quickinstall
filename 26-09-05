@@ -21,3 +21,4 @@ libmagic-rs
 terminal-use
 cargo-tarpaulin
 cargo-wasix
+dua-cli
