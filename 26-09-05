@@ -18,3 +18,4 @@ cargo-unlock
 cxxbridge-cmd
 cargo-semver-checks
 libmagic-rs
+terminal-use
