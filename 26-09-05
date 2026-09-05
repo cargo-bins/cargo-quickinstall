@@ -22,3 +22,4 @@ ocrs-cli
 jomini
 ocrs-cli
 cargo-semver-checks
+dsql-lint
