@@ -15,3 +15,4 @@ libmagic-rs
 oha
 dua-cli
 cargo-unlock
+cxxbridge-cmd
