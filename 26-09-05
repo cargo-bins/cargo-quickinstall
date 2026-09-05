@@ -33,3 +33,4 @@ cxxbridge-cmd
 topcoat-cli
 cargo-c
 eureka
+release-plz
