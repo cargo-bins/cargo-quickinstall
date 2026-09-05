@@ -21,3 +21,4 @@ create-tauri-app
 ocrs-cli
 jomini
 ocrs-cli
+cargo-semver-checks
