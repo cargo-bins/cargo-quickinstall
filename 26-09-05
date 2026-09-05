@@ -6,3 +6,4 @@ kble-eb90
 dioxus-cli
 sea-orm-cli
 cargo-gpui
+ratatui-image
