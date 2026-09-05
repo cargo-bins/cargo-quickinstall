@@ -16,3 +16,4 @@ oha
 dua-cli
 cargo-unlock
 cxxbridge-cmd
+cargo-semver-checks
