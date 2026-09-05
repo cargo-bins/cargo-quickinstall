@@ -30,3 +30,4 @@ systemless
 libmagic-rs
 ratatui-image
 cxxbridge-cmd
+topcoat-cli
