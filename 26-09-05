@@ -10,3 +10,4 @@ zoxide
 nu_plugin_query
 create-tauri-app
 cargo
+feluda
