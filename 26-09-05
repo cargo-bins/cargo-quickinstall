@@ -15,3 +15,4 @@ nu_plugin_gstat
 cargo
 oha
 ocrs-cli
+nu_plugin_highlight
