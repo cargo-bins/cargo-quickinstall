@@ -8,3 +8,4 @@ terminal-use
 cxxbridge-cmd
 waterui-cli
 cargo-binstall
+buffa-codegen
