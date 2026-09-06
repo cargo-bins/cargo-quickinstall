@@ -7,3 +7,4 @@ dua-cli
 terminal-use
 cxxbridge-cmd
 waterui-cli
+cargo-binstall
