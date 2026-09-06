@@ -8,3 +8,4 @@ cargo-clean-all
 unic-langid-impl
 eureka
 create-tauri-app
+dua-cli
