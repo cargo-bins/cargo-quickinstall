@@ -4,3 +4,4 @@ cargo
 cxxbridge-cmd
 systemless
 dua-cli
+terminal-use
