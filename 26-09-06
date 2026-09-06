@@ -9,3 +9,4 @@ cxxbridge-cmd
 waterui-cli
 cargo-binstall
 buffa-codegen
+cargo-c
