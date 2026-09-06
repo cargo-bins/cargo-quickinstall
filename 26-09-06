@@ -16,3 +16,4 @@ netwatch-tui
 wasm-bindgen-cli
 filessh
 lingua
+nextest
