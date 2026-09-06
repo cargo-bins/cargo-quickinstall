@@ -12,3 +12,4 @@ buffa-codegen
 cargo-c
 wasm-bindgen-cli
 lux-cli
+onefetch
