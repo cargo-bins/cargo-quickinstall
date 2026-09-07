@@ -13,3 +13,4 @@ project_init
 iwec
 rerun-cli
 jj
+nu_plugin_gstat
