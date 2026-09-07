@@ -5,3 +5,4 @@ cargo-clean-all
 re_grpc_server
 netwatch-tui
 fselect
+sshconfig-lint
