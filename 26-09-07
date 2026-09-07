@@ -9,3 +9,4 @@ sshconfig-lint
 bindgen-cli
 simple-http-server
 fselect
+project_init
