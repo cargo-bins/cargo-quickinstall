@@ -5,3 +5,4 @@ stellar-cli
 cargo-dylint
 s3s-fs
 termusic
+termusic-server
