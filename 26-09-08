@@ -17,3 +17,4 @@ mdbook-toc
 flowrs-tui
 cargo-dylint
 cargo-llvm-lines
+nextest-filtering
