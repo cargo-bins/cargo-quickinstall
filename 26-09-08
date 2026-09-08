@@ -12,3 +12,4 @@ cargo-dylint
 s3s-fs
 ochna
 mdcat
+bindgen-cli
