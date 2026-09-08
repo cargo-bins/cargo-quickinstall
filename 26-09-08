@@ -18,3 +18,4 @@ flowrs-tui
 cargo-dylint
 cargo-llvm-lines
 nextest-filtering
+nu_plugin_formats
