@@ -2,3 +2,4 @@ esp-config
 bpf-linker
 keepass
 ppt-rs
+sea-orm-cli
