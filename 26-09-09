@@ -12,3 +12,4 @@ sentry-kafka-schemas
 cell-sheet-tui
 apollo-federation
 cargo-binstall
+cargo-features
