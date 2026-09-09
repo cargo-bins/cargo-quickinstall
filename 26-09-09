@@ -11,3 +11,4 @@ cargo-clean-all
 netwatch-tui
 cargo-script
 cargo-clean-all
+yazi-build
