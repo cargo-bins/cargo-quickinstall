@@ -6,3 +6,4 @@ sea-orm-cli
 dash-mpd-cli
 gitnr
 apollo-federation
+cargo-dylint
