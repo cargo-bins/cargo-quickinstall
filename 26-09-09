@@ -2,3 +2,4 @@ cargo
 cell-sheet-tui
 xet-runtime
 nu_plugin_formats
+rustac
