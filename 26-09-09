@@ -4,3 +4,4 @@ bindgen-cli
 binstall
 fselect
 iwes
+cargo-coupling
