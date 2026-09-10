@@ -3,3 +3,4 @@ cargo-public-api
 diesel_cli
 rust_iso3166
 atuin
+cargo-public-api
