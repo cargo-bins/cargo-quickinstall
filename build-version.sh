@@ -58,37 +58,8 @@ if [ "${RUNNER_OS?}" == "Windows" ]; then
 elif [ "${RUNNER_OS?}" == "Linux" ]; then
     sudo apt-get update
     sudo apt-get install -y clang llvm lld
-    llvm_prefix="$(find /usr/lib/llvm-* -maxdepth 0 | sort --reverse | head -n 1)"
-
-    PATH="${llvm_prefix}/bin:${PATH}"
-    export PATH
-
-    LLVM_CONFIG_PATH="${llvm_prefix}/bin/llvm-config"
-    export LLVM_CONFIG_PATH
-
-    LIBCLANG_PATH="$(llvm-config --libdir)"
-    export LIBCLANG_PATH
-    LLVM_DIR="$(llvm-config --cmakedir)"
-    export LLVM_DIR
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
     brew install llvm
-
-    LLVM_PREFIX="$(brew --prefix llvm)"
-
-    PATH="${LLVM_PREFIX}/bin:${PATH:-}"
-    export PATH
-
-    LLVM_CONFIG_PATH="${LLVM_PREFIX}/bin/llvm-config"
-    export LLVM_CONFIG_PATH
-
-    DYLD_LIBRARY_PATH="${LLVM_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
-    export DYLD_LIBRARY_PATH
-
-    LIBCLANG_PATH="$(llvm-config --libdir)"
-    export LIBCLANG_PATH
-
-    LLVM_DIR="$(llvm-config --cmakedir)"
-    export LLVM_DIR
 else
     echo "Unsupported ${RUNNER_OS?}"
     exit 1
