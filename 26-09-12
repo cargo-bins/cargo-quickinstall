@@ -8,3 +8,4 @@ sea-orm-cli
 kanidm_tools
 schemafy
 bump2version
+diesel_cli
