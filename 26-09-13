@@ -3,3 +3,4 @@ nextest-runner
 bun
 rg
 cargo-dylint
+rg
