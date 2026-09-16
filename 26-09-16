@@ -3,3 +3,4 @@ build-fs-tree
 mdcat
 xberg-cli
 xberg-cli
+cargo-dylint
