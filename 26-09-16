@@ -2,3 +2,4 @@ build-fs-tree
 mdcat
 cargo-dylint
 cargo-hot
+solana-genesis
