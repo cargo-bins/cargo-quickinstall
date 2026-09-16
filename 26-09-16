@@ -2,3 +2,4 @@ build-fs-tree
 cargo-embed
 remove_dir_all
 cargo-embed
+solana-genesis
