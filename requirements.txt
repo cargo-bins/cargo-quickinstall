@@ -22,7 +22,7 @@ reactivex==5.1.0
     # via influxdb3-python
 requests==2.34.2
     # via cronjob-scripts (pyproject.toml)
-semver==3.0.4
+semver==3.1.0
     # via cronjob-scripts (pyproject.toml)
 setuptools==84.0.0
     # via influxdb3-python
