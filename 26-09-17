@@ -5,3 +5,4 @@ cargo-unused-features
 dash-mpd-cli
 deno
 sniffnet
+claude-history
