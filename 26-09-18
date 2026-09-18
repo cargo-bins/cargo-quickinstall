@@ -6,3 +6,4 @@ wl-screenrec
 tree-sitter-cli
 qbsdiff
 fontspector
+libbpf-cargo
