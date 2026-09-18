@@ -3,3 +3,4 @@ nu_plugin_query
 deno
 mdcat
 wl-screenrec
+tree-sitter-cli
