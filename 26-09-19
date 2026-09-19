@@ -9,3 +9,4 @@ sgxs-tools
 cargo-public-api
 kanidm_tools
 netwatch-tui
+wiki-tui
