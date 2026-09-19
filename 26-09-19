@@ -7,3 +7,4 @@ nitro-tpm-attest
 framework_tool
 sgxs-tools
 cargo-public-api
+kanidm_tools
