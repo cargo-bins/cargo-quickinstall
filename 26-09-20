@@ -5,3 +5,4 @@ vdev
 diesel_cli
 dash-mpd-cli
 kble
+tree-sitter-cli
