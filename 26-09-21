@@ -5,3 +5,4 @@ fontspector
 cargo-bundle
 gitscale
 solana-stake-accounts
+sea-orm-cli
