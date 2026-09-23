@@ -12,3 +12,4 @@ cargo-info
 diesel_cli
 arx
 liteparse
+website_crawler
