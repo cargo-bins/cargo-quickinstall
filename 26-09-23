@@ -13,3 +13,4 @@ diesel_cli
 arx
 liteparse
 website_crawler
+dbtui
