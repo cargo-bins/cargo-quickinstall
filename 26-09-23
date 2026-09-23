@@ -11,3 +11,4 @@ ssh-gpg-agent
 cargo-info
 diesel_cli
 arx
+liteparse
