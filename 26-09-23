@@ -1,3 +1,4 @@
 rustfmt-nightly
 alsa-sys
 cargo-risczero
+graphql_client_cli
