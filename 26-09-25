@@ -3,3 +3,4 @@ codeberg-cli
 rg
 rg
 cargo-afl
+deep_filter
