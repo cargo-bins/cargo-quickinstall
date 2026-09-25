@@ -2,3 +2,4 @@ zellij
 codeberg-cli
 rg
 rg
+cargo-afl
