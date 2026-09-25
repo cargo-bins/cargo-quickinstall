@@ -6,3 +6,4 @@ framework_tool
 tix
 bump2version
 cargo-fixit
+kanidm_tools
