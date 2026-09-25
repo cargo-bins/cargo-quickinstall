@@ -4,3 +4,4 @@ framework_tool
 dash-mpd-cli
 framework_tool
 tix
+bump2version
