@@ -4,3 +4,4 @@ dash-mpd-cli
 framework_tool
 syntaqlite-cli
 mise
+clap-stdin
