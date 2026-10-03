@@ -2,3 +2,4 @@ gatekeeper
 deno
 cargo-vet
 sqlx-cli
+maliput-sdk
