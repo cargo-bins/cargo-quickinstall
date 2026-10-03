@@ -6,3 +6,4 @@ deno
 sea-orm-cli
 cargo-public-api
 cargo-gpu
+tgt
