@@ -8,3 +8,4 @@ cargo-public-api
 cargo-gpu
 tgt
 cargo-http-registry
+cargo-gpu
