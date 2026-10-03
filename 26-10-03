@@ -5,3 +5,4 @@ mpris-lyrics
 deno
 sea-orm-cli
 cargo-public-api
+cargo-gpu
