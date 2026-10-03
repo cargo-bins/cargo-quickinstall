@@ -9,3 +9,4 @@ cargo-http-registry
 rerun-cli
 ncspot
 coreos-installer
+nu_plugin_query
