@@ -3,3 +3,4 @@ cargo-public-api
 sea-orm-cli
 tree-sitter-cli
 dash-mpd-cli
+alsa-sys
