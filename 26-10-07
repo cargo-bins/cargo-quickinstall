@@ -2,3 +2,4 @@ spl-token-cli
 cargo-public-api
 sea-orm-cli
 tree-sitter-cli
+dash-mpd-cli
