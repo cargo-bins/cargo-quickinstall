@@ -3,3 +3,4 @@ cargo-public-api
 xet-client
 dash-mpd-cli
 rtx-cli
+nu_plugin_query
