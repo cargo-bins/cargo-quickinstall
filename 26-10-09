@@ -1,3 +1,4 @@
 blazediff
 cargo-bisect-rustc
 all-smi
+sea-orm-cli
