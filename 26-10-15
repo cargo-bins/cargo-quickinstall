@@ -5,3 +5,4 @@ arx
 gg-cli
 blazediff
 hdt
+cargo-bisect-rustc
