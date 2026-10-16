@@ -7,3 +7,4 @@ diesel_cli
 project_init
 bump2version
 arrow-flight
+tectonic
