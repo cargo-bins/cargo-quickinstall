@@ -1,3 +1,4 @@
 bump2version
 sniffnet
 liteparse
+sea-orm-cli
