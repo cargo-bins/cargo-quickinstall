@@ -5,3 +5,4 @@ dash-mpd-cli
 cargo-public-api
 diesel_cli
 project_init
+bump2version
