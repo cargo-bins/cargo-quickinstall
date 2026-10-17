@@ -3,3 +3,4 @@ temporalio-sdk-core
 cargo-macra
 dbus-codegen
 wiremix
+dioxus-cli
