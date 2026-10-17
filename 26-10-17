@@ -4,3 +4,4 @@ dbus-codegen
 sea-orm-cli
 rg
 gtm
+koan-cli
