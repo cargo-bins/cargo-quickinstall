@@ -3,3 +3,4 @@ probe-run
 czkawka_gui
 miro-pdf
 bump2version
+nextest
