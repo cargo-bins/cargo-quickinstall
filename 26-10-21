@@ -2,3 +2,4 @@ cargo-public-api
 alacritty
 sea-orm-cli
 cargo-public-api
+bpf-linker
