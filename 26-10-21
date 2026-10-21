@@ -4,3 +4,4 @@ sea-orm-cli
 cargo-public-api
 bpf-linker
 wiremix
+re_query
