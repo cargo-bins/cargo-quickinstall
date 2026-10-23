@@ -4,3 +4,4 @@ virtiofsd
 rustrict
 cargo-public-api
 controller
+hurl
