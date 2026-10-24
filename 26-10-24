@@ -5,3 +5,4 @@ proof-of-sql
 ssh-gpg-agent
 qmassa
 nextest
+cargo-public-api
