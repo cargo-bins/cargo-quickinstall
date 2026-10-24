@@ -7,3 +7,4 @@ ripunzip
 cargo-public-api
 sea-orm-cli
 sea-streamer-redis
+syntaqlite-cli
