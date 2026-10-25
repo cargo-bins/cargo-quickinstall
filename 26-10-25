@@ -3,3 +3,4 @@ qmassa
 sequoia-keyring-linter
 esp-config
 cargo-public-api
+syntaqlite-cli
