@@ -5,3 +5,4 @@ quick-junit
 vsd
 graphql_client_cli
 cargo-public-api
+playwright-rs
