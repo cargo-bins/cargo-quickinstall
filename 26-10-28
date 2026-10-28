@@ -3,3 +3,4 @@ dicom-pixeldata
 bgpkit-parser
 opendata-log
 dash-mpd-cli
+cargo-lock
