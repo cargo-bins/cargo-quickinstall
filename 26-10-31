@@ -5,3 +5,4 @@ i3status-rs
 bump2version
 showme
 wasm-bindgen-cli
+syntaqlite-cli
