@@ -2,3 +2,4 @@ oxicode-cli
 tree-sitter-cli
 rustnet-monitor
 i3status-rs
+bump2version
