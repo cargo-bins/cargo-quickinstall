@@ -6,3 +6,4 @@ bump2version
 showme
 wasm-bindgen-cli
 syntaqlite-cli
+arrow-flight
