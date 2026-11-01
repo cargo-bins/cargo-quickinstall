@@ -2,3 +2,4 @@ bpf-linker
 cargo_pup
 librespot
 z-base-32
+probe-rs-cli
