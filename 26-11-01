@@ -3,3 +3,4 @@ librespot
 probe-rs-cli
 probe-rs-cli
 z-base-32
+sea-orm-cli
