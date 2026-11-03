@@ -3,3 +3,4 @@ tgpt
 diesel_cli
 model2vec-rs
 hurl
+cargo-public-api
