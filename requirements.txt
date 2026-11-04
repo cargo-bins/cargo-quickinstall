@@ -16,7 +16,7 @@ polars==2.1.0
     # via cronjob-scripts (pyproject.toml)
 pyarrow==26.0.0
     # via influxdb3-python
-python-dateutil==3.0.0
+python-dateutil==4.0.0
     # via influxdb3-python
 reactivex==6.1.0
     # via influxdb3-python
