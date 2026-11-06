@@ -7,3 +7,4 @@ cargo-public-api
 plastic_tui
 cargo-bundle
 codestyle
+rustdoc-text
