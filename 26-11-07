@@ -3,3 +3,4 @@ sea-orm-cli
 website_crawler
 cargo-unmaintained
 hurl
+bump2version
