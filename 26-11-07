@@ -2,3 +2,4 @@ cargo-public-api
 sea-orm-cli
 website_crawler
 cargo-unmaintained
+hurl
