@@ -197,6 +197,9 @@ jobs:
           # TODO: check that we it can't write anywhere other than built.d
           path: ${{ env.BUILD_DIR }}
 
+      # build-version.sh skips the build, leaving only dummy-file in the
+      # artifact, when the release already has this crate's tarball for this
+      # target (unless always_build is set). Nothing to upload then.
       - name: Cancel if no tarball
         run: |
           if [ ! -f "$BUILD_ARCHIVE" ]; then
