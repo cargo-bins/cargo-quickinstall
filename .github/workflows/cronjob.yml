@@ -17,6 +17,9 @@ on:
   # and I've not tested it.
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   build-popular-package:
     name: Build
@@ -24,8 +27,11 @@ jobs:
     # Other actions will may use an older version of ubuntu in order to link an older glibc,
     # but this action won't be doing any building so it's fine.
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # push trigger branches
+      actions: write # trigger build-package.yml
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: true
 

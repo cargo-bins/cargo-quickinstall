@@ -1,10 +1,11 @@
 name: Cache cargo-install target dir
+description: Point CARGO_TARGET_DIR at a cached directory
 
 runs:
   using: composite
   steps:
     - name: Export CARGO_TARGET_DIR
-      run: |
+      run: | # zizmor: ignore[github-env] constant value, needed by later steps
         mkdir -p /tmp/target
         dir="$(cygpath -w /tmp/target)"
         echo "CARGO_TARGET_DIR=$dir" >> "$GITHUB_ENV"
@@ -12,11 +13,11 @@ runs:
       if: runner.os == 'Windows'
 
     - name: Export CARGO_TARGET_DIR
-      run: echo 'CARGO_TARGET_DIR=/tmp/target' >> "$GITHUB_ENV"
+      run: echo 'CARGO_TARGET_DIR=/tmp/target' >> "$GITHUB_ENV" # zizmor: ignore[github-env] constant value, needed by later steps
       shell: bash
       if: runner.os != 'Windows'
         
-    - uses: actions/cache@v4
+    - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
       with:
         path: ${{ env.CARGO_TARGET_DIR }}
         key: ${{ runner.os }}-${{ matrix.target_arch }}-${{ github.workflow }}-${{ github.job }}

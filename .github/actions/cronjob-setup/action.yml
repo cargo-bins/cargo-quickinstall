@@ -1,20 +1,22 @@
 name: Setup env for cronjob and cache
+description: Set up Python and restore the cached crates.io popular crates list
 
 runs:
   using: composite
   steps:
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
       with:
         python-version-file: "cronjob_scripts/.python-version"
         cache: "pip"
         cache-dependency-path: "**/requirements.txt"
 
-    - name: Set current date as env variable
-      run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+    - name: Get current date
+      id: date
+      run: echo "now=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
       shell: bash
 
     - name: Cache crates-io popular crates
-      uses: actions/cache@v4
+      uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
       with:
         path: cached_crates_io_popular_crates.parquet
-        key: ${{ env.NOW }}-cached_crates_io_popular_crates.parquet
+        key: ${{ steps.date.outputs.now }}-cached_crates_io_popular_crates.parquet

@@ -1,0 +1,9 @@
+# Configuration for zizmor, see https://docs.zizmor.sh/configuration/
+rules:
+  # The jobs that keep persisted credentials push tags or branches with git
+  # afterwards, and none of them upload the checkout as an artifact.
+  artipacked:
+    disable: true
+  # Local `./` references are intentional: they use the checked out commit.
+  self-repository:
+    disable: true

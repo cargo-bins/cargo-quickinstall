@@ -7,6 +7,9 @@ on:
   pull_request:
   merge_group:
 
+permissions:
+  contents: read
+
 jobs:
   self-build-with-build-version:
     name: Self-Build-With-build-version
@@ -38,7 +41,7 @@ jobs:
           - target_arch: armv7-unknown-linux-musleabihf
             os: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
 
@@ -84,7 +87,7 @@ jobs:
           - target_arch: aarch64-unknown-linux-gnu
             os: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - name: Install latest rust
@@ -125,7 +128,7 @@ jobs:
           - target_arch: aarch64-unknown-linux-musl
             os: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
 
@@ -152,7 +155,11 @@ jobs:
   build-package-test:
     name: Build package test
     uses: ./.github/workflows/build-package.yml
-    secrets: inherit
+    permissions:
+      contents: write
+      actions: write
+    secrets:
+      MINISIGN_PRIVATE_KEY: ${{ secrets.MINISIGN_PRIVATE_KEY }}
     with:
       crate: cargo-quickinstall
       version: 0.2.9

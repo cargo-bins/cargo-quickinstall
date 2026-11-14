@@ -8,6 +8,9 @@ on:
   pull_request:
   merge_group:
 
+permissions:
+  contents: read
+
 jobs:
   lint:
     name: Linter
@@ -18,14 +21,14 @@ jobs:
 
     steps:
       - name: Fetch source
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Run shellcheck
         run: shellcheck *.sh
 
       - name: Cache shfmt compiled
         id: cache-shfmt
-        uses: actions/cache@v6
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: ~/go/bin/shfmt
           key: ${{ runner.os }}-shfmt-4.4.1
@@ -53,12 +56,12 @@ jobs:
     steps:
       # TODO: actions/cache@v2?
       - name: Fetch source
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Fetch tags required for testing
         run: git fetch --tags
 
-      - uses: Swatinem/rust-cache@v2
+      - uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
         with:
           cache-all-crates: true
           workspaces: |
@@ -100,7 +103,7 @@ jobs:
 
     steps:
       - name: Fetch source
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
