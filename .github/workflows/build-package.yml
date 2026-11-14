@@ -43,6 +43,9 @@ on:
         description: Skip signing
         default: false
         type: boolean
+    secrets:
+      MINISIGN_PRIVATE_KEY:
+        required: false
   workflow_dispatch:
     inputs:
       crate:
@@ -99,6 +102,9 @@ env:
 
 run-name: Build Package ${{ inputs.crate }} ${{ inputs.version }} (${{ inputs.build_os }})
 
+permissions:
+  contents: read
+
 jobs:
   build-popular-package:
     name: build-popular-package-${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}-${{ inputs.features }}
@@ -109,12 +115,12 @@ jobs:
         shell: bash
     steps:
       - name: Checkout trigger commit
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           path: trigger
       - name: Checkout main repo
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           ref: ${{ inputs.branch }}
@@ -151,7 +157,7 @@ jobs:
       # TODO: try breaking things so that uploads don't work.
 
       - name: Upload run-local binary artifact
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: built-${{ inputs.build_os }}
           path: ${{ env.BUILD_DIR }}
@@ -161,6 +167,9 @@ jobs:
     name: Upload
     needs: build-popular-package
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # push the tag and upload release assets
+      actions: write # cancel the run when there is nothing to upload
     defaults:
       run:
         shell: bash
@@ -169,12 +178,12 @@ jobs:
       SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
       - name: Checkout trigger commit
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: true
           path: trigger
       - name: Checkout main repo
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           # TODO: maybe this should be main or configurable or something?
@@ -182,27 +191,25 @@ jobs:
           path: cargo-quickinstall
 
       - name: Download binary artifact
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: built-${{ inputs.build_os }}
           # TODO: check that we it can't write anywhere other than built.d
           path: ${{ env.BUILD_DIR }}
 
-      - name: Check if tarball exists
-        id: check_files
-        uses: andstor/file-existence-action@v3
-        with:
-          files: ${{ env.BUILD_ARCHIVE }}
-
+      # build-version.sh skips the build, leaving only dummy-file in the
+      # artifact, when the release already has this crate's tarball for this
+      # target (unless always_build is set). Nothing to upload then.
       - name: Cancel if no tarball
-        if: steps.check_files.outputs.files_exists == 'false'
-        uses: andymckay/cancel-action@0.5
-
-      - name: Wait for cancellation signal if no tarball
-        if: steps.check_files.outputs.files_exists == 'false'
         run: |
-          sleep 1m
-          exit 1
+          if [ ! -f "$BUILD_ARCHIVE" ]; then
+            gh run cancel "$GITHUB_RUN_ID" --repo "$GITHUB_REPOSITORY"
+            # Wait for the cancellation signal.
+            sleep 1m
+            exit 1
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Install minisign
         run: |
@@ -234,27 +241,26 @@ jobs:
 
       - name: Releasing assets in new release format
         if: "! inputs.skip_upload"
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ inputs.crate }}-${{ inputs.version }}
-          release_name: ${{ inputs.crate }}-${{ inputs.version }}
-          body: build ${{ inputs.crate }}@${{ inputs.version }}
-          file: ${{ env.BUILD_ARCHIVE }}
-
-      - name: Releasing assets signature in new release format
-        if: "! inputs.skip_upload"
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ inputs.crate }}-${{ inputs.version }}
-          release_name: ${{ inputs.crate }}-${{ inputs.version }}
-          body: build ${{ inputs.crate }}@${{ inputs.version }}
-          file: ${{ env.SIG_FILENAME }}
+        run: |
+          set -euo pipefail
+          tag="$CRATE-$VERSION"
+          # Builds for other targets share this release, so it may already
+          # exist, or be created by one of them concurrently.
+          if ! gh release view "$tag" --json tagName >/dev/null 2>&1; then
+            gh release create "$tag" --verify-tag --latest \
+              --title "$tag" --notes "build $CRATE@$VERSION" ||
+              gh release view "$tag" --json tagName >/dev/null
+          fi
+          # Fails if an asset with the same name was already uploaded.
+          gh release upload "$tag" "$BUILD_ARCHIVE"
+          gh release upload "$tag" "$SIG_FILENAME"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
 
       - name: Upload signature
         if: "! inputs.skip_signing"
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: signature
           path: ${{ env.SIG_FILENAME }}
@@ -265,20 +271,22 @@ jobs:
       - build-popular-package
     if: ${{ failure() }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # push the exclude list to the trigger branch
     defaults:
       run:
         shell: bash
     steps:
       - name: Checkout trigger branch
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: true
           ref: trigger/${{ inputs.target_arch }}
           path: trigger
       - name: Checkout trigger commit
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           path: cargo-quickinstall
       - name: Record failure
-        run: ${{ github.workspace }}/cargo-quickinstall/add-exclude.sh ${{ github.workspace }}/trigger
+        run: '"$GITHUB_WORKSPACE/cargo-quickinstall/add-exclude.sh" "$GITHUB_WORKSPACE/trigger"'

@@ -8,11 +8,15 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
   - package-ecosystem: "cargo"
     # This will update the Cargo.lock
     directory: "/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
     groups:
       deps:
         patterns:
@@ -22,6 +26,8 @@ updates:
     directory: "/cargo-quickinstall"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
     groups:
       deps:
         patterns:
@@ -31,6 +37,8 @@ updates:
     directory: "/stats-server"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
     groups:
       deps:
         patterns:
@@ -40,6 +48,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
     groups:
       deps:
         patterns:
