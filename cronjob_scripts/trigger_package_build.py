@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import random
+import re
 import subprocess
 import sys
 import time
@@ -76,13 +77,15 @@ def main():
     targets = get_target_architectures()
     queues: list[QueueInfo] = []
 
-    # we shuffle the list of popular crates from crates.io once, and use it for every arch, to slightly
-    # reduce the number of requests we need to make to crates.io. It probably isn't worth it though.
-    popular_crates = get_crates_io_popular_crates()
-    random.shuffle(popular_crates)
+    recheck_crate = os.environ.get("RECHECK_ONLY")
+    popular_crates: list[CrateAndMaybeVersion] = []
+    if not recheck_crate:
+        # we shuffle the list of popular crates from crates.io once, and use it for every arch, to slightly
+        # reduce the number of requests we need to make to crates.io. It probably isn't worth it though.
+        popular_crates = get_crates_io_popular_crates()
+        random.shuffle(popular_crates)
 
     for target in targets:
-        recheck_crate = os.environ.get("RECHECK_ONLY")
         if recheck_crate:
             queues.append(
                 QueueInfo(
@@ -157,6 +160,12 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
     crate = crate_and_maybe_version["crate"]
     requested_version = crate_and_maybe_version.get("version")
 
+    # Crate names come from install reports that anyone can send, and end up
+    # in URLs, workflow inputs and shell scripts.
+    if not is_valid_crate_name(crate):
+        print(f"Skipping invalid crate name {crate!r}")
+        return False
+
     print(f"Checking {crate} {requested_version} for {queue.target}")
     repo_url = get_repo_url()
     version = get_current_version_if_unbuilt(
@@ -198,6 +207,14 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         check=True,
     )
     return True
+
+
+# crates.io only allows ASCII alphanumerics, `-` and `_`, at most 64 characters.
+CRATE_NAME_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]{0,63}")
+
+
+def is_valid_crate_name(crate: str) -> bool:
+    return CRATE_NAME_RE.fullmatch(crate) is not None
 
 
 def without_excluded(
