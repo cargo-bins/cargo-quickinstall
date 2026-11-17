@@ -3,7 +3,7 @@
 # It is built in the same job, before any crate code runs, and never cached:
 # a cached image could be poisoned by the build of one crate and then used to
 # build the next.
-FROM ubuntu:24.04@sha256:73b999393d07f2bf65a40373778a44dc9a6d54ad7718d29247d8ff9413c4d6a8
+FROM ubuntu:25.10@sha256:7cc5e35f6567ee8c66d2abb4aab0fd866669e6207c237c3a8f0947a5c7f17092
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
