@@ -54,3 +54,10 @@ updates:
       deps:
         patterns:
           - "*"
+  - package-ecosystem: "docker"
+    # This will update the base image of sandbox/Dockerfile
+    directory: "/sandbox"
+    schedule:
+      interval: "daily"
+    cooldown:
+      default-days: 7
