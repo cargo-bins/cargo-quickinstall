@@ -89,8 +89,13 @@ on:
         default: false
         type: boolean
 
+# Serialise builds that upload the same tarball. Use `inputs`, not
+# `github.event.inputs`: under workflow_call the event is the caller's, which
+# has no inputs, so every selfbuild run shared one group and a queued run was
+# cancelled whenever another PR queued behind it. Runs that skip the upload
+# write nothing shared, so give each its own group.
 concurrency:
-  group: build-package-${{ github.event.inputs.crate }}-${{ github.event.inputs.version }}-${{ github.event.inputs.target_arch }}
+  group: build-package-${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}${{ inputs.skip_upload && format('-run-{0}', github.run_id) || '' }}
 
 env:
   CRATE: ${{ inputs.crate }}
