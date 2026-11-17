@@ -3,7 +3,12 @@
 # It is built in the same job, before any crate code runs, and never cached:
 # a cached image could be poisoned by the build of one crate and then used to
 # build the next.
-FROM ubuntu:24.04@sha256:73b999393d07f2bf65a40373778a44dc9a6d54ad7718d29247d8ff9413c4d6a8
+#
+# The base is an Ubuntu LTS, named by its codename so that Dependabot only
+# updates the digest. With a numbered tag it proposes interim releases such as
+# 25.10, and its cooldown even favours the end-of-life ones, since those tags
+# are no longer rebuilt. Moving to the next LTS is a manual change.
+FROM ubuntu:resolute@sha256:d66b366dac61b575bee2aef07e9c26e8070096fbe84a3d4d3eb0da069b5d76db
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
