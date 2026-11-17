@@ -1,0 +1,37 @@
+# One-off, do not merge: copy the repository secret MINISIGN_PRIVATE_KEY into
+# the `signing` environment, without anyone seeing its value. Runs on every
+# push to this branch; re-run it from the Actions tab after adding
+# MIGRATE_SECRETS_TOKEN. Delete the branch and the token afterwards.
+#
+# MIGRATE_SECRETS_TOKEN: a fine-grained PAT for cargo-bins/cargo-quickinstall
+# only, with "Environments: Read and write" (plus "Secrets: Read and write" if
+# the API asks for it), expiring in 1 day, added as a repository secret.
+name: Migrate minisign key
+on:
+  push:
+    branches:
+      - ci/migrate-minisign-key
+permissions: {}
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy MINISIGN_PRIVATE_KEY into the signing environment
+        env:
+          KEY: ${{ secrets.MINISIGN_PRIVATE_KEY }}
+          GH_TOKEN: ${{ secrets.MIGRATE_SECRETS_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Add the MIGRATE_SECRETS_TOKEN repository secret, then re-run this job."
+            exit 1
+          fi
+          if [ -z "$KEY" ]; then
+            echo "::error::The MINISIGN_PRIVATE_KEY repository secret is empty or missing."
+            exit 1
+          fi
+          # gh encrypts the value with the environment's public key before
+          # sending it, and it never reaches the log.
+          printf '%s' "$KEY" | gh secret set MINISIGN_PRIVATE_KEY \
+            --repo "$GITHUB_REPOSITORY" --env signing
+          gh secret list --repo "$GITHUB_REPOSITORY" --env signing
