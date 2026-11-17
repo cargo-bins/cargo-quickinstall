@@ -32,4 +32,7 @@ RUN url="https://static.rust-lang.org/rustup/dist/$(uname -m)-unknown-linux-gnu/
 COPY zigbuild-requirements.txt /opt/zigbuild-requirements.txt
 RUN python3 -m venv /opt/zigbuild \
     && /opt/zigbuild/bin/pip install --no-cache-dir -r /opt/zigbuild-requirements.txt \
-    && chmod -R a+rX /opt/zigbuild
+    && chmod -R a+rwX /opt/zigbuild
+# cargo-zigbuild patches zig's libc headers for some targets (such as
+# arm-features.h for armv7 glibc), so the build user must be able to write
+# there. That is fine: the image is built for one crate and then thrown away.
