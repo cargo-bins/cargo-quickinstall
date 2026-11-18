@@ -61,3 +61,16 @@ updates:
       interval: "daily"
     cooldown:
       default-days: 7
+    ignore:
+      # Only Ubuntu LTS releases (even years, .04). Everything between two of
+      # them is an interim release with nine months of support. Extend the
+      # list before 2040.
+      - dependency-name: "ubuntu"
+        versions:
+          - "> 26.04, < 28.04"
+          - "> 28.04, < 30.04"
+          - "> 30.04, < 32.04"
+          - "> 32.04, < 34.04"
+          - "> 34.04, < 36.04"
+          - "> 36.04, < 38.04"
+          - "> 38.04, < 40.04"
