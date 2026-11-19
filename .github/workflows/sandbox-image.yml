@@ -1,0 +1,79 @@
+name: Sandbox image
+
+# Publishes the image that build-version.sh builds Linux targets in, so that
+# each build job pulls it instead of building it again. The tag comes from
+# sandbox/image-tag.sh: it changes when the files the image is built from
+# change, or when a new stable Rust is released, and this workflow only builds
+# a tag that does not exist yet.
+#
+# This is the only workflow that may push to the image. It runs no crate
+# code, and only on main. build-version.sh builds the image itself when the
+# tag is missing, so a branch that changes the image still tests its own.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - sandbox/**
+      - supported-targets
+      - zigbuild-requirements.txt
+      - .github/workflows/sandbox-image.yml
+  # Picks up a new stable Rust within the hour. When the tag exists already,
+  # the run only checks that and stops.
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: sandbox-image
+
+permissions: {}
+
+jobs:
+  publish:
+    name: Publish sandbox image
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Work out the tag
+        id: tag
+        run: |
+          set -euo pipefail
+          ids="$(sandbox/image-tag.sh)"
+          read -r toolchain tag <<<"$ids"
+          image="ghcr.io/${GITHUB_REPOSITORY,,}-sandbox:$tag"
+          echo "toolchain=$toolchain" >> "$GITHUB_OUTPUT"
+          echo "image=$image" >> "$GITHUB_OUTPUT"
+          if docker manifest inspect "$image" > /dev/null 2>&1; then
+            echo "$image is published already"
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build the image
+        if: steps.tag.outputs.exists != 'true'
+        env:
+          IMAGE: ${{ steps.tag.outputs.image }}
+          RUST_TOOLCHAIN: ${{ steps.tag.outputs.toolchain }}
+        run: |
+          docker build --pull --build-arg RUST_TOOLCHAIN="$RUST_TOOLCHAIN" \
+            --tag "$IMAGE" --file sandbox/Dockerfile .
+          docker run --rm "$IMAGE" rustup target list --installed
+
+      - name: Push the image
+        if: steps.tag.outputs.exists != 'true'
+        env:
+          IMAGE: ${{ steps.tag.outputs.image }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          trap 'docker logout ghcr.io' EXIT
+          printf '%s' "$GH_TOKEN" | docker login ghcr.io --username "$GITHUB_ACTOR" --password-stdin
+          docker push "$IMAGE"

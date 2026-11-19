@@ -44,13 +44,25 @@ export CRATE VERSION TARGET_ARCH CARGO_TARGET_ARCH
 # socket and its working directories into it, and runs actions with the
 # runtime token inside it.
 build_in_container() {
-    local image=quickinstall-sandbox out tarball
+    local ids image toolchain tag out tarball
     tarball="${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
     out="$(mktemp -d)"
 
-    # Built here, before any crate code runs, so nothing untrusted can have
-    # touched it.
-    docker build --pull --tag "$image" --file sandbox/Dockerfile .
+    # Use the image that .github/workflows/sandbox-image.yml published for
+    # these inputs and the current stable Rust. Only that workflow can push
+    # to it: the build jobs have no token that could.
+    ids="$(sandbox/image-tag.sh)"
+    read -r toolchain tag <<<"$ids"
+    image="${SANDBOX_IMAGE:-ghcr.io/cargo-bins/cargo-quickinstall-sandbox}:$tag"
+    if ! docker pull --quiet "$image"; then
+        # Not published yet: the inputs changed on this branch, or a new
+        # Rust was released within the hour. Build it here, before any crate
+        # code runs, so nothing untrusted can have touched it.
+        echo "::notice::$image is not published, building it here"
+        image=quickinstall-sandbox
+        docker build --pull --build-arg RUST_TOOLCHAIN="$toolchain" \
+            --tag "$image" --file sandbox/Dockerfile .
+    fi
 
     docker run --rm --init \
         --user "$(id -u):$(id -g)" \
