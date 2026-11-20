@@ -53,3 +53,6 @@ jobs:
         run: make recheck-self-only
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Run the builds on the `builds` branch, see build-package.yml. A run
+          # on any other branch dispatches on that branch instead.
+          BUILD_PACKAGE_REF: ${{ github.ref == 'refs/heads/main' && 'builds' || '' }}

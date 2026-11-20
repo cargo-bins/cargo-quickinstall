@@ -83,6 +83,9 @@ jobs:
         id: find_crate
         run: make trigger-all
         env:
+          # Run the builds on the `builds` branch, see build-package.yml. A run
+          # on any other branch dispatches on that branch instead.
+          BUILD_PACKAGE_REF: ${{ github.ref == 'refs/heads/main' && 'builds' || '' }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INFLUXDB_TOKEN: ${{ secrets.INFLUXDB_TOKEN }}
           CRATE_CHECK_LIMIT: 10

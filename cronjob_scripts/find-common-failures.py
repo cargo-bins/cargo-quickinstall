@@ -141,7 +141,9 @@ def get_logs(databaseId: str) -> pl.DataFrame:
 def tidy_logs(logs: pl.DataFrame) -> pl.DataFrame:
     # split timestamp_and_message into timestamp and message
     logs = logs.with_columns(
-        logs["job"].str.replace("^build-popular-package-(.*)-$", "${1}").alias("job"),
+        logs["job"]
+        .str.replace("^(?:.* / )?build-popular-package-(.*)-$", "${1}")
+        .alias("job"),
         # in theory we could parse the timestamp, but I don't think we actually need it right now.
         # logs["timestamp_and_message"].str.replace(" .*", "").alias("timestamp"),
         logs["timestamp_and_message"]
