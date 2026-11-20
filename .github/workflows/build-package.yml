@@ -66,7 +66,7 @@ permissions: {}
 jobs:
   build:
     name: Build package
-    uses: cargo-bins/cargo-quickinstall/.github/workflows/build-package.yml@ci/builds-branch
+    uses: cargo-bins/cargo-quickinstall/.github/workflows/build-package.yml@main
     permissions:
       contents: write # push the tag and upload release assets
       actions: write # cancel the run when there is nothing to upload
