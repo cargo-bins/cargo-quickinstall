@@ -1,3 +1,4 @@
 tgt
 cargo-udeps
 wasm-bindgen-cli
+rls-rustc
