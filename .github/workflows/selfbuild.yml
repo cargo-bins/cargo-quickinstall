@@ -11,61 +11,6 @@ permissions:
   contents: read
 
 jobs:
-  self-build-with-build-version:
-    name: Self-Build-With-build-version
-    runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        shell: bash
-    strategy:
-      matrix:
-        include:
-          - target_arch: x86_64-pc-windows-msvc
-            os: windows-latest
-          - target_arch: aarch64-pc-windows-msvc
-            os: windows-latest
-          - target_arch: x86_64-apple-darwin
-            os: macos-latest
-          - target_arch: aarch64-apple-darwin
-            os: macos-latest
-          - target_arch: x86_64-unknown-linux-gnu
-            os: ubuntu-latest
-          - target_arch: x86_64-unknown-linux-musl
-            os: ubuntu-latest
-          - target_arch: aarch64-unknown-linux-gnu
-            os: ubuntu-latest
-          - target_arch: aarch64-unknown-linux-musl
-            os: ubuntu-latest
-          - target_arch: armv7-unknown-linux-gnueabihf
-            os: ubuntu-latest
-          - target_arch: armv7-unknown-linux-musleabihf
-            os: ubuntu-latest
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-
-      - name: Install latest rust
-        run: rustup toolchain install stable --no-self-update --profile minimal
-
-      - uses: ./.github/actions/cache-cargo-install
-
-      - name: Build Thyself
-        env:
-          TARGET_ARCH: ${{ matrix.target_arch }}
-          SANDBOX: 1 # see build-version.sh
-        run: |
-          set -euxo pipefail
-
-          VERSION="$(
-            curl \
-              --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
-              --fail "https://crates.io/api/v1/crates/cargo-quickinstall" \
-              | jq -r '.crate|.max_stable_version'
-          )"
-          VERSION="$VERSION" ./build-version.sh cargo-quickinstall
-          ALWAYS_BUILD=1 VERSION="$VERSION" ./build-version.sh cargo-quickinstall
-
   self-build:
     name: Self-Build
     runs-on: ${{ matrix.os }}
@@ -112,10 +57,19 @@ jobs:
         include:
           - target_arch: x86_64-pc-windows-msvc
             os: windows-latest
+          - target_arch: aarch64-pc-windows-msvc
+            os: windows-latest
+          # blake3 has no C code for 32-bit ARM unless its neon feature is
+          # on, and its NEON flags don't survive cargo-zigbuild's cc
+          # wrapper. ripgrep's pcre2 feature builds plain C instead.
           - target_arch: armv7-unknown-linux-gnueabihf
             os: ubuntu-latest
+            crate: ripgrep
+            features: pcre2
           - target_arch: armv7-unknown-linux-musleabihf
             os: ubuntu-latest
+            crate: ripgrep
+            features: pcre2
           - target_arch: x86_64-apple-darwin
             os: macos-latest
           - target_arch: aarch64-apple-darwin
@@ -138,10 +92,13 @@ jobs:
 
       - uses: ./.github/actions/cache-cargo-install
  
-      # FIXME: find a package that needs a working CC but doesn't take quite so long to build.
-      - name: Build cargo-deny
+      # b3sum is small, but blake3's build script compiles assembly with cc
+      # on x86_64 and NEON C intrinsics on aarch64.
+      - name: Build ${{ matrix.crate || 'b3sum' }}
         env:
+          CRATE: ${{ matrix.crate || 'b3sum' }}
           TARGET_ARCH: ${{ matrix.target_arch }}
+          FEATURES: ${{ matrix.features }}
           SANDBOX: 1 # see build-version.sh
         run: |
           set -euxo pipefail
@@ -149,10 +106,10 @@ jobs:
           VERSION="$(
             curl \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
-              --fail "https://crates.io/api/v1/crates/cargo-deny" \
+              --fail "https://crates.io/api/v1/crates/$CRATE" \
               | jq -r '.crate|.max_stable_version'
           )"
-          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh cargo-deny
+          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh "$CRATE"
 
   build-package-test:
     name: Build package test
@@ -177,7 +134,6 @@ jobs:
   selfbuild-tests-pass:
     name: selfbuild tests pass
     needs:
-      - self-build-with-build-version
       - self-build
       - build-needing-cc
       - build-package-test
