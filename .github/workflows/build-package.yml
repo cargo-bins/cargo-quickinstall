@@ -1,0 +1,85 @@
+# This file is the whole content of the `builds` branch, at
+# .github/workflows/build-package.yml. It is kept on main only so that changes
+# to it are reviewed; copy it to the `builds` branch by hand:
+#
+#     git switch --orphan builds
+#     mkdir -p .github/workflows
+#     git show main:.github/builds-branch/build-package.yml > .github/workflows/build-package.yml
+#     git add .github/workflows/build-package.yml && git commit -m "Build package wrapper"
+#     git push origin builds
+#
+# cronjob_scripts/trigger_package_build.py dispatches build-package.yml on
+# `builds`, so the run's ref, and with it the scope of the Actions caches that
+# the crate code it builds could write, is `builds` and not main. This wrapper
+# only forwards its inputs to the real workflow on main, so it needs changing
+# only when that workflow's inputs change. See build-package.yml on main.
+
+name: Build package
+run-name: Build Package ${{ inputs.crate }} ${{ inputs.version }} (${{ inputs.build_os }})
+
+on:
+  workflow_dispatch:
+    inputs:
+      crate:
+        description: Crate to release
+        required: true
+        type: string
+      version:
+        description: Version to release
+        required: true
+        type: string
+      target_arch:
+        description: Target to build against
+        required: true
+        type: string
+      build_os:
+        description: The OS to use for building
+        required: true
+        type: string
+      branch:
+        description: The branch which is checked out
+        required: true
+        type: string
+      features:
+        description: Features to enable
+        default: ""
+        type: string
+      no_default_features:
+        description: Disable default features
+        default: ""
+        type: string
+      always_build:
+        description: Always build even if it's already present, set to 1 to enable this
+        default: ""
+        type: string
+      skip_upload:
+        description: Skip upload
+        default: false
+        type: boolean
+      skip_signing:
+        description: Skip signing
+        default: false
+        type: boolean
+
+permissions: {}
+
+jobs:
+  build:
+    name: Build package
+    uses: cargo-bins/cargo-quickinstall/.github/workflows/build-package.yml@ci/builds-branch
+    permissions:
+      contents: write # push the tag and upload release assets
+      actions: write # cancel the run when there is nothing to upload
+    secrets:
+      MINISIGN_PRIVATE_KEY: ${{ secrets.MINISIGN_PRIVATE_KEY }}
+    with:
+      crate: ${{ inputs.crate }}
+      version: ${{ inputs.version }}
+      target_arch: ${{ inputs.target_arch }}
+      build_os: ${{ inputs.build_os }}
+      branch: ${{ inputs.branch }}
+      features: ${{ inputs.features }}
+      no_default_features: ${{ inputs.no_default_features }}
+      always_build: ${{ inputs.always_build }}
+      skip_upload: ${{ inputs.skip_upload }}
+      skip_signing: ${{ inputs.skip_signing }}
