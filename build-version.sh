@@ -92,7 +92,7 @@ build_in_container() {
     echo "${TEMPDIR}/$tarball"
 }
 
-if [ "${SANDBOX:-}" = docker ] && [ "${RUNNER_OS?}" = Linux ]; then
+if [ -n "${SANDBOX:-}" ] && [ "${RUNNER_OS?}" = Linux ]; then
     build_in_container
     exit
 fi
@@ -108,6 +108,12 @@ elif [ "${RUNNER_OS?}" == "macOS" ]; then
 else
     echo "Unsupported ${RUNNER_OS?}"
     exit 1
+fi
+
+if [ -n "${SANDBOX:-}" ] && [ "${RUNNER_OS?}" = macOS ]; then
+    # As a separate user under sandbox-exec, see macos-sandbox/build.sh.
+    export TEMPDIR
+    exec macos-sandbox/build.sh
 fi
 
 OUT_DIR="$TEMPDIR" ./build-crate.sh
