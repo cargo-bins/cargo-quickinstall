@@ -20,7 +20,12 @@
       (subpath "/private/var/folders")
       (subpath "/dev"))))
 
-; No way back to root.
+; No way back to root. Seatbelt already refuses to exec setuid and setgid
+; files inside a sandbox (checked on macOS 26: ps, top, at, crontab, newgrp,
+; login, traceroute all fail with exit 126 under this profile even without
+; these rules), much like NO_NEW_PRIVS on Linux. Say so explicitly anyway.
+(deny process-exec (file-mode #o4000))
+(deny process-exec (file-mode #o2000))
 (deny process-exec
   (literal "/usr/bin/sudo")
   (literal "/usr/bin/su")
