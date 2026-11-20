@@ -173,11 +173,12 @@ jobs:
           if-no-files-found: error
 
   # The signing key is only exposed to this job. The only code from the
-  # repository it runs is the tarball check, from main, so nothing that runs
-  # here can be swapped by pushing a branch. Keep it that way.
+  # repository it runs is the tarball check, from main or the commit of the
+  # run, so nothing that runs here can be swapped by pushing a branch. Keep
+  # it that way.
   #
   # MINISIGN_PRIVATE_KEY should live in the `signing` environment, restricted
-  # to the `main` branch. A job that names an environment reads that
+  # to the `main` and `builds` branches. A job that names an environment reads that
   # environment's secret in preference to the one passed by the caller.
   sign-popular-package:
     name: Sign
@@ -209,16 +210,20 @@ jobs:
           fi
 
       # Clients untar this straight into ~/.cargo/bin, and the build that made
-      # it ran crate code, so only sign plain files with plain names. The
-      # check comes from main, never from the branch being built: this job
-      # holds the signing key, so a branch must not be able to change what
-      # runs here.
+      # it ran crate code, so only sign plain files with plain names.
+      #
+      # The check comes from the commit this workflow runs from, never from
+      # inputs.branch: this job holds the signing key, so the branch being
+      # built must not be able to change what runs here. On `builds`, which
+      # holds only a wrapper that calls this workflow on main, that is main.
+      # The signing environment only admits main and `builds`, so this job
+      # does not reach the key from any other ref.
       - name: Fetch the tarball check
         if: steps.tarball.outputs.found == 'true'
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-          ref: main
+          ref: ${{ github.ref == 'refs/heads/builds' && 'main' || github.sha }}
           path: checks
           sparse-checkout: .github/scripts/check-tarball.py
           sparse-checkout-cone-mode: false
