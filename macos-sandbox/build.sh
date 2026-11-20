@@ -55,7 +55,6 @@ out="$build_home/out"
         HOME="$build_home" \
         USER="$user" \
         PATH="$build_home/.cargo/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" \
-        TMPDIR="$build_home/tmp" \
         CRATE="$CRATE" \
         VERSION="$VERSION" \
         TARGET_ARCH="$TARGET_ARCH" \
@@ -68,7 +67,7 @@ out="$build_home/out"
         -f "$src/build.sb" \
         /bin/bash -euo pipefail -c '
             cd "$HOME"
-            mkdir -p "$TMPDIR" "$OUT_DIR"
+            mkdir -p "$OUT_DIR"
             arch="$(uname -m | sed s/arm64/aarch64/)"
             curl --proto "=https" --tlsv1.2 -sSf -o rustup-init \
                 "https://static.rust-lang.org/rustup/dist/$arch-apple-darwin/rustup-init"
