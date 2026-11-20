@@ -89,6 +89,14 @@ on:
         default: false
         type: boolean
 
+# The cronjob dispatches this workflow on the `builds` branch, not on main.
+# That branch holds only a wrapper, .github/builds-branch/build-package.yml,
+# which calls this file on main. The build job runs crate code with a runtime
+# token that can write Actions caches in the scope of the ref the run is on, so
+# this way it can only write `builds` caches, which nothing on main restores.
+# Every checkout below names `inputs.branch` for that reason: the ref of the
+# run is the `builds` branch, which has no scripts.
+
 # Serialise builds that upload the same tarball. Use `inputs`, not
 # `github.event.inputs`: under workflow_call the event is the caller's, which
 # has no inputs, so every selfbuild run shared one group and a queued run was
@@ -119,11 +127,6 @@ jobs:
       run:
         shell: bash
     steps:
-      - name: Checkout trigger commit
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-          path: trigger
       - name: Checkout main repo
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -281,10 +284,11 @@ jobs:
       BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
       SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
-      - name: Checkout trigger commit
+      - name: Checkout scripts
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: true
+          ref: ${{ inputs.branch }}
           path: trigger
 
       - name: Download binary artifact
@@ -361,10 +365,11 @@ jobs:
           persist-credentials: true
           ref: trigger/${{ inputs.target_arch }}
           path: trigger
-      - name: Checkout trigger commit
+      - name: Checkout scripts
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          ref: ${{ inputs.branch }}
           path: cargo-quickinstall
       - name: Record failure
         run: '"$GITHUB_WORKSPACE/cargo-quickinstall/add-exclude.sh" "$GITHUB_WORKSPACE/trigger"'

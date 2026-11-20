@@ -201,8 +201,18 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         "branch": branch,
     }
     print(f"Triggering build of {crate} {version['vers']} for {queue.target}")
+    # The cronjob on main sets BUILD_PACKAGE_REF=builds, see build-package.yml.
+    # Elsewhere, such as when testing a branch, dispatch on the branch itself.
+    dispatch_ref = os.environ.get("BUILD_PACKAGE_REF") or branch
     subprocess.run(
-        ["gh", "workflow", "run", "build-package.yml", "--json", f"--ref={branch}"],
+        [
+            "gh",
+            "workflow",
+            "run",
+            "build-package.yml",
+            "--json",
+            f"--ref={dispatch_ref}",
+        ],
         input=json.dumps(workflow_run_input).encode(),
         check=True,
     )

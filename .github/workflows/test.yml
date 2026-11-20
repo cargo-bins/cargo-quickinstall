@@ -26,6 +26,26 @@ jobs:
       - name: Run shellcheck
         run: shellcheck *.sh
 
+      # The `builds` branch holds a copy of .github/builds-branch/build-package.yml,
+      # updated by hand (see that file). Fail on main when it has drifted, so
+      # that it gets updated; on PRs only warn, because `builds` can only be
+      # updated once main has what the new wrapper calls.
+      - name: Check the builds branch wrapper
+        env:
+          STRICT: ${{ github.event_name == 'push' }}
+        run: |
+          set -euo pipefail
+          git fetch --quiet --depth=1 origin builds
+          if git show FETCH_HEAD:.github/workflows/build-package.yml |
+              diff -u - .github/builds-branch/build-package.yml; then
+            echo "builds is up to date"
+          elif [ "$STRICT" = true ]; then
+            echo "::error::Update the builds branch, see .github/builds-branch/build-package.yml"
+            exit 1
+          else
+            echo "::warning::Update the builds branch once this is on main, see .github/builds-branch/build-package.yml"
+          fi
+
       # A pinned release checked against its checksum, not a cached binary:
       # macOS and Windows build jobs run crate code with a token that can
       # write caches this job would restore, and shfmt is executed here.
