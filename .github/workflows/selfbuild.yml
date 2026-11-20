@@ -99,7 +99,7 @@ jobs:
           CRATE: ${{ matrix.crate || 'b3sum' }}
           TARGET_ARCH: ${{ matrix.target_arch }}
           FEATURES: ${{ matrix.features }}
-          SANDBOX: 1 # Linux and macOS targets, see build-version.sh
+          SANDBOX: 1 # see build-version.sh
         run: |
           set -euxo pipefail
           touch .env

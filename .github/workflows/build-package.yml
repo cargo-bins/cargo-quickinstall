@@ -89,6 +89,14 @@ on:
         default: false
         type: boolean
 
+# The cronjob dispatches this workflow on the `builds` branch, not on main.
+# That branch holds only a wrapper, .github/builds-branch/build-package.yml,
+# which calls this file on main. The build job runs crate code with a runtime
+# token that can write Actions caches in the scope of the ref the run is on, so
+# this way it can only write `builds` caches, which nothing on main restores.
+# Every checkout below names `inputs.branch` for that reason: the ref of the
+# run is the `builds` branch, which has no scripts.
+
 # Serialise builds that upload the same tarball. Use `inputs`, not
 # `github.event.inputs`: under workflow_call the event is the caller's, which
 # has no inputs, so every selfbuild run shared one group and a queued run was
@@ -119,11 +127,6 @@ jobs:
       run:
         shell: bash
     steps:
-      - name: Checkout trigger commit
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-          path: trigger
       - name: Checkout main repo
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -146,7 +149,8 @@ jobs:
           ALWAYS_BUILD: ${{ inputs.always_build }}
           TEMPDIR: ${{ env.BUILD_DIR }}
           # Linux targets build in a container, macOS targets as a separate
-          # user under sandbox-exec, see build-version.sh.
+          # user under sandbox-exec, Windows targets as a separate user at Low
+          # integrity, see build-version.sh.
           SANDBOX: 1
         run: |
           set -euxo pipefail
@@ -160,10 +164,9 @@ jobs:
           cargo-quickinstall/build-version.sh "$CRATE"
           touch "$TEMPDIR/dummy-file"
           ls "$TEMPDIR"
-      # For Linux targets the crate was built in a container, and for macOS
-      # targets as a user without sudo, see build-version.sh. For Windows it
-      # ran on the runner itself, and with admin rights it could have reached
-      # the runtime token, so do not trust anything on this machine any more.
+      # The crate was built as a user that cannot reach the runner's
+      # credentials, see build-version.sh. Still, do not trust anything on
+      # this machine any more than needed.
 
       - name: Upload run-local binary artifact
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -281,10 +284,11 @@ jobs:
       BUILD_ARCHIVE: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz
       SIG_FILENAME: ${{ github.workspace }}/built.d/${{ inputs.crate }}-${{ inputs.version }}-${{ inputs.target_arch }}.tar.gz.sig
     steps:
-      - name: Checkout trigger commit
+      - name: Checkout scripts
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: true
+          ref: ${{ inputs.branch }}
           path: trigger
 
       - name: Download binary artifact
@@ -361,10 +365,11 @@ jobs:
           persist-credentials: true
           ref: trigger/${{ inputs.target_arch }}
           path: trigger
-      - name: Checkout trigger commit
+      - name: Checkout scripts
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          ref: ${{ inputs.branch }}
           path: cargo-quickinstall
       - name: Record failure
         run: '"$GITHUB_WORKSPACE/cargo-quickinstall/add-exclude.sh" "$GITHUB_WORKSPACE/trigger"'

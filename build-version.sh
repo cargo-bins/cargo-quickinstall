@@ -116,4 +116,11 @@ if [ -n "${SANDBOX:-}" ] && [ "${RUNNER_OS?}" = macOS ]; then
     exec macos-sandbox/build.sh
 fi
 
+if [ -n "${SANDBOX:-}" ] && [ "${RUNNER_OS?}" = Windows ]; then
+    # As a separate user at Low integrity, see windows-sandbox/build.ps1.
+    TEMPDIR="$(cygpath -w "$TEMPDIR")"
+    export TEMPDIR
+    exec pwsh -NoProfile -NonInteractive -File windows-sandbox/build.ps1
+fi
+
 OUT_DIR="$TEMPDIR" ./build-crate.sh
