@@ -1,2 +1,3 @@
 tgt
 cargo-udeps
+wasm-bindgen-cli
