@@ -53,7 +53,7 @@ jobs:
       - name: Build Thyself
         env:
           TARGET_ARCH: ${{ matrix.target_arch }}
-          SANDBOX: docker # Linux targets only, see build-version.sh
+          SANDBOX: 1 # Linux and macOS targets, see build-version.sh
         run: |
           set -euxo pipefail
 
@@ -142,7 +142,7 @@ jobs:
       - name: Build cargo-deny
         env:
           TARGET_ARCH: ${{ matrix.target_arch }}
-          SANDBOX: docker # Linux targets only, see build-version.sh
+          SANDBOX: 1 # Linux and macOS targets, see build-version.sh
         run: |
           set -euxo pipefail
           touch .env

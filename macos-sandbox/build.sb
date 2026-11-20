@@ -1,0 +1,28 @@
+(version 1)
+; Seatbelt profile that macos-sandbox/build.sh runs build-crate.sh under.
+;
+; It starts from allow-all and denies what the build must not reach, so the
+; toolchain (xcrun, clang, the SDKs) keeps working. Parameters:
+;   RUNNER_HOME  the runner user's home
+;   BUILD_HOME   the build user's home
+(allow default)
+
+; The runner's home holds its credentials, the workspace, the tool cache and
+; the files that later steps read (GITHUB_ENV and friends).
+(deny file-read* file-write* (subpath (param "RUNNER_HOME")))
+
+; Writes only to the build user's own places.
+(deny file-write*
+  (require-not
+    (require-any
+      (subpath (param "BUILD_HOME"))
+      (subpath "/private/tmp")
+      (subpath "/private/var/folders")
+      (subpath "/dev"))))
+
+; No way back to root.
+(deny process-exec
+  (literal "/usr/bin/sudo")
+  (literal "/usr/bin/su")
+  (literal "/usr/bin/login")
+  (literal "/usr/bin/osascript"))

@@ -145,9 +145,9 @@ jobs:
         env:
           ALWAYS_BUILD: ${{ inputs.always_build }}
           TEMPDIR: ${{ env.BUILD_DIR }}
-          # Run the crate's build in a container, Linux targets only, see
-          # build-version.sh.
-          SANDBOX: docker
+          # Linux targets build in a container, macOS targets as a separate
+          # user under sandbox-exec, see build-version.sh.
+          SANDBOX: 1
         run: |
           set -euxo pipefail
           # `tar` does not understand mixed forward and backslashes, but mkdir does.
@@ -160,10 +160,10 @@ jobs:
           cargo-quickinstall/build-version.sh "$CRATE"
           touch "$TEMPDIR/dummy-file"
           ls "$TEMPDIR"
-      # For Linux targets the crate was built in a container, see
-      # build-version.sh. For the others it ran on the runner itself, and
-      # with sudo it could have reached the runtime token, so do not trust
-      # anything on this machine any more.
+      # For Linux targets the crate was built in a container, and for macOS
+      # targets as a user without sudo, see build-version.sh. For Windows it
+      # ran on the runner itself, and with admin rights it could have reached
+      # the runtime token, so do not trust anything on this machine any more.
 
       - name: Upload run-local binary artifact
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
