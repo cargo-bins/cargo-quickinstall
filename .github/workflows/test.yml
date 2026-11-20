@@ -26,19 +26,23 @@ jobs:
       - name: Run shellcheck
         run: shellcheck *.sh
 
-      - name: Cache shfmt compiled
-        id: cache-shfmt
-        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
-        with:
-          path: ~/go/bin/shfmt
-          key: ${{ runner.os }}-shfmt-4.4.1
-      
+      # A pinned release checked against its checksum, not a cached binary:
+      # macOS and Windows build jobs run crate code with a token that can
+      # write caches this job would restore, and shfmt is executed here.
       - name: Install shfmt
-        if: steps.cache-shfmt.outputs.cache-hit != 'true'
-        run: go install mvdan.cc/sh/v3/cmd/shfmt@latest
+        env:
+          SHFMT_VERSION: v3.14.1
+          SHFMT_SHA256: 76e77641faa025814b77f153b29796b8e6fa2fca03e0c76a691608b86c7ea7bf
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/bin"
+          curl --proto '=https' --tlsv1.2 -sSfL -o "$RUNNER_TEMP/bin/shfmt" \
+            "https://github.com/mvdan/sh/releases/download/$SHFMT_VERSION/shfmt_${SHFMT_VERSION}_linux_amd64"
+          echo "$SHFMT_SHA256  $RUNNER_TEMP/bin/shfmt" | sha256sum --check --strict
+          chmod +x "$RUNNER_TEMP/bin/shfmt"
 
       - name: Run shfmt
-        run: ~/go/bin/shfmt --diff *.sh
+        run: '"$RUNNER_TEMP/bin/shfmt" --diff *.sh'
 
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal --component clippy,rustfmt
