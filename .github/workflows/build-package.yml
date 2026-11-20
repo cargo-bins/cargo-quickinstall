@@ -172,9 +172,9 @@ jobs:
           path: ${{ env.BUILD_DIR }}
           if-no-files-found: error
 
-  # The signing key is only exposed to this job. It runs no code from the
-  # repository and does not touch the git checkout, so nothing that runs here
-  # can be swapped by pushing a branch. Keep it that way.
+  # The signing key is only exposed to this job. The only code from the
+  # repository it runs is the tarball check, from main, so nothing that runs
+  # here can be swapped by pushing a branch. Keep it that way.
   #
   # MINISIGN_PRIVATE_KEY should live in the `signing` environment, restricted
   # to the `main` branch. A job that names an environment reads that
@@ -185,7 +185,8 @@ jobs:
     if: ${{ !inputs.skip_signing }}
     runs-on: ubuntu-latest
     environment: signing
-    permissions: {}
+    permissions:
+      contents: read # fetch the tarball check
     defaults:
       run:
         shell: bash
@@ -208,49 +209,23 @@ jobs:
           fi
 
       # Clients untar this straight into ~/.cargo/bin, and the build that made
-      # it ran crate code, so only sign plain files with plain names. Inline,
-      # because this job must not run code from the repository.
+      # it ran crate code, so only sign plain files with plain names. The
+      # check comes from main, never from the branch being built: this job
+      # holds the signing key, so a branch must not be able to change what
+      # runs here.
+      - name: Fetch the tarball check
+        if: steps.tarball.outputs.found == 'true'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          ref: main
+          path: checks
+          sparse-checkout: .github/scripts/check-tarball.py
+          sparse-checkout-cone-mode: false
+
       - name: Check the tarball's entries
         if: steps.tarball.outputs.found == 'true'
-        run: |
-          python3 -I - "$BUILD_ARCHIVE" <<'EOF'
-          import re, sys, tarfile
-
-          # Proxies that rustup installs into ~/.cargo/bin.
-          RESERVED = {
-              "cargo", "cargo-clippy", "cargo-fmt", "cargo-miri", "clippy-driver",
-              "rls", "rust-analyzer", "rust-gdb", "rust-gdbgui", "rust-lldb",
-              "rustc", "rustdoc", "rustfmt", "rustup",
-          }
-          NAME = re.compile(r"[A-Za-z0-9_][A-Za-z0-9_.+-]*")
-
-          problems, seen = [], set()
-          with tarfile.open(sys.argv[1], "r:gz") as tar:
-              members = tar.getmembers()
-          if not members:
-              problems.append("the tarball is empty")
-          for m in members:
-              name = m.name
-              if not m.isreg():
-                  problems.append(f"{name!r} is not a regular file")
-              if not NAME.fullmatch(name) or name in (".", ".."):
-                  problems.append(f"{name!r} is not a plain file name")
-              if m.mode & 0o7000:
-                  problems.append(f"{name!r} has mode {m.mode:o}")
-              stem = name.lower().removesuffix(".exe")
-              if stem in RESERVED:
-                  problems.append(f"{name!r} would replace a rustup proxy")
-              # Windows and macOS file systems ignore case.
-              if name.lower() in seen:
-                  problems.append(f"{name!r} appears more than once")
-              seen.add(name.lower())
-
-          for p in problems:
-              print(f"::error::{p}")
-          if problems:
-              sys.exit(1)
-          print("entries:", ", ".join(m.name for m in members))
-          EOF
+        run: python3 -I checks/.github/scripts/check-tarball.py "$BUILD_ARCHIVE"
 
       - name: Install minisign
         if: steps.tarball.outputs.found == 'true'
