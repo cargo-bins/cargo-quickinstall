@@ -88,6 +88,13 @@ foreach ($name in @($psi.Environment.Keys)) {
         $psi.Environment.Remove($name) | Out-Null
     }
 }
+# MSYS programs (Git's bash, sh, perl and the rest of usr\bin) die at startup at
+# Low integrity, as they cannot create their shared objects. Drop their
+# directories from PATH so that build scripts find the native tools instead,
+# for example Strawberry Perl for openssl-src.
+$path = ($env:PATH -split ';' | Where-Object {
+        $_ -and -not (Test-Path -LiteralPath (Join-Path $_ 'msys-2.0.dll'))
+    }) -join ';'
 $hostArch = if ([Runtime.InteropServices.RuntimeInformation]::OSArchitecture -eq 'Arm64') { 'aarch64' } else { 'x86_64' }
 $set = [ordered]@{
     HOME                = $work
@@ -99,7 +106,7 @@ $set = [ordered]@{
     CARGO_HOME          = $cargoHome
     RUSTUP_HOME         = "$work\rustup"
     RUSTUP_HOST         = "$hostArch-pc-windows-msvc"
-    PATH                = "$cargoHome\bin;$env:PATH"
+    PATH                = "$cargoHome\bin;$path"
     OUT_DIR             = $out
     CRATE               = $env:CRATE
     VERSION             = $env:VERSION
