@@ -172,9 +172,9 @@ jobs:
           path: ${{ env.BUILD_DIR }}
           if-no-files-found: error
 
-  # The signing key is only exposed to this job. It runs no code from the
-  # repository and does not touch the git checkout, so nothing that runs here
-  # can be swapped by pushing a branch. Keep it that way.
+  # The signing key is only exposed to this job. The only code from the
+  # repository it runs is the tarball check, from main, so nothing that runs
+  # here can be swapped by pushing a branch. Keep it that way.
   #
   # MINISIGN_PRIVATE_KEY should live in the `signing` environment, restricted
   # to the `main` branch. A job that names an environment reads that
@@ -185,7 +185,8 @@ jobs:
     if: ${{ !inputs.skip_signing }}
     runs-on: ubuntu-latest
     environment: signing
-    permissions: {}
+    permissions:
+      contents: read # fetch the tarball check
     defaults:
       run:
         shell: bash
@@ -206,6 +207,25 @@ jobs:
           if [ -f "$BUILD_ARCHIVE" ]; then
             echo "found=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Clients untar this straight into ~/.cargo/bin, and the build that made
+      # it ran crate code, so only sign plain files with plain names. The
+      # check comes from main, never from the branch being built: this job
+      # holds the signing key, so a branch must not be able to change what
+      # runs here.
+      - name: Fetch the tarball check
+        if: steps.tarball.outputs.found == 'true'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          ref: main
+          path: checks
+          sparse-checkout: .github/scripts/check-tarball.py
+          sparse-checkout-cone-mode: false
+
+      - name: Check the tarball's entries
+        if: steps.tarball.outputs.found == 'true'
+        run: python3 -I checks/.github/scripts/check-tarball.py "$BUILD_ARCHIVE"
 
       - name: Install minisign
         if: steps.tarball.outputs.found == 'true'
