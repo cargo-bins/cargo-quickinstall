@@ -4,8 +4,9 @@
 Clients untar the tarball straight into ~/.cargo/bin, and the build that made
 it ran crate code, so only plain files with plain names may be signed.
 
-The Sign job holds the signing key, so it runs this file from main, never from
-the branch being built. Standard library only.
+The Sign job holds the signing key, so it runs this file from the commit its
+workflow runs from (main, for runs on the `builds` branch), never from the
+branch being built. Standard library only.
 
 Usage: check-tarball.py TARBALL
 """
