@@ -207,6 +207,51 @@ jobs:
             echo "found=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # Clients untar this straight into ~/.cargo/bin, and the build that made
+      # it ran crate code, so only sign plain files with plain names. Inline,
+      # because this job must not run code from the repository.
+      - name: Check the tarball's entries
+        if: steps.tarball.outputs.found == 'true'
+        run: |
+          python3 -I - "$BUILD_ARCHIVE" <<'EOF'
+          import re, sys, tarfile
+
+          # Proxies that rustup installs into ~/.cargo/bin.
+          RESERVED = {
+              "cargo", "cargo-clippy", "cargo-fmt", "cargo-miri", "clippy-driver",
+              "rls", "rust-analyzer", "rust-gdb", "rust-gdbgui", "rust-lldb",
+              "rustc", "rustdoc", "rustfmt", "rustup",
+          }
+          NAME = re.compile(r"[A-Za-z0-9_][A-Za-z0-9_.+-]*")
+
+          problems, seen = [], set()
+          with tarfile.open(sys.argv[1], "r:gz") as tar:
+              members = tar.getmembers()
+          if not members:
+              problems.append("the tarball is empty")
+          for m in members:
+              name = m.name
+              if not m.isreg():
+                  problems.append(f"{name!r} is not a regular file")
+              if not NAME.fullmatch(name) or name in (".", ".."):
+                  problems.append(f"{name!r} is not a plain file name")
+              if m.mode & 0o7000:
+                  problems.append(f"{name!r} has mode {m.mode:o}")
+              stem = name.lower().removesuffix(".exe")
+              if stem in RESERVED:
+                  problems.append(f"{name!r} would replace a rustup proxy")
+              # Windows and macOS file systems ignore case.
+              if name.lower() in seen:
+                  problems.append(f"{name!r} appears more than once")
+              seen.add(name.lower())
+
+          for p in problems:
+              print(f"::error::{p}")
+          if problems:
+              sys.exit(1)
+          print("entries:", ", ".join(m.name for m in members))
+          EOF
+
       - name: Install minisign
         if: steps.tarball.outputs.found == 'true'
         run: |
