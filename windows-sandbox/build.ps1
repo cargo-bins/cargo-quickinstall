@@ -13,8 +13,8 @@
 #   read. They can write only to the work directory made for them.
 # - C:\actions-runner and the runner's work directory lose the access that
 #   every user inherits, so the build cannot read them either.
-# - It gets the runner's environment without GITHUB_*, ACTIONS_*, RUNNER_*
-#   and INPUT_*.
+# - It gets the runner's environment without GITHUB_*, ACTIONS_*, RUNNER_*,
+#   INPUT_* and the runner's Rust settings.
 # - Every process it started is killed before the tarball is copied out.
 #
 # A process starts at the lower of its creator's integrity and its image's
@@ -82,7 +82,11 @@ $psi.LoadUserProfile = $true
 $psi.WorkingDirectory = $work
 $psi.CreateNoWindow = $true
 foreach ($name in @($psi.Environment.Keys)) {
-    if ($name -match '^(GITHUB_|ACTIONS_|RUNNER_|INPUT_)') { $psi.Environment.Remove($name) | Out-Null }
+    # Also the runner's Rust settings, such as the CARGO_TARGET_DIR that
+    # selfbuild.yml sets, which point at places the build cannot write.
+    if ($name -match '^(GITHUB_|ACTIONS_|RUNNER_|INPUT_|CARGO_|RUSTUP_|RUSTC|RUSTDOC|RUSTFLAGS$)') {
+        $psi.Environment.Remove($name) | Out-Null
+    }
 }
 $hostArch = if ([Runtime.InteropServices.RuntimeInformation]::OSArchitecture -eq 'Arm64') { 'aarch64' } else { 'x86_64' }
 $set = [ordered]@{
