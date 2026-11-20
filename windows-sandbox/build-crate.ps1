@@ -70,5 +70,7 @@ foreach ($file in $binaries) {
 # Package up the binaries so that they can be untarred in ~/.cargo/bin, with
 # the tar.exe that comes with Windows.
 $tarball = Join-Path $env:OUT_DIR "$env:CRATE-$env:VERSION-$env:TARGET_ARCH.tar.gz"
-Invoke-Native "$env:SystemRoot\System32\tar.exe" --format v7 --options gzip:compression-level=9 -czf $tarball -C $binDir @binaries
+$tar = "$env:SystemRoot\System32\tar.exe"
+Invoke-Native $tar --format v7 --options gzip:compression-level=9 -czf $tarball -C $binDir @binaries
+Invoke-Native $tar -tvzf $tarball
 $tarball
