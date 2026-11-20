@@ -59,13 +59,17 @@ jobs:
             os: windows-latest
           - target_arch: aarch64-pc-windows-msvc
             os: windows-latest
-          # blake3 only builds its NEON C code on 32-bit ARM with this feature.
+          # blake3 has no C code for 32-bit ARM unless its neon feature is
+          # on, and its NEON flags don't survive cargo-zigbuild's cc
+          # wrapper. ripgrep's pcre2 feature builds plain C instead.
           - target_arch: armv7-unknown-linux-gnueabihf
             os: ubuntu-latest
-            features: neon
+            crate: ripgrep
+            features: pcre2
           - target_arch: armv7-unknown-linux-musleabihf
             os: ubuntu-latest
-            features: neon
+            crate: ripgrep
+            features: pcre2
           - target_arch: x86_64-apple-darwin
             os: macos-latest
           - target_arch: aarch64-apple-darwin
@@ -88,11 +92,11 @@ jobs:
 
       - uses: ./.github/actions/cache-cargo-install
  
-      # b3sum is small, but blake3's build script compiles C and assembly
-      # with cc on every target in this matrix: assembly on x86_64, NEON C
-      # intrinsics on aarch64 (and on armv7 with the neon feature).
-      - name: Build b3sum
+      # b3sum is small, but blake3's build script compiles assembly with cc
+      # on x86_64 and NEON C intrinsics on aarch64.
+      - name: Build ${{ matrix.crate || 'b3sum' }}
         env:
+          CRATE: ${{ matrix.crate || 'b3sum' }}
           TARGET_ARCH: ${{ matrix.target_arch }}
           FEATURES: ${{ matrix.features }}
           SANDBOX: 1 # Linux and macOS targets, see build-version.sh
@@ -102,10 +106,10 @@ jobs:
           VERSION="$(
             curl \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
-              --fail "https://crates.io/api/v1/crates/b3sum" \
+              --fail "https://crates.io/api/v1/crates/$CRATE" \
               | jq -r '.crate|.max_stable_version'
           )"
-          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh b3sum
+          ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh "$CRATE"
 
   build-package-test:
     name: Build package test
