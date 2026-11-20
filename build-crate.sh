@@ -4,9 +4,10 @@
 #
 # This runs the crate's build scripts and proc macros, so treat everything it
 # touches as untrusted. When SANDBOX is set, build-version.sh runs it in a
-# container for Linux targets, as a separate user under sandbox-exec for
-# macOS targets, and as a separate user at Low integrity for Windows targets.
-# It needs no privileges of its own.
+# container for Linux targets and as a separate user under sandbox-exec for
+# macOS targets. For Windows targets it runs windows-sandbox/build-crate.ps1
+# instead, which does the same and must be kept in step with this. It needs
+# no privileges of its own.
 set -euxo pipefail
 
 cd "$(dirname "$0")"

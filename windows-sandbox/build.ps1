@@ -1,5 +1,6 @@
-# Runs build-crate.sh on a GitHub Windows runner as a separate local user at
-# Low integrity, and copies the tarball to $env:TEMPDIR.
+# Runs build-crate.ps1, the Windows build-crate.sh, on a GitHub Windows
+# runner as a separate local user at Low integrity, and copies the tarball to
+# $env:TEMPDIR.
 #
 # The runner user is an administrator, and the runner's credentials (a JWT
 # that can write Actions caches and artifacts of this run) sit in
@@ -21,7 +22,8 @@
 # children inherit that.
 #
 # Needs CRATE, VERSION, TARGET_ARCH and TEMPDIR, and FEATURES and
-# NO_DEFAULT_FEATURES like build-crate.sh.
+# NO_DEFAULT_FEATURES like build-crate.sh. The runner must have run nothing
+# that can't be trusted before this script.
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
@@ -59,7 +61,7 @@ $src = "$root\src"   # Medium, so the build cannot change it
 $bin = "$root\bin"   # the Low cmd.exe
 $work = "$root\work" # Low, the only place the build can write
 New-Item -ItemType Directory $src, $bin, $work | Out-Null
-Copy-Item "$PSScriptRoot\..\build-crate.sh" $src
+Copy-Item "$PSScriptRoot\build-crate.ps1" $src
 Copy-Item "$env:SystemRoot\System32\cmd.exe" "$bin\cmd.exe"
 Invoke-Native icacls "$bin\cmd.exe" /setintegritylevel L /Q
 Invoke-Native icacls $work /grant "${user}:(OI)(CI)M" /Q
@@ -67,26 +69,12 @@ Invoke-Native icacls $work /setintegritylevel '(OI)(CI)L' /Q
 
 $out = "$work\out"
 $log = "$work\build.log"
-$bash = Join-Path $env:ProgramFiles 'Git\bin\bash.exe'
+$pwsh = (Get-Process -Id $PID).Path
 $cargoHome = "$work\cargo"
-
-# What the Low cmd.exe runs: a toolchain of the build user's own, then the
-# build.
-$inner = "$src\run.sh"
-@'
-set -euo pipefail
-mkdir -p "$TEMP" "$OUT_DIR"
-cd "$HOME"
-curl --proto '=https' --tlsv1.2 -sSf -o rustup-init.exe \
-    "https://static.rust-lang.org/rustup/dist/$RUSTUP_HOST/rustup-init.exe"
-./rustup-init.exe -y --quiet --profile minimal --no-modify-path --default-toolchain stable
-rm rustup-init.exe
-exec "$(dirname "$0")/build-crate.sh"
-'@ | Set-Content -NoNewline -LiteralPath $inner
 
 $psi = [Diagnostics.ProcessStartInfo]::new("$bin\cmd.exe")
 # /s: strip only the outermost quotes, so the inner ones survive.
-$psi.Arguments = "/d /s /c `"`"$bash`" `"$inner`" > `"$log`" 2>&1`""
+$psi.Arguments = "/d /s /c `"`"$pwsh`" -NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$src\build-crate.ps1`" > `"$log`" 2>&1`""
 $psi.UseShellExecute = $false
 $psi.UserName = $user
 $psi.Password = $secure
