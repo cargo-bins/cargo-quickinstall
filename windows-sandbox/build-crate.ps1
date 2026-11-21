@@ -66,15 +66,20 @@ function Get-Binaries {
 # The features that the crate's binary named after the crate needs, read from
 # the manifest that `cargo install` unpacked.
 function Get-BinRequiredFeatures {
-    $manifest = Get-ChildItem -Directory (Join-Path $env:CARGO_HOME 'registry\src\*\') -Filter "$env:CRATE-$env:VERSION" -ErrorAction SilentlyContinue |
-        Select-Object -First 1 | ForEach-Object { Join-Path $_.FullName 'Cargo.toml' }
-    if (-not $manifest -or -not (Test-Path -LiteralPath $manifest)) { return @() }
+    $manifest = Get-ChildItem -Directory (Join-Path $env:CARGO_HOME 'registry\src') -ErrorAction SilentlyContinue |
+        ForEach-Object { Join-Path $_.FullName "$env:CRATE-$env:VERSION\Cargo.toml" } |
+        Where-Object { Test-Path -LiteralPath $_ } |
+        Select-Object -First 1
+    if (-not $manifest) {
+        "Could not find the manifest of $env:CRATE $env:VERSION" | Out-Host
+        return @()
+    }
     $metadata = & $cargo metadata --manifest-path $manifest --no-deps --offline --format-version 1 | ConvertFrom-Json
     if ($LASTEXITCODE) { throw "cargo metadata exited with $LASTEXITCODE" }
     @(
         $metadata.packages[0].targets |
             Where-Object { $_.kind -contains 'bin' -and $_.name -eq $env:CRATE } |
-            ForEach-Object { $_.'required-features' }
+            ForEach-Object { if ($_.PSObject.Properties['required-features']) { $_.'required-features' } }
     )
 }
 
