@@ -28,9 +28,8 @@ ARG RUST_TOOLCHAIN=stable
 # build-crate.sh points openssl-sys at. Builds run with PKG_CONFIG set to a
 # script that always fails, so without it every crate that has openssl-sys
 # among its dependencies, but no `vendored` feature of its own, fails to
-# build. openssl-src builds it the way its `vendored` feature does, with zig
-# as the compiler like the crate builds, and for glibc 2.17 like
-# build-version.sh.
+# build. sandbox/openssl/build.rs builds it with openssl-src, the way the
+# `vendored` feature does, for all the targets at once.
 #
 # One step, with the inputs bind-mounted rather than copied, so that the
 # image is a single layer on top of the base, and neither the inputs nor
@@ -55,15 +54,8 @@ RUN --mount=type=bind,source=supported-targets,target=/tmp/supported-targets \
     && python3 -m venv /opt/zigbuild \
     && /opt/zigbuild/bin/pip install --no-cache-dir -r /tmp/zigbuild-requirements.txt \
     && export CARGO_TARGET_DIR=/tmp/openssl-target \
-    && /opt/zigbuild/bin/cargo-zigbuild zigbuild --locked --release \
-        --manifest-path /tmp/openssl/Cargo.toml \
-        $(for t in $targets; do case "$t" in *-gnu*) t="$t.2.17" ;; esac; echo "--target $t"; done) \
-    && mkdir /opt/openssl \
-    && for t in $targets; do \
-        libssl="$(find "$CARGO_TARGET_DIR/$t/release/build" -path '*/openssl-build/install/lib/libssl.a')"; \
-        test "$(wc -l <<<"$libssl")" = 1 -a -f "$libssl" || { echo "no libssl.a for $t"; exit 1; }; \
-        cp -R "$(dirname "$(dirname "$libssl")")" "/opt/openssl/$t" || exit 1; \
-    done \
+    && OPENSSL_TARGETS="$targets" OPENSSL_PREFIX=/opt/openssl \
+        cargo build --locked --release --manifest-path /tmp/openssl/Cargo.toml \
     && llvm-strip --strip-debug /opt/openssl/*/lib/*.a \
     && chmod -R a+rX /opt/openssl \
     && chmod -R a+rwX /opt/zigbuild \
