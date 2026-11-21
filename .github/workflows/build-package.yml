@@ -384,8 +384,14 @@ jobs:
           set -euo pipefail
           job="$(gh api --paginate "repos/$GH_REPO/actions/runs/$GITHUB_RUN_ID/attempts/$GITHUB_RUN_ATTEMPT/jobs" \
             -q '.jobs[] | select(.conclusion == "failure" and (.name | contains("build-popular-package-")) and (.name | endswith("build-popular-package-failure") | not)) | .id' | head -n1)"
-          if [ -n "$job" ] && gh api "repos/$GH_REPO/actions/jobs/$job/logs" |
-              python3 -I cargo-quickinstall/cronjob_scripts/root_crate_error.py "$CRATE" "$VERSION"; then
+          # Not `gh api`: it refuses to print the log, which has escape
+          # sequences in it.
+          log="$RUNNER_TEMP/build.log"
+          if [ -z "$job" ] || ! curl -fsSL --retry 3 -o "$log" \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              "$GITHUB_API_URL/repos/$GH_REPO/actions/jobs/$job/logs"; then
+            echo "::warning::Could not fetch the log of the build job"
+          elif python3 -I cargo-quickinstall/cronjob_scripts/root_crate_error.py "$CRATE" "$VERSION" < "$log"; then
             echo "unbuildable=true" >> "$GITHUB_OUTPUT"
           fi
       - name: Record failure
