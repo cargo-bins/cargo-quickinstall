@@ -58,9 +58,9 @@ RUN cd /tmp/openssl \
         $(for t in $targets; do case "$t" in *-gnu*) t="$t.2.17" ;; esac; echo "--target $t"; done) \
     && mkdir /opt/openssl \
     && for t in $targets; do \
-        install="$(echo target/"$t"/release/build/openssl-sys-*/out/openssl-build/install)"; \
-        test -f "$install/lib/libssl.a" || exit 1; \
-        cp -R "$install" "/opt/openssl/$t" || exit 1; \
+        libssl="$(find "target/$t/release/build" -path '*/openssl-build/install/lib/libssl.a')"; \
+        test "$(wc -l <<<"$libssl")" = 1 -a -f "$libssl" || { echo "no libssl.a for $t"; exit 1; }; \
+        cp -R "$(dirname "$(dirname "$libssl")")" "/opt/openssl/$t" || exit 1; \
     done \
     && llvm-strip --strip-debug /opt/openssl/*/lib/*.a \
     && chmod -R a+rX /opt/openssl \
