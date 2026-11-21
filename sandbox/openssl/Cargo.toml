@@ -1,0 +1,13 @@
+# Builds nothing of its own: sandbox/Dockerfile builds this for every Linux
+# target to get openssl-src's static OpenSSL for it, and keeps only that.
+[package]
+name = "sandbox-openssl"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+openssl-sys = { version = "0.9", features = ["vendored"] }
+
+# Not part of the repository's workspace.
+[workspace]

@@ -58,6 +58,13 @@ CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
 export CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1"
 export CARGO_PROFILE_RELEASE_LTO="fat"
 export OPENSSL_STATIC=1
+# The sandbox image has a static OpenSSL for each Linux target, see
+# sandbox/Dockerfile. openssl-sys reads <TARGET>_OPENSSL_DIR, which unlike
+# OPENSSL_DIR leaves alone any openssl-sys that build scripts need for the host.
+if [ -d "/opt/openssl/$TARGET_ARCH" ]; then
+    openssl_dir_var="$(tr 'a-z-' 'A-Z_' <<<"$TARGET_ARCH")_OPENSSL_DIR"
+    export "$openssl_dir_var=/opt/openssl/$TARGET_ARCH"
+fi
 export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 
 build_and_install() {
