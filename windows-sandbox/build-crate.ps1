@@ -39,22 +39,62 @@ $env:CARGO_PROFILE_RELEASE_LTO = 'fat'
 $env:OPENSSL_STATIC = '1'
 $env:CARGO_REGISTRIES_CRATES_IO_PROTOCOL = 'sparse'
 
-$installArgs = @('install', $env:CRATE, '--version', $env:VERSION, '--target', $env:TARGET_ARCH, '--root', $cargoRoot)
-if ($env:NO_DEFAULT_FEATURES -eq 'true') { $installArgs += '--no-default-features' }
-if ($env:FEATURES) { $installArgs += '--features', $env:FEATURES }
+function Invoke-CargoInstall($features) {
+    $installArgs = @('install', $env:CRATE, '--version', $env:VERSION, '--target', $env:TARGET_ARCH, '--root', $cargoRoot)
+    if ($env:NO_DEFAULT_FEATURES -eq 'true') { $installArgs += '--no-default-features' }
+    if ($features) { $installArgs += '--features', $features }
 
-# Some crates are published without a lockfile, so fall back to no `--locked`
-# just in case of spurious failure.
-& $cargo @installArgs --locked
-if ($LASTEXITCODE) { Invoke-Native $cargo @installArgs }
+    # Some crates are published without a lockfile, so fall back to no `--locked`
+    # just in case of spurious failure.
+    & $cargo @installArgs --locked
+    if ($LASTEXITCODE) { Invoke-Native $cargo @installArgs }
+}
+
+function Get-Binaries {
+    $crates2 = Join-Path $cargoRoot '.crates2.json'
+    if (-not (Test-Path -LiteralPath $crates2)) { return @() }
+    $installs = (Get-Content -Raw $crates2 | ConvertFrom-Json -AsHashtable).installs
+    @(
+        $installs.GetEnumerator() |
+            Where-Object { $_.Key.StartsWith("$env:CRATE ") } |
+            ForEach-Object { $_.Value.bins }
+    )
+}
+
+# The features that the crate's binary named after the crate needs, read from
+# the manifest that `cargo install` unpacked.
+function Get-BinRequiredFeatures {
+    $manifest = Get-ChildItem -Directory (Join-Path $env:CARGO_HOME 'registry\src\*\') -Filter "$env:CRATE-$env:VERSION" -ErrorAction SilentlyContinue |
+        Select-Object -First 1 | ForEach-Object { Join-Path $_.FullName 'Cargo.toml' }
+    if (-not $manifest -or -not (Test-Path -LiteralPath $manifest)) { return @() }
+    $metadata = & $cargo metadata --manifest-path $manifest --no-deps --offline --format-version 1 | ConvertFrom-Json
+    if ($LASTEXITCODE) { throw "cargo metadata exited with $LASTEXITCODE" }
+    @(
+        $metadata.packages[0].targets |
+            Where-Object { $_.kind -contains 'bin' -and $_.name -eq $env:CRATE } |
+            ForEach-Object { $_.'required-features' }
+    )
+}
+
+$features = "$env:FEATURES"
+Invoke-CargoInstall $features
 
 # Collect binaries
-$installs = (Get-Content -Raw (Join-Path $cargoRoot '.crates2.json') | ConvertFrom-Json -AsHashtable).installs
-$binaries = @(
-    $installs.GetEnumerator() |
-        Where-Object { $_.Key.StartsWith("$env:CRATE ") } |
-        ForEach-Object { $_.Value.bins }
-)
+$binaries = Get-Binaries
+
+# Some crates put their binary behind a feature that is not on by default,
+# and then `cargo install` succeeds without installing anything. Turn on what
+# the binary named after the crate needs and build again. Other binaries are
+# left off: those are usually examples or development tools.
+if (-not $binaries) {
+    $required = @(Get-BinRequiredFeatures) -join ','
+    if ($required) {
+        "Building again with the features that bin `"$env:CRATE`" needs: $required"
+        $features = (@($features, $required) | Where-Object { $_ }) -join ','
+        Invoke-CargoInstall $features
+        $binaries = Get-Binaries
+    }
+}
 if (-not $binaries) { throw '`cargo-install` does not install any binaries!' }
 
 $binDir = Join-Path $cargoRoot 'bin'
