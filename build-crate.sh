@@ -82,7 +82,7 @@ CRATES2_JSON_PATH="${CARGO_ROOT}/.crates2.json"
 collect_binaries() {
     if [ -f "$CRATES2_JSON_PATH" ]; then
         jq -r '
-            .installs | to_entries[] | select(.key|startswith("'"${CRATE}"' ")) | .value.bins | .[]
+            (.installs // {}) | to_entries[] | select(.key|startswith("'"${CRATE}"' ")) | .value.bins | .[]
         ' "$CRATES2_JSON_PATH" | tr '\r' ' '
     fi
 }

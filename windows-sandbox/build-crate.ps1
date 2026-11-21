@@ -53,9 +53,11 @@ function Invoke-CargoInstall($features) {
 function Get-Binaries {
     $crates2 = Join-Path $cargoRoot '.crates2.json'
     if (-not (Test-Path -LiteralPath $crates2)) { return @() }
-    $installs = (Get-Content -Raw $crates2 | ConvertFrom-Json -AsHashtable).installs
+    # cargo leaves an empty file behind when it installed nothing.
+    $json = Get-Content -Raw $crates2 | ConvertFrom-Json -AsHashtable
+    if (-not $json -or -not $json.ContainsKey('installs')) { return @() }
     @(
-        $installs.GetEnumerator() |
+        $json.installs.GetEnumerator() |
             Where-Object { $_.Key.StartsWith("$env:CRATE ") } |
             ForEach-Object { $_.Value.bins }
     )
