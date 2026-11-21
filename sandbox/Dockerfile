@@ -17,33 +17,34 @@ LABEL org.opencontainers.image.source=https://github.com/cargo-bins/cargo-quicki
 LABEL org.opencontainers.image.description="Sandbox that cargo-quickinstall builds crates in"
 
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-        build-essential ca-certificates clang cmake curl file git jq lld llvm \
-        nasm ninja-build perl pkg-config protobuf-compiler python3 python3-venv \
-        unzip xz-utils \
-    && rm -rf /var/lib/apt/lists/*
-
 # Read-only at run time. The build gets its own CARGO_HOME.
 ENV RUSTUP_HOME=/opt/rustup CARGO_HOME=/opt/cargo
 ENV PATH=/opt/zigbuild/bin:/opt/cargo/bin:$PATH
 SHELL ["/bin/bash", "-euo", "pipefail", "-c"]
 # The first field of sandbox/image-tag.sh's output.
 ARG RUST_TOOLCHAIN=stable
-# Rust with every Linux target, cargo-zigbuild, and a static OpenSSL for every
-# Linux target, in /opt/openssl/<target>, that build-crate.sh points
-# openssl-sys at. Builds run with PKG_CONFIG set to a script that always
-# fails, so without it every crate that has openssl-sys among its
-# dependencies, but no `vendored` feature of its own, fails to build.
-# openssl-src builds it the way its `vendored` feature does, with zig as the
-# compiler like the crate builds, and for glibc 2.17 like build-version.sh.
+# The build tools, Rust with every Linux target, cargo-zigbuild, and a static
+# OpenSSL for every Linux target, in /opt/openssl/<target>, that
+# build-crate.sh points openssl-sys at. Builds run with PKG_CONFIG set to a
+# script that always fails, so without it every crate that has openssl-sys
+# among its dependencies, but no `vendored` feature of its own, fails to
+# build. openssl-src builds it the way its `vendored` feature does, with zig
+# as the compiler like the crate builds, and for glibc 2.17 like
+# build-version.sh.
 #
-# One step, with the inputs bind-mounted rather than copied, so that neither
-# the inputs nor the build directory end up in a layer of the image.
+# One step, with the inputs bind-mounted rather than copied, so that the
+# image is a single layer on top of the base, and neither the inputs nor
+# anything the step deletes again end up in it.
 RUN --mount=type=bind,source=supported-targets,target=/tmp/supported-targets \
     --mount=type=bind,source=zigbuild-requirements.txt,target=/tmp/zigbuild-requirements.txt \
     --mount=type=bind,source=sandbox/openssl,target=/tmp/openssl \
-    targets="$(tr -s ' ' '\n' < /tmp/supported-targets | grep -- '-linux-')" \
+    apt-get update \
+    && apt-get install -y --no-install-recommends \
+        build-essential ca-certificates clang cmake curl file git jq lld llvm \
+        nasm ninja-build perl pkg-config protobuf-compiler python3 python3-venv \
+        unzip xz-utils \
+    && rm -rf /var/lib/apt/lists/* \
+    && targets="$(tr -s ' ' '\n' < /tmp/supported-targets | grep -- '-linux-')" \
     && url="https://static.rust-lang.org/rustup/dist/$(uname -m)-unknown-linux-gnu/rustup-init" \
     && curl --proto '=https' --tlsv1.2 -sSf -o /tmp/rustup-init "$url" \
     && echo "$(curl --proto '=https' --tlsv1.2 -sSf "$url.sha256" | cut -d' ' -f1)  /tmp/rustup-init" | sha256sum -c - \
