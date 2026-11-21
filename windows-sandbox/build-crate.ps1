@@ -43,10 +43,59 @@ $installArgs = @('install', $env:CRATE, '--version', $env:VERSION, '--target', $
 if ($env:NO_DEFAULT_FEATURES -eq 'true') { $installArgs += '--no-default-features' }
 if ($env:FEATURES) { $installArgs += '--features', $env:FEATURES }
 
+# The minor version of the stable Rust that was current when $CRATE@$VERSION
+# was published, from its `pubtime` in the crates.io index. Releases come
+# every six weeks: 1.80 was on 2024-07-25. Never below 1.70, the first cargo
+# that uses the sparse index by default.
+function Get-RustMinorAtPublish {
+    $name = $env:CRATE.ToLowerInvariant()
+    $path = switch ($name.Length) {
+        1 { "1/$name" }
+        2 { "2/$name" }
+        3 { "3/$($name.Substring(0, 1))/$name" }
+        default { "$($name.Substring(0, 2))/$($name.Substring(2, 2))/$name" }
+    }
+    $index = (Invoke-WebRequest "https://index.crates.io/$path").Content -split "`n" |
+        Where-Object { $_ } | ForEach-Object { $_ | ConvertFrom-Json }
+    $entry = $index | Where-Object { $_.vers -eq $env:VERSION } | Select-Object -First 1
+    if (-not $entry) { return $null }
+    $published = if ($entry.PSObject.Properties['pubtime'] -and $entry.pubtime) {
+        [DateTimeOffset]::Parse($entry.pubtime)
+    } else {
+        [DateTimeOffset]::Parse('2015-05-15T00:00:00Z')
+    }
+    $days = ($published - [DateTimeOffset]::Parse('2024-07-25T00:00:00Z')).TotalDays
+    [Math]::Max(70, 80 + [Math]::Floor($days / 42))
+}
+
+# Runs cargo, shows its output and keeps it in $buildLog.
+$buildLog = Join-Path $env:TEMP 'cargo-install.log'
+function Invoke-CargoLogged {
+    & $cargo @args 2>&1 | ForEach-Object { "$_" } | Tee-Object -FilePath $buildLog | Out-Host
+    $LASTEXITCODE
+}
+
 # Some crates are published without a lockfile, so fall back to no `--locked`
 # just in case of spurious failure.
-& $cargo @installArgs --locked
-if ($LASTEXITCODE) { Invoke-Native $cargo @installArgs }
+$status = Invoke-CargoLogged @installArgs --locked
+if ($status) { $status = Invoke-CargoLogged @installArgs }
+if ($status) {
+    # Rust sometimes breaks old code on purpose, for example type inference
+    # that the time crate before 0.3.35 relied on (1.80), or new methods
+    # that take the place of a trait's (is_multiple_of in 1.87,
+    # File::try_lock in 1.89). So when rustc rejected the code itself, try
+    # once more with the Rust of the day it was published, and its lockfile.
+    if (-not (Select-String -Quiet -Path $buildLog -Pattern '^error\[E[0-9]{4}\]|incompatible with current versions of Rust')) {
+        throw "cargo exited with $status"
+    }
+    $currentMinor = [int]((& $cargo --version) -split '\.')[1]
+    $oldMinor = Get-RustMinorAtPublish
+    if (-not $oldMinor -or $oldMinor -ge $currentMinor) { throw "cargo exited with $status" }
+    "Building again with Rust 1.$oldMinor, the stable Rust of the day $env:CRATE $env:VERSION was published (1.70 at the earliest)"
+    $env:RUSTUP_TOOLCHAIN = "1.$oldMinor"
+    Invoke-Native $rustup toolchain install $env:RUSTUP_TOOLCHAIN --profile minimal --no-self-update --target $env:TARGET_ARCH
+    Invoke-Native $cargo @installArgs --locked
+}
 
 # Collect binaries
 $installs = (Get-Content -Raw (Join-Path $cargoRoot '.crates2.json') | ConvertFrom-Json -AsHashtable).installs
