@@ -117,9 +117,13 @@ $set = [ordered]@{
 foreach ($kv in $set.GetEnumerator()) { $psi.Environment[$kv.Key] = $kv.Value }
 
 function Stop-BuildUser {
-    Get-CimInstance Win32_Process | Where-Object {
-        (Invoke-CimMethod -InputObject $_ -MethodName GetOwner -ErrorAction SilentlyContinue).User -eq $user
-    } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }
+    # UserName is null rather than missing for processes we cannot query or
+    # that exit meanwhile, so this is safe under StrictMode. GetOwner on
+    # Win32_Process returns no User for those and failed the job.
+    $left = @(Get-Process -IncludeUserName -ErrorAction SilentlyContinue |
+            Where-Object { $_.UserName -eq "$env:COMPUTERNAME\$user" })
+    Write-Host "Stopping $($left.Count) leftover processes of $user"
+    $left | Stop-Process -Force -ErrorAction SilentlyContinue
     Get-ScheduledTask | Where-Object { $_.Principal.UserId -match $user } |
         Unregister-ScheduledTask -Confirm:$false -ErrorAction SilentlyContinue
     Disable-LocalUser -Name $user -ErrorAction SilentlyContinue
