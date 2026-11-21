@@ -30,31 +30,29 @@ ENV PATH=/opt/zigbuild/bin:/opt/cargo/bin:$PATH
 SHELL ["/bin/bash", "-euo", "pipefail", "-c"]
 # The first field of sandbox/image-tag.sh's output.
 ARG RUST_TOOLCHAIN=stable
-COPY supported-targets /opt/supported-targets
-RUN url="https://static.rust-lang.org/rustup/dist/$(uname -m)-unknown-linux-gnu/rustup-init" \
+# Rust with every Linux target, cargo-zigbuild, and a static OpenSSL for every
+# Linux target, in /opt/openssl/<target>, that build-crate.sh points
+# openssl-sys at. Builds run with PKG_CONFIG set to a script that always
+# fails, so without it every crate that has openssl-sys among its
+# dependencies, but no `vendored` feature of its own, fails to build.
+# openssl-src builds it the way its `vendored` feature does, with zig as the
+# compiler like the crate builds, and for glibc 2.17 like build-version.sh.
+#
+# One step, with the inputs bind-mounted rather than copied, so that neither
+# the inputs nor the build directory end up in a layer of the image.
+RUN --mount=type=bind,source=supported-targets,target=/tmp/supported-targets \
+    --mount=type=bind,source=zigbuild-requirements.txt,target=/tmp/zigbuild-requirements.txt \
+    --mount=type=bind,source=sandbox/openssl,target=/tmp/openssl \
+    targets="$(tr -s ' ' '\n' < /tmp/supported-targets | grep -- '-linux-')" \
+    && url="https://static.rust-lang.org/rustup/dist/$(uname -m)-unknown-linux-gnu/rustup-init" \
     && curl --proto '=https' --tlsv1.2 -sSf -o /tmp/rustup-init "$url" \
     && echo "$(curl --proto '=https' --tlsv1.2 -sSf "$url.sha256" | cut -d' ' -f1)  /tmp/rustup-init" | sha256sum -c - \
     && chmod +x /tmp/rustup-init \
     && /tmp/rustup-init -y --profile minimal --default-toolchain "$RUST_TOOLCHAIN" --no-modify-path \
     && rm /tmp/rustup-init \
-    && rustup target add $(tr -s ' ' '\n' < /opt/supported-targets | grep -- '-linux-') \
-    && chmod -R a+rX "$RUSTUP_HOME" "$CARGO_HOME"
-
-# cargo-zigbuild, then a static OpenSSL for every Linux target, in
-# /opt/openssl/<target>, that build-crate.sh points openssl-sys at. Builds run
-# with PKG_CONFIG set to a script that always fails, so without this every
-# crate that has openssl-sys among its dependencies, but no `vendored` feature
-# of its own, fails to build. openssl-src builds it the way its `vendored`
-# feature does, with zig as the compiler like the crate builds, and for glibc
-# 2.17 like build-version.sh.
-#
-# One step, with the inputs bind-mounted rather than copied, so that neither
-# the sources nor the build directory end up in a layer of the image.
-RUN --mount=type=bind,source=zigbuild-requirements.txt,target=/tmp/zigbuild-requirements.txt \
-    --mount=type=bind,source=sandbox/openssl,target=/tmp/openssl \
-    python3 -m venv /opt/zigbuild \
+    && rustup target add $targets \
+    && python3 -m venv /opt/zigbuild \
     && /opt/zigbuild/bin/pip install --no-cache-dir -r /tmp/zigbuild-requirements.txt \
-    && targets="$(tr -s ' ' '\n' < /opt/supported-targets | grep -- '-linux-')" \
     && export CARGO_TARGET_DIR=/tmp/openssl-target \
     && /opt/zigbuild/bin/cargo-zigbuild zigbuild --locked --release \
         --manifest-path /tmp/openssl/Cargo.toml \
@@ -68,7 +66,8 @@ RUN --mount=type=bind,source=zigbuild-requirements.txt,target=/tmp/zigbuild-requ
     && llvm-strip --strip-debug /opt/openssl/*/lib/*.a \
     && chmod -R a+rX /opt/openssl \
     && chmod -R a+rwX /opt/zigbuild \
-    && rm -rf "$CARGO_TARGET_DIR" "$CARGO_HOME/registry" "$HOME/.cache"
+    && rm -rf "$CARGO_TARGET_DIR" "$CARGO_HOME/registry" "$HOME/.cache" \
+    && chmod -R a+rX "$RUSTUP_HOME" "$CARGO_HOME"
 
 # cargo-zigbuild patches zig's libc headers for some targets (such as
 # arm-features.h for armv7 glibc), so the build user must be able to write
