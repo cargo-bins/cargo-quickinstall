@@ -105,8 +105,10 @@ jobs:
         run: |
           set -euxo pipefail
           touch .env
+          # All the jobs ask at once, and crates.io answers some of them with
+          # 429. curl retries that, after the Retry-After it sends.
           VERSION="$(
-            curl \
+            curl --retry 5 \
               --user-agent "cargo-quickinstall build pipeline (alsuren@gmail.com)" \
               --fail "https://crates.io/api/v1/crates/$CRATE" \
               | jq -r '.crate|.max_stable_version'
