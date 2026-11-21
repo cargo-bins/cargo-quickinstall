@@ -3,3 +3,4 @@ nextest
 atuin
 az-snp-vtpm
 tectonic
+libbpf-cargo
