@@ -50,6 +50,8 @@ function Invoke-CargoInstall($features) {
     if ($LASTEXITCODE) { Invoke-Native $cargo @installArgs }
 }
 
+# Returns the names of the binaries that were installed. A function's output
+# is unrolled, so wrap each call in @() to always get an array back.
 function Get-Binaries {
     $crates2 = Join-Path $cargoRoot '.crates2.json'
     if (-not (Test-Path -LiteralPath $crates2)) { return @() }
@@ -87,7 +89,7 @@ $features = "$env:FEATURES"
 Invoke-CargoInstall $features
 
 # Collect binaries
-$binaries = Get-Binaries
+$binaries = @(Get-Binaries)
 
 # Some crates put their binary behind a feature that is not on by default,
 # and then `cargo install` succeeds without installing anything. Turn on what
@@ -99,7 +101,7 @@ if (-not $binaries) {
         "Building again with the features that bin `"$env:CRATE`" needs: $required"
         $features = (@($features, $required) | Where-Object { $_ }) -join ','
         Invoke-CargoInstall $features
-        $binaries = Get-Binaries
+        $binaries = @(Get-Binaries)
     }
 }
 if (-not $binaries) { throw '`cargo-install` does not install any binaries!' }
