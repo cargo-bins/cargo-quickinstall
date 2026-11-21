@@ -43,6 +43,17 @@ updates:
       deps:
         patterns:
           - "*"    
+  - package-ecosystem: "cargo"
+    # This will update the OpenSSL that sandbox/Dockerfile builds
+    directory: "/sandbox/openssl"
+    schedule:
+      interval: "daily"
+    cooldown:
+      default-days: 7
+    groups:
+      deps:
+        patterns:
+          - "*"
   - package-ecosystem: "pip"
     # This will update requirements.txt
     directory: "/"

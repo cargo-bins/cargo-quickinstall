@@ -12,3 +12,4 @@ cronjob-scripts/*.egg-info
 cronjob-scripts/build
 uv.lock
 cronjob_scripts.egg-info/
+/sandbox/openssl/target

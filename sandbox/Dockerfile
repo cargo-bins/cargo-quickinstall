@@ -44,6 +44,28 @@ COPY zigbuild-requirements.txt /opt/zigbuild-requirements.txt
 RUN python3 -m venv /opt/zigbuild \
     && /opt/zigbuild/bin/pip install --no-cache-dir -r /opt/zigbuild-requirements.txt \
     && chmod -R a+rwX /opt/zigbuild
+
+# A static OpenSSL for every Linux target, in /opt/openssl/<target>, that
+# build-crate.sh points openssl-sys at. Builds run with PKG_CONFIG set to a
+# script that always fails, so without this every crate that has openssl-sys
+# among its dependencies, but no `vendored` feature of its own, fails to build.
+# openssl-src builds it the way its `vendored` feature does, with zig as the
+# compiler like the crate builds, and for glibc 2.17 like build-version.sh.
+COPY sandbox/openssl /tmp/openssl
+RUN cd /tmp/openssl \
+    && targets="$(tr -s ' ' '\n' < /opt/supported-targets | grep -- '-linux-')" \
+    && /opt/zigbuild/bin/cargo-zigbuild zigbuild --locked --release \
+        $(for t in $targets; do case "$t" in *-gnu*) t="$t.2.17" ;; esac; echo "--target $t"; done) \
+    && mkdir /opt/openssl \
+    && for t in $targets; do \
+        install="$(echo target/"$t"/release/build/openssl-sys-*/out/openssl-build/install)"; \
+        test -f "$install/lib/libssl.a" || exit 1; \
+        cp -R "$install" "/opt/openssl/$t" || exit 1; \
+    done \
+    && llvm-strip --strip-debug /opt/openssl/*/lib/*.a \
+    && chmod -R a+rX /opt/openssl \
+    && cd / && rm -rf /tmp/openssl "$CARGO_HOME/registry" "$HOME/.cache"
+
 # cargo-zigbuild patches zig's libc headers for some targets (such as
 # arm-features.h for armv7 glibc), so the build user must be able to write
 # there. That is fine: those writes go to the container's own layer, which

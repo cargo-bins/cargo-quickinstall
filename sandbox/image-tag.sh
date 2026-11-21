@@ -23,6 +23,7 @@ if [ -z "$date" ]; then
 fi
 
 # Everything sandbox/Dockerfile reads from the build context.
-inputs="$(sha256sum sandbox/* supported-targets zigbuild-requirements.txt | sha256sum | cut -c1-16)"
+inputs="$(find sandbox supported-targets zigbuild-requirements.txt -type f -print0 |
+    LC_ALL=C sort -z | xargs -0 sha256sum | sha256sum | cut -c1-16)"
 
 echo "stable-$date rust-$date-$inputs"
