@@ -10,8 +10,15 @@ cd "$1"
 
 exclude="$(date +'%y-%m-%d')"
 echo "${CRATE}" >>"$exclude"
-
 git add "$exclude"
+
+# This version failed on a compile error in its own source, so never build it
+# again, see cronjob_scripts/root_crate_error.py.
+if [ "${UNBUILDABLE:-}" = true ]; then
+    echo "${CRATE} ${VERSION}" >>unbuildable
+    git add unbuildable
+fi
+
 git --no-pager diff HEAD
 
 git config user.email "alsuren+quickinstall@gmail.com"
