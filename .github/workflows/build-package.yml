@@ -355,6 +355,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write # push the exclude list to the trigger branch
+      actions: read # read the build job's log
     defaults:
       run:
         shell: bash
@@ -371,5 +372,23 @@ jobs:
           persist-credentials: false
           ref: ${{ inputs.branch }}
           path: cargo-quickinstall
+      # The log is the crate's own output, so only ever look for a compile
+      # error in the source of $CRATE $VERSION in it. A crate can only get
+      # its own version marked unbuildable this way.
+      - name: Look for a compile error in the crate's own source
+        id: root-crate-error
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          job="$(gh api --paginate "repos/$GH_REPO/actions/runs/$GITHUB_RUN_ID/attempts/$GITHUB_RUN_ATTEMPT/jobs" \
+            -q '.jobs[] | select(.conclusion == "failure" and (.name | contains("build-popular-package-")) and (.name | endswith("build-popular-package-failure") | not)) | .id' | head -n1)"
+          if [ -n "$job" ] && gh api "repos/$GH_REPO/actions/jobs/$job/logs" |
+              python3 -I cargo-quickinstall/cronjob_scripts/root_crate_error.py "$CRATE" "$VERSION"; then
+            echo "unbuildable=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Record failure
+        env:
+          UNBUILDABLE: ${{ steps.root-crate-error.outputs.unbuildable }}
         run: '"$GITHUB_WORKSPACE/cargo-quickinstall/add-exclude.sh" "$GITHUB_WORKSPACE/trigger"'

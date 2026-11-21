@@ -30,6 +30,8 @@ class QueueInfo:
     type: str
     target: str
     queue: list[CrateAndMaybeVersion]
+    # (crate, version) pairs that can never build for this target.
+    unbuildable: frozenset[tuple[str, str]] = frozenset()
 
 
 def main():
@@ -54,6 +56,8 @@ def main():
         * if we already checked this package for this target, skip it
         * if we already tried to build this package 5 times in the last 7 days, skip it
           (TODO: also record the version in the failure log?)
+        * if this version of the package failed on a compile error in its own source, skip it
+          for good, see get_unbuildable()
         * check its latest version + if we have a package built for it. If we don't have a package
           built for it, trigger a build
             * if we already triggered m package builds since the start of the run, exit (probably
@@ -98,6 +102,7 @@ def main():
 
         tracking_worktree_path = checkout_worktree_for_target(target)
         excluded = get_excluded(tracking_worktree_path, days=7, max_failures=5)
+        unbuildable = get_unbuildable(tracking_worktree_path)
 
         # This should be a small list of crates, so we should get around to checking everything here
         # pretty often. This doesn't include failures from old clients (via the old stats server)
@@ -107,14 +112,25 @@ def main():
         )
         failed = without_excluded(failed, excluded)
         random.shuffle(failed)
-        queues.append(QueueInfo(type="failed", target=target, queue=failed))
+        queues.append(
+            QueueInfo(
+                type="failed", target=target, queue=failed, unbuildable=unbuildable
+            )
+        )
 
         # This will be a large list of crates, so it might take a while to get around to checking
         # everything here.
         all_requested = get_requested_crates(period="1 day", target=target)
         all_requested = without_excluded(all_requested, excluded)
         random.shuffle(all_requested)
-        queues.append(QueueInfo(type="requested", target=target, queue=all_requested))
+        queues.append(
+            QueueInfo(
+                type="requested",
+                target=target,
+                queue=all_requested,
+                unbuildable=unbuildable,
+            )
+        )
 
         # This is also large, and will take a while to check.
         queues.append(
@@ -122,6 +138,7 @@ def main():
                 type="popular",
                 target=target,
                 queue=without_excluded(popular_crates, excluded),
+                unbuildable=unbuildable,
             )
         )
 
@@ -173,6 +190,7 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         crate=crate,
         target=queue.target,
         requested_version=requested_version,
+        unbuildable=queue.unbuildable,
     )
     if not version:
         return False
@@ -253,6 +271,25 @@ def get_excluded(tracking_worktree_path: str, days: int, max_failures: int) -> s
 
 
 @lru_cache
+def get_unbuildable(tracking_worktree_path: str) -> frozenset[tuple[str, str]]:
+    """
+    The (crate, version) pairs in the `unbuildable` file, one "crate version" per line, which
+    add-exclude.sh appends to when a build failed on a compile error in the crate's own source
+    (see root_crate_error.py). Building that version again would fail the same way, but a new
+    version gets built as usual.
+    """
+    try:
+        with open(Path(tracking_worktree_path) / "unbuildable", "r") as file:
+            return frozenset(
+                (fields[0], fields[1])
+                for line in file
+                if len(fields := line.split()) == 2
+            )
+    except FileNotFoundError:
+        return frozenset()
+
+
+@lru_cache
 def get_repo_url() -> str:
     repo_env_var = os.environ.get("GITHUB_REPOSITORY")
     if repo_env_var:
@@ -279,11 +316,16 @@ def get_current_version_if_unbuilt(
     crate: str,
     target: str,
     requested_version: str | None = None,
+    unbuildable: frozenset[tuple[str, str]] = frozenset(),
 ) -> CrateVersionDict | None:
     # FIXME(probably never): in theory we could skip a round-trip to crates.io if we already know the version,
     # but the code ends up looking ugly so I decided not to bother.
     version = get_latest_version(crate, requested_version)
     if not version:
+        return None
+
+    if (crate, version["vers"]) in unbuildable:
+        print(f"{crate} {version['vers']} does not compile for {target}")
         return None
 
     tag = f"{crate}-{version['vers']}"
