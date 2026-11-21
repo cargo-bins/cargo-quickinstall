@@ -82,8 +82,8 @@ $psi.LoadUserProfile = $true
 $psi.WorkingDirectory = $work
 $psi.CreateNoWindow = $true
 foreach ($name in @($psi.Environment.Keys)) {
-    # Also the runner's Rust settings, such as the CARGO_TARGET_DIR that
-    # selfbuild.yml sets, which point at places the build cannot write.
+    # Also the runner's Rust settings, such as a CARGO_TARGET_DIR, which
+    # can point at places the build cannot write.
     if ($name -match '^(GITHUB_|ACTIONS_|RUNNER_|INPUT_|CARGO_|RUSTUP_|RUSTC|RUSTDOC|RUSTFLAGS$)') {
         $psi.Environment.Remove($name) | Out-Null
     }

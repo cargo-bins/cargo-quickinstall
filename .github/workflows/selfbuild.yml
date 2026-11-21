@@ -90,8 +90,10 @@ jobs:
       - name: Install latest rust
         run: rustup toolchain install stable --no-self-update --profile minimal
 
-      - uses: ./.github/actions/cache-cargo-install
- 
+      # No cache-cargo-install here: every sandbox in build-version.sh drops
+      # CARGO_TARGET_DIR (or never sees the directory), so a cached target
+      # dir would only be downloaded and never used.
+
       # b3sum is small, but blake3's build script compiles assembly with cc
       # on x86_64 and NEON C intrinsics on aarch64.
       - name: Build ${{ matrix.crate || 'b3sum' }}
