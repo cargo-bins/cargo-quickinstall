@@ -97,14 +97,15 @@ if [ -n "${SANDBOX:-}" ] && [ "${RUNNER_OS?}" = Linux ]; then
     exit
 fi
 
-# Install llvm
+# Install llvm, and protoc for crates that compile protobuf definitions in
+# their build scripts. The sandbox image has both for Linux targets.
 if [ "${RUNNER_OS?}" == "Windows" ]; then
-    choco install llvm
+    choco install llvm protoc
 elif [ "${RUNNER_OS?}" == "Linux" ]; then
     sudo apt-get update
-    sudo apt-get install -y clang llvm lld
+    sudo apt-get install -y clang llvm lld protobuf-compiler
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
-    brew install llvm
+    brew install llvm protobuf
 else
     echo "Unsupported ${RUNNER_OS?}"
     exit 1
