@@ -105,7 +105,10 @@ elif [ "${RUNNER_OS?}" == "Linux" ]; then
     sudo apt-get update
     sudo apt-get install -y clang llvm lld protobuf-compiler
 elif [ "${RUNNER_OS?}" == "macOS" ]; then
-    brew install llvm protobuf
+    # No llvm: Homebrew's is keg-only, so nothing has found it since #671
+    # stopped putting it on PATH and in LLVM_CONFIG_PATH, and bindgen uses
+    # the libclang that comes with Xcode.
+    brew install protobuf
 else
     echo "Unsupported ${RUNNER_OS?}"
     exit 1
