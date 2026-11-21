@@ -25,11 +25,14 @@ fn zig_target(target: &str) -> (&'static str, &'static str) {
     }
 }
 
-/// Writes a shell script that runs `command`, since cc reads a single
-/// program from CC_<target>, AR_<target> and RANLIB_<target>.
-fn script(path: &Path, command: &str) {
-    fs::write(path, format!("#!/bin/sh\nexec {command} \"$@\"\n")).unwrap();
-    fs::set_permissions(path, fs::Permissions::from_mode(0o755)).unwrap();
+/// Writes a shell script that runs `command` into OUT_DIR, and returns its
+/// path, since cc reads a single program from CC_<target>, AR_<target> and
+/// RANLIB_<target>.
+fn script(name: &str, command: &str) -> PathBuf {
+    let path = Path::new(&env::var_os("OUT_DIR").unwrap()).join(name);
+    fs::write(&path, format!("#!/bin/sh\nexec {command} \"$@\"\n")).unwrap();
+    fs::set_permissions(&path, fs::Permissions::from_mode(0o755)).unwrap();
+    path
 }
 
 fn main() {
@@ -37,19 +40,16 @@ fn main() {
     println!("cargo::rerun-if-env-changed=OPENSSL_PREFIX");
     let targets = env::var("OPENSSL_TARGETS").expect("OPENSSL_TARGETS is not set");
     let targets: Vec<&str> = targets.split_whitespace().collect();
-    let prefix = PathBuf::from(env::var("OPENSSL_PREFIX").expect("OPENSSL_PREFIX is not set"));
-    let out_dir = PathBuf::from(env::var("OUT_DIR").unwrap());
+    let prefix = PathBuf::from(env::var_os("OPENSSL_PREFIX").expect("OPENSSL_PREFIX is not set"));
+    let out_dir = PathBuf::from(env::var_os("OUT_DIR").unwrap());
     let host = env::var("HOST").unwrap();
 
-    let ar = out_dir.join("ar.sh");
-    script(&ar, "cargo-zigbuild zig ar --");
-    let ranlib = out_dir.join("ranlib.sh");
-    script(&ranlib, "cargo-zigbuild zig ranlib --");
+    let ar = script("ar.sh", "cargo-zigbuild zig ar --");
+    let ranlib = script("ranlib.sh", "cargo-zigbuild zig ranlib --");
     for target in &targets {
         let (zig_target, flags) = zig_target(target);
-        let cc = out_dir.join(format!("cc-{target}.sh"));
-        script(
-            &cc,
+        let cc = script(
+            &format!("cc-{target}.sh"),
             &format!("cargo-zigbuild zig cc -- -fno-sanitize=all {flags} -target {zig_target}"),
         );
         let target = target.replace('-', "_");
@@ -63,13 +63,15 @@ fn main() {
 
     fs::create_dir_all(&prefix).unwrap();
     thread::scope(|s| {
-        for &target in &targets {
-            let (host, out_dir, prefix) = (&host, &out_dir, &prefix);
-            s.spawn(move || {
+        for target in &targets {
+            s.spawn(|| {
+                // The &str in `targets`, so that the thread borrows that
+                // rather than the loop variable.
+                let target = *target;
                 let build = out_dir.join(target);
                 openssl_src::Build::new()
                     .target(target)
-                    .host(host)
+                    .host(&host)
                     .out_dir(&build)
                     .build();
                 fs::rename(build.join("install"), prefix.join(target)).unwrap();
