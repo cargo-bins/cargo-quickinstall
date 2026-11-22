@@ -1,0 +1,6 @@
+
+; Added to build.sb for build-crate.sh's build phase, which runs the crate's
+; build scripts and proc macros: nothing it needs is on the network, as the
+; fetch phase downloaded it all, so it gets none. That also covers the
+; mDNSResponder socket, so names do not resolve either.
+(deny network*)

@@ -149,8 +149,9 @@ jobs:
           ALWAYS_BUILD: ${{ inputs.always_build }}
           TEMPDIR: ${{ env.BUILD_DIR }}
           # Linux targets build in a container, macOS targets as a separate
-          # user under sandbox-exec, Windows targets as a separate user at Low
-          # integrity, see build-version.sh.
+          # user under sandbox-exec, Windows targets in an AppContainer of a
+          # separate user, all without network once the crate is downloaded,
+          # see build-version.sh.
           SANDBOX: 1
         run: |
           set -euxo pipefail

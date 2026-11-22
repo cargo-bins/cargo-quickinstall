@@ -8,6 +8,15 @@
 # macOS targets. For Windows targets it runs windows-sandbox/build-crate.ps1
 # instead, which does the same and must be kept in step with this. It needs
 # no privileges of its own.
+#
+# PHASE splits it in two, so that the sandboxes can run the part that runs
+# crate code without network:
+#
+#   fetch  downloads the crate and everything it can depend on into
+#          CARGO_HOME, and the target if it is missing. It runs no crate code.
+#   build  builds offline from what fetch left in CARGO_HOME, and packages.
+#
+# Without PHASE it does both.
 set -euxo pipefail
 
 cd "$(dirname "$0")"
@@ -44,14 +53,82 @@ install_zig_cc_and_config_to_use_it() {
     export PKG_CONFIG="$PWD/pkg-config-cross.sh"
 }
 
+phase="${PHASE:-all}"
+case "$phase" in
+fetch | build | all) ;;
+*)
+    echo "Unknown PHASE $phase"
+    exit 1
+    ;;
+esac
+
 if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     install_zig_cc_and_config_to_use_it
 fi
 
-# The container image already has the target.
-if ! rustup target list --installed | grep -qx "$TARGET_ARCH"; then
-    rustup target add "$TARGET_ARCH"
+# Downloads $CRATE@$VERSION and every package that `cargo install` can need
+# for it, with or without --locked and with any features, into CARGO_HOME.
+#
+# Everything here runs from / and names manifests with --manifest-path, as
+# cargo reads .cargo/config.toml from the current directory up: a config in
+# the crate could otherwise set a rustc wrapper and run code here.
+fetch_crate() {
+    local work crate_file src
+    work="$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-fetch')"
+
+    # The crate itself, and its index entry, through a package that depends
+    # on it. That works for crates without a library too: cargo warns, but
+    # resolves and downloads them anyway.
+    mkdir -p "$work/root/src"
+    : >"$work/root/src/lib.rs"
+    cat >"$work/root/Cargo.toml" <<EOF
+[package]
+name = "quickinstall-fetch"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+$CRATE = "=$VERSION"
+EOF
+    (cd / && cargo fetch --manifest-path "$work/root/Cargo.toml")
+
+    # What `cargo install --locked` builds with: the lockfile in the crate.
+    crate_file="$(find "${CARGO_HOME:-$HOME/.cargo}/registry/cache" -name "$CRATE-$VERSION.crate" | head -n 1)"
+    mkdir -p "$work/crate"
+    tar -xzf "$crate_file" -C "$work/crate"
+    src="$work/crate/$CRATE-$VERSION"
+    if [ -f "$src/Cargo.lock" ]; then
+        (cd / && cargo fetch --locked --manifest-path "$src/Cargo.toml") || true
+    fi
+
+    # And what it builds with without --locked: a fresh resolution, which,
+    # with the crate as the root, covers all its features.
+    # If that fails, the build still has what the package above resolved.
+    rm -f "$src/Cargo.lock"
+    (
+        cd /
+        cargo generate-lockfile --manifest-path "$src/Cargo.toml"
+        cargo fetch --locked --manifest-path "$src/Cargo.toml"
+    ) || true
+
+    rm -rf "$work"
+}
+
+if [ "$phase" != build ]; then
+    # The container image already has the target.
+    if ! rustup target list --installed | grep -qx "$TARGET_ARCH"; then
+        rustup target add "$TARGET_ARCH"
+    fi
+    fetch_crate
 fi
+
+if [ "$phase" = fetch ]; then
+    exit
+fi
+
+# From here on nothing needs the network, and the sandboxes run it without.
+export CARGO_NET_OFFLINE=true
 
 # Start building!
 CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')

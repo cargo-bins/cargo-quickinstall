@@ -9,6 +9,11 @@
 # the profile and by its permissions. Every process it started is killed
 # before the tarball is copied out.
 #
+# It runs twice: once to install Rust and to run build-crate.sh's fetch phase,
+# which downloads the crate and its dependencies and runs no crate code, and
+# then for its build phase, which does, under offline.sb as well, so without
+# network.
+#
 # Needs CRATE, VERSION, TARGET_ARCH and TEMPDIR, and FEATURES and
 # NO_DEFAULT_FEATURES like build-crate.sh.
 set -euo pipefail
@@ -42,41 +47,56 @@ sudo chmod 700 "$runner_home"
 # workspace is in the runner's home, which the build user cannot read.
 src="$(sudo mktemp -d /private/tmp/quickinstall-src.XXXXXX)"
 sudo install -m 644 "$here/build.sb" "$src/build.sb"
+cat "$here/build.sb" "$here/offline.sb" | sudo tee "$src/build-offline.sb" >/dev/null
+sudo chmod 644 "$src/build-offline.sb"
 sudo install -m 755 "$here/../build-crate.sh" "$src/build-crate.sh"
 sudo chmod 755 "$src"
 
 out="$build_home/out"
 
+# Runs the command after the profile as the build user, under that profile.
 # env -i: nothing from the runner's environment, ACTIONS_* and GITHUB_*
 # included, reaches the build.
-(
-    cd /
-    sudo -u "$user" -H env -i \
-        HOME="$build_home" \
-        USER="$user" \
-        PATH="$build_home/.cargo/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" \
-        CRATE="$CRATE" \
-        VERSION="$VERSION" \
-        TARGET_ARCH="$TARGET_ARCH" \
-        FEATURES="${FEATURES:-}" \
-        NO_DEFAULT_FEATURES="${NO_DEFAULT_FEATURES:-}" \
-        OUT_DIR="$out" \
-        /usr/bin/sandbox-exec \
-        -D RUNNER_HOME="$runner_home" \
-        -D BUILD_HOME="$build_home" \
-        -f "$src/build.sb" \
-        /bin/bash -euo pipefail -c '
-            cd "$HOME"
-            mkdir -p "$OUT_DIR"
-            arch="$(uname -m | sed s/arm64/aarch64/)"
-            curl --proto "=https" --tlsv1.2 -sSf -o rustup-init \
-                "https://static.rust-lang.org/rustup/dist/$arch-apple-darwin/rustup-init"
-            chmod +x rustup-init
-            ./rustup-init -y --quiet --profile minimal --no-modify-path --default-toolchain stable
-            rm rustup-init
-            exec "$0"
-        ' "$src/build-crate.sh"
-)
+run_sandboxed() {
+    local profile="$1"
+    shift
+    (
+        cd /
+        sudo -u "$user" -H env -i \
+            HOME="$build_home" \
+            USER="$user" \
+            PATH="$build_home/.cargo/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" \
+            CRATE="$CRATE" \
+            VERSION="$VERSION" \
+            TARGET_ARCH="$TARGET_ARCH" \
+            FEATURES="${FEATURES:-}" \
+            NO_DEFAULT_FEATURES="${NO_DEFAULT_FEATURES:-}" \
+            OUT_DIR="$out" \
+            /usr/bin/sandbox-exec \
+            -D RUNNER_HOME="$runner_home" \
+            -D BUILD_HOME="$build_home" \
+            -f "$profile" \
+            "$@"
+    )
+}
+
+# shellcheck disable=SC2016 # expanded by the inner bash
+run_sandboxed "$src/build.sb" /bin/bash -euo pipefail -c '
+    cd "$HOME"
+    mkdir -p "$OUT_DIR"
+    arch="$(uname -m | sed s/arm64/aarch64/)"
+    curl --proto "=https" --tlsv1.2 -sSf -o rustup-init \
+        "https://static.rust-lang.org/rustup/dist/$arch-apple-darwin/rustup-init"
+    chmod +x rustup-init
+    ./rustup-init -y --quiet --profile minimal --no-modify-path --default-toolchain stable
+    rm rustup-init
+    PHASE=fetch exec "$0"
+' "$src/build-crate.sh"
+
+# Nothing from the first run may still be running: it could reach the network.
+kill_build_user
+
+run_sandboxed "$src/build-offline.sb" /usr/bin/env PHASE=build "$src/build-crate.sh"
 
 kill_build_user
 
