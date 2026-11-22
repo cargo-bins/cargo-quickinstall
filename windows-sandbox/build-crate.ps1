@@ -188,10 +188,31 @@ foreach ($file in $binaries) {
     }
 }
 
-# Package up the binaries so that they can be untarred in ~/.cargo/bin, with
-# the tar.exe that comes with Windows.
+# Package up the binaries so that they can be untarred in ~/.cargo/bin, as a
+# V7 tarball like build-crate.sh makes. With .NET: the tar.exe that comes with
+# Windows fails in the AppContainer, which may not ask for the free space of C:.
 $tarball = Join-Path $env:OUT_DIR "$env:CRATE-$env:VERSION-$env:TARGET_ARCH.tar.gz"
-$tar = "$env:SystemRoot\System32\tar.exe"
-Invoke-Native $tar --format v7 --options gzip:compression-level=9 -czf $tarball -C $binDir @binaries
-Invoke-Native $tar -tvzf $tarball
+$mode = [IO.UnixFileMode]'UserRead, UserWrite, UserExecute, GroupRead, GroupExecute, OtherRead, OtherExecute'
+$file = [IO.File]::Create($tarball)
+try {
+    $gzip = [IO.Compression.GZipStream]::new($file, [IO.Compression.CompressionLevel]::SmallestSize)
+    $writer = [Formats.Tar.TarWriter]::new($gzip, [Formats.Tar.TarEntryFormat]::V7)
+    try {
+        foreach ($name in $binaries) {
+            $path = Join-Path $binDir $name
+            $entry = [Formats.Tar.V7TarEntry]::new([Formats.Tar.TarEntryType]::V7RegularFile, $name)
+            $entry.Mode = $mode
+            $entry.ModificationTime = [IO.File]::GetLastWriteTimeUtc($path)
+            $entry.DataStream = [IO.File]::OpenRead($path)
+            try { $writer.WriteEntry($entry) } finally { $entry.DataStream.Dispose() }
+        }
+    } finally { $writer.Dispose(); $gzip.Dispose() }
+} finally { $file.Dispose() }
+
+# List what went in.
+$file = [IO.File]::OpenRead($tarball)
+try {
+    $reader = [Formats.Tar.TarReader]::new([IO.Compression.GZipStream]::new($file, [IO.Compression.CompressionMode]::Decompress))
+    while ($entry = $reader.GetNextEntry()) { '{0} {1,12} {2}' -f $entry.Mode, $entry.Length, $entry.Name }
+} finally { $file.Dispose() }
 $tarball
