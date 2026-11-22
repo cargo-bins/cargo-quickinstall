@@ -34,14 +34,15 @@ $rustup = Join-Path $env:CARGO_HOME 'bin\rustup.exe'
 
 # Downloads the crate and every package that `cargo install` can need for it,
 # with or without --locked and with any features, into CARGO_HOME, like
-# fetch_crate in build-crate.sh. Every cargo here runs in an empty directory
-# and names the manifest, as cargo reads .cargo\config.toml from the current
-# directory up: one in the crate could set a rustc wrapper and run code here.
+# fetch_crate in build-crate.sh. cargo runs in the current directory, which
+# build.ps1 makes the work directory, and is given the manifests, as it reads
+# .cargo\config.toml from the current directory up: one in the crate could set
+# a rustc wrapper and run code here. (Push-Location would not work: it needs
+# to read the directories above, which the AppContainer cannot.)
 function Invoke-FetchCrate {
     $work = Join-Path $env:TEMP "cargo-fetch-$([guid]::NewGuid())"
     $root = Join-Path $work 'root'
-    $empty = Join-Path $work 'empty'
-    $null = [IO.Directory]::CreateDirectory((Join-Path $root 'src')), [IO.Directory]::CreateDirectory($empty)
+    $null = [IO.Directory]::CreateDirectory((Join-Path $root 'src'))
     [IO.File]::WriteAllText((Join-Path $root 'src\lib.rs'), '')
     # The crate itself, and its index entry, through a package that depends
     # on it. That works for crates without a library too: cargo warns, but
@@ -56,34 +57,31 @@ publish = false
 [dependencies]
 $env:CRATE = "=$env:VERSION"
 "@)
-    Push-Location $empty
+    Invoke-Native $cargo fetch --manifest-path (Join-Path $root 'Cargo.toml')
+
+    # What `cargo install --locked` builds with: the lockfile in the crate.
+    $crateFile = [IO.Directory]::EnumerateFiles((Join-Path $env:CARGO_HOME 'registry\cache'), "$env:CRATE-$env:VERSION.crate", 'AllDirectories') |
+        Select-Object -First 1
+    $extracted = Join-Path $work 'crate'
+    $null = [IO.Directory]::CreateDirectory($extracted)
+    $stream = [IO.File]::OpenRead($crateFile)
     try {
-        Invoke-Native $cargo fetch --manifest-path (Join-Path $root 'Cargo.toml')
+        $gzip = [IO.Compression.GZipStream]::new($stream, [IO.Compression.CompressionMode]::Decompress)
+        [Formats.Tar.TarFile]::ExtractToDirectory($gzip, $extracted, $false)
+    } finally { $stream.Dispose() }
+    $src = Join-Path $extracted "$env:CRATE-$env:VERSION"
+    $manifest = Join-Path $src 'Cargo.toml'
+    $lock = Join-Path $src 'Cargo.lock'
+    if ([IO.File]::Exists($lock)) {
+        & $cargo fetch --locked --manifest-path $manifest
+        [IO.File]::Delete($lock)
+    }
 
-        # What `cargo install --locked` builds with: the lockfile in the crate.
-        $crateFile = [IO.Directory]::EnumerateFiles((Join-Path $env:CARGO_HOME 'registry\cache'), "$env:CRATE-$env:VERSION.crate", 'AllDirectories') |
-            Select-Object -First 1
-        $extracted = Join-Path $work 'crate'
-        $null = [IO.Directory]::CreateDirectory($extracted)
-        $stream = [IO.File]::OpenRead($crateFile)
-        try {
-            $gzip = [IO.Compression.GZipStream]::new($stream, [IO.Compression.CompressionMode]::Decompress)
-            [Formats.Tar.TarFile]::ExtractToDirectory($gzip, $extracted, $false)
-        } finally { $stream.Dispose() }
-        $src = Join-Path $extracted "$env:CRATE-$env:VERSION"
-        $manifest = Join-Path $src 'Cargo.toml'
-        $lock = Join-Path $src 'Cargo.lock'
-        if ([IO.File]::Exists($lock)) {
-            & $cargo fetch --locked --manifest-path $manifest
-            [IO.File]::Delete($lock)
-        }
-
-        # And what it builds with without --locked: a fresh resolution, which,
-        # with the crate as the root, covers all its features. If that fails,
-        # the build still has what the package above resolved.
-        & $cargo generate-lockfile --manifest-path $manifest
-        if (-not $LASTEXITCODE) { & $cargo fetch --locked --manifest-path $manifest }
-    } finally { Pop-Location }
+    # And what it builds with without --locked: a fresh resolution, which,
+    # with the crate as the root, covers all its features. If that fails,
+    # the build still has what the package above resolved.
+    & $cargo generate-lockfile --manifest-path $manifest
+    if (-not $LASTEXITCODE) { & $cargo fetch --locked --manifest-path $manifest }
     [IO.Directory]::Delete($work, $true)
     $global:LASTEXITCODE = 0
 }
