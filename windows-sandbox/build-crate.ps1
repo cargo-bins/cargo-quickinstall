@@ -6,9 +6,14 @@
 # Installs a toolchain into CARGO_HOME and RUSTUP_HOME, builds
 # $CRATE@$VERSION for $TARGET_ARCH and packages its binaries into
 # $OUT_DIR\$CRATE-$VERSION-$TARGET_ARCH.tar.gz. Keep it in step with
-# build-crate.sh.
+# build-crate.sh, PHASE included: fetch installs the toolchain and downloads
+# the crate and everything it can depend on, and runs no crate code; build
+# builds offline from that and packages; without PHASE it does both.
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
+
+$phase = if ($env:PHASE) { $env:PHASE } else { 'all' }
+if ($phase -notin 'fetch', 'build', 'all') { throw "Unknown PHASE $phase" }
 
 foreach ($name in 'CRATE', 'VERSION', 'TARGET_ARCH', 'OUT_DIR', 'CARGO_HOME', 'RUSTUP_HOME', 'RUSTUP_HOST') {
     if (-not [Environment]::GetEnvironmentVariable($name)) { throw "$name is not set" }
@@ -22,16 +27,80 @@ function Invoke-Native {
 
 New-Item -ItemType Directory -Force $env:TEMP, $env:OUT_DIR | Out-Null
 
-$rustupInit = Join-Path $env:TEMP 'rustup-init.exe'
-Invoke-WebRequest "https://static.rust-lang.org/rustup/dist/$env:RUSTUP_HOST/rustup-init.exe" -OutFile $rustupInit
-Invoke-Native $rustupInit -y --quiet --profile minimal --no-modify-path --default-toolchain stable
-Remove-Item $rustupInit
 $cargo = Join-Path $env:CARGO_HOME 'bin\cargo.exe'
 $rustup = Join-Path $env:CARGO_HOME 'bin\rustup.exe'
 
-if (-not (& $rustup target list --installed | Where-Object { $_ -eq $env:TARGET_ARCH })) {
-    Invoke-Native $rustup target add $env:TARGET_ARCH
+# Downloads the crate and every package that `cargo install` can need for it,
+# with or without --locked and with any features, into CARGO_HOME, like
+# fetch_crate in build-crate.sh. Every cargo here runs in an empty directory
+# and names the manifest, as cargo reads .cargo\config.toml from the current
+# directory up: one in the crate could set a rustc wrapper and run code here.
+function Invoke-FetchCrate {
+    $work = Join-Path $env:TEMP "cargo-fetch-$([guid]::NewGuid())"
+    $root = Join-Path $work 'root'
+    $empty = Join-Path $work 'empty'
+    New-Item -ItemType Directory (Join-Path $root 'src'), $empty | Out-Null
+    New-Item -ItemType File (Join-Path $root 'src\lib.rs') | Out-Null
+    # The crate itself, and its index entry, through a package that depends
+    # on it. That works for crates without a library too: cargo warns, but
+    # resolves and downloads them anyway.
+    @"
+[package]
+name = "quickinstall-fetch"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+$env:CRATE = "=$env:VERSION"
+"@ | Set-Content -LiteralPath (Join-Path $root 'Cargo.toml')
+    Push-Location $empty
+    try {
+        Invoke-Native $cargo fetch --manifest-path (Join-Path $root 'Cargo.toml')
+
+        # What `cargo install --locked` builds with: the lockfile in the crate.
+        $crateFile = Get-ChildItem -Recurse -File (Join-Path $env:CARGO_HOME 'registry\cache') -Filter "$env:CRATE-$env:VERSION.crate" |
+            Select-Object -First 1
+        $extracted = Join-Path $work 'crate'
+        New-Item -ItemType Directory $extracted | Out-Null
+        $stream = [IO.File]::OpenRead($crateFile.FullName)
+        try {
+            $gzip = [IO.Compression.GZipStream]::new($stream, [IO.Compression.CompressionMode]::Decompress)
+            [Formats.Tar.TarFile]::ExtractToDirectory($gzip, $extracted, $false)
+        } finally { $stream.Dispose() }
+        $src = Join-Path $extracted "$env:CRATE-$env:VERSION"
+        $manifest = Join-Path $src 'Cargo.toml'
+        $lock = Join-Path $src 'Cargo.lock'
+        if (Test-Path -LiteralPath $lock) {
+            & $cargo fetch --locked --manifest-path $manifest
+            Remove-Item -LiteralPath $lock
+        }
+
+        # And what it builds with without --locked: a fresh resolution, which,
+        # with the crate as the root, covers all its features. If that fails,
+        # the build still has what the package above resolved.
+        & $cargo generate-lockfile --manifest-path $manifest
+        if (-not $LASTEXITCODE) { & $cargo fetch --locked --manifest-path $manifest }
+    } finally { Pop-Location }
+    Remove-Item -Recurse -Force -LiteralPath $work
+    $global:LASTEXITCODE = 0
 }
+
+if ($phase -ne 'build') {
+    $rustupInit = Join-Path $env:TEMP 'rustup-init.exe'
+    Invoke-WebRequest "https://static.rust-lang.org/rustup/dist/$env:RUSTUP_HOST/rustup-init.exe" -OutFile $rustupInit
+    Invoke-Native $rustupInit -y --quiet --profile minimal --no-modify-path --default-toolchain stable
+    Remove-Item $rustupInit
+
+    if (-not (& $rustup target list --installed | Where-Object { $_ -eq $env:TARGET_ARCH })) {
+        Invoke-Native $rustup target add $env:TARGET_ARCH
+    }
+    Invoke-FetchCrate
+}
+if ($phase -eq 'fetch') { exit 0 }
+
+# From here on nothing needs the network, and the sandbox runs it without.
+$env:CARGO_NET_OFFLINE = 'true'
 
 $cargoRoot = Join-Path $env:TEMP "cargo-root-$([guid]::NewGuid())"
 $env:CARGO_PROFILE_RELEASE_CODEGEN_UNITS = '1'

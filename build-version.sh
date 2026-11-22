@@ -40,13 +40,19 @@ export CRATE VERSION TARGET_ARCH CARGO_TARGET_ARCH
 # container it sees only the scripts and the output directory, and the token
 # is never there.
 #
+# It runs twice: build-crate.sh's fetch phase downloads the crate and its
+# dependencies, and runs no crate code, and then its build phase, which does,
+# runs without network, from what the first left in the shared CARGO_HOME.
+#
 # Do not use a job-level `container:` instead: the runner mounts the docker
 # socket and its working directories into it, and runs actions with the
 # runtime token inside it.
 build_in_container() {
-    local ids image toolchain tag out tarball
+    local ids image toolchain tag out work tarball
     tarball="${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
     out="$(mktemp -d)"
+    work="$(mktemp -d)"
+    mkdir "$work/home"
 
     # Use the image that .github/workflows/sandbox-image.yml published for
     # these inputs and the current stable Rust. Only that workflow can push
@@ -64,22 +70,28 @@ build_in_container() {
             --tag "$image" --file sandbox/Dockerfile .
     fi
 
-    docker run --rm --init \
-        --user "$(id -u):$(id -g)" \
-        --cap-drop=ALL \
-        --security-opt=no-new-privileges \
-        --volume "$PWD:/quickinstall:ro" \
-        --volume "$out:/out" \
-        --env HOME=/tmp/home \
-        --env CARGO_HOME=/tmp/cargo-home \
-        --env CRATE \
-        --env VERSION \
-        --env TARGET_ARCH \
-        --env CARGO_TARGET_ARCH \
-        --env FEATURES \
-        --env NO_DEFAULT_FEATURES \
-        --env OUT_DIR=/out \
-        "$image" /quickinstall/build-crate.sh
+    run_in_container() {
+        docker run --rm --init \
+            --user "$(id -u):$(id -g)" \
+            --cap-drop=ALL \
+            --security-opt=no-new-privileges \
+            --volume "$PWD:/quickinstall:ro" \
+            --volume "$work:/work" \
+            --volume "$out:/out" \
+            --env HOME=/work/home \
+            --env CARGO_HOME=/work/cargo-home \
+            --env CRATE \
+            --env VERSION \
+            --env TARGET_ARCH \
+            --env CARGO_TARGET_ARCH \
+            --env FEATURES \
+            --env NO_DEFAULT_FEATURES \
+            --env OUT_DIR=/out \
+            "$@" \
+            "$image" /quickinstall/build-crate.sh
+    }
+    run_in_container --env PHASE=fetch
+    run_in_container --env PHASE=build --network=none
 
     # Copy out only the tarball, and only if it is a regular file, so that a
     # symlink cannot make the upload pick up the runner's files.
@@ -88,7 +100,7 @@ build_in_container() {
         exit 1
     fi
     cp "$out/$tarball" "${TEMPDIR}/$tarball"
-    rm -rf "$out"
+    rm -rf "$out" "$work"
     echo "${TEMPDIR}/$tarball"
 }
 
