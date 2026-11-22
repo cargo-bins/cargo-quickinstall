@@ -194,4 +194,5 @@ if (-not $item -or $item.PSIsContainer -or ($item.Attributes -band [IO.FileAttri
     throw "$tarball is missing or not a regular file"
 }
 Copy-Item -LiteralPath $item.FullName "$env:TEMPDIR\$tarball"
+Invoke-Native "$env:SystemRoot\System32\tar.exe" -tvzf "$env:TEMPDIR\$tarball"
 "$env:TEMPDIR\$tarball"

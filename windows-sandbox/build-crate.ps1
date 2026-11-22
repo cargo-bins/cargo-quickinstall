@@ -208,11 +208,4 @@ try {
         }
     } finally { $writer.Dispose(); $gzip.Dispose() }
 } finally { $file.Dispose() }
-
-# List what went in.
-$file = [IO.File]::OpenRead($tarball)
-try {
-    $reader = [Formats.Tar.TarReader]::new([IO.Compression.GZipStream]::new($file, [IO.Compression.CompressionMode]::Decompress))
-    while ($entry = $reader.GetNextEntry()) { '{0} {1,12} {2}' -f $entry.Mode, $entry.Length, $entry.Name }
-} finally { $file.Dispose() }
 $tarball

@@ -34,15 +34,27 @@ $environment['PHASE'] = $Phase
 # internetClient. @() around the if: an empty array would come out of it as null.
 $capabilities = [string[]]@(if ($Phase -eq 'fetch') { 'S-1-15-3-1' })
 
-$pwsh = (Get-Process -Id $PID).Path
-# /s: strip only the outermost quotes, so the inner ones survive.
-$command = "`"$env:SystemRoot\System32\cmd.exe`" /d /s /c `"`"$pwsh`" -NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$PSScriptRoot\build-crate.ps1`" >> `"$Log`" 2>&1`""
-$process = [QuickinstallAppContainer]::Start($Container, $capabilities, $command, $env:HOME, $environment)
-try {
-    while (-not $process.WaitForExit(1000)) {}
-    $code = $process.ExitCode
-} finally {
-    # Kills everything the build left running.
-    $process.Dispose()
+# Runs commandLine in the AppContainer, appending its output to the log, and
+# returns its exit code once it and everything it started are gone.
+function Invoke-InContainer($commandLine) {
+    # /s: strip only the outermost quotes, so the inner ones survive.
+    $command = "`"$env:SystemRoot\System32\cmd.exe`" /d /s /c `"$commandLine >> `"$Log`" 2>&1`""
+    $process = [QuickinstallAppContainer]::Start($Container, $capabilities, $command, $env:HOME, $environment)
+    try {
+        while (-not $process.WaitForExit(1000)) {}
+        $process.ExitCode
+    } finally {
+        # Kills everything it left running.
+        $process.Dispose()
+    }
 }
-exit $code
+
+if ($Phase -eq 'build') {
+    # Make sure that it does not have network.
+    if (-not (Invoke-InContainer "`"$env:SystemRoot\System32\curl.exe`" -sS -m 10 -o NUL https://index.crates.io/config.json")) {
+        throw 'The build would have network in the AppContainer'
+    }
+}
+
+$pwsh = (Get-Process -Id $PID).Path
+exit (Invoke-InContainer "`"$pwsh`" -NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$PSScriptRoot\build-crate.ps1`"")
