@@ -14,6 +14,13 @@ param(
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
+# build.ps1 shows only the log: this runs as another user, without its
+# console.
+trap {
+    [IO.File]::AppendAllText($Log, "run.ps1 ($Phase): $_`n$($_.ScriptStackTrace)`n")
+    exit 1
+}
+
 Add-Type -Path "$PSScriptRoot\AppContainer.cs"
 # The profile gives the AppContainer its own folders and registry. Its SID
 # depends on the name only, so build.ps1 knows it already.
