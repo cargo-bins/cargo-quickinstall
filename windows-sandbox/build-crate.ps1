@@ -25,7 +25,9 @@ function Invoke-Native {
     if ($LASTEXITCODE) { throw "$exe exited with $LASTEXITCODE" }
 }
 
-New-Item -ItemType Directory -Force $env:TEMP, $env:OUT_DIR | Out-Null
+# .NET rather than cmdlets for files here: in the AppContainer, some cmdlets
+# (Remove-Item) fail on the access check of C:\, which it cannot read.
+$null = [IO.Directory]::CreateDirectory($env:TEMP), [IO.Directory]::CreateDirectory($env:OUT_DIR)
 
 $cargo = Join-Path $env:CARGO_HOME 'bin\cargo.exe'
 $rustup = Join-Path $env:CARGO_HOME 'bin\rustup.exe'
@@ -39,12 +41,12 @@ function Invoke-FetchCrate {
     $work = Join-Path $env:TEMP "cargo-fetch-$([guid]::NewGuid())"
     $root = Join-Path $work 'root'
     $empty = Join-Path $work 'empty'
-    New-Item -ItemType Directory (Join-Path $root 'src'), $empty | Out-Null
-    New-Item -ItemType File (Join-Path $root 'src\lib.rs') | Out-Null
+    $null = [IO.Directory]::CreateDirectory((Join-Path $root 'src')), [IO.Directory]::CreateDirectory($empty)
+    [IO.File]::WriteAllText((Join-Path $root 'src\lib.rs'), '')
     # The crate itself, and its index entry, through a package that depends
     # on it. That works for crates without a library too: cargo warns, but
     # resolves and downloads them anyway.
-    @"
+    [IO.File]::WriteAllText((Join-Path $root 'Cargo.toml'), @"
 [package]
 name = "quickinstall-fetch"
 version = "0.0.0"
@@ -53,17 +55,17 @@ publish = false
 
 [dependencies]
 $env:CRATE = "=$env:VERSION"
-"@ | Set-Content -LiteralPath (Join-Path $root 'Cargo.toml')
+"@)
     Push-Location $empty
     try {
         Invoke-Native $cargo fetch --manifest-path (Join-Path $root 'Cargo.toml')
 
         # What `cargo install --locked` builds with: the lockfile in the crate.
-        $crateFile = Get-ChildItem -Recurse -File (Join-Path $env:CARGO_HOME 'registry\cache') -Filter "$env:CRATE-$env:VERSION.crate" |
+        $crateFile = [IO.Directory]::EnumerateFiles((Join-Path $env:CARGO_HOME 'registry\cache'), "$env:CRATE-$env:VERSION.crate", 'AllDirectories') |
             Select-Object -First 1
         $extracted = Join-Path $work 'crate'
-        New-Item -ItemType Directory $extracted | Out-Null
-        $stream = [IO.File]::OpenRead($crateFile.FullName)
+        $null = [IO.Directory]::CreateDirectory($extracted)
+        $stream = [IO.File]::OpenRead($crateFile)
         try {
             $gzip = [IO.Compression.GZipStream]::new($stream, [IO.Compression.CompressionMode]::Decompress)
             [Formats.Tar.TarFile]::ExtractToDirectory($gzip, $extracted, $false)
@@ -71,9 +73,9 @@ $env:CRATE = "=$env:VERSION"
         $src = Join-Path $extracted "$env:CRATE-$env:VERSION"
         $manifest = Join-Path $src 'Cargo.toml'
         $lock = Join-Path $src 'Cargo.lock'
-        if (Test-Path -LiteralPath $lock) {
+        if ([IO.File]::Exists($lock)) {
             & $cargo fetch --locked --manifest-path $manifest
-            Remove-Item -LiteralPath $lock
+            [IO.File]::Delete($lock)
         }
 
         # And what it builds with without --locked: a fresh resolution, which,
@@ -82,7 +84,7 @@ $env:CRATE = "=$env:VERSION"
         & $cargo generate-lockfile --manifest-path $manifest
         if (-not $LASTEXITCODE) { & $cargo fetch --locked --manifest-path $manifest }
     } finally { Pop-Location }
-    Remove-Item -Recurse -Force -LiteralPath $work
+    [IO.Directory]::Delete($work, $true)
     $global:LASTEXITCODE = 0
 }
 
@@ -90,7 +92,7 @@ if ($phase -ne 'build') {
     $rustupInit = Join-Path $env:TEMP 'rustup-init.exe'
     Invoke-WebRequest "https://static.rust-lang.org/rustup/dist/$env:RUSTUP_HOST/rustup-init.exe" -OutFile $rustupInit
     Invoke-Native $rustupInit -y --quiet --profile minimal --no-modify-path --default-toolchain stable
-    Remove-Item $rustupInit
+    [IO.File]::Delete($rustupInit)
 
     if (-not (& $rustup target list --installed | Where-Object { $_ -eq $env:TARGET_ARCH })) {
         Invoke-Native $rustup target add $env:TARGET_ARCH
@@ -123,9 +125,9 @@ function Invoke-CargoInstall($features) {
 # is unrolled, so wrap each call in @() to always get an array back.
 function Get-Binaries {
     $crates2 = Join-Path $cargoRoot '.crates2.json'
-    if (-not (Test-Path -LiteralPath $crates2)) { return @() }
+    if (-not [IO.File]::Exists($crates2)) { return @() }
     # cargo leaves an empty file behind when it installed nothing.
-    $json = Get-Content -Raw $crates2 | ConvertFrom-Json -AsHashtable
+    $json = [IO.File]::ReadAllText($crates2) | ConvertFrom-Json -AsHashtable
     if (-not $json -or -not $json.ContainsKey('installs')) { return @() }
     @(
         $json.installs.GetEnumerator() |
@@ -137,10 +139,13 @@ function Get-Binaries {
 # The features that the crate's binary named after the crate needs, read from
 # the manifest that `cargo install` unpacked.
 function Get-BinRequiredFeatures {
-    $manifest = Get-ChildItem -Directory (Join-Path $env:CARGO_HOME 'registry\src') -ErrorAction SilentlyContinue |
-        ForEach-Object { Join-Path $_.FullName "$env:CRATE-$env:VERSION\Cargo.toml" } |
-        Where-Object { Test-Path -LiteralPath $_ } |
-        Select-Object -First 1
+    $registrySrc = Join-Path $env:CARGO_HOME 'registry\src'
+    $manifest = if ([IO.Directory]::Exists($registrySrc)) {
+        [IO.Directory]::GetDirectories($registrySrc) |
+            ForEach-Object { Join-Path $_ "$env:CRATE-$env:VERSION\Cargo.toml" } |
+            Where-Object { [IO.File]::Exists($_) } |
+            Select-Object -First 1
+    }
     if (-not $manifest) {
         "Could not find the manifest of $env:CRATE $env:VERSION" | Out-Host
         return @()
