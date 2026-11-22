@@ -73,6 +73,16 @@ def get_latest_version(
             max_version = version
             max_parsed_version = parsed_version
 
+    if max_version is not None:
+        # Features that use the `dep:` or `?/` syntax are in `features2`, so that older
+        # cargo versions can ignore them, and cargo merges the two. Without that, features
+        # like diesel_cli's `mysql-bundled` were never picked.
+        # https://doc.rust-lang.org/cargo/reference/registry-index.html#json-schema
+        max_version["features"] = {
+            **max_version.get("features", {}),
+            **(max_version.get("features2") or {}),
+        }
+
     return max_version
 
 
