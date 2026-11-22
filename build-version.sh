@@ -133,7 +133,7 @@ if [ -n "${SANDBOX:-}" ] && [ "${RUNNER_OS?}" = macOS ]; then
 fi
 
 if [ -n "${SANDBOX:-}" ] && [ "${RUNNER_OS?}" = Windows ]; then
-    # As a separate user at Low integrity, see windows-sandbox/build.ps1.
+    # In an AppContainer of a separate user, see windows-sandbox/build.ps1.
     TEMPDIR="$(cygpath -w "$TEMPDIR")"
     export TEMPDIR
     exec pwsh -NoProfile -NonInteractive -File windows-sandbox/build.ps1

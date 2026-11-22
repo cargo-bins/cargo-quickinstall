@@ -1,7 +1,7 @@
 # The Windows counterpart of build-crate.sh, which windows-sandbox/build.ps1
-# runs as the build user at Low integrity. build-crate.sh cannot run there:
-# the MSYS runtime behind Git's bash fails at Low integrity, because it
-# creates named objects where only Medium can.
+# runs in an AppContainer of the build user. build-crate.sh cannot run there:
+# the MSYS runtime behind Git's bash fails at Low integrity, which that is,
+# because it creates named objects where only Medium can.
 #
 # Installs a toolchain into CARGO_HOME and RUSTUP_HOME, builds
 # $CRATE@$VERSION for $TARGET_ARCH and packages its binaries into

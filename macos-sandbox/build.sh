@@ -96,6 +96,12 @@ run_sandboxed "$src/build.sb" /bin/bash -euo pipefail -c '
 # Nothing from the first run may still be running: it could reach the network.
 kill_build_user
 
+# Make sure that the profile does take the network away.
+if run_sandboxed "$src/build-offline.sb" /usr/bin/curl -sS -m 10 -o /dev/null https://index.crates.io/config.json; then
+    echo "The build would have network under build-offline.sb"
+    exit 1
+fi
+
 run_sandboxed "$src/build-offline.sb" /usr/bin/env PHASE=build "$src/build-crate.sh"
 
 kill_build_user

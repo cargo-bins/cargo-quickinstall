@@ -1,25 +1,29 @@
 # Runs build-crate.ps1, the Windows build-crate.sh, on a GitHub Windows
-# runner as a separate local user at Low integrity, and copies the tarball to
-# $env:TEMPDIR.
+# runner in an AppContainer of a separate local user, and copies the tarball
+# to $env:TEMPDIR.
 #
 # The runner user is an administrator, and the runner's credentials (a JWT
 # that can write Actions caches and artifacts of this run) sit in
 # C:\actions-runner, which every user can read and write by default. Here:
 #
 # - The build user is a new local user, not an administrator.
-# - Its processes run at Low integrity, so they cannot write to anything
-#   labelled Medium, which is everything not labelled otherwise: the tool and
-#   PATH directories, the runner's work directory and the files later steps
-#   read. They can write only to the work directory made for them.
+# - The build runs in an AppContainer of that user (see AppContainer.cs and
+#   run.ps1). That is Low integrity, so it cannot write to anything labelled
+#   Medium, and on top of that it can open only what grants access to the
+#   AppContainer or to all of them: the system and Program Files for reading,
+#   the work directory made for it, and what is granted below.
+# - It runs twice: build-crate.ps1's fetch phase, which installs Rust,
+#   downloads the crate and its dependencies, and runs no crate code, and then
+#   its build phase, which does, with no network: the AppContainer gets the
+#   internetClient capability for the fetch phase only.
 # - C:\actions-runner and the runner's work directory lose the access that
-#   every user inherits, so the build cannot read them either.
+#   every user inherits, so the build user's other processes cannot read them
+#   either.
 # - It gets the runner's environment without GITHUB_*, ACTIONS_*, RUNNER_*,
 #   INPUT_* and the runner's Rust settings.
-# - Every process it started is killed before the tarball is copied out.
-#
-# A process starts at the lower of its creator's integrity and its image's
-# label, so a copy of cmd.exe labelled Low starts the build at Low, and its
-# children inherit that.
+# - Everything it started is killed when each phase ends, by the job object
+#   the AppContainer runs in, and every process of the build user before the
+#   tarball is copied out.
 #
 # Needs CRATE, VERSION, TARGET_ARCH and TEMPDIR, and FEATURES and
 # NO_DEFAULT_FEATURES like build-crate.sh. The runner must have run nothing
@@ -49,6 +53,37 @@ foreach ($dir in 'C:\actions-runner', $runnerWork) {
     }
 }
 
+# AppContainers have no network isolation without the firewall service.
+if ((Get-Service mpssvc).Status -ne 'Running') { throw 'The Windows Firewall service is not running' }
+
+Add-Type -Path "$PSScriptRoot\AppContainer.cs"
+$container = 'quickinstall-build'
+$containerSid = [QuickinstallAppContainer]::Sid($container)
+
+# Devices grant nothing to AppContainers. Without NUL, programs cannot start
+# others with no stdin (cargo starting rustc). Without the mount manager,
+# paths cannot be canonicalized (cargo unpacking a crate). These last until
+# the runner reboots.
+$null = [QuickinstallAppContainer]::DeviceDacl('\\.\NUL', "(A;;GRGW;;;$containerSid)")
+$null = [QuickinstallAppContainer]::DeviceDacl('\\.\MountPointManager', "(A;;GR;;;$containerSid)")
+
+# Tools outside Program Files that builds use, for reading and running:
+# Strawberry Perl (openssl-src), the protoc and LLVM that build-version.sh
+# installs with Chocolatey, and the Visual Studio instances, by which the cc
+# crate finds MSVC. Once per runner: selfbuild.yml builds twice in one job.
+$tools = @(
+    'C:\Strawberry\perl'
+    "$env:ProgramData\chocolatey\bin"
+    "$env:ProgramData\Microsoft\VisualStudio"
+    Get-ChildItem -Directory "$env:ProgramData\chocolatey\lib" -ErrorAction SilentlyContinue |
+        Where-Object Name -Match '^(protoc|llvm)' | ForEach-Object FullName
+)
+foreach ($dir in $tools) {
+    if ((Test-Path -LiteralPath $dir) -and -not ((icacls $dir) -match [regex]::Escape($containerSid))) {
+        Invoke-Native icacls $dir /grant "*${containerSid}:(OI)(CI)RX" /T /C /Q
+    }
+}
+
 # A new user for every build, so that nothing one build left reaches the next
 # (selfbuild.yml builds twice in one job).
 $user = 'qibuild' + -join (1..8 | ForEach-Object { '{0:x}' -f (Get-Random -Maximum 16) })
@@ -57,14 +92,12 @@ $secure = ConvertTo-SecureString $password -AsPlainText -Force
 New-LocalUser -Name $user -Password $secure -PasswordNeverExpires -AccountNeverExpires | Out-Null
 
 $root = "C:\$user"
-$src = "$root\src"   # Medium, so the build cannot change it
-$bin = "$root\bin"   # the Low cmd.exe
+$src = "$root\src"   # the scripts, read-only for the build
 $work = "$root\work" # Low, the only place the build can write
-New-Item -ItemType Directory $src, $bin, $work | Out-Null
-Copy-Item "$PSScriptRoot\build-crate.ps1" $src
-Copy-Item "$env:SystemRoot\System32\cmd.exe" "$bin\cmd.exe"
-Invoke-Native icacls "$bin\cmd.exe" /setintegritylevel L /Q
-Invoke-Native icacls $work /grant "${user}:(OI)(CI)M" /Q
+New-Item -ItemType Directory $src, $work | Out-Null
+Copy-Item "$PSScriptRoot\build-crate.ps1", "$PSScriptRoot\run.ps1", "$PSScriptRoot\AppContainer.cs" $src
+Invoke-Native icacls $src /grant "${user}:(OI)(CI)RX" "*${containerSid}:(OI)(CI)RX" /Q
+Invoke-Native icacls $work /grant "${user}:(OI)(CI)M" "*${containerSid}:(OI)(CI)M" /Q
 Invoke-Native icacls $work /setintegritylevel '(OI)(CI)L' /Q
 
 $out = "$work\out"
@@ -72,9 +105,7 @@ $log = "$work\build.log"
 $pwsh = (Get-Process -Id $PID).Path
 $cargoHome = "$work\cargo"
 
-$psi = [Diagnostics.ProcessStartInfo]::new("$bin\cmd.exe")
-# /s: strip only the outermost quotes, so the inner ones survive.
-$psi.Arguments = "/d /s /c `"`"$pwsh`" -NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$src\build-crate.ps1`" > `"$log`" 2>&1`""
+$psi = [Diagnostics.ProcessStartInfo]::new($pwsh)
 $psi.UseShellExecute = $false
 $psi.UserName = $user
 $psi.Password = $secure
@@ -89,7 +120,8 @@ foreach ($name in @($psi.Environment.Keys)) {
     }
 }
 # MSYS programs (Git's bash, sh, perl and the rest of usr\bin) die at startup at
-# Low integrity, as they cannot create their shared objects. Drop their
+# Low integrity, as in the AppContainer, as they cannot create their shared
+# objects. Drop their
 # directories from PATH so that build scripts find the native tools instead,
 # for example Strawberry Perl for openssl-src.
 $path = ($env:PATH -split ';' | Where-Object {
@@ -129,29 +161,31 @@ function Stop-BuildUser {
     Disable-LocalUser -Name $user -ErrorAction SilentlyContinue
 }
 
-$code = 1
-try {
-    $process = [Diagnostics.Process]::Start($psi)
-    # Show the log as it grows.
-    $offset = 0
-    while ($true) {
-        $done = $process.WaitForExit(2000)
-        if (Test-Path $log) {
-            $stream = [IO.File]::Open($log, 'Open', 'Read', 'ReadWrite')
-            try {
-                $stream.Seek($offset, 'Begin') | Out-Null
-                $text = [IO.StreamReader]::new($stream).ReadToEnd()
-                $offset = $stream.Position
-            } finally { $stream.Dispose() }
-            if ($text) { [Console]::Out.Write($text) }
-        }
-        if ($done) { break }
+$offset = 0
+# Shows what the build added to the log since the last call.
+function Write-Log {
+    if (Test-Path $log) {
+        $stream = [IO.File]::Open($log, 'Open', 'Read', 'ReadWrite')
+        try {
+            $stream.Seek($script:offset, 'Begin') | Out-Null
+            $text = [IO.StreamReader]::new($stream).ReadToEnd()
+            $script:offset = $stream.Position
+        } finally { $stream.Dispose() }
+        if ($text) { [Console]::Out.Write($text) }
     }
-    $code = $process.ExitCode
+}
+
+try {
+    foreach ($phase in 'fetch', 'build') {
+        $psi.Arguments = "-NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$src\run.ps1`" -Phase $phase -Container $container -Log `"$log`""
+        $process = [Diagnostics.Process]::Start($psi)
+        while (-not $process.WaitForExit(2000)) { Write-Log }
+        Write-Log
+        if ($process.ExitCode) { throw "the $phase phase exited with $($process.ExitCode)" }
+    }
 } finally {
     Stop-BuildUser
 }
-if ($code) { throw "the build exited with $code" }
 
 # Only a regular file, so that a link cannot make the upload pick up
 # anything else.
