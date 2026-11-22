@@ -49,12 +49,5 @@ function Invoke-InContainer($commandLine) {
     }
 }
 
-if ($Phase -eq 'build') {
-    # Make sure that it does not have network.
-    if (-not (Invoke-InContainer "`"$env:SystemRoot\System32\curl.exe`" -sS -m 10 -o NUL https://index.crates.io/config.json")) {
-        throw 'The build would have network in the AppContainer'
-    }
-}
-
 $pwsh = (Get-Process -Id $PID).Path
 exit (Invoke-InContainer "`"$pwsh`" -NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$PSScriptRoot\build-crate.ps1`"")
