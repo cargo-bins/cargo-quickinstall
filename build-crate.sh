@@ -73,8 +73,12 @@ export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 # feature builds: it runs try_run() checks and runs programs it has just
 # built. So for the x86_64 targets, which the build machine can run, use a
 # toolchain file that builds natively with the same compilers.
+# For aarch64, use a toolchain file that cross-compiles like cargo-zigbuild's,
+# but builds MySQL's build tools for the host.
 if [[ "$TARGET_ARCH" = x86_64-unknown-linux-* ]]; then
     export "CMAKE_TOOLCHAIN_FILE_${TARGET_ARCH//-/_}=$PWD/cmake/linux-native-toolchain.cmake"
+elif [[ "$TARGET_ARCH" = aarch64-unknown-linux-* ]]; then
+    export "CMAKE_TOOLCHAIN_FILE_${TARGET_ARCH//-/_}=$PWD/cmake/linux-cross-toolchain.cmake"
 fi
 
 build_and_install() {
