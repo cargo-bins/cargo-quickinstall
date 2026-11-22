@@ -67,6 +67,16 @@ if [ -d "/opt/openssl/$TARGET_ARCH" ]; then
 fi
 export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 
+# cargo-zigbuild's CMake toolchain file sets CMAKE_SYSTEM_NAME, so CMake
+# cross-compiles even for x86_64 on x86_64. Some CMake projects can't be built
+# that way, such as MySQL's client library, which diesel_cli's mysql-bundled
+# feature builds: it runs try_run() checks and runs programs it has just
+# built. So for the x86_64 targets, which the build machine can run, use a
+# toolchain file that builds natively with the same compilers.
+if [[ "$TARGET_ARCH" = x86_64-unknown-linux-* ]]; then
+    export "CMAKE_TOOLCHAIN_FILE_${TARGET_ARCH//-/_}=$PWD/cmake/linux-native-toolchain.cmake"
+fi
+
 build_and_install() {
     # shellcheck disable=SC2086
     $CARGO install "$CRATE" \
