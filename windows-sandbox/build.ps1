@@ -84,6 +84,24 @@ foreach ($dir in $tools) {
     }
 }
 
+# MSVC's cl.exe and link.exe start its telemetry tool, vctip.exe, which
+# starts getmac.exe. Outside an AppContainer vctip.exe notes that it ran and
+# stays quiet for a while; inside one it cannot, so it ran for every cl.exe and
+# link.exe, which made a zellij build take twice as long. Builds do not need
+# it, so move it out of the way, as Chromium does. These are TrustedInstaller's,
+# so take them first. The runner is thrown away after the job.
+$vswhere = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+if (Test-Path -LiteralPath $vswhere) {
+    foreach ($vs in @(& $vswhere -all -products * -property installationPath)) {
+        Get-ChildItem -Recurse -File -Filter vctip.exe (Join-Path $vs 'VC\Tools\MSVC') -ErrorAction SilentlyContinue |
+            ForEach-Object {
+                Invoke-Native takeown /F $_.FullName /A | Out-Null
+                Invoke-Native icacls $_.FullName /grant '*S-1-5-32-544:F' /Q
+                Rename-Item -LiteralPath $_.FullName "$($_.Name).disabled"
+            }
+    }
+}
+
 # A new user for every build, so that nothing one build left reaches the next
 # (selfbuild.yml builds twice in one job).
 $user = 'qibuild' + -join (1..8 | ForEach-Object { '{0:x}' -f (Get-Random -Maximum 16) })
