@@ -31,7 +31,8 @@ foreach ($kv in [Environment]::GetEnvironmentVariables().GetEnumerator()) {
     $environment[$kv.Key] = $kv.Value
 }
 $environment['PHASE'] = $Phase
-$capabilities = if ($Phase -eq 'fetch') { [string[]]@('S-1-15-3-1') } else { [string[]]@() }
+# internetClient. @() around the if: an empty array would come out of it as null.
+$capabilities = [string[]]@(if ($Phase -eq 'fetch') { 'S-1-15-3-1' })
 
 $pwsh = (Get-Process -Id $PID).Path
 # /s: strip only the outermost quotes, so the inner ones survive.

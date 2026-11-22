@@ -287,6 +287,7 @@ public static class QuickinstallAppContainer
     public static Process Start(string name, string[] capabilities, string commandLine,
         string currentDirectory, IDictionary<string, string> environment)
     {
+        if (capabilities == null) capabilities = new string[0];
         IntPtr containerSid;
         int hr = DeriveAppContainerSidFromAppContainerName(name, out containerSid);
         if (hr != 0) Marshal.ThrowExceptionForHR(hr);
