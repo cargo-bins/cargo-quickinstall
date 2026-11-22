@@ -103,6 +103,11 @@ if ($phase -eq 'fetch') { exit 0 }
 $env:CARGO_NET_OFFLINE = 'true'
 
 $cargoRoot = Join-Path $env:TEMP "cargo-root-$([guid]::NewGuid())"
+# In an AppContainer GetTempPath ignores TEMP and TMP and returns the
+# container's own folder, work\AppData\Local\Packages\<name>\AC\Temp, which is
+# where `cargo install` would build. That is long enough to take OpenSSL's
+# object paths past MAX_PATH, so build in a short directory instead.
+$env:CARGO_TARGET_DIR = Join-Path $env:HOME 't'
 $env:CARGO_PROFILE_RELEASE_CODEGEN_UNITS = '1'
 $env:CARGO_PROFILE_RELEASE_LTO = 'fat'
 $env:OPENSSL_STATIC = '1'
