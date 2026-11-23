@@ -10,7 +10,8 @@ publish = false
 path = "lib.rs"
 
 [build-dependencies]
-openssl-src = "400"
+# OpenSSL 3, see the ignore in .github/dependabot.yml.
+openssl-src = "300"
 
 # Not part of the repository's workspace.
 [workspace]
