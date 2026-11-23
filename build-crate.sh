@@ -147,6 +147,16 @@ if [ -d "/opt/openssl/$TARGET_ARCH" ]; then
     openssl_dir_var="$(tr 'a-z-' 'A-Z_' <<<"$TARGET_ARCH")_OPENSSL_DIR"
     export "$openssl_dir_var=/opt/openssl/$TARGET_ARCH"
 fi
+# Likewise a static libseccomp and libcap-ng, for libseccomp-sys and capng.
+# Both link the system's shared library unless told otherwise.
+if [ -d "/opt/libseccomp/$TARGET_ARCH" ]; then
+    export LIBSECCOMP_LINK_TYPE=static
+    export LIBSECCOMP_LIB_PATH="/opt/libseccomp/$TARGET_ARCH/lib"
+fi
+if [ -d "/opt/libcap-ng/$TARGET_ARCH" ]; then
+    export LIBCAPNG_LINK_TYPE=static
+    export LIBCAPNG_LIB_PATH="/opt/libcap-ng/$TARGET_ARCH/lib"
+fi
 export CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 
 # cargo-zigbuild's CMake toolchain file sets CMAKE_SYSTEM_NAME, so CMake
