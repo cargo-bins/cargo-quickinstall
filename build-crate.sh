@@ -134,6 +134,11 @@ export CARGO_NET_OFFLINE=true
 CARGO_ROOT=$(mktemp -d 2>/dev/null || mktemp -d -t 'cargo-root')
 export CARGO_PROFILE_RELEASE_CODEGEN_UNITS="1"
 export CARGO_PROFILE_RELEASE_LTO="fat"
+# Some crates turn on debug info in their release profile, such as ripgrep's
+# `debug = 1`, and the package then ships it: ripgrep's x86_64 Linux tarball
+# is 6 MB instead of 1.8 MB. Turn it off. With no debug info, cargo also strips
+# it from the binary, and a `strip` the crate sets itself still applies.
+export CARGO_PROFILE_RELEASE_DEBUG=false
 export OPENSSL_STATIC=1
 # The sandbox image has a static OpenSSL for each Linux target, see
 # sandbox/Dockerfile. openssl-sys reads <TARGET>_OPENSSL_DIR, which unlike
