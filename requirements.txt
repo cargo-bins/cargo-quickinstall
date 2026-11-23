@@ -10,7 +10,7 @@ idna==3.20
     # via requests
 influxdb3-python==0.21.0
     # via cronjob-scripts (pyproject.toml)
-numpy==2.5.4
+numpy==2.5.5
     # via pyarrow
 polars==2.1.0
     # via cronjob-scripts (pyproject.toml)
@@ -18,11 +18,11 @@ pyarrow==26.0.1
     # via influxdb3-python
 python-dateutil==4.0.0
     # via influxdb3-python
-reactivex==6.1.0
+reactivex==6.1.1
     # via influxdb3-python
 requests==2.34.2
     # via cronjob-scripts (pyproject.toml)
-semver==3.1.1
+semver==3.1.2
     # via cronjob-scripts (pyproject.toml)
 setuptools==84.2.1
     # via influxdb3-python
