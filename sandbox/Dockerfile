@@ -45,7 +45,7 @@ RUN --mount=type=bind,source=supported-targets,target=/tmp/supported-targets \
     apt-get update \
     && apt-get install -y --no-install-recommends \
         autoconf automake build-essential ca-certificates clang cmake curl file \
-        git jq libtool lld llvm nasm ninja-build perl pkg-config \
+        git gperf jq libtool lld llvm nasm ninja-build perl pkg-config \
         protobuf-compiler python3 python3-venv unzip xz-utils \
     && rm -rf /var/lib/apt/lists/* \
     && targets="$(tr -s ' ' '\n' < /tmp/supported-targets | grep -- '-linux-')" \
