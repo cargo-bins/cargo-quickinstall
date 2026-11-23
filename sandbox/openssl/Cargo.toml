@@ -10,7 +10,7 @@ publish = false
 path = "lib.rs"
 
 [build-dependencies]
-openssl-src = "300"
+openssl-src = "400"
 
 # Not part of the repository's workspace.
 [workspace]
