@@ -23,9 +23,12 @@ fetch() {
 
 fetch https://github.com/seccomp/libseccomp/releases/download/v2.6.1/libseccomp-2.6.1.tar.gz \
     501f66c667225d53791b97e1d7cf85ab764c297d04881f60f38f451c4b0ee1be
-# Upstream publishes this one without a configure script.
-fetch https://people.redhat.com/sgrubb/libcap-ng/libcap-ng-0.8.5.tar.gz \
-    e4be07fdd234f10b866433f224d183626003c65634ed0552b02e654a380244c2
+# libcap-ng's GitHub releases have no tarball, so clone the release's commit,
+# which pins its contents by hash. It has no configure script, so generate
+# that, like its autogen.sh.
+git -c advice.detachedHead=false clone -q --depth 1 --branch v0.8.5 \
+    https://github.com/stevegrubb/libcap-ng "$src/libcap-ng-0.8.5"
+test "$(git -C "$src/libcap-ng-0.8.5" rev-parse HEAD)" = f5d39702622208b3ada064d7b2eaeaf1454c9bd3
 (cd "$src/libcap-ng-0.8.5" && touch NEWS && autoreconf -fi)
 
 # Configures and builds the library in source directory $1 for target $2,

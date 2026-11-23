@@ -58,10 +58,10 @@ RUN --mount=type=bind,source=supported-targets,target=/tmp/supported-targets \
     && rustup target add $targets \
     && python3 -m venv /opt/zigbuild \
     && /opt/zigbuild/bin/pip install --no-cache-dir -r /tmp/zigbuild-requirements.txt \
+    && TARGETS="$targets" /tmp/syslibs.sh \
     && export CARGO_TARGET_DIR=/tmp/openssl-target \
     && OPENSSL_TARGETS="$targets" OPENSSL_PREFIX=/opt/openssl \
         cargo build --locked --release --manifest-path /tmp/openssl/Cargo.toml \
-    && TARGETS="$targets" /tmp/syslibs.sh \
     && llvm-strip --strip-debug /opt/{openssl,libseccomp,libcap-ng}/*/lib/*.a \
     && chmod -R a+rX /opt/openssl /opt/libseccomp /opt/libcap-ng \
     && chmod -R a+rwX /opt/zigbuild \
