@@ -31,17 +31,22 @@ ARG RUST_TOOLCHAIN=stable
 # build. sandbox/openssl/build.rs builds it with openssl-src, the way the
 # `vendored` feature does, for all the targets at once.
 #
+# Likewise a static libseccomp and libcap-ng for every Linux target, in
+# /opt/libseccomp/<target> and /opt/libcap-ng/<target>, which
+# sandbox/syslibs.sh builds and virtiofsd links.
+#
 # One step, with the inputs bind-mounted rather than copied, so that the
 # image is a single layer on top of the base, and neither the inputs nor
 # anything the step deletes again end up in it.
 RUN --mount=type=bind,source=supported-targets,target=/tmp/supported-targets \
     --mount=type=bind,source=zigbuild-requirements.txt,target=/tmp/zigbuild-requirements.txt \
     --mount=type=bind,source=sandbox/openssl,target=/tmp/openssl \
+    --mount=type=bind,source=sandbox/syslibs.sh,target=/tmp/syslibs.sh \
     apt-get update \
     && apt-get install -y --no-install-recommends \
-        build-essential ca-certificates clang cmake curl file git jq lld llvm \
-        nasm ninja-build perl pkg-config protobuf-compiler python3 python3-venv \
-        unzip xz-utils \
+        autoconf automake build-essential ca-certificates clang cmake curl file \
+        git jq libtool lld llvm nasm ninja-build perl pkg-config \
+        protobuf-compiler python3 python3-venv unzip xz-utils \
     && rm -rf /var/lib/apt/lists/* \
     && targets="$(tr -s ' ' '\n' < /tmp/supported-targets | grep -- '-linux-')" \
     && url="https://static.rust-lang.org/rustup/dist/$(uname -m)-unknown-linux-gnu/rustup-init" \
@@ -56,8 +61,9 @@ RUN --mount=type=bind,source=supported-targets,target=/tmp/supported-targets \
     && export CARGO_TARGET_DIR=/tmp/openssl-target \
     && OPENSSL_TARGETS="$targets" OPENSSL_PREFIX=/opt/openssl \
         cargo build --locked --release --manifest-path /tmp/openssl/Cargo.toml \
-    && llvm-strip --strip-debug /opt/openssl/*/lib/*.a \
-    && chmod -R a+rX /opt/openssl \
+    && TARGETS="$targets" /tmp/syslibs.sh \
+    && llvm-strip --strip-debug /opt/{openssl,libseccomp,libcap-ng}/*/lib/*.a \
+    && chmod -R a+rX /opt/openssl /opt/libseccomp /opt/libcap-ng \
     && chmod -R a+rwX /opt/zigbuild \
     && rm -rf "$CARGO_TARGET_DIR" "$CARGO_HOME/registry" "$HOME/.cache" \
     && chmod -R a+rX "$RUSTUP_HOME" "$CARGO_HOME"
