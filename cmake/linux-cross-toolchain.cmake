@@ -50,7 +50,8 @@ function(_quickinstall_mysql_host_tools)
 
   set(host "${CMAKE_BINARY_DIR}/quickinstall-host-tools")
   # comp_err uses OpenSSL through mysys, so the host build needs one too.
-  set(host_ssl "/opt/openssl/${CMAKE_HOST_SYSTEM_PROCESSOR}-unknown-linux-gnu")
+  # OpenSSL 3, which MySQL supports.
+  set(host_ssl "/opt/openssl/3/${CMAKE_HOST_SYSTEM_PROCESSOR}-unknown-linux-gnu")
   if(NOT EXISTS "${host_ssl}")
     set(host_ssl system)
   endif()

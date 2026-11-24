@@ -54,6 +54,11 @@ updates:
       deps:
         patterns:
           - "*"
+    ignore:
+      # It builds OpenSSL 3 and 4 from two openssl-src dependencies, so keep
+      # each on its major version.
+      - dependency-name: "openssl-src"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: "pip"
     # This will update requirements.txt
     directory: "/"

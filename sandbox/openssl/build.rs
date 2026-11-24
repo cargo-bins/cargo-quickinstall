@@ -1,5 +1,10 @@
-//! Builds a static OpenSSL with openssl-src for every target in
-//! OPENSSL_TARGETS (separated by spaces) into OPENSSL_PREFIX/<target>.
+//! Builds a static OpenSSL 3 and OpenSSL 4 with openssl-src for every target
+//! in OPENSSL_TARGETS (separated by spaces) into OPENSSL_PREFIX/3/<target> and
+//! OPENSSL_PREFIX/4/<target>.
+//!
+//! Both, because openssl-sys only accepts OpenSSL 4 since 0.9.114, and the
+//! build script of an older one, which many crates still have in their
+//! lockfile, aborts on it. build-crate.sh picks one by that version.
 //!
 //! It runs as a build script so that the `make` of every target shares
 //! cargo's jobserver, and the targets build at the same time.
@@ -61,21 +66,28 @@ fn main() {
         }
     }
 
-    fs::create_dir_all(&prefix).unwrap();
+    fs::create_dir_all(prefix.join("3")).unwrap();
+    fs::create_dir_all(prefix.join("4")).unwrap();
+    // References, for the threads to copy.
+    let (out_dir, host, prefix) = (&out_dir, host.as_str(), &prefix);
+    // The same builder, from either version of openssl-src.
+    macro_rules! build {
+        ($openssl_src:ident, $major:literal, $target:expr) => {{
+            let target: &str = $target;
+            let build = out_dir.join(format!("{}-{target}", $major));
+            $openssl_src::Build::new()
+                .target(target)
+                .host(host)
+                .out_dir(&build)
+                .build();
+            fs::rename(build.join("install"), prefix.join($major).join(target)).unwrap();
+        }};
+    }
+
     thread::scope(|s| {
-        for target in &targets {
-            s.spawn(|| {
-                // The &str in `targets`, so that the thread borrows that
-                // rather than the loop variable.
-                let target = *target;
-                let build = out_dir.join(target);
-                openssl_src::Build::new()
-                    .target(target)
-                    .host(&host)
-                    .out_dir(&build)
-                    .build();
-                fs::rename(build.join("install"), prefix.join(target)).unwrap();
-            });
+        for &target in &targets {
+            s.spawn(move || build!(openssl_src_3, "3", target));
+            s.spawn(move || build!(openssl_src_4, "4", target));
         }
     });
 }
