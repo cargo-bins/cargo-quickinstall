@@ -1,5 +1,5 @@
 # Builds nothing of its own: sandbox/Dockerfile builds this so that build.rs
-# runs, which builds a static OpenSSL for every Linux target.
+# runs, which builds a static OpenSSL 3 and 4 for every Linux target.
 [package]
 name = "sandbox-openssl"
 version = "0.0.0"
@@ -10,8 +10,9 @@ publish = false
 path = "lib.rs"
 
 [build-dependencies]
-# OpenSSL 3, see the ignore in .github/dependabot.yml.
-openssl-src = "300"
+# .github/dependabot.yml keeps each of them on its major version.
+openssl-src-3 = { package = "openssl-src", version = "300" }
+openssl-src-4 = { package = "openssl-src", version = "400" }
 
 # Not part of the repository's workspace.
 [workspace]

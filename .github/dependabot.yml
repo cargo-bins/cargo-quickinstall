@@ -55,12 +55,10 @@ updates:
         patterns:
           - "*"
     ignore:
-      # Stay on OpenSSL 3. openssl-sys only accepts OpenSSL 4 since 0.9.114
-      # (April 2026), and the build script of any older one, which many
-      # crates still have in their lockfile, aborts on it.
+      # It builds OpenSSL 3 and 4 from two openssl-src dependencies, so keep
+      # each on its major version.
       - dependency-name: "openssl-src"
-        versions:
-          - ">= 400"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: "pip"
     # This will update requirements.txt
     directory: "/"

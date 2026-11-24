@@ -66,6 +66,17 @@ if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     install_zig_cc_and_config_to_use_it
 fi
 
+# Where fetch_crate records the version of openssl-sys in the lockfile that
+# `cargo install` builds with, with and without --locked, for
+# build_and_install to pick the sandbox's OpenSSL by.
+openssl_sys_state="${CARGO_HOME:-$HOME/.cargo}/quickinstall-openssl-sys"
+
+# Prints the version of openssl-sys in the lockfile $1, if it has one. There
+# is at most one, as it sets `links`.
+openssl_sys_version() {
+    sed -n '/^name = "openssl-sys"$/{n;s/^version = "\(.*\)"$/\1/p;}' "$1" | head -n 1
+}
+
 # Downloads $CRATE@$VERSION and every package that `cargo install` can need
 # for it, with or without --locked and with any features, into CARGO_HOME.
 #
@@ -98,7 +109,9 @@ EOF
     mkdir -p "$work/crate"
     tar -xzf "$crate_file" -C "$work/crate"
     src="$work/crate/$CRATE-$VERSION"
+    rm -f "$openssl_sys_state".*
     if [ -f "$src/Cargo.lock" ]; then
+        openssl_sys_version "$src/Cargo.lock" >"$openssl_sys_state.locked"
         (cd / && cargo fetch --locked --manifest-path "$src/Cargo.toml") || true
     fi
 
@@ -109,6 +122,7 @@ EOF
     (
         cd /
         cargo generate-lockfile --manifest-path "$src/Cargo.toml"
+        openssl_sys_version "$src/Cargo.lock" >"$openssl_sys_state.unlocked"
         cargo fetch --locked --manifest-path "$src/Cargo.toml"
     ) || true
 
@@ -140,13 +154,25 @@ export CARGO_PROFILE_RELEASE_LTO="fat"
 # it from the binary, and a `strip` the crate sets itself still applies.
 export CARGO_PROFILE_RELEASE_DEBUG=false
 export OPENSSL_STATIC=1
-# The sandbox image has a static OpenSSL for each Linux target, see
-# sandbox/Dockerfile. openssl-sys reads <TARGET>_OPENSSL_DIR, which unlike
-# OPENSSL_DIR leaves alone any openssl-sys that build scripts need for the host.
-if [ -d "/opt/openssl/$TARGET_ARCH" ]; then
+# The sandbox image has a static OpenSSL 3 and 4 for each Linux target, see
+# sandbox/Dockerfile. build_and_install points openssl-sys at one of them
+# through <TARGET>_OPENSSL_DIR, which unlike OPENSSL_DIR leaves alone any
+# openssl-sys that build scripts need for the host.
+if [ -d "/opt/openssl/3/$TARGET_ARCH" ]; then
     openssl_dir_var="$(tr 'a-z-' 'A-Z_' <<<"$TARGET_ARCH")_OPENSSL_DIR"
-    export "$openssl_dir_var=/opt/openssl/$TARGET_ARCH"
 fi
+
+# Prints the major version of OpenSSL to build openssl-sys $1 with: 3 if it is
+# older than 0.9.114, the first that accepts OpenSSL 4, whose build script
+# aborts on it, or else 4.
+openssl_major() {
+    if [[ "$1" =~ ^0\.([0-9]+)\.([0-9]+) ]] &&
+        ((BASH_REMATCH[1] < 9 || (BASH_REMATCH[1] == 9 && BASH_REMATCH[2] < 114))); then
+        echo 3
+    else
+        echo 4
+    fi
+}
 # Likewise a static libseccomp and libcap-ng, for libseccomp-sys and capng.
 # Both link the system's shared library unless told otherwise.
 if [ -d "/opt/libseccomp/$TARGET_ARCH" ]; then
@@ -174,6 +200,17 @@ elif [[ "$TARGET_ARCH" = aarch64-unknown-linux-* ]]; then
 fi
 
 build_and_install() {
+    if [ -n "${openssl_dir_var:-}" ]; then
+        # Without a lockfile in the crate, --locked resolves like without.
+        local lockfile=unlocked
+        if [ "${1:-}" = --locked ] && [ -f "$openssl_sys_state.locked" ]; then
+            lockfile=locked
+        fi
+        local major
+        major="$(openssl_major "$(cat "$openssl_sys_state.$lockfile" 2>/dev/null)")"
+        export "$openssl_dir_var=/opt/openssl/$major/$TARGET_ARCH"
+        echo "Using OpenSSL $major"
+    fi
     # shellcheck disable=SC2086
     $CARGO install "$CRATE" \
         --version "$VERSION" \

@@ -24,7 +24,7 @@ SHELL ["/bin/bash", "-euo", "pipefail", "-c"]
 # The first field of sandbox/image-tag.sh's output.
 ARG RUST_TOOLCHAIN=stable
 # The build tools, Rust with every Linux target, cargo-zigbuild, and a static
-# OpenSSL for every Linux target, in /opt/openssl/<target>, that
+# OpenSSL 3 and 4 for every Linux target, in /opt/openssl/{3,4}/<target>, that
 # build-crate.sh points openssl-sys at. Builds run with PKG_CONFIG set to a
 # script that always fails, so without it every crate that has openssl-sys
 # among its dependencies, but no `vendored` feature of its own, fails to
@@ -62,7 +62,7 @@ RUN --mount=type=bind,source=supported-targets,target=/tmp/supported-targets \
     && export CARGO_TARGET_DIR=/tmp/openssl-target \
     && OPENSSL_TARGETS="$targets" OPENSSL_PREFIX=/opt/openssl \
         cargo build --locked --release --manifest-path /tmp/openssl/Cargo.toml \
-    && llvm-strip --strip-debug /opt/{openssl,libseccomp,libcap-ng}/*/lib/*.a \
+    && llvm-strip --strip-debug /opt/openssl/*/*/lib/*.a /opt/{libseccomp,libcap-ng}/*/lib/*.a \
     && chmod -R a+rX /opt/openssl /opt/libseccomp /opt/libcap-ng \
     && chmod -R a+rwX /opt/zigbuild \
     && rm -rf "$CARGO_TARGET_DIR" "$CARGO_HOME/registry" "$HOME/.cache" \
