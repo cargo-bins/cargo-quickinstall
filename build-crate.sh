@@ -66,9 +66,8 @@ if [[ "$TARGET_ARCH" == *"-linux-"* ]]; then
     install_zig_cc_and_config_to_use_it
 fi
 
-# Where fetch_crate records the version of openssl-sys in the lockfile that
-# `cargo install` builds with, with and without --locked, for
-# build_and_install to pick the sandbox's OpenSSL by.
+# Where fetch_crate records the version of openssl-sys in the crate's lockfile
+# and in a fresh one, for build_and_install to pick the sandbox's OpenSSL by.
 openssl_sys_state="${CARGO_HOME:-$HOME/.cargo}/quickinstall-openssl-sys"
 
 # Prints the version of openssl-sys in the lockfile $1, if it has one. There
@@ -201,9 +200,11 @@ fi
 
 build_and_install() {
     if [ -n "${openssl_dir_var:-}" ]; then
-        # Without a lockfile in the crate, --locked resolves like without.
+        # Without --locked, cargo install still prefers the versions in the
+        # crate's lockfile, such as librespot 0.8.0's openssl-sys 0.9.111,
+        # so go by that lockfile whenever there is one.
         local lockfile=unlocked
-        if [ "${1:-}" = --locked ] && [ -f "$openssl_sys_state.locked" ]; then
+        if [ -f "$openssl_sys_state.locked" ]; then
             lockfile=locked
         fi
         local major
