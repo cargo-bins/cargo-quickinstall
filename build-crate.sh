@@ -289,8 +289,13 @@ done
 # TODO: maybe we want to make a ~/.cargo-quickinstall/bin to untar into,
 # and add symlinks into ~/.cargo/bin, to aid debugging?
 #
+# ustar, not tar's default: macOS's bsdtar writes sparse files with pax
+# GNU.sparse headers, which some tar readers unpack under the wrong name
+# (#87). ustar has no extension headers, so holes are written out as zeros.
+# --numeric-owner leaves out the build user's name, as V7 tarballs did.
+#
 # BINARIES is a space-separated list of files, so it can't be quoted
 # shellcheck disable=SC2086
-tar --format=v7 -c $BINARIES | gzip -9 -c >"${OUT_DIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
+tar --format=ustar --numeric-owner -c $BINARIES | gzip -9 -c >"${OUT_DIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
 
 echo "${OUT_DIR}/${CRATE}-${VERSION}-${TARGET_ARCH}.tar.gz"
