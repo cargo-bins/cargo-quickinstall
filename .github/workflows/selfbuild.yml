@@ -113,7 +113,13 @@ jobs:
               --fail "https://crates.io/api/v1/crates/$CRATE" \
               | jq -r '.crate|.max_stable_version'
           )"
+          TEMPDIR="$(mktemp -d)"
+          export TEMPDIR
           ALWAYS_BUILD=1 VERSION="$VERSION" TARGET_ARCH="$TARGET_ARCH" ./build-version.sh "$CRATE"
+          # The check the Sign job runs, which pull requests skip: each OS
+          # writes the tarball with a different tar.
+          if [ "$RUNNER_OS" = Windows ]; then python=python; else python=python3; fi
+          "$python" -I .github/scripts/check-tarball.py "$TEMPDIR/$CRATE-$VERSION-$TARGET_ARCH.tar.gz"
 
   build-package-test:
     name: Build package test

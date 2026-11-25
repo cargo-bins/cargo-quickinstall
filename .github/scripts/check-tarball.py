@@ -4,6 +4,10 @@
 Clients untar the tarball straight into ~/.cargo/bin, and the build that made
 it ran crate code, so only plain files with plain names may be signed.
 
+Each entry must also be a single ustar header: no V7 headers, GNU headers or
+pax extended headers, so that strict tar readers (cargo-binstall's among
+them) read the tarball the same way as any other.
+
 The Sign job holds the signing key, so it runs this file from the commit its
 workflow runs from (main, for runs on the `builds` branch), never from the
 branch being built. Standard library only.
@@ -36,15 +40,26 @@ RESERVED = {
 NAME = re.compile(r"[A-Za-z0-9_][A-Za-z0-9_.+-]*")
 
 
-def problems(members: list[tarfile.TarInfo]) -> list[str]:
+USTAR_MAGIC = b"ustar\x0000"
+
+
+def problems(members: list[tarfile.TarInfo], headers: list[bytes]) -> list[str]:
     found = []
     if not members:
         found.append("the tarball is empty")
     seen = set()
-    for m in members:
+    for m, header in zip(members, headers, strict=True):
         name = m.name
         if not m.isreg():
             found.append(f"{name!r} is not a regular file")
+        # tarfile reports an entry at its first header, so an extended header
+        # in front of it shows up as data starting after more than one block.
+        if (
+            header[257:265] != USTAR_MAGIC
+            or header[156:157] != tarfile.REGTYPE
+            or m.offset_data != m.offset + tarfile.BLOCKSIZE
+        ):
+            found.append(f"{name!r} is not a single ustar header")
         if not NAME.fullmatch(name) or name in (".", ".."):
             found.append(f"{name!r} is not a plain file name")
         if m.mode & 0o7000:
@@ -62,7 +77,14 @@ def main() -> int:
     (path,) = sys.argv[1:]
     with tarfile.open(path, "r:gz") as tar:
         members = tar.getmembers()
-    found = problems(members)
+        headers = []
+        for m in members:
+            tar.fileobj.seek(m.offset)
+            headers.append(tar.fileobj.read(tarfile.BLOCKSIZE))
+        if tar.pax_headers:
+            print("::error::the tarball has a pax global header")
+            return 1
+    found = problems(members, headers)
     for p in found:
         print(f"::error::{p}")
     if found:
