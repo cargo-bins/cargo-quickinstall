@@ -57,15 +57,20 @@ class TestTriggerForTarget(unittest.TestCase):
     def test_triggers_once_per_run(self):
         # "requested" has everything in "failed", so a run sees a crate twice.
         triggered = set()
-        self.assertTrue(trigger_for_target(self.queue("failed"), 0, triggered))
-        self.assertFalse(trigger_for_target(self.queue("requested"), 0, triggered))
+        trigger_for_target(self.queue("failed"), 0, triggered)
+        trigger_for_target(self.queue("requested"), 0, triggered)
         self.assertEqual(self.run_mock.call_count, 1)
         self.assertEqual(triggered, {("ripgrep", "15.1.0", "x86_64-unknown-linux-gnu")})
 
     def test_triggers_each_target(self):
         triggered = set()
         for target in ["x86_64-unknown-linux-gnu", "aarch64-apple-darwin"]:
-            self.assertTrue(
-                trigger_for_target(self.queue("failed", target), 0, triggered)
-            )
+            trigger_for_target(self.queue("failed", target), 0, triggered)
         self.assertEqual(self.run_mock.call_count, 2)
+        self.assertEqual(
+            triggered,
+            {
+                ("ripgrep", "15.1.0", "x86_64-unknown-linux-gnu"),
+                ("ripgrep", "15.1.0", "aarch64-apple-darwin"),
+            },
+        )

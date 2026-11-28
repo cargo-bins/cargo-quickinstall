@@ -24,10 +24,12 @@ from cronjob_scripts.types import CrateAndMaybeVersion, CrateAndVersion, GithubA
 
 MAX_CHECKS_PER_QUEUE = 1000
 # GitHub runs the hourly schedule only a few times a day, so trigger enough
-# builds per run to keep up with the install requests that missed.
+# builds per run to keep up with the install requests that missed. A run gets
+# this many builds per target, and any target can use them.
 MAX_TRIGGERS_PER_TARGET = 4
 # The builds run offline in a fixed sandbox, so building a version that failed
-# again fails the same way. Give up on a crate after this many failures.
+# again fails the same way. Give up on a crate, whatever the version, after
+# this many failures on a target in the last 7 days.
 MAX_FAILURES = 2
 
 
@@ -59,13 +61,13 @@ def main():
             * a list with just cargo-quickinstall and nothing else (if doing the weekly recheck job)
     * shuffle the list of lists and then round-robin between each list:
         * take the head of the list
-        * if we already triggered this version of the package for this target in this run, skip it
         * if we already tried to build this package MAX_FAILURES times in the last 7 days, skip it
           (TODO: also record the version in the failure log?)
         * if this version of the package failed on a compile error in its own source, skip it
           for good, see get_unbuildable()
         * check its latest version + if we have a package built for it. If we don't have a package
-          built for it, trigger a build
+          built for it, and this run did not already trigger this version for this target, trigger
+          a build
             * if we already triggered MAX_TRIGGERS_PER_TARGET times the number of targets package
               builds since the start of the run, exit
     * if we hit a github rate limit when doing this, this is fine and we just bomb out having made some progress?
@@ -176,13 +178,13 @@ def main():
 
 def trigger_for_target(
     queue: QueueInfo, index: int, triggered: set[tuple[str, str, str]]
-) -> bool:
+) -> None:
     """
     Triggers a build of the crate at `index` in `queue` unless it needs none, or
     this run already triggered it, and adds what it triggered to `triggered`.
     """
     if len(queue.queue) <= index:
-        return False
+        return
     crate_and_maybe_version = queue.queue[index]
     print(
         f"Checking build for {queue.target} '{queue.type}': {crate_and_maybe_version}"
@@ -194,7 +196,7 @@ def trigger_for_target(
     # in URLs, workflow inputs and shell scripts.
     if not is_valid_crate_name(crate):
         print(f"Skipping invalid crate name {crate!r}")
-        return False
+        return
 
     print(f"Checking {crate} {requested_version} for {queue.target}")
     repo_url = get_repo_url()
@@ -206,12 +208,12 @@ def trigger_for_target(
         unbuildable=queue.unbuildable,
     )
     if not version:
-        return False
+        return
 
     build = (crate, version["vers"], queue.target)
     if build in triggered:
         print(f"Already triggered {crate} {version['vers']} for {queue.target}")
-        return False
+        return
 
     no_default_features = "false"
     if crate == "gitoxide":
@@ -253,7 +255,6 @@ def trigger_for_target(
         check=True,
     )
     triggered.add(build)
-    return True
 
 
 # crates.io only allows ASCII alphanumerics, `-` and `_`, at most 64 characters.
