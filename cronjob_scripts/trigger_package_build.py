@@ -23,6 +23,12 @@ from cronjob_scripts.types import CrateAndMaybeVersion, CrateAndVersion, GithubA
 
 
 MAX_CHECKS_PER_QUEUE = 1000
+# GitHub runs the hourly schedule only a few times a day, so trigger enough
+# builds per run to keep up with the install requests that missed.
+MAX_TRIGGERS_PER_TARGET = 4
+# The builds run offline in a fixed sandbox, so building a version that failed
+# again fails the same way. Give up on a crate after this many failures.
+MAX_FAILURES = 2
 
 
 @dataclass
@@ -53,15 +59,15 @@ def main():
             * a list with just cargo-quickinstall and nothing else (if doing the weekly recheck job)
     * shuffle the list of lists and then round-robin between each list:
         * take the head of the list
-        * if we already checked this package for this target, skip it
-        * if we already tried to build this package 5 times in the last 7 days, skip it
+        * if we already triggered this version of the package for this target in this run, skip it
+        * if we already tried to build this package MAX_FAILURES times in the last 7 days, skip it
           (TODO: also record the version in the failure log?)
         * if this version of the package failed on a compile error in its own source, skip it
           for good, see get_unbuildable()
         * check its latest version + if we have a package built for it. If we don't have a package
           built for it, trigger a build
-            * if we already triggered m package builds since the start of the run, exit (probably
-              set this to n times the number of targets?)
+            * if we already triggered MAX_TRIGGERS_PER_TARGET times the number of targets package
+              builds since the start of the run, exit
     * if we hit a github rate limit when doing this, this is fine and we just bomb out having made some progress?
     * if we get to the end without triggering any builds then that's fine too: there's nothing to do.
 
@@ -101,7 +107,9 @@ def main():
             continue
 
         tracking_worktree_path = checkout_worktree_for_target(target)
-        excluded = get_excluded(tracking_worktree_path, days=7, max_failures=5)
+        excluded = get_excluded(
+            tracking_worktree_path, days=7, max_failures=MAX_FAILURES
+        )
         unbuildable = get_unbuildable(tracking_worktree_path)
 
         # This should be a small list of crates, so we should get around to checking everything here
@@ -148,26 +156,31 @@ def main():
     random.shuffle(queues)
 
     max_index = min(max(len(q.queue) for q in queues), MAX_CHECKS_PER_QUEUE)
-    max_triggers = 2 * len(targets)
+    max_triggers = MAX_TRIGGERS_PER_TARGET * len(targets)
     print(
         f"Checking {max_index} crates per queue ({len(queues)} queues), to trigger at most {max_triggers} builds"
     )
-    triggered_count = 0
+    # The queues of a target overlap: "requested" has everything in "failed".
+    triggered: set[tuple[str, str, str]] = set()
     for index in range(max_index + 1):
         for queue in queues:
-            triggered = trigger_for_target(queue, index)
+            trigger_for_target(queue, index, triggered)
             time.sleep(1)
-            if triggered:
-                triggered_count += 1
-                if triggered_count >= max_triggers:
-                    print(f"Triggered enough builds ({triggered_count}), exiting")
-                    return
+            if len(triggered) >= max_triggers:
+                print(f"Triggered enough builds ({len(triggered)}), exiting")
+                return
     print(
-        f"Checked {max_index} crates per queue ({len(queues)} queues) and triggered {triggered_count} builds, exiting"
+        f"Checked {max_index} crates per queue ({len(queues)} queues) and triggered {len(triggered)} builds, exiting"
     )
 
 
-def trigger_for_target(queue: QueueInfo, index: int) -> bool:
+def trigger_for_target(
+    queue: QueueInfo, index: int, triggered: set[tuple[str, str, str]]
+) -> bool:
+    """
+    Triggers a build of the crate at `index` in `queue` unless it needs none, or
+    this run already triggered it, and adds what it triggered to `triggered`.
+    """
     if len(queue.queue) <= index:
         return False
     crate_and_maybe_version = queue.queue[index]
@@ -193,6 +206,11 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         unbuildable=queue.unbuildable,
     )
     if not version:
+        return False
+
+    build = (crate, version["vers"], queue.target)
+    if build in triggered:
+        print(f"Already triggered {crate} {version['vers']} for {queue.target}")
         return False
 
     no_default_features = "false"
@@ -234,6 +252,7 @@ def trigger_for_target(queue: QueueInfo, index: int) -> bool:
         input=json.dumps(workflow_run_input).encode(),
         check=True,
     )
+    triggered.add(build)
     return True
 
 
